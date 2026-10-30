@@ -8,6 +8,9 @@
  */
 :root {
   color-scheme: light;
+  /* only the lamplit look dims pictures */
+  --night-veil: none;
+  --print-dim: none;
 
   /* paper */
   --c-bg: #f3e8d0;
@@ -29,6 +32,9 @@
   --c-text-muted: #5e432c;
   --c-border: #d6c29c;
   --c-border-strong: #8a6a4a;
+  /* the carved outline of raised things, and the thin line under them */
+  --c-line: #2f1d0f;
+  --c-lift: #2f1d0f;
 
   /* the print's colours: vermilion (links, the main button, focus), leaf (the adults' shelf), turmeric (fills
      under ink text only) */
@@ -41,6 +47,7 @@
   --c-on-ink: #f6ecd4;
   --c-leaf: #3a6229;
   --c-turmeric: #e8b13a;
+  --c-on-turmeric: #2f1d0f;
   --c-vermilion: #b8401f;
   --c-error: #981b1b;
   --c-focus: #a3321a;
@@ -77,10 +84,14 @@
   --c-focus-on-dark: #f0b43c;
   /* focus on a vermilion or ink fill: an ink ring set off from it, never the fill's own colour */
   --c-focus-ring-on-accent: #2f1d0f;
+  /* behind an open sheet; and the sleep timer's dark, with its good-night words */
+  --c-scrim: rgb(23 17 11 / 0.45);
+  --c-sleep: #0b0805;
+  --c-sleep-text: #c4a882;
 
   /* depth: paper lifted off paper, never glow. One rule for every raised thing: a thin ink line under it. */
-  --lift: 0 2px 0 var(--c-text);
-  --lift-hover: 0 3px 0 var(--c-text);
+  --lift: 0 2px 0 var(--c-lift);
+  --lift-hover: 0 3px 0 var(--c-lift);
   --shadow-card: 0 1px 0 rgb(47 29 15 / 0.08), 0 10px 24px -16px rgb(47 29 15 / 0.45);
   --shadow-print: 0 2px 0 rgb(47 29 15 / 0.12), 0 22px 40px -22px rgb(47 29 15 / 0.6);
   --shadow-book: 0 1px 0 var(--c-page-edge), 0 2px 0 var(--c-border-strong), 0 3px 0 var(--c-page-edge), 0 4px 0 var(--c-border-strong), 0 24px 40px -24px rgb(47 29 15 / 0.55);
@@ -116,6 +127,7 @@
   --topbar-h: 64px;
   --tap: 44px;
   --dur-base: 200ms;
+  --dur-sheet: 240ms;
   --ease: cubic-bezier(0.3, 0.7, 0.4, 1);
   /* the page turn: the only large movement on the site */
   --turn-phone: 450ms;
@@ -123,4 +135,61 @@
   --ease-turn: cubic-bezier(0.25, 1, 0.5, 1);
   /* symmetric, so a swinging page is edge-on to the reader exactly half way through */
   --ease-swing: cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+/*
+ * "Đèn dầu", the lamplit look (lights off, src/ui/lights.ts): the same print read by an oil lamp. Warm brown-black
+ * paper, ivory ink with little blue, the print's colours one step brighter, never pure white. The prints themselves
+ * (covers, emblems, Mèo Miu) keep their colours; photos and motion get a warm veil instead of being inverted.
+ */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --night-veil: linear-gradient(rgb(28 20 13 / 0.18), rgb(28 20 13 / 0.18));
+  --print-dim: brightness(0.86);
+
+  --c-bg: #17110b;
+  --c-surface: #2a1f15;
+  --c-surface-raised: #34271b;
+  --c-topbar: #1f170f;
+  --c-kids-field: #241a0c;
+  --c-adults-field: #1b160f;
+  --c-page: #2a1f15;
+  --c-page-edge: #4a3826;
+  --c-stage-top: #33261a;
+  --c-stage-bottom: #2b2016;
+  --c-subtitle-bg: #2a1f15;
+
+  --c-text: #ecd9b8;
+  --c-text-muted: #c4a882;
+  --c-border: #4a3826;
+  --c-border-strong: #9c805e;
+  --c-line: #a88b67;
+  --c-lift: #070503;
+
+  --c-primary: #f0a07a;
+  --c-primary-solid: #d9805c;
+  --c-primary-solid-hover: #e8946f;
+  --c-on-primary: #1c140d;
+  --c-ink-solid: #ecd9b8;
+  --c-ink-solid-hover: #f6e7cb;
+  --c-on-ink: #1c140d;
+  --c-leaf: #a8c98c;
+  --c-turmeric: #f0b43c;
+  --c-on-turmeric: #1c140d;
+  --c-vermilion: #e0754f;
+  --c-error: #ff9a85;
+  --c-focus: #f0b43c;
+  --c-focus-ring-on-accent: #ecd9b8;
+
+  --c-foot: #0f0b07;
+  --c-foot-text: #ecd9b8;
+  --c-foot-muted: #c4a882;
+  --c-foot-link: #f0b43c;
+
+  --shadow-book: 0 1px 0 var(--c-page-edge), 0 2px 0 var(--c-bg), 0 3px 0 var(--c-page-edge), 0 24px 40px -24px rgb(0 0 0 / 0.8);
+  --shadow-spine: linear-gradient(to right, transparent, rgb(0 0 0 / 0.22) 46%, rgb(0 0 0 / 0.4) 50%, rgb(0 0 0 / 0.22) 54%, transparent);
+  /* only the điệp shimmer, fainter: the brown grain would not show on brown */
+  --paper-texture: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='d'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.55' numOctaves='1' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .9 0 0 0 0 .7 0 0 0 16 -13.4'/%3E%3C/filter%3E%3Crect width='260' height='260' filter='url(%23d)' opacity='.18'/%3E%3C/svg%3E");
+  --band-fret: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='14'%3E%3Crect width='24' height='14' fill='%231f170f'/%3E%3Cpath d='M0 1h24M0 13h24' stroke='%23e0754f' stroke-width='2'/%3E%3Cpath d='M2 10.5V4h9v4.5H6V6.5M13 10.5h9V4h-6v4.5h3' fill='none' stroke='%23c4a882' stroke-width='1.5'/%3E%3C/svg%3E");
+  --band-waves: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='18'%3E%3Cpath d='M0 18V14Q11 0 22 14Q33 0 44 14V18Z' fill='%230f0b07'/%3E%3Cpath d='M7 12a4 4 0 1 1 5 4M29 12a4 4 0 1 1 5 4' fill='none' stroke='%23c4a882' stroke-width='1.4' stroke-linecap='round'/%3E%3C/svg%3E");
 }

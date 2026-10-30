@@ -7,9 +7,16 @@ import { Icon } from '../ui/icons';
 import { EndPage } from './end-page';
 import { type PlayStatus, type PlayerState, type TurnDirection, initialPlayerState, playerReducer } from './player-state';
 import { focusKind, readerKeyAction } from './reader-keys';
+import { type Rate, useReaderPrefs } from './reader-prefs';
 import { preloadAfter, sceneMedia, storyFileUrl, storyHasNoMedia } from './scene-media';
 import { useSceneTimer } from './use-scene-timer';
 import { useSwipe } from './use-swipe';
+import { ReaderSheet } from './reader-sheet';
+import { SceneIndex } from './scene-index';
+import { forgetProgress, saveProgress } from './reading-progress';
+import { fadeShare, minutesLeft, type SleepOption, sleepDeadline } from './sleep-timer';
+import { storyPath } from './story-api';
+import { LightsSwitch } from '../ui/lights-switch';
 
 /** Music sits under the voice. */
 const MUSIC_VOLUME = 0.25;
@@ -64,12 +71,12 @@ function PicturePage({ story, scene, videoRef }: { story: Story; scene: Scene; v
 }
 
 /** The text page: who tells it and the subtitle line being read, always on screen. */
-function TextPage({ label, line, live, progress }: { label: string; line: string; live: boolean; progress: number }): ReactNode {
+function TextPage({ label, line, live, progress, hideLine = false }: { label: string; line: string; live: boolean; progress: number; hideLine?: boolean }): ReactNode {
   const { t } = useI18n();
   return (
     <section className="page page--text" aria-label={live ? t('story.subtitles') : undefined} data-id={live ? 'story-subtitles' : undefined}>
       <p className="subtitles-narrator">{label}</p>
-      <p className="subtitles-line" lang="vi" aria-live={live ? 'polite' : undefined} data-id={live ? 'story-subtitle-line' : undefined}>
+      <p className={hideLine ? 'subtitles-line subtitles-line--hidden' : 'subtitles-line'} lang="vi" aria-live={live ? 'polite' : undefined} data-id={live ? 'story-subtitle-line' : undefined}>
         {line}
       </p>
       <div className="scene-clock" aria-hidden="true">
@@ -84,6 +91,9 @@ interface SceneViewProps {
   scene: Scene;
   status: PlayStatus;
   muted: boolean;
+  rate: Rate;
+  /** False only when the reader turned subtitles off and the scene has a voice to follow. */
+  showLine: boolean;
   onEnded: () => void;
   onLine: (line: string) => void;
 }
@@ -92,13 +102,13 @@ interface SceneViewProps {
  * One scene as an open spread: the picture page and the text page, and the clock: the recorded voice when there
  * is one, otherwise a timer of the estimated reading time.
  */
-function SceneView({ story, scene, status, muted, onEnded, onLine }: SceneViewProps): ReactNode {
+function SceneView({ story, scene, status, muted, rate, showLine, onEnded, onLine }: SceneViewProps): ReactNode {
   const media = sceneMedia(story.slug, scene);
   const playing = status === 'playing';
   const [voiceFailed, setVoiceFailed] = useState(false);
   const useVoice = media.voice !== undefined && !voiceFailed;
   const [voiceProgress, setVoiceProgress] = useState(0);
-  const durationMs = Math.max(MIN_SCENE_SECONDS, estimateReadingSeconds(scene.narration)) * 1000;
+  const durationMs = (Math.max(MIN_SCENE_SECONDS, estimateReadingSeconds(scene.narration)) * 1000) / rate;
   const elapsed = useSceneTimer(durationMs, playing && !useVoice, onEnded);
   const progress = useVoice ? voiceProgress : elapsed / durationMs;
   const line = scene.subtitles[Math.max(0, subtitleIndexAt(scene.subtitles, progress))] ?? '';
@@ -113,6 +123,9 @@ function SceneView({ story, scene, status, muted, onEnded, onLine }: SceneViewPr
   useEffect(() => {
     if (voiceRef.current) voiceRef.current.muted = muted;
   }, [muted]);
+  useEffect(() => {
+    if (voiceRef.current) voiceRef.current.playbackRate = rate;
+  }, [rate, useVoice]);
 
   return (
     <div className="spread" data-id="story-stage">
@@ -132,7 +145,7 @@ function SceneView({ story, scene, status, muted, onEnded, onLine }: SceneViewPr
           onError={() => setVoiceFailed(true)}
         />
       )}
-      <TextPage label={label} line={line} live progress={progress} />
+      <TextPage label={label} line={line} live progress={progress} hideLine={!(showLine || !useVoice)} />
     </div>
   );
 }
@@ -199,27 +212,110 @@ function usePageTurn(state: PlayerState, line: string): [Turn | null, (id: numbe
 
 interface StoryPlayerProps {
   story: Story;
+  /** The scene to open at (continue where the reader left off, a shared `?canh=` link). */
+  initialIndex?: number;
   /** Leaves the reader (the × button, Escape). */
   onClose?: () => void;
 }
 
+/** Full screen where the browser allows it on an element (not iPhone Safari: the reader already fills the screen there). */
+function useFullscreen(target: RefObject<HTMLElement | null>): { supported: boolean; on: boolean; toggle: () => void } {
+  const [on, setOn] = useState(false);
+  const supported = typeof document !== 'undefined' && document.fullscreenEnabled === true;
+  useEffect(() => {
+    const update = (): void => setOn(document.fullscreenElement !== null);
+    document.addEventListener('fullscreenchange', update);
+    return () => document.removeEventListener('fullscreenchange', update);
+  }, []);
+  const toggle = useCallback(() => {
+    const request = document.fullscreenElement ? document.exitFullscreen() : target.current?.requestFullscreen();
+    request?.catch((error: unknown) => console.warn('full screen refused', error instanceof Error ? error.name : typeof error));
+  }, [target]);
+  return { supported, on, toggle };
+}
+
+/** Sleep timer: dims page and sound for the fade (sleep-timer.ts) when it runs out (or at the story's end), then pauses. */
+function useSleep(status: PlayStatus, pause: () => void, reader: RefObject<HTMLElement | null>) {
+  const [option, setOption] = useState<SleepOption>('off');
+  const [deadline, setDeadline] = useState<number | null>(null);
+  const [phase, setPhase] = useState<'awake' | 'fading' | 'asleep'>('awake');
+  const [now, setNow] = useState(() => Date.now());
+  const pick = useCallback((next: SleepOption) => {
+    const at = Date.now();
+    setOption(next);
+    setDeadline(sleepDeadline(next, at));
+    setNow(at);
+    setPhase('awake');
+  }, []);
+  // A clock for the minutes left, and the moment the timer runs out.
+  useEffect(() => {
+    if (deadline === null || phase !== 'awake') return undefined;
+    const id = window.setInterval(() => {
+      const at = Date.now();
+      setNow(at);
+      if (at >= deadline) setPhase('fading');
+    }, 1000);
+    return () => window.clearInterval(id);
+  }, [deadline, phase]);
+  // The fade: every sound of the reader turns down, then the story pauses and the page stays dark.
+  useEffect(() => {
+    if (phase !== 'fading') return undefined;
+    const start = Date.now();
+    const id = window.setInterval(() => {
+      const share = fadeShare(start, Date.now());
+      for (const audio of reader.current?.querySelectorAll('audio') ?? []) audio.volume = share * (audio.loop ? MUSIC_VOLUME : 1);
+      if (share <= 0) {
+        window.clearInterval(id);
+        pause();
+        setPhase('asleep');
+      }
+    }, 250);
+    return () => window.clearInterval(id);
+  }, [phase, pause, reader]);
+  const wake = useCallback(() => {
+    for (const audio of reader.current?.querySelectorAll('audio') ?? []) audio.volume = audio.loop ? MUSIC_VOLUME : 1;
+    setOption('off');
+    setDeadline(null);
+    setPhase('awake');
+  }, [reader]);
+  // "At the end of the story": the last page is reached, nothing to fade (the story has stopped by itself).
+  const shown = option === 'end' && status === 'ended' && phase === 'awake' ? 'asleep' : phase;
+  return { option, pick, phase: shown, wake, minutesLeft: deadline === null ? null : minutesLeft(deadline, now) };
+}
+
 /**
- * The reader: a book that fills the screen. A thin bar (close, title, scene), the scene progress in segments, the
- * book (one page on phones, an open spread from 880px), and the controls in thumb reach. Pages turn with the
- * buttons, the arrow keys and a sideways swipe; the adults' shelf also turns on a tap near a page edge.
+ * The reader: a book that fills the screen. A thin bar (close, title, scene, lights), the scene progress in
+ * segments (a tap opens the scene list), the book (one page on phones, an open spread from 880px), and the
+ * controls in thumb reach. Pages turn with the buttons, the arrow keys and a sideways swipe; the adults' shelf also
+ * turns on a tap near a page edge. The options sheet holds everything else.
  */
-export function StoryPlayer({ story, onClose }: StoryPlayerProps): ReactNode {
+export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerProps): ReactNode {
   const { t } = useI18n();
-  const [state, dispatch] = useReducer(playerReducer, story.scenes.length, initialPlayerState);
+  const [state, dispatch] = useReducer(playerReducer, undefined, () => {
+    const start = initialPlayerState(story.scenes.length);
+    const index = Number.isInteger(initialIndex) && initialIndex > 0 && initialIndex < story.scenes.length ? initialIndex : 0;
+    return { ...start, index };
+  });
+  const [prefs, updatePrefs] = useReaderPrefs();
   const scene = story.scenes[state.index];
+  const readerRef = useRef<HTMLElement>(null);
   const musicRef = useRef<HTMLAudioElement>(null);
   const playRef = useRef<HTMLButtonElement>(null);
   // The line on screen, kept so a turning leaf shows the words the page had.
   const [line, setLine] = useState('');
-  const onEnded = useCallback(() => dispatch({ type: 'sceneEnded' }), []);
+  const [sheetOpen, setSheetOpen] = useState(false);
+  const [scenesOpen, setScenesOpen] = useState(false);
+  const [shareNote, setShareNote] = useState<string | null>(null);
+  const autoTurn = prefs.autoTurn;
+  const onEnded = useCallback(() => dispatch({ type: 'sceneEnded', autoTurn }), [autoTurn]);
+  const pause = useCallback(() => dispatch({ type: 'pause' }), []);
   const playing = state.status === 'playing';
+  const ended = state.status === 'ended';
   const noMedia = storyHasNoMedia(story);
+  const hasVoice = story.scenes.some((each) => each.voice.file !== undefined);
   const [turn, turnDone] = usePageTurn(state, line);
+  const fullscreen = useFullscreen(readerRef);
+  const sleep = useSleep(state.status, pause, readerRef);
   useMediaPlayback(musicRef, playing);
   useEffect(() => {
     const music = musicRef.current;
@@ -232,6 +328,12 @@ export function StoryPlayer({ story, onClose }: StoryPlayerProps): ReactNode {
   useEffect(() => {
     for (const url of preloadAfter(story, state.index)) new Image().src = url;
   }, [story, state.index]);
+
+  // Remember where the story was left; a story read to its end is forgotten.
+  useEffect(() => {
+    if (ended) forgetProgress(story.slug);
+    else if (state.status !== 'idle' || state.index > 0) saveProgress(story.slug, state.index);
+  }, [story.slug, state.index, state.status, ended]);
 
   const turnTo = useCallback((to: 'next' | 'prev') => dispatch({ type: to }), []);
   const swipe = useSwipe(turnTo, story.shelf === 'adults');
@@ -259,17 +361,41 @@ export function StoryPlayer({ story, onClose }: StoryPlayerProps): ReactNode {
     playRef.current?.focus({ preventScroll: true });
   }, []);
 
+  const share = useCallback(async () => {
+    const url = `${window.location.origin}${storyPath(story.slug)}?canh=${state.index + 1}`;
+    try {
+      if (typeof navigator.share === 'function') {
+        await navigator.share({ title: story.title, url });
+        return;
+      }
+      await navigator.clipboard.writeText(url);
+      setShareNote(t('reader.shared'));
+    } catch (error) {
+      // The reader closing the share panel is not a failure.
+      if (error instanceof Error && error.name === 'AbortError') return;
+      console.warn('share failed', error instanceof Error ? error.name : typeof error);
+      setShareNote(t('reader.shareFailed'));
+    }
+  }, [story.slug, story.title, state.index, t]);
+
   if (!scene) return null;
   const isFirst = state.index === 0;
-  const ended = state.status === 'ended';
   const playLabel = playing ? t('story.pause') : state.status === 'idle' ? t('story.start') : ended ? t('story.replay') : t('story.resume');
   const sceneCount = story.scenes.length;
 
   return (
-    <section className={`reader theme-${story.shelf}`} aria-label={t('story.reader', { title: story.title })} data-id="story-player" data-status={state.status}>
+    <section
+      ref={readerRef}
+      className={`reader theme-${story.shelf}`}
+      aria-label={t('story.reader', { title: story.title })}
+      data-id="story-player"
+      data-status={state.status}
+      data-text={prefs.textSize}
+      data-sleep={sleep.phase}
+    >
       <header className="reader-bar">
         {onClose && (
-          <button type="button" className="icon-btn" onClick={onClose} aria-label={t('story.close')} data-id="story-close">
+          <button type="button" className="icon-btn icon-btn--flat" onClick={onClose} aria-label={t('story.close')} data-id="story-close">
             <Icon name="close" />
           </button>
         )}
@@ -287,15 +413,14 @@ export function StoryPlayer({ story, onClose }: StoryPlayerProps): ReactNode {
             )}
           </p>
         </div>
+        <LightsSwitch className="icon-btn icon-btn--flat" dataId="reader-lights" />
       </header>
 
-      <ol className="reader-progress" aria-label={t('story.progress')} data-id="story-progress">
+      <button type="button" className="reader-progress" onClick={() => setScenesOpen(true)} aria-label={t('story.progress')} data-id="story-progress">
         {story.scenes.map((each, i) => (
-          <li key={each.id} className="reader-progress-step" data-state={ended || i < state.index ? 'done' : i === state.index ? 'now' : 'next'}>
-            <span className="sr-only">{t('story.sceneOf', { n: i + 1, total: sceneCount })}</span>
-          </li>
+          <span key={each.id} className="reader-progress-step" data-state={ended || i < state.index ? 'done' : i === state.index ? 'now' : 'next'} />
         ))}
-      </ol>
+      </button>
 
       {noMedia && (
         <p className="player-note" data-id="story-no-media">
@@ -307,7 +432,17 @@ export function StoryPlayer({ story, onClose }: StoryPlayerProps): ReactNode {
         {ended ? (
           <EndPage story={story} />
         ) : (
-          <SceneView key={`${state.index}-${state.run}`} story={story} scene={scene} status={state.status} muted={state.muted} onEnded={onEnded} onLine={setLine} />
+          <SceneView
+            key={`${state.index}-${state.run}`}
+            story={story}
+            scene={scene}
+            status={state.status}
+            muted={state.muted}
+            rate={prefs.rate}
+            showLine={prefs.subtitles}
+            onEnded={onEnded}
+            onLine={setLine}
+          />
         )}
         {turn && <Leaf key={turn.id} story={story} turn={turn} onDone={turnDone} />}
       </div>
@@ -317,23 +452,69 @@ export function StoryPlayer({ story, onClose }: StoryPlayerProps): ReactNode {
       {story.music.file && <audio ref={musicRef} src={storyFileUrl(story.slug, story.music.file)} loop preload="auto" />}
 
       <div className="reader-controls" role="group" aria-label={t('story.controls')} data-id="story-controls">
+        <button type="button" className="icon-btn" onClick={() => setScenesOpen(true)} aria-label={t('story.progress')} data-id="story-scenes">
+          <Icon name="scenes" />
+        </button>
         <button type="button" className="icon-btn" onClick={() => dispatch({ type: 'prev' })} disabled={isFirst && !ended} aria-label={t('story.prev')} data-id="story-prev">
           <Icon name="prev" />
         </button>
         <button ref={playRef} type="button" className="play-btn" onClick={() => dispatch({ type: 'toggle' })} data-id="story-play">
           <Icon name={playing ? 'pause' : ended ? 'replay' : 'play'} />
-          <span className="play-label">{playLabel}</span>
+          <span className="sr-only">{playLabel}</span>
         </button>
-        <button type="button" className="icon-btn" onClick={() => dispatch({ type: 'next' })} disabled={ended} aria-label={t('story.next')} data-id="story-next">
+        <button
+          type="button"
+          className="icon-btn"
+          onClick={() => dispatch({ type: 'next' })}
+          disabled={ended}
+          aria-label={state.holding ? t('reader.turnHint') : t('story.next')}
+          data-waiting={state.holding || undefined}
+          data-id="story-next"
+        >
           <Icon name="next" />
         </button>
-        {/* Nothing to mute until the story has a voice or music. */}
-        {!noMedia && (
-          <button type="button" className="icon-btn" aria-pressed={state.muted} onClick={() => dispatch({ type: 'toggleMute' })} aria-label={state.muted ? t('story.unmute') : t('story.mute')} data-id="story-mute">
-            <Icon name={state.muted ? 'muted' : 'sound'} />
-          </button>
-        )}
+        <button type="button" className="icon-btn" onClick={() => setSheetOpen(true)} aria-label={t('reader.options')} aria-haspopup="dialog" data-id="story-more">
+          <Icon name="more" />
+        </button>
       </div>
+
+      <ReaderSheet
+        open={sheetOpen}
+        onClose={() => {
+          setSheetOpen(false);
+          setShareNote(null);
+        }}
+        prefs={prefs}
+        onPrefs={updatePrefs}
+        hasVoice={hasVoice}
+        hasSound={!noMedia}
+        muted={state.muted}
+        onToggleMute={() => dispatch({ type: 'toggleMute' })}
+        sleep={sleep.option}
+        sleepMinutesLeft={sleep.minutesLeft}
+        onSleep={sleep.pick}
+        fullscreen={fullscreen}
+        onShare={() => void share()}
+        shareNote={shareNote}
+        onScenes={() => {
+          setSheetOpen(false);
+          setScenesOpen(true);
+        }}
+      />
+      <SceneIndex story={story} current={state.index} open={scenesOpen} onClose={() => setScenesOpen(false)} onPick={(index) => dispatch({ type: 'goTo', index })} />
+
+      {sleep.phase !== 'awake' && (
+        <div className="sleep-veil" data-id="sleep-veil">
+          {sleep.phase === 'asleep' && (
+            <div className="sleep-card" role="status">
+              <p className="sleep-word">{t('reader.goodnight')}</p>
+              <button type="button" className="btn btn-secondary" onClick={sleep.wake} data-id="sleep-wake">
+                {t('reader.wake')}
+              </button>
+            </div>
+          )}
+        </div>
+      )}
     </section>
   );
 }

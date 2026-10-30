@@ -5,6 +5,7 @@ import { useI18n } from '../i18n/i18n';
 import { setPageMeta } from '../page-meta';
 import { Icon } from '../ui/icons';
 import { StoryLoadError, fetchStory, shelfPath } from './story-api';
+import { progressOf, sceneFromQuery } from './reading-progress';
 import { StoryPlayer } from './story-player';
 import { useLoad } from './use-load';
 
@@ -20,10 +21,12 @@ function useReadingMode(reading: boolean): void {
 }
 
 /** The story's own page: its cover, title, summary and length, and the button that opens the reader. */
-function StoryCoverPage({ story, onOpen, openRef }: { story: Story; onOpen: () => void; openRef: RefObject<HTMLButtonElement | null> }): ReactNode {
+function StoryCoverPage({ story, onOpen, openRef }: { story: Story; onOpen: (index: number) => void; openRef: RefObject<HTMLButtonElement | null> }): ReactNode {
   const { t } = useI18n();
   const shelf = t(`shelf.${story.shelf}`);
   const { minutes, scenes } = storyListEntry(story);
+  // Read once per visit to the page: the reader saves as it goes, and closing it comes back here.
+  const [resume] = useState(() => progressOf(story.slug, story.scenes.length));
   return (
     <article className={`story theme-${story.shelf}`} data-id="story-page">
       <a className="back-link" href={shelfPath(story.shelf)} data-id="story-back">
@@ -44,10 +47,15 @@ function StoryCoverPage({ story, onOpen, openRef }: { story: Story; onOpen: () =
             {story.summary}
           </p>
           <div className="story-actions">
-            <button ref={openRef} type="button" className="btn btn-primary btn-large" onClick={onOpen} data-id="story-open-reader">
+            <button ref={openRef} type="button" className="btn btn-primary btn-large" onClick={() => onOpen(resume ?? 0)} data-id="story-open-reader">
               <Icon name="play" />
-              {t('story.listen')}
+              {resume === null ? t('story.listen') : t('story.resumeFrom', { n: resume + 1 })}
             </button>
+            {resume !== null && (
+              <button type="button" className="btn btn-secondary btn-large" onClick={() => onOpen(0)} data-id="story-from-start">
+                {t('story.fromStart')}
+              </button>
+            )}
           </div>
         </div>
       </div>
@@ -59,14 +67,19 @@ export function StoryPage({ slug }: { slug: string }): ReactNode {
   const { t } = useI18n();
   const [load, retry] = useLoad(slug, (signal) => fetchStory(slug, signal));
   const loaded = load.status === 'ready' ? load.value : null;
-  const [reading, setReading] = useState(false);
+  // null: the story's page; a number: the reader, open at that scene. A shared ?canh= link opens the reader.
+  const [reading, setReading] = useState<number | null>(null);
+  const [linked, setLinked] = useState(true);
   const openRef = useRef<HTMLButtonElement>(null);
-  useReadingMode(reading);
+  const linkedScene = linked && loaded ? sceneFromQuery(window.location.search, loaded.scenes.length) : null;
+  const openAt = reading ?? linkedScene;
+  useReadingMode(openAt !== null);
   useEffect(() => {
     if (loaded) setPageMeta(loaded.title, loaded.summary);
   }, [loaded]);
   const close = useCallback(() => {
-    setReading(false);
+    setReading(null);
+    setLinked(false);
     // Back on the story page, the focus returns to the button that opened the reader.
     window.requestAnimationFrame(() => openRef.current?.focus());
   }, []);
@@ -98,6 +111,6 @@ export function StoryPage({ slug }: { slug: string }): ReactNode {
     );
   }
   const story = load.value;
-  if (reading) return <StoryPlayer story={story} onClose={close} />;
-  return <StoryCoverPage story={story} onOpen={() => setReading(true)} openRef={openRef} />;
+  if (openAt !== null) return <StoryPlayer story={story} initialIndex={openAt} onClose={close} />;
+  return <StoryCoverPage key={story.slug} story={story} onOpen={setReading} openRef={openRef} />;
 }

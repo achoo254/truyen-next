@@ -6,7 +6,7 @@ const run = (state: PlayerState, ...actions: PlayerAction['type'][]): PlayerStat
 
 describe('story player state', () => {
   it('waits on the first scene, unmuted, until started', () => {
-    expect(initialPlayerState(3)).toEqual({ index: 0, sceneCount: 3, status: 'idle', muted: false, run: 0, direction: 'forward' });
+    expect(initialPlayerState(3)).toEqual({ index: 0, sceneCount: 3, status: 'idle', muted: false, run: 0, direction: 'forward', holding: false });
     expect(() => initialPlayerState(0)).toThrow(/at least one scene/);
   });
 
@@ -68,6 +68,17 @@ describe('story player state', () => {
     for (const index of [-1, 5, 1.5]) expect(playerReducer(jumped, { type: 'goTo', index })).toBe(jumped);
     const over = run(initialPlayerState(2), 'next', 'next');
     expect(playerReducer(over, { type: 'goTo', index: 0 })).toMatchObject({ index: 0, status: 'paused' });
+  });
+
+  it('waits on the last line when auto-turn is off, and plays on when the reader turns', () => {
+    const playing = run(initialPlayerState(3), 'toggle');
+    const held = playerReducer(playing, { type: 'sceneEnded', autoTurn: false });
+    expect(held).toMatchObject({ index: 0, status: 'paused', holding: true });
+    expect(playerReducer(held, { type: 'next' })).toMatchObject({ index: 1, status: 'playing', holding: false });
+    expect(playerReducer(held, { type: 'toggle' })).toMatchObject({ index: 1, status: 'playing', holding: false });
+    expect(playerReducer(held, { type: 'prev' })).toMatchObject({ index: 0, holding: false });
+    const last = run(initialPlayerState(1), 'toggle');
+    expect(playerReducer(last, { type: 'sceneEnded', autoTurn: false }).status).toBe('ended');
   });
 
   it('mutes and unmutes without touching playback', () => {

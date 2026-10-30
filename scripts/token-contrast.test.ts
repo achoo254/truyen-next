@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { contrastRatio, findColourLiterals, mixHex, parseTokens } from './token-contrast';
+import { contrastRatio, findColourLiterals, mixHex, parseTokens, parseThemes } from './token-contrast';
 
 describe('token checks', () => {
   it('computes WCAG contrast ratios', () => {
@@ -27,5 +27,21 @@ describe('token checks', () => {
       { file: 'x.css', line: 2, match: '#fff' },
       { file: 'x.css', line: 3, match: 'rgb(' },
     ]);
+  });
+});
+
+describe('looks', () => {
+  it('reads the light look and lays the lamplit look over it', () => {
+    const css = `:root { --a: #ffffff; --b: #000000; /* :root[data-theme='dark'] { --a: #111111; } */ }
+:root[data-theme="dark"] { --a: #222222; }
+.x { --a: #333333; }`;
+    const themes = parseThemes(css);
+    expect(themes.get('light')?.get('--a')).toBe('#ffffff');
+    expect(themes.get('dark')?.get('--a')).toBe('#222222');
+    expect(themes.get('dark')?.get('--b')).toBe('#000000');
+  });
+
+  it('fails when a look is missing', () => {
+    expect(() => parseThemes(':root { --a: #ffffff; }')).toThrow(/data-theme/);
   });
 });

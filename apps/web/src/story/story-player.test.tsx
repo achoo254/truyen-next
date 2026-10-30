@@ -113,9 +113,10 @@ describe('story player without media', () => {
     expect(document.querySelector('[data-id=story-ended]')).toBeNull();
   });
 
-  it('offers no mute button while the story has no sound', () => {
+  it('offers no mute switch while the story has no sound', () => {
     show();
-    expect(document.querySelector('[data-id=story-mute]')).toBeNull();
+    fireEvent.click(q('story-more'));
+    expect(document.querySelector('[data-id=pref-mute]')).toBeNull();
   });
 });
 
@@ -124,10 +125,11 @@ describe('story player mute', () => {
     const pause = vi.spyOn(HTMLMediaElement.prototype, 'pause').mockImplementation(() => undefined);
     const story = pilot();
     show({ ...story, music: { ...story.music, file: 'media/music.m4a' } });
-    expect(q('story-mute').getAttribute('aria-pressed')).toBe('false');
-    fireEvent.click(q('story-mute'));
-    expect(q('story-mute').getAttribute('aria-pressed')).toBe('true');
-    expect(q('story-mute').getAttribute('aria-label')).toBe('Bật tiếng');
+    fireEvent.click(q('story-more'));
+    expect(q('pref-mute').getAttribute('aria-checked')).toBe('false');
+    fireEvent.click(q('pref-mute'));
+    expect(q('pref-mute').getAttribute('aria-checked')).toBe('true');
+    expect(document.querySelector('audio')?.muted).toBe(true);
     pause.mockRestore();
   });
 });
@@ -188,5 +190,57 @@ describe('story player keys and the end page', () => {
     );
     fireEvent.keyDown(document.body, { key: 'Escape' });
     expect(onClose).toHaveBeenCalledTimes(1);
+  });
+});
+
+describe('reader options', () => {
+  afterEach(() => window.localStorage.clear());
+
+  it('waits on the last line when auto-turn is off, until the reader turns', () => {
+    const story = pilot();
+    show(story);
+    fireEvent.click(q('story-more'));
+    fireEvent.click(q('pref-auto-turn'));
+    expect(JSON.parse(window.localStorage.getItem('truyen:prefs:v1') ?? '{}')).toMatchObject({ autoTurn: false });
+    fireEvent.click(q('story-play'));
+    advance(sceneMs(story, 0) + TICK_MS);
+    expect(q('story-scene-number').textContent).toMatch(/^Cảnh 1\/8/);
+    expect(q('story-next').getAttribute('data-waiting')).toBe('true');
+    fireEvent.click(q('story-next'));
+    expect(q('story-scene-number').textContent).toMatch(/^Cảnh 2\/8/);
+    expect(q('story-player').getAttribute('data-status')).toBe('playing');
+  });
+
+  it('jumps to a scene from the scene list and remembers where the story was left', () => {
+    show();
+    fireEvent.click(q('story-scenes'));
+    fireEvent.click(q('scene-index-5'));
+    expect(q('story-scene-number').textContent).toMatch(/^Cảnh 5\/8/);
+    expect(JSON.parse(window.localStorage.getItem('truyen:progress') ?? '{}')).toMatchObject({ 'son-tinh-thuy-tinh': { index: 4 } });
+  });
+
+  it('opens at the scene it was given, and sets the text size', () => {
+    render(
+      <I18nProvider>
+        <StoryPlayer story={pilot()} initialIndex={3} />
+      </I18nProvider>,
+    );
+    expect(q('story-scene-number').textContent).toMatch(/^Cảnh 4\/8/);
+    fireEvent.click(q('story-more'));
+    fireEvent.click(q('pref-text-l'));
+    expect(q('story-player').getAttribute('data-text')).toBe('l');
+  });
+
+  it('dims and pauses when the sleep timer runs out, and wakes on request', () => {
+    show();
+    fireEvent.click(q('story-play'));
+    fireEvent.click(q('story-more'));
+    fireEvent.click(q('pref-sleep-10'));
+    advance(10 * 60_000 + 1000);
+    expect(q('story-player').getAttribute('data-sleep')).toBe('fading');
+    advance(10_500);
+    expect(q('story-player').getAttribute('data-status')).toBe('paused');
+    fireEvent.click(q('sleep-wake'));
+    expect(document.querySelector('[data-id=sleep-veil]')).toBeNull();
   });
 });

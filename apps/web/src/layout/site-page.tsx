@@ -3,6 +3,7 @@ import type { ReactNode } from 'react';
 import { BRAND_MARK_SRC, ECOSYSTEM_URL, brand } from '../brand';
 import { LOCALES, type Locale, useI18n } from '../i18n/i18n';
 import { parseShelfPath } from '../story/story-api';
+import { LightsSwitch } from '../ui/lights-switch';
 
 /** Each language in its own words (never translated), and the short code the header pill shows. */
 const LOCALE_NAMES: Record<Locale, string> = { vi: 'Tiếng Việt', en: 'English' };
@@ -63,6 +64,7 @@ function SiteHeader({ navLinks }: { navLinks: NavLink[] }): ReactNode {
               </a>
             ))}
           </nav>
+          <LightsSwitch className="icon-btn topbar-lights" dataId="header-lights" />
           <LanguageSwitch />
         </div>
       </div>

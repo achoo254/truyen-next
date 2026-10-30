@@ -90,7 +90,7 @@ a {
   --btn-fg: var(--c-on-primary);
   --accent: var(--c-primary);
   --seal-bg: var(--c-turmeric);
-  --seal-fg: var(--c-text);
+  --seal-fg: var(--c-on-turmeric);
 }
 
 .theme-adults {
@@ -154,7 +154,7 @@ a {
 
 .brand-mark {
   border-radius: var(--radius-sm);
-  box-shadow: 0 0 0 1.5px var(--c-text);
+  box-shadow: 0 0 0 1.5px var(--c-line);
 }
 
 .topbar-end,
@@ -179,11 +179,11 @@ a {
 }
 
 .pill:hover {
-  border-color: var(--c-text);
+  border-color: var(--c-line);
 }
 
 .pill[aria-current='page'] {
-  border-color: var(--c-text);
+  border-color: var(--c-line);
   background: var(--c-ink-solid);
   color: var(--c-on-ink);
 }
@@ -307,7 +307,7 @@ a {
    one 4px radius. Only the open book gets a soft shadow. */
 .card {
   background: var(--c-surface);
-  border: 1.5px solid var(--c-text);
+  border: 1.5px solid var(--c-line);
   border-radius: var(--radius-sm);
   padding: var(--space-5);
   box-shadow: var(--lift);
@@ -356,10 +356,10 @@ a {
   gap: var(--space-2);
   margin: 0;
   padding: 2px var(--space-3);
-  border: 1.5px solid var(--c-text);
+  border: 1.5px solid var(--c-line);
   border-radius: var(--radius-sm);
   background: var(--seal-bg, var(--c-turmeric));
-  color: var(--seal-fg, var(--c-text));
+  color: var(--seal-fg, var(--c-on-turmeric));
   font-family: var(--font-display);
   font-weight: 800;
   font-size: 0.95rem;
@@ -373,7 +373,7 @@ a {
   min-height: 48px;
   padding: var(--space-2) var(--space-5);
   border-radius: var(--radius-sm);
-  border: 1.5px solid var(--c-text);
+  border: 1.5px solid var(--c-line);
   font: inherit;
   font-weight: 700;
   text-align: center;
@@ -486,7 +486,7 @@ a {
   width: 100%;
   max-width: 300px;
   margin: 0;
-  border: 1.5px solid var(--c-text);
+  border: 1.5px solid var(--c-line);
   box-shadow: var(--lift);
 }
 
@@ -514,7 +514,7 @@ a {
   position: relative;
   order: -1;
   padding: var(--space-2) var(--space-4);
-  border: 1.5px solid var(--c-text);
+  border: 1.5px solid var(--c-line);
   border-radius: var(--radius-sm);
   background: var(--c-page);
   font-family: var(--font-display);
@@ -611,7 +611,7 @@ a {
   flex: none;
   width: 18px;
   height: 18px;
-  border: 1.5px solid var(--c-text);
+  border: 1.5px solid var(--c-line);
   border-radius: 2px;
   background: var(--seal-bg);
 }
@@ -619,7 +619,7 @@ a {
 .shelf--panel {
   padding: var(--space-5) var(--space-4) var(--space-6);
   background: var(--c-kids-field);
-  border: 1.5px solid var(--c-text);
+  border: 1.5px solid var(--c-line);
   border-radius: var(--radius-sm);
 }
 
@@ -705,7 +705,7 @@ a {
   justify-content: space-between;
   aspect-ratio: 3 / 4;
   padding: var(--space-3);
-  border: 1.5px solid var(--c-text);
+  border: 1.5px solid var(--c-line);
   border-radius: var(--radius-sm);
   background: var(--cover-field);
   box-shadow: var(--lift);
@@ -794,6 +794,12 @@ a {
 .emblem,
 .miu {
   display: block;
+}
+
+.cover,
+.miu,
+.hero-print img {
+  filter: var(--print-dim);
 }
 
 .em-ink {
@@ -980,13 +986,18 @@ html.reading .main {
   line-height: 1.3;
 }
 
-/* Scene progress: one segment per scene, read like the dots of a picture book. */
+/* Scene progress: one segment per scene, read like the dots of a picture book; a tap opens the scene list. */
 .reader-progress {
   display: flex;
+  align-items: center;
   gap: 3px;
+  width: 100%;
+  min-height: 24px;
   margin: 0;
   padding: 0;
-  list-style: none;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
 }
 
 .reader-progress-step {
@@ -1030,7 +1041,7 @@ html.reading .main {
   width: min(100%, 520px);
   height: 100%;
   background: var(--c-page);
-  border: 1.5px solid var(--c-text);
+  border: 1.5px solid var(--c-line);
   border-radius: var(--radius-sm);
   box-shadow: var(--shadow-book);
 }
@@ -1050,12 +1061,22 @@ html.reading .main {
 }
 
 .picture-frame {
+  position: relative;
   height: 100%;
   max-width: 100%;
   aspect-ratio: 9 / 16;
-  border: 1.5px solid var(--c-text);
+  border: 1.5px solid var(--c-line);
   overflow: hidden;
   background: var(--c-stage-bottom);
+}
+
+/* Lights off: a warm veil over the picture (never an inverted or filtered video). */
+.picture-frame::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--night-veil);
+  pointer-events: none;
 }
 
 .picture-media {
@@ -1110,6 +1131,19 @@ html.reading .main {
   font-weight: 700;
 }
 
+.reader[data-text='s'] {
+  --subtitle-scale: 0.85;
+}
+
+.reader[data-text='l'] {
+  --subtitle-scale: 1.25;
+}
+
+/* Turned off by the reader (only offered when a voice tells the story): the room stays, so nothing jumps. */
+.subtitles-line--hidden {
+  visibility: hidden;
+}
+
 .subtitles-line {
   margin: var(--space-1) 0 var(--space-3);
   min-height: calc(3 * 1.45em);
@@ -1155,7 +1189,7 @@ html.reading .main {
   width: 48px;
   height: 48px;
   padding: 0;
-  border: 1.5px solid var(--c-text);
+  border: 1.5px solid var(--c-line);
   border-radius: var(--radius-full);
   background: var(--c-surface);
   color: var(--c-text);
@@ -1188,14 +1222,44 @@ html.reading .main {
   color: var(--c-on-ink);
 }
 
-.reader-bar .icon-btn {
+.icon-btn--flat,
+.icon-btn--flat:hover:not(:disabled) {
   box-shadow: none;
   border-color: transparent;
   background: transparent;
+  transform: none;
 }
 
-.reader-bar .icon-btn:hover {
-  border-color: var(--c-text);
+.icon-btn--flat:hover:not(:disabled) {
+  border-color: var(--c-line);
+}
+
+.icon-btn--flat[aria-pressed='true'] {
+  background: transparent;
+  color: var(--c-text);
+}
+
+.topbar-lights {
+  width: var(--tap);
+  height: var(--tap);
+}
+
+/* The next button calls when the book waits on a scene's last line (auto-turn off). */
+.icon-btn[data-waiting] {
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  animation: call 1.6s var(--ease) infinite;
+}
+
+@keyframes call {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(3px);
+  }
 }
 
 .play-btn {
@@ -1206,7 +1270,7 @@ html.reading .main {
   min-width: 64px;
   height: 64px;
   padding: 0 var(--space-5);
-  border: 1.5px solid var(--c-text);
+  border: 1.5px solid var(--c-line);
   border-radius: var(--radius-full);
   background: var(--btn-bg);
   color: var(--btn-fg);
@@ -1258,6 +1322,273 @@ html.reading .main {
   white-space: nowrap;
 }
 
+/* Sheets: the options and the scene list. A bottom sheet on phones, a panel at the right on wide screens. */
+.sheet {
+  width: 100%;
+  max-width: 100%;
+  max-height: 88dvh;
+  margin: auto 0 0;
+  padding: 0;
+  border: 0;
+  border-top: 1.5px solid var(--c-line);
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  background: var(--c-surface);
+  color: var(--c-text);
+  box-shadow: var(--lift);
+}
+
+.sheet::backdrop {
+  background: var(--c-scrim);
+}
+
+.sheet[open] {
+  animation: sheet-up var(--dur-sheet) var(--ease-turn);
+}
+
+@keyframes sheet-up {
+  from {
+    transform: translateY(24px);
+    opacity: 0;
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.sheet-inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4) calc(env(safe-area-inset-bottom, 0px) + var(--space-5));
+}
+
+.sheet-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.sheet-title {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.sheet-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.sheet-row,
+.sheet-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-4);
+}
+
+.sheet-group {
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.sheet-label {
+  font-weight: 700;
+}
+
+.sheet-note {
+  margin: 0;
+  color: var(--c-text-muted);
+  font-size: 0.95rem;
+}
+
+.sheet-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--c-border);
+}
+
+.sheet-actions .btn {
+  flex: 1 1 auto;
+}
+
+/* A switch: a pill track and a thumb; on, the track fills with ink. */
+.switch {
+  position: relative;
+  flex: none;
+  width: 56px;
+  height: var(--tap);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.switch::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 8px;
+  bottom: 8px;
+  border: 1.5px solid var(--c-line);
+  border-radius: var(--radius-full);
+  background: var(--c-surface-raised);
+  transition: background var(--dur-base);
+}
+
+.switch-thumb {
+  position: absolute;
+  top: 12px;
+  left: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: var(--radius-full);
+  background: var(--c-text);
+  transition: transform var(--dur-base) var(--ease);
+}
+
+.switch[aria-checked='true']::before {
+  background: var(--c-ink-solid);
+}
+
+.switch[aria-checked='true'] .switch-thumb {
+  transform: translateX(28px);
+  background: var(--c-on-ink);
+}
+
+.segmented {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+}
+
+.segment {
+  min-width: var(--tap);
+  min-height: var(--tap);
+  padding: 0 var(--space-3);
+  border: 1.5px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  background: var(--c-surface);
+  color: var(--c-text);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.segment[aria-pressed='true'] {
+  background: var(--c-ink-solid);
+  color: var(--c-on-ink);
+}
+
+.scene-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-y: auto;
+}
+
+.scene-list-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  min-height: var(--tap);
+  padding: var(--space-2) var(--space-3);
+  border: 1.5px solid transparent;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--c-text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.scene-list-item:hover {
+  border-color: var(--c-line);
+}
+
+.scene-list-item[aria-current='step'] {
+  background: var(--c-surface-raised);
+  font-weight: 700;
+}
+
+.scene-list-number {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border: 1.5px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.scene-list-title {
+  font-family: var(--font-display);
+}
+
+@media (min-width: 760px) {
+  .sheet {
+    width: min(420px, 100%);
+    max-height: 100dvh;
+    height: 100dvh;
+    margin: 0 0 0 auto;
+    border-top: 0;
+    border-left: 1.5px solid var(--c-line);
+    border-radius: 0;
+  }
+}
+
+/* The sleep timer ran out: the page dims to the paper's own dark, then says good night. */
+.sleep-veil {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  background: var(--c-sleep);
+  animation: sleep-dim 10s linear forwards;
+}
+
+.reader[data-sleep='asleep'] .sleep-veil {
+  animation: none;
+}
+
+@keyframes sleep-dim {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.sleep-card {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-4);
+  color: var(--c-sleep-text);
+}
+
+.sleep-word {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 800;
+}
+
 /* The last spread. */
 .spread--end .page--end-mark {
   flex: 1 1 auto;
@@ -1300,8 +1631,8 @@ html.reading .main {
 .end-mark-word {
   margin: 0;
   padding: var(--space-3) var(--space-6);
-  border: 3px solid var(--c-text);
-  outline: 1.5px solid var(--c-text);
+  border: 3px solid var(--c-line);
+  outline: 1.5px solid var(--c-line);
   outline-offset: 4px;
   font-family: var(--font-display);
   font-size: clamp(2.6rem, 9vw, 4.2rem);
@@ -1355,7 +1686,7 @@ html.reading .main {
   height: 100%;
   min-height: var(--tap);
   padding: var(--space-2) var(--space-3);
-  border: 1.5px solid var(--c-text);
+  border: 1.5px solid var(--c-line);
   border-radius: var(--radius-sm);
   background: var(--c-surface);
   color: var(--c-text);
@@ -1671,7 +2002,10 @@ html.reading .main {
     animation: fade-away 150ms linear forwards;
   }
 
-  .end-miu .miu-wave {
+  .end-miu .miu-wave,
+  .sheet[open],
+  .icon-btn[data-waiting],
+  .sleep-veil {
     animation: none;
   }
 

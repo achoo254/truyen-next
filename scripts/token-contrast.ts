@@ -1,6 +1,7 @@
 /**
- * Pieces of `pnpm check:tokens`: reading the app's token file (apps/web/src/ui/tokens.css, its one look), the
- * WCAG 2 contrast ratio, and the colour-literal scan of the web sources.
+ * Pieces of `pnpm check:tokens`: reading the app's token file (apps/web/src/ui/tokens.css: the light look in
+ * `:root`, the lamplit look in `:root[data-theme='dark']`), the WCAG 2 contrast ratio, and the colour-literal scan
+ * of the web sources.
  */
 
 export type TokenMap = ReadonlyMap<string, string>;
@@ -17,6 +18,29 @@ export function parseTokens(css: string): TokenMap {
     if (name && value) tokens.set(name, value.trim());
   }
   return tokens;
+}
+
+/** The selector of each look, and the look it is laid over (none: it stands alone). */
+export const THEMES = { light: { selector: ':root', base: null }, dark: { selector: ":root[data-theme='dark']", base: 'light' } } as const;
+export type ThemeName = keyof typeof THEMES;
+
+/**
+ * The tokens of each look: the light look is every `:root` block; the lamplit look is the light look with its own
+ * block's values laid over it, so a token it does not redefine is checked with the light value.
+ */
+export function parseThemes(css: string): ReadonlyMap<ThemeName, TokenMap> {
+  const source = css.replace(/\/\*[\s\S]*?\*\//g, '');
+  const blocks = [...source.matchAll(/([^{}]+)\{([^{}]*)\}/g)].map((m) => ({ selector: (m[1] ?? '').trim().replace(/"/g, "'"), body: m[2] ?? '' }));
+  const themes = new Map<ThemeName, TokenMap>();
+  for (const name of Object.keys(THEMES) as ThemeName[]) {
+    const { selector, base } = THEMES[name];
+    const own = blocks.filter((block) => block.selector === selector);
+    if (own.length === 0) throw new Error(`tokens.css has no ${selector} block`);
+    const tokens = new Map(base ? themes.get(base) : undefined);
+    for (const block of own) for (const [key, value] of parseTokens(block.body)) tokens.set(key, value);
+    themes.set(name, tokens);
+  }
+  return themes;
 }
 
 function channel(hex: string, offset: number): number {
