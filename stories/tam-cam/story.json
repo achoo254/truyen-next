@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "slug": "tam-cam",
+  "shelf": "kids",
+  "title": "Tấm Cám",
+  "summary": "Cô Tấm hiền lành được Bụt giúp đi hội và trở thành hoàng hậu. Bị mẹ con Cám giành chỗ, Tấm hóa chim vàng anh, rồi bước ra từ quả thị. Bản kể cho trẻ nhỏ, kết thúc bằng lời xin lỗi và sự tha thứ.",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ: bỏ các đoạn hại người và kết thúc trừng phạt của bản gốc, thay bằng cái kết mẹ con Cám nhận lỗi và được tha thứ.",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, ancient Van Lang era clothing and bronze-drum patterns, lush green hills, rivers and rice fields, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 41001,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "tam",
+      "name": "Cô Tấm",
+      "seed": 41202,
+      "sheetPrompt": "Tam, a gentle kind young Vietnamese village girl from the folk tale, long black hair tied with a brown ribbon, soft smile, simple brown ao tu than style wrap top over a cream blouse and a long black skirt, barefoot, holding a small bamboo fish basket, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cam",
+      "name": "Cô Cám",
+      "seed": 41203,
+      "sheetPrompt": "Cam, a spoiled but not scary young Vietnamese village girl from the folk tale, round face with a cheeky pout, hair in two buns with red ribbons, bright pink blouse and a green skirt, hands on her hips, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "di-ghe",
+      "name": "Dì ghẻ",
+      "seed": 41204,
+      "sheetPrompt": "a grumpy but comical middle-aged Vietnamese village stepmother from the folk tale, hair in a tight bun with a black scarf, raised eyebrows and a pursed mouth, dark purple wrap top and brown skirt, holding a bamboo winnowing basket, not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "but",
+      "name": "Bụt",
+      "seed": 41205,
+      "sheetPrompt": "But, a kind fairy-tale old sage from Vietnamese folk tales, long flowing white beard and eyebrows, gentle smile, simple light orange and white robes, holding a wooden walking stick, a soft glow around him, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nha-vua",
+      "name": "Nhà vua",
+      "seed": 41206,
+      "sheetPrompt": "a kind young Vietnamese king from the folk tale, gentle face, golden yellow royal robe with dragon-cloud embroidery, a simple golden crown, holding a small embroidered shoe in one hand, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Hôm nay Mèo Miu mang đến một quả thị vàng thơm phức đây này. Các bạn có tin không, ngày xưa có một cô gái hiền lành bước ra từ một quả thị đấy! Cô ấy tên là Tấm. Chuyện của Tấm có cả nước mắt lẫn nụ cười. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Hôm nay Mèo Miu mang đến một quả thị vàng thơm phức đây này.",
+        "Các bạn có tin không, ngày xưa có một cô gái hiền lành bước ra từ một quả thị đấy!",
+        "Cô ấy tên là Tấm. Chuyện của Tấm có cả nước mắt lẫn nụ cười.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "seed": 52201,
+        "prompt": "Meo Miu the voxel white cat sits on a low wooden stool in a cosy village kitchen, holding up a round golden thi fruit with both paws, an open picture book on her lap, warm morning light, a bamboo basket and clay jars nearby"
+      },
+      "video": {
+        "seed": 63201,
+        "motionPrompt": "the cat lifts the golden fruit and sniffs it happily, then blinks, sunlight shifts softly across the room, slow gentle camera push-in"
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-chi-em",
+      "title": "Hai chị em Tấm và Cám",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có hai chị em cùng cha khác mẹ. Chị tên là Tấm, em tên là Cám. Tấm mồ côi từ bé, phải sống với dì ghẻ là mẹ của Cám. Tấm chăm chỉ làm hết việc nhà, từ lúc gà gáy đến khi trời tối. Còn Cám được mẹ chiều, suốt ngày chỉ rong chơi. Một hôm, dì ghẻ đưa cho mỗi đứa một cái giỏ, bảo ra đồng bắt tép. Đứa nào bắt được nhiều thì được thưởng một cái yếm đỏ.",
+      "subtitles": [
+        "Ngày xưa, có hai chị em cùng cha khác mẹ. Chị tên là Tấm, em tên là Cám.",
+        "Tấm mồ côi từ bé, phải sống với dì ghẻ là mẹ của Cám.",
+        "Tấm chăm chỉ làm hết việc nhà, từ lúc gà gáy đến khi trời tối.",
+        "Còn Cám được mẹ chiều, suốt ngày chỉ rong chơi.",
+        "Một hôm, dì ghẻ đưa cho mỗi đứa một cái giỏ, bảo ra đồng bắt tép.",
+        "Đứa nào bắt được nhiều thì được thưởng một cái yếm đỏ."
+      ],
+      "image": {
+        "character": "tam",
+        "seed": 52202,
+        "prompt": "in front of a thatched village house, the stepmother hands two bamboo fish baskets to Tam, who bows politely, and to Cam, who yawns and looks away; rice fields and a pond behind, a red bodice hangs on the line as the prize"
+      },
+      "video": {
+        "seed": 63202,
+        "motionPrompt": "the stepmother holds out the baskets, Tam takes hers with a small bow, Cam stretches lazily, the red bodice sways on the line, ducks paddle on the pond"
+      },
+      "voice": {}
+    },
+    {
+      "id": "gio-tep",
+      "title": "Giỏ tép bị lấy mất",
+      "narrator": "ke-chuyen",
+      "narration": "Tấm chăm chỉ mò cua bắt tép, chẳng mấy chốc đã đầy giỏ. Cám thì mải chơi, giỏ vẫn trống không. Cám bèn bảo chị: Chị Tấm ơi, tóc chị dính đầy bùn rồi kìa. Chị xuống ao gội sạch đi, không về mẹ lại mắng đấy. Tấm tin lời, xuống ao gội đầu. Cám liền trút hết tép của chị sang giỏ mình, rồi chạy về trước nhận yếm đỏ. Tấm lên bờ, nhìn giỏ trống không, ngồi xuống khóc nức nở.",
+      "subtitles": [
+        "Tấm chăm chỉ mò cua bắt tép, chẳng mấy chốc đã đầy giỏ.",
+        "Cám thì mải chơi, giỏ vẫn trống không. Cám bèn bảo chị:",
+        "Chị Tấm ơi, tóc chị dính đầy bùn rồi kìa.",
+        "Chị xuống ao gội sạch đi, không về mẹ lại mắng đấy.",
+        "Tấm tin lời, xuống ao gội đầu.",
+        "Cám liền trút hết tép của chị sang giỏ mình, rồi chạy về trước nhận yếm đỏ.",
+        "Tấm lên bờ, nhìn giỏ trống không, ngồi xuống khóc nức nở."
+      ],
+      "image": {
+        "character": "tam",
+        "seed": 52203,
+        "prompt": "by a calm village pond, Tam washes her long hair in the shallow water while behind her Cam sneakily pours the shrimp from Tam basket into her own, lotus leaves on the water, dragonflies, soft afternoon light"
+      },
+      "video": {
+        "seed": 63203,
+        "motionPrompt": "Tam rinses her hair gently, Cam tiptoes and tips the basket, small shrimp drop with tiny splashes, dragonflies hover, ripples spread on the pond"
+      },
+      "voice": {}
+    },
+    {
+      "id": "but-hien-len",
+      "title": "Bụt hiện lên",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng Bụt hiện lên, hiền từ hỏi: Vì sao con khóc? Tấm kể lại mọi chuyện. Bụt nhìn vào giỏ, thấy còn sót một chú cá bống nhỏ, bèn bảo: Con mang bống về thả xuống giếng, mỗi bữa nhớ để dành cơm cho bống ăn. Từ đó, ngày nào Tấm cũng ra giếng gọi bống, chia cho bống từng hạt cơm. Chú cá bống trở thành người bạn nhỏ của Tấm.",
+      "subtitles": [
+        "Bỗng Bụt hiện lên, hiền từ hỏi: Vì sao con khóc?",
+        "Tấm kể lại mọi chuyện. Bụt nhìn vào giỏ, thấy còn sót một chú cá bống nhỏ, bèn bảo:",
+        "Con mang bống về thả xuống giếng, mỗi bữa nhớ để dành cơm cho bống ăn.",
+        "Từ đó, ngày nào Tấm cũng ra giếng gọi bống, chia cho bống từng hạt cơm.",
+        "Chú cá bống trở thành người bạn nhỏ của Tấm."
+      ],
+      "image": {
+        "character": "but",
+        "seed": 52204,
+        "prompt": "the kind old sage But appears in a soft glow beside the pond, smiling at Tam who wipes her tears, she holds the basket where one tiny goby fish looks up; later the same tiny fish swims happily in a clear stone village well"
+      },
+      "video": {
+        "seed": 63204,
+        "motionPrompt": "a gentle glow shimmers around the old sage, Tam looks up and smiles, the tiny fish flicks its tail, water ripples in sparkling circles"
+      },
+      "voice": {}
+    },
+    {
+      "id": "di-hoi",
+      "title": "Đi xem hội",
+      "narrator": "ke-chuyen",
+      "narration": "Năm ấy, nhà vua mở hội lớn. Dì ghẻ đưa Cám đi xem hội, còn bắt Tấm ở nhà nhặt riêng một thúng thóc trộn lẫn với gạo. Bụt lại hiện lên, sai một đàn chim sẻ xuống nhặt giúp. Thoáng cái, thóc ra thóc, gạo ra gạo. Bụt còn cho Tấm một bộ áo đẹp và một đôi giày thêu xinh xắn. Tấm vui mừng đi hội. Qua chỗ lội, nàng đánh rơi một chiếc giày xuống nước.",
+      "subtitles": [
+        "Năm ấy, nhà vua mở hội lớn. Dì ghẻ đưa Cám đi xem hội,",
+        "còn bắt Tấm ở nhà nhặt riêng một thúng thóc trộn lẫn với gạo.",
+        "Bụt lại hiện lên, sai một đàn chim sẻ xuống nhặt giúp.",
+        "Thoáng cái, thóc ra thóc, gạo ra gạo.",
+        "Bụt còn cho Tấm một bộ áo đẹp và một đôi giày thêu xinh xắn.",
+        "Tấm vui mừng đi hội. Qua chỗ lội, nàng đánh rơi một chiếc giày xuống nước."
+      ],
+      "image": {
+        "character": "tam",
+        "seed": 52205,
+        "prompt": "a flock of little sparrows sorts rice from paddy grain on a large bamboo tray in the yard, Tam now in a beautiful festival dress and embroidered shoes smiles with joy, the old sage But waves kindly from a glowing cloud"
+      },
+      "video": {
+        "seed": 63205,
+        "motionPrompt": "the sparrows hop and peck in a busy cheerful rhythm, grains slide into two neat piles, Tam twirls once in her new dress, the glow fades softly"
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-giay",
+      "title": "Chiếc giày thêu",
+      "narrator": "ke-chuyen",
+      "narration": "Voi của nhà vua đi qua, bỗng dừng lại, kêu vang trước chiếc giày. Vua sai lính nhặt lên, thấy chiếc giày thêu xinh quá, bèn truyền rằng: Ai đi vừa chiếc giày này, ta sẽ cưới làm vợ. Các cô gái lần lượt thử, nhưng không ai đi vừa, kể cả Cám. Đến lượt Tấm, chiếc giày vừa như in. Tấm lấy chiếc giày còn lại trong vạt áo ra xỏ nốt, cả hội reo hò. Tấm theo vua về cung, trở thành hoàng hậu.",
+      "subtitles": [
+        "Voi của nhà vua đi qua, bỗng dừng lại, kêu vang trước chiếc giày.",
+        "Vua sai lính nhặt lên, thấy chiếc giày thêu xinh quá, bèn truyền rằng:",
+        "Ai đi vừa chiếc giày này, ta sẽ cưới làm vợ.",
+        "Các cô gái lần lượt thử, nhưng không ai đi vừa, kể cả Cám.",
+        "Đến lượt Tấm, chiếc giày vừa như in.",
+        "Tấm lấy chiếc giày còn lại trong vạt áo ra xỏ nốt, cả hội reo hò.",
+        "Tấm theo vua về cung, trở thành hoàng hậu."
+      ],
+      "image": {
+        "character": "nha-vua",
+        "seed": 52206,
+        "prompt": "at a lively village festival with colourful flags, the kind young king holds up a small embroidered shoe, Tam slips her foot into it perfectly while villagers cheer, Cam pouts in the crowd, a royal elephant with a red saddle cloth watches"
+      },
+      "video": {
+        "seed": 63206,
+        "motionPrompt": "flags flutter, the crowd claps and cheers, the shoe slides on and Tam smiles shyly, the elephant raises its trunk happily, gentle camera push-in"
+      },
+      "voice": {}
+    },
+    {
+      "id": "chim-vang-anh",
+      "title": "Chú chim vàng anh",
+      "narrator": "ke-chuyen",
+      "narration": "Mẹ con Cám ghen tức lắm. Nhân ngày giỗ cha, dì ghẻ gọi Tấm về nhà, rồi khóa cửa giữ Tấm lại, cho Cám mặc áo của Tấm vào cung thay chị. Tấm ngồi khóc một mình. Bụt thương Tấm, hóa Tấm thành một chú chim vàng anh, bay về cung, đậu trên cành cây ngoài cửa sổ của vua mà hót líu lo. Vua nghe tiếng chim thấy nhớ Tấm, thương chú chim lắm. Cám thấy vậy liền xua chim đi, chú chim đành bay ra khỏi cung.",
+      "subtitles": [
+        "Mẹ con Cám ghen tức lắm. Nhân ngày giỗ cha, dì ghẻ gọi Tấm về nhà,",
+        "rồi khóa cửa giữ Tấm lại, cho Cám mặc áo của Tấm vào cung thay chị.",
+        "Tấm ngồi khóc một mình. Bụt thương Tấm, hóa Tấm thành một chú chim vàng anh,",
+        "bay về cung, đậu trên cành cây ngoài cửa sổ của vua mà hót líu lo.",
+        "Vua nghe tiếng chim thấy nhớ Tấm, thương chú chim lắm.",
+        "Cám thấy vậy liền xua chim đi, chú chim đành bay ra khỏi cung."
+      ],
+      "image": {
+        "character": "tam",
+        "seed": 52207,
+        "prompt": "a bright yellow oriole bird sings on a blossoming branch outside a palace window, inside the kind young king listens with a wistful smile, at the side Cam wearing a borrowed dress frowns and waves a fan to shoo the bird"
+      },
+      "video": {
+        "seed": 63207,
+        "motionPrompt": "the little yellow bird sings and flutters its wings, blossoms drift down, the king tilts his head to listen, Cam flaps her fan, the bird lifts off and flies away"
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-thi",
+      "title": "Cô gái trong quả thị",
+      "narrator": "ke-chuyen",
+      "narration": "Chim vàng anh bay mãi, đến khu vườn của một bà cụ bán nước, rồi hóa thành một quả thị vàng thơm. Bà cụ ngắm quả thị, chẳng nỡ ăn, đem về để trong nhà. Từ đó, cứ mỗi lần bà đi chợ về, nhà cửa đã sạch tinh tươm, cơm canh nấu sẵn. Một hôm, bà cụ giả vờ đi chợ rồi nấp ngoài cửa. Bà thấy một cô gái xinh đẹp bước ra từ quả thị. Đó chính là Tấm! Bà cụ mừng lắm, nhận Tấm làm con nuôi.",
+      "subtitles": [
+        "Chim vàng anh bay mãi, đến khu vườn của một bà cụ bán nước,",
+        "rồi hóa thành một quả thị vàng thơm.",
+        "Bà cụ ngắm quả thị, chẳng nỡ ăn, đem về để trong nhà.",
+        "Từ đó, cứ mỗi lần bà đi chợ về, nhà cửa đã sạch tinh tươm, cơm canh nấu sẵn.",
+        "Một hôm, bà cụ giả vờ đi chợ rồi nấp ngoài cửa.",
+        "Bà thấy một cô gái xinh đẹp bước ra từ quả thị. Đó chính là Tấm!",
+        "Bà cụ mừng lắm, nhận Tấm làm con nuôi."
+      ],
+      "image": {
+        "character": "tam",
+        "seed": 52208,
+        "prompt": "inside a humble clean little cottage, Tam steps gently out of a glowing golden thi fruit on a wooden shelf, a kind old tea-seller woman peeks in at the doorway with delight, a broom and a pot of rice already cooked, soft morning light"
+      },
+      "video": {
+        "seed": 63208,
+        "motionPrompt": "the golden fruit glows and opens softly like a flower, Tam steps out and smiles, the old woman covers her mouth in happy surprise, steam rises from the rice pot"
+      },
+      "voice": {}
+    },
+    {
+      "id": "mieng-trau",
+      "title": "Miếng trầu têm cánh phượng",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, nhà vua đi ngang, ghé quán nước của bà cụ. Bà mời vua miếng trầu têm hình cánh phượng thật khéo. Vua nhận ra ngay, đó là kiểu trầu chỉ Tấm mới têm được. Vua hỏi ai têm trầu này. Tấm bước ra. Vua mừng rỡ, đón Tấm về cung.",
+      "subtitles": [
+        "Một hôm, nhà vua đi ngang, ghé quán nước của bà cụ.",
+        "Bà mời vua miếng trầu têm hình cánh phượng thật khéo.",
+        "Vua nhận ra ngay, đó là kiểu trầu chỉ Tấm mới têm được. Vua hỏi ai têm trầu này.",
+        "Tấm bước ra. Vua mừng rỡ, đón Tấm về cung."
+      ],
+      "image": {
+        "character": "nha-vua",
+        "seed": 52209,
+        "prompt": "at a roadside tea stall under a banyan tree, the kind young king holds a betel leaf folded like phoenix wings and looks up with joy as Tam steps out from the cottage, the old woman smiling beside a teapot, royal parasols behind"
+      },
+      "video": {
+        "seed": 63209,
+        "motionPrompt": "the king lifts the folded betel leaf and recognises it, Tam walks out shyly, the old woman beams, banyan leaves sway, slow gentle camera push-in"
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thấy Tấm trở về, mẹ con Cám xấu hổ lắm, cúi đầu xin lỗi. Tấm hiền lành tha thứ cho dì và em. Từ đó, mẹ con Cám về quê chăm chỉ làm ăn, không còn tham lam, ganh ghét ai nữa. Các bạn thấy không, người hiền lành, chăm chỉ thì luôn có người giúp đỡ. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Thấy Tấm trở về, mẹ con Cám xấu hổ lắm, cúi đầu xin lỗi.",
+        "Tấm hiền lành tha thứ cho dì và em. Từ đó, mẹ con Cám về quê chăm chỉ làm ăn,",
+        "không còn tham lam, ganh ghét ai nữa.",
+        "Các bạn thấy không, người hiền lành, chăm chỉ thì luôn có người giúp đỡ.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "seed": 52210,
+        "prompt": "Meo Miu the voxel white cat waves goodbye holding the golden thi fruit, behind her in a sunny palace garden Tam smiles kindly at the stepmother and Cam who bow their heads to apologise, the kind young king beside Tam, flowers everywhere"
+      },
+      "video": {
+        "seed": 63210,
+        "motionPrompt": "the cat waves slowly, the stepmother and Cam bow and Tam gently lifts their hands, petals drift in the breeze, gentle camera pull-back"
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender Vietnamese folk lullaby, dan tranh zither and soft bamboo flute, light dan nguyet plucks, sweet and a little wistful turning hopeful, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 74201
+  }
+}

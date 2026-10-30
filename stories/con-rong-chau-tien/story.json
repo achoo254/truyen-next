@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-rong-chau-tien",
+  "shelf": "kids",
+  "title": "Con Rồng cháu Tiên",
+  "summary": "Lạc Long Quân giống rồng dưới biển và Âu Cơ giống tiên trên núi lấy nhau, sinh ra một bọc trăm trứng nở thành trăm người con. Mèo Miu kể vì sao người Việt gọi nhau là đồng bào.",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, ancient Van Lang era clothing and bronze-drum patterns, lush green hills, rivers and rice fields, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 41001,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "lac-long-quan",
+      "name": "Lạc Long Quân",
+      "seed": 41402,
+      "sheetPrompt": "Lac Long Quan, a kind strong dragon lord from Vietnamese legend in human form, warm smile, long black hair, sea-green and gold robes with soft dragon-scale and wave patterns, a small friendly dragon crest on his headband, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "au-co",
+      "name": "Âu Cơ",
+      "seed": 41403,
+      "sheetPrompt": "Au Co, a gentle fairy lady of the high mountains from Vietnamese legend, long black hair with white plum blossoms, kind smile, flowing white and pale pink robes with cloud and flower patterns, a light silk shawl floating around her, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hung-vuong",
+      "name": "Vua Hùng đầu tiên",
+      "seed": 41404,
+      "sheetPrompt": "the first Hung King of Van Lang as a young man, eldest son of the dragon lord and the fairy, friendly confident face, brown and gold robe with bronze-drum sun patterns, a crown of bird feathers, holding a small bronze drum, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây! Các bạn có bao giờ nghe người lớn gọi nhau là đồng bào chưa? Đồng bào nghĩa là cùng chung một bọc đấy. Vì sao người Việt mình lại cùng chung một bọc nhỉ? Các bạn ngồi gần lại đây, nghe Miu kể chuyện Con Rồng cháu Tiên nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Mèo Miu đây!",
+        "Các bạn có bao giờ nghe người lớn gọi nhau là đồng bào chưa?",
+        "Đồng bào nghĩa là cùng chung một bọc đấy.",
+        "Vì sao người Việt mình lại cùng chung một bọc nhỉ?",
+        "Các bạn ngồi gần lại đây, nghe Miu kể chuyện Con Rồng cháu Tiên nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "seed": 52401,
+        "prompt": "Meo Miu the voxel white cat sits on a low wooden stool on a hilltop at sunrise, an open picture book on her lap, below her green mountains on one side and a calm blue sea on the other, a soft rainbow joining them"
+      },
+      "video": {
+        "seed": 63401,
+        "motionPrompt": "the sun rises slowly, mist drifts between the mountains, waves glitter on the sea, the cat turns a page and smiles, slow gentle camera push-in"
+      },
+      "voice": {}
+    },
+    {
+      "id": "lac-long-quan",
+      "title": "Thần Rồng dưới biển",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xửa ngày xưa, ở miền đất Lạc Việt có một vị thần tên là Lạc Long Quân. Thần thuộc giống rồng, sống ở dưới biển sâu, sức khỏe phi thường. Thần thường lên trên cạn giúp dân. Thần dạy mọi người trồng lúa, nấu cơm, dựng nhà sàn để tránh thú dữ. Làm xong việc, thần lại về biển.",
+      "subtitles": [
+        "Ngày xửa ngày xưa, ở miền đất Lạc Việt có một vị thần tên là Lạc Long Quân.",
+        "Thần thuộc giống rồng, sống ở dưới biển sâu, sức khỏe phi thường.",
+        "Thần thường lên trên cạn giúp dân. Thần dạy mọi người trồng lúa, nấu cơm,",
+        "dựng nhà sàn để tránh thú dữ. Làm xong việc, thần lại về biển."
+      ],
+      "image": {
+        "character": "lac-long-quan",
+        "seed": 52402,
+        "prompt": "the kind dragon lord Lac Long Quan in sea-green robes stands on a riverbank teaching smiling villagers to plant rice seedlings and build a wooden stilt house, a friendly dragon shape glimmers in the sea waves behind him"
+      },
+      "video": {
+        "seed": 63402,
+        "motionPrompt": "villagers press rice seedlings into the water, the dragon lord points and smiles, a gentle shimmer of a dragon tail curls in the waves, birds fly over the fields"
+      },
+      "voice": {}
+    },
+    {
+      "id": "au-co",
+      "title": "Nàng tiên trên núi",
+      "narrator": "ke-chuyen",
+      "narration": "Ở vùng núi cao phương bắc có nàng Âu Cơ, thuộc dòng họ tiên. Nàng xinh đẹp tuyệt trần, lại rất yêu cây cỏ, hoa lá. Nghe nói miền Lạc Việt có nhiều hoa thơm cỏ lạ, nàng bèn tìm đến thăm. Ở đó, Âu Cơ gặp Lạc Long Quân. Hai người vừa gặp đã quý mến nhau. Rồi rồng và tiên nên vợ nên chồng, cùng sống ở cung điện Long Trang.",
+      "subtitles": [
+        "Ở vùng núi cao phương bắc có nàng Âu Cơ, thuộc dòng họ tiên.",
+        "Nàng xinh đẹp tuyệt trần, lại rất yêu cây cỏ, hoa lá.",
+        "Nghe nói miền Lạc Việt có nhiều hoa thơm cỏ lạ, nàng bèn tìm đến thăm.",
+        "Ở đó, Âu Cơ gặp Lạc Long Quân. Hai người vừa gặp đã quý mến nhau.",
+        "Rồi rồng và tiên nên vợ nên chồng, cùng sống ở cung điện Long Trang."
+      ],
+      "image": {
+        "character": "au-co",
+        "seed": 52403,
+        "prompt": "in a valley full of wild flowers, the fairy lady Au Co in flowing white and pink robes meets the dragon lord Lac Long Quan beside a clear stream, both smiling shyly, plum blossoms drift in the air, misty mountains behind"
+      },
+      "video": {
+        "seed": 63403,
+        "motionPrompt": "petals float down slowly, the fairy shawl lifts in the breeze, the two bow to each other and smile, the stream sparkles, gentle sideways camera pan"
+      },
+      "voice": {}
+    },
+    {
+      "id": "boc-tram-trung",
+      "title": "Một bọc trăm trứng",
+      "narrator": "ke-chuyen",
+      "narration": "Ít lâu sau, Âu Cơ có mang. Đến ngày sinh, nàng sinh ra một cái bọc lạ. Bảy ngày sau, bọc nở ra một trăm quả trứng. Rồi từ một trăm quả trứng, nở ra một trăm người con trai hồng hào, khỏe mạnh. Các con ngày một lớn, chạy nhảy khắp cung điện, đứa nào cũng nhanh nhẹn và tốt bụng.",
+      "subtitles": [
+        "Ít lâu sau, Âu Cơ có mang. Đến ngày sinh, nàng sinh ra một cái bọc lạ.",
+        "Bảy ngày sau, bọc nở ra một trăm quả trứng.",
+        "Rồi từ một trăm quả trứng, nở ra một trăm người con trai hồng hào, khỏe mạnh.",
+        "Các con ngày một lớn, chạy nhảy khắp cung điện, đứa nào cũng nhanh nhẹn và tốt bụng."
+      ],
+      "image": {
+        "character": "au-co",
+        "seed": 52404,
+        "prompt": "inside a wooden palace with bronze-drum patterns, the smiling fairy mother Au Co and the dragon lord look at a softly glowing pearly sac holding many round shiny eggs, a few cute chubby baby boys already giggling and crawling out around them"
+      },
+      "video": {
+        "seed": 63404,
+        "motionPrompt": "the glowing eggs crack open one by one with tiny sparkles, chubby babies wriggle and laugh, the parents lean in with delight, warm light pulses softly"
+      },
+      "voice": {}
+    },
+    {
+      "id": "chia-tay",
+      "title": "Lên rừng, xuống biển",
+      "narrator": "ke-chuyen",
+      "narration": "Lạc Long Quân vốn quen sống dưới nước, nên lúc nào cũng nhớ biển. Một hôm, thần nắm tay Âu Cơ, buồn buồn nói: Ta quen sóng nước, nàng quen mây núi. Hay là mình chia các con ra: một nửa theo ta về biển, một nửa theo nàng lên rừng. Ở đâu cũng có người cần giúp. Mai này, bên nào gặp khó thì bên kia tìm đến, nhé nàng. Âu Cơ gật đầu, mắt rưng rưng. Từ đó, các con chia đôi, người xuống biển, người lên rừng.",
+      "subtitles": [
+        "Lạc Long Quân vốn quen sống dưới nước, nên lúc nào cũng nhớ biển.",
+        "Một hôm, thần nắm tay Âu Cơ, buồn buồn nói: Ta quen sóng nước, nàng quen mây núi.",
+        "Hay là mình chia các con ra: một nửa theo ta về biển, một nửa theo nàng lên rừng.",
+        "Ở đâu cũng có người cần giúp. Mai này, bên nào gặp khó thì bên kia tìm đến, nhé nàng.",
+        "Âu Cơ gật đầu, mắt rưng rưng.",
+        "Từ đó, các con chia đôi, người xuống biển, người lên rừng."
+      ],
+      "image": {
+        "character": "lac-long-quan",
+        "seed": 52405,
+        "prompt": "at a river fork at dawn, the dragon lord leads a line of happy young sons down toward the blue sea while the fairy lady leads another line of sons up toward green misty mountains, everyone waving to each other warmly"
+      },
+      "video": {
+        "seed": 63405,
+        "motionPrompt": "the two groups walk slowly in opposite directions and turn back to wave, the river flows between them, mist rises on the mountains, waves roll gently"
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-hung",
+      "title": "Vua Hùng đầu tiên",
+      "narrator": "ke-chuyen",
+      "narration": "Người con trưởng theo mẹ lên vùng đất Phong Châu, được mọi người tôn lên làm vua, lấy hiệu là Hùng Vương, đặt tên nước là Văn Lang. Vua Hùng truyền ngôi cho con, con lại truyền cho cháu, nối nhau mười tám đời. Nước Văn Lang có lúa xanh đồng, có trống đồng vang tiếng, mọi người sống yên vui bên nhau.",
+      "subtitles": [
+        "Người con trưởng theo mẹ lên vùng đất Phong Châu, được mọi người tôn lên làm vua,",
+        "lấy hiệu là Hùng Vương, đặt tên nước là Văn Lang.",
+        "Vua Hùng truyền ngôi cho con, con lại truyền cho cháu, nối nhau mười tám đời.",
+        "Nước Văn Lang có lúa xanh đồng, có trống đồng vang tiếng,",
+        "mọi người sống yên vui bên nhau."
+      ],
+      "image": {
+        "character": "hung-vuong",
+        "seed": 52406,
+        "prompt": "on a green hill above rice fields the young first Hung King in a feathered crown stands beside a large bronze drum, cheering villagers in Van Lang era clothing gather with banners, the fairy mother smiles proudly beside him"
+      },
+      "video": {
+        "seed": 63406,
+        "motionPrompt": "the king beats the bronze drum gently, villagers clap and raise banners, rice waves in the wind, clouds drift across the sky"
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thế đấy các bạn ạ. Người Việt mình dù ở miền núi hay miền biển, đều là con cháu của một nhà, cùng sinh ra từ một bọc trăm trứng. Vì thế mình gọi nhau là đồng bào, và tự hào là con Rồng cháu Tiên. Đã là anh em một nhà thì phải thương yêu, giúp đỡ nhau. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn trong câu chuyện sau nhé!",
+      "subtitles": [
+        "Thế đấy các bạn ạ. Người Việt mình dù ở miền núi hay miền biển,",
+        "đều là con cháu của một nhà, cùng sinh ra từ một bọc trăm trứng.",
+        "Vì thế mình gọi nhau là đồng bào, và tự hào là con Rồng cháu Tiên.",
+        "Đã là anh em một nhà thì phải thương yêu, giúp đỡ nhau.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn trong câu chuyện sau nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "seed": 52407,
+        "prompt": "Meo Miu the voxel white cat waves goodbye on the hilltop, the picture book closed on her lap, behind her children from the mountains and children from the sea villages hold hands in a long happy circle under a rainbow"
+      },
+      "video": {
+        "seed": 63407,
+        "motionPrompt": "the cat waves slowly, the children circle round holding hands, the rainbow shimmers, kites float in the sky, gentle camera pull-back"
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm majestic Vietnamese folk tune for children, soft bronze drum, dan tranh zither and bamboo flute, gentle sea and mountain feeling, calm and proud, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 74401
+  }
+}

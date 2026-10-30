@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "slug": "cay-khe",
+  "shelf": "kids",
+  "title": "Cây khế",
+  "summary": "Người em hiền lành chỉ được chia một cây khế, nhưng nhờ một chú chim lớn mà có vàng. Người anh tham lam may túi thật to và suýt gặp nạn. Bản kể cho trẻ nhỏ: người anh tỉnh ngộ và hai anh em làm lành.",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ: người anh không rơi xuống biển như bản gốc, mà phải buông túi vàng, được chim đưa về và biết hối lỗi.",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, ancient Van Lang era clothing and bronze-drum patterns, lush green hills, rivers and rice fields, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 41001,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-em",
+      "name": "Người em",
+      "seed": 41302,
+      "sheetPrompt": "a kind humble young Vietnamese farmer from the folk tale, gentle smile, short black hair, patched brown farmer shirt and rolled-up trousers, a conical nón lá hat on his back, holding a small cloth bag, barefoot, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-anh",
+      "name": "Người anh",
+      "seed": 41303,
+      "sheetPrompt": "a greedy but comical older Vietnamese brother from the folk tale, round belly, thin curled moustache, smug grin, fancy dark blue silk tunic with gold trim and a black turban, holding a big empty sack, not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chim-lon",
+      "name": "Chim thần",
+      "seed": 41304,
+      "sheetPrompt": "a giant gentle magical bird from a Vietnamese folk tale, large enough to carry a person, wise kind eyes, shimmering feathers in gold, emerald and sky blue, long elegant tail, friendly expression, full body, side view with wings half open, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây! Các bạn nhìn này, quả khế cắt ngang ra trông giống hệt một ngôi sao năm cánh. Ngày xưa, có một cây khế đã mang đến cho người trồng nó cả một túi vàng đấy. Vì sao lại thế nhỉ? Các bạn cùng nghe Miu kể chuyện Cây khế nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Mèo Miu đây!",
+        "Các bạn nhìn này, quả khế cắt ngang ra trông giống hệt một ngôi sao năm cánh.",
+        "Ngày xưa, có một cây khế đã mang đến cho người trồng nó cả một túi vàng đấy.",
+        "Vì sao lại thế nhỉ? Các bạn cùng nghe Miu kể chuyện Cây khế nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "seed": 52301,
+        "prompt": "Meo Miu the voxel white cat sits on a low wooden stool in a sunny garden, an open picture book on her lap, holding up a slice of yellow star fruit shaped like a five-pointed star, a starfruit tree heavy with ripe fruit behind her"
+      },
+      "video": {
+        "seed": 63301,
+        "motionPrompt": "the cat holds up the star-shaped slice and it sparkles in the sun, leaves rustle on the tree, butterflies drift by, slow gentle camera push-in"
+      },
+      "voice": {}
+    },
+    {
+      "id": "chia-nha",
+      "title": "Chia gia tài",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có hai anh em nhà nọ. Khi cha mẹ không còn nữa, người anh đòi chia gia tài. Anh lấy hết nhà to, ruộng tốt, trâu béo, chỉ để cho em một túp lều nhỏ và một cây khế ở góc vườn. Người em hiền lành, không phàn nàn một lời. Ngày ngày, em chăm bón, tưới nước cho cây khế. Cây khế lớn lên xanh tốt, đến mùa ra quả chín vàng trĩu cành.",
+      "subtitles": [
+        "Ngày xưa, có hai anh em nhà nọ. Khi cha mẹ không còn nữa, người anh đòi chia gia tài.",
+        "Anh lấy hết nhà to, ruộng tốt, trâu béo, chỉ để cho em một túp lều nhỏ",
+        "và một cây khế ở góc vườn.",
+        "Người em hiền lành, không phàn nàn một lời.",
+        "Ngày ngày, em chăm bón, tưới nước cho cây khế.",
+        "Cây khế lớn lên xanh tốt, đến mùa ra quả chín vàng trĩu cành."
+      ],
+      "image": {
+        "character": "nguoi-em",
+        "seed": 52302,
+        "prompt": "the smug older brother walks off leading a fat water buffalo toward a big tiled house and rich rice fields, while the kind younger brother smiles calmly beside a tiny thatched hut and a young starfruit tree, watering it with a clay jug"
+      },
+      "video": {
+        "seed": 63302,
+        "motionPrompt": "the buffalo plods away swishing its tail, the younger brother pours water gently at the tree roots, the little tree leaves flutter, clouds drift"
+      },
+      "voice": {}
+    },
+    {
+      "id": "chim-an-khe",
+      "title": "Chú chim ăn khế",
+      "narrator": "ke-chuyen",
+      "narration": "Một buổi sáng, có một con chim thật lớn bay đến, đậu lên cây ăn khế. Người em buồn rầu nói: Chim ơi, nhà tôi chỉ có cây khế này thôi. Bỗng chim cất tiếng nói: Ăn một quả, trả cục vàng. May túi ba gang, mang đi mà đựng. Người em ngạc nhiên lắm, về nhà may một cái túi nhỏ đúng ba gang tay.",
+      "subtitles": [
+        "Một buổi sáng, có một con chim thật lớn bay đến, đậu lên cây ăn khế.",
+        "Người em buồn rầu nói: Chim ơi, nhà tôi chỉ có cây khế này thôi.",
+        "Bỗng chim cất tiếng nói:",
+        "Ăn một quả, trả cục vàng. May túi ba gang, mang đi mà đựng.",
+        "Người em ngạc nhiên lắm, về nhà may một cái túi nhỏ đúng ba gang tay."
+      ],
+      "image": {
+        "character": "chim-lon",
+        "seed": 52303,
+        "prompt": "a giant gentle magical bird with gold and emerald feathers perches on the starfruit tree eating a yellow star fruit, the kind younger brother looks up in wonder holding a small cloth bag, morning sunlight through the leaves"
+      },
+      "video": {
+        "seed": 63303,
+        "motionPrompt": "the big bird tilts its head and speaks kindly, its long tail feathers sway, a ripe star fruit drops softly, the brother lifts his small bag, leaves rustle"
+      },
+      "voice": {}
+    },
+    {
+      "id": "dao-vang",
+      "title": "Hòn đảo vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm sau, chim đến đưa người em bay qua biển rộng, tới một hòn đảo đầy vàng bạc lấp lánh. Người em chỉ nhặt vừa đủ đầy cái túi nhỏ, rồi xin chim đưa về. Từ đó, người em có của ăn của để. Em còn chia gạo, chia tiền cho những nhà nghèo trong làng.",
+      "subtitles": [
+        "Hôm sau, chim đến đưa người em bay qua biển rộng, tới một hòn đảo đầy vàng bạc lấp lánh.",
+        "Người em chỉ nhặt vừa đủ đầy cái túi nhỏ, rồi xin chim đưa về.",
+        "Từ đó, người em có của ăn của để.",
+        "Em còn chia gạo, chia tiền cho những nhà nghèo trong làng."
+      ],
+      "image": {
+        "character": "chim-lon",
+        "seed": 52304,
+        "prompt": "the younger brother rides on the back of the giant magical bird flying over a sparkling blue sea toward a small island glittering with gold nuggets and shiny stones, puffy white clouds, seagulls, bright happy colours"
+      },
+      "video": {
+        "seed": 63304,
+        "motionPrompt": "the bird glides with slow wing beats over the sea, waves sparkle below, the island glitters in the distance, clouds drift past, camera follows the flight"
+      },
+      "voice": {}
+    },
+    {
+      "id": "doi-cay",
+      "title": "Người anh đổi cây",
+      "narrator": "ke-chuyen",
+      "narration": "Người anh nghe chuyện, vội chạy sang nhà em. Anh nói: Em đổi cho anh cây khế, anh cho em cả nhà to, ruộng tốt của anh. Người em vui vẻ đồng ý ngay. Người anh dọn sang ở dưới gốc khế, ngày ngày ngồi chờ chim đến.",
+      "subtitles": [
+        "Người anh nghe chuyện, vội chạy sang nhà em.",
+        "Anh nói: Em đổi cho anh cây khế, anh cho em cả nhà to, ruộng tốt của anh.",
+        "Người em vui vẻ đồng ý ngay.",
+        "Người anh dọn sang ở dưới gốc khế, ngày ngày ngồi chờ chim đến."
+      ],
+      "image": {
+        "character": "nguoi-anh",
+        "seed": 52305,
+        "prompt": "the greedy older brother in his fancy blue tunic eagerly shakes hands with the calm younger brother under the starfruit tree, pointing toward his big tiled house; then sits waiting under the tree looking at the sky with a big empty sack"
+      },
+      "video": {
+        "seed": 63305,
+        "motionPrompt": "the older brother nods eagerly and rubs his hands, the younger brother smiles, starfruit sway on the branches, a cloud slides across the sky"
+      },
+      "voice": {}
+    },
+    {
+      "id": "tui-to",
+      "title": "Cái túi mười hai gang",
+      "narrator": "ke-chuyen",
+      "narration": "Chim lại đến ăn khế, lại nói: Ăn một quả, trả cục vàng. May túi ba gang, mang đi mà đựng. Người anh không may túi ba gang, mà may một cái túi to những mười hai gang. Ra đến đảo, anh nhét vàng đầy túi, nhét cả vào túi áo, túi quần, đến nỗi đi không nổi nữa mới chịu trèo lên lưng chim.",
+      "subtitles": [
+        "Chim lại đến ăn khế, lại nói: Ăn một quả, trả cục vàng. May túi ba gang, mang đi mà đựng.",
+        "Người anh không may túi ba gang, mà may một cái túi to những mười hai gang.",
+        "Ra đến đảo, anh nhét vàng đầy túi, nhét cả vào túi áo, túi quần,",
+        "đến nỗi đi không nổi nữa mới chịu trèo lên lưng chim."
+      ],
+      "image": {
+        "character": "nguoi-anh",
+        "seed": 52306,
+        "prompt": "on the glittering island of gold, the comical greedy older brother stuffs gold into an enormous bulging sack and his bulging pockets, staggering under the weight, the giant magical bird waits patiently with a worried look, sea and sky behind"
+      },
+      "video": {
+        "seed": 63306,
+        "motionPrompt": "the brother keeps shoving gold into the sack and wobbles, coins spill and roll, the bird shakes its head slowly, waves lap at the shore"
+      },
+      "voice": {}
+    },
+    {
+      "id": "buong-tui",
+      "title": "Buông túi vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Chim bay trên biển, đôi cánh mỗi lúc một nặng, cứ chao đi chao lại. Chim nói: Nặng quá, tôi bay không nổi nữa! Anh bỏ bớt vàng đi! Người anh tiếc của, cứ ôm chặt cái túi. Mãi đến khi chim sà sát mặt nước, anh mới đành buông tay. Túi vàng rơi tõm xuống biển. Chim nhẹ hẳn đi, đưa anh về đến gốc khế, tay không.",
+      "subtitles": [
+        "Chim bay trên biển, đôi cánh mỗi lúc một nặng, cứ chao đi chao lại.",
+        "Chim nói: Nặng quá, tôi bay không nổi nữa! Anh bỏ bớt vàng đi!",
+        "Người anh tiếc của, cứ ôm chặt cái túi.",
+        "Mãi đến khi chim sà sát mặt nước, anh mới đành buông tay.",
+        "Túi vàng rơi tõm xuống biển. Chim nhẹ hẳn đi, đưa anh về đến gốc khế, tay không."
+      ],
+      "image": {
+        "character": "chim-lon",
+        "seed": 52307,
+        "prompt": "over a calm sea the giant magical bird flies low with tired wings, the older brother on its back lets go of the huge sack which falls toward the water with a big splash of sparkles, the bird looking relieved, the starfruit tree on the shore ahead"
+      },
+      "video": {
+        "seed": 63307,
+        "motionPrompt": "the bird wobbles then steadies as the heavy sack drops away, a splash of water and glittering coins, the bird rises again with easy wing beats toward the shore"
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Về đến nhà, người anh ngồi lặng đi rất lâu. Anh biết mình đã quá tham lam. Anh sang xin lỗi em. Người em ôm lấy anh, hai anh em lại cùng nhau chăm cây khế, thương nhau như xưa. Các bạn nhớ nhé: biết đủ thì vui, tham quá thì mất cả. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn trong câu chuyện sau nhé!",
+      "subtitles": [
+        "Về đến nhà, người anh ngồi lặng đi rất lâu. Anh biết mình đã quá tham lam.",
+        "Anh sang xin lỗi em. Người em ôm lấy anh,",
+        "hai anh em lại cùng nhau chăm cây khế, thương nhau như xưa.",
+        "Các bạn nhớ nhé: biết đủ thì vui, tham quá thì mất cả.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn trong câu chuyện sau nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "seed": 52308,
+        "prompt": "Meo Miu the voxel white cat waves goodbye holding a slice of star fruit, behind her the two brothers hug warmly under the starfruit tree heavy with yellow fruit, the giant magical bird resting on a branch, golden evening light"
+      },
+      "video": {
+        "seed": 63308,
+        "motionPrompt": "the cat waves slowly, the brothers pat each other on the back and laugh, the bird preens its feathers, leaves sway, gentle camera pull-back"
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful gentle Vietnamese folk tune for children, dan bau monochord melody, bamboo flute and light wooden percussion, warm and cheerful with a calm ending, slow-medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 74301
+  }
+}

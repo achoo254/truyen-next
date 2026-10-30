@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "slug": "thanh-giong",
+  "shelf": "kids",
+  "title": "Thánh Gióng",
+  "summary": "Cậu bé Gióng ba tuổi chưa biết nói, bỗng cất tiếng xin đi đánh giặc, rồi vươn vai thành tráng sĩ cưỡi ngựa sắt. Mèo Miu kể vì sao có những bụi tre vàng óng gọi là tre đằng ngà.",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, ancient Van Lang era clothing and bronze-drum patterns, lush green hills, rivers and rice fields, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 41001,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "giong-be",
+      "name": "Cậu bé Gióng",
+      "seed": 41102,
+      "sheetPrompt": "a chubby three-year-old Vietnamese village boy of the ancient Van Lang era, round rosy cheeks, short black hair with a small topknot, big calm curious eyes, simple brown cloth shirt and shorts, barefoot, sitting quietly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "giong",
+      "name": "Tráng sĩ Gióng",
+      "seed": 41103,
+      "sheetPrompt": "Giong, a tall young Vietnamese folk hero with a kind brave face and the same round cheeks as a child, short black hair with a topknot, shining dark iron armour with bronze-drum patterns over a brown tunic, holding a long iron staff, beside a big friendly iron horse with a gentle face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "me-giong",
+      "name": "Mẹ Gióng",
+      "seed": 41104,
+      "sheetPrompt": "a kind elderly Vietnamese village mother of the ancient Van Lang era, grey hair in a bun wrapped with a brown scarf, warm wrinkled smile, simple brown wrap top and long dark skirt, holding a woven bamboo basket, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu lại đến rồi đây. Các bạn đã bao giờ thấy những bụi tre thân vàng óng, có sọc xanh như ai vẽ lên chưa? Người ta gọi đó là tre đằng ngà. Ông bà mình kể rằng, tre ấy vàng óng là nhờ một cậu bé rất đặc biệt, tên là Gióng. Các bạn ngồi thật ngoan, nghe Miu kể chuyện Thánh Gióng nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Mèo Miu lại đến rồi đây.",
+        "Các bạn đã bao giờ thấy những bụi tre thân vàng óng, có sọc xanh như ai vẽ lên chưa?",
+        "Người ta gọi đó là tre đằng ngà.",
+        "Ông bà mình kể rằng, tre ấy vàng óng là nhờ một cậu bé rất đặc biệt, tên là Gióng.",
+        "Các bạn ngồi thật ngoan, nghe Miu kể chuyện Thánh Gióng nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "seed": 52101,
+        "prompt": "Meo Miu the voxel white cat sits on a low wooden stool in a sunny village yard, an open picture book on her lap, behind her a clump of golden bamboo with thin green stripes, rice fields and a small temple roof in the distance"
+      },
+      "video": {
+        "seed": 63101,
+        "motionPrompt": "the golden bamboo sways gently in the breeze, the cat turns a page and smiles, sunlight flickers through the leaves, slow gentle camera push-in"
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-be-khong-noi",
+      "title": "Cậu bé không biết nói",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở làng Gióng có hai ông bà già hiền lành, chăm chỉ làm ăn. Ông bà mong có một đứa con lắm. Một hôm bà ra đồng, thấy một vết chân thật to, bà tò mò ướm thử chân mình vào. Ít lâu sau, bà sinh được một cậu bé bụ bẫm, đặt tên là Gióng. Lạ thay, Gióng lên ba tuổi rồi mà chẳng biết nói, chẳng biết cười, cũng chẳng biết đi. Cậu chỉ nằm im trên chiếu, mắt tròn xoe nhìn mọi người. Cha mẹ thương con lắm, ngày nào cũng ôm cậu vào lòng mà ru.",
+      "subtitles": [
+        "Ngày xưa, ở làng Gióng có hai ông bà già hiền lành, chăm chỉ làm ăn.",
+        "Ông bà mong có một đứa con lắm.",
+        "Một hôm bà ra đồng, thấy một vết chân thật to, bà tò mò ướm thử chân mình vào.",
+        "Ít lâu sau, bà sinh được một cậu bé bụ bẫm, đặt tên là Gióng.",
+        "Lạ thay, Gióng lên ba tuổi rồi mà chẳng biết nói, chẳng biết cười, cũng chẳng biết đi.",
+        "Cậu chỉ nằm im trên chiếu, mắt tròn xoe nhìn mọi người.",
+        "Cha mẹ thương con lắm, ngày nào cũng ôm cậu vào lòng mà ru."
+      ],
+      "image": {
+        "character": "giong-be",
+        "seed": 52102,
+        "prompt": "inside a cosy thatched stilt house of the ancient Van Lang era, the kind old mother sits on a bamboo mat gently holding little Giong, a quiet chubby three-year-old boy who gazes calmly at the doorway, a cooking pot and rice baskets nearby, soft afternoon light"
+      },
+      "video": {
+        "seed": 63102,
+        "motionPrompt": "the mother rocks the little boy slowly, a hammock sways, steam rises softly from the pot, dust motes drift in the light"
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-goi",
+      "title": "Tiếng nói đầu tiên",
+      "narrator": "ke-chuyen",
+      "narration": "Bấy giờ, có giặc Ân kéo đến nước ta. Giặc đông lắm, chúng phá ruộng vườn, làm dân làng lo sợ. Nhà vua sai sứ giả đi khắp nơi, tìm người tài giỏi giúp nước. Tiếng sứ giả rao vang đến tận làng Gióng. Bỗng nhiên, cậu bé Gióng cất tiếng nói đầu tiên: Mẹ ơi, mẹ ra mời sứ giả vào đây cho con! Bà mẹ vừa mừng vừa ngạc nhiên, vội chạy ra cổng mời sứ giả vào nhà.",
+      "subtitles": [
+        "Bấy giờ, có giặc Ân kéo đến nước ta.",
+        "Giặc đông lắm, chúng phá ruộng vườn, làm dân làng lo sợ.",
+        "Nhà vua sai sứ giả đi khắp nơi, tìm người tài giỏi giúp nước.",
+        "Tiếng sứ giả rao vang đến tận làng Gióng.",
+        "Bỗng nhiên, cậu bé Gióng cất tiếng nói đầu tiên:",
+        "Mẹ ơi, mẹ ra mời sứ giả vào đây cho con!",
+        "Bà mẹ vừa mừng vừa ngạc nhiên, vội chạy ra cổng mời sứ giả vào nhà."
+      ],
+      "image": {
+        "character": "giong-be",
+        "seed": 52103,
+        "prompt": "little Giong sits up on the bamboo mat and speaks for the first time, his surprised mother drops her basket with joy, through the doorway a royal envoy in a feathered hat beats a small bronze drum on the village road"
+      },
+      "video": {
+        "seed": 63103,
+        "motionPrompt": "the boy lifts his head and opens his mouth to speak, the mother raises her hands in happy surprise, the envoy taps the drum, leaves blow past the doorway"
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-hua",
+      "title": "Ngựa sắt, roi sắt, áo giáp sắt",
+      "narrator": "ke-chuyen",
+      "narration": "Cậu bé nhìn sứ giả, nói rõ ràng từng tiếng: Ông về xin vua làm cho cháu một con ngựa bằng sắt, một cây roi bằng sắt, một bộ áo giáp bằng sắt. Có những thứ ấy, cháu sẽ đi đuổi giặc. Sứ giả vừa ngạc nhiên vừa mừng, vội vàng về tâu vua. Nhà vua liền cho gọi thợ rèn giỏi khắp nơi về kinh thành. Lò rèn đỏ rực suốt ngày đêm, tiếng búa vang lên chan chát, rèn ngựa sắt, roi sắt và áo giáp sắt cho cậu bé.",
+      "subtitles": [
+        "Cậu bé nhìn sứ giả, nói rõ ràng từng tiếng:",
+        "Ông về xin vua làm cho cháu một con ngựa bằng sắt,",
+        "một cây roi bằng sắt, một bộ áo giáp bằng sắt. Có những thứ ấy, cháu sẽ đi đuổi giặc.",
+        "Sứ giả vừa ngạc nhiên vừa mừng, vội vàng về tâu vua.",
+        "Nhà vua liền cho gọi thợ rèn giỏi khắp nơi về kinh thành.",
+        "Lò rèn đỏ rực suốt ngày đêm, tiếng búa vang lên chan chát,",
+        "rèn ngựa sắt, roi sắt và áo giáp sắt cho cậu bé."
+      ],
+      "image": {
+        "character": "giong-be",
+        "seed": 52104,
+        "prompt": "a big open-air royal forge of the ancient Van Lang era, smiling blacksmiths hammer glowing iron, a huge friendly iron horse, a long iron staff and a suit of iron armour take shape, sparks like tiny stars, the envoy watching proudly"
+      },
+      "video": {
+        "seed": 63104,
+        "motionPrompt": "hammers rise and fall in a gentle rhythm, warm sparks float upward like fireflies, the forge fire glows and flickers, slow sideways camera pan"
+      },
+      "voice": {}
+    },
+    {
+      "id": "lon-nhanh",
+      "title": "Gióng lớn nhanh như thổi",
+      "narrator": "ke-chuyen",
+      "narration": "Từ hôm ấy, ngày nào Gióng cũng lớn thêm một chút, rồi lớn thêm nhiều chút. Bát cơm vừa đầy đã hết veo, chiếc áo mới may hôm trước, hôm sau đã ngắn cũn cỡn. Cha mẹ làm không kịp, bà con trong làng ai cũng vui lòng góp gạo, góp cà, nấu cơm cho Gióng. Nồi cơm to như cái thúng, Gióng ăn hết nồi này lại đến nồi khác. Ai cũng mong Gióng mau lớn, để đuổi giặc, giữ yên làng xóm.",
+      "subtitles": [
+        "Từ hôm ấy, ngày nào Gióng cũng lớn thêm một chút, rồi lớn thêm nhiều chút.",
+        "Bát cơm vừa đầy đã hết veo, chiếc áo mới may hôm trước, hôm sau đã ngắn cũn cỡn.",
+        "Cha mẹ làm không kịp, bà con trong làng ai cũng vui lòng",
+        "góp gạo, góp cà, nấu cơm cho Gióng.",
+        "Nồi cơm to như cái thúng, Gióng ăn hết nồi này lại đến nồi khác.",
+        "Ai cũng mong Gióng mau lớn, để đuổi giặc, giữ yên làng xóm."
+      ],
+      "image": {
+        "character": "giong-be",
+        "seed": 52105,
+        "prompt": "cheerful villagers carry baskets of rice, eggplants and big cooking pots into the yard of the stilt house, Giong now a tall happy teenager eats from a huge rice pot, his mother laughing, children peeking, a buffalo resting nearby"
+      },
+      "video": {
+        "seed": 63105,
+        "motionPrompt": "villagers walk in with baskets one after another, steam rises from the big pot, Giong lifts a bowl and smiles, chickens wander in the yard"
+      },
+      "voice": {}
+    },
+    {
+      "id": "vuon-vai",
+      "title": "Vươn vai thành tráng sĩ",
+      "narrator": "ke-chuyen",
+      "narration": "Rồi ngựa sắt, roi sắt, áo giáp sắt được mang đến. Gióng đứng dậy, vươn vai một cái thật dài. Thoắt cái, cậu bé đã thành một chàng trai cao lớn, đầu chạm tới mái nhà, đôi mắt sáng ngời. Chàng mặc áo giáp, cầm roi sắt, nhảy lên lưng ngựa. Ngựa sắt hí vang một tiếng, phun ra một luồng lửa đỏ, rồi phi như bay về phía quân giặc. Dân làng đứng hai bên đường, vẫy tay chào theo.",
+      "subtitles": [
+        "Rồi ngựa sắt, roi sắt, áo giáp sắt được mang đến.",
+        "Gióng đứng dậy, vươn vai một cái thật dài.",
+        "Thoắt cái, cậu bé đã thành một chàng trai cao lớn,",
+        "đầu chạm tới mái nhà, đôi mắt sáng ngời.",
+        "Chàng mặc áo giáp, cầm roi sắt, nhảy lên lưng ngựa.",
+        "Ngựa sắt hí vang một tiếng, phun ra một luồng lửa đỏ, rồi phi như bay về phía quân giặc.",
+        "Dân làng đứng hai bên đường, vẫy tay chào theo."
+      ],
+      "image": {
+        "character": "giong",
+        "seed": 52106,
+        "prompt": "Giong stretches his arms and stands tall as a young hero in shining iron armour with an iron staff, beside the big friendly iron horse, his mother and villagers cheer around him in the village yard, morning sun behind"
+      },
+      "video": {
+        "seed": 63106,
+        "motionPrompt": "the hero stretches his arms wide and grows tall, the iron horse tosses its head and breathes a small warm glow, villagers wave, banners flutter, gentle camera tilt up"
+      },
+      "voice": {}
+    },
+    {
+      "id": "duoi-giac",
+      "title": "Đuổi giặc đi xa",
+      "narrator": "ke-chuyen",
+      "narration": "Gióng thúc ngựa xông thẳng về phía quân giặc. Roi sắt vung lên, giặc sợ quá, bỏ chạy tán loạn. Chẳng may roi sắt gãy mất. Gióng liền nhổ những bụi tre bên đường, vung lên quét về phía giặc. Thế là quân giặc chạy về nước hết, không dám quay lại nữa. Đất nước lại bình yên, ruộng đồng lại xanh tươi.",
+      "subtitles": [
+        "Gióng thúc ngựa xông thẳng về phía quân giặc.",
+        "Roi sắt vung lên, giặc sợ quá, bỏ chạy tán loạn.",
+        "Chẳng may roi sắt gãy mất.",
+        "Gióng liền nhổ những bụi tre bên đường, vung lên quét về phía giặc.",
+        "Thế là quân giặc chạy về nước hết, không dám quay lại nữa.",
+        "Đất nước lại bình yên, ruộng đồng lại xanh tươi."
+      ],
+      "image": {
+        "character": "giong",
+        "seed": 52107,
+        "prompt": "Giong on the iron horse gallops across a green field swinging a long clump of bamboo, far ahead tiny cartoonish invaders run away over the hills dropping their hats, nobody hurt, clouds of dust and bamboo leaves, bright sky"
+      },
+      "video": {
+        "seed": 63107,
+        "motionPrompt": "the iron horse gallops forward, the bamboo sweeps in a wide arc, tiny figures scurry away over the hill, leaves swirl in the wind, camera follows from the side"
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-ve-troi",
+      "title": "Bay về trời",
+      "narrator": "ke-chuyen",
+      "narration": "Đuổi giặc xong, Gióng một mình một ngựa lên đỉnh núi Sóc Sơn. Chàng cởi áo giáp sắt để lại trên núi, rồi cả người lẫn ngựa từ từ bay lên trời. Dân làng nhìn theo mãi, ai cũng cảm động. Nhà vua nhớ ơn, phong cho Gióng là Phù Đổng Thiên Vương, và cho lập đền thờ ngay ở quê nhà của chàng.",
+      "subtitles": [
+        "Đuổi giặc xong, Gióng một mình một ngựa lên đỉnh núi Sóc Sơn.",
+        "Chàng cởi áo giáp sắt để lại trên núi, rồi cả người lẫn ngựa từ từ bay lên trời.",
+        "Dân làng nhìn theo mãi, ai cũng cảm động.",
+        "Nhà vua nhớ ơn, phong cho Gióng là Phù Đổng Thiên Vương,",
+        "và cho lập đền thờ ngay ở quê nhà của chàng."
+      ],
+      "image": {
+        "character": "giong",
+        "seed": 52108,
+        "prompt": "on a green mountain top at sunset Giong and the iron horse rise gently into golden clouds, the iron armour laid neatly on a rock below, villagers on the hillside look up and wave goodbye"
+      },
+      "video": {
+        "seed": 63108,
+        "motionPrompt": "the hero and horse float slowly upward into glowing clouds, the clouds part softly, villagers wave, birds circle, slow camera tilt up"
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn biết không, ngày nay quanh làng Gióng vẫn còn những bụi tre đằng ngà vàng óng. Người ta bảo tre vàng là vì ngày xưa được lửa ngựa sắt hơ qua. Còn những cái ao tròn nối nhau ngoài đồng, là dấu chân ngựa của Gióng để lại đấy. Mỗi năm, làng lại mở hội Gióng thật vui. Chuyện kể cho mình biết: ai cũng có thể góp sức giữ gìn quê hương. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn trong câu chuyện sau nhé!",
+      "subtitles": [
+        "Các bạn biết không, ngày nay quanh làng Gióng vẫn còn những bụi tre đằng ngà vàng óng.",
+        "Người ta bảo tre vàng là vì ngày xưa được lửa ngựa sắt hơ qua.",
+        "Còn những cái ao tròn nối nhau ngoài đồng, là dấu chân ngựa của Gióng để lại đấy.",
+        "Mỗi năm, làng lại mở hội Gióng thật vui.",
+        "Chuyện kể cho mình biết: ai cũng có thể góp sức giữ gìn quê hương.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn trong câu chuyện sau nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "seed": 52109,
+        "prompt": "Meo Miu the voxel white cat waves goodbye beside the golden bamboo, the picture book closed on her lap, behind her a row of round ponds in green rice fields and a festive village temple with colourful flags"
+      },
+      "video": {
+        "seed": 63109,
+        "motionPrompt": "the cat waves slowly, flags flutter at the temple, the ponds shimmer in the sun, bamboo sways, gentle camera pull-back"
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle heroic Vietnamese folk tune for children, soft bronze drum beats, bamboo flute and dan tranh zither, warm and hopeful, medium-slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 74101
+  }
+}
