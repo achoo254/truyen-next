@@ -2,6 +2,7 @@ import { type ReactNode, useEffect } from 'react';
 import { useI18n } from './i18n/i18n';
 import { SitePage } from './layout/site-page';
 import { HomePage } from './pages/home-page';
+import { ShelfPage } from './pages/shelf-page';
 import { setPageMeta } from './page-meta';
 import { type LegalPageKind, LegalPage, legalTitle } from './pages/legal-pages';
 import { parseShelfPath, parseStoryPath } from './story/story-api';
@@ -50,7 +51,7 @@ export function App({ pathname }: { pathname: string }): ReactNode {
 
   let page: ReactNode;
   if (path === '/') page = <HomePage />;
-  else if (shelf) page = <HomePage shelf={shelf} />;
+  else if (shelf) page = <ShelfPage shelf={shelf} />;
   else if (legal) page = <LegalPage kind={legal} />;
   else if (slug) page = <StoryPage slug={slug} />;
   else page = <NotFound />;

@@ -44,16 +44,18 @@ interface StoryCoverProps {
   shelf: Shelf;
   /** `tile` on the shelves, `large` on the story's own page, `mini` (emblem only) beside a title. */
   size?: 'tile' | 'large' | 'mini';
+  /** The title with the searched words marked, when the shelf is searched. */
+  titleContent?: ReactNode;
 }
 
-export function StoryCover({ slug, title, shelf, size = 'tile' }: StoryCoverProps): ReactNode {
+export function StoryCover({ slug, title, shelf, size = 'tile', titleContent }: StoryCoverProps): ReactNode {
   const art = coverArt(slug);
   return (
     <div className={`cover cover--${size}`} data-cover={art.scheme} data-shelf={shelf}>
       <Emblem name={art.emblem} className="cover-emblem" />
       {size !== 'mini' && (
         <p className="cover-title" lang="vi">
-          {title}
+          {titleContent ?? title}
         </p>
       )}
     </div>

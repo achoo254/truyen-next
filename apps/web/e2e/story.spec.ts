@@ -90,3 +90,39 @@ test('the home page shows the children\'s shelf first, then the adults\' shelf',
   await page.screenshot({ path: test.info().outputPath('home-shelves.png'), fullPage: true });
   expect(consoleErrors).toEqual([]);
 });
+
+test('each story answers with its own prerendered page, still kept out of search engines', async ({ request }) => {
+  const response = await request.get('/truyen/tam-cam');
+  expect(response.status()).toBe(200);
+  const html = await response.text();
+  expect(html).toContain('<title>Tấm Cám · ');
+  expect(html).toContain('<h1 lang="vi">Tấm Cám</h1>');
+  expect(html).toContain('"@type":"CreativeWork"');
+  expect(html).toContain('<meta name="robots" content="noindex, nofollow" />');
+  const shelf = await (await request.get('/tre-em')).text();
+  expect(shelf).toContain('href="/truyen/son-tinh-thuy-tinh"');
+  expect(shelf).not.toContain('href="/truyen/su-tich-ho-guom"');
+});
+
+test('a shelf finds stories typed without marks and keeps the search in the address', async ({ page }) => {
+  await page.goto('/tre-em');
+  await page.fill('[data-id=shelf-search]', 'son tinh');
+  await expect(page.locator('[data-id=story-list-kids] > li')).toHaveCount(1);
+  await expect(page.locator('[data-id=story-card-son-tinh-thuy-tinh] mark').first()).toHaveText('Sơn');
+  await expect(page).toHaveURL(/\?q=son\+tinh$/);
+  await page.reload();
+  await expect(page.locator('[data-id=shelf-search]')).toHaveValue('son tinh');
+  await page.click('[data-id=shelf-clear]');
+  await page.click('[data-id=filter-length-ngan]');
+  await expect(page).toHaveURL(/do-dai=ngan/);
+  expect(await page.locator('[data-id=story-list-kids] > li').count()).toBeGreaterThan(1);
+});
+
+test('lights off is kept by Truyện alone and survives a reload without a bright flash', async ({ page, context }) => {
+  await page.goto('/');
+  await page.click('[data-id=header-lights]');
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  await page.reload();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  expect((await context.cookies()).map((cookie) => cookie.name)).not.toContain('hd_theme');
+});

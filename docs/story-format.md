@@ -9,6 +9,8 @@ mục `media/` do `pnpm story:build` tạo. Schema và luật kiểm: `packages/
 | Trường | Ý nghĩa |
 | --- | --- |
 | `shelf` | Kệ của truyện, bắt buộc: `kids` (Trẻ em) hoặc `adults` (Người lớn). Mỗi kệ có luật riêng ở dưới. |
+| `themes` | Không bắt buộc: 1–3 chủ đề cho bộ lọc của kệ, trong `than-thoai`, `su-tich`, `anh-hung`, `thien-ac`, `gia-dinh`, `tinh-yeu`, `thien-nhien`. |
+| `added` | Không bắt buộc: ngày truyện lên kệ (`YYYY-MM-DD`), cho thứ tự "Mới nhất". |
 | `source` | Truyện lấy từ đâu (truyện dân gian, sách cổ nào) và cách viết lời kể. |
 | `style` | Phong cách vẽ thêm vào cuối mọi prompt tranh, để cả truyện như một quyển sách. Kệ Trẻ em: tranh truyện thiếu nhi màu nước; kệ Người lớn có thể trầm hơn (ví dụ tranh lụa cổ), vẫn không máu me. |
 | `narrators` | Người kể: tên hiện trên phụ đề và giọng VieNeu có sẵn. Kệ Trẻ em: `miu` (Mèo Miu, giọng Trúc Ly) và người kể chuyện giọng Quỳnh Anh. Kệ Người lớn: một người kể chuyện, giọng Thanh Bình. |

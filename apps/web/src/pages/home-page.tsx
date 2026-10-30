@@ -1,120 +1,125 @@
-import { SHELVES, type Shelf, type StoryListEntry } from '@truyen/story';
-import type { ReactNode } from 'react';
-import { MeoMiu } from '../art/meo-miu';
+import { SHELVES, type Shelf, type StoryListEntry, THEMES } from '@truyen/story';
+import { type ReactNode, useState } from 'react';
 import printUrl from '../art/dong-ho-print.svg';
 import { useI18n } from '../i18n/i18n';
+import { readProgress } from '../story/reading-progress';
 import { fetchStoryList, shelfPath } from '../story/story-api';
 import { useLoad } from '../story/use-load';
+import { EMPTY_QUERY, applyQuery, queryString } from './library';
+import { LoadFailed, TileSkeleton } from './page-states';
 import { StoryTile } from './story-tile';
 
-/** One shelf: its heading, and its stories as a grid of covers. On the home page the heading links to the shelf's own page. */
-function ShelfSection({ shelf, stories, linkToShelf }: { shelf: Shelf; stories: StoryListEntry[]; linkToShelf: boolean }): ReactNode {
+/** How many covers a row on the home page shows before "see all". */
+const ROW_SIZE = 12;
+
+/** A titled row of covers that scrolls sideways, with a link to the full shelf view it comes from. */
+function TileRow({ title, entries, href, dataId, notes }: { title: string; entries: StoryListEntry[]; href?: string; dataId: string; notes?: Record<string, string> }): ReactNode {
+  const { t } = useI18n();
+  if (entries.length === 0) return null;
+  return (
+    <div className="row-block">
+      <div className="row-head">
+        <h3 className="row-title">{title}</h3>
+        {href && (
+          <a className="text-link" href={href} data-id={`${dataId}-all`}>
+            {t('home.seeAll')}
+          </a>
+        )}
+      </div>
+      <ul className="tile-row" aria-label={title} data-id={dataId}>
+        {entries.slice(0, ROW_SIZE).map((entry) => (
+          <StoryTile key={entry.slug} entry={entry} note={notes?.[entry.slug]} />
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+/** "Nghe tiếp": stories left in the middle on this device, most recent first. Hidden when there are none. */
+function ContinueRow({ entries }: { entries: StoryListEntry[] }): ReactNode {
+  const { t } = useI18n();
+  const [progress] = useState(readProgress);
+  const started = entries
+    .filter((entry) => progress[entry.slug] !== undefined)
+    .sort((a, b) => (progress[b.slug]?.at ?? 0) - (progress[a.slug]?.at ?? 0));
+  const notes = Object.fromEntries(started.map((entry) => [entry.slug, t('home.continueAt', { n: (progress[entry.slug]?.index ?? 0) + 1, total: entry.scenes })]));
+  return <TileRow title={t('home.continue')} entries={started} dataId="row-continue" notes={notes} />;
+}
+
+/** One shelf on the home page: its newest stories, a bedtime row for children, and its topics as shortcuts. */
+function ShelfRows({ shelf, entries }: { shelf: Shelf; entries: StoryListEntry[] }): ReactNode {
   const { t } = useI18n();
   const headingId = `shelf-${shelf}-heading`;
+  const newest = applyQuery(entries, EMPTY_QUERY).items;
+  const short = applyQuery(entries, { ...EMPTY_QUERY, length: 'ngan', sort: 'ngan' }).items;
+  const themes = THEMES.filter((theme) => entries.some((entry) => entry.themes.includes(theme)));
   return (
-    <section className={`shelf shelf--${shelf} theme-${shelf}${linkToShelf && shelf === 'kids' ? ' shelf--panel' : ''}`} aria-labelledby={headingId} data-id={`shelf-${shelf}`}>
+    <section className={`shelf shelf--${shelf} theme-${shelf}${shelf === 'kids' ? ' shelf--panel' : ''}`} aria-labelledby={headingId} data-id={`shelf-${shelf}`}>
       <div className="shelf-head">
         <h2 className="shelf-title" id={headingId}>
           {t(`shelf.${shelf}`)}
         </h2>
-        {linkToShelf && (
-          <a className="text-link" href={shelfPath(shelf)} data-id={`shelf-open-${shelf}`}>
-            {t('shelf.only')}
-          </a>
-        )}
+        <a className="text-link" href={shelfPath(shelf)} data-id={`shelf-open-${shelf}`}>
+          {t('shelf.only')}
+        </a>
       </div>
-      {stories.length === 0 ? (
+      {entries.length === 0 ? (
         <p className="muted">{t('shelf.empty')}</p>
       ) : (
-        <ul className="tile-grid" aria-labelledby={headingId} data-id={`story-list-${shelf}`}>
-          {stories.map((entry) => (
-            <StoryTile key={entry.slug} entry={entry} />
-          ))}
-        </ul>
+        <>
+          <TileRow title={t('home.newest')} entries={newest} dataId={`story-list-${shelf}`} />
+          {shelf === 'kids' && short.length > 1 && (
+            <TileRow title={t('home.bedtime')} entries={short} href={`${shelfPath(shelf)}${queryString({ ...EMPTY_QUERY, length: 'ngan' })}`} dataId="row-bedtime" />
+          )}
+          {themes.length > 1 && (
+            <nav className="chips topic-links" aria-label={t('library.theme')}>
+              {themes.map((theme) => (
+                <a key={theme} className="chip" href={`${shelfPath(shelf)}${queryString({ ...EMPTY_QUERY, theme })}`} data-id={`topic-${shelf}-${theme}`}>
+                  {t(`theme.${theme}`)}
+                </a>
+              ))}
+            </nav>
+          )}
+        </>
       )}
     </section>
   );
 }
 
-/** Covers still loading: grey cover shapes in the grid's own layout, so nothing jumps when they arrive. */
-function ShelfSkeleton(): ReactNode {
-  const { t } = useI18n();
-  return (
-    <div className="tile-grid tile-grid--skeleton" role="status" data-id="home-loading">
-      <span className="sr-only">{t('home.loading')}</span>
-      {[0, 1, 2, 3, 4].map((n) => (
-        <span key={n} className="tile-skeleton" aria-hidden="true" />
-      ))}
-    </div>
-  );
-}
-
-/** The picture beside the title: the carp print on the home page, Mèo Miu on the children's shelf. */
-function HeroArt({ shelf }: { shelf?: Shelf }): ReactNode {
-  const { t } = useI18n();
-  if (shelf === 'kids') {
-    return (
-      <figure className="hero-miu" data-id="hero-miu">
-        <MeoMiu />
-        <figcaption className="hero-miu-says">{t('shelf.kids.miuSays')}</figcaption>
-      </figure>
-    );
-  }
-  if (shelf === 'adults') return null;
-  // Decoration only: a woodblock print of the mountain, the water and a leaping carp.
-  return (
-    <figure className="hero-print" aria-hidden="true">
-      <img src={printUrl} width={400} height={500} alt="" decoding="async" />
-    </figure>
-  );
-}
-
-/**
- * `/`: both shelves, children's first. `/tre-em`, `/nguoi-lon` (`shelf` set): that shelf only, with a link to all
- * stories.
- */
-export function HomePage({ shelf }: { shelf?: Shelf }): ReactNode {
+/** `/`: what was left in the middle, then both shelves (children's first) as rows of covers. */
+export function HomePage(): ReactNode {
   const { t, locale } = useI18n();
   const [load, retry] = useLoad('stories', (signal) => fetchStoryList(signal));
-  const shelves = shelf ? [shelf] : SHELVES;
 
   let body: ReactNode;
-  if (load.status === 'loading') {
-    body = <ShelfSkeleton />;
-  } else if (load.status === 'failed') {
-    console.error('story list failed to load', load.error instanceof Error ? load.error.message : load.error);
-    body = (
-      <div className="card notice" role="alert" data-id="home-load-failed">
-        <p>{t('page.loadFailed')}</p>
-        <button type="button" className="btn btn-secondary" onClick={retry}>
-          {t('page.reload')}
-        </button>
-      </div>
-    );
-  } else if (!shelf && load.value.length === 0) {
-    body = <p className="muted">{t('home.empty')}</p>;
-  } else {
+  if (load.status === 'loading') body = <TileSkeleton />;
+  else if (load.status === 'failed') body = <LoadFailed error={load.error} retry={retry} />;
+  else if (load.value.length === 0) body = <p className="muted">{t('home.empty')}</p>;
+  else {
     const stories = load.value;
-    body = shelves.map((each) => (
-      <ShelfSection key={each} shelf={each} stories={stories.filter((entry) => entry.shelf === each)} linkToShelf={!shelf} />
-    ));
+    body = (
+      <>
+        <ContinueRow entries={stories} />
+        {SHELVES.map((shelf) => (
+          <ShelfRows key={shelf} shelf={shelf} entries={stories.filter((entry) => entry.shelf === shelf)} />
+        ))}
+      </>
+    );
   }
 
   return (
-    <div className="home" data-id={shelf ? `shelf-page-${shelf}` : 'home-page'}>
-      <section className={`hero${shelf ? ` hero--${shelf}` : ''}`} data-id="home-hero">
+    <div className="home" data-id="home-page">
+      <section className="hero" data-id="home-hero">
         <div className="hero-text">
-          <h1 className="hero-title">{shelf ? t(`shelf.${shelf}.title`) : t('home.title')}</h1>
-          <p className="hero-lede">{shelf ? t(`shelf.${shelf}.lede`) : t('home.lede')}</p>
+          <h1 className="hero-title">{t('home.title')}</h1>
+          <p className="hero-lede">{t('home.lede')}</p>
           {/* Only worth saying to someone reading the site in another language. */}
           {locale !== 'vi' && <p className="hero-lang">{t('story.language')}</p>}
-          {shelf && (
-            <a className="text-link" href="/" data-id="shelf-all">
-              {t('shelf.all')}
-            </a>
-          )}
         </div>
-        <HeroArt shelf={shelf} />
+        {/* Decoration only: a woodblock print of the mountain, the water and a leaping carp. */}
+        <figure className="hero-print" aria-hidden="true">
+          <img src={printUrl} width={400} height={500} alt="" decoding="async" />
+        </figure>
       </section>
       {body}
     </div>

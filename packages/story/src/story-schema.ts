@@ -11,6 +11,13 @@ const KEBAB = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 export const SHELVES = ['kids', 'adults'] as const;
 export const shelfSchema = z.enum(SHELVES);
 
+/**
+ * What a story is about, for the shelves' topic filter: myth, origin tale, heroes, good and evil, family, love,
+ * nature. A story has one to three.
+ */
+export const THEMES = ['than-thoai', 'su-tich', 'anh-hung', 'thien-ac', 'gia-dinh', 'tinh-yeu', 'thien-nhien'] as const;
+export const themeSchema = z.enum(THEMES);
+
 const text = z.string().trim().min(1);
 const id = z.string().regex(KEBAB, 'lowercase kebab-case');
 /** artgen.py seeds are unsigned 32-bit. */
@@ -77,6 +84,10 @@ export const storySchema = z.strictObject({
   shelf: shelfSchema,
   title: text,
   summary: text,
+  /** Topics for the shelves' filter (optional; a story without them shows under every topic filter's "all"). */
+  themes: z.array(themeSchema).min(1).max(3).optional(),
+  /** When the story joined the shelf (YYYY-MM-DD), for "newest first". */
+  added: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'a date like 2026-10-30').optional(),
   language: z.literal('vi'),
   /** Where the tale comes from and how the words were written. */
   source: text,
@@ -100,3 +111,4 @@ export type Scene = z.infer<typeof sceneSchema>;
 export type Character = z.infer<typeof characterSchema>;
 export type Narrator = z.infer<typeof narratorSchema>;
 export type Shelf = z.infer<typeof shelfSchema>;
+export type Theme = z.infer<typeof themeSchema>;

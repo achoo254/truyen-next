@@ -155,6 +155,8 @@ export function validateStory(data: unknown, expectedSlug?: string): StoryResult
     return { ok: false, errors: parsed.error.issues.map((issue) => `${issue.path.join('.') || '(root)'}: ${issue.message}`) };
   }
   const errors = crossFieldErrors(parsed.data);
+  const themes = parsed.data.themes ?? [];
+  if (new Set(themes).size !== themes.length) errors.push('themes: a topic is listed twice');
   if (expectedSlug !== undefined && parsed.data.slug !== expectedSlug) errors.push(`slug: "${parsed.data.slug}" must match its folder "${expectedSlug}"`);
   return errors.length > 0 ? { ok: false, errors } : { ok: true, story: parsed.data };
 }

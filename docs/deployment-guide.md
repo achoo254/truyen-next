@@ -16,9 +16,11 @@ vào đây; dùng alias SSH (`SSH_TARGET`) và placeholder như `<SERVER_65_IP>`
 | Đường vào | Cloudflare (proxied, SSL "full") → nginx `conf.d/truyen.hoandat.com.conf`, chứng chỉ origin chung `/etc/pki/nginx/server.{crt,key}` |
 | Tiến trình | Không có: không API, không systemd unit, không database, không đăng nhập |
 
-Đường dẫn không phải file (`/`, `/tre-em`, `/nguoi-lon`, `/truyen/<slug>`) nhận `index.html` (SPA). `/assets/` (tên có
-hash) cache một năm; mọi file khác, kể cả `/stories/`, trả `Cache-Control: no-cache`. Một file thiếu dưới `/assets/`
-hay `/stories/` là 404 thật, không phải `index.html`.
+`/`, `/tre-em`, `/nguoi-lon`, `/truyen/<slug>` nhận trang render sẵn của chính nó (`<đường dẫn>/index.html`, có tiêu
+đề, mô tả và danh sách truyện trong HTML); mọi đường dẫn khác nhận `spa.html` (`try_files $uri $uri/index.html
+/spa.html`; trước 30/10/2026 là `try_files $uri /index.html`). `/assets/` (tên có hash) cache một năm; mọi file khác,
+kể cả `/stories/` và `/reading-scenes/`, trả `Cache-Control: no-cache`. Một file thiếu dưới `/assets/`, `/stories/`
+hay `/reading-scenes/` là 404 thật, không phải trang app.
 
 Các file: [`infra/nginx/truyen.hoandat.com.conf`](../infra/nginx/truyen.hoandat.com.conf),
 [`infra/deploy.sh`](../infra/deploy.sh).

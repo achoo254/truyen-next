@@ -24,9 +24,9 @@ afterEach(() => {
 });
 
 const LIST: StoryListEntry[] = [
-  { slug: 'thanh-giong', shelf: 'kids', title: 'Thánh Gióng', summary: 'Cậu bé Gióng.', scenes: 9, minutes: 6 },
-  { slug: 'su-tich-ho-guom', shelf: 'adults', title: 'Sự tích Hồ Gươm', summary: 'Rùa Vàng.', scenes: 11, minutes: 7 },
-  { slug: 'son-tinh-thuy-tinh', shelf: 'kids', title: 'Sơn Tinh, Thủy Tinh', summary: 'Hai vị thần.', scenes: 8, minutes: 4 },
+  { slug: 'thanh-giong', shelf: 'kids', title: 'Thánh Gióng', summary: 'Cậu bé Gióng.', scenes: 9, minutes: 6, themes: ['anh-hung'], added: '2026-10-30' },
+  { slug: 'su-tich-ho-guom', shelf: 'adults', title: 'Sự tích Hồ Gươm', summary: 'Rùa Vàng.', scenes: 11, minutes: 7, themes: ['anh-hung', 'su-tich'], added: '2026-10-30' },
+  { slug: 'son-tinh-thuy-tinh', shelf: 'kids', title: 'Sơn Tinh, Thủy Tinh', summary: 'Hai vị thần.', scenes: 8, minutes: 4, themes: ['than-thoai'], added: '2026-10-29' },
 ];
 
 function stubList(list: unknown): void {

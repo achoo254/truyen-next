@@ -645,11 +645,6 @@ a {
   }
 }
 
-.tile {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 320px;
-}
-
 .tile-link {
   display: flex;
   flex-direction: column;
@@ -695,6 +690,210 @@ a {
   aspect-ratio: 3 / 4;
   border-radius: var(--radius-sm);
   background: var(--c-surface-raised);
+}
+
+/* Home rows: covers in a line that scrolls sideways and snaps, each row with a way to the full shelf. */
+.row-block + .row-block {
+  margin-top: var(--space-5);
+}
+
+.row-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-1) var(--space-4);
+  margin-bottom: var(--space-3);
+}
+
+.row-title {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.tile-row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(140px, 42%);
+  gap: var(--space-4);
+  margin: 0 calc(-1 * var(--space-2));
+  padding: var(--space-1) var(--space-2) var(--space-3);
+  list-style: none;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--space-2);
+}
+
+.tile-row > .tile {
+  scroll-snap-align: start;
+}
+
+@media (min-width: 600px) {
+  .tile-row {
+    grid-auto-columns: calc((100% - 3 * var(--space-4)) / 4);
+  }
+}
+
+@media (min-width: 1000px) {
+  .tile-row {
+    grid-auto-columns: calc((100% - 4 * var(--space-4)) / 5);
+  }
+}
+
+.shelf > .row-block + .topic-links,
+.shelf > .topic-links {
+  margin-top: var(--space-4);
+}
+
+/* Chips: topics, lengths, orders. Pressed: ink. */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  padding: 0 var(--space-4);
+  border: 1.5px solid var(--c-line);
+  border-radius: var(--radius-full);
+  background: var(--c-surface);
+  color: var(--c-text);
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.chip:hover {
+  background: var(--c-surface-raised);
+}
+
+.chip[aria-pressed='true'] {
+  background: var(--c-ink-solid);
+  color: var(--c-on-ink);
+}
+
+/* The shelf's tools: search, length, topic and order, sticky under the header while the covers scroll. */
+.shelf-tools {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0 calc(-1 * var(--space-4)) var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1.5px solid var(--c-line);
+  background: var(--c-surface);
+}
+
+/* Sticky under the header where there is room; on phones the tools scroll away with the page. */
+@media (min-width: 760px) {
+  .shelf-tools {
+    position: sticky;
+    top: calc(env(safe-area-inset-top, 0px) + var(--topbar-h) + 14px);
+    z-index: 4;
+  }
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 48px;
+  padding: 0 var(--space-3);
+  border: 1.5px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  background: var(--c-page);
+}
+
+.search:focus-within {
+  outline: 3px solid var(--c-focus);
+  outline-offset: 2px;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  border: 0;
+  background: transparent;
+  color: var(--c-text);
+  font: inherit;
+  font-size: 1.05rem;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: var(--c-text-muted);
+  opacity: 1;
+}
+
+.chip-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+  overflow-x: auto;
+}
+
+.chip-row .chips {
+  flex-wrap: nowrap;
+}
+
+.chip-row-label {
+  flex: none;
+  color: var(--c-text-muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.shelf-count {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  margin: 0 0 var(--space-4);
+  color: var(--c-text-muted);
+  font-weight: 700;
+}
+
+.text-button {
+  min-height: var(--tap);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--c-text);
+  font: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.shelf-empty {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-5) 0;
+}
+
+.shelf-empty p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.more-btn {
+  display: flex;
+  margin: var(--space-6) auto 0;
+}
+
+mark {
+  background: var(--c-turmeric);
+  color: var(--c-on-turmeric);
 }
 
 /* A cover: a flat print colour, the carved emblem, the title in a paper cartouche. */
@@ -2261,4 +2460,14 @@ html.reading .main {
   .play-btn:hover {
     transform: none;
   }
+}
+
+/* The static page the build writes for each address (vite-prerender.ts), shown until the app starts. */
+.prerender {
+  padding-top: var(--space-6);
+  padding-bottom: var(--space-6);
+}
+
+.prerender-list {
+  padding-left: var(--space-5);
 }
