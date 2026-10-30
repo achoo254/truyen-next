@@ -17,6 +17,7 @@ mục `media/` do `pnpm story:build` tạo. Schema và luật kiểm: `packages/
 | `characters[]` | Bảng nhân vật: `sheetPrompt`, `seed`, `refImage` (ảnh có sẵn để vẽ theo), `file` khi đã vẽ. |
 | `scenes[]` | Mỗi cảnh: `title`, `narrator`, `narration` (câu giọng đọc), `subtitles` (các dòng phụ đề, ghép lại đúng bằng `narration`), `image` (`prompt`, `seed`, `character` làm `--ref`, `file`), `video` (`motionPrompt`, `seed`, `file`), `voice.file`. |
 | `music` | Nhạc nền cả truyện: `prompt`, `durationSeconds`, `seed`, `file`. |
+| `track` | Không bắt buộc: cả truyện thành một bản âm thanh liền (`media/story.m4a`), do `pnpm story:build <slug> --only track` ghép từ giọng kể các cảnh và nhạc nền. `file`, `duration` (giây) và `scenes[]` (`id`, `start`, `end`: giọng của cảnh bắt đầu và hết ở giây nào), theo đúng thứ tự cảnh. |
 
 `file` chỉ được ghi khi file đã có (script dựng tự ghi sau mỗi bước), nên app không bao giờ đòi file chưa tồn tại.
 
@@ -39,6 +40,8 @@ Cả hai kệ:
 - Không dùng bốn giọng VieNeu mà nhận dạng giọng nói nghe kém: Ngọc Trân, Quang Sơn, Thùy Dung, Minh Triết.
 - Không có chữ số trong lời kể (giọng đọc đọc sai số): viết "một trăm", "chín".
 - Mỗi dòng phụ đề tối đa 90 ký tự; các dòng ghép lại đúng bằng lời kể.
+- `track` chỉ có khi mọi cảnh đã có giọng và truyện đã có nhạc; liệt kê mọi cảnh theo thứ tự, giọng cảnh sau không
+  bắt đầu trước khi giọng cảnh trước hết, giọng cuối hết trước `duration`.
 - Đường dẫn media nằm trong thư mục truyện: `media/….webp` (tranh), `.mp4` (cảnh động, không tiếng), `.m4a` (giọng, nhạc).
 
 ## Trình xem
@@ -50,3 +53,22 @@ của truyện, nút quay lại về đúng kệ đó.
 chạy theo giọng; chưa có giọng thì chạy theo đồng hồ của trình duyệt với thời gian đọc ước tính. Dòng phụ đề đổi theo
 tỷ lệ số tiếng của từng dòng. Chỉ cảnh đang xem nạp tranh, cảnh động và giọng; tranh của cảnh sau được tải trước.
 Chưa có tranh thì hiện nền trơn với tên cảnh, không có hình thay thế.
+
+### Bản âm thanh liền (`track`)
+
+Bản ghép: 1,5 giây nhạc mở đầu, giọng từng cảnh nối nhau cách 1,2 giây (lúc lật trang), 3 giây nhạc kết. Nhạc lặp
+cho đủ dài, ở mức 0,3 rồi bị giọng ép nhỏ thêm khi có người kể (sidechain), mờ vào đầu và mờ ra cuối. Mốc thời gian
+đo từ độ dài thật của từng file giọng (`ffprobe`), không phải ước tính. Bước này chạy trên máy dev, không cần máy
+nhà; làm lại tự động khi một file giọng hoặc nhạc mới hơn bản ghép (`--force` để làm lại bất kể).
+
+Truyện có `track` thì trình đọc phát đúng một thẻ `<audio>` cho cả truyện và lật trang theo thời gian của nó, không
+dùng đồng hồ JavaScript: trang ẩn hay máy khoá thì truyện vẫn đi tiếp. Cảnh trước/sau, chọn cảnh, nghe lại đều tua bản
+ghép tới đầu cảnh (cảnh một: về giây 0 để nghe nhạc mở đầu). Tắt "tự lật trang" thì dừng ở cuối giọng của cảnh. Màn
+hình khoá, tai nghe (Media Session): tên cảnh, tên truyện, tranh cảnh (chưa có tranh thì biểu tượng app); phát, dừng,
+cảnh trước/sau, tua. Hẹn giờ ngủ tự kiểm theo mỗi lần bản ghép báo thời gian, nên vẫn dừng đúng giờ khi máy khoá
+(iOS không cho chỉnh âm lượng thẻ `<audio>`, nên trên iPhone tiếng dừng hẳn cuối mười giây mờ dần chứ không nhỏ dần).
+Bản ghép không phát được thì quay về giọng từng cảnh và nhạc lặp như trước.
+
+Thử trình đọc có tiếng khi chưa có media thật: `pnpm fixture:story <thư-mục>` chép một truyện ra thư mục khác (không
+bao giờ vào `stories/`), thay giọng và nhạc bằng tiếng bíp `ffmpeg`, ghép bản liền bằng chính bước `track`; rồi
+`TRUYEN_STORIES_DIR=<thư-mục>/stories pnpm dev`.

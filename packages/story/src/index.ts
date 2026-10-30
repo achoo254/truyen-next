@@ -1,6 +1,6 @@
 export { MIN_SCENE_SECONDS, estimateReadingSeconds, subtitleIndexAt, subtitleStarts, syllableCount } from './reading-time.ts';
 export { type StoryListEntry, storyListEntry } from './story-list.ts';
-export { type Character, type Narrator, SHELVES, type Scene, type Shelf, type Story, THEMES, type Theme, storySchema } from './story-schema.ts';
+export { type Character, type Narrator, SHELVES, type Scene, type Shelf, type Story, type StoryTrack, THEMES, type Theme, storySchema } from './story-schema.ts';
 export {
   DROPPED_VOICES,
   KIDS_STORYTELLER_VOICE,
@@ -30,3 +30,12 @@ export {
   readingScene,
   sceneMood,
 } from './reading-scenes.ts';
+export {
+  TRACK_LEAD_IN_SECONDS,
+  TRACK_SCENE_GAP_SECONDS,
+  TRACK_TAIL_SECONDS,
+  layOutTrack,
+  trackErrors,
+  trackSceneAt,
+  trackSceneProgress,
+} from './story-track.ts';

@@ -6,12 +6,14 @@
  *
  * Every story is checked first (scripts/story-files.ts): an invalid story.json or a missing media file fails the
  * build, and shows as a 500 with the reason in dev.
+ *
+ * TRUYEN_STORIES_DIR reads the stories from another folder instead (test stories with sound, `pnpm fixture:story`).
  */
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import { storyListEntry, storyMediaFiles } from '@truyen/story';
 import type { Plugin } from 'vite';
-import { type LoadedStory, STORY_FILE, loadStories } from '../../scripts/story-files.ts';
+import { type LoadedStory, STORIES_DIR, STORY_FILE, loadStories } from '../../scripts/story-files.ts';
 
 export const STORIES_URL = 'stories';
 
@@ -32,8 +34,14 @@ export function storySiteFiles(stories: readonly LoadedStory[]): Map<string, { f
   return files;
 }
 
+/** The folder the stories are read from. */
+export function storiesRoot(env: Readonly<Record<string, string | undefined>> = process.env): string {
+  const other = env.TRUYEN_STORIES_DIR?.trim();
+  return other ? path.resolve(other) : STORIES_DIR;
+}
+
 function loadOrThrow(): LoadedStory[] {
-  const { stories, errors } = loadStories();
+  const { stories, errors } = loadStories(storiesRoot());
   if (errors.length > 0) throw new Error(`stories:\n  ${errors.join('\n  ')}`);
   return stories;
 }
@@ -42,7 +50,7 @@ export function storyFiles(): Plugin {
   return {
     name: 'truyen-story-files',
     configureServer(server) {
-      server.watcher.add(path.resolve(import.meta.dirname, '../../stories'));
+      server.watcher.add(storiesRoot());
       server.middlewares.use((req, res, next) => {
         const urlPath = decodeURIComponent(req.url?.split('?')[0] ?? '').slice(1);
         if (!urlPath.startsWith(`${STORIES_URL}/`)) {

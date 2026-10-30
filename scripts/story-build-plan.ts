@@ -9,14 +9,16 @@
  * 3. videos: `wan-i2v` gentle motion from the still at 720×1280, then `video-upscale` to 1080×1920;
  * 4. voices: `voice.py` with the scene narrator's voice;
  * 5. music: one `ace-music` instrumental bed for the whole story;
- * 6. social: the upscaled clips joined with the title and the music by `video-finish.py`, a 30–60 s clip to post.
+ * 6. track: the whole story as one recording (ffmpeg, no PC): each voice at its place over the music, which is turned
+ *    down under the voice; the places are laid out from the measured voice lengths when the step runs;
+ * 7. social: the upscaled clips joined with the title and the music by `video-finish.py`, a 30–60 s clip to post.
  *
  * Raw tool output lands in `.work/<slug>/` (gitignored); what the app serves is compressed into
  * `stories/<slug>/media/` (WebP, H.264 MP4 without sound, AAC M4A).
  */
-import type { Story } from '@truyen/story';
+import { type Story, type StoryTrack, estimateReadingSeconds, layOutTrack } from '@truyen/story';
 
-export const STAGES = ['characters', 'images', 'videos', 'voices', 'music', 'social'] as const;
+export const STAGES = ['characters', 'images', 'videos', 'voices', 'music', 'track', 'social'] as const;
 export type Stage = (typeof STAGES)[number];
 
 /** Portrait sizes: stills 9:16 near Qwen's native pixel count, sheets 3:4, motion at Wan's 720p. */
@@ -25,6 +27,12 @@ export const STILL_SIZE = '864x1536';
 export const MOTION_SIZE = '720x1280';
 const WEBP_QUALITY = '88';
 const VIDEO_CRF = '30';
+/** The story recording, next to the music. */
+export const TRACK_FILE = 'media/story.m4a';
+/** The music bed's level in the recording, before it is turned down further under the voice. */
+export const TRACK_MUSIC_VOLUME = '0.3';
+/** How hard the voice pushes the music down (sidechaincompress): a soft knee, quick to duck, slow to come back. */
+const DUCKING = 'threshold=0.02:ratio=8:attack=40:release=700:knee=4';
 
 /** The story field a step fills once its file exists. */
 export type MediaRecord = { kind: 'character' | 'image' | 'video' | 'voice'; id: string; file: string } | { kind: 'music'; file: string };
@@ -42,6 +50,11 @@ export interface BuildStep {
   record?: MediaRecord;
   /** Uses the PC (artgen.py or voice.py) rather than only local tools. */
   pc: 'artgen' | 'voice' | null;
+  /**
+   * The story recording: its mix is laid out from the voice lengths measured when it runs (story-build-run.ts
+   * makeStoryTrack); `commands` show it laid out from the estimated reading times, for --dry-run.
+   */
+  track?: { voices: string[]; music: string };
 }
 
 export interface Tools {
@@ -161,6 +174,21 @@ export function planStoryBuild(story: Story, tools: Tools, stages: readonly Stag
     });
   }
 
+  if (stages.includes('track')) {
+    const voices = story.scenes.map((scene) => media(`media/scenes/${scene.id}.m4a`));
+    const music = media('media/music.m4a');
+    const estimated = layOutTrack(TRACK_FILE, story.scenes, story.scenes.map((scene) => estimateReadingSeconds(scene.narration)));
+    steps.push({
+      id: 'track',
+      stage: 'track',
+      commands: [...voices.map((voice) => probeCommand(voice)), trackMixCommand(voices, music, estimated, media(TRACK_FILE))],
+      inputs: [...voices, music],
+      output: media(TRACK_FILE),
+      pc: null,
+      track: { voices, music },
+    });
+  }
+
   if (stages.includes('social')) {
     const clips = story.scenes.map((scene) => clip1080(scene.id));
     steps.push({
@@ -173,6 +201,43 @@ export function planStoryBuild(story: Story, tools: Tools, stages: readonly Stag
     });
   }
   return steps;
+}
+
+/** Prints the length of an audio file in seconds. */
+export function probeCommand(file: string): string[] {
+  return ['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', file];
+}
+
+const seconds = (value: number): string => String(Math.round(value * 1000) / 1000);
+
+/**
+ * The ffmpeg call that mixes the story recording: every voice delayed to its start in `track`, the music looped to the
+ * recording's length at TRACK_MUSIC_VOLUME, faded in over the lead-in and out over the tail, and pushed down while a
+ * voice speaks (sidechain compression keyed by the voices). Stereo AAC, like the music.
+ */
+export function trackMixCommand(voices: readonly string[], music: string, track: StoryTrack, output: string): string[] {
+  if (voices.length !== track.scenes.length) throw new Error(`${track.scenes.length} scenes in the track but ${voices.length} voices`);
+  const n = voices.length;
+  const duration = track.duration;
+  const lastEnd = track.scenes[n - 1]?.end ?? 0;
+  const firstStart = track.scenes[0]?.start ?? 0;
+  const format = 'aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo';
+  const placed = track.scenes.map((scene, i) => `[${i}:a]${format},adelay=delays=${Math.round(scene.start * 1000)}:all=1[v${i}]`);
+  const voiceLabels = track.scenes.map((_scene, i) => `[v${i}]`).join('');
+  const graph = [
+    ...placed,
+    `${voiceLabels}amix=inputs=${n}:duration=longest:normalize=0,apad,atrim=0:${seconds(duration)},asplit=2[say][key]`,
+    `[${n}:a]${format},atrim=0:${seconds(duration)},volume=${TRACK_MUSIC_VOLUME},afade=t=in:d=${seconds(firstStart)},afade=t=out:st=${seconds(lastEnd)}:d=${seconds(duration - lastEnd)}[bed]`,
+    `[bed][key]sidechaincompress=${DUCKING}[ducked]`,
+    '[say][ducked]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[out]',
+  ].join(';');
+  return [
+    'ffmpeg', '-y', '-v', 'error',
+    ...voices.flatMap((voice) => ['-i', voice]),
+    '-stream_loop', '-1', '-i', music,
+    '-filter_complex', graph,
+    '-map', '[out]', '-c:a', 'aac', '-b:a', '128k', '-ac', '2', '-movflags', '+faststart', output,
+  ];
 }
 
 /** Fills the story field of a finished step (a new object; the input is not changed). */

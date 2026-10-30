@@ -77,6 +77,20 @@ export const sceneSchema = z.strictObject({
   }),
 });
 
+/**
+ * The whole story as one recording, made by `pnpm story:build --only track` from the scene voices and the music:
+ * each voice in scene order over the music bed, which is turned down under the voice. The reader plays it with a
+ * single audio element, so the story goes on scene after scene without page timers (a locked phone keeps it going),
+ * and turns the pages by its clock: scene `i` is on from `scenes[i].start` until the next scene starts.
+ */
+export const trackSchema = z.strictObject({
+  file: mediaFile('m4a'),
+  /** Length of the recording, in seconds. */
+  duration: z.number().positive().max(3600),
+  /** Where each scene's voice starts and ends in the recording (seconds), in the order of `scenes`. */
+  scenes: z.array(z.strictObject({ id, start: z.number().min(0), end: z.number().positive() })).min(1),
+});
+
 export const storySchema = z.strictObject({
   schemaVersion: z.literal(1),
   slug: id,
@@ -104,10 +118,13 @@ export const storySchema = z.strictObject({
     seed,
     file: mediaFile('m4a').optional(),
   }),
+  /** The story as one recording, once the voices and the music exist (see trackSchema). */
+  track: trackSchema.optional(),
 });
 
 export type Story = z.infer<typeof storySchema>;
 export type Scene = z.infer<typeof sceneSchema>;
+export type StoryTrack = z.infer<typeof trackSchema>;
 export type Character = z.infer<typeof characterSchema>;
 export type Narrator = z.infer<typeof narratorSchema>;
 export type Shelf = z.infer<typeof shelfSchema>;

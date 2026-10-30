@@ -110,6 +110,7 @@ nhân vật, 76 tranh, 76 cảnh động, 76 giọng kể, 8 nhạc) và 8 clip 
    pnpm story:build son-tinh-thuy-tinh --only images
    pnpm story:build son-tinh-thuy-tinh --only videos
    pnpm story:build son-tinh-thuy-tinh --only voices,music
+   pnpm story:build son-tinh-thuy-tinh --only track      # cả truyện thành một bản âm thanh liền, chỉ cần ffmpeg
    pnpm story:build son-tinh-thuy-tinh --only social     # clip 30–60 giây để đăng mạng xã hội, ở .work/<slug>/social.mp4
    ```
 

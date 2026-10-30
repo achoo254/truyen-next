@@ -4,6 +4,7 @@
  */
 import { estimateReadingSeconds } from './reading-time.ts';
 import { type Shelf, type Story, storySchema } from './story-schema.ts';
+import { trackErrors } from './story-track.ts';
 
 export interface ShelfRules {
   minScenes: number;
@@ -140,6 +141,14 @@ function crossFieldErrors(story: Story): string[] {
     for (const word of wordsFound(scene.video.motionPrompt, promptWords)) errors.push(`${at}.video.motionPrompt: no "${word}"`);
   }
 
+  if (story.track) {
+    errors.push(...trackErrors(story.track, scenes));
+    // The recording is made from the voices and the music: they are there whenever it is.
+    if (scenes.some((scene) => scene.voice.file === undefined) || story.music.file === undefined) {
+      errors.push('track: made from every scene voice and the music, which are not all there');
+    }
+  }
+
   const seconds = estimateStorySeconds(story);
   if (seconds < rules.minSeconds || seconds > rules.maxSeconds) {
     errors.push(`scenes: about ${Math.round(seconds)} s read aloud, expected ${rules.minSeconds}–${rules.maxSeconds} s on the ${story.shelf} shelf`);
@@ -167,6 +176,7 @@ export function storyMediaFiles(story: Story): string[] {
     ...story.characters.map((c) => c.file),
     ...story.scenes.flatMap((s) => [s.image.file, s.video.file, s.voice.file]),
     story.music.file,
+    story.track?.file,
   ];
   return files.filter((file): file is string => file !== undefined);
 }

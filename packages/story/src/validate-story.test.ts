@@ -1,6 +1,7 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import type { Story } from './story-schema.ts';
+import { layOutTrack } from './story-track.ts';
 import { SHELF_RULES, estimateStorySeconds, storyMediaFiles, validateStory, wordsFound } from './validate-story.ts';
 
 const STORIES = new URL('../../../stories/', import.meta.url);
@@ -155,6 +156,27 @@ describe('validateStory', () => {
     expect(wordsFound('Chính xác, máu đỏ', ['xác chết', 'máu'])).toEqual(['máu']);
     expect(wordsFound('A SWORD', ['sword'])).toEqual(['sword']);
     expect(wordsFound('swordfish', ['sword'])).toEqual([]);
+  });
+
+  it('accepts a story recording made from every voice and the music, laid out over the scenes in order', () => {
+    const story = pilot();
+    const voiced = {
+      ...story,
+      scenes: story.scenes.map((scene) => ({ ...scene, voice: { file: `media/scenes/${scene.id}.m4a` } })),
+      music: { ...story.music, file: 'media/music.m4a' },
+    };
+    const track = layOutTrack('media/story.m4a', voiced.scenes, voiced.scenes.map(() => 10));
+    expect(errorsOf({ ...voiced, track })).toEqual([]);
+    expect(storyMediaFiles({ ...voiced, track })).toContain('media/story.m4a');
+    expect(errorsOf({ ...story, track })).toEqual(['track: made from every scene voice and the music, which are not all there']);
+    const [a, b, ...others] = track.scenes;
+    if (!a || !b) throw new Error('too few scenes');
+    expect(errorsOf({ ...voiced, track: { ...track, scenes: [b, a, ...others] } }).join('\n')).toMatch(/track\.scenes: must list every scene in order/);
+    expect(errorsOf({ ...voiced, track: { ...track, scenes: [a, { ...b, start: a.end - 1 }, ...others] } })).toEqual([
+      `track.scenes.${b.id}: starts at ${a.end - 1} s, before ${a.id} ends at ${a.end} s`,
+    ]);
+    expect(errorsOf({ ...voiced, track: { ...track, duration: 5 } }).join('\n')).toMatch(/after the recording's 5 s/);
+    expect(errorsOf({ ...voiced, track: { ...track, file: 'media/story.mp3' } }).join('\n')).toMatch(/^track\.file: /);
   });
 
   it('matches the slug to its folder', () => {
