@@ -2,9 +2,8 @@
  * Brand assets of the web app, derived from brand.config.json and the brand files through @achoo254/brand, so
  * a rebrand is "edit the brand, pnpm brand:gen, rebuild":
  *
- * - index.html: %APP_NAME% filled in, plus description, link-preview (og:) tags, manifest, Apple touch icon
- *   and favicon.ico next to the SVG favicon. No og:image yet: the link-preview picture is drawn together with
- *   the AI-drawn icon on the home PC;
+ * - index.html: %APP_NAME% filled in, plus description, link-preview (og:) tags with the og-image drawn by
+ *   pnpm brand:gen (public/og-image.png), manifest, Apple touch icon and favicon.ico next to the SVG favicon;
  * - the icons (brand/generated/icons/, made by pnpm brand:gen from brand/icon.svg) and the web manifest
  *   at the site root, served in dev and emitted in builds.
  *
@@ -53,6 +52,9 @@ export const MANIFEST_OPTIONS: GenerateManifestsOptions = {
 };
 
 export const MANIFEST_PATH = 'manifest.webmanifest';
+
+/** Link preview image (1200 × 630, apps/web/public/og-image.png, drawn by pnpm brand:gen). */
+export const OG_IMAGE = { path: 'og-image.png', width: 1200, height: 630 } as const;
 const SVG_FAVICON_LINK = `<link rel="icon" type="image/svg+xml" href="/${FAVICON_SVG}" />`;
 
 const HTML_ESCAPES: Record<string, string> = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };
@@ -95,7 +97,11 @@ export function renderIndexHtml(html: string, brand: TruyenBrand): string {
     `<meta property="og:description" content="${description}" />`,
     `<meta property="og:url" content="${origin}/" />`,
     `<meta property="og:locale" content="vi_VN" />`,
-    `<meta name="twitter:card" content="summary" />`,
+    `<meta property="og:image" content="${origin}/${OG_IMAGE.path}" />`,
+    `<meta property="og:image:width" content="${OG_IMAGE.width}" />`,
+    `<meta property="og:image:height" content="${OG_IMAGE.height}" />`,
+    `<meta name="twitter:card" content="summary_large_image" />`,
+    `<meta name="twitter:image" content="${origin}/${OG_IMAGE.path}" />`,
     `<link rel="manifest" href="/${MANIFEST_PATH}" />`,
     `<link rel="apple-touch-icon" href="/${appleTouch.file}" sizes="${appleTouch.size}x${appleTouch.size}" />`,
     `<meta name="apple-mobile-web-app-title" content="${escapeHtml(brand.shortName)}" />`,
