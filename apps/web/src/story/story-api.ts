@@ -1,6 +1,6 @@
 /** Reads the story list and a story from the site, checked at the boundary like any outside data. */
-import { SHELVES, type Shelf, type Story, type StoryListEntry, THEMES, validateStory } from '@truyen/story';
-import { storyFileUrl } from './scene-media';
+import { SHELVES, type Shelf, type Story, type StoryListEntry, THEMES, storyListEntry, validateStory } from '@truyen/story';
+import { offlineSlugs, storyFileUrl, storyListUrl } from './story-location';
 
 export class StoryLoadError extends Error {
   constructor(
@@ -34,10 +34,27 @@ function isListEntry(value: unknown): value is StoryListEntry {
   );
 }
 
+/**
+ * The story list of the site. When the site cannot be reached and stories are kept on the phone (the app's downloads),
+ * the list of those stories instead, so the shelves still open in airplane mode.
+ */
 export async function fetchStoryList(signal?: AbortSignal): Promise<StoryListEntry[]> {
-  const data = await getJson('/stories/index.json', signal);
-  if (!Array.isArray(data) || !data.every(isListEntry)) throw new StoryLoadError('/stories/index.json: not a story list');
-  return data;
+  const url = storyListUrl();
+  try {
+    const data = await getJson(url, signal);
+    if (!Array.isArray(data) || !data.every(isListEntry)) throw new StoryLoadError(`${url}: not a story list`);
+    return data;
+  } catch (error) {
+    if (signal?.aborted || offlineSlugs().length === 0) throw error;
+    console.warn('story list unavailable, showing the downloaded stories', error instanceof Error ? error.message : error);
+    return offlineStoryList(signal);
+  }
+}
+
+/** The list entries of the stories kept on the phone, read from their own story.json. */
+export async function offlineStoryList(signal?: AbortSignal): Promise<StoryListEntry[]> {
+  const stories = await Promise.all(offlineSlugs().map((slug) => fetchStory(slug, signal)));
+  return stories.map(storyListEntry);
 }
 
 export async function fetchStory(slug: string, signal?: AbortSignal): Promise<Story> {

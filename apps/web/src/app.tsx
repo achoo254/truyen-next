@@ -1,4 +1,5 @@
-import { type ReactNode, useEffect } from 'react';
+import { type ReactNode, Suspense, lazy, useEffect } from 'react';
+import { DOWNLOADS_PATH, IN_APP } from './platform/app-build';
 import { useI18n } from './i18n/i18n';
 import { SitePage } from './layout/site-page';
 import { HomePage } from './pages/home-page';
@@ -7,6 +8,8 @@ import { setPageMeta } from './page-meta';
 import { type LegalPageKind, LegalPage, legalTitle } from './pages/legal-pages';
 import { parseShelfPath, parseStoryPath } from './story/story-api';
 import { StoryPage } from './story/story-page';
+
+const DownloadsPage = IN_APP ? lazy(() => import('./native/download-ui').then((module) => ({ default: module.DownloadsPage }))) : null;
 
 const LEGAL_PATHS: Record<string, LegalPageKind> = { '/privacy': 'privacy', '/terms': 'terms', '/credits': 'credits' };
 
@@ -54,6 +57,13 @@ export function App({ pathname }: { pathname: string }): ReactNode {
   else if (shelf) page = <ShelfPage shelf={shelf} />;
   else if (legal) page = <LegalPage kind={legal} />;
   else if (slug) page = <StoryPage slug={slug} />;
+  else if (DownloadsPage && path === DOWNLOADS_PATH) {
+    page = (
+      <Suspense fallback={null}>
+        <DownloadsPage />
+      </Suspense>
+    );
+  }
   else page = <NotFound />;
 
   return <SitePage path={path}>{page}</SitePage>;

@@ -2,7 +2,10 @@ import { writePreference } from '@achoo254/app-shell/preferences';
 import type { ReactNode } from 'react';
 import { BRAND_MARK_SRC, ECOSYSTEM_URL, brand } from '../brand';
 import { LOCALES, type Locale, useI18n } from '../i18n/i18n';
+import { useParentalGate } from '../native/parental-gate';
+import { DOWNLOADS_PATH, IN_APP } from '../platform/app-build';
 import { parseShelfPath } from '../story/story-api';
+import { Icon } from '../ui/icons';
 import { LightsSwitch } from '../ui/lights-switch';
 
 /** Each language in its own words (never translated), and the short code the header pill shows. */
@@ -64,6 +67,11 @@ function SiteHeader({ navLinks }: { navLinks: NavLink[] }): ReactNode {
               </a>
             ))}
           </nav>
+          {IN_APP && (
+            <a className="icon-btn topbar-lights" href={DOWNLOADS_PATH} aria-label={t('layout.downloads')} data-id="header-downloads">
+              <Icon name="download" />
+            </a>
+          )}
           <LightsSwitch className="icon-btn topbar-lights" dataId="header-lights" />
           <LanguageSwitch />
         </div>
@@ -74,6 +82,8 @@ function SiteHeader({ navLinks }: { navLinks: NavLink[] }): ReactNode {
 
 function SiteFooter({ path }: { path: string }): ReactNode {
   const { t } = useI18n();
+  // In the app the ecosystem link leaves for the browser: a grown-up confirms first.
+  const gate = useParentalGate(IN_APP);
   const domain = brand.primaryTenant.domain;
   const links: NavLink[] = [
     { href: '/privacy', label: t('layout.privacy'), dataId: 'foot-privacy', current: path === '/privacy' },
@@ -85,9 +95,20 @@ function SiteFooter({ path }: { path: string }): ReactNode {
       <div className="foot-inner container">
         <div className="foot-brand">
           <img className="foot-mark" src={BRAND_MARK_SRC} width={24} height={24} alt="" aria-hidden="true" loading="lazy" decoding="async" />
-          <a className="foot-home" href={ECOSYSTEM_URL} data-id="foot-home">
+          <a
+            className="foot-home"
+            href={ECOSYSTEM_URL}
+            data-id="foot-home"
+            onClick={(event) => {
+              if (!IN_APP) return;
+              event.preventDefault();
+              // The app hands any address off its own pages to Safari and stays where it is.
+              gate.ask(() => window.location.assign(ECOSYSTEM_URL));
+            }}
+          >
             {t('layout.ecosystem', { domain })}
           </a>
+          {gate.dialog}
         </div>
         <nav className="foot-links" aria-label={t('layout.footLinks')}>
           {links.map((link) => (

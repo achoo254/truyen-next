@@ -8,7 +8,7 @@ const NO_NODE = { group: ['node:*'], message: 'The story package runs in the bro
 
 export default tseslint.config(
   {
-    ignores: ['**/node_modules/**', '**/dist/**', '**/test-results/**', '**/playwright-report/**', '.work/**', 'brand/generated/**'],
+    ignores: ['**/node_modules/**', '**/dist/**', '**/dist-native/**', 'apps/mobile/ios/**', '**/test-results/**', '**/playwright-report/**', '.work/**', 'brand/generated/**'],
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,

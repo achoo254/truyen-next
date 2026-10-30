@@ -18,6 +18,8 @@ import { MUSIC_VOLUME, useSleep } from './use-sleep';
 import { useStoryTrack } from './use-story-track';
 import { reportPosition, useMediaSession } from './media-session';
 import { brand } from '../brand';
+import { useParentalGate } from '../native/parental-gate';
+import { IN_APP, publicUrl } from '../platform/app-build';
 import { storyPath } from './story-api';
 import { LightsSwitch } from '../ui/lights-switch';
 import { useLights } from '../ui/lights';
@@ -387,8 +389,9 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
     playRef.current?.focus({ preventScroll: true });
   }, []);
 
+  const gate = useParentalGate(IN_APP);
   const share = useCallback(async () => {
-    const url = `${window.location.origin}${storyPath(story.slug)}?canh=${state.index + 1}`;
+    const url = publicUrl(`${storyPath(story.slug)}?canh=${state.index + 1}`);
     try {
       if (typeof navigator.share === 'function') {
         await navigator.share({ title: story.title, url });
@@ -565,7 +568,11 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
         sleepMinutesLeft={sleep.minutesLeft}
         onSleep={sleep.pick}
         fullscreen={fullscreen}
-        onShare={() => void share()}
+        onShare={() => {
+          // In the app the share sheet leaves the app: a grown-up confirms first.
+          if (IN_APP) setSheetOpen(false);
+          gate.ask(() => void share());
+        }}
         shareNote={shareNote}
         onScenes={() => {
           setSheetOpen(false);
@@ -574,6 +581,7 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
       >
         <ScenePicker value={readingSceneId} lightsOff={lightsOff} onChange={(id) => updatePrefs({ scenes: { ...prefs.scenes, [story.shelf]: id } })} />
       </ReaderSheet>
+      {gate.dialog}
       <SceneIndex story={story} current={state.index} open={scenesOpen} onClose={() => setScenesOpen(false)} onPick={(index) => dispatch({ type: 'goTo', index })} />
 
       {sleep.phase !== 'awake' && (

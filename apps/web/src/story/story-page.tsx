@@ -1,5 +1,6 @@
 import { type Story, storyListEntry } from '@truyen/story';
-import { type ReactNode, type RefObject, useCallback, useEffect, useRef, useState } from 'react';
+import { type ReactNode, type RefObject, Suspense, lazy, useCallback, useEffect, useRef, useState } from 'react';
+import { IN_APP } from '../platform/app-build';
 import { StoryCover } from '../art/story-cover';
 import { useI18n } from '../i18n/i18n';
 import { setPageMeta } from '../page-meta';
@@ -8,6 +9,9 @@ import { StoryLoadError, fetchStory, shelfPath } from './story-api';
 import { progressOf, sceneFromQuery } from './reading-progress';
 import { StoryPlayer } from './story-player';
 import { useLoad } from './use-load';
+
+/** The download row (iPhone app only): loaded on its own, so the web never fetches the app's code. */
+const DownloadPanel = IN_APP ? lazy(() => import('../native/download-ui').then((module) => ({ default: module.DownloadPanel }))) : null;
 
 /** While the reader is open the site's header and footer step aside (html.reading in app.css) and the page does not scroll. */
 function useReadingMode(reading: boolean): void {
@@ -57,6 +61,11 @@ function StoryCoverPage({ story, onOpen, openRef }: { story: Story; onOpen: (ind
               </button>
             )}
           </div>
+          {DownloadPanel && (
+            <Suspense fallback={null}>
+              <DownloadPanel story={story} />
+            </Suspense>
+          )}
         </div>
       </div>
     </article>

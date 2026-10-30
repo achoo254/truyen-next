@@ -1,10 +1,8 @@
 /** Where a story's files are on the site, and which ones to fetch ahead of the reader. */
 import type { Scene, Story } from '@truyen/story';
+import { storyFileUrl } from './story-location';
 
-/** Site URL of a file of the story folder (`media/…` or `story.json`). */
-export function storyFileUrl(slug: string, file: string): string {
-  return `/stories/${encodeURIComponent(slug)}/${file}`;
-}
+export { storyFileUrl };
 
 export interface SceneMedia {
   image?: string;
