@@ -4,7 +4,7 @@ import { useI18n } from './i18n/i18n';
 import { SitePage } from './layout/site-page';
 import { HomePage } from './pages/home-page';
 import { type LegalPageKind, LegalPage, legalTitle } from './pages/legal-pages';
-import { parseStoryPath } from './story/story-api';
+import { parseShelfPath, parseStoryPath } from './story/story-api';
 import { StoryPage } from './story/story-page';
 
 const LEGAL_PATHS: Record<string, LegalPageKind> = { '/privacy': 'privacy', '/terms': 'terms', '/credits': 'credits' };
@@ -32,19 +32,22 @@ export function App({ pathname }: { pathname: string }): ReactNode {
   const path = routePath(pathname);
   const legal = LEGAL_PATHS[path];
   const slug = parseStoryPath(path);
+  const shelf = parseShelfPath(path);
 
   useEffect(() => {
     // A story page sets its own title once the story has loaded.
     if (slug) return;
     let page: string;
     if (path === '/') page = t('home.title');
+    else if (shelf) page = t(`shelf.${shelf}.title`);
     else if (legal) page = legalTitle(legal, locale);
     else page = t('notFound.title');
     document.title = `${page} · ${brand.appName}`;
-  }, [path, legal, slug, locale, t]);
+  }, [path, legal, slug, shelf, locale, t]);
 
   let page: ReactNode;
   if (path === '/') page = <HomePage />;
+  else if (shelf) page = <HomePage shelf={shelf} />;
   else if (legal) page = <LegalPage kind={legal} />;
   else if (slug) page = <StoryPage slug={slug} />;
   else page = <NotFound />;

@@ -1,7 +1,7 @@
 import { type ReactNode, useEffect } from 'react';
 import { brand } from '../brand';
 import { useI18n } from '../i18n/i18n';
-import { StoryLoadError, fetchStory } from './story-api';
+import { StoryLoadError, fetchStory, shelfPath } from './story-api';
 import { StoryPlayer } from './story-player';
 import { useLoad } from './use-load';
 
@@ -40,15 +40,19 @@ export function StoryPage({ slug }: { slug: string }): ReactNode {
     );
   }
   const story = load.value;
+  const shelf = t(`shelf.${story.shelf}`);
   return (
     <article className="story" data-id="story-page">
       <header className="story-head">
-        <a className="back-link" href="/" data-id="story-back">
-          {t('story.back')}
+        <a className="back-link" href={shelfPath(story.shelf)} data-id="story-back">
+          {t('story.backToShelf', { shelf })}
         </a>
         <h1 className="story-title" lang="vi">
           {story.title}
         </h1>
+        <p className="story-shelf" data-id="story-shelf" data-shelf={story.shelf}>
+          {t('shelf.label', { shelf })}
+        </p>
       </header>
       <StoryPlayer story={story} />
     </article>

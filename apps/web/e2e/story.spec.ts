@@ -13,11 +13,16 @@ test('open the pilot story and step through it scene by scene', async ({ page })
   page.on('console', (message) => {
     if (message.type() === 'error') consoleErrors.push(message.text());
   });
-  await page.goto('/');
+  // The children's shelf alone, the way in from Miu World.
+  await page.goto('/tre-em');
+  await expect(page.locator('h1')).toHaveText('Cổ tích Việt Nam cho bé');
+  await expect(page.locator('[data-id=shelf-adults]')).toHaveCount(0);
   await expect(page.locator('[data-id=story-card-son-tinh-thuy-tinh]')).toContainText('Sơn Tinh, Thủy Tinh');
   await page.click('[data-id=story-open-son-tinh-thuy-tinh]');
   await expect(page).toHaveURL(/\/truyen\/son-tinh-thuy-tinh$/);
   await expect(page).toHaveTitle(/^Sơn Tinh, Thủy Tinh · /);
+  await expect(page.locator('[data-id=story-shelf]')).toHaveText('Kệ Trẻ em');
+  await expect(page.locator('[data-id=story-back]')).toHaveAttribute('href', '/tre-em');
   await expect(page.locator('[data-id=story-no-media]')).toBeVisible();
   await expect(page.locator('[data-id=story-subtitle-line]')).toHaveText('Xin chào các bạn nhỏ! Mình là Mèo Miu đây.');
 
@@ -40,5 +45,29 @@ test('open the pilot story and step through it scene by scene', async ({ page })
 
   expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(page.viewportSize()?.width ?? 0);
   await page.screenshot({ path: test.info().outputPath('story-scene-2.png'), fullPage: true });
+  expect(consoleErrors).toEqual([]);
+});
+
+test('the home page shows the children\'s shelf first, then the adults\' shelf', async ({ page }) => {
+  const consoleErrors: string[] = [];
+  page.on('console', (message) => {
+    if (message.type() === 'error') consoleErrors.push(message.text());
+  });
+  await page.goto('/');
+  await expect(page.locator('section[data-id^=shelf-]')).toHaveCount(2);
+  expect(await page.locator('section[data-id^=shelf-]').evaluateAll((sections) => sections.map((s) => s.getAttribute('data-id')))).toEqual(['shelf-kids', 'shelf-adults']);
+  await expect(page.locator('[data-id=story-list-kids] [data-id=story-card-son-tinh-thuy-tinh]')).toBeVisible();
+  await expect(page.locator('[data-id=story-list-adults] [data-id=story-card-su-tich-ho-guom]')).toBeVisible();
+  await expect(page.locator('[data-id=story-list-adults] [data-id=story-card-son-tinh-thuy-tinh]')).toHaveCount(0);
+
+  await page.click('[data-id=story-open-su-tich-ho-guom]');
+  await expect(page).toHaveURL(/\/truyen\/su-tich-ho-guom$/);
+  await expect(page.locator('[data-id=story-shelf]')).toHaveText('Kệ Người lớn');
+  await expect(page.locator('[data-id=story-subtitle-line]')).toHaveText('Đầu thế kỷ mười lăm, giặc Minh sang chiếm nước ta.');
+  await page.click('[data-id=story-back]');
+  await expect(page).toHaveURL(/\/nguoi-lon$/);
+  await expect(page.locator('[data-id=shelf-kids]')).toHaveCount(0);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(page.viewportSize()?.width ?? 0);
+  await page.screenshot({ path: test.info().outputPath('home-shelves.png'), fullPage: true });
   expect(consoleErrors).toEqual([]);
 });

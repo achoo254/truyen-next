@@ -25,7 +25,7 @@ const DOCS: Record<LegalPageKind, Record<Locale, LegalDoc>> = {
   privacy: {
     vi: {
       title: 'Quyền riêng tư',
-      intro: `{app} (${APP_HOST}) là app kể chuyện cho trẻ em do một nhà phát triển độc lập vận hành. Trang này nói rõ app giữ gì.`,
+      intro: `{app} (${APP_HOST}) là app kể truyện cổ Việt Nam cho trẻ em và người lớn, do một nhà phát triển độc lập vận hành. Trang này nói rõ app giữ gì.`,
       sections: [
         {
           heading: 'Không có tài khoản, không thu thập dữ liệu',
@@ -40,7 +40,7 @@ const DOCS: Record<LegalPageKind, Record<Locale, LegalDoc>> = {
     },
     en: {
       title: 'Privacy',
-      intro: `{app} (${APP_HOST}) is a storytelling app for children run by an independent developer. This page says what the app keeps.`,
+      intro: `{app} (${APP_HOST}) is an app of Vietnamese folk tales for children and adults, run by an independent developer. This page says what the app keeps.`,
       sections: [
         {
           heading: 'No account, no data collected',
@@ -91,7 +91,9 @@ const DOCS: Record<LegalPageKind, Record<Locale, LegalDoc>> = {
       sections: [
         {
           heading: 'Các câu chuyện',
-          paragraphs: ['Truyện dân gian Việt Nam, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.'],
+          paragraphs: [
+            'Truyện dân gian, truyền thuyết và truyền kỳ Việt Nam thuộc phạm vi công cộng; mỗi truyện ghi nguồn trong file của nó. Lời kể viết mới, không chép câu chữ của sách, bản dịch hay bản kể nào: kệ Trẻ em kể nhẹ nhàng cho trẻ nhỏ, kệ Người lớn kể đầy đủ và theo sát truyện xưa.',
+          ],
         },
         {
           heading: 'Tranh, cảnh động, giọng kể, nhạc',
@@ -109,7 +111,9 @@ const DOCS: Record<LegalPageKind, Record<Locale, LegalDoc>> = {
       sections: [
         {
           heading: 'Stories',
-          paragraphs: ['Vietnamese folk tales in the public domain. The words are newly written for young children, not copied from any book or retelling.'],
+          paragraphs: [
+            'Public-domain Vietnamese folk tales, legends and marvel tales; each story file names its source. The words are newly written, not copied from any book, translation or retelling: gentle tellings for young children on the Children shelf, full tellings close to the old texts on the Adults shelf.',
+          ],
         },
         {
           heading: 'Pictures, motion, voices, music',

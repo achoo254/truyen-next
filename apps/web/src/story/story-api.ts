@@ -1,5 +1,5 @@
 /** Reads the story list and a story from the site, checked at the boundary like any outside data. */
-import { type Story, type StoryListEntry, validateStory } from '@truyen/story';
+import { SHELVES, type Shelf, type Story, type StoryListEntry, validateStory } from '@truyen/story';
 import { storyFileUrl } from './scene-media';
 
 export class StoryLoadError extends Error {
@@ -23,6 +23,7 @@ function isListEntry(value: unknown): value is StoryListEntry {
   const entry = value as Record<string, unknown>;
   return (
     typeof entry.slug === 'string' &&
+    (SHELVES as readonly unknown[]).includes(entry.shelf) &&
     typeof entry.title === 'string' &&
     typeof entry.summary === 'string' &&
     typeof entry.scenes === 'number' &&
@@ -55,4 +56,19 @@ export function parseStoryPath(path: string): string | null {
   if (!path.startsWith(STORY_PATH_PREFIX)) return null;
   const slug = path.slice(STORY_PATH_PREFIX.length);
   return /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug) ? slug : null;
+}
+
+/**
+ * Each shelf on a page of its own: `/tre-em` (children's stories only, the way in from Miu World) and `/nguoi-lon`.
+ * The home page shows both shelves, children's first.
+ */
+export const SHELF_PATHS: Record<Shelf, string> = { kids: '/tre-em', adults: '/nguoi-lon' };
+
+export function shelfPath(shelf: Shelf): string {
+  return SHELF_PATHS[shelf];
+}
+
+/** The shelf of a shelf page path, or null for any other path. */
+export function parseShelfPath(path: string): Shelf | null {
+  return SHELVES.find((shelf) => SHELF_PATHS[shelf] === path) ?? null;
 }

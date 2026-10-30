@@ -1,22 +1,68 @@
+import { SHELVES, type Shelf, type StoryListEntry } from '@truyen/story';
 import type { ReactNode } from 'react';
 import { useI18n } from '../i18n/i18n';
-import { fetchStoryList, storyPath } from '../story/story-api';
+import { fetchStoryList, shelfPath, storyPath } from '../story/story-api';
 import { useLoad } from '../story/use-load';
 
-export function HomePage(): ReactNode {
+/** One shelf: its heading, and its stories as cards. On the home page the heading links to the shelf's own page. */
+function ShelfSection({ shelf, stories, linkToShelf }: { shelf: Shelf; stories: StoryListEntry[]; linkToShelf: boolean }): ReactNode {
+  const { t } = useI18n();
+  const headingId = `shelf-${shelf}-heading`;
+  return (
+    <section className="shelf" aria-labelledby={headingId} data-id={`shelf-${shelf}`}>
+      <div className="shelf-head">
+        <h2 className="shelf-title" id={headingId}>
+          {t(`shelf.${shelf}`)}
+        </h2>
+        {linkToShelf && (
+          <a className="pill" href={shelfPath(shelf)} data-id={`shelf-open-${shelf}`}>
+            {t('shelf.only')}
+          </a>
+        )}
+      </div>
+      {stories.length === 0 ? (
+        <p className="muted">{t('shelf.empty')}</p>
+      ) : (
+        <ul className="story-list" aria-labelledby={headingId} data-id={`story-list-${shelf}`}>
+          {stories.map((entry) => (
+            <li key={entry.slug} className="card story-card" data-id={`story-card-${entry.slug}`}>
+              <h3 className="story-card-title" lang="vi">
+                {entry.title}
+              </h3>
+              <p className="muted">{t('home.length', { minutes: entry.minutes, scenes: entry.scenes })}</p>
+              <p className="story-card-summary" lang="vi">
+                {entry.summary}
+              </p>
+              <a className="btn btn-primary" href={storyPath(entry.slug)} data-id={`story-open-${entry.slug}`}>
+                {t('home.open')}
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+  );
+}
+
+/**
+ * `/`: both shelves, children's first. `/tre-em`, `/nguoi-lon` (`shelf` set): that shelf only, with a link to all
+ * stories.
+ */
+export function HomePage({ shelf }: { shelf?: Shelf }): ReactNode {
   const { t } = useI18n();
   const [load, retry] = useLoad('stories', (signal) => fetchStoryList(signal));
+  const shelves = shelf ? [shelf] : SHELVES;
 
-  let list: ReactNode;
+  let body: ReactNode;
   if (load.status === 'loading') {
-    list = (
+    body = (
       <p className="muted" role="status">
         {t('home.loading')}
       </p>
     );
   } else if (load.status === 'failed') {
     console.error('story list failed to load', load.error instanceof Error ? load.error.message : load.error);
-    list = (
+    body = (
       <p className="card" role="alert" data-id="home-load-failed">
         {t('page.loadFailed')}{' '}
         <button type="button" className="btn btn-secondary" onClick={retry}>
@@ -24,37 +70,28 @@ export function HomePage(): ReactNode {
         </button>
       </p>
     );
-  } else if (load.value.length === 0) {
-    list = <p className="muted">{t('home.empty')}</p>;
+  } else if (!shelf && load.value.length === 0) {
+    body = <p className="muted">{t('home.empty')}</p>;
   } else {
-    list = (
-      <ul className="story-list" aria-label={t('home.listLabel')} data-id="story-list">
-        {load.value.map((entry) => (
-          <li key={entry.slug} className="card story-card" data-id={`story-card-${entry.slug}`}>
-            <h2 className="story-card-title" lang="vi">
-              {entry.title}
-            </h2>
-            <p className="muted">{t('home.length', { minutes: entry.minutes, scenes: entry.scenes })}</p>
-            <p className="story-card-summary" lang="vi">
-              {entry.summary}
-            </p>
-            <a className="btn btn-primary" href={storyPath(entry.slug)} data-id={`story-open-${entry.slug}`}>
-              {t('home.open')}
-            </a>
-          </li>
-        ))}
-      </ul>
-    );
+    const stories = load.value;
+    body = shelves.map((each) => (
+      <ShelfSection key={each} shelf={each} stories={stories.filter((entry) => entry.shelf === each)} linkToShelf={!shelf} />
+    ));
   }
 
   return (
-    <div className="home" data-id="home-page">
+    <div className="home" data-id={shelf ? `shelf-page-${shelf}` : 'home-page'}>
       <section className="hero">
-        <h1 className="hero-title">{t('home.title')}</h1>
-        <p className="hero-lede">{t('home.lede')}</p>
+        <h1 className="hero-title">{shelf ? t(`shelf.${shelf}.title`) : t('home.title')}</h1>
+        <p className="hero-lede">{shelf ? t(`shelf.${shelf}.lede`) : t('home.lede')}</p>
         <p className="muted">{t('story.language')}</p>
+        {shelf && (
+          <a className="pill" href="/" data-id="shelf-all">
+            {t('shelf.all')}
+          </a>
+        )}
       </section>
-      {list}
+      {body}
     </div>
   );
 }
