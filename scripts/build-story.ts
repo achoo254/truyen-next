@@ -1,0 +1,92 @@
+/**
+ * `pnpm story:build <slug> [--dry-run] [--only characters,images,…] [--force]`: makes a story's media on the home PC
+ * with the inet-artgen tools, step by step (story-build-plan.ts), writing each finished file's path into
+ * story.json so the app shows it.
+ *
+ * - `--dry-run` prints every planned call and runs nothing (works for a story still awaiting text review).
+ * - A real run needs the words approved (status "text-approved") and the PC online: `artgen.py --health` (and
+ *   `voice.py --health` before voices) failing stops the run with "PC offline, pending".
+ * - Steps whose file already exists are skipped, so a run stopped halfway picks up where it left off; `--force`
+ *   makes them again.
+ *
+ * Environment: ARTGEN_DIR (default ~/.claude/skills/inet-artgen), PYTHON (default python3, python on Windows),
+ * ARTGEN_URL / VOICE_URL are read by the tools themselves.
+ */
+import { existsSync } from 'node:fs';
+import { homedir } from 'node:os';
+import path from 'node:path';
+import { parseArgs } from 'node:util';
+import type { Story } from '@truyen/story';
+import { REPO_ROOT, STORIES_DIR, loadStory, writeStory } from './story-files';
+import { STAGES, type Stage, type Tools, applyRecord, planStoryBuild, shellQuote, toolPath } from './story-build-plan';
+import { BuildError, requireHealthy, runStep } from './story-build-run';
+
+function parseStages(value: string | undefined): Stage[] {
+  if (value === undefined) return [...STAGES];
+  const picked = value.split(',').map((s) => s.trim()).filter(Boolean);
+  const unknown = picked.filter((s) => !(STAGES as readonly string[]).includes(s));
+  if (unknown.length > 0 || picked.length === 0) throw new BuildError(`--only takes ${STAGES.join(', ')}; got "${value}"`);
+  return picked as Stage[];
+}
+
+function defaultTools(): Tools {
+  return {
+    python: process.env.PYTHON ?? (process.platform === 'win32' ? 'python' : 'python3'),
+    artgenDir: process.env.ARTGEN_DIR ?? path.join(homedir(), '.claude', 'skills', 'inet-artgen'),
+  };
+}
+
+function main(): void {
+  const { values, positionals } = parseArgs({
+    allowPositionals: true,
+    options: { 'dry-run': { type: 'boolean', default: false }, only: { type: 'string' }, force: { type: 'boolean', default: false } },
+  });
+  const [slug, ...extra] = positionals;
+  if (!slug || extra.length > 0) throw new BuildError('usage: pnpm story:build <slug> [--dry-run] [--only characters,images,videos,voices,music,social] [--force]');
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) throw new BuildError(`"${slug}" is not a story slug (the folder name under stories/)`);
+  const dir = path.join(STORIES_DIR, slug);
+  const loaded = loadStory(dir);
+  if (!loaded.ok) throw new BuildError(`stories/${slug} is not valid:\n  ${loaded.errors.join('\n  ')}`);
+  let story: Story = loaded.loaded.story;
+  const tools = defaultTools();
+  const steps = planStoryBuild(story, tools, parseStages(values.only));
+
+  if (values['dry-run']) {
+    if (story.status !== 'text-approved') console.log(`# ${slug} is ${story.status}: a real run waits until a person approves the words.`);
+    console.log(`# ${steps.length} steps; the PC is checked first: ${shellQuote([tools.python, toolPath(tools, 'artgen.py'), '--health'])}`);
+    for (const step of steps) {
+      const done = existsSync(path.join(REPO_ROOT, step.output)) && !values.force;
+      console.log(`\n# ${step.id}${done ? ' (done, skipped)' : ''} -> ${step.output}`);
+      for (const argv of step.commands) console.log(shellQuote(argv));
+    }
+    return;
+  }
+
+  if (story.status !== 'text-approved') throw new BuildError(`stories/${slug} is ${story.status}: approve the words first (status "text-approved" and review in story.json)`);
+  const todo = steps.filter((step) => values.force || !existsSync(path.join(REPO_ROOT, step.output)));
+  if (todo.length === 0) {
+    console.log(`${slug}: nothing to make, every planned file exists`);
+    return;
+  }
+  if (todo.some((step) => step.pc !== null)) requireHealthy(tools, 'artgen.py');
+  if (todo.some((step) => step.pc === 'voice')) requireHealthy(tools, 'voice.py');
+
+  for (const [index, step] of todo.entries()) {
+    const missing = step.inputs.filter((input) => !existsSync(path.join(REPO_ROOT, input)));
+    if (missing.length > 0) throw new BuildError(`${step.id}: make ${missing.join(', ')} first (run the earlier stages)`);
+    console.log(`[${index + 1}/${todo.length}] ${step.id}`);
+    runStep(step);
+    if (step.record) {
+      story = applyRecord(story, step.record);
+      writeStory(dir, story);
+    }
+  }
+  console.log(`${slug}: ${todo.length} step(s) done; review the pictures, motion and voice before publishing.`);
+}
+
+try {
+  main();
+} catch (error) {
+  console.error(error instanceof BuildError ? error.message : error);
+  process.exitCode = 1;
+}
