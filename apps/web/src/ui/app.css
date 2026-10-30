@@ -631,205 +631,669 @@ a {
   font-size: 1.08rem;
 }
 
-/* Story page and player. */
-.story-head {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--space-2);
-  margin-bottom: var(--space-5);
-  text-align: center;
-}
-
+/* Story page: the cover, the title and the button that opens the reader. */
 .back-link {
-  order: -2;
-  align-self: flex-start;
   display: inline-flex;
   align-items: center;
+  gap: var(--space-2);
   min-height: var(--tap);
+  color: var(--c-text);
   font-weight: 700;
 }
 
-.back-link::before {
-  content: '←';
-  margin-right: var(--space-2);
+.back-link .icon {
+  width: 20px;
+  height: 20px;
 }
 
-.story-shelf {
-  order: -1;
+.story-intro {
+  display: grid;
+  gap: var(--space-5);
+  margin-top: var(--space-4);
+}
+
+.story-intro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-3);
+  max-width: 36em;
 }
 
 .story-title {
   margin: 0;
-  font-size: clamp(2rem, 6vw, 3rem);
+  font-size: clamp(2.2rem, 6vw, 3.4rem);
+  line-height: 1.05;
 }
 
-.player {
+.story-length {
+  margin: 0;
+  color: var(--c-text-muted);
+  font-weight: 700;
+}
+
+.story-summary {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  line-height: 1.55;
+}
+
+.story-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-3);
+}
+
+.btn .icon {
+  width: 22px;
+  height: 22px;
+  margin-right: var(--space-2);
+}
+
+.btn-large {
+  min-height: 56px;
+  padding: var(--space-3) var(--space-6);
+  font-size: 1.1rem;
+}
+
+.story-skeleton {
+  min-height: 60vh;
+}
+
+/* The reader: the book fills the screen; the site's header and footer step aside while it is open. */
+html.reading {
+  overflow: hidden;
+}
+
+html.reading .topbar,
+html.reading .foot,
+html.reading .skip-link {
+  display: none;
+}
+
+html.reading .main {
+  max-width: none;
+  padding: 0;
+}
+
+.reader {
+  --turn: var(--turn-phone);
   display: flex;
   flex-direction: column;
-  gap: var(--space-4);
-  max-width: 520px;
-  margin: 0 auto;
+  gap: var(--space-2);
+  height: 100vh;
+  height: 100dvh;
+  padding: calc(env(safe-area-inset-top, 0px) + var(--space-2)) calc(env(safe-area-inset-right, 0px) + var(--space-3))
+    calc(env(safe-area-inset-bottom, 0px) + var(--space-3)) calc(env(safe-area-inset-left, 0px) + var(--space-3));
+  background-color: var(--c-bg);
+  background-image: var(--paper-texture);
 }
 
-.player-note,
-.player-scene,
-.player-ended {
+.reader-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--tap);
+}
+
+.reader-heading {
+  flex: 1;
+  min-width: 0;
+}
+
+.reader-title,
+.reader-scene {
   margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reader-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.reader-scene {
+  color: var(--c-text-muted);
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+/* Scene progress: one segment per scene, read like the dots of a picture book. */
+.reader-progress {
+  display: flex;
+  gap: 3px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reader-progress-step {
+  flex: 1;
+  height: 6px;
+  border-radius: var(--radius-full);
+  background: var(--c-border);
+}
+
+.reader-progress-step[data-state='done'] {
+  background: var(--c-text);
+}
+
+.reader-progress-step[data-state='now'] {
+  background: var(--accent);
 }
 
 .player-note {
+  margin: 0;
   color: var(--c-text-muted);
-  font-size: 0.95rem;
-  font-style: italic;
+  font-size: 0.9rem;
   text-align: center;
 }
 
-.player-scene {
-  text-align: center;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.15rem;
-  color: var(--accent);
-}
-
-.player-ended {
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--accent);
-  text-align: center;
-}
-
-/* The book: one page on phones (picture over text), an open spread from tablets up (picture left, text right). */
-.stage {
+/* The book: one page on phones (picture over text), an open spread from 880px (picture left, text right). */
+.book {
   position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  justify-content: center;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.spread {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: min(100%, 520px);
+  height: 100%;
   background: var(--c-page);
-  border: 2px solid var(--c-text);
-  border-radius: var(--radius-sm) var(--radius-sm) var(--radius-md) var(--radius-md);
+  border: 1.5px solid var(--c-text);
+  border-radius: var(--radius-sm);
   box-shadow: var(--shadow-book);
 }
 
-.stage-picture {
+.page {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+}
+
+.page--picture {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-3) var(--space-3) 0;
+}
+
+.picture-frame {
+  height: 100%;
+  max-width: 100%;
   aspect-ratio: 9 / 16;
-  max-height: 50vh;
-  width: auto;
-  margin: var(--space-3) auto 0;
-  border: 2px solid var(--c-text);
+  border: 1.5px solid var(--c-text);
   overflow: hidden;
   background: var(--c-stage-bottom);
 }
 
-.stage-media {
+.picture-media {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.stage-plain {
+.picture-plain {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: var(--space-5);
+  padding: var(--space-4);
   background-color: var(--c-stage-bottom);
   background-image: linear-gradient(var(--c-stage-top), var(--c-stage-bottom));
 }
 
-/* The children's backdrop: fish-scale water under the title. */
-.theme-kids .stage-plain {
-  background-image: var(--pattern-scales), linear-gradient(var(--c-stage-top), var(--c-stage-bottom));
-}
-
-.stage-plain-title {
+.picture-plain-title {
   margin: 0;
   font-family: var(--font-display);
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 800;
   line-height: 1.2;
   text-align: center;
-  color: var(--c-text);
   text-wrap: balance;
 }
 
-.stage-plain-title::after {
-  content: '';
-  display: block;
-  width: 64px;
-  height: 40px;
-  margin: var(--space-3) auto 0;
-  background: var(--accent);
-  -webkit-mask: var(--orn-cloud) no-repeat center / contain;
-  mask: var(--orn-cloud) no-repeat center / contain;
-}
-
-.subtitles {
+.page--text {
+  flex: none;
   display: flex;
   flex-direction: column;
-  background: var(--c-subtitle-bg);
-  padding: var(--space-4) var(--space-5) var(--space-5);
+  padding: var(--space-3) var(--space-4) var(--space-4);
 }
 
 .subtitles-narrator {
   margin: 0;
-  color: var(--accent);
-  font-size: 0.95rem;
+  color: var(--c-text-muted);
+  font-size: 0.9rem;
   font-weight: 700;
 }
 
 .subtitles-line {
-  margin: var(--space-1) 0 var(--space-4);
-  min-height: 3.2em;
-  font-size: 1.35rem;
+  margin: var(--space-1) 0 var(--space-3);
+  min-height: calc(3 * 1.45em);
+  font-size: calc(1.25rem * var(--subtitle-scale, 1));
   font-weight: 500;
-  line-height: 1.55;
+  line-height: 1.45;
+  text-wrap: pretty;
 }
 
 .theme-adults .subtitles-line {
   font-family: var(--font-display);
   font-weight: 400;
-  font-size: 1.4rem;
 }
 
-.scene-progress {
-  display: block;
-  width: 100%;
-  height: 6px;
-  appearance: none;
-  border: 1px solid var(--c-border-strong);
+.scene-clock {
+  height: 3px;
   border-radius: var(--radius-full);
-  background: var(--c-surface-raised);
+  background: var(--c-border);
   overflow: hidden;
 }
 
-.scene-progress::-webkit-progress-bar {
-  background: var(--c-surface-raised);
+.scene-clock-fill {
+  display: block;
+  height: 100%;
+  background: var(--c-text-muted);
+  transform-origin: left center;
 }
 
-.scene-progress::-webkit-progress-value {
-  background: var(--accent);
+/* Controls in thumb reach: previous, a large play, next, and the rest as round icon buttons. */
+.reader-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  padding-top: var(--space-1);
 }
 
-.scene-progress::-moz-progress-bar {
-  background: var(--accent);
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 1.5px solid var(--c-text);
+  border-radius: var(--radius-full);
+  background: var(--c-surface);
+  color: var(--c-text);
+  cursor: pointer;
+  box-shadow: var(--lift);
+  transition:
+    transform var(--dur-base) var(--ease),
+    box-shadow var(--dur-base) var(--ease);
+}
+
+.icon-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: var(--lift-hover);
+}
+
+.icon-btn:active:not(:disabled) {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.icon-btn:disabled {
+  cursor: not-allowed;
+  border-color: var(--c-border);
+  color: var(--c-border-strong);
+  box-shadow: none;
+}
+
+.icon-btn[aria-pressed='true'] {
+  background: var(--c-ink-solid);
+  color: var(--c-on-ink);
+}
+
+.reader-bar .icon-btn {
+  box-shadow: none;
+  border-color: transparent;
+  background: transparent;
+}
+
+.reader-bar .icon-btn:hover {
+  border-color: var(--c-text);
+}
+
+.play-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-width: 64px;
+  height: 64px;
+  padding: 0 var(--space-5);
+  border: 1.5px solid var(--c-text);
+  border-radius: var(--radius-full);
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  font: inherit;
+  font-weight: 700;
+  font-size: 1.05rem;
+  cursor: pointer;
+  box-shadow: var(--lift);
+  transition:
+    background var(--dur-base),
+    transform var(--dur-base) var(--ease),
+    box-shadow var(--dur-base) var(--ease);
+}
+
+.play-btn .icon {
+  width: 28px;
+  height: 28px;
+}
+
+.play-btn:hover {
+  background: var(--btn-bg-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--lift-hover);
+}
+
+.play-btn:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.play-btn:focus-visible,
+.btn-primary:focus-visible {
+  outline-color: var(--c-focus-ring-on-accent);
+  outline-offset: 3px;
+}
+
+/* The adults' reader keeps the label for screen readers only: an icon is enough for a grown-up. */
+.theme-adults .play-btn {
+  padding: 0;
+  width: 64px;
+}
+
+.theme-adults .play-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+/* The last spread. */
+.spread--end .page--end-mark {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+}
+
+.end-mark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  text-align: center;
+}
+
+.end-mark-word {
+  margin: 0;
+  padding: var(--space-3) var(--space-6);
+  border: 3px solid var(--c-text);
+  outline: 1.5px solid var(--c-text);
+  outline-offset: 4px;
+  font-family: var(--font-display);
+  font-size: clamp(2.6rem, 9vw, 4.2rem);
+  font-weight: 800;
+  line-height: 1;
+}
+
+.end-mark-line {
+  margin: 0;
+  max-width: 20em;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+}
+
+.page--end-actions {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--space-3);
+  padding: var(--space-4);
+}
+
+.end-title {
+  margin: 0;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.end-next-title {
+  margin: var(--space-2) 0 var(--space-2);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--c-text-muted);
+}
+
+.end-next-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.end-next-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-1);
+  height: 100%;
+  min-height: var(--tap);
+  padding: var(--space-2) var(--space-3);
+  border: 1.5px solid var(--c-text);
+  border-radius: var(--radius-sm);
+  background: var(--c-surface);
+  color: var(--c-text);
+  text-decoration: none;
+  box-shadow: var(--lift);
+}
+
+.end-next-link:hover {
+  box-shadow: var(--lift-hover);
+  transform: translateY(-1px);
+}
+
+.end-next-name {
+  font-family: var(--font-display);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.end-next-length {
+  color: var(--c-text-muted);
+  font-size: 0.85rem;
+}
+
+.end-shelf {
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  color: var(--c-text);
+  font-weight: 700;
+}
+
+/* The page turn. The leaf is a still copy of the page that is leaving, laid over the new one. Phones: the old
+   page slides off to the side as its edge rolls up. Spreads: the right page swings over the spine (forward), or
+   the left page swings back. Only transform, clip-path and opacity move. */
+.leaf {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  animation: leaf-life var(--turn) linear forwards;
+}
+
+.leaf .spread {
+  box-shadow: none;
+}
+
+.leaf--forward .spread {
+  animation: peel-forward var(--turn) var(--ease-turn) forwards;
+}
+
+.leaf--back .spread {
+  animation: peel-back var(--turn) var(--ease-turn) forwards;
+}
+
+@keyframes leaf-life {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes peel-forward {
+  from {
+    transform: none;
+    clip-path: inset(0 0 0 0);
+  }
+
+  to {
+    transform: translateX(-12%);
+    clip-path: inset(0 100% 0 0);
+  }
+}
+
+@keyframes peel-back {
+  from {
+    transform: none;
+    clip-path: inset(0 0 0 0);
+  }
+
+  to {
+    transform: translateX(12%);
+    clip-path: inset(0 0 0 100%);
+  }
+}
+
+@keyframes swing-forward {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(-180deg);
+  }
+}
+
+@keyframes swing-back {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes gone-at-half {
+  0%,
+  49% {
+    opacity: 1;
+  }
+
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-away {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
 }
 
 @media (min-width: 880px) {
-  .player {
-    max-width: 920px;
+  .reader {
+    --turn: var(--turn-spread);
+    gap: var(--space-3);
+    padding-left: calc(env(safe-area-inset-left, 0px) + var(--space-6));
+    padding-right: calc(env(safe-area-inset-right, 0px) + var(--space-6));
   }
 
-  .stage {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    min-height: min(68vh, 600px);
-    border-radius: var(--radius-sm);
+  .reader-bar,
+  .reader-progress,
+  .player-note {
+    width: min(100%, 1100px);
+    margin: 0 auto;
+  }
+
+  .book {
+    align-items: center;
+  }
+
+  .spread {
+    flex-direction: row;
+    width: min(100%, 1100px);
+    height: min(100%, 760px);
+    perspective: 2200px;
+  }
+
+  .page {
+    flex: 1 1 50%;
+  }
+
+  .page--picture {
+    padding: var(--space-5);
+  }
+
+  .picture-frame {
+    height: 100%;
+  }
+
+  .page--text,
+  .page--end-actions {
+    justify-content: center;
+    padding: var(--space-7) var(--space-7) var(--space-6);
+  }
+
+  .subtitles-line {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    font-size: calc(1.6rem * var(--subtitle-scale, 1));
   }
 
   /* The fold between the two pages. */
-  .stage::after {
+  .spread::after {
     content: '';
     position: absolute;
     top: 0;
@@ -840,47 +1304,59 @@ a {
     pointer-events: none;
   }
 
-  .stage-picture {
-    align-self: center;
-    height: min(60vh, 540px);
-    max-height: none;
-    margin: var(--space-5) auto;
+  .end-mark-word {
+    font-size: 4.6rem;
   }
 
-  .subtitles {
-    justify-content: center;
-    padding: var(--space-7) var(--space-7) var(--space-6);
+  /* The leaf's spread is only a frame: each page carries its own paper so the page underneath shows round it. */
+  .leaf .spread {
+    background: transparent;
+    border-color: transparent;
+    animation: none;
   }
 
-  .subtitles-line {
-    flex: 1 0 auto;
-    display: flex;
-    align-items: center;
-    margin: var(--space-4) 0;
-    font-size: 1.6rem;
+  .leaf .spread::after {
+    display: none;
   }
 
-  .theme-adults .subtitles-line {
-    font-size: 1.65rem;
+  .leaf .page {
+    background: var(--c-page);
   }
 
-  .controls {
-    max-width: 640px;
-    margin: 0 auto;
-    width: 100%;
+  .leaf--forward .page:last-child {
+    transform-origin: left center;
+    animation: swing-forward var(--turn) var(--ease-swing) forwards;
   }
-}
 
-.controls {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-3);
-  margin-top: var(--space-2);
-}
+  .leaf--forward .page:first-child,
+  .leaf--back .page:last-child {
+    animation: gone-at-half var(--turn) linear forwards;
+  }
 
-@media (min-width: 480px) {
-  .controls {
-    grid-template-columns: repeat(4, 1fr);
+  .leaf--back .page:first-child {
+    transform-origin: right center;
+    animation: swing-back var(--turn) var(--ease-swing) forwards;
+  }
+
+  /* The turning page's print vanishes as it passes the spine; its paper lands on the other side, then lifts away. */
+  .leaf--forward .page:last-child > *,
+  .leaf--back .page:first-child > * {
+    animation: gone-at-half var(--turn) linear forwards;
+  }
+
+  .leaf {
+    animation-name: leaf-land;
+  }
+
+  @keyframes leaf-land {
+    0%,
+    85% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
   }
 }
 
@@ -902,8 +1378,22 @@ a {
 @media (prefers-reduced-motion: reduce) {
   .btn,
   .pill,
-  .story-card {
+  .story-card,
+  .icon-btn,
+  .play-btn {
     transition: none;
+  }
+
+  /* No turning or sliding: the old page fades out. */
+  .leaf,
+  .leaf .spread,
+  .leaf .page,
+  .leaf .page > * {
+    animation: none;
+  }
+
+  .leaf {
+    animation: fade-away 150ms linear forwards;
   }
 
   .btn:active:not(:disabled) {

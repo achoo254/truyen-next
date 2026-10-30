@@ -50,8 +50,12 @@
   --c-foot-muted: #d9c4a0;
   --c-foot-link: #f0b43c;
   --c-focus-on-dark: #f0b43c;
+  /* focus on a vermilion or ink fill: an ink ring set off from it, never the fill's own colour */
+  --c-focus-ring-on-accent: #2f1d0f;
 
-  /* depth: paper lifted off paper, never glow */
+  /* depth: paper lifted off paper, never glow. One rule for every raised thing: a thin ink line under it. */
+  --lift: 0 2px 0 var(--c-text);
+  --lift-hover: 0 3px 0 var(--c-text);
   --shadow-card: 0 1px 0 rgb(47 29 15 / 0.08), 0 10px 24px -16px rgb(47 29 15 / 0.45);
   --shadow-print: 0 2px 0 rgb(47 29 15 / 0.12), 0 22px 40px -22px rgb(47 29 15 / 0.6);
   --shadow-book: 0 1px 0 var(--c-page-edge), 0 2px 0 var(--c-border-strong), 0 3px 0 var(--c-page-edge), 0 4px 0 var(--c-border-strong), 0 24px 40px -24px rgb(47 29 15 / 0.55);
@@ -88,4 +92,10 @@
   --tap: 44px;
   --dur-base: 200ms;
   --ease: cubic-bezier(0.3, 0.7, 0.4, 1);
+  /* the page turn: the only large movement on the site */
+  --turn-phone: 450ms;
+  --turn-spread: 650ms;
+  --ease-turn: cubic-bezier(0.25, 1, 0.5, 1);
+  /* symmetric, so a swinging page is edge-on to the reader exactly half way through */
+  --ease-swing: cubic-bezier(0.45, 0, 0.55, 1);
 }

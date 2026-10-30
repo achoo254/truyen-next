@@ -6,7 +6,7 @@ const run = (state: PlayerState, ...actions: PlayerAction['type'][]): PlayerStat
 
 describe('story player state', () => {
   it('waits on the first scene, unmuted, until started', () => {
-    expect(initialPlayerState(3)).toEqual({ index: 0, sceneCount: 3, status: 'idle', muted: false, run: 0 });
+    expect(initialPlayerState(3)).toEqual({ index: 0, sceneCount: 3, status: 'idle', muted: false, run: 0, direction: 'forward' });
     expect(() => initialPlayerState(0)).toThrow(/at least one scene/);
   });
 
@@ -48,6 +48,26 @@ describe('story player state', () => {
   it('starts again from the first scene when played after the end', () => {
     const again = run(initialPlayerState(2), 'toggle', 'sceneEnded', 'sceneEnded', 'toggle');
     expect(again).toMatchObject({ index: 0, status: 'playing' });
+  });
+
+  it('remembers which way the page turned', () => {
+    const forward = run(initialPlayerState(3), 'next', 'next');
+    expect(forward.direction).toBe('forward');
+    expect(run(forward, 'prev').direction).toBe('back');
+    const over = run(forward, 'next');
+    expect(over).toMatchObject({ status: 'ended', direction: 'forward' });
+    expect(run(over, 'prev').direction).toBe('back');
+    expect(run(over, 'toggle')).toMatchObject({ index: 0, status: 'playing', direction: 'forward' });
+  });
+
+  it('jumps to a scene, keeping play or pause, and ignores scenes that do not exist', () => {
+    const playing = run(initialPlayerState(5), 'toggle');
+    const jumped = playerReducer(playing, { type: 'goTo', index: 3 });
+    expect(jumped).toMatchObject({ index: 3, status: 'playing', run: 1, direction: 'forward' });
+    expect(playerReducer(jumped, { type: 'goTo', index: 1 })).toMatchObject({ index: 1, direction: 'back' });
+    for (const index of [-1, 5, 1.5]) expect(playerReducer(jumped, { type: 'goTo', index })).toBe(jumped);
+    const over = run(initialPlayerState(2), 'next', 'next');
+    expect(playerReducer(over, { type: 'goTo', index: 0 })).toMatchObject({ index: 0, status: 'paused' });
   });
 
   it('mutes and unmutes without touching playback', () => {

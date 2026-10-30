@@ -103,9 +103,11 @@ describe('story player without media', () => {
     for (let i = 0; i < story.scenes.length - 1; i += 1) fireEvent.click(q('story-next'));
     fireEvent.click(q('story-play'));
     advance(sceneMs(story, story.scenes.length - 1) + TICK_MS);
-    expect(q('story-ended').textContent).toBe('Hết truyện rồi!');
+    expect(q('story-ended').textContent).toContain('Mèo Miu chào bé nhé');
+    expect(q('story-scene-number').textContent).toBe('Hết truyện');
+    expect(q('story-end-shelf').getAttribute('href')).toBe('/tre-em');
     expect((q('story-next') as HTMLButtonElement).disabled).toBe(true);
-    fireEvent.click(q('story-play'));
+    fireEvent.click(q('story-replay'));
     expect(q('story-scene-number').textContent).toMatch(/^Cảnh 1\/8/);
     expect(document.querySelector('[data-id=story-ended]')).toBeNull();
   });
@@ -124,7 +126,7 @@ describe('story player mute', () => {
     expect(q('story-mute').getAttribute('aria-pressed')).toBe('false');
     fireEvent.click(q('story-mute'));
     expect(q('story-mute').getAttribute('aria-pressed')).toBe('true');
-    expect(q('story-mute').textContent).toBe('Bật tiếng');
+    expect(q('story-mute').getAttribute('aria-label')).toBe('Bật tiếng');
     pause.mockRestore();
   });
 });
@@ -151,5 +153,39 @@ describe('story player with media', () => {
     ]);
     expect(pause).toHaveBeenCalled();
     pause.mockRestore();
+  });
+});
+
+describe('story player keys and the end page', () => {
+  it('turns pages with the arrow keys and plays on Space', () => {
+    show();
+    fireEvent.keyDown(document.body, { key: 'ArrowRight' });
+    fireEvent.keyDown(document.body, { key: 'ArrowRight' });
+    expect(q('story-scene-number').textContent).toMatch(/^Cảnh 3\/8/);
+    fireEvent.keyDown(document.body, { key: 'ArrowLeft' });
+    expect(q('story-scene-number').textContent).toMatch(/^Cảnh 2\/8/);
+    fireEvent.keyDown(document.body, { key: ' ' });
+    expect(q('story-player').getAttribute('data-status')).toBe('playing');
+  });
+
+  it('lays the leaving page over the new one while it turns, then clears it', () => {
+    show();
+    fireEvent.click(q('story-next'));
+    expect(document.querySelector('.leaf--forward')).not.toBeNull();
+    advance(1300);
+    expect(document.querySelector('.leaf')).toBeNull();
+    fireEvent.click(q('story-prev'));
+    expect(document.querySelector('.leaf--back')).not.toBeNull();
+  });
+
+  it('closes on Escape when the page gave a way out', () => {
+    const onClose = vi.fn();
+    render(
+      <I18nProvider>
+        <StoryPlayer story={pilot()} onClose={onClose} />
+      </I18nProvider>,
+    );
+    fireEvent.keyDown(document.body, { key: 'Escape' });
+    expect(onClose).toHaveBeenCalledTimes(1);
   });
 });

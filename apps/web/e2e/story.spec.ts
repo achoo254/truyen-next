@@ -23,7 +23,13 @@ test('open the pilot story and step through it scene by scene', async ({ page })
   await expect(page).toHaveTitle(/^Sơn Tinh, Thủy Tinh · /);
   await expect(page.locator('[data-id=story-shelf]')).toHaveText('Kệ Trẻ em');
   await expect(page.locator('[data-id=story-back]')).toHaveAttribute('href', '/tre-em');
+  // The story's page, then the reader filling the screen: picture, subtitles and play in the first screenful.
+  await page.click('[data-id=story-open-reader]');
   await expect(page.locator('[data-id=story-no-media]')).toBeVisible();
+  for (const id of ['story-picture', 'story-subtitle-line', 'story-play']) {
+    const box = await page.locator(`[data-id=${id}]`).boundingBox();
+    expect(box && box.y + box.height).toBeLessThanOrEqual(page.viewportSize()?.height ?? 0);
+  }
   await expect(page.locator('[data-id=story-subtitle-line]')).toHaveText('Xin chào các bạn nhỏ! Mình là Mèo Miu đây.');
 
   // The scene clock runs on the browser timer: fast-forward it instead of waiting half a minute.
@@ -40,6 +46,17 @@ test('open the pilot story and step through it scene by scene', async ({ page })
   await expect(page.locator('[data-id=story-scene-number]')).toContainText('Cảnh 3/8');
   await page.click('[data-id=story-prev]');
   await expect(page.locator('[data-id=story-scene-number]')).toContainText('Cảnh 2/8');
+  await page.keyboard.press('ArrowRight');
+  await expect(page.locator('[data-id=story-scene-number]')).toContainText('Cảnh 3/8');
+  // A swipe to the left turns on.
+  const book = await page.locator('.book').boundingBox();
+  if (!book) throw new Error('no book');
+  const y = book.y + book.height / 2;
+  await page.mouse.move(book.x + book.width * 0.8, y);
+  await page.mouse.down();
+  await page.mouse.move(book.x + book.width * 0.2, y, { steps: 4 });
+  await page.mouse.up();
+  await expect(page.locator('[data-id=story-scene-number]')).toContainText('Cảnh 4/8');
   // No voice or music yet, so nothing to mute.
   await expect(page.locator('[data-id=story-mute]')).toHaveCount(0);
 
@@ -63,7 +80,9 @@ test('the home page shows the children\'s shelf first, then the adults\' shelf',
   await page.click('[data-id=story-open-su-tich-ho-guom]');
   await expect(page).toHaveURL(/\/truyen\/su-tich-ho-guom$/);
   await expect(page.locator('[data-id=story-shelf]')).toHaveText('Kệ Người lớn');
+  await page.click('[data-id=story-open-reader]');
   await expect(page.locator('[data-id=story-subtitle-line]')).toHaveText('Đầu thế kỷ mười lăm, giặc Minh sang chiếm nước ta.');
+  await page.keyboard.press('Escape');
   await page.click('[data-id=story-back]');
   await expect(page).toHaveURL(/\/nguoi-lon$/);
   await expect(page.locator('[data-id=shelf-kids]')).toHaveCount(0);
