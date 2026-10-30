@@ -1,0 +1,41 @@
+/*
+ * Design tokens of the web app, its only colour source (pnpm check:tokens and check-brand refuse colour literals
+ * anywhere else, and check every text/background pair against WCAG AA). One look: a calm night-time storybook,
+ * deep indigo with warm lamp-gold accents, no light/dark switch.
+ */
+:root {
+  --c-bg: #14122b;
+  --c-surface: #1f1c3d;
+  --c-surface-raised: #2a2650;
+  --c-topbar: #100e24;
+  --c-text: #f6efe2;
+  --c-text-muted: #c4bcd8;
+  --c-primary: #f2b866;
+  --c-primary-solid: #f2b866;
+  --c-primary-solid-hover: #f6c985;
+  --c-on-primary: #1a1430;
+  --c-error: #ffa3a3;
+  --c-border: #3d3864;
+  --c-border-strong: #8a82b0;
+  --c-focus: #f2b866;
+  /* The plain backdrop shown while a scene has no picture: a quiet night gradient, no drawing. */
+  --c-stage-top: #2a2650;
+  --c-stage-bottom: #14122b;
+  --c-subtitle-bg: #0d0b1f;
+
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 999px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --container: 960px;
+  --topbar-h: 60px;
+  --dur-base: 200ms;
+}
