@@ -1140,7 +1140,6 @@ html.reading .main {
 }
 
 .reader {
-  --turn: var(--turn-phone);
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
@@ -2030,7 +2029,7 @@ html.reading .main {
 }
 
 /* The last spread. */
-.spread--end .page--end-mark {
+.page--end-mark {
   flex: 1 1 auto;
   display: flex;
   align-items: center;
@@ -2165,94 +2164,117 @@ html.reading .main {
   font-weight: 700;
 }
 
-/* The page turn. The leaf is a still copy of the page that is leaving, laid over the new one. Phones: the old
-   page slides off to the side as its edge rolls up. Spreads: the right page swings over the spine (forward), or
-   the left page swings back. Only transform, clip-path and opacity move. */
+/* The turning book (flip-book.tsx, page-flip in HTML mode). The library positions, clips and shades the page
+   elements by script (CSSOM, allowed by the CSP); these are its own rules, which it would otherwise inject as an
+   inline <style> (vite-page-flip.ts strips that). */
+.flip-host {
+  position: relative;
+  width: min(100%, 520px);
+  height: 100%;
+}
+
+.flip-root {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  /* The library sets a minimum size by script; the host decides the size. */
+  min-width: 0 !important;
+  min-height: 0 !important;
+  transform: translateZ(0);
+  touch-action: pan-y;
+}
+
+.stf__wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.stf__block {
+  position: absolute;
+  inset: 0;
+  perspective: 2000px;
+}
+
+.stf__item {
+  display: none;
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+.stf__outerShadow,
+.stf__innerShadow,
+.stf__hardShadow,
+.stf__hardInnerShadow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+/* A page: paper the curl clips, with one face of content filling it. */
+.flip-page {
+  background: var(--c-page);
+}
+
+/* A page at rest sits on the stack of pages under it; a moving page gets the library's shadows instead. */
+.flip-page.--simple {
+  box-shadow: var(--shadow-book);
+}
+
+.flip-face {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1.5px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+/* The two pages of a spread meet at the fold, shaded on each side of it. */
+.flip-page[data-side='left'] .flip-face {
+  border-right: 0;
+  border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+}
+
+.flip-page[data-side='right'] .flip-face {
+  border-left: 0;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.flip-page[data-side] .flip-face::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 48px;
+  background: var(--shadow-spine);
+  pointer-events: none;
+}
+
+.flip-page[data-side='left'] .flip-face::after {
+  right: -24px;
+}
+
+.flip-page[data-side='right'] .flip-face::after {
+  left: -24px;
+}
+
+/* The still book (reduced motion): the page that is leaving fades out over the new one. */
 .leaf {
   position: absolute;
   inset: 0;
   display: flex;
   justify-content: center;
   pointer-events: none;
-  animation: leaf-life var(--turn) linear forwards;
+  animation: fade-away 150ms linear forwards;
 }
 
 .leaf .spread {
   box-shadow: none;
-}
-
-.leaf--forward .spread {
-  animation: peel-forward var(--turn) var(--ease-turn) forwards;
-}
-
-.leaf--back .spread {
-  animation: peel-back var(--turn) var(--ease-turn) forwards;
-}
-
-@keyframes leaf-life {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes peel-forward {
-  from {
-    transform: none;
-    clip-path: inset(0 0 0 0);
-  }
-
-  to {
-    transform: translateX(-12%);
-    clip-path: inset(0 100% 0 0);
-  }
-}
-
-@keyframes peel-back {
-  from {
-    transform: none;
-    clip-path: inset(0 0 0 0);
-  }
-
-  to {
-    transform: translateX(12%);
-    clip-path: inset(0 0 0 100%);
-  }
-}
-
-@keyframes swing-forward {
-  from {
-    transform: rotateY(0deg);
-  }
-
-  to {
-    transform: rotateY(-180deg);
-  }
-}
-
-@keyframes swing-back {
-  from {
-    transform: rotateY(0deg);
-  }
-
-  to {
-    transform: rotateY(180deg);
-  }
-}
-
-@keyframes gone-at-half {
-  0%,
-  49% {
-    opacity: 1;
-  }
-
-  50%,
-  100% {
-    opacity: 0;
-  }
 }
 
 @keyframes fade-away {
@@ -2267,7 +2289,6 @@ html.reading .main {
 
 @media (min-width: 880px) {
   .reader {
-    --turn: var(--turn-spread);
     gap: var(--space-3);
     padding-left: calc(env(safe-area-inset-left, 0px) + var(--space-6));
     padding-right: calc(env(safe-area-inset-right, 0px) + var(--space-6));
@@ -2284,11 +2305,15 @@ html.reading .main {
     align-items: center;
   }
 
+  .flip-host {
+    width: min(100%, 1100px);
+    height: min(100%, 760px);
+  }
+
   .spread {
     flex-direction: row;
     width: min(100%, 1100px);
     height: min(100%, 760px);
-    perspective: 2200px;
   }
 
   .page {
@@ -2328,81 +2353,8 @@ html.reading .main {
     pointer-events: none;
   }
 
-  .end-miu {
-  width: clamp(72px, 14vh, 140px);
-  height: auto;
-}
-
-/* Mèo Miu waves twice, then rests. */
-.end-miu .miu-wave {
-  transform-box: fill-box;
-  transform-origin: 20% 100%;
-  animation: miu-wave 700ms var(--ease) 2 alternate;
-}
-
-@keyframes miu-wave {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(-14deg);
-  }
-}
-
-.end-mark-word {
+  .end-mark-word {
     font-size: 4.6rem;
-  }
-
-  /* The leaf's spread is only a frame: each page carries its own paper so the page underneath shows round it. */
-  .leaf .spread {
-    background: transparent;
-    border-color: transparent;
-    animation: none;
-  }
-
-  .leaf .spread::after {
-    display: none;
-  }
-
-  .leaf .page {
-    background: var(--c-page);
-  }
-
-  .leaf--forward .page:last-child {
-    transform-origin: left center;
-    animation: swing-forward var(--turn) var(--ease-swing) forwards;
-  }
-
-  .leaf--forward .page:first-child,
-  .leaf--back .page:last-child {
-    animation: gone-at-half var(--turn) linear forwards;
-  }
-
-  .leaf--back .page:first-child {
-    transform-origin: right center;
-    animation: swing-back var(--turn) var(--ease-swing) forwards;
-  }
-
-  /* The turning page's print vanishes as it passes the spine; its paper lands on the other side, then lifts away. */
-  .leaf--forward .page:last-child > *,
-  .leaf--back .page:first-child > * {
-    animation: gone-at-half var(--turn) linear forwards;
-  }
-
-  .leaf {
-    animation-name: leaf-land;
-  }
-
-  @keyframes leaf-land {
-    0%,
-    85% {
-      opacity: 1;
-    }
-
-    100% {
-      opacity: 0;
-    }
   }
 }
 
@@ -2428,18 +2380,6 @@ html.reading .main {
   .icon-btn,
   .play-btn {
     transition: none;
-  }
-
-  /* No turning or sliding: the old page fades out. */
-  .leaf,
-  .leaf .spread,
-  .leaf .page,
-  .leaf .page > * {
-    animation: none;
-  }
-
-  .leaf {
-    animation: fade-away 150ms linear forwards;
   }
 
   .end-miu .miu-wave,

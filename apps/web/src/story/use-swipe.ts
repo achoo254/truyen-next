@@ -7,7 +7,7 @@ export const SWIPE_MIN_SPEED = 0.3;
 /** A tap within this share of the page's left or right edge turns back or on (when edge taps are on). */
 export const EDGE_SHARE = 0.2;
 /** Movement under this is a tap, not a swipe. */
-const TAP_MAX_PX = 10;
+export const TAP_MAX_PX = 10;
 
 export type SwipeResult = 'next' | 'prev' | null;
 

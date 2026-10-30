@@ -4,6 +4,7 @@ import { MeoMiu } from '../art/meo-miu';
 import { StoryCover } from '../art/story-cover';
 import { useI18n } from '../i18n/i18n';
 import { fetchStoryList, shelfPath, storyPath } from './story-api';
+import type { PlacePages } from './flip-book';
 import { useLoad } from './use-load';
 
 /** How many stories the last page suggests. */
@@ -51,38 +52,45 @@ function NextStories({ story }: { story: Story }): ReactNode {
 
 interface EndPageProps {
   story: Story;
-  /** A still copy on a turning leaf: no list fetch, nothing to press. */
+  /** A still copy (on a page next to the one on show, or a fading leaf): no list fetch, nothing announced. */
   copy?: boolean;
+  /** Lays the two halves in the book; by default one spread of its own. */
+  place?: PlacePages;
 }
+
+const ownSpread: PlacePages = (first, second) => (
+  <div className="spread spread--end">
+    {first}
+    {second}
+  </div>
+);
 
 /**
  * The last spread: "Hết" carved in a woodblock frame (Mèo Miu waves goodbye on the children's shelf), two stories
  * to go on with and the way back to the shelf; "play again" is the reader's big button. Never starts another story
  * by itself.
  */
-export function EndPage({ story, copy = false }: EndPageProps): ReactNode {
+export function EndPage({ story, copy = false, place = ownSpread }: EndPageProps): ReactNode {
   const { t } = useI18n();
   const shelf = t(`shelf.${story.shelf}`);
-  return (
-    <div className="spread spread--end" data-id={copy ? undefined : 'story-ended'}>
-      <div className="page page--end-mark">
-        <div className="end-mark">
-          {story.shelf === 'kids' && <MeoMiu waving className="end-miu" />}
-          <p className="end-mark-word">{t('story.endWord')}</p>
-          <p className="end-mark-line" role={copy ? undefined : 'status'}>
-            {t(`story.ended.${story.shelf}`)}
-          </p>
-        </div>
+  return place(
+    <div className="page page--end-mark" data-id={copy ? undefined : 'story-ended'}>
+      <div className="end-mark">
+        {story.shelf === 'kids' && <MeoMiu waving className="end-miu" />}
+        <p className="end-mark-word">{t('story.endWord')}</p>
+        <p className="end-mark-line" role={copy ? undefined : 'status'}>
+          {t(`story.ended.${story.shelf}`)}
+        </p>
       </div>
-      <div className="page page--end-actions">
-        <h2 className="end-title" lang="vi">
-          {story.title}
-        </h2>
-        {!copy && <NextStories story={story} />}
-        <a className="end-shelf" href={shelfPath(story.shelf)} data-id={copy ? undefined : 'story-end-shelf'}>
-          {t('story.backToShelf', { shelf })}
-        </a>
-      </div>
-    </div>
+    </div>,
+    <div className="page page--end-actions">
+      <h2 className="end-title" lang="vi">
+        {story.title}
+      </h2>
+      {!copy && <NextStories story={story} />}
+      <a className="end-shelf" href={shelfPath(story.shelf)} data-id={copy ? undefined : 'story-end-shelf'}>
+        {t('story.backToShelf', { shelf })}
+      </a>
+    </div>,
   );
 }

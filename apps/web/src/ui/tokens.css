@@ -171,12 +171,8 @@
   --dur-base: 200ms;
   --dur-sheet: 240ms;
   --ease: cubic-bezier(0.3, 0.7, 0.4, 1);
-  /* the page turn: the only large movement on the site */
-  --turn-phone: 450ms;
-  --turn-spread: 650ms;
+  /* the options sheet rising (the page turn itself is page-flip's, timed in flip-book.tsx) */
   --ease-turn: cubic-bezier(0.25, 1, 0.5, 1);
-  /* symmetric, so a swinging page is edge-on to the reader exactly half way through */
-  --ease-swing: cubic-bezier(0.45, 0, 0.55, 1);
 }
 
 /*

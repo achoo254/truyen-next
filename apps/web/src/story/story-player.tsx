@@ -20,11 +20,25 @@ import { LightsSwitch } from '../ui/lights-switch';
 import { useLights } from '../ui/lights';
 import { SceneBackdrop } from './scene-backdrop';
 import { ScenePicker } from './scene-picker';
+import { type BookView, FlipBook, type PlacePages } from './flip-book';
+import { spreadCount, storySpread } from './book-pages';
+import { useMediaQuery } from '../ui/use-media-query';
 
 /** Music sits under the voice. */
 const MUSIC_VOLUME = 0.25;
-/** Longest page turn (CSS: --turn-slow); the leaf is cleared after it even if no animation event arrives. */
-const TURN_SAFETY_MS = 1200;
+/** The fading leaf of the still book (reduced motion) is cleared after this even if no animation event arrives. */
+const TURN_SAFETY_MS = 400;
+/** From this width the book opens as a two-page spread (app.css uses the same breakpoint). */
+const SPREAD_QUERY = '(min-width: 880px)';
+const REDUCED_MOTION_QUERY = '(prefers-reduced-motion: reduce)';
+
+/** The still book (reduced motion): a scene as one open spread of its own. */
+const sceneSpread: PlacePages = (picture, text) => (
+  <div className="spread" data-id="story-stage">
+    {picture}
+    {text}
+  </div>
+);
 
 /** Plays or pauses a media element with the story; a refused play() (autoplay rules) is reported, not thrown. */
 function useMediaPlayback(ref: RefObject<HTMLMediaElement | null>, playing: boolean, onRefused?: () => void): void {
@@ -92,22 +106,23 @@ function TextPage({ label, line, live, progress, hideLine = false }: { label: st
 interface SceneViewProps {
   story: Story;
   scene: Scene;
-  status: PlayStatus;
+  /** The story plays and the book is at rest: the voice, motion and clock run. */
+  playing: boolean;
   muted: boolean;
   rate: Rate;
   /** False only when the reader turned subtitles off and the scene has a voice to follow. */
   showLine: boolean;
   onEnded: () => void;
   onLine: (line: string) => void;
+  place: PlacePages;
 }
 
 /**
- * One scene as an open spread: the picture page and the text page, and the clock: the recorded voice when there
- * is one, otherwise a timer of the estimated reading time.
+ * The scene being read: the picture page and the text page (laid in the book by `place`), and the clock: the
+ * recorded voice when there is one, otherwise a timer of the estimated reading time.
  */
-function SceneView({ story, scene, status, muted, rate, showLine, onEnded, onLine }: SceneViewProps): ReactNode {
+function SceneView({ story, scene, playing, muted, rate, showLine, onEnded, onLine, place }: SceneViewProps): ReactNode {
   const media = sceneMedia(story.slug, scene);
-  const playing = status === 'playing';
   const [voiceFailed, setVoiceFailed] = useState(false);
   const useVoice = media.voice !== undefined && !voiceFailed;
   const [voiceProgress, setVoiceProgress] = useState(0);
@@ -131,8 +146,11 @@ function SceneView({ story, scene, status, muted, rate, showLine, onEnded, onLin
   }, [rate, useVoice]);
 
   return (
-    <div className="spread" data-id="story-stage">
-      <PicturePage story={story} scene={scene} videoRef={videoRef} />
+    <>
+      {place(
+        <PicturePage story={story} scene={scene} videoRef={videoRef} />,
+        <TextPage label={label} line={line} live progress={progress} hideLine={!(showLine || !useVoice)} />,
+      )}
       {useVoice && (
         // Captioned on the page: the text page shows the line being read, always.
         // eslint-disable-next-line jsx-a11y/media-has-caption
@@ -148,8 +166,7 @@ function SceneView({ story, scene, status, muted, rate, showLine, onEnded, onLin
           onError={() => setVoiceFailed(true)}
         />
       )}
-      <TextPage label={label} line={line} live progress={progress} hideLine={!(showLine || !useVoice)} />
-    </div>
+    </>
   );
 }
 
@@ -162,15 +179,18 @@ interface Turn {
   direction: TurnDirection;
 }
 
-/** A static copy of the page that is turning away, laid over the new one until its animation ends. */
-function LeafScene({ story, scene, line }: { story: Story; scene: Scene; line: string }): ReactNode {
+interface StaticSceneProps {
+  story: Story;
+  scene: Scene;
+  line: string;
+  progress: number;
+  place: PlacePages;
+}
+
+/** A still copy of a scene: the page turning away, or one waiting next to the page on show. */
+function StaticScene({ story, scene, line, progress, place }: StaticSceneProps): ReactNode {
   const label = useNarratorLabel(story, scene);
-  return (
-    <div className="spread">
-      <PicturePage story={story} scene={scene} />
-      <TextPage label={label} line={line} live={false} progress={1} />
-    </div>
-  );
+  return place(<PicturePage story={story} scene={scene} />, <TextPage label={label} line={line} live={false} progress={progress} />);
 }
 
 function Leaf({ story, turn, onDone }: { story: Story; turn: Turn; onDone: (id: number) => void }): ReactNode {
@@ -190,7 +210,7 @@ function Leaf({ story, turn, onDone }: { story: Story; turn: Turn; onDone: (id: 
       }}
     >
       {scene && from.kind === 'scene' ? (
-        <LeafScene story={story} scene={scene} line={from.line} />
+        <StaticScene story={story} scene={scene} line={from.line} progress={1} place={(picture, text) => <div className="spread">{picture}{text}</div>} />
       ) : (
         <EndPage story={story} copy />
       )}
@@ -198,7 +218,10 @@ function Leaf({ story, turn, onDone }: { story: Story; turn: Turn; onDone: (id: 
   );
 }
 
-/** The leaf to show while the page key (scene or end) changes; cleared when its animation ends. */
+/**
+ * The page that just turned away (scene or end) and the line it showed: the still book fades it out as a leaf over
+ * the new page, the turning book keeps it as the static copy under the curl.
+ */
 function usePageTurn(state: PlayerState, line: string): [Turn | null, (id: number) => void] {
   const pageKey = state.status === 'ended' ? 'end' : `${state.index}`;
   const [turn, setTurn] = useState<Turn | null>(null);
@@ -319,6 +342,14 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
   const noMedia = storyHasNoMedia(story);
   const hasVoice = story.scenes.some((each) => each.voice.file !== undefined);
   const [turn, turnDone] = usePageTurn(state, line);
+  // Pages curl (page-flip) unless the reader asked for less motion; then the old page fades out over the new one.
+  const curl = useMediaQuery(REDUCED_MOTION_QUERY) === false;
+  const layout = useMediaQuery(SPREAD_QUERY) === true ? 'spread' : 'single';
+  const target = storySpread(state);
+  const [bookView, setBookView] = useState<BookView>(() => ({ shown: target, busy: false }));
+  const onBookView = useCallback((view: BookView) => setBookView((current) => (current.shown === view.shown && current.busy === view.busy ? current : view)), []);
+  // The scene's voice, motion and clock wait while a page is held or turning, and go on once the book is at rest.
+  const settled = !curl || (bookView.shown === target && !bookView.busy);
   const fullscreen = useFullscreen(readerRef);
   const sleep = useSleep(state.status, pause, readerRef);
   useMediaPlayback(musicRef, playing);
@@ -385,6 +416,30 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
 
   if (!scene) return null;
   const isFirst = state.index === 0;
+  const liveScene = (place: PlacePages): ReactNode => (
+    <SceneView
+      key={`${state.index}-${state.run}`}
+      story={story}
+      scene={scene}
+      playing={playing && settled}
+      muted={state.muted}
+      rate={prefs.rate}
+      showLine={prefs.subtitles}
+      onEnded={onEnded}
+      onLine={setLine}
+      place={place}
+    />
+  );
+  /** A spread of the turning book: the live scene or last page, or a still copy of one next to it. */
+  const renderSpread = (spread: number, place: PlacePages): ReactNode => {
+    if (spread === story.scenes.length) return <EndPage story={story} copy={!ended} place={place} />;
+    if (spread === state.index && !ended) return liveScene(place);
+    const still = story.scenes[spread];
+    if (!still) return null;
+    // The page just left keeps the words it showed; the others open on their first line.
+    const left = turn?.from.kind === 'scene' && turn.from.index === spread ? turn.from : null;
+    return <StaticScene key={`still-${spread}`} story={story} scene={still} line={left?.line ?? still.subtitles[0] ?? ''} progress={left ? 1 : 0} place={place} />;
+  };
   const playLabel = playing ? t('story.pause') : state.status === 'idle' ? t('story.start') : ended ? t('story.replay') : t('story.resume');
   const sceneCount = story.scenes.length;
 
@@ -398,6 +453,8 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
       data-text={prefs.textSize}
       data-sleep={sleep.phase}
       data-scene={readingSceneId}
+      data-book={curl ? 'turning' : 'still'}
+      data-settled={settled}
     >
       <SceneBackdrop id={readingSceneId} lightsOff={lightsOff} />
       <header className="reader-bar">
@@ -433,24 +490,24 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
         )}
       </header>
 
-      <div className="book" data-turning={turn ? turn.direction : undefined} {...swipe}>
-        {ended ? (
-          <EndPage story={story} />
-        ) : (
-          <SceneView
-            key={`${state.index}-${state.run}`}
-            story={story}
-            scene={scene}
-            status={state.status}
-            muted={state.muted}
-            rate={prefs.rate}
-            showLine={prefs.subtitles}
-            onEnded={onEnded}
-            onLine={setLine}
+      {curl ? (
+        <div className="book">
+          <FlipBook
+            layout={layout}
+            spreads={spreadCount(sceneCount)}
+            target={target}
+            edgeTaps={story.shelf === 'adults'}
+            onTurn={turnTo}
+            onView={onBookView}
+            renderSpread={renderSpread}
           />
-        )}
-        {turn && <Leaf key={turn.id} story={story} turn={turn} onDone={turnDone} />}
-      </div>
+        </div>
+      ) : (
+        <div className="book" {...swipe}>
+          {ended ? <EndPage story={story} /> : liveScene(sceneSpread)}
+          {turn && <Leaf key={turn.id} story={story} turn={turn} onDone={turnDone} />}
+        </div>
+      )}
 
       {/* Instrumental, no words to caption. */}
       {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
