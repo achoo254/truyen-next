@@ -8,7 +8,13 @@ afterEach(() => window.localStorage.clear());
 describe('reader preferences', () => {
   it('keeps valid fields and falls back for the rest', () => {
     expect(parsePrefs(null)).toEqual(DEFAULT_PREFS);
-    expect(parsePrefs({ autoTurn: false, textSize: 'l', rate: 1.25, subtitles: false })).toEqual({ autoTurn: false, textSize: 'l', rate: 1.25, subtitles: false });
+    expect(parsePrefs({ autoTurn: false, textSize: 'l', rate: 1.25, subtitles: false, scenes: { kids: 'giuong-ngu', adults: 'nope' } })).toEqual({
+      autoTurn: false,
+      textSize: 'l',
+      rate: 1.25,
+      subtitles: false,
+      scenes: { kids: 'giuong-ngu', adults: 'ban-go' },
+    });
     expect(parsePrefs({ autoTurn: 'no', textSize: 'xl', rate: 3, subtitles: 1 })).toEqual(DEFAULT_PREFS);
   });
 });

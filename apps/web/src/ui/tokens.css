@@ -76,6 +76,48 @@
   --c-cover-6-a: #b8401f;
   --c-cover-6-b: #ecc35c;
 
+  /* reading scenes drawn in CSS until the paintings come (app.css .backdrop--*): flat fields, one woodcut
+     pattern, one light, one prop. Night scenes keep their night colours in both looks. */
+  --c-bd-wood: #8a5a32;
+  --c-bd-wood-night: #3d2715;
+  --c-bd-quilt: #7a3a2c;
+  --c-bd-night-sky: #1d2433;
+  --c-bd-grass: #6f8f45;
+  --c-bd-weave: #c9a36b;
+  --c-bd-rain: #55606a;
+  --c-bd-rain-night: #262c33;
+  --c-bd-pond: #4f7d6a;
+  --c-bd-lamp: #f0b43c;
+  --c-bd-moon: #f3e3b0;
+  --c-bd-prop-dark: #3b2414;
+  --c-bd-prop-leaf: #2f5222;
+  --c-bd-prop-red: #b8401f;
+  --c-bd-prop-lotus: #e7a08a;
+  --c-backdrop-dim: rgb(10 7 4 / 0.4);
+  --bd-glow-window: radial-gradient(circle at 12% 6%, rgb(255 236 190 / 0.5), transparent 45%);
+  --bd-glow-lamp: radial-gradient(circle at 90% 10%, rgb(240 180 60 / 0.5), transparent 42%);
+  --bd-glow-moonlamp: radial-gradient(circle at 10% 10%, rgb(240 180 60 / 0.42), transparent 40%);
+  --bd-glow-moon: radial-gradient(circle at 88% 10%, rgb(243 227 176 / 0.32), transparent 38%);
+  --bd-glow-sun: radial-gradient(circle at 88% 4%, rgb(255 230 160 / 0.4), transparent 50%);
+  --bd-wood-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='120'%3E%3Cpath d='M0 20q40-8 80 0t80 0M0 52q40 10 80 0t80 0M0 86q40-6 80 2t80-2M30 70q14-8 24 0q-10 8-24 0z' fill='none' stroke='%236f4626' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  --bd-wood-grain-night: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='120'%3E%3Cpath d='M0 20q40-8 80 0t80 0M0 52q40 10 80 0t80 0M0 86q40-6 80 2t80-2M30 70q14-8 24 0q-10 8-24 0z' fill='none' stroke='%232c1b0d' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  --bd-quilt-lotus: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72'%3E%3Cpath d='M36 22c6 6 6 14 0 20c-6-6-6-14 0-20zM36 42c-8-2-14-8-14-14c8 0 14 6 14 14zM36 42c8-2 14-8 14-14c-8 0-14 6-14 14z' fill='%23944a39'/%3E%3Ccircle cx='0' cy='0' r='3' fill='%23944a39'/%3E%3Ccircle cx='72' cy='72' r='3' fill='%23944a39'/%3E%3C/svg%3E");
+  --bd-stars: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='%23e9d9a8'%3E%3Ccircle cx='12' cy='18' r='1.4'/%3E%3Ccircle cx='70' cy='8' r='1'/%3E%3Ccircle cx='118' cy='30' r='1.6'/%3E%3Ccircle cx='40' cy='64' r='1'/%3E%3Ccircle cx='96' cy='78' r='1.3'/%3E%3Ccircle cx='20' cy='110' r='1.1'/%3E%3Ccircle cx='128' cy='120' r='1'/%3E%3Cpath d='M64 104l2 5 5 2-5 2-2 5-2-5-5-2 5-2z'/%3E%3C/g%3E%3C/svg%3E");
+  --bd-grass-blades: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='70'%3E%3Cpath d='M10 60q2-10 0-18M14 60q4-8 8-12M52 30q2-10 0-18M56 30q4-8 8-12M70 66q-2-8-6-12' fill='none' stroke='%235b7a37' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  --bd-weave: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M0 6h12M12 18h12M6 0v12M18 12v12' stroke='%23b38c55' stroke-width='3'/%3E%3C/svg%3E");
+  --bd-rain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='80'%3E%3Cpath d='M10 4l-4 14M34 30l-4 14M52 8l-4 14M20 52l-4 14M46 60l-4 14' stroke='%23778390' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  --bd-rain-night: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='80'%3E%3Cpath d='M10 4l-4 14M34 30l-4 14M52 8l-4 14M20 52l-4 14M46 60l-4 14' stroke='%233d4650' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  --bd-ripples: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='90'%3E%3Cpath d='M10 30q15-10 30 0M70 70q15-10 30 0M80 20q10-7 20 0M20 76q10-7 20 0' fill='none' stroke='%2363917d' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  /* props: masks, painted in their --c-bd-* colour */
+  --prop-teapot: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M30 40h40c6 0 10 6 10 14c0 16-12 26-30 26S20 70 20 54c0-8 4-14 10-14zM44 30h12v10H44zM80 50c8-4 14 0 12 8l-10 8zM20 52c-6-2-10 2-10 8l8 6z'/%3E%3Cpath d='M74 84h20v6H74z'/%3E%3C/svg%3E");
+  --prop-lamp: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 8c8 10 10 18 4 26c-2 3-6 3-8 0c-6-8-4-16 4-26zM30 42h40l-6 16H36zM44 58h12v16H44zM30 74h40v8H30z'/%3E%3C/svg%3E");
+  --prop-crescent: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M66 12A40 40 0 1 0 88 72A32 32 0 1 1 66 12z'/%3E%3C/svg%3E");
+  --prop-full-moon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='38'/%3E%3C/svg%3E");
+  --prop-banyan: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M0 0h100v24c-10 10-24 8-30 0c-8 10-22 12-30 2c-10 8-26 8-40-4z'/%3E%3Cpath d='M30 20v40M32 20v52M60 22v34M74 18v44' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E");
+  --prop-fan: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 84L12 40a54 54 0 0 1 76 0z'/%3E%3Cpath d='M48 84h4v14h-4z'/%3E%3C/svg%3E");
+  --prop-jar: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M38 14h24v10c14 6 22 18 22 34c0 20-14 32-34 32S16 78 16 58c0-16 8-28 22-34z'/%3E%3C/svg%3E");
+  --prop-lotus: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 20c10 12 12 28 0 44c-12-16-10-32 0-44zM50 64c-16-2-28-14-30-30c16 2 28 14 30 30zM50 64c16-2 28-14 30-30c-16 2-28 14-30 30zM50 64c-22 4-36-2-44-12c14-2 30 2 44 12zM50 64c22 4 36-2 44-12c-14-2-30 2-44 12z'/%3E%3C/svg%3E");
+
   /* the footer: an ink band under a row of wave crests */
   --c-foot: #2f1d0f;
   --c-foot-text: #f3e8d0;

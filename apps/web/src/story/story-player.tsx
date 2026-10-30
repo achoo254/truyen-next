@@ -17,6 +17,9 @@ import { forgetProgress, saveProgress } from './reading-progress';
 import { fadeShare, minutesLeft, type SleepOption, sleepDeadline } from './sleep-timer';
 import { storyPath } from './story-api';
 import { LightsSwitch } from '../ui/lights-switch';
+import { useLights } from '../ui/lights';
+import { SceneBackdrop } from './scene-backdrop';
+import { ScenePicker } from './scene-picker';
 
 /** Music sits under the voice. */
 const MUSIC_VOLUME = 0.25;
@@ -297,6 +300,8 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
     return { ...start, index };
   });
   const [prefs, updatePrefs] = useReaderPrefs();
+  const lightsOff = useLights() === 'off';
+  const readingSceneId = prefs.scenes[story.shelf];
   const scene = story.scenes[state.index];
   const readerRef = useRef<HTMLElement>(null);
   const musicRef = useRef<HTMLAudioElement>(null);
@@ -392,7 +397,9 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
       data-status={state.status}
       data-text={prefs.textSize}
       data-sleep={sleep.phase}
+      data-scene={readingSceneId}
     >
+      <SceneBackdrop id={readingSceneId} lightsOff={lightsOff} />
       <header className="reader-bar">
         {onClose && (
           <button type="button" className="icon-btn icon-btn--flat" onClick={onClose} aria-label={t('story.close')} data-id="story-close">
@@ -414,19 +421,17 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
           </p>
         </div>
         <LightsSwitch className="icon-btn icon-btn--flat" dataId="reader-lights" />
+        <button type="button" className="reader-progress" onClick={() => setScenesOpen(true)} aria-label={t('story.progress')} data-id="story-progress">
+          {story.scenes.map((each, i) => (
+            <span key={each.id} className="reader-progress-step" data-state={ended || i < state.index ? 'done' : i === state.index ? 'now' : 'next'} />
+          ))}
+        </button>
+        {noMedia && (
+          <p className="player-note" data-id="story-no-media">
+            {t(`story.noMedia.${story.shelf}`)}
+          </p>
+        )}
       </header>
-
-      <button type="button" className="reader-progress" onClick={() => setScenesOpen(true)} aria-label={t('story.progress')} data-id="story-progress">
-        {story.scenes.map((each, i) => (
-          <span key={each.id} className="reader-progress-step" data-state={ended || i < state.index ? 'done' : i === state.index ? 'now' : 'next'} />
-        ))}
-      </button>
-
-      {noMedia && (
-        <p className="player-note" data-id="story-no-media">
-          {t(`story.noMedia.${story.shelf}`)}
-        </p>
-      )}
 
       <div className="book" data-turning={turn ? turn.direction : undefined} {...swipe}>
         {ended ? (
@@ -500,7 +505,9 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
           setSheetOpen(false);
           setScenesOpen(true);
         }}
-      />
+      >
+        <ScenePicker value={readingSceneId} lightsOff={lightsOff} onChange={(id) => updatePrefs({ scenes: { ...prefs.scenes, [story.shelf]: id } })} />
+      </ReaderSheet>
       <SceneIndex story={story} current={state.index} open={scenesOpen} onClose={() => setScenesOpen(false)} onPick={(index) => dispatch({ type: 'goTo', index })} />
 
       {sleep.phase !== 'awake' && (

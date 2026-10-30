@@ -953,11 +953,247 @@ html.reading .main {
   background-image: var(--paper-texture);
 }
 
+/* The reader's chrome is one paper card, so no word ever sits on the backdrop. */
 .reader-bar {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: var(--space-2);
+  gap: 0 var(--space-2);
   min-height: var(--tap);
+  padding: var(--space-1) var(--space-2) var(--space-2);
+  border: 1.5px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  background: var(--c-surface);
+  box-shadow: var(--lift);
+}
+
+.reader-bar .reader-progress,
+.reader-bar .player-note {
+  flex-basis: 100%;
+}
+
+/* The place around the book (scene-backdrop.tsx): a painting once drawn, a CSS sketch until then. */
+.reader {
+  position: relative;
+  isolation: isolate;
+}
+
+.reader > :not(.backdrop) {
+  position: relative;
+  z-index: 1;
+  flex: none;
+}
+
+.reader > .book {
+  flex: 1 1 auto;
+}
+
+.backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background-color: var(--bd-field, var(--c-bg));
+  background-image: var(--bd-pattern, none);
+}
+
+/* The light of the window, lamp or moon, on its own layer so it can breathe by opacity alone. */
+.backdrop::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--bd-glow, none);
+}
+
+.backdrop-picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.backdrop-prop {
+  position: absolute;
+  top: 6%;
+  right: 4%;
+  width: clamp(56px, 13vmin, 150px);
+  aspect-ratio: 1;
+  background: var(--bd-prop-colour, transparent);
+  -webkit-mask: var(--bd-prop, none) no-repeat center / contain;
+  mask: var(--bd-prop, none) no-repeat center / contain;
+}
+
+/* A day scene read with the lights off: dimmed like the room. */
+:root[data-theme='dark'] .backdrop[data-mood='day']::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--c-backdrop-dim);
+}
+
+.backdrop--giay-tron {
+  --bd-field: var(--c-bg);
+  --bd-pattern: var(--paper-texture);
+}
+
+.backdrop--ban-go {
+  --bd-field: var(--c-bd-wood);
+  --bd-pattern: var(--bd-wood-grain);
+  --bd-glow: var(--bd-glow-window);
+  --bd-prop: var(--prop-teapot);
+  --bd-prop-colour: var(--c-bd-prop-dark);
+}
+
+.backdrop--ban-go[data-mood='night'] {
+  --bd-field: var(--c-bd-wood-night);
+  --bd-pattern: var(--bd-wood-grain-night);
+  --bd-glow: var(--bd-glow-lamp);
+  --bd-prop: var(--prop-lamp);
+  --bd-prop-colour: var(--c-bd-lamp);
+}
+
+.backdrop--giuong-ngu {
+  --bd-field: var(--c-bd-quilt);
+  --bd-pattern: var(--bd-quilt-lotus);
+  --bd-glow: var(--bd-glow-moonlamp);
+  --bd-prop: var(--prop-crescent);
+  --bd-prop-colour: var(--c-bd-lamp);
+}
+
+.backdrop--giuong-ngu .backdrop-prop {
+  right: auto;
+  left: 4%;
+}
+
+.backdrop--san-dinh-trang {
+  --bd-field: var(--c-bd-night-sky);
+  --bd-pattern: var(--bd-stars);
+  --bd-glow: var(--bd-glow-moon);
+  --bd-prop: var(--prop-full-moon);
+  --bd-prop-colour: var(--c-bd-moon);
+}
+
+.backdrop--goc-da {
+  --bd-field: var(--c-bd-grass);
+  --bd-pattern: var(--bd-grass-blades);
+  --bd-glow: var(--bd-glow-sun);
+  --bd-prop: var(--prop-banyan);
+  --bd-prop-colour: var(--c-bd-prop-leaf);
+}
+
+.backdrop--goc-da .backdrop-prop {
+  top: 0;
+  width: clamp(80px, 22vmin, 240px);
+}
+
+.backdrop--vong-hien {
+  --bd-field: var(--c-bd-weave);
+  --bd-pattern: var(--bd-weave);
+  --bd-glow: var(--bd-glow-sun);
+  --bd-prop: var(--prop-fan);
+  --bd-prop-colour: var(--c-bd-prop-red);
+}
+
+.backdrop--hien-mua {
+  --bd-field: var(--c-bd-rain);
+  --bd-pattern: var(--bd-rain);
+  --bd-prop: var(--prop-jar);
+  --bd-prop-colour: var(--c-bd-prop-dark);
+}
+
+.backdrop--hien-mua[data-mood='night'] {
+  --bd-field: var(--c-bd-rain-night);
+  --bd-pattern: var(--bd-rain-night);
+  --bd-glow: var(--bd-glow-lamp);
+  --bd-prop: var(--prop-lamp);
+  --bd-prop-colour: var(--c-bd-lamp);
+}
+
+.backdrop--ben-sen {
+  --bd-field: var(--c-bd-pond);
+  --bd-pattern: var(--bd-ripples);
+  --bd-glow: var(--bd-glow-sun);
+  --bd-prop: var(--prop-lotus);
+  --bd-prop-colour: var(--c-bd-prop-lotus);
+}
+
+/* The lamp's light breathes a little (not when motion is reduced). */
+.reader .backdrop[data-mood='night']::before {
+  animation: lamp 4s ease-in-out infinite alternate;
+}
+
+@keyframes lamp {
+  from {
+    opacity: 0.85;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* The picker's swatches: the same backdrop, small. */
+.scene-picker {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: var(--space-2);
+  width: 100%;
+}
+
+.scene-pick {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--space-1);
+  padding: var(--space-1);
+  border: 1.5px solid var(--c-border);
+  border-radius: var(--radius-sm);
+  background: var(--c-surface);
+  color: var(--c-text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.scene-pick[aria-pressed='true'] {
+  border-color: var(--c-turmeric);
+  box-shadow: 0 0 0 2px var(--c-turmeric);
+}
+
+.swatch {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 3;
+  border-radius: 2px;
+}
+
+.swatch .backdrop-prop {
+  top: 8%;
+  width: 36%;
+}
+
+.scene-pick-check {
+  position: absolute;
+  top: var(--space-2);
+  left: var(--space-2);
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+  border-radius: var(--radius-full);
+  background: var(--c-turmeric);
+  color: var(--c-on-turmeric);
+}
+
+.scene-pick-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.scene-pick-note {
+  color: var(--c-text-muted);
+  font-size: 0.8rem;
 }
 
 .reader-heading {
@@ -1172,13 +1408,18 @@ html.reading .main {
   transform-origin: left center;
 }
 
-/* Controls in thumb reach: previous, a large play, next, and the rest as round icon buttons. */
+/* Controls in thumb reach on a paper dock: the scene list, previous, a large play, next, options. */
 .reader-controls {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: var(--space-4);
-  padding-top: var(--space-1);
+  gap: var(--space-3);
+  align-self: center;
+  padding: var(--space-1) var(--space-3);
+  border: 1.5px solid var(--c-line);
+  border-radius: var(--radius-full);
+  background: var(--c-surface);
+  box-shadow: var(--lift);
 }
 
 .icon-btn {
@@ -2003,6 +2244,7 @@ html.reading .main {
   }
 
   .end-miu .miu-wave,
+  .reader .backdrop[data-mood='night']::before,
   .sheet[open],
   .icon-btn[data-waiting],
   .sleep-veil {

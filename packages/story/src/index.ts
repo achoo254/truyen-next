@@ -14,3 +14,19 @@ export {
   storyMediaFiles,
   validateStory,
 } from './validate-story.ts';
+export {
+  BACKDROP_FRAMES,
+  type BackdropFrame,
+  DEFAULT_READING_SCENE,
+  PLAIN_READING_SCENE,
+  READING_SCENES,
+  READING_SCENE_IDS,
+  READING_SCENE_STYLE,
+  type ReadingScene,
+  type ReadingSceneId,
+  type SceneMood,
+  backdropUrl,
+  isReadingSceneId,
+  readingScene,
+  sceneMood,
+} from './reading-scenes.ts';
