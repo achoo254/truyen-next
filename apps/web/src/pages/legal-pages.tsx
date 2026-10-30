@@ -103,6 +103,7 @@ const DOCS: Record<LegalPageKind, Record<Locale, LegalDoc>> = {
           ],
         },
         { heading: 'Biểu tượng và chữ', paragraphs: ['Biểu tượng app là hình vẽ vector tạm (quyển sách mở dưới vầng trăng). Tranh ở trang chủ và hoạ tiết vẽ tay bằng SVG theo lối tranh Đông Hồ, không dùng AI. Chữ Alegreya và Alegreya Sans: SIL Open Font License 1.1.'] },
+        { heading: 'Thư viện', paragraphs: ['Hiệu ứng lật trang: page-flip (StPageFlip) của Nodlik (Oleg Litovski), giấy phép MIT.'] },
       ],
     },
     en: {
@@ -123,6 +124,7 @@ const DOCS: Record<LegalPageKind, Record<Locale, LegalDoc>> = {
           ],
         },
         { heading: 'Icon and type', paragraphs: ['The app icon is an interim vector drawing (an open book under a crescent moon). The home print and the ornaments are hand-drawn SVG in the manner of Đông Hồ woodblock prints, no AI. Alegreya and Alegreya Sans typefaces: SIL Open Font License 1.1.'] },
+        { heading: 'Libraries', paragraphs: ['Page turn effect: page-flip (StPageFlip) by Nodlik (Oleg Litovski), MIT licence.'] },
       ],
     },
   },

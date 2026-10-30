@@ -62,3 +62,9 @@ theo ảnh dựng của Miu trong Miu World (`--ref`), để hai app cùng một
 | Hoạ tiết giấy dó, viền hồi văn, sóng, mây cuộn (SVG trong `apps/web/src/ui/tokens.css`) | hoandat | Như mã nguồn (MIT) |
 | Font Alegreya (tiêu đề, gói `@fontsource/alegreya`, có subset tiếng Việt) | The Alegreya Project Authors (Huerta Tipográfica) | SIL Open Font License 1.1 |
 | Font Alegreya Sans (chữ đọc, gói `@fontsource/alegreya-sans`, có subset tiếng Việt) | The Alegreya Sans Project Authors (Huerta Tipográfica) | SIL Open Font License 1.1 |
+
+## Thư viện
+
+| Thư viện | Dùng cho | Tác giả | Giấy phép |
+| --- | --- | --- | --- |
+| [page-flip](https://github.com/Nodlik/StPageFlip) 2.0.7 (StPageFlip, gói `page-flip`) | Hiệu ứng lật trang cong của trình đọc | Nodlik (Oleg Litovski) | MIT |

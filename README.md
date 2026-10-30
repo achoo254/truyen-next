@@ -50,7 +50,9 @@ của máy; `public/theme-init.js` áp trước khi vẽ trang. Màu chỉ nằm
 check:tokens` kiểm AA cho cả hai bảng); `pnpm brand:gen` vẽ lại biểu tượng và ảnh xem trước link.
 
 Trình đọc (`/truyen/<slug>` → Nghe truyện) chiếm trọn màn hình: sách một trang trên điện thoại, trang đôi từ 880px;
-lật trang bằng nút, phím ←/→ (PageUp/PageDown), vuốt ngang (kệ Người lớn thêm chạm mép); Space phát/dừng, Esc đóng.
+trang cong khi lật (thư viện `page-flip` 2.0.7, chế độ HTML nên phụ đề vẫn là chữ thật; giảm chuyển động thì trang cũ
+mờ dần): kéo góc trang bằng tay hoặc chuột, vuốt, chạm góc (kệ Người lớn thêm chạm mép), nút, phím ←/→
+(PageUp/PageDown); Space phát/dừng, Esc đóng. Giọng kể, cảnh động và đồng hồ cảnh chờ trang nằm yên mới chạy.
 Thanh nút: các cảnh, cảnh trước, phát, cảnh sau, tuỳ chọn (tự lật trang, hẹn giờ ngủ, cỡ chữ, tốc độ, phụ đề khi có
 giọng, tắt tiếng khi có âm thanh, bối cảnh đọc, toàn màn hình, chia sẻ `?canh=n`). Nhớ chỗ đang nghe dở
 (`truyen:progress`), tuỳ chọn ở `truyen:prefs:v1`. Màn kết gợi ý hai truyện cùng kệ và đường về kệ; không bao giờ tự

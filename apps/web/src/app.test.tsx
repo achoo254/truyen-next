@@ -78,6 +78,7 @@ describe('routes', () => {
     expect(document.querySelector('h1')?.textContent).toBe('Credits');
     expect(document.cookie).toContain('hd_lang=en');
     expect(document.querySelector('[data-id=legal-credits]')?.textContent).toContain('AI-generated for the hoandat ecosystem; owned by hoandat, all rights reserved (not CC0)');
+    expect(document.querySelector('[data-id=legal-credits]')?.textContent).toContain('page-flip (StPageFlip) by Nodlik (Oleg Litovski), MIT licence');
   });
 
   it('shows both shelves on the home page, children first, each story on its own shelf', async () => {
