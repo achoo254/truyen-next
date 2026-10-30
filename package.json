@@ -13,14 +13,16 @@
     "test": "vitest run --maxWorkers=2",
     "typecheck": "tsc --noEmit -p tsconfig.json && pnpm -r --workspace-concurrency=1 typecheck",
     "lint": "eslint . --max-warnings=0 && pnpm check:brand && pnpm check:tokens && pnpm check:stories",
-    "check:brand": "check-brand --config brand.config.json --dir apps --dir packages --dir scripts --skip-dir test-results --skip-dir playwright-report --skip-dir generated --skip-dir dist --source-file '\\.(ts|tsx|js|mjs|cjs|css|html)$' --code-file '\\.(ts|tsx|js|mjs|cjs)$' --test-file '(^|/)(e2e|test)/|\\.(test|spec)\\.tsx?$' --jsx-text --html-word --skip-comment-lines --ignore-marker 'check-brand-ignore:' --colour-dir apps/web/src --token-file apps/web/src/ui/tokens.css --hint 'read it from apps/web/src/brand.ts'",
+    "check:brand": "check-brand --config brand.config.json --dir apps --dir packages --dir scripts --skip-dir test-results --skip-dir playwright-report --skip-dir generated --skip-dir dist --skip-dir dist-native --skip-dir ios --source-file '\\.(ts|tsx|js|mjs|cjs|css|html)$' --code-file '\\.(ts|tsx|js|mjs|cjs)$' --test-file '(^|/)(e2e|test)/|\\.(test|spec)\\.tsx?$' --jsx-text --html-word --skip-comment-lines --ignore-marker 'check-brand-ignore:' --colour-dir apps/web/src --token-file apps/web/src/ui/tokens.css --hint 'read it from apps/web/src/brand.ts'",
     "check:tokens": "tsx scripts/check-tokens.ts",
     "check:stories": "tsx scripts/validate-stories.ts",
     "story:build": "tsx scripts/build-story.ts",
     "fixture:story": "tsx scripts/fixture-story.ts",
     "scenes:build": "tsx scripts/build-reading-scenes.ts",
     "brand:gen": "tsx scripts/brand-gen.ts",
-    "e2e": "pnpm --filter @truyen/web e2e"
+    "e2e": "pnpm --filter @truyen/web e2e",
+    "mobile:build": "pnpm --filter @truyen/web build:native && pnpm --filter @truyen/mobile exec cap sync ios",
+    "mobile:ios-release": "pnpm --filter @truyen/mobile ios-release"
   },
   "devDependencies": {
     "@achoo254/brand": "github:achoo254/shared-next#v0.11.0&path:/packages/brand",

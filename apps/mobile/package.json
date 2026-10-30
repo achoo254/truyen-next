@@ -1,0 +1,22 @@
+{
+  "name": "@truyen/mobile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The iPhone app (Capacitor) around the app build of the Truyện web app; its version is the App Store version",
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "icons": "tsx scripts/native-icons.ts",
+    "ios-release": "bash scripts/ios-release.sh"
+  },
+  "dependencies": {
+    "@capacitor/core": "8.5.3",
+    "@capacitor/file-transfer": "2.0.6",
+    "@capacitor/filesystem": "8.1.5",
+    "@capacitor/ios": "8.5.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.3",
+    "@types/node": "^26.6.3"
+  }
+}
