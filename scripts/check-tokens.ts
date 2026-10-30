@@ -27,7 +27,8 @@ const SCREEN_BACKGROUNDS = [
   '--c-surface',
   '--c-surface-raised',
   '--c-topbar',
-  '--c-kids-panel',
+  '--c-kids-field',
+  '--c-adults-field',
   '--c-page',
   '--c-subtitle-bg',
   '--c-stage-top',
@@ -39,6 +40,8 @@ const ON_FILLS: ReadonlyArray<readonly [string, string[]]> = [
   ['--c-on-primary', ['--c-primary-solid', '--c-primary-solid-hover']],
   ['--c-on-ink', ['--c-ink-solid', '--c-ink-solid-hover']],
   ['--c-text', ['--c-turmeric']],
+  // the title cartouche of every cover
+  ['--c-print-ink', ['--c-print-paper']],
 ];
 const FOOT_TEXT = ['--c-foot-text', '--c-foot-muted', '--c-foot-link'];
 

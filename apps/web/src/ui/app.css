@@ -32,7 +32,7 @@ h3 {
 }
 
 a {
-  color: var(--c-primary);
+  color: var(--c-text);
   text-underline-offset: 3px;
 }
 
@@ -102,6 +102,17 @@ a {
   --seal-fg: var(--c-on-ink);
 }
 
+/* A shelf on its own page dyes the whole sheet: vàng hoè for the children, plain dó for the adults. */
+.site--kids {
+  background-color: var(--c-kids-field);
+  background-image: var(--paper-texture);
+}
+
+.site--adults {
+  background-color: var(--c-adults-field);
+  background-image: var(--paper-texture);
+}
+
 /* Header: the mark and name on paper, over a hồi văn fret border. */
 .topbar {
   position: sticky;
@@ -142,8 +153,8 @@ a {
 }
 
 .brand-mark {
-  border-radius: var(--radius-md);
-  box-shadow: 0 0 0 2px var(--c-text);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 0 0 1.5px var(--c-text);
 }
 
 .topbar-end,
@@ -168,13 +179,13 @@ a {
 }
 
 .pill:hover {
-  border-color: var(--c-primary);
-  color: var(--c-primary);
+  border-color: var(--c-text);
 }
 
 .pill[aria-current='page'] {
-  border-color: var(--c-primary);
-  color: var(--c-primary);
+  border-color: var(--c-text);
+  background: var(--c-ink-solid);
+  color: var(--c-on-ink);
 }
 
 .lang-switch {
@@ -285,29 +296,32 @@ a {
   font-size: 0.9rem;
 }
 
-.only-phone {
-  display: none;
-}
-
 @media (max-width: 479px) {
   .hide-phone {
     display: none;
   }
 
-  .only-phone {
-    display: inline-flex;
-  }
 }
 
-/* Shared pieces. A card is a sheet of paper with the print's double rule. */
+/* Shared pieces. One depth for everything raised: a 1.5px ink outline over a thin ink line ("paper on paper"),
+   one 4px radius. Only the open book gets a soft shadow. */
 .card {
   background: var(--c-surface);
-  border: 2px solid var(--c-text);
+  border: 1.5px solid var(--c-text);
   border-radius: var(--radius-sm);
-  outline: 1px solid var(--c-border-strong);
-  outline-offset: -7px;
   padding: var(--space-5);
-  box-shadow: var(--shadow-card);
+  box-shadow: var(--lift);
+}
+
+.notice {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.notice p {
+  margin: 0;
 }
 
 .muted {
@@ -320,14 +334,29 @@ a {
   gap: var(--space-3);
 }
 
-/* A seal: the square red-or-ink stamp of the prints, here a label. */
+/* Ink links with an underline: vermilion is kept for the one main action of a view. */
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  color: var(--c-text);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+}
+
+.text-link:hover {
+  text-decoration-thickness: 3px;
+}
+
+/* A seal: the square stamp of the prints, here a label. */
 .seal {
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
   margin: 0;
   padding: 2px var(--space-3);
-  border: 2px solid var(--c-text);
+  border: 1.5px solid var(--c-text);
   border-radius: var(--radius-sm);
   background: var(--seal-bg, var(--c-turmeric));
   color: var(--seal-fg, var(--c-text));
@@ -344,28 +373,36 @@ a {
   min-height: 48px;
   padding: var(--space-2) var(--space-5);
   border-radius: var(--radius-sm);
-  border: 2px solid var(--c-text);
+  border: 1.5px solid var(--c-text);
   font: inherit;
   font-weight: 700;
   text-align: center;
   line-height: 1.25;
   text-decoration: none;
+  white-space: nowrap;
   cursor: pointer;
-  box-shadow: 0 3px 0 var(--c-text);
+  box-shadow: var(--lift);
   transition:
     background var(--dur-base),
     transform var(--dur-base) var(--ease),
     box-shadow var(--dur-base) var(--ease);
 }
 
+.btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: var(--lift-hover);
+}
+
 .btn:active:not(:disabled) {
-  transform: translateY(2px);
-  box-shadow: 0 1px 0 var(--c-text);
+  transform: translateY(1px);
+  box-shadow: none;
 }
 
 .btn:disabled {
   cursor: not-allowed;
-  opacity: 0.5;
+  border-color: var(--c-border);
+  background: var(--c-surface);
+  color: var(--c-border-strong);
   box-shadow: none;
 }
 
@@ -390,22 +427,20 @@ a {
 .btn-ghost {
   background: transparent;
   color: var(--c-text);
-  border-color: var(--c-border-strong);
   box-shadow: none;
 }
 
-.btn-ghost[aria-pressed='true'] {
-  border-color: var(--c-primary);
-  color: var(--c-primary);
-}
-
-/* Home: the title beside the framed print. */
+/* Home and shelf pages: the title and its lede beside one picture (the carp print, Mèo Miu). */
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
   align-items: center;
   gap: var(--space-7);
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-7);
+}
+
+.hero--adults {
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .hero-text {
@@ -413,6 +448,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
   gap: var(--space-3);
+  max-width: 40em;
 }
 
 .hero-title {
@@ -421,12 +457,12 @@ a {
   line-height: 1.05;
 }
 
-/* The cloud curl under the title, in vermilion. */
+/* The one cloud curl of the page, under its title. */
 .hero-title::after {
   content: '';
   display: block;
-  width: 96px;
-  height: 60px;
+  width: 84px;
+  height: 52px;
   margin-top: var(--space-2);
   background: var(--c-vermilion);
   -webkit-mask: var(--orn-cloud) no-repeat left center / contain;
@@ -448,10 +484,10 @@ a {
 .hero-print {
   justify-self: center;
   width: 100%;
-  max-width: 340px;
+  max-width: 300px;
   margin: 0;
-  transform: rotate(1.5deg);
-  box-shadow: var(--shadow-print);
+  border: 1.5px solid var(--c-text);
+  box-shadow: var(--lift);
 }
 
 .hero-print img {
@@ -460,11 +496,38 @@ a {
   height: auto;
 }
 
+/* Mèo Miu greets the children on their shelf, a speech scroll beside her. */
+.hero-miu {
+  justify-self: center;
+  display: grid;
+  justify-items: center;
+  gap: var(--space-3);
+  margin: 0;
+}
+
+.hero-miu .miu {
+  width: clamp(120px, 22vw, 200px);
+  height: auto;
+}
+
+.hero-miu-says {
+  position: relative;
+  order: -1;
+  padding: var(--space-2) var(--space-4);
+  border: 1.5px solid var(--c-text);
+  border-radius: var(--radius-sm);
+  background: var(--c-page);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.1rem;
+  box-shadow: var(--lift);
+}
+
 @media (max-width: 759px) {
   .hero {
     grid-template-columns: minmax(0, 1fr);
     gap: var(--space-5);
-    margin-bottom: var(--space-7);
+    margin-bottom: var(--space-6);
   }
 
   /* On phones the print is a band across the page: the mountain, the carp and the waves. */
@@ -473,8 +536,6 @@ a {
     max-width: none;
     aspect-ratio: 16 / 9;
     overflow: hidden;
-    transform: none;
-    border: 3px solid var(--c-text);
   }
 
   /* Wider than the band so the print's own side rules fall outside it; the band's border is the frame. */
@@ -488,23 +549,52 @@ a {
   }
 
   .hero-title::after {
-    width: 72px;
-    height: 44px;
+    width: 64px;
+    height: 40px;
+  }
+
+  /* Mèo Miu beside the title on phones, small, so the covers start in the first screen. */
+  .hero--kids {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+    gap: var(--space-3);
+  }
+
+  .hero--kids .hero-text {
+    grid-column: 1 / -1;
+  }
+
+  .hero--kids .hero-miu {
+    grid-row: 1;
+    grid-column: 1 / -1;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-self: start;
+  }
+
+  .hero--kids .hero-miu .miu {
+    width: 84px;
+  }
+
+  .hero--kids .hero-miu-says {
+    order: 0;
+    font-size: 1rem;
   }
 }
 
-/* Shelves: children's (a turmeric wash with cloud curls), then adults' (ink rules on paper). */
+/* Shelves. The children's shelf is a field of vàng hoè, the adults' plain dó paper; on its own page each shelf
+   colours the whole page (.site--kids). */
 .shelf + .shelf {
-  margin-top: var(--space-8);
+  margin-top: var(--space-7);
 }
 
 .shelf-head {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
-  gap: var(--space-3) var(--space-4);
-  margin-bottom: var(--space-5);
+  gap: var(--space-2) var(--space-4);
+  margin-bottom: var(--space-4);
 }
 
 .shelf-title {
@@ -519,116 +609,224 @@ a {
 .shelf-title::before {
   content: '';
   flex: none;
-  width: 22px;
-  height: 22px;
-  border: 2px solid var(--c-text);
-  border-radius: 3px;
+  width: 18px;
+  height: 18px;
+  border: 1.5px solid var(--c-text);
+  border-radius: 2px;
   background: var(--seal-bg);
-  transform: rotate(-6deg);
 }
 
-.shelf--kids {
-  position: relative;
-  padding: var(--space-6) var(--space-5) var(--space-7);
-  background: var(--c-kids-panel);
-  border: 2px solid var(--c-text);
-  border-radius: var(--radius-lg);
+.shelf--panel {
+  padding: var(--space-5) var(--space-4) var(--space-6);
+  background: var(--c-kids-field);
+  border: 1.5px solid var(--c-text);
+  border-radius: var(--radius-sm);
 }
 
-.shelf--kids::after {
-  content: '';
-  position: absolute;
-  width: 64px;
-  height: 40px;
-  background: var(--c-vermilion);
-  -webkit-mask: var(--orn-cloud) no-repeat center / contain;
-  mask: var(--orn-cloud) no-repeat center / contain;
-  opacity: 0.85;
-  pointer-events: none;
-}
-
-.shelf--kids::after {
-  right: var(--space-4);
-  bottom: 4px;
-  transform: rotate(180deg);
-}
-
-.shelf--adults {
-  padding-top: var(--space-6);
-  border-top: 3px double var(--c-text);
-}
-
-.story-list {
+/* Covers on a grid: two across on phones, three on tablets, five on desktops. */
+.tile-grid {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr));
-  gap: var(--space-5);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-5) var(--space-4);
 }
 
-.story-card {
+@media (min-width: 600px) {
+  .tile-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1000px) {
+  .tile-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+.tile {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 320px;
+}
+
+.tile-link {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: var(--space-2);
-  position: relative;
-  transition: transform var(--dur-base) var(--ease);
+  height: 100%;
+  color: var(--c-text);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
 }
 
-.story-card > :last-child {
-  margin-top: auto;
+.tile-link .cover {
+  transition:
+    transform var(--dur-base) var(--ease),
+    box-shadow var(--dur-base) var(--ease);
 }
 
-/* A cloud curl in the card's top corner, in the shelf's accent. */
-.story-card::after {
-  content: '';
-  position: absolute;
-  right: 14px;
-  top: 14px;
-  width: 44px;
-  height: 28px;
-  background: var(--accent);
-  -webkit-mask: var(--orn-cloud) no-repeat center / contain;
-  mask: var(--orn-cloud) no-repeat center / contain;
-  opacity: 0.55;
-  pointer-events: none;
+.tile-link:hover .cover {
+  transform: translateY(-2px);
+  box-shadow: var(--lift-hover);
 }
 
-/* The children's cards hang a little askew, as pinned up; straight again under the pointer. */
-.shelf--kids .story-card:nth-child(odd) {
-  transform: rotate(-0.8deg);
+.tile-link:active .cover {
+  transform: translateY(1px);
+  box-shadow: none;
 }
 
-.shelf--kids .story-card:nth-child(even) {
-  transform: rotate(0.7deg);
+.tile-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-1) var(--space-2);
+  color: var(--c-text-muted);
+  font-size: 0.95rem;
+  font-weight: 700;
 }
 
-.shelf--kids .story-card:hover {
-  transform: rotate(0deg) translateY(-2px);
-}
-
-.story-card-title {
-  margin: 0;
-  padding-right: 48px;
-  font-size: 1.55rem;
+.tile-note {
   color: var(--c-text);
 }
 
-.story-card-length {
+.tile-skeleton {
+  display: block;
+  aspect-ratio: 3 / 4;
+  border-radius: var(--radius-sm);
+  background: var(--c-surface-raised);
+}
+
+/* A cover: a flat print colour, the carved emblem, the title in a paper cartouche. */
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  aspect-ratio: 3 / 4;
+  padding: var(--space-3);
+  border: 1.5px solid var(--c-text);
+  border-radius: var(--radius-sm);
+  background: var(--cover-field);
+  box-shadow: var(--lift);
+  overflow: hidden;
+}
+
+.cover[data-cover='1'] {
+  --cover-field: var(--c-cover-1);
+  --em-a: var(--c-cover-1-a);
+  --em-b: var(--c-cover-1-b);
+}
+
+.cover[data-cover='2'] {
+  --cover-field: var(--c-cover-2);
+  --em-a: var(--c-cover-2-a);
+  --em-b: var(--c-cover-2-b);
+}
+
+.cover[data-cover='3'] {
+  --cover-field: var(--c-cover-3);
+  --em-a: var(--c-cover-3-a);
+  --em-b: var(--c-cover-3-b);
+}
+
+.cover[data-cover='4'] {
+  --cover-field: var(--c-cover-4);
+  --em-a: var(--c-cover-4-a);
+  --em-b: var(--c-cover-4-b);
+}
+
+.cover[data-cover='5'] {
+  --cover-field: var(--c-cover-5);
+  --em-a: var(--c-cover-5-a);
+  --em-b: var(--c-cover-5-b);
+}
+
+.cover[data-cover='6'] {
+  --cover-field: var(--c-cover-6);
+  --em-a: var(--c-cover-6-a);
+  --em-b: var(--c-cover-6-b);
+}
+
+.cover-emblem {
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  margin: var(--space-2) 0;
+}
+
+.cover-title {
   margin: 0;
-  color: var(--accent);
-  font-weight: 700;
-  font-size: 0.95rem;
-}
-
-.story-card-summary {
-  margin: 0 0 var(--space-3);
-}
-
-.shelf--adults .story-card-summary {
+  padding: var(--space-2);
+  border: 1.5px solid var(--c-print-ink);
+  background: var(--c-print-paper);
+  color: var(--c-print-ink);
   font-family: var(--font-display);
-  font-size: 1.08rem;
+  font-weight: 800;
+  font-size: 1.1rem;
+  line-height: 1.15;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.cover--large {
+  width: 100%;
+  max-width: 320px;
+}
+
+.cover--large .cover-title {
+  font-size: 1.5rem;
+  padding: var(--space-3);
+}
+
+.cover--mini {
+  flex: none;
+  width: 44px;
+  padding: 3px;
+  box-shadow: none;
+}
+
+.cover--mini .cover-emblem {
+  margin: 0;
+}
+
+/* Emblem and Mèo Miu colour blocks: printed colours stay the same under the lamp, like a print in lamplight. */
+.emblem,
+.miu {
+  display: block;
+}
+
+.em-ink {
+  stroke: var(--c-print-ink);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.em-ink-fill {
+  fill: var(--c-print-ink);
+}
+
+.em-a {
+  fill: var(--em-a, var(--c-vermilion));
+}
+
+.em-b {
+  fill: var(--em-b, var(--c-turmeric));
+}
+
+.em-paper {
+  fill: var(--c-print-paper);
+}
+
+.em-cheek {
+  fill: var(--c-print-cheek);
+}
+
+.miu {
+  --em-a: var(--c-vermilion);
+  --em-b: var(--c-print-cheek);
 }
 
 /* Story page: the cover, the title and the button that opens the reader. */
@@ -648,8 +846,26 @@ a {
 
 .story-intro {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: start;
   gap: var(--space-5);
   margin-top: var(--space-4);
+}
+
+.story-intro .cover--large {
+  max-width: 160px;
+}
+
+@media (min-width: 760px) {
+  .story-intro {
+    grid-template-columns: minmax(0, 320px) minmax(0, 1fr);
+    align-items: center;
+    gap: var(--space-7);
+  }
+
+  .story-intro .cover--large {
+    max-width: 320px;
+  }
 }
 
 .story-intro-text {
@@ -860,6 +1076,16 @@ html.reading .main {
   background-image: linear-gradient(var(--c-stage-top), var(--c-stage-bottom));
 }
 
+.picture-plain {
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.picture-plain-emblem {
+  width: 62%;
+  opacity: 0.35;
+}
+
 .picture-plain-title {
   margin: 0;
   font-family: var(--font-display);
@@ -1049,6 +1275,28 @@ html.reading .main {
   text-align: center;
 }
 
+.end-miu {
+  width: clamp(72px, 14vh, 140px);
+  height: auto;
+}
+
+/* Mèo Miu waves twice, then rests. */
+.end-miu .miu-wave {
+  transform-box: fill-box;
+  transform-origin: 20% 100%;
+  animation: miu-wave 700ms var(--ease) 2 alternate;
+}
+
+@keyframes miu-wave {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-14deg);
+  }
+}
+
 .end-mark-word {
   margin: 0;
   padding: var(--space-3) var(--space-6);
@@ -1102,9 +1350,8 @@ html.reading .main {
 
 .end-next-link {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: var(--space-1);
+  align-items: center;
+  gap: var(--space-3);
   height: 100%;
   min-height: var(--tap);
   padding: var(--space-2) var(--space-3);
@@ -1119,6 +1366,12 @@ html.reading .main {
 .end-next-link:hover {
   box-shadow: var(--lift-hover);
   transform: translateY(-1px);
+}
+
+.end-next-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
 
 .end-next-name {
@@ -1304,7 +1557,29 @@ html.reading .main {
     pointer-events: none;
   }
 
-  .end-mark-word {
+  .end-miu {
+  width: clamp(72px, 14vh, 140px);
+  height: auto;
+}
+
+/* Mèo Miu waves twice, then rests. */
+.end-miu .miu-wave {
+  transform-box: fill-box;
+  transform-origin: 20% 100%;
+  animation: miu-wave 700ms var(--ease) 2 alternate;
+}
+
+@keyframes miu-wave {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-14deg);
+  }
+}
+
+.end-mark-word {
     font-size: 4.6rem;
   }
 
@@ -1378,7 +1653,7 @@ html.reading .main {
 @media (prefers-reduced-motion: reduce) {
   .btn,
   .pill,
-  .story-card,
+  .tile-link .cover,
   .icon-btn,
   .play-btn {
     transition: none;
@@ -1396,11 +1671,18 @@ html.reading .main {
     animation: fade-away 150ms linear forwards;
   }
 
+  .end-miu .miu-wave {
+    animation: none;
+  }
+
   .btn:active:not(:disabled) {
     transform: none;
   }
 
-  .shelf--kids .story-card:hover {
+  .tile-link:hover .cover,
+  .btn:hover:not(:disabled),
+  .icon-btn:hover:not(:disabled),
+  .play-btn:hover {
     transform: none;
   }
 }

@@ -66,7 +66,7 @@ describe('routes', () => {
     expect(document.querySelector('[data-id=lang-vi]')?.getAttribute('aria-pressed')).toBe('true');
     expect(document.querySelector('[data-id=skip-link]')?.getAttribute('href')).toBe('#main');
     expect(document.querySelector('main#main')).not.toBeNull();
-    expect([...document.querySelectorAll('[data-id=public-footer] .foot-link:not(.only-phone)')].map((a) => a.getAttribute('href'))).toEqual(['/privacy', '/terms', '/credits']);
+    expect([...document.querySelectorAll('[data-id=public-footer] .foot-link')].map((a) => a.getAttribute('href'))).toEqual(['/privacy', '/terms', '/credits']);
     expect(document.querySelector('[data-id=foot-home]')?.getAttribute('href')).toBe('https://hoandat.com');
     expect(document.querySelector('[data-id=sign-in], [data-id=public-sign-in]')).toBeNull();
     expect(await screen.findByText('Chưa có câu chuyện nào.')).toBeTruthy();

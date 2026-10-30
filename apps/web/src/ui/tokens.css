@@ -14,8 +14,9 @@
   --c-surface: #fbf5e7;
   --c-surface-raised: #ecdfc2;
   --c-topbar: #f6eedb;
-  /* the children's shelf sits on a turmeric wash */
-  --c-kids-panel: #f6dc9c;
+  /* each shelf's own sheet: vàng hoè for the children, plain dó for the adults */
+  --c-kids-field: #f1ce70;
+  --c-adults-field: #e9e1d0;
   /* the open book of the player: its pages, their stacked edges, the plain backdrop while a scene has no picture */
   --c-page: #fcf7ec;
   --c-page-edge: #e2d0aa;
@@ -44,6 +45,30 @@
   --c-error: #981b1b;
   --c-focus: #a3321a;
 
+  /* the prints (covers, emblems, Mèo Miu) keep their colours in both looks, like a print under a lamp: ink
+     keyline, paper, Miu's cheeks, and six colour fields, each with two block colours */
+  --c-print-ink: #2f1d0f;
+  --c-print-paper: #fcf7ec;
+  --c-print-cheek: #e7a08a;
+  --c-cover-1: #ecc35c;
+  --c-cover-1-a: #b8401f;
+  --c-cover-1-b: #3a6229;
+  --c-cover-2: #e9b49c;
+  --c-cover-2-a: #b8401f;
+  --c-cover-2-b: #ecc35c;
+  --c-cover-3: #a9c27a;
+  --c-cover-3-a: #ecc35c;
+  --c-cover-3-b: #3a6229;
+  --c-cover-4: #c8553a;
+  --c-cover-4-a: #ecc35c;
+  --c-cover-4-b: #3a6229;
+  --c-cover-5: #9fb6c2;
+  --c-cover-5-a: #b8401f;
+  --c-cover-5-b: #3a6229;
+  --c-cover-6: #c9a36b;
+  --c-cover-6-a: #b8401f;
+  --c-cover-6-b: #ecc35c;
+
   /* the footer: an ink band under a row of wave crests */
   --c-foot: #2f1d0f;
   --c-foot-text: #f3e8d0;
@@ -61,14 +86,14 @@
   --shadow-book: 0 1px 0 var(--c-page-edge), 0 2px 0 var(--c-border-strong), 0 3px 0 var(--c-page-edge), 0 4px 0 var(--c-border-strong), 0 24px 40px -24px rgb(47 29 15 / 0.55);
   --shadow-spine: linear-gradient(to right, transparent, rgb(47 29 15 / 0.16) 46%, rgb(47 29 15 / 0.28) 50%, rgb(47 29 15 / 0.16) 54%, transparent);
 
-  /* woodblock textures and ornaments (SVG, img-src data: in the CSP): the paper's grain and fibres, the hồi văn
-     fret under the header, the wave crests over the footer, fish-scale water, and the cloud curl (a mask: drawn
+  /* woodblock textures and ornaments (SVG, img-src data: in the CSP): the paper's faint grain with the shimmer
+     of giấy điệp (crushed shell) specks, the hồi văn
+     fret under the header, the wave crests over the footer, and the cloud curl (a mask: drawn
      in whatever colour the element paints) */
-  --paper-texture: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .36 0 0 0 0 .25 0 0 0 0 .12 0 0 0 .16 -.03'/%3E%3C/filter%3E%3Crect width='320' height='320' filter='url(%23g)'/%3E%3Cpath d='M0 143q-5 2 -3 6M275 131q-8 -5 -16 -2M151 90q-2 11 4 21M45 122q-8 -10 -21 -13M122 27q-2 12 4 22M190 177q-6 -3 -11 1M99 255q5 4 10 1M184 228q7 5 14 1M284 167q6 9 16 11M307 103q5 1 5 -4M230 259q7 2 12 -4M53 256q12 0 21 -7M320 256q-7 -1 -11 5M197 8q13 0 23 -7M113 280q10 4 21 0M304 176q-0 -9 -7 -16M273 139q14 -3 25 -12M136 260q-5 -4 -11 -1M15 17q5 -2 4 -7M112 176q-9 3 -12 11M34 121q1 10 8 17M176 296q9 11 22 16M318 248q-5 -6 -13 -6M276 207q-6 -4 -13 -0M171 82q10 2 18 -4M291 47q4 14 15 23M221 92q7 -4 6 -12M281 155q-5 -4 -11 -1M32 255q7 -1 8 -8M242 109q8 -3 10 -12M0 7q8 6 18 4M95 259q-8 8 -8 18M317 158q4 -5 0 -10M209 158q-4 6 0 12M159 199q-7 -2 -12 3M157 163q5 10 15 13M261 159q-4 -6 -10 -4M247 120q5 9 15 11M124 63q-13 -5 -26 -2M126 52q10 -8 13 -21M232 77q-5 5 -2 11M100 294q0 -10 -7 -17M135 164q-12 0 -21 8M4 251q5 -2 1 -6M251 156q0 -5 -5 -4M270 312q7 -0 9 -7' fill='none' stroke='%238a6a4a' stroke-opacity='.22' stroke-width='.8' stroke-linecap='round'/%3E%3C/svg%3E");
+  --paper-texture: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .36 0 0 0 0 .25 0 0 0 0 .12 0 0 0 .1 -.02'/%3E%3C/filter%3E%3Cfilter id='d'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.55' numOctaves='1' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .97 0 0 0 0 .9 0 0 0 16 -13.4'/%3E%3C/filter%3E%3Crect width='260' height='260' filter='url(%23g)'/%3E%3Crect width='260' height='260' filter='url(%23d)' opacity='.7'/%3E%3C/svg%3E");
   --band-fret: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='14'%3E%3Crect width='24' height='14' fill='%23f6eedb'/%3E%3Cpath d='M0 1h24M0 13h24' stroke='%23b8401f' stroke-width='2'/%3E%3Cpath d='M2 10.5V4h9v4.5H6V6.5M13 10.5h9V4h-6v4.5h3' fill='none' stroke='%232f1d0f' stroke-width='1.5'/%3E%3C/svg%3E");
   --band-waves: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='18'%3E%3Cpath d='M0 18V14Q11 0 22 14Q33 0 44 14V18Z' fill='%232f1d0f'/%3E%3Cpath d='M7 12a4 4 0 1 1 5 4M29 12a4 4 0 1 1 5 4' fill='none' stroke='%23f3e8d0' stroke-width='1.4' stroke-linecap='round'/%3E%3C/svg%3E");
   --orn-cloud: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 40'%3E%3Cpath d='M4 36C4 20 15 9 29 9C41 9 49 17 49 27C49 34 44 38 38 38C32 38 28 34 28 29C28 25 31 22 35 22M49 22C51 14 57 10 62 11' fill='none' stroke='%23000' stroke-width='4.5' stroke-linecap='round'/%3E%3C/svg%3E");
-  --pattern-scales: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='14'%3E%3Cpath d='M0 14A14 14 0 0 1 28 14M7 14A7 7 0 0 1 21 14M-14 7A14 14 0 0 1 14 7M14 7A14 14 0 0 1 42 7' fill='none' stroke='%23b8401f' stroke-opacity='.16' stroke-width='1.4'/%3E%3C/svg%3E");
 
   /* type: Alegreya (calligraphic book serif) for titles and the adults' subtitles, Alegreya Sans for reading;
      both self-hosted with the Vietnamese subset (@fontsource, main.tsx) */

@@ -1,7 +1,8 @@
 import type { Story, StoryListEntry } from '@truyen/story';
 import type { ReactNode } from 'react';
+import { MeoMiu } from '../art/meo-miu';
+import { StoryCover } from '../art/story-cover';
 import { useI18n } from '../i18n/i18n';
-import { Icon } from '../ui/icons';
 import { fetchStoryList, shelfPath, storyPath } from './story-api';
 import { useLoad } from './use-load';
 
@@ -33,10 +34,13 @@ function NextStories({ story }: { story: Story }): ReactNode {
         {next.map((entry) => (
           <li key={entry.slug}>
             <a className="end-next-link" href={storyPath(entry.slug)} data-id={`story-next-${entry.slug}`}>
-              <span className="end-next-name" lang="vi">
-                {entry.title}
+              <StoryCover slug={entry.slug} title={entry.title} shelf={entry.shelf} size="mini" />
+              <span className="end-next-text">
+                <span className="end-next-name" lang="vi">
+                  {entry.title}
+                </span>
+                <span className="end-next-length">{t('home.minutes', { minutes: entry.minutes })}</span>
               </span>
-              <span className="end-next-length">{t('home.minutes', { minutes: entry.minutes })}</span>
             </a>
           </li>
         ))}
@@ -47,22 +51,23 @@ function NextStories({ story }: { story: Story }): ReactNode {
 
 interface EndPageProps {
   story: Story;
-  onReplay: () => void;
   /** A still copy on a turning leaf: no list fetch, nothing to press. */
   copy?: boolean;
 }
 
 /**
- * The last spread: "Hết" carved in a woodblock frame (Mèo Miu waves goodbye on the children's shelf), then play
- * again, two stories to go on with, and the way back to the shelf. Never starts another story by itself.
+ * The last spread: "Hết" carved in a woodblock frame (Mèo Miu waves goodbye on the children's shelf), two stories
+ * to go on with and the way back to the shelf; "play again" is the reader's big button. Never starts another story
+ * by itself.
  */
-export function EndPage({ story, onReplay, copy = false }: EndPageProps): ReactNode {
+export function EndPage({ story, copy = false }: EndPageProps): ReactNode {
   const { t } = useI18n();
   const shelf = t(`shelf.${story.shelf}`);
   return (
     <div className="spread spread--end" data-id={copy ? undefined : 'story-ended'}>
       <div className="page page--end-mark">
         <div className="end-mark">
+          {story.shelf === 'kids' && <MeoMiu waving className="end-miu" />}
           <p className="end-mark-word">{t('story.endWord')}</p>
           <p className="end-mark-line" role={copy ? undefined : 'status'}>
             {t(`story.ended.${story.shelf}`)}
@@ -73,10 +78,6 @@ export function EndPage({ story, onReplay, copy = false }: EndPageProps): ReactN
         <h2 className="end-title" lang="vi">
           {story.title}
         </h2>
-        <button type="button" className="btn btn-primary end-replay" onClick={onReplay} data-id={copy ? undefined : 'story-replay'}>
-          <Icon name="replay" />
-          {t('story.replay')}
-        </button>
         {!copy && <NextStories story={story} />}
         <a className="end-shelf" href={shelfPath(story.shelf)} data-id={copy ? undefined : 'story-end-shelf'}>
           {t('story.backToShelf', { shelf })}

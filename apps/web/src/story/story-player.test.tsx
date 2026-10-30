@@ -107,7 +107,8 @@ describe('story player without media', () => {
     expect(q('story-scene-number').textContent).toBe('Hết truyện');
     expect(q('story-end-shelf').getAttribute('href')).toBe('/tre-em');
     expect((q('story-next') as HTMLButtonElement).disabled).toBe(true);
-    fireEvent.click(q('story-replay'));
+    expect(q('story-play').textContent).toBe('Nghe lại');
+    fireEvent.click(q('story-play'));
     expect(q('story-scene-number').textContent).toMatch(/^Cảnh 1\/8/);
     expect(document.querySelector('[data-id=story-ended]')).toBeNull();
   });

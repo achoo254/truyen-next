@@ -2,6 +2,7 @@ import { writePreference } from '@achoo254/app-shell/preferences';
 import type { ReactNode } from 'react';
 import { BRAND_MARK_SRC, ECOSYSTEM_URL, brand } from '../brand';
 import { LOCALES, type Locale, useI18n } from '../i18n/i18n';
+import { parseShelfPath } from '../story/story-api';
 
 /** Each language in its own words (never translated), and the short code the header pill shows. */
 const LOCALE_NAMES: Record<Locale, string> = { vi: 'Tiếng Việt', en: 'English' };
@@ -69,7 +70,7 @@ function SiteHeader({ navLinks }: { navLinks: NavLink[] }): ReactNode {
   );
 }
 
-function SiteFooter({ path, navLinks }: { path: string; navLinks: NavLink[] }): ReactNode {
+function SiteFooter({ path }: { path: string }): ReactNode {
   const { t } = useI18n();
   const domain = brand.primaryTenant.domain;
   const links: NavLink[] = [
@@ -87,12 +88,6 @@ function SiteFooter({ path, navLinks }: { path: string; navLinks: NavLink[] }): 
           </a>
         </div>
         <nav className="foot-links" aria-label={t('layout.footLinks')}>
-          {/* The header hides its links on phones, where the app name needs the room; they show here instead. */}
-          {navLinks.map((link) => (
-            <a key={link.dataId} className="foot-link only-phone" href={link.href} data-id={`foot-${link.dataId}`} aria-current={link.current ? 'page' : undefined}>
-              {link.label}
-            </a>
-          ))}
           {links.map((link) => (
             <a key={link.dataId} className="foot-link" href={link.href} data-id={link.dataId} aria-current={link.current ? 'page' : undefined}>
               {link.label}
@@ -114,8 +109,9 @@ function SiteFooter({ path, navLinks }: { path: string; navLinks: NavLink[] }): 
 export function SitePage({ path, children }: { path: string; children: ReactNode }): ReactNode {
   const { t } = useI18n();
   const navLinks: NavLink[] = [{ href: '/', label: t('layout.stories'), dataId: 'nav-stories', current: path === '/' }];
+  const shelf = parseShelfPath(path);
   return (
-    <div className="site">
+    <div className={shelf ? `site site--${shelf}` : 'site'}>
       <a className="skip-link" href="#main" data-id="skip-link">
         {t('layout.skip')}
       </a>
@@ -124,7 +120,7 @@ export function SitePage({ path, children }: { path: string; children: ReactNode
       <main id="main" tabIndex={-1} className="main container">
         {children}
       </main>
-      <SiteFooter path={path} navLinks={navLinks} />
+      <SiteFooter path={path} />
     </div>
   );
 }

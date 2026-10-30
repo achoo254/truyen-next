@@ -1,5 +1,7 @@
 import { MIN_SCENE_SECONDS, MIU_NARRATOR, type Scene, type Story, estimateReadingSeconds, subtitleIndexAt } from '@truyen/story';
 import { type ReactNode, type RefObject, useCallback, useEffect, useReducer, useRef, useState } from 'react';
+import { coverArt } from '../art/story-cover';
+import { Emblem } from '../art/story-emblems';
 import { useI18n } from '../i18n/i18n';
 import { Icon } from '../ui/icons';
 import { EndPage } from './end-page';
@@ -50,7 +52,9 @@ function PicturePage({ story, scene, videoRef }: { story: Story; scene: Scene; v
         ) : media.image ? (
           <img className="picture-media" src={media.image} alt="" width={900} height={1600} decoding="async" />
         ) : (
+          // "A block not yet printed in colour": the story's carved emblem, faint, under the scene title.
           <div className="picture-plain" data-id={live ? 'story-plain' : undefined}>
+            <Emblem name={coverArt(story.slug).emblem} className="picture-plain-emblem" />
             <p className="picture-plain-title">{scene.title}</p>
           </div>
         )}
@@ -172,7 +176,7 @@ function Leaf({ story, turn, onDone }: { story: Story; turn: Turn; onDone: (id: 
       {scene && from.kind === 'scene' ? (
         <LeafScene story={story} scene={scene} line={from.line} />
       ) : (
-        <EndPage story={story} copy onReplay={() => undefined} />
+        <EndPage story={story} copy />
       )}
     </div>
   );
@@ -301,7 +305,7 @@ export function StoryPlayer({ story, onClose }: StoryPlayerProps): ReactNode {
 
       <div className="book" data-turning={turn ? turn.direction : undefined} {...swipe}>
         {ended ? (
-          <EndPage story={story} onReplay={() => dispatch({ type: 'toggle' })} />
+          <EndPage story={story} />
         ) : (
           <SceneView key={`${state.index}-${state.run}`} story={story} scene={scene} status={state.status} muted={state.muted} onEnded={onEnded} onLine={setLine} />
         )}

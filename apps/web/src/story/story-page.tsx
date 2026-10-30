@@ -1,5 +1,6 @@
 import { type Story, storyListEntry } from '@truyen/story';
 import { type ReactNode, type RefObject, useCallback, useEffect, useRef, useState } from 'react';
+import { StoryCover } from '../art/story-cover';
 import { useI18n } from '../i18n/i18n';
 import { setPageMeta } from '../page-meta';
 import { Icon } from '../ui/icons';
@@ -30,6 +31,7 @@ function StoryCoverPage({ story, onOpen, openRef }: { story: Story; onOpen: () =
         {t('story.backToShelf', { shelf })}
       </a>
       <div className="story-intro">
+        <StoryCover slug={story.slug} title={story.title} shelf={story.shelf} size="large" />
         <div className="story-intro-text">
           <p className="seal story-shelf" data-id="story-shelf" data-shelf={story.shelf}>
             {t('shelf.label', { shelf })}
