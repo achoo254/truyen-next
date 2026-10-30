@@ -15,6 +15,7 @@ xem, app chạy cả khi máy nhà tắt. Nội dung AI không thuộc giấy ph
 | `stories/<slug>/media/` | Tranh (WebP), cảnh động (MP4 không tiếng), giọng kể và nhạc (M4A) do `pnpm story:build` tạo |
 | `packages/story` | Schema, luật kiểm và thời gian đọc của truyện (dùng chung cho app và script, không phụ thuộc React hay Node) |
 | `apps/web` | App web tĩnh (Vite + React): hai kệ truyện, trình xem `/truyen/<slug>`, trang pháp lý |
+| `apps/mobile` | App iPhone (Capacitor) quanh bản build app của web: phát nền khi khoá máy, màn hình khoá, nghe offline, cổng phụ huynh ([`docs/ios-app.md`](docs/ios-app.md)) |
 | `scripts/` | `build-story.ts` (sinh media), `validate-stories.ts`, `check-tokens.ts`, `brand-gen.ts` |
 | `brand.config.json`, `brand/` | Tên, màu, biểu tượng (gói `@achoo254/brand`) |
 
@@ -82,6 +83,8 @@ pnpm test           # vitest --maxWorkers=2
 pnpm build
 pnpm e2e            # Playwright: build + preview ở 5302; kệ, trình đọc (nút, phím, vuốt), HTML render sẵn, tìm kiếm, tắt đèn (E2E_BASE_URL=<url>: site đã deploy)
 ```
+
+App iPhone: `pnpm mobile:build`, phát hành TestFlight `pnpm mobile:ios-release`; xem [`docs/ios-app.md`](docs/ios-app.md).
 
 Phục vụ production: `apps/web/dist` là file tĩnh. Bản build render sẵn HTML cho `/`, `/tre-em`, `/nguoi-lon` và từng
 `/truyen/<slug>` (tiêu đề, mô tả, danh sách truyện, JSON-LD; `apps/web/vite-prerender.ts`); mọi đường dẫn khác nhận
