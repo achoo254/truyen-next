@@ -1,4 +1,4 @@
-import { MIN_SCENE_SECONDS, type Scene, type Story, estimateReadingSeconds, subtitleIndexAt } from '@truyen/story';
+import { MIN_SCENE_SECONDS, MIU_NARRATOR, type Scene, type Story, estimateReadingSeconds, subtitleIndexAt } from '@truyen/story';
 import { type ReactNode, type RefObject, useCallback, useEffect, useReducer, useRef, useState } from 'react';
 import { useI18n } from '../i18n/i18n';
 import { type PlayStatus, initialPlayerState, playerReducer } from './player-state';
@@ -47,7 +47,9 @@ function SceneView({ story, scene, status, muted, onEnded }: SceneViewProps): Re
   const elapsed = useSceneTimer(durationMs, playing && !useVoice, onEnded);
   const progress = useVoice ? voiceProgress : elapsed / durationMs;
   const line = scene.subtitles[Math.max(0, subtitleIndexAt(scene.subtitles, progress))] ?? '';
-  const narrator = story.narrators[scene.narrator]?.name ?? '';
+  // Mèo Miu is named; every other storyteller is just "the narration", so no "Người kể chuyện kể".
+  const narrator = story.narrators[scene.narrator]?.name;
+  const narratorLabel = scene.narrator === MIU_NARRATOR && narrator ? t('story.narratedBy', { name: narrator }) : t('story.narration');
 
   const voiceRef = useRef<HTMLAudioElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -88,7 +90,7 @@ function SceneView({ story, scene, status, muted, onEnded }: SceneViewProps): Re
         />
       )}
       <section className="subtitles" aria-label={t('story.subtitles')} data-id="story-subtitles">
-        <p className="subtitles-narrator">{t('story.narratedBy', { name: narrator })}</p>
+        <p className="subtitles-narrator">{narratorLabel}</p>
         <p className="subtitles-line" lang="vi" aria-live="polite" data-id="story-subtitle-line">
           {line}
         </p>
@@ -119,14 +121,15 @@ export function StoryPlayer({ story }: { story: Story }): ReactNode {
   }, [story, state.index]);
 
   if (!scene) return null;
+  const noMedia = storyHasNoMedia(story);
   const isFirst = state.index === 0;
   const playLabel = playing ? t('story.pause') : state.status === 'idle' ? t('story.start') : state.status === 'ended' ? t('story.replay') : t('story.resume');
 
   return (
     <div className="player" data-id="story-player" data-status={state.status}>
-      {storyHasNoMedia(story) && (
+      {noMedia && (
         <p className="player-note" data-id="story-no-media">
-          {t('story.noMedia')}
+          {t(`story.noMedia.${story.shelf}`)}
         </p>
       )}
       <p className="player-scene" data-id="story-scene-number">
@@ -151,9 +154,12 @@ export function StoryPlayer({ story }: { story: Story }): ReactNode {
         <button type="button" className="btn btn-secondary" onClick={() => dispatch({ type: 'next' })} disabled={state.status === 'ended'} data-id="story-next">
           {t('story.next')}
         </button>
-        <button type="button" className="btn btn-ghost" aria-pressed={state.muted} onClick={() => dispatch({ type: 'toggleMute' })} data-id="story-mute">
-          {state.muted ? t('story.unmute') : t('story.mute')}
-        </button>
+        {/* Nothing to mute until the story has a voice or music. */}
+        {!noMedia && (
+          <button type="button" className="btn btn-ghost" aria-pressed={state.muted} onClick={() => dispatch({ type: 'toggleMute' })} data-id="story-mute">
+            {state.muted ? t('story.unmute') : t('story.mute')}
+          </button>
+        )}
       </div>
     </div>
   );

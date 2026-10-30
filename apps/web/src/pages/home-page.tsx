@@ -50,7 +50,7 @@ function ShelfSection({ shelf, stories, linkToShelf }: { shelf: Shelf; stories: 
  * stories.
  */
 export function HomePage({ shelf }: { shelf?: Shelf }): ReactNode {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const [load, retry] = useLoad('stories', (signal) => fetchStoryList(signal));
   const shelves = shelf ? [shelf] : SHELVES;
 
@@ -86,7 +86,8 @@ export function HomePage({ shelf }: { shelf?: Shelf }): ReactNode {
         <div className="hero-text">
           <h1 className="hero-title">{shelf ? t(`shelf.${shelf}.title`) : t('home.title')}</h1>
           <p className="hero-lede">{shelf ? t(`shelf.${shelf}.lede`) : t('home.lede')}</p>
-          <p className="hero-lang">{t('story.language')}</p>
+          {/* Only worth saying to someone reading the site in another language. */}
+          {locale !== 'vi' && <p className="hero-lang">{t('story.language')}</p>}
           {shelf && (
             <a className="pill" href="/" data-id="shelf-all">
               {t('shelf.all')}

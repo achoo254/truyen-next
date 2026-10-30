@@ -1,6 +1,6 @@
 import { type ReactNode, useEffect } from 'react';
-import { brand } from '../brand';
 import { useI18n } from '../i18n/i18n';
+import { setPageMeta } from '../page-meta';
 import { StoryLoadError, fetchStory, shelfPath } from './story-api';
 import { StoryPlayer } from './story-player';
 import { useLoad } from './use-load';
@@ -8,10 +8,10 @@ import { useLoad } from './use-load';
 export function StoryPage({ slug }: { slug: string }): ReactNode {
   const { t } = useI18n();
   const [load, retry] = useLoad(slug, (signal) => fetchStory(slug, signal));
-  const title = load.status === 'ready' ? load.value.title : null;
+  const loaded = load.status === 'ready' ? load.value : null;
   useEffect(() => {
-    if (title !== null) document.title = `${title} · ${brand.appName}`;
-  }, [title]);
+    if (loaded) setPageMeta(loaded.title, loaded.summary);
+  }, [loaded]);
 
   if (load.status === 'loading') {
     return (

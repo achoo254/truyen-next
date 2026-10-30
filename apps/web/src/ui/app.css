@@ -181,7 +181,7 @@ a {
   display: flex;
   gap: 2px;
   margin: 0;
-  padding: 2px;
+  padding: 0;
   border: 1.5px solid var(--c-border-strong);
   border-radius: var(--radius-full);
   background: var(--c-surface);
@@ -189,7 +189,7 @@ a {
 
 .lang-option {
   min-width: var(--tap);
-  min-height: 38px;
+  min-height: var(--tap);
   border: 0;
   border-radius: var(--radius-full);
   background: transparent;

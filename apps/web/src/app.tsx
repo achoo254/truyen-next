@@ -1,8 +1,8 @@
 import { type ReactNode, useEffect } from 'react';
-import { brand } from './brand';
 import { useI18n } from './i18n/i18n';
 import { SitePage } from './layout/site-page';
 import { HomePage } from './pages/home-page';
+import { setPageMeta } from './page-meta';
 import { type LegalPageKind, LegalPage, legalTitle } from './pages/legal-pages';
 import { parseShelfPath, parseStoryPath } from './story/story-api';
 import { StoryPage } from './story/story-page';
@@ -38,11 +38,14 @@ export function App({ pathname }: { pathname: string }): ReactNode {
     // A story page sets its own title once the story has loaded.
     if (slug) return;
     let page: string;
+    let description = t('home.description');
     if (path === '/') page = t('home.title');
-    else if (shelf) page = t(`shelf.${shelf}.title`);
-    else if (legal) page = legalTitle(legal, locale);
+    else if (shelf) {
+      page = t(`shelf.${shelf}.title`);
+      description = t(`shelf.${shelf}.description`);
+    } else if (legal) page = legalTitle(legal, locale);
     else page = t('notFound.title');
-    document.title = `${page} · ${brand.appName}`;
+    setPageMeta(page, description);
   }, [path, legal, slug, shelf, locale, t]);
 
   let page: ReactNode;

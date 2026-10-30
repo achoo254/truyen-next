@@ -40,8 +40,8 @@ test('open the pilot story and step through it scene by scene', async ({ page })
   await expect(page.locator('[data-id=story-scene-number]')).toContainText('Cảnh 3/8');
   await page.click('[data-id=story-prev]');
   await expect(page.locator('[data-id=story-scene-number]')).toContainText('Cảnh 2/8');
-  await page.click('[data-id=story-mute]');
-  await expect(page.locator('[data-id=story-mute]')).toHaveAttribute('aria-pressed', 'true');
+  // No voice or music yet, so nothing to mute.
+  await expect(page.locator('[data-id=story-mute]')).toHaveCount(0);
 
   expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(page.viewportSize()?.width ?? 0);
   await page.screenshot({ path: test.info().outputPath('story-scene-2.png'), fullPage: true });

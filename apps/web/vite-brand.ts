@@ -93,7 +93,7 @@ export function renderIndexHtml(html: string, brand: TruyenBrand): string {
     `<link rel="canonical" href="${origin}/" />`,
     `<meta property="og:type" content="website" />`,
     `<meta property="og:site_name" content="${escapeHtml(brand.appName)}" />`,
-    `<meta property="og:title" content="${escapeHtml(brand.appName)} · cổ tích Việt Nam cho trẻ em" />`,
+    `<meta property="og:title" content="${escapeHtml(brand.appName)} · cổ tích và truyền thuyết Việt Nam" />`,
     `<meta property="og:description" content="${description}" />`,
     `<meta property="og:url" content="${origin}/" />`,
     `<meta property="og:locale" content="vi_VN" />`,

@@ -66,7 +66,8 @@ describe('story player without media', () => {
     advance(sceneMs(story, 0) * 0.02 + TICK_MS);
     expect(q('story-scene-number').textContent).toMatch(/^Cảnh 2\/8/);
     expect(q('story-subtitle-line').textContent).toBe(story.scenes[1]?.subtitles[0]);
-    expect(screen.getByText('Người kể chuyện kể')).toBeTruthy();
+    expect(screen.getByText('Lời kể')).toBeTruthy();
+    expect(screen.queryByText('Người kể chuyện kể')).toBeNull();
   });
 
   it('holds its place while paused and goes on from there', () => {
@@ -109,12 +110,22 @@ describe('story player without media', () => {
     expect(document.querySelector('[data-id=story-ended]')).toBeNull();
   });
 
-  it('toggles mute', () => {
+  it('offers no mute button while the story has no sound', () => {
     show();
+    expect(document.querySelector('[data-id=story-mute]')).toBeNull();
+  });
+});
+
+describe('story player mute', () => {
+  it('toggles mute', () => {
+    const pause = vi.spyOn(HTMLMediaElement.prototype, 'pause').mockImplementation(() => undefined);
+    const story = pilot();
+    show({ ...story, music: { ...story.music, file: 'media/music.m4a' } });
     expect(q('story-mute').getAttribute('aria-pressed')).toBe('false');
     fireEvent.click(q('story-mute'));
     expect(q('story-mute').getAttribute('aria-pressed')).toBe('true');
     expect(q('story-mute').textContent).toBe('Bật tiếng');
+    pause.mockRestore();
   });
 });
 
