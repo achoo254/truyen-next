@@ -2,7 +2,7 @@
 
 Truyện cổ Việt Nam xem từng cảnh: tranh, cảnh động, giọng kể, nhạc nền và phụ đề luôn hiện. Hai kệ trong cùng một
 app: **Trẻ em** (Mèo Miu dẫn chuyện, kể nhẹ nhàng cho trẻ nhỏ) và **Người lớn** (truyền thuyết, truyền kỳ, sự tích kể
-đầy đủ, theo sát truyện xưa). Không cần đăng nhập. Tên miền dự kiến `truyen.hoandat.com`, thuộc tầng app giải trí của hệ sinh thái hoandat.com.
+đầy đủ, theo sát truyện xưa). Không cần đăng nhập. Tên miền `truyen.hoandat.com`, thuộc tầng app giải trí của hệ sinh thái hoandat.com.
 
 Mọi tranh, cảnh động, giọng và nhạc **sinh sẵn** trên máy nhà rồi phục vụ tĩnh: không có lời gọi AI nào lúc người dùng
 xem, app chạy cả khi máy nhà tắt. Nội dung AI không thuộc giấy phép MIT của mã nguồn: xem [`CREDITS.md`](CREDITS.md).
@@ -62,11 +62,12 @@ pnpm lint           # eslint, check-brand, check:tokens, check:stories
 pnpm typecheck
 pnpm test           # vitest --maxWorkers=2
 pnpm build
-pnpm e2e            # Playwright: build + preview ở 5302, hai kệ, mở truyện và chuyển cảnh
+pnpm e2e            # Playwright: build + preview ở 5302, hai kệ, mở truyện và chuyển cảnh (E2E_BASE_URL=<url>: site đã deploy)
 ```
 
 Phục vụ production: `apps/web/dist` là file tĩnh; máy chủ web trả `index.html` cho mọi đường dẫn không phải file (ví dụ
-`/tre-em`, `/truyen/<slug>`). Chưa deploy.
+`/tre-em`, `/truyen/<slug>`). Production: `https://truyen.hoandat.com` trên máy chủ chung, đang chạy nhưng chưa
+quảng bá (không cho máy tìm kiếm lập chỉ mục); deploy, rollback và cách ra mắt: [`docs/deployment-guide.md`](docs/deployment-guide.md).
 
 ## Làm tranh, giọng kể, nhạc
 
