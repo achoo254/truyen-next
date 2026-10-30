@@ -1,5 +1,6 @@
 import { SHELVES, type Shelf, type StoryListEntry } from '@truyen/story';
 import type { ReactNode } from 'react';
+import printUrl from '../art/dong-ho-print.svg';
 import { useI18n } from '../i18n/i18n';
 import { fetchStoryList, shelfPath, storyPath } from '../story/story-api';
 import { useLoad } from '../story/use-load';
@@ -9,7 +10,7 @@ function ShelfSection({ shelf, stories, linkToShelf }: { shelf: Shelf; stories: 
   const { t } = useI18n();
   const headingId = `shelf-${shelf}-heading`;
   return (
-    <section className="shelf" aria-labelledby={headingId} data-id={`shelf-${shelf}`}>
+    <section className={`shelf shelf--${shelf} theme-${shelf}`} aria-labelledby={headingId} data-id={`shelf-${shelf}`}>
       <div className="shelf-head">
         <h2 className="shelf-title" id={headingId}>
           {t(`shelf.${shelf}`)}
@@ -29,7 +30,7 @@ function ShelfSection({ shelf, stories, linkToShelf }: { shelf: Shelf; stories: 
               <h3 className="story-card-title" lang="vi">
                 {entry.title}
               </h3>
-              <p className="muted">{t('home.length', { minutes: entry.minutes, scenes: entry.scenes })}</p>
+              <p className="story-card-length">{t('home.length', { minutes: entry.minutes, scenes: entry.scenes })}</p>
               <p className="story-card-summary" lang="vi">
                 {entry.summary}
               </p>
@@ -81,15 +82,21 @@ export function HomePage({ shelf }: { shelf?: Shelf }): ReactNode {
 
   return (
     <div className="home" data-id={shelf ? `shelf-page-${shelf}` : 'home-page'}>
-      <section className="hero">
-        <h1 className="hero-title">{shelf ? t(`shelf.${shelf}.title`) : t('home.title')}</h1>
-        <p className="hero-lede">{shelf ? t(`shelf.${shelf}.lede`) : t('home.lede')}</p>
-        <p className="muted">{t('story.language')}</p>
-        {shelf && (
-          <a className="pill" href="/" data-id="shelf-all">
-            {t('shelf.all')}
-          </a>
-        )}
+      <section className="hero" data-id="home-hero">
+        <div className="hero-text">
+          <h1 className="hero-title">{shelf ? t(`shelf.${shelf}.title`) : t('home.title')}</h1>
+          <p className="hero-lede">{shelf ? t(`shelf.${shelf}.lede`) : t('home.lede')}</p>
+          <p className="hero-lang">{t('story.language')}</p>
+          {shelf && (
+            <a className="pill" href="/" data-id="shelf-all">
+              {t('shelf.all')}
+            </a>
+          )}
+        </div>
+        {/* Decoration only: a woodblock print of the mountain, the water and a leaping carp. */}
+        <figure className="hero-print" aria-hidden="true">
+          <img src={printUrl} width={400} height={500} alt="" decoding="async" />
+        </figure>
       </section>
       {body}
     </div>

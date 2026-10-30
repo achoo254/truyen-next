@@ -42,7 +42,10 @@ Nguồn của từng truyện ghi ở trường `source` trong `story.json`; lu�
 
 Khung trang theo app tầng giải trí (Tử Vi, Clip): header (dấu, tên app, link, nút đổi ngôn ngữ), body, footer ("Một
 app của hoandat.com", Quyền riêng tư, Điều khoản, Ghi công). Lựa chọn ngôn ngữ lưu ở cookie `hd_lang` dùng chung qua
-`@achoo254/app-shell/preferences`. Một giao diện tối, không có nút sáng/tối.
+`@achoo254/app-shell/preferences`. Một giao diện sáng duy nhất, không có nút sáng/tối: tranh Đông Hồ trên giấy dó
+(nền giấy kem có thớ, chữ mực nâu, đỏ son, vàng nghệ, xanh lá; viền hồi văn, sóng, mây cuộn; trình xem là quyển sách
+mở). Kệ Trẻ em tươi hơn (nền vàng nghệ, nút đỏ son), kệ Người lớn tiết chế (mực và giấy). Màu chỉ nằm ở
+`apps/web/src/ui/tokens.css`; `pnpm brand:gen` vẽ lại biểu tượng và ảnh xem trước link.
 
 ## Chạy
 

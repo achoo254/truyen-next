@@ -42,7 +42,7 @@ export function StoryPage({ slug }: { slug: string }): ReactNode {
   const story = load.value;
   const shelf = t(`shelf.${story.shelf}`);
   return (
-    <article className="story" data-id="story-page">
+    <article className={`story theme-${story.shelf}`} data-id="story-page">
       <header className="story-head">
         <a className="back-link" href={shelfPath(story.shelf)} data-id="story-back">
           {t('story.backToShelf', { shelf })}
@@ -50,7 +50,7 @@ export function StoryPage({ slug }: { slug: string }): ReactNode {
         <h1 className="story-title" lang="vi">
           {story.title}
         </h1>
-        <p className="story-shelf" data-id="story-shelf" data-shelf={story.shelf}>
+        <p className="seal story-shelf" data-id="story-shelf" data-shelf={story.shelf}>
           {t('shelf.label', { shelf })}
         </p>
       </header>

@@ -102,7 +102,7 @@ const DOCS: Record<LegalPageKind, Record<Locale, LegalDoc>> = {
             'Truyện nào chưa có tranh, giọng kể và nhạc thì hiện nền trơn và phụ đề, không dùng hình hay âm thanh thay thế.',
           ],
         },
-        { heading: 'Biểu tượng và chữ', paragraphs: ['Biểu tượng app là hình vẽ vector tạm (quyển sách mở dưới vầng trăng). Chữ Inter: SIL Open Font License 1.1.'] },
+        { heading: 'Biểu tượng và chữ', paragraphs: ['Biểu tượng app là hình vẽ vector tạm (quyển sách mở dưới vầng trăng). Tranh ở trang chủ và hoạ tiết vẽ tay bằng SVG theo lối tranh Đông Hồ, không dùng AI. Chữ Alegreya và Alegreya Sans: SIL Open Font License 1.1.'] },
       ],
     },
     en: {
@@ -122,7 +122,7 @@ const DOCS: Record<LegalPageKind, Record<Locale, LegalDoc>> = {
             'A story without pictures, voice and music yet shows a plain backdrop and the subtitles; nothing stands in for them.',
           ],
         },
-        { heading: 'Icon and type', paragraphs: ['The app icon is an interim vector drawing (an open book under a crescent moon). Inter typeface: SIL Open Font License 1.1.'] },
+        { heading: 'Icon and type', paragraphs: ['The app icon is an interim vector drawing (an open book under a crescent moon). The home print and the ornaments are hand-drawn SVG in the manner of Đông Hồ woodblock prints, no AI. Alegreya and Alegreya Sans typefaces: SIL Open Font License 1.1.'] },
       ],
     },
   },

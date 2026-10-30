@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 500" width="400" height="500">
+  <!-- Truyện home print: a carp leaping from fish-scale waves under the sun, between the mountain and the water
+       (Sơn Tinh, Thủy Tinh), drawn as flat SVG in the manner of an Đông Hồ woodblock print: colour blocks printed a
+       little off the black key block, on a turmeric ground. Hand-drawn vector by hoandat, MIT like the code. The
+       colours are the app's palette (apps/web/src/ui/tokens.css): ink, paper, vermilion, turmeric, leaf. -->
+  <defs>
+    <pattern id="waves" width="28" height="14" patternUnits="userSpaceOnUse">
+      <rect width="28" height="14" fill="#f6ecd4"/>
+      <g fill="none" stroke="#2f1d0f" stroke-width="1.6">
+        <path d="M0 14A14 14 0 0 1 28 14M7 14A7 7 0 0 1 21 14M-14 7A14 14 0 0 1 14 7M14 7A14 14 0 0 1 42 7"/>
+      </g>
+    </pattern>
+    <pattern id="scales" width="10" height="6" patternUnits="userSpaceOnUse">
+      <path d="M0 6A5 5 0 0 1 10 6M-5 3A5 5 0 0 1 5 3M5 3A5 5 0 0 1 15 3" fill="none" stroke="#2f1d0f" stroke-width="1.1" stroke-opacity=".7"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="7" result="n"/>
+      <feColorMatrix in="n" values="0 0 0 0 .18  0 0 0 0 .11  0 0 0 0 .06  0 0 0 .22 -.04"/>
+    </filter>
+    <path id="mount-back" d="M24 334C58 304 82 226 120 192C140 176 158 184 172 206C202 252 232 302 266 334Z"/>
+    <path id="mount-front" d="M146 352C186 326 228 262 268 236C292 220 314 228 332 250C350 272 364 298 376 312V364H146Z"/>
+    <path id="sea" d="M24 356q22-28 44 0q22-28 44 0q22-28 44 0q22-28 44 0q22-28 44 0q22-28 44 0q22-28 44 0q22-28 44 0V476H24Z"/>
+    <path id="cloud-a" d="M44 128c-6-22 14-36 32-28c4-22 34-30 48-12c14-14 40-8 42 14c20 0 30 22 16 34H50c-8-2-10-6-6-8Z"/>
+    <path id="cloud-b" d="M262 186c-4-14 10-24 22-18c4-14 26-18 34-6c12-6 28 2 26 16c12 2 16 14 8 20H268c-6 0-8-8-6-12Z"/>
+    <g id="carp-body">
+      <path d="M-60 0C-40-27 20-31 47-6C53 0 53 4 47 8C20 29-40 25-60 0Z"/>
+      <path d="M-56 0L-90-26C-81-7-81 7-90 26Z"/>
+      <path d="M-30-19C-22-46 12-48 22-22Z"/>
+      <path d="M-10 18C-4 30 8 30 12 20Z"/>
+    </g>
+    <clipPath id="inner"><rect x="24" y="24" width="352" height="452"/></clipPath>
+    <clipPath id="carp-clip"><path d="M-60 0C-40-27 20-31 47-6C53 0 53 4 47 8C20 29-40 25-60 0Z"/></clipPath>
+  </defs>
+
+  <!-- paper and the turmeric ground -->
+  <rect width="400" height="500" fill="#f6ecd4"/>
+  <rect x="24" y="24" width="352" height="452" fill="#ecbb4f"/>
+
+  <g clip-path="url(#inner)">
+  <!-- colour blocks, printed a hair off the key block -->
+  <g transform="translate(3 2.5)">
+    <circle cx="292" cy="104" r="46" fill="#b8401f"/>
+    <use xlink:href="#cloud-a" fill="#f6ecd4"/>
+    <use xlink:href="#cloud-b" fill="#f6ecd4"/>
+    <use xlink:href="#mount-back" fill="#7d9a45"/>
+    <use xlink:href="#mount-front" fill="#4c7a35"/>
+  </g>
+  <use xlink:href="#sea" fill="url(#waves)"/>
+
+  <!-- key block: ink outlines -->
+  <g fill="none" stroke="#2f1d0f" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="292" cy="104" r="46" stroke-width="4"/>
+    <circle cx="292" cy="104" r="34" stroke-width="2" stroke-dasharray="3 7"/>
+    <use xlink:href="#cloud-a" stroke-width="3.5"/>
+    <use xlink:href="#cloud-b" stroke-width="3"/>
+    <path d="M78 118a10 10 0 1 1 12-12M118 114a12 12 0 1 1 14-14M156 120a8 8 0 1 1 10-9" stroke-width="2.5"/>
+    <path d="M290 182a7 7 0 1 1 9-8M322 184a6 6 0 1 1 8-7" stroke-width="2.2"/>
+    <use xlink:href="#mount-back" stroke-width="3.5"/>
+    <use xlink:href="#mount-front" stroke-width="3.5"/>
+    <path d="M66 300C90 262 104 230 124 212M150 222C170 248 190 284 212 316M100 306C116 280 126 262 136 252" stroke-width="2.4"/>
+    <path d="M226 300C250 270 270 254 294 250M316 264C334 282 350 302 362 326M256 320C272 300 288 288 306 286" stroke-width="2.4"/>
+    <path d="M96 236l6-12l6 12M188 268l5-10l5 10M300 236l6-12l6 12M340 270l5-10l5 10" stroke-width="2"/>
+    <use xlink:href="#sea" stroke-width="3.5"/>
+    <path d="M52 346a8 8 0 1 1 10 8M140 346a8 8 0 1 1 10 8M228 346a8 8 0 1 1 10 8M316 346a8 8 0 1 1 10 8" stroke-width="2.6"/>
+  </g>
+
+  <!-- the carp, leaping -->
+  <g transform="translate(192 318) rotate(-30) scale(1.15)">
+    <g transform="translate(3 2.5)" fill="#b8401f"><use xlink:href="#carp-body"/></g>
+    <rect x="-60" y="-30" width="110" height="60" fill="url(#scales)" clip-path="url(#carp-clip)"/>
+    <g fill="none" stroke="#2f1d0f" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+      <use xlink:href="#carp-body"/>
+      <path d="M22-15C28-5 28 6 22 15M-18-24l-2-14M-6-26l0-15M6-25l3-13M46 5q14 8 24 2M-90-26l20 18M-90 26l20-18M-90 0h22" stroke-width="2.2"/>
+    </g>
+    <circle cx="33" cy="-4" r="7" fill="#f6ecd4" stroke="#2f1d0f" stroke-width="2"/>
+    <circle cx="34" cy="-4" r="3.2" fill="#2f1d0f"/>
+  </g>
+  <g fill="#f6ecd4" stroke="#2f1d0f" stroke-width="2">
+    <circle cx="118" cy="300" r="5"/><circle cx="104" cy="318" r="3.5"/><circle cx="252" cy="268" r="4"/><circle cx="268" cy="284" r="3"/>
+  </g>
+
+  <!-- the printer's seal -->
+  <g transform="translate(40 40)">
+    <rect width="34" height="34" rx="3" fill="#b8401f" stroke="#2f1d0f" stroke-width="2"/>
+    <path d="M8 9h18M8 17h18M8 25h18M13 9v16M21 9v16" stroke="#f6ecd4" stroke-width="2.4" stroke-linecap="square"/>
+  </g>
+
+  </g>
+
+  <!-- frame: a heavy outer rule and a fine inner one, as on the prints -->
+  <rect x="12" y="12" width="376" height="476" fill="none" stroke="#2f1d0f" stroke-width="7"/>
+  <rect x="24" y="24" width="352" height="452" fill="none" stroke="#2f1d0f" stroke-width="2"/>
+  <rect width="400" height="500" filter="url(#grain)"/>
+</svg>

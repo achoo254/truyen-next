@@ -91,6 +91,10 @@ describe('routes', () => {
     expect(document.querySelector('[data-id=shelf-open-kids]')?.getAttribute('href')).toBe('/tre-em');
     expect(document.querySelector('[data-id=shelf-open-adults]')?.getAttribute('href')).toBe('/nguoi-lon');
     expect(document.querySelector('[data-id=story-open-thanh-giong]')?.getAttribute('href')).toBe('/truyen/thanh-giong');
+    // Each shelf wears its own look: brighter for children, ink for adults.
+    expect(document.querySelector('[data-id=shelf-kids]')?.classList.contains('theme-kids')).toBe(true);
+    expect(document.querySelector('[data-id=shelf-adults]')?.classList.contains('theme-adults')).toBe(true);
+    expect(document.querySelector('[data-id=home-hero] img')?.getAttribute('alt')).toBe('');
   });
 
   it('opens the children\'s shelf alone at /tre-em, with a way to all stories', async () => {
@@ -131,6 +135,7 @@ describe('routes', () => {
     const backLink = document.querySelector('[data-id=story-back]');
     expect(backLink?.getAttribute('href')).toBe(href);
     expect(backLink?.textContent).toBe(back);
+    expect(document.querySelector('[data-id=story-page]')?.classList.contains(href === '/tre-em' ? 'theme-kids' : 'theme-adults')).toBe(true);
   });
 
   it('shows the not-found page for an unknown path and a missing story', async () => {

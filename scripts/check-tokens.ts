@@ -2,8 +2,10 @@
  * `pnpm check:tokens`: design-token guard of the web app.
  *
  * 1. No colour literal in apps/web/src (ts, tsx, css) or apps/web/index.html outside src/ui/tokens.css.
- * 2. Every text/background pair the UI uses meets WCAG 2 AA (text 4.5:1), including the subtitles over their bar
- *    and over the plain scene backdrop, and outlines meet 3:1 (non-text) on the surfaces they sit on.
+ * 2. Every text/background pair the UI uses meets WCAG 2 AA (text 4.5:1): every text colour on every paper surface
+ *    (page, cards, header, the children's turmeric panel, the book's pages and the plain scene backdrop), the
+ *    labels of the vermilion and ink buttons, ink on the turmeric seals, the footer's text on its ink band; and
+ *    outlines meet 3:1 (non-text) on the surfaces they sit on.
  *
  * Exits 1 on any failure, printing file:line for literals and the ratio of each failing pair.
  */
@@ -19,9 +21,26 @@ const SCANNED = new Set(['.ts', '.tsx', '.css']);
 const AA_TEXT = 4.5;
 const AA_NON_TEXT = 3;
 
-const SCREEN_TEXT = ['--c-text', '--c-text-muted', '--c-primary', '--c-error'];
-const SCREEN_BACKGROUNDS = ['--c-bg', '--c-surface', '--c-surface-raised', '--c-topbar', '--c-subtitle-bg', '--c-stage-top', '--c-stage-bottom'];
+const SCREEN_TEXT = ['--c-text', '--c-text-muted', '--c-primary', '--c-leaf', '--c-error'];
+const SCREEN_BACKGROUNDS = [
+  '--c-bg',
+  '--c-surface',
+  '--c-surface-raised',
+  '--c-topbar',
+  '--c-kids-panel',
+  '--c-page',
+  '--c-subtitle-bg',
+  '--c-stage-top',
+  '--c-stage-bottom',
+];
 const OUTLINES = ['--c-border-strong', '--c-focus'];
+/** Solid fills and the text drawn on them: buttons (vermilion, ink) and seals (turmeric, ink). */
+const ON_FILLS: ReadonlyArray<readonly [string, string[]]> = [
+  ['--c-on-primary', ['--c-primary-solid', '--c-primary-solid-hover']],
+  ['--c-on-ink', ['--c-ink-solid', '--c-ink-solid-hover']],
+  ['--c-text', ['--c-turmeric']],
+];
+const FOOT_TEXT = ['--c-foot-text', '--c-foot-muted', '--c-foot-link'];
 
 async function sourceFiles(dir: string): Promise<string[]> {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -52,8 +71,10 @@ function pairs(tokens: TokenMap): Array<readonly [string, string, string, number
   const v = (name: string): string => value(tokens, name);
   const list: Array<readonly [string, string, string, number]> = [];
   for (const fg of SCREEN_TEXT) for (const bg of SCREEN_BACKGROUNDS) list.push([`${fg} on ${bg}`, v(fg), v(bg), AA_TEXT]);
-  for (const bg of ['--c-primary-solid', '--c-primary-solid-hover']) list.push([`--c-on-primary on ${bg}`, v('--c-on-primary'), v(bg), AA_TEXT]);
-  for (const fg of OUTLINES) for (const bg of ['--c-bg', '--c-surface', '--c-topbar']) list.push([`${fg} (outline) on ${bg}`, v(fg), v(bg), AA_NON_TEXT]);
+  for (const [fg, fills] of ON_FILLS) for (const bg of fills) list.push([`${fg} on ${bg}`, v(fg), v(bg), AA_TEXT]);
+  for (const fg of FOOT_TEXT) list.push([`${fg} on --c-foot`, v(fg), v('--c-foot'), AA_TEXT]);
+  for (const fg of OUTLINES) for (const bg of SCREEN_BACKGROUNDS) list.push([`${fg} (outline) on ${bg}`, v(fg), v(bg), AA_NON_TEXT]);
+  list.push(['--c-focus-on-dark (outline) on --c-foot', v('--c-focus-on-dark'), v('--c-foot'), AA_NON_TEXT]);
   return list;
 }
 

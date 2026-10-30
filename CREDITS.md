@@ -57,5 +57,8 @@ theo ảnh dựng của Miu trong Miu World (`--ref`), để hai app cùng một
 
 | Tài sản | Tác giả | Giấy phép |
 | --- | --- | --- |
-| `brand/icon.svg`, `brand/icon-maskable.svg` và mọi file sinh ra từ chúng trong `brand/generated/` | hoandat (hình vector tạm: quyển sách mở dưới vầng trăng, vẽ bằng hình SVG cơ bản) | Như mã nguồn (MIT). Sẽ thay bằng biểu tượng vẽ bằng AI trên máy nhà |
-| Font Inter (gói `@fontsource/inter`, có subset tiếng Việt) | The Inter Project Authors | SIL Open Font License 1.1 |
+| `brand/icon.svg`, `brand/icon-maskable.svg` và mọi file sinh ra từ chúng trong `brand/generated/` | hoandat (hình vector **tạm**: quyển sách mở dưới vầng trăng khuyết vàng nghệ, viền mực trên nền đỏ son theo bảng màu tranh Đông Hồ, vẽ bằng hình SVG cơ bản) | Như mã nguồn (MIT). Sẽ thay bằng biểu tượng vẽ bằng AI trên máy nhà |
+| `apps/web/src/art/dong-ho-print.svg` (tranh ở trang chủ: cá chép vượt sóng dưới mặt trời, giữa núi và nước) và `apps/web/public/og-image.png` (ảnh xem trước link, `pnpm brand:gen` dựng từ tranh này cùng tên app) | hoandat (vẽ tay bằng SVG theo lối tranh khắc gỗ Đông Hồ, không dùng AI) | Như mã nguồn (MIT) |
+| Hoạ tiết giấy dó, viền hồi văn, sóng, mây cuộn (SVG trong `apps/web/src/ui/tokens.css`) | hoandat | Như mã nguồn (MIT) |
+| Font Alegreya (tiêu đề, gói `@fontsource/alegreya`, có subset tiếng Việt) | The Alegreya Project Authors (Huerta Tipográfica) | SIL Open Font License 1.1 |
+| Font Alegreya Sans (chữ đọc, gói `@fontsource/alegreya-sans`, có subset tiếng Việt) | The Alegreya Sans Project Authors (Huerta Tipográfica) | SIL Open Font License 1.1 |

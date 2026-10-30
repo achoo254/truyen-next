@@ -1,22 +1,39 @@
-/* Layout and components of the web app; colours only from tokens.css. */
+/* Layout and components of the web app; colours only from tokens.css. An Đông Hồ print on giấy dó: paper surfaces,
+   ink rules, vermilion for what can be pressed; the children's shelf brighter (turmeric), the adults' quieter (ink). */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-html,
+html {
+  background: var(--c-bg);
+}
+
 body {
   margin: 0;
-  background: var(--c-bg);
+  background-color: var(--c-bg);
+  background-image: var(--paper-texture);
   color: var(--c-text);
   font-family: var(--font-sans);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.005em;
+  text-wrap: balance;
 }
 
 a {
   color: var(--c-primary);
+  text-underline-offset: 3px;
 }
 
 :focus-visible {
@@ -64,14 +81,42 @@ a {
   top: var(--space-2);
 }
 
-/* Header: mark and name, links, language. */
+/* Shelf themes: the children's shelf (and every page outside a shelf) presses in vermilion, the adults' in ink;
+   titles and seals follow. */
+.site,
+.theme-kids {
+  --btn-bg: var(--c-primary-solid);
+  --btn-bg-hover: var(--c-primary-solid-hover);
+  --btn-fg: var(--c-on-primary);
+  --accent: var(--c-primary);
+  --seal-bg: var(--c-turmeric);
+  --seal-fg: var(--c-text);
+}
+
+.theme-adults {
+  --btn-bg: var(--c-ink-solid);
+  --btn-bg-hover: var(--c-ink-solid-hover);
+  --btn-fg: var(--c-on-ink);
+  --accent: var(--c-leaf);
+  --seal-bg: var(--c-ink-solid);
+  --seal-fg: var(--c-on-ink);
+}
+
+/* Header: the mark and name on paper, over a hồi văn fret border. */
 .topbar {
   position: sticky;
   top: 0;
   z-index: 5;
-  background: var(--c-topbar);
-  border-bottom: 1px solid var(--c-border);
+  background-color: var(--c-topbar);
+  background-image: var(--paper-texture);
   padding-top: env(safe-area-inset-top, 0px);
+}
+
+.topbar::after {
+  content: '';
+  display: block;
+  height: 14px;
+  background: var(--band-fret) repeat-x left center;
 }
 
 .topbar-inner {
@@ -86,15 +131,19 @@ a {
   display: flex;
   align-items: center;
   gap: var(--space-2);
+  min-height: var(--tap);
   color: var(--c-text);
   text-decoration: none;
-  font-weight: 700;
-  font-size: 1.2rem;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.6rem;
+  line-height: 1;
   white-space: nowrap;
 }
 
 .brand-mark {
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
+  box-shadow: 0 0 0 2px var(--c-text);
 }
 
 .topbar-end,
@@ -105,11 +154,22 @@ a {
 }
 
 .pill {
-  padding: var(--space-1) var(--space-3);
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  padding: 0 var(--space-4);
   border-radius: var(--radius-full);
   color: var(--c-text);
   text-decoration: none;
-  border: 1px solid var(--c-border);
+  font-weight: 500;
+  border: 1.5px solid var(--c-border-strong);
+  background: var(--c-surface);
+  transition: border-color var(--dur-base), color var(--dur-base);
+}
+
+.pill:hover {
+  border-color: var(--c-primary);
+  color: var(--c-primary);
 }
 
 .pill[aria-current='page'] {
@@ -122,43 +182,60 @@ a {
   gap: 2px;
   margin: 0;
   padding: 2px;
-  border: 1px solid var(--c-border);
+  border: 1.5px solid var(--c-border-strong);
   border-radius: var(--radius-full);
+  background: var(--c-surface);
 }
 
 .lang-option {
-  min-width: 40px;
-  min-height: 32px;
+  min-width: var(--tap);
+  min-height: 38px;
   border: 0;
   border-radius: var(--radius-full);
   background: transparent;
   color: var(--c-text-muted);
   font: inherit;
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 700;
   cursor: pointer;
 }
 
 .lang-option[aria-pressed='true'] {
-  background: var(--c-surface-raised);
-  color: var(--c-text);
+  background: var(--c-ink-solid);
+  color: var(--c-on-ink);
 }
 
 .main {
   flex: 1;
-  padding-top: var(--space-5);
-  padding-bottom: var(--space-7);
+  padding-top: var(--space-6);
+  padding-bottom: var(--space-8);
 }
 
 .main:focus {
   outline: none;
 }
 
-/* Footer: ecosystem link, legal pages, note. */
+/* Footer: an ink band under a row of wave crests. */
 .foot {
-  border-top: 1px solid var(--c-border);
-  background: var(--c-topbar);
-  padding: var(--space-5) 0 calc(var(--space-5) + env(safe-area-inset-bottom, 0px));
+  position: relative;
+  margin-top: 18px;
+  background: var(--c-foot);
+  color: var(--c-foot-text);
+  padding: var(--space-6) 0 calc(var(--space-6) + env(safe-area-inset-bottom, 0px));
+}
+
+.foot::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -17px;
+  height: 18px;
+  background: var(--band-waves) repeat-x left bottom;
+}
+
+.foot :focus-visible {
+  outline-color: var(--c-focus-on-dark);
 }
 
 .foot-inner {
@@ -166,7 +243,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: var(--space-3);
+  gap: var(--space-3) var(--space-5);
 }
 
 .foot-brand {
@@ -175,26 +252,37 @@ a {
   gap: var(--space-2);
 }
 
+.foot-mark {
+  border-radius: var(--radius-sm);
+}
+
 .foot-home,
 .foot-link {
-  color: var(--c-text-muted);
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  color: var(--c-foot-text);
+}
+
+.foot-home:hover,
+.foot-link:hover,
+.foot-link[aria-current='page'] {
+  color: var(--c-foot-link);
 }
 
 .foot-links {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-4);
-}
-
-.foot-link[aria-current='page'] {
-  color: var(--c-primary);
+  gap: 0 var(--space-5);
 }
 
 .foot-note {
   flex-basis: 100%;
   margin: 0;
-  color: var(--c-text-muted);
-  font-size: 0.875rem;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--c-text-muted);
+  color: var(--c-foot-muted);
+  font-size: 0.9rem;
 }
 
 .only-phone {
@@ -207,16 +295,19 @@ a {
   }
 
   .only-phone {
-    display: inline;
+    display: inline-flex;
   }
 }
 
-/* Shared pieces. */
+/* Shared pieces. A card is a sheet of paper with the print's double rule. */
 .card {
   background: var(--c-surface);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-lg);
+  border: 2px solid var(--c-text);
+  border-radius: var(--radius-sm);
+  outline: 1px solid var(--c-border-strong);
+  outline-offset: -7px;
   padding: var(--space-5);
+  box-shadow: var(--shadow-card);
 }
 
 .muted {
@@ -229,14 +320,21 @@ a {
   gap: var(--space-3);
 }
 
-.badge {
-  display: inline-block;
+/* A seal: the square red-or-ink stamp of the prints, here a label. */
+.seal {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
   margin: 0;
-  padding: var(--space-1) var(--space-3);
-  border: 1px solid var(--c-primary);
-  border-radius: var(--radius-full);
-  color: var(--c-primary);
-  font-size: 0.875rem;
+  padding: 2px var(--space-3);
+  border: 2px solid var(--c-text);
+  border-radius: var(--radius-sm);
+  background: var(--seal-bg, var(--c-turmeric));
+  color: var(--seal-fg, var(--c-text));
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 .btn {
@@ -245,39 +343,55 @@ a {
   justify-content: center;
   min-height: 48px;
   padding: var(--space-2) var(--space-5);
-  border-radius: var(--radius-full);
-  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--c-text);
   font: inherit;
-  font-weight: 600;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.25;
   text-decoration: none;
   cursor: pointer;
-  transition: background var(--dur-base);
+  box-shadow: 0 3px 0 var(--c-text);
+  transition:
+    background var(--dur-base),
+    transform var(--dur-base) var(--ease),
+    box-shadow var(--dur-base) var(--ease);
+}
+
+.btn:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 var(--c-text);
 }
 
 .btn:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+  box-shadow: none;
 }
 
 .btn-primary {
-  background: var(--c-primary-solid);
-  color: var(--c-on-primary);
+  background: var(--btn-bg, var(--c-primary-solid));
+  color: var(--btn-fg, var(--c-on-primary));
 }
 
 .btn-primary:hover:not(:disabled) {
-  background: var(--c-primary-solid-hover);
+  background: var(--btn-bg-hover, var(--c-primary-solid-hover));
 }
 
 .btn-secondary {
-  background: var(--c-surface-raised);
+  background: var(--c-surface);
   color: var(--c-text);
-  border-color: var(--c-border-strong);
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: var(--c-surface-raised);
 }
 
 .btn-ghost {
   background: transparent;
   color: var(--c-text);
-  border-color: var(--c-border);
+  border-color: var(--c-border-strong);
+  box-shadow: none;
 }
 
 .btn-ghost[aria-pressed='true'] {
@@ -285,25 +399,103 @@ a {
   color: var(--c-primary);
 }
 
-/* Home. */
+/* Home: the title beside the framed print. */
 .hero {
-  margin-bottom: var(--space-6);
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+  align-items: center;
+  gap: var(--space-7);
+  margin-bottom: var(--space-8);
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-3);
 }
 
 .hero-title {
-  margin: 0 0 var(--space-2);
-  font-size: clamp(1.8rem, 5vw, 2.6rem);
-  line-height: 1.2;
+  margin: 0;
+  font-size: clamp(2.2rem, 5.2vw, 3.6rem);
+  line-height: 1.05;
+}
+
+/* The cloud curl under the title, in vermilion. */
+.hero-title::after {
+  content: '';
+  display: block;
+  width: 96px;
+  height: 60px;
+  margin-top: var(--space-2);
+  background: var(--c-vermilion);
+  -webkit-mask: var(--orn-cloud) no-repeat left center / contain;
+  mask: var(--orn-cloud) no-repeat left center / contain;
 }
 
 .hero-lede {
-  margin: 0 0 var(--space-2);
-  font-size: 1.1rem;
+  margin: 0;
+  max-width: 34em;
+  font-size: 1.15rem;
 }
 
-/* Shelves: children's, then adults'. */
+.hero-lang {
+  margin: 0;
+  color: var(--c-text-muted);
+  font-style: italic;
+}
+
+.hero-print {
+  justify-self: center;
+  width: 100%;
+  max-width: 340px;
+  margin: 0;
+  transform: rotate(1.5deg);
+  box-shadow: var(--shadow-print);
+}
+
+.hero-print img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 759px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-5);
+    margin-bottom: var(--space-7);
+  }
+
+  /* On phones the print is a band across the page: the mountain, the carp and the waves. */
+  .hero-print {
+    order: -1;
+    max-width: none;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    transform: none;
+    border: 3px solid var(--c-text);
+  }
+
+  /* Wider than the band so the print's own side rules fall outside it; the band's border is the frame. */
+  .hero-print img {
+    width: 114%;
+    max-width: none;
+    height: 100%;
+    margin-left: -7%;
+    object-fit: cover;
+    object-position: 50% 62%;
+  }
+
+  .hero-title::after {
+    width: 72px;
+    height: 44px;
+  }
+}
+
+/* Shelves: children's (a turmeric wash with cloud curls), then adults' (ink rules on paper). */
 .shelf + .shelf {
-  margin-top: var(--space-7);
+  margin-top: var(--space-8);
 }
 
 .shelf-head {
@@ -311,13 +503,59 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: var(--space-2) var(--space-4);
-  margin-bottom: var(--space-4);
+  gap: var(--space-3) var(--space-4);
+  margin-bottom: var(--space-5);
 }
 
 .shelf-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
   margin: 0;
-  font-size: 1.6rem;
+  font-size: clamp(1.7rem, 4vw, 2.2rem);
+}
+
+/* The seal before the shelf name: a small stamp in the shelf's colour. */
+.shelf-title::before {
+  content: '';
+  flex: none;
+  width: 22px;
+  height: 22px;
+  border: 2px solid var(--c-text);
+  border-radius: 3px;
+  background: var(--seal-bg);
+  transform: rotate(-6deg);
+}
+
+.shelf--kids {
+  position: relative;
+  padding: var(--space-6) var(--space-5) var(--space-7);
+  background: var(--c-kids-panel);
+  border: 2px solid var(--c-text);
+  border-radius: var(--radius-lg);
+}
+
+.shelf--kids::after {
+  content: '';
+  position: absolute;
+  width: 64px;
+  height: 40px;
+  background: var(--c-vermilion);
+  -webkit-mask: var(--orn-cloud) no-repeat center / contain;
+  mask: var(--orn-cloud) no-repeat center / contain;
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+.shelf--kids::after {
+  right: var(--space-4);
+  bottom: 4px;
+  transform: rotate(180deg);
+}
+
+.shelf--adults {
+  padding-top: var(--space-6);
+  border-top: 3px double var(--c-text);
 }
 
 .story-list {
@@ -325,8 +563,8 @@ a {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr));
+  gap: var(--space-5);
 }
 
 .story-card {
@@ -334,41 +572,102 @@ a {
   flex-direction: column;
   align-items: flex-start;
   gap: var(--space-2);
+  position: relative;
+  transition: transform var(--dur-base) var(--ease);
+}
+
+.story-card > :last-child {
+  margin-top: auto;
+}
+
+/* A cloud curl in the card's top corner, in the shelf's accent. */
+.story-card::after {
+  content: '';
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  width: 44px;
+  height: 28px;
+  background: var(--accent);
+  -webkit-mask: var(--orn-cloud) no-repeat center / contain;
+  mask: var(--orn-cloud) no-repeat center / contain;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+/* The children's cards hang a little askew, as pinned up; straight again under the pointer. */
+.shelf--kids .story-card:nth-child(odd) {
+  transform: rotate(-0.8deg);
+}
+
+.shelf--kids .story-card:nth-child(even) {
+  transform: rotate(0.7deg);
+}
+
+.shelf--kids .story-card:hover {
+  transform: rotate(0deg) translateY(-2px);
 }
 
 .story-card-title {
   margin: 0;
-  font-size: 1.4rem;
+  padding-right: 48px;
+  font-size: 1.55rem;
+  color: var(--c-text);
+}
+
+.story-card-length {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 0.95rem;
 }
 
 .story-card-summary {
-  margin: 0 0 var(--space-2);
+  margin: 0 0 var(--space-3);
+}
+
+.shelf--adults .story-card-summary {
+  font-family: var(--font-display);
+  font-size: 1.08rem;
 }
 
 /* Story page and player. */
 .story-head {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: var(--space-2);
-  margin-bottom: var(--space-4);
+  margin-bottom: var(--space-5);
+  text-align: center;
+}
+
+.back-link {
+  order: -2;
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  font-weight: 700;
+}
+
+.back-link::before {
+  content: '←';
+  margin-right: var(--space-2);
 }
 
 .story-shelf {
-  margin: 0;
-  color: var(--c-text-muted);
+  order: -1;
 }
 
 .story-title {
   margin: 0;
-  font-size: clamp(1.6rem, 5vw, 2.2rem);
-  line-height: 1.2;
+  font-size: clamp(2rem, 6vw, 3rem);
 }
 
 .player {
   display: flex;
   flex-direction: column;
-  gap: var(--space-3);
+  gap: var(--space-4);
   max-width: 520px;
   margin: 0 auto;
 }
@@ -381,29 +680,44 @@ a {
 
 .player-note {
   color: var(--c-text-muted);
-  font-size: 0.9rem;
-}
-
-.player-ended {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--c-primary);
+  font-size: 0.95rem;
+  font-style: italic;
   text-align: center;
 }
 
-.stage {
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  border: 1px solid var(--c-border);
-  background: var(--c-stage-bottom);
+.player-scene {
+  text-align: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--accent);
 }
 
-/* Vertical 9:16 like the generated stills and clips; shorter on small screens so the controls stay in view. */
+.player-ended {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--accent);
+  text-align: center;
+}
+
+/* The book: one page on phones (picture over text), an open spread from tablets up (picture left, text right). */
+.stage {
+  position: relative;
+  background: var(--c-page);
+  border: 2px solid var(--c-text);
+  border-radius: var(--radius-sm) var(--radius-sm) var(--radius-md) var(--radius-md);
+  box-shadow: var(--shadow-book);
+}
+
 .stage-picture {
   aspect-ratio: 9 / 16;
   max-height: 50vh;
-  width: 100%;
-  margin: 0 auto;
+  width: auto;
+  margin: var(--space-3) auto 0;
+  border: 2px solid var(--c-text);
+  overflow: hidden;
+  background: var(--c-stage-bottom);
 }
 
 .stage-media {
@@ -420,43 +734,71 @@ a {
   align-items: center;
   justify-content: center;
   padding: var(--space-5);
-  background: linear-gradient(var(--c-stage-top), var(--c-stage-bottom));
+  background-color: var(--c-stage-bottom);
+  background-image: linear-gradient(var(--c-stage-top), var(--c-stage-bottom));
+}
+
+/* The children's backdrop: fish-scale water under the title. */
+.theme-kids .stage-plain {
+  background-image: var(--pattern-scales), linear-gradient(var(--c-stage-top), var(--c-stage-bottom));
 }
 
 .stage-plain-title {
   margin: 0;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  font-weight: 800;
+  line-height: 1.2;
   text-align: center;
-  color: var(--c-text-muted);
+  color: var(--c-text);
+  text-wrap: balance;
+}
+
+.stage-plain-title::after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 40px;
+  margin: var(--space-3) auto 0;
+  background: var(--accent);
+  -webkit-mask: var(--orn-cloud) no-repeat center / contain;
+  mask: var(--orn-cloud) no-repeat center / contain;
 }
 
 .subtitles {
+  display: flex;
+  flex-direction: column;
   background: var(--c-subtitle-bg);
-  padding: var(--space-3) var(--space-4) var(--space-4);
+  padding: var(--space-4) var(--space-5) var(--space-5);
 }
 
 .subtitles-narrator {
   margin: 0;
-  color: var(--c-primary);
-  font-size: 0.875rem;
-  font-weight: 600;
+  color: var(--accent);
+  font-size: 0.95rem;
+  font-weight: 700;
 }
 
 .subtitles-line {
-  margin: var(--space-1) 0 var(--space-3);
+  margin: var(--space-1) 0 var(--space-4);
   min-height: 3.2em;
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.6;
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.55;
+}
+
+.theme-adults .subtitles-line {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.4rem;
 }
 
 .scene-progress {
   display: block;
   width: 100%;
-  height: 4px;
+  height: 6px;
   appearance: none;
-  border: 0;
+  border: 1px solid var(--c-border-strong);
   border-radius: var(--radius-full);
   background: var(--c-surface-raised);
   overflow: hidden;
@@ -467,17 +809,73 @@ a {
 }
 
 .scene-progress::-webkit-progress-value {
-  background: var(--c-primary);
+  background: var(--accent);
 }
 
 .scene-progress::-moz-progress-bar {
-  background: var(--c-primary);
+  background: var(--accent);
+}
+
+@media (min-width: 880px) {
+  .player {
+    max-width: 920px;
+  }
+
+  .stage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: min(68vh, 600px);
+    border-radius: var(--radius-sm);
+  }
+
+  /* The fold between the two pages. */
+  .stage::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(50% - 24px);
+    width: 48px;
+    background: var(--shadow-spine);
+    pointer-events: none;
+  }
+
+  .stage-picture {
+    align-self: center;
+    height: min(60vh, 540px);
+    max-height: none;
+    margin: var(--space-5) auto;
+  }
+
+  .subtitles {
+    justify-content: center;
+    padding: var(--space-7) var(--space-7) var(--space-6);
+  }
+
+  .subtitles-line {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    margin: var(--space-4) 0;
+    font-size: 1.6rem;
+  }
+
+  .theme-adults .subtitles-line {
+    font-size: 1.65rem;
+  }
+
+  .controls {
+    max-width: 640px;
+    margin: 0 auto;
+    width: 100%;
+  }
 }
 
 .controls {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-2);
+  gap: var(--space-3);
+  margin-top: var(--space-2);
 }
 
 @media (min-width: 480px) {
@@ -486,27 +884,33 @@ a {
   }
 }
 
-.back-link {
-  font-size: 0.95rem;
-}
-
 /* Legal pages and 404. */
 .doc {
-  max-width: 720px;
+  max-width: 760px;
 }
 
 .doc-title {
   margin-top: 0;
-  line-height: 1.25;
+  font-size: clamp(1.9rem, 5vw, 2.6rem);
 }
 
 .doc-heading {
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   margin-top: var(--space-5);
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .btn {
+  .btn,
+  .pill,
+  .story-card {
     transition: none;
+  }
+
+  .btn:active:not(:disabled) {
+    transform: none;
+  }
+
+  .shelf--kids .story-card:hover {
+    transform: none;
   }
 }
