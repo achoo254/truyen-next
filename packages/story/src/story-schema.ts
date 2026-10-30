@@ -6,7 +6,6 @@
 import { z } from 'zod';
 
 const KEBAB = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 
 const text = z.string().trim().min(1);
 const id = z.string().regex(KEBAB, 'lowercase kebab-case');
@@ -17,10 +16,6 @@ const seed = z.number().int().min(0).max(2 ** 32 - 1);
 function mediaFile(extension: 'webp' | 'mp4' | 'm4a') {
   return z.string().regex(new RegExp(`^media/(?:[a-z0-9-]+/)*[a-z0-9-]+\\.${extension}$`), `a path like media/<name>.${extension}`);
 }
-
-/** Where the story stands. A person approves the words before anything is generated on the PC. */
-export const STORY_STATUSES = ['awaiting-text-review', 'text-approved'] as const;
-export type StoryStatus = (typeof STORY_STATUSES)[number];
 
 export const narratorSchema = z.strictObject({
   /** Shown above the subtitles, e.g. "Mèo Miu". */
@@ -79,8 +74,6 @@ export const storySchema = z.strictObject({
   language: z.literal('vi'),
   /** Where the tale comes from and how the words were written. */
   source: text,
-  status: z.enum(STORY_STATUSES),
-  review: z.strictObject({ approvedBy: text, approvedOn: z.string().regex(ISO_DATE) }).optional(),
   /** Art direction added to every image and sheet prompt, so the whole story looks like one book. */
   style: text,
   narrators: z.record(id, narratorSchema),

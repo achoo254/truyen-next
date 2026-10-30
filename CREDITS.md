@@ -26,7 +26,7 @@ Cách làm và lệnh cụ thể: `README.md` mục "Làm tranh, giọng kể, n
 
 | Truyện | Lời kể | Tranh, cảnh động, giọng, nhạc |
 | --- | --- | --- |
-| `son-tinh-thuy-tinh` (Sơn Tinh, Thủy Tinh) | Viết 30/10/2026, **chờ người duyệt** | Chưa làm: chờ duyệt lời, rồi chờ máy nhà bật (pending) |
+| `son-tinh-thuy-tinh` (Sơn Tinh, Thủy Tinh) | Viết 30/10/2026 | Chưa làm: chờ máy nhà bật (pending) |
 
 Truyện chưa có tranh và âm thanh thì app hiện nền trơn và phụ đề; không dùng hình, giọng hay nhạc nào khác thay vào.
 

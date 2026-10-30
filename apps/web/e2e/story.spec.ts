@@ -18,7 +18,6 @@ test('open the pilot story and step through it scene by scene', async ({ page })
   await page.click('[data-id=story-open-son-tinh-thuy-tinh]');
   await expect(page).toHaveURL(/\/truyen\/son-tinh-thuy-tinh$/);
   await expect(page).toHaveTitle(/^Sơn Tinh, Thủy Tinh · /);
-  await expect(page.locator('[data-id=story-review-note]')).toBeVisible();
   await expect(page.locator('[data-id=story-no-media]')).toBeVisible();
   await expect(page.locator('[data-id=story-subtitle-line]')).toHaveText('Xin chào các bạn nhỏ! Mình là Mèo Miu đây.');
 

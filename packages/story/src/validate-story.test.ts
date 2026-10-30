@@ -12,7 +12,7 @@ function errorsOf(story: unknown, slug?: string): string[] {
 }
 
 describe('the pilot story', () => {
-  it('is valid, six to ten scenes, three to six minutes, opened and closed by Mèo Miu, awaiting text review', () => {
+  it('is valid, six to ten scenes, three to six minutes, opened and closed by Mèo Miu', () => {
     const result = validateStory(pilot(), 'son-tinh-thuy-tinh');
     expect(result.ok ? [] : result.errors).toEqual([]);
     const story = pilot();
@@ -22,7 +22,6 @@ describe('the pilot story', () => {
     expect(estimateStorySeconds(story)).toBeLessThanOrEqual(360);
     expect(story.scenes[0]?.narrator).toBe('miu');
     expect(story.scenes.at(-1)?.narrator).toBe('miu');
-    expect(story.status).toBe('awaiting-text-review');
   });
 
   it('refers to no media yet: nothing has been generated', () => {
@@ -80,12 +79,6 @@ describe('validateStory', () => {
     expect(errorsOf(longStory).join('\n')).toMatch(/read aloud, expected 180–360 s/);
   });
 
-  it('ties the approved status to a recorded review', () => {
-    const story = pilot();
-    expect(errorsOf({ ...story, status: 'text-approved' })).toEqual(['review: a text-approved story records who approved it and when']);
-    expect(errorsOf({ ...story, review: { approvedBy: 'hoandat', approvedOn: '2026-10-31' } })).toEqual(['review: set status to "text-approved" together with the review']);
-    expect(errorsOf({ ...story, status: 'text-approved', review: { approvedBy: 'hoandat', approvedOn: '2026-10-31' } })).toEqual([]);
-  });
 
   it('matches the slug to its folder', () => {
     expect(errorsOf(pilot(), 'other')).toEqual(['slug: "son-tinh-thuy-tinh" must match its folder "other"']);

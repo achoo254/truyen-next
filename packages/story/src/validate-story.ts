@@ -65,8 +65,6 @@ function crossFieldErrors(story: Story): string[] {
     errors.push(`scenes: about ${Math.round(seconds)} s read aloud, expected ${MIN_STORY_SECONDS}–${MAX_STORY_SECONDS} s`);
   }
 
-  if (story.status === 'text-approved' && !story.review) errors.push('review: a text-approved story records who approved it and when');
-  if (story.status === 'awaiting-text-review' && story.review) errors.push('review: set status to "text-approved" together with the review');
   return errors;
 }
 

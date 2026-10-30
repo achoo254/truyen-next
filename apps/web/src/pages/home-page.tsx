@@ -35,7 +35,6 @@ export function HomePage(): ReactNode {
               {entry.title}
             </h2>
             <p className="muted">{t('home.length', { minutes: entry.minutes, scenes: entry.scenes })}</p>
-            {entry.status !== 'text-approved' && <p className="badge">{t('home.awaitingReview')}</p>}
             <p className="story-card-summary" lang="vi">
               {entry.summary}
             </p>

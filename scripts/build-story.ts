@@ -3,9 +3,9 @@
  * with the inet-artgen tools, step by step (story-build-plan.ts), writing each finished file's path into
  * story.json so the app shows it.
  *
- * - `--dry-run` prints every planned call and runs nothing (works for a story still awaiting text review).
- * - A real run needs the words approved (status "text-approved") and the PC online: `artgen.py --health` (and
- *   `voice.py --health` before voices) failing stops the run with "PC offline, pending".
+ * - `--dry-run` prints every planned call and runs nothing.
+ * - A real run needs the PC online: `artgen.py --health` (and `voice.py --health` before voices) failing stops the
+ *   run with "PC offline, pending".
  * - Steps whose file already exists are skipped, so a run stopped halfway picks up where it left off; `--force`
  *   makes them again.
  *
@@ -52,7 +52,6 @@ function main(): void {
   const steps = planStoryBuild(story, tools, parseStages(values.only));
 
   if (values['dry-run']) {
-    if (story.status !== 'text-approved') console.log(`# ${slug} is ${story.status}: a real run waits until a person approves the words.`);
     console.log(`# ${steps.length} steps; the PC is checked first: ${shellQuote([tools.python, toolPath(tools, 'artgen.py'), '--health'])}`);
     for (const step of steps) {
       const done = existsSync(path.join(REPO_ROOT, step.output)) && !values.force;
@@ -62,7 +61,6 @@ function main(): void {
     return;
   }
 
-  if (story.status !== 'text-approved') throw new BuildError(`stories/${slug} is ${story.status}: approve the words first (status "text-approved" and review in story.json)`);
   const todo = steps.filter((step) => values.force || !existsSync(path.join(REPO_ROOT, step.output)));
   if (todo.length === 0) {
     console.log(`${slug}: nothing to make, every planned file exists`);

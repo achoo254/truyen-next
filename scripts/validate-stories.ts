@@ -4,7 +4,7 @@ import { loadStories } from './story-files';
 
 const { stories, errors } = loadStories();
 for (const { slug, story } of stories) {
-  console.log(`✓ ${slug}: ${story.scenes.length} scenes, about ${Math.round(estimateStorySeconds(story))} s read aloud, ${story.status}`);
+  console.log(`✓ ${slug}: ${story.scenes.length} scenes, about ${Math.round(estimateStorySeconds(story))} s read aloud`);
 }
 if (errors.length > 0) {
   console.error(`✗ ${errors.length} problem(s):`);

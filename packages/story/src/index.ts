@@ -1,6 +1,6 @@
 export { MIN_SCENE_SECONDS, estimateReadingSeconds, subtitleIndexAt, subtitleStarts, syllableCount } from './reading-time.ts';
 export { type StoryListEntry, storyListEntry } from './story-list.ts';
-export { STORY_STATUSES, type Character, type Narrator, type Scene, type Story, type StoryStatus, storySchema } from './story-schema.ts';
+export { type Character, type Narrator, type Scene, type Story, storySchema } from './story-schema.ts';
 export {
   MAX_SCENES,
   MAX_STORY_SECONDS,

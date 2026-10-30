@@ -8,7 +8,6 @@ mục `media/` do `pnpm story:build` tạo. Schema và luật kiểm: `packages/
 
 | Trường | Ý nghĩa |
 | --- | --- |
-| `status` | `awaiting-text-review` (lời kể chờ người duyệt) hoặc `text-approved` (đã duyệt, kèm `review.approvedBy`, `review.approvedOn`). `pnpm story:build` chỉ chạy thật khi đã duyệt. |
 | `style` | Phong cách vẽ thêm vào cuối mọi prompt tranh, để cả truyện như một quyển sách. |
 | `narrators` | Người kể: tên hiện trên phụ đề và giọng VieNeu (`Mèo Miu` giọng Trúc Ly, người kể chuyện giọng Quỳnh Anh). |
 | `characters[]` | Bảng nhân vật: `sheetPrompt`, `seed`, `refImage` (ảnh có sẵn để vẽ theo), `file` khi đã vẽ. |

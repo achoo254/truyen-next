@@ -1,5 +1,5 @@
 /** Reads the story list and a story from the site, checked at the boundary like any outside data. */
-import { type Story, type StoryListEntry, STORY_STATUSES, validateStory } from '@truyen/story';
+import { type Story, type StoryListEntry, validateStory } from '@truyen/story';
 import { storyFileUrl } from './scene-media';
 
 export class StoryLoadError extends Error {
@@ -25,7 +25,6 @@ function isListEntry(value: unknown): value is StoryListEntry {
     typeof entry.slug === 'string' &&
     typeof entry.title === 'string' &&
     typeof entry.summary === 'string' &&
-    (STORY_STATUSES as readonly unknown[]).includes(entry.status) &&
     typeof entry.scenes === 'number' &&
     typeof entry.minutes === 'number'
   );

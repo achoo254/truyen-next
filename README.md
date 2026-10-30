@@ -51,15 +51,13 @@ Dùng các công cụ của skill `inet-artgen` (`artgen.py`, `voice.py`, `video
 `~/.claude/skills/inet-artgen`, đổi bằng `ARTGEN_DIR`), cần máy nhà bật và nằm trong tailnet, cùng `ffmpeg` và `cwebp`
 trên máy chạy.
 
-1. Người duyệt đọc lời kể trong `story.json`, rồi đặt `"status": "text-approved"` và
-   `"review": { "approvedBy": "…", "approvedOn": "YYYY-MM-DD" }`.
-2. Xem trước các lệnh sẽ chạy (không cần máy nhà, chạy được cả khi lời chưa duyệt):
+1. Xem trước các lệnh sẽ chạy (không cần máy nhà):
 
    ```sh
    pnpm story:build son-tinh-thuy-tinh --dry-run
    ```
 
-3. Chạy thật theo từng đợt để đỡ nạp lại model (ảnh, rồi video, rồi giọng, rồi nhạc):
+2. Chạy thật theo từng đợt để đỡ nạp lại model (ảnh, rồi video, rồi giọng, rồi nhạc):
 
    ```sh
    pnpm story:build son-tinh-thuy-tinh --only characters

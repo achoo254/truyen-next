@@ -49,11 +49,6 @@ export function StoryPage({ slug }: { slug: string }): ReactNode {
         <h1 className="story-title" lang="vi">
           {story.title}
         </h1>
-        {story.status !== 'text-approved' && (
-          <p className="badge" data-id="story-review-note">
-            {t('story.reviewNote')}
-          </p>
-        )}
       </header>
       <StoryPlayer story={story} />
     </article>

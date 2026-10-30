@@ -11,7 +11,7 @@ describe('story files on the site', () => {
     const index = files.get('stories/index.json');
     const list = JSON.parse(index && 'text' in index ? index.text : '[]') as StoryListEntry[];
     expect(list).toEqual([
-      expect.objectContaining({ slug: 'son-tinh-thuy-tinh', title: 'Sơn Tinh, Thủy Tinh', status: 'awaiting-text-review', scenes: 8 }),
+      expect.objectContaining({ slug: 'son-tinh-thuy-tinh', title: 'Sơn Tinh, Thủy Tinh', scenes: 8 }),
     ]);
     const [pilot] = stories;
     if (!pilot) throw new Error('no story');
