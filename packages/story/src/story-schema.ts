@@ -7,6 +7,10 @@ import { z } from 'zod';
 
 const KEBAB = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
+/** The two shelves of the app: retellings for young children, and fuller tellings of the old tales for adults. */
+export const SHELVES = ['kids', 'adults'] as const;
+export const shelfSchema = z.enum(SHELVES);
+
 const text = z.string().trim().min(1);
 const id = z.string().regex(KEBAB, 'lowercase kebab-case');
 /** artgen.py seeds are unsigned 32-bit. */
@@ -69,6 +73,8 @@ export const sceneSchema = z.strictObject({
 export const storySchema = z.strictObject({
   schemaVersion: z.literal(1),
   slug: id,
+  /** Which shelf the story sits on; each shelf has its own length, narrator and safety rules (validate-story.ts). */
+  shelf: shelfSchema,
   title: text,
   summary: text,
   language: z.literal('vi'),
@@ -93,3 +99,4 @@ export type Story = z.infer<typeof storySchema>;
 export type Scene = z.infer<typeof sceneSchema>;
 export type Character = z.infer<typeof characterSchema>;
 export type Narrator = z.infer<typeof narratorSchema>;
+export type Shelf = z.infer<typeof shelfSchema>;

@@ -3,7 +3,7 @@
  * story length check) and to place each subtitle line inside a recording.
  */
 
-/** Calm read-aloud pace for young children, in Vietnamese syllables (written words) per second. */
+/** Calm read-aloud pace, in Vietnamese syllables (written words) per second; the same for both shelves. */
 export const SYLLABLES_PER_SECOND = 2.4;
 /** Breath taken after each sentence. */
 export const SENTENCE_PAUSE_SECONDS = 0.5;

@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "slug": "su-tich-ho-guom",
+  "shelf": "adults",
+  "title": "Sự tích Hồ Gươm",
+  "summary": "Lưỡi gươm vớt lên từ lòng sông, chuôi gươm tìm thấy trên ngọn cây đa, ghép lại vừa như in. Mười năm sau, giặc Minh rút về nước, và giữa hồ Lục Thủy, Rùa Vàng nổi lên xin vua Lê trả gươm cho Long Quân.",
+  "language": "vi",
+  "source": "Truyền thuyết dân gian về hồ Hoàn Kiếm và gươm thần của Lê Lợi, lưu truyền từ thời Lê sơ (thế kỷ XV), thuộc phạm vi công cộng. Lời kể viết mới, theo sát truyền thuyết; không chép sách giáo khoa hay bản kể hiện đại nào.",
+  "style": "classical Vietnamese silk painting (tranh lụa) illustration, fine ink linework, soft washes of muted ochre, jade green, indigo and gold on aged silk, early fifteenth-century Dai Viet setting with Le dynasty clothing, wooden boats, banners and citadel walls, epic yet calm and dignified mood for adult readers, battles shown from afar as banners and moving armies, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "le-loi",
+      "name": "Lê Lợi",
+      "seed": 41701,
+      "sheetPrompt": "Le Loi, the Lam Son leader of early fifteenth-century Dai Viet, a resolute middle-aged man with a calm commanding face, short black beard, dark brown war robe with simple leather armour plates and a red sash, black head turban, a long sword with a jade-studded hilt at his waist, full body, front view, plain aged silk background, character reference sheet"
+    },
+    {
+      "id": "le-than",
+      "name": "Lê Thận",
+      "seed": 41702,
+      "sheetPrompt": "Le Than, a humble fisherman of Thanh Hoa in early fifteenth-century Dai Viet, honest square face, sun-darkened skin, short beard, faded indigo tunic and rolled trousers, a casting net over one shoulder, conical hat on his back, full body, front view, plain aged silk background, character reference sheet"
+    },
+    {
+      "id": "rua-vang",
+      "name": "Rùa Vàng",
+      "seed": 41703,
+      "sheetPrompt": "the Golden Turtle of Vietnamese legend, a huge ancient wise turtle with a shimmering golden-bronze shell patterned like old coins, calm deep eyes, gentle majestic presence, shown rising from water, side view, plain aged silk background, character reference sheet"
+    },
+    {
+      "id": "vua-le",
+      "name": "Vua Lê Thái Tổ",
+      "seed": 41704,
+      "sheetPrompt": "King Le Thai To of Dai Viet, the former Lam Son leader now crowned, same resolute face with a short black beard, golden yellow dragon robe with a jade belt, a black winged court hat, the jade-hilted sword at his waist, full body, front view, plain aged silk background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "thoi-loan",
+      "title": "Thời loạn",
+      "narrator": "ke-chuyen",
+      "narration": "Đầu thế kỷ mười lăm, giặc Minh sang chiếm nước ta. Chúng đặt ách cai trị nặng nề, bắt dân lên rừng tìm trầm, xuống biển mò ngọc, thuế má chồng chất, làng xóm xác xơ. Ở vùng núi Lam Sơn đất Thanh Hóa, Lê Lợi dựng cờ khởi nghĩa. Buổi đầu, nghĩa quân còn non yếu, nhiều lần phải lui vào rừng núi, người ít, lương thiếu, vũ khí thô sơ. Ở chốn thủy phủ, Đức Long Quân thấy lòng dân khổ mà người cầm cờ còn đơn độc, bèn định trao cho Lam Sơn một thanh gươm báu, nhưng trao theo cách riêng của thần.",
+      "subtitles": [
+        "Đầu thế kỷ mười lăm, giặc Minh sang chiếm nước ta.",
+        "Chúng đặt ách cai trị nặng nề, bắt dân lên rừng tìm trầm, xuống biển mò ngọc,",
+        "thuế má chồng chất, làng xóm xác xơ.",
+        "Ở vùng núi Lam Sơn đất Thanh Hóa, Lê Lợi dựng cờ khởi nghĩa.",
+        "Buổi đầu, nghĩa quân còn non yếu, nhiều lần phải lui vào rừng núi,",
+        "người ít, lương thiếu, vũ khí thô sơ.",
+        "Ở chốn thủy phủ, Đức Long Quân thấy lòng dân khổ mà người cầm cờ còn đơn độc,",
+        "bèn định trao cho Lam Sơn một thanh gươm báu, nhưng trao theo cách riêng của thần."
+      ],
+      "image": {
+        "character": "le-loi",
+        "seed": 52701,
+        "prompt": "misty green mountains of Lam Son in early fifteenth-century Dai Viet, Le Loi stands on a rocky slope beside a simple banner, a small band of ragged rebels with bamboo spears and farming tools gathered below, distant smoke over villages in the valley, solemn mood"
+      },
+      "video": {
+        "seed": 63701,
+        "motionPrompt": "mist drifts between the peaks, the banner flaps in the wind, the rebels raise their tools slowly, clouds move across the valley, slow camera push-in"
+      },
+      "voice": {}
+    },
+    {
+      "id": "luoi-guom",
+      "title": "Lưỡi gươm trong lưới",
+      "narrator": "ke-chuyen",
+      "narration": "Ở Thanh Hóa có một người làm nghề đánh cá tên là Lê Thận. Một đêm, Thận quăng chài ở khúc sông quen. Tấm lưới trĩu xuống, tưởng được mẻ cá lớn, nào ngờ trong lưới chỉ có một thanh sắt dài. Thận ném nó xuống sông, chèo sang khúc khác. Quăng chài lần nữa, vẫn là thanh sắt ấy. Đến lần thứ ba, nó lại nằm trong lưới. Bấy giờ Thận mới giơ đuốc soi kỹ: đó là một lưỡi gươm, không có chuôi. Chàng đem về, dựng tạm ở xó nhà.",
+      "subtitles": [
+        "Ở Thanh Hóa có một người làm nghề đánh cá tên là Lê Thận.",
+        "Một đêm, Thận quăng chài ở khúc sông quen. Tấm lưới trĩu xuống,",
+        "tưởng được mẻ cá lớn, nào ngờ trong lưới chỉ có một thanh sắt dài.",
+        "Thận ném nó xuống sông, chèo sang khúc khác. Quăng chài lần nữa, vẫn là thanh sắt ấy.",
+        "Đến lần thứ ba, nó lại nằm trong lưới. Bấy giờ Thận mới giơ đuốc soi kỹ:",
+        "đó là một lưỡi gươm, không có chuôi. Chàng đem về, dựng tạm ở xó nhà."
+      ],
+      "image": {
+        "character": "le-than",
+        "seed": 52702,
+        "prompt": "night on a quiet river in Thanh Hoa, the fisherman Le Than stands in a small wooden boat holding up a torch, looking in wonder at a long dark metal blade caught in his casting net, ripples and reflections of torchlight on the water"
+      },
+      "video": {
+        "seed": 63702,
+        "motionPrompt": "the torch flame flickers, water drips from the net, the fisherman slowly lifts the blade toward the light, ripples spread across the dark river"
+      },
+      "voice": {}
+    },
+    {
+      "id": "thuan-thien",
+      "title": "Hai chữ Thuận Thiên",
+      "narrator": "ke-chuyen",
+      "narration": "Về sau, Lê Thận gia nhập nghĩa quân Lam Sơn. Một lần, chủ tướng Lê Lợi cùng mấy người tùy tùng ghé qua nhà Thận. Đêm ấy nhà không thắp đèn, vậy mà nơi xó nhà có một thứ cứ tỏa sáng mờ mờ. Lê Lợi lại gần, nhấc lên, thấy là lưỡi gươm của Thận, trên thân khắc hai chữ Thuận Thiên, tức là theo ý trời. Mọi người đều ngạc nhiên, nhưng chưa ai biết đó là vật gì.",
+      "subtitles": [
+        "Về sau, Lê Thận gia nhập nghĩa quân Lam Sơn.",
+        "Một lần, chủ tướng Lê Lợi cùng mấy người tùy tùng ghé qua nhà Thận.",
+        "Đêm ấy nhà không thắp đèn, vậy mà nơi xó nhà có một thứ cứ tỏa sáng mờ mờ.",
+        "Lê Lợi lại gần, nhấc lên, thấy là lưỡi gươm của Thận, trên thân khắc hai chữ Thuận Thiên,",
+        "tức là theo ý trời.",
+        "Mọi người đều ngạc nhiên, nhưng chưa ai biết đó là vật gì."
+      ],
+      "image": {
+        "character": "le-than",
+        "seed": 52703,
+        "prompt": "inside a dark humble thatched house, a long blade leaning in the corner glows with soft golden light, Le Loi bends to look at it closely while Le Than and a few retainers watch in astonishment, faint carved characters shimmer on the blade"
+      },
+      "video": {
+        "seed": 63703,
+        "motionPrompt": "the golden glow pulses gently on the blade, the men lean closer, shadows shift on the earthen walls, dust motes float in the light, slow camera push-in"
+      },
+      "voice": {}
+    },
+    {
+      "id": "chuoi-guom",
+      "title": "Chuôi gươm trên ngọn đa",
+      "narrator": "ke-chuyen",
+      "narration": "Một lần khác, bị giặc đuổi gấp, Lê Lợi một mình chạy vào rừng. Giữa rừng có một cây đa cổ thụ, trên cao lấp ló một đốm sáng. Ông bám rễ đa mà trèo lên, gạt lá ra, thấy một cái chuôi gươm có nạm ngọc. Ông chợt nhớ lưỡi gươm không chuôi ở nhà Lê Thận, bèn mang chuôi gươm theo người.",
+      "subtitles": [
+        "Một lần khác, bị giặc đuổi gấp, Lê Lợi một mình chạy vào rừng.",
+        "Giữa rừng có một cây đa cổ thụ, trên cao lấp ló một đốm sáng.",
+        "Ông bám rễ đa mà trèo lên, gạt lá ra, thấy một cái chuôi gươm có nạm ngọc.",
+        "Ông chợt nhớ lưỡi gươm không chuôi ở nhà Lê Thận, bèn mang chuôi gươm theo người."
+      ],
+      "image": {
+        "character": "le-loi",
+        "seed": 52704,
+        "prompt": "deep in a forest at dusk, an enormous ancient banyan tree with hanging roots, at the top among the branches a jade-studded sword hilt glows softly, Le Loi climbs the roots looking up at it, pursuers torches faintly visible far away through the trees"
+      },
+      "video": {
+        "seed": 63704,
+        "motionPrompt": "the soft glow pulses among the leaves, the banyan roots sway slightly, Le Loi reaches upward, distant torches flicker between the trees, slow camera tilt up"
+      },
+      "voice": {}
+    },
+    {
+      "id": "tra-guom-cho-chu",
+      "title": "Gươm thần về với chủ",
+      "narrator": "ke-chuyen",
+      "narration": "Về đến trại, Lê Lợi đem chuôi ra lắp vào lưỡi gươm của Thận. Hai mảnh khớp vào nhau, không lệch một li. Lê Thận quỳ xuống, hai tay nâng thanh gươm lên trước mặt chủ tướng: Lưỡi ở dưới sông, chuôi ở trên rừng, nay về chung một mối. Ấy là trời muốn ngài gánh lấy việc lớn. Anh em chúng tôi xin theo ngài và theo thanh gươm này đến cùng. Tin lan khắp trại, nghĩa quân ai cũng thấy lòng vững thêm.",
+      "subtitles": [
+        "Về đến trại, Lê Lợi đem chuôi ra lắp vào lưỡi gươm của Thận.",
+        "Hai mảnh khớp vào nhau, không lệch một li.",
+        "Lê Thận quỳ xuống, hai tay nâng thanh gươm lên trước mặt chủ tướng:",
+        "Lưỡi ở dưới sông, chuôi ở trên rừng, nay về chung một mối.",
+        "Ấy là trời muốn ngài gánh lấy việc lớn.",
+        "Anh em chúng tôi xin theo ngài và theo thanh gươm này đến cùng.",
+        "Tin lan khắp trại, nghĩa quân ai cũng thấy lòng vững thêm."
+      ],
+      "image": {
+        "character": "le-loi",
+        "seed": 52705,
+        "prompt": "in a simple rebel camp under bamboo, Le Than kneels and raises the complete sword with both hands, its jade-studded hilt joined to the glowing blade, Le Loi receives it with solemn respect, rebels gather around with torches, the night sky full of stars"
+      },
+      "video": {
+        "seed": 63705,
+        "motionPrompt": "the sword glows brighter as the hilt and blade join, torchlight wavers, the gathered rebels raise their fists, bamboo leaves stir in the night breeze"
+      },
+      "voice": {}
+    },
+    {
+      "id": "muoi-nam",
+      "title": "Mười năm",
+      "narrator": "ke-chuyen",
+      "narration": "Từ khi có gươm thần, nghĩa quân như được tiếp thêm sức mạnh. Đi đến đâu, dân theo đến đó, góp gạo, góp người. Từ núi rừng Lam Sơn, nghĩa quân tiến vào Nghệ An, ra Thanh Hóa, rồi kéo thẳng ra Bắc. Thanh gươm báu đi trước, ba quân theo sau, giặc nghe danh đã chùn bước. Ở ải Chi Lăng, ở Xương Giang, viện binh của giặc lần lượt tan vỡ. Mười năm gian khổ, cuối cùng quân Minh bị vây chặt trong thành Đông Quan, không còn đường cứu viện.",
+      "subtitles": [
+        "Từ khi có gươm thần, nghĩa quân như được tiếp thêm sức mạnh.",
+        "Đi đến đâu, dân theo đến đó, góp gạo, góp người.",
+        "Từ núi rừng Lam Sơn, nghĩa quân tiến vào Nghệ An, ra Thanh Hóa, rồi kéo thẳng ra Bắc.",
+        "Thanh gươm báu đi trước, ba quân theo sau, giặc nghe danh đã chùn bước.",
+        "Ở ải Chi Lăng, ở Xương Giang, viện binh của giặc lần lượt tan vỡ.",
+        "Mười năm gian khổ, cuối cùng quân Minh bị vây chặt trong thành Đông Quan,",
+        "không còn đường cứu viện."
+      ],
+      "image": {
+        "character": "le-loi",
+        "seed": 52706,
+        "prompt": "a sweeping silk-painting panorama of mountain passes and river plains, long columns of the Lam Son army with red banners advance from the south, far away enemy columns retreat north through a narrow pass, villagers bringing rice baskets to the soldiers, drawn from a great distance"
+      },
+      "video": {
+        "seed": 63706,
+        "motionPrompt": "banners ripple along the marching columns, clouds roll over the mountain pass, the distant retreating columns move slowly away, villagers wave, slow sweeping camera pan"
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoi-the",
+      "title": "Hội thề Đông Quan",
+      "narrator": "ke-chuyen",
+      "narration": "Trong nghĩa quân, có người đòi trả thù cho hả giận mười năm đau khổ. Lê Lợi không nghe. Ông bảo: thắng bằng sức mạnh thì chỉ yên được một lúc, thắng bằng lòng nhân thì mới yên được lâu dài. Ông cho mở hội thề ngoài thành Đông Quan. Tướng giặc Vương Thông cùng các tướng thề rút hết quân về nước, không bao giờ trở lại. Lê Lợi còn sai cấp thuyền, cấp ngựa, cấp lương ăn cho hàng vạn quân Minh lên đường về quê. Mười năm chiến tranh khép lại bằng một con đường về nhà cho cả kẻ thua trận.",
+      "subtitles": [
+        "Trong nghĩa quân, có người đòi trả thù cho hả giận mười năm đau khổ.",
+        "Lê Lợi không nghe. Ông bảo: thắng bằng sức mạnh thì chỉ yên được một lúc,",
+        "thắng bằng lòng nhân thì mới yên được lâu dài.",
+        "Ông cho mở hội thề ngoài thành Đông Quan. Tướng giặc Vương Thông cùng các tướng",
+        "thề rút hết quân về nước, không bao giờ trở lại.",
+        "Lê Lợi còn sai cấp thuyền, cấp ngựa, cấp lương ăn cho hàng vạn quân Minh lên đường về quê.",
+        "Mười năm chiến tranh khép lại bằng một con đường về nhà cho cả kẻ thua trận."
+      ],
+      "image": {
+        "character": "le-loi",
+        "seed": 52707,
+        "prompt": "outside the walls of Dong Quan citadel, a solemn oath ceremony on a riverbank, Le Loi stands on a raised platform with banners while defeated foreign generals bow, long lines of unarmed soldiers board waiting boats and lead horses north, calm grey sky, dignified and peaceful"
+      },
+      "video": {
+        "seed": 63707,
+        "motionPrompt": "banners stir slowly in the wind, the generals bow, the lines of men move onto the boats, oars begin to dip, river mist drifts, slow sideways pan"
+      },
+      "voice": {}
+    },
+    {
+      "id": "len-ngoi",
+      "title": "Đất nước thanh bình",
+      "narrator": "ke-chuyen",
+      "narration": "Đất nước sạch bóng quân thù. Lê Lợi lên ngôi vua, tức là vua Lê Thái Tổ, đóng đô ở Thăng Long. Ông cho phần lớn nghĩa quân về quê làm ruộng, sửa lại đê điều, mở trường dạy chữ, chia ruộng cho người nghèo, an ủi những nhà có người đi mà không về. Ruộng đồng lại xanh, chợ búa lại đông, khắp nơi yên vui.",
+      "subtitles": [
+        "Đất nước sạch bóng quân thù. Lê Lợi lên ngôi vua, tức là vua Lê Thái Tổ,",
+        "đóng đô ở Thăng Long.",
+        "Ông cho phần lớn nghĩa quân về quê làm ruộng, sửa lại đê điều, mở trường dạy chữ,",
+        "chia ruộng cho người nghèo, an ủi những nhà có người đi mà không về.",
+        "Ruộng đồng lại xanh, chợ búa lại đông, khắp nơi yên vui."
+      ],
+      "image": {
+        "character": "vua-le",
+        "seed": 52708,
+        "prompt": "the citadel of Thang Long in early fifteenth-century Dai Viet on a clear morning, King Le Thai To in a golden dragon robe stands on a palace terrace overlooking rice fields and busy markets, former soldiers return home carrying farming tools, peaceful mood"
+      },
+      "video": {
+        "seed": 63708,
+        "motionPrompt": "royal flags flutter gently, farmers walk along the dikes, market crowds move, clouds drift across a clear sky, slow camera pull-back"
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-luc-thuy",
+      "title": "Thuyền rồng trên hồ Lục Thủy",
+      "narrator": "ke-chuyen",
+      "narration": "Khoảng một năm sau, nhà vua cưỡi thuyền rồng dạo quanh hồ Lục Thủy, giữa kinh thành. Mặt hồ xanh biếc, phẳng lặng như tấm gương. Hai bên bờ, liễu rủ thướt tha. Gió nhẹ đưa thuyền đi chầm chậm, các quan theo hầu ngồi lặng ngắm cảnh. Thanh gươm báu năm nào vẫn đeo bên hông vua, mười năm chưa rời người lấy một ngày. Bỗng mặt nước gợn sóng. Một con Rùa Vàng lớn nhô đầu lên, bơi thẳng về phía thuyền rồng.",
+      "subtitles": [
+        "Khoảng một năm sau, nhà vua cưỡi thuyền rồng dạo quanh hồ Lục Thủy, giữa kinh thành.",
+        "Mặt hồ xanh biếc, phẳng lặng như tấm gương. Hai bên bờ, liễu rủ thướt tha.",
+        "Gió nhẹ đưa thuyền đi chầm chậm, các quan theo hầu ngồi lặng ngắm cảnh.",
+        "Thanh gươm báu năm nào vẫn đeo bên hông vua, mười năm chưa rời người lấy một ngày.",
+        "Bỗng mặt nước gợn sóng. Một con Rùa Vàng lớn nhô đầu lên, bơi thẳng về phía thuyền rồng."
+      ],
+      "image": {
+        "character": "vua-le",
+        "seed": 52709,
+        "prompt": "a calm emerald lake in the middle of the citadel lined with weeping willows, King Le Thai To sits in an ornate dragon-prow boat with courtiers and parasols, ahead of the boat the water ripples as a huge golden turtle head rises, morning light"
+      },
+      "video": {
+        "seed": 63709,
+        "motionPrompt": "willow branches sway, the boat glides slowly forward, the water ripples in widening circles as the golden turtle rises, light sparkles on the lake"
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoan-guom",
+      "title": "Trả gươm cho Long Quân",
+      "narrator": "ke-chuyen",
+      "narration": "Rùa Vàng dừng lại cạnh mạn thuyền, cất tiếng người: Giặc đã yên, việc lớn đã thành. Long Quân sai tôi lên xin lại thanh gươm báu. Nhà vua bấy giờ mới hiểu gươm từ đâu mà đến. Ông tháo gươm khỏi đai, hai tay nâng về phía rùa. Rùa Vàng ngậm lấy thanh gươm, quay mình, rồi lặn dần xuống đáy hồ. Mặt nước khép lại, chỉ còn một vệt sáng mờ chìm xuống, rồi tắt hẳn trong làn nước xanh.",
+      "subtitles": [
+        "Rùa Vàng dừng lại cạnh mạn thuyền, cất tiếng người:",
+        "Giặc đã yên, việc lớn đã thành. Long Quân sai tôi lên xin lại thanh gươm báu.",
+        "Nhà vua bấy giờ mới hiểu gươm từ đâu mà đến.",
+        "Ông tháo gươm khỏi đai, hai tay nâng về phía rùa.",
+        "Rùa Vàng ngậm lấy thanh gươm, quay mình, rồi lặn dần xuống đáy hồ.",
+        "Mặt nước khép lại, chỉ còn một vệt sáng mờ chìm xuống, rồi tắt hẳn trong làn nước xanh."
+      ],
+      "image": {
+        "character": "rua-vang",
+        "seed": 52710,
+        "prompt": "on the emerald lake the huge golden turtle takes the glowing jade-hilted sword gently in its mouth beside the dragon boat, King Le Thai To stands with both hands still raised in offering, courtiers bow, a column of soft golden light reaches down into the water"
+      },
+      "video": {
+        "seed": 63710,
+        "motionPrompt": "the turtle grips the sword and slowly sinks beneath the surface, golden light glimmers down through the water, ripples spread outward, courtiers bow low, slow camera tilt down"
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-hoan-kiem",
+      "title": "Hồ Hoàn Kiếm",
+      "narrator": "ke-chuyen",
+      "narration": "Từ đó, hồ Lục Thủy được gọi là hồ Hoàn Kiếm, nghĩa là hồ Trả Gươm, người Hà Nội quen gọi là Hồ Gươm. Gươm thần được mượn khi đất nước lâm nguy, và được trả khi non sông đã yên. Câu chuyện nhắc người sau rằng gươm chỉ để giữ nước, không phải để mưu sự riêng. Ngày nay, giữa lòng Hà Nội, Tháp Rùa vẫn đứng lặng trên gò nhỏ giữa hồ, soi bóng xuống mặt nước xanh, như vẫn còn đợi Rùa Vàng nổi lên.",
+      "subtitles": [
+        "Từ đó, hồ Lục Thủy được gọi là hồ Hoàn Kiếm, nghĩa là hồ Trả Gươm,",
+        "người Hà Nội quen gọi là Hồ Gươm.",
+        "Gươm thần được mượn khi đất nước lâm nguy, và được trả khi non sông đã yên.",
+        "Câu chuyện nhắc người sau rằng gươm chỉ để giữ nước, không phải để mưu sự riêng.",
+        "Ngày nay, giữa lòng Hà Nội, Tháp Rùa vẫn đứng lặng trên gò nhỏ giữa hồ,",
+        "soi bóng xuống mặt nước xanh, như vẫn còn đợi Rùa Vàng nổi lên."
+      ],
+      "image": {
+        "character": "rua-vang",
+        "seed": 52711,
+        "prompt": "a serene view of Hoan Kiem lake at dawn in a timeless silk-painting style, the small old Turtle Tower on its islet in the middle of the green water, weeping willows and an arched red bridge on the shore, soft mist and a faint golden shimmer under the water"
+      },
+      "video": {
+        "seed": 63711,
+        "motionPrompt": "mist drifts slowly over the lake, willow branches sway, a faint golden glimmer moves beneath the surface, birds fly past the tower, slow camera pull-back"
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "solemn epic Vietnamese traditional instrumental, deep bronze drum, dan nguyet moon lute and dan tranh zither, a calm bamboo flute melody over it, heroic then peaceful, slow tempo, no vocals",
+    "durationSeconds": 180,
+    "seed": 74701
+  }
+}

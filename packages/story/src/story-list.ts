@@ -1,9 +1,10 @@
 import { estimateStorySeconds } from './validate-story.ts';
-import type { Story } from './story-schema.ts';
+import type { Shelf, Story } from './story-schema.ts';
 
 /** One row of the story list served at /stories/index.json, built from every story.json at dev and build time. */
 export interface StoryListEntry {
   slug: string;
+  shelf: Shelf;
   title: string;
   summary: string;
   scenes: number;
@@ -14,6 +15,7 @@ export interface StoryListEntry {
 export function storyListEntry(story: Story): StoryListEntry {
   return {
     slug: story.slug,
+    shelf: story.shelf,
     title: story.title,
     summary: story.summary,
     scenes: story.scenes.length,

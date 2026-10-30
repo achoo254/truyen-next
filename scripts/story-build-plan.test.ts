@@ -54,6 +54,15 @@ describe('story build plan', () => {
     expect(steps[0]?.pc).toBe('voice');
   });
 
+  it('reads an adults\' story with its one storyteller voice and draws no Mèo Miu', () => {
+    const story = JSON.parse(readFileSync(new URL('../stories/su-tich-ho-guom/story.json', import.meta.url), 'utf8')) as Story;
+    const voices = planStoryBuild(story, TOOLS, ['voices']).map((step) => step.commands[0]?.at(-1));
+    expect(new Set(voices)).toEqual(new Set(['Thanh Bình']));
+    const sheets = planStoryBuild(story, TOOLS, ['characters']);
+    expect(sheets.every((step) => step.commands[0]?.includes('qwen'))).toBe(true);
+    expect(sheets.map((step) => step.id)).not.toContain('characters:miu');
+  });
+
   it('makes one music bed and a social clip from every upscaled clip, the title and the music', () => {
     const [music, social] = planStoryBuild(pilot(), TOOLS, ['music', 'social']);
     expect(music?.commands[0]).toEqual([...ARTGEN, expect.stringMatching(/lullaby/), '-w', 'ace-music', '--duration', '120', '--seed', '74001', '-o', '.work/son-tinh-thuy-tinh/music.mp3']);

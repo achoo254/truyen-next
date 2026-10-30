@@ -8,8 +8,10 @@ mục `media/` do `pnpm story:build` tạo. Schema và luật kiểm: `packages/
 
 | Trường | Ý nghĩa |
 | --- | --- |
-| `style` | Phong cách vẽ thêm vào cuối mọi prompt tranh, để cả truyện như một quyển sách. |
-| `narrators` | Người kể: tên hiện trên phụ đề và giọng VieNeu (`Mèo Miu` giọng Trúc Ly, người kể chuyện giọng Quỳnh Anh). |
+| `shelf` | Kệ của truyện, bắt buộc: `kids` (Trẻ em) hoặc `adults` (Người lớn). Mỗi kệ có luật riêng ở dưới. |
+| `source` | Truyện lấy từ đâu (truyện dân gian, sách cổ nào) và cách viết lời kể. |
+| `style` | Phong cách vẽ thêm vào cuối mọi prompt tranh, để cả truyện như một quyển sách. Kệ Trẻ em: tranh truyện thiếu nhi màu nước; kệ Người lớn có thể trầm hơn (ví dụ tranh lụa cổ), vẫn không máu me. |
+| `narrators` | Người kể: tên hiện trên phụ đề và giọng VieNeu có sẵn. Kệ Trẻ em: `miu` (Mèo Miu, giọng Trúc Ly) và người kể chuyện giọng Quỳnh Anh. Kệ Người lớn: một người kể chuyện, giọng Thanh Bình. |
 | `characters[]` | Bảng nhân vật: `sheetPrompt`, `seed`, `refImage` (ảnh có sẵn để vẽ theo), `file` khi đã vẽ. |
 | `scenes[]` | Mỗi cảnh: `title`, `narrator`, `narration` (câu giọng đọc), `subtitles` (các dòng phụ đề, ghép lại đúng bằng `narration`), `image` (`prompt`, `seed`, `character` làm `--ref`, `file`), `video` (`motionPrompt`, `seed`, `file`), `voice.file`. |
 | `music` | Nhạc nền cả truyện: `prompt`, `durationSeconds`, `seed`, `file`. |
@@ -18,13 +20,29 @@ mục `media/` do `pnpm story:build` tạo. Schema và luật kiểm: `packages/
 
 ## Luật kiểm
 
-- 6 đến 10 cảnh; đọc to ước tính 3 đến 6 phút (2,4 tiếng/giây, nghỉ 0,5 giây sau mỗi câu).
-- Cảnh đầu và cảnh cuối do Mèo Miu (`miu`) kể.
+Thời gian đọc to ước tính theo nhịp 2,4 tiếng/giây, nghỉ 0,5 giây sau mỗi câu (cùng nhịp cho hai kệ).
+
+| | Kệ Trẻ em (`kids`) | Kệ Người lớn (`adults`) |
+| --- | --- | --- |
+| Số cảnh | 6 đến 10 | 8 đến 14 |
+| Đọc to | 3 đến 6 phút | 6 đến 12 phút |
+| Người kể | Mèo Miu (`miu`, giọng Trúc Ly) kể cảnh đầu và cảnh cuối; người kể chuyện giọng Quỳnh Anh | Đúng một người kể, giọng khác Trúc Ly và Quỳnh Anh; không có Mèo Miu (không người kể, không nhân vật `miu`) |
+| Nội dung | Kể lại nhẹ nhàng cho trẻ nhỏ: không bạo lực, máu me, cảnh chết hay chi tiết đáng sợ. Lời kể không được có các từ "giết", "máu", "chết", "chém", "thi thể", "xác chết", "ghê rợn", "rùng rợn"; prompt tranh, cảnh động, nhân vật không có "dead", "death", "kill", "sword", "spear", "blood", "gore"… | Kể đầy đủ, theo sát truyện xưa; được nói đến cái chết. Prompt không có "blood", "gore", "corpse", "severed", "wound", "skull"… |
+
+Danh sách từ là lưới chặn sơ suất, không thay việc viết lời kể cho đúng kệ. Danh sách đầy đủ ở
+`packages/story/src/validate-story.ts`.
+
+Cả hai kệ:
+
+- Không dùng bốn giọng VieNeu mà nhận dạng giọng nói nghe kém: Ngọc Trân, Quang Sơn, Thùy Dung, Minh Triết.
 - Không có chữ số trong lời kể (giọng đọc đọc sai số): viết "một trăm", "chín".
 - Mỗi dòng phụ đề tối đa 90 ký tự; các dòng ghép lại đúng bằng lời kể.
 - Đường dẫn media nằm trong thư mục truyện: `media/….webp` (tranh), `.mp4` (cảnh động, không tiếng), `.m4a` (giọng, nhạc).
 
 ## Trình xem
+
+Trang chủ `/` có hai kệ, Trẻ em trước rồi Người lớn; `/tre-em` và `/nguoi-lon` mở riêng từng kệ. Trang truyện ghi kệ
+của truyện, nút quay lại về đúng kệ đó.
 
 `/truyen/<slug>`: phát từng cảnh, phụ đề luôn hiện, nút tạm dừng, cảnh trước/sau, tắt/bật tiếng. Cảnh có giọng thì
 chạy theo giọng; chưa có giọng thì chạy theo đồng hồ của trình duyệt với thời gian đọc ước tính. Dòng phụ đề đổi theo

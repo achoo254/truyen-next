@@ -1,31 +1,45 @@
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import type { Story } from './story-schema.ts';
-import { MAX_STORY_SECONDS, estimateStorySeconds, storyMediaFiles, validateStory } from './validate-story.ts';
+import { SHELF_RULES, estimateStorySeconds, storyMediaFiles, validateStory, wordsFound } from './validate-story.ts';
 
-const PILOT = new URL('../../../stories/son-tinh-thuy-tinh/story.json', import.meta.url);
-const pilot = (): Story => JSON.parse(readFileSync(PILOT, 'utf8')) as Story;
+const STORIES = new URL('../../../stories/', import.meta.url);
+const read = (slug: string): Story => JSON.parse(readFileSync(new URL(`${slug}/story.json`, STORIES), 'utf8')) as Story;
+const pilot = (): Story => read('son-tinh-thuy-tinh');
+/** An adults' shelf story of the repository. */
+const adult = (): Story => read('su-tich-ho-guom');
+const SLUGS = readdirSync(STORIES, { withFileTypes: true }).filter((entry) => entry.isDirectory()).map((entry) => entry.name);
 
 function errorsOf(story: unknown, slug?: string): string[] {
   const result = validateStory(story, slug);
   return result.ok ? [] : result.errors;
 }
 
-describe('the pilot story', () => {
-  it('is valid, six to ten scenes, three to six minutes, opened and closed by Mèo Miu', () => {
-    const result = validateStory(pilot(), 'son-tinh-thuy-tinh');
-    expect(result.ok ? [] : result.errors).toEqual([]);
-    const story = pilot();
-    expect(story.scenes.length).toBeGreaterThanOrEqual(6);
-    expect(story.scenes.length).toBeLessThanOrEqual(10);
-    expect(estimateStorySeconds(story)).toBeGreaterThanOrEqual(180);
-    expect(estimateStorySeconds(story)).toBeLessThanOrEqual(360);
-    expect(story.scenes[0]?.narrator).toBe('miu');
-    expect(story.scenes.at(-1)?.narrator).toBe('miu');
+describe('the stories of the repository', () => {
+  it.each(SLUGS)('%s is valid and follows its shelf', (slug) => {
+    const story = read(slug);
+    expect(errorsOf(story, slug)).toEqual([]);
+    const rules = SHELF_RULES[story.shelf];
+    expect(story.scenes.length).toBeGreaterThanOrEqual(rules.minScenes);
+    expect(story.scenes.length).toBeLessThanOrEqual(rules.maxScenes);
+    expect(estimateStorySeconds(story)).toBeGreaterThanOrEqual(rules.minSeconds);
+    expect(estimateStorySeconds(story)).toBeLessThanOrEqual(rules.maxSeconds);
+    if (story.shelf === 'kids') {
+      expect(story.scenes[0]?.narrator).toBe('miu');
+      expect(story.scenes.at(-1)?.narrator).toBe('miu');
+    } else {
+      expect(Object.keys(story.narrators)).not.toContain('miu');
+    }
+  });
+
+  it('has both shelves, the pilot on the children\'s shelf', () => {
+    const shelves = SLUGS.map((slug) => read(slug).shelf);
+    expect(shelves).toContain('adults');
+    expect(pilot().shelf).toBe('kids');
   });
 
   it('refers to no media yet: nothing has been generated', () => {
-    expect(storyMediaFiles(pilot())).toEqual([]);
+    for (const slug of SLUGS) expect(storyMediaFiles(read(slug))).toEqual([]);
   });
 });
 
@@ -67,18 +81,81 @@ describe('validateStory', () => {
     expect(errorsOf({ ...story, scenes: [first, { ...second, narration: long, subtitles: [long] }, ...rest] }).join('\n')).toMatch(/subtitles\[0\]: \d+ characters, at most 90/);
   });
 
-  it('checks the scene count and the read-aloud length', () => {
+  it('checks the scene count and the read-aloud length of the children\'s shelf', () => {
     const story = pilot();
-    expect(errorsOf({ ...story, scenes: story.scenes.slice(0, 5).concat(story.scenes.slice(-1)).slice(0, 5) }).join('\n')).toMatch(/5 scenes, expected 6–10/);
+    expect(errorsOf({ ...story, scenes: story.scenes.slice(0, 5).concat(story.scenes.slice(-1)).slice(0, 5) }).join('\n')).toMatch(/5 scenes, expected 6–10 on the kids shelf/);
     const padded = story.scenes.map((scene) => {
       const narration = `${scene.narration} ${'la la la la la la la la la la.'.repeat(4)}`;
       return { ...scene, narration, subtitles: [...scene.subtitles, ...Array.from({ length: 4 }, () => 'la la la la la la la la la la.')] };
     });
     const longStory = { ...story, scenes: padded };
-    expect(estimateStorySeconds(longStory)).toBeGreaterThan(MAX_STORY_SECONDS);
-    expect(errorsOf(longStory).join('\n')).toMatch(/read aloud, expected 180–360 s/);
+    expect(estimateStorySeconds(longStory)).toBeGreaterThan(SHELF_RULES.kids.maxSeconds);
+    expect(errorsOf(longStory).join('\n')).toMatch(/read aloud, expected 180–360 s on the kids shelf/);
   });
 
+  it('requires a shelf, kids or adults', () => {
+    const { shelf: _shelf, ...withoutShelf } = pilot();
+    expect(errorsOf(withoutShelf).join('\n')).toMatch(/^shelf: /);
+    expect(errorsOf({ ...pilot(), shelf: 'teens' }).join('\n')).toMatch(/^shelf: /);
+  });
+
+  it('keeps the children\'s voices: Mèo Miu with Trúc Ly, the storyteller with Quỳnh Anh', () => {
+    const story = pilot();
+    const miu = story.narrators.miu;
+    if (!miu) throw new Error('pilot has no Miu');
+    expect(errorsOf({ ...story, narrators: { ...story.narrators, miu: { ...miu, voice: 'Ngọc Huyền' } } })).toEqual(['narrators.miu: Mèo Miu speaks with "Trúc Ly"']);
+    expect(errorsOf({ ...story, narrators: { ...story.narrators, 'ke-chuyen': { name: 'Người kể chuyện', voice: 'Thanh Bình' } } })).toEqual([
+      'narrators.ke-chuyen: the children\'s storyteller speaks with "Quỳnh Anh"',
+    ]);
+  });
+
+  it('keeps killing, blood and death out of a children\'s retelling, in words and in prompts', () => {
+    const story = pilot();
+    const [first, second, ...rest] = story.scenes;
+    if (!first || !second) throw new Error('pilot has too few scenes');
+    const sad = { ...second, narration: 'Thủy Tinh giết hết cá.', subtitles: ['Thủy Tinh giết hết cá.'] };
+    expect(errorsOf({ ...story, scenes: [first, sad, ...rest] })).toEqual(['scenes.vua-va-cong-chua.narration: "giết" has no place in a children\'s retelling']);
+    const armed = { ...second, image: { ...second.image, prompt: 'the king holds a sword' } };
+    expect(errorsOf({ ...story, scenes: [first, armed, ...rest] })).toEqual(['scenes.vua-va-cong-chua.image.prompt: no "sword"']);
+  });
+
+  it('gives the adults\' shelf one storyteller with a voice of their own and no Mèo Miu', () => {
+    const story = adult();
+    expect(story.shelf).toBe('adults');
+    const storyteller = story.narrators['ke-chuyen'];
+    if (!storyteller) throw new Error('no storyteller');
+    expect(errorsOf({ ...story, narrators: { 'ke-chuyen': { ...storyteller, voice: 'Quỳnh Anh' } } })).toEqual([
+      'narrators.ke-chuyen: "Quỳnh Anh" is a children\'s shelf voice; the adults\' storyteller has another',
+    ]);
+    expect(errorsOf({ ...story, narrators: { 'ke-chuyen': { ...storyteller, voice: 'Minh Triết' } } })).toEqual([
+      'narrators.ke-chuyen: "Minh Triết" is not used, speech recognition hears it poorly',
+    ]);
+    expect(errorsOf({ ...story, narrators: { ...story.narrators, miu: { name: 'Mèo Miu', voice: 'Trúc Ly' } } })).toEqual([
+      'narrators: an adults\' story has one storyteller, found 2',
+      'narrators.miu: Mèo Miu narrates only the children\'s shelf',
+      'narrators.miu: "Trúc Ly" is a children\'s shelf voice; the adults\' storyteller has another',
+    ]);
+    // The pilot moved to the adults' shelf breaks every rule of it: Mèo Miu, two voices, too short.
+    expect(errorsOf({ ...pilot(), shelf: 'adults' }).join('\n')).toMatch(/one storyteller[\s\S]*Mèo Miu narrates only[\s\S]*Mèo Miu appears only[\s\S]*expected 360–720 s on the adults shelf/);
+  });
+
+  it('lets an adults\' story name death and weapons, but no prompt asks for gore', () => {
+    const story = adult();
+    const [first, ...rest] = story.scenes;
+    if (!first) throw new Error('no scene');
+    const sombre = { ...first, narration: `${first.narration} Nhiều người đã chết.`, subtitles: [...first.subtitles, 'Nhiều người đã chết.'] };
+    expect(errorsOf({ ...story, scenes: [sombre, ...rest] })).toEqual([]);
+    expect(errorsOf({ ...story, scenes: [{ ...first, image: { ...first.image, prompt: 'a bloody battlefield' } }, ...rest] })).toEqual([
+      `scenes.${first.id}.image.prompt: no "bloody"`,
+    ]);
+    expect(errorsOf({ ...story, scenes: story.scenes.slice(0, 7) }).join('\n')).toMatch(/7 scenes, expected 8–14 on the adults shelf/);
+  });
+
+  it('finds whole words only', () => {
+    expect(wordsFound('Chính xác, máu đỏ', ['xác chết', 'máu'])).toEqual(['máu']);
+    expect(wordsFound('A SWORD', ['sword'])).toEqual(['sword']);
+    expect(wordsFound('swordfish', ['sword'])).toEqual([]);
+  });
 
   it('matches the slug to its folder', () => {
     expect(errorsOf(pilot(), 'other')).toEqual(['slug: "son-tinh-thuy-tinh" must match its folder "other"']);
