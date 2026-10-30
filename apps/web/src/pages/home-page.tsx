@@ -68,7 +68,8 @@ function ShelfRows({ shelf, entries }: { shelf: Shelf; entries: StoryListEntry[]
       ) : (
         <>
           <TileRow title={t('home.newest')} entries={newest} dataId={`story-list-${shelf}`} />
-          {shelf === 'kids' && short.length > 1 && (
+          {/* Only once the shelf outgrows one row: before that it would repeat the covers just above. */}
+          {shelf === 'kids' && short.length > 1 && entries.length > ROW_SIZE / 2 && (
             <TileRow title={t('home.bedtime')} entries={short} href={`${shelfPath(shelf)}${queryString({ ...EMPTY_QUERY, length: 'ngan' })}`} dataId="row-bedtime" />
           )}
           {themes.length > 1 && (
