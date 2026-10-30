@@ -86,4 +86,20 @@ describe('story player state', () => {
     expect(state).toMatchObject({ muted: true, status: 'playing', index: 0, run: 0 });
     expect(run(state, 'toggleMute').muted).toBe(false);
   });
+
+  it('follows the story recording: on to the scene it reached, play only when not playing, the end when it finishes', () => {
+    const playing = run(initialPlayerState(3), 'toggle');
+    const second = playerReducer(playing, { type: 'trackAt', index: 1 });
+    expect([second.index, second.status, second.run, second.direction]).toEqual([1, 'playing', playing.run + 1, 'forward']);
+    expect(playerReducer(second, { type: 'trackAt', index: 1 })).toBe(second);
+    expect(playerReducer(second, { type: 'trackAt', index: 3 })).toBe(second);
+    expect(playerReducer(second, { type: 'trackAt', index: 0 }).direction).toBe('back');
+    expect(playerReducer(second, { type: 'play' })).toBe(second);
+    expect(run(run(second, 'pause'), 'play').status).toBe('playing');
+    expect(run(second, 'finished').status).toBe('ended');
+    const paused = run(second, 'pause');
+    expect(run(paused, 'finished')).toBe(paused);
+    const over = run(second, 'finished');
+    expect(playerReducer(over, { type: 'trackAt', index: 0 }).status).toBe('paused');
+  });
 });

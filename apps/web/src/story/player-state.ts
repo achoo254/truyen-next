@@ -29,7 +29,13 @@ export type PlayerAction =
   | { type: 'sceneEnded'; autoTurn?: boolean }
   | { type: 'toggleMute' }
   /** Opens the story at a scene (the scene list, "continue where I left off"), keeping play or pause. */
-  | { type: 'goTo'; index: number };
+  | { type: 'goTo'; index: number }
+  /** Play, and nothing if already playing (the lock screen's and the headset's play button). */
+  | { type: 'play' }
+  /** The story recording reached scene `index` by itself (played on, or sought from the lock screen). */
+  | { type: 'trackAt'; index: number }
+  /** The story recording played to its end. */
+  | { type: 'finished' };
 
 export function initialPlayerState(sceneCount: number): PlayerState {
   if (!Number.isInteger(sceneCount) || sceneCount < 1) throw new Error(`a story needs at least one scene, got ${sceneCount}`);
@@ -73,6 +79,13 @@ export function playerReducer(state: PlayerState, action: PlayerAction): PlayerS
       return goTo(state, state.index + 1);
     case 'toggleMute':
       return { ...state, muted: !state.muted };
+    case 'play':
+      return state.status === 'playing' ? state : playerReducer(state, { type: 'toggle' });
+    case 'trackAt':
+      if (!Number.isInteger(action.index) || action.index < 0 || action.index > last || action.index === state.index) return state;
+      return goTo(state, action.index, state.status === 'ended' ? 'paused' : state.status);
+    case 'finished':
+      return state.status === 'playing' ? ended(state) : state;
     case 'goTo': {
       if (!Number.isInteger(action.index) || action.index < 0 || action.index > last) return state;
       const status = state.status === 'ended' ? 'paused' : state.status;

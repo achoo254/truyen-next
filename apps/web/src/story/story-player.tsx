@@ -1,11 +1,11 @@
-import { MIN_SCENE_SECONDS, MIU_NARRATOR, type Scene, type Story, estimateReadingSeconds, subtitleIndexAt } from '@truyen/story';
+import { MIN_SCENE_SECONDS, MIU_NARRATOR, type Scene, type Story, type StoryTrack, estimateReadingSeconds, subtitleIndexAt, trackSceneProgress } from '@truyen/story';
 import { type ReactNode, type RefObject, useCallback, useEffect, useReducer, useRef, useState } from 'react';
 import { coverArt } from '../art/story-cover';
 import { Emblem } from '../art/story-emblems';
 import { useI18n } from '../i18n/i18n';
 import { Icon } from '../ui/icons';
 import { EndPage } from './end-page';
-import { type PlayStatus, type PlayerState, type TurnDirection, initialPlayerState, playerReducer } from './player-state';
+import { type PlayerState, type TurnDirection, initialPlayerState, playerReducer } from './player-state';
 import { focusKind, readerKeyAction } from './reader-keys';
 import { type Rate, useReaderPrefs } from './reader-prefs';
 import { preloadAfter, sceneMedia, storyFileUrl, storyHasNoMedia } from './scene-media';
@@ -14,7 +14,10 @@ import { useSwipe } from './use-swipe';
 import { ReaderSheet } from './reader-sheet';
 import { SceneIndex } from './scene-index';
 import { forgetProgress, saveProgress } from './reading-progress';
-import { fadeShare, minutesLeft, type SleepOption, sleepDeadline } from './sleep-timer';
+import { MUSIC_VOLUME, useSleep } from './use-sleep';
+import { useStoryTrack } from './use-story-track';
+import { reportPosition, useMediaSession } from './media-session';
+import { brand } from '../brand';
 import { storyPath } from './story-api';
 import { LightsSwitch } from '../ui/lights-switch';
 import { useLights } from '../ui/lights';
@@ -24,8 +27,6 @@ import { type BookView, FlipBook, type PlacePages } from './flip-book';
 import { spreadCount, storySpread } from './book-pages';
 import { useMediaQuery } from '../ui/use-media-query';
 
-/** Music sits under the voice. */
-const MUSIC_VOLUME = 0.25;
 /** The fading leaf of the still book (reduced motion) is cleared after this even if no animation event arrives. */
 const TURN_SAFETY_MS = 400;
 /** From this width the book opens as a two-page spread (app.css uses the same breakpoint). */
@@ -106,6 +107,10 @@ function TextPage({ label, line, live, progress, hideLine = false }: { label: st
 interface SceneViewProps {
   story: Story;
   scene: Scene;
+  index: number;
+  /** The story recording drives the scene (no voice or timer of its own), at `trackTime` seconds. */
+  track?: StoryTrack;
+  trackTime: number;
   /** The story plays and the book is at rest: the voice, motion and clock run. */
   playing: boolean;
   muted: boolean;
@@ -118,17 +123,18 @@ interface SceneViewProps {
 }
 
 /**
- * The scene being read: the picture page and the text page (laid in the book by `place`), and the clock: the
- * recorded voice when there is one, otherwise a timer of the estimated reading time.
+ * The scene being read: the picture page and the text page (laid in the book by `place`), and the clock: the story
+ * recording when there is one, else the scene's recorded voice, else a timer of the estimated reading time.
  */
-function SceneView({ story, scene, playing, muted, rate, showLine, onEnded, onLine, place }: SceneViewProps): ReactNode {
+function SceneView({ story, scene, index, track, trackTime, playing, muted, rate, showLine, onEnded, onLine, place }: SceneViewProps): ReactNode {
   const media = sceneMedia(story.slug, scene);
   const [voiceFailed, setVoiceFailed] = useState(false);
-  const useVoice = media.voice !== undefined && !voiceFailed;
+  const useVoice = track === undefined && media.voice !== undefined && !voiceFailed;
   const [voiceProgress, setVoiceProgress] = useState(0);
   const durationMs = (Math.max(MIN_SCENE_SECONDS, estimateReadingSeconds(scene.narration)) * 1000) / rate;
-  const elapsed = useSceneTimer(durationMs, playing && !useVoice, onEnded);
-  const progress = useVoice ? voiceProgress : elapsed / durationMs;
+  const elapsed = useSceneTimer(durationMs, playing && !useVoice && track === undefined, onEnded);
+  const progress = track ? trackSceneProgress(track, index, trackTime) : useVoice ? voiceProgress : elapsed / durationMs;
+  const heard = track !== undefined || useVoice;
   const line = scene.subtitles[Math.max(0, subtitleIndexAt(scene.subtitles, progress))] ?? '';
   const label = useNarratorLabel(story, scene);
   useEffect(() => onLine(line), [line, onLine]);
@@ -149,7 +155,7 @@ function SceneView({ story, scene, playing, muted, rate, showLine, onEnded, onLi
     <>
       {place(
         <PicturePage story={story} scene={scene} videoRef={videoRef} />,
-        <TextPage label={label} line={line} live progress={progress} hideLine={!(showLine || !useVoice)} />,
+        <TextPage label={label} line={line} live progress={progress} hideLine={!showLine && heard} />,
       )}
       {useVoice && (
         // Captioned on the page: the text page shows the line being read, always.
@@ -260,55 +266,6 @@ function useFullscreen(target: RefObject<HTMLElement | null>): { supported: bool
   return { supported, on, toggle };
 }
 
-/** Sleep timer: dims page and sound for the fade (sleep-timer.ts) when it runs out (or at the story's end), then pauses. */
-function useSleep(status: PlayStatus, pause: () => void, reader: RefObject<HTMLElement | null>) {
-  const [option, setOption] = useState<SleepOption>('off');
-  const [deadline, setDeadline] = useState<number | null>(null);
-  const [phase, setPhase] = useState<'awake' | 'fading' | 'asleep'>('awake');
-  const [now, setNow] = useState(() => Date.now());
-  const pick = useCallback((next: SleepOption) => {
-    const at = Date.now();
-    setOption(next);
-    setDeadline(sleepDeadline(next, at));
-    setNow(at);
-    setPhase('awake');
-  }, []);
-  // A clock for the minutes left, and the moment the timer runs out.
-  useEffect(() => {
-    if (deadline === null || phase !== 'awake') return undefined;
-    const id = window.setInterval(() => {
-      const at = Date.now();
-      setNow(at);
-      if (at >= deadline) setPhase('fading');
-    }, 1000);
-    return () => window.clearInterval(id);
-  }, [deadline, phase]);
-  // The fade: every sound of the reader turns down, then the story pauses and the page stays dark.
-  useEffect(() => {
-    if (phase !== 'fading') return undefined;
-    const start = Date.now();
-    const id = window.setInterval(() => {
-      const share = fadeShare(start, Date.now());
-      for (const audio of reader.current?.querySelectorAll('audio') ?? []) audio.volume = share * (audio.loop ? MUSIC_VOLUME : 1);
-      if (share <= 0) {
-        window.clearInterval(id);
-        pause();
-        setPhase('asleep');
-      }
-    }, 250);
-    return () => window.clearInterval(id);
-  }, [phase, pause, reader]);
-  const wake = useCallback(() => {
-    for (const audio of reader.current?.querySelectorAll('audio') ?? []) audio.volume = audio.loop ? MUSIC_VOLUME : 1;
-    setOption('off');
-    setDeadline(null);
-    setPhase('awake');
-  }, [reader]);
-  // "At the end of the story": the last page is reached, nothing to fade (the story has stopped by itself).
-  const shown = option === 'end' && status === 'ended' && phase === 'awake' ? 'asleep' : phase;
-  return { option, pick, phase: shown, wake, minutesLeft: deadline === null ? null : minutesLeft(deadline, now) };
-}
-
 /**
  * The reader: a book that fills the screen. A thin bar (close, title, scene, lights), the scene progress in
  * segments (a tap opens the scene list), the book (one page on phones, an open spread from 880px), and the
@@ -352,13 +309,46 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
   const settled = !curl || (bookView.shown === target && !bookView.busy);
   const fullscreen = useFullscreen(readerRef);
   const sleep = useSleep(state.status, pause, readerRef);
-  useMediaPlayback(musicRef, playing);
+  // The story recording, while it loads and plays; a broken one falls back to the scene voices and the music.
+  const [trackFailed, setTrackFailed] = useState(false);
+  const track = trackFailed ? undefined : story.track;
+  const { ref: trackRef, time: trackTime, onTimeUpdate: onTrackTime, onEnded: onTrackEnded } = useStoryTrack({ track, state, dispatch, autoTurn, onTick: sleep.tick });
+  // The recording does not wait for a turning page: a locked phone never finishes the turn.
+  useMediaPlayback(trackRef, playing && track !== undefined, pause);
+  useMediaPlayback(musicRef, playing && track === undefined);
   useEffect(() => {
     const music = musicRef.current;
-    if (!music) return;
-    music.muted = state.muted;
-    music.volume = MUSIC_VOLUME;
-  }, [state.muted]);
+    if (music) {
+      music.muted = state.muted;
+      music.volume = MUSIC_VOLUME;
+    }
+    if (trackRef.current) trackRef.current.muted = state.muted;
+  }, [state.muted, track, trackRef]);
+  useEffect(() => {
+    if (trackRef.current) trackRef.current.playbackRate = prefs.rate;
+  }, [prefs.rate, track, trackRef]);
+  const nowPlayingArt = scene ? sceneMedia(story.slug, scene).image : undefined;
+  useMediaSession(
+    track !== undefined,
+    {
+      title: scene ? `${t('story.sceneOf', { n: state.index + 1, total: story.scenes.length })} · ${scene.title}` : story.title,
+      artist: story.title,
+      album: brand.appName,
+      artwork: new URL(nowPlayingArt ?? '/icon-512.png', window.location.href).href,
+    },
+    playing,
+    {
+      play: () => dispatch({ type: 'play' }),
+      pause,
+      previous: () => dispatch({ type: 'prev' }),
+      next: () => dispatch({ type: 'next' }),
+      seekTo: (seconds) => {
+        const audio = trackRef.current;
+        if (audio && Number.isFinite(audio.duration)) audio.currentTime = Math.min(Math.max(0, seconds), audio.duration);
+      },
+      position: () => trackRef.current?.currentTime ?? 0,
+    },
+  );
 
   // Fetch the next scene's still ahead of the turn.
   useEffect(() => {
@@ -421,6 +411,9 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
       key={`${state.index}-${state.run}`}
       story={story}
       scene={scene}
+      index={state.index}
+      track={track}
+      trackTime={trackTime}
       playing={playing && settled}
       muted={state.muted}
       rate={prefs.rate}
@@ -511,7 +504,23 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
 
       {/* Instrumental, no words to caption. */}
       {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
-      {story.music.file && <audio ref={musicRef} src={storyFileUrl(story.slug, story.music.file)} loop preload="auto" />}
+      {track === undefined && story.music.file && <audio ref={musicRef} src={storyFileUrl(story.slug, story.music.file)} loop preload="auto" />}
+      {track && (
+        // The whole story in one recording; the text page shows the line being read, always.
+        // eslint-disable-next-line jsx-a11y/media-has-caption
+        <audio
+          ref={trackRef}
+          src={storyFileUrl(story.slug, track.file)}
+          preload="auto"
+          data-id="story-track"
+          onTimeUpdate={(event) => {
+            onTrackTime(event);
+            reportPosition(event.currentTarget);
+          }}
+          onEnded={onTrackEnded}
+          onError={() => setTrackFailed(true)}
+        />
+      )}
 
       <div className="reader-controls" role="group" aria-label={t('story.controls')} data-id="story-controls">
         <button type="button" className="icon-btn" onClick={() => setScenesOpen(true)} aria-label={t('story.progress')} data-id="story-scenes">

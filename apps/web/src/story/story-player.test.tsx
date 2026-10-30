@@ -1,4 +1,4 @@
-import { type Story, estimateReadingSeconds } from '@truyen/story';
+import { type Story, estimateReadingSeconds, layOutTrack } from '@truyen/story';
 import { pilotStory } from './pilot-story.test-support';
 import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
@@ -242,5 +242,157 @@ describe('reader options', () => {
     expect(q('story-player').getAttribute('data-status')).toBe('paused');
     fireEvent.click(q('sleep-wake'));
     expect(document.querySelector('[data-id=sleep-veil]')).toBeNull();
+  });
+});
+
+describe('story player with the story recording', () => {
+  /** The pilot with every voice and the music made, and the recording laid out over 10 s voices. */
+  function recorded(): Story {
+    const story = pilot();
+    const scenes = story.scenes.map((scene) => ({ ...scene, voice: { file: `media/scenes/${scene.id}.m4a` } }));
+    return { ...story, scenes, music: { ...story.music, file: 'media/music.m4a' }, track: layOutTrack('media/story.m4a', scenes, scenes.map(() => 10)) };
+  }
+
+  /** jsdom plays nothing: the recording's clock is set by hand, and its time reports sent as events. */
+  function fakeAudio(): { audio: HTMLAudioElement; at: (seconds: number) => void } {
+    const audio = q('story-track') as HTMLAudioElement;
+    let time = audio.currentTime;
+    Object.defineProperty(audio, 'currentTime', { configurable: true, get: () => time, set: (value: number) => (time = value) });
+    Object.defineProperty(audio, 'duration', { configurable: true, value: 200 });
+    return {
+      audio,
+      at: (seconds) => {
+        time = seconds;
+        fireEvent.timeUpdate(audio);
+      },
+    };
+  }
+
+  let play: ReturnType<typeof vi.spyOn>;
+  let pause: ReturnType<typeof vi.spyOn>;
+  beforeEach(() => {
+    play = vi.spyOn(HTMLMediaElement.prototype, 'play').mockImplementation(() => Promise.resolve());
+    pause = vi.spyOn(HTMLMediaElement.prototype, 'pause').mockImplementation(() => undefined);
+  });
+  afterEach(() => {
+    play.mockRestore();
+    pause.mockRestore();
+    window.localStorage.clear();
+  });
+
+  it('plays one recording instead of the scene voices and the music, and turns the pages by its clock', () => {
+    const story = recorded();
+    const track = story.track;
+    if (!track) throw new Error('no track');
+    show(story);
+    expect([...document.querySelectorAll('audio')].map((a) => a.getAttribute('src'))).toEqual(['/stories/son-tinh-thuy-tinh/media/story.m4a']);
+    const { at } = fakeAudio();
+    fireEvent.click(q('story-play'));
+    expect(play).toHaveBeenCalled();
+    // No page timer: time alone does not turn the page.
+    advance(120_000);
+    expect(q('story-scene-number').textContent).toMatch(/^Cảnh 1\/8/);
+    const second = track.scenes[1];
+    if (!second) throw new Error('no second scene');
+    at(second.start + 9.9);
+    expect(q('story-scene-number').textContent).toMatch(/^Cảnh 2\/8/);
+    expect(q('story-subtitle-line').textContent).toBe(story.scenes[1]?.subtitles.at(-1));
+    expect(q('story-player').getAttribute('data-status')).toBe('playing');
+  });
+
+  it('moves the recording to the scene the reader picks, and to the very start for the first', () => {
+    const story = recorded();
+    show(story);
+    const { audio } = fakeAudio();
+    fireEvent.click(q('story-next'));
+    fireEvent.click(q('story-next'));
+    expect(audio.currentTime).toBe(story.track?.scenes[2]?.start);
+    fireEvent.click(q('story-scenes'));
+    fireEvent.click(q('scene-index-1'));
+    expect(audio.currentTime).toBe(0);
+  });
+
+  it('shows the last page when the recording ends', () => {
+    show(recorded());
+    const { audio } = fakeAudio();
+    fireEvent.click(q('story-play'));
+    fireEvent.ended(audio);
+    expect(q('story-scene-number').textContent).toBe('Hết truyện');
+  });
+
+  it('waits on the scene\'s last line when auto-turn is off, then goes on from the next scene', () => {
+    const story = recorded();
+    const first = story.track?.scenes[0];
+    if (!first) throw new Error('no track');
+    show(story);
+    fireEvent.click(q('story-more'));
+    fireEvent.click(q('pref-auto-turn'));
+    const { audio, at } = fakeAudio();
+    fireEvent.click(q('story-play'));
+    at(first.end + 0.1);
+    expect(q('story-player').getAttribute('data-status')).toBe('paused');
+    expect(q('story-next').getAttribute('data-waiting')).toBe('true');
+    fireEvent.click(q('story-next'));
+    expect(q('story-scene-number').textContent).toMatch(/^Cảnh 2\/8/);
+    expect(audio.currentTime).toBe(story.track?.scenes[1]?.start);
+    expect(q('story-player').getAttribute('data-status')).toBe('playing');
+  });
+
+  it('falls back to the scene voices and the music when the recording cannot be played', () => {
+    show(recorded());
+    fireEvent.error(q('story-track'));
+    expect([...document.querySelectorAll('audio')].map((a) => a.getAttribute('src'))).toEqual([
+      '/stories/son-tinh-thuy-tinh/media/scenes/mo-dau.m4a',
+      '/stories/son-tinh-thuy-tinh/media/music.m4a',
+    ]);
+  });
+
+  it('runs out the sleep timer on the recording\'s time reports and pauses', () => {
+    show(recorded());
+    const { at } = fakeAudio();
+    fireEvent.click(q('story-play'));
+    fireEvent.click(q('story-more'));
+    fireEvent.click(q('pref-sleep-10'));
+    vi.setSystemTime(Date.now() + 10 * 60_000 + 1000);
+    at(1);
+    expect(q('story-player').getAttribute('data-sleep')).toBe('fading');
+    vi.setSystemTime(Date.now() + 11_000);
+    at(2);
+    expect(q('story-player').getAttribute('data-status')).toBe('paused');
+  });
+
+  it('tells the lock screen the story and scene and answers its buttons', () => {
+    const handlers = new Map<string, MediaSessionActionHandler | null>();
+    const session = {
+      metadata: null as MediaMetadata | null,
+      playbackState: 'none',
+      setActionHandler: (action: string, handler: MediaSessionActionHandler | null) => handlers.set(action, handler),
+      setPositionState: vi.fn(),
+    };
+    class FakeMetadata {
+      constructor(readonly init: MediaMetadataInit) {}
+    }
+    vi.stubGlobal('MediaMetadata', FakeMetadata);
+    Object.defineProperty(navigator, 'mediaSession', { configurable: true, value: session });
+    try {
+      const story = recorded();
+      show(story);
+      const { at } = fakeAudio();
+      expect((session.metadata as unknown as FakeMetadata).init).toMatchObject({ title: `Cảnh 1/8 · ${story.scenes[0]?.title}`, artist: story.title, album: 'Truyện' });
+      act(() => handlers.get('play')?.({ action: 'play' }));
+      expect(session.playbackState).toBe('playing');
+      act(() => handlers.get('nexttrack')?.({ action: 'nexttrack' }));
+      expect(q('story-scene-number').textContent).toMatch(/^Cảnh 2\/8/);
+      at(30);
+      expect(session.setPositionState).toHaveBeenCalledWith({ duration: 200, playbackRate: 1, position: 30 });
+      act(() => handlers.get('seekto')?.({ action: 'seekto', seekTime: 50 }));
+      expect((q('story-track') as HTMLAudioElement).currentTime).toBe(50);
+      cleanup();
+      expect(session.metadata).toBeNull();
+      expect(handlers.get('play')).toBeNull();
+    } finally {
+      Reflect.deleteProperty(navigator, 'mediaSession');
+      vi.unstubAllGlobals();
+    }
   });
 });
