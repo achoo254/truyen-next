@@ -24,18 +24,33 @@ Cách làm và lệnh cụ thể: `README.md` mục "Làm tranh, giọng kể, n
 
 ### Trạng thái từng truyện
 
-| Truyện | Lời kể | Tranh, cảnh động, giọng, nhạc |
-| --- | --- | --- |
-| `son-tinh-thuy-tinh` (Sơn Tinh, Thủy Tinh) | Viết 30/10/2026 | Chưa làm: chờ máy nhà bật (pending) |
+| Truyện | Kệ | Lời kể | Tranh, cảnh động, giọng, nhạc |
+| --- | --- | --- | --- |
+| `son-tinh-thuy-tinh` (Sơn Tinh, Thủy Tinh) | Trẻ em | Viết 30/10/2026 | pending, chờ máy nhà bật |
+| `thanh-giong` (Thánh Gióng) | Trẻ em | Viết 30/10/2026 | pending, chờ máy nhà bật |
+| `tam-cam` (Tấm Cám) | Trẻ em | Viết 30/10/2026 | pending, chờ máy nhà bật |
+| `cay-khe` (Cây khế) | Trẻ em | Viết 30/10/2026 | pending, chờ máy nhà bật |
+| `con-rong-chau-tien` (Con Rồng cháu Tiên) | Trẻ em | Viết 30/10/2026 | pending, chờ máy nhà bật |
+| `nguoi-con-gai-nam-xuong` (Chuyện người con gái Nam Xương) | Người lớn | Viết 30/10/2026 | pending, chờ máy nhà bật |
+| `chu-dong-tu` (Chử Đồng Tử và Tiên Dung) | Người lớn | Viết 30/10/2026 | pending, chờ máy nhà bật |
+| `su-tich-ho-guom` (Sự tích Hồ Gươm) | Người lớn | Viết 30/10/2026 | pending, chờ máy nhà bật |
 
 Truyện chưa có tranh và âm thanh thì app hiện nền trơn và phụ đề; không dùng hình, giọng hay nhạc nào khác thay vào.
 
 ## Lời kể
 
-Các truyện là truyện dân gian Việt Nam thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của
-sách giáo khoa hay bản kể đã xuất bản nào. Lời kể thuộc hoandat, cùng giấy phép với nội dung AI ở trên.
+Các truyện là truyện dân gian, truyền thuyết và truyền kỳ Việt Nam thuộc phạm vi công cộng; nguồn của từng truyện ghi
+ở trường `source` trong `story.json`:
 
-Mèo Miu (người dẫn truyện ở cảnh mở và kết) là nhân vật của Miu World (`miu-world-next`). Bảng nhân vật của Miu vẽ
+- Kệ Trẻ em: truyện dân gian, kể lại nhẹ nhàng cho trẻ nhỏ (Tấm Cám và Cây khế bỏ các đoạn hại người, kết bằng nhận
+  lỗi và tha thứ).
+- Kệ Người lớn: Nam Xương nữ tử truyện (Truyền kỳ mạn lục, Nguyễn Dữ, thế kỷ XVI), Nhất Dạ Trạch truyện (Lĩnh Nam
+  chích quái, thế kỷ XIV, XV), truyền thuyết hồ Hoàn Kiếm (thời Lê sơ); kể đầy đủ, theo sát cốt truyện gốc.
+
+Lời kể viết mới, không chép câu chữ của sách giáo khoa, bản dịch hay bản kể đã xuất bản nào. Lời kể thuộc hoandat,
+cùng giấy phép với nội dung AI ở trên.
+
+Mèo Miu (người dẫn truyện ở cảnh mở và kết của kệ Trẻ em) là nhân vật của Miu World (`miu-world-next`). Bảng nhân vật của Miu vẽ
 theo ảnh dựng của Miu trong Miu World (`--ref`), để hai app cùng một chú mèo.
 
 ## Biểu tượng và chữ
