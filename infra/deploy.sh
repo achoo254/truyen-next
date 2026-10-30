@@ -75,13 +75,20 @@ mkdir -p $dir
 EOF
 
 	# -c compares contents (every build rewrites mtimes); --link-dest hard-links what the current release already
-	# has. rsync only warns when there is no current release yet (the first one).
-	rsync -rlpc --chmod=D755,F644 --exclude "._*" --exclude .DS_Store --link-dest="$remote/current/" \
-		-e "ssh ${ssh_opts[*]}" "$dist/" "$SSH_TARGET:$dir/"
+	# has (rsync only warns when there is none yet, on the first release). No -p/--chmod: the macOS rsync
+	# (openrsync) lacks the D/F modes, so the modes are set on the server below.
+	if ! rsync -rlc --exclude "._*" --exclude .DS_Store --link-dest="$remote/current/" \
+		-e "ssh ${ssh_opts[*]}" "$dist/" "$SSH_TARGET:$dir/"; then
+		ssh_run "rm -rf $dir" </dev/null
+		echo "upload failed: $dir removed, current release untouched" >&2
+		exit 1
+	fi
 
 	ssh_run bash -s <<EOF
 set -euo pipefail
 cd $remote
+find $dir -type d -exec chmod 755 {} +
+find $dir -type f -exec chmod 644 {} +
 prev=\$(readlink -f current || true)
 ln -sfn $dir current.next
 mv -T current.next current
