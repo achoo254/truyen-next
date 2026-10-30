@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/@achoo254/brand/brand.config.schema.json",
+  "appName": "Truyện",
+  "shortName": "Truyện",
+  "description": "Truyện cổ tích Việt Nam kể cho trẻ em: tranh vẽ, cảnh động, giọng kể, nhạc nền và phụ đề, xem từng cảnh một.",
+  "colors": {
+    "primary": "#f2b866",
+    "background": "#14122b",
+    "backgroundDark": "#14122b"
+  },
+  "icon": "brand/icon.svg",
+  "iconMaskable": "brand/icon-maskable.svg",
+  "webInstall": true,
+  "appIds": {
+    "ios": "com.hoandat.truyen"
+  },
+  "urlScheme": "com.hoandat.truyen",
+  "primaryTenant": {
+    "domain": "hoandat.com",
+    "issuer": "https://auth.hoandat.com"
+  },
+  "hostTemplates": {
+    "web": "truyen.{domain}"
+  }
+}

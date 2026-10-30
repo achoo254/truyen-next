@@ -1,0 +1,7 @@
+packages:
+  - apps/*
+  - packages/*
+
+# pnpm 11 refuses to install while a dependency with a build script is not listed here.
+allowBuilds:
+  esbuild: true

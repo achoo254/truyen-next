@@ -1,0 +1,19 @@
+.DS_Store
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.log
+test-results/
+playwright-report/
+.idea/
+*.pem
+*.key
+
+# Raw output of pnpm story:build (PNG, WAV, full-size MP4) before it is compressed into stories/<slug>/media/.
+.work/
+
+# Agent config (rules, skills, agent memory) stays on the machines and in the private workspace repo, not in this public repo.
+/.claude/
