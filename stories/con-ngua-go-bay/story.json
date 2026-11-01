@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-ngua-go-bay",
+  "shelf": "world",
+  "title": "Con ngựa gỗ biết bay",
+  "summary": "Hoàng tử xứ Ba Tư cưỡi con ngựa gỗ mun biết bay, lạc đến cung điện của một nàng công chúa xinh đẹp. Khi nàng bị lão phù thủy gian xảo bắt đi, chàng cải trang làm thầy thuốc và dùng chính con ngựa thần để đưa nàng trở về. Truyện Nghìn lẻ một đêm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "thien-ac"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Phỏng theo truyện con ngựa gỗ mun biết bay trong \"Nghìn lẻ một đêm\", truyện cổ Ả Rập thuộc phạm vi công cộng (bản Burton 1885, Lang 1898). Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính, không chép bản dịch nào.",
+  "basedOn": "Nghìn lẻ một đêm",
+  "style": "classic Arabian Nights storybook illustration in the style of early twentieth century fairy tale picture books, rich jewel tones of turquoise, saffron, royal purple and warm gold, ornamental Persian arabesque details, moonlit palace rooftops and starry night skies, a glossy black wooden horse with gold trim, romantic and gentle mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử Ba Tư",
+      "sheetPrompt": "a young Persian prince from the Arabian Nights, slim and brave, short black hair, small neat moustache, bright hopeful eyes, sky blue turban with a white feather and ruby, embroidered teal coat with gold buttons, white trousers, soft red boots, full body, front view, plain light background, character reference sheet",
+      "seed": 671218432
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "sheetPrompt": "a gentle Arabian Nights princess, long dark wavy hair under a sheer rose veil, kind clever brown eyes, a pale pink and gold embroidered gown, delicate gold jewelry, graceful posture, full body, front view, plain light background, character reference sheet",
+      "seed": 2580447322
+    },
+    {
+      "id": "ngua-go",
+      "name": "Con ngựa gỗ mun",
+      "sheetPrompt": "a magical flying horse carved from glossy black ebony wood, decorated with gold inlay and a jeweled saddle, a small golden peg on its neck, elegant carved mane and tail, proud pose, storybook style, full body, side view, plain light background, character reference sheet",
+      "seed": 3336012399
+    },
+    {
+      "id": "phu-thuy",
+      "name": "Lão phù thủy",
+      "sheetPrompt": "a scheming old sage from the Arabian Nights, hunched and wrinkled, long crooked grey beard, pointed dark green hat, patched dark robe covered with star patterns, sly narrow eyes, more comical than frightening, full body, front view, plain light background, character reference sheet",
+      "seed": 4184211353
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-mon-qua",
+      "title": "Ba món quà lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở xứ Ba Tư, có một nhà vua thích những món đồ kỳ lạ. Vào ngày hội năm mới, có ba nhà thông thái đến dâng quà. Người thứ nhất dâng một con công bằng vàng, cứ mỗi giờ lại xòe đuôi cất tiếng hót. Người thứ hai dâng một chiếc kèn đồng, hễ có kẻ gian đến gần cổng thành là tự kêu vang. Người thứ ba là một lão già lưng còng, dâng một con ngựa làm bằng gỗ mun đen bóng, nạm vàng nạm ngọc. Lão nói: “Con ngựa này biết bay, chỉ trong một ngày là bay khắp thiên hạ.”",
+      "subtitles": [
+        "Ngày xưa, ở xứ Ba Tư, có một nhà vua thích những món đồ kỳ lạ.",
+        "Vào ngày hội năm mới, có ba nhà thông thái đến dâng quà.",
+        "Người thứ nhất dâng một con công bằng vàng, cứ mỗi giờ lại xòe đuôi cất tiếng hót.",
+        "Người thứ hai dâng một chiếc kèn đồng, hễ có kẻ gian đến gần cổng thành là tự kêu vang.",
+        "Người thứ ba là một lão già lưng còng, dâng một con ngựa làm bằng gỗ mun đen bóng,",
+        "nạm vàng nạm ngọc.",
+        "Lão nói: “Con ngựa này biết bay, chỉ trong một ngày là bay khắp thiên hạ.”"
+      ],
+      "image": {
+        "prompt": "a grand Persian throne room during a New Year festival, the king on his throne looking at three gifts: a golden peacock with a fanned tail, a shining brass trumpet, and a glossy black ebony horse with gold inlay presented by a hunched old sage with a crooked grey beard, courtiers watching in amazement",
+        "seed": 3195567828,
+        "character": "phu-thuy"
+      },
+      "video": {
+        "motionPrompt": "the golden peacock fans its tail, the brass trumpet gleams, the old sage strokes the ebony horse's mane with a sly smile",
+        "seed": 1597714772
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-len-troi",
+      "title": "Bay vút lên trời",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua có một hoàng tử trẻ, gan dạ và hiếu kỳ. Chàng xin được cưỡi thử. Lão già chỉ cho chàng cái chốt vàng bên phải cổ ngựa. Hoàng tử vừa vặn chốt, con ngựa gỗ đã vút lên trời, bay mãi, bay mãi, cung điện nhỏ dần như hạt cát. Chàng giật mình: “Lão chỉ dạy ta cách bay lên, còn cách đáp xuống thì chưa!” Lão già cố ý không nói. Hoàng tử không hoảng sợ, bình tĩnh sờ khắp mình ngựa. Bên trái cổ ngựa, chàng tìm thấy một cái chốt nhỏ khác. Chàng vặn thử, con ngựa từ từ hạ xuống.",
+      "subtitles": [
+        "Nhà vua có một hoàng tử trẻ, gan dạ và hiếu kỳ.",
+        "Chàng xin được cưỡi thử.",
+        "Lão già chỉ cho chàng cái chốt vàng bên phải cổ ngựa.",
+        "Hoàng tử vừa vặn chốt, con ngựa gỗ đã vút lên trời, bay mãi, bay mãi,",
+        "cung điện nhỏ dần như hạt cát.",
+        "Chàng giật mình: “Lão chỉ dạy ta cách bay lên, còn cách đáp xuống thì chưa!”",
+        "Lão già cố ý không nói.",
+        "Hoàng tử không hoảng sợ, bình tĩnh sờ khắp mình ngựa.",
+        "Bên trái cổ ngựa, chàng tìm thấy một cái chốt nhỏ khác.",
+        "Chàng vặn thử, con ngựa từ từ hạ xuống."
+      ],
+      "image": {
+        "prompt": "the young Persian prince in a sky blue turban riding the black ebony horse high above the clouds, the palace far below like a tiny toy, the prince calmly feeling along the horse's neck for a second golden peg, bright blue sky and soaring birds",
+        "seed": 1697502259,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the ebony horse soars upward through the clouds, the prince's coat flutters, he finds the small peg and turns it carefully",
+        "seed": 2632953355
+      },
+      "voice": {}
+    },
+    {
+      "id": "cung-dien-ve-dem",
+      "title": "Cung điện trong đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Trời đã tối. Con ngựa đáp nhẹ lên mái một cung điện lạ, lấp lánh dưới ánh trăng. Hoàng tử rón rén bước xuống cầu thang, đi qua những hành lang thơm mùi hoa nhài, và gặp một nàng công chúa đang ngồi bên cửa sổ ngắm trăng. Nàng giật mình, nhưng hoàng tử cúi chào lễ phép, kể cho nàng nghe chuyện con ngựa biết bay. Công chúa nghe say mê. Hai người trò chuyện đến tận khuya, kể cho nhau nghe về đất nước mình, và thấy quý mến nhau như đã quen từ lâu.",
+      "subtitles": [
+        "Trời đã tối.",
+        "Con ngựa đáp nhẹ lên mái một cung điện lạ, lấp lánh dưới ánh trăng.",
+        "Hoàng tử rón rén bước xuống cầu thang, đi qua những hành lang thơm mùi hoa nhài,",
+        "và gặp một nàng công chúa đang ngồi bên cửa sổ ngắm trăng.",
+        "Nàng giật mình, nhưng hoàng tử cúi chào lễ phép,",
+        "kể cho nàng nghe chuyện con ngựa biết bay.",
+        "Công chúa nghe say mê.",
+        "Hai người trò chuyện đến tận khuya, kể cho nhau nghe về đất nước mình,",
+        "và thấy quý mến nhau như đã quen từ lâu."
+      ],
+      "image": {
+        "prompt": "a moonlit palace rooftop with the ebony horse standing among domes, then the prince bowing politely to a gentle princess in a rose veil sitting by an arched window, jasmine flowers, lanterns and a full moon over the city",
+        "seed": 2860291253,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "moonlight shimmers on the domes, jasmine petals drift past the window, the princess smiles as the prince tells his tale",
+        "seed": 3979697460
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-ba-tu",
+      "title": "Cùng về Ba Tư",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử hỏi: “Nàng có muốn cùng ta về Ba Tư không?” Công chúa gật đầu. Hai người ngồi trên lưng ngựa gỗ, bay về xứ Ba Tư. Hoàng tử để công chúa nghỉ trong một khu vườn ngoài thành, còn mình vào cung báo tin cho vua cha. Nhà vua mừng rỡ vì con trai trở về bình an, lập tức sai sửa soạn đám cưới. Nhưng lão già làm ngựa vẫn còn giận vì không được thưởng. Lão lẻn vào vườn, nói dối công chúa: “Hoàng tử sai tôi đến đón nàng.” Rồi lão đặt nàng lên ngựa gỗ, bay đi mất.",
+      "subtitles": [
+        "Hoàng tử hỏi: “Nàng có muốn cùng ta về Ba Tư không?”",
+        "Công chúa gật đầu.",
+        "Hai người ngồi trên lưng ngựa gỗ, bay về xứ Ba Tư.",
+        "Hoàng tử để công chúa nghỉ trong một khu vườn ngoài thành,",
+        "còn mình vào cung báo tin cho vua cha.",
+        "Nhà vua mừng rỡ vì con trai trở về bình an, lập tức sai sửa soạn đám cưới.",
+        "Nhưng lão già làm ngựa vẫn còn giận vì không được thưởng.",
+        "Lão lẻn vào vườn, nói dối công chúa: “Hoàng tử sai tôi đến đón nàng.”",
+        "Rồi lão đặt nàng lên ngựa gỗ, bay đi mất."
+      ],
+      "image": {
+        "prompt": "the prince and the princess riding the black ebony horse together across a starry night sky above Persian hills, then a garden pavilion where the sly old sage is leading the princess toward the horse, a crescent moon overhead",
+        "seed": 1261605849,
+        "character": "ngua-go"
+      },
+      "video": {
+        "motionPrompt": "the ebony horse glides across the stars, then in the garden the old sage hurries the princess onto the horse and it lifts into the sky",
+        "seed": 1436709193
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-chua-vo-benh",
+      "title": "Công chúa vờ ốm",
+      "narrator": "ke-chuyen",
+      "narration": "Con ngựa bay tới một xứ xa. Lão già vừa đáp xuống thì bị lính của vua xứ ấy bắt giữ vì trông khả nghi. Nhà vua thấy công chúa xinh đẹp thì muốn cưới nàng. Công chúa không chịu, nàng nghĩ ra một mưu: nàng vờ như bị ốm, nói năng lẫn lộn, không cho ai lại gần. Nhà vua lo lắng, cho mời thầy thuốc khắp nơi, nhưng chẳng ai chữa được. Còn lão già thì bị nhốt vào ngục, không bao giờ được ra nữa. Con ngựa gỗ thì được cất trong kho báu của nhà vua.",
+      "subtitles": [
+        "Con ngựa bay tới một xứ xa.",
+        "Lão già vừa đáp xuống thì bị lính của vua xứ ấy bắt giữ vì trông khả nghi.",
+        "Nhà vua thấy công chúa xinh đẹp thì muốn cưới nàng.",
+        "Công chúa không chịu, nàng nghĩ ra một mưu: nàng vờ như bị ốm, nói năng lẫn lộn,",
+        "không cho ai lại gần.",
+        "Nhà vua lo lắng, cho mời thầy thuốc khắp nơi, nhưng chẳng ai chữa được.",
+        "Còn lão già thì bị nhốt vào ngục, không bao giờ được ra nữa.",
+        "Con ngựa gỗ thì được cất trong kho báu của nhà vua."
+      ],
+      "image": {
+        "prompt": "in a foreign palace, the princess sitting on cushions pretending to be unwell, waving her hands and speaking nonsense to keep everyone away, worried physicians and a puzzled king watching, the ebony horse visible through a doorway in a treasure room",
+        "seed": 3900725176,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the princess waves her hands dramatically, the physicians shake their heads, the king paces back and forth",
+        "seed": 628624081
+      },
+      "voice": {}
+    },
+    {
+      "id": "thay-thuoc-cai-trang",
+      "title": "Thầy thuốc cải trang",
+      "narrator": "ke-chuyen",
+      "narration": "Về phần hoàng tử, mất công chúa, chàng buồn bã, cải trang lên đường đi tìm. Qua bao nhiêu thành phố, cuối cùng chàng nghe kể về nàng công chúa lạ bị ốm và con ngựa gỗ trong kho báu. Chàng vội đến, xưng là thầy thuốc. Gặp chàng, công chúa nhận ra ngay, mừng thầm. Hoàng tử nói với nhà vua: “Bệnh của nàng do con ngựa gỗ gây ra. Hãy đặt ngựa giữa sân, cho nàng ngồi lên, tôi sẽ đọc phép chữa.” Nhà vua tin lời, sai mang ngựa ra.",
+      "subtitles": [
+        "Về phần hoàng tử, mất công chúa, chàng buồn bã, cải trang lên đường đi tìm.",
+        "Qua bao nhiêu thành phố,",
+        "cuối cùng chàng nghe kể về nàng công chúa lạ bị ốm và con ngựa gỗ trong kho báu.",
+        "Chàng vội đến, xưng là thầy thuốc.",
+        "Gặp chàng, công chúa nhận ra ngay, mừng thầm.",
+        "Hoàng tử nói với nhà vua: “Bệnh của nàng do con ngựa gỗ gây ra.",
+        "Hãy đặt ngựa giữa sân, cho nàng ngồi lên, tôi sẽ đọc phép chữa.”",
+        "Nhà vua tin lời, sai mang ngựa ra."
+      ],
+      "image": {
+        "prompt": "the prince disguised as a traveling physician with a grey cloak and a satchel of herbs, bowing before the foreign king, the princess secretly recognizing him and smiling behind her veil, servants carrying the ebony horse out into the courtyard",
+        "seed": 3741547357,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the disguised prince bows, the princess's eyes light up behind her veil, servants roll the ebony horse into the sunny courtyard",
+        "seed": 4180548170
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-ve-nha",
+      "title": "Bay về nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Giữa sân, trước mặt cả triều đình, hoàng tử đỡ công chúa lên lưng ngựa rồi nhảy lên ngồi phía sau. Chàng mỉm cười, vặn chốt vàng bên phải. Con ngựa gỗ vút lên trời, bay cao mãi, mặc cho nhà vua và quân lính đứng dưới ngẩn ngơ. Hoàng tử cúi xuống nói vọng: “Xin bệ hạ thứ lỗi, nàng là vợ chưa cưới của tôi!” Họ bay về Ba Tư. Vua cha mừng khôn xiết, mở tiệc cưới linh đình bảy ngày bảy đêm. Từ đó, hoàng tử và công chúa sống hạnh phúc bên nhau.",
+      "subtitles": [
+        "Giữa sân, trước mặt cả triều đình,",
+        "hoàng tử đỡ công chúa lên lưng ngựa rồi nhảy lên ngồi phía sau.",
+        "Chàng mỉm cười, vặn chốt vàng bên phải.",
+        "Con ngựa gỗ vút lên trời, bay cao mãi, mặc cho nhà vua và quân lính đứng dưới ngẩn ngơ.",
+        "Hoàng tử cúi xuống nói vọng: “Xin bệ hạ thứ lỗi, nàng là vợ chưa cưới của tôi!”",
+        "Họ bay về Ba Tư.",
+        "Vua cha mừng khôn xiết, mở tiệc cưới linh đình bảy ngày bảy đêm.",
+        "Từ đó, hoàng tử và công chúa sống hạnh phúc bên nhau."
+      ],
+      "image": {
+        "prompt": "the ebony horse rising into the sky from a palace courtyard with the prince and princess on its back, the foreign king and guards staring up in astonishment, then a joyful wedding celebration in the Persian palace with lanterns, musicians and flower petals",
+        "seed": 30232453,
+        "character": "ngua-go"
+      },
+      "video": {
+        "motionPrompt": "the ebony horse lifts off and circles above the courtyard, the king's jaw drops, then lanterns sway and petals fall at the wedding feast",
+        "seed": 2707827922
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "romantic and magical Persian melody, santur, oud, ney flute and soft tombak drum, a soaring flying theme over a starry night that ends in a joyful wedding dance, gentle for family listening, instrumental, no vocals",
+    "durationSeconds": 160,
+    "seed": 1397031011
+  }
+}

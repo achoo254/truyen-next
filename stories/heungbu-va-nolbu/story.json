@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "slug": "heungbu-va-nolbu",
+  "shelf": "world",
+  "title": "Heungbu và Nolbu",
+  "summary": "Người anh tham lam Nolbu chiếm hết gia tài, đuổi em trai Heungbu ra đường. Heungbu nghèo khó vẫn ân cần chữa chân cho chú chim én non, và mùa xuân năm sau, chú én mang về một hạt bầu kỳ diệu. Truyện dân gian Triều Tiên về lòng tốt và lòng tham, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "gia-dinh"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Triều Tiên \"Heungbu và Nolbu\", truyền miệng nhiều đời và được kể lại trong truyện pansori Heungbu-ga, không ai giữ quyền. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện dân gian, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Triều Tiên",
+  "style": "Korean children picture book illustration inspired by Joseon-era folk minhwa painting, soft colors of hanji paper cream, persimmon orange, pine green, sky blue and gourd yellow, gentle ink outlines, thatched hanok farmhouses, gourd vines climbing the roofs and swallows in the sky, warm kind mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "heungbu",
+      "name": "Heungbu",
+      "sheetPrompt": "Heungbu, a kind poor Korean man from folklore in the Joseon era, thin gentle face, patched white hanbok with a worn horsehair gat hat, warm smile, full body, front view, plain light background, character reference sheet",
+      "seed": 2382425648
+    },
+    {
+      "id": "nolbu",
+      "name": "Nolbu",
+      "sheetPrompt": "Nolbu, a greedy rich Korean man from folklore in the Joseon era, chubby face with a thin moustache, fine blue silk hanbok and a black gat hat, scowling, full body, front view, plain light background, character reference sheet",
+      "seed": 1448327618
+    },
+    {
+      "id": "chim-en",
+      "name": "Chim én",
+      "sheetPrompt": "a small Korean barn swallow from folklore, glossy dark blue back, orange throat, white belly, forked tail, bright friendly eyes, full body, side and front view, plain light background, character reference sheet",
+      "seed": 860176270
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hai-anh-em",
+      "title": "Hai anh em",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng quê Triều Tiên, có hai anh em. Người anh tên Nolbu, tham lam và keo kiệt. Người em tên Heungbu, hiền lành, thương người. Khi cha mẹ qua đời, để lại ruộng vườn, nhà cửa, Nolbu chiếm hết, rồi đuổi vợ chồng Heungbu cùng đàn con nhỏ ra khỏi nhà. “Đi đi, ta không nuôi cả lũ các người!” Heungbu chẳng oán trách, chỉ lặng lẽ dắt vợ con đi.",
+      "subtitles": [
+        "Ngày xưa, ở một làng quê Triều Tiên, có hai anh em.",
+        "Người anh tên Nolbu, tham lam và keo kiệt.",
+        "Người em tên Heungbu, hiền lành, thương người.",
+        "Khi cha mẹ qua đời, để lại ruộng vườn, nhà cửa, Nolbu chiếm hết,",
+        "rồi đuổi vợ chồng Heungbu cùng đàn con nhỏ ra khỏi nhà.",
+        "“Đi đi, ta không nuôi cả lũ các người!”",
+        "Heungbu chẳng oán trách, chỉ lặng lẽ dắt vợ con đi."
+      ],
+      "image": {
+        "prompt": "a greedy rich man in a blue silk hanbok pointing angrily from the gate of a big tiled-roof house, a poor gentle man in a patched white hanbok leading his wife and small children away down a dirt road",
+        "seed": 1712311320,
+        "character": "nolbu"
+      },
+      "video": {
+        "motionPrompt": "the gate slams shut, the poor family walks slowly down the road, the children look back over their shoulders",
+        "seed": 891072250
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-tranh-ngheo",
+      "title": "Túp lều nghèo",
+      "narrator": "ke-chuyen",
+      "narration": "Heungbu dựng một túp lều tranh nhỏ dưới chân đồi. Hai vợ chồng làm thuê làm mướn quanh năm mà vẫn không đủ ăn. Có hôm đói quá, Heungbu sang xin anh một bát gạo, Nolbu chẳng cho, còn sai người đuổi ra. Về nhà, Heungbu cười với vợ con: “Thôi, nghèo mà mình thương nhau là được.” Cả nhà quây quần bên nồi cháo loãng, vẫn vui vẻ chuyện trò.",
+      "subtitles": [
+        "Heungbu dựng một túp lều tranh nhỏ dưới chân đồi.",
+        "Hai vợ chồng làm thuê làm mướn quanh năm mà vẫn không đủ ăn.",
+        "Có hôm đói quá, Heungbu sang xin anh một bát gạo, Nolbu chẳng cho, còn sai người đuổi ra.",
+        "Về nhà, Heungbu cười với vợ con: “Thôi, nghèo mà mình thương nhau là được.”",
+        "Cả nhà quây quần bên nồi cháo loãng, vẫn vui vẻ chuyện trò."
+      ],
+      "image": {
+        "prompt": "a tiny thatched hut at the foot of a hill, a poor family sitting together around a small pot of thin porridge, smiling warmly despite their patched clothes, swallows nesting under the eaves",
+        "seed": 3891728124,
+        "character": "heungbu"
+      },
+      "video": {
+        "motionPrompt": "the family shares the porridge and laughs together, smoke curls gently from the little hut",
+        "seed": 2967681173
+      },
+      "voice": {}
+    },
+    {
+      "id": "chu-en-non",
+      "title": "Chú én non",
+      "narrator": "ke-chuyen",
+      "narration": "Mùa xuân, một đôi chim én về làm tổ dưới mái lều nhà Heungbu. Một hôm, chú én non tập bay, chẳng may rơi khỏi tổ, chân bị gãy, nằm kêu thảm thiết. Heungbu vội nâng chú lên, lấy vải nhỏ băng chân, lấy que tre nẹp lại, ngày ngày đút cho chú từng hạt thóc. Ít lâu sau, chân én lành hẳn. Đến mùa thu, chú én bay vòng quanh lều ba vòng rồi theo đàn bay về phương nam.",
+      "subtitles": [
+        "Mùa xuân, một đôi chim én về làm tổ dưới mái lều nhà Heungbu.",
+        "Một hôm, chú én non tập bay, chẳng may rơi khỏi tổ, chân bị gãy, nằm kêu thảm thiết.",
+        "Heungbu vội nâng chú lên, lấy vải nhỏ băng chân, lấy que tre nẹp lại,",
+        "ngày ngày đút cho chú từng hạt thóc. Ít lâu sau, chân én lành hẳn.",
+        "Đến mùa thu, chú én bay vòng quanh lều ba vòng rồi theo đàn bay về phương nam."
+      ],
+      "image": {
+        "prompt": "a gentle poor man carefully bandaging the tiny leg of a baby swallow with a strip of cloth and a bamboo splint, his children watching closely, a swallow nest under a thatched roof",
+        "seed": 2993988878,
+        "character": "heungbu"
+      },
+      "video": {
+        "motionPrompt": "the man gently wraps the tiny leg, then later the swallow flutters up, circles the hut and flies south",
+        "seed": 3114590887
+      },
+      "voice": {}
+    },
+    {
+      "id": "hat-bau-ky-dieu",
+      "title": "Hạt bầu kỳ diệu",
+      "narrator": "ke-chuyen",
+      "narration": "Mùa xuân năm sau, chú én trở về, ngậm trong mỏ một hạt bầu, thả vào tay Heungbu. Heungbu đem trồng cạnh lều. Dây bầu leo kín mái, kết ra những quả bầu to như cái chum. Mùa thu, hai vợ chồng cưa quả bầu thứ nhất. Gạo trắng tuôn ra ào ào, đầy cả gian nhà. Quả thứ hai đầy vàng bạc, lụa là. Quả thứ ba bước ra những người thợ, dựng cho gia đình một ngôi nhà mới khang trang.",
+      "subtitles": [
+        "Mùa xuân năm sau, chú én trở về, ngậm trong mỏ một hạt bầu, thả vào tay Heungbu.",
+        "Heungbu đem trồng cạnh lều.",
+        "Dây bầu leo kín mái, kết ra những quả bầu to như cái chum.",
+        "Mùa thu, hai vợ chồng cưa quả bầu thứ nhất.",
+        "Gạo trắng tuôn ra ào ào, đầy cả gian nhà. Quả thứ hai đầy vàng bạc, lụa là.",
+        "Quả thứ ba bước ra những người thợ, dựng cho gia đình một ngôi nhà mới khang trang."
+      ],
+      "image": {
+        "prompt": "a poor couple sawing open a giant golden gourd beside their hut, white rice and gold coins pouring out, more huge gourds on vines covering the thatched roof, a swallow watching from the eaves",
+        "seed": 4007595072,
+        "character": "heungbu"
+      },
+      "video": {
+        "motionPrompt": "the gourd splits open and rice and gold coins pour out like a waterfall, the children jump with joy",
+        "seed": 3912414609
+      },
+      "voice": {}
+    },
+    {
+      "id": "nolbu-ganh-ti",
+      "title": "Nolbu ganh tị",
+      "narrator": "ke-chuyen",
+      "narration": "Tin Heungbu giàu lên đến tai Nolbu. Hắn chạy sang hỏi, Heungbu thật thà kể hết. Nolbu về nhà, ngày đêm rình tổ én dưới mái nhà mình. Rồi hắn cố tình làm chú én non ngã khỏi tổ, rồi băng cái chân trầy cho có lệ, miệng lẩm bẩm: “Nhớ mang về cho ta nhiều hạt bầu nhé!” Mùa xuân sau, chú én cũng ngậm về một hạt bầu, thả trước cửa nhà Nolbu.",
+      "subtitles": [
+        "Tin Heungbu giàu lên đến tai Nolbu. Hắn chạy sang hỏi, Heungbu thật thà kể hết.",
+        "Nolbu về nhà, ngày đêm rình tổ én dưới mái nhà mình.",
+        "Rồi hắn cố tình làm chú én non ngã khỏi tổ, rồi băng cái chân trầy cho có lệ,",
+        "miệng lẩm bẩm: “Nhớ mang về cho ta nhiều hạt bầu nhé!”",
+        "Mùa xuân sau, chú én cũng ngậm về một hạt bầu, thả trước cửa nhà Nolbu."
+      ],
+      "image": {
+        "prompt": "a greedy man in a blue silk hanbok carelessly wrapping a cloth around a baby swallow's leg while grinning slyly, a swallow nest under a tiled roof, the bird looking unhappy",
+        "seed": 1208063603,
+        "character": "nolbu"
+      },
+      "video": {
+        "motionPrompt": "the greedy man ties the cloth roughly and grins, the swallow wriggles free and flies off over the rooftops",
+        "seed": 3246107469
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-bau-cua-nolbu",
+      "title": "Quả bầu của Nolbu",
+      "narrator": "ke-chuyen",
+      "narration": "Nolbu trồng hạt bầu, quả lớn còn to hơn quả nhà em. Hắn hớn hở cưa quả thứ nhất. Nhưng chẳng có vàng bạc gì, chỉ có một đám yêu tinh nhỏ nhảy ra đòi nợ, khuân đi hết đồ đạc. Quả thứ hai tuôn ra bùn đất lầy lội. Quả thứ ba phun ra dòng nước lũ, cuốn trôi cả nhà kho lẫn ruộng vườn. Chỉ trong một ngày, Nolbu trắng tay, đứng ngơ ngác giữa đống bùn.",
+      "subtitles": [
+        "Nolbu trồng hạt bầu, quả lớn còn to hơn quả nhà em. Hắn hớn hở cưa quả thứ nhất.",
+        "Nhưng chẳng có vàng bạc gì, chỉ có một đám yêu tinh nhỏ nhảy ra đòi nợ,",
+        "khuân đi hết đồ đạc. Quả thứ hai tuôn ra bùn đất lầy lội.",
+        "Quả thứ ba phun ra dòng nước lũ, cuốn trôi cả nhà kho lẫn ruộng vườn.",
+        "Chỉ trong một ngày, Nolbu trắng tay, đứng ngơ ngác giữa đống bùn."
+      ],
+      "image": {
+        "prompt": "comical little Korean dokkaebi goblins with funny horns hopping out of a giant gourd carrying away furniture, muddy water spilling from another gourd, a shocked greedy man in a muddy blue hanbok, playful not scary",
+        "seed": 460986225,
+        "character": "nolbu"
+      },
+      "video": {
+        "motionPrompt": "funny goblins tumble out of the gourd and dance away with chests and pots, muddy water splashes across the yard",
+        "seed": 2469692647
+      },
+      "voice": {}
+    },
+    {
+      "id": "anh-em-doan-tu",
+      "title": "Anh em đoàn tụ",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe tin anh gặp nạn, Heungbu chạy sang ngay. Anh đỡ Nolbu dậy: “Anh ơi, về ở với em. Nhà em rộng, gạo em nhiều, anh em mình cùng sống.” Nolbu bật khóc, xấu hổ vô cùng: “Em ơi, anh đã đối xử tệ với em biết bao.” Từ hôm ấy, Nolbu bỏ thói tham lam, cùng em chăm chỉ làm ăn. Và mỗi mùa xuân, đàn én lại về làm tổ dưới mái nhà của hai anh em.",
+      "subtitles": [
+        "Nghe tin anh gặp nạn, Heungbu chạy sang ngay.",
+        "Anh đỡ Nolbu dậy: “Anh ơi, về ở với em.",
+        "Nhà em rộng, gạo em nhiều, anh em mình cùng sống.”",
+        "Nolbu bật khóc, xấu hổ vô cùng: “Em ơi, anh đã đối xử tệ với em biết bao.”",
+        "Từ hôm ấy, Nolbu bỏ thói tham lam, cùng em chăm chỉ làm ăn.",
+        "Và mỗi mùa xuân, đàn én lại về làm tổ dưới mái nhà của hai anh em."
+      ],
+      "image": {
+        "prompt": "two brothers embracing in front of a fine new hanok house, the kind brother in white hanbok welcoming the tearful humbled brother, both families together, swallows flying over a gourd-covered roof",
+        "seed": 3563422064,
+        "character": "heungbu"
+      },
+      "video": {
+        "motionPrompt": "the brothers embrace, the families gather around them, swallows swoop across the blue spring sky",
+        "seed": 2580641310
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle traditional Korean folk melody, gayageum zither and daegeum bamboo flute with soft janggu drum, warm and hopeful, calm storytelling mood, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 325765720
+  }
+}

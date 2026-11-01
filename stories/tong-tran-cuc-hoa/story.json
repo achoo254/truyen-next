@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "slug": "tong-tran-cuc-hoa",
+  "shelf": "adults",
+  "title": "Tống Trân, Cúc Hoa",
+  "summary": "Chàng trai nghèo dắt mẹ đi xin ăn và cô con gái nhà giàu bỏ cả gia tài để theo chàng. Rồi chồng đỗ trạng, bị đẩy sang nước Tần làm sứ suốt bao năm, còn vợ ở nhà bị cha ép gả cho người khác: một chuyện thủy chung kể lại từ truyện thơ Nôm Tống Trân, Cúc Hoa.",
+  "themes": [
+    "tinh-yeu",
+    "gia-dinh",
+    "thien-ac"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện thơ Nôm khuyết danh Tống Trân, Cúc Hoa (thế kỷ mười tám đến mười chín), thuộc phạm vi công cộng. Lời kể văn xuôi viết mới, theo cốt truyện thơ; không trích câu thơ của bản phiên âm hay bản kể hiện đại nào.",
+  "basedOn": "Truyện thơ Nôm khuyết danh Tống Trân, Cúc Hoa",
+  "style": "traditional Vietnamese silk painting illustration with fine ink linework and soft muted washes of ochre, jade green, rose and indigo, rural northern Vietnam villages of old with bamboo hedges, thatched houses and rice fields, scholars in long robes and turbans, a royal court, a foreign palace across the sea, tender and faithful mood for adult readers, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "tong-tran",
+      "name": "Tống Trân",
+      "sheetPrompt": "Tong Tran, a poor but bright young Vietnamese scholar of old, slim, gentle face, hair in a simple topknot under a dark turban, patched brown cotton robe, later a scholar's blue robe, kind and steady eyes, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 291610233
+    },
+    {
+      "id": "cuc-hoa",
+      "name": "Cúc Hoa",
+      "sheetPrompt": "Cuc Hoa, a kind young Vietnamese woman of old from a wealthy family, oval face, long black hair in a neat bun with a wooden pin, soft pink ao tu than dress over a white blouse, later plain brown village clothes, warm faithful eyes, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 4286540392
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dat-me-di-xin",
+      "title": "Dắt mẹ đi xin",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một người đàn bà hiếm muộn, đi cầu tự khắp nơi mới sinh được một đứa con trai, đặt tên là Tống Trân. Người ta bảo cậu vốn là một vị tiên đồng phạm lỗi, bị đày xuống trần gian chịu khổ một thời. Quả thật, cậu mới lên ba thì cha mất, nhà nghèo đến nỗi không còn một đấu gạo. Mẹ ốm yếu, không làm được việc nặng. Năm lên tám, Tống Trân phải dắt tay mẹ đi khắp làng trên xóm dưới, gõ cửa từng nhà mà xin cơm. Xin được bát nào, cậu cũng để mẹ ăn trước, còn mình ăn phần thừa. Đêm nằm ở mái đình, cậu vẫn ôm mấy cuốn sách cũ nhặt được, nhẩm từng chữ dưới ánh trăng.",
+      "subtitles": [
+        "Ngày xưa có một người đàn bà hiếm muộn, đi cầu tự khắp nơi mới sinh được một đứa con trai,",
+        "đặt tên là Tống Trân. Người ta bảo cậu vốn là một vị tiên đồng phạm lỗi,",
+        "bị đày xuống trần gian chịu khổ một thời.",
+        "Quả thật, cậu mới lên ba thì cha mất, nhà nghèo đến nỗi không còn một đấu gạo.",
+        "Mẹ ốm yếu, không làm được việc nặng.",
+        "Năm lên tám, Tống Trân phải dắt tay mẹ đi khắp làng trên xóm dưới,",
+        "gõ cửa từng nhà mà xin cơm.",
+        "Xin được bát nào, cậu cũng để mẹ ăn trước, còn mình ăn phần thừa.",
+        "Đêm nằm ở mái đình, cậu vẫn ôm mấy cuốn sách cũ nhặt được, nhẩm từng chữ dưới ánh trăng."
+      ],
+      "image": {
+        "prompt": "a poor boy of eight leading his frail widowed mother by the hand along a village road lined with bamboo, carrying a small begging bowl, thatched houses and rice fields behind them, soft morning light",
+        "seed": 2835899819,
+        "character": "tong-tran"
+      },
+      "video": {
+        "motionPrompt": "the boy and his mother walk slowly along the dusty road, bamboo leaves sway in the breeze, a dog lifts its head at a gate, gentle camera follow",
+        "seed": 4001540128
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuc-hoa-cho-gao",
+      "title": "Nắm gạo của Cúc Hoa",
+      "narrator": "ke-chuyen",
+      "narration": "Trong vùng có ông Trương viên ngoại giàu nhất xứ, nhà ngói mấy dãy, ruộng thẳng cánh cò bay. Ông có cô con gái tên là Cúc Hoa, nết na lại hay thương người. Một hôm, mẹ con Tống Trân dừng trước cổng nhà họ Trương. Cúc Hoa thấy chàng trai tuy áo rách mà ăn nói lễ độ, mắt sáng như người có chữ, liền đong cho một thúng gạo đầy. Từ đó, cứ mỗi lần mẹ con chàng đi qua, nàng lại lén mang gạo ra cho. Nàng hỏi chuyện, mới biết chàng vừa đi xin vừa tự học. Thương cảnh ấy, rồi phục cái chí ấy, trong lòng cô gái nhà giàu chẳng biết từ lúc nào đã có hình bóng chàng trai nghèo.",
+      "subtitles": [
+        "Trong vùng có ông Trương viên ngoại giàu nhất xứ, nhà ngói mấy dãy,",
+        "ruộng thẳng cánh cò bay. Ông có cô con gái tên là Cúc Hoa, nết na lại hay thương người.",
+        "Một hôm, mẹ con Tống Trân dừng trước cổng nhà họ Trương.",
+        "Cúc Hoa thấy chàng trai tuy áo rách mà ăn nói lễ độ, mắt sáng như người có chữ,",
+        "liền đong cho một thúng gạo đầy.",
+        "Từ đó, cứ mỗi lần mẹ con chàng đi qua, nàng lại lén mang gạo ra cho.",
+        "Nàng hỏi chuyện, mới biết chàng vừa đi xin vừa tự học.",
+        "Thương cảnh ấy, rồi phục cái chí ấy,",
+        "trong lòng cô gái nhà giàu chẳng biết từ lúc nào đã có hình bóng chàng trai nghèo."
+      ],
+      "image": {
+        "prompt": "at the gate of a rich household with tiled roofs, a young woman in a pink dress pours rice from a bamboo basket into the bowl of a poor young man while his old mother bows, a servant watching from behind",
+        "seed": 136884976,
+        "character": "cuc-hoa"
+      },
+      "video": {
+        "motionPrompt": "rice grains pour gently into the bowl, the young woman smiles shyly, the mother bows slowly, petals drift from a tree by the gate, slow camera push-in",
+        "seed": 3489988238
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-duoi-khoi-nha",
+      "title": "Bị đuổi khỏi nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Cúc Hoa thưa với cha, xin được làm vợ Tống Trân. Trương viên ngoại nổi giận đùng đùng: Con nhà ta mà đi lấy thằng ăn mày, để thiên hạ cười vào mặt ta à? Nàng quỳ mà khóc, nói người nghèo chưa chắc nghèo mãi, người hiếu thảo ắt có ngày nên. Ông cha khuyên không được, mắng không xong, bèn đuổi con ra khỏi nhà, không cho mang theo một thứ của cải nào. Cúc Hoa chỉ xách một tay nải nhỏ, đi thẳng đến túp lều của mẹ con Tống Trân. Từ hôm ấy, nàng làm dâu nhà nghèo. Nàng dậy sớm thổi cơm, đi cấy thuê, dệt vải, nuôi mẹ chồng già yếu, lại dành từng đồng để chồng mua giấy mua bút, yên tâm mà đèn sách.",
+      "subtitles": [
+        "Cúc Hoa thưa với cha, xin được làm vợ Tống Trân.",
+        "Trương viên ngoại nổi giận đùng đùng:",
+        "Con nhà ta mà đi lấy thằng ăn mày, để thiên hạ cười vào mặt ta à?",
+        "Nàng quỳ mà khóc, nói người nghèo chưa chắc nghèo mãi, người hiếu thảo ắt có ngày nên.",
+        "Ông cha khuyên không được, mắng không xong, bèn đuổi con ra khỏi nhà,",
+        "không cho mang theo một thứ của cải nào.",
+        "Cúc Hoa chỉ xách một tay nải nhỏ, đi thẳng đến túp lều của mẹ con Tống Trân.",
+        "Từ hôm ấy, nàng làm dâu nhà nghèo.",
+        "Nàng dậy sớm thổi cơm, đi cấy thuê, dệt vải, nuôi mẹ chồng già yếu,",
+        "lại dành từng đồng để chồng mua giấy mua bút, yên tâm mà đèn sách."
+      ],
+      "image": {
+        "prompt": "inside a rich hall with dark lacquered furniture, an angry old father points toward the door while his daughter kneels with tears, a small cloth bundle beside her, servants looking away",
+        "seed": 2629219692,
+        "character": "cuc-hoa"
+      },
+      "video": {
+        "motionPrompt": "the father turns his back sharply, the daughter slowly rises and picks up her bundle, lamplight flickers, camera slowly pulls back toward the door",
+        "seed": 386955017
+      },
+      "voice": {}
+    },
+    {
+      "id": "do-trang",
+      "title": "Đỗ trạng nguyên",
+      "narrator": "ke-chuyen",
+      "narration": "Mấy năm trôi qua, triều đình mở khoa thi. Cúc Hoa bán đi chiếc khăn cuối cùng, gói cho chồng nắm cơm, tiễn chàng lên kinh. Tống Trân vào trường, văn hay chữ tốt, đỗ đầu thiên hạ, được vua ban áo mũ trạng nguyên. Vua thấy chàng tài giỏi, muốn gả công chúa cho. Tống Trân quỳ tâu: Muôn tâu bệ hạ, thần đã có vợ, người vợ ấy nuôi mẹ thần, nuôi thần ăn học từ thuở hàn vi. Thần không dám phụ. Vua khen là người có nghĩa, nhưng công chúa thì giận lắm. Nàng ngày đêm xui cha, rằng trạng nguyên giỏi như thế thì nên cử đi sứ phương xa. Thế là vua sai Tống Trân sang nước Tần, một chuyến đi không biết ngày về.",
+      "subtitles": [
+        "Mấy năm trôi qua, triều đình mở khoa thi.",
+        "Cúc Hoa bán đi chiếc khăn cuối cùng, gói cho chồng nắm cơm, tiễn chàng lên kinh.",
+        "Tống Trân vào trường, văn hay chữ tốt, đỗ đầu thiên hạ, được vua ban áo mũ trạng nguyên.",
+        "Vua thấy chàng tài giỏi, muốn gả công chúa cho. Tống Trân quỳ tâu:",
+        "Muôn tâu bệ hạ, thần đã có vợ, người vợ ấy nuôi mẹ thần, nuôi thần ăn học từ thuở hàn vi.",
+        "Thần không dám phụ. Vua khen là người có nghĩa, nhưng công chúa thì giận lắm.",
+        "Nàng ngày đêm xui cha, rằng trạng nguyên giỏi như thế thì nên cử đi sứ phương xa.",
+        "Thế là vua sai Tống Trân sang nước Tần, một chuyến đi không biết ngày về."
+      ],
+      "image": {
+        "prompt": "a grand imperial examination courtyard, a young scholar in a blue robe kneels before the king on a high dais, officials in court robes lining both sides, red banners announcing the top graduate, a princess watching from behind a silk screen",
+        "seed": 3301474984,
+        "character": "tong-tran"
+      },
+      "video": {
+        "motionPrompt": "the banners flutter, officials bow in unison, the young scholar slowly rises with a scroll in hand, the princess lowers her eyes behind the screen, slow camera crane down",
+        "seed": 3397555252
+      },
+      "voice": {}
+    },
+    {
+      "id": "chia-tay",
+      "title": "Chia tay bên bến",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày Tống Trân lên đường, Cúc Hoa ra tận bến sông tiễn chồng. Chàng nắm tay vợ mà dặn: Nàng ở nhà thay ta phụng dưỡng mẹ già. Ta đi lần này, sống thì nhất định trở về với nàng. Cúc Hoa gạt nước mắt: Chàng cứ yên lòng mà đi. Mẹ chàng cũng là mẹ thiếp. Dù bao nhiêu năm, thiếp cũng đợi. Con thuyền rời bến, chở chàng trạng trẻ sang miền đất lạ. Còn người vợ trở về túp lều cũ, lại cấy lại dệt, chăm từng bữa cháo cho mẹ chồng, đêm đêm thắp đèn ngóng về phương xa.",
+      "subtitles": [
+        "Ngày Tống Trân lên đường, Cúc Hoa ra tận bến sông tiễn chồng. Chàng nắm tay vợ mà dặn:",
+        "Nàng ở nhà thay ta phụng dưỡng mẹ già.",
+        "Ta đi lần này, sống thì nhất định trở về với nàng. Cúc Hoa gạt nước mắt:",
+        "Chàng cứ yên lòng mà đi. Mẹ chàng cũng là mẹ thiếp.",
+        "Dù bao nhiêu năm, thiếp cũng đợi.",
+        "Con thuyền rời bến, chở chàng trạng trẻ sang miền đất lạ.",
+        "Còn người vợ trở về túp lều cũ, lại cấy lại dệt, chăm từng bữa cháo cho mẹ chồng,",
+        "đêm đêm thắp đèn ngóng về phương xa."
+      ],
+      "image": {
+        "prompt": "at a misty river landing at dawn, the young scholar in official robe holds the hands of his wife in plain clothes, his old mother leaning on a cane beside them, an envoy boat with sails waiting",
+        "seed": 473778187,
+        "character": "cuc-hoa"
+      },
+      "video": {
+        "motionPrompt": "mist drifts over the river, the boat sways gently, the wife slowly lets go of his hands, the boat begins to move away, slow camera pan across the water",
+        "seed": 2995400397
+      },
+      "voice": {}
+    },
+    {
+      "id": "o-nuoc-tan",
+      "title": "Lưỡng quốc trạng nguyên",
+      "narrator": "ke-chuyen",
+      "narration": "Sang tới nước Tần, vua Tần thấy sứ thần nước nhỏ thì coi khinh, tìm đủ cách làm khó, có lúc còn muốn hại. Người ta đưa ra những vụ kiện rắc rối nhất mà các quan nước Tần xử mãi không xong, thách sứ thần phân xử. Tống Trân nghe hai bên, hỏi vài câu, rồi chỉ ra đúng kẻ gian người ngay, khiến ai cũng phải tâm phục. Hết vụ này đến vụ khác, chàng đều xử sáng như gương. Vua Tần đổi giận làm mừng, phong chàng là Lưỡng quốc trạng nguyên, trạng nguyên của cả hai nước, lại muốn gả công chúa nước Tần. Tống Trân lại từ chối như đã từ chối vua nhà. Vua Tần quý tài, cứ giữ chàng ở lại, một năm, hai năm, rồi bảy năm trôi qua.",
+      "subtitles": [
+        "Sang tới nước Tần, vua Tần thấy sứ thần nước nhỏ thì coi khinh, tìm đủ cách làm khó,",
+        "có lúc còn muốn hại.",
+        "Người ta đưa ra những vụ kiện rắc rối nhất mà các quan nước Tần xử mãi không xong,",
+        "thách sứ thần phân xử.",
+        "Tống Trân nghe hai bên, hỏi vài câu, rồi chỉ ra đúng kẻ gian người ngay,",
+        "khiến ai cũng phải tâm phục.",
+        "Hết vụ này đến vụ khác, chàng đều xử sáng như gương.",
+        "Vua Tần đổi giận làm mừng, phong chàng là Lưỡng quốc trạng nguyên,",
+        "trạng nguyên của cả hai nước, lại muốn gả công chúa nước Tần.",
+        "Tống Trân lại từ chối như đã từ chối vua nhà.",
+        "Vua Tần quý tài, cứ giữ chàng ở lại, một năm, hai năm, rồi bảy năm trôi qua."
+      ],
+      "image": {
+        "prompt": "inside a foreign palace with towering red pillars and golden dragons, a proud king on his throne frowning, the Vietnamese envoy in blue robe standing calmly and speaking, foreign ministers whispering to each other, a court case being judged",
+        "seed": 889161461,
+        "character": "tong-tran"
+      },
+      "video": {
+        "motionPrompt": "the foreign king leans forward with interest, ministers exchange glances, the envoy gestures calmly, incense smoke curls up between the pillars, slow camera push-in",
+        "seed": 564252950
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-ep-gia",
+      "title": "Bị ép gả",
+      "narrator": "ke-chuyen",
+      "narration": "Ở nhà, Trương viên ngoại thấy con rể đi biền biệt, bèn nói Tống Trân chắc đã bỏ xác nơi đất khách. Ông nhận lễ hỏi của viên Đình trưởng trong làng, ép Cúc Hoa phải đi bước nữa. Nàng một mực không nghe: Chồng con còn sống, con đâu thể lấy người khác. Ông cha nhốt nàng vào buồng tối, đánh mắng, bỏ đói. Mẹ chồng nàng bị đuổi xuống ở chuồng trâu, sống nhờ mấy bát cơm người làng lén mang cho. Ngày cưới bị ép tới gần. Cúc Hoa trốn ra được, một mình lên núi Sơn Vi, viết một lá thư kể hết nỗi oan, rồi ngồi khóc bên vách đá, chỉ muốn nhảy xuống vực mà tỏ tấm lòng.",
+      "subtitles": [
+        "Ở nhà, Trương viên ngoại thấy con rể đi biền biệt,",
+        "bèn nói Tống Trân chắc đã bỏ xác nơi đất khách.",
+        "Ông nhận lễ hỏi của viên Đình trưởng trong làng, ép Cúc Hoa phải đi bước nữa.",
+        "Nàng một mực không nghe: Chồng con còn sống, con đâu thể lấy người khác.",
+        "Ông cha nhốt nàng vào buồng tối, đánh mắng, bỏ đói.",
+        "Mẹ chồng nàng bị đuổi xuống ở chuồng trâu, sống nhờ mấy bát cơm người làng lén mang cho.",
+        "Ngày cưới bị ép tới gần.",
+        "Cúc Hoa trốn ra được, một mình lên núi Sơn Vi, viết một lá thư kể hết nỗi oan,",
+        "rồi ngồi khóc bên vách đá, chỉ muốn nhảy xuống vực mà tỏ tấm lòng."
+      ],
+      "image": {
+        "prompt": "a sad young woman in plain clothes locked inside a dim storeroom, light coming through bamboo slats, outside the window her rich father talks with a smug village headman, an old mother sitting alone in a cattle shed nearby",
+        "seed": 1999425110,
+        "character": "cuc-hoa"
+      },
+      "video": {
+        "motionPrompt": "dust floats in the slanted light, the woman presses her hand against the bamboo slats, the old mother pulls a thin blanket around her shoulders, slow camera pan",
+        "seed": 2897690818
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-mang-thu",
+      "title": "Thần núi mang thư",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng trong rừng có tiếng động. Một con hổ lớn bước ra, mắt hiền như mắt người. Đó là thần Sơn Tinh cảm lòng chung thủy của nàng mà hóa thân xuống. Hổ cúi đầu trước mặt Cúc Hoa, như muốn nói: Đừng tìm cái chết, hãy đưa thư đây. Nàng run run buộc lá thư vào cổ hổ. Hổ vượt núi, băng rừng, lội biển, chẳng mấy ngày đã sang tới kinh đô nước Tần, đặt lá thư trước mặt Tống Trân. Đọc thư vợ, chàng khóc không thành tiếng, vào tâu hết với vua Tần. Vua Tần cảm động, nói: Người vợ như thế, ta nào nỡ giữ chồng nàng. Liền cho Tống Trân về nước trước hạn, lại ban cho thuyền tốt và lộc hậu.",
+      "subtitles": [
+        "Bỗng trong rừng có tiếng động.",
+        "Một con hổ lớn bước ra, mắt hiền như mắt người.",
+        "Đó là thần Sơn Tinh cảm lòng chung thủy của nàng mà hóa thân xuống.",
+        "Hổ cúi đầu trước mặt Cúc Hoa, như muốn nói:",
+        "Đừng tìm cái chết, hãy đưa thư đây.",
+        "Nàng run run buộc lá thư vào cổ hổ.",
+        "Hổ vượt núi, băng rừng, lội biển, chẳng mấy ngày đã sang tới kinh đô nước Tần,",
+        "đặt lá thư trước mặt Tống Trân.",
+        "Đọc thư vợ, chàng khóc không thành tiếng, vào tâu hết với vua Tần. Vua Tần cảm động, nói:",
+        "Người vợ như thế, ta nào nỡ giữ chồng nàng.",
+        "Liền cho Tống Trân về nước trước hạn, lại ban cho thuyền tốt và lộc hậu."
+      ],
+      "image": {
+        "prompt": "on a misty mountain at dusk, a great striped tiger with gentle glowing eyes stands before a weeping young woman, a rolled letter tied around its neck with a red cord, pine trees and clouds around them, mystical calm mood",
+        "seed": 2709973204,
+        "character": "cuc-hoa"
+      },
+      "video": {
+        "motionPrompt": "the tiger bows its head as the woman ties the letter, then turns and leaps away into the clouds, mist swirls over the pines, slow camera follow",
+        "seed": 3528971802
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-dung-dam-cuoi",
+      "title": "Về đúng ngày cưới",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng ngày nhà họ Trương mổ lợn mổ bò, bày cỗ linh đình gả con gái cho Đình trưởng. Cúc Hoa mặc áo đỏ mà mặt trắng bệch, trong tay áo giấu sẵn con dao nhỏ, định giữa tiệc sẽ tự vẫn cho trọn đạo. Giữa lúc khách khứa đang nâng chén, ngoài cổng vang tiếng chiêng, cờ quạt rợp đường. Một vị quan áo mũ chỉnh tề bước vào: chính là Tống Trân. Cả đám cưới lặng ngắt. Viên Đình trưởng lủi mất. Trương viên ngoại xấu hổ, cúi gằm mặt, chẳng nói được câu nào. Tống Trân đến bên vợ, rồi chạy xuống chuồng trâu cõng mẹ lên nhà trên. Ba mẹ con vợ chồng ôm nhau mà khóc, nước mắt lần này là nước mắt mừng.",
+      "subtitles": [
+        "Đúng ngày nhà họ Trương mổ lợn mổ bò, bày cỗ linh đình gả con gái cho Đình trưởng.",
+        "Cúc Hoa mặc áo đỏ mà mặt trắng bệch, trong tay áo giấu sẵn con dao nhỏ,",
+        "định giữa tiệc sẽ tự vẫn cho trọn đạo.",
+        "Giữa lúc khách khứa đang nâng chén, ngoài cổng vang tiếng chiêng, cờ quạt rợp đường.",
+        "Một vị quan áo mũ chỉnh tề bước vào: chính là Tống Trân. Cả đám cưới lặng ngắt.",
+        "Viên Đình trưởng lủi mất.",
+        "Trương viên ngoại xấu hổ, cúi gằm mặt, chẳng nói được câu nào.",
+        "Tống Trân đến bên vợ, rồi chạy xuống chuồng trâu cõng mẹ lên nhà trên.",
+        "Ba mẹ con vợ chồng ôm nhau mà khóc, nước mắt lần này là nước mắt mừng."
+      ],
+      "image": {
+        "prompt": "a lavish village wedding feast under red lanterns and festive awnings, guests at long tables, a bride in red standing frozen, at the gate a scholar in envoy robes arrives with attendants and banners, the rich father dropping his cup in shock",
+        "seed": 3082391610,
+        "character": "tong-tran"
+      },
+      "video": {
+        "motionPrompt": "lanterns sway, guests turn their heads toward the gate, the bride slowly lifts her face, the envoy strides forward, camera pushes in through the crowd",
+        "seed": 3476864581
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-chua-tan",
+      "title": "Công chúa nước Tần",
+      "narrator": "ke-chuyen",
+      "narration": "Chuyện chưa hết. Công chúa nước Tần vẫn nhớ thương chàng trạng nước Nam, liều mình vượt biển sang tìm. Giữa đường gặp bão, thuyền vỡ, nàng trôi dạt vào một bãi cát vắng, được bầy hươu nai quây quần che chở. Một hôm Tống Trân đi săn, tình cờ gặp nàng, bèn đưa về nhà. Cúc Hoa nghe hết sự tình, thương người con gái đã vì chồng mình mà suýt bỏ mạng ngoài biển, liền vui lòng nhận nàng làm em. Từ đó, nhà Tống Trân êm ấm, mẹ già được phụng dưỡng tới lúc trăm tuổi. Người đời kể chuyện này để nhớ rằng: tấm lòng thủy chung của Cúc Hoa, dẫu cha ruột ép uổng, dẫu bao năm xa cách, vẫn không hề lay chuyển.",
+      "subtitles": [
+        "Chuyện chưa hết.",
+        "Công chúa nước Tần vẫn nhớ thương chàng trạng nước Nam, liều mình vượt biển sang tìm.",
+        "Giữa đường gặp bão, thuyền vỡ, nàng trôi dạt vào một bãi cát vắng,",
+        "được bầy hươu nai quây quần che chở.",
+        "Một hôm Tống Trân đi săn, tình cờ gặp nàng, bèn đưa về nhà.",
+        "Cúc Hoa nghe hết sự tình,",
+        "thương người con gái đã vì chồng mình mà suýt bỏ mạng ngoài biển,",
+        "liền vui lòng nhận nàng làm em.",
+        "Từ đó, nhà Tống Trân êm ấm, mẹ già được phụng dưỡng tới lúc trăm tuổi.",
+        "Người đời kể chuyện này để nhớ rằng:",
+        "tấm lòng thủy chung của Cúc Hoa, dẫu cha ruột ép uổng, dẫu bao năm xa cách,",
+        "vẫn không hề lay chuyển."
+      ],
+      "image": {
+        "prompt": "on a quiet seashore with deer grazing among the dunes, a scholar on horseback during a hunt discovers a shipwrecked princess in fine foreign silk being cared for by gentle deer, a broken boat on the sand, soft evening light",
+        "seed": 2904847393,
+        "character": "tong-tran"
+      },
+      "video": {
+        "motionPrompt": "waves roll gently onto the sand, a deer lifts its head, the scholar dismounts and approaches slowly, the princess raises her eyes, slow camera pan",
+        "seed": 1206383627
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle traditional Vietnamese instrumental, dan tranh zither and bamboo flute with soft dan nguyet lute, longing then joyful, slow tempo, no vocals",
+    "durationSeconds": 150,
+    "seed": 364385389
+  }
+}

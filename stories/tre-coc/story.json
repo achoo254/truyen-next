@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "slug": "tre-coc",
+  "shelf": "kids",
+  "title": "Trê Cóc",
+  "summary": "Đàn nòng nọc của chị Cóc có đuôi bơi tung tăng, vợ chồng Trê thấy giống mình liền nhận là con, hai bên kéo nhau lên quan xử kiện. Nhờ lời khuyên khéo của Nhái Bén, quan chờ nòng nọc lớn lên để biết sự thật. Truyện thơ Nôm cổ kể vui cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac",
+    "gia-dinh"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Phỏng theo cốt truyện thơ Nôm khuyết danh \"Trê Cóc\" (thế kỷ mười tám đến mười chín), thuộc phạm vi công cộng. Lời kể văn xuôi viết mới cho trẻ nhỏ, không chép câu thơ hay bản kể nào; bỏ chi tiết giam giữ, Mèo Miu mở đầu và rút ý ở cuối.",
+  "basedOn": "Truyện thơ Nôm khuyết danh Trê Cóc",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, cheerful mood for young children, a green Vietnamese village pond with lotus leaves, reeds and water lilies, animals dressed in old Vietnamese clothes, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 3529343243,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chi-coc",
+      "name": "Chị Cóc",
+      "seed": 878085436,
+      "sheetPrompt": "a kind mother toad from an old Vietnamese tale, brown bumpy skin, warm gentle eyes, wearing a small indigo headscarf and a brown peasant blouse, standing upright, friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "vo-chong-tre",
+      "name": "Vợ chồng Trê",
+      "seed": 28590279,
+      "sheetPrompt": "a comic catfish couple from an old Vietnamese tale, dark grey whiskered catfish standing upright, the husband in a dark blue tunic and the wife in a purple blouse, sly but silly expressions, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nhai-ben",
+      "name": "Nhái Bén",
+      "seed": 257120293,
+      "sheetPrompt": "a small clever bright green tree frog from an old Vietnamese tale, big shining eyes, wearing a tiny brown scholar hat and a light green tunic, holding a little scroll, cheerful and wise, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "quan-huyen",
+      "name": "Quan huyện",
+      "seed": 1540067637,
+      "sheetPrompt": "an old wise frog magistrate from an old Vietnamese tale, dark green skin, white eyebrows, wearing a red official robe and a black winged official hat, sitting on a lotus leaf bench, calm and fair, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Miu hỏi nhé: con nòng nọc lớn lên sẽ thành con gì? Thành con cá à? Không phải đâu! Nòng nọc lớn lên sẽ rụng đuôi, mọc chân, thành con cóc, con ếch đấy. Ngày xưa, vì chuyện cái đuôi nòng nọc mà có một vụ kiện ầm ĩ dưới ao làng. Mình cùng nghe chuyện Trê Cóc nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Miu hỏi nhé: con nòng nọc lớn lên sẽ thành con gì? Thành con cá à?",
+        "Không phải đâu! Nòng nọc lớn lên sẽ rụng đuôi, mọc chân, thành con cóc, con ếch đấy.",
+        "Ngày xưa, vì chuyện cái đuôi nòng nọc mà có một vụ kiện ầm ĩ dưới ao làng.",
+        "Mình cùng nghe chuyện Trê Cóc nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat kneels at the edge of a green village pond, pointing at tiny tadpoles swimming among lotus leaves, curious and smiling",
+        "seed": 2775851856
+      },
+      "video": {
+        "motionPrompt": "the cat leans over the water and points, little tadpoles wiggle and swim in circles, ripples spread, slow gentle camera push-in",
+        "seed": 304385286
+      },
+      "voice": {}
+    },
+    {
+      "id": "coc-de-trung",
+      "title": "Chị Cóc đẻ trứng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, bên cạnh một cái ao có chị Cóc sinh sống. Một hôm, chị đẻ một đám trứng xuống mép ao, rồi phải lên bờ đi kiếm ăn ít ngày. Ít lâu sau, trứng nở ra một đàn nòng nọc bé xíu, đen nhánh, có đuôi dài, bơi tung tăng khắp ao. Gần đấy có vợ chồng nhà Trê. Trê vợ trông thấy đàn nòng nọc thì mừng rỡ reo lên: Ôi, đàn con xinh quá, giống hệt nhà mình!",
+      "subtitles": [
+        "Ngày xưa, bên cạnh một cái ao có chị Cóc sinh sống.",
+        "Một hôm, chị đẻ một đám trứng xuống mép ao, rồi phải lên bờ đi kiếm ăn ít ngày.",
+        "Ít lâu sau, trứng nở ra một đàn nòng nọc bé xíu, đen nhánh, có đuôi dài,",
+        "bơi tung tăng khắp ao.",
+        "Gần đấy có vợ chồng nhà Trê.",
+        "Trê vợ trông thấy đàn nòng nọc thì mừng rỡ reo lên: Ôi, đàn con xinh quá,",
+        "giống hệt nhà mình!"
+      ],
+      "image": {
+        "character": "vo-chong-tre",
+        "prompt": "a catfish couple in old Vietnamese clothes peek from behind lotus leaves at a swarm of tiny black tadpoles swimming in the pond, the catfish wife clasps her fins in delight",
+        "seed": 1734746139
+      },
+      "video": {
+        "motionPrompt": "the tadpoles swirl playfully, the catfish wife clasps her fins happily, the husband twirls his whiskers, lotus leaves bob",
+        "seed": 2259973462
+      },
+      "voice": {}
+    },
+    {
+      "id": "tre-nhan-con",
+      "title": "Trê nhận làm con",
+      "narrator": "ke-chuyen",
+      "narration": "Trê chồng nhìn kỹ, cũng gật gù: Đầu to, mình đen, lại có đuôi bơi lội giỏi thế kia, không con nhà Trê thì con nhà ai! Thế là vợ chồng Trê dắt cả đàn nòng nọc về hang, nuôi nấng như con mình. Mấy hôm sau chị Cóc trở về, tìm khắp mép ao không thấy con đâu. Nghe hàng xóm kể lại, chị vội đến nhà Trê: Các con tôi đấy, trả lại cho tôi!",
+      "subtitles": [
+        "Trê chồng nhìn kỹ, cũng gật gù: Đầu to, mình đen, lại có đuôi bơi lội giỏi thế kia,",
+        "không con nhà Trê thì con nhà ai!",
+        "Thế là vợ chồng Trê dắt cả đàn nòng nọc về hang, nuôi nấng như con mình.",
+        "Mấy hôm sau chị Cóc trở về, tìm khắp mép ao không thấy con đâu.",
+        "Nghe hàng xóm kể lại, chị vội đến nhà Trê: Các con tôi đấy, trả lại cho tôi!"
+      ],
+      "image": {
+        "character": "chi-coc",
+        "prompt": "the mother toad in an indigo headscarf stands at the entrance of the catfish couple's underwater home pleading with outstretched hands, the catfish couple shelter the tadpoles behind them, shaking their heads",
+        "seed": 2822978381
+      },
+      "video": {
+        "motionPrompt": "the mother toad gestures pleadingly, the catfish couple shake their heads and spread their fins, tadpoles peek out curiously, bubbles rise",
+        "seed": 3752054115
+      },
+      "voice": {}
+    },
+    {
+      "id": "len-quan",
+      "title": "Lên quan xử kiện",
+      "narrator": "ke-chuyen",
+      "narration": "Vợ chồng Trê nhất định không trả, còn bảo: Cóc da sần sùi, có đuôi đâu mà đẻ được con có đuôi! Chị Cóc tức lắm, bèn làm đơn lên quan huyện. Quan cho gọi cả hai bên đến. Trê có nhiều người quen, nói năng trơn tru. Cóc thì vụng về, chỉ biết khóc. Quan nghe hai bên cãi mãi mà chưa biết ai đúng ai sai, đành tạm hoãn để suy nghĩ.",
+      "subtitles": [
+        "Vợ chồng Trê nhất định không trả, còn bảo: Cóc da sần sùi,",
+        "có đuôi đâu mà đẻ được con có đuôi!",
+        "Chị Cóc tức lắm, bèn làm đơn lên quan huyện. Quan cho gọi cả hai bên đến.",
+        "Trê có nhiều người quen, nói năng trơn tru. Cóc thì vụng về, chỉ biết khóc.",
+        "Quan nghe hai bên cãi mãi mà chưa biết ai đúng ai sai, đành tạm hoãn để suy nghĩ."
+      ],
+      "image": {
+        "character": "quan-huyen",
+        "prompt": "an old frog magistrate in a red robe and black winged hat sits at a low wooden desk on a lotus leaf, listening to the talkative catfish couple and the crying mother toad, reeds and water lilies around",
+        "seed": 192614049
+      },
+      "video": {
+        "motionPrompt": "the catfish couple talk and wave their fins, the mother toad wipes her tears, the magistrate strokes his chin thoughtfully, dragonflies hover",
+        "seed": 3266024332
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhai-ben-giup",
+      "title": "Nhái Bén bày cách",
+      "narrator": "ke-chuyen",
+      "narration": "Chị Cóc buồn bã ngồi bên ao. Nhái Bén, người bạn nhỏ tinh khôn của chị, nhảy lại bảo: Chị đừng lo, em có cách! Nhái Bén lên gặp quan, thưa: Bẩm quan, nòng nọc bây giờ còn bé, trông giống ai cũng được. Xin quan cứ chờ ít hôm cho chúng lớn lên, lúc ấy chúng giống bố mẹ nào thì là con nhà ấy. Quan nghe xong, gật gù: Phải lắm!",
+      "subtitles": [
+        "Chị Cóc buồn bã ngồi bên ao.",
+        "Nhái Bén, người bạn nhỏ tinh khôn của chị, nhảy lại bảo: Chị đừng lo, em có cách!",
+        "Nhái Bén lên gặp quan, thưa: Bẩm quan, nòng nọc bây giờ còn bé, trông giống ai cũng được.",
+        "Xin quan cứ chờ ít hôm cho chúng lớn lên, lúc ấy chúng giống bố mẹ nào thì là con nhà ấy.",
+        "Quan nghe xong, gật gù: Phải lắm!"
+      ],
+      "image": {
+        "character": "nhai-ben",
+        "prompt": "a small clever green tree frog in a tiny scholar hat bows before the old frog magistrate and explains with a little scroll, the mother toad watches hopefully in the background",
+        "seed": 2313364949
+      },
+      "video": {
+        "motionPrompt": "the little tree frog hops and bows, unrolls his scroll and gestures, the magistrate nods slowly, the mother toad clasps her hands hopefully",
+        "seed": 4181627986
+      },
+      "voice": {}
+    },
+    {
+      "id": "su-that",
+      "title": "Sự thật lộ ra",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày qua ngày, đàn nòng nọc lớn dần. Rồi một sáng, đuôi chúng rụng đi, chân mọc ra, cả đàn nhảy lên bờ kêu ộp ộp, da sần sùi y như mẹ Cóc. Chúng nhảy ngay vào lòng mẹ. Quan nhìn thấy, phán: Sự thật đã rõ, đàn con là của chị Cóc! Vợ chồng Trê vì nhận bừa con người khác nên phải chịu phạt, xấu hổ bơi đi nơi khác.",
+      "subtitles": [
+        "Ngày qua ngày, đàn nòng nọc lớn dần.",
+        "Rồi một sáng, đuôi chúng rụng đi, chân mọc ra, cả đàn nhảy lên bờ kêu ộp ộp,",
+        "da sần sùi y như mẹ Cóc.",
+        "Chúng nhảy ngay vào lòng mẹ. Quan nhìn thấy, phán: Sự thật đã rõ, đàn con là của chị Cóc!",
+        "Vợ chồng Trê vì nhận bừa con người khác nên phải chịu phạt, xấu hổ bơi đi nơi khác."
+      ],
+      "image": {
+        "character": "chi-coc",
+        "prompt": "a happy mother toad hugs a crowd of little baby toads hopping out of the pond onto the bank, the old frog magistrate smiles and points, the embarrassed catfish couple swim away in the background",
+        "seed": 2331118713
+      },
+      "video": {
+        "motionPrompt": "baby toads hop joyfully onto the bank and into their mother's arms, the magistrate nods with a smile, the catfish couple slink away under the lily pads",
+        "seed": 2908403383
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, vợ chồng Trê chỉ nhìn cái đuôi đã vội nhận con của người khác. Nhưng thứ không phải của mình thì sớm muộn gì sự thật cũng lộ ra. Còn Nhái Bén thì khôn lắm, biết rằng có lúc cần kiên nhẫn chờ đợi mới thấy được điều đúng. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, vợ chồng Trê chỉ nhìn cái đuôi đã vội nhận con của người khác.",
+        "Nhưng thứ không phải của mình thì sớm muộn gì sự thật cũng lộ ra.",
+        "Còn Nhái Bén thì khôn lắm, biết rằng có lúc cần kiên nhẫn chờ đợi mới thấy được điều đúng.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the pond edge, the mother toad and her many little baby toads and the clever tree frog sit together on a big lotus leaf, golden sunset light",
+        "seed": 2375738718
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the baby toads hop around their mother, the tree frog tips his tiny hat, ripples sparkle, gentle camera pull-back",
+        "seed": 2620674479
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Vietnamese countryside folk melody, dan bau monochord and bamboo flute with soft water-like dan tranh zither, light and warm with a hint of playfulness, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 462978508
+  }
+}

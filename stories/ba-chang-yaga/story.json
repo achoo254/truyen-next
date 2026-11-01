@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "slug": "ba-chang-yaga",
+  "shelf": "world",
+  "title": "Bà chằng Baba Yaga",
+  "summary": "Mẹ kế sai cô bé tới túp lều chân gà của bà chằng Baba Yaga mượn kim chỉ. Nhờ biết thương cả con mèo, con chó, cây bạch dương và cánh cổng, cô bé thoát khỏi tay bà chằng. Truyện dân gian Nga kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "gia-dinh"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Nga \"Баба-яга\" (Baba Yaga), được A. N. Afanasyev sưu tầm trong tuyển tập truyện cổ Nga (1855–1863), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, kể nhẹ: Baba Yaga chỉ định giữ cô bé làm người hầu mãi mãi, mẹ kế bị đuổi đi, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Nga",
+  "style": "classic Russian folk tale picture book illustration in the style of early twentieth century Russian storybook art, ornamental folk embroidery borders, a crooked hut on giant chicken legs in a misty birch and fir forest, twisted fences, warm lantern light, colors of moss green, rust orange, deep blue and cream, whimsical rather than scary, cozy adventure mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "co-be",
+      "name": "Cô bé",
+      "sheetPrompt": "a brave kind Russian peasant girl of about eight with two light brown braids, a yellow headscarf, a green sarafan and a small bundle, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3009180159
+    },
+    {
+      "id": "baba-yaga",
+      "name": "Baba Yaga",
+      "sheetPrompt": "Baba Yaga, a bony old forest witch of Russian folklore with a long hooked nose, wild grey hair under a patched headscarf, an iron-toothed grin, riding a wooden mortar with a pestle and broom, grumpy and comical rather than frightening, full body, front view, plain light background, character reference sheet",
+      "seed": 698684153
+    },
+    {
+      "id": "meo",
+      "name": "Con mèo gầy",
+      "sheetPrompt": "a skinny grey striped cat from a Russian folk tale with big green eyes, thin but friendly, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2108508760
+    }
+  ],
+  "scenes": [
+    {
+      "id": "me-ke-sai-di",
+      "title": "Mẹ kế sai đi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một ông lão goá vợ sống với cô con gái nhỏ. Ông lấy vợ kế, mà bà vợ kế lại chẳng ưa gì cô bé. Một hôm ông lão đi vắng, bà ta gọi cô bé lại, giọng ngọt xớt: “Con sang nhà dì con trong rừng, mượn cho mẹ cái kim với cuộn chỉ để may áo.” Cô bé ngoan ngoãn vâng lời. Nhưng cô biết người dì trong rừng ấy chính là bà chằng Baba Yaga, chị của mẹ kế. Cô bé không đi thẳng tới đó, mà chạy sang nhà bà dì ruột của mình trước, để hỏi xem nên làm thế nào.",
+      "subtitles": [
+        "Ngày xưa, có một ông lão goá vợ sống với cô con gái nhỏ.",
+        "Ông lấy vợ kế, mà bà vợ kế lại chẳng ưa gì cô bé.",
+        "Một hôm ông lão đi vắng, bà ta gọi cô bé lại, giọng ngọt xớt:",
+        "“Con sang nhà dì con trong rừng, mượn cho mẹ cái kim với cuộn chỉ để may áo.”",
+        "Cô bé ngoan ngoãn vâng lời.",
+        "Nhưng cô biết người dì trong rừng ấy chính là bà chằng Baba Yaga, chị của mẹ kế.",
+        "Cô bé không đi thẳng tới đó,",
+        "mà chạy sang nhà bà dì ruột của mình trước, để hỏi xem nên làm thế nào."
+      ],
+      "image": {
+        "prompt": "a sly stepmother in a wooden izba handing a small basket to a little girl with braids and a yellow headscarf, pointing toward a dark forest beyond the window, the girl looking thoughtful",
+        "seed": 620878709,
+        "character": "co-be"
+      },
+      "video": {
+        "motionPrompt": "the stepmother smiles falsely, the girl takes the basket, wind sways the trees outside the window",
+        "seed": 3869452472
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-dan-cua-di",
+      "title": "Lời dặn của dì",
+      "narrator": "ke-chuyen",
+      "narration": "Bà dì ruột hiền hậu nghe chuyện, xoa đầu cô bé: “Cháu ơi, đến nhà Baba Yaga, cây bạch dương sẽ quất cành vào mắt cháu, cháu hãy lấy dải băng buộc cành lại. Cánh cổng sẽ kêu cót két đòi đóng sập, cháu hãy rót dầu vào bản lề. Bầy chó sẽ nhảy xổ ra, cháu hãy ném cho chúng mẩu bánh mì. Con mèo sẽ định cào cháu, cháu hãy cho nó miếng giăm bông.” Rồi bà gói cho cô bé dải băng, chai dầu, bánh mì và giăm bông. Cô bé cảm ơn dì, rồi đi vào rừng.",
+      "subtitles": [
+        "Bà dì ruột hiền hậu nghe chuyện, xoa đầu cô bé: “Cháu ơi, đến nhà Baba Yaga,",
+        "cây bạch dương sẽ quất cành vào mắt cháu, cháu hãy lấy dải băng buộc cành lại.",
+        "Cánh cổng sẽ kêu cót két đòi đóng sập, cháu hãy rót dầu vào bản lề.",
+        "Bầy chó sẽ nhảy xổ ra, cháu hãy ném cho chúng mẩu bánh mì.",
+        "Con mèo sẽ định cào cháu, cháu hãy cho nó miếng giăm bông.”",
+        "Rồi bà gói cho cô bé dải băng, chai dầu, bánh mì và giăm bông.",
+        "Cô bé cảm ơn dì, rồi đi vào rừng."
+      ],
+      "image": {
+        "prompt": "a kind old aunt in a cozy cottage packing a ribbon, a small bottle of oil, a loaf of bread and a piece of ham into the little girl bundle, warm firelight, loving mood",
+        "seed": 3469191594,
+        "character": "co-be"
+      },
+      "video": {
+        "motionPrompt": "the aunt ties the bundle and strokes the girl head, the fire crackles, the girl nods and waves goodbye",
+        "seed": 496474613
+      },
+      "voice": {}
+    },
+    {
+      "id": "tup-leu-chan-ga",
+      "title": "Túp lều chân gà",
+      "narrator": "ke-chuyen",
+      "narration": "Cô bé đi mãi, đi mãi, tới một khoảng rừng âm u. Ở đó có một túp lều đứng trên hai cái chân gà khổng lồ, cứ xoay qua xoay lại. Cây bạch dương bên lối vào quất cành vun vút, cô bé lấy dải băng buộc cành lại gọn gàng. Cánh cổng kêu cót két, cô bé rót dầu vào bản lề, cổng mở ra êm ru. Bầy chó nhảy xổ ra, cô bé ném bánh mì cho chúng, chúng vẫy đuôi để cô đi qua. Trong lều, Baba Yaga đang ngồi dệt vải, mũi dài chạm tới trần nhà.",
+      "subtitles": [
+        "Cô bé đi mãi, đi mãi, tới một khoảng rừng âm u.",
+        "Ở đó có một túp lều đứng trên hai cái chân gà khổng lồ, cứ xoay qua xoay lại.",
+        "Cây bạch dương bên lối vào quất cành vun vút, cô bé lấy dải băng buộc cành lại gọn gàng.",
+        "Cánh cổng kêu cót két, cô bé rót dầu vào bản lề, cổng mở ra êm ru.",
+        "Bầy chó nhảy xổ ra, cô bé ném bánh mì cho chúng, chúng vẫy đuôi để cô đi qua.",
+        "Trong lều, Baba Yaga đang ngồi dệt vải, mũi dài chạm tới trần nhà."
+      ],
+      "image": {
+        "prompt": "a crooked wooden hut standing on two giant chicken legs in a misty forest clearing, the little girl tying a birch branch with a ribbon and oiling the creaky gate, shaggy dogs happily eating bread, whimsical atmosphere",
+        "seed": 607740728,
+        "character": "co-be"
+      },
+      "video": {
+        "motionPrompt": "the hut turns slowly on its chicken legs, the birch branch is tied gently, the gate swings open, dogs wag their tails",
+        "seed": 2615392518
+      },
+      "voice": {}
+    },
+    {
+      "id": "baba-yaga",
+      "title": "Baba Yaga",
+      "narrator": "ke-chuyen",
+      "narration": "Baba Yaga nhìn cô bé, nhe hàm răng sắt, cười khùng khục: “Cháu đến mượn kim chỉ à? Được thôi. Nhưng ngồi dệt vải cho bà một lúc đã.” Rồi mụ ra ngoài, dặn nhỏ cô hầu gái: “Đi đốt lò tắm, đun nước cho thật nóng. Tắm rửa xong, ta sẽ giữ con bé này ở lại làm người hầu cho ta mãi mãi, không bao giờ cho về nữa!” Cô bé nghe thấy hết. Tim đập thình thịch, nhưng cô vẫn bình tĩnh, lấy chiếc khăn thêu duy nhất của mình tặng cô hầu gái, khẽ nhờ: “Chị ơi, chị đun lò thật chậm thôi nhé.”",
+      "subtitles": [
+        "Baba Yaga nhìn cô bé, nhe hàm răng sắt, cười khùng khục: “Cháu đến mượn kim chỉ à?",
+        "Được thôi.",
+        "Nhưng ngồi dệt vải cho bà một lúc đã.”",
+        "Rồi mụ ra ngoài, dặn nhỏ cô hầu gái: “Đi đốt lò tắm, đun nước cho thật nóng.",
+        "Tắm rửa xong, ta sẽ giữ con bé này ở lại làm người hầu cho ta mãi mãi,",
+        "không bao giờ cho về nữa!”",
+        "Cô bé nghe thấy hết.",
+        "Tim đập thình thịch, nhưng cô vẫn bình tĩnh,",
+        "lấy chiếc khăn thêu duy nhất của mình tặng cô hầu gái,",
+        "khẽ nhờ: “Chị ơi, chị đun lò thật chậm thôi nhé.”"
+      ],
+      "image": {
+        "prompt": "a grumpy comical old forest witch with a long hooked nose grinning beside a wooden loom, the little girl sitting at the loom calmly, giving an embroidered scarf to a shy servant girl, lantern light inside the hut",
+        "seed": 2395040946,
+        "character": "baba-yaga"
+      },
+      "video": {
+        "motionPrompt": "the witch cackles and shuffles out the door, the loom shuttle moves, the girl hands the scarf to the servant who smiles",
+        "seed": 889879198
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-meo-gay",
+      "title": "Con mèo gầy",
+      "narrator": "ke-chuyen",
+      "narration": "Trong góc lều, một con mèo gầy nhom đang rình chuột, mắt xanh lè nhìn cô bé. Cô bé lấy miếng giăm bông chia cho mèo, rồi hỏi: “Mèo ơi, làm sao để cháu thoát khỏi đây?” Mèo ăn xong, liếm mép, thì thầm: “Cô bé tốt bụng, đây là chiếc khăn mặt và chiếc lược. Chạy đi! Khi nghe Baba Yaga đuổi sau lưng, hãy áp tai xuống đất. Mụ tới gần thì ném khăn mặt, rồi ném chiếc lược.” Mèo ngồi vào khung cửi, dệt thay cô bé, cho tiếng thoi lách cách không ngừng. Cô bé nhẹ nhàng lẻn ra cửa.",
+      "subtitles": [
+        "Trong góc lều, một con mèo gầy nhom đang rình chuột, mắt xanh lè nhìn cô bé.",
+        "Cô bé lấy miếng giăm bông chia cho mèo, rồi hỏi: “Mèo ơi, làm sao để cháu thoát khỏi đây?”",
+        "Mèo ăn xong, liếm mép, thì thầm: “Cô bé tốt bụng, đây là chiếc khăn mặt và chiếc lược.",
+        "Chạy đi!",
+        "Khi nghe Baba Yaga đuổi sau lưng, hãy áp tai xuống đất.",
+        "Mụ tới gần thì ném khăn mặt, rồi ném chiếc lược.”",
+        "Mèo ngồi vào khung cửi, dệt thay cô bé, cho tiếng thoi lách cách không ngừng.",
+        "Cô bé nhẹ nhàng lẻn ra cửa."
+      ],
+      "image": {
+        "prompt": "a skinny grey cat with big green eyes eating ham and giving a towel and a comb to the little girl, then sitting at the loom weaving in her place, the girl tiptoeing out of the hut, cozy secret mood",
+        "seed": 2671992774,
+        "character": "meo"
+      },
+      "video": {
+        "motionPrompt": "the cat nibbles the ham, hands over the towel and comb, then works the loom as the girl tiptoes out",
+        "seed": 3632668610
+      },
+      "voice": {}
+    },
+    {
+      "id": "chay-tron",
+      "title": "Chạy trốn",
+      "narrator": "ke-chuyen",
+      "narration": "Bầy chó thấy cô bé thì vẫy đuôi. Cánh cổng mở êm ru. Cây bạch dương rẽ cành cho cô đi. Cô bé chạy một mạch vào rừng. Một lúc sau, Baba Yaga quay lại, thấy mèo đang dệt vải thì tức giận lắm. Mụ nhảy vào chiếc cối gỗ, cầm chày làm mái chèo, cầm chổi xoá dấu vết, rồi bay vù đuổi theo. Cô bé áp tai xuống đất, nghe tiếng mụ đã gần. Cô ném chiếc khăn mặt xuống đường, khăn hoá thành một dòng sông rộng mênh mông. Baba Yaga phải dừng lại, chờ mãi mới qua được sông.",
+      "subtitles": [
+        "Bầy chó thấy cô bé thì vẫy đuôi.",
+        "Cánh cổng mở êm ru.",
+        "Cây bạch dương rẽ cành cho cô đi.",
+        "Cô bé chạy một mạch vào rừng.",
+        "Một lúc sau, Baba Yaga quay lại, thấy mèo đang dệt vải thì tức giận lắm.",
+        "Mụ nhảy vào chiếc cối gỗ, cầm chày làm mái chèo,",
+        "cầm chổi xoá dấu vết, rồi bay vù đuổi theo.",
+        "Cô bé áp tai xuống đất, nghe tiếng mụ đã gần.",
+        "Cô ném chiếc khăn mặt xuống đường, khăn hoá thành một dòng sông rộng mênh mông.",
+        "Baba Yaga phải dừng lại, chờ mãi mới qua được sông."
+      ],
+      "image": {
+        "prompt": "the little girl running through the forest throwing a towel behind her that turns into a wide blue river, the old forest witch flying in a wooden mortar with a pestle and a broom stuck on the far bank, whimsical chase",
+        "seed": 3158528936,
+        "character": "co-be"
+      },
+      "video": {
+        "motionPrompt": "the towel unrolls into a sparkling river, the witch in her mortar skids to a stop and shakes her broom",
+        "seed": 565895611
+      },
+      "voice": {}
+    },
+    {
+      "id": "khu-rung-chiec-luoc",
+      "title": "Khu rừng từ chiếc lược",
+      "narrator": "ke-chuyen",
+      "narration": "Qua được sông, Baba Yaga lại bay vù đuổi tiếp. Cô bé lại áp tai xuống đất, nghe mụ đã gần lắm rồi. Cô ném chiếc lược ra sau lưng, chiếc lược hoá thành một khu rừng rậm rạp, cây đan vào nhau kín mít. Baba Yaga gặm cây, bẻ cành mãi mà không sao qua được, đành quay về. Mụ mắng con mèo: “Sao mày để nó chạy?” Mèo đáp: “Tôi hầu bà bao năm, bà chưa cho tôi miếng nào. Cô bé cho tôi giăm bông.” Bầy chó, cánh cổng, cây bạch dương và cô hầu gái cũng đáp như vậy: cô bé đối xử tử tế với chúng, còn Baba Yaga thì chưa bao giờ.",
+      "subtitles": [
+        "Qua được sông, Baba Yaga lại bay vù đuổi tiếp.",
+        "Cô bé lại áp tai xuống đất, nghe mụ đã gần lắm rồi.",
+        "Cô ném chiếc lược ra sau lưng,",
+        "chiếc lược hoá thành một khu rừng rậm rạp, cây đan vào nhau kín mít.",
+        "Baba Yaga gặm cây, bẻ cành mãi mà không sao qua được, đành quay về.",
+        "Mụ mắng con mèo: “Sao mày để nó chạy?”",
+        "Mèo đáp: “Tôi hầu bà bao năm, bà chưa cho tôi miếng nào.",
+        "Cô bé cho tôi giăm bông.”",
+        "Bầy chó, cánh cổng, cây bạch dương và cô hầu gái cũng đáp như vậy:",
+        "cô bé đối xử tử tế với chúng, còn Baba Yaga thì chưa bao giờ."
+      ],
+      "image": {
+        "prompt": "a dense magical forest springing up from a thrown comb, the old forest witch tangled among branches looking frustrated, then back at her hut the cat, the dogs, the gate and the birch tree all turning away from her with folded arms",
+        "seed": 1156329853,
+        "character": "baba-yaga"
+      },
+      "video": {
+        "motionPrompt": "trees sprout and weave together, the witch tugs at branches, the cat shrugs and the dogs turn away",
+        "seed": 3255131592
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-voi-cha",
+      "title": "Về với cha",
+      "narrator": "ke-chuyen",
+      "narration": "Cô bé chạy về tới nhà thì cha cũng vừa về. Ông lão hỏi con đi đâu mà mặt mũi lấm lem. Cô bé kể lại hết đầu đuôi. Ông lão nghe xong, giận bà vợ kế lắm, đuổi bà ta ra khỏi nhà, không bao giờ cho quay lại. Từ đó, hai cha con sống với nhau yên vui. Cô bé vẫn hay chia bánh cho chó, cho mèo, rót dầu cho cánh cổng kêu cót két, vì cô biết rằng lòng tốt dù nhỏ bé cũng có ngày cứu mình qua cơn nguy khốn.",
+      "subtitles": [
+        "Cô bé chạy về tới nhà thì cha cũng vừa về.",
+        "Ông lão hỏi con đi đâu mà mặt mũi lấm lem.",
+        "Cô bé kể lại hết đầu đuôi.",
+        "Ông lão nghe xong, giận bà vợ kế lắm, đuổi bà ta ra khỏi nhà, không bao giờ cho quay lại.",
+        "Từ đó, hai cha con sống với nhau yên vui.",
+        "Cô bé vẫn hay chia bánh cho chó, cho mèo, rót dầu cho cánh cổng kêu cót két,",
+        "vì cô biết rằng lòng tốt dù nhỏ bé cũng có ngày cứu mình qua cơn nguy khốn."
+      ],
+      "image": {
+        "prompt": "the little girl running into the arms of her father at the door of their izba, then father and daughter sharing bread with a cat and a dog in the sunny yard, the stepmother walking away down the road in the distance",
+        "seed": 2698165157,
+        "character": "co-be"
+      },
+      "video": {
+        "motionPrompt": "the father hugs his daughter, the cat purrs, the dog wags, sunlight warms the yard",
+        "seed": 1651920587
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "mysterious but playful Russian folk tune, balalaika, wooden flute and soft drums, a lively chase section then a warm calm ending, whimsical, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3051301560
+  }
+}

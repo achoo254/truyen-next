@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "slug": "tam-dai-con-ga",
+  "shelf": "kids",
+  "title": "Tam đại con gà",
+  "summary": "Thầy đồ dốt không biết chữ \"kê\" là con gà, liền đọc bừa \"dủ dỉ là con dù dì\", rồi bị lộ và phải nghĩ ra câu chống chế buồn cười về ba đời nhà gà. Truyện cười dân gian Việt Nam kể vui cho trẻ nhỏ: không biết thì hỏi, đừng giấu dốt.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cười dân gian Việt Nam, truyền miệng, không ai giữ quyền. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; giữ chuyện thầy đồ giấu dốt, thêm thoại và chi tiết đời thường, Mèo Miu mở đầu và rút ý ở cuối.",
+  "basedOn": "Truyện cười dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, cheerful comic mood for young children, old Vietnamese village school with low wooden desks, ink brushes and paper scrolls, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 931625255,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "thay-do",
+      "name": "Thầy đồ",
+      "seed": 2125507490,
+      "sheetPrompt": "a thin comic Vietnamese village teacher from an old folk tale, black ao dai robe, black turban, wispy goatee, round glasses, holding a closed paper book and looking nervously sideways, friendly and silly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cau-hoc-tro",
+      "name": "Cậu học trò",
+      "seed": 1369086810,
+      "sheetPrompt": "a small Vietnamese schoolboy from an old folk tale with a shaved head and a tuft of hair, brown tunic, sitting cross-legged with a paper book, bright curious eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bo-hoc-tro",
+      "name": "Bố cậu học trò",
+      "seed": 4280870737,
+      "sheetPrompt": "a kind middle-aged Vietnamese farmer father from an old folk tale, indigo shirt, cone hat on his back, holding a basket of chicken eggs, thoughtful face, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn ơi, khi đọc sách mà gặp một chữ mình chưa biết, các bạn sẽ làm gì? Hỏi cô giáo, hỏi bố mẹ, đúng không nào? Ngày xưa có một ông thầy đồ gặp chữ lạ mà lại không chịu hỏi ai, cứ đọc bừa cho xong chuyện. Ông đọc bừa thế nào mà cả làng cười mãi tới giờ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn ơi, khi đọc sách mà gặp một chữ mình chưa biết, các bạn sẽ làm gì?",
+        "Hỏi cô giáo, hỏi bố mẹ, đúng không nào?",
+        "Ngày xưa có một ông thầy đồ gặp chữ lạ mà lại không chịu hỏi ai,",
+        "cứ đọc bừa cho xong chuyện.",
+        "Ông đọc bừa thế nào mà cả làng cười mãi tới giờ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits at a low wooden desk with an open old paper book, scratching her head with a puzzled smile, a little chicken peeking over the desk",
+        "seed": 2628181961
+      },
+      "video": {
+        "motionPrompt": "the cat flips a page and scratches her head, the little chicken hops up beside the book, slow gentle camera push-in",
+        "seed": 2485068003
+      },
+      "voice": {}
+    },
+    {
+      "id": "thay-do-lang",
+      "title": "Ông thầy đồ trong làng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một ông thầy đồ học hành chẳng được bao nhiêu, chữ nghĩa lõm bõm. Thế nhưng ông lại hay làm ra vẻ giỏi giang, ai hỏi gì cũng gật gù như biết hết. Một làng nọ thiếu thầy dạy, ông xin đến mở lớp. Mấy ông bố bà mẹ mừng lắm, gửi con đến học, lại mang biếu thầy gạo, trứng, rau quả đều đặn.",
+      "subtitles": [
+        "Ngày xưa, có một ông thầy đồ học hành chẳng được bao nhiêu, chữ nghĩa lõm bõm.",
+        "Thế nhưng ông lại hay làm ra vẻ giỏi giang, ai hỏi gì cũng gật gù như biết hết.",
+        "Một làng nọ thiếu thầy dạy, ông xin đến mở lớp.",
+        "Mấy ông bố bà mẹ mừng lắm, gửi con đến học, lại mang biếu thầy gạo, trứng,",
+        "rau quả đều đặn."
+      ],
+      "image": {
+        "character": "thay-do",
+        "prompt": "a thin village teacher in a black robe sits on a raised mat at the front of a small thatched classroom, stroking his goatee with a proud look, a few small pupils sit at low desks, parents bring baskets of rice and eggs at the door",
+        "seed": 2109225366
+      },
+      "video": {
+        "motionPrompt": "the teacher strokes his goatee and nods importantly, children bow politely, a parent sets down a basket of eggs, sunlight through the bamboo window",
+        "seed": 4089437232
+      },
+      "voice": {}
+    },
+    {
+      "id": "chu-ke",
+      "title": "Chữ lạ trong sách",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, cậu học trò nhỏ chỉ vào một chữ trong sách hỏi: Thưa thầy, chữ này đọc là gì ạ? Đó là chữ kê, nghĩa là con gà. Nhưng thầy không biết chữ ấy! Thầy nhìn trước nhìn sau, mồ hôi lấm tấm. Thầy định bảo để mai thầy giảng, nhưng sợ học trò biết mình dốt. Thế là thầy hắng giọng, đọc bừa: Dủ dỉ là con dù dì!",
+      "subtitles": [
+        "Một hôm, cậu học trò nhỏ chỉ vào một chữ trong sách hỏi: Thưa thầy, chữ này đọc là gì ạ?",
+        "Đó là chữ kê, nghĩa là con gà. Nhưng thầy không biết chữ ấy!",
+        "Thầy nhìn trước nhìn sau, mồ hôi lấm tấm.",
+        "Thầy định bảo để mai thầy giảng, nhưng sợ học trò biết mình dốt.",
+        "Thế là thầy hắng giọng, đọc bừa: Dủ dỉ là con dù dì!"
+      ],
+      "image": {
+        "character": "cau-hoc-tro",
+        "prompt": "a small schoolboy points at a character in an old paper book, the thin teacher leans over with wide nervous eyes and beads of sweat, other pupils watch curiously",
+        "seed": 4015862193
+      },
+      "video": {
+        "motionPrompt": "the boy points at the page, the teacher's eyes dart left and right, a drop of sweat rolls down his cheek, comic timing",
+        "seed": 3889041616
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoi-tho-cong",
+      "title": "Thầy hỏi ông Thổ công",
+      "narrator": "ke-chuyen",
+      "narration": "Nói xong, thầy vẫn thấy lo lo. Thầy lẻn ra miếu ông Thổ công ở đầu làng, khấn thầm rồi gieo hai đồng tiền xuống đất để hỏi xem mình đọc thế có đúng không. Hai đồng tiền rơi xuống, thầy nhìn rồi cho là thần bảo đúng. Thầy mừng rỡ, về lớp bắt học trò đọc thật to: Dủ dỉ là con dù dì! Dủ dỉ là con dù dì!",
+      "subtitles": [
+        "Nói xong, thầy vẫn thấy lo lo.",
+        "Thầy lẻn ra miếu ông Thổ công ở đầu làng,",
+        "khấn thầm rồi gieo hai đồng tiền xuống đất để hỏi xem mình đọc thế có đúng không.",
+        "Hai đồng tiền rơi xuống, thầy nhìn rồi cho là thần bảo đúng.",
+        "Thầy mừng rỡ, về lớp bắt học trò đọc thật to: Dủ dỉ là con dù dì! Dủ dỉ là con dù dì!"
+      ],
+      "image": {
+        "character": "thay-do",
+        "prompt": "the thin teacher kneels at a tiny village shrine under a banyan tree, tossing two old bronze coins onto the ground and smiling with relief, then pupils in the classroom read aloud together",
+        "seed": 1239909054
+      },
+      "video": {
+        "motionPrompt": "the coins spin and land on the ground, the teacher claps his hands happily, banyan leaves flutter, incense smoke curls gently",
+        "seed": 29205490
+      },
+      "voice": {}
+    },
+    {
+      "id": "bo-nghe-thay",
+      "title": "Bố cậu bé nghe thấy",
+      "narrator": "ke-chuyen",
+      "narration": "Tối hôm ấy, cậu bé ngồi ở hiên nhà, đọc đi đọc lại câu thầy dạy. Bố cậu đang cho gà ăn, nghe thấy lạ quá, bèn cầm sách lên xem. Ông biết chữ, nhìn qua đã thấy ngay đấy là chữ kê, tức là con gà. Ông nhẹ nhàng bảo con: Con ơi, chữ này là con gà đấy. Mai bố sang hỏi thầy xem sao.",
+      "subtitles": [
+        "Tối hôm ấy, cậu bé ngồi ở hiên nhà, đọc đi đọc lại câu thầy dạy.",
+        "Bố cậu đang cho gà ăn, nghe thấy lạ quá, bèn cầm sách lên xem.",
+        "Ông biết chữ, nhìn qua đã thấy ngay đấy là chữ kê, tức là con gà.",
+        "Ông nhẹ nhàng bảo con: Con ơi, chữ này là con gà đấy. Mai bố sang hỏi thầy xem sao."
+      ],
+      "image": {
+        "character": "bo-hoc-tro",
+        "prompt": "on a cozy veranda at dusk the small boy reads aloud from his book while his father, scattering grain to chickens, leans over to look at the page with a raised eyebrow, a lantern glows",
+        "seed": 2909924254
+      },
+      "video": {
+        "motionPrompt": "the father pauses scattering grain and leans in, the chickens peck around, the lantern flame flickers, the boy looks up curiously",
+        "seed": 355667664
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-doi-nha-ga",
+      "title": "Ba đời nhà gà",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, ông bố sang hỏi. Thầy đồ đỏ mặt, nhưng vẫn cố cãi cho bằng được: Ấy, tôi dạy thế là dạy cho kỹ đấy chứ! Dủ dỉ là chị con công, con công là ông con gà. Tôi dạy các cháu biết tận ba đời nhà con gà kia mà! Ông bố nghe xong chỉ biết lắc đầu. Từ đó, cả làng ai cũng gọi đùa thầy là ông thầy tam đại con gà.",
+      "subtitles": [
+        "Sáng hôm sau, ông bố sang hỏi.",
+        "Thầy đồ đỏ mặt, nhưng vẫn cố cãi cho bằng được: Ấy, tôi dạy thế là dạy cho kỹ đấy chứ!",
+        "Dủ dỉ là chị con công, con công là ông con gà.",
+        "Tôi dạy các cháu biết tận ba đời nhà con gà kia mà! Ông bố nghe xong chỉ biết lắc đầu.",
+        "Từ đó, cả làng ai cũng gọi đùa thầy là ông thầy tam đại con gà."
+      ],
+      "image": {
+        "character": "thay-do",
+        "prompt": "the red-faced teacher waves his hands and argues with exaggerated confidence in front of the calm father, a hen, a peacock and a little chick stand in a row in the schoolyard looking puzzled, villagers giggle at the fence",
+        "seed": 2837052865
+      },
+      "video": {
+        "motionPrompt": "the teacher waves his arms dramatically, the father shakes his head slowly, the hen, peacock and chick turn their heads in confusion, villagers laugh",
+        "seed": 1825939116
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Ông thầy đồ không biết chữ mà không chịu hỏi, nên càng chống chế lại càng sai, càng làm mọi người cười. Không biết một điều gì thì chẳng có gì xấu cả, các bạn nhỏ ạ. Mình cứ hỏi, rồi mình sẽ biết thêm. Còn cố giấu đi mới là đáng ngại đấy! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Ông thầy đồ không biết chữ mà không chịu hỏi, nên càng chống chế lại càng sai,",
+        "càng làm mọi người cười.",
+        "Không biết một điều gì thì chẳng có gì xấu cả, các bạn nhỏ ạ.",
+        "Mình cứ hỏi, rồi mình sẽ biết thêm. Còn cố giấu đi mới là đáng ngại đấy!",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the village schoolyard, the boy and his father smile holding the book, a hen and her chicks walk by, warm afternoon light",
+        "seed": 2812611225
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the chicks hop around her feet, the boy turns a page happily, gentle camera pull-back",
+        "seed": 2870632226
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful Vietnamese folk tune, bamboo flute and dan tranh zither with soft wooden clappers, light and comic, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1480583931
+  }
+}
