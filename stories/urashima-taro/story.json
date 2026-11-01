@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "slug": "urashima-taro",
+  "shelf": "world",
+  "title": "Urashima Taro",
+  "summary": "Chàng đánh cá Urashima Taro cứu một chú rùa nhỏ và được mời xuống Long Cung dưới đáy biển. Ba ngày vui ở cung điện hóa ra là ba trăm năm trên mặt đất, và chiếc hộp ngọc quà tặng giữ một bí mật. Truyện dân gian Nhật Bản kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "than-thoai",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Nhật Bản \"Urashima Tarō\", có dấu vết từ Nihon Shoki và Man'yōshū (thế kỷ VIII), phổ biến qua các bản otogizōshi thời Muromachi, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện dân gian, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Nhật Bản",
+  "style": "Japanese children picture book illustration inspired by Edo-period woodblock prints, soft ukiyo-e colors of sea blue, coral pink, sand beige and pine green, flat graceful linework, a quiet fishing village by the sea and a shimmering underwater palace, dreamy gentle mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "urashima",
+      "name": "Urashima Taro",
+      "sheetPrompt": "Urashima Taro, a kind young Japanese fisherman, short black hair tied back, simple indigo and white fisherman kimono with rolled sleeves, straw sandals, a bamboo fishing rod over his shoulder, gentle smile, full body, front view, plain light background, character reference sheet",
+      "seed": 444590626
+    },
+    {
+      "id": "rua",
+      "name": "Chú rùa",
+      "sheetPrompt": "a small friendly sea turtle from Japanese folklore, green-brown patterned shell, big kind eyes, gentle smile, full body, side and front view, plain light background, character reference sheet",
+      "seed": 175322421
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa Otohime",
+      "sheetPrompt": "Princess Otohime of the Dragon Palace under the sea, graceful young Japanese princess, long black hair with coral and pearl ornaments, flowing layered kimono in sea green, pale pink and gold, flowing ribbons like seaweed, serene smile, full body, front view, plain light background, character reference sheet",
+      "seed": 1704552168
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cuu-chu-rua",
+      "title": "Cứu chú rùa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng chài ven biển Nhật Bản, có chàng đánh cá tên là Urashima Taro. Chàng sống cùng mẹ già, hiền lành và thương người. Một chiều về ngang bãi cát, chàng thấy mấy đứa trẻ đang lấy gậy chọc một chú rùa nhỏ, cười khúc khích. Chú rùa rụt cổ vào mai, run run. Urashima bước tới, nhẹ nhàng bảo: “Các em ơi, rùa cũng biết đau đấy. Anh đổi mấy con cá này lấy chú rùa nhé?” Bọn trẻ vui vẻ nhận cá rồi chạy đi. Chàng bế chú rùa ra mép nước, thả xuống biển: “Về nhà đi, lần sau cẩn thận nhé.”",
+      "subtitles": [
+        "Ngày xưa, ở một làng chài ven biển Nhật Bản, có chàng đánh cá tên là Urashima Taro.",
+        "Chàng sống cùng mẹ già, hiền lành và thương người.",
+        "Một chiều về ngang bãi cát, chàng thấy mấy đứa trẻ đang lấy gậy chọc một chú rùa nhỏ,",
+        "cười khúc khích. Chú rùa rụt cổ vào mai, run run.",
+        "Urashima bước tới, nhẹ nhàng bảo: “Các em ơi, rùa cũng biết đau đấy.",
+        "Anh đổi mấy con cá này lấy chú rùa nhé?”",
+        "Bọn trẻ vui vẻ nhận cá rồi chạy đi.",
+        "Chàng bế chú rùa ra mép nước, thả xuống biển: “Về nhà đi, lần sau cẩn thận nhé.”"
+      ],
+      "image": {
+        "prompt": "a young fisherman kneeling on a sandy beach at sunset, gently holding a small sea turtle, a few village children running away happily with fish, fishing boats and pine trees along the shore, ukiyo-e waves",
+        "seed": 1225157967,
+        "character": "urashima"
+      },
+      "video": {
+        "motionPrompt": "the fisherman lowers the turtle into the gentle waves, the turtle swims away, the sunset glitters on the water",
+        "seed": 1964545129
+      },
+      "voice": {}
+    },
+    {
+      "id": "rua-tro-lai",
+      "title": "Chú rùa trở lại",
+      "narrator": "ke-chuyen",
+      "narration": "Mấy hôm sau, Urashima đang câu cá ngoài khơi thì nghe có tiếng gọi: “Anh Urashima ơi!” Chàng nhìn xuống, thấy một con rùa lớn đang bơi cạnh thuyền. “Tôi chính là chú rùa anh đã cứu. Công chúa Long Cung dưới đáy biển muốn mời anh xuống chơi để cảm ơn anh.” Urashima ngạc nhiên lắm: “Nhưng tôi đâu biết thở dưới nước?” Rùa cười: “Anh cứ ngồi lên lưng tôi, nhắm mắt lại, sẽ không sao đâu.” Thế là chàng ngồi lên mai rùa, và rùa lặn sâu, sâu mãi xuống làn nước xanh.",
+      "subtitles": [
+        "Mấy hôm sau, Urashima đang câu cá ngoài khơi thì nghe có tiếng gọi: “Anh Urashima ơi!”",
+        "Chàng nhìn xuống, thấy một con rùa lớn đang bơi cạnh thuyền.",
+        "“Tôi chính là chú rùa anh đã cứu.",
+        "Công chúa Long Cung dưới đáy biển muốn mời anh xuống chơi để cảm ơn anh.”",
+        "Urashima ngạc nhiên lắm: “Nhưng tôi đâu biết thở dưới nước?”",
+        "Rùa cười: “Anh cứ ngồi lên lưng tôi, nhắm mắt lại, sẽ không sao đâu.”",
+        "Thế là chàng ngồi lên mai rùa, và rùa lặn sâu, sâu mãi xuống làn nước xanh."
+      ],
+      "image": {
+        "prompt": "a large friendly sea turtle surfacing beside a small wooden fishing boat on a calm blue sea, the young fisherman leaning over the side in surprise, then riding on the turtle shell as it dives into clear blue water",
+        "seed": 1260618388,
+        "character": "rua"
+      },
+      "video": {
+        "motionPrompt": "the turtle dives gently downward, bubbles rise, sunbeams ripple through the water, small fish swirl around",
+        "seed": 576367352
+      },
+      "voice": {}
+    },
+    {
+      "id": "long-cung",
+      "title": "Cung điện dưới biển",
+      "narrator": "ke-chuyen",
+      "narration": "Dưới đáy biển hiện ra một tòa cung điện lộng lẫy, mái ngói bằng vỏ ốc óng ánh, cột bằng san hô hồng, cửa dát ngọc trai. Công chúa Otohime ra tận cổng đón chàng. “Cảm ơn anh đã cứu sứ giả của ta. Xin anh ở lại đây chơi ít ngày.” Cá bơn, cá tráp múa lượn, sứa phát sáng như đèn lồng. Mâm cỗ toàn những món ngon chàng chưa từng thấy. Mỗi gian phòng lại là một mùa: gian này hoa anh đào nở, gian kia ve kêu mùa hạ, gian nọ lá phong đỏ rực, gian cuối tuyết trắng nhẹ rơi.",
+      "subtitles": [
+        "Dưới đáy biển hiện ra một tòa cung điện lộng lẫy, mái ngói bằng vỏ ốc óng ánh,",
+        "cột bằng san hô hồng, cửa dát ngọc trai.",
+        "Công chúa Otohime ra tận cổng đón chàng.",
+        "“Cảm ơn anh đã cứu sứ giả của ta. Xin anh ở lại đây chơi ít ngày.”",
+        "Cá bơn, cá tráp múa lượn, sứa phát sáng như đèn lồng.",
+        "Mâm cỗ toàn những món ngon chàng chưa từng thấy.",
+        "Mỗi gian phòng lại là một mùa: gian này hoa anh đào nở, gian kia ve kêu mùa hạ,",
+        "gian nọ lá phong đỏ rực, gian cuối tuyết trắng nhẹ rơi."
+      ],
+      "image": {
+        "prompt": "a magnificent Dragon Palace under the sea with coral pillars, mother-of-pearl roof tiles and pearl doors, Princess Otohime welcoming the young fisherman at the gate, sea bream and flounder dancing, glowing jellyfish like lanterns, rooms showing four seasons",
+        "seed": 3474864495,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "fish swim in graceful circles, jellyfish glow and drift, the princess ribbons float softly in the water",
+        "seed": 3379851064
+      },
+      "voice": {}
+    },
+    {
+      "id": "nho-me",
+      "title": "Nhớ mẹ",
+      "narrator": "ke-chuyen",
+      "narration": "Những ngày vui trôi qua thật nhanh. Một sáng, Urashima chợt nhớ đến mẹ già ở nhà. Chàng thưa với công chúa: “Tôi đi đã ba ngày rồi, chắc mẹ đang mong. Xin cho tôi về.” Công chúa buồn bã, rồi trao cho chàng một chiếc hộp sơn mài nhỏ buộc dây lụa đỏ. “Đây là hộp ngọc làm quà. Nhưng anh hãy nhớ, dù có chuyện gì, cũng đừng bao giờ mở nắp hộp ra.” Urashima hứa sẽ giữ lời, rồi lại ngồi lên lưng rùa trở về mặt nước.",
+      "subtitles": [
+        "Những ngày vui trôi qua thật nhanh.",
+        "Một sáng, Urashima chợt nhớ đến mẹ già ở nhà.",
+        "Chàng thưa với công chúa: “Tôi đi đã ba ngày rồi, chắc mẹ đang mong.",
+        "Xin cho tôi về.”",
+        "Công chúa buồn bã, rồi trao cho chàng một chiếc hộp sơn mài nhỏ buộc dây lụa đỏ.",
+        "“Đây là hộp ngọc làm quà.",
+        "Nhưng anh hãy nhớ, dù có chuyện gì, cũng đừng bao giờ mở nắp hộp ra.”",
+        "Urashima hứa sẽ giữ lời, rồi lại ngồi lên lưng rùa trở về mặt nước."
+      ],
+      "image": {
+        "prompt": "Princess Otohime sadly handing a small black lacquer box tied with a red silk cord to the young fisherman inside the coral palace hall, the friendly turtle waiting nearby, soft blue light",
+        "seed": 1053109984,
+        "character": "urashima"
+      },
+      "video": {
+        "motionPrompt": "the princess holds out the lacquer box, the red silk cord sways in the water, bubbles drift upward",
+        "seed": 3933400170
+      },
+      "voice": {}
+    },
+    {
+      "id": "lang-xua-da-khac",
+      "title": "Làng xưa đã khác",
+      "narrator": "ke-chuyen",
+      "narration": "Lên tới bờ, Urashima ngơ ngác. Bãi cát vẫn là bãi cát ấy, nhưng nhà cửa lạ hoắc, cây cối cũng khác cả. Chàng chạy về chỗ nhà mình, chỉ thấy một khoảng đất trống mọc đầy cỏ dại. Chàng hỏi một cụ già bên đường: “Cụ có biết nhà của Urashima Taro không ạ?” Cụ già nghĩ mãi rồi đáp: “Urashima à? Ông bà tôi kể rằng xưa lắm có một chàng tên ấy ra biển rồi không bao giờ trở về. Chuyện ấy cách đây đã ba trăm năm rồi.” Thì ra ba ngày dưới Long Cung là ba trăm năm trên mặt đất.",
+      "subtitles": [
+        "Lên tới bờ, Urashima ngơ ngác.",
+        "Bãi cát vẫn là bãi cát ấy, nhưng nhà cửa lạ hoắc, cây cối cũng khác cả.",
+        "Chàng chạy về chỗ nhà mình, chỉ thấy một khoảng đất trống mọc đầy cỏ dại.",
+        "Chàng hỏi một cụ già bên đường: “Cụ có biết nhà của Urashima Taro không ạ?”",
+        "Cụ già nghĩ mãi rồi đáp: “Urashima à?",
+        "Ông bà tôi kể rằng xưa lắm có một chàng tên ấy ra biển rồi không bao giờ trở về.",
+        "Chuyện ấy cách đây đã ba trăm năm rồi.”",
+        "Thì ra ba ngày dưới Long Cung là ba trăm năm trên mặt đất."
+      ],
+      "image": {
+        "prompt": "the young fisherman standing confused in a changed seaside village with unfamiliar houses, an empty grassy plot where his home used to be, talking with a kind old villager leaning on a cane, the lacquer box in his hands, autumn grass swaying",
+        "seed": 2038095349,
+        "character": "urashima"
+      },
+      "video": {
+        "motionPrompt": "wind sways the tall grass, the old villager slowly shakes his head, clouds drift over the sea",
+        "seed": 3725920809
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-hop-ngoc",
+      "title": "Chiếc hộp ngọc",
+      "narrator": "ke-chuyen",
+      "narration": "Urashima ngồi xuống bãi cát, lòng buồn vô hạn. Chàng ôm chiếc hộp ngọc, nghĩ thầm: “Biết đâu trong hộp có cách đưa mình về lại ngày xưa.” Quên mất lời dặn, chàng kéo sợi dây lụa và mở nắp. Một làn khói trắng mỏng bay ra, cuộn quanh người chàng. Trong chớp mắt, tóc chàng bạc trắng, râu dài tới ngực, lưng còng xuống như một cụ ông. Ba trăm năm cất trong hộp đã trở về với chàng. Urashima nhìn ra biển xa, mỉm cười hiền lành, như gửi lời chào tới công chúa và chú rùa năm nào. Người ta kể rằng từ đó, mỗi khi biển lặng, vẫn có một chú rùa bơi vào gần bờ, như ghé thăm người bạn cũ.",
+      "subtitles": [
+        "Urashima ngồi xuống bãi cát, lòng buồn vô hạn.",
+        "Chàng ôm chiếc hộp ngọc, nghĩ thầm: “Biết đâu trong hộp có cách đưa mình về lại ngày xưa.”",
+        "Quên mất lời dặn, chàng kéo sợi dây lụa và mở nắp.",
+        "Một làn khói trắng mỏng bay ra, cuộn quanh người chàng.",
+        "Trong chớp mắt, tóc chàng bạc trắng, râu dài tới ngực, lưng còng xuống như một cụ ông.",
+        "Ba trăm năm cất trong hộp đã trở về với chàng.",
+        "Urashima nhìn ra biển xa, mỉm cười hiền lành,",
+        "như gửi lời chào tới công chúa và chú rùa năm nào.",
+        "Người ta kể rằng từ đó, mỗi khi biển lặng, vẫn có một chú rùa bơi vào gần bờ,",
+        "như ghé thăm người bạn cũ."
+      ],
+      "image": {
+        "prompt": "on a quiet beach at dusk, a soft white mist rising from an opened lacquer box, the fisherman now an old man with long white hair and beard, smiling peacefully toward the sea, a small sea turtle near the shore, gentle melancholic beauty",
+        "seed": 2597354922,
+        "character": "urashima"
+      },
+      "video": {
+        "motionPrompt": "white mist swirls gently up from the open box, waves roll softly to the shore, the turtle lifts its head above the water",
+        "seed": 1510651874
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle traditional Japanese melody, koto and shakuhachi flute with soft wind chimes and ocean wave textures, dreamy and slightly wistful, calm storytelling mood, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 1287958070
+  }
+}

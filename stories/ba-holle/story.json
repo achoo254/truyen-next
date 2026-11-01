@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "slug": "ba-holle",
+  "shelf": "world",
+  "title": "Bà Holle",
+  "summary": "Cô gái chăm chỉ rơi xuống giếng và lạc vào thế giới của bà Holle, người giũ chăn làm tuyết rơi. Chăm chỉ thì được mưa vàng, lười biếng thì nhận mưa hắc ín. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "gia-dinh"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Frau Holle\" (Kinder- und Hausmärchen, 1812), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể đã làm nhẹ cho cả nhà: cô em lười cố ý làm bẩn cuộn chỉ thay vì chích tay vào bụi gai, và lớp hắc ín cuối cùng cũng gột được chứ không bám suốt đời như bản gốc.",
+  "basedOn": "Truyện cổ Grimm (1812)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, gentle snowy whites and meadow greens, warm golden light, rounded friendly shapes, calm and safe mood for the whole family, old German village well and a magical meadow below, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "co-gai-cham",
+      "name": "Cô gái chăm chỉ",
+      "seed": 1526852970,
+      "sheetPrompt": "a kind hardworking young German girl from the Grimm tale, golden hair in a neat braid, rosy cheeks, plain blue dress with a white apron, wooden clogs, a spindle in her hand, gentle smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "co-em-luoi",
+      "name": "Cô em lười",
+      "seed": 1328489209,
+      "sheetPrompt": "a lazy spoiled young German girl from the Grimm tale, messy dark hair, pouting face, frilly pink dress with a crooked bow, arms crossed, comical rather than mean, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba-holle",
+      "name": "Bà Holle",
+      "seed": 728370024,
+      "sheetPrompt": "Mother Holle from the Grimm tale, a warm plump old woman with big friendly teeth, silver hair in a bun, rosy cheeks, white lace cap, long grey dress with a soft blue shawl, holding a fluffy white feather quilt, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ben-gieng",
+      "title": "Bên giếng nước",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bà goá sống cùng hai cô con gái. Cô con riêng của chồng thì xinh xắn, chăm chỉ, còn cô con ruột thì lười biếng. Bà thương cô con ruột, còn bắt cô con riêng làm hết mọi việc. Ngày nào cô gái cũng ngồi bên giếng ven đường, quay sợi đến rát cả tay. Một hôm, cuộn chỉ dính đầy bụi, cô cúi xuống giếng để rửa, thì cuộn chỉ tuột tay, rơi tõm xuống đáy. Bà mẹ kế mắng: \"Làm rơi thì tự xuống mà nhặt lên!\" Cô gái buồn bã, nhắm mắt nhảy xuống giếng.",
+      "subtitles": [
+        "Ngày xưa, có một bà goá sống cùng hai cô con gái.",
+        "Cô con riêng của chồng thì xinh xắn, chăm chỉ, còn cô con ruột thì lười biếng.",
+        "Bà thương cô con ruột, còn bắt cô con riêng làm hết mọi việc.",
+        "Ngày nào cô gái cũng ngồi bên giếng ven đường, quay sợi đến rát cả tay.",
+        "Một hôm, cuộn chỉ dính đầy bụi, cô cúi xuống giếng để rửa,",
+        "thì cuộn chỉ tuột tay, rơi tõm xuống đáy.",
+        "Bà mẹ kế mắng: \"Làm rơi thì tự xuống mà nhặt lên!\"",
+        "Cô gái buồn bã, nhắm mắt nhảy xuống giếng."
+      ],
+      "image": {
+        "prompt": "an old stone well by a country road, the hardworking girl sits on a bench spinning thread with tired hands, a cottage behind with a stern stepmother pointing from the doorway, soft afternoon light",
+        "seed": 804741658,
+        "character": "co-gai-cham"
+      },
+      "video": {
+        "motionPrompt": "the spindle twirls, the girl leans over the well and the spindle slips from her hand into the water, ripples spread, slow push-in",
+        "seed": 680871540
+      },
+      "voice": {}
+    },
+    {
+      "id": "dong-co-duoi-gieng",
+      "title": "Đồng cỏ dưới giếng",
+      "narrator": "ke-chuyen",
+      "narration": "Khi mở mắt ra, cô thấy mình nằm giữa một đồng cỏ xanh, nắng vàng, hoa nở khắp nơi. Cô đi một quãng, gặp một lò bánh mì. Những ổ bánh trong lò gọi to: \"Lấy chúng tôi ra đi, lấy ra đi, không thì chúng tôi cháy mất!\" Cô gái cầm xẻng gỗ, lấy từng ổ bánh ra. Đi thêm chút nữa, cô gặp một cây táo trĩu quả. Cây kêu lên: \"Rung tôi đi, rung tôi đi, táo của tôi chín cả rồi!\" Cô rung cây cho táo rụng như mưa, rồi xếp gọn thành đống.",
+      "subtitles": [
+        "Khi mở mắt ra, cô thấy mình nằm giữa một đồng cỏ xanh, nắng vàng, hoa nở khắp nơi.",
+        "Cô đi một quãng, gặp một lò bánh mì. Những ổ bánh trong lò gọi to:",
+        "\"Lấy chúng tôi ra đi, lấy ra đi, không thì chúng tôi cháy mất!\"",
+        "Cô gái cầm xẻng gỗ, lấy từng ổ bánh ra.",
+        "Đi thêm chút nữa, cô gặp một cây táo trĩu quả. Cây kêu lên:",
+        "\"Rung tôi đi, rung tôi đi, táo của tôi chín cả rồi!\"",
+        "Cô rung cây cho táo rụng như mưa, rồi xếp gọn thành đống."
+      ],
+      "image": {
+        "prompt": "a sunny magical meadow full of flowers, the hardworking girl takes golden loaves out of a little brick bread oven with a wooden paddle, nearby an apple tree heavy with red apples, cheerful and bright",
+        "seed": 295815430,
+        "character": "co-gai-cham"
+      },
+      "video": {
+        "motionPrompt": "the girl lifts out the loaves one by one, warm steam curls up, apples sway on the branches, butterflies drift, gentle motion",
+        "seed": 2047573294
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-ba-holle",
+      "title": "Nhà bà Holle",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối đường là một ngôi nhà nhỏ. Một bà cụ nhìn ra cửa sổ, răng to ơi là to. Cô gái giật mình muốn chạy, nhưng bà cụ gọi thật hiền: \"Đừng sợ, cháu ơi. Ta là bà Holle. Ở lại giúp ta làm việc nhà nhé. Nhớ giũ chăn lông của ta thật kỹ cho lông bay tứ tung, vì mỗi lần như thế, dưới trần gian lại có tuyết rơi.\" Cô gái vâng lời. Ngày nào cô cũng giũ chăn thật mạnh, lông trắng bay như tuyết. Bà Holle chẳng bao giờ nặng lời, bữa nào cũng cho cô ăn ngon.",
+      "subtitles": [
+        "Cuối đường là một ngôi nhà nhỏ. Một bà cụ nhìn ra cửa sổ, răng to ơi là to.",
+        "Cô gái giật mình muốn chạy, nhưng bà cụ gọi thật hiền:",
+        "\"Đừng sợ, cháu ơi. Ta là bà Holle. Ở lại giúp ta làm việc nhà nhé.",
+        "Nhớ giũ chăn lông của ta thật kỹ cho lông bay tứ tung,",
+        "vì mỗi lần như thế, dưới trần gian lại có tuyết rơi.\"",
+        "Cô gái vâng lời. Ngày nào cô cũng giũ chăn thật mạnh, lông trắng bay như tuyết.",
+        "Bà Holle chẳng bao giờ nặng lời, bữa nào cũng cho cô ăn ngon."
+      ],
+      "image": {
+        "prompt": "at the window of a cosy little cottage, the hardworking girl shakes a big fluffy white feather quilt, white feathers fly out and drift down like snowflakes, kind Mother Holle smiles beside her",
+        "seed": 2599154941,
+        "character": "ba-holle"
+      },
+      "video": {
+        "motionPrompt": "the girl shakes the quilt, feathers swirl and fall like snow, Mother Holle nods kindly, soft floating motion",
+        "seed": 3701729276
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-mua-vang",
+      "title": "Cơn mưa vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Ở lâu, cô gái bắt đầu nhớ nhà. Cô thưa: \"Ở đây sung sướng, nhưng cháu nhớ nhà lắm.\" Bà Holle gật đầu: \"Cháu chăm ngoan như thế, ta sẽ tự đưa cháu về.\" Bà dắt cô đến một cánh cổng lớn. Khi cô bước qua, vàng rơi xuống như mưa, bám đầy khắp người cô. \"Đây là phần thưởng cho sự chăm chỉ của cháu,\" bà Holle nói, rồi trả lại cả cuộn chỉ. Cổng đóng lại, cô gái đã đứng ngay gần nhà mình. Con gà trống trên bờ giếng gáy vang: \"Ò ó o! Cô gái vàng của ta đã về nhà!\"",
+      "subtitles": [
+        "Ở lâu, cô gái bắt đầu nhớ nhà. Cô thưa: \"Ở đây sung sướng, nhưng cháu nhớ nhà lắm.\"",
+        "Bà Holle gật đầu: \"Cháu chăm ngoan như thế, ta sẽ tự đưa cháu về.\"",
+        "Bà dắt cô đến một cánh cổng lớn. Khi cô bước qua, vàng rơi xuống như mưa,",
+        "bám đầy khắp người cô.",
+        "\"Đây là phần thưởng cho sự chăm chỉ của cháu,\" bà Holle nói, rồi trả lại cả cuộn chỉ.",
+        "Cổng đóng lại, cô gái đã đứng ngay gần nhà mình. Con gà trống trên bờ giếng gáy vang:",
+        "\"Ò ó o! Cô gái vàng của ta đã về nhà!\""
+      ],
+      "image": {
+        "prompt": "the hardworking girl stands under a grand old gateway as a shower of shining gold coins and gold dust rains down and covers her dress, Mother Holle waves goodbye, a rooster on a well in the distance",
+        "seed": 3927497692,
+        "character": "co-gai-cham"
+      },
+      "video": {
+        "motionPrompt": "gold glitters and pours down softly, the girl looks up in wonder, Mother Holle waves, sparkles drift, slow pull-back",
+        "seed": 4113212259
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-em-luoi",
+      "title": "Cô em lười",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy vậy, bà mẹ muốn cô con ruột cũng được giàu như thế. Bà bắt cô ngồi quay sợi bên giếng. Cô lười, chẳng chịu quay, mà cố ý làm bẩn cuộn chỉ, ném xuống giếng rồi nhảy theo. Cô cũng đến đồng cỏ xanh, cũng gặp lò bánh mì gọi nhờ. Cô bĩu môi: \"Ai mà thèm lấy, bẩn hết tay!\" rồi đi thẳng. Cây táo xin rung giúp, cô lại nói: \"Nhỡ quả rơi trúng đầu ta thì sao?\" Rồi cô đến nhà bà Holle, xin ở lại làm việc.",
+      "subtitles": [
+        "Thấy vậy, bà mẹ muốn cô con ruột cũng được giàu như thế.",
+        "Bà bắt cô ngồi quay sợi bên giếng. Cô lười, chẳng chịu quay,",
+        "mà cố ý làm bẩn cuộn chỉ, ném xuống giếng rồi nhảy theo.",
+        "Cô cũng đến đồng cỏ xanh, cũng gặp lò bánh mì gọi nhờ. Cô bĩu môi:",
+        "\"Ai mà thèm lấy, bẩn hết tay!\" rồi đi thẳng.",
+        "Cây táo xin rung giúp, cô lại nói: \"Nhỡ quả rơi trúng đầu ta thì sao?\"",
+        "Rồi cô đến nhà bà Holle, xin ở lại làm việc."
+      ],
+      "image": {
+        "prompt": "in the sunny magical meadow the lazy girl walks past the little bread oven with her nose in the air and arms crossed, the loaves calling out, the apple tree waving its branches in vain, comical",
+        "seed": 3019255766,
+        "character": "co-em-luoi"
+      },
+      "video": {
+        "motionPrompt": "the lazy girl flicks her hair and walks on, the loaves puff steam, the apple tree shakes its branches, playful motion",
+        "seed": 547808345
+      },
+      "voice": {}
+    },
+    {
+      "id": "mua-hac-in",
+      "title": "Trận mưa hắc ín",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày đầu, cô còn gắng làm vì nghĩ đến vàng. Ngày thứ hai đã bắt đầu lười, ngày thứ ba thì nằm ì đến trưa. Chăn lông chẳng bao giờ giũ, nên dưới trần gian chẳng có lấy một bông tuyết. Bà Holle chán lắm, bảo cô về. Cô mừng rỡ, nghĩ sắp được mưa vàng. Nhưng khi cô bước qua cổng, trút xuống người cô là cả một thùng hắc ín đen sì. \"Đó là phần trả công cho cháu đấy,\" bà Holle nói, rồi đóng cổng lại. Cô về nhà, con gà trống gáy: \"Ò ó o! Cô gái lấm lem của ta đã về nhà!\" Hắc ín bám chặt, lâu thật lâu mới gột sạch được. Còn cô gái chăm chỉ thì sống đầy đủ, vui vẻ suốt đời. Người ta bảo, mỗi khi tuyết rơi, ấy là bà Holle đang giũ chăn đấy.",
+      "subtitles": [
+        "Ngày đầu, cô còn gắng làm vì nghĩ đến vàng.",
+        "Ngày thứ hai đã bắt đầu lười, ngày thứ ba thì nằm ì đến trưa.",
+        "Chăn lông chẳng bao giờ giũ, nên dưới trần gian chẳng có lấy một bông tuyết.",
+        "Bà Holle chán lắm, bảo cô về. Cô mừng rỡ, nghĩ sắp được mưa vàng.",
+        "Nhưng khi cô bước qua cổng, trút xuống người cô là cả một thùng hắc ín đen sì.",
+        "\"Đó là phần trả công cho cháu đấy,\" bà Holle nói, rồi đóng cổng lại.",
+        "Cô về nhà, con gà trống gáy: \"Ò ó o! Cô gái lấm lem của ta đã về nhà!\"",
+        "Hắc ín bám chặt, lâu thật lâu mới gột sạch được.",
+        "Còn cô gái chăm chỉ thì sống đầy đủ, vui vẻ suốt đời.",
+        "Người ta bảo, mỗi khi tuyết rơi, ấy là bà Holle đang giũ chăn đấy."
+      ],
+      "image": {
+        "prompt": "the lazy girl stands under the grand old gateway as sticky black pitch pours down on her, she gasps comically, Mother Holle closes the gate with a calm face, a village under falling snow in the distance, comical not frightening",
+        "seed": 2898064444,
+        "character": "co-em-luoi"
+      },
+      "video": {
+        "motionPrompt": "dark sticky pitch drips down, the lazy girl flaps her arms, the gate swings shut, gentle snowflakes fall over the village",
+        "seed": 2664567319
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle German folk fairy-tale music, music box and celesta like falling snow, soft flute and harp, a cosy winter lullaby feeling, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2854205986
+  }
+}

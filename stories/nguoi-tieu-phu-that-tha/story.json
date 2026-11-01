@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "slug": "nguoi-tieu-phu-that-tha",
+  "shelf": "world",
+  "title": "Người tiều phu thật thà",
+  "summary": "Bác tiều phu nghèo đánh rơi chiếc rìu xuống sông, rồi thần Héc-mét hiện lên với chiếc rìu vàng và chiếc rìu bạc. Lòng thật thà của bác được đền đáp. Ngụ ngôn Aesop về đức tính trung thực.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals and people, Mediterranean countryside with olive trees, stone cottages and clear streams, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "tieu-phu",
+      "name": "Bác tiều phu",
+      "seed": 1188810766,
+      "sheetPrompt": "a kind poor woodcutter in his forties with a short brown beard, patched tunic, rope belt, leather sandals, holding a simple iron axe, honest warm face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "than",
+      "name": "Thần Héc-mét",
+      "seed": 2794426965,
+      "sheetPrompt": "a gentle ancient Greek god Hermes with a winged golden helmet, winged sandals, a flowing white and blue robe, a kind smile, glowing soft light, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hang-xom",
+      "name": "Gã hàng xóm",
+      "seed": 3151645605,
+      "sheetPrompt": "a greedy sly villager in a fancy embroidered tunic with a pointy hat, a crooked grin, shifty eyes, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "roi-riu",
+      "title": "Chiếc rìu rơi xuống sông",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bác tiều phu nghèo, ngày ngày vào rừng đốn củi đem bán nuôi cả nhà. Tài sản quý nhất của bác chỉ là một chiếc rìu sắt cũ. Một hôm, bác chặt cây bên bờ sông. Đang chặt, bác lỡ tay, chiếc rìu tuột khỏi cán, rơi tõm xuống dòng nước sâu. Bác ngồi bệt xuống bờ, ôm đầu than: “Trời ơi, mất rìu rồi, lấy gì mà kiếm sống đây!”",
+      "subtitles": [
+        "Ngày xưa, có một bác tiều phu nghèo, ngày ngày vào rừng đốn củi đem bán nuôi cả nhà.",
+        "Tài sản quý nhất của bác chỉ là một chiếc rìu sắt cũ. Một hôm, bác chặt cây bên bờ sông.",
+        "Đang chặt, bác lỡ tay, chiếc rìu tuột khỏi cán, rơi tõm xuống dòng nước sâu.",
+        "Bác ngồi bệt xuống bờ, ôm đầu than: “Trời ơi, mất rìu rồi, lấy gì mà kiếm sống đây!”"
+      ],
+      "image": {
+        "character": "tieu-phu",
+        "prompt": "a woodcutter by a deep green river in a sunny forest, his iron axe flying from his hands and splashing into the water, his face full of dismay",
+        "seed": 1994686300
+      },
+      "video": {
+        "motionPrompt": "the axe arcs through the air and splashes into the river, ripples spread, the woodcutter sinks down with his hands on his head",
+        "seed": 2310946530
+      },
+      "voice": {}
+    },
+    {
+      "id": "than-hien",
+      "title": "Thần sông hiện lên",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng mặt sông sáng rực lên. Thần Héc-mét, vị thần đội mũ có cánh, hiện ra trước mặt bác. Thần hỏi: “Này bác, sao bác buồn thế?” Bác kể lại mọi chuyện. Thần liền lặn xuống sông, rồi trồi lên, tay cầm một chiếc rìu bằng vàng sáng chói. “Có phải rìu của bác đây không?” Bác lắc đầu: “Thưa thần, không phải ạ. Rìu của tôi không đẹp như thế.”",
+      "subtitles": [
+        "Bỗng mặt sông sáng rực lên. Thần Héc-mét, vị thần đội mũ có cánh, hiện ra trước mặt bác.",
+        "Thần hỏi: “Này bác, sao bác buồn thế?” Bác kể lại mọi chuyện.",
+        "Thần liền lặn xuống sông, rồi trồi lên, tay cầm một chiếc rìu bằng vàng sáng chói.",
+        "“Có phải rìu của bác đây không?” Bác lắc đầu: “Thưa thần, không phải ạ.",
+        "Rìu của tôi không đẹp như thế.”"
+      ],
+      "image": {
+        "character": "than",
+        "prompt": "the god Hermes with winged helmet rises in a glow of soft light above the river holding a shining golden axe, the surprised woodcutter shaking his head politely",
+        "seed": 3356703767
+      },
+      "video": {
+        "motionPrompt": "golden light shimmers on the water, Hermes rises slowly holding the golden axe, the woodcutter shakes his head gently",
+        "seed": 2371682956
+      },
+      "voice": {}
+    },
+    {
+      "id": "riu-bac",
+      "title": "Rìu vàng, rìu bạc, rìu sắt",
+      "narrator": "ke-chuyen",
+      "narration": "Thần lại lặn xuống, lần này mang lên một chiếc rìu bằng bạc lấp lánh. “Vậy chiếc này thì sao?” Bác tiều phu vẫn lắc đầu: “Cũng không phải ạ.” Lần thứ ba, thần mang lên chiếc rìu sắt cũ kỹ. Bác reo lên mừng rỡ: “Đúng rồi, rìu của tôi đây!” Thần mỉm cười: “Bác thật thà quá. Ta tặng bác cả ba chiếc rìu này.” Bác cảm ơn rối rít, vui vẻ mang ba chiếc rìu về nhà.",
+      "subtitles": [
+        "Thần lại lặn xuống, lần này mang lên một chiếc rìu bằng bạc lấp lánh.",
+        "“Vậy chiếc này thì sao?” Bác tiều phu vẫn lắc đầu: “Cũng không phải ạ.”",
+        "Lần thứ ba, thần mang lên chiếc rìu sắt cũ kỹ.",
+        "Bác reo lên mừng rỡ: “Đúng rồi, rìu của tôi đây!” Thần mỉm cười: “Bác thật thà quá.",
+        "Ta tặng bác cả ba chiếc rìu này.” Bác cảm ơn rối rít, vui vẻ mang ba chiếc rìu về nhà."
+      ],
+      "image": {
+        "character": "tieu-phu",
+        "prompt": "Hermes holding a golden axe, a silver axe and an old iron axe, handing all three to the overjoyed woodcutter on the riverbank, sparkling light",
+        "seed": 4291389982
+      },
+      "video": {
+        "motionPrompt": "Hermes holds out the three axes, the woodcutter claps with joy and bows, sparkles drift over the river",
+        "seed": 4044430900
+      },
+      "voice": {}
+    },
+    {
+      "id": "ga-tham",
+      "title": "Gã hàng xóm tham lam",
+      "narrator": "ke-chuyen",
+      "narration": "Chuyện lan khắp làng. Có một gã hàng xóm tham lam nghe được, liền vác rìu ra đúng bờ sông ấy. Gã cố tình ném chiếc rìu của mình xuống nước, rồi ngồi giả vờ khóc lóc. Thần Héc-mét lại hiện lên, mang lên một chiếc rìu vàng: “Có phải rìu của ngươi đây không?” Mắt gã sáng rực, vội vàng đưa tay ra: “Đúng rồi, đúng là rìu của tôi!”",
+      "subtitles": [
+        "Chuyện lan khắp làng.",
+        "Có một gã hàng xóm tham lam nghe được, liền vác rìu ra đúng bờ sông ấy.",
+        "Gã cố tình ném chiếc rìu của mình xuống nước, rồi ngồi giả vờ khóc lóc.",
+        "Thần Héc-mét lại hiện lên, mang lên một chiếc rìu vàng: “Có phải rìu của ngươi đây không?”",
+        "Mắt gã sáng rực, vội vàng đưa tay ra: “Đúng rồi, đúng là rìu của tôi!”"
+      ],
+      "image": {
+        "character": "hang-xom",
+        "prompt": "the greedy neighbor in a fancy hat pretending to cry on the riverbank, greedily reaching out toward a golden axe held by Hermes, who looks at him calmly",
+        "seed": 1701418263
+      },
+      "video": {
+        "motionPrompt": "the neighbor wipes fake tears then reaches out eagerly, Hermes raises an eyebrow, the river glimmers",
+        "seed": 1520730653
+      },
+      "voice": {}
+    },
+    {
+      "id": "mat-ca",
+      "title": "Thật thà được quý",
+      "narrator": "ke-chuyen",
+      "narration": "Thần nghiêm mặt: “Ngươi nói dối!” Rồi thần biến mất, mang theo cả chiếc rìu vàng. Chiếc rìu cũ của gã cũng nằm lại mãi dưới đáy sông. Gã hàng xóm chẳng những không được rìu vàng, mà còn mất luôn cả rìu của mình. Còn bác tiều phu thì được cả làng quý mến. Các bạn nhỏ ạ, thật thà là đức tính quý nhất. Người thật thà sẽ luôn được đền đáp.",
+      "subtitles": [
+        "Thần nghiêm mặt: “Ngươi nói dối!” Rồi thần biến mất, mang theo cả chiếc rìu vàng.",
+        "Chiếc rìu cũ của gã cũng nằm lại mãi dưới đáy sông.",
+        "Gã hàng xóm chẳng những không được rìu vàng, mà còn mất luôn cả rìu của mình.",
+        "Còn bác tiều phu thì được cả làng quý mến. Các bạn nhỏ ạ, thật thà là đức tính quý nhất.",
+        "Người thật thà sẽ luôn được đền đáp."
+      ],
+      "image": {
+        "character": "hang-xom",
+        "prompt": "the empty-handed neighbor sitting glumly on the riverbank while in the background the honest woodcutter is greeted warmly by smiling villagers near cottages at sunset",
+        "seed": 607390971
+      },
+      "video": {
+        "motionPrompt": "the neighbor sighs and stares at the water, villagers wave and smile at the woodcutter, warm sunset light",
+        "seed": 237094159
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle classical storybook music with an ancient Greek flavor, lyre and soft flute, a shimmering harp for the god, calm forest atmosphere, warm uplifting ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1999761183
+  }
+}

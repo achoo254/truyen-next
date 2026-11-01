@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "slug": "soi-va-bay-chu-de-con",
+  "shelf": "world",
+  "title": "Sói và bảy chú dê con",
+  "summary": "Dê mẹ dặn bảy con đừng mở cửa cho lão sói, nhưng lão giả giọng, giả chân để lừa các chú. Nhờ chú dê út trốn trong hộp đồng hồ, dê mẹ cứu được cả đàn con. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "thien-ac"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der Wolf und die sieben jungen Geißlein\" (Kinder- und Hausmärchen, 1812), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể đã làm nhẹ cho cả nhà: sói nhét các dê con vào bao tải thay vì nuốt chửng, dê mẹ cởi bao chứ không mổ bụng sói, và sói rơi xuống giếng rồi bò lên chạy biến vào rừng chứ không chết đuối.",
+  "basedOn": "Truyện cổ Grimm (1812)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, cosy cottage interiors and sunny meadows, warm gentle light, rounded friendly animal characters, calm and safe mood for the whole family, a little house at the forest edge, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "de-me",
+      "name": "Dê mẹ",
+      "seed": 1855951682,
+      "sheetPrompt": "a loving mother goat from the Grimm tale, soft white fur, small curved horns, gentle eyes, a blue kerchief and a white apron, standing upright like a storybook animal with a basket, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "de-ut",
+      "name": "Chú dê út",
+      "seed": 1155803589,
+      "sheetPrompt": "the youngest of seven little goat kids from the Grimm tale, tiny and fluffy white with a pink nose, big curious eyes, a little red neck ribbon, clever and brave, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "soi",
+      "name": "Lão sói",
+      "seed": 2426506573,
+      "sheetPrompt": "a sly comical big bad wolf from the Grimm tale, shaggy grey fur, long snout, scruffy waistcoat, crafty grin, more silly than scary, standing upright, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "loi-dan-cua-de-me",
+      "title": "Lời dặn của dê mẹ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một dê mẹ sống cùng bảy chú dê con trong ngôi nhà nhỏ bên bìa rừng. Dê mẹ thương các con lắm. Một hôm, dê mẹ phải vào rừng kiếm cỏ non. Trước khi đi, dê mẹ dặn: \"Các con ở nhà nhớ cài chặt cửa. Coi chừng lão sói. Lão hay giả giọng, nhưng giọng lão khàn khàn, chân lão đen sì. Đừng mở cửa cho ai, trừ mẹ.\" Bảy chú dê con đồng thanh: \"Vâng ạ!\" Dê mẹ yên tâm đi vào rừng.",
+      "subtitles": [
+        "Ngày xưa, có một dê mẹ sống cùng bảy chú dê con trong ngôi nhà nhỏ bên bìa rừng.",
+        "Dê mẹ thương các con lắm. Một hôm, dê mẹ phải vào rừng kiếm cỏ non.",
+        "Trước khi đi, dê mẹ dặn: \"Các con ở nhà nhớ cài chặt cửa.",
+        "Coi chừng lão sói. Lão hay giả giọng, nhưng giọng lão khàn khàn, chân lão đen sì.",
+        "Đừng mở cửa cho ai, trừ mẹ.\" Bảy chú dê con đồng thanh: \"Vâng ạ!\"",
+        "Dê mẹ yên tâm đi vào rừng."
+      ],
+      "image": {
+        "prompt": "at the door of a cosy little cottage by the forest edge, the mother goat with a basket waves a warning finger to seven little white goat kids crowded in the doorway, sunny morning",
+        "seed": 1174386975,
+        "character": "de-me"
+      },
+      "video": {
+        "motionPrompt": "the mother goat waves goodbye and walks toward the forest, the kids wave back and close the door, birds fly over, gentle motion",
+        "seed": 2196738037
+      },
+      "voice": {}
+    },
+    {
+      "id": "giong-khan-khan",
+      "title": "Giọng khàn khàn",
+      "narrator": "ke-chuyen",
+      "narration": "Chẳng bao lâu, có tiếng gõ cửa: \"Các con ơi, mở cửa cho mẹ, mẹ mang quà về đây!\" Bảy chú dê con nghe giọng khàn khàn, liền đáp: \"Không mở đâu! Mẹ chúng tôi giọng dịu dàng, còn giọng ông khàn khàn. Ông là lão sói!\" Lão sói tức lắm, chạy đi mua một cục phấn to, nhai cho giọng mềm mại. Lão quay lại gõ cửa, giọng ngọt xớt: \"Các con ơi, mẹ về rồi đây!\" Nhưng lão vô ý đặt cái chân đen sì lên bậu cửa sổ. \"Không mở! Mẹ chúng tôi chân trắng, còn chân ông đen sì!\"",
+      "subtitles": [
+        "Chẳng bao lâu, có tiếng gõ cửa: \"Các con ơi, mở cửa cho mẹ, mẹ mang quà về đây!\"",
+        "Bảy chú dê con nghe giọng khàn khàn, liền đáp: \"Không mở đâu!",
+        "Mẹ chúng tôi giọng dịu dàng, còn giọng ông khàn khàn. Ông là lão sói!\"",
+        "Lão sói tức lắm, chạy đi mua một cục phấn to, nhai cho giọng mềm mại.",
+        "Lão quay lại gõ cửa, giọng ngọt xớt: \"Các con ơi, mẹ về rồi đây!\"",
+        "Nhưng lão vô ý đặt cái chân đen sì lên bậu cửa sổ.",
+        "\"Không mở! Mẹ chúng tôi chân trắng, còn chân ông đen sì!\""
+      ],
+      "image": {
+        "prompt": "the sly comical wolf stands at the cottage door clearing his throat, one dark paw resting on the windowsill, inside the window seven little goat kids peek out suspiciously, funny not scary",
+        "seed": 3340036664,
+        "character": "soi"
+      },
+      "video": {
+        "motionPrompt": "the wolf knocks and puts on a sweet face, the kids point at his dark paw and shake their heads, playful motion",
+        "seed": 431194402
+      },
+      "voice": {}
+    },
+    {
+      "id": "ban-chan-trang",
+      "title": "Bàn chân trắng",
+      "narrator": "ke-chuyen",
+      "narration": "Lão sói chạy đến lò bánh, bắt bác thợ bánh xoa bột lên chân. Bác sợ quá, đành làm theo. Lần thứ ba, lão gõ cửa: \"Các con ơi, mẹ về rồi, mở cửa cho mẹ nào!\" \"Cho chúng con xem chân trước đã!\" Lão giơ bàn chân trắng toát lên cửa sổ. Bảy chú dê con tin là mẹ, mở toang cửa ra. Ôi, lão sói nhảy xộc vào! Các chú hoảng hốt chạy trốn: chú dưới gầm bàn, chú trong chăn, chú trong bếp lò, chú trong tủ bát, chú trong chạn, chú dưới chậu giặt, còn chú út nhỏ nhất chui tọt vào hộp đồng hồ.",
+      "subtitles": [
+        "Lão sói chạy đến lò bánh, bắt bác thợ bánh xoa bột lên chân. Bác sợ quá, đành làm theo.",
+        "Lần thứ ba, lão gõ cửa: \"Các con ơi, mẹ về rồi, mở cửa cho mẹ nào!\"",
+        "\"Cho chúng con xem chân trước đã!\" Lão giơ bàn chân trắng toát lên cửa sổ.",
+        "Bảy chú dê con tin là mẹ, mở toang cửa ra. Ôi, lão sói nhảy xộc vào!",
+        "Các chú hoảng hốt chạy trốn: chú dưới gầm bàn, chú trong chăn, chú trong bếp lò,",
+        "chú trong tủ bát, chú trong chạn, chú dưới chậu giặt,",
+        "còn chú út nhỏ nhất chui tọt vào hộp đồng hồ."
+      ],
+      "image": {
+        "prompt": "inside the cosy cottage little goat kids scatter and hide everywhere, under the table, in the bed, in the stove, in the cupboard, under the washtub, the tiniest one squeezing into the tall clock case, the wolf's floury white paw in the doorway, comical",
+        "seed": 4121926727,
+        "character": "de-ut"
+      },
+      "video": {
+        "motionPrompt": "the kids dash and dive into hiding places, the clock pendulum swings, the cupboard door shuts, quick playful motion",
+        "seed": 999066739
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-bao-tai",
+      "title": "Cái bao tải lớn",
+      "narrator": "ke-chuyen",
+      "narration": "Lão sói lùng sục khắp nhà, lôi ra từng chú một, nhét hết vào cái bao tải to lão mang theo. Chỉ có chú út trong hộp đồng hồ là lão không tìm thấy. Lão vác bao ra đồng cỏ, định mang về hang. Nhưng đi được một đoạn, lão buồn ngủ quá, bèn đặt bao xuống gốc cây, nằm ngáy pho pho. Ít lâu sau, dê mẹ về. Cửa mở toang, bàn ghế đổ lăn lóc, chăn gối vứt khắp nơi. Dê mẹ gọi tên từng con, chẳng ai thưa. Đến tên chú út, có tiếng khẽ: \"Mẹ ơi, con ở trong hộp đồng hồ!\"",
+      "subtitles": [
+        "Lão sói lùng sục khắp nhà, lôi ra từng chú một,",
+        "nhét hết vào cái bao tải to lão mang theo.",
+        "Chỉ có chú út trong hộp đồng hồ là lão không tìm thấy.",
+        "Lão vác bao ra đồng cỏ, định mang về hang. Nhưng đi được một đoạn, lão buồn ngủ quá,",
+        "bèn đặt bao xuống gốc cây, nằm ngáy pho pho.",
+        "Ít lâu sau, dê mẹ về. Cửa mở toang, bàn ghế đổ lăn lóc, chăn gối vứt khắp nơi.",
+        "Dê mẹ gọi tên từng con, chẳng ai thưa. Đến tên chú út, có tiếng khẽ:",
+        "\"Mẹ ơi, con ở trong hộp đồng hồ!\""
+      ],
+      "image": {
+        "prompt": "the mother goat stands in her messy cottage with chairs knocked over and blankets everywhere, looking toward the tall clock where the tiny goat kid peeks out of the clock case, afternoon light",
+        "seed": 1749189898,
+        "character": "de-me"
+      },
+      "video": {
+        "motionPrompt": "the clock door creaks open, the little kid peeks out, the mother goat turns with hope in her eyes, gentle motion",
+        "seed": 3327030171
+      },
+      "voice": {}
+    },
+    {
+      "id": "giai-cuu-cac-anh",
+      "title": "Giải cứu các anh",
+      "narrator": "ke-chuyen",
+      "narration": "Chú út kể hết mọi chuyện. Dê mẹ vừa khóc vừa dắt con chạy ra đồng. Kìa, lão sói đang ngủ say dưới gốc cây, bên cạnh là cái bao tải cựa quậy. Dê mẹ nhẹ nhàng cởi dây buộc miệng bao. Sáu chú dê con lần lượt chui ra, không sứt mẻ gì, ôm chầm lấy mẹ. Dê mẹ thì thầm: \"Suỵt! Các con đi nhặt đá về đây, thật nhanh.\" Cả nhà khiêng những hòn đá to nhất, nhét đầy vào bao, rồi buộc lại như cũ.",
+      "subtitles": [
+        "Chú út kể hết mọi chuyện. Dê mẹ vừa khóc vừa dắt con chạy ra đồng.",
+        "Kìa, lão sói đang ngủ say dưới gốc cây, bên cạnh là cái bao tải cựa quậy.",
+        "Dê mẹ nhẹ nhàng cởi dây buộc miệng bao. Sáu chú dê con lần lượt chui ra, không sứt mẻ gì,",
+        "ôm chầm lấy mẹ. Dê mẹ thì thầm: \"Suỵt! Các con đi nhặt đá về đây, thật nhanh.\"",
+        "Cả nhà khiêng những hòn đá to nhất, nhét đầy vào bao, rồi buộc lại như cũ."
+      ],
+      "image": {
+        "prompt": "in a sunny meadow the comical wolf snores under a big tree, beside him the mother goat gently unties a big wriggling sack and six happy little goat kids hop out, the tiniest kid carrying a stone, peaceful",
+        "seed": 3868007069,
+        "character": "de-me"
+      },
+      "video": {
+        "motionPrompt": "the wolf snores with his chest rising, the kids tiptoe out of the sack one by one, the mother goat puts a finger to her lips, gentle comical motion",
+        "seed": 1997075246
+      },
+      "voice": {}
+    },
+    {
+      "id": "ben-bo-gieng",
+      "title": "Bên bờ giếng",
+      "narrator": "ke-chuyen",
+      "narration": "Lão sói tỉnh dậy, vác bao lên vai, thấy nặng trĩu, lại khát khô cổ. Lão lảo đảo ra giếng uống nước. Vừa cúi xuống, cái bao nặng kéo lão ngã nhào xuống giếng. Lão ướt như chuột lột, vùng vẫy mãi mới bò lên được, rồi co giò chạy biến vào rừng sâu, không bao giờ dám quay lại nữa. Bảy chú dê con nắm tay mẹ, nhảy múa quanh giếng, hát vang: \"Lão sói đi rồi! Lão sói đi rồi!\" Từ đó, cả nhà dê sống vui vẻ, bình yên, và các chú dê con không bao giờ mở cửa cho người lạ nữa.",
+      "subtitles": [
+        "Lão sói tỉnh dậy, vác bao lên vai, thấy nặng trĩu, lại khát khô cổ.",
+        "Lão lảo đảo ra giếng uống nước. Vừa cúi xuống, cái bao nặng kéo lão ngã nhào xuống giếng.",
+        "Lão ướt như chuột lột, vùng vẫy mãi mới bò lên được,",
+        "rồi co giò chạy biến vào rừng sâu, không bao giờ dám quay lại nữa.",
+        "Bảy chú dê con nắm tay mẹ, nhảy múa quanh giếng, hát vang:",
+        "\"Lão sói đi rồi! Lão sói đi rồi!\" Từ đó, cả nhà dê sống vui vẻ, bình yên,",
+        "và các chú dê con không bao giờ mở cửa cho người lạ nữa."
+      ],
+      "image": {
+        "prompt": "beside an old stone well the dripping wet comical wolf runs away into the forest with his tail between his legs, the mother goat and seven little goat kids dance happily in a ring around the well, sunset",
+        "seed": 2403517586,
+        "character": "de-ut"
+      },
+      "video": {
+        "motionPrompt": "the wolf scampers off shaking water from his fur, the goats hold hands and dance in a circle, warm sunset light, slow pull-back",
+        "seed": 3152905955
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful German folk fairy-tale music for little goats, bouncy pizzicato strings, clarinet and bassoon for the sly wolf, a ticking clock rhythm, ending in a happy dance, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3275919312
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "slug": "cao-va-co",
+  "shelf": "world",
+  "title": "Cáo và cò",
+  "summary": "Cáo mời cò sang ăn tối rồi bày súp ra đĩa cạn để trêu bạn. Ít hôm sau cò mời lại, và cáo hiểu ra một bài học nhớ đời. Ngụ ngôn Aesop về cách đối xử với bạn bè.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals and people, Mediterranean countryside with olive trees, stone cottages and clear streams, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cao",
+      "name": "Cáo",
+      "seed": 2634369325,
+      "sheetPrompt": "a sly but charming red fox with a bushy tail, a little green waistcoat, a mischievous smile, standing on hind legs, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "co",
+      "name": "Cò",
+      "seed": 3966160548,
+      "sheetPrompt": "a tall graceful white stork with a long orange beak, long thin legs, a small blue scarf, kind patient eyes, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "loi-moi",
+      "title": "Lời mời của cáo",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, bên bờ đầm lau sậy, có một chú cáo lông đỏ rất thích trêu chọc người khác. Hàng xóm của cáo là cô cò chân dài, mỏ dài, tính tình hiền hậu. Một buổi chiều, cáo tươi cười gọi với sang: “Cô cò ơi, tối nay mời cô sang nhà tôi ăn súp nhé! Súp tôi nấu thơm lắm.” Cò vui vẻ nhận lời, còn cáo thì quay đi, tủm tỉm cười một mình. Cáo đã nghĩ sẵn một trò đùa.",
+      "subtitles": [
+        "Ngày xưa, bên bờ đầm lau sậy, có một chú cáo lông đỏ rất thích trêu chọc người khác.",
+        "Hàng xóm của cáo là cô cò chân dài, mỏ dài, tính tình hiền hậu.",
+        "Một buổi chiều, cáo tươi cười gọi với sang: “Cô cò ơi,",
+        "tối nay mời cô sang nhà tôi ăn súp nhé! Súp tôi nấu thơm lắm.”",
+        "Cò vui vẻ nhận lời, còn cáo thì quay đi, tủm tỉm cười một mình.",
+        "Cáo đã nghĩ sẵn một trò đùa."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "the fox in a waistcoat leans over a garden fence, smiling and inviting the stork who stands among reeds by a pond at golden afternoon",
+        "seed": 3369381398
+      },
+      "video": {
+        "motionPrompt": "the fox waves a paw and grins, the stork nods happily, reeds sway, dragonflies flit over the water",
+        "seed": 547961778
+      },
+      "voice": {}
+    },
+    {
+      "id": "dia-sup",
+      "title": "Đĩa súp cạn",
+      "narrator": "ke-chuyen",
+      "narration": "Tối hôm ấy, cò đến nhà cáo. Mùi súp bay thơm phức khắp gian bếp. Nhưng cáo bưng ra hai chiếc đĩa thật nông, súp chỉ láng một lớp mỏng. Cáo cúi xuống, liếm sột soạt, chẳng mấy chốc đĩa đã sạch bóng. Còn cò thì gõ mỏ lách cách vào đĩa, mổ mãi mà chẳng được lấy một giọt. Cáo giả vờ ngạc nhiên: “Ơ kìa, cô không thích món súp của tôi sao?” Cò chỉ mỉm cười: “Cảm ơn anh. Hôm nào anh sang nhà tôi chơi nhé.”",
+      "subtitles": [
+        "Tối hôm ấy, cò đến nhà cáo. Mùi súp bay thơm phức khắp gian bếp.",
+        "Nhưng cáo bưng ra hai chiếc đĩa thật nông, súp chỉ láng một lớp mỏng.",
+        "Cáo cúi xuống, liếm sột soạt, chẳng mấy chốc đĩa đã sạch bóng.",
+        "Còn cò thì gõ mỏ lách cách vào đĩa, mổ mãi mà chẳng được lấy một giọt.",
+        "Cáo giả vờ ngạc nhiên: “Ơ kìa, cô không thích món súp của tôi sao?”",
+        "Cò chỉ mỉm cười: “Cảm ơn anh. Hôm nào anh sang nhà tôi chơi nhé.”"
+      ],
+      "image": {
+        "character": "co",
+        "prompt": "inside a cosy fox den kitchen with a lantern, the fox happily laps soup from a very flat plate while the stork tries in vain to sip from her flat plate with her long beak",
+        "seed": 1944912651
+      },
+      "video": {
+        "motionPrompt": "the fox laps the soup eagerly, the stork taps her beak on the flat plate, steam curls up, lantern light flickers",
+        "seed": 315390802
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-moi-lai",
+      "title": "Cò mời lại",
+      "narrator": "ke-chuyen",
+      "narration": "Vài hôm sau, cò sang mời cáo đến ăn trưa. Cáo mừng lắm, cả buổi sáng nhịn ăn để dành bụng. Vừa đến cửa nhà cò, cáo đã ngửi thấy mùi cá nướng thơm lừng. Cáo xoa bụng, nghĩ thầm: “Hôm nay ta được một bữa no nê đây!” Cò dọn ra hai chiếc bình cổ cao, miệng bình nhỏ xíu. Thức ăn ngon nằm tận dưới đáy bình.",
+      "subtitles": [
+        "Vài hôm sau, cò sang mời cáo đến ăn trưa. Cáo mừng lắm, cả buổi sáng nhịn ăn để dành bụng.",
+        "Vừa đến cửa nhà cò, cáo đã ngửi thấy mùi cá nướng thơm lừng.",
+        "Cáo xoa bụng, nghĩ thầm: “Hôm nay ta được một bữa no nê đây!”",
+        "Cò dọn ra hai chiếc bình cổ cao, miệng bình nhỏ xíu. Thức ăn ngon nằm tận dưới đáy bình."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "the hungry fox arrives at the stork's tidy reed house by the water, sniffing the air with delight, two tall narrow-necked jars on a little table",
+        "seed": 3587015591
+      },
+      "video": {
+        "motionPrompt": "the fox sniffs and rubs its tummy, the stork welcomes him with a wing, a warm breeze moves the reeds",
+        "seed": 1437753572
+      },
+      "voice": {}
+    },
+    {
+      "id": "binh-co-cao",
+      "title": "Chiếc bình cổ cao",
+      "narrator": "ke-chuyen",
+      "narration": "Cò thò chiếc mỏ dài vào bình, ăn ngon lành. Cáo thì loay hoay đủ kiểu, nhưng cái mõm to chẳng sao lọt qua miệng bình. Cáo chỉ đành liếm mấy giọt nước sốt dính bên ngoài, bụng sôi ùng ục. Cò nhẹ nhàng nói: “Anh cáo ạ, hôm trước tôi đói thế nào, hôm nay anh đã hiểu rồi chứ?” Cáo đỏ mặt, cúi đầu không nói được câu nào.",
+      "subtitles": [
+        "Cò thò chiếc mỏ dài vào bình, ăn ngon lành.",
+        "Cáo thì loay hoay đủ kiểu, nhưng cái mõm to chẳng sao lọt qua miệng bình.",
+        "Cáo chỉ đành liếm mấy giọt nước sốt dính bên ngoài, bụng sôi ùng ục.",
+        "Cò nhẹ nhàng nói: “Anh cáo ạ, hôm trước tôi đói thế nào, hôm nay anh đã hiểu rồi chứ?”",
+        "Cáo đỏ mặt, cúi đầu không nói được câu nào."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "the stork easily eats from a tall narrow jar with her long beak while the fox tries to push his snout into the other jar, embarrassed, ears drooping",
+        "seed": 1128222301
+      },
+      "video": {
+        "motionPrompt": "the stork dips her beak in and out of the jar, the fox paws at the jar and sighs, its ears droop slowly",
+        "seed": 144294659
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc",
+      "title": "Bài học của cáo",
+      "narrator": "ke-chuyen",
+      "narration": "Từ hôm đó, cáo không còn bày trò trêu chọc bạn bè nữa. Lần sau mời cò sang chơi, cáo đã biết dọn súp vào một chiếc bình cao cho cò, còn mình thì ăn bằng đĩa. Hai người hàng xóm ngồi ăn với nhau vui vẻ bên bờ đầm. Các bạn nhỏ ạ, mình đối xử với bạn thế nào, bạn sẽ đối lại mình như thế. Hãy luôn nghĩ đến người khác nhé.",
+      "subtitles": [
+        "Từ hôm đó, cáo không còn bày trò trêu chọc bạn bè nữa.",
+        "Lần sau mời cò sang chơi, cáo đã biết dọn súp vào một chiếc bình cao cho cò,",
+        "còn mình thì ăn bằng đĩa. Hai người hàng xóm ngồi ăn với nhau vui vẻ bên bờ đầm.",
+        "Các bạn nhỏ ạ, mình đối xử với bạn thế nào, bạn sẽ đối lại mình như thế.",
+        "Hãy luôn nghĩ đến người khác nhé."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "the fox and the stork share a happy meal together by the pond at sunset, the stork eating from a tall jar and the fox from a plate, both smiling",
+        "seed": 3694608798
+      },
+      "video": {
+        "motionPrompt": "the two friends laugh and eat together, the sunset glows on the water, fireflies begin to twinkle",
+        "seed": 1663832742
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light playful classical storybook music, pizzicato strings and a sly clarinet for the fox, a gentle oboe for the stork, Mediterranean warmth, calm friendly ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3352217087
+  }
+}

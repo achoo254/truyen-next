@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "slug": "su-tich-cay-lua",
+  "shelf": "kids",
+  "title": "Sự tích cây lúa",
+  "summary": "Ngày xưa hạt lúa to như quả bưởi và tự lăn về nhà người. Chỉ vì một chị vợ lười dùng chổi đập vỡ hạt lúa, từ đó người phải ra đồng cấy gặt mới có bát cơm. Bản kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "su-tich",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam về nguồn gốc hạt lúa nhỏ và việc cấy gặt, thuộc phạm vi công cộng; truyện có nhiều dị bản ở các dân tộc. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "basedOn": "Truyện dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, old Vietnamese countryside with green and golden rice fields, a small village of thatched houses, clay granaries, bamboo hedges and egrets, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1402379920
+    },
+    {
+      "id": "chi-vo-luoi",
+      "name": "Chị vợ lười",
+      "seed": 3025576163,
+      "sheetPrompt": "a lazy but comical young Vietnamese village wife from the folk tale, messy hair half tied up, sleepy grumpy face, crumpled indigo ao tu than dress, holding a straw broom, not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hat-lua",
+      "name": "Hạt lúa",
+      "seed": 2008100292,
+      "sheetPrompt": "a giant golden rice grain as big as a pomelo, smooth shiny golden husk, cute little face with round eyes and a gentle smile, fairy-tale character, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Bát cơm trắng thơm mà các bạn ăn mỗi ngày được nấu từ hạt gạo, còn hạt gạo thì từ cây lúa ngoài đồng. Các bác nông dân phải cấy, phải gặt vất vả lắm mới có. Nhưng ngày xưa, nghe nói hạt lúa tự lăn về nhà đấy! Mèo Miu kể các bạn nghe sự tích cây lúa nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Bát cơm trắng thơm mà các bạn ăn mỗi ngày được nấu từ hạt gạo,",
+        "còn hạt gạo thì từ cây lúa ngoài đồng.",
+        "Các bác nông dân phải cấy, phải gặt vất vả lắm mới có.",
+        "Nhưng ngày xưa, nghe nói hạt lúa tự lăn về nhà đấy!",
+        "Mèo Miu kể các bạn nghe sự tích cây lúa nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits at a low wooden table holding a bowl of steaming white rice with chopsticks, through the window green rice fields stretch far away",
+        "seed": 1865229517,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "steam rises from the rice bowl, the cat sniffs it happily and looks out at the fields, slow camera push-in",
+        "seed": 2097888354
+      },
+      "voice": {}
+    },
+    {
+      "id": "lua-tu-ve",
+      "title": "Lúa tự về nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, lúa mọc đầy trên đồng mà chẳng ai phải trồng. Đến mùa, từng hạt lúa to như quả bưởi lăn lông lốc, nối đuôi nhau tự về nhà người. Người ta chỉ cần quét sạch sân, mở rộng cổng là lúa vào đầy kho. Nhà nào cũng no đủ, ai nấy vui vẻ, cười nói rộn ràng.",
+      "subtitles": [
+        "Ngày xưa, lúa mọc đầy trên đồng mà chẳng ai phải trồng.",
+        "Đến mùa, từng hạt lúa to như quả bưởi lăn lông lốc, nối đuôi nhau tự về nhà người.",
+        "Người ta chỉ cần quét sạch sân, mở rộng cổng là lúa vào đầy kho.",
+        "Nhà nào cũng no đủ, ai nấy vui vẻ, cười nói rộn ràng."
+      ],
+      "image": {
+        "prompt": "a magical village path, a long line of giant golden rice grains as big as pomelos rolls happily along the path into clean courtyards, villagers open their gates and smile",
+        "seed": 3115749894,
+        "character": "hat-lua"
+      },
+      "video": {
+        "motionPrompt": "the giant rice grains roll one after another along the path and bounce through the gate, villagers clap, egrets fly",
+        "seed": 1130432720
+      },
+      "voice": {}
+    },
+    {
+      "id": "don-lua",
+      "title": "Đón lúa về",
+      "narrator": "ke-chuyen",
+      "narration": "Hạt lúa ngày ấy to lắm, chỉ một hạt nấu được cả nồi cơm đầy, cả nhà ăn không hết. Bà con dặn nhau phải đón lúa thật chu đáo. Trước mùa, nhà nào cũng quét sân sạch bóng, dọn kho cho ngay ngắn, vì lúa là thứ quý, nuôi sống mọi người. Lúa về đến đâu, người ta mừng rỡ đến đấy.",
+      "subtitles": [
+        "Hạt lúa ngày ấy to lắm, chỉ một hạt nấu được cả nồi cơm đầy, cả nhà ăn không hết.",
+        "Bà con dặn nhau phải đón lúa thật chu đáo.",
+        "Trước mùa, nhà nào cũng quét sân sạch bóng,",
+        "dọn kho cho ngay ngắn, vì lúa là thứ quý, nuôi sống mọi người.",
+        "Lúa về đến đâu, người ta mừng rỡ đến đấy."
+      ],
+      "image": {
+        "prompt": "a clean village courtyard, a grandmother and children sweep the yard and tidy a round clay granary, a giant golden rice grain rolls in through the open gate and they welcome it with smiles",
+        "seed": 543559978,
+        "character": "hat-lua"
+      },
+      "video": {
+        "motionPrompt": "the children wave the grain inside, the grandmother bows politely, the granary door opens",
+        "seed": 2291036087
+      },
+      "voice": {}
+    },
+    {
+      "id": "chi-vo-luoi",
+      "title": "Chị vợ lười",
+      "narrator": "ke-chuyen",
+      "narration": "Trong làng có một chị vợ rất lười. Ai cũng dọn dẹp từ sớm, riêng chị vẫn ngủ dậy muộn, sân chưa quét, kho chưa dọn, rác rơm bừa bộn khắp nơi. Đến ngày lúa về, nghe tiếng lúa lăn ầm ầm ngoài ngõ, chị mới vội vàng vớ lấy cái chổi chạy ra sân, vừa quét vừa cằn nhằn.",
+      "subtitles": [
+        "Trong làng có một chị vợ rất lười.",
+        "Ai cũng dọn dẹp từ sớm, riêng chị vẫn ngủ dậy muộn,",
+        "sân chưa quét, kho chưa dọn, rác rơm bừa bộn khắp nơi.",
+        "Đến ngày lúa về, nghe tiếng lúa lăn ầm ầm ngoài ngõ,",
+        "chị mới vội vàng vớ lấy cái chổi chạy ra sân, vừa quét vừa cằn nhằn."
+      ],
+      "image": {
+        "prompt": "a messy courtyard full of straw and leaves, the lazy wife rushes out of the house with messy hair and a straw broom, yawning and grumbling, giant rice grains are rolling up the lane",
+        "seed": 3205123210,
+        "character": "chi-vo-luoi"
+      },
+      "video": {
+        "motionPrompt": "the wife yawns and sweeps hastily, straw flies everywhere, giant rice grains roll closer along the lane",
+        "seed": 1634156638
+      },
+      "voice": {}
+    },
+    {
+      "id": "dap-lua",
+      "title": "Chiếc chổi vô ý",
+      "narrator": "ke-chuyen",
+      "narration": "Chị còn đang quét dở thì những hạt lúa to đã lăn vào sân. Chị bực mình quát: Sao mà về sớm thế, không đợi người ta quét xong! Rồi chị vung chổi đập mạnh vào hạt lúa. Hạt lúa vỡ tan thành muôn mảnh nhỏ, bắn đi khắp nơi, rơi lả tả xuống đất.",
+      "subtitles": [
+        "Chị còn đang quét dở thì những hạt lúa to đã lăn vào sân.",
+        "Chị bực mình quát: Sao mà về sớm thế, không đợi người ta quét xong!",
+        "Rồi chị vung chổi đập mạnh vào hạt lúa.",
+        "Hạt lúa vỡ tan thành muôn mảnh nhỏ, bắn đi khắp nơi, rơi lả tả xuống đất."
+      ],
+      "image": {
+        "prompt": "in the messy courtyard the grumpy wife swings her broom at a giant golden rice grain, which bursts gently into thousands of tiny golden grains scattering like sparkles",
+        "seed": 680132085,
+        "character": "chi-vo-luoi"
+      },
+      "video": {
+        "motionPrompt": "the broom swings, the big grain bursts softly into a shower of tiny golden grains, the wife freezes in surprise",
+        "seed": 2642558811
+      },
+      "voice": {}
+    },
+    {
+      "id": "lua-khong-ve",
+      "title": "Lúa không về nữa",
+      "narrator": "ke-chuyen",
+      "narration": "Những hạt lúa nhỏ buồn rầu nói: Chị không quý lúa thì từ nay chúng tôi không tự về nữa. Muốn có ăn, mọi người phải ra đồng mà gặt, mà gánh về. Nói rồi, các hạt lúa nhỏ lăn trở lại cánh đồng, không bao giờ quay về nhà nữa. Chị vợ lười đứng ngẩn ra, hối hận thì đã muộn.",
+      "subtitles": [
+        "Những hạt lúa nhỏ buồn rầu nói: Chị không quý lúa thì từ nay chúng tôi không tự về nữa.",
+        "Muốn có ăn, mọi người phải ra đồng mà gặt, mà gánh về.",
+        "Nói rồi, các hạt lúa nhỏ lăn trở lại cánh đồng, không bao giờ quay về nhà nữa.",
+        "Chị vợ lười đứng ngẩn ra, hối hận thì đã muộn."
+      ],
+      "image": {
+        "prompt": "tiny golden rice grains with sad little faces roll away out of the gate back toward the green fields, the lazy wife stands alone holding the broom, looking sorry",
+        "seed": 1195217462,
+        "character": "chi-vo-luoi"
+      },
+      "video": {
+        "motionPrompt": "the tiny grains roll away in a long line toward the fields, the wife reaches out a hand, then lowers it sadly",
+        "seed": 3298774330
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-cay",
+      "title": "Ra đồng cấy gặt",
+      "narrator": "ke-chuyen",
+      "narration": "Từ đó, hạt lúa chỉ bé xíu như bây giờ. Người nông dân phải cày ruộng, gieo mạ, cấy lúa, chăm bón suốt mấy tháng trời. Đợi lúa chín vàng mới cắt về, phơi khô, xay giã thành gạo. Vất vả biết bao nhiêu mới có được bát cơm thơm dẻo.",
+      "subtitles": [
+        "Từ đó, hạt lúa chỉ bé xíu như bây giờ.",
+        "Người nông dân phải cày ruộng, gieo mạ, cấy lúa, chăm bón suốt mấy tháng trời.",
+        "Đợi lúa chín vàng mới cắt về, phơi khô, xay giã thành gạo.",
+        "Vất vả biết bao nhiêu mới có được bát cơm thơm dẻo."
+      ],
+      "image": {
+        "prompt": "Vietnamese farmers work in the fields through the seasons: transplanting green seedlings in flooded paddies, then harvesting golden rice with sickles, drying grain on a brick yard",
+        "seed": 2799973202
+      },
+      "video": {
+        "motionPrompt": "farmers bend to plant seedlings, rice stalks ripen from green to gold, grain is raked on the drying yard",
+        "seed": 2276647176
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Câu chuyện đến đây là hết rồi. Các bạn thấy không, mỗi hạt cơm đều là công sức của các bác nông dân đấy. Vì thế, khi ăn cơm, các bạn nhớ ăn hết, đừng để rơi vãi nhé. Và phải chăm chỉ, đừng lười biếng như chị vợ trong truyện. Miu chào các bạn, hẹn gặp lại!",
+      "subtitles": [
+        "Câu chuyện đến đây là hết rồi.",
+        "Các bạn thấy không, mỗi hạt cơm đều là công sức của các bác nông dân đấy.",
+        "Vì thế, khi ăn cơm, các bạn nhớ ăn hết, đừng để rơi vãi nhé.",
+        "Và phải chăm chỉ, đừng lười biếng như chị vợ trong truyện.",
+        "Miu chào các bạn, hẹn gặp lại!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the edge of a golden rice field with an empty clean rice bowl in her other paw, farmers wave in the distance",
+        "seed": 2753218626,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves and shows the empty bowl proudly, rice stalks sway, gentle camera pull-back",
+        "seed": 1916551113
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Vietnamese countryside folk tune for children, bamboo flute and dan bau with soft wooden percussion, peaceful harvest feeling, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3908493583
+  }
+}

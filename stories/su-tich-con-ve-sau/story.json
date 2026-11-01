@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "slug": "su-tich-con-ve-sau",
+  "shelf": "kids",
+  "title": "Sự tích con ve sầu",
+  "summary": "Vì sao cứ mỗi mùa hè, ve sầu lại kêu ra rả trên cành cây như gọi ai đó? Chuyện hai anh em mồ côi, người anh hết lòng nhường nhịn, người em vì hiểu lầm mà ân hận mãi. Truyện dân gian Việt Nam kể nhẹ nhàng cho trẻ nhỏ về tình anh em.",
+  "themes": [
+    "su-tich",
+    "gia-dinh",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ tích dân gian Việt Nam về nguồn gốc con ve sầu, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; đoạn người anh gặp nạn được kể vòng cho nhẹ nhàng, Mèo Miu mở đầu và rút bài học ở cuối.",
+  "basedOn": "Truyện cổ tích dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft watercolor and gouache textures, warm gentle summer light, rounded friendly shapes, old Vietnamese countryside with bamboo groves, a small thatched hut and green forest hills, tender and calm mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 3165336574,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-anh",
+      "name": "Người anh",
+      "seed": 914671841,
+      "sheetPrompt": "a kind thin Vietnamese teenage boy from a folk tale, older brother, brown patched shirt and rolled trousers, a small bamboo basket on his back, gentle caring smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-em",
+      "name": "Người em",
+      "seed": 1920862603,
+      "sheetPrompt": "a little Vietnamese boy from a folk tale, younger brother, short tuft of hair, light indigo shirt and shorts, pouting face, barefoot, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ve-sau",
+      "name": "Chú ve sầu",
+      "seed": 2800701290,
+      "sheetPrompt": "a cute small cicada with clear shiny wings and big round eyes, green and brown body, sitting on a branch, gentle storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mùa hè đến rồi, các bạn có nghe thấy tiếng ve kêu ra rả trên những tán cây không? Miu nghe mãi mà cứ thấy như các chú ve đang gọi ai đó. Người xưa kể rằng, tiếng ve ấy có một sự tích buồn mà thương lắm. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Mùa hè đến rồi, các bạn có nghe thấy tiếng ve kêu ra rả trên những tán cây không?",
+        "Miu nghe mãi mà cứ thấy như các chú ve đang gọi ai đó.",
+        "Người xưa kể rằng, tiếng ve ấy có một sự tích buồn mà thương lắm.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits under a big green tree in summer, a hand cupped to her ear listening, a tiny cicada on a branch above, bright sunlight through the leaves",
+        "seed": 2792103094
+      },
+      "video": {
+        "motionPrompt": "the cat tilts her head listening, leaves flicker in the sunshine, the little cicada vibrates its wings, slow gentle camera push-in",
+        "seed": 176280300
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-anh-em",
+      "title": "Hai anh em mồ côi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng nọ có hai anh em mồ côi cha mẹ từ sớm. Người em còn bé, nên mọi việc nặng nhọc đều đến tay người anh. Sáng sáng anh vào rừng hái rau, đào củ, chiều chiều lại ra suối bắt cá. Nhà nghèo lắm, nhưng anh thương em vô cùng. Có gì ngon, anh cũng phần cho em trước.",
+      "subtitles": [
+        "Ngày xưa, ở một làng nọ có hai anh em mồ côi cha mẹ từ sớm.",
+        "Người em còn bé, nên mọi việc nặng nhọc đều đến tay người anh.",
+        "Sáng sáng anh vào rừng hái rau, đào củ, chiều chiều lại ra suối bắt cá.",
+        "Nhà nghèo lắm, nhưng anh thương em vô cùng.",
+        "Có gì ngon, anh cũng phần cho em trước."
+      ],
+      "image": {
+        "character": "nguoi-anh",
+        "prompt": "an older boy carries a bamboo basket full of wild vegetables back to a small thatched hut at sunset, his little brother sits on the doorstep waiting, a cooking fire smoke rises from the roof",
+        "seed": 3137167140
+      },
+      "video": {
+        "motionPrompt": "the older brother walks home with the basket, the little brother stands up, smoke curls from the roof, golden evening light",
+        "seed": 1799424191
+      },
+      "voice": {}
+    },
+    {
+      "id": "dau-ca",
+      "title": "Phần đầu cá",
+      "narrator": "ke-chuyen",
+      "narration": "Mỗi lần bắt được cá, người anh gỡ phần thịt béo ngon cho em, còn mình chỉ lấy cái đầu với cái đuôi. Anh còn đem đầu cá phơi trên gác bếp để dành. Người em nhìn thấy thì nghĩ bụng: Chắc đầu cá ngon lắm, anh giấu để ăn một mình đây. Từ hôm ấy, em hay hờn dỗi, chẳng chịu nói chuyện với anh. Anh buồn, nhưng vẫn lặng lẽ chăm em như trước.",
+      "subtitles": [
+        "Mỗi lần bắt được cá, người anh gỡ phần thịt béo ngon cho em,",
+        "còn mình chỉ lấy cái đầu với cái đuôi.",
+        "Anh còn đem đầu cá phơi trên gác bếp để dành.",
+        "Người em nhìn thấy thì nghĩ bụng: Chắc đầu cá ngon lắm, anh giấu để ăn một mình đây.",
+        "Từ hôm ấy, em hay hờn dỗi, chẳng chịu nói chuyện với anh.",
+        "Anh buồn, nhưng vẫn lặng lẽ chăm em như trước."
+      ],
+      "image": {
+        "character": "nguoi-em",
+        "prompt": "inside a simple thatched hut, the older brother puts the best piece of fish into his little brother's bowl, a row of small dried fish heads hangs on a rack above the stove, the little brother looks at the rack with a suspicious pout",
+        "seed": 719610552
+      },
+      "video": {
+        "motionPrompt": "the older brother smiles and passes the bowl, the little brother glances up at the drying rack and frowns, the stove fire flickers softly",
+        "seed": 829713720
+      },
+      "voice": {}
+    },
+    {
+      "id": "dao-cu-mai",
+      "title": "Đi đào củ mài",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, hai anh em vào rừng đào củ mài. Anh cầm thuổng đào, em đứng trên miệng hố nhặt củ. Hố càng sâu, củ càng to. Anh mải đào, mải đào, hố sâu hun hút. Bỗng đất dưới chân sụt xuống, anh trượt ngã, kẹt dưới đáy hố, không sao trèo lên được. Anh gọi vọng lên: Em ơi, kéo anh lên với, anh mệt lắm rồi!",
+      "subtitles": [
+        "Một hôm, hai anh em vào rừng đào củ mài.",
+        "Anh cầm thuổng đào, em đứng trên miệng hố nhặt củ. Hố càng sâu, củ càng to.",
+        "Anh mải đào, mải đào, hố sâu hun hút.",
+        "Bỗng đất dưới chân sụt xuống, anh trượt ngã, kẹt dưới đáy hố, không sao trèo lên được.",
+        "Anh gọi vọng lên: Em ơi, kéo anh lên với, anh mệt lắm rồi!"
+      ],
+      "image": {
+        "character": "nguoi-anh",
+        "prompt": "in a green forest, the little brother stands at the edge of a deep hole holding a basket of wild yams, peeking down, the older brother is stuck at the bottom reaching one hand up, a digging tool beside him",
+        "seed": 2042890251
+      },
+      "video": {
+        "motionPrompt": "soil crumbles softly at the edge of the hole, the older brother stretches his hand up, the little brother leans over with folded arms, leaves sway",
+        "seed": 3509861977
+      },
+      "voice": {}
+    },
+    {
+      "id": "em-hon-doi",
+      "title": "Em hờn dỗi bỏ về",
+      "narrator": "ke-chuyen",
+      "narration": "Người em vẫn còn giận chuyện đầu cá, bèn nói lẫy: Anh cứ ở dưới đấy mà nghĩ đến đầu cá ngon của anh! Anh thều thào: Đầu cá anh để trên gác bếp với trong chạn ấy, em về mà ăn. Nghe thế, em chạy một mạch về nhà, chẳng ngoái lại nhìn anh lấy một lần.",
+      "subtitles": [
+        "Người em vẫn còn giận chuyện đầu cá, bèn nói lẫy:",
+        "Anh cứ ở dưới đấy mà nghĩ đến đầu cá ngon của anh!",
+        "Anh thều thào: Đầu cá anh để trên gác bếp với trong chạn ấy, em về mà ăn.",
+        "Nghe thế, em chạy một mạch về nhà, chẳng ngoái lại nhìn anh lấy một lần."
+      ],
+      "image": {
+        "character": "nguoi-em",
+        "prompt": "the little brother runs away along a forest path toward home with a sulky face, the deep hole and the forest behind him, a few birds fly up from the trees",
+        "seed": 879099165
+      },
+      "video": {
+        "motionPrompt": "the little brother runs down the path kicking up dust, he does not look back, the trees grow quiet behind him",
+        "seed": 3952633513
+      },
+      "voice": {}
+    },
+    {
+      "id": "hieu-ra",
+      "title": "Em hiểu ra",
+      "narrator": "ke-chuyen",
+      "narration": "Về đến nhà, em vội trèo lên gác bếp, lấy đầu cá xuống. Nào ngờ đầu cá chỉ toàn xương, khô cứng như que củi, cắn chẳng nổi. Em mở chạn ra xem, cũng chỉ toàn xương là xương. Lúc ấy em mới hiểu: bao lâu nay anh nhường hết phần ngon cho mình, còn anh chỉ ăn những thứ chẳng ai thèm. Em oà khóc, rồi chạy thật nhanh trở lại rừng.",
+      "subtitles": [
+        "Về đến nhà, em vội trèo lên gác bếp, lấy đầu cá xuống.",
+        "Nào ngờ đầu cá chỉ toàn xương, khô cứng như que củi, cắn chẳng nổi.",
+        "Em mở chạn ra xem, cũng chỉ toàn xương là xương.",
+        "Lúc ấy em mới hiểu: bao lâu nay anh nhường hết phần ngon cho mình,",
+        "còn anh chỉ ăn những thứ chẳng ai thèm.",
+        "Em oà khóc, rồi chạy thật nhanh trở lại rừng."
+      ],
+      "image": {
+        "character": "nguoi-em",
+        "prompt": "the little brother stands on a stool by the stove holding a dry bony fish head, tears in his eyes, an open bamboo cupboard showing more dry fish bones, soft dim light in the hut",
+        "seed": 4191086502
+      },
+      "video": {
+        "motionPrompt": "the little brother looks at the dry fish head, his lip trembles, tears roll down, he drops it and turns to run out the door",
+        "seed": 1581232769
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-ve-sau",
+      "title": "Hoá thành ve sầu",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng khi em chạy tới nơi, hố củ mài đã lặng im, chỉ còn chiếc thuổng nằm bên miệng hố. Người anh đã biến mất mãi mãi, không bao giờ quay lại nữa. Em ngồi bên hố, gọi anh mãi, gọi mãi, khóc đến khản cả tiếng. Thương anh, ân hận vô cùng, em hoá thành một chú ve nhỏ, bám trên cành cây. Từ đó, cứ mỗi mùa hè, mùa đào củ mài, ve lại kêu lên những tiếng gọi da diết như gọi anh ơi, anh ơi.",
+      "subtitles": [
+        "Nhưng khi em chạy tới nơi, hố củ mài đã lặng im, chỉ còn chiếc thuổng nằm bên miệng hố.",
+        "Người anh đã biến mất mãi mãi, không bao giờ quay lại nữa.",
+        "Em ngồi bên hố, gọi anh mãi, gọi mãi, khóc đến khản cả tiếng.",
+        "Thương anh, ân hận vô cùng, em hoá thành một chú ve nhỏ, bám trên cành cây.",
+        "Từ đó, cứ mỗi mùa hè, mùa đào củ mài,",
+        "ve lại kêu lên những tiếng gọi da diết như gọi anh ơi, anh ơi."
+      ],
+      "image": {
+        "character": "ve-sau",
+        "prompt": "a quiet forest clearing at dusk, a digging tool lies beside an empty hole, on a tree branch above sits a small cicada with shiny wings, soft golden light and falling leaves",
+        "seed": 1346015544
+      },
+      "video": {
+        "motionPrompt": "leaves drift down slowly, the small cicada on the branch trembles its wings and lifts its head as if calling, the light fades gently to evening",
+        "seed": 3630494113
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn ơi, câu chuyện buồn quá phải không? Người em chỉ vì nghĩ xấu cho anh mà phải ân hận suốt đời. Anh chị em trong nhà là những người thương mình nhất. Có điều gì chưa hiểu, mình hãy hỏi nhau thật nhẹ nhàng, đừng vội giận dỗi nhé. Mùa hè này nghe tiếng ve, các bạn nhớ ôm anh chị em mình một cái thật chặt! Miu kể đến đây là hết rồi, hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn ơi, câu chuyện buồn quá phải không?",
+        "Người em chỉ vì nghĩ xấu cho anh mà phải ân hận suốt đời.",
+        "Anh chị em trong nhà là những người thương mình nhất.",
+        "Có điều gì chưa hiểu, mình hãy hỏi nhau thật nhẹ nhàng, đừng vội giận dỗi nhé.",
+        "Mùa hè này nghe tiếng ve, các bạn nhớ ôm anh chị em mình một cái thật chặt!",
+        "Miu kể đến đây là hết rồi, hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye under a summer tree, two little sibling children hug each other happily beside her, a tiny cicada on the branch above, warm sunlight",
+        "seed": 1865193284
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the two children hug and laugh, the cicada flutters its wings, leaves sway, gentle camera pull-back",
+        "seed": 2765836515
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender Vietnamese traditional instrumental, dan bau monochord and bamboo flute over soft summer ambience, gentle and slightly melancholic, slow tempo, no vocals",
+    "durationSeconds": 120,
+    "seed": 1031394940
+  }
+}

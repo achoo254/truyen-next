@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "slug": "hai-con-de-qua-cau",
+  "shelf": "world",
+  "title": "Hai con dê qua cầu",
+  "summary": "Dê trắng và dê đen gặp nhau giữa chiếc cầu hẹp, chẳng ai chịu nhường ai. Cuộc húc nhau khiến cả hai rơi tòm xuống suối. Ngụ ngôn Aesop về sự nhường nhịn.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals and people, Mediterranean countryside with olive trees, stone cottages and clear streams, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "de-trang",
+      "name": "Dê trắng",
+      "seed": 204389067,
+      "sheetPrompt": "a proud fluffy white mountain goat with curved horns, a little bell on a red ribbon, stubborn but sweet expression, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "de-den",
+      "name": "Dê đen",
+      "seed": 1735238128,
+      "sheetPrompt": "a proud black mountain goat with glossy fur, short sturdy horns, a little yellow scarf, stubborn but sweet expression, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hai-ben-suoi",
+      "title": "Hai bên bờ suối",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở vùng núi đá, có một con suối chảy xiết chia đôi hai sườn đồi. Bên này là nhà của dê trắng, bên kia là nhà của dê đen. Bắc ngang suối chỉ có một thân cây đổ làm cầu, hẹp đến nỗi mỗi lần chỉ đi được một con. Dê trắng và dê đen đều giỏi leo trèo, nhưng cũng đều bướng bỉnh, chẳng ai chịu kém ai.",
+      "subtitles": [
+        "Ngày xưa, ở vùng núi đá, có một con suối chảy xiết chia đôi hai sườn đồi.",
+        "Bên này là nhà của dê trắng, bên kia là nhà của dê đen.",
+        "Bắc ngang suối chỉ có một thân cây đổ làm cầu, hẹp đến nỗi mỗi lần chỉ đi được một con.",
+        "Dê trắng và dê đen đều giỏi leo trèo, nhưng cũng đều bướng bỉnh, chẳng ai chịu kém ai."
+      ],
+      "image": {
+        "character": "de-trang",
+        "prompt": "a rushing mountain stream between two grassy rocky hillsides, a single narrow fallen log as a bridge, the white goat on one side and the black goat on the other, wildflowers",
+        "seed": 437752364
+      },
+      "video": {
+        "motionPrompt": "the stream rushes below, the two goats look across at each other, grass ripples in the mountain breeze",
+        "seed": 3487858774
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-nhau",
+      "title": "Gặp nhau giữa cầu",
+      "narrator": "ke-chuyen",
+      "narration": "Một buổi sáng, dê trắng muốn sang bên kia ăn cỏ non, còn dê đen lại muốn sang bên này uống nước mát. Cả hai cùng bước lên cầu một lúc. Đi tới giữa cầu thì hai cái sừng chạm nhau cốp một cái. Dê trắng nói: “Tránh ra cho ta đi trước!” Dê đen vênh mặt: “Ai mà nhường! Ngươi lùi lại thì có!”",
+      "subtitles": [
+        "Một buổi sáng, dê trắng muốn sang bên kia ăn cỏ non,",
+        "còn dê đen lại muốn sang bên này uống nước mát. Cả hai cùng bước lên cầu một lúc.",
+        "Đi tới giữa cầu thì hai cái sừng chạm nhau cốp một cái.",
+        "Dê trắng nói: “Tránh ra cho ta đi trước!” Dê đen vênh mặt: “Ai mà nhường!",
+        "Ngươi lùi lại thì có!”"
+      ],
+      "image": {
+        "character": "de-den",
+        "prompt": "the white goat and the black goat meet head to head in the middle of the narrow log bridge over the rushing stream, frowning at each other",
+        "seed": 2198769998
+      },
+      "video": {
+        "motionPrompt": "the goats step closer until their horns touch, they stamp their hooves, the water foams below",
+        "seed": 2685287006
+      },
+      "voice": {}
+    },
+    {
+      "id": "huc-nhau",
+      "title": "Chẳng ai chịu nhường",
+      "narrator": "ke-chuyen",
+      "narration": "Dê trắng tức lắm, cúi đầu xuống. Dê đen cũng cúi đầu xuống. Hai bên hằm hè, chân bấu chặt vào thân cây. “Cộp! Cộp!” Hai đôi sừng húc vào nhau, chiếc cầu rung lên bần bật. Không con nào chịu lùi lấy một bước. Chim chóc trên cành lo lắng kêu: “Thôi đi các bạn ơi, cầu hẹp lắm, nguy hiểm lắm!” Nhưng hai chú dê chẳng ai thèm nghe.",
+      "subtitles": [
+        "Dê trắng tức lắm, cúi đầu xuống. Dê đen cũng cúi đầu xuống.",
+        "Hai bên hằm hè, chân bấu chặt vào thân cây. “Cộp! Cộp!”",
+        "Hai đôi sừng húc vào nhau, chiếc cầu rung lên bần bật.",
+        "Không con nào chịu lùi lấy một bước.",
+        "Chim chóc trên cành lo lắng kêu: “Thôi đi các bạn ơi, cầu hẹp lắm, nguy hiểm lắm!”",
+        "Nhưng hai chú dê chẳng ai thèm nghe."
+      ],
+      "image": {
+        "character": "de-trang",
+        "prompt": "the two goats butting horns stubbornly on the wobbling log bridge, worried little birds fluttering above calling to them, spray from the stream",
+        "seed": 1689713322
+      },
+      "video": {
+        "motionPrompt": "the goats push horns against each other, the log wobbles, birds flap anxiously, spray flies up",
+        "seed": 1909432305
+      },
+      "voice": {}
+    },
+    {
+      "id": "roi-xuong-suoi",
+      "title": "Rơi tòm xuống suối",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng chân dê trắng trượt đi, chân dê đen cũng hụt mất. Tòm! Tòm! Cả hai rơi xuống dòng suối lạnh buốt. Nước cuốn hai chú dê trôi một quãng xa. Hai chú vùng vẫy mãi mới bám được vào một tảng đá, rồi lóp ngóp bò lên bờ. Lông ướt sũng, người run cầm cập, chẳng ai còn sang được bên kia, cũng chẳng ai được ăn cỏ non hay uống nước mát.",
+      "subtitles": [
+        "Bỗng chân dê trắng trượt đi, chân dê đen cũng hụt mất. Tòm! Tòm!",
+        "Cả hai rơi xuống dòng suối lạnh buốt. Nước cuốn hai chú dê trôi một quãng xa.",
+        "Hai chú vùng vẫy mãi mới bám được vào một tảng đá, rồi lóp ngóp bò lên bờ.",
+        "Lông ướt sũng, người run cầm cập, chẳng ai còn sang được bên kia,",
+        "cũng chẳng ai được ăn cỏ non hay uống nước mát."
+      ],
+      "image": {
+        "character": "de-den",
+        "prompt": "two soaked goats scrambling out of the stream onto a mossy riverbank, dripping wet and shivering, looking at each other sheepishly, the log bridge in the background",
+        "seed": 759615201
+      },
+      "video": {
+        "motionPrompt": "the goats shake water from their fur, droplets fly, they shiver and blink, the stream keeps flowing",
+        "seed": 128377837
+      },
+      "voice": {}
+    },
+    {
+      "id": "biet-nhuong",
+      "title": "Biết nhường nhau",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm sau, hai chú dê lại gặp nhau giữa cầu. Lần này, dê đen nói: “Bạn ơi, hay mình nằm xuống, bạn bước qua lưng mình nhé.” Dê trắng cảm động: “Cảm ơn bạn, lần sau mình sẽ nhường bạn.” Dê đen nằm rạp xuống, dê trắng nhẹ nhàng bước qua. Thế là cả hai đều sang được bên kia. Các bạn nhỏ ạ, một điều nhịn, chín điều lành. Biết nhường nhau thì ai cũng được vui.",
+      "subtitles": [
+        "Hôm sau, hai chú dê lại gặp nhau giữa cầu.",
+        "Lần này, dê đen nói: “Bạn ơi, hay mình nằm xuống, bạn bước qua lưng mình nhé.”",
+        "Dê trắng cảm động: “Cảm ơn bạn, lần sau mình sẽ nhường bạn.”",
+        "Dê đen nằm rạp xuống, dê trắng nhẹ nhàng bước qua. Thế là cả hai đều sang được bên kia.",
+        "Các bạn nhỏ ạ, một điều nhịn, chín điều lành. Biết nhường nhau thì ai cũng được vui."
+      ],
+      "image": {
+        "character": "de-trang",
+        "prompt": "on the narrow log bridge the black goat lies down kindly while the white goat carefully steps over its back, both smiling, sunny morning, butterflies",
+        "seed": 704593038
+      },
+      "video": {
+        "motionPrompt": "the white goat steps gently over the black goat, both smile, butterflies dance, sunlight sparkles on the stream",
+        "seed": 2313283398
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "cheerful classical storybook music with a rustic alpine feel, playful oboe and pizzicato, a comic splash in the middle, then a warm gentle strings ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 268553278
+  }
+}

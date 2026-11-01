@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "slug": "rumpelstiltskin",
+  "shelf": "world",
+  "title": "Chú lùn Rumpelstiltskin",
+  "summary": "Cô con gái bác thợ xay bị bắt phải kéo rơm thành vàng, và một chú lùn bí ẩn đến giúp với cái giá rất đắt. Chỉ khi đoán đúng cái tên kỳ lạ của chú, hoàng hậu mới giữ được con. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "gia-dinh"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Rumpelstilzchen\" (Kinder- und Hausmärchen, 1812), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể đã làm nhẹ cho cả nhà: lời đe doạ của nhà vua chỉ còn là \"bị phạt nặng\", và cuối truyện chú lùn dậm chân thủng sàn rồi biến mất mãi mãi, giống bản năm 1812, không có đoạn chú tự xé đôi người như bản in sau.",
+  "basedOn": "Truyện cổ Grimm (1812)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, warm candlelight and golden straw tones, rounded friendly shapes, calm and safe mood for the whole family, medieval mill village and stone castle rooms, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "co-gai",
+      "name": "Cô con gái bác thợ xay",
+      "seed": 1224831181,
+      "sheetPrompt": "the miller's daughter from the Grimm tale, a gentle young woman with long chestnut hair in a loose braid, simple cream linen dress with a brown bodice, kind worried eyes, later a small golden crown, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chu-lun",
+      "name": "Chú lùn",
+      "seed": 3241109118,
+      "sheetPrompt": "a tiny mischievous little man from the Grimm tale, long pointed nose, bushy grey beard, tall red pointed cap, patched green coat with big buttons, curled shoes, sly but comical grin, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nha-vua",
+      "name": "Nhà vua",
+      "seed": 454360526,
+      "sheetPrompt": "a vain fairy-tale king from the Grimm tale, plump with a curled brown moustache, tall gold crown, red velvet robe with ermine trim, eyes gleaming at gold, comical rather than cruel, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "loi-khoac-lac",
+      "title": "Lời khoác lác của bác thợ xay",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bác thợ xay nghèo nhưng lại rất thích khoe khoang. Bác có một cô con gái xinh xắn, chăm chỉ. Một hôm gặp nhà vua, bác buột miệng: \"Tâu bệ hạ, con gái tôi có thể kéo rơm thành sợi vàng!\" Nhà vua vốn ham vàng, liền cho đưa cô gái vào cung. Ngài dẫn cô vào một căn phòng chất đầy rơm, đặt sẵn một guồng quay sợi. \"Sáng mai, chỗ rơm này phải thành vàng. Không thì cả con và cha con đều bị phạt nặng.\" Cửa khoá lại. Cô gái ngồi xuống bên guồng quay, chẳng biết làm sao, bật khóc.",
+      "subtitles": [
+        "Ngày xưa, có một bác thợ xay nghèo nhưng lại rất thích khoe khoang.",
+        "Bác có một cô con gái xinh xắn, chăm chỉ. Một hôm gặp nhà vua, bác buột miệng:",
+        "\"Tâu bệ hạ, con gái tôi có thể kéo rơm thành sợi vàng!\"",
+        "Nhà vua vốn ham vàng, liền cho đưa cô gái vào cung.",
+        "Ngài dẫn cô vào một căn phòng chất đầy rơm, đặt sẵn một guồng quay sợi.",
+        "\"Sáng mai, chỗ rơm này phải thành vàng. Không thì cả con và cha con đều bị phạt nặng.\"",
+        "Cửa khoá lại. Cô gái ngồi xuống bên guồng quay, chẳng biết làm sao, bật khóc."
+      ],
+      "image": {
+        "prompt": "a castle chamber piled high with golden straw, a wooden spinning wheel in the middle, the miller's daughter sits beside it in tears, the plump king closing the heavy door with a key, candlelight",
+        "seed": 2450460086,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the king turns the key and leaves, straw stirs softly, the girl wipes her eyes, candle flame sways, slow push-in",
+        "seed": 1965319976
+      },
+      "voice": {}
+    },
+    {
+      "id": "chu-lun-bi-an",
+      "title": "Chú lùn bí ẩn",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng cánh cửa hé mở, một chú lùn bé tí bước vào. \"Chào cô gái, sao cô khóc thế?\" Cô kể hết đầu đuôi. Chú lùn nheo mắt: \"Nếu ta kéo giúp, cô cho ta cái gì?\" Cô gái tháo chiếc vòng cổ đưa cho chú. Chú lùn ngồi vào guồng quay. Vù, vù, vù, ba vòng là đầy một ống chỉ vàng. Cứ thế suốt đêm, đến sáng, cả căn phòng lấp lánh vàng. Nhà vua mừng lắm, nhưng càng thấy vàng, ngài lại càng muốn thêm.",
+      "subtitles": [
+        "Bỗng cánh cửa hé mở, một chú lùn bé tí bước vào.",
+        "\"Chào cô gái, sao cô khóc thế?\" Cô kể hết đầu đuôi.",
+        "Chú lùn nheo mắt: \"Nếu ta kéo giúp, cô cho ta cái gì?\"",
+        "Cô gái tháo chiếc vòng cổ đưa cho chú.",
+        "Chú lùn ngồi vào guồng quay. Vù, vù, vù, ba vòng là đầy một ống chỉ vàng.",
+        "Cứ thế suốt đêm, đến sáng, cả căn phòng lấp lánh vàng.",
+        "Nhà vua mừng lắm, nhưng càng thấy vàng, ngài lại càng muốn thêm."
+      ],
+      "image": {
+        "prompt": "the tiny little man with a red pointed cap sits at the spinning wheel, golden thread pouring from it onto a full bobbin, the miller's daughter watches in amazement holding out her necklace, the room glowing gold",
+        "seed": 3781421517,
+        "character": "chu-lun"
+      },
+      "video": {
+        "motionPrompt": "the wheel whirs round and round, glittering gold thread winds onto the bobbin, sparkles float in the air, gentle magical motion",
+        "seed": 2594482115
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-dem-keo-vang",
+      "title": "Ba đêm kéo vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm thứ hai, nhà vua đưa cô vào một căn phòng rơm lớn hơn. Chú lùn lại đến, lần này nhận chiếc nhẫn trên tay cô, rồi kéo hết rơm thành vàng. Đêm thứ ba, căn phòng rơm còn lớn hơn nữa. Nhà vua nói: \"Kéo xong chỗ này, ta sẽ cưới con làm hoàng hậu.\" Chú lùn hiện ra, nhưng cô gái chẳng còn gì để cho. \"Vậy thì hứa với ta,\" chú lùn nói, \"khi cô làm hoàng hậu, đứa con đầu lòng của cô sẽ thuộc về ta.\" Cô gái rối trí quá, đành gật đầu. Sáng ra, căn phòng đầy vàng, và nhà vua cưới cô.",
+      "subtitles": [
+        "Đêm thứ hai, nhà vua đưa cô vào một căn phòng rơm lớn hơn.",
+        "Chú lùn lại đến, lần này nhận chiếc nhẫn trên tay cô, rồi kéo hết rơm thành vàng.",
+        "Đêm thứ ba, căn phòng rơm còn lớn hơn nữa. Nhà vua nói:",
+        "\"Kéo xong chỗ này, ta sẽ cưới con làm hoàng hậu.\"",
+        "Chú lùn hiện ra, nhưng cô gái chẳng còn gì để cho.",
+        "\"Vậy thì hứa với ta,\" chú lùn nói, \"khi cô làm hoàng hậu,",
+        "đứa con đầu lòng của cô sẽ thuộc về ta.\"",
+        "Cô gái rối trí quá, đành gật đầu. Sáng ra, căn phòng đầy vàng, và nhà vua cưới cô."
+      ],
+      "image": {
+        "prompt": "an even bigger chamber stacked to the ceiling with straw, the little man in the red cap points a finger and makes a sly bargain with the anxious miller's daughter, moonlight through a tall window",
+        "seed": 1520213715,
+        "character": "chu-lun"
+      },
+      "video": {
+        "motionPrompt": "the little man wags his finger, the girl hesitates then nods slowly, moonlight drifts across the straw, slow camera move",
+        "seed": 1480227157
+      },
+      "voice": {}
+    },
+    {
+      "id": "doi-loi-hua",
+      "title": "Chú lùn đòi lời hứa",
+      "narrator": "ke-chuyen",
+      "narration": "Một năm sau, hoàng hậu sinh được một em bé kháu khỉnh. Bà đã quên hẳn chú lùn. Nhưng một hôm, chú bước vào phòng: \"Giờ thì đưa ta cái điều cô đã hứa.\" Hoàng hậu ôm chặt con, xin đem hết châu báu của vương quốc đổi lại. Chú lùn lắc đầu: \"Một đứa trẻ quý hơn mọi kho báu trên đời.\" Thấy hoàng hậu khóc mãi, chú mềm lòng: \"Thôi được. Ta cho cô ba ngày. Nếu đoán được tên ta, cô được giữ con.\"",
+      "subtitles": [
+        "Một năm sau, hoàng hậu sinh được một em bé kháu khỉnh.",
+        "Bà đã quên hẳn chú lùn. Nhưng một hôm, chú bước vào phòng:",
+        "\"Giờ thì đưa ta cái điều cô đã hứa.\"",
+        "Hoàng hậu ôm chặt con, xin đem hết châu báu của vương quốc đổi lại.",
+        "Chú lùn lắc đầu: \"Một đứa trẻ quý hơn mọi kho báu trên đời.\"",
+        "Thấy hoàng hậu khóc mãi, chú mềm lòng: \"Thôi được. Ta cho cô ba ngày.",
+        "Nếu đoán được tên ta, cô được giữ con.\""
+      ],
+      "image": {
+        "prompt": "a cosy royal nursery, the young queen with a small crown hugs her baby tightly, the little man in the red cap stands by the cradle with his hand held out, open chests of jewels offered on the floor",
+        "seed": 687927289,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the queen holds the baby closer, the little man shakes his head, jewels glint in the chests, gentle motion",
+        "seed": 3782230580
+      },
+      "voice": {}
+    },
+    {
+      "id": "doan-ten",
+      "title": "Đoán tên",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng hậu thức trắng đêm, nghĩ ra mọi cái tên từng nghe. Ngày đầu, bà đọc: \"Gaspar? Melchior? Balthasar?\" Chú lùn cười: \"Không phải!\" Ngày thứ hai, bà sai người đi khắp nơi hỏi những cái tên lạ nhất. \"Có phải tên Sườn Cừu không? Hay Chân Ngỗng?\" Chú lùn vẫn lắc đầu: \"Không phải!\" Hoàng hậu lo quá, chỉ còn một ngày cuối cùng.",
+      "subtitles": [
+        "Hoàng hậu thức trắng đêm, nghĩ ra mọi cái tên từng nghe.",
+        "Ngày đầu, bà đọc: \"Gaspar? Melchior? Balthasar?\" Chú lùn cười: \"Không phải!\"",
+        "Ngày thứ hai, bà sai người đi khắp nơi hỏi những cái tên lạ nhất.",
+        "\"Có phải tên Sườn Cừu không? Hay Chân Ngỗng?\" Chú lùn vẫn lắc đầu: \"Không phải!\"",
+        "Hoàng hậu lo quá, chỉ còn một ngày cuối cùng."
+      ],
+      "image": {
+        "prompt": "the queen sits at a desk by candlelight surrounded by long scrolls covered in scribbles, messengers on horseback riding out of the castle gate in the background, determined expression",
+        "seed": 3620093064,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the queen unrolls a long scroll, messengers gallop away through the gate, candle flickers, slow pan",
+        "seed": 4197720955
+      },
+      "voice": {}
+    },
+    {
+      "id": "ben-dong-lua",
+      "title": "Bên đống lửa trong rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Tối hôm ấy, một người lính hầu chạy về kể: \"Thưa hoàng hậu, trên núi cao, nơi cáo và thỏ chúc nhau ngủ ngon, tôi thấy một căn chòi nhỏ. Trước chòi có đống lửa, một chú lùn đang nhảy lò cò quanh lửa mà hát: Hôm nay nướng bánh, mai ủ bia, ngày kia rước bé con về nhà. Chẳng ai biết được tên ta, Rumpelstiltskin chính là ta!\" Hoàng hậu nghe xong, mừng đến suýt reo lên.",
+      "subtitles": [
+        "Tối hôm ấy, một người lính hầu chạy về kể:",
+        "\"Thưa hoàng hậu, trên núi cao, nơi cáo và thỏ chúc nhau ngủ ngon,",
+        "tôi thấy một căn chòi nhỏ. Trước chòi có đống lửa,",
+        "một chú lùn đang nhảy lò cò quanh lửa mà hát:",
+        "Hôm nay nướng bánh, mai ủ bia, ngày kia rước bé con về nhà.",
+        "Chẳng ai biết được tên ta, Rumpelstiltskin chính là ta!\"",
+        "Hoàng hậu nghe xong, mừng đến suýt reo lên."
+      ],
+      "image": {
+        "prompt": "deep in a moonlit mountain forest, the little man in the red cap hops on one leg around a small campfire in front of a tiny hut, singing happily, a fox and a hare peeking from the bushes, a messenger hiding behind a tree",
+        "seed": 931257923,
+        "character": "chu-lun"
+      },
+      "video": {
+        "motionPrompt": "the little man hops and spins around the fire, sparks rise into the night, the fox and hare twitch their ears, the hidden messenger leans closer",
+        "seed": 2922147418
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-ten-that",
+      "title": "Cái tên thật",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày thứ ba, chú lùn đến, xoa tay: \"Nào, tên ta là gì?\" Hoàng hậu vờ hỏi: \"Có phải tên Kunz?\" \"Không phải!\" \"Hay tên Heinz?\" \"Không phải!\" \"Vậy thì, có phải tên là Rumpelstiltskin?\" Chú lùn đứng sững, mặt đỏ tía tai: \"Ai mách cho cô? Ai mách cho cô thế?\" Chú tức quá, dậm chân thình thịch đến thủng cả sàn nhà, rồi chui tọt xuống lỗ, biến mất mãi mãi, không bao giờ quay lại. Từ đó, hoàng hậu và em bé sống bình yên, hạnh phúc trong cung điện.",
+      "subtitles": [
+        "Ngày thứ ba, chú lùn đến, xoa tay: \"Nào, tên ta là gì?\"",
+        "Hoàng hậu vờ hỏi: \"Có phải tên Kunz?\" \"Không phải!\" \"Hay tên Heinz?\" \"Không phải!\"",
+        "\"Vậy thì, có phải tên là Rumpelstiltskin?\"",
+        "Chú lùn đứng sững, mặt đỏ tía tai: \"Ai mách cho cô? Ai mách cho cô thế?\"",
+        "Chú tức quá, dậm chân thình thịch đến thủng cả sàn nhà,",
+        "rồi chui tọt xuống lỗ, biến mất mãi mãi, không bao giờ quay lại.",
+        "Từ đó, hoàng hậu và em bé sống bình yên, hạnh phúc trong cung điện."
+      ],
+      "image": {
+        "prompt": "in the castle hall the furious little man in the red cap stamps his foot so hard it goes through the wooden floor, the smiling queen holds her baby safely, courtiers peeking amused, comical not frightening",
+        "seed": 4240271507,
+        "character": "chu-lun"
+      },
+      "video": {
+        "motionPrompt": "the little man stamps and the floorboards crack open, he sinks down and vanishes, the queen laughs and kisses her baby, warm light",
+        "seed": 1821111082
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "whimsical German fairy-tale music, spinning-wheel rhythm on pizzicato strings, music box and bassoon, a playful mysterious dance turning warm and gentle, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1493641482
+  }
+}

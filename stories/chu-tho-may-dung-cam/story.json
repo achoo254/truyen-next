@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-tho-may-dung-cam",
+  "shelf": "world",
+  "title": "Chú thợ may dũng cảm",
+  "summary": "Một chú thợ may nhỏ bé đập trúng bảy con ruồi chỉ trong một cái, liền thêu lên thắt lưng dòng chữ \"Bảy con một đập\" rồi lên đường. Bằng trí khôn lém lỉnh, chú khiến khổng lồ phải chạy dài và trở thành vua. Truyện cổ Grimm vui nhộn cho cả nhà.",
+  "themes": [
+    "anh-hung",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Das tapfere Schneiderlein\" (Kinder- und Hausmärchen, 1812), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể đã làm nhẹ cho cả nhà: không có gươm giáo, đám khổng lồ trong hang chỉ bỏ chạy, hai gã khổng lồ trong rừng cãi nhau rồi bỏ đi mãi mãi thay vì đánh nhau đến chết như bản gốc.",
+  "basedOn": "Truyện cổ Grimm (1812)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, bright playful colors, rounded friendly shapes, comical giants that are big and silly rather than scary, cheerful and safe mood for the whole family, German town, mountains and deep forest, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "tho-may",
+      "name": "Chú thợ may",
+      "seed": 843340719,
+      "sheetPrompt": "the brave little tailor from the Grimm tale, a small wiry cheerful man with a pointed nose and a cheeky grin, curly black hair, green waistcoat, a measuring tape around his neck, a wide belt embroidered with a big decorative pattern, needle and thread in his cap, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "khong-lo",
+      "name": "Gã khổng lồ",
+      "seed": 753416363,
+      "sheetPrompt": "a huge clumsy giant from the Grimm tale, shaggy brown beard, big round nose, patched tunic made of sackcloth, bare feet, a puzzled dim-witted expression, comical and harmless looking, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nha-vua",
+      "name": "Nhà vua",
+      "seed": 601768619,
+      "sheetPrompt": "a fussy fairy-tale king from the Grimm tale, short and round, white curly beard, tall gold crown slightly askew, blue velvet robe with ermine trim, worried eyebrows, comical, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "bay-con-mot-dap",
+      "title": "Bảy con một đập",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một chú thợ may nhỏ bé, ngày ngày ngồi khâu áo bên cửa sổ. Một hôm, chú mua ít mứt, phết lên bánh mì, để đó định khâu xong sẽ ăn. Mùi mứt thơm bay ra, ruồi bu đến đen kịt. \"Ai mời các ngươi đến đây?\" Chú cầm miếng vải, đập một cái. Nhìn lại, bảy con ruồi rơi lả tả, nằm im trên bàn. Chú phổng mũi: \"Ta giỏi thế này mà cả thành phố chẳng ai biết!\" Chú may ngay một chiếc thắt lưng, thêu chữ thật to: Bảy con một đập! Rồi chú bỏ một miếng pho mát vào túi, khoá cửa, đi ra thế giới. Trên đường, chú bắt được một chú chim nhỏ mắc trong bụi, cũng bỏ luôn vào túi.",
+      "subtitles": [
+        "Ngày xưa, có một chú thợ may nhỏ bé, ngày ngày ngồi khâu áo bên cửa sổ.",
+        "Một hôm, chú mua ít mứt, phết lên bánh mì, để đó định khâu xong sẽ ăn.",
+        "Mùi mứt thơm bay ra, ruồi bu đến đen kịt. \"Ai mời các ngươi đến đây?\"",
+        "Chú cầm miếng vải, đập một cái. Nhìn lại, bảy con ruồi rơi lả tả, nằm im trên bàn.",
+        "Chú phổng mũi: \"Ta giỏi thế này mà cả thành phố chẳng ai biết!\"",
+        "Chú may ngay một chiếc thắt lưng, thêu chữ thật to: Bảy con một đập!",
+        "Rồi chú bỏ một miếng pho mát vào túi, khoá cửa, đi ra thế giới.",
+        "Trên đường, chú bắt được một chú chim nhỏ mắc trong bụi, cũng bỏ luôn vào túi."
+      ],
+      "image": {
+        "prompt": "in a tiny tailor workshop by a sunny window, the little tailor proudly holds up a cloth swatter over a slice of bread with jam, seven flies tumbling dizzy onto the table, bolts of cloth and spools of thread around",
+        "seed": 3323783417,
+        "character": "tho-may"
+      },
+      "video": {
+        "motionPrompt": "the tailor swats with a flourish, the dizzy flies spin and tumble, he puffs out his chest proudly, comical quick motion",
+        "seed": 572040749
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-khong-lo",
+      "title": "Gặp gã khổng lồ",
+      "narrator": "ke-chuyen",
+      "narration": "Trên đỉnh núi, chú gặp một gã khổng lồ. Gã đọc dòng chữ, tưởng chú hạ bảy người một lúc. Gã bóp một hòn đá cho nước rỉ ra: \"Ngươi làm được thế không?\" Chú thợ may lấy miếng pho mát trong túi ra, bóp cho nước chảy ròng ròng: \"Dễ thôi!\" Gã ném một hòn đá bay mất hút, rồi lâu lắm mới rơi xuống. Chú thợ may thả con chim nhỏ trong túi. Chim bay vút lên trời, chẳng bao giờ rơi xuống. Gã khổng lồ gãi đầu, lần đầu tiên thấy có người nhỏ bé mà ghê gớm đến vậy.",
+      "subtitles": [
+        "Trên đỉnh núi, chú gặp một gã khổng lồ. Gã đọc dòng chữ, tưởng chú hạ bảy người một lúc.",
+        "Gã bóp một hòn đá cho nước rỉ ra: \"Ngươi làm được thế không?\"",
+        "Chú thợ may lấy miếng pho mát trong túi ra, bóp cho nước chảy ròng ròng: \"Dễ thôi!\"",
+        "Gã ném một hòn đá bay mất hút, rồi lâu lắm mới rơi xuống.",
+        "Chú thợ may thả con chim nhỏ trong túi. Chim bay vút lên trời, chẳng bao giờ rơi xuống.",
+        "Gã khổng lồ gãi đầu, lần đầu tiên thấy có người nhỏ bé mà ghê gớm đến vậy."
+      ],
+      "image": {
+        "prompt": "on a rocky mountain top the little tailor squeezes a piece of soft cheese until whey drips, while a huge puzzled giant squeezes a stone, a little bird flying high up into the blue sky, comical",
+        "seed": 3122305364,
+        "character": "khong-lo"
+      },
+      "video": {
+        "motionPrompt": "the tailor squeezes the cheese with a grin, the bird flutters up and away into the clouds, the giant scratches his head, playful motion",
+        "seed": 2391496252
+      },
+      "voice": {}
+    },
+    {
+      "id": "trong-hang-khong-lo",
+      "title": "Trong hang khổng lồ",
+      "narrator": "ke-chuyen",
+      "narration": "Gã mời chú về hang nghỉ đêm. Trong hang, mấy gã khổng lồ khác đang ngồi ăn. Giường quá to, chú thợ may chẳng nằm giữa mà chui vào một góc ngủ ngon lành. Nửa đêm, gã khổng lồ cầm gậy sắt quật thật mạnh xuống giữa giường, định doạ cho vị khách đáng gờm sợ mà bỏ đi. Sáng ra, cả bọn thấy chú thợ may tươi tỉnh bước ra rừng, huýt sáo vang. Cả bọn hoảng quá, ba chân bốn cẳng chạy trốn, không bao giờ dám quay lại.",
+      "subtitles": [
+        "Gã mời chú về hang nghỉ đêm. Trong hang, mấy gã khổng lồ khác đang ngồi ăn.",
+        "Giường quá to, chú thợ may chẳng nằm giữa mà chui vào một góc ngủ ngon lành.",
+        "Nửa đêm, gã khổng lồ cầm gậy sắt quật thật mạnh xuống giữa giường,",
+        "định doạ cho vị khách đáng gờm sợ mà bỏ đi.",
+        "Sáng ra, cả bọn thấy chú thợ may tươi tỉnh bước ra rừng, huýt sáo vang.",
+        "Cả bọn hoảng quá, ba chân bốn cẳng chạy trốn, không bao giờ dám quay lại."
+      ],
+      "image": {
+        "prompt": "morning outside a giant cave, the little tailor strolls out whistling cheerfully, several huge comical giants run away in panic into the forest with their arms flailing, an enormous bed visible inside the cave",
+        "seed": 549924889,
+        "character": "tho-may"
+      },
+      "video": {
+        "motionPrompt": "the tailor whistles and swings his arms, the giants trip over each other as they flee, birds scatter from the trees, funny motion",
+        "seed": 1460659944
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-vua-giao-viec",
+      "title": "Nhà vua giao việc",
+      "narrator": "ke-chuyen",
+      "narration": "Chú thợ may đi tiếp, ngủ quên trên bãi cỏ trước sân một cung điện. Lính gác đọc chữ trên thắt lưng, chạy vào tâu vua: \"Có một dũng sĩ bảy con một đập!\" Nhà vua mời chú vào cung, giao việc: \"Trong rừng có hai gã khổng lồ chuyên cướp phá. Ngươi đuổi được chúng, ta sẽ gả công chúa và cho ngươi nửa vương quốc.\" Chú thợ may vỗ ngực: \"Bảy con một đập, hai gã thì có là gì!\"",
+      "subtitles": [
+        "Chú thợ may đi tiếp, ngủ quên trên bãi cỏ trước sân một cung điện.",
+        "Lính gác đọc chữ trên thắt lưng, chạy vào tâu vua: \"Có một dũng sĩ bảy con một đập!\"",
+        "Nhà vua mời chú vào cung, giao việc: \"Trong rừng có hai gã khổng lồ chuyên cướp phá.",
+        "Ngươi đuổi được chúng, ta sẽ gả công chúa và cho ngươi nửa vương quốc.\"",
+        "Chú thợ may vỗ ngực: \"Bảy con một đập, hai gã thì có là gì!\""
+      ],
+      "image": {
+        "prompt": "in a grand throne room the fussy little king leans forward reading the embroidered belt of the little tailor who bows confidently, courtiers whispering behind their hands, sunlight through tall windows",
+        "seed": 3939416949,
+        "character": "nha-vua"
+      },
+      "video": {
+        "motionPrompt": "the king squints at the belt and raises his eyebrows, the tailor bows with a flourish, courtiers whisper, gentle motion",
+        "seed": 2032000017
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-ga-cai-nhau",
+      "title": "Hai gã khổng lồ cãi nhau",
+      "narrator": "ke-chuyen",
+      "narration": "Trong rừng, hai gã khổng lồ đang ngủ say dưới gốc cây, ngáy rung cả cành lá. Chú thợ may nhặt đầy túi đá, trèo lên cây, ném một hòn trúng ngực gã thứ nhất. Gã choàng dậy, quát gã kia: \"Sao mày ném tao?\" \"Tao có ném đâu!\" Hai gã lại ngủ. Chú ném hòn thứ hai vào gã kia. \"Mày ném tao à?\" Rồi chú ném hòn to nhất. Thế là hai gã nổi xung, nhổ cả cây vật nhau ầm ầm, cãi nhau đến mức chia tay, mỗi gã bỏ đi một ngả, rời khỏi vương quốc mãi mãi.",
+      "subtitles": [
+        "Trong rừng, hai gã khổng lồ đang ngủ say dưới gốc cây, ngáy rung cả cành lá.",
+        "Chú thợ may nhặt đầy túi đá, trèo lên cây, ném một hòn trúng ngực gã thứ nhất.",
+        "Gã choàng dậy, quát gã kia: \"Sao mày ném tao?\" \"Tao có ném đâu!\"",
+        "Hai gã lại ngủ. Chú ném hòn thứ hai vào gã kia. \"Mày ném tao à?\"",
+        "Rồi chú ném hòn to nhất. Thế là hai gã nổi xung, nhổ cả cây vật nhau ầm ầm,",
+        "cãi nhau đến mức chia tay, mỗi gã bỏ đi một ngả, rời khỏi vương quốc mãi mãi."
+      ],
+      "image": {
+        "prompt": "in a deep forest the little tailor hides high in a tree with his pockets full of pebbles, below him two huge comical giants wake up and argue, pointing at each other with angry puzzled faces",
+        "seed": 3821131776,
+        "character": "tho-may"
+      },
+      "video": {
+        "motionPrompt": "a pebble drops onto a giant, he wakes and glares at the other, they shake their fists and stomp, the tailor giggles in the branches",
+        "seed": 726449938
+      },
+      "voice": {}
+    },
+    {
+      "id": "ky-lan-va-lon-rung",
+      "title": "Kỳ lân và lợn rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua vẫn chưa chịu gả công chúa, lại giao thêm việc: bắt con kỳ lân trong rừng. Kỳ lân lao tới, chú thợ may đứng nép sau gốc cây. Đến sát nơi, chú nhảy vọt sang bên. Con kỳ lân lao sầm vào thân cây, sừng cắm chặt, gỡ mãi không ra. Chú thong thả buộc dây vào cổ nó, dắt về. Rồi đến con lợn rừng hung hăng. Chú chạy vào một ngôi miếu nhỏ, nhảy ra qua cửa sổ. Lợn rừng đuổi theo vào trong, chú vòng ra đóng sập cửa lại. Thế là lợn bị nhốt gọn.",
+      "subtitles": [
+        "Nhà vua vẫn chưa chịu gả công chúa, lại giao thêm việc: bắt con kỳ lân trong rừng.",
+        "Kỳ lân lao tới, chú thợ may đứng nép sau gốc cây. Đến sát nơi, chú nhảy vọt sang bên.",
+        "Con kỳ lân lao sầm vào thân cây, sừng cắm chặt, gỡ mãi không ra.",
+        "Chú thong thả buộc dây vào cổ nó, dắt về.",
+        "Rồi đến con lợn rừng hung hăng. Chú chạy vào một ngôi miếu nhỏ, nhảy ra qua cửa sổ.",
+        "Lợn rừng đuổi theo vào trong, chú vòng ra đóng sập cửa lại. Thế là lợn bị nhốt gọn."
+      ],
+      "image": {
+        "prompt": "in a forest clearing a white unicorn has its horn stuck fast in a thick oak trunk, the little tailor calmly ties a rope around its neck, in the background a grumpy wild boar is shut inside a small chapel, comical",
+        "seed": 1262802491,
+        "character": "tho-may"
+      },
+      "video": {
+        "motionPrompt": "the unicorn tugs but its horn stays stuck, the tailor loops the rope with a wink, the chapel door rattles, playful motion",
+        "seed": 3935261938
+      },
+      "voice": {}
+    },
+    {
+      "id": "chu-tho-may-lam-vua",
+      "title": "Chú thợ may làm vua",
+      "narrator": "ke-chuyen",
+      "narration": "Hết cớ chối từ, nhà vua đành gả công chúa và chia nửa vương quốc cho chú. Một đêm, công chúa nghe chồng nói mớ: \"Nhóc, khâu áo cho xong đi, không thì ăn thước!\" Nàng biết chồng chỉ là thợ may, bèn bàn với vua cha cho người đến bắt chú đi. Nhưng chú thợ may đã nghe hết, nằm vờ ngủ rồi nói thật to: \"Bảy con một đập, ta còn đuổi được hai gã khổng lồ, bắt được kỳ lân và lợn rừng, lẽ nào lại sợ mấy người ngoài cửa!\" Những người ngoài cửa sợ quá, bỏ chạy mất dạng, chẳng ai dám đụng đến chú nữa. Thế là chú thợ may làm vua suốt đời, và câu Bảy con một đập được truyền khắp nơi.",
+      "subtitles": [
+        "Hết cớ chối từ, nhà vua đành gả công chúa và chia nửa vương quốc cho chú.",
+        "Một đêm, công chúa nghe chồng nói mớ: \"Nhóc, khâu áo cho xong đi, không thì ăn thước!\"",
+        "Nàng biết chồng chỉ là thợ may, bèn bàn với vua cha cho người đến bắt chú đi.",
+        "Nhưng chú thợ may đã nghe hết, nằm vờ ngủ rồi nói thật to:",
+        "\"Bảy con một đập, ta còn đuổi được hai gã khổng lồ, bắt được kỳ lân và lợn rừng,",
+        "lẽ nào lại sợ mấy người ngoài cửa!\"",
+        "Những người ngoài cửa sợ quá, bỏ chạy mất dạng, chẳng ai dám đụng đến chú nữa.",
+        "Thế là chú thợ may làm vua suốt đời, và câu Bảy con một đập được truyền khắp nơi."
+      ],
+      "image": {
+        "prompt": "night in a royal bedchamber, the little tailor wearing a crown pretends to sleep and talks loudly, outside the door several servants run away in fright down the corridor, the princess peeking, moonlight, comical",
+        "seed": 2237967695,
+        "character": "tho-may"
+      },
+      "video": {
+        "motionPrompt": "the tailor waves his arm while pretending to snore, the servants scatter down the corridor, the candle flickers, funny motion",
+        "seed": 4231386528
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "mischievous German folk fairy-tale music, a jaunty march with piccolo, bassoon and snare drum, heavy tuba steps for the giants, playful and heroic, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 136192033
+  }
+}

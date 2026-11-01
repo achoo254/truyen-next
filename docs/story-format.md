@@ -47,7 +47,7 @@ Cả hai kệ:
 
 ## Trình xem
 
-Trang chủ `/` có ba kệ: Trẻ em, Người lớn, Thế giới; `/tre-em`, `/nguoi-lon` và `/the-gioi` mở riêng từng kệ. Danh mục truyện đã có và truyện ứng viên: [`story-catalogue.md`](story-catalogue.md). Trang truyện ghi kệ
+Trang chủ `/` có ba kệ: Trẻ em, Người lớn, Thế giới; `/tre-em`, `/nguoi-lon` và `/the-gioi` mở riêng từng kệ. Danh mục truyện đã có và truyện ứng viên: `catalog/stories.json` ([`story-routine.md`](story-routine.md)). Trang truyện ghi kệ
 của truyện, nút quay lại về đúng kệ đó.
 
 `/truyen/<slug>`: phát từng cảnh, phụ đề luôn hiện, nút tạm dừng, cảnh trước/sau, tắt/bật tiếng. Cảnh có giọng thì

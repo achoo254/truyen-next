@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "slug": "ba-chang-thien-nghe",
+  "shelf": "kids",
+  "title": "Ba chàng thiện nghệ",
+  "summary": "Cô con gái nhà họ Lê bị chim đại bàng quắp bay ra biển, ba chàng trai, một giỏi xem đoán, một giỏi bắn cung, một giỏi lặn, cùng nhau cứu cô về. Nhưng ai mới là người giỏi nhất? Truyện cổ tích Việt Nam kể vui cho trẻ nhỏ về sức mạnh của đồng lòng.",
+  "themes": [
+    "anh-hung",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ tích dân gian Việt Nam Ba chàng thiện nghệ (cùng kiểu với truyện những anh em tài giỏi của nhiều dân tộc), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; đoạn bắn chim được kể nhẹ nhàng, đoạn kết viết thành câu đố để trẻ cùng nghĩ, Mèo Miu mở đầu và kết thúc.",
+  "basedOn": "Truyện cổ tích dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, bright warm light, rounded friendly shapes, old Vietnamese coastal village with tiled houses, coconut palms and a wide blue sea with small islands, adventurous and cheerful mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 3165336574,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "co-gai",
+      "name": "Cô gái nhà họ Lê",
+      "seed": 2509281915,
+      "sheetPrompt": "a kind clever young Vietnamese woman from a folk tale, long black hair tied with a red ribbon, pink and cream ao tu than dress, holding a small book, bright friendly smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chang-xem-doan",
+      "name": "Chàng giỏi xem đoán",
+      "seed": 3023512582,
+      "sheetPrompt": "a thoughtful young Vietnamese man from a folk tale who can foresee where things are, purple scholar robe, a small compass and a folded fan in hand, calm wise smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chang-ban-cung",
+      "name": "Chàng giỏi bắn cung",
+      "seed": 2506658143,
+      "sheetPrompt": "a brave young Vietnamese archer from a folk tale, red headband, short brown jacket and trousers, a wooden bow on his back and a quiver, confident grin, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chang-lan",
+      "name": "Chàng giỏi lặn",
+      "seed": 2916484291,
+      "sheetPrompt": "a cheerful strong young Vietnamese fisherman diver from a folk tale, tanned skin, blue sleeveless shirt and rolled trousers, a rope coiled over his shoulder, big friendly smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Hôm nay Miu đố các bạn một câu thật khó nhé. Có ba chàng trai, mỗi chàng giỏi một nghề, cùng nhau làm được một việc lớn. Vậy ai là người giỏi nhất? Các bạn cứ nghe hết câu chuyện rồi hãy trả lời Miu nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Hôm nay Miu đố các bạn một câu thật khó nhé.",
+        "Có ba chàng trai, mỗi chàng giỏi một nghề, cùng nhau làm được một việc lớn.",
+        "Vậy ai là người giỏi nhất?",
+        "Các bạn cứ nghe hết câu chuyện rồi hãy trả lời Miu nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a sandy beach under a coconut palm, holding up three fingers with a playful smile, small boats and islands on a calm blue sea behind her",
+        "seed": 1138348727
+      },
+      "video": {
+        "motionPrompt": "the cat holds up three fingers and winks, waves roll softly on the sand, palm leaves sway, slow gentle camera push-in",
+        "seed": 100875364
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-gai-nha-ho-le",
+      "title": "Cô gái nhà họ Lê",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng ven biển có nhà họ Lê sinh được cô con gái xinh đẹp, nết na. Cô chữ tốt, văn hay, lại khéo đủ mọi nghề. Một buổi chiều, cô đang ngồi thêu khăn ngoài hiên thì bỗng một con chim đại bàng to lớn sà xuống, quắp lấy cô rồi bay vút ra phía biển. Cả nhà hốt hoảng chạy theo kêu gọi, nhưng chim đã bay xa mất hút.",
+      "subtitles": [
+        "Ngày xưa, ở một làng ven biển có nhà họ Lê sinh được cô con gái xinh đẹp, nết na.",
+        "Cô chữ tốt, văn hay, lại khéo đủ mọi nghề.",
+        "Một buổi chiều, cô đang ngồi thêu khăn ngoài hiên thì bỗng một con chim đại bàng to lớn",
+        "sà xuống, quắp lấy cô rồi bay vút ra phía biển.",
+        "Cả nhà hốt hoảng chạy theo kêu gọi, nhưng chim đã bay xa mất hút."
+      ],
+      "image": {
+        "character": "co-gai",
+        "prompt": "a huge brown eagle swoops down over a tiled house porch by the sea and carries a young woman in a pink dress up into the sky, her embroidery hoop falls, her parents run out with raised arms",
+        "seed": 2093316013
+      },
+      "video": {
+        "motionPrompt": "the giant eagle flaps its wide wings and rises toward the sea carrying the girl gently in its claws, the embroidery hoop drops, the parents run and wave",
+        "seed": 1226811424
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-rao",
+      "title": "Lời rao của ông Lê",
+      "narrator": "ke-chuyen",
+      "narration": "Ông Lê thương con, ngày đêm mất ăn mất ngủ. Ông sai người đi rao khắp nơi: Ai cứu được con gái tôi về, tôi xin gả con cho và chia nửa gia tài. Tin đồn đi khắp vùng. Ba chàng trai ở ba làng khác nhau cùng tìm đến. Chàng thứ nhất giỏi xem đoán, biết được người mất đang ở đâu. Chàng thứ hai giỏi bắn cung, bắn đâu trúng đó. Chàng thứ ba giỏi lặn, lặn cả buổi dưới biển sâu mà chẳng mệt.",
+      "subtitles": [
+        "Ông Lê thương con, ngày đêm mất ăn mất ngủ.",
+        "Ông sai người đi rao khắp nơi: Ai cứu được con gái tôi về,",
+        "tôi xin gả con cho và chia nửa gia tài. Tin đồn đi khắp vùng.",
+        "Ba chàng trai ở ba làng khác nhau cùng tìm đến.",
+        "Chàng thứ nhất giỏi xem đoán, biết được người mất đang ở đâu.",
+        "Chàng thứ hai giỏi bắn cung, bắn đâu trúng đó.",
+        "Chàng thứ ba giỏi lặn, lặn cả buổi dưới biển sâu mà chẳng mệt."
+      ],
+      "image": {
+        "prompt": "a worried old father in a village courtyard greets three young men who arrive from three paths: a calm scholar with a compass, a confident archer with a bow, a cheerful diver with a rope, villagers gather around",
+        "seed": 1932669091
+      },
+      "video": {
+        "motionPrompt": "the three young men bow to the old father one after another, the father's face brightens with hope, villagers whisper and point",
+        "seed": 3478594003
+      },
+      "voice": {}
+    },
+    {
+      "id": "xem-doan",
+      "title": "Tìm ra chỗ đại bàng",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng giỏi xem đoán ngồi lặng im, nhắm mắt, ngón tay bấm bấm một hồi lâu. Rồi chàng mở mắt nói: Cô gái đang ở trên ngọn cây cao nhất của một hòn đảo giữa biển, phía mặt trời mọc. Đại bàng đang canh bên cạnh. Ba chàng liền mượn một chiếc thuyền, giương buồm ra khơi, đi đúng hướng chàng chỉ. Đi mãi, đi mãi, quả nhiên thấy một hòn đảo nhỏ có cây cao vút tận mây.",
+      "subtitles": [
+        "Chàng giỏi xem đoán ngồi lặng im, nhắm mắt, ngón tay bấm bấm một hồi lâu.",
+        "Rồi chàng mở mắt nói: Cô gái đang ở trên ngọn cây cao nhất của một hòn đảo giữa biển,",
+        "phía mặt trời mọc. Đại bàng đang canh bên cạnh.",
+        "Ba chàng liền mượn một chiếc thuyền, giương buồm ra khơi, đi đúng hướng chàng chỉ.",
+        "Đi mãi, đi mãi, quả nhiên thấy một hòn đảo nhỏ có cây cao vút tận mây."
+      ],
+      "image": {
+        "character": "chang-xem-doan",
+        "prompt": "three young men sail a small wooden boat with a brown sail across the open sea at sunrise, the scholar points ahead with his fan, far away a small island with one very tall tree and a large eagle perched on top",
+        "seed": 2889368361
+      },
+      "video": {
+        "motionPrompt": "the boat rocks on the waves, the sail fills with wind, the scholar points toward the island, seabirds glide past",
+        "seed": 3397283811
+      },
+      "voice": {}
+    },
+    {
+      "id": "ban-cung",
+      "title": "Mũi tên thần tốc",
+      "narrator": "ke-chuyen",
+      "narration": "Thuyền đến gần đảo, chàng giỏi bắn cung giương cung lên, nheo mắt ngắm. Vút! Mũi tên bay sát cánh đại bàng, làm nó giật mình kêu lên một tiếng, buông cô gái ra rồi vội vã bay mất về phía chân trời, chẳng bao giờ dám quay lại. Nhưng ôi thôi, cô gái từ trên cao rơi xuống, tõm một cái, chìm vào làn nước biển xanh thẳm.",
+      "subtitles": [
+        "Thuyền đến gần đảo, chàng giỏi bắn cung giương cung lên, nheo mắt ngắm. Vút!",
+        "Mũi tên bay sát cánh đại bàng, làm nó giật mình kêu lên một tiếng,",
+        "buông cô gái ra rồi vội vã bay mất về phía chân trời, chẳng bao giờ dám quay lại.",
+        "Nhưng ôi thôi, cô gái từ trên cao rơi xuống, tõm một cái,",
+        "chìm vào làn nước biển xanh thẳm."
+      ],
+      "image": {
+        "character": "chang-ban-cung",
+        "prompt": "the young archer stands at the front of the boat pulling his bow, an arrow flies past the wing of a huge startled eagle above a tall island tree, the girl slips from its claws toward the blue sea",
+        "seed": 776132603
+      },
+      "video": {
+        "motionPrompt": "the arrow whizzes past the eagle's wing, the eagle flaps away in fright, the girl falls slowly toward the water with her ribbon fluttering, a splash",
+        "seed": 6365602
+      },
+      "voice": {}
+    },
+    {
+      "id": "lan-bien",
+      "title": "Lặn xuống biển sâu",
+      "narrator": "ke-chuyen",
+      "narration": "Nhanh như cắt, chàng giỏi lặn nhảy ùm xuống nước. Chàng lặn sâu, sâu mãi, qua những rặng san hô, qua những đàn cá bạc. Một lúc lâu sau, chàng trồi lên, tay đỡ cô gái đưa lên thuyền. Cô gái ho mấy tiếng rồi mở mắt ra, mỉm cười cảm ơn ba chàng. Ba chàng mừng rỡ, vội quay thuyền về làng.",
+      "subtitles": [
+        "Nhanh như cắt, chàng giỏi lặn nhảy ùm xuống nước.",
+        "Chàng lặn sâu, sâu mãi, qua những rặng san hô, qua những đàn cá bạc.",
+        "Một lúc lâu sau, chàng trồi lên, tay đỡ cô gái đưa lên thuyền.",
+        "Cô gái ho mấy tiếng rồi mở mắt ra, mỉm cười cảm ơn ba chàng.",
+        "Ba chàng mừng rỡ, vội quay thuyền về làng."
+      ],
+      "image": {
+        "character": "chang-lan",
+        "prompt": "underwater among colorful coral and silver fish, the young diver swims down and gently holds the girl's hand, sunlight beams through the blue water, the boat floats above",
+        "seed": 3999690746
+      },
+      "video": {
+        "motionPrompt": "the diver kicks strongly and rises with the girl toward the bright surface, fish swirl around them, bubbles float up, light shimmers",
+        "seed": 216651865
+      },
+      "voice": {}
+    },
+    {
+      "id": "ai-gioi-nhat",
+      "title": "Ai giỏi nhất?",
+      "narrator": "ke-chuyen",
+      "narration": "Về đến nhà, ông Lê mừng mừng tủi tủi. Nhưng rồi ba chàng bắt đầu tranh nhau. Chàng xem đoán bảo: Không có tôi chỉ đường thì ai biết cô ở đâu! Chàng bắn cung nói: Không có mũi tên của tôi thì làm sao đại bàng chịu buông! Chàng giỏi lặn cãi: Không có tôi thì cô đã chìm sâu dưới biển rồi! Ông Lê nghe ai cũng có lý, gãi đầu chẳng biết xử sao. Cô gái mới mỉm cười nói: Thiếu một người thôi là chẳng ai cứu được em. Các anh giỏi nhất là khi ở cùng nhau đấy ạ.",
+      "subtitles": [
+        "Về đến nhà, ông Lê mừng mừng tủi tủi. Nhưng rồi ba chàng bắt đầu tranh nhau.",
+        "Chàng xem đoán bảo: Không có tôi chỉ đường thì ai biết cô ở đâu!",
+        "Chàng bắn cung nói: Không có mũi tên của tôi thì làm sao đại bàng chịu buông!",
+        "Chàng giỏi lặn cãi: Không có tôi thì cô đã chìm sâu dưới biển rồi!",
+        "Ông Lê nghe ai cũng có lý, gãi đầu chẳng biết xử sao.",
+        "Cô gái mới mỉm cười nói: Thiếu một người thôi là chẳng ai cứu được em.",
+        "Các anh giỏi nhất là khi ở cùng nhau đấy ạ."
+      ],
+      "image": {
+        "prompt": "in a courtyard, the three young men argue and point at themselves while the old father scratches his head, the smiling girl steps between them with open hands, villagers watch with amused faces",
+        "seed": 1081104635
+      },
+      "video": {
+        "motionPrompt": "the three young men gesture and argue in turn, the father scratches his head, the girl steps forward and smiles, the men pause and look at each other",
+        "seed": 3691230115
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Nghe cô gái nói, ba chàng nhìn nhau rồi cùng bật cười, từ đó kết làm anh em thân thiết. Còn cô gái sẽ chọn ai, người xưa để lại cho chúng mình tự nghĩ đấy. Các bạn ơi, mỗi người giỏi một việc, khi biết góp sức cùng nhau thì việc khó mấy cũng làm được. Còn các bạn, các bạn thấy chàng nào giỏi nhất nào? Miu kể đến đây là hết rồi, hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Nghe cô gái nói, ba chàng nhìn nhau rồi cùng bật cười, từ đó kết làm anh em thân thiết.",
+        "Còn cô gái sẽ chọn ai, người xưa để lại cho chúng mình tự nghĩ đấy.",
+        "Các bạn ơi, mỗi người giỏi một việc,",
+        "khi biết góp sức cùng nhau thì việc khó mấy cũng làm được.",
+        "Còn các bạn, các bạn thấy chàng nào giỏi nhất nào?",
+        "Miu kể đến đây là hết rồi, hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye on the beach, behind her the three young men stand arm in arm laughing together and the girl claps happily, a small boat on the calm sea at sunset",
+        "seed": 653804552
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the three friends sway arm in arm laughing, the girl claps, waves glitter in the sunset, gentle camera pull-back",
+        "seed": 11338649
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "adventurous yet gentle Vietnamese folk instrumental, bamboo flute and dan nguyet lute with soft drums and ocean waves, cheerful, medium tempo, no vocals",
+    "durationSeconds": 120,
+    "seed": 2937927658
+  }
+}

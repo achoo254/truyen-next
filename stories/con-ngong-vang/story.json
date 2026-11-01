@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-ngong-vang",
+  "shelf": "world",
+  "title": "Con ngỗng vàng",
+  "summary": "Chàng Út hiền lành chia bánh cho một ông lão lạ và được tặng con ngỗng lông vàng. Ai chạm vào ngỗng đều dính chặt, tạo thành một đoàn người kỳ lạ khiến nàng công chúa chưa từng cười phải bật cười. Truyện cổ Grimm vui nhộn cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Die goldene Gans\" (Kinder- und Hausmärchen, 1812), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể đã làm nhẹ cho cả nhà: hai người anh chỉ trật tay, trẹo chân rồi bỏ về, và ba thử thách của nhà vua được kể gọn trong một cảnh.",
+  "basedOn": "Truyện cổ Grimm (1812)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, warm forest greens and shining gold, rounded friendly shapes, cheerful comical and safe mood for the whole family, German forest, village inn and royal town, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chang-ut",
+      "name": "Chàng Út",
+      "seed": 3727394986,
+      "sheetPrompt": "Simpleton, the youngest son from the Grimm tale, a kind gangly young man with messy straw-colored hair, big friendly grin, patched brown tunic, rope belt, worn boots, a woodcutter axe on his shoulder, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-lao",
+      "name": "Ông lão tóc xám",
+      "seed": 2960095212,
+      "sheetPrompt": "a little grey old man from the Grimm tale, very small and wiry, long grey hair and beard, grey hooded cloak, twinkling wise eyes, warm mysterious smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ngong-vang",
+      "name": "Con ngỗng vàng",
+      "seed": 3986561337,
+      "sheetPrompt": "a magical goose with shining feathers of pure gold from the Grimm tale, graceful neck, bright orange beak, friendly round eyes, glowing softly, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "seed": 300368984,
+      "sheetPrompt": "a sad fairy-tale princess from the Grimm tale who has never laughed, long dark wavy hair, small gold tiara, pale lilac gown, serious solemn face that can burst into laughter, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-anh-em",
+      "title": "Ba anh em",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một người đàn ông có ba con trai. Người con út hiền lành, chậm chạp, ai cũng gọi là chàng Út Ngốc, chẳng ai coi ra gì. Một hôm, anh cả vào rừng đốn củi, mẹ gói cho bánh ngọt và một bình rượu nho. Giữa rừng, anh gặp một ông lão nhỏ thó, tóc bạc xám: \"Cho ta xin miếng bánh nhé.\" Anh cả bĩu môi: \"Cho ông thì tôi còn gì mà ăn!\" rồi bỏ đi. Vừa vung rìu, anh trật tay, đau điếng, phải ôm tay về nhà. Anh hai cũng y như thế: không chia cho ông lão, rồi trẹo chân, khập khiễng quay về.",
+      "subtitles": [
+        "Ngày xưa, có một người đàn ông có ba con trai.",
+        "Người con út hiền lành, chậm chạp, ai cũng gọi là chàng Út Ngốc, chẳng ai coi ra gì.",
+        "Một hôm, anh cả vào rừng đốn củi, mẹ gói cho bánh ngọt và một bình rượu nho.",
+        "Giữa rừng, anh gặp một ông lão nhỏ thó, tóc bạc xám: \"Cho ta xin miếng bánh nhé.\"",
+        "Anh cả bĩu môi: \"Cho ông thì tôi còn gì mà ăn!\" rồi bỏ đi.",
+        "Vừa vung rìu, anh trật tay, đau điếng, phải ôm tay về nhà.",
+        "Anh hai cũng y như thế: không chia cho ông lão, rồi trẹo chân, khập khiễng quay về."
+      ],
+      "image": {
+        "prompt": "in a sunlit German forest, the little grey old man holds out his hand while a proud eldest brother in a fine coat turns away clutching a cake and a wine bottle, an axe leaning on a tree, gentle and comical",
+        "seed": 1749691180,
+        "character": "ong-lao"
+      },
+      "video": {
+        "motionPrompt": "the proud brother turns his nose up and walks off, the old man sighs and leans on his stick, leaves drift down, slow pan",
+        "seed": 2426059309
+      },
+      "voice": {}
+    },
+    {
+      "id": "chang-ut-vao-rung",
+      "title": "Chàng Út vào rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng Út xin đi. Cha lắc đầu: \"Hai anh còn bị đau, con thì làm được gì!\" Nhưng chàng nài mãi, cha đành cho đi. Mẹ chỉ gói cho cái bánh nướng khô và chai bia nhạt. Ông lão tóc xám lại hiện ra, xin ăn. Chàng Út cười hiền: \"Cháu chỉ có bánh khô với bia nhạt thôi, ông không chê thì mình cùng ăn.\" Lạ thay, khi mở gói ra, bánh khô đã thành bánh ngọt thơm, bia nhạt hoá rượu ngon. Ăn xong, ông lão nói: \"Cháu tốt bụng, ta tặng cháu may mắn. Cháu chặt cây cổ thụ kia đi, dưới gốc có quà cho cháu.\" Cây đổ xuống, giữa đám rễ là một con ngỗng có bộ lông bằng vàng ròng.",
+      "subtitles": [
+        "Chàng Út xin đi. Cha lắc đầu: \"Hai anh còn bị đau, con thì làm được gì!\"",
+        "Nhưng chàng nài mãi, cha đành cho đi. Mẹ chỉ gói cho cái bánh nướng khô và chai bia nhạt.",
+        "Ông lão tóc xám lại hiện ra, xin ăn. Chàng Út cười hiền:",
+        "\"Cháu chỉ có bánh khô với bia nhạt thôi, ông không chê thì mình cùng ăn.\"",
+        "Lạ thay, khi mở gói ra, bánh khô đã thành bánh ngọt thơm, bia nhạt hoá rượu ngon.",
+        "Ăn xong, ông lão nói: \"Cháu tốt bụng, ta tặng cháu may mắn.",
+        "Cháu chặt cây cổ thụ kia đi, dưới gốc có quà cho cháu.\"",
+        "Cây đổ xuống, giữa đám rễ là một con ngỗng có bộ lông bằng vàng ròng."
+      ],
+      "image": {
+        "prompt": "kind Simpleton sits on a log sharing food with the little grey old man, between them a magically sweet cake, behind them a felled old tree with a shining golden goose sitting among its roots, sunbeams",
+        "seed": 3740311034,
+        "character": "chang-ut"
+      },
+      "video": {
+        "motionPrompt": "the two share the cake and laugh, the old tree falls softly aside, the golden goose glows and ruffles its feathers, magical sparkles",
+        "seed": 3559191912
+      },
+      "voice": {}
+    },
+    {
+      "id": "ai-cham-cung-dinh",
+      "title": "Ai chạm vào cũng dính",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng Út ôm ngỗng vàng, ghé vào một quán trọ nghỉ chân. Chủ quán có ba cô con gái, cô nào cũng tò mò muốn nhổ trộm một chiếc lông vàng. Đêm ấy, cô chị cả rón rén chạm vào cánh ngỗng. Ối, tay cô dính chặt, gỡ không ra! Cô thứ hai chạy đến kéo chị, thế là dính luôn vào chị. Cô út vừa kêu \"Đừng!\" vừa túm lấy hai chị, và cũng dính nốt. Sáng ra, chàng Út ôm ngỗng đi tiếp, chẳng để ý ba cô gái lũn cũn chạy theo sau.",
+      "subtitles": [
+        "Chàng Út ôm ngỗng vàng, ghé vào một quán trọ nghỉ chân.",
+        "Chủ quán có ba cô con gái, cô nào cũng tò mò muốn nhổ trộm một chiếc lông vàng.",
+        "Đêm ấy, cô chị cả rón rén chạm vào cánh ngỗng. Ối, tay cô dính chặt, gỡ không ra!",
+        "Cô thứ hai chạy đến kéo chị, thế là dính luôn vào chị.",
+        "Cô út vừa kêu \"Đừng!\" vừa túm lấy hai chị, và cũng dính nốt.",
+        "Sáng ra, chàng Út ôm ngỗng đi tiếp, chẳng để ý ba cô gái lũn cũn chạy theo sau."
+      ],
+      "image": {
+        "prompt": "night in a cosy village inn, three curious innkeeper daughters in nightcaps stuck together in a row, the first one with her hand stuck to the wing of the golden goose sleeping in a basket, candlelight, comical",
+        "seed": 3371602786,
+        "character": "ngong-vang"
+      },
+      "video": {
+        "motionPrompt": "the girls tug and wobble but cannot pull free, the golden goose sleeps peacefully, the candle flickers, funny gentle motion",
+        "seed": 523301635
+      },
+      "voice": {}
+    },
+    {
+      "id": "doan-nguoi-ky-la",
+      "title": "Đoàn người kỳ lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Ra đồng, một ông thầy tu thấy vậy, mắng: \"Các cô không biết xấu hổ à?\" Ông kéo tay cô út, thế là dính luôn. Người giúp việc của ông chạy theo kéo thầy, cũng dính nốt. Hai bác nông dân vác cuốc đi qua, được gọi nhờ gỡ ra, vừa chạm tay vào là cũng dính chặt. Thế là bảy người nối đuôi nhau, chạy lũn cũn sau chàng Út và con ngỗng vàng, khi sang phải, lúc sang trái, chẳng ai dừng lại được.",
+      "subtitles": [
+        "Ra đồng, một ông thầy tu thấy vậy, mắng: \"Các cô không biết xấu hổ à?\"",
+        "Ông kéo tay cô út, thế là dính luôn. Người giúp việc của ông chạy theo kéo thầy,",
+        "cũng dính nốt. Hai bác nông dân vác cuốc đi qua, được gọi nhờ gỡ ra,",
+        "vừa chạm tay vào là cũng dính chặt.",
+        "Thế là bảy người nối đuôi nhau, chạy lũn cũn sau chàng Út và con ngỗng vàng,",
+        "khi sang phải, lúc sang trái, chẳng ai dừng lại được."
+      ],
+      "image": {
+        "prompt": "across a sunny country field, Simpleton happily carries the golden goose while a long wobbly line follows him stuck together, three girls, a parson in black, his helper and two farmers with hoes, all tripping and astonished, very funny",
+        "seed": 3735848250,
+        "character": "chang-ut"
+      },
+      "video": {
+        "motionPrompt": "the whole line stumbles left then right behind Simpleton, the parson flaps his free arm, the goose honks, bouncy comical motion",
+        "seed": 2735805420
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-chua-bat-cuoi",
+      "title": "Nàng công chúa bật cười",
+      "narrator": "ke-chuyen",
+      "narration": "Đoàn người đến kinh thành. Nhà vua ở đây có một nàng công chúa buồn rầu, từ bé chưa từng cười lần nào. Vua hứa: ai làm nàng cười được, sẽ được cưới nàng. Hôm ấy, công chúa ngồi bên cửa sổ, thấy chàng Út ôm ngỗng đi qua, kéo theo cả một chuỗi người dính vào nhau, lũn cũn, xiêu vẹo, mặt ai cũng ngơ ngác. Công chúa bật cười, cười mãi, cười đến chảy cả nước mắt. Cả kinh thành reo hò. Chàng Út xin cưới công chúa.",
+      "subtitles": [
+        "Đoàn người đến kinh thành. Nhà vua ở đây có một nàng công chúa buồn rầu,",
+        "từ bé chưa từng cười lần nào. Vua hứa: ai làm nàng cười được, sẽ được cưới nàng.",
+        "Hôm ấy, công chúa ngồi bên cửa sổ, thấy chàng Út ôm ngỗng đi qua,",
+        "kéo theo cả một chuỗi người dính vào nhau, lũn cũn, xiêu vẹo, mặt ai cũng ngơ ngác.",
+        "Công chúa bật cười, cười mãi, cười đến chảy cả nước mắt.",
+        "Cả kinh thành reo hò. Chàng Út xin cưới công chúa."
+      ],
+      "image": {
+        "prompt": "the solemn princess at a palace window bursts into laughter at the sight below, Simpleton with the golden goose leading the wobbly stuck-together line through the royal town square, crowds cheering",
+        "seed": 2936934689,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the princess covers her mouth and then laughs and laughs, the crowd cheers and throws caps, the line of people wobbles past",
+        "seed": 3846651594
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-thu-thach",
+      "title": "Ba thử thách",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua không muốn gả con cho một chàng trai quê mùa, bèn ra thử thách. \"Hãy tìm một người uống cạn cả hầm rượu của ta.\" Chàng Út vào rừng, gặp lại ông lão tóc xám. Ông uống một hơi cạn sạch cả hầm. \"Hãy tìm một người ăn hết cả núi bánh mì.\" Ông lão lại đến, ăn sạch trong một ngày. \"Hãy mang đến một con tàu đi được cả trên cạn lẫn dưới nước.\" Ông lão mỉm cười, trao cho chàng một con tàu như thế: \"Vì cháu đã tốt với ta.\"",
+      "subtitles": [
+        "Nhà vua không muốn gả con cho một chàng trai quê mùa, bèn ra thử thách.",
+        "\"Hãy tìm một người uống cạn cả hầm rượu của ta.\"",
+        "Chàng Út vào rừng, gặp lại ông lão tóc xám. Ông uống một hơi cạn sạch cả hầm.",
+        "\"Hãy tìm một người ăn hết cả núi bánh mì.\" Ông lão lại đến, ăn sạch trong một ngày.",
+        "\"Hãy mang đến một con tàu đi được cả trên cạn lẫn dưới nước.\"",
+        "Ông lão mỉm cười, trao cho chàng một con tàu như thế: \"Vì cháu đã tốt với ta.\""
+      ],
+      "image": {
+        "prompt": "a magical wooden ship with billowing sails rolling across a green meadow on wheels toward a royal castle, Simpleton and the little grey old man standing proudly on deck, the surprised king watching, whimsical",
+        "seed": 1944996431,
+        "character": "ong-lao"
+      },
+      "video": {
+        "motionPrompt": "the ship glides across the grass then slides into a river, sails fill with wind, the old man waves, joyful motion",
+        "seed": 3495226544
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi",
+      "title": "Đám cưới",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy con tàu băng qua đồng cỏ rồi lướt xuống sông, nhà vua hết cớ chối từ. Đám cưới linh đình được tổ chức. Công chúa giờ ngày nào cũng cười. Về sau, chàng Út lên ngôi vua, trị vì đất nước hiền hoà và công bằng. Người ta vẫn bảo nhau: chỉ một miếng bánh chia cho người đói, có khi đổi được cả một đời may mắn.",
+      "subtitles": [
+        "Thấy con tàu băng qua đồng cỏ rồi lướt xuống sông, nhà vua hết cớ chối từ.",
+        "Đám cưới linh đình được tổ chức. Công chúa giờ ngày nào cũng cười.",
+        "Về sau, chàng Út lên ngôi vua, trị vì đất nước hiền hoà và công bằng.",
+        "Người ta vẫn bảo nhau: chỉ một miếng bánh chia cho người đói,",
+        "có khi đổi được cả một đời may mắn."
+      ],
+      "image": {
+        "prompt": "a joyful wedding in the castle garden, Simpleton in a simple festive coat and the laughing princess holding hands, the golden goose beside them, villagers dancing, flower garlands, golden afternoon light",
+        "seed": 3461039277,
+        "character": "chang-ut"
+      },
+      "video": {
+        "motionPrompt": "the couple spin in a dance, petals fall, the golden goose spreads its wings, guests clap, warm slow pull-back",
+        "seed": 3440368687
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "cheerful German folk fairy-tale music, a bouncy march with bassoon, clarinet and accordion, playful pizzicato strings, comical and warm, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 209571606
+  }
+}

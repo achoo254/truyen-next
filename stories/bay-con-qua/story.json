@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "slug": "bay-con-qua",
+  "shelf": "world",
+  "title": "Bảy con quạ",
+  "summary": "Vì một lời nói lúc giận của người cha, bảy anh trai hoá thành bảy con quạ đen bay đi biệt tăm. Cô em gái nhỏ lên đường tới tận cùng thế giới, qua mặt trời, mặt trăng và các vì sao, để đưa các anh trở về. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "than-thoai"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Die sieben Raben\" (Kinder- und Hausmärchen, bản 1819), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể đã làm nhẹ cho cả nhà: mặt trời chỉ quá nóng, mặt trăng chỉ lạnh lùng (bản gốc nói chúng ăn thịt trẻ nhỏ), và cô bé dùng chiếc trâm bạc mở cổng núi thay vì tự cắt ngón tay út.",
+  "basedOn": "Truyện cổ Grimm (1819)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, deep twilight blues and starlit silver, warm candlelight, rounded friendly shapes, calm magical and safe mood for the whole family, German village and a shining glass mountain, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "co-em",
+      "name": "Cô em gái",
+      "seed": 1608841545,
+      "sheetPrompt": "a brave gentle little German girl from the Grimm tale, about ten years old, long fair hair with a small silver hairpin, simple dark blue dress and a red travelling cloak, a small bundle and a little stool, determined kind eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bay-qua",
+      "name": "Bảy con quạ",
+      "seed": 332797998,
+      "sheetPrompt": "seven glossy black ravens from the Grimm tale, friendly round shining eyes, soft sleek feathers, perched together in a row, gentle and not menacing, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chu-lun",
+      "name": "Chú lùn giữ núi",
+      "seed": 2220314011,
+      "sheetPrompt": "a kind little dwarf from the Grimm tale who keeps the glass mountain, rosy cheeks, short white beard, brown pointed hood, leather apron, carrying a tray with seven little plates and seven little cups, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "bay-nguoi-anh",
+      "title": "Bảy người anh",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một người cha có bảy cậu con trai, nhưng ông mong mãi một cô con gái. Rồi một ngày, cô bé ra đời, bé xíu và yếu ớt. Cha sai bảy anh chạy ra giếng lấy nước để làm lễ đặt tên cho em. Bảy anh tranh nhau múc nước, làm chiếc bình rơi tõm xuống giếng. Các anh đứng ngẩn ra, chẳng dám về nhà. Ở nhà, người cha sốt ruột, giận quá buột miệng: \"Mấy thằng nhóc mải chơi! Ước gì chúng hoá hết thành quạ cho xong!\" Lời vừa dứt, trên trời vang lên tiếng vỗ cánh. Bảy con quạ đen bay vụt đi xa. Người cha hối hận vô cùng, nhưng lời đã nói ra thì chẳng rút lại được.",
+      "subtitles": [
+        "Ngày xưa, có một người cha có bảy cậu con trai, nhưng ông mong mãi một cô con gái.",
+        "Rồi một ngày, cô bé ra đời, bé xíu và yếu ớt.",
+        "Cha sai bảy anh chạy ra giếng lấy nước để làm lễ đặt tên cho em.",
+        "Bảy anh tranh nhau múc nước, làm chiếc bình rơi tõm xuống giếng.",
+        "Các anh đứng ngẩn ra, chẳng dám về nhà. Ở nhà, người cha sốt ruột, giận quá buột miệng:",
+        "\"Mấy thằng nhóc mải chơi! Ước gì chúng hoá hết thành quạ cho xong!\"",
+        "Lời vừa dứt, trên trời vang lên tiếng vỗ cánh. Bảy con quạ đen bay vụt đi xa.",
+        "Người cha hối hận vô cùng, nhưng lời đã nói ra thì chẳng rút lại được."
+      ],
+      "image": {
+        "prompt": "beside an old village well seven boys look down in dismay at a jug that has fallen in, above them seven black ravens flying up into a pale evening sky, a worried father at the cottage door in the distance",
+        "seed": 354040728,
+        "character": "bay-qua"
+      },
+      "video": {
+        "motionPrompt": "the ravens beat their wings and rise into the sky, the father reaches out his hand, the well water ripples, slow upward camera move",
+        "seed": 4196315605
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-em-len-duong",
+      "title": "Cô em lên đường",
+      "narrator": "ke-chuyen",
+      "narration": "Cô bé lớn lên khoẻ mạnh, xinh xắn. Cha mẹ giấu kín chuyện cũ, sợ con buồn. Cho đến một hôm, cô nghe người làng xì xào: \"Bảy anh nó biến mất cũng vì nó cả.\" Cô chạy về hỏi cha mẹ. Cha mẹ đành kể hết, rồi ôm con: \"Đó là chuyện không may, chẳng phải lỗi của con.\" Nhưng cô bé ngày đêm day dứt. Cô quyết đi tìm các anh, dù xa đến tận cùng thế giới. Cô chỉ mang theo chiếc nhẫn nhỏ của cha mẹ, một ổ bánh mì, một bình nước và chiếc ghế con.",
+      "subtitles": [
+        "Cô bé lớn lên khoẻ mạnh, xinh xắn. Cha mẹ giấu kín chuyện cũ, sợ con buồn.",
+        "Cho đến một hôm, cô nghe người làng xì xào: \"Bảy anh nó biến mất cũng vì nó cả.\"",
+        "Cô chạy về hỏi cha mẹ. Cha mẹ đành kể hết, rồi ôm con:",
+        "\"Đó là chuyện không may, chẳng phải lỗi của con.\"",
+        "Nhưng cô bé ngày đêm day dứt. Cô quyết đi tìm các anh, dù xa đến tận cùng thế giới.",
+        "Cô chỉ mang theo chiếc nhẫn nhỏ của cha mẹ, một ổ bánh mì, một bình nước và chiếc ghế con."
+      ],
+      "image": {
+        "prompt": "at dawn the brave little girl in a red cloak steps out of the cottage gate carrying a small bundle and a little stool, her parents watching tearfully at the door, a long road winding toward far blue hills",
+        "seed": 3863458014,
+        "character": "co-em"
+      },
+      "video": {
+        "motionPrompt": "the girl waves goodbye and walks forward, morning mist drifts over the hills, the cloak flutters, slow tracking shot",
+        "seed": 1926875519
+      },
+      "voice": {}
+    },
+    {
+      "id": "mat-troi-mat-trang",
+      "title": "Mặt trời, mặt trăng và các vì sao",
+      "narrator": "ke-chuyen",
+      "narration": "Cô đi mãi, đi mãi, tới tận nơi tận cùng của thế giới. Cô đến chỗ mặt trời, nhưng mặt trời nóng như lửa, cô đành vội vàng chạy đi. Cô tới chỗ mặt trăng, nhưng mặt trăng lạnh lẽo, cau có, chẳng thèm đoái hoài. Cuối cùng, cô gặp các vì sao. Các vì sao hiền hậu, mỗi sao ngồi trên một chiếc ghế nhỏ. Sao Mai đứng dậy, trao cho cô một chiếc chìa khoá nhỏ làm bằng xương gà: \"Các anh của cháu ở trong núi pha lê. Không có chìa này, cháu chẳng vào được đâu.\"",
+      "subtitles": [
+        "Cô đi mãi, đi mãi, tới tận nơi tận cùng của thế giới.",
+        "Cô đến chỗ mặt trời, nhưng mặt trời nóng như lửa, cô đành vội vàng chạy đi.",
+        "Cô tới chỗ mặt trăng, nhưng mặt trăng lạnh lẽo, cau có, chẳng thèm đoái hoài.",
+        "Cuối cùng, cô gặp các vì sao. Các vì sao hiền hậu, mỗi sao ngồi trên một chiếc ghế nhỏ.",
+        "Sao Mai đứng dậy, trao cho cô một chiếc chìa khoá nhỏ làm bằng xương gà:",
+        "\"Các anh của cháu ở trong núi pha lê. Không có chìa này, cháu chẳng vào được đâu.\""
+      ],
+      "image": {
+        "prompt": "at the edge of the world the little girl in a red cloak stands among kind glowing stars sitting on tiny chairs in the night sky, the bright morning star hands her a small key carved from a chicken bone, a hot sun and a pale moon far away",
+        "seed": 3553735757,
+        "character": "co-em"
+      },
+      "video": {
+        "motionPrompt": "the stars twinkle softly, the morning star rises and offers the little key, the girl bows gratefully, gentle shimmering motion",
+        "seed": 2998433674
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-nui-pha-le",
+      "title": "Cánh cổng núi pha lê",
+      "narrator": "ke-chuyen",
+      "narration": "Cô gói chiếc chìa vào khăn, đi tiếp đến núi pha lê. Cổng núi đóng chặt. Cô mở khăn ra thì chẳng thấy chìa đâu, nó đã rơi mất dọc đường. Cô bé suýt khóc. Nhưng rồi cô nghĩ: \"Mình đã đi xa thế này, không thể bỏ cuộc.\" Cô rút chiếc trâm bạc nhỏ trên tóc, khẽ tra vào ổ khoá. Cách! Cánh cổng từ từ mở ra.",
+      "subtitles": [
+        "Cô gói chiếc chìa vào khăn, đi tiếp đến núi pha lê.",
+        "Cổng núi đóng chặt. Cô mở khăn ra thì chẳng thấy chìa đâu, nó đã rơi mất dọc đường.",
+        "Cô bé suýt khóc. Nhưng rồi cô nghĩ: \"Mình đã đi xa thế này, không thể bỏ cuộc.\"",
+        "Cô rút chiếc trâm bạc nhỏ trên tóc, khẽ tra vào ổ khoá.",
+        "Cách! Cánh cổng từ từ mở ra."
+      ],
+      "image": {
+        "prompt": "before a towering shining glass mountain the little girl gently slides her small silver hairpin into the keyhole of a crystal gate, the gate beginning to open with soft light spilling out, starlit night",
+        "seed": 929293215,
+        "character": "co-em"
+      },
+      "video": {
+        "motionPrompt": "the girl turns the silver hairpin, the crystal gate swings slowly open, light pours out and sparkles, magical motion",
+        "seed": 2725080006
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-chiec-dia",
+      "title": "Bảy chiếc đĩa nhỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Bên trong, một chú lùn ra đón: \"Cháu tìm ai thế?\" \"Cháu tìm các anh của cháu, bảy con quạ.\" \"Các ông quạ đi vắng, cháu vào chờ nhé,\" chú lùn nói, rồi dọn bàn ăn. Trên bàn có bảy chiếc đĩa nhỏ và bảy chiếc cốc nhỏ. Cô bé ăn một mẩu bánh trong mỗi đĩa, nhấp một ngụm trong mỗi cốc. Vào chiếc cốc cuối cùng, cô thả chiếc nhẫn của cha mẹ.",
+      "subtitles": [
+        "Bên trong, một chú lùn ra đón: \"Cháu tìm ai thế?\"",
+        "\"Cháu tìm các anh của cháu, bảy con quạ.\"",
+        "\"Các ông quạ đi vắng, cháu vào chờ nhé,\" chú lùn nói, rồi dọn bàn ăn.",
+        "Trên bàn có bảy chiếc đĩa nhỏ và bảy chiếc cốc nhỏ.",
+        "Cô bé ăn một mẩu bánh trong mỗi đĩa, nhấp một ngụm trong mỗi cốc.",
+        "Vào chiếc cốc cuối cùng, cô thả chiếc nhẫn của cha mẹ."
+      ],
+      "image": {
+        "prompt": "inside a cosy hall in the glass mountain the kind dwarf sets a table with seven little plates and seven little cups, the little girl drops her parents' ring into the last cup, warm candlelight",
+        "seed": 1391982187,
+        "character": "chu-lun"
+      },
+      "video": {
+        "motionPrompt": "the dwarf sets down the last plate, the girl lets the ring fall into the cup with a soft clink, candle flames sway",
+        "seed": 2273999607
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngay-doan-tu",
+      "title": "Ngày đoàn tụ",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng có tiếng vỗ cánh vù vù. Bảy con quạ bay về, tìm đĩa cốc của mình. \"Ai đã ăn trong đĩa của ta? Ai đã uống trong cốc của ta?\" Con quạ thứ bảy uống cạn cốc, thấy chiếc nhẫn lăn ra. Nó reo lên: \"Đây là nhẫn của cha mẹ! Ước gì em gái ta ở đây, chúng ta sẽ được cứu!\" Cô bé bước ra từ sau cánh cửa. Ngay lập tức, bảy con quạ hoá lại thành bảy chàng trai. Tám anh em ôm nhau mừng rỡ, rồi nắm tay nhau trở về nhà, nơi cha mẹ vẫn ngày đêm mong đợi.",
+      "subtitles": [
+        "Bỗng có tiếng vỗ cánh vù vù. Bảy con quạ bay về, tìm đĩa cốc của mình.",
+        "\"Ai đã ăn trong đĩa của ta? Ai đã uống trong cốc của ta?\"",
+        "Con quạ thứ bảy uống cạn cốc, thấy chiếc nhẫn lăn ra. Nó reo lên:",
+        "\"Đây là nhẫn của cha mẹ! Ước gì em gái ta ở đây, chúng ta sẽ được cứu!\"",
+        "Cô bé bước ra từ sau cánh cửa. Ngay lập tức, bảy con quạ hoá lại thành bảy chàng trai.",
+        "Tám anh em ôm nhau mừng rỡ, rồi nắm tay nhau trở về nhà,",
+        "nơi cha mẹ vẫn ngày đêm mong đợi."
+      ],
+      "image": {
+        "prompt": "in the glowing hall of the glass mountain seven young brothers transformed back from ravens embrace their little sister in joy, a few black feathers floating away, the kind dwarf smiling, warm golden light",
+        "seed": 2166893406,
+        "character": "co-em"
+      },
+      "video": {
+        "motionPrompt": "black feathers swirl and turn into sparkles, the brothers hug their sister, the dwarf claps, warm slow pull-back",
+        "seed": 3116288253
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender German fairy-tale music, a quiet journey under the stars, celesta, harp and soft strings with a gentle solo oboe, melancholy turning warm and hopeful, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3880828542
+  }
+}

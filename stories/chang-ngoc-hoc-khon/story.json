@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "slug": "chang-ngoc-hoc-khon",
+  "shelf": "kids",
+  "title": "Chàng ngốc học khôn",
+  "summary": "Chàng ngốc được vợ dặn ra đường gặp ai cũng phải chào hỏi cho khéo, thế là chàng chào cả bù nhìn, hù cả bầy chim và reo ầm lên đúng lúc chẳng ai cần. Truyện cười dân gian Việt Nam vui nhộn cho trẻ nhỏ: nói gì cũng phải nhìn xem đúng lúc chưa.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cười dân gian Việt Nam thuộc kiểu chàng ngốc làm theo lời dặn mà nói sai chỗ (như truyện Làm theo lời vợ dặn), thuộc phạm vi công cộng. Lời kể và các tình huống viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; Mèo Miu mở đầu và rút bài học ở cuối.",
+  "basedOn": "Truyện cười dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, bright cheerful light, rounded friendly shapes, playful comic mood for young children, old Vietnamese village with rice paddies, bamboo hedges and a dirt road, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 3165336574,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chang-ngoc",
+      "name": "Chàng ngốc",
+      "seed": 1968616940,
+      "sheetPrompt": "a funny good-hearted young Vietnamese villager from a folk comedy, round face, big innocent eyes, wide grin, messy topknot, loose brown shirt and rolled trousers, a cloth bundle on a stick over his shoulder, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-vo",
+      "name": "Người vợ",
+      "seed": 4117891083,
+      "sheetPrompt": "a clever kind young Vietnamese village woman from a folk tale, black hair wrapped in a brown headscarf, simple indigo ao ba ba, hands on hips with a patient smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có biết không, nói đúng câu mà sai lúc thì cũng thành chuyện cười đấy. Hôm nay Miu kể chuyện một anh chàng ngốc đi học khôn, ai dặn gì cũng nhớ, mà nhớ lại chẳng đúng chỗ nào. Các bạn chuẩn bị cười nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn có biết không, nói đúng câu mà sai lúc thì cũng thành chuyện cười đấy.",
+        "Hôm nay Miu kể chuyện một anh chàng ngốc đi học khôn, ai dặn gì cũng nhớ,",
+        "mà nhớ lại chẳng đúng chỗ nào. Các bạn chuẩn bị cười nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a wooden stool in a village yard, giggling with a paw over her mouth, holding a small cone hat, chickens pecking around",
+        "seed": 3880871270
+      },
+      "video": {
+        "motionPrompt": "the cat giggles and bounces a little on the stool, chickens peck and hop, bamboo leaves sway, slow gentle camera push-in",
+        "seed": 3640501745
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-vo-dan",
+      "title": "Lời vợ dặn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một anh chàng ngốc nghếch, hiền lành nhưng ăn nói chẳng ra đâu vào đâu. Vợ anh bảo: Mình phải ra ngoài học cho khôn, gặp người ta thì biết chào hỏi. Rồi chị dặn: Ra đường gặp ai thì cúi đầu chào cho lễ phép: Chào bác ạ! Chàng ngốc gật đầu lia lịa: Ừ, ừ, chào bác ạ, chào bác ạ! Rồi khoác tay nải, hớn hở lên đường.",
+      "subtitles": [
+        "Ngày xưa có một anh chàng ngốc nghếch, hiền lành nhưng ăn nói chẳng ra đâu vào đâu.",
+        "Vợ anh bảo: Mình phải ra ngoài học cho khôn, gặp người ta thì biết chào hỏi.",
+        "Rồi chị dặn: Ra đường gặp ai thì cúi đầu chào cho lễ phép: Chào bác ạ!",
+        "Chàng ngốc gật đầu lia lịa: Ừ, ừ, chào bác ạ, chào bác ạ!",
+        "Rồi khoác tay nải, hớn hở lên đường."
+      ],
+      "image": {
+        "character": "nguoi-vo",
+        "prompt": "a patient young wife stands at the bamboo gate of a thatched house, wagging her finger as she gives advice, her funny husband nods eagerly with a bundle on a stick over his shoulder",
+        "seed": 3463502605
+      },
+      "video": {
+        "motionPrompt": "the wife wags her finger, the husband nods again and again, then marches off happily down the dirt road, chickens scatter",
+        "seed": 2314134622
+      },
+      "voice": {}
+    },
+    {
+      "id": "chao-bu-nhin",
+      "title": "Chào bác bù nhìn",
+      "narrator": "ke-chuyen",
+      "narration": "Đi được một quãng, chàng ngốc thấy giữa ruộng có một bác đội nón, dang hai tay. Anh vội cúi rạp người: Chào bác ạ! Bác chẳng nói gì. Anh chào to hơn: Chào bác ạ! Bác vẫn im re. Mấy người làm đồng ôm bụng cười: Ơ kìa, bù nhìn rơm đấy anh ơi! Thấy bù nhìn thì phải đuổi chim đi chứ, cứ hô thật to: Hù! Hù! Chàng ngốc gãi đầu: À, ra thế, hù, hù!",
+      "subtitles": [
+        "Đi được một quãng, chàng ngốc thấy giữa ruộng có một bác đội nón, dang hai tay.",
+        "Anh vội cúi rạp người: Chào bác ạ! Bác chẳng nói gì.",
+        "Anh chào to hơn: Chào bác ạ! Bác vẫn im re.",
+        "Mấy người làm đồng ôm bụng cười: Ơ kìa, bù nhìn rơm đấy anh ơi!",
+        "Thấy bù nhìn thì phải đuổi chim đi chứ, cứ hô thật to: Hù! Hù!",
+        "Chàng ngốc gãi đầu: À, ra thế, hù, hù!"
+      ],
+      "image": {
+        "character": "chang-ngoc",
+        "prompt": "in a golden rice field, the funny young man bows very low to a straw scarecrow wearing a cone hat, farmers behind him laugh and hold their bellies, little birds sit on the scarecrow's arms",
+        "seed": 1479587710
+      },
+      "video": {
+        "motionPrompt": "the young man bows deeply again and again to the scarecrow, a bird hops on the scarecrow's hat, the farmers burst out laughing",
+        "seed": 4089821675
+      },
+      "voice": {}
+    },
+    {
+      "id": "hu-bay-chim",
+      "title": "Hù bay cả bầy chim",
+      "narrator": "ke-chuyen",
+      "narration": "Đi thêm một đoạn, anh gặp một ông lão đang rón rén giăng lưới bên bờ tre. Trên cành, cả một bầy chim đang líu lo. Chàng ngốc nhớ lời, giơ tay hô vang: Hù! Hù! Cả bầy chim vỗ cánh bay mất sạch. Ông lão giậm chân: Ối trời, anh làm hỏng hết cả rồi! Thấy người ta đang rình chim thì phải đi khẽ, nói thật nhỏ thôi chứ! Chàng ngốc lí nhí: Dạ, đi khẽ, nói nhỏ, con nhớ rồi ạ.",
+      "subtitles": [
+        "Đi thêm một đoạn, anh gặp một ông lão đang rón rén giăng lưới bên bờ tre.",
+        "Trên cành, cả một bầy chim đang líu lo. Chàng ngốc nhớ lời, giơ tay hô vang: Hù!",
+        "Hù! Cả bầy chim vỗ cánh bay mất sạch.",
+        "Ông lão giậm chân: Ối trời, anh làm hỏng hết cả rồi!",
+        "Thấy người ta đang rình chim thì phải đi khẽ, nói thật nhỏ thôi chứ!",
+        "Chàng ngốc lí nhí: Dạ, đi khẽ, nói nhỏ, con nhớ rồi ạ."
+      ],
+      "image": {
+        "character": "chang-ngoc",
+        "prompt": "by a bamboo hedge, a startled old man holding a net watches a flock of small birds fly away, the funny young man stands with both arms raised shouting, feathers floating in the air",
+        "seed": 3741999159
+      },
+      "video": {
+        "motionPrompt": "the young man throws up his arms, the whole flock bursts into the sky, the old man stamps his foot, feathers drift down slowly",
+        "seed": 1501990674
+      },
+      "voice": {}
+    },
+    {
+      "id": "noi-nho",
+      "title": "Nói nhỏ ở hội thả diều",
+      "narrator": "ke-chuyen",
+      "narration": "Tới bãi cỏ đầu làng, anh thấy bọn trẻ đang thả diều. Gió lên, con diều sáo bay vút, cả bãi reo hò ầm ĩ. Chàng ngốc lại nhớ lời, rón rén đi khẽ, thì thầm thật nhỏ: Diều lên rồi đấy. Chẳng ai nghe thấy gì. Một chú bé quay sang cười: Bác ơi, thả diều thì phải reo thật to cho vui chứ: Lên cao nữa! Lên cao nữa! Chàng ngốc gật gù: À, phải reo to, lên cao nữa!",
+      "subtitles": [
+        "Tới bãi cỏ đầu làng, anh thấy bọn trẻ đang thả diều.",
+        "Gió lên, con diều sáo bay vút, cả bãi reo hò ầm ĩ.",
+        "Chàng ngốc lại nhớ lời, rón rén đi khẽ, thì thầm thật nhỏ: Diều lên rồi đấy.",
+        "Chẳng ai nghe thấy gì.",
+        "Một chú bé quay sang cười: Bác ơi, thả diều thì phải reo thật to cho vui chứ: Lên cao nữa!",
+        "Lên cao nữa! Chàng ngốc gật gù: À, phải reo to, lên cao nữa!"
+      ],
+      "image": {
+        "character": "chang-ngoc",
+        "prompt": "on a grassy village field, children cheer and fly colorful flute kites high in the blue sky, the funny young man tiptoes among them with a finger on his lips whispering, a little boy laughs at him",
+        "seed": 2492812060
+      },
+      "video": {
+        "motionPrompt": "kites soar and dip in the wind, the children jump and cheer, the young man tiptoes in an exaggerated way, the little boy points and laughs",
+        "seed": 1969524117
+      },
+      "voice": {}
+    },
+    {
+      "id": "len-cao-nua",
+      "title": "Lên cao nữa!",
+      "narrator": "ke-chuyen",
+      "narration": "Về gần đến nhà, anh gặp bác hàng xóm đang leo cây hái bưởi. Cành cao, bác với mãi chẳng tới, chân run run. Chàng ngốc liền vỗ tay reo to: Lên cao nữa! Lên cao nữa! Bác hàng xóm hoảng hồn, ôm chặt lấy cành: Ôi anh ơi, tôi sắp ngã đến nơi rồi, còn reo gì nữa! Thấy người ta đang khó thì phải chạy lại giúp một tay chứ!",
+      "subtitles": [
+        "Về gần đến nhà, anh gặp bác hàng xóm đang leo cây hái bưởi.",
+        "Cành cao, bác với mãi chẳng tới, chân run run.",
+        "Chàng ngốc liền vỗ tay reo to: Lên cao nữa! Lên cao nữa!",
+        "Bác hàng xóm hoảng hồn, ôm chặt lấy cành: Ôi anh ơi, tôi sắp ngã đến nơi rồi,",
+        "còn reo gì nữa! Thấy người ta đang khó thì phải chạy lại giúp một tay chứ!"
+      ],
+      "image": {
+        "character": "chang-ngoc",
+        "prompt": "a nervous neighbor clings to a tall pomelo tree branch reaching for a fruit, below him the funny young man claps and cheers with a big grin, a ladder leaning crooked against the tree",
+        "seed": 1778000257
+      },
+      "video": {
+        "motionPrompt": "the neighbor wobbles and hugs the branch, a pomelo sways, the young man claps and cheers, then freezes with a surprised face",
+        "seed": 382611398
+      },
+      "voice": {}
+    },
+    {
+      "id": "giup-mot-tay",
+      "title": "Lần này thì đúng",
+      "narrator": "ke-chuyen",
+      "narration": "Lần này chàng ngốc vội chạy lại, giữ chặt cái thang cho bác trèo xuống, rồi đỡ luôn cả rổ bưởi. Bác hàng xóm cười khà: Được, được, lần này anh làm đúng rồi đấy! Về đến nhà, anh kể hết cho vợ nghe. Chị vợ vừa cười vừa bảo: Mình ạ, không phải lúc nào cũng nói một câu đâu. Phải nhìn xem người ta đang làm gì, rồi mới biết nên nói gì, làm gì. Chàng ngốc gãi đầu cười: Ừ nhỉ, học khôn khó thật!",
+      "subtitles": [
+        "Lần này chàng ngốc vội chạy lại, giữ chặt cái thang cho bác trèo xuống,",
+        "rồi đỡ luôn cả rổ bưởi.",
+        "Bác hàng xóm cười khà: Được, được, lần này anh làm đúng rồi đấy!",
+        "Về đến nhà, anh kể hết cho vợ nghe.",
+        "Chị vợ vừa cười vừa bảo: Mình ạ, không phải lúc nào cũng nói một câu đâu.",
+        "Phải nhìn xem người ta đang làm gì, rồi mới biết nên nói gì, làm gì.",
+        "Chàng ngốc gãi đầu cười: Ừ nhỉ, học khôn khó thật!"
+      ],
+      "image": {
+        "character": "chang-ngoc",
+        "prompt": "the funny young man holds a ladder steady while the smiling neighbor climbs down with a basket of pomelos, then the young man and his laughing wife sit together at home under a lamp",
+        "seed": 3178002027
+      },
+      "video": {
+        "motionPrompt": "the young man steadies the ladder, the neighbor steps down safely and pats his shoulder, the wife laughs warmly, soft lamp light",
+        "seed": 1114410272
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, lời dặn nào cũng đúng, nhưng chàng ngốc cứ đem dùng sai lúc nên mới thành chuyện cười. Muốn khôn, mình phải nhìn xem chuyện gì đang xảy ra rồi hãy nói, hãy làm. Lần sau các bạn thấy ai cần giúp, nhớ chạy lại giúp một tay nhé! Miu kể đến đây là hết rồi, hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, lời dặn nào cũng đúng,",
+        "nhưng chàng ngốc cứ đem dùng sai lúc nên mới thành chuyện cười.",
+        "Muốn khôn, mình phải nhìn xem chuyện gì đang xảy ra rồi hãy nói, hãy làm.",
+        "Lần sau các bạn thấy ai cần giúp, nhớ chạy lại giúp một tay nhé!",
+        "Miu kể đến đây là hết rồi, hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the village gate, behind her the funny young man and his wife wave too, kites flying in the sky, rice fields glowing in the sunset",
+        "seed": 1669698559
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the couple waves and laughs, kites drift in the sunset sky, gentle camera pull-back",
+        "seed": 3544269921
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful Vietnamese folk tune, dan bau monochord and bamboo flute with light wooden clappers and small drum, cheerful and comic, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2952766527
+  }
+}

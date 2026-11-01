@@ -105,10 +105,11 @@ describe('catalog/stories.json', () => {
     expect(report.errors.filter((e) => !e.includes('does not exist'))).toEqual([]);
   });
 
-  it('holds hundreds of public-domain candidates still to write, on every shelf', () => {
+  // Ideas run down as stories are written: the catalog keeps at least a week of them (100 a week) ahead.
+  it('holds at least a week of public-domain candidates still to write, on every shelf', () => {
     const { entries } = checkCatalog(data, new Map());
     const ideas = entries.filter((e) => e.status === 'idea');
-    expect(ideas.length).toBeGreaterThanOrEqual(300);
+    expect(ideas.length).toBeGreaterThanOrEqual(100);
     expect(new Set(ideas.map((e) => e.shelf))).toEqual(new Set(['kids', 'adults', 'world']));
     for (const e of entries) expect(e.plotSource).toMatch(/phạm vi công cộng|không ai giữ quyền/);
   });
