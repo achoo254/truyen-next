@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-tho-may-tinh-ranh",
+  "shelf": "world",
+  "title": "Chú thợ may tinh ranh",
+  "summary": "Nàng công chúa kiêu kỳ ra câu đố kén chồng, và chú thợ may bé nhỏ bị hai bạn chê ngốc lại đoán trúng. Rồi chú phải qua một đêm trong chuồng với con gấu to, chỉ với nắm hạt dẻ, mấy hòn sỏi và cây vĩ cầm. Truyện cổ Grimm dí dỏm cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Vom klugen Schneiderlein\" (Kinder- und Hausmärchen, bản 1857, số 114), đối chiếu bản tiếng Anh \"The Cunning Little Tailor\" của Margaret Hunt (1884, Project Gutenberg #5314), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; đã làm nhẹ cho cả nhà: con gấu được kể như một chú gấu ham chơi, và lời thách của công chúa không nói đến chuyện mất mạng.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, royal reds and warm straw golds, candlelit castle and stable, rounded friendly shapes, humorous and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chu-tho-may",
+      "name": "Chú thợ may bé nhỏ",
+      "seed": 3532057509,
+      "sheetPrompt": "a small cheerful young German tailor with tousled hair and a cheeky smile, patched brown coat with deep pockets, needle and thread pinned to his collar, a little violin under his arm, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa kiêu kỳ",
+      "seed": 1298754803,
+      "sheetPrompt": "a proud young German princess with a high nose and a haughty look, long hair with one silver strand and one golden strand, rich red gown, small crown, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-gau",
+      "name": "Con gấu",
+      "seed": 2697132339,
+      "sheetPrompt": "a big fluffy brown bear, clumsy and good-natured, round belly, curious eyes, comical rather than fierce, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-chang-tho-may",
+      "title": "Ba chàng thợ may",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một nàng công chúa vô cùng kiêu kỳ. Chàng trai nào đến hỏi cưới, nàng cũng ra một câu đố, đoán sai là bị đuổi về. Nàng còn rao khắp nơi: ai giải được câu đố, dù là ai, cũng sẽ được cưới nàng. Bấy giờ có ba chàng thợ may rủ nhau đi thử. Hai anh lớn tự cho mình khéo tay, chắc chắn sẽ thắng. Anh thứ ba bé loắt choắt, nghề còn chưa thạo, nhưng tin mình sẽ gặp may. Hai anh kia bảo: \"Mày cứ ở nhà đi, đầu óc bé tí thế thì làm được gì.\" Chú thợ may nhỏ chẳng nản, ưỡn ngực lên đường như thể cả thế gian là của mình.",
+      "subtitles": [
+        "Ngày xưa có một nàng công chúa vô cùng kiêu kỳ.",
+        "Chàng trai nào đến hỏi cưới, nàng cũng ra một câu đố, đoán sai là bị đuổi về.",
+        "Nàng còn rao khắp nơi: ai giải được câu đố, dù là ai, cũng sẽ được cưới nàng.",
+        "Bấy giờ có ba chàng thợ may rủ nhau đi thử.",
+        "Hai anh lớn tự cho mình khéo tay, chắc chắn sẽ thắng.",
+        "Anh thứ ba bé loắt choắt, nghề còn chưa thạo, nhưng tin mình sẽ gặp may.",
+        "Hai anh kia bảo: \"Mày cứ ở nhà đi, đầu óc bé tí thế thì làm được gì.\"",
+        "Chú thợ may nhỏ chẳng nản, ưỡn ngực lên đường như thể cả thế gian là của mình."
+      ],
+      "image": {
+        "prompt": "three tailors walking on a country road toward a distant castle, two tall smug tailors laughing and pointing at the small cheerful tailor who marches proudly ahead, sunny morning",
+        "seed": 1808974136,
+        "character": "chu-tho-may"
+      },
+      "video": {
+        "motionPrompt": "the three tailors walk toward the castle, the two tall ones laugh, the little tailor swings his arms confidently, clouds drift",
+        "seed": 587458267
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-do-mai-toc",
+      "title": "Câu đố mái tóc",
+      "narrator": "ke-chuyen",
+      "narration": "Đến trước công chúa, ba chàng thưa rằng đầu óc họ tinh tế đến mức xỏ được qua lỗ kim. Công chúa hỏi: \"Trên đầu ta có hai loại tóc, đó là màu gì?\" Anh thứ nhất đáp: \"Chắc là đen và trắng, như vải muối tiêu.\" \"Sai rồi.\" Anh thứ hai đáp: \"Không phải đen trắng thì là nâu và đỏ, như áo của cha tôi.\" \"Sai rồi. Để người thứ ba trả lời.\" Chú thợ may nhỏ bước lên, dõng dạc: \"Công chúa có một sợi tóc bạc và một sợi tóc vàng, đó là hai màu.\" Công chúa tái mặt, suýt ngã, vì nàng tin chắc chẳng ai trên đời đoán được.",
+      "subtitles": [
+        "Đến trước công chúa, ba chàng thưa rằng đầu óc họ tinh tế đến mức xỏ được qua lỗ kim.",
+        "Công chúa hỏi: \"Trên đầu ta có hai loại tóc, đó là màu gì?\"",
+        "Anh thứ nhất đáp: \"Chắc là đen và trắng, như vải muối tiêu.\"",
+        "\"Sai rồi.\" Anh thứ hai đáp: \"Không phải đen trắng thì là nâu và đỏ, như áo của cha tôi.\"",
+        "\"Sai rồi. Để người thứ ba trả lời.\"",
+        "Chú thợ may nhỏ bước lên, dõng dạc: \"Công chúa có một sợi tóc bạc và một sợi tóc vàng,",
+        "đó là hai màu.\" Công chúa tái mặt, suýt ngã, vì nàng tin chắc chẳng ai trên đời đoán được."
+      ],
+      "image": {
+        "prompt": "a grand castle hall with red carpets, the proud princess on her throne, the small tailor stepping forward boldly and pointing, one silver and one golden hair shining in her long hair, the two tall tailors gaping",
+        "seed": 1051065274,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "light catches a silver hair and a golden hair in the princess's hair, she gasps and grips her throne, the little tailor bows with a grin",
+        "seed": 2920360935
+      },
+      "voice": {}
+    },
+    {
+      "id": "thu-thach-con-gau",
+      "title": "Thử thách con gấu",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàn hồn, công chúa nói: \"Thế vẫn chưa đủ đâu. Dưới chuồng có một con gấu. Nhà ngươi phải ở với nó qua đêm nay. Sáng mai ta dậy mà ngươi vẫn bình an thì ta sẽ cưới ngươi.\" Nàng chắc mẩm làm vậy là thoát được chú, vì con gấu ấy dữ lắm, xưa nay chẳng ai dám lại gần. Chú thợ may chẳng sợ, còn vui vẻ đáp: \"Dám liều là đã thắng một nửa rồi.\"",
+      "subtitles": [
+        "Hoàn hồn, công chúa nói: \"Thế vẫn chưa đủ đâu.",
+        "Dưới chuồng có một con gấu. Nhà ngươi phải ở với nó qua đêm nay.",
+        "Sáng mai ta dậy mà ngươi vẫn bình an thì ta sẽ cưới ngươi.\"",
+        "Nàng chắc mẩm làm vậy là thoát được chú, vì con gấu ấy dữ lắm,",
+        "xưa nay chẳng ai dám lại gần.",
+        "Chú thợ may chẳng sợ, còn vui vẻ đáp: \"Dám liều là đã thắng một nửa rồi.\""
+      ],
+      "image": {
+        "prompt": "the princess points down a stone staircase toward a stable with a sly smile, the small tailor nods cheerfully with his violin under his arm, candlelight",
+        "seed": 4193867094,
+        "character": "chu-tho-may"
+      },
+      "video": {
+        "motionPrompt": "candle flames flicker, the princess points with a sly look, the tailor tips his cap and skips toward the stairs",
+        "seed": 2954381679
+      },
+      "voice": {}
+    },
+    {
+      "id": "hat-de-va-soi",
+      "title": "Hạt dẻ và hòn sỏi",
+      "narrator": "ke-chuyen",
+      "narration": "Tối đến, chú được dẫn xuống chuồng. Con gấu vừa định xông tới, chú đã bảo: \"Từ từ nào, ta sẽ làm mi ngoan ngay.\" Rồi chú thản nhiên móc túi lấy hạt dẻ, cắn tách một cái, ăn ngon lành. Gấu thèm quá, xin vài hạt. Chú đưa cho nó một nắm, nhưng đó là sỏi chứ đâu phải hạt dẻ. Gấu cắn mãi chẳng vỡ, nghĩ bụng: \"Mình ngốc thật, cắn hạt dẻ cũng không xong.\" \"Mồm to thế mà không cắn nổi hạt dẻ nhỏ!\" chú trêu, rồi lanh tay tráo hòn sỏi thành hạt dẻ, cắn tách một cái là vỡ đôi. Gấu thử lại, cắn hết sức mà vẫn chẳng ăn thua.",
+      "subtitles": [
+        "Tối đến, chú được dẫn xuống chuồng.",
+        "Con gấu vừa định xông tới, chú đã bảo: \"Từ từ nào, ta sẽ làm mi ngoan ngay.\"",
+        "Rồi chú thản nhiên móc túi lấy hạt dẻ, cắn tách một cái, ăn ngon lành.",
+        "Gấu thèm quá, xin vài hạt. Chú đưa cho nó một nắm, nhưng đó là sỏi chứ đâu phải hạt dẻ.",
+        "Gấu cắn mãi chẳng vỡ, nghĩ bụng: \"Mình ngốc thật, cắn hạt dẻ cũng không xong.\"",
+        "\"Mồm to thế mà không cắn nổi hạt dẻ nhỏ!\"",
+        "chú trêu, rồi lanh tay tráo hòn sỏi thành hạt dẻ, cắn tách một cái là vỡ đôi.",
+        "Gấu thử lại, cắn hết sức mà vẫn chẳng ăn thua."
+      ],
+      "image": {
+        "prompt": "inside a cosy straw-filled stable lit by a lantern, the small tailor cracks a nut with a grin while the big fluffy bear chews on a pebble with a puzzled face, funny and warm",
+        "seed": 2498755865,
+        "character": "con-gau"
+      },
+      "video": {
+        "motionPrompt": "the tailor cracks a nut with a snap, the bear chews and frowns in confusion, straw dust floats in the lantern light",
+        "seed": 2347075245
+      },
+      "voice": {}
+    },
+    {
+      "id": "gau-hoc-vi-cam",
+      "title": "Gấu học vĩ cầm",
+      "narrator": "ke-chuyen",
+      "narration": "Chú lấy cây vĩ cầm dưới áo ra, kéo một bản thật vui. Nghe nhạc, gấu không nhịn được, cứ thế nhảy múa. Nhảy một hồi, nó khoái quá, hỏi: \"Này, cây đàn có nặng không? Ta cũng muốn học kéo đàn để lúc nào thích thì nhảy.\" \"Nhẹ như đồ chơi trẻ con,\" chú đáp. \"Nhưng móng mi dài quá, phải cắt bớt đã.\" Người ta mang tới một cái ê tô kẹp. Gấu đặt móng vào, chú vặn chặt lại, bảo: \"Chờ ta đi lấy kéo nhé.\" Rồi chú nằm xuống đống rơm ngủ khò, mặc cho gấu gầm gừ cả đêm.",
+      "subtitles": [
+        "Chú lấy cây vĩ cầm dưới áo ra, kéo một bản thật vui.",
+        "Nghe nhạc, gấu không nhịn được, cứ thế nhảy múa.",
+        "Nhảy một hồi, nó khoái quá, hỏi: \"Này, cây đàn có nặng không?",
+        "Ta cũng muốn học kéo đàn để lúc nào thích thì nhảy.\"",
+        "\"Nhẹ như đồ chơi trẻ con,\" chú đáp. \"Nhưng móng mi dài quá, phải cắt bớt đã.\"",
+        "Người ta mang tới một cái ê tô kẹp.",
+        "Gấu đặt móng vào, chú vặn chặt lại, bảo: \"Chờ ta đi lấy kéo nhé.\"",
+        "Rồi chú nằm xuống đống rơm ngủ khò, mặc cho gấu gầm gừ cả đêm."
+      ],
+      "image": {
+        "prompt": "the small tailor plays a merry tune on his violin while the big bear dances clumsily on its hind legs in the lantern-lit stable, later the bear's paws resting in a wooden vise and the tailor asleep on straw, humorous",
+        "seed": 3209222515,
+        "character": "chu-tho-may"
+      },
+      "video": {
+        "motionPrompt": "the bow glides over the strings, the bear sways and twirls clumsily, then the tailor yawns and curls up in the straw",
+        "seed": 95923719
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-chua-giu-loi",
+      "title": "Công chúa giữ lời",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe gấu gầm gừ suốt đêm, công chúa tưởng nó đang mừng vì đã đuổi được chú thợ may đi. Sáng ra, nàng ung dung xuống xem, thì thấy chú tươi tỉnh đứng đó, khoẻ như cá gặp nước. Nàng đã hứa trước mặt mọi người nên không thể nói thêm lời nào. Nhà vua cho thắng xe, đưa hai người tới nhà thờ làm lễ cưới. Nhưng hai anh thợ may kia ghen tức, lẻn vào chuồng tháo ê tô cho gấu. Gấu đùng đùng chạy theo xe. Công chúa hoảng hốt: \"Ôi, gấu đuổi theo kìa!\"",
+      "subtitles": [
+        "Nghe gấu gầm gừ suốt đêm, công chúa tưởng nó đang mừng vì đã đuổi được chú thợ may đi.",
+        "Sáng ra, nàng ung dung xuống xem, thì thấy chú tươi tỉnh đứng đó, khoẻ như cá gặp nước.",
+        "Nàng đã hứa trước mặt mọi người nên không thể nói thêm lời nào.",
+        "Nhà vua cho thắng xe, đưa hai người tới nhà thờ làm lễ cưới.",
+        "Nhưng hai anh thợ may kia ghen tức, lẻn vào chuồng tháo ê tô cho gấu.",
+        "Gấu đùng đùng chạy theo xe. Công chúa hoảng hốt: \"Ôi, gấu đuổi theo kìa!\""
+      ],
+      "image": {
+        "prompt": "a royal carriage on a road toward a church, the princess looking back in alarm, behind them the big bear running after the carriage, two envious tailors peeking from behind the stable door",
+        "seed": 1951819971,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the carriage wheels roll, the bear lumbers after it, the princess turns and gasps, dust rises softly",
+        "seed": 1139206364
+      },
+      "voice": {}
+    },
+    {
+      "id": "trong-cay-chuoi",
+      "title": "Trồng cây chuối",
+      "narrator": "ke-chuyen",
+      "narration": "Chú thợ may nhanh trí, lộn ngược người trồng cây chuối, thò hai chân ra cửa xe, hét to: \"Thấy cái ê tô này không? Không đi đi thì lại bị kẹp nữa đấy!\" Gấu tưởng thật, quay đầu chạy biến. Chú thợ may thong thả tới nhà thờ, cưới công chúa, và sống vui vẻ như chim sơn ca. Ai không tin chuyện này thì phải nộp một đồng bạc!",
+      "subtitles": [
+        "Chú thợ may nhanh trí, lộn ngược người trồng cây chuối, thò hai chân ra cửa xe, hét to:",
+        "\"Thấy cái ê tô này không? Không đi đi thì lại bị kẹp nữa đấy!\"",
+        "Gấu tưởng thật, quay đầu chạy biến.",
+        "Chú thợ may thong thả tới nhà thờ, cưới công chúa, và sống vui vẻ như chim sơn ca.",
+        "Ai không tin chuyện này thì phải nộp một đồng bạc!"
+      ],
+      "image": {
+        "prompt": "comical scene, the small tailor upside down inside the carriage with his legs sticking out of the window like a vise, the bear skidding to a stop and running away, the princess laughing, a little church with bells ahead",
+        "seed": 2340211021,
+        "character": "chu-tho-may"
+      },
+      "video": {
+        "motionPrompt": "the tailor's legs wiggle out of the window, the bear stops, spins and scampers off, church bells swing, cheerful motion",
+        "seed": 2227360996
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful German folk instrumental with a lively solo violin dance, plucked strings and light woodwinds, waltz rhythm, humorous and warm, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3968943835
+  }
+}

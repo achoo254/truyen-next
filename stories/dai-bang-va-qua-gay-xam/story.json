@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "slug": "dai-bang-va-qua-gay-xam",
+  "shelf": "world",
+  "title": "Đại bàng và quạ gáy xám",
+  "summary": "Thấy đại bàng sà xuống quắp con mồi bay vút lên trời, chú quạ gáy xám liền muốn làm y như thế với một con cừu đực to sụ. Kết cục, chân chú vướng chặt trong bộ lông cừu. Ngụ ngôn Aesop vui về việc tự biết sức mình.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, green rolling hills with a flock of fluffy sheep, a tall rocky cliff and a shepherd's cottage, bright clear sky, gentle rounded comical animals, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "qua-gay-xam",
+      "name": "Quạ gáy xám",
+      "seed": 4050919397,
+      "sheetPrompt": "a small cheeky jackdaw with glossy black feathers, a soft grey nape and pale silver eyes, puffed-up proud expression, comical and endearing, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "dai-bang",
+      "name": "Đại bàng",
+      "seed": 1714380316,
+      "sheetPrompt": "a majestic golden-brown eagle with broad wings, a hooked yellow beak and calm piercing eyes, perched on a high rock, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-chan-cuu",
+      "name": "Bác chăn cừu",
+      "seed": 3496158911,
+      "sheetPrompt": "a kind round-faced shepherd with a woolly cap, a brown cloak and a wooden crook, laughing eyes, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dai-bang",
+      "title": "Đại bàng trên vách đá",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, trên vách đá cao bên đồng cỏ có một con đại bàng rất khoẻ. Một hôm, đại bàng xoè đôi cánh rộng, lao vút xuống đồng. Chỉ trong nháy mắt, nó đã quắp lấy một chú cừu non, rồi bay thẳng lên vách đá cao. Cả đàn cừu chạy tán loạn, kêu be be inh ỏi.",
+      "subtitles": [
+        "Ngày xưa, trên vách đá cao bên đồng cỏ có một con đại bàng rất khoẻ.",
+        "Một hôm, đại bàng xoè đôi cánh rộng, lao vút xuống đồng.",
+        "Chỉ trong nháy mắt, nó đã quắp lấy một chú cừu non, rồi bay thẳng lên vách đá cao.",
+        "Cả đàn cừu chạy tán loạn, kêu be be inh ỏi."
+      ],
+      "image": {
+        "character": "dai-bang",
+        "prompt": "a majestic eagle soaring with wide outstretched wings above green hills and a flock of fluffy sheep, a tall rocky cliff in the background",
+        "seed": 3709141588
+      },
+      "video": {
+        "motionPrompt": "the eagle glides down in a sweeping arc then climbs high toward the cliff, the sheep scatter across the hill",
+        "seed": 1541183018
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-ganh",
+      "title": "Quạ gáy xám ganh tị",
+      "narrator": "ke-chuyen",
+      "narration": "Trên cành cây gần đó, chú quạ gáy xám nhìn theo, mắt tròn xoe. Chú ưỡn ngực nghĩ: “Chà, oai quá! Đại bàng làm được thì mình cũng làm được. Mà mình phải bắt con nào thật to, cho cả đồng cỏ biết mặt!”",
+      "subtitles": [
+        "Trên cành cây gần đó, chú quạ gáy xám nhìn theo, mắt tròn xoe.",
+        "Chú ưỡn ngực nghĩ: “Chà, oai quá!",
+        "Đại bàng làm được thì mình cũng làm được.",
+        "Mà mình phải bắt con nào thật to, cho cả đồng cỏ biết mặt!”"
+      ],
+      "image": {
+        "character": "qua-gay-xam",
+        "prompt": "a small jackdaw with a grey nape puffing out its chest on a tree branch, staring up at an eagle far away on a cliff, determined comical expression",
+        "seed": 2416212731
+      },
+      "video": {
+        "motionPrompt": "the jackdaw puffs up its feathers and flaps its wings importantly, leaves shake on the branch",
+        "seed": 1667730773
+      },
+      "voice": {}
+    },
+    {
+      "id": "lao-xuong",
+      "title": "Lao xuống con cừu đực",
+      "narrator": "ke-chuyen",
+      "narration": "Quạ đập cánh phành phạch, bay vòng vòng mấy lượt cho thật oai. Rồi chú nhắm ngay con cừu đực to nhất đàn, lông dày như một đống bông, lao xuống. Chú bám chặt móng vào lưng cừu, ra sức vỗ cánh: “Lên nào, lên nào!” Nhưng con cừu đực vẫn đứng nguyên, thong thả nhai cỏ.",
+      "subtitles": [
+        "Quạ đập cánh phành phạch, bay vòng vòng mấy lượt cho thật oai.",
+        "Rồi chú nhắm ngay con cừu đực to nhất đàn, lông dày như một đống bông, lao xuống.",
+        "Chú bám chặt móng vào lưng cừu, ra sức vỗ cánh: “Lên nào, lên nào!”",
+        "Nhưng con cừu đực vẫn đứng nguyên, thong thả nhai cỏ."
+      ],
+      "image": {
+        "character": "qua-gay-xam",
+        "prompt": "a tiny jackdaw landing on the back of a huge fluffy ram, flapping its wings with all its might, the ram calmly chewing grass, comical storybook staging",
+        "seed": 2593646899
+      },
+      "video": {
+        "motionPrompt": "the jackdaw flaps furiously on the ram's woolly back, the ram keeps chewing, tufts of wool flutter",
+        "seed": 1595695256
+      },
+      "voice": {}
+    },
+    {
+      "id": "mac-ket",
+      "title": "Mắc kẹt trong lông cừu",
+      "narrator": "ke-chuyen",
+      "narration": "Đến khi muốn bay lên, quạ mới thấy chân mình đã rối chặt trong đám lông xoăn. Chú giãy, chú kéo, chú vỗ cánh đến mỏi nhừ mà chẳng gỡ ra được. Bác chăn cừu nghe tiếng kêu quác quác, chạy tới xem. Bác bật cười, nhẹ nhàng gỡ chân chú quạ ra, rồi bế về nhà.",
+      "subtitles": [
+        "Đến khi muốn bay lên, quạ mới thấy chân mình đã rối chặt trong đám lông xoăn.",
+        "Chú giãy, chú kéo, chú vỗ cánh đến mỏi nhừ mà chẳng gỡ ra được.",
+        "Bác chăn cừu nghe tiếng kêu quác quác, chạy tới xem.",
+        "Bác bật cười, nhẹ nhàng gỡ chân chú quạ ra, rồi bế về nhà."
+      ],
+      "image": {
+        "character": "qua-gay-xam",
+        "prompt": "a kind shepherd laughing and gently untangling a flustered little jackdaw from the thick curly wool of a big ram, green hills around them",
+        "seed": 220911551
+      },
+      "video": {
+        "motionPrompt": "the shepherd carefully lifts the jackdaw free from the wool, the jackdaw blinks, the ram turns its head curiously",
+        "seed": 73899371
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-nha",
+      "title": "Con chim gì đây",
+      "narrator": "ke-chuyen",
+      "narration": "Tối ấy, lũ trẻ nhà bác chăn cừu xúm lại hỏi: “Bố ơi, con chim gì đây ạ?” Bác chăn cừu cười khà khà: “Bố biết chắc nó là con quạ gáy xám. Nhưng nó thì cứ muốn các con tưởng nó là đại bàng đấy!” Lũ trẻ cười rộn cả nhà, cho chú quạ ăn hạt no nê, sáng hôm sau mở cửa cho chú bay về. Các bạn nhỏ ạ, hãy biết sức mình, đừng bắt chước ai chỉ để tỏ ra oai.",
+      "subtitles": [
+        "Tối ấy, lũ trẻ nhà bác chăn cừu xúm lại hỏi: “Bố ơi, con chim gì đây ạ?”",
+        "Bác chăn cừu cười khà khà: “Bố biết chắc nó là con quạ gáy xám.",
+        "Nhưng nó thì cứ muốn các con tưởng nó là đại bàng đấy!”",
+        "Lũ trẻ cười rộn cả nhà, cho chú quạ ăn hạt no nê, sáng hôm sau mở cửa cho chú bay về.",
+        "Các bạn nhỏ ạ, hãy biết sức mình, đừng bắt chước ai chỉ để tỏ ra oai."
+      ],
+      "image": {
+        "character": "nguoi-chan-cuu",
+        "prompt": "shepherd's children in a cosy cottage gathered around a little jackdaw on the table, laughing and offering it seeds, the shepherd chuckling by the fireplace",
+        "seed": 207013263
+      },
+      "video": {
+        "motionPrompt": "the children giggle and hold out seeds, the jackdaw hops and pecks, firelight glows warmly",
+        "seed": 1740743765
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "bright pastoral comedy music, oboe and pizzicato strings, a grand soaring horn theme for the eagle, a small fussy flapping theme on piccolo for the jackdaw, a cosy cottage ending on acoustic guitar, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2220351893
+  }
+}

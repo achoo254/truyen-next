@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "slug": "su-tich-con-co-trang",
+  "shelf": "kids",
+  "title": "Sự tích con cò trắng",
+  "summary": "Thuở xưa mọi loài chim đều trắng muốt như nhau, đến nỗi Thiên Lôi chẳng phân biệt nổi ai với ai. Trời cho tô màu cho từng loài, riêng chú cò đến muộn vì một lời nói dối. Sự tích vì sao cò có bộ lông trắng nhất, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "su-tich",
+    "thien-nhien",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Con cò trắng» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: con Tối mắt chỉ «hay bắt nạt, phá tổ các bạn chim» thay vì làm hại đồng loại, lời dọa đánh roi được kể là «sẽ bị phạt». Thêm để dẫn dắt: Mèo Miu mở đầu và kết, lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, misty heavenly clouds, rice fields and ponds, many colourful birds, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 860655146,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "co",
+      "name": "Chú cò",
+      "seed": 2585530752,
+      "sheetPrompt": "a slim white egret with long legs, a long yellow beak with a small dark mark near the tip, sleepy shy eyes, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "thien-loi",
+      "name": "Thiên Lôi",
+      "seed": 1016717679,
+      "sheetPrompt": "a chubby friendly thunder god from Vietnamese folk tales, round face with bushy eyebrows, blue robe with cloud patterns, holding a small wooden mallet, comical and kind, not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-troi",
+      "name": "Ông Trời",
+      "seed": 491891582,
+      "sheetPrompt": "a kind old Jade Emperor of the sky with a long white beard, golden robe and a soft smile, sitting on clouds, gentle and wise, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có biết vì sao chim sáo đen, chim vàng anh vàng, chim bói cá xanh biếc, còn con cò thì lại trắng tinh không? Ngày xưa ấy à, chim nào cũng trắng như nhau cả đấy. Thế rồi có một chuyện xảy ra. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn có biết vì sao chim sáo đen, chim vàng anh vàng, chim bói cá xanh biếc,",
+        "còn con cò thì lại trắng tinh không? Ngày xưa ấy à, chim nào cũng trắng như nhau cả đấy.",
+        "Thế rồi có một chuyện xảy ra. Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a pond bank looking at a row of colourful birds on a branch, a black myna, a yellow oriole, a blue kingfisher and a white egret, a picture book open beside her",
+        "seed": 1385850421
+      },
+      "video": {
+        "motionPrompt": "the cat points from bird to bird, the birds hop and flutter their colourful wings, the white egret steps in the shallow water, slow camera push-in",
+        "seed": 736539882
+      },
+      "voice": {}
+    },
+    {
+      "id": "chim-trang-ca",
+      "title": "Ngày xưa chim nào cũng trắng",
+      "narrator": "ke-chuyen",
+      "narration": "Thuở Trời mới sinh ra muôn loài chim, con nào cũng khoác một bộ lông trắng toát. Trong đám chim có một con tên là Tối mắt, tính rất xấu, hay lén bắt nạt, phá tổ các bạn chim. Các loài chim bèn làm đơn kêu lên Trời. Trời sai Thiên Lôi xuống bắt Tối mắt. Nhưng xuống đến nơi, Thiên Lôi ngẩn người: chim nào cũng trắng y như nhau, biết đâu là Tối mắt mà tìm?",
+      "subtitles": [
+        "Thuở Trời mới sinh ra muôn loài chim, con nào cũng khoác một bộ lông trắng toát.",
+        "Trong đám chim có một con tên là Tối mắt, tính rất xấu, hay lén bắt nạt,",
+        "phá tổ các bạn chim. Các loài chim bèn làm đơn kêu lên Trời.",
+        "Trời sai Thiên Lôi xuống bắt Tối mắt.",
+        "Nhưng xuống đến nơi, Thiên Lôi ngẩn người: chim nào cũng trắng y như nhau,",
+        "biết đâu là Tối mắt mà tìm?"
+      ],
+      "image": {
+        "character": "thien-loi",
+        "prompt": "a flock of birds that are all pure white sits in the trees and fields, every bird looks the same, the chubby thunder god stands on a cloud scratching his head in confusion",
+        "seed": 1225374674
+      },
+      "video": {
+        "motionPrompt": "the thunder god looks left and right, white birds flutter and swap places, he scratches his head with the little mallet, clouds drift",
+        "seed": 1705608494
+      },
+      "voice": {}
+    },
+    {
+      "id": "chim-chay-tan-loan",
+      "title": "Chim bay tán loạn",
+      "narrator": "ke-chuyen",
+      "narration": "Thiên Lôi cứ đuổi theo hết con này đến con khác. Chim chóc sợ quá, bay tán loạn khắp nơi, mệt bở hơi tai. Các loài chim lại kéo nhau lên tâu: Thưa Trời, Thiên Lôi cứ đuổi khắp anh em chúng con, còn khổ hơn cả con Tối mắt nữa! Trời gọi Thiên Lôi về hỏi. Thiên Lôi thưa: Chim nào cũng một màu, con biết tìm đâu ra? Trời gật gù: Thế thì xuống bảo Long thần, Thổ địa tô cho mỗi loài một màu riêng để mà nhận ra.",
+      "subtitles": [
+        "Thiên Lôi cứ đuổi theo hết con này đến con khác.",
+        "Chim chóc sợ quá, bay tán loạn khắp nơi, mệt bở hơi tai.",
+        "Các loài chim lại kéo nhau lên tâu: Thưa Trời, Thiên Lôi cứ đuổi khắp anh em chúng con,",
+        "còn khổ hơn cả con Tối mắt nữa! Trời gọi Thiên Lôi về hỏi.",
+        "Thiên Lôi thưa: Chim nào cũng một màu, con biết tìm đâu ra?",
+        "Trời gật gù: Thế thì xuống bảo Long thần,",
+        "Thổ địa tô cho mỗi loài một màu riêng để mà nhận ra."
+      ],
+      "image": {
+        "character": "ong-troi",
+        "prompt": "in the sky palace on soft clouds, the kind old sky emperor listens to a crowd of tired white birds, the chubby thunder god kneels and explains with an embarrassed face",
+        "seed": 4266018196
+      },
+      "video": {
+        "motionPrompt": "the birds flap and chatter, the thunder god bows his head, the old sky emperor strokes his white beard and nods, golden light glows",
+        "seed": 2846790814
+      },
+      "voice": {}
+    },
+    {
+      "id": "to-mau",
+      "title": "Tô màu cho các loài chim",
+      "narrator": "ke-chuyen",
+      "narration": "Thế là ở dưới trần gian mở một hội tô màu thật vui. Long thần, Thổ địa cầm bút, pha đủ sắc xanh, đỏ, tím, vàng. Chim nào đến trước được tô trước. Con được đôi cánh xanh biếc, con được cái mào đỏ chót, con được cái bụng vàng tươi. Chim nào cũng ríu rít soi bóng xuống nước, khen nhau đẹp. Chỉ có chú cò là mãi chẳng thấy đâu.",
+      "subtitles": [
+        "Thế là ở dưới trần gian mở một hội tô màu thật vui.",
+        "Long thần, Thổ địa cầm bút, pha đủ sắc xanh, đỏ, tím, vàng.",
+        "Chim nào đến trước được tô trước.",
+        "Con được đôi cánh xanh biếc, con được cái mào đỏ chót, con được cái bụng vàng tươi.",
+        "Chim nào cũng ríu rít soi bóng xuống nước, khen nhau đẹp.",
+        "Chỉ có chú cò là mãi chẳng thấy đâu."
+      ],
+      "image": {
+        "prompt": "a joyful colouring festival in a meadow, two kind old spirits with paint brushes and pots of bright colours paint birds one by one, birds admire their new colourful feathers in a pond",
+        "seed": 1176677867
+      },
+      "video": {
+        "motionPrompt": "brushes swish and colours bloom on the feathers, birds twirl to look at themselves in the water, petals and sparkles float, cheerful mood",
+        "seed": 4205937219
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-den-muon",
+      "title": "Chú cò đến muộn",
+      "narrator": "ke-chuyen",
+      "narration": "Mãi đến lúc hội sắp tàn, cò mới lò dò tới. Thiên Lôi hỏi: Sao giờ này mới đến? Cò ấp úng: Con ngủ quên ạ. Thiên Lôi mắng: Ngủ gì mà lâu thế, chỉ nói láo! Cò lại bảo: Đêm qua con phải đi canh cái đó bắt cá. Long thần, Thổ địa nghiêm mặt: Cái đó ở đâu? Nói dối là sẽ bị phạt đấy! Cò cúi đầu, thú thật: Đêm qua con lén đi bắt trộm mấy con tép của người ta. Thiên Lôi bảo: Đã biết nhận lỗi thì ta tha. Nhưng ta chỉ chấm cho một dấu nhỏ ở mỏ, còn lông thì để trắng nguyên, để đêm con đi đâu, ai cũng nhìn thấy rõ.",
+      "subtitles": [
+        "Mãi đến lúc hội sắp tàn, cò mới lò dò tới. Thiên Lôi hỏi: Sao giờ này mới đến?",
+        "Cò ấp úng: Con ngủ quên ạ. Thiên Lôi mắng: Ngủ gì mà lâu thế, chỉ nói láo!",
+        "Cò lại bảo: Đêm qua con phải đi canh cái đó bắt cá.",
+        "Long thần, Thổ địa nghiêm mặt: Cái đó ở đâu? Nói dối là sẽ bị phạt đấy!",
+        "Cò cúi đầu, thú thật: Đêm qua con lén đi bắt trộm mấy con tép của người ta.",
+        "Thiên Lôi bảo: Đã biết nhận lỗi thì ta tha.",
+        "Nhưng ta chỉ chấm cho một dấu nhỏ ở mỏ, còn lông thì để trắng nguyên, để đêm con đi đâu,",
+        "ai cũng nhìn thấy rõ."
+      ],
+      "image": {
+        "character": "co",
+        "prompt": "the slim white egret arrives late at the end of the festival, head bowed and shy, the chubby thunder god and the two old spirits look at him with serious but kind faces, one paints a tiny dark dot on his beak",
+        "seed": 2389160143
+      },
+      "video": {
+        "motionPrompt": "the egret tiptoes in slowly, lowers his head, a brush gently taps a small dot on his beak, the thunder god wags a finger, then smiles",
+        "seed": 3630352969
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thế là từ đó, cò là loài chim có bộ lông trắng hơn cả. Các bạn thấy không, chú cò đã nói dối, nhưng khi chịu thật thà nhận lỗi thì được tha. Mình làm sai cũng đừng giấu, cứ nói thật ra là ai cũng thương. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Thế là từ đó, cò là loài chim có bộ lông trắng hơn cả.",
+        "Các bạn thấy không, chú cò đã nói dối, nhưng khi chịu thật thà nhận lỗi thì được tha.",
+        "Mình làm sai cũng đừng giấu, cứ nói thật ra là ai cũng thương.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the edge of a green rice field, a white egret walks gracefully in the water, colourful birds sit on a bamboo branch above",
+        "seed": 2987955336
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the egret lifts off and glides over the rice field, the colourful birds chirp, sunset light, gentle camera pull-back",
+        "seed": 1931372112
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Vietnamese countryside melody, bamboo flute and dan tranh zither with light bird-like chimes, playful then warm, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 620924439
+  }
+}

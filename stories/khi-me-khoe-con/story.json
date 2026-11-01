@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "slug": "khi-me-khoe-con",
+  "shelf": "world",
+  "title": "Khỉ mẹ khoe con",
+  "summary": "Thần Dớt mở cuộc thi tìm đứa con đẹp nhất của muôn loài. Khỉ mẹ bế đứa con mũi tẹt, ít lông đến dự, ai nấy cười ồ, nhưng câu trả lời của khỉ mẹ làm cả rừng lặng đi. Ngụ ngôn Aesop ấm áp về tình mẹ.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, a sunny mountain meadow with white marble columns and soft clouds, many friendly animal mothers with their babies, warm golden light, gentle rounded expressive characters, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "khi-me",
+      "name": "Khỉ mẹ",
+      "seed": 2292500332,
+      "sheetPrompt": "a loving mother monkey with soft brown fur, a gentle smile and warm proud eyes, cradling a baby in her arms, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "khi-con",
+      "name": "Khỉ con",
+      "seed": 669288024,
+      "sheetPrompt": "a tiny baby monkey with a flat little nose, big ears, sparse wispy fur and huge shining eyes, adorable and a bit funny-looking, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "than-dot",
+      "name": "Thần Dớt",
+      "seed": 3296222124,
+      "sheetPrompt": "a kindly bearded Greek god with flowing white hair, a laurel wreath and a pale blue robe, seated on a cloud, warm fatherly expression, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "loi-rao",
+      "title": "Lời rao của thần Dớt",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, thần Dớt, vua của các vị thần, ngự trên đỉnh núi cao giữa những đám mây. Một hôm, thần cho truyền khắp rừng: “Muông thú nghe đây! Ai có đứa con đẹp nhất, ta sẽ ban cho một phần thưởng thật quý.” Tin lan đi, khắp rừng nhộn nhịp hẳn lên.",
+      "subtitles": [
+        "Ngày xưa, thần Dớt, vua của các vị thần, ngự trên đỉnh núi cao giữa những đám mây.",
+        "Một hôm, thần cho truyền khắp rừng: “Muông thú nghe đây!",
+        "Ai có đứa con đẹp nhất, ta sẽ ban cho một phần thưởng thật quý.”",
+        "Tin lan đi, khắp rừng nhộn nhịp hẳn lên."
+      ],
+      "image": {
+        "character": "than-dot",
+        "prompt": "a kindly bearded god seated on a soft cloud above a mountain meadow with white marble columns, animals below looking up with excitement",
+        "seed": 324373501
+      },
+      "video": {
+        "motionPrompt": "the clouds drift gently, the god raises his hand, birds fly off carrying the news across the forest",
+        "seed": 4191744622
+      },
+      "voice": {}
+    },
+    {
+      "id": "cac-me",
+      "title": "Các mẹ đưa con tới",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, các bà mẹ bế con tới đồng cỏ dưới chân núi. Hươu mẹ dắt chú hươu con chân thon, mắt to tròn. Công mẹ dẫn công con lông óng ánh. Thỏ mẹ ôm chú thỏ con trắng như bông. Mẹ nào cũng chải chuốt cho con thật đẹp, ngồi thành hàng chờ thần chấm.",
+      "subtitles": [
+        "Sáng hôm sau, các bà mẹ bế con tới đồng cỏ dưới chân núi.",
+        "Hươu mẹ dắt chú hươu con chân thon, mắt to tròn.",
+        "Công mẹ dẫn công con lông óng ánh.",
+        "Thỏ mẹ ôm chú thỏ con trắng như bông.",
+        "Mẹ nào cũng chải chuốt cho con thật đẹp, ngồi thành hàng chờ thần chấm."
+      ],
+      "image": {
+        "prompt": "many animal mothers proudly presenting their babies in a sunny meadow, a doe with a fawn, a peahen with a chick, a rabbit with a fluffy white bunny, all neatly groomed",
+        "seed": 540511252
+      },
+      "video": {
+        "motionPrompt": "the mothers groom their babies, the fawn wobbles, the bunny twitches its nose, flowers sway",
+        "seed": 2396183486
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuoi-o",
+      "title": "Cả rừng cười ồ",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng, khỉ mẹ bước tới, tay bế khỉ con. Khỉ con mũi tẹt, tai to, lông lơ thơ mấy sợi, trông thật buồn cười. Muông thú nhìn thấy, chẳng nhịn được, cười ồ cả lên. Có tiếng xì xào: “Con thế kia mà cũng đi thi đẹp à?”",
+      "subtitles": [
+        "Cuối cùng, khỉ mẹ bước tới, tay bế khỉ con.",
+        "Khỉ con mũi tẹt, tai to, lông lơ thơ mấy sợi, trông thật buồn cười.",
+        "Muông thú nhìn thấy, chẳng nhịn được, cười ồ cả lên.",
+        "Có tiếng xì xào: “Con thế kia mà cũng đi thi đẹp à?”"
+      ],
+      "image": {
+        "character": "khi-con",
+        "prompt": "a mother monkey walking proudly into the meadow holding a funny-looking baby monkey with a flat nose and wispy fur, other animals laughing behind their paws",
+        "seed": 1741767129
+      },
+      "video": {
+        "motionPrompt": "the mother monkey walks forward, the animals giggle and point, the baby monkey blinks its big eyes",
+        "seed": 3664014580
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-me",
+      "title": "Lời của mẹ",
+      "narrator": "ke-chuyen",
+      "narration": "Khỉ mẹ không cúi đầu, cũng chẳng giận ai. Bà ôm con sát vào lòng, nói thật rõ ràng: “Tôi không biết thần Dớt sẽ trao thưởng cho ai. Nhưng tôi biết chắc một điều. Trong mắt người mẹ này, con tôi là đứa bé đáng yêu nhất, xinh đẹp nhất trên đời.” Nói rồi, khỉ mẹ hôn lên cái mũi tẹt của con.",
+      "subtitles": [
+        "Khỉ mẹ không cúi đầu, cũng chẳng giận ai.",
+        "Bà ôm con sát vào lòng, nói thật rõ ràng: “Tôi không biết thần Dớt sẽ trao thưởng cho ai.",
+        "Nhưng tôi biết chắc một điều.",
+        "Trong mắt người mẹ này, con tôi là đứa bé đáng yêu nhất, xinh đẹp nhất trên đời.”",
+        "Nói rồi, khỉ mẹ hôn lên cái mũi tẹt của con."
+      ],
+      "image": {
+        "character": "khi-me",
+        "prompt": "a mother monkey hugging her baby close and kissing its flat little nose, standing tall and calm, the meadow animals falling quiet",
+        "seed": 1258221705
+      },
+      "video": {
+        "motionPrompt": "the mother monkey hugs her baby tightly and kisses its nose, the laughing animals slowly fall silent",
+        "seed": 3983996839
+      },
+      "voice": {}
+    },
+    {
+      "id": "lang-im",
+      "title": "Cả rừng lặng im",
+      "narrator": "ke-chuyen",
+      "narration": "Cả đồng cỏ lặng im. Hươu mẹ, công mẹ, thỏ mẹ đều nhìn xuống đứa con của mình và mỉm cười, vì mẹ nào cũng nghĩ y như thế. Trên mây cao, thần Dớt khẽ gật đầu, mắt hiền như nắng sớm. Các bạn nhỏ ạ, với mẹ, con mình luôn là đứa con đẹp nhất trên đời.",
+      "subtitles": [
+        "Cả đồng cỏ lặng im.",
+        "Hươu mẹ, công mẹ, thỏ mẹ đều nhìn xuống đứa con của mình và mỉm cười,",
+        "vì mẹ nào cũng nghĩ y như thế.",
+        "Trên mây cao, thần Dớt khẽ gật đầu, mắt hiền như nắng sớm.",
+        "Các bạn nhỏ ạ, với mẹ, con mình luôn là đứa con đẹp nhất trên đời."
+      ],
+      "image": {
+        "character": "khi-me",
+        "prompt": "all the animal mothers in the meadow smiling down at their own babies, the mother monkey cuddling her baby in the centre, the god smiling from his cloud, golden light",
+        "seed": 3722315917
+      },
+      "video": {
+        "motionPrompt": "the mothers nuzzle their babies, the god nods softly, warm sunlight spreads across the meadow",
+        "seed": 22085081
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm tender lullaby music, harp, flute and soft strings, a playful teasing interlude on pizzicato and bassoon, a loving motherly theme on cello, a gentle glowing ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3657758743
+  }
+}

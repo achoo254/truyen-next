@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "slug": "thu-huon-di-cho-am-duong",
+  "shelf": "adults",
+  "title": "Thủ Huồn đi chợ âm dương",
+  "summary": "Thủ Huồn, viên thơ lại giàu lên nhờ ức hiếp dân lành ở Gia Định, gặp lại người vợ quá cố ở phiên chợ âm dương và theo bà xuống âm phủ. Thấy chiếc gông khổng lồ chờ sẵn cho chính mình, ông về dốc hết của cải bố thí, lập nên Nhà Bè và ngôi chùa mang tên ông ở Biên Hòa.",
+  "themes": [
+    "thien-ac",
+    "su-tich",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Nam Bộ, truyện số 33 «Histoire du thủ Huồn» trong Contes et légendes annamites của A. Landes (Sài Gòn, 1886), sách thuộc phạm vi công cộng. Lời kể viết mới hoàn toàn bằng tiếng Việt, chỉ theo cốt truyện Landes chép lại; không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Việt Nam, A. Landes chép (1886)",
+  "style": "classical Vietnamese silk painting (tranh lua) illustration, fine ink linework, washes of river brown, deep green, indigo and muted gold on aged silk, southern Vietnam of the late eighteenth century with wide rivers, bamboo rafts and a market at dusk, an underworld of shadowy halls and pale lanterns, solemn and moral mood for adult readers, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "thu-huon",
+      "name": "Thủ Huồn",
+      "sheetPrompt": "Thu Huon, a wealthy former clerk of Gia Dinh in his fifties, plump shrewd face with a thin moustache and small beard, black turban, rich dark brown silk robe, an abacus tucked in his sash, later humble and remorseful, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 3325690209
+    },
+    {
+      "id": "vo-thu-huon",
+      "name": "Vợ Thủ Huồn",
+      "sheetPrompt": "the spirit of Thu Huon late wife, a gentle Vietnamese woman in her forties, pale serene face, hair in a neat bun, a faded light grey ao tu than with a white scarf, slightly translucent with a soft cool glow, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 3063756027
+    },
+    {
+      "id": "diem-vuong",
+      "name": "Vị quan coi ngục âm phủ",
+      "sheetPrompt": "a stern judge of the Vietnamese underworld, imposing figure in dark crimson and black robes with a tall official hat, heavy black beard, holding a ledger and a brush, shadowy hall behind him, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 3742479110
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tho-lai-gia-dinh",
+      "title": "Viên thơ lại Gia Định",
+      "narrator": "ke-chuyen",
+      "narration": "Ở đất Gia Định ngày trước có một người được gọi là Thủ Huồn. Ông làm thơ lại, một chức thư ký nhỏ nơi cửa quan. Chức nhỏ nhưng lòng tham thì lớn. Ông làm nhiều việc bất công, chỉ chăm chăm kiếm lợi trên lưng người khác. Năm này qua năm khác, của cải chất đầy nhà, ông trở nên giàu có nhất vùng. Rồi vợ ông qua đời. Ông thôi việc ở cửa quan. Hai vợ chồng không có con, nhìn đống của cải mà chẳng biết để lại cho ai, Thủ Huồn buồn rầu lắm.",
+      "subtitles": [
+        "Ở đất Gia Định ngày trước có một người được gọi là Thủ Huồn.",
+        "Ông làm thơ lại, một chức thư ký nhỏ nơi cửa quan.",
+        "Chức nhỏ nhưng lòng tham thì lớn.",
+        "Ông làm nhiều việc bất công, chỉ chăm chăm kiếm lợi trên lưng người khác.",
+        "Năm này qua năm khác, của cải chất đầy nhà, ông trở nên giàu có nhất vùng.",
+        "Rồi vợ ông qua đời.",
+        "Ông thôi việc ở cửa quan.",
+        "Hai vợ chồng không có con, nhìn đống của cải mà chẳng biết để lại cho ai,",
+        "Thủ Huồn buồn rầu lắm."
+      ],
+      "image": {
+        "prompt": "a rich house in old Gia Dinh with chests of silver and silk, the clerk Thu Huon sitting alone at a table beside an abacus, a funeral altar with a woman portrait and incense in the background",
+        "seed": 344492654,
+        "character": "thu-huon"
+      },
+      "video": {
+        "motionPrompt": "incense smoke drifts from the altar, the man slowly pushes aside the abacus and stares at the empty room",
+        "seed": 1659342584
+      },
+      "voice": {}
+    },
+    {
+      "id": "cho-am-duong",
+      "title": "Phiên chợ âm dương",
+      "narrator": "ke-chuyen",
+      "narration": "Để khuây khoả, Thủ Huồn quyết đi ra Bắc mua đồ cổ, vật quý. Ra tới tỉnh Quảng Yên, ông ghé chợ Mãnh Ma. Đó là một phiên chợ lạ, người sống và người chết cùng đến họp, buôn bán qua lại, nên dân gian quen gọi là chợ âm dương. Đi giữa chợ đông, Thủ Huồn bỗng sững người. Người đàn bà đứng trước mặt ông chính là vợ ông, từ dưới âm phủ lên chợ. Hai vợ chồng gặp lại nhau, mừng mừng tủi tủi, nắm tay nhau mãi không rời.",
+      "subtitles": [
+        "Để khuây khoả, Thủ Huồn quyết đi ra Bắc mua đồ cổ, vật quý.",
+        "Ra tới tỉnh Quảng Yên, ông ghé chợ Mãnh Ma.",
+        "Đó là một phiên chợ lạ, người sống và người chết cùng đến họp, buôn bán qua lại,",
+        "nên dân gian quen gọi là chợ âm dương.",
+        "Đi giữa chợ đông, Thủ Huồn bỗng sững người.",
+        "Người đàn bà đứng trước mặt ông chính là vợ ông, từ dưới âm phủ lên chợ.",
+        "Hai vợ chồng gặp lại nhau, mừng mừng tủi tủi, nắm tay nhau mãi không rời."
+      ],
+      "image": {
+        "prompt": "a misty dusk market by a river in Quang Yen, living people and pale translucent spirits trading side by side among lanterns and stalls, Thu Huon meeting his late wife who glows softly",
+        "seed": 1578615228,
+        "character": "vo-thu-huon"
+      },
+      "video": {
+        "motionPrompt": "lanterns sway in the mist, pale figures drift between stalls, the husband and wife slowly reach for each other hands",
+        "seed": 2551980557
+      },
+      "voice": {}
+    },
+    {
+      "id": "xuong-am-phu",
+      "title": "Theo vợ xuống âm phủ",
+      "narrator": "ke-chuyen",
+      "narration": "Thủ Huồn hỏi: \"Từ ngày xuống dưới ấy, mình làm gì?\" Bà đáp: \"Tôi làm vú nuôi con của vua dưới âm phủ, sung sướng lắm.\" Ông nói: \"Vợ chồng ta ăn ở với nhau bao năm. Từ ngày mình mất, tôi thương nhớ khôn nguôi. Nay đã gặp lại, mình phải dẫn tôi theo xuống dưới ấy cho tôi xem cho biết.\" Bà ngần ngừ một lúc rồi bảo: \"Muốn đi thì đi, nhưng ông không ở lâu được đâu. Ba bốn ngày là phải về.\" Thế là hai vợ chồng cùng nhau xuống âm phủ.",
+      "subtitles": [
+        "Thủ Huồn hỏi: \"Từ ngày xuống dưới ấy, mình làm gì?\"",
+        "Bà đáp: \"Tôi làm vú nuôi con của vua dưới âm phủ, sung sướng lắm.\"",
+        "Ông nói: \"Vợ chồng ta ăn ở với nhau bao năm.",
+        "Từ ngày mình mất, tôi thương nhớ khôn nguôi.",
+        "Nay đã gặp lại, mình phải dẫn tôi theo xuống dưới ấy cho tôi xem cho biết.\"",
+        "Bà ngần ngừ một lúc rồi bảo: \"Muốn đi thì đi, nhưng ông không ở lâu được đâu.",
+        "Ba bốn ngày là phải về.\"",
+        "Thế là hai vợ chồng cùng nhau xuống âm phủ."
+      ],
+      "image": {
+        "prompt": "the husband and his glowing spirit wife walking hand in hand down a long misty stairway into the underworld, pale lanterns lining the way, dark halls with curved roofs below",
+        "seed": 855391885,
+        "character": "thu-huon"
+      },
+      "video": {
+        "motionPrompt": "they descend slowly into thickening mist, pale lanterns flicker one by one as they pass",
+        "seed": 1663983821
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-gong",
+      "title": "Chiếc gông bỏ trống",
+      "narrator": "ke-chuyen",
+      "narration": "Xuống tới nơi, bà giấu chồng trong gian bếp. Nhưng Thủ Huồn không chịu ngồi yên. Ông muốn đi xem các phòng ngục, xem người sống khi chết đi sẽ bị trị tội ra sao. Bà đành dẫn ông đi. Đến một gian, ông thấy một chiếc gông to khủng khiếp, nặng nề, đặt ở đó mà chưa ai đeo. Ông rùng mình sợ hãi, bảo vợ đưa đến gặp vị quan coi ngục, rồi hỏi: \"Sao chiếc gông này lại để trống?\" Vị quan đáp: \"Ta để dành nó cho Thủ Huồn.\"",
+      "subtitles": [
+        "Xuống tới nơi, bà giấu chồng trong gian bếp.",
+        "Nhưng Thủ Huồn không chịu ngồi yên.",
+        "Ông muốn đi xem các phòng ngục, xem người sống khi chết đi sẽ bị trị tội ra sao.",
+        "Bà đành dẫn ông đi.",
+        "Đến một gian, ông thấy một chiếc gông to khủng khiếp, nặng nề, đặt ở đó mà chưa ai đeo.",
+        "Ông rùng mình sợ hãi, bảo vợ đưa đến gặp vị quan coi ngục, rồi hỏi:",
+        "\"Sao chiếc gông này lại để trống?\"",
+        "Vị quan đáp: \"Ta để dành nó cho Thủ Huồn.\""
+      ],
+      "image": {
+        "prompt": "a gloomy underworld prison hall with stone pillars and pale blue light, an enormous heavy wooden cangue standing empty in the center, Thu Huon recoiling in fear before a stern underworld judge",
+        "seed": 3268761948,
+        "character": "diem-vuong"
+      },
+      "video": {
+        "motionPrompt": "cold mist swirls around the enormous cangue, the judge lifts his gaze slowly, the man steps back trembling",
+        "seed": 4174445312
+      },
+      "voice": {}
+    },
+    {
+      "id": "toi-trang",
+      "title": "Tội trạng của Thủ Huồn",
+      "narrator": "ke-chuyen",
+      "narration": "Thủ Huồn làm như không biết, hỏi tiếp: \"Thủ Huồn ấy trên trần gian đã gây tội gì?\" Vị quan giở sổ, nói: \"Khi làm thơ lại, ai lỡ phạm lỗi nhỏ, hắn cũng xoay cho thành tội chết. Qua tay hắn, kẻ vô tội hoá ra có tội. Hắn cho vay nặng lãi, lãi mẹ đẻ lãi con, đến mức gấp mấy lần vốn. Hắn đã bao phen bỏ cả đạo làm người.\" Thủ Huồn lại hỏi: \"Thế vợ hắn có bị phạt không?\" Vị quan đáp: \"Không. Tội ấy là của chồng, chỉ một mình chồng chịu.\"",
+      "subtitles": [
+        "Thủ Huồn làm như không biết, hỏi tiếp: \"Thủ Huồn ấy trên trần gian đã gây tội gì?\"",
+        "Vị quan giở sổ, nói: \"Khi làm thơ lại, ai lỡ phạm lỗi nhỏ,",
+        "hắn cũng xoay cho thành tội chết.",
+        "Qua tay hắn, kẻ vô tội hoá ra có tội.",
+        "Hắn cho vay nặng lãi, lãi mẹ đẻ lãi con, đến mức gấp mấy lần vốn.",
+        "Hắn đã bao phen bỏ cả đạo làm người.\"",
+        "Thủ Huồn lại hỏi: \"Thế vợ hắn có bị phạt không?\"",
+        "Vị quan đáp: \"Không.",
+        "Tội ấy là của chồng, chỉ một mình chồng chịu.\""
+      ],
+      "image": {
+        "prompt": "the underworld judge reading from an open ledger with a stern expression, Thu Huon standing pale and sweating before him, the glowing wife lowering her eyes beside him",
+        "seed": 4166848796,
+        "character": "diem-vuong"
+      },
+      "video": {
+        "motionPrompt": "ledger pages turn slowly in a cold draft, the judge points at a line, the man wipes his brow",
+        "seed": 2068597264
+      },
+      "voice": {}
+    },
+    {
+      "id": "bo-thi",
+      "title": "Bố thí để chuộc lỗi",
+      "narrator": "ke-chuyen",
+      "narration": "Thủ Huồn run run hỏi phải làm gì để rửa được tội. Vị quan bảo phải đem của cải ra làm chay, cúng lễ và bố thí cho kẻ nghèo. Thủ Huồn vội xin vợ đưa mình trở lên chợ Mãnh Ma, rồi đi một mạch về Gia Định. Về nhà, ông mời các nhà sư đến làm lễ, mở kho phát của cho người nghèo khó. Ba năm ròng như thế, ông đã tiêu hết bảy phần mười gia sản. Rồi ông lại tìm ra chợ Mãnh Ma, chờ gặp vợ, xin xuống âm phủ một lần nữa xem chiếc gông dành cho mình ra sao.",
+      "subtitles": [
+        "Thủ Huồn run run hỏi phải làm gì để rửa được tội.",
+        "Vị quan bảo phải đem của cải ra làm chay, cúng lễ và bố thí cho kẻ nghèo.",
+        "Thủ Huồn vội xin vợ đưa mình trở lên chợ Mãnh Ma, rồi đi một mạch về Gia Định.",
+        "Về nhà, ông mời các nhà sư đến làm lễ, mở kho phát của cho người nghèo khó.",
+        "Ba năm ròng như thế, ông đã tiêu hết bảy phần mười gia sản.",
+        "Rồi ông lại tìm ra chợ Mãnh Ma, chờ gặp vợ,",
+        "xin xuống âm phủ một lần nữa xem chiếc gông dành cho mình ra sao."
+      ],
+      "image": {
+        "prompt": "the courtyard of Thu Huon house in Gia Dinh, monks chanting before an altar while the man personally hands out sacks of rice and strings of coins to a long line of poor villagers",
+        "seed": 960763261,
+        "character": "thu-huon"
+      },
+      "video": {
+        "motionPrompt": "monks chant and bow, the line of poor people moves forward, sacks of rice pass from hand to hand",
+        "seed": 3751489901
+      },
+      "voice": {}
+    },
+    {
+      "id": "gong-nho-lai",
+      "title": "Chiếc gông nhỏ lại",
+      "narrator": "ke-chuyen",
+      "narration": "Bà vợ bằng lòng dẫn ông xuống. Đến gian ngục cũ, Thủ Huồn thấy chiếc gông đã nhỏ lại, chỉ còn bằng một phần mười ngày trước. Ông mừng rỡ, đến hỏi vị quan coi ngục vì sao chiếc gông to là thế mà nay lại nhỏ đi nhiều như vậy. Vị quan đáp: \"Ấy là vì ở trên trần, Thủ Huồn đã làm chay, đã bố thí, nên tội lỗi nhẹ bớt, gông cũng nhỏ đi. Nếu hắn đem bố thí hết của cải thì chiếc gông sẽ chẳng còn.\"",
+      "subtitles": [
+        "Bà vợ bằng lòng dẫn ông xuống.",
+        "Đến gian ngục cũ, Thủ Huồn thấy chiếc gông đã nhỏ lại,",
+        "chỉ còn bằng một phần mười ngày trước.",
+        "Ông mừng rỡ,",
+        "đến hỏi vị quan coi ngục vì sao chiếc gông to là thế mà nay lại nhỏ đi nhiều như vậy.",
+        "Vị quan đáp: \"Ấy là vì ở trên trần, Thủ Huồn đã làm chay, đã bố thí, nên tội lỗi nhẹ bớt,",
+        "gông cũng nhỏ đi.",
+        "Nếu hắn đem bố thí hết của cải thì chiếc gông sẽ chẳng còn.\""
+      ],
+      "image": {
+        "prompt": "the same gloomy underworld hall, the once enormous cangue now shrunk to a small wooden frame, Thu Huon smiling with relief while the judge nods, the wife glowing softly behind",
+        "seed": 2521788260,
+        "character": "thu-huon"
+      },
+      "video": {
+        "motionPrompt": "the small cangue sits in a beam of pale light, the man smiles and bows deeply, mist thins around them",
+        "seed": 2806241564
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-be",
+      "title": "Nhà Bè",
+      "narrator": "ke-chuyen",
+      "narration": "Thủ Huồn trở lên trần gian, lại làm một đại lễ nữa. Rồi ông dựng một ngôi nhà trên chiếc bè tre, đậu ở chỗ sông Đồng Nai gặp sông Sài Gòn. Ghe thuyền qua lại nơi ấy, ai đói thì ông cho gạo, ai thiếu thì ông cho tiền, cho đồ ăn, cho cả nồi niêu. Ông cứ phát như thế cho đến khi của cải không còn gì. Chỗ ấy đến nay người ta vẫn gọi là Nhà Bè. Ông còn bỏ tiền dựng một ngôi chùa ở Biên Hòa, dân gọi theo tên ông là chùa Thủ Huồn.",
+      "subtitles": [
+        "Thủ Huồn trở lên trần gian, lại làm một đại lễ nữa.",
+        "Rồi ông dựng một ngôi nhà trên chiếc bè tre, đậu ở chỗ sông Đồng Nai gặp sông Sài Gòn.",
+        "Ghe thuyền qua lại nơi ấy, ai đói thì ông cho gạo, ai thiếu thì ông cho tiền, cho đồ ăn,",
+        "cho cả nồi niêu.",
+        "Ông cứ phát như thế cho đến khi của cải không còn gì.",
+        "Chỗ ấy đến nay người ta vẫn gọi là Nhà Bè.",
+        "Ông còn bỏ tiền dựng một ngôi chùa ở Biên Hòa, dân gọi theo tên ông là chùa Thủ Huồn."
+      ],
+      "image": {
+        "prompt": "a house built on a large bamboo raft at the confluence of two wide southern rivers, boats crowding around as Thu Huon hands out rice, coins, food and clay pots, a small pagoda roof visible on the distant bank",
+        "seed": 1170588276,
+        "character": "thu-huon"
+      },
+      "video": {
+        "motionPrompt": "river currents meet and swirl, boats bob alongside the raft, hands reach up as baskets of rice are passed down",
+        "seed": 1052177725
+      },
+      "voice": {}
+    },
+    {
+      "id": "giac-mong-cuoi",
+      "title": "Giấc mộng cuối",
+      "narrator": "ke-chuyen",
+      "narration": "Một đêm, Thủ Huồn nằm mơ thấy một vị thần hiện ra bảo rằng nhờ lòng ham bố thí, chẳng những tội lỗi của ông đã được xoá sạch, mà kiếp sau ông còn được hưởng phúc lớn. Giấc mộng ấy thực hư ra sao, người kể chuyện năm xưa cũng không dám chắc. Chỉ biết rằng Thủ Huồn sống những ngày còn lại thanh thản, không còn nặng lòng vì đống của cải. Ngôi chùa ở Biên Hòa ngày ngày khói hương nghi ngút.",
+      "subtitles": [
+        "Một đêm, Thủ Huồn nằm mơ thấy một vị thần hiện ra bảo rằng nhờ lòng ham bố thí,",
+        "chẳng những tội lỗi của ông đã được xoá sạch, mà kiếp sau ông còn được hưởng phúc lớn.",
+        "Giấc mộng ấy thực hư ra sao, người kể chuyện năm xưa cũng không dám chắc.",
+        "Chỉ biết rằng Thủ Huồn sống những ngày còn lại thanh thản,",
+        "không còn nặng lòng vì đống của cải.",
+        "Ngôi chùa ở Biên Hòa ngày ngày khói hương nghi ngút."
+      ],
+      "image": {
+        "prompt": "Thu Huon asleep in a simple room on the raft at night, a radiant divine figure in white and gold appearing in a cloud of light above him, the river glimmering under the moon",
+        "seed": 465692857,
+        "character": "thu-huon"
+      },
+      "video": {
+        "motionPrompt": "soft golden light blooms above the sleeper, the divine figure gestures gently, river reflections shimmer",
+        "seed": 3919493604
+      },
+      "voice": {}
+    },
+    {
+      "id": "chu-do-tren-tay",
+      "title": "Hàng chữ đỏ trên bàn tay",
+      "narrator": "ke-chuyen",
+      "narration": "Về sau, vào thời vua Đạo Quang bên Tàu, triều đình nước Nam nhận được một bức thư, hỏi rằng ở đất Gia Định có từng có người tên Thủ Huồn không. Nhà vua trả lời là có, rồi hỏi lại vì sao lại hỏi như thế. Bên kia đáp rằng khi vua Đạo Quang ra đời, trong lòng bàn tay có mấy chữ đỏ: Thủ Huồn ở Gia Định, nước cực Nam. Người ta mới biết Thủ Huồn đã đầu thai làm hoàng đế. Vua Đạo Quang sau đó gửi sang tặng chùa Thủ Huồn ở Biên Hòa ba pho tượng Phật bằng vàng.",
+      "subtitles": [
+        "Về sau, vào thời vua Đạo Quang bên Tàu, triều đình nước Nam nhận được một bức thư,",
+        "hỏi rằng ở đất Gia Định có từng có người tên Thủ Huồn không.",
+        "Nhà vua trả lời là có, rồi hỏi lại vì sao lại hỏi như thế.",
+        "Bên kia đáp rằng khi vua Đạo Quang ra đời, trong lòng bàn tay có mấy chữ đỏ:",
+        "Thủ Huồn ở Gia Định, nước cực Nam.",
+        "Người ta mới biết Thủ Huồn đã đầu thai làm hoàng đế.",
+        "Vua Đạo Quang sau đó gửi sang tặng chùa Thủ Huồn ở Biên Hòa ba pho tượng Phật bằng vàng."
+      ],
+      "image": {
+        "prompt": "a Chinese imperial nursery with a newborn prince whose small palm shows faint red characters, then three golden Buddha statues being carried into a small Vietnamese pagoda at Bien Hoa",
+        "seed": 596505255
+      },
+      "video": {
+        "motionPrompt": "the newborn opens his tiny hand revealing glowing red marks, then golden statues gleam as they are carried into the pagoda",
+        "seed": 931657771
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "southern Vietnamese traditional instrumental, dan kim moon lute and dan tranh with soft Buddhist temple bells and wooden fish, gentle river ambience, solemn then peaceful and redemptive, slow tempo, no vocals",
+    "durationSeconds": 180,
+    "seed": 3936153902
+  }
+}

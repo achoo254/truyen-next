@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "slug": "cai-lo-sat",
+  "shelf": "world",
+  "title": "Cái lò sắt",
+  "summary": "Nàng công chúa lạc trong rừng gặp một cái lò sắt biết nói, bên trong là chàng hoàng tử bị phù phép. Giữ lời hứa rồi lỡ lời, nàng phải vượt núi thủy tinh, ba lưỡi gươm và hồ lớn để tìm lại chàng. Truyện cổ Grimm về lời hứa và lòng chung thủy, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der Eisenofen\" (Kinder- und Hausmärchen, bản 1857, truyện số 127), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Iron Stove\" của Margaret Hunt (1884, Project Gutenberg #5314). Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà và rút gọn đoạn ba đêm thành ba lần trao áo; lời đe doạ của chàng hoàng tử chỉ còn là \"cả vương quốc sẽ gặp chuyện chẳng lành\".",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a deep enchanted forest, a black iron stove among ferns, a glass mountain shining under the moon, a friendly toad house, a grand castle by a lake, warm golden light, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "seed": 3721369937,
+      "sheetPrompt": "a brave gentle princess from a German fairy tale, long dark-blonde hair in a loose braid, a simple rose travelling dress and a grey cloak, later a plain kitchen apron, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "seed": 459098874,
+      "sheetPrompt": "a handsome young prince from a German fairy tale, wavy black hair, a shining gold-embroidered jacket with jewels, kind dark eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba-coc-gia",
+      "name": "Bà cóc già",
+      "seed": 629664301,
+      "sheetPrompt": "a large kindly old toad from a German fairy tale wearing a tiny lace cap and shawl, sitting like a grandmother, warm wise eyes, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cai-lo-biet-noi",
+      "title": "Cái lò biết nói",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, thuở lời ước còn linh nghiệm, có một chàng hoàng tử bị mụ phù thuỷ phù phép nhốt vào một cái lò sắt giữa rừng sâu. Nhiều năm trôi qua, chẳng ai cứu được chàng. Một hôm, có nàng công chúa đi lạc, lang thang suốt chín ngày rồi dừng chân trước cái lò sắt. Từ trong lò có tiếng hỏi: \"Nàng từ đâu đến, định đi về đâu?\" Nàng đáp: \"Tôi lạc mất đường về vương quốc của cha tôi.\" Giọng nói bảo: \"Ta sẽ đưa nàng về thật nhanh, nếu nàng hứa quay lại đây cạo thủng lò sắt cho ta ra. Ta là con một ông vua còn lớn hơn cha nàng, và ta sẽ cưới nàng.\"",
+      "subtitles": [
+        "Ngày xưa, thuở lời ước còn linh nghiệm,",
+        "có một chàng hoàng tử bị mụ phù thuỷ phù phép nhốt vào một cái lò sắt giữa rừng sâu.",
+        "Nhiều năm trôi qua, chẳng ai cứu được chàng. Một hôm, có nàng công chúa đi lạc,",
+        "lang thang suốt chín ngày rồi dừng chân trước cái lò sắt.",
+        "Từ trong lò có tiếng hỏi: \"Nàng từ đâu đến, định đi về đâu?\"",
+        "Nàng đáp: \"Tôi lạc mất đường về vương quốc của cha tôi.\"",
+        "Giọng nói bảo: \"Ta sẽ đưa nàng về thật nhanh,",
+        "nếu nàng hứa quay lại đây cạo thủng lò sắt cho ta ra.",
+        "Ta là con một ông vua còn lớn hơn cha nàng, và ta sẽ cưới nàng.\""
+      ],
+      "image": {
+        "prompt": "a deep mossy forest, an old black iron stove standing alone among ferns and wildflowers, the lost princess in a grey cloak standing before it listening in surprise, soft green light",
+        "seed": 2995079105,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "mist drifts between the trees, a faint warm glow pulses from the stove door, the princess steps closer cautiously",
+        "seed": 4004550104
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-hua-va-hai-co-gai",
+      "title": "Lời hứa và hai cô gái",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng nghĩ: \"Lấy một cái lò sắt thì biết làm sao?\" Nhưng vì nhớ nhà, nàng đành hứa. Một người dẫn đường lặng lẽ đưa nàng về cung chỉ trong hai giờ. Nghe con kể, nhà vua lo quá, bèn sai con gái bác thợ xay đi thay. Cô cạo suốt một ngày một đêm mà lò chẳng sứt chút nào. Trời sáng, cô buột miệng: \"Hình như tôi nghe tiếng cối xay của cha tôi.\" Tiếng trong lò nói: \"Thì ra là con gái thợ xay. Về đi, bảo công chúa đến đây.\" Nhà vua lại cho con gái người chăn lợn đi thay, và cô cũng lộ ra khi nhắc đến tiếng tù và của cha. Lần này giọng trong lò nghiêm khắc: \"Nếu công chúa không đến, cả vương quốc sẽ gặp chuyện chẳng lành!\"",
+      "subtitles": [
+        "Nàng nghĩ: \"Lấy một cái lò sắt thì biết làm sao?\"",
+        "Nhưng vì nhớ nhà, nàng đành hứa.",
+        "Một người dẫn đường lặng lẽ đưa nàng về cung chỉ trong hai giờ.",
+        "Nghe con kể, nhà vua lo quá, bèn sai con gái bác thợ xay đi thay.",
+        "Cô cạo suốt một ngày một đêm mà lò chẳng sứt chút nào.",
+        "Trời sáng, cô buột miệng: \"Hình như tôi nghe tiếng cối xay của cha tôi.\"",
+        "Tiếng trong lò nói: \"Thì ra là con gái thợ xay.",
+        "Về đi, bảo công chúa đến đây.\" Nhà vua lại cho con gái người chăn lợn đi thay,",
+        "và cô cũng lộ ra khi nhắc đến tiếng tù và của cha.",
+        "Lần này giọng trong lò nghiêm khắc: \"Nếu công chúa không đến,",
+        "cả vương quốc sẽ gặp chuyện chẳng lành!\""
+      ],
+      "image": {
+        "prompt": "a miller's daughter scraping at the iron stove with a small knife at dawn, tired, a windmill visible far beyond the forest edge, the stove glowing faintly",
+        "seed": 3174818887
+      },
+      "video": {
+        "motionPrompt": "the miller's daughter scrapes but nothing happens, dawn light rises, a distant windmill turns slowly",
+        "seed": 4243399336
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoang-tu-ra-khoi-lo",
+      "title": "Hoàng tử ra khỏi lò",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa khóc, nhưng biết lời đã hứa thì phải giữ. Nàng từ biệt cha, bỏ một con dao nhỏ vào túi rồi vào rừng. Nàng vừa cạo, sắt đã mềm ra. Chưa đầy hai giờ, lò đã thủng một lỗ nhỏ. Nàng ghé mắt nhìn vào, thấy một chàng trai tuấn tú, áo lấp lánh vàng và ngọc. Nàng cạo tiếp đến khi lỗ đủ rộng cho chàng bước ra. Chàng nói: \"Nàng đã cứu ta, nàng là vợ của ta.\" Nàng xin về thăm cha một lần, chàng bằng lòng, nhưng dặn: \"Chỉ được nói với cha ba lời thôi.\"",
+      "subtitles": [
+        "Công chúa khóc, nhưng biết lời đã hứa thì phải giữ.",
+        "Nàng từ biệt cha, bỏ một con dao nhỏ vào túi rồi vào rừng.",
+        "Nàng vừa cạo, sắt đã mềm ra. Chưa đầy hai giờ, lò đã thủng một lỗ nhỏ.",
+        "Nàng ghé mắt nhìn vào, thấy một chàng trai tuấn tú, áo lấp lánh vàng và ngọc.",
+        "Nàng cạo tiếp đến khi lỗ đủ rộng cho chàng bước ra.",
+        "Chàng nói: \"Nàng đã cứu ta, nàng là vợ của ta.\"",
+        "Nàng xin về thăm cha một lần, chàng bằng lòng, nhưng dặn:",
+        "\"Chỉ được nói với cha ba lời thôi.\""
+      ],
+      "image": {
+        "prompt": "the princess kneeling by the iron stove, a glowing opening in its side, a handsome prince in shining gold-embroidered clothes stepping out and taking her hand, sunbeams in the forest",
+        "seed": 2518770569,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "golden light pours from the opening, the prince steps out and bows, the princess smiles shyly, leaves drift down",
+        "seed": 1058739256
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-loi-dan",
+      "title": "Ba lời dặn",
+      "narrator": "ke-chuyen",
+      "narration": "Về đến nhà, gặp cha mừng quá, nàng nói nhiều hơn ba lời. Lập tức cái lò sắt biến mất, bị đưa đi thật xa, qua núi thủy tinh và những lưỡi gươm sắc. Hoàng tử đã thoát khỏi lò, nhưng cũng đi mất theo nó. Nàng từ biệt cha lần nữa, mang theo chút tiền, vào rừng tìm chàng. Chín ngày tìm mãi chẳng thấy, đói lả, nàng trèo lên một cái cây nhỏ để ngủ qua đêm. Gần nửa đêm, nàng thấy xa xa le lói ánh đèn.",
+      "subtitles": [
+        "Về đến nhà, gặp cha mừng quá, nàng nói nhiều hơn ba lời.",
+        "Lập tức cái lò sắt biến mất, bị đưa đi thật xa, qua núi thủy tinh và những lưỡi gươm sắc.",
+        "Hoàng tử đã thoát khỏi lò, nhưng cũng đi mất theo nó.",
+        "Nàng từ biệt cha lần nữa, mang theo chút tiền, vào rừng tìm chàng.",
+        "Chín ngày tìm mãi chẳng thấy, đói lả, nàng trèo lên một cái cây nhỏ để ngủ qua đêm.",
+        "Gần nửa đêm, nàng thấy xa xa le lói ánh đèn."
+      ],
+      "image": {
+        "prompt": "night in the forest, the tired princess sitting on a low branch of a small tree wrapped in her cloak, far away a tiny warm light glowing between the trees, stars above",
+        "seed": 2323895504,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "stars twinkle, the distant light flickers invitingly, the princess lifts her head with new hope, an owl turns its head",
+        "seed": 1877030087
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngoi-nha-cua-ho-coc",
+      "title": "Ngôi nhà của họ cóc",
+      "narrator": "ke-chuyen",
+      "narration": "Đi theo ánh đèn, nàng gặp một ngôi nhà nhỏ cỏ mọc um tùm. Nhìn qua cửa sổ, nàng thấy toàn cóc lớn cóc bé, cùng một bàn ăn bày đĩa bạc chén bạc. Nàng mạnh dạn gõ cửa. Bà cóc già gọi: \"Cô hầu nhỏ màu xanh, chân khập khiễng, nhảy ra xem ai ngoài cửa.\" Một chú cóc nhỏ ra mở cửa. Cả nhà cóc niềm nở mời nàng vào, cho nàng ăn uống no nê, cho ngủ trên chiếc giường êm như lụa. Sáng ra, bà cóc già tặng nàng ba cây kim lớn, một bánh xe cày và ba quả hạt dẻ, dặn: \"Con phải qua một núi thủy tinh, ba lưỡi gươm sắc và một hồ nước lớn. Giữ kỹ mấy thứ này.\"",
+      "subtitles": [
+        "Đi theo ánh đèn, nàng gặp một ngôi nhà nhỏ cỏ mọc um tùm.",
+        "Nhìn qua cửa sổ, nàng thấy toàn cóc lớn cóc bé, cùng một bàn ăn bày đĩa bạc chén bạc.",
+        "Nàng mạnh dạn gõ cửa.",
+        "Bà cóc già gọi: \"Cô hầu nhỏ màu xanh, chân khập khiễng, nhảy ra xem ai ngoài cửa.\"",
+        "Một chú cóc nhỏ ra mở cửa. Cả nhà cóc niềm nở mời nàng vào, cho nàng ăn uống no nê,",
+        "cho ngủ trên chiếc giường êm như lụa.",
+        "Sáng ra, bà cóc già tặng nàng ba cây kim lớn, một bánh xe cày và ba quả hạt dẻ, dặn:",
+        "\"Con phải qua một núi thủy tinh, ba lưỡi gươm sắc và một hồ nước lớn.",
+        "Giữ kỹ mấy thứ này.\""
+      ],
+      "image": {
+        "prompt": "a cosy little cottage overgrown with grass, inside many friendly toads big and small around a table with silver plates, the grandmother toad in a lace cap giving the princess three big needles, a small plough wheel and three nuts",
+        "seed": 1022238563,
+        "character": "ba-coc-gia"
+      },
+      "video": {
+        "motionPrompt": "candle light flickers, the little toads hop about cheerfully, the grandmother toad hands over the gifts with a gentle nod",
+        "seed": 988269533
+      },
+      "voice": {}
+    },
+    {
+      "id": "nui-thuy-tinh",
+      "title": "Núi thủy tinh",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng lên đường. Đến núi thủy tinh trơn tuột, nàng cắm ba cây kim xuống trước rồi sau bước chân, cứ thế mà leo qua. Qua rồi, nàng giấu kim vào một chỗ và đánh dấu cẩn thận. Đến chỗ ba lưỡi gươm sắc dựng đứng, nàng ngồi lên bánh xe cày, lăn qua êm ru. Cuối cùng, nàng vượt qua hồ nước lớn, tới trước một lâu đài nguy nga. Nàng biết hoàng tử đang ở trong đó, bèn xin vào làm cô rửa bát, tiền công rẻ mạt. Nhưng hoàng tử tưởng nàng đã đi mất mãi mãi, và đã sắp cưới một cô gái khác.",
+      "subtitles": [
+        "Nàng lên đường.",
+        "Đến núi thủy tinh trơn tuột, nàng cắm ba cây kim xuống trước rồi sau bước chân,",
+        "cứ thế mà leo qua. Qua rồi, nàng giấu kim vào một chỗ và đánh dấu cẩn thận.",
+        "Đến chỗ ba lưỡi gươm sắc dựng đứng, nàng ngồi lên bánh xe cày, lăn qua êm ru.",
+        "Cuối cùng, nàng vượt qua hồ nước lớn, tới trước một lâu đài nguy nga.",
+        "Nàng biết hoàng tử đang ở trong đó, bèn xin vào làm cô rửa bát, tiền công rẻ mạt.",
+        "Nhưng hoàng tử tưởng nàng đã đi mất mãi mãi, và đã sắp cưới một cô gái khác."
+      ],
+      "image": {
+        "prompt": "the princess climbing a shining glass mountain under the moon using three big needles as steps, beyond it three giant upright silver blades she rolls over on a small wheel, then a great lake and a grand castle",
+        "seed": 3585282222,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "moonlight glints on the glass slope, the princess climbs carefully, the little wheel rolls smoothly, the castle lights shine across the lake",
+        "seed": 1453655050
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-qua-hat-de",
+      "title": "Ba quả hạt dẻ",
+      "narrator": "ke-chuyen",
+      "narration": "Tối tối, rửa bát xong, nàng đập một quả hạt dẻ. Trong quả thứ nhất là một chiếc áo đẹp lộng lẫy. Cô dâu mới thấy, đòi mua. Nàng không lấy tiền, chỉ xin được ngủ một đêm trong phòng chú rể. Cô dâu đồng ý, nhưng lén cho chú rể uống thuốc ngủ. Suốt đêm, nàng khóc: \"Em đã cứu chàng khỏi lò sắt giữa rừng, đã vượt núi thủy tinh, ba lưỡi gươm và hồ lớn để tìm chàng, mà chàng chẳng nghe em!\" Đêm thứ hai cũng thế, với chiếc áo trong quả hạt dẻ thứ hai. Người hầu ngồi ngoài cửa nghe hết, sáng ra kể lại cho hoàng tử.",
+      "subtitles": [
+        "Tối tối, rửa bát xong, nàng đập một quả hạt dẻ.",
+        "Trong quả thứ nhất là một chiếc áo đẹp lộng lẫy.",
+        "Cô dâu mới thấy, đòi mua.",
+        "Nàng không lấy tiền, chỉ xin được ngủ một đêm trong phòng chú rể.",
+        "Cô dâu đồng ý, nhưng lén cho chú rể uống thuốc ngủ.",
+        "Suốt đêm, nàng khóc: \"Em đã cứu chàng khỏi lò sắt giữa rừng, đã vượt núi thủy tinh,",
+        "ba lưỡi gươm và hồ lớn để tìm chàng, mà chàng chẳng nghe em!\"",
+        "Đêm thứ hai cũng thế, với chiếc áo trong quả hạt dẻ thứ hai.",
+        "Người hầu ngồi ngoài cửa nghe hết, sáng ra kể lại cho hoàng tử."
+      ],
+      "image": {
+        "prompt": "a castle kitchen at night, the princess in a plain apron cracking a nut and a magnificent shimmering gown unfolding from it, the vain bride peeking in at the door with envy",
+        "seed": 2421253159,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the nut cracks open and a shimmering gown spills out like moonlight, the princess gasps softly, the bride's eyes widen",
+        "seed": 3791654507
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-vo-that",
+      "title": "Người vợ thật",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm thứ ba, quả hạt dẻ cuối cùng chứa một chiếc áo dệt bằng vàng ròng. Lần này hoàng tử đã cảnh giác, lén đổ cốc thuốc ngủ đi. Vừa nghe nàng cất tiếng: \"Chàng ơi, em đã cứu chàng khỏi cái lò sắt giữa rừng\", chàng bật dậy: \"Nàng mới là người vợ thật của ta!\" Ngay trong đêm, hai người lên xe ngựa, vượt hồ lớn, lăn qua ba lưỡi gươm, leo núi thủy tinh bằng ba cây kim, về đến ngôi nhà nhỏ của họ cóc. Vừa bước vào, ngôi nhà hoá thành lâu đài lớn, còn cả nhà cóc hoá thành các hoàng tử, công chúa, ai nấy vui mừng vì được giải phép. Đám cưới linh đình được tổ chức ở đó. Hai người đón cả vua cha về ở cùng, và sống hạnh phúc mãi mãi.",
+      "subtitles": [
+        "Đêm thứ ba, quả hạt dẻ cuối cùng chứa một chiếc áo dệt bằng vàng ròng.",
+        "Lần này hoàng tử đã cảnh giác, lén đổ cốc thuốc ngủ đi.",
+        "Vừa nghe nàng cất tiếng: \"Chàng ơi, em đã cứu chàng khỏi cái lò sắt giữa rừng\",",
+        "chàng bật dậy: \"Nàng mới là người vợ thật của ta!\"",
+        "Ngay trong đêm, hai người lên xe ngựa, vượt hồ lớn, lăn qua ba lưỡi gươm,",
+        "leo núi thủy tinh bằng ba cây kim, về đến ngôi nhà nhỏ của họ cóc.",
+        "Vừa bước vào, ngôi nhà hoá thành lâu đài lớn, còn cả nhà cóc hoá thành các hoàng tử,",
+        "công chúa, ai nấy vui mừng vì được giải phép.",
+        "Đám cưới linh đình được tổ chức ở đó.",
+        "Hai người đón cả vua cha về ở cùng, và sống hạnh phúc mãi mãi."
+      ],
+      "image": {
+        "prompt": "the little toad cottage transforming into a great bright castle, the toads turning into smiling princes and princesses, the princess and prince arriving hand in hand in a carriage, joyful wedding celebration",
+        "seed": 1312879055,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "sparkling light spreads as the cottage grows into a castle, the toads shimmer and become royal children, everyone cheers, confetti of petals falls",
+        "seed": 449126815
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "romantic enchanted German fairy-tale music, tender oboe melody for the princess, a mysterious deep woodwind theme for the iron stove, crystalline glass harmonica for the glass mountain, a warm full string wedding finale, instrumental, no vocals",
+    "durationSeconds": 160,
+    "seed": 3578223935
+  }
+}

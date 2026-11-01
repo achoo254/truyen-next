@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "slug": "cuoc-thi-chon-vua-loai-chim",
+  "shelf": "world",
+  "title": "Cuộc thi chọn vua loài chim",
+  "summary": "Muôn loài chim họp nhau chọn vua: ai bay cao nhất sẽ làm vua. Đại bàng bay cao vút, nhưng một chú chim tí hon chưa có tên đã nấp sẵn trong lông đại bàng. Truyện cổ Grimm vui nhộn giải thích vì sao chim hồng tước được gọi là vua bờ rào.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der Zaunkönig\" (Kinder- und Hausmärchen, bản 1857, số 171), đối chiếu bản tiếng Anh \"The Willow-Wren\" của Margaret Hunt (1884, Project Gutenberg #5314), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; đã làm nhẹ cho cả nhà: các loài chim chỉ canh giữ chú chim nhỏ trong hang chứ không định bỏ đói, và bỏ lời đe doạ cú mèo.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century European storybook illustration of woodland birds, delicate watercolor and fine ink lines, spring meadow greens and soft sky blues, warm morning light, gentle humour, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chim-ti-hon",
+      "name": "Chú chim tí hon",
+      "seed": 4218606048,
+      "sheetPrompt": "a tiny round brown wren with a short cocked-up tail, bright clever black eyes and a cheeky expression, soft speckled feathers, storybook style, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "dai-bang",
+      "name": "Đại bàng",
+      "seed": 2056342431,
+      "sheetPrompt": "a majestic golden eagle with broad wings, proud but kindly face, warm brown and gold feathers, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cu-meo",
+      "name": "Cú mèo",
+      "seed": 3612595542,
+      "sheetPrompt": "a plump sleepy brown owl with huge round amber eyes, fluffy feathers, comical and sweet, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "thoi-muon-tieng-co-nghia",
+      "title": "Thuở muôn tiếng có nghĩa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xửa ngày xưa, mỗi tiếng động trên đời đều có nghĩa. Búa thợ rèn gõ \"cứ đập đi, cứ đập đi\", bánh xe cối xay kêu \"xin trời giúp, xin trời giúp\". Chim chóc cũng nói thứ tiếng ai nghe cũng hiểu. Một hôm, các loài chim bàn nhau: \"Chúng ta không thể sống mãi mà không có vua. Hãy chọn lấy một vị vua!\" Chỉ có chim te te là không chịu. Nó quen sống tự do, cứ bay qua bay lại kêu \"đi đâu bây giờ, đi đâu bây giờ\", rồi lánh vào một đầm lầy vắng, chẳng bao giờ ló mặt nữa.",
+      "subtitles": [
+        "Ngày xửa ngày xưa, mỗi tiếng động trên đời đều có nghĩa.",
+        "Búa thợ rèn gõ \"cứ đập đi, cứ đập đi\", bánh xe cối xay kêu \"xin trời giúp, xin trời giúp\".",
+        "Chim chóc cũng nói thứ tiếng ai nghe cũng hiểu.",
+        "Một hôm, các loài chim bàn nhau: \"Chúng ta không thể sống mãi mà không có vua.",
+        "Hãy chọn lấy một vị vua!\" Chỉ có chim te te là không chịu.",
+        "Nó quen sống tự do, cứ bay qua bay lại kêu \"đi đâu bây giờ, đi đâu bây giờ\",",
+        "rồi lánh vào một đầm lầy vắng, chẳng bao giờ ló mặt nữa."
+      ],
+      "image": {
+        "prompt": "a sunny old European countryside long ago, a blacksmith's hammer, a turning mill wheel, flocks of many birds chattering on branches, a little plover flying away toward a lonely marsh, cheerful storybook scene",
+        "seed": 2909252134
+      },
+      "video": {
+        "motionPrompt": "birds hop and chatter on the branches, the mill wheel turns slowly, a small plover flutters off toward the marsh, gentle pan",
+        "seed": 3184049634
+      },
+      "voice": {}
+    },
+    {
+      "id": "hop-chim-thang-nam",
+      "title": "Buổi họp tháng Năm",
+      "narrator": "ke-chuyen",
+      "narration": "Vào một buổi sáng tháng Năm đẹp trời, chim từ rừng xa đồng gần kéo về đông nghịt: đại bàng và chim sẻ, cú mèo và quạ, sơn ca và chim di, kể sao cho hết! Cả chim cu cu cũng đến, lại có một chú chim tí hon chưa có tên, lẫn vào đám đông. Cô gà mái chẳng hay biết gì, ngơ ngác hỏi: \"Gì thế, gì thế, gì thế?\" Cuối cùng, cả bầy quyết định: ai bay cao nhất sẽ được làm vua. Chú nhái bén trong bụi kêu \"không, không, không\", sợ rồi sẽ có người phải khóc. Nhưng con quạ bảo: \"Quạ, quạ, mọi chuyện sẽ êm thấm thôi.\"",
+      "subtitles": [
+        "Vào một buổi sáng tháng Năm đẹp trời, chim từ rừng xa đồng gần kéo về đông nghịt:",
+        "đại bàng và chim sẻ, cú mèo và quạ, sơn ca và chim di, kể sao cho hết!",
+        "Cả chim cu cu cũng đến, lại có một chú chim tí hon chưa có tên, lẫn vào đám đông.",
+        "Cô gà mái chẳng hay biết gì, ngơ ngác hỏi: \"Gì thế, gì thế, gì thế?\"",
+        "Cuối cùng, cả bầy quyết định: ai bay cao nhất sẽ được làm vua.",
+        "Chú nhái bén trong bụi kêu \"không, không, không\", sợ rồi sẽ có người phải khóc.",
+        "Nhưng con quạ bảo: \"Quạ, quạ, mọi chuyện sẽ êm thấm thôi.\""
+      ],
+      "image": {
+        "prompt": "a great gathering of birds of every kind on a flowering spring meadow, an eagle, owls, crows, larks, sparrows, a cuckoo, a puzzled hen, and a tiny brown wren hidden among them, a little green tree-frog in a bush, lively and colourful",
+        "seed": 3724706520,
+        "character": "chim-ti-hon"
+      },
+      "video": {
+        "motionPrompt": "the crowd of birds ruffles and chatters, the hen turns her head in confusion, the tiny wren peeks out, soft breeze in the grass",
+        "seed": 82274698
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-len-troi-cao",
+      "title": "Bay lên trời cao",
+      "narrator": "ke-chuyen",
+      "narration": "Hiệu lệnh vang lên, cả bầy chim cùng vút lên trời. Bụi bay mù mịt, cánh đập rào rào, trông như một đám mây đen đang bốc lên. Những con chim nhỏ chẳng mấy chốc đuối sức, rơi dần về mặt đất. Chim lớn cố thêm được lâu hơn, nhưng không ai sánh được với đại bàng. Đại bàng bay cao, cao mãi, tưởng như chạm tới mặt trời. Thấy chẳng ai theo kịp, nó nghĩ: \"Bay cao hơn làm gì nữa, ta là vua rồi.\" Rồi nó từ từ hạ xuống. Bầy chim bên dưới reo lên: \"Đại bàng là vua của chúng ta!\"",
+      "subtitles": [
+        "Hiệu lệnh vang lên, cả bầy chim cùng vút lên trời.",
+        "Bụi bay mù mịt, cánh đập rào rào, trông như một đám mây đen đang bốc lên.",
+        "Những con chim nhỏ chẳng mấy chốc đuối sức, rơi dần về mặt đất.",
+        "Chim lớn cố thêm được lâu hơn, nhưng không ai sánh được với đại bàng.",
+        "Đại bàng bay cao, cao mãi, tưởng như chạm tới mặt trời.",
+        "Thấy chẳng ai theo kịp, nó nghĩ: \"Bay cao hơn làm gì nữa, ta là vua rồi.\"",
+        "Rồi nó từ từ hạ xuống. Bầy chim bên dưới reo lên: \"Đại bàng là vua của chúng ta!\""
+      ],
+      "image": {
+        "prompt": "a huge flock of birds rising into a bright sky like a dark cloud, small birds dropping back to the meadow, the proud eagle soaring far above all others toward the shining sun",
+        "seed": 2238792178,
+        "character": "dai-bang"
+      },
+      "video": {
+        "motionPrompt": "the flock swirls upward, the eagle climbs higher and higher on wide wings, sunlight flares, slow upward tilt",
+        "seed": 3096298591
+      },
+      "voice": {}
+    },
+    {
+      "id": "tru-mot-chu",
+      "title": "Trừ một chú",
+      "narrator": "ke-chuyen",
+      "narration": "\"Trừ tôi ra!\" một tiếng kêu nhỏ xíu vang lên. Thì ra chú chim tí hon chưa có tên đã chui sẵn vào đám lông ngực của đại bàng từ lúc nào. Chú chẳng mệt chút nào, liền bay vọt lên khỏi đại bàng, cao thêm, cao thêm nữa. Lên tới tận đỉnh trời, chú xếp cánh lại, cất giọng lanh lảnh: \"Ta là vua! Ta là vua!\" Cả bầy chim tức tối: \"Mi mà làm vua ư? Mi chỉ dùng mẹo vặt thôi!\"",
+      "subtitles": [
+        "\"Trừ tôi ra!\" một tiếng kêu nhỏ xíu vang lên.",
+        "Thì ra chú chim tí hon chưa có tên đã chui sẵn vào đám lông ngực của đại bàng từ lúc nào.",
+        "Chú chẳng mệt chút nào, liền bay vọt lên khỏi đại bàng, cao thêm, cao thêm nữa.",
+        "Lên tới tận đỉnh trời, chú xếp cánh lại, cất giọng lanh lảnh: \"Ta là vua!",
+        "Ta là vua!\" Cả bầy chim tức tối: \"Mi mà làm vua ư?",
+        "Mi chỉ dùng mẹo vặt thôi!\""
+      ],
+      "image": {
+        "prompt": "high in the sky the tiny brown wren pops out of the eagle's breast feathers and flies even higher, singing proudly, the surprised eagle looks up, far below the flock of birds stares in astonishment",
+        "seed": 1100092390,
+        "character": "chim-ti-hon"
+      },
+      "video": {
+        "motionPrompt": "the tiny wren pops out of the feathers and darts upward, tiny wings fluttering fast, the eagle blinks in surprise, clouds drift",
+        "seed": 1106388159
+      },
+      "voice": {}
+    },
+    {
+      "id": "chui-xuong-thap-nhat",
+      "title": "Ai xuống thấp nhất",
+      "narrator": "ke-chuyen",
+      "narration": "Bầy chim bèn đặt luật mới: ai chui xuống đất sâu nhất sẽ làm vua. Ngỗng vỗ cái ngực to bè xuống đất lạch bạch. Gà trống cào đất nhanh thoăn thoắt. Vịt nhảy xuống mương, trẹo cả chân, vừa lạch bạch ra ao vừa kêu: \"Ăn gian, ăn gian!\" Còn chú chim tí hon thì tìm ngay một cái hang chuột, chui tọt vào, rồi từ dưới hang cất tiếng: \"Ta là vua! Ta là vua!\"",
+      "subtitles": [
+        "Bầy chim bèn đặt luật mới: ai chui xuống đất sâu nhất sẽ làm vua.",
+        "Ngỗng vỗ cái ngực to bè xuống đất lạch bạch.",
+        "Gà trống cào đất nhanh thoăn thoắt.",
+        "Vịt nhảy xuống mương, trẹo cả chân, vừa lạch bạch ra ao vừa kêu: \"Ăn gian, ăn gian!\"",
+        "Còn chú chim tí hon thì tìm ngay một cái hang chuột, chui tọt vào,",
+        "rồi từ dưới hang cất tiếng: \"Ta là vua! Ta là vua!\""
+      ],
+      "image": {
+        "prompt": "comical scene on the meadow, a goose flapping on the ground, a rooster scratching a hole, a duck limping toward a pond, and the tiny wren peeking out of a little mouse hole with a cheeky grin",
+        "seed": 2738088992,
+        "character": "chim-ti-hon"
+      },
+      "video": {
+        "motionPrompt": "the goose flaps, the rooster scratches dirt, the duck waddles away grumbling, the wren ducks into the mouse hole and peeks out again, playful motion",
+        "seed": 3056384975
+      },
+      "voice": {}
+    },
+    {
+      "id": "cu-meo-canh-hang",
+      "title": "Cú mèo canh hang",
+      "narrator": "ke-chuyen",
+      "narration": "\"Mi tưởng mẹo vặt thắng được sao?\" bầy chim càng giận. Chúng quyết giữ chú trong hang, và cử cú mèo đứng canh cửa hang. Đêm xuống, các loài chim mỏi cánh, ai về tổ nấy. Chỉ còn cú mèo trợn đôi mắt tròn nhìn chằm chằm vào hang. Lâu dần, cú cũng buồn ngủ, nghĩ bụng: \"Ta nhắm một mắt thôi, mắt kia vẫn canh.\" Chú chim nhỏ thò đầu ra, cú liền bước tới, chú lại rụt vào. Cú cứ thế nhắm mắt này, mở mắt kia. Nhưng rồi có lúc cú nhắm mắt này mà quên mở mắt kia, và thế là ngủ khò. Chú chim tí hon nhẹ nhàng lách ra, bay mất.",
+      "subtitles": [
+        "\"Mi tưởng mẹo vặt thắng được sao?\" bầy chim càng giận.",
+        "Chúng quyết giữ chú trong hang, và cử cú mèo đứng canh cửa hang.",
+        "Đêm xuống, các loài chim mỏi cánh, ai về tổ nấy.",
+        "Chỉ còn cú mèo trợn đôi mắt tròn nhìn chằm chằm vào hang.",
+        "Lâu dần, cú cũng buồn ngủ, nghĩ bụng: \"Ta nhắm một mắt thôi, mắt kia vẫn canh.\"",
+        "Chú chim nhỏ thò đầu ra, cú liền bước tới, chú lại rụt vào.",
+        "Cú cứ thế nhắm mắt này, mở mắt kia.",
+        "Nhưng rồi có lúc cú nhắm mắt này mà quên mở mắt kia, và thế là ngủ khò.",
+        "Chú chim tí hon nhẹ nhàng lách ra, bay mất."
+      ],
+      "image": {
+        "prompt": "moonlit meadow at night, the plump owl stands in front of a little mouse hole with one eye closed and one eye open, the tiny wren peeking out, soft blue night colours, sweet and funny",
+        "seed": 2996742325,
+        "character": "cu-meo"
+      },
+      "video": {
+        "motionPrompt": "the owl slowly closes one eye then the other, her head nods, the wren tiptoes out and flutters away into the moonlight",
+        "seed": 2777410897
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-bo-rao",
+      "title": "Vua bờ rào",
+      "narrator": "ke-chuyen",
+      "narration": "Từ hôm ấy, cú mèo ngượng chẳng dám ra ngoài ban ngày, vì các loài chim cứ đuổi theo trêu chọc. Cú chỉ bay ra lúc đêm, và ghét lũ chuột vì chúng đào những cái hang xấu xí. Còn chú chim tí hon thì sợ bị bắt, cứ lẩn mãi trong các bờ rào. Lúc thấy an toàn, chú lại kêu \"ta là vua\", nên các loài chim gọi chú, nửa đùa nửa trêu, là vua bờ rào. Vui nhất là chim sơn ca, vì chẳng phải nghe lời ông vua bé tí ấy. Hễ mặt trời mọc, sơn ca lại bay vút lên hát: \"Ôi đẹp quá, đẹp quá, đẹp quá đi thôi!\"",
+      "subtitles": [
+        "Từ hôm ấy, cú mèo ngượng chẳng dám ra ngoài ban ngày,",
+        "vì các loài chim cứ đuổi theo trêu chọc.",
+        "Cú chỉ bay ra lúc đêm, và ghét lũ chuột vì chúng đào những cái hang xấu xí.",
+        "Còn chú chim tí hon thì sợ bị bắt, cứ lẩn mãi trong các bờ rào.",
+        "Lúc thấy an toàn, chú lại kêu \"ta là vua\", nên các loài chim gọi chú, nửa đùa nửa trêu,",
+        "là vua bờ rào. Vui nhất là chim sơn ca, vì chẳng phải nghe lời ông vua bé tí ấy.",
+        "Hễ mặt trời mọc, sơn ca lại bay vút lên hát: \"Ôi đẹp quá, đẹp quá, đẹp quá đi thôi!\""
+      ],
+      "image": {
+        "prompt": "a sunny morning hedge full of leaves and berries, the tiny wren peeking out proudly from the hedge, a lark rising high into the golden sunrise singing, peaceful countryside",
+        "seed": 3404791894,
+        "character": "chim-ti-hon"
+      },
+      "video": {
+        "motionPrompt": "the wren hops along the hedge and puffs up its chest, the lark rises and circles in the golden sunrise, leaves sway",
+        "seed": 812962113
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful European folk instrumental with piccolo flute and pizzicato strings imitating birdsong, light harp, cheerful spring morning, gentle tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2399233337
+  }
+}

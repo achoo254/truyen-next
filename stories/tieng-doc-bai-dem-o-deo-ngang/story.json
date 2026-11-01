@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "slug": "tieng-doc-bai-dem-o-deo-ngang",
+  "shelf": "adults",
+  "title": "Tiếng đọc bài đêm ở Đèo Ngang",
+  "summary": "Đêm đêm, trong một đồn lũy hoang dưới chân Đèo Ngang, dân làng nghe tiếng một cậu học trò đọc bài. Rồi cậu bé ấy hiện về trong giấc mơ của một đôi vợ chồng già, xin ở với họ bảy mươi hai năm, và đứa con trai sinh ra sau đó trở thành bậc thần đồng được vua phong chức học sĩ.",
+  "themes": [
+    "than-thoai",
+    "gia-dinh",
+    "su-tich"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam về Đặng Văn Hòa, truyện số 18 «Histoire de Đặng Văn Hòa» trong Contes et légendes annamites của A. Landes (Sài Gòn, 1886), sách thuộc phạm vi công cộng. Lời kể viết mới hoàn toàn bằng tiếng Việt, chỉ theo cốt truyện Landes chép lại; không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Việt Nam, A. Landes chép (1886)",
+  "style": "classical Vietnamese silk painting (tranh lua) illustration, delicate ink linework, washes of misty blue, pine green, ochre and soft vermilion on aged silk, the Deo Ngang mountain pass between green ranges and the sea, an overgrown old earthen rampart, thatched village houses and the Hue imperial court of the early nineteenth century, quiet mysterious and warm mood for adult readers, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "cau-hoc-tro",
+      "name": "Cậu học trò trong mộng",
+      "sheetPrompt": "a mysterious little Vietnamese schoolboy spirit about eight years old, bright clever face with round eyes, hair in two small tufts, a pale blue scholar robe slightly translucent with a soft glow, holding a rolled book, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 844382772
+    },
+    {
+      "id": "dang-van-binh",
+      "name": "Ông Đặng Văn Bình",
+      "sheetPrompt": "Dang Van Binh, a kind Vietnamese villager in his fifties, weathered gentle face with a grey goatee, hair in a topknot under a black turban, brown cotton tunic, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 2848863319
+    },
+    {
+      "id": "dang-van-hoa",
+      "name": "Đặng Văn Hòa",
+      "sheetPrompt": "Dang Van Hoa, a young Vietnamese prodigy scholar of about eighteen, square face, broad shoulders, prominent nose, large round eyes with a tiny golden fleck in the pupils, pale ears, wearing a dark blue scholar robe and black turban, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 1712582264
+    }
+  ],
+  "scenes": [
+    {
+      "id": "don-luy-hoang",
+      "title": "Đồn lũy hoang dưới đèo",
+      "narrator": "ke-chuyen",
+      "narration": "Núi Cao Vọng cao và rộng mênh mông, một phía giáp miền rừng núi xa xôi, một phía chạy thẳng ra biển. Con đường cái quan băng qua núi ở Đèo Ngang, chỗ phân ranh hai tỉnh Hà Tĩnh và Quảng Bình. Ở làng Mỹ Hòa, ngay gần chân đèo, có một đồn lũy cũ đã bỏ hoang từ lâu, cây cối mọc um tùm phủ kín. Chẳng ai ở trong đó cả. Vậy mà đêm nào dân làng cũng nghe từ trong đồn vọng ra tiếng một cậu học trò đọc bài, giọng rành rọt, đều đều, lúc to lúc nhỏ. Ai nghe cũng lấy làm lạ lùng.",
+      "subtitles": [
+        "Núi Cao Vọng cao và rộng mênh mông, một phía giáp miền rừng núi xa xôi,",
+        "một phía chạy thẳng ra biển.",
+        "Con đường cái quan băng qua núi ở Đèo Ngang, chỗ phân ranh hai tỉnh Hà Tĩnh và Quảng Bình.",
+        "Ở làng Mỹ Hòa, ngay gần chân đèo, có một đồn lũy cũ đã bỏ hoang từ lâu,",
+        "cây cối mọc um tùm phủ kín.",
+        "Chẳng ai ở trong đó cả.",
+        "Vậy mà đêm nào dân làng cũng nghe từ trong đồn vọng ra tiếng một cậu học trò đọc bài,",
+        "giọng rành rọt, đều đều, lúc to lúc nhỏ.",
+        "Ai nghe cũng lấy làm lạ lùng."
+      ],
+      "image": {
+        "prompt": "night view of the Deo Ngang pass with mountains descending to the sea, at its foot an old earthen rampart overgrown with trees and vines, a faint warm glow inside, villagers in a nearby hamlet listening from their doorways",
+        "seed": 4289886350
+      },
+      "video": {
+        "motionPrompt": "moonlit mist drifts over the overgrown rampart, a faint glow pulses softly inside, villagers turn their heads to listen",
+        "seed": 2063783700
+      },
+      "voice": {}
+    },
+    {
+      "id": "giac-mo",
+      "title": "Giấc mơ của ông Bình",
+      "narrator": "ke-chuyen",
+      "narration": "Vào thời Tây Sơn, trong làng có ông Đặng Văn Bình, vợ là bà Nguyễn Thị Phước. Một đêm, ông Bình nằm mơ thấy một cậu bé từ trong đồn lũy hoang bước ra, đi thẳng vào nhà mình. Cậu bé chắp tay thưa: \"Cháu thấy ông bà là người hiền đức, nên cháu tìm đến đây. Nếu ông bà chịu nuôi, cháu xin ở lại với ông bà.\" Ông Bình ngạc nhiên, nhưng thấy cậu bé lanh lợi dễ thương thì hỏi: \"Thế cháu định ở với ta mấy năm?\" Cậu bé đáp ngay: \"Hai mươi năm ạ.\"",
+      "subtitles": [
+        "Vào thời Tây Sơn, trong làng có ông Đặng Văn Bình, vợ là bà Nguyễn Thị Phước.",
+        "Một đêm, ông Bình nằm mơ thấy một cậu bé từ trong đồn lũy hoang bước ra,",
+        "đi thẳng vào nhà mình.",
+        "Cậu bé chắp tay thưa: \"Cháu thấy ông bà là người hiền đức, nên cháu tìm đến đây.",
+        "Nếu ông bà chịu nuôi, cháu xin ở lại với ông bà.\"",
+        "Ông Bình ngạc nhiên, nhưng thấy cậu bé lanh lợi dễ thương thì hỏi:",
+        "\"Thế cháu định ở với ta mấy năm?\"",
+        "Cậu bé đáp ngay: \"Hai mươi năm ạ.\""
+      ],
+      "image": {
+        "prompt": "a dreamlike scene inside a modest thatched house at night, a glowing little schoolboy spirit bowing politely before Dang Van Binh and his wife who sit on a bamboo bed, soft mist curling around",
+        "seed": 1592140109,
+        "character": "cau-hoc-tro"
+      },
+      "video": {
+        "motionPrompt": "dreamy mist swirls, the glowing boy bows slowly, the old couple lean forward in wonder",
+        "seed": 415115346
+      },
+      "voice": {}
+    },
+    {
+      "id": "mac-ca",
+      "title": "Mặc cả với cậu bé",
+      "narrator": "ke-chuyen",
+      "narration": "Ông Bình lắc đầu: \"Cháu còn bé tí. Ở có hai mươi năm rồi đi thì ta chưa kịp nhờ cậy gì. Ta muốn cháu ở lâu hơn nhiều.\" Cậu bé hỏi: \"Thế ông muốn bao nhiêu năm?\" Ông Bình cười mà rằng: \"Ta muốn một trăm năm!\" Cậu bé kêu lên: \"Ôi, nhà này đòi hỏi quá! Đời người có được trăm năm đâu, mà ông bắt cháu ở những trăm năm. Thơ xưa có câu: trong núi có cây sống nghìn năm, nhưng trong loài người chẳng ai thọ nổi trăm tuổi.\"",
+      "subtitles": [
+        "Ông Bình lắc đầu: \"Cháu còn bé tí.",
+        "Ở có hai mươi năm rồi đi thì ta chưa kịp nhờ cậy gì.",
+        "Ta muốn cháu ở lâu hơn nhiều.\"",
+        "Cậu bé hỏi: \"Thế ông muốn bao nhiêu năm?\"",
+        "Ông Bình cười mà rằng: \"Ta muốn một trăm năm!\"",
+        "Cậu bé kêu lên: \"Ôi, nhà này đòi hỏi quá!",
+        "Đời người có được trăm năm đâu, mà ông bắt cháu ở những trăm năm.",
+        "Thơ xưa có câu: trong núi có cây sống nghìn năm,",
+        "nhưng trong loài người chẳng ai thọ nổi trăm tuổi.\""
+      ],
+      "image": {
+        "prompt": "the dreamlike house interior, Dang Van Binh laughing and holding up his hands, the clever glowing boy spirit wagging a finger and replying with a mischievous smile",
+        "seed": 3109846596,
+        "character": "dang-van-binh"
+      },
+      "video": {
+        "motionPrompt": "the old man laughs, the boy shakes his head with a playful smile, the lamp flame sways gently",
+        "seed": 2705397197
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-muoi-hai-nam",
+      "title": "Bảy mươi hai năm",
+      "narrator": "ke-chuyen",
+      "narration": "Ông Bình nghe cậu bé ứng đối trôi chảy thì phục lắm, bảo: \"Cháu khéo nói thật. Thôi được, cháu tự định lấy thời hạn đi.\" Cậu bé nghĩ một lúc rồi đáp: \"Vậy cháu xin ở với ông bà bảy mươi hai năm.\" Ông Bình gật đầu ưng thuận, nhận cậu bé về làm con nuôi. Vừa lúc ấy ông choàng tỉnh dậy, mới biết mình nằm mơ. Ngoài trời vẫn tối đen, gà chưa gáy. Ông nằm nghĩ mãi về giấc mộng lạ, không biết điềm gì, đến sáng thì đem kể cho vợ nghe.",
+      "subtitles": [
+        "Ông Bình nghe cậu bé ứng đối trôi chảy thì phục lắm, bảo: \"Cháu khéo nói thật.",
+        "Thôi được, cháu tự định lấy thời hạn đi.\"",
+        "Cậu bé nghĩ một lúc rồi đáp: \"Vậy cháu xin ở với ông bà bảy mươi hai năm.\"",
+        "Ông Bình gật đầu ưng thuận, nhận cậu bé về làm con nuôi.",
+        "Vừa lúc ấy ông choàng tỉnh dậy, mới biết mình nằm mơ.",
+        "Ngoài trời vẫn tối đen, gà chưa gáy.",
+        "Ông nằm nghĩ mãi về giấc mộng lạ, không biết điềm gì, đến sáng thì đem kể cho vợ nghe."
+      ],
+      "image": {
+        "prompt": "before dawn, Dang Van Binh sitting up on his bamboo bed awake and thoughtful, a fading glowing silhouette of the boy dissolving into the darkness, his wife still asleep",
+        "seed": 3602915560,
+        "character": "dang-van-binh"
+      },
+      "video": {
+        "motionPrompt": "the glowing silhouette slowly dissolves into darkness, the old man sits up and stares, a lamp flickers",
+        "seed": 1996678217
+      },
+      "voice": {}
+    },
+    {
+      "id": "anh-sang-do",
+      "title": "Ánh sáng đỏ đêm sinh",
+      "narrator": "ke-chuyen",
+      "narration": "Lúc ấy vợ chồng ông Bình đều đã ngoài năm mươi tuổi. Vậy mà chẳng bao lâu sau, bà Phước có mang. Đến ngày tháng, bà sinh được một đứa con trai. Bà trở dạ ban đêm, đúng lúc đứa bé chào đời thì cả căn nhà bỗng rực lên một thứ ánh sáng đỏ. Ánh đỏ toả khắp các gian, chiếu cả ra ngoài sân rồi mới tắt dần. Ông Bình cho đó là điềm rất tốt. Đứa bé đầy tháng thì được đặt tên là Đặng Văn Hòa.",
+      "subtitles": [
+        "Lúc ấy vợ chồng ông Bình đều đã ngoài năm mươi tuổi.",
+        "Vậy mà chẳng bao lâu sau, bà Phước có mang.",
+        "Đến ngày tháng, bà sinh được một đứa con trai.",
+        "Bà trở dạ ban đêm,",
+        "đúng lúc đứa bé chào đời thì cả căn nhà bỗng rực lên một thứ ánh sáng đỏ.",
+        "Ánh đỏ toả khắp các gian, chiếu cả ra ngoài sân rồi mới tắt dần.",
+        "Ông Bình cho đó là điềm rất tốt.",
+        "Đứa bé đầy tháng thì được đặt tên là Đặng Văn Hòa."
+      ],
+      "image": {
+        "prompt": "a thatched village house at night glowing from within with warm red light, inside the old mother cradling a newborn baby boy",
+        "seed": 3720323554,
+        "character": "dang-van-binh"
+      },
+      "video": {
+        "motionPrompt": "red light pulses softly from the windows, the glow slowly settles",
+        "seed": 178984556
+      },
+      "voice": {}
+    },
+    {
+      "id": "tuong-mao-la",
+      "title": "Tướng mạo khác thường",
+      "narrator": "ke-chuyen",
+      "narration": "Đến năm lên mười, Hòa có tướng mạo chẳng giống trẻ con bình thường. Mắt cậu to và tròn, con ngươi nhỏ, trên con ngươi lấp lánh một đốm vàng. Mặt vuông, vai rộng, mũi cao, hai tai trắng. Dân làng nhìn cậu bé mà xì xào bàn tán. Cũng từ ngày Hòa ra đời, người ta không còn nghe tiếng cậu học trò đọc bài trong đồn lũy hoang dưới chân Đèo Ngang nữa. Đêm đêm, đồn lũy chìm trong im lặng, chỉ còn tiếng gió núi thổi qua lùm cây.",
+      "subtitles": [
+        "Đến năm lên mười, Hòa có tướng mạo chẳng giống trẻ con bình thường.",
+        "Mắt cậu to và tròn, con ngươi nhỏ, trên con ngươi lấp lánh một đốm vàng.",
+        "Mặt vuông, vai rộng, mũi cao, hai tai trắng.",
+        "Dân làng nhìn cậu bé mà xì xào bàn tán.",
+        "Cũng từ ngày Hòa ra đời,",
+        "người ta không còn nghe tiếng cậu học trò đọc bài trong đồn lũy hoang dưới chân Đèo Ngang",
+        "nữa.",
+        "Đêm đêm, đồn lũy chìm trong im lặng, chỉ còn tiếng gió núi thổi qua lùm cây."
+      ],
+      "image": {
+        "prompt": "a ten-year-old Vietnamese boy with large round eyes flecked with gold, square face and broad shoulders, reading a book on the veranda of a thatched house, villagers peering curiously over the bamboo fence, the silent rampart on the hill behind",
+        "seed": 2118065829
+      },
+      "video": {
+        "motionPrompt": "pages turn in the breeze, villagers whisper and point, clouds drift slowly over the quiet rampart",
+        "seed": 3139481284
+      },
+      "voice": {}
+    },
+    {
+      "id": "than-dong",
+      "title": "Thần đồng xứ Đèo Ngang",
+      "narrator": "ke-chuyen",
+      "narration": "Bấy giờ nhà Tây Sơn đã mất, vua Gia Long lên ngôi. Năm Gia Long thứ tám, Hòa vừa mười tám tuổi. Quan tỉnh nghe đồn trong hạt có một cậu thần đồng, liền cho vời đến để thử. Hỏi chuyện trời, Hòa đáp trôi chảy. Hỏi chuyện đất, Hòa cũng giảng giải rành mạch, câu nào cũng vượt sức người thường. Quan tỉnh kinh ngạc, sai người đưa cậu về kinh đô. Nhà vua cho gọi Hòa vào, hỏi han trước mặt cả triều đình. Hòa ứng đối không vấp một câu.",
+      "subtitles": [
+        "Bấy giờ nhà Tây Sơn đã mất, vua Gia Long lên ngôi.",
+        "Năm Gia Long thứ tám, Hòa vừa mười tám tuổi.",
+        "Quan tỉnh nghe đồn trong hạt có một cậu thần đồng, liền cho vời đến để thử.",
+        "Hỏi chuyện trời, Hòa đáp trôi chảy.",
+        "Hỏi chuyện đất, Hòa cũng giảng giải rành mạch, câu nào cũng vượt sức người thường.",
+        "Quan tỉnh kinh ngạc, sai người đưa cậu về kinh đô.",
+        "Nhà vua cho gọi Hòa vào, hỏi han trước mặt cả triều đình.",
+        "Hòa ứng đối không vấp một câu."
+      ],
+      "image": {
+        "prompt": "the imperial court of Hue, the young scholar Dang Van Hoa kneeling and answering confidently before the throne, mandarins in colorful robes listening in astonishment, red lacquered columns",
+        "seed": 3089962330,
+        "character": "dang-van-hoa"
+      },
+      "video": {
+        "motionPrompt": "mandarins exchange astonished glances, the young man speaks calmly, incense smoke curls between the red columns",
+        "seed": 444928654
+      },
+      "voice": {}
+    },
+    {
+      "id": "phong-chuc",
+      "title": "Được vua phong chức",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua rất hài lòng, quay sang hỏi các quan nên phong cho chàng trai chức gì. Các quan bàn với nhau rồi tâu xin phong cho Hòa làm đại học sĩ, kiêm coi việc xem thiên văn trong Khâm thiên giám. Thế là cậu bé làng Mỹ Hòa dưới chân Đèo Ngang trở thành một vị quan văn ở kinh đô. Sang đời vua Minh Mạng, Hòa lại được thăng làm Văn Minh điện đại học sĩ, ngày ngày hầu bên vua bàn chuyện chữ nghĩa.",
+      "subtitles": [
+        "Nhà vua rất hài lòng, quay sang hỏi các quan nên phong cho chàng trai chức gì.",
+        "Các quan bàn với nhau rồi tâu xin phong cho Hòa làm đại học sĩ,",
+        "kiêm coi việc xem thiên văn trong Khâm thiên giám.",
+        "Thế là cậu bé làng Mỹ Hòa dưới chân Đèo Ngang trở thành một vị quan văn ở kinh đô.",
+        "Sang đời vua Minh Mạng, Hòa lại được thăng làm Văn Minh điện đại học sĩ,",
+        "ngày ngày hầu bên vua bàn chuyện chữ nghĩa."
+      ],
+      "image": {
+        "prompt": "Dang Van Hoa receiving an official appointment scroll and a mandarin hat from a court official, colorful mandarins bowing, then gazing at the stars from the observatory terrace of the imperial palace",
+        "seed": 570504739,
+        "character": "dang-van-hoa"
+      },
+      "video": {
+        "motionPrompt": "the scroll is unrolled slowly, robes rustle as officials bow, stars begin to glimmer above the palace roof",
+        "seed": 51830954
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-doi",
+      "title": "Câu đối trước vua",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, vua Minh Mạng ra cho Hòa một vế đối, bắt đối lại ngay: \"Răng thì cứng, lưỡi thì mềm; vật tính cứng chẳng bằng vật tính mềm.\" Hòa đáp liền: \"Mày thì trước, râu thì sau; cái mọc trước chẳng dài bằng cái mọc sau.\" Nhà vua nghe xong vỗ tay khen tài, ban thưởng rất hậu. Người làng Mỹ Hòa thì vẫn kể cho nhau nghe rằng, Đặng Văn Hòa chính là cậu học trò năm nào đêm đêm đọc bài trong đồn lũy hoang, đã đến xin làm con nhà họ Đặng.",
+      "subtitles": [
+        "Một hôm, vua Minh Mạng ra cho Hòa một vế đối, bắt đối lại ngay: \"Răng thì cứng,",
+        "lưỡi thì mềm; vật tính cứng chẳng bằng vật tính mềm.\"",
+        "Hòa đáp liền: \"Mày thì trước, râu thì sau; cái mọc trước chẳng dài bằng cái mọc sau.\"",
+        "Nhà vua nghe xong vỗ tay khen tài, ban thưởng rất hậu.",
+        "Người làng Mỹ Hòa thì vẫn kể cho nhau nghe rằng,",
+        "Đặng Văn Hòa chính là cậu học trò năm nào đêm đêm đọc bài trong đồn lũy hoang,",
+        "đã đến xin làm con nhà họ Đặng."
+      ],
+      "image": {
+        "prompt": "Emperor Minh Mang in yellow robes smiling and clapping on his throne, Dang Van Hoa bowing respectfully before him, a calligraphy scroll on a low table, the old overgrown rampart at Deo Ngang shown in a misty vignette",
+        "seed": 1630576012,
+        "character": "dang-van-hoa"
+      },
+      "video": {
+        "motionPrompt": "the emperor smiles and raises his hands, Hoa bows low, mist softly reveals the distant rampart under the moon",
+        "seed": 697600410
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "serene Vietnamese court instrumental, dan tranh zither and bamboo flute with soft wooden clappers, gentle mountain wind and distant sea ambience, mysterious then warm and graceful, slow tempo, no vocals",
+    "durationSeconds": 180,
+    "seed": 1658977272
+  }
+}

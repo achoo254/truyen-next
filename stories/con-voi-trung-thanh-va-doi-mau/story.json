@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-voi-trung-thanh-va-doi-mau",
+  "shelf": "adults",
+  "title": "Con voi trung thành và ông đội Mâu",
+  "summary": "Nhà Lê mất ngôi, một con voi ngự bỏ vào rừng sâu chứ không chịu thờ chủ mới. Nhiều năm sau, nó gặp lại người quản tượng già là ông đội Mâu, ôm lấy ông mà khóc và nhất quyết trao cho ông những chiếc vòng vàng vua ban: một truyện dân gian cảm động về lòng trung thành và nghĩa thầy trò giữa người với voi.",
+  "themes": [
+    "su-tich",
+    "thien-nhien",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam, truyện số 17 «Le đội Mâu et l'éléphant» trong Contes et légendes annamites của A. Landes (Sài Gòn, 1886), sách thuộc phạm vi công cộng. Lời kể viết mới hoàn toàn bằng tiếng Việt, chỉ theo cốt truyện Landes chép lại; không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Việt Nam, A. Landes chép (1886)",
+  "style": "classical Vietnamese silk painting (tranh lua) illustration, soft ink linework, washes of moss green, earthy brown, misty grey and warm gold on aged silk, late eighteenth century Vietnamese mountain forests, bamboo thickets, clear streams and a thatched village house, tender melancholic mood for adult readers, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "voi",
+      "name": "Con voi ngự",
+      "sheetPrompt": "a huge old Asian war elephant with long curved ivory tusks, weathered grey wrinkled skin, wise gentle eyes, three thick gold neck rings around its neck covered in green moss and lichen, full body, side view, plain aged silk background, character reference sheet",
+      "seed": 204504982
+    },
+    {
+      "id": "doi-mau",
+      "name": "Ông đội Mâu",
+      "sheetPrompt": "Doi Mau, a seventy-year-old former royal elephant keeper of Vietnam, thin wiry frame, white hair in a small topknot, wispy white beard, kind wrinkled face, faded brown peasant tunic and trousers, a cloth herb bag over his shoulder and a small knife at his belt, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 2049038593
+    },
+    {
+      "id": "con-trai",
+      "name": "Con trai ông Mâu",
+      "sheetPrompt": "the adult son of an old Vietnamese elephant keeper, sturdy farmer in his thirties, honest round face, short black hair under a cloth turban, simple indigo tunic and rolled trousers, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 2270062009
+    }
+  ],
+  "scenes": [
+    {
+      "id": "voi-bo-vao-rung",
+      "title": "Con voi bỏ vào rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Thuở nhà Lê mất ngôi, triều đình đổi chủ, trong tàu voi của nhà vua có một con voi nhất định không chịu phục dịch chủ mới. Nó bỏ tàu voi mà đi, lặn lội trở về chốn cũ nơi nó đã sinh ra, một truông rừng sâu hẻo lánh. Ở đó có suối nước trong vắt, cỏ non cây lá ăn mãi không hết. Con voi này ngày trước từng được một vị hoàng đế ban cho ba chiếc vòng vàng đeo cổ. Nó sống trong rừng lâu năm, ba chiếc vòng vàng phủ dần một lớp rêu xanh, chẳng ai còn nhận ra.",
+      "subtitles": [
+        "Thuở nhà Lê mất ngôi, triều đình đổi chủ,",
+        "trong tàu voi của nhà vua có một con voi nhất định không chịu phục dịch chủ mới.",
+        "Nó bỏ tàu voi mà đi, lặn lội trở về chốn cũ nơi nó đã sinh ra,",
+        "một truông rừng sâu hẻo lánh.",
+        "Ở đó có suối nước trong vắt, cỏ non cây lá ăn mãi không hết.",
+        "Con voi này ngày trước từng được một vị hoàng đế ban cho ba chiếc vòng vàng đeo cổ.",
+        "Nó sống trong rừng lâu năm, ba chiếc vòng vàng phủ dần một lớp rêu xanh,",
+        "chẳng ai còn nhận ra."
+      ],
+      "image": {
+        "prompt": "a great elephant with three gold neck rings walking away alone into a deep misty forest gorge, a clear stream and lush grass, the ruins of a royal elephant stable far behind",
+        "seed": 3585396202,
+        "character": "voi"
+      },
+      "video": {
+        "motionPrompt": "the elephant walks slowly deeper into the mist, ferns sway, the stream glitters, the stable fades behind",
+        "seed": 626306623
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-quan-tuong-gia",
+      "title": "Người quản tượng già",
+      "narrator": "ke-chuyen",
+      "narration": "Người quản tượng từng chăm con voi ấy là ông đội Mâu. Khi voi bỏ đi, ông cũng thôi việc ở kinh, về quê cày cấy, sống với vợ con. Năm tháng qua đi, ông đội Mâu đã ngoài bảy mươi tuổi, râu tóc bạc trắng. Ông học được nghề hái thuốc nam, thường vào rừng tìm rễ cây lá thuốc. Một hôm, ông đi sâu vào khu rừng nọ. Đến một bụi cây, ông cúi lom khom, hai tay bới đất, cố nhổ lên một cái rễ thuốc. Ông không hề hay biết có một đôi mắt to đang lặng lẽ nhìn mình từ sau lùm cây.",
+      "subtitles": [
+        "Người quản tượng từng chăm con voi ấy là ông đội Mâu.",
+        "Khi voi bỏ đi, ông cũng thôi việc ở kinh, về quê cày cấy, sống với vợ con.",
+        "Năm tháng qua đi, ông đội Mâu đã ngoài bảy mươi tuổi, râu tóc bạc trắng.",
+        "Ông học được nghề hái thuốc nam, thường vào rừng tìm rễ cây lá thuốc.",
+        "Một hôm, ông đi sâu vào khu rừng nọ.",
+        "Đến một bụi cây, ông cúi lom khom, hai tay bới đất, cố nhổ lên một cái rễ thuốc.",
+        "Ông không hề hay biết có một đôi mắt to đang lặng lẽ nhìn mình từ sau lùm cây."
+      ],
+      "image": {
+        "prompt": "old Doi Mau bending low among roots and ferns in the forest digging up medicinal roots, an herb bag at his side, behind the bushes the shadow of a huge elephant watching quietly",
+        "seed": 1209298307,
+        "character": "doi-mau"
+      },
+      "video": {
+        "motionPrompt": "the old man tugs at a root, leaves rustle, behind him a large shape shifts silently in the shade",
+        "seed": 353028179
+      },
+      "voice": {}
+    },
+    {
+      "id": "voi-nhan-ra-chu",
+      "title": "Voi nhận ra chủ cũ",
+      "narrator": "ke-chuyen",
+      "narration": "Con voi nhận ra người chủ cũ. Nó lao ra khỏi lùm cây, lấy vòi quấn lấy ông đội Mâu, hạ thấp đôi ngà xuống, hai mắt ứa nước. Ông Mâu không nhận ra con voi của mình, sợ hết hồn, đinh ninh lần này bị voi rừng giày chết. Nhưng con voi chẳng hề làm hại ông. Nó nhẹ nhàng nắm lấy bàn tay già nua ấy, kéo đặt lên cổ mình, chỗ ba chiếc vòng rêu phủ. Nó cứ dẫn tay ông sờ vào vòng, như muốn nói: \"Ông lấy đi, đem về mà dùng.\"",
+      "subtitles": [
+        "Con voi nhận ra người chủ cũ.",
+        "Nó lao ra khỏi lùm cây, lấy vòi quấn lấy ông đội Mâu, hạ thấp đôi ngà xuống,",
+        "hai mắt ứa nước.",
+        "Ông Mâu không nhận ra con voi của mình, sợ hết hồn,",
+        "đinh ninh lần này bị voi rừng giày chết.",
+        "Nhưng con voi chẳng hề làm hại ông.",
+        "Nó nhẹ nhàng nắm lấy bàn tay già nua ấy, kéo đặt lên cổ mình, chỗ ba chiếc vòng rêu phủ.",
+        "Nó cứ dẫn tay ông sờ vào vòng, như muốn nói: \"Ông lấy đi, đem về mà dùng.\""
+      ],
+      "image": {
+        "prompt": "a huge elephant gently wrapping its trunk around a frightened old man, its tusks lowered, tears in its eyes, guiding his hand to the mossy gold rings on its neck",
+        "seed": 2604644176,
+        "character": "voi"
+      },
+      "video": {
+        "motionPrompt": "the trunk curls softly around the old man, a tear rolls from the elephant eye, the man trembles then slowly lays his palm on the ring",
+        "seed": 2733012076
+      },
+      "voice": {}
+    },
+    {
+      "id": "dem-trong-rung",
+      "title": "Một đêm trong rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Sờ tay lên vòng, ông Mâu sực nhận ra con voi năm xưa. Ông mừng mà rưng rưng, nhưng không biết làm sao gỡ được mấy chiếc vòng ra, lại sợ làm con voi đau. Trời cứ thế tối dần. Ông Mâu quỳ xuống lạy con voi, xin nó cho mình về. Con voi không chịu, cứ đứng chắn trước mặt, không cho ông đi. Đến canh hai, sương rừng lạnh buốt, ông già run rẩy than: \"Tôi già yếu lắm rồi, không ở lại trong rừng này được đâu.\" Nghe vậy, con voi liền quỳ xuống, đỡ ông lên lưng, rồi cất bước đi xuyên qua bóng đêm.",
+      "subtitles": [
+        "Sờ tay lên vòng, ông Mâu sực nhận ra con voi năm xưa.",
+        "Ông mừng mà rưng rưng, nhưng không biết làm sao gỡ được mấy chiếc vòng ra,",
+        "lại sợ làm con voi đau.",
+        "Trời cứ thế tối dần.",
+        "Ông Mâu quỳ xuống lạy con voi, xin nó cho mình về.",
+        "Con voi không chịu, cứ đứng chắn trước mặt, không cho ông đi.",
+        "Đến canh hai, sương rừng lạnh buốt, ông già run rẩy than: \"Tôi già yếu lắm rồi,",
+        "không ở lại trong rừng này được đâu.\"",
+        "Nghe vậy, con voi liền quỳ xuống, đỡ ông lên lưng, rồi cất bước đi xuyên qua bóng đêm."
+      ],
+      "image": {
+        "prompt": "night in the forest under a crescent moon, the old man kneeling and bowing before the great elephant, then sitting on its broad back as it walks through dark trees",
+        "seed": 3853436832,
+        "character": "doi-mau"
+      },
+      "video": {
+        "motionPrompt": "moonlight filters through branches, the elephant kneels and rises with the old man on its back, mist curls around its legs",
+        "seed": 2506322876
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-den-nha",
+      "title": "Về đến nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Đến canh tư, con voi chở ông đội Mâu về tới tận cửa nhà. Người nhà nghe tiếng động ra xem, thấy một con voi to lù lù đứng giữa sân thì hoảng hồn, toan bỏ chạy. Ông Mâu vội trấn an: \"Đừng sợ! Ông đây ngày trước ở trong đoàn voi ngự của vua, chính tay ta chăm sóc. Hôm nay ông gặp ta trong rừng, đưa ta về tận nhà.\" Cả nhà nghe vậy mới dám lại gần. Họ bắt con lợn đang nuôi trong chuồng làm thịt đãi con voi, lại mua ba quan tiền rượu cho nó uống, như đãi một vị khách quý.",
+      "subtitles": [
+        "Đến canh tư, con voi chở ông đội Mâu về tới tận cửa nhà.",
+        "Người nhà nghe tiếng động ra xem, thấy một con voi to lù lù đứng giữa sân thì hoảng hồn,",
+        "toan bỏ chạy.",
+        "Ông Mâu vội trấn an: \"Đừng sợ!",
+        "Ông đây ngày trước ở trong đoàn voi ngự của vua, chính tay ta chăm sóc.",
+        "Hôm nay ông gặp ta trong rừng, đưa ta về tận nhà.\"",
+        "Cả nhà nghe vậy mới dám lại gần.",
+        "Họ bắt con lợn đang nuôi trong chuồng làm thịt đãi con voi,",
+        "lại mua ba quan tiền rượu cho nó uống, như đãi một vị khách quý."
+      ],
+      "image": {
+        "prompt": "a thatched Vietnamese farmhouse courtyard lit by torches before dawn, the elephant standing calmly as the family offers food and jars of rice wine, the old man smiling beside it",
+        "seed": 3431699115,
+        "character": "voi"
+      },
+      "video": {
+        "motionPrompt": "torchlight flickers, the family slowly approaches with offerings, the elephant lowers its trunk to drink from a jar",
+        "seed": 2997967929
+      },
+      "voice": {}
+    },
+    {
+      "id": "tro-lai-rung",
+      "title": "Trở lại rừng sâu",
+      "narrator": "ke-chuyen",
+      "narration": "Trời vừa hửng sáng, con voi không chịu ở lại nữa. Nó đỡ ông đội Mâu cùng người con trai lên lưng, đưa cả hai cha con trở vào rừng. Đến chốn cũ, nó lại cầm tay hai người, đặt lên mấy chiếc vòng vàng, hết lần này đến lần khác. Ông Mâu hiểu ý, quay sang bảo con: \"Ông đã cho thì mình phải nhận, từ chối là phụ lòng ông.\" Ông rút con dao nhỏ, khẽ luồn lưỡi dao vào giữa vòng và da voi, bẩy mạnh một cái. Chiếc vòng thứ nhất bật ra, rồi đến chiếc thứ hai.",
+      "subtitles": [
+        "Trời vừa hửng sáng, con voi không chịu ở lại nữa.",
+        "Nó đỡ ông đội Mâu cùng người con trai lên lưng, đưa cả hai cha con trở vào rừng.",
+        "Đến chốn cũ, nó lại cầm tay hai người, đặt lên mấy chiếc vòng vàng,",
+        "hết lần này đến lần khác.",
+        "Ông Mâu hiểu ý, quay sang bảo con: \"Ông đã cho thì mình phải nhận,",
+        "từ chối là phụ lòng ông.\"",
+        "Ông rút con dao nhỏ, khẽ luồn lưỡi dao vào giữa vòng và da voi, bẩy mạnh một cái.",
+        "Chiếc vòng thứ nhất bật ra, rồi đến chiếc thứ hai."
+      ],
+      "image": {
+        "prompt": "at dawn in a misty forest clearing, the old man and his son beside the kneeling elephant, the old man carefully working a small knife beneath a mossy gold ring on its neck",
+        "seed": 2348482973,
+        "character": "con-trai"
+      },
+      "video": {
+        "motionPrompt": "soft dawn light rises, the old man works carefully, a gold ring loosens and falls into his son hands",
+        "seed": 3069355139
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-vong-thu-ba",
+      "title": "Chiếc vòng thứ ba",
+      "narrator": "ke-chuyen",
+      "narration": "Hai chiếc vòng bật ra, chỗ cổ con voi rỉ máu đầm đìa. Ông đội Mâu thấy vậy thì đau lòng, nhất định không lấy chiếc vòng thứ ba nữa. Ông vội tìm mấy thứ lá thuốc nam quanh đó, nhai nát rồi đắp lên vết thương cho con voi, vừa đắp vừa khẽ vỗ về như ngày xưa còn ở trong cung. Xong xuôi, hai cha con cúi đầu từ biệt con voi. Con voi đứng nhìn theo hồi lâu rồi lững thững quay vào rừng. Cha con ông Mâu trở về, mang theo hai chiếc vòng vàng, từ đó trong nhà khấm khá hẳn lên.",
+      "subtitles": [
+        "Hai chiếc vòng bật ra, chỗ cổ con voi rỉ máu đầm đìa.",
+        "Ông đội Mâu thấy vậy thì đau lòng, nhất định không lấy chiếc vòng thứ ba nữa.",
+        "Ông vội tìm mấy thứ lá thuốc nam quanh đó, nhai nát rồi đắp lên vết thương cho con voi,",
+        "vừa đắp vừa khẽ vỗ về như ngày xưa còn ở trong cung.",
+        "Xong xuôi, hai cha con cúi đầu từ biệt con voi.",
+        "Con voi đứng nhìn theo hồi lâu rồi lững thững quay vào rừng.",
+        "Cha con ông Mâu trở về, mang theo hai chiếc vòng vàng, từ đó trong nhà khấm khá hẳn lên."
+      ],
+      "image": {
+        "prompt": "the old man pressing crushed green herbs gently onto the elephant neck, the third mossy gold ring still in place, his son holding two gold rings, both bowing farewell as the elephant turns toward the trees",
+        "seed": 3168699234,
+        "character": "doi-mau"
+      },
+      "video": {
+        "motionPrompt": "the old man gently pats the elephant, the two men bow, the elephant slowly turns and fades into the green forest",
+        "seed": 2688409650
+      },
+      "voice": {}
+    },
+    {
+      "id": "quan-tay-son",
+      "title": "Quân Tây Sơn tìm voi",
+      "narrator": "ke-chuyen",
+      "narration": "Bấy giờ nhà Tây Sơn đang trị vì. Vua Quang Trung nghe đồn trong núi vẫn còn một con voi ngự của nhà Lê, liền sai quân lính vào rừng lùng bắt. Lính tráng kéo đi rầm rập, phát cây mở lối, lục soát từng khe suối, từng truông rừng. Nhưng con voi đã biến mất, không để lại dấu vết nào. Không ai bắt được nó. Con voi trung thành với chủ cũ, thà sống cô độc giữa rừng sâu, chứ không bao giờ để mình trở thành voi của chủ khác.",
+      "subtitles": [
+        "Bấy giờ nhà Tây Sơn đang trị vì.",
+        "Vua Quang Trung nghe đồn trong núi vẫn còn một con voi ngự của nhà Lê,",
+        "liền sai quân lính vào rừng lùng bắt.",
+        "Lính tráng kéo đi rầm rập, phát cây mở lối, lục soát từng khe suối, từng truông rừng.",
+        "Nhưng con voi đã biến mất, không để lại dấu vết nào.",
+        "Không ai bắt được nó.",
+        "Con voi trung thành với chủ cũ, thà sống cô độc giữa rừng sâu,",
+        "chứ không bao giờ để mình trở thành voi của chủ khác."
+      ],
+      "image": {
+        "prompt": "Tay Son soldiers in red and black uniforms searching through a dense mountain forest with torches and ropes, empty trails and streams, no elephant to be found, mist hanging between the trees",
+        "seed": 1565164930
+      },
+      "video": {
+        "motionPrompt": "soldiers move through the undergrowth, torches sweep across empty paths, mist slowly closes over the forest",
+        "seed": 2051733918
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Vietnamese folk instrumental, dan bau monochord and bamboo flute with soft forest ambience, distant birds and a slow stream, tender and melancholic, slow tempo, no vocals",
+    "durationSeconds": 180,
+    "seed": 3164895411
+  }
+}

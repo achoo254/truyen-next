@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "slug": "co-dau-that",
+  "shelf": "world",
+  "title": "Cô dâu thật",
+  "summary": "Cô gái hiền bị mẹ kế bắt làm những việc không thể làm nổi, và một bà cụ bí ẩn đã giúp cô xây cả một lâu đài. Khi chàng hoàng tử hứa hẹn bỗng quên mất cô, cô gái phải dùng ba chiếc áo mặt trời, mặt trăng và sao để chàng nhớ lại. Truyện cổ Grimm kể nhẹ cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "thien-ac",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Die wahre Braut\" (Kinder- und Hausmärchen, bản 1857, số 186), đối chiếu bản tiếng Anh \"The True Sweethearts\" của Margaret Hunt (1884, Project Gutenberg #5314), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; đã làm nhẹ cho cả nhà: bỏ lời doạ đánh đòn, và mẹ kế chỉ ngã xuống hầm rồi xấu hổ bỏ đi chứ không mất mạng như bản gốc.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, gentle pastel greens and golds, glowing castle lights, starry and moonlit night skies, warm romantic and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "co-gai",
+      "name": "Cô gái",
+      "seed": 3870599022,
+      "sheetPrompt": "a kind hardworking young German maiden with long chestnut curls usually tucked under a simple headscarf, gentle brown eyes, plain grey work dress with an apron, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba-cu",
+      "name": "Bà cụ tốt bụng",
+      "seed": 69469167,
+      "sheetPrompt": "a small kind old fairy woman with a wrinkled smiling face, white hair in a bun, soft brown shawl, gentle glowing hands, wise twinkling eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "seed": 376494853,
+      "sheetPrompt": "a handsome young German prince with wavy fair hair, kind but slightly lost expression, blue velvet doublet with a short cape, riding boots, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "me-ke",
+      "name": "Bà mẹ kế",
+      "seed": 957401928,
+      "sheetPrompt": "a sour bossy stepmother with a pinched face and tight grey bun, dark green dress, keys at her belt, arms folded, stern rather than frightening, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dong-long-chim",
+      "title": "Đống lông chim",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một cô gái trẻ đẹp, mồ côi mẹ từ nhỏ. Bà mẹ kế chẳng ưa cô, cô càng chăm chỉ thì bà càng giao thêm việc. Một hôm, bà quăng ra một đống lông chim: \"Tước sạch cho ta, tối nay chưa xong thì liệu hồn!\" Cô gái ngồi tước lông mà nước mắt lã chã. Hễ cô thở dài, lông lại bay tứ tung, phải nhặt lại từ đầu. Cô úp mặt vào tay: \"Trên đời này chẳng ai thương mình sao?\" Bỗng có giọng nói khẽ: \"Đừng buồn, con ơi, ta đến giúp con đây.\"",
+      "subtitles": [
+        "Ngày xưa có một cô gái trẻ đẹp, mồ côi mẹ từ nhỏ.",
+        "Bà mẹ kế chẳng ưa cô, cô càng chăm chỉ thì bà càng giao thêm việc.",
+        "Một hôm, bà quăng ra một đống lông chim: \"Tước sạch cho ta,",
+        "tối nay chưa xong thì liệu hồn!\" Cô gái ngồi tước lông mà nước mắt lã chã.",
+        "Hễ cô thở dài, lông lại bay tứ tung, phải nhặt lại từ đầu.",
+        "Cô úp mặt vào tay: \"Trên đời này chẳng ai thương mình sao?\"",
+        "Bỗng có giọng nói khẽ: \"Đừng buồn, con ơi, ta đến giúp con đây.\""
+      ],
+      "image": {
+        "prompt": "a plain cottage room, the kind maiden sits at a table weeping over a huge pile of feathers drifting in the air, beside her a small kind old woman appears in a soft glow and gently takes her hand",
+        "seed": 4127201653,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "feathers float and swirl around the table, the maiden lifts her tearful face, a soft warm glow grows around the old woman",
+        "seed": 936805062
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-cu-giup-suc",
+      "title": "Bà cụ giúp sức",
+      "narrator": "ke-chuyen",
+      "narration": "Đó là một bà cụ hiền hậu. Bà bảo cô nằm nghỉ, còn bà ngồi vào bàn. Đôi tay nhăn nheo vừa chạm khẽ, lông đã tuột khỏi cuống, chất thành đống trắng như tuyết. Khi cô tỉnh dậy, việc đã xong, nhà cửa gọn gàng, còn bà cụ thì biến đâu mất. Hôm sau, mẹ kế đưa cho cô một cái thìa thủng lỗ, bắt tát cạn cái ao lớn cạnh vườn. Cô quỳ bên bờ ao mà khóc. Bà cụ lại hiện ra, bảo cô vào bụi cây ngủ. Bà chỉ chạm nhẹ, nước ao bốc thành hơi bay lên hoà vào mây, chẳng mấy chốc ao đã cạn.",
+      "subtitles": [
+        "Đó là một bà cụ hiền hậu. Bà bảo cô nằm nghỉ, còn bà ngồi vào bàn.",
+        "Đôi tay nhăn nheo vừa chạm khẽ, lông đã tuột khỏi cuống, chất thành đống trắng như tuyết.",
+        "Khi cô tỉnh dậy, việc đã xong, nhà cửa gọn gàng, còn bà cụ thì biến đâu mất.",
+        "Hôm sau, mẹ kế đưa cho cô một cái thìa thủng lỗ, bắt tát cạn cái ao lớn cạnh vườn.",
+        "Cô quỳ bên bờ ao mà khóc. Bà cụ lại hiện ra, bảo cô vào bụi cây ngủ.",
+        "Bà chỉ chạm nhẹ, nước ao bốc thành hơi bay lên hoà vào mây, chẳng mấy chốc ao đã cạn."
+      ],
+      "image": {
+        "prompt": "a garden pond at sunset, water rising from the pond as a silvery mist into the clouds, the kind old woman with her hand touching the water, the maiden asleep under a leafy bush nearby holding a spoon full of holes",
+        "seed": 1588096072,
+        "character": "ba-cu"
+      },
+      "video": {
+        "motionPrompt": "silvery mist rises gently from the pond and joins the pink clouds, the water level sinks, the maiden sleeps peacefully",
+        "seed": 1192057875
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-trong-mot-ngay",
+      "title": "Lâu đài trong một ngày",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày thứ ba, mẹ kế quát: \"Tát ao bằng thìa thủng được thì xây lâu đài cũng được. Tối nay phải xong, thiếu một món gì trong bếp hay dưới hầm thì đừng trách ta!\" Cô gái nhìn đống đá xám chồng chất mà ngồi khóc. Bà cụ lại đến, bảo cô nằm nghỉ dưới bóng râm. Bà chạm vào đá, đá tự nhấc lên, xếp thành tường như có những bàn tay vô hình. Cột tự dựng, ngói tự lợp, trên tháp có chiếc chong chóng gió bằng vàng xoay tít. Bên trong treo lụa là, đèn pha lê lấp lánh, chim lạ hót trong lồng vàng.",
+      "subtitles": [
+        "Ngày thứ ba, mẹ kế quát: \"Tát ao bằng thìa thủng được thì xây lâu đài cũng được.",
+        "Tối nay phải xong, thiếu một món gì trong bếp hay dưới hầm thì đừng trách ta!\"",
+        "Cô gái nhìn đống đá xám chồng chất mà ngồi khóc.",
+        "Bà cụ lại đến, bảo cô nằm nghỉ dưới bóng râm.",
+        "Bà chạm vào đá, đá tự nhấc lên, xếp thành tường như có những bàn tay vô hình.",
+        "Cột tự dựng, ngói tự lợp, trên tháp có chiếc chong chóng gió bằng vàng xoay tít.",
+        "Bên trong treo lụa là, đèn pha lê lấp lánh, chim lạ hót trong lồng vàng."
+      ],
+      "image": {
+        "prompt": "a magical castle rising by itself from grey rocks on a plain, stones floating into walls, pillars standing up, roof tiles flying into place, a golden weathervane spinning on the tower, the kind old woman with raised hands, sunset glow",
+        "seed": 2927213430,
+        "character": "ba-cu"
+      },
+      "video": {
+        "motionPrompt": "stones lift and stack themselves, roof tiles flutter into place like birds, the golden weathervane begins to spin, warm light fills the windows",
+        "seed": 1000764955
+      },
+      "voice": {}
+    },
+    {
+      "id": "canh-cua-ham",
+      "title": "Cánh cửa hầm",
+      "narrator": "ke-chuyen",
+      "narration": "Mẹ kế đến xem, đi khắp các phòng soi từng góc mà chẳng tìm ra lỗi gì. Bếp lửa đỏ, nồi niêu sáng bóng, không thiếu cả cái xô múc nước. \"Còn cái hầm! Hầm mà không đầy thì liệu đấy!\" Bà tự kéo nắp hầm lên rồi bước xuống. Mới được hai bậc, nắp hầm nặng trịch sập xuống, bà ngã lăn xuống hầm. Cô gái vội mở nắp, gọi người kéo bà lên. Bà mẹ kế xấu hổ quá, bỏ đi biệt xứ, không bao giờ quay lại nữa. Từ đó, lâu đài tráng lệ thuộc về cô gái.",
+      "subtitles": [
+        "Mẹ kế đến xem, đi khắp các phòng soi từng góc mà chẳng tìm ra lỗi gì.",
+        "Bếp lửa đỏ, nồi niêu sáng bóng, không thiếu cả cái xô múc nước.",
+        "\"Còn cái hầm! Hầm mà không đầy thì liệu đấy!\"",
+        "Bà tự kéo nắp hầm lên rồi bước xuống.",
+        "Mới được hai bậc, nắp hầm nặng trịch sập xuống, bà ngã lăn xuống hầm.",
+        "Cô gái vội mở nắp, gọi người kéo bà lên.",
+        "Bà mẹ kế xấu hổ quá, bỏ đi biệt xứ, không bao giờ quay lại nữa.",
+        "Từ đó, lâu đài tráng lệ thuộc về cô gái."
+      ],
+      "image": {
+        "prompt": "a grand castle kitchen with shining copper pots and a glowing hearth, the stepmother lifting a heavy wooden trapdoor to the cellar with a suspicious look, the maiden watching worriedly from the doorway",
+        "seed": 4048542227,
+        "character": "me-ke"
+      },
+      "video": {
+        "motionPrompt": "the stepmother heaves the trapdoor open and steps down, the heavy lid slams shut with a puff of dust, the maiden rushes forward",
+        "seed": 2878445811
+      },
+      "voice": {}
+    },
+    {
+      "id": "hen-duoi-goc-doan",
+      "title": "Hẹn dưới gốc đoan",
+      "narrator": "ke-chuyen",
+      "narration": "Tiếng đồn về cô gái giàu có, xinh đẹp lan khắp nơi. Bao người đến hỏi cưới mà chẳng ai vừa lòng cô, cho đến khi một chàng hoàng tử tới và chiếm được trái tim cô. Một hôm, ngồi dưới gốc cây đoan trong vườn, chàng nói: \"Ta về xin phép vua cha, vài giờ nữa sẽ trở lại. Nàng chờ ta ở đây nhé.\" Cô gái hôn lên má trái của chàng: \"Hãy giữ lời, và đừng để ai hôn lên má này nữa. Em sẽ chờ chàng dưới gốc cây đoan.\"",
+      "subtitles": [
+        "Tiếng đồn về cô gái giàu có, xinh đẹp lan khắp nơi.",
+        "Bao người đến hỏi cưới mà chẳng ai vừa lòng cô,",
+        "cho đến khi một chàng hoàng tử tới và chiếm được trái tim cô.",
+        "Một hôm, ngồi dưới gốc cây đoan trong vườn, chàng nói: \"Ta về xin phép vua cha,",
+        "vài giờ nữa sẽ trở lại. Nàng chờ ta ở đây nhé.\"",
+        "Cô gái hôn lên má trái của chàng: \"Hãy giữ lời, và đừng để ai hôn lên má này nữa.",
+        "Em sẽ chờ chàng dưới gốc cây đoan.\""
+      ],
+      "image": {
+        "prompt": "a lovely castle garden in spring, the prince and the maiden sitting under a large blossoming linden tree, she gently kisses his left cheek, his horse waiting nearby, soft romantic light",
+        "seed": 1640716870,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "linden blossoms drift down, the maiden kisses the prince's cheek, he rises and mounts his horse and rides away waving",
+        "seed": 2376128397
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-gai-chan-bo",
+      "title": "Cô gái chăn bò",
+      "narrator": "ke-chuyen",
+      "narration": "Cô chờ đến lúc mặt trời lặn, chờ ba ngày ròng, mà chàng chẳng trở về. Cô gói ba chiếc áo đẹp nhất, một chiếc thêu sao sáng, một chiếc thêu trăng bạc, một chiếc thêu mặt trời vàng, rồi lên đường tìm chàng. Đi khắp nơi không ai biết tin, cô đành ở lại làm người chăn bò cho một nhà nông, chôn áo và châu báu dưới một tảng đá. Cô có một chú bê nhỏ, ngày ngày cho ăn tận tay. Mỗi khi cô hát: \"Bê con ơi, quỳ xuống bên ta, đừng quên cô chăn bò, như hoàng tử quên cô dâu đợi dưới gốc đoan,\" chú bê lại quỳ xuống cho cô vuốt ve.",
+      "subtitles": [
+        "Cô chờ đến lúc mặt trời lặn, chờ ba ngày ròng, mà chàng chẳng trở về.",
+        "Cô gói ba chiếc áo đẹp nhất, một chiếc thêu sao sáng, một chiếc thêu trăng bạc,",
+        "một chiếc thêu mặt trời vàng, rồi lên đường tìm chàng.",
+        "Đi khắp nơi không ai biết tin, cô đành ở lại làm người chăn bò cho một nhà nông,",
+        "chôn áo và châu báu dưới một tảng đá. Cô có một chú bê nhỏ, ngày ngày cho ăn tận tay.",
+        "Mỗi khi cô hát: \"Bê con ơi, quỳ xuống bên ta, đừng quên cô chăn bò,",
+        "như hoàng tử quên cô dâu đợi dưới gốc đoan,\" chú bê lại quỳ xuống cho cô vuốt ve."
+      ],
+      "image": {
+        "prompt": "a green countryside pasture, the maiden in a simple herd-girl dress and headscarf sits stroking a little calf that kneels beside her, cows grazing, a big stone at the edge of the meadow, gentle wistful mood",
+        "seed": 4163276572,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the little calf bends its knees and kneels, the maiden strokes its head softly, cows graze, clouds drift over the meadow",
+        "seed": 2456813573
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoang-tu-di-ngang",
+      "title": "Hoàng tử đi ngang",
+      "narrator": "ke-chuyen",
+      "narration": "Vài năm trôi qua, khắp nơi đồn rằng hoàng tử sắp cưới vợ. Con đường lên kinh thành đi qua làng cô. Một hôm, hoàng tử cưỡi ngựa đi ngang, chẳng ngoái nhìn. Cô nhận ra chàng, lòng đau như cắt: \"Chàng đã quên mình rồi.\" Hôm sau chàng lại đi qua, cô hát với chú bê bài hát cũ. Nghe giọng ấy, chàng ghìm cương nhìn cô, đưa tay lên che mắt như cố nhớ điều gì, nhưng rồi lại thúc ngựa đi mất.",
+      "subtitles": [
+        "Vài năm trôi qua, khắp nơi đồn rằng hoàng tử sắp cưới vợ.",
+        "Con đường lên kinh thành đi qua làng cô.",
+        "Một hôm, hoàng tử cưỡi ngựa đi ngang, chẳng ngoái nhìn.",
+        "Cô nhận ra chàng, lòng đau như cắt: \"Chàng đã quên mình rồi.\"",
+        "Hôm sau chàng lại đi qua, cô hát với chú bê bài hát cũ.",
+        "Nghe giọng ấy, chàng ghìm cương nhìn cô, đưa tay lên che mắt như cố nhớ điều gì,",
+        "nhưng rồi lại thúc ngựa đi mất."
+      ],
+      "image": {
+        "prompt": "a country road through a village, the prince riding a white horse pauses and looks down thoughtfully with a hand at his brow, the herd-girl with her kneeling calf by the roadside looking up at him",
+        "seed": 2502895760,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the prince reins in his horse, puts a hand over his eyes as if remembering, then rides on, the herd-girl watches him go",
+        "seed": 1436001023
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-dem-hoi",
+      "title": "Ba đêm hội",
+      "narrator": "ke-chuyen",
+      "narration": "Triều đình mở hội ba ngày. Tối đầu, cô đào chiếc áo mặt trời vàng lên mặc, buông mái tóc dài xoăn, bước vào đại sảnh. Ai cũng sững sờ mà chẳng ai nhận ra. Hoàng tử mời cô khiêu vũ, say mê đến quên cả cô dâu kia. Hội tan, cô lẫn vào đám đông, trước khi trời sáng đã lại là cô chăn bò. Tối thứ hai, cô mặc áo trăng bạc, cài vầng trăng ngọc trên tóc, hoàng tử chỉ khiêu vũ với mình cô, và xin cô hứa tối cuối cùng sẽ đến.",
+      "subtitles": [
+        "Triều đình mở hội ba ngày.",
+        "Tối đầu, cô đào chiếc áo mặt trời vàng lên mặc, buông mái tóc dài xoăn, bước vào đại sảnh.",
+        "Ai cũng sững sờ mà chẳng ai nhận ra.",
+        "Hoàng tử mời cô khiêu vũ, say mê đến quên cả cô dâu kia.",
+        "Hội tan, cô lẫn vào đám đông, trước khi trời sáng đã lại là cô chăn bò.",
+        "Tối thứ hai, cô mặc áo trăng bạc, cài vầng trăng ngọc trên tóc,",
+        "hoàng tử chỉ khiêu vũ với mình cô, và xin cô hứa tối cuối cùng sẽ đến."
+      ],
+      "image": {
+        "prompt": "a brilliantly lit royal ballroom with crystal chandeliers, the maiden in a shimmering gown embroidered with golden suns and long flowing curls dances with the enchanted prince, guests turning to stare in wonder",
+        "seed": 3740008061,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the couple twirls across the shining floor, the sun-embroidered gown sparkles, candles flicker, guests sway",
+        "seed": 4294631303
+      },
+      "voice": {}
+    },
+    {
+      "id": "nu-hon-ma-trai",
+      "title": "Nụ hôn trên má trái",
+      "narrator": "ke-chuyen",
+      "narration": "Tối thứ ba, cô mặc áo thêu sao, mỗi bước đi lại lấp lánh. Hoàng tử đã chờ cô từ lâu: \"Nàng là ai? Ta thấy như đã quen nàng từ lâu lắm.\" \"Chàng không nhớ em đã làm gì khi chàng ra đi sao?\" Cô bước lại gần, hôn lên má trái của chàng. Ngay lập tức, chàng nhớ ra tất cả, nhận ra cô dâu thật của mình. \"Đi thôi, ta không ở đây thêm nữa,\" chàng nắm tay cô dắt ra xe. Ngựa phi như gió về lâu đài. Đi ngang gốc đoan, đom đóm bay lượn lung linh, cây rung cành toả hương thơm ngát. Trong đại sảnh, triều đình đã đông đủ, cha xứ đang chờ làm lễ cưới cho hoàng tử và cô dâu thật.",
+      "subtitles": [
+        "Tối thứ ba, cô mặc áo thêu sao, mỗi bước đi lại lấp lánh.",
+        "Hoàng tử đã chờ cô từ lâu: \"Nàng là ai? Ta thấy như đã quen nàng từ lâu lắm.\"",
+        "\"Chàng không nhớ em đã làm gì khi chàng ra đi sao?\"",
+        "Cô bước lại gần, hôn lên má trái của chàng.",
+        "Ngay lập tức, chàng nhớ ra tất cả, nhận ra cô dâu thật của mình.",
+        "\"Đi thôi, ta không ở đây thêm nữa,\" chàng nắm tay cô dắt ra xe.",
+        "Ngựa phi như gió về lâu đài.",
+        "Đi ngang gốc đoan, đom đóm bay lượn lung linh, cây rung cành toả hương thơm ngát.",
+        "Trong đại sảnh, triều đình đã đông đủ,",
+        "cha xứ đang chờ làm lễ cưới cho hoàng tử và cô dâu thật."
+      ],
+      "image": {
+        "prompt": "night scene, a carriage racing toward a glowing magic castle, passing the great linden tree swarming with countless golden fireflies, the maiden in a star-embroidered gown beside the happy prince, flowers blooming on the castle steps",
+        "seed": 2839426653,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the carriage speeds along, fireflies swirl around the linden tree, its branches sway, the castle windows glow brighter, slow push-in",
+        "seed": 2838763127
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "romantic German fairy-tale instrumental, gentle harp, celesta and soft strings, a tender waltz theme that grows into a joyful wedding finale, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 2074817396
+  }
+}

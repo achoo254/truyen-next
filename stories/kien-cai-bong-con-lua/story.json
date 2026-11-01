@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "slug": "kien-cai-bong-con-lua",
+  "shelf": "world",
+  "title": "Kiện cái bóng con lừa",
+  "summary": "Giữa trưa nắng gắt, người khách thuê lừa và người chủ lừa cãi nhau xem ai được ngồi trong cái bóng của con lừa. Trong lúc hai người mải tranh nhau, con lừa lặng lẽ bỏ đi. Ngụ ngôn Aesop vui về chuyện mải tranh cái nhỏ mà mất cái lớn.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, a sun-baked Greek countryside road with olive trees, white stone walls and golden fields, bright midday light, gentle rounded comical characters in simple ancient tunics, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "khach",
+      "name": "Người khách",
+      "seed": 2527600790,
+      "sheetPrompt": "a round-faced traveller in a simple ancient Greek tunic and a wide straw hat, carrying a small cloth bundle, cheerful but stubborn, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chu-lua",
+      "name": "Người chủ lừa",
+      "seed": 2273014676,
+      "sheetPrompt": "a skinny elderly donkey owner in a patched ancient Greek tunic, with a curly grey beard and a walking stick, cheerful but stubborn, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "lua",
+      "name": "Con lừa",
+      "seed": 2304737727,
+      "sheetPrompt": "a small grey donkey with long fuzzy ears, a soft white muzzle and patient sleepy eyes, wearing a simple woven saddle cloth, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "thue-lua",
+      "title": "Thuê lừa đi xa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một người khách cần đi tới một thị trấn ở rất xa. Ông tới nhà bác chủ lừa, trả mấy đồng bạc để thuê con lừa xám chở mình đi. Bác chủ lừa cầm dây dắt, người khách ngồi trên lưng lừa, cả ba cùng lên đường từ sáng sớm.",
+      "subtitles": [
+        "Ngày xưa, có một người khách cần đi tới một thị trấn ở rất xa.",
+        "Ông tới nhà bác chủ lừa, trả mấy đồng bạc để thuê con lừa xám chở mình đi.",
+        "Bác chủ lừa cầm dây dắt, người khách ngồi trên lưng lừa, cả ba cùng lên đường từ sáng sớm."
+      ],
+      "image": {
+        "character": "khach",
+        "prompt": "a traveller in a straw hat riding a small grey donkey along a country road at early morning, the bearded owner walking ahead holding the rope",
+        "seed": 3700214972
+      },
+      "video": {
+        "motionPrompt": "the donkey trots along the road, the owner leads it by the rope, birds fly over golden fields",
+        "seed": 1395524419
+      },
+      "voice": {}
+    },
+    {
+      "id": "nang-trua",
+      "title": "Trưa nắng gắt",
+      "narrator": "ke-chuyen",
+      "narration": "Đến trưa, mặt trời đứng bóng, nắng chói chang như đổ lửa. Con đường trơ trọi, chẳng có lấy một gốc cây nào để nghỉ. Người khách mệt lả, bèn tụt xuống, ngồi thụp vào cái bóng nhỏ của con lừa để tránh nắng. Cái bóng ấy chỉ vừa đủ cho một người.",
+      "subtitles": [
+        "Đến trưa, mặt trời đứng bóng, nắng chói chang như đổ lửa.",
+        "Con đường trơ trọi, chẳng có lấy một gốc cây nào để nghỉ.",
+        "Người khách mệt lả, bèn tụt xuống, ngồi thụp vào cái bóng nhỏ của con lừa để tránh nắng.",
+        "Cái bóng ấy chỉ vừa đủ cho một người."
+      ],
+      "image": {
+        "character": "lua",
+        "prompt": "a hot sunny road with no trees, a tired traveller sitting in the small patch of shade cast by a grey donkey, the owner wiping his brow beside them",
+        "seed": 384363850
+      },
+      "video": {
+        "motionPrompt": "heat shimmers over the road, the traveller fans himself with his hat, the donkey flicks its ears",
+        "seed": 720579648
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-nhau",
+      "title": "Cái bóng của ai",
+      "narrator": "ke-chuyen",
+      "narration": "Bác chủ lừa cũng nóng quá, liền bảo: “Ông ra đi, chỗ bóng râm này là của tôi!” Người khách cãi: “Tôi đã thuê con lừa, thì cái bóng của nó cũng là của tôi chứ!” Bác chủ lừa lắc đầu: “Ông chỉ thuê con lừa thôi, đâu có thuê cái bóng!” Hai người cãi qua cãi lại, tiếng mỗi lúc một to.",
+      "subtitles": [
+        "Bác chủ lừa cũng nóng quá, liền bảo: “Ông ra đi, chỗ bóng râm này là của tôi!”",
+        "Người khách cãi: “Tôi đã thuê con lừa, thì cái bóng của nó cũng là của tôi chứ!”",
+        "Bác chủ lừa lắc đầu: “Ông chỉ thuê con lừa thôi, đâu có thuê cái bóng!”",
+        "Hai người cãi qua cãi lại, tiếng mỗi lúc một to."
+      ],
+      "image": {
+        "character": "chu-lua",
+        "prompt": "two men in ancient tunics arguing loudly beside a grey donkey on a sunny road, pointing at its small shadow on the ground, the donkey looking bored",
+        "seed": 4005797941
+      },
+      "video": {
+        "motionPrompt": "the two men wave their arms and point at the shadow, the donkey yawns and swishes its tail",
+        "seed": 2948952146
+      },
+      "voice": {}
+    },
+    {
+      "id": "xo-day",
+      "title": "Mải tranh nhau",
+      "narrator": "ke-chuyen",
+      "narration": "Rồi hai người xô đẩy nhau, người này kéo tay áo người kia, chẳng ai chịu nhường ai. Họ mải tranh cái bóng đến nỗi quên bẵng con lừa đang đứng ngay cạnh. Con lừa nhìn hai ông một lúc, ngáp một cái rõ dài. Rồi nó quay đầu, thong thả chạy lóc cóc về phía con suối mát ở cuối đồng.",
+      "subtitles": [
+        "Rồi hai người xô đẩy nhau, người này kéo tay áo người kia, chẳng ai chịu nhường ai.",
+        "Họ mải tranh cái bóng đến nỗi quên bẵng con lừa đang đứng ngay cạnh.",
+        "Con lừa nhìn hai ông một lúc, ngáp một cái rõ dài.",
+        "Rồi nó quay đầu, thong thả chạy lóc cóc về phía con suối mát ở cuối đồng."
+      ],
+      "image": {
+        "character": "lua",
+        "prompt": "two comical men tugging at each other's sleeves in a silly scuffle while a grey donkey quietly trots away down the road behind them toward a distant stream",
+        "seed": 3503727428
+      },
+      "video": {
+        "motionPrompt": "the men push and tug at each other, the donkey turns and trots away, a little cloud of dust rises",
+        "seed": 3260158765
+      },
+      "voice": {}
+    },
+    {
+      "id": "mat-lua",
+      "title": "Chẳng còn cái bóng nào",
+      "narrator": "ke-chuyen",
+      "narration": "Khi quay lại, hai người mới thấy chỗ con lừa chỉ còn trơ một khoảng đất nắng chang chang. Lừa đi mất, bóng cũng đi mất. Hai ông đành dắt díu nhau, lội bộ dưới nắng cả buổi chiều đi tìm lừa. Mãi tới bên suối mới thấy nó đang thảnh thơi gặm cỏ dưới gốc cây. Các bạn nhỏ ạ, mải tranh nhau cái bóng, nhiều khi ta đánh mất chính cái mình cần nhất.",
+      "subtitles": [
+        "Khi quay lại, hai người mới thấy chỗ con lừa chỉ còn trơ một khoảng đất nắng chang chang.",
+        "Lừa đi mất, bóng cũng đi mất.",
+        "Hai ông đành dắt díu nhau, lội bộ dưới nắng cả buổi chiều đi tìm lừa.",
+        "Mãi tới bên suối mới thấy nó đang thảnh thơi gặm cỏ dưới gốc cây.",
+        "Các bạn nhỏ ạ, mải tranh nhau cái bóng, nhiều khi ta đánh mất chính cái mình cần nhất."
+      ],
+      "image": {
+        "character": "khach",
+        "prompt": "two hot tired men in tunics finally finding the grey donkey happily grazing under a shady olive tree beside a cool stream, late afternoon light",
+        "seed": 3662123221
+      },
+      "video": {
+        "motionPrompt": "the men trudge up wiping their brows, the donkey keeps munching grass, leaves rustle in the breeze",
+        "seed": 2800243645
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light comic Mediterranean folk music, lute and wooden flute, a trotting donkey rhythm on woodblock, a quarrelling duet of bassoon and clarinet, a sunny easygoing ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4036402437
+  }
+}

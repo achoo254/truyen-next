@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "slug": "long-vuong-va-con-ech",
+  "shelf": "kids",
+  "title": "Long Vương và con ếch",
+  "summary": "Long Vương đi dạo sông biển, giận chú ếch không chịu cúi chào nên gọi vào cung hỏi tội. Chú ếch nhỏ mắt trố, bụng phình, đối đáp đâu ra đấy khiến vua thủy cung phải nhận mình lầm. Truyện cổ Việt Nam kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Long Vương và con ếch» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách; bài ngâm của ếch được kể lại bằng lời mới. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, cảnh cá tôm cúi chào Long Vương, lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, an underwater palace of coral and pearl, mossy streams, green grass and white stones, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 2333542058,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ech",
+      "name": "Chú ếch",
+      "seed": 750668888,
+      "sheetPrompt": "a small round green frog with big bulging shiny eyes, a round puffed belly and a calm confident smile, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "long-vuong",
+      "name": "Long Vương",
+      "seed": 1299295416,
+      "sheetPrompt": "a kind but proud Vietnamese dragon king of the waters, long blue-green dragon body with soft golden whiskers, wearing a small golden crown and a flowing royal robe, gentle cartoon style, friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ca-tre",
+      "name": "Bác cá trê",
+      "seed": 333029148,
+      "sheetPrompt": "a chubby dark grey catfish with long whiskers, wearing a little red messenger sash, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã thấy chú ếch ngồi bên bờ ao bao giờ chưa? Mắt ếch cứ trố tròn, bụng ếch cứ phình phình. Trông bé thế thôi, nhưng ngày xưa có một chú ếch dám đối đáp với cả Long Vương, vua của muôn loài dưới nước đấy. Chuyện thế nào nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn đã thấy chú ếch ngồi bên bờ ao bao giờ chưa?",
+        "Mắt ếch cứ trố tròn, bụng ếch cứ phình phình.",
+        "Trông bé thế thôi, nhưng ngày xưa có một chú ếch dám đối đáp với cả Long Vương,",
+        "vua của muôn loài dưới nước đấy. Chuyện thế nào nhỉ?",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a flat stone beside a green pond, pointing with a smile at a little frog on a lily pad, an open picture book on her lap",
+        "seed": 2031791358
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello, the frog puffs its throat, ripples spread across the pond, dragonflies hover, slow gentle camera push-in",
+        "seed": 3818319901
+      },
+      "voice": {}
+    },
+    {
+      "id": "long-vuong-di-dao",
+      "title": "Long Vương đi dạo",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, Long Vương cưỡi mây đi dạo khắp các sông, các biển. Cá tôm thấy ngài đi qua, con nào cũng cúi đầu chào. Bỗng ngài thấy một chú ếch ngồi chễm chệ trên hòn đá, mắt nhìn trân trân, chẳng thèm cúi chào. Long Vương phật ý lắm, nghĩ bụng: Ếch cũng nhờ nước mà sống, sao dám không phục ta? Ngài liền sai bác cá trê đi gọi ếch vào cung.",
+      "subtitles": [
+        "Ngày xưa, Long Vương cưỡi mây đi dạo khắp các sông, các biển.",
+        "Cá tôm thấy ngài đi qua, con nào cũng cúi đầu chào.",
+        "Bỗng ngài thấy một chú ếch ngồi chễm chệ trên hòn đá, mắt nhìn trân trân,",
+        "chẳng thèm cúi chào.",
+        "Long Vương phật ý lắm, nghĩ bụng: Ếch cũng nhờ nước mà sống, sao dám không phục ta?",
+        "Ngài liền sai bác cá trê đi gọi ếch vào cung."
+      ],
+      "image": {
+        "character": "long-vuong",
+        "prompt": "the dragon king glides on a soft cloud above a wide river, little fish and shrimps bow politely in the water, a small frog sits on a stone staring back without bowing, a whiskered catfish waits for orders",
+        "seed": 1326064779
+      },
+      "video": {
+        "motionPrompt": "the dragon king floats slowly on the cloud and frowns, the fish bow in a wave, the frog blinks calmly, the catfish swims off quickly",
+        "seed": 656713792
+      },
+      "voice": {}
+    },
+    {
+      "id": "ech-vao-cung",
+      "title": "Chú ếch vào cung",
+      "narrator": "ke-chuyen",
+      "narration": "Ếch theo cá trê vào cung, nhảy tót một cái vào giữa sân, rồi ngồi chồm chỗm, mắt trố tròn nhìn Long Vương, chẳng run sợ chút nào. Long Vương quát vang: Này con kia, mi tên là gì? Mi cũng sống dưới nước, sao dám coi thường ta? Ếch giương mắt to hơn nữa, kêu ồm ộp: Thưa, tôi tên là Gà đồng, còn tên là Vịt đất, lại có tên là Thanh tịnh. Tôi đâu có sống ở sông biển của ngài.",
+      "subtitles": [
+        "Ếch theo cá trê vào cung, nhảy tót một cái vào giữa sân, rồi ngồi chồm chỗm,",
+        "mắt trố tròn nhìn Long Vương, chẳng run sợ chút nào.",
+        "Long Vương quát vang: Này con kia, mi tên là gì?",
+        "Mi cũng sống dưới nước, sao dám coi thường ta?",
+        "Ếch giương mắt to hơn nữa, kêu ồm ộp: Thưa, tôi tên là Gà đồng, còn tên là Vịt đất,",
+        "lại có tên là Thanh tịnh. Tôi đâu có sống ở sông biển của ngài."
+      ],
+      "image": {
+        "character": "ech",
+        "prompt": "inside a shimmering underwater palace of coral and pearls, the little frog squats in the middle of the hall with big round eyes, the dragon king on his throne leans forward with a stern face, the catfish stands to the side",
+        "seed": 3322039296
+      },
+      "video": {
+        "motionPrompt": "the frog hops in and lands with a plop, the dragon king raises a claw and speaks loudly, bubbles rise, the frog puffs its throat and croaks back",
+        "seed": 4294654459
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-cua-ech",
+      "title": "Nhà của ếch ở đâu",
+      "narrator": "ke-chuyen",
+      "narration": "Long Vương hỏi: Thế mi ở chốn nào? Ếch thong thả đáp: Cỏ biếc, rêu xanh, suối trong, đá trắng, đó là nhà của tôi. Long Vương nghe ếch nói câu nào cũng có lý, lại thấy đôi mắt ếch cứ trố trố nhìn mình, ngài bỗng thấy chột dạ. Ngài dịu giọng hỏi: Thôi, ta lầm rồi, anh đừng giận ta nữa. À, thế lúc vui, lúc giận, anh làm thế nào?",
+      "subtitles": [
+        "Long Vương hỏi: Thế mi ở chốn nào?",
+        "Ếch thong thả đáp: Cỏ biếc, rêu xanh, suối trong, đá trắng, đó là nhà của tôi.",
+        "Long Vương nghe ếch nói câu nào cũng có lý, lại thấy đôi mắt ếch cứ trố trố nhìn mình,",
+        "ngài bỗng thấy chột dạ. Ngài dịu giọng hỏi: Thôi, ta lầm rồi, anh đừng giận ta nữa.",
+        "À, thế lúc vui, lúc giận, anh làm thế nào?"
+      ],
+      "image": {
+        "character": "ech",
+        "prompt": "a dreamy picture of the frog's home floating like a bubble in the palace hall: green grass, soft moss, a clear stream and smooth white stones, the dragon king looks surprised and softens his face",
+        "seed": 2336177164
+      },
+      "video": {
+        "motionPrompt": "the bubble picture glows and the stream inside it flows, the dragon king lowers his claw and smiles awkwardly, the frog blinks slowly",
+        "seed": 2497441317
+      },
+      "voice": {}
+    },
+    {
+      "id": "ech-ngam-tho",
+      "title": "Ếch ngâm thơ",
+      "narrator": "ke-chuyen",
+      "narration": "Ếch hắng giọng, ngâm nga: Khi vui thì gió mát trăng thanh, anh em ta gọi nhau, kèn trống vang quanh mình. Khi giận thì mắt trợn tròn xoe, bụng phình to quá gối, chẳng cần ai hầu. Ngâm xong, ếch phình bụng thật to, giương mắt nhìn Long Vương thêm một lần nữa, rồi quay lưng nhảy tõm ra ngoài. Long Vương ngồi yên trên ngai, chẳng dám giữ ếch lại.",
+      "subtitles": [
+        "Ếch hắng giọng, ngâm nga: Khi vui thì gió mát trăng thanh, anh em ta gọi nhau,",
+        "kèn trống vang quanh mình.",
+        "Khi giận thì mắt trợn tròn xoe, bụng phình to quá gối, chẳng cần ai hầu.",
+        "Ngâm xong, ếch phình bụng thật to, giương mắt nhìn Long Vương thêm một lần nữa,",
+        "rồi quay lưng nhảy tõm ra ngoài. Long Vương ngồi yên trên ngai, chẳng dám giữ ếch lại."
+      ],
+      "image": {
+        "character": "ech",
+        "prompt": "the little frog stands proudly reciting a poem with his belly puffed out, a small moonlit vision of many frogs croaking together in a pond behind him, the dragon king listens quietly on his throne",
+        "seed": 1816027988
+      },
+      "video": {
+        "motionPrompt": "the frog sways while reciting, his belly puffs bigger, then he turns and leaps out of the palace in one big hop, bubbles trail behind, the dragon king watches still",
+        "seed": 361222234
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, chú ếch tuy nhỏ bé nhưng nói rõ ràng, đúng sự thật, nên chẳng phải sợ ai. Còn Long Vương biết mình lầm thì chịu nhận ngay, thế cũng đáng khen lắm. Khi mình đúng, hãy nói rõ ràng mà lễ phép. Khi mình sai, hãy biết nhận sai nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, chú ếch tuy nhỏ bé nhưng nói rõ ràng, đúng sự thật,",
+        "nên chẳng phải sợ ai.",
+        "Còn Long Vương biết mình lầm thì chịu nhận ngay, thế cũng đáng khen lắm.",
+        "Khi mình đúng, hãy nói rõ ràng mà lễ phép. Khi mình sai, hãy biết nhận sai nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye by a clear stream with green grass, soft moss and white stones, the little frog sits proudly on a white stone beside her, a gentle moon rising",
+        "seed": 3873430831
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the frog croaks and hops onto a lily pad, the stream sparkles, fireflies appear, gentle camera pull-back",
+        "seed": 682163414
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Vietnamese folk melody, bamboo flute and dan bau with soft water drops and light wooden percussion, playful and curious, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 755610489
+  }
+}

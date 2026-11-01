@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "slug": "hai-nguoi-con-cua-hai-vua",
+  "shelf": "world",
+  "title": "Hai người con của hai vua",
+  "summary": "Đuổi theo một con hươu lớn, chàng hoàng tử lạc vào lâu đài của một ông vua khó tính bắt chàng làm những việc không thể làm nổi. Nàng công chúa út cùng những người tí hon dưới đất đã giúp chàng, rồi hai người cùng trốn đi với phép hoá thân kỳ diệu. Truyện cổ Grimm kể nhẹ cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"De beiden Künigeskinner\" (Kinder- und Hausmärchen, bản 1857, số 113), đối chiếu bản tiếng Anh \"The Two Kings' Children\" của Margaret Hunt (1884, Project Gutenberg #5314), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; đã làm nhẹ cho cả nhà: bỏ lời tiên tri và những lời doạ lấy mạng, gộp bớt các lần thử thách lặp lại, và hoàng hậu chỉ tát nước ao không được rồi đành chịu.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, lake blues, forest greens and rose pinks, glass tools that sparkle, little earth-folk in brown hoods, warm magical and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "seed": 1170334008,
+      "sheetPrompt": "a brave gentle young German prince of sixteen, short golden hair, green hunting jacket, brown boots, a hunting horn at his belt, kind honest face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cong-chua-ut",
+      "name": "Công chúa út",
+      "seed": 3556269520,
+      "sheetPrompt": "a clever warm-hearted young German princess, long dark braid, rose-pink dress with a white apron, a white handkerchief tied in a knot in her hand, gentle determined smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-vua",
+      "name": "Ông vua khó tính",
+      "seed": 531330929,
+      "sheetPrompt": "a tall gruff old king with a bushy grey beard and stern eyebrows, dark blue robe, iron crown, more grumpy than evil, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "con-huou-lon",
+      "title": "Con hươu lớn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một hoàng tử vừa tròn mười sáu tuổi. Một hôm, chàng theo đoàn thợ săn vào rừng rồi lạc mất mọi người. Chàng thấy một con hươu lớn, đuổi mãi mà không bắt kịp, đuổi đến tận bìa rừng. Bỗng con hươu biến mất, thay vào đó là một người đàn ông cao lớn: \"May quá, ta bắt được ngươi rồi. Ta đã chạy hỏng sáu đôi giày trượt băng bằng thuỷ tinh vì đuổi theo ngươi đấy!\" Ông ta là một ông vua, dắt chàng qua hồ lớn về lâu đài của mình.",
+      "subtitles": [
+        "Ngày xưa có một hoàng tử vừa tròn mười sáu tuổi.",
+        "Một hôm, chàng theo đoàn thợ săn vào rừng rồi lạc mất mọi người.",
+        "Chàng thấy một con hươu lớn, đuổi mãi mà không bắt kịp, đuổi đến tận bìa rừng.",
+        "Bỗng con hươu biến mất, thay vào đó là một người đàn ông cao lớn: \"May quá,",
+        "ta bắt được ngươi rồi.",
+        "Ta đã chạy hỏng sáu đôi giày trượt băng bằng thuỷ tinh vì đuổi theo ngươi đấy!\"",
+        "Ông ta là một ông vua, dắt chàng qua hồ lớn về lâu đài của mình."
+      ],
+      "image": {
+        "prompt": "at the edge of a misty forest, a great stag transforms into a tall bearded king in a dark blue robe, the young prince in his hunting jacket stops in astonishment, a wide lake and a distant palace beyond, soft magical light",
+        "seed": 4027321339,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the stag shimmers and turns into the tall king, mist swirls, the prince steps back in surprise, the lake glitters",
+        "seed": 320275684
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-dem-canh-gac",
+      "title": "Ba đêm canh gác",
+      "narrator": "ke-chuyen",
+      "narration": "Ông vua bảo: \"Ta có ba cô con gái. Đêm nay ngươi phải canh cô cả. Mỗi khi đồng hồ điểm, ta sẽ gọi, ngươi phải đáp. Đáp đủ thì sẽ được cưới con ta, không đáp thì sẽ bị phạt nặng.\" Trong phòng có một bức tượng đá. Cô công chúa bảo tượng: \"Khi cha ta gọi, ngươi đáp thay chàng nhé.\" Tượng đá gật đầu, và cả đêm cứ thế đáp lời. Đêm sau canh cô thứ hai, rồi cô út, cũng có tượng đá đáp thay, nhưng vua vẫn chưa chịu gả.",
+      "subtitles": [
+        "Ông vua bảo: \"Ta có ba cô con gái. Đêm nay ngươi phải canh cô cả.",
+        "Mỗi khi đồng hồ điểm, ta sẽ gọi, ngươi phải đáp.",
+        "Đáp đủ thì sẽ được cưới con ta, không đáp thì sẽ bị phạt nặng.\"",
+        "Trong phòng có một bức tượng đá.",
+        "Cô công chúa bảo tượng: \"Khi cha ta gọi, ngươi đáp thay chàng nhé.\"",
+        "Tượng đá gật đầu, và cả đêm cứ thế đáp lời.",
+        "Đêm sau canh cô thứ hai, rồi cô út, cũng có tượng đá đáp thay, nhưng vua vẫn chưa chịu gả."
+      ],
+      "image": {
+        "prompt": "a candlelit castle bedchamber with a tall kindly stone statue of an old saint nodding its head, the young prince sleeping peacefully on the threshold, a princess whispering to the statue, moonlight through the window",
+        "seed": 3112883232,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the stone statue slowly nods its head again and again, candle flames flicker, the prince sleeps, moonlight moves across the floor",
+        "seed": 1846444284
+      },
+      "voice": {}
+    },
+    {
+      "id": "riu-thuy-tinh",
+      "title": "Chiếc rìu thuỷ tinh",
+      "narrator": "ke-chuyen",
+      "narration": "Vua lại ra lệnh: \"Ta có một khu rừng lớn. Từ sáu giờ sáng đến sáu giờ tối, ngươi phải chặt hết.\" Rồi vua đưa cho chàng một chiếc rìu, một cái nêm và một cái vồ, tất cả đều bằng thuỷ tinh. Chàng vừa bổ nhát đầu, rìu đã vỡ đôi. Gõ vồ vào nêm, nêm vụn ra như cát. Chàng buồn bã ngồi xuống, nước mắt rưng rưng, chẳng biết làm sao.",
+      "subtitles": [
+        "Vua lại ra lệnh: \"Ta có một khu rừng lớn.",
+        "Từ sáu giờ sáng đến sáu giờ tối, ngươi phải chặt hết.\"",
+        "Rồi vua đưa cho chàng một chiếc rìu, một cái nêm và một cái vồ, tất cả đều bằng thuỷ tinh.",
+        "Chàng vừa bổ nhát đầu, rìu đã vỡ đôi. Gõ vồ vào nêm, nêm vụn ra như cát.",
+        "Chàng buồn bã ngồi xuống, nước mắt rưng rưng, chẳng biết làm sao."
+      ],
+      "image": {
+        "prompt": "a vast green forest, the young prince sits sadly on a stump holding a broken glass axe, glittering glass shards and sand at his feet, sunlight slanting through tall trees",
+        "seed": 2451480427,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the glass axe cracks and sparkles as it breaks, the prince lowers his head, leaves fall slowly, gentle light beams",
+        "seed": 269099364
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhung-nguoi-ti-hon",
+      "title": "Những người tí hon",
+      "narrator": "ke-chuyen",
+      "narration": "Trưa đến, hai cô chị không chịu mang cơm, nên cô út phải đi. Thấy chàng buồn, nàng dỗ dành mãi chàng mới chịu ăn. Ăn xong, nàng chải tóc cho chàng, chàng mệt quá ngủ thiếp đi. Nàng lấy chiếc khăn tay trắng, thắt một nút, gõ xuống đất ba lần: \"Những người thợ dưới đất, hãy lên đây!\" Lập tức, vô số người tí hon đội mũ nâu chui lên. Nàng bảo trong ba giờ phải chặt xong cả khu rừng. Họ gọi cả họ hàng đến giúp, và chưa hết ba giờ, gỗ đã xếp thành đống ngay ngắn. Nàng lại gõ khăn: \"Những người thợ dưới đất, về nhà đi!\" và họ biến mất.",
+      "subtitles": [
+        "Trưa đến, hai cô chị không chịu mang cơm, nên cô út phải đi.",
+        "Thấy chàng buồn, nàng dỗ dành mãi chàng mới chịu ăn.",
+        "Ăn xong, nàng chải tóc cho chàng, chàng mệt quá ngủ thiếp đi.",
+        "Nàng lấy chiếc khăn tay trắng, thắt một nút, gõ xuống đất ba lần:",
+        "\"Những người thợ dưới đất, hãy lên đây!\"",
+        "Lập tức, vô số người tí hon đội mũ nâu chui lên.",
+        "Nàng bảo trong ba giờ phải chặt xong cả khu rừng.",
+        "Họ gọi cả họ hàng đến giúp, và chưa hết ba giờ, gỗ đã xếp thành đống ngay ngắn.",
+        "Nàng lại gõ khăn: \"Những người thợ dưới đất, về nhà đi!\"",
+        "và họ biến mất."
+      ],
+      "image": {
+        "prompt": "in the forest the princess with a knotted white handkerchief taps the ground, dozens of cheerful little earth-folk in brown hoods pop up from the soil with tiny axes and saws, the prince asleep with his head on her lap, magical sparkles",
+        "seed": 3276947624,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the handkerchief taps the ground three times, little hooded earth-folk pop up and scurry to work, trees gently topple into neat piles of logs",
+        "seed": 582138893
+      },
+      "voice": {}
+    },
+    {
+      "id": "ao-ca-va-lau-dai",
+      "title": "Ao cá và lâu đài",
+      "narrator": "ke-chuyen",
+      "narration": "Vua vẫn chưa chịu gả. Hôm sau, vua đưa chàng cái xẻng thuỷ tinh, bắt nạo sạch bùn cái ao lớn cho trong như gương, thả đủ mọi loài cá. Xẻng vừa cắm xuống bùn đã gãy. Trưa, cô út lại mang cơm đến, chải tóc cho chàng ngủ, rồi gọi những người tí hon lên. Chưa đầy hai giờ, ao đã trong vắt, cá bơi lượn tung tăng. Hôm sau nữa, vua bắt chàng phát sạch gai trên núi, xây trên đỉnh một lâu đài vững chắc. Nhờ cô út và những người tí hon, đến sáu giờ, lâu đài đã sừng sững. Chàng vui như chim sổ lồng.",
+      "subtitles": [
+        "Vua vẫn chưa chịu gả. Hôm sau, vua đưa chàng cái xẻng thuỷ tinh,",
+        "bắt nạo sạch bùn cái ao lớn cho trong như gương, thả đủ mọi loài cá.",
+        "Xẻng vừa cắm xuống bùn đã gãy.",
+        "Trưa, cô út lại mang cơm đến, chải tóc cho chàng ngủ, rồi gọi những người tí hon lên.",
+        "Chưa đầy hai giờ, ao đã trong vắt, cá bơi lượn tung tăng.",
+        "Hôm sau nữa, vua bắt chàng phát sạch gai trên núi, xây trên đỉnh một lâu đài vững chắc.",
+        "Nhờ cô út và những người tí hon, đến sáu giờ, lâu đài đã sừng sững.",
+        "Chàng vui như chim sổ lồng."
+      ],
+      "image": {
+        "prompt": "a sparkling clear fish pond full of colourful fish reflecting the sky like a mirror, beyond it a mountain top crowned by a new strong castle, little earth-folk waving their hoods, the prince and the princess smiling hand in hand",
+        "seed": 3140031282,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "fish leap in the mirror-clear pond, the little earth-folk wave and vanish into the ground, the castle on the hill glows in the evening sun",
+        "seed": 2851887778
+      },
+      "voice": {}
+    },
+    {
+      "id": "bui-gai-va-bong-hong",
+      "title": "Bụi gai và bông hồng",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng vua lại bảo: \"Chị cả, chị hai chưa lấy chồng thì chưa gả em út được.\" Đêm ấy, hai người trốn đi. Đi được một quãng, nàng ngoái lại thấy cha đuổi theo. \"Em sẽ biến chàng thành bụi gai, còn em thành bông hồng nấp ở giữa.\" Vua đến nơi, chỉ thấy một bụi gai có một bông hồng. Ông định hái bông hồng thì gai đâm vào tay, đành quay về. Hoàng hậu bảo: \"Giá ông hái được bông hồng thì bụi gai cũng phải theo về.\" Vua lại đuổi theo. Lần này nàng biến chàng thành nhà thờ, còn mình thành vị cha xứ đứng giảng. Vua đứng nghe giảng một hồi, rồi lại về tay không.",
+      "subtitles": [
+        "Nhưng vua lại bảo: \"Chị cả, chị hai chưa lấy chồng thì chưa gả em út được.\"",
+        "Đêm ấy, hai người trốn đi. Đi được một quãng, nàng ngoái lại thấy cha đuổi theo.",
+        "\"Em sẽ biến chàng thành bụi gai, còn em thành bông hồng nấp ở giữa.\"",
+        "Vua đến nơi, chỉ thấy một bụi gai có một bông hồng.",
+        "Ông định hái bông hồng thì gai đâm vào tay, đành quay về.",
+        "Hoàng hậu bảo: \"Giá ông hái được bông hồng thì bụi gai cũng phải theo về.\"",
+        "Vua lại đuổi theo.",
+        "Lần này nàng biến chàng thành nhà thờ, còn mình thành vị cha xứ đứng giảng.",
+        "Vua đứng nghe giảng một hồi, rồi lại về tay không."
+      ],
+      "image": {
+        "prompt": "moonlit countryside, a thorny briar bush with a single beautiful pink rose in the middle, the gruff king reaching for the rose and pulling back his pricked finger in surprise, a little country church in the distance",
+        "seed": 2716344986,
+        "character": "ong-vua"
+      },
+      "video": {
+        "motionPrompt": "the king reaches for the rose, the thorns prick him and he shakes his hand, the rose glows softly, moonlit clouds drift",
+        "seed": 2087342422
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoang-hau-va-con-ca",
+      "title": "Hoàng hậu và con cá",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng hậu bực lắm: \"Giá ông mang vị cha xứ về thì nhà thờ cũng theo về. Để tôi đi!\" Thấy mẹ đuổi tới, nàng biến chàng thành một cái ao, còn mình thành con cá. Hoàng hậu đến, thấy con cá nhảy nhót, thò đầu khỏi mặt nước vui vẻ. Bà cố bắt mà không được, liền ra sức tát cạn ao, tát mãi đến mỏi nhừ mà ao vẫn đầy. Cuối cùng, bà thở dài: \"Thôi, mẹ biết là chẳng làm gì được nữa.\" Bà gọi con gái lại, trao cho ba quả óc chó: \"Lúc nào khốn khó nhất thì mở ra.\"",
+      "subtitles": [
+        "Hoàng hậu bực lắm: \"Giá ông mang vị cha xứ về thì nhà thờ cũng theo về.",
+        "Để tôi đi!\" Thấy mẹ đuổi tới, nàng biến chàng thành một cái ao, còn mình thành con cá.",
+        "Hoàng hậu đến, thấy con cá nhảy nhót, thò đầu khỏi mặt nước vui vẻ.",
+        "Bà cố bắt mà không được, liền ra sức tát cạn ao, tát mãi đến mỏi nhừ mà ao vẫn đầy.",
+        "Cuối cùng, bà thở dài: \"Thôi, mẹ biết là chẳng làm gì được nữa.\"",
+        "Bà gọi con gái lại, trao cho ba quả óc chó: \"Lúc nào khốn khó nhất thì mở ra.\""
+      ],
+      "image": {
+        "prompt": "a round sparkling pond in a meadow, a cheerful fish leaping and peeking out of the water, the tired queen in a fine gown sits on the bank with a bucket and sighs, then holds out three walnuts with a softened smile",
+        "seed": 588239119,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the fish leaps and splashes playfully, the queen scoops water and wipes her brow, then smiles and holds out three walnuts",
+        "seed": 3555244504
+      },
+      "voice": {}
+    },
+    {
+      "id": "nu-hon-lam-quen",
+      "title": "Nụ hôn làm quên",
+      "narrator": "ke-chuyen",
+      "narration": "Hai người đi tiếp, tới làng gần lâu đài quê chàng. Chàng nói: \"Em chờ đây, ta về đem xe ngựa và người hầu ra đón em.\" Cả lâu đài mừng rỡ đón hoàng tử trở về. Nhưng khi chàng sắp lên xe, mẹ chàng hôn chàng một cái, thế là chàng quên sạch mọi chuyện. Xe ngựa lại được tháo ra. Còn nàng ở trong làng, chờ mãi chờ mãi chẳng thấy ai. Nàng đành xin làm việc ở cối xay của lâu đài, chiều chiều ngồi bên ao rửa thùng.",
+      "subtitles": [
+        "Hai người đi tiếp, tới làng gần lâu đài quê chàng.",
+        "Chàng nói: \"Em chờ đây, ta về đem xe ngựa và người hầu ra đón em.\"",
+        "Cả lâu đài mừng rỡ đón hoàng tử trở về.",
+        "Nhưng khi chàng sắp lên xe, mẹ chàng hôn chàng một cái, thế là chàng quên sạch mọi chuyện.",
+        "Xe ngựa lại được tháo ra. Còn nàng ở trong làng, chờ mãi chờ mãi chẳng thấy ai.",
+        "Nàng đành xin làm việc ở cối xay của lâu đài, chiều chiều ngồi bên ao rửa thùng."
+      ],
+      "image": {
+        "prompt": "a mill beside a pond near a grand castle, the princess in a simple working dress scrubbing wooden tubs by the water, looking wistfully toward the castle, a horse carriage being unharnessed in the castle yard far away",
+        "seed": 2156833229,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the mill wheel turns slowly, the princess scrubs a tub and gazes at the castle, ripples spread across the pond",
+        "seed": 541506719
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-qua-oc-cho",
+      "title": "Ba quả óc chó",
+      "narrator": "ke-chuyen",
+      "narration": "Rồi hoàng hậu tìm cho con trai một cô dâu ở phương xa. Ngày cưới, nàng xin đi xem. Nàng mở quả óc chó thứ nhất, bên trong là một chiếc áo tuyệt đẹp. Nàng mặc vào, đứng bên bàn thờ. Cô dâu thấy vậy, không chịu làm lễ nếu không có chiếc áo đẹp như thế. Nàng bảo: \"Áo không bán, nhưng cho cô, nếu tôi được nằm một đêm trước cửa phòng hoàng tử.\" Cô dâu đồng ý, nhưng sai người cho hoàng tử uống thuốc ngủ. Cả đêm, nàng ngồi trước cửa kể lại mọi điều nàng đã làm cho chàng, nhưng hoàng tử ngủ say chẳng nghe được gì.",
+      "subtitles": [
+        "Rồi hoàng hậu tìm cho con trai một cô dâu ở phương xa.",
+        "Ngày cưới, nàng xin đi xem.",
+        "Nàng mở quả óc chó thứ nhất, bên trong là một chiếc áo tuyệt đẹp.",
+        "Nàng mặc vào, đứng bên bàn thờ.",
+        "Cô dâu thấy vậy, không chịu làm lễ nếu không có chiếc áo đẹp như thế.",
+        "Nàng bảo: \"Áo không bán, nhưng cho cô, nếu tôi được nằm một đêm trước cửa phòng hoàng tử.\"",
+        "Cô dâu đồng ý, nhưng sai người cho hoàng tử uống thuốc ngủ.",
+        "Cả đêm, nàng ngồi trước cửa kể lại mọi điều nàng đã làm cho chàng,",
+        "nhưng hoàng tử ngủ say chẳng nghe được gì."
+      ],
+      "image": {
+        "prompt": "inside a softly lit church, the princess in a dazzling gown that came out of a walnut stands by the altar, the envious far-away bride stares at the gown, an open walnut shell glowing in the princess's hand",
+        "seed": 1688885395,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the walnut shell opens and a shimmering gown unfolds with sparkles, the bride's eyes widen, candles glow, gentle push-in",
+        "seed": 4185912245
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi-vui-ve",
+      "title": "Đám cưới vui vẻ",
+      "narrator": "ke-chuyen",
+      "narration": "Người hầu nghe được, chẳng hiểu chuyện gì. Hôm sau, nàng mở quả óc chó thứ hai, được chiếc áo còn đẹp hơn, và mọi chuyện lại diễn ra như trước. Nhưng lần này, người hầu không đưa thuốc ngủ mà đưa hoàng tử thứ giúp tỉnh táo. Đêm ấy, nghe nàng kể bên cửa, chàng nhớ lại tất cả. Sáng ra, chàng chạy đến bên nàng, xin nàng đừng giận vì đã quên. Nàng mở quả óc chó thứ ba, mặc chiếc áo lộng lẫy nhất, cùng chàng đến nhà thờ. Lũ trẻ tung hoa, buộc ruy băng rực rỡ, đám cưới vui ơi là vui. Còn bà mẹ và cô dâu giả thì phải ra đi.",
+      "subtitles": [
+        "Người hầu nghe được, chẳng hiểu chuyện gì.",
+        "Hôm sau, nàng mở quả óc chó thứ hai, được chiếc áo còn đẹp hơn,",
+        "và mọi chuyện lại diễn ra như trước.",
+        "Nhưng lần này, người hầu không đưa thuốc ngủ mà đưa hoàng tử thứ giúp tỉnh táo.",
+        "Đêm ấy, nghe nàng kể bên cửa, chàng nhớ lại tất cả.",
+        "Sáng ra, chàng chạy đến bên nàng, xin nàng đừng giận vì đã quên.",
+        "Nàng mở quả óc chó thứ ba, mặc chiếc áo lộng lẫy nhất, cùng chàng đến nhà thờ.",
+        "Lũ trẻ tung hoa, buộc ruy băng rực rỡ, đám cưới vui ơi là vui.",
+        "Còn bà mẹ và cô dâu giả thì phải ra đi."
+      ],
+      "image": {
+        "prompt": "a joyful wedding procession outside a flower-decked church, the prince and the princess in a magnificent gown walking hand in hand, many children tossing flowers and colourful ribbons, bright sunny day",
+        "seed": 4164813952,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "flower petals and ribbons fly through the air, children skip around the couple, church bells swing, warm sunlight, slow pull-back",
+        "seed": 2809332810
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "enchanting German fairy-tale instrumental with harp, glockenspiel and flute, a gentle magical theme with playful passages for the little earth-folk, ending in a bright wedding dance, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 2247459152
+  }
+}

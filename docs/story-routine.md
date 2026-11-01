@@ -10,6 +10,9 @@ theo thứ tự nào; luật trong code thắng nếu hai bên lệch nhau.
 
 ## Danh mục ứng viên: `catalog/stories.json`
 
+Truyện đã cân nhắc rồi loại (kèm lý do) nằm ở `catalog/rejected.json`; khi thêm ứng viên, đối chiếu cả tệp này để
+không đưa lại truyện đã loại dưới slug hay tên khác.
+
 Mảng JSON, mỗi dòng một mục, **thứ tự trong tệp là thứ tự viết**:
 
 ```json

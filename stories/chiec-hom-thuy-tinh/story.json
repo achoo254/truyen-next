@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "slug": "chiec-hom-thuy-tinh",
+  "shelf": "world",
+  "title": "Chiếc hòm thủy tinh",
+  "summary": "Chàng thợ may nhỏ bị một con hươu đẹp cõng đi qua núi rừng, tới một hang đá kỳ lạ có hai chiếc hòm thủy tinh. Trong một hòm là cả một lâu đài thu nhỏ, trong hòm kia là nàng tiểu thư đang ngủ chờ người giải phép. Truyện cổ Grimm về lòng can đảm và may mắn, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "than-thoai",
+    "tinh-yeu",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der gläserne Sarg\" (Kinder- und Hausmärchen, bản 1857, truyện số 163), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Glass Coffin\" của Margaret Hunt (1884, Project Gutenberg #5314). Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: trận đấu giữa hươu và bò đen chỉ còn cảnh con bò bị húc ngã rồi chạy biến; bỏ chi tiết khẩu súng và con ngựa bị thương; tên phù thuỷ bị đánh bại và không bao giờ quay lại.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a vast dark-green forest, a little reed hut, an underground hall of polished stone glowing with blue light, crystal-clear glass chests, warm golden light, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chang-tho-may",
+      "name": "Chàng thợ may",
+      "seed": 3104722961,
+      "sheetPrompt": "a small polite nimble young German tailor apprentice, neat dark hair, a green waistcoat with a measuring tape round his neck, a bundle on his back, brave bright eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "tieu-thu",
+      "name": "Nàng tiểu thư",
+      "seed": 2822960380,
+      "sheetPrompt": "a beautiful young countess from a German fairy tale, very long flowing golden hair like a mantle, a simple white gown and a deep blue cloak, gentle grateful eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-huou",
+      "name": "Con hươu",
+      "seed": 1669728841,
+      "sheetPrompt": "a majestic gentle stag with great branching antlers and sad kind eyes, glossy brown coat, full body, side view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tup-leu-ong-gia",
+      "title": "Túp lều của ông già",
+      "narrator": "ke-chuyen",
+      "narration": "Đừng ai bảo một chàng thợ may nghèo thì chẳng làm nên chuyện lớn. Ngày xưa, có một chàng thợ may nhỏ lễ phép, khéo tay, đi chu du rồi lạc vào một khu rừng lớn. Trời tối, chàng sợ thú dữ, trèo lên ngọn cây sồi cao ngồi qua đêm. Bỗng chàng thấy xa xa có ánh đèn, liền trèo xuống tìm tới. Đó là một túp lều đan bằng lau sậy. Một ông già tóc bạc, mặc áo chắp vá nhiều màu, ra mở cửa, cằn nhằn: \"Đi chỗ khác mà ngủ!\" Nhưng chàng níu vạt áo ông, năn nỉ mãi. Ông già vốn không khó tính như vẻ ngoài, bèn cho chàng vào, cho ăn và chỉ chỗ ngủ.",
+      "subtitles": [
+        "Đừng ai bảo một chàng thợ may nghèo thì chẳng làm nên chuyện lớn.",
+        "Ngày xưa, có một chàng thợ may nhỏ lễ phép, khéo tay,",
+        "đi chu du rồi lạc vào một khu rừng lớn.",
+        "Trời tối, chàng sợ thú dữ, trèo lên ngọn cây sồi cao ngồi qua đêm.",
+        "Bỗng chàng thấy xa xa có ánh đèn, liền trèo xuống tìm tới.",
+        "Đó là một túp lều đan bằng lau sậy.",
+        "Một ông già tóc bạc, mặc áo chắp vá nhiều màu, ra mở cửa, cằn nhằn: \"Đi chỗ khác mà ngủ!\"",
+        "Nhưng chàng níu vạt áo ông, năn nỉ mãi.",
+        "Ông già vốn không khó tính như vẻ ngoài, bèn cho chàng vào, cho ăn và chỉ chỗ ngủ."
+      ],
+      "image": {
+        "prompt": "a small hut woven of reeds in a dark forest at night, a grumpy little old man in a patchwork coat opening the door with a lantern, the young tailor pleading politely and holding the corner of his coat",
+        "seed": 3725559967,
+        "character": "chang-tho-may"
+      },
+      "video": {
+        "motionPrompt": "lantern light flickers, the old man frowns then softens, the tailor bows gratefully, fireflies drift among the reeds",
+        "seed": 1936151279
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-huou-va-con-bo-den",
+      "title": "Con hươu và con bò đen",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng ra, chàng thợ may bị đánh thức bởi tiếng gầm rống. Chạy ra ngoài, chàng thấy một con bò đen to lớn và một con hươu đẹp đang lao vào nhau, đất rung lên dưới chân. Cuối cùng, con hươu húc con bò ngã lăn, con bò đen vùng dậy chạy biến vào rừng. Chàng còn đứng ngẩn ra thì con hươu phóng tới, hất chàng lên cặp sừng lớn, rồi lao vun vút qua đá, qua núi, qua rừng, qua đồng. Chàng ôm chặt sừng hươu, thấy như mình đang bay.",
+      "subtitles": [
+        "Sáng ra, chàng thợ may bị đánh thức bởi tiếng gầm rống.",
+        "Chạy ra ngoài, chàng thấy một con bò đen to lớn và một con hươu đẹp đang lao vào nhau,",
+        "đất rung lên dưới chân.",
+        "Cuối cùng, con hươu húc con bò ngã lăn, con bò đen vùng dậy chạy biến vào rừng.",
+        "Chàng còn đứng ngẩn ra thì con hươu phóng tới, hất chàng lên cặp sừng lớn,",
+        "rồi lao vun vút qua đá, qua núi, qua rừng, qua đồng.",
+        "Chàng ôm chặt sừng hươu, thấy như mình đang bay."
+      ],
+      "image": {
+        "prompt": "a misty forest morning, a magnificent stag carrying the startled young tailor between its great antlers, galloping over hills and meadows, far behind a black bull running away into the trees",
+        "seed": 1854158329,
+        "character": "con-huou"
+      },
+      "video": {
+        "motionPrompt": "the stag bounds swiftly across the meadow, the tailor clings to the antlers with his coat flapping, mist streams past",
+        "seed": 1854060440
+      },
+      "voice": {}
+    },
+    {
+      "id": "hang-da-ky-la",
+      "title": "Hang đá kỳ lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Con hươu dừng lại trước một vách đá, nhẹ nhàng đặt chàng xuống, rồi húc mạnh vào một cánh cửa trên vách. Cửa bật mở, lửa và khói phụt ra, che khuất con hươu. Có tiếng nói vọng ra từ vách đá: \"Cứ vào đi, đừng sợ, không có gì hại ngươi đâu.\" Chàng bước vào một gian phòng lớn lát đá nhẵn bóng, trên mỗi viên đá khắc những chữ lạ. Tiếng nói lại vang lên: \"Hãy đứng lên phiến đá giữa phòng, may mắn đang chờ ngươi.\" Chàng mạnh dạn bước lên, phiến đá từ từ hạ xuống sâu dưới lòng đất.",
+      "subtitles": [
+        "Con hươu dừng lại trước một vách đá, nhẹ nhàng đặt chàng xuống,",
+        "rồi húc mạnh vào một cánh cửa trên vách.",
+        "Cửa bật mở, lửa và khói phụt ra, che khuất con hươu.",
+        "Có tiếng nói vọng ra từ vách đá: \"Cứ vào đi, đừng sợ, không có gì hại ngươi đâu.\"",
+        "Chàng bước vào một gian phòng lớn lát đá nhẵn bóng, trên mỗi viên đá khắc những chữ lạ.",
+        "Tiếng nói lại vang lên: \"Hãy đứng lên phiến đá giữa phòng, may mắn đang chờ ngươi.\"",
+        "Chàng mạnh dạn bước lên, phiến đá từ từ hạ xuống sâu dưới lòng đất."
+      ],
+      "image": {
+        "prompt": "a great rock wall in the wilderness with an iron door swung open, soft smoke curling out, the small tailor stepping bravely into a vast hall of polished stone squares glowing faintly, a round stone platform in the middle",
+        "seed": 1457850737,
+        "character": "chang-tho-may"
+      },
+      "video": {
+        "motionPrompt": "smoke drifts and clears, the stone platform sinks slowly downward, faint blue light shimmers on the polished walls",
+        "seed": 2837622815
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-chiec-hom-thuy-tinh",
+      "title": "Hai chiếc hòm thủy tinh",
+      "narrator": "ke-chuyen",
+      "narration": "Dưới ấy là một gian phòng còn kỳ lạ hơn. Trong các hốc tường đặt những chiếc bình thủy tinh đựng làn khói xanh. Giữa phòng có hai chiếc hòm thủy tinh lớn. Trong chiếc thứ nhất là cả một lâu đài thu nhỏ, có chuồng ngựa, nhà kho, vườn tược, cái gì cũng bé xíu mà tinh xảo. Tiếng nói bảo chàng quay sang chiếc hòm kia. Trong đó là một cô gái đẹp tuyệt trần đang ngủ, mái tóc vàng dài phủ quanh người như tấm áo choàng. Bỗng nàng mở mắt, mừng rỡ kêu lên: \"Chàng mở then cài giúp em với!\" Chàng kéo then, nàng nâng nắp hòm bước ra.",
+      "subtitles": [
+        "Dưới ấy là một gian phòng còn kỳ lạ hơn.",
+        "Trong các hốc tường đặt những chiếc bình thủy tinh đựng làn khói xanh.",
+        "Giữa phòng có hai chiếc hòm thủy tinh lớn.",
+        "Trong chiếc thứ nhất là cả một lâu đài thu nhỏ, có chuồng ngựa, nhà kho, vườn tược,",
+        "cái gì cũng bé xíu mà tinh xảo. Tiếng nói bảo chàng quay sang chiếc hòm kia.",
+        "Trong đó là một cô gái đẹp tuyệt trần đang ngủ,",
+        "mái tóc vàng dài phủ quanh người như tấm áo choàng.",
+        "Bỗng nàng mở mắt, mừng rỡ kêu lên: \"Chàng mở then cài giúp em với!\"",
+        "Chàng kéo then, nàng nâng nắp hòm bước ra."
+      ],
+      "image": {
+        "prompt": "an underground hall with glass jars of swirling blue mist in wall niches, two large crystal-clear glass chests, one containing a tiny perfect castle with farm buildings, the other with a lovely golden-haired maiden waking up, the tailor gazing in wonder",
+        "seed": 1737693988,
+        "character": "tieu-thu"
+      },
+      "video": {
+        "motionPrompt": "blue mist swirls inside the jars, the maiden opens her eyes and lifts the glass lid, golden hair spills over her shoulders",
+        "seed": 2016193568
+      },
+      "voice": {}
+    },
+    {
+      "id": "chuyen-cua-nang-tieu-thu",
+      "title": "Chuyện của nàng tiểu thư",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng kể: \"Em là con gái một bá tước giàu có. Cha mẹ mất sớm, em sống với anh trai, hai anh em thương nhau lắm. Một tối, có người lạ xin ngủ nhờ. Hắn là một tên phù thuỷ, đêm ấy hắn dùng phép mở khoá vào hỏi cưới em, em không đáp. Hắn giận, thề sẽ trả thù. Sáng ra, em thấy hắn dắt một con hươu đẹp, mắt hươu đẫm lệ. Em giận dữ chống lại hắn, nhưng hắn lẩm bẩm câu thần chú làm em ngất đi. Khi tỉnh dậy, em đã nằm trong hòm thủy tinh này. Hắn hoá anh trai em thành hươu, thu nhỏ lâu đài, biến người nhà em thành khói nhốt trong bình. Em đã mơ thấy một chàng trai đến cứu, và hôm nay chàng đã đến.\"",
+      "subtitles": [
+        "Nàng kể: \"Em là con gái một bá tước giàu có.",
+        "Cha mẹ mất sớm, em sống với anh trai, hai anh em thương nhau lắm.",
+        "Một tối, có người lạ xin ngủ nhờ.",
+        "Hắn là một tên phù thuỷ, đêm ấy hắn dùng phép mở khoá vào hỏi cưới em, em không đáp.",
+        "Hắn giận, thề sẽ trả thù. Sáng ra, em thấy hắn dắt một con hươu đẹp, mắt hươu đẫm lệ.",
+        "Em giận dữ chống lại hắn, nhưng hắn lẩm bẩm câu thần chú làm em ngất đi.",
+        "Khi tỉnh dậy, em đã nằm trong hòm thủy tinh này.",
+        "Hắn hoá anh trai em thành hươu, thu nhỏ lâu đài,",
+        "biến người nhà em thành khói nhốt trong bình.",
+        "Em đã mơ thấy một chàng trai đến cứu, và hôm nay chàng đã đến.\""
+      ],
+      "image": {
+        "prompt": "the golden-haired maiden wrapped in a blue cloak sitting on a stone, telling her story to the attentive tailor, behind them a dreamy vision of a sly stranger in a dark cape leading a weeping stag on a cord",
+        "seed": 1658524897,
+        "character": "tieu-thu"
+      },
+      "video": {
+        "motionPrompt": "the dreamy vision shimmers and fades in the background, the maiden gestures gently, the tailor listens closely",
+        "seed": 2206323561
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-tro-lai",
+      "title": "Lâu đài trở lại",
+      "narrator": "ke-chuyen",
+      "narration": "Hai người khiêng chiếc hòm đựng lâu đài đặt lên phiến đá. Phiến đá nâng họ lên tận mặt đất. Nàng mở nắp hòm, và lạ chưa, lâu đài, nhà cửa, chuồng trại cứ thế lớn dần, lớn dần, trở về đúng như xưa. Hai người lại xuống mang các bình khói lên. Nàng vừa mở nắp, làn khói xanh tuôn ra, hoá thành những người hầu và dân làng của nàng.",
+      "subtitles": [
+        "Hai người khiêng chiếc hòm đựng lâu đài đặt lên phiến đá.",
+        "Phiến đá nâng họ lên tận mặt đất.",
+        "Nàng mở nắp hòm, và lạ chưa, lâu đài, nhà cửa, chuồng trại cứ thế lớn dần, lớn dần,",
+        "trở về đúng như xưa. Hai người lại xuống mang các bình khói lên.",
+        "Nàng vừa mở nắp, làn khói xanh tuôn ra, hoá thành những người hầu và dân làng của nàng."
+      ],
+      "image": {
+        "prompt": "a sunny meadow, a tiny castle growing magically out of an opened glass chest into a full-sized castle with farm buildings, blue smoke streaming from glass jars and turning into smiling servants and villagers",
+        "seed": 1410438975,
+        "character": "tieu-thu"
+      },
+      "video": {
+        "motionPrompt": "the castle swells upward in a sparkle of light, blue smoke pours out and takes the shape of people who stretch and cheer",
+        "seed": 4084938918
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi-chang-tho-may",
+      "title": "Đám cưới chàng thợ may",
+      "narrator": "ke-chuyen",
+      "narration": "Niềm vui còn lớn hơn khi từ trong rừng, người anh trai bước ra trong hình dạng con người. Thì ra tên phù thuỷ chính là con bò đen hôm trước. Chàng hươu đã đánh bại hắn, và hắn không bao giờ quay lại nữa, nên phép thuật cũng tan. Ngay hôm ấy, đúng như lời hứa, nàng tiểu thư làm lễ cưới chàng thợ may may mắn. Thấy chưa, chàng thợ may nghèo cũng có thể làm nên chuyện lớn, miễn là chàng can đảm và gặp vận may.",
+      "subtitles": [
+        "Niềm vui còn lớn hơn khi từ trong rừng, người anh trai bước ra trong hình dạng con người.",
+        "Thì ra tên phù thuỷ chính là con bò đen hôm trước.",
+        "Chàng hươu đã đánh bại hắn, và hắn không bao giờ quay lại nữa, nên phép thuật cũng tan.",
+        "Ngay hôm ấy, đúng như lời hứa, nàng tiểu thư làm lễ cưới chàng thợ may may mắn.",
+        "Thấy chưa, chàng thợ may nghèo cũng có thể làm nên chuyện lớn,",
+        "miễn là chàng can đảm và gặp vận may."
+      ],
+      "image": {
+        "prompt": "a joyful wedding in the restored castle garden, the young tailor and the golden-haired countess hand in hand, her tall brother in noble clothes smiling beside them, servants celebrating, warm sunshine",
+        "seed": 2958369753,
+        "character": "chang-tho-may"
+      },
+      "video": {
+        "motionPrompt": "flower petals drift down, the couple smiles at each other, the brother raises a cup, banners flutter in the breeze",
+        "seed": 2018809475
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "mysterious and romantic German fairy-tale music, a hushed forest theme on clarinet, shimmering glass harmonica and celesta for the glass chests, a galloping strings passage for the stag ride, a warm joyful wedding ending, instrumental, no vocals",
+    "durationSeconds": 160,
+    "seed": 4203558095
+  }
+}

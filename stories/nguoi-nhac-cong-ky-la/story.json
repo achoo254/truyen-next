@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "slug": "nguoi-nhac-cong-ky-la",
+  "shelf": "world",
+  "title": "Người nhạc công kỳ lạ",
+  "summary": "Một nhạc công đi một mình trong rừng, kéo vĩ cầm để gọi bạn đường. Sói, cáo và thỏ lần lượt xin học đàn, và lần lượt mắc mưu của bác. Chỉ đến khi tiếng đàn gọi được một bác tiều phu, người nhạc công mới tìm thấy người bạn đúng nghĩa. Truyện cổ Grimm ngắn, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-nhien",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der wunderliche Spielmann\" (Kinder- und Hausmärchen, bản 1857, truyện số 8), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Wonderful Musician\" của Margaret Hunt (1884, Project Gutenberg #5314). Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: các con vật chỉ bị mắc kẹt chứ không đau, sợi dây buộc thỏ vòng qua bụng thay vì qua cổ, và lũ thú chỉ bực mình muốn đòi lại công bằng.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a sunny old beech and oak forest with ferns and clearings, expressive friendly animals, warm golden light, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "nguoi-nhac-cong",
+      "name": "Người nhạc công",
+      "seed": 1699885463,
+      "sheetPrompt": "a lanky whimsical wandering German fiddler, a feathered green hat, a long patched coat in faded red, a violin and bow, a sly cheerful grin, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-soi",
+      "name": "Con sói",
+      "seed": 1041248353,
+      "sheetPrompt": "a grey wolf from a German fairy tale, fluffy and more comical than scary, big curious eyes, sitting upright like a pupil, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bac-tieu-phu",
+      "name": "Bác tiều phu",
+      "seed": 3427000531,
+      "sheetPrompt": "a strong good-hearted German woodcutter, red beard, checked shirt, leather vest, a wood axe tucked under his arm, warm honest face, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "soi-xin-hoc-dan",
+      "title": "Sói xin học đàn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một nhạc công kỳ lạ đi một mình qua khu rừng. Nghĩ hết chuyện này đến chuyện khác, bác thấy buồn tẻ, liền nói: \"Ta phải gọi một người bạn đường mới được.\" Bác lấy cây vĩ cầm sau lưng xuống, kéo một bản nhạc vang khắp rừng. Chẳng bao lâu, một con sói lon ton chạy tới. Bác lẩm bẩm: \"Sói à? Ta chẳng cần sói.\" Nhưng sói nói: \"Bác nhạc công ơi, bác chơi đàn hay quá. Bác dạy cháu với!\" Bác bảo: \"Dễ thôi, miễn là ngươi làm đúng những gì ta bảo.\" \"Cháu xin vâng lời như trò nghe thầy ạ.\"",
+      "subtitles": [
+        "Ngày xưa, có một nhạc công kỳ lạ đi một mình qua khu rừng.",
+        "Nghĩ hết chuyện này đến chuyện khác, bác thấy buồn tẻ, liền nói:",
+        "\"Ta phải gọi một người bạn đường mới được.\"",
+        "Bác lấy cây vĩ cầm sau lưng xuống, kéo một bản nhạc vang khắp rừng.",
+        "Chẳng bao lâu, một con sói lon ton chạy tới. Bác lẩm bẩm: \"Sói à?",
+        "Ta chẳng cần sói.\" Nhưng sói nói: \"Bác nhạc công ơi, bác chơi đàn hay quá.",
+        "Bác dạy cháu với!\" Bác bảo: \"Dễ thôi, miễn là ngươi làm đúng những gì ta bảo.\"",
+        "\"Cháu xin vâng lời như trò nghe thầy ạ.\""
+      ],
+      "image": {
+        "prompt": "a sunny forest path, the wandering fiddler playing his violin with eyes half closed, a fluffy grey wolf trotting out of the bushes with an eager admiring face, musical notes floating among the leaves",
+        "seed": 1665658703,
+        "character": "nguoi-nhac-cong"
+      },
+      "video": {
+        "motionPrompt": "the bow glides over the strings, leaves sway to the music, the wolf trots closer wagging its tail",
+        "seed": 881652443
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-soi-nut",
+      "title": "Cây sồi nứt",
+      "narrator": "ke-chuyen",
+      "narration": "Hai thầy trò đi một quãng thì gặp một cây sồi già rỗng ruột, giữa thân có khe nứt. Bác nhạc công nói: \"Muốn học đàn thì đặt hai chân trước vào khe này.\" Sói ngoan ngoãn làm theo. Nhanh như cắt, bác chèn một hòn đá vào khe, hai chân sói bị kẹp chặt, không đau nhưng không sao rút ra được. \"Cứ ở đó chờ ta quay lại nhé,\" bác nói rồi thản nhiên đi tiếp.",
+      "subtitles": [
+        "Hai thầy trò đi một quãng thì gặp một cây sồi già rỗng ruột, giữa thân có khe nứt.",
+        "Bác nhạc công nói: \"Muốn học đàn thì đặt hai chân trước vào khe này.\"",
+        "Sói ngoan ngoãn làm theo.",
+        "Nhanh như cắt, bác chèn một hòn đá vào khe, hai chân sói bị kẹp chặt,",
+        "không đau nhưng không sao rút ra được.",
+        "\"Cứ ở đó chờ ta quay lại nhé,\" bác nói rồi thản nhiên đi tiếp."
+      ],
+      "image": {
+        "prompt": "an old hollow oak with a crack in its trunk, the grey wolf with its two front paws stuck in the crack looking puzzled, the fiddler strolling away with his violin under his arm, sunny forest",
+        "seed": 3230850597,
+        "character": "con-soi"
+      },
+      "video": {
+        "motionPrompt": "the wolf tugs and tugs but the paws stay stuck, it tilts its head in confusion, the fiddler walks away whistling",
+        "seed": 2358734896
+      },
+      "voice": {}
+    },
+    {
+      "id": "cao-tren-canh-cay",
+      "title": "Cáo trên cành cây",
+      "narrator": "ke-chuyen",
+      "narration": "Đi một lúc, bác lại buồn, lại kéo đàn. Lần này một con cáo len lén tới: \"Bác dạy cháu chơi đàn với!\" Đến một lối mòn có bụi cây hai bên, bác uốn một cành phỉ non bên trái xuống sát đất, lấy chân giữ, rồi uốn một cây non bên phải xuống nữa. \"Đưa ta chân trái nào.\" Bác buộc chân trái cáo vào cành bên trái, chân phải vào cành bên phải. Rồi bác buông tay. Hai cành cây bật lên, cáo bị treo lơ lửng giữa không trung. \"Cứ chờ ta quay lại nhé.\"",
+      "subtitles": [
+        "Đi một lúc, bác lại buồn, lại kéo đàn.",
+        "Lần này một con cáo len lén tới: \"Bác dạy cháu chơi đàn với!\"",
+        "Đến một lối mòn có bụi cây hai bên, bác uốn một cành phỉ non bên trái xuống sát đất,",
+        "lấy chân giữ, rồi uốn một cây non bên phải xuống nữa.",
+        "\"Đưa ta chân trái nào.\"",
+        "Bác buộc chân trái cáo vào cành bên trái, chân phải vào cành bên phải.",
+        "Rồi bác buông tay. Hai cành cây bật lên, cáo bị treo lơ lửng giữa không trung.",
+        "\"Cứ chờ ta quay lại nhé.\""
+      ],
+      "image": {
+        "prompt": "a narrow footpath between hazel bushes, a red fox gently dangling between two springy young branches, looking more surprised than hurt, the fiddler tipping his feathered hat and walking off",
+        "seed": 550320230,
+        "character": "nguoi-nhac-cong"
+      },
+      "video": {
+        "motionPrompt": "the branches spring up and sway, the fox swings gently back and forth, blinking in surprise, the fiddler tips his hat",
+        "seed": 3350063643
+      },
+      "voice": {}
+    },
+    {
+      "id": "tho-chay-vong-quanh",
+      "title": "Thỏ chạy vòng quanh",
+      "narrator": "ke-chuyen",
+      "narration": "Lần thứ ba, tiếng đàn gọi tới một chú thỏ nhỏ. Thỏ cũng xin học đàn, cũng hứa vâng lời như trò nghe thầy. Đến một khoảng rừng trống có cây dương, bác buộc một sợi dây dài vòng quanh bụng thỏ, đầu kia buộc vào gốc cây. \"Nào, chạy hai mươi vòng quanh cây cho thật nhanh!\" Thỏ chạy đủ hai mươi vòng, sợi dây quấn đủ hai mươi vòng quanh thân cây, thế là thỏ bị giữ chặt bên gốc. Bác nhạc công lại đi tiếp.",
+      "subtitles": [
+        "Lần thứ ba, tiếng đàn gọi tới một chú thỏ nhỏ.",
+        "Thỏ cũng xin học đàn, cũng hứa vâng lời như trò nghe thầy.",
+        "Đến một khoảng rừng trống có cây dương, bác buộc một sợi dây dài vòng quanh bụng thỏ,",
+        "đầu kia buộc vào gốc cây. \"Nào, chạy hai mươi vòng quanh cây cho thật nhanh!\"",
+        "Thỏ chạy đủ hai mươi vòng, sợi dây quấn đủ hai mươi vòng quanh thân cây,",
+        "thế là thỏ bị giữ chặt bên gốc. Bác nhạc công lại đi tiếp."
+      ],
+      "image": {
+        "prompt": "a forest clearing with a tall aspen tree, a small brown hare tied with a long string around its tummy wrapped many times around the trunk, sitting puzzled, the fiddler walking away into the trees",
+        "seed": 242983789,
+        "character": "nguoi-nhac-cong"
+      },
+      "video": {
+        "motionPrompt": "the hare runs round and round the tree, the string winds tighter, the hare stops and sits blinking, aspen leaves tremble",
+        "seed": 3183784329
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-con-thu-noi-gian",
+      "title": "Ba con thú nổi giận",
+      "narrator": "ke-chuyen",
+      "narration": "Trong khi ấy, sói đã đẩy, đã kéo, đã gặm hòn đá mãi, cuối cùng cũng rút được chân ra. Sói bực lắm, chạy đi tìm bác nhạc công để đòi lại công bằng. Thấy sói chạy qua, cáo kêu ầm lên: \"Anh sói ơi, cứu em với, bác nhạc công lừa em rồi!\" Sói kéo cành cây xuống, cắn đứt dây, thả cáo ra. Hai con gặp thỏ, cũng thả thỏ ra. Thế là cả ba hầm hầm đi tìm bác nhạc công.",
+      "subtitles": [
+        "Trong khi ấy, sói đã đẩy, đã kéo, đã gặm hòn đá mãi, cuối cùng cũng rút được chân ra.",
+        "Sói bực lắm, chạy đi tìm bác nhạc công để đòi lại công bằng.",
+        "Thấy sói chạy qua, cáo kêu ầm lên: \"Anh sói ơi, cứu em với, bác nhạc công lừa em rồi!\"",
+        "Sói kéo cành cây xuống, cắn đứt dây, thả cáo ra.",
+        "Hai con gặp thỏ, cũng thả thỏ ra. Thế là cả ba hầm hầm đi tìm bác nhạc công."
+      ],
+      "image": {
+        "prompt": "the grey wolf freeing the fox from the bent branch, then the wolf, the fox and the hare marching together through the forest with grumpy determined faces, comical rather than scary",
+        "seed": 4101063916,
+        "character": "con-soi"
+      },
+      "video": {
+        "motionPrompt": "the wolf pulls the branch down, the fox drops free, the three animals march off in a line with grumpy faces, ferns sway",
+        "seed": 1159021265
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-ban-dung-nghia",
+      "title": "Người bạn đúng nghĩa",
+      "narrator": "ke-chuyen",
+      "narration": "Lúc ấy, bác nhạc công lại kéo đàn, và lần này tiếng đàn tới tai một bác tiều phu nghèo. Bác tiều phu bỏ dở công việc, kẹp rìu dưới nách, đi theo tiếng nhạc. Bác nhạc công mừng rỡ: \"Rốt cuộc cũng có người bạn đúng nghĩa! Ta tìm một con người, chứ đâu tìm thú rừng.\" Rồi bác đàn hay đến nỗi bác tiều phu đứng ngây ra, lòng rộn ràng sung sướng. Đúng lúc ấy, sói, cáo và thỏ kéo tới. Bác tiều phu giơ chiếc rìu sáng loáng, đứng chắn trước bác nhạc công, như muốn nói: \"Ai muốn đụng đến bác ấy thì phải qua tay ta đã!\" Ba con thú sợ quá, chạy biến vào rừng. Bác nhạc công cảm ơn, chơi thêm một bản thật hay tặng bác tiều phu, rồi lại lên đường.",
+      "subtitles": [
+        "Lúc ấy, bác nhạc công lại kéo đàn, và lần này tiếng đàn tới tai một bác tiều phu nghèo.",
+        "Bác tiều phu bỏ dở công việc, kẹp rìu dưới nách, đi theo tiếng nhạc.",
+        "Bác nhạc công mừng rỡ: \"Rốt cuộc cũng có người bạn đúng nghĩa!",
+        "Ta tìm một con người, chứ đâu tìm thú rừng.\"",
+        "Rồi bác đàn hay đến nỗi bác tiều phu đứng ngây ra, lòng rộn ràng sung sướng.",
+        "Đúng lúc ấy, sói, cáo và thỏ kéo tới.",
+        "Bác tiều phu giơ chiếc rìu sáng loáng, đứng chắn trước bác nhạc công, như muốn nói:",
+        "\"Ai muốn đụng đến bác ấy thì phải qua tay ta đã!\"",
+        "Ba con thú sợ quá, chạy biến vào rừng.",
+        "Bác nhạc công cảm ơn, chơi thêm một bản thật hay tặng bác tiều phu, rồi lại lên đường."
+      ],
+      "image": {
+        "prompt": "a sunny clearing, the fiddler playing joyfully, a red-bearded woodcutter standing protectively in front of him holding up his axe, the wolf, fox and hare scampering back into the forest",
+        "seed": 601610322,
+        "character": "bac-tieu-phu"
+      },
+      "video": {
+        "motionPrompt": "the woodcutter steps forward bravely, the three animals turn and dash away into the trees, the fiddler bows and plays again, sunlight brightens",
+        "seed": 3389399937
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "whimsical German folk fiddle music, a playful solo violin melody that repeats like a calling song, light woodwinds for the wolf, fox and hare, a warm sturdy cello for the kind woodcutter, a cheerful ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1074351362
+  }
+}

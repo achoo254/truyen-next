@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "slug": "bac-tho-giay-pfriem",
+  "shelf": "world",
+  "title": "Bác thợ giày Pfriem",
+  "summary": "Bác thợ giày Pfriem chê tất cả mọi người, từ cậu học việc đến bác thợ xây, lúc nào cũng cho mình đúng nhất. Một đêm, bác nằm mơ lên tận cổng trời, và được dặn đúng một điều: không được chê bai gì cả. Truyện cổ Grimm vui nhộn về thói hay bắt lỗi người khác, kể cho cả nhà.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Meister Pfriem\" (Kinder- und Hausmärchen, bản 1857, truyện số 178), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"Master Pfriem\" của Margaret Hunt (1884, Project Gutenberg #5314). Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: bỏ chi tiết bác đánh cậu học việc; giấc mơ lên trời được kể như một chuyến đi trong mơ.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a crooked cobbled old German town street, a cluttered cobbler workshop, a dreamy heaven of soft clouds and golden gates with kind winged helpers, humorous expressive faces, warm golden light, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "bac-pfriem",
+      "name": "Bác Pfriem",
+      "seed": 2266526816,
+      "sheetPrompt": "a short thin fidgety old German cobbler, turned-up nose, shaggy grey hair, small darting eyes, a leather apron over a brown shirt, arms waving as he talks, comical bossy expression, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cau-hoc-viec",
+      "name": "Cậu học việc",
+      "seed": 3993617897,
+      "sheetPrompt": "a patient young German cobbler apprentice, freckles, a cap and a small leather apron, holding a shoe, calm good-humoured smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "thanh-phero",
+      "name": "Thánh Phêrô",
+      "seed": 3295306260,
+      "sheetPrompt": "a kindly old gatekeeper saint from a European fairy tale, long white beard, simple flowing robe, a big golden key on a cord, gentle patient face, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cai-gi-cung-che",
+      "title": "Cái gì cũng chê",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một thị trấn nọ, có bác thợ giày tên là Pfriem. Bác thấp, gầy, mũi hếch, tóc bạc bờm xờm, đôi mắt nhỏ lúc nào cũng đảo khắp nơi. Cái gì bác cũng thấy, cái gì bác cũng chê, cái gì bác cũng biết hơn người, và lúc nào bác cũng đúng. Ra đường, bác vung tay như chèo thuyền. Có lần bác hất trúng thùng nước của một cô gái, nước văng ướt hết người bác, thế mà bác còn mắng: \"Đồ hậu đậu, không thấy ta đi sau à?\"",
+      "subtitles": [
+        "Ngày xưa, ở một thị trấn nọ, có bác thợ giày tên là Pfriem.",
+        "Bác thấp, gầy, mũi hếch, tóc bạc bờm xờm, đôi mắt nhỏ lúc nào cũng đảo khắp nơi.",
+        "Cái gì bác cũng thấy, cái gì bác cũng chê, cái gì bác cũng biết hơn người,",
+        "và lúc nào bác cũng đúng. Ra đường, bác vung tay như chèo thuyền.",
+        "Có lần bác hất trúng thùng nước của một cô gái, nước văng ướt hết người bác,",
+        "thế mà bác còn mắng: \"Đồ hậu đậu, không thấy ta đi sau à?\""
+      ],
+      "image": {
+        "prompt": "a cobbled old German street, the little fidgety cobbler waving his arms like rowing oars and knocking a water bucket out of a girl's hands, water splashing all over himself, townsfolk chuckling",
+        "seed": 2901416514,
+        "character": "bac-pfriem"
+      },
+      "video": {
+        "motionPrompt": "water splashes in a sparkling arc, the cobbler shakes himself like a wet dog and scolds, the girl covers her mouth to hide a laugh",
+        "seed": 1105283424
+      },
+      "voice": {}
+    },
+    {
+      "id": "ca-nha-ca-pho",
+      "title": "Cả nhà, cả phố",
+      "narrator": "ke-chuyen",
+      "narration": "Ở nhà, chẳng cậu học việc nào ở với bác được quá một tháng, vì đường khâu nào bác cũng chê lệch, đế nào cũng chê cao. Sáng sớm vợ nhóm lửa, bác chạy chân đất vào bếp: \"Lửa to thế, định đốt nhà à? Củi không mất tiền chắc?\" Thấy người ta xây nhà, bác thò cổ ra cửa sổ: \"Đá ẩm thế kia thì ai ở cho khoẻ! Vữa thì toàn cát!\" Bác chạy ra giật rìu của bác thợ mộc để làm mẫu, rồi thấy chiếc xe chở đất đi qua, lại vứt rìu chạy theo mắng bác nông dân: \"Ai lại cho ngựa non kéo xe nặng thế!\"",
+      "subtitles": [
+        "Ở nhà, chẳng cậu học việc nào ở với bác được quá một tháng,",
+        "vì đường khâu nào bác cũng chê lệch, đế nào cũng chê cao.",
+        "Sáng sớm vợ nhóm lửa, bác chạy chân đất vào bếp: \"Lửa to thế, định đốt nhà à?",
+        "Củi không mất tiền chắc?\"",
+        "Thấy người ta xây nhà, bác thò cổ ra cửa sổ: \"Đá ẩm thế kia thì ai ở cho khoẻ!",
+        "Vữa thì toàn cát!\"",
+        "Bác chạy ra giật rìu của bác thợ mộc để làm mẫu, rồi thấy chiếc xe chở đất đi qua,",
+        "lại vứt rìu chạy theo mắng bác nông dân: \"Ai lại cho ngựa non kéo xe nặng thế!\""
+      ],
+      "image": {
+        "prompt": "a busy German town scene, the bossy little cobbler leaning out of a window scolding builders, then snatching a carpenter's tool, then chasing after a farmer's cart, everyone rolling their eyes good-naturedly",
+        "seed": 1318268327,
+        "character": "bac-pfriem"
+      },
+      "video": {
+        "motionPrompt": "the cobbler darts from one place to another waving his finger, workers shrug and keep working, a cart rolls slowly by",
+        "seed": 3108861158
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-giay-cua-ai",
+      "title": "Chiếc giày của ai",
+      "narrator": "ke-chuyen",
+      "narration": "Bác chạy về xưởng, cậu học việc đưa cho bác một chiếc giày. Bác hét lên: \"Lại thế nữa! Ta đã dặn bao lần là đừng cắt giày rộng thế này! Giày gì mà chỉ toàn đế!\" Cậu học việc nhẹ nhàng đáp: \"Thưa bác, chiếc giày này có khi xấu thật. Nhưng chính bác đã cắt nó và đang khâu dở. Ban nãy bác đứng bật dậy, gạt nó rơi xuống đất, cháu chỉ vừa nhặt lên thôi ạ.\" Nhưng nói gì thì nói, bác Pfriem cũng chẳng bao giờ chịu tin.",
+      "subtitles": [
+        "Bác chạy về xưởng, cậu học việc đưa cho bác một chiếc giày.",
+        "Bác hét lên: \"Lại thế nữa! Ta đã dặn bao lần là đừng cắt giày rộng thế này!",
+        "Giày gì mà chỉ toàn đế!\"",
+        "Cậu học việc nhẹ nhàng đáp: \"Thưa bác, chiếc giày này có khi xấu thật.",
+        "Nhưng chính bác đã cắt nó và đang khâu dở.",
+        "Ban nãy bác đứng bật dậy, gạt nó rơi xuống đất, cháu chỉ vừa nhặt lên thôi ạ.\"",
+        "Nhưng nói gì thì nói, bác Pfriem cũng chẳng bao giờ chịu tin."
+      ],
+      "image": {
+        "prompt": "a cluttered cobbler workshop full of shoes and leather, the patient apprentice holding up a wide shoe, the old cobbler red-faced and pointing, then suddenly frozen with a puzzled look",
+        "seed": 1136870847,
+        "character": "cau-hoc-viec"
+      },
+      "video": {
+        "motionPrompt": "the cobbler jabs his finger at the shoe, the apprentice calmly points back at him, the cobbler blinks and scratches his head",
+        "seed": 3137228875
+      },
+      "voice": {}
+    },
+    {
+      "id": "giac-mo-len-troi",
+      "title": "Giấc mơ lên trời",
+      "narrator": "ke-chuyen",
+      "narration": "Một đêm, bác Pfriem nằm mơ thấy mình lên tận cổng trời. Bác gõ cửa thình thịch, càu nhàu: \"Lạ thật, cổng to thế mà không có cái vòng gõ cửa, gõ đau cả tay.\" Thánh Phêrô ra mở cổng: \"À, bác Pfriem đấy à. Ta cho bác vào, nhưng nhớ bỏ cái tật chê bai đi nhé. Ở đây thấy gì cũng không được chê.\" Bác đáp ngay: \"Ngài khỏi dặn. Trên trời thì cái gì cũng hoàn hảo, có gì đâu mà chê.\"",
+      "subtitles": [
+        "Một đêm, bác Pfriem nằm mơ thấy mình lên tận cổng trời.",
+        "Bác gõ cửa thình thịch, càu nhàu: \"Lạ thật, cổng to thế mà không có cái vòng gõ cửa,",
+        "gõ đau cả tay.\" Thánh Phêrô ra mở cổng: \"À, bác Pfriem đấy à.",
+        "Ta cho bác vào, nhưng nhớ bỏ cái tật chê bai đi nhé.",
+        "Ở đây thấy gì cũng không được chê.\" Bác đáp ngay: \"Ngài khỏi dặn.",
+        "Trên trời thì cái gì cũng hoàn hảo, có gì đâu mà chê.\""
+      ],
+      "image": {
+        "prompt": "a dreamy heaven of soft golden clouds, a huge pearly gate, the little cobbler knocking impatiently, a kindly white-bearded gatekeeper with a big golden key opening the gate and raising a warning finger",
+        "seed": 3590150028,
+        "character": "thanh-phero"
+      },
+      "video": {
+        "motionPrompt": "soft clouds drift, the great gate creaks open, golden light pours out, the gatekeeper wags his finger gently",
+        "seed": 3241179105
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhung-dieu-la-tren-troi",
+      "title": "Những điều lạ trên trời",
+      "narrator": "ke-chuyen",
+      "narration": "Bác đi dạo khắp nơi, mắt đảo bên này bên kia, thỉnh thoảng lắc đầu lẩm bẩm. Bác thấy hai thiên thần khiêng một cây xà ngang, khiêng chéo chứ không khiêng dọc. Đó là cây xà mà người ta có trong mắt mình, trong khi mải bới cái dằm nhỏ trong mắt người khác. Bác nghĩ thầm: \"Khiêng thế thì ngốc quá\", nhưng cố nhịn. Rồi bác thấy hai thiên thần múc nước bằng cái thùng thủng lỗ chỗ, nước chảy tung toé. Thật ra họ đang làm mưa tưới cho mặt đất. Bác suýt kêu lên, nhưng lại kịp nhịn.",
+      "subtitles": [
+        "Bác đi dạo khắp nơi, mắt đảo bên này bên kia, thỉnh thoảng lắc đầu lẩm bẩm.",
+        "Bác thấy hai thiên thần khiêng một cây xà ngang, khiêng chéo chứ không khiêng dọc.",
+        "Đó là cây xà mà người ta có trong mắt mình,",
+        "trong khi mải bới cái dằm nhỏ trong mắt người khác.",
+        "Bác nghĩ thầm: \"Khiêng thế thì ngốc quá\", nhưng cố nhịn.",
+        "Rồi bác thấy hai thiên thần múc nước bằng cái thùng thủng lỗ chỗ, nước chảy tung toé.",
+        "Thật ra họ đang làm mưa tưới cho mặt đất. Bác suýt kêu lên, nhưng lại kịp nhịn."
+      ],
+      "image": {
+        "prompt": "a dreamy cloud land, two gentle winged helpers carrying a long wooden beam sideways, two more drawing water with a bucket full of holes so that rain falls down to green fields far below, the cobbler watching with a pained face",
+        "seed": 1923619001,
+        "character": "bac-pfriem"
+      },
+      "video": {
+        "motionPrompt": "water sprinkles from the leaky bucket like soft rain, the beam bobs along, the cobbler clamps his mouth shut and puffs his cheeks",
+        "seed": 967864787
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-xe-sa-lay",
+      "title": "Chiếc xe sa lầy",
+      "narrator": "ke-chuyen",
+      "narration": "Đi thêm một quãng, bác thấy một chiếc xe sa vào ổ gà sâu. Người đánh xe nói xe chở toàn những ý tốt, đi lạc đường nhưng rồi cũng tới được đây. Một thiên thần dắt đến hai con ngựa, đóng vào phía trước. Bác nghĩ: \"Hai con thì sao kéo nổi, phải bốn con.\" Một thiên thần khác dắt thêm hai con, nhưng lại đóng vào phía sau xe. Lần này bác không nhịn nổi nữa: \"Đồ vụng về! Từ thuở khai thiên lập địa, có ai đóng ngựa kéo xe kiểu ấy bao giờ!\" Lập tức, bác bị đưa ra ngoài cổng. Ngoái lại, bác thấy bốn con ngựa có cánh đang nhấc bổng chiếc xe bay lên.",
+      "subtitles": [
+        "Đi thêm một quãng, bác thấy một chiếc xe sa vào ổ gà sâu.",
+        "Người đánh xe nói xe chở toàn những ý tốt, đi lạc đường nhưng rồi cũng tới được đây.",
+        "Một thiên thần dắt đến hai con ngựa, đóng vào phía trước.",
+        "Bác nghĩ: \"Hai con thì sao kéo nổi, phải bốn con.\"",
+        "Một thiên thần khác dắt thêm hai con, nhưng lại đóng vào phía sau xe.",
+        "Lần này bác không nhịn nổi nữa: \"Đồ vụng về!",
+        "Từ thuở khai thiên lập địa, có ai đóng ngựa kéo xe kiểu ấy bao giờ!\"",
+        "Lập tức, bác bị đưa ra ngoài cổng.",
+        "Ngoái lại, bác thấy bốn con ngựa có cánh đang nhấc bổng chiếc xe bay lên."
+      ],
+      "image": {
+        "prompt": "a heavenly cloud road, a cart stuck in a soft cloud dip, two horses harnessed in front and two behind, the cobbler shouting with waving arms, then four winged horses lifting the cart gracefully into the sky",
+        "seed": 140513249,
+        "character": "bac-pfriem"
+      },
+      "video": {
+        "motionPrompt": "the horses spread great white wings, the cart rises softly into the sky, the cobbler gapes as he is gently ushered back through the gate",
+        "seed": 3169584947
+      },
+      "voice": {}
+    },
+    {
+      "id": "tinh-giac",
+      "title": "Tỉnh giấc",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc ấy, bác Pfriem tỉnh dậy. Bác tự nhủ: \"Ừ thì trên trời khác dưới đất, cũng có cái hay của nó. Nhưng ai mà nhịn nổi khi thấy ngựa đóng cả trước lẫn sau? Mà ngựa đã bốn chân, lắp thêm cánh làm gì cho thừa!\" Rồi bác vội nhảy khỏi giường: \"Phải dậy thôi, không thì cả nhà lại làm sai hết cho mà xem!\" Thế đấy, có người dù đã được nhắc nhở cả trong mơ, vẫn chẳng bỏ được cái tật hay chê.",
+      "subtitles": [
+        "Đúng lúc ấy, bác Pfriem tỉnh dậy.",
+        "Bác tự nhủ: \"Ừ thì trên trời khác dưới đất, cũng có cái hay của nó.",
+        "Nhưng ai mà nhịn nổi khi thấy ngựa đóng cả trước lẫn sau?",
+        "Mà ngựa đã bốn chân, lắp thêm cánh làm gì cho thừa!\"",
+        "Rồi bác vội nhảy khỏi giường: \"Phải dậy thôi,",
+        "không thì cả nhà lại làm sai hết cho mà xem!\"",
+        "Thế đấy, có người dù đã được nhắc nhở cả trong mơ, vẫn chẳng bỏ được cái tật hay chê."
+      ],
+      "image": {
+        "prompt": "early morning in a small bedroom above the cobbler shop, the old cobbler sitting up in bed in his nightcap, scratching his head and grumbling, sunlight through the window, his patient wife peeking in with a smile",
+        "seed": 1567059240,
+        "character": "bac-pfriem"
+      },
+      "video": {
+        "motionPrompt": "the cobbler throws off his blanket and hops out of bed, his nightcap flops, morning sunlight stretches across the floor",
+        "seed": 1650656974
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "humorous German folk music, a fussy busy bassoon and clarinet for the grumbling cobbler, a light tapping rhythm like a cobbler's hammer, a dreamy airy harp and strings for the heavenly dream, a playful ending, instrumental, no vocals",
+    "durationSeconds": 140,
+    "seed": 3242060031
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "slug": "ga-rung-va-ga-nha",
+  "shelf": "kids",
+  "title": "Gà rừng và gà nhà",
+  "summary": "Người thợ săn mang gà trống nhà vào rừng gáy làm mồi, bắt được chú gà rừng đuôi đẹp mào dài. Gà rừng trách gà nhà, trách cả người, rồi một ông lão hiền khuyên thả gà về với rừng. Truyện cổ Việt Nam về sự tự do của muôn loài, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Gà rừng», phần «Gà rừng và gà nhà», trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: lời ông lão chỉ khuyên thả gà về rừng, bỏ ý làm thịt. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, cảnh gà rừng về với vợ con, lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, misty green forest with ferns and tall trees, a bamboo village yard with a woven coop, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 2579033612,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ga-rung",
+      "name": "Chú gà rừng",
+      "seed": 3997130609,
+      "sheetPrompt": "a handsome wild junglefowl rooster with a long shiny dark green tail, a tall red comb, golden-orange neck feathers, proud and free, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ga-nha",
+      "name": "Chú gà nhà",
+      "seed": 3692597047,
+      "sheetPrompt": "a plump friendly farmyard rooster with brown and white feathers and a small red comb, honest and a bit blunt, cute, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-nuoi-ga",
+      "name": "Bác nuôi gà",
+      "seed": 190814235,
+      "sheetPrompt": "a Vietnamese village man in a brown shirt and conical hat, curious face, holding a woven bamboo basket, friendly cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Sáng nào các bạn cũng nghe gà gáy ò ó o phải không? Gà ở nhà thì quen sống trong sân, còn trong rừng sâu có những chú gà rừng đuôi dài óng ánh, thích tự do bay nhảy. Một ngày kia, gà rừng và gà nhà gặp nhau. Chuyện gì xảy ra nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Sáng nào các bạn cũng nghe gà gáy ò ó o phải không?",
+        "Gà ở nhà thì quen sống trong sân,",
+        "còn trong rừng sâu có những chú gà rừng đuôi dài óng ánh, thích tự do bay nhảy.",
+        "Một ngày kia, gà rừng và gà nhà gặp nhau. Chuyện gì xảy ra nhỉ?",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a bamboo fence at sunrise, a farmyard rooster crows in the yard, far behind a misty forest where a colourful wild rooster peeks out",
+        "seed": 258513194
+      },
+      "video": {
+        "motionPrompt": "the rooster stretches and crows, the cat covers her ears and laughs, mist drifts over the forest, slow camera push-in",
+        "seed": 1845526191
+      },
+      "voice": {}
+    },
+    {
+      "id": "mac-bay",
+      "title": "Tiếng gáy trong rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một bác vào rừng, thấy gà rừng đuôi đẹp, mào dài, tiếng gáy lại hay, bèn muốn bắt về nuôi. Bác nghĩ ra một mẹo: mang chú gà trống nhà vào rừng cho nó gáy. Gà rừng nghe tiếng gáy lạ tai, tò mò bay lại xem. Thế là bác chụp được một chú, mang về nhà, làm cho cái chuồng nhỏ mà nhốt.",
+      "subtitles": [
+        "Ngày xưa có một bác vào rừng, thấy gà rừng đuôi đẹp, mào dài, tiếng gáy lại hay,",
+        "bèn muốn bắt về nuôi. Bác nghĩ ra một mẹo: mang chú gà trống nhà vào rừng cho nó gáy.",
+        "Gà rừng nghe tiếng gáy lạ tai, tò mò bay lại xem.",
+        "Thế là bác chụp được một chú, mang về nhà, làm cho cái chuồng nhỏ mà nhốt."
+      ],
+      "image": {
+        "character": "ga-rung",
+        "prompt": "in a misty green forest clearing, a plump farmyard rooster crows on a log, a curious wild rooster with a long green tail flies closer between ferns, a village man hides behind a tree with a bamboo basket",
+        "seed": 1477331488
+      },
+      "video": {
+        "motionPrompt": "the farmyard rooster crows, the wild rooster tilts his head and flutters closer, the man gently drops the basket over him, leaves fall softly",
+        "seed": 2178359551
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-nhau",
+      "title": "Gà rừng trách gà nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Gà rừng giận lắm. Thấy gà nhà đứng ngoài chuồng nhìn vào, gà rừng trách: Tôi ở trong rừng, có trêu chọc gì anh đâu. Anh vào gáy, tôi lại xem, thế là tôi mắc vào chuồng. Tại anh cả đấy! Gà nhà đáp: Tôi nào có biết gì. Bác ấy mang tôi vào để dụ anh. Anh nghe gáy thì cứ mặc, đừng lại, có sao đâu. Anh tò mò nên mới vào chuồng. Tại anh chứ đâu phải tại tôi!",
+      "subtitles": [
+        "Gà rừng giận lắm.",
+        "Thấy gà nhà đứng ngoài chuồng nhìn vào, gà rừng trách: Tôi ở trong rừng,",
+        "có trêu chọc gì anh đâu. Anh vào gáy, tôi lại xem, thế là tôi mắc vào chuồng.",
+        "Tại anh cả đấy! Gà nhà đáp: Tôi nào có biết gì.",
+        "Bác ấy mang tôi vào để dụ anh. Anh nghe gáy thì cứ mặc, đừng lại, có sao đâu.",
+        "Anh tò mò nên mới vào chuồng. Tại anh chứ đâu phải tại tôi!"
+      ],
+      "image": {
+        "character": "ga-nha",
+        "prompt": "in a village yard, the wild rooster stands inside a woven bamboo coop flapping his wings angrily, the plump farmyard rooster stands outside shrugging his wings, both arguing comically",
+        "seed": 1788646244
+      },
+      "video": {
+        "motionPrompt": "the wild rooster flaps and points his wing, the farmyard rooster shrugs and shakes his head, chicks peek from behind a water jar, comic timing",
+        "seed": 1772006256
+      },
+      "voice": {}
+    },
+    {
+      "id": "xin-tha",
+      "title": "Gà rừng xin được về",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe hai con gà cãi nhau, bác chủ nhà tò mò lại gần. Gà rừng quay sang trách luôn: Bác ơi, tôi ở trong rừng, lúa bác tôi không ăn, bếp bác tôi không bới. Thế mà bác lấy gà nhà dụ tôi vào bẫy. Tôi còn vợ con ở trong rừng đang chờ. Xin bác thương mà thả tôi về. Bác nghe vậy nhưng vẫn làm lơ. Ít lâu sau, bác lại bắt thêm một cô gà rừng mái, thả vào chuồng ở cùng.",
+      "subtitles": [
+        "Nghe hai con gà cãi nhau, bác chủ nhà tò mò lại gần.",
+        "Gà rừng quay sang trách luôn: Bác ơi, tôi ở trong rừng, lúa bác tôi không ăn,",
+        "bếp bác tôi không bới. Thế mà bác lấy gà nhà dụ tôi vào bẫy.",
+        "Tôi còn vợ con ở trong rừng đang chờ. Xin bác thương mà thả tôi về.",
+        "Bác nghe vậy nhưng vẫn làm lơ.",
+        "Ít lâu sau, bác lại bắt thêm một cô gà rừng mái, thả vào chuồng ở cùng."
+      ],
+      "image": {
+        "character": "nguoi-nuoi-ga",
+        "prompt": "the village man crouches beside the bamboo coop listening, the wild rooster inside speaks to him with sad pleading eyes, later a wild hen with soft brown feathers sits beside the rooster in the coop",
+        "seed": 1662468208
+      },
+      "video": {
+        "motionPrompt": "the man scratches his chin and looks away, the rooster bows his head, then a wild hen flutters into the coop and nestles beside him, soft light",
+        "seed": 2344854265
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-lao",
+      "title": "Lời khuyên của ông lão",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm có ông lão đến chơi. Bác chủ nhà khoe đôi gà rừng đẹp. Ông lão bảo: Gà rừng đẹp thật đấy. Nhưng giống gà này quen sống có bạn, có bầy trong rừng, bác có nuôi thì nó cũng chẳng chịu ở đâu. Người ta vẫn nói: Gà rừng thì lại trở mỏ về rừng. Bác nghe tôi, thả chúng về với rừng đi. Bác chủ nhà thấy ông nói có lý, liền mở chuồng. Đôi gà rừng vỗ cánh bay vút vào rừng, về với đàn con đang đợi.",
+      "subtitles": [
+        "Một hôm có ông lão đến chơi. Bác chủ nhà khoe đôi gà rừng đẹp.",
+        "Ông lão bảo: Gà rừng đẹp thật đấy.",
+        "Nhưng giống gà này quen sống có bạn, có bầy trong rừng,",
+        "bác có nuôi thì nó cũng chẳng chịu ở đâu.",
+        "Người ta vẫn nói: Gà rừng thì lại trở mỏ về rừng.",
+        "Bác nghe tôi, thả chúng về với rừng đi. Bác chủ nhà thấy ông nói có lý, liền mở chuồng.",
+        "Đôi gà rừng vỗ cánh bay vút vào rừng, về với đàn con đang đợi."
+      ],
+      "image": {
+        "character": "ga-rung",
+        "prompt": "an old man with a white beard and a walking stick talks kindly to the village man beside the coop, then the coop door opens and the pair of wild junglefowl fly toward the green forest where little chicks wait",
+        "seed": 1760263914
+      },
+      "video": {
+        "motionPrompt": "the old man nods and points to the forest, the village man opens the coop door, the two wild birds spread their wings and fly into the trees, chicks hop happily, camera follows",
+        "seed": 1772165150
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, gà nhà quen sống ở sân, còn gà rừng chỉ vui khi được ở giữa rừng xanh với gia đình mình. Mỗi loài đều có nhà riêng của nó. Mình yêu các con vật thì hãy để chúng được sống đúng nơi của chúng nhé. Và đừng tò mò chạy theo tiếng lạ mà quên lời người lớn dặn đấy! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, gà nhà quen sống ở sân,",
+        "còn gà rừng chỉ vui khi được ở giữa rừng xanh với gia đình mình.",
+        "Mỗi loài đều có nhà riêng của nó.",
+        "Mình yêu các con vật thì hãy để chúng được sống đúng nơi của chúng nhé.",
+        "Và đừng tò mò chạy theo tiếng lạ mà quên lời người lớn dặn đấy!",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the edge of a sunny forest, the wild rooster family stands on a mossy log among ferns, the farmyard rooster watches from the village fence",
+        "seed": 3271709859
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the wild rooster crows proudly with his family, the farmyard rooster crows back from the fence, sunbeams through the trees, gentle camera pull-back",
+        "seed": 2801748936
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Vietnamese highland folk melody, bamboo flute and k'ni-like soft strings with forest birdsong textures, calm and free, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3460558347
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "slug": "chuot-giu-kho-lua-nha-troi",
+  "shelf": "kids",
+  "title": "Chuột giữ kho lúa nhà Trời",
+  "summary": "Ngày xưa chuột được Trời giao giữ chìa khoá kho lúa, nhưng cứ ăn vụng mãi nên bị đuổi xuống trần, và mèo được cử theo canh. Truyện cổ Việt Nam vui nhộn giải thích vì sao mèo kêu “nghèo, nghèo” và hay bới tro bếp.",
+  "themes": [
+    "su-tich",
+    "thien-nhien",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Chuột và mèo» trong Truyện cổ nước Nam, quyển Muông chim (1934) của Ôn Như Nguyễn Văn Ngọc, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách; Mèo Miu mở đầu và rút ý ở cuối, kể nhẹ việc mèo bắt chuột (mèo chỉ đuổi, dọa chuột) và việc mèo dỗi vua Bếp (bới tro bếp), giữ nguyên cốt truyện.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, heavenly palace of clouds with golden rice granaries and a cozy village kitchen with a clay stove, cheerful comic mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 2811555547,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-chuot",
+      "name": "Chú chuột",
+      "seed": 744926514,
+      "sheetPrompt": "a cute chubby grey mouse with big round ears, a mischievous grin, a big golden key hanging from a string around its neck, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-troi",
+      "name": "Ông Trời",
+      "seed": 401386834,
+      "sheetPrompt": "a kind old Vietnamese heavenly emperor with a long white beard, yellow royal robe and a gentle smile, sitting on soft clouds, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "vua-bep",
+      "name": "Vua Bếp",
+      "seed": 3446738269,
+      "sheetPrompt": "the Vietnamese Kitchen God, a friendly round-faced man in a red robe and black scholar hat, a little soot on his cheek, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-meo",
+      "name": "Mèo nhà Trời",
+      "seed": 3764866441,
+      "sheetPrompt": "a sleek tabby cat with bright green eyes, alert and proud, a tiny bell collar, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Miu là mèo, nên Miu tò mò lắm về họ hàng nhà mèo. Các bạn có nghe mèo kêu “ngheo, ngheo” bao giờ chưa? Ông bà bảo, mèo kêu “nghèo, nghèo, nghèo” đấy. Mà vì sao mèo lại kêu thế, lại còn hay bới tro trong bếp nữa? Chuyện bắt đầu từ một chú chuột trên trời. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Miu là mèo, nên Miu tò mò lắm về họ hàng nhà mèo.",
+        "Các bạn có nghe mèo kêu “ngheo, ngheo” bao giờ chưa?",
+        "Ông bà bảo, mèo kêu “nghèo, nghèo, nghèo” đấy.",
+        "Mà vì sao mèo lại kêu thế, lại còn hay bới tro trong bếp nữa?",
+        "Chuyện bắt đầu từ một chú chuột trên trời. Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits by a clay kitchen stove in a cozy village kitchen, peeking curiously at a little mouse hole in the wall, warm firelight",
+        "seed": 870193750
+      },
+      "video": {
+        "motionPrompt": "the cat tilts her head and twitches her ears, a tiny tail disappears into the mouse hole, the stove fire flickers softly",
+        "seed": 1848232286
+      },
+      "voice": {}
+    },
+    {
+      "id": "chuot-giu-kho",
+      "title": "Chuột giữ chìa khoá kho lúa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, chuột không sống dưới đất đâu, mà ở tận trên Trời. Ông Trời giao cho chuột giữ chìa khoá kho lúa. Ông dặn: Con giữ cho cẩn thận nhé. Chuột dạ ran. Nhưng có chìa khoá trong tay, chuột cứ lén mở kho, rủ cả họ hàng vào ăn rả rích. Ngày này qua ngày khác, kho lúa nhà Trời vơi dần, vơi dần. Ông Trời biết chuyện, giận lắm, đuổi chuột xuống trần gian, bảo xuống đó mà giữ lúa cho người.",
+      "subtitles": [
+        "Ngày xưa, chuột không sống dưới đất đâu, mà ở tận trên Trời.",
+        "Ông Trời giao cho chuột giữ chìa khoá kho lúa.",
+        "Ông dặn: Con giữ cho cẩn thận nhé. Chuột dạ ran.",
+        "Nhưng có chìa khoá trong tay, chuột cứ lén mở kho, rủ cả họ hàng vào ăn rả rích.",
+        "Ngày này qua ngày khác, kho lúa nhà Trời vơi dần, vơi dần.",
+        "Ông Trời biết chuyện, giận lắm, đuổi chuột xuống trần gian,",
+        "bảo xuống đó mà giữ lúa cho người."
+      ],
+      "image": {
+        "character": "con-chuot",
+        "prompt": "in a golden heavenly rice granary among the clouds, a mischievous mouse with a big key around its neck and its relatives happily nibble rice grains from overflowing sacks",
+        "seed": 621181475
+      },
+      "video": {
+        "motionPrompt": "the mice nibble rice and giggle, grains spill from the sacks, clouds drift by the open granary door, comic sneaky mood",
+        "seed": 2174548850
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-bep-tau",
+      "title": "Vua Bếp lên tâu Trời",
+      "narrator": "ke-chuyen",
+      "narration": "Xuống trần rồi, chứng nào vẫn tật ấy. Chuột lại rủ nhau chui vào bồ thóc của người mà ăn. Người ta than: Chuột kia xưa ở chốn nào, mà nay ăn lúa nhà tao thế này? Người mới kêu với vua Bếp. Vua Bếp bắt chuột mang lên trả Trời, tâu rằng: Lúa nhà Trời nhiều, lúa nhà người ít. Để nó ăn mãi thì người ta đói mất. Xin Trời cho nó lên đây ở lại.",
+      "subtitles": [
+        "Xuống trần rồi, chứng nào vẫn tật ấy. Chuột lại rủ nhau chui vào bồ thóc của người mà ăn.",
+        "Người ta than: Chuột kia xưa ở chốn nào, mà nay ăn lúa nhà tao thế này?",
+        "Người mới kêu với vua Bếp.",
+        "Vua Bếp bắt chuột mang lên trả Trời, tâu rằng: Lúa nhà Trời nhiều, lúa nhà người ít.",
+        "Để nó ăn mãi thì người ta đói mất. Xin Trời cho nó lên đây ở lại."
+      ],
+      "image": {
+        "character": "vua-bep",
+        "prompt": "the friendly Kitchen God in red robes rides up on a cloud holding a guilty little mouse by its tail gently, bowing before the kind old heavenly emperor",
+        "seed": 786554358
+      },
+      "video": {
+        "motionPrompt": "the Kitchen God bows and talks with his hands, the mouse wriggles and looks sheepish, the old emperor strokes his beard thoughtfully",
+        "seed": 2859113788
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-meo",
+      "title": "Trời trao cho con mèo",
+      "narrator": "ke-chuyen",
+      "narration": "Ông Trời lắc đầu: Không được, ta đã đuổi thì không cho lên nữa. Thôi, ta có một con mèo, chú mang xuống trần mà trị chuột. Hễ chuột ăn lúa thì thả mèo ra bắt, mèo gầm gừ cho chuột sợ. Còn khi mèo chưa bắt được, cứ bảo mèo ngồi kêu “nghèo, nghèo, nghèo”, chuột nghe thấy cũng phải bỏ đi. Vua Bếp lạy tạ, ôm cả chuột lẫn mèo xuống trần.",
+      "subtitles": [
+        "Ông Trời lắc đầu: Không được, ta đã đuổi thì không cho lên nữa.",
+        "Thôi, ta có một con mèo, chú mang xuống trần mà trị chuột.",
+        "Hễ chuột ăn lúa thì thả mèo ra bắt, mèo gầm gừ cho chuột sợ.",
+        "Còn khi mèo chưa bắt được, cứ bảo mèo ngồi kêu “nghèo, nghèo, nghèo”,",
+        "chuột nghe thấy cũng phải bỏ đi. Vua Bếp lạy tạ, ôm cả chuột lẫn mèo xuống trần."
+      ],
+      "image": {
+        "character": "ong-troi",
+        "prompt": "the kind old heavenly emperor hands a proud tabby cat to the smiling Kitchen God on a cloud, the little mouse peeks out nervously from the god's sleeve",
+        "seed": 3754331758
+      },
+      "video": {
+        "motionPrompt": "the emperor lifts the cat gently and passes it over, the cat flicks its tail, the mouse hides, the cloud starts to float down",
+        "seed": 2925134843
+      },
+      "voice": {}
+    },
+    {
+      "id": "meo-keu-ngheo",
+      "title": "Mèo kêu nghèo, nghèo",
+      "narrator": "ke-chuyen",
+      "narration": "Từ đó, hễ mèo rình được chuột là lại gầm gừ, gầm gừ, chuột sợ chạy mất dép. Còn hôm nào chưa bắt được, mèo cứ ngồi rung râu mà kêu: Nghèo, nghèo, nghèo! Nhưng ngồi mãi, mèo nghĩ lại thấy giận vua Bếp lắm. Tại vua Bếp mà mèo phải rời nhà Trời xuống đây. Giận thì giận, mèo chẳng làm gì được vua Bếp, thỉnh thoảng chỉ vào bếp bới tung đống tro lên cho bõ tức.",
+      "subtitles": [
+        "Từ đó, hễ mèo rình được chuột là lại gầm gừ, gầm gừ, chuột sợ chạy mất dép.",
+        "Còn hôm nào chưa bắt được, mèo cứ ngồi rung râu mà kêu: Nghèo, nghèo, nghèo!",
+        "Nhưng ngồi mãi, mèo nghĩ lại thấy giận vua Bếp lắm.",
+        "Tại vua Bếp mà mèo phải rời nhà Trời xuống đây.",
+        "Giận thì giận, mèo chẳng làm gì được vua Bếp,",
+        "thỉnh thoảng chỉ vào bếp bới tung đống tro lên cho bõ tức."
+      ],
+      "image": {
+        "character": "con-meo",
+        "prompt": "in a cozy village kitchen the tabby cat sits by a rice basket meowing, a mouse runs away into a hole, then the cat scratches playfully in the grey ash beside the clay stove with a sulky face",
+        "seed": 252274515
+      },
+      "video": {
+        "motionPrompt": "the cat meows with its mouth wide, the mouse scurries off, the cat scratches the ash pile and a soft puff of grey dust rises, comic grumpy mood",
+        "seed": 1695849382
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Hoá ra vì thế mà mèo hay kêu “nghèo, nghèo”, lại hay bới tro trong bếp các bạn ạ. Còn chú chuột thì vì tham ăn, không giữ lời hứa, mà mất cả chỗ ở trên Trời. Được giao giữ đồ gì, mình phải giữ cho cẩn thận, đừng lấy làm của riêng nhé. Miu thì hứa không bới tro bếp đâu! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Hoá ra vì thế mà mèo hay kêu “nghèo, nghèo”, lại hay bới tro trong bếp các bạn ạ.",
+        "Còn chú chuột thì vì tham ăn, không giữ lời hứa, mà mất cả chỗ ở trên Trời.",
+        "Được giao giữ đồ gì, mình phải giữ cho cẩn thận, đừng lấy làm của riêng nhé.",
+        "Miu thì hứa không bới tro bếp đâu! Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye beside the clay stove with a cheeky smile, the tabby cat naps by the rice basket and a tiny mouse peeks from its hole",
+        "seed": 1543974363
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and winks, the tabby cat yawns, the little mouse ducks back into its hole, the fire glows warmly, gentle camera pull-back",
+        "seed": 2883794593
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful Vietnamese folk tune, dan bau monochord and bamboo flute with light wooden clappers and tiny bells, mischievous and comic, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2318433416
+  }
+}

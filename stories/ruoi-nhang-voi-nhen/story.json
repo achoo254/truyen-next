@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "slug": "ruoi-nhang-voi-nhen",
+  "shelf": "kids",
+  "title": "Ruồi, nhặng với nhện",
+  "summary": "Hai anh em ruồi nhặng tham ăn, đi đâu cũng bị đuổi, bèn quỳ xin nhện cho ở nhờ trong nhà người. Nhện tha cho, dặn bớt tính tham, nhưng hai anh em chứng nào tật nấy. Vì sao nhà nào cũng phải đậy mâm cơm, phe phẩy quạt, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Ruồi, nhặng với nhện» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách; lá đơn được kể lại bằng lời mới. Bản cho trẻ nhỏ: các lần gặp nạn kể thành bị đuổi, bị dọa; đoạn cuối nhện bắt ăn ruồi nhặng được kể là nhện lại giăng lưới khắp nơi, hai anh em sa vào là dính chặt. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, a cosy old Vietnamese village house with a wooden tray table and bamboo fans, gardens and buffalo sheds, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 582300409,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ruoi-nhang",
+      "name": "Ruồi và nhặng",
+      "seed": 995849068,
+      "sheetPrompt": "two tiny cartoon flies side by side, one small grey housefly and one shiny blue-green bottle fly, big round eyes, cheeky greedy grins, cute and comical, not gross, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nhen",
+      "name": "Ông nhện",
+      "seed": 1673818236,
+      "sheetPrompt": "a round friendly brown house spider with eight short legs, wearing tiny round glasses, sitting on a neat web, wise and strict, cute and not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "to-vo",
+      "name": "Bác tò vò",
+      "seed": 515538560,
+      "sheetPrompt": "a slim friendly potter wasp with a narrow waist and yellow-black stripes, holding a tiny scroll and brush, kind, cute, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Ở nhà các bạn, mỗi lần dọn cơm xong, mẹ có dặn: Đậy lại kẻo ruồi đấy, không? Vì sao ruồi nhặng lại bị mọi người xua đuổi như thế nhỉ? Ngày xưa có hẳn một câu chuyện về chuyện này đấy. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Ở nhà các bạn, mỗi lần dọn cơm xong, mẹ có dặn: Đậy lại kẻo ruồi đấy, không?",
+        "Vì sao ruồi nhặng lại bị mọi người xua đuổi như thế nhỉ?",
+        "Ngày xưa có hẳn một câu chuyện về chuyện này đấy.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits at a low wooden tray table in a cosy Vietnamese kitchen, covering a bowl of rice with a woven bamboo lid, a picture book beside her",
+        "seed": 797322285
+      },
+      "video": {
+        "motionPrompt": "the cat places the bamboo lid gently over the rice, warm steam curls, light dances through the window, slow camera push-in",
+        "seed": 1459649629
+      },
+      "voice": {}
+    },
+    {
+      "id": "tham-an",
+      "title": "Hai anh em tham ăn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có hai anh em ruồi và nhặng. Người thì bé tí, mà bụng thì tham lắm. Thấy chỗ nào có đồ ăn là sà vào liếm láp, chỗ nào hôi hám lại càng thích. Vì thế, ai cũng ghét. Vào nhà, ông nhện giăng lưới chờ sẵn. Chạy ra chuồng trâu, gặp lúc trâu bò húc nhau, suýt nữa thì bị dẫm bẹp. Ra vườn, ra đồng, thì chim sáo, chim sâu, chuồn chuồn, bọ ngựa đuổi theo đớp, hai anh em chạy bở hơi tai.",
+      "subtitles": [
+        "Ngày xưa có hai anh em ruồi và nhặng. Người thì bé tí, mà bụng thì tham lắm.",
+        "Thấy chỗ nào có đồ ăn là sà vào liếm láp, chỗ nào hôi hám lại càng thích.",
+        "Vì thế, ai cũng ghét. Vào nhà, ông nhện giăng lưới chờ sẵn.",
+        "Chạy ra chuồng trâu, gặp lúc trâu bò húc nhau, suýt nữa thì bị dẫm bẹp.",
+        "Ra vườn, ra đồng, thì chim sáo, chim sâu, chuồn chuồn, bọ ngựa đuổi theo đớp,",
+        "hai anh em chạy bở hơi tai."
+      ],
+      "image": {
+        "character": "ruoi-nhang",
+        "prompt": "two tiny cartoon flies zoom away in a panic past a buffalo shed where two buffaloes bump heads playfully, a myna bird, a dragonfly and a praying mantis chase after them in a garden, comical and light",
+        "seed": 3044903597
+      },
+      "video": {
+        "motionPrompt": "the two flies zigzag wildly, the buffaloes bump horns, the myna snaps its beak at empty air, the dragonfly darts after them, comic chase",
+        "seed": 786362668
+      },
+      "voice": {}
+    },
+    {
+      "id": "lam-don",
+      "title": "Nhờ bác tò vò viết đơn",
+      "narrator": "ke-chuyen",
+      "narration": "Mệt quá, hai anh em tìm đến tổ bác tò vò mà kêu khổ. Bác tò vò bảo: Ta biết làm sao bây giờ? Ta chỉ quen ông nhện thôi. Thôi thì ta viết giúp các anh lá đơn, các anh đến quỳ xin ông nhện, may ra ông thương mà cho ở nhờ trong nhà người ta. Bác tò vò cặm cụi viết: Thân em nhỏ bé, giữa trời đất chẳng biết nương đâu. Ông nhện nhà cao cửa rộng, xin rủ lòng thương.",
+      "subtitles": [
+        "Mệt quá, hai anh em tìm đến tổ bác tò vò mà kêu khổ.",
+        "Bác tò vò bảo: Ta biết làm sao bây giờ? Ta chỉ quen ông nhện thôi.",
+        "Thôi thì ta viết giúp các anh lá đơn, các anh đến quỳ xin ông nhện,",
+        "may ra ông thương mà cho ở nhờ trong nhà người ta.",
+        "Bác tò vò cặm cụi viết: Thân em nhỏ bé, giữa trời đất chẳng biết nương đâu.",
+        "Ông nhện nhà cao cửa rộng, xin rủ lòng thương."
+      ],
+      "image": {
+        "character": "to-vo",
+        "prompt": "a slim potter wasp sits at her round clay nest writing on a tiny scroll with a little brush, the two tired cartoon flies sit before her looking pitiful and hopeful",
+        "seed": 2586263963
+      },
+      "video": {
+        "motionPrompt": "the wasp writes carefully with small brush strokes, the flies wipe their eyes and lean in to look, a leaf sways in the breeze",
+        "seed": 2858586510
+      },
+      "voice": {}
+    },
+    {
+      "id": "xin-nhen",
+      "title": "Quỳ xin ông nhện",
+      "narrator": "ke-chuyen",
+      "narration": "Hai anh em đội lá đơn trên đầu, đến trước lưới nhện quỳ xuống, khóc oa oa thật to. Ông nhện mở đơn ra đọc, thấy hai anh em bé nhỏ, cũng thương tình. Ông bảo: Thôi được, ta cho ở. Nhưng từ nay phải bớt cái tính tham ăn đi, đừng làm phiền người ta nữa. Ruồi nhặng rối rít cảm ơn, hứa sẽ sửa tính, rồi mừng rỡ bay vào nhà.",
+      "subtitles": [
+        "Hai anh em đội lá đơn trên đầu, đến trước lưới nhện quỳ xuống, khóc oa oa thật to.",
+        "Ông nhện mở đơn ra đọc, thấy hai anh em bé nhỏ, cũng thương tình.",
+        "Ông bảo: Thôi được, ta cho ở.",
+        "Nhưng từ nay phải bớt cái tính tham ăn đi, đừng làm phiền người ta nữa.",
+        "Ruồi nhặng rối rít cảm ơn, hứa sẽ sửa tính, rồi mừng rỡ bay vào nhà."
+      ],
+      "image": {
+        "character": "nhen",
+        "prompt": "the two tiny flies kneel before a neat spider web in a house corner, holding a little scroll above their heads and crying big cartoon tears, the round spider with tiny glasses reads the scroll kindly",
+        "seed": 2514738030
+      },
+      "video": {
+        "motionPrompt": "the flies bow up and down crying, the spider unrolls the scroll and adjusts his glasses, then nods slowly, the flies jump up happily",
+        "seed": 3692201087
+      },
+      "voice": {}
+    },
+    {
+      "id": "chung-nao-tat-nay",
+      "title": "Chứng nào tật nấy",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng chỉ được ít lâu, hai anh em lại chứng nào tật nấy, còn tham hơn trước. Người ta dọn cơm, chẳng đậu vào đĩa thức ăn thì bò vào bát cơm. Người ta nằm ngủ, lại vo ve quanh mặt. Thế nên mẹ nào cũng dặn con: Có gì thì đậy lại, kẻo ruồi nhặng. Anh nào cũng bảo em: Phe phẩy quạt đi em. Người ta cầm quạt, cầm chổi xua đuổi suốt ngày. Còn ông nhện, thấy hai anh em không giữ lời, liền giăng lưới khắp nơi. Ruồi nhặng sà vào là dính chặt.",
+      "subtitles": [
+        "Nhưng chỉ được ít lâu, hai anh em lại chứng nào tật nấy, còn tham hơn trước.",
+        "Người ta dọn cơm, chẳng đậu vào đĩa thức ăn thì bò vào bát cơm.",
+        "Người ta nằm ngủ, lại vo ve quanh mặt.",
+        "Thế nên mẹ nào cũng dặn con: Có gì thì đậy lại, kẻo ruồi nhặng.",
+        "Anh nào cũng bảo em: Phe phẩy quạt đi em. Người ta cầm quạt, cầm chổi xua đuổi suốt ngày.",
+        "Còn ông nhện, thấy hai anh em không giữ lời, liền giăng lưới khắp nơi.",
+        "Ruồi nhặng sà vào là dính chặt."
+      ],
+      "image": {
+        "character": "ruoi-nhang",
+        "prompt": "in a cosy Vietnamese house, a mother covers dishes with a bamboo lid, a big brother waves a palm-leaf fan over his sleeping little sister, the two cheeky flies buzz around, the spider spins new webs in every corner",
+        "seed": 2447512673
+      },
+      "video": {
+        "motionPrompt": "the flies buzz around the tray, the fan swishes back and forth, the bamboo lid comes down, the spider spins quickly, a fly gets stuck in the web and wiggles, comic",
+        "seed": 1377472254
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, ruồi nhặng đã hứa sửa tính mà không giữ lời, nên đến giờ vẫn bị mọi người xua đuổi. Còn mình thì nhớ nhé: đã hứa là phải làm, và ăn uống thì phải sạch sẽ, gọn gàng. Lúc ăn cơm xong, các bạn nhớ giúp mẹ đậy thức ăn lại nha. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, ruồi nhặng đã hứa sửa tính mà không giữ lời,",
+        "nên đến giờ vẫn bị mọi người xua đuổi.",
+        "Còn mình thì nhớ nhé: đã hứa là phải làm, và ăn uống thì phải sạch sẽ, gọn gàng.",
+        "Lúc ăn cơm xong, các bạn nhớ giúp mẹ đậy thức ăn lại nha.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at a clean wooden table with covered dishes under a bamboo lid and a palm-leaf fan, the spider waves from his web in the corner",
+        "seed": 650044648
+      },
+      "video": {
+        "motionPrompt": "the cat waves and fans gently, the spider waves a little leg, sunlight streams through the window, gentle camera pull-back",
+        "seed": 3062009269
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light playful Vietnamese folk melody, bamboo flute, dan nguyet and soft wooden clappers with buzzing-like pizzicato, cheeky then gentle, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 978533836
+  }
+}

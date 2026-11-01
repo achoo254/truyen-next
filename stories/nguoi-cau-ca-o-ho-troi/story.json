@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "slug": "nguoi-cau-ca-o-ho-troi",
+  "shelf": "adults",
+  "title": "Người câu cá ở hồ Trời",
+  "summary": "Một người nghèo cả đời đi câu, một sáng tò mò ghé hồ Trời ở Quảng Bình và tận mắt thấy đoàn thuyền rồng của thủy thần trồi lên từ đáy nước. Ông được tha, được tặng nồi đồng tự nấu ra cơm và một trăm năm tuổi thọ, với một điều kiện: không bao giờ được kể lại điều mình đã thấy.",
+  "themes": [
+    "than-thoai",
+    "thien-nhien",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam, truyện số 21 «Le pêcheur de l'étang céleste» trong Contes et légendes annamites của A. Landes (Sài Gòn, 1886), sách thuộc phạm vi công cộng. Lời kể viết mới hoàn toàn bằng tiếng Việt, chỉ theo cốt truyện Landes chép lại; không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Việt Nam, A. Landes chép (1886)",
+  "style": "classical Vietnamese silk painting (tranh lua) illustration, fine ink linework, washes of deep teal, jade green, vermilion and gold on aged silk, a vast deep mountain lake in Quang Binh ringed by reeds and thickets, dragon boats and parasols rising from the water, wondrous and solemn mood for adult readers, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "ngu-ong",
+      "name": "Người câu cá",
+      "sheetPrompt": "a poor Vietnamese fisherman, lean sun-browned man in his forties, simple patched brown tunic and rolled trousers, conical palm leaf hat, carrying a long bamboo fishing rod and a small woven fish basket, humble honest face, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 815631547
+    },
+    {
+      "id": "than-ho",
+      "name": "Vị chúa hồ Trời",
+      "sheetPrompt": "a majestic water deity lord in flowing red silk robes embroidered with golden waves, tall winged official hat, long black beard, stern but fair face, holding a speaking horn, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 978222409
+    },
+    {
+      "id": "ong-lao",
+      "name": "Ông lão chín mươi tuổi",
+      "sheetPrompt": "the same fisherman at ninety years old, white hair and long white beard, a wrinkled kind face, a fine dark blue silk tunic of a prosperous elder, leaning on a cane, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 3497611163
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ho-troi",
+      "title": "Hồ Trời",
+      "narrator": "ke-chuyen",
+      "narration": "Ở tỉnh Quảng Bình có một cái hồ rộng mênh mông, người ta gọi là hồ Trời. Đi vòng quanh bờ hồ phải mất trọn một ngày. Nước hồ sâu thăm thẳm, không ai biết sâu đến mấy trăm sải. Quanh bờ, lau sậy và bụi rậm mọc um tùm, mặt nước lúc nào cũng lặng như tờ. Ở một làng ven biển gần đó có một người đàn ông nghèo khó suốt đời. Ông chẳng có nghề gì khác ngoài nghề câu cá. Ngày ngày ông vác cần ra biển, buông câu từ sáng tới chiều, được con cá nào thì đổi gạo con cá ấy, đắp đổi qua ngày.",
+      "subtitles": [
+        "Ở tỉnh Quảng Bình có một cái hồ rộng mênh mông, người ta gọi là hồ Trời.",
+        "Đi vòng quanh bờ hồ phải mất trọn một ngày.",
+        "Nước hồ sâu thăm thẳm, không ai biết sâu đến mấy trăm sải.",
+        "Quanh bờ, lau sậy và bụi rậm mọc um tùm, mặt nước lúc nào cũng lặng như tờ.",
+        "Ở một làng ven biển gần đó có một người đàn ông nghèo khó suốt đời.",
+        "Ông chẳng có nghề gì khác ngoài nghề câu cá.",
+        "Ngày ngày ông vác cần ra biển, buông câu từ sáng tới chiều,",
+        "được con cá nào thì đổi gạo con cá ấy, đắp đổi qua ngày."
+      ],
+      "image": {
+        "prompt": "a vast deep mountain lake surrounded by reeds, thickets and green hills at dawn, mist on the dark water, and on a distant coast a poor fisherman casting a line from the rocks",
+        "seed": 146871891,
+        "character": "ngu-ong"
+      },
+      "video": {
+        "motionPrompt": "morning mist drifts over the still dark lake, reeds sway, far away the fisherman flicks his rod toward the sea",
+        "seed": 1141960849
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-tren-ho",
+      "title": "Một buổi câu không cá",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, chẳng hiểu sao ông lại nảy ra ý muốn bỏ biển, sang hồ Trời câu thử xem có được gì không. Ông đi từ tinh mơ, tới hồ khi mặt trời vừa lên. Ông ngồi trên bờ, buông câu, chờ mãi. Phao câu cứ nằm im trên mặt nước phẳng lặng như gương. Cả buổi sáng trôi qua mà ông chẳng được lấy một con cá nhỏ. Nắng mỗi lúc một gắt, ông mệt, bèn thu cần, chui vào một lùm cây rậm bên bờ hồ ngồi nghỉ cho mát.",
+      "subtitles": [
+        "Một hôm, chẳng hiểu sao ông lại nảy ra ý muốn bỏ biển,",
+        "sang hồ Trời câu thử xem có được gì không.",
+        "Ông đi từ tinh mơ, tới hồ khi mặt trời vừa lên.",
+        "Ông ngồi trên bờ, buông câu, chờ mãi.",
+        "Phao câu cứ nằm im trên mặt nước phẳng lặng như gương.",
+        "Cả buổi sáng trôi qua mà ông chẳng được lấy một con cá nhỏ.",
+        "Nắng mỗi lúc một gắt, ông mệt, bèn thu cần,",
+        "chui vào một lùm cây rậm bên bờ hồ ngồi nghỉ cho mát."
+      ],
+      "image": {
+        "prompt": "the fisherman sitting alone on the grassy shore of the vast lake with his line in still mirror-like water, harsh midday sun, then crawling into a dense thicket to rest in the shade",
+        "seed": 3238124281,
+        "character": "ngu-ong"
+      },
+      "video": {
+        "motionPrompt": "the float rests motionless on glassy water, heat shimmers in the air, the man slowly rises and slips into the thicket",
+        "seed": 3995501848
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhung-ke-canh-ho",
+      "title": "Những kẻ canh hồ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngồi trong lùm cây, ông đưa mắt nhìn ra hồ. Bỗng mặt nước rẽ ra, hai người khổng lồ bước lên bờ, đầu quấn khăn, mình mặc áo đỏ, tay cầm gươm, mặt mũi dữ tợn. Ông sợ quá, nép sát vào bụi rậm, không dám thở mạnh. Hai kẻ ấy đảo mắt nhìn quanh một lúc rồi lại lặn xuống nước. Chưa kịp hoàn hồn, ông lại thấy mười người khác trồi lên, áo đủ các màu, tay cũng cầm gươm, đi tuần một vòng quanh bờ hồ, rồi cũng lặn mất.",
+      "subtitles": [
+        "Ngồi trong lùm cây, ông đưa mắt nhìn ra hồ.",
+        "Bỗng mặt nước rẽ ra, hai người khổng lồ bước lên bờ, đầu quấn khăn, mình mặc áo đỏ,",
+        "tay cầm gươm, mặt mũi dữ tợn.",
+        "Ông sợ quá, nép sát vào bụi rậm, không dám thở mạnh.",
+        "Hai kẻ ấy đảo mắt nhìn quanh một lúc rồi lại lặn xuống nước.",
+        "Chưa kịp hoàn hồn, ông lại thấy mười người khác trồi lên, áo đủ các màu,",
+        "tay cũng cầm gươm, đi tuần một vòng quanh bờ hồ, rồi cũng lặn mất."
+      ],
+      "image": {
+        "prompt": "from inside a dark thicket, view of two giant guards in red robes and turbans holding swords rising from the lake, then ten more guards in robes of many colors patrolling the shore",
+        "seed": 521584978
+      },
+      "video": {
+        "motionPrompt": "the water parts and the giants rise slowly, droplets falling, they scan the shore, then sink back beneath ripples",
+        "seed": 2717934567
+      },
+      "voice": {}
+    },
+    {
+      "id": "doan-thuyen-rong",
+      "title": "Đoàn thuyền rồng",
+      "narrator": "ke-chuyen",
+      "narration": "Người câu cá run lẩy bẩy nhưng vẫn không rời mắt. Rồi từ đáy hồ, ba mươi chiếc thuyền chạm hình rồng nối nhau nổi lên. Giữa đoàn là một chiếc thuyền dát vàng, che lọng, cắm cờ rực rỡ. Trên thuyền vàng có ba vị chúa mặc áo đỏ, cầm loa chỉ huy các thuyền khác. Lính chèo vừa chèo vừa hát, tiếng hát vang khắp mặt hồ. Thuyền cập bờ, quân lính khiêng ba chiếc kiệu lên, trống đánh rộn ràng, cờ phất phới.",
+      "subtitles": [
+        "Người câu cá run lẩy bẩy nhưng vẫn không rời mắt.",
+        "Rồi từ đáy hồ, ba mươi chiếc thuyền chạm hình rồng nối nhau nổi lên.",
+        "Giữa đoàn là một chiếc thuyền dát vàng, che lọng, cắm cờ rực rỡ.",
+        "Trên thuyền vàng có ba vị chúa mặc áo đỏ, cầm loa chỉ huy các thuyền khác.",
+        "Lính chèo vừa chèo vừa hát, tiếng hát vang khắp mặt hồ.",
+        "Thuyền cập bờ, quân lính khiêng ba chiếc kiệu lên, trống đánh rộn ràng, cờ phất phới."
+      ],
+      "image": {
+        "prompt": "thirty carved dragon boats rising from the deep lake in a grand procession, a golden boat in the middle under parasols and bright banners, three lords in red robes with speaking horns, soldiers rowing and carrying palanquins to the shore",
+        "seed": 3149863516,
+        "character": "than-ho"
+      },
+      "video": {
+        "motionPrompt": "dragon boats emerge one after another, oars dip in rhythm, banners flutter, drums beat as palanquins are lifted ashore",
+        "seed": 65027838
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-bat",
+      "title": "Bị bắt",
+      "narrator": "ke-chuyen",
+      "narration": "Ngồi trong bụi rậm, ông không nhìn rõ họ đang làm gì. Mải mê cảnh lạ, ông quên cả sợ, bò ra chỗ trống cho dễ xem. Ngay lập tức, các vị chúa trên thuyền vàng trông thấy ông, sai lính tới bắt ông giải đến. Vị chúa hỏi: \"Ngươi đến đây từ bao giờ?\" Ông run run thưa: \"Tôi là người câu cá, xưa nay vẫn câu ngoài biển. Chẳng hiểu sao sáng nay tôi lại muốn đến đây. Câu suốt buổi không được gì, trời nắng quá, tôi vào bụi cây nghỉ.\"",
+      "subtitles": [
+        "Ngồi trong bụi rậm, ông không nhìn rõ họ đang làm gì.",
+        "Mải mê cảnh lạ, ông quên cả sợ, bò ra chỗ trống cho dễ xem.",
+        "Ngay lập tức, các vị chúa trên thuyền vàng trông thấy ông, sai lính tới bắt ông giải đến.",
+        "Vị chúa hỏi: \"Ngươi đến đây từ bao giờ?\"",
+        "Ông run run thưa: \"Tôi là người câu cá, xưa nay vẫn câu ngoài biển.",
+        "Chẳng hiểu sao sáng nay tôi lại muốn đến đây.",
+        "Câu suốt buổi không được gì, trời nắng quá, tôi vào bụi cây nghỉ.\""
+      ],
+      "image": {
+        "prompt": "soldiers in colorful uniforms dragging the frightened fisherman before the golden dragon boat, the lord in red robes looking down sternly from beneath a parasol, other boats lined along the shore",
+        "seed": 4194778679,
+        "character": "ngu-ong"
+      },
+      "video": {
+        "motionPrompt": "soldiers march the trembling man forward, the parasol sways, the lord leans forward to question him",
+        "seed": 1301593486
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-giao-uoc",
+      "title": "Lời giao ước",
+      "narrator": "ke-chuyen",
+      "narration": "Ông kể tiếp: \"Tôi thấy hai lần những người mặt mũi dữ tợn lên nhìn quanh mà không thấy tôi. Tôi sợ, không dám ló ra. Nhưng thấy cảnh đẹp quá, tôi mới bước ra xem. Xin ngài tha tội.\" Vị chúa nói: \"Được, ta tha cho ngươi về. Nhưng ngươi phải há miệng nuốt một lưỡi gươm hai đầu đều sắc. Ngươi sẽ sống trăm tuổi, miễn là không được kể với ai những gì đã thấy. Nếu kể, lưỡi gươm sẽ đâm ra khỏi mình ngươi, và ngươi sẽ chết.\"",
+      "subtitles": [
+        "Ông kể tiếp:",
+        "\"Tôi thấy hai lần những người mặt mũi dữ tợn lên nhìn quanh mà không thấy tôi.",
+        "Tôi sợ, không dám ló ra.",
+        "Nhưng thấy cảnh đẹp quá, tôi mới bước ra xem.",
+        "Xin ngài tha tội.\"",
+        "Vị chúa nói: \"Được, ta tha cho ngươi về.",
+        "Nhưng ngươi phải há miệng nuốt một lưỡi gươm hai đầu đều sắc.",
+        "Ngươi sẽ sống trăm tuổi, miễn là không được kể với ai những gì đã thấy.",
+        "Nếu kể, lưỡi gươm sẽ đâm ra khỏi mình ngươi, và ngươi sẽ chết.\""
+      ],
+      "image": {
+        "prompt": "the lord in red robes holding out a slender double-edged blade glowing with silver light toward the kneeling fisherman, who opens his mouth fearfully, magic mist swirling around them",
+        "seed": 2095041297,
+        "character": "than-ho"
+      },
+      "video": {
+        "motionPrompt": "the blade glows and shrinks into a ray of silver light that drifts toward the kneeling man, mist curls around them",
+        "seed": 2310649858
+      },
+      "voice": {}
+    },
+    {
+      "id": "noi-dong",
+      "title": "Chiếc nồi đồng",
+      "narrator": "ke-chuyen",
+      "narration": "Vị chúa lại ban thêm: \"Ta cho ngươi chiếc nồi đồng này. Mỗi ngày ba bữa, ngươi chỉ việc đổ nước vào, gạo tự khắc có trong nồi. Ngươi không phải đi câu kiếm ăn nữa, và sẽ sống đến trăm tuổi mới chết.\" Rồi vị chúa quay sang, ra lệnh chém đầu những tên lính tuần quanh hồ, phạt chúng tội canh gác lơ là để người phàm nhìn thấy. Người câu cá ôm chiếc nồi đồng, lủi thủi trở về làng, không dám ngoái đầu nhìn lại.",
+      "subtitles": [
+        "Vị chúa lại ban thêm: \"Ta cho ngươi chiếc nồi đồng này.",
+        "Mỗi ngày ba bữa, ngươi chỉ việc đổ nước vào, gạo tự khắc có trong nồi.",
+        "Ngươi không phải đi câu kiếm ăn nữa, và sẽ sống đến trăm tuổi mới chết.\"",
+        "Rồi vị chúa quay sang, ra lệnh chém đầu những tên lính tuần quanh hồ,",
+        "phạt chúng tội canh gác lơ là để người phàm nhìn thấy.",
+        "Người câu cá ôm chiếc nồi đồng, lủi thủi trở về làng, không dám ngoái đầu nhìn lại."
+      ],
+      "image": {
+        "prompt": "the fisherman walking home along a country path at dusk carrying a gleaming copper pot in his arms, behind him the vast lake swallowing the last dragon boats in mist",
+        "seed": 3516729329,
+        "character": "ngu-ong"
+      },
+      "video": {
+        "motionPrompt": "the man walks steadily along the path, the copper pot gleams, behind him the boats slowly sink into the misty lake",
+        "seed": 4029442677
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuoc-song-moi",
+      "title": "Giữ kín suốt đời",
+      "narrator": "ke-chuyen",
+      "narration": "Từ hôm đó, chiếc nồi đồng nuôi ông đủ ba bữa mỗi ngày. Chỉ cần đổ nước vào, mở vung ra đã thấy gạo. Ông thôi nghề câu, nhà cửa mỗi ngày một khá giả, con cháu đông đúc. Năm này qua năm khác, ông sống đến chín mươi tuổi mà vẫn chưa hề hé môi với ai, kể cả vợ con, về chuyện đã thấy ở hồ Trời năm ấy.",
+      "subtitles": [
+        "Từ hôm đó, chiếc nồi đồng nuôi ông đủ ba bữa mỗi ngày.",
+        "Chỉ cần đổ nước vào, mở vung ra đã thấy gạo.",
+        "Ông thôi nghề câu, nhà cửa mỗi ngày một khá giả, con cháu đông đúc.",
+        "Năm này qua năm khác, ông sống đến chín mươi tuổi mà vẫn chưa hề hé môi với ai,",
+        "kể cả vợ con, về chuyện đã thấy ở hồ Trời năm ấy."
+      ],
+      "image": {
+        "prompt": "a prosperous Vietnamese family home with tiled roof, the old white-haired man pouring water into a copper pot on the hearth while grandchildren play around him, rice glimmering inside the pot",
+        "seed": 814574622,
+        "character": "ong-lao"
+      },
+      "video": {
+        "motionPrompt": "water pours into the copper pot, steam rises and rice appears inside, children run laughing past the hearth",
+        "seed": 2892750557
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-ke-cuoi",
+      "title": "Lời kể cuối cùng",
+      "narrator": "ke-chuyen",
+      "narration": "Một ngày giỗ, cả nhà sum họp quanh bàn thờ tổ tiên, ông lão ngồi nhìn con cháu mà nghĩ: \"Ta đã chín mươi tuổi, sống thế là thọ lắm rồi. Nhà đã giàu, con cháu đã đông, ta còn ham sống thêm làm gì nữa. Thôi thì kể chuyện này cho con cháu biết. Lưỡi gươm có đâm ra mà chết thì cũng đành.\" Rồi ông kể hết đầu đuôi. Ông vừa dứt lời thì gục xuống mà chết. Từ đó hồ Trời được dân quanh vùng kính sợ, không còn ai dám đến đó câu cá nữa. Người ta bảo dưới đáy hồ sâu kia là cõi riêng của thần, người trần chớ nên dòm ngó.",
+      "subtitles": [
+        "Một ngày giỗ, cả nhà sum họp quanh bàn thờ tổ tiên, ông lão ngồi nhìn con cháu mà nghĩ:",
+        "\"Ta đã chín mươi tuổi, sống thế là thọ lắm rồi.",
+        "Nhà đã giàu, con cháu đã đông, ta còn ham sống thêm làm gì nữa.",
+        "Thôi thì kể chuyện này cho con cháu biết.",
+        "Lưỡi gươm có đâm ra mà chết thì cũng đành.\"",
+        "Rồi ông kể hết đầu đuôi.",
+        "Ông vừa dứt lời thì gục xuống mà chết.",
+        "Từ đó hồ Trời được dân quanh vùng kính sợ, không còn ai dám đến đó câu cá nữa.",
+        "Người ta bảo dưới đáy hồ sâu kia là cõi riêng của thần, người trần chớ nên dòm ngó."
+      ],
+      "image": {
+        "prompt": "an ancestral altar with incense and offerings, the ninety-year-old man seated among his large family telling a story with a calm face, then the vast misty lake in the distance, empty and untouched",
+        "seed": 3633576810,
+        "character": "ong-lao"
+      },
+      "video": {
+        "motionPrompt": "incense smoke curls upward, family members lean in to listen, the scene fades to the silent misty lake with no boats",
+        "seed": 1899410003
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "mystical Vietnamese instrumental, dan bau and dan nguyet with deep temple drums and distant ceremonial gongs, rippling lake water ambience, wondrous then peaceful and solemn, slow tempo, no vocals",
+    "durationSeconds": 180,
+    "seed": 3458446443
+  }
+}
