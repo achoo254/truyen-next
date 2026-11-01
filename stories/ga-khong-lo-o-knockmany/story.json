@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "slug": "ga-khong-lo-o-knockmany",
+  "shelf": "world",
+  "title": "Gã khổng lồ ở đồi Knockmany",
+  "summary": "Gã khổng lồ Fin M'Coul run sợ khi nghe tin Cucullin, gã khổng lồ mạnh nhất Ireland, đang tới tìm mình. Nhưng nàng Oonagh, vợ Fin, đã có một kế thật khôn: bánh mì nướng giấu chảo sắt và một em bé trong nôi. Truyện dân gian Ireland vui nhộn, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "ngu-ngon",
+    "anh-hung"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Ireland \"A Legend of Knockmany\" trong tuyển tập Celtic Fairy Tales của Joseph Jacobs (1892), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện gốc, kể nhẹ đoạn kết (Cucullin mất sức mạnh và bỏ đi), không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Ireland (Joseph Jacobs, 1892)",
+  "style": "classic European children picture book illustration in the style of early twentieth century Irish fairy tale books, soft watercolor and ink, windswept green Irish hills, a cozy stone cottage on a hilltop, comical friendly giants, warm humorous mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "fin",
+      "name": "Fin M'Coul",
+      "sheetPrompt": "Fin M'Coul, a big friendly Irish giant with a ginger beard and a worried kind face, a green tunic and brown cloak, carrying a whole fir tree as a walking stick, full body, front view, plain light background, character reference sheet",
+      "seed": 3360718779
+    },
+    {
+      "id": "oonagh",
+      "name": "Oonagh",
+      "sheetPrompt": "Oonagh, a clever cheerful Irish giantess with red braids, a long blue dress and a white apron, three braided woollen threads on her wrist, hands on her hips with a confident smile, full body, front view, plain light background, character reference sheet",
+      "seed": 2794271472
+    },
+    {
+      "id": "cucullin",
+      "name": "Cucullin",
+      "sheetPrompt": "Cucullin, a huge burly Irish giant with a bushy black beard, a fur-trimmed brown tunic, big boots, a round flat metal pancake-shaped disc tucked in his belt, comical rather than scary, full body, front view, plain light background, character reference sheet",
+      "seed": 2803881226
+    }
+  ],
+  "scenes": [
+    {
+      "id": "fin-ve-nha",
+      "title": "Fin về nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở Ireland có gã khổng lồ Fin M'Coul, khỏe nổi tiếng khắp vùng. Hồi ấy, Fin cùng anh em đang xếp đá làm một con đường bắc qua biển sang xứ Scotland. Bỗng Fin nghe tin gã khổng lồ Cucullin đang tới tìm mình để đọ sức. Fin bỗng thấy nhớ vợ ghê gớm. Chàng nhổ bật một cây thông, tước hết cành làm gậy chống, rồi rảo bước về nhà trên đỉnh đồi Knockmany, nơi nàng Oonagh đang đợi. Ai cũng hỏi sao Fin lại làm nhà trên đỉnh đồi lộng gió thế. Fin bảo để ngắm cảnh cho đẹp. Thật ra là để nhìn thấy Cucullin từ xa.",
+      "subtitles": [
+        "Ngày xưa, ở Ireland có gã khổng lồ Fin M'Coul, khỏe nổi tiếng khắp vùng.",
+        "Hồi ấy, Fin cùng anh em đang xếp đá làm một con đường bắc qua biển sang xứ Scotland.",
+        "Bỗng Fin nghe tin gã khổng lồ Cucullin đang tới tìm mình để đọ sức.",
+        "Fin bỗng thấy nhớ vợ ghê gớm. Chàng nhổ bật một cây thông, tước hết cành làm gậy chống,",
+        "rồi rảo bước về nhà trên đỉnh đồi Knockmany, nơi nàng Oonagh đang đợi.",
+        "Ai cũng hỏi sao Fin lại làm nhà trên đỉnh đồi lộng gió thế.",
+        "Fin bảo để ngắm cảnh cho đẹp. Thật ra là để nhìn thấy Cucullin từ xa."
+      ],
+      "image": {
+        "prompt": "a big friendly giant with a ginger beard striding over green hills using a whole fir tree as a walking stick, a causeway of hexagonal stone columns stretching into the sea behind him, a cottage on a windy hilltop ahead",
+        "seed": 2727926353,
+        "character": "fin"
+      },
+      "video": {
+        "motionPrompt": "the giant strides over the hills, the fir tree stick thumps the ground, clouds race across the sky",
+        "seed": 2628327561
+      },
+      "voice": {}
+    },
+    {
+      "id": "ga-cucullin",
+      "title": "Gã Cucullin",
+      "narrator": "ke-chuyen",
+      "narration": "Cucullin là gã khổng lồ to lớn nhất thời ấy. Gã giậm chân một cái là cả vùng đất rung rinh. Gã từng đấm một tiếng sét bẹp dí như cái bánh rán, rồi nhét vào túi để khoe với ai muốn đọ sức. Sức mạnh của gã nằm cả ở ngón tay giữa của bàn tay phải. Mất sức ở ngón ấy thì gã chẳng hơn gì người thường. Fin ngậm ngón tay cái, vì mỗi lần ngậm ngón cái là Fin biết được chuyện sắp tới. “Hắn đến rồi,” Fin rên lên. “Chiều mai, khoảng hai giờ, hắn sẽ tới đây. Bỏ chạy thì xấu hổ, mà đánh thì ta thua mất!”",
+      "subtitles": [
+        "Cucullin là gã khổng lồ to lớn nhất thời ấy.",
+        "Gã giậm chân một cái là cả vùng đất rung rinh.",
+        "Gã từng đấm một tiếng sét bẹp dí như cái bánh rán,",
+        "rồi nhét vào túi để khoe với ai muốn đọ sức.",
+        "Sức mạnh của gã nằm cả ở ngón tay giữa của bàn tay phải.",
+        "Mất sức ở ngón ấy thì gã chẳng hơn gì người thường.",
+        "Fin ngậm ngón tay cái, vì mỗi lần ngậm ngón cái là Fin biết được chuyện sắp tới.",
+        "“Hắn đến rồi,” Fin rên lên. “Chiều mai, khoảng hai giờ, hắn sẽ tới đây.",
+        "Bỏ chạy thì xấu hổ, mà đánh thì ta thua mất!”"
+      ],
+      "image": {
+        "prompt": "a comical huge giant with a bushy black beard stamping his boot so the hills wobble, holding up a flat round metal disc shaped like a pancake, little sparks around it, while far away on a hilltop a worried ginger giant sucks his thumb",
+        "seed": 2959017981,
+        "character": "cucullin"
+      },
+      "video": {
+        "motionPrompt": "the big giant stamps and the hills wobble like jelly, birds flutter up, the flat disc gleams",
+        "seed": 3428758544
+      },
+      "voice": {}
+    },
+    {
+      "id": "ke-cua-oonagh",
+      "title": "Kế của Oonagh",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng Oonagh bảo: “Mình đừng lo, cứ để em lo.” Nàng đốt một đám khói trên đỉnh đồi, huýt sáo ba tiếng, như lời mời khách lạ đến nhà. Rồi nàng đi mượn hàng xóm hai mươi mốt cái chảo nướng bằng sắt, giấu mỗi chảo vào giữa một ổ bánh mì, đem nướng vàng ươm, xếp vào tủ. Nàng nướng thêm một ổ bánh thường, đánh dấu cẩn thận. Nàng còn nấu một nồi sữa thành những miếng phô mai trắng tròn tròn như hòn đá. Xong xuôi, nàng ngồi xuống, bình thản chờ khách.",
+      "subtitles": [
+        "Nàng Oonagh bảo: “Mình đừng lo, cứ để em lo.”",
+        "Nàng đốt một đám khói trên đỉnh đồi, huýt sáo ba tiếng, như lời mời khách lạ đến nhà.",
+        "Rồi nàng đi mượn hàng xóm hai mươi mốt cái chảo nướng bằng sắt,",
+        "giấu mỗi chảo vào giữa một ổ bánh mì, đem nướng vàng ươm, xếp vào tủ.",
+        "Nàng nướng thêm một ổ bánh thường, đánh dấu cẩn thận.",
+        "Nàng còn nấu một nồi sữa thành những miếng phô mai trắng tròn tròn như hòn đá.",
+        "Xong xuôi, nàng ngồi xuống, bình thản chờ khách."
+      ],
+      "image": {
+        "prompt": "a clever giantess in a cozy stone cottage kitchen sliding round iron griddles into big loaves of bread dough, a row of golden loaves cooling on shelves, a pot of milk and round white cheeses, her husband peeking anxiously from the doorway",
+        "seed": 3620058386,
+        "character": "oonagh"
+      },
+      "video": {
+        "motionPrompt": "smoke curls from the oven, she pats the dough with a knowing smile, the husband fidgets in the doorway",
+        "seed": 3736469705
+      },
+      "voice": {}
+    },
+    {
+      "id": "em-be-trong-noi",
+      "title": "Em bé trong nôi",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm sau, đúng hai giờ, Cucullin tới. Oonagh bắt Fin mặc đồ em bé, nằm vào cái nôi thật to, đắp chăn kín mít. Cucullin hỏi: “Đây có phải nhà Fin M'Coul không?” Oonagh đáp: “Phải, nhưng anh ấy đi vắng rồi. Nghe nói có gã Cucullin nào đó tìm mình, anh ấy giận lắm, đi tìm hắn ngay.” Rồi nàng nhờ: “Gió đang thổi vào cửa, Fin vắng nhà, nhờ anh xoay giùm cái nhà lại, Fin vẫn làm thế mà.” Cucullin bẻ ngón tay giữa kêu răng rắc, rồi ôm cả ngôi nhà xoay một vòng. Nàng lại nhờ gã tách tảng đá sau đồi tìm mạch nước. Gã xé toạc núi đá thành một khe sâu hun hút.",
+      "subtitles": [
+        "Hôm sau, đúng hai giờ, Cucullin tới.",
+        "Oonagh bắt Fin mặc đồ em bé, nằm vào cái nôi thật to, đắp chăn kín mít.",
+        "Cucullin hỏi: “Đây có phải nhà Fin M'Coul không?”",
+        "Oonagh đáp: “Phải, nhưng anh ấy đi vắng rồi.",
+        "Nghe nói có gã Cucullin nào đó tìm mình, anh ấy giận lắm, đi tìm hắn ngay.”",
+        "Rồi nàng nhờ: “Gió đang thổi vào cửa, Fin vắng nhà, nhờ anh xoay giùm cái nhà lại,",
+        "Fin vẫn làm thế mà.”",
+        "Cucullin bẻ ngón tay giữa kêu răng rắc, rồi ôm cả ngôi nhà xoay một vòng.",
+        "Nàng lại nhờ gã tách tảng đá sau đồi tìm mạch nước.",
+        "Gã xé toạc núi đá thành một khe sâu hun hút."
+      ],
+      "image": {
+        "prompt": "a comical huge black-bearded giant hugging a whole stone cottage and turning it around on a windy hilltop, the clever giantess calmly pointing, through the window a big ginger giant in a baby bonnet hides in an enormous cradle",
+        "seed": 2820218450,
+        "character": "cucullin"
+      },
+      "video": {
+        "motionPrompt": "the cottage turns slowly, roof thatch flutters, the giantess folds her arms, the baby bonnet peeks over the cradle edge",
+        "seed": 4090997961
+      },
+      "voice": {}
+    },
+    {
+      "id": "banh-cua-fin",
+      "title": "Bánh của Fin",
+      "narrator": "ke-chuyen",
+      "narration": "Oonagh mời khách vào ăn. Nàng đặt trước mặt Cucullin mấy ổ bánh mì vàng ươm. Gã cắn một miếng thật to, rồi rống lên: “Ối! Gãy mất hai cái răng của ta rồi! Bánh gì mà cứng thế?” Oonagh thản nhiên: “Bánh Fin vẫn ăn hằng ngày đấy. Cả nhà này chỉ có Fin với thằng cu trong nôi ăn được thôi.” Gã cắn ổ thứ hai, lại rống lên, thêm hai cái răng nữa. “Khẽ chứ, anh làm thằng bé thức rồi kìa!” Fin trong nôi oe oe đòi ăn. Oonagh đưa cho Fin ổ bánh thường. Fin nhai ngon lành. Cucullin trố mắt: “Con của Fin còn thế này, thì bố nó phải khỏe đến đâu!”",
+      "subtitles": [
+        "Oonagh mời khách vào ăn. Nàng đặt trước mặt Cucullin mấy ổ bánh mì vàng ươm.",
+        "Gã cắn một miếng thật to, rồi rống lên: “Ối! Gãy mất hai cái răng của ta rồi!",
+        "Bánh gì mà cứng thế?” Oonagh thản nhiên: “Bánh Fin vẫn ăn hằng ngày đấy.",
+        "Cả nhà này chỉ có Fin với thằng cu trong nôi ăn được thôi.”",
+        "Gã cắn ổ thứ hai, lại rống lên, thêm hai cái răng nữa.",
+        "“Khẽ chứ, anh làm thằng bé thức rồi kìa!” Fin trong nôi oe oe đòi ăn.",
+        "Oonagh đưa cho Fin ổ bánh thường. Fin nhai ngon lành.",
+        "Cucullin trố mắt: “Con của Fin còn thế này, thì bố nó phải khỏe đến đâu!”"
+      ],
+      "image": {
+        "prompt": "inside a cozy cottage, the black-bearded giant holding his cheek in shock after biting a hard loaf, the giantess innocently offering another loaf, a big ginger giant dressed as a baby in a cradle happily munching bread",
+        "seed": 2722951520,
+        "character": "cucullin"
+      },
+      "video": {
+        "motionPrompt": "the giant clutches his jaw and his eyes go wide, the baby in the cradle chews happily, crumbs fall",
+        "seed": 3713549413
+      },
+      "voice": {}
+    },
+    {
+      "id": "vat-nuoc-tu-da",
+      "title": "Vắt nước từ đá",
+      "narrator": "ke-chuyen",
+      "narration": "Cucullin muốn xem mặt đứa bé. Fin trèo ra khỏi nôi, giọng ồm ồm: “Chú có khỏe không? Thử vắt nước từ hòn đá trắng này xem!” Cucullin bóp mãi, bóp mãi, hòn đá vẫn khô khốc. “Chú yếu thế mà cũng đòi làm khổng lồ!” Fin cầm lấy, nhưng khéo léo đổi hòn đá thành miếng phô mai trắng, bóp một cái, nước chảy ròng ròng như mưa. “Chú về đi trước khi bố cháu về, kẻo bố cháu gặp thì chú khổ đấy!” Cucullin run cầm cập, đầu gối va vào nhau lập cập.",
+      "subtitles": [
+        "Cucullin muốn xem mặt đứa bé. Fin trèo ra khỏi nôi, giọng ồm ồm: “Chú có khỏe không?",
+        "Thử vắt nước từ hòn đá trắng này xem!” Cucullin bóp mãi, bóp mãi, hòn đá vẫn khô khốc.",
+        "“Chú yếu thế mà cũng đòi làm khổng lồ!”",
+        "Fin cầm lấy, nhưng khéo léo đổi hòn đá thành miếng phô mai trắng, bóp một cái,",
+        "nước chảy ròng ròng như mưa.",
+        "“Chú về đi trước khi bố cháu về, kẻo bố cháu gặp thì chú khổ đấy!”",
+        "Cucullin run cầm cập, đầu gối va vào nhau lập cập."
+      ],
+      "image": {
+        "prompt": "outside the cottage, a big ginger giant dressed as a baby in a bonnet squeezing a round white cheese so whey drips out like rain, the black-bearded giant staring with knocking knees, a white stone in his own hand",
+        "seed": 3750073847,
+        "character": "fin"
+      },
+      "video": {
+        "motionPrompt": "whey drips from the squeezed cheese, the bearded giant knees tremble comically, the baby bonnet ribbons flutter",
+        "seed": 1365832540
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngon-tay-than",
+      "title": "Ngón tay thần",
+      "narrator": "ke-chuyen",
+      "narration": "Trước khi đi, Cucullin xin sờ thử hàm răng của đứa bé ăn được thứ bánh cứng như sắt. “Được thôi,” Oonagh nói, “nhưng răng nó mọc ở tận trong, anh phải đưa ngón tay vào sâu.” Gã đưa đúng ngón tay giữa của bàn tay phải vào. Fin cắn một cái thật mạnh. Cucullin kêu lên một tiếng, và toàn bộ sức mạnh trong ngón tay thần tuột đi như nước chảy khỏi chậu. Gã khổng lồ to lớn bỗng yếu như một người thường. Gã ôm tay, ba chân bốn cẳng chạy xuống đồi, và từ đó không bao giờ quay lại Knockmany nữa. Fin nhảy ra khỏi nôi, ôm chầm lấy vợ. Nhờ trí khôn của Oonagh, chẳng cần đánh nhau, Fin vẫn thắng.",
+      "subtitles": [
+        "Trước khi đi, Cucullin xin sờ thử hàm răng của đứa bé ăn được thứ bánh cứng như sắt.",
+        "“Được thôi,” Oonagh nói, “nhưng răng nó mọc ở tận trong, anh phải đưa ngón tay vào sâu.”",
+        "Gã đưa đúng ngón tay giữa của bàn tay phải vào.",
+        "Fin cắn một cái thật mạnh. Cucullin kêu lên một tiếng,",
+        "và toàn bộ sức mạnh trong ngón tay thần tuột đi như nước chảy khỏi chậu.",
+        "Gã khổng lồ to lớn bỗng yếu như một người thường.",
+        "Gã ôm tay, ba chân bốn cẳng chạy xuống đồi, và từ đó không bao giờ quay lại Knockmany nữa.",
+        "Fin nhảy ra khỏi nôi, ôm chầm lấy vợ.",
+        "Nhờ trí khôn của Oonagh, chẳng cần đánh nhau, Fin vẫn thắng."
+      ],
+      "image": {
+        "prompt": "a comical black-bearded giant running away down a green hill holding his hand, looking small and weak, while on the hilltop the ginger giant still in a baby bonnet hugs his laughing clever wife at the cottage door",
+        "seed": 2620834861,
+        "character": "oonagh"
+      },
+      "video": {
+        "motionPrompt": "the bearded giant scurries down the hill, the couple laugh and hug, the wind blows the baby bonnet away into the sky",
+        "seed": 1808937962
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful Irish folk tune, fiddle, tin whistle, bodhran and uilleann pipes, comical tiptoe moments and a triumphant jig at the end, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1324618245
+  }
+}

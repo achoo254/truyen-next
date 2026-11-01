@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "slug": "hai-dua-tre-vang",
+  "shelf": "world",
+  "title": "Hai đứa trẻ vàng",
+  "summary": "Bác ngư phủ nghèo ba lần câu được con cá vàng biết nói, và lần thứ ba, cá tặng bác sáu chiếc vảy vàng kỳ diệu. Từ đó ra đời hai cậu bé bằng vàng, hai chú ngựa vàng và hai bông huệ vàng báo tin lành dữ. Truyện cổ Grimm về tình anh em và lòng can đảm, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "anh-hung",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Die Goldkinder\" (Kinder- und Hausmärchen, bản 1857, truyện số 85), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Gold-Children\" của Margaret Hunt trên Project Gutenberg. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: lần thứ ba cá vàng tặng bác ngư phủ sáu chiếc vảy rồi được thả về nước (bản gốc cá bảo bác đem về chia làm sáu phần), và những lời đe doạ bằng súng trong truyện chỉ còn là lời quát hay lời đòi hỏi kiên quyết.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines with touches of gold leaf, a river with a fisherman hut, a shining castle, deep green forests and a tiny witch cottage, golden boys on golden horses, warm magical light, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "anh-ca",
+      "name": "Người anh vàng",
+      "seed": 3012001022,
+      "sheetPrompt": "a tall young man whose skin and hair shine like soft gold, kind brave face, a simple travelling tunic, sometimes wearing a shaggy brown bearskin cloak, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "em-trai",
+      "name": "Người em vàng",
+      "seed": 978816093,
+      "sheetPrompt": "a slightly younger young man whose skin and hair shine like soft gold, gentle loyal face, a green tunic and riding boots, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ngu-phu",
+      "name": "Bác ngư phủ",
+      "seed": 616310085,
+      "sheetPrompt": "a poor kind old fisherman from a German fairy tale, gray stubble, a patched brown coat and a woolen cap, holding a fishing net, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ca-vang-biet-noi",
+      "title": "Con cá vàng biết nói",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có hai vợ chồng nghèo sống trong túp lều nhỏ, ngày ngày kéo lưới kiếm ăn. Một hôm, bác chồng kéo lưới lên một con cá toàn thân bằng vàng. Cá cất tiếng: \"Bác ngư phủ ơi, thả tôi về nước, tôi sẽ biến túp lều của bác thành lâu đài, trong có chiếc tủ lúc nào mở ra cũng đầy thức ăn ngon. Nhưng bác không được kể với ai, dù chỉ một lời, rằng lộc ấy từ đâu mà có.\" Bác thả cá. Về đến nhà, túp lều đã thành lâu đài, vợ bác mặc áo đẹp ngồi trong phòng lộng lẫy, chiếc tủ đầy bánh, thịt và trái cây.",
+      "subtitles": [
+        "Ngày xưa, có hai vợ chồng nghèo sống trong túp lều nhỏ, ngày ngày kéo lưới kiếm ăn.",
+        "Một hôm, bác chồng kéo lưới lên một con cá toàn thân bằng vàng.",
+        "Cá cất tiếng: \"Bác ngư phủ ơi, thả tôi về nước, tôi sẽ biến túp lều của bác thành lâu đài,",
+        "trong có chiếc tủ lúc nào mở ra cũng đầy thức ăn ngon.",
+        "Nhưng bác không được kể với ai, dù chỉ một lời, rằng lộc ấy từ đâu mà có.\"",
+        "Bác thả cá. Về đến nhà, túp lều đã thành lâu đài,",
+        "vợ bác mặc áo đẹp ngồi trong phòng lộng lẫy, chiếc tủ đầy bánh, thịt và trái cây."
+      ],
+      "image": {
+        "prompt": "a poor old fisherman by a quiet river pulling up a net with a shining golden fish that is talking to him, a tiny wooden hut on the bank, morning mist",
+        "seed": 3022375439,
+        "character": "ngu-phu"
+      },
+      "video": {
+        "motionPrompt": "the golden fish sparkles and flips in the net, ripples spread on the river, the fisherman leans closer in astonishment",
+        "seed": 3608551913
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-mat-bi-lo",
+      "title": "Bí mật bị lộ",
+      "narrator": "ke-chuyen",
+      "narration": "Vợ bác ăn uống vui vẻ, nhưng cứ gặng hỏi mãi: \"Của cải này từ đâu ra thế?\" Bác bảo đừng hỏi. Bà hỏi ngày hỏi đêm, cho đến khi bác bực quá, kể hết chuyện con cá. Vừa dứt lời, lâu đài biến mất, hai vợ chồng lại ngồi trong túp lều cũ. Lần thứ hai bác lại câu được cá vàng, lại được lâu đài, rồi lại vì vợ gặng hỏi mà để lộ bí mật, và lại mất sạch. Bà vợ thở dài: \"Thà nghèo còn hơn giàu mà không biết của từ đâu, cứ băn khoăn mãi.\"",
+      "subtitles": [
+        "Vợ bác ăn uống vui vẻ, nhưng cứ gặng hỏi mãi: \"Của cải này từ đâu ra thế?\"",
+        "Bác bảo đừng hỏi.",
+        "Bà hỏi ngày hỏi đêm, cho đến khi bác bực quá, kể hết chuyện con cá.",
+        "Vừa dứt lời, lâu đài biến mất, hai vợ chồng lại ngồi trong túp lều cũ.",
+        "Lần thứ hai bác lại câu được cá vàng, lại được lâu đài,",
+        "rồi lại vì vợ gặng hỏi mà để lộ bí mật, và lại mất sạch.",
+        "Bà vợ thở dài: \"Thà nghèo còn hơn giàu mà không biết của từ đâu, cứ băn khoăn mãi.\""
+      ],
+      "image": {
+        "prompt": "a splendid castle fading away like mist, revealing the old fisherman and his curious wife sitting in their small poor hut again, both looking surprised",
+        "seed": 2936130725,
+        "character": "ngu-phu"
+      },
+      "video": {
+        "motionPrompt": "the castle walls shimmer and dissolve into golden mist, the old hut appears around them, the couple blinks in surprise",
+        "seed": 4113147857
+      },
+      "voice": {}
+    },
+    {
+      "id": "sau-chiec-vay",
+      "title": "Sáu chiếc vảy vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Lần thứ ba, bác lại kéo lên con cá vàng. Cá nói: \"Có lẽ số tôi cứ phải vào lưới của bác. Lần này, bác hãy lấy sáu chiếc vảy vàng của tôi. Hai chiếc cho vợ bác, hai chiếc cho con ngựa cái, còn hai chiếc chôn xuống đất. Chúng sẽ mang phúc đến cho nhà bác.\" Bác làm đúng như lời rồi thả cá về sông. Từ hai chiếc vảy chôn dưới đất mọc lên hai bông huệ vàng. Ngựa cái sinh hai chú ngựa con bằng vàng. Còn vợ bác sinh hai cậu con trai, người sáng óng ánh như vàng.",
+      "subtitles": [
+        "Lần thứ ba, bác lại kéo lên con cá vàng.",
+        "Cá nói: \"Có lẽ số tôi cứ phải vào lưới của bác.",
+        "Lần này, bác hãy lấy sáu chiếc vảy vàng của tôi.",
+        "Hai chiếc cho vợ bác, hai chiếc cho con ngựa cái, còn hai chiếc chôn xuống đất.",
+        "Chúng sẽ mang phúc đến cho nhà bác.\" Bác làm đúng như lời rồi thả cá về sông.",
+        "Từ hai chiếc vảy chôn dưới đất mọc lên hai bông huệ vàng.",
+        "Ngựa cái sinh hai chú ngựa con bằng vàng.",
+        "Còn vợ bác sinh hai cậu con trai, người sáng óng ánh như vàng."
+      ],
+      "image": {
+        "prompt": "the fisherman gently holding six shining golden scales as the golden fish swims away, then two golden lilies blooming in a garden, two golden foals beside a mare, and the happy mother with two golden baby boys",
+        "seed": 2725406078,
+        "character": "ngu-phu"
+      },
+      "video": {
+        "motionPrompt": "the golden scales glitter in the fisherman palm, the fish leaps back into the river, golden lilies slowly open, the foals wobble to their feet",
+        "seed": 3485768203
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-bong-hue",
+      "title": "Hai bông huệ vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Hai đứa trẻ vàng lớn lên khôi ngô, hai chú ngựa vàng và hai bông huệ cũng lớn theo. Một hôm, hai anh em thưa: \"Cha ơi, chúng con muốn cưỡi ngựa vàng đi xem thế giới.\" Người cha buồn bã: \"Các con đi rồi, cha biết các con ra sao?\" Hai anh em đáp: \"Hai bông huệ vàng ở lại đây. Hoa tươi là chúng con khoẻ mạnh, hoa héo là chúng con gặp chuyện chẳng lành.\" Đến một quán trọ, người ta thấy hai anh em toàn thân bằng vàng thì cười nhạo. Người em xấu hổ, quay về nhà với cha. Người anh vẫn đi tiếp.",
+      "subtitles": [
+        "Hai đứa trẻ vàng lớn lên khôi ngô, hai chú ngựa vàng và hai bông huệ cũng lớn theo.",
+        "Một hôm, hai anh em thưa: \"Cha ơi, chúng con muốn cưỡi ngựa vàng đi xem thế giới.\"",
+        "Người cha buồn bã: \"Các con đi rồi, cha biết các con ra sao?\"",
+        "Hai anh em đáp: \"Hai bông huệ vàng ở lại đây.",
+        "Hoa tươi là chúng con khoẻ mạnh, hoa héo là chúng con gặp chuyện chẳng lành.\"",
+        "Đến một quán trọ, người ta thấy hai anh em toàn thân bằng vàng thì cười nhạo.",
+        "Người em xấu hổ, quay về nhà với cha. Người anh vẫn đi tiếp."
+      ],
+      "image": {
+        "prompt": "two shining golden young men on golden horses saying goodbye to their old father beside two tall golden lilies in front of a small cottage, sunrise",
+        "seed": 728423299,
+        "character": "anh-ca"
+      },
+      "video": {
+        "motionPrompt": "the golden horses toss their manes, the father waves goodbye, the golden lilies sway gently in the morning breeze",
+        "seed": 3019554151
+      },
+      "voice": {}
+    },
+    {
+      "id": "ao-da-gau",
+      "title": "Tấm áo da gấu",
+      "narrator": "ke-chuyen",
+      "narration": "Người anh đến bìa một khu rừng lớn. Người ta can: \"Rừng ấy đầy bọn cướp. Chúng thấy cậu và con ngựa bằng vàng thì chẳng để cậu yên đâu.\" Chàng chẳng sợ, lấy hai tấm da gấu khoác lên mình và lên ngựa, che kín màu vàng rồi thản nhiên vào rừng. Trong bụi rậm, có tiếng xì xào: \"Kìa, có người!\" Đứa khác bảo: \"Thôi, kệ nó. Một gã nghèo rớt mồng tơi, lấy được gì đâu.\" Thế là chàng qua rừng bình an. Đến một làng nọ, chàng gặp một cô gái xinh đẹp nhất đời, hai người thương nhau và nên vợ nên chồng.",
+      "subtitles": [
+        "Người anh đến bìa một khu rừng lớn. Người ta can: \"Rừng ấy đầy bọn cướp.",
+        "Chúng thấy cậu và con ngựa bằng vàng thì chẳng để cậu yên đâu.\"",
+        "Chàng chẳng sợ, lấy hai tấm da gấu khoác lên mình và lên ngựa,",
+        "che kín màu vàng rồi thản nhiên vào rừng.",
+        "Trong bụi rậm, có tiếng xì xào: \"Kìa, có người!\" Đứa khác bảo: \"Thôi, kệ nó.",
+        "Một gã nghèo rớt mồng tơi, lấy được gì đâu.\" Thế là chàng qua rừng bình an.",
+        "Đến một làng nọ, chàng gặp một cô gái xinh đẹp nhất đời,",
+        "hai người thương nhau và nên vợ nên chồng."
+      ],
+      "image": {
+        "prompt": "a young man and his horse wrapped in shaggy brown bearskins riding calmly through a dark green forest, sneaky robbers peeking from the bushes and shrugging, light through the trees",
+        "seed": 3127764987,
+        "character": "anh-ca"
+      },
+      "video": {
+        "motionPrompt": "the horse walks steadily, bearskins sway, the robbers peek out and shrug, sunbeams flicker between the tall trees",
+        "seed": 3995541757
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-huou-va-mu-phu-thuy",
+      "title": "Con hươu và mụ phù thuỷ",
+      "narrator": "ke-chuyen",
+      "narration": "Bố vợ về nhà, thấy con rể khoác da gấu, giận lắm, suýt đuổi chàng đi. Nhưng sáng hôm sau, ông ghé nhìn, thấy một chàng trai vàng óng nằm ngủ, liền mừng thầm vì đã nén được cơn giận. Đêm ấy, người anh mơ thấy một con hươu đẹp. Sáng ra, chàng lên đường đi săn dù vợ can ngăn. Con hươu chạy, chàng đuổi theo suốt ngày, đến tối thì hươu biến mất, trước mặt chàng là ngôi nhà nhỏ của một mụ phù thuỷ. Con chó nhỏ của mụ sủa ầm lên, chàng quát nó. Mụ phù thuỷ nổi giận, hoá chàng thành một khối đá.",
+      "subtitles": [
+        "Bố vợ về nhà, thấy con rể khoác da gấu, giận lắm, suýt đuổi chàng đi.",
+        "Nhưng sáng hôm sau, ông ghé nhìn, thấy một chàng trai vàng óng nằm ngủ,",
+        "liền mừng thầm vì đã nén được cơn giận.",
+        "Đêm ấy, người anh mơ thấy một con hươu đẹp.",
+        "Sáng ra, chàng lên đường đi săn dù vợ can ngăn.",
+        "Con hươu chạy, chàng đuổi theo suốt ngày, đến tối thì hươu biến mất,",
+        "trước mặt chàng là ngôi nhà nhỏ của một mụ phù thuỷ.",
+        "Con chó nhỏ của mụ sủa ầm lên, chàng quát nó.",
+        "Mụ phù thuỷ nổi giận, hoá chàng thành một khối đá."
+      ],
+      "image": {
+        "prompt": "deep forest at dusk, a beautiful stag disappearing between the trees, a tiny crooked cottage with a grumpy old witch and a small barking dog at the door, the golden young man standing in front of it",
+        "seed": 3062438569,
+        "character": "anh-ca"
+      },
+      "video": {
+        "motionPrompt": "the stag leaps away into the shadows, the little dog barks, the witch waves her bony finger, a gray stony glow slowly covers the young man",
+        "seed": 1093235122
+      },
+      "voice": {}
+    },
+    {
+      "id": "em-cuu-anh",
+      "title": "Em cứu anh",
+      "narrator": "ke-chuyen",
+      "narration": "Ở nhà, người em đang đứng bên hai bông huệ thì một bông bỗng gục xuống. \"Trời ơi, anh con gặp nạn rồi! Con phải đi cứu anh.\" Người cha khóc: \"Mất cả con nữa thì cha biết làm sao?\" Nhưng người em vẫn cưỡi ngựa vàng vào rừng. Mụ phù thuỷ ra gọi, định dụ chàng lại gần. Chàng đứng xa, nói dứt khoát: \"Bà phải trả lại anh tôi ngay, nếu không tôi không để bà yên!\" Mụ đành miễn cưỡng chạm ngón tay vào khối đá, và người anh sống lại như xưa. Hai anh em ôm nhau mừng rỡ, rồi cùng phi ngựa ra khỏi rừng.",
+      "subtitles": [
+        "Ở nhà, người em đang đứng bên hai bông huệ thì một bông bỗng gục xuống. \"Trời ơi,",
+        "anh con gặp nạn rồi! Con phải đi cứu anh.\"",
+        "Người cha khóc: \"Mất cả con nữa thì cha biết làm sao?\"",
+        "Nhưng người em vẫn cưỡi ngựa vàng vào rừng.",
+        "Mụ phù thuỷ ra gọi, định dụ chàng lại gần.",
+        "Chàng đứng xa, nói dứt khoát: \"Bà phải trả lại anh tôi ngay,",
+        "nếu không tôi không để bà yên!\"",
+        "Mụ đành miễn cưỡng chạm ngón tay vào khối đá, và người anh sống lại như xưa.",
+        "Hai anh em ôm nhau mừng rỡ, rồi cùng phi ngựa ra khỏi rừng."
+      ],
+      "image": {
+        "prompt": "the younger golden brother on a golden horse facing the grumpy witch in front of her cottage, the witch touching a gray stone with her fingertip, the stone turning back into the smiling golden older brother",
+        "seed": 839326637,
+        "character": "em-trai"
+      },
+      "video": {
+        "motionPrompt": "the witch reluctantly touches the stone, golden light spreads over it, the older brother steps out smiling, the two brothers embrace",
+        "seed": 4144045254
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-no-lai",
+      "title": "Hoa nở lại",
+      "narrator": "ke-chuyen",
+      "narration": "Người anh về với vợ, người em về với cha. Ông cụ mừng rỡ đón con: \"Cha biết con đã cứu được anh rồi. Bông huệ vàng bỗng đứng thẳng lên và nở rực rỡ trở lại.\" Từ đó, cả nhà sống bình yên, vui vẻ, mọi việc đều may mắn hanh thông. Và hai bông huệ vàng trước sân nhà bác ngư phủ thì cứ tươi thắm mãi, như tình anh em không bao giờ phai.",
+      "subtitles": [
+        "Người anh về với vợ, người em về với cha.",
+        "Ông cụ mừng rỡ đón con: \"Cha biết con đã cứu được anh rồi.",
+        "Bông huệ vàng bỗng đứng thẳng lên và nở rực rỡ trở lại.\"",
+        "Từ đó, cả nhà sống bình yên, vui vẻ, mọi việc đều may mắn hanh thông.",
+        "Và hai bông huệ vàng trước sân nhà bác ngư phủ thì cứ tươi thắm mãi,",
+        "như tình anh em không bao giờ phai."
+      ],
+      "image": {
+        "prompt": "the old fisherman hugging his golden son in front of a cottage, two tall golden lilies blooming brightly beside them, a warm sunset glow over the river",
+        "seed": 1204020377,
+        "character": "em-trai"
+      },
+      "video": {
+        "motionPrompt": "the drooping golden lily slowly rises and blooms again, sparkles drift in the air, father and son embrace in the warm sunset",
+        "seed": 2043491328
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "magical German fairy-tale music, shimmering celesta and harp for the golden fish, a galloping horn theme for the golden brothers, a mysterious low clarinet in the witch forest, a warm triumphant string reunion at the end, instrumental, no vocals",
+    "durationSeconds": 160,
+    "seed": 1595855573
+  }
+}

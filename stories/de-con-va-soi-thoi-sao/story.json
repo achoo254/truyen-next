@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "slug": "de-con-va-soi-thoi-sao",
+  "shelf": "world",
+  "title": "Dê con và sói thổi sáo",
+  "summary": "Dê con mải gặm cỏ lạc khỏi đàn, bị sói đuổi kịp, liền nghĩ ra một mẹo lạ: xin sói thổi sáo cho mình nhảy điệu cuối. Ngụ ngôn Aesop về sự bình tĩnh, nhanh trí trước nguy hiểm.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21, và bản V. S. Vernon Jones 1912, Project Gutenberg #11339), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm evening light, gentle rounded expressive characters, green rolling hills with a shepherd's meadow, a stone wall and a small wood, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "de-con",
+      "name": "Dê con",
+      "seed": 1624256107,
+      "sheetPrompt": "a small white baby goat with tiny horn buds, a little bell on a red ribbon around its neck, big bright curious eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "soi",
+      "name": "Sói xám",
+      "seed": 1737413330,
+      "sheetPrompt": "a big grey wolf with a shaggy coat and a long snout, comical and clumsy rather than menacing, holding a simple wooden shepherd's pipe, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "lac-dan",
+      "title": "Lạc khỏi đàn",
+      "narrator": "ke-chuyen",
+      "narration": "Trên sườn đồi xanh, có một đàn dê đang thong thả gặm cỏ. Dê con nhỏ nhất đàn cứ thấy chỗ nào cỏ non là chạy tới, hết bụi này lại sang bụi khác. Đến khi ngẩng đầu lên thì trời đã ngả chiều, đàn dê đã theo bác chăn cừu về gần tới chuồng, chỉ còn dê con đứng một mình bên bìa rừng.",
+      "subtitles": [
+        "Trên sườn đồi xanh, có một đàn dê đang thong thả gặm cỏ.",
+        "Dê con nhỏ nhất đàn cứ thấy chỗ nào cỏ non là chạy tới, hết bụi này lại sang bụi khác.",
+        "Đến khi ngẩng đầu lên thì trời đã ngả chiều,",
+        "đàn dê đã theo bác chăn cừu về gần tới chuồng, chỉ còn dê con đứng một mình bên bìa rừng."
+      ],
+      "image": {
+        "character": "de-con",
+        "prompt": "a small white baby goat alone at the edge of a wood, nibbling tender grass, the rest of the herd tiny and far away on the hillside at sunset",
+        "seed": 3576535132
+      },
+      "video": {
+        "motionPrompt": "the baby goat lifts its head and looks around, the faraway herd moves over the hill, long evening shadows stretch across the grass",
+        "seed": 1154869773
+      },
+      "voice": {}
+    },
+    {
+      "id": "soi-duoi-kip",
+      "title": "Sói đuổi kịp",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng sột soạt, từ trong rừng một con sói xám bước ra, liếm mép: “Bữa tối của ta tự tìm tới đây rồi!” Dê con co chân chạy, nhưng chân nó còn ngắn quá. Chẳng mấy chốc sói đã chặn ngay trước mặt. Dê con run lắm, nhưng nó hít một hơi thật sâu, tự nhủ: “Phải bình tĩnh, phải nghĩ ra cách.”",
+      "subtitles": [
+        "Bỗng sột soạt, từ trong rừng một con sói xám bước ra, liếm mép:",
+        "“Bữa tối của ta tự tìm tới đây rồi!”",
+        "Dê con co chân chạy, nhưng chân nó còn ngắn quá.",
+        "Chẳng mấy chốc sói đã chặn ngay trước mặt.",
+        "Dê con run lắm, nhưng nó hít một hơi thật sâu, tự nhủ: “Phải bình tĩnh,",
+        "phải nghĩ ra cách.”"
+      ],
+      "image": {
+        "character": "soi",
+        "prompt": "a big grey wolf stepping out of the trees and blocking the path of a startled little white goat, comical storybook staging, warm dusk light",
+        "seed": 1831235518
+      },
+      "video": {
+        "motionPrompt": "the wolf steps out of the bushes and licks its lips, the little goat freezes, takes a deep breath and steadies itself",
+        "seed": 3658296144
+      },
+      "voice": {}
+    },
+    {
+      "id": "xin-dieu-cuoi",
+      "title": "Xin một điệu nhảy",
+      "narrator": "ke-chuyen",
+      "narration": "Dê con ngước lên, nói thật lễ phép: “Thưa bác sói, cháu biết mình chạy không thoát nữa. Nhưng trước đó, bác cho cháu một điều ước nhỏ thôi. Bác thổi cho cháu một khúc sáo, để cháu được nhảy một điệu thật vui.” Sói nghe khoái chí lắm: “Ăn xong còn được xem múa, sướng quá đi chứ!” Rồi sói lôi ra một cây sáo trúc, phồng má thổi.",
+      "subtitles": [
+        "Dê con ngước lên, nói thật lễ phép: “Thưa bác sói, cháu biết mình chạy không thoát nữa.",
+        "Nhưng trước đó, bác cho cháu một điều ước nhỏ thôi.",
+        "Bác thổi cho cháu một khúc sáo, để cháu được nhảy một điệu thật vui.”",
+        "Sói nghe khoái chí lắm: “Ăn xong còn được xem múa, sướng quá đi chứ!”",
+        "Rồi sói lôi ra một cây sáo trúc, phồng má thổi."
+      ],
+      "image": {
+        "character": "de-con",
+        "prompt": "a polite little white goat bowing to a grey wolf, the wolf delighted, puffing its cheeks to play a wooden shepherd's pipe on the meadow",
+        "seed": 336175760
+      },
+      "video": {
+        "motionPrompt": "the wolf puffs its cheeks and blows the pipe, the little goat starts to hop and twirl, grass and wildflowers sway",
+        "seed": 4164135386
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-sao-vang-xa",
+      "title": "Tiếng sáo vang xa",
+      "narrator": "ke-chuyen",
+      "narration": "Tiếng sáo vang lên ầm ĩ, chói tai, dê con nhảy tưng tưng, càng nhảy càng hăng. Sói càng thổi càng to, quên cả nhìn quanh. Tiếng sáo bay qua đồi, tới tận chuồng dê. Mấy chú chó chăn cừu dựng tai lên: “Tiếng gì lạ thế nhỉ?” Rồi cả bầy chó sủa vang, ào ào chạy về phía bìa rừng.",
+      "subtitles": [
+        "Tiếng sáo vang lên ầm ĩ, chói tai, dê con nhảy tưng tưng, càng nhảy càng hăng.",
+        "Sói càng thổi càng to, quên cả nhìn quanh.",
+        "Tiếng sáo bay qua đồi, tới tận chuồng dê.",
+        "Mấy chú chó chăn cừu dựng tai lên: “Tiếng gì lạ thế nhỉ?”",
+        "Rồi cả bầy chó sủa vang, ào ào chạy về phía bìa rừng."
+      ],
+      "image": {
+        "character": "de-con",
+        "prompt": "a little goat dancing joyfully while a wolf plays a pipe with closed eyes, in the distance several sheepdogs running over the hill towards them",
+        "seed": 2187628156
+      },
+      "video": {
+        "motionPrompt": "the goat leaps and spins, the wolf plays with its eyes shut, far away the sheepdogs prick up their ears and race down the hill",
+        "seed": 2573398025
+      },
+      "voice": {}
+    },
+    {
+      "id": "soi-bo-chay",
+      "title": "Sói bỏ chạy",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe tiếng chó sủa sát bên, sói giật mình buông sáo, cụp đuôi chạy thẳng vào rừng, không dám quay lại. Vừa chạy sói vừa lẩm bẩm: “Đáng đời ta! Nghề của ta là đi săn, cớ sao lại đi làm người thổi sáo cơ chứ!” Còn dê con được bầy chó đưa về chuồng an toàn. Các bạn nhỏ ạ, khi gặp chuyện khó, giữ bình tĩnh thì sẽ nghĩ ra cách thoát thân.",
+      "subtitles": [
+        "Nghe tiếng chó sủa sát bên, sói giật mình buông sáo, cụp đuôi chạy thẳng vào rừng,",
+        "không dám quay lại.",
+        "Vừa chạy sói vừa lẩm bẩm: “Đáng đời ta!",
+        "Nghề của ta là đi săn, cớ sao lại đi làm người thổi sáo cơ chứ!”",
+        "Còn dê con được bầy chó đưa về chuồng an toàn.",
+        "Các bạn nhỏ ạ, khi gặp chuyện khó, giữ bình tĩnh thì sẽ nghĩ ra cách thoát thân."
+      ],
+      "image": {
+        "character": "soi",
+        "prompt": "a grey wolf running away into the forest with its tail between its legs, a dropped pipe on the grass, friendly sheepdogs gathered around the happy little goat",
+        "seed": 2270196471
+      },
+      "video": {
+        "motionPrompt": "the wolf drops the pipe and dashes into the trees, the sheepdogs wag their tails and walk the little goat home under the first stars",
+        "seed": 4083554174
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light pastoral storybook music, a playful wooden shepherd's pipe melody, pizzicato strings for the little goat, a clumsy bassoon for the wolf, a gentle warm ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 357570383
+  }
+}

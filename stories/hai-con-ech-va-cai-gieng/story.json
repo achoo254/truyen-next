@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "slug": "hai-con-ech-va-cai-gieng",
+  "shelf": "world",
+  "title": "Hai con ếch và cái giếng",
+  "summary": "Mùa hạn, ao cạn khô, hai chú ếch phải đi tìm nhà mới và bắt gặp một cái giếng sâu đầy nước mát. Ngụ ngôn Aesop về bài học nghĩ kỹ trước khi nhảy.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21, và bản V. S. Vernon Jones 1912, Project Gutenberg #11339), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, a dry summer countryside with cracked mud, reeds, a round old stone well with moss and a wooden bucket, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ech-vang",
+      "name": "Ếch vàng",
+      "seed": 626818954,
+      "sheetPrompt": "a plump yellow-green frog with big round eyes and an eager, hasty grin, always ready to leap, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ech-xanh",
+      "name": "Ếch xanh",
+      "seed": 3240053700,
+      "sheetPrompt": "a slim dark green frog with thoughtful half-closed eyes and a calm, wise expression, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ao-can",
+      "title": "Cái ao cạn nước",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có hai chú ếch sống chung trong một cái ao nhỏ đầy bèo và hoa súng. Ngày nào hai chú cũng bơi lội, bắt muỗi, chiều chiều lại ngồi trên lá sen hát ộp ộp. Nhưng rồi một mùa hè nắng gắt kéo đến. Ngày này qua ngày khác chẳng có lấy một giọt mưa. Nước ao cạn dần, cạn dần, cho tới khi đáy ao chỉ còn lại lớp bùn nứt nẻ.",
+      "subtitles": [
+        "Ngày xưa, có hai chú ếch sống chung trong một cái ao nhỏ đầy bèo và hoa súng.",
+        "Ngày nào hai chú cũng bơi lội, bắt muỗi, chiều chiều lại ngồi trên lá sen hát ộp ộp.",
+        "Nhưng rồi một mùa hè nắng gắt kéo đến.",
+        "Ngày này qua ngày khác chẳng có lấy một giọt mưa.",
+        "Nước ao cạn dần, cạn dần, cho tới khi đáy ao chỉ còn lại lớp bùn nứt nẻ."
+      ],
+      "image": {
+        "prompt": "two frogs sitting sadly on cracked dry mud where a pond used to be, withered water lilies, a blazing summer sun",
+        "seed": 3601990612
+      },
+      "video": {
+        "motionPrompt": "heat shimmers over the dry pond, a withered lily leaf curls, the two frogs blink and look at each other",
+        "seed": 1142423911
+      },
+      "voice": {}
+    },
+    {
+      "id": "di-tim-nha",
+      "title": "Lên đường tìm nhà mới",
+      "narrator": "ke-chuyen",
+      "narration": "Ếch xanh bảo: “Ở đây mãi thì khô người mất thôi. Chúng mình phải đi tìm một chỗ có nước.” Thế là hai chú ếch dắt nhau lên đường. Chúng nhảy qua ruộng khô, qua bờ cỏ cháy, qua con đường bụi mù. Đi mãi, đi mãi, tới một khu vườn cũ, hai chú bỗng nghe tiếng nước róc rách vọng lên từ một cái giếng đá phủ rêu.",
+      "subtitles": [
+        "Ếch xanh bảo: “Ở đây mãi thì khô người mất thôi.",
+        "Chúng mình phải đi tìm một chỗ có nước.”",
+        "Thế là hai chú ếch dắt nhau lên đường.",
+        "Chúng nhảy qua ruộng khô, qua bờ cỏ cháy, qua con đường bụi mù.",
+        "Đi mãi, đi mãi, tới một khu vườn cũ,",
+        "hai chú bỗng nghe tiếng nước róc rách vọng lên từ một cái giếng đá phủ rêu."
+      ],
+      "image": {
+        "character": "ech-xanh",
+        "prompt": "two little frogs hopping side by side along a dusty country lane towards an old mossy stone well in an overgrown garden",
+        "seed": 1202496698
+      },
+      "video": {
+        "motionPrompt": "the two frogs hop along the dusty path, a butterfly flutters past, they stop and turn their heads towards the well",
+        "seed": 131038227
+      },
+      "voice": {}
+    },
+    {
+      "id": "mieng-gieng",
+      "title": "Bên miệng giếng",
+      "narrator": "ke-chuyen",
+      "narration": "Hai chú leo lên thành giếng, nhìn xuống. Dưới sâu, sâu tít, mặt nước trong veo, mát lạnh, lấp lánh như gương. Ếch vàng reo lên: “Tuyệt quá! Nhà mới của chúng mình đây rồi. Nhảy xuống ngay thôi, cậu ơi!” Nói rồi ếch vàng co chân, sẵn sàng nhún một cái thật mạnh.",
+      "subtitles": [
+        "Hai chú leo lên thành giếng, nhìn xuống.",
+        "Dưới sâu, sâu tít, mặt nước trong veo, mát lạnh, lấp lánh như gương.",
+        "Ếch vàng reo lên: “Tuyệt quá!",
+        "Nhà mới của chúng mình đây rồi.",
+        "Nhảy xuống ngay thôi, cậu ơi!”",
+        "Nói rồi ếch vàng co chân, sẵn sàng nhún một cái thật mạnh."
+      ],
+      "image": {
+        "character": "ech-vang",
+        "prompt": "an excited yellow-green frog crouching on the rim of a deep stone well ready to jump, a calm dark green frog beside it looking down thoughtfully, sparkling water far below",
+        "seed": 2064957319
+      },
+      "video": {
+        "motionPrompt": "the yellow frog crouches and wiggles, ready to leap, sunlight glints on the water deep below, the green frog raises a hand",
+        "seed": 714222918
+      },
+      "voice": {}
+    },
+    {
+      "id": "nghi-ky",
+      "title": "Nghĩ kỹ trước khi nhảy",
+      "narrator": "ke-chuyen",
+      "narration": "Ếch xanh vội giữ bạn lại: “Khoan đã! Giếng này mát thật, nhưng sâu lắm. Nhỡ mai kia giếng cũng cạn như cái ao của mình thì sao? Thành giếng cao thế kia, chúng mình làm sao nhảy lên được?” Ếch vàng ngẩn người, nhìn xuống lòng giếng tối om, rồi rụt chân lại: “Ừ nhỉ, tớ chưa nghĩ tới chuyện đó.”",
+      "subtitles": [
+        "Ếch xanh vội giữ bạn lại: “Khoan đã!",
+        "Giếng này mát thật, nhưng sâu lắm.",
+        "Nhỡ mai kia giếng cũng cạn như cái ao của mình thì sao?",
+        "Thành giếng cao thế kia, chúng mình làm sao nhảy lên được?”",
+        "Ếch vàng ngẩn người, nhìn xuống lòng giếng tối om, rồi rụt chân lại: “Ừ nhỉ,",
+        "tớ chưa nghĩ tới chuyện đó.”"
+      ],
+      "image": {
+        "character": "ech-xanh",
+        "prompt": "a wise green frog holding back its eager friend by the arm on the rim of the deep well, both peering down into the dark shaft",
+        "seed": 849337367
+      },
+      "video": {
+        "motionPrompt": "the green frog gently holds its friend back, the yellow frog peers down the deep shaft and slowly sits back",
+        "seed": 2652955877
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-moi",
+      "title": "Hồ nước mới",
+      "narrator": "ke-chuyen",
+      "narration": "Hai chú ếch lại đi tiếp. Chiều hôm ấy, chúng tìm được một cái hồ rộng, bờ thoai thoải, nước mát, cỏ lau mọc dày. Muốn xuống nước cũng dễ, muốn lên bờ cũng dễ. Hai chú vui vẻ làm nhà mới, tối tối lại hát vang. Các bạn nhỏ ạ, trước khi làm việc gì, hãy nghĩ xem mình có quay lại được không đã nhé.",
+      "subtitles": [
+        "Hai chú ếch lại đi tiếp.",
+        "Chiều hôm ấy, chúng tìm được một cái hồ rộng, bờ thoai thoải, nước mát, cỏ lau mọc dày.",
+        "Muốn xuống nước cũng dễ, muốn lên bờ cũng dễ.",
+        "Hai chú vui vẻ làm nhà mới, tối tối lại hát vang.",
+        "Các bạn nhỏ ạ, trước khi làm việc gì, hãy nghĩ xem mình có quay lại được không đã nhé."
+      ],
+      "image": {
+        "prompt": "two happy frogs sitting on lily pads in a wide shallow lake with gently sloping grassy banks and reeds, a pink sunset sky",
+        "seed": 2576084471
+      },
+      "video": {
+        "motionPrompt": "the two frogs leap onto lily pads with a soft splash, reeds sway, fireflies begin to glow over the water",
+        "seed": 1911915248
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle countryside storybook music, plucked guitar and soft flute, a hopping frog motif on marimba, a thoughtful pause, a calm happy ending by the lake, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2909446948
+  }
+}

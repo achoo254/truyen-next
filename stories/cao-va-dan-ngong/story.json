@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "slug": "cao-va-dan-ngong",
+  "shelf": "world",
+  "title": "Cáo và đàn ngỗng",
+  "summary": "Một chú cáo đói bắt gặp đàn ngỗng béo trên đồng cỏ và đắc ý tưởng sắp có bữa tiệc. Nhưng đàn ngỗng nhanh trí xin được cầu nguyện một lần cuối, và lời cầu nguyện \"quác quác\" ấy cứ thế kéo dài mãi chẳng dứt. Truyện cổ Grimm ngắn và hóm hỉnh về trí khôn của kẻ yếu, kể vui cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der Fuchs und die Gänse\" (Kinder- und Hausmärchen, bản 1857, truyện số 86), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Fox and the Geese\" của Margaret Hunt trên Project Gutenberg. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; thêm thoại và cảnh đồng cỏ cho sinh động, giữ cái kết bỏ lửng của bản gốc.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic European children's picture-book illustration with gentle humor, soft watercolor and fine ink lines, a green meadow with wildflowers by a small pond, a sly red fox and a flock of plump white geese with funny expressive faces, warm afternoon light, cheerful and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cao",
+      "name": "Cáo",
+      "seed": 175471011,
+      "sheetPrompt": "a sly but comical red fox with a bushy tail, a smug grin and narrow clever eyes, cute storybook style, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ngong-dau-dan",
+      "name": "Ngỗng đầu đàn",
+      "seed": 1661642094,
+      "sheetPrompt": "a plump white goose with an orange beak, a brave clever look and one wing raised as if speaking, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dong-co-xanh",
+      "title": "Đồng cỏ xanh",
+      "narrator": "ke-chuyen",
+      "narration": "Một buổi chiều đẹp trời, chú cáo đi lang thang tìm cái ăn thì đến một đồng cỏ xanh mướt bên bờ ao. Giữa đồng, một đàn ngỗng trắng béo tròn đang ngồi quây quần tắm nắng, rỉa lông, chuyện trò rôm rả. Cáo nấp sau bụi cây, liếm mép, cười khoái chí: \"Ta đến thật đúng lúc! Chúng ngồi cạnh nhau ngay ngắn thế kia, ta cứ việc chén từng con một.\"",
+      "subtitles": [
+        "Một buổi chiều đẹp trời,",
+        "chú cáo đi lang thang tìm cái ăn thì đến một đồng cỏ xanh mướt bên bờ ao.",
+        "Giữa đồng, một đàn ngỗng trắng béo tròn đang ngồi quây quần tắm nắng,",
+        "rỉa lông, chuyện trò rôm rả.",
+        "Cáo nấp sau bụi cây, liếm mép, cười khoái chí: \"Ta đến thật đúng lúc!",
+        "Chúng ngồi cạnh nhau ngay ngắn thế kia, ta cứ việc chén từng con một.\""
+      ],
+      "image": {
+        "prompt": "a green meadow with wildflowers beside a small pond, a flock of plump white geese sitting together in the sun preening, a sly red fox peeking from behind a bush licking its lips",
+        "seed": 693396416,
+        "character": "cao"
+      },
+      "video": {
+        "motionPrompt": "the geese preen and chatter, the fox peeks out from the bush with a sly grin, butterflies flutter over the flowers",
+        "seed": 144690476
+      },
+      "voice": {}
+    },
+    {
+      "id": "dan-ngong-hoang-hot",
+      "title": "Đàn ngỗng hoảng hốt",
+      "narrator": "ke-chuyen",
+      "narration": "Cáo nhảy vọt ra giữa đồng. Đàn ngỗng kêu quang quác, nhốn nháo đứng bật dậy, vỗ cánh van xin: \"Anh cáo ơi, tha cho chúng tôi!\" Nhưng cáo lắc đầu: \"Không xin xỏ gì hết! Hôm nay các ngươi là bữa tối của ta.\" Đàn ngỗng run rẩy nép vào nhau, tưởng như chẳng còn đường nào thoát.",
+      "subtitles": [
+        "Cáo nhảy vọt ra giữa đồng. Đàn ngỗng kêu quang quác, nhốn nháo đứng bật dậy,",
+        "vỗ cánh van xin: \"Anh cáo ơi, tha cho chúng tôi!\"",
+        "Nhưng cáo lắc đầu: \"Không xin xỏ gì hết! Hôm nay các ngươi là bữa tối của ta.\"",
+        "Đàn ngỗng run rẩy nép vào nhau, tưởng như chẳng còn đường nào thoát."
+      ],
+      "image": {
+        "prompt": "the red fox leaping into the middle of the meadow, the white geese jumping up flapping their wings in alarm, feathers floating in the air",
+        "seed": 817664876,
+        "character": "cao"
+      },
+      "video": {
+        "motionPrompt": "the fox springs forward, the geese flap and honk in alarm, white feathers float through the air, then the geese huddle together",
+        "seed": 2237034832
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-xin-cuoi-cung",
+      "title": "Lời xin cuối cùng",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng một cô ngỗng lấy hết can đảm, bước lên nói: \"Anh cáo ơi, nếu số chúng tôi đã vậy, xin anh cho chúng tôi một ân huệ. Hãy để chúng tôi cầu nguyện một lần cuối. Cầu xong, chúng tôi sẽ đứng thành hàng ngay ngắn, anh muốn chọn con nào béo nhất cũng được.\" Cáo nghĩ bụng: \"Nghe cũng có lý, lại còn ngoan đạo nữa.\" Nó gật gù: \"Được! Cứ cầu nguyện đi, ta ngồi chờ.\"",
+      "subtitles": [
+        "Bỗng một cô ngỗng lấy hết can đảm, bước lên nói: \"Anh cáo ơi,",
+        "nếu số chúng tôi đã vậy, xin anh cho chúng tôi một ân huệ.",
+        "Hãy để chúng tôi cầu nguyện một lần cuối.",
+        "Cầu xong, chúng tôi sẽ đứng thành hàng ngay ngắn,",
+        "anh muốn chọn con nào béo nhất cũng được.\"",
+        "Cáo nghĩ bụng: \"Nghe cũng có lý, lại còn ngoan đạo nữa.\" Nó gật gù: \"Được!",
+        "Cứ cầu nguyện đi, ta ngồi chờ.\""
+      ],
+      "image": {
+        "prompt": "a brave white goose stepping forward and speaking politely to the fox, the fox sitting down on its tail and nodding smugly, the other geese watching hopefully",
+        "seed": 3343798101,
+        "character": "ngong-dau-dan"
+      },
+      "video": {
+        "motionPrompt": "the brave goose raises one wing as she speaks, the fox scratches his chin and nods, the other geese exchange hopeful glances",
+        "seed": 199875827
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-nguyen-mai-mai",
+      "title": "Cầu nguyện mãi mãi",
+      "narrator": "ke-chuyen",
+      "narration": "Cô ngỗng thứ nhất bắt đầu cầu nguyện, thật dài, thật dài: \"Quác! Quác! Quác!\" Cô cứ thế mãi chẳng dứt. Cô ngỗng thứ hai sốt ruột, chẳng đợi đến lượt, cũng cất tiếng: \"Quác! Quác!\" Rồi cô thứ ba, cô thứ tư, chẳng mấy chốc cả đàn cùng kêu vang đồng cỏ. Cáo ngồi chờ, chờ mãi, chờ mãi. Còn câu chuyện thì sao? Khi nào đàn ngỗng cầu nguyện xong, câu chuyện sẽ được kể tiếp. Nhưng đến tận bây giờ, chúng vẫn đang cầu nguyện, chưa ngừng lấy một giây.",
+      "subtitles": [
+        "Cô ngỗng thứ nhất bắt đầu cầu nguyện, thật dài, thật dài: \"Quác! Quác! Quác!\"",
+        "Cô cứ thế mãi chẳng dứt.",
+        "Cô ngỗng thứ hai sốt ruột, chẳng đợi đến lượt, cũng cất tiếng: \"Quác! Quác!\"",
+        "Rồi cô thứ ba, cô thứ tư, chẳng mấy chốc cả đàn cùng kêu vang đồng cỏ.",
+        "Cáo ngồi chờ, chờ mãi, chờ mãi. Còn câu chuyện thì sao?",
+        "Khi nào đàn ngỗng cầu nguyện xong, câu chuyện sẽ được kể tiếp.",
+        "Nhưng đến tận bây giờ, chúng vẫn đang cầu nguyện, chưa ngừng lấy một giây."
+      ],
+      "image": {
+        "prompt": "the whole flock of white geese honking together with beaks raised to the sky, the red fox sitting bored with his chin on his paw as the sun sets over the meadow",
+        "seed": 3696920352,
+        "character": "cao"
+      },
+      "video": {
+        "motionPrompt": "all the geese honk with beaks to the sky, the fox yawns and rests his chin on his paw, the sun slowly sinks, the stars begin to twinkle",
+        "seed": 959277576
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful light orchestral children's music, a sneaky bassoon and pizzicato theme for the fox, honking clarinets and oboes for the geese, a funny ever-repeating round at the end that never quite finishes, instrumental, no vocals",
+    "durationSeconds": 80,
+    "seed": 3152459739
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "slug": "hoa-giot-tuyet",
+  "shelf": "world",
+  "title": "Hoa giọt tuyết",
+  "summary": "Nghe lời tia nắng gọi, bông hoa giọt tuyết nhỏ vội vàng nhô lên khỏi lớp tuyết dày khi mùa hè còn xa lắm. Bị gió rét chê là \"đồ khờ mùa hè\", bông hoa vẫn kiên nhẫn đứng thẳng, rồi đi một chuyến kỳ lạ qua lá thư, chiếc hộp và cuốn sách thơ. Truyện cổ Andersen về niềm tin và sự can đảm của kẻ đến sớm, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-nhien",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Hans Christian Andersen \"Sommergjækken\", thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Snowdrop\" trong Fairy Tales of Hans Christian Andersen trên Project Gutenberg. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; chuyện tình của cô gái được kể gọn thành chuyện hai người bạn, giữ nguyên cốt truyện.",
+  "basedOn": "Truyện cổ Andersen",
+  "style": "classic nineteenth-century Danish picture-book illustration in the style of Andersen fairy tales, soft watercolor and fine ink lines, snowy Danish gardens, a tiny white snowdrop flower with a gentle face, golden sunbeams drawn as small glowing friends, cozy rooms with old books, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "giot-tuyet",
+      "name": "Hoa giọt tuyết",
+      "seed": 2288822968,
+      "sheetPrompt": "a tiny delicate snowdrop flower with a drooping white bell-shaped blossom with thin green stripes, narrow green leaves, a gentle shy face in the petals, cute storybook style, full view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "co-be",
+      "name": "Cô gái nhỏ",
+      "seed": 2887126894,
+      "sheetPrompt": "a young Danish girl from the nineteenth century, light brown hair with a ribbon, a warm wool dress and shawl, playful teasing smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ngu-duoi-tuyet",
+      "title": "Ngủ dưới tuyết",
+      "narrator": "ke-chuyen",
+      "narration": "Đang giữa mùa đông. Ngoài trời lạnh buốt, gió rít từng cơn, nhưng sâu dưới lớp tuyết, trong chiếc củ nhỏ, có một bông hoa đang nằm ấm áp. Một hôm, mưa rơi. Những giọt mưa thấm qua tuyết, chạm vào củ hoa, kể cho hoa nghe về thế giới tươi sáng phía trên. Rồi một tia nắng xuyên qua lớp tuyết, gõ cửa. Bông hoa gọi: \"Mời vào!\" Tia nắng đáp: \"Tôi chưa đủ sức mở cửa đâu. Đợi mùa hè, tôi sẽ mạnh.\" Bông hoa hỏi mãi: \"Bao giờ mới đến mùa hè?\" Lần nào có tia nắng ghé, hoa cũng hỏi như thế.",
+      "subtitles": [
+        "Đang giữa mùa đông.",
+        "Ngoài trời lạnh buốt, gió rít từng cơn, nhưng sâu dưới lớp tuyết,",
+        "trong chiếc củ nhỏ, có một bông hoa đang nằm ấm áp. Một hôm, mưa rơi.",
+        "Những giọt mưa thấm qua tuyết, chạm vào củ hoa,",
+        "kể cho hoa nghe về thế giới tươi sáng phía trên.",
+        "Rồi một tia nắng xuyên qua lớp tuyết, gõ cửa. Bông hoa gọi: \"Mời vào!\"",
+        "Tia nắng đáp: \"Tôi chưa đủ sức mở cửa đâu. Đợi mùa hè, tôi sẽ mạnh.\"",
+        "Bông hoa hỏi mãi: \"Bao giờ mới đến mùa hè?\"",
+        "Lần nào có tia nắng ghé, hoa cũng hỏi như thế."
+      ],
+      "image": {
+        "prompt": "a cross-section of a snowy garden showing a small flower bulb sleeping warmly underground, raindrops and a golden sunbeam reaching down through the snow to knock on it",
+        "seed": 3077041993,
+        "character": "giot-tuyet"
+      },
+      "video": {
+        "motionPrompt": "raindrops trickle down through the snow, a golden sunbeam glows and taps on the bulb, the bulb stirs gently",
+        "seed": 4242422649
+      },
+      "voice": {}
+    },
+    {
+      "id": "vuon-len",
+      "title": "Vươn lên khỏi tuyết",
+      "narrator": "ke-chuyen",
+      "narration": "\"Lâu quá, lâu quá!\" bông hoa than. \"Ta thấy trong mình cựa quậy, ta phải vươn mình, phải mở cửa ra, phải chào buổi sáng mùa hè!\" Thế là hoa duỗi người, đẩy qua lớp vỏ mềm, vươn lên khỏi tuyết với chiếc nụ trắng xanh trên thân xanh, mấy chiếc lá dày ôm lấy như che chở. Các tia nắng reo: \"Chào mừng, chào mừng!\" Chúng vuốt ve hoa cho đến khi hoa nở bung, trắng như tuyết, điểm những sọc xanh. \"Bạn là bông hoa đầu tiên, là chiếc chuông báo mùa hè!\" Bông hoa cúi đầu, vừa vui sướng vừa khiêm nhường.",
+      "subtitles": [
+        "\"Lâu quá, lâu quá!\" bông hoa than. \"Ta thấy trong mình cựa quậy,",
+        "ta phải vươn mình, phải mở cửa ra, phải chào buổi sáng mùa hè!\"",
+        "Thế là hoa duỗi người, đẩy qua lớp vỏ mềm,",
+        "vươn lên khỏi tuyết với chiếc nụ trắng xanh trên thân xanh,",
+        "mấy chiếc lá dày ôm lấy như che chở. Các tia nắng reo: \"Chào mừng, chào mừng!\"",
+        "Chúng vuốt ve hoa cho đến khi hoa nở bung, trắng như tuyết,",
+        "điểm những sọc xanh. \"Bạn là bông hoa đầu tiên, là chiếc chuông báo mùa hè!\"",
+        "Bông hoa cúi đầu, vừa vui sướng vừa khiêm nhường."
+      ],
+      "image": {
+        "prompt": "a tiny white snowdrop pushing up through the snow and opening its bell-shaped blossom, cheerful golden sunbeams dancing around it like little friends, a bright winter morning",
+        "seed": 2081597823,
+        "character": "giot-tuyet"
+      },
+      "video": {
+        "motionPrompt": "the snowdrop rises through the snow and slowly opens, sunbeams swirl around it, sparkles drift in the cold air",
+        "seed": 4031464233
+      },
+      "voice": {}
+    },
+    {
+      "id": "gio-ret",
+      "title": "Gió rét chê cười",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng mùa hè còn xa lắm. Mây kéo đến che mặt trời, gió lạnh thổi về. Gió và mưa tuyết mắng: \"Mày đến sớm quá! Lẽ ra phải ngồi yên trong nhà. Tia nắng chỉ trêu mày thôi. Đồ khờ mùa hè!\" Những ngày ấy chẳng có lấy một tia nắng, rét đến mức tưởng bông hoa nhỏ phải gãy đôi. Nhưng hoa mạnh mẽ hơn chính mình tưởng. Hoa tin rằng mùa hè chắc chắn sẽ đến, nên cứ đứng thẳng trong tấm áo trắng, khẽ cúi đầu khi tuyết rơi dày và gió buốt lướt qua.",
+      "subtitles": [
+        "Nhưng mùa hè còn xa lắm. Mây kéo đến che mặt trời, gió lạnh thổi về.",
+        "Gió và mưa tuyết mắng: \"Mày đến sớm quá! Lẽ ra phải ngồi yên trong nhà.",
+        "Tia nắng chỉ trêu mày thôi. Đồ khờ mùa hè!\"",
+        "Những ngày ấy chẳng có lấy một tia nắng, rét đến mức tưởng bông hoa nhỏ phải gãy đôi.",
+        "Nhưng hoa mạnh mẽ hơn chính mình tưởng.",
+        "Hoa tin rằng mùa hè chắc chắn sẽ đến, nên cứ đứng thẳng trong tấm áo trắng,",
+        "khẽ cúi đầu khi tuyết rơi dày và gió buốt lướt qua."
+      ],
+      "image": {
+        "prompt": "a small white snowdrop standing bravely in a snowstorm, gray clouds and swirling snowflakes, grumpy wind drawn as puffing cloud faces, the flower bowing its head but staying upright",
+        "seed": 3549093708,
+        "character": "giot-tuyet"
+      },
+      "video": {
+        "motionPrompt": "snowflakes swirl thickly, the wind clouds puff and blow, the little snowdrop bends low and slowly lifts its head again",
+        "seed": 4203818458
+      },
+      "voice": {}
+    },
+    {
+      "id": "vao-nha-am",
+      "title": "Vào căn phòng ấm",
+      "narrator": "ke-chuyen",
+      "narration": "Một sáng giá lạnh, có tiếng trẻ con reo vui: \"Ôi, hoa giọt tuyết kìa! Đẹp quá, đẹp quá! Bông đầu tiên, bông duy nhất!\" Những lời ấy như tia nắng ấm sưởi lòng bông hoa, vui đến mức hoa chẳng thấy gì khi được hái lên. Hoa nằm trong bàn tay nhỏ, được một đôi môi trẻ thơ hôn khẽ, được mang vào căn phòng ấm áp và cắm vào cốc nước. Hoa tưởng mình đã gặp được mùa hè.",
+      "subtitles": [
+        "Một sáng giá lạnh, có tiếng trẻ con reo vui: \"Ôi, hoa giọt tuyết kìa!",
+        "Đẹp quá, đẹp quá! Bông đầu tiên, bông duy nhất!\"",
+        "Những lời ấy như tia nắng ấm sưởi lòng bông hoa,",
+        "vui đến mức hoa chẳng thấy gì khi được hái lên.",
+        "Hoa nằm trong bàn tay nhỏ, được một đôi môi trẻ thơ hôn khẽ,",
+        "được mang vào căn phòng ấm áp và cắm vào cốc nước.",
+        "Hoa tưởng mình đã gặp được mùa hè."
+      ],
+      "image": {
+        "prompt": "happy children in winter coats discovering a snowdrop in a snowy garden, then the flower standing in a glass of water on a windowsill of a cozy warm Danish room",
+        "seed": 4139705340,
+        "character": "giot-tuyet"
+      },
+      "video": {
+        "motionPrompt": "children clap and point at the flower, then the snowdrop rests in a glass of water, steam rises softly from a teacup nearby",
+        "seed": 4021500656
+      },
+      "voice": {}
+    },
+    {
+      "id": "la-thu",
+      "title": "Lá thư có hoa",
+      "narrator": "ke-chuyen",
+      "narration": "Cô con gái nhà ấy có một người bạn trai đang miệt mài học thi. Cô nghĩ ra một trò đùa: \"Bông hoa này sẽ làm anh ấy thành đồ khờ mùa hè!\" Cô đặt hoa vào một tờ giấy thơm, trên đó viết mấy câu thơ trêu bạn, gấp lại thành lá thư. Trong phong thư tối om như hồi còn nằm trong củ, hoa đi qua túi thư, bị ép chặt chẳng dễ chịu gì. Nhưng rồi chuyến đi cũng xong. Chàng trai mở thư, đọc, vui lắm, cất lá thư cùng bông hoa vào một chiếc hộp đựng nhiều bài thơ khác. Chỉ có bài thơ này là có hoa.",
+      "subtitles": [
+        "Cô con gái nhà ấy có một người bạn trai đang miệt mài học thi.",
+        "Cô nghĩ ra một trò đùa: \"Bông hoa này sẽ làm anh ấy thành đồ khờ mùa hè!\"",
+        "Cô đặt hoa vào một tờ giấy thơm, trên đó viết mấy câu thơ trêu bạn, gấp lại thành lá thư.",
+        "Trong phong thư tối om như hồi còn nằm trong củ,",
+        "hoa đi qua túi thư, bị ép chặt chẳng dễ chịu gì. Nhưng rồi chuyến đi cũng xong.",
+        "Chàng trai mở thư, đọc, vui lắm,",
+        "cất lá thư cùng bông hoa vào một chiếc hộp đựng nhiều bài thơ khác.",
+        "Chỉ có bài thơ này là có hoa."
+      ],
+      "image": {
+        "prompt": "a young girl at a writing desk folding a scented letter with a pressed snowdrop inside, then a young student smiling as he opens the letter by candlelight and places it in a wooden box",
+        "seed": 2782030050,
+        "character": "co-be"
+      },
+      "video": {
+        "motionPrompt": "the girl folds the letter with a playful smile, candlelight flickers, the student opens it and laughs softly, the box lid closes",
+        "seed": 659829194
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuon-sach-tho",
+      "title": "Trong cuốn sách thơ",
+      "narrator": "ke-chuyen",
+      "narration": "Mùa hè qua, mùa đông qua, mùa hè lại đến. Một hôm, chàng trai mở hộp, không vui nữa, vì cô bạn đã chơi thân với người khác. Chàng bỏ những bài thơ vào lò sưởi, còn bông hoa khô dẹt rơi xuống sàn. Sáng hôm sau, cô giúp việc quét nhà nhặt được, tưởng hoa rơi từ sách, liền kẹp vào một cuốn sách thơ trên bàn. Nhiều năm sau, có người mở sách ra đọc: \"Ồ, một bông giọt tuyết! Ông nhà thơ này cũng như hoa, đến sớm trước thời của mình, chịu gió lạnh, nhưng là người đầu tiên cất tiếng hát.\" Bông hoa được kẹp lại trong sách, thấy mình thật vinh dự. Đó là chuyện về hoa giọt tuyết.",
+      "subtitles": [
+        "Mùa hè qua, mùa đông qua, mùa hè lại đến.",
+        "Một hôm, chàng trai mở hộp, không vui nữa, vì cô bạn đã chơi thân với người khác.",
+        "Chàng bỏ những bài thơ vào lò sưởi, còn bông hoa khô dẹt rơi xuống sàn.",
+        "Sáng hôm sau, cô giúp việc quét nhà nhặt được,",
+        "tưởng hoa rơi từ sách, liền kẹp vào một cuốn sách thơ trên bàn.",
+        "Nhiều năm sau, có người mở sách ra đọc: \"Ồ, một bông giọt tuyết!",
+        "Ông nhà thơ này cũng như hoa, đến sớm trước thời của mình,",
+        "chịu gió lạnh, nhưng là người đầu tiên cất tiếng hát.\"",
+        "Bông hoa được kẹp lại trong sách, thấy mình thật vinh dự.",
+        "Đó là chuyện về hoa giọt tuyết."
+      ],
+      "image": {
+        "prompt": "a pressed flat snowdrop lying between the pages of an old leather-bound poetry book, an old gentleman reading in a cozy library with warm lamplight, gently smiling at the flower",
+        "seed": 97473646,
+        "character": "giot-tuyet"
+      },
+      "video": {
+        "motionPrompt": "old book pages turn slowly, the pressed snowdrop is revealed, the reader smiles and closes the book gently, lamplight glows",
+        "seed": 1971811544
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "delicate Danish winter fairy-tale music, a solo music box and celesta for the sleeping bulb, a hopeful flute when the flower blooms, a cold wistful violin for the wind, a gentle warm piano and strings at the end, instrumental, no vocals",
+    "durationSeconds": 130,
+    "seed": 538503102
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "slug": "su-tu-gau-va-cao",
+  "shelf": "world",
+  "title": "Sư tử, gấu và cáo",
+  "summary": "Sư tử và gấu cùng tìm thấy một miếng mồi ngon, rồi tranh nhau tới mức kiệt sức nằm lăn ra đất, để bác cáo nhẹ nhàng ôm phần thưởng đi mất. Ngụ ngôn Aesop về cái giá của tranh giành.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21, và bản V. S. Vernon Jones 1912, Project Gutenberg #11339), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, a sunny forest clearing with tall grass, oak trees and a fallen log, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "su-tu",
+      "name": "Sư tử",
+      "seed": 236745266,
+      "sheetPrompt": "a big golden lion with a fluffy mane and a proud, stubborn expression, friendly cartoonish storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "gau",
+      "name": "Gấu nâu",
+      "seed": 3712518372,
+      "sheetPrompt": "a large round brown bear with small ears and a grumpy but good-natured face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cao",
+      "name": "Bác cáo",
+      "seed": 259063106,
+      "sheetPrompt": "a slim sly orange fox with a bushy tail and a mischievous smile, comical rather than menacing, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tim-thay",
+      "title": "Cùng tìm thấy",
+      "narrator": "ke-chuyen",
+      "narration": "Một buổi sáng, sư tử và gấu nâu cùng đi kiếm ăn trong rừng. Đến một bãi cỏ, cả hai cùng lúc nhìn thấy một tảng thịt nướng thơm lừng, chắc là của ai đánh rơi. Sư tử chồm tới: “Của ta! Ta thấy trước!” Gấu cũng lao vào: “Không, của ta! Mũi ta ngửi thấy trước!” Hai con vật to lớn đứng gầm gừ, chẳng ai chịu nhường ai.",
+      "subtitles": [
+        "Một buổi sáng, sư tử và gấu nâu cùng đi kiếm ăn trong rừng.",
+        "Đến một bãi cỏ, cả hai cùng lúc nhìn thấy một tảng thịt nướng thơm lừng,",
+        "chắc là của ai đánh rơi.",
+        "Sư tử chồm tới: “Của ta!",
+        "Ta thấy trước!”",
+        "Gấu cũng lao vào: “Không, của ta!",
+        "Mũi ta ngửi thấy trước!”",
+        "Hai con vật to lớn đứng gầm gừ, chẳng ai chịu nhường ai."
+      ],
+      "image": {
+        "prompt": "a lion and a brown bear on opposite sides of a big roasted piece of meat lying on the grass in a forest clearing, both growling at each other comically",
+        "seed": 2789112716
+      },
+      "video": {
+        "motionPrompt": "the lion and the bear lean in towards the meat, noses almost touching, both puffing and growling, leaves rustle above",
+        "seed": 895559548
+      },
+      "voice": {}
+    },
+    {
+      "id": "tranh-nhau",
+      "title": "Tranh nhau",
+      "narrator": "ke-chuyen",
+      "narration": "Thế là cuộc tranh giành bắt đầu. Sư tử kéo bên này, gấu giằng bên kia. Hai đứa xô đẩy nhau, lăn qua bụi cỏ, húc vào gốc cây, làm chim chóc bay tán loạn. Chúng cứ vật nhau như thế từ sáng sớm tới tận trưa, cỏ trên bãi rạp hết, mà vẫn chẳng phân thắng thua.",
+      "subtitles": [
+        "Thế là cuộc tranh giành bắt đầu.",
+        "Sư tử kéo bên này, gấu giằng bên kia.",
+        "Hai đứa xô đẩy nhau, lăn qua bụi cỏ, húc vào gốc cây, làm chim chóc bay tán loạn.",
+        "Chúng cứ vật nhau như thế từ sáng sớm tới tận trưa, cỏ trên bãi rạp hết,",
+        "mà vẫn chẳng phân thắng thua."
+      ],
+      "image": {
+        "prompt": "a lion and a bear tussling and tumbling comically in tall grass, a cloud of dust and leaves, birds flying away from the trees",
+        "seed": 757677129
+      },
+      "video": {
+        "motionPrompt": "the lion and the bear push and roll over each other, dust and leaves swirl, birds flap away from the branches",
+        "seed": 996922848
+      },
+      "voice": {}
+    },
+    {
+      "id": "nam-lan",
+      "title": "Nằm lăn ra đất",
+      "narrator": "ke-chuyen",
+      "narration": "Đến khi mặt trời đứng bóng, cả hai mệt rã rời. Sư tử thở hồng hộc, nằm vật một bên. Gấu bò lết, nằm sóng soài một bên, chẳng còn sức nhấc nổi một ngón chân. Miếng thịt vẫn nằm giữa bãi cỏ, chẳng ai với tới được. Lúc ấy, từ trong bụi rậm, có một đôi mắt sáng đang lặng lẽ nhìn ra.",
+      "subtitles": [
+        "Đến khi mặt trời đứng bóng, cả hai mệt rã rời.",
+        "Sư tử thở hồng hộc, nằm vật một bên.",
+        "Gấu bò lết, nằm sóng soài một bên, chẳng còn sức nhấc nổi một ngón chân.",
+        "Miếng thịt vẫn nằm giữa bãi cỏ, chẳng ai với tới được.",
+        "Lúc ấy, từ trong bụi rậm, có một đôi mắt sáng đang lặng lẽ nhìn ra."
+      ],
+      "image": {
+        "prompt": "an exhausted lion and an exhausted bear lying flat on their backs on trampled grass, tongues out, the piece of meat between them, a fox peeking from a bush",
+        "seed": 3898948108
+      },
+      "video": {
+        "motionPrompt": "the lion and the bear pant heavily on the ground, their bellies rise and fall, a fox's ears and eyes peek out of the bush",
+        "seed": 3498389830
+      },
+      "voice": {}
+    },
+    {
+      "id": "cao-om-di",
+      "title": "Cáo ôm phần thưởng",
+      "narrator": "ke-chuyen",
+      "narration": "Đó là bác cáo. Thấy hai kẻ to xác nằm bẹp, cáo thong thả bước ra giữa bãi, nhặt miếng thịt lên, cúi chào thật lịch sự: “Cảm ơn hai bác đã giữ hộ cháu nhé!” Rồi cáo ung dung đi vào rừng. Sư tử và gấu chỉ biết trố mắt nhìn theo, cùng thở dài: “Giá mà lúc nãy chúng mình chia đôi cho nhau.” Các bạn nhỏ ạ, mải tranh giành thì kẻ khác hưởng lợi đấy.",
+      "subtitles": [
+        "Đó là bác cáo.",
+        "Thấy hai kẻ to xác nằm bẹp, cáo thong thả bước ra giữa bãi, nhặt miếng thịt lên,",
+        "cúi chào thật lịch sự: “Cảm ơn hai bác đã giữ hộ cháu nhé!”",
+        "Rồi cáo ung dung đi vào rừng.",
+        "Sư tử và gấu chỉ biết trố mắt nhìn theo, cùng thở dài:",
+        "“Giá mà lúc nãy chúng mình chia đôi cho nhau.”",
+        "Các bạn nhỏ ạ, mải tranh giành thì kẻ khác hưởng lợi đấy."
+      ],
+      "image": {
+        "prompt": "a cheeky fox trotting away into the forest carrying a piece of meat, bowing politely, while a tired lion and bear watch from the ground with wide eyes",
+        "seed": 1992664742
+      },
+      "video": {
+        "motionPrompt": "the fox picks up the meat, gives a little bow and trots off with tail held high, the lion and the bear lift their heads and sigh",
+        "seed": 1110307609
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful forest storybook music, tuba and bassoon for the lumbering lion and bear tussle, a sneaky pizzicato fox theme, a gentle sigh at the end, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 889991953
+  }
+}

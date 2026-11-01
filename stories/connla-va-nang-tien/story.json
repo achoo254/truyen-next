@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "slug": "connla-va-nang-tien",
+  "shelf": "world",
+  "title": "Connla và nàng tiên",
+  "summary": "Hoàng tử Connla tóc đỏ gặp một nàng tiên mà chỉ mình chàng nhìn thấy, mời chàng tới vùng đất nơi không ai già đi. Vua cha nhờ thầy pháp đuổi nàng đi, nhưng quả táo thần nàng để lại khiến chàng nhớ mãi. Truyện cổ Ireland, kể nhẹ cho cả nhà.",
+  "themes": [
+    "than-thoai",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Ireland \"Connla and the Fairy Maiden\", in trong Celtic Fairy Tales của Joseph Jacobs (1892), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, kể nhẹ cho cả nhà, không chép bản dịch nào.",
+  "basedOn": "Truyện cổ Ireland (Joseph Jacobs, 1892)",
+  "style": "classic Celtic fairy tale illustration in the style of early twentieth century Irish picture books, soft watercolor and ink with subtle Celtic knotwork borders, green Irish hills, ancient royal court in cloaks and torcs, a shimmering sea at sunset, luminous gold and emerald palette, dreamy gentle mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "connla",
+      "name": "Hoàng tử Connla",
+      "sheetPrompt": "a handsome young ancient Irish prince with long fiery red hair, a green woollen cloak with a gold brooch, a gold torc at his neck, dreamy longing eyes, full body, front view, plain light background, character reference sheet",
+      "seed": 2878914648
+    },
+    {
+      "id": "nang-tien",
+      "name": "Nàng tiên",
+      "sheetPrompt": "a radiant fairy maiden in a flowing shimmering pale gold and white gown, long silver-blonde hair with a crown of wildflowers, soft glowing light around her, kind smile, full body, front view, plain light background, character reference sheet",
+      "seed": 3359266162
+    },
+    {
+      "id": "vua-conn",
+      "name": "Vua Conn",
+      "sheetPrompt": "a mighty elderly ancient Irish high king with a grey braided beard, heavy crimson cloak, gold crown and torc, worried loving face, full body, front view, plain light background, character reference sheet",
+      "seed": 3708007280
+    },
+    {
+      "id": "coran",
+      "name": "Thầy pháp Coran",
+      "sheetPrompt": "an old Celtic druid with a long white beard, white robe, oak leaf crown and a carved wooden staff, solemn wise face, full body, front view, plain light background, character reference sheet",
+      "seed": 2947533754
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tren-doi-usna",
+      "title": "Trên đồi Usna",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở Ireland, có hoàng tử Connla tóc đỏ như lửa, con trai vua Conn bách chiến. Một hôm, Connla đứng bên cha trên đồi Usna, bỗng thấy một thiếu nữ mặc xiêm áo lạ đi về phía mình. Chàng hỏi: “Nàng từ đâu tới?” Nàng đáp: “Ta tới từ đồng bằng của những người không bao giờ già, nơi không có buồn đau, không có tranh giành, ngày nào cũng như ngày hội. Người ta gọi chúng ta là dân đồi xanh.” Lạ thay, cả triều đình chỉ nghe thấy tiếng nói, chẳng ai nhìn thấy nàng, trừ Connla.",
+      "subtitles": [
+        "Ngày xưa, ở Ireland, có hoàng tử Connla tóc đỏ như lửa, con trai vua Conn bách chiến.",
+        "Một hôm, Connla đứng bên cha trên đồi Usna,",
+        "bỗng thấy một thiếu nữ mặc xiêm áo lạ đi về phía mình.",
+        "Chàng hỏi: “Nàng từ đâu tới?”",
+        "Nàng đáp: “Ta tới từ đồng bằng của những người không bao giờ già, nơi không có buồn đau,",
+        "không có tranh giành, ngày nào cũng như ngày hội.",
+        "Người ta gọi chúng ta là dân đồi xanh.”",
+        "Lạ thay, cả triều đình chỉ nghe thấy tiếng nói, chẳng ai nhìn thấy nàng, trừ Connla."
+      ],
+      "image": {
+        "prompt": "a green hilltop in ancient Ireland, a red-haired young prince beside his royal father and courtiers, a glowing fairy maiden in a shimmering gown approaching that only the prince notices, the others looking around confused",
+        "seed": 2077712629,
+        "character": "nang-tien"
+      },
+      "video": {
+        "motionPrompt": "wind ripples the grass, the fairy glides closer in a soft glow, the prince turns toward her in wonder",
+        "seed": 1267181976
+      },
+      "voice": {}
+    },
+    {
+      "id": "thay-phap-coran",
+      "title": "Thầy pháp Coran",
+      "narrator": "ke-chuyen",
+      "narration": "Vua Conn hỏi: “Con đang nói với ai thế?” Tiếng nàng tiên đáp: “Connla đang nói với một thiếu nữ không bao giờ già. Ta thương Connla, ta mời chàng về đồng bằng Moy Mell, nơi chàng sẽ trẻ mãi.” Nhà vua lo sợ, vội gọi thầy pháp Coran: “Có kẻ vô hình muốn mang con trai yêu của ta đi. Thầy hãy giúp ta!” Thầy Coran bước ra, cất tiếng niệm chú về phía có tiếng nói. Tiếng nàng tiên lặng đi, Connla cũng không còn thấy nàng. Nhưng trước khi biến mất, nàng ném cho chàng một quả táo.",
+      "subtitles": [
+        "Vua Conn hỏi: “Con đang nói với ai thế?”",
+        "Tiếng nàng tiên đáp: “Connla đang nói với một thiếu nữ không bao giờ già.",
+        "Ta thương Connla, ta mời chàng về đồng bằng Moy Mell, nơi chàng sẽ trẻ mãi.”",
+        "Nhà vua lo sợ, vội gọi thầy pháp Coran: “Có kẻ vô hình muốn mang con trai yêu của ta đi.",
+        "Thầy hãy giúp ta!”",
+        "Thầy Coran bước ra, cất tiếng niệm chú về phía có tiếng nói.",
+        "Tiếng nàng tiên lặng đi, Connla cũng không còn thấy nàng.",
+        "Nhưng trước khi biến mất, nàng ném cho chàng một quả táo."
+      ],
+      "image": {
+        "prompt": "an old white-bearded druid raising his carved staff and chanting toward a shimmer of light on the hill, the king watching anxiously, the fairy fading like mist while tossing a shining red apple to the prince",
+        "seed": 1753593515,
+        "character": "coran"
+      },
+      "video": {
+        "motionPrompt": "the druid chants with raised staff, the glowing figure fades into mist, a red apple arcs through the air into the prince hands",
+        "seed": 3577769956
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-tao-than",
+      "title": "Quả táo thần",
+      "narrator": "ke-chuyen",
+      "narration": "Suốt một tháng trời từ hôm ấy, Connla không ăn uống gì khác, chỉ ăn quả táo ấy. Lạ thay, chàng ăn bao nhiêu, quả táo lại đầy đặn bấy nhiêu, chẳng bao giờ vơi. Và càng ngày, trong lòng Connla càng dâng lên nỗi nhớ mong nàng tiên chàng đã gặp. Chàng ít nói hẳn, cứ ngồi nhìn về phía những ngọn đồi xanh.",
+      "subtitles": [
+        "Suốt một tháng trời từ hôm ấy, Connla không ăn uống gì khác, chỉ ăn quả táo ấy.",
+        "Lạ thay, chàng ăn bao nhiêu, quả táo lại đầy đặn bấy nhiêu, chẳng bao giờ vơi.",
+        "Và càng ngày, trong lòng Connla càng dâng lên nỗi nhớ mong nàng tiên chàng đã gặp.",
+        "Chàng ít nói hẳn, cứ ngồi nhìn về phía những ngọn đồi xanh."
+      ],
+      "image": {
+        "prompt": "the red-haired prince sitting alone by a window in a round ancient Irish hall, holding a glowing red apple that is whole again after each bite, gazing out toward the green hills with longing",
+        "seed": 3328244875,
+        "character": "connla"
+      },
+      "video": {
+        "motionPrompt": "he takes a bite and the apple glows and becomes whole again, he sighs and gazes out at drifting clouds",
+        "seed": 1968913930
+      },
+      "voice": {}
+    },
+    {
+      "id": "lan-thu-hai",
+      "title": "Nàng tiên trở lại",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày cuối tháng, Connla đứng bên cha trên đồng Arcomin, thì nàng tiên lại hiện ra: “Hỡi Connla, mọi người ở xứ trẻ mãi đều mong chàng tới.” Vua Conn lại toan gọi thầy Coran, nhưng nàng tiên nói phép của thầy pháp không làm gì được nàng nữa. Nhà vua quay sang hỏi con: “Con có muốn đi theo nàng không?” Connla đáp: “Thật khó cho con, cha ạ. Con thương gia đình mình hơn hết thảy, nhưng con lại nhớ nàng biết bao.”",
+      "subtitles": [
+        "Ngày cuối tháng, Connla đứng bên cha trên đồng Arcomin, thì nàng tiên lại hiện ra:",
+        "“Hỡi Connla, mọi người ở xứ trẻ mãi đều mong chàng tới.”",
+        "Vua Conn lại toan gọi thầy Coran,",
+        "nhưng nàng tiên nói phép của thầy pháp không làm gì được nàng nữa.",
+        "Nhà vua quay sang hỏi con: “Con có muốn đi theo nàng không?”",
+        "Connla đáp: “Thật khó cho con, cha ạ.",
+        "Con thương gia đình mình hơn hết thảy, nhưng con lại nhớ nàng biết bao.”"
+      ],
+      "image": {
+        "prompt": "a wide plain by the sea, the worried old king holding his son by the shoulder, the fairy maiden appearing again in soft golden light, the prince torn between them with tears in his eyes",
+        "seed": 2438022371,
+        "character": "vua-conn"
+      },
+      "video": {
+        "motionPrompt": "the king grips his son shoulder, the fairy holds out her hand, the prince looks from one to the other",
+        "seed": 3734832989
+      },
+      "voice": {}
+    },
+    {
+      "id": "thuyen-pha-le",
+      "title": "Chiếc thuyền pha lê",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng tiên nói: “Biển cả cũng không mạnh bằng nỗi nhớ của chàng. Hãy lên chiếc thuyền pha lê của ta. Trước khi mặt trời lặn, chúng ta sẽ tới xứ sở ấy.” Nghe vậy, Connla chạy vụt đi, nhảy lên chiếc thuyền pha lê sáng lấp lánh. Vua và cả triều đình đứng trên bờ, nhìn con thuyền lướt nhẹ trên mặt biển, về phía mặt trời lặn. Thuyền xa dần, xa dần, tới khi không ai nhìn thấy nữa. Từ đó, không ai còn gặp lại Connla, chỉ biết chàng đã theo nàng tiên về xứ sở nơi không ai già đi.",
+      "subtitles": [
+        "Nàng tiên nói: “Biển cả cũng không mạnh bằng nỗi nhớ của chàng.",
+        "Hãy lên chiếc thuyền pha lê của ta.",
+        "Trước khi mặt trời lặn, chúng ta sẽ tới xứ sở ấy.”",
+        "Nghe vậy, Connla chạy vụt đi, nhảy lên chiếc thuyền pha lê sáng lấp lánh.",
+        "Vua và cả triều đình đứng trên bờ, nhìn con thuyền lướt nhẹ trên mặt biển,",
+        "về phía mặt trời lặn.",
+        "Thuyền xa dần, xa dần, tới khi không ai nhìn thấy nữa.",
+        "Từ đó, không ai còn gặp lại Connla,",
+        "chỉ biết chàng đã theo nàng tiên về xứ sở nơi không ai già đi."
+      ],
+      "image": {
+        "prompt": "a gleaming crystal boat gliding across a golden sea toward the setting sun, the red-haired prince and the glowing fairy maiden standing in it, the king and his court watching from the shore",
+        "seed": 3815724176,
+        "character": "connla"
+      },
+      "video": {
+        "motionPrompt": "the crystal boat glides away over sparkling waves, the sun sinks lower, the figures on shore raise their hands in farewell",
+        "seed": 4142918308
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "ethereal Irish Celtic air, Celtic harp, low whistle and soft bodhran, wistful longing melody rising like sea wind, gentle fading ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3661303336
+  }
+}

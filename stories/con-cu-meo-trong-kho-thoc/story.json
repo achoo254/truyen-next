@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-cu-meo-trong-kho-thoc",
+  "shelf": "world",
+  "title": "Con cú mèo trong kho thóc",
+  "summary": "Một con cú mèo lạc vào kho thóc, và cả thị trấn nhỏ tưởng đó là con quái vật đáng sợ nhất trần đời. Từ anh đầy tớ, ông chủ đến chàng lực sĩ dũng cảm nhất đều run lẩy bẩy trước đôi mắt tròn xoe của chú chim. Truyện cổ Grimm hài hước về nỗi sợ vô cớ, kể vui cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Die Eule\" (Kinder- und Hausmärchen, bản 1857, truyện số 174), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Owl\" của Margaret Hunt trên Project Gutenberg. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: dân thị trấn vẫn đốt kho thóc như bản gốc, nhưng con cú đã kịp bay về rừng từ trước, nên họ chỉ đốt một kho thóc trống.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German picture-book illustration with gentle humor, soft watercolor and fine ink lines, a small old German town with timber-framed houses, a market square and a big wooden barn full of hay, funny frightened townsfolk with pitchforks and rakes, warm daylight, safe comic mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cu-meo",
+      "name": "Cú mèo",
+      "seed": 3615022487,
+      "sheetPrompt": "a large horned owl with round golden eyes, fluffy brown and cream feathers, ear tufts, looking shy and confused, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "luc-si",
+      "name": "Chàng lực sĩ",
+      "seed": 2766046297,
+      "sheetPrompt": "a big burly townsman from an old German town, bushy beard, an old dented helmet and leather jerkin, holding a long wooden pitchfork, comically nervous face, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "khach-la",
+      "title": "Vị khách lạ trong kho",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xửa ngày xưa, khi người ta còn chất phác hơn bây giờ nhiều, ở một thị trấn nhỏ đã xảy ra một chuyện lạ. Một đêm nọ, một con cú mèo to từ khu rừng bên cạnh lạc vào kho thóc của một nhà trong thị trấn. Trời sáng, cú không dám bay ra, vì hễ nó ló mặt là lũ chim khác kêu ầm ĩ, đuổi theo. Thế là cú ngồi im trong góc tối, chờ đêm xuống.",
+      "subtitles": [
+        "Ngày xửa ngày xưa, khi người ta còn chất phác hơn bây giờ nhiều,",
+        "ở một thị trấn nhỏ đã xảy ra một chuyện lạ. Một đêm nọ,",
+        "một con cú mèo to từ khu rừng bên cạnh lạc vào kho thóc của một nhà trong thị trấn.",
+        "Trời sáng, cú không dám bay ra, vì hễ nó ló mặt là lũ chim khác kêu ầm ĩ, đuổi theo.",
+        "Thế là cú ngồi im trong góc tối, chờ đêm xuống."
+      ],
+      "image": {
+        "prompt": "a big wooden barn full of hay at dawn, a large horned owl hiding in a dark corner, small birds outside on the roof chattering at it, a sleepy old town around",
+        "seed": 2233907621,
+        "character": "cu-meo"
+      },
+      "video": {
+        "motionPrompt": "small birds hop and chatter on the barn roof, the owl tucks itself deeper into the shadowy corner and blinks slowly",
+        "seed": 1910194332
+      },
+      "voice": {}
+    },
+    {
+      "id": "anh-day-to",
+      "title": "Anh đầy tớ hoảng hồn",
+      "narrator": "ke-chuyen",
+      "narration": "Buổi sáng, anh đầy tớ vào kho lấy rơm. Vừa thấy con cú ngồi trong góc, đôi mắt tròn đảo qua đảo lại, anh hoảng hồn chạy biến ra ngoài. Anh thở hổn hển báo với chủ: \"Ông ơi, trong kho có con quái vật! Cả đời con chưa từng thấy! Nó nuốt chửng một người dễ như chơi!\" Ông chủ cười khẩy: \"Ta biết tính anh rồi. Đuổi con sáo ngoài đồng thì giỏi, chứ thấy con gà nằm im là phải cầm gậy mới dám lại gần.\"",
+      "subtitles": [
+        "Buổi sáng, anh đầy tớ vào kho lấy rơm.",
+        "Vừa thấy con cú ngồi trong góc, đôi mắt tròn đảo qua đảo lại,",
+        "anh hoảng hồn chạy biến ra ngoài.",
+        "Anh thở hổn hển báo với chủ: \"Ông ơi, trong kho có con quái vật!",
+        "Cả đời con chưa từng thấy! Nó nuốt chửng một người dễ như chơi!\"",
+        "Ông chủ cười khẩy: \"Ta biết tính anh rồi.",
+        "Đuổi con sáo ngoài đồng thì giỏi, chứ thấy con gà nằm im là phải cầm gậy mới dám lại gần.\""
+      ],
+      "image": {
+        "prompt": "a young farmhand running out of a barn in panic with straw flying, his master standing in the yard with arms crossed and a mocking smile",
+        "seed": 181875798
+      },
+      "video": {
+        "motionPrompt": "straw flies everywhere as the farmhand bursts out of the barn, the master shakes his head and chuckles",
+        "seed": 2269481359
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-chu",
+      "title": "Ông chủ cũng chạy",
+      "narrator": "ke-chuyen",
+      "narration": "Ông chủ hiên ngang bước vào kho. Nhưng khi tận mắt nhìn con vật lạ lùng ấy, ông cũng sợ chẳng kém gì anh đầy tớ. Ông nhảy hai bước ra ngoài, chạy sang hàng xóm, van nài: \"Bà con ơi, giúp tôi với! Có con thú dữ lạ lắm trong kho. Nó mà sổng ra thì cả thị trấn gặp nguy!\" Thế là phố xá náo loạn. Người cầm chĩa, người cầm cào, người vác rìu, cứ như sắp ra trận. Cuối cùng, các vị hội đồng cùng ông thị trưởng cũng có mặt.",
+      "subtitles": [
+        "Ông chủ hiên ngang bước vào kho.",
+        "Nhưng khi tận mắt nhìn con vật lạ lùng ấy, ông cũng sợ chẳng kém gì anh đầy tớ.",
+        "Ông nhảy hai bước ra ngoài, chạy sang hàng xóm, van nài: \"Bà con ơi, giúp tôi với!",
+        "Có con thú dữ lạ lắm trong kho. Nó mà sổng ra thì cả thị trấn gặp nguy!\"",
+        "Thế là phố xá náo loạn.",
+        "Người cầm chĩa, người cầm cào, người vác rìu, cứ như sắp ra trận.",
+        "Cuối cùng, các vị hội đồng cùng ông thị trưởng cũng có mặt."
+      ],
+      "image": {
+        "prompt": "a crowd of comical townsfolk gathering in a market square holding pitchforks, rakes and brooms, the mayor in a big feathered hat at the front, timber-framed houses around",
+        "seed": 4066007965
+      },
+      "video": {
+        "motionPrompt": "townsfolk rush in from every street waving pitchforks and rakes, the mayor puffs out his chest, pigeons scatter from the square",
+        "seed": 575891040
+      },
+      "voice": {}
+    },
+    {
+      "id": "vay-kho-thoc",
+      "title": "Vây kín kho thóc",
+      "narrator": "ke-chuyen",
+      "narration": "Cả đám kéo đến vây kín kho thóc. Một người can đảm nhất bước vào, nhưng chỉ lát sau đã chạy ra, mặt trắng bệch, nói không nên lời. Hai người nữa vào thử, cũng chạy ra y như vậy. Bấy giờ, một chàng lực sĩ to lớn, nổi tiếng gan dạ, bước lên: \"Đứng nhìn thì con quái vật đâu có chạy. Các người nhát gan quá! Để ta!\" Chàng đội mũ sắt, mặc giáp, cầm cây chĩa dài. Ai cũng khen chàng dũng cảm.",
+      "subtitles": [
+        "Cả đám kéo đến vây kín kho thóc.",
+        "Một người can đảm nhất bước vào, nhưng chỉ lát sau đã chạy ra,",
+        "mặt trắng bệch, nói không nên lời.",
+        "Hai người nữa vào thử, cũng chạy ra y như vậy.",
+        "Bấy giờ, một chàng lực sĩ to lớn, nổi tiếng gan dạ,",
+        "bước lên: \"Đứng nhìn thì con quái vật đâu có chạy. Các người nhát gan quá!",
+        "Để ta!\" Chàng đội mũ sắt, mặc giáp, cầm cây chĩa dài.",
+        "Ai cũng khen chàng dũng cảm."
+      ],
+      "image": {
+        "prompt": "townsfolk surrounding a big barn, two frightened men running out pale-faced, a burly bearded man in an old helmet stepping forward proudly with a long pitchfork while the crowd cheers",
+        "seed": 1902990045,
+        "character": "luc-si"
+      },
+      "video": {
+        "motionPrompt": "two men stumble out of the barn waving their arms, the burly man straightens his dented helmet, the crowd cheers and claps",
+        "seed": 273156297
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-thang",
+      "title": "Chiếc thang run rẩy",
+      "narrator": "ke-chuyen",
+      "narration": "Cửa kho mở toang. Con cú lúc này đã bay lên đậu giữa xà ngang. Chàng lực sĩ cho dựng thang, bắt đầu leo lên. Bên dưới, mọi người hò hét cổ vũ. Con cú thấy người leo lên, lại nghe ồn ào, sợ quá, liền xù lông, xoè cánh, đảo mắt, gõ mỏ lách cách và kêu: \"Cú cù cu! Cú cù cu!\" Đám đông hô: \"Xông lên! Xông lên!\" Chàng lực sĩ run run đáp: \"Ai đứng chỗ tôi thì đã chẳng hô xông lên!\" Chàng nhích thêm một bậc, rồi run bắn, lả người leo xuống.",
+      "subtitles": [
+        "Cửa kho mở toang. Con cú lúc này đã bay lên đậu giữa xà ngang.",
+        "Chàng lực sĩ cho dựng thang, bắt đầu leo lên. Bên dưới, mọi người hò hét cổ vũ.",
+        "Con cú thấy người leo lên, lại nghe ồn ào, sợ quá, liền xù lông,",
+        "xoè cánh, đảo mắt, gõ mỏ lách cách và kêu: \"Cú cù cu! Cú cù cu!\"",
+        "Đám đông hô: \"Xông lên! Xông lên!\"",
+        "Chàng lực sĩ run run đáp: \"Ai đứng chỗ tôi thì đã chẳng hô xông lên!\"",
+        "Chàng nhích thêm một bậc, rồi run bắn, lả người leo xuống."
+      ],
+      "image": {
+        "prompt": "inside the barn, a horned owl perched on a high wooden crossbeam with feathers puffed and wings spread, the burly man trembling on a tall ladder below, the crowd peeking through the open doors",
+        "seed": 953599557,
+        "character": "cu-meo"
+      },
+      "video": {
+        "motionPrompt": "the owl fluffs its feathers and spreads its wings, the ladder wobbles, the burly man shakes and slowly climbs back down, the crowd gasps",
+        "seed": 2709988676
+      },
+      "voice": {}
+    },
+    {
+      "id": "dot-kho-trong",
+      "title": "Đốt một kho thóc trống",
+      "narrator": "ke-chuyen",
+      "narration": "Không còn ai dám vào nữa. Họ bảo nhau: \"Con quái vật chỉ thở một cái mà người khoẻ nhất cũng xỉu, chúng ta còn dám liều sao?\" Ông thị trưởng nghĩ ra một cách: \"Ta lấy tiền chung của thị trấn trả cho chủ kho, rồi đốt luôn kho thóc là xong.\" Ai cũng gật gù. Nhưng trong lúc họ còn bàn bạc mãi đến khi trời tối, con cú đã lặng lẽ bay qua khe mái, về lại khu rừng quen. Thế là cả thị trấn đốt một kho thóc chẳng còn ai ở trong. Ai không tin, cứ đến đó mà hỏi.",
+      "subtitles": [
+        "Không còn ai dám vào nữa.",
+        "Họ bảo nhau: \"Con quái vật chỉ thở một cái mà người khoẻ nhất cũng xỉu,",
+        "chúng ta còn dám liều sao?\" Ông thị trưởng nghĩ ra một cách:",
+        "\"Ta lấy tiền chung của thị trấn trả cho chủ kho, rồi đốt luôn kho thóc là xong.\"",
+        "Ai cũng gật gù. Nhưng trong lúc họ còn bàn bạc mãi đến khi trời tối,",
+        "con cú đã lặng lẽ bay qua khe mái, về lại khu rừng quen.",
+        "Thế là cả thị trấn đốt một kho thóc chẳng còn ai ở trong.",
+        "Ai không tin, cứ đến đó mà hỏi."
+      ],
+      "image": {
+        "prompt": "evening over the little town, a horned owl flying peacefully away over the rooftops toward a dark green forest under the rising moon, below the townsfolk still arguing around the barn",
+        "seed": 959208723,
+        "character": "cu-meo"
+      },
+      "video": {
+        "motionPrompt": "the owl spreads its wings and glides away over the rooftops under the moon, the townsfolk keep arguing below, soft evening clouds drift",
+        "seed": 1734986761
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "comic German folk music for a funny fairy tale, bouncy tuba and bassoon for the frightened townsfolk, tiptoe pizzicato strings, a mock-heroic brass fanfare for the strongman, a soft calm flute as the owl flies home, instrumental, no vocals",
+    "durationSeconds": 130,
+    "seed": 2510125400
+  }
+}

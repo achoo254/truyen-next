@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "slug": "nguoi-nong-dan-va-con-co",
+  "shelf": "world",
+  "title": "Người nông dân và con cò",
+  "summary": "Người nông dân giăng lưới bắt bầy sếu phá ruộng, và trong lưới có cả một chú cò hiền lành chỉ đi theo bạn. Ngụ ngôn Aesop về chuyện chọn bạn mà chơi.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21, và bản V. S. Vernon Jones 1912, Project Gutenberg #11339), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, in the spirit of old Aesop's fables editions, a freshly sown wheat field in early spring, a thatched farmhouse, willows and a misty river, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "co",
+      "name": "Chú cò",
+      "seed": 3201841416,
+      "sheetPrompt": "a gentle white stork with long red legs, a long orange beak and soft black wingtips, an honest, worried face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nong-dan",
+      "name": "Người nông dân",
+      "seed": 809630282,
+      "sheetPrompt": "a kindly but stern old farmer with a grey beard, a straw hat, a linen shirt and wooden clogs, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ruong-bi-pha",
+      "title": "Ruộng lúa bị phá",
+      "narrator": "ke-chuyen",
+      "narration": "Đầu xuân, người nông dân vừa gieo xong ruộng lúa mì. Thế nhưng sáng nào ra đồng, ông cũng thấy hạt giống bị bới tung, luống đất xơ xác. Thì ra có một bầy sếu đêm nào cũng sà xuống, mổ sạch hạt giống của ông. Ông nông dân thở dài: “Cứ thế này thì mùa này nhà ta chẳng có gì mà ăn.” Ông bèn giăng một tấm lưới lớn khắp ruộng.",
+      "subtitles": [
+        "Đầu xuân, người nông dân vừa gieo xong ruộng lúa mì.",
+        "Thế nhưng sáng nào ra đồng, ông cũng thấy hạt giống bị bới tung, luống đất xơ xác.",
+        "Thì ra có một bầy sếu đêm nào cũng sà xuống, mổ sạch hạt giống của ông.",
+        "Ông nông dân thở dài: “Cứ thế này thì mùa này nhà ta chẳng có gì mà ăn.”",
+        "Ông bèn giăng một tấm lưới lớn khắp ruộng."
+      ],
+      "image": {
+        "character": "nong-dan",
+        "prompt": "an old farmer in a straw hat looking sadly at his freshly sown field full of bird tracks, then stretching a large net over the furrows",
+        "seed": 2704872113
+      },
+      "video": {
+        "motionPrompt": "the farmer kneels to look at the scattered seeds, shakes his head, then stretches a wide net across the field as mist drifts",
+        "seed": 3127263085
+      },
+      "voice": {}
+    },
+    {
+      "id": "theo-ban",
+      "title": "Đi theo bạn",
+      "narrator": "ke-chuyen",
+      "narration": "Gần ruộng có một chú cò hiền lành, chỉ quen bắt cá dưới sông. Mấy hôm nay, chú làm quen với bầy sếu, thấy chúng bay đông vui thì thích lắm. Đêm ấy, bầy sếu rủ: “Cò ơi, đi chơi với bọn tớ!” Cò vui vẻ bay theo, chẳng hỏi đi đâu. Cả bầy sà xuống ruộng lúa mì, và sột soạt, tấm lưới rơi xuống trùm lấy tất cả.",
+      "subtitles": [
+        "Gần ruộng có một chú cò hiền lành, chỉ quen bắt cá dưới sông.",
+        "Mấy hôm nay, chú làm quen với bầy sếu, thấy chúng bay đông vui thì thích lắm.",
+        "Đêm ấy, bầy sếu rủ: “Cò ơi, đi chơi với bọn tớ!”",
+        "Cò vui vẻ bay theo, chẳng hỏi đi đâu.",
+        "Cả bầy sà xuống ruộng lúa mì, và sột soạt, tấm lưới rơi xuống trùm lấy tất cả."
+      ],
+      "image": {
+        "character": "co",
+        "prompt": "a white stork flying together with a flock of grey cranes under the moon down towards a field, a big net falling over them all",
+        "seed": 368938583
+      },
+      "video": {
+        "motionPrompt": "the stork flaps happily among the cranes, they glide down to the field, the net drops softly over the whole flock",
+        "seed": 2957573598
+      },
+      "voice": {}
+    },
+    {
+      "id": "xin-tha",
+      "title": "Lời xin của cò",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng ra, ông nông dân ra đồng, thấy cả bầy sếu mắc lưới, lẫn trong đó có một chú cò. Cò vội kêu lên: “Thưa ông, cháu không phải là sếu đâu ạ. Cháu là cò, cháu chưa hề ăn một hạt thóc nào của ông. Cháu chỉ bắt cá, lại còn bắt sâu bọ giúp mọi người nữa. Xin ông thả cháu ra!”",
+      "subtitles": [
+        "Sáng ra, ông nông dân ra đồng, thấy cả bầy sếu mắc lưới, lẫn trong đó có một chú cò.",
+        "Cò vội kêu lên: “Thưa ông, cháu không phải là sếu đâu ạ.",
+        "Cháu là cò, cháu chưa hề ăn một hạt thóc nào của ông.",
+        "Cháu chỉ bắt cá, lại còn bắt sâu bọ giúp mọi người nữa.",
+        "Xin ông thả cháu ra!”"
+      ],
+      "image": {
+        "character": "co",
+        "prompt": "a worried white stork tangled in a net among grey cranes, pleading with an old farmer in a straw hat standing in the misty morning field",
+        "seed": 213176564
+      },
+      "video": {
+        "motionPrompt": "the stork stretches its long neck and pleads, the cranes flutter in the net, the farmer strokes his beard and listens",
+        "seed": 3332777232
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc",
+      "title": "Bài học của cò",
+      "narrator": "ke-chuyen",
+      "narration": "Ông nông dân gật gù: “Ta tin cháu nói thật. Nhưng ta bắt được cháu ngay giữa bọn phá ruộng, thì cháu cũng phải chịu phạt cùng chúng.” Thế là ông bắt cả bầy ở lại một ngày, nhặt lại hạt giống, vun lại từng luống đất. Chiều tối, ông mới mở lưới, xua bầy sếu bay đi thật xa, không cho quay lại ruộng nữa.",
+      "subtitles": [
+        "Ông nông dân gật gù: “Ta tin cháu nói thật.",
+        "Nhưng ta bắt được cháu ngay giữa bọn phá ruộng, thì cháu cũng phải chịu phạt cùng chúng.”",
+        "Thế là ông bắt cả bầy ở lại một ngày, nhặt lại hạt giống, vun lại từng luống đất.",
+        "Chiều tối, ông mới mở lưới, xua bầy sếu bay đi thật xa, không cho quay lại ruộng nữa."
+      ],
+      "image": {
+        "character": "nong-dan",
+        "prompt": "grey cranes and a white stork working in a field picking up seeds and smoothing furrows under the watchful eye of an old farmer leaning on a hoe",
+        "seed": 1276911345
+      },
+      "video": {
+        "motionPrompt": "the cranes and the stork peck and push the soil back into rows, the farmer leans on his hoe and nods slowly, the sun moves across the sky",
+        "seed": 543722066
+      },
+      "voice": {}
+    },
+    {
+      "id": "chon-ban",
+      "title": "Chọn bạn mà chơi",
+      "narrator": "ke-chuyen",
+      "narration": "Cò bay về bờ sông, mệt nhoài nhưng đã hiểu ra một điều. Từ đó, cò chỉ chơi với những người bạn hiền lành, chăm chỉ. Mùa thu năm ấy, ruộng lúa mì của ông nông dân vàng óng, và ông còn để dành cho cò một góc ao đầy cá. Các bạn nhỏ ạ, chơi với ai thì người ta sẽ nhìn mình như thế, nên phải biết chọn bạn mà chơi.",
+      "subtitles": [
+        "Cò bay về bờ sông, mệt nhoài nhưng đã hiểu ra một điều.",
+        "Từ đó, cò chỉ chơi với những người bạn hiền lành, chăm chỉ.",
+        "Mùa thu năm ấy, ruộng lúa mì của ông nông dân vàng óng,",
+        "và ông còn để dành cho cò một góc ao đầy cá.",
+        "Các bạn nhỏ ạ, chơi với ai thì người ta sẽ nhìn mình như thế,",
+        "nên phải biết chọn bạn mà chơi."
+      ],
+      "image": {
+        "character": "co",
+        "prompt": "a white stork standing happily in a pond by a golden wheat field in autumn, the old farmer waving from the field, warm sunset light",
+        "seed": 240259433
+      },
+      "video": {
+        "motionPrompt": "the wheat ripples golden in the wind, the stork catches a little fish, the farmer waves his hat and smiles",
+        "seed": 3828774770
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle pastoral storybook music, oboe and acoustic guitar, a soft fluttering flute for the birds, a thoughtful middle passage, a warm golden harvest ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1934155455
+  }
+}
