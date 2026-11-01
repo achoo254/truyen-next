@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "slug": "cao-va-meo",
+  "shelf": "world",
+  "title": "Cáo và mèo",
+  "summary": "Cáo kiêu ngạo khoe mình có một trăm mưu mẹo, chê mèo chỉ biết mỗi một cách trèo cây. Nhưng khi đàn chó săn ập tới, mới biết một tài thật còn hơn trăm lời khoe. Truyện ngụ ngôn Grimm ngắn kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der Fuchs und die Katze\" (Kinder- und Hausmärchen, bản 1857, truyện số 75), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Fox and the Cat\" của Margaret Hunt. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: cuối truyện cáo chỉ bị đàn chó vây chặt và người thợ săn bắt đi, không nói đến cái chết của cáo.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, an autumn forest with golden leaves and tall oaks, expressive friendly animal characters, warm amber light, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "meo",
+      "name": "Mèo",
+      "seed": 2076116679,
+      "sheetPrompt": "a modest tabby cat with a white chest and white paws, neat whiskers, polite gentle face, sitting upright, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cao",
+      "name": "Cáo",
+      "seed": 131275625,
+      "sheetPrompt": "an arrogant red fox with a fluffy tail and a snooty raised nose, half-closed proud eyes, standing with his chest puffed out, full body, side view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "meo-gap-cao",
+      "title": "Mèo gặp cáo trong rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, chị Mèo đi trong rừng thì gặp anh Cáo. Mèo nghĩ bụng: \"Anh Cáo khôn ngoan, từng trải, ai cũng nể. Mình nên chào hỏi tử tế.\" Mèo bèn cúi đầu, nói thật lễ phép: \"Chào anh Cáo! Anh có khoẻ không? Thời buổi khó khăn này, anh sống ra sao?\"",
+      "subtitles": [
+        "Một hôm, chị Mèo đi trong rừng thì gặp anh Cáo.",
+        "Mèo nghĩ bụng: \"Anh Cáo khôn ngoan, từng trải, ai cũng nể. Mình nên chào hỏi tử tế.\"",
+        "Mèo bèn cúi đầu, nói thật lễ phép:",
+        "\"Chào anh Cáo! Anh có khoẻ không? Thời buổi khó khăn này, anh sống ra sao?\""
+      ],
+      "image": {
+        "prompt": "an autumn forest path covered in golden leaves, a polite tabby cat bowing her head in greeting to a proud red fox who stands with his nose in the air",
+        "seed": 1024854067,
+        "character": "meo"
+      },
+      "video": {
+        "motionPrompt": "golden leaves drift down, the cat dips her head politely, the fox flicks his tail, gentle slow push-in",
+        "seed": 1274160362
+      },
+      "voice": {}
+    },
+    {
+      "id": "mot-tram-mon-vo",
+      "title": "Một trăm mưu mẹo",
+      "narrator": "ke-chuyen",
+      "narration": "Cáo vênh mặt, nhìn Mèo từ đầu đến chân, mãi mới thèm trả lời: \"Hừ, cái đồ suốt ngày liếm râu, cái đồ lông khoang ngốc nghếch, chỉ biết rình chuột! Cô dám hỏi thăm ta à? Cô học được gì? Cô biết bao nhiêu tài?\" \"Em chỉ biết đúng một tài,\" Mèo khiêm tốn đáp. \"Tài gì?\" \"Khi chó săn đuổi, em biết nhảy lên cây mà thoát thân.\" \"Chỉ có thế thôi à?\" Cáo cười khẩy. \"Ta có những một trăm mưu mẹo, lại thêm cả một bao đầy mánh khoé. Thương cô quá! Đi theo ta, ta dạy cho cách tránh lũ chó săn.\"",
+      "subtitles": [
+        "Cáo vênh mặt, nhìn Mèo từ đầu đến chân, mãi mới thèm trả lời:",
+        "\"Hừ, cái đồ suốt ngày liếm râu, cái đồ lông khoang ngốc nghếch, chỉ biết rình chuột!",
+        "Cô dám hỏi thăm ta à? Cô học được gì? Cô biết bao nhiêu tài?\"",
+        "\"Em chỉ biết đúng một tài,\" Mèo khiêm tốn đáp.",
+        "\"Tài gì?\" \"Khi chó săn đuổi, em biết nhảy lên cây mà thoát thân.\"",
+        "\"Chỉ có thế thôi à?\" Cáo cười khẩy. \"Ta có những một trăm mưu mẹo,",
+        "lại thêm cả một bao đầy mánh khoé. Thương cô quá!",
+        "Đi theo ta, ta dạy cho cách tránh lũ chó săn.\""
+      ],
+      "image": {
+        "prompt": "the arrogant red fox laughing and boasting, pointing at a large bulging patched sack on his back, the modest tabby cat listening calmly with her tail curled around her paws",
+        "seed": 1106564083,
+        "character": "cao"
+      },
+      "video": {
+        "motionPrompt": "the fox throws back his head laughing and pats his sack, the cat blinks slowly and calmly, leaves swirl around them",
+        "seed": 246312216
+      },
+      "voice": {}
+    },
+    {
+      "id": "cho-san-den",
+      "title": "Đàn chó săn ập tới",
+      "narrator": "ke-chuyen",
+      "narration": "Vừa lúc ấy, một người thợ săn dẫn bốn con chó đi tới. Đàn chó đánh hơi thấy, sủa vang cả khu rừng. Nhanh như cắt, Mèo nhảy phốc lên một cây cao, ngồi tít trên ngọn, cành lá che kín, chẳng ai nhìn thấy. Mèo gọi xuống: \"Anh Cáo ơi, mở bao ra đi! Mở bao mưu mẹo ra đi!\" Nhưng Cáo cuống quá, chẳng nghĩ ra được mẹo nào, đã bị đàn chó vây chặt.",
+      "subtitles": [
+        "Vừa lúc ấy, một người thợ săn dẫn bốn con chó đi tới.",
+        "Đàn chó đánh hơi thấy, sủa vang cả khu rừng.",
+        "Nhanh như cắt, Mèo nhảy phốc lên một cây cao, ngồi tít trên ngọn,",
+        "cành lá che kín, chẳng ai nhìn thấy.",
+        "Mèo gọi xuống: \"Anh Cáo ơi, mở bao ra đi! Mở bao mưu mẹo ra đi!\"",
+        "Nhưng Cáo cuống quá, chẳng nghĩ ra được mẹo nào, đã bị đàn chó vây chặt."
+      ],
+      "image": {
+        "prompt": "a hunter in a green coat with four eager hounds bounding through the autumn woods, the tabby cat safely hidden high in the leafy top of an oak tree, the startled fox frozen below with his sack",
+        "seed": 2045469310,
+        "character": "meo"
+      },
+      "video": {
+        "motionPrompt": "the hounds bound forward barking, the cat leaps up the trunk and vanishes into the leaves, the fox spins around in panic",
+        "seed": 142247814
+      },
+      "voice": {}
+    },
+    {
+      "id": "mot-tai-that",
+      "title": "Một tài thật",
+      "narrator": "ke-chuyen",
+      "narration": "Người thợ săn tóm lấy Cáo, bỏ vào bao, xách đi. Từ trên ngọn cây, Mèo nói vọng theo: \"Ôi anh Cáo, một trăm mưu mẹo mà vẫn bị bắt! Giá anh biết trèo cây như em, thì giờ này anh đâu có phải khổ.\" Khu rừng lại yên tĩnh. Chỉ còn tiếng lá vàng rơi xào xạc. Và chị Mèo ngồi trên cành cao, biết rằng một tài thật, dùng đúng lúc, còn quý hơn trăm lời khoe khoang.",
+      "subtitles": [
+        "Người thợ săn tóm lấy Cáo, bỏ vào bao, xách đi.",
+        "Từ trên ngọn cây, Mèo nói vọng theo:",
+        "\"Ôi anh Cáo, một trăm mưu mẹo mà vẫn bị bắt!",
+        "Giá anh biết trèo cây như em, thì giờ này anh đâu có phải khổ.\"",
+        "Khu rừng lại yên tĩnh. Chỉ còn tiếng lá vàng rơi xào xạc.",
+        "Và chị Mèo ngồi trên cành cao, biết rằng một tài thật, dùng đúng lúc,",
+        "còn quý hơn trăm lời khoe khoang."
+      ],
+      "image": {
+        "prompt": "the tabby cat sitting safely on a high oak branch watching the hunter walk away along the path with a sack over his shoulder and the hounds trotting behind, a fox tail peeking out of the sack, calm autumn evening",
+        "seed": 3981074639,
+        "character": "cao"
+      },
+      "video": {
+        "motionPrompt": "the hunter walks away into the distance, golden leaves fall, the cat settles comfortably on the branch and closes her eyes",
+        "seed": 4198475910
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "short playful German fable music, a sly bassoon theme for the boastful fox, delicate pizzicato for the cat, a quick hunting horn call, ending calm with soft autumn strings, instrumental, no vocals",
+    "durationSeconds": 90,
+    "seed": 906850599
+  }
+}

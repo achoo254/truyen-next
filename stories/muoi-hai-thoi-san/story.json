@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "slug": "muoi-hai-thoi-san",
+  "shelf": "world",
+  "title": "Mười hai người thợ săn",
+  "summary": "Bị chàng hoàng tử hứa hôn với người khác, nàng công chúa cùng mười một cô gái giống hệt mình cải trang thành mười hai người thợ săn vào cung. Con sư tử biết mọi điều bí mật bày đủ cách vạch mặt, nhưng chiếc nhẫn kỷ niệm mới là thứ nói lên sự thật. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Die zwölf Jäger\" (Kinder- und Hausmärchen, bản 1857, truyện số 67), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Twelve Huntsmen\" của Margaret Hunt. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể theo sát cốt truyện, chỉ kể vòng qua việc vua cha qua đời bằng lời nhẹ nhàng.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a grand royal castle, green hunting forests and sunlit halls, elegant huntsmen costumes in forest green, a noble golden lion, warm light, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cong-chua",
+      "name": "Nàng công chúa",
+      "seed": 4128852055,
+      "sheetPrompt": "a brave graceful princess from a German fairy tale disguised as a young huntsman, long golden hair tucked under a forest-green feathered hunting hat, green huntsman coat with a leather belt and gloves, a hunting horn, gentle determined face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nha-vua",
+      "name": "Chàng vua trẻ",
+      "seed": 2826058304,
+      "sheetPrompt": "a young king from a German fairy tale with dark wavy hair and a neat short beard, a slim gold crown, a deep red velvet coat with gold embroidery, riding boots, kind but troubled eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "su-tu",
+      "name": "Sư tử",
+      "seed": 4105151129,
+      "sheetPrompt": "a wise majestic golden lion from a German fairy tale with a thick flowing mane, calm knowing eyes, sitting proudly, gentle and noble rather than fierce, full body, side view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "chiec-nhan-ky-niem",
+      "title": "Chiếc nhẫn kỷ niệm",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một chàng hoàng tử yêu thương nàng vị hôn thê của mình. Một hôm đang ngồi bên nàng, chàng nhận tin vua cha ốm nặng, muốn gặp con lần cuối. Chàng nói: \"Ta phải đi. Ta tặng nàng chiếc nhẫn này để nhớ đến ta. Khi lên làm vua, ta sẽ quay lại đón nàng.\" Về đến nơi, vua cha yếu lắm, nắm tay chàng dặn: \"Con hãy hứa cưới người cha chọn,\" rồi ngài nói tên một nàng công chúa khác. Chàng rối bời, chẳng kịp nghĩ, đáp: \"Vâng, con xin vâng lời cha.\" Vua cha mỉm cười, nhắm mắt, yên nghỉ mãi mãi.",
+      "subtitles": [
+        "Ngày xưa, có một chàng hoàng tử yêu thương nàng vị hôn thê của mình.",
+        "Một hôm đang ngồi bên nàng, chàng nhận tin vua cha ốm nặng, muốn gặp con lần cuối.",
+        "Chàng nói: \"Ta phải đi. Ta tặng nàng chiếc nhẫn này để nhớ đến ta.",
+        "Khi lên làm vua, ta sẽ quay lại đón nàng.\"",
+        "Về đến nơi, vua cha yếu lắm, nắm tay chàng dặn:",
+        "\"Con hãy hứa cưới người cha chọn,\" rồi ngài nói tên một nàng công chúa khác.",
+        "Chàng rối bời, chẳng kịp nghĩ, đáp: \"Vâng, con xin vâng lời cha.\"",
+        "Vua cha mỉm cười, nhắm mắt, yên nghỉ mãi mãi."
+      ],
+      "image": {
+        "prompt": "a castle garden in spring, the young prince slipping a golden ring onto the finger of his beloved princess, a messenger on horseback waiting at the gate, tender and bittersweet mood",
+        "seed": 184479033,
+        "character": "nha-vua"
+      },
+      "video": {
+        "motionPrompt": "the prince places the ring on her finger, blossoms fall softly, the messenger horse paws the ground, slow push-in",
+        "seed": 353058344
+      },
+      "voice": {}
+    },
+    {
+      "id": "muoi-mot-co-gai",
+      "title": "Mười một cô gái giống hệt",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng lên ngôi vua. Hết tang, chàng đành giữ lời hứa, sai người đi hỏi cưới nàng công chúa kia. Nàng vị hôn thê đầu tiên nghe tin, buồn đến héo hon. Cha nàng hỏi: \"Con yêu, sao con buồn thế? Con muốn gì, cha cũng chiều.\" Nàng nghĩ một lát rồi nói: \"Con muốn có mười một cô gái giống con như đúc, từ khuôn mặt, dáng người đến chiều cao.\" Nhà vua cho tìm khắp vương quốc, cuối cùng tìm đủ mười một cô gái giống hệt con mình.",
+      "subtitles": [
+        "Chàng lên ngôi vua.",
+        "Hết tang, chàng đành giữ lời hứa, sai người đi hỏi cưới nàng công chúa kia.",
+        "Nàng vị hôn thê đầu tiên nghe tin, buồn đến héo hon.",
+        "Cha nàng hỏi: \"Con yêu, sao con buồn thế? Con muốn gì, cha cũng chiều.\"",
+        "Nàng nghĩ một lát rồi nói: \"Con muốn có mười một cô gái giống con như đúc,",
+        "từ khuôn mặt, dáng người đến chiều cao.\"",
+        "Nhà vua cho tìm khắp vương quốc, cuối cùng tìm đủ mười một cô gái giống hệt con mình."
+      ],
+      "image": {
+        "prompt": "a bright palace hall, twelve young women who look exactly alike standing in a row, the princess in the middle, her father the old king looking amazed, soft morning light through tall windows",
+        "seed": 3145849326,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the twelve look-alike girls turn their heads at the same time, the old king strokes his beard in wonder, light shimmers",
+        "seed": 208528395
+      },
+      "voice": {}
+    },
+    {
+      "id": "muoi-hai-tho-san",
+      "title": "Mười hai người thợ săn",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng cho may mười hai bộ áo thợ săn giống hệt nhau. Mười một cô gái mặc vào, nàng mặc bộ thứ mười hai. Rồi nàng từ biệt cha, cùng các bạn cưỡi ngựa đến cung điện của người nàng yêu. Nàng hỏi nhà vua có cần thợ săn không, và xin nhận cả mười hai người. Nhà vua nhìn nàng mà không nhận ra. Thấy mười hai chàng thợ săn đẹp đẽ, ngài vui vẻ nhận lời.",
+      "subtitles": [
+        "Nàng cho may mười hai bộ áo thợ săn giống hệt nhau.",
+        "Mười một cô gái mặc vào, nàng mặc bộ thứ mười hai.",
+        "Rồi nàng từ biệt cha, cùng các bạn cưỡi ngựa đến cung điện của người nàng yêu.",
+        "Nàng hỏi nhà vua có cần thợ săn không, và xin nhận cả mười hai người.",
+        "Nhà vua nhìn nàng mà không nhận ra.",
+        "Thấy mười hai chàng thợ săn đẹp đẽ, ngài vui vẻ nhận lời."
+      ],
+      "image": {
+        "prompt": "twelve identical young huntsmen in forest-green coats and feathered hats riding up to a grand castle gate, the young king on the steps looking at them with interest, banners fluttering",
+        "seed": 3946365933,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "twelve horses trot up in a line, feathers on the hats sway, the king steps forward smiling, banners ripple in the wind",
+        "seed": 3343041112
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhung-hat-dau",
+      "title": "Những hạt đậu",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua có một con sư tử kỳ lạ, biết mọi điều bí mật. Một tối, sư tử nói: \"Bệ hạ tưởng mình có mười hai người thợ săn à? Đó là mười hai cô gái đấy.\" \"Không thể nào! Làm sao chứng minh?\" \"Bệ hạ cứ rắc đậu ngoài phòng chờ. Đàn ông bước chắc, đậu không lăn. Còn các cô gái bước nhẹ, lê chân, đậu sẽ lăn tứ tung.\" Nhưng một người hầu tốt bụng nghe được, chạy đi báo cho mười hai người thợ săn. Nàng công chúa dặn các bạn: \"Mai bước thật mạnh vào nhé.\" Sáng hôm sau, họ bước qua chắc nịch, không một hạt đậu nào lăn.",
+      "subtitles": [
+        "Nhà vua có một con sư tử kỳ lạ, biết mọi điều bí mật.",
+        "Một tối, sư tử nói: \"Bệ hạ tưởng mình có mười hai người thợ săn à?",
+        "Đó là mười hai cô gái đấy.\"",
+        "\"Không thể nào! Làm sao chứng minh?\"",
+        "\"Bệ hạ cứ rắc đậu ngoài phòng chờ. Đàn ông bước chắc, đậu không lăn.",
+        "Còn các cô gái bước nhẹ, lê chân, đậu sẽ lăn tứ tung.\"",
+        "Nhưng một người hầu tốt bụng nghe được, chạy đi báo cho mười hai người thợ săn.",
+        "Nàng công chúa dặn các bạn: \"Mai bước thật mạnh vào nhé.\"",
+        "Sáng hôm sau, họ bước qua chắc nịch, không một hạt đậu nào lăn."
+      ],
+      "image": {
+        "prompt": "a palace antechamber with dried peas scattered on the polished floor, twelve huntsmen in green striding firmly across it in step, the golden lion watching suspiciously beside the young king",
+        "seed": 3120337452,
+        "character": "su-tu"
+      },
+      "video": {
+        "motionPrompt": "the huntsmen march with firm steps, not a pea moves, the lion narrows his eyes, the king shrugs",
+        "seed": 3274968046
+      },
+      "voice": {}
+    },
+    {
+      "id": "muoi-hai-guong-quay",
+      "title": "Mười hai guồng quay sợi",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua bảo sư tử: \"Ngươi nói sai rồi, họ bước đi như đàn ông.\" Sư tử đáp: \"Họ được báo trước nên cố tỏ ra mạnh mẽ. Bệ hạ cứ đặt mười hai guồng quay sợi ngoài phòng. Các cô gái thấy là thích, sẽ ngoái lại nhìn.\" Người hầu tốt bụng lại đi báo tin. Nàng dặn các bạn: \"Đừng ai nhìn guồng quay.\" Sáng hôm sau, mười hai người thợ săn đi thẳng qua, không ai liếc mắt. Nhà vua nói: \"Ngươi lừa ta. Họ là đàn ông thật.\" Từ đó ngài không tin sư tử nữa.",
+      "subtitles": [
+        "Nhà vua bảo sư tử: \"Ngươi nói sai rồi, họ bước đi như đàn ông.\"",
+        "Sư tử đáp: \"Họ được báo trước nên cố tỏ ra mạnh mẽ.",
+        "Bệ hạ cứ đặt mười hai guồng quay sợi ngoài phòng.",
+        "Các cô gái thấy là thích, sẽ ngoái lại nhìn.\"",
+        "Người hầu tốt bụng lại đi báo tin. Nàng dặn các bạn: \"Đừng ai nhìn guồng quay.\"",
+        "Sáng hôm sau, mười hai người thợ săn đi thẳng qua, không ai liếc mắt.",
+        "Nhà vua nói: \"Ngươi lừa ta. Họ là đàn ông thật.\" Từ đó ngài không tin sư tử nữa."
+      ],
+      "image": {
+        "prompt": "twelve wooden spinning wheels lined up along a sunny palace corridor, twelve huntsmen walking straight past without looking, the lion sighing beside the king who folds his arms",
+        "seed": 2621990543,
+        "character": "su-tu"
+      },
+      "video": {
+        "motionPrompt": "the huntsmen walk past with eyes straight ahead, one spinning wheel turns slightly in the breeze, the lion lowers his head",
+        "seed": 4064243750
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-gang-tay",
+      "title": "Chiếc găng tay",
+      "narrator": "ke-chuyen",
+      "narration": "Mười hai người thợ săn luôn theo vua đi săn, và vua ngày càng quý họ. Một hôm đang săn trong rừng, có tin báo: cô dâu mới của nhà vua sắp đến. Nàng công chúa nghe vậy, đau lòng quá, ngã xuống ngất đi. Nhà vua tưởng người thợ săn yêu quý của mình gặp chuyện, chạy lại đỡ, tháo găng tay ra. Ngài thấy chiếc nhẫn mình tặng năm nào. Nhìn kỹ khuôn mặt, ngài nhận ra người yêu cũ. Ngài xúc động hôn nàng. Nàng mở mắt, ngài nói: \"Nàng là của ta, ta là của nàng, không ai trên đời chia cắt được chúng ta.\"",
+      "subtitles": [
+        "Mười hai người thợ săn luôn theo vua đi săn, và vua ngày càng quý họ.",
+        "Một hôm đang săn trong rừng, có tin báo: cô dâu mới của nhà vua sắp đến.",
+        "Nàng công chúa nghe vậy, đau lòng quá, ngã xuống ngất đi.",
+        "Nhà vua tưởng người thợ săn yêu quý của mình gặp chuyện, chạy lại đỡ, tháo găng tay ra.",
+        "Ngài thấy chiếc nhẫn mình tặng năm nào. Nhìn kỹ khuôn mặt, ngài nhận ra người yêu cũ.",
+        "Ngài xúc động hôn nàng. Nàng mở mắt, ngài nói:",
+        "\"Nàng là của ta, ta là của nàng, không ai trên đời chia cắt được chúng ta.\""
+      ],
+      "image": {
+        "prompt": "a sunlit forest glade during a hunt, the young king kneeling and gently holding the fainted huntsman, her feathered hat fallen to reveal long golden hair, he pulls off her glove and sees the golden ring, the other huntsmen gather around",
+        "seed": 2620625745,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the glove slips off, the ring gleams in a sunbeam, her eyes slowly open, leaves flutter down, tender slow motion",
+        "seed": 701796210
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-chia-khoa-cu",
+      "title": "Chiếc chìa khoá cũ",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua sai sứ giả đến gặp nàng công chúa kia, lễ phép xin nàng trở về nước mình, vì ngài đã có vợ rồi: \"Ai đã tìm lại được chiếc chìa khoá cũ, thì chẳng cần chìa khoá mới.\" Đám cưới được tổ chức linh đình. Còn con sư tử lại được nhà vua yêu quý như xưa, vì rốt cuộc nó đã nói đúng sự thật.",
+      "subtitles": [
+        "Nhà vua sai sứ giả đến gặp nàng công chúa kia, lễ phép xin nàng trở về nước mình,",
+        "vì ngài đã có vợ rồi: \"Ai đã tìm lại được chiếc chìa khoá cũ,",
+        "thì chẳng cần chìa khoá mới.\"",
+        "Đám cưới được tổ chức linh đình.",
+        "Còn con sư tử lại được nhà vua yêu quý như xưa, vì rốt cuộc nó đã nói đúng sự thật."
+      ],
+      "image": {
+        "prompt": "a joyful royal wedding in a castle hall decorated with flowers, the young king and the princess in a white gown, eleven look-alike girls in pretty dresses celebrating, the golden lion lying proudly at the king feet",
+        "seed": 4133709168,
+        "character": "nha-vua"
+      },
+      "video": {
+        "motionPrompt": "flower petals rain down, the couple smile at each other, the lion wags his tail and the guests cheer, warm golden light",
+        "seed": 247460798
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "romantic German fairy-tale music, a gentle hunting horn theme, lute and soft strings, playful light woodwind for the lion tests, a tender melody swelling into a joyful wedding dance, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 1480314117
+  }
+}

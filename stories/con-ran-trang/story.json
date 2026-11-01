@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-ran-trang",
+  "shelf": "world",
+  "title": "Con rắn trắng",
+  "summary": "Chàng hầu tò mò nếm món ăn bí mật của nhà vua và bỗng nghe hiểu tiếng muông thú. Nhờ tấm lòng tốt với cá, kiến và quạ con, chàng vượt qua ba thử thách khó để cưới nàng công chúa kiêu kỳ. Truyện cổ Grimm về lòng tốt được đền đáp, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "thien-nhien",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Die weiße Schlange\" (Kinder- und Hausmärchen, bản 1857, truyện số 17), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The White Snake\" của Margaret Hunt. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: lời đe doạ của nhà vua chỉ còn là \"chịu tội nặng\", và chàng trai chia hết lương ăn cho lũ quạ con thay vì hy sinh con ngựa của mình.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a medieval castle by the sea, reed ponds, sunny meadows and deep forests, friendly talking animals, warm golden light, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chang-hau",
+      "name": "Chàng hầu",
+      "seed": 3282160297,
+      "sheetPrompt": "a kind young royal servant from a German fairy tale, short wavy dark hair, honest bright eyes, a simple blue tunic with a leather belt, later a travelling cloak, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "seed": 449764850,
+      "sheetPrompt": "a proud beautiful princess from a German fairy tale, long golden hair under a slim gold circlet, an elegant rose-colored gown, chin lifted haughtily but with gentle eyes, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mon-an-bi-mat",
+      "title": "Món ăn bí mật",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một ông vua nổi tiếng thông thái. Chuyện kín đến đâu ngài cũng biết. Ngài có một thói quen lạ: mỗi trưa, khi mọi người đã lui ra, một chàng hầu tin cẩn lại bưng lên cho ngài một chiếc đĩa đậy nắp kín. Chẳng ai biết trong đĩa có gì, vì ngài chỉ mở nắp khi ngồi một mình. Một hôm, chàng hầu tò mò quá, mang chiếc đĩa về phòng, khoá cửa lại, hé nắp nhìn. Trong đĩa là một con rắn trắng. Chàng không nhịn được, nếm thử một miếng nhỏ. Vừa nếm xong, chàng nghe ngoài cửa sổ có những giọng nói lí nhí. Thì ra là lũ chim sẻ đang kể cho nhau nghe chuyện đồng ruộng. Món ăn lạ đã giúp chàng hiểu được tiếng của muông thú.",
+      "subtitles": [
+        "Ngày xưa, có một ông vua nổi tiếng thông thái. Chuyện kín đến đâu ngài cũng biết.",
+        "Ngài có một thói quen lạ: mỗi trưa, khi mọi người đã lui ra,",
+        "một chàng hầu tin cẩn lại bưng lên cho ngài một chiếc đĩa đậy nắp kín.",
+        "Chẳng ai biết trong đĩa có gì, vì ngài chỉ mở nắp khi ngồi một mình.",
+        "Một hôm, chàng hầu tò mò quá, mang chiếc đĩa về phòng, khoá cửa lại, hé nắp nhìn.",
+        "Trong đĩa là một con rắn trắng. Chàng không nhịn được, nếm thử một miếng nhỏ.",
+        "Vừa nếm xong, chàng nghe ngoài cửa sổ có những giọng nói lí nhí.",
+        "Thì ra là lũ chim sẻ đang kể cho nhau nghe chuyện đồng ruộng.",
+        "Món ăn lạ đã giúp chàng hiểu được tiếng của muông thú."
+      ],
+      "image": {
+        "prompt": "a young servant in a small castle room lifting the silver lid of a covered dish, a white snake coiled on the dish, sparrows chattering on the windowsill, warm afternoon light, sense of wonder",
+        "seed": 4047332854,
+        "character": "chang-hau"
+      },
+      "video": {
+        "motionPrompt": "the lid lifts slowly, a soft glow rises from the dish, sparrows hop and chirp on the windowsill, the servant turns his head in surprise",
+        "seed": 1686339057
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-nhan-cua-hoang-hau",
+      "title": "Chiếc nhẫn của hoàng hậu",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng hôm ấy, hoàng hậu đánh mất chiếc nhẫn đẹp nhất. Người ta ngờ chàng hầu, vì chàng được ra vào khắp nơi. Nhà vua phán: \"Đến sáng mai mà không tìm ra kẻ lấy nhẫn, ngươi sẽ chịu tội nặng.\" Chàng buồn bã đi xuống sân. Bên con suối, mấy con vịt đang rỉa lông, trò chuyện. Một con than: \"Bụng tôi nằng nặng. Sáng nay ăn vội, tôi nuốt luôn chiếc nhẫn dưới cửa sổ hoàng hậu.\" Chàng bế ngay con vịt vào bếp. Khi bác đầu bếp sửa soạn con vịt cho bữa tối, chiếc nhẫn của hoàng hậu lăn ra. Thế là chàng được minh oan.",
+      "subtitles": [
+        "Đúng hôm ấy, hoàng hậu đánh mất chiếc nhẫn đẹp nhất.",
+        "Người ta ngờ chàng hầu, vì chàng được ra vào khắp nơi.",
+        "Nhà vua phán: \"Đến sáng mai mà không tìm ra kẻ lấy nhẫn, ngươi sẽ chịu tội nặng.\"",
+        "Chàng buồn bã đi xuống sân. Bên con suối, mấy con vịt đang rỉa lông, trò chuyện.",
+        "Một con than: \"Bụng tôi nằng nặng.",
+        "Sáng nay ăn vội, tôi nuốt luôn chiếc nhẫn dưới cửa sổ hoàng hậu.\"",
+        "Chàng bế ngay con vịt vào bếp. Khi bác đầu bếp sửa soạn con vịt cho bữa tối,",
+        "chiếc nhẫn của hoàng hậu lăn ra. Thế là chàng được minh oan."
+      ],
+      "image": {
+        "prompt": "a castle courtyard with a little brook, plump white ducks preening their feathers and chatting, the young servant crouching nearby listening carefully, one duck looking uncomfortable with a round belly",
+        "seed": 819139639,
+        "character": "chang-hau"
+      },
+      "video": {
+        "motionPrompt": "the ducks waddle and quack softly, water ripples in the brook, the servant leans closer to listen, gentle motion",
+        "seed": 1609364613
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-con-ca-va-vua-kien",
+      "title": "Ba con cá và vua kiến",
+      "narrator": "ke-chuyen",
+      "narration": "Để chuộc lỗi, nhà vua cho chàng xin gì cũng được. Chàng chỉ xin một con ngựa và ít tiền đi đường, vì muốn đi đây đi đó. Đến một cái ao, chàng thấy ba con cá mắc trong đám sậy, đang há miệng thở dốc. Chàng xuống ngựa, thả cả ba về nước. Chúng quẫy mừng: \"Chúng tôi sẽ nhớ ơn anh!\" Đi thêm một quãng, chàng nghe dưới cát có tiếng vua kiến kêu: \"Người với ngựa vụng về, sao cứ giẫm lên dân ta thế!\" Chàng liền rẽ sang lối khác. Vua kiến gọi theo: \"Chúng tôi sẽ nhớ ơn anh!\"",
+      "subtitles": [
+        "Để chuộc lỗi, nhà vua cho chàng xin gì cũng được.",
+        "Chàng chỉ xin một con ngựa và ít tiền đi đường, vì muốn đi đây đi đó.",
+        "Đến một cái ao, chàng thấy ba con cá mắc trong đám sậy, đang há miệng thở dốc.",
+        "Chàng xuống ngựa, thả cả ba về nước. Chúng quẫy mừng: \"Chúng tôi sẽ nhớ ơn anh!\"",
+        "Đi thêm một quãng, chàng nghe dưới cát có tiếng vua kiến kêu:",
+        "\"Người với ngựa vụng về, sao cứ giẫm lên dân ta thế!\"",
+        "Chàng liền rẽ sang lối khác. Vua kiến gọi theo: \"Chúng tôi sẽ nhớ ơn anh!\""
+      ],
+      "image": {
+        "prompt": "a peaceful reed pond, the kind young traveller in a cloak kneeling and gently releasing three silver fish into the water, his horse waiting nearby, a line of ants on the sandy path, sunny day",
+        "seed": 539342330,
+        "character": "chang-hau"
+      },
+      "video": {
+        "motionPrompt": "the fish leap happily in the water, splashes sparkle, ants march on the sand, reeds sway in the breeze",
+        "seed": 3861480129
+      },
+      "voice": {}
+    },
+    {
+      "id": "lu-qua-con",
+      "title": "Lũ quạ con",
+      "narrator": "ke-chuyen",
+      "narration": "Con đường dẫn vào rừng. Ở đó, hai con quạ già đang đẩy lũ con ra khỏi tổ: \"Ra đi, lũ lười kia! Bố mẹ không kiếm đủ mồi cho các con nữa đâu!\" Lũ quạ con nằm dưới đất, đập cánh kêu: \"Chúng con còn chưa biết bay, biết lấy gì mà ăn?\" Chàng trai mở túi, chia hết bánh mì và thịt khô mang theo cho lũ quạ con. Chúng ăn no, kêu lên: \"Chúng tôi sẽ nhớ ơn anh!\" Hết lương ăn, chàng gửi ngựa lại ở quán trọ đầu làng rồi đi bộ tiếp.",
+      "subtitles": [
+        "Con đường dẫn vào rừng. Ở đó, hai con quạ già đang đẩy lũ con ra khỏi tổ:",
+        "\"Ra đi, lũ lười kia! Bố mẹ không kiếm đủ mồi cho các con nữa đâu!\"",
+        "Lũ quạ con nằm dưới đất, đập cánh kêu: \"Chúng con còn chưa biết bay, biết lấy gì mà ăn?\"",
+        "Chàng trai mở túi, chia hết bánh mì và thịt khô mang theo cho lũ quạ con.",
+        "Chúng ăn no, kêu lên: \"Chúng tôi sẽ nhớ ơn anh!\"",
+        "Hết lương ăn, chàng gửi ngựa lại ở quán trọ đầu làng rồi đi bộ tiếp."
+      ],
+      "image": {
+        "prompt": "a forest clearing, three fluffy young ravens on the mossy ground flapping their wings hungrily, the young traveller kneeling and sharing bread from his bag with them, soft green light",
+        "seed": 1803071120,
+        "character": "chang-hau"
+      },
+      "video": {
+        "motionPrompt": "the young ravens hop forward and peck at the bread, the traveller smiles, leaves drift down slowly",
+        "seed": 585312484
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-nhan-duoi-bien",
+      "title": "Chiếc nhẫn dưới biển",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng đến một kinh thành lớn. Có người cưỡi ngựa rao: \"Công chúa kén chồng! Ai muốn cưới nàng phải vượt qua thử thách khó, không làm được sẽ chịu tội nặng.\" Nhìn thấy công chúa xinh đẹp, chàng quên cả sợ, xin vào thử. Nhà vua ném một chiếc nhẫn vàng xuống biển: \"Mò được nhẫn lên đây!\" Chàng đứng trên bờ, chẳng biết làm sao. Bỗng ba con cá bơi đến. Con ở giữa ngậm một vỏ trai, đặt bên chân chàng. Mở ra, chiếc nhẫn vàng nằm trong đó.",
+      "subtitles": [
+        "Chàng đến một kinh thành lớn. Có người cưỡi ngựa rao:",
+        "\"Công chúa kén chồng! Ai muốn cưới nàng phải vượt qua thử thách khó,",
+        "không làm được sẽ chịu tội nặng.\"",
+        "Nhìn thấy công chúa xinh đẹp, chàng quên cả sợ, xin vào thử.",
+        "Nhà vua ném một chiếc nhẫn vàng xuống biển: \"Mò được nhẫn lên đây!\"",
+        "Chàng đứng trên bờ, chẳng biết làm sao. Bỗng ba con cá bơi đến.",
+        "Con ở giữa ngậm một vỏ trai, đặt bên chân chàng. Mở ra, chiếc nhẫn vàng nằm trong đó."
+      ],
+      "image": {
+        "prompt": "a rocky seashore at sunset, the young man standing at the water edge, three silver fish rising from the waves, the middle one holding a mussel shell with a golden ring shining inside",
+        "seed": 2031349608,
+        "character": "chang-hau"
+      },
+      "video": {
+        "motionPrompt": "waves roll gently, the three fish surface and lay the shell on the shore, the ring glints, slow push-in",
+        "seed": 2608928691
+      },
+      "voice": {}
+    },
+    {
+      "id": "muoi-bao-ke",
+      "title": "Mười bao kê",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng công chúa kiêu kỳ chê chàng không cùng dòng dõi, đòi thêm một thử thách. Nàng tự tay rắc mười bao hạt kê xuống bãi cỏ trong vườn: \"Trước khi mặt trời mọc, phải nhặt đầy lại, không sót một hạt.\" Chàng ngồi trong vườn suốt đêm, buồn bã chờ trời sáng. Tia nắng đầu tiên chiếu xuống, chàng thấy mười bao kê đứng thẳng hàng, đầy ắp. Đêm qua, vua kiến đã dẫn hàng nghìn hàng vạn con kiến đến nhặt từng hạt.",
+      "subtitles": [
+        "Nhưng công chúa kiêu kỳ chê chàng không cùng dòng dõi, đòi thêm một thử thách.",
+        "Nàng tự tay rắc mười bao hạt kê xuống bãi cỏ trong vườn:",
+        "\"Trước khi mặt trời mọc, phải nhặt đầy lại, không sót một hạt.\"",
+        "Chàng ngồi trong vườn suốt đêm, buồn bã chờ trời sáng.",
+        "Tia nắng đầu tiên chiếu xuống, chàng thấy mười bao kê đứng thẳng hàng, đầy ắp.",
+        "Đêm qua, vua kiến đã dẫn hàng nghìn hàng vạn con kiến đến nhặt từng hạt."
+      ],
+      "image": {
+        "prompt": "a palace garden at sunrise, ten full sacks of millet standing in a neat row on the grass, thousands of tiny ants marching away, the proud princess arriving amazed, the young man rubbing his sleepy eyes",
+        "seed": 2809125653,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "golden sunrise light spreads over the garden, the tiny ants stream away in a line, the princess stops and stares",
+        "seed": 956077920
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-tao-su-song",
+      "title": "Quả táo của Cây Sự Sống",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa vẫn chưa chịu: \"Phải mang về cho ta một quả táo của Cây Sự Sống.\" Chàng chẳng biết cây ấy ở đâu, vẫn cứ lên đường, qua ba vương quốc. Một tối, chàng nằm nghỉ dưới gốc cây, bỗng có quả táo vàng rơi vào tay. Ba con quạ bay xuống, đậu trên đầu gối chàng: \"Chúng tôi là lũ quạ con anh đã cho ăn. Nghe tin anh tìm táo, chúng tôi bay qua biển đến tận cùng thế giới, hái về cho anh đây.\" Chàng mang táo về. Chàng và công chúa chia đôi quả táo cùng ăn. Lòng nàng bỗng đầy yêu thương, và hai người sống hạnh phúc đến tận lúc bạc đầu.",
+      "subtitles": [
+        "Công chúa vẫn chưa chịu: \"Phải mang về cho ta một quả táo của Cây Sự Sống.\"",
+        "Chàng chẳng biết cây ấy ở đâu, vẫn cứ lên đường, qua ba vương quốc.",
+        "Một tối, chàng nằm nghỉ dưới gốc cây, bỗng có quả táo vàng rơi vào tay.",
+        "Ba con quạ bay xuống, đậu trên đầu gối chàng:",
+        "\"Chúng tôi là lũ quạ con anh đã cho ăn. Nghe tin anh tìm táo,",
+        "chúng tôi bay qua biển đến tận cùng thế giới, hái về cho anh đây.\"",
+        "Chàng mang táo về. Chàng và công chúa chia đôi quả táo cùng ăn.",
+        "Lòng nàng bỗng đầy yêu thương, và hai người sống hạnh phúc đến tận lúc bạc đầu."
+      ],
+      "image": {
+        "prompt": "under a great tree in the evening, three grown ravens perched on the young man knee, a shining golden apple in his hands, then the young man and the gentle smiling princess sharing the apple in a rose garden",
+        "seed": 277097122,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the golden apple glows softly, the ravens spread their wings and caw, warm light blooms, gentle slow pull-back",
+        "seed": 426156348
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm German fairy-tale music, flowing harp and oboe, light birdlike flute calls for the talking animals, a gentle rising theme through the trials, tender romantic strings at the end, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 4112079811
+  }
+}

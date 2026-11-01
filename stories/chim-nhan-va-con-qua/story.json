@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "slug": "chim-nhan-va-con-qua",
+  "shelf": "world",
+  "title": "Chim nhạn và con quạ",
+  "summary": "Chim nhạn khoe bộ lông óng mượt, chê bộ lông xù xì của bác quạ, cho tới khi nghe bác nói về mùa đông. Ngụ ngôn Aesop về vẻ đẹp bên ngoài và điều bền bỉ, có ích lúc khó khăn.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, an old European countryside with meadows of spring flowers, a pond and an old oak tree, changing seasons from spring to snowy winter, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "nhan",
+      "name": "Chim nhạn",
+      "seed": 969183377,
+      "sheetPrompt": "a sleek elegant swallow with glossy blue-black feathers, a white chest, a rusty red throat and a long forked tail, proud expression, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "qua",
+      "name": "Bác quạ",
+      "seed": 2119797961,
+      "sheetPrompt": "a calm old black crow with thick fluffy feathers, a sturdy beak and wise kindly eyes, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mua-xuan",
+      "title": "Mùa xuân về",
+      "narrator": "ke-chuyen",
+      "narration": "Mùa xuân về, cánh đồng phủ đầy hoa cỏ. Từ phương xa, cô chim nhạn bay về, đôi cánh thon dài, bộ lông xanh đen óng mượt, cái đuôi chẻ đôi như chiếc kéo nhỏ. Cô lượn vòng trên mặt ao, chao nghiêng, nhào lộn, đẹp như một vũ công. Trên cành sồi già, bác quạ đen ngồi im lặng, lặng lẽ nhìn theo.",
+      "subtitles": [
+        "Mùa xuân về, cánh đồng phủ đầy hoa cỏ.",
+        "Từ phương xa, cô chim nhạn bay về, đôi cánh thon dài, bộ lông xanh đen óng mượt,",
+        "cái đuôi chẻ đôi như chiếc kéo nhỏ.",
+        "Cô lượn vòng trên mặt ao, chao nghiêng, nhào lộn, đẹp như một vũ công.",
+        "Trên cành sồi già, bác quạ đen ngồi im lặng, lặng lẽ nhìn theo."
+      ],
+      "image": {
+        "character": "nhan",
+        "prompt": "a graceful swallow swooping low over a pond in a spring meadow full of flowers, an old black crow watching quietly from a branch of an old oak",
+        "seed": 2157025560
+      },
+      "video": {
+        "motionPrompt": "the swallow loops and dives over the shining pond, flowers sway in the breeze, the crow turns its head to follow",
+        "seed": 3682013131
+      },
+      "voice": {}
+    },
+    {
+      "id": "khoe-long",
+      "title": "Nhạn khoe lông",
+      "narrator": "ke-chuyen",
+      "narration": "Nhạn đậu xuống bên cạnh, liếc nhìn bác quạ rồi bĩu mỏ: “Bác quạ ơi, lông bác đen sì, dày cộp, xù xì như cái áo cũ. Bác xem lông cháu này, mỏng nhẹ, bóng loáng, bay nhanh như gió. Chẳng ai trong vùng có bộ lông đẹp bằng cháu đâu!” Mấy chú chim sẻ trên cành rúc rích bàn tán, chờ xem bác quạ trả lời ra sao.",
+      "subtitles": [
+        "Nhạn đậu xuống bên cạnh, liếc nhìn bác quạ rồi bĩu mỏ: “Bác quạ ơi, lông bác đen sì,",
+        "dày cộp, xù xì như cái áo cũ.",
+        "Bác xem lông cháu này, mỏng nhẹ, bóng loáng, bay nhanh như gió.",
+        "Chẳng ai trong vùng có bộ lông đẹp bằng cháu đâu!”",
+        "Mấy chú chim sẻ trên cành rúc rích bàn tán, chờ xem bác quạ trả lời ra sao."
+      ],
+      "image": {
+        "character": "nhan",
+        "prompt": "a proud swallow perched on an oak branch preening its glossy feathers and showing off to an old fluffy black crow, little sparrows whispering nearby",
+        "seed": 3971620940
+      },
+      "video": {
+        "motionPrompt": "the swallow fluffs and preens with its beak in the air, the sparrows lean together whispering, the crow blinks calmly",
+        "seed": 2158977281
+      },
+      "voice": {}
+    },
+    {
+      "id": "tranh-cai",
+      "title": "Cuộc tranh cãi",
+      "narrator": "ke-chuyen",
+      "narration": "Bác quạ rũ đôi cánh, thong thả nói: “Lông của bác tuy không đẹp, nhưng dày dặn và ấm áp.” Nhạn cười vang: “Ấm thì làm gì? Trời đang xuân, nắng ấm khắp nơi kia mà!” Hai bên cứ thế đối đáp qua lại, mãi chẳng ai chịu ai. Gió xuân thổi qua, lá non xào xạc như cũng muốn góp lời.",
+      "subtitles": [
+        "Bác quạ rũ đôi cánh, thong thả nói: “Lông của bác tuy không đẹp, nhưng dày dặn và ấm áp.”",
+        "Nhạn cười vang: “Ấm thì làm gì?",
+        "Trời đang xuân, nắng ấm khắp nơi kia mà!”",
+        "Hai bên cứ thế đối đáp qua lại, mãi chẳng ai chịu ai.",
+        "Gió xuân thổi qua, lá non xào xạc như cũng muốn góp lời."
+      ],
+      "image": {
+        "character": "qua",
+        "prompt": "an old black crow shaking out its thick feathers calmly while a laughing swallow flutters beside it on a spring oak branch, fresh green leaves",
+        "seed": 496839835
+      },
+      "video": {
+        "motionPrompt": "the crow ruffles its feathers, the swallow flutters and laughs, young leaves rustle in the spring breeze",
+        "seed": 2921667058
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-qua",
+      "title": "Lời bác quạ",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng, bác quạ nói chậm rãi: “Cháu nhạn à, lông của cháu đẹp thật, nhưng chỉ đẹp vào mùa xuân, mùa hè. Khi gió bấc thổi về, tuyết phủ trắng cánh đồng, cháu phải bay đi tận phương xa tìm chỗ ấm. Còn bộ lông xù xì của bác thì giữ ấm cho bác suốt mùa đông, bác chẳng phải đi đâu cả.”",
+      "subtitles": [
+        "Cuối cùng, bác quạ nói chậm rãi: “Cháu nhạn à, lông của cháu đẹp thật,",
+        "nhưng chỉ đẹp vào mùa xuân, mùa hè.",
+        "Khi gió bấc thổi về, tuyết phủ trắng cánh đồng, cháu phải bay đi tận phương xa tìm chỗ ấm.",
+        "Còn bộ lông xù xì của bác thì giữ ấm cho bác suốt mùa đông, bác chẳng phải đi đâu cả.”"
+      ],
+      "image": {
+        "character": "qua",
+        "prompt": "a wise old crow speaking gently to a quiet swallow on an oak branch, a soft dreamy vision of a snowy winter meadow in the background",
+        "seed": 3389623074
+      },
+      "video": {
+        "motionPrompt": "the crow speaks slowly, the background softly fades from spring green to a snowy winter scene, the swallow lowers its tail",
+        "seed": 703686598
+      },
+      "voice": {}
+    },
+    {
+      "id": "mua-dong",
+      "title": "Khi mùa đông tới",
+      "narrator": "ke-chuyen",
+      "narration": "Nhạn nghe vậy thì im lặng, chẳng biết đáp sao. Mấy tháng sau, gió lạnh tràn về, nhạn vội vã cùng đàn bay về phương nam. Còn bác quạ vẫn ngồi trên cành sồi phủ tuyết, xù lông lên, ấm áp như trong chiếc áo bông. Các bạn nhỏ ạ, vẻ đẹp bên ngoài thật đáng quý, nhưng thứ bền bỉ, có ích lúc khó khăn còn quý hơn nhiều.",
+      "subtitles": [
+        "Nhạn nghe vậy thì im lặng, chẳng biết đáp sao.",
+        "Mấy tháng sau, gió lạnh tràn về, nhạn vội vã cùng đàn bay về phương nam.",
+        "Còn bác quạ vẫn ngồi trên cành sồi phủ tuyết, xù lông lên, ấm áp như trong chiếc áo bông.",
+        "Các bạn nhỏ ạ, vẻ đẹp bên ngoài thật đáng quý, nhưng thứ bền bỉ,",
+        "có ích lúc khó khăn còn quý hơn nhiều."
+      ],
+      "image": {
+        "character": "qua",
+        "prompt": "a cosy fluffed-up black crow sitting snugly on a snow-covered oak branch, a flock of swallows flying away south across a pale winter sky",
+        "seed": 1311890262
+      },
+      "video": {
+        "motionPrompt": "snowflakes drift down, the swallows fly off into the distance, the crow fluffs its feathers and settles in contentedly",
+        "seed": 3704259868
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "pastoral European storybook music, flute and soft strings, a lively swooping swallow theme on piccolo, a calm low crow theme on bassoon, a quiet snowy ending with celesta, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4076770160
+  }
+}

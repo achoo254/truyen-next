@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "slug": "ha-tien-hoc-thay",
+  "shelf": "kids",
+  "title": "Học trò hà tiện hơn thầy",
+  "summary": "Thầy dặn chỉ cần mua một cái bánh đa để lễ, cậu học trò lại mua thêm con gà con. Lý do của cậu khiến ông thầy nổi tiếng hà tiện cũng phải chịu thua. Truyện cười dân gian Việt Nam, kể vui cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Theo truyện cười dân gian \"Hà tiện\" trong Tiếu lâm An Nam của Phạm Duy Tốn (1912, tác giả mất 1924), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Lời Mèo Miu mở đầu và kết, cảnh ông thầy hà tiện ở nhà và cảnh cậu học trò đi chợ là tình tiết thêm để dẫn dắt, câu chuyện chính giữ đúng như sách.",
+  "basedOn": "Tiếu lâm An Nam, Phạm Duy Tốn (1912)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded comical friendly shapes, playful and safe mood for young children, old Vietnamese village with bamboo hedges, thatched roofs and rice fields, busy village market, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 4043270608
+    },
+    {
+      "id": "ong-thay",
+      "name": "Ông thầy hà tiện",
+      "seed": 1365379436,
+      "sheetPrompt": "a skinny comical old Vietnamese teacher of old times, long thin grey beard, patched faded blue robe, black turban, clutching a tiny cloth money pouch tightly, funny and kind, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoc-tro",
+      "name": "Cậu học trò",
+      "seed": 3846611015,
+      "sheetPrompt": "a thin serious young Vietnamese student of old times, neat topknot, plain grey tunic, carrying a round sesame rice cracker in one hand and a fluffy yellow chick in the other, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn có tiết kiệm không? Miu có một con heo đất, ngày nào cũng bỏ vào một đồng xu. Tiết kiệm là tốt lắm. Nhưng ngày xưa có một ông thầy và một cậu học trò tiết kiệm quá, đến mức thành hà tiện, nghĩa là keo kiệt lắm đấy. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Mèo Miu đây.",
+        "Các bạn có tiết kiệm không?",
+        "Miu có một con heo đất, ngày nào cũng bỏ vào một đồng xu.",
+        "Tiết kiệm là tốt lắm.",
+        "Nhưng ngày xưa có một ông thầy và một cậu học trò tiết kiệm quá,",
+        "đến mức thành hà tiện, nghĩa là keo kiệt lắm đấy.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat drops a shiny coin into a cute clay piggy bank on a wooden shelf, cozy old Vietnamese room",
+        "seed": 2664721291,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the coin drops into the piggy bank with a sparkle, the cat claps happily, slow camera push-in",
+        "seed": 2122749174
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-thay-ha-tien",
+      "title": "Ông thầy hà tiện",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một ông thầy nổi tiếng khắp vùng là hà tiện. Áo ông vá chằng vá đụp mà không chịu may áo mới. Ăn cơm, hạt nào rơi ông cũng nhặt lên ăn bằng hết. Ông còn dạy học trò cách tiêu ít tiền nhất. Đi đâu ông cũng đi bộ cho đỡ tốn tiền đò, tối đến thì đi ngủ thật sớm cho đỡ tốn dầu đèn. Có một cậu học trò cũng hà tiện, nghe tiếng ông, bèn tìm đến xin học, mong học thêm được nhiều cách giữ tiền.",
+      "subtitles": [
+        "Ngày xưa, có một ông thầy nổi tiếng khắp vùng là hà tiện.",
+        "Áo ông vá chằng vá đụp mà không chịu may áo mới.",
+        "Ăn cơm, hạt nào rơi ông cũng nhặt lên ăn bằng hết.",
+        "Ông còn dạy học trò cách tiêu ít tiền nhất.",
+        "Đi đâu ông cũng đi bộ cho đỡ tốn tiền đò, tối đến thì đi ngủ thật sớm cho đỡ tốn dầu đèn.",
+        "Có một cậu học trò cũng hà tiện, nghe tiếng ông,",
+        "bèn tìm đến xin học, mong học thêm được nhiều cách giữ tiền."
+      ],
+      "image": {
+        "prompt": "a skinny old teacher in a patched robe carefully picks up a single grain of rice from a table with chopsticks, a young student bows at the door of a small thatched school",
+        "seed": 2936716889,
+        "character": "ong-thay"
+      },
+      "video": {
+        "motionPrompt": "the teacher lifts the rice grain with great care, the student bows deeply, sunlight through the bamboo blinds, slow push-in",
+        "seed": 3781411666
+      },
+      "voice": {}
+    },
+    {
+      "id": "le-thanh",
+      "title": "Mua gì để lễ",
+      "narrator": "ke-chuyen",
+      "narration": "Theo lệ ngày xưa, vào học thì phải sắm lễ dâng lên bàn thờ ông Thánh. Cậu học trò hỏi thầy: Thưa thầy, con nên mua những gì để làm lễ ạ? Ông thầy vuốt râu, nghĩ một lúc lâu, đếm đi đếm lại trên đầu ngón tay, rồi mới bảo: Chỉ cần mua một cái bánh đa thôi, thế là đủ lễ rồi, đừng tốn thêm đồng nào nữa nhé.",
+      "subtitles": [
+        "Theo lệ ngày xưa, vào học thì phải sắm lễ dâng lên bàn thờ ông Thánh.",
+        "Cậu học trò hỏi thầy:",
+        "Thưa thầy, con nên mua những gì để làm lễ ạ?",
+        "Ông thầy vuốt râu, nghĩ một lúc lâu, đếm đi đếm lại trên đầu ngón tay, rồi mới bảo:",
+        "Chỉ cần mua một cái bánh đa thôi, thế là đủ lễ rồi, đừng tốn thêm đồng nào nữa nhé."
+      ],
+      "image": {
+        "prompt": "the skinny teacher raises one finger to explain, the young student listens carefully, a small altar with incense in the background of the old school room",
+        "seed": 3487003909,
+        "character": "ong-thay"
+      },
+      "video": {
+        "motionPrompt": "the teacher wags one finger, the student nods seriously, incense smoke curls slowly, gentle push-in",
+        "seed": 4160147235
+      },
+      "voice": {}
+    },
+    {
+      "id": "di-cho",
+      "title": "Cậu học trò đi chợ",
+      "narrator": "ke-chuyen",
+      "narration": "Cậu học trò ra chợ. Chợ đông vui lắm, nào thịt, nào xôi, nào hoa quả. Cậu chẳng nhìn những thứ ấy, chỉ mua đúng một cái bánh đa vừng thơm phức. Nhưng rồi cậu đi đến hàng gà, ngắm nghía mãi, lại mua thêm một con gà con, cắp về.",
+      "subtitles": [
+        "Cậu học trò ra chợ.",
+        "Chợ đông vui lắm, nào thịt, nào xôi, nào hoa quả.",
+        "Cậu chẳng nhìn những thứ ấy, chỉ mua đúng một cái bánh đa vừng thơm phức.",
+        "Nhưng rồi cậu đi đến hàng gà, ngắm nghía mãi, lại mua thêm một con gà con, cắp về."
+      ],
+      "image": {
+        "prompt": "the young student walks through a lively old Vietnamese village market holding one round sesame rice cracker, then stops at a stall full of fluffy yellow chicks",
+        "seed": 4136583271,
+        "character": "hoc-tro"
+      },
+      "video": {
+        "motionPrompt": "market people bustle, chicks peep and hop, the student points at one chick thoughtfully, slow side pan",
+        "seed": 2547525861
+      },
+      "voice": {}
+    },
+    {
+      "id": "vi-sao-mua-ga",
+      "title": "Vì sao mua gà",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy học trò cắp con gà về, ông thầy trách: Thầy đã bảo chỉ mua một cái bánh đa là đủ, sao còn vẽ vời mua gà làm gì cho tốn? Cậu học trò khoanh tay, thong thả thưa: Thưa thầy, con mua gà để khi bẻ bánh ăn, vụn vừng rơi xuống thì nó nhặt cho hết, khỏi phí ạ.",
+      "subtitles": [
+        "Thấy học trò cắp con gà về, ông thầy trách:",
+        "Thầy đã bảo chỉ mua một cái bánh đa là đủ, sao còn vẽ vời mua gà làm gì cho tốn?",
+        "Cậu học trò khoanh tay, thong thả thưa:",
+        "Thưa thầy, con mua gà để khi bẻ bánh ăn,",
+        "vụn vừng rơi xuống thì nó nhặt cho hết, khỏi phí ạ."
+      ],
+      "image": {
+        "prompt": "the young student explains earnestly while breaking the sesame cracker, a fluffy chick pecks up every tiny crumb on the floor, the old teacher stares in disbelief",
+        "seed": 2257186107,
+        "character": "hoc-tro"
+      },
+      "video": {
+        "motionPrompt": "the cracker snaps, sesame crumbs fall, the chick pecks them up quickly, the teacher's eyebrows rise, gentle push-in",
+        "seed": 3876394339
+      },
+      "voice": {}
+    },
+    {
+      "id": "thay-chiu-thua",
+      "title": "Thầy chịu thua",
+      "narrator": "ke-chuyen",
+      "narration": "Ông thầy nghe xong, ngẩn người một lúc, rồi lắc đầu thở dài: Thôi, anh còn hà tiện hơn cả tôi, cần gì phải học tôi nữa! Thế là cậu học trò chẳng cần học, mà ông thầy hà tiện nhất vùng cũng phải chịu thua học trò.",
+      "subtitles": [
+        "Ông thầy nghe xong, ngẩn người một lúc, rồi lắc đầu thở dài:",
+        "Thôi, anh còn hà tiện hơn cả tôi, cần gì phải học tôi nữa!",
+        "Thế là cậu học trò chẳng cần học,",
+        "mà ông thầy hà tiện nhất vùng cũng phải chịu thua học trò."
+      ],
+      "image": {
+        "prompt": "the old teacher throws up his hands and laughs helplessly, the young student blinks in surprise holding the chick, sunny school yard",
+        "seed": 822556438,
+        "character": "ong-thay"
+      },
+      "video": {
+        "motionPrompt": "the teacher shakes his head and laughs, the chick hops onto the student's shoulder, leaves drift, slow pull-back",
+        "seed": 3814356791
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Mua gà con chỉ để nhặt vụn vừng, các bạn thấy có buồn cười không? Tiết kiệm là để dành cho việc cần, chứ keo kiệt quá thì lại thành chuyện cười cho mọi người. Miu vẫn bỏ heo đất mỗi ngày, nhưng bánh của Miu thì Miu sẽ chia cho bạn cùng ăn. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Mua gà con chỉ để nhặt vụn vừng, các bạn thấy có buồn cười không?",
+        "Tiết kiệm là để dành cho việc cần,",
+        "chứ keo kiệt quá thì lại thành chuyện cười cho mọi người.",
+        "Miu vẫn bỏ heo đất mỗi ngày, nhưng bánh của Miu thì Miu sẽ chia cho bạn cùng ăn.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye sharing a big sesame rice cracker with a fluffy yellow chick, a clay piggy bank beside them, sunset glow",
+        "seed": 2509461791,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat breaks the cracker and offers a piece, the chick peeps happily, gentle camera pull-back",
+        "seed": 3420042148
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light funny Vietnamese folk tune for children, dan nguyet moon lute and bamboo flute, playful plucked strings, cheeky market mood, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3726358253
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "slug": "nguoi-giau-va-nguoi-ngheo",
+  "shelf": "world",
+  "title": "Người giàu và người nghèo",
+  "summary": "Một ông lão lữ khách gõ cửa xin ngủ nhờ: nhà giàu đóng cửa, nhà nghèo mở lòng. Ba điều ước mang lại hạnh phúc cho người tốt bụng, còn kẻ tham lam thì phí hết ba điều ước chỉ vì nóng giận. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"The Poor Man and the Rich Man\" (Kinder- und Hausmärchen, bản 1857, truyện số 87; bản tiếng Anh của Margaret Hunt trên Project Gutenberg), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể cho cả nhà: vị khách được kể là ông lão lữ khách có phép lạ, và con ngựa biến mất theo lời ước giận dữ thay vì ngã gãy cổ như bản gốc.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a dusty country road with a grand stone house facing a humble cottage, warm evening golds and soft blues, rounded friendly shapes, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ong-lao-lu-khach",
+      "name": "Ông lão lữ khách",
+      "seed": 3743199646,
+      "sheetPrompt": "a mysterious kind old wanderer from the Grimm tale, long silver beard, gentle shining eyes, plain grey hooded travelling cloak, tall walking staff, soft golden glow around him, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "vo-chong-ngheo",
+      "name": "Vợ chồng nghèo",
+      "seed": 3554025331,
+      "sheetPrompt": "a poor kind old German couple from the Grimm tale, the husband in a patched brown jacket and the wife in a faded blue dress and white cap, warm welcoming smiles, standing side by side, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-giau",
+      "name": "Người giàu",
+      "seed": 2277639534,
+      "sheetPrompt": "a greedy rich German man from the Grimm tale, plump red face, bushy sideburns, fancy green velvet coat with gold buttons, tall riding boots, grumpy frown, comical rather than scary, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "go-cua-nha-giau",
+      "title": "Gõ cửa nhà giàu",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một ông lão lữ khách đi bộ trên đường làng. Trời tối dần mà chưa có chỗ trọ. Bên đường có hai ngôi nhà đối diện nhau: một toà nhà lớn và một túp nhà nhỏ. Ông lão gõ cửa nhà lớn trước, xin ngủ nhờ một đêm. Người giàu mở hé cửa, nhìn bộ áo cũ của ông, rồi lắc đầu: \"Nhà tôi đầy của quý, ai mà dám cho người lạ vào. Đi tìm chỗ khác đi!\" Nói rồi đóng sập cửa lại.",
+      "subtitles": [
+        "Ngày xưa, có một ông lão lữ khách đi bộ trên đường làng. Trời tối dần mà chưa có chỗ trọ.",
+        "Bên đường có hai ngôi nhà đối diện nhau: một toà nhà lớn và một túp nhà nhỏ.",
+        "Ông lão gõ cửa nhà lớn trước, xin ngủ nhờ một đêm.",
+        "Người giàu mở hé cửa, nhìn bộ áo cũ của ông, rồi lắc đầu:",
+        "\"Nhà tôi đầy của quý, ai mà dám cho người lạ vào. Đi tìm chỗ khác đi!\"",
+        "Nói rồi đóng sập cửa lại."
+      ],
+      "image": {
+        "prompt": "at dusk on a country road, a kind old wanderer with a staff stands at the door of a grand stone house, the greedy rich man peers out and waves him away, across the road a humble little cottage with a glowing window",
+        "seed": 1979333241,
+        "character": "ong-lao-lu-khach"
+      },
+      "video": {
+        "motionPrompt": "the rich man slams the door, the old wanderer turns calmly toward the little cottage, the cottage window glows warmly, evening breeze",
+        "seed": 3229208444
+      },
+      "voice": {}
+    },
+    {
+      "id": "tup-nha-nho",
+      "title": "Túp nhà nhỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Ông lão sang gõ cửa túp nhà nhỏ. Vợ chồng người nghèo vội mở cửa: \"Mời cụ vào, nhà chật nhưng ấm, cụ cứ nghỉ lại đêm nay.\" Bà vợ nấu khoai, vắt sữa con dê duy nhất mời khách. Ông chồng nhường chiếc giường của mình cho ông lão, còn hai vợ chồng nằm trên ổ rơm. Sáng ra, họ lại dọn bữa sáng thật tươm tất, dù chẳng có gì nhiều.",
+      "subtitles": [
+        "Ông lão sang gõ cửa túp nhà nhỏ. Vợ chồng người nghèo vội mở cửa:",
+        "\"Mời cụ vào, nhà chật nhưng ấm, cụ cứ nghỉ lại đêm nay.\"",
+        "Bà vợ nấu khoai, vắt sữa con dê duy nhất mời khách.",
+        "Ông chồng nhường chiếc giường của mình cho ông lão, còn hai vợ chồng nằm trên ổ rơm.",
+        "Sáng ra, họ lại dọn bữa sáng thật tươm tất, dù chẳng có gì nhiều."
+      ],
+      "image": {
+        "prompt": "inside a tiny warm cottage the poor kind couple serve potatoes and a jug of goat milk to the old wanderer at a small wooden table, a little goat by the door, a straw bed in the corner, candlelight",
+        "seed": 3051837216,
+        "character": "vo-chong-ngheo"
+      },
+      "video": {
+        "motionPrompt": "the wife pours milk, steam rises from the potatoes, the goat bleats softly, candlelight flickers warmly",
+        "seed": 357098841
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-dieu-uoc",
+      "title": "Ba điều ước",
+      "narrator": "ke-chuyen",
+      "narration": "Trước khi đi, ông lão nói: \"Hai con thật tốt bụng. Ta cho các con ba điều ước.\" Người nghèo nghĩ một lúc rồi thưa: \"Chúng con chỉ ước được hạnh phúc mãi về sau, được khoẻ mạnh, có bánh mì ăn mỗi ngày. Chúng con không biết ước gì thêm nữa.\" Ông lão mỉm cười: \"Hay là ước một ngôi nhà mới thay cho túp nhà cũ này?\" Họ mừng rỡ gật đầu. Ông lão vừa đi khuất, túp nhà nhỏ đã hoá thành một ngôi nhà mới khang trang.",
+      "subtitles": [
+        "Trước khi đi, ông lão nói: \"Hai con thật tốt bụng. Ta cho các con ba điều ước.\"",
+        "Người nghèo nghĩ một lúc rồi thưa: \"Chúng con chỉ ước được hạnh phúc mãi về sau,",
+        "được khoẻ mạnh, có bánh mì ăn mỗi ngày. Chúng con không biết ước gì thêm nữa.\"",
+        "Ông lão mỉm cười: \"Hay là ước một ngôi nhà mới thay cho túp nhà cũ này?\"",
+        "Họ mừng rỡ gật đầu. Ông lão vừa đi khuất,",
+        "túp nhà nhỏ đã hoá thành một ngôi nhà mới khang trang."
+      ],
+      "image": {
+        "prompt": "morning light, the old wanderer raises his staff with a gentle golden glow as the humble cottage transforms into a neat new house with red tiles and flower boxes, the poor couple hold hands in amazement",
+        "seed": 2154120770,
+        "character": "ong-lao-lu-khach"
+      },
+      "video": {
+        "motionPrompt": "golden sparkles swirl around the cottage, walls and roof gently reshape into a fresh new house, the couple gasp with joy",
+        "seed": 4166073443
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-giau-duoi-theo",
+      "title": "Người giàu đuổi theo",
+      "narrator": "ke-chuyen",
+      "narration": "Người giàu ngủ dậy, thấy ngôi nhà mới bên kia đường thì sững sờ. Nghe chuyện, vợ ông giục: \"Còn đứng đấy à? Mau cưỡi ngựa đuổi theo ông lão mà xin ba điều ước!\" Người giàu phi ngựa đuổi kịp ông lão, nói ngọt ngào: \"Hôm qua tôi đi tìm chìa khoá, nên chậm mở cửa. Xin cụ quay lại nhà tôi chơi, và cho tôi ba điều ước nữa.\" Ông lão nói: \"Ta cho, nhưng ước gì cũng nên nghĩ cho kỹ.\"",
+      "subtitles": [
+        "Người giàu ngủ dậy, thấy ngôi nhà mới bên kia đường thì sững sờ.",
+        "Nghe chuyện, vợ ông giục: \"Còn đứng đấy à?",
+        "Mau cưỡi ngựa đuổi theo ông lão mà xin ba điều ước!\"",
+        "Người giàu phi ngựa đuổi kịp ông lão, nói ngọt ngào: \"Hôm qua tôi đi tìm chìa khoá,",
+        "nên chậm mở cửa.",
+        "Xin cụ quay lại nhà tôi chơi, và cho tôi ba điều ước nữa.\"",
+        "Ông lão nói: \"Ta cho, nhưng ước gì cũng nên nghĩ cho kỹ.\""
+      ],
+      "image": {
+        "prompt": "on a sunny road the rich man on a brown horse leans down with a false sweet smile toward the calm old wanderer with his staff, meadows and a distant village behind them",
+        "seed": 512783010,
+        "character": "nguoi-giau"
+      },
+      "video": {
+        "motionPrompt": "the horse trots up and stops, the rich man bows exaggeratedly, the wanderer lifts a warning finger, clouds drift by",
+        "seed": 3376284948
+      },
+      "voice": {}
+    },
+    {
+      "id": "uoc-trong-con-gian",
+      "title": "Ước trong cơn giận",
+      "narrator": "ke-chuyen",
+      "narration": "Người giàu cưỡi ngựa về, vừa đi vừa nghĩ nên ước gì cho thật lời. Con ngựa cứ nhảy chồm lên, làm ông chẳng nghĩ được gì. Ông bực mình quát: \"Giá mà mày biến đi cho khuất mắt!\" Thế là con ngựa biến mất, chỉ còn cái yên. Ông phải vác yên đi bộ về giữa trưa nắng, mồ hôi nhễ nhại. Ông lại cáu, nghĩ đến bà vợ đang ngồi mát ở nhà: \"Ước gì mụ ấy ngồi dính trên cái yên này, không xuống được!\"",
+      "subtitles": [
+        "Người giàu cưỡi ngựa về, vừa đi vừa nghĩ nên ước gì cho thật lời.",
+        "Con ngựa cứ nhảy chồm lên, làm ông chẳng nghĩ được gì.",
+        "Ông bực mình quát: \"Giá mà mày biến đi cho khuất mắt!\" Thế là con ngựa biến mất,",
+        "chỉ còn cái yên.",
+        "Ông phải vác yên đi bộ về giữa trưa nắng, mồ hôi nhễ nhại.",
+        "Ông lại cáu, nghĩ đến bà vợ đang ngồi mát ở nhà:",
+        "\"Ước gì mụ ấy ngồi dính trên cái yên này, không xuống được!\""
+      ],
+      "image": {
+        "prompt": "on a hot dusty road the grumpy rich man trudges along carrying a heavy leather saddle on his back, sweating under the midday sun, an empty meadow where his horse just vanished in a puff of sparkles, comical",
+        "seed": 3464349945,
+        "character": "nguoi-giau"
+      },
+      "video": {
+        "motionPrompt": "the rich man stumbles under the saddle, wipes his brow, a last sparkle fades where the horse was, heat shimmers, comical motion",
+        "seed": 3571585386
+      },
+      "voice": {}
+    },
+    {
+      "id": "dieu-uoc-cuoi",
+      "title": "Điều ước cuối cùng",
+      "narrator": "ke-chuyen",
+      "narration": "Vừa dứt lời, cái yên trên lưng ông đã biến đâu mất. Về đến nhà, ông thấy bà vợ ngồi chễm chệ trên cái yên giữa phòng, kêu la ầm ĩ vì không xuống được. Ông đành dùng điều ước cuối cùng: \"Ước gì vợ tôi xuống được khỏi cái yên!\" Thế là ba điều ước của người giàu chỉ mang lại mệt nhọc và bực dọc. Còn vợ chồng người nghèo thì sống vui vẻ, khoẻ mạnh, hạnh phúc trong ngôi nhà mới đến cuối đời.",
+      "subtitles": [
+        "Vừa dứt lời, cái yên trên lưng ông đã biến đâu mất.",
+        "Về đến nhà, ông thấy bà vợ ngồi chễm chệ trên cái yên giữa phòng,",
+        "kêu la ầm ĩ vì không xuống được.",
+        "Ông đành dùng điều ước cuối cùng: \"Ước gì vợ tôi xuống được khỏi cái yên!\"",
+        "Thế là ba điều ước của người giàu chỉ mang lại mệt nhọc và bực dọc.",
+        "Còn vợ chồng người nghèo thì sống vui vẻ, khoẻ mạnh,",
+        "hạnh phúc trong ngôi nhà mới đến cuối đời."
+      ],
+      "image": {
+        "prompt": "in a fancy parlor the rich man's wife sits stuck on a leather saddle in the middle of the room, waving her arms, the tired rich man slumps against the door, through the window the poor couple smile in their new house garden, comical",
+        "seed": 292931896,
+        "character": "nguoi-giau"
+      },
+      "video": {
+        "motionPrompt": "the wife wobbles and flails on the saddle, the rich man sighs and drops his hat, outside flowers sway by the new house",
+        "seed": 1918869331
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle German folk fairy-tale music, warm accordion and soft clarinet with plucked strings, kindly and lightly humorous, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 100,
+    "seed": 4121433468
+  }
+}

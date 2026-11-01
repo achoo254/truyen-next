@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "slug": "cay-bap-cai-lua",
+  "shelf": "world",
+  "title": "Cây bắp cải lừa",
+  "summary": "Chàng thợ săn tốt bụng có áo choàng thần và viên ngọc đẻ vàng, rồi bị mụ phù thủy cùng cô con gái lừa mất cả hai. Nhờ hai loại bắp cải lạ, một loại ăn vào hoá thành lừa, một loại ăn vào trở lại làm người, chàng đòi lại tất cả. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Donkey Cabbages\" (Der Krautesel; Kinder- und Hausmärchen, bản 1857, truyện số 122; bản tiếng Anh của Margaret Hunt trên Project Gutenberg), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể đã làm nhẹ cho cả nhà: phát súng chỉ làm đàn chim hoảng sợ đánh rơi áo choàng và viên ngọc hình trái tim (thay cho trái tim chim), các con lừa ở nhà cối xay chỉ phải làm việc chứ không bị đánh, và mụ phù thủy phải làm lừa mãi mãi thay cho kết cục trong bản gốc.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, deep forests, a turreted castle, a sparkling mountain of red garnets and a walled cabbage garden in the clouds, warm greens and rich reds, rounded friendly shapes, whimsical and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "tho-san",
+      "name": "Chàng thợ săn",
+      "seed": 1955544678,
+      "sheetPrompt": "a cheerful kind young German huntsman from the Grimm tale, curly blond hair, green feathered hunting hat, green jacket with a leather pouch, a hunting gun slung on his back, warm open smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "co-gai",
+      "name": "Cô con gái",
+      "seed": 1779268957,
+      "sheetPrompt": "a beautiful young maiden from the Grimm tale, long golden-red hair, emerald green gown, gentle conflicted eyes, a little guilty, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "phu-thuy",
+      "name": "Mụ phù thủy",
+      "seed": 587511138,
+      "sheetPrompt": "a greedy old witch from the Grimm tale, hooked nose, grey hair in a messy bun, black shawl over a dark-red dress, sly squinting eyes, comical rather than scary, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-lao-an-xin",
+      "title": "Bà lão ăn xin",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một chàng thợ săn trẻ vui tính, vừa đi vào rừng vừa thổi lá huýt sáo. Giữa đường, một bà lão xấu xí chìa tay xin: \"Ta đói và khát lắm, cho ta ít gì đi, chàng trai.\" Chàng thương bà, móc túi cho bà những gì mình có. Bà lão bảo: \"Đi một quãng, chàng sẽ thấy chín con chim giành nhau một tấm áo choàng. Đó là áo choàng ước: khoác vào, muốn đến đâu là tới đó ngay. Chàng còn sẽ được một viên ngọc đỏ hình trái tim. Nuốt viên ngọc vào, sáng nào thức dậy, dưới gối chàng cũng có một đồng tiền vàng.\"",
+      "subtitles": [
+        "Ngày xưa, có một chàng thợ săn trẻ vui tính, vừa đi vào rừng vừa thổi lá huýt sáo.",
+        "Giữa đường, một bà lão xấu xí chìa tay xin:",
+        "\"Ta đói và khát lắm, cho ta ít gì đi, chàng trai.\"",
+        "Chàng thương bà, móc túi cho bà những gì mình có.",
+        "Bà lão bảo: \"Đi một quãng, chàng sẽ thấy chín con chim giành nhau một tấm áo choàng.",
+        "Đó là áo choàng ước: khoác vào, muốn đến đâu là tới đó ngay.",
+        "Chàng còn sẽ được một viên ngọc đỏ hình trái tim.",
+        "Nuốt viên ngọc vào, sáng nào thức dậy, dưới gối chàng cũng có một đồng tiền vàng.\""
+      ],
+      "image": {
+        "prompt": "on a forest path the cheerful young huntsman gives coins to an ugly but kindly old woman leaning on a stick, sun rays through the beech trees, a leaf held to his lips, warm and friendly",
+        "seed": 2996007203,
+        "character": "tho-san"
+      },
+      "video": {
+        "motionPrompt": "the huntsman drops coins into the old woman's hand, she smiles and points down the path, leaves flutter, gentle motion",
+        "seed": 2575551845
+      },
+      "voice": {}
+    },
+    {
+      "id": "ao-choang-uoc",
+      "title": "Áo choàng ước",
+      "narrator": "ke-chuyen",
+      "narration": "Đi chừng một trăm bước, chàng nghe trên cành cây ríu rít ầm ĩ: chín con chim đang giằng co một tấm vải. Chàng bắn một phát súng lên trời. Đàn chim hoảng hốt bay tán loạn, tấm áo choàng rơi xuống, kèm theo một viên ngọc đỏ nhỏ xíu, đúng hình trái tim. Chàng nuốt viên ngọc, mang áo choàng về nhà. Sáng hôm sau lật gối lên, một đồng tiền vàng sáng loá. Ngày nào cũng thế. Chàng nghĩ: \"Có vàng mà cứ ngồi nhà thì ích gì? Ta đi ngắm thiên hạ thôi.\"",
+      "subtitles": [
+        "Đi chừng một trăm bước, chàng nghe trên cành cây ríu rít ầm ĩ:",
+        "chín con chim đang giằng co một tấm vải.",
+        "Chàng bắn một phát súng lên trời. Đàn chim hoảng hốt bay tán loạn,",
+        "tấm áo choàng rơi xuống,",
+        "kèm theo một viên ngọc đỏ nhỏ xíu, đúng hình trái tim.",
+        "Chàng nuốt viên ngọc, mang áo choàng về nhà.",
+        "Sáng hôm sau lật gối lên, một đồng tiền vàng sáng loá. Ngày nào cũng thế.",
+        "Chàng nghĩ: \"Có vàng mà cứ ngồi nhà thì ích gì? Ta đi ngắm thiên hạ thôi.\""
+      ],
+      "image": {
+        "prompt": "nine colourful birds flutter up from a tree in a burst of feathers, a shimmering magic cloak drifts down to the young huntsman who catches it, a tiny red heart-shaped gem glowing in his other hand, whimsical",
+        "seed": 1356933053,
+        "character": "tho-san"
+      },
+      "video": {
+        "motionPrompt": "the birds scatter into the sky, the shimmering cloak floats down slowly, the little red gem glints in the huntsman's palm",
+        "seed": 845430906
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-phu-thuy",
+      "title": "Lâu đài phù thủy",
+      "narrator": "ke-chuyen",
+      "narration": "Ra khỏi một khu rừng rậm, chàng thấy một lâu đài đẹp. Bên cửa sổ có một bà già và một cô gái xinh đẹp. Bà già vốn là phù thủy. Mụ thì thầm: \"Gã kia mang trong người viên ngọc đẻ vàng. Con phải lấy cho ta.\" Chàng thợ săn vào lâu đài, được đón tiếp nồng hậu, rồi đem lòng yêu cô gái. Mụ phù thủy pha một cốc nước, bắt cô gái mời chàng. Chàng uống xong thì nấc lên một cái, viên ngọc bật ra. Cô gái phải lén cất đi, nuốt lấy. Từ đó, đồng vàng nằm dưới gối cô, và mụ già sáng nào cũng đến lấy.",
+      "subtitles": [
+        "Ra khỏi một khu rừng rậm, chàng thấy một lâu đài đẹp.",
+        "Bên cửa sổ có một bà già và một cô gái xinh đẹp.",
+        "Bà già vốn là phù thủy. Mụ thì thầm: \"Gã kia mang trong người viên ngọc đẻ vàng.",
+        "Con phải lấy cho ta.\"",
+        "Chàng thợ săn vào lâu đài, được đón tiếp nồng hậu, rồi đem lòng yêu cô gái.",
+        "Mụ phù thủy pha một cốc nước, bắt cô gái mời chàng. Chàng uống xong thì nấc lên một cái,",
+        "viên ngọc bật ra.",
+        "Cô gái phải lén cất đi, nuốt lấy. Từ đó, đồng vàng nằm dưới gối cô,",
+        "và mụ già sáng nào cũng đến lấy."
+      ],
+      "image": {
+        "prompt": "in a turreted castle window an old witch whispers slyly to a beautiful maiden in a green gown, below them the cheerful young huntsman walks up the garden path admiring the maiden, warm afternoon light, whimsical",
+        "seed": 968524839,
+        "character": "phu-thuy"
+      },
+      "video": {
+        "motionPrompt": "the witch rubs her hands together and whispers, the maiden glances down shyly, the huntsman waves from the path",
+        "seed": 1443168858
+      },
+      "voice": {}
+    },
+    {
+      "id": "nui-ngoc-do",
+      "title": "Núi ngọc đỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Mụ phù thủy còn muốn cả áo choàng ước. Cô gái không muốn, nhưng sợ mụ, đành nghe theo. Cô đứng bên cửa sổ, thở dài: \"Bên kia có ngọn núi ngọc đỏ, ước gì em được đến đó.\" Chàng choàng áo cho cả hai, ước một cái, chớp mắt đã ngồi trên núi ngọc lấp lánh. Phép của mụ phù thủy làm chàng buồn ngủ ríu mắt. Chàng gối đầu lên lòng cô gái mà ngủ thiếp đi. Cô gái cởi áo choàng khoác vào, ôm ngọc, ước một cái rồi biến về nhà, bỏ chàng lại một mình trên núi.",
+      "subtitles": [
+        "Mụ phù thủy còn muốn cả áo choàng ước. Cô gái không muốn, nhưng sợ mụ, đành nghe theo.",
+        "Cô đứng bên cửa sổ, thở dài: \"Bên kia có ngọn núi ngọc đỏ, ước gì em được đến đó.\"",
+        "Chàng choàng áo cho cả hai, ước một cái, chớp mắt đã ngồi trên núi ngọc lấp lánh.",
+        "Phép của mụ phù thủy làm chàng buồn ngủ ríu mắt.",
+        "Chàng gối đầu lên lòng cô gái mà ngủ thiếp đi.",
+        "Cô gái cởi áo choàng khoác vào, ôm ngọc, ước một cái rồi biến về nhà,",
+        "bỏ chàng lại một mình trên núi."
+      ],
+      "image": {
+        "prompt": "on a sparkling mountain covered with glowing red garnets, the huntsman sleeps with his head in the maiden's lap, the maiden looks away guiltily, wrapping the shimmering cloak around her shoulders, twilight sky",
+        "seed": 1204306875,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "red garnets twinkle, the maiden slips the cloak around herself and fades away in a shimmer, the huntsman sleeps on peacefully",
+        "seed": 2991845054
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-may-dua-loi",
+      "title": "Đám mây đưa lối",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng tỉnh dậy, biết mình bị lừa, ngồi buồn rầu. Bỗng ba người khổng lồ, chủ ngọn núi, đi tới. Chàng vội nằm im giả ngủ. Một gã khổng lồ hất chân: \"Con sâu đất gì nằm đây?\" Gã thứ hai cằn nhằn muốn đuổi chàng đi. Gã thứ ba gạt đi: \"Kệ nó. Nó leo lên đỉnh núi, mây sẽ cuốn nó đi thôi.\" Đợi họ đi khỏi, chàng leo lên đỉnh núi. Quả nhiên một đám mây trôi đến, nâng chàng lên, bay mãi trên trời, rồi hạ chàng xuống nhẹ nhàng giữa một vườn bắp cải có tường cao bao quanh.",
+      "subtitles": [
+        "Chàng tỉnh dậy, biết mình bị lừa, ngồi buồn rầu.",
+        "Bỗng ba người khổng lồ, chủ ngọn núi, đi tới.",
+        "Chàng vội nằm im giả ngủ. Một gã khổng lồ hất chân: \"Con sâu đất gì nằm đây?\"",
+        "Gã thứ hai cằn nhằn muốn đuổi chàng đi. Gã thứ ba gạt đi: \"Kệ nó. Nó leo lên đỉnh núi,",
+        "mây sẽ cuốn nó đi thôi.\"",
+        "Đợi họ đi khỏi, chàng leo lên đỉnh núi. Quả nhiên một đám mây trôi đến, nâng chàng lên,",
+        "bay mãi trên trời,",
+        "rồi hạ chàng xuống nhẹ nhàng giữa một vườn bắp cải có tường cao bao quanh."
+      ],
+      "image": {
+        "prompt": "a fluffy white cloud carries the young huntsman gently through the sky away from a garnet mountain where three big clumsy giants stroll in the distance, below a walled vegetable garden full of round green cabbages, dreamy",
+        "seed": 3603391235,
+        "character": "tho-san"
+      },
+      "video": {
+        "motionPrompt": "the cloud drifts and sinks softly toward the walled cabbage garden, the huntsman holds on in wonder, birds fly alongside",
+        "seed": 135216403
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-thanh-lua",
+      "title": "Hoá thành lừa",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng đói meo, chẳng có quả táo quả lê nào, đành nhổ một cây bắp cải mà ăn. Mới được vài miếng, chàng thấy người là lạ: mọc ra bốn chân, cái đầu to, đôi tai dài. Chàng đã hoá thành con lừa! Nhưng bụng vẫn đói, lá bắp cải lại ngon với con lừa, chàng cứ thế ăn tiếp. Ăn sang một luống bắp cải khác, chàng bỗng trở lại hình người. Chàng ngủ một giấc, sáng ra hái một cây bắp cải lừa, một cây bắp cải người, và nghĩ: \"Hai cây này sẽ giúp ta đòi lại của mình và phạt kẻ lừa dối.\"",
+      "subtitles": [
+        "Chàng đói meo, chẳng có quả táo quả lê nào, đành nhổ một cây bắp cải mà ăn.",
+        "Mới được vài miếng, chàng thấy người là lạ: mọc ra bốn chân, cái đầu to, đôi tai dài.",
+        "Chàng đã hoá thành con lừa!",
+        "Nhưng bụng vẫn đói, lá bắp cải lại ngon với con lừa, chàng cứ thế ăn tiếp.",
+        "Ăn sang một luống bắp cải khác, chàng bỗng trở lại hình người.",
+        "Chàng ngủ một giấc, sáng ra hái một cây bắp cải lừa, một cây bắp cải người, và nghĩ:",
+        "\"Hai cây này sẽ giúp ta đòi lại của mình và phạt kẻ lừa dối.\""
+      ],
+      "image": {
+        "prompt": "in a walled cabbage garden a comical grey donkey with a green feathered hunting hat stuck between its long ears munches a cabbage, beside it a different row of cabbages glowing faintly, playful and whimsical",
+        "seed": 4082844453,
+        "character": "tho-san"
+      },
+      "video": {
+        "motionPrompt": "the donkey chews happily and flicks its long ears, then a soft shimmer and the huntsman stands up laughing, holding two cabbages",
+        "seed": 3022554023
+      },
+      "voice": {}
+    },
+    {
+      "id": "mon-sa-lat-la",
+      "title": "Món xà lách lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng bôi mặt cho sạm đen để không ai nhận ra, rồi tìm về lâu đài, xin nghỉ nhờ. Chàng nói: \"Tôi là sứ giả của nhà vua, đi tìm món xà lách ngon nhất trên đời, và đã tìm thấy rồi.\" Mụ phù thủy thèm quá, xin nếm thử. Chàng đưa cho mụ cây bắp cải lừa. Mụ vội vào bếp làm món, chưa kịp bày lên bàn đã bốc mấy lá ăn. Lập tức mụ hoá thành con lừa, chạy ra sân. Chị hầu bưng đĩa lên, nếm trộm một miếng, cũng hoá thành lừa. Chàng bưng nốt đĩa xà lách lên mời cô gái. Cô gái ăn vào, cũng hoá thành con lừa thứ ba.",
+      "subtitles": [
+        "Chàng bôi mặt cho sạm đen để không ai nhận ra, rồi tìm về lâu đài, xin nghỉ nhờ.",
+        "Chàng nói: \"Tôi là sứ giả của nhà vua, đi tìm món xà lách ngon nhất trên đời,",
+        "và đã tìm thấy rồi.\"",
+        "Mụ phù thủy thèm quá, xin nếm thử. Chàng đưa cho mụ cây bắp cải lừa.",
+        "Mụ vội vào bếp làm món, chưa kịp bày lên bàn đã bốc mấy lá ăn.",
+        "Lập tức mụ hoá thành con lừa, chạy ra sân.",
+        "Chị hầu bưng đĩa lên, nếm trộm một miếng, cũng hoá thành lừa.",
+        "Chàng bưng nốt đĩa xà lách lên mời cô gái.",
+        "Cô gái ăn vào, cũng hoá thành con lừa thứ ba."
+      ],
+      "image": {
+        "prompt": "in a castle courtyard two comical donkeys trot around, one wearing a witch's black shawl, one wearing a maid's frilly cap, a plate of salad spilled on the cobbles, the huntsman with a tanned disguised face peeks from the kitchen door, whimsical",
+        "seed": 2186324323,
+        "character": "phu-thuy"
+      },
+      "video": {
+        "motionPrompt": "the donkeys bray and trot in circles, the shawl flaps, the huntsman covers a laugh behind his hand, playful motion",
+        "seed": 3044206553
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-coi-xay",
+      "title": "Ở nhà cối xay",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng rửa mặt cho ba con lừa nhận ra mình, rồi buộc cả ba vào một sợi dây, dắt đến nhà cối xay. Chàng dặn bác thợ xay: \"Con lừa già phải làm nhiều, ăn ít. Con lừa giữa làm vừa vừa. Còn con lừa nhỏ nhất thì cho ăn đủ ba bữa, đừng bắt làm nặng.\" Vài hôm sau, bác thợ xay đến báo: hai con lừa nhỏ buồn quá, chẳng thiết ăn uống gì. Chàng nguôi giận, động lòng thương, bảo dắt hai con lừa về, cho ăn bắp cải người. Còn mụ phù thủy tham lam thì không bao giờ được trở lại làm người nữa, cứ thế kéo cối xay mãi mãi.",
+      "subtitles": [
+        "Chàng rửa mặt cho ba con lừa nhận ra mình, rồi buộc cả ba vào một sợi dây,",
+        "dắt đến nhà cối xay.",
+        "Chàng dặn bác thợ xay: \"Con lừa già phải làm nhiều, ăn ít. Con lừa giữa làm vừa vừa.",
+        "Còn con lừa nhỏ nhất thì cho ăn đủ ba bữa, đừng bắt làm nặng.\"",
+        "Vài hôm sau, bác thợ xay đến báo: hai con lừa nhỏ buồn quá, chẳng thiết ăn uống gì.",
+        "Chàng nguôi giận, động lòng thương, bảo dắt hai con lừa về, cho ăn bắp cải người.",
+        "Còn mụ phù thủy tham lam thì không bao giờ được trở lại làm người nữa,",
+        "cứ thế kéo cối xay mãi mãi."
+      ],
+      "image": {
+        "prompt": "at an old water mill a kindly miller leads three donkeys on a rope, the oldest donkey in a black shawl pushes the mill wheel grumpily, a smaller sad donkey looks up with gentle eyes, the huntsman watches with a softening face, warm afternoon",
+        "seed": 1312741883,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the mill wheel turns slowly, water splashes, the old donkey trudges in a circle, the small donkey lowers its ears sadly",
+        "seed": 2359436437
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-tha-thu",
+      "title": "Lời tha thứ",
+      "narrator": "ke-chuyen",
+      "narration": "Cô gái trở lại hình người, quỳ xuống trước chàng: \"Xin chàng tha lỗi cho em. Mẹ em ép em làm thế, chứ em thương chàng thật lòng. Áo choàng ước em treo trong tủ, còn viên ngọc em xin trả lại chàng.\" Chàng thợ săn mỉm cười: \"Em cứ giữ lấy. Đằng nào thì em cũng sẽ là vợ ta.\" Thế là đám cưới được tổ chức linh đình, và hai người sống bên nhau hạnh phúc suốt đời.",
+      "subtitles": [
+        "Cô gái trở lại hình người, quỳ xuống trước chàng:",
+        "\"Xin chàng tha lỗi cho em. Mẹ em ép em làm thế, chứ em thương chàng thật lòng.",
+        "Áo choàng ước em treo trong tủ, còn viên ngọc em xin trả lại chàng.\"",
+        "Chàng thợ săn mỉm cười: \"Em cứ giữ lấy. Đằng nào thì em cũng sẽ là vợ ta.\"",
+        "Thế là đám cưới được tổ chức linh đình, và hai người sống bên nhau hạnh phúc suốt đời."
+      ],
+      "image": {
+        "prompt": "in a sunny castle hall the maiden in a green gown kneels before the young huntsman, he gently lifts her up by the hands with a forgiving smile, the shimmering cloak hanging behind, flower garlands for a wedding",
+        "seed": 1895062833,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the huntsman lifts the maiden to her feet, she smiles through tears, flower petals drift down, warm light, slow pull-back",
+        "seed": 1028361925
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle German fairy-tale music, playful oboe and pizzicato strings with a little donkey-like bassoon motif, turning tender with harp and strings at the end, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 2825211091
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-lua-va-chu-cho-nho",
+  "shelf": "world",
+  "title": "Con lừa và chú chó nhỏ",
+  "summary": "Thấy chú chó nhỏ được chủ cưng chiều, con lừa ghen tị bắt chước nhảy lên lòng chủ, làm đổ vỡ cả nhà và bị đuổi về chuồng. Ngụ ngôn Aesop vui về chuyện đừng bắt chước điều không hợp với mình.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, an old European farmhouse with a cosy parlour, a farmyard, a stable with hay and a millstone, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "lua",
+      "name": "Con lừa",
+      "seed": 255042914,
+      "sheetPrompt": "a sturdy brown donkey with long ears, a big clumsy body and an earnest hopeful expression, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cho",
+      "name": "Chú chó nhỏ",
+      "seed": 3610787107,
+      "sheetPrompt": "a tiny fluffy white lapdog with bright eyes, a wagging tail and a little ribbon on its collar, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chu",
+      "name": "Ông chủ",
+      "seed": 2078527217,
+      "sheetPrompt": "a kind round-faced farmer in a waistcoat and shirt sleeves, rosy cheeks and a friendly smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "trang-trai",
+      "title": "Ở trang trại",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một người chủ trang trại nuôi một chú lừa khỏe mạnh và một chú chó nhỏ lông trắng như bông. Lừa ở trong chuồng ngoài sân, ngày ngày kéo cối xay, chở củi, chở lúa. Còn chó nhỏ thì ở trong nhà, chạy nhảy quanh chân chủ, được ôm vào lòng, được cho ăn những miếng ngon từ trên bàn.",
+      "subtitles": [
+        "Ngày xưa, có một người chủ trang trại nuôi một chú lừa khỏe mạnh và một chú chó nhỏ lông",
+        "trắng như bông.",
+        "Lừa ở trong chuồng ngoài sân, ngày ngày kéo cối xay, chở củi, chở lúa.",
+        "Còn chó nhỏ thì ở trong nhà, chạy nhảy quanh chân chủ, được ôm vào lòng,",
+        "được cho ăn những miếng ngon từ trên bàn."
+      ],
+      "image": {
+        "character": "cho",
+        "prompt": "a farmhouse scene split between a brown donkey turning a millstone in the yard and a fluffy white lapdog sitting happily on the farmer's lap by the fireplace",
+        "seed": 725242236
+      },
+      "video": {
+        "motionPrompt": "the donkey trudges around the millstone, inside the little dog wags its tail and the farmer strokes it",
+        "seed": 1832367426
+      },
+      "voice": {}
+    },
+    {
+      "id": "ghen-ti",
+      "title": "Lừa ghen tị",
+      "narrator": "ke-chuyen",
+      "narration": "Một chiều, kéo cối xay xong, lừa mệt mỏi đứng nhìn qua cửa sổ. Nó thấy chó nhỏ nhảy lên lòng chủ, liếm tay, vẫy đuôi, và ông chủ thì cười, vuốt ve nó mãi. Lừa buồn bã nghĩ: “Mình làm lụng vất vả cả ngày, chẳng ai khen một câu. Chó con chỉ biết nhảy nhót mà được cưng chiều. Mình cũng làm thế, chắc chủ sẽ thương mình.”",
+      "subtitles": [
+        "Một chiều, kéo cối xay xong, lừa mệt mỏi đứng nhìn qua cửa sổ.",
+        "Nó thấy chó nhỏ nhảy lên lòng chủ, liếm tay, vẫy đuôi, và ông chủ thì cười,",
+        "vuốt ve nó mãi.",
+        "Lừa buồn bã nghĩ: “Mình làm lụng vất vả cả ngày, chẳng ai khen một câu.",
+        "Chó con chỉ biết nhảy nhót mà được cưng chiều.",
+        "Mình cũng làm thế, chắc chủ sẽ thương mình.”"
+      ],
+      "image": {
+        "character": "lua",
+        "prompt": "a tired brown donkey peering wistfully through a farmhouse window at a little white dog being cuddled by the farmer, evening light",
+        "seed": 1745761618
+      },
+      "video": {
+        "motionPrompt": "the donkey's ears droop as it watches through the window, the little dog licks the farmer's hand, the fire glows",
+        "seed": 1832960961
+      },
+      "voice": {}
+    },
+    {
+      "id": "vao-nha",
+      "title": "Lừa vào nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Thế là lừa giật đứt dây buộc, phi thẳng vào nhà. Nó tung vó nhảy nhót, làm đổ cả bàn ghế, bát đĩa rơi loảng xoảng. Rồi lừa nhảy chồm lên, đặt hai cái móng nặng trịch lên đùi ông chủ, thè lưỡi đòi liếm mặt ông, y như chó nhỏ vẫn làm. Ông chủ hoảng hốt kêu lên: “Ối, cứu tôi với!”",
+      "subtitles": [
+        "Thế là lừa giật đứt dây buộc, phi thẳng vào nhà.",
+        "Nó tung vó nhảy nhót, làm đổ cả bàn ghế, bát đĩa rơi loảng xoảng.",
+        "Rồi lừa nhảy chồm lên, đặt hai cái móng nặng trịch lên đùi ông chủ,",
+        "thè lưỡi đòi liếm mặt ông, y như chó nhỏ vẫn làm.",
+        "Ông chủ hoảng hốt kêu lên: “Ối, cứu tôi với!”"
+      ],
+      "image": {
+        "character": "lua",
+        "prompt": "a clumsy brown donkey prancing inside a cosy parlour, chairs tipping over and plates tumbling, front hooves on the startled farmer's lap, the little dog hiding under the table, comical",
+        "seed": 641470198
+      },
+      "video": {
+        "motionPrompt": "the donkey bounces around knocking over a chair, plates clatter, it rests its hooves on the farmer's knees, the farmer throws up his hands",
+        "seed": 4158476324
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-chuong",
+      "title": "Bị đuổi về chuồng",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe tiếng kêu, người làm trong nhà cầm chổi chạy vào. Họ xua đuổi chú lừa, lùa nó ra khỏi nhà, đưa thẳng về chuồng, buộc lại thật chặt. Chú lừa đứng trong chuồng, tai cụp xuống, vừa xấu hổ vừa tiếc. Nó lẩm bẩm: “Mình đúng là ngốc. Sao mình lại đi bắt chước việc chẳng hợp với mình?”",
+      "subtitles": [
+        "Nghe tiếng kêu, người làm trong nhà cầm chổi chạy vào.",
+        "Họ xua đuổi chú lừa, lùa nó ra khỏi nhà, đưa thẳng về chuồng, buộc lại thật chặt.",
+        "Chú lừa đứng trong chuồng, tai cụp xuống, vừa xấu hổ vừa tiếc.",
+        "Nó lẩm bẩm: “Mình đúng là ngốc.",
+        "Sao mình lại đi bắt chước việc chẳng hợp với mình?”"
+      ],
+      "image": {
+        "character": "lua",
+        "prompt": "farm helpers waving brooms shooing a sheepish brown donkey back into its stable, the donkey with drooping ears, straw flying",
+        "seed": 1806463914
+      },
+      "video": {
+        "motionPrompt": "the helpers wave their brooms, the donkey trots back into the stable and hangs its head, straw floats in the air",
+        "seed": 1576420541
+      },
+      "voice": {}
+    },
+    {
+      "id": "viec-cua-minh",
+      "title": "Ai cũng có việc của mình",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, ông chủ ra chuồng, mang cho lừa một bó cỏ tươi. Ông vỗ lưng nó, bảo: “Lừa ạ, ta quý chó vì nó vui, ta quý mày vì mày khỏe và chăm. Mỗi đứa một cách thôi.” Chú lừa vui vẻ kéo cối xay, không còn ghen tị nữa. Các bạn nhỏ ạ, đừng cố bắt chước người khác. Hãy làm tốt việc hợp với chính mình.",
+      "subtitles": [
+        "Sáng hôm sau, ông chủ ra chuồng, mang cho lừa một bó cỏ tươi.",
+        "Ông vỗ lưng nó, bảo: “Lừa ạ, ta quý chó vì nó vui, ta quý mày vì mày khỏe và chăm.",
+        "Mỗi đứa một cách thôi.”",
+        "Chú lừa vui vẻ kéo cối xay, không còn ghen tị nữa.",
+        "Các bạn nhỏ ạ, đừng cố bắt chước người khác.",
+        "Hãy làm tốt việc hợp với chính mình."
+      ],
+      "image": {
+        "character": "chu",
+        "prompt": "a kind farmer patting a content brown donkey and offering fresh green hay in the morning sunshine, the little white dog playing at their feet",
+        "seed": 762465135
+      },
+      "video": {
+        "motionPrompt": "the farmer pats the donkey, the donkey munches happily and swishes its tail, the little dog bounces around them",
+        "seed": 3302363049
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "bouncy European farmyard storybook music, accordion and tuba, a clumsy galloping motif with comic crashes on cymbal, then a cheerful warm ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1676111296
+  }
+}

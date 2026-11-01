@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-lua-cho-muoi",
+  "shelf": "world",
+  "title": "Con lừa chở muối",
+  "summary": "Chú lừa chở muối trượt chân ngã xuống suối, thấy gánh nhẹ hẳn liền bày mẹo ngã mãi, cho tới chuyến hàng bọt biển. Ngụ ngôn Aesop về mẹo khôn vặt và bài học nghĩ kỹ trước khi làm.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, an old Mediterranean seaside village, dusty country road, a clear stream with smooth stones and reeds, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "lua",
+      "name": "Chú lừa",
+      "seed": 2182149515,
+      "sheetPrompt": "a small grey donkey with long ears, big gentle eyes and a cheeky expression, carrying two cloth sacks on its back, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "lai-buon",
+      "name": "Bác lái buôn",
+      "seed": 2224447305,
+      "sheetPrompt": "a kindly middle-aged salt merchant in a simple tunic, straw hat and sandals, holding a rope lead, warm patient smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "len-duong",
+      "title": "Lên đường mua muối",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng gần biển, có bác lái buôn nuôi một chú lừa xám. Một sáng nọ, nghe tin muối ngoài bờ biển đang rẻ, bác dắt lừa ra chợ, mua thật nhiều muối, chất đầy hai bên lưng nó. Chú lừa oằn lưng, thở phì phò, bước từng bước nặng nhọc trên con đường về làng. Nó lẩm bẩm: “Ôi chao, sao muối lại nặng thế này!”",
+      "subtitles": [
+        "Ngày xưa, ở một làng gần biển, có bác lái buôn nuôi một chú lừa xám.",
+        "Một sáng nọ, nghe tin muối ngoài bờ biển đang rẻ, bác dắt lừa ra chợ,",
+        "mua thật nhiều muối, chất đầy hai bên lưng nó.",
+        "Chú lừa oằn lưng, thở phì phò, bước từng bước nặng nhọc trên con đường về làng.",
+        "Nó lẩm bẩm: “Ôi chao, sao muối lại nặng thế này!”"
+      ],
+      "image": {
+        "character": "lua",
+        "prompt": "a small grey donkey loaded with two heavy sacks of salt walking along a dusty seaside road, a merchant in a straw hat leading it, the sea sparkling behind",
+        "seed": 4075409811
+      },
+      "video": {
+        "motionPrompt": "the donkey plods slowly with drooping ears, the merchant tugs the rope gently, seagulls glide over the sea",
+        "seed": 1005016253
+      },
+      "voice": {}
+    },
+    {
+      "id": "truot-chan",
+      "title": "Trượt chân giữa suối",
+      "narrator": "ke-chuyen",
+      "narration": "Trên đường về có một con suối nhỏ, nước trong vắt chảy qua những hòn đá trơn. Đang lội qua, chú lừa trượt chân, ngã ùm xuống nước. Bác lái buôn hốt hoảng chạy lại đỡ. Khi lừa gượng đứng dậy, nó thấy lưng mình nhẹ hẳn đi. Thì ra muối đã tan gần hết vào dòng nước mát. Chú lừa khoan khoái nghĩ: “Hay quá, ngã một cái mà đỡ bao nhiêu là nặng!”",
+      "subtitles": [
+        "Trên đường về có một con suối nhỏ, nước trong vắt chảy qua những hòn đá trơn.",
+        "Đang lội qua, chú lừa trượt chân, ngã ùm xuống nước.",
+        "Bác lái buôn hốt hoảng chạy lại đỡ.",
+        "Khi lừa gượng đứng dậy, nó thấy lưng mình nhẹ hẳn đi.",
+        "Thì ra muối đã tan gần hết vào dòng nước mát.",
+        "Chú lừa khoan khoái nghĩ: “Hay quá, ngã một cái mà đỡ bao nhiêu là nặng!”"
+      ],
+      "image": {
+        "character": "lua",
+        "prompt": "a grey donkey splashing down comically into a shallow clear stream, salt sacks soaking, the merchant rushing in with arms out, water droplets sparkling",
+        "seed": 4112516509
+      },
+      "video": {
+        "motionPrompt": "the donkey slips and splashes into the shallow stream, water sprays up, the merchant hurries over, the donkey stands up looking pleased",
+        "seed": 3673489826
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-y-nga",
+      "title": "Cố ý ngã",
+      "narrator": "ke-chuyen",
+      "narration": "Bác lái buôn đành quay lại chợ, mua một chuyến muối khác. Lần này, vừa tới giữa suối, chú lừa nhớ ngay mẹo cũ. Nó khuỵu chân, cố tình nằm lăn xuống nước, vờ như lại trượt ngã. Muối lại tan, gánh lại nhẹ. Lừa đứng dậy, đi tung tăng, trong bụng thích chí lắm. Nhưng bác lái buôn đứng trên bờ, nhìn theo, khẽ nheo mắt. Bác đã đoán ra trò khôn vặt của nó.",
+      "subtitles": [
+        "Bác lái buôn đành quay lại chợ, mua một chuyến muối khác.",
+        "Lần này, vừa tới giữa suối, chú lừa nhớ ngay mẹo cũ.",
+        "Nó khuỵu chân, cố tình nằm lăn xuống nước, vờ như lại trượt ngã.",
+        "Muối lại tan, gánh lại nhẹ.",
+        "Lừa đứng dậy, đi tung tăng, trong bụng thích chí lắm.",
+        "Nhưng bác lái buôn đứng trên bờ, nhìn theo, khẽ nheo mắt.",
+        "Bác đã đoán ra trò khôn vặt của nó."
+      ],
+      "image": {
+        "character": "lua",
+        "prompt": "a sly grey donkey deliberately lying down in a shallow stream with a cheeky grin, the merchant on the bank squinting knowingly with arms crossed",
+        "seed": 1695104266
+      },
+      "video": {
+        "motionPrompt": "the donkey kneels and rolls into the water with a wink, then trots out happily, the merchant narrows his eyes and strokes his chin",
+        "seed": 3484939447
+      },
+      "voice": {}
+    },
+    {
+      "id": "bot-bien",
+      "title": "Chuyến hàng bọt biển",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm sau, bác không mua muối nữa mà mua một đống bọt biển, chất cao như núi lên lưng lừa. Bọt biển nhẹ tênh, lừa đi phăm phăm. Tới con suối, nó lại giở trò cũ, lăn kềnh ra giữa dòng. Nào ngờ, bọt biển hút no nước, phồng to, nặng gấp mấy lần lúc trước. Chú lừa loay hoay mãi mới đứng lên được, ì ạch lê từng bước về nhà, mồ hôi nhễ nhại.",
+      "subtitles": [
+        "Hôm sau, bác không mua muối nữa mà mua một đống bọt biển, chất cao như núi lên lưng lừa.",
+        "Bọt biển nhẹ tênh, lừa đi phăm phăm.",
+        "Tới con suối, nó lại giở trò cũ, lăn kềnh ra giữa dòng.",
+        "Nào ngờ, bọt biển hút no nước, phồng to, nặng gấp mấy lần lúc trước.",
+        "Chú lừa loay hoay mãi mới đứng lên được, ì ạch lê từng bước về nhà, mồ hôi nhễ nhại."
+      ],
+      "image": {
+        "character": "lua",
+        "prompt": "a surprised grey donkey struggling to stand in a stream under a huge pile of swollen dripping sea sponges, comical wide eyes, the merchant chuckling on the bank",
+        "seed": 3764497109
+      },
+      "video": {
+        "motionPrompt": "the sponges swell and drip with water, the donkey wobbles and strains to stand, then trudges slowly out of the stream",
+        "seed": 2779006501
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc",
+      "title": "Bài học của chú lừa",
+      "narrator": "ke-chuyen",
+      "narration": "Tối hôm ấy, nằm trong chuồng, chú lừa xoa cái lưng mỏi nhừ mà ngẫm nghĩ. Bác lái buôn mang tới cho nó một nắm cỏ thơm, cười bảo: “Mẹo hay dùng mãi cũng có ngày hỏng đấy, lừa ạ.” Chú lừa ngượng ngùng gật đầu. Từ đó, qua suối, nó bước thật cẩn thận. Các bạn nhỏ ạ, một mẹo vặt không phải lúc nào cũng dùng được. Gặp việc mới, hãy suy nghĩ cho kỹ.",
+      "subtitles": [
+        "Tối hôm ấy, nằm trong chuồng, chú lừa xoa cái lưng mỏi nhừ mà ngẫm nghĩ.",
+        "Bác lái buôn mang tới cho nó một nắm cỏ thơm,",
+        "cười bảo: “Mẹo hay dùng mãi cũng có ngày hỏng đấy, lừa ạ.”",
+        "Chú lừa ngượng ngùng gật đầu.",
+        "Từ đó, qua suối, nó bước thật cẩn thận.",
+        "Các bạn nhỏ ạ, một mẹo vặt không phải lúc nào cũng dùng được.",
+        "Gặp việc mới, hãy suy nghĩ cho kỹ."
+      ],
+      "image": {
+        "character": "lai-buon",
+        "prompt": "a cosy stable at dusk lit by a lantern, the merchant kindly offering a bundle of sweet hay to a tired grey donkey who looks a little sheepish",
+        "seed": 2893299072
+      },
+      "video": {
+        "motionPrompt": "the lantern flickers softly, the merchant pats the donkey, the donkey lowers its ears shyly and munches the hay",
+        "seed": 2708661185
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light Mediterranean folk storybook music, mandolin and soft flute, a plodding donkey rhythm on pizzicato strings, a playful splashing motif on xylophone, a warm gentle ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 180215278
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "slug": "nguoi-danh-ca-va-con-ca-nho",
+  "shelf": "world",
+  "title": "Người đánh cá và con cá nhỏ",
+  "summary": "Cả ngày chỉ được một chú cá nhỏ, bác đánh cá nghe cá xin thả về sông cho lớn thêm rồi hãy bắt. Ngụ ngôn Aesop về cái chắc chắn trong tay và lời hứa hẹn xa xôi.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, a wide calm river with reeds and willows, a small wooden boat, a fisherman's cottage with a little pond, sunset colours, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ngu-ong",
+      "name": "Bác đánh cá",
+      "seed": 2619756537,
+      "sheetPrompt": "a weathered kindly old fisherman with a grey beard, a woolen cap, rolled trousers and a fishing net over his shoulder, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ca-nho",
+      "name": "Chú cá nhỏ",
+      "seed": 742799247,
+      "sheetPrompt": "a tiny shiny silver fish with big pleading eyes and delicate fins, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ca-ngay",
+      "title": "Cả ngày chờ cá",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bác đánh cá nghèo sống bên bờ sông. Ngày nào bác cũng ra sông từ tinh mơ, thả lưới, ngồi chờ. Hôm ấy, bác ngồi từ sáng tới trưa, rồi từ trưa tới chiều, mà lưới vẫn trống trơn. Mặt trời sắp lặn, bác thở dài, kéo mẻ lưới cuối cùng lên, lòng chẳng còn hy vọng gì nhiều.",
+      "subtitles": [
+        "Ngày xưa, có một bác đánh cá nghèo sống bên bờ sông.",
+        "Ngày nào bác cũng ra sông từ tinh mơ, thả lưới, ngồi chờ.",
+        "Hôm ấy, bác ngồi từ sáng tới trưa, rồi từ trưa tới chiều, mà lưới vẫn trống trơn.",
+        "Mặt trời sắp lặn, bác thở dài, kéo mẻ lưới cuối cùng lên, lòng chẳng còn hy vọng gì nhiều."
+      ],
+      "image": {
+        "character": "ngu-ong",
+        "prompt": "an old fisherman sitting patiently in a small wooden boat on a wide calm river, casting a net, willows and reeds along the bank, late afternoon light",
+        "seed": 1982054752
+      },
+      "video": {
+        "motionPrompt": "the fisherman sighs and hauls in his net slowly, ripples spread across the river, willow branches sway",
+        "seed": 2891104278
+      },
+      "voice": {}
+    },
+    {
+      "id": "ca-nho",
+      "title": "Chú cá nhỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Trong mẻ lưới ấy chỉ có đúng một chú cá nhỏ xíu, vảy bạc lấp lánh, quẫy đuôi tanh tách. Bác đánh cá nâng nó lên lòng bàn tay. Bỗng chú cá cất giọng khẩn khoản: “Bác ơi, bác thả cháu ra đi! Cháu còn bé quá, chẳng đáng một bữa ăn đâu. Hãy để cháu về sông, lớn thêm ít lâu nữa.”",
+      "subtitles": [
+        "Trong mẻ lưới ấy chỉ có đúng một chú cá nhỏ xíu, vảy bạc lấp lánh, quẫy đuôi tanh tách.",
+        "Bác đánh cá nâng nó lên lòng bàn tay.",
+        "Bỗng chú cá cất giọng khẩn khoản: “Bác ơi, bác thả cháu ra đi!",
+        "Cháu còn bé quá, chẳng đáng một bữa ăn đâu.",
+        "Hãy để cháu về sông, lớn thêm ít lâu nữa.”"
+      ],
+      "image": {
+        "character": "ca-nho",
+        "prompt": "a tiny shiny silver fish with big pleading eyes resting in the palm of an old fisherman's hand, the empty net draped over the boat",
+        "seed": 1835477919
+      },
+      "video": {
+        "motionPrompt": "the little fish flicks its tail and looks up pleadingly, the fisherman raises his eyebrows in surprise, water drips from the net",
+        "seed": 1420047684
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-hua",
+      "title": "Lời hứa của cá",
+      "narrator": "ke-chuyen",
+      "narration": "Chú cá nói tiếp: “Khi cháu lớn thật to, béo tròn, bác lại đến đây thả lưới bắt cháu. Lúc ấy bác sẽ được một con cá lớn, bán được bao nhiêu là tiền.” Bác đánh cá nghe vậy, ngồi im ngẫm nghĩ. Gió chiều thổi nhẹ trên mặt sông, những gợn sóng lăn tăn ánh lên màu vàng của hoàng hôn.",
+      "subtitles": [
+        "Chú cá nói tiếp: “Khi cháu lớn thật to, béo tròn, bác lại đến đây thả lưới bắt cháu.",
+        "Lúc ấy bác sẽ được một con cá lớn, bán được bao nhiêu là tiền.”",
+        "Bác đánh cá nghe vậy, ngồi im ngẫm nghĩ.",
+        "Gió chiều thổi nhẹ trên mặt sông, những gợn sóng lăn tăn ánh lên màu vàng của hoàng hôn."
+      ],
+      "image": {
+        "character": "ca-nho",
+        "prompt": "an old fisherman thoughtfully stroking his beard while a tiny silver fish talks from his palm, golden sunset reflecting on the river",
+        "seed": 95214643
+      },
+      "video": {
+        "motionPrompt": "the fisherman strokes his beard slowly, golden ripples shimmer on the water, a heron lifts off from the reeds",
+        "seed": 3800750262
+      },
+      "voice": {}
+    },
+    {
+      "id": "tra-loi",
+      "title": "Bác đánh cá trả lời",
+      "narrator": "ke-chuyen",
+      "narration": "Rồi bác lắc đầu, mỉm cười: “Cá nhỏ ơi, sông thì rộng, cá thì nhiều. Thả cháu ra rồi, biết đến bao giờ ta mới gặp lại cháu? Một con cá nhỏ trong tay vẫn hơn một con cá lớn còn bơi đâu đó dưới sông.” Nói xong, bác thả chú cá vào chiếc vò nước nhỏ, chèo thuyền về nhà.",
+      "subtitles": [
+        "Rồi bác lắc đầu, mỉm cười: “Cá nhỏ ơi, sông thì rộng, cá thì nhiều.",
+        "Thả cháu ra rồi, biết đến bao giờ ta mới gặp lại cháu?",
+        "Một con cá nhỏ trong tay vẫn hơn một con cá lớn còn bơi đâu đó dưới sông.”",
+        "Nói xong, bác thả chú cá vào chiếc vò nước nhỏ, chèo thuyền về nhà."
+      ],
+      "image": {
+        "character": "ngu-ong",
+        "prompt": "an old fisherman smiling and gently placing a tiny silver fish into a small clay jar of water, then rowing his boat home at dusk",
+        "seed": 4015903470
+      },
+      "video": {
+        "motionPrompt": "the fisherman lowers the fish into the water jar, picks up the oars and rows toward the cottage, the sky turns rosy",
+        "seed": 1939126820
+      },
+      "voice": {}
+    },
+    {
+      "id": "ao-nho",
+      "title": "Cái ao sau nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Về tới nhà, cô con gái nhỏ của bác reo lên khi thấy chú cá bạc. Bác thả chú vào cái ao nhỏ sau vườn, ngày ngày cho ăn. Chú cá bơi lượn tung tăng, rồi cứ thế lớn dần lên giữa đám bèo xanh. Các bạn nhỏ ạ, cái gì chắc chắn trong tay thì đáng quý hơn những điều hứa hẹn xa xôi. Đừng bỏ cái đang có để chạy theo cái chưa chắc đã đến.",
+      "subtitles": [
+        "Về tới nhà, cô con gái nhỏ của bác reo lên khi thấy chú cá bạc.",
+        "Bác thả chú vào cái ao nhỏ sau vườn, ngày ngày cho ăn.",
+        "Chú cá bơi lượn tung tăng, rồi cứ thế lớn dần lên giữa đám bèo xanh.",
+        "Các bạn nhỏ ạ, cái gì chắc chắn trong tay thì đáng quý hơn những điều hứa hẹn xa xôi.",
+        "Đừng bỏ cái đang có để chạy theo cái chưa chắc đã đến."
+      ],
+      "image": {
+        "character": "ca-nho",
+        "prompt": "a little girl and an old fisherman watching a happy silver fish swim in a small garden pond among green duckweed and water lilies, evening glow",
+        "seed": 544418162
+      },
+      "video": {
+        "motionPrompt": "the silver fish darts and circles in the pond, the girl claps her hands, duckweed drifts and lily pads bob",
+        "seed": 3461788914
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "calm riverside storybook music, soft accordion and acoustic guitar, a flowing water motif on harp, a small sparkling fish theme on celesta, a peaceful evening ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4028228166
+  }
+}

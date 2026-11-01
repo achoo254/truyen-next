@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "slug": "khi-lam-vua",
+  "shelf": "world",
+  "title": "Khỉ làm vua",
+  "summary": "Chú khỉ nhảy múa giỏi được muông thú bầu làm vua, nhưng con cáo không phục, bày mẹo dẫn khỉ tới một cái bẫy. Ngụ ngôn Aesop về người dẫn đầu cần sự khôn ngoan chứ không chỉ tài làm vui.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, a sunny forest glade with a big flat rock, flowers, tall trees and many friendly woodland animals, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "khi",
+      "name": "Chú khỉ",
+      "seed": 2905786218,
+      "sheetPrompt": "a lively small brown monkey with a long curly tail, a cheeky grin and expressive eyes, wearing a crown of flowers, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cao",
+      "name": "Bác cáo",
+      "seed": 2672563171,
+      "sheetPrompt": "a sly orange fox with a bushy tail, narrowed clever eyes and a sly smile, comical rather than menacing, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dai-hoi",
+      "title": "Đại hội muông thú",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, muông thú trong rừng mở một đại hội lớn để chọn vua mới. Voi, gấu, hươu, nai, thỏ, sóc, ai nấy đều tụ về bãi cỏ rộng giữa rừng. Trong lúc chờ đợi, chú khỉ nhảy lên một gốc cây, bắt đầu nhảy múa. Chú lộn nhào, đu cành, nhăn mặt làm trò, khiến cả đại hội cười nghiêng ngả.",
+      "subtitles": [
+        "Ngày xưa, muông thú trong rừng mở một đại hội lớn để chọn vua mới.",
+        "Voi, gấu, hươu, nai, thỏ, sóc, ai nấy đều tụ về bãi cỏ rộng giữa rừng.",
+        "Trong lúc chờ đợi, chú khỉ nhảy lên một gốc cây, bắt đầu nhảy múa.",
+        "Chú lộn nhào, đu cành, nhăn mặt làm trò, khiến cả đại hội cười nghiêng ngả."
+      ],
+      "image": {
+        "character": "khi",
+        "prompt": "a lively monkey dancing and somersaulting on a tree stump in a forest glade, an elephant, a bear, deer, rabbits and squirrels laughing and clapping around it",
+        "seed": 2205705615
+      },
+      "video": {
+        "motionPrompt": "the monkey flips and swings from a branch, the animals laugh and clap, flower petals flutter in the air",
+        "seed": 275626681
+      },
+      "voice": {}
+    },
+    {
+      "id": "len-ngoi",
+      "title": "Khỉ lên ngôi vua",
+      "narrator": "ke-chuyen",
+      "narration": "Muông thú vỗ tay rào rào: “Khỉ vui quá, khỉ giỏi quá! Hãy để khỉ làm vua!” Thế là chẳng ai bàn thêm, mọi người đội lên đầu khỉ một vòng hoa thay vương miện. Khỉ ưỡn ngực, oai vệ ngồi lên tảng đá cao. Chỉ có bác cáo đứng ở góc, nheo mắt, trong bụng chẳng phục chút nào.",
+      "subtitles": [
+        "Muông thú vỗ tay rào rào: “Khỉ vui quá, khỉ giỏi quá!",
+        "Hãy để khỉ làm vua!”",
+        "Thế là chẳng ai bàn thêm, mọi người đội lên đầu khỉ một vòng hoa thay vương miện.",
+        "Khỉ ưỡn ngực, oai vệ ngồi lên tảng đá cao.",
+        "Chỉ có bác cáo đứng ở góc, nheo mắt, trong bụng chẳng phục chút nào."
+      ],
+      "image": {
+        "character": "khi",
+        "prompt": "a proud monkey wearing a crown of flowers sitting on a big flat rock like a throne, animals cheering, a sly fox standing apart at the edge of the glade",
+        "seed": 2827970021
+      },
+      "video": {
+        "motionPrompt": "the animals place the flower crown on the monkey's head and cheer, the monkey puffs out its chest, the fox narrows its eyes",
+        "seed": 2697558656
+      },
+      "voice": {}
+    },
+    {
+      "id": "meo-cao",
+      "title": "Mẹo của cáo",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm sau, cáo dò đường trong rừng và thấy một cái bẫy của người thợ săn, bên trong treo một miếng thịt thơm phức. Cáo nghĩ ra một mẹo. Nó tìm đến khỉ, cúi rạp người: “Tâu bệ hạ, thần vừa tìm được một kho báu. Theo luật, kho báu thuộc về nhà vua. Mời bệ hạ tự tay tới lấy ạ.”",
+      "subtitles": [
+        "Hôm sau, cáo dò đường trong rừng và thấy một cái bẫy của người thợ săn,",
+        "bên trong treo một miếng thịt thơm phức.",
+        "Cáo nghĩ ra một mẹo.",
+        "Nó tìm đến khỉ, cúi rạp người: “Tâu bệ hạ, thần vừa tìm được một kho báu.",
+        "Theo luật, kho báu thuộc về nhà vua.",
+        "Mời bệ hạ tự tay tới lấy ạ.”"
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "a sly fox bowing deeply and theatrically before a monkey wearing a flower crown, a wooden box trap with a bait hidden among ferns in the background",
+        "seed": 3272814248
+      },
+      "video": {
+        "motionPrompt": "the fox sweeps into an exaggerated bow, the monkey's eyes light up with curiosity, ferns sway in the background",
+        "seed": 3629137327
+      },
+      "voice": {}
+    },
+    {
+      "id": "sap-bay",
+      "title": "Sập bẫy",
+      "narrator": "ke-chuyen",
+      "narration": "Khỉ nghe nói kho báu, chẳng nghĩ ngợi gì, chạy theo cáo ngay. Vừa thấy miếng thịt, khỉ vồ lấy. Tách một cái, chiếc bẫy sập lại, giữ chặt lấy tay khỉ. Khỉ giãy giụa, kêu ầm lên: “Cáo gian! Ngươi dám lừa vua!” Cáo khoanh tay cười: “Bệ hạ ơi, đến cái thân mình còn chưa lo nổi, sao lo được cho cả muôn loài?”",
+      "subtitles": [
+        "Khỉ nghe nói kho báu, chẳng nghĩ ngợi gì, chạy theo cáo ngay.",
+        "Vừa thấy miếng thịt, khỉ vồ lấy.",
+        "Tách một cái, chiếc bẫy sập lại, giữ chặt lấy tay khỉ.",
+        "Khỉ giãy giụa, kêu ầm lên: “Cáo gian! Ngươi dám lừa vua!”",
+        "Cáo khoanh tay cười: “Bệ hạ ơi, đến cái thân mình còn chưa lo nổi,",
+        "sao lo được cho cả muôn loài?”"
+      ],
+      "image": {
+        "character": "khi",
+        "prompt": "a surprised monkey with a flower crown askew, its paw caught in a simple wooden box trap, a fox standing with folded arms and a smug grin, comical storybook staging",
+        "seed": 826703023
+      },
+      "video": {
+        "motionPrompt": "the trap lid snaps down, the monkey tugs and squeals, the flower crown slips sideways, the fox folds its arms and smirks",
+        "seed": 2379277136
+      },
+      "voice": {}
+    },
+    {
+      "id": "tra-ngoi",
+      "title": "Trả lại ngôi vua",
+      "narrator": "ke-chuyen",
+      "narration": "Muông thú kéo đến, thấy vậy thì cùng nhau gỡ bẫy, thả khỉ ra. Tay khỉ chỉ hơi đau, nhưng mặt thì đỏ lựng vì ngượng. Khỉ tự tay tháo vòng hoa xuống, nói nhỏ: “Tôi chỉ giỏi nhảy múa, chưa đủ khôn để làm vua.” Muông thú gật gù, rồi bàn nhau chọn lại cho thật kỹ. Các bạn nhỏ ạ, làm người dẫn đầu cần sự khôn ngoan, chứ không chỉ cần làm người khác cười.",
+      "subtitles": [
+        "Muông thú kéo đến, thấy vậy thì cùng nhau gỡ bẫy, thả khỉ ra.",
+        "Tay khỉ chỉ hơi đau, nhưng mặt thì đỏ lựng vì ngượng.",
+        "Khỉ tự tay tháo vòng hoa xuống, nói nhỏ: “Tôi chỉ giỏi nhảy múa, chưa đủ khôn để làm vua.”",
+        "Muông thú gật gù, rồi bàn nhau chọn lại cho thật kỹ.",
+        "Các bạn nhỏ ạ, làm người dẫn đầu cần sự khôn ngoan, chứ không chỉ cần làm người khác cười."
+      ],
+      "image": {
+        "character": "khi",
+        "prompt": "forest animals helping open a wooden trap to free a sheepish monkey, the monkey taking off its flower crown, soft golden afternoon light in the glade",
+        "seed": 1153409580
+      },
+      "video": {
+        "motionPrompt": "the bear lifts the trap lid, the monkey slips free and rubs its paw, then gently lifts off its flower crown, the animals nod",
+        "seed": 373428680
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful woodland storybook music, clarinet and pizzicato strings, a bouncy dancing monkey theme on xylophone, a sneaky tiptoe fox theme on bassoon, a gentle thoughtful ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 775967489
+  }
+}

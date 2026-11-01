@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "slug": "chim-hong-tuoc-va-gau",
+  "shelf": "world",
+  "title": "Chim hồng tước và gấu",
+  "summary": "Gấu to xác chê tổ chim hồng tước là xấu xí, lũ chim non giận dỗi nhất định không ăn. Thế là cả muông thú bốn chân và mọi loài biết bay dàn trận, phân thắng thua chỉ nhờ một cái đuôi cáo. Truyện cổ Grimm vui nhộn kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der Zaunkönig und der Bär\" (Kinder- und Hausmärchen, bản 1857, truyện số 102), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh của Margaret Hunt. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: lời đe doạ của chim vua chỉ còn là \"bị cả đàn ong đốt cho một trận\", trận đánh chỉ là cảnh muông thú bỏ chạy về hang.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, sunny summer forest of oaks and hedges, tiny brown wrens and friendly woodland animals with expressive comical faces, warm green and golden light, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chim-hong-tuoc",
+      "name": "Chim hồng tước",
+      "seed": 1256500044,
+      "sheetPrompt": "a tiny round brown willow-wren bird with a perky upturned tail, bright black eyes, a little golden crown of light on its head, proud and brave, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "gau",
+      "name": "Bác Gấu",
+      "seed": 142532294,
+      "sheetPrompt": "a big clumsy brown bear from a German fairy tale, round belly, small curious eyes, comical and grumpy rather than fierce, standing on hind legs, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cao",
+      "name": "Cáo",
+      "seed": 430554127,
+      "sheetPrompt": "a sly red fox from a German fairy tale with a very long bushy red tail held high like a plume, pointed ears, smug clever grin, full body, side view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "vua-cac-loai-chim",
+      "title": "Vua của các loài chim",
+      "narrator": "ke-chuyen",
+      "narration": "Một ngày hè, bác Gấu và anh Sói cùng dạo trong rừng. Bỗng có tiếng chim hót trong veo vọng ra từ bụi cây. Gấu hỏi: \"Anh Sói này, con chim nào mà hót hay thế?\" Sói đáp: \"Đó là vua của các loài chim đấy, gặp ngài thì phải cúi chào.\" Thật ra, đó chỉ là chú chim hồng tước bé xíu. \"Thế thì ta phải đến xem cung điện của nhà vua mới được,\" Gấu nói. Sói kéo tay áo Gấu lại: \"Không được đâu. Phải chờ hoàng hậu về đã.\" Một lát sau, chim mẹ ngậm mồi bay về, chim bố cũng về theo, cùng mớm cho lũ con. Hai con thú ghi nhớ cái hốc có tổ chim, rồi lững thững đi.",
+      "subtitles": [
+        "Một ngày hè, bác Gấu và anh Sói cùng dạo trong rừng.",
+        "Bỗng có tiếng chim hót trong veo vọng ra từ bụi cây.",
+        "Gấu hỏi: \"Anh Sói này, con chim nào mà hót hay thế?\"",
+        "Sói đáp: \"Đó là vua của các loài chim đấy, gặp ngài thì phải cúi chào.\"",
+        "Thật ra, đó chỉ là chú chim hồng tước bé xíu.",
+        "\"Thế thì ta phải đến xem cung điện của nhà vua mới được,\" Gấu nói.",
+        "Sói kéo tay áo Gấu lại: \"Không được đâu. Phải chờ hoàng hậu về đã.\"",
+        "Một lát sau, chim mẹ ngậm mồi bay về, chim bố cũng về theo, cùng mớm cho lũ con.",
+        "Hai con thú ghi nhớ cái hốc có tổ chim, rồi lững thững đi."
+      ],
+      "image": {
+        "prompt": "a sunny summer forest, a big brown bear and a grey wolf peering curiously at a hedge where a tiny brown wren sings on a twig, two wren parents bringing food to a nest hidden in a hole",
+        "seed": 1111755303,
+        "character": "gau"
+      },
+      "video": {
+        "motionPrompt": "the tiny wren sings with its throat trembling, leaves sway, the bear tilts his head and listens, gentle slow push-in",
+        "seed": 1306358704
+      },
+      "voice": {}
+    },
+    {
+      "id": "gau-che-to-chim",
+      "title": "Gấu chê tổ chim",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng Gấu tò mò quá, chẳng ngồi yên được. Chẳng bao lâu, bác quay lại đúng lúc chim bố chim mẹ vừa bay đi kiếm mồi. Bác ghé mắt nhìn vào hốc, thấy năm sáu chú chim non nằm trong tổ. \"Cung điện đấy à?\" Gấu kêu lên. \"Tổ gì mà xập xệ thế! Các chú chẳng phải con vua đâu, chỉ là lũ nhóc lôi thôi thôi!\" Lũ chim non nghe vậy thì giận lắm, nhao nhao kêu: \"Không phải thế! Bố mẹ chúng tôi là người đàng hoàng! Bác Gấu kia, bác sẽ phải trả giá cho câu nói ấy!\" Gấu và Sói thấy chột dạ, vội lủi về hang.",
+      "subtitles": [
+        "Nhưng Gấu tò mò quá, chẳng ngồi yên được.",
+        "Chẳng bao lâu, bác quay lại đúng lúc chim bố chim mẹ vừa bay đi kiếm mồi.",
+        "Bác ghé mắt nhìn vào hốc, thấy năm sáu chú chim non nằm trong tổ.",
+        "\"Cung điện đấy à?\" Gấu kêu lên. \"Tổ gì mà xập xệ thế!",
+        "Các chú chẳng phải con vua đâu, chỉ là lũ nhóc lôi thôi thôi!\"",
+        "Lũ chim non nghe vậy thì giận lắm, nhao nhao kêu:",
+        "\"Không phải thế! Bố mẹ chúng tôi là người đàng hoàng!",
+        "Bác Gấu kia, bác sẽ phải trả giá cho câu nói ấy!\"",
+        "Gấu và Sói thấy chột dạ, vội lủi về hang."
+      ],
+      "image": {
+        "prompt": "the big bear bending down and peeking into a small hole in a hedge, inside a cosy nest five tiny fluffy baby wrens with wide open beaks shouting back at him angrily, comical scene",
+        "seed": 4000232398,
+        "character": "gau"
+      },
+      "video": {
+        "motionPrompt": "the baby wrens flap their stubby wings and chirp angrily, the bear jerks back in surprise, leaves tremble",
+        "seed": 4221990216
+      },
+      "voice": {}
+    },
+    {
+      "id": "chim-vua-tuyen-chien",
+      "title": "Chim vua tuyên chiến",
+      "narrator": "ke-chuyen",
+      "narration": "Chim bố chim mẹ mang mồi về, lũ con vẫn kêu ầm ĩ: \"Chúng con không ăn dù chỉ một cái chân ruồi, dù có đói lả đi nữa, cho đến khi bố mẹ làm rõ chúng con có phải con nhà tử tế hay không! Bác Gấu vừa đến đây chê chúng con!\" Chim vua bảo: \"Các con cứ yên tâm, bác ấy sẽ bị phạt.\" Rồi chim vua cùng chim mẹ bay ngay đến hang Gấu, đứng ngoài cửa gọi: \"Lão Gấu càu nhàu kia, sao lại chê con ta? Ta tuyên chiến với lão!\" Thế là Gấu gọi hết muông thú bốn chân: bò, lừa, hươu, nai, chẳng thiếu con nào. Còn chim hồng tước gọi mọi loài biết bay: chim lớn chim bé, cả muỗi, ong, ruồi, bọ.",
+      "subtitles": [
+        "Chim bố chim mẹ mang mồi về, lũ con vẫn kêu ầm ĩ:",
+        "\"Chúng con không ăn dù chỉ một cái chân ruồi, dù có đói lả đi nữa,",
+        "cho đến khi bố mẹ làm rõ chúng con có phải con nhà tử tế hay không!",
+        "Bác Gấu vừa đến đây chê chúng con!\"",
+        "Chim vua bảo: \"Các con cứ yên tâm, bác ấy sẽ bị phạt.\"",
+        "Rồi chim vua cùng chim mẹ bay ngay đến hang Gấu, đứng ngoài cửa gọi:",
+        "\"Lão Gấu càu nhàu kia, sao lại chê con ta? Ta tuyên chiến với lão!\"",
+        "Thế là Gấu gọi hết muông thú bốn chân: bò, lừa, hươu, nai, chẳng thiếu con nào.",
+        "Còn chim hồng tước gọi mọi loài biết bay: chim lớn chim bé, cả muỗi, ong, ruồi, bọ."
+      ],
+      "image": {
+        "prompt": "the tiny brave wren king perched at the entrance of a big bear cave, chest puffed out, wings spread, calling in, the bear peeking out sheepishly, the wren queen beside him",
+        "seed": 3111540277,
+        "character": "chim-hong-tuoc"
+      },
+      "video": {
+        "motionPrompt": "the little wren flutters and shouts, the bear blinks in the dark cave mouth, flocks of birds and buzzing bees gather in the sky behind",
+        "seed": 943534747
+      },
+      "voice": {}
+    },
+    {
+      "id": "chu-muoi-do-tham",
+      "title": "Chú muỗi đi do thám",
+      "narrator": "ke-chuyen",
+      "narration": "Trước ngày giao chiến, chim hồng tước sai người đi dò xem ai cầm đầu quân địch. Chú muỗi tinh ranh nhất bay vào rừng, nấp dưới một chiếc lá. Ngay dưới gốc cây, Gấu gọi Cáo đến: \"Cáo khôn nhất trong các loài, cậu làm tướng đi.\" \"Được,\" Cáo nói, \"nhưng ta cần một ám hiệu. Đuôi ta dài và xù như một chùm lông đỏ. Khi ta dựng đuôi lên cao, mọi việc đều ổn, các bạn cứ xông lên. Còn khi ta cụp đuôi xuống, cả bọn chạy cho nhanh!\" Chú muỗi nghe rõ từng chữ, liền bay về kể lại cho chim hồng tước, không sót một ý.",
+      "subtitles": [
+        "Trước ngày giao chiến, chim hồng tước sai người đi dò xem ai cầm đầu quân địch.",
+        "Chú muỗi tinh ranh nhất bay vào rừng, nấp dưới một chiếc lá.",
+        "Ngay dưới gốc cây, Gấu gọi Cáo đến: \"Cáo khôn nhất trong các loài, cậu làm tướng đi.\"",
+        "\"Được,\" Cáo nói, \"nhưng ta cần một ám hiệu.",
+        "Đuôi ta dài và xù như một chùm lông đỏ. Khi ta dựng đuôi lên cao, mọi việc đều ổn,",
+        "các bạn cứ xông lên. Còn khi ta cụp đuôi xuống, cả bọn chạy cho nhanh!\"",
+        "Chú muỗi nghe rõ từng chữ, liền bay về kể lại cho chim hồng tước, không sót một ý."
+      ],
+      "image": {
+        "prompt": "under a big oak tree the sly red fox raises his long bushy red tail high like a plume, explaining a plan to the bear, deer and oxen around him, a tiny gnat hiding under a leaf above listening closely",
+        "seed": 4000845817,
+        "character": "cao"
+      },
+      "video": {
+        "motionPrompt": "the fox lifts and lowers his bushy tail to demonstrate, the animals nod, the tiny gnat peeks out from the leaf and zips away",
+        "seed": 2774748163
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-duoi-cua-cao",
+      "title": "Cái đuôi của Cáo",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, muông thú bốn chân ầm ầm kéo đến, mặt đất rung lên. Đàn chim của chim hồng tước bay tới, vù vù, vo vo, đen kịt cả một góc trời. Chim vua sai chú ong bắp cày bay xuống, đậu ngay dưới đuôi Cáo, đốt thật mạnh. Đốt lần thứ nhất, Cáo giật mình co một chân lên, nhưng vẫn cố giữ đuôi cao. Đốt lần thứ hai, Cáo phải hạ đuôi xuống một chút. Đến lần thứ ba, Cáo chịu hết nổi, kêu ối một tiếng, cụp đuôi vào giữa hai chân. Muông thú thấy thế tưởng thua to, chạy tán loạn, con nào về hang con nấy. Thế là các loài chim thắng trận.",
+      "subtitles": [
+        "Sáng hôm sau, muông thú bốn chân ầm ầm kéo đến, mặt đất rung lên.",
+        "Đàn chim của chim hồng tước bay tới, vù vù, vo vo, đen kịt cả một góc trời.",
+        "Chim vua sai chú ong bắp cày bay xuống, đậu ngay dưới đuôi Cáo, đốt thật mạnh.",
+        "Đốt lần thứ nhất, Cáo giật mình co một chân lên, nhưng vẫn cố giữ đuôi cao.",
+        "Đốt lần thứ hai, Cáo phải hạ đuôi xuống một chút.",
+        "Đến lần thứ ba, Cáo chịu hết nổi, kêu ối một tiếng, cụp đuôi vào giữa hai chân.",
+        "Muông thú thấy thế tưởng thua to, chạy tán loạn, con nào về hang con nấy.",
+        "Thế là các loài chim thắng trận."
+      ],
+      "image": {
+        "prompt": "a wide meadow at dawn, a crowd of four-legged animals facing a sky full of birds, bees and insects, a hornet stinging the fox under his tail, the fox yelping with his tail tucked down, animals running back to their holes, comical and lively",
+        "seed": 89370297,
+        "character": "cao"
+      },
+      "video": {
+        "motionPrompt": "the fox jumps and drops his tail, the animals turn and scamper away, birds swirl triumphantly in the sky, playful motion",
+        "seed": 4244671961
+      },
+      "voice": {}
+    },
+    {
+      "id": "gau-xin-loi",
+      "title": "Gấu xin lỗi lũ chim non",
+      "narrator": "ke-chuyen",
+      "narration": "Chim bố chim mẹ bay về tổ: \"Các con ơi, mừng lên, cứ ăn uống thoả thích, ta thắng rồi!\" Nhưng lũ chim non vẫn lắc đầu: \"Chưa ăn đâu. Bác Gấu phải đến tận tổ xin lỗi, nói chúng con là con nhà tử tế đã.\" Chim hồng tước bay đến hang Gấu: \"Lão Gấu, đến xin lỗi các con ta ngay, không thì cả đàn ong sẽ đốt lão một trận nhớ đời!\" Gấu sợ lắm, lóc cóc bò đến bên tổ, cúi đầu xin lỗi từng chú chim non. Bấy giờ lũ chim non mới vui vẻ, cả nhà quây quần ăn uống, ca hát đến tận khuya.",
+      "subtitles": [
+        "Chim bố chim mẹ bay về tổ: \"Các con ơi, mừng lên, cứ ăn uống thoả thích, ta thắng rồi!\"",
+        "Nhưng lũ chim non vẫn lắc đầu:",
+        "\"Chưa ăn đâu. Bác Gấu phải đến tận tổ xin lỗi, nói chúng con là con nhà tử tế đã.\"",
+        "Chim hồng tước bay đến hang Gấu: \"Lão Gấu, đến xin lỗi các con ta ngay,",
+        "không thì cả đàn ong sẽ đốt lão một trận nhớ đời!\"",
+        "Gấu sợ lắm, lóc cóc bò đến bên tổ, cúi đầu xin lỗi từng chú chim non.",
+        "Bấy giờ lũ chim non mới vui vẻ, cả nhà quây quần ăn uống, ca hát đến tận khuya."
+      ],
+      "image": {
+        "prompt": "the big bear humbly bowing with his paws together before the little nest in the hedge, the five baby wrens looking satisfied, the wren parents proud, evening golden light, a small feast of berries",
+        "seed": 2430634264,
+        "character": "gau"
+      },
+      "video": {
+        "motionPrompt": "the bear bows low, the baby wrens cheer and flap, the family begins to eat and sing as fireflies glow, warm gentle motion",
+        "seed": 2690141969
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful German folk music for a woodland fable, pizzicato strings and piccolo like birdsong, a bumbling bassoon for the bear, a short mock march for the battle, ending light and merry, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1747167607
+  }
+}

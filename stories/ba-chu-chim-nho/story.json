@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "slug": "ba-chu-chim-nho",
+  "shelf": "world",
+  "title": "Ba chú chim nhỏ",
+  "summary": "Hai bà dì ghen ghét lén thả ba đứa con của hoàng hậu trôi sông, nhưng mỗi lần lại có một chú chim nhỏ bay lên cất tiếng hát. Lớn lên bên ông lão đánh cá, ba anh em đi tìm cha, mang về chú chim biết nói sự thật. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"De drei Vügelkens\" (Kinder- und Hausmärchen, bản 1857, truyện số 96), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Three Little Birds\" của Margaret Hunt. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: hai bà dì đặt các em bé vào giỏ thả trôi sông, lời hát của chim nhỏ được viết lại cho dịu dàng, và cuối truyện hai bà dì bị đuổi khỏi vương quốc, không bao giờ quay lại.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, green hills of old Germany with grazing cows, a wide gentle river, a fisherman hut, an enchanted castle and a mossy fountain, small glowing songbirds, warm light, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hoang-hau",
+      "name": "Hoàng hậu",
+      "seed": 2703233395,
+      "sheetPrompt": "a gentle young queen from a German fairy tale with long flaxen hair, a simple blue gown and a small gold circlet, kind loving eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "em-gai",
+      "name": "Cô em gái",
+      "seed": 2390893653,
+      "sheetPrompt": "a brave kind girl of about fourteen from a German fairy tale, flaxen hair in a long braid, a plain russet dress with a green shawl, holding a slender wooden wand, warm determined face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "anh-ca",
+      "name": "Người anh cả",
+      "seed": 661007985,
+      "sheetPrompt": "a young fisherman boy of about sixteen from a German fairy tale, flaxen hair, a small bright red star-shaped birthmark on his forehead, a patched linen shirt, carrying a crossbow and a wooden flute, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chim-nho",
+      "name": "Chú chim nhỏ",
+      "seed": 517313033,
+      "sheetPrompt": "a tiny magical songbird with soft white and gold feathers that glow faintly, bright black eyes, singing with its beak open, full body, side view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-co-gai-chan-bo",
+      "title": "Ba cô gái chăn bò",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở vùng đồi núi nước Đức có một ông vua rất thích đi săn. Một hôm vua cưỡi ngựa qua núi, có ba cô gái đang chăn bò. Cô chị cả chỉ vào vua, gọi hai em: \"Không lấy được người kia thì chị chẳng lấy ai.\" Cô thứ hai chỉ vào vị quan bên phải vua: \"Còn em, không lấy được người kia thì em ở vậy!\" Cô út chỉ vào vị quan bên trái cũng nói y như thế. Vua nghe hết. Đi săn về, vua cho mời ba cô vào cung, hỏi cô chị có bằng lòng lấy mình không. Cô gật đầu. Thế là cô chị làm hoàng hậu, hai cô em lấy hai vị quan.",
+      "subtitles": [
+        "Ngày xưa, ở vùng đồi núi nước Đức có một ông vua rất thích đi săn.",
+        "Một hôm vua cưỡi ngựa qua núi, có ba cô gái đang chăn bò.",
+        "Cô chị cả chỉ vào vua, gọi hai em: \"Không lấy được người kia thì chị chẳng lấy ai.\"",
+        "Cô thứ hai chỉ vào vị quan bên phải vua: \"Còn em, không lấy được người kia thì em ở vậy!\"",
+        "Cô út chỉ vào vị quan bên trái cũng nói y như thế.",
+        "Vua nghe hết. Đi săn về, vua cho mời ba cô vào cung,",
+        "hỏi cô chị có bằng lòng lấy mình không.",
+        "Cô gật đầu. Thế là cô chị làm hoàng hậu, hai cô em lấy hai vị quan."
+      ],
+      "image": {
+        "prompt": "green rolling hills with grazing cows, three young peasant girls with flaxen hair pointing and calling out to each other, a king on horseback with two ministers riding by in the distance, sunny morning",
+        "seed": 128441796,
+        "character": "hoang-hau"
+      },
+      "video": {
+        "motionPrompt": "the cows graze, the girls wave and giggle, the king turns his head to listen as the horses walk on, gentle breeze",
+        "seed": 578380682
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-gio-tren-song",
+      "title": "Chiếc giỏ trên sông",
+      "narrator": "ke-chuyen",
+      "narration": "Hai cô em không có con, nên ghen tị với chị. Một lần vua đi xa, hoàng hậu sinh một bé trai, trên trán có một ngôi sao đỏ. Hai bà dì lén đặt em bé vào một chiếc giỏ, thả trôi theo dòng sông. Lập tức, một chú chim nhỏ bay vút lên trời, cất tiếng hát: \"Trôi đi, trôi đi, giỏ nhỏ trên sông, sẽ có ngày trời xanh soi tỏ, hoa huệ trắng giữ em bình yên.\" Hai bà dì sợ quá, bỏ chạy. Vua về, họ nói dối rằng hoàng hậu sinh ra một con chó con. Vua chỉ thở dài: \"Trời đã định như thế, thì đành vậy.\"",
+      "subtitles": [
+        "Hai cô em không có con, nên ghen tị với chị.",
+        "Một lần vua đi xa, hoàng hậu sinh một bé trai, trên trán có một ngôi sao đỏ.",
+        "Hai bà dì lén đặt em bé vào một chiếc giỏ, thả trôi theo dòng sông.",
+        "Lập tức, một chú chim nhỏ bay vút lên trời, cất tiếng hát:",
+        "\"Trôi đi, trôi đi, giỏ nhỏ trên sông, sẽ có ngày trời xanh soi tỏ,",
+        "hoa huệ trắng giữ em bình yên.\"",
+        "Hai bà dì sợ quá, bỏ chạy. Vua về, họ nói dối rằng hoàng hậu sinh ra một con chó con.",
+        "Vua chỉ thở dài: \"Trời đã định như thế, thì đành vậy.\""
+      ],
+      "image": {
+        "prompt": "a wide gentle river at dawn, a small woven basket with a sleeping baby floating safely among white lilies, a tiny glowing white and gold songbird flying up into the sky singing, two women in dark cloaks hurrying away on the bank",
+        "seed": 2853604986,
+        "character": "chim-nho"
+      },
+      "video": {
+        "motionPrompt": "the basket drifts slowly downstream among the lilies, the little bird rises and sings, ripples glow in the morning light",
+        "seed": 1529946590
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-lao-danh-ca",
+      "title": "Ông lão đánh cá",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng một ông lão đánh cá ở bên sông đã vớt được chiếc giỏ. Vợ chồng ông không có con, nên mừng rỡ nhận em bé về nuôi. Năm sau, hoàng hậu sinh thêm một bé trai, rồi năm sau nữa sinh một bé gái. Lần nào hai bà dì cũng thả em bé trôi sông, lần nào cũng có chú chim nhỏ bay lên hát. Và lần nào ông lão đánh cá cũng vớt được em bé về nuôi. Lần cuối, hai bà dì tâu với vua rằng hoàng hậu sinh ra một con mèo. Lần này vua nổi giận, giam hoàng hậu vào ngục suốt bao năm dài.",
+      "subtitles": [
+        "Nhưng một ông lão đánh cá ở bên sông đã vớt được chiếc giỏ.",
+        "Vợ chồng ông không có con, nên mừng rỡ nhận em bé về nuôi.",
+        "Năm sau, hoàng hậu sinh thêm một bé trai, rồi năm sau nữa sinh một bé gái.",
+        "Lần nào hai bà dì cũng thả em bé trôi sông, lần nào cũng có chú chim nhỏ bay lên hát.",
+        "Và lần nào ông lão đánh cá cũng vớt được em bé về nuôi.",
+        "Lần cuối, hai bà dì tâu với vua rằng hoàng hậu sinh ra một con mèo.",
+        "Lần này vua nổi giận, giam hoàng hậu vào ngục suốt bao năm dài."
+      ],
+      "image": {
+        "prompt": "an old fisherman in a straw hat and his wife on a riverbank by their little hut, lifting a basket with a baby out of the reeds, their faces full of joy, a little songbird perched on the boat",
+        "seed": 316166032,
+        "character": "hoang-hau"
+      },
+      "video": {
+        "motionPrompt": "the fisherman lifts the basket gently, his wife reaches out happily, the little bird chirps, the river sparkles",
+        "seed": 3543476282
+      },
+      "voice": {}
+    },
+    {
+      "id": "di-tim-cha",
+      "title": "Đi tìm cha",
+      "narrator": "ke-chuyen",
+      "narration": "Ba đứa trẻ lớn lên. Một hôm, người anh cả đi câu với lũ trẻ trong làng. Chúng không cho chơi cùng, còn trêu: \"Đi đi, đồ con nhặt!\" Cậu buồn lắm, về hỏi ông lão, ông mới kể chuyện vớt cậu dưới sông. Cậu quyết đi tìm cha. Đi mãi, đến một mặt nước mênh mông, có bà lão đang câu cá. \"Chào bà.\" \"Cảm ơn cháu.\" \"Bà câu thế thì lâu lắm mới được cá.\" \"Còn cháu, tìm thế thì lâu lắm mới thấy cha. Qua nước bằng cách nào đây?\" Bà lão cõng cậu qua, nhưng cậu tìm mãi vẫn chẳng thấy cha. Một năm sau, người anh thứ hai cũng đi tìm anh, và cũng như thế.",
+      "subtitles": [
+        "Ba đứa trẻ lớn lên. Một hôm, người anh cả đi câu với lũ trẻ trong làng.",
+        "Chúng không cho chơi cùng, còn trêu: \"Đi đi, đồ con nhặt!\"",
+        "Cậu buồn lắm, về hỏi ông lão, ông mới kể chuyện vớt cậu dưới sông.",
+        "Cậu quyết đi tìm cha. Đi mãi, đến một mặt nước mênh mông, có bà lão đang câu cá.",
+        "\"Chào bà.\" \"Cảm ơn cháu.\" \"Bà câu thế thì lâu lắm mới được cá.\"",
+        "\"Còn cháu, tìm thế thì lâu lắm mới thấy cha. Qua nước bằng cách nào đây?\"",
+        "Bà lão cõng cậu qua, nhưng cậu tìm mãi vẫn chẳng thấy cha.",
+        "Một năm sau, người anh thứ hai cũng đi tìm anh, và cũng như thế."
+      ],
+      "image": {
+        "prompt": "a vast misty lake, a mysterious old woman in a grey shawl fishing with a long rod on the shore, the young man with a red star mark on his forehead greeting her, reeds and mist",
+        "seed": 498788890,
+        "character": "anh-ca"
+      },
+      "video": {
+        "motionPrompt": "the old woman fishing line trembles on the water, mist rolls slowly, the boy bows his head politely",
+        "seed": 3297436833
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-chuc-cua-em-gai",
+      "title": "Lời chúc của cô em gái",
+      "narrator": "ke-chuyen",
+      "narration": "Ở nhà chỉ còn cô em gái. Nhớ hai anh quá, cô cũng xin ông lão cho đi. Đến mặt nước, cô chào: \"Chào bà.\" \"Cảm ơn cháu.\" \"Chúc bà câu được nhiều cá ạ.\" Nghe lời chúc tốt lành, bà lão vui lắm, cõng cô qua nước, trao cho cô một cây đũa thần: \"Cháu cứ đi thẳng. Gặp con chó đen to, cháu lặng lẽ đi qua, đừng cười, đừng nhìn nó. Đến lâu đài, đặt đũa ở ngưỡng cửa, đi xuyên qua lâu đài sang phía bên kia. Ở đó có giếng cổ mọc cây lớn, trên cây treo một lồng chim. Cháu lấy lồng chim, múc một cốc nước giếng, rồi quay lại lối cũ. Nhặt đũa lên, đi qua con chó thì gõ đũa vào mặt nó, nhớ gõ cho trúng.\"",
+      "subtitles": [
+        "Ở nhà chỉ còn cô em gái. Nhớ hai anh quá, cô cũng xin ông lão cho đi.",
+        "Đến mặt nước, cô chào: \"Chào bà.\" \"Cảm ơn cháu.\" \"Chúc bà câu được nhiều cá ạ.\"",
+        "Nghe lời chúc tốt lành, bà lão vui lắm, cõng cô qua nước, trao cho cô một cây đũa thần:",
+        "\"Cháu cứ đi thẳng. Gặp con chó đen to, cháu lặng lẽ đi qua, đừng cười, đừng nhìn nó.",
+        "Đến lâu đài, đặt đũa ở ngưỡng cửa, đi xuyên qua lâu đài sang phía bên kia.",
+        "Ở đó có giếng cổ mọc cây lớn, trên cây treo một lồng chim. Cháu lấy lồng chim,",
+        "múc một cốc nước giếng, rồi quay lại lối cũ. Nhặt đũa lên,",
+        "đi qua con chó thì gõ đũa vào mặt nó, nhớ gõ cho trúng.\""
+      ],
+      "image": {
+        "prompt": "the kind girl with a flaxen braid receiving a slender wooden wand from the smiling old woman on the misty lake shore, the old woman pointing down a long road toward a distant castle",
+        "seed": 2664983179,
+        "character": "em-gai"
+      },
+      "video": {
+        "motionPrompt": "the wand glows faintly as it passes into the girl hands, mist parts to reveal the road, the old woman smiles warmly",
+        "seed": 4280114934
+      },
+      "voice": {}
+    },
+    {
+      "id": "long-chim-va-coc-nuoc",
+      "title": "Lồng chim và cốc nước",
+      "narrator": "ke-chuyen",
+      "narration": "Cô làm đúng từng lời. Lặng lẽ qua con chó đen, đặt đũa ở ngưỡng cửa lâu đài, lấy lồng chim trên cây, múc cốc nước giếng. Trên đường về, cô gặp lại hai anh, hai người đã đi tìm nhau nửa vòng trái đất. Đến chỗ con chó đen, cô gõ đũa vào mặt nó. Con chó bỗng hoá thành một chàng hoàng tử khôi ngô, cùng ba anh em ra bờ nước. Bà lão vẫn đứng chờ, mừng rỡ cõng tất cả qua nước, rồi biến đi, vì bà cũng đã được giải thoát. Cả bốn người về nhà ông lão đánh cá, treo lồng chim lên tường.",
+      "subtitles": [
+        "Cô làm đúng từng lời. Lặng lẽ qua con chó đen, đặt đũa ở ngưỡng cửa lâu đài,",
+        "lấy lồng chim trên cây, múc cốc nước giếng.",
+        "Trên đường về, cô gặp lại hai anh, hai người đã đi tìm nhau nửa vòng trái đất.",
+        "Đến chỗ con chó đen, cô gõ đũa vào mặt nó.",
+        "Con chó bỗng hoá thành một chàng hoàng tử khôi ngô, cùng ba anh em ra bờ nước.",
+        "Bà lão vẫn đứng chờ, mừng rỡ cõng tất cả qua nước,",
+        "rồi biến đi, vì bà cũng đã được giải thoát.",
+        "Cả bốn người về nhà ông lão đánh cá, treo lồng chim lên tường."
+      ],
+      "image": {
+        "prompt": "on a road near an enchanted castle, the girl holding a birdcage with the glowing little songbird and a glass of sparkling water, her two brothers beside her, a big black dog turning into a handsome young prince in a swirl of golden light",
+        "seed": 3086412592,
+        "character": "em-gai"
+      },
+      "video": {
+        "motionPrompt": "the wand taps the dog and golden light swirls, the dog rises and becomes a smiling prince, the bird sings in its cage",
+        "seed": 2100933060
+      },
+      "voice": {}
+    },
+    {
+      "id": "chu-chim-noi-su-that",
+      "title": "Chú chim nói sự thật",
+      "narrator": "ke-chuyen",
+      "narration": "Người anh thứ hai ở nhà không yên, vác nỏ đi săn. Mỏi chân, cậu ngồi thổi sáo. Nhà vua cũng đi săn, nghe tiếng sáo liền tìm đến: \"Ai cho ngươi săn ở đây?\" \"Không ai cả.\" \"Ngươi là con nhà ai?\" \"Tôi là con ông lão đánh cá.\" \"Ông ấy làm gì có con.\" \"Không tin thì ngài cứ theo tôi.\" Vua đến hỏi ông lão, ông kể hết. Bỗng chú chim trên tường cất tiếng hát: \"Hoàng hậu ngồi một mình trong ngục tối, tâu đức vua, đây là ba con của ngài. Hai bà dì gian dối đã đem các con thả xuống dòng sông, nơi người đánh cá qua lại mỗi ngày.\"",
+      "subtitles": [
+        "Người anh thứ hai ở nhà không yên, vác nỏ đi săn. Mỏi chân, cậu ngồi thổi sáo.",
+        "Nhà vua cũng đi săn, nghe tiếng sáo liền tìm đến: \"Ai cho ngươi săn ở đây?\"",
+        "\"Không ai cả.\" \"Ngươi là con nhà ai?\" \"Tôi là con ông lão đánh cá.\"",
+        "\"Ông ấy làm gì có con.\" \"Không tin thì ngài cứ theo tôi.\"",
+        "Vua đến hỏi ông lão, ông kể hết. Bỗng chú chim trên tường cất tiếng hát:",
+        "\"Hoàng hậu ngồi một mình trong ngục tối, tâu đức vua, đây là ba con của ngài.",
+        "Hai bà dì gian dối đã đem các con thả xuống dòng sông,",
+        "nơi người đánh cá qua lại mỗi ngày.\""
+      ],
+      "image": {
+        "prompt": "inside a humble fisherman hut, the king in hunting clothes listening in astonishment, the glowing little songbird singing in its cage on the wall, the old fisherman, the three siblings and the prince gathered around",
+        "seed": 245581989,
+        "character": "chim-nho"
+      },
+      "video": {
+        "motionPrompt": "the little bird sings with its throat trembling, the king slowly lowers his hat, everyone turns to look at the cage, warm light",
+        "seed": 2644690820
+      },
+      "voice": {}
+    },
+    {
+      "id": "doan-tu",
+      "title": "Đoàn tụ",
+      "narrator": "ke-chuyen",
+      "narration": "Vua đưa chú chim, ông lão và ba người con về cung, mở cửa ngục đón hoàng hậu ra. Hoàng hậu đã yếu lắm. Cô con gái đưa mẹ uống cốc nước giếng thần, hoàng hậu liền khoẻ mạnh, tươi tắn như xưa. Hai bà dì gian dối bị đuổi khỏi vương quốc, không bao giờ quay lại. Còn cô con gái thì kết duyên cùng chàng hoàng tử. Cả nhà sống hạnh phúc bên nhau.",
+      "subtitles": [
+        "Vua đưa chú chim, ông lão và ba người con về cung, mở cửa ngục đón hoàng hậu ra.",
+        "Hoàng hậu đã yếu lắm. Cô con gái đưa mẹ uống cốc nước giếng thần,",
+        "hoàng hậu liền khoẻ mạnh, tươi tắn như xưa.",
+        "Hai bà dì gian dối bị đuổi khỏi vương quốc, không bao giờ quay lại.",
+        "Còn cô con gái thì kết duyên cùng chàng hoàng tử. Cả nhà sống hạnh phúc bên nhau."
+      ],
+      "image": {
+        "prompt": "a joyful reunion in a sunny palace courtyard, the gentle queen in blue embracing her three grown children, the king beside them, the girl holding a glass of sparkling water, the prince and the old fisherman smiling, the little bird flying overhead",
+        "seed": 1347212683,
+        "character": "hoang-hau"
+      },
+      "video": {
+        "motionPrompt": "the queen hugs her children, colour returns to her cheeks, the little bird circles above singing, petals drift in warm light",
+        "seed": 2623606169
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender German folk ballad for a fairy tale, a gentle flute imitating birdsong, harp and soft strings like a flowing river, a hopeful rising melody, warm joyful reunion ending, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 3344494231
+  }
+}

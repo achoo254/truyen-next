@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "slug": "le-quy-don-than-dong",
+  "shelf": "kids",
+  "title": "Cậu bé thần đồng Lê Quý Đôn",
+  "summary": "Mới lên hai tuổi, Lê Quý Đôn đã biết chữ; lên sáu đã làm thơ; nhìn qua cuốn sổ một lần là nhớ hết. Cậu bé thần đồng ấy lớn lên thành nhà bác học nổi tiếng nước Nam. Giai thoại về danh nhân Việt Nam, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "anh-hung",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Theo chuyện ông Lê Quý Đôn trong Nam Hải dị nhân liệt truyện của Phan Kế Bính (1909, tác giả mất 1921), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách; chỉ kể những việc sách đã ghi, lược bớt các đoạn về chuyện mồ mả và quan trường.",
+  "basedOn": "Nam Hải dị nhân liệt truyện, Phan Kế Bính (1909)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, old Vietnamese village with rice fields, bamboo hedges and tiled roofs, Le dynasty era, scholar homes with books and brush pens, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 4043270608
+    },
+    {
+      "id": "quy-don",
+      "name": "Lê Quý Đôn",
+      "seed": 1106387909,
+      "sheetPrompt": "Le Quy Don as a bright cheerful little Vietnamese boy of old times, about seven years old, sparkling clever eyes, short hair with a small topknot, simple light blue tunic, holding a brush pen and a little book, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "quan-thuong",
+      "name": "Vị quan lớn",
+      "seed": 2843864283,
+      "sheetPrompt": "a portly elderly Vietnamese mandarin of old times, long white beard, red robe with an embroidered square patch and a black winged hat, stern face that turns into a kind smile, comical not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ly-truong",
+      "name": "Ông lý trưởng",
+      "seed": 3961878338,
+      "sheetPrompt": "a worried but kind old Vietnamese village chief of old times, thin grey beard, black turban, plain dark robe, holding an old account book, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn có hay quên không? Miu thì hay quên lắm, vừa giấu cuộn len xong đã quên mất giấu ở đâu rồi, hi hi. Ngày xưa có một cậu bé nhìn qua một lần là nhớ hết, không sót một chữ nào. Cậu ấy là Lê Quý Đôn. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Mèo Miu đây.",
+        "Các bạn có hay quên không?",
+        "Miu thì hay quên lắm, vừa giấu cuộn len xong đã quên mất giấu ở đâu rồi, hi hi.",
+        "Ngày xưa có một cậu bé nhìn qua một lần là nhớ hết, không sót một chữ nào.",
+        "Cậu ấy là Lê Quý Đôn.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat searches puzzled under cushions for a lost ball of yarn, a little boy reading a book in the background, cozy old Vietnamese study room",
+        "seed": 3690232265,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat lifts a cushion and scratches her head, the yarn ball peeks out from a basket, slow camera push-in",
+        "seed": 1283611114
+      },
+      "voice": {}
+    },
+    {
+      "id": "ra-doi",
+      "title": "Cậu bé ra đời",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở làng Diên Hà, phủ Thái Bình, có ông Lê Trọng Thứ đỗ tiến sĩ, làm quan. Ông bà mãi chưa có con, bèn đi lễ chùa cầu con. Một đêm, bà nằm mơ thấy trời ban cho một con kỳ lân. Ít lâu sau, bà sinh được một cậu con trai, đặt tên là Lê Quý Đôn.",
+      "subtitles": [
+        "Ngày xưa, ở làng Diên Hà, phủ Thái Bình, có ông Lê Trọng Thứ đỗ tiến sĩ, làm quan.",
+        "Ông bà mãi chưa có con, bèn đi lễ chùa cầu con.",
+        "Một đêm, bà nằm mơ thấy trời ban cho một con kỳ lân.",
+        "Ít lâu sau, bà sinh được một cậu con trai, đặt tên là Lê Quý Đôn."
+      ],
+      "image": {
+        "prompt": "a gentle Vietnamese scholar couple of old times pray at a peaceful village pagoda with incense, above them in a soft dream cloud a friendly golden qilin smiles, starry night",
+        "seed": 1320519602
+      },
+      "video": {
+        "motionPrompt": "incense smoke curls gently, the dream qilin floats and sparkles, soft camera tilt up",
+        "seed": 959430127
+      },
+      "voice": {}
+    },
+    {
+      "id": "than-dong",
+      "title": "Thần đồng nhỏ tuổi",
+      "narrator": "ke-chuyen",
+      "narration": "Cậu bé thông minh khác thường. Mới lên hai, cậu đã biết hai chữ hữu và vô. Người lớn thử cả trăm lần, lần nào cậu cũng chỉ đúng. Lên năm, cậu học Kinh Thi, học đến đâu nhớ đến đấy, chẳng chữ nào phải dạy đến lần thứ hai. Lên sáu, cậu đã biết làm thơ, làm văn, ai nghe cũng phải gật gù khen.",
+      "subtitles": [
+        "Cậu bé thông minh khác thường.",
+        "Mới lên hai, cậu đã biết hai chữ hữu và vô.",
+        "Người lớn thử cả trăm lần, lần nào cậu cũng chỉ đúng.",
+        "Lên năm, cậu học Kinh Thi, học đến đâu nhớ đến đấy,",
+        "chẳng chữ nào phải dạy đến lần thứ hai.",
+        "Lên sáu, cậu đã biết làm thơ, làm văn, ai nghe cũng phải gật gù khen."
+      ],
+      "image": {
+        "prompt": "a tiny Vietnamese toddler boy points happily at big ink characters on paper cards held by his smiling father, then the same boy a little older reading a scroll, warm study room",
+        "seed": 4177459579,
+        "character": "quy-don"
+      },
+      "video": {
+        "motionPrompt": "the toddler claps and points, the father laughs and shows another card, sunlight moves across the scrolls, slow push-in",
+        "seed": 326544020
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-tho-nhan-loi",
+      "title": "Bài thơ nhận lỗi",
+      "narrator": "ke-chuyen",
+      "narration": "Năm bảy, tám tuổi, cậu vẫn còn nghịch lắm. Một hôm, có vị quan lớn đến chơi nhà. Cậu đứng chặn ở ngõ, dang tay dang chân ra mà đố: Ông đoán được đây là chữ gì thì tôi mới dẫn vào! Ông quan không thèm đáp. Cậu cười vang: Chữ thái thế mà cũng không biết! Biết là con ông chủ nhà, ông quan gọi cậu lên bảo: Cháu bướng bỉnh quá, phải làm một bài thơ tự trách mình, không làm được thì bị phạt. Cậu làm ngay một bài thơ, khéo cài tên các loài rắn vào từng câu, hứa từ nay chăm học. Ông quan nghe xong, khen mãi không thôi.",
+      "subtitles": [
+        "Năm bảy, tám tuổi, cậu vẫn còn nghịch lắm.",
+        "Một hôm, có vị quan lớn đến chơi nhà.",
+        "Cậu đứng chặn ở ngõ, dang tay dang chân ra mà đố:",
+        "Ông đoán được đây là chữ gì thì tôi mới dẫn vào!",
+        "Ông quan không thèm đáp.",
+        "Cậu cười vang:",
+        "Chữ thái thế mà cũng không biết!",
+        "Biết là con ông chủ nhà, ông quan gọi cậu lên bảo:",
+        "Cháu bướng bỉnh quá, phải làm một bài thơ tự trách mình, không làm được thì bị phạt.",
+        "Cậu làm ngay một bài thơ, khéo cài tên các loài rắn vào từng câu, hứa từ nay chăm học.",
+        "Ông quan nghe xong, khen mãi không thôi."
+      ],
+      "image": {
+        "prompt": "a cheeky little boy stands at a village gate with arms and legs spread wide like a big letter shape, a portly mandarin with a long white beard looks at him with raised eyebrows",
+        "seed": 859300181,
+        "character": "quy-don"
+      },
+      "video": {
+        "motionPrompt": "the boy wiggles his arms and grins, the mandarin strokes his beard and slowly smiles, bamboo leaves sway, gentle pan",
+        "seed": 3106096769
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuon-so-bi-chay",
+      "title": "Cuốn sổ bị cháy",
+      "narrator": "ke-chuyen",
+      "narration": "Lại có lần, cậu sang chơi nhà ông lý trưởng, thấy cuốn sổ ghi tên những người còn nợ thuế, người thì vài quan tiền, người thì mấy đấu thóc. Cậu đọc qua một lượt rồi trả lại. Ít lâu sau, nhà ông lý bị cháy, cuốn sổ cháy mất. Ông lo lắm, chẳng biết ai nợ bao nhiêu. Cậu bảo: Ông đừng lo, cháu nhớ cả rồi, để cháu đọc cho ông chép lại. Cậu đọc một mạch. Đến khi thu thuế, đúng từng người, không ai cãi được câu nào.",
+      "subtitles": [
+        "Lại có lần, cậu sang chơi nhà ông lý trưởng, thấy cuốn sổ ghi tên những người còn nợ thuế,",
+        "người thì vài quan tiền, người thì mấy đấu thóc.",
+        "Cậu đọc qua một lượt rồi trả lại.",
+        "Ít lâu sau, nhà ông lý bị cháy, cuốn sổ cháy mất.",
+        "Ông lo lắm, chẳng biết ai nợ bao nhiêu.",
+        "Cậu bảo:",
+        "Ông đừng lo, cháu nhớ cả rồi, để cháu đọc cho ông chép lại.",
+        "Cậu đọc một mạch.",
+        "Đến khi thu thuế, đúng từng người, không ai cãi được câu nào."
+      ],
+      "image": {
+        "prompt": "the clever little boy stands and recites from memory with eyes closed and a finger raised, the old village chief writes quickly in a new notebook, amazed villagers peeking in",
+        "seed": 3103552154,
+        "character": "ly-truong"
+      },
+      "video": {
+        "motionPrompt": "the boy recites calmly, the chief's brush moves fast, villagers nod in surprise, slow camera push-in",
+        "seed": 1604827952
+      },
+      "voice": {}
+    },
+    {
+      "id": "doc-bia-truoc-con-nuoc",
+      "title": "Đọc bia trước con nước",
+      "narrator": "ke-chuyen",
+      "narration": "Lớn lên, mười tám tuổi, Lê Quý Đôn đỗ thủ khoa, rồi đỗ bảng nhãn, cùng cha làm quan trong triều. Có lần ông đi sứ sang phương Bắc. Một ông tú tài bên ấy muốn thử tài, rủ ông đi xem tấm bia đá ở ngôi chùa bên bờ sông. Chiều nào nước triều cũng dâng lên ngập tấm bia. Ông vừa đọc xong thì nước đã tràn tới. Về nhà, ông tú tài hỏi lại, ông đọc thuộc cả bài văn bia, không sai một chữ. Ông tú tài đành chịu phục.",
+      "subtitles": [
+        "Lớn lên, mười tám tuổi, Lê Quý Đôn đỗ thủ khoa,",
+        "rồi đỗ bảng nhãn, cùng cha làm quan trong triều.",
+        "Có lần ông đi sứ sang phương Bắc.",
+        "Một ông tú tài bên ấy muốn thử tài, rủ ông đi xem tấm bia đá ở ngôi chùa bên bờ sông.",
+        "Chiều nào nước triều cũng dâng lên ngập tấm bia.",
+        "Ông vừa đọc xong thì nước đã tràn tới.",
+        "Về nhà, ông tú tài hỏi lại, ông đọc thuộc cả bài văn bia, không sai một chữ.",
+        "Ông tú tài đành chịu phục."
+      ],
+      "image": {
+        "prompt": "grown-up Le Quy Don in a scholar robe reads a stone stele by a riverside temple while gentle tide water creeps up around its base, a curious foreign scholar watches beside him",
+        "seed": 1149612825
+      },
+      "video": {
+        "motionPrompt": "the water rises softly around the stele, he reads calmly and nods, river birds fly by, slow pull-back",
+        "seed": 2715695840
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-bac-hoc",
+      "title": "Nhà bác học giản dị",
+      "narrator": "ke-chuyen",
+      "narration": "Làm quan to rồi, ông vẫn sống giản dị, chỉ mặc áo vải, ăn cơm rau. Bổng lộc có được, ông chia cho họ hàng, giúp đỡ bạn bè nghèo khó. Ông chăm đọc sách, đêm nào cũng học đến khuya. Ông viết rất nhiều sách quý, để lại cho con cháu đời sau. Người đời gọi ông là nhà bác học lớn của nước Nam.",
+      "subtitles": [
+        "Làm quan to rồi, ông vẫn sống giản dị, chỉ mặc áo vải, ăn cơm rau.",
+        "Bổng lộc có được, ông chia cho họ hàng, giúp đỡ bạn bè nghèo khó.",
+        "Ông chăm đọc sách, đêm nào cũng học đến khuya.",
+        "Ông viết rất nhiều sách quý, để lại cho con cháu đời sau.",
+        "Người đời gọi ông là nhà bác học lớn của nước Nam."
+      ],
+      "image": {
+        "prompt": "an old wise Vietnamese scholar in a simple cotton robe writes books by an oil lamp at night in a modest thatched study, tall stacks of handwritten books around him, a quiet garden outside",
+        "seed": 2767025028
+      },
+      "video": {
+        "motionPrompt": "the lamp flame flickers softly, his brush moves across the page, a moth circles the light, slow camera push-in",
+        "seed": 3104396154
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, Lê Quý Đôn thông minh lắm, nhưng ông còn chăm học suốt cả đời nữa. Có lúc nghịch ngợm, ông biết nhận lỗi và sửa ngay. Miu cũng sẽ chăm đọc sách để bớt hay quên. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, Lê Quý Đôn thông minh lắm, nhưng ông còn chăm học suốt cả đời nữa.",
+        "Có lúc nghịch ngợm, ông biết nhận lỗi và sửa ngay.",
+        "Miu cũng sẽ chăm đọc sách để bớt hay quên.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye sitting on a stack of old books beside an oil lamp, a ball of yarn safely in her lap, warm evening light",
+        "seed": 900481410,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and hugs the yarn ball, the lamp glows, gentle camera pull-back",
+        "seed": 2959206671
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle thoughtful Vietnamese folk tune for children, dan tranh zither and bamboo flute, soft and bright, curious and studious mood, medium-slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4080531069
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "slug": "frederick-va-catherine",
+  "shelf": "world",
+  "title": "Frederick và Catherine",
+  "summary": "Cô vợ Catherine làm gì cũng hỏng: để chó tha mất miếng thịt, đem vàng đổi lấy bát đĩa, bôi bơ cho cây và vác cả cánh cửa đi đường. Vậy mà chính cánh cửa ấy lại giúp hai vợ chồng đòi lại vàng. Truyện cổ Grimm hài hước kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der Frieder und das Catherlieschen\" (Kinder- und Hausmärchen, bản 1857, truyện số 59), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"Frederick and Catherine\" của Margaret Hunt. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể giữ nguyên các tình huống ngớ ngẩn vui nhộn; bọn trộm chỉ bị cánh cửa rơi trúng, hoảng sợ bỏ chạy.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a small half-timbered village cottage, cellar, hillside road and pine forest, comical expressive characters, warm cheerful colors, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "frederick",
+      "name": "Frederick",
+      "seed": 2375392488,
+      "sheetPrompt": "Frederick, a young German peasant husband with a round friendly face, short brown hair, a brown felt hat, linen shirt with rolled sleeves and braces, often looking exasperated in a comical way, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "catherine",
+      "name": "Catherine",
+      "seed": 3475488103,
+      "sheetPrompt": "Catherine, a cheerful scatterbrained young peasant wife with rosy cheeks, blonde hair tucked in a red headscarf, a green dress with a white apron, wide innocent eyes and a big smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mieng-thit-va-thung-bia",
+      "title": "Miếng thịt và thùng bia",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có anh Frederick mới cưới cô vợ tên là Catherine. Một hôm, Frederick dặn: \"Anh ra đồng làm, trưa về đói lắm, em nấu món gì ngon nhé.\" Gần trưa, Catherine đặt miếng thịt duy nhất trong nhà lên chảo rán. Thịt vừa xèo xèo, cô nghĩ: \"Tranh thủ xuống hầm lấy bia đã.\" Cô mở vòi thùng bia, đứng nhìn bia chảy vào bình. Bỗng cô sực nhớ: \"Thôi rồi, con chó chưa nhốt, nó tha mất miếng thịt thì sao!\" Thế là cô bỏ đó, chạy vội lên bếp. Lên đến nơi, quả nhiên con chó đang ngoạm miếng thịt chạy ra đồng. Catherine đuổi theo, nhưng chó chạy nhanh hơn. \"Thôi, mất thì đành chịu vậy.\"",
+      "subtitles": [
+        "Ngày xưa, có anh Frederick mới cưới cô vợ tên là Catherine.",
+        "Một hôm, Frederick dặn: \"Anh ra đồng làm, trưa về đói lắm, em nấu món gì ngon nhé.\"",
+        "Gần trưa, Catherine đặt miếng thịt duy nhất trong nhà lên chảo rán.",
+        "Thịt vừa xèo xèo, cô nghĩ: \"Tranh thủ xuống hầm lấy bia đã.\"",
+        "Cô mở vòi thùng bia, đứng nhìn bia chảy vào bình.",
+        "Bỗng cô sực nhớ: \"Thôi rồi, con chó chưa nhốt, nó tha mất miếng thịt thì sao!\"",
+        "Thế là cô bỏ đó, chạy vội lên bếp.",
+        "Lên đến nơi, quả nhiên con chó đang ngoạm miếng thịt chạy ra đồng.",
+        "Catherine đuổi theo, nhưng chó chạy nhanh hơn. \"Thôi, mất thì đành chịu vậy.\""
+      ],
+      "image": {
+        "prompt": "a cosy cottage kitchen, a scruffy happy dog running out of the door with a big steak in its mouth, Catherine in a red headscarf chasing after it waving a fork, a frying pan smoking on the hearth",
+        "seed": 659271473,
+        "character": "catherine"
+      },
+      "video": {
+        "motionPrompt": "the dog dashes off with the steak, Catherine runs after it with her apron flapping, smoke curls from the pan, playful motion",
+        "seed": 1555732829
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-ham-sach-bong",
+      "title": "Cái hầm sạch bong",
+      "narrator": "ke-chuyen",
+      "narration": "Trong lúc ấy, vòi bia vẫn mở. Bình đầy thì bia tràn ra, chảy đến cạn cả thùng. Catherine về thấy hầm lênh láng bia, liền nghĩ ra một kế: \"Có bao bột mì mua ở chợ phiên, rắc lên là hút hết bia ngay!\" Cô khệ nệ vác bao bột xuống, đặt đúng lên bình bia đầy, làm bình đổ nốt. \"Thôi, cái này đi thì cái kia đi theo cho có bạn.\" Cô rắc khắp hầm, rồi đứng ngắm, rất hài lòng: \"Trông sạch sẽ chưa kìa!\" Trưa, Frederick về: \"Em ơi, có gì ăn không?\" Catherine kể lại đầu đuôi. \"Trời ơi, sao em làm thế?\" \"Ơ, em đâu biết là sai. Anh phải dặn trước chứ!\"",
+      "subtitles": [
+        "Trong lúc ấy, vòi bia vẫn mở. Bình đầy thì bia tràn ra, chảy đến cạn cả thùng.",
+        "Catherine về thấy hầm lênh láng bia, liền nghĩ ra một kế:",
+        "\"Có bao bột mì mua ở chợ phiên, rắc lên là hút hết bia ngay!\"",
+        "Cô khệ nệ vác bao bột xuống, đặt đúng lên bình bia đầy, làm bình đổ nốt.",
+        "\"Thôi, cái này đi thì cái kia đi theo cho có bạn.\"",
+        "Cô rắc khắp hầm, rồi đứng ngắm, rất hài lòng: \"Trông sạch sẽ chưa kìa!\"",
+        "Trưa, Frederick về: \"Em ơi, có gì ăn không?\" Catherine kể lại đầu đuôi.",
+        "\"Trời ơi, sao em làm thế?\" \"Ơ, em đâu biết là sai. Anh phải dặn trước chứ!\""
+      ],
+      "image": {
+        "prompt": "a stone cellar with an empty ale cask, the floor covered in white flour, Catherine standing proudly with her hands on her hips, Frederick on the stairs staring with his mouth open, comical",
+        "seed": 1768366295,
+        "character": "catherine"
+      },
+      "video": {
+        "motionPrompt": "flour dust floats in a beam of light, Catherine beams proudly, Frederick slaps his forehead, gentle humorous motion",
+        "seed": 4225610108
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhung-chiec-cuc-vang",
+      "title": "Những chiếc cúc vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Frederick nghĩ: \"Vợ mình thế này, mình phải cẩn thận mới được.\" Anh có ít vàng, liền bảo vợ: \"Mấy cái cúc vàng xinh này, anh bỏ vào hộp chôn ngoài vườn. Em đừng bao giờ đụng vào nhé.\" \"Vâng, em không bao giờ đụng vào đâu.\" Anh vừa đi, mấy người bán rong gánh bát đĩa qua. Catherine bảo: \"Tôi không có tiền, nhưng có cúc vàng. Các anh ra vườn đào chỗ kia mà lấy, tôi không dám đụng vào.\" Bọn bán rong đào lên, thấy toàn vàng, ôm hết đi, để lại một đống bát đĩa. Frederick về, thấy bát đĩa bày khắp nhà. \"Cúc vàng ấy là toàn bộ tiền của nhà mình đấy!\" \"Em đâu có biết. Anh phải dặn em trước chứ!\"",
+      "subtitles": [
+        "Frederick nghĩ: \"Vợ mình thế này, mình phải cẩn thận mới được.\"",
+        "Anh có ít vàng, liền bảo vợ: \"Mấy cái cúc vàng xinh này,",
+        "anh bỏ vào hộp chôn ngoài vườn. Em đừng bao giờ đụng vào nhé.\"",
+        "\"Vâng, em không bao giờ đụng vào đâu.\"",
+        "Anh vừa đi, mấy người bán rong gánh bát đĩa qua. Catherine bảo:",
+        "\"Tôi không có tiền, nhưng có cúc vàng.",
+        "Các anh ra vườn đào chỗ kia mà lấy, tôi không dám đụng vào.\"",
+        "Bọn bán rong đào lên, thấy toàn vàng, ôm hết đi, để lại một đống bát đĩa.",
+        "Frederick về, thấy bát đĩa bày khắp nhà. \"Cúc vàng ấy là toàn bộ tiền của nhà mình đấy!\"",
+        "\"Em đâu có biết. Anh phải dặn em trước chứ!\""
+      ],
+      "image": {
+        "prompt": "a cottage garden, two sly pedlars with big packs digging up a small box full of gold coins, Catherine smiling happily surrounded by stacks of colorful earthenware plates and bowls",
+        "seed": 750655829,
+        "character": "frederick"
+      },
+      "video": {
+        "motionPrompt": "the pedlars lift the box and tiptoe away, Catherine arranges plates proudly, a cat watches from the fence",
+        "seed": 1897445392
+      },
+      "voice": {}
+    },
+    {
+      "id": "bo-cho-cay",
+      "title": "Bơ cho cây, phô mai lăn dốc",
+      "narrator": "ke-chuyen",
+      "narration": "Catherine ngẫm một lúc rồi nói: \"Mình đuổi theo bọn trộm, lấy lại vàng đi anh.\" \"Được, nhưng mang theo bơ với phô mai để ăn dọc đường.\" Frederick đi nhanh, bỏ vợ lại phía sau. Cô nghĩ: \"Lúc quay về, mình lại gần nhà hơn.\" Đến một con dốc hẹp, bánh xe cọ vào thân cây hai bên đường. \"Tội nghiệp mấy cái cây bị cọ xước,\" cô nói, rồi lấy hết bơ bôi lên cho cây. Đang bôi, một khoanh phô mai rơi khỏi giỏ, lăn tuột xuống dốc. \"Thôi, khoanh kia chân còn khoẻ, đi tìm bạn đi,\" cô nói, rồi lăn nốt khoanh còn lại. Gặp chồng, cô chỉ còn bánh mì khô. \"Bơ với phô mai đâu?\" Nghe kể xong, Frederick lắc đầu. \"Ơ, anh có dặn em đừng làm thế đâu.\"",
+      "subtitles": [
+        "Catherine ngẫm một lúc rồi nói: \"Mình đuổi theo bọn trộm, lấy lại vàng đi anh.\"",
+        "\"Được, nhưng mang theo bơ với phô mai để ăn dọc đường.\"",
+        "Frederick đi nhanh, bỏ vợ lại phía sau. Cô nghĩ: \"Lúc quay về, mình lại gần nhà hơn.\"",
+        "Đến một con dốc hẹp, bánh xe cọ vào thân cây hai bên đường.",
+        "\"Tội nghiệp mấy cái cây bị cọ xước,\" cô nói, rồi lấy hết bơ bôi lên cho cây.",
+        "Đang bôi, một khoanh phô mai rơi khỏi giỏ, lăn tuột xuống dốc.",
+        "\"Thôi, khoanh kia chân còn khoẻ, đi tìm bạn đi,\" cô nói, rồi lăn nốt khoanh còn lại.",
+        "Gặp chồng, cô chỉ còn bánh mì khô. \"Bơ với phô mai đâu?\"",
+        "Nghe kể xong, Frederick lắc đầu. \"Ơ, anh có dặn em đừng làm thế đâu.\""
+      ],
+      "image": {
+        "prompt": "a narrow hillside road between trees, Catherine kindly smearing butter on a tree trunk, two round cheeses rolling merrily down the steep slope, sunny afternoon, comical",
+        "seed": 4130117913,
+        "character": "catherine"
+      },
+      "video": {
+        "motionPrompt": "two cheeses bounce and roll down the hill, Catherine waves them goodbye, leaves rustle in the breeze",
+        "seed": 1986387608
+      },
+      "voice": {}
+    },
+    {
+      "id": "vac-ca-canh-cua",
+      "title": "Vác cả cánh cửa",
+      "narrator": "ke-chuyen",
+      "narration": "Ăn xong, Frederick hỏi: \"Em đã khoá cửa nhà chưa?\" \"Anh có dặn đâu.\" \"Vậy về khoá cửa đi, rồi mang theo chút gì ăn.\" Catherine về cài then cửa sau, còn cửa trước thì nhấc khỏi bản lề: \"Anh bảo giữ nhà cho chắc, thì mang cửa theo là chắc nhất.\" Cô còn mang thêm một túi hạt dẻ và chai giấm cho chồng. Gặp chồng, cô khoe: \"Cửa đây, anh tha hồ mà canh!\" Frederick than: \"Em mang cửa đi thì ai muốn vào nhà cũng được! Thôi, tự vác đi.\" \"Được, em vác cửa, nhưng hạt dẻ với giấm thì buộc lên cửa nhé.\"",
+      "subtitles": [
+        "Ăn xong, Frederick hỏi: \"Em đã khoá cửa nhà chưa?\" \"Anh có dặn đâu.\"",
+        "\"Vậy về khoá cửa đi, rồi mang theo chút gì ăn.\"",
+        "Catherine về cài then cửa sau, còn cửa trước thì nhấc khỏi bản lề:",
+        "\"Anh bảo giữ nhà cho chắc, thì mang cửa theo là chắc nhất.\"",
+        "Cô còn mang thêm một túi hạt dẻ và chai giấm cho chồng.",
+        "Gặp chồng, cô khoe: \"Cửa đây, anh tha hồ mà canh!\"",
+        "Frederick than: \"Em mang cửa đi thì ai muốn vào nhà cũng được! Thôi, tự vác đi.\"",
+        "\"Được, em vác cửa, nhưng hạt dẻ với giấm thì buộc lên cửa nhé.\""
+      ],
+      "image": {
+        "prompt": "Catherine cheerfully carrying a whole wooden front door on her back along a forest road, a bag of nuts and a vinegar bottle tied to it, Frederick holding his head in disbelief, comical",
+        "seed": 146917724,
+        "character": "catherine"
+      },
+      "video": {
+        "motionPrompt": "Catherine trudges along under the door, the nut bag swings, Frederick throws up his hands, gentle humorous motion",
+        "seed": 1601269460
+      },
+      "voice": {}
+    },
+    {
+      "id": "dem-tren-cay",
+      "title": "Đêm trên cây",
+      "narrator": "ke-chuyen",
+      "narration": "Hai vợ chồng vào rừng tìm mãi không thấy bọn trộm. Trời tối, họ trèo lên cây ngủ. Vừa ngồi yên chỗ, ai ngờ bọn trộm kéo đến, nhóm lửa ngay dưới gốc cây. Frederick nhặt mấy hòn sỏi, ném xuống, nhưng bọn trộm chỉ nói: \"Gió làm rụng quả thông.\" Catherine vác cửa mỏi quá, tưởng tại hạt dẻ nặng: \"Anh ơi, em thả hạt dẻ nhé.\" \"Đừng, lộ mất!\" \"Không được, phải thả.\" Hạt dẻ rơi lộp độp. Bọn trộm bảo: \"Mưa đá đấy.\" Lát sau: \"Anh ơi, em đổ giấm nhé.\" \"Đừng!\" Giấm chảy ròng ròng. \"Sương xuống nặng thật.\"",
+      "subtitles": [
+        "Hai vợ chồng vào rừng tìm mãi không thấy bọn trộm. Trời tối, họ trèo lên cây ngủ.",
+        "Vừa ngồi yên chỗ, ai ngờ bọn trộm kéo đến, nhóm lửa ngay dưới gốc cây.",
+        "Frederick nhặt mấy hòn sỏi, ném xuống, nhưng bọn trộm chỉ nói: \"Gió làm rụng quả thông.\"",
+        "Catherine vác cửa mỏi quá, tưởng tại hạt dẻ nặng: \"Anh ơi, em thả hạt dẻ nhé.\"",
+        "\"Đừng, lộ mất!\" \"Không được, phải thả.\" Hạt dẻ rơi lộp độp. Bọn trộm bảo: \"Mưa đá đấy.\"",
+        "Lát sau: \"Anh ơi, em đổ giấm nhé.\" \"Đừng!\" Giấm chảy ròng ròng. \"Sương xuống nặng thật.\""
+      ],
+      "image": {
+        "prompt": "night in a pine forest, Frederick and Catherine perched high in a tree with the door on her shoulder, three rascals sitting around a campfire below, nuts falling like hail, moonlight, comical",
+        "seed": 2301189918,
+        "character": "frederick"
+      },
+      "video": {
+        "motionPrompt": "nuts patter down through the branches, the rascals look up puzzled, the campfire crackles, Frederick shushes his wife",
+        "seed": 112599615
+      },
+      "voice": {}
+    },
+    {
+      "id": "canh-cua-roi",
+      "title": "Cánh cửa rơi",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng Catherine mới nghĩ ra: chính cánh cửa mới nặng! \"Anh ơi, em phải thả cái cửa xuống thôi.\" Frederick van nài mãi. \"Thả đây!\" Cánh cửa rơi đánh rầm xuống đúng chỗ bọn trộm ngồi. Bọn trộm hét toáng \"Cứu với!\", tưởng trời sập, ba chân bốn cẳng chạy mất, bỏ lại cả túi vàng. Hai vợ chồng tụt xuống, thấy vàng vẫn còn nguyên. Frederick bật cười, ôm vai vợ: \"Em làm gì cũng hỏng, mà lần này hỏng lại hoá hay!\" Rồi hai người vác cửa, ôm vàng, vui vẻ về nhà.",
+      "subtitles": [
+        "Cuối cùng Catherine mới nghĩ ra: chính cánh cửa mới nặng!",
+        "\"Anh ơi, em phải thả cái cửa xuống thôi.\" Frederick van nài mãi.",
+        "\"Thả đây!\" Cánh cửa rơi đánh rầm xuống đúng chỗ bọn trộm ngồi.",
+        "Bọn trộm hét toáng \"Cứu với!\", tưởng trời sập,",
+        "ba chân bốn cẳng chạy mất, bỏ lại cả túi vàng.",
+        "Hai vợ chồng tụt xuống, thấy vàng vẫn còn nguyên.",
+        "Frederick bật cười, ôm vai vợ: \"Em làm gì cũng hỏng, mà lần này hỏng lại hoá hay!\"",
+        "Rồi hai người vác cửa, ôm vàng, vui vẻ về nhà."
+      ],
+      "image": {
+        "prompt": "a wooden door crashing down beside a campfire, three rascals fleeing in panic into the dark forest, a sack of gold coins left on the ground, Frederick and Catherine climbing down the tree laughing",
+        "seed": 1787383165,
+        "character": "catherine"
+      },
+      "video": {
+        "motionPrompt": "the door thuds down, sparks fly up, the rascals run off, the couple slide down the trunk and hug the gold sack",
+        "seed": 2231149891
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "comical German village folk music, bouncy accordion and clarinet, plucked bass for the clumsy mishaps, a sneaky tiptoe theme for the night in the tree, a cheerful polka ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3039409839
+  }
+}

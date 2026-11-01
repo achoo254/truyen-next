@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "slug": "nguoi-di-duong-va-cay-tieu-huyen",
+  "shelf": "world",
+  "title": "Người đi đường và cây tiêu huyền",
+  "summary": "Hai người đi đường nghỉ dưới bóng mát cây tiêu huyền giữa trưa hè, rồi lại chê cây vô dụng vì chẳng có trái. Ngụ ngôn Aesop về lòng biết ơn với những gì đã giúp mình.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, a sunbaked ancient Greek country road with dry golden fields, distant hills and a huge leafy plane tree casting deep cool shade, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "lu-khach",
+      "name": "Hai người đi đường",
+      "seed": 2147859047,
+      "sheetPrompt": "two weary ancient Greek travellers, one tall and thin with a walking staff, one short and round with a bundle on his back, simple tunics and sandals, dusty, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cay",
+      "name": "Cây tiêu huyền",
+      "seed": 1408688739,
+      "sheetPrompt": "a huge old plane tree with a broad spreading canopy of big maple-like leaves, mottled pale bark and a gentle hint of a kindly face in the bark, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nang-trua",
+      "title": "Nắng trưa gay gắt",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, vào một trưa hè nóng như đổ lửa, có hai người đi đường bước trên con lộ bụi mù. Mặt trời chói chang trên đầu, mồ hôi chảy ròng ròng, chân bước nặng như đeo đá. Họ đã đi từ sáng sớm mà chẳng gặp được bóng râm nào. Người thứ nhất thở hổn hển: “Giá mà có chỗ nào mát mà nghỉ một lúc thì hay biết mấy!”",
+      "subtitles": [
+        "Ngày xưa, vào một trưa hè nóng như đổ lửa, có hai người đi đường bước trên con lộ bụi mù.",
+        "Mặt trời chói chang trên đầu, mồ hôi chảy ròng ròng, chân bước nặng như đeo đá.",
+        "Họ đã đi từ sáng sớm mà chẳng gặp được bóng râm nào.",
+        "Người thứ nhất thở hổn hển: “Giá mà có chỗ nào mát mà nghỉ một lúc thì hay biết mấy!”"
+      ],
+      "image": {
+        "character": "lu-khach",
+        "prompt": "two weary travellers trudging along a dusty sunbaked country road under a blazing midday sun, dry golden fields and heat haze",
+        "seed": 2952351891
+      },
+      "video": {
+        "motionPrompt": "the travellers trudge slowly and wipe their brows, heat shimmers above the road, dust swirls around their sandals",
+        "seed": 3286951195
+      },
+      "voice": {}
+    },
+    {
+      "id": "bong-mat",
+      "title": "Bóng mát của cây",
+      "narrator": "ke-chuyen",
+      "narration": "Vừa đi thêm một quãng, họ thấy bên đường có một cây tiêu huyền cao lớn. Tán lá xòe rộng như chiếc ô xanh khổng lồ, đổ xuống mặt đất một vùng bóng mát rượi. Hai người mừng rỡ chạy lại, ngả lưng lên đám cỏ dưới gốc cây. Gió thổi qua tán lá xào xạc, mát lành dễ chịu, họ thở phào nhẹ nhõm.",
+      "subtitles": [
+        "Vừa đi thêm một quãng, họ thấy bên đường có một cây tiêu huyền cao lớn.",
+        "Tán lá xòe rộng như chiếc ô xanh khổng lồ, đổ xuống mặt đất một vùng bóng mát rượi.",
+        "Hai người mừng rỡ chạy lại, ngả lưng lên đám cỏ dưới gốc cây.",
+        "Gió thổi qua tán lá xào xạc, mát lành dễ chịu, họ thở phào nhẹ nhõm."
+      ],
+      "image": {
+        "character": "cay",
+        "prompt": "two relieved travellers lying on soft grass in the deep cool shade of a huge leafy plane tree beside a dusty road",
+        "seed": 78269523
+      },
+      "video": {
+        "motionPrompt": "the travellers drop onto the grass and stretch out, the big leaves rustle in a cool breeze, dappled light dances",
+        "seed": 1175662134
+      },
+      "voice": {}
+    },
+    {
+      "id": "che-cay",
+      "title": "Lời chê vô ơn",
+      "narrator": "ke-chuyen",
+      "narration": "Nằm nghỉ một lúc, người thứ hai ngước nhìn lên tán lá rồi chép miệng: “Cây này to thế mà vô dụng thật. Chẳng có lấy một trái để ăn, gỗ cũng chẳng đóng được thứ gì ra hồn.” Người kia gật gù: “Đúng đấy, chỉ được cái to xác, chẳng làm được gì cho ai cả.” Rồi hai người cùng cười vang.",
+      "subtitles": [
+        "Nằm nghỉ một lúc, người thứ hai ngước nhìn lên tán lá rồi chép miệng: “Cây này to thế mà",
+        "vô dụng thật.",
+        "Chẳng có lấy một trái để ăn, gỗ cũng chẳng đóng được thứ gì ra hồn.”",
+        "Người kia gật gù: “Đúng đấy, chỉ được cái to xác, chẳng làm được gì cho ai cả.”",
+        "Rồi hai người cùng cười vang."
+      ],
+      "image": {
+        "character": "lu-khach",
+        "prompt": "two travellers resting under a plane tree, one pointing up at the branches dismissively, both laughing, the tree's leaves drooping slightly",
+        "seed": 738322533
+      },
+      "video": {
+        "motionPrompt": "one traveller points up and shakes his head, both laugh, a few leaves stop rustling and hang still",
+        "seed": 1146533666
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-noi",
+      "title": "Cây lên tiếng",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng cành lá trên đầu họ rung lên, và một giọng nói trầm trầm vang ra từ thân cây: “Hỡi những người vô ơn! Các anh đang nằm dưới bóng mát của ta, tránh cái nắng như thiêu ngoài kia, vậy mà lại chê ta vô dụng hay sao?” Hai người đi đường giật bắn mình, ngồi bật dậy, há hốc miệng nhìn lên tán lá.",
+      "subtitles": [
+        "Bỗng cành lá trên đầu họ rung lên,",
+        "và một giọng nói trầm trầm vang ra từ thân cây: “Hỡi những người vô ơn!",
+        "Các anh đang nằm dưới bóng mát của ta, tránh cái nắng như thiêu ngoài kia,",
+        "vậy mà lại chê ta vô dụng hay sao?”",
+        "Hai người đi đường giật bắn mình, ngồi bật dậy, há hốc miệng nhìn lên tán lá."
+      ],
+      "image": {
+        "character": "cay",
+        "prompt": "a huge plane tree whose branches sway as it speaks with a gentle face in its bark, two startled travellers sitting bolt upright with mouths open",
+        "seed": 3135122477
+      },
+      "video": {
+        "motionPrompt": "the branches shake and the bark face frowns softly, leaves swirl, the travellers jump up wide-eyed",
+        "seed": 4055583840
+      },
+      "voice": {}
+    },
+    {
+      "id": "xin-loi",
+      "title": "Lời xin lỗi",
+      "narrator": "ke-chuyen",
+      "narration": "Họ đỏ mặt vì xấu hổ, cùng đứng dậy cúi đầu: “Xin lỗi cây, chúng tôi đã nói không suy nghĩ.” Cây tiêu huyền khẽ rung lá, như mỉm cười tha thứ, rồi lại tỏa bóng mát cho họ nghỉ đến chiều. Khi lên đường, hai người còn ngoái lại vẫy chào. Các bạn nhỏ ạ, nhận lòng tốt của ai, ta đừng quên điều ấy, càng đừng chê bai người đã giúp mình.",
+      "subtitles": [
+        "Họ đỏ mặt vì xấu hổ, cùng đứng dậy cúi đầu: “Xin lỗi cây,",
+        "chúng tôi đã nói không suy nghĩ.”",
+        "Cây tiêu huyền khẽ rung lá, như mỉm cười tha thứ,",
+        "rồi lại tỏa bóng mát cho họ nghỉ đến chiều.",
+        "Khi lên đường, hai người còn ngoái lại vẫy chào.",
+        "Các bạn nhỏ ạ, nhận lòng tốt của ai, ta đừng quên điều ấy,",
+        "càng đừng chê bai người đã giúp mình."
+      ],
+      "image": {
+        "character": "lu-khach",
+        "prompt": "two travellers bowing politely to a great plane tree, then walking away in the late afternoon and waving back, the tree glowing warmly in golden light",
+        "seed": 560795235
+      },
+      "video": {
+        "motionPrompt": "the travellers bow, the leaves rustle gently like a smile, then the two walk off down the road waving back",
+        "seed": 298202629
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm ancient Greek inspired storybook music, lyre and soft pan flute, a slow heavy walking rhythm in the heat, a cool breezy passage on harp and strings, a gentle grateful ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2649164833
+  }
+}

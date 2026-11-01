@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "slug": "nang-cong-chua-hoa-qua",
+  "shelf": "world",
+  "title": "Nàng công chúa hóa quạ",
+  "summary": "Chỉ vì một lời buột miệng của mẹ, nàng công chúa nhỏ hoá thành con quạ bay vào rừng sâu. Một chàng lữ khách hứa giải phép cho nàng, ngủ quên ba lần, rồi vượt rừng, gặp người khổng lồ, leo núi thuỷ tinh để tìm đến lâu đài vàng. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "anh-hung"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"The Raven\" (Kinder- und Hausmärchen, bản 1857, truyện số 93; bản tiếng Anh của Margaret Hunt trên Project Gutenberg), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể đã làm nhẹ cho cả nhà: người khổng lồ chỉ đói bụng cằn nhằn rồi được mời ăn, và chàng trai khoác áo tàng hình cưỡi ngựa đi thay vì đánh ba tên cướp như bản gốc.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, deep green forests, a shining glass mountain topped by a golden castle, misty blues and warm golds, rounded friendly shapes, magical and gentle mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cong-chua",
+      "name": "Nàng công chúa",
+      "seed": 2206935711,
+      "sheetPrompt": "a gentle young princess from the Grimm tale, long dark hair with a thin golden circlet, soft blue gown, kind sad eyes, a small gold ring on her finger, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-qua",
+      "name": "Con quạ",
+      "seed": 3994022767,
+      "sheetPrompt": "an enchanted glossy black raven from the Grimm tale with gentle intelligent eyes and a tiny golden crown-shaped glint on its head, friendly not scary, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chang-trai",
+      "name": "Chàng lữ khách",
+      "seed": 2893456355,
+      "sheetPrompt": "a brave kind young German traveller from the Grimm tale, wavy brown hair, short beard stubble, green travelling cloak, leather satchel, sturdy boots, determined warm face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-khong-lo",
+      "name": "Người khổng lồ",
+      "seed": 2805025988,
+      "sheetPrompt": "a huge friendly giant from the Grimm tale, big round belly, shaggy red beard, patched leather vest, enormous boots, grumpy but kind-hearted face, comical not scary, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "loi-buot-mieng",
+      "title": "Lời buột miệng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một hoàng hậu sinh được nàng công chúa nhỏ, còn bé lắm, chưa biết đi. Một hôm, cô bé quấy khóc mãi, hoàng hậu dỗ thế nào cũng không nín. Thấy đàn quạ bay quanh lâu đài, hoàng hậu mở cửa sổ, buột miệng than: \"Ước gì con hoá thành con quạ mà bay đi, cho mẹ được yên một lúc!\" Lời vừa dứt, đứa bé trong tay bà đã hoá thành con quạ đen, vỗ cánh bay qua cửa sổ, bay thẳng vào một khu rừng sâu thẳm. Nhà vua và hoàng hậu thương nhớ mà chẳng biết tìm con ở đâu.",
+      "subtitles": [
+        "Ngày xưa, có một hoàng hậu sinh được nàng công chúa nhỏ, còn bé lắm, chưa biết đi.",
+        "Một hôm, cô bé quấy khóc mãi, hoàng hậu dỗ thế nào cũng không nín.",
+        "Thấy đàn quạ bay quanh lâu đài, hoàng hậu mở cửa sổ, buột miệng than:",
+        "\"Ước gì con hoá thành con quạ mà bay đi, cho mẹ được yên một lúc!\"",
+        "Lời vừa dứt, đứa bé trong tay bà đã hoá thành con quạ đen, vỗ cánh bay qua cửa sổ,",
+        "bay thẳng vào một khu rừng sâu thẳm.",
+        "Nhà vua và hoàng hậu thương nhớ mà chẳng biết tìm con ở đâu."
+      ],
+      "image": {
+        "prompt": "a tall castle window, a weary queen holds out her arms as a small black raven flies out over the forest, ravens circling the towers, soft cloudy sky, sad but gentle mood",
+        "seed": 1418111214,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the little raven flaps out of the window and soars toward the dark forest, the queen reaches after it, curtains flutter",
+        "seed": 1197937771
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-nho-cua-qua",
+      "title": "Lời nhờ của con quạ",
+      "narrator": "ke-chuyen",
+      "narration": "Rất lâu sau, có một chàng lữ khách đi qua khu rừng, nghe tiếng quạ kêu, liền lần theo. Con quạ nói: \"Ta vốn là con gái nhà vua, bị phép lạ biến thành quạ. Chàng có thể giải phép cho ta. Hãy vào sâu trong rừng, đến nhà một bà lão. Bà sẽ mời chàng ăn uống, nhưng chớ đụng đến món gì, kẻo chàng sẽ ngủ say. Sau nhà có một đống vỏ cây, chàng hãy đứng đó chờ ta. Ba ngày liền, cứ hai giờ chiều, ta sẽ đi xe ngựa tới. Chỉ cần chàng còn thức là ta được cứu.\" Chàng hứa chắc chắn. Con quạ buồn bã: \"Ta biết rồi chàng vẫn sẽ nhận đồ của bà ấy.\"",
+      "subtitles": [
+        "Rất lâu sau, có một chàng lữ khách đi qua khu rừng, nghe tiếng quạ kêu, liền lần theo.",
+        "Con quạ nói: \"Ta vốn là con gái nhà vua, bị phép lạ biến thành quạ.",
+        "Chàng có thể giải phép cho ta.",
+        "Hãy vào sâu trong rừng, đến nhà một bà lão. Bà sẽ mời chàng ăn uống,",
+        "nhưng chớ đụng đến món gì,",
+        "kẻo chàng sẽ ngủ say. Sau nhà có một đống vỏ cây, chàng hãy đứng đó chờ ta.",
+        "Ba ngày liền, cứ hai giờ chiều, ta sẽ đi xe ngựa tới.",
+        "Chỉ cần chàng còn thức là ta được cứu.\"",
+        "Chàng hứa chắc chắn. Con quạ buồn bã: \"Ta biết rồi chàng vẫn sẽ nhận đồ của bà ấy.\""
+      ],
+      "image": {
+        "prompt": "in a deep green forest the young traveller looks up at a black raven perched on a mossy branch speaking to him, soft beams of light through the trees, magical and calm",
+        "seed": 774283072,
+        "character": "con-qua"
+      },
+      "video": {
+        "motionPrompt": "the raven tilts its head and flutters its wings while speaking, the traveller nods and puts his hand on his heart, light beams shimmer",
+        "seed": 736732056
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-lan-ngu-quen",
+      "title": "Ba lần ngủ quên",
+      "narrator": "ke-chuyen",
+      "narration": "Đến nhà bà lão, chàng một mực từ chối. Bà nài: \"Một ngụm rượu thôi, có đáng gì đâu.\" Chàng nhấp một ngụm, rồi ra đứng trên đống vỏ cây chờ. Bỗng mắt chàng nặng trĩu, chàng ngủ thiếp đi. Đúng hai giờ, cỗ xe bốn ngựa trắng tới. Nàng gọi, lay mãi, chàng vẫn không tỉnh. Ngày thứ hai, chàng lại uống, lại ngủ, cỗ xe bốn ngựa hồng tới rồi lặng lẽ đi. Ngày thứ ba, cỗ xe bốn ngựa đen tới. Nàng buồn lắm, đặt cạnh chàng một ổ bánh mì, ít thịt và một bầu rượu ăn mãi không bao giờ hết, đeo vào tay chàng chiếc nhẫn vàng khắc tên nàng, và để lại một lá thư: \"Nếu chàng còn muốn cứu ta, hãy đến lâu đài vàng Stromberg.\"",
+      "subtitles": [
+        "Đến nhà bà lão, chàng một mực từ chối. Bà nài: \"Một ngụm rượu thôi, có đáng gì đâu.\"",
+        "Chàng nhấp một ngụm, rồi ra đứng trên đống vỏ cây chờ. Bỗng mắt chàng nặng trĩu,",
+        "chàng ngủ thiếp đi.",
+        "Đúng hai giờ, cỗ xe bốn ngựa trắng tới. Nàng gọi, lay mãi, chàng vẫn không tỉnh.",
+        "Ngày thứ hai, chàng lại uống, lại ngủ, cỗ xe bốn ngựa hồng tới rồi lặng lẽ đi.",
+        "Ngày thứ ba, cỗ xe bốn ngựa đen tới. Nàng buồn lắm, đặt cạnh chàng một ổ bánh mì,",
+        "ít thịt và một bầu rượu",
+        "ăn mãi không bao giờ hết, đeo vào tay chàng chiếc nhẫn vàng khắc tên nàng,",
+        "và để lại một lá thư:",
+        "\"Nếu chàng còn muốn cứu ta, hãy đến lâu đài vàng Stromberg.\""
+      ],
+      "image": {
+        "prompt": "in a quiet garden behind a little forest cottage the young traveller sleeps soundly on a heap of tree bark, a sad princess steps down from a carriage drawn by four black horses and slips a gold ring onto his finger, a loaf and a flask beside him",
+        "seed": 1273445200,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the princess gently places the ring and a letter beside the sleeping traveller, the black horses toss their heads, leaves drift slowly",
+        "seed": 3684133141
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-nguoi-khong-lo",
+      "title": "Nhà người khổng lồ",
+      "narrator": "ke-chuyen",
+      "narration": "Tỉnh dậy, đọc thư, chàng hối hận vô cùng và lên đường ngay. Chàng đi mãi, mười bốn ngày trong rừng tối, rồi thấy ánh đèn của một ngôi nhà. Trước cửa có một người khổng lồ. Người khổng lồ ồm ồm: \"Đói quá, đói quá! Lâu lắm rồi ta chẳng có gì bỏ bụng.\" Chàng vội nói: \"Bác đừng lo, tôi có đồ ăn đây, đủ cho bác no.\" Chàng lấy bánh, thịt, rượu ra mời. Người khổng lồ ăn uống thoả thích, mà đồ ăn chẳng vơi đi chút nào.",
+      "subtitles": [
+        "Tỉnh dậy, đọc thư, chàng hối hận vô cùng và lên đường ngay.",
+        "Chàng đi mãi, mười bốn ngày trong rừng tối, rồi thấy ánh đèn của một ngôi nhà.",
+        "Trước cửa có một người khổng lồ.",
+        "Người khổng lồ ồm ồm: \"Đói quá, đói quá! Lâu lắm rồi ta chẳng có gì bỏ bụng.\"",
+        "Chàng vội nói: \"Bác đừng lo, tôi có đồ ăn đây, đủ cho bác no.\" Chàng lấy bánh, thịt, rượu",
+        "ra mời.",
+        "Người khổng lồ ăn uống thoả thích, mà đồ ăn chẳng vơi đi chút nào."
+      ],
+      "image": {
+        "prompt": "outside a cottage at night a huge friendly giant with a red beard sits at a big table happily eating bread and meat that the young traveller offers him from his satchel, lantern light, cosy and comical",
+        "seed": 2788511045,
+        "character": "nguoi-khong-lo"
+      },
+      "video": {
+        "motionPrompt": "the giant munches happily and pats his belly, the traveller pours from his never-empty flask, the lantern glows warmly",
+        "seed": 3162951665
+      },
+      "voice": {}
+    },
+    {
+      "id": "tim-tren-ban-do",
+      "title": "Tìm trên bản đồ",
+      "narrator": "ke-chuyen",
+      "narration": "Ăn xong, chàng hỏi đường đến lâu đài vàng Stromberg. Người khổng lồ lôi ra tấm bản đồ, rồi những tấm bản đồ to hơn, mà chẳng thấy lâu đài ấy đâu. Đến khi người anh của ông đi kiếm đồ ăn về, hai anh em lục cả những tấm bản đồ cũ nhất, mới tìm ra lâu đài, ở xa đến hàng nghìn dặm. Người khổng lồ bảo: \"Ta còn hai giờ rảnh, để ta cõng chàng đi một quãng.\" Ông sải những bước dài, đưa chàng đến gần ngọn núi thuỷ tinh, trên đỉnh có lâu đài vàng.",
+      "subtitles": [
+        "Ăn xong, chàng hỏi đường đến lâu đài vàng Stromberg.",
+        "Người khổng lồ lôi ra tấm bản đồ, rồi những tấm bản đồ to hơn,",
+        "mà chẳng thấy lâu đài ấy đâu.",
+        "Đến khi người anh của ông đi kiếm đồ ăn về, hai anh em lục cả những tấm bản đồ cũ nhất,",
+        "mới tìm ra lâu đài, ở xa đến hàng nghìn dặm.",
+        "Người khổng lồ bảo: \"Ta còn hai giờ rảnh, để ta cõng chàng đi một quãng.\"",
+        "Ông sải những bước dài, đưa chàng đến gần ngọn núi thuỷ tinh, trên đỉnh có lâu đài vàng."
+      ],
+      "image": {
+        "prompt": "two giant brothers and the small traveller pore over huge old maps spread across a giant table by candlelight, then in a corner vignette a giant carries the traveller on his shoulders across hills toward a distant glass mountain",
+        "seed": 3433677552,
+        "character": "nguoi-khong-lo"
+      },
+      "video": {
+        "motionPrompt": "the giants unroll a huge map and point, candlelight flickers, then the giant strides over hills with the traveller on his shoulder",
+        "seed": 1909725427
+      },
+      "voice": {}
+    },
+    {
+      "id": "nui-thuy-tinh",
+      "title": "Núi thuỷ tinh",
+      "narrator": "ke-chuyen",
+      "narration": "Núi thuỷ tinh trơn bóng, chàng leo lên lần nào cũng trượt xuống. Chàng dựng một túp lều dưới chân núi, ngồi chờ suốt một năm, ngày ngày nhìn nàng đi xe quanh lâu đài. Một hôm, chàng thấy ba tên cướp đang cãi nhau ầm ĩ. Một tên có cây gậy gõ cửa nào cửa ấy tự mở, một tên có tấm áo khoác vào thì tàng hình, một tên có con ngựa phi qua được mọi thứ, kể cả núi thuỷ tinh. Chàng nói: \"Cho ta thử xem có thật không đã.\" Chúng đưa chàng cả ba món. Chàng khoác áo, biến mất trước mắt chúng, nhảy lên ngựa phi thẳng lên núi, để mặc ba tên cướp đứng ngơ ngác.",
+      "subtitles": [
+        "Núi thuỷ tinh trơn bóng, chàng leo lên lần nào cũng trượt xuống.",
+        "Chàng dựng một túp lều dưới chân núi, ngồi chờ suốt một năm,",
+        "ngày ngày nhìn nàng đi xe quanh lâu đài.",
+        "Một hôm, chàng thấy ba tên cướp đang cãi nhau ầm ĩ.",
+        "Một tên có cây gậy gõ cửa nào cửa ấy tự mở, một tên có tấm áo khoác vào thì tàng hình,",
+        "một tên có con ngựa phi qua được mọi thứ, kể cả núi thuỷ tinh.",
+        "Chàng nói: \"Cho ta thử xem có thật không đã.\" Chúng đưa chàng cả ba món.",
+        "Chàng khoác áo, biến mất trước mắt chúng, nhảy lên ngựa phi thẳng lên núi,",
+        "để mặc ba tên cướp đứng ngơ ngác."
+      ],
+      "image": {
+        "prompt": "at the foot of a shining slippery glass mountain topped by a golden castle, three scruffy comical robbers argue over a walking stick, a cloak and a white horse, the traveller beside his little hut raising his hand to speak to them",
+        "seed": 3727721824,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the robbers wave their arms and squabble, the glass mountain gleams, the traveller fades from sight and the white horse gallops up the slope",
+        "seed": 2781499377
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-nhan-trong-coc",
+      "title": "Chiếc nhẫn trong cốc",
+      "narrator": "ke-chuyen",
+      "narration": "Đến cổng lâu đài, chàng gõ cây gậy, cổng mở toang. Chàng bước vào phòng nàng công chúa đang ngồi trước một chiếc cốc vàng. Nàng chẳng nhìn thấy chàng. Chàng tháo chiếc nhẫn, thả vào cốc, nghe \"keng\" một tiếng. Nàng reo lên: \"Đây là nhẫn của ta! Vậy người đến cứu ta hẳn đang ở đây!\" Chàng ra cổng, cởi áo tàng hình, ngồi trên lưng ngựa chờ. Nàng chạy ra, thấy chàng thì mừng rỡ khôn xiết. Nàng nói: \"Giờ chàng đã thật sự giải phép cho ta. Ngày mai chúng ta sẽ làm lễ cưới.\"",
+      "subtitles": [
+        "Đến cổng lâu đài, chàng gõ cây gậy, cổng mở toang.",
+        "Chàng bước vào phòng nàng công chúa đang ngồi trước một chiếc cốc vàng.",
+        "Nàng chẳng nhìn thấy chàng.",
+        "Chàng tháo chiếc nhẫn, thả vào cốc, nghe \"keng\" một tiếng.",
+        "Nàng reo lên: \"Đây là nhẫn của ta! Vậy người đến cứu ta hẳn đang ở đây!\"",
+        "Chàng ra cổng, cởi áo tàng hình, ngồi trên lưng ngựa chờ. Nàng chạy ra,",
+        "thấy chàng thì mừng rỡ khôn xiết.",
+        "Nàng nói: \"Giờ chàng đã thật sự giải phép cho ta. Ngày mai chúng ta sẽ làm lễ cưới.\""
+      ],
+      "image": {
+        "prompt": "in a sunlit golden castle hall the princess in a blue gown lifts a golden cup and finds a gold ring inside, her face lighting up with joy, then at the castle gate the traveller waits on a white horse, magical sparkles",
+        "seed": 1959304104,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the ring drops into the cup with a little sparkle, the princess gasps and smiles, golden light fills the hall, slow pull-back to the gate",
+        "seed": 4194187396
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle German romantic fairy-tale music, soft strings and french horn with harp, a mysterious forest theme that turns warm and hopeful, slow tempo, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 3682852259
+  }
+}

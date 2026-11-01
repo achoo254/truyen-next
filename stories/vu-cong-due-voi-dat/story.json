@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "slug": "vu-cong-due-voi-dat",
+  "shelf": "kids",
+  "title": "Vũ Công Duệ và con voi đất",
+  "summary": "Cậu bé Vũ Công Duệ nặn được con voi đất biết vẫy tai, co vòi, bước đi; lại đố người đòi nợ một câu khiến ông phải tha nợ cho cả nhà. Cậu bé tinh nghịch ấy lớn lên đỗ trạng nguyên. Giai thoại về danh nhân Việt Nam, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "anh-hung",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Theo chuyện ông Vũ Công Duệ trong Nam Hải dị nhân liệt truyện của Phan Kế Bính (1909, tác giả mất 1921), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách; chỉ kể thời nhỏ và việc đỗ đạt như sách ghi, câu đố của cậu bé được nói lại bằng lời nhẹ hơn mà giữ nguyên ý (nhổ mạ và cấy lúa).",
+  "basedOn": "Nam Hải dị nhân liệt truyện, Phan Kế Bính (1909)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, old Vietnamese village with rice fields, bamboo hedges and tiled roofs, Le dynasty era, muddy rice paddies and green seedlings, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 4043270608
+    },
+    {
+      "id": "cong-due",
+      "name": "Vũ Công Duệ",
+      "seed": 510416350,
+      "sheetPrompt": "Vu Cong Due as a cheeky clever little Vietnamese village boy of old times, about eight years old, short hair with a tiny tuft, bare feet, simple brown shorts and a light tunic, muddy hands, big mischievous grin, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-doi-no",
+      "name": "Người đòi nợ",
+      "seed": 3741348615,
+      "sheetPrompt": "a lanky comical Vietnamese moneylender of old times, thin face with a little pointed beard, grey robe and black turban, holding an abacus and a cloth bag, puzzled expression, funny not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "voi-dat",
+      "name": "Con voi đất",
+      "seed": 2603390090,
+      "sheetPrompt": "a cute small clay elephant toy shaped from brown mud, two colorful butterflies as its ears, a curling leech as its trunk, four little crabs as its legs, magical and funny, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn có thích nặn đất không? Miu nặn con cá mà ai cũng tưởng là củ khoai, hi hi. Ngày xưa có một cậu bé nặn được con voi đất biết vẫy tai, biết co vòi, lại còn biết bước đi nữa. Cậu bé ấy còn đố được cả người lớn. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Mèo Miu đây.",
+        "Các bạn có thích nặn đất không?",
+        "Miu nặn con cá mà ai cũng tưởng là củ khoai, hi hi.",
+        "Ngày xưa có một cậu bé nặn được con voi đất biết vẫy tai,",
+        "biết co vòi, lại còn biết bước đi nữa.",
+        "Cậu bé ấy còn đố được cả người lớn.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat holds up a lumpy clay fish that looks like a potato, muddy paws, sitting by a rice paddy with a tiny clay elephant walking nearby",
+        "seed": 2364095237,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat holds up her clay creation and giggles, the tiny clay elephant wiggles past, slow camera push-in",
+        "seed": 2474344988
+      },
+      "voice": {}
+    },
+    {
+      "id": "voi-dat-biet-di",
+      "title": "Con voi đất biết đi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở làng Trình Xá, xứ Sơn Tây, có cậu bé tên là Vũ Công Duệ. Một hôm, cha mẹ ra đồng làm ruộng, cậu ở nhà chơi với lũ trẻ trong xóm. Cậu nặn đất thành một con voi. Cậu bắt hai con bươm bướm làm hai tai, cắm một con đỉa làm vòi, lấy bốn con cua làm bốn chân. Thế là con voi đất vẫy được tai, vòi co lên duỗi xuống, bốn chân bước đi lạch bạch. Ai trông thấy cũng tròn mắt ngạc nhiên.",
+      "subtitles": [
+        "Ngày xưa, ở làng Trình Xá, xứ Sơn Tây, có cậu bé tên là Vũ Công Duệ.",
+        "Một hôm, cha mẹ ra đồng làm ruộng, cậu ở nhà chơi với lũ trẻ trong xóm.",
+        "Cậu nặn đất thành một con voi.",
+        "Cậu bắt hai con bươm bướm làm hai tai,",
+        "cắm một con đỉa làm vòi, lấy bốn con cua làm bốn chân.",
+        "Thế là con voi đất vẫy được tai, vòi co lên duỗi xuống, bốn chân bước đi lạch bạch.",
+        "Ai trông thấy cũng tròn mắt ngạc nhiên."
+      ],
+      "image": {
+        "prompt": "a cheeky village boy and a group of laughing children crouch around a little clay elephant with butterfly ears, a leech trunk and crab legs walking on the dirt yard",
+        "seed": 1289473592,
+        "character": "cong-due"
+      },
+      "video": {
+        "motionPrompt": "the clay elephant flaps its butterfly ears and toddles forward, children clap and jump, slow pan",
+        "seed": 2540668823
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-do-la",
+      "title": "Câu đố lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, có người đến nhà đòi nợ. Ông ta hỏi: Bố mày đâu? Cậu đáp: Bố tôi đang đuổi người ta ra khỏi nhà. Mẹ mày đâu? Mẹ tôi đang tìm nhà mới cho người ta. Người đòi nợ ngẩn ra, chẳng hiểu cậu nói gì. Ông gặng hỏi mãi, cậu mới bảo: Ông thưởng thì tôi mới nói.",
+      "subtitles": [
+        "Một hôm, có người đến nhà đòi nợ.",
+        "Ông ta hỏi:",
+        "Bố mày đâu?",
+        "Cậu đáp:",
+        "Bố tôi đang đuổi người ta ra khỏi nhà.",
+        "Mẹ mày đâu?",
+        "Mẹ tôi đang tìm nhà mới cho người ta.",
+        "Người đòi nợ ngẩn ra, chẳng hiểu cậu nói gì.",
+        "Ông gặng hỏi mãi, cậu mới bảo:",
+        "Ông thưởng thì tôi mới nói."
+      ],
+      "image": {
+        "prompt": "a puzzled lanky moneylender scratches his head in front of a small thatched house, the cheeky boy stands at the gate with hands behind his back and a knowing grin",
+        "seed": 1355317846,
+        "character": "nguoi-doi-no"
+      },
+      "video": {
+        "motionPrompt": "the moneylender frowns and taps his abacus, the boy rocks on his heels smiling, a hen pecks by, gentle push-in",
+        "seed": 531254784
+      },
+      "voice": {}
+    },
+    {
+      "id": "dau-tay-tren-dat",
+      "title": "Dấu tay trên hòn đất",
+      "narrator": "ke-chuyen",
+      "narration": "Người kia dỗ: Mày cứ nói thật, tao tha nợ cho nhà mày. Cậu bé cầm sẵn một cục đất dẻo, bảo: Ông in tay vào đây để làm tin. Ông ta cười, in luôn bàn tay vào cục đất. Bấy giờ cậu mới giải: Bố tôi đang nhổ mạ, cây mạ phải rời khỏi luống của nó. Mẹ tôi đang cấy, đưa cây mạ xuống ruộng mới. Người đòi nợ nghe xong, thấy lạ lùng vô cùng, ra về.",
+      "subtitles": [
+        "Người kia dỗ:",
+        "Mày cứ nói thật, tao tha nợ cho nhà mày.",
+        "Cậu bé cầm sẵn một cục đất dẻo, bảo:",
+        "Ông in tay vào đây để làm tin.",
+        "Ông ta cười, in luôn bàn tay vào cục đất.",
+        "Bấy giờ cậu mới giải:",
+        "Bố tôi đang nhổ mạ, cây mạ phải rời khỏi luống của nó.",
+        "Mẹ tôi đang cấy, đưa cây mạ xuống ruộng mới.",
+        "Người đòi nợ nghe xong, thấy lạ lùng vô cùng, ra về."
+      ],
+      "image": {
+        "prompt": "the moneylender presses his hand into a lump of soft clay held by the smiling boy, in the distance parents pull rice seedlings and plant them in a green paddy",
+        "seed": 3420241696,
+        "character": "cong-due"
+      },
+      "video": {
+        "motionPrompt": "the hand presses into the clay leaving a clear print, the boy points toward the paddy, seedlings sway, slow camera pan",
+        "seed": 1252254708
+      },
+      "voice": {}
+    },
+    {
+      "id": "hon-dat-lam-tin",
+      "title": "Hòn đất làm tin",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm khác, người ấy lại đến đòi nợ. Cậu bé chạy vào lấy hòn đất hôm trước ra, giơ lên bảo: Dấu tay ông in vào đây rồi, ông còn đòi gì nữa? Người kia đứng ngẩn mặt ra, chẳng biết nói sao. Ông thấy cậu bé sáng dạ quá, bèn khuyên cha mẹ cậu cho cậu đi học, lại cho luôn món nợ để nhà lấy tiền mua sách cho cậu.",
+      "subtitles": [
+        "Hôm khác, người ấy lại đến đòi nợ.",
+        "Cậu bé chạy vào lấy hòn đất hôm trước ra, giơ lên bảo:",
+        "Dấu tay ông in vào đây rồi, ông còn đòi gì nữa?",
+        "Người kia đứng ngẩn mặt ra, chẳng biết nói sao.",
+        "Ông thấy cậu bé sáng dạ quá, bèn khuyên cha mẹ cậu cho cậu đi học,",
+        "lại cho luôn món nợ để nhà lấy tiền mua sách cho cậu."
+      ],
+      "image": {
+        "prompt": "the boy proudly holds up a dried lump of clay with a handprint, the moneylender stares speechless, the boy's parents look on surprised and then delighted, village gate",
+        "seed": 4030606342,
+        "character": "cong-due"
+      },
+      "video": {
+        "motionPrompt": "the boy raises the clay high, the moneylender's jaw drops then he laughs and pats the boy's head, gentle push-in",
+        "seed": 1172293751
+      },
+      "voice": {}
+    },
+    {
+      "id": "do-trang-nguyen",
+      "title": "Đỗ trạng nguyên",
+      "narrator": "ke-chuyen",
+      "narration": "Từ đó, Công Duệ được đi học. Cậu học rất giỏi, sách nào đọc qua một lượt là thuộc. Năm Hồng Đức thứ hai mươi ba, đời vua Lê Thánh Tông, Vũ Công Duệ ngoài hai mươi tuổi, thi đỗ trạng nguyên. Làm quan, ông ngay thẳng, cương trực, được vua giao chức Đô ngự sử, các quan ai cũng kính nể.",
+      "subtitles": [
+        "Từ đó, Công Duệ được đi học.",
+        "Cậu học rất giỏi, sách nào đọc qua một lượt là thuộc.",
+        "Năm Hồng Đức thứ hai mươi ba, đời vua Lê Thánh Tông,",
+        "Vũ Công Duệ ngoài hai mươi tuổi, thi đỗ trạng nguyên.",
+        "Làm quan, ông ngay thẳng, cương trực,",
+        "được vua giao chức Đô ngự sử, các quan ai cũng kính nể."
+      ],
+      "image": {
+        "prompt": "young Vu Cong Due as a proud new top scholar in a red robe and winged hat rides a horse through cheering villagers holding flower garlands, his happy parents in front",
+        "seed": 3477230374
+      },
+      "video": {
+        "motionPrompt": "villagers wave flowers, the horse trots slowly, the scholar bows to his parents, slow pull-back",
+        "seed": 2909092385
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, cậu bé Công Duệ nghịch mà ngoan, chỉ dùng cái đầu sáng dạ để giúp cha mẹ. Được đi học rồi, cậu học chăm chỉ nên mới đỗ trạng nguyên. Miu cũng sẽ tập nặn lại con cá cho thật giống. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, cậu bé Công Duệ nghịch mà ngoan,",
+        "chỉ dùng cái đầu sáng dạ để giúp cha mẹ.",
+        "Được đi học rồi, cậu học chăm chỉ nên mới đỗ trạng nguyên.",
+        "Miu cũng sẽ tập nặn lại con cá cho thật giống.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye beside a little clay elephant with butterfly ears and a neat clay fish, green rice paddies at sunset",
+        "seed": 3079151143,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the clay elephant flaps its butterfly ears, the sun sets softly, gentle camera pull-back",
+        "seed": 901719369
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful light Vietnamese folk tune for children, bamboo flute and dan bau monochord, soft wooden clappers, cheeky and clever village mood, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3299026166
+  }
+}

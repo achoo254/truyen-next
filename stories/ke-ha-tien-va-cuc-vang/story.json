@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "slug": "ke-ha-tien-va-cuc-vang",
+  "shelf": "world",
+  "title": "Kẻ hà tiện và cục vàng",
+  "summary": "Ông lão hà tiện bán hết của cải đổi lấy cục vàng, chôn ngoài vườn và ngày ngày ra ngắm, cho tới khi vàng bị lấy mất. Ngụ ngôn Aesop về của cải cất giấu mà chẳng dùng vào việc gì.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, a quiet old European village garden with an old stone wall, fruit trees, a small spade and soft morning mist, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ha-tien",
+      "name": "Ông lão hà tiện",
+      "seed": 3176160234,
+      "sheetPrompt": "a thin stooped old miser with a long nose, patched shabby coat and worried beady eyes, clutching something to his chest, comical not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hang-xom",
+      "name": "Bác hàng xóm",
+      "seed": 314152191,
+      "sheetPrompt": "a cheerful plump village neighbour with a round beard, rolled-up sleeves and a friendly wise look, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "doi-vang",
+      "title": "Đổi hết lấy vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một ông lão hà tiện. Ông chẳng tin ai, cũng chẳng muốn tiêu đồng nào. Một hôm, ông bán hết nhà cửa, ruộng vườn, đổi lấy một cục vàng to bằng nắm tay. Đêm ấy, ông lén ra góc vườn sau bức tường cũ, đào một cái hố, chôn cục vàng xuống rồi lấp đất thật kỹ. Ông xoa tay, mỉm cười: “Ở đây thì chẳng ai biết.”",
+      "subtitles": [
+        "Ngày xưa, có một ông lão hà tiện.",
+        "Ông chẳng tin ai, cũng chẳng muốn tiêu đồng nào.",
+        "Một hôm, ông bán hết nhà cửa, ruộng vườn, đổi lấy một cục vàng to bằng nắm tay.",
+        "Đêm ấy, ông lén ra góc vườn sau bức tường cũ, đào một cái hố,",
+        "chôn cục vàng xuống rồi lấp đất thật kỹ.",
+        "Ông xoa tay, mỉm cười: “Ở đây thì chẳng ai biết.”"
+      ],
+      "image": {
+        "character": "ha-tien",
+        "prompt": "a stooped old miser in a patched coat secretly burying a shining lump of gold in a corner of a garden beside an old stone wall, moonlight and a small lantern",
+        "seed": 3854701999
+      },
+      "video": {
+        "motionPrompt": "the old man glances around, lowers the gold into the hole and pats the earth flat, the lantern glow flickers",
+        "seed": 4131149883
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngam-vang",
+      "title": "Ngày nào cũng ra ngắm",
+      "narrator": "ke-chuyen",
+      "narration": "Từ hôm đó, sáng nào ông lão cũng ra góc vườn. Ông bới đất lên, ngắm nghía cục vàng lấp lánh, rồi lại chôn xuống. Ông ăn uống kham khổ, áo quần vá chằng vá đụp, nhưng lòng thấy vui khi nhìn cục vàng. Có điều, một anh thợ làm vườn gần đó để ý thấy ông lão ngày nào cũng lom khom ở góc tường, bèn lấy làm lạ.",
+      "subtitles": [
+        "Từ hôm đó, sáng nào ông lão cũng ra góc vườn.",
+        "Ông bới đất lên, ngắm nghía cục vàng lấp lánh, rồi lại chôn xuống.",
+        "Ông ăn uống kham khổ, áo quần vá chằng vá đụp, nhưng lòng thấy vui khi nhìn cục vàng.",
+        "Có điều, một anh thợ làm vườn gần đó để ý thấy ông lão ngày nào cũng lom khom ở góc",
+        "tường, bèn lấy làm lạ."
+      ],
+      "image": {
+        "character": "ha-tien",
+        "prompt": "an old miser kneeling by the garden wall gazing lovingly at a gleaming lump of gold, a curious young gardener peeking over a hedge in the background",
+        "seed": 177361021
+      },
+      "video": {
+        "motionPrompt": "the old man brushes the soil away and admires the gold, the young gardener rises behind the hedge to look, morning mist drifts",
+        "seed": 2308741297
+      },
+      "voice": {}
+    },
+    {
+      "id": "mat-vang",
+      "title": "Cục vàng biến mất",
+      "narrator": "ke-chuyen",
+      "narration": "Một đêm, anh thợ tò mò lẻn tới chỗ ấy, đào lên, thấy cục vàng sáng chói. Anh mang nó đi mất, chẳng bao giờ quay lại nữa. Sáng hôm sau, ông lão ra vườn như mọi ngày, chỉ thấy một cái hố trống trơn. Ông ngồi bệt xuống đất, vò đầu bứt tóc, khóc lóc kêu than ầm ĩ: “Vàng của tôi! Ai lấy mất vàng của tôi rồi!”",
+      "subtitles": [
+        "Một đêm, anh thợ tò mò lẻn tới chỗ ấy, đào lên, thấy cục vàng sáng chói.",
+        "Anh mang nó đi mất, chẳng bao giờ quay lại nữa.",
+        "Sáng hôm sau, ông lão ra vườn như mọi ngày, chỉ thấy một cái hố trống trơn.",
+        "Ông ngồi bệt xuống đất, vò đầu bứt tóc, khóc lóc kêu than ầm ĩ: “Vàng của tôi!",
+        "Ai lấy mất vàng của tôi rồi!”"
+      ],
+      "image": {
+        "character": "ha-tien",
+        "prompt": "an old miser sitting on the ground beside an empty hole in the garden, hands on his head in comic despair, a spade lying nearby, morning light",
+        "seed": 2409104032
+      },
+      "video": {
+        "motionPrompt": "the old man stares into the empty hole, throws up his hands and wails, a few sparrows flutter off the wall",
+        "seed": 1914149454
+      },
+      "voice": {}
+    },
+    {
+      "id": "hang-xom",
+      "title": "Lời người hàng xóm",
+      "narrator": "ke-chuyen",
+      "narration": "Người hàng xóm nghe tiếng kêu, chạy sang hỏi chuyện. Nghe ông lão kể xong, bác ấy hỏi: “Thế bấy lâu nay, ông đã dùng cục vàng ấy để làm gì?” Ông lão sụt sịt: “Tôi có dùng gì đâu. Tôi chỉ ngày ngày ra ngắm nó thôi.” Người hàng xóm nhặt một hòn đá ven đường, đặt vào tay ông lão.",
+      "subtitles": [
+        "Người hàng xóm nghe tiếng kêu, chạy sang hỏi chuyện.",
+        "Nghe ông lão kể xong, bác ấy hỏi: “Thế bấy lâu nay, ông đã dùng cục vàng ấy để làm gì?”",
+        "Ông lão sụt sịt: “Tôi có dùng gì đâu.",
+        "Tôi chỉ ngày ngày ra ngắm nó thôi.”",
+        "Người hàng xóm nhặt một hòn đá ven đường, đặt vào tay ông lão."
+      ],
+      "image": {
+        "character": "hang-xom",
+        "prompt": "a cheerful bearded neighbour placing an ordinary grey stone into the hands of a tearful old miser beside the garden wall",
+        "seed": 67658325
+      },
+      "video": {
+        "motionPrompt": "the neighbour leans over the wall, picks up a stone and places it gently in the old man's palm, the old man sniffles",
+        "seed": 1587446074
+      },
+      "voice": {}
+    },
+    {
+      "id": "hon-da",
+      "title": "Hòn đá thay vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Bác ấy nói: “Vậy ông cứ chôn hòn đá này xuống hố, rồi ngày ngày ra ngắm, coi như nó là vàng. Với ông, hòn đá cũng có ích y như cục vàng kia thôi.” Ông lão ngẩn người, nhìn hòn đá hồi lâu, rồi lặng lẽ cúi đầu. Lần đầu tiên, ông hiểu rằng của cải cất giấu mà chẳng dùng vào việc gì thì cũng như không có. Các bạn nhỏ ạ, của cải chỉ quý khi ta biết dùng nó vào việc có ích.",
+      "subtitles": [
+        "Bác ấy nói: “Vậy ông cứ chôn hòn đá này xuống hố, rồi ngày ngày ra ngắm,",
+        "coi như nó là vàng.",
+        "Với ông, hòn đá cũng có ích y như cục vàng kia thôi.”",
+        "Ông lão ngẩn người, nhìn hòn đá hồi lâu, rồi lặng lẽ cúi đầu.",
+        "Lần đầu tiên, ông hiểu rằng của cải cất giấu mà chẳng dùng vào việc gì thì cũng như",
+        "không có.",
+        "Các bạn nhỏ ạ, của cải chỉ quý khi ta biết dùng nó vào việc có ích."
+      ],
+      "image": {
+        "character": "ha-tien",
+        "prompt": "a thoughtful old miser gazing at a plain grey stone in his hand, the friendly neighbour beside him, soft golden afternoon light over the garden",
+        "seed": 1787750497
+      },
+      "video": {
+        "motionPrompt": "the old man turns the stone slowly in his hand and lowers his head thoughtfully, leaves drift down from the fruit tree",
+        "seed": 599493971
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "quiet old European village storybook music, solo clarinet and soft harpsichord, a tiptoeing secretive motif, a sad little wobble on oboe, then a calm reflective ending on strings, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2852343462
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "slug": "cua-me-va-cua-con",
+  "shelf": "world",
+  "title": "Cua mẹ và cua con",
+  "summary": "Cua mẹ chê con đi ngang, bảo con phải đi thẳng, nhưng khi tự đi làm mẫu thì chính mẹ cũng đi ngang. Ngụ ngôn Aesop vui về việc muốn dạy ai thì phải làm gương trước.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, a sunny sandy beach at low tide with rock pools, seashells, small rocks and gentle waves, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cua-me",
+      "name": "Cua mẹ",
+      "seed": 3607005661,
+      "sheetPrompt": "a plump orange-brown mother crab with big claws, round stalk eyes and a proud motherly expression, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cua-con",
+      "name": "Cua con",
+      "seed": 2274079044,
+      "sheetPrompt": "a tiny orange-brown baby crab with small claws, big round stalk eyes and an innocent curious face, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "bai-cat",
+      "title": "Trên bãi cát",
+      "narrator": "ke-chuyen",
+      "narration": "Ở một bãi biển đầy nắng, có một chị cua mẹ sống cùng cua con trong cái hang nhỏ dưới tảng đá. Mỗi sớm, khi nước triều rút, hai mẹ con lại bò ra bãi cát ướt tìm thức ăn. Cua con lạch bạch đi trước, cua mẹ theo sau, chăm chú nhìn con. Nhìn mãi, cua mẹ bỗng nhíu mày, thấy có điều không vừa ý.",
+      "subtitles": [
+        "Ở một bãi biển đầy nắng, có một chị cua mẹ sống cùng cua con trong cái hang nhỏ dưới",
+        "tảng đá.",
+        "Mỗi sớm, khi nước triều rút, hai mẹ con lại bò ra bãi cát ướt tìm thức ăn.",
+        "Cua con lạch bạch đi trước, cua mẹ theo sau, chăm chú nhìn con.",
+        "Nhìn mãi, cua mẹ bỗng nhíu mày, thấy có điều không vừa ý."
+      ],
+      "image": {
+        "character": "cua-me",
+        "prompt": "a mother crab and a tiny baby crab coming out from under a rock onto wet sand at low tide, morning sun, little rock pools around",
+        "seed": 2130671358
+      },
+      "video": {
+        "motionPrompt": "the baby crab scuttles ahead across the wet sand, the mother crab follows and tilts her eyes, small waves roll in gently",
+        "seed": 2545357715
+      },
+      "voice": {}
+    },
+    {
+      "id": "di-ngang",
+      "title": "Sao con đi ngang",
+      "narrator": "ke-chuyen",
+      "narration": "Cua mẹ gọi: “Con ơi, sao con cứ đi ngang thế kia? Đi như vậy trông chẳng đẹp chút nào. Con phải đi thẳng về phía trước, như những con vật khác chứ!” Cua con dừng lại, ngơ ngác nhìn mẹ. Nó thử quay người, bước một bước, rồi hai bước. Nhưng đôi chân cứ tự động đưa nó trượt sang một bên, y như cũ.",
+      "subtitles": [
+        "Cua mẹ gọi: “Con ơi, sao con cứ đi ngang thế kia?",
+        "Đi như vậy trông chẳng đẹp chút nào.",
+        "Con phải đi thẳng về phía trước, như những con vật khác chứ!”",
+        "Cua con dừng lại, ngơ ngác nhìn mẹ.",
+        "Nó thử quay người, bước một bước, rồi hai bước.",
+        "Nhưng đôi chân cứ tự động đưa nó trượt sang một bên, y như cũ."
+      ],
+      "image": {
+        "character": "cua-con",
+        "prompt": "a puzzled tiny baby crab trying to walk forward but sliding sideways on the sand, the mother crab pointing ahead with one claw",
+        "seed": 2512846264
+      },
+      "video": {
+        "motionPrompt": "the baby crab tries to step forward but drifts sideways again, its eyes wobble in confusion, the mother crab waves a claw",
+        "seed": 3557896610
+      },
+      "voice": {}
+    },
+    {
+      "id": "me-lam-mau",
+      "title": "Mẹ đi làm mẫu",
+      "narrator": "ke-chuyen",
+      "narration": "Cua con cố mãi mà không được, bèn ngoan ngoãn nói: “Mẹ ơi, con muốn học đi cho đẹp lắm. Mẹ đi thẳng trước cho con xem, rồi con sẽ đi theo đúng như mẹ.” Cua mẹ ưỡn ngực, giơ đôi càng lên thật oai: “Được, con nhìn cho kỹ nhé!” Mấy chú dã tràng gần đó cũng tò mò bò lại xem.",
+      "subtitles": [
+        "Cua con cố mãi mà không được, bèn ngoan ngoãn nói: “Mẹ ơi, con muốn học đi cho đẹp lắm.",
+        "Mẹ đi thẳng trước cho con xem, rồi con sẽ đi theo đúng như mẹ.”",
+        "Cua mẹ ưỡn ngực, giơ đôi càng lên thật oai: “Được, con nhìn cho kỹ nhé!”",
+        "Mấy chú dã tràng gần đó cũng tò mò bò lại xem."
+      ],
+      "image": {
+        "character": "cua-me",
+        "prompt": "a proud mother crab raising both claws importantly, the baby crab watching eagerly, a few tiny sand crabs gathering curiously to watch",
+        "seed": 2373367056
+      },
+      "video": {
+        "motionPrompt": "the mother crab puffs up and raises her claws, the little sand crabs creep closer, a seagull lands in the distance",
+        "seed": 1830730418
+      },
+      "voice": {}
+    },
+    {
+      "id": "me-cung-di-ngang",
+      "title": "Mẹ cũng đi ngang",
+      "narrator": "ke-chuyen",
+      "narration": "Cua mẹ nhấc chân, bước đi thật trang trọng. Nhưng than ôi, một bước, hai bước, ba bước, cua mẹ cũng trượt ngang sang bên, y hệt cua con. Mẹ thử lại lần nữa, rồi lần nữa, lần nào cũng thế. Mấy chú dã tràng bụm miệng cười khúc khích. Cua mẹ đứng lặng, đôi mắt nhỏ chớp chớp, ngượng ngùng chẳng nói nên lời.",
+      "subtitles": [
+        "Cua mẹ nhấc chân, bước đi thật trang trọng.",
+        "Nhưng than ôi, một bước, hai bước, ba bước, cua mẹ cũng trượt ngang sang bên,",
+        "y hệt cua con.",
+        "Mẹ thử lại lần nữa, rồi lần nữa, lần nào cũng thế.",
+        "Mấy chú dã tràng bụm miệng cười khúc khích.",
+        "Cua mẹ đứng lặng, đôi mắt nhỏ chớp chớp, ngượng ngùng chẳng nói nên lời."
+      ],
+      "image": {
+        "character": "cua-me",
+        "prompt": "a flustered mother crab walking sideways across the sand despite herself, little sand crabs giggling behind their claws, the baby crab watching wide-eyed",
+        "seed": 1454797122
+      },
+      "video": {
+        "motionPrompt": "the mother crab marches but slides sideways each time, the little crabs shake with giggles, she blinks in embarrassment",
+        "seed": 2126406718
+      },
+      "voice": {}
+    },
+    {
+      "id": "lam-guong",
+      "title": "Làm gương trước đã",
+      "narrator": "ke-chuyen",
+      "narration": "Một lúc sau, cua mẹ bật cười, ôm con vào lòng: “Con ạ, mẹ sai rồi. Loài cua mình vốn đi ngang, mẹ cũng chẳng đi thẳng được. Muốn dạy con điều gì, mẹ phải làm được điều đó trước đã.” Rồi hai mẹ con lại cùng nhau đi ngang trên bãi cát, vui vẻ như chưa từng có gì. Các bạn nhỏ ạ, khuyên người khác bằng lời chẳng bằng làm gương bằng việc làm.",
+      "subtitles": [
+        "Một lúc sau, cua mẹ bật cười, ôm con vào lòng: “Con ạ, mẹ sai rồi.",
+        "Loài cua mình vốn đi ngang, mẹ cũng chẳng đi thẳng được.",
+        "Muốn dạy con điều gì, mẹ phải làm được điều đó trước đã.”",
+        "Rồi hai mẹ con lại cùng nhau đi ngang trên bãi cát, vui vẻ như chưa từng có gì.",
+        "Các bạn nhỏ ạ, khuyên người khác bằng lời chẳng bằng làm gương bằng việc làm."
+      ],
+      "image": {
+        "character": "cua-con",
+        "prompt": "a mother crab hugging her baby crab with her claws, then the two walking sideways side by side along the shore at golden sunset",
+        "seed": 1323188144
+      },
+      "video": {
+        "motionPrompt": "the mother crab hugs her baby, then both scuttle sideways together along the shoreline, the sunset glitters on the waves",
+        "seed": 793696678
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "cheerful seaside storybook music, ukulele-like plucked strings and soft marimba, a sideways shuffling motif on pizzicato, gentle wave sounds in the harmony, a warm hugging ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2318239906
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "slug": "thay-do-day-cay-bat",
+  "shelf": "kids",
+  "title": "Thầy đồ dạy cây Bất",
+  "summary": "Không hiểu chữ trong sách, ông thầy đồ dốt dạy học trò là ông Phàm, ông Huấn, ông Mông và cây Bất ở tận Biển Đông. Chị hàng xóm nghe thấy, bèn hát ru con một câu khiến ai cũng bật cười. Truyện cười dân gian Việt Nam, kể vui cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Theo truyện cười dân gian \"Thầy đồ dốt\" trong Tiếu lâm An Nam của Phạm Duy Tốn (1912, tác giả mất 1924), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Lời Mèo Miu mở đầu và kết, đoạn giải thích chữ và cảnh lớp học là tình tiết thêm để dẫn dắt; tiếng cười của lũ trẻ và vẻ ngượng của ông thầy ở cuối cũng là chi tiết thêm; câu hát ru là câu ca dân gian ghi trong sách, câu chuyện chính giữ đúng như sách.",
+  "basedOn": "Tiếu lâm An Nam, Phạm Duy Tốn (1912)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded comical friendly shapes, playful and safe mood for young children, old Vietnamese village with bamboo hedges, thatched roofs and rice fields, old village classroom with low wooden desks, ink brushes and paper books, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 4043270608
+    },
+    {
+      "id": "thay-do",
+      "name": "Ông thầy đồ dốt",
+      "seed": 2348836169,
+      "sheetPrompt": "a pompous comical old Vietnamese village teacher of old times, round glasses perched on his nose, long thin grey beard, faded black robe and turban, holding a book and a thin bamboo pointer, funny not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoc-tro",
+      "name": "Lũ học trò",
+      "seed": 4026818789,
+      "sheetPrompt": "a group of three cute little Vietnamese village schoolchildren of old times, small topknots, simple light tunics, sitting cross-legged with paper books, curious faces, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chi-hang-xom",
+      "name": "Chị hàng xóm",
+      "seed": 2882920219,
+      "sheetPrompt": "a kind clever young Vietnamese village mother of old times, black hair in a head wrap, simple brown ao tu than dress, rocking a baby in a hammock, a gentle knowing smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Khi gặp một chữ khó mà mình không biết, các bạn làm thế nào? Miu thì đi hỏi cô giáo, hoặc tra sách. Nhưng ngày xưa có một ông thầy đồ gặp chữ không biết, lại cứ đoán bừa rồi dạy luôn cho học trò. Chuyện buồn cười lắm. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Mèo Miu đây.",
+        "Khi gặp một chữ khó mà mình không biết, các bạn làm thế nào?",
+        "Miu thì đi hỏi cô giáo, hoặc tra sách.",
+        "Nhưng ngày xưa có một ông thầy đồ gặp chữ không biết,",
+        "lại cứ đoán bừa rồi dạy luôn cho học trò.",
+        "Chuyện buồn cười lắm.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits at a little desk with a big open book, scratching her head at a tricky ink character, a friendly owl teacher nearby, cozy old Vietnamese classroom",
+        "seed": 1225745920,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat tilts her head at the book, the owl points a wing at the page, slow camera push-in",
+        "seed": 1603175316
+      },
+      "voice": {}
+    },
+    {
+      "id": "lop-hoc",
+      "title": "Lớp học của thầy đồ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng nọ có ông thầy đồ mở lớp dạy chữ Hán cho trẻ con. Ông ăn mặc ra dáng lắm, giọng nói oang oang, nhưng thật ra ông chẳng học hành đến nơi đến chốn, nhiều chữ ông không hiểu nghĩa. Gặp chữ khó, ông chẳng chịu tra sách, cũng chẳng chịu hỏi ai, cứ đoán bừa rồi dạy. Lũ trẻ thì ngoan, thầy dạy gì nhớ nấy, về nhà còn đọc to cho cả nhà nghe.",
+      "subtitles": [
+        "Ngày xưa, ở một làng nọ có ông thầy đồ mở lớp dạy chữ Hán cho trẻ con.",
+        "Ông ăn mặc ra dáng lắm, giọng nói oang oang,",
+        "nhưng thật ra ông chẳng học hành đến nơi đến chốn, nhiều chữ ông không hiểu nghĩa.",
+        "Gặp chữ khó, ông chẳng chịu tra sách, cũng chẳng chịu hỏi ai, cứ đoán bừa rồi dạy.",
+        "Lũ trẻ thì ngoan, thầy dạy gì nhớ nấy, về nhà còn đọc to cho cả nhà nghe."
+      ],
+      "image": {
+        "prompt": "a pompous old village teacher with round glasses sits on a raised mat holding a book, little schoolchildren sit in rows at low wooden desks reading aloud, thatched classroom",
+        "seed": 3700187246,
+        "character": "thay-do"
+      },
+      "video": {
+        "motionPrompt": "the teacher nods importantly, the children sway as they read aloud, sunlight moves across the desks, slow pan",
+        "seed": 1886636925
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-pham-ong-huan",
+      "title": "Ông Phàm, ông Huấn, ông Mông",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm ấy, lớp học sách Tam tự kinh, đến câu phàm huấn mông. Câu ấy có nghĩa là phàm việc dạy trẻ nhỏ. Nhưng ông thầy không biết, cứ dạy: Phàm là ông Phàm, huấn là ông Huấn, mông là ông Mông! Lũ trẻ ngây thơ, cứ thế đọc theo: Ông Phàm, ông Huấn, ông Mông!",
+      "subtitles": [
+        "Hôm ấy, lớp học sách Tam tự kinh, đến câu phàm huấn mông.",
+        "Câu ấy có nghĩa là phàm việc dạy trẻ nhỏ.",
+        "Nhưng ông thầy không biết, cứ dạy:",
+        "Phàm là ông Phàm, huấn là ông Huấn, mông là ông Mông!",
+        "Lũ trẻ ngây thơ, cứ thế đọc theo:",
+        "Ông Phàm, ông Huấn, ông Mông!"
+      ],
+      "image": {
+        "prompt": "the teacher points his bamboo pointer at three ink characters as if they were three funny old men, the children repeat loudly with wide open mouths, playful classroom",
+        "seed": 4023043898,
+        "character": "hoc-tro"
+      },
+      "video": {
+        "motionPrompt": "the pointer taps each character, the children chant along with bobbing heads, gentle push-in",
+        "seed": 1873273762
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-bat",
+      "title": "Cây Bất ở đâu",
+      "narrator": "ke-chuyen",
+      "narration": "Sang sách khác, gặp chữ bôi, nghĩa là cái chén. Chữ ấy có chữ mộc, là cây, đứng bên cạnh chữ bất. Ông thầy nhìn thấy chữ mộc, bèn dạy: Bất là cây Bất! Một cậu học trò giơ tay hỏi: Thưa thầy, cây Bất trông thế nào ạ?",
+      "subtitles": [
+        "Sang sách khác, gặp chữ bôi, nghĩa là cái chén.",
+        "Chữ ấy có chữ mộc, là cây, đứng bên cạnh chữ bất.",
+        "Ông thầy nhìn thấy chữ mộc, bèn dạy:",
+        "Bất là cây Bất!",
+        "Một cậu học trò giơ tay hỏi:",
+        "Thưa thầy, cây Bất trông thế nào ạ?"
+      ],
+      "image": {
+        "prompt": "a curious little student raises his hand high, the teacher holds up a book showing an ink character shaped like a little tree beside another character, puzzled children around",
+        "seed": 1063834750,
+        "character": "hoc-tro"
+      },
+      "video": {
+        "motionPrompt": "the student waves his hand eagerly, the teacher's eyebrows jump up, a bird hops on the window sill, slow push-in",
+        "seed": 36238823
+      },
+      "voice": {}
+    },
+    {
+      "id": "bien-dong",
+      "title": "Cây Bất ngoài Biển Đông",
+      "narrator": "ke-chuyen",
+      "narration": "Ông thầy lúng túng, nhưng không chịu nhận là mình không biết. Ông nạt to cho át đi: Cây Bất mọc tận ngoài Biển Đông kia, chúng bay biết thế nào được! Lũ trẻ im thin thít, chẳng ai dám hỏi thêm câu nào, nhưng đứa nào cũng thắc mắc, không biết Biển Đông xa thế nào mà cây lại mọc tận ngoài ấy.",
+      "subtitles": [
+        "Ông thầy lúng túng, nhưng không chịu nhận là mình không biết.",
+        "Ông nạt to cho át đi:",
+        "Cây Bất mọc tận ngoài Biển Đông kia, chúng bay biết thế nào được!",
+        "Lũ trẻ im thin thít, chẳng ai dám hỏi thêm câu nào, nhưng đứa nào cũng thắc mắc,",
+        "không biết Biển Đông xa thế nào mà cây lại mọc tận ngoài ấy."
+      ],
+      "image": {
+        "prompt": "the flustered teacher waves his arms toward the window as if pointing to a faraway sea, a dreamy bubble shows a silly imaginary tree on a tiny island in the ocean, children blink in silence",
+        "seed": 1758929586,
+        "character": "thay-do"
+      },
+      "video": {
+        "motionPrompt": "the teacher flaps his arms dramatically, the dream bubble wobbles with waves around the silly tree, gentle camera drift",
+        "seed": 1642695136
+      },
+      "voice": {}
+    },
+    {
+      "id": "hat-ru",
+      "title": "Câu hát ru",
+      "narrator": "ke-chuyen",
+      "narration": "Cạnh trường có một chị hàng xóm biết chữ. Chị nghe ông đồ dạy sai, bèn vừa đưa võng ru con, vừa cất giọng hát thật to: Ai trồng cây Bất Biển Đông? Hay là ông Huấn, ông Mông, ông Phàm! Lũ trẻ nghe thấy, khúc khích cười, còn ông thầy đồ thì đỏ mặt tía tai, chẳng biết trốn vào đâu.",
+      "subtitles": [
+        "Cạnh trường có một chị hàng xóm biết chữ.",
+        "Chị nghe ông đồ dạy sai, bèn vừa đưa võng ru con, vừa cất giọng hát thật to:",
+        "Ai trồng cây Bất Biển Đông?",
+        "Hay là ông Huấn, ông Mông, ông Phàm!",
+        "Lũ trẻ nghe thấy, khúc khích cười,",
+        "còn ông thầy đồ thì đỏ mặt tía tai, chẳng biết trốn vào đâu."
+      ],
+      "image": {
+        "prompt": "next to the school a kind young mother rocks a baby in a hammock and sings with a knowing smile, through the window the teacher turns red and hides behind his book, children giggle",
+        "seed": 3757931985,
+        "character": "chi-hang-xom"
+      },
+      "video": {
+        "motionPrompt": "the hammock swings gently, the mother sings, the teacher slowly raises the book to cover his red face, slow pull-back",
+        "seed": 1590854169
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, ông thầy đồ không biết mà cứ làm như biết, nên mới bị cả làng cười. Không biết thì mình nói là không biết, rồi đi hỏi, đi học. Như thế chẳng có gì phải xấu hổ cả. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, ông thầy đồ không biết mà cứ làm như biết, nên mới bị cả làng cười.",
+        "Không biết thì mình nói là không biết, rồi đi hỏi, đi học.",
+        "Như thế chẳng có gì phải xấu hổ cả.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye sitting on an open book beside a small tea cup and a little potted tree, old village classroom at sunset",
+        "seed": 982076017,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the little tree's leaves flutter, golden light fills the classroom, gentle camera pull-back",
+        "seed": 985578093
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light funny Vietnamese folk tune for children, bamboo flute and dan bau monochord, gentle lullaby phrases mixed with playful plucks, village school mood, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4065855940
+  }
+}
