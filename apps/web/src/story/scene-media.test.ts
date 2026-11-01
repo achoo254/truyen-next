@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { pilotStory } from './pilot-story.test-support';
-import { preloadAfter, sceneMedia, storyFileUrl, storyHasNoMedia } from './scene-media';
+import { preloadAfter, sceneMedia, storyFileUrl, storyHasNoMedia, storyHasVoice } from './scene-media';
 
 const pilot = pilotStory;
 
@@ -8,6 +8,7 @@ describe('scene media', () => {
   it('has no media for the pilot yet, so nothing is fetched', () => {
     const story = pilot();
     expect(storyHasNoMedia(story)).toBe(true);
+    expect(storyHasVoice(story)).toBe(false);
     expect(story.scenes.map((scene) => sceneMedia(story.slug, scene))).toEqual(story.scenes.map(() => ({})));
     expect(preloadAfter(story, 0)).toEqual([]);
   });
@@ -19,6 +20,7 @@ describe('scene media', () => {
     );
     const withMedia = { ...story, scenes };
     expect(storyHasNoMedia(withMedia)).toBe(false);
+    expect(storyHasVoice(withMedia)).toBe(true);
     expect(preloadAfter(withMedia, 0)).toEqual(['/stories/son-tinh-thuy-tinh/media/scenes/vua-va-cong-chua.webp']);
     expect(preloadAfter(withMedia, 1)).toEqual([]);
     expect(preloadAfter(withMedia, story.scenes.length - 1)).toEqual([]);

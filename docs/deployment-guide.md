@@ -4,8 +4,10 @@ Runbook deploy của repo này. Quy tắc chung của hệ sinh thái (tên, bra
 `docs/ecosystem-architecture.md` của workspace `hoandat-app`. Repo public: không ghi IP, cổng SSH hay user máy chủ
 vào đây; dùng alias SSH (`SSH_TARGET`) và placeholder như `<SERVER_65_IP>`, `<SSH_PORT>`.
 
-**Trạng thái: đang chạy nhưng chưa quảng bá.** Site mở được nhưng báo máy tìm kiếm không lập chỉ mục (mục
-[Chưa quảng bá](#chưa-quảng-bá-và-cách-ra-mắt)); không app nào trỏ link tới đây, chưa gửi sitemap.
+**Trạng thái: đã ra mắt bản đọc chữ (01/11/2026).** Máy tìm kiếm được lập chỉ mục, `robots.txt` trỏ tới
+`sitemap.xml`, trang mỗi truyện có nguyên lời truyện trong HTML. Tranh, giọng kể và nhạc chưa có (chờ PC); truyện chưa
+có giọng thì nút ghi "Đọc truyện", có giọng thì tự đổi lại "Nghe truyện". Công tắc ở mục
+[Chưa quảng bá và cách ra mắt](#chưa-quảng-bá-và-cách-ra-mắt).
 
 ## Kiến trúc chạy
 
@@ -89,8 +91,8 @@ Không cần reload nginx. Gỡ hẳn app: xoá `/etc/nginx/conf.d/truyen.hoanda
 
 ## Chưa quảng bá và cách ra mắt
 
-Một công tắc duy nhất: `INDEXABLE` trong [`apps/web/site-indexing.ts`](../apps/web/site-indexing.ts). Khi là
-`false` (hiện tại), bản build có cả ba tín hiệu:
+Một công tắc duy nhất: `INDEXABLE` trong [`apps/web/site-indexing.ts`](../apps/web/site-indexing.ts) (đang là `true`
+từ 01/11/2026). Khi là `false`, bản build có cả ba tín hiệu:
 
 | Tín hiệu | Từ đâu |
 |---|---|

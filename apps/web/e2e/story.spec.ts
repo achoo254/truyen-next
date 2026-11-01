@@ -135,14 +135,17 @@ test('the home page shows the children\'s shelf first, then the adults\' shelf',
   expect(consoleErrors).toEqual([]);
 });
 
-test('each story answers with its own prerendered page, still kept out of search engines', async ({ request }) => {
+test('each story answers with its own prerendered page, the whole tale in it, open to search engines', async ({ request }) => {
   const response = await request.get('/truyen/tam-cam');
   expect(response.status()).toBe(200);
   const html = await response.text();
   expect(html).toContain('<title>Tấm Cám · ');
   expect(html).toContain('<h1 lang="vi">Tấm Cám</h1>');
   expect(html).toContain('"@type":"CreativeWork"');
-  expect(html).toContain('<meta name="robots" content="noindex, nofollow" />');
+  expect(html).toContain('<article lang="vi"><p>');
+  expect(html).not.toContain('name="robots"');
+  expect(response.headers()['x-robots-tag']).toBeUndefined();
+  expect(await (await request.get('/robots.txt')).text()).toContain('Sitemap: ');
   const shelf = await (await request.get('/tre-em')).text();
   expect(shelf).toContain('href="/truyen/son-tinh-thuy-tinh"');
   expect(shelf).not.toContain('href="/truyen/su-tich-ho-guom"');

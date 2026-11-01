@@ -23,6 +23,11 @@ export function storyHasNoMedia(story: Story): boolean {
   return story.music.file === undefined && story.scenes.every((scene) => Object.keys(sceneMedia(story.slug, scene)).length === 0);
 }
 
+/** True when the story can be heard: a whole recording, or a recorded voice on some scene. */
+export function storyHasVoice(story: Story): boolean {
+  return story.track !== undefined || story.scenes.some((scene) => scene.voice.file !== undefined);
+}
+
 /**
  * Progressive loading: only the scene on screen mounts its media; the next scene's still is fetched ahead so the
  * cut is instant. Its motion and voice load when it starts (they are larger, and the reader may stop before).

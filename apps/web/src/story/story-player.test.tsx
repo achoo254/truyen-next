@@ -97,7 +97,7 @@ describe('story player without media', () => {
     expect(q('story-subtitle-line').textContent).toBe(story.scenes[1]?.subtitles[0]);
   });
 
-  it('ends after the last scene and plays again from the first', () => {
+  it('ends after the last scene and, with no voice yet, offers to read it again from the first', () => {
     const story = pilot();
     show(story);
     for (let i = 0; i < story.scenes.length - 1; i += 1) fireEvent.click(q('story-next'));
@@ -107,7 +107,7 @@ describe('story player without media', () => {
     expect(q('story-scene-number').textContent).toBe('Hết truyện');
     expect(q('story-end-shelf').getAttribute('href')).toBe('/tre-em');
     expect((q('story-next') as HTMLButtonElement).disabled).toBe(true);
-    expect(q('story-play').textContent).toBe('Nghe lại');
+    expect(q('story-play').textContent).toBe('Đọc lại');
     fireEvent.click(q('story-play'));
     expect(q('story-scene-number').textContent).toMatch(/^Cảnh 1\/8/);
     expect(document.querySelector('[data-id=story-ended]')).toBeNull();

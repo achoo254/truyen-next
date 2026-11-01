@@ -4,7 +4,7 @@
  *
  * - index.html: the home page, both shelves listed;
  * - tre-em/index.html, nguoi-lon/index.html: one shelf each;
- * - truyen/<slug>/index.html: one story (title, summary, length, shelf; JSON-LD CreativeWork);
+ * - truyen/<slug>/index.html: one story (title, summary, length, shelf, the whole tale as text; JSON-LD CreativeWork);
  * - spa.html: the untouched app page, which nginx serves for every other address (legal pages, 404);
  * - sitemap.xml, only once the site may be indexed (site-indexing.ts).
  *
@@ -35,6 +35,8 @@ export interface PrerenderContext {
   origin: string;
   appName: string;
   stories: readonly StoryListEntry[];
+  /** Slug → the story's narration, one paragraph per scene: the tale readable without the app. */
+  narration?: ReadonlyMap<string, readonly string[]>;
 }
 
 interface PageHead {
@@ -78,6 +80,11 @@ function storyList(entries: readonly StoryListEntry[]): string {
       `<li><a href="/truyen/${encodeURIComponent(entry.slug)}" lang="vi">${escapeHtml(entry.title)}</a> · ${escapeHtml(fill(vi['home.minutes'], { minutes: entry.minutes }))}<p lang="vi">${escapeHtml(entry.summary)}</p></li>`,
   );
   return `<ul class="prerender-list">${items.join('')}</ul>`;
+}
+
+function storyText(paragraphs: readonly string[]): string {
+  if (paragraphs.length === 0) return '';
+  return `<article lang="vi">${paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}</article>`;
 }
 
 const frame = (inner: string): string => `<main class="prerender container">${inner}</main>`;
@@ -129,7 +136,8 @@ export function prerenderPages(html: string, ctx: PrerenderContext): Map<string,
       `<p><a href="${SHELF_PATHS[entry.shelf]}">${escapeHtml(fill(vi['story.backToShelf'], { shelf: shelfName }))}</a></p>` +
         `<h1 lang="vi">${escapeHtml(entry.title)}</h1>` +
         `<p>${escapeHtml(fill(vi['story.length'], { minutes: entry.minutes, scenes: entry.scenes }))}</p>` +
-        `<p lang="vi">${escapeHtml(entry.summary)}</p>`,
+        `<p lang="vi">${escapeHtml(entry.summary)}</p>` +
+        storyText(ctx.narration?.get(entry.slug) ?? []),
     );
     pages.set(`truyen/${entry.slug}/index.html`, renderPage(html, { path, title: `${entry.title} · ${ctx.appName}`, description: entry.summary, type: 'article', jsonLd }, body, ctx));
   }
@@ -166,7 +174,12 @@ export function prerender(indexable: boolean = INDEXABLE): Plugin {
       const { stories, errors } = loadStories();
       if (errors.length > 0) this.error(`prerender: stories:\n  ${errors.join('\n  ')}`);
       const brand = loadTruyenBrand();
-      const ctx: PrerenderContext = { origin: primaryOrigin(brand), appName: brand.appName, stories: stories.map(({ story }) => storyListEntry(story)) };
+      const ctx: PrerenderContext = {
+        origin: primaryOrigin(brand),
+        appName: brand.appName,
+        stories: stories.map(({ story }) => storyListEntry(story)),
+        narration: new Map(stories.map(({ story }) => [story.slug, story.scenes.map((scene) => scene.narration)])),
+      };
       const pages = prerenderPages(index.source, ctx);
       for (const [fileName, source] of pages) {
         if (fileName === 'index.html') index.source = source;

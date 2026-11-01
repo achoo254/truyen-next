@@ -14,7 +14,12 @@ const HTML = `<html><head>
 </head><body><div id="root"></div></body></html>`;
 
 const entry = (slug: string, shelf: 'kids' | 'adults', title: string): StoryListEntry => ({ slug, shelf, title, summary: `${title} "& <b>"`, scenes: 8, minutes: 4, themes: ['su-tich'], added: '2026-10-30' });
-const CTX = { origin: 'https://truyen.hoandat.com', appName: 'Truyện', stories: [entry('tam-cam', 'kids', 'Tấm Cám'), entry('su-tich-ho-guom', 'adults', 'Sự tích Hồ Gươm')] };
+const CTX = {
+  origin: 'https://truyen.hoandat.com',
+  appName: 'Truyện',
+  stories: [entry('tam-cam', 'kids', 'Tấm Cám'), entry('su-tich-ho-guom', 'adults', 'Sự tích Hồ Gươm')],
+  narration: new Map([['tam-cam', ['Ngày xưa có cô Tấm.', 'Tấm <hiền> & Cám.']]]),
+};
 
 describe('prerendered pages', () => {
   const pages = prerenderPages(HTML, CTX);
@@ -32,6 +37,9 @@ describe('prerendered pages', () => {
     expect(page).toContain('<meta property="og:type" content="article" />');
     expect(page).toContain('<h1 lang="vi">Tấm Cám</h1>');
     expect(page).toContain('href="/tre-em"');
+    // The whole tale is in the page, one paragraph per scene, escaped.
+    expect(page).toContain('<article lang="vi"><p>Ngày xưa có cô Tấm.</p><p>Tấm &lt;hiền&gt; &amp; Cám.</p></article>');
+    expect(pages.get('truyen/su-tich-ho-guom/index.html')).not.toContain('<article');
     const ld = /<script type="application\/ld\+json">(.*?)<\/script>/.exec(page)?.[1] ?? '';
     expect(ld).not.toContain('<');
     expect(JSON.parse(ld)).toMatchObject({ '@type': 'CreativeWork', name: 'Tấm Cám', inLanguage: 'vi', timeRequired: 'PT4M', genre: ['Sự tích'] });

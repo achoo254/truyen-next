@@ -8,7 +8,7 @@ import { EndPage } from './end-page';
 import { type PlayerState, type TurnDirection, initialPlayerState, playerReducer } from './player-state';
 import { focusKind, readerKeyAction } from './reader-keys';
 import { type Rate, useReaderPrefs } from './reader-prefs';
-import { preloadAfter, sceneMedia, storyFileUrl, storyHasNoMedia } from './scene-media';
+import { preloadAfter, sceneMedia, storyFileUrl, storyHasNoMedia, storyHasVoice } from './scene-media';
 import { useSceneTimer } from './use-scene-timer';
 import { useSwipe } from './use-swipe';
 import { ReaderSheet } from './reader-sheet';
@@ -299,7 +299,7 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
   const playing = state.status === 'playing';
   const ended = state.status === 'ended';
   const noMedia = storyHasNoMedia(story);
-  const hasVoice = story.scenes.some((each) => each.voice.file !== undefined);
+  const hasVoice = storyHasVoice(story);
   const [turn, turnDone] = usePageTurn(state, line);
   // Pages curl (page-flip) unless the reader asked for less motion; then the old page fades out over the new one.
   const curl = useMediaQuery(REDUCED_MOTION_QUERY) === false;
@@ -436,7 +436,7 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
     const left = turn?.from.kind === 'scene' && turn.from.index === spread ? turn.from : null;
     return <StaticScene key={`still-${spread}`} story={story} scene={still} line={left?.line ?? still.subtitles[0] ?? ''} progress={left ? 1 : 0} place={place} />;
   };
-  const playLabel = playing ? t('story.pause') : state.status === 'idle' ? t('story.start') : ended ? t('story.replay') : t('story.resume');
+  const playLabel = playing ? t('story.pause') : state.status === 'idle' ? t('story.start') : ended ? t(hasVoice ? 'story.replay' : 'story.reread') : t('story.resume');
   const sceneCount = story.scenes.length;
 
   return (

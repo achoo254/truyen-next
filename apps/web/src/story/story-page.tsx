@@ -7,6 +7,7 @@ import { setPageMeta } from '../page-meta';
 import { Icon } from '../ui/icons';
 import { StoryLoadError, fetchStory, shelfPath } from './story-api';
 import { progressOf, sceneFromQuery } from './reading-progress';
+import { storyHasVoice } from './scene-media';
 import { StoryPlayer } from './story-player';
 import { useLoad } from './use-load';
 
@@ -31,6 +32,8 @@ function StoryCoverPage({ story, onOpen, openRef }: { story: Story; onOpen: (ind
   const { minutes, scenes } = storyListEntry(story);
   // Read once per visit to the page: the reader saves as it goes, and closing it comes back here.
   const [resume] = useState(() => progressOf(story.slug, story.scenes.length));
+  // Until a story has its voice it is read, not heard, so the buttons say so.
+  const voiced = storyHasVoice(story);
   return (
     <article className={`story theme-${story.shelf}`} data-id="story-page">
       <a className="back-link" href={shelfPath(story.shelf)} data-id="story-back">
@@ -53,11 +56,11 @@ function StoryCoverPage({ story, onOpen, openRef }: { story: Story; onOpen: (ind
           <div className="story-actions">
             <button ref={openRef} type="button" className="btn btn-primary btn-large" onClick={() => onOpen(resume ?? 0)} data-id="story-open-reader">
               <Icon name="play" />
-              {resume === null ? t('story.listen') : t('story.resumeFrom', { n: resume + 1 })}
+              {resume === null ? t(voiced ? 'story.listen' : 'story.read') : t(voiced ? 'story.resumeFrom' : 'story.readFrom', { n: resume + 1 })}
             </button>
             {resume !== null && (
               <button type="button" className="btn btn-secondary btn-large" onClick={() => onOpen(0)} data-id="story-from-start">
-                {t('story.fromStart')}
+                {t(voiced ? 'story.fromStart' : 'story.readFromStart')}
               </button>
             )}
           </div>
