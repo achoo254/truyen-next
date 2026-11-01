@@ -12,6 +12,7 @@ xem, app chạy cả khi máy nhà tắt. Nội dung AI không thuộc giấy ph
 | Đường dẫn | Nội dung |
 | --- | --- |
 | `stories/<slug>/story.json` | Một truyện: kệ, lời kể, phụ đề, prompt và seed để sinh media, đường dẫn media đã có ([định dạng](docs/story-format.md)) |
+| `catalog/stories.json` | Danh mục ứng viên: mọi truyện sẽ viết theo thứ tự, kệ, nguồn cốt truyện phạm vi công cộng, trạng thái `idea`/`text`/`media`/`live`; routine viết truyện lấy từ đây ([`docs/story-routine.md`](docs/story-routine.md)) |
 | `stories/<slug>/media/` | Tranh (WebP), cảnh động (MP4 không tiếng), giọng kể và nhạc (M4A) do `pnpm story:build` tạo |
 | `packages/story` | Schema, luật kiểm và thời gian đọc của truyện (dùng chung cho app và script, không phụ thuộc React hay Node) |
 | `apps/web` | App web tĩnh (Vite + React): hai kệ truyện, trình xem `/truyen/<slug>`, trang pháp lý |

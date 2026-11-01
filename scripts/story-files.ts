@@ -37,15 +37,19 @@ export function loadStory(dir: string): LoadResult {
   return { ok: true, loaded: { slug, dir, story: result.story } };
 }
 
+/** The folders under `root` that have a story.json, sorted. */
+export function storyFolders(root: string = STORIES_DIR): string[] {
+  return readdirSync(root, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory() && existsSync(path.join(root, entry.name, STORY_FILE)))
+    .map((entry) => entry.name)
+    .sort();
+}
+
 /** Every story under `root` (folders without a story.json are skipped), sorted by slug, with all errors. */
 export function loadStories(root: string = STORIES_DIR): { stories: LoadedStory[]; errors: string[] } {
   const stories: LoadedStory[] = [];
   const errors: string[] = [];
-  const folders = readdirSync(root, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory() && existsSync(path.join(root, entry.name, STORY_FILE)))
-    .map((entry) => entry.name)
-    .sort();
-  for (const folder of folders) {
+  for (const folder of storyFolders(root)) {
     const result = loadStory(path.join(root, folder));
     if (result.ok) stories.push(result.loaded);
     else errors.push(...result.errors);

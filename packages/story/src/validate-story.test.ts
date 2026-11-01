@@ -191,6 +191,12 @@ describe('validateStory', () => {
     expect(errorsOf({ ...pilot(), basedOn: 'x'.repeat(81) }).join('\n')).toMatch(/^basedOn: /);
   });
 
+  it('refuses a story that does not say where the tale comes from', () => {
+    const { source: _source, ...withoutSource } = pilot();
+    expect(errorsOf(withoutSource).join('\n')).toMatch(/^source: /);
+    expect(errorsOf({ ...pilot(), source: '   ' }).join('\n')).toMatch(/^source: /);
+  });
+
   it('finds whole words only', () => {
     expect(wordsFound('Chính xác, máu đỏ', ['xác chết', 'máu'])).toEqual(['máu']);
     expect(wordsFound('A SWORD', ['sword'])).toEqual(['sword']);
