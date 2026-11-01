@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "slug": "qua-va-cao",
+  "shelf": "world",
+  "title": "Quạ và cáo",
+  "summary": "Quạ ngậm được miếng pho mát thơm, cáo bèn buông lời khen ngọt để quạ cất tiếng hát. Ngụ ngôn Aesop về những lời nịnh hót, kể vui cho cả nhà.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, a sunny forest edge beside a farmhouse kitchen window, a tall old oak tree with spreading branches, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "qua",
+      "name": "Chị quạ",
+      "seed": 3899840283,
+      "sheetPrompt": "a vain glossy black crow with shiny feathers, bright eyes, perched proudly, holding a wedge of yellow cheese in her beak, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cao",
+      "name": "Chú cáo",
+      "seed": 581622303,
+      "sheetPrompt": "a sly charming red fox with a bushy tail, half-closed smiling eyes and a sweet flattering grin, sitting politely, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mieng-pho-mat",
+      "title": "Miếng pho mát",
+      "narrator": "ke-chuyen",
+      "narration": "Một buổi sáng đẹp trời, có một chú quạ đen bay ngang qua cửa sổ một căn bếp. Thấy trên bậu cửa có một miếng pho mát vàng thơm phức, quạ sà xuống, ngậm lấy rồi bay vút lên một cành cây cao. Quạ đậu ở đó, khoái chí lắm, định bụng sẽ từ từ thưởng thức. Nắng sớm chiếu qua kẽ lá, gió mát thổi nhè nhẹ, quạ thấy đời mình thật sung sướng.",
+      "subtitles": [
+        "Một buổi sáng đẹp trời, có một chú quạ đen bay ngang qua cửa sổ một căn bếp.",
+        "Thấy trên bậu cửa có một miếng pho mát vàng thơm phức, quạ sà xuống,",
+        "ngậm lấy rồi bay vút lên một cành cây cao.",
+        "Quạ đậu ở đó, khoái chí lắm, định bụng sẽ từ từ thưởng thức.",
+        "Nắng sớm chiếu qua kẽ lá, gió mát thổi nhè nhẹ, quạ thấy đời mình thật sung sướng."
+      ],
+      "image": {
+        "character": "qua",
+        "prompt": "the black crow snatches a wedge of yellow cheese from a farmhouse kitchen windowsill, then perches on a high oak branch with the cheese in her beak",
+        "seed": 1128146020
+      },
+      "video": {
+        "motionPrompt": "the crow swoops from the windowsill up to the branch, leaves shimmer in the morning breeze",
+        "seed": 1996362901
+      },
+      "voice": {}
+    },
+    {
+      "id": "cao-den",
+      "title": "Cáo đi ngang qua",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc ấy, một chú cáo đi ngang qua gốc cây. Mũi cáo khịt khịt, ngửi thấy mùi pho mát. Cáo ngẩng lên, thấy miếng pho mát trong mỏ quạ thì thèm rỏ dãi. Cáo nghĩ bụng: “Quạ ở trên cao, ta không trèo lên được. Nhưng ta có cái miệng khéo léo.” Cáo bèn ngồi xuống, ngước nhìn quạ, cười thật tươi.",
+      "subtitles": [
+        "Đúng lúc ấy, một chú cáo đi ngang qua gốc cây. Mũi cáo khịt khịt, ngửi thấy mùi pho mát.",
+        "Cáo ngẩng lên, thấy miếng pho mát trong mỏ quạ thì thèm rỏ dãi.",
+        "Cáo nghĩ bụng: “Quạ ở trên cao, ta không trèo lên được. Nhưng ta có cái miệng khéo léo.”",
+        "Cáo bèn ngồi xuống, ngước nhìn quạ, cười thật tươi."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "the red fox at the foot of the oak sniffs the air and looks up at the crow with the cheese, a sly smile forming",
+        "seed": 231054287
+      },
+      "video": {
+        "motionPrompt": "the fox's nose twitches, its ears perk up, it sits down and smiles upward",
+        "seed": 308913368
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-ninh",
+      "title": "Lời khen ngọt ngào",
+      "narrator": "ke-chuyen",
+      "narration": "“Chào chị quạ xinh đẹp!” cáo cất giọng ngọt ngào. “Chà, bộ lông của chị đen nhánh, óng ả làm sao! Đôi mắt chị sáng như hai hạt ngọc! Chắc hẳn giọng hát của chị cũng hay nhất khu rừng này. Chị hát cho tôi nghe một câu thôi, để tôi được gọi chị là nữ hoàng của muôn loài chim.” Quạ nghe khen thì sướng rơn, phồng ngực, ưỡn cổ.",
+      "subtitles": [
+        "“Chào chị quạ xinh đẹp!” cáo cất giọng ngọt ngào.",
+        "“Chà, bộ lông của chị đen nhánh, óng ả làm sao! Đôi mắt chị sáng như hai hạt ngọc!",
+        "Chắc hẳn giọng hát của chị cũng hay nhất khu rừng này.",
+        "Chị hát cho tôi nghe một câu thôi, để tôi được gọi chị là nữ hoàng của muôn loài chim.”",
+        "Quạ nghe khen thì sướng rơn, phồng ngực, ưỡn cổ."
+      ],
+      "image": {
+        "character": "qua",
+        "prompt": "the fox bows theatrically below with a paw on its chest, the flattered crow puffs out her chest proudly on the branch, cheese still in her beak",
+        "seed": 3065213094
+      },
+      "video": {
+        "motionPrompt": "the fox bows and waves a paw, the crow puffs up her feathers and preens",
+        "seed": 1494597383
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-hat",
+      "title": "Quạ cất tiếng hát",
+      "narrator": "ke-chuyen",
+      "narration": "Quạ muốn khoe giọng ngay lập tức. Quạ há thật to mỏ ra mà kêu: “Quạ! Quạ! Quạ!” Thế là miếng pho mát rơi tõm xuống đất, ngay trước mũi cáo. Cáo đớp lấy miếng pho mát, nhai ngon lành, rồi liếm mép: “Cảm ơn chị quạ nhé. Giọng chị thì tôi chưa biết thế nào, nhưng chị nhớ cho: kẻ nịnh hót sống nhờ người thích nghe nịnh.” Nói rồi cáo vẫy đuôi, thong thả bỏ đi.",
+      "subtitles": [
+        "Quạ muốn khoe giọng ngay lập tức. Quạ há thật to mỏ ra mà kêu: “Quạ! Quạ! Quạ!”",
+        "Thế là miếng pho mát rơi tõm xuống đất, ngay trước mũi cáo.",
+        "Cáo đớp lấy miếng pho mát, nhai ngon lành, rồi liếm mép: “Cảm ơn chị quạ nhé.",
+        "Giọng chị thì tôi chưa biết thế nào,",
+        "nhưng chị nhớ cho: kẻ nịnh hót sống nhờ người thích nghe nịnh.”",
+        "Nói rồi cáo vẫy đuôi, thong thả bỏ đi."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "the crow opens her beak wide to caw, the cheese tumbling down, the fox catches it neatly below with a grin",
+        "seed": 1436693993
+      },
+      "video": {
+        "motionPrompt": "the crow caws, the cheese falls, the fox snaps it up, licks its lips and trots away waving its tail",
+        "seed": 687505430
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc",
+      "title": "Lời khen chưa chắc thật lòng",
+      "narrator": "ke-chuyen",
+      "narration": "Quạ ngồi trên cành, nhìn theo cáo, vừa tiếc vừa ngượng. Từ hôm ấy, mỗi khi nghe ai khen mình quá lời, quạ đều ngậm chặt mỏ và nghĩ thật kỹ. Các bạn nhỏ ạ, lời khen ngọt ngào chưa chắc đã thật lòng. Hãy tỉnh táo trước những lời nịnh hót, đừng để vài câu ngọt ngào làm mình quên mất điều quan trọng.",
+      "subtitles": [
+        "Quạ ngồi trên cành, nhìn theo cáo, vừa tiếc vừa ngượng.",
+        "Từ hôm ấy, mỗi khi nghe ai khen mình quá lời, quạ đều ngậm chặt mỏ và nghĩ thật kỹ.",
+        "Các bạn nhỏ ạ, lời khen ngọt ngào chưa chắc đã thật lòng.",
+        "Hãy tỉnh táo trước những lời nịnh hót,",
+        "đừng để vài câu ngọt ngào làm mình quên mất điều quan trọng."
+      ],
+      "image": {
+        "character": "qua",
+        "prompt": "the embarrassed crow sits alone on the branch watching the fox disappear into the forest, a lesson learned, soft afternoon light",
+        "seed": 2128262366
+      },
+      "video": {
+        "motionPrompt": "the crow ruffles her feathers and sighs, leaves drift down, the fox's tail vanishes among the trees",
+        "seed": 1990647116
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle classical storybook music, bassoon and clarinet in a sly playful dialogue, light pizzicato, light and playful with a warm calm ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3734365589
+  }
+}

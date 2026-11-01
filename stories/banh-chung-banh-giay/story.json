@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "slug": "banh-chung-banh-giay",
+  "shelf": "kids",
+  "title": "Bánh chưng bánh giầy",
+  "summary": "Vua Hùng muốn chọn người nối ngôi, các hoàng tử thi nhau tìm của ngon vật lạ. Lang Liêu nghèo chỉ có lúa gạo, nhưng nhờ giấc mơ, chàng làm ra bánh chưng vuông như đất, bánh giầy tròn như trời. Sự tích món bánh ngày Tết, kể cho trẻ nhỏ.",
+  "themes": [
+    "su-tich",
+    "gia-dinh"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam, có trong Lĩnh Nam chích quái, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "basedOn": "Truyện dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, ancient Van Lang era clothing and bronze-drum patterns, lush green hills, rivers and rice fields, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2805719476
+    },
+    {
+      "id": "lang-lieu",
+      "name": "Lang Liêu",
+      "seed": 1440207101,
+      "sheetPrompt": "Lang Lieu, a humble kind young prince of the Hung king era from the Vietnamese legend, gentle face, black hair tied with a simple cloth band, plain brown tunic with a small bronze-drum pattern border, carrying a basket of sticky rice, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "vua-hung",
+      "name": "Vua Hùng",
+      "seed": 3879375585,
+      "sheetPrompt": "a wise elderly Hung king from ancient Vietnamese legend, kind face, long grey beard, golden-brown royal robe with bronze-drum patterns, a feathered crown, holding a carved wooden staff, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "vi-than",
+      "name": "Vị thần",
+      "seed": 1518656149,
+      "sheetPrompt": "a gentle glowing spirit from Vietnamese legend who appears in a dream, an old man with a long white beard, flowing pale blue robes, soft halo of light, friendly smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Sắp đến Tết rồi, Mèo Miu đang gói một chiếc bánh chưng vuông vức bằng lá dong xanh đây. Còn đây là bánh giầy tròn trắng, mềm mềm. Các bạn có biết vì sao bánh chưng lại vuông, còn bánh giầy lại tròn không? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Sắp đến Tết rồi, Mèo Miu đang gói một chiếc bánh chưng vuông vức bằng lá dong xanh đây.",
+        "Còn đây là bánh giầy tròn trắng, mềm mềm.",
+        "Các bạn có biết vì sao bánh chưng lại vuông, còn bánh giầy lại tròn không?",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits at a low wooden table wrapping a square green banh chung rice cake in dong leaves tied with bamboo strings, a round white banh giay cake on a plate beside her, Tet peach blossoms",
+        "seed": 1735822989,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat folds a green leaf and ties a bamboo string with a happy wiggle, peach blossom petals drift down, slow camera push-in",
+        "seed": 2611585088
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-chon-nguoi",
+      "title": "Vua Hùng chọn người nối ngôi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, vua Hùng thứ sáu đã già, muốn chọn một người con tài đức để nối ngôi. Vua có hai mươi người con trai. Vua gọi các hoàng tử lại, phán rằng: Năm nay, nhân lễ Tiên vương, con nào tìm được món ngon dâng lên vừa ý ta, ta sẽ truyền ngôi cho người ấy. Các hoàng tử ai cũng mong được chọn.",
+      "subtitles": [
+        "Ngày xưa, vua Hùng thứ sáu đã già, muốn chọn một người con tài đức để nối ngôi.",
+        "Vua có hai mươi người con trai.",
+        "Vua gọi các hoàng tử lại, phán rằng: Năm nay, nhân lễ Tiên vương,",
+        "con nào tìm được món ngon dâng lên vừa ý ta, ta sẽ truyền ngôi cho người ấy.",
+        "Các hoàng tử ai cũng mong được chọn."
+      ],
+      "image": {
+        "prompt": "inside a wooden Hung king hall decorated with bronze drums, the wise old king speaks from his throne to a row of young princes in bright tunics who listen eagerly, warm torchlight",
+        "seed": 2936550953,
+        "character": "vua-hung"
+      },
+      "video": {
+        "motionPrompt": "the king raises his staff and speaks, the princes lean forward and glance at each other excitedly, torch flames flicker",
+        "seed": 2446785429
+      },
+      "voice": {}
+    },
+    {
+      "id": "cac-lang-tim-cua-ngon",
+      "title": "Các hoàng tử tìm của ngon",
+      "narrator": "ke-chuyen",
+      "narration": "Thế là các hoàng tử đua nhau đi tìm của ngon vật lạ. Người lên rừng tìm nấm quý, quả lạ. Người xuống biển tìm tôm to, cá hiếm. Người sai thuyền đi thật xa mua về những món ăn chưa ai thấy bao giờ. Trong cung, các món ngon cứ chất cao dần lên, hoàng tử nào cũng nghĩ mình sẽ thắng.",
+      "subtitles": [
+        "Thế là các hoàng tử đua nhau đi tìm của ngon vật lạ.",
+        "Người lên rừng tìm nấm quý, quả lạ. Người xuống biển tìm tôm to, cá hiếm.",
+        "Người sai thuyền đi thật xa mua về những món ăn chưa ai thấy bao giờ.",
+        "Trong cung, các món ngon cứ chất cao dần lên, hoàng tử nào cũng nghĩ mình sẽ thắng."
+      ],
+      "image": {
+        "prompt": "busy princes carrying baskets of exotic fruits, big mushrooms, giant shrimp and fancy dishes on boats and along mountain paths, a cheerful busy scene of ancient Van Lang",
+        "seed": 2800607035
+      },
+      "video": {
+        "motionPrompt": "princes hurry along with heavy baskets, boats with sails glide in, fruits wobble in the baskets, birds fly overhead",
+        "seed": 3416271561
+      },
+      "voice": {}
+    },
+    {
+      "id": "lang-lieu-buon",
+      "title": "Lang Liêu lo lắng",
+      "narrator": "ke-chuyen",
+      "narration": "Người con thứ mười tám là Lang Liêu. Mẹ chàng mất sớm, chàng sống giản dị ở thôn quê, ngày ngày trồng lúa, trồng khoai. Lang Liêu chẳng có tiền mua của ngon vật lạ, trong nhà chỉ có lúa gạo, đậu xanh và mấy con lợn nhỏ. Chàng ngồi bên bờ ruộng, lo lắng mãi: Mình biết lấy gì dâng lên vua cha đây?",
+      "subtitles": [
+        "Người con thứ mười tám là Lang Liêu.",
+        "Mẹ chàng mất sớm, chàng sống giản dị ở thôn quê, ngày ngày trồng lúa, trồng khoai.",
+        "Lang Liêu chẳng có tiền mua của ngon vật lạ, trong nhà chỉ có lúa gạo,",
+        "đậu xanh và mấy con lợn nhỏ.",
+        "Chàng ngồi bên bờ ruộng, lo lắng mãi: Mình biết lấy gì dâng lên vua cha đây?"
+      ],
+      "image": {
+        "prompt": "Lang Lieu sits thoughtfully on the edge of a golden rice field at sunset, chin in his hand, a small farmhouse with a granary and a few piglets nearby, ripe rice stalks sway around him",
+        "seed": 3700974588,
+        "character": "lang-lieu"
+      },
+      "video": {
+        "motionPrompt": "rice stalks sway in the evening breeze, Lang Lieu sighs and looks at the rice in his palm, piglets trot past",
+        "seed": 1857674102
+      },
+      "voice": {}
+    },
+    {
+      "id": "giac-mo",
+      "title": "Giấc mơ lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy, Lang Liêu nằm mơ thấy một vị thần hiện ra, hiền từ bảo: Này con, trong trời đất không có gì quý bằng hạt gạo. Gạo nuôi sống con người, ăn mãi không chán. Con hãy lấy gạo nếp làm bánh hình tròn và hình vuông, tượng trưng cho trời và đất. Lang Liêu tỉnh dậy, lòng vui mừng khôn xiết.",
+      "subtitles": [
+        "Đêm ấy, Lang Liêu nằm mơ thấy một vị thần hiện ra, hiền từ bảo: Này con,",
+        "trong trời đất không có gì quý bằng hạt gạo. Gạo nuôi sống con người, ăn mãi không chán.",
+        "Con hãy lấy gạo nếp làm bánh hình tròn và hình vuông, tượng trưng cho trời và đất.",
+        "Lang Liêu tỉnh dậy, lòng vui mừng khôn xiết."
+      ],
+      "image": {
+        "prompt": "Lang Lieu sleeps peacefully on a straw mat in his simple house at night, above him in a soft glowing dream cloud a kind old spirit holds a handful of shining rice grains, moonlight through the window",
+        "seed": 1557370799,
+        "character": "vi-than"
+      },
+      "video": {
+        "motionPrompt": "the dream cloud glows and swirls gently, the spirit smiles and opens his hand, rice grains sparkle, Lang Lieu smiles in his sleep",
+        "seed": 2063389914
+      },
+      "voice": {}
+    },
+    {
+      "id": "lam-banh",
+      "title": "Làm bánh",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, Lang Liêu chọn gạo nếp thật trắng, thật tròn hạt, vo sạch. Chàng lấy đậu xanh, thịt lợn làm nhân, rồi dùng lá dong xanh gói thành những chiếc bánh vuông vức, đem luộc thật kỹ. Chàng lại đồ xôi nếp, giã thật nhuyễn, nặn thành những chiếc bánh tròn trắng mịn. Bánh vuông chàng gọi là bánh chưng, bánh tròn chàng gọi là bánh giầy.",
+      "subtitles": [
+        "Sáng hôm sau, Lang Liêu chọn gạo nếp thật trắng, thật tròn hạt, vo sạch.",
+        "Chàng lấy đậu xanh, thịt lợn làm nhân,",
+        "rồi dùng lá dong xanh gói thành những chiếc bánh vuông vức, đem luộc thật kỹ.",
+        "Chàng lại đồ xôi nếp, giã thật nhuyễn, nặn thành những chiếc bánh tròn trắng mịn.",
+        "Bánh vuông chàng gọi là bánh chưng, bánh tròn chàng gọi là bánh giầy."
+      ],
+      "image": {
+        "prompt": "Lang Lieu wraps square rice cakes in green dong leaves on a wooden table, a big pot boils over a wood fire, nearby round white sticky rice cakes are lined up on a bamboo tray, cosy kitchen",
+        "seed": 2578799467,
+        "character": "lang-lieu"
+      },
+      "video": {
+        "motionPrompt": "Lang Lieu folds the green leaves into a neat square, steam rises from the pot, the fire crackles softly",
+        "seed": 554445654
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-chon-banh",
+      "title": "Nhà vua chọn bánh",
+      "narrator": "ke-chuyen",
+      "narration": "Đến ngày lễ, các hoàng tử bày lên bao nhiêu sơn hào hải vị. Vua chỉ nếm qua rồi lắc đầu. Đến lượt Lang Liêu, chàng dâng lên chồng bánh chưng xanh và bánh giầy trắng. Vua nếm thử, thấy bánh thơm ngon, lại nghe Lang Liêu kể về giấc mơ. Vua gật gù: Bánh vuông là đất, bánh tròn là trời, đều làm từ hạt gạo nuôi người. Thật là quý! Vua liền truyền ngôi cho Lang Liêu.",
+      "subtitles": [
+        "Đến ngày lễ, các hoàng tử bày lên bao nhiêu sơn hào hải vị.",
+        "Vua chỉ nếm qua rồi lắc đầu.",
+        "Đến lượt Lang Liêu, chàng dâng lên chồng bánh chưng xanh và bánh giầy trắng.",
+        "Vua nếm thử, thấy bánh thơm ngon, lại nghe Lang Liêu kể về giấc mơ.",
+        "Vua gật gù: Bánh vuông là đất, bánh tròn là trời, đều làm từ hạt gạo nuôi người.",
+        "Thật là quý! Vua liền truyền ngôi cho Lang Liêu."
+      ],
+      "image": {
+        "prompt": "in the grand Hung king hall, Lang Lieu kneels and offers a tray of square green banh chung and round white banh giay to the smiling old king, the other princes with fancy dishes look surprised",
+        "seed": 199478237,
+        "character": "lang-lieu"
+      },
+      "video": {
+        "motionPrompt": "the king tastes the cake and smiles widely, he lays his hand on Lang Lieu's shoulder, the other princes clap, bronze drum gleams",
+        "seed": 3573679382
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Từ đó, cứ mỗi dịp Tết đến, nhà nào cũng gói bánh chưng, làm bánh giầy để dâng lên tổ tiên, nhớ ơn trời đất và cha mẹ. Tết này, các bạn hãy cùng ông bà, bố mẹ gói bánh chưng nhé, vui lắm đấy! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Từ đó, cứ mỗi dịp Tết đến, nhà nào cũng gói bánh chưng, làm bánh giầy để dâng lên tổ tiên,",
+        "nhớ ơn trời đất và cha mẹ.",
+        "Tết này, các bạn hãy cùng ông bà, bố mẹ gói bánh chưng nhé, vui lắm đấy!",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye beside a family wrapping banh chung together in a cosy Tet courtyard, a big pot steaming over a fire, peach blossoms and red couplets, warm evening light",
+        "seed": 851608153,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the family laugh and tie the green cakes, steam curls up from the pot, gentle camera pull-back",
+        "seed": 3897028807
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "joyful Vietnamese Lunar New Year folk melody for children, dan tranh zither, bamboo flute and soft bronze drum, warm and festive yet gentle, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2091469821
+  }
+}

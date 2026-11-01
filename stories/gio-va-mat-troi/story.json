@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "slug": "gio-va-mat-troi",
+  "shelf": "world",
+  "title": "Gió và Mặt Trời",
+  "summary": "Gió Bấc và Mặt Trời thi xem ai làm người lữ khách cởi được áo choàng. Gió càng thổi mạnh, người càng giữ chặt áo; Mặt Trời chỉ cần tỏa nắng ấm. Ngụ ngôn Aesop về sức mạnh của sự dịu dàng.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, a winding country road through Mediterranean hills, wide sky with soft clouds, cypress and olive trees, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "gio-bac",
+      "name": "Gió Bấc",
+      "seed": 578004797,
+      "sheetPrompt": "the North Wind personified as a big puffy grey-blue cloud with a round face, chubby puffed cheeks and swirling wispy hair, cartoonish and not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "mat-troi",
+      "name": "Mặt Trời",
+      "seed": 3458686601,
+      "sheetPrompt": "the Sun personified as a warm golden sun with a kind round smiling face and soft glowing rays, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "lu-khach",
+      "name": "Người lữ khách",
+      "seed": 2302393915,
+      "sheetPrompt": "a friendly middle-aged traveller with a short beard, a walking stick, a small bundle on his back, wearing a long thick brown cloak over a simple tunic, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cuoc-cai",
+      "title": "Ai mạnh hơn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xửa ngày xưa, trên bầu trời cao, ông Gió Bấc và ông Mặt Trời cãi nhau xem ai mạnh hơn. Gió Bấc phồng má, thổi ù ù: “Ta có thể làm cây đổ, sóng dâng, mây bay khắp trời. Ai mạnh bằng ta?” Mặt Trời mỉm cười hiền hậu: “Mạnh hay không, phải thử mới biết.” Đúng lúc ấy, dưới con đường quanh co, có một người lữ khách đang đi, mình khoác chiếc áo choàng dày.",
+      "subtitles": [
+        "Ngày xửa ngày xưa, trên bầu trời cao,",
+        "ông Gió Bấc và ông Mặt Trời cãi nhau xem ai mạnh hơn.",
+        "Gió Bấc phồng má, thổi ù ù: “Ta có thể làm cây đổ, sóng dâng, mây bay khắp trời.",
+        "Ai mạnh bằng ta?” Mặt Trời mỉm cười hiền hậu: “Mạnh hay không, phải thử mới biết.”",
+        "Đúng lúc ấy, dưới con đường quanh co, có một người lữ khách đang đi,",
+        "mình khoác chiếc áo choàng dày."
+      ],
+      "image": {
+        "character": "gio-bac",
+        "prompt": "high in the sky the puffy cloud-faced North Wind boasts with puffed cheeks beside the smiling Sun, far below a tiny traveller in a brown cloak walks a winding road",
+        "seed": 663541929
+      },
+      "video": {
+        "motionPrompt": "the North Wind puffs its cheeks and swirls, the Sun glows calmly, clouds drift, the tiny traveller walks",
+        "seed": 1721076630
+      },
+      "voice": {}
+    },
+    {
+      "id": "thach-do",
+      "title": "Lời thách đố",
+      "narrator": "ke-chuyen",
+      "narration": "Mặt Trời nói: “Này anh Gió, ai làm cho người lữ khách kia cởi được chiếc áo choàng, người ấy sẽ thắng.” Gió Bấc cười khẩy: “Dễ ợt! Để ta làm trước.” Mặt Trời gật đầu, rồi lặng lẽ nấp sau một đám mây, nhường chỗ cho Gió. Người lữ khách dưới kia vẫn thong thả bước, chẳng hay biết gì, miệng còn ngân nga một khúc hát quen.",
+      "subtitles": [
+        "Mặt Trời nói: “Này anh Gió, ai làm cho người lữ khách kia cởi được chiếc áo choàng,",
+        "người ấy sẽ thắng.” Gió Bấc cười khẩy: “Dễ ợt! Để ta làm trước.”",
+        "Mặt Trời gật đầu, rồi lặng lẽ nấp sau một đám mây, nhường chỗ cho Gió.",
+        "Người lữ khách dưới kia vẫn thong thả bước, chẳng hay biết gì,",
+        "miệng còn ngân nga một khúc hát quen."
+      ],
+      "image": {
+        "character": "mat-troi",
+        "prompt": "the Sun points down kindly at the traveller while the North Wind grins confidently, then the Sun slips behind a soft white cloud",
+        "seed": 1656264305
+      },
+      "video": {
+        "motionPrompt": "the Sun nods and glides behind a cloud, the North Wind rubs its hands eagerly, the traveller strolls humming",
+        "seed": 3800636404
+      },
+      "voice": {}
+    },
+    {
+      "id": "gio-thoi",
+      "title": "Gió thổi ào ào",
+      "narrator": "ke-chuyen",
+      "narration": "Gió Bấc hít một hơi thật sâu rồi thổi mạnh. Vù vù! Lá cây bay tứ tung, cỏ rạp xuống đất, bụi cuốn mù mịt. Người lữ khách rùng mình, vội kéo áo choàng sát vào người. Gió càng thổi mạnh hơn. Ào ào! Người lữ khách càng quấn chặt áo, hai tay giữ khư khư, cúi đầu bước từng bước. Gió thổi đến mỏi cả miệng, hết cả hơi, mà chiếc áo vẫn nằm yên trên vai người ấy. Gió đành bỏ cuộc.",
+      "subtitles": [
+        "Gió Bấc hít một hơi thật sâu rồi thổi mạnh. Vù vù!",
+        "Lá cây bay tứ tung, cỏ rạp xuống đất, bụi cuốn mù mịt.",
+        "Người lữ khách rùng mình, vội kéo áo choàng sát vào người. Gió càng thổi mạnh hơn. Ào ào!",
+        "Người lữ khách càng quấn chặt áo, hai tay giữ khư khư, cúi đầu bước từng bước.",
+        "Gió thổi đến mỏi cả miệng, hết cả hơi, mà chiếc áo vẫn nằm yên trên vai người ấy.",
+        "Gió đành bỏ cuộc."
+      ],
+      "image": {
+        "character": "lu-khach",
+        "prompt": "a strong gust sweeps the road, leaves and dust whirling, the traveller hunches forward clutching his cloak tightly around himself, the North Wind blowing hard from above",
+        "seed": 1054328050
+      },
+      "video": {
+        "motionPrompt": "wind gusts whip leaves and dust, the cloak flaps, the traveller pulls it tighter and leans into the wind",
+        "seed": 3509912278
+      },
+      "voice": {}
+    },
+    {
+      "id": "mat-troi-chieu",
+      "title": "Mặt Trời tỏa nắng",
+      "narrator": "ke-chuyen",
+      "narration": "Đến lượt Mặt Trời. Mặt Trời bước ra khỏi đám mây, nhẹ nhàng tỏa những tia nắng ấm áp xuống con đường. Gió lặng, chim lại hót. Người lữ khách thấy dễ chịu, nới lỏng tay, rồi mở cúc áo. Nắng ấm dần, ấm dần. Người lữ khách lau mồ hôi trên trán, cởi chiếc áo choàng ra vắt lên vai, rồi ngồi nghỉ dưới bóng cây bên đường, vui vẻ huýt sáo.",
+      "subtitles": [
+        "Đến lượt Mặt Trời.",
+        "Mặt Trời bước ra khỏi đám mây, nhẹ nhàng tỏa những tia nắng ấm áp xuống con đường.",
+        "Gió lặng, chim lại hót. Người lữ khách thấy dễ chịu, nới lỏng tay, rồi mở cúc áo.",
+        "Nắng ấm dần, ấm dần.",
+        "Người lữ khách lau mồ hôi trên trán, cởi chiếc áo choàng ra vắt lên vai,",
+        "rồi ngồi nghỉ dưới bóng cây bên đường, vui vẻ huýt sáo."
+      ],
+      "image": {
+        "character": "lu-khach",
+        "prompt": "warm sunshine floods the country road, the relaxed traveller has taken off his cloak and draped it over his shoulder, sitting in the shade of an olive tree whistling, birds singing",
+        "seed": 3879346308
+      },
+      "video": {
+        "motionPrompt": "sunbeams spread warmly, the traveller wipes his brow and slips off the cloak, birds hop and sing",
+        "seed": 729538924
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc",
+      "title": "Sức mạnh của sự dịu dàng",
+      "narrator": "ke-chuyen",
+      "narration": "Gió Bấc ngượng ngùng, đành chịu thua. Mặt Trời dịu dàng bảo: “Anh thấy đấy, sức mạnh ồn ào chưa chắc đã làm được việc. Có khi sự ấm áp, nhẹ nhàng lại thuyết phục được lòng người.” Các bạn nhỏ ạ, muốn người khác nghe theo mình, đừng cáu kỉnh hay ép buộc. Một lời nói dịu dàng, một tấm lòng ấm áp thường có sức mạnh lớn hơn rất nhiều.",
+      "subtitles": [
+        "Gió Bấc ngượng ngùng, đành chịu thua.",
+        "Mặt Trời dịu dàng bảo: “Anh thấy đấy, sức mạnh ồn ào chưa chắc đã làm được việc.",
+        "Có khi sự ấm áp, nhẹ nhàng lại thuyết phục được lòng người.”",
+        "Các bạn nhỏ ạ, muốn người khác nghe theo mình, đừng cáu kỉnh hay ép buộc.",
+        "Một lời nói dịu dàng, một tấm lòng ấm áp thường có sức mạnh lớn hơn rất nhiều."
+      ],
+      "image": {
+        "character": "mat-troi",
+        "prompt": "in a golden afternoon sky the smiling Sun speaks gently to the sheepish small North Wind, below the happy traveller resting under a tree",
+        "seed": 3604145099
+      },
+      "video": {
+        "motionPrompt": "the Sun glows softly, the North Wind shrinks and blushes, a gentle breeze stirs the trees",
+        "seed": 2047633841
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle classical storybook music, woodwinds and strings, a blustery whirling passage for the wind then a warm sunny melody, light and playful with a warm calm ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1980724368
+  }
+}

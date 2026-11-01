@@ -14,10 +14,14 @@ export interface ShelfRules {
   maxSeconds: number;
 }
 
-/** Children: six to ten scenes, three to six minutes. Adults: a fuller telling, eight to fourteen scenes, six to twelve minutes. */
+/**
+ * Children: six to ten scenes, three to six minutes. Adults: a fuller telling, eight to fourteen scenes, six to twelve
+ * minutes. World: from a short fable (four scenes, two minutes) to a long fairy tale (twelve scenes, eight minutes).
+ */
 export const SHELF_RULES: Record<Shelf, ShelfRules> = {
   kids: { minScenes: 6, maxScenes: 10, minSeconds: 180, maxSeconds: 360 },
   adults: { minScenes: 8, maxScenes: 14, minSeconds: 360, maxSeconds: 720 },
+  world: { minScenes: 4, maxScenes: 12, minSeconds: 120, maxSeconds: 480 },
 };
 /** A subtitle line fits two short rows on a phone. */
 export const MAX_SUBTITLE_CHARS = 90;
@@ -27,6 +31,8 @@ export const MIU_NARRATOR = 'miu';
 export const MIU_VOICE = 'Trúc Ly';
 /** The storyteller's voice of the children's shelf. */
 export const KIDS_STORYTELLER_VOICE = 'Quỳnh Anh';
+/** The storyteller's voice of the world shelf, unlike the two Vietnamese shelves. */
+export const WORLD_STORYTELLER_VOICE = 'Mỹ Duyên';
 /** Built-in VieNeu voices that speech recognition understood poorly; not used for narration. */
 export const DROPPED_VOICES: readonly string[] = ['Ngọc Trân', 'Quang Sơn', 'Thùy Dung', 'Minh Triết'];
 
@@ -76,14 +82,35 @@ function kidsErrors(story: Story): string[] {
   if (first && first.narrator !== MIU_NARRATOR) errors.push(`scenes.${first.id}: the opening scene is narrated by "${MIU_NARRATOR}"`);
   if (last && last.narrator !== MIU_NARRATOR) errors.push(`scenes.${last.id}: the closing scene is narrated by "${MIU_NARRATOR}"`);
 
+  errors.push(...gentleWordErrors(story, "children's"));
+  return errors;
+}
+
+/** No frightening word in the title, summary or any scene: the children's and the world shelf are read to children. */
+function gentleWordErrors(story: Story, shelfName: string): string[] {
+  const errors: string[] = [];
   for (const [at, text] of [['title', story.title], ['summary', story.summary]] as const) {
-    for (const word of wordsFound(text, KIDS_UNSAFE_WORDS)) errors.push(`${at}: "${word}" has no place in a children's retelling`);
+    for (const word of wordsFound(text, KIDS_UNSAFE_WORDS)) errors.push(`${at}: "${word}" has no place in a ${shelfName} retelling`);
   }
-  for (const scene of scenes) {
+  for (const scene of story.scenes) {
     for (const word of wordsFound(`${scene.title} ${scene.narration}`, KIDS_UNSAFE_WORDS)) {
-      errors.push(`scenes.${scene.id}.narration: "${word}" has no place in a children's retelling`);
+      errors.push(`scenes.${scene.id}.narration: "${word}" has no place in a ${shelfName} retelling`);
     }
   }
+  return errors;
+}
+
+/** World shelf: one storyteller (Mỹ Duyên), no Mèo Miu, told gently enough to read to a child. */
+function worldErrors(story: Story): string[] {
+  const errors: string[] = [];
+  const entries = Object.entries(story.narrators);
+  if (entries.length !== 1) errors.push(`narrators: a world story has one storyteller, found ${entries.length}`);
+  for (const [key, narrator] of entries) {
+    if (key === MIU_NARRATOR) errors.push(`narrators.${key}: Mèo Miu narrates only the children's shelf`);
+    if (narrator.voice !== WORLD_STORYTELLER_VOICE) errors.push(`narrators.${key}: the world storyteller speaks with "${WORLD_STORYTELLER_VOICE}"`);
+  }
+  if (story.characters.some((c) => c.id === MIU_NARRATOR)) errors.push(`characters.${MIU_NARRATOR}: Mèo Miu appears only on the children's shelf`);
+  errors.push(...gentleWordErrors(story, 'family'));
   return errors;
 }
 
@@ -94,8 +121,8 @@ function adultsErrors(story: Story): string[] {
   if (entries.length !== 1) errors.push(`narrators: an adults' story has one storyteller, found ${entries.length}`);
   for (const [key, narrator] of entries) {
     if (key === MIU_NARRATOR) errors.push(`narrators.${key}: Mèo Miu narrates only the children's shelf`);
-    if (narrator.voice === MIU_VOICE || narrator.voice === KIDS_STORYTELLER_VOICE) {
-      errors.push(`narrators.${key}: "${narrator.voice}" is a children's shelf voice; the adults' storyteller has another`);
+    if (narrator.voice === MIU_VOICE || narrator.voice === KIDS_STORYTELLER_VOICE || narrator.voice === WORLD_STORYTELLER_VOICE) {
+      errors.push(`narrators.${key}: "${narrator.voice}" is another shelf's voice; the adults' storyteller has their own`);
     }
   }
   if (story.characters.some((c) => c.id === MIU_NARRATOR)) errors.push(`characters.${MIU_NARRATOR}: Mèo Miu appears only on the children's shelf`);
@@ -117,9 +144,10 @@ function crossFieldErrors(story: Story): string[] {
     if (DROPPED_VOICES.includes(narrator.voice)) errors.push(`narrators.${key}: "${narrator.voice}" is not used, speech recognition hears it poorly`);
   }
 
-  errors.push(...(story.shelf === 'kids' ? kidsErrors(story) : adultsErrors(story)));
+  const shelfErrors = { kids: kidsErrors, adults: adultsErrors, world: worldErrors }[story.shelf];
+  errors.push(...shelfErrors(story));
 
-  const promptWords = story.shelf === 'kids' ? KIDS_UNSAFE_PROMPT_WORDS : GORE_PROMPT_WORDS;
+  const promptWords = story.shelf === 'adults' ? GORE_PROMPT_WORDS : KIDS_UNSAFE_PROMPT_WORDS;
   for (const character of characters) {
     for (const word of wordsFound(character.sheetPrompt, promptWords)) errors.push(`characters.${character.id}.sheetPrompt: no "${word}"`);
   }

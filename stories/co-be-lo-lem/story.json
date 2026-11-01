@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "slug": "co-be-lo-lem",
+  "shelf": "world",
+  "title": "Cô bé Lọ Lem",
+  "summary": "Lọ Lem hiền lành bị mẹ kế và hai chị bắt làm lụng bên bếp tro, nhưng cây phỉ bên mộ mẹ và đàn chim trắng đã giúp cô đi dự hội trong cung. Truyện cổ Grimm (Aschenputtel) kể nhẹ nhàng cho cả nhà, với chiếc hài vàng thay cho hài thủy tinh.",
+  "themes": [
+    "thien-ac",
+    "gia-dinh",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Aschenputtel\" (Kinder- und Hausmärchen, 1812), thuộc phạm vi công cộng; theo bản Grimm chứ không theo Perrault hay phim Disney: không có bà tiên đỡ đầu, quả bí hay hài thủy tinh. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể đã làm nhẹ cho cả nhà: bỏ đoạn hai chị tự cắt chân và bị chim mổ mắt, thay bằng việc hai chị xấu hổ bỏ đi.",
+  "basedOn": "Truyện cổ Grimm (1812), bản Aschenputtel",
+  "style": "classic nineteenth-century European fairy-tale picture-book illustration, soft watercolor and fine ink lines, warm gentle light, rounded friendly shapes, calm and safe mood for the whole family, German manor house kitchen, hazel tree and a candlelit royal ballroom, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "lo-lem",
+      "name": "Lọ Lem",
+      "seed": 467909180,
+      "sheetPrompt": "Cinderella from the Grimm tale, a gentle young woman with soft golden-brown hair in a loose bun, kind eyes, ash smudges on her cheek, plain grey patched dress and a worn apron, wooden clogs, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hai-chi",
+      "name": "Hai cô chị",
+      "seed": 1496100303,
+      "sheetPrompt": "two vain stepsisters from the Grimm tale standing side by side, fancy hairstyles with ribbons, one in a frilly pink gown and one in a frilly yellow gown, noses in the air, comical rather than mean-looking, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "seed": 3631752521,
+      "sheetPrompt": "a kind young German prince from a classic fairy tale, short dark hair, warm smile, white and gold embroidered coat with a sash, holding a small golden slipper, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chim-trang",
+      "name": "Đàn chim trắng",
+      "seed": 2633437048,
+      "sheetPrompt": "a flock of small white doves and turtledoves with soft glowing feathers, friendly and magical, some perched on a hazel branch, some flying, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cay-phi",
+      "title": "Cây phỉ bên mộ mẹ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một cô gái hiền lành, mẹ mất sớm. Trước khi đi, mẹ dặn: \"Con hãy sống tốt và hiền hậu, mẹ sẽ luôn ở bên con.\" Ít lâu sau, cha cô lấy vợ mới. Người mẹ kế dẫn theo hai cô con gái, mặt mũi xinh xắn mà lòng dạ hẹp hòi. Họ lấy hết váy áo đẹp của cô, bắt cô mặc áo xám, làm lụng từ sáng tới tối, đêm thì nằm cạnh bếp tro. Người cô lúc nào cũng lấm tro, nên họ gọi cô là Lọ Lem. Cô trồng một cành phỉ bên mộ mẹ, ngày ngày ra đó tưới bằng nước mắt. Cành phỉ lớn thành một cây đẹp, có đàn chim trắng về đậu.",
+      "subtitles": [
+        "Ngày xưa, có một cô gái hiền lành, mẹ mất sớm.",
+        "Trước khi đi, mẹ dặn: \"Con hãy sống tốt và hiền hậu, mẹ sẽ luôn ở bên con.\"",
+        "Ít lâu sau, cha cô lấy vợ mới.",
+        "Người mẹ kế dẫn theo hai cô con gái, mặt mũi xinh xắn mà lòng dạ hẹp hòi.",
+        "Họ lấy hết váy áo đẹp của cô, bắt cô mặc áo xám, làm lụng từ sáng tới tối,",
+        "đêm thì nằm cạnh bếp tro. Người cô lúc nào cũng lấm tro, nên họ gọi cô là Lọ Lem.",
+        "Cô trồng một cành phỉ bên mộ mẹ, ngày ngày ra đó tưới bằng nước mắt.",
+        "Cành phỉ lớn thành một cây đẹp, có đàn chim trắng về đậu."
+      ],
+      "image": {
+        "prompt": "a gentle young woman in a grey patched dress kneels beside a young hazel tree on a quiet green hillside grave with wildflowers, white doves perched on the branches, soft morning mist, peaceful and tender",
+        "seed": 3406936930,
+        "character": "lo-lem"
+      },
+      "video": {
+        "motionPrompt": "a white dove flutters down onto a branch, the hazel leaves rustle, mist drifts slowly, gentle slow push-in",
+        "seed": 4098021656
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhat-dau",
+      "title": "Đàn chim nhặt đậu",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, nhà vua mở hội ba ngày để hoàng tử chọn vợ. Hai cô chị rộn ràng sửa soạn. Lọ Lem xin được đi cùng. Mẹ kế đổ một đĩa đậu lăng vào đống tro: \"Nhặt xong trong hai giờ thì cho đi.\" Lọ Lem ra vườn gọi: \"Hỡi những chú chim câu, chim gáy, hãy giúp tôi nhặt đậu: hạt tốt bỏ vào nồi, hạt xấu thì ăn đi.\" Đàn chim trắng bay vào, mổ lách tách, chẳng mấy chốc đã xong. Nhưng mẹ kế vẫn lắc đầu: \"Mày chẳng có áo đẹp, đi làm gì cho người ta cười.\" Rồi bà dẫn hai con gái đi mất.",
+      "subtitles": [
+        "Một hôm, nhà vua mở hội ba ngày để hoàng tử chọn vợ. Hai cô chị rộn ràng sửa soạn.",
+        "Lọ Lem xin được đi cùng.",
+        "Mẹ kế đổ một đĩa đậu lăng vào đống tro: \"Nhặt xong trong hai giờ thì cho đi.\"",
+        "Lọ Lem ra vườn gọi: \"Hỡi những chú chim câu, chim gáy, hãy giúp tôi nhặt đậu:",
+        "hạt tốt bỏ vào nồi, hạt xấu thì ăn đi.\"",
+        "Đàn chim trắng bay vào, mổ lách tách, chẳng mấy chốc đã xong.",
+        "Nhưng mẹ kế vẫn lắc đầu: \"Mày chẳng có áo đẹp, đi làm gì cho người ta cười.\"",
+        "Rồi bà dẫn hai con gái đi mất."
+      ],
+      "image": {
+        "prompt": "in a rustic manor kitchen by the hearth, a flock of white doves pecks lentils from the ashes into a clay pot while Cinderella watches with hopeful joy, sunlight through a small window, comical busy birds",
+        "seed": 1522083927,
+        "character": "chim-trang"
+      },
+      "video": {
+        "motionPrompt": "the doves peck quickly and hop around the pot, ash puffs softly, Cinderella clasps her hands, lively gentle motion",
+        "seed": 744982957
+      },
+      "voice": {}
+    },
+    {
+      "id": "vay-bac",
+      "title": "Chiếc váy từ cây phỉ",
+      "narrator": "ke-chuyen",
+      "narration": "Còn lại một mình, Lọ Lem chạy ra cây phỉ bên mộ mẹ, khẽ gọi: \"Cây phỉ ơi, rung đi, lắc đi, thả xuống cho tôi vàng bạc.\" Một chú chim trắng thả xuống chiếc váy bằng vàng bạc lấp lánh và đôi hài lụa thêu chỉ bạc. Lọ Lem mặc vào, đẹp đến mức chính hai cô chị cũng không nhận ra. Ở buổi hội, hoàng tử chỉ khiêu vũ với một mình nàng. Đến tối nàng muốn về, hoàng tử muốn đi theo xem nàng là ai, nhưng nàng chạy nhanh quá, trốn vào chuồng bồ câu rồi về bếp tro, như chưa có gì xảy ra.",
+      "subtitles": [
+        "Còn lại một mình, Lọ Lem chạy ra cây phỉ bên mộ mẹ, khẽ gọi: \"Cây phỉ ơi, rung đi, lắc đi,",
+        "thả xuống cho tôi vàng bạc.\"",
+        "Một chú chim trắng thả xuống chiếc váy bằng vàng bạc lấp lánh và đôi hài lụa thêu chỉ bạc.",
+        "Lọ Lem mặc vào, đẹp đến mức chính hai cô chị cũng không nhận ra.",
+        "Ở buổi hội, hoàng tử chỉ khiêu vũ với một mình nàng.",
+        "Đến tối nàng muốn về, hoàng tử muốn đi theo xem nàng là ai, nhưng nàng chạy nhanh quá,",
+        "trốn vào chuồng bồ câu rồi về bếp tro, như chưa có gì xảy ra."
+      ],
+      "image": {
+        "prompt": "Cinderella in a shimmering silver and gold gown dances with the prince in a candlelit royal ballroom with crystal chandeliers, guests watching in admiration, the two stepsisters in the crowd not recognising her",
+        "seed": 2281777277,
+        "character": "lo-lem"
+      },
+      "video": {
+        "motionPrompt": "the couple turn slowly in a waltz, the gown sparkles, chandeliers glitter, guests sway, smooth gentle camera orbit",
+        "seed": 963435696
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-vang",
+      "title": "Chiếc hài vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Hai ngày sau cũng vậy. Mỗi tối, cây phỉ lại thả xuống một chiếc váy đẹp hơn, và hoàng tử lại chỉ khiêu vũ với nàng. Đến ngày thứ ba, chim thả xuống chiếc váy rực rỡ nhất và đôi hài bằng vàng ròng. Lần này hoàng tử nghĩ ra một kế: chàng cho người quét nhựa thông lên bậc thềm. Khi Lọ Lem vội vã chạy về, chiếc hài vàng bên trái dính lại trên bậc thềm. Hoàng tử nhặt chiếc hài nhỏ xinh lên và nói: \"Ai đi vừa chiếc hài này, người ấy sẽ là vợ ta.\"",
+      "subtitles": [
+        "Hai ngày sau cũng vậy. Mỗi tối, cây phỉ lại thả xuống một chiếc váy đẹp hơn,",
+        "và hoàng tử lại chỉ khiêu vũ với nàng.",
+        "Đến ngày thứ ba, chim thả xuống chiếc váy rực rỡ nhất và đôi hài bằng vàng ròng.",
+        "Lần này hoàng tử nghĩ ra một kế: chàng cho người quét nhựa thông lên bậc thềm.",
+        "Khi Lọ Lem vội vã chạy về, chiếc hài vàng bên trái dính lại trên bậc thềm.",
+        "Hoàng tử nhặt chiếc hài nhỏ xinh lên và nói: \"Ai đi vừa chiếc hài này,",
+        "người ấy sẽ là vợ ta.\""
+      ],
+      "image": {
+        "prompt": "on wide palace stone steps at night under lanterns, the prince picks up a tiny shining golden slipper stuck on a step, far away a glimpse of Cinderella in a radiant gown running into the dark garden, starry sky",
+        "seed": 213534971,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the prince lifts the golden slipper and it gleams, the distant figure disappears among the trees, lanterns flicker, slow push-in on the slipper",
+        "seed": 2141894562
+      },
+      "voice": {}
+    },
+    {
+      "id": "thu-hai",
+      "title": "Ai đi vừa chiếc hài?",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm sau, hoàng tử mang chiếc hài đến nhà cha Lọ Lem. Hai cô chị mừng lắm, vì ai cũng tự nhận mình có bàn chân đẹp. Cô chị cả thử trước, nhưng ngón chân to quá, chẳng xỏ vừa. Cô chị thứ hai thử sau, nhưng gót chân lại to quá, cũng chẳng vừa. Đàn chim trắng trên cây phỉ hót lên: \"Không phải cô này, không phải cô này, cô dâu thật còn ở trong nhà!\" Hoàng tử hỏi: \"Nhà còn cô gái nào nữa không?\" Người cha đáp: \"Chỉ còn con bé Lọ Lem lấm lem tro bếp thôi ạ.\"",
+      "subtitles": [
+        "Hôm sau, hoàng tử mang chiếc hài đến nhà cha Lọ Lem.",
+        "Hai cô chị mừng lắm, vì ai cũng tự nhận mình có bàn chân đẹp.",
+        "Cô chị cả thử trước, nhưng ngón chân to quá, chẳng xỏ vừa.",
+        "Cô chị thứ hai thử sau, nhưng gót chân lại to quá, cũng chẳng vừa.",
+        "Đàn chim trắng trên cây phỉ hót lên: \"Không phải cô này, không phải cô này,",
+        "cô dâu thật còn ở trong nhà!\" Hoàng tử hỏi: \"Nhà còn cô gái nào nữa không?\"",
+        "Người cha đáp: \"Chỉ còn con bé Lọ Lem lấm lem tro bếp thôi ạ.\""
+      ],
+      "image": {
+        "prompt": "in a manor parlour, a vain stepsister in a frilly gown struggles comically to squeeze her foot into the tiny golden slipper, the other sister pouting, the prince watching patiently, white doves singing on a hazel branch outside the window",
+        "seed": 4036452583,
+        "character": "hai-chi"
+      },
+      "video": {
+        "motionPrompt": "the stepsister wiggles and pushes her foot, the slipper will not fit, the doves sing and flap at the window, comical gentle motion",
+        "seed": 2771059374
+      },
+      "voice": {}
+    },
+    {
+      "id": "dung-vua",
+      "title": "Vừa như in",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử muốn gặp cô ngay. Lọ Lem rửa sạch tay và mặt, bước ra cúi chào. Cô ngồi lên ghế đẩu, cởi chiếc guốc gỗ, xỏ chân vào chiếc hài vàng. Chiếc hài vừa như in. Khi cô ngẩng lên, hoàng tử nhận ra ngay người con gái đã khiêu vũ với mình ba đêm liền. \"Đây mới chính là cô dâu của ta!\" Hai cô chị và mẹ kế tái mặt, xấu hổ đến nỗi lặng lẽ bỏ đi. Hoàng tử đỡ Lọ Lem lên ngựa. Khi đi ngang cây phỉ, đàn chim trắng bay xuống đậu trên vai nàng, hót vang mừng rỡ.",
+      "subtitles": [
+        "Hoàng tử muốn gặp cô ngay. Lọ Lem rửa sạch tay và mặt, bước ra cúi chào.",
+        "Cô ngồi lên ghế đẩu, cởi chiếc guốc gỗ, xỏ chân vào chiếc hài vàng. Chiếc hài vừa như in.",
+        "Khi cô ngẩng lên, hoàng tử nhận ra ngay người con gái đã khiêu vũ với mình ba đêm liền.",
+        "\"Đây mới chính là cô dâu của ta!\"",
+        "Hai cô chị và mẹ kế tái mặt, xấu hổ đến nỗi lặng lẽ bỏ đi. Hoàng tử đỡ Lọ Lem lên ngựa.",
+        "Khi đi ngang cây phỉ, đàn chim trắng bay xuống đậu trên vai nàng, hót vang mừng rỡ."
+      ],
+      "image": {
+        "prompt": "Cinderella in her grey dress sits on a wooden stool and slips her foot into the shining golden slipper, a perfect fit, the prince kneeling with delight, white doves fluttering joyfully around them, sunlight in the manor hall",
+        "seed": 32491523,
+        "character": "lo-lem"
+      },
+      "video": {
+        "motionPrompt": "the slipper slides on and gleams, the prince smiles widely, doves circle and land on Cinderella’s shoulders, warm light, slow pull-back",
+        "seed": 2722209409
+      },
+      "voice": {}
+    },
+    {
+      "id": "hanh-phuc",
+      "title": "Hạnh phúc bên nhau",
+      "narrator": "ke-chuyen",
+      "narration": "Đám cưới của hoàng tử và Lọ Lem được tổ chức thật vui. Cả vương quốc kéo đến chúc mừng. Lọ Lem không còn nằm bên bếp tro nữa, nhưng cô vẫn hiền hậu như lời mẹ dặn. Mỗi mùa xuân, nàng lại về thăm cây phỉ bên mộ mẹ, và đàn chim trắng lại bay về, hót líu lo trên những cành cây xanh mướt. Người ta bảo, ai sống tốt và hiền hậu, rồi sẽ có ngày được đền đáp.",
+      "subtitles": [
+        "Đám cưới của hoàng tử và Lọ Lem được tổ chức thật vui. Cả vương quốc kéo đến chúc mừng.",
+        "Lọ Lem không còn nằm bên bếp tro nữa, nhưng cô vẫn hiền hậu như lời mẹ dặn.",
+        "Mỗi mùa xuân, nàng lại về thăm cây phỉ bên mộ mẹ, và đàn chim trắng lại bay về,",
+        "hót líu lo trên những cành cây xanh mướt.",
+        "Người ta bảo, ai sống tốt và hiền hậu, rồi sẽ có ngày được đền đáp."
+      ],
+      "image": {
+        "prompt": "Cinderella as a princess in a simple elegant gown and the prince stand hand in hand beneath the blossoming hazel tree on the green hillside, a flock of white doves flying around them, bright spring sky",
+        "seed": 1555106690,
+        "character": "lo-lem"
+      },
+      "video": {
+        "motionPrompt": "doves swirl upward around the couple, hazel leaves shimmer in the breeze, petals drift, gentle slow camera rise",
+        "seed": 1561054562
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle romantic European fairy-tale waltz, harp, celesta, soft strings and flute, tender and hopeful, slow three-four tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4024537273
+  }
+}

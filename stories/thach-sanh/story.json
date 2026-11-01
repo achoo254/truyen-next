@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "slug": "thach-sanh",
+  "shelf": "kids",
+  "title": "Thạch Sanh",
+  "summary": "Chàng Thạch Sanh mồ côi sống dưới gốc đa, tốt bụng và dũng cảm, đánh bại chằn tinh, cứu công chúa khỏi đại bàng, rồi bị Lý Thông lừa mất công. Tiếng đàn thần và niêu cơm ăn mãi không hết giúp sự thật sáng tỏ. Bản kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "anh-hung",
+    "thien-ac"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản nhẹ cho trẻ nhỏ: các trận đánh kể ngắn, chằn tinh và đại bàng bị đánh bại rồi biến mất, không tả cảnh đâm chém; mẹ con Lý Thông bị đuổi đi.",
+  "basedOn": "Truyện dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, monsters drawn cute and silly rather than scary, old Vietnamese village, palace and mountains, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 4043270608
+    },
+    {
+      "id": "thach-sanh",
+      "name": "Thạch Sanh",
+      "seed": 832437079,
+      "sheetPrompt": "Thach Sanh, a strong kind young Vietnamese woodcutter hero from the folk tale, honest smiling face, black hair tied up with a cloth band, simple brown sleeveless tunic and dark trousers, a wooden axe for chopping firewood on his shoulder, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ly-thong",
+      "name": "Lý Thông",
+      "seed": 4185483320,
+      "sheetPrompt": "Ly Thong, a sly comical Vietnamese wine seller from the folk tale, narrow eyes and a thin curly moustache, sneaky grin, green robe and a small black hat, rubbing his hands together, not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "seed": 816685187,
+      "sheetPrompt": "a kind gentle Vietnamese princess from the folk tale, long black hair with a small golden hairpin, soft pink and gold ao giao linh style royal dress, calm sweet face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chan-tinh",
+      "name": "Chằn tinh",
+      "seed": 3114854670,
+      "sheetPrompt": "a big silly cartoon python monster from a Vietnamese folk tale, chubby green scaly body, big goofy eyes, a tiny crown-like crest, more funny than frightening, for young children, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đang ôm một cây đàn nhỏ đây. Tưng tưng tưng, nghe hay không nào? Ngày xưa có một cây đàn thần, gảy lên là nói được cả nỗi lòng của người chơi. Cây đàn ấy là của một chàng trai tốt bụng, dũng cảm tên là Thạch Sanh. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Mèo Miu đang ôm một cây đàn nhỏ đây.",
+        "Tưng tưng tưng, nghe hay không nào?",
+        "Ngày xưa có một cây đàn thần, gảy lên là nói được cả nỗi lòng của người chơi.",
+        "Cây đàn ấy là của một chàng trai tốt bụng, dũng cảm tên là Thạch Sanh.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits under a big banyan tree plucking a small one-string Vietnamese zither, musical notes floating in the air, an open picture book beside her, warm afternoon light",
+        "seed": 2448292925,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat plucks the string and sways to the music, little glowing notes float upward, banyan roots sway, slow camera push-in",
+        "seed": 1901374108
+      },
+      "voice": {}
+    },
+    {
+      "id": "goc-da",
+      "title": "Chàng trai dưới gốc đa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một chàng trai mồ côi tên là Thạch Sanh. Chàng sống một mình trong túp lều dưới gốc đa, hằng ngày vào rừng đốn củi. Chàng có sức khỏe hơn người, lại được thần tiên dạy cho nhiều phép lạ. Một hôm, có người bán rượu tên là Lý Thông đi ngang qua. Thấy Thạch Sanh khỏe mạnh, Lý Thông nghĩ bụng sẽ có lợi, bèn ngọt ngào rủ chàng kết làm anh em, về ở cùng nhà.",
+      "subtitles": [
+        "Ngày xưa, có một chàng trai mồ côi tên là Thạch Sanh.",
+        "Chàng sống một mình trong túp lều dưới gốc đa, hằng ngày vào rừng đốn củi.",
+        "Chàng có sức khỏe hơn người, lại được thần tiên dạy cho nhiều phép lạ.",
+        "Một hôm, có người bán rượu tên là Lý Thông đi ngang qua.",
+        "Thấy Thạch Sanh khỏe mạnh, Lý Thông nghĩ bụng sẽ có lợi,",
+        "bèn ngọt ngào rủ chàng kết làm anh em, về ở cùng nhà."
+      ],
+      "image": {
+        "prompt": "under a huge banyan tree beside a small leaf hut, strong kind Thach Sanh carries a big bundle of firewood, sly Ly Thong with a wine jar smiles widely and bows to him",
+        "seed": 2560543256,
+        "character": "thach-sanh"
+      },
+      "video": {
+        "motionPrompt": "Thach Sanh sets down the firewood and smiles, Ly Thong rubs his hands and bows deeply, banyan leaves drift down",
+        "seed": 514359559
+      },
+      "voice": {}
+    },
+    {
+      "id": "chan-tinh",
+      "title": "Đánh bại chằn tinh",
+      "narrator": "ke-chuyen",
+      "narration": "Trong vùng có một con chằn tinh to lớn, mỗi năm bắt dân làng phải đưa một người lên miếu. Năm ấy đến lượt Lý Thông. Hắn sợ quá, bèn lừa Thạch Sanh đi canh miếu thay mình. Đêm khuya, chằn tinh hiện ra, phun khói mù mịt. Thạch Sanh không hề sợ, vung búa đánh trả. Chằn tinh thua, hiện nguyên hình rồi tan biến thành làn khói, để lại một bộ cung tên bằng vàng sáng lấp lánh.",
+      "subtitles": [
+        "Trong vùng có một con chằn tinh to lớn, mỗi năm bắt dân làng phải đưa một người lên miếu.",
+        "Năm ấy đến lượt Lý Thông. Hắn sợ quá, bèn lừa Thạch Sanh đi canh miếu thay mình.",
+        "Đêm khuya, chằn tinh hiện ra, phun khói mù mịt.",
+        "Thạch Sanh không hề sợ, vung búa đánh trả.",
+        "Chằn tinh thua, hiện nguyên hình rồi tan biến thành làn khói,",
+        "để lại một bộ cung tên bằng vàng sáng lấp lánh."
+      ],
+      "image": {
+        "prompt": "at night in front of an old mountain shrine, brave Thach Sanh stands firm while a big silly green python monster puffs out clouds of grey smoke, then the monster fades into mist leaving a shining golden bow and arrows",
+        "seed": 1572702740,
+        "character": "thach-sanh"
+      },
+      "video": {
+        "motionPrompt": "the cartoon monster puffs smoke and wobbles, Thach Sanh stands tall, the monster swirls into fading mist, the golden bow begins to glow",
+        "seed": 410619576
+      },
+      "voice": {}
+    },
+    {
+      "id": "ly-thong-cuop-cong",
+      "title": "Lý Thông cướp công",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, Lý Thông lại lừa Thạch Sanh: Em ơi, con chằn tinh ấy là của nhà vua nuôi. Em mau trốn đi, để anh ở lại lo liệu. Thạch Sanh thật thà, cảm ơn anh rồi quay về gốc đa. Còn Lý Thông thì mang chuyện lên kinh đô, nói rằng chính hắn đã đánh bại chằn tinh. Nhà vua tin lời, phong cho hắn làm quận công.",
+      "subtitles": [
+        "Sáng hôm sau, Lý Thông lại lừa Thạch Sanh: Em ơi, con chằn tinh ấy là của nhà vua nuôi.",
+        "Em mau trốn đi, để anh ở lại lo liệu. Thạch Sanh thật thà, cảm ơn anh rồi quay về gốc đa.",
+        "Còn Lý Thông thì mang chuyện lên kinh đô, nói rằng chính hắn đã đánh bại chằn tinh.",
+        "Nhà vua tin lời, phong cho hắn làm quận công."
+      ],
+      "image": {
+        "prompt": "in a royal palace hall, Ly Thong in a new shiny official robe bows proudly before the king, while far away in a small picture inset Thach Sanh walks back alone to his banyan tree with his axe",
+        "seed": 2785641050,
+        "character": "ly-thong"
+      },
+      "video": {
+        "motionPrompt": "Ly Thong bows and grins sneakily, the king nods and hands him a seal, palace banners sway, far away Thach Sanh walks under the setting sun",
+        "seed": 1049039166
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuu-cong-chua",
+      "title": "Cứu công chúa",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua có một nàng công chúa hiền lành. Một hôm, đại bàng khổng lồ sà xuống, quắp công chúa bay đi. Thạch Sanh ở gốc đa trông thấy, giương cung vàng bắn một mũi tên trúng cánh đại bàng. Chàng lần theo những chiếc lông vàng rơi xuống, tìm đến một hang sâu. Thạch Sanh xuống hang, đánh đuổi đại bàng, đưa công chúa lên. Nhưng Lý Thông đứng chờ trên miệng hang, đón lấy công chúa rồi lấp cửa hang lại.",
+      "subtitles": [
+        "Nhà vua có một nàng công chúa hiền lành.",
+        "Một hôm, đại bàng khổng lồ sà xuống, quắp công chúa bay đi.",
+        "Thạch Sanh ở gốc đa trông thấy, giương cung vàng bắn một mũi tên trúng cánh đại bàng.",
+        "Chàng lần theo những chiếc lông vàng rơi xuống, tìm đến một hang sâu.",
+        "Thạch Sanh xuống hang, đánh đuổi đại bàng, đưa công chúa lên.",
+        "Nhưng Lý Thông đứng chờ trên miệng hang, đón lấy công chúa rồi lấp cửa hang lại."
+      ],
+      "image": {
+        "prompt": "a giant golden eagle flies over green mountains carrying the princess gently in its claws, below Thach Sanh aims his shining golden bow, golden feathers drift down toward a cave entrance",
+        "seed": 2897899047,
+        "character": "thach-sanh"
+      },
+      "video": {
+        "motionPrompt": "the eagle flaps its huge wings across the sky, Thach Sanh draws the golden bow, a glowing arrow streaks up, golden feathers flutter down",
+        "seed": 2342693400
+      },
+      "voice": {}
+    },
+    {
+      "id": "dan-than",
+      "title": "Cây đàn thần",
+      "narrator": "ke-chuyen",
+      "narration": "Trong hang tối, Thạch Sanh tìm thấy thái tử con vua Thủy Tề đang bị nhốt trong cũi sắt. Chàng phá cũi cứu thái tử, rồi tìm được lối ra. Vua Thủy Tề cảm ơn, tặng chàng một cây đàn thần. Còn công chúa từ hôm về cung thì buồn bã, chẳng nói chẳng cười. Thạch Sanh lại bị Lý Thông đổ oan, bị bắt giam vào ngục. Trong ngục, chàng lấy đàn ra gảy. Tiếng đàn vang lên: Đàn kêu tích tịch tình tang, ai đem công chúa dưới hang trở về?",
+      "subtitles": [
+        "Trong hang tối, Thạch Sanh tìm thấy thái tử con vua Thủy Tề đang bị nhốt trong cũi sắt.",
+        "Chàng phá cũi cứu thái tử, rồi tìm được lối ra.",
+        "Vua Thủy Tề cảm ơn, tặng chàng một cây đàn thần.",
+        "Còn công chúa từ hôm về cung thì buồn bã, chẳng nói chẳng cười.",
+        "Thạch Sanh lại bị Lý Thông đổ oan, bị bắt giam vào ngục.",
+        "Trong ngục, chàng lấy đàn ra gảy.",
+        "Tiếng đàn vang lên: Đàn kêu tích tịch tình tang, ai đem công chúa dưới hang trở về?"
+      ],
+      "image": {
+        "prompt": "Thach Sanh sits calmly in a simple wooden prison cell playing a glowing magic zither, soft musical notes float out through the window toward a palace tower where the princess listens",
+        "seed": 3674571075,
+        "character": "thach-sanh"
+      },
+      "video": {
+        "motionPrompt": "Thach Sanh plucks the glowing zither, shimmering notes drift out the window and float up to the palace, the princess turns her head",
+        "seed": 3621238671
+      },
+      "voice": {}
+    },
+    {
+      "id": "su-that",
+      "title": "Sự thật sáng tỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe tiếng đàn, công chúa bỗng bật cười rồi nói được. Nàng xin vua cha cho gọi người gảy đàn đến. Thạch Sanh kể lại mọi chuyện, từ con chằn tinh đến hang đại bàng. Nhà vua hiểu ra, giận Lý Thông lắm. Thạch Sanh hiền lành xin vua tha cho mẹ con hắn. Vua đuổi mẹ con Lý Thông về quê, chúng xấu hổ bỏ đi, không bao giờ dám quay lại nữa. Vua gả công chúa cho Thạch Sanh.",
+      "subtitles": [
+        "Nghe tiếng đàn, công chúa bỗng bật cười rồi nói được.",
+        "Nàng xin vua cha cho gọi người gảy đàn đến.",
+        "Thạch Sanh kể lại mọi chuyện, từ con chằn tinh đến hang đại bàng.",
+        "Nhà vua hiểu ra, giận Lý Thông lắm. Thạch Sanh hiền lành xin vua tha cho mẹ con hắn.",
+        "Vua đuổi mẹ con Lý Thông về quê, chúng xấu hổ bỏ đi, không bao giờ dám quay lại nữa.",
+        "Vua gả công chúa cho Thạch Sanh."
+      ],
+      "image": {
+        "prompt": "in the bright palace hall, the smiling princess stands beside Thach Sanh holding the magic zither, the king listens kindly, ashamed Ly Thong and his mother bow their heads and shuffle out the door",
+        "seed": 3857782141,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the princess laughs happily, the king nods, Ly Thong and his mother slink out with their heads down, petals fall from the ceiling",
+        "seed": 4041755480
+      },
+      "voice": {}
+    },
+    {
+      "id": "nieu-com",
+      "title": "Niêu cơm thần",
+      "narrator": "ke-chuyen",
+      "narration": "Các nước láng giềng tức giận vì công chúa không chọn hoàng tử nước mình, bèn kéo quân sang. Thạch Sanh mang đàn ra gảy, tiếng đàn hiền hòa làm quân lính nhớ nhà, chẳng ai muốn đánh nhau nữa. Rồi chàng mời họ ăn cơm bằng một niêu cơm bé tí. Quân lính cười chê, nhưng ăn mãi, ăn mãi, niêu cơm vẫn đầy. Họ phục quá, cúi chào Thạch Sanh rồi kéo nhau về nước.",
+      "subtitles": [
+        "Các nước láng giềng tức giận vì công chúa không chọn hoàng tử nước mình,",
+        "bèn kéo quân sang. Thạch Sanh mang đàn ra gảy, tiếng đàn hiền hòa làm quân lính nhớ nhà,",
+        "chẳng ai muốn đánh nhau nữa. Rồi chàng mời họ ăn cơm bằng một niêu cơm bé tí.",
+        "Quân lính cười chê, nhưng ăn mãi, ăn mãi, niêu cơm vẫn đầy.",
+        "Họ phục quá, cúi chào Thạch Sanh rồi kéo nhau về nước."
+      ],
+      "image": {
+        "prompt": "a big friendly crowd of foreign soldiers sitting on a green field eating rice happily, in the middle Thach Sanh holds a tiny clay rice pot that stays full, the soldiers laugh in amazement, flags lowered",
+        "seed": 2636350206,
+        "character": "thach-sanh"
+      },
+      "video": {
+        "motionPrompt": "soldiers scoop rice again and again from the tiny pot that never empties, they laugh and clap, Thach Sanh smiles, flags flutter",
+        "seed": 3586686680
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thế là Thạch Sanh và công chúa sống hạnh phúc, đất nước được bình yên. Các bạn thấy không, người tốt bụng, dũng cảm và thật thà thì cuối cùng sẽ được mọi người yêu quý, còn kẻ gian dối thì phải xấu hổ. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Thế là Thạch Sanh và công chúa sống hạnh phúc, đất nước được bình yên.",
+        "Các bạn thấy không, người tốt bụng,",
+        "dũng cảm và thật thà thì cuối cùng sẽ được mọi người yêu quý,",
+        "còn kẻ gian dối thì phải xấu hổ. Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye in a sunny palace garden, behind her Thach Sanh and the princess smile together, the magic zither and the little rice pot on a stone table, flowers everywhere",
+        "seed": 2379270325,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, Thach Sanh plucks a soft note and the princess smiles, petals drift, gentle camera pull-back",
+        "seed": 3633444827
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle heroic Vietnamese folk tune for children, dan bau one-string zither melody, soft bamboo flute and light drums, brave yet warm, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3440384382
+  }
+}

@@ -32,7 +32,7 @@ export const DEFAULT_PREFS: ReaderPrefs = {
   textSize: 'm',
   rate: 1,
   subtitles: true,
-  scenes: { kids: DEFAULT_READING_SCENE, adults: DEFAULT_READING_SCENE },
+  scenes: { kids: DEFAULT_READING_SCENE, adults: DEFAULT_READING_SCENE, world: DEFAULT_READING_SCENE },
 };
 
 const oneOf = <T,>(options: readonly T[], value: unknown, fallback: T): T => (options.includes(value as T) ? (value as T) : fallback);
@@ -42,9 +42,9 @@ export function parsePrefs(value: unknown): ReaderPrefs {
   const fallbackScene = lightDefaultScene();
   const scenes = isRecord(value) && isRecord(value.scenes) ? value.scenes : {};
   const sceneOf = (shelf: Shelf): ReadingSceneId => (isReadingSceneId(scenes[shelf]) ? scenes[shelf] : fallbackScene);
-  if (!isRecord(value)) return { ...DEFAULT_PREFS, scenes: { kids: fallbackScene, adults: fallbackScene } };
+  if (!isRecord(value)) return { ...DEFAULT_PREFS, scenes: { kids: fallbackScene, adults: fallbackScene, world: fallbackScene } };
   return {
-    scenes: { kids: sceneOf('kids'), adults: sceneOf('adults') },
+    scenes: { kids: sceneOf('kids'), adults: sceneOf('adults'), world: sceneOf('world') },
     autoTurn: typeof value.autoTurn === 'boolean' ? value.autoTurn : DEFAULT_PREFS.autoTurn,
     textSize: oneOf(TEXT_SIZES, value.textSize, DEFAULT_PREFS.textSize),
     rate: oneOf(RATES, value.rate, DEFAULT_PREFS.rate),

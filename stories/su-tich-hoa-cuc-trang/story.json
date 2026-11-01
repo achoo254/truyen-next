@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "slug": "su-tich-hoa-cuc-trang",
+  "shelf": "kids",
+  "title": "Sự tích hoa cúc trắng",
+  "summary": "Mẹ ốm nặng, cô bé hiếu thảo băng rừng đi tìm thuốc và được cụ già tóc bạc chỉ cho một bông hoa trắng: mỗi cánh hoa là một ngày mẹ còn ở bên. Cô bé đã nghĩ ra cách khiến bông hoa có thật nhiều cánh. Truyện dịu dàng về lòng hiếu thảo.",
+  "themes": [
+    "su-tich",
+    "gia-dinh",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian kể phổ biến ở Việt Nam (có bản tương tự trong truyện dân gian Nhật Bản), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "basedOn": "Truyện dân gian kể ở Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, gentle pastel light, rounded friendly shapes, calm and tender mood for young children, old Vietnamese village, misty forest and white flower fields, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 271147692
+    },
+    {
+      "id": "co-be",
+      "name": "Cô bé",
+      "seed": 706158669,
+      "sheetPrompt": "a small brave and loving Vietnamese village girl of about eight from the folk tale, two short black braids, big kind eyes, simple light yellow blouse and brown trousers, a little woven bag across her shoulder, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "me-co-be",
+      "name": "Người mẹ",
+      "seed": 3286930328,
+      "sheetPrompt": "a gentle young Vietnamese village mother from the folk tale, pale and tired but smiling softly, long black hair loose on the pillow, simple white blouse, resting under a thin blanket, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cu-gia",
+      "name": "Cụ già tóc bạc",
+      "seed": 4113337235,
+      "sheetPrompt": "a kind mysterious old man from Vietnamese folk tales who is really a gentle spirit, long silver hair and beard, warm smile, simple grey and white robe, wooden walking stick, a faint soft glow, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu vừa hái được một bông cúc trắng xinh xinh đây này. Các bạn thử đếm xem bông hoa có bao nhiêu cánh? Một, hai, ba, nhiều quá, đếm mãi không hết! Vì sao hoa cúc trắng lại có nhiều cánh như vậy nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Mèo Miu vừa hái được một bông cúc trắng xinh xinh đây này.",
+        "Các bạn thử đếm xem bông hoa có bao nhiêu cánh?",
+        "Một, hai, ba, nhiều quá, đếm mãi không hết!",
+        "Vì sao hoa cúc trắng lại có nhiều cánh như vậy nhỉ?",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits in a meadow full of white daisy-like chrysanthemums, holding one white chrysanthemum with many thin petals close to her face, an open picture book beside her",
+        "seed": 3123733814,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat touches the petals one by one as if counting, then laughs, white flowers sway in the breeze, slow camera push-in",
+        "seed": 2209165549
+      },
+      "voice": {}
+    },
+    {
+      "id": "me-om",
+      "title": "Mẹ bị ốm",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có hai mẹ con nghèo sống trong một túp lều nhỏ. Cô bé rất thương mẹ, chăm chỉ giúp mẹ quét nhà, nấu cơm. Một ngày nọ, mẹ bị ốm nặng, nằm mãi không dậy được. Cô bé lo lắm, ngồi bên giường nắm tay mẹ. Mẹ mỉm cười yếu ớt: Mẹ không sao đâu con. Nhưng cô bé biết mẹ mệt lắm. Cô quyết định đi tìm thầy thuốc giỏi về chữa cho mẹ.",
+      "subtitles": [
+        "Ngày xưa, có hai mẹ con nghèo sống trong một túp lều nhỏ.",
+        "Cô bé rất thương mẹ, chăm chỉ giúp mẹ quét nhà, nấu cơm.",
+        "Một ngày nọ, mẹ bị ốm nặng, nằm mãi không dậy được.",
+        "Cô bé lo lắm, ngồi bên giường nắm tay mẹ. Mẹ mỉm cười yếu ớt: Mẹ không sao đâu con.",
+        "Nhưng cô bé biết mẹ mệt lắm. Cô quyết định đi tìm thầy thuốc giỏi về chữa cho mẹ."
+      ],
+      "image": {
+        "prompt": "inside a small thatched hut, the little girl sits beside her tired mother lying on a bamboo bed, holding her hand, a cup of warm water on a stool, soft window light",
+        "seed": 618934382,
+        "character": "co-be"
+      },
+      "video": {
+        "motionPrompt": "the girl gently strokes her mother's hand, the mother smiles weakly, a curtain moves softly in the breeze",
+        "seed": 1326788550
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-cu-gia",
+      "title": "Gặp cụ già tóc bạc",
+      "narrator": "ke-chuyen",
+      "narration": "Cô bé chạy thật nhanh, qua đồng lúa, qua con suối nhỏ. Giữa đường, cô gặp một cụ già tóc bạc phơ, chống gậy đứng bên vệ đường. Cụ hỏi: Cháu đi đâu mà vội thế? Cô bé lễ phép thưa: Thưa cụ, mẹ cháu ốm nặng, cháu đi tìm thầy thuốc ạ. Cụ già nhìn cô bé hiền từ, rồi bảo: Ta là thầy thuốc đây. Cháu dẫn ta về thăm mẹ cháu nhé.",
+      "subtitles": [
+        "Cô bé chạy thật nhanh, qua đồng lúa, qua con suối nhỏ.",
+        "Giữa đường, cô gặp một cụ già tóc bạc phơ, chống gậy đứng bên vệ đường.",
+        "Cụ hỏi: Cháu đi đâu mà vội thế?",
+        "Cô bé lễ phép thưa: Thưa cụ, mẹ cháu ốm nặng, cháu đi tìm thầy thuốc ạ.",
+        "Cụ già nhìn cô bé hiền từ, rồi bảo: Ta là thầy thuốc đây.",
+        "Cháu dẫn ta về thăm mẹ cháu nhé."
+      ],
+      "image": {
+        "prompt": "on a country path beside rice fields, the little girl bows politely to a kind old man with long silver hair and a walking stick, a small stream and a bamboo bridge behind them, morning mist",
+        "seed": 1098868170,
+        "character": "cu-gia"
+      },
+      "video": {
+        "motionPrompt": "the girl bows, the old man leans on his stick and smiles kindly, the mist drifts slowly over the rice fields",
+        "seed": 707189331
+      },
+      "voice": {}
+    },
+    {
+      "id": "bong-hoa-trang",
+      "title": "Đi tìm bông hoa trắng",
+      "narrator": "ke-chuyen",
+      "narration": "Cụ già xem bệnh cho mẹ xong, bảo cô bé: Cháu hãy vào rừng, đến gốc cây đa cổ thụ, sẽ thấy một bông hoa trắng. Cháu hái về đây. Bông hoa có bao nhiêu cánh thì mẹ cháu còn ở bên cháu bấy nhiêu ngày. Cô bé cảm ơn cụ rồi chạy ngay vào rừng. Rừng sâu, đường xa, chân cô bé mỏi nhừ, nhưng cô vẫn không dừng lại.",
+      "subtitles": [
+        "Cụ già xem bệnh cho mẹ xong, bảo cô bé: Cháu hãy vào rừng, đến gốc cây đa cổ thụ,",
+        "sẽ thấy một bông hoa trắng. Cháu hái về đây.",
+        "Bông hoa có bao nhiêu cánh thì mẹ cháu còn ở bên cháu bấy nhiêu ngày.",
+        "Cô bé cảm ơn cụ rồi chạy ngay vào rừng.",
+        "Rừng sâu, đường xa, chân cô bé mỏi nhừ, nhưng cô vẫn không dừng lại."
+      ],
+      "image": {
+        "prompt": "the little girl walks bravely through a misty green forest along a narrow path, holding up her skirt, tall trees and ferns around her, a huge old banyan tree visible far ahead in soft light",
+        "seed": 3470992284,
+        "character": "co-be"
+      },
+      "video": {
+        "motionPrompt": "the girl hurries along the forest path, ferns sway as she passes, sunbeams slant through the mist toward the old banyan tree",
+        "seed": 579747110
+      },
+      "voice": {}
+    },
+    {
+      "id": "chi-co-nam-canh",
+      "title": "Bông hoa chỉ có năm cánh",
+      "narrator": "ke-chuyen",
+      "narration": "Đến gốc đa, cô bé thấy một bông hoa trắng nhỏ xinh. Cô nhẹ nhàng hái hoa, rồi đếm: Một, hai, ba, bốn, năm. Chỉ có năm cánh thôi! Cô bé buồn quá, nước mắt lăn dài: Vậy là mẹ chỉ còn ở với mình năm ngày nữa sao? Không được, mình phải ở bên mẹ thật lâu cơ!",
+      "subtitles": [
+        "Đến gốc đa, cô bé thấy một bông hoa trắng nhỏ xinh.",
+        "Cô nhẹ nhàng hái hoa, rồi đếm: Một, hai, ba, bốn, năm.",
+        "Chỉ có năm cánh thôi!",
+        "Cô bé buồn quá, nước mắt lăn dài: Vậy là mẹ chỉ còn ở với mình năm ngày nữa sao?",
+        "Không được, mình phải ở bên mẹ thật lâu cơ!"
+      ],
+      "image": {
+        "prompt": "at the roots of a giant old banyan tree, the little girl kneels holding a small white flower with only five petals, a tear on her cheek, soft rays of light fall around her",
+        "seed": 3692749847,
+        "character": "co-be"
+      },
+      "video": {
+        "motionPrompt": "the girl counts the five petals with a fingertip, her lips tremble, a single leaf floats down past her, light rays shimmer",
+        "seed": 685282044
+      },
+      "voice": {}
+    },
+    {
+      "id": "xe-canh-hoa",
+      "title": "Cô bé nghĩ ra cách",
+      "narrator": "ke-chuyen",
+      "narration": "Cô bé ngồi nghĩ, nghĩ mãi. Rồi mắt cô sáng lên. Cô cẩn thận tách mỗi cánh hoa ra thành thật nhiều sợi nhỏ, nhỏ như sợi tơ. Cô làm chậm rãi, khéo léo, sợi nào cũng mềm mại cong cong. Chẳng mấy chốc, bông hoa năm cánh đã thành một bông hoa có nhiều cánh đến mức không ai đếm hết được.",
+      "subtitles": [
+        "Cô bé ngồi nghĩ, nghĩ mãi. Rồi mắt cô sáng lên.",
+        "Cô cẩn thận tách mỗi cánh hoa ra thành thật nhiều sợi nhỏ, nhỏ như sợi tơ.",
+        "Cô làm chậm rãi, khéo léo, sợi nào cũng mềm mại cong cong.",
+        "Chẳng mấy chốc,",
+        "bông hoa năm cánh đã thành một bông hoa có nhiều cánh đến mức không ai đếm hết được."
+      ],
+      "image": {
+        "prompt": "close-up of the little girl's careful small hands gently separating each white petal into many thin silky strands, the flower slowly becoming a full white chrysanthemum, gentle golden light",
+        "seed": 425255261,
+        "character": "co-be"
+      },
+      "video": {
+        "motionPrompt": "the girl's fingers gently split a petal into fine curling strands, the flower grows fuller and fluffier, soft sparkles float up",
+        "seed": 1482318149
+      },
+      "voice": {}
+    },
+    {
+      "id": "me-khoe-lai",
+      "title": "Mẹ khỏe lại",
+      "narrator": "ke-chuyen",
+      "narration": "Cô bé ôm bông hoa chạy về nhà. Cụ già nhìn bông hoa, mỉm cười: Cháu thật là hiếu thảo. Lòng thương mẹ của cháu đã chữa khỏi bệnh cho mẹ rồi. Nói xong, cụ biến mất. Từ hôm ấy, mẹ cô bé khỏe dần lên, lại cùng con ra đồng, cùng con nấu cơm. Bông hoa nhiều cánh ấy được người ta gọi là hoa cúc trắng.",
+      "subtitles": [
+        "Cô bé ôm bông hoa chạy về nhà. Cụ già nhìn bông hoa, mỉm cười: Cháu thật là hiếu thảo.",
+        "Lòng thương mẹ của cháu đã chữa khỏi bệnh cho mẹ rồi.",
+        "Nói xong, cụ biến mất.",
+        "Từ hôm ấy, mẹ cô bé khỏe dần lên, lại cùng con ra đồng, cùng con nấu cơm.",
+        "Bông hoa nhiều cánh ấy được người ta gọi là hoa cúc trắng."
+      ],
+      "image": {
+        "prompt": "the happy mother, now healthy, hugs her little girl at the door of the hut, the white chrysanthemum in a clay vase on the table, the kind old man fading into soft light outside",
+        "seed": 1552278002,
+        "character": "me-co-be"
+      },
+      "video": {
+        "motionPrompt": "mother and daughter hug and sway gently, the old man smiles and fades into glowing light, the chrysanthemum petals stir softly",
+        "seed": 2010351730
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, tấm lòng yêu thương của cô bé dành cho mẹ đã làm nên điều kỳ diệu. Mỗi lần nhìn bông cúc trắng, các bạn hãy nhớ đến mẹ, và giúp mẹ một việc nhỏ thôi cũng được, như quét nhà hay xếp dép chẳng hạn. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, tấm lòng yêu thương của cô bé dành cho mẹ đã làm nên điều kỳ diệu.",
+        "Mỗi lần nhìn bông cúc trắng, các bạn hãy nhớ đến mẹ,",
+        "và giúp mẹ một việc nhỏ thôi cũng được, như quét nhà hay xếp dép chẳng hạn.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye in a field of white chrysanthemums, behind her the mother and the little girl walk hand in hand toward their cosy hut at sunset",
+        "seed": 2502596276,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly holding a white chrysanthemum, mother and daughter walk away hand in hand, petals drift, gentle camera pull-back",
+        "seed": 129351845
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender Vietnamese folk lullaby, soft dan tranh zither and bamboo flute, gentle and loving, slightly wistful turning bright and hopeful, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3797685337
+  }
+}

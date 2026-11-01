@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "slug": "aladdin-va-cay-den-than",
+  "shelf": "world",
+  "title": "Aladdin và cây đèn thần",
+  "summary": "Chàng trai nghèo Aladdin bị một lão phù thủy lừa xuống hang báu lấy cây đèn cũ, nào ngờ đó là cây đèn thần có vị thần khổng lồ vâng lệnh người cầm đèn. Truyện Nghìn lẻ một đêm theo bản Galland, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "than-thoai",
+    "thien-ac",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện \"Aladdin và cây đèn thần\" trong bộ Nghìn lẻ một đêm do Antoine Galland chép và dịch sang tiếng Pháp (1710), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, theo bản Galland chứ không theo phim, không chép bản dịch nào.",
+  "basedOn": "Nghìn lẻ một đêm (bản Galland)",
+  "style": "classic Arabian Nights storybook illustration from the golden age of book illustration, rich jewel tones of sapphire, emerald, ruby and gold, ornate arches and domes, patterned carpets, soft glowing light, magical warm mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "aladdin",
+      "name": "Aladdin",
+      "sheetPrompt": "Aladdin, a lively young man of the old Orient, dark curly hair, warm brown eyes, a simple striped tunic with a sash and loose trousers, soft slippers, a copper ring on his finger, full body, front view, plain light background, character reference sheet",
+      "seed": 387290205
+    },
+    {
+      "id": "phu-thuy",
+      "name": "Lão phù thủy",
+      "sheetPrompt": "a sly old sorcerer from distant Africa in a tale of the Orient, long grey beard, narrow eyes, tall dark turban, flowing purple robe with silver star patterns, full body, front view, plain light background, character reference sheet, storybook villain, not scary",
+      "seed": 3901660174
+    },
+    {
+      "id": "than-den",
+      "name": "Thần đèn",
+      "sheetPrompt": "a huge friendly genie rising from an old brass oil lamp in a swirl of smoke, broad chest, golden armbands, a jewel on his turban, deep blue-green skin, solemn but kind face, plain light background, character reference sheet",
+      "seed": 2650815555
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "sheetPrompt": "a graceful princess of the old Orient, long black hair under a light veil, a pearl headdress, a flowing rose and gold embroidered gown, kind clever eyes, full body, front view, plain light background, character reference sheet",
+      "seed": 3867588431
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nguoi-chu-la-mat",
+      "title": "Người chú lạ mặt",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một thành phố lớn phương Đông, có cậu bé Aladdin, con trai một bác thợ may nghèo. Cha mất sớm, Aladdin sống với mẹ, suốt ngày chỉ mải rong chơi ngoài phố. Một hôm, có một người đàn ông lạ, râu dài, mắt sắc, đến bắt chuyện: “Cháu ơi, ta là chú ruột của cháu, đi xa bao năm nay mới về.” Thật ra, đó là một lão phù thủy từ châu Phi xa xôi. Lão đã đọc trong sách cổ rằng có một cây đèn thần giấu dưới lòng đất, và chỉ một cậu bé như Aladdin mới vào lấy được.",
+      "subtitles": [
+        "Ngày xưa, ở một thành phố lớn phương Đông, có cậu bé Aladdin,",
+        "con trai một bác thợ may nghèo.",
+        "Cha mất sớm, Aladdin sống với mẹ, suốt ngày chỉ mải rong chơi ngoài phố.",
+        "Một hôm, có một người đàn ông lạ, râu dài, mắt sắc, đến bắt chuyện:",
+        "“Cháu ơi, ta là chú ruột của cháu, đi xa bao năm nay mới về.”",
+        "Thật ra, đó là một lão phù thủy từ châu Phi xa xôi.",
+        "Lão đã đọc trong sách cổ rằng có một cây đèn thần giấu dưới lòng đất,",
+        "và chỉ một cậu bé như Aladdin mới vào lấy được."
+      ],
+      "image": {
+        "prompt": "a busy bazaar street in an old city of the Orient with domes and minarets, young Aladdin in a striped tunic meeting a tall bearded sorcerer in a purple robe and dark turban who smiles slyly and puts a hand on his shoulder",
+        "seed": 2948834051,
+        "character": "phu-thuy"
+      },
+      "video": {
+        "motionPrompt": "market awnings flutter, people pass in the background, the sorcerer leans toward Aladdin with a sly smile, slow push-in",
+        "seed": 3256368467
+      },
+      "voice": {}
+    },
+    {
+      "id": "hang-bau",
+      "title": "Hang báu dưới lòng đất",
+      "narrator": "ke-chuyen",
+      "narration": "Lão dẫn Aladdin ra khỏi thành, đến một thung lũng vắng giữa hai ngọn núi. Lão nhóm lửa, rắc bột thơm, đọc thần chú. Mặt đất rung lên, mở ra một phiến đá có khoen đồng. Lão tháo chiếc nhẫn trên tay đeo cho Aladdin, dặn: “Cháu xuống dưới, đi qua ba gian phòng, đừng chạm vào thứ gì. Cuối vườn có một cây đèn dầu cũ trên hốc tường. Mang nó lên cho ta.” Aladdin xuống hang. Trong vườn ngầm, cây nào cũng trĩu những quả bằng ngọc đỏ, xanh, tím, lấp lánh như sao. Cậu hái đầy túi rồi cầm lấy cây đèn.",
+      "subtitles": [
+        "Lão dẫn Aladdin ra khỏi thành, đến một thung lũng vắng giữa hai ngọn núi.",
+        "Lão nhóm lửa, rắc bột thơm, đọc thần chú.",
+        "Mặt đất rung lên, mở ra một phiến đá có khoen đồng.",
+        "Lão tháo chiếc nhẫn trên tay đeo cho Aladdin, dặn:",
+        "“Cháu xuống dưới, đi qua ba gian phòng, đừng chạm vào thứ gì.",
+        "Cuối vườn có một cây đèn dầu cũ trên hốc tường. Mang nó lên cho ta.”",
+        "Aladdin xuống hang. Trong vườn ngầm, cây nào cũng trĩu những quả bằng ngọc",
+        "đỏ, xanh, tím, lấp lánh như sao. Cậu hái đầy túi rồi cầm lấy cây đèn."
+      ],
+      "image": {
+        "prompt": "an underground enchanted garden glowing softly, trees heavy with fruits made of rubies, emeralds and amethysts, young Aladdin reaching for an old brass oil lamp in a wall niche at the end of the garden, magical light",
+        "seed": 2812850594,
+        "character": "aladdin"
+      },
+      "video": {
+        "motionPrompt": "jewel fruits glitter and sway, soft light pulses, Aladdin lifts the old lamp gently, sparkles drift in the air",
+        "seed": 2308722226
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-nhot",
+      "title": "Bị nhốt trong hang",
+      "narrator": "ke-chuyen",
+      "narration": "Ra đến cửa hang, bậc cuối cao quá, Aladdin không leo lên được. “Chú ơi, kéo cháu lên với!” “Đưa cây đèn đây trước đã!” “Chú kéo cháu lên rồi cháu đưa!” Hai bên giằng co mãi. Lão phù thủy nổi giận, đọc thần chú, phiến đá đóng sập lại, nhốt Aladdin trong bóng tối. Cậu ngồi khóc, chắp tay cầu xin, vô tình xoa vào chiếc nhẫn trên tay. Lập tức, một thần nhẫn hiện ra: “Cậu chủ cần gì, tôi xin vâng lệnh!” “Đưa tôi về nhà!” Chớp mắt, Aladdin đã đứng trước cửa nhà mình.",
+      "subtitles": [
+        "Ra đến cửa hang, bậc cuối cao quá, Aladdin không leo lên được.",
+        "“Chú ơi, kéo cháu lên với!” “Đưa cây đèn đây trước đã!”",
+        "“Chú kéo cháu lên rồi cháu đưa!”",
+        "Hai bên giằng co mãi. Lão phù thủy nổi giận, đọc thần chú,",
+        "phiến đá đóng sập lại, nhốt Aladdin trong bóng tối.",
+        "Cậu ngồi khóc, chắp tay cầu xin, vô tình xoa vào chiếc nhẫn trên tay.",
+        "Lập tức, một thần nhẫn hiện ra: “Cậu chủ cần gì, tôi xin vâng lệnh!”",
+        "“Đưa tôi về nhà!” Chớp mắt, Aladdin đã đứng trước cửa nhà mình."
+      ],
+      "image": {
+        "prompt": "Aladdin sitting in a dim cave holding the old lamp, rubbing a copper ring on his finger, a small shimmering ring spirit appearing in a swirl of golden light, the stone above shut tight",
+        "seed": 9446880,
+        "character": "aladdin"
+      },
+      "video": {
+        "motionPrompt": "golden light swirls out of the ring, the ring spirit bows, Aladdin looks up in wonder, dust sparkles in the glow",
+        "seed": 1202150032
+      },
+      "voice": {}
+    },
+    {
+      "id": "than-den",
+      "title": "Thần đèn",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà chẳng còn gì ăn. Mẹ Aladdin định đem cây đèn cũ đi bán, bèn lấy giẻ lau cho sáng. Bà vừa xoa một cái, khói bốc lên cuồn cuộn, và một vị thần đèn khổng lồ hiện ra, giọng vang như sấm: “Tôi là đầy tớ của cây đèn. Ai cầm đèn, tôi xin vâng lệnh người ấy!” Bà mẹ sợ quá ngất đi. Aladdin cầm lấy đèn, bình tĩnh nói: “Thần ơi, chúng tôi đói. Hãy mang cho chúng tôi cái gì ăn.” Thần đèn bưng ra mười hai chiếc đĩa bạc đầy thức ăn thơm ngon. Từ đó, hai mẹ con không còn phải chịu đói nữa.",
+      "subtitles": [
+        "Nhà chẳng còn gì ăn. Mẹ Aladdin định đem cây đèn cũ đi bán,",
+        "bèn lấy giẻ lau cho sáng. Bà vừa xoa một cái, khói bốc lên cuồn cuộn,",
+        "và một vị thần đèn khổng lồ hiện ra, giọng vang như sấm:",
+        "“Tôi là đầy tớ của cây đèn. Ai cầm đèn, tôi xin vâng lệnh người ấy!”",
+        "Bà mẹ sợ quá ngất đi. Aladdin cầm lấy đèn, bình tĩnh nói:",
+        "“Thần ơi, chúng tôi đói. Hãy mang cho chúng tôi cái gì ăn.”",
+        "Thần đèn bưng ra mười hai chiếc đĩa bạc đầy thức ăn thơm ngon.",
+        "Từ đó, hai mẹ con không còn phải chịu đói nữa."
+      ],
+      "image": {
+        "prompt": "inside a humble home, a huge blue-green genie rising from the brass lamp in swirling smoke, Aladdin holding the lamp calmly, his mother fainted gently onto cushions, twelve silver dishes of food appearing on a low table",
+        "seed": 784811078,
+        "character": "than-den"
+      },
+      "video": {
+        "motionPrompt": "smoke swirls upward and forms the genie, the genie bows, silver dishes glint, lamplight flickers",
+        "seed": 2217160086
+      },
+      "voice": {}
+    },
+    {
+      "id": "nang-cong-chua",
+      "title": "Nàng công chúa",
+      "narrator": "ke-chuyen",
+      "narration": "Năm tháng trôi qua, Aladdin lớn lên thành một chàng trai khôn ngoan, lễ độ. Một hôm, chàng thấy công chúa, con gái nhà vua, đi ngang qua phố, và đem lòng yêu nàng. Chàng nhờ mẹ mang lên vua một khay đầy những trái ngọc lấy từ vườn ngầm. Nhà vua ngắm ngọc, sửng sốt: kho báu triều đình chẳng có viên nào đẹp bằng. Vua hứa gả công chúa, nhưng đòi bốn mươi chậu vàng đầy ngọc quý. Thần đèn làm xong tất cả chỉ trong một buổi. Rồi chỉ sau một đêm, thần dựng cho Aladdin một cung điện lộng lẫy ngay trước cung vua. Đám cưới linh đình kéo dài suốt nhiều ngày.",
+      "subtitles": [
+        "Năm tháng trôi qua, Aladdin lớn lên thành một chàng trai khôn ngoan, lễ độ.",
+        "Một hôm, chàng thấy công chúa, con gái nhà vua, đi ngang qua phố,",
+        "và đem lòng yêu nàng.",
+        "Chàng nhờ mẹ mang lên vua một khay đầy những trái ngọc lấy từ vườn ngầm.",
+        "Nhà vua ngắm ngọc, sửng sốt: kho báu triều đình chẳng có viên nào đẹp bằng.",
+        "Vua hứa gả công chúa, nhưng đòi bốn mươi chậu vàng đầy ngọc quý.",
+        "Thần đèn làm xong tất cả chỉ trong một buổi.",
+        "Rồi chỉ sau một đêm, thần dựng cho Aladdin một cung điện lộng lẫy ngay trước cung vua.",
+        "Đám cưới linh đình kéo dài suốt nhiều ngày."
+      ],
+      "image": {
+        "prompt": "a grand wedding procession before a dazzling new palace of white marble and jewels, the princess in a rose and gold gown beside Aladdin now dressed in fine robes, a long line of servants carrying golden basins full of jewels, festive banners",
+        "seed": 3614968997,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "banners wave, jewels sparkle in the golden basins, rose petals fall, the couple smile at each other, slow camera rise",
+        "seed": 3089940725
+      },
+      "voice": {}
+    },
+    {
+      "id": "den-moi-doi-den-cu",
+      "title": "Đèn mới đổi đèn cũ",
+      "narrator": "ke-chuyen",
+      "narration": "Ở châu Phi xa xôi, lão phù thủy biết Aladdin chẳng những thoát khỏi hang mà còn giàu sang nhờ cây đèn thần. Lão giận lắm, lập tức lên đường. Lão mua một giỏ đèn mới tinh, đi rao trước cung điện: “Ai đổi đèn cũ lấy đèn mới nào!” Hôm ấy Aladdin đi săn vắng. Công chúa không biết bí mật của cây đèn, nàng cười, sai người hầu mang cây đèn cũ ra đổi. Lão phù thủy chộp lấy, xoa một cái, ra lệnh cho thần đèn mang cả cung điện cùng công chúa sang tận châu Phi.",
+      "subtitles": [
+        "Ở châu Phi xa xôi, lão phù thủy biết Aladdin chẳng những thoát khỏi hang",
+        "mà còn giàu sang nhờ cây đèn thần. Lão giận lắm, lập tức lên đường.",
+        "Lão mua một giỏ đèn mới tinh, đi rao trước cung điện:",
+        "“Ai đổi đèn cũ lấy đèn mới nào!”",
+        "Hôm ấy Aladdin đi săn vắng. Công chúa không biết bí mật của cây đèn,",
+        "nàng cười, sai người hầu mang cây đèn cũ ra đổi.",
+        "Lão phù thủy chộp lấy, xoa một cái, ra lệnh cho thần đèn",
+        "mang cả cung điện cùng công chúa sang tận châu Phi."
+      ],
+      "image": {
+        "prompt": "the sly sorcerer disguised as a street peddler with a basket of shiny new copper lamps in front of the marble palace, a servant girl handing him the old brass lamp from the gate, the princess watching curiously from a balcony",
+        "seed": 2488398714,
+        "character": "phu-thuy"
+      },
+      "video": {
+        "motionPrompt": "the peddler raises a shiny lamp and calls out, the servant hands over the old lamp, the sorcerer grins, a breeze moves the palace curtains",
+        "seed": 1660702090
+      },
+      "voice": {}
+    },
+    {
+      "id": "di-tim-cong-chua",
+      "title": "Đi tìm công chúa",
+      "narrator": "ke-chuyen",
+      "narration": "Aladdin về, thấy chỗ cung điện chỉ còn bãi đất trống. Nhà vua giận dữ, bắt chàng phải tìm lại công chúa. Aladdin xoa chiếc nhẫn. Thần nhẫn hiện ra nhưng thưa: “Tôi không thể địch nổi thần đèn. Nhưng tôi có thể đưa cậu chủ tới bên cung điện.” Chớp mắt, Aladdin đã ở châu Phi. Công chúa mừng rỡ mở cửa sổ đón chàng. Hai người bàn kế. Aladdin đưa cho nàng một gói bột ngủ thật mạnh.",
+      "subtitles": [
+        "Aladdin về, thấy chỗ cung điện chỉ còn bãi đất trống.",
+        "Nhà vua giận dữ, bắt chàng phải tìm lại công chúa.",
+        "Aladdin xoa chiếc nhẫn. Thần nhẫn hiện ra nhưng thưa:",
+        "“Tôi không thể địch nổi thần đèn. Nhưng tôi có thể đưa cậu chủ tới bên cung điện.”",
+        "Chớp mắt, Aladdin đã ở châu Phi. Công chúa mừng rỡ mở cửa sổ đón chàng.",
+        "Hai người bàn kế. Aladdin đưa cho nàng một gói bột ngủ thật mạnh."
+      ],
+      "image": {
+        "prompt": "Aladdin standing beneath the palace window in a far desert land at dawn, the princess leaning out joyfully to greet him, palm trees and sand dunes around the palace, the ring spirit fading away in golden sparkles",
+        "seed": 3582947923,
+        "character": "aladdin"
+      },
+      "video": {
+        "motionPrompt": "golden sparkles fade, the princess opens the shutters, her veil flutters, palm leaves sway in the desert breeze",
+        "seed": 3752252035
+      },
+      "voice": {}
+    },
+    {
+      "id": "lay-lai-cay-den",
+      "title": "Lấy lại cây đèn",
+      "narrator": "ke-chuyen",
+      "narration": "Tối ấy, công chúa mời lão phù thủy dùng bữa, rót cho lão một cốc nước quả có bột ngủ. Lão uống cạn, rồi gục xuống bàn, ngáy vang. Aladdin bước vào, lấy cây đèn giấu trong áo lão, xoa một cái. “Thần ơi, hãy mang lão phù thủy ra một hòn đảo hoang thật xa, nơi lão không bao giờ quay lại được. Rồi đưa cung điện của chúng ta về chỗ cũ.” Sáng hôm sau, nhà vua mở cửa sổ, thấy cung điện đã sừng sững trở về như chưa từng đi đâu.",
+      "subtitles": [
+        "Tối ấy, công chúa mời lão phù thủy dùng bữa, rót cho lão một cốc nước quả có bột ngủ.",
+        "Lão uống cạn, rồi gục xuống bàn, ngáy vang.",
+        "Aladdin bước vào, lấy cây đèn giấu trong áo lão, xoa một cái.",
+        "“Thần ơi, hãy mang lão phù thủy ra một hòn đảo hoang thật xa,",
+        "nơi lão không bao giờ quay lại được. Rồi đưa cung điện của chúng ta về chỗ cũ.”",
+        "Sáng hôm sau, nhà vua mở cửa sổ,",
+        "thấy cung điện đã sừng sững trở về như chưa từng đi đâu."
+      ],
+      "image": {
+        "prompt": "the sorcerer fast asleep and snoring at a banquet table, Aladdin taking the old brass lamp from the sleeper robe, the princess beside him, the genie rising behind them in swirling smoke, candlelit room",
+        "seed": 3404724300,
+        "character": "aladdin"
+      },
+      "video": {
+        "motionPrompt": "the sorcerer snores and his beard flutters, smoke rises into the genie, Aladdin holds up the lamp, candles flicker",
+        "seed": 1354719132
+      },
+      "voice": {}
+    },
+    {
+      "id": "tam-long-nhan-hau",
+      "title": "Tấm lòng nhân hậu",
+      "narrator": "ke-chuyen",
+      "narration": "Từ đó, Aladdin giữ cây đèn thật cẩn thận, chỉ dùng phép khi thật cần. Chàng sống nhân hậu, giúp đỡ người nghèo trong thành. Về sau, chàng nối ngôi vua, cùng công chúa trị vì đất nước trong yên vui suốt nhiều năm. Người ta bảo, của báu lớn nhất của Aladdin không phải cây đèn thần, mà là tấm lòng biết thương người và trí khôn của chàng.",
+      "subtitles": [
+        "Từ đó, Aladdin giữ cây đèn thật cẩn thận, chỉ dùng phép khi thật cần.",
+        "Chàng sống nhân hậu, giúp đỡ người nghèo trong thành.",
+        "Về sau, chàng nối ngôi vua, cùng công chúa trị vì đất nước trong yên vui suốt nhiều năm.",
+        "Người ta bảo, của báu lớn nhất của Aladdin không phải cây đèn thần,",
+        "mà là tấm lòng biết thương người và trí khôn của chàng."
+      ],
+      "image": {
+        "prompt": "Aladdin and the princess on a palace balcony at sunset handing bread and coins to happy townspeople below, the old brass lamp resting safely on a cushion behind them, domes glowing in golden light",
+        "seed": 3464495229,
+        "character": "aladdin"
+      },
+      "video": {
+        "motionPrompt": "the sun sets slowly, townspeople wave, doves fly past the domes, the couple smile, slow camera pull back",
+        "seed": 1532436877
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "enchanting Middle Eastern style melody, oud, qanun and ney flute with soft frame drum, mysterious and magical yet warm, gentle storytelling pace, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 903375419
+  }
+}

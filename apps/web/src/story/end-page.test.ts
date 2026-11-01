@@ -2,7 +2,7 @@ import type { StoryListEntry } from '@truyen/story';
 import { describe, expect, it } from 'vitest';
 import { nextStories } from './end-page';
 
-const entry = (slug: string, shelf: 'kids' | 'adults'): StoryListEntry => ({ slug, shelf, title: slug, summary: '', scenes: 8, minutes: 4, themes: [], added: '' });
+const entry = (slug: string, shelf: 'kids' | 'adults'): StoryListEntry => ({ slug, shelf, title: slug, summary: '', basedOn: 'Truyện dân gian Việt Nam', scenes: 8, minutes: 4, themes: [], added: '' });
 const LIST = [entry('a', 'kids'), entry('x', 'adults'), entry('b', 'kids'), entry('c', 'kids'), entry('y', 'adults')];
 
 describe('next stories', () => {

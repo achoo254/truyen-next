@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "slug": "cay-tre-tram-dot",
+  "shelf": "kids",
+  "title": "Cây tre trăm đốt",
+  "summary": "Anh Khoai thật thà làm lụng ba năm cho phú ông để được cưới con gái nhà ấy, nhưng phú ông nuốt lời. Nhờ Bụt và câu thần chú \"khắc nhập, khắc xuất\", cây tre trăm đốt giúp anh đòi lại lời hứa. Bản kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "thien-ac",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ: phú ông bị dính vào cây tre một lúc cho biết sai rồi được thả ra ngay khi nhận lỗi.",
+  "basedOn": "Truyện dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, old Vietnamese village life with thatched houses, bamboo hedges, banyan trees and rice fields, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 987933145
+    },
+    {
+      "id": "anh-khoai",
+      "name": "Anh Khoai",
+      "seed": 3274176129,
+      "sheetPrompt": "Khoai, an honest hard-working young Vietnamese farmhand from the folk tale, sun-tanned friendly face, short black hair under a brown headband, simple indigo shirt and rolled-up brown trousers, barefoot, carrying a bamboo hoe on his shoulder, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "phu-ong",
+      "name": "Phú ông",
+      "seed": 3935765904,
+      "sheetPrompt": "a plump sly but comical old Vietnamese village rich man from the folk tale, thin moustache and a little pointy beard, black turban, shiny dark blue silk robe, holding a paper fan, not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "but",
+      "name": "Bụt",
+      "seed": 2209261763,
+      "sheetPrompt": "But, a kind fairy-tale old sage from Vietnamese folk tales, long flowing white beard and eyebrows, gentle smile, simple light orange and white robes, holding a wooden walking stick, a soft glow around him, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "co-gai",
+      "name": "Con gái phú ông",
+      "seed": 3063897995,
+      "sheetPrompt": "the rich man's gentle daughter from the Vietnamese folk tale, long black hair in a neat bun, kind shy smile, soft pink ao tu than style dress with a green sash, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn nhìn xem, Mèo Miu đang cầm một đốt tre xanh bóng này. Một đốt thì bé xíu thôi, nhưng nếu có một trăm đốt nối liền nhau thì sao nhỉ? Hôm nay Miu kể chuyện anh Khoai và cây tre trăm đốt có phép lạ. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn nhìn xem, Mèo Miu đang cầm một đốt tre xanh bóng này.",
+        "Một đốt thì bé xíu thôi, nhưng nếu có một trăm đốt nối liền nhau thì sao nhỉ?",
+        "Hôm nay Miu kể chuyện anh Khoai và cây tre trăm đốt có phép lạ.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits by a green bamboo hedge in a sunny village, holding up one short shiny bamboo segment with both paws, an open picture book beside her, soft morning light",
+        "seed": 3541605406,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat taps the bamboo segment and tilts her head with a smile, bamboo leaves sway gently, slow camera push-in",
+        "seed": 2592228689
+      },
+      "voice": {}
+    },
+    {
+      "id": "anh-khoai-cham-chi",
+      "title": "Anh Khoai chăm chỉ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng nọ, có anh Khoai hiền lành, thật thà. Nhà nghèo, anh đi làm thuê cho một phú ông giàu nhất làng. Phú ông bảo: Con chịu khó làm cho ta ba năm, ta sẽ gả con gái cho. Anh Khoai mừng lắm. Sáng sớm anh cày ruộng, trưa anh cắt cỏ, tối anh lại gánh nước, bổ củi. Ba năm trôi qua, nhà phú ông lúa đầy kho, trâu đầy chuồng, tất cả là nhờ đôi tay anh Khoai.",
+      "subtitles": [
+        "Ngày xưa, ở một làng nọ, có anh Khoai hiền lành, thật thà.",
+        "Nhà nghèo, anh đi làm thuê cho một phú ông giàu nhất làng.",
+        "Phú ông bảo: Con chịu khó làm cho ta ba năm, ta sẽ gả con gái cho.",
+        "Anh Khoai mừng lắm.",
+        "Sáng sớm anh cày ruộng, trưa anh cắt cỏ, tối anh lại gánh nước, bổ củi.",
+        "Ba năm trôi qua, nhà phú ông lúa đầy kho, trâu đầy chuồng,",
+        "tất cả là nhờ đôi tay anh Khoai."
+      ],
+      "image": {
+        "prompt": "Khoai ploughs a wide rice field with a gentle water buffalo at sunrise, the rich man watches from the dyke under a parasol fanning himself, a granary full of rice behind",
+        "seed": 4014051527,
+        "character": "anh-khoai"
+      },
+      "video": {
+        "motionPrompt": "Khoai walks behind the buffalo, the plough turns the soft earth, egrets fly up from the field, the rich man fans himself slowly",
+        "seed": 2884688141
+      },
+      "voice": {}
+    },
+    {
+      "id": "phu-ong-nuot-loi",
+      "title": "Phú ông nuốt lời",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng phú ông chẳng muốn gả con gái cho anh làm thuê nghèo khó. Lão đã hứa gả cô cho con một nhà giàu trong làng. Lão nghĩ ra một mẹo, gọi anh Khoai đến bảo: Con vào rừng tìm cho ta một cây tre đủ một trăm đốt. Có cây tre ấy làm đám cưới, ta mới gả con gái cho. Anh Khoai thật thà, tin ngay, vác dao vào rừng.",
+      "subtitles": [
+        "Nhưng phú ông chẳng muốn gả con gái cho anh làm thuê nghèo khó.",
+        "Lão đã hứa gả cô cho con một nhà giàu trong làng.",
+        "Lão nghĩ ra một mẹo, gọi anh Khoai đến bảo:",
+        "Con vào rừng tìm cho ta một cây tre đủ một trăm đốt.",
+        "Có cây tre ấy làm đám cưới, ta mới gả con gái cho.",
+        "Anh Khoai thật thà, tin ngay, vác dao vào rừng."
+      ],
+      "image": {
+        "prompt": "inside the rich man's courtyard, the rich man points toward the far green forest with his fan while honest Khoai listens and nods, the gentle daughter peeks worriedly from behind a wooden door",
+        "seed": 2650436154,
+        "character": "phu-ong"
+      },
+      "video": {
+        "motionPrompt": "the rich man waves his fan toward the forest with a sly grin, Khoai nods and shoulders a small bamboo-cutting knife, the daughter lowers her eyes",
+        "seed": 1595461984
+      },
+      "voice": {}
+    },
+    {
+      "id": "tim-tre-trong-rung",
+      "title": "Đi tìm cây tre",
+      "narrator": "ke-chuyen",
+      "narration": "Anh Khoai đi khắp rừng, hết khóm tre này sang khóm tre khác. Anh đếm từng đốt một: mười đốt, hai mươi đốt, cao lắm cũng chỉ được ba mươi, bốn mươi đốt. Chẳng cây nào có đủ một trăm. Trời đã về chiều, anh mệt quá, ngồi xuống gốc tre ôm mặt khóc. Bỗng có ánh sáng dịu dàng tỏa ra, Bụt hiện lên, hiền từ hỏi: Vì sao con khóc?",
+      "subtitles": [
+        "Anh Khoai đi khắp rừng, hết khóm tre này sang khóm tre khác.",
+        "Anh đếm từng đốt một: mười đốt, hai mươi đốt, cao lắm cũng chỉ được ba mươi, bốn mươi đốt.",
+        "Chẳng cây nào có đủ một trăm.",
+        "Trời đã về chiều, anh mệt quá, ngồi xuống gốc tre ôm mặt khóc.",
+        "Bỗng có ánh sáng dịu dàng tỏa ra, Bụt hiện lên, hiền từ hỏi: Vì sao con khóc?"
+      ],
+      "image": {
+        "prompt": "a tall bamboo grove in late afternoon light, Khoai sits tired at the foot of the bamboo with his face in his hands, a soft golden glow appears as kind old But arrives with his walking stick",
+        "seed": 1859700465,
+        "character": "anh-khoai"
+      },
+      "video": {
+        "motionPrompt": "bamboo stalks creak and sway, golden light slowly blooms, But steps forward smiling, Khoai lifts his head in surprise",
+        "seed": 2766251400
+      },
+      "voice": {}
+    },
+    {
+      "id": "khac-nhap",
+      "title": "Khắc nhập, khắc nhập",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe anh Khoai kể, Bụt mỉm cười: Con chặt đủ một trăm đốt tre rời đem lại đây. Anh Khoai làm theo. Bụt bảo: Bây giờ con đọc khắc nhập, khắc nhập. Anh vừa đọc xong, một trăm đốt tre bay lại, nối liền vào nhau thành một cây tre dài thật dài. Nhưng cây tre dài quá, anh vác không nổi. Bụt lại bảo: Con đọc khắc xuất, khắc xuất. Thế là các đốt tre rời ra, anh bó lại gánh về nhà.",
+      "subtitles": [
+        "Nghe anh Khoai kể, Bụt mỉm cười: Con chặt đủ một trăm đốt tre rời đem lại đây.",
+        "Anh Khoai làm theo. Bụt bảo: Bây giờ con đọc khắc nhập, khắc nhập.",
+        "Anh vừa đọc xong, một trăm đốt tre bay lại,",
+        "nối liền vào nhau thành một cây tre dài thật dài.",
+        "Nhưng cây tre dài quá, anh vác không nổi. Bụt lại bảo: Con đọc khắc xuất, khắc xuất.",
+        "Thế là các đốt tre rời ra, anh bó lại gánh về nhà."
+      ],
+      "image": {
+        "prompt": "magic moment in the bamboo grove: one hundred bamboo segments float in the air and join into one very long bamboo stalk stretching across the clearing, Khoai gasps with joy, But smiles beside him",
+        "seed": 915877681,
+        "character": "anh-khoai"
+      },
+      "video": {
+        "motionPrompt": "the bamboo segments drift up and click together one after another into a long stalk, sparkles of light, Khoai's mouth opens in wonder",
+        "seed": 2578502777
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi",
+      "title": "Về đến đám cưới",
+      "narrator": "ke-chuyen",
+      "narration": "Về đến nơi, anh Khoai thấy nhà phú ông treo đèn kết hoa, cỗ bàn bày la liệt. Thì ra phú ông đang làm đám cưới cho con gái với nhà giàu kia. Anh Khoai chẳng nói gì, xếp một trăm đốt tre xuống sân, khẽ đọc: Khắc nhập, khắc nhập. Các đốt tre liền nối vào nhau thành cây tre trăm đốt. Phú ông chạy lại xem, vừa chạm tay vào thì bị dính chặt vào cây tre.",
+      "subtitles": [
+        "Về đến nơi, anh Khoai thấy nhà phú ông treo đèn kết hoa, cỗ bàn bày la liệt.",
+        "Thì ra phú ông đang làm đám cưới cho con gái với nhà giàu kia.",
+        "Anh Khoai chẳng nói gì, xếp một trăm đốt tre xuống sân, khẽ đọc: Khắc nhập, khắc nhập.",
+        "Các đốt tre liền nối vào nhau thành cây tre trăm đốt.",
+        "Phú ông chạy lại xem, vừa chạm tay vào thì bị dính chặt vào cây tre."
+      ],
+      "image": {
+        "prompt": "a busy village wedding feast in the rich man's courtyard with red lanterns and trays of food, in the middle a very long bamboo stalk lies on the ground and the rich man is stuck to it with a comically surprised face, guests stare",
+        "seed": 5408306,
+        "character": "phu-ong"
+      },
+      "video": {
+        "motionPrompt": "the rich man tugs and wriggles but his hands stay stuck to the bamboo, guests cover their mouths in surprise, lanterns sway",
+        "seed": 1560736168
+      },
+      "voice": {}
+    },
+    {
+      "id": "xin-loi",
+      "title": "Phú ông xin lỗi",
+      "narrator": "ke-chuyen",
+      "narration": "Ông thông gia nhà giàu chạy lại kéo phú ông ra, cũng bị dính luôn vào cây tre. Hai ông cứ lắc qua lắc lại, cả làng nhìn mà vừa sợ vừa buồn cười. Phú ông kêu lên: Anh Khoai ơi, ta biết lỗi rồi! Ta xin giữ lời hứa, gả con gái cho anh! Anh Khoai hiền lành đọc: Khắc xuất, khắc xuất. Các đốt tre rời ra, hai ông được thả. Phú ông xấu hổ, đỏ cả mặt.",
+      "subtitles": [
+        "Ông thông gia nhà giàu chạy lại kéo phú ông ra, cũng bị dính luôn vào cây tre.",
+        "Hai ông cứ lắc qua lắc lại, cả làng nhìn mà vừa sợ vừa buồn cười.",
+        "Phú ông kêu lên: Anh Khoai ơi, ta biết lỗi rồi!",
+        "Ta xin giữ lời hứa, gả con gái cho anh! Anh Khoai hiền lành đọc: Khắc xuất, khắc xuất.",
+        "Các đốt tre rời ra, hai ông được thả. Phú ông xấu hổ, đỏ cả mặt."
+      ],
+      "image": {
+        "prompt": "the rich man and the other rich in-law both stuck to the long bamboo, wobbling side to side, the rich man bowing his head to apologise to Khoai, villagers laughing kindly in the background",
+        "seed": 2227618568,
+        "character": "anh-khoai"
+      },
+      "video": {
+        "motionPrompt": "the two old men wobble left and right on the bamboo, then the segments loosen and fall apart softly, the rich man bows, villagers clap",
+        "seed": 629220482
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thế là anh Khoai cưới được cô gái hiền lành. Hai vợ chồng chăm chỉ làm ăn, sống vui vẻ bên nhau. Các bạn thấy không, ai thật thà, chăm chỉ thì sẽ được giúp đỡ, còn ai hứa mà không giữ lời thì sẽ phải xấu hổ đấy. Các bạn nhớ giữ lời hứa nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Thế là anh Khoai cưới được cô gái hiền lành.",
+        "Hai vợ chồng chăm chỉ làm ăn, sống vui vẻ bên nhau.",
+        "Các bạn thấy không, ai thật thà, chăm chỉ thì sẽ được giúp đỡ,",
+        "còn ai hứa mà không giữ lời thì sẽ phải xấu hổ đấy.",
+        "Các bạn nhớ giữ lời hứa nhé. Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye in front of a happy village wedding, behind her Khoai and the gentle daughter in red wedding clothes smile under a bamboo arch, villagers celebrate",
+        "seed": 846253533,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the couple bow to each other, red paper confetti drifts in the breeze, gentle camera pull-back",
+        "seed": 2042287130
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "cheerful Vietnamese folk tune for children, bamboo flute, dan bau and light wooden percussion, playful and warm, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2708504330
+  }
+}

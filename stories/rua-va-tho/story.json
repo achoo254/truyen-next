@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "slug": "rua-va-tho",
+  "shelf": "world",
+  "title": "Rùa và thỏ",
+  "summary": "Chú thỏ chạy nhanh nhất vùng thách bác rùa chậm chạp thi chạy, rồi ngủ quên giữa đường. Ngụ ngôn Aesop quen thuộc về sự kiên trì: chậm mà chắc vẫn về tới đích.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, green Mediterranean meadows, rolling hills, olive trees and a big oak on a hilltop, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "tho",
+      "name": "Chú thỏ",
+      "seed": 1386686698,
+      "sheetPrompt": "a proud quick brown hare with long upright ears, a cheeky grin, slim legs, fluffy white tail, standing on hind legs with paws on hips, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "rua",
+      "name": "Bác rùa",
+      "seed": 2046030808,
+      "sheetPrompt": "a kind old tortoise with a dome shell patterned in soft green and brown, wise gentle eyes, a calm smile, a tiny straw hat, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tho-khoe",
+      "title": "Chú thỏ hay khoe",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một đồng cỏ xanh bên chân đồi, có một chú thỏ nổi tiếng chạy nhanh nhất vùng. Sáng nào thỏ cũng phóng vèo vèo qua bãi cỏ, rồi đứng lại vểnh tai khoe: “Cả khu rừng này, chẳng ai đuổi kịp ta đâu!” Một hôm, thỏ gặp bác rùa đang chậm rãi bò ra bờ suối uống nước. Thỏ phá lên cười: “Bác rùa ơi, bác bò thế này thì bao giờ mới tới nơi? Chắc đến mùa sau mất!”",
+      "subtitles": [
+        "Ngày xưa, ở một đồng cỏ xanh bên chân đồi, có một chú thỏ nổi tiếng chạy nhanh nhất vùng.",
+        "Sáng nào thỏ cũng phóng vèo vèo qua bãi cỏ, rồi đứng lại vểnh tai khoe: “Cả khu rừng này,",
+        "chẳng ai đuổi kịp ta đâu!” Một hôm, thỏ gặp bác rùa đang chậm rãi bò ra bờ suối uống nước.",
+        "Thỏ phá lên cười: “Bác rùa ơi, bác bò thế này thì bao giờ mới tới nơi?",
+        "Chắc đến mùa sau mất!”"
+      ],
+      "image": {
+        "character": "tho",
+        "prompt": "the hare stands boastfully on a green meadow by a stream, laughing and pointing at the old tortoise slowly walking to drink, wildflowers and butterflies around",
+        "seed": 1143263111
+      },
+      "video": {
+        "motionPrompt": "the hare bounces on its toes and laughs, the tortoise takes one slow step, butterflies flutter, grass sways",
+        "seed": 2051164652
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-thach",
+      "title": "Cuộc thi chạy",
+      "narrator": "ke-chuyen",
+      "narration": "Rùa không giận, chỉ mỉm cười hiền lành: “Này chú thỏ, hay là hai ta thi chạy một chuyến xem sao?” Thỏ tròn mắt, rồi lăn ra cỏ mà cười. “Bác thi với cháu ư? Được thôi, cháu nhận lời!” Muông thú trong rừng nghe tin kéo đến đông vui. Bác cú già được mời làm trọng tài. Đích đến là cây sồi to trên đỉnh đồi bên kia. Bác cú vỗ cánh: “Một, hai, ba, chạy!”",
+      "subtitles": [
+        "Rùa không giận, chỉ mỉm cười hiền lành: “Này chú thỏ,",
+        "hay là hai ta thi chạy một chuyến xem sao?” Thỏ tròn mắt, rồi lăn ra cỏ mà cười.",
+        "“Bác thi với cháu ư? Được thôi, cháu nhận lời!”",
+        "Muông thú trong rừng nghe tin kéo đến đông vui. Bác cú già được mời làm trọng tài.",
+        "Đích đến là cây sồi to trên đỉnh đồi bên kia. Bác cú vỗ cánh: “Một, hai, ba, chạy!”"
+      ],
+      "image": {
+        "character": "rua",
+        "prompt": "a cheerful starting line on the meadow, the hare and the tortoise side by side, an old owl referee on a fence post raising a wing, squirrels, rabbits, deer and birds watching, a big oak on the far hilltop",
+        "seed": 514564240
+      },
+      "video": {
+        "motionPrompt": "the owl lifts its wing, the hare dashes off in a blur, the tortoise steps forward, the animals cheer and wave",
+        "seed": 2383930976
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngu-quen",
+      "title": "Thỏ ngủ quên",
+      "narrator": "ke-chuyen",
+      "narration": "Thỏ lao vút đi như một cơn gió, chẳng mấy chốc đã bỏ rùa lại xa tít phía sau. Chạy được nửa đường, thỏ ngoái lại, chẳng thấy bóng rùa đâu. Thỏ nghĩ bụng: “Bác ấy còn lâu lắm mới tới đây. Ta cứ chợp mắt một lát cho khỏe.” Thế là thỏ nằm dưới một gốc cây mát rượi, gối đầu lên đám cỏ mềm, rồi ngủ say lúc nào không hay. Gió hiu hiu, chim hót líu lo, thỏ càng ngủ càng ngon.",
+      "subtitles": [
+        "Thỏ lao vút đi như một cơn gió, chẳng mấy chốc đã bỏ rùa lại xa tít phía sau.",
+        "Chạy được nửa đường, thỏ ngoái lại, chẳng thấy bóng rùa đâu.",
+        "Thỏ nghĩ bụng: “Bác ấy còn lâu lắm mới tới đây. Ta cứ chợp mắt một lát cho khỏe.”",
+        "Thế là thỏ nằm dưới một gốc cây mát rượi, gối đầu lên đám cỏ mềm,",
+        "rồi ngủ say lúc nào không hay. Gió hiu hiu, chim hót líu lo, thỏ càng ngủ càng ngon."
+      ],
+      "image": {
+        "character": "tho",
+        "prompt": "the hare sleeps peacefully under a shady tree beside the path, paws behind its head, a little smile, birds on the branches, dappled sunlight",
+        "seed": 2461886152
+      },
+      "video": {
+        "motionPrompt": "the hare's chest rises slowly as it sleeps, leaves rustle, a bird hops on a branch, light flickers through the leaves",
+        "seed": 3364126922
+      },
+      "voice": {}
+    },
+    {
+      "id": "rua-di-mai",
+      "title": "Bác rùa đi mãi",
+      "narrator": "ke-chuyen",
+      "narration": "Trong khi ấy, rùa vẫn bò, từng bước, từng bước một. Nắng lên cao, rùa không nghỉ. Qua dốc đá, rùa không nản. Khi rùa đi ngang gốc cây, thấy thỏ đang ngáy khò khò, rùa chẳng đánh thức cũng chẳng chế giễu, chỉ lặng lẽ đi tiếp. Mặt trời ngả về tây thì rùa đã đến gần cây sồi. Muông thú hai bên đường reo hò: “Cố lên bác rùa ơi, sắp tới rồi!”",
+      "subtitles": [
+        "Trong khi ấy, rùa vẫn bò, từng bước, từng bước một. Nắng lên cao, rùa không nghỉ.",
+        "Qua dốc đá, rùa không nản. Khi rùa đi ngang gốc cây, thấy thỏ đang ngáy khò khò,",
+        "rùa chẳng đánh thức cũng chẳng chế giễu, chỉ lặng lẽ đi tiếp.",
+        "Mặt trời ngả về tây thì rùa đã đến gần cây sồi.",
+        "Muông thú hai bên đường reo hò: “Cố lên bác rùa ơi, sắp tới rồi!”"
+      ],
+      "image": {
+        "character": "rua",
+        "prompt": "the tortoise walks steadily up a rocky hill path in the late afternoon sun, the sleeping hare tiny under a tree far behind, animals along the path cheering",
+        "seed": 1923289083
+      },
+      "video": {
+        "motionPrompt": "the tortoise takes slow determined steps, the sun lowers, animals clap and hop, grass sways in the breeze",
+        "seed": 3222908419
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-dich",
+      "title": "Ai về đích trước",
+      "narrator": "ke-chuyen",
+      "narration": "Tiếng reo hò vang tới tai làm thỏ giật mình tỉnh giấc. Thỏ dụi mắt, nhìn lên đỉnh đồi, rồi cuống cuồng phóng đi. Nhưng đã muộn. Rùa vừa chạm vào gốc sồi, bác cú tuyên bố: “Bác rùa thắng cuộc!” Thỏ đứng thở hổn hển, hai tai cụp xuống, mặt đỏ bừng. Rùa vỗ vai thỏ: “Chú chạy nhanh thật đấy, chỉ là chú coi thường đường xa.” Từ hôm đó, thỏ không còn khoe khoang nữa. Các bạn nhỏ ạ, chậm mà chắc, kiên trì đến cùng, sẽ đi tới đích.",
+      "subtitles": [
+        "Tiếng reo hò vang tới tai làm thỏ giật mình tỉnh giấc.",
+        "Thỏ dụi mắt, nhìn lên đỉnh đồi, rồi cuống cuồng phóng đi. Nhưng đã muộn.",
+        "Rùa vừa chạm vào gốc sồi, bác cú tuyên bố: “Bác rùa thắng cuộc!”",
+        "Thỏ đứng thở hổn hển, hai tai cụp xuống, mặt đỏ bừng.",
+        "Rùa vỗ vai thỏ: “Chú chạy nhanh thật đấy, chỉ là chú coi thường đường xa.”",
+        "Từ hôm đó, thỏ không còn khoe khoang nữa.",
+        "Các bạn nhỏ ạ, chậm mà chắc, kiên trì đến cùng, sẽ đi tới đích."
+      ],
+      "image": {
+        "character": "rua",
+        "prompt": "at the big oak on the hilltop at golden sunset, the smiling tortoise touches the trunk while the owl announces the winner, the out-of-breath hare with drooping ears arrives, the tortoise kindly pats its shoulder, animals celebrating",
+        "seed": 1697491920
+      },
+      "video": {
+        "motionPrompt": "the animals cheer and toss petals, the hare's ears droop then it smiles shyly, the tortoise pats it gently, sunset glow",
+        "seed": 2683417276
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle classical storybook music, pizzicato strings, bassoon for the slow tortoise and quick flute runs for the hare, light and playful with a warm calm ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2556798842
+  }
+}

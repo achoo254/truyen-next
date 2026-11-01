@@ -3,7 +3,7 @@
  * list of its stories before any script runs (search engines, link previews, slow phones):
  *
  * - index.html: the home page, both shelves listed;
- * - tre-em/index.html, nguoi-lon/index.html: one shelf each;
+ * - tre-em/index.html, nguoi-lon/index.html, the-gioi/index.html: one shelf each;
  * - truyen/<slug>/index.html: one story (title, summary, length, shelf, the whole tale as text; JSON-LD CreativeWork);
  * - spa.html: the untouched app page, which nginx serves for every other address (legal pages, 404);
  * - sitemap.xml, only once the site may be indexed (site-indexing.ts).
@@ -24,7 +24,7 @@ import { primaryOrigin } from '@achoo254/brand/hosts';
 /** nginx's fallback for every address without its own page (infra/nginx/truyen.hoandat.com.conf). */
 export const SPA_FALLBACK = 'spa.html';
 
-const SHELF_PATHS: Record<Shelf, string> = { kids: '/tre-em', adults: '/nguoi-lon' };
+const SHELF_PATHS: Record<Shelf, string> = { kids: '/tre-em', adults: '/nguoi-lon', world: '/the-gioi' };
 
 const ESCAPES: Record<string, string> = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
 export const escapeHtml = (value: string): string => value.replace(/[&<>"']/g, (char) => ESCAPES[char] ?? char);
@@ -128,8 +128,9 @@ export function prerenderPages(html: string, ctx: PrerenderContext): Map<string,
       inLanguage: 'vi',
       url: `${ctx.origin}${path}`,
       genre: entry.themes.map((theme) => vi[`theme.${theme}`]),
-      audience: { '@type': 'Audience', audienceType: entry.shelf === 'kids' ? 'children' : 'adults' },
+      audience: { '@type': 'Audience', audienceType: { kids: 'children', adults: 'adults', world: 'families' }[entry.shelf] },
       timeRequired: `PT${entry.minutes}M`,
+      isBasedOn: { '@type': 'CreativeWork', name: entry.basedOn },
       isPartOf: { '@type': 'WebSite', name: ctx.appName, url: `${ctx.origin}/` },
     };
     const body = frame(
@@ -137,6 +138,7 @@ export function prerenderPages(html: string, ctx: PrerenderContext): Map<string,
         `<h1 lang="vi">${escapeHtml(entry.title)}</h1>` +
         `<p>${escapeHtml(fill(vi['story.length'], { minutes: entry.minutes, scenes: entry.scenes }))}</p>` +
         `<p lang="vi">${escapeHtml(entry.summary)}</p>` +
+        `<p>${escapeHtml(fill(vi['story.basedOn'], { source: entry.basedOn }))}</p>` +
         storyText(ctx.narration?.get(entry.slug) ?? []),
     );
     pages.set(`truyen/${entry.slug}/index.html`, renderPage(html, { path, title: `${entry.title} · ${ctx.appName}`, description: entry.summary, type: 'article', jsonLd }, body, ctx));

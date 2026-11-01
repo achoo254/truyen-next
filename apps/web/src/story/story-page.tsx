@@ -53,6 +53,9 @@ function StoryCoverPage({ story, onOpen, openRef }: { story: Story; onOpen: (ind
           <p className="story-summary" lang="vi">
             {story.summary}
           </p>
+          <p className="story-based-on" data-id="story-based-on">
+            {t('story.basedOn', { source: story.basedOn })}
+          </p>
           <div className="story-actions">
             <button ref={openRef} type="button" className="btn btn-primary btn-large" onClick={() => onOpen(resume ?? 0)} data-id="story-open-reader">
               <Icon name="play" />

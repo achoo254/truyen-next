@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "slug": "so-dua",
+  "shelf": "kids",
+  "title": "Sọ Dừa",
+  "summary": "Cậu bé Sọ Dừa sinh ra tròn lẳn như quả dừa, ai cũng chê, chỉ cô út hiền lành nhận ra tấm lòng chàng. Sọ Dừa hoá chàng trai khôi ngô, đỗ trạng nguyên, và nhờ hòn đá lửa, hai quả trứng gà mà vợ chồng gặp lại nhau. Bản kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "thien-ac",
+    "tinh-yeu",
+    "gia-dinh"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ: cô út gặp sóng to và được cá kình đưa vào đảo, không có đoạn hại người; hai cô chị xấu hổ bỏ đi nơi khác.",
+  "basedOn": "Truyện dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, old Vietnamese village life with thatched houses, bamboo hedges, banyan trees and rice fields, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3420620900
+    },
+    {
+      "id": "so-dua",
+      "name": "Sọ Dừa",
+      "seed": 2700789559,
+      "sheetPrompt": "So Dua, a cute round boy shaped like a brown coconut shell with a friendly face, big bright eyes and a cheerful smile, a small leaf tuft on top, tiny feet peeking out, sitting on a buffalo-herding rope, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chang-trai",
+      "name": "Sọ Dừa khi hiện hình",
+      "seed": 2319140312,
+      "sheetPrompt": "So Dua in his true form, a handsome kind young Vietnamese man from the folk tale, black hair tied in a top knot, warm smile, simple white shirt, playing a bamboo flute, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "co-ut",
+      "name": "Cô út",
+      "seed": 3796098522,
+      "sheetPrompt": "the youngest daughter from the Vietnamese folk tale, a kind gentle girl with long black hair and a red flower pin, soft smile, light green ao tu than style dress, carrying a small basket of rice, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "me-so-dua",
+      "name": "Bà mẹ",
+      "seed": 2587420151,
+      "sheetPrompt": "a poor kind old Vietnamese village mother from the folk tale, grey hair in a bun with a brown scarf, warm wrinkled smile, simple brown clothes, holding a coconut shell bowl, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu vừa nhặt được một quả dừa tròn xoe đây này. Lắc lắc thử xem, nghe óc ách vui chưa? Ngày xưa có một cậu bé sinh ra tròn lẳn y như quả dừa, ai cũng gọi là Sọ Dừa. Thế mà cậu lại làm được bao nhiêu điều kỳ diệu. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Mèo Miu vừa nhặt được một quả dừa tròn xoe đây này.",
+        "Lắc lắc thử xem, nghe óc ách vui chưa?",
+        "Ngày xưa có một cậu bé sinh ra tròn lẳn y như quả dừa, ai cũng gọi là Sọ Dừa.",
+        "Thế mà cậu lại làm được bao nhiêu điều kỳ diệu.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits under a tall coconut palm by a village pond, holding a round brown coconut and shaking it close to her ear, an open picture book on the grass, warm sunny light",
+        "seed": 562011537,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat shakes the coconut gently next to her ear and her eyes light up, palm leaves sway, slow gentle camera push-in",
+        "seed": 4251978850
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-be-so-dua",
+      "title": "Cậu bé tròn như quả dừa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bà mẹ nghèo, hiền lành, lên rừng hái củi. Trời nắng, khát nước, bà thấy một chiếc sọ dừa đựng nước mưa trong vắt, bèn bưng lên uống. Ít lâu sau, bà sinh ra một cậu bé không có chân tay, tròn như quả dừa. Bà buồn lắm, định bỏ cậu đi, thì cậu bé nói: Mẹ ơi, con là người đấy, mẹ cứ để con ở với mẹ. Bà thương quá, giữ con lại, đặt tên là Sọ Dừa.",
+      "subtitles": [
+        "Ngày xưa, có một bà mẹ nghèo, hiền lành, lên rừng hái củi.",
+        "Trời nắng, khát nước, bà thấy một chiếc sọ dừa đựng nước mưa trong vắt, bèn bưng lên uống.",
+        "Ít lâu sau, bà sinh ra một cậu bé không có chân tay, tròn như quả dừa.",
+        "Bà buồn lắm, định bỏ cậu đi, thì cậu bé nói: Mẹ ơi, con là người đấy,",
+        "mẹ cứ để con ở với mẹ. Bà thương quá, giữ con lại, đặt tên là Sọ Dừa."
+      ],
+      "image": {
+        "prompt": "inside a small thatched hut, the kind old mother sits on a straw mat and holds the round coconut-shaped baby So Dua in her arms, he smiles up at her, warm lamplight",
+        "seed": 1813406469,
+        "character": "me-so-dua"
+      },
+      "video": {
+        "motionPrompt": "the mother rocks the round baby gently, the baby blinks and smiles, the oil lamp flickers softly",
+        "seed": 828127585
+      },
+      "voice": {}
+    },
+    {
+      "id": "chan-bo",
+      "title": "Sọ Dừa chăn bò",
+      "narrator": "ke-chuyen",
+      "narration": "Sọ Dừa lớn lên, xin mẹ cho đi chăn bò thuê cho phú ông trong làng. Ai cũng cười: Không tay không chân thì chăn bò thế nào? Thế mà Sọ Dừa lăn đi lăn lại khắp đồi, đàn bò con nào cũng no căng bụng, chẳng con nào đi lạc. Phú ông mừng lắm. Đến mùa gặt, phú ông sai ba cô con gái thay nhau mang cơm cho Sọ Dừa.",
+      "subtitles": [
+        "Sọ Dừa lớn lên, xin mẹ cho đi chăn bò thuê cho phú ông trong làng.",
+        "Ai cũng cười: Không tay không chân thì chăn bò thế nào?",
+        "Thế mà Sọ Dừa lăn đi lăn lại khắp đồi, đàn bò con nào cũng no căng bụng,",
+        "chẳng con nào đi lạc. Phú ông mừng lắm.",
+        "Đến mùa gặt, phú ông sai ba cô con gái thay nhau mang cơm cho Sọ Dừa."
+      ],
+      "image": {
+        "prompt": "a green hillside with a happy herd of brown cows grazing, little round So Dua rolls along the grass guiding them, a bamboo flute beside him, white clouds and sunshine",
+        "seed": 3785049318,
+        "character": "so-dua"
+      },
+      "video": {
+        "motionPrompt": "So Dua rolls happily across the grass, the cows munch and swish their tails, clouds drift slowly",
+        "seed": 2091766805
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-sao",
+      "title": "Tiếng sáo trên đồi",
+      "narrator": "ke-chuyen",
+      "narration": "Hai cô chị kiêu kỳ, chẳng thèm nhìn Sọ Dừa. Chỉ có cô út hiền lành là đối xử tử tế với cậu. Một trưa, cô út mang cơm lên đồi thì nghe tiếng sáo véo von. Cô nấp sau bụi cây nhìn ra, thấy một chàng trai khôi ngô đang ngồi thổi sáo trên võng, đàn bò quây quanh nghe. Cô vừa bước ra, chàng trai biến mất, chỉ còn Sọ Dừa nằm lăn bên gốc cây. Cô út hiểu ra, Sọ Dừa không phải người thường.",
+      "subtitles": [
+        "Hai cô chị kiêu kỳ, chẳng thèm nhìn Sọ Dừa.",
+        "Chỉ có cô út hiền lành là đối xử tử tế với cậu.",
+        "Một trưa, cô út mang cơm lên đồi thì nghe tiếng sáo véo von.",
+        "Cô nấp sau bụi cây nhìn ra, thấy một chàng trai khôi ngô đang ngồi thổi sáo trên võng,",
+        "đàn bò quây quanh nghe.",
+        "Cô vừa bước ra, chàng trai biến mất, chỉ còn Sọ Dừa nằm lăn bên gốc cây.",
+        "Cô út hiểu ra, Sọ Dừa không phải người thường."
+      ],
+      "image": {
+        "prompt": "on a sunny hillside, the kind youngest daughter peeks from behind a flowering bush, holding a rice basket, watching a handsome young man playing a bamboo flute in a hammock between two trees, cows listening",
+        "seed": 2547936692,
+        "character": "co-ut"
+      },
+      "video": {
+        "motionPrompt": "the young man plays the flute softly, the hammock sways, the girl parts the leaves and smiles in wonder, butterflies flutter",
+        "seed": 451527931
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi",
+      "title": "Đám cưới cô út",
+      "narrator": "ke-chuyen",
+      "narration": "Về nhà, Sọ Dừa xin mẹ đến hỏi con gái phú ông làm vợ. Phú ông cười, thách cưới thật nhiều vàng bạc, lụa là. Không ngờ đến hẹn, Sọ Dừa mang đủ cả, lại có gia nhân khiêng đồ đầy sân. Hai cô chị bĩu môi, còn cô út vui vẻ nhận lời. Trong ngày cưới, Sọ Dừa bỗng hiện thành chàng trai khôi ngô tuấn tú. Cả làng sững sờ, hai cô chị vừa tiếc vừa ghen.",
+      "subtitles": [
+        "Về nhà, Sọ Dừa xin mẹ đến hỏi con gái phú ông làm vợ.",
+        "Phú ông cười, thách cưới thật nhiều vàng bạc, lụa là.",
+        "Không ngờ đến hẹn, Sọ Dừa mang đủ cả, lại có gia nhân khiêng đồ đầy sân.",
+        "Hai cô chị bĩu môi, còn cô út vui vẻ nhận lời.",
+        "Trong ngày cưới, Sọ Dừa bỗng hiện thành chàng trai khôi ngô tuấn tú.",
+        "Cả làng sững sờ, hai cô chị vừa tiếc vừa ghen."
+      ],
+      "image": {
+        "prompt": "a joyful wedding in front of the rich man's house, the handsome young man in a blue wedding robe stands beside the youngest daughter in red, trays of gifts fill the courtyard, two older sisters pout behind a pillar",
+        "seed": 1819193815,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the couple bow to each other, red lanterns sway, guests gasp and clap, the two sisters cross their arms and frown",
+        "seed": 2945527045
+      },
+      "voice": {}
+    },
+    {
+      "id": "di-su",
+      "title": "Quan trạng đi sứ",
+      "narrator": "ke-chuyen",
+      "narration": "Sọ Dừa chăm học, đi thi đỗ trạng nguyên, được vua cử đi sứ một nước xa. Trước khi đi, chàng đưa cho vợ một hòn đá lửa, một con dao nhỏ và hai quả trứng gà, dặn luôn mang theo bên mình. Ở nhà, hai cô chị ghen tị, rủ em ra biển chơi thuyền rồi bỏ mặc em lại. Sóng to nổi lên, chiếc thuyền chòng chành, cô út rơi xuống biển. Một con cá kình to lớn há miệng đón cô vào, rồi bơi thật xa.",
+      "subtitles": [
+        "Sọ Dừa chăm học, đi thi đỗ trạng nguyên, được vua cử đi sứ một nước xa.",
+        "Trước khi đi, chàng đưa cho vợ một hòn đá lửa, một con dao nhỏ và hai quả trứng gà,",
+        "dặn luôn mang theo bên mình.",
+        "Ở nhà, hai cô chị ghen tị, rủ em ra biển chơi thuyền rồi bỏ mặc em lại.",
+        "Sóng to nổi lên, chiếc thuyền chòng chành, cô út rơi xuống biển.",
+        "Một con cá kình to lớn há miệng đón cô vào, rồi bơi thật xa."
+      ],
+      "image": {
+        "prompt": "on a calm shore at dawn, the young scholar in a red official robe gives his wife a small flint stone, a little knife and two eggs wrapped in cloth, a ship with sails waits at the dock",
+        "seed": 975909847,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the husband places the gifts in his wife's hands, she holds them close, sails flutter in the sea breeze, waves roll gently",
+        "seed": 1252537500
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoang-dao",
+      "title": "Trên hòn đảo hoang",
+      "narrator": "ke-chuyen",
+      "narration": "Cá kình đưa cô út vào một hòn đảo vắng rồi nhẹ nhàng nhả cô lên bãi cát. Cô nhớ lời chồng dặn, lấy đá lửa đánh ra lửa sưởi ấm, dùng dao nhỏ dựng một túp lều. Hai quả trứng nở thành hai chú gà con, rồi lớn thành một đôi gà trống đẹp. Một hôm, có chiếc thuyền lớn đi ngang qua đảo. Chú gà trống vươn cổ gáy to: Ò ó o, phải thuyền quan trạng rước cô tôi về!",
+      "subtitles": [
+        "Cá kình đưa cô út vào một hòn đảo vắng rồi nhẹ nhàng nhả cô lên bãi cát.",
+        "Cô nhớ lời chồng dặn, lấy đá lửa đánh ra lửa sưởi ấm, dùng dao nhỏ dựng một túp lều.",
+        "Hai quả trứng nở thành hai chú gà con, rồi lớn thành một đôi gà trống đẹp.",
+        "Một hôm, có chiếc thuyền lớn đi ngang qua đảo.",
+        "Chú gà trống vươn cổ gáy to: Ò ó o, phải thuyền quan trạng rước cô tôi về!"
+      ],
+      "image": {
+        "prompt": "a small sunny island with palm trees, the youngest daughter sits by a little campfire in front of a leaf hut, a proud rooster crows on a rock toward a big ship with red sails passing nearby, a friendly big whale swims away",
+        "seed": 1467725933,
+        "character": "co-ut"
+      },
+      "video": {
+        "motionPrompt": "the rooster stretches its neck and crows, the campfire flickers, the ship turns toward the island, waves sparkle",
+        "seed": 1529658802
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Quan trạng nghe tiếng gà gáy, cho thuyền ghé vào đảo, và hai vợ chồng mừng rỡ gặp lại nhau. Về đến nhà, hai cô chị xấu hổ quá, lặng lẽ bỏ đi nơi khác, không dám quay lại nữa. Các bạn thấy không, đừng chê ai vì vẻ ngoài, vì tấm lòng tốt mới là quý nhất. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Quan trạng nghe tiếng gà gáy, cho thuyền ghé vào đảo,",
+        "và hai vợ chồng mừng rỡ gặp lại nhau.",
+        "Về đến nhà, hai cô chị xấu hổ quá, lặng lẽ bỏ đi nơi khác, không dám quay lại nữa.",
+        "Các bạn thấy không, đừng chê ai vì vẻ ngoài, vì tấm lòng tốt mới là quý nhất.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye on a sunny beach, behind her the young scholar and the youngest daughter hug happily beside the ship, the rooster stands proudly on the deck",
+        "seed": 2854800769,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the couple hold hands and smile, the rooster flaps its wings, gentle camera pull-back over the sea",
+        "seed": 1113059083
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm Vietnamese folk melody for children, bamboo flute and dan tranh zither, soft dan nguyet plucks, gentle and hopeful, medium-slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2317614643
+  }
+}

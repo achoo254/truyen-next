@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "slug": "nang-rapunzel",
+  "shelf": "world",
+  "title": "Nàng Rapunzel",
+  "summary": "Nàng Rapunzel tóc vàng dài bị bà Gothel nhốt trong ngọn tháp không có cửa, cho đến ngày một chàng hoàng tử nghe tiếng hát của nàng. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà về tình yêu, lòng kiên nhẫn và những giọt nước mắt chữa lành.",
+  "themes": [
+    "tinh-yeu",
+    "gia-dinh"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Rapunzel\" (Kinder- und Hausmärchen, 1812; bản 1857), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào, không dùng chi tiết của phim hoạt hình. Bản kể đã làm nhẹ cho cả nhà: hoàng tử ngã vào bụi gai và mờ mắt chứ không có cảnh gai đâm mù mắt, bỏ chi tiết sinh đôi của bản gốc.",
+  "basedOn": "Truyện cổ Grimm (1812)",
+  "style": "classic nineteenth-century European fairy-tale picture-book illustration, soft watercolor and fine ink lines, warm gentle light, rounded friendly shapes, calm and safe mood for the whole family, a tall stone tower in a German forest, walled herb garden and wide quiet countryside, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "rapunzel",
+      "name": "Rapunzel",
+      "seed": 3519280827,
+      "sheetPrompt": "Rapunzel from the Grimm tale, a gentle young woman with extremely long shining golden hair in a thick braid that reaches the ground and coils around her feet, soft rose-coloured simple medieval dress, kind dreamy face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "gothel",
+      "name": "Bà Gothel",
+      "seed": 392586842,
+      "sheetPrompt": "Mother Gothel, a stern old enchantress from the Grimm tale, grey hair under a dark green hood, sharp nose, long dark green cloak, holding a basket of herbs, strict but not frightening, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "seed": 4087097114,
+      "sheetPrompt": "a kind young prince from a classic European fairy tale, wavy chestnut hair, gentle face, dark red travelling cloak over a cream tunic, brown riding boots, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "vuon-rau",
+      "title": "Khu vườn sau bức tường",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có hai vợ chồng mong con đã lâu. Từ cửa sổ sau nhà, họ nhìn thấy một khu vườn tuyệt đẹp, trồng đầy hoa lá và rau thơm. Nhưng không ai dám vào, vì vườn ấy của bà Gothel, một người đàn bà có phép lạ. Một ngày, người vợ thèm mấy cây rau xanh trong vườn đến mức ốm cả người. Thương vợ, người chồng trèo tường hái trộm. Đến lần thứ hai, ông bị bà Gothel bắt gặp. Bà nói: \"Ta cho ngươi rau, nhưng khi đứa con đầu lòng ra đời, ngươi phải giao nó cho ta.\" Sợ quá, ông đành gật đầu.",
+      "subtitles": [
+        "Ngày xưa, có hai vợ chồng mong con đã lâu.",
+        "Từ cửa sổ sau nhà, họ nhìn thấy một khu vườn tuyệt đẹp, trồng đầy hoa lá và rau thơm.",
+        "Nhưng không ai dám vào, vì vườn ấy của bà Gothel, một người đàn bà có phép lạ.",
+        "Một ngày, người vợ thèm mấy cây rau xanh trong vườn đến mức ốm cả người.",
+        "Thương vợ, người chồng trèo tường hái trộm. Đến lần thứ hai, ông bị bà Gothel bắt gặp.",
+        "Bà nói: \"Ta cho ngươi rau, nhưng khi đứa con đầu lòng ra đời, ngươi phải giao nó cho ta.\"",
+        "Sợ quá, ông đành gật đầu."
+      ],
+      "image": {
+        "prompt": "at dusk a nervous husband climbs down a high stone garden wall holding a bunch of green leafy rampion, while a stern old enchantress in a dark green hood stands among herb beds with her arms crossed, lush walled garden, soft evening light",
+        "seed": 353670354,
+        "character": "gothel"
+      },
+      "video": {
+        "motionPrompt": "the husband freezes on the wall, the enchantress raises one finger, herbs sway in the breeze, evening light fades slowly",
+        "seed": 4104207306
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngon-thap",
+      "title": "Ngọn tháp không có cửa",
+      "narrator": "ke-chuyen",
+      "narration": "Cô bé ra đời, bà Gothel đến mang đi, đặt tên là Rapunzel, theo tên loài rau trong vườn. Rapunzel lớn lên xinh đẹp nhất vùng. Năm nàng mười hai tuổi, bà Gothel đưa nàng vào một ngọn tháp giữa rừng. Tháp ấy không có cửa, không có cầu thang, chỉ có một ô cửa sổ nhỏ trên cao. Mỗi lần muốn lên, bà Gothel đứng dưới gọi: \"Rapunzel ơi, Rapunzel, thả tóc xuống cho ta!\" Rapunzel có mái tóc vàng dài óng ả. Nàng tháo bím tóc, quấn qua móc cửa sổ, thả xuống thật dài, và bà Gothel bám vào mà leo lên.",
+      "subtitles": [
+        "Cô bé ra đời, bà Gothel đến mang đi, đặt tên là Rapunzel, theo tên loài rau trong vườn.",
+        "Rapunzel lớn lên xinh đẹp nhất vùng.",
+        "Năm nàng mười hai tuổi, bà Gothel đưa nàng vào một ngọn tháp giữa rừng.",
+        "Tháp ấy không có cửa, không có cầu thang, chỉ có một ô cửa sổ nhỏ trên cao.",
+        "Mỗi lần muốn lên, bà Gothel đứng dưới gọi: \"Rapunzel ơi, Rapunzel, thả tóc xuống cho ta!\"",
+        "Rapunzel có mái tóc vàng dài óng ả.",
+        "Nàng tháo bím tóc, quấn qua móc cửa sổ, thả xuống thật dài,",
+        "và bà Gothel bám vào mà leo lên."
+      ],
+      "image": {
+        "prompt": "a tall round stone tower with no door rising from a deep green forest, a single small window at the top where Rapunzel lets down her immensely long golden braid, Mother Gothel climbing up it holding the hair, birds circling, sunny afternoon",
+        "seed": 1494727514,
+        "character": "rapunzel"
+      },
+      "video": {
+        "motionPrompt": "the golden braid unrolls slowly down the tower wall, Gothel climbs hand over hand, birds glide around the top, leaves sway, slow upward tilt",
+        "seed": 1483738708
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-hat",
+      "title": "Tiếng hát trên tháp",
+      "narrator": "ke-chuyen",
+      "narration": "Vài năm sau, một chàng hoàng tử cưỡi ngựa qua khu rừng. Chàng nghe một tiếng hát trong trẻo vọng xuống từ ngọn tháp. Đó là Rapunzel, ngồi hát cho đỡ buồn. Chàng tìm mãi mà chẳng thấy cửa vào. Ngày nào chàng cũng quay lại nghe hát. Một hôm, nấp sau gốc cây, chàng thấy bà Gothel đến gọi và leo lên bằng mái tóc. Chàng nghĩ: \"Nếu đó là cái thang, ta cũng thử xem.\" Chiều hôm sau, chàng đứng dưới tháp gọi: \"Rapunzel ơi, Rapunzel, thả tóc xuống cho ta!\" Mái tóc vàng buông xuống, và chàng leo lên.",
+      "subtitles": [
+        "Vài năm sau, một chàng hoàng tử cưỡi ngựa qua khu rừng.",
+        "Chàng nghe một tiếng hát trong trẻo vọng xuống từ ngọn tháp.",
+        "Đó là Rapunzel, ngồi hát cho đỡ buồn. Chàng tìm mãi mà chẳng thấy cửa vào.",
+        "Ngày nào chàng cũng quay lại nghe hát.",
+        "Một hôm, nấp sau gốc cây, chàng thấy bà Gothel đến gọi và leo lên bằng mái tóc.",
+        "Chàng nghĩ: \"Nếu đó là cái thang, ta cũng thử xem.\"",
+        "Chiều hôm sau, chàng đứng dưới tháp gọi: \"Rapunzel ơi, Rapunzel, thả tóc xuống cho ta!\"",
+        "Mái tóc vàng buông xuống, và chàng leo lên."
+      ],
+      "image": {
+        "prompt": "a young prince in a red cloak stands at the foot of the tall stone tower beside his white horse, listening with a hand on his heart, Rapunzel singing at the high window, golden late-afternoon light filtering through the forest",
+        "seed": 3206742882,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "Rapunzel sways gently as she sings, the prince looks up enchanted, the horse flicks its ears, sunbeams drift between the trees",
+        "seed": 618058443
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-go",
+      "title": "Lần đầu gặp gỡ",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy một chàng trai lạ trèo qua cửa sổ, Rapunzel giật mình. Nhưng hoàng tử nói thật dịu dàng: \"Tiếng hát của nàng làm ta không yên lòng, ta chỉ mong được gặp nàng một lần.\" Nàng thấy chàng hiền hậu, liền hết sợ. Từ đó, chiều nào chàng cũng đến. Hai người kể cho nhau nghe về thế giới bên ngoài, về sông núi, về những thành phố đông vui. Rồi chàng hỏi nàng có muốn làm vợ chàng không. Rapunzel gật đầu: \"Mỗi lần đến, chàng mang cho em một cuộn lụa. Em sẽ đan một chiếc thang, rồi ta cùng trốn đi.\"",
+      "subtitles": [
+        "Thấy một chàng trai lạ trèo qua cửa sổ, Rapunzel giật mình.",
+        "Nhưng hoàng tử nói thật dịu dàng: \"Tiếng hát của nàng làm ta không yên lòng,",
+        "ta chỉ mong được gặp nàng một lần.\" Nàng thấy chàng hiền hậu, liền hết sợ.",
+        "Từ đó, chiều nào chàng cũng đến.",
+        "Hai người kể cho nhau nghe về thế giới bên ngoài, về sông núi,",
+        "về những thành phố đông vui. Rồi chàng hỏi nàng có muốn làm vợ chàng không.",
+        "Rapunzel gật đầu: \"Mỗi lần đến, chàng mang cho em một cuộn lụa.",
+        "Em sẽ đan một chiếc thang, rồi ta cùng trốn đi.\""
+      ],
+      "image": {
+        "prompt": "inside the round tower room, Rapunzel and the prince sit by the small window talking happily, a half-woven silk ladder on her lap and skeins of silk in a basket, her long golden braid coiled on the floor, warm candlelight and sunset sky outside",
+        "seed": 1344284282,
+        "character": "rapunzel"
+      },
+      "video": {
+        "motionPrompt": "Rapunzel weaves the silk ladder, the prince hands her a new skein, the candle flickers, the sunset glows outside, gentle slow motion",
+        "seed": 1417713505
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-phat-hien",
+      "title": "Bí mật bị lộ",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng một hôm, Rapunzel lỡ lời hỏi bà Gothel: \"Sao bà kéo lên nặng thế, còn chàng hoàng tử thì nhẹ tênh?\" Bà Gothel giận dữ: \"Mày dám giấu ta!\" Bà cầm kéo cắt phăng bím tóc vàng, rồi đưa Rapunzel đến một vùng đất hoang xa xôi, để nàng sống một mình. Chiều hôm ấy, hoàng tử lại đến gọi. Bà Gothel thả bím tóc đã cắt xuống. Chàng leo lên, chẳng thấy Rapunzel đâu, chỉ thấy bà Gothel. \"Con chim nhỏ của ngươi bay mất rồi, ngươi sẽ không bao giờ gặp lại nó nữa!\" Đau buồn quá, chàng nhảy khỏi tháp, ngã vào bụi gai. Gai cào vào mắt, chàng không còn nhìn thấy gì.",
+      "subtitles": [
+        "Nhưng một hôm, Rapunzel lỡ lời hỏi bà Gothel: \"Sao bà kéo lên nặng thế,",
+        "còn chàng hoàng tử thì nhẹ tênh?\" Bà Gothel giận dữ: \"Mày dám giấu ta!\"",
+        "Bà cầm kéo cắt phăng bím tóc vàng, rồi đưa Rapunzel đến một vùng đất hoang xa xôi,",
+        "để nàng sống một mình. Chiều hôm ấy, hoàng tử lại đến gọi.",
+        "Bà Gothel thả bím tóc đã cắt xuống.",
+        "Chàng leo lên, chẳng thấy Rapunzel đâu, chỉ thấy bà Gothel.",
+        "\"Con chim nhỏ của ngươi bay mất rồi, ngươi sẽ không bao giờ gặp lại nó nữa!\"",
+        "Đau buồn quá, chàng nhảy khỏi tháp, ngã vào bụi gai.",
+        "Gai cào vào mắt, chàng không còn nhìn thấy gì."
+      ],
+      "image": {
+        "prompt": "at the high tower window Mother Gothel in her dark green cloak holds up a long cut golden braid with a cold look, the prince recoiling in sorrow at the window ledge, a soft thorny bramble bush far below, stormy grey sky, sad but not frightening",
+        "seed": 543762227,
+        "character": "gothel"
+      },
+      "video": {
+        "motionPrompt": "the cut braid sways in the wind, the prince steps back with sorrow, grey clouds roll slowly, the bramble bush trembles below",
+        "seed": 1308152823
+      },
+      "voice": {}
+    },
+    {
+      "id": "lang-thang",
+      "title": "Những năm lang thang",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử mờ mắt, lang thang khắp rừng này sang rừng khác. Chàng chỉ ăn rễ cây, quả dại, ngày ngày khóc nhớ người vợ chưa cưới. Nhiều năm trôi qua như thế. Còn Rapunzel, ở vùng đất hoang xa xôi, vẫn sống hiền lành, chăm chỉ, và vẫn hát những bài hát cũ mỗi chiều. Một hôm, hoàng tử đi lạc đến chính vùng đất ấy. Gió đưa lại một tiếng hát quen thuộc. Chàng đứng sững lại, tim đập rộn ràng: \"Tiếng hát ấy... là nàng!\"",
+      "subtitles": [
+        "Hoàng tử mờ mắt, lang thang khắp rừng này sang rừng khác.",
+        "Chàng chỉ ăn rễ cây, quả dại, ngày ngày khóc nhớ người vợ chưa cưới.",
+        "Nhiều năm trôi qua như thế.",
+        "Còn Rapunzel, ở vùng đất hoang xa xôi, vẫn sống hiền lành, chăm chỉ,",
+        "và vẫn hát những bài hát cũ mỗi chiều. Một hôm, hoàng tử đi lạc đến chính vùng đất ấy.",
+        "Gió đưa lại một tiếng hát quen thuộc.",
+        "Chàng đứng sững lại, tim đập rộn ràng: \"Tiếng hát ấy... là nàng!\""
+      ],
+      "image": {
+        "prompt": "the prince in a worn red cloak with his eyes closed walks slowly with a wooden walking staff across a wide quiet heath, in the distance Rapunzel with short golden hair sits singing beside a small hut, soft golden evening light",
+        "seed": 2534949487,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the prince stops and lifts his head toward the sound, grass ripples in the wind, Rapunzel turns in the distance, warm light glows",
+        "seed": 4227748413
+      },
+      "voice": {}
+    },
+    {
+      "id": "nuoc-mat",
+      "title": "Giọt nước mắt chữa lành",
+      "narrator": "ke-chuyen",
+      "narration": "Rapunzel nhận ra chàng ngay. Nàng chạy đến, ôm lấy chàng mà khóc. Hai giọt nước mắt của nàng rơi xuống mắt chàng. Bỗng mắt chàng sáng lại, nhìn rõ như xưa. Người đầu tiên chàng nhìn thấy là khuôn mặt Rapunzel, đang mỉm cười trong nước mắt. Hoàng tử đưa nàng về vương quốc của mình. Mọi người đón hai người trong tiếng reo mừng. Họ cưới nhau và sống hạnh phúc bên nhau rất lâu, rất lâu.",
+      "subtitles": [
+        "Rapunzel nhận ra chàng ngay. Nàng chạy đến, ôm lấy chàng mà khóc.",
+        "Hai giọt nước mắt của nàng rơi xuống mắt chàng. Bỗng mắt chàng sáng lại, nhìn rõ như xưa.",
+        "Người đầu tiên chàng nhìn thấy là khuôn mặt Rapunzel, đang mỉm cười trong nước mắt.",
+        "Hoàng tử đưa nàng về vương quốc của mình. Mọi người đón hai người trong tiếng reo mừng.",
+        "Họ cưới nhau và sống hạnh phúc bên nhau rất lâu, rất lâu."
+      ],
+      "image": {
+        "prompt": "on a sunlit heath Rapunzel with short golden hair embraces the prince, a tear glistening, the prince opening his eyes in wonder, a soft magical glow around them, wildflowers and a distant castle on the horizon",
+        "seed": 2531359605,
+        "character": "rapunzel"
+      },
+      "video": {
+        "motionPrompt": "a tear sparkles and falls, a soft glow blooms, the prince opens his eyes and smiles, wildflowers sway, slow gentle camera rise",
+        "seed": 1341348280
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender European fairy-tale music, solo harp and soft flute with a gentle wordless-feel lute melody, wistful and longing, turning warm and hopeful, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1848084802
+  }
+}

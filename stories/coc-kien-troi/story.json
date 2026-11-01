@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "slug": "coc-kien-troi",
+  "shelf": "kids",
+  "title": "Cóc kiện trời",
+  "summary": "Trời hạn hán lâu ngày, chú cóc bé nhỏ dẫn cua, gấu, cọp, ong và cáo lên tận thiên đình kiện Ngọc Hoàng. Nhờ mưu khéo và bạn bè đồng lòng, cóc thắng kiện, mang mưa về cho muôn loài. Truyện dân gian kể vui cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ: các trận đánh ở thiên đình kể thành những pha vui nhộn, không ai bị thương.",
+  "basedOn": "Truyện dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, cheerful adventurous mood for young children, dry cracked fields turning green, a heavenly palace of clouds with red lacquered gates, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 3819658074,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "coc",
+      "name": "Chú cóc",
+      "seed": 3469929359,
+      "sheetPrompt": "a small brave brown toad from a Vietnamese folk tale, bumpy skin, big determined eyes, a tiny cloth headband, holding a little drumstick, cute and heroic, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ban-be",
+      "name": "Bạn đồng hành của cóc",
+      "seed": 715498626,
+      "sheetPrompt": "a friendly group of animal companions from a folk tale: a red crab, a big brown bear, an orange tiger, a cute fox and a small swarm of bees, all cartoon cute and smiling, standing together, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ngoc-hoang",
+      "name": "Ngọc Hoàng",
+      "seed": 1666227262,
+      "sheetPrompt": "a comic plump Jade Emperor from Vietnamese folk tales, golden yellow royal robe with cloud patterns, tall flat-topped crown with beads, round surprised face, sitting on a cloud throne, not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "than-sam",
+      "name": "Thần Sấm",
+      "seed": 2181823119,
+      "sheetPrompt": "a comic Thunder God from a Vietnamese folk tale, wild cloud-like hair, round belly, blue robe, holding a small toy-like hammer and a little drum, clumsy and funny rather than scary, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có nghe thấy tiếng cóc kêu trước khi trời mưa không? Ông bà ta bảo: Con cóc là cậu ông trời, hễ ai đánh nó thì trời đánh cho. Một chú cóc bé tí sao lại làm cậu ông trời được nhỉ? Chuyện là thế này, mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có nghe thấy tiếng cóc kêu trước khi trời mưa không?",
+        "Ông bà ta bảo: Con cóc là cậu ông trời, hễ ai đánh nó thì trời đánh cho.",
+        "Một chú cóc bé tí sao lại làm cậu ông trời được nhỉ?",
+        "Chuyện là thế này, mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a wooden stool on a porch, looking up at gathering rain clouds, a small brown toad sits on the step beside her, an open picture book on her lap",
+        "seed": 2761064797
+      },
+      "video": {
+        "motionPrompt": "the cat looks from the toad to the sky with a curious smile, the toad puffs its throat, clouds roll in slowly, slow gentle camera push-in",
+        "seed": 2385751608
+      },
+      "voice": {}
+    },
+    {
+      "id": "han-han",
+      "title": "Trời hạn hán",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một năm trời làm hạn hán rất lâu. Ruộng đồng nứt nẻ như mai rùa, cây cỏ héo khô, ao hồ cạn trơ đáy. Muông thú khát nước, đi lang thang khắp nơi tìm từng giọt. Chú cóc bé nhỏ nhìn quanh, nghiến răng bảo: Không thể ngồi yên được nữa. Ta phải lên trời hỏi xem vì sao Ngọc Hoàng không cho mưa xuống! Rồi cóc khăn gói lên đường.",
+      "subtitles": [
+        "Ngày xưa, có một năm trời làm hạn hán rất lâu.",
+        "Ruộng đồng nứt nẻ như mai rùa, cây cỏ héo khô, ao hồ cạn trơ đáy.",
+        "Muông thú khát nước, đi lang thang khắp nơi tìm từng giọt.",
+        "Chú cóc bé nhỏ nhìn quanh, nghiến răng bảo: Không thể ngồi yên được nữa.",
+        "Ta phải lên trời hỏi xem vì sao Ngọc Hoàng không cho mưa xuống!",
+        "Rồi cóc khăn gói lên đường."
+      ],
+      "image": {
+        "character": "coc",
+        "prompt": "a dry cracked field under a hot pale sky, wilted plants and an empty pond, thirsty animals wander in the distance, the small brave toad stands on a cracked clod with a tiny bundle on a stick, determined face",
+        "seed": 3496907384
+      },
+      "video": {
+        "motionPrompt": "heat shimmers over the cracked earth, a dry leaf blows past, the toad clenches its little fist and sets off walking, comic heroic music feel",
+        "seed": 3932753300
+      },
+      "voice": {}
+    },
+    {
+      "id": "ru-ban",
+      "title": "Rủ thêm bạn",
+      "narrator": "ke-chuyen",
+      "narration": "Đi được một quãng, cóc gặp cua. Cua hỏi: Anh cóc đi đâu thế? Cóc đáp: Đi kiện trời. Cua bảo: Cho tôi đi với! Đi thêm một quãng, cóc lại gặp gấu, gặp cọp, gặp đàn ong và cáo. Bạn nào cũng khát nước, nên bạn nào cũng xin đi theo. Thế là một đoàn đông vui cùng nhau đi mãi, đi mãi, lên đến tận cửa nhà trời.",
+      "subtitles": [
+        "Đi được một quãng, cóc gặp cua. Cua hỏi: Anh cóc đi đâu thế?",
+        "Cóc đáp: Đi kiện trời. Cua bảo: Cho tôi đi với!",
+        "Đi thêm một quãng, cóc lại gặp gấu, gặp cọp, gặp đàn ong và cáo.",
+        "Bạn nào cũng khát nước, nên bạn nào cũng xin đi theo.",
+        "Thế là một đoàn đông vui cùng nhau đi mãi, đi mãi, lên đến tận cửa nhà trời."
+      ],
+      "image": {
+        "character": "ban-be",
+        "prompt": "a cheerful parade of animals walking up a cloud staircase: the small toad in front, followed by a red crab, a big bear, an orange tiger, a cute fox and a buzzing swarm of bees, a red heavenly gate glowing at the top",
+        "seed": 3493742557
+      },
+      "video": {
+        "motionPrompt": "the animals march up the fluffy cloud steps in a happy line, the bees buzz in a circle, the bear waves, clouds drift around them",
+        "seed": 458668048
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-tran",
+      "title": "Bày trận ở cửa trời",
+      "narrator": "ke-chuyen",
+      "narration": "Đến cửa nhà trời, cóc bàn với các bạn: Cua núp vào chum nước, ong núp sau cánh cửa, cáo núp cạnh cửa, gấu và cọp nấp hai bên. Còn tôi vào đánh trống kiện. Nói xong, cóc nhảy lên cầm dùi đánh vào cái trống lớn: Tùng! Tùng! Tùng! Tiếng trống vang khắp thiên đình. Ngọc Hoàng đang ngồi nghỉ, giật mình suýt rơi cả mũ.",
+      "subtitles": [
+        "Đến cửa nhà trời, cóc bàn với các bạn: Cua núp vào chum nước, ong núp sau cánh cửa,",
+        "cáo núp cạnh cửa, gấu và cọp nấp hai bên. Còn tôi vào đánh trống kiện.",
+        "Nói xong, cóc nhảy lên cầm dùi đánh vào cái trống lớn: Tùng!",
+        "Tùng! Tùng! Tiếng trống vang khắp thiên đình.",
+        "Ngọc Hoàng đang ngồi nghỉ, giật mình suýt rơi cả mũ."
+      ],
+      "image": {
+        "character": "coc",
+        "prompt": "at a red lacquered heavenly gate made of clouds, the small toad leaps up and beats a huge drum with a little stick, a crab hides in a big water jar, bees hide behind the door, a fox, a bear and a tiger hide on each side giggling",
+        "seed": 4107611670
+      },
+      "video": {
+        "motionPrompt": "the toad swings the drumstick and the big drum shakes, cloud ripples spread, the hidden animals peek out and giggle, the heavenly palace roof wobbles comically",
+        "seed": 3992071130
+      },
+      "voice": {}
+    },
+    {
+      "id": "thang-tran",
+      "title": "Những pha vui nhộn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngọc Hoàng sai gà ra xem, cáo nhảy ra đuổi gà chạy vòng quanh sân. Sai chó ra, gấu đứng chắn trước mặt, chó sợ quá chạy về. Sai Thần Sấm ra, đàn ong bay vù vù quanh tai, Thần Sấm hoảng quá nhảy ùm vào chum nước, bị cua kẹp mông. Thần Sấm vừa nhảy ra thì gặp cọp gầm lên một tiếng. Thần Sấm ôm bụng chạy về, búa rơi lăn lóc.",
+      "subtitles": [
+        "Ngọc Hoàng sai gà ra xem, cáo nhảy ra đuổi gà chạy vòng quanh sân.",
+        "Sai chó ra, gấu đứng chắn trước mặt, chó sợ quá chạy về.",
+        "Sai Thần Sấm ra, đàn ong bay vù vù quanh tai, Thần Sấm hoảng quá nhảy ùm vào chum nước,",
+        "bị cua kẹp mông. Thần Sấm vừa nhảy ra thì gặp cọp gầm lên một tiếng.",
+        "Thần Sấm ôm bụng chạy về, búa rơi lăn lóc."
+      ],
+      "image": {
+        "character": "than-sam",
+        "prompt": "in the cloud palace courtyard, a comic chaos scene: a fox chases a rooster in circles, a big bear blocks a small dog, bees buzz around a clumsy Thunder God who jumps out of a water jar with a crab pinching his robe, a tiger roars playfully, nobody hurt",
+        "seed": 2343295740
+      },
+      "video": {
+        "motionPrompt": "the rooster runs in circles from the fox, bees swirl, the Thunder God hops out of the jar with the crab clinging to his robe, the tiger roars playfully, slapstick timing",
+        "seed": 2154858506
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngoc-hoang-hua",
+      "title": "Ngọc Hoàng hứa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngọc Hoàng vội cho mời cóc vào. Cóc thưa: Muôn tâu Ngọc Hoàng, trời làm hạn lâu quá, muôn loài dưới trần khát khô cả rồi. Xin Ngọc Hoàng cho mưa xuống! Ngọc Hoàng gật đầu: Được, được. Từ nay hễ cậu cóc nghiến răng là ta cho mưa xuống ngay. Cóc cùng các bạn vui vẻ trở về. Chưa về tới nhà, mưa đã rơi rào rào, ruộng đồng lại xanh tươi.",
+      "subtitles": [
+        "Ngọc Hoàng vội cho mời cóc vào.",
+        "Cóc thưa: Muôn tâu Ngọc Hoàng, trời làm hạn lâu quá, muôn loài dưới trần khát khô cả rồi.",
+        "Xin Ngọc Hoàng cho mưa xuống! Ngọc Hoàng gật đầu: Được, được.",
+        "Từ nay hễ cậu cóc nghiến răng là ta cho mưa xuống ngay.",
+        "Cóc cùng các bạn vui vẻ trở về.",
+        "Chưa về tới nhà, mưa đã rơi rào rào, ruộng đồng lại xanh tươi."
+      ],
+      "image": {
+        "character": "ngoc-hoang",
+        "prompt": "inside a cloud throne hall, the comic plump Jade Emperor leans forward and nods to the small brave toad who bows politely, then below, rain pours over green fields as the animals dance happily",
+        "seed": 1542880270
+      },
+      "video": {
+        "motionPrompt": "the Jade Emperor nods and waves his sleeve, the toad bows, then rain begins to fall over the fields below, the animals dance and splash in puddles",
+        "seed": 22431882
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Vì thế người ta gọi con cóc là cậu ông trời. Mỗi khi nghe cóc nghiến răng kêu, là biết sắp có mưa đấy. Các bạn thấy không, chú cóc tuy bé nhỏ nhưng dám đi đòi lẽ phải cho muôn loài, và nhờ có bạn bè đồng lòng nên mới thành công. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Vì thế người ta gọi con cóc là cậu ông trời.",
+        "Mỗi khi nghe cóc nghiến răng kêu, là biết sắp có mưa đấy.",
+        "Các bạn thấy không, chú cóc tuy bé nhỏ nhưng dám đi đòi lẽ phải cho muôn loài,",
+        "và nhờ có bạn bè đồng lòng nên mới thành công.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye holding a small leaf umbrella in gentle rain, the brave toad sits proudly on a lotus leaf beside her, the crab, bear, tiger, fox and bees wave from green rice fields",
+        "seed": 925188217
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly under the leaf umbrella, raindrops ripple in puddles, the toad croaks happily, the animal friends wave, gentle camera pull-back",
+        "seed": 2998791113
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "lively Vietnamese folk adventure tune, dan nguyet moon lute, bamboo flute and small festival drums, brave and playful turning joyful like rain, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3106681078
+  }
+}

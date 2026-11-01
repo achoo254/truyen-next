@@ -13,7 +13,7 @@ describe('story files on the site', () => {
     const list = JSON.parse(index && 'text' in index ? index.text : '[]') as StoryListEntry[];
     expect(list).toHaveLength(stories.length);
     expect(list).toContainEqual(expect.objectContaining({ slug: 'son-tinh-thuy-tinh', shelf: 'kids', title: 'Sơn Tinh, Thủy Tinh', scenes: 8 }));
-    expect(new Set(list.map((entry) => entry.shelf))).toEqual(new Set(['kids', 'adults']));
+    expect(new Set(list.map((entry) => entry.shelf))).toEqual(new Set(['kids', 'adults', 'world']));
     const pilot = stories.find(({ slug }) => slug === 'son-tinh-thuy-tinh');
     if (!pilot) throw new Error('no pilot story');
     const withMusic = { ...pilot, story: { ...pilot.story, music: { ...pilot.story.music, file: 'media/music.m4a' } } };

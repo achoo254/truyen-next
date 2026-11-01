@@ -21,7 +21,7 @@ const SCANNED = new Set(['.ts', '.tsx', '.css']);
 const AA_TEXT = 4.5;
 const AA_NON_TEXT = 3;
 
-const SCREEN_TEXT = ['--c-text', '--c-text-muted', '--c-primary', '--c-leaf', '--c-error'];
+const SCREEN_TEXT = ['--c-text', '--c-text-muted', '--c-primary', '--c-leaf', '--c-indigo', '--c-error'];
 const SCREEN_BACKGROUNDS = [
   '--c-bg',
   '--c-surface',
@@ -29,6 +29,7 @@ const SCREEN_BACKGROUNDS = [
   '--c-topbar',
   '--c-kids-field',
   '--c-adults-field',
+  '--c-world-field',
   '--c-page',
   '--c-subtitle-bg',
   '--c-stage-top',
@@ -39,6 +40,7 @@ const OUTLINES = ['--c-border-strong', '--c-focus', '--c-line', '--c-focus-ring-
 const ON_FILLS: ReadonlyArray<readonly [string, string[]]> = [
   ['--c-on-primary', ['--c-primary-solid', '--c-primary-solid-hover']],
   ['--c-on-ink', ['--c-ink-solid', '--c-ink-solid-hover']],
+  ['--c-on-indigo', ['--c-indigo-solid', '--c-indigo-solid-hover']],
   ['--c-on-turmeric', ['--c-turmeric']],
   // the title cartouche of every cover
   ['--c-print-ink', ['--c-print-paper']],

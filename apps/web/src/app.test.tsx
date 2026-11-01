@@ -24,9 +24,10 @@ afterEach(() => {
 });
 
 const LIST: StoryListEntry[] = [
-  { slug: 'thanh-giong', shelf: 'kids', title: 'Thánh Gióng', summary: 'Cậu bé Gióng.', scenes: 9, minutes: 6, themes: ['anh-hung'], added: '2026-10-30' },
-  { slug: 'su-tich-ho-guom', shelf: 'adults', title: 'Sự tích Hồ Gươm', summary: 'Rùa Vàng.', scenes: 11, minutes: 7, themes: ['anh-hung', 'su-tich'], added: '2026-10-30' },
-  { slug: 'son-tinh-thuy-tinh', shelf: 'kids', title: 'Sơn Tinh, Thủy Tinh', summary: 'Hai vị thần.', scenes: 8, minutes: 4, themes: ['than-thoai'], added: '2026-10-29' },
+  { slug: 'thanh-giong', shelf: 'kids', title: 'Thánh Gióng', summary: 'Cậu bé Gióng.', basedOn: 'Truyện dân gian Việt Nam', scenes: 9, minutes: 6, themes: ['anh-hung'], added: '2026-10-30' },
+  { slug: 'su-tich-ho-guom', shelf: 'adults', title: 'Sự tích Hồ Gươm', summary: 'Rùa Vàng.', basedOn: 'Truyện dân gian Việt Nam', scenes: 11, minutes: 7, themes: ['anh-hung', 'su-tich'], added: '2026-10-30' },
+  { slug: 'son-tinh-thuy-tinh', shelf: 'kids', title: 'Sơn Tinh, Thủy Tinh', summary: 'Hai vị thần.', basedOn: 'Truyện dân gian Việt Nam', scenes: 8, minutes: 4, themes: ['than-thoai'], added: '2026-10-29' },
+  { slug: 'rua-va-tho', shelf: 'world', title: 'Rùa và thỏ', summary: 'Chậm mà chắc.', basedOn: 'Ngụ ngôn Aesop', scenes: 5, minutes: 3, themes: ['ngu-ngon'], added: '2026-11-01' },
 ];
 
 function stubList(list: unknown): void {
@@ -86,7 +87,10 @@ describe('routes', () => {
     show('/');
     await screen.findByText('Thánh Gióng');
     const shelves = [...document.querySelectorAll('[data-id^=shelf-]:is(section)')].map((section) => section.getAttribute('data-id'));
-    expect(shelves).toEqual(['shelf-kids', 'shelf-adults']);
+    expect(shelves).toEqual(['shelf-kids', 'shelf-adults', 'shelf-world']);
+    expect(cardsOf('world')).toEqual(['story-card-rua-va-tho']);
+    expect(document.querySelector('[data-id=shelf-open-world]')?.getAttribute('href')).toBe('/the-gioi');
+    expect(document.querySelector('[data-id=shelf-world]')?.classList.contains('theme-world')).toBe(true);
     expect(cardsOf('kids')).toEqual(['story-card-thanh-giong', 'story-card-son-tinh-thuy-tinh']);
     expect(cardsOf('adults')).toEqual(['story-card-su-tich-ho-guom']);
     expect(document.querySelector('[data-id=shelf-open-kids]')?.getAttribute('href')).toBe('/tre-em');

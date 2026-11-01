@@ -7,15 +7,18 @@ import { z } from 'zod';
 
 const KEBAB = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
-/** The two shelves of the app: retellings for young children, and fuller tellings of the old tales for adults. */
-export const SHELVES = ['kids', 'adults'] as const;
+/**
+ * The shelves of the app: Vietnamese tales retold for young children, fuller tellings of the old Vietnamese tales for
+ * adults, and the world's folk tales and fables (Grimm, Andersen, Aesop, Perrault…) retold gently for the family.
+ */
+export const SHELVES = ['kids', 'adults', 'world'] as const;
 export const shelfSchema = z.enum(SHELVES);
 
 /**
  * What a story is about, for the shelves' topic filter: myth, origin tale, heroes, good and evil, family, love,
- * nature. A story has one to three.
+ * nature, fable. A story has one to three.
  */
-export const THEMES = ['than-thoai', 'su-tich', 'anh-hung', 'thien-ac', 'gia-dinh', 'tinh-yeu', 'thien-nhien'] as const;
+export const THEMES = ['than-thoai', 'su-tich', 'anh-hung', 'thien-ac', 'gia-dinh', 'tinh-yeu', 'thien-nhien', 'ngu-ngon'] as const;
 export const themeSchema = z.enum(THEMES);
 
 const text = z.string().trim().min(1);
@@ -105,6 +108,12 @@ export const storySchema = z.strictObject({
   language: z.literal('vi'),
   /** Where the tale comes from and how the words were written. */
   source: text,
+  /**
+   * The source in a few words, shown on the story's page as "Cốt truyện theo: …", e.g. "Truyện dân gian Việt Nam",
+   * "Lĩnh Nam chích quái", "Truyện cổ Grimm (1812)". Every story names one: a tale with no public-domain source is
+   * not told.
+   */
+  basedOn: z.string().trim().min(3).max(80),
   /** Art direction added to every image and sheet prompt, so the whole story looks like one book. */
   style: text,
   narrators: z.record(id, narratorSchema),

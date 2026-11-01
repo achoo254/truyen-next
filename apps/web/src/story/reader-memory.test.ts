@@ -13,7 +13,7 @@ describe('reader preferences', () => {
       textSize: 'l',
       rate: 1.25,
       subtitles: false,
-      scenes: { kids: 'giuong-ngu', adults: 'ban-go' },
+      scenes: { kids: 'giuong-ngu', adults: 'ban-go', world: 'ban-go' },
     });
     expect(parsePrefs({ autoTurn: 'no', textSize: 'xl', rate: 3, subtitles: 1 })).toEqual(DEFAULT_PREFS);
   });

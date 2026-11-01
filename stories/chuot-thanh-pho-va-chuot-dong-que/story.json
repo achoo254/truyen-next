@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "slug": "chuot-thanh-pho-va-chuot-dong-que",
+  "shelf": "world",
+  "title": "Chuột thành phố và chuột đồng quê",
+  "summary": "Chú chuột đồng quê theo bạn lên thành phố dự những bữa tiệc linh đình, nhưng đêm nào cũng phải chạy trốn chó mèo. Ngụ ngôn Aesop về giá trị của cuộc sống giản dị mà bình yên.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, a cosy burrow under an oak by barley fields, and a grand old townhouse dining room with candles and a long table, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chuot-que",
+      "name": "Chuột đồng quê",
+      "seed": 1566594888,
+      "sheetPrompt": "a humble brown country mouse with a straw-coloured scarf, round ears, a gentle shy smile, carrying a small cloth bundle, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chuot-pho",
+      "name": "Chuột thành phố",
+      "seed": 3608352729,
+      "sheetPrompt": "a dapper grey town mouse with glossy combed whiskers, a tiny waistcoat and bow tie, confident expression, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "khach-pho",
+      "title": "Người bạn từ thành phố",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một chú chuột đồng quê sống trong cái hang nhỏ dưới gốc cây sồi, bên cạnh ruộng lúa mạch. Một hôm, chú mời người bạn cũ là chuột thành phố về chơi. Chuột đồng quê dọn ra những gì ngon nhất mình có: mấy hạt lúa mạch, vài củ rễ cây, một mẩu pho mát nhỏ và ít quả mọng hái ngoài bờ rào. Chuột thành phố nhấm nháp một chút rồi nhăn mũi.",
+      "subtitles": [
+        "Ngày xưa, có một chú chuột đồng quê sống trong cái hang nhỏ dưới gốc cây sồi,",
+        "bên cạnh ruộng lúa mạch. Một hôm, chú mời người bạn cũ là chuột thành phố về chơi.",
+        "Chuột đồng quê dọn ra những gì ngon nhất mình có: mấy hạt lúa mạch, vài củ rễ cây,",
+        "một mẩu pho mát nhỏ và ít quả mọng hái ngoài bờ rào.",
+        "Chuột thành phố nhấm nháp một chút rồi nhăn mũi."
+      ],
+      "image": {
+        "character": "chuot-que",
+        "prompt": "inside a snug burrow under an oak root, the country mouse proudly serves barley grains, roots, a small cheese and berries on a leaf to the dapper town mouse who wrinkles his nose",
+        "seed": 2862306957
+      },
+      "video": {
+        "motionPrompt": "the country mouse offers the berries, the town mouse sniffs and wrinkles its nose, a candle stub flickers",
+        "seed": 3843113018
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-ru",
+      "title": "Lời rủ rê",
+      "narrator": "ke-chuyen",
+      "narration": "“Bạn ơi, sao bạn chịu nổi cuộc sống nghèo nàn thế này?” chuột thành phố nói, vuốt vuốt bộ ria bóng mượt. “Ở thành phố, tôi ăn bánh ngọt, pho mát thơm, thịt nguội thừa mứa. Hãy về ở với tôi, bạn sẽ biết thế nào là sung sướng.” Chuột đồng quê nghe mà xiêu lòng. Thế là sáng hôm sau, hai chú cùng lên đường ra thành phố.",
+      "subtitles": [
+        "“Bạn ơi, sao bạn chịu nổi cuộc sống nghèo nàn thế này?”",
+        "chuột thành phố nói, vuốt vuốt bộ ria bóng mượt.",
+        "“Ở thành phố, tôi ăn bánh ngọt, pho mát thơm, thịt nguội thừa mứa.",
+        "Hãy về ở với tôi, bạn sẽ biết thế nào là sung sướng.” Chuột đồng quê nghe mà xiêu lòng.",
+        "Thế là sáng hôm sau, hai chú cùng lên đường ra thành phố."
+      ],
+      "image": {
+        "character": "chuot-pho",
+        "prompt": "the town mouse twirls his whiskers and gestures grandly while describing the town; next morning both mice walk along a country road toward distant town roofs and spires",
+        "seed": 2778426177
+      },
+      "video": {
+        "motionPrompt": "the town mouse twirls its whiskers, the two mice set off down the road, the country mouse looks back at the oak",
+        "seed": 2255214783
+      },
+      "voice": {}
+    },
+    {
+      "id": "bua-tiec",
+      "title": "Bữa tiệc linh đình",
+      "narrator": "ke-chuyen",
+      "narration": "Tối hôm ấy, hai chú chuột lẻn vào một ngôi nhà lớn, nơi vừa có một bữa tiệc. Trên chiếc bàn dài trải khăn trắng, còn la liệt bánh kem, nho, pho mát, bánh mì thơm phức. Chuột đồng quê tròn mắt: “Trời ơi, nhiều món ngon quá!” Hai chú leo lên bàn, vừa mới cắn được một miếng bánh thì cửa bỗng bật mở.",
+      "subtitles": [
+        "Tối hôm ấy, hai chú chuột lẻn vào một ngôi nhà lớn, nơi vừa có một bữa tiệc.",
+        "Trên chiếc bàn dài trải khăn trắng, còn la liệt bánh kem, nho, pho mát, bánh mì thơm phức.",
+        "Chuột đồng quê tròn mắt: “Trời ơi, nhiều món ngon quá!”",
+        "Hai chú leo lên bàn, vừa mới cắn được một miếng bánh thì cửa bỗng bật mở."
+      ],
+      "image": {
+        "character": "chuot-que",
+        "prompt": "two tiny mice on a long candlelit banquet table covered with a white cloth, cakes, grapes, cheese and bread, the country mouse wide-eyed with delight",
+        "seed": 3615902967
+      },
+      "video": {
+        "motionPrompt": "candle flames flicker, the mice nibble a cake, the big door at the back begins to swing open",
+        "seed": 3856286176
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoang-so",
+      "title": "Một đêm hoảng sợ",
+      "narrator": "ke-chuyen",
+      "narration": "Người làm vào dọn dẹp, kèm theo hai chú chó to sủa vang. Hai chú chuột cuống cuồng nhảy xuống, chạy trốn vào một cái hốc tường chật hẹp, tim đập thình thịch. Chờ mãi, mọi thứ yên tĩnh lại, hai chú vừa ló ra định ăn tiếp thì lại có tiếng mèo kêu meo meo ngoài hành lang. Lại phải chạy! Suốt cả đêm, hai chú chẳng được ăn miếng nào cho yên.",
+      "subtitles": [
+        "Người làm vào dọn dẹp, kèm theo hai chú chó to sủa vang.",
+        "Hai chú chuột cuống cuồng nhảy xuống, chạy trốn vào một cái hốc tường chật hẹp,",
+        "tim đập thình thịch. Chờ mãi, mọi thứ yên tĩnh lại,",
+        "hai chú vừa ló ra định ăn tiếp thì lại có tiếng mèo kêu meo meo ngoài hành lang.",
+        "Lại phải chạy! Suốt cả đêm, hai chú chẳng được ăn miếng nào cho yên."
+      ],
+      "image": {
+        "character": "chuot-pho",
+        "prompt": "the two mice peek out nervously from a small hole in the wall, a big barking dog and a curious cat in the dining room, cartoonish and not scary",
+        "seed": 174811207
+      },
+      "video": {
+        "motionPrompt": "the dog wags and barks, the cat's tail swishes, the mice duck back into the hole and peek out again",
+        "seed": 1815407474
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-que",
+      "title": "Trở về đồng quê",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, chuột đồng quê ôm túi nhỏ, chào bạn: “Cảm ơn bạn đã mời tôi. Thức ăn ở đây ngon thật, nhưng tôi thà ăn hạt lúa mạch trong yên bình, còn hơn ăn bánh kem mà lúc nào cũng nơm nớp lo sợ.” Rồi chú vui vẻ trở về cái hang nhỏ dưới gốc sồi, ngủ một giấc thật ngon. Các bạn nhỏ ạ, một cuộc sống giản dị mà bình yên, nhiều khi quý hơn mọi cao lương mỹ vị.",
+      "subtitles": [
+        "Sáng hôm sau, chuột đồng quê ôm túi nhỏ, chào bạn: “Cảm ơn bạn đã mời tôi.",
+        "Thức ăn ở đây ngon thật, nhưng tôi thà ăn hạt lúa mạch trong yên bình,",
+        "còn hơn ăn bánh kem mà lúc nào cũng nơm nớp lo sợ.”",
+        "Rồi chú vui vẻ trở về cái hang nhỏ dưới gốc sồi, ngủ một giấc thật ngon.",
+        "Các bạn nhỏ ạ, một cuộc sống giản dị mà bình yên, nhiều khi quý hơn mọi cao lương mỹ vị."
+      ],
+      "image": {
+        "character": "chuot-que",
+        "prompt": "the happy country mouse with his little bundle walks home along a sunny path through golden barley fields toward the big oak, then sleeps curled up in his snug burrow",
+        "seed": 2296601727
+      },
+      "video": {
+        "motionPrompt": "barley sways, the country mouse skips along the path, birds fly over the fields",
+        "seed": 3733484385
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle classical storybook music, folk fiddle for the countryside and an elegant minuet for the town, with a playful chase in between, light and playful with a warm calm ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3584512137
+  }
+}

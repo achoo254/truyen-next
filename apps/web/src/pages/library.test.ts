@@ -6,7 +6,7 @@ const entry = (slug: string, title: string, minutes: number, added: string, them
   slug,
   shelf: 'kids',
   title,
-  summary: `Tóm tắt của ${title}.`,
+  summary: `Tóm tắt của ${title}.`, basedOn: 'Truyện dân gian Việt Nam',
   scenes: 8,
   minutes,
   themes,

@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "slug": "hoang-tu-ech",
+  "shelf": "world",
+  "title": "Hoàng tử ếch",
+  "summary": "Nàng công chúa út làm rơi quả cầu vàng xuống giếng và hứa với một chú ếch đủ điều để lấy lại. Lời hứa ấy đưa chú ếch vào tận lâu đài, và bí mật của chú dần hé lộ. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà về chuyện giữ lời hứa.",
+  "themes": [
+    "tinh-yeu",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der Froschkönig oder der eiserne Heinrich\" (Kinder- und Hausmärchen, 1812), truyện đầu tiên của bộ sách, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Theo bản Grimm, ếch hóa người khi bị công chúa ném vào tường chứ không phải nhờ nụ hôn; bản kể đã làm nhẹ cảnh ấy cho cả nhà và giữ đoạn kết về người hầu trung thành Heinrich.",
+  "basedOn": "Truyện cổ Grimm (1812)",
+  "style": "classic nineteenth-century European fairy-tale picture-book illustration, soft watercolor and fine ink lines, warm gentle light, rounded friendly shapes, calm and safe mood for the whole family, a German royal castle, a shady linden forest with an old stone well, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cong-chua",
+      "name": "Công chúa út",
+      "seed": 1316465602,
+      "sheetPrompt": "the youngest princess from the Grimm tale, a lively young girl of about twelve with long golden curls, a small golden circlet, a pale blue gown with gold embroidery, holding a shining golden ball, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ech",
+      "name": "Chú ếch",
+      "seed": 2309885877,
+      "sheetPrompt": "a friendly plump green frog from a classic fairy-tale picture book, big round golden eyes, a tiny golden crown on his head, sitting upright, cute and polite, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "seed": 4258898049,
+      "sheetPrompt": "a kind young prince from a classic European fairy tale, wavy blond hair, friendly smiling eyes, emerald green velvet doublet with gold buttons, a small golden crown, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "heinrich",
+      "name": "Heinrich trung thành",
+      "seed": 4159831546,
+      "sheetPrompt": "Faithful Heinrich, a loyal middle-aged royal servant from the Grimm tale, grey moustache, kind face, green and gold livery coat, three iron bands around his chest over the coat, standing proudly beside a carriage step, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "qua-cau-vang",
+      "title": "Quả cầu vàng rơi xuống giếng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, khi mong ước còn có thể thành thật, có một nhà vua có mấy cô con gái xinh đẹp. Cô út xinh nhất, đến mặt trời cũng phải ngẩn ngơ mỗi lần chiếu lên má nàng. Gần lâu đài có một khu rừng rậm, dưới gốc cây đoan già có một cái giếng sâu. Những ngày nóng, công chúa út hay ra đó ngồi chơi với quả cầu vàng, tung lên rồi bắt lấy. Một hôm, nàng tung cao quá, quả cầu tuột khỏi tay, lăn tõm xuống giếng, chìm mất. Công chúa òa khóc, khóc mãi không thôi.",
+      "subtitles": [
+        "Ngày xưa, khi mong ước còn có thể thành thật, có một nhà vua có mấy cô con gái xinh đẹp.",
+        "Cô út xinh nhất, đến mặt trời cũng phải ngẩn ngơ mỗi lần chiếu lên má nàng.",
+        "Gần lâu đài có một khu rừng rậm, dưới gốc cây đoan già có một cái giếng sâu.",
+        "Những ngày nóng, công chúa út hay ra đó ngồi chơi với quả cầu vàng, tung lên rồi bắt lấy.",
+        "Một hôm, nàng tung cao quá, quả cầu tuột khỏi tay, lăn tõm xuống giếng, chìm mất.",
+        "Công chúa òa khóc, khóc mãi không thôi."
+      ],
+      "image": {
+        "prompt": "in a shady forest beside an old mossy stone well under a big linden tree, the youngest princess in a pale blue gown watches with dismay as her shining golden ball splashes into the deep water, sunbeams through the leaves",
+        "seed": 3590470699,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the golden ball drops and splashes, ripples spread across the water, the princess reaches out too late, leaves flutter, slow motion",
+        "seed": 1581965187
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-hua",
+      "title": "Lời hứa với chú ếch",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng có tiếng gọi: \"Công chúa ơi, sao nàng khóc thảm thế?\" Nàng nhìn quanh, thấy một chú ếch thò cái đầu to tướng lên mặt nước. \"Ếch ơi, quả cầu vàng của ta rơi xuống giếng rồi.\" \"Ta lấy lên được. Nhưng nàng cho ta gì?\" \"Ta cho ếch váy áo, ngọc trai, cả chiếc vương miện của ta nữa!\" \"Ta chẳng cần những thứ ấy. Ta chỉ mong được làm bạn của nàng, ngồi cạnh nàng bên bàn, ăn chung đĩa, uống chung cốc, ngủ trên chiếc gối nhỏ cạnh nàng.\" Công chúa nghĩ bụng: \"Ếch thì làm sao lên lâu đài được.\" Nàng vội nói: \"Ừ, ta hứa!\"",
+      "subtitles": [
+        "Bỗng có tiếng gọi: \"Công chúa ơi, sao nàng khóc thảm thế?\"",
+        "Nàng nhìn quanh, thấy một chú ếch thò cái đầu to tướng lên mặt nước.",
+        "\"Ếch ơi, quả cầu vàng của ta rơi xuống giếng rồi.\" \"Ta lấy lên được.",
+        "Nhưng nàng cho ta gì?\" \"Ta cho ếch váy áo, ngọc trai, cả chiếc vương miện của ta nữa!\"",
+        "\"Ta chẳng cần những thứ ấy.",
+        "Ta chỉ mong được làm bạn của nàng, ngồi cạnh nàng bên bàn, ăn chung đĩa, uống chung cốc,",
+        "ngủ trên chiếc gối nhỏ cạnh nàng.\"",
+        "Công chúa nghĩ bụng: \"Ếch thì làm sao lên lâu đài được.\" Nàng vội nói: \"Ừ, ta hứa!\""
+      ],
+      "image": {
+        "prompt": "a plump green frog with a tiny golden crown peeks up from the water of the stone well, speaking politely to the tearful princess who leans over the edge, ferns and moss around the well, soft dappled light",
+        "seed": 3399565365,
+        "character": "ech"
+      },
+      "video": {
+        "motionPrompt": "the frog bobs in the water and blinks his golden eyes, the princess wipes a tear and nods quickly, ripples shimmer, gentle push-in",
+        "seed": 9294660
+      },
+      "voice": {}
+    },
+    {
+      "id": "quen-loi-hua",
+      "title": "Nàng công chúa quên lời",
+      "narrator": "ke-chuyen",
+      "narration": "Chú ếch lặn xuống, một lúc sau ngậm quả cầu vàng ngoi lên, ném lên cỏ. Công chúa mừng rỡ nhặt lấy, chạy một mạch về lâu đài. \"Chờ ta với, ta không chạy nhanh như nàng được!\" Chú ếch kêu ộp ộp sau lưng, nhưng nàng chẳng thèm nghe. Về đến nhà, nàng quên bẵng chú ếch. Hôm sau, khi cả nhà đang ngồi ăn, bỗng có tiếng lạch bạch trên bậc thềm đá, rồi tiếng gõ cửa: \"Công chúa út ơi, mở cửa cho ta với! Nàng quên lời hứa bên giếng hôm qua rồi sao?\"",
+      "subtitles": [
+        "Chú ếch lặn xuống, một lúc sau ngậm quả cầu vàng ngoi lên, ném lên cỏ.",
+        "Công chúa mừng rỡ nhặt lấy, chạy một mạch về lâu đài.",
+        "\"Chờ ta với, ta không chạy nhanh như nàng được!\"",
+        "Chú ếch kêu ộp ộp sau lưng, nhưng nàng chẳng thèm nghe.",
+        "Về đến nhà, nàng quên bẵng chú ếch.",
+        "Hôm sau, khi cả nhà đang ngồi ăn, bỗng có tiếng lạch bạch trên bậc thềm đá,",
+        "rồi tiếng gõ cửa: \"Công chúa út ơi, mở cửa cho ta với!",
+        "Nàng quên lời hứa bên giếng hôm qua rồi sao?\""
+      ],
+      "image": {
+        "prompt": "the princess runs happily across a meadow toward a fairy-tale castle holding her golden ball high, while far behind the little crowned frog hops after her calling, wildflowers and butterflies, bright afternoon",
+        "seed": 2908700041,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the princess skips away with the golden ball, the little frog hops and waves behind, butterflies scatter, light tracking shot",
+        "seed": 572972370
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-day",
+      "title": "Lời vua cha",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa ra mở cửa, thấy chú ếch thì đóng sập lại, mặt tái đi. Nhà vua hỏi chuyện gì, nàng đành kể thật. Nhà vua nghiêm nghị: \"Con đã hứa thì phải giữ lời. Mở cửa cho ếch vào đi.\" Chú ếch nhảy vào, nhảy lên ghế, nhảy lên bàn: \"Đẩy đĩa vàng của nàng lại gần đây, ta ăn chung với.\" Công chúa miễn cưỡng làm theo. Chú ếch ăn ngon lành, còn nàng chẳng nuốt nổi miếng nào. Ăn xong, ếch nói: \"Ta mỏi rồi, nàng đưa ta lên phòng, cho ta nằm trên chiếc gối nhỏ nhé.\"",
+      "subtitles": [
+        "Công chúa ra mở cửa, thấy chú ếch thì đóng sập lại, mặt tái đi.",
+        "Nhà vua hỏi chuyện gì, nàng đành kể thật.",
+        "Nhà vua nghiêm nghị: \"Con đã hứa thì phải giữ lời. Mở cửa cho ếch vào đi.\"",
+        "Chú ếch nhảy vào, nhảy lên ghế, nhảy lên bàn: \"Đẩy đĩa vàng của nàng lại gần đây,",
+        "ta ăn chung với.\" Công chúa miễn cưỡng làm theo.",
+        "Chú ếch ăn ngon lành, còn nàng chẳng nuốt nổi miếng nào.",
+        "Ăn xong, ếch nói: \"Ta mỏi rồi, nàng đưa ta lên phòng, cho ta nằm trên chiếc gối nhỏ nhé.\""
+      ],
+      "image": {
+        "prompt": "in a grand castle dining hall, the little crowned frog sits on the table beside the princess’s golden plate, the princess pouting with crossed arms, the stern but kind old king pointing gently as if saying a promise is a promise, candles and banners",
+        "seed": 4014000288,
+        "character": "ech"
+      },
+      "video": {
+        "motionPrompt": "the frog takes a happy bite from the golden plate, the princess wrinkles her nose, the king nods firmly, candles flicker, gentle comical motion",
+        "seed": 1366456883
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-hoang-tu",
+      "title": "Chú ếch hóa hoàng tử",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa cầm chú ếch bằng hai ngón tay, mang lên phòng, đặt vào một góc. Khi nàng nằm xuống giường, ếch bò lại gần: \"Ta mỏi lắm, cho ta lên gối với, không ta mách vua cha đấy.\" Công chúa bực quá, nhấc chú ếch lên ném mạnh vào tường. Nhưng chú ếch vừa chạm tường thì một làn ánh sáng lóe lên. Đứng trước mặt nàng không còn là chú ếch nữa, mà là một chàng hoàng tử có đôi mắt hiền và nụ cười tươi. Chàng kể rằng mình bị một mụ phù thủy độc ác hóa phép, chỉ có công chúa út mới cứu được chàng.",
+      "subtitles": [
+        "Công chúa cầm chú ếch bằng hai ngón tay, mang lên phòng, đặt vào một góc.",
+        "Khi nàng nằm xuống giường, ếch bò lại gần: \"Ta mỏi lắm, cho ta lên gối với,",
+        "không ta mách vua cha đấy.\" Công chúa bực quá, nhấc chú ếch lên ném mạnh vào tường.",
+        "Nhưng chú ếch vừa chạm tường thì một làn ánh sáng lóe lên.",
+        "Đứng trước mặt nàng không còn là chú ếch nữa,",
+        "mà là một chàng hoàng tử có đôi mắt hiền và nụ cười tươi.",
+        "Chàng kể rằng mình bị một mụ phù thủy độc ác hóa phép,",
+        "chỉ có công chúa út mới cứu được chàng."
+      ],
+      "image": {
+        "prompt": "in a princess bedchamber with a canopy bed, a burst of soft golden sparkling light near the wall as the frog transforms into a smiling young prince in green velvet, the princess stepping back amazed with her hands over her mouth, magical and gentle",
+        "seed": 95177927,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "golden sparkles swirl and fade as the prince appears and bows, the princess lowers her hands in wonder, the bed curtains flutter, magical slow motion",
+        "seed": 2796923466
+      },
+      "voice": {}
+    },
+    {
+      "id": "heinrich",
+      "title": "Heinrich trung thành",
+      "narrator": "ke-chuyen",
+      "narration": "Vua cha vui lòng gả công chúa cho hoàng tử. Sáng hôm sau, một cỗ xe tám ngựa trắng đến đón hai người về vương quốc của chàng. Ngồi sau xe là Heinrich, người hầu trung thành của hoàng tử. Ngày chủ bị hóa thành ếch, Heinrich buồn đến mức phải đeo ba vòng sắt quanh ngực, sợ tim mình vỡ ra vì thương nhớ. Đi được một quãng, hoàng tử nghe tiếng rắc rắc. \"Heinrich ơi, xe gãy rồi sao?\" \"Không đâu chủ nhân, đó là vòng sắt trên ngực tôi, tim tôi vui quá nên vòng sắt bật ra.\" Ba lần rắc rắc, ba vòng sắt bung ra.",
+      "subtitles": [
+        "Vua cha vui lòng gả công chúa cho hoàng tử.",
+        "Sáng hôm sau, một cỗ xe tám ngựa trắng đến đón hai người về vương quốc của chàng.",
+        "Ngồi sau xe là Heinrich, người hầu trung thành của hoàng tử.",
+        "Ngày chủ bị hóa thành ếch, Heinrich buồn đến mức phải đeo ba vòng sắt quanh ngực,",
+        "sợ tim mình vỡ ra vì thương nhớ. Đi được một quãng, hoàng tử nghe tiếng rắc rắc.",
+        "\"Heinrich ơi, xe gãy rồi sao?\"",
+        "\"Không đâu chủ nhân, đó là vòng sắt trên ngực tôi, tim tôi vui quá nên vòng sắt bật ra.\"",
+        "Ba lần rắc rắc, ba vòng sắt bung ra."
+      ],
+      "image": {
+        "prompt": "a golden carriage drawn by eight white horses with white plumes rolls along a country road, the prince and princess waving from the window, faithful Heinrich riding at the back with a joyful face as an iron band springs open around his chest with a glint of light",
+        "seed": 623028847,
+        "character": "heinrich"
+      },
+      "video": {
+        "motionPrompt": "the carriage rolls forward, the horses toss their plumes, an iron band pops open with a sparkle, Heinrich laughs, smooth tracking shot",
+        "seed": 1719341583
+      },
+      "voice": {}
+    },
+    {
+      "id": "giu-loi",
+      "title": "Giữ lời hứa",
+      "narrator": "ke-chuyen",
+      "narration": "Về đến vương quốc của hoàng tử, đám cưới được tổ chức thật vui. Công chúa út giờ đã hiểu: lời hứa dù nói vội vàng cũng phải giữ cho trọn. Chính vì nàng giữ lời mà hoàng tử mới được cứu. Từ đó, hai người sống bên nhau hạnh phúc. Thỉnh thoảng, họ lại cùng nhau ra bên cái giếng dưới gốc cây đoan già, tung quả cầu vàng, và cười vang khi nhớ lại chú ếch nhỏ ngày nào.",
+      "subtitles": [
+        "Về đến vương quốc của hoàng tử, đám cưới được tổ chức thật vui.",
+        "Công chúa út giờ đã hiểu: lời hứa dù nói vội vàng cũng phải giữ cho trọn.",
+        "Chính vì nàng giữ lời mà hoàng tử mới được cứu. Từ đó, hai người sống bên nhau hạnh phúc.",
+        "Thỉnh thoảng, họ lại cùng nhau ra bên cái giếng dưới gốc cây đoan già, tung quả cầu vàng,",
+        "và cười vang khi nhớ lại chú ếch nhỏ ngày nào."
+      ],
+      "image": {
+        "prompt": "the princess and the prince sit together happily on the edge of the mossy stone well under the big linden tree, tossing the golden ball between them, a little green frog watching from a lily pad, warm golden afternoon light",
+        "seed": 1149276781,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the golden ball arcs gently between them, the little frog blinks on the lily pad, leaves sway, sunlight glimmers on the water, slow pull-back",
+        "seed": 3400128964
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light and charming European fairy-tale music, pizzicato strings, harp and bassoon with playful frog-like hops, turning tender and romantic, medium-slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3624759331
+  }
+}

@@ -7,6 +7,8 @@ export interface StoryListEntry {
   shelf: Shelf;
   title: string;
   summary: string;
+  /** The source in a few words ("Cốt truyện theo: …"). */
+  basedOn: string;
   scenes: number;
   /** Estimated read-aloud length in whole minutes (at least one). */
   minutes: number;
@@ -21,6 +23,7 @@ export function storyListEntry(story: Story): StoryListEntry {
     shelf: story.shelf,
     title: story.title,
     summary: story.summary,
+    basedOn: story.basedOn,
     scenes: story.scenes.length,
     minutes: Math.max(1, Math.round(estimateStorySeconds(story) / 60)),
     themes: story.themes ?? [],

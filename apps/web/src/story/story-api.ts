@@ -79,10 +79,10 @@ export function parseStoryPath(path: string): string | null {
 }
 
 /**
- * Each shelf on a page of its own: `/tre-em` (children's stories only, the way in from Miu World) and `/nguoi-lon`.
- * The home page shows both shelves, children's first.
+ * Each shelf on a page of its own: `/tre-em` (children's stories only, the way in from Miu World), `/nguoi-lon` and
+ * `/the-gioi`. The home page shows every shelf, children's first.
  */
-export const SHELF_PATHS: Record<Shelf, string> = { kids: '/tre-em', adults: '/nguoi-lon' };
+export const SHELF_PATHS: Record<Shelf, string> = { kids: '/tre-em', adults: '/nguoi-lon', world: '/the-gioi' };
 
 export function shelfPath(shelf: Shelf): string {
   return SHELF_PATHS[shelf];

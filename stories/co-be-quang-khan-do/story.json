@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "slug": "co-be-quang-khan-do",
+  "shelf": "world",
+  "title": "Cô bé quàng khăn đỏ",
+  "summary": "Cô bé quàng khăn đỏ mang bánh qua rừng thăm bà và gặp con sói gian ngoan bên đường hoa. Truyện cổ Grimm kể lại nhẹ nhàng cho cả nhà, với bài học: đi đường đừng nghe lời người lạ.",
+  "themes": [
+    "thien-ac",
+    "gia-dinh"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Rotkäppchen\" (Kinder- und Hausmärchen, 1812), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể đã làm nhẹ cho cả nhà: sói không nuốt ai, bà trốn trong tủ, bác thợ săn đuổi sói vào rừng sâu thay cho đoạn mổ bụng sói của bản gốc.",
+  "basedOn": "Truyện cổ Grimm (1812)",
+  "style": "classic nineteenth-century European fairy-tale picture-book illustration, soft watercolor and fine ink lines, warm gentle light, rounded friendly shapes, calm and safe mood for the whole family, German village and forest setting with half-timbered cottages, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "khan-do",
+      "name": "Cô bé quàng khăn đỏ",
+      "seed": 433113194,
+      "sheetPrompt": "Little Red Cap, a cheerful seven-year-old German village girl from the Grimm tale, rosy cheeks, light brown braids under a small red velvet hooded cap, white blouse, blue dress with a white apron, brown shoes, carrying a wicker basket covered with a checked cloth, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "soi",
+      "name": "Con sói",
+      "seed": 2210881723,
+      "sheetPrompt": "a sly but comical grey wolf from a classic fairy-tale picture book, big bushy tail, mischievous grin without showing sharp teeth, standing on four legs, not scary, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba",
+      "name": "Bà ngoại",
+      "seed": 2581081285,
+      "sheetPrompt": "a kind elderly German grandmother from the Grimm tale, silver hair in a bun under a white lace nightcap, round spectacles, warm smile, cream nightgown with a knitted shawl, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "tho-san",
+      "name": "Bác thợ săn",
+      "seed": 778734732,
+      "sheetPrompt": "a friendly bearded German forester from the Grimm tale, green felt hat with a feather, green jacket and brown trousers, tall leather boots, kind eyes, holding a wooden walking staff, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "chiec-khan-do",
+      "title": "Chiếc khăn nhung đỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng nhỏ bên bìa rừng, có một cô bé ai gặp cũng thương. Người thương cô nhất là bà ngoại. Bà may tặng cô một chiếc mũ trùm bằng nhung đỏ. Cô bé thích lắm, đi đâu cũng đội, nên cả làng gọi cô là cô bé quàng khăn đỏ. Một sáng, mẹ gói một chiếc bánh ngọt và một chai nước nho vào giỏ, rồi dặn: \"Bà đang ốm, con mang sang cho bà nhé. Đi thẳng đường lớn, đừng rẽ vào rừng, cũng đừng nói chuyện với người lạ.\" Cô bé gật đầu thật ngoan: \"Con nhớ rồi ạ!\"",
+      "subtitles": [
+        "Ngày xưa, ở một làng nhỏ bên bìa rừng, có một cô bé ai gặp cũng thương.",
+        "Người thương cô nhất là bà ngoại. Bà may tặng cô một chiếc mũ trùm bằng nhung đỏ.",
+        "Cô bé thích lắm, đi đâu cũng đội, nên cả làng gọi cô là cô bé quàng khăn đỏ.",
+        "Một sáng, mẹ gói một chiếc bánh ngọt và một chai nước nho vào giỏ, rồi dặn: \"Bà đang ốm,",
+        "con mang sang cho bà nhé.",
+        "Đi thẳng đường lớn, đừng rẽ vào rừng, cũng đừng nói chuyện với người lạ.\"",
+        "Cô bé gật đầu thật ngoan: \"Con nhớ rồi ạ!\""
+      ],
+      "image": {
+        "prompt": "in a cosy half-timbered cottage kitchen, a mother ties a checked cloth over a wicker basket with a cake and a small bottle while Little Red Cap in her red velvet hood listens and nods, morning sun through the window, geraniums on the sill",
+        "seed": 1259544243,
+        "character": "khan-do"
+      },
+      "video": {
+        "motionPrompt": "the mother hands over the basket, the girl nods and smiles, curtains sway in a light breeze, sunbeams drift slowly, gentle camera push-in",
+        "seed": 2907341391
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-soi",
+      "title": "Gặp sói trong rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà bà ở bên kia khu rừng, đi bộ mất nửa buổi sáng. Cô bé vừa vào rừng thì gặp một con sói xám. Cô chưa từng thấy sói, nên chẳng biết nó gian ngoan thế nào. Sói cười tươi: \"Chào cô bé! Sáng sớm thế này cô đi đâu đấy?\" \"Cháu sang nhà bà ngoại, bà ở dưới ba cây sồi to, có hàng rào cây phỉ.\" Sói nghĩ bụng: \"Hay lắm, mình phải đến đó trước.\" Nó bèn nói ngọt: \"Cô bé nhìn xem, hoa trong rừng đẹp biết bao. Sao không hái một bó tặng bà?\"",
+      "subtitles": [
+        "Nhà bà ở bên kia khu rừng, đi bộ mất nửa buổi sáng.",
+        "Cô bé vừa vào rừng thì gặp một con sói xám.",
+        "Cô chưa từng thấy sói, nên chẳng biết nó gian ngoan thế nào. Sói cười tươi: \"Chào cô bé!",
+        "Sáng sớm thế này cô đi đâu đấy?\"",
+        "\"Cháu sang nhà bà ngoại, bà ở dưới ba cây sồi to, có hàng rào cây phỉ.\"",
+        "Sói nghĩ bụng: \"Hay lắm, mình phải đến đó trước.\"",
+        "Nó bèn nói ngọt: \"Cô bé nhìn xem, hoa trong rừng đẹp biết bao.",
+        "Sao không hái một bó tặng bà?\""
+      ],
+      "image": {
+        "prompt": "on a sunny forest path among tall beech trees, Little Red Cap with her basket meets a sly grey wolf who bows politely and points a paw toward a clearing full of wildflowers, birds on the branches",
+        "seed": 847621086,
+        "character": "soi"
+      },
+      "video": {
+        "motionPrompt": "the wolf sweeps his paw toward the flowers, the girl tilts her head curiously, leaves flutter, light flickers through the canopy, slow pan",
+        "seed": 566356442
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-hoa",
+      "title": "Bó hoa bên đường",
+      "narrator": "ke-chuyen",
+      "narration": "Cô bé ngẩng lên, thấy nắng xuyên qua tán lá lấp lánh, hoa nở khắp nơi. Cô nghĩ: \"Bà mà có bó hoa tươi chắc vui lắm.\" Thế là cô rời đường lớn, chạy vào rừng hái hoa. Hái được bông này lại thấy bông kia đẹp hơn ở xa xa, cô cứ thế đi mãi vào sâu. Trong lúc ấy, sói chạy một mạch tới nhà bà, gõ cửa: \"Cháu đây, cháu mang bánh sang cho bà.\" Bà ngoại nằm trên giường, nói vọng ra: \"Cháu cứ đẩy then mà vào, bà yếu quá không dậy được.\"",
+      "subtitles": [
+        "Cô bé ngẩng lên, thấy nắng xuyên qua tán lá lấp lánh, hoa nở khắp nơi.",
+        "Cô nghĩ: \"Bà mà có bó hoa tươi chắc vui lắm.\"",
+        "Thế là cô rời đường lớn, chạy vào rừng hái hoa.",
+        "Hái được bông này lại thấy bông kia đẹp hơn ở xa xa, cô cứ thế đi mãi vào sâu.",
+        "Trong lúc ấy, sói chạy một mạch tới nhà bà, gõ cửa: \"Cháu đây,",
+        "cháu mang bánh sang cho bà.\"",
+        "Bà ngoại nằm trên giường, nói vọng ra: \"Cháu cứ đẩy then mà vào,",
+        "bà yếu quá không dậy được.\""
+      ],
+      "image": {
+        "prompt": "Little Red Cap kneels happily in a sunlit clearing picking bluebells, daisies and poppies into a bouquet, butterflies around her, while far away in the background a tiny grey wolf runs along the path toward a cottage under three big oak trees",
+        "seed": 3060570125,
+        "character": "khan-do"
+      },
+      "video": {
+        "motionPrompt": "the girl picks a flower and adds it to her bouquet, butterflies flutter, the tiny wolf hurries along in the distance, grass sways",
+        "seed": 898394514
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-tron",
+      "title": "Bà ngoại trốn vào tủ",
+      "narrator": "ke-chuyen",
+      "narration": "Sói vừa ló mõm vào, bà ngoại đã nhận ra cái đuôi xám. Bà nhanh trí chui tọt vào chiếc tủ gỗ to cạnh giường, khoá chặt cửa lại. Sói tìm mãi không thấy bà, bèn lấy chiếc mũ ngủ và cặp kính của bà đội lên, rồi chui vào chăn, kéo rèm che kín giường. Nó nằm im chờ cô bé đến. Bà ngoại trong tủ run run, chỉ mong có ai đi ngang qua mà giúp.",
+      "subtitles": [
+        "Sói vừa ló mõm vào, bà ngoại đã nhận ra cái đuôi xám.",
+        "Bà nhanh trí chui tọt vào chiếc tủ gỗ to cạnh giường, khoá chặt cửa lại.",
+        "Sói tìm mãi không thấy bà, bèn lấy chiếc mũ ngủ và cặp kính của bà đội lên,",
+        "rồi chui vào chăn, kéo rèm che kín giường. Nó nằm im chờ cô bé đến.",
+        "Bà ngoại trong tủ run run, chỉ mong có ai đi ngang qua mà giúp."
+      ],
+      "image": {
+        "prompt": "inside a small cottage bedroom, a kind grandmother in a nightcap hides inside a big carved wooden wardrobe, peeking out through a crack, while the grey wolf clumsily puts on a lace nightcap and round spectacles beside the bed, comical not scary",
+        "seed": 1302259248,
+        "character": "ba"
+      },
+      "video": {
+        "motionPrompt": "the wolf wobbles the nightcap onto his head, the wardrobe door trembles slightly, the bed curtain sways, gentle slow motion",
+        "seed": 3342111024
+      },
+      "voice": {}
+    },
+    {
+      "id": "doi-mat-to",
+      "title": "Sao bà có đôi mắt to thế?",
+      "narrator": "ke-chuyen",
+      "narration": "Khi cô bé ôm bó hoa tới nơi, thấy cửa mở toang, cô lấy làm lạ. Cô bước vào, kéo rèm ra. Bà nằm đó, mũ kéo sụp xuống mặt, trông khác quá. \"Ơ kìa bà, sao tai bà to thế?\" \"Để bà nghe cháu rõ hơn.\" \"Sao mắt bà to thế?\" \"Để bà nhìn cháu rõ hơn.\" \"Sao tay bà to thế?\" \"Để bà ôm cháu chặt hơn.\" \"Thế sao miệng bà to thế?\" \"Để bà... ăn cháu cho dễ!\" Sói nhảy phắt ra khỏi giường. Cô bé hét to một tiếng, chạy vòng quanh bàn.",
+      "subtitles": [
+        "Khi cô bé ôm bó hoa tới nơi, thấy cửa mở toang, cô lấy làm lạ. Cô bước vào, kéo rèm ra.",
+        "Bà nằm đó, mũ kéo sụp xuống mặt, trông khác quá. \"Ơ kìa bà, sao tai bà to thế?\"",
+        "\"Để bà nghe cháu rõ hơn.\" \"Sao mắt bà to thế?\" \"Để bà nhìn cháu rõ hơn.\"",
+        "\"Sao tay bà to thế?\" \"Để bà ôm cháu chặt hơn.\" \"Thế sao miệng bà to thế?\" \"Để bà...",
+        "ăn cháu cho dễ!\" Sói nhảy phắt ra khỏi giường.",
+        "Cô bé hét to một tiếng, chạy vòng quanh bàn."
+      ],
+      "image": {
+        "prompt": "Little Red Cap with her bouquet stands beside a bed with open curtains, looking puzzled at the grey wolf disguised in a lace nightcap and spectacles under a patchwork quilt, his big ears sticking out, cosy cottage room, comical mood",
+        "seed": 3313411247,
+        "character": "khan-do"
+      },
+      "video": {
+        "motionPrompt": "the girl leans closer with a puzzled look, the wolf blinks behind the spectacles and his ears twitch, the quilt shifts, slow push-in",
+        "seed": 2358701858
+      },
+      "voice": {}
+    },
+    {
+      "id": "bac-tho-san",
+      "title": "Bác thợ săn tới",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc ấy, bác thợ săn đi ngang qua. Nghe tiếng hét, bác đẩy cửa xông vào. \"A, lão sói già! Tao tìm mày lâu lắm rồi!\" Bác vung cây gậy lớn. Sói hoảng hồn, chiếc mũ ngủ văng một nơi, cặp kính văng một nẻo. Nó lao qua cửa sổ, chạy biến vào rừng sâu và không bao giờ dám quay lại làng nữa. Bác thợ săn gõ cửa tủ: \"Bà ơi, ra được rồi!\" Bà ngoại bước ra, ôm chầm lấy cô cháu nhỏ.",
+      "subtitles": [
+        "Đúng lúc ấy, bác thợ săn đi ngang qua. Nghe tiếng hét, bác đẩy cửa xông vào.",
+        "\"A, lão sói già! Tao tìm mày lâu lắm rồi!\" Bác vung cây gậy lớn.",
+        "Sói hoảng hồn, chiếc mũ ngủ văng một nơi, cặp kính văng một nẻo.",
+        "Nó lao qua cửa sổ, chạy biến vào rừng sâu và không bao giờ dám quay lại làng nữa.",
+        "Bác thợ săn gõ cửa tủ: \"Bà ơi, ra được rồi!\" Bà ngoại bước ra, ôm chầm lấy cô cháu nhỏ."
+      ],
+      "image": {
+        "prompt": "a friendly bearded forester in a green hat stands in the cottage doorway raising his wooden staff while the grey wolf leaps out of the open window, nightcap and spectacles flying off, the grandmother opening the wardrobe door, comical chase, nobody hurt",
+        "seed": 3022996398,
+        "character": "tho-san"
+      },
+      "video": {
+        "motionPrompt": "the forester steps in, the wolf springs through the window and away, the nightcap tumbles through the air, the wardrobe door swings open, lively but gentle motion",
+        "seed": 3293530939
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc",
+      "title": "Lời hứa của cô bé",
+      "narrator": "ke-chuyen",
+      "narration": "Ba bà cháu và bác thợ săn ngồi quanh bàn. Bà ăn miếng bánh ngọt, uống ngụm nước nho, thấy khoẻ hẳn lên. Bó hoa rừng được cắm vào bình, thơm ngát cả nhà. Cô bé quàng khăn đỏ ngồi sát bên bà, khẽ nói: \"Từ nay, mẹ dặn đi đường lớn là cháu đi đường lớn. Cháu sẽ không rẽ vào rừng, cũng không nói chuyện với người lạ nữa.\" Bà xoa đầu cô, cười hiền. Và từ đó, cô bé luôn nhớ lời hứa của mình.",
+      "subtitles": [
+        "Ba bà cháu và bác thợ săn ngồi quanh bàn.",
+        "Bà ăn miếng bánh ngọt, uống ngụm nước nho, thấy khoẻ hẳn lên.",
+        "Bó hoa rừng được cắm vào bình, thơm ngát cả nhà.",
+        "Cô bé quàng khăn đỏ ngồi sát bên bà, khẽ nói: \"Từ nay,",
+        "mẹ dặn đi đường lớn là cháu đi đường lớn.",
+        "Cháu sẽ không rẽ vào rừng, cũng không nói chuyện với người lạ nữa.\"",
+        "Bà xoa đầu cô, cười hiền. Và từ đó, cô bé luôn nhớ lời hứa của mình."
+      ],
+      "image": {
+        "prompt": "a warm happy scene at a wooden table in the cottage, grandmother in her shawl eating cake, Little Red Cap leaning on her shoulder, the forester smiling with a cup, a vase of wildflowers on the table, golden afternoon light",
+        "seed": 3648744983,
+        "character": "khan-do"
+      },
+      "video": {
+        "motionPrompt": "grandmother strokes the girl’s hair, the forester raises his cup, flowers sway in the vase, warm light glows, slow pull-back",
+        "seed": 426306079
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle German folk lullaby, music box, soft accordion and pizzicato strings, playful woodland feel turning warm and cosy, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1771960157
+  }
+}

@@ -94,7 +94,7 @@ describe('validateStory', () => {
     expect(errorsOf(longStory).join('\n')).toMatch(/read aloud, expected 180–360 s on the kids shelf/);
   });
 
-  it('requires a shelf, kids or adults', () => {
+  it('requires a shelf: kids, adults or world', () => {
     const { shelf: _shelf, ...withoutShelf } = pilot();
     expect(errorsOf(withoutShelf).join('\n')).toMatch(/^shelf: /);
     expect(errorsOf({ ...pilot(), shelf: 'teens' }).join('\n')).toMatch(/^shelf: /);
@@ -126,7 +126,7 @@ describe('validateStory', () => {
     const storyteller = story.narrators['ke-chuyen'];
     if (!storyteller) throw new Error('no storyteller');
     expect(errorsOf({ ...story, narrators: { 'ke-chuyen': { ...storyteller, voice: 'Quỳnh Anh' } } })).toEqual([
-      'narrators.ke-chuyen: "Quỳnh Anh" is a children\'s shelf voice; the adults\' storyteller has another',
+      'narrators.ke-chuyen: "Quỳnh Anh" is another shelf\'s voice; the adults\' storyteller has their own',
     ]);
     expect(errorsOf({ ...story, narrators: { 'ke-chuyen': { ...storyteller, voice: 'Minh Triết' } } })).toEqual([
       'narrators.ke-chuyen: "Minh Triết" is not used, speech recognition hears it poorly',
@@ -134,7 +134,7 @@ describe('validateStory', () => {
     expect(errorsOf({ ...story, narrators: { ...story.narrators, miu: { name: 'Mèo Miu', voice: 'Trúc Ly' } } })).toEqual([
       'narrators: an adults\' story has one storyteller, found 2',
       'narrators.miu: Mèo Miu narrates only the children\'s shelf',
-      'narrators.miu: "Trúc Ly" is a children\'s shelf voice; the adults\' storyteller has another',
+      'narrators.miu: "Trúc Ly" is another shelf\'s voice; the adults\' storyteller has their own',
     ]);
     // The pilot moved to the adults' shelf breaks every rule of it: Mèo Miu, two voices, too short.
     expect(errorsOf({ ...pilot(), shelf: 'adults' }).join('\n')).toMatch(/one storyteller[\s\S]*Mèo Miu narrates only[\s\S]*Mèo Miu appears only[\s\S]*expected 360–720 s on the adults shelf/);
@@ -150,6 +150,45 @@ describe('validateStory', () => {
       `scenes.${first.id}.image.prompt: no "bloody"`,
     ]);
     expect(errorsOf({ ...story, scenes: story.scenes.slice(0, 7) }).join('\n')).toMatch(/7 scenes, expected 8–14 on the adults shelf/);
+  });
+
+  it('tells world stories with one storyteller, Mỹ Duyên, gently enough for a child', () => {
+    // The gentle children's pilot, told by one storyteller without Mèo Miu, is a valid world story.
+    const kids = pilot();
+    const storyteller = { name: 'Người kể chuyện', voice: 'Mỹ Duyên' };
+    const world: Story = {
+      ...kids,
+      shelf: 'world',
+      narrators: { 'ke-chuyen': storyteller },
+      characters: kids.characters.filter((c) => c.id !== 'miu'),
+      scenes: kids.scenes.map(({ image: { character, ...image }, ...scene }) => ({
+        ...scene,
+        narrator: 'ke-chuyen',
+        image: character === 'miu' ? image : { ...image, character },
+      })),
+    };
+    const [first, ...rest] = world.scenes;
+    if (!first) throw new Error('no scene');
+    const base = adult();
+    expect(errorsOf(world)).toEqual([]);
+    expect(errorsOf({ ...world, narrators: { 'ke-chuyen': { ...storyteller, voice: 'Thanh Bình' } } })).toEqual([
+      'narrators.ke-chuyen: the world storyteller speaks with "Mỹ Duyên"',
+    ]);
+    const sombre = { ...first, narration: `${first.narration} Nhiều người đã chết.`, subtitles: [...first.subtitles, 'Nhiều người đã chết.'] };
+    expect(errorsOf({ ...world, scenes: [sombre, ...rest] })).toEqual([`scenes.${first.id}.narration: "chết" has no place in a family retelling`]);
+    expect(errorsOf({ ...world, scenes: [{ ...first, image: { ...first.image, prompt: 'a knight with a sword' } }, ...rest] })).toEqual([
+      `scenes.${first.id}.image.prompt: no "sword"`,
+    ]);
+    // An adults' storyteller may not borrow the world shelf's voice.
+    expect(errorsOf({ ...base, narrators: { 'ke-chuyen': storyteller } })).toEqual([
+      'narrators.ke-chuyen: "Mỹ Duyên" is another shelf\'s voice; the adults\' storyteller has their own',
+    ]);
+  });
+
+  it('names the source of every story in a few words', () => {
+    const { basedOn: _basedOn, ...withoutSource } = pilot();
+    expect(errorsOf(withoutSource).join('\n')).toMatch(/^basedOn: /);
+    expect(errorsOf({ ...pilot(), basedOn: 'x'.repeat(81) }).join('\n')).toMatch(/^basedOn: /);
   });
 
   it('finds whole words only', () => {

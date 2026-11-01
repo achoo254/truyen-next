@@ -4,6 +4,7 @@ export { type Character, type Narrator, SHELVES, type Scene, type Shelf, type St
 export {
   DROPPED_VOICES,
   KIDS_STORYTELLER_VOICE,
+  WORLD_STORYTELLER_VOICE,
   MAX_SUBTITLE_CHARS,
   MIU_NARRATOR,
   MIU_VOICE,

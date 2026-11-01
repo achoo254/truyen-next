@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "slug": "nang-bach-tuyet",
+  "shelf": "world",
+  "title": "Nàng Bạch Tuyết",
+  "summary": "Nàng Bạch Tuyết da trắng như tuyết, môi đỏ như son, bị hoàng hậu ghen ghét đuổi vào rừng và được bảy chú lùn che chở. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà, theo bản gốc chứ không theo phim hoạt hình.",
+  "themes": [
+    "thien-ac",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Sneewittchen\" (Kinder- und Hausmärchen, 1812; bản 1857), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào, không dùng chi tiết riêng của phim Disney. Bản kể đã làm nhẹ cho cả nhà: Bạch Tuyết ngủ say chứ không chết, hoàng hậu bị đuổi khỏi vương quốc thay cho hình phạt đôi giày sắt nung của bản gốc.",
+  "basedOn": "Truyện cổ Grimm (1812)",
+  "style": "classic nineteenth-century European fairy-tale picture-book illustration, soft watercolor and fine ink lines, warm gentle light, rounded friendly shapes, calm and safe mood for the whole family, snowy medieval German castle, deep forest and little timber cottage in the hills, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "bach-tuyet",
+      "name": "Bạch Tuyết",
+      "seed": 1328781782,
+      "sheetPrompt": "Snow White from the original Grimm tale, a gentle young princess with skin pale as snow, rosy red lips, black hair falling loose to her shoulders, simple long medieval dress in soft green and cream with a laced bodice, kind calm face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoang-hau",
+      "name": "Hoàng hậu",
+      "seed": 3846109374,
+      "sheetPrompt": "a proud beautiful medieval queen from the Grimm tale, tall golden crown, long dark purple velvet gown with ermine trim, cold haughty expression, holding a small ornate hand mirror, elegant not frightening, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chu-lun",
+      "name": "Bảy chú lùn",
+      "seed": 271167060,
+      "sheetPrompt": "seven small bearded miners from the Grimm tale standing in a row, each in plain earthy brown, grey or green work clothes with simple hoods, leather belts and little lanterns, friendly round faces, different beard lengths, no names, full body group, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "seed": 3517073772,
+      "sheetPrompt": "a kind young prince from a classic European fairy tale, short brown hair, gentle smile, deep blue travelling cloak over a cream tunic with gold trim, riding boots, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "guong-than",
+      "title": "Chiếc gương thần",
+      "narrator": "ke-chuyen",
+      "narration": "Một ngày mùa đông, tuyết rơi như lông ngỗng, hoàng hậu ngồi may bên khung cửa sổ gỗ mun và mong có một cô con gái da trắng như tuyết, môi đỏ như son, tóc đen như gỗ mun. Ít lâu sau, bà sinh được một nàng công chúa như thế, đặt tên là Bạch Tuyết. Rồi hoàng hậu qua đời, nhà vua lấy vợ mới. Hoàng hậu mới rất đẹp nhưng kiêu ngạo, có một chiếc gương thần. Ngày ngày bà hỏi: \"Gương kia ngự ở trên tường, ai đẹp nhất trần gian?\" Gương đáp: \"Thưa hoàng hậu, người đẹp nhất.\" Thế là bà hài lòng.",
+      "subtitles": [
+        "Một ngày mùa đông, tuyết rơi như lông ngỗng,",
+        "hoàng hậu ngồi may bên khung cửa sổ gỗ mun và mong có một cô con gái da trắng như tuyết,",
+        "môi đỏ như son, tóc đen như gỗ mun.",
+        "Ít lâu sau, bà sinh được một nàng công chúa như thế, đặt tên là Bạch Tuyết.",
+        "Rồi hoàng hậu qua đời, nhà vua lấy vợ mới.",
+        "Hoàng hậu mới rất đẹp nhưng kiêu ngạo, có một chiếc gương thần.",
+        "Ngày ngày bà hỏi: \"Gương kia ngự ở trên tường, ai đẹp nhất trần gian?\"",
+        "Gương đáp: \"Thưa hoàng hậu, người đẹp nhất.\" Thế là bà hài lòng."
+      ],
+      "image": {
+        "prompt": "in a stone castle chamber with tall windows showing falling snow, a proud queen in purple velvet stands before a large ornate golden wall mirror that glows softly, candles and tapestries around",
+        "seed": 3462830317,
+        "character": "hoang-hau"
+      },
+      "video": {
+        "motionPrompt": "the mirror glows and shimmers like water, the queen lifts her chin, snowflakes drift past the window, slow push-in",
+        "seed": 1992364326
+      },
+      "voice": {}
+    },
+    {
+      "id": "vao-rung",
+      "title": "Chạy vào rừng sâu",
+      "narrator": "ke-chuyen",
+      "narration": "Bạch Tuyết lớn lên, mỗi năm một xinh. Năm nàng bảy tuổi, gương thần bỗng nói: \"Hoàng hậu đẹp thật, nhưng Bạch Tuyết còn đẹp hơn nghìn lần.\" Hoàng hậu tức tối, sai một người thợ săn đưa nàng vào rừng sâu, đừng bao giờ cho nàng về. Nhưng người thợ săn thương nàng quá, thả nàng đi: \"Công chúa chạy đi, đừng quay về lâu đài nữa.\" Bạch Tuyết một mình chạy qua những bụi gai, những tảng đá. Muông thú đi ngang qua mà chẳng con nào làm hại nàng. Đến chiều tối, nàng thấy một ngôi nhà nhỏ xíu giữa rừng.",
+      "subtitles": [
+        "Bạch Tuyết lớn lên, mỗi năm một xinh.",
+        "Năm nàng bảy tuổi, gương thần bỗng nói: \"Hoàng hậu đẹp thật,",
+        "nhưng Bạch Tuyết còn đẹp hơn nghìn lần.\"",
+        "Hoàng hậu tức tối, sai một người thợ săn đưa nàng vào rừng sâu, đừng bao giờ cho nàng về.",
+        "Nhưng người thợ săn thương nàng quá, thả nàng đi: \"Công chúa chạy đi,",
+        "đừng quay về lâu đài nữa.\" Bạch Tuyết một mình chạy qua những bụi gai, những tảng đá.",
+        "Muông thú đi ngang qua mà chẳng con nào làm hại nàng.",
+        "Đến chiều tối, nàng thấy một ngôi nhà nhỏ xíu giữa rừng."
+      ],
+      "image": {
+        "prompt": "Snow White runs through a deep evening forest past mossy rocks and ferns, gentle deer and rabbits watching her kindly, ahead in a clearing a tiny timber cottage with glowing windows, soft twilight",
+        "seed": 778333128,
+        "character": "bach-tuyet"
+      },
+      "video": {
+        "motionPrompt": "Snow White hurries forward and slows as she sees the cottage, a deer lifts its head, fireflies glow, the cottage windows flicker warmly",
+        "seed": 550883472
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngoi-nha-nho",
+      "title": "Ngôi nhà của bảy chú lùn",
+      "narrator": "ke-chuyen",
+      "narration": "Trong nhà, mọi thứ nhỏ xinh và sạch sẽ. Có bảy chiếc ghế, bảy cái đĩa nhỏ, bảy chiếc cốc, và bảy chiếc giường trải khăn trắng. Đói quá, nàng ăn một chút rau và bánh ở mỗi đĩa, uống một ngụm ở mỗi cốc, rồi nằm ngủ thiếp đi. Tối đến, chủ nhà về. Đó là bảy chú lùn làm nghề đào quặng trong núi. Thấy nàng, các chú khẽ reo: \"Trời ơi, cô gái mới xinh làm sao!\" Sáng ra, nghe nàng kể chuyện, các chú bảo: \"Cô cứ ở đây, nấu ăn, dọn nhà giúp chúng tôi, sẽ chẳng thiếu gì cả.\"",
+      "subtitles": [
+        "Trong nhà, mọi thứ nhỏ xinh và sạch sẽ.",
+        "Có bảy chiếc ghế, bảy cái đĩa nhỏ, bảy chiếc cốc, và bảy chiếc giường trải khăn trắng.",
+        "Đói quá, nàng ăn một chút rau và bánh ở mỗi đĩa, uống một ngụm ở mỗi cốc,",
+        "rồi nằm ngủ thiếp đi. Tối đến, chủ nhà về. Đó là bảy chú lùn làm nghề đào quặng trong núi.",
+        "Thấy nàng, các chú khẽ reo: \"Trời ơi, cô gái mới xinh làm sao!\"",
+        "Sáng ra, nghe nàng kể chuyện, các chú bảo: \"Cô cứ ở đây, nấu ăn, dọn nhà giúp chúng tôi,",
+        "sẽ chẳng thiếu gì cả.\""
+      ],
+      "image": {
+        "prompt": "seven small bearded miners holding little lanterns gather around seven tiny beds in a cosy timber cottage, gently looking at Snow White asleep across the beds, seven little plates and cups on a wooden table, warm lantern light",
+        "seed": 3437090117,
+        "character": "chu-lun"
+      },
+      "video": {
+        "motionPrompt": "the lanterns sway softly, the miners lean in and smile at each other, Snow White breathes gently in her sleep, warm light flickers",
+        "seed": 3139656871
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-lan-den",
+      "title": "Bà bán hàng lạ mặt",
+      "narrator": "ke-chuyen",
+      "narration": "Các chú lùn dặn: \"Hoàng hậu sẽ sớm biết cô ở đây. Đừng mở cửa cho ai cả.\" Quả nhiên, gương thần lại nói Bạch Tuyết ở trong rừng vẫn đẹp nhất. Hoàng hậu cải trang thành bà bán hàng rong, tìm đến. Lần đầu, mụ bán dây buộc áo, rồi thắt thật chặt khiến nàng ngất đi. Lần thứ hai, mụ bán chiếc lược có phép lạ, chải vào là nàng ngã xuống. Cả hai lần, các chú lùn về kịp, nới dây áo, gỡ chiếc lược ra, nàng lại tỉnh. Các chú lo lắng dặn đi dặn lại: \"Đừng tin ai, đừng mở cửa cho ai nữa nhé!\"",
+      "subtitles": [
+        "Các chú lùn dặn: \"Hoàng hậu sẽ sớm biết cô ở đây. Đừng mở cửa cho ai cả.\"",
+        "Quả nhiên, gương thần lại nói Bạch Tuyết ở trong rừng vẫn đẹp nhất.",
+        "Hoàng hậu cải trang thành bà bán hàng rong, tìm đến.",
+        "Lần đầu, mụ bán dây buộc áo, rồi thắt thật chặt khiến nàng ngất đi.",
+        "Lần thứ hai, mụ bán chiếc lược có phép lạ, chải vào là nàng ngã xuống.",
+        "Cả hai lần, các chú lùn về kịp, nới dây áo, gỡ chiếc lược ra, nàng lại tỉnh.",
+        "Các chú lo lắng dặn đi dặn lại: \"Đừng tin ai, đừng mở cửa cho ai nữa nhé!\""
+      ],
+      "image": {
+        "prompt": "the queen disguised as an old pedlar woman with a shawl and a tray of ribbons and combs stands at the little cottage window, smiling falsely at Snow White who looks curious, forest and flowers around, not frightening",
+        "seed": 1293880025,
+        "character": "hoang-hau"
+      },
+      "video": {
+        "motionPrompt": "the pedlar lifts a bright ribbon, Snow White leans toward the window curiously, flowers sway, a little bird hops away, gentle slow motion",
+        "seed": 3704971124
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-tao",
+      "title": "Quả táo nửa đỏ nửa trắng",
+      "narrator": "ke-chuyen",
+      "narration": "Lần thứ ba, hoàng hậu làm một quả táo có phép, nửa trắng, nửa đỏ thật đẹp. Mụ đóng giả bà nông dân, gõ cửa sổ. Bạch Tuyết nói: \"Cháu không được mở cửa cho ai.\" Mụ cười: \"Không sao, ta cắt đôi, ta ăn nửa trắng, cháu ăn nửa đỏ nhé.\" Thấy bà ăn ngon lành, nàng yên tâm cầm nửa đỏ. Vừa cắn một miếng, nàng ngã xuống, chìm vào giấc ngủ thật sâu. Các chú lùn về, gọi mãi, lay mãi mà nàng không tỉnh. Các chú thương lắm, làm một chiếc giường bằng kính đặt trên đồi, ngày đêm thay nhau canh giấc ngủ của nàng.",
+      "subtitles": [
+        "Lần thứ ba, hoàng hậu làm một quả táo có phép, nửa trắng, nửa đỏ thật đẹp.",
+        "Mụ đóng giả bà nông dân, gõ cửa sổ. Bạch Tuyết nói: \"Cháu không được mở cửa cho ai.\"",
+        "Mụ cười: \"Không sao, ta cắt đôi, ta ăn nửa trắng, cháu ăn nửa đỏ nhé.\"",
+        "Thấy bà ăn ngon lành, nàng yên tâm cầm nửa đỏ.",
+        "Vừa cắn một miếng, nàng ngã xuống, chìm vào giấc ngủ thật sâu.",
+        "Các chú lùn về, gọi mãi, lay mãi mà nàng không tỉnh.",
+        "Các chú thương lắm, làm một chiếc giường bằng kính đặt trên đồi,",
+        "ngày đêm thay nhau canh giấc ngủ của nàng."
+      ],
+      "image": {
+        "prompt": "on a flowery hilltop under blossoming trees, Snow White lies peacefully asleep on a beautiful glass bed with flowers around her, the seven small miners sitting nearby keeping watch with sad gentle faces, birds resting on the branches, serene spring light",
+        "seed": 4111484721,
+        "character": "bach-tuyet"
+      },
+      "video": {
+        "motionPrompt": "petals drift down onto the glass, birds hop on the branches, the miners bow their heads quietly, soft light, very slow pan",
+        "seed": 3714346290
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoang-tu-den",
+      "title": "Hoàng tử tới",
+      "narrator": "ke-chuyen",
+      "narration": "Bạch Tuyết ngủ như thế rất lâu, mà má vẫn hồng, môi vẫn đỏ như đang mơ. Một hôm, có chàng hoàng tử đi qua khu rừng. Thấy nàng, chàng xin các chú lùn cho được đưa nàng về lâu đài, hứa sẽ chăm sóc nàng suốt đời. Các chú lùn thấy chàng thật lòng, bèn đồng ý. Khi những người hầu khiêng chiếc giường kính xuống đồi, một người vấp phải rễ cây. Chiếc giường rung mạnh, miếng táo trong cổ nàng bật ra. Bạch Tuyết mở mắt, ngồi dậy: \"Tôi đang ở đâu thế này?\"",
+      "subtitles": [
+        "Bạch Tuyết ngủ như thế rất lâu, mà má vẫn hồng, môi vẫn đỏ như đang mơ.",
+        "Một hôm, có chàng hoàng tử đi qua khu rừng.",
+        "Thấy nàng, chàng xin các chú lùn cho được đưa nàng về lâu đài,",
+        "hứa sẽ chăm sóc nàng suốt đời. Các chú lùn thấy chàng thật lòng, bèn đồng ý.",
+        "Khi những người hầu khiêng chiếc giường kính xuống đồi, một người vấp phải rễ cây.",
+        "Chiếc giường rung mạnh, miếng táo trong cổ nàng bật ra.",
+        "Bạch Tuyết mở mắt, ngồi dậy: \"Tôi đang ở đâu thế này?\""
+      ],
+      "image": {
+        "prompt": "a kind young prince in a blue cloak kneels beside the glass bed on the forest hill as Snow White opens her eyes and sits up, surprised and smiling, the seven miners cheering with raised lanterns and caps, golden morning light",
+        "seed": 1400782162,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "Snow White blinks awake and sits up slowly, the prince smiles, the miners toss their caps joyfully, petals swirl, warm light",
+        "seed": 4263271713
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi",
+      "title": "Đám cưới trong lâu đài",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử mừng rỡ kể lại mọi chuyện, rồi nói: \"Ta yêu nàng hơn mọi thứ trên đời. Nàng về lâu đài với ta nhé.\" Bạch Tuyết đồng ý. Đám cưới được tổ chức thật linh đình, bảy chú lùn ngồi hàng ghế đầu. Hoàng hậu độc ác cũng được mời đến. Vừa thấy cô dâu chính là Bạch Tuyết, mụ hoảng hốt, chiếc gương thần trong tay vỡ tan. Mụ bị đuổi ra khỏi vương quốc và không bao giờ quay lại nữa. Còn Bạch Tuyết và hoàng tử sống bên nhau hạnh phúc, năm nào cũng về thăm ngôi nhà nhỏ trong rừng.",
+      "subtitles": [
+        "Hoàng tử mừng rỡ kể lại mọi chuyện, rồi nói: \"Ta yêu nàng hơn mọi thứ trên đời.",
+        "Nàng về lâu đài với ta nhé.\" Bạch Tuyết đồng ý.",
+        "Đám cưới được tổ chức thật linh đình, bảy chú lùn ngồi hàng ghế đầu.",
+        "Hoàng hậu độc ác cũng được mời đến.",
+        "Vừa thấy cô dâu chính là Bạch Tuyết, mụ hoảng hốt, chiếc gương thần trong tay vỡ tan.",
+        "Mụ bị đuổi ra khỏi vương quốc và không bao giờ quay lại nữa.",
+        "Còn Bạch Tuyết và hoàng tử sống bên nhau hạnh phúc,",
+        "năm nào cũng về thăm ngôi nhà nhỏ trong rừng."
+      ],
+      "image": {
+        "prompt": "a joyful wedding in a bright castle hall with garlands and banners, Snow White in a simple white gown and the prince in blue hold hands, the seven small miners in their best clothes clapping in the front row, sunlight through tall windows",
+        "seed": 2264393909,
+        "character": "bach-tuyet"
+      },
+      "video": {
+        "motionPrompt": "the couple bow to the guests, the miners clap and wave, garlands sway, sunbeams sparkle, slow pull-back",
+        "seed": 982160998
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle medieval European fairy-tale music, harp, recorder and soft strings, a delicate wintry celesta melody, wistful turning joyful, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 150871316
+  }
+}

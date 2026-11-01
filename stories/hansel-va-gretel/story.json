@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "slug": "hansel-va-gretel",
+  "shelf": "world",
+  "title": "Hansel và Gretel",
+  "summary": "Hai anh em Hansel và Gretel lạc trong rừng sâu và tìm thấy một ngôi nhà làm bằng bánh kẹo. Nhờ lanh trí và thương nhau, hai anh em thoát khỏi bà phù thủy và trở về với cha. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "thien-ac"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Hänsel und Gretel\" (Kinder- und Hausmärchen, 1812), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể đã làm nhẹ cho cả nhà: bà phù thủy bị nhốt vào chuồng rồi bỏ đi biệt xứ thay cho đoạn lò nướng, và bà mẹ kế chỉ bỏ đi chứ không chết như bản gốc.",
+  "basedOn": "Truyện cổ Grimm (1812)",
+  "style": "classic nineteenth-century European fairy-tale picture-book illustration, soft watercolor and fine ink lines, warm gentle light, rounded friendly shapes, calm and safe mood for the whole family, deep German pine forest and a woodcutter’s hut, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hansel",
+      "name": "Hansel",
+      "seed": 3521284126,
+      "sheetPrompt": "Hansel, a brave nine-year-old German boy from the Grimm tale, tousled blond hair, freckles, patched brown jacket, short trousers with braces, wooden clogs, a determined kind smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "gretel",
+      "name": "Gretel",
+      "seed": 2179878153,
+      "sheetPrompt": "Gretel, a clever seven-year-old German girl from the Grimm tale, two blond braids, blue headscarf, simple faded blue dress with a white apron, wooden clogs, bright thoughtful eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "phu-thuy",
+      "name": "Bà phù thủy",
+      "seed": 733910536,
+      "sheetPrompt": "a crooked old fairy-tale witch from the Grimm tale, hunched back, long nose, red eyes behind tiny spectacles, grey hair under a dark shawl, patched purple dress, leaning on a crooked walking stick, comical rather than frightening, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cha",
+      "name": "Người cha tiều phu",
+      "seed": 3033219343,
+      "sheetPrompt": "a poor gentle German woodcutter from the Grimm tale, thin face with a brown beard, worn green cap, patched grey shirt and brown trousers, an axe for wood resting on his shoulder, sad kind eyes, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nha-tieu-phu",
+      "title": "Nhà người tiều phu",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, bên một khu rừng lớn, có một bác tiều phu nghèo sống cùng hai con là Hansel và Gretel. Mẹ của hai em mất sớm, bác lấy một người vợ khác. Năm ấy mất mùa, trong nhà chỉ còn vài mẩu bánh mì. Một đêm, người mẹ kế thì thầm: \"Không đủ ăn cho cả bốn người đâu. Mai ta dẫn hai đứa vào rừng sâu, để chúng ở lại đó.\" Người cha buồn lắm, nhưng không dám cãi. Hansel nằm trên giường, nghe thấy hết. Em nắm tay em gái, khẽ nói: \"Đừng sợ, Gretel. Anh có cách.\"",
+      "subtitles": [
+        "Ngày xưa, bên một khu rừng lớn,",
+        "có một bác tiều phu nghèo sống cùng hai con là Hansel và Gretel.",
+        "Mẹ của hai em mất sớm, bác lấy một người vợ khác.",
+        "Năm ấy mất mùa, trong nhà chỉ còn vài mẩu bánh mì.",
+        "Một đêm, người mẹ kế thì thầm: \"Không đủ ăn cho cả bốn người đâu.",
+        "Mai ta dẫn hai đứa vào rừng sâu, để chúng ở lại đó.\"",
+        "Người cha buồn lắm, nhưng không dám cãi. Hansel nằm trên giường, nghe thấy hết.",
+        "Em nắm tay em gái, khẽ nói: \"Đừng sợ, Gretel. Anh có cách.\""
+      ],
+      "image": {
+        "prompt": "a small dim woodcutter’s hut at night, moonlight through the window, Hansel and Gretel in a little bed under a patchwork quilt listening with wide eyes, the sad woodcutter and a stern stepmother whispering by a nearly empty table with a single candle",
+        "seed": 3841115701,
+        "character": "cha"
+      },
+      "video": {
+        "motionPrompt": "the candle flickers, Hansel squeezes his sister’s hand, moonlight drifts across the floor, slow gentle camera push-in",
+        "seed": 3569989091
+      },
+      "voice": {}
+    },
+    {
+      "id": "soi-trang",
+      "title": "Những viên sỏi trắng",
+      "narrator": "ke-chuyen",
+      "narration": "Đợi cả nhà ngủ say, Hansel rón rén ra sân, nhặt đầy túi những viên sỏi trắng sáng như đồng bạc dưới ánh trăng. Sáng hôm sau, cả nhà đi vào rừng. Cứ đi vài bước, Hansel lại lén thả một viên sỏi xuống đường. Đến giữa rừng, cha mẹ nhóm lửa rồi bảo hai anh em ngồi đợi. Đợi mãi, đến tối mịt chẳng thấy ai quay lại. Nhưng khi trăng lên, những viên sỏi trắng sáng lấp lánh như một con đường nhỏ. Hai anh em lần theo, về đến nhà lúc trời vừa rạng. Người cha mừng rỡ ôm chầm lấy các con.",
+      "subtitles": [
+        "Đợi cả nhà ngủ say, Hansel rón rén ra sân,",
+        "nhặt đầy túi những viên sỏi trắng sáng như đồng bạc dưới ánh trăng.",
+        "Sáng hôm sau, cả nhà đi vào rừng.",
+        "Cứ đi vài bước, Hansel lại lén thả một viên sỏi xuống đường.",
+        "Đến giữa rừng, cha mẹ nhóm lửa rồi bảo hai anh em ngồi đợi.",
+        "Đợi mãi, đến tối mịt chẳng thấy ai quay lại.",
+        "Nhưng khi trăng lên, những viên sỏi trắng sáng lấp lánh như một con đường nhỏ.",
+        "Hai anh em lần theo, về đến nhà lúc trời vừa rạng. Người cha mừng rỡ ôm chầm lấy các con."
+      ],
+      "image": {
+        "prompt": "Hansel and Gretel holding hands follow a winding trail of glowing white pebbles through a moonlit pine forest at night, soft silver light, owls on branches, peaceful and magical",
+        "seed": 915841064,
+        "character": "hansel"
+      },
+      "video": {
+        "motionPrompt": "the pebbles twinkle one after another along the path, the children walk forward hand in hand, an owl turns its head, moonlight shimmers",
+        "seed": 70871298
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngoi-nha-banh",
+      "title": "Ngôi nhà bánh kẹo",
+      "narrator": "ke-chuyen",
+      "narration": "Ít lâu sau, người mẹ kế lại dẫn hai anh em vào rừng, lần này còn khoá cửa để Hansel không ra nhặt sỏi được. Hansel đành bẻ vụn mẩu bánh mì, rắc dọc đường. Nhưng chim rừng bay xuống mổ sạch cả. Hai anh em lạc giữa rừng ba ngày liền, đói lả. Rồi một chú chim trắng hót líu lo, bay trước dẫn đường. Hai em theo chim đến một khoảng rừng thưa, và tròn mắt ngạc nhiên. Trước mặt là một ngôi nhà nhỏ, tường làm bằng bánh mì gừng, mái lợp bánh ngọt, cửa sổ bằng đường trong suốt!",
+      "subtitles": [
+        "Ít lâu sau, người mẹ kế lại dẫn hai anh em vào rừng,",
+        "lần này còn khoá cửa để Hansel không ra nhặt sỏi được.",
+        "Hansel đành bẻ vụn mẩu bánh mì, rắc dọc đường. Nhưng chim rừng bay xuống mổ sạch cả.",
+        "Hai anh em lạc giữa rừng ba ngày liền, đói lả.",
+        "Rồi một chú chim trắng hót líu lo, bay trước dẫn đường.",
+        "Hai em theo chim đến một khoảng rừng thưa, và tròn mắt ngạc nhiên.",
+        "Trước mặt là một ngôi nhà nhỏ, tường làm bằng bánh mì gừng, mái lợp bánh ngọt,",
+        "cửa sổ bằng đường trong suốt!"
+      ],
+      "image": {
+        "prompt": "Hansel and Gretel stand amazed in a forest clearing before a charming little house made of gingerbread walls, frosted cake roof tiles, clear sugar windows, candy canes and sweets decorating the door, a white bird perched on the chimney, sunlight",
+        "seed": 271356133,
+        "character": "gretel"
+      },
+      "video": {
+        "motionPrompt": "the white bird flutters onto the roof, the children step closer with delighted faces, sugar windows sparkle, slow pull-back revealing the house",
+        "seed": 606744433
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-phu-thuy",
+      "title": "Bà lão trong nhà bánh",
+      "narrator": "ke-chuyen",
+      "narration": "Đói quá, Hansel bẻ một miếng mái nhà, Gretel gặm một góc cửa sổ đường. Bỗng cửa mở, một bà lão chống gậy bước ra, giọng ngọt như mật: \"Các cháu đáng thương, vào đây, bà cho ăn no rồi ngủ một giấc.\" Bà dọn sữa, bánh kếp, táo, hạt dẻ, rồi trải hai chiếc giường trắng tinh. Nhưng bà lão ấy là một phù thủy độc ác. Sáng hôm sau, mụ nhốt Hansel vào một cái chuồng gỗ, bắt Gretel gánh nước, nấu cơm. Mụ cười khà khà: \"Cho thằng bé ăn thật béo, rồi ta sẽ chén nó!\"",
+      "subtitles": [
+        "Đói quá, Hansel bẻ một miếng mái nhà, Gretel gặm một góc cửa sổ đường.",
+        "Bỗng cửa mở, một bà lão chống gậy bước ra, giọng ngọt như mật: \"Các cháu đáng thương,",
+        "vào đây, bà cho ăn no rồi ngủ một giấc.\"",
+        "Bà dọn sữa, bánh kếp, táo, hạt dẻ, rồi trải hai chiếc giường trắng tinh.",
+        "Nhưng bà lão ấy là một phù thủy độc ác.",
+        "Sáng hôm sau, mụ nhốt Hansel vào một cái chuồng gỗ, bắt Gretel gánh nước, nấu cơm.",
+        "Mụ cười khà khà: \"Cho thằng bé ăn thật béo, rồi ta sẽ chén nó!\""
+      ],
+      "image": {
+        "prompt": "inside the cosy gingerbread house kitchen, a crooked comical old witch with tiny spectacles locks a wooden cage where Hansel sits, while Gretel carries a heavy water bucket with a worried face, pots and candy jars on shelves, not frightening",
+        "seed": 2732994111,
+        "character": "phu-thuy"
+      },
+      "video": {
+        "motionPrompt": "the witch turns the big key with a chuckle, Hansel grips the cage bars, Gretel sets down the bucket, steam rises from a pot, gentle motion",
+        "seed": 1749817508
+      },
+      "voice": {}
+    },
+    {
+      "id": "khuc-xuong",
+      "title": "Khúc xương nhỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Bà phù thủy mắt kém, nhìn không rõ. Sáng nào mụ cũng gọi: \"Hansel, chìa ngón tay ra cho ta xem đã béo chưa!\" Hansel lanh trí, chìa ra một khúc xương gà nhỏ. Mụ sờ thấy gầy nhom, lấy làm lạ lắm. Bốn tuần trôi qua, Hansel vẫn gầy như cũ. Mụ hết kiên nhẫn, quát: \"Béo hay gầy gì cũng mặc, mai ta nấu luôn!\" Đêm ấy, Gretel ngồi khóc, rồi lau nước mắt, nghĩ thật kỹ. Em thì thầm qua song chuồng: \"Anh ơi, mai em sẽ cứu anh.\"",
+      "subtitles": [
+        "Bà phù thủy mắt kém, nhìn không rõ.",
+        "Sáng nào mụ cũng gọi: \"Hansel, chìa ngón tay ra cho ta xem đã béo chưa!\"",
+        "Hansel lanh trí, chìa ra một khúc xương gà nhỏ. Mụ sờ thấy gầy nhom, lấy làm lạ lắm.",
+        "Bốn tuần trôi qua, Hansel vẫn gầy như cũ.",
+        "Mụ hết kiên nhẫn, quát: \"Béo hay gầy gì cũng mặc, mai ta nấu luôn!\"",
+        "Đêm ấy, Gretel ngồi khóc, rồi lau nước mắt, nghĩ thật kỹ.",
+        "Em thì thầm qua song chuồng: \"Anh ơi, mai em sẽ cứu anh.\""
+      ],
+      "image": {
+        "prompt": "Hansel inside the wooden cage slyly holds out a small chicken bone through the bars, the near-sighted witch squints and feels it with a puzzled face, Gretel hides a little smile in the background, candlelight",
+        "seed": 3467713821,
+        "character": "hansel"
+      },
+      "video": {
+        "motionPrompt": "the witch squints closer and frowns, Hansel wiggles the little bone, Gretel covers her smile, the candle flame sways, comical gentle motion",
+        "seed": 1012010369
+      },
+      "voice": {}
+    },
+    {
+      "id": "gretel-lanh-tri",
+      "title": "Gretel lanh trí",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, mụ phù thủy mở cửa chuồng, định lôi Hansel ra. Gretel vờ vụng về: \"Bà ơi, cháu không biết nhóm bếp. Bà vào chuồng chỉ cho cháu cái nồi to ở góc kia được không?\" Mụ càu nhàu bước vào chuồng. Nhanh như cắt, Hansel lách ra, Gretel đóng sập cửa, xoay chìa khoá thật chặt. Mụ phù thủy kêu la ầm ĩ nhưng chẳng ai mở. Hai anh em tìm thấy những hòm ngọc trai và đá quý của mụ, nhét đầy túi, rồi chạy thật nhanh khỏi ngôi nhà bánh.",
+      "subtitles": [
+        "Sáng hôm sau, mụ phù thủy mở cửa chuồng, định lôi Hansel ra.",
+        "Gretel vờ vụng về: \"Bà ơi, cháu không biết nhóm bếp.",
+        "Bà vào chuồng chỉ cho cháu cái nồi to ở góc kia được không?\" Mụ càu nhàu bước vào chuồng.",
+        "Nhanh như cắt, Hansel lách ra, Gretel đóng sập cửa, xoay chìa khoá thật chặt.",
+        "Mụ phù thủy kêu la ầm ĩ nhưng chẳng ai mở.",
+        "Hai anh em tìm thấy những hòm ngọc trai và đá quý của mụ, nhét đầy túi,",
+        "rồi chạy thật nhanh khỏi ngôi nhà bánh."
+      ],
+      "image": {
+        "prompt": "Gretel bravely turns the big key of the wooden cage now holding the grumbling witch, Hansel free beside her with his arms full of glittering pearls and jewels, the gingerbread kitchen behind, triumphant and comical, nobody hurt",
+        "seed": 2305826084,
+        "character": "gretel"
+      },
+      "video": {
+        "motionPrompt": "Gretel turns the key with a click, the witch shakes the bars and grumbles, Hansel lifts the sparkling pearls, quick cheerful motion",
+        "seed": 2646186844
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-nha",
+      "title": "Chú vịt trắng đưa về nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Đi mãi, hai anh em gặp một dòng sông rộng, chẳng có cầu cũng chẳng có thuyền. Một chú vịt trắng bơi lại gần. Gretel nói: \"Vịt ơi, chở chúng tớ qua sông được không?\" Vịt gật đầu, chở từng em một sang bờ bên kia. Từ đó, rừng cây trông quen dần, rồi hai em thấy mái nhà của cha. Người cha ngày nào cũng ngồi khóc nhớ con, còn người mẹ kế đã bỏ đi xa, không bao giờ quay lại. Hai anh em ùa vào lòng cha, đổ ngọc trai ra đầy sàn. Từ đó, ba cha con sống bên nhau, không bao giờ phải đói nữa.",
+      "subtitles": [
+        "Đi mãi, hai anh em gặp một dòng sông rộng, chẳng có cầu cũng chẳng có thuyền.",
+        "Một chú vịt trắng bơi lại gần. Gretel nói: \"Vịt ơi, chở chúng tớ qua sông được không?\"",
+        "Vịt gật đầu, chở từng em một sang bờ bên kia.",
+        "Từ đó, rừng cây trông quen dần, rồi hai em thấy mái nhà của cha.",
+        "Người cha ngày nào cũng ngồi khóc nhớ con, còn người mẹ kế đã bỏ đi xa,",
+        "không bao giờ quay lại. Hai anh em ùa vào lòng cha, đổ ngọc trai ra đầy sàn.",
+        "Từ đó, ba cha con sống bên nhau, không bao giờ phải đói nữa."
+      ],
+      "image": {
+        "prompt": "a joyful reunion at the woodcutter’s hut door, the woodcutter kneels and hugs Hansel and Gretel, pearls and jewels spilling from their pockets across the wooden floor, a white duck on the river in the background, golden evening light",
+        "seed": 2850519233,
+        "character": "cha"
+      },
+      "video": {
+        "motionPrompt": "the father wraps both children in a hug, pearls roll and sparkle on the floor, the duck paddles away on the river, warm light, slow pull-back",
+        "seed": 3153468735
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle German folk fairy-tale music, music box and soft woodwinds, a hint of mystery in the forest turning cheerful and warm, celesta and harp, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2033687806
+  }
+}

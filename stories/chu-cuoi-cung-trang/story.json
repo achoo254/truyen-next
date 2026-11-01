@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-cuoi-cung-trang",
+  "shelf": "kids",
+  "title": "Chú Cuội cung trăng",
+  "summary": "Vì sao đêm rằm nhìn lên mặt trăng lại thấy bóng một chú Cuội ngồi dưới gốc cây đa? Chuyện chàng tiều phu có cây đa thần chữa bệnh và chuyến bay lên cung trăng, kể nhẹ nhàng cho trẻ nhỏ đón Trung thu.",
+  "themes": [
+    "su-tich",
+    "than-thoai",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ: hổ con chỉ bị ngã ngất đi, không có đoạn đánh hổ; nước bẩn thay cho chi tiết của bản gốc.",
+  "basedOn": "Truyện dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle moonlight and lantern glow, rounded friendly shapes, calm and safe mood for young children, old Vietnamese village and forest, Mid-Autumn atmosphere, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2934058694
+    },
+    {
+      "id": "cuoi",
+      "name": "Chú Cuội",
+      "seed": 2095063597,
+      "sheetPrompt": "Cuoi, a cheerful young Vietnamese woodcutter from the folk tale, round friendly face, short black hair, simple brown shirt and indigo trousers rolled to the knee, a bundle of firewood on his back and a small hatchet tucked in his belt, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "vo-cuoi",
+      "name": "Vợ Cuội",
+      "seed": 3855374016,
+      "sheetPrompt": "Cuoi's kind but forgetful wife from the Vietnamese folk tale, long black hair in a bun, sweet absent-minded smile, light purple wrap top and dark skirt, carrying a wooden water bucket, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cay-da",
+      "name": "Cây đa thần",
+      "seed": 638237786,
+      "sheetPrompt": "a magical small banyan tree with glowing silver-green leaves and hanging aerial roots, soft shimmering light around it, no people, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Đêm nay là đêm rằm, trăng tròn và sáng quá. Mèo Miu đang cầm chiếc đèn ông sao đây. Các bạn nhìn kỹ mặt trăng xem, có thấy bóng một cây đa và một chú bé ngồi dưới gốc không? Đó là chú Cuội đấy. Vì sao chú lại ở trên ấy nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Đêm nay là đêm rằm, trăng tròn và sáng quá.",
+        "Mèo Miu đang cầm chiếc đèn ông sao đây.",
+        "Các bạn nhìn kỹ mặt trăng xem, có thấy bóng một cây đa và một chú bé ngồi dưới gốc không?",
+        "Đó là chú Cuội đấy. Vì sao chú lại ở trên ấy nhỉ?",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits on a village rooftop at night holding a red five-pointed star lantern, pointing up at a huge glowing full moon with the faint shape of a banyan tree on it",
+        "seed": 3462503076,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat sways the star lantern and points at the moon, the lantern glow flickers, soft clouds drift past the moon, slow camera tilt up",
+        "seed": 621730969
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuoi-vao-rung",
+      "title": "Chàng tiều phu",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng ven rừng, có một chàng tiều phu tên là Cuội. Ngày nào Cuội cũng vác rìu vào rừng đốn củi, gánh ra chợ bán. Một hôm, đang đi sâu trong rừng, Cuội nghe tiếng hổ gầm. Chàng sợ quá, vội trèo lên một cây cao, nấp sau tán lá. Từ trên cao, Cuội nhìn xuống thì thấy một chú hổ con nằm im bên bờ suối. Chú đã trượt chân ngã từ mỏm đá xuống, ngất lịm đi.",
+      "subtitles": [
+        "Ngày xưa, ở một làng ven rừng, có một chàng tiều phu tên là Cuội.",
+        "Ngày nào Cuội cũng vác rìu vào rừng đốn củi, gánh ra chợ bán.",
+        "Một hôm, đang đi sâu trong rừng, Cuội nghe tiếng hổ gầm.",
+        "Chàng sợ quá, vội trèo lên một cây cao, nấp sau tán lá.",
+        "Từ trên cao, Cuội nhìn xuống thì thấy một chú hổ con nằm im bên bờ suối.",
+        "Chú đã trượt chân ngã từ mỏm đá xuống, ngất lịm đi."
+      ],
+      "image": {
+        "prompt": "a deep green forest with a stream, Cuoi hides high up in a tree peeking through the leaves, below on the mossy stream bank a fluffy little tiger cub lies still and asleep after a fall, soft light through the leaves",
+        "seed": 924847393,
+        "character": "cuoi"
+      },
+      "video": {
+        "motionPrompt": "Cuoi peeks out between the leaves with wide eyes, the stream flows gently, leaves fall slowly around the sleeping cub",
+        "seed": 4036341458
+      },
+      "voice": {}
+    },
+    {
+      "id": "la-cay-than",
+      "title": "Lá cây thần",
+      "narrator": "ke-chuyen",
+      "narration": "Một lát sau, hổ mẹ chạy tới. Hổ mẹ không gầm nữa, chỉ dụi đầu vào con, rồi chạy đến một gốc cây đa nhỏ, ngậm mấy chiếc lá về. Hổ mẹ nhai lá, đắp lên đầu hổ con. Lạ chưa kìa, chỉ một lúc sau, hổ con mở mắt, đứng dậy, vẫy đuôi đi theo mẹ. Cuội trên cây nhìn thấy hết. Chàng nghĩ: Đây đúng là cây thuốc quý rồi!",
+      "subtitles": [
+        "Một lát sau, hổ mẹ chạy tới.",
+        "Hổ mẹ không gầm nữa, chỉ dụi đầu vào con, rồi chạy đến một gốc cây đa nhỏ,",
+        "ngậm mấy chiếc lá về. Hổ mẹ nhai lá, đắp lên đầu hổ con.",
+        "Lạ chưa kìa, chỉ một lúc sau, hổ con mở mắt, đứng dậy, vẫy đuôi đi theo mẹ.",
+        "Cuội trên cây nhìn thấy hết. Chàng nghĩ: Đây đúng là cây thuốc quý rồi!"
+      ],
+      "image": {
+        "prompt": "by the forest stream, a gentle mother tiger lays chewed green banyan leaves on her little cub, the cub opens its eyes and stands up, a small glowing banyan tree nearby, Cuoi watches amazed from a branch above",
+        "seed": 1680952240,
+        "character": "cay-da"
+      },
+      "video": {
+        "motionPrompt": "the mother tiger nuzzles her cub, the cub blinks awake and wobbles to its feet, the little banyan tree shimmers softly",
+        "seed": 2949912072
+      },
+      "voice": {}
+    },
+    {
+      "id": "mang-cay-ve",
+      "title": "Mang cây đa về nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Đợi mẹ con hổ đi xa, Cuội trèo xuống, cẩn thận đào cây đa nhỏ lên, mang về trồng ở góc vườn. Từ đó, ai trong làng bị ốm, bị đau, Cuội lại hái lá đa thần sắc thuốc cho. Ai uống vào cũng khỏe lại. Tiếng lành đồn xa, người khắp nơi tìm đến nhờ Cuội chữa bệnh. Cuội vui vẻ giúp tất cả mọi người.",
+      "subtitles": [
+        "Đợi mẹ con hổ đi xa, Cuội trèo xuống, cẩn thận đào cây đa nhỏ lên,",
+        "mang về trồng ở góc vườn.",
+        "Từ đó, ai trong làng bị ốm, bị đau, Cuội lại hái lá đa thần sắc thuốc cho.",
+        "Ai uống vào cũng khỏe lại. Tiếng lành đồn xa, người khắp nơi tìm đến nhờ Cuội chữa bệnh.",
+        "Cuội vui vẻ giúp tất cả mọi người."
+      ],
+      "image": {
+        "prompt": "in Cuoi's sunny garden the glowing little banyan tree is planted, Cuoi gives a bowl of leaf medicine to an old grandmother while villagers wait happily in line, a thatched house behind",
+        "seed": 2399824175,
+        "character": "cuoi"
+      },
+      "video": {
+        "motionPrompt": "Cuoi hands over the steaming bowl with a smile, the grandmother sips and stands taller, villagers smile, banyan leaves shimmer",
+        "seed": 3796677494
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-dan",
+      "title": "Lời dặn của Cuội",
+      "narrator": "ke-chuyen",
+      "narration": "Cây đa thần có một điều kỳ lạ: phải tưới bằng nước sạch, nếu tưới nước bẩn thì cây sẽ bay lên trời. Cuội dặn vợ đi dặn vợ lại: Nàng nhớ nhé, chỉ tưới nước sạch thôi đấy! Vợ Cuội gật đầu: Thiếp nhớ rồi. Nhưng vợ Cuội hiền lành mà hay quên lắm. Hôm nay nhớ, mai lại quên, đi đâu cũng phải nhờ người nhắc.",
+      "subtitles": [
+        "Cây đa thần có một điều kỳ lạ: phải tưới bằng nước sạch,",
+        "nếu tưới nước bẩn thì cây sẽ bay lên trời.",
+        "Cuội dặn vợ đi dặn vợ lại: Nàng nhớ nhé, chỉ tưới nước sạch thôi đấy!",
+        "Vợ Cuội gật đầu: Thiếp nhớ rồi. Nhưng vợ Cuội hiền lành mà hay quên lắm.",
+        "Hôm nay nhớ, mai lại quên, đi đâu cũng phải nhờ người nhắc."
+      ],
+      "image": {
+        "prompt": "Cuoi wags his finger kindly while reminding his smiling forgetful wife next to the glowing banyan tree, she holds a wooden water bucket and nods, chickens peck around their feet",
+        "seed": 1524466323,
+        "character": "vo-cuoi"
+      },
+      "video": {
+        "motionPrompt": "Cuoi points at the clean water jar and then at the tree, his wife nods cheerfully then scratches her head, chickens peck",
+        "seed": 2868810184
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-bay-len",
+      "title": "Cây đa bay lên",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm Cuội vào rừng, vợ ở nhà quên mất lời dặn, lấy chậu nước rửa rau bẩn đổ vào gốc đa. Bỗng mặt đất rung rinh, cây đa bật rễ, từ từ bay lên trời. Vừa lúc ấy Cuội gánh củi về. Chàng vứt gánh củi, chạy tới, nhảy lên túm lấy rễ cây, cố kéo cây xuống. Nhưng cây cứ bay lên, bay lên mãi, mang theo cả Cuội.",
+      "subtitles": [
+        "Một hôm Cuội vào rừng, vợ ở nhà quên mất lời dặn, lấy chậu nước rửa rau bẩn đổ vào gốc đa.",
+        "Bỗng mặt đất rung rinh, cây đa bật rễ, từ từ bay lên trời.",
+        "Vừa lúc ấy Cuội gánh củi về.",
+        "Chàng vứt gánh củi, chạy tới, nhảy lên túm lấy rễ cây, cố kéo cây xuống.",
+        "Nhưng cây cứ bay lên, bay lên mãi, mang theo cả Cuội."
+      ],
+      "image": {
+        "prompt": "the glowing banyan tree lifts off from the garden with its roots dangling, Cuoi jumps and holds on to the roots with both hands, his surprised wife drops her basin, the evening sky turns violet",
+        "seed": 1457540827,
+        "character": "cuoi"
+      },
+      "video": {
+        "motionPrompt": "the tree rises slowly into the sky, Cuoi swings from the roots kicking his legs, the wife covers her mouth, leaves flutter down",
+        "seed": 3334192212
+      },
+      "voice": {}
+    },
+    {
+      "id": "len-cung-trang",
+      "title": "Lên tới cung trăng",
+      "narrator": "ke-chuyen",
+      "narration": "Cây đa bay qua những đám mây, bay mãi, bay mãi, rồi dừng lại trên cung trăng. Cuội buông tay, ngồi xuống dưới gốc đa. Từ đó, Cuội ở lại trên cung trăng với cây đa. Đêm nào trăng sáng, chú lại ngồi nhìn xuống làng, nhớ nhà, nhớ vợ, nhớ bạn bè. Người ta bảo, mỗi năm đến Tết Trung thu, các bạn nhỏ rước đèn, đánh trống thật vui là để chú Cuội trên cung trăng đỡ buồn đấy.",
+      "subtitles": [
+        "Cây đa bay qua những đám mây, bay mãi, bay mãi, rồi dừng lại trên cung trăng.",
+        "Cuội buông tay, ngồi xuống dưới gốc đa. Từ đó, Cuội ở lại trên cung trăng với cây đa.",
+        "Đêm nào trăng sáng, chú lại ngồi nhìn xuống làng, nhớ nhà, nhớ vợ, nhớ bạn bè.",
+        "Người ta bảo, mỗi năm đến Tết Trung thu, các bạn nhỏ rước đèn,",
+        "đánh trống thật vui là để chú Cuội trên cung trăng đỡ buồn đấy."
+      ],
+      "image": {
+        "prompt": "on the silvery surface of the moon, Cuoi sits peacefully under the glowing banyan tree looking down at the small earth with tiny lantern lights of a village, stars all around",
+        "seed": 1138698790,
+        "character": "cuoi"
+      },
+      "video": {
+        "motionPrompt": "Cuoi rests his chin on his hand and gazes down, the banyan leaves sway gently, stars twinkle, tiny lantern lights glow far below",
+        "seed": 2792371001
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Đêm Trung thu này, các bạn nhớ rước đèn thật vui và vẫy tay chào chú Cuội nhé. Còn nữa, khi bố mẹ dặn điều gì, các bạn hãy cố nhớ lời, đừng hay quên như vợ chú Cuội nha. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Đêm Trung thu này, các bạn nhớ rước đèn thật vui và vẫy tay chào chú Cuội nhé.",
+        "Còn nữa, khi bố mẹ dặn điều gì, các bạn hãy cố nhớ lời, đừng hay quên như vợ chú Cuội nha.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves up at the full moon while leading a Mid-Autumn lantern parade of happy village children with star lanterns, carp lanterns and a small drum",
+        "seed": 230653092,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves at the moon, children march with swaying lanterns, the drum beats softly, gentle camera pull-back toward the glowing moon",
+        "seed": 3952794713
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "dreamy Vietnamese Mid-Autumn folk melody for children, soft bamboo flute and dan tranh zither, light hand drum, moonlit and gentle, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4072396652
+  }
+}

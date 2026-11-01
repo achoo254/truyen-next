@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "slug": "su-tu-va-chuot-nhat",
+  "shelf": "world",
+  "title": "Sư tử và chuột nhắt",
+  "summary": "Sư tử tha cho chú chuột nhắt bé xíu, rồi một ngày chính chuột gặm đứt tấm lưới cứu chúa sơn lâm. Ngụ ngôn Aesop về lòng tốt và việc không coi thường người nhỏ bé.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, a warm African savanna woodland with acacia trees, tall golden grass and soft evening skies, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "su-tu",
+      "name": "Sư tử",
+      "seed": 1593678445,
+      "sheetPrompt": "a majestic but friendly lion with a big golden mane, broad gentle face, large paws, sitting proudly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chuot",
+      "name": "Chuột nhắt",
+      "seed": 3213938940,
+      "sheetPrompt": "a tiny brave grey field mouse with big round ears, bright eyes, pink nose and long whiskers, standing on hind legs, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "giac-ngu",
+      "title": "Giấc ngủ của chúa sơn lâm",
+      "narrator": "ke-chuyen",
+      "narration": "Giữa trưa hè nóng nực, chúa sơn lâm sư tử nằm ngủ dưới bóng một cây keo lớn. Bờm vàng của sư tử xòe ra như ánh mặt trời, tiếng ngáy vang rền cả một góc rừng. Có một chú chuột nhắt nhỏ xíu đi tìm hạt cỏ, mải mê chạy nhảy thế nào lại leo lên bàn chân sư tử, rồi trượt dài theo cái bờm, lăn tròn xuống mũi của chúa sơn lâm.",
+      "subtitles": [
+        "Giữa trưa hè nóng nực, chúa sơn lâm sư tử nằm ngủ dưới bóng một cây keo lớn.",
+        "Bờm vàng của sư tử xòe ra như ánh mặt trời, tiếng ngáy vang rền cả một góc rừng.",
+        "Có một chú chuột nhắt nhỏ xíu đi tìm hạt cỏ,",
+        "mải mê chạy nhảy thế nào lại leo lên bàn chân sư tử, rồi trượt dài theo cái bờm,",
+        "lăn tròn xuống mũi của chúa sơn lâm."
+      ],
+      "image": {
+        "character": "su-tu",
+        "prompt": "the big lion sleeps peacefully in the shade of an acacia tree, its golden mane spread out, a tiny mouse sliding playfully down the mane toward its nose",
+        "seed": 3376179100
+      },
+      "video": {
+        "motionPrompt": "the lion breathes slowly while sleeping, the tiny mouse slides down the mane, grass sways in the heat",
+        "seed": 3856578088
+      },
+      "voice": {}
+    },
+    {
+      "id": "bat-duoc",
+      "title": "Bị sư tử bắt",
+      "narrator": "ke-chuyen",
+      "narration": "Sư tử hắt xì một cái thật to, choàng tỉnh dậy. Một bàn chân khổng lồ chụp xuống, giữ chặt lấy chú chuột. “Đứa nào dám phá giấc ngủ của ta?” sư tử gầm lên. Chuột nhắt run như cầy sấy, nhưng vẫn lấy hết can đảm nói: “Thưa chúa sơn lâm, xin ngài tha cho con. Con bé thế này, ngài ăn cũng chẳng no. Biết đâu một ngày kia, con có thể giúp lại ngài.” Sư tử nghe vậy thì phá lên cười.",
+      "subtitles": [
+        "Sư tử hắt xì một cái thật to, choàng tỉnh dậy.",
+        "Một bàn chân khổng lồ chụp xuống, giữ chặt lấy chú chuột.",
+        "“Đứa nào dám phá giấc ngủ của ta?” sư tử gầm lên.",
+        "Chuột nhắt run như cầy sấy, nhưng vẫn lấy hết can đảm nói: “Thưa chúa sơn lâm,",
+        "xin ngài tha cho con. Con bé thế này, ngài ăn cũng chẳng no.",
+        "Biết đâu một ngày kia, con có thể giúp lại ngài.” Sư tử nghe vậy thì phá lên cười."
+      ],
+      "image": {
+        "character": "chuot",
+        "prompt": "close up, the tiny mouse held gently under the lion's huge paw, looking up bravely and pleading, the lion's big face peering down with raised eyebrows",
+        "seed": 102640741
+      },
+      "video": {
+        "motionPrompt": "the lion's eyebrows rise, the mouse clasps its paws and pleads, the lion's whiskers twitch with laughter",
+        "seed": 3537430716
+      },
+      "voice": {}
+    },
+    {
+      "id": "tha-chuot",
+      "title": "Sư tử tha cho chuột",
+      "narrator": "ke-chuyen",
+      "narration": "“Một con chuột bé tí mà đòi giúp chúa sơn lâm ư? Thật là buồn cười quá!” Nhưng vì câu nói ngộ nghĩnh ấy làm sư tử vui, sư tử nhấc chân lên, thả cho chuột đi. Chuột nhắt cúi đầu cảm ơn rối rít rồi chạy biến vào bụi cỏ. Sư tử lắc lắc bờm, nằm xuống ngủ tiếp, chẳng mấy chốc đã quên hẳn chuyện ấy.",
+      "subtitles": [
+        "“Một con chuột bé tí mà đòi giúp chúa sơn lâm ư? Thật là buồn cười quá!”",
+        "Nhưng vì câu nói ngộ nghĩnh ấy làm sư tử vui, sư tử nhấc chân lên, thả cho chuột đi.",
+        "Chuột nhắt cúi đầu cảm ơn rối rít rồi chạy biến vào bụi cỏ.",
+        "Sư tử lắc lắc bờm, nằm xuống ngủ tiếp, chẳng mấy chốc đã quên hẳn chuyện ấy."
+      ],
+      "image": {
+        "character": "su-tu",
+        "prompt": "the amused lion lifts its paw to free the mouse, who bows gratefully before scurrying into the tall grass",
+        "seed": 373905314
+      },
+      "video": {
+        "motionPrompt": "the lion lifts its paw and chuckles, the mouse bows and scampers away, the lion shakes its mane and lies down",
+        "seed": 3228096915
+      },
+      "voice": {}
+    },
+    {
+      "id": "mac-luoi",
+      "title": "Sư tử mắc lưới",
+      "narrator": "ke-chuyen",
+      "narration": "Vài hôm sau, có mấy người thợ săn vào rừng giăng một tấm lưới bằng thừng thật chắc. Sư tử đi ngang qua, sơ ý giẫm phải bẫy. Tấm lưới sập xuống, trùm kín lấy sư tử. Sư tử vùng vẫy, cào cấu, nhưng càng giãy, lưới càng siết chặt. Sư tử gầm lên một tiếng vang động cả khu rừng, tiếng gầm vừa giận dữ vừa tuyệt vọng.",
+      "subtitles": [
+        "Vài hôm sau, có mấy người thợ săn vào rừng giăng một tấm lưới bằng thừng thật chắc.",
+        "Sư tử đi ngang qua, sơ ý giẫm phải bẫy. Tấm lưới sập xuống, trùm kín lấy sư tử.",
+        "Sư tử vùng vẫy, cào cấu, nhưng càng giãy, lưới càng siết chặt.",
+        "Sư tử gầm lên một tiếng vang động cả khu rừng, tiếng gầm vừa giận dữ vừa tuyệt vọng."
+      ],
+      "image": {
+        "character": "su-tu",
+        "prompt": "the lion tangled in a large rope net hanging from an acacia tree, struggling and roaring, birds flying up from the branches, no people in sight",
+        "seed": 2058730882
+      },
+      "video": {
+        "motionPrompt": "the lion pushes against the rope net, the net sways, birds fly up from the tree",
+        "seed": 807243747
+      },
+      "voice": {}
+    },
+    {
+      "id": "chuot-cuu",
+      "title": "Chuột nhắt cứu sư tử",
+      "narrator": "ke-chuyen",
+      "narration": "Chuột nhắt nghe tiếng gầm, nhận ra ngay giọng của chúa sơn lâm. Chuột vội chạy tới, thấy sư tử bị trói trong lưới. “Ngài đừng lo, có con đây!” Chuột nhảy lên, dùng hàm răng nhỏ mà sắc, gặm từng sợi thừng một. Một sợi đứt, rồi hai sợi, rồi cả một mảng lưới bung ra. Sư tử chui ra, được tự do. Sư tử cúi xuống nhìn chuột, giọng dịu dàng: “Hôm trước ta đã cười bạn. Hôm nay ta mới hiểu, bé nhỏ đến đâu cũng có thể làm nên việc lớn.” Từ đó, sư tử và chuột trở thành đôi bạn thân. Các bạn nhỏ ạ, đừng bao giờ coi thường người khác, và hãy luôn nhớ ơn người đã giúp mình.",
+      "subtitles": [
+        "Chuột nhắt nghe tiếng gầm, nhận ra ngay giọng của chúa sơn lâm.",
+        "Chuột vội chạy tới, thấy sư tử bị trói trong lưới. “Ngài đừng lo, có con đây!”",
+        "Chuột nhảy lên, dùng hàm răng nhỏ mà sắc, gặm từng sợi thừng một.",
+        "Một sợi đứt, rồi hai sợi, rồi cả một mảng lưới bung ra. Sư tử chui ra, được tự do.",
+        "Sư tử cúi xuống nhìn chuột, giọng dịu dàng: “Hôm trước ta đã cười bạn.",
+        "Hôm nay ta mới hiểu, bé nhỏ đến đâu cũng có thể làm nên việc lớn.”",
+        "Từ đó, sư tử và chuột trở thành đôi bạn thân.",
+        "Các bạn nhỏ ạ, đừng bao giờ coi thường người khác, và hãy luôn nhớ ơn người đã giúp mình."
+      ],
+      "image": {
+        "character": "chuot",
+        "prompt": "the tiny mouse gnaws through the ropes of the net, a hole opening, the freed lion bows its big head gently toward its little friend in the warm evening light",
+        "seed": 1100606348
+      },
+      "video": {
+        "motionPrompt": "the mouse nibbles the rope which snaps apart, the lion steps free and lowers its head, the mouse smiles, evening light glows",
+        "seed": 1700039316
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle classical storybook music, warm cello and tuba for the lion, light piccolo and xylophone for the mouse, light and playful with a warm calm ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3641800557
+  }
+}

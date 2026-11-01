@@ -3,7 +3,7 @@
  * anywhere else, and check every text/background pair against WCAG AA). One look, no light/dark switch: an Đông Hồ
  * folk print on giấy dó. Cream handmade paper with a faint grain and fibres, brown ink for text and outlines, and
  * the print's three colours: đỏ son (vermilion) for what can be pressed, vàng nghệ (turmeric) for the children's
- * shelf and seals, xanh lá (leaf green) for the adults' shelf. The home print (src/art/dong-ho-print.svg) and the
+ * shelf and seals, xanh lá (leaf green) for the adults' shelf, xanh chàm (indigo) for the world shelf. The home print (src/art/dong-ho-print.svg) and the
  * app icon (brand/icon.svg) are drawn in the same hexes.
  */
 :root {
@@ -17,9 +17,10 @@
   --c-surface: #fbf5e7;
   --c-surface-raised: #ecdfc2;
   --c-topbar: #f6eedb;
-  /* each shelf's own sheet: vàng hoè for the children, plain dó for the adults */
+  /* each shelf's own sheet: vàng hoè for the children, plain dó for the adults, chàm-washed dó for the world */
   --c-kids-field: #f1ce70;
   --c-adults-field: #e9e1d0;
+  --c-world-field: #dde2df;
   /* the open book of the player: its pages, their stacked edges, the plain backdrop while a scene has no picture */
   --c-page: #fcf7ec;
   --c-page-edge: #e2d0aa;
@@ -46,6 +47,10 @@
   --c-ink-solid-hover: #4a3220;
   --c-on-ink: #f6ecd4;
   --c-leaf: #3a6229;
+  --c-indigo: #2b4a6b;
+  --c-indigo-solid: #2b4a6b;
+  --c-indigo-solid-hover: #1f3a57;
+  --c-on-indigo: #f6ecd4;
   --c-turmeric: #e8b13a;
   --c-on-turmeric: #2f1d0f;
   --c-vermilion: #b8401f;
@@ -191,6 +196,7 @@
   --c-topbar: #1f170f;
   --c-kids-field: #241a0c;
   --c-adults-field: #1b160f;
+  --c-world-field: #131820;
   --c-page: #2a1f15;
   --c-page-edge: #4a3826;
   --c-stage-top: #33261a;
@@ -212,6 +218,10 @@
   --c-ink-solid-hover: #f6e7cb;
   --c-on-ink: #1c140d;
   --c-leaf: #a8c98c;
+  --c-indigo: #a9c0dc;
+  --c-indigo-solid: #a9c0dc;
+  --c-indigo-solid-hover: #c3d4ea;
+  --c-on-indigo: #10161f;
   --c-turmeric: #f0b43c;
   --c-on-turmeric: #1c140d;
   --c-vermilion: #e0754f;

@@ -13,7 +13,7 @@ const HTML = `<html><head>
 <meta name="robots" content="noindex, nofollow" />
 </head><body><div id="root"></div></body></html>`;
 
-const entry = (slug: string, shelf: 'kids' | 'adults', title: string): StoryListEntry => ({ slug, shelf, title, summary: `${title} "& <b>"`, scenes: 8, minutes: 4, themes: ['su-tich'], added: '2026-10-30' });
+const entry = (slug: string, shelf: 'kids' | 'adults', title: string): StoryListEntry => ({ slug, shelf, title, summary: `${title} "& <b>"`, basedOn: 'Truyện dân gian Việt Nam', scenes: 8, minutes: 4, themes: ['su-tich'], added: '2026-10-30' });
 const CTX = {
   origin: 'https://truyen.hoandat.com',
   appName: 'Truyện',
@@ -25,7 +25,7 @@ describe('prerendered pages', () => {
   const pages = prerenderPages(HTML, CTX);
 
   it('writes the home page, both shelves, every story and the untouched app page', () => {
-    expect([...pages.keys()].sort()).toEqual([SPA_FALLBACK, 'index.html', 'nguoi-lon/index.html', 'tre-em/index.html', 'truyen/su-tich-ho-guom/index.html', 'truyen/tam-cam/index.html'].sort());
+    expect([...pages.keys()].sort()).toEqual([SPA_FALLBACK, 'index.html', 'nguoi-lon/index.html', 'the-gioi/index.html', 'tre-em/index.html', 'truyen/su-tich-ho-guom/index.html', 'truyen/tam-cam/index.html'].sort());
     expect(pages.get(SPA_FALLBACK)).toBe(HTML);
   });
 

@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "slug": "my-chau-trong-thuy",
+  "shelf": "adults",
+  "title": "Mỵ Châu Trọng Thủy",
+  "summary": "Thành Cổ Loa xây mãi không xong, Rùa Vàng hiện lên giúp An Dương Vương, để lại chiếc vuốt làm lẫy nỏ thần. Rồi một mối tình giữa công chúa Mỵ Châu và con trai Triệu Đà đã khiến cả cơ đồ Âu Lạc đắm vào bể sâu.",
+  "themes": [
+    "than-thoai",
+    "tinh-yeu",
+    "su-tich"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyền thuyết An Dương Vương và Mỵ Châu Trọng Thủy, chép trong Lĩnh Nam chích quái (truyện Rùa Vàng, thế kỷ XV), thuộc phạm vi công cộng. Lời kể viết mới, theo sát cốt truyện cổ; không chép bản dịch hay bản kể hiện đại nào.",
+  "basedOn": "Lĩnh Nam chích quái, truyện Rùa Vàng",
+  "style": "classical Vietnamese silk painting (tranh lua) illustration, fine ink linework, soft washes of muted ochre, jade green, indigo and gold on aged silk, ancient Au Lac kingdom in the third century BC, Dong Son bronze drums and patterns, earthen spiral citadel walls, feathered headdresses and plain linen robes, tragic yet dignified mood for adult readers, conflict shown from afar, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "an-duong-vuong",
+      "name": "An Dương Vương",
+      "sheetPrompt": "King An Duong Vuong of ancient Au Lac, a stern dignified man in his fifties with a long grey-streaked beard, dark bronze-toned royal robe with Dong Son bird patterns, a tall feathered bronze crown, a bronze sword at his belt, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 2407481179
+    },
+    {
+      "id": "my-chau",
+      "name": "Mỵ Châu",
+      "sheetPrompt": "Princess My Chau of ancient Au Lac, a gentle innocent young woman of sixteen, long black hair tied with a jade band, pale ivory robe with Dong Son patterns, over it a soft white cloak of goose feathers, trusting soft eyes, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 618210706
+    },
+    {
+      "id": "trong-thuy",
+      "name": "Trọng Thủy",
+      "sheetPrompt": "Trong Thuy, son of Zhao Tuo of Nanyue, a handsome young man of twenty with a refined thoughtful face, hair in a topknot with a small jade pin, deep crimson Han-style robe with wide sleeves and a black sash, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 2327294784
+    },
+    {
+      "id": "rua-vang",
+      "name": "Rùa Vàng",
+      "sheetPrompt": "the Golden Turtle spirit of Vietnamese legend, a huge ancient wise turtle with a shimmering golden shell patterned like old bronze, calm deep eyes, able to stand and speak, gentle majestic presence, side view, plain aged silk background, character reference sheet",
+      "seed": 1675293061
+    }
+  ],
+  "scenes": [
+    {
+      "id": "thanh-do",
+      "title": "Thành đổ",
+      "narrator": "ke-chuyen",
+      "narration": "Sau khi họ Hồng Bàng hết vận, Thục Phán lên ngôi, xưng là An Dương Vương, đặt tên nước là Âu Lạc. Vua cho đắp thành ở đất Phong Khê để giữ nước. Nhưng lạ thay, thành đắp tới đâu lở tới đó. Sáng dân phu đắp xong một đoạn, đêm đã sụp thành đống đất. Đắp lại bao nhiêu lần vẫn thế, người mệt mà công chẳng thành. Vua lo lắm, bèn lập đàn, trai giới, cầu đảo trời đất bách thần. Một hôm có cụ già râu tóc bạc phơ từ phương đông đi tới, đứng trước cửa thành mà nói: Đợi sứ Thanh Giang tới, cùng vua xây thành, thì thành mới xong. Nói rồi cụ đi mất.",
+      "subtitles": [
+        "Sau khi họ Hồng Bàng hết vận, Thục Phán lên ngôi, xưng là An Dương Vương,",
+        "đặt tên nước là Âu Lạc.",
+        "Vua cho đắp thành ở đất Phong Khê để giữ nước. Nhưng lạ thay, thành đắp tới đâu lở tới đó.",
+        "Sáng dân phu đắp xong một đoạn, đêm đã sụp thành đống đất.",
+        "Đắp lại bao nhiêu lần vẫn thế, người mệt mà công chẳng thành.",
+        "Vua lo lắm, bèn lập đàn, trai giới, cầu đảo trời đất bách thần.",
+        "Một hôm có cụ già râu tóc bạc phơ từ phương đông đi tới, đứng trước cửa thành mà nói:",
+        "Đợi sứ Thanh Giang tới, cùng vua xây thành, thì thành mới xong.",
+        "Nói rồi cụ đi mất."
+      ],
+      "image": {
+        "prompt": "ancient Au Lac countryside at Phong Khe, crowds of labourers carrying baskets of earth to build a long earthen wall that has collapsed into a heap, King An Duong Vuong watching with a troubled face, a white-haired old man approaching from the east in morning mist",
+        "seed": 775611656,
+        "character": "an-duong-vuong"
+      },
+      "video": {
+        "motionPrompt": "mist drifts across the fields, a section of earthen wall slowly crumbles, labourers pause and look up, the old man walks slowly forward, gentle camera pan",
+        "seed": 3400279262
+      },
+      "voice": {}
+    },
+    {
+      "id": "rua-vang",
+      "title": "Sứ Thanh Giang",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, vua ra cửa đông ngóng đợi. Bỗng thấy một con rùa vàng lớn từ mặt nước phương đông nổi lên, tự xưng là sứ Thanh Giang, nói được tiếng người, bàn được việc trời đất. Vua mừng rỡ, rước rùa vào thành bằng xe vàng, mời ngồi trên điện mà hỏi duyên cớ thành đổ. Rùa đáp: Núi này có tinh khí núi non, lại có hồn một ông vua đời trước trú ngụ, muốn báo thù cho nước cũ, nương vào một con gà trắng sống đã nghìn năm, nên đêm nào cũng phá thành. Phải trừ được yêu khí ấy, thành mới đứng vững. Rùa vàng chỉ cách cho vua trừ tà, yêu tinh tan đi, từ đó việc đắp thành không còn bị phá.",
+      "subtitles": [
+        "Sáng hôm sau, vua ra cửa đông ngóng đợi.",
+        "Bỗng thấy một con rùa vàng lớn từ mặt nước phương đông nổi lên, tự xưng là sứ Thanh Giang,",
+        "nói được tiếng người, bàn được việc trời đất.",
+        "Vua mừng rỡ, rước rùa vào thành bằng xe vàng, mời ngồi trên điện mà hỏi duyên cớ thành đổ.",
+        "Rùa đáp: Núi này có tinh khí núi non, lại có hồn một ông vua đời trước trú ngụ,",
+        "muốn báo thù cho nước cũ, nương vào một con gà trắng sống đã nghìn năm,",
+        "nên đêm nào cũng phá thành.",
+        "Phải trừ được yêu khí ấy, thành mới đứng vững.",
+        "Rùa vàng chỉ cách cho vua trừ tà, yêu tinh tan đi, từ đó việc đắp thành không còn bị phá."
+      ],
+      "image": {
+        "prompt": "a huge golden turtle rising from shimmering river water at dawn, the king and his court bowing on the bank, a golden carriage waiting, mist and soft golden light on the water",
+        "seed": 4236351731,
+        "character": "rua-vang"
+      },
+      "video": {
+        "motionPrompt": "the golden turtle rises slowly from the water, ripples spread outward, golden light shimmers on its shell, courtiers bow, slow camera push-in",
+        "seed": 2690641886
+      },
+      "voice": {}
+    },
+    {
+      "id": "thanh-oc",
+      "title": "Thành Cổ Loa",
+      "narrator": "ke-chuyen",
+      "narration": "Chỉ nửa tháng sau, thành đã đắp xong. Thành rộng hơn nghìn trượng, cuộn tròn như hình vỏ ốc, nên người đời gọi là Loa Thành, cũng gọi là Cổ Loa. Rùa vàng ở lại cùng vua ba năm rồi xin trở về biển. Lúc từ biệt, vua cảm tạ mà hỏi: Nhờ ơn thần, thành đã vững. Nhưng nếu có giặc ngoài, lấy gì mà chống? Rùa vàng bèn tháo một chiếc vuốt trao cho vua, dặn: Đem vật này làm lẫy nỏ, nhằm quân giặc mà bắn thì không lo gì nữa. Nói xong, rùa lặn xuống nước đông, không thấy đâu nữa.",
+      "subtitles": [
+        "Chỉ nửa tháng sau, thành đã đắp xong.",
+        "Thành rộng hơn nghìn trượng, cuộn tròn như hình vỏ ốc, nên người đời gọi là Loa Thành,",
+        "cũng gọi là Cổ Loa.",
+        "Rùa vàng ở lại cùng vua ba năm rồi xin trở về biển.",
+        "Lúc từ biệt, vua cảm tạ mà hỏi: Nhờ ơn thần, thành đã vững.",
+        "Nhưng nếu có giặc ngoài, lấy gì mà chống?",
+        "Rùa vàng bèn tháo một chiếc vuốt trao cho vua, dặn: Đem vật này làm lẫy nỏ,",
+        "nhằm quân giặc mà bắn thì không lo gì nữa.",
+        "Nói xong, rùa lặn xuống nước đông, không thấy đâu nữa."
+      ],
+      "image": {
+        "prompt": "a vast spiral earthen citadel seen from above, rings of walls coiling like a snail shell, moats of water between them, at the shore the golden turtle presents one shining golden claw to King An Duong Vuong",
+        "seed": 3535093850,
+        "character": "rua-vang"
+      },
+      "video": {
+        "motionPrompt": "clouds drift over the spiral citadel, water glimmers in the moats, the turtle slowly extends its claw toward the king, gentle camera crane down",
+        "seed": 2523452064
+      },
+      "voice": {}
+    },
+    {
+      "id": "no-than",
+      "title": "Nỏ thần",
+      "narrator": "ke-chuyen",
+      "narration": "Vua sai bề tôi là Cao Lỗ làm một chiếc nỏ, lấy vuốt rùa làm lẫy, đặt tên là nỏ Linh Quang Kim Quy Thần Cơ. Về sau, Triệu Đà ở phương bắc đem quân sang đánh Âu Lạc. Quân hai bên giáp nhau ở chân thành. Vua đem nỏ thần ra bắn, mỗi phát tên rời dây là hàng trăm quân giặc ngã xuống, đội ngũ tan tác. Triệu Đà thua to, phải chạy về đóng quân ở núi Trâu Sơn, không dám giao chiến nữa. Biết không thể thắng bằng sức, Đà bèn tính kế khác: sai người sang xin cầu hòa, và xin cho con trai là Trọng Thủy được cưới con gái vua là Mỵ Châu, để hai nước kết làm thông gia.",
+      "subtitles": [
+        "Vua sai bề tôi là Cao Lỗ làm một chiếc nỏ, lấy vuốt rùa làm lẫy,",
+        "đặt tên là nỏ Linh Quang Kim Quy Thần Cơ.",
+        "Về sau, Triệu Đà ở phương bắc đem quân sang đánh Âu Lạc.",
+        "Quân hai bên giáp nhau ở chân thành.",
+        "Vua đem nỏ thần ra bắn, mỗi phát tên rời dây là hàng trăm quân giặc ngã xuống,",
+        "đội ngũ tan tác.",
+        "Triệu Đà thua to, phải chạy về đóng quân ở núi Trâu Sơn, không dám giao chiến nữa.",
+        "Biết không thể thắng bằng sức, Đà bèn tính kế khác: sai người sang xin cầu hòa,",
+        "và xin cho con trai là Trọng Thủy được cưới con gái vua là Mỵ Châu,",
+        "để hai nước kết làm thông gia."
+      ],
+      "image": {
+        "prompt": "atop the earthen ramparts of Co Loa citadel, King An Duong Vuong aims a great golden-triggered crossbow, a volley of glowing arrows flies toward a distant army whose banners scatter in disarray across the plain",
+        "seed": 63566008,
+        "character": "an-duong-vuong"
+      },
+      "video": {
+        "motionPrompt": "glowing arrows streak across the sky, distant banners fall back and scatter, dust drifts over the plain, the king lowers the crossbow, slow camera pan",
+        "seed": 2124755974
+      },
+      "voice": {}
+    },
+    {
+      "id": "thong-gia",
+      "title": "Kết tình thông gia",
+      "narrator": "ke-chuyen",
+      "narration": "An Dương Vương không ngờ có kế gian, nhận lời gả con. Trọng Thủy sang Âu Lạc, ở rể trong thành Cổ Loa. Chàng là người tuấn tú, ăn nói dịu dàng, khéo chiều chuộng. Mỵ Châu thì ngây thơ, hiền hậu, đem cả tấm lòng con gái trao cho chồng mà chẳng chút nghi ngờ. Hai người sớm hôm có nhau, trong cung ai cũng bảo là một đôi đẹp. Nhưng trong lòng Trọng Thủy vẫn mang lời cha dặn trước lúc lên đường: phải dò cho ra vì sao Âu Lạc có sức mạnh khiến quân phương bắc không thể đến gần.",
+      "subtitles": [
+        "An Dương Vương không ngờ có kế gian, nhận lời gả con.",
+        "Trọng Thủy sang Âu Lạc, ở rể trong thành Cổ Loa.",
+        "Chàng là người tuấn tú, ăn nói dịu dàng, khéo chiều chuộng.",
+        "Mỵ Châu thì ngây thơ, hiền hậu,",
+        "đem cả tấm lòng con gái trao cho chồng mà chẳng chút nghi ngờ.",
+        "Hai người sớm hôm có nhau, trong cung ai cũng bảo là một đôi đẹp.",
+        "Nhưng trong lòng Trọng Thủy vẫn mang lời cha dặn trước lúc lên đường:",
+        "phải dò cho ra vì sao Âu Lạc có sức mạnh khiến quân phương bắc không thể đến gần."
+      ],
+      "image": {
+        "prompt": "a royal wedding in an ancient Au Lac palace hall with bronze drums and lanterns, Trong Thuy in crimson robe holding the hand of My Chau in ivory robe, the king seated above, courtiers celebrating, warm lamplight",
+        "seed": 3012461034,
+        "character": "trong-thuy"
+      },
+      "video": {
+        "motionPrompt": "lantern flames sway, the couple slowly bow to the king, a drummer strikes a bronze drum, petals drift down, gentle camera push-in",
+        "seed": 1159382987
+      },
+      "voice": {}
+    },
+    {
+      "id": "danh-trao-vuot",
+      "title": "Đánh tráo lẫy thần",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, Trọng Thủy dỗ dành vợ: Nước nàng có phép gì mà quân cha ta không địch nổi? Cho ta xem một lần cho thỏa. Mỵ Châu tin chồng, đưa chàng vào nơi cất nỏ, chỉ cho xem chiếc lẫy bằng vuốt rùa. Trọng Thủy âm thầm làm một chiếc vuốt giả, giống hệt vuốt thật, rồi lén đánh tráo, giấu vuốt thần trong mình. Mỵ Châu không hề hay biết. Ít lâu sau, chàng nói với vợ: Ta xa cha mẹ đã lâu, xin về phương bắc thăm nhà. Hai nước nay tuy là thông gia, nhưng lỡ ngày sau có binh đao cách trở, ta biết tìm nàng ở đâu?",
+      "subtitles": [
+        "Một hôm, Trọng Thủy dỗ dành vợ: Nước nàng có phép gì mà quân cha ta không địch nổi?",
+        "Cho ta xem một lần cho thỏa.",
+        "Mỵ Châu tin chồng, đưa chàng vào nơi cất nỏ, chỉ cho xem chiếc lẫy bằng vuốt rùa.",
+        "Trọng Thủy âm thầm làm một chiếc vuốt giả, giống hệt vuốt thật, rồi lén đánh tráo,",
+        "giấu vuốt thần trong mình.",
+        "Mỵ Châu không hề hay biết.",
+        "Ít lâu sau, chàng nói với vợ: Ta xa cha mẹ đã lâu, xin về phương bắc thăm nhà.",
+        "Hai nước nay tuy là thông gia, nhưng lỡ ngày sau có binh đao cách trở,",
+        "ta biết tìm nàng ở đâu?"
+      ],
+      "image": {
+        "prompt": "night in a quiet palace storeroom lit by a single oil lamp, Trong Thuy secretly replacing the golden claw trigger of a great crossbow with a false one, his face tense, a curtain half drawn behind him",
+        "seed": 190746997,
+        "character": "trong-thuy"
+      },
+      "video": {
+        "motionPrompt": "the lamp flame flickers, his hands move slowly over the crossbow, shadows sway on the wall, a curtain stirs in a draught, slow camera push-in",
+        "seed": 2250376250
+      },
+      "voice": {}
+    },
+    {
+      "id": "ao-long-ngong",
+      "title": "Áo lông ngỗng",
+      "narrator": "ke-chuyen",
+      "narration": "Mỵ Châu thương chồng, đáp: Thiếp có chiếc áo gấm lông ngỗng, lúc nào cũng mặc trong mình. Nếu có loạn lạc phải chạy đi, thiếp sẽ bứt lông ngỗng rắc ở những ngã ba đường làm dấu. Chàng cứ theo đó mà tìm, ắt sẽ gặp thiếp. Trọng Thủy ghi nhớ, từ biệt vợ lên đường. Về tới nơi, chàng trao vuốt thần cho cha. Triệu Đà mừng rỡ, lập tức dấy binh, kéo sang đánh Âu Lạc lần nữa.",
+      "subtitles": [
+        "Mỵ Châu thương chồng, đáp: Thiếp có chiếc áo gấm lông ngỗng, lúc nào cũng mặc trong mình.",
+        "Nếu có loạn lạc phải chạy đi, thiếp sẽ bứt lông ngỗng rắc ở những ngã ba đường làm dấu.",
+        "Chàng cứ theo đó mà tìm, ắt sẽ gặp thiếp. Trọng Thủy ghi nhớ, từ biệt vợ lên đường.",
+        "Về tới nơi, chàng trao vuốt thần cho cha.",
+        "Triệu Đà mừng rỡ, lập tức dấy binh, kéo sang đánh Âu Lạc lần nữa."
+      ],
+      "image": {
+        "prompt": "a misty road outside the spiral citadel at dawn, My Chau in her white goose-feather cloak bidding farewell to Trong Thuy on horseback, her hand lifted, his face turned away with hidden guilt, willow branches in the wind",
+        "seed": 2631373119,
+        "character": "my-chau"
+      },
+      "video": {
+        "motionPrompt": "white feathers on her cloak lift in the breeze, the horse slowly turns away down the road, mist rolls over the fields, slow camera pull-back",
+        "seed": 2996922859
+      },
+      "voice": {}
+    },
+    {
+      "id": "thanh-mat",
+      "title": "Thành mất",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe tin giặc tới, An Dương Vương vẫn ung dung ngồi đánh cờ, cười mà nói: Đà không sợ nỏ thần sao? Quân giặc kéo đến sát chân thành. Vua đem nỏ ra bắn, nhưng lẫy thần đã mất, tên bắn ra rơi rụng, chẳng còn linh nghiệm. Quân Âu Lạc tan vỡ, thành Cổ Loa thất thủ. Vua vội lên ngựa, đặt Mỵ Châu ngồi sau lưng, chạy về phương nam. Trên đường chạy, Mỵ Châu bứt từng chiếc lông ngỗng trên áo, rắc ở mỗi ngã ba, như lời đã hẹn với chồng, mà không biết rằng chính những chiếc lông ấy đang dẫn đường cho giặc.",
+      "subtitles": [
+        "Nghe tin giặc tới, An Dương Vương vẫn ung dung ngồi đánh cờ, cười mà nói:",
+        "Đà không sợ nỏ thần sao?",
+        "Quân giặc kéo đến sát chân thành.",
+        "Vua đem nỏ ra bắn, nhưng lẫy thần đã mất, tên bắn ra rơi rụng, chẳng còn linh nghiệm.",
+        "Quân Âu Lạc tan vỡ, thành Cổ Loa thất thủ.",
+        "Vua vội lên ngựa, đặt Mỵ Châu ngồi sau lưng, chạy về phương nam.",
+        "Trên đường chạy, Mỵ Châu bứt từng chiếc lông ngỗng trên áo, rắc ở mỗi ngã ba,",
+        "như lời đã hẹn với chồng,",
+        "mà không biết rằng chính những chiếc lông ấy đang dẫn đường cho giặc."
+      ],
+      "image": {
+        "prompt": "King An Duong Vuong galloping on a dark horse away from a burning spiral citadel at dusk, My Chau seated behind him clutching his robe, white goose feathers drifting down onto a forked road behind them, enemy banners far in the distance",
+        "seed": 4271914912,
+        "character": "my-chau"
+      },
+      "video": {
+        "motionPrompt": "the horse gallops forward, white feathers scatter and float onto the road, smoke rises from the distant citadel, banners advance, tracking camera",
+        "seed": 4092910590
+      },
+      "voice": {}
+    },
+    {
+      "id": "bo-bien",
+      "title": "Bờ biển Mộ Dạ",
+      "narrator": "ke-chuyen",
+      "narration": "Chạy tới bờ biển, trước mặt là sóng nước mênh mông, không có thuyền qua, sau lưng giặc đuổi gần kề. Vua kêu lên: Trời hại ta rồi! Sứ Thanh Giang ở đâu, mau tới cứu ta! Rùa vàng liền nổi lên mặt nước, quát lớn: Kẻ ngồi sau ngựa chính là giặc đó! Vua bừng tỉnh, hiểu ra mọi chuyện. Mỵ Châu quỳ xuống, khóc mà khấn: Thiếp là phận gái, nếu có lòng phản nghịch mưu hại cha, thì chết đi xin hóa thành cát bụi. Nếu một lòng trung hiếu mà bị người lừa dối, thì chết đi xin hóa thành châu ngọc, để rửa mối nhục này.",
+      "subtitles": [
+        "Chạy tới bờ biển, trước mặt là sóng nước mênh mông, không có thuyền qua,",
+        "sau lưng giặc đuổi gần kề.",
+        "Vua kêu lên: Trời hại ta rồi! Sứ Thanh Giang ở đâu, mau tới cứu ta!",
+        "Rùa vàng liền nổi lên mặt nước, quát lớn: Kẻ ngồi sau ngựa chính là giặc đó!",
+        "Vua bừng tỉnh, hiểu ra mọi chuyện.",
+        "Mỵ Châu quỳ xuống, khóc mà khấn: Thiếp là phận gái, nếu có lòng phản nghịch mưu hại cha,",
+        "thì chết đi xin hóa thành cát bụi.",
+        "Nếu một lòng trung hiếu mà bị người lừa dối, thì chết đi xin hóa thành châu ngọc,",
+        "để rửa mối nhục này."
+      ],
+      "image": {
+        "prompt": "a lonely windswept beach at Mo Da under a stormy grey sky, the golden turtle rising from crashing waves, King An Duong Vuong standing stunned beside his horse, My Chau kneeling on the sand weeping with hands clasped in prayer",
+        "seed": 739399272,
+        "character": "rua-vang"
+      },
+      "video": {
+        "motionPrompt": "waves crash and foam on the sand, the turtle rises from the sea, wind whips the princess cloak and hair, storm clouds roll overhead, slow camera push-in",
+        "seed": 1889487705
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngoc-trai",
+      "title": "Ngọc trai và giếng nước",
+      "narrator": "ke-chuyen",
+      "narration": "Vua rút gươm, Mỵ Châu ngã xuống bên bờ biển. Máu nàng chảy xuống nước, trai sò ăn phải đều hóa thành ngọc. Vua cầm sừng tê bảy tấc, theo rùa vàng rẽ nước đi xuống biển. Người đời truyền rằng nơi ấy là núi Mộ Dạ, ở đất Nghệ An bây giờ. Trọng Thủy theo dấu lông ngỗng đuổi tới nơi, chỉ còn thấy xác vợ nằm trên cát. Chàng ôm xác Mỵ Châu đem về táng ở Loa Thành; xác nàng hóa thành ngọc thạch. Thương nhớ vợ khôn nguôi, một hôm ra giếng tắm, Trọng Thủy như thấy bóng Mỵ Châu dưới đáy nước, bèn lao mình xuống giếng mà chết. Về sau, người ta mò được ngọc trai ở biển Đông, đem rửa bằng nước giếng ấy thì ngọc càng thêm sáng trong.",
+      "subtitles": [
+        "Vua rút gươm, Mỵ Châu ngã xuống bên bờ biển.",
+        "Máu nàng chảy xuống nước, trai sò ăn phải đều hóa thành ngọc.",
+        "Vua cầm sừng tê bảy tấc, theo rùa vàng rẽ nước đi xuống biển.",
+        "Người đời truyền rằng nơi ấy là núi Mộ Dạ, ở đất Nghệ An bây giờ.",
+        "Trọng Thủy theo dấu lông ngỗng đuổi tới nơi, chỉ còn thấy xác vợ nằm trên cát.",
+        "Chàng ôm xác Mỵ Châu đem về táng ở Loa Thành; xác nàng hóa thành ngọc thạch.",
+        "Thương nhớ vợ khôn nguôi, một hôm ra giếng tắm,",
+        "Trọng Thủy như thấy bóng Mỵ Châu dưới đáy nước, bèn lao mình xuống giếng mà chết.",
+        "Về sau, người ta mò được ngọc trai ở biển Đông,",
+        "đem rửa bằng nước giếng ấy thì ngọc càng thêm sáng trong."
+      ],
+      "image": {
+        "prompt": "a quiet old stone well in the abandoned spiral citadel under pale moonlight, Trong Thuy leaning over the well, the reflection of My Chau face shimmering in the dark water, lustrous pearls glowing faintly on a seashore in the distance",
+        "seed": 4221574491,
+        "character": "trong-thuy"
+      },
+      "video": {
+        "motionPrompt": "moonlight ripples on the well water, the reflected face wavers and fades, he leans slowly closer, faint glow of pearls pulses in the distance, slow camera push-in",
+        "seed": 783504243
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "slow melancholic ancient Vietnamese instrumental, bronze drum heartbeat, dan bau monochord and bamboo flute, distant sea waves, tragic and dignified, slow tempo, no vocals",
+    "durationSeconds": 180,
+    "seed": 562563243
+  }
+}

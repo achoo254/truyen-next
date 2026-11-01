@@ -8,10 +8,11 @@ mục `media/` do `pnpm story:build` tạo. Schema và luật kiểm: `packages/
 
 | Trường | Ý nghĩa |
 | --- | --- |
-| `shelf` | Kệ của truyện, bắt buộc: `kids` (Trẻ em) hoặc `adults` (Người lớn). Mỗi kệ có luật riêng ở dưới. |
-| `themes` | Không bắt buộc: 1–3 chủ đề cho bộ lọc của kệ, trong `than-thoai`, `su-tich`, `anh-hung`, `thien-ac`, `gia-dinh`, `tinh-yeu`, `thien-nhien`. |
+| `shelf` | Kệ của truyện, bắt buộc: `kids` (Trẻ em), `adults` (Người lớn) hoặc `world` (Thế giới: cổ tích, ngụ ngôn các nước). Mỗi kệ có luật riêng ở dưới. |
+| `themes` | Không bắt buộc: 1–3 chủ đề cho bộ lọc của kệ, trong `than-thoai`, `su-tich`, `anh-hung`, `thien-ac`, `gia-dinh`, `tinh-yeu`, `thien-nhien`, `ngu-ngon`. |
 | `added` | Không bắt buộc: ngày truyện lên kệ (`YYYY-MM-DD`), cho thứ tự "Mới nhất". |
 | `source` | Truyện lấy từ đâu (truyện dân gian, sách cổ nào) và cách viết lời kể. |
+| `basedOn` | Bắt buộc, 3–80 ký tự: nguồn cốt truyện ngắn gọn, hiện trên trang truyện thành "Cốt truyện theo: …" (ví dụ "Truyện cổ Grimm (1812)", "Ngụ ngôn Aesop"). Truyện không có nguồn thuộc phạm vi công cộng thì không kể. |
 | `style` | Phong cách vẽ thêm vào cuối mọi prompt tranh, để cả truyện như một quyển sách. Kệ Trẻ em: tranh truyện thiếu nhi màu nước; kệ Người lớn có thể trầm hơn (ví dụ tranh lụa cổ), vẫn không máu me. |
 | `narrators` | Người kể: tên hiện trên phụ đề và giọng VieNeu có sẵn. Kệ Trẻ em: `miu` (Mèo Miu, giọng Trúc Ly) và người kể chuyện giọng Quỳnh Anh. Kệ Người lớn: một người kể chuyện, giọng Thanh Bình. |
 | `characters[]` | Bảng nhân vật: `sheetPrompt`, `seed`, `refImage` (ảnh có sẵn để vẽ theo), `file` khi đã vẽ. |
@@ -23,14 +24,14 @@ mục `media/` do `pnpm story:build` tạo. Schema và luật kiểm: `packages/
 
 ## Luật kiểm
 
-Thời gian đọc to ước tính theo nhịp 2,4 tiếng/giây, nghỉ 0,5 giây sau mỗi câu (cùng nhịp cho hai kệ).
+Thời gian đọc to ước tính theo nhịp 2,4 tiếng/giây, nghỉ 0,5 giây sau mỗi câu (cùng nhịp cho mọi kệ).
 
-| | Kệ Trẻ em (`kids`) | Kệ Người lớn (`adults`) |
-| --- | --- | --- |
-| Số cảnh | 6 đến 10 | 8 đến 14 |
-| Đọc to | 3 đến 6 phút | 6 đến 12 phút |
-| Người kể | Mèo Miu (`miu`, giọng Trúc Ly) kể cảnh đầu và cảnh cuối; người kể chuyện giọng Quỳnh Anh | Đúng một người kể, giọng khác Trúc Ly và Quỳnh Anh; không có Mèo Miu (không người kể, không nhân vật `miu`) |
-| Nội dung | Kể lại nhẹ nhàng cho trẻ nhỏ: không bạo lực, máu me, cảnh chết hay chi tiết đáng sợ. Lời kể không được có các từ "giết", "máu", "chết", "chém", "thi thể", "xác chết", "ghê rợn", "rùng rợn"; prompt tranh, cảnh động, nhân vật không có "dead", "death", "kill", "sword", "spear", "blood", "gore"… | Kể đầy đủ, theo sát truyện xưa; được nói đến cái chết. Prompt không có "blood", "gore", "corpse", "severed", "wound", "skull"… |
+| | Kệ Trẻ em (`kids`) | Kệ Người lớn (`adults`) | Kệ Thế giới (`world`) |
+| --- | --- | --- | --- |
+| Số cảnh | 6 đến 10 | 8 đến 14 | 4 đến 12 |
+| Đọc to | 3 đến 6 phút | 6 đến 12 phút | 2 đến 8 phút |
+| Người kể | Mèo Miu (`miu`, giọng Trúc Ly) kể cảnh đầu và cảnh cuối; người kể chuyện giọng Quỳnh Anh | Đúng một người kể, giọng khác Trúc Ly, Quỳnh Anh và Mỹ Duyên; không có Mèo Miu (không người kể, không nhân vật `miu`) | Đúng một người kể, giọng Mỹ Duyên; không có Mèo Miu |
+| Nội dung | Kể lại nhẹ nhàng cho trẻ nhỏ: không bạo lực, máu me, cảnh chết hay chi tiết đáng sợ. Lời kể không được có các từ "giết", "máu", "chết", "chém", "thi thể", "xác chết", "ghê rợn", "rùng rợn"; prompt tranh, cảnh động, nhân vật không có "dead", "death", "kill", "sword", "spear", "blood", "gore"… | Kể đầy đủ, theo sát truyện xưa; được nói đến cái chết. Prompt không có "blood", "gore", "corpse", "severed", "wound", "skull"… | Cổ tích, ngụ ngôn các nước kể nhẹ nhàng cho cả nhà: cùng danh sách từ cấm trong lời kể và prompt như kệ Trẻ em |
 
 Danh sách từ là lưới chặn sơ suất, không thay việc viết lời kể cho đúng kệ. Danh sách đầy đủ ở
 `packages/story/src/validate-story.ts`.
@@ -46,7 +47,7 @@ Cả hai kệ:
 
 ## Trình xem
 
-Trang chủ `/` có hai kệ, Trẻ em trước rồi Người lớn; `/tre-em` và `/nguoi-lon` mở riêng từng kệ. Trang truyện ghi kệ
+Trang chủ `/` có ba kệ: Trẻ em, Người lớn, Thế giới; `/tre-em`, `/nguoi-lon` và `/the-gioi` mở riêng từng kệ. Danh mục truyện đã có và truyện ứng viên: [`story-catalogue.md`](story-catalogue.md). Trang truyện ghi kệ
 của truyện, nút quay lại về đúng kệ đó.
 
 `/truyen/<slug>`: phát từng cảnh, phụ đề luôn hiện, nút tạm dừng, cảnh trước/sau, tắt/bật tiếng. Cảnh có giọng thì

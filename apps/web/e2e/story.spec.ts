@@ -105,15 +105,18 @@ test('open the pilot story and step through it scene by scene', async ({ page })
   expect(consoleErrors).toEqual([]);
 });
 
-test('the home page shows the children\'s shelf first, then the adults\' shelf', async ({ page }) => {
+test('the home page shows the children\'s shelf first, then the adults\' shelf, then the world shelf', async ({ page }) => {
   const consoleErrors = collectConsoleErrors(page);
   await withProductionCsp(page);
   await page.goto('/');
-  await expect(page.locator('section[data-id^=shelf-]')).toHaveCount(2);
-  expect(await page.locator('section[data-id^=shelf-]').evaluateAll((sections) => sections.map((s) => s.getAttribute('data-id')))).toEqual(['shelf-kids', 'shelf-adults']);
-  await expect(page.locator('[data-id=story-list-kids] [data-id=story-card-son-tinh-thuy-tinh]')).toBeVisible();
+  await expect(page.locator('section[data-id^=shelf-]')).toHaveCount(3);
+  expect(await page.locator('section[data-id^=shelf-]').evaluateAll((sections) => sections.map((s) => s.getAttribute('data-id')))).toEqual(['shelf-kids', 'shelf-adults', 'shelf-world']);
+  // Each shelf shows its newest stories, and only its own.
+  await expect(page.locator('[data-id=story-list-kids] [data-id^=story-card-]').first()).toBeVisible();
+  await expect(page.locator('[data-id=story-list-world] [data-id^=story-card-]').first()).toBeVisible();
   await expect(page.locator('[data-id=story-list-adults] [data-id=story-card-su-tich-ho-guom]')).toBeVisible();
-  await expect(page.locator('[data-id=story-list-adults] [data-id=story-card-son-tinh-thuy-tinh]')).toHaveCount(0);
+  await expect(page.locator('[data-id=story-list-adults] [data-id=story-card-rua-va-tho]')).toHaveCount(0);
+  await expect(page.locator('[data-id=story-list-kids] [data-id=story-card-su-tich-ho-guom]')).toHaveCount(0);
 
   await page.click('[data-id=story-open-su-tich-ho-guom]');
   await expect(page).toHaveURL(/\/truyen\/su-tich-ho-guom$/);
@@ -146,6 +149,10 @@ test('each story answers with its own prerendered page, the whole tale in it, op
   expect(html).not.toContain('name="robots"');
   expect(response.headers()['x-robots-tag']).toBeUndefined();
   expect(await (await request.get('/robots.txt')).text()).toContain('Sitemap: ');
+  expect(html).toContain('Cốt truyện theo: ');
+  const world = await request.get('/the-gioi');
+  expect(world.status()).toBe(200);
+  expect(await world.text()).toContain('<h1>Truyện cổ tích thế giới</h1>');
   const shelf = await (await request.get('/tre-em')).text();
   expect(shelf).toContain('href="/truyen/son-tinh-thuy-tinh"');
   expect(shelf).not.toContain('href="/truyen/su-tich-ho-guom"');
@@ -153,12 +160,12 @@ test('each story answers with its own prerendered page, the whole tale in it, op
 
 test('a shelf finds stories typed without marks and keeps the search in the address', async ({ page }) => {
   await page.goto('/tre-em');
-  await page.fill('[data-id=shelf-search]', 'son tinh');
+  await page.fill('[data-id=shelf-search]', 'son tinh thuy');
   await expect(page.locator('[data-id=story-list-kids] > li')).toHaveCount(1);
   await expect(page.locator('[data-id=story-card-son-tinh-thuy-tinh] mark').first()).toHaveText('Sơn');
-  await expect(page).toHaveURL(/\?q=son\+tinh$/);
+  await expect(page).toHaveURL(/\?q=son\+tinh\+thuy$/);
   await page.reload();
-  await expect(page.locator('[data-id=shelf-search]')).toHaveValue('son tinh');
+  await expect(page.locator('[data-id=shelf-search]')).toHaveValue('son tinh thuy');
   await page.click('[data-id=shelf-clear]');
   await page.click('[data-id=filter-length-ngan]');
   await expect(page).toHaveURL(/do-dai=ngan/);
