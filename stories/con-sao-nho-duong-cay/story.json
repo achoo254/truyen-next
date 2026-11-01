@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-sao-nho-duong-cay",
+  "shelf": "kids",
+  "title": "Con sáo nhớ đường cày",
+  "summary": "Bác nông dân nghèo đào được khối vàng, giàu lên rồi quay ra ức hiếp người khó, bị Trời hóa thành chim sáo mỏ vàng cứ lẽo đẽo theo đường cày. Truyện cổ Việt Nam kể nhẹ cho bé về lòng biết ơn và tấm lòng tử tế.",
+  "themes": [
+    "thien-ac",
+    "su-tich"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Sáo mỏ vàng» (số một trăm hai mươi hai) trong Truyện cổ nước Nam, quyển Muông chim (1934) của Ôn Như Nguyễn Văn Ngọc, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách; Mèo Miu mở đầu và rút ý ở cuối, thêm thoại và cảnh người làng đi vay, bỏ chi tiết quỷ sứ bắt hồn, chỉ kể Trời hóa người ấy thành chim sáo.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, green rice paddies and a thatched village, a buffalo pulling a wooden plough, warm sunlight, gentle cheerful mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 696139195,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bac-nong-dan",
+      "name": "Bác nông dân",
+      "seed": 376830980,
+      "sheetPrompt": "a Vietnamese farmer in his forties, brown work clothes, rolled trousers, bamboo cone hat, thin face that later becomes plump and proud in a silk robe, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "vua-bep",
+      "name": "Vua Bếp",
+      "seed": 757062159,
+      "sheetPrompt": "the Vietnamese Kitchen God, a kind old man with a long white beard, a black scholar hat and a red robe, riding a golden carp, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ngoc-hoang",
+      "name": "Ngọc Hoàng",
+      "seed": 4063870284,
+      "sheetPrompt": "the Jade Emperor of Vietnamese folk tales, a calm bearded old king in a golden robe and a jeweled crown, sitting on clouds, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chim-sao",
+      "name": "Chim sáo mỏ vàng",
+      "seed": 251188672,
+      "sheetPrompt": "a small glossy black myna bird with a bright golden yellow beak and yellow feet, curious round eyes, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã bao giờ thấy chú chim sáo đen nhảy lon ton sau con trâu đi cày chưa? Miu thấy rồi, chú ấy chẳng sợ người chút nào. Ông bà mình còn có câu: Con sáo nhớ đường cày. Vì sao sáo lại nhớ đường cày nhỉ? Hôm nay Miu kể cho các bạn nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn đã bao giờ thấy chú chim sáo đen nhảy lon ton sau con trâu đi cày chưa?",
+        "Miu thấy rồi, chú ấy chẳng sợ người chút nào.",
+        "Ông bà mình còn có câu: Con sáo nhớ đường cày.",
+        "Vì sao sáo lại nhớ đường cày nhỉ? Hôm nay Miu kể cho các bạn nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a rice paddy dike, watching a black myna bird hop behind a buffalo pulling a plough, soft morning light",
+        "seed": 3700223039
+      },
+      "video": {
+        "motionPrompt": "the cat points at the hopping bird and tilts her head curiously, the buffalo walks slowly, rice leaves sway, gentle camera push-in",
+        "seed": 1872815593
+      },
+      "voice": {}
+    },
+    {
+      "id": "dao-duoc-vang",
+      "title": "Đào được khối vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bác nông dân nghèo lắm. Cả nhà chỉ trông vào mấy đường cày trên thửa ruộng nhỏ. Một buổi sáng, lưỡi cày vấp phải vật gì cứng cứng. Bác cúi xuống bới đất, thì ôi chao, một khối vàng sáng lóa! Bác ôm khối vàng về nhà, mừng quá reo lên: Trời thương mình rồi! Từ nay nhà mình hết khổ!",
+      "subtitles": [
+        "Ngày xưa, có một bác nông dân nghèo lắm.",
+        "Cả nhà chỉ trông vào mấy đường cày trên thửa ruộng nhỏ.",
+        "Một buổi sáng, lưỡi cày vấp phải vật gì cứng cứng.",
+        "Bác cúi xuống bới đất, thì ôi chao, một khối vàng sáng lóa!",
+        "Bác ôm khối vàng về nhà, mừng quá reo lên: Trời thương mình rồi!",
+        "Từ nay nhà mình hết khổ!"
+      ],
+      "image": {
+        "character": "bac-nong-dan",
+        "prompt": "a poor farmer kneels in a muddy rice field beside his wooden plough, lifting a shining lump of gold with amazed joy, his buffalo looks on",
+        "seed": 3782683713
+      },
+      "video": {
+        "motionPrompt": "the farmer brushes mud off the glowing gold and raises it to the sky, the buffalo flicks its ears, sunlight sparkles",
+        "seed": 210973790
+      },
+      "voice": {}
+    },
+    {
+      "id": "lao-nha-giau",
+      "title": "Giàu rồi quên lúc khó",
+      "narrator": "ke-chuyen",
+      "narration": "Có vàng, bác xây nhà to, mua ruộng rộng, chẳng phải đi cày nữa. Nhưng giàu rồi, bác lại quên mất những ngày nghèo. Bác nghĩ: Ngày trước người ta coi thường mình, bây giờ đến lượt mình coi thường lại. Bác đem tiền cho bà con nghèo vay, mà bắt trả lãi nặng ơi là nặng. Ai trả chậm một ngày, nợ lại chồng thêm. Người trong làng ai cũng buồn rầu, nhà nào vay nợ cũng chẳng còn gạo ăn Tết.",
+      "subtitles": [
+        "Có vàng, bác xây nhà to, mua ruộng rộng, chẳng phải đi cày nữa.",
+        "Nhưng giàu rồi, bác lại quên mất những ngày nghèo.",
+        "Bác nghĩ: Ngày trước người ta coi thường mình, bây giờ đến lượt mình coi thường lại.",
+        "Bác đem tiền cho bà con nghèo vay, mà bắt trả lãi nặng ơi là nặng.",
+        "Ai trả chậm một ngày, nợ lại chồng thêm.",
+        "Người trong làng ai cũng buồn rầu, nhà nào vay nợ cũng chẳng còn gạo ăn Tết."
+      ],
+      "image": {
+        "character": "bac-nong-dan",
+        "prompt": "the now rich man in a silk robe sits behind a low table piled with coins and account books, poor villagers stand humbly asking to borrow rice money",
+        "seed": 1213582693
+      },
+      "video": {
+        "motionPrompt": "the rich man counts coins with a frown and waves his hand, villagers bow their heads sadly, a cat on the roof watches",
+        "seed": 1522439126
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-bep-tau-troi",
+      "title": "Vua Bếp lên tâu Trời",
+      "narrator": "ke-chuyen",
+      "narration": "Vua Bếp ở trong gian bếp nhà ấy, ngày ngày trông thấy hết. Cuối năm, Vua Bếp cưỡi cá chép bay lên trời, tâu với Ngọc Hoàng: Muôn tâu, người ta làm điều không tốt, sao lại được giàu sang mãi? Như thế thì ai còn muốn làm điều lành nữa ạ? Ngọc Hoàng hỏi: Người ấy trước làm nghề gì? Vua Bếp thưa: Trước vốn là anh đi cày nghèo khó, nhờ khối vàng của Người mà giàu lên đấy ạ.",
+      "subtitles": [
+        "Vua Bếp ở trong gian bếp nhà ấy, ngày ngày trông thấy hết.",
+        "Cuối năm, Vua Bếp cưỡi cá chép bay lên trời, tâu với Ngọc Hoàng: Muôn tâu,",
+        "người ta làm điều không tốt, sao lại được giàu sang mãi?",
+        "Như thế thì ai còn muốn làm điều lành nữa ạ? Ngọc Hoàng hỏi: Người ấy trước làm nghề gì?",
+        "Vua Bếp thưa: Trước vốn là anh đi cày nghèo khó,",
+        "nhờ khối vàng của Người mà giàu lên đấy ạ."
+      ],
+      "image": {
+        "character": "vua-bep",
+        "prompt": "the Kitchen God riding a golden carp through pink clouds arrives at the heavenly palace and bows before the Jade Emperor on his cloud throne",
+        "seed": 1141352925
+      },
+      "video": {
+        "motionPrompt": "the golden carp swims through the clouds, the Kitchen God bows and speaks, the Jade Emperor strokes his beard thoughtfully",
+        "seed": 12023986
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-thanh-chim-sao",
+      "title": "Hóa thành chim sáo",
+      "narrator": "ke-chuyen",
+      "narration": "Ngọc Hoàng buồn lòng phán: Ta cho nó khối vàng để làm ăn tử tế, ai ngờ nó lại tráo trở với người khó. Đã thích tráo trở thì ta cho làm con chim sáo đen, chỉ giữ lại cái mỏ vàng thôi. Ít lâu sau, trong làng chẳng ai thấy lão nhà giàu đâu nữa. Chỉ thấy một chú chim sáo đen nhánh, mỏ vàng óng, cứ đậu trên bờ ruộng mà ngơ ngác nhìn quanh.",
+      "subtitles": [
+        "Ngọc Hoàng buồn lòng phán: Ta cho nó khối vàng để làm ăn tử tế,",
+        "ai ngờ nó lại tráo trở với người khó.",
+        "Đã thích tráo trở thì ta cho làm con chim sáo đen, chỉ giữ lại cái mỏ vàng thôi.",
+        "Ít lâu sau, trong làng chẳng ai thấy lão nhà giàu đâu nữa.",
+        "Chỉ thấy một chú chim sáo đen nhánh, mỏ vàng óng,",
+        "cứ đậu trên bờ ruộng mà ngơ ngác nhìn quanh."
+      ],
+      "image": {
+        "character": "chim-sao",
+        "prompt": "a glossy black myna bird with a bright golden beak perches on a rice paddy dike near a grand empty house, looking around in confusion, soft magical sparkles fade in the air",
+        "seed": 5799920
+      },
+      "video": {
+        "motionPrompt": "golden sparkles swirl and fade, the bird blinks and hops in a little circle, clouds drift overhead",
+        "seed": 2426055257
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Từ đó, chim sáo mỏ vàng chẳng quên được nghề cày ngày trước. Hễ thấy ai dắt trâu ra đồng, sáo lại nhảy lon ton theo sau đường cày để tìm sâu ăn, chẳng sợ người chút nào. Các bạn ạ, lúc được giúp đỡ, mình nhớ biết ơn và giúp lại người khác. Có nhiều hơn bạn bè thì càng phải tử tế hơn nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Từ đó, chim sáo mỏ vàng chẳng quên được nghề cày ngày trước.",
+        "Hễ thấy ai dắt trâu ra đồng, sáo lại nhảy lon ton theo sau đường cày để tìm sâu ăn,",
+        "chẳng sợ người chút nào.",
+        "Các bạn ạ, lúc được giúp đỡ, mình nhớ biết ơn và giúp lại người khác.",
+        "Có nhiều hơn bạn bè thì càng phải tử tế hơn nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye on a paddy dike at golden sunset, a black myna bird with a golden beak hops behind a farmer and buffalo ploughing the field",
+        "seed": 225950850
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the bird hops along the fresh furrow pecking for worms, warm golden light, gentle camera pull-back",
+        "seed": 1612433213
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Vietnamese countryside folk tune, bamboo flute and dan bau monochord with soft wooden percussion, warm and slightly wistful, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2707891891
+  }
+}

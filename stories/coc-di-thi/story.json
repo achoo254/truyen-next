@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "slug": "coc-di-thi",
+  "shelf": "kids",
+  "title": "Cóc đi thi",
+  "summary": "Ngọc Hoàng mở khoa thi, cóc cũng hớn hở sắm giấy bút đi thi, bị quan chấm thi chê xấu, liền đối đáp một câu khiến cả trường thi ngớ người. Truyện cổ Việt Nam kể nhẹ cho bé, giải thích câu «Rồng gặp hội, cóc bôi vôi».",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Cóc đi thi» (số một trăm mười chín) trong Truyện cổ nước Nam, quyển Muông chim (1934) của Ôn Như Nguyễn Văn Ngọc, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách; Mèo Miu mở đầu và rút ý ở cuối, thêm thoại, bỏ chi tiết lính đánh cóc, chỉ kể cóc bị bôi vôi lên đầu rồi đuổi về.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft watercolor, a heavenly examination hall on clouds with red lacquered pillars, fish and a toad carrying writing brushes, gentle humorous mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 2256876364,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-coc",
+      "name": "Chú cóc",
+      "seed": 600491342,
+      "sheetPrompt": "a small brown toad with big golden eyes and a tiny scholar hat, carrying a rolled paper and a writing brush, eager and clever, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "quan-chanh",
+      "name": "Quan Chánh chủ khảo",
+      "seed": 1312359606,
+      "sheetPrompt": "a stern heavenly examiner official, a plump catfish-like old mandarin in a blue robe and a black winged hat, holding a fan, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã bao giờ thấy con cóc có vệt trắng trên đầu chưa? Ngày xưa, các anh học trò đi thi thường nói: May thì rồng gặp hội, không may thì cóc bôi vôi. Cóc bôi vôi là sao nhỉ? Hôm nay Miu kể chuyện chú cóc đi thi cho các bạn nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn đã bao giờ thấy con cóc có vệt trắng trên đầu chưa?",
+        "Ngày xưa, các anh học trò đi thi thường nói: May thì rồng gặp hội,",
+        "không may thì cóc bôi vôi. Cóc bôi vôi là sao nhỉ?",
+        "Hôm nay Miu kể chuyện chú cóc đi thi cho các bạn nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits at a little writing desk with a brush and paper, a small toad peeks from behind an inkstone, cozy morning light",
+        "seed": 2369737708
+      },
+      "video": {
+        "motionPrompt": "the cat dips a brush and smiles at the toad, the toad hops onto the paper, gentle camera push-in",
+        "seed": 3551310935
+      },
+      "voice": {}
+    },
+    {
+      "id": "mo-khoa-thi",
+      "title": "Ngọc Hoàng mở khoa thi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, Ngọc Hoàng mở một khoa thi lớn cho các loài dưới nước. Cá chép, cá rô, cá voi, cá dưa, con nào cũng nô nức kéo nhau đi thi. Cóc ta nghe tin cũng hớn hở lắm. Cóc sắm giấy, sắm bút, đội chiếc mũ nhỏ, nhảy tưng tưng lên trường thi trên mây. Cóc nghĩ: Lần này mình phải thi cho giỏi!",
+      "subtitles": [
+        "Ngày xưa, Ngọc Hoàng mở một khoa thi lớn cho các loài dưới nước.",
+        "Cá chép, cá rô, cá voi, cá dưa, con nào cũng nô nức kéo nhau đi thi.",
+        "Cóc ta nghe tin cũng hớn hở lắm.",
+        "Cóc sắm giấy, sắm bút, đội chiếc mũ nhỏ, nhảy tưng tưng lên trường thi trên mây.",
+        "Cóc nghĩ: Lần này mình phải thi cho giỏi!"
+      ],
+      "image": {
+        "character": "con-coc",
+        "prompt": "many fish swim up a cloudy path toward a heavenly examination hall with red pillars, a little toad hops among them carrying paper and a brush",
+        "seed": 1979459023
+      },
+      "video": {
+        "motionPrompt": "the fish swim joyfully upward, the toad hops eagerly with a bouncing hat, clouds drift, banners flutter",
+        "seed": 1733126739
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-che",
+      "title": "Quan chấm thi chê cóc",
+      "narrator": "ke-chuyen",
+      "narration": "Quan Chánh chủ khảo đứng ở cổng, trông thấy cóc thì nhăn mặt: Mày bụng thì to, da thì sần, chân thì khập khiễng, người thì ngắn tũn. Mày có tài gì mà cũng dám đi thi? Cóc chẳng sợ, lễ phép hỏi lại: Bẩm quan, thế bác cá voi kia chỉ có thân hình to lớn, sao cũng được vào thi ạ? Quan đáp: Cá voi tuy thế, nhưng nó có vây.",
+      "subtitles": [
+        "Quan Chánh chủ khảo đứng ở cổng, trông thấy cóc thì nhăn mặt: Mày bụng thì to, da thì sần,",
+        "chân thì khập khiễng, người thì ngắn tũn. Mày có tài gì mà cũng dám đi thi?",
+        "Cóc chẳng sợ, lễ phép hỏi lại: Bẩm quan, thế bác cá voi kia chỉ có thân hình to lớn,",
+        "sao cũng được vào thi ạ? Quan đáp: Cá voi tuy thế, nhưng nó có vây."
+      ],
+      "image": {
+        "character": "quan-chanh",
+        "prompt": "at the gate of the heavenly examination hall, a stern old examiner official frowns down at the tiny toad, a huge whale floats behind in the clouds",
+        "seed": 3712952307
+      },
+      "video": {
+        "motionPrompt": "the official wags his fan and frowns, the toad bows and then raises his head to ask, the whale blinks",
+        "seed": 1435714002
+      },
+      "voice": {}
+    },
+    {
+      "id": "coc-doi-dap",
+      "title": "Cóc đối đáp",
+      "narrator": "ke-chuyen",
+      "narration": "Cóc lại hỏi: Bẩm, thế cô cá dưa kia không có vây, sao cũng được vào thi ạ? Quan nói: Cá dưa tuy không có vây, nhưng nó có đuôi. Cóc liền thưa: Bẩm quan, tôi đây ngày trước cũng có đuôi đấy ạ, có điều đến giữa chừng thì nó rụng mất thôi! Các thí sinh nghe thế, che miệng cười khúc khích. Ai cũng biết hồi còn là nòng nọc, cóc có đuôi thật mà.",
+      "subtitles": [
+        "Cóc lại hỏi: Bẩm, thế cô cá dưa kia không có vây, sao cũng được vào thi ạ?",
+        "Quan nói: Cá dưa tuy không có vây, nhưng nó có đuôi.",
+        "Cóc liền thưa: Bẩm quan, tôi đây ngày trước cũng có đuôi đấy ạ,",
+        "có điều đến giữa chừng thì nó rụng mất thôi!",
+        "Các thí sinh nghe thế, che miệng cười khúc khích.",
+        "Ai cũng biết hồi còn là nòng nọc, cóc có đuôi thật mà."
+      ],
+      "image": {
+        "character": "con-coc",
+        "prompt": "the clever little toad answers the examiner confidently, a small tadpole picture appears in a dreamy bubble above him, fish candidates giggle behind their fins",
+        "seed": 2241756196
+      },
+      "video": {
+        "motionPrompt": "the toad gestures proudly, the dream bubble shows a tadpole wiggling its tail, the fish cover their mouths laughing",
+        "seed": 2855298474
+      },
+      "voice": {}
+    },
+    {
+      "id": "coc-boi-voi",
+      "title": "Cóc bị bôi vôi",
+      "narrator": "ke-chuyen",
+      "narration": "Quan Chánh thấy cóc đối đáp cứng cỏi, bị các thí sinh cười, thì giận đỏ mặt. Quan quát: Đứa nào ra bôi vôi lên đầu nó rồi đuổi về cho ta! Thế là lính bôi một vệt vôi trắng toát lên đầu cóc, rồi đưa cóc ra khỏi trường thi. Cóc ôm giấy bút, lủi thủi nhảy về nhà, vừa đi vừa lẩm bẩm: Mình nói có sai đâu nhỉ?",
+      "subtitles": [
+        "Quan Chánh thấy cóc đối đáp cứng cỏi, bị các thí sinh cười, thì giận đỏ mặt.",
+        "Quan quát: Đứa nào ra bôi vôi lên đầu nó rồi đuổi về cho ta!",
+        "Thế là lính bôi một vệt vôi trắng toát lên đầu cóc, rồi đưa cóc ra khỏi trường thi.",
+        "Cóc ôm giấy bút, lủi thủi nhảy về nhà, vừa đi vừa lẩm bẩm: Mình nói có sai đâu nhỉ?"
+      ],
+      "image": {
+        "character": "con-coc",
+        "prompt": "a little toad with a white chalk mark on his head hops sadly away from the heavenly examination gate, holding his paper and brush, clouds below",
+        "seed": 1028646851
+      },
+      "video": {
+        "motionPrompt": "the toad hops slowly down the cloudy steps, looks back once and shrugs, a light breeze lifts his paper",
+        "seed": 2531968414
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Từ đó, học trò đi thi hay nói đùa: May ra thì rồng gặp hội, không nữa thì cóc bôi vôi. Các bạn ạ, cóc thật là nhanh trí. Quan chấm thi chỉ nhìn vẻ ngoài mà chê cóc là chưa đúng rồi. Nhưng Miu nghĩ, mình đúng thì càng nên nói nhẹ nhàng, lễ phép, để người lớn dễ nghe hơn. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Từ đó, học trò đi thi hay nói đùa: May ra thì rồng gặp hội, không nữa thì cóc bôi vôi.",
+        "Các bạn ạ, cóc thật là nhanh trí.",
+        "Quan chấm thi chỉ nhìn vẻ ngoài mà chê cóc là chưa đúng rồi.",
+        "Nhưng Miu nghĩ, mình đúng thì càng nên nói nhẹ nhàng, lễ phép, để người lớn dễ nghe hơn.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye beside a pond at sunset, the little toad with a white mark on his head sits on a lily pad smiling",
+        "seed": 954540872
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the toad waves back with his brush, ripples spread on the pond, gentle camera pull-back",
+        "seed": 3558289076
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light traditional Vietnamese court-style melody with dan tranh zither, bamboo flute and soft temple block, playful and gentle, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1030602195
+  }
+}

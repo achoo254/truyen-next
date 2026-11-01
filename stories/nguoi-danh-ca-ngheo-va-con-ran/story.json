@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "slug": "nguoi-danh-ca-ngheo-va-con-ran",
+  "shelf": "adults",
+  "title": "Người đánh cá nghèo và con rắn",
+  "summary": "Một người đánh cá nghèo tha cho con rắn mắc câu, hoá ra đó là con trai vua cõi âm. Qua trận lụt lớn, anh cứu cả kiến, chuột, trăn lẫn một người lạ, để rồi chính người được cứu cướp cây đàn thần của anh, còn bầy vật nhỏ lại cứu anh khỏi án chém.",
+  "themes": [
+    "thien-ac",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam, truyện số sáu mươi bảy «Le pauvre pêcheur» trong Contes et légendes annamites của A. Landes (Sài Gòn, 1886), sách thuộc phạm vi công cộng. Lời kể viết mới hoàn toàn bằng tiếng Việt, chỉ theo cốt truyện Landes chép lại; không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Việt Nam, A. Landes chép (1886)",
+  "style": "classical Vietnamese silk painting (tranh lua) illustration, fine ink linework, washes of river blue, mud brown, jade green and imperial gold on aged silk, old Vietnamese riverside villages, a great flood with bamboo rafts, a shadowy underworld palace and an imperial court, moral folk tale mood for adult readers, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "nguoi-danh-ca",
+      "name": "Người đánh cá",
+      "sheetPrompt": "a poor Vietnamese fisherman in his thirties, lean weathered face, kind eyes, patched brown shirt and rolled trousers, conical leaf hat, carrying a bamboo fishing rod, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 3459811346
+    },
+    {
+      "id": "ran-hoang-tu",
+      "name": "Con rắn, con vua cõi âm",
+      "sheetPrompt": "a slender jade green snake with golden eyes and a faint pearly glow, a tiny golden crown mark on its head, gentle and intelligent expression, coiled, full body, plain aged silk background, character reference sheet",
+      "seed": 2069357199
+    },
+    {
+      "id": "ke-vo-on",
+      "name": "Kẻ vô ơn",
+      "sheetPrompt": "a Vietnamese man in his thirties with a sly narrow face and shifting eyes, first in a soaked ragged tunic, later in a gleaming general armour and helmet, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 1527449346
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "sheetPrompt": "a Vietnamese imperial princess of about eighteen, graceful and dignified, long black hair with a golden phoenix ornament, yellow brocade ao giao linh, calm determined face, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 1193871890
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-muoi-dong",
+      "title": "Ba mươi đồng tiền mồi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một người đàn ông vợ mất sớm, sống trong cảnh nghèo khổ cùng cực. Đi xin thì chẳng ai cho đủ bữa. Đi làm thuê thì cả ngày chỉ được ba mươi đồng. Anh đem ba mươi đồng ấy mua tôm làm mồi, ra bờ sông ngồi câu. Câu mãi chẳng được gì. Mãi sau phao mới động, anh giật lên thì thấy một con rắn mắc lưỡi câu. Anh gỡ ra thả đi, móc mồi câu lại. Con rắn lại đến mắc câu lần nữa.",
+      "subtitles": [
+        "Ngày xưa có một người đàn ông vợ mất sớm, sống trong cảnh nghèo khổ cùng cực.",
+        "Đi xin thì chẳng ai cho đủ bữa.",
+        "Đi làm thuê thì cả ngày chỉ được ba mươi đồng.",
+        "Anh đem ba mươi đồng ấy mua tôm làm mồi, ra bờ sông ngồi câu.",
+        "Câu mãi chẳng được gì.",
+        "Mãi sau phao mới động, anh giật lên thì thấy một con rắn mắc lưỡi câu.",
+        "Anh gỡ ra thả đi, móc mồi câu lại.",
+        "Con rắn lại đến mắc câu lần nữa."
+      ],
+      "image": {
+        "prompt": "a lonely riverbank at dusk, a thin poor fisherman squatting with a bamboo rod and a small basket of shrimp bait, a green snake caught dangling on his fishing line",
+        "seed": 2692762734,
+        "character": "nguoi-danh-ca"
+      },
+      "video": {
+        "motionPrompt": "the line jerks, the man lifts the rod and a green snake twists on the hook, he sighs and frees it gently",
+        "seed": 283532050
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-ran-biet-noi",
+      "title": "Con rắn biết nói",
+      "narrator": "ke-chuyen",
+      "narration": "Anh than: \"Ta nghèo lắm, chỉ có ba mươi đồng mua mồi, mà mày cứ đến ăn mất. Lần này ta tha, lần sau thì đừng trách.\" Anh móc mồi lần nữa, con rắn lại mắc câu lần thứ ba. Anh xách nó đến gần miếu Bà Khai Khẩu, định đập chết. Bà Khai Khẩu gỡ lưỡi cho rắn, rắn liền cất tiếng: \"Đừng giết tôi. Tôi là con vua dưới âm phủ, bị đày lên dương gian, phải khoác lốt rắn mà sống. Anh đem tôi về nuôi, sau này tôi sẽ đền ơn. Tôi muốn ở với anh, nên mới cứ cắn câu của anh mãi.\"",
+      "subtitles": [
+        "Anh than: \"Ta nghèo lắm, chỉ có ba mươi đồng mua mồi, mà mày cứ đến ăn mất.",
+        "Lần này ta tha, lần sau thì đừng trách.\"",
+        "Anh móc mồi lần nữa, con rắn lại mắc câu lần thứ ba.",
+        "Anh xách nó đến gần miếu Bà Khai Khẩu, định đập chết.",
+        "Bà Khai Khẩu gỡ lưỡi cho rắn, rắn liền cất tiếng: \"Đừng giết tôi.",
+        "Tôi là con vua dưới âm phủ, bị đày lên dương gian, phải khoác lốt rắn mà sống.",
+        "Anh đem tôi về nuôi, sau này tôi sẽ đền ơn.",
+        "Tôi muốn ở với anh, nên mới cứ cắn câu của anh mãi.\""
+      ],
+      "image": {
+        "prompt": "beside a small roadside shrine of a goddess with incense sticks, the fisherman holding the green snake in astonishment as it raises its head and speaks, a soft glow from the shrine",
+        "seed": 3235878765,
+        "character": "ran-hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "incense smoke swirls from the shrine and touches the snake, the snake lifts its head and speaks, the fisherman steps back amazed",
+        "seed": 1404384370
+      },
+      "voice": {}
+    },
+    {
+      "id": "tran-lut",
+      "title": "Trận lụt lớn",
+      "narrator": "ke-chuyen",
+      "narration": "Anh đem con rắn về nhà. Từ đó, việc làm ăn của anh mỗi ngày một khá, anh vẫn giữ nghề câu cá. Một hôm, rắn báo: \"Ba ngày nữa có lụt lớn, anh mau đóng một chiếc bè để thoát nạn.\" Anh nghe lời, đóng bè. Quả nhiên nước dâng trắng trời, chiếc bè chở anh và con rắn trôi trên dòng lũ. Gặp một tổ kiến trôi dạt, anh định để mặc, rắn bảo vớt lên, anh vớt. Gặp một bầy chuột, anh cãi: \"Chuột thì vớt làm gì?\" Rắn cứ bảo vớt, anh lại nghe theo. Sau đó, đến lượt một con trăn, anh cũng vớt nốt.",
+      "subtitles": [
+        "Anh đem con rắn về nhà.",
+        "Từ đó, việc làm ăn của anh mỗi ngày một khá, anh vẫn giữ nghề câu cá.",
+        "Một hôm, rắn báo: \"Ba ngày nữa có lụt lớn, anh mau đóng một chiếc bè để thoát nạn.\"",
+        "Anh nghe lời, đóng bè.",
+        "Quả nhiên nước dâng trắng trời, chiếc bè chở anh và con rắn trôi trên dòng lũ.",
+        "Gặp một tổ kiến trôi dạt, anh định để mặc, rắn bảo vớt lên, anh vớt.",
+        "Gặp một bầy chuột, anh cãi: \"Chuột thì vớt làm gì?\"",
+        "Rắn cứ bảo vớt, anh lại nghe theo.",
+        "Sau đó, đến lượt một con trăn, anh cũng vớt nốt."
+      ],
+      "image": {
+        "prompt": "a vast muddy flood covering fields and villages, a bamboo raft carrying the fisherman and the green snake, the man pulling a floating ant nest and a group of wet rats aboard, a large python swimming nearby",
+        "seed": 658101360,
+        "character": "nguoi-danh-ca"
+      },
+      "video": {
+        "motionPrompt": "flood water swirls past the raft, the fisherman scoops up the ant nest and the rats clamber aboard shaking water off",
+        "seed": 1926070178
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuu-nguoi",
+      "title": "Cứu một con người",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng, họ gặp một người đang chới với giữa dòng nước. Anh định vớt lên, nhưng lần này con rắn lại ngăn. Anh không nghe, bảo: \"Cứu được một người sống trên dương gian, phúc ấy hơn nghìn lần dưới âm ti.\" Rồi anh kéo người ấy lên bè. Ba ngày sau nước rút, anh thả kiến, thả chuột, thả trăn về rừng, rồi nói với con rắn và người mình vừa cứu: \"Chúng ta dựng nhà mà ở với nhau.\"",
+      "subtitles": [
+        "Cuối cùng, họ gặp một người đang chới với giữa dòng nước.",
+        "Anh định vớt lên, nhưng lần này con rắn lại ngăn.",
+        "Anh không nghe, bảo: \"Cứu được một người sống trên dương gian,",
+        "phúc ấy hơn nghìn lần dưới âm ti.\"",
+        "Rồi anh kéo người ấy lên bè.",
+        "Ba ngày sau nước rút, anh thả kiến, thả chuột, thả trăn về rừng,",
+        "rồi nói với con rắn và người mình vừa cứu: \"Chúng ta dựng nhà mà ở với nhau.\""
+      ],
+      "image": {
+        "prompt": "the fisherman reaching out from the raft to pull a drowning man from the flood while the green snake raises its head in warning, later the waters receding and the animals released onto dry land",
+        "seed": 2296493251,
+        "character": "ke-vo-on"
+      },
+      "video": {
+        "motionPrompt": "the fisherman hauls the gasping man onto the raft, the snake shakes its head, the water slowly sinks away",
+        "seed": 1852466215
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-dan-than",
+      "title": "Cây đàn đuổi giặc",
+      "narrator": "ke-chuyen",
+      "narration": "Con rắn nói: \"Hạn đày của tôi đã hết, tôi phải về cõi của cha. Anh theo tôi xuống đó để cha tôi đền ơn. Cha có hỏi anh muốn gì, anh cứ xin cây đàn. Đó là cây đàn cha tôi mang về từ cung Ngọc Hoàng. Hễ có giặc nổi lên, tiếng đàn vang đến đâu, giặc tan chạy đến đó.\" Người đánh cá theo rắn xuống âm phủ. Vua cõi âm hỏi anh muốn được đền đáp thứ gì, anh xin cây đàn. Vua bằng lòng trao đàn cho anh. Anh từ biệt bạn rắn, ôm đàn trở về nhà.",
+      "subtitles": [
+        "Con rắn nói: \"Hạn đày của tôi đã hết, tôi phải về cõi của cha.",
+        "Anh theo tôi xuống đó để cha tôi đền ơn.",
+        "Cha có hỏi anh muốn gì, anh cứ xin cây đàn.",
+        "Đó là cây đàn cha tôi mang về từ cung Ngọc Hoàng.",
+        "Hễ có giặc nổi lên, tiếng đàn vang đến đâu, giặc tan chạy đến đó.\"",
+        "Người đánh cá theo rắn xuống âm phủ.",
+        "Vua cõi âm hỏi anh muốn được đền đáp thứ gì, anh xin cây đàn.",
+        "Vua bằng lòng trao đàn cho anh.",
+        "Anh từ biệt bạn rắn, ôm đàn trở về nhà."
+      ],
+      "image": {
+        "prompt": "a vast shadowy underworld palace with pale lanterns, the king of the underworld on a dark throne handing an ornate stringed instrument to the kneeling fisherman, a young prince beside him shedding his snake form",
+        "seed": 3685258670,
+        "character": "nguoi-danh-ca"
+      },
+      "video": {
+        "motionPrompt": "pale lanterns sway, the king holds out the glowing instrument, the fisherman bows and receives it with both hands",
+        "seed": 3813457436
+      },
+      "voice": {}
+    },
+    {
+      "id": "ke-vo-on",
+      "title": "Kẻ vô ơn",
+      "narrator": "ke-chuyen",
+      "narration": "Anh sống với người mình cứu như anh em ruột. Mỗi khi đi làm, anh để người ấy ở nhà trông coi, chỉ dặn một điều: đừng vào kho lúa. Người kia sinh nghi. Một hôm anh vắng nhà, hắn lục kho lúa, tìm thấy cây đàn, trên đàn khắc mấy chữ: đàn đuổi giặc. Hắn ôm đàn trốn đi biệt. Bấy giờ khắp nước loạn lạc, giặc nổi lên khắp nơi. Nhờ cây đàn, hắn khiến mười tám nước chư hầu đều phải quy phục. Hoàng đế phong hắn làm đại nguyên soái, lại muốn gả công chúa cho hắn.",
+      "subtitles": [
+        "Anh sống với người mình cứu như anh em ruột.",
+        "Mỗi khi đi làm, anh để người ấy ở nhà trông coi, chỉ dặn một điều: đừng vào kho lúa.",
+        "Người kia sinh nghi.",
+        "Một hôm anh vắng nhà, hắn lục kho lúa, tìm thấy cây đàn, trên đàn khắc mấy chữ:",
+        "đàn đuổi giặc.",
+        "Hắn ôm đàn trốn đi biệt.",
+        "Bấy giờ khắp nước loạn lạc, giặc nổi lên khắp nơi.",
+        "Nhờ cây đàn, hắn khiến mười tám nước chư hầu đều phải quy phục.",
+        "Hoàng đế phong hắn làm đại nguyên soái, lại muốn gả công chúa cho hắn."
+      ],
+      "image": {
+        "prompt": "the sly man secretly digging through a rice granary and pulling out a glowing instrument, then the same man in shining general armour playing it on a battlefield as enemy armies flee in panic",
+        "seed": 1262489104,
+        "character": "ke-vo-on"
+      },
+      "video": {
+        "motionPrompt": "he lifts the instrument from the rice with greedy eyes, then strums it and distant armies scatter like leaves",
+        "seed": 2733831216
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-chua-cam",
+      "title": "Công chúa hoá câm",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng công chúa không chịu lấy hắn, rồi bỗng hoá câm, không nói được một lời. Hoàng đế bảo vị nguyên soái phải tìm thuốc chữa khỏi cho công chúa thì mới cử hành hôn lễ. Hắn buồn rầu lắm. Một hôm hắn đi dạo, người đánh cá gặp và nhận ra ngay kẻ mình từng cứu, kẻ đã lấy trộm cây đàn của vua âm phủ. Anh đòi lại cây đàn. Hắn sai lính bắt anh, ra lệnh đem chém. Các quan can ngăn, hắn mới cho nhốt anh vào cũi sắt, đợi hai mươi ngày sau đem ra xử chém.",
+      "subtitles": [
+        "Nhưng công chúa không chịu lấy hắn, rồi bỗng hoá câm, không nói được một lời.",
+        "Hoàng đế bảo vị nguyên soái phải tìm thuốc chữa khỏi cho công chúa thì mới cử hành hôn lễ.",
+        "Hắn buồn rầu lắm.",
+        "Một hôm hắn đi dạo, người đánh cá gặp và nhận ra ngay kẻ mình từng cứu,",
+        "kẻ đã lấy trộm cây đàn của vua âm phủ.",
+        "Anh đòi lại cây đàn.",
+        "Hắn sai lính bắt anh, ra lệnh đem chém.",
+        "Các quan can ngăn, hắn mới cho nhốt anh vào cũi sắt, đợi hai mươi ngày sau đem ra xử chém."
+      ],
+      "image": {
+        "prompt": "in an imperial palace the princess turning away silently from the armoured general, then on a city street soldiers seizing the poor fisherman and locking him in an iron cage as the general points coldly",
+        "seed": 2168111947,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the princess turns her face away, then soldiers slam the iron cage door, the fisherman grips the bars",
+        "seed": 3690181857
+      },
+      "voice": {}
+    },
+    {
+      "id": "kien-chuot-tran",
+      "title": "Kiến, chuột và trăn",
+      "narrator": "ke-chuyen",
+      "narration": "Anh bị nhốt đã mười lăm ngày, thì bầy kiến bò vào ngục, nhận ra ân nhân. Anh nghe tiếng mà chẳng thấy ai, kiến bảo: \"Chúng tôi là bầy kiến anh vớt lên năm nọ.\" Nghe anh kể, kiến nói: \"Chúng tôi không biết làm sao, để đi tìm bầy chuột.\" Chuột đến, một số mang thức ăn cho anh, số khác đi tìm con trăn. Trăn nghe lá động, tưởng mồi, vươn đầu đớp. Lũ chuột hoảng hốt leo tót lên cây. Trăn nhận ra, bảo xuống, chúng còn ngần ngại. Một con chuột già nói: \"Ta già rồi, để ta xuống. Nó có ăn ta cũng chẳng thiệt bao nhiêu.\" Nghe chuyện, trăn nhả viên ngọc quý, dặn mài ra cho công chúa uống.",
+      "subtitles": [
+        "Anh bị nhốt đã mười lăm ngày, thì bầy kiến bò vào ngục, nhận ra ân nhân.",
+        "Anh nghe tiếng mà chẳng thấy ai, kiến bảo: \"Chúng tôi là bầy kiến anh vớt lên năm nọ.\"",
+        "Nghe anh kể, kiến nói: \"Chúng tôi không biết làm sao, để đi tìm bầy chuột.\"",
+        "Chuột đến, một số mang thức ăn cho anh, số khác đi tìm con trăn.",
+        "Trăn nghe lá động, tưởng mồi, vươn đầu đớp.",
+        "Lũ chuột hoảng hốt leo tót lên cây.",
+        "Trăn nhận ra, bảo xuống, chúng còn ngần ngại.",
+        "Một con chuột già nói: \"Ta già rồi, để ta xuống.",
+        "Nó có ăn ta cũng chẳng thiệt bao nhiêu.\"",
+        "Nghe chuyện, trăn nhả viên ngọc quý, dặn mài ra cho công chúa uống."
+      ],
+      "image": {
+        "prompt": "a dark prison with the fisherman in an iron cage, a line of tiny ants on the bars, rats bringing grains of rice, then in a forest an old rat bravely facing a great python that offers a shining pearl",
+        "seed": 378133909,
+        "character": "nguoi-danh-ca"
+      },
+      "video": {
+        "motionPrompt": "ants file along the cage bars, rats scurry with rice, the python lowers its head and a pearl rolls out glowing",
+        "seed": 3521260685
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-chua-noi",
+      "title": "Công chúa cất lời",
+      "narrator": "ke-chuyen",
+      "narration": "Lũ chuột mang viên ngọc vào ngục, dặn kỹ cách dùng. Anh gọi lính canh, xin cho ra vì mình chữa được bệnh cho công chúa. Lính canh không nghe, nhưng viên đội trưởng nghe ồn ào thì đến. Ông cầm viên ngọc, mài ra cho công chúa uống. Công chúa nói được ngay. Hoàng đế mừng rỡ, toan ban thưởng cho viên đội trưởng, nhưng ông thưa thật rằng thuốc ấy là của một người tù. Công chúa liền nói: \"Người ấy mới đáng là chồng con, chứ không phải kẻ kia.\"",
+      "subtitles": [
+        "Lũ chuột mang viên ngọc vào ngục, dặn kỹ cách dùng.",
+        "Anh gọi lính canh, xin cho ra vì mình chữa được bệnh cho công chúa.",
+        "Lính canh không nghe, nhưng viên đội trưởng nghe ồn ào thì đến.",
+        "Ông cầm viên ngọc, mài ra cho công chúa uống.",
+        "Công chúa nói được ngay.",
+        "Hoàng đế mừng rỡ, toan ban thưởng cho viên đội trưởng,",
+        "nhưng ông thưa thật rằng thuốc ấy là của một người tù.",
+        "Công chúa liền nói: \"Người ấy mới đáng là chồng con, chứ không phải kẻ kia.\""
+      ],
+      "image": {
+        "prompt": "the imperial chamber, a guard captain grinding a glowing pearl into powder in a porcelain cup, the princess drinking and then speaking joyfully, the emperor rising from his throne in delight",
+        "seed": 388175333,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "pearl dust glimmers as it dissolves, the princess drinks, her lips part and she speaks, the emperor stands up smiling",
+        "seed": 474344002
+      },
+      "voice": {}
+    },
+    {
+      "id": "bao-ung",
+      "title": "Trời không dung",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng đế sai thả người tù. Anh kể hết đầu đuôi mọi chuyện. Kẻ vô ơn cãi rằng viên đội trưởng đã ăn hối lộ, nhưng chẳng ai tin. Hoàng đế toan đem hắn ra chém, người đánh cá lại quỳ xin tha cho hắn. Hắn vừa bước ra khỏi cung thì bị sét đánh chết. Còn người đánh cá nghèo thì được cưới công chúa. Người xưa có câu: làm ơn cho loài vật, loài vật biết đền; làm ơn cho người, có khi lại bị người hại. Nhưng người làm ơn thì vẫn cứ làm ơn, còn kẻ phụ ơn thì trời chẳng dung.",
+      "subtitles": [
+        "Hoàng đế sai thả người tù.",
+        "Anh kể hết đầu đuôi mọi chuyện.",
+        "Kẻ vô ơn cãi rằng viên đội trưởng đã ăn hối lộ, nhưng chẳng ai tin.",
+        "Hoàng đế toan đem hắn ra chém, người đánh cá lại quỳ xin tha cho hắn.",
+        "Hắn vừa bước ra khỏi cung thì bị sét đánh chết.",
+        "Còn người đánh cá nghèo thì được cưới công chúa.",
+        "Người xưa có câu: làm ơn cho loài vật, loài vật biết đền; làm ơn cho người,",
+        "có khi lại bị người hại.",
+        "Nhưng người làm ơn thì vẫn cứ làm ơn, còn kẻ phụ ơn thì trời chẳng dung."
+      ],
+      "image": {
+        "prompt": "outside the palace gate a sudden lightning bolt striking from a dark sky toward the fleeing ungrateful man, inside the court the fisherman in fine robes standing beside the smiling princess",
+        "seed": 4239868108,
+        "character": "nguoi-danh-ca"
+      },
+      "video": {
+        "motionPrompt": "a bolt of lightning flashes across the dark sky, then golden light fills the palace as the couple bow together",
+        "seed": 3348224023
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "traditional Vietnamese folk instrumental music, dan bau and dan nhi with bamboo flute and soft gongs, flowing river and flood motifs, tense in the middle, warm and resolved at the end, no vocals",
+    "durationSeconds": 180,
+    "seed": 3343744163
+  }
+}

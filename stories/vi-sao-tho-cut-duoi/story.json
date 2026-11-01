@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "slug": "vi-sao-tho-cut-duoi",
+  "shelf": "world",
+  "title": "Vì sao thỏ cụt đuôi",
+  "summary": "Chú Thỏ tinh nghịch đi chu du khắp nơi, gặp gã khổng lồ, gặp kẻ bị phạt trên cây, gặp ông lão mù, và lần nào cũng phải gọi anh trai có phép thần đến cứu. Đến chuyến cuối, chú mất luôn cái đuôi dài. Truyện dân gian Sioux giải thích vì sao thỏ có đuôi cụt, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "than-thoai",
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Sioux \"How the Rabbit Lost His Tail\", theo cốt truyện trong Myths and Legends of the Sioux (1916) của Marie L. McLaughlin, Project Gutenberg #341, phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện, kể nhẹ các đoạn trừng phạt, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Sioux (McLaughlin, 1916)",
+  "style": "warm children's picture book illustration respectfully inspired by Northern Plains Lakota art, geometric quillwork patterns, prairies, deep forests, a creek and big skies with magical clouds, expressive friendly animals dressed simply in the style of the old tale, soft earth tones of ochre, sage green, night blue and sky blue, no stereotypes, gentle humorous mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "tho",
+      "name": "Thỏ",
+      "sheetPrompt": "Rabbit, a mischievous young cottontail rabbit from a Lakota folk tale with a very long fluffy tail, standing upright, small fringed buckskin shirt, a little bow and quiver on his back, cheeky curious face, full body, front view, plain light background, character reference sheet",
+      "seed": 4074350710
+    },
+    {
+      "id": "nguoi-anh",
+      "name": "Người anh có phép thần",
+      "sheetPrompt": "the older brother of Rabbit, a powerful kind spirit from a Lakota folk tale who can change into a swift dark cloud, shown as a tall calm figure made of swirling storm cloud and soft lightning glow, gentle wise face, full body, front view, plain light background, character reference sheet",
+      "seed": 2976007771
+    },
+    {
+      "id": "khong-lo",
+      "name": "Gã khổng lồ",
+      "sheetPrompt": "a huge clumsy giant from a Lakota folk tale, big round nose, bushy hair, simple hide clothes, sleepy grumpy face, comical not scary, full body, front view, plain light background, character reference sheet",
+      "seed": 2834492890
+    }
+  ],
+  "scenes": [
+    {
+      "id": "loi-dan-cua-anh",
+      "title": "Lời dặn của anh",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có hai anh em. Người anh là một vị thần có phép biến hóa, muốn hóa thành chim, thành cá, thành mây, thành sấm chớp cũng được. Người em là chú Thỏ, có cái đuôi dài thướt tha, tính tình tinh nghịch, cứ chui đầu vào hết rắc rối này đến rắc rối khác. Lớn lên, Thỏ muốn đi chu du thiên hạ. Anh dặn: “Em nghịch lắm, nhớ cẩn thận, tránh xa rắc rối. Nếu gặp nạn mà không tự thoát được, cứ gọi anh. Em ở đâu, anh cũng sẽ đến.”",
+      "subtitles": [
+        "Ngày xưa có hai anh em. Người anh là một vị thần có phép biến hóa, muốn hóa thành chim,",
+        "thành cá, thành mây, thành sấm chớp cũng được.",
+        "Người em là chú Thỏ, có cái đuôi dài thướt tha, tính tình tinh nghịch,",
+        "cứ chui đầu vào hết rắc rối này đến rắc rối khác.",
+        "Lớn lên, Thỏ muốn đi chu du thiên hạ. Anh dặn:",
+        "“Em nghịch lắm, nhớ cẩn thận, tránh xa rắc rối.",
+        "Nếu gặp nạn mà không tự thoát được, cứ gọi anh. Em ở đâu, anh cũng sẽ đến.”"
+      ],
+      "image": {
+        "prompt": "a young rabbit with a very long fluffy tail and a little bow on his back saying goodbye to his tall older brother, a kind spirit made of swirling cloud, on a wide prairie at sunrise",
+        "seed": 799967573,
+        "character": "nguoi-anh"
+      },
+      "video": {
+        "motionPrompt": "the cloud brother leans down and speaks gently, the rabbit nods impatiently and hops off toward the horizon",
+        "seed": 1903218265
+      },
+      "voice": {}
+    },
+    {
+      "id": "gia-khong-lo",
+      "title": "Gã khổng lồ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày đầu tiên, Thỏ đến một ngôi nhà cao ngất, bên cạnh có cây thông cao đến nỗi nhìn không thấy ngọn. Trước cửa, một gã khổng lồ đang ngủ gật. Thỏ tò mò: “Để xem hắn to đến đâu.” Chú giương cung, bắn một mũi tên nhỏ trúng ngay mũi gã. Gã khổng lồ giật mình gầm lên. Thấy chú thỏ bé tí, gã lấy ra một cái búa nặng hàng tấn, ném vút qua ngọn thông, rồi bảo: “Mày mà không ném được như thế, tao nuốt chửng mày!” Thỏ liền cất tiếng hát gọi anh: “Cinye! Cinye!”, nghĩa là anh ơi, anh ơi. Một đám mây đen nhỏ ào ào bay tới. “Anh tôi đấy. Một hơi thở của anh tôi là bay cả nhà lẫn cây thông của ông!” Gã khổng lồ run lên: “Bảo anh mày dừng lại, tao cho mày đi!”",
+      "subtitles": [
+        "Ngày đầu tiên, Thỏ đến một ngôi nhà cao ngất,",
+        "bên cạnh có cây thông cao đến nỗi nhìn không thấy ngọn.",
+        "Trước cửa, một gã khổng lồ đang ngủ gật.",
+        "Thỏ tò mò: “Để xem hắn to đến đâu.”",
+        "Chú giương cung, bắn một mũi tên nhỏ trúng ngay mũi gã.",
+        "Gã khổng lồ giật mình gầm lên.",
+        "Thấy chú thỏ bé tí, gã lấy ra một cái búa nặng hàng tấn, ném vút qua ngọn thông, rồi bảo:",
+        "“Mày mà không ném được như thế, tao nuốt chửng mày!”",
+        "Thỏ liền cất tiếng hát gọi anh: “Cinye! Cinye!”, nghĩa là anh ơi, anh ơi.",
+        "Một đám mây đen nhỏ ào ào bay tới.",
+        "“Anh tôi đấy. Một hơi thở của anh tôi là bay cả nhà lẫn cây thông của ông!”",
+        "Gã khổng lồ run lên: “Bảo anh mày dừng lại, tao cho mày đi!”"
+      ],
+      "image": {
+        "prompt": "a comical sleepy giant sitting on a huge stool outside a very tall house beside an enormous pine tree, rubbing his big round nose, looking down at a tiny cheeky rabbit holding a little bow, a small dark cloud racing across the sky",
+        "seed": 3760452743,
+        "character": "khong-lo"
+      },
+      "video": {
+        "motionPrompt": "the giant wakes and rubs his nose, the rabbit sings with his paws raised, a dark cloud rushes closer and the giant shrinks back nervously",
+        "seed": 3249217336
+      },
+      "voice": {}
+    },
+    {
+      "id": "ke-bi-phat-tren-cay",
+      "title": "Kẻ bị phạt trên cây",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm sau, đi qua một khu rừng sâu, Thỏ nghe tiếng rên ư ử. Trên cây du cao có một người đàn ông bị kẹp giữa hai cành. Hễ gió thổi, hai cành cọ vào nhau, người ấy lại kêu ối ối. Hắn đang chịu phạt vì đã làm điều xấu. Thỏ ngây thơ bảo: “Chỗ của ông hay thế! Mình đổi chỗ đi.” Người kia mừng rỡ: “Được thôi, cởi áo ra rồi trèo lên.” Hắn kẹp Thỏ vào giữa hai cành, tụt xuống, mặc luôn áo của Thỏ. Gió thổi mạnh, Thỏ đau quá kêu: “Cinye! Cinye!” “Cứ gọi anh mày đi, chẳng tìm được tao đâu!” Hắn cười rồi chạy mất. Người anh đến ngay, đuổi theo bắt kẻ gian về, kẹp lại vào cành cây, rồi mắng Thỏ một trận: “Hôm qua anh đã phải bay rất xa, hôm nay còn xa gấp đôi. Cẩn thận hơn đi!”",
+      "subtitles": [
+        "Hôm sau, đi qua một khu rừng sâu, Thỏ nghe tiếng rên ư ử.",
+        "Trên cây du cao có một người đàn ông bị kẹp giữa hai cành.",
+        "Hễ gió thổi, hai cành cọ vào nhau, người ấy lại kêu ối ối.",
+        "Hắn đang chịu phạt vì đã làm điều xấu.",
+        "Thỏ ngây thơ bảo: “Chỗ của ông hay thế! Mình đổi chỗ đi.” Người kia mừng rỡ:",
+        "“Được thôi, cởi áo ra rồi trèo lên.”",
+        "Hắn kẹp Thỏ vào giữa hai cành, tụt xuống, mặc luôn áo của Thỏ.",
+        "Gió thổi mạnh, Thỏ đau quá kêu: “Cinye! Cinye!”",
+        "“Cứ gọi anh mày đi, chẳng tìm được tao đâu!” Hắn cười rồi chạy mất.",
+        "Người anh đến ngay, đuổi theo bắt kẻ gian về, kẹp lại vào cành cây, rồi mắng Thỏ một trận:",
+        "“Hôm qua anh đã phải bay rất xa, hôm nay còn xa gấp đôi. Cẩn thận hơn đi!”"
+      ],
+      "image": {
+        "prompt": "a young rabbit looking up at a tall elm tree in a deep forest where a man is stuck between two big branches, the wind blowing, then the rabbit stuck in the same branches looking surprised while the man runs off wearing the rabbit's little buckskin shirt",
+        "seed": 1428540797,
+        "character": "tho"
+      },
+      "video": {
+        "motionPrompt": "the wind blows and the two branches creak together, the man slides down and runs into the trees, the rabbit wriggles and calls out",
+        "seed": 2912993634
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-lao-mu",
+      "title": "Ông lão mù",
+      "narrator": "ke-chuyen",
+      "narration": "Vài hôm sau, bên bờ một con sông nhỏ, Thỏ thấy một túp lều gỗ. Một ông lão bước ra, tay cầm sợi dây buộc từ trong nhà. Ông lần theo sợi dây ra sông múc nước, rồi lần theo sợi dây khác ra đống củi. Thỏ gõ cửa vào chơi: “Ông ơi, ông sống ở đây sướng nhỉ! Củi, nước đều có sẵn.” Ông lão thở dài: “Sói mang thịt đến, chuột mang hạt đậu, chim mang lá trà. Nhưng ông sống một mình, chẳng có ai trò chuyện. Mà ông lại mù.” Ông lão cũng là người đang chịu phạt vì một việc làm rất xấu ngày trước. Ông chỉ được trẻ lại khi có người chịu đổi chỗ cho mình.",
+      "subtitles": [
+        "Vài hôm sau, bên bờ một con sông nhỏ, Thỏ thấy một túp lều gỗ.",
+        "Một ông lão bước ra, tay cầm sợi dây buộc từ trong nhà.",
+        "Ông lần theo sợi dây ra sông múc nước, rồi lần theo sợi dây khác ra đống củi.",
+        "Thỏ gõ cửa vào chơi: “Ông ơi, ông sống ở đây sướng nhỉ! Củi, nước đều có sẵn.”",
+        "Ông lão thở dài: “Sói mang thịt đến, chuột mang hạt đậu, chim mang lá trà.",
+        "Nhưng ông sống một mình, chẳng có ai trò chuyện. Mà ông lại mù.”",
+        "Ông lão cũng là người đang chịu phạt vì một việc làm rất xấu ngày trước.",
+        "Ông chỉ được trẻ lại khi có người chịu đổi chỗ cho mình."
+      ],
+      "image": {
+        "prompt": "a small log hut in a forest clearing by a river, an old blind man walking slowly to the water holding a long guiding string tied to the door, a curious young rabbit watching from behind a bush",
+        "seed": 850523176,
+        "character": "tho"
+      },
+      "video": {
+        "motionPrompt": "the old man follows the string step by step down to the river, dips his pail and walks back, smoke curls from the mud chimney",
+        "seed": 2484538747
+      },
+      "voice": {}
+    },
+    {
+      "id": "thoi-dai-dot",
+      "title": "Thói dại dột",
+      "narrator": "ke-chuyen",
+      "narration": "Thỏ lại bảo: “Ông ơi, mình đổi chỗ đi. Cháu thích sống ở đây.” Ông lão nói: “Đổi áo cho nhau thì cháu sẽ già và mù, còn ông thì trẻ lại đấy.” “Cháu chẳng cần trẻ với đẹp đâu!” Thế là hai bên đổi áo. Thỏ thành già và mù, còn ông lão hóa thành chàng trai trẻ. Chàng trai cắt phăng mấy sợi dây sát cửa, cười lớn: “Rồi mày sẽ biết sống một mình là thế nào, thằng ngốc ạ!” rồi chạy biến vào rừng. Thỏ lần dây ra sông, đi được mấy bước thì hết dây, lạc giữa rừng, va vào gốc cây, vướng vào bụi mận gai, mặt mũi xây xước. Chú lại phải gọi: “Cinye! Cinye!”",
+      "subtitles": [
+        "Thỏ lại bảo: “Ông ơi, mình đổi chỗ đi. Cháu thích sống ở đây.” Ông lão nói:",
+        "“Đổi áo cho nhau thì cháu sẽ già và mù, còn ông thì trẻ lại đấy.”",
+        "“Cháu chẳng cần trẻ với đẹp đâu!” Thế là hai bên đổi áo.",
+        "Thỏ thành già và mù, còn ông lão hóa thành chàng trai trẻ.",
+        "Chàng trai cắt phăng mấy sợi dây sát cửa, cười lớn:",
+        "“Rồi mày sẽ biết sống một mình là thế nào, thằng ngốc ạ!” rồi chạy biến vào rừng.",
+        "Thỏ lần dây ra sông, đi được mấy bước thì hết dây, lạc giữa rừng, va vào gốc cây,",
+        "vướng vào bụi mận gai, mặt mũi xây xước.",
+        "Chú lại phải gọi: “Cinye! Cinye!”"
+      ],
+      "image": {
+        "prompt": "a young rabbit in a too-big old man's robe wandering lost among plum bushes and thorny brambles in the forest, eyes closed, paws stretched out, a cut guiding string lying on the ground near a log hut",
+        "seed": 3105075815,
+        "character": "tho"
+      },
+      "video": {
+        "motionPrompt": "the rabbit stumbles from bush to bush, thorns catch his robe, he stops, lifts his face and calls out",
+        "seed": 3698955702
+      },
+      "voice": {}
+    },
+    {
+      "id": "chim-cu-meo",
+      "title": "Chim cú mèo",
+      "narrator": "ke-chuyen",
+      "narration": "Người anh lại đến. Anh gọi tất cả các loài chim về hỏi xem có ai thấy kẻ gian không. Chim bay về từ khắp mọi phương, nhưng chẳng chim nào thấy. Cú mèo đến sau cùng, kêu “hu hu”: “Đêm qua tôi đi săn chuột ở khu rừng phía nam, thấy một người ngủ dưới gốc mận. Tôi tưởng là cậu Thỏ nên không đánh thức.” Người anh khen: “Giỏi lắm, cú mèo! Từ nay ngươi sẽ đi kiếm ăn vào ban đêm. Ta sẽ làm cho mắt ngươi càng tối càng nhìn rõ.” Từ đó, cú mèo trở thành loài chim của bóng đêm. Người anh bắt kẻ gian về, trả lại chỗ cũ. Rồi anh nghiêm giọng với Thỏ: “Lần này anh suýt nữa không giúp em. Lần sau mà dại thế, anh không giúp nữa đâu!”",
+      "subtitles": [
+        "Người anh lại đến. Anh gọi tất cả các loài chim về hỏi xem có ai thấy kẻ gian không.",
+        "Chim bay về từ khắp mọi phương, nhưng chẳng chim nào thấy.",
+        "Cú mèo đến sau cùng, kêu “hu hu”:",
+        "“Đêm qua tôi đi săn chuột ở khu rừng phía nam, thấy một người ngủ dưới gốc mận.",
+        "Tôi tưởng là cậu Thỏ nên không đánh thức.”",
+        "Người anh khen: “Giỏi lắm, cú mèo! Từ nay ngươi sẽ đi kiếm ăn vào ban đêm.",
+        "Ta sẽ làm cho mắt ngươi càng tối càng nhìn rõ.”",
+        "Từ đó, cú mèo trở thành loài chim của bóng đêm.",
+        "Người anh bắt kẻ gian về, trả lại chỗ cũ. Rồi anh nghiêm giọng với Thỏ:",
+        "“Lần này anh suýt nữa không giúp em. Lần sau mà dại thế, anh không giúp nữa đâu!”"
+      ],
+      "image": {
+        "prompt": "a kind cloud spirit standing in a forest clearing at dusk surrounded by many birds flying in from every direction, a wise owl landing last on a branch, the young rabbit sitting tired nearby",
+        "seed": 1069512160,
+        "character": "nguoi-anh"
+      },
+      "video": {
+        "motionPrompt": "birds swirl in from all sides and settle on branches, the owl glides in silently and hoots, the cloud spirit smiles and touches the owl's eyes with soft light",
+        "seed": 1661641470
+      },
+      "voice": {}
+    },
+    {
+      "id": "keo-duoi-voi-soi",
+      "title": "Kéo đuôi với sói",
+      "narrator": "ke-chuyen",
+      "narration": "Thỏ lên đường về nhà. Gần đến nơi, chú dừng lại bên con suối nhỏ uống nước. Trên đồi, bốn con sói đang móc đuôi vào nhau chơi trò kéo co. Một con bị tuột ra, đuôi gãy gập. Thỏ hăng hái: “Cho tôi chơi với! Đuôi tôi vừa dài vừa chắc!” Bầy sói đồng ý. Thỏ móc đuôi mình vào đuôi ba con sói, rồi cả bọn kéo. Sói kéo mạnh quá, mạnh quá… Bựt! Cái đuôi dài của Thỏ đứt ngang. Thỏ ngã lăn ra cỏ, còn bầy sói thì chạy biến mất.",
+      "subtitles": [
+        "Thỏ lên đường về nhà. Gần đến nơi, chú dừng lại bên con suối nhỏ uống nước.",
+        "Trên đồi, bốn con sói đang móc đuôi vào nhau chơi trò kéo co.",
+        "Một con bị tuột ra, đuôi gãy gập.",
+        "Thỏ hăng hái: “Cho tôi chơi với! Đuôi tôi vừa dài vừa chắc!” Bầy sói đồng ý.",
+        "Thỏ móc đuôi mình vào đuôi ba con sói, rồi cả bọn kéo. Sói kéo mạnh quá, mạnh quá…",
+        "Bựt! Cái đuôi dài của Thỏ đứt ngang. Thỏ ngã lăn ra cỏ, còn bầy sói thì chạy biến mất."
+      ],
+      "image": {
+        "prompt": "a young rabbit on a grassy hill above a small creek joining a funny tug of war with three wolves, all their tails twisted together, the wolves pulling hard with comical faces, playful not scary",
+        "seed": 386777344,
+        "character": "tho"
+      },
+      "video": {
+        "motionPrompt": "the wolves dig in their paws and tug, the rabbit pulls back with all his might, then tumbles backwards as the wolves scamper off",
+        "seed": 3874394255
+      },
+      "voice": {}
+    },
+    {
+      "id": "duoi-cut",
+      "title": "Cái đuôi cụt",
+      "narrator": "ke-chuyen",
+      "narration": "“Cinye! Cinye! Em mất đuôi rồi!” Thỏ mếu máo gọi. Người anh đến, nhìn cái đuôi cụt của em, bật cười: “Không có đuôi, trông em còn gọn gàng hơn đấy!” Thỏ ngắm tới ngắm lui, rồi cũng cười theo. Từ đó trở đi, loài thỏ chỉ có một cái đuôi cụt, tròn như một nắm bông nhỏ. Và mỗi khi thấy chú thỏ nào vểnh cái đuôi ngắn ngủn, người ta lại nhớ: tò mò thì tốt, nhưng dại dột thì có ngày mất đuôi.",
+      "subtitles": [
+        "“Cinye! Cinye! Em mất đuôi rồi!” Thỏ mếu máo gọi.",
+        "Người anh đến, nhìn cái đuôi cụt của em, bật cười:",
+        "“Không có đuôi, trông em còn gọn gàng hơn đấy!”",
+        "Thỏ ngắm tới ngắm lui, rồi cũng cười theo.",
+        "Từ đó trở đi, loài thỏ chỉ có một cái đuôi cụt, tròn như một nắm bông nhỏ.",
+        "Và mỗi khi thấy chú thỏ nào vểnh cái đuôi ngắn ngủn, người ta lại nhớ:",
+        "tò mò thì tốt, nhưng dại dột thì có ngày mất đuôi."
+      ],
+      "image": {
+        "prompt": "a young rabbit with a short fluffy stub of a tail looking over his shoulder in dismay, his tall kind cloud spirit brother laughing gently beside him on a sunny prairie, other little rabbits with short tails hopping in the grass",
+        "seed": 804427435,
+        "character": "nguoi-anh"
+      },
+      "video": {
+        "motionPrompt": "the rabbit spins around trying to see his tail, the cloud brother chuckles and pats his head, little rabbits hop through the grass",
+        "seed": 2819262942
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful adventurous Native American Plains style flute melody with soft hand drum, rattles and gentle wind, humorous traveling storytelling mood, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 2326789193
+  }
+}

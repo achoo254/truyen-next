@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "slug": "chang-hoang-tu-lua",
+  "shelf": "world",
+  "title": "Chàng hoàng tử lừa",
+  "summary": "Hoàng tử chào đời trong hình hài một chú lừa con, nhưng chăm chỉ học đàn đến mức chơi hay như thầy. Tiếng đàn đưa chàng đến một vương quốc xa, nơi có nàng công chúa thương chàng thật lòng. Truyện cổ Grimm về vẻ đẹp bên trong, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "thien-ac",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Das Eselein\" (Kinder- und Hausmärchen, bản 1857, truyện số 144), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Donkey\" của Margaret Hunt trên Project Gutenberg #5314. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; nỗi thất vọng của hoàng hậu lúc đầu được kể nhẹ thành tiếng khóc buồn, và vua già trao ngôi khi về nghỉ.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, medieval castles with banners, royal banquet halls, a clear well in a meadow, a charming little grey donkey with expressive eyes, warm and gentle mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "lua-con",
+      "name": "Chàng lừa",
+      "seed": 831022496,
+      "sheetPrompt": "a charming young grey donkey prince from a German fairy tale, tall straight ears, gentle intelligent eyes, a small red velvet cape with a golden clasp, holding a lute with his front hooves, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "seed": 4266552610,
+      "sheetPrompt": "a handsome young prince from a German fairy tale, soft dark curly hair, warm smile, a royal blue doublet with silver trim, a lute slung on his back, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "seed": 3242127199,
+      "sheetPrompt": "a sweet kind princess from a German fairy tale, long chestnut braids, a lavender gown, a small pearl tiara, gentle laughing eyes, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "chu-lua-con",
+      "title": "Chú lừa con",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một ông vua và một bà hoàng hậu giàu có, chẳng thiếu thứ gì, chỉ thiếu một đứa con. Ngày đêm hoàng hậu than: \"Ta như thửa ruộng chẳng mọc nổi một cọng cỏ.\" Rồi điều ước thành sự thật, nhưng đứa bé chào đời lại là một chú lừa con. Hoàng hậu khóc mãi, bảo thà không có con còn hơn. Nhà vua thì ôm chú lừa vào lòng: \"Trời đã cho ta đứa con này. Nó là con ta, sau này sẽ nối ngôi, đội vương miện.\"",
+      "subtitles": [
+        "Ngày xưa, có một ông vua và một bà hoàng hậu giàu có, chẳng thiếu thứ gì,",
+        "chỉ thiếu một đứa con.",
+        "Ngày đêm hoàng hậu than: \"Ta như thửa ruộng chẳng mọc nổi một cọng cỏ.\"",
+        "Rồi điều ước thành sự thật, nhưng đứa bé chào đời lại là một chú lừa con.",
+        "Hoàng hậu khóc mãi, bảo thà không có con còn hơn.",
+        "Nhà vua thì ôm chú lừa vào lòng: \"Trời đã cho ta đứa con này.",
+        "Nó là con ta, sau này sẽ nối ngôi, đội vương miện.\""
+      ],
+      "image": {
+        "prompt": "a royal nursery in a castle, a kind king gently holding a tiny grey donkey foal wrapped in a royal blanket, the queen turning away sadly with a handkerchief, soft morning light",
+        "seed": 3111701816,
+        "character": "lua-con"
+      },
+      "video": {
+        "motionPrompt": "the little donkey wiggles its long ears, the king smiles tenderly, curtains sway in the breeze",
+        "seed": 1832084562
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoc-dan",
+      "title": "Học đàn",
+      "narrator": "ke-chuyen",
+      "narration": "Chú lừa lớn dần, đôi tai vểnh lên thẳng tắp, rất đẹp. Chú tính vui vẻ, hay nhảy nhót, và mê âm nhạc vô cùng. Chú tìm đến một nhạc sư nổi tiếng: \"Thầy dạy con đánh đàn luýt cho hay như thầy nhé.\" Nhạc sư lắc đầu: \"Ôi cậu chủ nhỏ, ngón của cậu to quá, e dây đàn chịu không nổi.\" Nhưng chú lừa chẳng chịu thôi. Chú kiên nhẫn, chăm chỉ tập ngày tập đêm, cho đến khi đàn hay chẳng kém gì thầy.",
+      "subtitles": [
+        "Chú lừa lớn dần, đôi tai vểnh lên thẳng tắp, rất đẹp.",
+        "Chú tính vui vẻ, hay nhảy nhót, và mê âm nhạc vô cùng.",
+        "Chú tìm đến một nhạc sư nổi tiếng: \"Thầy dạy con đánh đàn luýt cho hay như thầy nhé.\"",
+        "Nhạc sư lắc đầu: \"Ôi cậu chủ nhỏ, ngón của cậu to quá, e dây đàn chịu không nổi.\"",
+        "Nhưng chú lừa chẳng chịu thôi. Chú kiên nhẫn, chăm chỉ tập ngày tập đêm,",
+        "cho đến khi đàn hay chẳng kém gì thầy."
+      ],
+      "image": {
+        "prompt": "a music room with tall windows, a grey donkey with a red cape earnestly plucking a lute with his hooves, an old bearded music master watching in amazement, sheet music scattered around",
+        "seed": 135713032,
+        "character": "lua-con"
+      },
+      "video": {
+        "motionPrompt": "the donkey strums the lute, musical notes float softly in the air, the music master raises his eyebrows and smiles",
+        "seed": 317936489
+      },
+      "voice": {}
+    },
+    {
+      "id": "bong-duoi-gieng",
+      "title": "Cái bóng dưới giếng",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, chàng lừa đi dạo, mải nghĩ ngợi, tới bên một cái giếng. Nhìn xuống mặt nước trong như gương, chàng thấy rõ hình dáng con lừa của mình. Chàng buồn quá, quyết đi xa, chỉ mang theo một người hầu trung thành. Hai thầy trò đi khắp nơi, đến một vương quốc có ông vua già và nàng công chúa con một xinh đẹp tuyệt trần.",
+      "subtitles": [
+        "Một hôm, chàng lừa đi dạo, mải nghĩ ngợi, tới bên một cái giếng.",
+        "Nhìn xuống mặt nước trong như gương, chàng thấy rõ hình dáng con lừa của mình.",
+        "Chàng buồn quá, quyết đi xa, chỉ mang theo một người hầu trung thành.",
+        "Hai thầy trò đi khắp nơi, đến một vương quốc có ông vua già",
+        "và nàng công chúa con một xinh đẹp tuyệt trần."
+      ],
+      "image": {
+        "prompt": "a quiet meadow with an old stone well, the young donkey prince leaning over and seeing his donkey reflection in clear water, looking sad, a faithful servant waiting with a travel bag",
+        "seed": 800881391,
+        "character": "lua-con"
+      },
+      "video": {
+        "motionPrompt": "the water in the well ripples and the reflection wavers, the donkey lowers his ears sadly, a few leaves fall",
+        "seed": 832233979
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-dan-ngoai-cong",
+      "title": "Tiếng đàn ngoài cổng",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng lừa gõ cổng: \"Có khách đến, xin mở cổng!\" Chẳng ai mở. Chàng bèn ngồi xuống, cầm đàn, dùng hai chân trước gảy lên những khúc nhạc tuyệt hay. Người gác cổng tròn mắt, chạy vào tâu: \"Có chú lừa con đánh đàn hay như bậc thầy!\" Vua cho vời vào. Thấy một chú lừa bước tới, cả triều phá lên cười. Người ta mời chàng ngồi ăn với gia nhân. Chàng không chịu: \"Tôi không phải lừa thường.\" \"Vậy ngồi với các quan võ nhé?\" \"Không, tôi muốn ngồi cạnh nhà vua.\" Vua cười hiền: \"Được thôi, lừa con, lại đây.\" Rồi hỏi: \"Con gái ta có đẹp không?\" Chàng lừa ngắm nàng, gật đầu: \"Đẹp nhất trên đời ạ.\" \"Vậy ngồi cạnh nàng luôn.\" Chàng ngồi bên công chúa, ăn uống từ tốn, lịch sự, ai cũng phải khen.",
+      "subtitles": [
+        "Chàng lừa gõ cổng: \"Có khách đến, xin mở cổng!\" Chẳng ai mở.",
+        "Chàng bèn ngồi xuống, cầm đàn, dùng hai chân trước gảy lên những khúc nhạc tuyệt hay.",
+        "Người gác cổng tròn mắt, chạy vào tâu: \"Có chú lừa con đánh đàn hay như bậc thầy!\"",
+        "Vua cho vời vào. Thấy một chú lừa bước tới, cả triều phá lên cười.",
+        "Người ta mời chàng ngồi ăn với gia nhân. Chàng không chịu: \"Tôi không phải lừa thường.\"",
+        "\"Vậy ngồi với các quan võ nhé?\" \"Không, tôi muốn ngồi cạnh nhà vua.\"",
+        "Vua cười hiền: \"Được thôi, lừa con, lại đây.\" Rồi hỏi: \"Con gái ta có đẹp không?\"",
+        "Chàng lừa ngắm nàng, gật đầu: \"Đẹp nhất trên đời ạ.\" \"Vậy ngồi cạnh nàng luôn.\"",
+        "Chàng ngồi bên công chúa, ăn uống từ tốn, lịch sự, ai cũng phải khen."
+      ],
+      "image": {
+        "prompt": "a grand castle gate, the donkey sitting outside playing a lute beautifully, a gatekeeper peeking out with wide eyes, then a banquet hall where the donkey sits beside a smiling old king and a laughing princess",
+        "seed": 2161976899,
+        "character": "lua-con"
+      },
+      "video": {
+        "motionPrompt": "the donkey plays and notes drift through the gate, the gatekeeper's eyes widen, candles flicker at the banquet table",
+        "seed": 410728523
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi",
+      "title": "Đám cưới",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng lừa ở lại lâu ngày. Rồi một hôm, chàng cúi đầu buồn bã, xin vua cho về. Vua đã quý chàng lắm: \"Lừa con, sao mặt buồn như hũ giấm thế? Muốn vàng không?\" \"Không ạ.\" \"Châu báu, áo đẹp?\" \"Không ạ.\" \"Nửa vương quốc?\" \"Không ạ.\" \"Thế cưới con gái ta nhé?\" Chàng lừa reo lên: \"Vâng ạ!\", vì đó chính là điều chàng mong. Đám cưới linh đình diễn ra. Tối ấy, khi chỉ còn hai người, chàng cởi bộ da lừa, hiện ra một hoàng tử khôi ngô. \"Nàng xem, ta không đến nỗi chẳng xứng với nàng.\" Công chúa mừng rỡ, thương chàng vô cùng. Sáng ra, chàng lại khoác da lừa, chẳng ai đoán được bên trong là ai.",
+      "subtitles": [
+        "Chàng lừa ở lại lâu ngày. Rồi một hôm, chàng cúi đầu buồn bã, xin vua cho về.",
+        "Vua đã quý chàng lắm: \"Lừa con, sao mặt buồn như hũ giấm thế?",
+        "Muốn vàng không?\" \"Không ạ.\" \"Châu báu, áo đẹp?\" \"Không ạ.\" \"Nửa vương quốc?\" \"Không ạ.\"",
+        "\"Thế cưới con gái ta nhé?\" Chàng lừa reo lên: \"Vâng ạ!\", vì đó chính là điều chàng mong.",
+        "Đám cưới linh đình diễn ra. Tối ấy, khi chỉ còn hai người,",
+        "chàng cởi bộ da lừa, hiện ra một hoàng tử khôi ngô.",
+        "\"Nàng xem, ta không đến nỗi chẳng xứng với nàng.\" Công chúa mừng rỡ, thương chàng vô cùng.",
+        "Sáng ra, chàng lại khoác da lừa, chẳng ai đoán được bên trong là ai."
+      ],
+      "image": {
+        "prompt": "a festive royal wedding in a castle hall decorated with flowers and banners, the old king beaming, the donkey groom in a red cape beside the happy princess, then a moonlit bedroom where a handsome prince steps out of a donkey skin and the princess smiles with joy",
+        "seed": 588419680,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "flower petals fall over the wedding hall, then moonlight glows softly as the donkey skin slips away revealing the prince",
+        "seed": 3670950121
+      },
+      "voice": {}
+    },
+    {
+      "id": "bo-da-lua",
+      "title": "Bộ da lừa",
+      "narrator": "ke-chuyen",
+      "narration": "Vua già hỏi con gái: \"Con có buồn vì chồng con chỉ là chú lừa không?\" \"Không đâu cha, con thương chàng như thương người đẹp nhất trên đời.\" Có người hầu đã nấp xem, kể hết cho vua. Đêm sau, vua lặng lẽ vào xem, thấy một chàng trai khôi ngô đang ngủ, bộ da lừa trải dưới đất. Vua cầm bộ da, đem đốt thành tro. Sáng ra, chàng tìm da chẳng thấy, lo lắng định bỏ đi. Vua đứng đợi ở cửa: \"Con ơi, đi đâu vội thế? Con khôi ngô thế này, ở lại với ta. Ta cho con nửa vương quốc, và sau này cả vương quốc là của con.\" Chàng đáp: \"Đã khởi đầu đẹp thế, mong kết thúc cũng đẹp. Con xin ở lại.\" Khi vua già về nghỉ, chàng nối ngôi, sau còn trị vì cả vương quốc của cha mình, sống hạnh phúc bên công chúa và tiếng đàn luýt không bao giờ dứt.",
+      "subtitles": [
+        "Vua già hỏi con gái: \"Con có buồn vì chồng con chỉ là chú lừa không?\"",
+        "\"Không đâu cha, con thương chàng như thương người đẹp nhất trên đời.\"",
+        "Có người hầu đã nấp xem, kể hết cho vua. Đêm sau, vua lặng lẽ vào xem,",
+        "thấy một chàng trai khôi ngô đang ngủ, bộ da lừa trải dưới đất.",
+        "Vua cầm bộ da, đem đốt thành tro. Sáng ra, chàng tìm da chẳng thấy, lo lắng định bỏ đi.",
+        "Vua đứng đợi ở cửa: \"Con ơi, đi đâu vội thế? Con khôi ngô thế này, ở lại với ta.",
+        "Ta cho con nửa vương quốc, và sau này cả vương quốc là của con.\"",
+        "Chàng đáp: \"Đã khởi đầu đẹp thế, mong kết thúc cũng đẹp. Con xin ở lại.\"",
+        "Khi vua già về nghỉ, chàng nối ngôi, sau còn trị vì cả vương quốc của cha mình,",
+        "sống hạnh phúc bên công chúa và tiếng đàn luýt không bao giờ dứt."
+      ],
+      "image": {
+        "prompt": "early morning in a castle courtyard, the handsome prince with his lute meeting the kind old king who opens his arms warmly, the princess smiling at a window, a small fire burning out in a stone brazier",
+        "seed": 1439471074,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the last embers in the brazier fade, the old king embraces the prince, morning sunlight floods the courtyard",
+        "seed": 2430545728
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "graceful German Renaissance-style lute music, playful at first with light woodwinds, wistful in the middle, joyful and warm at the royal wedding, instrumental, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 3166726244
+  }
+}

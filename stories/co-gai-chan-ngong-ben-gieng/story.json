@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "slug": "co-gai-chan-ngong-ben-gieng",
+  "shelf": "world",
+  "title": "Cô gái chăn ngỗng bên giếng",
+  "summary": "Nàng công chúa út bị vua cha đuổi đi chỉ vì nói thương cha như thương muối. Ba năm sau, một chàng bá tước tình cờ thấy cô gái chăn ngỗng xấu xí của bà lão trên núi gỡ lớp da mặt bên giếng dưới trăng, để lộ mái tóc vàng rực rỡ. Truyện cổ Grimm về tấm lòng thật và những giọt nước mắt hoá ngọc trai, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "thien-ac",
+    "su-tich"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Die Gänsehirtin am Brunnen\" (Kinder- und Hausmärchen, bản 1857, truyện số 179), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Goose-Girl at the Well\" của Margaret Hunt trên Project Gutenberg #5314. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: bà lão chỉ trêu chàng bá tước chứ không quất roi, và hoàng hậu chỉ ngất đi khi thấy viên ngọc.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, wild mountain heath, a little cottage with white geese, a moonlit well under three old oak trees, a royal palace, silvery moonlight and pearls, warm and gentle mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ba-lao",
+      "name": "Bà lão",
+      "seed": 4045930722,
+      "sheetPrompt": "a tiny wise old woman from a German fairy tale, very wrinkled kind face with a mischievous smile, grey shawl, apron, a wooden crutch, surrounded by white geese, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba-tuoc",
+      "name": "Chàng bá tước",
+      "seed": 4275667974,
+      "sheetPrompt": "a handsome young count from a German fairy tale, wavy brown hair, a dark green velvet jacket with a white collar, riding boots, honest good-natured face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cong-chua-ut",
+      "name": "Công chúa út",
+      "seed": 3584096989,
+      "sheetPrompt": "a beautiful young princess from a German fairy tale, long radiant golden hair flowing like sunbeams, skin white as snow with apple-blossom cheeks, starry eyes, a pale silver silk gown, pearl tears, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-lao-tren-nui",
+      "title": "Bà lão trên núi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bà lão sống với đàn ngỗng trong căn nhà nhỏ giữa vùng núi hoang. Sáng nào bà cũng chống gậy vào rừng cắt cỏ cho ngỗng, hái quả dại, cõng về một gánh to. Gặp ai bà cũng chào hỏi niềm nở, vậy mà người ta vẫn tránh đi đường vòng, thì thầm: \"Coi chừng bà lão ấy, bà là phù thuỷ đấy.\" Một buổi sáng đẹp trời, có chàng bá tước trẻ đi qua rừng, gặp bà đang cắt cỏ. Chàng hỏi: \"Bà ơi, ngần này thứ thì bà mang về sao nổi?\"",
+      "subtitles": [
+        "Ngày xưa, có một bà lão sống với đàn ngỗng trong căn nhà nhỏ giữa vùng núi hoang.",
+        "Sáng nào bà cũng chống gậy vào rừng cắt cỏ cho ngỗng, hái quả dại, cõng về một gánh to.",
+        "Gặp ai bà cũng chào hỏi niềm nở, vậy mà người ta vẫn tránh đi đường vòng, thì thầm:",
+        "\"Coi chừng bà lão ấy, bà là phù thuỷ đấy.\"",
+        "Một buổi sáng đẹp trời, có chàng bá tước trẻ đi qua rừng, gặp bà đang cắt cỏ.",
+        "Chàng hỏi: \"Bà ơi, ngần này thứ thì bà mang về sao nổi?\""
+      ],
+      "image": {
+        "prompt": "a wild mountain forest in bright morning sun, a tiny old woman with a crutch cutting grass beside two baskets of wild apples and pears, a cheerful young count in a green jacket stopping on the path, birds singing",
+        "seed": 3649084981,
+        "character": "ba-lao"
+      },
+      "video": {
+        "motionPrompt": "sunlight flickers through leaves, the old woman looks up with a sly smile, birds flit between branches",
+        "seed": 3307606060
+      },
+      "voice": {}
+    },
+    {
+      "id": "ganh-hang-nang",
+      "title": "Gánh hàng nặng",
+      "narrator": "ke-chuyen",
+      "narration": "\"Cậu còn lưng thẳng chân khoẻ, giúp bà nhé? Nhà bà ở ngay sau đồi thôi.\" Chàng thương tình: \"Cha tôi là bá tước giàu có, nhưng để bà thấy chẳng riêng nông dân mới gánh nổi, tôi sẽ mang giùm.\" Bà buộc gánh cỏ lên lưng chàng, treo hai giỏ táo lê vào tay. Ôi, nặng như đá tảng! Chàng định đặt xuống, nhưng gánh cỏ dính chặt vào lưng, gỡ thế nào cũng không ra. Bà lão cười khanh khách: \"Đừng giận, mặt cậu đỏ như gà tây rồi kìa! Về tới nhà bà sẽ thưởng.\" Rồi bà còn nhảy phắt lên ngồi chễm chệ trên gánh cỏ. Chàng run cả hai đầu gối, vừa thở vừa leo, mãi mới lên tới đỉnh núi.",
+      "subtitles": [
+        "\"Cậu còn lưng thẳng chân khoẻ, giúp bà nhé? Nhà bà ở ngay sau đồi thôi.\"",
+        "Chàng thương tình: \"Cha tôi là bá tước giàu có,",
+        "nhưng để bà thấy chẳng riêng nông dân mới gánh nổi,",
+        "tôi sẽ mang giùm.\"",
+        "Bà buộc gánh cỏ lên lưng chàng, treo hai giỏ táo lê vào tay. Ôi, nặng như đá tảng!",
+        "Chàng định đặt xuống, nhưng gánh cỏ dính chặt vào lưng, gỡ thế nào cũng không ra.",
+        "Bà lão cười khanh khách: \"Đừng giận,",
+        "mặt cậu đỏ như gà tây rồi kìa! Về tới nhà bà sẽ thưởng.\"",
+        "Rồi bà còn nhảy phắt lên ngồi chễm chệ trên gánh cỏ.",
+        "Chàng run cả hai đầu gối, vừa thở vừa leo, mãi mới lên tới đỉnh núi."
+      ],
+      "image": {
+        "prompt": "a steep rocky mountain path, the young count red-faced and puffing under a giant bundle of grass with baskets of fruit on his arms, the tiny old woman perched on top of the bundle swinging her legs and laughing, comic gentle scene",
+        "seed": 314776318,
+        "character": "ba-tuoc"
+      },
+      "video": {
+        "motionPrompt": "the count staggers uphill, little stones roll down, the old woman bounces merrily on top of the bundle",
+        "seed": 848674893
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuon-sach-ngoc-luc-bao",
+      "title": "Cuốn sách ngọc lục bảo",
+      "narrator": "ke-chuyen",
+      "narration": "Đàn ngỗng trắng vỗ cánh chạy ra đón bà. Đi sau đàn ngỗng là một cô gái to khoẻ, mặt mũi xấu xí, tay cầm gậy. Bà lão bảo con gái vào nhà, rồi gỡ gánh cỏ cho chàng: \"Ngồi nghỉ đi, cậu đã xứng được thưởng.\" Chàng nằm dưới gốc táo dại bên dòng suối trong, ngủ thiếp đi. Lúc tỉnh dậy, bà lão đặt vào tay chàng một cuốn sách nhỏ tạc từ một khối ngọc lục bảo: \"Giữ cẩn thận, nó sẽ mang lại may mắn cho cậu.\" Chàng thấy người khoẻ hẳn, cảm ơn bà rồi lên đường.",
+      "subtitles": [
+        "Đàn ngỗng trắng vỗ cánh chạy ra đón bà. Đi sau đàn ngỗng là một cô gái to khoẻ,",
+        "mặt mũi xấu xí, tay cầm gậy.",
+        "Bà lão bảo con gái vào nhà, rồi gỡ gánh cỏ cho chàng:",
+        "\"Ngồi nghỉ đi, cậu đã xứng được thưởng.\"",
+        "Chàng nằm dưới gốc táo dại bên dòng suối trong, ngủ thiếp đi.",
+        "Lúc tỉnh dậy, bà lão đặt vào tay chàng một cuốn sách nhỏ tạc từ một khối ngọc lục bảo:",
+        "\"Giữ cẩn thận, nó sẽ mang lại may mắn cho cậu.\"",
+        "Chàng thấy người khoẻ hẳn, cảm ơn bà rồi lên đường."
+      ],
+      "image": {
+        "prompt": "a sunny meadow with cowslips and a sparkling brook, white geese running to greet the old woman, a big strong goose-girl with a plain grey face holding a stick, the count resting under a wild apple tree, then receiving a tiny book carved from a single emerald",
+        "seed": 28705193,
+        "character": "ba-tuoc"
+      },
+      "video": {
+        "motionPrompt": "the geese flap and honk around the old woman, the brook sparkles, the little emerald book glows green in the count's hand",
+        "seed": 2800107852
+      },
+      "voice": {}
+    },
+    {
+      "id": "vien-ngoc-trai",
+      "title": "Viên ngọc trai",
+      "narrator": "ke-chuyen",
+      "narration": "Ba ngày sau, chàng ra khỏi vùng hoang và tới một kinh thành lớn. Chàng quỳ trước vua và hoàng hậu, dâng cuốn sách ngọc lục bảo. Hoàng hậu vừa mở ra đã ngất đi. Lính định bắt chàng, nhưng hoàng hậu tỉnh lại, cho mọi người lui ra để nói chuyện riêng với chàng.",
+      "subtitles": [
+        "Ba ngày sau, chàng ra khỏi vùng hoang và tới một kinh thành lớn.",
+        "Chàng quỳ trước vua và hoàng hậu, dâng cuốn sách ngọc lục bảo.",
+        "Hoàng hậu vừa mở ra đã ngất đi. Lính định bắt chàng,",
+        "nhưng hoàng hậu tỉnh lại, cho mọi người lui ra để nói chuyện riêng với chàng."
+      ],
+      "image": {
+        "prompt": "a grand royal throne room, the young count kneeling and offering the emerald book to a sad gentle queen, inside the open book a single shining pearl, the king leaning forward in surprise",
+        "seed": 3038664987,
+        "character": "ba-tuoc"
+      },
+      "video": {
+        "motionPrompt": "the queen opens the emerald book, a pearl gleams softly, she sways and courtiers rush to help her",
+        "seed": 2314466855
+      },
+      "voice": {}
+    },
+    {
+      "id": "thuong-cha-nhu-muoi",
+      "title": "Thương cha như muối",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng hậu khóc: \"Ta có ba con gái. Út là đứa đẹp nhất, khóc ra không phải nước mắt mà là ngọc trai. Năm con mười lăm tuổi, nhà vua gọi ba chị em đến, hỏi đứa nào thương cha nhất. Con cả nói thương cha như thương đường ngọt nhất. Con hai nói thương cha như thương chiếc áo đẹp nhất. Con út nói: ‘Món ăn ngon mấy mà thiếu muối cũng nhạt. Con thương cha như thương muối.’ Nhà vua giận lắm, chia nước cho hai chị, còn buộc một bao muối lên lưng con út, sai người đưa vào rừng sâu. Dọc đường, ngọc trai rơi đầy lối. Vua hối hận, cho tìm khắp nơi mà chẳng thấy. Viên ngọc trong cuốn sách này giống hệt nước mắt con ta.\"",
+      "subtitles": [
+        "Hoàng hậu khóc: \"Ta có ba con gái. Út là đứa đẹp nhất,",
+        "khóc ra không phải nước mắt mà là ngọc trai.",
+        "Năm con mười lăm tuổi, nhà vua gọi ba chị em đến, hỏi đứa nào thương cha nhất.",
+        "Con cả nói thương cha như thương đường ngọt nhất.",
+        "Con hai nói thương cha như thương chiếc áo đẹp nhất.",
+        "Con út nói: ‘Món ăn ngon mấy mà thiếu muối cũng nhạt.",
+        "Con thương cha như thương muối.’",
+        "Nhà vua giận lắm, chia nước cho hai chị, còn buộc một bao muối lên lưng con út,",
+        "sai người đưa vào rừng sâu.",
+        "Dọc đường, ngọc trai rơi đầy lối. Vua hối hận, cho tìm khắp nơi mà chẳng thấy.",
+        "Viên ngọc trong cuốn sách này giống hệt nước mắt con ta.\""
+      ],
+      "image": {
+        "prompt": "a memory scene in a royal hall: three princesses before an old king on his throne, the youngest with golden hair standing quietly, pearls falling from her eyes like tears, a small sack of salt on the floor beside her",
+        "seed": 4037298392,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "pearl tears glisten and roll softly to the floor, the king turns away angrily, the older sisters smirk",
+        "seed": 946417199
+      },
+      "voice": {}
+    },
+    {
+      "id": "ben-gieng-duoi-trang",
+      "title": "Bên giếng dưới trăng",
+      "narrator": "ke-chuyen",
+      "narration": "Vua, hoàng hậu và chàng bá tước cùng lên đường tìm bà lão. Trên núi, tối nào cô gái chăn ngỗng cũng ngồi kéo sợi bên bà. Đêm ấy, cú mèo kêu ba tiếng bên cửa sổ. Bà lão bảo: \"Đến giờ con đi làm việc của con.\" Cô đi qua đồng cỏ tới một cái giếng có ba cây sồi già. Trăng tròn sáng vằng vặc. Cô gỡ lớp da xám trên mặt, cúi xuống giếng rửa. Và cô đổi khác biết bao! Mái tóc vàng xoã ra như ánh nắng, đôi mắt sáng như sao, đôi má hồng như hoa táo. Nhưng cô buồn, ngồi khóc, từng giọt nước mắt lăn qua mái tóc dài, rơi xuống cỏ.",
+      "subtitles": [
+        "Vua, hoàng hậu và chàng bá tước cùng lên đường tìm bà lão.",
+        "Trên núi, tối nào cô gái chăn ngỗng cũng ngồi kéo sợi bên bà.",
+        "Đêm ấy, cú mèo kêu ba tiếng bên cửa sổ. Bà lão bảo: \"Đến giờ con đi làm việc của con.\"",
+        "Cô đi qua đồng cỏ tới một cái giếng có ba cây sồi già. Trăng tròn sáng vằng vặc.",
+        "Cô gỡ lớp da xám trên mặt, cúi xuống giếng rửa. Và cô đổi khác biết bao!",
+        "Mái tóc vàng xoã ra như ánh nắng, đôi mắt sáng như sao, đôi má hồng như hoa táo.",
+        "Nhưng cô buồn, ngồi khóc, từng giọt nước mắt lăn qua mái tóc dài, rơi xuống cỏ."
+      ],
+      "image": {
+        "prompt": "a moonlit meadow with an old well under three ancient oak trees, a girl lifting off a grey mask-like skin from her face, her golden hair spilling down like sunbeams, pearls glimmering in the grass, magical silver light",
+        "seed": 2311698300,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the full moon glows, golden hair unfurls in the breeze, pearl tears sparkle and roll into the grass, oak leaves rustle",
+        "seed": 552522850
+      },
+      "voice": {}
+    },
+    {
+      "id": "canh-cay-gay",
+      "title": "Cành cây gãy",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng bá tước bị lạc đoàn, đêm ấy trèo lên một cây sồi ngủ tạm. Dưới trăng, chàng thấy cô gái chăn ngỗng tới bên giếng, gỡ lớp da, hoá thành thiếu nữ đẹp nhất đời. Chàng nín thở, nhoài người ra nhìn. Bỗng cành cây gãy rắc! Cô giật mình như con nai, vội khoác lớp da, mây che trăng, và cô biến mất. Chàng tụt xuống, đuổi theo, rồi gặp vua và hoàng hậu đang đi tới. Nghe chàng kể, hai người tin chắc đó là con gái mình.",
+      "subtitles": [
+        "Chàng bá tước bị lạc đoàn, đêm ấy trèo lên một cây sồi ngủ tạm.",
+        "Dưới trăng, chàng thấy cô gái chăn ngỗng tới bên giếng,",
+        "gỡ lớp da, hoá thành thiếu nữ đẹp nhất đời.",
+        "Chàng nín thở, nhoài người ra nhìn. Bỗng cành cây gãy rắc!",
+        "Cô giật mình như con nai, vội khoác lớp da, mây che trăng, và cô biến mất.",
+        "Chàng tụt xuống, đuổi theo, rồi gặp vua và hoàng hậu đang đi tới.",
+        "Nghe chàng kể, hai người tin chắc đó là con gái mình."
+      ],
+      "image": {
+        "prompt": "the young count hidden among the leaves of a tall oak tree at night, leaning forward in wonder at the golden-haired maiden by the well, a branch cracking, a cloud sliding over the moon",
+        "seed": 602570800,
+        "character": "ba-tuoc"
+      },
+      "video": {
+        "motionPrompt": "the branch bends and snaps, the maiden startles like a deer, a cloud covers the moon and she vanishes into shadow",
+        "seed": 2551148930
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-nam-da-tron",
+      "title": "Ba năm đã tròn",
+      "narrator": "ke-chuyen",
+      "narration": "Cô gái chạy về, run như lá. Bà lão cười hiền: \"Bà biết cả rồi.\" Rồi bà cầm chổi quét dọn: \"Mọi thứ phải sạch sẽ.\" \"Mẹ ơi, sao khuya rồi còn quét?\" \"Con quên à? Hôm nay tròn ba năm con đến đây. Hết hạn rồi, mẹ con mình không ở với nhau được nữa.\" Cô sợ hãi: \"Mẹ đuổi con sao? Con không có nhà, không có ai.\" \"Đừng lo. Con sẽ có mái nhà, và tiền công mẹ trả sẽ khiến con vui. Vào phòng, gỡ lớp da ra, mặc chiếc áo lụa hôm con đến, rồi chờ mẹ gọi.\"",
+      "subtitles": [
+        "Cô gái chạy về, run như lá. Bà lão cười hiền: \"Bà biết cả rồi.\"",
+        "Rồi bà cầm chổi quét dọn: \"Mọi thứ phải sạch sẽ.\"",
+        "\"Mẹ ơi, sao khuya rồi còn quét?\" \"Con quên à? Hôm nay tròn ba năm con đến đây.",
+        "Hết hạn rồi, mẹ con mình không ở với nhau được nữa.\"",
+        "Cô sợ hãi: \"Mẹ đuổi con sao? Con không có nhà, không có ai.\"",
+        "\"Đừng lo. Con sẽ có mái nhà, và tiền công mẹ trả sẽ khiến con vui.",
+        "Vào phòng, gỡ lớp da ra, mặc chiếc áo lụa hôm con đến, rồi chờ mẹ gọi.\""
+      ],
+      "image": {
+        "prompt": "inside the tiny cottage at night, the old woman sweeping briskly with a broom, the room spotless, a fresh log on the hearth, the girl looking at her worriedly, the geese asleep with heads under their wings outside",
+        "seed": 4284451511,
+        "character": "ba-lao"
+      },
+      "video": {
+        "motionPrompt": "the old woman sweeps quickly, dust sparkles in the firelight, the fire crackles, the geese sleep peacefully",
+        "seed": 3051831672
+      },
+      "voice": {}
+    },
+    {
+      "id": "doan-tu",
+      "title": "Đoàn tụ",
+      "narrator": "ke-chuyen",
+      "narration": "Vua và hoàng hậu gõ cửa. Bà lão nói như đã chờ sẵn: \"Vào đi, ta biết các người rồi. Ba năm trước, các người đã đuổi oan đứa con hiền ngoan. Nó chăn ngỗng ở đây, chẳng học điều gì xấu, giữ trọn tấm lòng trong sạch. Còn các người đã buồn khổ đủ rồi.\" Rồi bà gọi: \"Con gái ơi, ra đây.\" Công chúa bước ra trong chiếc áo lụa, tóc vàng óng ánh, mắt sáng long lanh. Nàng ôm lấy cha mẹ, cả nhà cùng khóc vì vui sướng. Thấy chàng bá tước, nàng đỏ mặt như đoá hồng, chính nàng cũng chẳng biết vì sao.",
+      "subtitles": [
+        "Vua và hoàng hậu gõ cửa. Bà lão nói như đã chờ sẵn: \"Vào đi, ta biết các người rồi.",
+        "Ba năm trước, các người đã đuổi oan đứa con hiền ngoan.",
+        "Nó chăn ngỗng ở đây, chẳng học điều gì xấu, giữ trọn tấm lòng trong sạch.",
+        "Còn các người đã buồn khổ đủ rồi.\" Rồi bà gọi: \"Con gái ơi, ra đây.\"",
+        "Công chúa bước ra trong chiếc áo lụa, tóc vàng óng ánh, mắt sáng long lanh.",
+        "Nàng ôm lấy cha mẹ, cả nhà cùng khóc vì vui sướng.",
+        "Thấy chàng bá tước, nàng đỏ mặt như đoá hồng, chính nàng cũng chẳng biết vì sao."
+      ],
+      "image": {
+        "prompt": "the tiny cottage room glowing with light, the golden-haired princess in a silver silk gown embracing her weeping father and mother, the old woman smiling kindly, the young count blushing in the doorway",
+        "seed": 828022415,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "warm light swells, the family embraces, pearl tears glitter, the count shyly smiles",
+        "seed": 253715327
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngoi-nha-hoa-cung-dien",
+      "title": "Ngôi nhà hoá cung điện",
+      "narrator": "ke-chuyen",
+      "narration": "Vua nói: \"Con ơi, cha đã chia hết vương quốc rồi, biết lấy gì cho con?\" Bà lão bảo: \"Nó chẳng cần gì. Ta cho nó những giọt nước mắt nó đã khóc vì các người. Đó là những viên ngọc quý hơn cả vương quốc. Và ta cho nó căn nhà này làm tiền công.\" Nói xong, bà lão biến mất. Tường nhà khẽ rung, căn nhà nhỏ hoá thành một cung điện lộng lẫy. Người ta tin rằng công chúa đã cưới chàng bá tước, sống trong cung điện ấy thật hạnh phúc. Còn bà lão chẳng phải phù thuỷ đâu, mà là một bà tiên hiền hậu, người chỉ muốn điều tốt cho mọi người.",
+      "subtitles": [
+        "Vua nói: \"Con ơi, cha đã chia hết vương quốc rồi, biết lấy gì cho con?\"",
+        "Bà lão bảo: \"Nó chẳng cần gì. Ta cho nó những giọt nước mắt nó đã khóc vì các người.",
+        "Đó là những viên ngọc quý hơn cả vương quốc. Và ta cho nó căn nhà này làm tiền công.\"",
+        "Nói xong, bà lão biến mất. Tường nhà khẽ rung,",
+        "căn nhà nhỏ hoá thành một cung điện lộng lẫy.",
+        "Người ta tin rằng công chúa đã cưới chàng bá tước, sống trong cung điện ấy thật hạnh phúc.",
+        "Còn bà lão chẳng phải phù thuỷ đâu, mà là một bà tiên hiền hậu,",
+        "người chỉ muốn điều tốt cho mọi người."
+      ],
+      "image": {
+        "prompt": "a little cottage magically transforming into a splendid palace with glowing windows, a royal table set with food, servants bustling, the old woman fading away in a soft sparkle, white geese around the princess and the count",
+        "seed": 388087523,
+        "character": "ba-lao"
+      },
+      "video": {
+        "motionPrompt": "the walls shimmer and grow into a palace, golden light sparkles, the old woman fades gently, geese flap their wings",
+        "seed": 3591730528
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender German romantic fairy-tale music, a humorous bouncy bassoon for the old woman, a quiet moonlit theme on harp and solo violin by the well, honking playful woodwinds for the geese, a warm emotional reunion with full strings, instrumental, no vocals",
+    "durationSeconds": 180,
+    "seed": 1112218732
+  }
+}

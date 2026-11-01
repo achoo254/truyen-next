@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "slug": "coc-thi-tai-voi-voi",
+  "shelf": "kids",
+  "title": "Cóc thi tài với voi",
+  "summary": "Chú cóc bé tí dám thách bác voi to lớn thi tài: ai gọi được mưa xuống giữa trời nắng? Truyện cổ Việt Nam kể nhẹ cho bé về câu «Voi to không bằng tiếng cóc» và bài học đừng cậy mình to mà coi thường người nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Cóc thi tài với voi» (số ba mươi lăm) trong Truyện cổ nước Nam, quyển Muông chim (1934) của Ôn Như Nguyễn Văn Ngọc, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách; Mèo Miu mở đầu và rút ý ở cuối, thêm cảnh trời nắng hạn, các bạn thú đứng xem và thoại để dẫn dắt, giữ nguyên cốt truyện.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, dry sunny meadow beside a forest that turns lush in the rain, rounded friendly shapes, gentle humorous mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 3378571731,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-coc",
+      "name": "Chú cóc",
+      "seed": 1121202506,
+      "sheetPrompt": "a small brown warty toad with big golden eyes and a confident little grin, sitting upright like a tiny hero, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-voi",
+      "name": "Bác voi",
+      "seed": 807641765,
+      "sheetPrompt": "a huge grey Asian elephant with big ears, a proud and grumpy expression, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có biết vì sao mỗi lần nghe cóc nghiến răng, ông bà lại bảo: Sắp mưa rồi đấy! không? Miu cũng tò mò lắm. Ngày xưa, có một chú cóc bé tí dám thi tài với cả bác voi to nhất khu rừng. Ai thắng nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn có biết vì sao mỗi lần nghe cóc nghiến răng, ông bà lại bảo: Sắp mưa rồi đấy!",
+        "không? Miu cũng tò mò lắm.",
+        "Ngày xưa, có một chú cóc bé tí dám thi tài với cả bác voi to nhất khu rừng.",
+        "Ai thắng nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat squats beside a little brown toad on a garden stone, both looking up at the hot blue sky, sunny afternoon",
+        "seed": 2018491904
+      },
+      "video": {
+        "motionPrompt": "the cat fans herself with a leaf in the heat, the toad blinks, heat shimmers in the air, gentle camera push-in",
+        "seed": 1407702996
+      },
+      "voice": {}
+    },
+    {
+      "id": "nang-han",
+      "title": "Ngày nắng như đổ lửa",
+      "narrator": "ke-chuyen",
+      "narration": "Năm ấy trời nắng mãi không thôi. Ao hồ cạn trơ đáy, cỏ cây khô héo cả. Các bạn thú khát nước, đứng thở dài dưới bóng cây. Bạn thỏ thì thào: Bao giờ mới có mưa đây? Bác voi to lớn đi ngang, quạt tai phành phạch. Chợt có một chú cóc nhảy ra giữa đường, ngẩng lên nói: Bác voi ơi, tôi với bác thử thi tài với nhau xem nào!",
+      "subtitles": [
+        "Năm ấy trời nắng mãi không thôi. Ao hồ cạn trơ đáy, cỏ cây khô héo cả.",
+        "Các bạn thú khát nước, đứng thở dài dưới bóng cây.",
+        "Bạn thỏ thì thào: Bao giờ mới có mưa đây? Bác voi to lớn đi ngang, quạt tai phành phạch.",
+        "Chợt có một chú cóc nhảy ra giữa đường, ngẩng lên nói: Bác voi ơi,",
+        "tôi với bác thử thi tài với nhau xem nào!"
+      ],
+      "image": {
+        "character": "con-coc",
+        "prompt": "on a dry cracked meadow with wilting trees, a tiny brown toad hops in front of a huge grey elephant, thirsty rabbits and deer rest in the shade",
+        "seed": 1340772313
+      },
+      "video": {
+        "motionPrompt": "heat waves shimmer, the elephant flaps its big ears, the toad hops forward boldly, dry leaves fall",
+        "seed": 2892577971
+      },
+      "voice": {}
+    },
+    {
+      "id": "voi-che-coc",
+      "title": "Voi chê cóc bé",
+      "narrator": "ke-chuyen",
+      "narration": "Voi cúi xuống nhìn, rồi phá lên cười: Mày bé tí thế kia mà đòi thi với ta à? Thôi về đi, nói chẳng ai nghe đâu! Cóc chẳng sợ, ưỡn ngực đáp: Bác đừng cậy mình to mà coi thường tôi. Trời đang nắng thế này, bác có gọi được mưa xuống không? Voi lắc đầu: Trời cao xa thế, ai mà gọi được. Đừng nói khoác!",
+      "subtitles": [
+        "Voi cúi xuống nhìn, rồi phá lên cười: Mày bé tí thế kia mà đòi thi với ta à?",
+        "Thôi về đi, nói chẳng ai nghe đâu!",
+        "Cóc chẳng sợ, ưỡn ngực đáp: Bác đừng cậy mình to mà coi thường tôi.",
+        "Trời đang nắng thế này, bác có gọi được mưa xuống không?",
+        "Voi lắc đầu: Trời cao xa thế, ai mà gọi được.",
+        "Đừng nói khoác!"
+      ],
+      "image": {
+        "character": "con-voi",
+        "prompt": "the huge elephant bends down laughing at the tiny toad who puffs out his chest bravely, curious animals peek from behind trees",
+        "seed": 3580095587
+      },
+      "video": {
+        "motionPrompt": "the elephant laughs and swings its trunk, the toad puffs up his chest, the animals exchange surprised looks",
+        "seed": 226221050
+      },
+      "voice": {}
+    },
+    {
+      "id": "coc-goi-mua",
+      "title": "Cóc nghiến răng gọi mưa",
+      "narrator": "ke-chuyen",
+      "narration": "Cóc bảo: Bác không làm được, thì để tôi làm cho bác xem! Nói rồi, cóc ngồi thẳng lưng, chép miệng, nghiến răng kèn kẹt, kèn kẹt. Các bạn thú nín thở đứng nhìn. Một lúc sau, gió bỗng nổi lên mát rượi. Mây đen kéo đến che kín mặt trời. Rồi ào một cái, mưa rào trút xuống ầm ầm!",
+      "subtitles": [
+        "Cóc bảo: Bác không làm được, thì để tôi làm cho bác xem!",
+        "Nói rồi, cóc ngồi thẳng lưng, chép miệng, nghiến răng kèn kẹt, kèn kẹt.",
+        "Các bạn thú nín thở đứng nhìn. Một lúc sau, gió bỗng nổi lên mát rượi.",
+        "Mây đen kéo đến che kín mặt trời. Rồi ào một cái, mưa rào trút xuống ầm ầm!"
+      ],
+      "image": {
+        "character": "con-coc",
+        "prompt": "the little toad sits straight and grinds his teeth with determination, dark rain clouds gather and the first heavy raindrops fall on the dry meadow",
+        "seed": 3243404684
+      },
+      "video": {
+        "motionPrompt": "the toad clenches his jaw, wind sweeps the grass, clouds roll in and cover the sun, rain pours down",
+        "seed": 2826083421
+      },
+      "voice": {}
+    },
+    {
+      "id": "voi-chiu-thua",
+      "title": "Voi chịu thua",
+      "narrator": "ke-chuyen",
+      "narration": "Mưa xối xả, ao hồ đầy nước, cỏ cây tươi tỉnh hẳn lên. Các bạn thú reo hò, nhảy múa dưới mưa. Voi đứng sững, nước mưa chảy ròng ròng trên lưng. Voi nghĩ bụng: Rõ thật, voi to mà không bằng tiếng cóc! Voi thẹn quá, chẳng nói được câu nào, lặng lẽ quay vào rừng sâu. Còn cóc thì ngồi trên hòn đá, mắt lim dim, tắm mưa mát rượi.",
+      "subtitles": [
+        "Mưa xối xả, ao hồ đầy nước, cỏ cây tươi tỉnh hẳn lên.",
+        "Các bạn thú reo hò, nhảy múa dưới mưa. Voi đứng sững, nước mưa chảy ròng ròng trên lưng.",
+        "Voi nghĩ bụng: Rõ thật, voi to mà không bằng tiếng cóc!",
+        "Voi thẹn quá, chẳng nói được câu nào, lặng lẽ quay vào rừng sâu.",
+        "Còn cóc thì ngồi trên hòn đá, mắt lim dim, tắm mưa mát rượi."
+      ],
+      "image": {
+        "character": "con-voi",
+        "prompt": "in heavy rain the meadow turns green, animals dance happily in puddles, the embarrassed elephant quietly walks back into the forest",
+        "seed": 1983470411
+      },
+      "video": {
+        "motionPrompt": "rain pours, the animals splash and dance, the elephant lowers its ears and walks away slowly, leaves glisten",
+        "seed": 3071208413
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Từ đó, ai cũng nhớ câu: Voi to không bằng tiếng cóc. Hễ nghe cóc nghiến răng là người ta biết trời sắp mưa đấy. Các bạn ạ, đừng thấy ai nhỏ bé mà coi thường. Bạn nhỏ cũng có thể có tài lớn lắm. Còn khi mình làm được việc hay, cứ vui vẻ, không cần khoe khoang đâu nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Từ đó, ai cũng nhớ câu: Voi to không bằng tiếng cóc.",
+        "Hễ nghe cóc nghiến răng là người ta biết trời sắp mưa đấy.",
+        "Các bạn ạ, đừng thấy ai nhỏ bé mà coi thường.",
+        "Bạn nhỏ cũng có thể có tài lớn lắm.",
+        "Còn khi mình làm được việc hay, cứ vui vẻ, không cần khoe khoang đâu nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye under a big lotus leaf umbrella after the rain, the little toad sits proudly on a stone beside her, a rainbow over the green meadow",
+        "seed": 167971395
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, raindrops drip from the leaf, the toad croaks happily, the rainbow glows, gentle camera pull-back",
+        "seed": 1207344311
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful Vietnamese folk tune with bamboo flute, dan bau and soft frog-like wooden clappers, light rain chimes toward the end, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2944687861
+  }
+}

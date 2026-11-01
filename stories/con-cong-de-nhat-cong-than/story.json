@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-cong-de-nhat-cong-than",
+  "shelf": "kids",
+  "title": "Con công đệ nhất công thần",
+  "summary": "Ngôi đền bị ong quấy ban ngày, chuột phá ban đêm, hổ báo, diều cắt đều chịu thua. Hai chú khổng tước chỉ xòe đuôi múa ba ngày mà đền yên ổn, được Trời phong «Đệ nhất công thần». Sự tích tên con công, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "su-tich",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Đệ nhất công thần» (số 107) trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ kể «giặc» là ong và chuột quấy phá, hổ báo, diều cắt chỉ được sai đi đuổi. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, an old Vietnamese temple with red lacquered columns, curved tiled roofs, incense smoke and a stone courtyard, gold and jade tones, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 945945739
+    },
+    {
+      "id": "khong-tuoc",
+      "name": "Chú khổng tước",
+      "seed": 2935174609,
+      "sheetPrompt": "a beautiful peacock with a shimmering blue neck, a small crown of feathers and a huge fan of green and gold eye-spotted tail feathers, kind graceful face, Vietnamese folk style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-than",
+      "name": "Ông Thần",
+      "seed": 3446878600,
+      "sheetPrompt": "a kindly old Vietnamese temple guardian spirit with a long white beard, red and gold robes and a worried gentle face, Vietnamese folk style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chuot",
+      "name": "Bọn chuột",
+      "seed": 2918149383,
+      "sheetPrompt": "a small naughty grey mouse with big ears and a cheeky grin, cute and harmless, Vietnamese folk style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã thấy chú công xòe đuôi bao giờ chưa? Cái đuôi như chiếc quạt khổng lồ, lấp lánh xanh vàng, đẹp ơi là đẹp! Các cụ kể rằng, chính cái đuôi ấy đã lập công to, nên mới có tên gọi là con công đấy. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn đã thấy chú công xòe đuôi bao giờ chưa?",
+        "Cái đuôi như chiếc quạt khổng lồ, lấp lánh xanh vàng, đẹp ơi là đẹp!",
+        "Các cụ kể rằng, chính cái đuôi ấy đã lập công to, nên mới có tên gọi là con công đấy.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat claps her paws in delight as a peacock spreads its huge shimmering tail in a temple courtyard",
+        "seed": 1548379026
+      },
+      "video": {
+        "motionPrompt": "the peacock slowly fans out its tail, the cat's eyes sparkle and she claps, incense smoke curls, slow camera push-in",
+        "seed": 270489759
+      },
+      "voice": {}
+    },
+    {
+      "id": "den-bi-quay",
+      "title": "Ngôi đền không yên",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một ngôi đền nọ, chẳng lúc nào được yên. Ban ngày thì bọn ong bay vo vo, ầm ầm khắp sân. Ban đêm thì bọn chuột kéo nhau ra lục lọi, gặm phá lung tung. Ông Thần giữ đền buồn rầu lắm, vuốt râu thở dài: Cứ thế này thì đền ta còn ra thể thống gì nữa!",
+      "subtitles": [
+        "Ngày xưa, ở một ngôi đền nọ, chẳng lúc nào được yên.",
+        "Ban ngày thì bọn ong bay vo vo, ầm ầm khắp sân.",
+        "Ban đêm thì bọn chuột kéo nhau ra lục lọi, gặm phá lung tung.",
+        "Ông Thần giữ đền buồn rầu lắm, vuốt râu thở dài:",
+        "Cứ thế này thì đền ta còn ra thể thống gì nữa!"
+      ],
+      "image": {
+        "character": "ong-than",
+        "prompt": "a busy cloud of buzzing bees swirls around a temple roof in daylight, and on the other side a group of cheeky grey mice nibble offerings at night, the old guardian spirit sighs",
+        "seed": 724799407
+      },
+      "video": {
+        "motionPrompt": "bees zigzag in the sunlight, then the scene dims to night as mice scurry along the altar, the old spirit strokes his beard and sighs",
+        "seed": 1561824237
+      },
+      "voice": {}
+    },
+    {
+      "id": "duoi-khong-duoc",
+      "title": "Đuổi mãi không xong",
+      "narrator": "ke-chuyen",
+      "narration": "Ông Thần sai hổ, báo ra đuổi ong. Nhưng ong nhẹ cánh, bay vút lên cao, hổ báo nhảy mấy cũng chẳng với tới. Ông lại sai diều, cắt đi bắt chuột. Nhưng chuột luồn lách nhanh như chớp, chui tọt xuống hang. Cứ thế ba bốn năm trời, đền vẫn chẳng yên. Một hôm, ông Thần gọi tất cả bộ hạ đến để bàn cách.",
+      "subtitles": [
+        "Ông Thần sai hổ, báo ra đuổi ong.",
+        "Nhưng ong nhẹ cánh, bay vút lên cao, hổ báo nhảy mấy cũng chẳng với tới.",
+        "Ông lại sai diều, cắt đi bắt chuột.",
+        "Nhưng chuột luồn lách nhanh như chớp, chui tọt xuống hang.",
+        "Cứ thế ba bốn năm trời, đền vẫn chẳng yên.",
+        "Một hôm, ông Thần gọi tất cả bộ hạ đến để bàn cách."
+      ],
+      "image": {
+        "character": "ong-than",
+        "prompt": "a big friendly tiger and a leopard leap up clumsily at bees floating high above, while a hawk swoops at mice who dive into tiny holes, comical and light, temple courtyard",
+        "seed": 4018713492
+      },
+      "video": {
+        "motionPrompt": "the tiger and leopard jump and miss, bees float higher, the hawk swoops and the mice pop into their holes, comic timing",
+        "seed": 433854903
+      },
+      "voice": {}
+    },
+    {
+      "id": "khong-tuoc-xin",
+      "title": "Hai chú khổng tước",
+      "narrator": "ke-chuyen",
+      "narration": "Bấy giờ có hai chú khổng tước bước ra, thưa: Thưa ông, mình dùng sức với bọn ấy không xong. Nay xin thử dùng cái hay cái đẹp xem sao. Cả đền ngạc nhiên, ai cũng tò mò. Ông Thần gật đầu: Được, các anh cứ thử xem. Hai chú khổng tước cúi chào, rồi thong thả bước xuống giữa sân đền.",
+      "subtitles": [
+        "Bấy giờ có hai chú khổng tước bước ra, thưa: Thưa ông,",
+        "mình dùng sức với bọn ấy không xong. Nay xin thử dùng cái hay cái đẹp xem sao.",
+        "Cả đền ngạc nhiên, ai cũng tò mò. Ông Thần gật đầu: Được, các anh cứ thử xem.",
+        "Hai chú khổng tước cúi chào, rồi thong thả bước xuống giữa sân đền."
+      ],
+      "image": {
+        "character": "khong-tuoc",
+        "prompt": "two elegant peacocks step forward and bow before the old guardian spirit, a tiger, a leopard and a hawk watch curiously from the side, red temple columns behind",
+        "seed": 2826524812
+      },
+      "video": {
+        "motionPrompt": "the two peacocks bow gracefully, the spirit nods, the other animals lean in curiously, incense smoke drifts",
+        "seed": 183400097
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-mua",
+      "title": "Múa suốt ba ngày",
+      "narrator": "ke-chuyen",
+      "narration": "Hai chú xòe đuôi ra, xòe rộng như hai chiếc quạt lấp lánh trăm con mắt xanh vàng, rồi bắt đầu múa. Múa nhịp nhàng, xoay tròn, rung rinh, múa luôn ba ngày liền. Bọn ong thấy những con mắt trên đuôi công nhìn mình, sợ chẳng dám bay. Bọn chuột ngó ra, thấy lấp lánh khắp sân, cũng chẳng dám ra quấy nữa. Thế là ngôi đền yên ổn hẳn.",
+      "subtitles": [
+        "Hai chú xòe đuôi ra, xòe rộng như hai chiếc quạt lấp lánh trăm con mắt xanh vàng,",
+        "rồi bắt đầu múa. Múa nhịp nhàng, xoay tròn, rung rinh, múa luôn ba ngày liền.",
+        "Bọn ong thấy những con mắt trên đuôi công nhìn mình, sợ chẳng dám bay.",
+        "Bọn chuột ngó ra, thấy lấp lánh khắp sân, cũng chẳng dám ra quấy nữa.",
+        "Thế là ngôi đền yên ổn hẳn."
+      ],
+      "image": {
+        "character": "khong-tuoc",
+        "prompt": "two peacocks dance in the temple courtyard with their huge shimmering tails fully spread, bees hide quietly under the eaves and mice peek nervously from a hole",
+        "seed": 1328878977
+      },
+      "video": {
+        "motionPrompt": "the peacocks turn and shimmer their tails in a slow dance, sunlight sparkles on the eye feathers, bees stay still, the mice duck back into their hole",
+        "seed": 3634477658
+      },
+      "voice": {}
+    },
+    {
+      "id": "phong-thuong",
+      "title": "Đệ nhất công thần",
+      "narrator": "ke-chuyen",
+      "narration": "Ông Thần mừng lắm, khen: Hai anh chẳng cần một người lính nào, chỉ xòe mấy cái lông đuôi mà dẹp yên được cả ong lẫn chuột. Công ấy thật là to! Rồi ông tâu lên Trời. Trời ban cho mỗi chú một tấm áo gấm, phong là Đệ nhất công thần, nghĩa là người có công lớn nhất. Từ chữ công ấy mà có tên con công, và từ đó các đền chùa hay nuôi công để công múa.",
+      "subtitles": [
+        "Ông Thần mừng lắm, khen: Hai anh chẳng cần một người lính nào,",
+        "chỉ xòe mấy cái lông đuôi mà dẹp yên được cả ong lẫn chuột.",
+        "Công ấy thật là to! Rồi ông tâu lên Trời.",
+        "Trời ban cho mỗi chú một tấm áo gấm, phong là Đệ nhất công thần,",
+        "nghĩa là người có công lớn nhất.",
+        "Từ chữ công ấy mà có tên con công, và từ đó các đền chùa hay nuôi công để công múa."
+      ],
+      "image": {
+        "character": "ong-than",
+        "prompt": "two proud peacocks wear shining brocade capes in a golden temple hall, the happy guardian spirit holds a royal scroll, soft heavenly light falls from above",
+        "seed": 3724478588
+      },
+      "video": {
+        "motionPrompt": "golden light shines down, the spirit unrolls the scroll and smiles, the peacocks bow and their brocade capes shimmer, petals drift",
+        "seed": 2279009678
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, có những việc không cần to tiếng hay xô đẩy, chỉ cần khéo léo và kiên nhẫn là xong. Hai chú công múa suốt ba ngày, chẳng bỏ cuộc giữa chừng. Mình làm việc gì cũng thử nghĩ cách hay, rồi kiên trì đến cùng nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, có những việc không cần to tiếng hay xô đẩy,",
+        "chỉ cần khéo léo và kiên nhẫn là xong.",
+        "Hai chú công múa suốt ba ngày, chẳng bỏ cuộc giữa chừng.",
+        "Mình làm việc gì cũng thử nghĩ cách hay, rồi kiên trì đến cùng nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the peaceful temple courtyard while a peacock spreads its tail beside her, bees resting calmly on flowers",
+        "seed": 2040234079
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the peacock turns slowly to show its tail, bees bob gently on flowers, golden light, gentle camera pull-back",
+        "seed": 12945689
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "graceful traditional Vietnamese temple melody with dan tranh, bamboo flute and soft bells, elegant and warm, slow dance rhythm, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3936241587
+  }
+}

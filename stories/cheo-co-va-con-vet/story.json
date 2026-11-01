@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "slug": "cheo-co-va-con-vet",
+  "shelf": "kids",
+  "title": "Chẽo cờ và con vẹt",
+  "summary": "Trên cây thị sân chùa, chú vẹt và chú chẽo cờ cãi nhau xem quả thị là của ai. Một bác qua đường nhắc khéo, hai chú hoảng hốt bay mất, chẳng ai được quả nào. Truyện ngụ ngôn Việt về chuyện tranh giành, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Chẽo cờ và vẹt» (số 100) trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: lời bác qua đường chỉ nói có người sắp mang lồng đến bắt chim. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, the quiet yard of an old Vietnamese village pagoda with curved tiled roofs, a big round persimmon tree heavy with golden fruit, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 4046976799
+    },
+    {
+      "id": "vet",
+      "name": "Chú vẹt",
+      "seed": 731993291,
+      "sheetPrompt": "a bright green parrot with a red curved beak and a proud cheeky face, perched on a branch, Vietnamese folk style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cheo-co",
+      "name": "Chú chẽo cờ",
+      "seed": 1432603459,
+      "sheetPrompt": "a small slim black-and-brown songbird with a long forked tail and a pouting little face, perched on a branch, Vietnamese folk style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bac-qua-duong",
+      "name": "Bác qua đường",
+      "seed": 1800237722,
+      "sheetPrompt": "a kind middle-aged Vietnamese villager in a brown ao tunic and a conical non la hat, carrying a small bundle, warm smile, Vietnamese folk style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã bao giờ giành nhau một món đồ chơi với bạn chưa? Giành mãi, giành mãi, rồi cuối cùng ai được nhỉ? Hôm nay Miu kể chuyện hai chú chim cãi nhau vì một cây thị trong sân chùa. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn đã bao giờ giành nhau một món đồ chơi với bạn chưa?",
+        "Giành mãi, giành mãi, rồi cuối cùng ai được nhỉ?",
+        "Hôm nay Miu kể chuyện hai chú chim cãi nhau vì một cây thị trong sân chùa.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits under a big persimmon tree holding one golden persimmon, two little toy birds on the grass beside her, an old pagoda roof behind",
+        "seed": 2888015769
+      },
+      "video": {
+        "motionPrompt": "the cat sniffs the golden persimmon and smiles, leaves sway above, a gentle breeze, slow camera push-in",
+        "seed": 2088244008
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-thi-san-chua",
+      "title": "Cây thị sân chùa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bác đi ngang qua ngôi chùa làng. Bác thấy trong sân chùa có một cây thị tán tròn xoe như cái lọng, lúc lỉu những quả sắp chín vàng, thơm thoang thoảng. Bác lại gần ngắm, thì nghe trên cành có tiếng chim ríu rít. Ngước lên, bác thấy một chú vẹt xanh và một chú chẽo cờ đang đậu sát bên nhau, như đang bàn chuyện gì quan trọng lắm.",
+      "subtitles": [
+        "Ngày xưa, có một bác đi ngang qua ngôi chùa làng.",
+        "Bác thấy trong sân chùa có một cây thị tán tròn xoe như cái lọng,",
+        "lúc lỉu những quả sắp chín vàng, thơm thoang thoảng.",
+        "Bác lại gần ngắm, thì nghe trên cành có tiếng chim ríu rít.",
+        "Ngước lên, bác thấy một chú vẹt xanh và một chú chẽo cờ đang đậu sát bên nhau,",
+        "như đang bàn chuyện gì quan trọng lắm."
+      ],
+      "image": {
+        "character": "bac-qua-duong",
+        "prompt": "a kind villager in a conical hat stops under a round persimmon tree in a pagoda yard, looking up at a green parrot and a small black songbird perched close together on a branch",
+        "seed": 1999661160
+      },
+      "video": {
+        "motionPrompt": "the villager tilts his hat and looks up, the two birds chatter and bob their heads, golden fruit swing gently, pagoda bells move in the breeze",
+        "seed": 2247842928
+      },
+      "voice": {}
+    },
+    {
+      "id": "cua-ai",
+      "title": "Quả thị của ai?",
+      "narrator": "ke-chuyen",
+      "narration": "Chẽo cờ hỏi: Anh vẹt ơi, cây thị này của ai? Vẹt đáp: Cây mọc trong chùa thì của ông sư chứ của ai. Thế cành thị của ai? Cành anh đang đậu thì là của anh. Thế lá thị với quả thị của ai? Vẹt nhanh nhảu: Lá thị của bà vãi trong chùa, còn quả thị là của tôi! Chẽo cờ phụng phịu: Quả thị của anh, thế thì tôi còn đến đây hót làm gì nữa?",
+      "subtitles": [
+        "Chẽo cờ hỏi: Anh vẹt ơi, cây thị này của ai?",
+        "Vẹt đáp: Cây mọc trong chùa thì của ông sư chứ của ai.",
+        "Thế cành thị của ai? Cành anh đang đậu thì là của anh.",
+        "Thế lá thị với quả thị của ai?",
+        "Vẹt nhanh nhảu: Lá thị của bà vãi trong chùa, còn quả thị là của tôi!",
+        "Chẽo cờ phụng phịu: Quả thị của anh, thế thì tôi còn đến đây hót làm gì nữa?"
+      ],
+      "image": {
+        "character": "vet",
+        "prompt": "on a persimmon branch, the green parrot puffs his chest and points his wing at the golden fruit, the little black songbird pouts beside him, an old monk sweeping the yard far below",
+        "seed": 2526033549
+      },
+      "video": {
+        "motionPrompt": "the parrot spreads his wing proudly toward the fruit, the songbird flicks its forked tail and frowns, leaves flutter, the monk sweeps slowly far below",
+        "seed": 2827537051
+      },
+      "voice": {}
+    },
+    {
+      "id": "chi-choe",
+      "title": "Hai chú chí chóe",
+      "narrator": "ke-chuyen",
+      "narration": "Vẹt vênh mỏ: Anh có mỏ thì anh cứ hót, chứ quả thị nào phải của anh! Chẽo cờ cãi: Không phải của tôi thì cũng chẳng phải của anh. Vẹt to tiếng: Từ hồi cây thị còn non, lá còn bé, tôi đã ở đây ngày đêm. Còn anh, mỗi năm ghé qua có một lần, thấy quả sắp chín mới bay về, định tranh với tôi sao? Hai chú cứ thế chí chóe mãi không thôi.",
+      "subtitles": [
+        "Vẹt vênh mỏ: Anh có mỏ thì anh cứ hót, chứ quả thị nào phải của anh!",
+        "Chẽo cờ cãi: Không phải của tôi thì cũng chẳng phải của anh.",
+        "Vẹt to tiếng: Từ hồi cây thị còn non, lá còn bé, tôi đã ở đây ngày đêm.",
+        "Còn anh, mỗi năm ghé qua có một lần, thấy quả sắp chín mới bay về, định tranh với tôi sao?",
+        "Hai chú cứ thế chí chóe mãi không thôi."
+      ],
+      "image": {
+        "character": "cheo-co",
+        "prompt": "the green parrot and the small black songbird squabble beak to beak on the branch, feathers ruffled, comical and light, golden persimmons all around them",
+        "seed": 1437841048
+      },
+      "video": {
+        "motionPrompt": "the two birds flap and squawk at each other in a funny way, a few leaves float down, the branch bounces, comic timing",
+        "seed": 1895670211
+      },
+      "voice": {}
+    },
+    {
+      "id": "bac-nhac-kheo",
+      "title": "Bác nhắc khéo",
+      "narrator": "ke-chuyen",
+      "narration": "Bác đứng dưới gốc nghe hết, mới ngẩng lên bảo: Hai chú tranh nhau làm gì thế? Chẳng biết có người đang rủ nhau mang lồng đến bắt cả vẹt lẫn chẽo cờ ở cây thị này à? Khôn thì bay đi mau! Hai chú nghe vậy, sợ quá, chẳng ai còn nhớ đến quả thị nữa. Chẽo cờ bay sang bụi chuối, vẹt bay sang cây khế. Còn cây thị vẫn là của chùa, ông sư với bà vãi cùng hái quả thơm.",
+      "subtitles": [
+        "Bác đứng dưới gốc nghe hết, mới ngẩng lên bảo: Hai chú tranh nhau làm gì thế?",
+        "Chẳng biết có người đang rủ nhau mang lồng đến bắt cả vẹt lẫn chẽo cờ ở cây thị này à?",
+        "Khôn thì bay đi mau! Hai chú nghe vậy, sợ quá, chẳng ai còn nhớ đến quả thị nữa.",
+        "Chẽo cờ bay sang bụi chuối, vẹt bay sang cây khế.",
+        "Còn cây thị vẫn là của chùa, ông sư với bà vãi cùng hái quả thơm."
+      ],
+      "image": {
+        "character": "bac-qua-duong",
+        "prompt": "the villager calls up with a hand cupped to his mouth, the parrot flies off toward a star fruit tree and the songbird toward a banana clump, below an old monk and an old woman in brown pick golden persimmons together",
+        "seed": 526854678
+      },
+      "video": {
+        "motionPrompt": "the villager calls up, the two birds startle and fly off in opposite directions, then the old monk and old woman smile and gather persimmons into a basket",
+        "seed": 539586214
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, mải tranh giành, cãi cọ, hai chú chim chẳng được quả thị nào cả. Có gì mình cùng chia nhau, nhường nhau một chút, thì ai cũng vui. Như quả thị chín vàng thơm phức kia, hai bạn ngồi cùng ngửi chung cũng thích lắm mà! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, mải tranh giành, cãi cọ, hai chú chim chẳng được quả thị nào cả.",
+        "Có gì mình cùng chia nhau, nhường nhau một chút, thì ai cũng vui.",
+        "Như quả thị chín vàng thơm phức kia, hai bạn ngồi cùng ngửi chung cũng thích lắm mà!",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat shares a golden persimmon with the green parrot and the small black songbird sitting side by side on a low branch, the pagoda yard glowing in late afternoon light",
+        "seed": 4235156759
+      },
+      "video": {
+        "motionPrompt": "the cat holds up the persimmon, the birds lean in to smell it together and nod, warm sunset light, gentle camera pull-back",
+        "seed": 478548028
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Vietnamese folk melody with bamboo flute, dan tranh and soft temple bell accents, light and a little playful, birdsong feeling, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2877487622
+  }
+}

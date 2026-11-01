@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "slug": "anh-nha-que-mua-guong",
+  "shelf": "kids",
+  "title": "Anh nhà quê mua gương",
+  "summary": "Anh chồng thương vợ, lên tỉnh mua «cái gì tròn sáng như mặt trăng», ai ngờ mang về một chiếc gương khiến cả nhà, cả lính lẫn quan đều bối rối. Truyện dân gian Việt Nam kể nhẹ, vui cho bé về chuyện lần đầu gặp điều lạ.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam «Le miroir» trong Les chants et les traditions populaires des Annamites của G. Dumoutier (Paris, 1890), sách thuộc phạm vi công cộng. Lời kể viết mới hoàn toàn bằng tiếng Việt cho trẻ nhỏ, chỉ theo cốt truyện Dumoutier chép lại; Mèo Miu mở đầu và giải thích chiếc gương ở cuối, thêm thoại, bỏ chi tiết đánh đòn và lời lẽ nặng nề, chỉ kể mọi người giận dỗi, cãi nhau vì chưa từng thấy gương.",
+  "basedOn": "Truyện dân gian Việt Nam, G. Dumoutier chép (1890)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, a mountain village with a thatched house, a busy old town street with shops, a mandarin hall, warm humorous mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 3929179535,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "anh-chong",
+      "name": "Anh chồng",
+      "seed": 2436943281,
+      "sheetPrompt": "a kind gentle young Vietnamese villager in a brown shirt and loose trousers, a cloth bag on his shoulder, honest smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chi-vo",
+      "name": "Chị vợ",
+      "seed": 1469043062,
+      "sheetPrompt": "a young Vietnamese village woman in a simple blouse and headscarf, expressive face, hair in a bun, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba-me",
+      "name": "Bà mẹ",
+      "seed": 2248712069,
+      "sheetPrompt": "an elderly Vietnamese grandmother with wrinkled kind face, betel-stained smile, dark headscarf, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "quan-xu",
+      "name": "Quan",
+      "seed": 1341463161,
+      "sheetPrompt": "a stout Vietnamese mandarin judge in a red robe and black winged hat, serious face, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Lần đầu soi gương, Miu cứ tưởng có một bạn mèo khác ở trong ấy, còn xù lông lên dọa bạn ấy nữa cơ! Ngày xưa, ở làng trên núi, chưa ai từng thấy chiếc gương bao giờ. Thế rồi có một anh chồng mang gương về nhà. Chuyện vui lắm đấy, mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Lần đầu soi gương, Miu cứ tưởng có một bạn mèo khác ở trong ấy,",
+        "còn xù lông lên dọa bạn ấy nữa cơ!",
+        "Ngày xưa, ở làng trên núi, chưa ai từng thấy chiếc gương bao giờ.",
+        "Thế rồi có một anh chồng mang gương về nhà. Chuyện vui lắm đấy, mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat puffs up her fur at her own reflection in a round mirror, surprised and funny, cozy room",
+        "seed": 3963060276
+      },
+      "video": {
+        "motionPrompt": "the cat arches her back at the reflection, then blinks and tilts her head, the reflection does the same, gentle camera push-in",
+        "seed": 382879921
+      },
+      "voice": {}
+    },
+    {
+      "id": "mua-thu-giong-trang",
+      "title": "Mua thứ giống mặt trăng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng trên núi có hai vợ chồng hiền lành. Hôm ấy, chị vợ đi chợ về, kể: Em thấy một cô gái cài trên tóc một vật sáng lấp lánh, cong cong như mặt trăng, đẹp lắm. Em cũng muốn có một cái. Chị chẳng biết đó là cái lược, nên cứ tả là giống mặt trăng. Thương vợ, anh chồng xuống tận tỉnh để mua. Đến hàng, anh cũng chỉ biết nói: Bán cho tôi cái gì giống mặt trăng. Người bán đưa cho anh một chiếc gương tròn.",
+      "subtitles": [
+        "Ngày xưa, ở một làng trên núi có hai vợ chồng hiền lành.",
+        "Hôm ấy, chị vợ đi chợ về, kể: Em thấy một cô gái cài trên tóc một vật sáng lấp lánh,",
+        "cong cong như mặt trăng, đẹp lắm. Em cũng muốn có một cái.",
+        "Chị chẳng biết đó là cái lược, nên cứ tả là giống mặt trăng.",
+        "Thương vợ, anh chồng xuống tận tỉnh để mua.",
+        "Đến hàng, anh cũng chỉ biết nói: Bán cho tôi cái gì giống mặt trăng.",
+        "Người bán đưa cho anh một chiếc gương tròn."
+      ],
+      "image": {
+        "character": "anh-chong",
+        "prompt": "a kind villager stands at a shop in a busy old town street, the shopkeeper hands him a shiny round mirror, he points up at the moon drawn in his imagination",
+        "seed": 2147702350
+      },
+      "video": {
+        "motionPrompt": "the man gestures a round shape with his hands, the shopkeeper nods and offers the mirror, the man smiles happily",
+        "seed": 749369037
+      },
+      "voice": {}
+    },
+    {
+      "id": "chi-vo-ghen",
+      "title": "Chị vợ nổi ghen",
+      "narrator": "ke-chuyen",
+      "narration": "Anh hớn hở mang về. Chị vợ cầm lên ngắm, thấy trong ấy có một cô gái đang nhìn mình mỉm cười. Chị đâu biết đó chính là mình! Chị giận dỗi: Anh đi tỉnh mà dắt cả một cô về giấu trong này à? Anh định lấy thêm vợ phải không? Rồi chị òa khóc, gọi to: Mẹ ơi, mẹ ra mà xem này!",
+      "subtitles": [
+        "Anh hớn hở mang về.",
+        "Chị vợ cầm lên ngắm, thấy trong ấy có một cô gái đang nhìn mình mỉm cười.",
+        "Chị đâu biết đó chính là mình!",
+        "Chị giận dỗi: Anh đi tỉnh mà dắt cả một cô về giấu trong này à?",
+        "Anh định lấy thêm vợ phải không? Rồi chị òa khóc, gọi to: Mẹ ơi, mẹ ra mà xem này!"
+      ],
+      "image": {
+        "character": "chi-vo",
+        "prompt": "the young wife holds a round mirror and sees a smiling woman inside, her face turns jealous and teary, the confused husband stands beside her",
+        "seed": 3887168346
+      },
+      "video": {
+        "motionPrompt": "the wife stares into the mirror, frowns and bursts into tears, the husband scratches his head in confusion",
+        "seed": 886109648
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-me-cung-gian",
+      "title": "Bà mẹ cũng giận",
+      "narrator": "ke-chuyen",
+      "narration": "Bà mẹ chạy ra, giật lấy chiếc gương nhìn vào. Bà thấy một bà cụ nhăn nheo đang trừng mắt nhìn lại. Bà kêu lên: Trời đất ơi! Dắt một cô gái về đã đành, đằng này lại còn dắt cả một bà già lạ hoắc vào nhà! Hai mẹ con xúm vào mắng anh chồng một trận. Anh chẳng hiểu chuyện gì, chạy tuốt lên huyện nhờ quan phân xử.",
+      "subtitles": [
+        "Bà mẹ chạy ra, giật lấy chiếc gương nhìn vào.",
+        "Bà thấy một bà cụ nhăn nheo đang trừng mắt nhìn lại.",
+        "Bà kêu lên: Trời đất ơi!",
+        "Dắt một cô gái về đã đành, đằng này lại còn dắt cả một bà già lạ hoắc vào nhà!",
+        "Hai mẹ con xúm vào mắng anh chồng một trận.",
+        "Anh chẳng hiểu chuyện gì, chạy tuốt lên huyện nhờ quan phân xử."
+      ],
+      "image": {
+        "character": "ba-me",
+        "prompt": "the elderly grandmother peers into the mirror and sees a wrinkled old woman glaring back, she points angrily at the husband while the wife sobs, the husband runs out the door",
+        "seed": 3103196224
+      },
+      "video": {
+        "motionPrompt": "the grandmother squints and gasps, wags her finger, the husband dashes out the gate with a cloud of dust",
+        "seed": 1642294259
+      },
+      "voice": {}
+    },
+    {
+      "id": "quan-xu-kien",
+      "title": "Lính và quan cũng bối rối",
+      "narrator": "ke-chuyen",
+      "narration": "Quan cho lính đi gọi hai mẹ con, mang cả chiếc gương lên. Lính nhìn vào gương, thấy có mấy anh lính khác đang nhìn mình, liền bực: Ai bày trò trêu chúng ta đây? Lên đến công đường, quan cầm chiếc gương lên xem. Trong gương có một ông quan đang nhìn thẳng vào mặt quan. Quan giận lắm: Kẻ nào dám vô lễ nhìn ta như thế? Rồi quan ném chiếc gương xuống đất vỡ tan, mắng cả nhà một trận, đuổi hết về.",
+      "subtitles": [
+        "Quan cho lính đi gọi hai mẹ con, mang cả chiếc gương lên.",
+        "Lính nhìn vào gương, thấy có mấy anh lính khác đang nhìn mình, liền bực:",
+        "Ai bày trò trêu chúng ta đây? Lên đến công đường, quan cầm chiếc gương lên xem.",
+        "Trong gương có một ông quan đang nhìn thẳng vào mặt quan.",
+        "Quan giận lắm: Kẻ nào dám vô lễ nhìn ta như thế?",
+        "Rồi quan ném chiếc gương xuống đất vỡ tan, mắng cả nhà một trận, đuổi hết về."
+      ],
+      "image": {
+        "character": "quan-xu",
+        "prompt": "in a mandarin hall soldiers frown at their own reflections, the stout mandarin in a red robe glares into the round mirror at another mandarin glaring back",
+        "seed": 898576245
+      },
+      "video": {
+        "motionPrompt": "the soldiers squint at the mirror, the mandarin turns red with anger and tosses the mirror down, small sparkling pieces scatter",
+        "seed": 4197759553
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn ơi, thì ra ai cũng chỉ nhìn thấy chính mình trong gương thôi! Cô gái là chị vợ, bà cụ là bà mẹ, mấy anh lính và ông quan cũng chính là họ đấy. Chẳng ai ngốc cả, chỉ vì cả làng, cả lính, cả quan đều chưa từng thấy gương. Gặp điều gì lạ, mình bình tĩnh tìm hiểu, đừng vội giận nhau nhé. Còn anh chồng thì thương vợ thật đấy. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn ơi, thì ra ai cũng chỉ nhìn thấy chính mình trong gương thôi!",
+        "Cô gái là chị vợ, bà cụ là bà mẹ, mấy anh lính và ông quan cũng chính là họ đấy.",
+        "Chẳng ai ngốc cả, chỉ vì cả làng, cả lính, cả quan đều chưa từng thấy gương.",
+        "Gặp điều gì lạ, mình bình tĩnh tìm hiểu, đừng vội giận nhau nhé.",
+        "Còn anh chồng thì thương vợ thật đấy. Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye holding a small round hand mirror, the husband, wife and grandmother laugh together at their reflections in a village pond at sunset",
+        "seed": 3862541463
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and winks at her reflection, the family points at their faces in the pond and laughs, ripples spread, gentle camera pull-back",
+        "seed": 1774808192
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful Vietnamese folk tune with dan bau monochord, bamboo flute and light wooden clappers, comic and warm, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2966729239
+  }
+}

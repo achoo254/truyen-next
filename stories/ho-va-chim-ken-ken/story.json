@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "slug": "ho-va-chim-ken-ken",
+  "shelf": "kids",
+  "title": "Hổ tát ao và chim kền kền",
+  "summary": "Hổ tát cạn ao bắt cá thì bị kền kền giành mất, phải nhờ bác tiều phu cứu. Hổ hứa trả ơn nhưng bắt giữ bí mật, rồi chính chú thỏ tinh khôn đã nghĩ ra mẹo giúp bác. Truyện dân gian người Chăm kể nhẹ cho bé.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian người Chăm (Việt Nam) «Lutte du tigre et du vautour» trong Contes tjames của A. Landes (Sài Gòn, 1887), sách thuộc phạm vi công cộng. Lời kể viết mới hoàn toàn bằng tiếng Việt cho trẻ nhỏ, chỉ theo cốt truyện Landes chép lại; Mèo Miu mở đầu và rút ý ở cuối, thêm thoại, đổi quà hổ mang tới thành măng, mật ong và trái rừng, kể nhẹ lời hổ dọa.",
+  "basedOn": "Truyện dân gian Chăm, A. Landes chép (1887)",
+  "style": "Cham and Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, tropical forest edge, a muddy fish pond, a stilt house with a yard, warm earthy colors, gentle mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 3052782028,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-ho",
+      "name": "Hổ",
+      "seed": 1245305957,
+      "sheetPrompt": "a big orange striped tiger with a round friendly-grumpy face, a bamboo fishing basket, more comic than scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ken-ken",
+      "name": "Chim kền kền",
+      "seed": 3241265233,
+      "sheetPrompt": "a large brown vulture with a pale neck ruff and a sharp hooked beak, cheeky expression, wings spread, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bac-tieu-phu",
+      "name": "Bác tiều phu",
+      "seed": 449976755,
+      "sheetPrompt": "a kind Cham village woodcutter in a simple white shirt and checkered sarong, a bundle of wooden stakes on his shoulder, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chu-tho",
+      "name": "Chú thỏ",
+      "seed": 2169473490,
+      "sheetPrompt": "a small clever brown hare with long ears and bright mischievous eyes, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Khi hứa với ai điều gì, các bạn có giữ lời được không? Miu thì cố lắm, nhưng có lần lỡ kể bí mật của bạn sóc rồi. Hôm nay Miu kể chuyện của người Chăm, về bác tiều phu, ông hổ, chim kền kền và một chú thỏ rất tinh khôn. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Khi hứa với ai điều gì, các bạn có giữ lời được không?",
+        "Miu thì cố lắm, nhưng có lần lỡ kể bí mật của bạn sóc rồi.",
+        "Hôm nay Miu kể chuyện của người Chăm, về bác tiều phu, ông hổ,",
+        "chim kền kền và một chú thỏ rất tinh khôn. Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits at the edge of a tropical forest beside a little squirrel, covering her mouth with a paw as if keeping a secret",
+        "seed": 4102415452
+      },
+      "video": {
+        "motionPrompt": "the cat giggles and whispers to the squirrel, palm leaves sway, gentle camera push-in",
+        "seed": 4253554932
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-tat-ao",
+      "title": "Hổ tát ao bắt cá",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một ông hổ xách giỏ đi bắt cá. Gặp cái ao to, cá nhiều vô kể, hổ hì hục tát nước từ sáng tới chiều, ao mới cạn. Cá giãy đành đạch đầy đáy ao. Bỗng một con kền kền bay đến, đậu trên cành cây hỏi: Ông hổ ơi, cho tôi xin mấy con cá với. Hổ nghĩ bụng: Nó thì bắt sao nổi. Hổ bèn bảo: Muốn thì cứ xuống mà bắt.",
+      "subtitles": [
+        "Ngày xưa, có một ông hổ xách giỏ đi bắt cá.",
+        "Gặp cái ao to, cá nhiều vô kể, hổ hì hục tát nước từ sáng tới chiều, ao mới cạn.",
+        "Cá giãy đành đạch đầy đáy ao.",
+        "Bỗng một con kền kền bay đến, đậu trên cành cây hỏi: Ông hổ ơi,",
+        "cho tôi xin mấy con cá với. Hổ nghĩ bụng: Nó thì bắt sao nổi.",
+        "Hổ bèn bảo: Muốn thì cứ xuống mà bắt."
+      ],
+      "image": {
+        "character": "con-ho",
+        "prompt": "a big striped tiger stands in a drained muddy pond full of flapping fish holding a bamboo basket, a vulture perches on a branch above asking politely",
+        "seed": 3915792320
+      },
+      "video": {
+        "motionPrompt": "the tiger wipes his brow and scoops water, fish wriggle, the vulture tilts its head and flaps down",
+        "seed": 2157760516
+      },
+      "voice": {}
+    },
+    {
+      "id": "ken-ken-gianh-ca",
+      "title": "Kền kền giành cá",
+      "narrator": "ke-chuyen",
+      "narration": "Kền kền sà xuống, mỏ nhọn mổ một cái là được ngay một con cá to. Còn hổ vồ tới vồ lui, cá cứ tuột qua kẽ chân, chẳng bắt được con nào. Chẳng mấy chốc, cá to đã vào bụng kền kền hết, chỉ còn lại cá con. Hổ tức lắm, xông vào cãi nhau với kền kền. Kền kền mổ vào đầu hổ một cái rồi bay vút lên cao, hổ chẳng làm gì được.",
+      "subtitles": [
+        "Kền kền sà xuống, mỏ nhọn mổ một cái là được ngay một con cá to.",
+        "Còn hổ vồ tới vồ lui, cá cứ tuột qua kẽ chân, chẳng bắt được con nào.",
+        "Chẳng mấy chốc, cá to đã vào bụng kền kền hết, chỉ còn lại cá con.",
+        "Hổ tức lắm, xông vào cãi nhau với kền kền.",
+        "Kền kền mổ vào đầu hổ một cái rồi bay vút lên cao, hổ chẳng làm gì được."
+      ],
+      "image": {
+        "character": "ken-ken",
+        "prompt": "the vulture quickly picks big fish from the mud with its beak while the clumsy tiger splashes and misses, little fish slipping between his paws",
+        "seed": 2045131196
+      },
+      "video": {
+        "motionPrompt": "the vulture pecks and flaps up, the tiger swipes the air in frustration, mud splashes comically",
+        "seed": 3260553088
+      },
+      "voice": {}
+    },
+    {
+      "id": "bac-tieu-phu-giup",
+      "title": "Bác tiều phu giúp hổ",
+      "narrator": "ke-chuyen",
+      "narration": "Gần đó có bác tiều phu đang chặt cọc. Hổ gọi to: Bác người ơi, giúp tôi với! Bác vác bó cọc chạy tới, kền kền thấy người thì sợ, bay mất. Hổ cảm ơn rối rít, rồi dặn: Bác về đừng kể với ai là bác đã cứu tôi nhé. Tôi sẽ mang quà đến trả ơn. Nhưng nếu bác kể ra, tôi sẽ vồ lấy bác đấy! Bác gật đầu: Được, tôi hứa.",
+      "subtitles": [
+        "Gần đó có bác tiều phu đang chặt cọc. Hổ gọi to: Bác người ơi, giúp tôi với!",
+        "Bác vác bó cọc chạy tới, kền kền thấy người thì sợ, bay mất.",
+        "Hổ cảm ơn rối rít, rồi dặn: Bác về đừng kể với ai là bác đã cứu tôi nhé.",
+        "Tôi sẽ mang quà đến trả ơn. Nhưng nếu bác kể ra, tôi sẽ vồ lấy bác đấy!",
+        "Bác gật đầu: Được, tôi hứa."
+      ],
+      "image": {
+        "character": "bac-tieu-phu",
+        "prompt": "a kind woodcutter carrying a bundle of wooden stakes hurries to the pond, the vulture flies away, the grateful tiger bows and raises a paw making him promise",
+        "seed": 3996491973
+      },
+      "video": {
+        "motionPrompt": "the vulture flaps off into the sky, the tiger bows and wags a warning claw, the man nods seriously",
+        "seed": 2039108014
+      },
+      "voice": {}
+    },
+    {
+      "id": "lo-bi-mat",
+      "title": "Lỡ kể bí mật",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy, hổ lặng lẽ mang đến sân nhà bác nào măng, nào mật ong, nào trái rừng. Sáng ra, vợ bác ngạc nhiên hỏi: Ai mang quà đến thế này? Bác chẳng nói gì. Đêm sau lại có quà. Vợ bác buồn, trách: Xưa nay chuyện gì mình cũng kể cho nhau, sao lần này anh giấu em? Thương vợ, bác đành kể hết. Ngờ đâu hổ đang nấp sau nhà, nghe được cả, liền gầm lên: Sáng mai ra bờ ao gặp ta!",
+      "subtitles": [
+        "Đêm ấy, hổ lặng lẽ mang đến sân nhà bác nào măng, nào mật ong, nào trái rừng.",
+        "Sáng ra, vợ bác ngạc nhiên hỏi: Ai mang quà đến thế này?",
+        "Bác chẳng nói gì. Đêm sau lại có quà.",
+        "Vợ bác buồn, trách: Xưa nay chuyện gì mình cũng kể cho nhau, sao lần này anh giấu em?",
+        "Thương vợ, bác đành kể hết.",
+        "Ngờ đâu hổ đang nấp sau nhà, nghe được cả, liền gầm lên: Sáng mai ra bờ ao gặp ta!"
+      ],
+      "image": {
+        "character": "bac-tieu-phu",
+        "prompt": "at night outside a stilt house a woodcutter whispers to his worried wife beside baskets of bamboo shoots, honey and forest fruit, the tiger peeks from behind the house",
+        "seed": 722340627
+      },
+      "video": {
+        "motionPrompt": "the wife wipes her eyes, the man sighs and speaks softly, the tiger narrows his eyes, the moon slips behind a cloud",
+        "seed": 3393332547
+      },
+      "voice": {}
+    },
+    {
+      "id": "chu-tho-ra-tay",
+      "title": "Chú thỏ ra tay",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, bác vừa đi vừa khóc. Chú thỏ gặp, hỏi han, nghe xong bảo: Bác đừng sợ, cứ đi trước, có tôi theo sau. Tới bờ ao, hổ đang chực vồ thì thỏ nhảy ra hỏi: Ông hổ, tha cho bác ấy lần này đi! Hổ không nghe. Thỏ bảo: Ông không nghe thì tôi rũ mình một cái, cả đàn kền kền sẽ bay ra mổ ông đấy! Nói rồi thỏ rũ mình, vừa lúc trên trời có một con kền kền bay vòng vòng.",
+      "subtitles": [
+        "Sáng hôm sau, bác vừa đi vừa khóc.",
+        "Chú thỏ gặp, hỏi han, nghe xong bảo: Bác đừng sợ, cứ đi trước, có tôi theo sau.",
+        "Tới bờ ao, hổ đang chực vồ thì thỏ nhảy ra hỏi: Ông hổ, tha cho bác ấy lần này đi!",
+        "Hổ không nghe.",
+        "Thỏ bảo: Ông không nghe thì tôi rũ mình một cái, cả đàn kền kền sẽ bay ra mổ ông đấy!",
+        "Nói rồi thỏ rũ mình, vừa lúc trên trời có một con kền kền bay vòng vòng."
+      ],
+      "image": {
+        "character": "chu-tho",
+        "prompt": "at the pond the brave little hare stands in front of the woodcutter facing the big tiger, the hare shakes its fur dramatically as a vulture circles in the sky above",
+        "seed": 250358482
+      },
+      "video": {
+        "motionPrompt": "the hare shakes its whole body, the vulture circles overhead, the tiger looks up with wide frightened eyes",
+        "seed": 3179885406
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Hổ trông thấy kền kền thì sợ quá, cụp đuôi chạy tuốt vào rừng, chẳng dám quay lại. Bác tiều phu cảm ơn thỏ, vui vẻ về nhà. Các bạn ạ, hổ hứa trả ơn mà lại dọa người cứu mình, thế là không phải. Còn bác tiều phu, đã hứa thì nên giữ lời. Và khi bạn gặp khó, mình bình tĩnh nghĩ cách giúp như chú thỏ nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Hổ trông thấy kền kền thì sợ quá, cụp đuôi chạy tuốt vào rừng, chẳng dám quay lại.",
+        "Bác tiều phu cảm ơn thỏ, vui vẻ về nhà.",
+        "Các bạn ạ, hổ hứa trả ơn mà lại dọa người cứu mình, thế là không phải.",
+        "Còn bác tiều phu, đã hứa thì nên giữ lời.",
+        "Và khi bạn gặp khó, mình bình tĩnh nghĩ cách giúp như chú thỏ nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the forest edge at sunset, the happy woodcutter walks home with the little hare hopping beside him, a tiger tail disappears into the trees",
+        "seed": 1443013673
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the hare hops and the man laughs, the tiger tail vanishes into the bushes, gentle camera pull-back",
+        "seed": 1227897571
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Cham folk-inspired tune with saranai oboe-like flute, ginang hand drum and soft plucked strings, playful and warm, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3494240332
+  }
+}

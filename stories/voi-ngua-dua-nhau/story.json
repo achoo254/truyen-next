@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "slug": "voi-ngua-dua-nhau",
+  "shelf": "kids",
+  "title": "Voi ngựa đua nhau",
+  "summary": "Ngựa chê voi chậm chạp, rủ voi thi chạy. Thắng một lần, ngựa lên mặt, nhưng đến khi con sông chắn ngang thì mới biết voi giỏi thế nào. Truyện cổ Việt Nam kể nhẹ cho bé: mỗi người một tài, đừng coi thường ai.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Voi ngựa đua nhau» (số bốn) trong Truyện cổ nước Nam, quyển Muông chim (1934) của Ôn Như Nguyễn Văn Ngọc, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách; Mèo Miu mở đầu và rút ý ở cuối, thêm thoại và các bạn thú đứng xem, giữ nguyên cốt truyện và câu ca dao dân gian.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, open grassland, winding forest paths, a wide blue river and distant mountains, bright playful mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 1752651223,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-ngua",
+      "name": "Chú ngựa",
+      "seed": 2985286436,
+      "sheetPrompt": "a slim chestnut brown horse with a flowing dark mane, lively and a little proud, prancing pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-voi",
+      "name": "Bác voi",
+      "seed": 1846669653,
+      "sheetPrompt": "a big calm grey Asian elephant with small tusks, kind patient eyes, steady stance, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có thích chạy thi không? Miu thì thích lắm, nhưng lần nào cũng thua bạn sóc nhanh nhẹn. Có điều, lúc trèo cây thì Miu lại thắng đấy nhé! Ngày xưa, có chú ngựa chạy nhanh chê bác voi chậm chạp. Rồi hai bạn đua với nhau ra sao? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có thích chạy thi không?",
+        "Miu thì thích lắm, nhưng lần nào cũng thua bạn sóc nhanh nhẹn.",
+        "Có điều, lúc trèo cây thì Miu lại thắng đấy nhé!",
+        "Ngày xưa, có chú ngựa chạy nhanh chê bác voi chậm chạp.",
+        "Rồi hai bạn đua với nhau ra sao? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat stands at a starting line drawn in the grass, ready to race with a little squirrel, sunny meadow",
+        "seed": 1001737238
+      },
+      "video": {
+        "motionPrompt": "the squirrel dashes off and the cat laughs and runs after it, grass sways, gentle camera push-in",
+        "seed": 2316508980
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngua-che-voi",
+      "title": "Ngựa chê voi chậm",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, trong cánh đồng cỏ có một chú ngựa chạy nhanh như gió. Ngựa thấy bác voi đi đủng đỉnh từng bước thì bĩu môi, nói: Bác voi ơi, bác đi chậm thế, có dám thi chạy với tôi không? Voi hiền lành đáp: Ừ, thì thi cho vui. Các bạn thỏ, nai, khỉ nghe tin, kéo nhau ra xem chật cả bãi cỏ.",
+      "subtitles": [
+        "Ngày xưa, trong cánh đồng cỏ có một chú ngựa chạy nhanh như gió.",
+        "Ngựa thấy bác voi đi đủng đỉnh từng bước thì bĩu môi, nói: Bác voi ơi, bác đi chậm thế,",
+        "có dám thi chạy với tôi không? Voi hiền lành đáp: Ừ, thì thi cho vui.",
+        "Các bạn thỏ, nai, khỉ nghe tin, kéo nhau ra xem chật cả bãi cỏ."
+      ],
+      "image": {
+        "character": "con-ngua",
+        "prompt": "a proud chestnut horse prances and teases a calm grey elephant on a grassy plain, rabbits, deer and monkeys gather to watch",
+        "seed": 357637715
+      },
+      "video": {
+        "motionPrompt": "the horse tosses its mane and paws the ground, the elephant nods slowly, the animals clap and chatter",
+        "seed": 377107113
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngua-thang",
+      "title": "Ngựa thắng, ngựa lên mặt",
+      "narrator": "ke-chuyen",
+      "narration": "Lúc chạy đường thẳng, voi bước dài, chạy cũng chẳng kém ngựa là mấy. Nhưng đến đoạn đường quanh co, lượn qua lượn lại, ngựa ngoặt thoăn thoắt, còn voi to quá, cứ phải đi chậm lại mới rẽ được. Thế là ngựa về trước. Ngựa vênh mặt, hí vang: Thấy chưa, tôi nhanh nhất cánh đồng này! Voi chỉ mỉm cười, chẳng nói gì.",
+      "subtitles": [
+        "Lúc chạy đường thẳng, voi bước dài, chạy cũng chẳng kém ngựa là mấy.",
+        "Nhưng đến đoạn đường quanh co, lượn qua lượn lại, ngựa ngoặt thoăn thoắt, còn voi to quá,",
+        "cứ phải đi chậm lại mới rẽ được. Thế là ngựa về trước.",
+        "Ngựa vênh mặt, hí vang: Thấy chưa, tôi nhanh nhất cánh đồng này!",
+        "Voi chỉ mỉm cười, chẳng nói gì."
+      ],
+      "image": {
+        "character": "con-ngua",
+        "prompt": "the horse gallops around a winding curvy path far ahead, the big elephant slows carefully at a sharp bend, animals cheer at the finish",
+        "seed": 4224974991
+      },
+      "video": {
+        "motionPrompt": "the horse zips around the curves and rears up proudly at the finish, the elephant lumbers around the bend, dust puffs rise",
+        "seed": 2459252548
+      },
+      "voice": {}
+    },
+    {
+      "id": "voi-thach",
+      "title": "Voi thách thi lại",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm sau, voi tìm ngựa, nói: Hôm nay ta thi lại nhé. Cũng chạy đường quanh, nhưng phải chạy tới tận hòn núi xanh xa xa đằng kia. Ngựa cười khanh khách: Đường quanh thì tôi thắng chắc rồi, bác thua là cái chắc! Hai bạn lại xuất phát. Ngựa phóng vèo đi, bỏ voi lại tít đằng sau.",
+      "subtitles": [
+        "Hôm sau, voi tìm ngựa, nói: Hôm nay ta thi lại nhé.",
+        "Cũng chạy đường quanh, nhưng phải chạy tới tận hòn núi xanh xa xa đằng kia.",
+        "Ngựa cười khanh khách: Đường quanh thì tôi thắng chắc rồi, bác thua là cái chắc!",
+        "Hai bạn lại xuất phát. Ngựa phóng vèo đi, bỏ voi lại tít đằng sau."
+      ],
+      "image": {
+        "character": "con-voi",
+        "prompt": "the calm elephant points its trunk toward a distant green mountain, the horse laughs, then the horse races away along the winding path",
+        "seed": 3653899279
+      },
+      "video": {
+        "motionPrompt": "the elephant raises its trunk toward the mountain, the horse laughs and bolts off, clouds roll across the sky",
+        "seed": 4064268000
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-song",
+      "title": "Con sông chắn ngang",
+      "narrator": "ke-chuyen",
+      "narration": "Chạy được một lúc, ngựa bỗng khựng lại. Trước mặt là một con sông rộng, nước chảy cuồn cuộn. Ngựa đi lên, đi xuống, chẳng biết làm sao mà sang. Đúng lúc ấy, voi đủng đỉnh tới nơi. Voi chẳng nói chẳng rằng, lội ùm xuống sông, nước chỉ ngang bụng. Voi giơ vòi lên cao, bước từng bước vững chãi, sang tận bờ bên kia, rồi đi thẳng tới chân núi.",
+      "subtitles": [
+        "Chạy được một lúc, ngựa bỗng khựng lại.",
+        "Trước mặt là một con sông rộng, nước chảy cuồn cuộn.",
+        "Ngựa đi lên, đi xuống, chẳng biết làm sao mà sang.",
+        "Đúng lúc ấy, voi đủng đỉnh tới nơi.",
+        "Voi chẳng nói chẳng rằng, lội ùm xuống sông, nước chỉ ngang bụng.",
+        "Voi giơ vòi lên cao, bước từng bước vững chãi, sang tận bờ bên kia,",
+        "rồi đi thẳng tới chân núi."
+      ],
+      "image": {
+        "character": "con-voi",
+        "prompt": "the horse stops anxiously at the edge of a wide flowing river, the elephant wades steadily across with its trunk raised high toward the far mountain",
+        "seed": 1338337176
+      },
+      "video": {
+        "motionPrompt": "the river flows, the horse paces the bank, the elephant wades step by step making gentle waves, birds fly overhead",
+        "seed": 518922622
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Ngựa đứng bên này sông, ngượng đỏ cả mặt, đành chịu thua. Từ đó, ngựa không dám coi thường voi nữa. Ông bà mình có câu ca rằng: Ngựa lau chau, ngựa đến bến giang. Voi đủng đỉnh, voi sang qua đò. Các bạn ạ, ai cũng có cái giỏi riêng. Nhanh chưa chắc đã hơn, chậm mà chắc cũng tới nơi. Đừng vội chê ai nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Ngựa đứng bên này sông, ngượng đỏ cả mặt, đành chịu thua.",
+        "Từ đó, ngựa không dám coi thường voi nữa.",
+        "Ông bà mình có câu ca rằng: Ngựa lau chau, ngựa đến bến giang.",
+        "Voi đủng đỉnh, voi sang qua đò. Các bạn ạ, ai cũng có cái giỏi riêng.",
+        "Nhanh chưa chắc đã hơn, chậm mà chắc cũng tới nơi.",
+        "Đừng vội chê ai nhé. Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye on the riverbank at sunset, the horse bows politely to the elephant standing on the far bank under the green mountain",
+        "seed": 4277861622
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the horse lowers its head, the elephant lifts its trunk in a friendly greeting, warm golden light, gentle camera pull-back",
+        "seed": 2471815466
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "cheerful Vietnamese folk tune, bamboo flute, dan nguyet lute and light wooden percussion like trotting hooves, playful then calm, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2774191412
+  }
+}
