@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "slug": "co-con-gai-thong-minh-cua-nguoi-nong-dan",
+  "shelf": "world",
+  "title": "Cô con gái thông minh của bác nông dân",
+  "summary": "Không mặc áo mà chẳng trần truồng, không cưỡi ngựa mà chẳng đi bộ: cô con gái bác nông dân giải được câu đố hóc búa của nhà vua và trở thành hoàng hậu. Đến khi bị đuổi về quê, nàng chỉ được mang theo một thứ quý nhất, và nàng chọn đúng thứ khiến nhà vua rơi nước mắt. Truyện cổ Grimm về trí khôn và tấm lòng.",
+  "themes": [
+    "tinh-yeu",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Die kluge Bauerntochter\" (Kinder- und Hausmärchen, bản 1857, truyện số 94), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh của Margaret Hunt trên Project Gutenberg. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: cô gái quấn mình trong tấm lưới đánh cá (không nói chuyện cởi áo), bác nông dân mất ngựa chỉ bị tra hỏi mãi chứ không bị đánh, bát thuốc ngủ chỉ là chén trà an thần.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, golden wheat fields, a humble farm cottage and a grand old castle courtyard, gentle humorous faces, warm earthy colors, safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "co-gai",
+      "name": "Cô con gái nông dân",
+      "seed": 4241002880,
+      "sheetPrompt": "a bright-eyed young German peasant woman with a long chestnut braid, a simple brown dress and white apron, clever confident smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nha-vua",
+      "name": "Nhà vua",
+      "seed": 3191593310,
+      "sheetPrompt": "a middle-aged German king with a neat brown beard, a golden crown and a red velvet cloak, stern but fair face that softens easily, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bac-nong-dan",
+      "name": "Bác nông dân",
+      "seed": 3613160437,
+      "sheetPrompt": "a thin old German peasant father with a grey beard, patched trousers, a worn felt hat and a shovel, honest worried face, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cai-coi-vang",
+      "title": "Cái cối bằng vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bác nông dân nghèo chẳng có lấy một mảnh ruộng, chỉ có căn nhà nhỏ và một cô con gái. Cô gái bảo: \"Cha ơi, ta xin nhà vua một mảnh đất hoang mà cày cấy đi.\" Nhà vua nghe hai cha con nghèo khó, bèn cho một mảnh đất. Hai cha con hì hục đào xới, gần xong thì bỗng thấy dưới đất một cái cối bằng vàng ròng. Bác nông dân nói: \"Vua đã tốt với ta, ta nên dâng cái cối này lên vua.\" Cô con gái can: \"Cha đừng làm thế. Có cối mà không có chày, thế nào vua cũng đòi cả cái chày. Tốt nhất cha đừng nói gì cả.\"",
+      "subtitles": [
+        "Ngày xưa, có một bác nông dân nghèo chẳng có lấy một mảnh ruộng,",
+        "chỉ có căn nhà nhỏ và một cô con gái.",
+        "Cô gái bảo: \"Cha ơi, ta xin nhà vua một mảnh đất hoang mà cày cấy đi.\"",
+        "Nhà vua nghe hai cha con nghèo khó, bèn cho một mảnh đất.",
+        "Hai cha con hì hục đào xới, gần xong thì bỗng thấy dưới đất một cái cối bằng vàng ròng.",
+        "Bác nông dân nói: \"Vua đã tốt với ta, ta nên dâng cái cối này lên vua.\"",
+        "Cô con gái can: \"Cha đừng làm thế. Có cối mà không có chày,",
+        "thế nào vua cũng đòi cả cái chày. Tốt nhất cha đừng nói gì cả.\""
+      ],
+      "image": {
+        "prompt": "a poor old peasant and his young daughter digging in a freshly cleared field, the father lifting a shining golden mortar out of the brown earth, the daughter raising a hand in warning",
+        "seed": 2853995354,
+        "character": "bac-nong-dan"
+      },
+      "video": {
+        "motionPrompt": "the golden mortar gleams in the sunlight as the father lifts it high, the daughter shakes her head, wheat sways at the field's edge",
+        "seed": 1366234316
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-giam",
+      "title": "Giá mà nghe lời con gái",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng bác nông dân chẳng nghe, mang cối vào dâng vua. Vua nhận cối rồi hỏi: \"Thế cái chày đâu? Mang cả chày đến đây cho ta.\" Bác thưa chẳng thấy chày nào, mà nói cũng như nói với gió. Vua sai giam bác lại, bao giờ có chày mới được về. Ngày nào lính mang bánh mì và nước vào, cũng nghe bác than mãi: \"Giá mà ta nghe lời con gái! Ôi, giá mà ta nghe lời con gái!\" Vua cho gọi bác lên hỏi vì sao. Nghe kể xong, vua nói: \"Con gái ngươi khôn ngoan đến thế cơ à? Bảo nó đến đây gặp ta.\"",
+      "subtitles": [
+        "Nhưng bác nông dân chẳng nghe, mang cối vào dâng vua.",
+        "Vua nhận cối rồi hỏi: \"Thế cái chày đâu? Mang cả chày đến đây cho ta.\"",
+        "Bác thưa chẳng thấy chày nào, mà nói cũng như nói với gió.",
+        "Vua sai giam bác lại, bao giờ có chày mới được về.",
+        "Ngày nào lính mang bánh mì và nước vào, cũng nghe bác than mãi:",
+        "\"Giá mà ta nghe lời con gái! Ôi, giá mà ta nghe lời con gái!\"",
+        "Vua cho gọi bác lên hỏi vì sao. Nghe kể xong, vua nói:",
+        "\"Con gái ngươi khôn ngoan đến thế cơ à? Bảo nó đến đây gặp ta.\""
+      ],
+      "image": {
+        "prompt": "the old peasant sitting sadly in a plain stone room with a small barred window, a loaf of bread and a jug of water beside him, a guard listening at the door",
+        "seed": 1149041191,
+        "character": "bac-nong-dan"
+      },
+      "video": {
+        "motionPrompt": "the old man rocks gently and sighs, light shifts through the small window, the guard leans in to listen",
+        "seed": 3328525524
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-do",
+      "title": "Câu đố của nhà vua",
+      "narrator": "ke-chuyen",
+      "narration": "Cô gái đến, vua bảo: \"Ta ra cho ngươi một câu đố. Giải được, ta sẽ cưới ngươi làm vợ. Hãy đến gặp ta mà không mặc áo cũng chẳng để trần, không cưỡi ngựa cũng chẳng đi bộ, không đi trên đường mà cũng chẳng đi ngoài đường.\" Cô gái về nhà, lấy một tấm lưới đánh cá thật to, quấn quanh người hết vòng này đến vòng khác. Thế là không mặc áo mà cũng chẳng để trần. Cô thuê một con lừa, buộc tấm lưới vào đuôi lừa cho nó kéo đi. Thế là không cưỡi mà cũng chẳng đi bộ. Lừa kéo cô theo vệt bánh xe, chỉ có ngón chân cái chạm đất: thế là không ở trên đường mà cũng chẳng ở ngoài đường.",
+      "subtitles": [
+        "Cô gái đến, vua bảo: \"Ta ra cho ngươi một câu đố. Giải được, ta sẽ cưới ngươi làm vợ.",
+        "Hãy đến gặp ta mà không mặc áo cũng chẳng để trần,",
+        "không cưỡi ngựa cũng chẳng đi bộ, không đi trên đường mà cũng chẳng đi ngoài đường.\"",
+        "Cô gái về nhà, lấy một tấm lưới đánh cá thật to,",
+        "quấn quanh người hết vòng này đến vòng khác.",
+        "Thế là không mặc áo mà cũng chẳng để trần.",
+        "Cô thuê một con lừa, buộc tấm lưới vào đuôi lừa cho nó kéo đi.",
+        "Thế là không cưỡi mà cũng chẳng đi bộ.",
+        "Lừa kéo cô theo vệt bánh xe, chỉ có ngón chân cái chạm đất:",
+        "thế là không ở trên đường mà cũng chẳng ở ngoài đường."
+      ],
+      "image": {
+        "prompt": "a clever young woman wrapped round and round in a big fishing net, being pulled along a rutted country road by a little grey donkey, her big toe touching the ground, astonished courtiers at the castle gate, comical and charming",
+        "seed": 839859223,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the donkey trots along pulling the netted bundle, the young woman smiles confidently, courtiers gasp and point",
+        "seed": 2448804005
+      },
+      "voice": {}
+    },
+    {
+      "id": "thanh-hoang-hau",
+      "title": "Cô gái thành hoàng hậu",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua thấy vậy thì phục lắm, tuyên bố cô đã giải được câu đố. Vua cho thả cha cô về, cưới cô làm hoàng hậu, giao cho cô trông nom mọi của cải trong cung. Mấy năm sau, một hôm vua duyệt binh, có mấy bác nông dân bán củi dừng xe trước cung điện. Một con ngựa vừa đẻ một chú ngựa non. Ngựa con chạy sang nằm giữa hai con bò của người bên cạnh. Hai người cãi nhau ầm ĩ. Người có bò khăng khăng bảo bò của mình đẻ ra ngựa con. Vua phán: ngựa con nằm ở đâu thì thuộc về người đó. Người mất ngựa buồn rầu, nghe nói hoàng hậu vốn con nhà nông, bèn tìm đến xin giúp.",
+      "subtitles": [
+        "Nhà vua thấy vậy thì phục lắm, tuyên bố cô đã giải được câu đố.",
+        "Vua cho thả cha cô về, cưới cô làm hoàng hậu,",
+        "giao cho cô trông nom mọi của cải trong cung.",
+        "Mấy năm sau, một hôm vua duyệt binh, có mấy bác nông dân bán củi dừng xe trước cung điện.",
+        "Một con ngựa vừa đẻ một chú ngựa non.",
+        "Ngựa con chạy sang nằm giữa hai con bò của người bên cạnh.",
+        "Hai người cãi nhau ầm ĩ. Người có bò khăng khăng bảo bò của mình đẻ ra ngựa con.",
+        "Vua phán: ngựa con nằm ở đâu thì thuộc về người đó.",
+        "Người mất ngựa buồn rầu, nghe nói hoàng hậu vốn con nhà nông, bèn tìm đến xin giúp."
+      ],
+      "image": {
+        "prompt": "a lively square before the castle, wood-sellers' wagons with oxen and horses, a tiny newborn foal lying between two big oxen, two peasants arguing with waving arms, the king on horseback watching",
+        "seed": 3553914156,
+        "character": "nha-vua"
+      },
+      "video": {
+        "motionPrompt": "the little foal blinks and nestles between the oxen, the two peasants wave their arms and argue, soldiers march in the background",
+        "seed": 3202089024
+      },
+      "voice": {}
+    },
+    {
+      "id": "danh-ca-tren-can",
+      "title": "Đánh cá trên cạn",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng hậu bảo: \"Ta sẽ giúp, nhưng ông phải hứa không được nói ra là ta bày.\" Sáng hôm sau, bác nông dân đứng giữa đường vua đi qua, quăng lưới xuống đất khô như đang đánh cá. Vua sai lính hỏi: \"Không có nước, ông đánh cá kiểu gì?\" Bác đáp: \"Tôi đánh cá trên cạn cũng dễ như bò đẻ ra ngựa con thôi.\" Vua biết ngay đó không phải ý của bác, gặng hỏi mãi. Bác giữ lời một hồi lâu, nhưng bị tra hỏi suốt từ sáng đến tối, cuối cùng đành thú thật là hoàng hậu bày cho.",
+      "subtitles": [
+        "Hoàng hậu bảo: \"Ta sẽ giúp, nhưng ông phải hứa không được nói ra là ta bày.\"",
+        "Sáng hôm sau, bác nông dân đứng giữa đường vua đi qua,",
+        "quăng lưới xuống đất khô như đang đánh cá.",
+        "Vua sai lính hỏi: \"Không có nước, ông đánh cá kiểu gì?\"",
+        "Bác đáp: \"Tôi đánh cá trên cạn cũng dễ như bò đẻ ra ngựa con thôi.\"",
+        "Vua biết ngay đó không phải ý của bác, gặng hỏi mãi.",
+        "Bác giữ lời một hồi lâu, nhưng bị tra hỏi suốt từ sáng đến tối,",
+        "cuối cùng đành thú thật là hoàng hậu bày cho."
+      ],
+      "image": {
+        "prompt": "an old peasant standing on a dusty dry road casting a fishing net onto the ground as if fishing, the king on horseback with his guards stopping to stare in puzzlement",
+        "seed": 2366482958,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the peasant casts the net onto the dry road and pretends to haul it in, the king raises an eyebrow, dust swirls",
+        "seed": 3649882950
+      },
+      "voice": {}
+    },
+    {
+      "id": "thu-quy-nhat",
+      "title": "Thứ quý nhất",
+      "narrator": "ke-chuyen",
+      "narration": "Về cung, vua giận lắm: \"Sao nàng dám lừa ta? Ta không cần nàng nữa. Nàng về túp lều cũ mà ở!\" Nhưng vua cho nàng một ân huệ: được mang theo một thứ quý nhất, đẹp nhất trong mắt nàng. Hoàng hậu dịu dàng: \"Vâng, nếu chàng muốn vậy.\" Rồi nàng xin uống với vua một chén trà từ biệt. Nàng pha vào chén trà an thần thật đậm. Vua uống một hơi dài, còn nàng chỉ nhấp môi. Vua ngủ say. Nàng lấy tấm khăn trắng quấn vua lại, nhờ người hầu khiêng ra xe, đưa về túp lều nhỏ, đặt vua nằm trên chiếc giường của mình.",
+      "subtitles": [
+        "Về cung, vua giận lắm: \"Sao nàng dám lừa ta?",
+        "Ta không cần nàng nữa. Nàng về túp lều cũ mà ở!\"",
+        "Nhưng vua cho nàng một ân huệ: được mang theo một thứ quý nhất, đẹp nhất trong mắt nàng.",
+        "Hoàng hậu dịu dàng: \"Vâng, nếu chàng muốn vậy.\"",
+        "Rồi nàng xin uống với vua một chén trà từ biệt.",
+        "Nàng pha vào chén trà an thần thật đậm. Vua uống một hơi dài, còn nàng chỉ nhấp môi.",
+        "Vua ngủ say. Nàng lấy tấm khăn trắng quấn vua lại, nhờ người hầu khiêng ra xe,",
+        "đưa về túp lều nhỏ, đặt vua nằm trên chiếc giường của mình."
+      ],
+      "image": {
+        "prompt": "night, a gentle queen tucking a white linen cloth around the sleeping king as a servant carefully lifts him into a carriage, lantern light, a crescent moon",
+        "seed": 322594231,
+        "character": "nha-vua"
+      },
+      "video": {
+        "motionPrompt": "the lantern swings softly, the king sleeps peacefully with a little smile, the queen smooths the cloth, the carriage horses shift their hooves",
+        "seed": 3042324197
+      },
+      "voice": {}
+    },
+    {
+      "id": "tinh-day",
+      "title": "Vua tỉnh dậy trong túp lều",
+      "narrator": "ke-chuyen",
+      "narration": "Vua ngủ một ngày một đêm, tỉnh dậy nhìn quanh: \"Trời ơi, ta đang ở đâu thế này?\" Vua gọi người hầu, chẳng ai thưa. Hoàng hậu bước đến bên giường, nói: \"Thưa chàng, chàng cho thiếp mang theo thứ quý nhất, đẹp nhất trong mắt thiếp. Mà với thiếp, chẳng có gì quý hơn chàng, nên thiếp mang chàng về đây.\" Vua rưng rưng nước mắt: \"Nàng ơi, nàng là của ta, ta là của nàng.\" Rồi vua đưa hoàng hậu trở về cung điện, cưới lại một lần nữa. Và chắc hẳn, hai người còn sống bên nhau hạnh phúc đến tận hôm nay.",
+      "subtitles": [
+        "Vua ngủ một ngày một đêm, tỉnh dậy nhìn quanh: \"Trời ơi, ta đang ở đâu thế này?\"",
+        "Vua gọi người hầu, chẳng ai thưa. Hoàng hậu bước đến bên giường, nói:",
+        "\"Thưa chàng, chàng cho thiếp mang theo thứ quý nhất, đẹp nhất trong mắt thiếp.",
+        "Mà với thiếp, chẳng có gì quý hơn chàng, nên thiếp mang chàng về đây.\"",
+        "Vua rưng rưng nước mắt: \"Nàng ơi, nàng là của ta, ta là của nàng.\"",
+        "Rồi vua đưa hoàng hậu trở về cung điện, cưới lại một lần nữa.",
+        "Và chắc hẳn, hai người còn sống bên nhau hạnh phúc đến tận hôm nay."
+      ],
+      "image": {
+        "prompt": "inside a humble peasant cottage, the king sitting up in a small wooden bed with tears of joy, holding the hands of the smiling queen beside him, morning sunlight through a little window",
+        "seed": 2311237855,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "morning light warms the room, the king takes the queen's hands, tears glisten, a gentle slow push-in",
+        "seed": 2438507630
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm German folk ballad, guitar, recorder and soft strings, a clever playful theme for the riddle, a tender heartfelt melody at the ending, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 3316356442
+  }
+}

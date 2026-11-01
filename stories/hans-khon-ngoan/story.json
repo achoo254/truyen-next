@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "slug": "hans-khon-ngoan",
+  "shelf": "world",
+  "title": "Hans khôn ngoan",
+  "summary": "Mỗi lần sang nhà cô Gretel, chàng Hans lại được tặng một món quà, và lần nào cũng mang về sai cách: kim cắm vào xe cỏ, dê con nhét túi áo, bê con đội lên đầu. Truyện cổ Grimm vui nhộn về anh chàng chỉ biết làm theo lời mẹ dặn, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der gescheite Hans\" (Kinder- und Hausmärchen, bản 1857, truyện số 32), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh của Margaret Hunt (truyện số 32) trên Project Gutenberg #5314 (và #2591), cái kết theo bản tiếng Đức. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: dê con chỉ khó chịu rồi vùng chạy về nhà Gretel; lời dặn \"đưa mắt tình tứ\" của mẹ, Hans hiểu thành ném những viên bi \"mắt mèo\" thay cho chi tiết mắt bê mắt cừu của truyện gốc.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a small German village with timber-framed cottages, a dusty country lane and green meadows, comical expressive faces, warm cheerful light, safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hans",
+      "name": "Hans",
+      "seed": 668853169,
+      "sheetPrompt": "a lanky good-natured young German peasant lad with a mop of straw-blond hair, a wide innocent grin, green felt hat, brown waistcoat with big pockets, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "gretel",
+      "name": "Gretel",
+      "seed": 3426567315,
+      "sheetPrompt": "a cheerful young German village girl with two thick blond braids, a red bodice, white blouse and blue apron, hands on her hips, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "me-hans",
+      "name": "Mẹ của Hans",
+      "seed": 4115578610,
+      "sheetPrompt": "a plump kindly old German peasant mother with a white bonnet, a grey shawl and a patient tired smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cay-kim",
+      "title": "Cây kim và xe cỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Mẹ của Hans hỏi: \"Đi đâu đấy Hans?\" \"Sang nhà Gretel ạ.\" \"Ngoan nhé Hans.\" \"Con ngoan mà. Chào mẹ.\" \"Chào con.\" Hans sang đến nơi: \"Chào Gretel.\" \"Chào Hans. Anh mang gì sang cho em thế?\" \"Chẳng mang gì cả. Anh sang để được cho cái gì đấy thôi.\" Gretel bèn tặng Hans một cây kim khâu. Trên đường về, Hans gặp một chiếc xe chở cỏ khô. Anh cắm luôn cây kim vào đống cỏ, rồi lững thững đi theo xe về nhà. Mẹ hỏi: \"Kim đâu rồi Hans?\" \"Con cắm vào xe cỏ rồi ạ.\" \"Dại quá con ơi! Phải cài kim vào tay áo chứ.\" \"Không sao, lần sau con làm tốt hơn.\"",
+      "subtitles": [
+        "Mẹ của Hans hỏi: \"Đi đâu đấy Hans?\" \"Sang nhà Gretel ạ.\" \"Ngoan nhé Hans.\"",
+        "\"Con ngoan mà. Chào mẹ.\" \"Chào con.\"",
+        "Hans sang đến nơi: \"Chào Gretel.\" \"Chào Hans. Anh mang gì sang cho em thế?\"",
+        "\"Chẳng mang gì cả. Anh sang để được cho cái gì đấy thôi.\"",
+        "Gretel bèn tặng Hans một cây kim khâu.",
+        "Trên đường về, Hans gặp một chiếc xe chở cỏ khô.",
+        "Anh cắm luôn cây kim vào đống cỏ, rồi lững thững đi theo xe về nhà.",
+        "Mẹ hỏi: \"Kim đâu rồi Hans?\" \"Con cắm vào xe cỏ rồi ạ.\"",
+        "\"Dại quá con ơi! Phải cài kim vào tay áo chứ.\" \"Không sao, lần sau con làm tốt hơn.\""
+      ],
+      "image": {
+        "prompt": "a grinning young peasant lad sticking a tiny sewing needle into a big hay cart and walking happily behind it down a village lane, his mother at a cottage door shaking her head",
+        "seed": 1445723475,
+        "character": "hans"
+      },
+      "video": {
+        "motionPrompt": "the hay cart rolls along the lane, Hans strolls behind whistling, wisps of hay blow in the breeze",
+        "seed": 2854245944
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-dao-va-de-con",
+      "title": "Con dao và chú dê con",
+      "narrator": "ke-chuyen",
+      "narration": "Lần sau, Gretel tặng Hans một con dao nhỏ. Nhớ lời mẹ, Hans giắt luôn con dao vào tay áo mà về. \"Dao đâu Hans?\" \"Giắt trong tay áo ạ.\" \"Dại quá! Dao thì phải bỏ vào túi chứ.\" \"Không sao, lần sau con làm tốt hơn.\" Lần sau nữa, Gretel tặng Hans một chú dê con. Nhớ lời mẹ, Hans nhét chú dê vào túi áo. Dê con chật chội khó chịu quá, kêu be be, giãy mãi, rồi nhảy tót ra, chạy một mạch về nhà Gretel. \"Dê đâu Hans?\" \"Con bỏ vào túi, nó chạy mất rồi ạ.\" \"Dại quá! Phải buộc dây vào cổ mà dắt chứ.\" \"Không sao, lần sau con làm tốt hơn.\"",
+      "subtitles": [
+        "Lần sau, Gretel tặng Hans một con dao nhỏ.",
+        "Nhớ lời mẹ, Hans giắt luôn con dao vào tay áo mà về.",
+        "\"Dao đâu Hans?\" \"Giắt trong tay áo ạ.\"",
+        "\"Dại quá! Dao thì phải bỏ vào túi chứ.\" \"Không sao, lần sau con làm tốt hơn.\"",
+        "Lần sau nữa, Gretel tặng Hans một chú dê con.",
+        "Nhớ lời mẹ, Hans nhét chú dê vào túi áo.",
+        "Dê con chật chội khó chịu quá, kêu be be, giãy mãi,",
+        "rồi nhảy tót ra, chạy một mạch về nhà Gretel.",
+        "\"Dê đâu Hans?\" \"Con bỏ vào túi, nó chạy mất rồi ạ.\"",
+        "\"Dại quá! Phải buộc dây vào cổ mà dắt chứ.\" \"Không sao, lần sau con làm tốt hơn.\""
+      ],
+      "image": {
+        "prompt": "Hans trying to stuff a wriggling little white goat kid into the big pocket of his waistcoat, the goat bleating with its head poking out, comical country road scene",
+        "seed": 671809356,
+        "character": "hans"
+      },
+      "video": {
+        "motionPrompt": "the little goat wriggles, kicks and leaps out of the pocket, then scampers away down the road, Hans scratches his head",
+        "seed": 3556379219
+      },
+      "voice": {}
+    },
+    {
+      "id": "mieng-thit-xong-khoi",
+      "title": "Miếng thịt xông khói",
+      "narrator": "ke-chuyen",
+      "narration": "Lần ấy, Gretel tặng Hans một miếng thịt xông khói to. Nhớ lời mẹ, Hans lấy dây buộc miếng thịt, kéo lê sau lưng mà đi. Lũ chó trong làng ngửi thấy mùi thơm, kéo nhau chạy theo, con nào cũng đớp một miếng, chẳng mấy chốc đã sạch trơn. Về đến nhà, trong tay Hans chỉ còn sợi dây không. \"Thịt đâu Hans?\" \"Con buộc dây kéo về, chó ăn mất rồi ạ.\" \"Dại quá! Thịt thì phải đội lên đầu mà mang chứ.\" \"Không sao, lần sau con làm tốt hơn.\"",
+      "subtitles": [
+        "Lần ấy, Gretel tặng Hans một miếng thịt xông khói to.",
+        "Nhớ lời mẹ, Hans lấy dây buộc miếng thịt, kéo lê sau lưng mà đi.",
+        "Lũ chó trong làng ngửi thấy mùi thơm, kéo nhau chạy theo,",
+        "con nào cũng đớp một miếng, chẳng mấy chốc đã sạch trơn.",
+        "Về đến nhà, trong tay Hans chỉ còn sợi dây không.",
+        "\"Thịt đâu Hans?\" \"Con buộc dây kéo về, chó ăn mất rồi ạ.\"",
+        "\"Dại quá! Thịt thì phải đội lên đầu mà mang chứ.\"",
+        "\"Không sao, lần sau con làm tốt hơn.\""
+      ],
+      "image": {
+        "prompt": "Hans walking proudly down the lane dragging a slab of smoked bacon on a long rope behind him, a merry pack of village dogs chasing and nibbling at it",
+        "seed": 2077268389,
+        "character": "hans"
+      },
+      "video": {
+        "motionPrompt": "the dogs bound after the bacon, tails wagging, Hans walks on without looking back, dust puffs up from the lane",
+        "seed": 815328505
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-be",
+      "title": "Chú bê con trên đầu",
+      "narrator": "ke-chuyen",
+      "narration": "Lần sau nữa, Gretel tặng Hans một chú bê con. Nhớ lời mẹ, Hans nhấc bê con đặt lên đầu mà đi. Bê con sợ hãi, giãy đạp lung tung, đá vào mặt Hans mấy cái liền. \"Bê đâu Hans?\" \"Con đội lên đầu, nó đá vào mặt con ạ.\" \"Dại quá! Bê thì phải dắt về, cho vào chuồng, rải ít cỏ cho nó ăn chứ.\" \"Không sao, lần sau con làm tốt hơn.\"",
+      "subtitles": [
+        "Lần sau nữa, Gretel tặng Hans một chú bê con.",
+        "Nhớ lời mẹ, Hans nhấc bê con đặt lên đầu mà đi.",
+        "Bê con sợ hãi, giãy đạp lung tung, đá vào mặt Hans mấy cái liền.",
+        "\"Bê đâu Hans?\" \"Con đội lên đầu, nó đá vào mặt con ạ.\"",
+        "\"Dại quá! Bê thì phải dắt về, cho vào chuồng, rải ít cỏ cho nó ăn chứ.\"",
+        "\"Không sao, lần sau con làm tốt hơn.\""
+      ],
+      "image": {
+        "prompt": "Hans balancing a startled brown calf on top of his head, the calf kicking its little legs in the air, Hans squinting and wobbling, very comical",
+        "seed": 551920213,
+        "character": "hans"
+      },
+      "video": {
+        "motionPrompt": "the calf kicks and wobbles on Hans's head, Hans staggers left and right trying to keep balance",
+        "seed": 2552702368
+      },
+      "voice": {}
+    },
+    {
+      "id": "dat-gretel-ve",
+      "title": "Hans dắt Gretel về",
+      "narrator": "ke-chuyen",
+      "narration": "Lần cuối cùng, Hans lại sang: \"Chào Gretel.\" Gretel cười: \"Lần này em không tặng gì cả. Em sẽ đi với anh.\" Nhớ lời mẹ, Hans buộc một sợi dây, dắt Gretel về, đưa vào chuồng, buộc bên máng cỏ, lại rải cho cô một nắm cỏ. Mẹ hỏi: \"Gretel đâu Hans?\" \"Con dắt về chuồng, rải cỏ cho cô ấy rồi ạ.\" \"Dại quá con ơi! Với Gretel thì phải đưa mắt tình tứ chứ.\" \"Không sao, lần sau con làm tốt hơn.\"",
+      "subtitles": [
+        "Lần cuối cùng, Hans lại sang: \"Chào Gretel.\"",
+        "Gretel cười: \"Lần này em không tặng gì cả. Em sẽ đi với anh.\"",
+        "Nhớ lời mẹ, Hans buộc một sợi dây, dắt Gretel về,",
+        "đưa vào chuồng, buộc bên máng cỏ, lại rải cho cô một nắm cỏ.",
+        "Mẹ hỏi: \"Gretel đâu Hans?\" \"Con dắt về chuồng, rải cỏ cho cô ấy rồi ạ.\"",
+        "\"Dại quá con ơi! Với Gretel thì phải đưa mắt tình tứ chứ.\"",
+        "\"Không sao, lần sau con làm tốt hơn.\""
+      ],
+      "image": {
+        "prompt": "inside a cosy wooden stable, Gretel standing next to a hay manger with a loose rope around her waist, arms crossed and eyebrows raised, Hans offering her a handful of grass with a proud smile",
+        "seed": 4066335056,
+        "character": "gretel"
+      },
+      "video": {
+        "motionPrompt": "Hans sprinkles grass in front of Gretel, Gretel taps her foot in disbelief, a cow in the next stall turns its head to watch",
+        "seed": 243094554
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhung-vien-bi",
+      "title": "Những viên bi mắt mèo",
+      "narrator": "ke-chuyen",
+      "narration": "Hans nghĩ mãi về hai chữ \"đưa mắt\". Anh lục trong túi, thấy một nắm bi ve mà trẻ con trong làng vẫn gọi là bi mắt mèo. \"À, mắt đây rồi!\" Hans vui vẻ chạy ra chuồng, ném cả nắm bi mắt mèo lách cách vào người Gretel. Lần này thì Gretel giận thật. Cô giật tung sợi dây, chạy một mạch về nhà, và từ đó chẳng còn là vợ sắp cưới của Hans nữa. Còn Hans thì vẫn gãi đầu: \"Không sao, lần sau con làm tốt hơn.\"",
+      "subtitles": [
+        "Hans nghĩ mãi về hai chữ \"đưa mắt\".",
+        "Anh lục trong túi, thấy một nắm bi ve mà trẻ con trong làng vẫn gọi là bi mắt mèo.",
+        "\"À, mắt đây rồi!\" Hans vui vẻ chạy ra chuồng,",
+        "ném cả nắm bi mắt mèo lách cách vào người Gretel.",
+        "Lần này thì Gretel giận thật. Cô giật tung sợi dây, chạy một mạch về nhà,",
+        "và từ đó chẳng còn là vợ sắp cưới của Hans nữa.",
+        "Còn Hans thì vẫn gãi đầu: \"Không sao, lần sau con làm tốt hơn.\""
+      ],
+      "image": {
+        "prompt": "Hans tossing a handful of shiny colorful glass marbles toward Gretel in the stable, Gretel throwing off the rope and marching out the stable door in a huff, marbles bouncing on the straw floor",
+        "seed": 3650559456,
+        "character": "hans"
+      },
+      "video": {
+        "motionPrompt": "colorful glass marbles bounce and roll across the straw, Gretel stomps out of the stable, Hans scratches his head with a puzzled grin",
+        "seed": 3044690249
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful German village folk dance, oompah tuba, clarinet and fiddle, a repeating cheeky motif each time Hans comes home, light and comical, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 1473049742
+  }
+}

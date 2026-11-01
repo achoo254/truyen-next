@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "slug": "cai-ban-than",
+  "shelf": "world",
+  "title": "Cái bàn thần, con lừa vàng và cây gậy",
+  "summary": "Vì con dê nói dối, ông thợ may đuổi cả ba người con trai đi. Mỗi người học nghề và được thầy tặng một báu vật: cái bàn tự dọn cỗ, con lừa nhả ra vàng và cây gậy biết tự nhảy khỏi bao. Nhưng trên đường về còn một lão chủ quán tham lam. Truyện cổ Grimm vui nhộn, kể nhẹ cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "gia-dinh",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Tischchen deck dich, Goldesel und Knüppel aus dem Sack\" (Kinder- und Hausmärchen, bản 1857, truyện số 36), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Wishing-Table, the Gold-Ass, and the Cudgel in the Sack\" trên Project Gutenberg. Lời kể viết mới bằng tiếng Việt; bản kể nhẹ cho cả nhà: ông thợ may chỉ cạo trọc đầu con dê rồi đuổi nó đi, và cây gậy chỉ nện cho lão chủ quán một trận để lão trả lại đồ.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and lively ink lines, a tailor cottage, green meadows with a goat, a cosy timbered village inn, magical everyday objects, comic warm mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "con-de",
+      "name": "Con dê",
+      "seed": 2206395640,
+      "sheetPrompt": "a mischievous white nanny goat with a little beard, sly half-closed eyes and a bell on a string, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-tho-may",
+      "name": "Ông thợ may",
+      "seed": 610525168,
+      "sheetPrompt": "an old German village tailor with round spectacles, a measuring tape around his neck, a grey waistcoat, a quick-tempered but loving face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chu-quan",
+      "name": "Lão chủ quán",
+      "seed": 533281539,
+      "sheetPrompt": "a plump greedy village innkeeper with a curled moustache, a stained apron and shifty eyes, rubbing his hands, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "con-de-noi-doi",
+      "title": "Con dê nói dối",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một ông thợ may có ba người con trai và một con dê. Cả nhà uống sữa dê, nên ngày nào cũng phải dắt dê ra đồng ăn cỏ. Hôm ấy, đến lượt người con cả. Cậu dắt dê đến bãi cỏ non nhất, để nó ăn thoả thích. Chiều về, cậu hỏi: \"Dê ơi, no chưa?\" Dê đáp: \"No lắm rồi, chẳng ăn thêm được lá nào nữa.\" Nhưng tối đến, ông bố ra chuồng hỏi, con dê lại kêu: \"No sao được? Tôi chỉ nhảy qua mấy cái mương, chẳng thấy lá cỏ nào cả, be be!\" Ông thợ may giận lắm, đuổi người con cả ra khỏi nhà.",
+      "subtitles": [
+        "Ngày xưa, có một ông thợ may có ba người con trai và một con dê.",
+        "Cả nhà uống sữa dê, nên ngày nào cũng phải dắt dê ra đồng ăn cỏ.",
+        "Hôm ấy, đến lượt người con cả. Cậu dắt dê đến bãi cỏ non nhất, để nó ăn thoả thích.",
+        "Chiều về, cậu hỏi: \"Dê ơi, no chưa?\" Dê đáp: \"No lắm rồi, chẳng ăn thêm được lá nào nữa.\"",
+        "Nhưng tối đến, ông bố ra chuồng hỏi, con dê lại kêu: \"No sao được?",
+        "Tôi chỉ nhảy qua mấy cái mương, chẳng thấy lá cỏ nào cả, be be!\"",
+        "Ông thợ may giận lắm, đuổi người con cả ra khỏi nhà."
+      ],
+      "image": {
+        "prompt": "a green meadow at sunset, a young man leading a plump white goat home, then a cosy stable where the sly goat complains to the angry old tailor with spectacles, comic scene",
+        "seed": 877217257,
+        "character": "con-de"
+      },
+      "video": {
+        "motionPrompt": "the goat chews lazily then bleats dramatically, the tailor waves his arms angrily, the young man looks shocked",
+        "seed": 970126835
+      },
+      "voice": {}
+    },
+    {
+      "id": "ca-ba-bi-duoi",
+      "title": "Cả ba bị đuổi",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm sau, đến lượt người con thứ hai, rồi người con út. Lần nào con dê cũng nói với người con là đã no căng, rồi lại than với ông bố là đói meo. Lần nào ông thợ may cũng tin dê, đuổi con đi. Chỉ còn lại một mình, ông tự dắt dê ra đồng. Chiều về, dê nói no. Tối, ông ra chuồng hỏi lại, nó vẫn kêu đói. Bấy giờ ông mới hiểu mình đã đuổi oan cả ba đứa con. Ông tức quá, lấy dao cạo trọc đầu con dê, đuổi nó đi. Rồi ông ngồi một mình, buồn bã nhớ các con.",
+      "subtitles": [
+        "Hôm sau, đến lượt người con thứ hai, rồi người con út.",
+        "Lần nào con dê cũng nói với người con là đã no căng, rồi lại than với ông bố là đói meo.",
+        "Lần nào ông thợ may cũng tin dê, đuổi con đi. Chỉ còn lại một mình, ông tự dắt dê ra đồng.",
+        "Chiều về, dê nói no. Tối, ông ra chuồng hỏi lại, nó vẫn kêu đói.",
+        "Bấy giờ ông mới hiểu mình đã đuổi oan cả ba đứa con.",
+        "Ông tức quá, lấy dao cạo trọc đầu con dê, đuổi nó đi.",
+        "Rồi ông ngồi một mình, buồn bã nhớ các con."
+      ],
+      "image": {
+        "prompt": "the old tailor alone in his small workshop at night looking sad by a candle, through the window a goat with a funny shaved bald head running away down the lane, gentle comic mood",
+        "seed": 1230407832,
+        "character": "ong-tho-may"
+      },
+      "video": {
+        "motionPrompt": "the candle flickers, the tailor rests his head in his hand, the bald goat scampers away into the night",
+        "seed": 4131016932
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-ban-tu-don-co",
+      "title": "Cái bàn tự dọn cỗ",
+      "narrator": "ke-chuyen",
+      "narration": "Người con cả đi học nghề thợ mộc. Học xong, thầy tặng cậu một cái bàn nhỏ bằng gỗ thường. Nhưng chỉ cần đặt bàn xuống và nói: \"Bàn ơi, dọn cỗ đi!\" là trên bàn hiện ra khăn trắng, bát đĩa, thịt quay, rượu ngon. Cậu vui mừng mang bàn về nhà. Tối ấy, cậu ngủ lại một quán trọ, khoe bàn thần với mọi người. Lão chủ quán nhìn thèm thuồng. Đêm khuya, lão lén đổi cái bàn thần lấy một cái bàn cũ giống hệt. Về nhà, cậu mời họ hàng đến ăn mừng, nhưng nói mãi, cái bàn vẫn trơ trơ. Cậu xấu hổ, đành quay lại làm thợ mộc.",
+      "subtitles": [
+        "Người con cả đi học nghề thợ mộc. Học xong, thầy tặng cậu một cái bàn nhỏ bằng gỗ thường.",
+        "Nhưng chỉ cần đặt bàn xuống và nói: \"Bàn ơi, dọn cỗ đi!\"",
+        "là trên bàn hiện ra khăn trắng, bát đĩa, thịt quay, rượu ngon.",
+        "Cậu vui mừng mang bàn về nhà.",
+        "Tối ấy, cậu ngủ lại một quán trọ, khoe bàn thần với mọi người.",
+        "Lão chủ quán nhìn thèm thuồng.",
+        "Đêm khuya, lão lén đổi cái bàn thần lấy một cái bàn cũ giống hệt.",
+        "Về nhà, cậu mời họ hàng đến ăn mừng, nhưng nói mãi, cái bàn vẫn trơ trơ.",
+        "Cậu xấu hổ, đành quay lại làm thợ mộc."
+      ],
+      "image": {
+        "prompt": "a cosy timbered village inn, a small wooden table magically covered with a white cloth, roast dishes and fruit, astonished guests, the greedy innkeeper with a curled moustache peeking with envy",
+        "seed": 3594322005,
+        "character": "chu-quan"
+      },
+      "video": {
+        "motionPrompt": "dishes appear on the table with a sparkle, guests gasp and lean in, the innkeeper rubs his hands greedily",
+        "seed": 1635110572
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-lua-nha-vang",
+      "title": "Con lừa nhả vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Người con thứ hai học nghề xay bột. Thầy tặng cậu một con lừa. Chỉ cần trải tấm khăn dưới chân nó và nói: \"Bricklebrit!\" là con lừa nhả ra những đồng tiền vàng rơi lả tả. Trên đường về, cậu cũng ghé đúng quán trọ ấy. Cậu gọi món ngon nhất, rồi dắt lừa ra sau nhà lấy vàng trả tiền. Lão chủ quán rình xem, đêm đến lại lén đổi con lừa thần lấy một con lừa thường. Về nhà, trước mặt họ hàng, con lừa chẳng nhả ra đồng nào. Người con thứ hai cũng đành quay lại cối xay.",
+      "subtitles": [
+        "Người con thứ hai học nghề xay bột. Thầy tặng cậu một con lừa.",
+        "Chỉ cần trải tấm khăn dưới chân nó và nói: \"Bricklebrit!\"",
+        "là con lừa nhả ra những đồng tiền vàng rơi lả tả.",
+        "Trên đường về, cậu cũng ghé đúng quán trọ ấy.",
+        "Cậu gọi món ngon nhất, rồi dắt lừa ra sau nhà lấy vàng trả tiền.",
+        "Lão chủ quán rình xem, đêm đến lại lén đổi con lừa thần lấy một con lừa thường.",
+        "Về nhà, trước mặt họ hàng, con lừa chẳng nhả ra đồng nào.",
+        "Người con thứ hai cũng đành quay lại cối xay."
+      ],
+      "image": {
+        "prompt": "behind a village inn, a grey donkey standing on a spread cloth with shiny gold coins dropping down like rain, the second son smiling, the greedy innkeeper spying through a crack in the stable door",
+        "seed": 1647526980,
+        "character": "chu-quan"
+      },
+      "video": {
+        "motionPrompt": "gold coins sparkle and tumble onto the cloth, the donkey flicks its ears, the innkeeper eyes widen behind the door",
+        "seed": 4246803888
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-gay-trong-bao",
+      "title": "Cây gậy trong bao",
+      "narrator": "ke-chuyen",
+      "narration": "Người con út học nghề thợ tiện. Nghe tin hai anh bị lão chủ quán lừa, cậu ghi nhớ trong lòng. Học xong, thầy tặng cậu một cái bao, trong có một cây gậy: \"Ai làm hại con, con chỉ cần nói: Gậy ơi, ra khỏi bao! Gậy sẽ nhảy ra, nện cho kẻ ấy một trận, đến khi con bảo: Gậy ơi, vào bao!\" Cậu lên đường, cũng ghé quán trọ ấy, rồi cố ý khoe to: \"Bàn thần, lừa vàng chưa là gì, cái bao của tôi còn quý hơn nhiều!\"",
+      "subtitles": [
+        "Người con út học nghề thợ tiện.",
+        "Nghe tin hai anh bị lão chủ quán lừa, cậu ghi nhớ trong lòng.",
+        "Học xong, thầy tặng cậu một cái bao, trong có một cây gậy: \"Ai làm hại con,",
+        "con chỉ cần nói: Gậy ơi, ra khỏi bao!",
+        "Gậy sẽ nhảy ra, nện cho kẻ ấy một trận, đến khi con bảo: Gậy ơi, vào bao!\"",
+        "Cậu lên đường, cũng ghé quán trọ ấy, rồi cố ý khoe to: \"Bàn thần, lừa vàng chưa là gì,",
+        "cái bao của tôi còn quý hơn nhiều!\""
+      ],
+      "image": {
+        "prompt": "a cosy inn dining room in the evening, the youngest son in a woodturner apron proudly patting a mysterious tied sack on the bench, the greedy innkeeper listening with gleaming eyes from behind the counter",
+        "seed": 799650437,
+        "character": "chu-quan"
+      },
+      "video": {
+        "motionPrompt": "the young man pats the sack and winks, firelight flickers, the innkeeper leans over the counter with a greedy grin",
+        "seed": 732170954
+      },
+      "voice": {}
+    },
+    {
+      "id": "gay-oi-ra-khoi-bao",
+      "title": "Gậy ơi, ra khỏi bao!",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy, cậu út nằm giả vờ ngủ, gối đầu lên cái bao. Lão chủ quán rón rén vào, định rút cái bao ra. Cậu hô to: \"Gậy ơi, ra khỏi bao!\" Cây gậy vọt ra, nhảy múa trên lưng lão chủ quán, nện bôm bốp. Lão chạy khắp phòng, gậy chạy theo khắp phòng. Lão kêu ầm: \"Tha cho tôi! Tôi trả lại hết!\" Cậu út bảo: \"Trả cái bàn thần và con lừa vàng đây thì tôi tha.\" Lão vội vàng mang ra trả. Cậu nói: \"Gậy ơi, vào bao!\" Cây gậy ngoan ngoãn chui vào bao nằm im.",
+      "subtitles": [
+        "Đêm ấy, cậu út nằm giả vờ ngủ, gối đầu lên cái bao.",
+        "Lão chủ quán rón rén vào, định rút cái bao ra. Cậu hô to: \"Gậy ơi, ra khỏi bao!\"",
+        "Cây gậy vọt ra, nhảy múa trên lưng lão chủ quán, nện bôm bốp.",
+        "Lão chạy khắp phòng, gậy chạy theo khắp phòng. Lão kêu ầm: \"Tha cho tôi! Tôi trả lại hết!\"",
+        "Cậu út bảo: \"Trả cái bàn thần và con lừa vàng đây thì tôi tha.\" Lão vội vàng mang ra trả.",
+        "Cậu nói: \"Gậy ơi, vào bao!\" Cây gậy ngoan ngoãn chui vào bao nằm im."
+      ],
+      "image": {
+        "prompt": "a funny night scene in an inn bedroom lit by moonlight, a lively magic wooden stick bouncing out of a sack and chasing the plump innkeeper around in circles, the youngest son sitting up in bed laughing, slapstick and harmless",
+        "seed": 3191813057,
+        "character": "chu-quan"
+      },
+      "video": {
+        "motionPrompt": "the magic stick bounces and twirls after the innkeeper, he runs in circles waving his hands, then the stick hops back into the sack",
+        "seed": 3080875938
+      },
+      "voice": {}
+    },
+    {
+      "id": "ca-nha-sum-hop",
+      "title": "Cả nhà sum họp",
+      "narrator": "ke-chuyen",
+      "narration": "Cậu út mang bàn thần, lừa vàng về nhà. Ông thợ may mừng rơi nước mắt, gọi hai người anh về. Cả nhà mời họ hàng đến đông đủ. Người anh cả nói: \"Bàn ơi, dọn cỗ đi!\" Thức ăn ngon bày đầy bàn. Người anh hai trải khăn: \"Bricklebrit!\" Vàng rơi lả tả, ai cũng được một phần. Từ đó, ông thợ may cất kim chỉ vào tủ, sống sung túc cùng ba người con. Còn con dê trọc đầu thì sao? Nó trốn vào hang cáo, doạ cho cáo và gấu sợ, cho đến khi một chú ong nhỏ đốt vào cái đầu trọc. Dê kêu be be, chạy biến mất, và chẳng ai thấy nó quay lại nữa.",
+      "subtitles": [
+        "Cậu út mang bàn thần, lừa vàng về nhà.",
+        "Ông thợ may mừng rơi nước mắt, gọi hai người anh về. Cả nhà mời họ hàng đến đông đủ.",
+        "Người anh cả nói: \"Bàn ơi, dọn cỗ đi!\" Thức ăn ngon bày đầy bàn.",
+        "Người anh hai trải khăn: \"Bricklebrit!\" Vàng rơi lả tả, ai cũng được một phần.",
+        "Từ đó, ông thợ may cất kim chỉ vào tủ, sống sung túc cùng ba người con.",
+        "Còn con dê trọc đầu thì sao? Nó trốn vào hang cáo, doạ cho cáo và gấu sợ,",
+        "cho đến khi một chú ong nhỏ đốt vào cái đầu trọc.",
+        "Dê kêu be be, chạy biến mất, và chẳng ai thấy nó quay lại nữa."
+      ],
+      "image": {
+        "prompt": "a joyful family feast in the tailor cottage, a magic table full of food, a grey donkey with gold coins on a cloth, the old tailor hugging his three sons, relatives cheering, and through the window a bald goat running away from a tiny bee",
+        "seed": 3452398015,
+        "character": "ong-tho-may"
+      },
+      "video": {
+        "motionPrompt": "everyone raises their cups and laughs, gold coins glitter, outside a tiny bee buzzes after the bald goat as it dashes away",
+        "seed": 2636468814
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "lively comic German folk music, bouncy accordion, clarinet and tuba, a sparkling magic motif with glockenspiel for the table and the gold, a frantic slapstick chase for the stick, a festive family dance at the end, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 1294928372
+  }
+}

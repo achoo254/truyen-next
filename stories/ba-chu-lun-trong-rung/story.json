@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "slug": "ba-chu-lun-trong-rung",
+  "shelf": "world",
+  "title": "Ba chú lùn trong rừng",
+  "summary": "Giữa mùa đông, cô bé bị dì ghẻ bắt mặc áo giấy vào rừng hái dâu tây. Nhờ biết chia nửa mẩu bánh cho ba chú lùn, cô được ban những món quà kỳ diệu: mỗi lời nói ra là một đồng vàng rơi. Còn cô em kiêu căng thì mỗi lời lại nhảy ra một chú cóc. Truyện cổ Grimm về lòng tốt, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Die drei Männlein im Walde\" (Kinder- und Hausmärchen, bản 1857, truyện số 13), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh của Margaret Hunt trên Project Gutenberg. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: lời nguyền thứ ba dành cho cô em chỉ là không bao giờ được ai thương mến; hoàng hậu bị đẩy xuống suối thì hoá thành vịt trắng; nhà vua giải phép bằng cách giơ vương trượng ba lần; mẹ con dì ghẻ chịu phạt bằng cách bị đuổi khỏi vương quốc mãi mãi, thay cho hình phạt thùng đinh của truyện gốc.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, snowy winter forest, a tiny moss-roofed cottage, bright red strawberries in the snow, a stone palace by a stream, warm candlelight against cool blue snow, safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "co-gai",
+      "name": "Cô gái hiền",
+      "seed": 3460341490,
+      "sheetPrompt": "a sweet young German girl with long golden hair, wearing a thin white paper dress and carrying a small wicker basket, kind gentle eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba-chu-lun",
+      "name": "Ba chú lùn",
+      "seed": 4243716697,
+      "sheetPrompt": "three tiny friendly old forest dwarfs with long white beards, pointed brown, green and red caps, round rosy noses and twinkling eyes, standing side by side, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "di-ghe",
+      "name": "Dì ghẻ",
+      "seed": 2724596546,
+      "sheetPrompt": "a sour-faced middle-aged German woman with a tight grey bun, a dark green dress and a black shawl, pursed lips and narrowed eyes, not monstrous, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "chiec-ung",
+      "title": "Chiếc ủng thủng đáy",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một người đàn ông goá vợ có một cô con gái, và một người đàn bà goá chồng cũng có một cô con gái. Hai cô bé quen nhau, hay đi chơi cùng nhau. Người đàn bà nói với cô gái: \"Bảo cha cháu cưới dì đi. Rồi sáng nào cháu cũng được rửa mặt bằng sữa, uống sữa ngọt, còn con dì chỉ có nước lã.\" Người cha phân vân mãi, bèn đưa con chiếc ủng thủng đáy: \"Treo nó lên đinh trên gác, đổ nước vào. Nước không chảy ra thì cha sẽ cưới.\" Nước làm lỗ thủng co khít lại, chiếc ủng đầy đến miệng. Thế là đám cưới được tổ chức.",
+      "subtitles": [
+        "Ngày xưa, có một người đàn ông goá vợ có một cô con gái,",
+        "và một người đàn bà goá chồng cũng có một cô con gái.",
+        "Hai cô bé quen nhau, hay đi chơi cùng nhau.",
+        "Người đàn bà nói với cô gái: \"Bảo cha cháu cưới dì đi.",
+        "Rồi sáng nào cháu cũng được rửa mặt bằng sữa, uống sữa ngọt, còn con dì chỉ có nước lã.\"",
+        "Người cha phân vân mãi, bèn đưa con chiếc ủng thủng đáy:",
+        "\"Treo nó lên đinh trên gác, đổ nước vào. Nước không chảy ra thì cha sẽ cưới.\"",
+        "Nước làm lỗ thủng co khít lại, chiếc ủng đầy đến miệng. Thế là đám cưới được tổ chức."
+      ],
+      "image": {
+        "prompt": "a cosy old German attic, a young girl pouring water from a jug into a worn leather boot hanging from a big nail on a beam, the boot filling up to the brim, her father watching from the stairs",
+        "seed": 1469373247,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "water pours into the boot and fills it to the top without dripping, the father leans forward in surprise, dust motes float in the light",
+        "seed": 2072688677
+      },
+      "voice": {}
+    },
+    {
+      "id": "ao-giay",
+      "title": "Chiếc áo bằng giấy",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng đầu tiên, trước mặt cô gái là sữa, trước mặt con dì là nước lã. Sáng thứ hai, cả hai cô đều chỉ có nước. Từ sáng thứ ba trở đi, cô gái chỉ có nước, còn con dì thì có sữa. Dì ghẻ ngày càng ghét cô, vì cô xinh đẹp, dễ thương, còn con mình thì xấu nết. Một ngày giữa mùa đông, tuyết phủ trắng đồi, mặt đất đóng băng cứng như đá, dì may cho cô một chiếc áo bằng giấy, bảo: \"Mặc vào, vào rừng hái cho ta một giỏ dâu tây. Không đầy giỏ thì đừng về!\" Cô gái khóc: \"Mùa đông làm gì có dâu tây hở dì?\" Nhưng dì chỉ dúi cho cô một mẩu bánh mì khô.",
+      "subtitles": [
+        "Sáng đầu tiên, trước mặt cô gái là sữa, trước mặt con dì là nước lã.",
+        "Sáng thứ hai, cả hai cô đều chỉ có nước.",
+        "Từ sáng thứ ba trở đi, cô gái chỉ có nước, còn con dì thì có sữa.",
+        "Dì ghẻ ngày càng ghét cô, vì cô xinh đẹp, dễ thương, còn con mình thì xấu nết.",
+        "Một ngày giữa mùa đông, tuyết phủ trắng đồi, mặt đất đóng băng cứng như đá,",
+        "dì may cho cô một chiếc áo bằng giấy, bảo:",
+        "\"Mặc vào, vào rừng hái cho ta một giỏ dâu tây. Không đầy giỏ thì đừng về!\"",
+        "Cô gái khóc: \"Mùa đông làm gì có dâu tây hở dì?\"",
+        "Nhưng dì chỉ dúi cho cô một mẩu bánh mì khô."
+      ],
+      "image": {
+        "prompt": "a stern stepmother handing a little basket to a girl in a thin white paper dress at the door of a cottage, snow falling outside, the girl shivering with sad eyes",
+        "seed": 3252932628,
+        "character": "di-ghe"
+      },
+      "video": {
+        "motionPrompt": "snow blows in through the open door, the paper dress flutters, the girl hugs herself against the cold",
+        "seed": 1788032166
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-chu-lun",
+      "title": "Ngôi nhà của ba chú lùn",
+      "narrator": "ke-chuyen",
+      "narration": "Cô gái đi mãi giữa trời tuyết trắng, chẳng thấy một ngọn cỏ xanh. Trong rừng, cô thấy một ngôi nhà nhỏ, có ba chú lùn đang ló đầu ra cửa sổ. Cô lễ phép chào, gõ cửa. \"Vào đi!\" các chú gọi. Cô ngồi xuống chiếc ghế dài bên lò sưởi, lấy mẩu bánh ra ăn. \"Cho chúng ta một ít với,\" các chú lùn nói. \"Vâng ạ,\" cô bẻ đôi mẩu bánh, đưa cho các chú một nửa. Ăn xong, các chú đưa cô cây chổi: \"Ra quét tuyết ở cửa sau giúp chúng ta nhé.\"",
+      "subtitles": [
+        "Cô gái đi mãi giữa trời tuyết trắng, chẳng thấy một ngọn cỏ xanh.",
+        "Trong rừng, cô thấy một ngôi nhà nhỏ, có ba chú lùn đang ló đầu ra cửa sổ.",
+        "Cô lễ phép chào, gõ cửa. \"Vào đi!\" các chú gọi.",
+        "Cô ngồi xuống chiếc ghế dài bên lò sưởi, lấy mẩu bánh ra ăn.",
+        "\"Cho chúng ta một ít với,\" các chú lùn nói.",
+        "\"Vâng ạ,\" cô bẻ đôi mẩu bánh, đưa cho các chú một nửa.",
+        "Ăn xong, các chú đưa cô cây chổi: \"Ra quét tuyết ở cửa sau giúp chúng ta nhé.\""
+      ],
+      "image": {
+        "prompt": "inside a tiny warm cottage in the snowy woods, a girl in a paper dress sitting by a stove sharing half of her bread with three little bearded dwarfs in colorful pointed caps",
+        "seed": 794236659,
+        "character": "ba-chu-lun"
+      },
+      "video": {
+        "motionPrompt": "the stove fire flickers warmly, the girl breaks her bread and hands half to the dwarfs, they nod happily, steam rises",
+        "seed": 181880497
+      },
+      "voice": {}
+    },
+    {
+      "id": "dau-tay-trong-tuyet",
+      "title": "Dâu tây trong tuyết",
+      "narrator": "ke-chuyen",
+      "narration": "Khi cô ra ngoài, ba chú lùn bàn nhau: \"Cô bé ngoan quá, ta tặng cô bé gì đây?\" Chú thứ nhất nói: \"Ta cho cô bé ngày càng xinh đẹp.\" Chú thứ hai nói: \"Ta cho cô bé mỗi lần nói, một đồng vàng lại rơi ra từ miệng.\" Chú thứ ba nói: \"Ta cho cô bé được một nhà vua cưới làm vợ.\" Ngoài kia, cô gái quét tuyết, và lạ chưa, dưới lớp tuyết là những quả dâu tây chín đỏ! Cô mừng rỡ hái đầy giỏ, cảm ơn và bắt tay từng chú lùn, rồi chạy về nhà. Vừa mở miệng chào dì, một đồng vàng đã rơi ra. Cô kể chuyện, vàng rơi đầy cả nhà.",
+      "subtitles": [
+        "Khi cô ra ngoài, ba chú lùn bàn nhau: \"Cô bé ngoan quá, ta tặng cô bé gì đây?\"",
+        "Chú thứ nhất nói: \"Ta cho cô bé ngày càng xinh đẹp.\"",
+        "Chú thứ hai nói: \"Ta cho cô bé mỗi lần nói, một đồng vàng lại rơi ra từ miệng.\"",
+        "Chú thứ ba nói: \"Ta cho cô bé được một nhà vua cưới làm vợ.\"",
+        "Ngoài kia, cô gái quét tuyết, và lạ chưa, dưới lớp tuyết là những quả dâu tây chín đỏ!",
+        "Cô mừng rỡ hái đầy giỏ, cảm ơn và bắt tay từng chú lùn, rồi chạy về nhà.",
+        "Vừa mở miệng chào dì, một đồng vàng đã rơi ra. Cô kể chuyện, vàng rơi đầy cả nhà."
+      ],
+      "image": {
+        "prompt": "the girl sweeping snow behind the little cottage with a broom, revealing bright ripe red strawberries growing in the white snow, her face full of joy",
+        "seed": 2184548746,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the broom sweeps away the snow, red strawberries appear one after another, the girl gasps and kneels to pick them, snowflakes sparkle",
+        "seed": 3446285032
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-em-kieu-cang",
+      "title": "Cô em kiêu căng",
+      "narrator": "ke-chuyen",
+      "narration": "Cô em ghen tức, cũng đòi vào rừng. Dì may cho con chiếc áo lông thú dày, gói bánh bơ, bánh ngọt. Cô em đi thẳng vào nhà các chú lùn, chẳng chào ai, ngồi bên lò sưởi ăn một mình. \"Cho chúng ta một ít với.\" \"Còn chẳng đủ cho tôi, cho ai được!\" \"Quét tuyết ở cửa sau giúp chúng ta nhé.\" \"Hứ, tự mà quét, tôi đâu phải người hầu.\" Các chú lùn bàn nhau. Chú thứ nhất cho cô ngày càng xấu nết. Chú thứ hai cho cô mỗi lời nói ra lại có một chú cóc nhảy ra. Chú thứ ba cho cô chẳng bao giờ được ai thương mến. Về nhà, cô em vừa mở miệng, cóc đã nhảy ra lốp nhốp khắp phòng.",
+      "subtitles": [
+        "Cô em ghen tức, cũng đòi vào rừng.",
+        "Dì may cho con chiếc áo lông thú dày, gói bánh bơ, bánh ngọt.",
+        "Cô em đi thẳng vào nhà các chú lùn, chẳng chào ai, ngồi bên lò sưởi ăn một mình.",
+        "\"Cho chúng ta một ít với.\" \"Còn chẳng đủ cho tôi, cho ai được!\"",
+        "\"Quét tuyết ở cửa sau giúp chúng ta nhé.\" \"Hứ, tự mà quét, tôi đâu phải người hầu.\"",
+        "Các chú lùn bàn nhau. Chú thứ nhất cho cô ngày càng xấu nết.",
+        "Chú thứ hai cho cô mỗi lời nói ra lại có một chú cóc nhảy ra.",
+        "Chú thứ ba cho cô chẳng bao giờ được ai thương mến.",
+        "Về nhà, cô em vừa mở miệng, cóc đã nhảy ra lốp nhốp khắp phòng."
+      ],
+      "image": {
+        "prompt": "a spoiled girl in a thick fur coat eating cake alone by the stove with her nose in the air, the three little dwarfs watching her with folded arms and raised eyebrows",
+        "seed": 461181150,
+        "character": "ba-chu-lun"
+      },
+      "video": {
+        "motionPrompt": "the girl turns her back and munches cake, the dwarfs exchange knowing looks, a few comical little green toads hop across the floor",
+        "seed": 4259245306
+      },
+      "voice": {}
+    },
+    {
+      "id": "ga-cho-vua",
+      "title": "Gặp nhà vua bên dòng sông băng",
+      "narrator": "ke-chuyen",
+      "narration": "Dì ghẻ càng ghét cô gái hơn. Dì luộc một nồi sợi, quàng lên vai cô, bắt cô ra dòng sông đóng băng, khoét một lỗ trên băng mà giũ sợi. Cô đang làm thì một cỗ xe lộng lẫy dừng lại. Nhà vua ngồi trong xe hỏi: \"Cháu là ai, làm gì ở đây thế?\" \"Cháu là cô gái nghèo, đang giũ sợi ạ.\" Thấy cô hiền lành, xinh đẹp, vua hỏi: \"Cháu có muốn đi cùng ta không?\" \"Có ạ, cháu muốn lắm,\" cô đáp. Về đến cung, đám cưới được tổ chức linh đình, đúng như ba chú lùn đã chúc.",
+      "subtitles": [
+        "Dì ghẻ càng ghét cô gái hơn. Dì luộc một nồi sợi, quàng lên vai cô,",
+        "bắt cô ra dòng sông đóng băng, khoét một lỗ trên băng mà giũ sợi.",
+        "Cô đang làm thì một cỗ xe lộng lẫy dừng lại. Nhà vua ngồi trong xe hỏi:",
+        "\"Cháu là ai, làm gì ở đây thế?\" \"Cháu là cô gái nghèo, đang giũ sợi ạ.\"",
+        "Thấy cô hiền lành, xinh đẹp, vua hỏi: \"Cháu có muốn đi cùng ta không?\"",
+        "\"Có ạ, cháu muốn lắm,\" cô đáp. Về đến cung, đám cưới được tổ chức linh đình,",
+        "đúng như ba chú lùn đã chúc."
+      ],
+      "image": {
+        "prompt": "a frozen river in winter, the girl rinsing yarn through a hole in the ice, a splendid golden carriage stopped on the bank and a kind young king leaning out to speak to her",
+        "seed": 442112548,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "breath clouds in the cold air, the carriage horses toss their heads, the king offers his hand and the girl looks up with hope",
+        "seed": 830975001
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-vit-trang",
+      "title": "Con vịt trắng trong đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Một năm sau, hoàng hậu sinh một bé trai. Mẹ con dì ghẻ giả vờ đến thăm. Nhân lúc vua đi vắng, hai mẹ con đẩy hoàng hậu qua cửa sổ xuống dòng suối, để cô em nằm vào giường thay. Hoàng hậu biến thành một con vịt trắng. Vua về, nghe giọng vợ thì thấy cóc nhảy ra, dì ghẻ bịa rằng hoàng hậu đang ốm. Đêm ấy, cậu bé phụ bếp thấy một con vịt trắng bơi theo rãnh nước vào, cất tiếng hỏi: \"Nhà vua đang làm gì? Thức hay ngủ thế kia?\" \"Ngài ngủ rồi.\" \"Con ta bé bỏng ra sao?\" \"Ngủ ngon trong nôi.\" Con vịt hoá thành hoàng hậu, lên lầu ru con, đắp chăn cho con, rồi lại hoá vịt bơi đi.",
+      "subtitles": [
+        "Một năm sau, hoàng hậu sinh một bé trai. Mẹ con dì ghẻ giả vờ đến thăm.",
+        "Nhân lúc vua đi vắng, hai mẹ con đẩy hoàng hậu qua cửa sổ xuống dòng suối,",
+        "để cô em nằm vào giường thay. Hoàng hậu biến thành một con vịt trắng.",
+        "Vua về, nghe giọng vợ thì thấy cóc nhảy ra, dì ghẻ bịa rằng hoàng hậu đang ốm.",
+        "Đêm ấy, cậu bé phụ bếp thấy một con vịt trắng bơi theo rãnh nước vào, cất tiếng hỏi:",
+        "\"Nhà vua đang làm gì? Thức hay ngủ thế kia?\" \"Ngài ngủ rồi.\"",
+        "\"Con ta bé bỏng ra sao?\" \"Ngủ ngon trong nôi.\"",
+        "Con vịt hoá thành hoàng hậu, lên lầu ru con, đắp chăn cho con, rồi lại hoá vịt bơi đi."
+      ],
+      "image": {
+        "prompt": "a moonlit palace kitchen, a white duck swimming up a little water channel speaking to a surprised kitchen boy holding a candle, soft silver moonlight",
+        "seed": 1229257337,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the white duck glides through the moonlit water, ripples spread, the kitchen boy's candle flickers as he listens wide-eyed",
+        "seed": 2528353169
+      },
+      "voice": {}
+    },
+    {
+      "id": "doan-tu",
+      "title": "Hoàng hậu trở về",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm thứ ba, con vịt dặn: \"Bảo nhà vua cầm vương trượng giơ lên trên đầu ta ba lần, ngay ở ngưỡng cửa.\" Cậu bé chạy đi báo vua. Vua đến, giơ vương trượng lên ba lần. Đến lần thứ ba, hoàng hậu hiện ra trước mặt vua, khỏe mạnh, tươi tắn như xưa. Vua mừng lắm, giấu hoàng hậu trong phòng đến ngày làm lễ cho hoàng tử bé. Hôm ấy, vua hỏi dì ghẻ: \"Kẻ đẩy người khác xuống nước thì đáng bị phạt thế nào?\" Dì ghẻ đáp ngay: \"Phải đuổi đi thật xa, mãi mãi không cho quay lại!\" Vua nói: \"Bà đã tự phán xử cho mình rồi.\" Thế là hai mẹ con bị đuổi khỏi vương quốc, không bao giờ quay lại. Còn vua, hoàng hậu và hoàng tử bé sống bên nhau hạnh phúc.",
+      "subtitles": [
+        "Đêm thứ ba, con vịt dặn:",
+        "\"Bảo nhà vua cầm vương trượng giơ lên trên đầu ta ba lần, ngay ở ngưỡng cửa.\"",
+        "Cậu bé chạy đi báo vua. Vua đến, giơ vương trượng lên ba lần.",
+        "Đến lần thứ ba, hoàng hậu hiện ra trước mặt vua, khỏe mạnh, tươi tắn như xưa.",
+        "Vua mừng lắm, giấu hoàng hậu trong phòng đến ngày làm lễ cho hoàng tử bé.",
+        "Hôm ấy, vua hỏi dì ghẻ: \"Kẻ đẩy người khác xuống nước thì đáng bị phạt thế nào?\"",
+        "Dì ghẻ đáp ngay: \"Phải đuổi đi thật xa, mãi mãi không cho quay lại!\"",
+        "Vua nói: \"Bà đã tự phán xử cho mình rồi.\" Thế là hai mẹ con bị đuổi khỏi vương quốc,",
+        "không bao giờ quay lại. Còn vua, hoàng hậu và hoàng tử bé sống bên nhau hạnh phúc."
+      ],
+      "image": {
+        "prompt": "a palace doorway glowing with golden light, the king raising his royal scepter above a white duck, the duck transforming into a radiant young queen, the kitchen boy watching in awe",
+        "seed": 228559398,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the scepter lifts three times, sparkling light swirls around the duck, the queen appears and the king embraces her, warm light fills the room",
+        "seed": 47448270
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle German winter fairy-tale music, harp, celesta and soft strings, a twinkling theme for the three dwarfs, a quiet moonlit lullaby for the white duck, warm joyful ending, instrumental, no vocals",
+    "durationSeconds": 180,
+    "seed": 107229726
+  }
+}

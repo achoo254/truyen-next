@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "slug": "anh-va-em",
+  "shelf": "world",
+  "title": "Anh và em",
+  "summary": "Hai anh em bỏ trốn khỏi bà mẹ kế phù thuỷ, nhưng người anh uống nước suối bị yểm bùa và hoá thành chú nai con. Người em gái tận tụy chăm anh trong rừng sâu, cho đến khi nhà vua đi săn tìm thấy túp lều của họ. Truyện cổ Grimm về tình anh em, kể nhẹ cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Brüderchen und Schwesterchen\" (Kinder- und Hausmärchen, bản 1857, truyện số 11), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"Brother and Sister\" trên Project Gutenberg. Lời kể viết mới bằng tiếng Việt; bản kể nhẹ cho cả nhà: hoàng hậu bị bùa phép đẩy đi thành bóng hình chỉ hiện về lúc nửa đêm, và mụ phù thuỷ bị đuổi khỏi vương quốc.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and delicate ink lines, a deep green enchanted forest, sparkling springs, a tiny cottage under old trees, a royal castle, gentle moonlight and warm candlelight, tender safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "em-gai",
+      "name": "Người em gái",
+      "seed": 856509191,
+      "sheetPrompt": "a kind brave young girl from a German fairy tale with long chestnut hair, a simple green dress and shawl, later a gentle young queen in a soft blue gown, loving eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nai-con",
+      "name": "Chú nai con",
+      "seed": 3611344658,
+      "sheetPrompt": "a gentle young fawn with soft brown spotted fur, big shining eyes and a thin golden ribbon around its neck, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nha-vua",
+      "name": "Nhà vua",
+      "seed": 3080672055,
+      "sheetPrompt": "a kind young king from a German fairy tale in a green hunting cloak with fur trim and a slim gold crown, warm smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "bo-tron-vao-rung",
+      "title": "Bỏ trốn vào rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có hai anh em mồ côi mẹ. Bà mẹ kế ngày nào cũng mắng nhiếc, chỉ cho hai đứa ăn mẩu bánh khô cứng. Một hôm, người anh nắm tay em gái: \"Từ ngày mẹ không còn, chúng mình chẳng có một ngày vui. Thôi, mình đi khỏi đây.\" Hai anh em đi suốt ngày, qua đồng cỏ, qua núi đá. Tối đến, chúng vào một khu rừng lớn, ngồi trong hốc cây ôm nhau ngủ. Hai anh em đâu biết rằng bà mẹ kế là một mụ phù thuỷ. Mụ đã nhìn thấy chúng đi, và lén yểm bùa vào mọi dòng suối trong rừng.",
+      "subtitles": [
+        "Ngày xưa, có hai anh em mồ côi mẹ.",
+        "Bà mẹ kế ngày nào cũng mắng nhiếc, chỉ cho hai đứa ăn mẩu bánh khô cứng.",
+        "Một hôm, người anh nắm tay em gái: \"Từ ngày mẹ không còn,",
+        "chúng mình chẳng có một ngày vui. Thôi, mình đi khỏi đây.\"",
+        "Hai anh em đi suốt ngày, qua đồng cỏ, qua núi đá.",
+        "Tối đến, chúng vào một khu rừng lớn, ngồi trong hốc cây ôm nhau ngủ.",
+        "Hai anh em đâu biết rằng bà mẹ kế là một mụ phù thuỷ.",
+        "Mụ đã nhìn thấy chúng đi, và lén yểm bùa vào mọi dòng suối trong rừng."
+      ],
+      "image": {
+        "prompt": "a brother and a little sister holding hands, walking sadly into a deep green forest at dusk, later sleeping curled up together in a hollow tree under the stars, safe and gentle",
+        "seed": 3664508399,
+        "character": "em-gai"
+      },
+      "video": {
+        "motionPrompt": "the children walk slowly into the trees, fireflies appear as night falls, leaves rustle softly over the hollow tree",
+        "seed": 1220070301
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-dong-suoi",
+      "title": "Ba dòng suối",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng ra, người anh khát nước, tìm đến một dòng suối. Em gái nghe tiếng suối thì thầm: \"Ai uống ta sẽ hoá thành hổ.\" Cô bé kêu lên: \"Anh ơi, đừng uống! Anh mà hoá hổ thì sẽ vồ mất em.\" Người anh nén khát, đi tiếp. Đến dòng suối thứ hai, tiếng nước lại thì thầm: \"Ai uống ta sẽ hoá thành sói.\" Em gái lại xin anh đừng uống. Đến dòng suối thứ ba, nước nói: \"Ai uống ta sẽ hoá thành nai.\" Người anh khát quá, không chờ được nữa, quỳ xuống uống một ngụm. Ngay lập tức, cậu hoá thành một chú nai con.",
+      "subtitles": [
+        "Sáng ra, người anh khát nước, tìm đến một dòng suối.",
+        "Em gái nghe tiếng suối thì thầm: \"Ai uống ta sẽ hoá thành hổ.\"",
+        "Cô bé kêu lên: \"Anh ơi, đừng uống! Anh mà hoá hổ thì sẽ vồ mất em.\"",
+        "Người anh nén khát, đi tiếp.",
+        "Đến dòng suối thứ hai, tiếng nước lại thì thầm: \"Ai uống ta sẽ hoá thành sói.\"",
+        "Em gái lại xin anh đừng uống.",
+        "Đến dòng suối thứ ba, nước nói: \"Ai uống ta sẽ hoá thành nai.\"",
+        "Người anh khát quá, không chờ được nữa, quỳ xuống uống một ngụm.",
+        "Ngay lập tức, cậu hoá thành một chú nai con."
+      ],
+      "image": {
+        "prompt": "a sparkling enchanted forest spring among mossy stones, a boy kneeling to drink while his sister reaches out to stop him, faint magical glimmer on the water, then a young spotted fawn standing where the boy was",
+        "seed": 1408629103,
+        "character": "nai-con"
+      },
+      "video": {
+        "motionPrompt": "magical glimmers swirl on the water, a soft shimmer surrounds the boy and a fawn appears, the sister kneels and hugs it",
+        "seed": 2148654791
+      },
+      "voice": {}
+    },
+    {
+      "id": "tup-leu-trong-rung",
+      "title": "Túp lều trong rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Em gái ôm chú nai khóc mãi. Nai con cũng khóc theo. Rồi cô bé lau nước mắt: \"Anh đừng sợ, em sẽ không bao giờ rời xa anh.\" Cô tháo dải ruy băng vàng trên tóc, buộc quanh cổ nai, bện một sợi dây bằng cói mềm dắt anh đi. Vào sâu trong rừng, hai anh em gặp một túp lều nhỏ bỏ không. Cô bé lót lá và rêu làm ổ cho nai. Sáng sáng, cô đi hái quả, nhặt hạt dẻ, cắt cỏ non cho anh. Tối đến, cô gối đầu lên lưng nai mà ngủ. Giá anh được làm người thì cuộc sống ấy đã thật êm đềm.",
+      "subtitles": [
+        "Em gái ôm chú nai khóc mãi. Nai con cũng khóc theo.",
+        "Rồi cô bé lau nước mắt: \"Anh đừng sợ, em sẽ không bao giờ rời xa anh.\"",
+        "Cô tháo dải ruy băng vàng trên tóc, buộc quanh cổ nai,",
+        "bện một sợi dây bằng cói mềm dắt anh đi.",
+        "Vào sâu trong rừng, hai anh em gặp một túp lều nhỏ bỏ không.",
+        "Cô bé lót lá và rêu làm ổ cho nai.",
+        "Sáng sáng, cô đi hái quả, nhặt hạt dẻ, cắt cỏ non cho anh.",
+        "Tối đến, cô gối đầu lên lưng nai mà ngủ.",
+        "Giá anh được làm người thì cuộc sống ấy đã thật êm đềm."
+      ],
+      "image": {
+        "prompt": "a tiny cottage under great old trees, the girl leading the fawn with a soft rope of rushes and a golden ribbon at its neck, inside a cosy bed of moss and leaves, she sleeps leaning on the fawn back, warm lantern glow",
+        "seed": 943392100,
+        "character": "em-gai"
+      },
+      "video": {
+        "motionPrompt": "the girl strokes the fawn, lantern light glows softly, she lies down resting her head on its back, forest birds settle for the night",
+        "seed": 2991124824
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-tu-va-san",
+      "title": "Tiếng tù và săn",
+      "narrator": "ke-chuyen",
+      "narration": "Một năm nọ, nhà vua mở cuộc đi săn lớn trong rừng. Tiếng tù và vang lên, tiếng chó sủa, tiếng người hò reo. Nai con nghe thấy thì nóng lòng muốn chạy ra xem. Em gái lo lắm, nhưng đành mở cửa: \"Anh đi, nhưng tối nhớ về. Anh gõ cửa và nói: Em gái ơi, cho anh vào. Không nghe đúng câu ấy, em sẽ không mở cửa.\" Ngày thứ hai, nai con chạy chậm, bị một người thợ săn làm xước nhẹ ở chân. Người thợ săn lần theo dấu, nghe thấy câu nói ấy, liền về kể với nhà vua.",
+      "subtitles": [
+        "Một năm nọ, nhà vua mở cuộc đi săn lớn trong rừng.",
+        "Tiếng tù và vang lên, tiếng chó sủa, tiếng người hò reo.",
+        "Nai con nghe thấy thì nóng lòng muốn chạy ra xem.",
+        "Em gái lo lắm, nhưng đành mở cửa: \"Anh đi, nhưng tối nhớ về.",
+        "Anh gõ cửa và nói: Em gái ơi, cho anh vào. Không nghe đúng câu ấy, em sẽ không mở cửa.\"",
+        "Ngày thứ hai, nai con chạy chậm, bị một người thợ săn làm xước nhẹ ở chân.",
+        "Người thợ săn lần theo dấu, nghe thấy câu nói ấy, liền về kể với nhà vua."
+      ],
+      "image": {
+        "prompt": "a sunny forest glade during a royal hunt, riders in green cloaks and hunting horns in the distance, the spotted fawn with a golden ribbon leaping joyfully through ferns, the girl watching anxiously from the cottage door",
+        "seed": 1495513636,
+        "character": "nai-con"
+      },
+      "video": {
+        "motionPrompt": "the fawn bounds through the ferns, distant riders pass between the trees, the girl clasps her hands at the door",
+        "seed": 1466551432
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-vua-go-cua",
+      "title": "Nhà vua gõ cửa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày thứ ba, nhà vua tự mình đến túp lều, gõ cửa nói: \"Em gái ơi, cho anh vào.\" Cửa mở, nhà vua bước vào, thấy một cô gái xinh đẹp đang băng bó cái chân cho chú nai. Cô sợ hãi lùi lại. Nhà vua ân cần hỏi han, rồi nói: \"Nàng có muốn về cung với ta, làm hoàng hậu của ta không?\" Cô gái đáp: \"Thưa ngài, con xin vâng. Nhưng anh nai của con phải được đi cùng. Con không bao giờ bỏ anh ấy.\" Nhà vua nhận lời ngay. Thế là cô gái cưỡi ngựa về cung, nai con nhảy nhót đi bên cạnh.",
+      "subtitles": [
+        "Ngày thứ ba, nhà vua tự mình đến túp lều, gõ cửa nói: \"Em gái ơi, cho anh vào.\"",
+        "Cửa mở, nhà vua bước vào, thấy một cô gái xinh đẹp đang băng bó cái chân cho chú nai.",
+        "Cô sợ hãi lùi lại. Nhà vua ân cần hỏi han, rồi nói: \"Nàng có muốn về cung với ta,",
+        "làm hoàng hậu của ta không?\" Cô gái đáp: \"Thưa ngài, con xin vâng.",
+        "Nhưng anh nai của con phải được đi cùng. Con không bao giờ bỏ anh ấy.\"",
+        "Nhà vua nhận lời ngay. Thế là cô gái cưỡi ngựa về cung, nai con nhảy nhót đi bên cạnh."
+      ],
+      "image": {
+        "prompt": "inside the little forest cottage, the kind young king in a green hunting cloak gently greeting the girl who is caring for the fawn leg with a cloth, warm light from the open door",
+        "seed": 3676777797,
+        "character": "nha-vua"
+      },
+      "video": {
+        "motionPrompt": "the king bows his head gently, the girl looks up shyly, the fawn nuzzles her hand, sunlight pours through the doorway",
+        "seed": 2859590360
+      },
+      "voice": {}
+    },
+    {
+      "id": "bong-hinh-luc-nua-dem",
+      "title": "Bóng hình lúc nửa đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Ở cung, hoàng hậu sống hạnh phúc, nai con được chơi trong vườn ngự uyển. Ít lâu sau, hoàng hậu sinh một hoàng tử nhỏ. Mụ phù thuỷ nghe tin, ghen tức lắm. Mụ giả làm người hầu lẻn vào cung, đọc một câu bùa, làm hoàng hậu biến khỏi phòng, chỉ còn là một bóng hình. Rồi mụ đặt đứa con gái của mình nằm vào giường hoàng hậu, kéo rèm che kín. Nhưng đêm đêm, đúng nửa đêm, bà vú trông em lại thấy hoàng hậu thật hiện về, bế con lên ru, vuốt ve chú nai, rồi khẽ hỏi: \"Con tôi ra sao? Anh nai của tôi ra sao? Tôi còn về hai lần nữa thôi, rồi không bao giờ về nữa.\"",
+      "subtitles": [
+        "Ở cung, hoàng hậu sống hạnh phúc, nai con được chơi trong vườn ngự uyển.",
+        "Ít lâu sau, hoàng hậu sinh một hoàng tử nhỏ. Mụ phù thuỷ nghe tin, ghen tức lắm.",
+        "Mụ giả làm người hầu lẻn vào cung, đọc một câu bùa, làm hoàng hậu biến khỏi phòng,",
+        "chỉ còn là một bóng hình.",
+        "Rồi mụ đặt đứa con gái của mình nằm vào giường hoàng hậu, kéo rèm che kín.",
+        "Nhưng đêm đêm, đúng nửa đêm, bà vú trông em lại thấy hoàng hậu thật hiện về,",
+        "bế con lên ru, vuốt ve chú nai, rồi khẽ hỏi: \"Con tôi ra sao? Anh nai của tôi ra sao?",
+        "Tôi còn về hai lần nữa thôi, rồi không bao giờ về nữa.\""
+      ],
+      "image": {
+        "prompt": "a moonlit royal nursery, a soft glowing translucent figure of the gentle queen cradling a baby prince and stroking the fawn lying by the cradle, an astonished nurse peeking from her chair, calm magical mood",
+        "seed": 1731123615,
+        "character": "em-gai"
+      },
+      "video": {
+        "motionPrompt": "moonlight streams through the window, the glowing queen rocks the baby softly, the fawn lifts its head, the nurse covers her mouth in wonder",
+        "seed": 1471075816
+      },
+      "voice": {}
+    },
+    {
+      "id": "em-la-vo-yeu-cua-anh",
+      "title": "Em là vợ yêu của anh",
+      "narrator": "ke-chuyen",
+      "narration": "Bà vú kể với nhà vua. Đêm ấy, nhà vua thức chờ trong phòng con. Đúng nửa đêm, hoàng hậu lại hiện về, nói: \"Con tôi ra sao? Anh nai của tôi ra sao? Tôi về lần này nữa thôi, rồi không bao giờ về nữa.\" Nhà vua không kìm được, chạy tới ôm lấy nàng: \"Em chính là vợ yêu của anh!\" Vừa nghe câu ấy, bùa phép tan biến. Hoàng hậu trở lại tươi tắn, hồng hào, ấm áp như xưa. Nàng kể hết cho nhà vua nghe việc mụ phù thuỷ đã làm.",
+      "subtitles": [
+        "Bà vú kể với nhà vua. Đêm ấy, nhà vua thức chờ trong phòng con.",
+        "Đúng nửa đêm, hoàng hậu lại hiện về, nói: \"Con tôi ra sao? Anh nai của tôi ra sao?",
+        "Tôi về lần này nữa thôi, rồi không bao giờ về nữa.\"",
+        "Nhà vua không kìm được, chạy tới ôm lấy nàng: \"Em chính là vợ yêu của anh!\"",
+        "Vừa nghe câu ấy, bùa phép tan biến. Hoàng hậu trở lại tươi tắn, hồng hào, ấm áp như xưa.",
+        "Nàng kể hết cho nhà vua nghe việc mụ phù thuỷ đã làm."
+      ],
+      "image": {
+        "prompt": "the moonlit nursery, the young king embracing the queen as the magic glow around her turns warm and golden and she becomes fully herself again, the baby smiling in the cradle, the fawn beside them",
+        "seed": 731719208,
+        "character": "nha-vua"
+      },
+      "video": {
+        "motionPrompt": "a golden light blooms around the queen as the king embraces her, the glow becomes warm and real, the fawn leaps happily",
+        "seed": 175985985
+      },
+      "voice": {}
+    },
+    {
+      "id": "nai-con-hoa-nguoi",
+      "title": "Nai con hoá người",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua cho bắt mụ phù thuỷ và đứa con gái của mụ, đuổi cả hai ra khỏi vương quốc, mãi mãi không được quay lại. Mụ phù thuỷ vừa đi khuất, mọi bùa phép của mụ cũng tan theo. Ngay giữa vườn ngự uyển, chú nai con rùng mình một cái, rồi hoá lại thành chàng trai khôi ngô, người anh trai yêu quý ngày nào. Hai anh em ôm chầm lấy nhau, mừng mừng tủi tủi. Từ đó, anh trai, em gái, nhà vua và hoàng tử nhỏ sống bên nhau vui vẻ, hạnh phúc trọn đời.",
+      "subtitles": [
+        "Nhà vua cho bắt mụ phù thuỷ và đứa con gái của mụ, đuổi cả hai ra khỏi vương quốc,",
+        "mãi mãi không được quay lại. Mụ phù thuỷ vừa đi khuất, mọi bùa phép của mụ cũng tan theo.",
+        "Ngay giữa vườn ngự uyển, chú nai con rùng mình một cái,",
+        "rồi hoá lại thành chàng trai khôi ngô, người anh trai yêu quý ngày nào.",
+        "Hai anh em ôm chầm lấy nhau, mừng mừng tủi tủi.",
+        "Từ đó, anh trai, em gái, nhà vua và hoàng tử nhỏ sống bên nhau vui vẻ, hạnh phúc trọn đời."
+      ],
+      "image": {
+        "prompt": "a sunny palace garden full of flowers, golden sparkles swirling as the fawn turns back into a handsome young man, the sister queen hugging her brother joyfully, the king holding the baby prince and smiling",
+        "seed": 3824032110,
+        "character": "em-gai"
+      },
+      "video": {
+        "motionPrompt": "golden sparkles swirl around the fawn and a young man appears, brother and sister run into each other arms, petals drift in the sun",
+        "seed": 1415376842
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender German fairy-tale music, soft harp and warm cello, a delicate flute theme for the fawn, distant hunting horn calls, a hushed magical midnight passage with celesta, a joyful reunion with full strings, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 3960576662
+  }
+}

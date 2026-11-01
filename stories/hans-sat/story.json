@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "slug": "hans-sat",
+  "shelf": "world",
+  "title": "Hans Sắt",
+  "summary": "Cậu hoàng tử nhỏ lấy trộm chìa khóa thả người rừng Hans Sắt khỏi lồng, rồi theo ông vào rừng sâu, canh giếng vàng và mang mái tóc óng ánh như vàng. Dưới chiếc mũ của anh làm vườn là một chàng trai can đảm sẽ cứu cả vương quốc. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "anh-hung",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der Eisenhans\" (Kinder- und Hausmärchen, bản 1857), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; bản kể đã làm nhẹ cho cả nhà: những người thợ săn bị hút xuống đầm chỉ được kể là mất tích, trận chiến chỉ là đánh đuổi quân giặc, và chàng không bị thương ở ngày hội cuối.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a deep wild forest with a shining golden spring, a royal castle garden full of wildflowers, warm gold, rust-brown and forest-green tones, rounded friendly shapes, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hoang-tu",
+      "name": "Chàng hoàng tử",
+      "seed": 191754946,
+      "sheetPrompt": "a brave kind young German prince from the Grimm tale, long shining golden hair, simple brown gardener tunic, a small cap held in his hand, warm determined face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hans-sat",
+      "name": "Hans Sắt",
+      "seed": 2535699537,
+      "sheetPrompt": "Iron Hans the wild man from the Grimm tale, a huge friendly wild man with rusty-brown skin like old iron, long shaggy rust-colored hair and beard down to his knees, bare feet, wise gentle eyes, more mysterious than scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cong-chua",
+      "name": "Nàng công chúa",
+      "seed": 2414206121,
+      "sheetPrompt": "a cheerful curious princess from the Grimm tale, light brown hair in a crown braid, pale yellow gown, holding a golden apple, playful smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nguoi-rung-trong-long",
+      "title": "Người rừng trong lồng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, cạnh lâu đài của một ông vua có khu rừng lớn đầy thú hoang. Lạ thay, những người thợ săn đi vào rừng cứ thế mất tích, không bao giờ quay lại. Một hôm, có bác thợ săn dũng cảm dắt chó vào rừng. Tới một đầm nước, một cánh tay to từ dưới nước thò lên, kéo chú chó xuống. Bác thợ săn gọi người tát cạn đầm, thì thấy dưới đáy có một người rừng, da nâu như sắt gỉ, tóc dài phủ tới đầu gối. Người ta trói ông lại, đưa về nhốt trong chiếc lồng sắt giữa sân lâu đài. Vua cấm ai mở lồng, còn chìa khóa thì hoàng hậu cất giữ. Từ đó, người ta gọi ông là Hans Sắt.",
+      "subtitles": [
+        "Ngày xưa, cạnh lâu đài của một ông vua có khu rừng lớn đầy thú hoang.",
+        "Lạ thay, những người thợ săn đi vào rừng cứ thế mất tích, không bao giờ quay lại.",
+        "Một hôm, có bác thợ săn dũng cảm dắt chó vào rừng.",
+        "Tới một đầm nước, một cánh tay to từ dưới nước thò lên, kéo chú chó xuống.",
+        "Bác thợ săn gọi người tát cạn đầm, thì thấy dưới đáy có một người rừng, da nâu như sắt gỉ,",
+        "tóc dài phủ tới đầu gối.",
+        "Người ta trói ông lại, đưa về nhốt trong chiếc lồng sắt giữa sân lâu đài.",
+        "Vua cấm ai mở lồng, còn chìa khóa thì hoàng hậu cất giữ.",
+        "Từ đó, người ta gọi ông là Hans Sắt."
+      ],
+      "image": {
+        "prompt": "in a royal castle courtyard a huge wild man with rusty-brown skin and long shaggy rust-colored hair sits calmly inside a big iron cage, curious courtiers peeking from a distance, a hunter with his dog nearby, soft daylight, mysterious but gentle",
+        "seed": 3408762953,
+        "character": "hans-sat"
+      },
+      "video": {
+        "motionPrompt": "the wild man slowly lifts his head and looks around, the dog wags its tail, courtiers whisper, slow push-in toward the cage",
+        "seed": 3949714568
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-bong-vang",
+      "title": "Quả bóng vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Vua có một cậu con trai tám tuổi. Một hôm cậu chơi bóng trong sân, quả bóng vàng lăn tọt vào trong lồng. Người rừng nói: \"Mở lồng cho ta, ta sẽ trả bóng.\" Cậu bé lắc đầu: \"Không được, cha cháu cấm rồi.\" Hôm sau và hôm sau nữa, người rừng vẫn xin như thế. Cuối cùng, cậu lén lấy chìa khóa dưới gối của mẹ, mở lồng. Người rừng bước ra, trả bóng rồi đi nhanh về phía rừng. Cậu bé hoảng hốt gọi: \"Ông ơi, cháu sẽ bị phạt mất!\" Người rừng quay lại, bế cậu lên vai: \"Vậy thì theo ta. Ta sẽ chăm sóc cháu.\"",
+      "subtitles": [
+        "Vua có một cậu con trai tám tuổi.",
+        "Một hôm cậu chơi bóng trong sân, quả bóng vàng lăn tọt vào trong lồng.",
+        "Người rừng nói: \"Mở lồng cho ta, ta sẽ trả bóng.\"",
+        "Cậu bé lắc đầu: \"Không được, cha cháu cấm rồi.\"",
+        "Hôm sau và hôm sau nữa, người rừng vẫn xin như thế.",
+        "Cuối cùng, cậu lén lấy chìa khóa dưới gối của mẹ, mở lồng.",
+        "Người rừng bước ra, trả bóng rồi đi nhanh về phía rừng.",
+        "Cậu bé hoảng hốt gọi: \"Ông ơi, cháu sẽ bị phạt mất!\"",
+        "Người rừng quay lại, bế cậu lên vai: \"Vậy thì theo ta.",
+        "Ta sẽ chăm sóc cháu.\""
+      ],
+      "image": {
+        "prompt": "a little prince with golden hair stands on tiptoe unlocking a big iron cage with a key, the gentle wild man holds out a shining golden ball, sunny courtyard, the forest edge in the distance",
+        "seed": 2519705047,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the key turns, the cage door creaks open, the wild man gently lifts the boy onto his shoulder and strides toward the forest",
+        "seed": 3079127774
+      },
+      "voice": {}
+    },
+    {
+      "id": "gieng-vang",
+      "title": "Giếng vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Trong rừng sâu, người rừng chỉ cho cậu bé một cái giếng nước trong như pha lê, lấp lánh ánh vàng. \"Cháu ngồi canh giếng này, đừng để bất cứ thứ gì rơi xuống nhé.\" Nhưng cậu bé lỡ nhúng ngón tay đau vào nước, ngón tay hóa vàng ngay. Hôm sau, một sợi tóc rơi xuống, cũng hóa vàng. Ngày thứ ba, cậu cúi nhìn bóng mình, mái tóc dài rơi cả xuống nước, khi ngẩng lên đã óng ánh như vàng ròng. Người rừng bảo: \"Cháu không giữ được lời rồi, không thể ở lại đây. Nhưng cháu là đứa trẻ tốt. Khi nào gặp khó khăn, cứ ra bìa rừng gọi to: Hans Sắt ơi! Ta sẽ đến giúp.\"",
+      "subtitles": [
+        "Trong rừng sâu, người rừng chỉ cho cậu bé một cái giếng nước trong như pha lê,",
+        "lấp lánh ánh vàng. \"Cháu ngồi canh giếng này, đừng để bất cứ thứ gì rơi xuống nhé.\"",
+        "Nhưng cậu bé lỡ nhúng ngón tay đau vào nước, ngón tay hóa vàng ngay.",
+        "Hôm sau, một sợi tóc rơi xuống, cũng hóa vàng.",
+        "Ngày thứ ba, cậu cúi nhìn bóng mình, mái tóc dài rơi cả xuống nước,",
+        "khi ngẩng lên đã óng ánh như vàng ròng.",
+        "Người rừng bảo: \"Cháu không giữ được lời rồi, không thể ở lại đây.",
+        "Nhưng cháu là đứa trẻ tốt. Khi nào gặp khó khăn, cứ ra bìa rừng gọi to: Hans Sắt ơi!",
+        "Ta sẽ đến giúp.\""
+      ],
+      "image": {
+        "prompt": "in a deep green forest a little prince kneels by a crystal-clear spring that glows with golden light, his long hair has turned shining gold as he lifts his head, the wild man standing behind him kindly, sunbeams through the trees",
+        "seed": 1994757471,
+        "character": "hans-sat"
+      },
+      "video": {
+        "motionPrompt": "golden ripples spread across the spring, the boy lifts his glowing golden hair in surprise, sunbeams flicker through leaves",
+        "seed": 2821617182
+      },
+      "voice": {}
+    },
+    {
+      "id": "chang-lam-vuon",
+      "title": "Chàng làm vườn",
+      "narrator": "ke-chuyen",
+      "narration": "Cậu bé đi khắp nơi, lớn dần thành chàng trai, rồi tới lâu đài của một ông vua khác, xin làm phụ bếp, sau làm phụ vườn. Chàng luôn đội mũ, nói rằng đầu mình bị ghẻ, để giấu mái tóc vàng. Một hôm nắng nóng, chàng cởi mũ cho mát. Mái tóc vàng sáng rực lên, chiếu tới tận phòng công chúa. Công chúa gọi: \"Anh làm vườn ơi, mang cho ta một bó hoa.\" Chàng hái một bó hoa dại mang lên. Công chúa đòi nhìn tóc, giật chiếc mũ ra, rồi bật cười thích thú, thưởng cho chàng một nắm tiền vàng. Chàng chẳng giữ cho mình, mang hết về cho các con bác làm vườn chơi.",
+      "subtitles": [
+        "Cậu bé đi khắp nơi, lớn dần thành chàng trai, rồi tới lâu đài của một ông vua khác,",
+        "xin làm phụ bếp, sau làm phụ vườn.",
+        "Chàng luôn đội mũ, nói rằng đầu mình bị ghẻ, để giấu mái tóc vàng.",
+        "Một hôm nắng nóng, chàng cởi mũ cho mát.",
+        "Mái tóc vàng sáng rực lên, chiếu tới tận phòng công chúa.",
+        "Công chúa gọi: \"Anh làm vườn ơi, mang cho ta một bó hoa.\"",
+        "Chàng hái một bó hoa dại mang lên.",
+        "Công chúa đòi nhìn tóc, giật chiếc mũ ra, rồi bật cười thích thú,",
+        "thưởng cho chàng một nắm tiền vàng.",
+        "Chàng chẳng giữ cho mình, mang hết về cho các con bác làm vườn chơi."
+      ],
+      "image": {
+        "prompt": "in a castle garden full of wildflowers a young gardener with shining golden hair offers a bouquet of wildflowers to a cheerful princess, who playfully holds his little cap, warm summer light, sweet and gentle",
+        "seed": 1513494427,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the princess lifts the cap and golden hair tumbles out shining, she laughs, butterflies drift over the flowers",
+        "seed": 1827582222
+      },
+      "voice": {}
+    },
+    {
+      "id": "danh-duoi-quan-giac",
+      "title": "Đánh đuổi quân giặc",
+      "narrator": "ke-chuyen",
+      "narration": "Ít lâu sau, giặc kéo tới đánh vương quốc. Chàng làm vườn xin đi đánh giặc, nhưng người ta chỉ cho chàng con ngựa què. Chàng phi ra bìa rừng, gọi ba lần: \"Hans Sắt ơi! Hans Sắt ơi! Hans Sắt ơi!\" Người rừng hiện ra ngay. \"Cháu cần gì?\" \"Cháu cần một con ngựa khỏe để ra trận.\" Lập tức, một con chiến mã hiện ra, theo sau là cả đoàn hiệp sĩ mặc áo giáp sắt. Chàng dẫn họ lao ra chiến trường như một cơn gió. Quân giặc thấy thế hoảng sợ, quay đầu bỏ chạy tán loạn. Thắng trận xong, chàng lặng lẽ trả ngựa, lại khoác áo làm vườn, chẳng ai biết người hiệp sĩ ấy là ai.",
+      "subtitles": [
+        "Ít lâu sau, giặc kéo tới đánh vương quốc.",
+        "Chàng làm vườn xin đi đánh giặc, nhưng người ta chỉ cho chàng con ngựa què.",
+        "Chàng phi ra bìa rừng, gọi ba lần: \"Hans Sắt ơi!",
+        "Hans Sắt ơi! Hans Sắt ơi!\" Người rừng hiện ra ngay.",
+        "\"Cháu cần gì?\" \"Cháu cần một con ngựa khỏe để ra trận.\"",
+        "Lập tức, một con chiến mã hiện ra, theo sau là cả đoàn hiệp sĩ mặc áo giáp sắt.",
+        "Chàng dẫn họ lao ra chiến trường như một cơn gió.",
+        "Quân giặc thấy thế hoảng sợ, quay đầu bỏ chạy tán loạn.",
+        "Thắng trận xong, chàng lặng lẽ trả ngựa, lại khoác áo làm vườn,",
+        "chẳng ai biết người hiệp sĩ ấy là ai."
+      ],
+      "image": {
+        "prompt": "at the forest edge the young man in shining iron armor rides a powerful dark horse at the head of a troop of armored knights on horseback, the wild man watching proudly from the trees, the enemy riders fleeing far away over the hills, heroic but gentle",
+        "seed": 1592080925,
+        "character": "hans-sat"
+      },
+      "video": {
+        "motionPrompt": "the knights gallop forward like the wind, banners flutter, the distant riders turn and flee, dust rises softly",
+        "seed": 3033422896
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-qua-tao-vang",
+      "title": "Ba quả táo vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Vua mở hội ba ngày, công chúa sẽ ném một quả táo vàng, mong tìm ra người hiệp sĩ bí ẩn. Ngày đầu, một hiệp sĩ cưỡi ngựa hồng, giáp đỏ, bắt được táo rồi phóng đi mất. Ngày thứ hai, hiệp sĩ cưỡi ngựa trắng, giáp trắng. Ngày thứ ba, hiệp sĩ cưỡi ngựa đen, giáp đen. Lần này vua sai người đuổi theo. Ngựa phi nhanh quá, chiếc mũ sắt bật ra, mái tóc vàng óng tung bay. Công chúa reo lên: \"Là anh làm vườn!\" Chàng được gọi vào, rút ra ba quả táo vàng. Chàng kể mình là hoàng tử, và xin cưới công chúa. Công chúa đỏ mặt cười: \"Em đã đoán ra từ lâu rồi.\"",
+      "subtitles": [
+        "Vua mở hội ba ngày, công chúa sẽ ném một quả táo vàng, mong tìm ra người hiệp sĩ bí ẩn.",
+        "Ngày đầu, một hiệp sĩ cưỡi ngựa hồng, giáp đỏ, bắt được táo rồi phóng đi mất.",
+        "Ngày thứ hai, hiệp sĩ cưỡi ngựa trắng, giáp trắng.",
+        "Ngày thứ ba, hiệp sĩ cưỡi ngựa đen, giáp đen.",
+        "Lần này vua sai người đuổi theo.",
+        "Ngựa phi nhanh quá, chiếc mũ sắt bật ra, mái tóc vàng óng tung bay.",
+        "Công chúa reo lên: \"Là anh làm vườn!\" Chàng được gọi vào, rút ra ba quả táo vàng.",
+        "Chàng kể mình là hoàng tử, và xin cưới công chúa.",
+        "Công chúa đỏ mặt cười: \"Em đã đoán ra từ lâu rồi.\""
+      ],
+      "image": {
+        "prompt": "at a festive tournament field a princess tosses a golden apple, a knight on a black horse catches it as his iron helmet slips off and long golden hair flows out, the crowd cheering, colorful banners, joyful scene",
+        "seed": 1505933556,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the golden apple arcs through the air and lands in the knight's hand, the helmet slips off and golden hair streams in the wind, banners wave",
+        "seed": 973228006
+      },
+      "voice": {}
+    },
+    {
+      "id": "vi-vua-hans-sat",
+      "title": "Vị vua Hans Sắt",
+      "narrator": "ke-chuyen",
+      "narration": "Đám cưới được tổ chức linh đình, cha mẹ của hoàng tử cũng tới dự, mừng rỡ vì tưởng đã mất con từ lâu. Đang giữa tiệc, nhạc bỗng dừng lại. Cửa mở, một vị vua oai nghiêm bước vào cùng đoàn tùy tùng. Ông ôm lấy chàng hoàng tử: \"Ta chính là Hans Sắt. Ta bị phù phép hóa thành người rừng. Nhờ con tốt bụng và giữ lòng trung thành, lời nguyền đã được giải. Tất cả kho báu của ta từ nay là của con.\" Cả lâu đài reo vui, và mọi người sống hạnh phúc từ đó.",
+      "subtitles": [
+        "Đám cưới được tổ chức linh đình, cha mẹ của hoàng tử cũng tới dự,",
+        "mừng rỡ vì tưởng đã mất con từ lâu. Đang giữa tiệc, nhạc bỗng dừng lại.",
+        "Cửa mở, một vị vua oai nghiêm bước vào cùng đoàn tùy tùng.",
+        "Ông ôm lấy chàng hoàng tử: \"Ta chính là Hans Sắt.",
+        "Ta bị phù phép hóa thành người rừng.",
+        "Nhờ con tốt bụng và giữ lòng trung thành, lời nguyền đã được giải.",
+        "Tất cả kho báu của ta từ nay là của con.\"",
+        "Cả lâu đài reo vui, và mọi người sống hạnh phúc từ đó."
+      ],
+      "image": {
+        "prompt": "a grand wedding feast in a royal hall, a majestic smiling king with a rust-gold beard and a fine crown embraces the young prince with golden hair, the princess and the prince's parents smiling, warm festive candlelight",
+        "seed": 3513013603,
+        "character": "hans-sat"
+      },
+      "video": {
+        "motionPrompt": "the doors swing open, the majestic king strides in and hugs the prince warmly, guests rise and cheer, candles glow, slow pull-back",
+        "seed": 246951089
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm German forest fairy-tale music, French horn calls echoing through the woods, harp and strings, a heroic but gentle melody, medium tempo, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 3296502190
+  }
+}

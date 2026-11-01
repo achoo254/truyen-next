@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "slug": "giang-van-minh",
+  "shelf": "adults",
+  "title": "Giang Văn Minh đi sứ",
+  "summary": "Thám hoa Giang Văn Minh mang sứ mệnh sang nhà Minh, tương truyền khóc giỗ tổ năm đời để đòi bỏ lệ góp giỗ Liễu Thăng, rồi đối lại vua Minh bằng câu Đằng Giang tự cổ huyết do hồng. Ông chết nơi đất khách, được vua Lê khen là sứ thần không làm nhục mệnh vua: giai thoại về khí tiết một sứ thần đất Việt.",
+  "themes": [
+    "anh-hung",
+    "su-tich"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Kể theo giai thoại dân gian về sứ thần Giang Văn Minh, chép sớm nhất trong gia phả họ Giang ở làng Mông Phụ (Đường Lâm, viết năm 1849), thuộc phạm vi công cộng; chính sử không chép chuyện này nên lời kể nói rõ là giai thoại, tương truyền. Lời kể viết mới, không chép sách giáo khoa hay bản kể hiện đại nào.",
+  "basedOn": "Giai thoại dân gian Việt Nam về Giang Văn Minh",
+  "style": "classical Vietnamese ink and silk painting illustration, dignified brush linework with washes of ink black, cinnabar red, imperial yellow, pale jade and grey on aged silk, seventeenth century Le dynasty Vietnam and the Ming court in Beijing, ancient village of Duong Lam with laterite walls, grand Ming palace halls, solemn and proud mood for adult readers, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "van-minh",
+      "name": "Giang Văn Minh",
+      "sheetPrompt": "Giang Van Minh, a Vietnamese Le dynasty envoy of the seventeenth century in his sixties, upright lean figure with a long grey beard, calm unyielding eyes, black winged official hat, deep blue embroidered court robe with a jade belt, holding an ivory tablet, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 3997870469
+    },
+    {
+      "id": "vua-minh",
+      "name": "Vua Minh",
+      "sheetPrompt": "the last Ming emperor, a proud anxious middle aged Chinese monarch with a thin moustache, bright yellow dragon robe and winged imperial hat, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 1153753106
+    }
+  ],
+  "scenes": [
+    {
+      "id": "duong-lam",
+      "title": "Người con làng Mông Phụ",
+      "narrator": "ke-chuyen",
+      "narration": "Giang Văn Minh sinh năm một nghìn năm trăm bảy mươi ba, ở làng Mông Phụ, tục gọi là Kẻ Mía, thuộc đất Đường Lâm, xứ Sơn Tây. Đó là một làng cổ với những bức tường đá ong, cổng làng rêu phong, nơi đất học có tiếng. Ông chăm chỉ đèn sách từ nhỏ, đến năm Mậu Thìn đời vua Lê Thần Tông thì đỗ đầu kỳ thi Hội, vào thi Đình đỗ Thám hoa. Khoa ấy không ai đỗ Trạng nguyên hay Bảng nhãn, nên ông là người đỗ cao nhất. Sau đó ông lần lượt làm quan trong triều, được tiếng là người cương trực, giỏi văn chương.",
+      "subtitles": [
+        "Giang Văn Minh sinh năm một nghìn năm trăm bảy mươi ba, ở làng Mông Phụ,",
+        "tục gọi là Kẻ Mía, thuộc đất Đường Lâm, xứ Sơn Tây.",
+        "Đó là một làng cổ với những bức tường đá ong, cổng làng rêu phong, nơi đất học có tiếng.",
+        "Ông chăm chỉ đèn sách từ nhỏ, đến năm Mậu Thìn đời vua Lê Thần Tông thì đỗ đầu kỳ thi Hội,",
+        "vào thi Đình đỗ Thám hoa.",
+        "Khoa ấy không ai đỗ Trạng nguyên hay Bảng nhãn, nên ông là người đỗ cao nhất.",
+        "Sau đó ông lần lượt làm quan trong triều, được tiếng là người cương trực, giỏi văn chương."
+      ],
+      "image": {
+        "prompt": "the ancient village of Duong Lam with laterite stone walls, an old banyan tree and a village gate, a scholar in laureate robes returning on horseback as villagers welcome him with flags and drums",
+        "seed": 2142789742,
+        "character": "van-minh"
+      },
+      "video": {
+        "motionPrompt": "villagers wave flags and beat drums, the horse walks slowly through the old gate, leaves of the banyan tree flutter",
+        "seed": 693542138
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhan-menh",
+      "title": "Nhận mệnh đi sứ",
+      "narrator": "ke-chuyen",
+      "narration": "Bấy giờ nhà Mạc đã chạy lên Cao Bằng, nhưng nhà Minh vẫn chơi trò hai mặt, công nhận cả nhà Lê lẫn nhà Mạc, để cuộc chiến giữa hai bên kéo dài mãi. Cuối năm Dương Hòa thứ ba, vua Lê sai Giang Văn Minh làm chánh sứ, cùng Nguyễn Duy Hiểu và các phó sứ dẫn đoàn sang nhà Minh cầu phong và dâng lễ tuế cống. Năm ấy ông đã ngoài sáu mươi tuổi. Đường sang Yên Kinh xa xôi cách trở, qua núi qua sông, đi hàng mấy tháng trời. Gánh trên vai sứ đoàn là thể diện của cả một đất nước.",
+      "subtitles": [
+        "Bấy giờ nhà Mạc đã chạy lên Cao Bằng, nhưng nhà Minh vẫn chơi trò hai mặt,",
+        "công nhận cả nhà Lê lẫn nhà Mạc, để cuộc chiến giữa hai bên kéo dài mãi.",
+        "Cuối năm Dương Hòa thứ ba, vua Lê sai Giang Văn Minh làm chánh sứ,",
+        "cùng Nguyễn Duy Hiểu và các phó sứ dẫn đoàn sang nhà Minh cầu phong và dâng lễ tuế cống.",
+        "Năm ấy ông đã ngoài sáu mươi tuổi.",
+        "Đường sang Yên Kinh xa xôi cách trở, qua núi qua sông, đi hàng mấy tháng trời.",
+        "Gánh trên vai sứ đoàn là thể diện của cả một đất nước."
+      ],
+      "image": {
+        "prompt": "a Vietnamese diplomatic mission departing Thang Long, the grey bearded envoy Giang Van Minh bowing before the Le king on the throne, then a long caravan of envoys, porters and tribute chests setting out on a mountain road toward the north",
+        "seed": 3211988791,
+        "character": "van-minh"
+      },
+      "video": {
+        "motionPrompt": "the envoy bows deeply and rises, the scene shifts to the caravan winding along the mountain road, banners flutter in the wind",
+        "seed": 3908133779
+      },
+      "voice": {}
+    },
+    {
+      "id": "khong-tiep",
+      "title": "Cửa triều đóng chặt",
+      "narrator": "ke-chuyen",
+      "narration": "Năm sau, sứ đoàn đến Yên Kinh. Nhưng vua Minh mượn cớ lệ cũ chưa có quy định rõ ràng về việc sắc phong, chỉ ban sắc thư khen thưởng, không chịu công nhận vua Lê là chính thống. Tương truyền, sứ đoàn còn bị bắt chờ đợi mãi mà không được vào chầu. Ngày qua ngày, cửa triều vẫn đóng chặt. Giang Văn Minh biết rằng nếu cứ ngồi đợi thì sứ mệnh sẽ thất bại, mà nước nhà thì vẫn phải chịu những lệ cống nặng nề từ bao đời nay.",
+      "subtitles": [
+        "Năm sau, sứ đoàn đến Yên Kinh.",
+        "Nhưng vua Minh mượn cớ lệ cũ chưa có quy định rõ ràng về việc sắc phong,",
+        "chỉ ban sắc thư khen thưởng, không chịu công nhận vua Lê là chính thống.",
+        "Tương truyền, sứ đoàn còn bị bắt chờ đợi mãi mà không được vào chầu.",
+        "Ngày qua ngày, cửa triều vẫn đóng chặt.",
+        "Giang Văn Minh biết rằng nếu cứ ngồi đợi thì sứ mệnh sẽ thất bại,",
+        "mà nước nhà thì vẫn phải chịu những lệ cống nặng nề từ bao đời nay."
+      ],
+      "image": {
+        "prompt": "the Vietnamese envoys waiting in a cold courtyard outside the closed red gates of the Ming palace in Beijing, snow on the ground, Ming guards standing stiffly, Giang Van Minh standing still with a determined face",
+        "seed": 3336857750,
+        "character": "van-minh"
+      },
+      "video": {
+        "motionPrompt": "snow drifts down, the heavy red gates remain shut, guards stand motionless, Giang Van Minh lifts his eyes toward the palace roof",
+        "seed": 1330208916
+      },
+      "voice": {}
+    },
+    {
+      "id": "lieu-thang",
+      "title": "Món nợ Liễu Thăng",
+      "narrator": "ke-chuyen",
+      "narration": "Món nợ ấy có từ hai trăm năm trước. Khi Lê Lợi đánh đuổi quân Minh, viên tướng Liễu Thăng dẫn đại quân sang cứu viện, bị nghĩa quân Lam Sơn chém ở ải Chi Lăng. Để giữ hòa hiếu sau chiến tranh, nước ta phải nhận lệ hằng năm cống người bằng vàng, được nói là để đền mạng Liễu Thăng, mà người đời quen gọi là lệ góp giỗ Liễu Thăng. Bao đời vua đã qua, lệ ấy vẫn còn, vừa tốn kém vừa nhục nhã. Giang Văn Minh quyết tìm cách xóa bỏ món nợ này.",
+      "subtitles": [
+        "Món nợ ấy có từ hai trăm năm trước.",
+        "Khi Lê Lợi đánh đuổi quân Minh, viên tướng Liễu Thăng dẫn đại quân sang cứu viện,",
+        "bị nghĩa quân Lam Sơn chém ở ải Chi Lăng.",
+        "Để giữ hòa hiếu sau chiến tranh, nước ta phải nhận lệ hằng năm cống người bằng vàng,",
+        "được nói là để đền mạng Liễu Thăng, mà người đời quen gọi là lệ góp giỗ Liễu Thăng.",
+        "Bao đời vua đã qua, lệ ấy vẫn còn, vừa tốn kém vừa nhục nhã.",
+        "Giang Văn Minh quyết tìm cách xóa bỏ món nợ này."
+      ],
+      "image": {
+        "prompt": "historical memory scene at Chi Lang mountain pass, Lam Son warriors ambushing a great Ming army among steep limestone hills and mist, then in a later court a small golden human statue placed in a tribute chest",
+        "seed": 1499824975
+      },
+      "video": {
+        "motionPrompt": "mist rolls through the mountain pass, warriors surge down the slopes, the scene fades into a quiet court where the lid closes on a golden statue",
+        "seed": 738123083
+      },
+      "voice": {}
+    },
+    {
+      "id": "khoc-gio",
+      "title": "Khóc giỗ tổ năm đời",
+      "narrator": "ke-chuyen",
+      "narration": "Tương truyền, một hôm Giang Văn Minh bày lễ, mặc áo tang, ngồi khóc thảm thiết ngay nơi công quán. Chuyện lạ đến tai vua Minh, vua cho đòi vào hỏi. Ông tâu rằng hôm nay là ngày giỗ cụ tổ năm đời của mình, ở xa quê không về làm giỗ được nên thương xót mà khóc. Vua Minh bật cười, bảo rằng tổ năm đời đã mất từ lâu lắm, ai lại còn khóc giỗ như thế. Ông liền thưa lại: tổ năm đời đã xa mà không nên giỗ, thì cớ sao Liễu Thăng chết đã hai trăm năm, nước tôi năm nào cũng phải góp giỗ? Vua Minh biết mình mắc lời, đành bãi bỏ lệ góp giỗ Liễu Thăng.",
+      "subtitles": [
+        "Tương truyền, một hôm Giang Văn Minh bày lễ, mặc áo tang,",
+        "ngồi khóc thảm thiết ngay nơi công quán. Chuyện lạ đến tai vua Minh, vua cho đòi vào hỏi.",
+        "Ông tâu rằng hôm nay là ngày giỗ cụ tổ năm đời của mình,",
+        "ở xa quê không về làm giỗ được nên thương xót mà khóc.",
+        "Vua Minh bật cười, bảo rằng tổ năm đời đã mất từ lâu lắm, ai lại còn khóc giỗ như thế.",
+        "Ông liền thưa lại: tổ năm đời đã xa mà không nên giỗ,",
+        "thì cớ sao Liễu Thăng chết đã hai trăm năm, nước tôi năm nào cũng phải góp giỗ?",
+        "Vua Minh biết mình mắc lời, đành bãi bỏ lệ góp giỗ Liễu Thăng."
+      ],
+      "image": {
+        "prompt": "the Ming palace hall, Giang Van Minh in white mourning clothes kneeling and weeping before the Ming emperor, the emperor laughing at first then frowning as he realizes, courtiers whispering behind fans",
+        "seed": 1445089042,
+        "character": "van-minh"
+      },
+      "video": {
+        "motionPrompt": "the envoy wipes his tears and lifts his head to speak, the emperor's smile fades into an uneasy frown, courtiers glance at each other",
+        "seed": 2985452625
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-doi",
+      "title": "Vế đối của vua Minh",
+      "narrator": "ke-chuyen",
+      "narration": "Vua Minh mất mặt, trong lòng tức giận. Tương truyền, trước mặt văn võ bá quan và sứ thần các nước, vua ra cho sứ đoàn một vế đối: Đồng trụ chí kim đài dĩ lục. Nghĩa là: Cột đồng đến nay rêu đã xanh. Câu ấy nhắc đến cột đồng mà Mã Viện tương truyền đã dựng sau khi đánh Hai Bà Trưng, ngụ ý rằng phương Bắc vẫn làm chủ đất Nam, chuyện ấy đã yên như rêu phủ cột đồng. Cả triều đình lặng đi, chờ xem sứ thần nước Nam đáp lại thế nào.",
+      "subtitles": [
+        "Vua Minh mất mặt, trong lòng tức giận.",
+        "Tương truyền, trước mặt văn võ bá quan và sứ thần các nước, vua ra cho sứ đoàn một vế đối:",
+        "Đồng trụ chí kim đài dĩ lục. Nghĩa là: Cột đồng đến nay rêu đã xanh.",
+        "Câu ấy nhắc đến cột đồng mà Mã Viện tương truyền đã dựng sau khi đánh Hai Bà Trưng,",
+        "ngụ ý rằng phương Bắc vẫn làm chủ đất Nam, chuyện ấy đã yên như rêu phủ cột đồng.",
+        "Cả triều đình lặng đi, chờ xem sứ thần nước Nam đáp lại thế nào."
+      ],
+      "image": {
+        "prompt": "the grand Ming throne hall filled with ministers and foreign envoys, the Ming emperor on the dragon throne pointing with a proud mocking smile, a vision of an old bronze pillar covered in green moss floating like a mirage above the hall",
+        "seed": 3420780029,
+        "character": "vua-minh"
+      },
+      "video": {
+        "motionPrompt": "the emperor leans forward with a mocking smile, the faint image of the mossy bronze pillar shimmers in the air, ministers fall silent",
+        "seed": 1621772107
+      },
+      "voice": {}
+    },
+    {
+      "id": "dang-giang",
+      "title": "Đằng Giang tự cổ huyết do hồng",
+      "narrator": "ke-chuyen",
+      "narration": "Giang Văn Minh đứng thẳng, ung dung đọc vế đáp: Đằng Giang tự cổ huyết do hồng. Nghĩa là: Sông Bạch Đằng từ xưa máu vẫn còn đỏ. Câu đối vừa chỉnh, vừa sắc. Cột đồng của Mã Viện chưa chắc đã có thật, còn sông Bạch Đằng thì sừng sững đó, nơi Ngô Quyền phá quân Nam Hán, Lê Hoàn phá quân Tống, Trần Hưng Đạo phá quân Nguyên. Lời đáp như nhắc thẳng vào mặt vua Minh rằng phương Bắc bao lần sang đánh nước Nam, bấy nhiêu lần chuốc lấy thất bại.",
+      "subtitles": [
+        "Giang Văn Minh đứng thẳng, ung dung đọc vế đáp: Đằng Giang tự cổ huyết do hồng.",
+        "Nghĩa là: Sông Bạch Đằng từ xưa máu vẫn còn đỏ.",
+        "Câu đối vừa chỉnh, vừa sắc.",
+        "Cột đồng của Mã Viện chưa chắc đã có thật, còn sông Bạch Đằng thì sừng sững đó,",
+        "nơi Ngô Quyền phá quân Nam Hán, Lê Hoàn phá quân Tống, Trần Hưng Đạo phá quân Nguyên.",
+        "Lời đáp như nhắc thẳng vào mặt vua Minh rằng phương Bắc bao lần sang đánh nước Nam,",
+        "bấy nhiêu lần chuốc lấy thất bại."
+      ],
+      "image": {
+        "prompt": "Giang Van Minh standing tall and calm in the Ming throne hall answering, behind him a vision of the Bach Dang river with sharpened wooden stakes rising from the water at low tide and enemy warships breaking apart, the red sunset reflecting on the river",
+        "seed": 1860918234,
+        "character": "van-minh"
+      },
+      "video": {
+        "motionPrompt": "the envoy raises his ivory tablet and speaks steadily, the vision of the river glows red with sunset, stakes rise from the ebbing tide, the courtiers step back",
+        "seed": 911109441
+      },
+      "voice": {}
+    },
+    {
+      "id": "khong-nhuc",
+      "title": "Không để nhục mệnh vua",
+      "narrator": "ke-chuyen",
+      "narration": "Vua Minh giận dữ, quên cả thể diện thiên triều, bất chấp lệ thường bang giao. Tương truyền, vua sai giết sứ thần, lại còn sai mổ bụng ông ra xem gan sứ thần An Nam to đến đâu. Giang Văn Minh mất nơi đất khách, năm ấy đã ngoài sáu mươi tuổi. Nhưng rồi vua Minh cũng kính phục khí tiết của ông, lại sợ gây thêm thù oán khi trong nước đang rối ren, nên cho ướp thi hài ông bằng thủy ngân, đưa về trả cho nước Nam.",
+      "subtitles": [
+        "Vua Minh giận dữ, quên cả thể diện thiên triều, bất chấp lệ thường bang giao.",
+        "Tương truyền, vua sai giết sứ thần,",
+        "lại còn sai mổ bụng ông ra xem gan sứ thần An Nam to đến đâu.",
+        "Giang Văn Minh mất nơi đất khách, năm ấy đã ngoài sáu mươi tuổi.",
+        "Nhưng rồi vua Minh cũng kính phục khí tiết của ông,",
+        "lại sợ gây thêm thù oán khi trong nước đang rối ren,",
+        "nên cho ướp thi hài ông bằng thủy ngân, đưa về trả cho nước Nam."
+      ],
+      "image": {
+        "prompt": "a dark stormy sky over the Ming palace roofs at dusk, an empty envoy's hat and ivory tablet lying on the stone steps, then a simple coffin draped with red cloth carried by Vietnamese attendants along a road heading south",
+        "seed": 1831134981,
+        "character": "vua-minh"
+      },
+      "video": {
+        "motionPrompt": "storm clouds roll over the palace roofs, wind stirs the red cloth on the coffin as the procession moves slowly southward",
+        "seed": 4096374627
+      },
+      "voice": {}
+    },
+    {
+      "id": "vinh-danh",
+      "title": "Anh hùng thiên cổ",
+      "narrator": "ke-chuyen",
+      "narration": "Linh cữu về đến Thăng Long, vua Lê Thần Tông và chúa Trịnh Tráng thân đến làm lễ, truy tặng ông chức công bộ tả thị lang, tước Vinh quận công. Vua ban cho ông câu đối: Sứ bất nhục quân mệnh, khả vi thiên cổ anh hùng. Nghĩa là: Đi sứ không làm nhục mệnh vua, xứng là anh hùng muôn thuở. Trong bài văn tế có câu rằng: ai cũng sống, sống như ông thật đáng sống; ai cũng chết, chết như ông thì chết như sống. Ông được an táng ở cánh đồng Đồng Dưa quê nhà, nơi còn quán nhỏ từng quàn linh cữu ông.",
+      "subtitles": [
+        "Linh cữu về đến Thăng Long, vua Lê Thần Tông và chúa Trịnh Tráng thân đến làm lễ,",
+        "truy tặng ông chức công bộ tả thị lang, tước Vinh quận công.",
+        "Vua ban cho ông câu đối: Sứ bất nhục quân mệnh, khả vi thiên cổ anh hùng.",
+        "Nghĩa là: Đi sứ không làm nhục mệnh vua, xứng là anh hùng muôn thuở.",
+        "Trong bài văn tế có câu rằng: ai cũng sống, sống như ông thật đáng sống; ai cũng chết,",
+        "chết như ông thì chết như sống.",
+        "Ông được an táng ở cánh đồng Đồng Dưa quê nhà, nơi còn quán nhỏ từng quàn linh cữu ông."
+      ],
+      "image": {
+        "prompt": "Thang Long royal ceremony, the Le king and Lord Trinh in mourning bowing before a coffin under a canopy of yellow and red banners, officials kneeling in rows, incense smoke rising, then a quiet grave in green rice fields at Duong Lam",
+        "seed": 589726242
+      },
+      "video": {
+        "motionPrompt": "incense smoke rises in slow spirals, banners stir, the king bows deeply, the scene drifts to the green fields where wind moves the rice around the grave",
+        "seed": 667984811
+      },
+      "voice": {}
+    },
+    {
+      "id": "giai-thoai",
+      "title": "Câu chuyện còn truyền mãi",
+      "narrator": "ke-chuyen",
+      "narration": "Chuyện Giang Văn Minh đi sứ được chép lại trong gia phả họ Giang, rồi truyền đi khắp nơi. Sử sách chính thống của hai nước không ghi lại, nên người đời sau coi đó là giai thoại. Nhưng giai thoại ấy sống mãi trong lòng người Việt, bởi nó nói lên điều mà ai cũng muốn tin: một sứ thần nước nhỏ vẫn có thể đứng thẳng trước ngai vàng nước lớn. Ngày nay, nhà thờ ông ở làng Mông Phụ đã được công nhận là di tích, và nhiều con phố trên khắp đất nước mang tên Giang Văn Minh.",
+      "subtitles": [
+        "Chuyện Giang Văn Minh đi sứ được chép lại trong gia phả họ Giang, rồi truyền đi khắp nơi.",
+        "Sử sách chính thống của hai nước không ghi lại, nên người đời sau coi đó là giai thoại.",
+        "Nhưng giai thoại ấy sống mãi trong lòng người Việt,",
+        "bởi nó nói lên điều mà ai cũng muốn tin:",
+        "một sứ thần nước nhỏ vẫn có thể đứng thẳng trước ngai vàng nước lớn.",
+        "Ngày nay, nhà thờ ông ở làng Mông Phụ đã được công nhận là di tích,",
+        "và nhiều con phố trên khắp đất nước mang tên Giang Văn Minh."
+      ],
+      "image": {
+        "prompt": "the old ancestral hall of the Giang family in Mong Phu village with laterite walls and tiled roof, descendants offering incense, an open old family register book on the altar, modern visitors paying respect quietly",
+        "seed": 1407708589,
+        "character": "van-minh"
+      },
+      "video": {
+        "motionPrompt": "incense smoke drifts across the altar, pages of the old register flutter in a light breeze, visitors bow slowly",
+        "seed": 2004169711
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "solemn and dignified Vietnamese traditional instrumental, slow dan nhi fiddle and dan bau, deep court drum and bronze gong, a stern courtly theme turning into a mournful farewell, slow tempo, no vocals",
+    "durationSeconds": 160,
+    "seed": 3574709179
+  }
+}

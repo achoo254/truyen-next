@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "slug": "bach-tuyet-va-hong-hoa",
+  "shelf": "world",
+  "title": "Bạch Tuyết và Hồng Hoa",
+  "summary": "Hai chị em Bạch Tuyết và Hồng Hoa mở cửa cho một chú gấu lạc giữa mùa đông, rồi ba lần cứu gã lùn cáu kỉnh mà chẳng được một lời cảm ơn. Lòng tốt của hai chị em giải lời nguyền cho một chàng hoàng tử. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Schneeweißchen und Rosenrot\" (Kinder- und Hausmärchen, bản 1857), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; bản kể đã làm nhẹ cho cả nhà: gã lùn độc ác chỉ biến mất mãi mãi sau cú vung chân của chú gấu.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a cosy cottage at the edge of a deep forest, snowy winter whites and spring rose pinks, warm candlelight, rounded friendly shapes, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "bach-tuyet",
+      "name": "Bạch Tuyết",
+      "seed": 894931188,
+      "sheetPrompt": "Snow-White from the Grimm tale, a gentle quiet young German peasant girl, long pale blonde hair with a white ribbon, soft white blouse and pale blue skirt with apron, kind calm eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hong-hoa",
+      "name": "Hồng Hoa",
+      "seed": 4217906071,
+      "sheetPrompt": "Rose-Red from the Grimm tale, a lively cheerful young German peasant girl, wavy chestnut hair with a red ribbon, rosy cheeks, red bodice and skirt with apron, playful smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chu-gau",
+      "name": "Chú gấu",
+      "seed": 3981364067,
+      "sheetPrompt": "a big gentle black bear from the Grimm tale, thick fluffy fur dusted with snow, kind brown eyes, a faint glimmer of gold under the fur, friendly and safe, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ga-lun",
+      "name": "Gã lùn",
+      "seed": 2224540314,
+      "sheetPrompt": "a grumpy little dwarf from the Grimm tale, wrinkled cross face, very long snowy white beard, brown coat and pointed red cap, comical rather than scary, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hai-bui-hong",
+      "title": "Hai bụi hồng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở bìa rừng có một bà mẹ goá sống trong căn nhà nhỏ. Trước nhà có hai bụi hồng, một bụi hoa trắng, một bụi hoa đỏ. Bà có hai cô con gái giống hệt hai bụi hồng ấy, nên đặt tên là Bạch Tuyết và Hồng Hoa. Bạch Tuyết dịu dàng, thích ngồi nhà đọc sách cho mẹ nghe. Hồng Hoa thì nhanh nhẹn, thích chạy nhảy hái hoa bắt bướm ngoài đồng. Hai chị em thương nhau lắm. Bạch Tuyết bảo: \"Chúng mình sẽ không bao giờ rời xa nhau.\" Hồng Hoa đáp: \"Chừng nào còn sống thì còn ở bên nhau.\" Mẹ cười: \"Có gì cũng phải chia cho nhau đấy nhé.\"",
+      "subtitles": [
+        "Ngày xưa, ở bìa rừng có một bà mẹ goá sống trong căn nhà nhỏ.",
+        "Trước nhà có hai bụi hồng, một bụi hoa trắng, một bụi hoa đỏ.",
+        "Bà có hai cô con gái giống hệt hai bụi hồng ấy, nên đặt tên là Bạch Tuyết và Hồng Hoa.",
+        "Bạch Tuyết dịu dàng, thích ngồi nhà đọc sách cho mẹ nghe.",
+        "Hồng Hoa thì nhanh nhẹn, thích chạy nhảy hái hoa bắt bướm ngoài đồng.",
+        "Hai chị em thương nhau lắm. Bạch Tuyết bảo: \"Chúng mình sẽ không bao giờ rời xa nhau.\"",
+        "Hồng Hoa đáp: \"Chừng nào còn sống thì còn ở bên nhau.\"",
+        "Mẹ cười: \"Có gì cũng phải chia cho nhau đấy nhé.\""
+      ],
+      "image": {
+        "prompt": "a small thatched cottage at the edge of a forest, a white rose bush and a red rose bush by the door, Snow-White reading a book to her mother inside by the window, Rose-Red outside chasing butterflies in a meadow, warm sunny day",
+        "seed": 2358522671,
+        "character": "bach-tuyet"
+      },
+      "video": {
+        "motionPrompt": "butterflies flutter around Rose-Red, the rose bushes sway gently, Snow-White turns a page, soft slow push-in",
+        "seed": 1200501249
+      },
+      "voice": {}
+    },
+    {
+      "id": "vi-khach-mua-dong",
+      "title": "Vị khách mùa đông",
+      "narrator": "ke-chuyen",
+      "narration": "Một tối mùa đông, tuyết rơi trắng xoá, có tiếng gõ cửa. Hồng Hoa ra mở thì thấy một con gấu đen to lù lù thò đầu vào. Hai chị em sợ quá, nấp sau lưng mẹ. Nhưng con gấu cất tiếng hiền lành: \"Đừng sợ, tôi không làm hại ai đâu. Tôi lạnh cóng rồi, chỉ xin sưởi ấm một chút thôi.\" Mẹ bảo: \"Tội nghiệp, vào nằm cạnh lò sưởi đi.\" Hai chị em cầm chổi phủi tuyết trên lưng gấu. Chẳng mấy chốc, cả ba đã chơi đùa với nhau, cưỡi lên lưng gấu, lăn qua lăn lại. Gấu cười khà khà: \"Bạch Tuyết, Hồng Hoa ơi, đừng nghịch quá kẻo chàng rể của hai cô mệt lả mất!\" Từ đó, tối nào gấu cũng đến, suốt cả mùa đông.",
+      "subtitles": [
+        "Một tối mùa đông, tuyết rơi trắng xoá, có tiếng gõ cửa.",
+        "Hồng Hoa ra mở thì thấy một con gấu đen to lù lù thò đầu vào.",
+        "Hai chị em sợ quá, nấp sau lưng mẹ.",
+        "Nhưng con gấu cất tiếng hiền lành: \"Đừng sợ, tôi không làm hại ai đâu.",
+        "Tôi lạnh cóng rồi, chỉ xin sưởi ấm một chút thôi.\"",
+        "Mẹ bảo: \"Tội nghiệp, vào nằm cạnh lò sưởi đi.\"",
+        "Hai chị em cầm chổi phủi tuyết trên lưng gấu.",
+        "Chẳng mấy chốc, cả ba đã chơi đùa với nhau, cưỡi lên lưng gấu, lăn qua lăn lại.",
+        "Gấu cười khà khà: \"Bạch Tuyết, Hồng Hoa ơi,",
+        "đừng nghịch quá kẻo chàng rể của hai cô mệt lả mất!\"",
+        "Từ đó, tối nào gấu cũng đến, suốt cả mùa đông."
+      ],
+      "image": {
+        "prompt": "inside a warm cottage by a crackling fireplace, a big gentle black bear lies on the rug while Snow-White and Rose-Red brush snow from his fur with a little broom and laugh, their mother knitting nearby, a white dove and a lamb resting by the hearth",
+        "seed": 952168163,
+        "character": "chu-gau"
+      },
+      "video": {
+        "motionPrompt": "firelight flickers, the girls brush the snow off the bear, the bear rolls over playfully, snowflakes drift past the window",
+        "seed": 3282196021
+      },
+      "voice": {}
+    },
+    {
+      "id": "ga-lun-mac-rau",
+      "title": "Gã lùn mắc râu",
+      "narrator": "ke-chuyen",
+      "narration": "Mùa xuân đến, gấu từ biệt hai chị em: \"Tôi phải vào rừng giữ kho báu, kẻo bọn lùn tham lam lấy mất.\" Lúc gấu lách qua cửa, một mảng lông vướng vào then, Bạch Tuyết thoáng thấy có ánh vàng lấp lánh bên trong. Ít lâu sau, hai chị em vào rừng nhặt củi, gặp một gã lùn râu dài bị kẹt chòm râu vào khe thân cây đổ. Gã giãy giụa, quát: \"Còn đứng đó làm gì, mau gỡ cho ta!\" Kéo mãi không ra, Bạch Tuyết đành lấy kéo cắt bớt một đoạn râu. Vừa thoát ra, gã đã cằn nhằn: \"Đồ con gái vụng về, dám cắt mất bộ râu đẹp của ta!\" rồi xách túi vàng bỏ đi, chẳng thèm cảm ơn một câu.",
+      "subtitles": [
+        "Mùa xuân đến, gấu từ biệt hai chị em: \"Tôi phải vào rừng giữ kho báu,",
+        "kẻo bọn lùn tham lam lấy mất.\" Lúc gấu lách qua cửa, một mảng lông vướng vào then,",
+        "Bạch Tuyết thoáng thấy có ánh vàng lấp lánh bên trong.",
+        "Ít lâu sau, hai chị em vào rừng nhặt củi,",
+        "gặp một gã lùn râu dài bị kẹt chòm râu vào khe thân cây đổ.",
+        "Gã giãy giụa, quát: \"Còn đứng đó làm gì, mau gỡ cho ta!\"",
+        "Kéo mãi không ra, Bạch Tuyết đành lấy kéo cắt bớt một đoạn râu.",
+        "Vừa thoát ra, gã đã cằn nhằn: \"Đồ con gái vụng về, dám cắt mất bộ râu đẹp của ta!\"",
+        "rồi xách túi vàng bỏ đi, chẳng thèm cảm ơn một câu."
+      ],
+      "image": {
+        "prompt": "in a spring forest a grumpy little dwarf with his very long white beard caught in the crack of a fallen tree trunk, Snow-White carefully snips the tip of the beard with small scissors, Rose-Red holds a bundle of firewood, comical scene",
+        "seed": 2858462496,
+        "character": "ga-lun"
+      },
+      "video": {
+        "motionPrompt": "the dwarf tugs and stamps his feet, the scissors snip, the dwarf tumbles free and shakes his fist comically, leaves rustle",
+        "seed": 4033940389
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-ca-va-con-dai-bang",
+      "title": "Con cá và con đại bàng",
+      "narrator": "ke-chuyen",
+      "narration": "Lần thứ hai, hai chị em ra suối câu cá thì lại gặp gã lùn. Râu gã rối vào dây câu, một con cá to đang kéo gã lôi tuột xuống nước. Hai chị em giữ chặt lấy gã, rồi đành cắt thêm một nhúm râu nữa. Gã lại mắng: \"Các ngươi muốn ta xấu hổ với mọi người hay sao!\" Lần thứ ba, một con đại bàng sà xuống quắp lấy gã lùn định bay đi. Hai chị em thương tình, níu chặt gã lại cho đến khi đại bàng phải buông ra. Gã lùn đứng dậy, phủi áo, cau có: \"Kéo gì mà mạnh thế, rách cả áo ta rồi!\" Rồi gã ôm túi ngọc trai chui tọt vào hang đá.",
+      "subtitles": [
+        "Lần thứ hai, hai chị em ra suối câu cá thì lại gặp gã lùn.",
+        "Râu gã rối vào dây câu, một con cá to đang kéo gã lôi tuột xuống nước.",
+        "Hai chị em giữ chặt lấy gã, rồi đành cắt thêm một nhúm râu nữa.",
+        "Gã lại mắng: \"Các ngươi muốn ta xấu hổ với mọi người hay sao!\"",
+        "Lần thứ ba, một con đại bàng sà xuống quắp lấy gã lùn định bay đi.",
+        "Hai chị em thương tình, níu chặt gã lại cho đến khi đại bàng phải buông ra.",
+        "Gã lùn đứng dậy, phủi áo, cau có: \"Kéo gì mà mạnh thế, rách cả áo ta rồi!\"",
+        "Rồi gã ôm túi ngọc trai chui tọt vào hang đá."
+      ],
+      "image": {
+        "prompt": "by a forest stream a great eagle swoops toward the grumpy little dwarf, Snow-White and Rose-Red hold on to his coat tightly, a sack of pearls spilling on the grass, comical not frightening",
+        "seed": 915508234,
+        "character": "ga-lun"
+      },
+      "video": {
+        "motionPrompt": "the eagle flaps its wide wings and lets go, the girls tumble back onto the grass, the dwarf scowls and dusts off his coat, water sparkles",
+        "seed": 4146365079
+      },
+      "voice": {}
+    },
+    {
+      "id": "chang-hoang-tu",
+      "title": "Chàng hoàng tử",
+      "narrator": "ke-chuyen",
+      "narration": "Một chiều, hai chị em bắt gặp gã lùn đang đổ cả một đống ngọc quý ra bãi cỏ để ngắm. Ngọc lấp lánh đủ màu dưới nắng chiều. Thấy hai cô, gã đỏ mặt tía tai, chửi bới om sòm. Đúng lúc ấy, một tiếng gầm vang lên, con gấu đen từ trong rừng lao ra. Gã lùn run lẩy bẩy van xin: \"Ông gấu ơi, tha cho tôi! Hai đứa con gái kia mới béo tốt, ông bắt chúng đi!\" Gấu chẳng nói chẳng rằng, vung chân một cái, gã lùn độc ác lăn tròn rồi biến mất mãi mãi, không bao giờ quay lại nữa. Bộ lông gấu rơi xuống, hiện ra một chàng trai mặc áo vàng rực rỡ. Chàng nói: \"Ta là hoàng tử. Gã lùn đã lấy trộm kho báu và hoá phép biến ta thành gấu. Nay ta được tự do rồi!\"",
+      "subtitles": [
+        "Một chiều, hai chị em bắt gặp gã lùn đang đổ cả một đống ngọc quý ra bãi cỏ để ngắm.",
+        "Ngọc lấp lánh đủ màu dưới nắng chiều. Thấy hai cô, gã đỏ mặt tía tai, chửi bới om sòm.",
+        "Đúng lúc ấy, một tiếng gầm vang lên, con gấu đen từ trong rừng lao ra.",
+        "Gã lùn run lẩy bẩy van xin: \"Ông gấu ơi, tha cho tôi!",
+        "Hai đứa con gái kia mới béo tốt, ông bắt chúng đi!\"",
+        "Gấu chẳng nói chẳng rằng, vung chân một cái, gã lùn độc ác lăn tròn rồi biến mất mãi mãi,",
+        "không bao giờ quay lại nữa.",
+        "Bộ lông gấu rơi xuống, hiện ra một chàng trai mặc áo vàng rực rỡ.",
+        "Chàng nói: \"Ta là hoàng tử. Gã lùn đã lấy trộm kho báu và hoá phép biến ta thành gấu.",
+        "Nay ta được tự do rồi!\""
+      ],
+      "image": {
+        "prompt": "in a forest clearing at sunset a pile of colorful jewels glitters on the grass, the black bear fur falls away to reveal a handsome young prince in golden clothes, Snow-White and Rose-Red look on in wonder, magical golden light",
+        "seed": 3428502937,
+        "character": "chu-gau"
+      },
+      "video": {
+        "motionPrompt": "golden sparkles swirl as the bear fur slips away and the prince stands up smiling, jewels twinkle, gentle slow pull-back",
+        "seed": 4155692896
+      },
+      "voice": {}
+    },
+    {
+      "id": "mai-mai-ben-nhau",
+      "title": "Mãi mãi bên nhau",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử đưa kho báu về, rồi cưới Bạch Tuyết làm vợ. Chàng có một người em trai cũng tốt bụng, và Hồng Hoa nên duyên với chàng ấy. Thế là hai chị em vẫn được ở gần nhau như lời hứa ngày nào. Bà mẹ cũng về sống cùng các con trong lâu đài. Bà mang theo hai bụi hồng trước nhà, trồng ngay dưới cửa sổ. Năm nào hai bụi hồng cũng nở hoa, một bụi trắng muốt, một bụi đỏ thắm, đẹp ơi là đẹp.",
+      "subtitles": [
+        "Hoàng tử đưa kho báu về, rồi cưới Bạch Tuyết làm vợ.",
+        "Chàng có một người em trai cũng tốt bụng, và Hồng Hoa nên duyên với chàng ấy.",
+        "Thế là hai chị em vẫn được ở gần nhau như lời hứa ngày nào.",
+        "Bà mẹ cũng về sống cùng các con trong lâu đài.",
+        "Bà mang theo hai bụi hồng trước nhà, trồng ngay dưới cửa sổ.",
+        "Năm nào hai bụi hồng cũng nở hoa, một bụi trắng muốt, một bụi đỏ thắm, đẹp ơi là đẹp."
+      ],
+      "image": {
+        "prompt": "a joyful double wedding in a castle garden, Snow-White with the prince and Rose-Red with his brother, their smiling mother beside them, a white rose bush and a red rose bush blooming under the castle window",
+        "seed": 2869222452,
+        "character": "hong-hoa"
+      },
+      "video": {
+        "motionPrompt": "rose petals drift in the breeze, the couples smile and bow, the roses sway, warm sunlight, slow pan across the garden",
+        "seed": 3273070247
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle German folk fairy-tale music, soft harp and wooden flute, music box twinkles like falling snow, warm cosy fireside feeling, slow tempo, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 3525761425
+  }
+}

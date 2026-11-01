@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "slug": "trieu-viet-vuong-dam-da-trach",
+  "shelf": "adults",
+  "title": "Triệu Việt Vương và đầm Dạ Trạch",
+  "summary": "Triệu Quang Phục đưa quân vào đầm Dạ Trạch mênh mông lau sậy, đêm đêm ra đánh quân Lương, rồi được thần Chử Đồng Tử trao cho chiếc móng rồng cài mũ mà đánh đâu thắng đó. Nhưng rồi con gái ông là Cảo Nương lấy Nhã Lang, con trai kẻ thù, và chiếc móng rồng bị đánh tráo như chuyện Mỵ Châu năm xưa.",
+  "themes": [
+    "anh-hung",
+    "su-tich",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện Triệu Việt Vương chép trong Việt điện u linh tập (Lý Tế Xuyên, 1329) và Lĩnh Nam chích quái (truyện Long trảo khước lỗ), sách cổ thuộc phạm vi công cộng; đối chiếu thêm sử cũ về Triệu Quang Phục. Lời kể viết mới hoàn toàn, chỉ lấy cốt truyện.",
+  "basedOn": "Việt điện u linh tập, truyện Triệu Việt Vương",
+  "style": "classical Vietnamese silk painting (tranh lua) illustration, fine ink linework, washes of reed green, misty grey, indigo and lacquer red on aged silk, sixth-century Van Xuan kingdom, the vast Da Trach swamp of reeds and hidden islets, dugout canoes at night, a dragon in the clouds, river citadels and a stormy estuary, heroic and tragic mood for adult readers, battles shown from afar, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "trieu-quang-phuc",
+      "name": "Triệu Quang Phục",
+      "sheetPrompt": "Trieu Quang Phuc (Trieu Viet Vuong), sixth-century Vietnamese general and king, strong lean man in his thirties with a short beard and calm watchful eyes, wearing dark leather and bronze armor and a red cape, a tall dau mau helmet, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 3003269266
+    },
+    {
+      "id": "cao-nuong",
+      "name": "Cảo Nương",
+      "sheetPrompt": "Cao Nuong, daughter of Trieu Viet Vuong, gentle young woman of about eighteen with long black hair half tied up, innocent trusting face, wearing a pale green silk dress with a red sash and a cloak lined with goose down, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 332912544
+    },
+    {
+      "id": "nha-lang",
+      "name": "Nhã Lang",
+      "sheetPrompt": "Nha Lang, son of Ly Phat Tu, handsome young man of about twenty with a refined smooth face and clever restless eyes, wearing an elegant indigo robe with a jade belt, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 2556279447
+    }
+  ],
+  "scenes": [
+    {
+      "id": "van-xuan-lam-nguy",
+      "title": "Vạn Xuân lâm nguy",
+      "narrator": "ke-chuyen",
+      "narration": "Năm ấy, Lý Bí đánh đuổi quân Lương, lên ngôi xưng là Lý Nam Đế, đặt tên nước là Vạn Xuân. Trong hàng tướng của vua có Triệu Quang Phục, người Chu Diên, giữ chức Tả tướng quân. Ông là con của Triệu Túc, theo cha phò Lý Nam Đế từ những ngày đầu dấy binh. Được ít năm, nhà Lương sai Trần Bá Tiên đem đại quân sang đánh. Lý Nam Đế thua trận, phải rút vào động Khuất Lão, giao binh quyền cho Triệu Quang Phục để chống giặc.",
+      "subtitles": [
+        "Năm ấy, Lý Bí đánh đuổi quân Lương, lên ngôi xưng là Lý Nam Đế, đặt tên nước là Vạn Xuân.",
+        "Trong hàng tướng của vua có Triệu Quang Phục, người Chu Diên, giữ chức Tả tướng quân.",
+        "Ông là con của Triệu Túc, theo cha phò Lý Nam Đế từ những ngày đầu dấy binh.",
+        "Được ít năm, nhà Lương sai Trần Bá Tiên đem đại quân sang đánh.",
+        "Lý Nam Đế thua trận, phải rút vào động Khuất Lão,",
+        "giao binh quyền cho Triệu Quang Phục để chống giặc."
+      ],
+      "image": {
+        "prompt": "a sixth-century Vietnamese king handing a seal and sword to a lean general in bronze armor in a torch-lit war hall, outside the windows distant enemy fleets on the river",
+        "seed": 209751279,
+        "character": "trieu-quang-phuc"
+      },
+      "video": {
+        "motionPrompt": "the king places the seal in the general hands, torches flicker, distant enemy sails move on the river, the general bows and turns to leave, slow push in",
+        "seed": 1855479567
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-da-trach",
+      "title": "Đầm Dạ Trạch",
+      "narrator": "ke-chuyen",
+      "narration": "Quân Lương mạnh, không thể đánh giữa đồng trống. Triệu Quang Phục đưa hơn hai vạn quân vào đầm Dạ Trạch ở quê ông. Đầm rộng mênh mông, không biết bao nhiêu dặm, lau sậy um tùm, giữa đầm có bãi đất cao khô ráo, người ở được. Đường vào đầm toàn bùn lầy, người ngựa khó đi, chỉ quen thuộc mới đi được bằng thuyền độc mộc, chống sào lách qua cỏ lác. Người ta bảo đầm ấy chính là nơi Chử Đồng Tử và Tiên Dung bay về trời năm xưa, chỉ trong một đêm mà hóa thành đầm.",
+      "subtitles": [
+        "Quân Lương mạnh, không thể đánh giữa đồng trống.",
+        "Triệu Quang Phục đưa hơn hai vạn quân vào đầm Dạ Trạch ở quê ông.",
+        "Đầm rộng mênh mông, không biết bao nhiêu dặm, lau sậy um tùm,",
+        "giữa đầm có bãi đất cao khô ráo, người ở được.",
+        "Đường vào đầm toàn bùn lầy, người ngựa khó đi,",
+        "chỉ quen thuộc mới đi được bằng thuyền độc mộc, chống sào lách qua cỏ lác.",
+        "Người ta bảo đầm ấy chính là nơi Chử Đồng Tử và Tiên Dung bay về trời năm xưa,",
+        "chỉ trong một đêm mà hóa thành đầm."
+      ],
+      "image": {
+        "prompt": "a vast misty swamp of tall reeds stretching to the horizon, narrow dugout canoes slipping through hidden channels toward a raised dry islet with thatched huts, soldiers poling silently",
+        "seed": 2572276935
+      },
+      "video": {
+        "motionPrompt": "canoes glide between swaying reeds, mist drifts across the water, herons rise, the hidden islet appears through the fog, slow tracking shot",
+        "seed": 3410180308
+      },
+      "voice": {}
+    },
+    {
+      "id": "danh-dem",
+      "title": "Đánh đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Ban ngày, trong đầm im phắc, không thấy một bóng người, không một làn khói bếp. Đêm xuống, quân của Triệu Quang Phục lặng lẽ chèo thuyền độc mộc ra, đánh úp các trại giặc, cướp lương thảo, giết quân canh rồi rút vào đầm. Quân Lương đuổi theo thì sa vào bùn lầy, lạc giữa lau sậy, không biết đâu mà lần. Cứ thế ngày qua tháng lại, giặc mệt mỏi, khốn đốn. Người ta gọi ông là Dạ Trạch Vương, tức vua đầm đêm.",
+      "subtitles": [
+        "Ban ngày, trong đầm im phắc, không thấy một bóng người, không một làn khói bếp.",
+        "Đêm xuống, quân của Triệu Quang Phục lặng lẽ chèo thuyền độc mộc ra,",
+        "đánh úp các trại giặc, cướp lương thảo, giết quân canh rồi rút vào đầm.",
+        "Quân Lương đuổi theo thì sa vào bùn lầy, lạc giữa lau sậy, không biết đâu mà lần.",
+        "Cứ thế ngày qua tháng lại, giặc mệt mỏi, khốn đốn.",
+        "Người ta gọi ông là Dạ Trạch Vương, tức vua đầm đêm."
+      ],
+      "image": {
+        "prompt": "a night raid in moonlight, dark dugout canoes emerging from reeds toward an enemy riverside camp with torches, silhouettes of soldiers leaping ashore, enemy tents in confusion",
+        "seed": 4090435668,
+        "character": "trieu-quang-phuc"
+      },
+      "video": {
+        "motionPrompt": "canoes slide out of the reeds, torches in the camp sway and fall, figures run in confusion, canoes vanish back into the dark reeds, tense fast cuts",
+        "seed": 900221951
+      },
+      "voice": {}
+    },
+    {
+      "id": "mong-rong",
+      "title": "Chiếc móng rồng",
+      "narrator": "ke-chuyen",
+      "narration": "Lý Nam Đế mất, Triệu Quang Phục xưng là Triệu Việt Vương. Ông lập đàn trong đầm, khấn cầu trời đất thần linh giúp đánh giặc. Một hôm, có vị thần cưỡi rồng vàng từ trên trời xuống, dân gian bảo đó là Chử Đồng Tử. Thần rút một chiếc móng rồng trao cho ông, dặn: \"Hãy cài lên mũ đâu mâu mà đánh giặc, sẽ không ai địch nổi.\" Nói rồi thần cưỡi rồng bay về trời.",
+      "subtitles": [
+        "Lý Nam Đế mất, Triệu Quang Phục xưng là Triệu Việt Vương.",
+        "Ông lập đàn trong đầm, khấn cầu trời đất thần linh giúp đánh giặc.",
+        "Một hôm, có vị thần cưỡi rồng vàng từ trên trời xuống, dân gian bảo đó là Chử Đồng Tử.",
+        "Thần rút một chiếc móng rồng trao cho ông, dặn: \"Hãy cài lên mũ đâu mâu mà đánh giặc,",
+        "sẽ không ai địch nổi.\"",
+        "Nói rồi thần cưỡi rồng bay về trời."
+      ],
+      "image": {
+        "prompt": "above the misty swamp, a radiant immortal riding a golden dragon descends from the clouds and hands a glowing dragon claw to the general kneeling at a reed altar",
+        "seed": 4190684995,
+        "character": "trieu-quang-phuc"
+      },
+      "video": {
+        "motionPrompt": "the golden dragon spirals down through parting clouds, the immortal leans and offers the glowing claw, the general raises both hands, reeds bend in the wind, majestic slow motion",
+        "seed": 2512251697
+      },
+      "voice": {}
+    },
+    {
+      "id": "thang-quan-luong",
+      "title": "Thắng quân Lương",
+      "narrator": "ke-chuyen",
+      "narration": "Từ khi đội mũ có cài móng rồng, quân Triệu Việt Vương đánh đâu thắng đó. Vừa lúc ấy bên Lương có loạn Hầu Cảnh, Trần Bá Tiên bỏ về nước, để tướng Dương Sàn ở lại. Triệu Việt Vương đem quân ra đánh, chém được Dương Sàn. Quân Lương tan chạy về bắc. Vua vào thành Long Biên, lấy thêm cả Cổ Loa, Vũ Ninh, thu lại đất nước, xưng là Nam Việt Quốc Vương.",
+      "subtitles": [
+        "Từ khi đội mũ có cài móng rồng, quân Triệu Việt Vương đánh đâu thắng đó.",
+        "Vừa lúc ấy bên Lương có loạn Hầu Cảnh, Trần Bá Tiên bỏ về nước, để tướng Dương Sàn ở lại.",
+        "Triệu Việt Vương đem quân ra đánh, chém được Dương Sàn.",
+        "Quân Lương tan chạy về bắc.",
+        "Vua vào thành Long Biên, lấy thêm cả Cổ Loa, Vũ Ninh, thu lại đất nước,",
+        "xưng là Nam Việt Quốc Vương."
+      ],
+      "image": {
+        "prompt": "Vietnamese troops pouring out of the reed swamp at dawn with banners, the general at their head wearing a tall helmet with a glowing dragon claw, the Liang army fleeing across the plain",
+        "seed": 803805260,
+        "character": "trieu-quang-phuc"
+      },
+      "video": {
+        "motionPrompt": "the army surges from the reeds, the claw on the helmet glints in sunrise, enemy banners turn and flee, dust clouds rise, epic wide shot",
+        "seed": 394094276
+      },
+      "voice": {}
+    },
+    {
+      "id": "chia-dat",
+      "title": "Chia đất, gả con",
+      "narrator": "ke-chuyen",
+      "narration": "Bấy giờ Lý Phật Tử, người họ hàng của Lý Nam Đế, cũng xưng vương, đem quân đánh Triệu Việt Vương. Đánh năm trận không phân thắng bại, hai bên giảng hòa, chia đất ở bãi Quân Thần. Lý Phật Tử xin cho con trai là Nhã Lang lấy con gái Triệu Việt Vương là Cảo Nương. Vua bằng lòng. Nhã Lang về ở rể bên nhà vợ.",
+      "subtitles": [
+        "Bấy giờ Lý Phật Tử, người họ hàng của Lý Nam Đế, cũng xưng vương,",
+        "đem quân đánh Triệu Việt Vương.",
+        "Đánh năm trận không phân thắng bại, hai bên giảng hòa, chia đất ở bãi Quân Thần.",
+        "Lý Phật Tử xin cho con trai là Nhã Lang lấy con gái Triệu Việt Vương là Cảo Nương.",
+        "Vua bằng lòng.",
+        "Nhã Lang về ở rể bên nhà vợ."
+      ],
+      "image": {
+        "prompt": "two Vietnamese kings meeting on a river sandbank with their armies behind them, exchanging cups of wine, a young man in indigo and a young woman in pale green glancing shyly at each other",
+        "seed": 1449322496,
+        "character": "nha-lang"
+      },
+      "video": {
+        "motionPrompt": "the two kings raise their cups, the river flows wide behind them, the young couple exchange a glance, banners lower in peace, gentle slow pan",
+        "seed": 3252865286
+      },
+      "voice": {}
+    },
+    {
+      "id": "danh-trao-mong-rong",
+      "title": "Đánh tráo móng rồng",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm Nhã Lang nói với vợ: \"Trước kia hai cha ta là kẻ thù, nay thành thông gia, chẳng hay lắm sao.\" Rồi chàng hỏi: \"Cha nàng có phép gì mà đánh đâu thắng đó?\" Cảo Nương thật thà kể hết chuyện chiếc móng rồng, lại lén lấy mũ đâu mâu cho chồng xem. Nhã Lang lặng lẽ đánh tráo, thay vào một chiếc móng giả. Rồi chàng nói: \"Ta phải tạm xa nàng về thăm cha mẹ. Nếu chẳng may hai nhà bất hòa, nàng phải chạy đi đâu, hãy rứt lông ngỗng trong nệm gấm rắc dọc đường, ta sẽ theo dấu mà tìm.\" Cảo Nương tin chồng, không mảy may nghi ngờ.",
+      "subtitles": [
+        "Một hôm Nhã Lang nói với vợ: \"Trước kia hai cha ta là kẻ thù, nay thành thông gia,",
+        "chẳng hay lắm sao.\"",
+        "Rồi chàng hỏi: \"Cha nàng có phép gì mà đánh đâu thắng đó?\"",
+        "Cảo Nương thật thà kể hết chuyện chiếc móng rồng, lại lén lấy mũ đâu mâu cho chồng xem.",
+        "Nhã Lang lặng lẽ đánh tráo, thay vào một chiếc móng giả.",
+        "Rồi chàng nói: \"Ta phải tạm xa nàng về thăm cha mẹ.",
+        "Nếu chẳng may hai nhà bất hòa, nàng phải chạy đi đâu,",
+        "hãy rứt lông ngỗng trong nệm gấm rắc dọc đường, ta sẽ theo dấu mà tìm.\"",
+        "Cảo Nương tin chồng, không mảy may nghi ngờ."
+      ],
+      "image": {
+        "prompt": "inside a candlelit bedchamber, the young wife proudly showing a tall helmet with a dragon claw to her husband, who secretly palms the claw while smiling at her",
+        "seed": 1300367564,
+        "character": "cao-nuong"
+      },
+      "video": {
+        "motionPrompt": "candle flames sway, the wife smiles and turns the helmet, the husband slips the glowing claw into his sleeve and replaces it, shadows lengthen on the wall, slow tense zoom",
+        "seed": 1858236781
+      },
+      "voice": {}
+    },
+    {
+      "id": "mat-thanh",
+      "title": "Mất thành",
+      "narrator": "ke-chuyen",
+      "narration": "Nhã Lang về rồi, Lý Phật Tử đem quân đánh úp. Triệu Việt Vương không biết gì, vẫn đội mũ đâu mâu ra đứng trước quân, ngồi chờ giặc đến. Nhưng lần này quân giặc cứ tràn lên mãi. Biết không chống nổi, vua đem con gái lên ngựa chạy về phương nam. Dọc đường, Cảo Nương rứt lông ngỗng trong chiếc áo nệm, rắc từng nhúm xuống đất, đúng như lời chồng dặn.",
+      "subtitles": [
+        "Nhã Lang về rồi, Lý Phật Tử đem quân đánh úp.",
+        "Triệu Việt Vương không biết gì, vẫn đội mũ đâu mâu ra đứng trước quân, ngồi chờ giặc đến.",
+        "Nhưng lần này quân giặc cứ tràn lên mãi.",
+        "Biết không chống nổi, vua đem con gái lên ngựa chạy về phương nam.",
+        "Dọc đường, Cảo Nương rứt lông ngỗng trong chiếc áo nệm, rắc từng nhúm xuống đất,",
+        "đúng như lời chồng dặn."
+      ],
+      "image": {
+        "prompt": "a king galloping south on horseback with his daughter behind him across stormy fields, white goose feathers drifting behind them along the road, enemy cavalry far behind",
+        "seed": 1536237786,
+        "character": "cao-nuong"
+      },
+      "video": {
+        "motionPrompt": "the horse gallops hard, white feathers flutter from the daughter hands and drift along the road, distant riders follow the trail, wind and rain sweep across, fast tracking shot",
+        "seed": 3299355123
+      },
+      "voice": {}
+    },
+    {
+      "id": "cua-bien-dai-nha",
+      "title": "Cửa biển Đại Nha",
+      "narrator": "ke-chuyen",
+      "narration": "Chạy tới bờ biển, vua bỗng thấy Long Vương hiện lên, chỉ vào con gái mà nói: \"Chính nó là giặc, nó rắc lông ngỗng dọc đường đấy.\" Vua đau đớn rút gươm chém chết con. Tới cửa biển Đại Nha, trước mặt là biển cả, đường cùng. Thần biển rẽ nước mở lối, vua phi ngựa xuống, nước khép lại sau lưng. Lý Phật Tử đuổi tới nơi chỉ thấy biển mênh mông. Hắn quay về, chiếm lấy Long Biên, Ô Diên, thu cả nước về tay mình. Người đời kể lại chuyện này, ai cũng nhớ tới Mỵ Châu, Trọng Thủy và chiếc nỏ thần của An Dương Vương năm nào. Dân trong nước coi ông như bậc thần. Dân lập đền thờ ông ở cửa biển, và nhiều làng quanh đầm Dạ Trạch vẫn thờ ông đến tận bây giờ.",
+      "subtitles": [
+        "Chạy tới bờ biển, vua bỗng thấy Long Vương hiện lên, chỉ vào con gái mà nói:",
+        "\"Chính nó là giặc, nó rắc lông ngỗng dọc đường đấy.\"",
+        "Vua đau đớn rút gươm chém chết con.",
+        "Tới cửa biển Đại Nha, trước mặt là biển cả, đường cùng.",
+        "Thần biển rẽ nước mở lối, vua phi ngựa xuống, nước khép lại sau lưng.",
+        "Lý Phật Tử đuổi tới nơi chỉ thấy biển mênh mông.",
+        "Hắn quay về, chiếm lấy Long Biên, Ô Diên, thu cả nước về tay mình.",
+        "Người đời kể lại chuyện này, ai cũng nhớ tới Mỵ Châu,",
+        "Trọng Thủy và chiếc nỏ thần của An Dương Vương năm nào.",
+        "Dân trong nước coi ông như bậc thần.",
+        "Dân lập đền thờ ông ở cửa biển,",
+        "và nhiều làng quanh đầm Dạ Trạch vẫn thờ ông đến tận bây giờ."
+      ],
+      "image": {
+        "prompt": "a stormy estuary at dusk, the sea parting before a lone king on horseback riding into the waves, a dragon king silhouette rising from the water, white goose feathers scattered on the sand behind",
+        "seed": 2050867841,
+        "character": "trieu-quang-phuc"
+      },
+      "video": {
+        "motionPrompt": "waves part slowly into a path, the king rides into the sea, the water closes behind him, white feathers lift in the wind on the empty shore, slow mournful pull back",
+        "seed": 4131162466
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tragic heroic ancient Vietnamese instrumental, low drums and gongs, dan bau monochord and bamboo flute over swamp wind and night insects, tense in the middle and mournful at the end, slow tempo, no vocals",
+    "durationSeconds": 180,
+    "seed": 706033212
+  }
+}

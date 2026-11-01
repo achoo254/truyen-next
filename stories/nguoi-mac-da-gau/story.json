@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "slug": "nguoi-mac-da-gau",
+  "shelf": "world",
+  "title": "Người mặc da gấu",
+  "summary": "Người lính giải ngũ không nhà không cửa nhận lời giao kèo với quỷ: bảy năm không tắm, không cắt tóc, chỉ khoác tấm da gấu, đổi lại túi áo lúc nào cũng đầy vàng. Giữa bảy năm ấy, anh vẫn sống tốt bụng, và có một cô gái chịu giữ lời hứa với anh. Truyện cổ Grimm về lòng chung thuỷ, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der Bärenhäuter\" (Kinder- und Hausmärchen, bản 1857, truyện số 101), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh của Margaret Hunt trên Project Gutenberg. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: con gấu do quỷ gọi ra tan biến thành làn khói sau tiếng súng, chỉ để lại tấm da; điều kiện giao kèo chỉ là giữ đủ lời hứa bảy năm; hai cô chị tức giận bỏ đi biệt xứ, thay cho cái kết bi thảm của truyện gốc.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a wide heath with a ring of old trees, a cosy village inn, a merchant's house, earthy browns and greens turning to bright festive colors at the end, safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "nguoi-linh",
+      "name": "Người lính",
+      "seed": 1531454192,
+      "sheetPrompt": "a kind young German soldier just discharged, a faded blue army coat with brass buttons, a knapsack, short brown hair and an honest face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "da-gau",
+      "name": "Người mặc da gấu",
+      "seed": 334716791,
+      "sheetPrompt": "the same kind soldier after years without washing, long shaggy hair and beard covering his face, wearing a big brown bearskin cloak over a green coat, gentle eyes peeking through, more pitiful than scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "co-ut",
+      "name": "Cô gái út",
+      "seed": 2456430534,
+      "sheetPrompt": "a gentle young German woman with dark hair in a simple bun, a plain black dress, a half ring on a ribbon around her neck, calm loyal eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "quy-ao-xanh",
+      "name": "Quỷ áo xanh",
+      "seed": 3483009677,
+      "sheetPrompt": "a tall elegant stranger in a fine green coat and hat, a sly smile, one goat-like cloven hoof peeking from under his trousers, mischievous rather than frightening, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "giao-keo",
+      "title": "Giao kèo với quỷ áo xanh",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một chàng trai đi lính, rất gan dạ. Hết chiến tranh, anh được cho về. Cha mẹ đã khuất, anh đến nhờ các anh trai, nhưng họ bảo: \"Chú tự lo lấy thân đi.\" Anh vác khẩu súng, buồn bã ngồi dưới một vòng cây cổ thụ giữa bãi hoang. Bỗng một người lạ mặc áo xanh hiện ra, một bên chân là móng guốc như chân dê. \"Ta sẽ cho anh vàng bạc tiêu không hết, nhưng trước hết anh phải là người không biết sợ. Quay lại sau lưng mà xem.\" Một con gấu to đang gầm gừ lao tới. Người lính bình tĩnh giương súng bắn. Con gấu tan biến thành một làn khói, chỉ còn lại tấm da gấu trên cỏ.",
+      "subtitles": [
+        "Ngày xưa, có một chàng trai đi lính, rất gan dạ. Hết chiến tranh, anh được cho về.",
+        "Cha mẹ đã khuất, anh đến nhờ các anh trai, nhưng họ bảo: \"Chú tự lo lấy thân đi.\"",
+        "Anh vác khẩu súng, buồn bã ngồi dưới một vòng cây cổ thụ giữa bãi hoang.",
+        "Bỗng một người lạ mặc áo xanh hiện ra, một bên chân là móng guốc như chân dê.",
+        "\"Ta sẽ cho anh vàng bạc tiêu không hết, nhưng trước hết anh phải là người không biết sợ.",
+        "Quay lại sau lưng mà xem.\" Một con gấu to đang gầm gừ lao tới.",
+        "Người lính bình tĩnh giương súng bắn.",
+        "Con gấu tan biến thành một làn khói, chỉ còn lại tấm da gấu trên cỏ."
+      ],
+      "image": {
+        "prompt": "a wide lonely heath with a ring of old trees, a young soldier sitting sadly under them, a tall stranger in a fine green coat appearing beside him with a sly smile, a big brown bear lumbering toward them in the distance",
+        "seed": 819174147,
+        "character": "quy-ao-xanh"
+      },
+      "video": {
+        "motionPrompt": "wind sweeps through the heather, the green-coated stranger tips his hat, the bear in the distance dissolves into a swirl of grey smoke",
+        "seed": 3786310792
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-nam",
+      "title": "Bảy năm khoác da gấu",
+      "narrator": "ke-chuyen",
+      "narration": "Quỷ áo xanh nói: \"Anh gan dạ lắm. Giờ thì thế này: trong bảy năm, anh không được tắm, không chải đầu, không cắt tóc, cắt râu, cắt móng. Anh phải mặc chiếc áo xanh của ta, khoác tấm da gấu này làm áo, làm chăn. Giữ được trọn bảy năm, anh sẽ được tự do, lại giàu có suốt đời. Còn nếu không giữ được, anh sẽ thuộc về ta.\" Người lính chẳng còn đường nào khác, bèn nhận lời. Thò tay vào túi áo xanh, lúc nào cũng thấy đầy vàng. Người ta gọi anh là Người mặc da gấu. Năm đầu anh còn trông được, đến năm thứ hai thì tóc râu phủ kín mặt, ai thấy cũng bỏ chạy. Nhưng anh luôn rộng tay giúp người nghèo, nhờ họ cầu mong cho anh giữ trọn bảy năm.",
+      "subtitles": [
+        "Quỷ áo xanh nói: \"Anh gan dạ lắm. Giờ thì thế này:",
+        "trong bảy năm, anh không được tắm, không chải đầu, không cắt tóc, cắt râu, cắt móng.",
+        "Anh phải mặc chiếc áo xanh của ta, khoác tấm da gấu này làm áo, làm chăn.",
+        "Giữ được trọn bảy năm, anh sẽ được tự do, lại giàu có suốt đời.",
+        "Còn nếu không giữ được, anh sẽ thuộc về ta.\"",
+        "Người lính chẳng còn đường nào khác, bèn nhận lời.",
+        "Thò tay vào túi áo xanh, lúc nào cũng thấy đầy vàng. Người ta gọi anh là Người mặc da gấu.",
+        "Năm đầu anh còn trông được, đến năm thứ hai thì tóc râu phủ kín mặt, ai thấy cũng bỏ chạy.",
+        "Nhưng anh luôn rộng tay giúp người nghèo, nhờ họ cầu mong cho anh giữ trọn bảy năm."
+      ],
+      "image": {
+        "prompt": "a shaggy man wrapped in a big brown bearskin cloak handing gold coins to poor villagers by a road, his long tangled hair and beard hiding his face, the villagers grateful but a little startled",
+        "seed": 837481253,
+        "character": "da-gau"
+      },
+      "video": {
+        "motionPrompt": "the bearskin man reaches into his green coat pocket and pours shining coins into a beggar's hands, children peek from behind a cart, leaves drift by",
+        "seed": 3420319237
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-gia-o-quan-tro",
+      "title": "Ông lão ở quán trọ",
+      "narrator": "ke-chuyen",
+      "narration": "Sang năm thứ tư, anh ghé một quán trọ. Chủ quán sợ anh làm khách khiếp vía, không muốn cho vào. Anh bốc ra một nắm vàng, chủ quán mới cho ở một gian nhà kho, dặn đừng ra ngoài. Tối ấy, anh nghe phòng bên có tiếng khóc. Anh mở cửa, thấy một ông lão đang ôm mặt khóc nức nở. Ông lão hoảng sợ định chạy, nhưng nghe giọng anh hiền lành thì mới kể: của cải ông tiêu tán hết, không có tiền trả quán, sắp bị bắt giam. \"Nếu chỉ có thế thì đã có tôi,\" anh nói, trả hết tiền cho chủ quán, lại dúi vào túi ông lão một túi vàng.",
+      "subtitles": [
+        "Sang năm thứ tư, anh ghé một quán trọ.",
+        "Chủ quán sợ anh làm khách khiếp vía, không muốn cho vào.",
+        "Anh bốc ra một nắm vàng, chủ quán mới cho ở một gian nhà kho, dặn đừng ra ngoài.",
+        "Tối ấy, anh nghe phòng bên có tiếng khóc. Anh mở cửa,",
+        "thấy một ông lão đang ôm mặt khóc nức nở.",
+        "Ông lão hoảng sợ định chạy, nhưng nghe giọng anh hiền lành thì mới kể:",
+        "của cải ông tiêu tán hết, không có tiền trả quán, sắp bị bắt giam.",
+        "\"Nếu chỉ có thế thì đã có tôi,\" anh nói, trả hết tiền cho chủ quán,",
+        "lại dúi vào túi ông lão một túi vàng."
+      ],
+      "image": {
+        "prompt": "a dim little inn room with a single candle, an old man in worn clothes weeping at a table, the shaggy bearskin man gently placing a heavy purse of gold beside him",
+        "seed": 1920779127,
+        "character": "da-gau"
+      },
+      "video": {
+        "motionPrompt": "the candle flickers, the old man looks up in amazement, the bearskin man pushes the purse closer with a kind nod",
+        "seed": 4251594213
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-gai-ut",
+      "title": "Cô gái út giữ lời",
+      "narrator": "ke-chuyen",
+      "narration": "Ông lão cảm động lắm: \"Tôi có ba cô con gái xinh đẹp. Anh chọn lấy một cô làm vợ nhé.\" Cô cả vừa thấy anh đã hét lên bỏ chạy. Cô hai nhìn từ đầu đến chân, chê: \"Sao tôi lấy được người chẳng còn ra dáng người thế này?\" Cô út thì nói: \"Cha ơi, người đã giúp cha lúc khốn khó hẳn là người tốt. Cha đã hứa thì phải giữ lời.\" Anh bẻ đôi chiếc nhẫn, khắc tên mình lên nửa của cô, tên cô lên nửa của mình. \"Anh còn phải đi thêm ba năm. Nếu anh không quay về, em được tự do.\" Cô út mặc áo đen chờ anh. Hai cô chị ngày nào cũng chế giễu, nhưng cô chẳng nói lại một lời.",
+      "subtitles": [
+        "Ông lão cảm động lắm: \"Tôi có ba cô con gái xinh đẹp. Anh chọn lấy một cô làm vợ nhé.\"",
+        "Cô cả vừa thấy anh đã hét lên bỏ chạy. Cô hai nhìn từ đầu đến chân, chê:",
+        "\"Sao tôi lấy được người chẳng còn ra dáng người thế này?\"",
+        "Cô út thì nói: \"Cha ơi, người đã giúp cha lúc khốn khó hẳn là người tốt.",
+        "Cha đã hứa thì phải giữ lời.\"",
+        "Anh bẻ đôi chiếc nhẫn, khắc tên mình lên nửa của cô, tên cô lên nửa của mình.",
+        "\"Anh còn phải đi thêm ba năm. Nếu anh không quay về, em được tự do.\"",
+        "Cô út mặc áo đen chờ anh. Hai cô chị ngày nào cũng chế giễu,",
+        "nhưng cô chẳng nói lại một lời."
+      ],
+      "image": {
+        "prompt": "in a modest parlor, a calm young woman in a dark dress accepting half of a broken ring from the shaggy bearskin man, her two sisters in fancy dresses whispering and smirking behind her, the old father looking on",
+        "seed": 3242551843,
+        "character": "co-ut"
+      },
+      "video": {
+        "motionPrompt": "the young woman closes her hand gently around the half ring, the sisters giggle behind their fans, the bearskin man bows his head",
+        "seed": 23732549
+      },
+      "voice": {}
+    },
+    {
+      "id": "het-bay-nam",
+      "title": "Hết bảy năm",
+      "narrator": "ke-chuyen",
+      "narration": "Bảy năm trôi qua, anh lại ra ngồi dưới vòng cây giữa bãi hoang. Gió rít lên, quỷ áo xanh hiện ra, mặt hằm hằm, ném trả anh chiếc áo cũ, đòi lại áo xanh. \"Chưa được đâu,\" anh nói. \"Ông phải tắm rửa cho tôi sạch sẽ đã.\" Quỷ muốn hay không cũng phải đi múc nước, tắm cho anh, chải tóc, cắt móng. Xong xuôi, anh lại là một người lính khôi ngô, còn đẹp hơn cả ngày xưa. Quỷ áo xanh đành bỏ đi tay trắng, chẳng bao giờ dám quay lại.",
+      "subtitles": [
+        "Bảy năm trôi qua, anh lại ra ngồi dưới vòng cây giữa bãi hoang.",
+        "Gió rít lên, quỷ áo xanh hiện ra, mặt hằm hằm, ném trả anh chiếc áo cũ, đòi lại áo xanh.",
+        "\"Chưa được đâu,\" anh nói. \"Ông phải tắm rửa cho tôi sạch sẽ đã.\"",
+        "Quỷ muốn hay không cũng phải đi múc nước, tắm cho anh, chải tóc, cắt móng.",
+        "Xong xuôi, anh lại là một người lính khôi ngô, còn đẹp hơn cả ngày xưa.",
+        "Quỷ áo xanh đành bỏ đi tay trắng, chẳng bao giờ dám quay lại."
+      ],
+      "image": {
+        "prompt": "the ring of old trees on the heath, the grumpy green-coated stranger reluctantly combing the hair of a now handsome clean young soldier sitting on a stump, a bucket of water beside them, morning light",
+        "seed": 1043856060,
+        "character": "nguoi-linh"
+      },
+      "video": {
+        "motionPrompt": "the stranger grumbles as he combs, the soldier smiles with eyes closed, the old bearskin slips to the grass, sunrise brightens the heath",
+        "seed": 666886532
+      },
+      "voice": {}
+    },
+    {
+      "id": "nua-chiec-nhan",
+      "title": "Nửa chiếc nhẫn",
+      "narrator": "ke-chuyen",
+      "narration": "Anh vào thành, mặc áo nhung, ngồi xe bốn ngựa trắng đến nhà cô gái. Chẳng ai nhận ra anh. Ông lão tưởng anh là một vị tướng, mời vào nhà. Hai cô chị ngồi hai bên, rót nước mời, nghĩ thầm chưa từng thấy ai đẹp trai đến thế. Cô út mặc áo đen ngồi đối diện, không ngẩng lên, không nói một lời. Anh hỏi xin cưới một cô con gái. Hai cô chị vội chạy vào thay áo đẹp, ai cũng tưởng mình được chọn. Còn lại một mình với cô út, anh thả nửa chiếc nhẫn vào ly nước, đưa sang cho cô. Uống xong, thấy nửa chiếc nhẫn dưới đáy ly, tim cô đập rộn ràng. Cô lấy nửa nhẫn đeo trên cổ ra, ghép lại: vừa khít.",
+      "subtitles": [
+        "Anh vào thành, mặc áo nhung, ngồi xe bốn ngựa trắng đến nhà cô gái.",
+        "Chẳng ai nhận ra anh. Ông lão tưởng anh là một vị tướng, mời vào nhà.",
+        "Hai cô chị ngồi hai bên, rót nước mời, nghĩ thầm chưa từng thấy ai đẹp trai đến thế.",
+        "Cô út mặc áo đen ngồi đối diện, không ngẩng lên, không nói một lời.",
+        "Anh hỏi xin cưới một cô con gái.",
+        "Hai cô chị vội chạy vào thay áo đẹp, ai cũng tưởng mình được chọn.",
+        "Còn lại một mình với cô út, anh thả nửa chiếc nhẫn vào ly nước, đưa sang cho cô.",
+        "Uống xong, thấy nửa chiếc nhẫn dưới đáy ly, tim cô đập rộn ràng.",
+        "Cô lấy nửa nhẫn đeo trên cổ ra, ghép lại: vừa khít."
+      ],
+      "image": {
+        "prompt": "a festive parlor, a handsome young man in a velvet coat smiling across the table at a young woman in a black dress who holds two halves of a ring that fit together perfectly, her face lighting up with joy",
+        "seed": 2276405993,
+        "character": "co-ut"
+      },
+      "video": {
+        "motionPrompt": "the two ring halves click together and sparkle, the young woman's eyes widen with joy, the young man smiles warmly, candlelight glows",
+        "seed": 1437750617
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi",
+      "title": "Đám cưới",
+      "narrator": "ke-chuyen",
+      "narration": "Anh nói: \"Anh chính là người mặc da gấu mà em đã hứa chờ. Giờ anh đã trở lại là người như xưa.\" Anh ôm cô vào lòng. Vừa lúc ấy, hai cô chị trở ra trong bộ áo lộng lẫy. Thấy chàng trai khôi ngô đã chọn cô em út, lại biết đó chính là người mặc da gấu, hai cô vừa tức vừa xấu hổ, bỏ nhà đi biệt xứ, không bao giờ quay lại. Còn người lính và cô gái út làm đám cưới vui vẻ, sống bên nhau trọn đời, vì cô đã giữ lời hứa, và anh đã giữ lòng tốt suốt bảy năm dài.",
+      "subtitles": [
+        "Anh nói: \"Anh chính là người mặc da gấu mà em đã hứa chờ.",
+        "Giờ anh đã trở lại là người như xưa.\"",
+        "Anh ôm cô vào lòng. Vừa lúc ấy, hai cô chị trở ra trong bộ áo lộng lẫy.",
+        "Thấy chàng trai khôi ngô đã chọn cô em út, lại biết đó chính là người mặc da gấu,",
+        "hai cô vừa tức vừa xấu hổ, bỏ nhà đi biệt xứ, không bao giờ quay lại.",
+        "Còn người lính và cô gái út làm đám cưới vui vẻ, sống bên nhau trọn đời,",
+        "vì cô đã giữ lời hứa, và anh đã giữ lòng tốt suốt bảy năm dài."
+      ],
+      "image": {
+        "prompt": "a joyful wedding in a flower-decked village square, the handsome soldier and the loyal young woman now in a white dress holding hands, villagers cheering and throwing petals, bright festive colors",
+        "seed": 1899970609,
+        "character": "nguoi-linh"
+      },
+      "video": {
+        "motionPrompt": "petals float through the air, the couple turns and smiles at each other, villagers clap and dance, bunting flutters in the breeze",
+        "seed": 1697888255
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "heartfelt German folk ballad, solo violin and accordion over soft strings, a slightly mysterious theme for the green-coated stranger, a patient walking rhythm for the seven years, a bright festive wedding dance at the end, instrumental, no vocals",
+    "durationSeconds": 180,
+    "seed": 3426443088
+  }
+}

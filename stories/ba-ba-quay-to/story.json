@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "slug": "ba-ba-quay-to",
+  "shelf": "world",
+  "title": "Ba bà quay tơ",
+  "summary": "Hoàng hậu giao cho cô gái ba căn phòng đầy sợi lanh, hứa quay xong sẽ được làm vợ hoàng tử. Ba bà cụ dáng kỳ lạ đến giúp, chỉ xin một lời hứa: đừng xấu hổ vì họ. Truyện cổ Grimm kể nhẹ nhàng, vui nhộn về chuyện giữ lời hứa.",
+  "themes": [
+    "gia-dinh",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Die drei Spinnerinnen\" (Kinder- und Hausmärchen, bản 1857), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; bản kể đã làm nhẹ cho cả nhà: bà mẹ chỉ mắng con chứ không đánh, và cô gái là người vụng tay quay tơ chứ không phải người lười.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a royal palace with rooms piled with flax, spinning wheels and skeins of silver thread, warm golden and cream tones, rounded friendly humorous shapes, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "co-gai",
+      "name": "Cô gái",
+      "seed": 2559646879,
+      "sheetPrompt": "a shy poor young German village girl from the Grimm tale, light brown hair in a loose bun, simple green dress with patched apron, worried but kind face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoang-hau",
+      "name": "Hoàng hậu",
+      "seed": 1599960396,
+      "sheetPrompt": "a stately but friendly German queen from the Grimm tale, crown on grey-streaked hair, rich purple gown with ermine trim, loves spinning wheels, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba-ba-quay-to",
+      "name": "Ba bà quay tơ",
+      "seed": 1688115264,
+      "sheetPrompt": "three funny kind old spinning women from the Grimm tale standing together, the first with one very broad flat foot, the second with a very big drooping lower lip, the third with a very broad thumb, plain peasant dresses and headscarves, warm smiles, comical and lovable, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "co-gai-vung-tay",
+      "title": "Cô gái vụng tay",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một cô gái nhà nghèo chẳng thích quay sợi chút nào. Cứ ngồi vào guồng là sợi đứt, chỉ rối, mẹ nói gì cô cũng không chịu học. Một hôm, bà mẹ bực quá, mắng cô ầm lên, cô òa khóc nức nở. Đúng lúc ấy, xe của hoàng hậu đi ngang qua. Nghe tiếng khóc, hoàng hậu dừng lại hỏi chuyện. Bà mẹ ngượng chín người, không dám nói con mình vụng, bèn bảo: \"Tâu hoàng hậu, con bé mê quay sợi quá, quay ngày quay đêm, nhà nghèo chẳng đủ lanh cho nó quay.\" Hoàng hậu mừng rỡ: \"Ta thích nhất là nghe tiếng guồng quay. Cho con bé về cung với ta, lanh trong cung nhiều lắm.\"",
+      "subtitles": [
+        "Ngày xưa, có một cô gái nhà nghèo chẳng thích quay sợi chút nào.",
+        "Cứ ngồi vào guồng là sợi đứt, chỉ rối, mẹ nói gì cô cũng không chịu học.",
+        "Một hôm, bà mẹ bực quá, mắng cô ầm lên, cô òa khóc nức nở.",
+        "Đúng lúc ấy, xe của hoàng hậu đi ngang qua.",
+        "Nghe tiếng khóc, hoàng hậu dừng lại hỏi chuyện.",
+        "Bà mẹ ngượng chín người, không dám nói con mình vụng, bèn bảo: \"Tâu hoàng hậu,",
+        "con bé mê quay sợi quá, quay ngày quay đêm, nhà nghèo chẳng đủ lanh cho nó quay.\"",
+        "Hoàng hậu mừng rỡ: \"Ta thích nhất là nghe tiếng guồng quay.",
+        "Cho con bé về cung với ta, lanh trong cung nhiều lắm.\""
+      ],
+      "image": {
+        "prompt": "outside a humble cottage a royal carriage has stopped, the queen leans out kindly, the flustered mother bows and gestures, the girl wipes her tears beside a dusty spinning wheel, gentle humorous mood",
+        "seed": 254543651,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the carriage horses shake their manes, the mother bows quickly, the girl sniffles and peeks up, soft slow push-in",
+        "seed": 57347312
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-can-phong-lanh",
+      "title": "Ba căn phòng đầy lanh",
+      "narrator": "ke-chuyen",
+      "narration": "Về tới cung, hoàng hậu dẫn cô lên ba căn phòng chất đầy lanh từ sàn tới trần. \"Con quay hết chỗ lanh này cho ta,\" hoàng hậu nói. \"Quay xong, con sẽ được cưới con trai cả của ta. Con nghèo cũng chẳng sao, chăm chỉ là của hồi môn quý nhất rồi.\" Cô gái sợ hãi trong lòng. Cô có ngồi quay từ sáng tới tối suốt ba trăm năm cũng chẳng hết. Còn lại một mình, cô ngồi khóc, ba ngày liền không động tay vào guồng. Ngày thứ ba hoàng hậu tới xem, thấy chưa có sợi nào, cô xin lỗi rằng mình nhớ nhà quá. Hoàng hậu gật đầu: \"Được, nhưng mai phải bắt tay vào làm đấy.\"",
+      "subtitles": [
+        "Về tới cung, hoàng hậu dẫn cô lên ba căn phòng chất đầy lanh từ sàn tới trần.",
+        "\"Con quay hết chỗ lanh này cho ta,\" hoàng hậu nói.",
+        "\"Quay xong, con sẽ được cưới con trai cả của ta.",
+        "Con nghèo cũng chẳng sao, chăm chỉ là của hồi môn quý nhất rồi.\"",
+        "Cô gái sợ hãi trong lòng. Cô có ngồi quay từ sáng tới tối suốt ba trăm năm cũng chẳng hết.",
+        "Còn lại một mình, cô ngồi khóc, ba ngày liền không động tay vào guồng.",
+        "Ngày thứ ba hoàng hậu tới xem, thấy chưa có sợi nào, cô xin lỗi rằng mình nhớ nhà quá.",
+        "Hoàng hậu gật đầu: \"Được, nhưng mai phải bắt tay vào làm đấy.\""
+      ],
+      "image": {
+        "prompt": "a tall palace room filled from floor to ceiling with soft golden flax, the girl sits small and worried beside a spinning wheel, the queen in the doorway pointing at the heaps, humorous scale",
+        "seed": 3800545083,
+        "character": "hoang-hau"
+      },
+      "video": {
+        "motionPrompt": "flax fluff floats in the sunbeams, the girl hugs her knees, the queen sweeps out of the room, gentle motion",
+        "seed": 3270842668
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-vi-khach-la",
+      "title": "Ba vị khách lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Cô gái buồn bã ra đứng bên cửa sổ. Bỗng cô thấy ba bà cụ đi tới. Bà thứ nhất có một bàn chân bẹt và to tướng. Bà thứ hai có môi dưới dày, trễ xuống tận cằm. Bà thứ ba có ngón tay cái to bè. Ba bà ngước lên hỏi cô có chuyện gì buồn. Nghe cô kể, ba bà bảo: \"Chúng ta sẽ quay hết chỗ lanh ấy cho cháu, thật nhanh. Chỉ cần cháu hứa mời chúng ta dự đám cưới, gọi chúng ta là dì, cho ngồi cùng bàn, và đừng xấu hổ vì chúng ta.\" Cô gái đáp ngay: \"Cháu xin hứa hết lòng. Các dì vào đi ạ!\"",
+      "subtitles": [
+        "Cô gái buồn bã ra đứng bên cửa sổ. Bỗng cô thấy ba bà cụ đi tới.",
+        "Bà thứ nhất có một bàn chân bẹt và to tướng.",
+        "Bà thứ hai có môi dưới dày, trễ xuống tận cằm.",
+        "Bà thứ ba có ngón tay cái to bè. Ba bà ngước lên hỏi cô có chuyện gì buồn.",
+        "Nghe cô kể, ba bà bảo: \"Chúng ta sẽ quay hết chỗ lanh ấy cho cháu, thật nhanh.",
+        "Chỉ cần cháu hứa mời chúng ta dự đám cưới, gọi chúng ta là dì, cho ngồi cùng bàn,",
+        "và đừng xấu hổ vì chúng ta.\" Cô gái đáp ngay: \"Cháu xin hứa hết lòng.",
+        "Các dì vào đi ạ!\""
+      ],
+      "image": {
+        "prompt": "three funny kind old women standing under a palace window looking up, one with a big flat foot, one with a drooping lip, one with a broad thumb, the girl leaning out of the window with hopeful eyes, sunny afternoon",
+        "seed": 4194113652,
+        "character": "ba-ba-quay-to"
+      },
+      "video": {
+        "motionPrompt": "the three old women wave cheerfully, the girl clasps her hands and smiles, birds hop on the window ledge",
+        "seed": 1154568873
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-guong-quay",
+      "title": "Tiếng guồng quay",
+      "narrator": "ke-chuyen",
+      "narration": "Ba bà ngồi vào phòng thứ nhất và bắt tay làm ngay. Bà thứ nhất kéo sợi và đạp guồng quay. Bà thứ hai liếm cho sợi ướt. Bà thứ ba xe sợi, rồi gõ ngón tay xuống bàn, cứ mỗi lần gõ là một cuộn chỉ mịn màng rơi xuống sàn. Cô gái giấu ba bà thật kỹ. Mỗi lần hoàng hậu tới, cô chỉ đưa ra những đống chỉ đẹp, hoàng hậu khen mãi không thôi. Phòng thứ nhất hết, rồi đến phòng thứ hai, phòng thứ ba cũng hết nhẵn. Lúc từ biệt, ba bà dặn: \"Đừng quên lời hứa nhé, cháu sẽ được hạnh phúc.\"",
+      "subtitles": [
+        "Ba bà ngồi vào phòng thứ nhất và bắt tay làm ngay.",
+        "Bà thứ nhất kéo sợi và đạp guồng quay. Bà thứ hai liếm cho sợi ướt.",
+        "Bà thứ ba xe sợi, rồi gõ ngón tay xuống bàn,",
+        "cứ mỗi lần gõ là một cuộn chỉ mịn màng rơi xuống sàn.",
+        "Cô gái giấu ba bà thật kỹ.",
+        "Mỗi lần hoàng hậu tới, cô chỉ đưa ra những đống chỉ đẹp, hoàng hậu khen mãi không thôi.",
+        "Phòng thứ nhất hết, rồi đến phòng thứ hai, phòng thứ ba cũng hết nhẵn.",
+        "Lúc từ biệt, ba bà dặn: \"Đừng quên lời hứa nhé, cháu sẽ được hạnh phúc.\""
+      ],
+      "image": {
+        "prompt": "three cheerful old women spinning busily together in a palace room, one treading the wheel, one wetting the thread, one twisting it and tapping the table, shining skeins of fine thread piling on the floor, cosy humorous scene",
+        "seed": 1621360742,
+        "character": "ba-ba-quay-to"
+      },
+      "video": {
+        "motionPrompt": "the spinning wheel whirls, the thumb taps the table and a skein drops, the pile of thread grows, lively rhythmic motion",
+        "seed": 886562433
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-nguoi-di",
+      "title": "Ba người dì",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng hậu thấy ba phòng trống trơn và đống chỉ cao như núi thì cho làm đám cưới ngay. Chàng hoàng tử mừng lắm vì cưới được người vợ khéo tay. Cô gái thưa: \"Con có ba người dì rất thương con. Con muốn mời các dì đến dự và ngồi cùng bàn với chúng con.\" Hoàng hậu và hoàng tử đều vui vẻ: \"Có gì đâu mà không được!\" Tiệc vừa bắt đầu, ba bà bước vào, ăn mặc kỳ cục, dáng đi lạ đời. Cô dâu chẳng chút ngượng ngùng, đứng dậy chào: \"Các dì tới rồi, con mừng quá!\" Hoàng tử hỏi nhỏ: \"Sao vợ ta lại có những người dì lạ thế nhỉ?\"",
+      "subtitles": [
+        "Hoàng hậu thấy ba phòng trống trơn và đống chỉ cao như núi thì cho làm đám cưới ngay.",
+        "Chàng hoàng tử mừng lắm vì cưới được người vợ khéo tay.",
+        "Cô gái thưa: \"Con có ba người dì rất thương con.",
+        "Con muốn mời các dì đến dự và ngồi cùng bàn với chúng con.\"",
+        "Hoàng hậu và hoàng tử đều vui vẻ: \"Có gì đâu mà không được!\"",
+        "Tiệc vừa bắt đầu, ba bà bước vào, ăn mặc kỳ cục, dáng đi lạ đời.",
+        "Cô dâu chẳng chút ngượng ngùng, đứng dậy chào: \"Các dì tới rồi, con mừng quá!\"",
+        "Hoàng tử hỏi nhỏ: \"Sao vợ ta lại có những người dì lạ thế nhỉ?\""
+      ],
+      "image": {
+        "prompt": "a bright royal wedding feast, the bride stands and warmly greets three odd old women in their best old-fashioned clothes, the prince looks surprised but curious, guests at a long table with cakes and flowers",
+        "seed": 3157865845,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the bride hugs the old women warmly, guests turn their heads, candles flicker, slow pan along the feast table",
+        "seed": 2476320556
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-hua-giu-tron",
+      "title": "Lời hứa giữ tròn",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử lại gần bà thứ nhất, lễ phép hỏi: \"Thưa dì, sao bàn chân dì to và bẹt thế ạ?\" \"Vì đạp guồng quay nhiều đấy cháu ạ.\" Chàng hỏi bà thứ hai: \"Sao môi dì trễ xuống thế?\" \"Vì liếm sợi nhiều đấy.\" Chàng hỏi bà thứ ba: \"Sao ngón cái dì to bè thế?\" \"Vì xe sợi nhiều đấy.\" Hoàng tử giật mình, nói ngay: \"Vậy thì từ nay, vợ ta không bao giờ phải ngồi vào guồng quay nữa!\" Thế là cô gái chẳng phải quay sợi bao giờ. Cô đã giữ tròn lời hứa, không xấu hổ vì những người đã giúp mình, và cô sống hạnh phúc bên hoàng tử mãi về sau.",
+      "subtitles": [
+        "Hoàng tử lại gần bà thứ nhất, lễ phép hỏi: \"Thưa dì, sao bàn chân dì to và bẹt thế ạ?\"",
+        "\"Vì đạp guồng quay nhiều đấy cháu ạ.\" Chàng hỏi bà thứ hai: \"Sao môi dì trễ xuống thế?\"",
+        "\"Vì liếm sợi nhiều đấy.\" Chàng hỏi bà thứ ba: \"Sao ngón cái dì to bè thế?\"",
+        "\"Vì xe sợi nhiều đấy.\" Hoàng tử giật mình, nói ngay: \"Vậy thì từ nay,",
+        "vợ ta không bao giờ phải ngồi vào guồng quay nữa!\"",
+        "Thế là cô gái chẳng phải quay sợi bao giờ.",
+        "Cô đã giữ tròn lời hứa, không xấu hổ vì những người đã giúp mình,",
+        "và cô sống hạnh phúc bên hoàng tử mãi về sau."
+      ],
+      "image": {
+        "prompt": "the prince kindly speaks with the three old women at the feast while the bride smiles beside him, the prince gently pushes a spinning wheel away, everyone laughing warmly, golden festive light",
+        "seed": 2648191574,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the prince points at the spinning wheel and shakes his head with a grin, the old women chuckle, the bride laughs, confetti of petals falls",
+        "seed": 1861193854
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful German folk fairy-tale music, plucked strings and bassoon with a light dance rhythm like a turning spinning wheel, warm and humorous, medium tempo, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 424939803
+  }
+}

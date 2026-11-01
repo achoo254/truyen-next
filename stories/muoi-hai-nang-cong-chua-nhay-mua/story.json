@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "slug": "muoi-hai-nang-cong-chua-nhay-mua",
+  "shelf": "world",
+  "title": "Mười hai nàng công chúa nhảy múa",
+  "summary": "Đêm nào cửa phòng cũng khoá kín, vậy mà sáng ra đôi giày của mười hai nàng công chúa lại mòn vẹt như vừa nhảy suốt đêm. Một người lính già khoác chiếc áo tàng hình lần theo các nàng xuống lâu đài dưới lòng đất. Truyện cổ Grimm huyền ảo, kể nhẹ cho cả nhà.",
+  "themes": [
+    "su-tich",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Die zertanzten Schuhe\" (Kinder- und Hausmärchen, bản 1857, truyện số 133), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Twelve Dancing Princesses\" (hay \"The Shoes that were Danced to Pieces\") trên Project Gutenberg. Lời kể viết mới bằng tiếng Việt; bản kể nhẹ cho cả nhà: những người không tìm ra bí mật chỉ bị mời ra khỏi vương quốc.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century European fairy-tale picture-book illustration, rich watercolor with fine gold details, a moonlit palace bedroom, an underground forest of silver, gold and diamond trees, a glowing lake and a sparkling ballroom, magical and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "nguoi-linh",
+      "name": "Người lính già",
+      "seed": 1248850544,
+      "sheetPrompt": "a kindly middle-aged retired soldier from a German fairy tale, short grey beard, weathered smiling face, a faded blue military coat with brass buttons and a knapsack, no weapons, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nang-ca",
+      "name": "Nàng công chúa cả",
+      "seed": 3019017302,
+      "sheetPrompt": "the eldest of twelve princesses, a tall graceful young woman with dark hair in an elegant updo, a deep blue velvet gown and a small silver tiara, clever confident eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nang-ut",
+      "name": "Nàng công chúa út",
+      "seed": 3840409715,
+      "sheetPrompt": "the youngest of twelve princesses, a small sweet teenage girl with light auburn curls, a pale pink gown and a tiny tiara, slightly anxious watchful eyes, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "doi-giay-mon-vet",
+      "title": "Những đôi giày mòn vẹt",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một ông vua có mười hai cô con gái, nàng nào cũng xinh đẹp. Đêm đêm, mười hai nàng ngủ chung một phòng lớn, giường kê thành hàng. Khi các nàng đã lên giường, nhà vua tự tay khoá cửa lại. Thế mà sáng nào mở cửa ra, người ta cũng thấy giày của các nàng mòn vẹt, rách cả đế, như thể đã nhảy múa suốt đêm. Chẳng ai hiểu vì sao. Nhà vua bèn cho rao khắp nơi: \"Ai tìm ra các công chúa nhảy múa ở đâu sẽ được chọn một nàng làm vợ, và được nối ngôi. Ai thức ba đêm mà không tìm ra thì phải rời khỏi vương quốc.\"",
+      "subtitles": [
+        "Ngày xưa, có một ông vua có mười hai cô con gái, nàng nào cũng xinh đẹp.",
+        "Đêm đêm, mười hai nàng ngủ chung một phòng lớn, giường kê thành hàng.",
+        "Khi các nàng đã lên giường, nhà vua tự tay khoá cửa lại.",
+        "Thế mà sáng nào mở cửa ra, người ta cũng thấy giày của các nàng mòn vẹt, rách cả đế,",
+        "như thể đã nhảy múa suốt đêm. Chẳng ai hiểu vì sao. Nhà vua bèn cho rao khắp nơi:",
+        "\"Ai tìm ra các công chúa nhảy múa ở đâu sẽ được chọn một nàng làm vợ, và được nối ngôi.",
+        "Ai thức ba đêm mà không tìm ra thì phải rời khỏi vương quốc.\""
+      ],
+      "image": {
+        "prompt": "a grand moonlit palace bedroom with twelve beds in a row, twelve princesses asleep, a row of worn-out dancing slippers on the floor in the morning light, the puzzled old king holding a key at the door",
+        "seed": 2482342071,
+        "character": "nang-ca"
+      },
+      "video": {
+        "motionPrompt": "morning light creeps across twelve beds, the king lifts a worn slipper and frowns, curtains sway gently",
+        "seed": 3329808927
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-linh-va-ba-lao",
+      "title": "Người lính và bà lão",
+      "narrator": "ke-chuyen",
+      "narration": "Nhiều hoàng tử đã đến thử, nhưng đêm nào họ cũng ngủ say như khúc gỗ, sáng ra chẳng biết gì, đành buồn bã ra về. Một hôm, có một người lính già, vừa rời quân ngũ, đi ngang qua kinh thành. Bên đường, chàng gặp một bà lão. Nghe chàng nói muốn thử tìm bí mật của các công chúa, bà lão bảo: \"Việc ấy không khó. Đừng uống chén rượu họ mời buổi tối, rồi giả vờ ngủ say.\" Bà trao cho chàng một chiếc áo choàng: \"Khoác áo này vào, chẳng ai nhìn thấy anh đâu.\"",
+      "subtitles": [
+        "Nhiều hoàng tử đã đến thử, nhưng đêm nào họ cũng ngủ say như khúc gỗ,",
+        "sáng ra chẳng biết gì, đành buồn bã ra về.",
+        "Một hôm, có một người lính già, vừa rời quân ngũ, đi ngang qua kinh thành.",
+        "Bên đường, chàng gặp một bà lão.",
+        "Nghe chàng nói muốn thử tìm bí mật của các công chúa, bà lão bảo: \"Việc ấy không khó.",
+        "Đừng uống chén rượu họ mời buổi tối, rồi giả vờ ngủ say.\"",
+        "Bà trao cho chàng một chiếc áo choàng: \"Khoác áo này vào, chẳng ai nhìn thấy anh đâu.\""
+      ],
+      "image": {
+        "prompt": "a dusty road outside a fairy-tale city, the kindly old soldier in a faded blue coat talking with a small wise old woman in a shawl, she hands him a shimmering grey cloak, golden afternoon",
+        "seed": 3070908367,
+        "character": "nguoi-linh"
+      },
+      "video": {
+        "motionPrompt": "the old woman holds out the cloak, it shimmers and fades in and out of sight, the soldier smiles in wonder",
+        "seed": 1178716721
+      },
+      "voice": {}
+    },
+    {
+      "id": "chen-ruou-moi",
+      "title": "Chén rượu mời",
+      "narrator": "ke-chuyen",
+      "narration": "Người lính được đón vào cung, cho ngủ ở gian phòng ngay bên phòng các công chúa. Tối đến, nàng công chúa cả mang tới một chén rượu. Chàng đã buộc sẵn một miếng bọt biển dưới cằm, rót hết rượu vào đó, không uống một giọt. Rồi chàng nằm xuống, ngáy pho pho. Mười hai nàng nghe thấy, cười khúc khích, mở tủ lấy váy áo lộng lẫy ra mặc, xỏ đôi giày mới. Riêng nàng út lo lắng: \"Sao em thấy bồn chồn quá, như sắp có chuyện không hay.\" Nàng cả cười: \"Em lúc nào cũng lo hão.\"",
+      "subtitles": [
+        "Người lính được đón vào cung, cho ngủ ở gian phòng ngay bên phòng các công chúa.",
+        "Tối đến, nàng công chúa cả mang tới một chén rượu.",
+        "Chàng đã buộc sẵn một miếng bọt biển dưới cằm, rót hết rượu vào đó, không uống một giọt.",
+        "Rồi chàng nằm xuống, ngáy pho pho.",
+        "Mười hai nàng nghe thấy, cười khúc khích, mở tủ lấy váy áo lộng lẫy ra mặc,",
+        "xỏ đôi giày mới.",
+        "Riêng nàng út lo lắng: \"Sao em thấy bồn chồn quá, như sắp có chuyện không hay.\"",
+        "Nàng cả cười: \"Em lúc nào cũng lo hão.\""
+      ],
+      "image": {
+        "prompt": "a candlelit palace chamber, twelve princesses happily dressing in glittering ball gowns in front of mirrors, the youngest princess looking back worriedly toward the half-open door where the soldier pretends to snore",
+        "seed": 1984802983,
+        "character": "nang-ut"
+      },
+      "video": {
+        "motionPrompt": "candles flicker, princesses twirl their gowns, the youngest glances nervously at the door, soft snoring rhythm",
+        "seed": 600629947
+      },
+      "voice": {}
+    },
+    {
+      "id": "khu-rung-bac-vang-kim-cuong",
+      "title": "Khu rừng bạc, vàng và kim cương",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng cả gõ vào thành giường, chiếc giường từ từ lún xuống, mở ra một cầu thang. Các nàng lần lượt bước xuống. Người lính khoác áo tàng hình, theo sau nàng út. Đến giữa cầu thang, chàng lỡ giẫm lên vạt váy của nàng. Nàng út kêu lên: \"Ai kéo váy em thế?\" Nàng cả đáp: \"Váy em vướng vào đinh thôi.\" Dưới chân cầu thang là một hàng cây lá bạc lấp lánh, rồi hàng cây lá vàng, rồi hàng cây lá kim cương. Mỗi rừng, chàng bẻ một nhánh nhỏ làm bằng. Mỗi lần tiếng cành gãy vang lên, nàng út lại giật mình, còn nàng cả bảo đó là tiếng chúc mừng.",
+      "subtitles": [
+        "Nàng cả gõ vào thành giường, chiếc giường từ từ lún xuống, mở ra một cầu thang.",
+        "Các nàng lần lượt bước xuống. Người lính khoác áo tàng hình, theo sau nàng út.",
+        "Đến giữa cầu thang, chàng lỡ giẫm lên vạt váy của nàng.",
+        "Nàng út kêu lên: \"Ai kéo váy em thế?\" Nàng cả đáp: \"Váy em vướng vào đinh thôi.\"",
+        "Dưới chân cầu thang là một hàng cây lá bạc lấp lánh, rồi hàng cây lá vàng,",
+        "rồi hàng cây lá kim cương. Mỗi rừng, chàng bẻ một nhánh nhỏ làm bằng.",
+        "Mỗi lần tiếng cành gãy vang lên, nàng út lại giật mình,",
+        "còn nàng cả bảo đó là tiếng chúc mừng."
+      ],
+      "image": {
+        "prompt": "a magical underground avenue of trees with leaves of silver, then gold, then sparkling diamonds, twelve princesses walking in a line in ball gowns, a faint shimmering outline of the invisible soldier breaking off a tiny glittering twig",
+        "seed": 533734268,
+        "character": "nang-ut"
+      },
+      "video": {
+        "motionPrompt": "leaves of silver and gold sparkle and chime softly, a tiny twig snaps off and glints, the youngest princess turns around startled",
+        "seed": 1391510445
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-nuoc-va-lau-dai",
+      "title": "Hồ nước và lâu đài",
+      "narrator": "ke-chuyen",
+      "narration": "Đi hết rừng, các nàng tới một hồ nước lớn. Mười hai chiếc thuyền nhỏ đậu sẵn, trên mỗi thuyền có một chàng hoàng tử đang chờ. Mỗi chàng đón một nàng. Người lính bước lên thuyền của nàng út. Chàng hoàng tử chèo thuyền ấy than: \"Lạ thật, hôm nay thuyền nặng quá, tôi chèo mỏi cả tay.\" Bên kia hồ là một toà lâu đài rực rỡ ánh đèn, tiếng kèn tiếng trống vang lừng. Các nàng nhảy múa với các hoàng tử suốt đêm. Người lính tàng hình cũng nhảy theo, lâu lâu lại uống cạn chén rượu của nàng út, làm nàng thêm bối rối.",
+      "subtitles": [
+        "Đi hết rừng, các nàng tới một hồ nước lớn.",
+        "Mười hai chiếc thuyền nhỏ đậu sẵn, trên mỗi thuyền có một chàng hoàng tử đang chờ.",
+        "Mỗi chàng đón một nàng. Người lính bước lên thuyền của nàng út.",
+        "Chàng hoàng tử chèo thuyền ấy than: \"Lạ thật, hôm nay thuyền nặng quá,",
+        "tôi chèo mỏi cả tay.\"",
+        "Bên kia hồ là một toà lâu đài rực rỡ ánh đèn, tiếng kèn tiếng trống vang lừng.",
+        "Các nàng nhảy múa với các hoàng tử suốt đêm.",
+        "Người lính tàng hình cũng nhảy theo, lâu lâu lại uống cạn chén rượu của nàng út,",
+        "làm nàng thêm bối rối."
+      ],
+      "image": {
+        "prompt": "a glowing underground lake with twelve little boats rowed by twelve princes, a brilliantly lit fairy-tale castle on the far shore, inside a sparkling ballroom with princesses dancing joyfully with princes",
+        "seed": 2389298723,
+        "character": "nang-ca"
+      },
+      "video": {
+        "motionPrompt": "the boats glide across the shining water, lanterns reflect and ripple, inside the castle couples whirl in a joyful dance",
+        "seed": 771566861
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-dem-theo-doi",
+      "title": "Ba đêm theo dõi",
+      "narrator": "ke-chuyen",
+      "narration": "Đến ba giờ sáng, giày của các nàng đã mòn thủng, đành phải thôi. Các hoàng tử chèo thuyền đưa các nàng về, hẹn đêm sau gặp lại. Lên tới cầu thang, người lính chạy vượt lên trước, nằm vào giường ngáy thật to. Các nàng nghe tiếng ngáy, yên tâm cởi váy áo, xếp những đôi giày rách dưới gầm giường rồi đi ngủ. Đêm thứ hai, đêm thứ ba, mọi chuyện lại y như vậy. Đêm cuối, người lính mang theo về một chiếc cốc vàng từ lâu đài dưới lòng đất.",
+      "subtitles": [
+        "Đến ba giờ sáng, giày của các nàng đã mòn thủng, đành phải thôi.",
+        "Các hoàng tử chèo thuyền đưa các nàng về, hẹn đêm sau gặp lại.",
+        "Lên tới cầu thang, người lính chạy vượt lên trước, nằm vào giường ngáy thật to.",
+        "Các nàng nghe tiếng ngáy, yên tâm cởi váy áo,",
+        "xếp những đôi giày rách dưới gầm giường rồi đi ngủ.",
+        "Đêm thứ hai, đêm thứ ba, mọi chuyện lại y như vậy.",
+        "Đêm cuối, người lính mang theo về một chiếc cốc vàng từ lâu đài dưới lòng đất."
+      ],
+      "image": {
+        "prompt": "early dawn in the princesses bedroom, the soldier pretending to snore loudly in his bed, the tired princesses tiptoeing in and lining up their worn-out slippers, a golden goblet hidden under his blanket",
+        "seed": 502761137,
+        "character": "nguoi-linh"
+      },
+      "video": {
+        "motionPrompt": "the princesses tiptoe in yawning, slippers are set down in a row, the soldier peeks with one eye and grins",
+        "seed": 219647330
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-mat-duoc-he-lo",
+      "title": "Bí mật được hé lộ",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, người lính vào chầu vua, mang theo ba nhánh cây và chiếc cốc vàng. Nhà vua hỏi: \"Các con gái ta nhảy múa ở đâu?\" Chàng thưa: \"Tâu bệ hạ, các nàng nhảy múa với mười hai chàng hoàng tử trong một lâu đài dưới lòng đất.\" Rồi chàng kể hết mọi chuyện, đặt nhánh bạc, nhánh vàng, nhánh kim cương và chiếc cốc lên bàn. Nhà vua cho gọi các con gái tới. Thấy chẳng còn giấu được nữa, mười hai nàng đành nhận hết.",
+      "subtitles": [
+        "Sáng hôm sau, người lính vào chầu vua, mang theo ba nhánh cây và chiếc cốc vàng.",
+        "Nhà vua hỏi: \"Các con gái ta nhảy múa ở đâu?\" Chàng thưa: \"Tâu bệ hạ,",
+        "các nàng nhảy múa với mười hai chàng hoàng tử trong một lâu đài dưới lòng đất.\"",
+        "Rồi chàng kể hết mọi chuyện, đặt nhánh bạc, nhánh vàng,",
+        "nhánh kim cương và chiếc cốc lên bàn. Nhà vua cho gọi các con gái tới.",
+        "Thấy chẳng còn giấu được nữa, mười hai nàng đành nhận hết."
+      ],
+      "image": {
+        "prompt": "a royal throne room, the old soldier presenting a silver twig, a golden twig, a diamond twig and a golden goblet to the astonished king, twelve princesses standing in a row looking surprised and a little embarrassed",
+        "seed": 690935825,
+        "character": "nguoi-linh"
+      },
+      "video": {
+        "motionPrompt": "the twigs and goblet sparkle on the table, the king leans forward amazed, the princesses exchange glances",
+        "seed": 2330463217
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi-nguoi-linh",
+      "title": "Đám cưới người lính",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua hỏi người lính muốn chọn nàng nào làm vợ. Chàng cười: \"Tâu bệ hạ, tôi chẳng còn trẻ nữa, xin cho tôi cưới nàng cả.\" Ngay hôm ấy, đám cưới được tổ chức linh đình, và nhà vua hứa sau này sẽ truyền ngôi cho chàng. Còn mười hai chàng hoàng tử dưới lòng đất thì phải ở lại thêm bấy nhiêu ngày, bằng đúng số đêm họ đã nhảy múa cùng các công chúa. Từ đó, những đôi giày trong cung không còn mòn vẹt nữa.",
+      "subtitles": [
+        "Nhà vua hỏi người lính muốn chọn nàng nào làm vợ.",
+        "Chàng cười: \"Tâu bệ hạ, tôi chẳng còn trẻ nữa, xin cho tôi cưới nàng cả.\"",
+        "Ngay hôm ấy, đám cưới được tổ chức linh đình,",
+        "và nhà vua hứa sau này sẽ truyền ngôi cho chàng.",
+        "Còn mười hai chàng hoàng tử dưới lòng đất thì phải ở lại thêm bấy nhiêu ngày,",
+        "bằng đúng số đêm họ đã nhảy múa cùng các công chúa.",
+        "Từ đó, những đôi giày trong cung không còn mòn vẹt nữa."
+      ],
+      "image": {
+        "prompt": "a joyful royal wedding in a sunny palace hall, the kindly old soldier in a fine new coat beside the eldest princess in a white gown, the other princesses and the king celebrating, flower petals in the air",
+        "seed": 2083450205,
+        "character": "nang-ca"
+      },
+      "video": {
+        "motionPrompt": "flower petals drift down, bells ring, the soldier and the princess bow to each other and smile, the king claps",
+        "seed": 3668417159
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "enchanting European waltz music, sparkling celesta and harp for the silver and gold forest, a lilting ballroom waltz with strings, a quiet mysterious theme for the secret stairs, joyful ending, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 797340466
+  }
+}

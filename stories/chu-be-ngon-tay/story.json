@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-be-ngon-tay",
+  "shelf": "world",
+  "title": "Chú bé Ngón Tay",
+  "summary": "Chú bé chỉ to bằng ngón tay cái nhưng lanh lợi vô cùng: ngồi trong tai ngựa đánh xe, trốn khỏi hai gã lái buôn, làm bọn trộm sợ chạy mất dép, rồi lạc vào bụng bò, bụng sói. Bằng trí khôn, chú tìm được đường về với cha mẹ. Truyện cổ Grimm phiêu lưu, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "anh-hung"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Daumesdick\" (Kinder- und Hausmärchen, bản 1857, truyện số 37), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh của Margaret Hunt (\"Thumbling\") trên Project Gutenberg. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: con bò được cho uống thuốc rồi ho bật chú bé ra đống rơm thay vì bị làm thịt; ở cuối truyện, mẹ lấy lông gà ngoáy mũi cho sói hắt hơi nhả chú ra, sói bị đuổi về rừng, thay cho cảnh sói bị hại của truyện gốc.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a tiny thumb-sized boy in a big world, oversized everyday objects, a farmhouse, a forest road and a barn full of hay, playful perspective, warm cosy colors, safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ngon-tay",
+      "name": "Chú bé Ngón Tay",
+      "seed": 4251100236,
+      "sheetPrompt": "a tiny thumb-sized boy with rosy cheeks, bright clever eyes, tousled brown hair, a little green jacket and a red cap, shown next to a human thumb for scale, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cha-me",
+      "name": "Cha mẹ",
+      "seed": 1835591031,
+      "sheetPrompt": "a kind poor German peasant couple, the father with a short beard and a woodcutter's coat, the mother with a white headscarf and a spinning distaff, loving warm faces, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "soi",
+      "name": "Sói",
+      "seed": 1555123899,
+      "sheetPrompt": "a big greedy grey wolf from a German fairy tale with a round overstuffed belly, comical and clumsy rather than fierce, full body, side view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "uoc-mong",
+      "title": "Đứa con bằng ngón tay",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có hai vợ chồng bác nông dân nghèo. Một tối, bác chồng ngồi cời bếp, thở dài: \"Buồn quá, nhà mình chẳng có con. Nhà người ta thì vui vẻ, rộn ràng.\" Bác vợ đang kéo sợi, cũng thở dài: \"Chỉ cần một đứa thôi, bé bằng ngón tay cái cũng được, mình cũng sẽ thương nó hết lòng.\" Ít lâu sau, bác vợ sinh được một cậu bé, chân tay đủ cả, nhưng chỉ dài bằng ngón tay cái. Hai vợ chồng mừng lắm, đặt tên con là Ngón Tay. Cậu bé chẳng lớn thêm chút nào, nhưng đôi mắt sáng ngời, lanh lợi, làm gì cũng khéo.",
+      "subtitles": [
+        "Ngày xưa, có hai vợ chồng bác nông dân nghèo. Một tối, bác chồng ngồi cời bếp, thở dài:",
+        "\"Buồn quá, nhà mình chẳng có con. Nhà người ta thì vui vẻ, rộn ràng.\"",
+        "Bác vợ đang kéo sợi, cũng thở dài: \"Chỉ cần một đứa thôi, bé bằng ngón tay cái cũng được,",
+        "mình cũng sẽ thương nó hết lòng.\"",
+        "Ít lâu sau, bác vợ sinh được một cậu bé, chân tay đủ cả, nhưng chỉ dài bằng ngón tay cái.",
+        "Hai vợ chồng mừng lắm, đặt tên con là Ngón Tay.",
+        "Cậu bé chẳng lớn thêm chút nào, nhưng đôi mắt sáng ngời, lanh lợi, làm gì cũng khéo."
+      ],
+      "image": {
+        "prompt": "a cosy candlelit farmhouse kitchen, a happy peasant couple gazing lovingly at a tiny thumb-sized baby boy sitting in the palm of the mother's hand",
+        "seed": 1358680357,
+        "character": "ngon-tay"
+      },
+      "video": {
+        "motionPrompt": "the hearth fire glows, the tiny boy waves his little arms, the parents smile and lean closer, warm gentle push-in",
+        "seed": 2756837067
+      },
+      "voice": {}
+    },
+    {
+      "id": "tai-ngua",
+      "title": "Ngồi trong tai ngựa",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, bác chồng sắp vào rừng đốn củi, nói một mình: \"Giá có ai đánh xe vào rừng cho ta nhỉ.\" Ngón Tay reo lên: \"Cha ơi, để con! Mẹ thắng ngựa vào xe, đặt con vào tai ngựa, con sẽ bảo nó đi đường nào.\" Thế là mẹ đặt cậu vào tai ngựa. Cậu hô: \"Đi nào! Đi nào!\" Xe chạy ngon lành vào rừng. Có hai người lạ đi ngang, ngạc nhiên lắm: \"Lạ chưa! Xe chạy, có tiếng người đánh xe, mà chẳng thấy ai cả!\" Họ bèn đi theo xem xe dừng ở đâu.",
+      "subtitles": [
+        "Một hôm, bác chồng sắp vào rừng đốn củi, nói một mình:",
+        "\"Giá có ai đánh xe vào rừng cho ta nhỉ.\"",
+        "Ngón Tay reo lên: \"Cha ơi, để con! Mẹ thắng ngựa vào xe, đặt con vào tai ngựa,",
+        "con sẽ bảo nó đi đường nào.\"",
+        "Thế là mẹ đặt cậu vào tai ngựa. Cậu hô: \"Đi nào! Đi nào!\"",
+        "Xe chạy ngon lành vào rừng. Có hai người lạ đi ngang, ngạc nhiên lắm:",
+        "\"Lạ chưa! Xe chạy, có tiếng người đánh xe, mà chẳng thấy ai cả!\"",
+        "Họ bèn đi theo xem xe dừng ở đâu."
+      ],
+      "image": {
+        "prompt": "a brown horse pulling a wooden cart along a forest road with no driver, a tiny boy peeking out of the horse's ear and shouting directions, two astonished strangers in hats watching from behind a tree",
+        "seed": 2192160841,
+        "character": "ngon-tay"
+      },
+      "video": {
+        "motionPrompt": "the cart rolls along the forest road, the tiny boy waves from the horse's ear, the horse flicks its ear, the strangers' jaws drop",
+        "seed": 962389500
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-ga-la",
+      "title": "Hai gã lạ mặt",
+      "narrator": "ke-chuyen",
+      "narration": "Đến nơi, Ngón Tay gọi: \"Cha ơi, con mang xe đến rồi, cha bế con xuống!\" Hai gã lạ mặt thì thầm: \"Đưa thằng bé tí hon này ra thành phố cho người ta xem, ta sẽ giàu to.\" Họ hỏi mua cậu. Người cha nói: \"Không, nó là báu vật của đời tôi, bao nhiêu tiền cũng không bán.\" Nhưng Ngón Tay leo lên vai cha, ghé tai: \"Cha cứ bán đi, con sẽ về ngay thôi.\" Cậu ngồi trên vành mũ của hai gã đi đến chiều tối, rồi xin xuống đất một lát. Vừa đặt xuống, cậu chui tọt vào một cái hang chuột. \"Chào hai ông, các ông về mà không có tôi nhé!\" Hai gã chọc gậy vào hang mãi chẳng được, đành bực bội ra về tay trắng.",
+      "subtitles": [
+        "Đến nơi, Ngón Tay gọi: \"Cha ơi, con mang xe đến rồi, cha bế con xuống!\"",
+        "Hai gã lạ mặt thì thầm:",
+        "\"Đưa thằng bé tí hon này ra thành phố cho người ta xem, ta sẽ giàu to.\"",
+        "Họ hỏi mua cậu. Người cha nói: \"Không,",
+        "nó là báu vật của đời tôi, bao nhiêu tiền cũng không bán.\"",
+        "Nhưng Ngón Tay leo lên vai cha, ghé tai: \"Cha cứ bán đi, con sẽ về ngay thôi.\"",
+        "Cậu ngồi trên vành mũ của hai gã đi đến chiều tối, rồi xin xuống đất một lát.",
+        "Vừa đặt xuống, cậu chui tọt vào một cái hang chuột.",
+        "\"Chào hai ông, các ông về mà không có tôi nhé!\"",
+        "Hai gã chọc gậy vào hang mãi chẳng được, đành bực bội ra về tay trắng."
+      ],
+      "image": {
+        "prompt": "a tiny boy waving cheekily from the entrance of a mouse hole in a grassy roadside bank at dusk, two frustrated men in tall hats poking sticks at the ground",
+        "seed": 3704888380,
+        "character": "ngon-tay"
+      },
+      "video": {
+        "motionPrompt": "the tiny boy waves and disappears into the hole, the men poke their sticks in vain and throw up their hands, the sunset fades",
+        "seed": 1678522401
+      },
+      "voice": {}
+    },
+    {
+      "id": "bon-trom",
+      "title": "Lừa bọn trộm",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy, Ngón Tay ngủ trong một vỏ ốc rỗng. Chợt có hai tên trộm đi qua, bàn nhau trộm vàng nhà ông mục sư giàu có. \"Để tôi giúp cho!\" Ngón Tay nói. Bọn trộm nhặt cậu lên, đưa đến nhà mục sư. Cậu chui qua song sắt vào phòng, rồi hét thật to: \"Các ông muốn lấy hết mọi thứ ở đây à?\" Bọn trộm hoảng hốt: \"Khẽ thôi, kẻo người ta thức dậy!\" Cậu lại hét to hơn: \"Các ông cứ thò tay vào, tôi đưa hết cho!\" Chị giúp việc ngủ phòng bên nghe rõ, vùng dậy chạy ra. Bọn trộm co giò chạy mất dép. Ngón Tay lẻn ra kho cỏ, tìm một chỗ êm trong đống cỏ khô mà ngủ.",
+      "subtitles": [
+        "Đêm ấy, Ngón Tay ngủ trong một vỏ ốc rỗng. Chợt có hai tên trộm đi qua,",
+        "bàn nhau trộm vàng nhà ông mục sư giàu có.",
+        "\"Để tôi giúp cho!\" Ngón Tay nói. Bọn trộm nhặt cậu lên, đưa đến nhà mục sư.",
+        "Cậu chui qua song sắt vào phòng, rồi hét thật to: \"Các ông muốn lấy hết mọi thứ ở đây à?\"",
+        "Bọn trộm hoảng hốt: \"Khẽ thôi, kẻo người ta thức dậy!\"",
+        "Cậu lại hét to hơn: \"Các ông cứ thò tay vào, tôi đưa hết cho!\"",
+        "Chị giúp việc ngủ phòng bên nghe rõ, vùng dậy chạy ra. Bọn trộm co giò chạy mất dép.",
+        "Ngón Tay lẻn ra kho cỏ, tìm một chỗ êm trong đống cỏ khô mà ngủ."
+      ],
+      "image": {
+        "prompt": "night outside a big parsonage, a tiny boy standing on a windowsill between iron bars shouting loudly, two clumsy thieves outside covering their ears in panic, a lit candle appearing in the next window",
+        "seed": 205180127,
+        "character": "ngon-tay"
+      },
+      "video": {
+        "motionPrompt": "the tiny boy cups his hands and shouts, the thieves flinch and run off tripping over each other, a candle flame appears in the window",
+        "seed": 1978013657
+      },
+      "voice": {}
+    },
+    {
+      "id": "bung-bo",
+      "title": "Trong bụng con bò",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng sớm, chị giúp việc ôm một ôm cỏ cho bò ăn, đúng ôm cỏ có Ngón Tay đang ngủ say. Cậu tỉnh dậy thì đã trôi tuột vào bụng bò. \"Phòng này quên làm cửa sổ rồi, chẳng có tí nắng nào!\" Cỏ cứ đổ vào mãi, chỗ ngồi càng lúc càng chật. Cậu hét to: \"Đừng cho thêm cỏ nữa! Đừng cho thêm cỏ nữa!\" Chị giúp việc đang vắt sữa, hoảng quá ngã khỏi ghế, đổ cả xô sữa: \"Ông ơi, con bò biết nói!\" Ông mục sư vào xem, nghe con bò kêu thì tưởng nó bị ốm, cho bò uống một bát thuốc thật to. Bò ho một tiếng thật mạnh, Ngón Tay bắn ra ngoài, rơi đúng vào đống rơm sau chuồng.",
+      "subtitles": [
+        "Sáng sớm, chị giúp việc ôm một ôm cỏ cho bò ăn, đúng ôm cỏ có Ngón Tay đang ngủ say.",
+        "Cậu tỉnh dậy thì đã trôi tuột vào bụng bò.",
+        "\"Phòng này quên làm cửa sổ rồi, chẳng có tí nắng nào!\"",
+        "Cỏ cứ đổ vào mãi, chỗ ngồi càng lúc càng chật.",
+        "Cậu hét to: \"Đừng cho thêm cỏ nữa! Đừng cho thêm cỏ nữa!\"",
+        "Chị giúp việc đang vắt sữa, hoảng quá ngã khỏi ghế,",
+        "đổ cả xô sữa: \"Ông ơi, con bò biết nói!\"",
+        "Ông mục sư vào xem, nghe con bò kêu thì tưởng nó bị ốm, cho bò uống một bát thuốc thật to.",
+        "Bò ho một tiếng thật mạnh, Ngón Tay bắn ra ngoài, rơi đúng vào đống rơm sau chuồng."
+      ],
+      "image": {
+        "prompt": "inside a cosy barn, a startled milkmaid falling off her stool with a spilled milk pail, a brown cow looking surprised, a tiny voice bubble suggested by little hay pieces flying from the cow's mouth, comical scene",
+        "seed": 1918756137,
+        "character": "ngon-tay"
+      },
+      "video": {
+        "motionPrompt": "the milkmaid tumbles backward, milk splashes, the cow blinks and coughs out a puff of hay, the tiny boy tumbles onto a pile of straw",
+        "seed": 1767609272
+      },
+      "voice": {}
+    },
+    {
+      "id": "bung-soi",
+      "title": "Trong bụng sói",
+      "narrator": "ke-chuyen",
+      "narration": "Cậu vừa thò đầu ra khỏi đống rơm thì một con sói đói chạy tới, đớp gọn cả nắm rơm lẫn cậu. Ngón Tay chẳng hề nản lòng. Cậu gọi từ trong bụng sói: \"Anh sói ơi, tôi biết chỗ có bữa tiệc ngon lắm: bánh ngọt, thịt xông khói, xúc xích, ăn bao nhiêu cũng có!\" Rồi cậu tả thật kỹ đường về nhà cha mẹ mình. Đêm ấy, sói chui qua lỗ thoát nước vào bếp, ăn no căng bụng. Ăn xong, bụng to quá, sói không chui ra được nữa. Đúng như Ngón Tay tính trước! Cậu bèn la hét ầm ĩ trong bụng sói. \"Im đi, mày làm người ta thức dậy bây giờ!\"",
+      "subtitles": [
+        "Cậu vừa thò đầu ra khỏi đống rơm thì một con sói đói chạy tới, đớp gọn cả nắm rơm lẫn cậu.",
+        "Ngón Tay chẳng hề nản lòng. Cậu gọi từ trong bụng sói:",
+        "\"Anh sói ơi, tôi biết chỗ có bữa tiệc ngon lắm: bánh ngọt,",
+        "thịt xông khói, xúc xích, ăn bao nhiêu cũng có!\"",
+        "Rồi cậu tả thật kỹ đường về nhà cha mẹ mình.",
+        "Đêm ấy, sói chui qua lỗ thoát nước vào bếp, ăn no căng bụng.",
+        "Ăn xong, bụng to quá, sói không chui ra được nữa. Đúng như Ngón Tay tính trước!",
+        "Cậu bèn la hét ầm ĩ trong bụng sói. \"Im đi, mày làm người ta thức dậy bây giờ!\""
+      ],
+      "image": {
+        "prompt": "a moonlit farmhouse pantry, a clumsy grey wolf with a hugely round stuffed belly stuck halfway in the narrow kitchen drain hole, sausages and cakes scattered around, comical",
+        "seed": 1663000506,
+        "character": "soi"
+      },
+      "video": {
+        "motionPrompt": "the wolf wriggles and pushes but cannot fit through the hole, his round belly bounces, moonlight shines through the window",
+        "seed": 428867085
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-voi-cha-me",
+      "title": "Về với cha mẹ",
+      "narrator": "ke-chuyen",
+      "narration": "Cha mẹ nghe tiếng ồn, nhìn qua khe cửa thấy con sói, liền cầm rìu, cầm liềm chạy vào. Ngón Tay nghe tiếng cha mẹ, gọi to: \"Cha mẹ ơi, con đây! Con ở trong bụng sói!\" Người cha mừng rỡ: \"Ơn trời, con ta về rồi!\" Ông bảo vợ cất liềm đi kẻo làm con đau. Người mẹ nhanh trí lấy một chiếc lông gà ngoáy vào mũi sói. Sói hắt xì một cái thật to, Ngón Tay bắn ra ngoài, rơi đúng vào lòng mẹ. Sói sợ quá, cố lách khỏi bếp, chạy một mạch vào rừng sâu, không bao giờ dám quay lại. Cha mẹ ôm chầm lấy con: \"Con đi đâu mà lâu thế?\" Ngón Tay cười: \"Con đi khắp thế gian rồi. Từ nay con chẳng đi đâu nữa đâu.\"",
+      "subtitles": [
+        "Cha mẹ nghe tiếng ồn, nhìn qua khe cửa thấy con sói, liền cầm rìu, cầm liềm chạy vào.",
+        "Ngón Tay nghe tiếng cha mẹ, gọi to: \"Cha mẹ ơi, con đây! Con ở trong bụng sói!\"",
+        "Người cha mừng rỡ: \"Ơn trời, con ta về rồi!\" Ông bảo vợ cất liềm đi kẻo làm con đau.",
+        "Người mẹ nhanh trí lấy một chiếc lông gà ngoáy vào mũi sói.",
+        "Sói hắt xì một cái thật to, Ngón Tay bắn ra ngoài, rơi đúng vào lòng mẹ.",
+        "Sói sợ quá, cố lách khỏi bếp, chạy một mạch vào rừng sâu, không bao giờ dám quay lại.",
+        "Cha mẹ ôm chầm lấy con: \"Con đi đâu mà lâu thế?\"",
+        "Ngón Tay cười: \"Con đi khắp thế gian rồi. Từ nay con chẳng đi đâu nữa đâu.\""
+      ],
+      "image": {
+        "prompt": "a happy farmhouse kitchen, the mother tickling a big grey wolf's nose with a feather, the wolf sneezing, the tiny boy flying out into the mother's open hands, the father laughing with relief",
+        "seed": 762877966,
+        "character": "cha-me"
+      },
+      "video": {
+        "motionPrompt": "the feather tickles, the wolf sneezes with a big puff, the tiny boy lands safely in his mother's hands, the wolf scrambles away through the door",
+        "seed": 946131464
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "lively German folk music for a tiny hero's adventure, piccolo and pizzicato strings for the little boy, a sneaky bassoon for the thieves, a clumsy tuba for the wolf, a warm homecoming melody, instrumental, no vocals",
+    "durationSeconds": 180,
+    "seed": 4141995987
+  }
+}

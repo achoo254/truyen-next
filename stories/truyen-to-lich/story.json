@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "slug": "truyen-to-lich",
+  "shelf": "adults",
+  "title": "Truyện thần sông Tô Lịch",
+  "summary": "Cao Biền, viên quan đô hộ giỏi phép trấn yểm, gặp một ông lão tóc bạc tự xưng họ Tô tên Lịch rồi biến mất giữa dòng sông. Rồi thần đất Long Đỗ hiện lên giữa trời, mọi bùa vàng, bạc, đồng, sắt của Cao Biền đều hóa tro bay, khiến hắn phải than rằng đất này có thần giữ.",
+  "themes": [
+    "than-thoai",
+    "su-tich"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện Tô Lịch chép trong Lĩnh Nam chích quái (thế kỷ XV), sách cổ thuộc phạm vi công cộng; đoạn kết về đền thần Long Đỗ theo truyện Long Đỗ vương khí cùng sách. Lời kể viết mới hoàn toàn, chỉ lấy cốt truyện, không theo bản dịch hiện đại nào.",
+  "basedOn": "Lĩnh Nam chích quái, truyện Tô Lịch",
+  "style": "classical Vietnamese silk painting (tranh lua) illustration, fine ink linework, washes of jade green, slate blue, ochre and imperial gold on aged silk, ninth-century Dai La citadel by the river, earthen ramparts, curved tiled roofs, reed banks and wooden boats, mysterious and solemn mood for adult readers, storms shown with swirling ink clouds, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "cao-bien",
+      "name": "Cao Biền",
+      "sheetPrompt": "Cao Bien, Tang dynasty Chinese governor and geomancer in his fifties, lean face with a long thin beard and sharp watchful eyes, wearing a dark purple Tang official robe with a black futou hat, holding a geomancer compass, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 651549011
+    },
+    {
+      "id": "to-lich",
+      "name": "Ông lão họ Tô",
+      "sheetPrompt": "an old Vietnamese man of the river, silvery white hair and beard, kind laughing face with unusual noble features, simple pale grey robe, standing barefoot by reeds with water droplets on his hem, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 3426314939
+    },
+    {
+      "id": "than-long-do",
+      "name": "Thần Long Đỗ",
+      "sheetPrompt": "Long Do, the guardian earth spirit of ancient Hanoi, towering majestic figure in shimmering golden robes, a purple cap on his head, holding a golden tally, stern serene face, swirling clouds around his feet, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 894278938
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cao-bien-sang-nam",
+      "title": "Cao Biền sang phương Nam",
+      "narrator": "ke-chuyen",
+      "narration": "Vào đời nhà Đường, đất nước ta còn bị phương Bắc đô hộ. Năm ấy, vua Đường sai Cao Biền sang An Nam đánh quân Nam Chiếu. Thắng trận rồi, Cao Biền ở lại cai trị. Hắn là người thông thiên văn, giỏi địa lý, thích đi xem thế đất, dò mạch núi sông. Đi tới đâu, hắn cũng dò hỏi xem nơi ấy thờ thần gì, thiêng tới đâu, và tin rằng bằng phép thuật của mình, thần linh nào cũng phải chịu khuất phục. Hắn cho đắp lại thành Đại La ở phía tây sông Lô, chu vi hơn một nghìn bước, rồi đóng quân ở đó. Phía tây bắc thành có một con sông nhỏ chảy về nam, đổ vào sông lớn, mỗi lần mưa xuống là nước dâng tràn hai bờ.",
+      "subtitles": [
+        "Vào đời nhà Đường, đất nước ta còn bị phương Bắc đô hộ.",
+        "Năm ấy, vua Đường sai Cao Biền sang An Nam đánh quân Nam Chiếu.",
+        "Thắng trận rồi, Cao Biền ở lại cai trị.",
+        "Hắn là người thông thiên văn, giỏi địa lý, thích đi xem thế đất, dò mạch núi sông.",
+        "Đi tới đâu, hắn cũng dò hỏi xem nơi ấy thờ thần gì, thiêng tới đâu,",
+        "và tin rằng bằng phép thuật của mình, thần linh nào cũng phải chịu khuất phục.",
+        "Hắn cho đắp lại thành Đại La ở phía tây sông Lô, chu vi hơn một nghìn bước,",
+        "rồi đóng quân ở đó.",
+        "Phía tây bắc thành có một con sông nhỏ chảy về nam, đổ vào sông lớn,",
+        "mỗi lần mưa xuống là nước dâng tràn hai bờ."
+      ],
+      "image": {
+        "prompt": "a Tang dynasty governor in a purple robe inspecting the building of earthen ramparts of a citadel by a broad river, laborers carrying baskets of earth, a small winding river flowing beside the walls",
+        "seed": 1421576286,
+        "character": "cao-bien"
+      },
+      "video": {
+        "motionPrompt": "laborers move along the ramparts, the governor turns his compass and looks toward the river, banners stir, slow wide pan",
+        "seed": 34891226
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-lao-toc-bac",
+      "title": "Ông lão tóc bạc",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, Cao Biền ngồi thuyền đi dạo trên con sông nhỏ ấy. Giữa dòng, hắn gặp một ông lão tóc bạc như cước, tướng mạo khác thường, cũng đang dạo chơi. Ông lão cười nói tự nhiên, không chút sợ sệt trước quan đô hộ. Cao Biền lấy làm lạ, hỏi: \"Ông tên là gì?\" Ông lão đáp: \"Ta họ Tô, tên Lịch.\" Cao Biền lại hỏi: \"Nhà ông ở đâu?\" Ông lão chỉ xuống mặt nước, cười mà rằng: \"Nhà ta ở ngay trong sông này.\"",
+      "subtitles": [
+        "Một hôm, Cao Biền ngồi thuyền đi dạo trên con sông nhỏ ấy.",
+        "Giữa dòng, hắn gặp một ông lão tóc bạc như cước, tướng mạo khác thường,",
+        "cũng đang dạo chơi.",
+        "Ông lão cười nói tự nhiên, không chút sợ sệt trước quan đô hộ.",
+        "Cao Biền lấy làm lạ, hỏi: \"Ông tên là gì?\"",
+        "Ông lão đáp: \"Ta họ Tô, tên Lịch.\"",
+        "Cao Biền lại hỏi: \"Nhà ông ở đâu?\"",
+        "Ông lão chỉ xuống mặt nước, cười mà rằng: \"Nhà ta ở ngay trong sông này.\""
+      ],
+      "image": {
+        "prompt": "on a quiet river among reeds, a Tang governor sits in an ornate boat facing an old man with silvery hair standing calmly on a small skiff, both lit by soft afternoon light",
+        "seed": 2978084509,
+        "character": "to-lich"
+      },
+      "video": {
+        "motionPrompt": "the boats drift close, the old man laughs and points down at the water, reeds sway, ripples spread, slow push in",
+        "seed": 350692388
+      },
+      "voice": {}
+    },
+    {
+      "id": "dat-ten-song",
+      "title": "Tên con sông",
+      "narrator": "ke-chuyen",
+      "narration": "Nói xong, ông lão vỗ tay một cái. Lập tức trời tối sầm lại, mây đen kéo kín mặt sông. Khi trời sáng ra thì ông lão đã biến mất, trên mặt nước chỉ còn sóng gợn lăn tăn. Hắn sai người chèo thuyền tìm khắp khúc sông, cũng không thấy bóng dáng ông lão đâu nữa. Cao Biền đứng lặng hồi lâu, biết người vừa gặp không phải người thường mà là thần của dòng sông. Từ đó, hắn đặt tên con sông ấy là sông Tô Lịch, theo tên vị thần đã hiện ra. Cái tên ấy còn đến bây giờ.",
+      "subtitles": [
+        "Nói xong, ông lão vỗ tay một cái.",
+        "Lập tức trời tối sầm lại, mây đen kéo kín mặt sông.",
+        "Khi trời sáng ra thì ông lão đã biến mất, trên mặt nước chỉ còn sóng gợn lăn tăn.",
+        "Hắn sai người chèo thuyền tìm khắp khúc sông, cũng không thấy bóng dáng ông lão đâu nữa.",
+        "Cao Biền đứng lặng hồi lâu,",
+        "biết người vừa gặp không phải người thường mà là thần của dòng sông.",
+        "Từ đó, hắn đặt tên con sông ấy là sông Tô Lịch, theo tên vị thần đã hiện ra.",
+        "Cái tên ấy còn đến bây giờ."
+      ],
+      "image": {
+        "prompt": "the sky over the river suddenly darkening with swirling ink clouds, the skiff of the old man empty, the Tang governor standing in his boat staring at the rippling water in astonishment",
+        "seed": 3961692706,
+        "character": "cao-bien"
+      },
+      "video": {
+        "motionPrompt": "dark clouds roll in fast, light dims, the empty skiff turns slowly on the current, the governor grips the side of his boat, wind ruffles the reeds",
+        "seed": 2431883061
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-la-tren-song",
+      "title": "Người lạ đứng trên sóng",
+      "narrator": "ke-chuyen",
+      "narration": "Lại một buổi sáng, trời vừa hửng, Cao Biền ra đứng ở bờ sông phía đông nam thành. Bỗng gió lớn nổi lên từ lòng sông, sóng cuộn ầm ầm, mây đen phủ kín bốn phía. Giữa mặt nước hiện ra một người lạ, cao hơn hai trượng, mình mặc áo vàng, đầu đội mũ tía, tay cầm hốt vàng. Người ấy bay lên lượn xuống trong ánh mặt trời. Mặt trời đã lên cao ba con sào mà mây vẫn không tan, bóng người vẫn đứng đó. Quân lính đứng hầu sợ hãi, không ai dám ngẩng mặt nhìn lâu.",
+      "subtitles": [
+        "Lại một buổi sáng, trời vừa hửng, Cao Biền ra đứng ở bờ sông phía đông nam thành.",
+        "Bỗng gió lớn nổi lên từ lòng sông, sóng cuộn ầm ầm, mây đen phủ kín bốn phía.",
+        "Giữa mặt nước hiện ra một người lạ, cao hơn hai trượng, mình mặc áo vàng, đầu đội mũ tía,",
+        "tay cầm hốt vàng.",
+        "Người ấy bay lên lượn xuống trong ánh mặt trời.",
+        "Mặt trời đã lên cao ba con sào mà mây vẫn không tan, bóng người vẫn đứng đó.",
+        "Quân lính đứng hầu sợ hãi, không ai dám ngẩng mặt nhìn lâu."
+      ],
+      "image": {
+        "prompt": "a towering majestic spirit in golden robes and a purple cap holding a golden tally, standing upon churning river waves under black clouds pierced by rays of morning sun, a small figure of the governor on the bank",
+        "seed": 1647663079,
+        "character": "than-long-do"
+      },
+      "video": {
+        "motionPrompt": "waves heave and roar, the spirit rises and swoops through the sunbeams, clouds swirl around him, the governor steps back on the bank, slow dramatic tilt up",
+        "seed": 1724841687
+      },
+      "voice": {}
+    },
+    {
+      "id": "giac-mong",
+      "title": "Lời thần trong giấc mộng",
+      "narrator": "ke-chuyen",
+      "narration": "Cao Biền kinh ngạc, muốn dùng phép trấn áp mà chưa biết làm cách nào. Đêm ấy hắn nằm mộng, thấy vị thần đến nói: \"Ông đừng tìm cách trấn yểm ta. Ta là thần Long Đỗ, đứng đầu các thần đất nơi này. Nghe tin có người đến đây đắp thành, xưa nay chưa từng gặp nhau, nên ta hiện ra cho biết mặt. Dẫu ông có muốn trừ ta đi, ta cũng chẳng bận lòng chút nào.\"",
+      "subtitles": [
+        "Cao Biền kinh ngạc, muốn dùng phép trấn áp mà chưa biết làm cách nào.",
+        "Đêm ấy hắn nằm mộng, thấy vị thần đến nói: \"Ông đừng tìm cách trấn yểm ta.",
+        "Ta là thần Long Đỗ, đứng đầu các thần đất nơi này.",
+        "Nghe tin có người đến đây đắp thành, xưa nay chưa từng gặp nhau,",
+        "nên ta hiện ra cho biết mặt.",
+        "Dẫu ông có muốn trừ ta đi, ta cũng chẳng bận lòng chút nào.\""
+      ],
+      "image": {
+        "prompt": "inside a dim Tang official chamber at night, the governor asleep on a carved bed, above him a luminous golden spirit appears in a cloud, speaking calmly",
+        "seed": 1483872237,
+        "character": "than-long-do"
+      },
+      "video": {
+        "motionPrompt": "candlelight flickers, the golden figure glows and gestures, the sleeping governor stirs uneasily, soft clouds drift through the room",
+        "seed": 2682357420
+      },
+      "voice": {}
+    },
+    {
+      "id": "lap-dan-tran-yem",
+      "title": "Lập đàn trấn yểm",
+      "narrator": "ke-chuyen",
+      "narration": "Tỉnh dậy, Cao Biền vừa sợ vừa giận. Trời vừa sáng, hắn sai lập đàn bên bờ sông, ăn chay giữ mình. Hắn đem vàng, bạc, đồng, sắt ra luyện thành bùa, ngày đêm đọc chú ếm suốt ba ngày ba đêm. Xong việc, hắn đem các lá bùa chôn xuống đất bên sông, tin rằng từ nay thần đất sẽ bị trấn chặt, không còn hiện lên được nữa. Đám người theo hầu ai cũng khen phép của quan đô hộ cao cường.",
+      "subtitles": [
+        "Tỉnh dậy, Cao Biền vừa sợ vừa giận.",
+        "Trời vừa sáng, hắn sai lập đàn bên bờ sông, ăn chay giữ mình.",
+        "Hắn đem vàng, bạc, đồng, sắt ra luyện thành bùa, ngày đêm đọc chú ếm suốt ba ngày ba đêm.",
+        "Xong việc, hắn đem các lá bùa chôn xuống đất bên sông,",
+        "tin rằng từ nay thần đất sẽ bị trấn chặt, không còn hiện lên được nữa.",
+        "Đám người theo hầu ai cũng khen phép của quan đô hộ cao cường."
+      ],
+      "image": {
+        "prompt": "a ritual altar on the riverbank with incense smoke, the governor in dark robes chanting spells over talismans of gold, silver, bronze and iron, attendants digging a pit to bury them",
+        "seed": 1047760509,
+        "character": "cao-bien"
+      },
+      "video": {
+        "motionPrompt": "incense smoke coils upward, the governor raises his hands chanting, talismans glint as they are lowered into the earth, dusk falls slowly",
+        "seed": 4038922512
+      },
+      "voice": {}
+    },
+    {
+      "id": "bua-hoa-tro",
+      "title": "Bùa hóa tro bay",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy, sấm nổ vang trời, mưa to gió lớn kéo đến dữ dội. Trong chớp mắt, Cao Biền thấy tất cả những lá bùa vàng, bạc, đồng, sắt bị cuốn tung lên không trung, hóa thành tro bụi, bay đi mất sạch, không còn dấu vết. Sáng ra, chỗ đất chôn bùa chỉ còn trơ lại những hố trống. Phép thuật mà Cao Biền tự hào bấy lâu, trước thần đất phương Nam, hóa ra vô dụng.",
+      "subtitles": [
+        "Đêm ấy, sấm nổ vang trời, mưa to gió lớn kéo đến dữ dội.",
+        "Trong chớp mắt, Cao Biền thấy tất cả những lá bùa vàng, bạc, đồng,",
+        "sắt bị cuốn tung lên không trung, hóa thành tro bụi, bay đi mất sạch, không còn dấu vết.",
+        "Sáng ra, chỗ đất chôn bùa chỉ còn trơ lại những hố trống.",
+        "Phép thuật mà Cao Biền tự hào bấy lâu, trước thần đất phương Nam, hóa ra vô dụng."
+      ],
+      "image": {
+        "prompt": "a violent night storm over the river, lightning splitting the sky, glittering talismans whirled up from the ground in a whirlwind and turning into drifting ash, the governor shielding his face",
+        "seed": 2101633748,
+        "character": "cao-bien"
+      },
+      "video": {
+        "motionPrompt": "lightning flashes, wind tears the talismans out of the earth, they spin upward and crumble into glowing ash, rain lashes, fast swirling camera",
+        "seed": 115451870
+      },
+      "voice": {}
+    },
+    {
+      "id": "cao-bien-than-tho",
+      "title": "Cao Biền thở than",
+      "narrator": "ke-chuyen",
+      "narration": "Cao Biền thở dài, nói với người theo hầu: \"Đất này có thần linh cai quản, ta không thể ở lâu được. Ở lại thì e có ngày gặp họa. Ta phải về phương Bắc thôi.\" Ít lâu sau, vua Đường gọi Cao Biền về nước. Sách xưa chép rằng hắn về rồi thì bị giết. Viên quan từng muốn yểm hết long mạch phương Nam, rốt cuộc không giữ nổi chính thân mình.",
+      "subtitles": [
+        "Cao Biền thở dài, nói với người theo hầu: \"Đất này có thần linh cai quản,",
+        "ta không thể ở lâu được.",
+        "Ở lại thì e có ngày gặp họa.",
+        "Ta phải về phương Bắc thôi.\"",
+        "Ít lâu sau, vua Đường gọi Cao Biền về nước.",
+        "Sách xưa chép rằng hắn về rồi thì bị giết.",
+        "Viên quan từng muốn yểm hết long mạch phương Nam, rốt cuộc không giữ nổi chính thân mình."
+      ],
+      "image": {
+        "prompt": "the aging governor standing on the citadel wall at dusk looking north with a sigh, his attendants packing chests onto horses, the river and the city behind him",
+        "seed": 52404636,
+        "character": "cao-bien"
+      },
+      "video": {
+        "motionPrompt": "the governor lowers his head, a cold wind moves his robe, horses are led away along the road north, the sun sinks, slow pull back",
+        "seed": 2337694433
+      },
+      "voice": {}
+    },
+    {
+      "id": "den-than-long-do",
+      "title": "Đền thần Long Đỗ",
+      "narrator": "ke-chuyen",
+      "narration": "Người trong vùng tin đó là thần ứng, bèn lập đền thờ thần Long Đỗ cạnh chợ trong thành. Đến đời nhà Lý, vua Lý Thái Tổ dời đô về Thăng Long, đêm nằm mộng thấy thần đến lạy mừng, bèn phong làm Thành hoàng của kinh thành. Về sau, kinh thành mấy lần cháy lớn mà đền thần vẫn không hề hấn gì. Còn dòng sông nơi ông lão họ Tô hiện ra, người đời vẫn gọi là sông Tô Lịch, chảy quanh đất Hà Nội cho tới hôm nay.",
+      "subtitles": [
+        "Người trong vùng tin đó là thần ứng, bèn lập đền thờ thần Long Đỗ cạnh chợ trong thành.",
+        "Đến đời nhà Lý, vua Lý Thái Tổ dời đô về Thăng Long, đêm nằm mộng thấy thần đến lạy mừng,",
+        "bèn phong làm Thành hoàng của kinh thành.",
+        "Về sau, kinh thành mấy lần cháy lớn mà đền thần vẫn không hề hấn gì.",
+        "Còn dòng sông nơi ông lão họ Tô hiện ra, người đời vẫn gọi là sông Tô Lịch,",
+        "chảy quanh đất Hà Nội cho tới hôm nay."
+      ],
+      "image": {
+        "prompt": "a small ancient temple beside a busy old Thang Long market, incense and lanterns, people bringing offerings, the To Lich river winding past under willows",
+        "seed": 3252556151,
+        "character": "than-long-do"
+      },
+      "video": {
+        "motionPrompt": "people walk in and out of the temple, incense smoke drifts, willows sway over the river, a faint golden glow over the temple roof, gentle slow pan",
+        "seed": 956917692
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "ancient Vietnamese ceremonial instrumental, dan tranh zither and bamboo flute with soft temple bells and low drums, flowing river ambience, mysterious then calm and reverent, slow tempo, no vocals",
+    "durationSeconds": 180,
+    "seed": 433246608
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "slug": "ba-soi-toc-vang-cua-quy",
+  "shelf": "world",
+  "title": "Ba sợi tóc vàng của quỷ",
+  "summary": "Cậu bé sinh ra đã gặp may, được lời tiên tri sẽ cưới công chúa. Ông vua độc ác tìm đủ cách hại cậu, cuối cùng bắt cậu xuống tận nhà quỷ lấy ba sợi tóc vàng. Nhờ bà của quỷ giúp, cậu mang về cả tóc vàng lẫn lời giải cho ba câu đố. Truyện cổ Grimm phiêu lưu, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "anh-hung",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der Teufel mit den drei goldenen Haaren\" (Kinder- und Hausmärchen, bản 1857, truyện số 29), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh của Margaret Hunt trên Project Gutenberg. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: bức thư của vua ra lệnh giam cậu bé vào ngục tối mãi mãi; con cóc và con chuột chỉ cần bắt đi chỗ khác; nhà của quỷ là một hang tối dưới lòng đất; quỷ chỉ ngửi thấy \"mùi người lạ\".",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a water mill, deep forests, walled medieval towns, a wide misty river with a ferryboat, a sooty underground cave lit by a warm hearth, adventurous but safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cau-be-may-man",
+      "name": "Cậu bé may mắn",
+      "seed": 1685942600,
+      "sheetPrompt": "a cheerful brave German youth of about fourteen with tousled light-brown hair, a miller's white shirt and brown trousers, a small bundle over his shoulder, open friendly face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "vua-doc-ac",
+      "name": "Ông vua độc ác",
+      "seed": 3044079635,
+      "sheetPrompt": "a greedy scheming old king with a thin pointed grey beard, a crooked golden crown, a purple cloak and a sly sour expression, comical rather than frightening, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba-cua-quy",
+      "name": "Bà của quỷ",
+      "seed": 1861560222,
+      "sheetPrompt": "a kindly old grandmother with a wrinkled face, small curled horns peeking from her white bonnet, a wide patched skirt with deep folds, sitting in a big armchair, warm sly smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "quy",
+      "name": "Quỷ",
+      "seed": 303880062,
+      "sheetPrompt": "a big grumpy fairy-tale devil with red skin, small horns, a long tail and three shining golden hairs among his dark hair, comical and sleepy rather than scary, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "loi-tien-tri",
+      "title": "Lời tiên tri",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bà mẹ nghèo sinh được một cậu con trai có số may mắn. Người ta tiên tri rằng năm mười bốn tuổi, cậu sẽ cưới công chúa. Ông vua nước ấy lòng dạ xấu xa, nghe vậy thì tức lắm. Vua giả làm người lạ, đến nhà, đưa thật nhiều vàng xin nuôi đứa bé. Cha mẹ cậu nghĩ con mình có số may, đi đâu cũng gặp điều lành, nên đành gật đầu. Vua đặt đứa bé vào một chiếc hộp, thả xuống dòng nước sâu, nghĩ bụng: \"Thế là con gái ta thoát khỏi chàng rể chẳng ai mời.\"",
+      "subtitles": [
+        "Ngày xưa, có một bà mẹ nghèo sinh được một cậu con trai có số may mắn.",
+        "Người ta tiên tri rằng năm mười bốn tuổi, cậu sẽ cưới công chúa.",
+        "Ông vua nước ấy lòng dạ xấu xa, nghe vậy thì tức lắm.",
+        "Vua giả làm người lạ, đến nhà, đưa thật nhiều vàng xin nuôi đứa bé.",
+        "Cha mẹ cậu nghĩ con mình có số may, đi đâu cũng gặp điều lành, nên đành gật đầu.",
+        "Vua đặt đứa bé vào một chiếc hộp, thả xuống dòng nước sâu, nghĩ bụng:",
+        "\"Thế là con gái ta thoát khỏi chàng rể chẳng ai mời.\""
+      ],
+      "image": {
+        "prompt": "a sly king in a dark traveling cloak setting a small wooden box adrift on a calm deep river at dawn, the box floating safely like a little boat",
+        "seed": 835862533,
+        "character": "vua-doc-ac"
+      },
+      "video": {
+        "motionPrompt": "the wooden box drifts gently away on the water like a boat, the king turns and walks off, mist curls over the river",
+        "seed": 3930597446
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-coi-xay",
+      "title": "Đứa bé ở nhà máy xay",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng chiếc hộp không chìm, cứ trôi bồng bềnh như một con thuyền, chẳng giọt nước nào lọt vào. Hộp trôi đến bờ đập của một nhà máy xay. Cậu thợ xay lấy móc kéo lên, tưởng nhặt được kho báu. Mở ra thì thấy một em bé kháu khỉnh, khoẻ mạnh, đang mỉm cười. Vợ chồng bác thợ xay không có con, mừng lắm, nhận nuôi cậu bé như con ruột. Mười bốn năm sau, một hôm trời bão, vua ghé vào nhà máy xay trú mưa. Nghe kể chuyện chiếc hộp trôi, vua biết ngay đó chính là cậu bé năm xưa. Vua viết một bức thư gửi hoàng hậu, nhờ cậu mang đi. Trong thư dặn: hễ cậu bé đến thì nhốt ngay vào ngục tối, mãi mãi không cho ra.",
+      "subtitles": [
+        "Nhưng chiếc hộp không chìm, cứ trôi bồng bềnh như một con thuyền,",
+        "chẳng giọt nước nào lọt vào.",
+        "Hộp trôi đến bờ đập của một nhà máy xay.",
+        "Cậu thợ xay lấy móc kéo lên, tưởng nhặt được kho báu.",
+        "Mở ra thì thấy một em bé kháu khỉnh, khoẻ mạnh, đang mỉm cười.",
+        "Vợ chồng bác thợ xay không có con, mừng lắm, nhận nuôi cậu bé như con ruột.",
+        "Mười bốn năm sau, một hôm trời bão, vua ghé vào nhà máy xay trú mưa.",
+        "Nghe kể chuyện chiếc hộp trôi, vua biết ngay đó chính là cậu bé năm xưa.",
+        "Vua viết một bức thư gửi hoàng hậu, nhờ cậu mang đi.",
+        "Trong thư dặn: hễ cậu bé đến thì nhốt ngay vào ngục tối, mãi mãi không cho ra."
+      ],
+      "image": {
+        "prompt": "a cosy water mill by a stream, a kind miller and his wife smiling at a happy baby in a wooden box pulled from the water, the big mill wheel turning",
+        "seed": 3225484238,
+        "character": "cau-be-may-man"
+      },
+      "video": {
+        "motionPrompt": "the mill wheel turns and splashes, the miller's wife lifts the baby and cuddles him, sunlight sparkles on the water",
+        "seed": 128040939
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-cuop",
+      "title": "Bức thư bị đổi",
+      "narrator": "ke-chuyen",
+      "narration": "Cậu bé lên đường, nhưng lạc vào một khu rừng lớn. Trời tối, cậu thấy ánh đèn le lói của một túp lều. Trong lều có một bà cụ ngồi bên bếp lửa. Bà giật mình: \"Cháu ơi, đây là nhà bọn cướp đấy.\" \"Cháu không sợ đâu, cháu mệt quá rồi,\" cậu nói, rồi nằm lên ghế dài ngủ thiếp đi. Bọn cướp về, mở thư ra đọc. Thấy cậu bé ngây thơ sắp bị hại, chúng cũng thấy thương. Tên cầm đầu xé bức thư, viết thư khác: hễ cậu bé đến thì gả ngay công chúa cho cậu. Sáng hôm sau, chúng chỉ đường cho cậu. Hoàng hậu đọc thư, làm đúng như trong thư dặn. Đám cưới linh đình được tổ chức, công chúa và chàng trai sống bên nhau rất vui vẻ.",
+      "subtitles": [
+        "Cậu bé lên đường, nhưng lạc vào một khu rừng lớn.",
+        "Trời tối, cậu thấy ánh đèn le lói của một túp lều.",
+        "Trong lều có một bà cụ ngồi bên bếp lửa. Bà giật mình: \"Cháu ơi, đây là nhà bọn cướp đấy.\"",
+        "\"Cháu không sợ đâu, cháu mệt quá rồi,\" cậu nói, rồi nằm lên ghế dài ngủ thiếp đi.",
+        "Bọn cướp về, mở thư ra đọc. Thấy cậu bé ngây thơ sắp bị hại, chúng cũng thấy thương.",
+        "Tên cầm đầu xé bức thư, viết thư khác: hễ cậu bé đến thì gả ngay công chúa cho cậu.",
+        "Sáng hôm sau, chúng chỉ đường cho cậu. Hoàng hậu đọc thư, làm đúng như trong thư dặn.",
+        "Đám cưới linh đình được tổ chức, công chúa và chàng trai sống bên nhau rất vui vẻ."
+      ],
+      "image": {
+        "prompt": "inside a rough forest hut lit by a fire, a boy sleeping peacefully on a bench while a gruff robber chief with a soft expression writes a new letter, other robbers peeking over his shoulder",
+        "seed": 2021207418,
+        "character": "cau-be-may-man"
+      },
+      "video": {
+        "motionPrompt": "the fire flickers, the robber chief tears the old letter and scribbles a new one, the boy sleeps soundly, the old woman smiles",
+        "seed": 1041124797
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-cau-hoi",
+      "title": "Ba câu hỏi dọc đường",
+      "narrator": "ke-chuyen",
+      "narration": "Vua về, thấy lời tiên tri đã thành sự thật thì nổi giận: \"Muốn giữ con gái ta thì phải xuống tận nhà quỷ, lấy về cho ta ba sợi tóc vàng trên đầu quỷ!\" Vua mong cậu đi rồi không bao giờ quay lại. Nhưng cậu đáp: \"Con không sợ quỷ đâu.\" Đến thành thứ nhất, người gác cổng hỏi: \"Sao giếng ở chợ ngày trước chảy ra rượu nho, giờ khô cạn?\" Đến thành thứ hai: \"Sao cây táo ngày trước ra táo vàng, giờ đến lá cũng chẳng có?\" Đến bến sông, bác lái đò hỏi: \"Sao tôi phải chèo đò qua lại mãi, chẳng ai thay?\" Lần nào cậu cũng đáp: \"Bác chờ cháu về sẽ biết.\"",
+      "subtitles": [
+        "Vua về, thấy lời tiên tri đã thành sự thật thì nổi giận:",
+        "\"Muốn giữ con gái ta thì phải xuống tận nhà quỷ,",
+        "lấy về cho ta ba sợi tóc vàng trên đầu quỷ!\"",
+        "Vua mong cậu đi rồi không bao giờ quay lại. Nhưng cậu đáp: \"Con không sợ quỷ đâu.\"",
+        "Đến thành thứ nhất, người gác cổng hỏi:",
+        "\"Sao giếng ở chợ ngày trước chảy ra rượu nho, giờ khô cạn?\"",
+        "Đến thành thứ hai: \"Sao cây táo ngày trước ra táo vàng, giờ đến lá cũng chẳng có?\"",
+        "Đến bến sông, bác lái đò hỏi: \"Sao tôi phải chèo đò qua lại mãi, chẳng ai thay?\"",
+        "Lần nào cậu cũng đáp: \"Bác chờ cháu về sẽ biết.\""
+      ],
+      "image": {
+        "prompt": "the brave youth standing at the gate of a walled medieval town talking with an old gatekeeper, behind them a dry market fountain and a bare apple tree, a river ferry in the distance",
+        "seed": 1251929723,
+        "character": "cau-be-may-man"
+      },
+      "video": {
+        "motionPrompt": "the youth nods and points onward, the gatekeeper scratches his head, clouds drift across the sky, the ferry rocks gently on the far river",
+        "seed": 3524310452
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-cua-quy",
+      "title": "Bà của quỷ",
+      "narrator": "ke-chuyen",
+      "narration": "Qua sông, cậu đến cửa hang của quỷ, bên trong đen kịt muội khói. Quỷ đi vắng, chỉ có bà của quỷ ngồi trên chiếc ghế bành to. Bà trông chẳng dữ dằn gì. Nghe cậu kể, bà thương tình: \"Quỷ về mà thấy cháu thì nguy. Để bà giúp.\" Bà biến cậu thành một chú kiến tí hon, giấu vào nếp váy. Cậu nhắc bà ba câu hỏi về giếng rượu, cây táo và bác lái đò. Bà dặn: \"Cháu cứ nằm yên, nghe cho kỹ lời quỷ nói khi bà nhổ tóc nhé.\"",
+      "subtitles": [
+        "Qua sông, cậu đến cửa hang của quỷ, bên trong đen kịt muội khói.",
+        "Quỷ đi vắng, chỉ có bà của quỷ ngồi trên chiếc ghế bành to. Bà trông chẳng dữ dằn gì.",
+        "Nghe cậu kể, bà thương tình: \"Quỷ về mà thấy cháu thì nguy. Để bà giúp.\"",
+        "Bà biến cậu thành một chú kiến tí hon, giấu vào nếp váy.",
+        "Cậu nhắc bà ba câu hỏi về giếng rượu, cây táo và bác lái đò.",
+        "Bà dặn: \"Cháu cứ nằm yên, nghe cho kỹ lời quỷ nói khi bà nhổ tóc nhé.\""
+      ],
+      "image": {
+        "prompt": "a sooty underground cave warmly lit by a hearth fire, a kind old grandmother with tiny horns sitting in a huge armchair, holding out her skirt as a tiny ant crawls into its folds",
+        "seed": 99113374,
+        "character": "ba-cua-quy"
+      },
+      "video": {
+        "motionPrompt": "the hearth fire crackles, a shimmer of magic swirls as the youth shrinks into a tiny ant, the grandmother tucks the ant into her skirt and winks",
+        "seed": 2391216356
+      },
+      "voice": {}
+    },
+    {
+      "id": "nho-toc-vang",
+      "title": "Ba sợi tóc vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Tối đến, quỷ về, khịt mũi: \"Ta ngửi thấy mùi người lạ! Có gì không ổn rồi!\" Bà mắng: \"Bà vừa quét dọn xong, con lại bới tung lên. Ngồi xuống ăn tối đi.\" Ăn xong, quỷ gối đầu lên lòng bà ngủ ngáy khò khò. Bà nhổ sợi tóc vàng thứ nhất. \"Ối! Bà làm gì thế?\" \"Bà mơ thấy giếng rượu khô cạn, sao lại thế nhỉ?\" \"Có con cóc ngồi dưới hòn đá trong giếng. Bắt nó đi là rượu lại chảy.\" Bà nhổ sợi thứ hai: \"Bà mơ cây táo vàng chẳng ra lá.\" \"Có con chuột gặm rễ. Bắt nó đi là có táo vàng.\" Bà nhổ sợi thứ ba: \"Bà mơ bác lái đò chèo mãi chẳng ai thay.\" \"Đồ ngốc! Có ai sang đò thì dúi mái chèo vào tay người đó, thế là được tự do.\" Sáng ra quỷ đi vắng, bà trả lại hình người cho cậu, đưa cậu ba sợi tóc vàng.",
+      "subtitles": [
+        "Tối đến, quỷ về, khịt mũi: \"Ta ngửi thấy mùi người lạ! Có gì không ổn rồi!\"",
+        "Bà mắng: \"Bà vừa quét dọn xong, con lại bới tung lên. Ngồi xuống ăn tối đi.\"",
+        "Ăn xong, quỷ gối đầu lên lòng bà ngủ ngáy khò khò. Bà nhổ sợi tóc vàng thứ nhất.",
+        "\"Ối! Bà làm gì thế?\" \"Bà mơ thấy giếng rượu khô cạn, sao lại thế nhỉ?\"",
+        "\"Có con cóc ngồi dưới hòn đá trong giếng. Bắt nó đi là rượu lại chảy.\"",
+        "Bà nhổ sợi thứ hai: \"Bà mơ cây táo vàng chẳng ra lá.\"",
+        "\"Có con chuột gặm rễ. Bắt nó đi là có táo vàng.\"",
+        "Bà nhổ sợi thứ ba: \"Bà mơ bác lái đò chèo mãi chẳng ai thay.\"",
+        "\"Đồ ngốc! Có ai sang đò thì dúi mái chèo vào tay người đó, thế là được tự do.\"",
+        "Sáng ra quỷ đi vắng, bà trả lại hình người cho cậu, đưa cậu ba sợi tóc vàng."
+      ],
+      "image": {
+        "prompt": "a big sleepy comical devil snoring with his head on his grandmother's lap by the fire, the grandmother gently plucking a shining golden hair from his head, a tiny ant peeking out from her skirt",
+        "seed": 2565744359,
+        "character": "quy"
+      },
+      "video": {
+        "motionPrompt": "the devil snores and his belly rises and falls, the grandmother plucks a glowing golden hair, the devil twitches and grumbles, then dozes again",
+        "seed": 2606079225
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-nha",
+      "title": "Mang vàng về nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Đến bến sông, cậu bảo bác lái đò chở mình sang trước, rồi mới chỉ cách. Đến thành có cây táo, cậu bảo bắt con chuột gặm rễ đi. Người ta tạ ơn cậu hai con lừa chở đầy vàng. Đến thành có giếng khô, cậu bảo tìm con cóc dưới hòn đá bắt đi. Người ta lại tặng hai con lừa chở vàng. Về đến nhà, công chúa mừng rỡ. Vua thấy ba sợi tóc vàng và bốn con lừa chở vàng thì hài lòng lắm: \"Thôi được, con giữ lấy vợ. Nhưng con lấy đâu ra lắm vàng thế?\" \"Bên kia sông, vàng nằm đầy bờ thay cho cát. Cứ nhờ bác lái đò chở sang là lấy được.\"",
+      "subtitles": [
+        "Đến bến sông, cậu bảo bác lái đò chở mình sang trước, rồi mới chỉ cách.",
+        "Đến thành có cây táo, cậu bảo bắt con chuột gặm rễ đi.",
+        "Người ta tạ ơn cậu hai con lừa chở đầy vàng.",
+        "Đến thành có giếng khô, cậu bảo tìm con cóc dưới hòn đá bắt đi.",
+        "Người ta lại tặng hai con lừa chở vàng.",
+        "Về đến nhà, công chúa mừng rỡ.",
+        "Vua thấy ba sợi tóc vàng và bốn con lừa chở vàng thì hài lòng lắm:",
+        "\"Thôi được, con giữ lấy vợ. Nhưng con lấy đâu ra lắm vàng thế?\"",
+        "\"Bên kia sông, vàng nằm đầy bờ thay cho cát. Cứ nhờ bác lái đò chở sang là lấy được.\""
+      ],
+      "image": {
+        "prompt": "the happy youth returning to the castle leading four donkeys laden with sacks of gold, the princess running to greet him, the greedy king's eyes wide at the sight of the gold",
+        "seed": 1871358725,
+        "character": "cau-be-may-man"
+      },
+      "video": {
+        "motionPrompt": "the donkeys plod along with jingling sacks, the princess runs forward with open arms, the king rubs his hands greedily",
+        "seed": 2600693235
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-cheo-do",
+      "title": "Ông vua chèo đò",
+      "narrator": "ke-chuyen",
+      "narration": "Ông vua tham lam vội vã lên đường. Đến bến sông, vua vẫy bác lái đò chở sang. Sang đến bờ bên kia, bác lái đò dúi mái chèo vào tay vua, rồi nhảy lên bờ, thế là được tự do. Từ đó, ông vua tham lam phải chèo đò qua lại mãi, đó là hình phạt cho những điều xấu đã làm. Còn chàng trai may mắn và công chúa thì sống hạnh phúc bên nhau. Không biết giờ vua có còn chèo đò không nhỉ? Nếu còn, ấy là vì chưa ai cầm lấy mái chèo.",
+      "subtitles": [
+        "Ông vua tham lam vội vã lên đường. Đến bến sông, vua vẫy bác lái đò chở sang.",
+        "Sang đến bờ bên kia, bác lái đò dúi mái chèo vào tay vua,",
+        "rồi nhảy lên bờ, thế là được tự do.",
+        "Từ đó, ông vua tham lam phải chèo đò qua lại mãi,",
+        "đó là hình phạt cho những điều xấu đã làm.",
+        "Còn chàng trai may mắn và công chúa thì sống hạnh phúc bên nhau.",
+        "Không biết giờ vua có còn chèo đò không nhỉ? Nếu còn, ấy là vì chưa ai cầm lấy mái chèo."
+      ],
+      "image": {
+        "prompt": "a grumpy greedy king in his crown rowing a little wooden ferryboat across a wide misty river, the old ferryman happily walking away on the shore, comical ending",
+        "seed": 4282573251,
+        "character": "vua-doc-ac"
+      },
+      "video": {
+        "motionPrompt": "the king rows back and forth with a sulky face, the oar splashes, the freed ferryman waves cheerfully from the bank, mist drifts",
+        "seed": 1330154841
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "adventurous German fairy-tale music, woodwinds and strings with a hopeful heroic theme, a warm mysterious bassoon for the underground cave, a comical rowing rhythm at the end, instrumental, no vocals",
+    "durationSeconds": 180,
+    "seed": 158546535
+  }
+}

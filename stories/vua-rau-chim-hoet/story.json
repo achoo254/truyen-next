@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "slug": "vua-rau-chim-hoet",
+  "shelf": "world",
+  "title": "Vua râu chim hoét",
+  "summary": "Nàng công chúa kiêu kỳ chê bai mọi người cầu hôn, đặt cho một vị vua cái tên \"Râu chim hoét\" vì cằm hơi nhọn. Vua cha giận, gả nàng cho gã hát rong nghèo đầu tiên gõ cửa, và một bài học về lòng khiêm tốn bắt đầu. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"König Drosselbart\" (Kinder- und Hausmärchen, bản 1857), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; giữ nguyên cốt truyện, kể nhẹ nhàng cho cả nhà.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a grand royal hall, green forests, a small cottage and a busy market with clay pots, warm rose and golden tones, rounded friendly shapes, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cong-chua",
+      "name": "Nàng công chúa",
+      "seed": 3083066914,
+      "sheetPrompt": "a beautiful proud young princess from the Grimm tale, long dark curls, small golden tiara, pink silk gown, chin lifted with a slightly haughty but not mean expression, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "vua-rau-chim-hoet",
+      "name": "Vua râu chim hoét",
+      "seed": 1486383052,
+      "sheetPrompt": "King Thrushbeard from the Grimm tale, a kind handsome young king with a small pointed chin and short curly beard, warm eyes, blue royal coat with gold buttons and a simple crown, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "gay-hat-rong",
+      "name": "Gã hát rong",
+      "seed": 702871457,
+      "sheetPrompt": "a poor wandering minstrel from the Grimm tale, the same kind young man with a small pointed chin and short curly beard, patched brown cloak, floppy hat, carrying a fiddle, cheerful smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nang-cong-chua-kieu-ky",
+      "title": "Nàng công chúa kiêu kỳ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một nàng công chúa đẹp tuyệt trần nhưng kiêu kỳ, chẳng coi ai ra gì. Vua cha mở tiệc lớn, mời các vua và hoàng tử khắp nơi về cầu hôn. Họ đứng thành hàng dài, công chúa đi qua, chê từng người. Người béo, nàng bảo: \"Trông như cái thùng rượu!\" Người cao, nàng bảo: \"Gầy như cây sào!\" Người thấp, nàng bảo: \"Lùn như cái nấm!\" Đến một vị vua trẻ hiền lành có cái cằm hơi nhọn, nàng phá lên cười: \"Ôi, cằm như mỏ chim hoét!\" Từ đó, người ta gọi vị vua ấy là vua Râu chim hoét. Vua cha giận lắm, thề sẽ gả nàng cho người ăn xin đầu tiên tới gõ cửa.",
+      "subtitles": [
+        "Ngày xưa, có một nàng công chúa đẹp tuyệt trần nhưng kiêu kỳ, chẳng coi ai ra gì.",
+        "Vua cha mở tiệc lớn, mời các vua và hoàng tử khắp nơi về cầu hôn.",
+        "Họ đứng thành hàng dài, công chúa đi qua, chê từng người.",
+        "Người béo, nàng bảo: \"Trông như cái thùng rượu!\"",
+        "Người cao, nàng bảo: \"Gầy như cây sào!\" Người thấp, nàng bảo: \"Lùn như cái nấm!\"",
+        "Đến một vị vua trẻ hiền lành có cái cằm hơi nhọn, nàng phá lên cười: \"Ôi,",
+        "cằm như mỏ chim hoét!\" Từ đó, người ta gọi vị vua ấy là vua Râu chim hoét.",
+        "Vua cha giận lắm, thề sẽ gả nàng cho người ăn xin đầu tiên tới gõ cửa."
+      ],
+      "image": {
+        "prompt": "in a grand royal hall a proud princess walks past a row of suitors, laughing behind her hand at a kind young king with a small pointed chin, other suitors fat, tall and short looking embarrassed, her father the old king frowning, humorous scene",
+        "seed": 136951824,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the princess points and giggles, the suitors shuffle awkwardly, the old king crosses his arms, slow pan along the line of suitors",
+        "seed": 2397252895
+      },
+      "voice": {}
+    },
+    {
+      "id": "gay-hat-rong",
+      "title": "Gã hát rong",
+      "narrator": "ke-chuyen",
+      "narration": "Vài hôm sau, có gã hát rong nghèo đến đứng dưới cửa sổ kéo đàn xin tiền. Vua cho gọi vào, rồi bảo: \"Ngươi hát hay lắm. Ta gả con gái ta cho ngươi.\" Công chúa hoảng sợ, khóc lóc van xin, nhưng vua đã thề thì không rút lời. Đám cưới làm ngay hôm ấy, rồi nàng phải theo chồng ra đi. Qua một khu rừng lớn, nàng hỏi: \"Rừng đẹp này của ai thế?\" \"Của vua Râu chim hoét. Giá nàng lấy ông ấy thì giờ là của nàng.\" Qua đồng cỏ, qua thành phố đẹp, câu trả lời vẫn thế. Nàng thở dài: \"Giá mà ta đã lấy vua Râu chim hoét!\"",
+      "subtitles": [
+        "Vài hôm sau, có gã hát rong nghèo đến đứng dưới cửa sổ kéo đàn xin tiền.",
+        "Vua cho gọi vào, rồi bảo: \"Ngươi hát hay lắm.",
+        "Ta gả con gái ta cho ngươi.\"",
+        "Công chúa hoảng sợ, khóc lóc van xin, nhưng vua đã thề thì không rút lời.",
+        "Đám cưới làm ngay hôm ấy, rồi nàng phải theo chồng ra đi.",
+        "Qua một khu rừng lớn, nàng hỏi: \"Rừng đẹp này của ai thế?\"",
+        "\"Của vua Râu chim hoét. Giá nàng lấy ông ấy thì giờ là của nàng.\"",
+        "Qua đồng cỏ, qua thành phố đẹp, câu trả lời vẫn thế.",
+        "Nàng thở dài: \"Giá mà ta đã lấy vua Râu chim hoét!\""
+      ],
+      "image": {
+        "prompt": "a poor minstrel with a fiddle leads the sad princess in her silk gown along a road through a beautiful forest, green meadows and a fine town in the distance, she looks back wistfully, soft gentle light",
+        "seed": 1147364031,
+        "character": "gay-hat-rong"
+      },
+      "video": {
+        "motionPrompt": "the minstrel strolls and gestures at the forest, the princess sighs and lifts her skirt over a puddle, leaves flutter",
+        "seed": 3122862072
+      },
+      "voice": {}
+    },
+    {
+      "id": "can-nha-nho",
+      "title": "Căn nhà nhỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng, họ đến một túp lều bé xíu. \"Nhà của chúng ta đấy,\" gã hát rong bảo. \"Ở đây chẳng có người hầu đâu, nàng phải tự nhóm lửa, nấu cơm.\" Công chúa chẳng biết làm gì, chồng phải chỉ cho từng việc. Rồi chàng bảo nàng đan rổ, cành liễu cứa đau cả tay. Chàng bảo nàng quay sợi, sợi chỉ cứa ngón tay mềm. Chàng lắc đầu: \"Nàng chẳng làm được việc gì cả. Thôi thì ta buôn nồi niêu, nàng ra chợ ngồi bán nhé.\" Công chúa đỏ mặt, sợ người quen trông thấy, nhưng đành vâng lời.",
+      "subtitles": [
+        "Cuối cùng, họ đến một túp lều bé xíu. \"Nhà của chúng ta đấy,\" gã hát rong bảo.",
+        "\"Ở đây chẳng có người hầu đâu, nàng phải tự nhóm lửa, nấu cơm.\"",
+        "Công chúa chẳng biết làm gì, chồng phải chỉ cho từng việc.",
+        "Rồi chàng bảo nàng đan rổ, cành liễu cứa đau cả tay.",
+        "Chàng bảo nàng quay sợi, sợi chỉ cứa ngón tay mềm.",
+        "Chàng lắc đầu: \"Nàng chẳng làm được việc gì cả.",
+        "Thôi thì ta buôn nồi niêu, nàng ra chợ ngồi bán nhé.\"",
+        "Công chúa đỏ mặt, sợ người quen trông thấy, nhưng đành vâng lời."
+      ],
+      "image": {
+        "prompt": "inside a tiny humble cottage the princess, now in a simple dress, kneels to light a small fire with clumsy hands, the minstrel patiently shows her how, willow baskets and a spinning wheel nearby, warm soft light",
+        "seed": 2309456312,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the little fire flickers to life, the princess blows on it and coughs comically, the minstrel smiles, smoke curls gently",
+        "seed": 1324529734
+      },
+      "voice": {}
+    },
+    {
+      "id": "phien-cho-noi-nieu",
+      "title": "Phiên chợ nồi niêu",
+      "narrator": "ke-chuyen",
+      "narration": "Lần đầu ra chợ, nàng đẹp quá nên người ta mua nồi rất đông, có người trả tiền mà chẳng lấy nồi. Nhưng lần sau, nàng ngồi ngay đầu chợ. Bỗng một chàng lính phi ngựa ẩu lao tới, giẫm vỡ tan hết đống nồi. Nàng ngồi khóc: \"Ôi, chồng ta sẽ nói gì đây!\" Về nhà, gã hát rong bảo: \"Ai lại ngồi bán nồi đất ở đầu chợ! Thôi, ta đã xin cho nàng vào làm phụ bếp trong cung vua.\" Thế là nàng thành cô hầu bếp, làm việc vất vả. Nàng buộc hai cái hũ nhỏ trong túi áo, mang thức ăn thừa về cho hai vợ chồng.",
+      "subtitles": [
+        "Lần đầu ra chợ, nàng đẹp quá nên người ta mua nồi rất đông,",
+        "có người trả tiền mà chẳng lấy nồi. Nhưng lần sau, nàng ngồi ngay đầu chợ.",
+        "Bỗng một chàng lính phi ngựa ẩu lao tới, giẫm vỡ tan hết đống nồi.",
+        "Nàng ngồi khóc: \"Ôi, chồng ta sẽ nói gì đây!\"",
+        "Về nhà, gã hát rong bảo: \"Ai lại ngồi bán nồi đất ở đầu chợ!",
+        "Thôi, ta đã xin cho nàng vào làm phụ bếp trong cung vua.\"",
+        "Thế là nàng thành cô hầu bếp, làm việc vất vả.",
+        "Nàng buộc hai cái hũ nhỏ trong túi áo, mang thức ăn thừa về cho hai vợ chồng."
+      ],
+      "image": {
+        "prompt": "at a busy village market a soldier on horseback gallops past and scatters a pile of clay pots into shards, the princess in a plain dress sits beside them crying, market folk watching in surprise, gentle not frightening",
+        "seed": 1995133463,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "clay pots tumble and break with a clatter, the horse gallops away, the princess covers her face, dust settles slowly",
+        "seed": 1577331499
+      },
+      "voice": {}
+    },
+    {
+      "id": "buoi-tiec-trong-cung",
+      "title": "Buổi tiệc trong cung",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, trong cung mở tiệc mừng đám cưới của nhà vua. Cô hầu bếp đứng nép ở cửa nhìn vào, thấy cảnh lộng lẫy mà buồn cho thân mình, hối hận vì thói kiêu căng ngày trước. Bỗng nhà vua, áo nhung, dây chuyền vàng, bước tới nắm tay nàng mời nhảy. Nàng nhận ra đó chính là vua Râu chim hoét, sợ quá muốn chạy. Nàng giằng tay, hai cái hũ trong túi rơi xuống, xúp và thức ăn đổ tung toé ra sàn. Mọi người cười ồ lên. Nàng xấu hổ chạy ra cửa, nhưng nhà vua đuổi theo, kéo nàng lại.",
+      "subtitles": [
+        "Một hôm, trong cung mở tiệc mừng đám cưới của nhà vua.",
+        "Cô hầu bếp đứng nép ở cửa nhìn vào, thấy cảnh lộng lẫy mà buồn cho thân mình,",
+        "hối hận vì thói kiêu căng ngày trước.",
+        "Bỗng nhà vua, áo nhung, dây chuyền vàng, bước tới nắm tay nàng mời nhảy.",
+        "Nàng nhận ra đó chính là vua Râu chim hoét, sợ quá muốn chạy.",
+        "Nàng giằng tay, hai cái hũ trong túi rơi xuống, xúp và thức ăn đổ tung toé ra sàn.",
+        "Mọi người cười ồ lên. Nàng xấu hổ chạy ra cửa, nhưng nhà vua đuổi theo, kéo nàng lại."
+      ],
+      "image": {
+        "prompt": "a glittering royal ballroom, the kind young king in a velvet coat with a gold chain holds the hand of the princess in a plain kitchen maid dress, two little jars falling from her apron and spilling soup on the floor, guests laughing, comical gentle scene",
+        "seed": 34113815,
+        "character": "vua-rau-chim-hoet"
+      },
+      "video": {
+        "motionPrompt": "the jars tumble and splash soup, the guests burst out laughing, the princess turns to run, the king reaches out gently",
+        "seed": 4036525501
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc-khiem-ton",
+      "title": "Bài học khiêm tốn",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua dịu dàng nói: \"Đừng sợ. Ta và gã hát rong sống với nàng trong túp lều nhỏ là một người. Chàng lính phi ngựa giẫm vỡ nồi cũng là ta. Ta làm tất cả để chữa thói kiêu căng của nàng, và để trả lại nàng những lời chế giễu ngày xưa.\" Công chúa bật khóc: \"Em đã sai rồi. Em không xứng làm vợ chàng.\" Nhà vua cười: \"Những ngày khó khăn đã qua. Giờ ta làm đám cưới thật nào.\" Các thị nữ mặc cho nàng bộ váy đẹp nhất, vua cha cùng cả triều đình kéo tới chúc mừng. Từ đó, nàng công chúa sống hiền hòa, khiêm tốn, và hai người hạnh phúc bên nhau.",
+      "subtitles": [
+        "Nhà vua dịu dàng nói: \"Đừng sợ.",
+        "Ta và gã hát rong sống với nàng trong túp lều nhỏ là một người.",
+        "Chàng lính phi ngựa giẫm vỡ nồi cũng là ta. Ta làm tất cả để chữa thói kiêu căng của nàng,",
+        "và để trả lại nàng những lời chế giễu ngày xưa.\"",
+        "Công chúa bật khóc: \"Em đã sai rồi. Em không xứng làm vợ chàng.\"",
+        "Nhà vua cười: \"Những ngày khó khăn đã qua. Giờ ta làm đám cưới thật nào.\"",
+        "Các thị nữ mặc cho nàng bộ váy đẹp nhất, vua cha cùng cả triều đình kéo tới chúc mừng.",
+        "Từ đó, nàng công chúa sống hiền hòa, khiêm tốn, và hai người hạnh phúc bên nhau."
+      ],
+      "image": {
+        "prompt": "in the palace the princess now dressed in a beautiful wedding gown stands hand in hand with the kind young king, her father the old king blessing them, guests cheering, warm golden candlelight, joyful and tender",
+        "seed": 8948821,
+        "character": "vua-rau-chim-hoet"
+      },
+      "video": {
+        "motionPrompt": "the couple smile and bow, petals rain down softly, the old king raises his hands in blessing, slow pull-back",
+        "seed": 2877911073
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "graceful German fairy-tale music, solo fiddle melody like a wandering minstrel, harp and soft strings, a gentle waltz that grows warm and joyful, medium-slow tempo, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 810863669
+  }
+}

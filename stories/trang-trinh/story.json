@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "slug": "trang-trinh",
+  "shelf": "adults",
+  "title": "Trạng Trình Nguyễn Bỉnh Khiêm",
+  "summary": "Chưa đầy tuổi đã biết nói, lên bốn đã thuộc kinh truyện, Nguyễn Bỉnh Khiêm đỗ Trạng nguyên rồi lui về am Bạch Vân. Một câu nói về oản chùa, một câu về dải Hoành Sơn của ông đã định vận cho cả nhà Lê, họ Trịnh và chúa Nguyễn: giai thoại về Trạng Trình theo sách cổ.",
+  "themes": [
+    "su-tich",
+    "anh-hung"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Kể theo truyện Nguyễn Bỉnh Khiêm trong Nam Hải dị nhân liệt truyện (Phan Kế Bính, 1909; tác giả mất 1921), bản trên Wikisource, phạm vi công cộng. Lời kể viết mới, chỉ theo cốt truyện, không chép nguyên văn; điều thuộc truyền thuyết được kể là tương truyền.",
+  "basedOn": "Nam Hải dị nhân liệt truyện, truyện Nguyễn Bỉnh Khiêm",
+  "style": "classical Vietnamese ink and silk painting illustration, refined brush linework with soft washes of pale jade, ochre, ink black and faded vermilion on aged silk, sixteenth century Vietnam with river ferries, scholar's thatched hermitage, arched bridges, bonsai rock gardens and misty mountains, contemplative and wise mood for adult readers, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "binh-khiem",
+      "name": "Nguyễn Bỉnh Khiêm",
+      "sheetPrompt": "Nguyen Binh Khiem, a wise Vietnamese scholar of the sixteenth century in his later years, calm round face with a long white beard and gentle knowing eyes, hair in a topknot under a black scholar's cap, simple pale blue scholar robe, holding a walking staff, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 1059392890
+    },
+    {
+      "id": "nhu-thi",
+      "name": "Bà Nhữ Thị",
+      "sheetPrompt": "Lady Nhu, mother of Nguyen Binh Khiem, an elegant learned Vietnamese woman of the late fifteenth century, sharp intelligent eyes, black hair in a neat bun, dark brown ao tac robe with a jade pendant, holding a book, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 1774449161
+    },
+    {
+      "id": "van-dinh",
+      "name": "Nguyễn Văn Định",
+      "sheetPrompt": "Nguyen Van Dinh, father of Nguyen Binh Khiem, a kind-hearted Vietnamese country gentleman of the late fifteenth century, mild smiling face with a short beard, black turban and grey robe, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 2000684212
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-nhu-thi",
+      "title": "Người mẹ giỏi tướng số",
+      "narrator": "ke-chuyen",
+      "narration": "Nguyễn Bỉnh Khiêm, hiệu là Bạch Vân cư sĩ, người làng Trung Am, huyện Vĩnh Lại, đất Hải Dương. Mẹ ông là bà họ Nhữ, con gái quan thượng thư Nhữ Văn Lan. Bà thông kinh sử, giỏi văn chương, lại tinh nghề xem tướng. Bà kén chồng đến ngoài hai mươi tuổi, thấy ông Nguyễn Văn Định có tướng sinh quý tử mới chịu lấy. Về sau, có lần bà gặp một chàng trai trẻ đi qua bến Hàn, ngạc nhiên mà than rằng: Tiếc thay, khi trước không gặp người này! Hỏi ra, chàng ấy là Mạc Đăng Dung, người về sau lên làm vua nhà Mạc.",
+      "subtitles": [
+        "Nguyễn Bỉnh Khiêm, hiệu là Bạch Vân cư sĩ, người làng Trung Am, huyện Vĩnh Lại,",
+        "đất Hải Dương. Mẹ ông là bà họ Nhữ, con gái quan thượng thư Nhữ Văn Lan.",
+        "Bà thông kinh sử, giỏi văn chương, lại tinh nghề xem tướng.",
+        "Bà kén chồng đến ngoài hai mươi tuổi,",
+        "thấy ông Nguyễn Văn Định có tướng sinh quý tử mới chịu lấy.",
+        "Về sau, có lần bà gặp một chàng trai trẻ đi qua bến Hàn, ngạc nhiên mà than rằng:",
+        "Tiếc thay, khi trước không gặp người này!",
+        "Hỏi ra, chàng ấy là Mạc Đăng Dung, người về sau lên làm vua nhà Mạc."
+      ],
+      "image": {
+        "prompt": "a riverside ferry landing at Han river in late fifteenth century Vietnam, an elegant learned woman standing beneath a willow and watching a tall young man in plain clothes stepping off a ferry boat, her expression surprised and thoughtful",
+        "seed": 960439778,
+        "character": "nhu-thi"
+      },
+      "video": {
+        "motionPrompt": "the ferry boat bumps softly against the landing, the young man strides past, the woman turns her head to follow him, willow branches sway",
+        "seed": 3899044823
+      },
+      "voice": {}
+    },
+    {
+      "id": "than-dong",
+      "title": "Mặt trời mọc ở phương đông",
+      "narrator": "ke-chuyen",
+      "narration": "Nguyễn Bỉnh Khiêm sinh năm Tân Hợi, đời vua Lê Thánh Tông. Đứa trẻ to lớn, đẫy đà, mặt mũi khôi ngô, chưa đầy một tuổi đã biết nói. Một buổi sớm, ông Văn Định đang bế con trên tay ra ngắm cảnh, đứa bé bỗng cất tiếng: Mặt trời mọc về phương đông. Văn Định lấy làm kỳ lạ. Lên bốn tuổi, mẹ dạy kinh truyện, dạy đến đâu cậu bé thuộc lòng đến đấy. Bà còn dạy con thuộc mấy chục bài thơ Nôm.",
+      "subtitles": [
+        "Nguyễn Bỉnh Khiêm sinh năm Tân Hợi, đời vua Lê Thánh Tông.",
+        "Đứa trẻ to lớn, đẫy đà, mặt mũi khôi ngô, chưa đầy một tuổi đã biết nói.",
+        "Một buổi sớm, ông Văn Định đang bế con trên tay ra ngắm cảnh, đứa bé bỗng cất tiếng:",
+        "Mặt trời mọc về phương đông. Văn Định lấy làm kỳ lạ.",
+        "Lên bốn tuổi, mẹ dạy kinh truyện, dạy đến đâu cậu bé thuộc lòng đến đấy.",
+        "Bà còn dạy con thuộc mấy chục bài thơ Nôm."
+      ],
+      "image": {
+        "prompt": "a father holding a chubby baby boy at sunrise on a village path, the baby pointing toward the rising sun in the east, golden light over rice fields and bamboo, the father looking amazed",
+        "seed": 1015746359,
+        "character": "van-dinh"
+      },
+      "video": {
+        "motionPrompt": "the sun rises slowly over the fields, golden light spreads, the baby points, the father's face lights up in surprise",
+        "seed": 3861416094
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguyet-treo-cung",
+      "title": "Nguyệt treo cung",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm bà mẹ đi vắng, ông Văn Định cầm sợi dây đùa với con, ngâm chơi một câu: Nguyệt treo cung, nguyệt treo cung. Câu chưa dứt, đứa con đã đọc tiếp: Vén tay tiên hốt hốt rung. Văn Định mừng lắm, đợi vợ về liền khoe. Ngờ đâu bà giận mà rằng: Mặt trăng là phận bề tôi, sao ông lại dạy con điều ấy? Ý bà là con mình phải giữ đạo làm tôi, chớ có mộng làm vua. Văn Định xin lỗi, nhưng bà vẫn không nguôi giận, xin về nhà cha mẹ đẻ, nhất định không ở lại nữa.",
+      "subtitles": [
+        "Một hôm bà mẹ đi vắng, ông Văn Định cầm sợi dây đùa với con, ngâm chơi một câu:",
+        "Nguyệt treo cung, nguyệt treo cung.",
+        "Câu chưa dứt, đứa con đã đọc tiếp: Vén tay tiên hốt hốt rung.",
+        "Văn Định mừng lắm, đợi vợ về liền khoe.",
+        "Ngờ đâu bà giận mà rằng: Mặt trăng là phận bề tôi, sao ông lại dạy con điều ấy?",
+        "Ý bà là con mình phải giữ đạo làm tôi, chớ có mộng làm vua.",
+        "Văn Định xin lỗi, nhưng bà vẫn không nguôi giận, xin về nhà cha mẹ đẻ,",
+        "nhất định không ở lại nữa."
+      ],
+      "image": {
+        "prompt": "interior of a wooden country house at evening, the father laughing and dangling a string for his little son while a crescent moon shows through the window, then the mother returning with a stern displeased face",
+        "seed": 1014047722,
+        "character": "nhu-thi"
+      },
+      "video": {
+        "motionPrompt": "the father swings the string playfully, the boy reaches up, the crescent moon glows, the mother steps in and her face turns cold",
+        "seed": 1740062123
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoc-thai-at",
+      "title": "Thầy Lương Đắc Bằng",
+      "narrator": "ke-chuyen",
+      "narration": "Khi Bỉnh Khiêm còn để chỏm, tắm cùng lũ trẻ ở bến Hàn, có người đi thuyền qua trông thấy, nói rằng: Tiếc cho thằng bé này, da dày quá, chỉ làm được Trạng nguyên, tể tướng là cùng! Lớn lên, nghe tiếng bảng nhãn Lương Đắc Bằng giỏi chữ, ông vào tận Thanh Hóa xin theo học. Lương Đắc Bằng từng đi sứ nhà Minh, được người cùng họ trao cho cuốn Thái Ất thần kinh, nên rất tinh nghề lý số, việc gì cũng tính biết trước. Nguyễn Bỉnh Khiêm học được hết phép của thầy. Lúc sắp mất, Lương Đắc Bằng dặn ông về sau phải trông nom con mình là Lương Hữu Khánh.",
+      "subtitles": [
+        "Khi Bỉnh Khiêm còn để chỏm, tắm cùng lũ trẻ ở bến Hàn, có người đi thuyền qua trông thấy,",
+        "nói rằng: Tiếc cho thằng bé này, da dày quá, chỉ làm được Trạng nguyên, tể tướng là cùng!",
+        "Lớn lên, nghe tiếng bảng nhãn Lương Đắc Bằng giỏi chữ, ông vào tận Thanh Hóa xin theo học.",
+        "Lương Đắc Bằng từng đi sứ nhà Minh, được người cùng họ trao cho cuốn Thái Ất thần kinh,",
+        "nên rất tinh nghề lý số, việc gì cũng tính biết trước.",
+        "Nguyễn Bỉnh Khiêm học được hết phép của thầy.",
+        "Lúc sắp mất, Lương Đắc Bằng dặn ông về sau phải trông nom con mình là Lương Hữu Khánh."
+      ],
+      "image": {
+        "prompt": "a young scholar kneeling respectfully before an old master in a study in Thanh Hoa, an open ancient book of astrology with star charts between them, scrolls and an armillary sphere on the shelves",
+        "seed": 262398012,
+        "character": "binh-khiem"
+      },
+      "video": {
+        "motionPrompt": "the master turns a page of the star chart book and traces a line with his finger, candle light flickers, the student bows deeply",
+        "seed": 3046162204
+      },
+      "voice": {}
+    },
+    {
+      "id": "loan-lac",
+      "title": "Ở ẩn thời loạn",
+      "narrator": "ke-chuyen",
+      "narration": "Thời vua Lê Chiêu Tông, triều chính rối ren, các phe tranh quyền đánh nhau liên miên, trong đó có Mạc Đăng Dung. Nguyễn Bỉnh Khiêm ở ẩn, không cầu danh lợi. Ông tính số Thái Ất, biết rằng cơ nghiệp nhà Lê về sau sẽ được khôi phục. Đau lòng trước cảnh nồi da xáo thịt, ông làm thơ than rằng non sông chẳng phải buổi thanh bình, mà người ta đánh nhau đến nỗi xương chất thành núi, rồi tự nhủ thôi thì bên đầm say hát mà nhởn nhơ chơi.",
+      "subtitles": [
+        "Thời vua Lê Chiêu Tông, triều chính rối ren, các phe tranh quyền đánh nhau liên miên,",
+        "trong đó có Mạc Đăng Dung. Nguyễn Bỉnh Khiêm ở ẩn, không cầu danh lợi.",
+        "Ông tính số Thái Ất, biết rằng cơ nghiệp nhà Lê về sau sẽ được khôi phục.",
+        "Đau lòng trước cảnh nồi da xáo thịt,",
+        "ông làm thơ than rằng non sông chẳng phải buổi thanh bình,",
+        "mà người ta đánh nhau đến nỗi xương chất thành núi,",
+        "rồi tự nhủ thôi thì bên đầm say hát mà nhởn nhơ chơi."
+      ],
+      "image": {
+        "prompt": "a scholar sitting alone in a small boat on a quiet marsh at dusk, writing poetry with a brush, smoke from distant battles rising over the horizon, reeds and herons around him",
+        "seed": 3144988264,
+        "character": "binh-khiem"
+      },
+      "video": {
+        "motionPrompt": "the boat drifts slowly among the reeds, a heron takes off, distant smoke drifts on the horizon, the scholar pauses with his brush raised",
+        "seed": 3626887382
+      },
+      "voice": {}
+    },
+    {
+      "id": "do-trang",
+      "title": "Đỗ Trạng nguyên",
+      "narrator": "ke-chuyen",
+      "narration": "Về sau nhà Mạc chiếm giữ kinh thành, bốn phương tạm yên, bạn bè nhiều người khuyên ông ra làm quan. Bất đắc dĩ, ông đi thi và đỗ Trạng nguyên năm Đại Chính thứ sáu nhà Mạc, khi ấy đã bốn mươi bốn tuổi. Vua Mạc cho ông làm tả thị lang, đông các đại học sĩ. Làm quan được tám năm, ông dâng sớ hạch tội mười tám tên lộng thần. Nhân người con rể là Phạm Dao cũng kiêu ngạo hống hách, ông sợ vạ lây, bèn từ quan về quê dưỡng lão.",
+      "subtitles": [
+        "Về sau nhà Mạc chiếm giữ kinh thành, bốn phương tạm yên,",
+        "bạn bè nhiều người khuyên ông ra làm quan.",
+        "Bất đắc dĩ, ông đi thi và đỗ Trạng nguyên năm Đại Chính thứ sáu nhà Mạc,",
+        "khi ấy đã bốn mươi bốn tuổi. Vua Mạc cho ông làm tả thị lang, đông các đại học sĩ.",
+        "Làm quan được tám năm, ông dâng sớ hạch tội mười tám tên lộng thần.",
+        "Nhân người con rể là Phạm Dao cũng kiêu ngạo hống hách, ông sợ vạ lây,",
+        "bèn từ quan về quê dưỡng lão."
+      ],
+      "image": {
+        "prompt": "an imperial examination hall of the Mac dynasty, the middle aged scholar Nguyen Binh Khiem in red laureate robes being honoured as top laureate, officials reading his name from a scroll, banners and crowds",
+        "seed": 480666038,
+        "character": "binh-khiem"
+      },
+      "video": {
+        "motionPrompt": "the scroll is unrolled, officials bow, drums sound, the scholar receives the honour calmly with a slight bow",
+        "seed": 3860276412
+      },
+      "voice": {}
+    },
+    {
+      "id": "am-bach-van",
+      "title": "Am Bạch Vân",
+      "narrator": "ke-chuyen",
+      "narration": "Về làng, ông dựng một cái am để nghỉ mát, đặt tên là am Bạch Vân, bắc hai cây cầu Nghênh Phong và Trường Xuân, lại dựng quán Trung Tân bên bến sông Tuyết Giang. Khi thì ông bơi thuyền chơi ở các cửa biển, khi thì cùng mấy nhà sư lên núi. Đi đến đâu ông làm thơ đến đấy. Gặp chỗ cây cối mát mẻ, chim kêu ríu rít, ông thảnh thơi suốt ngày. Tuy vậy, vua Mạc vẫn trọng ông, việc nước có điều gì lớn đều sai sứ đến tận nhà hỏi. Nhà Mạc phong ông làm Trình quốc công, vì thế người đời gọi ông là Trạng Trình.",
+      "subtitles": [
+        "Về làng, ông dựng một cái am để nghỉ mát, đặt tên là am Bạch Vân,",
+        "bắc hai cây cầu Nghênh Phong và Trường Xuân,",
+        "lại dựng quán Trung Tân bên bến sông Tuyết Giang.",
+        "Khi thì ông bơi thuyền chơi ở các cửa biển, khi thì cùng mấy nhà sư lên núi.",
+        "Đi đến đâu ông làm thơ đến đấy.",
+        "Gặp chỗ cây cối mát mẻ, chim kêu ríu rít, ông thảnh thơi suốt ngày.",
+        "Tuy vậy, vua Mạc vẫn trọng ông, việc nước có điều gì lớn đều sai sứ đến tận nhà hỏi.",
+        "Nhà Mạc phong ông làm Trình quốc công, vì thế người đời gọi ông là Trạng Trình."
+      ],
+      "image": {
+        "prompt": "a small thatched hermitage called White Cloud beside a river, two little arched wooden bridges, an elderly scholar with a long beard writing poetry on the veranda, birds in flowering trees, a royal envoy approaching respectfully along the path",
+        "seed": 3848191339,
+        "character": "binh-khiem"
+      },
+      "video": {
+        "motionPrompt": "birds flutter between the branches, the river flows softly under the bridges, the old scholar lifts his brush, the envoy bows at the gate",
+        "seed": 379413844
+      },
+      "voice": {}
+    },
+    {
+      "id": "bui-sinh",
+      "title": "Người học trò nghèo",
+      "narrator": "ke-chuyen",
+      "narration": "Ông có người học trò tên là Bùi Sinh. Ông từng bảo Bùi Sinh về sau tất phú quý. Đến khi gần bảy mươi tuổi mà Bùi Sinh vẫn nghèo, cho là thầy đoán sai. Ông chỉ cười. Một hôm, ông dặn Bùi Sinh mượn mười chiếc thuyền đánh cá, bơi ra bến Hồng Đàm ngoài biển, đến đúng giờ đã định, gặp cái gì thì đem về. Bùi Sinh vâng lời, quả gặp một bà cụ áo mũ chỉnh tề trên chiếc thuyền bị bão thổi dạt đến. Ông đem về phụng dưỡng như mẹ. Ít hôm sau, quan tổng đốc Quảng Đông sai người sang nhờ tìm thái phu nhân bị bão cuốn đi. Bùi Sinh đem bà cụ dâng lên, được phong tước quận công.",
+      "subtitles": [
+        "Ông có người học trò tên là Bùi Sinh. Ông từng bảo Bùi Sinh về sau tất phú quý.",
+        "Đến khi gần bảy mươi tuổi mà Bùi Sinh vẫn nghèo, cho là thầy đoán sai.",
+        "Ông chỉ cười.",
+        "Một hôm, ông dặn Bùi Sinh mượn mười chiếc thuyền đánh cá, bơi ra bến Hồng Đàm ngoài biển,",
+        "đến đúng giờ đã định, gặp cái gì thì đem về.",
+        "Bùi Sinh vâng lời, quả gặp một bà cụ áo mũ chỉnh tề trên chiếc thuyền bị bão thổi dạt đến.",
+        "Ông đem về phụng dưỡng như mẹ.",
+        "Ít hôm sau, quan tổng đốc Quảng Đông sai người sang nhờ tìm thái phu nhân bị bão cuốn đi.",
+        "Bùi Sinh đem bà cụ dâng lên, được phong tước quận công."
+      ],
+      "image": {
+        "prompt": "ten small fishing boats on a grey sea after a storm, an elderly scholar-fisherman in one boat reaching out to help a dignified old Chinese noblewoman in fine robes from a battered drifting boat",
+        "seed": 846148835
+      },
+      "video": {
+        "motionPrompt": "waves roll heavily, the fishing boats close in, hands reach out and the old lady is helped across, clouds part slowly",
+        "seed": 2579572875
+      },
+      "voice": {}
+    },
+    {
+      "id": "giu-chua-an-oan",
+      "title": "Giữ chùa thờ Phật thì ăn oản",
+      "narrator": "ke-chuyen",
+      "narration": "Năm vua Lê Trung Tông mất mà không có con, Trịnh Kiểm đang cầm quyền, lòng hồ nghi, không biết nên làm thế nào. Ông sai người lén ra Hải Dương hỏi Trạng Trình. Ông không nói gì với sứ giả, chỉ ngoảnh lại bảo đầy tớ rằng: Năm nay mất mùa, thóc giống không tốt, chúng mày nên tìm giống cũ mà gieo mạ. Rồi ông sai chú tiểu quét chùa đốt hương, và bảo rằng: Giữ chùa thờ Phật thì ăn oản. Sứ giả về thuật lại, Trịnh Kiểm hiểu ý: phải tìm dòng dõi nhà Lê mà lập lên, giữ phận bề tôi thì mới được hưởng lộc. Trịnh Kiểm bèn đón vua Lê Anh Tông về lập, quả nhiên cơ nghiệp nhà Lê được giữ, mà họ Trịnh cũng đời đời vinh hiển.",
+      "subtitles": [
+        "Năm vua Lê Trung Tông mất mà không có con, Trịnh Kiểm đang cầm quyền, lòng hồ nghi,",
+        "không biết nên làm thế nào. Ông sai người lén ra Hải Dương hỏi Trạng Trình.",
+        "Ông không nói gì với sứ giả, chỉ ngoảnh lại bảo đầy tớ rằng: Năm nay mất mùa,",
+        "thóc giống không tốt, chúng mày nên tìm giống cũ mà gieo mạ.",
+        "Rồi ông sai chú tiểu quét chùa đốt hương, và bảo rằng: Giữ chùa thờ Phật thì ăn oản.",
+        "Sứ giả về thuật lại, Trịnh Kiểm hiểu ý: phải tìm dòng dõi nhà Lê mà lập lên,",
+        "giữ phận bề tôi thì mới được hưởng lộc.",
+        "Trịnh Kiểm bèn đón vua Lê Anh Tông về lập, quả nhiên cơ nghiệp nhà Lê được giữ,",
+        "mà họ Trịnh cũng đời đời vinh hiển."
+      ],
+      "image": {
+        "prompt": "an old scholar in a village pagoda courtyard speaking to a servant holding rice seedlings, a young novice monk sweeping and lighting incense before the Buddha, a secret envoy listening intently by the gate",
+        "seed": 2035093364,
+        "character": "binh-khiem"
+      },
+      "video": {
+        "motionPrompt": "the novice sweeps and lights incense, smoke rises, the old man gestures toward the seedlings, the envoy's eyes widen as he understands",
+        "seed": 3076003229
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoanh-son",
+      "title": "Một dải Hoành Sơn",
+      "narrator": "ke-chuyen",
+      "narration": "Bấy giờ Nguyễn Hoàng có hiềm khích với Trịnh Kiểm, sợ bị hãm hại, cũng sai người đến hỏi kế. Trạng Trình đang chống gậy dạo trong vườn cảnh, nơi có mấy chục hòn non bộ xếp thành một dãy núi ngang, trên có đàn kiến đang bò. Ông nhìn đàn kiến, mỉm cười mà nói: Hoành Sơn nhất đái, vạn đại dung thân. Nghĩa là một dải núi Ngang kia có thể dung thân muôn đời. Nguyễn Hoàng hiểu ý, xin vào trấn thủ đất Thuận Hóa ở phía nam dãy Hoành Sơn. Quả nhiên cơ nghiệp họ Nguyễn mỗi ngày một thịnh, mở ra cả một phương trời phương Nam.",
+      "subtitles": [
+        "Bấy giờ Nguyễn Hoàng có hiềm khích với Trịnh Kiểm, sợ bị hãm hại,",
+        "cũng sai người đến hỏi kế. Trạng Trình đang chống gậy dạo trong vườn cảnh,",
+        "nơi có mấy chục hòn non bộ xếp thành một dãy núi ngang, trên có đàn kiến đang bò.",
+        "Ông nhìn đàn kiến, mỉm cười mà nói: Hoành Sơn nhất đái, vạn đại dung thân.",
+        "Nghĩa là một dải núi Ngang kia có thể dung thân muôn đời.",
+        "Nguyễn Hoàng hiểu ý, xin vào trấn thủ đất Thuận Hóa ở phía nam dãy Hoành Sơn.",
+        "Quả nhiên cơ nghiệp họ Nguyễn mỗi ngày một thịnh, mở ra cả một phương trời phương Nam."
+      ],
+      "image": {
+        "prompt": "an old scholar with a walking staff in his garden of miniature rock mountains arranged like a horizontal range, a line of ants climbing over the little peaks, the old man smiling, a messenger bowing beside him",
+        "seed": 1977176481,
+        "character": "binh-khiem"
+      },
+      "video": {
+        "motionPrompt": "the ants march steadily across the miniature mountains, the old man leans on his staff and smiles, the messenger bows and backs away",
+        "seed": 1038754795
+      },
+      "voice": {}
+    },
+    {
+      "id": "ga-gay",
+      "title": "Gà đã gáy rồi",
+      "narrator": "ke-chuyen",
+      "narration": "Học trò của ông rất đông, trong đó Phùng Khắc Khoan, Lương Hữu Khánh, Nguyễn Dữ đều làm nên danh vọng. Khi Phùng Khắc Khoan học đã giỏi, một đêm ông đến gõ cửa nhà trọ của học trò, nói: Gà đã gáy rồi, sao không dậy thổi cơm ăn, còn nằm mãi đấy ư? Khắc Khoan hiểu ý thầy giục mình vào Thanh Hóa giúp nhà Lê, bèn lên đường. Lúc ông lâm bệnh, vua Mạc sai sứ đến hỏi việc về sau. Ông bảo: Ngày sau nước có biến, đất Cao Bằng tuy nhỏ cũng giữ được vài đời. Về sau nhà Mạc mất kinh thành, chạy lên Cao Bằng, quả giữ thêm được mấy đời nữa.",
+      "subtitles": [
+        "Học trò của ông rất đông, trong đó Phùng Khắc Khoan, Lương Hữu Khánh,",
+        "Nguyễn Dữ đều làm nên danh vọng.",
+        "Khi Phùng Khắc Khoan học đã giỏi, một đêm ông đến gõ cửa nhà trọ của học trò, nói:",
+        "Gà đã gáy rồi, sao không dậy thổi cơm ăn, còn nằm mãi đấy ư?",
+        "Khắc Khoan hiểu ý thầy giục mình vào Thanh Hóa giúp nhà Lê, bèn lên đường.",
+        "Lúc ông lâm bệnh, vua Mạc sai sứ đến hỏi việc về sau.",
+        "Ông bảo: Ngày sau nước có biến, đất Cao Bằng tuy nhỏ cũng giữ được vài đời.",
+        "Về sau nhà Mạc mất kinh thành, chạy lên Cao Bằng, quả giữ thêm được mấy đời nữa."
+      ],
+      "image": {
+        "prompt": "night in a village, an old scholar knocking on the wooden door of a student's lodging under the stars, a rooster on the fence, inside a young scholar sitting up from his mat with a look of sudden understanding",
+        "seed": 1746776010,
+        "character": "binh-khiem"
+      },
+      "video": {
+        "motionPrompt": "the old man knocks gently, the rooster ruffles its feathers, a lamp is lit inside, the young scholar rises quickly",
+        "seed": 3109574422
+      },
+      "voice": {}
+    },
+    {
+      "id": "tuyet-giang-phu-tu",
+      "title": "Tuyết Giang phu tử",
+      "narrator": "ke-chuyen",
+      "narration": "Nguyễn Bỉnh Khiêm mất ngày hai mươi tám tháng mười một năm Ất Dậu, thọ chín mươi lăm tuổi. Học trò tôn ông là Tuyết Giang phu tử. Ông tính tình điềm đạm, ít nói, nhưng đã nói câu nào thì câu ấy đích đáng. Ông để lại tập thơ Bạch Vân và những lời sấm ký mà người đời sau còn truyền tụng. Dân làng nhớ ơn đức ông, lập đền thờ ngay trên nền nhà cũ, bốn mùa hương khói không dứt.",
+      "subtitles": [
+        "Nguyễn Bỉnh Khiêm mất ngày hai mươi tám tháng mười một năm Ất Dậu, thọ chín mươi lăm tuổi.",
+        "Học trò tôn ông là Tuyết Giang phu tử.",
+        "Ông tính tình điềm đạm, ít nói, nhưng đã nói câu nào thì câu ấy đích đáng.",
+        "Ông để lại tập thơ Bạch Vân và những lời sấm ký mà người đời sau còn truyền tụng.",
+        "Dân làng nhớ ơn đức ông, lập đền thờ ngay trên nền nhà cũ, bốn mùa hương khói không dứt."
+      ],
+      "image": {
+        "prompt": "a quiet village temple on the site of an old scholar's house beside the Tuyet river, villagers offering incense before an altar with a portrait of the white bearded sage, autumn trees and the river in soft evening light",
+        "seed": 2450022858,
+        "character": "binh-khiem"
+      },
+      "video": {
+        "motionPrompt": "incense smoke curls before the portrait, leaves drift down onto the river, villagers bow slowly, the evening light fades gently",
+        "seed": 882561919
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "contemplative Vietnamese traditional instrumental, dan tranh zither and dan bau over a soft temple bell, gentle bamboo flute, flowing like a river under a scholar's hermitage, slow peaceful tempo, no vocals",
+    "durationSeconds": 170,
+    "seed": 1487454392
+  }
+}

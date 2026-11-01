@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "slug": "chang-tho-xay-va-con-meo",
+  "shelf": "world",
+  "title": "Chàng thợ xay nghèo và con mèo",
+  "summary": "Bị hai anh thợ xay bỏ rơi trong hang, chàng Hans hiền lành gặp một cô mèo vằn biết nói, hứa tặng con ngựa đẹp nhất nếu chàng chịu làm việc cho cô bảy năm. Lâu đài mèo, rìu bạc, đá mài vàng và một bất ngờ lớn đang chờ chàng. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der arme Müllerbursch und das Kätzchen\" (Kinder- und Hausmärchen, bản 1857), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; giữ nguyên cốt truyện, kể nhẹ nhàng cho cả nhà.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, an old water mill by a stream and an enchanted castle full of friendly cats, silver tools and golden light, rounded friendly playful shapes, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hans",
+      "name": "Hans",
+      "seed": 3053773084,
+      "sheetPrompt": "Hans the poor miller's boy from the Grimm tale, a gentle honest young lad, messy straw-colored hair dusted with flour, small worn grey smock that is too tight, patched trousers, shy smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "co-meo-van",
+      "name": "Cô mèo vằn",
+      "seed": 883390283,
+      "sheetPrompt": "a small elegant tabby cat from the Grimm tale who walks on two legs, orange and brown stripes, bright green eyes, a tiny golden crown and a little red velvet cape, kind and clever expression, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-chu-coi",
+      "name": "Ông chủ cối xay",
+      "seed": 3162795207,
+      "sheetPrompt": "an old German miller from the Grimm tale, round belly, white beard and flour-dusted cap, brown waistcoat, leaning on a cane, grumpy but harmless, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-chang-tho-xay",
+      "title": "Ba chàng thợ xay",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, trong một cối xay nước có ông chủ già không vợ không con, và ba chàng thợ phụ. Một hôm ông bảo: \"Ta già rồi, muốn ngồi bên lò sưởi nghỉ ngơi. Các con đi đi, ai mang về con ngựa đẹp nhất, ta sẽ giao cối xay cho người ấy, miễn là chăm sóc ta lúc tuổi già.\" Người thứ ba là Hans, chuyên làm việc nặng, bị hai anh kia coi là ngốc. Hai anh cười: \"Mày ở nhà cho xong, cả đời cũng chẳng kiếm nổi con ngựa.\" Nhưng Hans vẫn đi theo. Tối đến, ba người ngủ trong một hang đá. Chờ Hans ngủ say, hai anh lén dậy bỏ đi, còn nghĩ mình khôn lắm.",
+      "subtitles": [
+        "Ngày xưa, trong một cối xay nước có ông chủ già không vợ không con, và ba chàng thợ phụ.",
+        "Một hôm ông bảo: \"Ta già rồi, muốn ngồi bên lò sưởi nghỉ ngơi.",
+        "Các con đi đi, ai mang về con ngựa đẹp nhất, ta sẽ giao cối xay cho người ấy,",
+        "miễn là chăm sóc ta lúc tuổi già.\"",
+        "Người thứ ba là Hans, chuyên làm việc nặng, bị hai anh kia coi là ngốc.",
+        "Hai anh cười: \"Mày ở nhà cho xong, cả đời cũng chẳng kiếm nổi con ngựa.\"",
+        "Nhưng Hans vẫn đi theo. Tối đến, ba người ngủ trong một hang đá.",
+        "Chờ Hans ngủ say, hai anh lén dậy bỏ đi, còn nghĩ mình khôn lắm."
+      ],
+      "image": {
+        "prompt": "an old wooden water mill by a stream, the old miller sits on a bench talking to three young apprentices, two of them smirking at the third, gentle Hans, who stands holding his cap, soft morning light",
+        "seed": 2632990303,
+        "character": "ong-chu-coi"
+      },
+      "video": {
+        "motionPrompt": "the mill wheel turns and water splashes, the two apprentices nudge each other and laugh, Hans nods humbly, slow push-in",
+        "seed": 2005594393
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-meo-van",
+      "title": "Cô mèo vằn",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng ra, Hans tỉnh dậy thấy mình nằm một mình trong hang sâu. Chàng leo ra ngoài, đi vào rừng, buồn bã nghĩ: \"Giờ chỉ còn mình ta, biết lấy ngựa ở đâu?\" Đang đi thì chàng gặp một cô mèo vằn nhỏ. Mèo hỏi rất hiền: \"Hans ơi, anh đi đâu thế?\" \"Ôi, cô chẳng giúp được tôi đâu.\" \"Tôi biết anh mong gì rồi,\" mèo nói. \"Anh muốn có một con ngựa đẹp. Hãy theo tôi, làm việc cho tôi bảy năm, tôi sẽ tặng anh con ngựa đẹp nhất mà anh từng thấy.\" Hans nghĩ: \"Con mèo này lạ thật, nhưng cứ thử xem sao.\"",
+      "subtitles": [
+        "Sáng ra, Hans tỉnh dậy thấy mình nằm một mình trong hang sâu.",
+        "Chàng leo ra ngoài, đi vào rừng, buồn bã nghĩ: \"Giờ chỉ còn mình ta, biết lấy ngựa ở đâu?\"",
+        "Đang đi thì chàng gặp một cô mèo vằn nhỏ. Mèo hỏi rất hiền: \"Hans ơi, anh đi đâu thế?\"",
+        "\"Ôi, cô chẳng giúp được tôi đâu.\" \"Tôi biết anh mong gì rồi,\" mèo nói.",
+        "\"Anh muốn có một con ngựa đẹp. Hãy theo tôi, làm việc cho tôi bảy năm,",
+        "tôi sẽ tặng anh con ngựa đẹp nhất mà anh từng thấy.\"",
+        "Hans nghĩ: \"Con mèo này lạ thật, nhưng cứ thử xem sao.\""
+      ],
+      "image": {
+        "prompt": "in a sunny green forest a small tabby cat standing on two legs talks kindly to Hans, who kneels down to listen with surprise, mushrooms and ferns around, warm dappled light",
+        "seed": 721045795,
+        "character": "co-meo-van"
+      },
+      "video": {
+        "motionPrompt": "the cat flicks her tail and points down the path, Hans scratches his head and smiles, leaves flutter gently",
+        "seed": 651054560
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-meo",
+      "title": "Lâu đài mèo",
+      "narrator": "ke-chuyen",
+      "narration": "Mèo dẫn Hans về lâu đài phép của mình, nơi chỉ toàn là mèo hầu hạ. Chúng nhảy lên nhảy xuống cầu thang, vui vẻ suốt ngày. Bữa tối, ba chú mèo chơi nhạc, một chú thổi kèn fagốt, một chú kéo vĩ cầm, một chú phồng má thổi kèn trumpet. Ăn xong, mèo vằn bảo: \"Hans, lại đây nhảy với tôi nào.\" \"Không đâu, tôi chưa nhảy với mèo bao giờ.\" \"Vậy đưa anh ấy đi ngủ,\" mèo bảo. Một chú mèo soi đèn, một chú cởi giày, một chú cởi tất, rồi một chú thổi tắt nến. Sáng ra, chúng lại giúp chàng mặc đồ, có chú còn lấy đuôi lau mặt cho chàng. Hans cười: \"Mềm quá!\"",
+      "subtitles": [
+        "Mèo dẫn Hans về lâu đài phép của mình, nơi chỉ toàn là mèo hầu hạ.",
+        "Chúng nhảy lên nhảy xuống cầu thang, vui vẻ suốt ngày.",
+        "Bữa tối, ba chú mèo chơi nhạc, một chú thổi kèn fagốt, một chú kéo vĩ cầm,",
+        "một chú phồng má thổi kèn trumpet. Ăn xong, mèo vằn bảo: \"Hans, lại đây nhảy với tôi nào.\"",
+        "\"Không đâu, tôi chưa nhảy với mèo bao giờ.\" \"Vậy đưa anh ấy đi ngủ,\" mèo bảo.",
+        "Một chú mèo soi đèn, một chú cởi giày, một chú cởi tất, rồi một chú thổi tắt nến.",
+        "Sáng ra, chúng lại giúp chàng mặc đồ, có chú còn lấy đuôi lau mặt cho chàng.",
+        "Hans cười: \"Mềm quá!\""
+      ],
+      "image": {
+        "prompt": "a cosy enchanted castle dining hall full of cheerful cats, three cats playing a bassoon, a fiddle and a trumpet, Hans at the table laughing, the tabby cat in her little crown at the head of the table, candlelight",
+        "seed": 3393767737,
+        "character": "hans"
+      },
+      "video": {
+        "motionPrompt": "the cat musicians play and sway, a cat puffs out its cheeks on the trumpet, other cats dance around, playful lively motion",
+        "seed": 2069413560
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-nam-lam-viec",
+      "title": "Bảy năm làm việc",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày nào Hans cũng bổ củi cho mèo bằng chiếc rìu bạc, nêm bạc, cưa bạc và vồ đồng. Chàng được ăn ngon, ngủ yên, nhưng chẳng gặp ai ngoài mèo vằn và đám mèo hầu. Một lần mèo bảo chàng đi cắt cỏ, đưa cho chàng lưỡi hái bạc và đá mài vàng, dặn phải trả lại cẩn thận. Hans làm xong, mang trả đủ cả. Rồi mèo lại bảo: \"Anh dựng cho tôi một ngôi nhà nhỏ bằng gỗ bạc này nhé.\" Hans dựng xong nhà. Bảy năm trôi qua nhanh như sáu tháng. Mèo mở cửa ngôi nhà nhỏ, bên trong là mười hai con ngựa sáng bóng, đẹp đến nỗi Hans sướng rơn cả người.",
+      "subtitles": [
+        "Ngày nào Hans cũng bổ củi cho mèo bằng chiếc rìu bạc, nêm bạc, cưa bạc và vồ đồng.",
+        "Chàng được ăn ngon, ngủ yên, nhưng chẳng gặp ai ngoài mèo vằn và đám mèo hầu.",
+        "Một lần mèo bảo chàng đi cắt cỏ, đưa cho chàng lưỡi hái bạc và đá mài vàng,",
+        "dặn phải trả lại cẩn thận. Hans làm xong, mang trả đủ cả.",
+        "Rồi mèo lại bảo: \"Anh dựng cho tôi một ngôi nhà nhỏ bằng gỗ bạc này nhé.\"",
+        "Hans dựng xong nhà. Bảy năm trôi qua nhanh như sáu tháng.",
+        "Mèo mở cửa ngôi nhà nhỏ, bên trong là mười hai con ngựa sáng bóng,",
+        "đẹp đến nỗi Hans sướng rơn cả người."
+      ],
+      "image": {
+        "prompt": "Hans happily mows a flowery meadow with a shining silver scythe, a golden whetstone at his belt, beside him a small house made of silver timber, and through its open door twelve gleaming beautiful horses, bright magical light",
+        "seed": 3754516642,
+        "character": "hans"
+      },
+      "video": {
+        "motionPrompt": "the silver scythe sweeps through the grass, the silver house door swings open, the horses toss their shining manes",
+        "seed": 529864581
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-coi-xay",
+      "title": "Về cối xay",
+      "narrator": "ke-chuyen",
+      "narration": "Mèo bảo: \"Anh về trước đi, ba ngày nữa tôi sẽ mang ngựa tới.\" Hans lên đường, vẫn mặc chiếc áo cũ đã chật cứng sau bảy năm. Về tới nơi, hai anh kia cũng đã về, mỗi người dắt một con ngựa, nhưng một con thì mù, một con thì què. \"Ngựa của mày đâu, thằng ngốc?\" \"Ba ngày nữa nó sẽ tới.\" Cả hai cười phá lên. Ông chủ chê Hans rách rưới, không cho ngồi vào bàn, chỉ đưa cho chàng miếng ăn ở ngoài. Tối đến, hai anh không cho chàng nằm giường, Hans đành chui vào chuồng ngỗng, ngủ trên nắm rơm cứng.",
+      "subtitles": [
+        "Mèo bảo: \"Anh về trước đi, ba ngày nữa tôi sẽ mang ngựa tới.\"",
+        "Hans lên đường, vẫn mặc chiếc áo cũ đã chật cứng sau bảy năm.",
+        "Về tới nơi, hai anh kia cũng đã về, mỗi người dắt một con ngựa, nhưng một con thì mù,",
+        "một con thì què. \"Ngựa của mày đâu, thằng ngốc?\"",
+        "\"Ba ngày nữa nó sẽ tới.\" Cả hai cười phá lên.",
+        "Ông chủ chê Hans rách rưới, không cho ngồi vào bàn, chỉ đưa cho chàng miếng ăn ở ngoài.",
+        "Tối đến, hai anh không cho chàng nằm giường, Hans đành chui vào chuồng ngỗng,",
+        "ngủ trên nắm rơm cứng."
+      ],
+      "image": {
+        "prompt": "in the farmyard of the old mill the two other apprentices proudly show a blind old horse and a limping horse, Hans in his too-small ragged smock smiles patiently, geese waddling nearby, humorous gentle mood",
+        "seed": 3019938126,
+        "character": "hans"
+      },
+      "video": {
+        "motionPrompt": "the geese waddle and honk, the two apprentices laugh and point, Hans shrugs calmly, the mill wheel turns",
+        "seed": 4159925344
+      },
+      "voice": {}
+    },
+    {
+      "id": "nang-cong-chua",
+      "title": "Nàng công chúa",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng ngày thứ ba, một cỗ xe sáu ngựa sáng loáng chạy tới cối xay, theo sau có người hầu dắt con ngựa thứ bảy dành cho Hans. Từ trên xe bước xuống một nàng công chúa xinh đẹp. Chính là cô mèo vằn mà Hans đã làm việc suốt bảy năm! Nàng hỏi: \"Chàng thợ xay của tôi đâu?\" Ông chủ ấp úng: \"Nó rách rưới quá, đang nằm trong chuồng ngỗng.\" Nàng bảo đưa chàng ra ngay. Người hầu mặc cho Hans bộ áo đẹp, trông chàng còn khôi ngô hơn cả vua. Ngựa của Hans đẹp hơn ngựa của ai hết, nên ông chủ đành giao cối xay cho chàng. Công chúa bảo: \"Cối xay xin để lại cho ông, còn Hans về với tôi.\" Ngôi nhà bạc nhỏ đã hóa thành lâu đài lớn, Hans cưới công chúa, và từ đó chẳng ai dám gọi chàng là ngốc nữa.",
+      "subtitles": [
+        "Sáng ngày thứ ba, một cỗ xe sáu ngựa sáng loáng chạy tới cối xay,",
+        "theo sau có người hầu dắt con ngựa thứ bảy dành cho Hans.",
+        "Từ trên xe bước xuống một nàng công chúa xinh đẹp.",
+        "Chính là cô mèo vằn mà Hans đã làm việc suốt bảy năm!",
+        "Nàng hỏi: \"Chàng thợ xay của tôi đâu?\"",
+        "Ông chủ ấp úng: \"Nó rách rưới quá, đang nằm trong chuồng ngỗng.\"",
+        "Nàng bảo đưa chàng ra ngay.",
+        "Người hầu mặc cho Hans bộ áo đẹp, trông chàng còn khôi ngô hơn cả vua.",
+        "Ngựa của Hans đẹp hơn ngựa của ai hết, nên ông chủ đành giao cối xay cho chàng.",
+        "Công chúa bảo: \"Cối xay xin để lại cho ông, còn Hans về với tôi.\"",
+        "Ngôi nhà bạc nhỏ đã hóa thành lâu đài lớn, Hans cưới công chúa,",
+        "và từ đó chẳng ai dám gọi chàng là ngốc nữa."
+      ],
+      "image": {
+        "prompt": "a shining golden coach with six gleaming horses arrives at the old mill, a beautiful princess in a dress with soft tabby stripes steps out smiling at Hans, now in splendid clothes, the old miller and the two apprentices gaping, joyful sunny scene",
+        "seed": 306869379,
+        "character": "co-meo-van"
+      },
+      "video": {
+        "motionPrompt": "the coach rolls up and stops, the princess steps down gracefully, Hans bows in his new clothes, golden sparkles drift, slow pull-back",
+        "seed": 428622471
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "cheerful German folk fairy-tale music, bassoon, fiddle and a little trumpet playing a playful dance like a band of cats, warm and whimsical, medium tempo, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 3649938134
+  }
+}

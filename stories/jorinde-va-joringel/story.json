@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "slug": "jorinde-va-joringel",
+  "shelf": "world",
+  "title": "Jorinde và Joringel",
+  "summary": "Trong khu rừng già có tòa lâu đài của bà phù thủy biến các cô gái thành chim nhốt trong lồng. Khi Jorinde hóa thành chim họa mi, chàng Joringel lên đường tìm bông hoa thần để cứu người yêu. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Jorinde und Joringel\" (Kinder- und Hausmärchen, bản 1857), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; giữ nguyên cốt truyện, kể nhẹ nhàng cho cả nhà.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, an old mossy castle in a deep green forest, golden evening light and gentle moonlight, songbirds and wildflowers, rounded friendly shapes, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "jorinde",
+      "name": "Jorinde",
+      "seed": 1897154911,
+      "sheetPrompt": "Jorinde from the Grimm tale, a sweet young German village girl, long golden braids, light blue dress with a white apron, a flower wreath in her hair, gentle smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "joringel",
+      "name": "Joringel",
+      "seed": 2300569675,
+      "sheetPrompt": "Joringel from the Grimm tale, a kind young German shepherd lad, wavy brown hair, green jacket and brown trousers, leather boots, a wooden shepherd staff, earnest face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba-phu-thuy",
+      "name": "Bà phù thủy",
+      "seed": 3329704823,
+      "sheetPrompt": "an old forest witch from the Grimm tale, bent and thin, long grey hair, big round yellow eyes like an owl, hooked nose, dark grey shawl, comical rather than scary, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "lau-dai-trong-rung",
+      "title": "Lâu đài trong rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, giữa một khu rừng già rậm rạp có một tòa lâu đài cũ, nơi bà phù thủy già sống một mình. Ban ngày, mụ hóa thành mèo hay thành cú, đêm xuống lại trở về hình người. Ai đi tới gần lâu đài chừng một trăm bước là đứng sững như trời trồng, không nhúc nhích được, cho đến khi mụ cho phép mới thôi. Còn cô gái nào lạc vào đó thì bị mụ biến thành chim, nhốt vào lồng mây, treo kín các phòng trong lâu đài. Mụ đã có tới bảy nghìn chiếc lồng như thế.",
+      "subtitles": [
+        "Ngày xưa, giữa một khu rừng già rậm rạp có một tòa lâu đài cũ,",
+        "nơi bà phù thủy già sống một mình.",
+        "Ban ngày, mụ hóa thành mèo hay thành cú, đêm xuống lại trở về hình người.",
+        "Ai đi tới gần lâu đài chừng một trăm bước là đứng sững như trời trồng,",
+        "không nhúc nhích được, cho đến khi mụ cho phép mới thôi.",
+        "Còn cô gái nào lạc vào đó thì bị mụ biến thành chim, nhốt vào lồng mây,",
+        "treo kín các phòng trong lâu đài. Mụ đã có tới bảy nghìn chiếc lồng như thế."
+      ],
+      "image": {
+        "prompt": "an old mossy stone castle hidden in a dense green forest, many little wicker birdcages glimpsed through its arched windows, an owl perched on the tower, soft misty evening light, mysterious but gentle",
+        "seed": 2030786846,
+        "character": "ba-phu-thuy"
+      },
+      "video": {
+        "motionPrompt": "mist drifts between the trees, the owl turns its head slowly, tiny birds flutter inside the cages, slow push-in toward the castle",
+        "seed": 319791033
+      },
+      "voice": {}
+    },
+    {
+      "id": "chim-hoa-mi",
+      "title": "Chim họa mi",
+      "narrator": "ke-chuyen",
+      "narration": "Trong làng gần đó có cô Jorinde xinh xắn và chàng Joringel hiền lành. Hai người thương nhau, sắp làm đám cưới. Một chiều, họ rủ nhau vào rừng dạo chơi, mải nói chuyện mà đi lạc tới gần lâu đài lúc nào không biết. Mặt trời lặn, Jorinde cất tiếng hát: \"Chim nhỏ cổ hồng, hót buồn trong chiều, ơi buồn thay, buồn thay...\" Bỗng tiếng hát hóa thành tiếng chim. Jorinde đã thành một con chim họa mi nhỏ. Một con cú bay vòng quanh, kêu ba tiếng \"cú, cú, cú\". Joringel đứng sững như hóa đá, không kêu, không chạy được.",
+      "subtitles": [
+        "Trong làng gần đó có cô Jorinde xinh xắn và chàng Joringel hiền lành.",
+        "Hai người thương nhau, sắp làm đám cưới. Một chiều, họ rủ nhau vào rừng dạo chơi,",
+        "mải nói chuyện mà đi lạc tới gần lâu đài lúc nào không biết.",
+        "Mặt trời lặn, Jorinde cất tiếng hát: \"Chim nhỏ cổ hồng, hót buồn trong chiều,",
+        "ơi buồn thay, buồn thay...\" Bỗng tiếng hát hóa thành tiếng chim.",
+        "Jorinde đã thành một con chim họa mi nhỏ.",
+        "Một con cú bay vòng quanh, kêu ba tiếng \"cú, cú, cú\".",
+        "Joringel đứng sững như hóa đá, không kêu, không chạy được."
+      ],
+      "image": {
+        "prompt": "in a forest glade at golden sunset Jorinde turns into a little brown nightingale fluttering up from the grass, Joringel stands frozen with his arms reaching out, an owl circling overhead, magical sparkles, gentle not frightening",
+        "seed": 1486071959,
+        "character": "jorinde"
+      },
+      "video": {
+        "motionPrompt": "golden sparkles swirl around Jorinde as a nightingale rises in her place, the owl circles slowly, leaves drift down",
+        "seed": 423546372
+      },
+      "voice": {}
+    },
+    {
+      "id": "mat-nguoi-yeu",
+      "title": "Mất người yêu",
+      "narrator": "ke-chuyen",
+      "narration": "Con cú bay vào bụi rậm, rồi bước ra là một bà già lưng còng, mắt tròn vàng khè, mũi khoằm. Mụ lẩm bẩm mấy câu, bắt lấy con họa mi, bỏ vào lồng rồi mang đi mất. Mãi lâu sau mụ mới quay lại, bảo: \"Thôi, cho mày đi đấy.\" Joringel quỳ xuống van xin: \"Bà ơi, xin trả Jorinde cho cháu!\" Nhưng mụ bảo cả đời cũng không trả, rồi bỏ đi. Joringel buồn rầu đi khỏi khu rừng, đến một ngôi làng xa lạ, làm nghề chăn cừu. Ngày nào anh cũng đi quanh quẩn gần lâu đài, nhưng không dám bước lại gần.",
+      "subtitles": [
+        "Con cú bay vào bụi rậm, rồi bước ra là một bà già lưng còng, mắt tròn vàng khè, mũi khoằm.",
+        "Mụ lẩm bẩm mấy câu, bắt lấy con họa mi, bỏ vào lồng rồi mang đi mất.",
+        "Mãi lâu sau mụ mới quay lại, bảo: \"Thôi, cho mày đi đấy.\"",
+        "Joringel quỳ xuống van xin: \"Bà ơi, xin trả Jorinde cho cháu!\"",
+        "Nhưng mụ bảo cả đời cũng không trả, rồi bỏ đi.",
+        "Joringel buồn rầu đi khỏi khu rừng, đến một ngôi làng xa lạ, làm nghề chăn cừu.",
+        "Ngày nào anh cũng đi quanh quẩn gần lâu đài, nhưng không dám bước lại gần."
+      ],
+      "image": {
+        "prompt": "Joringel as a lonely shepherd sits on a hillside with his sheep, looking sadly toward a distant castle above the forest, soft grey-blue evening light, quiet and wistful",
+        "seed": 3305769206,
+        "character": "ba-phu-thuy"
+      },
+      "video": {
+        "motionPrompt": "the sheep graze slowly, Joringel sighs and looks toward the far castle, clouds drift across the sky",
+        "seed": 656766915
+      },
+      "voice": {}
+    },
+    {
+      "id": "bong-hoa-than",
+      "title": "Bông hoa thần",
+      "narrator": "ke-chuyen",
+      "narration": "Một đêm, Joringel nằm mơ thấy một bông hoa đỏ thắm, giữa hoa có một viên ngọc trai trắng muốt. Trong mơ, chàng cầm bông hoa đi vào lâu đài, chạm tới đâu, phép thuật tan tới đó. Sáng ra, chàng lên đường tìm bông hoa. Chàng đi qua núi, qua đồi, tìm suốt tám ngày mà chẳng thấy. Sáng ngày thứ chín, chàng gặp bông hoa đỏ thắm mọc bên sườn đồi. Giữa hoa đọng một giọt sương to, tròn, long lanh như viên ngọc trai. Joringel nâng niu hái bông hoa, đi suốt ngày đêm trở về lâu đài.",
+      "subtitles": [
+        "Một đêm, Joringel nằm mơ thấy một bông hoa đỏ thắm,",
+        "giữa hoa có một viên ngọc trai trắng muốt.",
+        "Trong mơ, chàng cầm bông hoa đi vào lâu đài, chạm tới đâu, phép thuật tan tới đó.",
+        "Sáng ra, chàng lên đường tìm bông hoa.",
+        "Chàng đi qua núi, qua đồi, tìm suốt tám ngày mà chẳng thấy.",
+        "Sáng ngày thứ chín, chàng gặp bông hoa đỏ thắm mọc bên sườn đồi.",
+        "Giữa hoa đọng một giọt sương to, tròn, long lanh như viên ngọc trai.",
+        "Joringel nâng niu hái bông hoa, đi suốt ngày đêm trở về lâu đài."
+      ],
+      "image": {
+        "prompt": "on a sunny hillside at dawn Joringel kneels and picks a single deep crimson flower with a large round dewdrop shining like a pearl at its center, morning light, hopeful mood",
+        "seed": 1836119453,
+        "character": "joringel"
+      },
+      "video": {
+        "motionPrompt": "the dewdrop glimmers and catches the sunrise, Joringel lifts the flower gently, grass sways in the breeze",
+        "seed": 1884972992
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-nghin-chiec-long",
+      "title": "Bảy nghìn chiếc lồng",
+      "narrator": "ke-chuyen",
+      "narration": "Lần này, khi tới gần lâu đài một trăm bước, chàng vẫn đi được bình thường. Chàng đưa bông hoa chạm vào cổng, cánh cổng tự mở ra. Lần theo tiếng chim hót, chàng vào một gian phòng lớn, thấy bà phù thủy đang cho chim ăn trong bảy nghìn chiếc lồng. Thấy Joringel, mụ giận dữ, phun lời độc địa, nhưng không sao lại gần chàng được. Chàng nhìn khắp lượt, toàn là chim họa mi, biết đâu là Jorinde? Bỗng chàng thấy mụ lén xách một chiếc lồng, rón rén đi ra cửa. Joringel nhảy tới, chạm bông hoa vào chiếc lồng, và chạm cả vào bà phù thủy.",
+      "subtitles": [
+        "Lần này, khi tới gần lâu đài một trăm bước, chàng vẫn đi được bình thường.",
+        "Chàng đưa bông hoa chạm vào cổng, cánh cổng tự mở ra.",
+        "Lần theo tiếng chim hót, chàng vào một gian phòng lớn,",
+        "thấy bà phù thủy đang cho chim ăn trong bảy nghìn chiếc lồng.",
+        "Thấy Joringel, mụ giận dữ, phun lời độc địa, nhưng không sao lại gần chàng được.",
+        "Chàng nhìn khắp lượt, toàn là chim họa mi, biết đâu là Jorinde?",
+        "Bỗng chàng thấy mụ lén xách một chiếc lồng, rón rén đi ra cửa.",
+        "Joringel nhảy tới, chạm bông hoa vào chiếc lồng, và chạm cả vào bà phù thủy."
+      ],
+      "image": {
+        "prompt": "a great castle hall full of hanging wicker birdcages with many little nightingales, Joringel holds up the crimson flower, the old witch sneaks toward the door carrying one cage, warm lantern light, gentle not scary",
+        "seed": 461136307,
+        "character": "joringel"
+      },
+      "video": {
+        "motionPrompt": "the birds flutter and sing in their cages, Joringel steps forward with the glowing flower, the witch freezes mid-step, soft magical glow",
+        "seed": 367155177
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-nha",
+      "title": "Về nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Phép thuật của mụ tan biến, mụ chẳng còn làm hại được ai nữa. Trong chiếc lồng, con họa mi hóa lại thành Jorinde, xinh đẹp như ngày nào. Cô ôm chầm lấy Joringel, mừng rơi nước mắt. Joringel lần lượt chạm bông hoa vào tất cả các lồng chim, thế là bảy nghìn con chim đều trở lại thành những cô gái. Các cô cảm ơn chàng rồi vui vẻ ai về nhà nấy. Jorinde và Joringel cùng nhau trở về làng, làm đám cưới, và sống bên nhau hạnh phúc rất nhiều năm.",
+      "subtitles": [
+        "Phép thuật của mụ tan biến, mụ chẳng còn làm hại được ai nữa.",
+        "Trong chiếc lồng, con họa mi hóa lại thành Jorinde, xinh đẹp như ngày nào.",
+        "Cô ôm chầm lấy Joringel, mừng rơi nước mắt.",
+        "Joringel lần lượt chạm bông hoa vào tất cả các lồng chim,",
+        "thế là bảy nghìn con chim đều trở lại thành những cô gái.",
+        "Các cô cảm ơn chàng rồi vui vẻ ai về nhà nấy.",
+        "Jorinde và Joringel cùng nhau trở về làng, làm đám cưới,",
+        "và sống bên nhau hạnh phúc rất nhiều năm."
+      ],
+      "image": {
+        "prompt": "Jorinde and Joringel hug happily in the castle courtyard, many smiling girls in colorful dresses stepping out of open birdcages, flowers blooming everywhere, bright joyful sunlight",
+        "seed": 2733416882,
+        "character": "jorinde"
+      },
+      "video": {
+        "motionPrompt": "the cage doors swing open and sparkles turn into smiling girls, Jorinde and Joringel spin happily, petals float, slow pull-back",
+        "seed": 3538841681
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle German folk fairy-tale music, soft wooden flute imitating birdsong, harp and strings, a tender hopeful forest mood, slow tempo, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 1674141670
+  }
+}

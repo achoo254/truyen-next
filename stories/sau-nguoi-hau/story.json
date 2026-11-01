@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "slug": "sau-nguoi-hau",
+  "shelf": "world",
+  "title": "Sáu người hầu tài giỏi",
+  "summary": "Muốn cưới con gái bà hoàng phù thủy, chàng hoàng tử phải vượt qua ba thử thách không ai làm nổi. May sao chàng có sáu người hầu kỳ lạ: người béo uống cạn cả biển, người cao vươn tới tận mây, người nghe được cả tiếng cỏ mọc. Truyện cổ Grimm kể nhẹ nhàng, vui nhộn cho cả nhà.",
+  "themes": [
+    "anh-hung",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Die sechs Diener\" (Kinder- und Hausmärchen, bản 1857), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; bản kể đã làm nhẹ cho cả nhà: người cầu hôn thất bại chỉ bị đuổi khỏi xứ, quân lính đuổi theo bị sóng đẩy lùi và áo giáp vỡ vụn rồi bỏ chạy chứ không ai thiệt mạng.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, wide heaths, a sea shore, a proud old castle and a quiet countryside village, playful giant scale gags, warm golden and sky-blue tones, rounded friendly humorous shapes, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hoang-tu",
+      "name": "Chàng hoàng tử",
+      "seed": 3448729379,
+      "sheetPrompt": "a cheerful brave young prince from the Grimm tale, short wavy dark hair, blue traveling coat with silver buttons, riding boots, friendly confident smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "sau-nguoi-hau",
+      "name": "Sáu người hầu",
+      "seed": 4045930445,
+      "sheetPrompt": "six funny loyal servants from the Grimm tale standing together: an enormously round fat man, a very tall thin man stretching up, a man with one ear cupped to listen, a man with a cloth band over his eyes, a man shivering in a thick scarf, and a man with a long neck peering far away, simple peasant clothes in earthy colors, comical and lovable, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cong-chua",
+      "name": "Nàng công chúa",
+      "seed": 2684949933,
+      "sheetPrompt": "a beautiful proud princess from the Grimm tale, long golden hair, a silver tiara, an elegant pale blue gown, cool haughty look that slowly softens, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-hoang-phu-thuy",
+      "title": "Bà hoàng phù thủy",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bà hoàng già là phù thủy, sinh được cô con gái đẹp nhất trần đời. Ai muốn cưới nàng phải làm xong thử thách bà đặt ra, làm không nổi thì bị phạt nặng và đuổi khỏi xứ, chẳng bao giờ được quay về. Có một chàng hoàng tử nghe tiếng nàng, xin cha cho đi cầu hôn. Vua cha không cho, chàng buồn đến ngã bệnh suốt bảy năm, thầy thuốc nào cũng bó tay. Cuối cùng vua đành bảo: \"Thôi, con cứ đi thử vận may.\" Chàng nghe xong khỏi bệnh ngay, vui vẻ lên ngựa ra đi.",
+      "subtitles": [
+        "Ngày xưa, có một bà hoàng già là phù thủy, sinh được cô con gái đẹp nhất trần đời.",
+        "Ai muốn cưới nàng phải làm xong thử thách bà đặt ra,",
+        "làm không nổi thì bị phạt nặng và đuổi khỏi xứ, chẳng bao giờ được quay về.",
+        "Có một chàng hoàng tử nghe tiếng nàng, xin cha cho đi cầu hôn.",
+        "Vua cha không cho, chàng buồn đến ngã bệnh suốt bảy năm, thầy thuốc nào cũng bó tay.",
+        "Cuối cùng vua đành bảo: \"Thôi, con cứ đi thử vận may.\"",
+        "Chàng nghe xong khỏi bệnh ngay, vui vẻ lên ngựa ra đi."
+      ],
+      "image": {
+        "prompt": "a young prince joyfully leaps onto his horse in front of his father's castle, the old king waving goodbye with a worried smile, a winding road leading toward distant mountains, bright morning light",
+        "seed": 2349542648,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the prince swings into the saddle and waves his hat, the horse prances, the old king waves, slow pull-back along the road",
+        "seed": 1441321875
+      },
+      "voice": {}
+    },
+    {
+      "id": "sau-nguoi-ky-la",
+      "title": "Sáu người kỳ lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Trên đường đi, chàng gặp một người nằm trên bãi đất, bụng to như quả đồi nhỏ. \"Tôi mà phình ra thì còn to gấp ba nghìn lần.\" \"Hay quá, theo ta!\" Rồi chàng gặp người áp tai xuống đất: \"Tôi nghe được mọi chuyện trên đời, cả tiếng cỏ mọc.\" Rồi người cao kều, nằm dài mà phải đi mãi mới tới đầu: \"Tôi duỗi ra còn cao hơn núi.\" Rồi người bịt mắt: \"Tôi nhìn vật gì, vật ấy vỡ tan, nên phải bịt mắt lại.\" Rồi người nằm giữa nắng mà run cầm cập: \"Trời càng nóng tôi càng lạnh, trời càng lạnh tôi càng nóng.\" Cuối cùng là người vươn cổ nhìn qua núi: \"Tôi nhìn thấy khắp mọi nơi trên thế gian.\" Chàng đều nhận cả, thế là có sáu người hầu.",
+      "subtitles": [
+        "Trên đường đi, chàng gặp một người nằm trên bãi đất, bụng to như quả đồi nhỏ.",
+        "\"Tôi mà phình ra thì còn to gấp ba nghìn lần.\"",
+        "\"Hay quá, theo ta!\"",
+        "Rồi chàng gặp người áp tai xuống đất: \"Tôi nghe được mọi chuyện trên đời,",
+        "cả tiếng cỏ mọc.\"",
+        "Rồi người cao kều, nằm dài mà phải đi mãi mới tới đầu: \"Tôi duỗi ra còn cao hơn núi.\"",
+        "Rồi người bịt mắt: \"Tôi nhìn vật gì, vật ấy vỡ tan, nên phải bịt mắt lại.\"",
+        "Rồi người nằm giữa nắng mà run cầm cập: \"Trời càng nóng tôi càng lạnh,",
+        "trời càng lạnh tôi càng nóng.\"",
+        "Cuối cùng là người vươn cổ nhìn qua núi: \"Tôi nhìn thấy khắp mọi nơi trên thế gian.\"",
+        "Chàng đều nhận cả, thế là có sáu người hầu."
+      ],
+      "image": {
+        "prompt": "on a sunny heath the prince meets six funny strange men: an enormously fat man lying like a small hill, a man with his ear to the ground, an incredibly tall man stretched across the field, a man with a band over his eyes, a man shivering in the hot sun, and a long-necked man gazing over the mountains, humorous storybook scale",
+        "seed": 1992036134,
+        "character": "sau-nguoi-hau"
+      },
+      "video": {
+        "motionPrompt": "the tall man stretches up past the clouds, the fat man puffs up bigger, the shivering man's teeth chatter, playful bouncy motion",
+        "seed": 1892499888
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-nhan-duoi-bien",
+      "title": "Chiếc nhẫn dưới biển",
+      "narrator": "ke-chuyen",
+      "narration": "Tới kinh thành, bà hoàng phù thủy đặt thử thách thứ nhất: \"Mò cho ta chiếc nhẫn ta làm rơi xuống Biển Đỏ.\" Anh Mắt Xa nhìn xuống nước: \"Nó mắc trên một mỏm đá nhọn kia.\" Anh Cao Kều bảo: \"Tôi lấy được, miễn là thấy nó.\" Anh Béo nằm xuống, kề miệng vào biển, hút một hơi, nước biển chảy ào vào bụng, biển khô cạn như bãi cỏ. Anh Cao Kều cúi xuống nhặt nhẫn lên. Thử thách thứ hai: ăn hết ba trăm con bò, uống hết ba trăm thùng rượu. Chàng được mời một vị khách, bèn mời anh Béo. Anh Béo ăn sạch trơn, còn hỏi: \"Có mỗi bữa sáng thôi à?\"",
+      "subtitles": [
+        "Tới kinh thành, bà hoàng phù thủy đặt thử thách thứ nhất:",
+        "\"Mò cho ta chiếc nhẫn ta làm rơi xuống Biển Đỏ.\"",
+        "Anh Mắt Xa nhìn xuống nước: \"Nó mắc trên một mỏm đá nhọn kia.\"",
+        "Anh Cao Kều bảo: \"Tôi lấy được, miễn là thấy nó.\"",
+        "Anh Béo nằm xuống, kề miệng vào biển, hút một hơi, nước biển chảy ào vào bụng,",
+        "biển khô cạn như bãi cỏ. Anh Cao Kều cúi xuống nhặt nhẫn lên.",
+        "Thử thách thứ hai: ăn hết ba trăm con bò, uống hết ba trăm thùng rượu.",
+        "Chàng được mời một vị khách, bèn mời anh Béo.",
+        "Anh Béo ăn sạch trơn, còn hỏi: \"Có mỗi bữa sáng thôi à?\""
+      ],
+      "image": {
+        "prompt": "on a sea shore the enormously fat servant drinks up the whole sea in one gulp like a whirlpool, leaving the sea floor dry like a meadow, the very tall servant bends down to pick up a tiny golden ring from a pointed rock, the prince cheering, comical scene",
+        "seed": 3050782033,
+        "character": "sau-nguoi-hau"
+      },
+      "video": {
+        "motionPrompt": "the water swirls into the fat man's mouth like a whirlpool, the sea floor appears, the tall man plucks the ring, sparkles",
+        "seed": 1946484398
+      },
+      "voice": {}
+    },
+    {
+      "id": "nui-da-xa-xoi",
+      "title": "Ngọn núi đá xa xôi",
+      "narrator": "ke-chuyen",
+      "narration": "Bà hoàng tức lắm, đặt thử thách thứ ba: \"Đêm nay chàng ngồi giữ con gái ta. Đúng nửa đêm ta tới, nếu nàng không còn ở đó, chàng thua.\" Đêm ấy, anh Cao Kều quấn quanh hai người thành một vòng, anh Béo chặn cửa. Nhưng gần nửa đêm, bà phù thủy làm phép cho cả bọn ngủ say, rồi đưa công chúa đi mất. Tỉnh dậy, chàng hoảng hốt. Anh Thính Tai lắng nghe: \"Nàng đang ngồi trên một tảng đá cách đây ba trăm dặm.\" Anh Cao Kều cõng anh Bịt Mắt, bước vài bước đã tới nơi. Anh Bịt Mắt mở băng nhìn một cái, tảng đá vỡ vụn. Họ đưa công chúa về, kịp trước khi chuông điểm nửa đêm.",
+      "subtitles": [
+        "Bà hoàng tức lắm, đặt thử thách thứ ba: \"Đêm nay chàng ngồi giữ con gái ta.",
+        "Đúng nửa đêm ta tới, nếu nàng không còn ở đó, chàng thua.\"",
+        "Đêm ấy, anh Cao Kều quấn quanh hai người thành một vòng, anh Béo chặn cửa.",
+        "Nhưng gần nửa đêm, bà phù thủy làm phép cho cả bọn ngủ say, rồi đưa công chúa đi mất.",
+        "Tỉnh dậy, chàng hoảng hốt.",
+        "Anh Thính Tai lắng nghe: \"Nàng đang ngồi trên một tảng đá cách đây ba trăm dặm.\"",
+        "Anh Cao Kều cõng anh Bịt Mắt, bước vài bước đã tới nơi.",
+        "Anh Bịt Mắt mở băng nhìn một cái, tảng đá vỡ vụn.",
+        "Họ đưa công chúa về, kịp trước khi chuông điểm nửa đêm."
+      ],
+      "image": {
+        "prompt": "under a big moon the very tall servant carries the blindfolded servant on his back in giant strides over hills toward a lonely rock where the princess sits, the rock cracking into a thousand harmless sparkling pieces as the blindfold is lifted, magical night scene",
+        "seed": 629584244,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "giant strides cross the moonlit hills, the blindfold lifts and the rock crumbles into glittering pieces, stars twinkle",
+        "seed": 2937544235
+      },
+      "voice": {}
+    },
+    {
+      "id": "dong-cui-va-anh-lanh-run",
+      "title": "Đống củi và anh Lạnh Run",
+      "narrator": "ke-chuyen",
+      "narration": "Bà hoàng đành gả con gái, nhưng thì thầm với nàng: \"Lấy một kẻ nhờ người hầu mà thắng, thật đáng xấu hổ.\" Công chúa kiêu hãnh nổi giận, đòi thêm: \"Phải có người ngồi giữa ba trăm bó củi đang cháy thì ta mới chịu.\" Nàng nghĩ chẳng người hầu nào chịu ngồi vào lửa. Nhưng các anh bảo: \"Ai cũng làm rồi, giờ đến lượt anh Lạnh Run.\" Họ đặt anh vào giữa đống củi rồi châm lửa. Lửa cháy ba ngày ba đêm. Khi lửa tắt, anh Lạnh Run đứng giữa đống tro, run như cầy sấy: \"Ôi, cả đời tôi chưa bao giờ rét đến thế!\"",
+      "subtitles": [
+        "Bà hoàng đành gả con gái, nhưng thì thầm với nàng: \"Lấy một kẻ nhờ người hầu mà thắng,",
+        "thật đáng xấu hổ.\" Công chúa kiêu hãnh nổi giận, đòi thêm:",
+        "\"Phải có người ngồi giữa ba trăm bó củi đang cháy thì ta mới chịu.\"",
+        "Nàng nghĩ chẳng người hầu nào chịu ngồi vào lửa.",
+        "Nhưng các anh bảo: \"Ai cũng làm rồi, giờ đến lượt anh Lạnh Run.\"",
+        "Họ đặt anh vào giữa đống củi rồi châm lửa. Lửa cháy ba ngày ba đêm.",
+        "Khi lửa tắt, anh Lạnh Run đứng giữa đống tro, run như cầy sấy: \"Ôi,",
+        "cả đời tôi chưa bao giờ rét đến thế!\""
+      ],
+      "image": {
+        "prompt": "a big bonfire burning brightly in a castle courtyard, in the middle a funny servant wrapped in a thick scarf sits shivering with icicles on his nose, the princess staring in astonishment, the prince and servants laughing, comical not frightening",
+        "seed": 1228478946,
+        "character": "sau-nguoi-hau"
+      },
+      "video": {
+        "motionPrompt": "flames dance around the shivering servant who rubs his hands and sneezes, icicles twinkle, the princess blinks in surprise",
+        "seed": 2659257644
+      },
+      "voice": {}
+    },
+    {
+      "id": "quan-linh-duoi-theo",
+      "title": "Quân lính đuổi theo",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa đành theo chàng lên xe về làm đám cưới. Nhưng bà hoàng không cam lòng, sai quân lính đuổi theo bắt nàng về. Anh Thính Tai nghe được hết. Anh Béo liền phun ra một ngụm nước biển đã uống hôm trước. Nước dâng thành biển lớn, sóng đẩy quân lính dạt về phía sau, ướt như chuột lột, phải bơi vào bờ chạy về. Bà hoàng lại sai đoàn hiệp sĩ áo giáp. Anh Thính Tai nghe tiếng giáp sắt kêu loảng xoảng, liền cởi băng một bên mắt cho anh Bịt Mắt. Anh nhìn một cái, áo giáp của cả đoàn vỡ vụn như thủy tinh, các hiệp sĩ hoảng hồn quay đầu chạy mất. Xong việc, sáu người hầu chào từ biệt: \"Chủ nhân đã toại nguyện, chúng tôi đi tìm vận may đây.\"",
+      "subtitles": [
+        "Công chúa đành theo chàng lên xe về làm đám cưới.",
+        "Nhưng bà hoàng không cam lòng, sai quân lính đuổi theo bắt nàng về.",
+        "Anh Thính Tai nghe được hết. Anh Béo liền phun ra một ngụm nước biển đã uống hôm trước.",
+        "Nước dâng thành biển lớn, sóng đẩy quân lính dạt về phía sau, ướt như chuột lột,",
+        "phải bơi vào bờ chạy về. Bà hoàng lại sai đoàn hiệp sĩ áo giáp.",
+        "Anh Thính Tai nghe tiếng giáp sắt kêu loảng xoảng,",
+        "liền cởi băng một bên mắt cho anh Bịt Mắt.",
+        "Anh nhìn một cái, áo giáp của cả đoàn vỡ vụn như thủy tinh,",
+        "các hiệp sĩ hoảng hồn quay đầu chạy mất.",
+        "Xong việc, sáu người hầu chào từ biệt: \"Chủ nhân đã toại nguyện,",
+        "chúng tôi đi tìm vận may đây.\""
+      ],
+      "image": {
+        "prompt": "behind a carriage on a country road the fat servant sprays out a great wave of sea water that washes a troop of soaked soldiers backward, who scramble away dripping wet, further back armored riders whose armor shatters into glittering pieces like glass as they turn and flee, comical not frightening",
+        "seed": 994401379,
+        "character": "sau-nguoi-hau"
+      },
+      "video": {
+        "motionPrompt": "a big friendly wave rolls back the soldiers who splash and paddle away, glittering pieces of armor tumble, the carriage rolls on",
+        "seed": 3007224378
+      },
+      "voice": {}
+    },
+    {
+      "id": "chang-chan-lon",
+      "title": "Chàng chăn lợn",
+      "narrator": "ke-chuyen",
+      "narration": "Gần tới nhà, chàng bảo vợ: \"Thật ra ta không phải hoàng tử, ta là người chăn lợn. Người chăn đàn lợn đằng kia là cha ta. Chúng ta phải làm việc giúp cha.\" Chàng dặn chủ quán lấy hết váy áo đẹp của nàng. Sáng ra, nàng chỉ còn chiếc váy cũ và đôi guốc gỗ. Nàng nghĩ: \"Có lẽ đây là bài học cho thói kiêu căng của ta.\" Suốt một tuần, nàng đi chăn lợn, chẳng hề than vãn. Rồi có người đến dẫn nàng vào lâu đài. Chàng trai đứng đó, mặc áo hoàng tử, mỉm cười: \"Ta đã chịu bao vất vả vì nàng, nàng cũng nên chịu một chút vì ta.\" Lúc ấy đám cưới thật mới bắt đầu, và hai người sống bên nhau hạnh phúc.",
+      "subtitles": [
+        "Gần tới nhà, chàng bảo vợ: \"Thật ra ta không phải hoàng tử, ta là người chăn lợn.",
+        "Người chăn đàn lợn đằng kia là cha ta. Chúng ta phải làm việc giúp cha.\"",
+        "Chàng dặn chủ quán lấy hết váy áo đẹp của nàng.",
+        "Sáng ra, nàng chỉ còn chiếc váy cũ và đôi guốc gỗ.",
+        "Nàng nghĩ: \"Có lẽ đây là bài học cho thói kiêu căng của ta.\"",
+        "Suốt một tuần, nàng đi chăn lợn, chẳng hề than vãn.",
+        "Rồi có người đến dẫn nàng vào lâu đài.",
+        "Chàng trai đứng đó, mặc áo hoàng tử, mỉm cười: \"Ta đã chịu bao vất vả vì nàng,",
+        "nàng cũng nên chịu một chút vì ta.\"",
+        "Lúc ấy đám cưới thật mới bắt đầu, và hai người sống bên nhau hạnh phúc."
+      ],
+      "image": {
+        "prompt": "in a sunny palace hall the prince in royal clothes takes the hands of the princess, now in a simple peasant dress and wooden clogs, she smiles with humble happy tears, a few cute piglets peeking in at the door, warm joyful light",
+        "seed": 3393283115,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the prince bows and takes her hands, she smiles shyly, the piglets wiggle their tails at the door, slow pull-back",
+        "seed": 114804442
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "lively German folk fairy-tale music, tuba and bassoon for the giants, piccolo and strings in a playful marching rhythm, warm and humorous, medium tempo, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 1131687391
+  }
+}

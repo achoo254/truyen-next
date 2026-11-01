@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "slug": "hai-ba-trung",
+  "shelf": "adults",
+  "title": "Hai Bà Trưng",
+  "summary": "Chồng bị thái thú Tô Định hãm hại, Trưng Trắc cùng em là Trưng Nhị dựng cờ ở Mê Linh, đuổi giặc Hán, xưng vương giữ nước ba năm. Truyện kể theo sách cổ về hai nữ anh hùng đầu tiên của nước Việt, từ trận Lãng Bạc đến dòng sông Hát và ngôi đền Đồng Nhân.",
+  "themes": [
+    "anh-hung",
+    "su-tich"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Kể theo cốt truyện Trưng Vương trong Việt điện u linh tập (Lý Tế Xuyên, 1329) và Nam Hải dị nhân liệt truyện (Phan Kế Bính, 1909), sách cổ thuộc phạm vi công cộng. Lời kể viết mới, không chép bản dịch nào; điều thuộc truyền thuyết được kể là tương truyền.",
+  "basedOn": "Việt điện u linh tập; Nam Hải dị nhân liệt truyện",
+  "style": "classical Vietnamese silk painting illustration, fine ink linework with soft mineral colours of ochre, jade green, deep red and indigo on aged silk, first century Vietnam of the Lac Viet people with Dong Son bronze drum motifs, stilt houses, rice fields and wide rivers, solemn heroic mood for adult readers, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "trung-trac",
+      "name": "Trưng Trắc",
+      "sheetPrompt": "Trung Trac, a noble Vietnamese woman leader of the first century, about thirty, strong calm face with determined eyes, long black hair tied high with a gold hairpin, dark red tunic with bronze plaque armour and Dong Son patterns, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 340534911
+    },
+    {
+      "id": "trung-nhi",
+      "name": "Trưng Nhị",
+      "sheetPrompt": "Trung Nhi, younger sister of Trung Trac, a spirited young Vietnamese woman warrior of the first century, bright fierce eyes, black hair in a high bun, jade green tunic with bronze plaque armour, holding a bronze spear, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 522013471
+    },
+    {
+      "id": "to-dinh",
+      "name": "Tô Định",
+      "sheetPrompt": "To Dinh, a greedy Han dynasty governor, heavy jowled face with a thin moustache and cold narrow eyes, black Han official hat and wide dark brown silk robe with a jade belt, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 1717215995
+    }
+  ],
+  "scenes": [
+    {
+      "id": "me-linh",
+      "title": "Đất Mê Linh",
+      "narrator": "ke-chuyen",
+      "narration": "Vào thời nước ta còn bị nhà Đông Hán đô hộ, ở huyện Mê Linh thuộc đất Phong Châu có một vị Lạc tướng, dòng dõi các vua Hùng. Ông sinh được hai người con gái. Chị tên là Trắc, em tên là Nhị. Hai chị em lớn lên giữa những cánh đồng ven sông Hồng, nghe người già kể chuyện cha ông thuở trước, sớm có tiếng là người can đảm, có chí lớn hơn người. Dân Mê Linh khi ấy sống cực khổ. Quan lại phương Bắc đặt ra đủ thứ thuế, bắt dân lên rừng săn ngà voi, sừng tê, xuống biển mò ngọc trai về cống nạp. Nhà nào không nộp đủ thì bị đánh đập, bắt bớ. Người ta oán giận mà không dám nói ra, chỉ biết nhìn nhau thở dài.",
+      "subtitles": [
+        "Vào thời nước ta còn bị nhà Đông Hán đô hộ,",
+        "ở huyện Mê Linh thuộc đất Phong Châu có một vị Lạc tướng, dòng dõi các vua Hùng.",
+        "Ông sinh được hai người con gái. Chị tên là Trắc, em tên là Nhị.",
+        "Hai chị em lớn lên giữa những cánh đồng ven sông Hồng,",
+        "nghe người già kể chuyện cha ông thuở trước, sớm có tiếng là người can đảm,",
+        "có chí lớn hơn người. Dân Mê Linh khi ấy sống cực khổ.",
+        "Quan lại phương Bắc đặt ra đủ thứ thuế, bắt dân lên rừng săn ngà voi, sừng tê,",
+        "xuống biển mò ngọc trai về cống nạp. Nhà nào không nộp đủ thì bị đánh đập, bắt bớ.",
+        "Người ta oán giận mà không dám nói ra, chỉ biết nhìn nhau thở dài."
+      ],
+      "image": {
+        "prompt": "Me Linh land in the first century, two young sisters standing on a river bank among rice fields, stilt houses with curved roofs behind them, villagers carrying heavy baskets of tribute under watchful Han soldiers in the distance, misty morning",
+        "seed": 562766668,
+        "character": "trung-trac"
+      },
+      "video": {
+        "motionPrompt": "slow pan across the rice fields and river, mist drifting, villagers trudging with heavy baskets, the two sisters turn their heads toward the soldiers",
+        "seed": 4265208308
+      },
+      "voice": {}
+    },
+    {
+      "id": "thi-sach",
+      "title": "Mối lương duyên với Thi Sách",
+      "narrator": "ke-chuyen",
+      "narration": "Đến tuổi lấy chồng, Trưng Trắc kết duyên với Thi Sách, con trai Lạc tướng huyện Chu Diên, cũng là dòng dõi vua Hùng. Thi Sách làm quan ở Chu Diên, là người có khí khái, thương dân. Hai nhà vốn là những dòng họ lớn trong vùng, nay lại thông gia với nhau, lòng người xứ Giao Chỉ đều hướng về cả. Vợ chồng cùng một chí, đều đau xót trước cảnh dân khổ. Bấy giờ thái thú quận Giao Chỉ là Tô Định, một kẻ tham lam tàn ác, chỉ lo vơ vét của cải, coi tính mạng người Việt như cỏ rác. Tô Định thấy Thi Sách lấy được người vợ tài giỏi, lại được lòng dân, thì đâm ra ngờ vực. Hắn sợ rằng về sau hai họ sẽ cùng nhau nổi lên chống lại mình.",
+      "subtitles": [
+        "Đến tuổi lấy chồng, Trưng Trắc kết duyên với Thi Sách, con trai Lạc tướng huyện Chu Diên,",
+        "cũng là dòng dõi vua Hùng. Thi Sách làm quan ở Chu Diên, là người có khí khái, thương dân.",
+        "Hai nhà vốn là những dòng họ lớn trong vùng, nay lại thông gia với nhau,",
+        "lòng người xứ Giao Chỉ đều hướng về cả.",
+        "Vợ chồng cùng một chí, đều đau xót trước cảnh dân khổ.",
+        "Bấy giờ thái thú quận Giao Chỉ là Tô Định, một kẻ tham lam tàn ác, chỉ lo vơ vét của cải,",
+        "coi tính mạng người Việt như cỏ rác.",
+        "Tô Định thấy Thi Sách lấy được người vợ tài giỏi, lại được lòng dân, thì đâm ra ngờ vực.",
+        "Hắn sợ rằng về sau hai họ sẽ cùng nhau nổi lên chống lại mình."
+      ],
+      "image": {
+        "prompt": "wedding of Trung Trac and Thi Sach in a Lac Viet stilt house hall decorated with bronze drums, the couple bowing to each other in ceremonial robes, relatives gathered, in the corner a shadowed Han official watching with suspicion",
+        "seed": 3377322629,
+        "character": "trung-trac"
+      },
+      "video": {
+        "motionPrompt": "gentle candle light flickers, the couple bow slowly, guests smile, camera drifts to the dark corner where the official narrows his eyes",
+        "seed": 4294488854
+      },
+      "voice": {}
+    },
+    {
+      "id": "to-dinh",
+      "title": "Tô Định ra tay",
+      "narrator": "ke-chuyen",
+      "narration": "Nghĩ vậy, Tô Định liền kéo quân vây thành Chu Diên, bắt Thi Sách rồi giết đi. Tin dữ truyền về Mê Linh. Trưng Trắc mất chồng, đau đớn khôn cùng, nhưng nỗi đau ấy không làm bà gục ngã. Thù nhà đã chồng lên nợ nước. Bà biết rằng nếu chỉ khóc than thì Thi Sách chết uổng, còn dân Giao Chỉ thì vẫn mãi chịu cảnh lầm than dưới tay kẻ ác. Trưng Trắc bàn với em gái là Trưng Nhị. Hai chị em quyết dựng cờ khởi nghĩa, chiêu mộ binh mã, đánh đuổi Tô Định, trả thù cho chồng, rửa nhục cho nước.",
+      "subtitles": [
+        "Nghĩ vậy, Tô Định liền kéo quân vây thành Chu Diên, bắt Thi Sách rồi giết đi.",
+        "Tin dữ truyền về Mê Linh.",
+        "Trưng Trắc mất chồng, đau đớn khôn cùng, nhưng nỗi đau ấy không làm bà gục ngã.",
+        "Thù nhà đã chồng lên nợ nước. Bà biết rằng nếu chỉ khóc than thì Thi Sách chết uổng,",
+        "còn dân Giao Chỉ thì vẫn mãi chịu cảnh lầm than dưới tay kẻ ác.",
+        "Trưng Trắc bàn với em gái là Trưng Nhị.",
+        "Hai chị em quyết dựng cờ khởi nghĩa, chiêu mộ binh mã, đánh đuổi Tô Định,",
+        "trả thù cho chồng, rửa nhục cho nước."
+      ],
+      "image": {
+        "prompt": "Han governor To Dinh in his dark hall giving a cold order to armoured Han soldiers, troops marching out toward a walled town at dusk, smoke rising over Chu Dien",
+        "seed": 4291257449,
+        "character": "to-dinh"
+      },
+      "video": {
+        "motionPrompt": "To Dinh sweeps his sleeve in command, soldiers turn and march out, torches flare, smoke drifts over the distant walls",
+        "seed": 773461398
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-the",
+      "title": "Lời thề ở cửa sông",
+      "narrator": "ke-chuyen",
+      "narration": "Tương truyền, trước khi ra quân, Trưng Trắc lập đàn tế trời đất ở cửa sông Hát, đọc lời thề mà người đời sau còn chép lại trong sách Thiên Nam ngữ lục. Một xin rửa sạch nước thù. Hai xin dựng lại nghiệp xưa họ Hùng. Ba kẻo oan ức lòng chồng. Bốn xin vẻn vẹn sở công lênh này. Lời thề vang lên giữa trời nước mênh mông. Các hào kiệt khắp nơi vốn đã căm ghét Tô Định từ lâu, nghe tin hai bà khởi binh thì tranh nhau kéo về. Người cầm giáo, kẻ vác cung, già trẻ gái trai đều theo cờ hai bà. Chẳng bao lâu, dưới trướng đã có hơn mười vạn quân.",
+      "subtitles": [
+        "Tương truyền, trước khi ra quân, Trưng Trắc lập đàn tế trời đất ở cửa sông Hát,",
+        "đọc lời thề mà người đời sau còn chép lại trong sách Thiên Nam ngữ lục.",
+        "Một xin rửa sạch nước thù. Hai xin dựng lại nghiệp xưa họ Hùng.",
+        "Ba kẻo oan ức lòng chồng. Bốn xin vẻn vẹn sở công lênh này.",
+        "Lời thề vang lên giữa trời nước mênh mông.",
+        "Các hào kiệt khắp nơi vốn đã căm ghét Tô Định từ lâu,",
+        "nghe tin hai bà khởi binh thì tranh nhau kéo về.",
+        "Người cầm giáo, kẻ vác cung, già trẻ gái trai đều theo cờ hai bà.",
+        "Chẳng bao lâu, dưới trướng đã có hơn mười vạn quân."
+      ],
+      "image": {
+        "prompt": "Trung Trac standing on a raised earthen altar at a wide river mouth, raising her hand in an oath before heaven, Trung Nhi beside her, crowds of villagers and warriors with bronze spears and crossbows gathering on the shore, banners in the wind",
+        "seed": 2777081072,
+        "character": "trung-trac"
+      },
+      "video": {
+        "motionPrompt": "banners ripple strongly in the wind, river waves glint, the crowd raises spears and crossbows together, slow camera rise above the altar",
+        "seed": 1526682825
+      },
+      "voice": {}
+    },
+    {
+      "id": "duoi-giac",
+      "title": "Đuổi Tô Định",
+      "narrator": "ke-chuyen",
+      "narration": "Hai bà cưỡi voi, dẫn đại quân tiến đánh quận trị. Quân Hán xưa nay quen hà hiếp dân lành, nay thấy cả xứ nổi dậy như nước vỡ bờ thì kinh hồn bạt vía. Tô Định chống không nổi, bỏ cả thành trì, cắt tóc cạo râu, lẻn trốn về Nam Hải rồi chạy một mạch về nước. Thừa thắng, nghĩa quân tràn đi khắp nơi. Các quận Cửu Chân, Nhật Nam, Hợp Phố đều hưởng ứng. Chỉ trong một thời gian ngắn, hơn năm mươi thành ở đất Lĩnh Nam đều về tay hai bà. Bọn quan lại phương Bắc kẻ chạy trốn, kẻ đầu hàng.",
+      "subtitles": [
+        "Hai bà cưỡi voi, dẫn đại quân tiến đánh quận trị.",
+        "Quân Hán xưa nay quen hà hiếp dân lành,",
+        "nay thấy cả xứ nổi dậy như nước vỡ bờ thì kinh hồn bạt vía.",
+        "Tô Định chống không nổi, bỏ cả thành trì, cắt tóc cạo râu,",
+        "lẻn trốn về Nam Hải rồi chạy một mạch về nước.",
+        "Thừa thắng, nghĩa quân tràn đi khắp nơi.",
+        "Các quận Cửu Chân, Nhật Nam, Hợp Phố đều hưởng ứng.",
+        "Chỉ trong một thời gian ngắn, hơn năm mươi thành ở đất Lĩnh Nam đều về tay hai bà.",
+        "Bọn quan lại phương Bắc kẻ chạy trốn, kẻ đầu hàng."
+      ],
+      "image": {
+        "prompt": "the Trung sisters riding war elephants at the head of a great army, Trung Nhi raising a bronze spear, Han soldiers fleeing from a burning wooden fort gate, a small figure in disguise slipping away on a boat in the distance",
+        "seed": 2329879238,
+        "character": "trung-nhi"
+      },
+      "video": {
+        "motionPrompt": "elephants stride forward heavily, dust rises, Han soldiers scatter, the gate swings open, a small boat slips away down the river",
+        "seed": 3916434756
+      },
+      "voice": {}
+    },
+    {
+      "id": "trung-vuong",
+      "title": "Trưng Vương",
+      "narrator": "ke-chuyen",
+      "narration": "Đất nước sạch bóng quân thù, mọi người cùng tôn Trưng Trắc lên làm vua. Bà xưng là Trưng Vương, đóng đô ở Mê Linh. Đó là năm Canh Tý, năm thứ mười sáu niên hiệu Kiến Vũ của vua Quang Vũ nhà Hán. Trưng Vương xá thuế cho dân hai năm, để những người đã bao năm cực khổ có thể dựng lại nhà cửa, cày cấy ruộng vườn. Lần đầu tiên sau mấy trăm năm, người Việt lại có vua của mình. Trong khoảng trời đất mấy trăm năm bị đô hộ ấy, tiếng trống đồng lại vang lên giữa kinh thành, dân chúng mở hội ăn mừng, ai cũng tin rằng nghiệp xưa họ Hùng đã được dựng lại.",
+      "subtitles": [
+        "Đất nước sạch bóng quân thù, mọi người cùng tôn Trưng Trắc lên làm vua.",
+        "Bà xưng là Trưng Vương, đóng đô ở Mê Linh.",
+        "Đó là năm Canh Tý, năm thứ mười sáu niên hiệu Kiến Vũ của vua Quang Vũ nhà Hán.",
+        "Trưng Vương xá thuế cho dân hai năm,",
+        "để những người đã bao năm cực khổ có thể dựng lại nhà cửa, cày cấy ruộng vườn.",
+        "Lần đầu tiên sau mấy trăm năm, người Việt lại có vua của mình.",
+        "Trong khoảng trời đất mấy trăm năm bị đô hộ ấy,",
+        "tiếng trống đồng lại vang lên giữa kinh thành, dân chúng mở hội ăn mừng,",
+        "ai cũng tin rằng nghiệp xưa họ Hùng đã được dựng lại."
+      ],
+      "image": {
+        "prompt": "Trung Trac seated as queen on a carved wooden throne in a great Lac Viet hall at Me Linh, Trung Nhi standing beside her, officials and generals bowing, bronze drums being struck, joyful people celebrating outside",
+        "seed": 4107432368,
+        "character": "trung-trac"
+      },
+      "video": {
+        "motionPrompt": "drummers strike the bronze drums in rhythm, officials bow slowly, festive banners sway, warm light spreads across the hall",
+        "seed": 3842601460
+      },
+      "voice": {}
+    },
+    {
+      "id": "ma-vien",
+      "title": "Mã Viện sang đánh",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng nhà Hán không chịu mất đất. Trưng Vương làm vua được ba năm thì vua Quang Vũ sai Phục Ba tướng quân Mã Viện đem đại binh sang đánh. Mã Viện là viên tướng già dày dạn trận mạc, văn võ kiêm toàn, lại khéo dùng binh. Quân Hán theo đường bộ lẫn đường biển, rầm rộ kéo vào. Trưng Vương đem quân ra chống ở hồ Lãng Bạc, gần Thăng Long sau này. Hai bên đánh nhau mấy trận rất dữ dội. Nghĩa quân phần nhiều là dân cày mới cầm giáo, tuy dũng cảm mà không quen trận mạc, nên dần dần núng thế. Hai bà phải lui quân về giữ Cấm Khê.",
+      "subtitles": [
+        "Nhưng nhà Hán không chịu mất đất.",
+        "Trưng Vương làm vua được ba năm thì vua Quang Vũ sai Phục Ba tướng quân Mã Viện đem đại",
+        "binh sang đánh.",
+        "Mã Viện là viên tướng già dày dạn trận mạc, văn võ kiêm toàn, lại khéo dùng binh.",
+        "Quân Hán theo đường bộ lẫn đường biển, rầm rộ kéo vào.",
+        "Trưng Vương đem quân ra chống ở hồ Lãng Bạc, gần Thăng Long sau này.",
+        "Hai bên đánh nhau mấy trận rất dữ dội.",
+        "Nghĩa quân phần nhiều là dân cày mới cầm giáo, tuy dũng cảm mà không quen trận mạc,",
+        "nên dần dần núng thế. Hai bà phải lui quân về giữ Cấm Khê."
+      ],
+      "image": {
+        "prompt": "battle at Lang Bac lake, Han army with orderly ranks, crossbows and war boats under the veteran general Ma Vien on horseback, the Trung sisters on elephants rallying their warriors along the misty lake shore",
+        "seed": 344172889,
+        "character": "trung-nhi"
+      },
+      "video": {
+        "motionPrompt": "arrows streak across the misty lake, war boats push forward, elephants turn and trumpet, dust and smoke drift, the Vietnamese line slowly pulls back",
+        "seed": 1158070920
+      },
+      "voice": {}
+    },
+    {
+      "id": "cam-khe",
+      "title": "Những ngày ở Cấm Khê",
+      "narrator": "ke-chuyen",
+      "narration": "Ở Cấm Khê, hai bà gắng sức chống giữ. Quân sĩ đói rét, mỏi mệt, mà quân Hán cứ ngày một đông, vây ép bốn bề. Những người theo hai bà từ buổi đầu, kẻ còn người mất. Hai bà biết thế mình không thể địch nổi quân Mã Viện được nữa. Nhưng đầu hàng thì nhất định không chịu. Người đã thề trước trời đất rửa sạch nước thù thì không thể quỳ gối trước kẻ thù. Hai bà bèn rút quân về xã Hát Môn, bên bờ sông Hát, nơi tương truyền ngày trước hai bà đã lập đàn thề.",
+      "subtitles": [
+        "Ở Cấm Khê, hai bà gắng sức chống giữ.",
+        "Quân sĩ đói rét, mỏi mệt, mà quân Hán cứ ngày một đông, vây ép bốn bề.",
+        "Những người theo hai bà từ buổi đầu, kẻ còn người mất.",
+        "Hai bà biết thế mình không thể địch nổi quân Mã Viện được nữa.",
+        "Nhưng đầu hàng thì nhất định không chịu.",
+        "Người đã thề trước trời đất rửa sạch nước thù thì không thể quỳ gối trước kẻ thù.",
+        "Hai bà bèn rút quân về xã Hát Môn, bên bờ sông Hát,",
+        "nơi tương truyền ngày trước hai bà đã lập đàn thề."
+      ],
+      "image": {
+        "prompt": "the Trung sisters standing on a hill at Cam Khe at dusk, exhausted soldiers resting around small campfires, Han army torches surrounding the valley in the distance, grave and resolute faces",
+        "seed": 4017651634,
+        "character": "trung-trac"
+      },
+      "video": {
+        "motionPrompt": "campfires flicker, the ring of enemy torches slowly tightens in the distance, the sisters stand still as wind moves their hair and cloaks",
+        "seed": 2403141241
+      },
+      "voice": {}
+    },
+    {
+      "id": "song-hat",
+      "title": "Dòng sông Hát",
+      "narrator": "ke-chuyen",
+      "narration": "Đến bên sông Hát, Trưng Vương nhìn dòng nước, rồi gieo mình xuống sông tự tận. Trưng Nhị thấy chị đã liều mình, cũng nhảy xuống theo chị. Đó là năm thứ ba Trưng Vương ở ngôi. Sách xưa chép lại rằng hai bà tuy không giữ được nước lâu dài, nhưng biết căm giận kẻ tàn ác, dấy binh đánh đuổi, lừng lẫy một thời, để lại tấm gương cho đời sau. Dòng sông Hát lặng lẽ trôi, mang theo hai người con gái anh hùng của đất Mê Linh.",
+      "subtitles": [
+        "Đến bên sông Hát, Trưng Vương nhìn dòng nước, rồi gieo mình xuống sông tự tận.",
+        "Trưng Nhị thấy chị đã liều mình, cũng nhảy xuống theo chị.",
+        "Đó là năm thứ ba Trưng Vương ở ngôi.",
+        "Sách xưa chép lại rằng hai bà tuy không giữ được nước lâu dài,",
+        "nhưng biết căm giận kẻ tàn ác, dấy binh đánh đuổi, lừng lẫy một thời,",
+        "để lại tấm gương cho đời sau.",
+        "Dòng sông Hát lặng lẽ trôi, mang theo hai người con gái anh hùng của đất Mê Linh."
+      ],
+      "image": {
+        "prompt": "the Hat river at dawn, wide and calm, two women warriors in red and green standing on the bank with their backs to the viewer, looking out over the water, mist rising, a solemn farewell mood",
+        "seed": 3728367839,
+        "character": "trung-nhi"
+      },
+      "video": {
+        "motionPrompt": "mist slowly rises from the calm river, the two figures stand motionless, ripples spread across the water, the light grows pale gold",
+        "seed": 4253679907
+      },
+      "voice": {}
+    },
+    {
+      "id": "tuong-da",
+      "title": "Hai pho tượng đá",
+      "narrator": "ke-chuyen",
+      "narration": "Tương truyền, sau khi hai bà gieo mình xuống sông, có hai pho tượng đá hình hai người con gái nổi lên, trôi lênh đênh trên mặt nước. Dân các làng ven sông thấy vậy, tranh nhau ra khấn vái, mong vớt về thờ, nhưng không làng nào kéo vào được. Chỉ đến bãi làng Đồng Nhân, dân làng khấn xong thì tượng trôi vào bờ. Dân Đồng Nhân bèn lập đền thờ ngay trên bãi. Dân Hát Môn cảm sự linh thiêng ấy, cũng dựng đền thờ vọng hai bà bên bờ sông.",
+      "subtitles": [
+        "Tương truyền, sau khi hai bà gieo mình xuống sông,",
+        "có hai pho tượng đá hình hai người con gái nổi lên, trôi lênh đênh trên mặt nước.",
+        "Dân các làng ven sông thấy vậy, tranh nhau ra khấn vái, mong vớt về thờ,",
+        "nhưng không làng nào kéo vào được.",
+        "Chỉ đến bãi làng Đồng Nhân, dân làng khấn xong thì tượng trôi vào bờ.",
+        "Dân Đồng Nhân bèn lập đền thờ ngay trên bãi.",
+        "Dân Hát Môn cảm sự linh thiêng ấy, cũng dựng đền thờ vọng hai bà bên bờ sông."
+      ],
+      "image": {
+        "prompt": "two stone statues of women gently floating on a river, villagers on the banks kneeling and praying with incense, a small riverside village of Dong Nhan on the sand bank, soft morning light",
+        "seed": 4292453498
+      },
+      "video": {
+        "motionPrompt": "the two stone statues drift slowly toward the bank, incense smoke curls up, villagers bow, water lapping softly",
+        "seed": 305901301
+      },
+      "voice": {}
+    },
+    {
+      "id": "den-hai-ba",
+      "title": "Đền Hai Bà",
+      "narrator": "ke-chuyen",
+      "narration": "Đến đời vua Lý Anh Tông, bãi Đồng Nhân bị sông lở, nước ăn gần tới miếu. Vua sai dân làng Hưng Viên ở phía trong đê ra rước tượng hai bà vào, ban tiền cho lập miếu mới, phong làm Trinh Linh phu nhân. Sang đời Trần, triều đình lại gia phong thêm mỹ tự. Ngôi đền ấy đến nay vẫn còn, dân gian quen gọi là đền Hai Bà. Gần hai nghìn năm đã qua, mỗi độ xuân về, người ta vẫn dâng hương tưởng nhớ hai người con gái đất Mê Linh, những người đầu tiên đã đứng lên đòi lại non sông cho người Việt.",
+      "subtitles": [
+        "Đến đời vua Lý Anh Tông, bãi Đồng Nhân bị sông lở, nước ăn gần tới miếu.",
+        "Vua sai dân làng Hưng Viên ở phía trong đê ra rước tượng hai bà vào,",
+        "ban tiền cho lập miếu mới, phong làm Trinh Linh phu nhân.",
+        "Sang đời Trần, triều đình lại gia phong thêm mỹ tự.",
+        "Ngôi đền ấy đến nay vẫn còn, dân gian quen gọi là đền Hai Bà.",
+        "Gần hai nghìn năm đã qua, mỗi độ xuân về,",
+        "người ta vẫn dâng hương tưởng nhớ hai người con gái đất Mê Linh,",
+        "những người đầu tiên đã đứng lên đòi lại non sông cho người Việt."
+      ],
+      "image": {
+        "prompt": "a traditional Vietnamese temple with curved tiled roofs and incense smoke, procession of villagers carrying a palanquin with two statues across a dyke, royal officials of the Ly dynasty in attendance, spring blossoms",
+        "seed": 3598778261
+      },
+      "video": {
+        "motionPrompt": "the procession moves slowly along the dyke, banners sway, incense smoke drifts from the temple, petals fall gently",
+        "seed": 3195573707
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "solemn and heroic Vietnamese traditional instrumental, deep bronze drum beats like Dong Son drums, dan bau melody and bamboo flute, rising to a proud march then fading to a quiet river lament, slow to moderate tempo, no vocals",
+    "durationSeconds": 170,
+    "seed": 2686325809
+  }
+}

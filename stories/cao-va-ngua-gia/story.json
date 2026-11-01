@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "slug": "cao-va-ngua-gia",
+  "shelf": "world",
+  "title": "Cáo và con ngựa già",
+  "summary": "Con ngựa già cày ruộng cả đời bị ông chủ đuổi đi, chỉ được nhận lại nếu mang về được một con sư tử. Nhờ một chú cáo tinh khôn, ngựa già làm được điều không ai tin nổi. Truyện cổ Grimm về lòng biết ơn, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Der Fuchs und das Pferd\" (Kinder- und Hausmärchen, bản 1857, truyện số 132), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh của Margaret Hunt trên Project Gutenberg #5314 (và #2591). Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào. Bản kể làm nhẹ cho cả nhà: ngựa giả vờ ngủ say chứ không giả chết, sư tử chỉ bị kéo về và gầm vang chứ không bị hại.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, farm fields and a deep green forest edge, friendly expressive animals, warm afternoon light, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ngua-gia",
+      "name": "Ngựa già",
+      "seed": 1228370991,
+      "sheetPrompt": "an old white farm horse with a grey muzzle, gentle tired eyes, a slightly sagging back, kind and loyal look, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cao",
+      "name": "Cáo",
+      "seed": 3413603217,
+      "sheetPrompt": "a clever red fox from a German fairy tale with a bushy tail, bright amber eyes and a friendly sly grin, standing upright, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "su-tu",
+      "name": "Sư tử",
+      "seed": 28841534,
+      "sheetPrompt": "a big lion with a shaggy golden mane, proud but rather comical expression, not fierce, full body, side view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "bi-duoi-di",
+      "title": "Ngựa già bị đuổi đi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bác nông dân nuôi một con ngựa rất trung thành. Bao nhiêu năm nay, ngựa kéo cày, kéo xe, chưa từng một ngày lười biếng. Nhưng rồi ngựa già đi, chân chậm lại, cày không nổi nữa. Ông chủ bèn chẳng cho nó ăn, lại còn bảo: \"Ta chẳng dùng mày được việc gì nữa. Nhưng ta cũng chẳng đến nỗi tệ. Nếu mày còn đủ sức mang về cho ta một con sư tử, ta sẽ nuôi mày. Còn bây giờ thì ra khỏi chuồng ngay!\" Nói rồi ông đuổi ngựa ra cánh đồng trống.",
+      "subtitles": [
+        "Ngày xưa, có một bác nông dân nuôi một con ngựa rất trung thành.",
+        "Bao nhiêu năm nay, ngựa kéo cày, kéo xe, chưa từng một ngày lười biếng.",
+        "Nhưng rồi ngựa già đi, chân chậm lại, cày không nổi nữa.",
+        "Ông chủ bèn chẳng cho nó ăn, lại còn bảo:",
+        "\"Ta chẳng dùng mày được việc gì nữa. Nhưng ta cũng chẳng đến nỗi tệ.",
+        "Nếu mày còn đủ sức mang về cho ta một con sư tử, ta sẽ nuôi mày.",
+        "Còn bây giờ thì ra khỏi chuồng ngay!\"",
+        "Nói rồi ông đuổi ngựa ra cánh đồng trống."
+      ],
+      "image": {
+        "prompt": "a stern farmer pointing away from his stable door, an old white horse with its head hanging low walking out into the open fields, grey cloudy sky",
+        "seed": 1658264250,
+        "character": "ngua-gia"
+      },
+      "video": {
+        "motionPrompt": "the old horse turns and walks slowly away with drooping head, the farmer folds his arms, wind ripples the grass",
+        "seed": 3277786897
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-cao",
+      "title": "Gặp chú cáo trong rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngựa buồn lắm, lững thững đi vào rừng tìm chỗ tránh mưa gió. Một chú cáo đỏ chạy ra hỏi: \"Bác ngựa ơi, sao bác cúi đầu đi một mình thế?\" Ngựa thở dài: \"Lòng tham và lòng biết ơn chẳng ở chung một nhà đâu cháu ạ. Ông chủ quên hết bao năm ta làm lụng cho ông. Giờ ta cày không nổi, ông chẳng cho ăn, còn đuổi ta đi.\" \"Thế ông ấy không cho bác một cơ hội nào sao?\" Cáo hỏi. \"Có, mà cơ hội ấy chẳng ra gì: phải mang về một con sư tử. Ông biết thừa là ta không làm nổi.\"",
+      "subtitles": [
+        "Ngựa buồn lắm, lững thững đi vào rừng tìm chỗ tránh mưa gió.",
+        "Một chú cáo đỏ chạy ra hỏi: \"Bác ngựa ơi, sao bác cúi đầu đi một mình thế?\"",
+        "Ngựa thở dài: \"Lòng tham và lòng biết ơn chẳng ở chung một nhà đâu cháu ạ.",
+        "Ông chủ quên hết bao năm ta làm lụng cho ông.",
+        "Giờ ta cày không nổi, ông chẳng cho ăn, còn đuổi ta đi.\"",
+        "\"Thế ông ấy không cho bác một cơ hội nào sao?\" Cáo hỏi.",
+        "\"Có, mà cơ hội ấy chẳng ra gì: phải mang về một con sư tử.",
+        "Ông biết thừa là ta không làm nổi.\""
+      ],
+      "image": {
+        "prompt": "at the edge of a green forest, a friendly red fox looking up at the sad old white horse, the fox tilting its head with sympathy",
+        "seed": 1970725704,
+        "character": "cao"
+      },
+      "video": {
+        "motionPrompt": "the fox trots up and sits, ears perked, the old horse lowers his head and sighs, leaves flutter gently",
+        "seed": 46883186
+      },
+      "voice": {}
+    },
+    {
+      "id": "ke-cua-cao",
+      "title": "Mưu kế của cáo",
+      "narrator": "ke-chuyen",
+      "narration": "Cáo nheo mắt cười: \"Để cháu giúp bác. Bác cứ nằm xuống đây, duỗi thẳng chân, nhắm mắt như ngủ say, đừng nhúc nhích nhé.\" Ngựa làm đúng như lời cáo dặn. Cáo chạy đến hang sư tử ở gần đó, cúi chào thật lễ phép: \"Thưa ngài sư tử, ngoài kia có một con ngựa nằm im không động đậy. Ngài theo cháu ra mà xem, có một bữa ăn thịnh soạn đang chờ ngài đấy.\" Sư tử nghe bùi tai, liền đi theo cáo.",
+      "subtitles": [
+        "Cáo nheo mắt cười: \"Để cháu giúp bác.",
+        "Bác cứ nằm xuống đây, duỗi thẳng chân, nhắm mắt như ngủ say, đừng nhúc nhích nhé.\"",
+        "Ngựa làm đúng như lời cáo dặn.",
+        "Cáo chạy đến hang sư tử ở gần đó, cúi chào thật lễ phép:",
+        "\"Thưa ngài sư tử, ngoài kia có một con ngựa nằm im không động đậy.",
+        "Ngài theo cháu ra mà xem, có một bữa ăn thịnh soạn đang chờ ngài đấy.\"",
+        "Sư tử nghe bùi tai, liền đi theo cáo."
+      ],
+      "image": {
+        "prompt": "the old white horse lying stretched out on the grass with eyes closed, the red fox bowing politely at the mouth of a rocky den where a big lion peeks out curiously",
+        "seed": 601622497,
+        "character": "cao"
+      },
+      "video": {
+        "motionPrompt": "the fox bows with a sweep of his tail, the lion yawns and steps out of the den, the horse lies perfectly still",
+        "seed": 2866588217
+      },
+      "voice": {}
+    },
+    {
+      "id": "buoc-duoi",
+      "title": "Buộc chân sư tử vào đuôi ngựa",
+      "narrator": "ke-chuyen",
+      "narration": "Đến nơi, cáo bảo: \"Ăn ở đây thì không được thoải mái lắm đâu ạ. Hay để cháu buộc con ngựa vào ngài, ngài kéo nó về hang mà ăn cho yên.\" Sư tử thấy hay, bèn nằm xuống, giữ yên cho cáo buộc. Nhưng cáo tinh khôn lại lấy đuôi ngựa buộc chặt bốn chân sư tử với nhau, quấn đi quấn lại, thắt nút thật kỹ, khỏe đến mấy cũng chẳng giật ra được. Xong xuôi, cáo vỗ vai ngựa: \"Kéo đi, ngựa trắng ơi, kéo đi!\"",
+      "subtitles": [
+        "Đến nơi, cáo bảo: \"Ăn ở đây thì không được thoải mái lắm đâu ạ.",
+        "Hay để cháu buộc con ngựa vào ngài, ngài kéo nó về hang mà ăn cho yên.\"",
+        "Sư tử thấy hay, bèn nằm xuống, giữ yên cho cáo buộc.",
+        "Nhưng cáo tinh khôn lại lấy đuôi ngựa buộc chặt bốn chân sư tử với nhau,",
+        "quấn đi quấn lại, thắt nút thật kỹ, khỏe đến mấy cũng chẳng giật ra được.",
+        "Xong xuôi, cáo vỗ vai ngựa: \"Kéo đi, ngựa trắng ơi, kéo đi!\""
+      ],
+      "image": {
+        "prompt": "the clever fox busily tying the old horse's long tail around the legs of a lion lying calmly on the grass, the lion looking puzzled, comical scene",
+        "seed": 2541892597,
+        "character": "su-tu"
+      },
+      "video": {
+        "motionPrompt": "the fox loops and knots the tail quickly, then pats the horse on the shoulder, the lion blinks in confusion",
+        "seed": 774361038
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-nha",
+      "title": "Ngựa già kéo sư tử về nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Ngựa bật dậy ngay, kéo sư tử đi băng băng. Sư tử gầm vang, gầm to đến nỗi chim chóc khắp rừng giật mình bay tán loạn. Nhưng ngựa cứ mặc kệ, kéo qua đồi, qua ruộng, về đến tận cửa nhà ông chủ. Ông chủ thấy con sư tử thì tròn mắt, rồi bỗng thấy mình thật có lỗi. Ông vuốt bờm ngựa: \"Mày ở lại với ta, ta sẽ chăm sóc mày tử tế.\" Từ đó, ngựa già được ăn no, ở ấm, sống yên vui cho đến hết đời.",
+      "subtitles": [
+        "Ngựa bật dậy ngay, kéo sư tử đi băng băng.",
+        "Sư tử gầm vang, gầm to đến nỗi chim chóc khắp rừng giật mình bay tán loạn.",
+        "Nhưng ngựa cứ mặc kệ, kéo qua đồi, qua ruộng, về đến tận cửa nhà ông chủ.",
+        "Ông chủ thấy con sư tử thì tròn mắt, rồi bỗng thấy mình thật có lỗi.",
+        "Ông vuốt bờm ngựa: \"Mày ở lại với ta, ta sẽ chăm sóc mày tử tế.\"",
+        "Từ đó, ngựa già được ăn no, ở ấm, sống yên vui cho đến hết đời."
+      ],
+      "image": {
+        "prompt": "the old white horse proudly trotting up to a farmhouse dragging a roaring but harmless lion tied by its tail, the astonished farmer with wide eyes at the gate, birds flying up from the trees",
+        "seed": 1506333148,
+        "character": "ngua-gia"
+      },
+      "video": {
+        "motionPrompt": "the horse trots in triumph, the lion roars and wriggles, birds burst from the trees, the farmer drops his jaw then smiles and strokes the horse",
+        "seed": 3101666575
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm German folk tune for a gentle animal fable, accordion and clarinet, a sad slow opening, a sly pizzicato theme for the fox, a playful gallop at the end, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2341646151
+  }
+}

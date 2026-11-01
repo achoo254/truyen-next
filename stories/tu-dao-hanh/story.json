@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "slug": "tu-dao-hanh",
+  "shelf": "adults",
+  "title": "Thiền sư Từ Đạo Hạnh",
+  "summary": "Cha bị pháp sư Đại Điên dùng phép hại chết, Từ Đạo Hạnh vào hang núi Phật Tích tu luyện, gậy ném xuống sông trôi ngược như rồng. Báo thù xong, ông ngộ đạo, rồi tương truyền thác sinh làm vua Lý Thần Tông: truyện kỳ lạ về vị thiền sư chùa Thầy.",
+  "themes": [
+    "than-thoai",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Kể theo truyện Từ Đạo Hạnh trong Nam Hải dị nhân liệt truyện (Phan Kế Bính, 1909; tác giả mất 1921), bản trên Wikisource, phạm vi công cộng. Lời kể viết mới, chỉ theo cốt truyện, không chép nguyên văn; điều thuộc truyền thuyết được kể là tương truyền.",
+  "basedOn": "Nam Hải dị nhân liệt truyện, truyện Từ Đạo Hạnh",
+  "style": "classical Vietnamese ink and silk painting illustration, expressive brush linework with misty washes of jade green, indigo, saffron and grey on aged silk, Ly dynasty Vietnam of the twelfth century with Buddhist pagodas, limestone caves, lotus ponds and the To Lich river, mystical and serene mood with touches of supernatural wonder for adult readers, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "dao-hanh",
+      "name": "Từ Đạo Hạnh",
+      "sheetPrompt": "Tu Dao Hanh, a Vietnamese Buddhist monk of the Ly dynasty, lean ascetic face with intense calm eyes, shaved head, saffron and brown monk robe with a wooden prayer bead necklace, holding a long wooden staff, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 4106146560
+    },
+    {
+      "id": "dai-dien",
+      "name": "Đại Điên",
+      "sheetPrompt": "Dai Dien, a sinister sorcerer monk of the Ly dynasty, gaunt face with a wild grey beard and piercing eyes, shaggy hair, dark grey patched robe hung with talismans, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 1860087784
+    },
+    {
+      "id": "sung-hien-hau",
+      "name": "Sùng Hiền Hầu",
+      "sheetPrompt": "Sung Hien Hau, a Ly dynasty royal prince, gentle wise face with a neat black beard, tall black court hat, deep blue embroidered court robe with a jade belt, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 1192123131
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tuoi-tre",
+      "title": "Chàng trai làng Láng",
+      "narrator": "ke-chuyen",
+      "narration": "Đời nhà Lý, có một vị tăng quan tên là Từ Vinh, thường đến chơi làng An Lãng, tức làng Láng ở ven Thăng Long. Ông làm nhà ở đấy, lấy vợ họ Lăng, sinh được một người con trai tên là Từ Lộ, tự là Đạo Hạnh. Thuở nhỏ, Đạo Hạnh có tiếng ham chơi. Chàng kết bạn với mấy người cùng làng, ban ngày thổi sáo, gảy đàn, đánh bạc làm vui. Cha thấy vậy thường trách mắng là lười học. Nhưng về sau ông mới biết, cứ đêm xuống là con trai lại thắp đèn, chăm chỉ đọc sách tới khuya. Từ đó, ông không nói gì nữa.",
+      "subtitles": [
+        "Đời nhà Lý, có một vị tăng quan tên là Từ Vinh, thường đến chơi làng An Lãng,",
+        "tức làng Láng ở ven Thăng Long.",
+        "Ông làm nhà ở đấy, lấy vợ họ Lăng, sinh được một người con trai tên là Từ Lộ,",
+        "tự là Đạo Hạnh. Thuở nhỏ, Đạo Hạnh có tiếng ham chơi.",
+        "Chàng kết bạn với mấy người cùng làng, ban ngày thổi sáo, gảy đàn, đánh bạc làm vui.",
+        "Cha thấy vậy thường trách mắng là lười học.",
+        "Nhưng về sau ông mới biết, cứ đêm xuống là con trai lại thắp đèn,",
+        "chăm chỉ đọc sách tới khuya. Từ đó, ông không nói gì nữa."
+      ],
+      "image": {
+        "prompt": "a young Vietnamese man of the Ly dynasty playing a bamboo flute with friends under a banyan tree in Lang village by day, and the same young man studying by oil lamp late at night in a small wooden house, his father watching quietly from the doorway",
+        "seed": 902209877,
+        "character": "dao-hanh"
+      },
+      "video": {
+        "motionPrompt": "friends laugh and play under the banyan tree, then the scene darkens to night, the oil lamp flickers as he turns a page, the father smiles faintly at the door",
+        "seed": 1857413744
+      },
+      "voice": {}
+    },
+    {
+      "id": "cha-bi-hai",
+      "title": "Mối thù của cha",
+      "narrator": "ke-chuyen",
+      "narration": "Đạo Hạnh đi thi khoa Bạch Liên, đỗ tăng quan. Không bao lâu sau thì xảy ra chuyện lớn. Cha chàng là Từ Vinh dùng tà thuật chống lại Diên Thành Hầu. Diên Thành Hầu nhờ một pháp sư tên là Đại Điên dùng phép đánh chết Từ Vinh, rồi quẳng thây xuống sông Tô Lịch. Lạ thay, thây Từ Vinh trôi qua cầu Yên Quyết, đến bến nhà Diên Thành Hầu thì bỗng đứng thẳng lên, tay chỉ vào trong nhà, suốt ngày không trôi đi. Diên Thành Hầu sợ hãi, mời Đại Điên đến. Đại Điên đứng trên bờ quát rằng: Thầy chùa giận không để cách đêm, dù sống dù chết cũng là một giấc mộng mà thôi. Dứt lời, thây ngã xuống và trôi đi.",
+      "subtitles": [
+        "Đạo Hạnh đi thi khoa Bạch Liên, đỗ tăng quan.",
+        "Không bao lâu sau thì xảy ra chuyện lớn.",
+        "Cha chàng là Từ Vinh dùng tà thuật chống lại Diên Thành Hầu.",
+        "Diên Thành Hầu nhờ một pháp sư tên là Đại Điên dùng phép đánh chết Từ Vinh,",
+        "rồi quẳng thây xuống sông Tô Lịch. Lạ thay, thây Từ Vinh trôi qua cầu Yên Quyết,",
+        "đến bến nhà Diên Thành Hầu thì bỗng đứng thẳng lên, tay chỉ vào trong nhà,",
+        "suốt ngày không trôi đi. Diên Thành Hầu sợ hãi, mời Đại Điên đến.",
+        "Đại Điên đứng trên bờ quát rằng: Thầy chùa giận không để cách đêm,",
+        "dù sống dù chết cũng là một giấc mộng mà thôi.",
+        "Dứt lời, thây ngã xuống và trôi đi."
+      ],
+      "image": {
+        "prompt": "the To Lich river at dusk near a noble's riverside house, a ghostly pale figure standing upright in the water and pointing toward the house, the gaunt sorcerer Dai Dien shouting from the bank with a raised hand, frightened servants behind",
+        "seed": 2037530012,
+        "character": "dai-dien"
+      },
+      "video": {
+        "motionPrompt": "the pale figure stands rigid in the water, mist curls, Dai Dien thrusts out his hand and shouts, the figure slowly sinks back and drifts away downstream",
+        "seed": 606772922
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-ngan",
+      "title": "Tiếng ngăn trên không",
+      "narrator": "ke-chuyen",
+      "narration": "Đạo Hạnh đau đớn, quyết báo thù cho cha. Chàng rình lúc Đại Điên đi chơi, cầm gậy chờ sẵn bên đường. Nhưng vừa định xông ra thì trên không trung bỗng có tiếng ngăn lại: Chớ! Chớ! Đạo Hạnh giật mình, buông gậy chạy về. Chàng hiểu rằng sức mình chưa đủ, phép thuật của Đại Điên còn cao hơn mình nhiều. Uất ức, chàng định sang tận nước Thiên Trúc để học phép. Đi đến núi Kim Sỉ, đường hiểm trở quá không qua được, chàng đành quay trở về.",
+      "subtitles": [
+        "Đạo Hạnh đau đớn, quyết báo thù cho cha.",
+        "Chàng rình lúc Đại Điên đi chơi, cầm gậy chờ sẵn bên đường.",
+        "Nhưng vừa định xông ra thì trên không trung bỗng có tiếng ngăn lại: Chớ!",
+        "Chớ! Đạo Hạnh giật mình, buông gậy chạy về.",
+        "Chàng hiểu rằng sức mình chưa đủ, phép thuật của Đại Điên còn cao hơn mình nhiều.",
+        "Uất ức, chàng định sang tận nước Thiên Trúc để học phép.",
+        "Đi đến núi Kim Sỉ, đường hiểm trở quá không qua được, chàng đành quay trở về."
+      ],
+      "image": {
+        "prompt": "a forest roadside, young Tu Dao Hanh hiding behind a tree gripping a wooden staff, rays of light breaking through the clouds above as if a voice speaks from the sky, then a tiny traveller facing towering jagged mountains",
+        "seed": 67189089,
+        "character": "dao-hanh"
+      },
+      "video": {
+        "motionPrompt": "light rays pulse from the clouds, Dao Hanh freezes and drops the staff, the scene shifts to him small before steep mountains, wind blows his robe",
+        "seed": 3991948247
+      },
+      "voice": {}
+    },
+    {
+      "id": "hang-phat-tich",
+      "title": "Hang núi Phật Tích",
+      "narrator": "ke-chuyen",
+      "narration": "Đạo Hạnh bèn vào hang núi Phật Tích, nơi có chùa Thầy sau này, kết hội Bạch Liên để tu luyện. Ngày nào chàng cũng tụng kinh Đại Bi Tâm và niệm thần chú, mỗi đợt mười tám vạn lần mới thôi. Năm tháng trôi qua trong hang đá lạnh. Một đêm, chàng nằm mộng thấy thần hiện lên nói rằng: Đệ tử là Tứ Trấn Thiên Vương đây, cảm công đức của thầy tụng kinh nên đến hầu, thầy muốn sai khiến điều gì, đệ tử xin vâng lệnh. Tỉnh dậy, Đạo Hạnh biết đạo pháp của mình đã thành.",
+      "subtitles": [
+        "Đạo Hạnh bèn vào hang núi Phật Tích, nơi có chùa Thầy sau này,",
+        "kết hội Bạch Liên để tu luyện. Ngày nào chàng cũng tụng kinh Đại Bi Tâm và niệm thần chú,",
+        "mỗi đợt mười tám vạn lần mới thôi. Năm tháng trôi qua trong hang đá lạnh.",
+        "Một đêm, chàng nằm mộng thấy thần hiện lên nói rằng: Đệ tử là Tứ Trấn Thiên Vương đây,",
+        "cảm công đức của thầy tụng kinh nên đến hầu, thầy muốn sai khiến điều gì,",
+        "đệ tử xin vâng lệnh. Tỉnh dậy, Đạo Hạnh biết đạo pháp của mình đã thành."
+      ],
+      "image": {
+        "prompt": "inside a limestone cave on Phat Tich mountain, Tu Dao Hanh in monk robes meditating and chanting before a small Buddha statue by candlelight, a towering armoured guardian deity appearing in a glowing dream vision above him",
+        "seed": 3004281618,
+        "character": "dao-hanh"
+      },
+      "video": {
+        "motionPrompt": "candle flames sway, Dao Hanh's lips move in chant, the guardian deity's figure glows into view and slowly bows, light fills the cave",
+        "seed": 2433614332
+      },
+      "voice": {}
+    },
+    {
+      "id": "gay-troi-nguoc",
+      "title": "Chiếc gậy trôi ngược",
+      "narrator": "ke-chuyen",
+      "narration": "Đạo Hạnh muốn thử phép, bèn ra đầu bến sông Yên Quyết, ném cây gậy xuống nước. Nước sông chảy xuôi, mà cây gậy lại trôi ngược dòng, uốn lượn như một con rồng, đi mãi đến tận cầu Tây Dương mới dừng. Đạo Hạnh mừng rỡ nói: Phép ta hơn Đại Điên nhiều rồi! Chàng liền dùng phép tàng hình, đến thẳng chỗ Đại Điên đang ngồi, hỏi rằng: Mày có nhớ việc ngày trước không? Đại Điên ngẩng lên nhìn quanh, chẳng thấy ai cả. Đạo Hạnh cầm gậy đánh. Đại Điên từ đó sinh bệnh rồi chết.",
+      "subtitles": [
+        "Đạo Hạnh muốn thử phép, bèn ra đầu bến sông Yên Quyết, ném cây gậy xuống nước.",
+        "Nước sông chảy xuôi, mà cây gậy lại trôi ngược dòng, uốn lượn như một con rồng,",
+        "đi mãi đến tận cầu Tây Dương mới dừng.",
+        "Đạo Hạnh mừng rỡ nói: Phép ta hơn Đại Điên nhiều rồi!",
+        "Chàng liền dùng phép tàng hình, đến thẳng chỗ Đại Điên đang ngồi, hỏi rằng:",
+        "Mày có nhớ việc ngày trước không? Đại Điên ngẩng lên nhìn quanh, chẳng thấy ai cả.",
+        "Đạo Hạnh cầm gậy đánh. Đại Điên từ đó sinh bệnh rồi chết."
+      ],
+      "image": {
+        "prompt": "a wooden monk's staff moving upstream against the current of a river like a swimming dragon, leaving a curling wake, Tu Dao Hanh standing on the river bank watching with joy",
+        "seed": 3300914013,
+        "character": "dao-hanh"
+      },
+      "video": {
+        "motionPrompt": "the staff surges upstream twisting like a dragon through the water, ripples curl behind it, Dao Hanh raises his hands in delight",
+        "seed": 871064746
+      },
+      "voice": {}
+    },
+    {
+      "id": "chan-tam",
+      "title": "Hỏi về chân tâm",
+      "narrator": "ke-chuyen",
+      "narration": "Báo xong thù cha, lòng Đạo Hạnh nhẹ nhõm, oán cũ tan hết, lòng trần cũng sạch. Ông đi khắp núi rừng tìm thầy hỏi đạo. Nghe nói có Kiều Trí Huyền tinh thông đạo pháp, ông tìm đến hỏi thế nào là chân tâm. Kiều Trí Huyền đáp bằng một bài kệ, nhưng ông chưa hiểu. Ông lại tìm đến thiền sư Sùng Phạm ở chùa Pháp Vân, hỏi: Thưa thầy, thế nào là chân tâm? Sùng Phạm hỏi lại: Cái gì chẳng phải là chân tâm? Đạo Hạnh bỗng nhiên tỉnh ngộ, lạy tạ thầy rồi trở về. Từ đó pháp lực của ông càng cao, đến rắn độc trong núi, hùm dữ trên rừng cũng sai khiến được.",
+      "subtitles": [
+        "Báo xong thù cha, lòng Đạo Hạnh nhẹ nhõm, oán cũ tan hết, lòng trần cũng sạch.",
+        "Ông đi khắp núi rừng tìm thầy hỏi đạo.",
+        "Nghe nói có Kiều Trí Huyền tinh thông đạo pháp, ông tìm đến hỏi thế nào là chân tâm.",
+        "Kiều Trí Huyền đáp bằng một bài kệ, nhưng ông chưa hiểu.",
+        "Ông lại tìm đến thiền sư Sùng Phạm ở chùa Pháp Vân, hỏi: Thưa thầy, thế nào là chân tâm?",
+        "Sùng Phạm hỏi lại: Cái gì chẳng phải là chân tâm?",
+        "Đạo Hạnh bỗng nhiên tỉnh ngộ, lạy tạ thầy rồi trở về.",
+        "Từ đó pháp lực của ông càng cao, đến rắn độc trong núi,",
+        "hùm dữ trên rừng cũng sai khiến được."
+      ],
+      "image": {
+        "prompt": "an old Zen master and Tu Dao Hanh sitting face to face on a mountain temple veranda among pine trees, the master gesturing gently, a tiger and a snake resting calmly at the edge of the forest nearby",
+        "seed": 2286431284,
+        "character": "dao-hanh"
+      },
+      "video": {
+        "motionPrompt": "pine needles drift down, the master raises one finger, Dao Hanh's eyes widen in sudden understanding, the tiger lowers its head peacefully",
+        "seed": 1364234109
+      },
+      "voice": {}
+    },
+    {
+      "id": "giac-hoang",
+      "title": "Đứa trẻ tên Giác Hoàng",
+      "narrator": "ke-chuyen",
+      "narration": "Bấy giờ vua Lý Nhân Tông chưa có con nối dõi. Có người ở Thanh Hóa ra tâu rằng ngoài bãi biển có một đứa trẻ lên ba, tự xưng là hoàng tử, tên là Giác Hoàng, việc gì của nhà vua nó cũng biết. Vua sai sứ đến xem, quả có đứa trẻ ấy, bèn đón về kinh, cho ở chùa Báo Thiên. Thấy nó thông minh thần dị, vua muốn nhận làm con. Các quan tâu rằng đứa trẻ tuy linh dị, nhưng phải thác sinh vào cung cấm mới được. Vua nghe theo, mở đàn chay lớn bảy ngày đêm để nó làm phép đầu thai.",
+      "subtitles": [
+        "Bấy giờ vua Lý Nhân Tông chưa có con nối dõi.",
+        "Có người ở Thanh Hóa ra tâu rằng ngoài bãi biển có một đứa trẻ lên ba,",
+        "tự xưng là hoàng tử, tên là Giác Hoàng, việc gì của nhà vua nó cũng biết.",
+        "Vua sai sứ đến xem, quả có đứa trẻ ấy, bèn đón về kinh, cho ở chùa Báo Thiên.",
+        "Thấy nó thông minh thần dị, vua muốn nhận làm con.",
+        "Các quan tâu rằng đứa trẻ tuy linh dị, nhưng phải thác sinh vào cung cấm mới được.",
+        "Vua nghe theo, mở đàn chay lớn bảy ngày đêm để nó làm phép đầu thai."
+      ],
+      "image": {
+        "prompt": "a mysterious three year old child in a small yellow robe sitting calmly in the great hall of Bao Thien pagoda in Thang Long, King Ly Nhan Tong and courtiers watching in wonder, monks preparing a grand altar with banners and incense",
+        "seed": 3008457413
+      },
+      "video": {
+        "motionPrompt": "incense smoke rises in thick spirals, monks walk around the altar, the child turns his head slowly toward the king with knowing eyes",
+        "seed": 2472519092
+      },
+      "voice": {}
+    },
+    {
+      "id": "luoi-sat",
+      "title": "Lưới sắt khắp thế gian",
+      "narrator": "ke-chuyen",
+      "narration": "Đạo Hạnh nghe chuyện, bảo riêng với chị gái rằng: Đây tất là Đại Điên muốn đầu thai vào nhà vua để báo thù. Kẻ ấy dùng tà thuật mê hoặc người ta đã nhiều, tôi sao nỡ ngồi nhìn mà không cứu? Ông bảo chị ăn mặc giả làm nhà sư, giấu mấy quả ấn pháp sư, đem giắt lên mái nhà chỗ đàn chay. Cúng được ba hôm, Giác Hoàng lăn ra ốm, nói với mọi người rằng: Khắp thế giới chỗ nào cũng giăng lưới sắt, không có đường nào đầu thai được. Nói xong thì mất. Vua sai lục soát, tìm thấy mấy quả ấn có tên Từ Đạo Hạnh. Vua giận lắm, sai bắt ông giam vào lầu Hưng Khánh, đánh đòn, rồi họp các quan nghị tội.",
+      "subtitles": [
+        "Đạo Hạnh nghe chuyện, bảo riêng với chị gái rằng:",
+        "Đây tất là Đại Điên muốn đầu thai vào nhà vua để báo thù.",
+        "Kẻ ấy dùng tà thuật mê hoặc người ta đã nhiều, tôi sao nỡ ngồi nhìn mà không cứu?",
+        "Ông bảo chị ăn mặc giả làm nhà sư, giấu mấy quả ấn pháp sư,",
+        "đem giắt lên mái nhà chỗ đàn chay.",
+        "Cúng được ba hôm, Giác Hoàng lăn ra ốm, nói với mọi người rằng:",
+        "Khắp thế giới chỗ nào cũng giăng lưới sắt, không có đường nào đầu thai được.",
+        "Nói xong thì mất. Vua sai lục soát, tìm thấy mấy quả ấn có tên Từ Đạo Hạnh.",
+        "Vua giận lắm, sai bắt ông giam vào lầu Hưng Khánh, đánh đòn, rồi họp các quan nghị tội."
+      ],
+      "image": {
+        "prompt": "Tu Dao Hanh's sister disguised as a monk secretly tucking small carved seals under the eaves of a ceremonial hall at night, above the hall a vast shimmering net of iron light covering the sky",
+        "seed": 3811434532,
+        "character": "dao-hanh"
+      },
+      "video": {
+        "motionPrompt": "the sister slips the seals into the eaves and hurries away, a faint iron net of light shimmers and spreads across the night sky",
+        "seed": 3333797487
+      },
+      "voice": {}
+    },
+    {
+      "id": "sung-hien-hau",
+      "title": "Lời hứa với Sùng Hiền Hầu",
+      "narrator": "ke-chuyen",
+      "narration": "Đang bị giải đi, gặp lúc Sùng Hiền Hầu, em vua, đi qua, Đạo Hạnh kêu lên: Xin ngài rủ lòng thương cứu cho tôi, tôi xin đầu thai làm con ngài để báo ơn. Sùng Hiền Hầu gật đầu. Đến lúc nghị án, có người xin xử tử Đạo Hạnh. Sùng Hiền Hầu cười mà nói rằng: Giác Hoàng nếu có thần lực thật thì dù Từ Lộ giải chú thế nào cũng chẳng hề gì. Nay vì thế mà chết, thì Giác Hoàng còn kém Từ Lộ xa lắm. Bắt tội hắn, chi bằng để hắn thác sinh còn hơn. Vua nghe lời, tha cho Đạo Hạnh.",
+      "subtitles": [
+        "Đang bị giải đi, gặp lúc Sùng Hiền Hầu, em vua, đi qua, Đạo Hạnh kêu lên:",
+        "Xin ngài rủ lòng thương cứu cho tôi, tôi xin đầu thai làm con ngài để báo ơn.",
+        "Sùng Hiền Hầu gật đầu. Đến lúc nghị án, có người xin xử tử Đạo Hạnh.",
+        "Sùng Hiền Hầu cười mà nói rằng:",
+        "Giác Hoàng nếu có thần lực thật thì dù Từ Lộ giải chú thế nào cũng chẳng hề gì.",
+        "Nay vì thế mà chết, thì Giác Hoàng còn kém Từ Lộ xa lắm.",
+        "Bắt tội hắn, chi bằng để hắn thác sinh còn hơn.",
+        "Vua nghe lời, tha cho Đạo Hạnh."
+      ],
+      "image": {
+        "prompt": "Ly dynasty court hall, Prince Sung Hien Hau standing calmly before the king and smiling as he speaks, officials in debate, Tu Dao Hanh kneeling bound in monk robes at the side, light falling through tall doors",
+        "seed": 3216657184,
+        "character": "sung-hien-hau"
+      },
+      "video": {
+        "motionPrompt": "the prince opens his hands in a reasoned gesture, the king leans back thoughtfully, officials murmur, Dao Hanh lifts his head with hope",
+        "seed": 1110703251
+      },
+      "voice": {}
+    },
+    {
+      "id": "thac-sinh",
+      "title": "Lột xác ở chùa Thầy",
+      "narrator": "ke-chuyen",
+      "narration": "Được tha, Đạo Hạnh đến nhà Sùng Hiền Hầu. Phu nhân đang tắm, ông đến sát bên nhìn. Phu nhân giận lắm, thì bỗng thấy một đứa trẻ chạy vào trong thùng tắm. Bà kinh hãi kể với chồng, Sùng Hiền Hầu đã hiểu nên không trách hỏi gì. Từ đó phu nhân có mang. Đến kỳ sinh nở mà đau lâu chưa sinh được, Sùng Hiền Hầu sai người phi ngựa báo cho Đạo Hạnh. Ông tắm gội, thay áo, dặn học trò rằng mình sẽ thác sinh vào nhà đế vương, tạm làm thiên tử hai mươi ba năm, rồi trút xác mà hóa trong hang chùa Thầy. Đó là giờ ngọ. Đến giờ mùi, phu nhân sinh được một con trai, đặt tên là Dương Hoán.",
+      "subtitles": [
+        "Được tha, Đạo Hạnh đến nhà Sùng Hiền Hầu. Phu nhân đang tắm, ông đến sát bên nhìn.",
+        "Phu nhân giận lắm, thì bỗng thấy một đứa trẻ chạy vào trong thùng tắm.",
+        "Bà kinh hãi kể với chồng, Sùng Hiền Hầu đã hiểu nên không trách hỏi gì.",
+        "Từ đó phu nhân có mang. Đến kỳ sinh nở mà đau lâu chưa sinh được,",
+        "Sùng Hiền Hầu sai người phi ngựa báo cho Đạo Hạnh.",
+        "Ông tắm gội, thay áo, dặn học trò rằng mình sẽ thác sinh vào nhà đế vương,",
+        "tạm làm thiên tử hai mươi ba năm, rồi trút xác mà hóa trong hang chùa Thầy.",
+        "Đó là giờ ngọ. Đến giờ mùi, phu nhân sinh được một con trai, đặt tên là Dương Hoán."
+      ],
+      "image": {
+        "prompt": "inside the cave of Thay pagoda, Tu Dao Hanh sitting in lotus posture with eyes closed and a serene smile as his body becomes still like a statue, weeping disciples bowing around him, a faint golden light rising out of the cave toward a distant palace",
+        "seed": 55188953,
+        "character": "dao-hanh"
+      },
+      "video": {
+        "motionPrompt": "a soft golden light rises slowly from the still meditating monk and floats out of the cave mouth, disciples bow lower, candles flicker",
+        "seed": 828317607
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-than-tong",
+      "title": "Kiếp sau làm vua",
+      "narrator": "ke-chuyen",
+      "narration": "Dương Hoán lên hai tuổi đã rất thông minh. Vua Lý Nhân Tông yêu mến, đón vào cung nuôi làm con, rồi lập làm hoàng thái tử. Khi vua Nhân Tông mất, thái tử lên ngôi, tức là vua Lý Thần Tông. Người đời tin rằng đó chính là kiếp sau của thiền sư Từ Đạo Hạnh. Xác của Đạo Hạnh được dân làng đặt vào khám thờ trong chùa. Trong hang đá ở chùa Thầy còn một vết chân người, tương truyền là chỗ ông trút xác. Hằng năm, ngày mồng bảy tháng ba, thiên hạ nô nức kéo về chùa Thầy dự hội, tưởng nhớ vị thiền sư kỳ lạ của đất Phật Tích.",
+      "subtitles": [
+        "Dương Hoán lên hai tuổi đã rất thông minh.",
+        "Vua Lý Nhân Tông yêu mến, đón vào cung nuôi làm con, rồi lập làm hoàng thái tử.",
+        "Khi vua Nhân Tông mất, thái tử lên ngôi, tức là vua Lý Thần Tông.",
+        "Người đời tin rằng đó chính là kiếp sau của thiền sư Từ Đạo Hạnh.",
+        "Xác của Đạo Hạnh được dân làng đặt vào khám thờ trong chùa.",
+        "Trong hang đá ở chùa Thầy còn một vết chân người, tương truyền là chỗ ông trút xác.",
+        "Hằng năm, ngày mồng bảy tháng ba, thiên hạ nô nức kéo về chùa Thầy dự hội,",
+        "tưởng nhớ vị thiền sư kỳ lạ của đất Phật Tích."
+      ],
+      "image": {
+        "prompt": "Thay pagoda in spring festival, a beautiful old pagoda beside a lotus pond under Sai Son mountain, crowds of pilgrims with incense, a water puppet stage on the pond, and inset like a dream a young Ly emperor on a throne",
+        "seed": 2499530410
+      },
+      "video": {
+        "motionPrompt": "pilgrims flow over the arched bridge, incense smoke drifts across the pond, water puppets splash, the dreamlike image of the young emperor fades softly",
+        "seed": 182384581
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "meditative Vietnamese Buddhist instrumental, slow wooden fish and temple bell, deep humming drone, bamboo flute and dan nguyet, with a few tense mysterious passages, calm and spiritual, no vocals",
+    "durationSeconds": 170,
+    "seed": 3182485472
+  }
+}

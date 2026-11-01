@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "slug": "ong-thay-biet-tuot",
+  "shelf": "world",
+  "title": "Ông thầy biết tuốt",
+  "summary": "Bác nông dân nghèo tên Cua đổi xe bò lấy áo thầy thuốc và cuốn sách vần có hình con gà trống, tự xưng là \"thầy Biết Tuốt\". Một câu nói vu vơ trong bữa tiệc khiến bọn trộm tưởng ông biết hết mọi chuyện. Truyện cổ Grimm vui nhộn kể cho cả nhà.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Doktor Allwissend\" (Kinder- und Hausmärchen, bản 1857), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; giữ nguyên cốt truyện và trò chơi chữ với tên \"Cua\" (Krebs), kể vui cho cả nhà.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German fairy-tale picture-book illustration, soft watercolor and fine ink lines, a small farm, a grand manor house dining hall and a big old stove, warm cosy candlelight and golden tones, rounded friendly humorous shapes, calm and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "bac-cua",
+      "name": "Bác Cua",
+      "seed": 3241948133,
+      "sheetPrompt": "a poor cheerful German peasant from the Grimm tale dressed up as a doctor, round red cheeks, bushy moustache, big black coat that is a bit too large, tall hat, holding a little picture alphabet book with a rooster on the cover, comical, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bac-gai-grete",
+      "name": "Bác gái Grete",
+      "seed": 2035480918,
+      "sheetPrompt": "Grete the peasant wife from the Grimm tale, plump and kind, rosy face, headscarf, simple brown dress with a white apron, amused smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ngai-chua-dat",
+      "name": "Ngài chúa đất",
+      "seed": 2911795207,
+      "sheetPrompt": "a rich German lord from the Grimm tale, curled grey wig, fancy green velvet coat with gold trim, lace cravat, round worried face, comical, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "xe-cui-cua-bac-cua",
+      "title": "Xe củi của bác Cua",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có bác nông dân nghèo tên là Cua. Một hôm bác đánh xe bò chở củi lên thành, bán cho một ông thầy thuốc được hai đồng bạc. Lúc nhận tiền, bác thấy ông thầy đang ngồi ăn, cỗ bàn thịnh soạn, rượu ngon. Bác thèm quá, hỏi: \"Thưa thầy, làm sao để thành thầy thuốc được như thầy?\" Ông thầy cười: \"Dễ lắm. Bác mua một cuốn sách vần có hình con gà trống, bán xe bò lấy tiền may áo thầy thuốc, rồi treo biển trước cửa: Ta là thầy Biết Tuốt.\" Bác Cua về làm y như thế.",
+      "subtitles": [
+        "Ngày xưa, có bác nông dân nghèo tên là Cua.",
+        "Một hôm bác đánh xe bò chở củi lên thành, bán cho một ông thầy thuốc được hai đồng bạc.",
+        "Lúc nhận tiền, bác thấy ông thầy đang ngồi ăn, cỗ bàn thịnh soạn, rượu ngon.",
+        "Bác thèm quá, hỏi: \"Thưa thầy, làm sao để thành thầy thuốc được như thầy?\"",
+        "Ông thầy cười: \"Dễ lắm.",
+        "Bác mua một cuốn sách vần có hình con gà trống, bán xe bò lấy tiền may áo thầy thuốc,",
+        "rồi treo biển trước cửa: Ta là thầy Biết Tuốt.\"",
+        "Bác Cua về làm y như thế."
+      ],
+      "image": {
+        "prompt": "in a town street a poor peasant with a cart of firewood and an ox peers through a window at a doctor eating a fancy dinner with roast meats and wine, the peasant licking his lips comically, warm afternoon light",
+        "seed": 1081395886,
+        "character": "bac-cua"
+      },
+      "video": {
+        "motionPrompt": "the ox swishes its tail, the peasant presses his nose to the window, the doctor raises a glass and laughs, gentle motion",
+        "seed": 3652651073
+      },
+      "voice": {}
+    },
+    {
+      "id": "thay-biet-tuot",
+      "title": "Thầy Biết Tuốt",
+      "narrator": "ke-chuyen",
+      "narration": "Ít lâu sau, nhà một ngài chúa đất giàu có bị mất trộm một số tiền lớn. Người ta mách có thầy Biết Tuốt ở làng nọ, cái gì cũng biết. Ngài chúa đất đánh xe tới mời. \"Có phải thầy là thầy Biết Tuốt không?\" \"Chính tôi đây.\" \"Vậy mời thầy về tìm giúp số tiền bị mất.\" \"Được thôi, nhưng cho bà nhà tôi là Grete đi cùng nhé.\" Ngài chúa đất đồng ý, cho hai vợ chồng lên xe ngựa sang trọng. Tới nơi, bàn tiệc đã bày sẵn, ngài mời thầy ngồi ăn trước đã.",
+      "subtitles": [
+        "Ít lâu sau, nhà một ngài chúa đất giàu có bị mất trộm một số tiền lớn.",
+        "Người ta mách có thầy Biết Tuốt ở làng nọ, cái gì cũng biết.",
+        "Ngài chúa đất đánh xe tới mời. \"Có phải thầy là thầy Biết Tuốt không?\"",
+        "\"Chính tôi đây.\" \"Vậy mời thầy về tìm giúp số tiền bị mất.\"",
+        "\"Được thôi, nhưng cho bà nhà tôi là Grete đi cùng nhé.\"",
+        "Ngài chúa đất đồng ý, cho hai vợ chồng lên xe ngựa sang trọng.",
+        "Tới nơi, bàn tiệc đã bày sẵn, ngài mời thầy ngồi ăn trước đã."
+      ],
+      "image": {
+        "prompt": "outside a little farmhouse with a hand-painted sign above the door, the peasant in his oversized doctor coat and his wife Grete climb into a fancy carriage, the rich lord bowing politely, chickens scattering, humorous scene",
+        "seed": 146274068,
+        "character": "bac-cua"
+      },
+      "video": {
+        "motionPrompt": "the carriage door swings open, Grete adjusts her headscarf, the chickens flap away, the horses toss their heads",
+        "seed": 1292268977
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-thu-nhat",
+      "title": "Đây là người thứ nhất",
+      "narrator": "ke-chuyen",
+      "narration": "Người hầu thứ nhất bưng đĩa thức ăn vào. Bác Cua huých vợ, nói: \"Grete này, đây là người thứ nhất đấy.\" Ý bác là người bưng món thứ nhất. Nhưng người hầu kia lại tưởng thầy nói: \"Đây là tên trộm thứ nhất.\" Mà anh ta đúng là một trong mấy kẻ lấy trộm thật, nên sợ run cầm cập. Ra tới ngoài, anh thì thầm với bạn: \"Ông thầy biết hết rồi, nguy to rồi!\" Người hầu thứ hai không dám vào, nhưng vẫn phải bưng món tiếp theo. Bác Cua lại bảo vợ: \"Grete ơi, người thứ hai đây.\" Người hầu thứ hai cũng sợ xanh mặt, vội vàng lui ra.",
+      "subtitles": [
+        "Người hầu thứ nhất bưng đĩa thức ăn vào.",
+        "Bác Cua huých vợ, nói: \"Grete này, đây là người thứ nhất đấy.\"",
+        "Ý bác là người bưng món thứ nhất.",
+        "Nhưng người hầu kia lại tưởng thầy nói: \"Đây là tên trộm thứ nhất.\"",
+        "Mà anh ta đúng là một trong mấy kẻ lấy trộm thật, nên sợ run cầm cập.",
+        "Ra tới ngoài, anh thì thầm với bạn: \"Ông thầy biết hết rồi, nguy to rồi!\"",
+        "Người hầu thứ hai không dám vào, nhưng vẫn phải bưng món tiếp theo.",
+        "Bác Cua lại bảo vợ: \"Grete ơi, người thứ hai đây.\"",
+        "Người hầu thứ hai cũng sợ xanh mặt, vội vàng lui ra."
+      ],
+      "image": {
+        "prompt": "in a candle-lit manor dining hall the peasant doctor nudges his wife Grete and whispers, a nervous servant carrying a covered dish freezes with wide eyes, the rich lord at the head of the table, comical scene",
+        "seed": 1310583049,
+        "character": "bac-gai-grete"
+      },
+      "video": {
+        "motionPrompt": "the servant trembles and the dish lid rattles, Grete giggles behind her hand, candles flicker, gentle comic motion",
+        "seed": 1544788404
+      },
+      "voice": {}
+    },
+    {
+      "id": "dia-cua",
+      "title": "Đĩa cua",
+      "narrator": "ke-chuyen",
+      "narration": "Người hầu thứ ba vào, bác Cua lại nói: \"Grete ơi, người thứ ba đây.\" Người hầu thứ tư bưng vào một chiếc đĩa có nắp đậy kín. Ngài chúa đất muốn thử tài thầy, bảo: \"Thầy biết tuốt thì đoán xem trong đĩa có gì?\" Bác Cua nhìn cái đĩa, chẳng biết gì cả, bèn thở dài: \"Ôi, tội nghiệp cho Cua!\" Ý bác là tội nghiệp cho bản thân mình. Nào ngờ ngài chúa đất mở nắp ra, trong đĩa đúng là món cua! Ngài reo lên: \"Thầy biết thật, thế thì thầy cũng biết ai lấy tiền rồi!\"",
+      "subtitles": [
+        "Người hầu thứ ba vào, bác Cua lại nói: \"Grete ơi, người thứ ba đây.\"",
+        "Người hầu thứ tư bưng vào một chiếc đĩa có nắp đậy kín.",
+        "Ngài chúa đất muốn thử tài thầy, bảo: \"Thầy biết tuốt thì đoán xem trong đĩa có gì?\"",
+        "Bác Cua nhìn cái đĩa, chẳng biết gì cả, bèn thở dài: \"Ôi, tội nghiệp cho Cua!\"",
+        "Ý bác là tội nghiệp cho bản thân mình.",
+        "Nào ngờ ngài chúa đất mở nắp ra, trong đĩa đúng là món cua!",
+        "Ngài reo lên: \"Thầy biết thật, thế thì thầy cũng biết ai lấy tiền rồi!\""
+      ],
+      "image": {
+        "prompt": "the rich lord lifts the lid of a silver dish to reveal a pile of cooked red crabs, the peasant doctor gapes in surprise, Grete claps her hands, servants peeking from the doorway in fear, funny joyful scene",
+        "seed": 569127086,
+        "character": "bac-cua"
+      },
+      "video": {
+        "motionPrompt": "the lid lifts and steam curls up from the red crabs, the peasant's eyebrows shoot up, the lord claps, candlelight flickers",
+        "seed": 69228845
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-ga-trong-trong-lo",
+      "title": "Con gà trống trong lò",
+      "narrator": "ke-chuyen",
+      "narration": "Bọn người hầu sợ quá, nháy mắt gọi thầy ra ngoài, thú thật chính họ đã lấy tiền. \"Thầy đừng nói ra, chúng con xin trả lại hết, lại biếu thầy một món tiền nữa.\" Rồi họ chỉ chỗ giấu tiền. Thầy hứa sẽ không tố họ. Quay vào, thầy bảo: \"Giờ tôi xem sách để tìm chỗ giấu tiền.\" Một người hầu thứ năm vẫn chưa yên tâm, chui vào trong cái lò sưởi to để nghe lén. Bác Cua lật sách vần, tìm mãi chẳng thấy trang con gà trống, liền nói to: \"Ta biết mày ở trong này, ra mau!\" Người trong lò tưởng thầy gọi mình, nhảy vọt ra kêu: \"Ông này biết tuốt thật!\"",
+      "subtitles": [
+        "Bọn người hầu sợ quá, nháy mắt gọi thầy ra ngoài, thú thật chính họ đã lấy tiền.",
+        "\"Thầy đừng nói ra, chúng con xin trả lại hết, lại biếu thầy một món tiền nữa.\"",
+        "Rồi họ chỉ chỗ giấu tiền. Thầy hứa sẽ không tố họ.",
+        "Quay vào, thầy bảo: \"Giờ tôi xem sách để tìm chỗ giấu tiền.\"",
+        "Một người hầu thứ năm vẫn chưa yên tâm, chui vào trong cái lò sưởi to để nghe lén.",
+        "Bác Cua lật sách vần, tìm mãi chẳng thấy trang con gà trống, liền nói to:",
+        "\"Ta biết mày ở trong này, ra mau!\"",
+        "Người trong lò tưởng thầy gọi mình, nhảy vọt ra kêu: \"Ông này biết tuốt thật!\""
+      ],
+      "image": {
+        "prompt": "in the manor hall the peasant doctor flips through a little picture alphabet book with a rooster on the cover, a sooty servant tumbles out of a big old stove in fright, the lord and Grete laughing, very comical scene",
+        "seed": 1711597378,
+        "character": "bac-cua"
+      },
+      "video": {
+        "motionPrompt": "pages flip quickly, soot puffs as the servant tumbles out of the stove, the lord bursts out laughing, gentle comic motion",
+        "seed": 1829912013
+      },
+      "voice": {}
+    },
+    {
+      "id": "noi-tieng-khap-noi",
+      "title": "Nổi tiếng khắp nơi",
+      "narrator": "ke-chuyen",
+      "narration": "Bác Cua dẫn ngài chúa đất tới đúng chỗ bọn hầu giấu tiền, nhưng chẳng hề nói ai là kẻ lấy. Ngài chúa đất mừng rỡ, thưởng cho thầy một túi tiền to. Bọn người hầu cũng giữ lời, biếu thầy thêm một món nữa. Thế là bác nông dân nghèo hôm nào trở nên giàu có. Từ đó, khắp vùng ai cũng truyền tai nhau về thầy Biết Tuốt tài giỏi. Còn bác Cua thì cười thầm, vì chỉ có bác và bà Grete biết rằng, trong cuốn sách vần ấy chỉ có mỗi hình con gà trống mà thôi.",
+      "subtitles": [
+        "Bác Cua dẫn ngài chúa đất tới đúng chỗ bọn hầu giấu tiền, nhưng chẳng hề nói ai là kẻ lấy.",
+        "Ngài chúa đất mừng rỡ, thưởng cho thầy một túi tiền to.",
+        "Bọn người hầu cũng giữ lời, biếu thầy thêm một món nữa.",
+        "Thế là bác nông dân nghèo hôm nào trở nên giàu có.",
+        "Từ đó, khắp vùng ai cũng truyền tai nhau về thầy Biết Tuốt tài giỏi.",
+        "Còn bác Cua thì cười thầm, vì chỉ có bác và bà Grete biết rằng,",
+        "trong cuốn sách vần ấy chỉ có mỗi hình con gà trống mà thôi."
+      ],
+      "image": {
+        "prompt": "the happy lord hands a heavy bag of coins to the beaming peasant doctor and Grete in front of the manor, villagers gathering to admire the famous doctor, the little rooster book tucked under his arm, warm sunny joyful scene",
+        "seed": 739258268,
+        "character": "ngai-chua-dat"
+      },
+      "video": {
+        "motionPrompt": "coins jingle in the bag, Grete winks, the villagers cheer and wave their hats, a real rooster crows on the fence, slow pull-back",
+        "seed": 1016410415
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful German folk fairy-tale music, bassoon and clarinet with a sneaky tiptoe melody, pizzicato strings, comic and warm, medium tempo, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 1789307669
+  }
+}
