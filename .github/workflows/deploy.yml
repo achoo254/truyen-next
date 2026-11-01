@@ -1,0 +1,106 @@
+# Continuous deploy of truyen.hoandat.com: after `ci` passes on a push to main,
+# build the static site, upload it as the restricted `truyen-deploy` user to
+# /var/www/truyen/ci-incoming/<id> and switch through the one sudo command that
+# user has (infra/activate-incoming.sh: releases/<id> with unchanged files
+# hard-linked to the current release, atomic `current` switch, origin check,
+# previous release back on failure). Building (which runs dependency code)
+# happens in a job without the deploy key; the deploy job only downloads the
+# artifact, uploads it and activates it. nginx changes only through
+# infra/deploy.sh setup.
+name: deploy
+
+on:
+  workflow_run:
+    workflows: [ci]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+
+# Never cancel a deploy halfway; later runs wait their turn.
+concurrency:
+  group: deploy-prod
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      release_id: ${{ steps.release.outputs.id }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+      - uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v4.4.0
+        with:
+          version: 11.9.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - id: release
+        name: build release
+        env:
+          SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          echo "id=$(date -u +%Y%m%d-%H%M%S)-${SHA:0:12}" >>"$GITHUB_OUTPUT"
+          pnpm build
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: release
+          path: apps/web/dist/
+          retention-days: 7
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: production
+    env:
+      RELEASE_ID: ${{ needs.build.outputs.release_id }}
+      # The server address and SSH port are secrets so the public repository does not show them.
+      DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+      DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+      TARGET: truyen-deploy@${{ secrets.DEPLOY_HOST }}
+    steps:
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: release
+          path: release/
+      - name: ssh setup
+        env:
+          SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$SSH_KEY" >~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          printf '%s\n' "$KNOWN_HOSTS" >~/.ssh/known_hosts
+          printf 'Host %s\n  Port %s\n  IdentityFile ~/.ssh/deploy_key\n  IdentitiesOnly yes\n  StrictHostKeyChecking yes\n' "$DEPLOY_HOST" "$DEPLOY_PORT" >~/.ssh/config
+      - name: free disk on the server
+        run: |
+          # The release, its staging copy and 1 GB to spare (the box is shared with other apps).
+          need_kb=$(( $(du -sk release | cut -f1) * 2 + 1024 * 1024 ))
+          free_kb="$(ssh "$TARGET" "df -Pk /var/www/truyen" </dev/null | awk 'NR == 2 { print $4 }')"
+          [ "$free_kb" -ge "$need_kb" ] || { echo "only $((free_kb / 1024)) MB free on the server, need $((need_kb / 1024)) MB" >&2; exit 1; }
+      - name: upload and activate
+        run: |
+          # -c compares contents (every build rewrites mtimes); --copy-dest copies on the server what the current
+          # release already has (story media) instead of sending it again.
+          rsync -rlc --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r --copy-dest=/var/www/truyen/current/ \
+            release/ "$TARGET:/var/www/truyen/ci-incoming/$RELEASE_ID/"
+          ssh "$TARGET" "sudo -n /usr/local/sbin/truyen-activate-incoming $RELEASE_ID" </dev/null
+      - name: smoke from outside
+        run: |
+          for path in / /tre-em /stories/index.json; do
+            code="$(curl -s -o /dev/null -w '%{http_code}' "https://truyen.hoandat.com$path")"
+            [ "$code" = 200 ] || { echo "https://truyen.hoandat.com$path -> $code" >&2; exit 1; }
+          done
+          served="$(curl -fsS "https://truyen.hoandat.com/RELEASE?v=$RELEASE_ID" | tr -d '\r\n')"
+          [ "$served" = "$RELEASE_ID" ] || { echo "origin serves '$served', expected $RELEASE_ID" >&2; exit 1; }
+      - if: always()
+        run: rm -f ~/.ssh/deploy_key

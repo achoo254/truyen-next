@@ -89,7 +89,8 @@ App iPhone: `pnpm mobile:build`, phát hành TestFlight `pnpm mobile:ios-release
 Phục vụ production: `apps/web/dist` là file tĩnh. Bản build render sẵn HTML cho `/`, `/tre-em`, `/nguoi-lon` và từng
 `/truyen/<slug>` (tiêu đề, mô tả, danh sách truyện, JSON-LD; `apps/web/vite-prerender.ts`); mọi đường dẫn khác nhận
 `spa.html`. Production: `https://truyen.hoandat.com` trên máy chủ chung, đang chạy nhưng chưa
-quảng bá (không cho máy tìm kiếm lập chỉ mục); deploy, rollback và cách ra mắt: [`docs/deployment-guide.md`](docs/deployment-guide.md).
+quảng bá (không cho máy tìm kiếm lập chỉ mục). **Mỗi push lên `main` có CI xanh là tự deploy** (GitHub Actions, user
+hạn chế `truyen-deploy`); deploy tay, rollback và cách ra mắt: [`docs/deployment-guide.md`](docs/deployment-guide.md).
 
 ## Làm tranh, giọng kể, nhạc
 
