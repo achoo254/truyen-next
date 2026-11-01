@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-ho-co-nghia",
+  "shelf": "kids",
+  "title": "Con hổ có nghĩa",
+  "summary": "Một con hổ đến nhờ bà đỡ giúp vợ sinh con, một con hổ khác được bác tiều phu gỡ cái xương mắc trong cổ. Cả hai đều nhớ ơn và tìm cách đền đáp. Câu chuyện xưa nhẹ nhàng về lòng biết ơn cho trẻ nhỏ.",
+  "themes": [
+    "thien-nhien",
+    "thien-ac"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Theo truyện \"Con hổ có nghĩa\" trong Lan Trì kiến văn lục của Vũ Trinh (thế kỷ mười tám), sách cổ thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản dịch hay sách giáo khoa nào; đoạn hổ đến viếng bác tiều được kể nhẹ thành hổ nhớ thương bác.",
+  "basedOn": "Lan Trì kiến văn lục (Vũ Trinh)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, tigers drawn big, soft and kind rather than fierce, misty green mountain forest and an old Vietnamese village, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3287545657
+    },
+    {
+      "id": "ba-do",
+      "name": "Bà đỡ Trần",
+      "seed": 359371470,
+      "sheetPrompt": "Ba Do Tran, a kind elderly Vietnamese village midwife from an old folk tale, grey hair in a neat bun under a dark headscarf, brown ao tu than style blouse, a small cloth bag of herbs, gentle wise smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ho-duc",
+      "name": "Hổ đực",
+      "seed": 2825800778,
+      "sheetPrompt": "a big gentle cartoon tiger from a Vietnamese folk tale, soft orange fur with dark stripes, round friendly eyes, polite worried expression, more cuddly than fierce, for young children, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bac-tieu",
+      "name": "Bác tiều phu",
+      "seed": 3194556989,
+      "sheetPrompt": "a kind middle-aged Vietnamese woodcutter from an old folk tale, short beard, brown headband, simple indigo tunic and rolled trousers, a bundle of firewood on his back, a small hatchet tucked in his belt, warm brave face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ho-xam",
+      "name": "Hổ xám",
+      "seed": 916560566,
+      "sheetPrompt": "a large cartoon tiger with slightly greyish striped fur from a Vietnamese folk tale, big sad pleading eyes, mouth a little open as if asking for help, soft and not scary, for young children, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn có sợ hổ không? Miu thì hơi sợ một chút, vì hổ to lắm, lại có hàm răng dài. Thế nhưng ngày xưa, có những con hổ biết nhớ ơn người đã giúp mình, còn tìm cách trả ơn nữa đấy. Chuyện này được ông Vũ Trinh ghi lại trong một cuốn sách cổ. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn có sợ hổ không?",
+        "Miu thì hơi sợ một chút, vì hổ to lắm, lại có hàm răng dài.",
+        "Thế nhưng ngày xưa, có những con hổ biết nhớ ơn người đã giúp mình,",
+        "còn tìm cách trả ơn nữa đấy. Chuyện này được ông Vũ Trinh ghi lại trong một cuốn sách cổ.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits on a mossy rock at the edge of a misty green forest, holding a little old book, a friendly cartoon tiger peeks out from the ferns behind her, morning sunlight",
+        "seed": 1545020510,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat opens the old book and smiles, the tiger behind blinks slowly and twitches its ears, mist drifts between the trees, gentle camera push-in",
+        "seed": 147389126
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-go-cua",
+      "title": "Đêm khuya có tiếng gõ cửa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở huyện Đông Triều có một bà đỡ họ Trần. Ai sắp sinh em bé cũng mời bà đến giúp, vì bà khéo tay và tốt bụng lắm. Một đêm mưa gió, bà nghe tiếng sột soạt ngoài cửa. Bà mở cửa ra thì thấy một con hổ to đứng đó. Bà sợ quá, run cả người. Nhưng con hổ không gầm, không vồ. Nó cúi đầu, khẽ cõng bà lên lưng rồi chạy vào rừng sâu.",
+      "subtitles": [
+        "Ngày xưa, ở huyện Đông Triều có một bà đỡ họ Trần.",
+        "Ai sắp sinh em bé cũng mời bà đến giúp, vì bà khéo tay và tốt bụng lắm.",
+        "Một đêm mưa gió, bà nghe tiếng sột soạt ngoài cửa.",
+        "Bà mở cửa ra thì thấy một con hổ to đứng đó. Bà sợ quá, run cả người.",
+        "Nhưng con hổ không gầm, không vồ. Nó cúi đầu, khẽ cõng bà lên lưng rồi chạy vào rừng sâu."
+      ],
+      "image": {
+        "prompt": "night in an old Vietnamese village, the kind elderly midwife opens a wooden door holding an oil lamp and steps back in surprise, a big gentle tiger stands politely in the rain with its head bowed",
+        "seed": 3293247769,
+        "character": "ba-do"
+      },
+      "video": {
+        "motionPrompt": "rain falls softly, the lamp flame flickers, the tiger lowers its head humbly, the midwife slowly lowers her lamp, gentle camera sway",
+        "seed": 4158731774
+      },
+      "voice": {}
+    },
+    {
+      "id": "do-de",
+      "title": "Bà đỡ giúp hổ mẹ",
+      "narrator": "ke-chuyen",
+      "narration": "Hổ đưa bà đến một cái hang. Trong hang, một con hổ cái đang nằm rên, mãi không sinh được con. Hổ đực nhìn bà, đôi mắt như cầu xin. Lúc ấy bà mới hiểu: hổ đến nhờ bà đỡ đẻ. Bà xắn tay áo, lấy trong túi ra một nắm thuốc, nhẹ nhàng xoa bụng cho hổ cái. Một lúc sau, ba chú hổ con lông mượt chào đời, kêu oe oe. Hổ đực mừng rỡ, nhảy nhót quanh hang.",
+      "subtitles": [
+        "Hổ đưa bà đến một cái hang.",
+        "Trong hang, một con hổ cái đang nằm rên, mãi không sinh được con.",
+        "Hổ đực nhìn bà, đôi mắt như cầu xin. Lúc ấy bà mới hiểu: hổ đến nhờ bà đỡ đẻ.",
+        "Bà xắn tay áo, lấy trong túi ra một nắm thuốc, nhẹ nhàng xoa bụng cho hổ cái.",
+        "Một lúc sau, ba chú hổ con lông mượt chào đời, kêu oe oe.",
+        "Hổ đực mừng rỡ, nhảy nhót quanh hang."
+      ],
+      "image": {
+        "prompt": "inside a warm dry cave lit by moonlight, the kind midwife kneels and gently rubs herbs on the belly of a resting mother tigress, the father tiger watches hopefully, three tiny fluffy tiger cubs curled in soft straw",
+        "seed": 3343567066,
+        "character": "ba-do"
+      },
+      "video": {
+        "motionPrompt": "the midwife strokes the tigress gently, a tiny cub wriggles and squeaks, the father tiger hops happily, moonlight glows at the cave mouth",
+        "seed": 8676344
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuc-bac",
+      "title": "Món quà cục bạc",
+      "narrator": "ke-chuyen",
+      "narration": "Xong việc, hổ đực đào dưới gốc cây, lấy lên một cục bạc sáng lấp lánh, đặt vào tay bà. Đó là cách hổ cảm ơn. Rồi hổ lại cõng bà ra tận bìa rừng, đứng nhìn theo cho đến khi bà về tới nhà mới quay đi. Năm ấy mất mùa, nhà nào cũng thiếu gạo. Nhờ cục bạc của hổ, bà đỡ đổi được thóc, sống qua những ngày đói kém.",
+      "subtitles": [
+        "Xong việc, hổ đực đào dưới gốc cây, lấy lên một cục bạc sáng lấp lánh, đặt vào tay bà.",
+        "Đó là cách hổ cảm ơn.",
+        "Rồi hổ lại cõng bà ra tận bìa rừng, đứng nhìn theo cho đến khi bà về tới nhà mới quay đi.",
+        "Năm ấy mất mùa, nhà nào cũng thiếu gạo.",
+        "Nhờ cục bạc của hổ, bà đỡ đổi được thóc, sống qua những ngày đói kém."
+      ],
+      "image": {
+        "prompt": "at dawn on the edge of the forest, the big gentle tiger digs under a banyan tree and places a shining lump of silver into the midwife's hands, she bows her head in thanks, village roofs in the distance",
+        "seed": 1542044855,
+        "character": "ho-duc"
+      },
+      "video": {
+        "motionPrompt": "the tiger pushes the silver forward with its nose, the silver glints in the first sunlight, the midwife smiles and holds it to her chest, leaves sway",
+        "seed": 421040788
+      },
+      "voice": {}
+    },
+    {
+      "id": "xuong-mac",
+      "title": "Con hổ bị hóc xương",
+      "narrator": "ke-chuyen",
+      "narration": "Câu chuyện thứ hai xảy ra ở vùng Lạng Giang. Có một bác tiều phu ngày ngày vào núi kiếm củi. Một hôm, bác nghe tiếng hổ kêu rất thảm thiết. Bác sợ, vội trèo lên cây cao nấp. Nhìn xuống, bác thấy một con hổ đang lăn lộn, cào đất, hai chân trước ôm lấy miệng. Thì ra hổ ăn thịt bị một cái xương to mắc ngang cổ họng, nuốt không trôi, nhả không ra.",
+      "subtitles": [
+        "Câu chuyện thứ hai xảy ra ở vùng Lạng Giang.",
+        "Có một bác tiều phu ngày ngày vào núi kiếm củi.",
+        "Một hôm, bác nghe tiếng hổ kêu rất thảm thiết.",
+        "Bác sợ, vội trèo lên cây cao nấp.",
+        "Nhìn xuống, bác thấy một con hổ đang lăn lộn, cào đất, hai chân trước ôm lấy miệng.",
+        "Thì ra hổ ăn thịt bị một cái xương to mắc ngang cổ họng, nuốt không trôi, nhả không ra."
+      ],
+      "image": {
+        "prompt": "in a sunny mountain forest, the kind woodcutter peeks down from a tall tree branch, below him a big greyish cartoon tiger rolls on the grass holding its mouth with both front paws, looking uncomfortable and sad",
+        "seed": 2315194911,
+        "character": "ho-xam"
+      },
+      "video": {
+        "motionPrompt": "the tiger paws at its mouth and rolls side to side, the woodcutter leans to look closer from the branch, leaves flutter, gentle camera tilt down",
+        "seed": 536493759
+      },
+      "voice": {}
+    },
+    {
+      "id": "go-xuong",
+      "title": "Bác tiều gỡ xương cho hổ",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy hổ cứ há miệng nhìn mình như muốn nhờ, bác tiều thương lắm. Bác nói: \"Ta lấy xương ra giúp mày. Nhưng mày đừng cắn ta đấy nhé!\" Hổ gật đầu, nằm yên. Bác leo xuống, can đảm thò tay vào miệng hổ, nắm lấy cái xương mà kéo ra. Hổ thở phào, dễ chịu ngay. Nó vẫy đuôi, cúi đầu mấy lần như cảm ơn rồi đi vào rừng.",
+      "subtitles": [
+        "Thấy hổ cứ há miệng nhìn mình như muốn nhờ, bác tiều thương lắm.",
+        "Bác nói: \"Ta lấy xương ra giúp mày. Nhưng mày đừng cắn ta đấy nhé!\" Hổ gật đầu, nằm yên.",
+        "Bác leo xuống, can đảm thò tay vào miệng hổ, nắm lấy cái xương mà kéo ra.",
+        "Hổ thở phào, dễ chịu ngay. Nó vẫy đuôi, cúi đầu mấy lần như cảm ơn rồi đi vào rừng."
+      ],
+      "image": {
+        "prompt": "the brave woodcutter kneels in front of the greyish tiger who lies still with its mouth open wide, he carefully pulls out a long bone, the tiger's eyes look relieved and grateful, soft sunbeams through the trees",
+        "seed": 926614028,
+        "character": "bac-tieu"
+      },
+      "video": {
+        "motionPrompt": "the woodcutter gently pulls the bone out, the tiger closes its mouth and sighs, then bows its head twice and wags its tail, birds flutter up from the branches",
+        "seed": 3691451663
+      },
+      "voice": {}
+    },
+    {
+      "id": "tra-on",
+      "title": "Hổ mang quà trả ơn",
+      "narrator": "ke-chuyen",
+      "narration": "Mấy hôm sau, bác tiều đang ngồi trong nhà thì nghe có tiếng động ngoài sân. Bác bước ra, thấy con hổ hôm nọ đặt một con nai béo trước cửa rồi lặng lẽ đi ra. Từ đó, cứ thỉnh thoảng hổ lại mang quà đến cho bác. Về sau, bác tiều già yếu rồi về với ông bà tổ tiên. Hổ đến bên mộ bác, cúi đầu đứng lặng thật lâu, như nhớ thương một người bạn tốt.",
+      "subtitles": [
+        "Mấy hôm sau, bác tiều đang ngồi trong nhà thì nghe có tiếng động ngoài sân.",
+        "Bác bước ra, thấy con hổ hôm nọ đặt một con nai béo trước cửa rồi lặng lẽ đi ra.",
+        "Từ đó, cứ thỉnh thoảng hổ lại mang quà đến cho bác.",
+        "Về sau, bác tiều già yếu rồi về với ông bà tổ tiên.",
+        "Hổ đến bên mộ bác, cúi đầu đứng lặng thật lâu, như nhớ thương một người bạn tốt."
+      ],
+      "image": {
+        "prompt": "outside a small thatched house at the foot of the mountain, the greyish tiger quietly leaves a gift by the door and looks back politely, the surprised woodcutter stands on the porch, evening light",
+        "seed": 1150660154,
+        "character": "ho-xam"
+      },
+      "video": {
+        "motionPrompt": "the tiger sets down the gift and turns to walk away, glancing back once, the woodcutter raises a hand in thanks, smoke curls from the kitchen roof",
+        "seed": 2348144730
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, đến con hổ trong rừng còn biết nhớ ơn người đã giúp mình. Vậy mình là người, mình càng phải biết cảm ơn và đền đáp những ai đã giúp đỡ mình, như ông bà, bố mẹ, thầy cô và bạn bè. Hôm nay về nhà, các bạn nhớ nói lời cảm ơn với ai đó nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, đến con hổ trong rừng còn biết nhớ ơn người đã giúp mình.",
+        "Vậy mình là người, mình càng phải biết cảm ơn và đền đáp những ai đã giúp đỡ mình,",
+        "như ông bà, bố mẹ, thầy cô và bạn bè.",
+        "Hôm nay về nhà, các bạn nhớ nói lời cảm ơn với ai đó nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the forest edge at sunset, behind her the two gentle tigers sit side by side with the kind midwife and the woodcutter, three little tiger cubs play in the grass",
+        "seed": 147786732,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the tiger cubs tumble playfully, the tigers nod, golden sunset light glows, gentle camera pull-back",
+        "seed": 4193312038
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Vietnamese mountain folk melody, bamboo flute and dan bau monochord, soft wooden percussion, warm and grateful mood, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3742946343
+  }
+}

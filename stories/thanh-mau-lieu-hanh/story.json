@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "slug": "thanh-mau-lieu-hanh",
+  "shelf": "adults",
+  "title": "Thánh Mẫu Liễu Hạnh",
+  "summary": "Công chúa nhà trời lỡ tay làm vỡ chén ngọc, bị đày xuống làm con gái làng Vân Cát, rồi hai lần trở lại trần gian vì thương nhớ cõi người. Câu chuyện về Thánh Mẫu Liễu Hạnh, một trong Tứ bất tử của người Việt, theo Vân Cát thần nữ truyện.",
+  "themes": [
+    "than-thoai",
+    "gia-dinh",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Vân Cát thần nữ truyện trong Truyền kỳ tân phả của Đoàn Thị Điểm (thế kỷ mười tám), sách cổ thuộc phạm vi công cộng, cùng truyền thuyết dân gian về Mẫu Liễu Hạnh. Lời kể văn xuôi viết mới, lược bớt các bài thơ xướng họa, không dịch lại nguyên văn sách cổ hay bản dịch hiện đại nào. Các chi tiết Mai Sinh đỗ đạt, lời khuyên giải từ cửa Phật và việc nhắc tên Phủ Giầy, đền Sòng là phần kể thêm cho gọn theo truyền thuyết dân gian.",
+  "basedOn": "Vân Cát thần nữ truyện (Đoàn Thị Điểm, thế kỷ 18)",
+  "style": "traditional Vietnamese silk painting illustration with fine ink lines and soft washes of crimson, jade, ivory and gold, heavenly palaces among clouds, northern Vietnam villages of old, Le dynasty costumes, temples with curved roofs, lotus ponds, mystical and graceful mood for adult readers, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "lieu-hanh",
+      "name": "Liễu Hạnh",
+      "sheetPrompt": "Lieu Hanh, a celestial princess turned Vietnamese mother goddess, serene beautiful young woman, long black hair in an elegant bun with a gold phoenix pin, flowing crimson ao giao lanh robe with gold embroidery over white, holding a folding fan, calm wise eyes, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 2571207087
+    },
+    {
+      "id": "dao-lang",
+      "name": "Đào Lang",
+      "sheetPrompt": "Dao Lang, a kind young Vietnamese scholar of the Le dynasty, slim, gentle face, hair in a topknot under a black scholar turban, plain indigo robe, holding a book, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 870529540
+    },
+    {
+      "id": "phung-khac-khoan",
+      "name": "Phùng Khắc Khoan",
+      "sheetPrompt": "Phung Khac Khoan, a learned Vietnamese scholar official of the Le dynasty in middle age, neat beard, black official hat with side wings, dark blue mandarin robe, holding a writing brush, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 4099970231
+    }
+  ],
+  "scenes": [
+    {
+      "id": "chen-ngoc-vo",
+      "title": "Chén ngọc vỡ",
+      "narrator": "ke-chuyen",
+      "narration": "Trên thiên đình, Ngọc Hoàng có người con gái thứ hai là công chúa Quỳnh Hoa, xinh đẹp, giỏi đàn hát, được vua cha yêu quý nhất. Một hôm trong tiệc chầu, công chúa đang dâng rượu thì lỡ tay đánh rơi chiếc chén ngọc. Chén vỡ tan thành nhiều mảnh. Luật trời nghiêm ngặt, dù là con gái yêu cũng không được tha. Ngọc Hoàng buồn lòng, phạt công chúa phải xuống trần gian sống một kiếp người cho đủ hạn. Công chúa cúi đầu nhận tội, lặng lẽ rời cung trời, bay xuống cõi đất xa xôi.",
+      "subtitles": [
+        "Trên thiên đình, Ngọc Hoàng có người con gái thứ hai là công chúa Quỳnh Hoa, xinh đẹp,",
+        "giỏi đàn hát, được vua cha yêu quý nhất.",
+        "Một hôm trong tiệc chầu, công chúa đang dâng rượu thì lỡ tay đánh rơi chiếc chén ngọc.",
+        "Chén vỡ tan thành nhiều mảnh.",
+        "Luật trời nghiêm ngặt, dù là con gái yêu cũng không được tha.",
+        "Ngọc Hoàng buồn lòng, phạt công chúa phải xuống trần gian sống một kiếp người cho đủ hạn.",
+        "Công chúa cúi đầu nhận tội, lặng lẽ rời cung trời, bay xuống cõi đất xa xôi."
+      ],
+      "image": {
+        "prompt": "a heavenly palace among golden clouds, a celestial princess in crimson robes kneeling beside a shattered jade cup on a jade floor, the Jade Emperor on his throne looking sorrowful, fairies and courtiers watching",
+        "seed": 2951866390,
+        "character": "lieu-hanh"
+      },
+      "video": {
+        "motionPrompt": "jade pieces scatter across the floor, the princess bows her head, clouds drift around the palace pillars, the emperor lifts a hand, slow push in",
+        "seed": 3722778647
+      },
+      "voice": {}
+    },
+    {
+      "id": "lang-van-cat",
+      "title": "Người con gái làng Vân Cát",
+      "narrator": "ke-chuyen",
+      "narration": "Ở làng Vân Cát, phủ Thiên Bản, trấn Sơn Nam, có ông bà họ Lê hiền lành, đã ngoài bốn mươi tuổi mà chưa có con. Một đêm, vợ ông mơ thấy một nàng tiên bay vào nhà, ít lâu sau thì có mang. Đến ngày sinh, nhà ông hương thơm ngào ngạt, có ánh sáng đỏ bao quanh. Ông bà sinh được một bé gái, đặt tên là Giáng Tiên, nghĩa là tiên giáng trần. Cô bé lớn lên càng xinh đẹp, lại giỏi thơ văn, đàn sáo, hiếu thảo với cha mẹ, ai gặp cũng mến. Không ai biết cô chính là công chúa Quỳnh Hoa trên trời.",
+      "subtitles": [
+        "Ở làng Vân Cát, phủ Thiên Bản, trấn Sơn Nam, có ông bà họ Lê hiền lành,",
+        "đã ngoài bốn mươi tuổi mà chưa có con.",
+        "Một đêm, vợ ông mơ thấy một nàng tiên bay vào nhà, ít lâu sau thì có mang.",
+        "Đến ngày sinh, nhà ông hương thơm ngào ngạt, có ánh sáng đỏ bao quanh.",
+        "Ông bà sinh được một bé gái, đặt tên là Giáng Tiên, nghĩa là tiên giáng trần.",
+        "Cô bé lớn lên càng xinh đẹp, lại giỏi thơ văn, đàn sáo, hiếu thảo với cha mẹ,",
+        "ai gặp cũng mến.",
+        "Không ai biết cô chính là công chúa Quỳnh Hoa trên trời."
+      ],
+      "image": {
+        "prompt": "a modest village house in northern Vietnam glowing with soft red light at night, fragrant mist, an old couple holding a newborn baby girl in wonder, a faint fairy figure fading into the sky above",
+        "seed": 992232119
+      },
+      "video": {
+        "motionPrompt": "a soft glow pulses around the house, mist drifts, the couple gaze at the baby, a faint fairy shape rises into the stars, slow push in",
+        "seed": 2411738613
+      },
+      "voice": {}
+    },
+    {
+      "id": "lay-dao-lang",
+      "title": "Duyên với Đào Lang",
+      "narrator": "ke-chuyen",
+      "narration": "Đến tuổi cài trâm, Giáng Tiên được gả cho Đào Lang, con trai một nhà lương thiện trong vùng. Đào Lang học hành chăm chỉ, tính tình hiền hậu. Vợ chồng thương yêu nhau, ngày ngày nàng dệt vải, chàng đọc sách bên cửa sổ, tối đến cùng nhau ngâm thơ, gảy đàn. Ít năm sau, hai người có một mụn con, cả nhà vui vẻ đầm ấm. Nàng chăm lo nhà chồng chu đáo, đối với cha mẹ hai bên đều một lòng hiếu kính. Người làng nhìn vào, ai cũng khen đôi vợ chồng xứng đôi như ngọc với vàng.",
+      "subtitles": [
+        "Đến tuổi cài trâm, Giáng Tiên được gả cho Đào Lang,",
+        "con trai một nhà lương thiện trong vùng.",
+        "Đào Lang học hành chăm chỉ, tính tình hiền hậu.",
+        "Vợ chồng thương yêu nhau, ngày ngày nàng dệt vải, chàng đọc sách bên cửa sổ,",
+        "tối đến cùng nhau ngâm thơ, gảy đàn.",
+        "Ít năm sau, hai người có một mụn con, cả nhà vui vẻ đầm ấm.",
+        "Nàng chăm lo nhà chồng chu đáo, đối với cha mẹ hai bên đều một lòng hiếu kính.",
+        "Người làng nhìn vào, ai cũng khen đôi vợ chồng xứng đôi như ngọc với vàng."
+      ],
+      "image": {
+        "prompt": "a young couple in a peaceful scholar house of the Le dynasty, the wife playing a moon lute by a window with lotus pond outside, the husband reading beside her, a small child sleeping in a cradle",
+        "seed": 1362723023,
+        "character": "dao-lang"
+      },
+      "video": {
+        "motionPrompt": "the lute strings tremble, the husband turns a page and smiles, lotus leaves move on the pond, the cradle rocks gently, slow camera drift",
+        "seed": 2749405433
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-troi",
+      "title": "Hết hạn trở về trời",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng hạn đày của nàng đã đến. Năm hai mươi mốt tuổi, vào ngày mùng ba tháng ba, Giáng Tiên không ốm đau gì mà bỗng nhiên qua đời. Cả nhà khóc thương thảm thiết, Đào Lang ôm con ngồi bên linh sàng mấy ngày không ăn không ngủ. Nàng đã trở về thiên đình. Ngọc Hoàng cho nàng lại làm công chúa như xưa. Nhưng ngồi giữa cung vàng điện ngọc, nàng không vui. Nàng nhớ mẹ cha già, nhớ người chồng hiền, nhớ đứa con thơ còn đỏ hỏn, nhớ cả mùi khói bếp làng Vân Cát. Ngày nào nàng cũng nhìn xuống trần gian mà rơi nước mắt.",
+      "subtitles": [
+        "Nhưng hạn đày của nàng đã đến.",
+        "Năm hai mươi mốt tuổi, vào ngày mùng ba tháng ba,",
+        "Giáng Tiên không ốm đau gì mà bỗng nhiên qua đời.",
+        "Cả nhà khóc thương thảm thiết,",
+        "Đào Lang ôm con ngồi bên linh sàng mấy ngày không ăn không ngủ.",
+        "Nàng đã trở về thiên đình.",
+        "Ngọc Hoàng cho nàng lại làm công chúa như xưa.",
+        "Nhưng ngồi giữa cung vàng điện ngọc, nàng không vui.",
+        "Nàng nhớ mẹ cha già, nhớ người chồng hiền, nhớ đứa con thơ còn đỏ hỏn,",
+        "nhớ cả mùi khói bếp làng Vân Cát.",
+        "Ngày nào nàng cũng nhìn xuống trần gian mà rơi nước mắt."
+      ],
+      "image": {
+        "prompt": "a celestial princess in crimson sitting alone on a cloud terrace of a heavenly palace, looking down through parted clouds at a tiny village with a grieving family below, tears on her cheek",
+        "seed": 4011814318,
+        "character": "lieu-hanh"
+      },
+      "video": {
+        "motionPrompt": "clouds part slowly to reveal the village below, the princess leans forward, a tear falls and glitters, wind moves her sleeves, slow tilt down",
+        "seed": 4088214331
+      },
+      "voice": {}
+    },
+    {
+      "id": "xin-xuong-tran",
+      "title": "Xin xuống trần lần nữa",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy con buồn mãi, Ngọc Hoàng đành cho nàng xuống trần gian lần nữa, được tự do đi lại, không phải chịu kiếp người như trước. Nàng mừng rỡ bay ngay về làng Vân Cát. Đêm trăng, nàng hiện về bên chồng con, an ủi cha mẹ già. Nàng kể cho Đào Lang biết mình vốn là người nhà trời, dặn chàng giữ gìn sức khỏe, nuôi con khôn lớn, chăm sóc hai bên nội ngoại. Nói xong, nàng hóa thành làn gió mát bay đi. Từ đó nàng thường hiện về thăm nhà, rồi chu du khắp nơi, ngắm cảnh non sông.",
+      "subtitles": [
+        "Thấy con buồn mãi, Ngọc Hoàng đành cho nàng xuống trần gian lần nữa, được tự do đi lại,",
+        "không phải chịu kiếp người như trước.",
+        "Nàng mừng rỡ bay ngay về làng Vân Cát.",
+        "Đêm trăng, nàng hiện về bên chồng con, an ủi cha mẹ già.",
+        "Nàng kể cho Đào Lang biết mình vốn là người nhà trời, dặn chàng giữ gìn sức khỏe,",
+        "nuôi con khôn lớn, chăm sóc hai bên nội ngoại.",
+        "Nói xong, nàng hóa thành làn gió mát bay đi.",
+        "Từ đó nàng thường hiện về thăm nhà, rồi chu du khắp nơi, ngắm cảnh non sông."
+      ],
+      "image": {
+        "prompt": "a moonlit courtyard of a village house, the radiant princess appearing before her husband and small child and her elderly parents, all reaching toward her, a gentle wind carrying flower petals",
+        "seed": 1784338243,
+        "character": "lieu-hanh"
+      },
+      "video": {
+        "motionPrompt": "moonlight brightens, the princess smiles and touches the child head, petals swirl as she slowly dissolves into the wind, slow pull back",
+        "seed": 189223694
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-phung-khac-khoan",
+      "title": "Gặp gỡ Phùng Khắc Khoan",
+      "narrator": "ke-chuyen",
+      "narration": "Một lần ở xứ Lạng Sơn, trên đường đi sứ, quan Phùng Khắc Khoan dừng chân bên một quán nước ven đèo. Ông thấy một người con gái xinh đẹp ngồi bên bờ suối, ngâm thơ trong trẻo. Ông lấy làm lạ, đến hỏi chuyện, đề thơ thử tài. Nàng đối lại ngay, câu nào cũng sắc sảo, ý tứ sâu xa, khiến ông phục lăn. Ông hỏi tên, nàng chỉ mỉm cười rồi biến mất. Mãi về sau, khi ông cùng hai người bạn đi chơi Hồ Tây, lại gặp nàng ở một quán rượu bên hồ. Cả bọn xướng họa thơ suốt buổi chiều. Lúc chia tay, nàng mới để lại mấy câu thơ chiết tự, ông ngẫm ra thì đó là tên Liễu Hạnh.",
+      "subtitles": [
+        "Một lần ở xứ Lạng Sơn, trên đường đi sứ,",
+        "quan Phùng Khắc Khoan dừng chân bên một quán nước ven đèo.",
+        "Ông thấy một người con gái xinh đẹp ngồi bên bờ suối, ngâm thơ trong trẻo.",
+        "Ông lấy làm lạ, đến hỏi chuyện, đề thơ thử tài.",
+        "Nàng đối lại ngay, câu nào cũng sắc sảo, ý tứ sâu xa, khiến ông phục lăn.",
+        "Ông hỏi tên, nàng chỉ mỉm cười rồi biến mất.",
+        "Mãi về sau, khi ông cùng hai người bạn đi chơi Hồ Tây,",
+        "lại gặp nàng ở một quán rượu bên hồ.",
+        "Cả bọn xướng họa thơ suốt buổi chiều.",
+        "Lúc chia tay, nàng mới để lại mấy câu thơ chiết tự, ông ngẫm ra thì đó là tên Liễu Hạnh."
+      ],
+      "image": {
+        "prompt": "a learned mandarin and two friends exchanging poems with a mysterious beautiful woman at a lakeside wine pavilion on West Lake at sunset, willows and lotus, paper scrolls and brushes on the table",
+        "seed": 1368039836,
+        "character": "phung-khac-khoan"
+      },
+      "video": {
+        "motionPrompt": "willow branches sway over the water, the mandarin lifts his brush, the woman smiles and turns toward the lake, sunset ripples glow, gentle camera arc",
+        "seed": 247589597
+      },
+      "voice": {}
+    },
+    {
+      "id": "mai-sinh",
+      "title": "Duyên cũ kiếp sau",
+      "narrator": "ke-chuyen",
+      "narration": "Đào Lang về sau qua đời, đầu thai làm một chàng trai họ Mai ở xứ Thanh. Liễu Hạnh biết chuyện, tìm đến nối lại duyên xưa. Nàng hiện ra như một người con gái bình thường, kết duyên với Mai Sinh, giúp chàng chăm lo đèn sách. Hai người sống với nhau, sinh được một người con trai. Khi Mai Sinh đã đỗ đạt, con đã lớn, nàng mới nói thật mình là ai, rồi từ biệt mà đi. Chuyện tình hai kiếp của nàng làm người đời cảm động, vì trên trời dù sung sướng, nàng vẫn không quên nghĩa vợ chồng nơi trần thế.",
+      "subtitles": [
+        "Đào Lang về sau qua đời, đầu thai làm một chàng trai họ Mai ở xứ Thanh.",
+        "Liễu Hạnh biết chuyện, tìm đến nối lại duyên xưa.",
+        "Nàng hiện ra như một người con gái bình thường, kết duyên với Mai Sinh,",
+        "giúp chàng chăm lo đèn sách.",
+        "Hai người sống với nhau, sinh được một người con trai.",
+        "Khi Mai Sinh đã đỗ đạt, con đã lớn, nàng mới nói thật mình là ai, rồi từ biệt mà đi.",
+        "Chuyện tình hai kiếp của nàng làm người đời cảm động, vì trên trời dù sung sướng,",
+        "nàng vẫn không quên nghĩa vợ chồng nơi trần thế."
+      ],
+      "image": {
+        "prompt": "a scholar in a simple Thanh Hoa village house studying by lamplight, a graceful woman pouring tea beside him, a young son practicing calligraphy, rice fields and mountains through the window",
+        "seed": 2695393667,
+        "character": "lieu-hanh"
+      },
+      "video": {
+        "motionPrompt": "the oil lamp flickers, the woman pours tea, the boy dips his brush, moonlight shifts across the window, slow push in",
+        "seed": 1616637452
+      },
+      "voice": {}
+    },
+    {
+      "id": "pho-cat",
+      "title": "Đền thiêng ở Phố Cát",
+      "narrator": "ke-chuyen",
+      "narration": "Từ đó nàng hiển linh ở nhiều nơi, nhất là ở Phố Cát, đèo Ba Dội, xứ Thanh. Nàng hiện thành một cô gái bán hàng nước bên đường. Người lương thiện qua lại thì được nàng giúp đỡ, chữa bệnh, chỉ đường. Kẻ ngông cuồng buông lời trêu ghẹo, kẻ gian tham cướp giật thì bị nàng trừng phạt, kẻ thì đau ốm, kẻ thì gặp tai họa. Dân trong vùng vừa kính vừa sợ, lập đền thờ nàng. Tiếng đồn lan đi khắp nơi, người đến cầu xin ngày càng đông, hương khói không lúc nào ngớt.",
+      "subtitles": [
+        "Từ đó nàng hiển linh ở nhiều nơi, nhất là ở Phố Cát, đèo Ba Dội, xứ Thanh.",
+        "Nàng hiện thành một cô gái bán hàng nước bên đường.",
+        "Người lương thiện qua lại thì được nàng giúp đỡ, chữa bệnh, chỉ đường.",
+        "Kẻ ngông cuồng buông lời trêu ghẹo, kẻ gian tham cướp giật thì bị nàng trừng phạt,",
+        "kẻ thì đau ốm, kẻ thì gặp tai họa.",
+        "Dân trong vùng vừa kính vừa sợ, lập đền thờ nàng.",
+        "Tiếng đồn lan đi khắp nơi, người đến cầu xin ngày càng đông,",
+        "hương khói không lúc nào ngớt."
+      ],
+      "image": {
+        "prompt": "a mountain pass road in Thanh Hoa with a small roadside tea stall run by a graceful mysterious woman, honest travelers bowing in thanks, a rude rider fleeing in fear, a new temple with curved roof on the hillside",
+        "seed": 862800083,
+        "character": "lieu-hanh"
+      },
+      "video": {
+        "motionPrompt": "travelers bow and move on, a horse rears as a rude rider flees, incense smoke drifts from the hillside temple, gentle camera pan",
+        "seed": 2906389093
+      },
+      "voice": {}
+    },
+    {
+      "id": "trieu-dinh-sac-phong",
+      "title": "Triều đình sắc phong",
+      "narrator": "ke-chuyen",
+      "narration": "Tiếng nàng làm triều đình lo ngại, cho là yêu quái làm hại dân. Vua sai quân lính cùng các pháp sư cao tay đến đánh đuổi. Trận đấu phép diễn ra suốt nhiều ngày, gió cát mù mịt. Cuối cùng các pháp sư dùng phép mạnh bắt được nàng. Nàng không oán hận, chỉ xin được giãi bày rằng mình chưa từng hại người lương thiện, chỉ trừng trị kẻ gian ác. Có lời khuyên giải từ cửa Phật, triều đình hiểu ra, tha cho nàng, lại sắc phong tước hiệu, cho dựng đền thờ lớn. Từ đó người Việt tôn nàng là Thánh Mẫu Liễu Hạnh, một trong Tứ bất tử, cùng với Tản Viên, Thánh Gióng và Chử Đồng Tử. Phủ Giầy ở Vân Cát và đền Sòng ở Phố Cát đến nay vẫn tấp nập người đến dâng hương mỗi mùa lễ hội.",
+      "subtitles": [
+        "Tiếng nàng làm triều đình lo ngại, cho là yêu quái làm hại dân.",
+        "Vua sai quân lính cùng các pháp sư cao tay đến đánh đuổi.",
+        "Trận đấu phép diễn ra suốt nhiều ngày, gió cát mù mịt.",
+        "Cuối cùng các pháp sư dùng phép mạnh bắt được nàng.",
+        "Nàng không oán hận, chỉ xin được giãi bày rằng mình chưa từng hại người lương thiện,",
+        "chỉ trừng trị kẻ gian ác.",
+        "Có lời khuyên giải từ cửa Phật, triều đình hiểu ra, tha cho nàng, lại sắc phong tước hiệu,",
+        "cho dựng đền thờ lớn.",
+        "Từ đó người Việt tôn nàng là Thánh Mẫu Liễu Hạnh, một trong Tứ bất tử, cùng với Tản Viên,",
+        "Thánh Gióng và Chử Đồng Tử.",
+        "Phủ Giầy ở Vân Cát và đền Sòng ở Phố Cát đến nay vẫn tấp nập người đến dâng hương mỗi mùa",
+        "lễ hội."
+      ],
+      "image": {
+        "prompt": "a grand Vietnamese temple complex of Phu Day during a spring festival, crowds bringing incense and offerings, lanterns and banners, a golden statue of the mother goddess in crimson robes inside the main hall",
+        "seed": 3794371722,
+        "character": "lieu-hanh"
+      },
+      "video": {
+        "motionPrompt": "festival banners flutter, incense smoke rises in the courtyard, pilgrims bow, lantern light glows on the golden statue, slow push in toward the shrine",
+        "seed": 2314583058
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "traditional northern Vietnamese instrumental in the style of chau van spirit music, dan nguyet moon lute, phach clappers and bamboo flute, graceful and sacred, gently rhythmic, medium slow tempo, no vocals",
+    "durationSeconds": 160,
+    "seed": 2278978311
+  }
+}

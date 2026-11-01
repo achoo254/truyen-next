@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "slug": "nguoi-buon-va-than-den",
+  "shelf": "world",
+  "title": "Người lái buôn và thần đèn",
+  "summary": "Một người lái buôn ngồi nghỉ dưới gốc cây, ăn chà là rồi ném hạt đi, nào ngờ hạt bay trúng con trai của một vị thần. Thần đòi trừng phạt, người lái buôn xin về nhà một năm rồi giữ lời quay lại. Ba ông lão đi ngang kể ba câu chuyện kỳ lạ để xin tha cho anh, truyện Nghìn lẻ một đêm kể nhẹ cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Phỏng theo truyện người lái buôn và vị thần trong \"Nghìn lẻ một đêm\", truyện cổ Ả Rập thuộc phạm vi công cộng (bản Burton 1885, Lang 1898). Lời kể viết mới bằng tiếng Việt cho cả nhà, rút gọn ba câu chuyện của ba ông lão và kể nhẹ đi lời đe dọa của vị thần, không chép bản dịch nào.",
+  "basedOn": "Nghìn lẻ một đêm",
+  "style": "classic Arabian Nights storybook illustration in the style of early twentieth century fairy tale picture books, warm desert palette of saffron, sand gold, turquoise and deep indigo, ornamental arabesque borders, palm oases and caravan roads, swirling magical smoke, gentle warm mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "lai-buon",
+      "name": "Người lái buôn",
+      "sheetPrompt": "a kind middle-aged Arab merchant from the Arabian Nights, neat dark beard, white turban with a green band, striped travelling robe and sash, leather saddlebag, honest worried eyes, full body, front view, plain light background, character reference sheet",
+      "seed": 374240077
+    },
+    {
+      "id": "than",
+      "name": "Vị thần",
+      "sheetPrompt": "a towering genie from the Arabian Nights with a body of swirling grey-blue smoke below the waist, deep blue skin, golden earrings and armbands, bushy eyebrows, stern but not scary face, storybook style, front view, plain light background, character reference sheet",
+      "seed": 3491450436
+    },
+    {
+      "id": "ong-lao",
+      "name": "Ông lão dắt linh dương",
+      "sheetPrompt": "a gentle white-bearded old Arab man in a cream robe and brown cloak, leaning on a wooden staff, leading a graceful gazelle on a silk cord, kindly wise face, full body, front view, plain light background, character reference sheet",
+      "seed": 3614836905
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hat-cha-la",
+      "title": "Hạt chà là bay đi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một người lái buôn giàu có, hay cưỡi ngựa đi buôn khắp các xứ. Một hôm, đường xa nắng gắt, anh dừng chân dưới gốc cây bên một con suối nhỏ. Anh lấy bánh và chà là ra ăn, ăn quả nào thì ném hạt quả ấy ra xa. Bỗng mặt đất rung lên, một cột khói xám cuồn cuộn bốc lên, hóa thành một vị thần khổng lồ. Thần quát lớn: “Hạt chà là của ngươi bay trúng con trai ta! Đứa bé ngã lăn ra, tới giờ vẫn chưa tỉnh. Ngươi phải chịu phạt!”",
+      "subtitles": [
+        "Ngày xưa, có một người lái buôn giàu có, hay cưỡi ngựa đi buôn khắp các xứ.",
+        "Một hôm, đường xa nắng gắt, anh dừng chân dưới gốc cây bên một con suối nhỏ.",
+        "Anh lấy bánh và chà là ra ăn, ăn quả nào thì ném hạt quả ấy ra xa.",
+        "Bỗng mặt đất rung lên, một cột khói xám cuồn cuộn bốc lên, hóa thành một vị thần khổng lồ.",
+        "Thần quát lớn: “Hạt chà là của ngươi bay trúng con trai ta!",
+        "Đứa bé ngã lăn ra, tới giờ vẫn chưa tỉnh.",
+        "Ngươi phải chịu phạt!”"
+      ],
+      "image": {
+        "prompt": "a merchant resting under a shady tree beside a little desert stream, eating dates from a cloth, tossing a date pit over his shoulder, a column of grey smoke rising behind him and forming a giant genie, his horse startled nearby",
+        "seed": 3404863121,
+        "character": "lai-buon"
+      },
+      "video": {
+        "motionPrompt": "the date pit flies through the air, the ground trembles, grey smoke spirals up into a towering genie who points down sternly",
+        "seed": 2689342185
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-hua-mot-nam",
+      "title": "Lời hứa một năm",
+      "narrator": "ke-chuyen",
+      "narration": "Người lái buôn sợ hãi, quỳ xuống thưa: “Tôi đâu biết có con ngài ở đó. Nhưng nếu phải chịu phạt, xin ngài cho tôi về nhà một năm. Tôi còn vợ con, còn nợ phải trả, còn của phải chia cho người nghèo. Đúng một năm nữa, tôi sẽ quay lại chốn này.” Thần nghĩ một lúc rồi gật đầu. Người lái buôn về nhà, kể hết cho vợ con nghe, cả nhà khóc mãi. Anh lo trả nợ, làm việc thiện, dặn dò con cái. Hết một năm, dù ai can ngăn, anh vẫn lên đường, vì anh đã hứa.",
+      "subtitles": [
+        "Người lái buôn sợ hãi, quỳ xuống thưa: “Tôi đâu biết có con ngài ở đó.",
+        "Nhưng nếu phải chịu phạt, xin ngài cho tôi về nhà một năm.",
+        "Tôi còn vợ con, còn nợ phải trả, còn của phải chia cho người nghèo.",
+        "Đúng một năm nữa, tôi sẽ quay lại chốn này.”",
+        "Thần nghĩ một lúc rồi gật đầu.",
+        "Người lái buôn về nhà, kể hết cho vợ con nghe, cả nhà khóc mãi.",
+        "Anh lo trả nợ, làm việc thiện, dặn dò con cái.",
+        "Hết một năm, dù ai can ngăn, anh vẫn lên đường, vì anh đã hứa."
+      ],
+      "image": {
+        "prompt": "the merchant at home in a courtyard with fountains, embracing his weeping wife and small children, handing bags of coins to poor neighbours, then setting out alone on his horse at dawn toward the desert",
+        "seed": 1618945480,
+        "character": "lai-buon"
+      },
+      "video": {
+        "motionPrompt": "the family waves goodbye at the gate, the merchant rides slowly out into the golden dawn, dust drifting behind the horse",
+        "seed": 3923541821
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-ong-lao",
+      "title": "Ba ông lão đi ngang",
+      "narrator": "ke-chuyen",
+      "narration": "Người lái buôn trở lại gốc cây cũ, ngồi chờ, lòng buồn rười rượi. Một ông lão râu tóc bạc phơ dắt con linh dương đi tới, hỏi vì sao anh ngồi một mình nơi vắng vẻ. Nghe anh kể, ông lão lắc đầu: “Người giữ chữ tín như anh hiếm lắm. Ta sẽ ngồi đây xem chuyện ra sao.” Lát sau, ông lão thứ hai dắt hai con chó đen đi tới, rồi ông lão thứ ba cưỡi một con la. Ai nghe chuyện cũng xót thương, cùng ngồi lại bên anh. Vừa lúc ấy, cột khói xám lại bốc lên, và vị thần hiện ra.",
+      "subtitles": [
+        "Người lái buôn trở lại gốc cây cũ, ngồi chờ, lòng buồn rười rượi.",
+        "Một ông lão râu tóc bạc phơ dắt con linh dương đi tới,",
+        "hỏi vì sao anh ngồi một mình nơi vắng vẻ.",
+        "Nghe anh kể, ông lão lắc đầu: “Người giữ chữ tín như anh hiếm lắm.",
+        "Ta sẽ ngồi đây xem chuyện ra sao.”",
+        "Lát sau, ông lão thứ hai dắt hai con chó đen đi tới, rồi ông lão thứ ba cưỡi một con la.",
+        "Ai nghe chuyện cũng xót thương, cùng ngồi lại bên anh.",
+        "Vừa lúc ấy, cột khói xám lại bốc lên, và vị thần hiện ra."
+      ],
+      "image": {
+        "prompt": "three old men gathered around the sitting merchant under the tree, one leading a gazelle, one with two black dogs, one riding a grey mule, all listening kindly, afternoon desert light",
+        "seed": 3146402957,
+        "character": "ong-lao"
+      },
+      "video": {
+        "motionPrompt": "the old men arrive one after another, the gazelle lowers its head to drink from the stream, the dogs lie down, smoke begins to rise in the distance",
+        "seed": 211659202
+      },
+      "voice": {}
+    },
+    {
+      "id": "chuyen-linh-duong",
+      "title": "Chuyện con linh dương",
+      "narrator": "ke-chuyen",
+      "narration": "Ông lão dắt linh dương bước ra, cúi chào thần: “Thưa ngài, tôi xin kể một chuyện lạ. Nếu ngài thấy hay, xin tha cho người này một phần ba hình phạt.” Thần đồng ý. Ông lão kể: “Con linh dương này vốn là vợ tôi. Bà ấy ganh ghét con trai tôi, dùng phép biến cậu bé thành con bê. May sao, cô con gái người chăn bò biết phép, đã biến con tôi trở lại thành người. Còn người vợ độc ác thì bị hóa thành linh dương, để chịu phạt cho điều mình đã làm.” Thần nghe say sưa, gật gù: “Hay lắm. Ta tha một phần ba.”",
+      "subtitles": [
+        "Ông lão dắt linh dương bước ra, cúi chào thần: “Thưa ngài, tôi xin kể một chuyện lạ.",
+        "Nếu ngài thấy hay, xin tha cho người này một phần ba hình phạt.”",
+        "Thần đồng ý.",
+        "Ông lão kể: “Con linh dương này vốn là vợ tôi.",
+        "Bà ấy ganh ghét con trai tôi, dùng phép biến cậu bé thành con bê.",
+        "May sao, cô con gái người chăn bò biết phép, đã biến con tôi trở lại thành người.",
+        "Còn người vợ độc ác thì bị hóa thành linh dương, để chịu phạt cho điều mình đã làm.”",
+        "Thần nghe say sưa, gật gù: “Hay lắm.",
+        "Ta tha một phần ba.”"
+      ],
+      "image": {
+        "prompt": "the old man with the gazelle telling his tale to the listening genie, above them a dreamy picture in the smoke showing a little calf turning back into a happy boy beside a herdsman's daughter waving her hand",
+        "seed": 1091683830,
+        "character": "ong-lao"
+      },
+      "video": {
+        "motionPrompt": "images swirl in the smoke like a moving picture book, the calf glows and becomes a boy, the genie strokes his chin",
+        "seed": 924414693
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-chuyen-nua",
+      "title": "Hai câu chuyện nữa",
+      "narrator": "ke-chuyen",
+      "narration": "Ông lão thứ hai kể rằng hai con chó đen kia chính là hai người anh của ông. Họ tham lam, lừa em ném xuống biển để chiếm của. Người vợ hiền của ông là một nàng tiên, đã cứu ông lên bờ, rồi biến hai người anh thành chó cho tới khi họ biết hối lỗi. Ông lão thứ ba kể chuyện con la của mình, còn kỳ lạ hơn nữa. Mỗi câu chuyện xong, vị thần lại ngồi xuống thấp hơn, nét mặt dịu đi, mắt sáng lên vì thích thú. Thần nói: “Ta tha thêm một phần ba, rồi thêm một phần ba nữa.”",
+      "subtitles": [
+        "Ông lão thứ hai kể rằng hai con chó đen kia chính là hai người anh của ông.",
+        "Họ tham lam, lừa em ném xuống biển để chiếm của.",
+        "Người vợ hiền của ông là một nàng tiên, đã cứu ông lên bờ,",
+        "rồi biến hai người anh thành chó cho tới khi họ biết hối lỗi.",
+        "Ông lão thứ ba kể chuyện con la của mình, còn kỳ lạ hơn nữa.",
+        "Mỗi câu chuyện xong, vị thần lại ngồi xuống thấp hơn, nét mặt dịu đi,",
+        "mắt sáng lên vì thích thú.",
+        "Thần nói: “Ta tha thêm một phần ba, rồi thêm một phần ba nữa.”"
+      ],
+      "image": {
+        "prompt": "the second old man telling his story with two black dogs sitting at his feet looking sorry, the genie now sitting cross-legged on the sand, chin in hand, smiling and enchanted, the third old man with his mule waiting his turn",
+        "seed": 2562483304,
+        "character": "than"
+      },
+      "video": {
+        "motionPrompt": "the genie slowly shrinks and settles onto the sand, his frown melts into a smile, the black dogs lower their ears",
+        "seed": 2072533531
+      },
+      "voice": {}
+    },
+    {
+      "id": "long-tot-duoc-tha",
+      "title": "Lòng tốt được tha",
+      "narrator": "ke-chuyen",
+      "narration": "Vậy là cả ba phần hình phạt đều được tha hết. Vị thần đứng dậy, nói với người lái buôn: “Ngươi giữ lời hứa, dám quay lại dù biết mình sẽ chịu phạt. Lại có những người xa lạ chịu ngồi đây vì ngươi. Ta không còn giận nữa.” Nói rồi thần hóa thành khói, bay vút đi mất. Người lái buôn cảm tạ ba ông lão, rồi phi ngựa về nhà, ôm chầm lấy vợ con. Từ đó, ai cũng nhắc chuyện anh: người giữ chữ tín thì đi đâu cũng gặp người tốt.",
+      "subtitles": [
+        "Vậy là cả ba phần hình phạt đều được tha hết.",
+        "Vị thần đứng dậy, nói với người lái buôn: “Ngươi giữ lời hứa,",
+        "dám quay lại dù biết mình sẽ chịu phạt.",
+        "Lại có những người xa lạ chịu ngồi đây vì ngươi.",
+        "Ta không còn giận nữa.”",
+        "Nói rồi thần hóa thành khói, bay vút đi mất.",
+        "Người lái buôn cảm tạ ba ông lão, rồi phi ngựa về nhà, ôm chầm lấy vợ con.",
+        "Từ đó, ai cũng nhắc chuyện anh: người giữ chữ tín thì đi đâu cũng gặp người tốt."
+      ],
+      "image": {
+        "prompt": "the genie dissolving into happy swirling smoke and flying away into a sunset sky, the merchant bowing gratefully to the three smiling old men, the gazelle and dogs beside them, then riding home to his family",
+        "seed": 1516285213,
+        "character": "lai-buon"
+      },
+      "video": {
+        "motionPrompt": "smoke spirals away into the orange sky, the merchant bows and mounts his horse, gallops toward the lights of home",
+        "seed": 1267453622
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm Arabian Nights storytelling melody, oud, ney flute, qanun and soft frame drum, a mysterious theme for the genie that grows gentle and cheerful, calm for family listening, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 1930271458
+  }
+}

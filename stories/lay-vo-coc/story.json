@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "slug": "lay-vo-coc",
+  "shelf": "kids",
+  "title": "Lấy vợ Cóc",
+  "summary": "Nhà phú ông sinh ra một cô con gái là Cóc. Anh học trò nghèo dám cưới Cóc làm vợ, bị bạn bè chê cười, nhưng nàng Cóc khéo léo vượt qua mọi thử thách, rồi trút lốt hiện ra là cô gái xinh đẹp. Truyện cổ tích Việt Nam: tốt gỗ hơn tốt nước sơn.",
+  "themes": [
+    "tinh-yeu",
+    "gia-dinh",
+    "than-thoai"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ tích dân gian Việt Nam, truyền miệng, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; giữ các tình tiết chung của truyện: nồi canh cá, tấm áo may không cần đo, nàng Cóc trút lốt trong bụi mía ngày Tết.",
+  "basedOn": "Truyện cổ tích dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, old Vietnamese countryside with a rich farmer's house, rice fields, sugarcane rows and a village teacher's school, the toad drawn cute and sweet, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3804170328
+    },
+    {
+      "id": "coc",
+      "name": "Nàng Cóc",
+      "seed": 1114332671,
+      "sheetPrompt": "a sweet cute cartoon toad girl from a Vietnamese folk tale, round green-brown bumpy body, big kind golden eyes, a tiny red flower behind her head, small pink scarf, gentle smile, for young children, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoc-tro",
+      "name": "Anh học trò",
+      "seed": 2507116316,
+      "sheetPrompt": "a poor honest young Vietnamese scholar from an old folk tale, black hair in a small topknot, plain faded blue scholar robe, a scroll under his arm, kind earnest face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nang-dep",
+      "name": "Nàng Cóc hiện hình",
+      "seed": 553559539,
+      "sheetPrompt": "a beautiful gentle young Vietnamese woman from an old folk tale, long black hair tied with a green ribbon, soft green and cream ao tu than dress, warm kind smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn nhìn xem, ngoài vườn có một bạn cóc đang ngồi kìa. Da cóc sần sùi, trông chẳng xinh chút nào, phải không? Thế mà ngày xưa có một nàng Cóc vừa khéo tay, vừa tốt bụng, còn lấy được một anh chồng học trò hiền lành nữa đấy. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Mèo Miu đây.",
+        "Các bạn nhìn xem, ngoài vườn có một bạn cóc đang ngồi kìa.",
+        "Da cóc sần sùi, trông chẳng xinh chút nào, phải không?",
+        "Thế mà ngày xưa có một nàng Cóc vừa khéo tay, vừa tốt bụng,",
+        "còn lấy được một anh chồng học trò hiền lành nữa đấy.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat squats in a garden of a Vietnamese village house, smiling at a cute little toad sitting on a lotus leaf beside a small pond, morning light",
+        "seed": 879194526,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat leans down and waves at the toad, the toad blinks and puffs its cheeks, a dragonfly hovers over the pond, gentle camera push-in",
+        "seed": 1339353492
+      },
+      "voice": {}
+    },
+    {
+      "id": "sinh-coc",
+      "title": "Nhà phú ông sinh ra Cóc",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có hai vợ chồng phú ông mãi đến lúc đứng tuổi mới có con. Nhưng lạ thay, đứa con sinh ra lại là một con cóc. Phú ông buồn lắm, định đem cóc bỏ ra ruộng. Cóc liền cất tiếng: \"Cha ơi, cha đừng bỏ con. Con sẽ ở nhà giúp cha mẹ mọi việc.\" Nghe con nói vậy, hai vợ chồng thương lắm, giữ cóc lại nuôi.",
+      "subtitles": [
+        "Ngày xưa, có hai vợ chồng phú ông mãi đến lúc đứng tuổi mới có con.",
+        "Nhưng lạ thay, đứa con sinh ra lại là một con cóc.",
+        "Phú ông buồn lắm, định đem cóc bỏ ra ruộng. Cóc liền cất tiếng: \"Cha ơi, cha đừng bỏ con.",
+        "Con sẽ ở nhà giúp cha mẹ mọi việc.\" Nghe con nói vậy, hai vợ chồng thương lắm,",
+        "giữ cóc lại nuôi."
+      ],
+      "image": {
+        "prompt": "inside a rich Vietnamese farmer's house, the surprised old farmer and his wife look at the cute little toad girl who bows politely on a cushion, the wife softly touches her heart",
+        "seed": 2136049384,
+        "character": "coc"
+      },
+      "video": {
+        "motionPrompt": "the toad bows and speaks, the old farmer's frown melts into a smile, the wife reaches out a gentle hand, incense smoke curls softly",
+        "seed": 282497265
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-hoc-tro",
+      "title": "Anh học trò nghèo",
+      "narrator": "ke-chuyen",
+      "narration": "Cóc lớn lên, chăm chỉ làm việc nhà, lại ăn nói dịu dàng. Gần đó có một anh học trò nghèo, mồ côi, ngày ngày đi học qua cánh đồng nhà phú ông. Có lần anh đói quá, bẻ trộm mấy bông lúa, Cóc ngồi bên bờ ruộng nhẹ nhàng khuyên can. Từ đó, hôm nào đi qua anh cũng dừng lại trò chuyện với Cóc. Anh thấy Cóc hiểu biết, nết na, dần dần đem lòng thương.",
+      "subtitles": [
+        "Cóc lớn lên, chăm chỉ làm việc nhà, lại ăn nói dịu dàng.",
+        "Gần đó có một anh học trò nghèo, mồ côi, ngày ngày đi học qua cánh đồng nhà phú ông.",
+        "Có lần anh đói quá, bẻ trộm mấy bông lúa, Cóc ngồi bên bờ ruộng nhẹ nhàng khuyên can.",
+        "Từ đó, hôm nào đi qua anh cũng dừng lại trò chuyện với Cóc.",
+        "Anh thấy Cóc hiểu biết, nết na, dần dần đem lòng thương."
+      ],
+      "image": {
+        "prompt": "at the edge of a golden rice field, the poor young scholar sits on the dyke chatting with the cute toad girl who sits on a stone, a scroll on his lap, sunset light",
+        "seed": 3002003233,
+        "character": "hoc-tro"
+      },
+      "video": {
+        "motionPrompt": "the scholar laughs at something the toad says, the toad smiles and nods, rice stalks sway in the breeze, birds fly home",
+        "seed": 999739569
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi",
+      "title": "Đám cưới nàng Cóc",
+      "narrator": "ke-chuyen",
+      "narration": "Anh học trò nhờ người mai mối sang hỏi Cóc làm vợ. Phú ông ngạc nhiên lắm, nhưng thấy anh chàng có chí học hành, ông vui vẻ đồng ý. Đám cưới linh đình, cả làng kéo đến xem. Thế nhưng bạn học của anh thì cười chê: \"Lấy ai không lấy, lại đi lấy con cóc!\" Anh chỉ mỉm cười, không nói gì.",
+      "subtitles": [
+        "Anh học trò nhờ người mai mối sang hỏi Cóc làm vợ.",
+        "Phú ông ngạc nhiên lắm, nhưng thấy anh chàng có chí học hành, ông vui vẻ đồng ý.",
+        "Đám cưới linh đình, cả làng kéo đến xem.",
+        "Thế nhưng bạn học của anh thì cười chê: \"Lấy ai không lấy,",
+        "lại đi lấy con cóc!\" Anh chỉ mỉm cười, không nói gì."
+      ],
+      "image": {
+        "prompt": "a cheerful village wedding in front of the farmer's house, red lanterns and a festive gate, the young scholar proudly carries the little toad bride on a decorated tray, his classmates in the background point and snicker",
+        "seed": 2692133216,
+        "character": "hoc-tro"
+      },
+      "video": {
+        "motionPrompt": "red lanterns sway, the scholar walks proudly smiling at his bride, classmates whisper and giggle, firecracker paper confetti drifts",
+        "seed": 3010956230
+      },
+      "voice": {}
+    },
+    {
+      "id": "thu-thach",
+      "title": "Nồi canh và tấm áo",
+      "narrator": "ke-chuyen",
+      "narration": "Đến ngày giỗ ở nhà thầy đồ, mỗi học trò phải làm một món mang đến. Vợ anh học trò nấu một nồi canh cá thơm phức, thầy khen ngon nhất. Lần khác, thầy sắp mừng thọ, học trò phải may áo tặng thầy mà không được đo. Đêm ấy, Cóc hóa thành một con muỗi nhỏ, bay đến đậu lên áo thầy để đo người. Sáng ra, áo của anh học trò vừa khít, còn áo của các bạn thì rộng quá hoặc chật quá.",
+      "subtitles": [
+        "Đến ngày giỗ ở nhà thầy đồ, mỗi học trò phải làm một món mang đến.",
+        "Vợ anh học trò nấu một nồi canh cá thơm phức, thầy khen ngon nhất.",
+        "Lần khác, thầy sắp mừng thọ, học trò phải may áo tặng thầy mà không được đo.",
+        "Đêm ấy, Cóc hóa thành một con muỗi nhỏ, bay đến đậu lên áo thầy để đo người.",
+        "Sáng ra, áo của anh học trò vừa khít, còn áo của các bạn thì rộng quá hoặc chật quá."
+      ],
+      "image": {
+        "prompt": "in a village school with wooden desks, an elderly teacher with a white beard smiles wearing a perfectly fitting golden silk robe, the proud young scholar bows, his classmates hold up robes that are far too big or too small and look embarrassed",
+        "seed": 2962930347,
+        "character": "coc"
+      },
+      "video": {
+        "motionPrompt": "the teacher spreads his arms admiring the robe, a classmate's oversized robe slips over his head, another struggles with a tiny one, laughter, soft light",
+        "seed": 1746902779
+      },
+      "voice": {}
+    },
+    {
+      "id": "trut-lot",
+      "title": "Nàng Cóc trút lốt",
+      "narrator": "ke-chuyen",
+      "narration": "Tết đến, học trò phải đưa vợ đến mừng tuổi thầy. Bạn bè chờ sẵn để xem vợ cóc của anh. Trên đường đi, Cóc bảo chồng đứng chờ, rồi nhảy vào một bụi mía bên đường. Một lúc sau, từ bụi mía bước ra một cô gái xinh đẹp, áo quần tươi tắn, nụ cười hiền hậu. Thì ra đó chính là nàng Cóc trút bỏ lớp da cóc.",
+      "subtitles": [
+        "Tết đến, học trò phải đưa vợ đến mừng tuổi thầy.",
+        "Bạn bè chờ sẵn để xem vợ cóc của anh.",
+        "Trên đường đi, Cóc bảo chồng đứng chờ, rồi nhảy vào một bụi mía bên đường.",
+        "Một lúc sau, từ bụi mía bước ra một cô gái xinh đẹp, áo quần tươi tắn, nụ cười hiền hậu.",
+        "Thì ra đó chính là nàng Cóc trút bỏ lớp da cóc."
+      ],
+      "image": {
+        "prompt": "on a country path lined with tall sugarcane on a spring morning, a beautiful young woman in a soft green dress steps out of the sugarcane with a gentle smile, the young scholar stares in wonder, peach blossoms nearby",
+        "seed": 185440972,
+        "character": "nang-dep"
+      },
+      "video": {
+        "motionPrompt": "sugarcane leaves part softly, the young woman steps out into the sunlight, the scholar's mouth opens in surprise then he smiles, petals drift in the breeze",
+        "seed": 1217229603
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Đến nhà thầy, ai cũng sững sờ, vì vợ của anh học trò xinh đẹp và nết na hơn tất cả. Từ đó chẳng ai dám cười chê nữa, hai vợ chồng sống với nhau rất hạnh phúc. Các bạn ơi, đừng bao giờ chê ai chỉ vì vẻ bề ngoài nhé. Tấm lòng tốt và đôi bàn tay khéo mới là điều quý nhất. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Đến nhà thầy, ai cũng sững sờ, vì vợ của anh học trò xinh đẹp và nết na hơn tất cả.",
+        "Từ đó chẳng ai dám cười chê nữa, hai vợ chồng sống với nhau rất hạnh phúc.",
+        "Các bạn ơi, đừng bao giờ chê ai chỉ vì vẻ bề ngoài nhé.",
+        "Tấm lòng tốt và đôi bàn tay khéo mới là điều quý nhất.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye in front of the village teacher's house decorated for Tet, behind her the happy young scholar and his beautiful wife bow to the smiling teacher while the amazed classmates watch, peach blossoms",
+        "seed": 1651717360,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the couple bow together, the teacher nods happily, the classmates clap, peach petals drift, gentle camera pull-back",
+        "seed": 2294090847
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "sweet Vietnamese folk melody, dan tranh zither and bamboo flute with soft dan nhi fiddle, tender and gently playful, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4233899473
+  }
+}

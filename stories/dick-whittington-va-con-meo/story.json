@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "slug": "dick-whittington-va-con-meo",
+  "shelf": "world",
+  "title": "Dick Whittington và con mèo",
+  "summary": "Cậu bé mồ côi Dick lên London tìm đường phố lát vàng, chỉ có một con mèo làm bạn. Chú mèo ấy theo tàu buôn sang xứ xa và đổi đời cho Dick. Truyện dân gian Anh về lòng kiên nhẫn, kể nhẹ cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Anh \"Whittington and His Cat\", in trong English Fairy Tales của Joseph Jacobs (1890), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, kể nhẹ cho cả nhà, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Anh (Joseph Jacobs, 1890)",
+  "style": "classic English storybook illustration in the style of Victorian picture books, soft watercolor and ink, medieval London with timber houses, church spires and the river Thames, sailing ships, warm golden palette, hopeful gentle mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "dick",
+      "name": "Dick Whittington",
+      "sheetPrompt": "a thin hopeful English boy of about twelve with tousled brown hair, patched tunic and worn boots, a small bundle on a stick, bright determined eyes, full body, front view, plain light background, character reference sheet",
+      "seed": 2455085292
+    },
+    {
+      "id": "meo-dick",
+      "name": "Con mèo của Dick",
+      "sheetPrompt": "a sleek black and white cat with bright yellow eyes and a white bib, alert ears, proud clever expression, full body, front view, plain light background, character reference sheet",
+      "seed": 3565321710
+    },
+    {
+      "id": "ong-fitzwarren",
+      "name": "Ông Fitzwarren",
+      "sheetPrompt": "a kindly rich London merchant in a fur-trimmed burgundy robe and velvet cap, grey beard, gentle smile, full body, front view, plain light background, character reference sheet",
+      "seed": 1004255370
+    }
+  ],
+  "scenes": [
+    {
+      "id": "len-london",
+      "title": "Lên London",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng quê nước Anh, có cậu bé mồ côi tên là Dick Whittington. Dick nghèo lắm, ngày nào cũng đói. Cậu nghe người ta đồn rằng ở thành London xa xôi, đường phố đều lát bằng vàng. Một hôm, Dick xin đi nhờ xe ngựa chở hàng, lên tận London. Nhưng tới nơi, cậu chỉ thấy đường đất lầy lội, người qua kẻ lại vội vã, chẳng có lấy một viên vàng nào. Đêm xuống, Dick đói lả, nằm co ro trước cửa một ngôi nhà lớn.",
+      "subtitles": [
+        "Ngày xưa, ở một làng quê nước Anh, có cậu bé mồ côi tên là Dick Whittington.",
+        "Dick nghèo lắm, ngày nào cũng đói.",
+        "Cậu nghe người ta đồn rằng ở thành London xa xôi, đường phố đều lát bằng vàng.",
+        "Một hôm, Dick xin đi nhờ xe ngựa chở hàng, lên tận London.",
+        "Nhưng tới nơi, cậu chỉ thấy đường đất lầy lội, người qua kẻ lại vội vã,",
+        "chẳng có lấy một viên vàng nào.",
+        "Đêm xuống, Dick đói lả, nằm co ro trước cửa một ngôi nhà lớn."
+      ],
+      "image": {
+        "prompt": "a poor boy riding on the back of a hay wagon toward the spires of medieval London, then curled up tired on the stone steps of a grand merchant house at dusk",
+        "seed": 618840296,
+        "character": "dick"
+      },
+      "video": {
+        "motionPrompt": "the wagon rolls along the road, the boy gazes at distant spires, evening lamps flicker on",
+        "seed": 412779916
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-ong-fitzwarren",
+      "title": "Ngôi nhà ông Fitzwarren",
+      "narrator": "ke-chuyen",
+      "narration": "Ngôi nhà ấy là của ông Fitzwarren, một nhà buôn giàu có và tốt bụng. Thấy cậu bé gầy gò, ông cho Dick vào nhà, để cậu phụ việc trong bếp. Dick có miếng ăn, có chỗ ngủ trên căn gác xép. Cô Alice, con gái ông chủ, cũng hiền hậu, hay hỏi han cậu. Chỉ có bà đầu bếp là khó tính, suốt ngày quát mắng. Còn căn gác của Dick thì đầy chuột, đêm nào chúng cũng chạy rầm rầm, khiến cậu không sao ngủ được.",
+      "subtitles": [
+        "Ngôi nhà ấy là của ông Fitzwarren, một nhà buôn giàu có và tốt bụng.",
+        "Thấy cậu bé gầy gò, ông cho Dick vào nhà, để cậu phụ việc trong bếp.",
+        "Dick có miếng ăn, có chỗ ngủ trên căn gác xép.",
+        "Cô Alice, con gái ông chủ, cũng hiền hậu, hay hỏi han cậu.",
+        "Chỉ có bà đầu bếp là khó tính, suốt ngày quát mắng.",
+        "Còn căn gác của Dick thì đầy chuột, đêm nào chúng cũng chạy rầm rầm,",
+        "khiến cậu không sao ngủ được."
+      ],
+      "image": {
+        "prompt": "a kind merchant in a burgundy robe welcoming the boy into a warm kitchen, a sweet girl smiling from the doorway, a cross cook with a ladle, then a tiny attic room with mice scurrying in moonlight",
+        "seed": 3631111266,
+        "character": "ong-fitzwarren"
+      },
+      "video": {
+        "motionPrompt": "the merchant beckons kindly, the cook waves her ladle, little mice scamper across the attic floor",
+        "seed": 3328666098
+      },
+      "voice": {}
+    },
+    {
+      "id": "mua-meo",
+      "title": "Con mèo một đồng xu",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, Dick đánh giày cho một quý ông, được trả một đồng xu. Cậu đem đồng xu ra chợ, mua một con mèo đen lông trắng ở ngực. Từ đó, mèo ngủ cùng Dick trên gác xép. Chỉ ít đêm, lũ chuột chạy hết sạch, chẳng con nào dám quay lại. Dick ngủ ngon, sáng nào cũng chia cho mèo một phần bữa ăn của mình. Hai bạn thân nhau như hình với bóng.",
+      "subtitles": [
+        "Một hôm, Dick đánh giày cho một quý ông, được trả một đồng xu.",
+        "Cậu đem đồng xu ra chợ, mua một con mèo đen lông trắng ở ngực.",
+        "Từ đó, mèo ngủ cùng Dick trên gác xép.",
+        "Chỉ ít đêm, lũ chuột chạy hết sạch, chẳng con nào dám quay lại.",
+        "Dick ngủ ngon, sáng nào cũng chia cho mèo một phần bữa ăn của mình.",
+        "Hai bạn thân nhau như hình với bóng."
+      ],
+      "image": {
+        "prompt": "the boy holding a black and white cat in a busy medieval market, then the boy sleeping peacefully in his attic with the cat curled on his blanket, moonlight through a small window",
+        "seed": 2081592262,
+        "character": "meo-dick"
+      },
+      "video": {
+        "motionPrompt": "the cat purrs and nuzzles the boy, moonlight shifts across the blanket, the boy smiles in his sleep",
+        "seed": 3188059416
+      },
+      "voice": {}
+    },
+    {
+      "id": "tau-buon",
+      "title": "Gửi mèo theo tàu",
+      "narrator": "ke-chuyen",
+      "narration": "Ít lâu sau, ông Fitzwarren sắp cho một con tàu buôn đi sang những xứ xa. Ông cho mọi người trong nhà gửi theo một món gì đó để bán lấy may. Dick chẳng có gì ngoài con mèo. Cậu ôm mèo một lúc lâu, rồi rưng rưng trao nó cho thuyền trưởng. Mèo đi rồi, căn gác lại đầy chuột. Bà đầu bếp lại càng hay chế giễu: “Gửi một con mèo đi buôn, rồi mang về được cái gì cơ chứ!”",
+      "subtitles": [
+        "Ít lâu sau, ông Fitzwarren sắp cho một con tàu buôn đi sang những xứ xa.",
+        "Ông cho mọi người trong nhà gửi theo một món gì đó để bán lấy may.",
+        "Dick chẳng có gì ngoài con mèo.",
+        "Cậu ôm mèo một lúc lâu, rồi rưng rưng trao nó cho thuyền trưởng.",
+        "Mèo đi rồi, căn gác lại đầy chuột.",
+        "Bà đầu bếp lại càng hay chế giễu: “Gửi một con mèo đi buôn,",
+        "rồi mang về được cái gì cơ chứ!”"
+      ],
+      "image": {
+        "prompt": "the boy sadly handing his black and white cat to a bearded sea captain on a wooden dock by the Thames, a tall sailing ship with white sails behind them, the kind girl watching",
+        "seed": 1162619533,
+        "character": "dick"
+      },
+      "video": {
+        "motionPrompt": "the ship sails billow, the cat looks back at the boy, gulls circle over the river",
+        "seed": 1305295422
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-chuong",
+      "title": "Tiếng chuông gọi",
+      "narrator": "ke-chuyen",
+      "narration": "Bị bà đầu bếp trêu chọc mãi, một sáng sớm, Dick buộc túi đồ, lặng lẽ bỏ đi. Tới một ngọn đồi ngoài thành, cậu ngồi xuống hòn đá nghỉ chân. Bỗng chuông nhà thờ Bow ở London ngân vang. Trong tiếng chuông, Dick như nghe thấy: “Quay về đi, Whittington, rồi ba lần làm thị trưởng London!” Cậu bé dụi mắt, ngẫm nghĩ: “Nếu sau này được làm thị trưởng, thì chịu khó thêm chút nữa có sao đâu!” Thế là Dick quay về, kịp vào bếp trước khi bà đầu bếp thức dậy.",
+      "subtitles": [
+        "Bị bà đầu bếp trêu chọc mãi, một sáng sớm, Dick buộc túi đồ, lặng lẽ bỏ đi.",
+        "Tới một ngọn đồi ngoài thành, cậu ngồi xuống hòn đá nghỉ chân.",
+        "Bỗng chuông nhà thờ Bow ở London ngân vang.",
+        "Trong tiếng chuông, Dick như nghe thấy: “Quay về đi, Whittington,",
+        "rồi ba lần làm thị trưởng London!”",
+        "Cậu bé dụi mắt, ngẫm nghĩ: “Nếu sau này được làm thị trưởng,",
+        "thì chịu khó thêm chút nữa có sao đâu!”",
+        "Thế là Dick quay về, kịp vào bếp trước khi bà đầu bếp thức dậy."
+      ],
+      "image": {
+        "prompt": "the boy sitting on a milestone on a green hill at dawn, looking back at London spires, golden sound waves of church bells drifting through the morning mist",
+        "seed": 2489775748,
+        "character": "dick"
+      },
+      "video": {
+        "motionPrompt": "church bells swing in the distant tower, mist drifts, the boy stands up and turns back toward the city",
+        "seed": 1830282782
+      },
+      "voice": {}
+    },
+    {
+      "id": "xu-xa",
+      "title": "Con mèo ở xứ xa",
+      "narrator": "ke-chuyen",
+      "narration": "Lúc ấy, con tàu đã tới một xứ xa bên bờ biển phía nam. Nhà vua ở đó mời thuyền trưởng vào cung dự tiệc. Nhưng thức ăn vừa dọn ra, bầy chuột từ khắp nơi ùa tới, tranh hết cả mâm. Nhà vua buồn rầu: “Ta sẵn lòng trả nửa kho báu cho ai đuổi được lũ chuột này.” Thuyền trưởng bèn mang con mèo của Dick lên. Mèo nhảy vút xuống, chỉ một loáng, bầy chuột chạy tán loạn, trốn biệt chẳng dám ló ra. Nhà vua mừng rỡ, đổi lấy con mèo bằng cả một rương vàng ngọc.",
+      "subtitles": [
+        "Lúc ấy, con tàu đã tới một xứ xa bên bờ biển phía nam.",
+        "Nhà vua ở đó mời thuyền trưởng vào cung dự tiệc.",
+        "Nhưng thức ăn vừa dọn ra, bầy chuột từ khắp nơi ùa tới, tranh hết cả mâm.",
+        "Nhà vua buồn rầu: “Ta sẵn lòng trả nửa kho báu cho ai đuổi được lũ chuột này.”",
+        "Thuyền trưởng bèn mang con mèo của Dick lên.",
+        "Mèo nhảy vút xuống, chỉ một loáng, bầy chuột chạy tán loạn, trốn biệt chẳng dám ló ra.",
+        "Nhà vua mừng rỡ, đổi lấy con mèo bằng cả một rương vàng ngọc."
+      ],
+      "image": {
+        "prompt": "a grand palace hall on a sunny southern coast with arches and patterned tiles, a black and white cat leaping onto a banquet table as little mice scatter away, a delighted king clapping",
+        "seed": 2332141196,
+        "character": "meo-dick"
+      },
+      "video": {
+        "motionPrompt": "the cat pounces gracefully, mice scatter in all directions, the king laughs and claps his hands",
+        "seed": 3115861974
+      },
+      "voice": {}
+    },
+    {
+      "id": "thi-truong",
+      "title": "Ba lần làm thị trưởng",
+      "narrator": "ke-chuyen",
+      "narration": "Con tàu trở về London, mang theo rương vàng ngọc. Ông Fitzwarren gọi Dick lên, tươi cười bảo: “Tất cả là của con, vì đó là giá của con mèo.” Dick không tin nổi mắt mình. Cậu chia quà cho mọi người trong nhà, cả bà đầu bếp khó tính. Lớn lên, Dick học hành chăm chỉ, cưới cô Alice hiền hậu, và đúng như tiếng chuông năm nào, ba lần được làm thị trưởng London. Người ta kể rằng, đi đâu ông cũng nhớ tới chú mèo nhỏ đã đổi đời cho mình.",
+      "subtitles": [
+        "Con tàu trở về London, mang theo rương vàng ngọc.",
+        "Ông Fitzwarren gọi Dick lên, tươi cười bảo: “Tất cả là của con, vì đó là giá của con mèo.”",
+        "Dick không tin nổi mắt mình.",
+        "Cậu chia quà cho mọi người trong nhà, cả bà đầu bếp khó tính.",
+        "Lớn lên, Dick học hành chăm chỉ, cưới cô Alice hiền hậu,",
+        "và đúng như tiếng chuông năm nào, ba lần được làm thị trưởng London.",
+        "Người ta kể rằng, đi đâu ông cũng nhớ tới chú mèo nhỏ đã đổi đời cho mình."
+      ],
+      "image": {
+        "prompt": "a grown Dick Whittington in a fine red mayoral robe and gold chain standing with gentle Alice in front of a London guildhall, a black and white cat on a velvet cushion, cheering townsfolk and bunting",
+        "seed": 1552977396,
+        "character": "dick"
+      },
+      "video": {
+        "motionPrompt": "bunting flutters, the crowd cheers, the cat lifts its head proudly on the cushion",
+        "seed": 3776505053
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle English renaissance style tune, lute, recorder and soft church bells, hopeful rising melody, warm triumphant ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4149602838
+  }
+}

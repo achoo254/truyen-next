@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "slug": "dam-san",
+  "shelf": "adults",
+  "title": "Đăm Săn chinh phục Nữ thần Mặt Trời",
+  "summary": "Chàng tù trưởng Ê Đê Đăm Săn đánh bại những kẻ cướp vợ mình, làm cho buôn làng giàu mạnh, rồi băng rừng đi hỏi Nữ thần Mặt Trời làm vợ. Một mạch kể gọn từ sử thi Đăm Săn của Tây Nguyên.",
+  "themes": [
+    "anh-hung",
+    "than-thoai"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Sử thi (khan) Đăm Săn của dân tộc Ê Đê, Tây Nguyên, truyền miệng, không ai giữ quyền. Lời kể văn xuôi viết mới, kể gọn một mạch chính (lấy vợ theo tục nối dây, thắng Mtao Grứ và Mtao Mxây, đi hỏi Nữ thần Mặt Trời và chết trong rừng sáp), lược nhiều đoạn; không trích lời các bản dịch hiện đại. Các câu thoại là lời viết mới.",
+  "basedOn": "Sử thi Đăm Săn của dân tộc Ê Đê (Việt Nam)",
+  "style": "epic painterly illustration inspired by Central Highlands Vietnam folk art and woodcut textures, deep earth red, black and indigo with gold sunlight, Ede longhouses on stilts with long carved ladders, bronze gongs, wooden shields, vast forests and red basalt hills, majestic heroic mood for adult readers, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "dam-san",
+      "name": "Đăm Săn",
+      "sheetPrompt": "Dam San, a mighty young Ede chieftain hero of the Central Highlands, tall and muscular, long black hair tied back, bare chest with a woven red and black loincloth and a broad belt, bronze armlets, carrying a round wooden shield and a long hunting blade, proud fiery eyes, full body, front view, plain earthy parchment background, character reference sheet",
+      "seed": 298809433
+    },
+    {
+      "id": "ho-nhi",
+      "name": "Hơ Nhị",
+      "sheetPrompt": "Ho Nhi, a beautiful young Ede noblewoman, long black hair, dark indigo wrap skirt with red and white woven stripes, short black blouse, many bronze and bead necklaces, ivory earrings, graceful and proud, full body, front view, plain earthy parchment background, character reference sheet",
+      "seed": 2236116505
+    },
+    {
+      "id": "nu-than-mat-troi",
+      "name": "Nữ thần Mặt Trời",
+      "sheetPrompt": "the Sun Goddess of Ede myth, a radiant serene woman with golden skin glow, long hair shining like rays, flowing gold and red woven robes, crown of light, full body, front view, plain warm golden background, character reference sheet",
+      "seed": 3756892493
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tuc-noi-day",
+      "title": "Tục nối dây",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở vùng đất đỏ Tây Nguyên, có một chàng trai Ê Đê tên là Đăm Săn. Chàng cao lớn, vai rộng, chạy nhanh như gió, sức mạnh như voi đực đầu đàn. Theo tục nối dây của người Ê Đê, khi bà chủ nhà qua đời, cháu trai phải lấy người nối dòng của bà. Vì thế Đăm Săn được định phải lấy hai chị em Hơ Nhị và Hơ Bhị, hai cô gái nhà giàu nhất vùng. Nhưng Đăm Săn ngang tàng, chỉ muốn tự do săn bắn và đánh giặc, nhất định không chịu. Người ta đến nhà hỏi, chàng bỏ đi. Người ta mời rượu, chàng lắc đầu.",
+      "subtitles": [
+        "Ngày xưa, ở vùng đất đỏ Tây Nguyên, có một chàng trai Ê Đê tên là Đăm Săn.",
+        "Chàng cao lớn, vai rộng, chạy nhanh như gió, sức mạnh như voi đực đầu đàn.",
+        "Theo tục nối dây của người Ê Đê, khi bà chủ nhà qua đời,",
+        "cháu trai phải lấy người nối dòng của bà.",
+        "Vì thế Đăm Săn được định phải lấy hai chị em Hơ Nhị và Hơ Bhị,",
+        "hai cô gái nhà giàu nhất vùng.",
+        "Nhưng Đăm Săn ngang tàng, chỉ muốn tự do săn bắn và đánh giặc, nhất định không chịu.",
+        "Người ta đến nhà hỏi, chàng bỏ đi.",
+        "Người ta mời rượu, chàng lắc đầu."
+      ],
+      "image": {
+        "prompt": "a proud young Ede warrior standing with arms crossed in front of a long Ede stilt house, elders and two young noblewomen waiting at the carved ladder with jars of rice wine, red basalt hills beyond",
+        "seed": 1921247044,
+        "character": "dam-san"
+      },
+      "video": {
+        "motionPrompt": "the warrior turns away with a shake of his head, the elders exchange glances, the women lower their eyes, wind moves the grass, slow push in",
+        "seed": 1881588052
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhan-loi",
+      "title": "Lời của Ông Trời",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng, Ông Trời phải hiện xuống, bảo Đăm Săn rằng tục lệ của tổ tiên không ai được bỏ, người làm trái thì buôn làng sẽ không yên. Ông Trời còn nói, có Hơ Nhị làm vợ, chàng sẽ có cả buôn làng đông đúc theo về. Nghe lời Trời, Đăm Săn mới chịu. Đám cưới linh đình bảy ngày bảy đêm, tiếng chiêng vang khắp núi rừng, trâu bò mổ tế nhiều không đếm xuể. Từ đó Đăm Săn trở thành tù trưởng của một buôn lớn. Nhà dài của chàng nối thêm gian này gian khác, ché rượu xếp đầy, chiêng đồng treo kín vách.",
+      "subtitles": [
+        "Cuối cùng, Ông Trời phải hiện xuống, bảo Đăm Săn rằng tục lệ của tổ tiên không ai được bỏ,",
+        "người làm trái thì buôn làng sẽ không yên.",
+        "Ông Trời còn nói, có Hơ Nhị làm vợ, chàng sẽ có cả buôn làng đông đúc theo về.",
+        "Nghe lời Trời, Đăm Săn mới chịu.",
+        "Đám cưới linh đình bảy ngày bảy đêm, tiếng chiêng vang khắp núi rừng,",
+        "trâu bò mổ tế nhiều không đếm xuể.",
+        "Từ đó Đăm Săn trở thành tù trưởng của một buôn lớn.",
+        "Nhà dài của chàng nối thêm gian này gian khác, ché rượu xếp đầy,",
+        "chiêng đồng treo kín vách."
+      ],
+      "image": {
+        "prompt": "a grand Ede wedding feast in front of a very long stilt house, rows of bronze gongs being played, jars of rice wine with bamboo straws, dancers circling, the hero and his bride at the center",
+        "seed": 2023703578,
+        "character": "dam-san"
+      },
+      "video": {
+        "motionPrompt": "gong players move in a circle, dancers sway, bamboo straws dip into the wine jars, the couple raise their cups, festive camera pan",
+        "seed": 1690740947
+      },
+      "voice": {}
+    },
+    {
+      "id": "mtao-gru",
+      "title": "Mtao Grứ đến cướp",
+      "narrator": "ke-chuyen",
+      "narration": "Tiếng tăm Đăm Săn bay xa, khiến các tù trưởng vùng khác vừa ghen vừa sợ. Một hôm, nhân lúc Đăm Săn lên rẫy, tù trưởng Mtao Grứ dẫn quân đến cướp Hơ Nhị đem đi. Đăm Săn về nhà, thấy cầu thang lạnh tanh, chiêng im tiếng, liền mài dao, cầm khiên đuổi theo. Chàng thách Mtao Grứ xuống đất mà đọ sức. Hai người múa khiên quần nhau từ sáng đến trưa, cây rừng đổ rạp. Mtao Grứ không chịu nổi, ngã quỵ dưới lưỡi dao của Đăm Săn. Chàng đưa vợ về, dân làng của Mtao Grứ cũng xin theo chàng.",
+      "subtitles": [
+        "Tiếng tăm Đăm Săn bay xa, khiến các tù trưởng vùng khác vừa ghen vừa sợ.",
+        "Một hôm, nhân lúc Đăm Săn lên rẫy, tù trưởng Mtao Grứ dẫn quân đến cướp Hơ Nhị đem đi.",
+        "Đăm Săn về nhà, thấy cầu thang lạnh tanh, chiêng im tiếng, liền mài dao,",
+        "cầm khiên đuổi theo.",
+        "Chàng thách Mtao Grứ xuống đất mà đọ sức.",
+        "Hai người múa khiên quần nhau từ sáng đến trưa, cây rừng đổ rạp.",
+        "Mtao Grứ không chịu nổi, ngã quỵ dưới lưỡi dao của Đăm Săn.",
+        "Chàng đưa vợ về, dân làng của Mtao Grứ cũng xin theo chàng."
+      ],
+      "image": {
+        "prompt": "two highland warriors with round wooden shields dueling in a forest clearing, trees bending from the force, a noblewoman watching from a stilt house ladder, dust swirling in sunlight",
+        "seed": 3192792974,
+        "character": "dam-san"
+      },
+      "video": {
+        "motionPrompt": "the warriors circle and clash their shields, leaves and dust fly up, trees sway, one warrior stumbles, fast dramatic camera arc",
+        "seed": 316997583
+      },
+      "voice": {}
+    },
+    {
+      "id": "mtao-mxay",
+      "title": "Mtao Mxây, kẻ giàu có ngạo mạn",
+      "narrator": "ke-chuyen",
+      "narration": "Chưa được bao lâu, lại đến tù trưởng Mtao Mxây. Hắn giàu có, nhà cao cửa rộng, ngựa voi đầy chuồng, nghe tiếng Hơ Nhị đẹp liền mang quân tới cướp nàng về làm vợ. Lần này Đăm Săn đi thẳng đến nhà hắn. Đứng dưới sân, chàng gọi lớn: “Mtao Mxây, kẻ cướp vợ người! Ra sân mà đọ khiên với ta, đừng nấp sau vách nhà nữa!” Mtao Mxây khệnh khạng bước xuống, áo giáp đồng sáng loáng, miệng cười khẩy, bảo chàng chỉ là gã trai lỗ mãng ở buôn nghèo.",
+      "subtitles": [
+        "Chưa được bao lâu, lại đến tù trưởng Mtao Mxây.",
+        "Hắn giàu có, nhà cao cửa rộng, ngựa voi đầy chuồng,",
+        "nghe tiếng Hơ Nhị đẹp liền mang quân tới cướp nàng về làm vợ.",
+        "Lần này Đăm Săn đi thẳng đến nhà hắn.",
+        "Đứng dưới sân, chàng gọi lớn: “Mtao Mxây, kẻ cướp vợ người!",
+        "Ra sân mà đọ khiên với ta, đừng nấp sau vách nhà nữa!”",
+        "Mtao Mxây khệnh khạng bước xuống, áo giáp đồng sáng loáng, miệng cười khẩy,",
+        "bảo chàng chỉ là gã trai lỗ mãng ở buôn nghèo."
+      ],
+      "image": {
+        "prompt": "a rich arrogant highland chieftain in ornate bronze armor swaggering down the carved ladder of his grand longhouse, the young hero standing below in the yard with his shield raised, villagers peeking from doorways",
+        "seed": 3414584008,
+        "character": "dam-san"
+      },
+      "video": {
+        "motionPrompt": "the arrogant chief strides down the steps, the hero plants his feet and lifts his shield, villagers pull back into the shadows, slow push in",
+        "seed": 244370217
+      },
+      "voice": {}
+    },
+    {
+      "id": "tran-dau",
+      "title": "Trận đấu khiên",
+      "narrator": "ke-chuyen",
+      "narration": "Mtao Mxây ra đòn trước. Hắn vung khiên vụng về, chân bước loạng choạng, giáp đồng va vào nhau chan chát mà đòn nào cũng trượt. Đến lượt Đăm Săn. Chàng xoay khiên nhanh đến mức chỉ còn thấy một vầng sáng tròn, bụi đỏ cuộn lên mù mịt. Chàng tung mình qua những ngọn đồi cỏ, qua những rừng tre rừng nứa, đất dưới chân chàng rung lên như có động. Chim muông bay tán loạn, voi rừng cũng phải dạt vào khe núi. Chàng đâm trúng Mtao Mxây mấy lần, nhưng lạ thay, hắn vẫn không sao, vì hắn mặc áo giáp có phép, đâm mãi không thủng.",
+      "subtitles": [
+        "Mtao Mxây ra đòn trước.",
+        "Hắn vung khiên vụng về, chân bước loạng choạng,",
+        "giáp đồng va vào nhau chan chát mà đòn nào cũng trượt.",
+        "Đến lượt Đăm Săn.",
+        "Chàng xoay khiên nhanh đến mức chỉ còn thấy một vầng sáng tròn, bụi đỏ cuộn lên mù mịt.",
+        "Chàng tung mình qua những ngọn đồi cỏ, qua những rừng tre rừng nứa,",
+        "đất dưới chân chàng rung lên như có động.",
+        "Chim muông bay tán loạn, voi rừng cũng phải dạt vào khe núi.",
+        "Chàng đâm trúng Mtao Mxây mấy lần, nhưng lạ thay, hắn vẫn không sao,",
+        "vì hắn mặc áo giáp có phép, đâm mãi không thủng."
+      ],
+      "image": {
+        "prompt": "an epic highland duel, the hero leaping across hills of tall grass and bamboo with his round shield and long blade, whirlwinds of leaves, the armored chief stumbling clumsily, dramatic storm sky",
+        "seed": 2641377122,
+        "character": "dam-san"
+      },
+      "video": {
+        "motionPrompt": "the hero leaps in great arcs, wind whips the grass into a whirl, bamboo groves bend, the armored chief staggers, dynamic sweeping camera",
+        "seed": 3232136545
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-troi-giup",
+      "title": "Cái chày giã gạo",
+      "narrator": "ke-chuyen",
+      "narration": "Đánh mãi không hạ được kẻ thù, Đăm Săn mệt mỏi, lúc thiếp đi chàng thấy Ông Trời hiện đến bày cho một mẹo: hãy lấy một cái chày giã gạo mà ném vào vành tai hắn. Tỉnh dậy, Đăm Săn chộp ngay một cái chày, ném trúng tai Mtao Mxây. Áo giáp phép của hắn rơi xuống, hắn ngã lăn ra đất. Hắn xin tha, hứa đem hết của cải ra chuộc, nhưng Đăm Săn nghĩ đến bao người hắn đã cướp bóc, liền kết liễu hắn. Chàng đón Hơ Nhị về, rồi gọi to dân làng Mtao Mxây có muốn theo mình không.",
+      "subtitles": [
+        "Đánh mãi không hạ được kẻ thù, Đăm Săn mệt mỏi,",
+        "lúc thiếp đi chàng thấy Ông Trời hiện đến bày cho một mẹo:",
+        "hãy lấy một cái chày giã gạo mà ném vào vành tai hắn.",
+        "Tỉnh dậy, Đăm Săn chộp ngay một cái chày, ném trúng tai Mtao Mxây.",
+        "Áo giáp phép của hắn rơi xuống, hắn ngã lăn ra đất.",
+        "Hắn xin tha, hứa đem hết của cải ra chuộc,",
+        "nhưng Đăm Săn nghĩ đến bao người hắn đã cướp bóc, liền kết liễu hắn.",
+        "Chàng đón Hơ Nhị về, rồi gọi to dân làng Mtao Mxây có muốn theo mình không."
+      ],
+      "image": {
+        "prompt": "the hero hurling a large wooden rice pestle that strikes the ear of the armored chieftain, the magic armor falling away in pieces, a faint image of an old sky god in the clouds above",
+        "seed": 706879578,
+        "character": "dam-san"
+      },
+      "video": {
+        "motionPrompt": "the pestle spins through the air and strikes, the armor shatters into falling pieces, the sky god image fades into clouds, slow motion then quick zoom",
+        "seed": 4026444479
+      },
+      "voice": {}
+    },
+    {
+      "id": "dan-lang-theo-ve",
+      "title": "Dân làng theo về",
+      "narrator": "ke-chuyen",
+      "narration": "Dân làng của Mtao Mxây, tôi tớ, người già, trẻ nhỏ, đều đồng thanh xin theo Đăm Săn. Họ gánh của cải, dắt trâu bò, khiêng chiêng ché nối nhau thành một đoàn dài như dòng suối chảy về buôn chàng. Buôn của Đăm Săn càng thêm đông đúc giàu mạnh. Chàng mở hội ăn mừng chiến thắng. Chiêng đánh vang từ sáng đến khuya, người các buôn kéo đến chật nhà, ché rượu cạn rồi lại mở. Ai nấy đều khen: “Đăm Săn quả là một tù trưởng anh hùng, tiếng tăm vang dội cả đất trời.”",
+      "subtitles": [
+        "Dân làng của Mtao Mxây, tôi tớ, người già, trẻ nhỏ, đều đồng thanh xin theo Đăm Săn.",
+        "Họ gánh của cải, dắt trâu bò,",
+        "khiêng chiêng ché nối nhau thành một đoàn dài như dòng suối chảy về buôn chàng.",
+        "Buôn của Đăm Săn càng thêm đông đúc giàu mạnh.",
+        "Chàng mở hội ăn mừng chiến thắng.",
+        "Chiêng đánh vang từ sáng đến khuya, người các buôn kéo đến chật nhà,",
+        "ché rượu cạn rồi lại mở.",
+        "Ai nấy đều khen: “Đăm Săn quả là một tù trưởng anh hùng, tiếng tăm vang dội cả đất trời.”"
+      ],
+      "image": {
+        "prompt": "a long procession of highland villagers carrying bronze gongs, wine jars and baskets, leading buffalo along a red earth path toward a huge longhouse, the hero standing proudly at the head",
+        "seed": 1798519423,
+        "character": "dam-san"
+      },
+      "video": {
+        "motionPrompt": "the procession winds along the red path, buffalo plod forward, gongs glint in the sunlight, children run beside, wide slow pan",
+        "seed": 1401850288
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoi-mat-troi",
+      "title": "Đi hỏi Nữ thần Mặt Trời",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà đã giàu, buôn đã mạnh, Đăm Săn lại khao khát một điều chưa ai dám nghĩ. Chàng muốn đi hỏi Nữ thần Mặt Trời làm vợ, để danh tiếng của chàng sánh với trời đất. Hơ Nhị và dân làng can ngăn, chàng không nghe. Chàng đeo khiên, cầm dao, đi về phía mặt trời mọc. Chàng băng qua bao nhiêu khu rừng, vượt bao nhiêu đỉnh núi, gặp bao nhiêu thử thách. Đến đâu, người ta cũng khuyên chàng quay về, bởi chưa người trần nào đến được nhà Mặt Trời mà trở về nguyên vẹn.",
+      "subtitles": [
+        "Nhà đã giàu, buôn đã mạnh, Đăm Săn lại khao khát một điều chưa ai dám nghĩ.",
+        "Chàng muốn đi hỏi Nữ thần Mặt Trời làm vợ, để danh tiếng của chàng sánh với trời đất.",
+        "Hơ Nhị và dân làng can ngăn, chàng không nghe.",
+        "Chàng đeo khiên, cầm dao, đi về phía mặt trời mọc.",
+        "Chàng băng qua bao nhiêu khu rừng, vượt bao nhiêu đỉnh núi, gặp bao nhiêu thử thách.",
+        "Đến đâu, người ta cũng khuyên chàng quay về,",
+        "bởi chưa người trần nào đến được nhà Mặt Trời mà trở về nguyên vẹn."
+      ],
+      "image": {
+        "prompt": "the lone hero with shield on his back walking toward a huge rising sun across endless forested mountains, his wife and villagers waving sadly from a distant longhouse",
+        "seed": 4219572051,
+        "character": "dam-san"
+      },
+      "video": {
+        "motionPrompt": "the hero strides toward the blazing sunrise, mist rolls over the ridges, his figure grows smaller, slow pull back",
+        "seed": 3768099482
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-mat-troi",
+      "title": "Lời từ chối của Nữ thần",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng Đăm Săn cũng tới được ngôi nhà của Nữ thần Mặt Trời, rực sáng như lửa. Nữ thần bước ra, nghe chàng ngỏ ý thì lắc đầu: “Ta là người của trời, chàng là người của đất. Ta không thể theo chàng. Chàng hãy về đi, đường về có rừng sáp đen, rừng sáp đỏ, chàng sẽ không qua được.” Đăm Săn không chịu, cứ nằng nặc đòi đưa nàng đi. Nàng vẫn nhẹ nhàng mà kiên quyết từ chối. Biết không thể lay chuyển được lòng nữ thần, Đăm Săn đành quay ngựa trở về, lòng vẫn không chịu thua.",
+      "subtitles": [
+        "Cuối cùng Đăm Săn cũng tới được ngôi nhà của Nữ thần Mặt Trời, rực sáng như lửa.",
+        "Nữ thần bước ra, nghe chàng ngỏ ý thì lắc đầu: “Ta là người của trời,",
+        "chàng là người của đất.",
+        "Ta không thể theo chàng.",
+        "Chàng hãy về đi, đường về có rừng sáp đen, rừng sáp đỏ, chàng sẽ không qua được.”",
+        "Đăm Săn không chịu, cứ nằng nặc đòi đưa nàng đi.",
+        "Nàng vẫn nhẹ nhàng mà kiên quyết từ chối.",
+        "Biết không thể lay chuyển được lòng nữ thần, Đăm Săn đành quay ngựa trở về,",
+        "lòng vẫn không chịu thua."
+      ],
+      "image": {
+        "prompt": "a radiant golden house blazing with light at the edge of the sky, the Sun Goddess in flowing gold robes standing at the door gently refusing, the highland hero kneeling below shading his eyes",
+        "seed": 2488937833,
+        "character": "nu-than-mat-troi"
+      },
+      "video": {
+        "motionPrompt": "waves of golden light pulse from the house, the goddess raises a hand gently, the hero lowers his head, light shimmers, slow push in",
+        "seed": 3827035857
+      },
+      "voice": {}
+    },
+    {
+      "id": "rung-sap-den",
+      "title": "Rừng sáp đen",
+      "narrator": "ke-chuyen",
+      "narration": "Quả như lời nữ thần nói, trên đường về, Đăm Săn đi vào rừng sáp đen. Mặt đất mềm nhão như sáp chảy dưới nắng. Chàng thúc ngựa chạy, ngựa lún dần. Chàng bỏ ngựa chạy bộ, chân chàng lún đến gối, rồi đến ngực. Đăm Săn dũng mãnh là thế, đã thắng bao kẻ thù, giờ cũng không thắng nổi đất trời. Chàng lún sâu, sâu mãi, rồi tắt thở giữa rừng sáp. Tin dữ bay về, cả buôn làng gõ chiêng tang, Hơ Nhị khóc ngất bên cầu thang nhà dài.",
+      "subtitles": [
+        "Quả như lời nữ thần nói, trên đường về, Đăm Săn đi vào rừng sáp đen.",
+        "Mặt đất mềm nhão như sáp chảy dưới nắng.",
+        "Chàng thúc ngựa chạy, ngựa lún dần.",
+        "Chàng bỏ ngựa chạy bộ, chân chàng lún đến gối, rồi đến ngực.",
+        "Đăm Săn dũng mãnh là thế, đã thắng bao kẻ thù, giờ cũng không thắng nổi đất trời.",
+        "Chàng lún sâu, sâu mãi, rồi tắt thở giữa rừng sáp.",
+        "Tin dữ bay về, cả buôn làng gõ chiêng tang, Hơ Nhị khóc ngất bên cầu thang nhà dài."
+      ],
+      "image": {
+        "prompt": "a dark eerie forest where the ground is melting black wax, the hero sinking up to his chest, reaching toward a distant patch of sky, twisted trees, a fallen shield on the surface",
+        "seed": 3777213851,
+        "character": "dam-san"
+      },
+      "video": {
+        "motionPrompt": "the black ground ripples and slowly swallows the hero, his hand stretches upward, dark mist rolls through the trees, slow tilt up to the sky",
+        "seed": 1322397813
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-san-chau",
+      "title": "Đăm Săn cháu ra đời",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng hồn Đăm Săn không chịu tan đi. Hồn chàng hóa thành một con ruồi, bay về buôn cũ. Con ruồi bay vào miệng Hơ Âni, em gái chàng, đúng lúc nàng đang uống nước. Hơ Âni mang thai, sinh ra một cậu bé khỏe mạnh giống hệt Đăm Săn. Người ta đặt tên cậu là Đăm Săn cháu. Cậu lớn nhanh như thổi, sức khỏe phi thường. Lớn lên, Đăm Săn cháu lại lấy Hơ Nhị theo tục nối dây, rồi tiếp tục những chiến công của cậu mình. Người Ê Đê kể lại chuyện Đăm Săn bên bếp lửa nhà dài qua bao đời, để con cháu nhớ rằng người anh hùng không bao giờ thật sự mất đi.",
+      "subtitles": [
+        "Nhưng hồn Đăm Săn không chịu tan đi.",
+        "Hồn chàng hóa thành một con ruồi, bay về buôn cũ.",
+        "Con ruồi bay vào miệng Hơ Âni, em gái chàng, đúng lúc nàng đang uống nước.",
+        "Hơ Âni mang thai, sinh ra một cậu bé khỏe mạnh giống hệt Đăm Săn.",
+        "Người ta đặt tên cậu là Đăm Săn cháu.",
+        "Cậu lớn nhanh như thổi, sức khỏe phi thường.",
+        "Lớn lên, Đăm Săn cháu lại lấy Hơ Nhị theo tục nối dây,",
+        "rồi tiếp tục những chiến công của cậu mình.",
+        "Người Ê Đê kể lại chuyện Đăm Săn bên bếp lửa nhà dài qua bao đời,",
+        "để con cháu nhớ rằng người anh hùng không bao giờ thật sự mất đi."
+      ],
+      "image": {
+        "prompt": "inside a long Ede house lit by a hearth fire, an old storyteller singing an epic to listening villagers, a young woman holding a strong newborn boy, a small fly glowing in the firelight",
+        "seed": 1676372118,
+        "character": "dam-san"
+      },
+      "video": {
+        "motionPrompt": "the fire crackles, the storyteller raises his hand as he sings, the mother lifts the baby, the tiny glowing fly drifts upward, slow push in",
+        "seed": 331411456
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "Central Highlands Vietnam instrumental, bronze gong ensemble, k ni monochord, bamboo t rung xylophone and dinh nam bamboo pipes, epic and rhythmic then solemn, medium tempo, no vocals",
+    "durationSeconds": 160,
+    "seed": 3486355497
+  }
+}

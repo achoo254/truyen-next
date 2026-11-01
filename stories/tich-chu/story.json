@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "slug": "tich-chu",
+  "shelf": "kids",
+  "title": "Tích Chu",
+  "summary": "Cậu bé Tích Chu mải chơi, quên cả bà đang ốm khát nước, để bà hóa thành chim bay lên trời. Tích Chu phải vượt núi băng rừng xin nước suối tiên để đón bà trở về. Truyện cổ tích Việt Nam về lòng hiếu thảo, kể nhẹ cho trẻ nhỏ.",
+  "themes": [
+    "gia-dinh",
+    "than-thoai"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ tích dân gian Việt Nam, truyền miệng, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "basedOn": "Truyện cổ tích dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, old Vietnamese village with thatched houses and bamboo hedges, dreamy mountains and a magical spring, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 464952599
+    },
+    {
+      "id": "tich-chu",
+      "name": "Tích Chu",
+      "seed": 1251062926,
+      "sheetPrompt": "Tich Chu, a small Vietnamese village boy from the folk tale, about eight years old, round face, short black hair with a little tuft, simple brown shirt and short trousers, barefoot, playful but kind eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba",
+      "name": "Bà của Tích Chu",
+      "seed": 1304814560,
+      "sheetPrompt": "a loving elderly Vietnamese grandmother from the folk tale, thin and small, white hair in a bun wrapped with a black headscarf, faded brown ao ba ba blouse, gentle tired smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba-tien",
+      "name": "Bà tiên",
+      "seed": 561827901,
+      "sheetPrompt": "a kind Vietnamese fairy grandmother from a folk tale, long silver hair, flowing white and pale gold robe, holding a small gourd of water, soft glowing light around her, serene smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn có thương ông bà mình không? Chắc là thương lắm, phải không nào? Hôm nay Miu kể chuyện một cậu bé tên là Tích Chu. Cậu suýt nữa thì mất bà của mình, chỉ vì mải chơi đấy. Chuyện thế nào, mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn có thương ông bà mình không?",
+        "Chắc là thương lắm, phải không nào? Hôm nay Miu kể chuyện một cậu bé tên là Tích Chu.",
+        "Cậu suýt nữa thì mất bà của mình, chỉ vì mải chơi đấy.",
+        "Chuyện thế nào, mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits on a bamboo bed under a starfruit tree in a Vietnamese village yard, holding a small clay cup of water, a little bird perched on the branch above, soft morning light",
+        "seed": 1178442024,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat lifts the cup and smiles, the little bird hops along the branch, leaves rustle, gentle camera push-in",
+        "seed": 2442415939
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-thuong-chau",
+      "title": "Bà thương Tích Chu",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một cậu bé tên là Tích Chu. Bố mẹ Tích Chu mất sớm, cậu sống với bà. Bà thương Tích Chu lắm. Có miếng ngon, bà dành cho cháu. Trời rét, bà ủ cháu trong lòng cho ấm. Trời nóng, bà ngồi quạt cho cháu ngủ, quạt mãi đến khuya. Bà làm lụng vất vả suốt ngày, chỉ mong cháu được no ấm.",
+      "subtitles": [
+        "Ngày xưa, có một cậu bé tên là Tích Chu. Bố mẹ Tích Chu mất sớm, cậu sống với bà.",
+        "Bà thương Tích Chu lắm. Có miếng ngon, bà dành cho cháu.",
+        "Trời rét, bà ủ cháu trong lòng cho ấm.",
+        "Trời nóng, bà ngồi quạt cho cháu ngủ, quạt mãi đến khuya.",
+        "Bà làm lụng vất vả suốt ngày, chỉ mong cháu được no ấm."
+      ],
+      "image": {
+        "prompt": "inside a small thatched house at night, the loving grandmother sits beside a sleeping Tich Chu and fans him with a palm-leaf fan, an oil lamp glows warmly, a bowl of sweet potatoes on the table",
+        "seed": 1645490909,
+        "character": "ba"
+      },
+      "video": {
+        "motionPrompt": "the grandmother fans slowly and pulls the blanket up over the boy, the lamp flame flickers softly, the boy smiles in his sleep",
+        "seed": 21281120
+      },
+      "voice": {}
+    },
+    {
+      "id": "mai-choi",
+      "title": "Tích Chu mải chơi",
+      "narrator": "ke-chuyen",
+      "narration": "Tích Chu lớn dần. Cậu có nhiều bạn, suốt ngày rủ nhau thả diều, đá cầu, bắt chuồn chuồn. Cậu cứ chạy chơi từ sáng đến tối, chẳng mấy khi ở nhà với bà. Bà thì ngày một già yếu. Một hôm trời nắng to, bà bị ốm nằm trên giường. Bà khát nước quá, gọi khẽ: \"Tích Chu ơi, cho bà xin ngụm nước!\" Nhưng Tích Chu đang mải chơi ngoài đồng, không nghe thấy.",
+      "subtitles": [
+        "Tích Chu lớn dần. Cậu có nhiều bạn, suốt ngày rủ nhau thả diều, đá cầu, bắt chuồn chuồn.",
+        "Cậu cứ chạy chơi từ sáng đến tối, chẳng mấy khi ở nhà với bà.",
+        "Bà thì ngày một già yếu. Một hôm trời nắng to, bà bị ốm nằm trên giường.",
+        "Bà khát nước quá, gọi khẽ: \"Tích Chu ơi,",
+        "cho bà xin ngụm nước!\" Nhưng Tích Chu đang mải chơi ngoài đồng, không nghe thấy."
+      ],
+      "image": {
+        "prompt": "in the bright fields Tich Chu runs happily with friends flying a paper kite, far away behind the bamboo hedge a small thatched house where the grandmother lies weakly in bed reaching out a hand",
+        "seed": 1917265268,
+        "character": "tich-chu"
+      },
+      "video": {
+        "motionPrompt": "the kite climbs into the sky, the boys run laughing, inside the far house the grandmother lifts her hand slowly, heat shimmers over the fields",
+        "seed": 2808682343
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-hoa-chim",
+      "title": "Bà hóa thành chim",
+      "narrator": "ke-chuyen",
+      "narration": "Bà gọi mãi, gọi mãi, không ai mang nước đến. Bà khát quá, người bà nhẹ dần, rồi hóa thành một con chim nhỏ. Chim bay ra cửa sổ, bay lên trời cao. Đến chiều, Tích Chu về nhà, không thấy bà đâu. Cậu nhìn lên, thấy con chim đang bay. Cậu khóc òa: \"Bà ơi! Bà đừng bỏ cháu! Bà ơi, cháu sẽ lấy nước cho bà uống!\"",
+      "subtitles": [
+        "Bà gọi mãi, gọi mãi, không ai mang nước đến.",
+        "Bà khát quá, người bà nhẹ dần, rồi hóa thành một con chim nhỏ.",
+        "Chim bay ra cửa sổ, bay lên trời cao. Đến chiều, Tích Chu về nhà, không thấy bà đâu.",
+        "Cậu nhìn lên, thấy con chim đang bay. Cậu khóc òa: \"Bà ơi!",
+        "Bà đừng bỏ cháu! Bà ơi, cháu sẽ lấy nước cho bà uống!\""
+      ],
+      "image": {
+        "prompt": "evening at the village house, a small grey-brown bird flies out of the window up into the orange sky, Tich Chu stands in the yard crying with arms stretched up toward the bird",
+        "seed": 1370866559,
+        "character": "ba"
+      },
+      "video": {
+        "motionPrompt": "the little bird circles once above the roof and flies higher, the boy reaches up and calls out, clouds drift slowly, gentle camera tilt up",
+        "seed": 1542465401
+      },
+      "voice": {}
+    },
+    {
+      "id": "chim-noi",
+      "title": "Lời con chim",
+      "narrator": "ke-chuyen",
+      "narration": "Con chim bay chậm lại, nói vọng xuống: \"Bà khát lắm, bây giờ bà phải đi uống nước ở sông, ở suối, không về được nữa đâu!\" Tích Chu chạy theo con chim, vừa chạy vừa khóc, xin bà quay về. Chim nói: \"Muốn bà trở lại thành người, cháu phải đi tìm nước suối tiên. Đường đi xa lắm, khó lắm, cháu có đi được không?\"",
+      "subtitles": [
+        "Con chim bay chậm lại, nói vọng xuống: \"Bà khát lắm, bây giờ bà phải đi uống nước ở sông,",
+        "ở suối, không về được nữa đâu!\" Tích Chu chạy theo con chim, vừa chạy vừa khóc,",
+        "xin bà quay về. Chim nói: \"Muốn bà trở lại thành người, cháu phải đi tìm nước suối tiên.",
+        "Đường đi xa lắm, khó lắm, cháu có đi được không?\""
+      ],
+      "image": {
+        "prompt": "Tich Chu runs along a winding village path after the small bird which flies low above him, rice fields and distant blue mountains, the boy wipes tears from his face",
+        "seed": 2397749878,
+        "character": "tich-chu"
+      },
+      "video": {
+        "motionPrompt": "the boy runs and looks up, the bird glides slowly ahead, rice stalks sway in the wind, gentle side tracking camera",
+        "seed": 2747965132
+      },
+      "voice": {}
+    },
+    {
+      "id": "duong-xa",
+      "title": "Đường xa tìm suối tiên",
+      "narrator": "ke-chuyen",
+      "narration": "Tích Chu gạt nước mắt, nói: \"Cháu đi được!\" Thế là cậu lên đường. Cậu lội qua sông, trèo qua núi, băng qua những khu rừng rậm. Chân cậu mỏi nhừ, bụng đói meo, nhưng nghĩ đến bà, cậu lại bước tiếp. Đi mãi, đi mãi, cậu gặp một bà tiên tóc bạc. Bà tiên thấy cậu bé thương bà như thế thì cảm động, liền cho cậu một bình nước suối tiên trong vắt.",
+      "subtitles": [
+        "Tích Chu gạt nước mắt, nói: \"Cháu đi được!\" Thế là cậu lên đường.",
+        "Cậu lội qua sông, trèo qua núi, băng qua những khu rừng rậm.",
+        "Chân cậu mỏi nhừ, bụng đói meo, nhưng nghĩ đến bà, cậu lại bước tiếp.",
+        "Đi mãi, đi mãi, cậu gặp một bà tiên tóc bạc.",
+        "Bà tiên thấy cậu bé thương bà như thế thì cảm động,",
+        "liền cho cậu một bình nước suối tiên trong vắt."
+      ],
+      "image": {
+        "prompt": "deep in a misty mountain forest beside a sparkling magical spring, the glowing fairy grandmother kindly hands a small gourd of clear water to the tired but determined Tich Chu",
+        "seed": 4091439170,
+        "character": "tich-chu"
+      },
+      "video": {
+        "motionPrompt": "the spring sparkles, the fairy places the gourd into the boy's hands, soft light glows around them, butterflies float by",
+        "seed": 2647589113
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-tro-ve",
+      "title": "Bà trở về",
+      "narrator": "ke-chuyen",
+      "narration": "Tích Chu ôm bình nước chạy một mạch về nhà. Cậu đứng giữa sân, gọi to: \"Bà ơi, cháu có nước suối tiên rồi! Bà về uống nước đi bà!\" Con chim nhỏ bay xuống, uống một ngụm nước. Lập tức, chim hóa lại thành bà. Hai bà cháu ôm chầm lấy nhau. Tích Chu nói: \"Bà ơi, từ nay cháu không mải chơi nữa. Cháu sẽ ở bên bà, chăm sóc bà!\"",
+      "subtitles": [
+        "Tích Chu ôm bình nước chạy một mạch về nhà.",
+        "Cậu đứng giữa sân, gọi to: \"Bà ơi, cháu có nước suối tiên rồi!",
+        "Bà về uống nước đi bà!\" Con chim nhỏ bay xuống, uống một ngụm nước.",
+        "Lập tức, chim hóa lại thành bà. Hai bà cháu ôm chầm lấy nhau.",
+        "Tích Chu nói: \"Bà ơi, từ nay cháu không mải chơi nữa.",
+        "Cháu sẽ ở bên bà, chăm sóc bà!\""
+      ],
+      "image": {
+        "prompt": "in the village yard the small bird drinks from the gourd held up by Tich Chu and sparkles, the grandmother appears again and hugs the boy tightly, both smiling with happy tears, warm golden light",
+        "seed": 910481801,
+        "character": "ba"
+      },
+      "video": {
+        "motionPrompt": "the bird sips the water and glows, the light turns into the grandmother, she wraps the boy in a hug, petals drift down from the starfruit tree",
+        "seed": 3271905459
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Từ hôm ấy, Tích Chu chăm ngoan lắm. Cậu quét nhà, nấu cơm, quạt cho bà ngủ, y như ngày xưa bà quạt cho cậu. Các bạn ơi, ông bà, bố mẹ thương mình nhiều lắm. Mình chơi vui thì nhớ về sớm, rót cho ông bà cốc nước, hỏi thăm ông bà một câu nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Từ hôm ấy, Tích Chu chăm ngoan lắm.",
+        "Cậu quét nhà, nấu cơm, quạt cho bà ngủ, y như ngày xưa bà quạt cho cậu.",
+        "Các bạn ơi, ông bà, bố mẹ thương mình nhiều lắm.",
+        "Mình chơi vui thì nhớ về sớm, rót cho ông bà cốc nước, hỏi thăm ông bà một câu nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the village yard, behind her Tich Chu happily fans his grandmother who rests on a bamboo bed under the starfruit tree, evening light",
+        "seed": 1904311023,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the boy fans the smiling grandmother, a little bird lands on the branch and sings, gentle camera pull-back",
+        "seed": 3116407725
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender Vietnamese folk lullaby, dan tranh zither and soft bamboo flute, a little wistful turning warm and hopeful, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3667441016
+  }
+}

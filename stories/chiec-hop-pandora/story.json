@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "slug": "chiec-hop-pandora",
+  "shelf": "world",
+  "title": "Chiếc hộp của Pandora",
+  "summary": "Cô gái đầu tiên Pandora được các vị thần ban đủ món quà, kèm một chiếc hộp không được mở. Tò mò thắng lời dặn, nắp hộp bật ra, và chỉ còn lại một điều quý giá dưới đáy. Thần thoại Hy Lạp kể nhẹ cho cả nhà.",
+  "themes": [
+    "than-thoai",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Thần thoại Hy Lạp về Prometheus và Pandora, theo Apollodorus (Bibliotheca, thế kỷ một đến hai) và Hesiod (Công việc và ngày), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, gọi chiếc vò là chiếc hộp như cách kể quen thuộc, kể nhẹ cho cả nhà, không chép bản dịch nào.",
+  "basedOn": "Thần thoại Hy Lạp (Apollodorus, Hesiod)",
+  "style": "classic Greek myth storybook illustration, soft watercolor with gold accents, inspired by ancient Greek vase motifs, marble temples, olive trees and Mount Olympus clouds, warm terracotta and sky blue palette, gentle wondrous mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "pandora",
+      "name": "Pandora",
+      "sheetPrompt": "a graceful young woman of ancient Greece with long dark curly hair tied with a golden ribbon, white chiton with a gold-patterned border, bright curious eyes, full body, front view, plain light background, character reference sheet",
+      "seed": 1040480205
+    },
+    {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "sheetPrompt": "a tall wise Titan with a short brown beard, simple earth-colored robe, holding a glowing torch, kind thoughtful face, full body, front view, plain light background, character reference sheet",
+      "seed": 1838943943
+    },
+    {
+      "id": "epimetheus",
+      "name": "Epimetheus",
+      "sheetPrompt": "a cheerful easygoing young Titan with tousled light brown hair, a green tunic and sandals, warm open smile, full body, front view, plain light background, character reference sheet",
+      "seed": 2730164455
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ngon-lua",
+      "title": "Ngọn lửa của Prometheus",
+      "narrator": "ke-chuyen",
+      "narration": "Thuở xa xưa, khi loài người mới có mặt trên mặt đất, họ còn chưa biết lửa. Đêm đến, người ta run rẩy trong giá lạnh, ăn đồ sống, sợ bóng tối. Thần Prometheus thương loài người lắm. Chàng lén lên núi Olympus, giấu một tàn lửa trong thân cây thì là rỗng, rồi mang xuống tặng loài người. Từ đó, mọi nhà có bếp ấm, có đèn sáng. Nhưng thần Zeus, vua của các vị thần, nổi giận vì Prometheus dám làm trái ý mình.",
+      "subtitles": [
+        "Thuở xa xưa, khi loài người mới có mặt trên mặt đất, họ còn chưa biết lửa.",
+        "Đêm đến, người ta run rẩy trong giá lạnh, ăn đồ sống, sợ bóng tối.",
+        "Thần Prometheus thương loài người lắm.",
+        "Chàng lén lên núi Olympus, giấu một tàn lửa trong thân cây thì là rỗng,",
+        "rồi mang xuống tặng loài người. Từ đó, mọi nhà có bếp ấm, có đèn sáng.",
+        "Nhưng thần Zeus, vua của các vị thần, nổi giận vì Prometheus dám làm trái ý mình."
+      ],
+      "image": {
+        "prompt": "a kind Titan carrying a glowing ember inside a hollow plant stalk down from cloudy Mount Olympus at night, below him simple villages beginning to glow with warm firelight",
+        "seed": 2695972774,
+        "character": "prometheus"
+      },
+      "video": {
+        "motionPrompt": "the ember glows and flickers, clouds drift, little fires light up one by one in the village below",
+        "seed": 2806674189
+      },
+      "voice": {}
+    },
+    {
+      "id": "nan-pandora",
+      "title": "Nặn nên Pandora",
+      "narrator": "ke-chuyen",
+      "narration": "Zeus sai thần thợ rèn Hephaestus lấy đất và nước nặn nên một cô gái. Mỗi vị thần ban cho cô một món quà. Nữ thần Athena dạy cô dệt vải. Nữ thần Aphrodite cho cô vẻ duyên dáng. Thần Hermes cho cô giọng nói ngọt ngào, và cả một tính tò mò không bao giờ nguôi. Cô được đặt tên là Pandora, nghĩa là “người nhận mọi món quà”. Rồi Zeus trao cho cô một chiếc hộp đóng kín, dặn đi dặn lại: “Đừng bao giờ mở nó ra.”",
+      "subtitles": [
+        "Zeus sai thần thợ rèn Hephaestus lấy đất và nước nặn nên một cô gái.",
+        "Mỗi vị thần ban cho cô một món quà. Nữ thần Athena dạy cô dệt vải.",
+        "Nữ thần Aphrodite cho cô vẻ duyên dáng.",
+        "Thần Hermes cho cô giọng nói ngọt ngào, và cả một tính tò mò không bao giờ nguôi.",
+        "Cô được đặt tên là Pandora, nghĩa là “người nhận mọi món quà”.",
+        "Rồi Zeus trao cho cô một chiếc hộp đóng kín, dặn đi dặn lại: “Đừng bao giờ mở nó ra.”"
+      ],
+      "image": {
+        "prompt": "gods of Olympus gathered around a young woman in a white chiton, a blacksmith god with a hammer, a goddess with an owl handing her a spindle, a messenger god with winged sandals, a closed ornate golden box in her hands",
+        "seed": 3672471170,
+        "character": "pandora"
+      },
+      "video": {
+        "motionPrompt": "golden sparkles drift from each god to the young woman, she looks at the box with wonder",
+        "seed": 3437089624
+      },
+      "voice": {}
+    },
+    {
+      "id": "xuong-tran",
+      "title": "Xuống trần gian",
+      "narrator": "ke-chuyen",
+      "narration": "Hermes dẫn Pandora xuống trần, tới nhà Epimetheus, em trai của Prometheus. Prometheus đã dặn em: “Đừng nhận quà gì của thần Zeus nhé.” Nhưng Epimetheus vốn vô tư, thấy Pandora xinh đẹp hiền dịu thì quên hết lời anh dặn, vui vẻ cưới cô làm vợ. Hai người sống trong một ngôi nhà nhỏ giữa vườn ô liu. Còn chiếc hộp thì được cất trong góc nhà, nắp đậy kín, im lìm.",
+      "subtitles": [
+        "Hermes dẫn Pandora xuống trần, tới nhà Epimetheus, em trai của Prometheus.",
+        "Prometheus đã dặn em: “Đừng nhận quà gì của thần Zeus nhé.”",
+        "Nhưng Epimetheus vốn vô tư, thấy Pandora xinh đẹp hiền dịu thì quên hết lời anh dặn,",
+        "vui vẻ cưới cô làm vợ. Hai người sống trong một ngôi nhà nhỏ giữa vườn ô liu.",
+        "Còn chiếc hộp thì được cất trong góc nhà, nắp đậy kín, im lìm."
+      ],
+      "image": {
+        "prompt": "a messenger god with winged sandals leading the young woman down a path of clouds to a cheerful young Titan waiting at a little white house among olive trees, the closed golden box carried in her arms",
+        "seed": 2420629885,
+        "character": "epimetheus"
+      },
+      "video": {
+        "motionPrompt": "clouds part gently, the young Titan waves happily, olive leaves shimmer in the breeze",
+        "seed": 3758597347
+      },
+      "voice": {}
+    },
+    {
+      "id": "to-mo",
+      "title": "Tò mò",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày qua ngày, Pandora cứ nhìn chiếc hộp. “Bên trong có gì nhỉ? Biết đâu là những viên ngọc quý? Hay một tấm áo đẹp?” Cô đi qua đi lại, tay chạm vào nắp rồi lại rụt về. Đêm nằm, cô cũng mơ thấy chiếc hộp. Có lúc, cô tưởng như nghe trong hộp có tiếng thì thầm: “Mở ra đi, mở ra đi…” Cuối cùng, một buổi chiều vắng nhà, Pandora không cưỡng được nữa. Cô nhẹ nhàng nâng nắp hộp lên, chỉ một chút thôi.",
+      "subtitles": [
+        "Ngày qua ngày, Pandora cứ nhìn chiếc hộp. “Bên trong có gì nhỉ?",
+        "Biết đâu là những viên ngọc quý? Hay một tấm áo đẹp?”",
+        "Cô đi qua đi lại, tay chạm vào nắp rồi lại rụt về.",
+        "Đêm nằm, cô cũng mơ thấy chiếc hộp.",
+        "Có lúc, cô tưởng như nghe trong hộp có tiếng thì thầm: “Mở ra đi, mở ra đi…”",
+        "Cuối cùng, một buổi chiều vắng nhà, Pandora không cưỡng được nữa.",
+        "Cô nhẹ nhàng nâng nắp hộp lên, chỉ một chút thôi."
+      ],
+      "image": {
+        "prompt": "the young woman kneeling in a sunlit room beside an ornate golden box, her fingers lifting the lid just a crack, a faint glow escaping, curious and hesitant expression",
+        "seed": 3351229165,
+        "character": "pandora"
+      },
+      "video": {
+        "motionPrompt": "she reaches toward the lid and pulls back, then slowly lifts it, a thin glow spills out",
+        "seed": 3404920944
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-ra",
+      "title": "Những điều xấu bay ra",
+      "narrator": "ke-chuyen",
+      "narration": "Nắp hộp vừa hé, một đàn bóng xám bay vụt ra, như bầy bướm đêm. Đó là bệnh tật, nỗi buồn, sự ghen ghét, lòng tham, những cơn cãi vã. Chúng bay qua cửa sổ, tỏa đi khắp thế gian. Pandora hoảng hốt đóng sập nắp lại, nhưng đã muộn. Cô ôm chiếc hộp, òa khóc. Từ đó, loài người biết thế nào là ốm đau và buồn khổ.",
+      "subtitles": [
+        "Nắp hộp vừa hé, một đàn bóng xám bay vụt ra, như bầy bướm đêm.",
+        "Đó là bệnh tật, nỗi buồn, sự ghen ghét, lòng tham, những cơn cãi vã.",
+        "Chúng bay qua cửa sổ, tỏa đi khắp thế gian.",
+        "Pandora hoảng hốt đóng sập nắp lại, nhưng đã muộn. Cô ôm chiếc hộp, òa khóc.",
+        "Từ đó, loài người biết thế nào là ốm đau và buồn khổ."
+      ],
+      "image": {
+        "prompt": "small grey shadowy moth-like shapes fluttering out of an open golden box and through a window into the world, the young woman pressing the lid shut with a worried face, soft dramatic but gentle",
+        "seed": 2385207107,
+        "character": "pandora"
+      },
+      "video": {
+        "motionPrompt": "grey moth shapes swirl out of the window, the curtains flutter, she slams the lid shut",
+        "seed": 3256198987
+      },
+      "voice": {}
+    },
+    {
+      "id": "hy-vong",
+      "title": "Điều còn lại dưới đáy hộp",
+      "narrator": "ke-chuyen",
+      "narration": "Đang khóc, Pandora bỗng nghe trong hộp có một tiếng gọi nhỏ, trong trẻo như tiếng chuông: “Cho em ra với.” Cô run run mở nắp lần nữa. Lần này, từ đáy hộp bay lên một đốm sáng nhỏ, cánh lấp lánh như cánh chuồn chuồn. “Em là Hy Vọng,” đốm sáng nói. Hy Vọng bay đi khắp nơi, đậu bên những người ốm, những người buồn, thì thầm rằng ngày mai sẽ tốt hơn.",
+      "subtitles": [
+        "Đang khóc, Pandora bỗng nghe trong hộp có một tiếng gọi nhỏ, trong trẻo như tiếng chuông:",
+        "“Cho em ra với.” Cô run run mở nắp lần nữa.",
+        "Lần này, từ đáy hộp bay lên một đốm sáng nhỏ, cánh lấp lánh như cánh chuồn chuồn.",
+        "“Em là Hy Vọng,” đốm sáng nói.",
+        "Hy Vọng bay đi khắp nơi, đậu bên những người ốm, những người buồn,",
+        "thì thầm rằng ngày mai sẽ tốt hơn."
+      ],
+      "image": {
+        "prompt": "a tiny glowing winged light like a shimmering dragonfly rising from the bottom of the golden box, the young woman wiping her tears and smiling in wonder, warm golden glow filling the room",
+        "seed": 4154620421,
+        "character": "pandora"
+      },
+      "video": {
+        "motionPrompt": "the little light rises and circles her gently, golden glow spreads, her face brightens",
+        "seed": 4246865007
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc",
+      "title": "Hy vọng ở lại",
+      "narrator": "ke-chuyen",
+      "narration": "Người Hy Lạp xưa kể rằng, đó là vì sao cuộc đời có cả niềm vui lẫn nỗi buồn. Có những ngày ta ốm, ta buồn, ta giận dỗi. Nhưng dù chuyện gì xảy ra, Hy Vọng vẫn luôn ở bên. Còn Pandora, từ đó cô vẫn tò mò như xưa, nhưng đã học được rằng: trước khi làm điều mình được dặn đừng làm, hãy dừng lại nghĩ thật kỹ một chút.",
+      "subtitles": [
+        "Người Hy Lạp xưa kể rằng, đó là vì sao cuộc đời có cả niềm vui lẫn nỗi buồn.",
+        "Có những ngày ta ốm, ta buồn, ta giận dỗi.",
+        "Nhưng dù chuyện gì xảy ra, Hy Vọng vẫn luôn ở bên.",
+        "Còn Pandora, từ đó cô vẫn tò mò như xưa, nhưng đã học được rằng:",
+        "trước khi làm điều mình được dặn đừng làm, hãy dừng lại nghĩ thật kỹ một chút."
+      ],
+      "image": {
+        "prompt": "the young woman and the cheerful young Titan sitting under an olive tree at sunset, a tiny glowing light hovering between them, villagers below tending gardens, peaceful and hopeful",
+        "seed": 4054090769,
+        "character": "pandora"
+      },
+      "video": {
+        "motionPrompt": "the little light hovers and glimmers, the sunset deepens, olive leaves sway softly",
+        "seed": 2323520158
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle ancient Greek inspired melody, lyre, soft flute and light frame drum, curious mysterious middle, hopeful warm ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3401735553
+  }
+}

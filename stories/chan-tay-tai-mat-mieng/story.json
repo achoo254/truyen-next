@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "slug": "chan-tay-tai-mat-mieng",
+  "shelf": "kids",
+  "title": "Chân, Tay, Tai, Mắt, Miệng",
+  "summary": "Cô Mắt, cậu Chân, cậu Tay và bác Tai cho rằng lão Miệng chỉ biết ăn mà không làm, nên rủ nhau nghỉ việc. Chẳng bao lâu, cả bọn mệt rã rời mới hiểu ra mỗi người một việc, phải biết sống cùng nhau. Truyện ngụ ngôn dân gian Việt Nam kể cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện ngụ ngôn dân gian Việt Nam, truyền miệng, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách giáo khoa hay bản kể nào.",
+  "basedOn": "Truyện ngụ ngôn dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and playful mood for young children, a cosy old Vietnamese village house with a garden, the five body-part characters drawn as cute little round people living together, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1344386533
+    },
+    {
+      "id": "co-mat",
+      "name": "Cô Mắt",
+      "seed": 3130779582,
+      "sheetPrompt": "Co Mat, a cute little round cartoon character shaped like a big friendly eye with long lashes, tiny arms and legs, wearing a small pink ao ba ba, sweet curious face, for young children, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cau-chan",
+      "name": "Cậu Chân",
+      "seed": 2185758,
+      "sheetPrompt": "Cau Chan, a cute sturdy cartoon character shaped like a little foot with tiny arms and a cheerful face, wearing short brown trousers, energetic pose, for young children, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cau-tay",
+      "name": "Cậu Tay",
+      "seed": 133784457,
+      "sheetPrompt": "Cau Tay, a cute cartoon character shaped like an open hand with a smiling face on the palm, tiny legs, wearing a small blue vest, helpful pose, for young children, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bac-tai",
+      "name": "Bác Tai",
+      "seed": 205169674,
+      "sheetPrompt": "Bac Tai, a cute wise cartoon character shaped like a large round ear with a kind old face and small round spectacles, tiny arms and legs, wearing a grey scholar robe, for young children, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "lao-mieng",
+      "name": "Lão Miệng",
+      "seed": 1091677645,
+      "sheetPrompt": "Lao Mieng, a cute plump cartoon character shaped like a big smiling mouth with rosy lips, tiny arms and legs, wearing a red vest, a little white beard, jolly gentle face, for young children, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn thử chỉ cho Miu xem nào: mắt đâu? Tai đâu? Miệng đâu? Tay đâu? Chân đâu? Giỏi lắm! Ngày xưa, Mắt, Tai, Miệng, Tay, Chân cùng sống chung trong một ngôi nhà, như một gia đình đấy. Thế mà có lần họ giận nhau to. Vì sao thế nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn thử chỉ cho Miu xem nào: mắt đâu?",
+        "Tai đâu? Miệng đâu? Tay đâu? Chân đâu? Giỏi lắm!",
+        "Ngày xưa, Mắt, Tai, Miệng, Tay, Chân cùng sống chung trong một ngôi nhà,",
+        "như một gia đình đấy. Thế mà có lần họ giận nhau to.",
+        "Vì sao thế nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits in a cosy garden pointing to her own eye with one paw, behind her five cute round characters shaped like an eye, an ear, a mouth, a hand and a foot wave from the porch of a little village house",
+        "seed": 1308056987,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat points to her eye, ear and mouth one by one, the five little characters wave and bounce, flowers sway, gentle camera push-in",
+        "seed": 3119648813
+      },
+      "voice": {}
+    },
+    {
+      "id": "song-chung",
+      "title": "Năm người sống chung",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có năm người sống chung một nhà: cô Mắt, cậu Chân, cậu Tay, bác Tai và lão Miệng. Ai cũng có việc của mình. Cô Mắt nhìn đường, cậu Chân đi lại, cậu Tay làm lụng, bác Tai nghe ngóng. Còn lão Miệng ở nhà, ngày ngày ăn những thứ mọi người mang về. Cả nhà sống vui vẻ, hòa thuận.",
+      "subtitles": [
+        "Ngày xưa, có năm người sống chung một nhà: cô Mắt, cậu Chân, cậu Tay,",
+        "bác Tai và lão Miệng. Ai cũng có việc của mình.",
+        "Cô Mắt nhìn đường, cậu Chân đi lại, cậu Tay làm lụng, bác Tai nghe ngóng.",
+        "Còn lão Miệng ở nhà, ngày ngày ăn những thứ mọi người mang về.",
+        "Cả nhà sống vui vẻ, hòa thuận."
+      ],
+      "image": {
+        "prompt": "in a cosy little village house the five cute body-part characters go about their day, the eye looks out the window, the foot walks with a basket, the hand weeds the garden, the ear listens to birds, the mouth sits at the table with a bowl of rice",
+        "seed": 378897028,
+        "character": "cau-tay"
+      },
+      "video": {
+        "motionPrompt": "each character does its job in a cheerful rhythm, the foot steps, the hand pulls a weed, the ear wiggles, the mouth takes a happy bite, birds chirp",
+        "seed": 1957393132
+      },
+      "voice": {}
+    },
+    {
+      "id": "ghen-ti",
+      "title": "Mọi người ghen tị",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, cô Mắt nói với cậu Chân, cậu Tay: \"Chúng ta làm vất vả quanh năm, còn lão Miệng chẳng làm gì, chỉ ngồi ăn không. Thật là bất công!\" Cậu Chân, cậu Tay nghe cũng thấy đúng. Cả ba rủ nhau sang nhà bác Tai. Bác Tai nghe xong, gật gù: \"Ừ, phải đấy. Ta cũng nghĩ thế từ lâu rồi.\"",
+      "subtitles": [
+        "Một hôm, cô Mắt nói với cậu Chân, cậu Tay: \"Chúng ta làm vất vả quanh năm,",
+        "còn lão Miệng chẳng làm gì, chỉ ngồi ăn không.",
+        "Thật là bất công!\" Cậu Chân, cậu Tay nghe cũng thấy đúng.",
+        "Cả ba rủ nhau sang nhà bác Tai. Bác Tai nghe xong, gật gù: \"Ừ, phải đấy.",
+        "Ta cũng nghĩ thế từ lâu rồi.\""
+      ],
+      "image": {
+        "prompt": "in the garden the eye character whispers crossly to the foot and the hand, then all three walk over to the wise ear character who nods slowly, the mouth eats happily far away inside the house",
+        "seed": 430935426,
+        "character": "co-mat"
+      },
+      "video": {
+        "motionPrompt": "the eye frowns and whispers, the foot and hand nod and fold their arms, the ear nods slowly, leaves fall, gentle camera pan",
+        "seed": 1855106002
+      },
+      "voice": {}
+    },
+    {
+      "id": "nghi-viec",
+      "title": "Không làm cho lão Miệng nữa",
+      "narrator": "ke-chuyen",
+      "narration": "Thế là cả bốn kéo nhau đến nhà lão Miệng. Họ nói: \"Từ nay chúng tôi không làm để nuôi lão nữa! Lão muốn ăn thì tự đi mà kiếm!\" Lão Miệng chưa kịp nói gì thì cả bọn đã quay ra về. Cô Mắt nhắm lại, cậu Chân nằm dài, cậu Tay buông thõng, bác Tai cũng chẳng thèm nghe ngóng gì nữa.",
+      "subtitles": [
+        "Thế là cả bốn kéo nhau đến nhà lão Miệng.",
+        "Họ nói: \"Từ nay chúng tôi không làm để nuôi lão nữa!",
+        "Lão muốn ăn thì tự đi mà kiếm!\" Lão Miệng chưa kịp nói gì thì cả bọn đã quay ra về.",
+        "Cô Mắt nhắm lại, cậu Chân nằm dài, cậu Tay buông thõng,",
+        "bác Tai cũng chẳng thèm nghe ngóng gì nữa."
+      ],
+      "image": {
+        "prompt": "the four cute characters stand in a row in front of the surprised mouth character with arms crossed and determined faces, then all turn away, the mouth holds an empty bowl with a puzzled look",
+        "seed": 2189990176,
+        "character": "lao-mieng"
+      },
+      "video": {
+        "motionPrompt": "the four characters stamp and cross their arms, the mouth opens to speak but they turn away, the empty bowl wobbles, a breeze rustles the curtain",
+        "seed": 953169223
+      },
+      "voice": {}
+    },
+    {
+      "id": "met-moi",
+      "title": "Ai cũng mệt rã rời",
+      "narrator": "ke-chuyen",
+      "narration": "Một ngày trôi qua, rồi hai ngày, ba ngày. Lão Miệng không có gì ăn. Lạ thay, cả bọn cũng thấy mệt mỏi rã rời. Cậu Chân đi không nổi, cứ lê từng bước. Cậu Tay giơ lên không được, cứ run run. Cô Mắt lờ đờ, nhìn gì cũng hoa lên. Bác Tai thì ù ù, như có tiếng ve kêu suốt ngày. Cả nhà buồn thiu, chẳng ai còn sức làm gì.",
+      "subtitles": [
+        "Một ngày trôi qua, rồi hai ngày, ba ngày. Lão Miệng không có gì ăn.",
+        "Lạ thay, cả bọn cũng thấy mệt mỏi rã rời. Cậu Chân đi không nổi, cứ lê từng bước.",
+        "Cậu Tay giơ lên không được, cứ run run. Cô Mắt lờ đờ, nhìn gì cũng hoa lên.",
+        "Bác Tai thì ù ù, như có tiếng ve kêu suốt ngày.",
+        "Cả nhà buồn thiu, chẳng ai còn sức làm gì."
+      ],
+      "image": {
+        "prompt": "the four body-part characters lie and slump around the sleepy house looking tired and droopy, the foot drags itself slowly, the hand hangs limp, the eye blinks blurrily, the ear covers itself, dusk light",
+        "seed": 2255220496,
+        "character": "cau-chan"
+      },
+      "video": {
+        "motionPrompt": "the foot drags one slow step, the hand droops, the eye blinks heavily, the ear shakes its head, curtains barely move, slow sleepy camera drift",
+        "seed": 4126476165
+      },
+      "voice": {}
+    },
+    {
+      "id": "hieu-ra",
+      "title": "Bác Tai hiểu ra",
+      "narrator": "ke-chuyen",
+      "narration": "Bác Tai ngồi nghĩ một lúc rồi nói: \"Các cháu ơi, ta hiểu ra rồi! Lão Miệng ăn là để cả nhà mình có sức đấy. Lão không ăn thì chúng ta cũng yếu đi. Chúng ta trách lão sai rồi.\" Cả bọn nhìn nhau, gật đầu. Cậu Chân cố lết, cậu Tay cố khiêng, cả bốn cùng sang nhà lão Miệng, mang theo một bát cơm.",
+      "subtitles": [
+        "Bác Tai ngồi nghĩ một lúc rồi nói: \"Các cháu ơi, ta hiểu ra rồi!",
+        "Lão Miệng ăn là để cả nhà mình có sức đấy. Lão không ăn thì chúng ta cũng yếu đi.",
+        "Chúng ta trách lão sai rồi.\" Cả bọn nhìn nhau, gật đầu.",
+        "Cậu Chân cố lết, cậu Tay cố khiêng, cả bốn cùng sang nhà lão Miệng, mang theo một bát cơm."
+      ],
+      "image": {
+        "prompt": "the wise ear character adjusts its little spectacles and speaks kindly to the tired eye, foot and hand, then together they slowly carry a steaming bowl of rice toward the mouth character's door",
+        "seed": 2519518843,
+        "character": "bac-tai"
+      },
+      "video": {
+        "motionPrompt": "the ear raises a finger with a bright idea, the others look at each other and nod, they carry the bowl together, steam rises, warm light returns",
+        "seed": 2308961769
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Lão Miệng ăn xong, thế là cậu Chân, cậu Tay, cô Mắt, bác Tai đều khỏe lại, vui vẻ như xưa. Từ đó, năm người sống thân thiết, không bao giờ ghen tị với nhau nữa. Các bạn ơi, trong nhà, trong lớp, mỗi người một việc, ai cũng quan trọng cả. Mình phải biết giúp nhau và sống hòa thuận nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Lão Miệng ăn xong, thế là cậu Chân, cậu Tay, cô Mắt, bác Tai đều khỏe lại, vui vẻ như xưa.",
+        "Từ đó, năm người sống thân thiết, không bao giờ ghen tị với nhau nữa.",
+        "Các bạn ơi, trong nhà, trong lớp, mỗi người một việc, ai cũng quan trọng cả.",
+        "Mình phải biết giúp nhau và sống hòa thuận nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the garden, behind her the five cute body-part characters hold hands and dance in a circle around a table with a big bowl of rice, sunny morning",
+        "seed": 2164331829,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the five characters dance in a happy circle, the mouth character laughs, flowers sway, gentle camera pull-back",
+        "seed": 4027242955
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "cheerful Vietnamese folk children's tune, bamboo flute, dan bau and light wooden percussion, playful then sleepy then happy again, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2788288574
+  }
+}

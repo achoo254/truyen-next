@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "slug": "cho-soi-va-cho-nha",
+  "shelf": "world",
+  "title": "Con chó sói và con chó nhà",
+  "summary": "Con sói gầy đói gặp con chó nhà béo tốt, được mời về làm chung để ngày nào cũng no. Nhưng một vệt lông trụi trên cổ chó khiến sói đổi ý. Ngụ ngôn La Fontaine về tự do, kể nhẹ cho cả nhà.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn \"Le Loup et le Chien\" của Jean de La Fontaine (Fables, quyển một, 1668), thuộc phạm vi công cộng. Lời kể viết mới bằng văn xuôi tiếng Việt, kể nhẹ cho cả nhà, không chép bản dịch thơ nào.",
+  "basedOn": "Ngụ ngôn La Fontaine (1668)",
+  "style": "classic French fable illustration in the manner of 19th century picture books, soft watercolor and fine ink, French countryside with a farmhouse, moonlit forest edge and stone walls, warm and silvery palette, thoughtful gentle mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "soi",
+      "name": "Chó sói",
+      "sheetPrompt": "a thin scruffy grey wolf with visible ribs, wild bright amber eyes, proud upright posture despite hunger, full body, side view, plain light background, character reference sheet, gentle not scary",
+      "seed": 2994988895
+    },
+    {
+      "id": "cho-nha",
+      "name": "Chó nhà",
+      "sheetPrompt": "a big plump well-fed farm dog, glossy golden-brown coat, a leather collar with a worn patch of fur around the neck, friendly boastful smile, full body, side view, plain light background, character reference sheet",
+      "seed": 3985923321
+    }
+  ],
+  "scenes": [
+    {
+      "id": "soi-doi",
+      "title": "Con sói gầy",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở bìa một khu rừng, có một con sói gầy đến nỗi lộ cả xương sườn. Mùa đông năm ấy, chó canh trang trại giữ chuồng cẩn thận quá, sói chẳng kiếm được miếng ăn nào. Một đêm trăng, sói đói lả đi lang thang thì gặp một con chó nhà to khỏe, lông mượt bóng, béo tròn. Sói thèm lắm, nhưng nhìn con chó vạm vỡ thế kia, sói nghĩ: “Gây gổ với nó thì chưa chắc ta đã thắng.” Thế là sói đổi giọng, cúi chào thật lễ phép.",
+      "subtitles": [
+        "Ngày xưa, ở bìa một khu rừng, có một con sói gầy đến nỗi lộ cả xương sườn.",
+        "Mùa đông năm ấy, chó canh trang trại giữ chuồng cẩn thận quá,",
+        "sói chẳng kiếm được miếng ăn nào.",
+        "Một đêm trăng, sói đói lả đi lang thang thì gặp một con chó nhà to khỏe, lông mượt bóng,",
+        "béo tròn. Sói thèm lắm, nhưng nhìn con chó vạm vỡ thế kia, sói nghĩ:",
+        "“Gây gổ với nó thì chưa chắc ta đã thắng.”",
+        "Thế là sói đổi giọng, cúi chào thật lễ phép."
+      ],
+      "image": {
+        "prompt": "a thin grey wolf at the edge of a snowy moonlit forest meeting a big glossy farm dog on a country road, stone walls and a distant farmhouse with warm windows",
+        "seed": 56395771,
+        "character": "soi"
+      },
+      "video": {
+        "motionPrompt": "snowflakes drift, the wolf lowers his head politely, the dog wags his tail and puffs out his chest",
+        "seed": 372753938
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-moi",
+      "title": "Lời mời của chó nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Sói khen: “Bác trông khỏe mạnh, béo tốt quá!” Chó nhà vênh mặt: “Anh cũng được như tôi, có gì đâu. Bỏ rừng mà về đây. Ở rừng các anh khổ lắm, bữa no bữa đói, chẳng có gì chắc chắn. Theo tôi về, chỉ việc sủa đuổi kẻ lạ, vẫy đuôi chào chủ, thế là có cơm thừa canh cặn, xương gà xương vịt, lại được chủ xoa đầu khen ngoan.” Sói nghe mà nước mắt muốn trào ra vì sung sướng.",
+      "subtitles": [
+        "Sói khen: “Bác trông khỏe mạnh, béo tốt quá!”",
+        "Chó nhà vênh mặt: “Anh cũng được như tôi, có gì đâu. Bỏ rừng mà về đây.",
+        "Ở rừng các anh khổ lắm, bữa no bữa đói, chẳng có gì chắc chắn.",
+        "Theo tôi về, chỉ việc sủa đuổi kẻ lạ, vẫy đuôi chào chủ, thế là có cơm thừa canh cặn,",
+        "xương gà xương vịt, lại được chủ xoa đầu khen ngoan.”",
+        "Sói nghe mà nước mắt muốn trào ra vì sung sướng."
+      ],
+      "image": {
+        "prompt": "the plump farm dog talking proudly to the thin wolf, a dream bubble above them showing a warm kitchen, bowls of food and a farmer patting a dog on the head",
+        "seed": 2456804545,
+        "character": "cho-nha"
+      },
+      "video": {
+        "motionPrompt": "the dog gestures toward the farmhouse, the wolf’s ears perk up, the dream bubble shimmers",
+        "seed": 1542985982
+      },
+      "voice": {}
+    },
+    {
+      "id": "vet-long-trui",
+      "title": "Vệt lông trụi",
+      "narrator": "ke-chuyen",
+      "narration": "Hai con cùng đi về phía trang trại. Đi được một đoạn, sói chợt thấy trên cổ chó nhà có một vệt lông bị trụi. “Bác ơi, cổ bác làm sao thế?” “Không có gì đâu.” “Sao lại không có gì?” “Chuyện nhỏ thôi mà. Chắc là chỗ đeo vòng cổ ấy. Ban ngày người ta xích tôi lại, để tôi khỏi chạy lung tung. Tối đến mới được thả ra. Quen rồi thì cũng chẳng sao.”",
+      "subtitles": [
+        "Hai con cùng đi về phía trang trại.",
+        "Đi được một đoạn, sói chợt thấy trên cổ chó nhà có một vệt lông bị trụi.",
+        "“Bác ơi, cổ bác làm sao thế?” “Không có gì đâu.” “Sao lại không có gì?”",
+        "“Chuyện nhỏ thôi mà. Chắc là chỗ đeo vòng cổ ấy.",
+        "Ban ngày người ta xích tôi lại, để tôi khỏi chạy lung tung.",
+        "Tối đến mới được thả ra. Quen rồi thì cũng chẳng sao.”"
+      ],
+      "image": {
+        "prompt": "the wolf looking closely at a worn patch of fur under the farm dog’s leather collar as they walk side by side along a moonlit lane, the dog looking a little embarrassed",
+        "seed": 2323638224,
+        "character": "soi"
+      },
+      "video": {
+        "motionPrompt": "the wolf tilts his head and peers closely, the dog scratches at his collar, moonlight glints on the buckle",
+        "seed": 836665742
+      },
+      "voice": {}
+    },
+    {
+      "id": "soi-hoi",
+      "title": "Sói hỏi lại",
+      "narrator": "ke-chuyen",
+      "narration": "Sói đứng sững lại: “Bị xích ư? Thế bác không được chạy đi đâu tùy thích sao?” “Không phải lúc nào cũng được. Nhưng có sao đâu, miễn là no bụng.” Sói lắc đầu: “Có sao lắm chứ. Ăn ngon đến đâu mà phải đổi bằng sợi xích, thì tôi chẳng thèm. Có cho cả kho báu, tôi cũng không đổi.”",
+      "subtitles": [
+        "Sói đứng sững lại: “Bị xích ư? Thế bác không được chạy đi đâu tùy thích sao?”",
+        "“Không phải lúc nào cũng được. Nhưng có sao đâu, miễn là no bụng.”",
+        "Sói lắc đầu: “Có sao lắm chứ.",
+        "Ăn ngon đến đâu mà phải đổi bằng sợi xích, thì tôi chẳng thèm.",
+        "Có cho cả kho báu, tôi cũng không đổi.”"
+      ],
+      "image": {
+        "prompt": "the thin wolf stepping back with a firm proud expression on a moonlit road, the farm dog looking puzzled, a chain and a kennel visible by the farmhouse in the distance",
+        "seed": 423306318,
+        "character": "soi"
+      },
+      "video": {
+        "motionPrompt": "the wolf shakes his head slowly, the dog blinks, wind moves through the grass",
+        "seed": 3110643230
+      },
+      "voice": {}
+    },
+    {
+      "id": "tu-do",
+      "title": "Rừng xanh tự do",
+      "narrator": "ke-chuyen",
+      "narration": "Nói rồi, sói quay mình, chạy vụt về phía rừng. Bụng vẫn còn đói, nhưng bốn chân nhẹ tênh. Sói chạy qua đồi tuyết, qua những gốc thông, dưới bầu trời đầy sao. Còn chó nhà đứng nhìn theo một lúc, rồi lắc đầu, lững thững trở về chuồng. Các con ạ, được sống tự do, tự mình bước đi trên đôi chân của mình, đôi khi quý hơn cả một bữa no.",
+      "subtitles": [
+        "Nói rồi, sói quay mình, chạy vụt về phía rừng.",
+        "Bụng vẫn còn đói, nhưng bốn chân nhẹ tênh.",
+        "Sói chạy qua đồi tuyết, qua những gốc thông, dưới bầu trời đầy sao.",
+        "Còn chó nhà đứng nhìn theo một lúc, rồi lắc đầu, lững thững trở về chuồng.",
+        "Các con ạ, được sống tự do, tự mình bước đi trên đôi chân của mình,",
+        "đôi khi quý hơn cả một bữa no."
+      ],
+      "image": {
+        "prompt": "the thin wolf running joyfully across a snowy hill toward a pine forest under a starry night sky, the farm dog small in the distance watching from the farmhouse gate",
+        "seed": 3591310249,
+        "character": "soi"
+      },
+      "video": {
+        "motionPrompt": "the wolf bounds through the snow, stars twinkle, pine branches sway, the dog turns slowly back home",
+        "seed": 4016709553
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle French baroque style piece, harpsichord, oboe and soft strings, thoughtful calm melody, free open ending, instrumental, no vocals",
+    "durationSeconds": 75,
+    "seed": 2990388932
+  }
+}

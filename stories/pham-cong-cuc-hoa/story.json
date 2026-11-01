@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "slug": "pham-cong-cuc-hoa",
+  "shelf": "adults",
+  "title": "Phạm Công, Cúc Hoa",
+  "summary": "Cúc Hoa nuôi chồng nghèo ăn học đến ngày đỗ trạng, rồi lìa đời để lại hai con thơ cho người mẹ kế độc ác. Hồn mẹ vẫn dõi theo con, và Phạm Công vượt cả cõi âm để tìm vợ: một chuyện thủy chung kể lại từ truyện thơ Nôm Phạm Công, Cúc Hoa.",
+  "themes": [
+    "gia-dinh",
+    "tinh-yeu",
+    "thien-ac"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện thơ Nôm khuyết danh Phạm Công, Cúc Hoa (thế kỷ mười tám đến mười chín), thuộc phạm vi công cộng. Lời kể văn xuôi viết mới theo cốt truyện thơ, lược bớt nhiều đoạn; truyện có nhiều dị bản, đoạn Phạm Công xuống cõi âm tìm vợ và kết cục của Tào Thị kể gọn theo một dị bản thường gặp; không trích câu thơ của bản phiên âm hay bản kể hiện đại nào.",
+  "basedOn": "Truyện thơ Nôm khuyết danh Phạm Công, Cúc Hoa",
+  "style": "traditional Vietnamese silk painting illustration with fine ink linework and muted washes of ochre, jade green, rose and indigo, rural northern Vietnam villages of old, a royal court, a misty underworld of pale clouds and lanterns, scholars in long robes, village women in ao tu than, tender and faithful mood for adult readers, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "pham-cong",
+      "name": "Phạm Công",
+      "sheetPrompt": "Pham Cong, a poor but devoted young Vietnamese scholar of old, lean honest face, hair in a topknot under a dark turban, patched brown robe, later a red mandarin robe with a winged hat, kind determined eyes, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 341240502
+    },
+    {
+      "id": "cuc-hoa",
+      "name": "Cúc Hoa",
+      "sheetPrompt": "Cuc Hoa, a kind gentle young Vietnamese woman of old, oval face, long black hair in a bun with a jade pin, pale yellow ao tu than over a white blouse, warm loving eyes, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 1910629587
+    },
+    {
+      "id": "hai-con",
+      "name": "Nghi Xuân và Tấn Lực",
+      "sheetPrompt": "two Vietnamese children of old, an older sister of about nine with hair in a short tuft and a younger brother of about six with a small topknot, both in worn faded brown clothes, holding hands, sad but brave faces, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 969573008
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ganh-me",
+      "title": "Người con hiếu thảo",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có chàng Phạm Công, nhà nghèo rớt mồng tơi, cha mất sớm, chỉ còn mẹ già đau ốm. Phạm Công vừa đi làm thuê, vừa xin cơm từng bữa để nuôi mẹ. Có hôm mẹ yếu không đi nổi, chàng cõng mẹ trên lưng đi khắp các làng. Vậy mà đêm đến, chàng vẫn mượn sách của người ta, đọc dưới ánh trăng, chữ nghĩa ngày một thêm thông. Một hôm, chàng xin ăn đến trước cổng nhà một phú ông giàu có trong vùng.",
+      "subtitles": [
+        "Ngày xưa có chàng Phạm Công, nhà nghèo rớt mồng tơi, cha mất sớm, chỉ còn mẹ già đau ốm.",
+        "Phạm Công vừa đi làm thuê, vừa xin cơm từng bữa để nuôi mẹ.",
+        "Có hôm mẹ yếu không đi nổi, chàng cõng mẹ trên lưng đi khắp các làng.",
+        "Vậy mà đêm đến, chàng vẫn mượn sách của người ta, đọc dưới ánh trăng,",
+        "chữ nghĩa ngày một thêm thông.",
+        "Một hôm, chàng xin ăn đến trước cổng nhà một phú ông giàu có trong vùng."
+      ],
+      "image": {
+        "prompt": "a poor young man carrying his frail old mother on his back along a village road between rice fields, a small cloth bag of rice at his side, thatched houses and bamboo, late afternoon light",
+        "seed": 1905744267,
+        "character": "pham-cong"
+      },
+      "video": {
+        "motionPrompt": "the young man walks slowly with his mother on his back, rice stalks bend in the breeze, a stork rises from the field, gentle tracking shot",
+        "seed": 2369294644
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuc-hoa-ket-duyen",
+      "title": "Cúc Hoa kết duyên",
+      "narrator": "ke-chuyen",
+      "narration": "Phú ông có người con gái tên là Cúc Hoa, hiền hậu, nết na. Nàng thấy chàng trai rách rưới mà đối với mẹ già hết mực dịu dàng, lại thấy chàng ôm sách đọc bên gốc đa, liền đem lòng cảm mến. Nàng xin cha mẹ cho được lấy Phạm Công. Phú ông chê nghèo, nhất định không chịu. Cúc Hoa khóc lóc, nói rằng người có hiếu, có chữ, sau này ắt nên người. Cha mẹ thương con, đành gả nàng cho chàng. Cúc Hoa về nhà chồng, chẳng nề hà túp lều dột nát, ngày ngày dệt vải đem bán, lo cho mẹ chồng thuốc thang, lo cho chồng sách vở.",
+      "subtitles": [
+        "Phú ông có người con gái tên là Cúc Hoa, hiền hậu, nết na.",
+        "Nàng thấy chàng trai rách rưới mà đối với mẹ già hết mực dịu dàng,",
+        "lại thấy chàng ôm sách đọc bên gốc đa, liền đem lòng cảm mến.",
+        "Nàng xin cha mẹ cho được lấy Phạm Công.",
+        "Phú ông chê nghèo, nhất định không chịu.",
+        "Cúc Hoa khóc lóc, nói rằng người có hiếu, có chữ, sau này ắt nên người.",
+        "Cha mẹ thương con, đành gả nàng cho chàng.",
+        "Cúc Hoa về nhà chồng, chẳng nề hà túp lều dột nát, ngày ngày dệt vải đem bán,",
+        "lo cho mẹ chồng thuốc thang, lo cho chồng sách vở."
+      ],
+      "image": {
+        "prompt": "a kind young woman in pale yellow ao tu than handing a bowl of rice to a poor scholar and his old mother at the gate of a wealthy house, her stern father watching from the veranda",
+        "seed": 3462448482,
+        "character": "cuc-hoa"
+      },
+      "video": {
+        "motionPrompt": "the woman smiles and offers the bowl, the scholar bows deeply, the father frowns and crosses his arms, a breeze moves the hanging lanterns, slow push in",
+        "seed": 4183146505
+      },
+      "voice": {}
+    },
+    {
+      "id": "do-trang",
+      "title": "Ngày đỗ trạng",
+      "narrator": "ke-chuyen",
+      "narration": "Mẹ chồng qua đời, Cúc Hoa cùng chồng lo ma chay chu đáo. Rồi nàng bán cả vòng vàng, khăn áo hồi môn, gom tiền cho chồng lên kinh dự thi. Phạm Công đi, Cúc Hoa ở nhà một mình trông nhà, chờ tin. Khoa ấy Phạm Công đỗ trạng nguyên, vua cho vinh quy bái tổ, cờ biển rợp đường. Chàng về đến làng, việc đầu tiên là tìm vợ, nắm tay nàng mà nói: “Có được ngày hôm nay là nhờ công của nàng.” Hai vợ chồng sống những năm hạnh phúc, sinh được hai con, con gái là Nghi Xuân, con trai là Tấn Lực.",
+      "subtitles": [
+        "Mẹ chồng qua đời, Cúc Hoa cùng chồng lo ma chay chu đáo.",
+        "Rồi nàng bán cả vòng vàng, khăn áo hồi môn, gom tiền cho chồng lên kinh dự thi.",
+        "Phạm Công đi, Cúc Hoa ở nhà một mình trông nhà, chờ tin.",
+        "Khoa ấy Phạm Công đỗ trạng nguyên, vua cho vinh quy bái tổ, cờ biển rợp đường.",
+        "Chàng về đến làng, việc đầu tiên là tìm vợ, nắm tay nàng mà nói:",
+        "“Có được ngày hôm nay là nhờ công của nàng.”",
+        "Hai vợ chồng sống những năm hạnh phúc, sinh được hai con, con gái là Nghi Xuân,",
+        "con trai là Tấn Lực."
+      ],
+      "image": {
+        "prompt": "a triumphant homecoming procession of a new top graduate in a red mandarin robe riding a horse with banners and parasols, villagers cheering, his wife waiting at the village gate with tears of joy",
+        "seed": 81162937,
+        "character": "pham-cong"
+      },
+      "video": {
+        "motionPrompt": "banners flutter, the procession moves through the village gate, the graduate dismounts and takes his wife hands, villagers cheer, gentle camera arc",
+        "seed": 1802437496
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-tran-troi",
+      "title": "Lời trăn trối",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng hạnh phúc chẳng được bao lâu. Cúc Hoa lâm bệnh nặng, thuốc thang thế nào cũng không khỏi. Biết mình sắp ra đi, nàng gọi chồng lại, nắm tay hai con mà dặn: “Thiếp đi rồi, chàng thương lấy con. Nếu được thì đừng lấy vợ kế, kẻo con thơ phải chịu khổ.” Phạm Công khóc mà thề sẽ ở vậy nuôi con. Cúc Hoa mỉm cười, nhắm mắt. Cả nhà khóc than thảm thiết. Phạm Công lập bàn thờ vợ, sớm tối thắp hương, ngày ngày tự tay chăm sóc hai đứa con thơ.",
+      "subtitles": [
+        "Nhưng hạnh phúc chẳng được bao lâu.",
+        "Cúc Hoa lâm bệnh nặng, thuốc thang thế nào cũng không khỏi.",
+        "Biết mình sắp ra đi, nàng gọi chồng lại, nắm tay hai con mà dặn: “Thiếp đi rồi,",
+        "chàng thương lấy con.",
+        "Nếu được thì đừng lấy vợ kế, kẻo con thơ phải chịu khổ.”",
+        "Phạm Công khóc mà thề sẽ ở vậy nuôi con.",
+        "Cúc Hoa mỉm cười, nhắm mắt.",
+        "Cả nhà khóc than thảm thiết.",
+        "Phạm Công lập bàn thờ vợ, sớm tối thắp hương, ngày ngày tự tay chăm sóc hai đứa con thơ."
+      ],
+      "image": {
+        "prompt": "a dim bedchamber, a frail young woman on a bed holding the hands of her two small children, her husband in mandarin robes kneeling beside her in tears, a single candle, curtains drawn",
+        "seed": 2195853389,
+        "character": "cuc-hoa"
+      },
+      "video": {
+        "motionPrompt": "the candle flame wavers, the woman squeezes the children hands and smiles weakly, the husband bows his head, the curtain stirs, slow push in",
+        "seed": 2504321242
+      },
+      "voice": {}
+    },
+    {
+      "id": "tao-thi",
+      "title": "Mẹ kế Tào Thị",
+      "narrator": "ke-chuyen",
+      "narration": "Thời gian trôi qua, triều đình có việc lớn, Phạm Công phải đi xa. Người nhà bảo hai con thơ không có người trông, lại có nhà quyền thế muốn gả con gái cho quan trạng. Phạm Công không cưỡng được, đành lấy Tào Thị làm vợ kế. Tào Thị bề ngoài ngọt ngào, nhưng lòng dạ nham hiểm. Chồng vừa đi khỏi, ả đã ra mặt hành hạ hai đứa con riêng. Ả bắt chúng làm việc nặng từ sáng đến tối, cho ăn cơm thừa canh cặn, đánh mắng không thương tiếc. Cuối cùng, ả đuổi cả hai chị em ra khỏi nhà, bảo chúng đi đâu thì đi.",
+      "subtitles": [
+        "Thời gian trôi qua, triều đình có việc lớn, Phạm Công phải đi xa.",
+        "Người nhà bảo hai con thơ không có người trông,",
+        "lại có nhà quyền thế muốn gả con gái cho quan trạng.",
+        "Phạm Công không cưỡng được, đành lấy Tào Thị làm vợ kế.",
+        "Tào Thị bề ngoài ngọt ngào, nhưng lòng dạ nham hiểm.",
+        "Chồng vừa đi khỏi, ả đã ra mặt hành hạ hai đứa con riêng.",
+        "Ả bắt chúng làm việc nặng từ sáng đến tối, cho ăn cơm thừa canh cặn,",
+        "đánh mắng không thương tiếc.",
+        "Cuối cùng, ả đuổi cả hai chị em ra khỏi nhà, bảo chúng đi đâu thì đi."
+      ],
+      "image": {
+        "prompt": "a cruel stepmother in rich silk robes pointing two small ragged children out of the gate of a mandarin house, the older sister holding her little brother hand, rain clouds gathering",
+        "seed": 3096284881,
+        "character": "hai-con"
+      },
+      "video": {
+        "motionPrompt": "the stepmother points sharply, the gate slams, the children turn and walk away hand in hand, the first raindrops fall, slow pull back",
+        "seed": 4084879728
+      },
+      "voice": {}
+    },
+    {
+      "id": "hon-me-dan-duong",
+      "title": "Hồn mẹ dẫn đường",
+      "narrator": "ke-chuyen",
+      "narration": "Hai chị em dắt nhau đi xin ăn, đầu trần chân đất, đêm ngủ ở gốc cây, mái đình. Nghi Xuân thương em, xin được gì cũng nhường em ăn trước. Dưới cõi âm, hồn Cúc Hoa thấy con khổ thì đau đớn khôn cùng, xin Diêm Vương cho về thăm con. Đêm ấy, giữa ngôi đình hoang, hai chị em thấy một người đàn bà hiện ra, dịu dàng ôm chúng vào lòng. Đó chính là mẹ. Hồn mẹ cho con mấy nén bạc, bọc cơm nắm, dặn con hãy tìm đường lên kinh, tìm cha mà kể hết mọi chuyện. Trời sáng, hồn mẹ tan vào làn sương sớm.",
+      "subtitles": [
+        "Hai chị em dắt nhau đi xin ăn, đầu trần chân đất, đêm ngủ ở gốc cây, mái đình.",
+        "Nghi Xuân thương em, xin được gì cũng nhường em ăn trước.",
+        "Dưới cõi âm, hồn Cúc Hoa thấy con khổ thì đau đớn khôn cùng,",
+        "xin Diêm Vương cho về thăm con.",
+        "Đêm ấy, giữa ngôi đình hoang, hai chị em thấy một người đàn bà hiện ra,",
+        "dịu dàng ôm chúng vào lòng.",
+        "Đó chính là mẹ.",
+        "Hồn mẹ cho con mấy nén bạc, bọc cơm nắm, dặn con hãy tìm đường lên kinh,",
+        "tìm cha mà kể hết mọi chuyện.",
+        "Trời sáng, hồn mẹ tan vào làn sương sớm."
+      ],
+      "image": {
+        "prompt": "two ragged children sleeping huddled under a ruined village communal house at night, a translucent glowing ghostly mother in pale yellow kneeling and embracing them, leaving silver and rice balls beside them, soft moonlight",
+        "seed": 1788299378,
+        "character": "cuc-hoa"
+      },
+      "video": {
+        "motionPrompt": "the ghostly mother glows softly and strokes the children hair, moonlight shifts, at dawn her form fades into mist, slow push in then fade",
+        "seed": 2329938665
+      },
+      "voice": {}
+    },
+    {
+      "id": "cha-con-gap-nhau",
+      "title": "Cha con gặp nhau",
+      "narrator": "ke-chuyen",
+      "narration": "Hai chị em nghe lời mẹ, dò đường lên kinh. Gặp đoàn quan quân đi qua, Nghi Xuân liều mình chạy ra trước kiệu mà kêu oan. Người ngồi trong kiệu chính là Phạm Công. Chàng nhìn hai đứa trẻ gầy guộc, rách rưới mà không nhận ra, cho đến khi Nghi Xuân kể chuyện mẹ mất, chuyện mẹ kế, chuyện hồn mẹ hiện về. Phạm Công ôm chầm lấy hai con mà khóc nức nở. Về nhà, chàng hỏi tội Tào Thị, rồi đuổi ả đi. Người ta kể kẻ ác ấy về sau không còn ai thương, phải chịu kết cục khổ sở như chính những gì ả đã gây ra.",
+      "subtitles": [
+        "Hai chị em nghe lời mẹ, dò đường lên kinh.",
+        "Gặp đoàn quan quân đi qua, Nghi Xuân liều mình chạy ra trước kiệu mà kêu oan.",
+        "Người ngồi trong kiệu chính là Phạm Công.",
+        "Chàng nhìn hai đứa trẻ gầy guộc, rách rưới mà không nhận ra,",
+        "cho đến khi Nghi Xuân kể chuyện mẹ mất, chuyện mẹ kế, chuyện hồn mẹ hiện về.",
+        "Phạm Công ôm chầm lấy hai con mà khóc nức nở.",
+        "Về nhà, chàng hỏi tội Tào Thị, rồi đuổi ả đi.",
+        "Người ta kể kẻ ác ấy về sau không còn ai thương,",
+        "phải chịu kết cục khổ sở như chính những gì ả đã gây ra."
+      ],
+      "image": {
+        "prompt": "a mandarin palanquin procession halted on a road, a ragged little girl kneeling before it pleading, her brother behind her, the mandarin stepping out and embracing them in tears, soldiers lowering their parasols",
+        "seed": 1670113797,
+        "character": "pham-cong"
+      },
+      "video": {
+        "motionPrompt": "the palanquin stops, the girl bows and speaks, the mandarin steps down and drops to his knees to embrace the children, parasols lower, slow camera arc",
+        "seed": 3534539251
+      },
+      "voice": {}
+    },
+    {
+      "id": "xuong-am-phu",
+      "title": "Xuống cõi âm tìm vợ",
+      "narrator": "ke-chuyen",
+      "narration": "Đoàn tụ với con rồi, Phạm Công càng thương nhớ vợ. Chàng nghĩ, vợ mình chết rồi còn thương con, vì con mà về, thì mình sao đành để nàng ở mãi nơi lạnh lẽo. Chàng nhịn ăn, ngày đêm cầu khấn, rồi tìm đường xuống cõi âm. Chàng đi qua những cánh đồng mây xám, những dòng sông đen không thấy bờ, những cây cầu nhỏ như sợi chỉ. Quỷ sứ ngăn đường, chàng không lùi bước. Đến trước điện Diêm Vương, chàng quỳ xuống kể hết công ơn của vợ, xin được đổi tuổi thọ của mình để vợ được sống lại.",
+      "subtitles": [
+        "Đoàn tụ với con rồi, Phạm Công càng thương nhớ vợ.",
+        "Chàng nghĩ, vợ mình chết rồi còn thương con, vì con mà về,",
+        "thì mình sao đành để nàng ở mãi nơi lạnh lẽo.",
+        "Chàng nhịn ăn, ngày đêm cầu khấn, rồi tìm đường xuống cõi âm.",
+        "Chàng đi qua những cánh đồng mây xám, những dòng sông đen không thấy bờ,",
+        "những cây cầu nhỏ như sợi chỉ.",
+        "Quỷ sứ ngăn đường, chàng không lùi bước.",
+        "Đến trước điện Diêm Vương, chàng quỳ xuống kể hết công ơn của vợ,",
+        "xin được đổi tuổi thọ của mình để vợ được sống lại."
+      ],
+      "image": {
+        "prompt": "a misty underworld of grey clouds and dark rivers lit by pale lanterns, a devoted scholar crossing a narrow bridge toward a grand shadowy palace of the underworld king, guardian spirits watching from the fog",
+        "seed": 256295540,
+        "character": "pham-cong"
+      },
+      "video": {
+        "motionPrompt": "fog drifts over the dark river, lanterns sway, the scholar steps carefully across the narrow bridge, the palace gates slowly open, slow tracking shot",
+        "seed": 516726363
+      },
+      "voice": {}
+    },
+    {
+      "id": "doan-tu",
+      "title": "Ngày đoàn tụ",
+      "narrator": "ke-chuyen",
+      "narration": "Diêm Vương xem sổ, thấy Cúc Hoa cả đời hiền lành, có công nuôi chồng, thương con, lại thấy Phạm Công tình nghĩa thủy chung hiếm có, liền động lòng. Ngài cho hồn Cúc Hoa được trở về dương thế, sống lại cùng chồng con. Phạm Công dắt tay vợ đi ngược ra khỏi cõi âm. Khi mở mắt, chàng thấy mình đang ở nhà, Cúc Hoa nằm bên cạnh, khẽ gọi tên chàng. Hai con ùa vào ôm lấy mẹ. Cả nhà đoàn tụ, sống với nhau đến đầu bạc răng long. Người đời kể chuyện Phạm Công, Cúc Hoa để nói rằng tình nghĩa vợ chồng, tình mẹ thương con có thể vượt qua cả ranh giới sống chết.",
+      "subtitles": [
+        "Diêm Vương xem sổ, thấy Cúc Hoa cả đời hiền lành, có công nuôi chồng, thương con,",
+        "lại thấy Phạm Công tình nghĩa thủy chung hiếm có, liền động lòng.",
+        "Ngài cho hồn Cúc Hoa được trở về dương thế, sống lại cùng chồng con.",
+        "Phạm Công dắt tay vợ đi ngược ra khỏi cõi âm.",
+        "Khi mở mắt, chàng thấy mình đang ở nhà, Cúc Hoa nằm bên cạnh, khẽ gọi tên chàng.",
+        "Hai con ùa vào ôm lấy mẹ.",
+        "Cả nhà đoàn tụ, sống với nhau đến đầu bạc răng long.",
+        "Người đời kể chuyện Phạm Công, Cúc Hoa để nói rằng tình nghĩa vợ chồng,",
+        "tình mẹ thương con có thể vượt qua cả ranh giới sống chết."
+      ],
+      "image": {
+        "prompt": "a joyful family reunion in a Vietnamese house at dawn, a woman in pale yellow ao tu than sitting up and embracing her two children, her husband in a mandarin robe kneeling beside them with tears of joy, morning sunlight through lattice windows",
+        "seed": 4255936755,
+        "character": "cuc-hoa"
+      },
+      "video": {
+        "motionPrompt": "morning light spreads through the lattice, the children run into their mother arms, the husband holds them all, dust motes float in warm light, slow pull back",
+        "seed": 451701237
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle traditional Vietnamese instrumental, dan bau monochord and bamboo flute with soft dan tranh zither, mournful in the middle, warm and reunited at the end, slow tempo, no vocals",
+    "durationSeconds": 160,
+    "seed": 962730062
+  }
+}

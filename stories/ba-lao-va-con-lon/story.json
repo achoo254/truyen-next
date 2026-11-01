@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "slug": "ba-lao-va-con-lon",
+  "shelf": "world",
+  "title": "Bà lão và con lợn",
+  "summary": "Bà lão mua được con lợn ở chợ, nhưng tới bậc rào, lợn nhất định không chịu bước qua. Bà nhờ chó, nhờ gậy, nhờ lửa, nhờ nước… mà chẳng ai chịu giúp, cho tới khi một con mèo nhỏ ra tay. Truyện dân gian Anh kiểu nối vòng, kể vui cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Anh \"The Old Woman and Her Pig\", in trong English Fairy Tales của Joseph Jacobs (1890), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, giữ lối kể nối vòng, kể nhẹ cho cả nhà: các con vật chỉ dọa nhau cho chạy, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Anh (Joseph Jacobs, 1890)",
+  "style": "classic English nursery picture book illustration, soft watercolor and pen, old English countryside with stone stiles, hedgerows and a cottage, warm gentle palette, playful cumulative-tale mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ba-lao",
+      "name": "Bà lão",
+      "sheetPrompt": "a small cheerful English old woman in a red shawl, long brown skirt, white bonnet and apron, holding a wicker basket, rosy cheeks, full body, front view, plain light background, character reference sheet",
+      "seed": 1533653826
+    },
+    {
+      "id": "con-lon",
+      "name": "Con lợn",
+      "sheetPrompt": "a stubborn round pink pig with a curly tail, sitting firmly with its snout in the air, comical defiant face, full body, front view, plain light background, character reference sheet",
+      "seed": 3289873569
+    },
+    {
+      "id": "con-meo",
+      "name": "Con mèo",
+      "sheetPrompt": "a clever tabby cat with green eyes and a white chest, sitting upright with its tail curled, friendly sly smile, full body, front view, plain light background, character reference sheet",
+      "seed": 3020242725
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dong-xu-bac",
+      "title": "Đồng xu bạc",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bà lão đang quét nhà thì nhặt được một đồng xu bạc nhỏ. Bà mừng lắm, ngẫm nghĩ: “Mình làm gì với đồng xu này nhỉ? À, phải rồi, ra chợ mua một con lợn con!” Thế là bà đi chợ, mua được một chú lợn hồng, đuôi xoăn tít. Bà dắt lợn về nhà, vừa đi vừa hát. Nhưng tới cái bậc rào bằng đá bên đường, lợn đứng sững lại, nhất định không chịu bước qua. Bà dỗ mãi, đẩy mãi, lợn vẫn ngồi lì.",
+      "subtitles": [
+        "Ngày xưa, có một bà lão đang quét nhà thì nhặt được một đồng xu bạc nhỏ.",
+        "Bà mừng lắm, ngẫm nghĩ: “Mình làm gì với đồng xu này nhỉ?",
+        "À, phải rồi, ra chợ mua một con lợn con!”",
+        "Thế là bà đi chợ, mua được một chú lợn hồng, đuôi xoăn tít.",
+        "Bà dắt lợn về nhà, vừa đi vừa hát.",
+        "Nhưng tới cái bậc rào bằng đá bên đường, lợn đứng sững lại, nhất định không chịu bước qua.",
+        "Bà dỗ mãi, đẩy mãi, lợn vẫn ngồi lì."
+      ],
+      "image": {
+        "prompt": "a cheerful old woman with a broom finding a small silver coin on her cottage floor, then leading a pink piglet on a rope to an old stone stile in a hedgerow, the piglet sitting stubbornly",
+        "seed": 2373780239,
+        "character": "ba-lao"
+      },
+      "video": {
+        "motionPrompt": "the old woman holds up the shining coin, then tugs the rope, the pig plants its feet and refuses to move",
+        "seed": 2240123015
+      },
+      "voice": {}
+    },
+    {
+      "id": "cho-va-gay",
+      "title": "Nhờ chó, nhờ gậy",
+      "narrator": "ke-chuyen",
+      "narration": "Bà đi thêm một quãng, gặp một con chó. Bà bảo: “Chó ơi, chó sủa con lợn giùm ta, lợn không qua rào, đêm nay ta chẳng về được nhà!” Chó lắc đầu, không chịu. Bà đi thêm một quãng, gặp một cây gậy. “Gậy ơi, gậy gõ con chó giùm ta, chó không sủa lợn, lợn không qua rào, đêm nay ta chẳng về được nhà!” Gậy cũng không chịu. Bà đi thêm một quãng, gặp một đống lửa. “Lửa ơi, lửa sém cây gậy giùm ta!” Lửa cũng lắc đầu, không chịu.",
+      "subtitles": [
+        "Bà đi thêm một quãng, gặp một con chó.",
+        "Bà bảo: “Chó ơi, chó sủa con lợn giùm ta, lợn không qua rào,",
+        "đêm nay ta chẳng về được nhà!” Chó lắc đầu, không chịu.",
+        "Bà đi thêm một quãng, gặp một cây gậy.",
+        "“Gậy ơi, gậy gõ con chó giùm ta, chó không sủa lợn, lợn không qua rào,",
+        "đêm nay ta chẳng về được nhà!” Gậy cũng không chịu.",
+        "Bà đi thêm một quãng, gặp một đống lửa. “Lửa ơi, lửa sém cây gậy giùm ta!”",
+        "Lửa cũng lắc đầu, không chịu."
+      ],
+      "image": {
+        "prompt": "the old woman pleading with a lazy dog lying in the lane, a walking stick leaning against a tree, and a small crackling campfire, each turning away, gentle comical expressions",
+        "seed": 2498031359,
+        "character": "ba-lao"
+      },
+      "video": {
+        "motionPrompt": "the dog yawns and turns over, the stick stays still, the little fire flickers and crackles",
+        "seed": 3779655223
+      },
+      "voice": {}
+    },
+    {
+      "id": "nuoc-bo-ong-hang-thit",
+      "title": "Nhờ nước, nhờ bò",
+      "narrator": "ke-chuyen",
+      "narration": "Bà đi thêm một quãng, gặp một dòng nước. “Nước ơi, nước dập lửa giùm ta!” Nước chẳng chịu. Bà gặp một con bò. “Bò ơi, bò uống cạn nước giùm ta!” Bò lắc sừng, không chịu. Bà gặp một ông hàng thịt to béo. “Ông ơi, ông lùa con bò giùm ta!” Ông hàng thịt cũng không chịu. Bà gặp một sợi dây thừng. “Dây ơi, dây trói ông hàng thịt giùm ta!” Dây cũng không. Bà gặp một con chuột. “Chuột ơi, chuột gặm dây giùm ta!” Chuột cũng lắc đầu nốt.",
+      "subtitles": [
+        "Bà đi thêm một quãng, gặp một dòng nước. “Nước ơi, nước dập lửa giùm ta!”",
+        "Nước chẳng chịu. Bà gặp một con bò. “Bò ơi, bò uống cạn nước giùm ta!”",
+        "Bò lắc sừng, không chịu. Bà gặp một ông hàng thịt to béo.",
+        "“Ông ơi, ông lùa con bò giùm ta!” Ông hàng thịt cũng không chịu.",
+        "Bà gặp một sợi dây thừng. “Dây ơi, dây trói ông hàng thịt giùm ta!”",
+        "Dây cũng không. Bà gặp một con chuột. “Chuột ơi, chuột gặm dây giùm ta!”",
+        "Chuột cũng lắc đầu nốt."
+      ],
+      "image": {
+        "prompt": "the old woman walking along a stream asking favors, a brown cow by the water shaking its head, a big jolly man in a striped apron with folded arms, a coil of rope, a tiny mouse waving its paw no",
+        "seed": 310574258,
+        "character": "ba-lao"
+      },
+      "video": {
+        "motionPrompt": "the stream ripples, the cow swishes its tail, the big man shrugs, the mouse twitches its whiskers",
+        "seed": 1362170212
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-meo",
+      "title": "Gặp con mèo",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng, bà gặp một con mèo. “Mèo ơi, mèo vồ con chuột giùm ta, chuột không gặm dây, dây không trói ông hàng thịt, ông không lùa bò, bò không uống nước, nước không dập lửa, lửa không sém gậy, gậy không gõ chó, chó không sủa lợn, lợn không qua rào, đêm nay ta chẳng về được nhà!” Mèo liếm mép: “Bà cho tôi một đĩa sữa, tôi sẽ vồ chuột giùm bà.” Bà lão vội đi tìm sữa.",
+      "subtitles": [
+        "Cuối cùng, bà gặp một con mèo.",
+        "“Mèo ơi, mèo vồ con chuột giùm ta, chuột không gặm dây, dây không trói ông hàng thịt,",
+        "ông không lùa bò, bò không uống nước, nước không dập lửa, lửa không sém gậy,",
+        "gậy không gõ chó, chó không sủa lợn, lợn không qua rào, đêm nay ta chẳng về được nhà!”",
+        "Mèo liếm mép: “Bà cho tôi một đĩa sữa, tôi sẽ vồ chuột giùm bà.”",
+        "Bà lão vội đi tìm sữa."
+      ],
+      "image": {
+        "prompt": "the old woman kneeling to talk with a clever tabby cat on a garden wall, the cat licking its lips and pointing a paw toward a distant cow, golden afternoon light",
+        "seed": 3945711320,
+        "character": "con-meo"
+      },
+      "video": {
+        "motionPrompt": "the cat flicks its tail and licks its whiskers, the old woman nods eagerly and hurries off",
+        "seed": 4102142718
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-kho-sua",
+      "title": "Cỏ khô và sữa",
+      "narrator": "ke-chuyen",
+      "narration": "Bà tới chỗ con bò cái. “Bò ơi, cho ta xin ít sữa nhé.” Bò bảo: “Bà đem cho tôi một ôm cỏ khô, tôi sẽ cho bà sữa.” Bà tới chỗ bác cắt cỏ. Bác bảo: “Bà xách giùm tôi một xô nước, tôi sẽ cho bà cỏ khô.” Bà lão lật đật ra giếng, xách xô nước đầy về. Bác cắt cỏ đưa bà ôm cỏ khô. Bà đem cỏ cho bò. Bò ăn ngon lành, rồi cho bà một đĩa sữa trắng thơm. Bà mang sữa về cho mèo.",
+      "subtitles": [
+        "Bà tới chỗ con bò cái. “Bò ơi, cho ta xin ít sữa nhé.”",
+        "Bò bảo: “Bà đem cho tôi một ôm cỏ khô, tôi sẽ cho bà sữa.”",
+        "Bà tới chỗ bác cắt cỏ.",
+        "Bác bảo: “Bà xách giùm tôi một xô nước, tôi sẽ cho bà cỏ khô.”",
+        "Bà lão lật đật ra giếng, xách xô nước đầy về. Bác cắt cỏ đưa bà ôm cỏ khô.",
+        "Bà đem cỏ cho bò. Bò ăn ngon lành, rồi cho bà một đĩa sữa trắng thơm.",
+        "Bà mang sữa về cho mèo."
+      ],
+      "image": {
+        "prompt": "the old woman carrying a bucket of water from a well, then an armful of golden hay to a friendly cow, finally holding a saucer of milk, cozy farmyard with haystacks",
+        "seed": 3808093583,
+        "character": "ba-lao"
+      },
+      "video": {
+        "motionPrompt": "water sloshes in the bucket, the cow munches hay happily, milk ripples in the saucer",
+        "seed": 1588098548
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-nha",
+      "title": "Lợn nhảy qua rào",
+      "narrator": "ke-chuyen",
+      "narration": "Mèo uống hết đĩa sữa, rồi lao đi vồ chuột. Chuột hoảng, gặm lấy dây. Dây quấn quanh ông hàng thịt. Ông hàng thịt lùa con bò. Bò cúi xuống uống nước. Nước tràn ra dập lửa. Lửa sém cây gậy. Gậy gõ con chó. Chó sủa gâu gâu. Lợn giật mình, nhảy phắt qua bậc rào. Thế là, đêm hôm ấy, bà lão dắt được lợn về nhà, ngồi bên bếp ấm mà cười khà khà. Các con thấy không: một việc nhỏ cũng cần cả một vòng bạn bè giúp đỡ.",
+      "subtitles": [
+        "Mèo uống hết đĩa sữa, rồi lao đi vồ chuột. Chuột hoảng, gặm lấy dây.",
+        "Dây quấn quanh ông hàng thịt. Ông hàng thịt lùa con bò. Bò cúi xuống uống nước.",
+        "Nước tràn ra dập lửa. Lửa sém cây gậy. Gậy gõ con chó. Chó sủa gâu gâu.",
+        "Lợn giật mình, nhảy phắt qua bậc rào.",
+        "Thế là, đêm hôm ấy, bà lão dắt được lợn về nhà, ngồi bên bếp ấm mà cười khà khà.",
+        "Các con thấy không: một việc nhỏ cũng cần cả một vòng bạn bè giúp đỡ."
+      ],
+      "image": {
+        "prompt": "a joyful chain reaction across the countryside, a dog barking, a pink pig leaping high over a stone stile, the old woman laughing and clapping, then the pig and old woman at home by a warm hearth at night",
+        "seed": 3074218731,
+        "character": "con-lon"
+      },
+      "video": {
+        "motionPrompt": "the pig springs over the stile with ears flapping, the old woman claps, firelight glows warmly at home",
+        "seed": 2237621048
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful English folk tune for a cumulative tale, concertina, fiddle and light hand percussion, steadily building rhythm, cozy ending, instrumental, no vocals",
+    "durationSeconds": 90,
+    "seed": 3624240850
+  }
+}

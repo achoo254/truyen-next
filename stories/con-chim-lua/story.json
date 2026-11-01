@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-chim-lua",
+  "shelf": "world",
+  "title": "Con chim lửa và chó sói xám",
+  "summary": "Hoàng tử Ivan đi tìm con chim lửa ăn trộm táo vàng của vua cha và được chú sói xám thông minh giúp sức. Từ chim lửa, ngựa bờm vàng tới nàng Elena xinh đẹp, chàng học được rằng một người bạn thật lòng quý hơn mọi kho báu. Truyện dân gian Nga kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "anh-hung",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Nga \"Сказка об Иване-царевиче, жар-птице и о сером волке\" (Hoàng tử Ivan, con chim lửa và chó sói xám), A. N. Afanasyev sưu tầm (1855–1863), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, kể nhẹ và lược bỏ đoạn hai người anh hại Ivan, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Nga",
+  "style": "classic Russian folk tale picture book illustration in the style of early twentieth century Russian storybook art, ornamental folk borders, a glowing firebird with feathers of flame colors, onion domed palaces, birch forests, a grey wolf running across wide fields, colors of fiery orange, gold, deep blue and emerald, magical and warm, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ivan",
+      "name": "Hoàng tử Ivan",
+      "sheetPrompt": "Ivan Tsarevich, a brave kind young Russian prince with light brown hair, a red kaftan with gold folk embroidery, a fur trimmed hat and tall boots, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1781985673
+    },
+    {
+      "id": "soi-xam",
+      "name": "Chó sói xám",
+      "sheetPrompt": "a big clever grey wolf from Russian folklore with thick silver grey fur and wise golden eyes, friendly and loyal, strong enough to carry a rider, full body, front and side views, plain light background, character reference sheet",
+      "seed": 71146723
+    },
+    {
+      "id": "chim-lua",
+      "name": "Con chim lửa",
+      "sheetPrompt": "the Firebird of Russian folklore, a magnificent bird with glowing feathers of gold, orange and crimson like flames, a long shimmering tail and crystal eyes, radiating warm light, full body, side view, plain light background, character reference sheet",
+      "seed": 3596927989
+    },
+    {
+      "id": "elena",
+      "name": "Nàng Elena xinh đẹp",
+      "sheetPrompt": "Elena the Beautiful, a graceful Russian princess with long dark hair under a pearl kokoshnik headdress, a pale blue and silver sarafan, kind gentle smile, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3070590920
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tao-vang-trong-vuon",
+      "title": "Táo vàng trong vườn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, Sa hoàng Vyslav có một khu vườn, trong vườn có cây táo ra những quả táo vàng. Đêm đêm, có ai đó lén hái mất táo. Vua sai ba người con trai lần lượt canh vườn. Hai người anh ngủ quên. Chỉ có hoàng tử út Ivan thức tới nửa đêm, và thấy cả khu vườn bừng sáng: con chim lửa bay xuống mổ táo vàng. Ivan nhảy ra chộp lấy, nhưng chim vùng bay mất, chỉ để lại trong tay chàng một chiếc lông sáng rực đến nỗi soi tỏ cả căn phòng tối.",
+      "subtitles": [
+        "Ngày xưa, Sa hoàng Vyslav có một khu vườn, trong vườn có cây táo ra những quả táo vàng.",
+        "Đêm đêm, có ai đó lén hái mất táo. Vua sai ba người con trai lần lượt canh vườn.",
+        "Hai người anh ngủ quên. Chỉ có hoàng tử út Ivan thức tới nửa đêm,",
+        "và thấy cả khu vườn bừng sáng: con chim lửa bay xuống mổ táo vàng.",
+        "Ivan nhảy ra chộp lấy, nhưng chim vùng bay mất, chỉ để lại trong tay chàng một chiếc lông",
+        "sáng rực đến nỗi soi tỏ cả căn phòng tối."
+      ],
+      "image": {
+        "prompt": "at night in a royal Russian garden a glowing firebird pecking golden apples from a tree, a young prince leaping from behind a bush, the whole garden lit in warm orange light",
+        "seed": 833766171,
+        "character": "chim-lua"
+      },
+      "video": {
+        "motionPrompt": "the firebird flaps its flaming wings and flies up, a single glowing feather drifts down into the prince hands",
+        "seed": 3697638844
+      },
+      "voice": {}
+    },
+    {
+      "id": "ban-moi-tren-duong",
+      "title": "Bạn mới trên đường",
+      "narrator": "ke-chuyen",
+      "narration": "Sa hoàng muốn có con chim lửa, bèn sai các con đi tìm. Ivan tới một ngã ba, gặp tảng đá khắc chữ: “Ai đi thẳng, sẽ đói và rét. Ai rẽ phải, sẽ mất ngựa.” Chàng rẽ phải. Đêm ấy, một con sói xám to lớn chạy tới ăn mất con ngựa của chàng. Ivan buồn bã đi bộ. Sói xám đuổi theo: “Hoàng tử Ivan, ta đã ăn mất ngựa của cậu, giờ ta sẽ phục vụ cậu thật lòng. Lên lưng ta đi, ta biết chim lửa ở đâu.”",
+      "subtitles": [
+        "Sa hoàng muốn có con chim lửa, bèn sai các con đi tìm. Ivan tới một ngã ba,",
+        "gặp tảng đá khắc chữ: “Ai đi thẳng, sẽ đói và rét. Ai rẽ phải, sẽ mất ngựa.”",
+        "Chàng rẽ phải. Đêm ấy, một con sói xám to lớn chạy tới ăn mất con ngựa của chàng.",
+        "Ivan buồn bã đi bộ. Sói xám đuổi theo: “Hoàng tử Ivan, ta đã ăn mất ngựa của cậu,",
+        "giờ ta sẽ phục vụ cậu thật lòng. Lên lưng ta đi, ta biết chim lửa ở đâu.”"
+      ],
+      "image": {
+        "prompt": "at a crossroads in a wide Russian field a big stone with carved marks, a young prince in a red kaftan meeting a large friendly grey wolf, birch trees and evening sky",
+        "seed": 1346745070,
+        "character": "soi-xam"
+      },
+      "video": {
+        "motionPrompt": "the wolf bows its head, the prince hesitates then climbs onto its back, grass ripples in the wind",
+        "seed": 474790276
+      },
+      "voice": {}
+    },
+    {
+      "id": "long-vang",
+      "title": "Chiếc lồng vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Sói chạy nhanh hơn gió, tới cung điện của Sa hoàng Dolmat. Sói dặn: “Lính gác đang ngủ. Cậu lấy chim, nhưng tuyệt đối đừng lấy cái lồng vàng.” Thấy chiếc lồng vàng lộng lẫy, Ivan tiếc quá, cầm luôn cả lồng. Chuông reo vang, lính tỉnh dậy bắt chàng. Sa hoàng Dolmat bảo: “Ta sẽ tha và tặng chim lửa, nếu cậu mang về cho ta con ngựa bờm vàng của Sa hoàng Afron.”",
+      "subtitles": [
+        "Sói chạy nhanh hơn gió, tới cung điện của Sa hoàng Dolmat. Sói dặn:",
+        "“Lính gác đang ngủ. Cậu lấy chim, nhưng tuyệt đối đừng lấy cái lồng vàng.”",
+        "Thấy chiếc lồng vàng lộng lẫy, Ivan tiếc quá, cầm luôn cả lồng.",
+        "Chuông reo vang, lính tỉnh dậy bắt chàng. Sa hoàng Dolmat bảo:",
+        "“Ta sẽ tha và tặng chim lửa, nếu cậu mang về cho ta con ngựa bờm vàng của Sa hoàng Afron.”"
+      ],
+      "image": {
+        "prompt": "in a palace tower room at night a young prince lifting a glowing firebird in an ornate golden cage, tiny bells on the cage ringing, guards waking up",
+        "seed": 3529392655,
+        "character": "ivan"
+      },
+      "video": {
+        "motionPrompt": "the cage bells jingle, the firebird glows brighter, guards rub their eyes and jump up",
+        "seed": 4134050349
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngua-bom-vang",
+      "title": "Ngựa bờm vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Sói lắc đầu: “Ta đã dặn rồi mà.” Rồi sói lại cõng chàng tới xứ Sa hoàng Afron. “Lấy ngựa thôi, đừng đụng tới cái dây cương vàng.” Nhưng Ivan lại tiếc chiếc dây cương nạm vàng. Vừa chạm vào, tiếng ồn vang khắp chuồng ngựa. Chàng lại bị bắt. Sa hoàng Afron bảo: “Hãy mang về cho ta nàng Elena xinh đẹp, ta sẽ tặng cậu con ngựa bờm vàng.”",
+      "subtitles": [
+        "Sói lắc đầu: “Ta đã dặn rồi mà.” Rồi sói lại cõng chàng tới xứ Sa hoàng Afron.",
+        "“Lấy ngựa thôi, đừng đụng tới cái dây cương vàng.”",
+        "Nhưng Ivan lại tiếc chiếc dây cương nạm vàng.",
+        "Vừa chạm vào, tiếng ồn vang khắp chuồng ngựa.",
+        "Chàng lại bị bắt. Sa hoàng Afron bảo: “Hãy mang về cho ta nàng Elena xinh đẹp,",
+        "ta sẽ tặng cậu con ngựa bờm vàng.”"
+      ],
+      "image": {
+        "prompt": "in a grand royal stable a magnificent horse with a flowing golden mane, a young prince reaching for a jeweled golden bridle on a hook, the grey wolf peeking through the doorway shaking its head",
+        "seed": 3090869422,
+        "character": "ivan"
+      },
+      "video": {
+        "motionPrompt": "the golden mane ripples, the bridle sparkles, the horse neighs and stamps its hoof",
+        "seed": 2697769222
+      },
+      "voice": {}
+    },
+    {
+      "id": "nang-elena",
+      "title": "Nàng Elena",
+      "narrator": "ke-chuyen",
+      "narration": "Lần này sói bảo: “Cậu cứ chờ ở đây, để ta đi.” Sói nấp trong vườn, chờ nàng Elena dạo chơi với các thị nữ, rồi nhẹ nhàng cõng nàng chạy như bay. Gặp Ivan, Elena không còn sợ nữa. Hai người trò chuyện suốt dọc đường và đem lòng thương nhau. Tới gần xứ Sa hoàng Afron, Ivan rơi nước mắt: “Sói ơi, ta không nỡ trao Elena đi.” Sói bảo: “Đừng buồn. Ta đã phục vụ cậu thì phục vụ tới cùng.”",
+      "subtitles": [
+        "Lần này sói bảo: “Cậu cứ chờ ở đây, để ta đi.” Sói nấp trong vườn,",
+        "chờ nàng Elena dạo chơi với các thị nữ, rồi nhẹ nhàng cõng nàng chạy như bay.",
+        "Gặp Ivan, Elena không còn sợ nữa.",
+        "Hai người trò chuyện suốt dọc đường và đem lòng thương nhau.",
+        "Tới gần xứ Sa hoàng Afron, Ivan rơi nước mắt: “Sói ơi, ta không nỡ trao Elena đi.”",
+        "Sói bảo: “Đừng buồn. Ta đã phục vụ cậu thì phục vụ tới cùng.”"
+      ],
+      "image": {
+        "prompt": "in a blooming palace garden a beautiful princess in a pearl headdress riding on the back of a running grey wolf, ladies in waiting waving in surprise, a young prince waiting at the edge of a birch forest",
+        "seed": 2938024930,
+        "character": "elena"
+      },
+      "video": {
+        "motionPrompt": "the wolf runs swiftly through flowers, the princess holds on and laughs, petals swirl behind them",
+        "seed": 572843785
+      },
+      "voice": {}
+    },
+    {
+      "id": "soi-bien-hinh",
+      "title": "Sói biến hình",
+      "narrator": "ke-chuyen",
+      "narration": "Sói lăn một vòng trên đất, hóa thành một nàng Elena giống hệt. Ivan dắt “nàng Elena” vào cung, Sa hoàng Afron mừng rỡ trao ngay con ngựa bờm vàng. Ivan cưỡi ngựa cùng Elena thật đi trước. Đêm ấy, sói hóa lại thành sói, chạy về với bạn. Tới cung Sa hoàng Dolmat, sói lại hóa thành con ngựa bờm vàng. Dolmat vui vẻ trao chim lửa cùng lồng vàng. Rồi sói lại hóa về sói, chạy theo các bạn.",
+      "subtitles": [
+        "Sói lăn một vòng trên đất, hóa thành một nàng Elena giống hệt.",
+        "Ivan dắt “nàng Elena” vào cung, Sa hoàng Afron mừng rỡ trao ngay con ngựa bờm vàng.",
+        "Ivan cưỡi ngựa cùng Elena thật đi trước. Đêm ấy, sói hóa lại thành sói, chạy về với bạn.",
+        "Tới cung Sa hoàng Dolmat, sói lại hóa thành con ngựa bờm vàng.",
+        "Dolmat vui vẻ trao chim lửa cùng lồng vàng. Rồi sói lại hóa về sói, chạy theo các bạn."
+      ],
+      "image": {
+        "prompt": "magical scene in a royal courtyard, a grey wolf rolling on the ground and transforming in a swirl of silver sparkles into a horse with a golden mane, a surprised tsar holding a firebird cage",
+        "seed": 2282631312,
+        "character": "soi-xam"
+      },
+      "video": {
+        "motionPrompt": "silver sparkles swirl around the rolling wolf, its shape shimmers and becomes a golden maned horse",
+        "seed": 3927981090
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-tu-biet",
+      "title": "Lời từ biệt",
+      "narrator": "ke-chuyen",
+      "narration": "Tới chỗ tảng đá ngã ba, nơi hai bạn gặp nhau lần đầu, sói xám dừng lại: “Hoàng tử Ivan, ta đã ăn mất ngựa của cậu, giờ ta đã đền xong. Tạm biệt nhé.” Ivan ôm lấy cổ sói, cảm ơn người bạn tốt nhất đời mình. Sói xám vẫy đuôi rồi chạy khuất vào rừng bạch dương.",
+      "subtitles": [
+        "Tới chỗ tảng đá ngã ba, nơi hai bạn gặp nhau lần đầu, sói xám dừng lại:",
+        "“Hoàng tử Ivan, ta đã ăn mất ngựa của cậu, giờ ta đã đền xong. Tạm biệt nhé.”",
+        "Ivan ôm lấy cổ sói, cảm ơn người bạn tốt nhất đời mình.",
+        "Sói xám vẫy đuôi rồi chạy khuất vào rừng bạch dương."
+      ],
+      "image": {
+        "prompt": "at the old carved stone at a crossroads a young prince hugging a big grey wolf goodbye, a princess on a golden maned horse holding a firebird cage, golden sunset over birch trees",
+        "seed": 717562982,
+        "character": "soi-xam"
+      },
+      "video": {
+        "motionPrompt": "the prince hugs the wolf tightly, the wolf wags its tail and turns toward the birch forest",
+        "seed": 638148324
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-cung",
+      "title": "Về cung",
+      "narrator": "ke-chuyen",
+      "narration": "Ivan đưa nàng Elena, ngựa bờm vàng và con chim lửa về cung. Sa hoàng Vyslav mừng rỡ ôm con trai. Chim lửa được treo giữa vườn, đêm đêm tỏa sáng khắp nơi, chẳng còn quả táo vàng nào bị mất nữa. Ivan cưới nàng Elena xinh đẹp, cả vương quốc mở hội linh đình. Và mỗi lần đi qua rừng bạch dương, chàng lại nhớ tới chú sói xám, người bạn thật lòng của mình.",
+      "subtitles": [
+        "Ivan đưa nàng Elena, ngựa bờm vàng và con chim lửa về cung.",
+        "Sa hoàng Vyslav mừng rỡ ôm con trai. Chim lửa được treo giữa vườn,",
+        "đêm đêm tỏa sáng khắp nơi, chẳng còn quả táo vàng nào bị mất nữa.",
+        "Ivan cưới nàng Elena xinh đẹp, cả vương quốc mở hội linh đình.",
+        "Và mỗi lần đi qua rừng bạch dương,",
+        "chàng lại nhớ tới chú sói xám, người bạn thật lòng của mình."
+      ],
+      "image": {
+        "prompt": "a joyful Russian palace wedding feast with onion domes, a glowing firebird in a golden cage lighting the garden, the prince and princess Elena smiling, an old tsar with a white beard raising a cup",
+        "seed": 3231470090,
+        "character": "ivan"
+      },
+      "video": {
+        "motionPrompt": "the firebird glows and sings, festive lanterns sway, the prince and princess dance in a circle with guests",
+        "seed": 3194860417
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "magical Russian fairy tale music inspired by folk melodies, balalaika, gusli, flute and light orchestra, a shimmering theme for the firebird, a fast galloping section for the wolf, a festive warm ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 623010749
+  }
+}

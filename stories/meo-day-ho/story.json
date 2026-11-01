@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "slug": "meo-day-ho",
+  "shelf": "kids",
+  "title": "Mèo dạy hổ",
+  "summary": "Ngày xưa hổ vụng về, phải tìm đến mèo xin học cách rình, vồ, nhảy. Học xong, hổ định quay lại bắt thầy, nhưng mèo vẫn còn giữ một bài cuối cùng. Truyện cổ tích Việt Nam vui, giải thích vì sao hổ không biết trèo cây.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện cổ tích dân gian Việt Nam, truyền miệng, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "basedOn": "Truyện cổ tích dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and playful mood for young children, green tropical forest with tall trees, ferns and a small clearing, animals drawn cute and funny, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2018408840
+    },
+    {
+      "id": "meo",
+      "name": "Mèo thầy",
+      "seed": 3295687095,
+      "sheetPrompt": "a small wise cartoon tabby cat teacher from a Vietnamese folk tale, grey and brown striped fur, calm half-closed clever eyes, long whiskers, standing upright with a tiny bamboo pointer, cute, for young children, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ho",
+      "name": "Hổ",
+      "seed": 4294345184,
+      "sheetPrompt": "a big clumsy cartoon tiger cub-like student from a Vietnamese folk tale, chubby orange body with dark stripes, eager silly face, round eyes, more funny than scary, for young children, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn có biết không, họ nhà mèo chúng mình giỏi lắm nhé. Mèo biết rình, biết vồ, lại còn biết trèo cây nữa. Ngày xưa, có cả một ông hổ to đùng phải đến xin làm học trò của mèo đấy. Thế mà cuối cùng hổ vẫn không học được một bài. Bài gì nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Mèo Miu đây.",
+        "Các bạn có biết không, họ nhà mèo chúng mình giỏi lắm nhé.",
+        "Mèo biết rình, biết vồ, lại còn biết trèo cây nữa.",
+        "Ngày xưa, có cả một ông hổ to đùng phải đến xin làm học trò của mèo đấy.",
+        "Thế mà cuối cùng hổ vẫn không học được một bài.",
+        "Bài gì nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits proudly on a low tree branch in a green forest clearing, a small tabby cat and a big silly tiger look up at her from below, sunlight through leaves",
+        "seed": 2401342106,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat flicks her tail and smiles proudly, the tiger tilts its head, the tabby cat waves its little pointer, leaves rustle, gentle camera push-in",
+        "seed": 1699234691
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-vung",
+      "title": "Hổ vụng về",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, hổ to xác nhưng vụng về lắm. Hổ chạy thì chậm, nhảy thì vấp, rình con gì thì con ấy cũng chạy mất. Hổ đói meo, bụng kêu ọc ọc suốt ngày. Hổ thấy mèo nhỏ bé mà rình bắt chuột rất tài, liền đến xin: \"Thầy mèo ơi, thầy dạy cho con với! Con hứa sẽ chăm học, sẽ nghe lời thầy.\"",
+      "subtitles": [
+        "Ngày xưa, hổ to xác nhưng vụng về lắm.",
+        "Hổ chạy thì chậm, nhảy thì vấp, rình con gì thì con ấy cũng chạy mất.",
+        "Hổ đói meo, bụng kêu ọc ọc suốt ngày.",
+        "Hổ thấy mèo nhỏ bé mà rình bắt chuột rất tài, liền đến xin: \"Thầy mèo ơi,",
+        "thầy dạy cho con với! Con hứa sẽ chăm học, sẽ nghe lời thầy.\""
+      ],
+      "image": {
+        "prompt": "in a forest clearing the big clumsy tiger trips over a root while a squirrel runs away laughing, nearby the small tabby cat sits calmly on a stump watching",
+        "seed": 492694940,
+        "character": "ho"
+      },
+      "video": {
+        "motionPrompt": "the tiger stumbles and flops on its belly, the squirrel scurries up a tree, the tabby cat raises an eyebrow, butterflies flutter",
+        "seed": 2216236237
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoc-rinh",
+      "title": "Bài học rình mồi",
+      "narrator": "ke-chuyen",
+      "narration": "Mèo thấy hổ thành thật, bèn nhận lời. Bài đầu tiên là bài rình. Mèo dạy: \"Phải nằm rạp xuống, bước nhẹ như không, mắt nhìn chằm chằm, không được thở mạnh.\" Hổ to xác nên tập mãi mới được. Có hôm hổ dẫm phải cành khô, kêu rắc một cái, mèo lại bắt tập lại từ đầu. Hổ chăm lắm, chẳng dám kêu ca.",
+      "subtitles": [
+        "Mèo thấy hổ thành thật, bèn nhận lời. Bài đầu tiên là bài rình.",
+        "Mèo dạy: \"Phải nằm rạp xuống, bước nhẹ như không, mắt nhìn chằm chằm,",
+        "không được thở mạnh.\" Hổ to xác nên tập mãi mới được.",
+        "Có hôm hổ dẫm phải cành khô, kêu rắc một cái, mèo lại bắt tập lại từ đầu.",
+        "Hổ chăm lắm, chẳng dám kêu ca."
+      ],
+      "image": {
+        "prompt": "the small tabby cat demonstrates crouching low in the grass, the big tiger copies clumsily with its bottom sticking up in the air, a dry twig snapping under its paw",
+        "seed": 522371861,
+        "character": "meo"
+      },
+      "video": {
+        "motionPrompt": "the tabby cat crouches and creeps smoothly, the tiger tries and its bottom wiggles up, a twig snaps, the cat shakes its head kindly",
+        "seed": 2104213503
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoc-vo",
+      "title": "Bài học vồ và nhảy",
+      "narrator": "ke-chuyen",
+      "narration": "Bài thứ hai là bài vồ. Mèo dạy: \"Lấy đà bằng hai chân sau, nhảy một cái thật xa, hai chân trước đưa ra cho đúng.\" Bài thứ ba là bài nhảy qua suối, nhảy qua bụi rậm. Ngày nào hổ cũng tập, tập đến mỏi rã rời. Dần dần, hổ rình rất êm, vồ rất trúng, nhảy rất xa. Muông thú trong rừng nhìn thấy hổ là sợ, chạy tán loạn.",
+      "subtitles": [
+        "Bài thứ hai là bài vồ. Mèo dạy: \"Lấy đà bằng hai chân sau, nhảy một cái thật xa,",
+        "hai chân trước đưa ra cho đúng.\" Bài thứ ba là bài nhảy qua suối, nhảy qua bụi rậm.",
+        "Ngày nào hổ cũng tập, tập đến mỏi rã rời.",
+        "Dần dần, hổ rình rất êm, vồ rất trúng, nhảy rất xa.",
+        "Muông thú trong rừng nhìn thấy hổ là sợ, chạy tán loạn."
+      ],
+      "image": {
+        "prompt": "the big tiger leaps gracefully over a small forest stream while the little tabby cat cheers from a rock, deer and rabbits peek out from the ferns with wide eyes",
+        "seed": 3259890977,
+        "character": "meo"
+      },
+      "video": {
+        "motionPrompt": "the tiger crouches, springs and sails over the stream, landing neatly, the tabby cat claps its paws, the deer hop away, water sparkles",
+        "seed": 3981504591
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-tro-mat",
+      "title": "Hổ trở mặt",
+      "narrator": "ke-chuyen",
+      "narration": "Học xong, hổ thấy mình giỏi lắm rồi. Hổ nghĩ thầm: \"Bây giờ ta chẳng cần mèo nữa. Hay là ta bắt luôn thầy làm bữa trưa?\" Thế là một hôm, hổ nằm rạp xuống, rình mèo y như mèo đã dạy. Rồi hổ lấy đà, vồ mạnh một cái về phía thầy mình.",
+      "subtitles": [
+        "Học xong, hổ thấy mình giỏi lắm rồi. Hổ nghĩ thầm: \"Bây giờ ta chẳng cần mèo nữa.",
+        "Hay là ta bắt luôn thầy làm bữa trưa?\" Thế là một hôm, hổ nằm rạp xuống,",
+        "rình mèo y như mèo đã dạy. Rồi hổ lấy đà, vồ mạnh một cái về phía thầy mình."
+      ],
+      "image": {
+        "prompt": "the big tiger crouches sneakily behind tall ferns with a greedy grin, eyeing the small tabby cat who sits washing its paw on a mossy rock, unaware",
+        "seed": 3509743441,
+        "character": "ho"
+      },
+      "video": {
+        "motionPrompt": "the tiger creeps closer with its tail swishing, the tabby cat calmly licks its paw, then one ear twitches, ferns sway",
+        "seed": 1150197722
+      },
+      "voice": {}
+    },
+    {
+      "id": "meo-leo-cay",
+      "title": "Bài học còn giấu",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng mèo nhanh hơn. Mèo nhảy tót lên một cây cao, ngồi vắt vẻo trên cành. Hổ chạy đến gốc cây, cào cào, nhảy nhảy, nhưng không sao trèo lên được. Mèo nhìn xuống, nói: \"Ta biết lòng dạ của mày nên ta chưa dạy mày bài trèo cây. Học trò mà định hại thầy thì không đáng được học nữa.\" Hổ xấu hổ, cúp đuôi lủi vào rừng.",
+      "subtitles": [
+        "Nhưng mèo nhanh hơn. Mèo nhảy tót lên một cây cao, ngồi vắt vẻo trên cành.",
+        "Hổ chạy đến gốc cây, cào cào, nhảy nhảy, nhưng không sao trèo lên được.",
+        "Mèo nhìn xuống, nói: \"Ta biết lòng dạ của mày nên ta chưa dạy mày bài trèo cây.",
+        "Học trò mà định hại thầy thì không đáng được học nữa.\" Hổ xấu hổ, cúp đuôi lủi vào rừng."
+      ],
+      "image": {
+        "prompt": "the small tabby cat sits safely high on a tree branch looking down calmly, the big tiger at the bottom of the trunk scrabbles and slides with a sheepish face",
+        "seed": 2530666097,
+        "character": "meo"
+      },
+      "video": {
+        "motionPrompt": "the tiger jumps and slides back down the trunk, the tabby cat shakes its head from the branch, then the tiger lowers its tail and slinks off into the ferns",
+        "seed": 4132394781
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thế là từ đó đến nay, hổ biết rình, biết vồ, nhưng không biết trèo cây đấy các bạn ạ. Các bạn ơi, thầy cô dạy mình bao nhiêu điều hay, mình phải biết nhớ ơn và kính trọng thầy cô. Học trò ngoan thì ai cũng thương. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Thế là từ đó đến nay, hổ biết rình, biết vồ, nhưng không biết trèo cây đấy các bạn ạ.",
+        "Các bạn ơi, thầy cô dạy mình bao nhiêu điều hay,",
+        "mình phải biết nhớ ơn và kính trọng thầy cô. Học trò ngoan thì ai cũng thương.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye from a tree branch beside the small wise tabby cat, both sitting comfortably in the leafy treetop at sunset, the forest glowing gold below",
+        "seed": 1330982699,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the two cats wave together from the branch, leaves sway in the warm breeze, birds fly past, gentle camera pull-back",
+        "seed": 2215668198
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful Vietnamese folk tune, dan nguyet moon lute and bamboo flute with light wooden clappers, cheeky and lively mood, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1227628784
+  }
+}
