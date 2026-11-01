@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "slug": "su-tu-va-nguoi-chan-cuu",
+  "shelf": "world",
+  "title": "Sư tử và người chăn cừu",
+  "summary": "Người chăn cừu nhổ giúp sư tử chiếc gai trong chân. Nhiều năm sau, khi chàng bị oan và phải đứng trước chính con sư tử ấy, nó vẫn nhớ ơn xưa. Ngụ ngôn Aesop về lòng biết ơn.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, truyện «The Lion and the Shepherd», Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, sunny Greek hills with olive trees and white stone towns, a grand old stone amphitheatre, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "nguoi-chan-cuu",
+      "name": "Người chăn cừu",
+      "seed": 3410646217,
+      "sheetPrompt": "a kind young Greek shepherd with curly dark hair, a simple cream tunic, sandals and a wooden crook, gentle warm eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "su-tu",
+      "name": "Sư tử",
+      "seed": 4097561201,
+      "sheetPrompt": "a big golden lion with a thick soft mane and kind amber eyes, majestic but gentle, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "chiec-gai",
+      "title": "Chiếc gai trong chân",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một chàng chăn cừu hiền lành, ngày ngày lùa đàn cừu lên đồi cỏ. Một buổi chiều, chàng nghe tiếng rên rỉ sau bụi cây. Rẽ lá ra nhìn, chàng giật mình: một con sư tử to lớn đang nằm đó, co một chân lên. Nó không gầm, chỉ khẽ chìa cái chân ra, đôi mắt như muốn nhờ cậy.",
+      "subtitles": [
+        "Ngày xưa, có một chàng chăn cừu hiền lành, ngày ngày lùa đàn cừu lên đồi cỏ.",
+        "Một buổi chiều, chàng nghe tiếng rên rỉ sau bụi cây.",
+        "Rẽ lá ra nhìn, chàng giật mình: một con sư tử to lớn đang nằm đó, co một chân lên.",
+        "Nó không gầm, chỉ khẽ chìa cái chân ra, đôi mắt như muốn nhờ cậy."
+      ],
+      "image": {
+        "character": "su-tu",
+        "prompt": "a large lion lying behind a bush on a grassy hillside, holding up one front paw, a young shepherd peeking through the leaves in surprise, sheep grazing behind",
+        "seed": 96649922
+      },
+      "video": {
+        "motionPrompt": "leaves part slowly, the lion lifts its paw and blinks, the shepherd steps closer carefully, sheep graze in the breeze",
+        "seed": 696217273
+      },
+      "voice": {}
+    },
+    {
+      "id": "nho-gai",
+      "title": "Nhổ gai giúp sư tử",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng run run bước lại gần. Trong bàn chân sư tử có một chiếc gai lớn cắm sâu, sưng tấy cả lên. Chàng nhẹ tay rút chiếc gai ra, rửa bằng nước suối rồi buộc lại bằng một nắm lá thuốc. Sư tử thở phào, liếm tay chàng mấy cái như một chú mèo lớn, rồi lững thững quay vào rừng.",
+      "subtitles": [
+        "Chàng run run bước lại gần.",
+        "Trong bàn chân sư tử có một chiếc gai lớn cắm sâu, sưng tấy cả lên.",
+        "Chàng nhẹ tay rút chiếc gai ra, rửa bằng nước suối rồi buộc lại bằng một nắm lá thuốc.",
+        "Sư tử thở phào, liếm tay chàng mấy cái như một chú mèo lớn, rồi lững thững quay vào rừng."
+      ],
+      "image": {
+        "character": "nguoi-chan-cuu",
+        "prompt": "a young shepherd kneeling and gently pulling a thorn from a lion's paw beside a little stream, the lion resting its head calmly",
+        "seed": 1512157361
+      },
+      "video": {
+        "motionPrompt": "the shepherd draws out the thorn and wraps the paw with leaves, the lion licks his hand, stream water sparkles",
+        "seed": 4263465723
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-oan",
+      "title": "Bị kết oan",
+      "narrator": "ke-chuyen",
+      "narration": "Nhiều năm trôi qua. Một ngày kia, chàng chăn cừu bị kẻ xấu vu oan là đã lấy trộm đồ của nhà quyền quý. Chàng không cãi được, bị bắt giải vào thành. Lệnh truyền ra: chàng phải bước vào đấu trường, đứng trước một con sư tử vừa bắt được trong rừng sâu. Cả thành kéo nhau tới xem, ai cũng nín thở.",
+      "subtitles": [
+        "Nhiều năm trôi qua.",
+        "Một ngày kia, chàng chăn cừu bị kẻ xấu vu oan là đã lấy trộm đồ của nhà quyền quý.",
+        "Chàng không cãi được, bị bắt giải vào thành.",
+        "Lệnh truyền ra: chàng phải bước vào đấu trường,",
+        "đứng trước một con sư tử vừa bắt được trong rừng sâu.",
+        "Cả thành kéo nhau tới xem, ai cũng nín thở."
+      ],
+      "image": {
+        "character": "nguoi-chan-cuu",
+        "prompt": "a worried young shepherd standing alone in the sandy centre of a huge old stone amphitheatre, crowds in the stands, a heavy wooden gate at the far side",
+        "seed": 1708079991
+      },
+      "video": {
+        "motionPrompt": "the crowd murmurs and leans forward, the shepherd clasps his hands nervously, the wooden gate begins to creak open",
+        "seed": 46912817
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhan-ra",
+      "title": "Sư tử nhận ra ân nhân",
+      "narrator": "ke-chuyen",
+      "narration": "Cánh cửa gỗ mở ra. Con sư tử lao tới, tiếng gầm vang dội cả đấu trường. Nhưng vừa tới gần chàng, nó bỗng khựng lại, hít hít, rồi cúi đầu. Nó nằm xuống bên chân chàng, dụi bờm vào tay chàng, khẽ gừ gừ. Đó chính là con sư tử bị gai đâm năm nào!",
+      "subtitles": [
+        "Cánh cửa gỗ mở ra.",
+        "Con sư tử lao tới, tiếng gầm vang dội cả đấu trường.",
+        "Nhưng vừa tới gần chàng, nó bỗng khựng lại, hít hít, rồi cúi đầu.",
+        "Nó nằm xuống bên chân chàng, dụi bờm vào tay chàng, khẽ gừ gừ.",
+        "Đó chính là con sư tử bị gai đâm năm nào!"
+      ],
+      "image": {
+        "character": "su-tu",
+        "prompt": "a big golden lion lying down affectionately at the feet of the shepherd in the amphitheatre, rubbing its mane against his hand, the crowd amazed",
+        "seed": 1585599390
+      },
+      "video": {
+        "motionPrompt": "the lion slows, sniffs the air, then lies down and nuzzles the shepherd's hand, the crowd rises to its feet in wonder",
+        "seed": 405979151
+      },
+      "voice": {}
+    },
+    {
+      "id": "tha-ca-hai",
+      "title": "Cả hai được tự do",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua ngồi trên cao thấy vậy thì lấy làm lạ, cho gọi chàng lên hỏi chuyện. Nghe kể về chiếc gai năm xưa, vua cảm động lắm. Vua cho điều tra lại, rõ chàng bị oan, liền tha cho chàng, và thả cả sư tử về rừng. Các bạn nhỏ ạ, một việc tốt nhỏ hôm nay có thể được đền đáp vào lúc ta không ngờ nhất.",
+      "subtitles": [
+        "Nhà vua ngồi trên cao thấy vậy thì lấy làm lạ, cho gọi chàng lên hỏi chuyện.",
+        "Nghe kể về chiếc gai năm xưa, vua cảm động lắm.",
+        "Vua cho điều tra lại, rõ chàng bị oan, liền tha cho chàng, và thả cả sư tử về rừng.",
+        "Các bạn nhỏ ạ, một việc tốt nhỏ hôm nay có thể được đền đáp vào lúc ta không ngờ nhất."
+      ],
+      "image": {
+        "character": "nguoi-chan-cuu",
+        "prompt": "a kind old king on a stone balcony smiling and raising his hand, the shepherd and the lion walking together out of the amphitheatre gate toward green hills",
+        "seed": 424340149
+      },
+      "video": {
+        "motionPrompt": "the king raises his hand and smiles, the shepherd and the lion walk out side by side into the sunlight",
+        "seed": 1668106006
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle ancient Greek inspired storybook music, lyre and soft flute, a tender theme for kindness, a hushed tense middle in the arena, a warm hopeful ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3092548630
+  }
+}

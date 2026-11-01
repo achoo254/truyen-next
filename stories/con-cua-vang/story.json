@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-cua-vang",
+  "shelf": "world",
+  "title": "Con cua vàng",
+  "summary": "Ông lão đánh cá bắt được một con cua vàng biết nói, ngày ngày làm đĩa ăn đầy vàng, rồi còn xin cưới công chúa út. Ban đêm, con cua hoá thành chàng hoàng tử, nhưng khi chiếc vỏ cua bị ném vào lửa, chàng biến mất và công chúa phải đi tìm. Truyện dân gian Hy Lạp trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Golden Crab\" trong The Yellow Fairy Book do Andrew Lang biên tập (1894; Lang chép từ tập truyện dân gian Hy Lạp của Bernhard Schmidt), Project Gutenberg #640, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ các đoạn dữ dằn (hoàng hậu chỉ mắng con gái, lời than của chàng thành lời buồn nhớ), không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Hy Lạp, Andrew Lang chép (1894)",
+  "style": "classic Greek fairy tale picture book illustration, white island houses with blue doors, olive trees and a sparkling Aegean sea, a marble palace with tall flowering walls and fountains, gentle watercolor and gouache textures, colors of sea blue, gold, olive green and warm white, magical and tender mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cua-vang",
+      "name": "Con cua vàng",
+      "sheetPrompt": "a small shining golden crab from a Greek fairy tale, glossy gold shell with delicate patterns, friendly round eyes on stalks, cute and dignified, full body, plain light background, character reference sheet",
+      "seed": 1167073425
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Chàng hoàng tử",
+      "sheetPrompt": "a handsome young Greek prince from a fairy tale, short dark curly hair, golden tunic shining like the sun, a kind gentle face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1322109698
+    },
+    {
+      "id": "cong-chua-ut",
+      "name": "Công chúa út",
+      "sheetPrompt": "a gentle youngest Greek princess from a fairy tale, long wavy brown hair with a thin gold circlet, flowing white and sea blue gown with golden embroidery like a flowery meadow, full body, front and side views, plain light background, character reference sheet",
+      "seed": 648462831
+    },
+    {
+      "id": "ong-lao",
+      "name": "Ông lão đánh cá",
+      "sheetPrompt": "a kind old Greek fisherman from a fairy tale, white beard, sun-tanned face, blue fisherman cap, rolled-up linen trousers, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3676209392
+    }
+  ],
+  "scenes": [
+    {
+      "id": "con-cua-biet-noi",
+      "title": "Con cua biết nói",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, bên bờ biển Hy Lạp, có ông lão đánh cá sống cùng vợ và ba đứa con. Sáng nào ông cũng ra khơi, cá bắt được thì mang bán cho nhà vua. Một hôm, trong lưới có một con cua vàng óng ánh. Ông thấy đẹp quá, đặt riêng nó lên ngăn tủ cao. Đến bữa cơm, cả nhà bỗng nghe một giọng nói nhỏ xíu: \"Cho tôi ăn với!\" Cả nhà ngạc nhiên lắm, nhưng vẫn chia cho cua một phần. Lúc dọn mâm, ông lão thấy chiếc đĩa của cua đầy ắp vàng. Ngày nào cũng thế, nên ông bà quý con cua lắm.",
+      "subtitles": [
+        "Ngày xưa, bên bờ biển Hy Lạp, có ông lão đánh cá sống cùng vợ và ba đứa con.",
+        "Sáng nào ông cũng ra khơi, cá bắt được thì mang bán cho nhà vua.",
+        "Một hôm, trong lưới có một con cua vàng óng ánh.",
+        "Ông thấy đẹp quá, đặt riêng nó lên ngăn tủ cao.",
+        "Đến bữa cơm, cả nhà bỗng nghe một giọng nói nhỏ xíu: \"Cho tôi ăn với!\"",
+        "Cả nhà ngạc nhiên lắm, nhưng vẫn chia cho cua một phần.",
+        "Lúc dọn mâm, ông lão thấy chiếc đĩa của cua đầy ắp vàng.",
+        "Ngày nào cũng thế, nên ông bà quý con cua lắm."
+      ],
+      "image": {
+        "prompt": "a cozy white fisherman cottage by a sparkling sea, an old fisherman family at a wooden table, a tiny golden crab sitting on its own little plate that is full of shining gold coins, everyone amazed",
+        "seed": 1483889634,
+        "character": "cua-vang"
+      },
+      "video": {
+        "motionPrompt": "the crab raises a claw politely, gold coins glitter on the plate, the family gasps and smiles, sea light dances through the window",
+        "seed": 2273617150
+      },
+      "voice": {}
+    },
+    {
+      "id": "buc-tuong-va-khu-vuon",
+      "title": "Bức tường và khu vườn",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, con cua bảo bà lão: \"Bà hãy vào cung, thưa với nhà vua rằng tôi muốn cưới công chúa út.\" Nhà vua bật cười, nhưng ông là người khôn ngoan, đoán con cua này hẳn là một hoàng tử bị phù phép. Vua phán: \"Nếu sáng mai, trước lâu đài của ta có một bức tường cao hơn cả ngọn tháp, trên đó nở đủ mọi loài hoa trên đời, thì ta sẽ gả.\" Con cua đưa cho bà lão một cây gậy vàng, dặn gõ ba lần xuống đất. Sáng hôm sau, bức tường hoa đã sừng sững trước cung. Vua lại đòi một khu vườn có ba đài phun nước, một đài phun ra vàng, một đài phun kim cương, một đài phun ngọc sáng. Bà lão lại gõ gậy ba lần, và sáng ra khu vườn đã có ở đó.",
+      "subtitles": [
+        "Một hôm, con cua bảo bà lão: \"Bà hãy vào cung,",
+        "thưa với nhà vua rằng tôi muốn cưới công chúa út.\"",
+        "Nhà vua bật cười, nhưng ông là người khôn ngoan,",
+        "đoán con cua này hẳn là một hoàng tử bị phù phép.",
+        "Vua phán: \"Nếu sáng mai, trước lâu đài của ta có một bức tường cao hơn cả ngọn tháp,",
+        "trên đó nở đủ mọi loài hoa trên đời, thì ta sẽ gả.\"",
+        "Con cua đưa cho bà lão một cây gậy vàng, dặn gõ ba lần xuống đất.",
+        "Sáng hôm sau, bức tường hoa đã sừng sững trước cung.",
+        "Vua lại đòi một khu vườn có ba đài phun nước, một đài phun ra vàng,",
+        "một đài phun kim cương, một đài phun ngọc sáng.",
+        "Bà lão lại gõ gậy ba lần, và sáng ra khu vườn đã có ở đó."
+      ],
+      "image": {
+        "prompt": "a magnificent tall wall covered with every kind of blooming flower in front of a white marble palace, and a garden with three fountains spraying sparkling gold, diamonds and jewels, an amazed king in his nightgown at a window",
+        "seed": 3361236350,
+        "character": "ong-lao"
+      },
+      "video": {
+        "motionPrompt": "flowers bloom along the wall, the three fountains sparkle and splash, the king rubs his eyes in wonder",
+        "seed": 3110063997
+      },
+      "voice": {}
+    },
+    {
+      "id": "chang-trai-ve-ban-dem",
+      "title": "Chàng trai về ban đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua bằng lòng, đám cưới được định ngay hôm sau. Ông lão đánh cá đến gõ gậy vào một ngọn núi, người gác núi bước ra trao cho ông bộ áo vàng sáng như mặt trời, bộ áo hoàng hậu lộng lẫy như cánh đồng hoa, và một chiếc gối vàng. Con cua khoác áo vàng, nằm trên gối, được đưa vào cung làm lễ cưới. Khi chỉ còn hai người, con cua khẽ lắc mình, hoá thành một chàng trai tuấn tú. Chàng kể: \"Ta là con trai của một vị vua lớn, bị phù phép: ban ngày làm cua, ban đêm mới được là người, và có thể hoá thành chim đại bàng.\" Sáng ra, chàng lại chui vào vỏ cua. Công chúa thương chồng, đối xử với con cua thật dịu dàng. Một năm sau, họ có một bé trai đặt tên là Benjamin.",
+      "subtitles": [
+        "Nhà vua bằng lòng, đám cưới được định ngay hôm sau.",
+        "Ông lão đánh cá đến gõ gậy vào một ngọn núi,",
+        "người gác núi bước ra trao cho ông bộ áo vàng sáng như mặt trời,",
+        "bộ áo hoàng hậu lộng lẫy như cánh đồng hoa, và một chiếc gối vàng.",
+        "Con cua khoác áo vàng, nằm trên gối, được đưa vào cung làm lễ cưới.",
+        "Khi chỉ còn hai người, con cua khẽ lắc mình, hoá thành một chàng trai tuấn tú.",
+        "Chàng kể: \"Ta là con trai của một vị vua lớn, bị phù phép: ban ngày làm cua,",
+        "ban đêm mới được là người, và có thể hoá thành chim đại bàng.\"",
+        "Sáng ra, chàng lại chui vào vỏ cua.",
+        "Công chúa thương chồng, đối xử với con cua thật dịu dàng.",
+        "Một năm sau, họ có một bé trai đặt tên là Benjamin."
+      ],
+      "image": {
+        "prompt": "a candlelit royal bedroom in a Greek palace, a golden crab shell lying on a golden cushion while a handsome young prince in a golden tunic stands smiling before a delighted princess",
+        "seed": 2964795775,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the crab shell shimmers, golden light swirls and the prince appears, the princess clasps her hands in joy, candles flicker",
+        "seed": 898076914
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-tao-vang",
+      "title": "Quả táo vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng hậu thấy chuyện lạ lắm, bảo vua tổ chức hội thi đấu, mời hoàng tử khắp nơi đến để công chúa chọn chồng khác. Đêm ấy, con cua dặn vợ: \"Ta sẽ cưỡi ngựa đi qua và ném cho nàng một quả táo. Ai hỏi ta là ai, nàng nhớ bảo là không biết. Nói ra thì sẽ có chuyện không lành.\" Ngày thi đầu, chàng phi ngựa qua, ném lên quả táo bạc, công chúa giữ kín bí mật. Ngày thi thứ hai, chàng ném quả táo vàng. Hoàng hậu bực mình mắng con: \"Đến chàng ấy mà con cũng chê sao?\" Công chúa hoảng quá, buột miệng: \"Đó chính là con cua đấy ạ!\" Hoàng hậu chạy vào phòng, thấy chiếc vỏ cua nằm đó, liền ném ngay vào lò lửa. Công chúa khóc mãi, nhưng chồng nàng không trở về nữa.",
+      "subtitles": [
+        "Hoàng hậu thấy chuyện lạ lắm, bảo vua tổ chức hội thi đấu,",
+        "mời hoàng tử khắp nơi đến để công chúa chọn chồng khác.",
+        "Đêm ấy, con cua dặn vợ: \"Ta sẽ cưỡi ngựa đi qua và ném cho nàng một quả táo.",
+        "Ai hỏi ta là ai, nàng nhớ bảo là không biết. Nói ra thì sẽ có chuyện không lành.\"",
+        "Ngày thi đầu, chàng phi ngựa qua, ném lên quả táo bạc, công chúa giữ kín bí mật.",
+        "Ngày thi thứ hai, chàng ném quả táo vàng.",
+        "Hoàng hậu bực mình mắng con: \"Đến chàng ấy mà con cũng chê sao?\"",
+        "Công chúa hoảng quá, buột miệng: \"Đó chính là con cua đấy ạ!\"",
+        "Hoàng hậu chạy vào phòng, thấy chiếc vỏ cua nằm đó, liền ném ngay vào lò lửa.",
+        "Công chúa khóc mãi, nhưng chồng nàng không trở về nữa."
+      ],
+      "image": {
+        "prompt": "a festive tournament in front of a Greek palace, a prince in golden armor on a white horse tossing a shining golden apple up to a princess at a window beside her stern mother the queen and her sisters",
+        "seed": 1360850429,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the golden apple arcs through the air and the princess catches it, the queen frowns, banners flutter in the wind",
+        "seed": 1545395394
+      },
+      "voice": {}
+    },
+    {
+      "id": "cung-dien-duoi-long-dat",
+      "title": "Cung điện dưới lòng đất",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, có ông cụ ra suối chấm mẩu bánh mì, bỗng một con chó từ dưới nước nhảy lên ngoạm mất. Ông đuổi theo, qua một cánh cửa, xuống một cầu thang dài, tới một cung điện dưới lòng đất. Trong sảnh có chiếc bàn bày sẵn cho mười hai người. Ông nấp sau bức tranh lớn. Đúng trưa, mười hai con đại bàng bay vào, tắm trong bể nước, rồi hoá thành mười hai chàng trai. Một chàng nâng cốc, buồn bã nói: \"Chúc vợ hiền của ta sống lâu, mạnh khoẻ. Chỉ tiếc chiếc vỏ vàng của ta đã cháy mất rồi.\" Nói xong chàng khóc, rồi cả mười hai lại hoá đại bàng bay đi. Nghe nói công chúa ốm, chỉ thích nghe kể chuyện, ông cụ vào cung kể lại. Công chúa xin ông dẫn đường ngay.",
+      "subtitles": [
+        "Một hôm, có ông cụ ra suối chấm mẩu bánh mì,",
+        "bỗng một con chó từ dưới nước nhảy lên ngoạm mất.",
+        "Ông đuổi theo, qua một cánh cửa, xuống một cầu thang dài, tới một cung điện dưới lòng đất.",
+        "Trong sảnh có chiếc bàn bày sẵn cho mười hai người. Ông nấp sau bức tranh lớn.",
+        "Đúng trưa, mười hai con đại bàng bay vào, tắm trong bể nước,",
+        "rồi hoá thành mười hai chàng trai.",
+        "Một chàng nâng cốc, buồn bã nói: \"Chúc vợ hiền của ta sống lâu, mạnh khoẻ.",
+        "Chỉ tiếc chiếc vỏ vàng của ta đã cháy mất rồi.\"",
+        "Nói xong chàng khóc, rồi cả mười hai lại hoá đại bàng bay đi.",
+        "Nghe nói công chúa ốm, chỉ thích nghe kể chuyện, ông cụ vào cung kể lại.",
+        "Công chúa xin ông dẫn đường ngay."
+      ],
+      "image": {
+        "prompt": "a grand hidden palace hall deep underground lit by soft lamps, a long table set for twelve, twelve eagles landing at a stone fountain and turning into young men, an old man peeking from behind a huge painting",
+        "seed": 3258201918,
+        "character": "ong-lao"
+      },
+      "video": {
+        "motionPrompt": "the eagles splash in the fountain and shimmer into young men, one raises a cup with a sad face, the old man peeks in wonder",
+        "seed": 3974327663
+      },
+      "voice": {}
+    },
+    {
+      "id": "doan-tu",
+      "title": "Đoàn tụ",
+      "narrator": "ke-chuyen",
+      "narration": "Ông cụ đưa công chúa xuống cung điện, cả hai nấp sau bức tranh. Đại bàng lại bay vào, hoá thành người. Chàng trai lại nâng cốc nói lời buồn nhớ vợ. Công chúa không kìm được nữa, chạy ra ôm chầm lấy chồng. Chàng nhận ra nàng ngay, dịu dàng nói: \"Nàng còn nhớ hôm ấy ta bảo nàng sẽ lỡ lời không? Nhưng thôi, những ngày buồn đã qua. Ta còn phải chịu phép thêm ba tháng nữa. Nàng ở lại đây với ta nhé?\" Công chúa gật đầu, nhờ ông cụ về báo cho cha mẹ. Ba tháng trôi qua, phép thuật tan hẳn, chàng không còn hoá đại bàng nữa. Hai vợ chồng cùng nhau trở về, sống hạnh phúc mãi mãi. Còn chúng ta, những người nghe chuyện, thì còn vui hơn thế nữa.",
+      "subtitles": [
+        "Ông cụ đưa công chúa xuống cung điện, cả hai nấp sau bức tranh.",
+        "Đại bàng lại bay vào, hoá thành người. Chàng trai lại nâng cốc nói lời buồn nhớ vợ.",
+        "Công chúa không kìm được nữa, chạy ra ôm chầm lấy chồng.",
+        "Chàng nhận ra nàng ngay, dịu dàng nói: \"Nàng còn nhớ hôm ấy ta bảo nàng sẽ lỡ lời không?",
+        "Nhưng thôi, những ngày buồn đã qua. Ta còn phải chịu phép thêm ba tháng nữa.",
+        "Nàng ở lại đây với ta nhé?\" Công chúa gật đầu, nhờ ông cụ về báo cho cha mẹ.",
+        "Ba tháng trôi qua, phép thuật tan hẳn, chàng không còn hoá đại bàng nữa.",
+        "Hai vợ chồng cùng nhau trở về, sống hạnh phúc mãi mãi.",
+        "Còn chúng ta, những người nghe chuyện, thì còn vui hơn thế nữa."
+      ],
+      "image": {
+        "prompt": "in the underground palace hall a princess runs out from behind a painting and embraces a young prince in a golden tunic, other young men smiling around the table, an old man watching happily",
+        "seed": 2644677073,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the princess runs into the prince arms, he lifts her and spins around, soft golden light fills the hall",
+        "seed": 2841812613
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Greek folk melody, bouzouki, lyra and soft flute, the sound of the sea, a tender romantic theme, a brief festive dance for the tournament, warm and hopeful ending, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 3452340274
+  }
+}

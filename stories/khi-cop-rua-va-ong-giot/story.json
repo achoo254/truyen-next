@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "slug": "khi-cop-rua-va-ong-giot",
+  "shelf": "kids",
+  "title": "Khỉ, cọp, rùa và ông Giột",
+  "summary": "Cọp buộc khỉ và rùa vào đuôi đi rình nhà người, nghe chồng bảo chỉ sợ «ông Giột» thì đâm lo. Một anh trộm run lẩy bẩy trên cây khế khiến cọp tưởng ông Giột hiện ra, kéo cả hai bạn chạy thục mạng. Truyện cười dân gian Việt Nam, kể nhẹ cho bé.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam «Khỉ, cọp và rùa» do A. Landes chép trong Contes et légendes annamites (Sài Gòn, 1886), truyện số bảy mươi tám, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản Pháp. Bản cho trẻ nhỏ: ba con vật rình để xin ăn vụng trong bếp; khỉ chỉ va đầu vào mai rùa, choáng váng mà nhăn răng. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, thêm thoại và lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện dân gian Việt Nam (A. Landes, 1886)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, a thatched farmhouse at night with a dripping straw roof, a starfruit tree, banana leaves and a soft moon, cozy blue and warm lantern colors, rounded friendly shapes, funny and safe mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 1822502874,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cop",
+      "name": "Anh cọp",
+      "seed": 2219828469,
+      "sheetPrompt": "a big orange striped tiger with a round cartoon face, wide nervous eyes and a bossy grin, cute, not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "khi",
+      "name": "Chú khỉ",
+      "seed": 2362124373,
+      "sheetPrompt": "a small brown monkey with a long curly tail and a cheeky toothy grin, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "rua",
+      "name": "Bác rùa",
+      "seed": 4072056953,
+      "sheetPrompt": "a slow old green tortoise with a domed patterned shell and calm sleepy eyes, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ten-trom",
+      "name": "Anh trộm",
+      "seed": 1752474640,
+      "sheetPrompt": "a skinny Vietnamese man in a shaggy straw raincoat with long hairy fibers, a frightened comic face, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Những đêm mưa, mái tranh nhà ai cứ nhỏ giọt tí tách, tí tách, người ta gọi là nhà bị dột. Ngày xưa, có một anh cọp nghe nói đến ông Giột mà sợ xanh mặt. Ông Giột là ai mà ghê thế nhỉ? Mình cùng nghe nhé, vui lắm đấy!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Những đêm mưa, mái tranh nhà ai cứ nhỏ giọt tí tách, tí tách, người ta gọi là nhà bị dột.",
+        "Ngày xưa, có một anh cọp nghe nói đến ông Giột mà sợ xanh mặt.",
+        "Ông Giột là ai mà ghê thế nhỉ? Mình cùng nghe nhé, vui lắm đấy!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits under a thatched roof edge at night holding a little bowl, catching raindrops dripping from the straw roof, a lantern glowing beside her",
+        "seed": 1099227799
+      },
+      "video": {
+        "motionPrompt": "raindrops drip plink plink into the bowl, the cat giggles and looks up at the roof, the lantern flickers softly, slow camera push-in",
+        "seed": 3177310460
+      },
+      "voice": {}
+    },
+    {
+      "id": "buoc-duoi",
+      "title": "Cọp buộc bạn vào đuôi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, cọp, khỉ và rùa kết bạn với nhau. Một tối, cọp bảo: Đi kiếm ăn thôi! Nhưng hai cậu chậm quá, theo sao kịp tớ. Để tớ buộc hai cậu vào đuôi mà kéo đi. Khỉ với rùa bằng lòng. Thế là cọp lấy dây buộc khỉ với rùa vào đuôi, kéo lạch xạch đến một nhà bên xóm. Ba bạn nấp sau bụi chuối, rình xem có gì ăn vụng được không.",
+      "subtitles": [
+        "Ngày xưa, cọp, khỉ và rùa kết bạn với nhau. Một tối, cọp bảo: Đi kiếm ăn thôi!",
+        "Nhưng hai cậu chậm quá, theo sao kịp tớ. Để tớ buộc hai cậu vào đuôi mà kéo đi.",
+        "Khỉ với rùa bằng lòng.",
+        "Thế là cọp lấy dây buộc khỉ với rùa vào đuôi, kéo lạch xạch đến một nhà bên xóm.",
+        "Ba bạn nấp sau bụi chuối, rình xem có gì ăn vụng được không."
+      ],
+      "image": {
+        "character": "cop",
+        "prompt": "at night a big tiger walks proudly with a little monkey and an old tortoise tied to his tail by a soft rope, bumping along behind him, they hide behind banana leaves near a thatched house",
+        "seed": 1179746057
+      },
+      "video": {
+        "motionPrompt": "the tiger strides along, the monkey bounces and the tortoise slides behind on the rope, banana leaves sway, the moon glows",
+        "seed": 1297516371
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-giot",
+      "title": "Ông Giột là ai?",
+      "narrator": "ke-chuyen",
+      "narration": "Trong nhà, chị vợ hỏi chồng: Mình ơi, trên đời mình sợ cái gì nhất? Anh chồng đáp: Tôi chỉ sợ ông Giột thôi. Chị vợ lạ lắm: Thế mình không sợ cọp à? Không, tôi chẳng sợ cọp, chỉ sợ ông Giột thôi! Ông Giột ấy là nước mưa dột qua mái tranh, làm ướt cả giường, cả chiếu. Nhưng cọp nấp ngoài nghe thế thì giật mình, nghĩ bụng: Ông Giột là ai mà còn đáng sợ hơn cả mình?",
+      "subtitles": [
+        "Trong nhà, chị vợ hỏi chồng: Mình ơi, trên đời mình sợ cái gì nhất?",
+        "Anh chồng đáp: Tôi chỉ sợ ông Giột thôi. Chị vợ lạ lắm: Thế mình không sợ cọp à?",
+        "Không, tôi chẳng sợ cọp, chỉ sợ ông Giột thôi!",
+        "Ông Giột ấy là nước mưa dột qua mái tranh, làm ướt cả giường, cả chiếu.",
+        "Nhưng cọp nấp ngoài nghe thế thì giật mình, nghĩ bụng:",
+        "Ông Giột là ai mà còn đáng sợ hơn cả mình?"
+      ],
+      "image": {
+        "character": "cop",
+        "prompt": "outside the window of a thatched house at night, the tiger presses his ear to the bamboo wall with a worried face, inside by lantern light a husband and wife talk while rain drips from the roof into a pot",
+        "seed": 3981704137
+      },
+      "video": {
+        "motionPrompt": "the tiger’s ears twitch and his eyes go wide, the couple chat inside, drops plink into the pot, the lantern flickers",
+        "seed": 2104512451
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-khe",
+      "title": "Trên cây khế",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc ấy, có một anh trộm mặc chiếc áo tơi xù xì lẻn đến. Vừa thấy cọp, anh ta sợ quá, trèo tót lên cây khế. Anh run lẩy bẩy, run đến nỗi khế rụng lộp bộp xuống đất. Cọp tưởng cái bóng xù xì trên cây là ông Giột, còn khế rụng là phân của ông Giột. Cọp nhặt một quả nếm thử, đưa cho khỉ và rùa cùng nếm. Ba bạn nhăn mặt kêu lên: Úi chà, phân ông Giột chua quá!",
+      "subtitles": [
+        "Đúng lúc ấy, có một anh trộm mặc chiếc áo tơi xù xì lẻn đến.",
+        "Vừa thấy cọp, anh ta sợ quá, trèo tót lên cây khế.",
+        "Anh run lẩy bẩy, run đến nỗi khế rụng lộp bộp xuống đất.",
+        "Cọp tưởng cái bóng xù xì trên cây là ông Giột, còn khế rụng là phân của ông Giột.",
+        "Cọp nhặt một quả nếm thử, đưa cho khỉ và rùa cùng nếm.",
+        "Ba bạn nhăn mặt kêu lên: Úi chà, phân ông Giột chua quá!"
+      ],
+      "image": {
+        "character": "ten-trom",
+        "prompt": "a skinny man in a shaggy straw raincoat shivers on a branch of a starfruit tree at night, starfruits falling below, the tiger, monkey and tortoise taste the fruits and pucker their faces, comic",
+        "seed": 1294653006
+      },
+      "video": {
+        "motionPrompt": "the man shakes and starfruits drop plop plop, the three animals bite the fruit and scrunch up their faces, comic timing",
+        "seed": 3861569971
+      },
+      "voice": {}
+    },
+    {
+      "id": "chay-thuc-mang",
+      "title": "Chạy thục mạng",
+      "narrator": "ke-chuyen",
+      "narration": "Anh trộm càng run, run quá, rơi uỵch từ trên cây xuống, kêu một tiếng rõ to. Cọp hết hồn, tưởng ông Giột nhảy xuống vồ mình, liền cắm đầu chạy một mạch, kéo theo khỉ và rùa xóc nảy phía sau. Khỉ va đầu vào mai rùa cốp một cái, choáng váng, mắt hoa lên, miệng nhăn nhở hở cả hai hàm răng. Chạy xa lắm rồi cọp mới dừng lại, ngoái nhìn khỉ, bực mình quát: Tớ sợ gần ngất, thế mà cậu còn nhe răng ra cười à!",
+      "subtitles": [
+        "Anh trộm càng run, run quá, rơi uỵch từ trên cây xuống, kêu một tiếng rõ to.",
+        "Cọp hết hồn, tưởng ông Giột nhảy xuống vồ mình, liền cắm đầu chạy một mạch,",
+        "kéo theo khỉ và rùa xóc nảy phía sau.",
+        "Khỉ va đầu vào mai rùa cốp một cái, choáng váng, mắt hoa lên,",
+        "miệng nhăn nhở hở cả hai hàm răng.",
+        "Chạy xa lắm rồi cọp mới dừng lại, ngoái nhìn khỉ, bực mình quát: Tớ sợ gần ngất,",
+        "thế mà cậu còn nhe răng ra cười à!"
+      ],
+      "image": {
+        "character": "khi",
+        "prompt": "the tiger runs wildly through a moonlit field dragging the monkey and the tortoise bouncing on the rope behind, then stops and glares at the dizzy monkey who has a goofy toothy grimace and little stars circling his head, comic and light",
+        "seed": 1696678942
+      },
+      "video": {
+        "motionPrompt": "the tiger dashes through the grass, the monkey and tortoise bounce behind, the tiger skids to a stop and frowns, cartoon stars spin over the monkey, comic timing",
+        "seed": 924994542
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, ông Giột chỉ là nước mưa nhỏ giọt từ mái nhà, thế mà anh cọp to xác chẳng chịu hỏi cho rõ, cứ tưởng tượng ra rồi tự làm mình sợ. Khi nghe một điều lạ, mình bình tĩnh hỏi bố mẹ, hỏi thầy cô cho ra lẽ nhé. Hiểu rõ rồi thì chẳng còn sợ gì cả! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, ông Giột chỉ là nước mưa nhỏ giọt từ mái nhà,",
+        "thế mà anh cọp to xác chẳng chịu hỏi cho rõ, cứ tưởng tượng ra rồi tự làm mình sợ.",
+        "Khi nghe một điều lạ, mình bình tĩnh hỏi bố mẹ, hỏi thầy cô cho ra lẽ nhé.",
+        "Hiểu rõ rồi thì chẳng còn sợ gì cả! Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye under a thatched roof as the rain stops and the moon comes out, a little bowl of rainwater beside her, a tiger peeks shyly from the banana leaves far away",
+        "seed": 3210923200
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the last raindrop plinks into the bowl, the tiger blinks and hides, clouds part over the moon, gentle camera pull-back",
+        "seed": 1054027136
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "funny Vietnamese folk melody, plucked dan nguyet, bamboo flute and soft rain-drop woodblock taps, sneaky then hurried, playful, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3129227306
+  }
+}

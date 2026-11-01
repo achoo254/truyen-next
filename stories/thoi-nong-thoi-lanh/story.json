@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "slug": "thoi-nong-thoi-lanh",
+  "shelf": "world",
+  "title": "Thổi nóng, thổi lạnh",
+  "summary": "Một người đàn ông và chú thần rừng kết bạn. Thấy anh thổi vào tay cho ấm, rồi lại thổi vào bát cháo cho nguội, thần rừng bối rối không hiểu nổi. Ngụ ngôn Aesop vui nhộn về lời nói trước sau như một.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, truyện «The Man and the Satyr», Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, a snowy pine forest in winter and a cosy little wooden cottage with a crackling fire, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "nguoi-dan-ong",
+      "name": "Người đàn ông",
+      "seed": 2077725951,
+      "sheetPrompt": "a cheerful bearded Greek traveller in a thick brown wool cloak and a knitted cap, rosy cheeks, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "than-rung",
+      "name": "Thần rừng",
+      "seed": 2962376158,
+      "sheetPrompt": "a friendly young forest satyr with small curled horns, goat legs, curly hair crowned with ivy and a wide innocent curious face, comical and sweet, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "lac-duong",
+      "title": "Lạc đường giữa mùa đông",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, vào một mùa đông tuyết phủ trắng rừng, có người đàn ông bị lạc đường. Trời lạnh cắt da, anh đi mãi mà chẳng thấy nhà ai. Bỗng từ sau gốc thông, một chú thần rừng thò đầu ra. Chú có đôi sừng nhỏ, đôi chân dê, khuôn mặt tò mò hiền khô. “Anh đi đâu giữa trời tuyết thế này? Về nhà tôi mà sưởi cho ấm!”",
+      "subtitles": [
+        "Ngày xưa, vào một mùa đông tuyết phủ trắng rừng, có người đàn ông bị lạc đường.",
+        "Trời lạnh cắt da, anh đi mãi mà chẳng thấy nhà ai.",
+        "Bỗng từ sau gốc thông, một chú thần rừng thò đầu ra.",
+        "Chú có đôi sừng nhỏ, đôi chân dê, khuôn mặt tò mò hiền khô.",
+        "“Anh đi đâu giữa trời tuyết thế này? Về nhà tôi mà sưởi cho ấm!”"
+      ],
+      "image": {
+        "character": "than-rung",
+        "prompt": "a lost traveller in a wool cloak trudging through a snowy pine forest, a friendly satyr with small horns peeking out from behind a pine tree",
+        "seed": 142549924
+      },
+      "video": {
+        "motionPrompt": "snowflakes drift down, the traveller hugs his cloak, the satyr pops its head out from behind the tree and waves",
+        "seed": 2609499683
+      },
+      "voice": {}
+    },
+    {
+      "id": "thoi-tay",
+      "title": "Thổi vào tay cho ấm",
+      "narrator": "ke-chuyen",
+      "narration": "Hai người cùng đi về căn nhà gỗ nhỏ của thần rừng. Dọc đường, người đàn ông cứ đưa hai bàn tay lên miệng, thổi phù phù. Thần rừng lấy làm lạ, hỏi: “Anh thổi vào tay làm gì vậy?” Người đàn ông cười: “Tay tôi lạnh cóng, thổi hơi vào cho ấm đấy mà.” Thần rừng gật gù, cho là hay lắm.",
+      "subtitles": [
+        "Hai người cùng đi về căn nhà gỗ nhỏ của thần rừng.",
+        "Dọc đường, người đàn ông cứ đưa hai bàn tay lên miệng, thổi phù phù.",
+        "Thần rừng lấy làm lạ, hỏi: “Anh thổi vào tay làm gì vậy?”",
+        "Người đàn ông cười: “Tay tôi lạnh cóng, thổi hơi vào cho ấm đấy mà.”",
+        "Thần rừng gật gù, cho là hay lắm."
+      ],
+      "image": {
+        "character": "nguoi-dan-ong",
+        "prompt": "a traveller blowing warm breath onto his cupped hands while walking beside a curious satyr through snow, a small wooden cottage with a smoking chimney ahead",
+        "seed": 393712517
+      },
+      "video": {
+        "motionPrompt": "the man breathes into his cupped hands, small puffs of mist rise, the satyr tilts its head and watches closely",
+        "seed": 3266513538
+      },
+      "voice": {}
+    },
+    {
+      "id": "thoi-chao",
+      "title": "Thổi vào bát cháo cho nguội",
+      "narrator": "ke-chuyen",
+      "narration": "Về tới nhà, thần rừng nhóm lửa, múc cho khách một bát cháo nóng hổi bốc khói nghi ngút. Người đàn ông nâng bát lên, lại đưa miệng thổi phù phù. Thần rừng tròn mắt: “Ơ, lần này anh thổi để làm gì?” “Cháo nóng quá, tôi thổi cho nguội bớt đấy mà.”",
+      "subtitles": [
+        "Về tới nhà, thần rừng nhóm lửa, múc cho khách một bát cháo nóng hổi bốc khói nghi ngút.",
+        "Người đàn ông nâng bát lên, lại đưa miệng thổi phù phù.",
+        "Thần rừng tròn mắt: “Ơ, lần này anh thổi để làm gì?”",
+        "“Cháo nóng quá, tôi thổi cho nguội bớt đấy mà.”"
+      ],
+      "image": {
+        "character": "nguoi-dan-ong",
+        "prompt": "inside a cosy wooden cottage, a traveller by the fire blowing on a steaming bowl of porridge, the satyr staring at him with wide round eyes",
+        "seed": 3480660557
+      },
+      "video": {
+        "motionPrompt": "steam curls from the bowl, the man blows on it, the fire crackles, the satyr's eyes grow wider and wider",
+        "seed": 1287979847
+      },
+      "voice": {}
+    },
+    {
+      "id": "than-rung-boi-roi",
+      "title": "Thần rừng bối rối",
+      "narrator": "ke-chuyen",
+      "narration": "Thần rừng đứng bật dậy, gãi gãi đầu, rồi chỉ ra cửa. “Anh bạn ơi, tôi chẳng hiểu nổi anh. Cùng một hơi thở, lúc thì anh làm cho nóng, lúc lại làm cho lạnh. Tôi không dám làm bạn với người mà hơi thở đổi chiều nhanh như thế đâu!”",
+      "subtitles": [
+        "Thần rừng đứng bật dậy, gãi gãi đầu, rồi chỉ ra cửa.",
+        "“Anh bạn ơi, tôi chẳng hiểu nổi anh.",
+        "Cùng một hơi thở, lúc thì anh làm cho nóng, lúc lại làm cho lạnh.",
+        "Tôi không dám làm bạn với người mà hơi thở đổi chiều nhanh như thế đâu!”"
+      ],
+      "image": {
+        "character": "than-rung",
+        "prompt": "a puzzled satyr scratching its curly head and pointing toward the open cottage door, the traveller holding his porridge bowl in surprise",
+        "seed": 2305214145
+      },
+      "video": {
+        "motionPrompt": "the satyr scratches its head and points at the door, snow blows in softly, the traveller freezes with spoon in hand",
+        "seed": 2814972479
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-khuyen",
+      "title": "Nói sao làm vậy",
+      "narrator": "ke-chuyen",
+      "narration": "Người đàn ông bật cười, ăn xong bát cháo rồi cảm ơn, đội mũ lên đường khi tuyết đã ngớt. Thần rừng tiễn khách ra tận cửa, vẫn còn lắc đầu mãi. Chuyện thổi hơi thì chẳng có gì sai, nhưng các bạn nhỏ hãy nhớ: người ta tin những ai nói trước sau như một, chứ không phải người lúc nói thế này, lúc nói thế khác.",
+      "subtitles": [
+        "Người đàn ông bật cười, ăn xong bát cháo rồi cảm ơn, đội mũ lên đường khi tuyết đã ngớt.",
+        "Thần rừng tiễn khách ra tận cửa, vẫn còn lắc đầu mãi.",
+        "Chuyện thổi hơi thì chẳng có gì sai, nhưng các bạn nhỏ hãy nhớ:",
+        "người ta tin những ai nói trước sau như một,",
+        "chứ không phải người lúc nói thế này, lúc nói thế khác."
+      ],
+      "image": {
+        "character": "nguoi-dan-ong",
+        "prompt": "the traveller waving goodbye at a cottage door in soft evening light after the snow has stopped, the satyr waving back while still shaking its head",
+        "seed": 124138893
+      },
+      "video": {
+        "motionPrompt": "the traveller waves and walks off along a snowy path, the satyr waves back slowly, chimney smoke drifts into a calm pink sky",
+        "seed": 2007197337
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light playful Mediterranean folk storybook music, pan flute and plucked lute, a cosy winter fireside feel, a curious comic bassoon theme for the satyr, a warm gentle ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2481290154
+  }
+}

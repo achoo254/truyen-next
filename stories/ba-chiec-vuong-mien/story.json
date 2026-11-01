@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "slug": "ba-chiec-vuong-mien",
+  "shelf": "world",
+  "title": "Ba chiếc vương miện",
+  "summary": "Ba nàng công chúa bị ông tí hon Bảy Tấc đưa xuống đáy giếng phép, và chỉ chàng hoàng tử biết lễ độ mới cứu được cả ba. Bị bỏ lại dưới lòng đất, chàng phải làm thợ rèn để mang ba chiếc vương miện về cho người mình thương. Truyện dân gian Scotland trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "tinh-yeu",
+    "anh-hung"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Three Crowns\" trong The Lilac Fairy Book do Andrew Lang biên tập (1910; Lang chép từ tập West Highland Tales), Project Gutenberg #3454, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ các đoạn dữ (người khổng lồ, cú ngã của nhà vua), không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Scotland, Andrew Lang chép (1910)",
+  "style": "classic Scottish fairy tale picture book illustration in the style of early twentieth century storybooks, a grey stone castle by a misty loch, heather hills, an old stone well with a windlass, an enchanted underground land with a bright sky, warm watercolor and ink, colors of heather purple, moss green, loch blue and gold, magical and cozy, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hoang-tu-ut",
+      "name": "Chàng hoàng tử hiền",
+      "sheetPrompt": "a kind young prince from a Scottish fairy tale, auburn hair, simple green tartan cloak over a plain tunic, polite gentle smile, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3328000481
+    },
+    {
+      "id": "cong-chua-ut",
+      "name": "Nàng công chúa út",
+      "sheetPrompt": "a gentle youngest princess from a Scottish fairy tale, long dark red hair, simple blue gown with a tartan sash, kind thoughtful eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1878170337
+    },
+    {
+      "id": "ong-bay-tac",
+      "name": "Ông Bảy Tấc",
+      "sheetPrompt": "a tiny old wizard only a hand tall from a Scottish fairy tale, long white beard, pointed green cap, little brown coat with silver buttons, a tiny magic rod, mischievous kind grin, full body, front and side views, plain light background, character reference sheet",
+      "seed": 65023433
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nguoi-an-xin-ben-ho",
+      "title": "Người ăn xin bên hồ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở xứ Scotland có một ông vua sinh được ba nàng công chúa. Hai cô chị kiêu kỳ, hay cãi cọ, còn cô út thì hiền lành bao nhiêu chị mình khó chịu bấy nhiêu. Rồi có ba chàng hoàng tử đến hỏi cưới. Hai chàng kiêu như hai cô chị, chàng thứ ba thì tốt bụng như cô út. Một hôm, cả nhà dạo xuống hồ nước cuối bãi cỏ thì gặp một ông lão ăn xin. Nhà vua chẳng cho gì, hai cô chị và hai chàng kia cũng ngoảnh mặt đi. Chỉ có cô út và chàng hoàng tử của nàng dừng lại, biếu ông lão mấy đồng bạc cùng vài lời thăm hỏi ân cần.",
+      "subtitles": [
+        "Ngày xưa, ở xứ Scotland có một ông vua sinh được ba nàng công chúa.",
+        "Hai cô chị kiêu kỳ, hay cãi cọ,",
+        "còn cô út thì hiền lành bao nhiêu chị mình khó chịu bấy nhiêu.",
+        "Rồi có ba chàng hoàng tử đến hỏi cưới.",
+        "Hai chàng kiêu như hai cô chị, chàng thứ ba thì tốt bụng như cô út.",
+        "Một hôm, cả nhà dạo xuống hồ nước cuối bãi cỏ thì gặp một ông lão ăn xin.",
+        "Nhà vua chẳng cho gì, hai cô chị và hai chàng kia cũng ngoảnh mặt đi.",
+        "Chỉ có cô út và chàng hoàng tử của nàng dừng lại,",
+        "biếu ông lão mấy đồng bạc cùng vài lời thăm hỏi ân cần."
+      ],
+      "image": {
+        "prompt": "by a misty loch below a grey castle a kind youngest princess and a kind prince giving coins to an old beggar while the proud king, two haughty sisters and two haughty princes turn away",
+        "seed": 730341492,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the loch ripples softly, the old beggar bows and smiles, the haughty figures stroll away with noses up",
+        "seed": 3943977599
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-thuyen-phep",
+      "title": "Con thuyền phép",
+      "narrator": "ke-chuyen",
+      "narration": "Bên bờ hồ có một con thuyền đẹp chưa từng thấy. Cô cả reo lên: “Ta sẽ đi chơi thuyền!” Cô thứ hai cũng thế. Cô út thì lắc đầu: “Em không dám đâu, em sợ đó là thuyền phép.” Nhưng hai chị cứ kéo em xuống. Nhà vua vừa định bước theo thì trên mạn thuyền nhảy ra một ông tí hon, cao chừng một gang tay, người ta gọi là ông Bảy Tấc. Ông giơ tay bảo lùi lại, thế là cả bốn người đàn ông đứng sững, tay chân chẳng nhấc lên nổi. Ông Bảy Tấc bảo chàng hoàng tử hiền: “Cậu đừng lo, rồi cậu sẽ đón được nàng về.” Thuyền lướt sang bờ bên kia. Ông đưa ba nàng vào một cái giỏ, thả xuống một cái giếng mà trước nay ở đó chưa từng có.",
+      "subtitles": [
+        "Bên bờ hồ có một con thuyền đẹp chưa từng thấy. Cô cả reo lên: “Ta sẽ đi chơi thuyền!”",
+        "Cô thứ hai cũng thế. Cô út thì lắc đầu: “Em không dám đâu, em sợ đó là thuyền phép.”",
+        "Nhưng hai chị cứ kéo em xuống.",
+        "Nhà vua vừa định bước theo thì trên mạn thuyền nhảy ra một ông tí hon,",
+        "cao chừng một gang tay, người ta gọi là ông Bảy Tấc.",
+        "Ông giơ tay bảo lùi lại, thế là cả bốn người đàn ông đứng sững,",
+        "tay chân chẳng nhấc lên nổi.",
+        "Ông Bảy Tấc bảo chàng hoàng tử hiền: “Cậu đừng lo, rồi cậu sẽ đón được nàng về.”",
+        "Thuyền lướt sang bờ bên kia.",
+        "Ông đưa ba nàng vào một cái giỏ, thả xuống một cái giếng mà trước nay ở đó chưa từng có."
+      ],
+      "image": {
+        "prompt": "a beautiful enchanted boat with a silver chain on a misty loch, three princesses aboard, a tiny bearded wizard standing on the bow raising his hand, the king and three princes frozen still on the shore",
+        "seed": 1411036694,
+        "character": "ong-bay-tac"
+      },
+      "video": {
+        "motionPrompt": "the boat glides away over the water, mist curls around it, the princesses reach out their hands",
+        "seed": 953294888
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-duoi-long-dat",
+      "title": "Lâu đài dưới lòng đất",
+      "narrator": "ke-chuyen",
+      "narration": "Chân tay vừa cử động được, ba chàng chạy vòng quanh hồ tới miệng giếng. Hai chàng kia lần lượt xuống trước, rồi biệt tăm. Ngày thứ ba, chàng hoàng tử hiền ngồi vào giỏ. Xuống mãi, xuống mãi, rồi chàng chạm đất và bước ra một vùng đất lạ: có rừng, có đồng cỏ, có trời xanh, và một tòa lâu đài mở toang cửa. Trong phòng đẹp nhất bày sẵn một mâm cỗ thơm lừng. Chàng đói lắm nhưng vẫn ngồi bên lò sưởi chờ chủ nhà mời. Ông Bảy Tấc dắt cô út vào. Ông bảo: “Hai cậu kia chưa ai mời đã sà vào ăn, ta nhắc thì cãi lại.” Rồi ông chỉ hai pho tượng đá trong góc phòng. Chính là hai chàng hoàng tử kia.",
+      "subtitles": [
+        "Chân tay vừa cử động được, ba chàng chạy vòng quanh hồ tới miệng giếng.",
+        "Hai chàng kia lần lượt xuống trước, rồi biệt tăm.",
+        "Ngày thứ ba, chàng hoàng tử hiền ngồi vào giỏ.",
+        "Xuống mãi, xuống mãi, rồi chàng chạm đất và bước ra một vùng đất lạ: có rừng, có đồng cỏ,",
+        "có trời xanh, và một tòa lâu đài mở toang cửa.",
+        "Trong phòng đẹp nhất bày sẵn một mâm cỗ thơm lừng.",
+        "Chàng đói lắm nhưng vẫn ngồi bên lò sưởi chờ chủ nhà mời. Ông Bảy Tấc dắt cô út vào.",
+        "Ông bảo: “Hai cậu kia chưa ai mời đã sà vào ăn, ta nhắc thì cãi lại.”",
+        "Rồi ông chỉ hai pho tượng đá trong góc phòng. Chính là hai chàng hoàng tử kia."
+      ],
+      "image": {
+        "prompt": "inside a bright underground castle hall a polite prince sitting by the fireplace beside a richly laid table, a tiny wizard leading the youngest princess in, two stone statues of young men standing in the corners",
+        "seed": 2710572553,
+        "character": "hoang-tu-ut"
+      },
+      "video": {
+        "motionPrompt": "firelight flickers, the prince and princess run to each other, the tiny wizard points his rod at the stone statues",
+        "seed": 2209337217
+      },
+      "voice": {}
+    },
+    {
+      "id": "tron-khoi-nguoi-khong-lo",
+      "title": "Trốn khỏi người khổng lồ",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm sau, ông Bảy Tấc chỉ về phía mặt trời: “Hai cô chị đang ở trong lâu đài của hai gã khổng lồ. Cậu cứ đưa họ về đây, chẳng cần xin phép ai.” Ông dúi cho chàng hai con dao nhỏ. Tối ấy, cô thứ hai giấu chàng vào tủ cho gã khổng lồ khỏi thấy. Tối sau, ở lâu đài thứ hai, cô cả đánh thức chàng lúc nửa đêm, hai người lén thắng ngựa ra đi. Nhưng vó ngựa gõ vào đá, gã khổng lồ choàng dậy đuổi theo. Gần bị đuổi kịp, chàng ném con dao thứ nhất qua vai, lập tức một khu rừng rậm mọc lên chắn lối. Đón được cô thứ hai, cả ba lại phi tiếp, thì hai gã khổng lồ cùng gầm gừ đuổi tới. Chàng ném con dao thứ hai, mặt đất sụt xuống thành một cái hồ sâu thẳm, và ba người chạy kịp vào vương quốc của ông Bảy Tấc.",
+      "subtitles": [
+        "Hôm sau, ông Bảy Tấc chỉ về phía mặt trời:",
+        "“Hai cô chị đang ở trong lâu đài của hai gã khổng lồ.",
+        "Cậu cứ đưa họ về đây, chẳng cần xin phép ai.” Ông dúi cho chàng hai con dao nhỏ.",
+        "Tối ấy, cô thứ hai giấu chàng vào tủ cho gã khổng lồ khỏi thấy.",
+        "Tối sau, ở lâu đài thứ hai, cô cả đánh thức chàng lúc nửa đêm,",
+        "hai người lén thắng ngựa ra đi. Nhưng vó ngựa gõ vào đá, gã khổng lồ choàng dậy đuổi theo.",
+        "Gần bị đuổi kịp, chàng ném con dao thứ nhất qua vai,",
+        "lập tức một khu rừng rậm mọc lên chắn lối.",
+        "Đón được cô thứ hai, cả ba lại phi tiếp, thì hai gã khổng lồ cùng gầm gừ đuổi tới.",
+        "Chàng ném con dao thứ hai, mặt đất sụt xuống thành một cái hồ sâu thẳm,",
+        "và ba người chạy kịp vào vương quốc của ông Bảy Tấc."
+      ],
+      "image": {
+        "prompt": "a brave prince and two princesses galloping on horses across green fields at dawn, behind them a thick magical forest springing up between them and two huge clumsy giants far away",
+        "seed": 1248852551,
+        "character": "hoang-tu-ut"
+      },
+      "video": {
+        "motionPrompt": "the horses gallop, trees burst up from the ground in a swirl of leaves, the giants stop and scratch their heads",
+        "seed": 919219927
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-bo-vuong-mien",
+      "title": "Ba bộ vương miện",
+      "narrator": "ke-chuyen",
+      "narration": "Ông Bảy Tấc chạm cây gậy phép vào hai pho tượng, hai chàng kia lại cử động, nói cười như cũ. Rồi ông đưa cho mỗi nàng một bộ ba vương miện lồng vào nhau: vương miện vàng nằm trong vương miện bạc, vương miện bạc nằm trong vương miện đồng. “Nhớ giữ cho kỹ. Cả ba phải đội vương miện mà cưới cùng một ngày, không thì xui xẻo sẽ theo.” Ra tới đáy giếng, cô út thì thầm: “Em e hai chàng kia không tốt với chàng. Chàng giữ bộ vương miện của em, đến lượt mình thì đừng ngồi vào giỏ, cứ bỏ một hòn đá vào xem sao.” Ba nàng lần lượt được kéo lên. Đến lượt chàng, chàng đặt hòn đá vào giỏ. Giỏ lên được một quãng thì rơi đánh rầm, hòn đá vỡ vụn.",
+      "subtitles": [
+        "Ông Bảy Tấc chạm cây gậy phép vào hai pho tượng, hai chàng kia lại cử động,",
+        "nói cười như cũ.",
+        "Rồi ông đưa cho mỗi nàng một bộ ba vương miện lồng vào nhau:",
+        "vương miện vàng nằm trong vương miện bạc, vương miện bạc nằm trong vương miện đồng.",
+        "“Nhớ giữ cho kỹ.",
+        "Cả ba phải đội vương miện mà cưới cùng một ngày, không thì xui xẻo sẽ theo.”",
+        "Ra tới đáy giếng, cô út thì thầm: “Em e hai chàng kia không tốt với chàng.",
+        "Chàng giữ bộ vương miện của em, đến lượt mình thì đừng ngồi vào giỏ,",
+        "cứ bỏ một hòn đá vào xem sao.” Ba nàng lần lượt được kéo lên.",
+        "Đến lượt chàng, chàng đặt hòn đá vào giỏ.",
+        "Giỏ lên được một quãng thì rơi đánh rầm, hòn đá vỡ vụn."
+      ],
+      "image": {
+        "prompt": "in a treasure room full of gold and silks a tiny wizard handing three sets of nested crowns of gold, silver and copper to three princesses, the youngest princess whispering to her prince",
+        "seed": 886204571,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the crowns gleam, the tiny wizard nods, the youngest princess glances worriedly toward the dark well shaft",
+        "seed": 2702615052
+      },
+      "voice": {}
+    },
+    {
+      "id": "chang-tho-ren",
+      "title": "Chàng thợ rèn",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng ở lại một mình, buồn rười rượi. Một sáng, chàng thấy trên bàn một hộp thuốc hít xinh xinh, mở ra thì ông Bảy Tấc bước ra. “Cậu ở đây đủ rồi, trên kia người ta đang cần cậu. Muốn ta giúp thì cứ mở hộp.” Chàng đi dạo một vòng vườn, ngẩng lên đã thấy mình đứng trước một lò rèn gần cung điện, áo quần rách bươm, bộ vương miện giấu dưới áo choàng. Bác thợ rèn nhận chàng vào làm. Có bác thợ may ghé chơi, kể rằng sáng nay hai cô công chúa lớn làm lễ cưới, vừa bước tới thì sàn gỗ sụt xuống, hai chú rể rơi tọt xuống hầm. Nhà vua đành hoãn cưới, truyền rằng ai làm được ba chiếc vương miện như của hai cô chị thì được cưới công chúa út. Chàng bảo bác thợ rèn xin vào cung vàng, bạc, đồng, mỗi thứ một ít. Sáng ra, chàng mở cửa, trên tay là ba chiếc vương miện sáng lấp lánh.",
+      "subtitles": [
+        "Chàng ở lại một mình, buồn rười rượi.",
+        "Một sáng, chàng thấy trên bàn một hộp thuốc hít xinh xinh, mở ra thì ông Bảy Tấc bước ra.",
+        "“Cậu ở đây đủ rồi, trên kia người ta đang cần cậu. Muốn ta giúp thì cứ mở hộp.”",
+        "Chàng đi dạo một vòng vườn, ngẩng lên đã thấy mình đứng trước một lò rèn gần cung điện,",
+        "áo quần rách bươm, bộ vương miện giấu dưới áo choàng. Bác thợ rèn nhận chàng vào làm.",
+        "Có bác thợ may ghé chơi, kể rằng sáng nay hai cô công chúa lớn làm lễ cưới,",
+        "vừa bước tới thì sàn gỗ sụt xuống, hai chú rể rơi tọt xuống hầm.",
+        "Nhà vua đành hoãn cưới,",
+        "truyền rằng ai làm được ba chiếc vương miện như của hai cô chị thì được cưới công chúa út.",
+        "Chàng bảo bác thợ rèn xin vào cung vàng, bạc, đồng, mỗi thứ một ít.",
+        "Sáng ra, chàng mở cửa, trên tay là ba chiếc vương miện sáng lấp lánh."
+      ],
+      "image": {
+        "prompt": "inside a warm village forge at dawn a young man in a ragged cloak holding up three shining nested crowns of gold, silver and copper, a surprised blacksmith and curious neighbours at the door",
+        "seed": 1010708984,
+        "character": "hoang-tu-ut"
+      },
+      "video": {
+        "motionPrompt": "sparks drift from the forge, the crowns glitter, the neighbours lean in and gasp with delight",
+        "seed": 83037137
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-xe-cua-chu-re",
+      "title": "Cỗ xe của chú rể",
+      "narrator": "ke-chuyen",
+      "narration": "Cô út vừa nhìn đã nhận ra bộ vương miện của mình: “Con sẽ lấy người làm ra những chiếc vương miện này.” Nhà vua sai chàng hoàng tử cả mang xe ra lò rèn đón chú rể. Chàng ta nói năng hống hách. Trên đường, chàng hiền mở hộp, xin ông Bảy Tấc cho mình về lò rèn và để xe chất đầy đá. Tới sân cung điện, nhà vua mở cửa xe, đá cuội đổ ào xuống làm ông ngã lăn ra. Lần sau sai chàng thứ hai, cũng hống hách y như thế, và lần này bùn đổ ào xuống. Nhà vua thở dài, tự thân ra lò rèn mời chú rể. Giữa đường, chàng mở hộp lần cuối, xin được ăn mặc đúng như một hoàng tử. Ông Bảy Tấc dặn: “Cứ tốt bụng như xưa và thương vợ, thế là đủ.” Rồi ông biến mất. Cửa xe mở ra, chàng bước xuống lộng lẫy, chạy tới ôm lấy cô dâu. Ba đám cưới diễn ra cùng một ngày, và đôi vợ chồng út sống hạnh phúc bên nhà vua già mãi về sau.",
+      "subtitles": [
+        "Cô út vừa nhìn đã nhận ra bộ vương miện của mình:",
+        "“Con sẽ lấy người làm ra những chiếc vương miện này.”",
+        "Nhà vua sai chàng hoàng tử cả mang xe ra lò rèn đón chú rể. Chàng ta nói năng hống hách.",
+        "Trên đường, chàng hiền mở hộp, xin ông Bảy Tấc cho mình về lò rèn và để xe chất đầy đá.",
+        "Tới sân cung điện, nhà vua mở cửa xe, đá cuội đổ ào xuống làm ông ngã lăn ra.",
+        "Lần sau sai chàng thứ hai, cũng hống hách y như thế, và lần này bùn đổ ào xuống.",
+        "Nhà vua thở dài, tự thân ra lò rèn mời chú rể.",
+        "Giữa đường, chàng mở hộp lần cuối, xin được ăn mặc đúng như một hoàng tử.",
+        "Ông Bảy Tấc dặn: “Cứ tốt bụng như xưa và thương vợ, thế là đủ.” Rồi ông biến mất.",
+        "Cửa xe mở ra, chàng bước xuống lộng lẫy, chạy tới ôm lấy cô dâu.",
+        "Ba đám cưới diễn ra cùng một ngày,",
+        "và đôi vợ chồng út sống hạnh phúc bên nhà vua già mãi về sau."
+      ],
+      "image": {
+        "prompt": "a joyful royal wedding in a castle courtyard, a handsome prince in fine clothes stepping out of a golden carriage toward the youngest princess wearing three nested crowns, the king smiling, a tiny wizard waving from the carriage roof",
+        "seed": 268122878,
+        "character": "hoang-tu-ut"
+      },
+      "video": {
+        "motionPrompt": "the carriage door swings open, the prince runs to embrace his bride, petals and confetti flutter, the tiny wizard fades away in sparkles",
+        "seed": 252700226
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Scottish folk fairy tale music, Celtic harp, tin whistle and soft fiddle, a misty mysterious opening, a lively galloping chase in the middle, a warm joyful wedding reel at the end, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1956941314
+  }
+}

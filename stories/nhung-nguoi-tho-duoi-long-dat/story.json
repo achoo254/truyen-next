@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "slug": "nhung-nguoi-tho-duoi-long-dat",
+  "shelf": "world",
+  "title": "Những người thợ dưới lòng đất",
+  "summary": "Lạc giữa bão tuyết cuối năm, bác nông dân Hans được một người lạ dẫn tới đống lửa ấm giữa mùa đông, rồi xuống tận lò rèn của những người thợ tí hon dưới lòng đất, nơi cất giữ vàng bạc của cả thế gian. Vì sao vàng chỉ lên mặt đất từng chút một? Truyện dân gian Estonia trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "than-thoai",
+    "thien-nhien",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Underground Workers\" trong The Violet Fairy Book do Andrew Lang biên tập (1901; Lang chép từ tập truyện dân gian Estonia), Project Gutenberg #641, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Estonia, Andrew Lang chép (1901)",
+  "style": "classic Northern European fairy tale picture book illustration, snowy Estonian moorland with juniper bushes, a magical summer circle around a campfire in winter, a glowing underground forge full of tiny big-headed smiths, treasure halls of gold and silver bars, warm firelight against cold blue snow, colors of ember orange, gold, snowy blue and pine green, cozy wondrous mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hans",
+      "name": "Hans",
+      "sheetPrompt": "a sturdy honest Estonian peasant man from a folk tale, round friendly face, fair stubbly beard, woolly hat, thick sheepskin coat tied with a belt, felt boots, full body, front and side views, plain light background, character reference sheet",
+      "seed": 106371126
+    },
+    {
+      "id": "chua-long-dat",
+      "name": "Chúa tể lòng đất",
+      "sheetPrompt": "a tall thin mysterious lord of the underground from an Estonian folk tale, long face, kind sharp eyes, first in a plain black jerkin holding a young fir tree as a staff, also shown in a flame-colored silk robe with golden crown and golden staff, full body, front and side views, plain light background, character reference sheet",
+      "seed": 165295989
+    },
+    {
+      "id": "tho-ren",
+      "name": "Thợ rèn tí hon",
+      "sheetPrompt": "a comical tiny blacksmith from an Estonian folk tale, very big head on a small body, long leather apron, holding a hammer twice his size, cheerful busy face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1408781647
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dem-bao-tuyet",
+      "title": "Đêm bão tuyết",
+      "narrator": "ke-chuyen",
+      "narration": "Một đêm giá buốt giữa lễ Giáng sinh và năm mới, có một bác nông dân đi bộ sang làng bên. Đường chẳng xa, nhưng tuyết dày đến nỗi chẳng còn thấy đường, tường hay hàng rào nào nữa. Bác lạc lối, đành nép sau một bụi bách xù rậm, định ngủ qua đêm chờ trời sáng. Bác co chân như con nhím, cuộn mình trong áo da cừu, rồi ngủ thiếp đi. Chẳng biết bao lâu sau, có người khẽ lay bác: “Bác ơi, dậy đi! Nằm đây nữa thì tuyết vùi mất, chẳng ai tìm thấy đâu.” Trước mặt bác là một người cao gầy, tay cầm một cây thông non cao hơn cả người.",
+      "subtitles": [
+        "Một đêm giá buốt giữa lễ Giáng sinh và năm mới, có một bác nông dân đi bộ sang làng bên.",
+        "Đường chẳng xa, nhưng tuyết dày đến nỗi chẳng còn thấy đường, tường hay hàng rào nào nữa.",
+        "Bác lạc lối, đành nép sau một bụi bách xù rậm, định ngủ qua đêm chờ trời sáng.",
+        "Bác co chân như con nhím, cuộn mình trong áo da cừu, rồi ngủ thiếp đi.",
+        "Chẳng biết bao lâu sau, có người khẽ lay bác: “Bác ơi, dậy đi!",
+        "Nằm đây nữa thì tuyết vùi mất, chẳng ai tìm thấy đâu.”",
+        "Trước mặt bác là một người cao gầy, tay cầm một cây thông non cao hơn cả người."
+      ],
+      "image": {
+        "prompt": "a snowy night on an open moor, a peasant curled up in a sheepskin coat behind a thick juniper bush, a tall thin stranger holding a young fir tree as a staff gently shaking his shoulder, snowflakes swirling",
+        "seed": 1847091725,
+        "character": "hans"
+      },
+      "video": {
+        "motionPrompt": "snow swirls around them, the peasant slowly lifts his head and blinks, the stranger smiles and beckons",
+        "seed": 3077958329
+      },
+      "voice": {}
+    },
+    {
+      "id": "dong-lua-giua-mua-dong",
+      "title": "Đống lửa giữa mùa đông",
+      "narrator": "ke-chuyen",
+      "narration": "“Đi theo tôi, gần đây có đống lửa lớn, bác nghỉ ở đó ấm hơn.” Người lạ vung cây gậy, tuyết rẽ ra hai bên thành lối đi. Chẳng mấy chốc họ tới một khu rừng có ánh lửa hồng. “Bác tên gì?” “Tôi là Hans, con của Hans Cao.” Quanh đống lửa có ba người mặc áo trắng như đang mùa hè. Trong một vòng rộng chừng mười bước chân, mùa đông biến mất: rêu khô ráo, cây cỏ xanh tươi, ong và bọ cánh cứng bay vo ve. Vậy mà bên ngoài vẫn nghe gió rít và cành cây gãy vì tuyết. Hans uống một bát nước nóng, gối đầu lên áo da cừu, nghe họ nói một thứ tiếng lạ, rồi lại ngủ thiếp đi.",
+      "subtitles": [
+        "“Đi theo tôi, gần đây có đống lửa lớn, bác nghỉ ở đó ấm hơn.”",
+        "Người lạ vung cây gậy, tuyết rẽ ra hai bên thành lối đi.",
+        "Chẳng mấy chốc họ tới một khu rừng có ánh lửa hồng. “Bác tên gì?”",
+        "“Tôi là Hans, con của Hans Cao.” Quanh đống lửa có ba người mặc áo trắng như đang mùa hè.",
+        "Trong một vòng rộng chừng mười bước chân, mùa đông biến mất: rêu khô ráo,",
+        "cây cỏ xanh tươi, ong và bọ cánh cứng bay vo ve.",
+        "Vậy mà bên ngoài vẫn nghe gió rít và cành cây gãy vì tuyết.",
+        "Hans uống một bát nước nóng, gối đầu lên áo da cừu, nghe họ nói một thứ tiếng lạ,",
+        "rồi lại ngủ thiếp đi."
+      ],
+      "image": {
+        "prompt": "a magical circle of summer in a snowy forest at night, green grass, flowers and buzzing bees around a warm campfire, three men in white summer clothes sitting by it, a peasant in a sheepskin coat staring in wonder, snow falling just outside the circle",
+        "seed": 1166955487,
+        "character": "chua-long-dat"
+      },
+      "video": {
+        "motionPrompt": "the fire crackles, bees buzz in the warm circle, snowflakes melt as they touch its edge, the peasant pulls off his coat smiling",
+        "seed": 642090697
+      },
+      "voice": {}
+    },
+    {
+      "id": "lo-ren-duoi-long-dat",
+      "title": "Lò rèn dưới lòng đất",
+      "narrator": "ke-chuyen",
+      "narration": "Tỉnh dậy, rừng và lửa đều biến mất. Bỗng một tiếng ầm vang lên, đất rung dưới chân. Hans lần theo tiếng động, tới cửa một hang đá rực lửa. Bên trong là một lò rèn khổng lồ, đông nghịt thợ đang thổi bễ, quai búa, mỗi cái đe có bảy người. Khắp thế gian chẳng đâu có những người thợ rèn ngộ nghĩnh thế: đầu to hơn cả thân, búa to gấp đôi người, vậy mà đập khoẻ hơn cả những người khoẻ nhất trên đời. Trên chiếc ghế cao sát vách, người cầm gậy thông hôm qua ngồi trông thợ, giờ mặc áo chẽn đen, thỉnh thoảng giơ gậy ra hiệu, vì ồn quá chẳng ai nghe được tiếng nói.",
+      "subtitles": [
+        "Tỉnh dậy, rừng và lửa đều biến mất. Bỗng một tiếng ầm vang lên, đất rung dưới chân.",
+        "Hans lần theo tiếng động, tới cửa một hang đá rực lửa.",
+        "Bên trong là một lò rèn khổng lồ, đông nghịt thợ đang thổi bễ, quai búa,",
+        "mỗi cái đe có bảy người.",
+        "Khắp thế gian chẳng đâu có những người thợ rèn ngộ nghĩnh thế: đầu to hơn cả thân,",
+        "búa to gấp đôi người, vậy mà đập khoẻ hơn cả những người khoẻ nhất trên đời.",
+        "Trên chiếc ghế cao sát vách, người cầm gậy thông hôm qua ngồi trông thợ,",
+        "giờ mặc áo chẽn đen, thỉnh thoảng giơ gậy ra hiệu, vì ồn quá chẳng ai nghe được tiếng nói."
+      ],
+      "image": {
+        "prompt": "a huge glowing underground forge in a rocky cave, crowds of comical tiny blacksmiths with very big heads and long leather aprons hammering at anvils with enormous hammers, sparks flying, a tall thin man in a black jerkin watching from a high stool",
+        "seed": 2426011613,
+        "character": "tho-ren"
+      },
+      "video": {
+        "motionPrompt": "hammers rise and fall in rhythm, bright sparks fly, the bellows puff, the master taps his staff",
+        "seed": 1993680511
+      },
+      "voice": {}
+    },
+    {
+      "id": "kho-vang-bac",
+      "title": "Kho vàng bạc",
+      "narrator": "ke-chuyen",
+      "narration": "Hết giờ làm, thợ ném búa xuống, kéo nhau ra ngoài. Người chủ bước xuống, mời Hans làm khách, rồi mở một cánh cửa trong hang. Ôi, vàng thỏi bạc thỏi chất đầy sàn, sáng loá cả mắt! Hans đếm cho vui, tới năm trăm bảy mươi thì chủ nhà cười: “Đếm làm gì cho mệt, bác cứ chọn vài thỏi, tôi tặng.” Hans cúi xuống nhấc một thỏi vàng, nhưng dùng hết sức hai tay cũng không nhích nổi. Họ đi qua những gian khác, có gian rộng hơn cả nhà thờ, đầy vàng bạc. Hans hỏi: “Sao ông cất của cải ở đây, chẳng ai được nhờ? Đem lên mặt đất thì ai cũng giàu, chẳng ai phải làm lụng hay đói khổ nữa.” Chủ nhà đáp: “Chính vì thế mà tôi phải giữ nó. Nếu người ta không phải tự làm ra miếng ăn, cả thế gian sẽ lười biếng. Tôi không phải người. Tôi cùng các thợ được giao chăm lo thế gian, chuẩn bị vàng bạc dưới lòng đất, mỗi năm chỉ đưa lên một ít, trộn vào đất cát. Ai chịu khó tìm, hay gặp may, mới thấy được.”",
+      "subtitles": [
+        "Hết giờ làm, thợ ném búa xuống, kéo nhau ra ngoài.",
+        "Người chủ bước xuống, mời Hans làm khách, rồi mở một cánh cửa trong hang.",
+        "Ôi, vàng thỏi bạc thỏi chất đầy sàn, sáng loá cả mắt!",
+        "Hans đếm cho vui, tới năm trăm bảy mươi thì chủ nhà cười: “Đếm làm gì cho mệt,",
+        "bác cứ chọn vài thỏi, tôi tặng.”",
+        "Hans cúi xuống nhấc một thỏi vàng, nhưng dùng hết sức hai tay cũng không nhích nổi.",
+        "Họ đi qua những gian khác, có gian rộng hơn cả nhà thờ, đầy vàng bạc.",
+        "Hans hỏi: “Sao ông cất của cải ở đây, chẳng ai được nhờ?",
+        "Đem lên mặt đất thì ai cũng giàu, chẳng ai phải làm lụng hay đói khổ nữa.”",
+        "Chủ nhà đáp: “Chính vì thế mà tôi phải giữ nó.",
+        "Nếu người ta không phải tự làm ra miếng ăn, cả thế gian sẽ lười biếng.",
+        "Tôi không phải người.",
+        "Tôi cùng các thợ được giao chăm lo thế gian, chuẩn bị vàng bạc dưới lòng đất,",
+        "mỗi năm chỉ đưa lên một ít, trộn vào đất cát.",
+        "Ai chịu khó tìm, hay gặp may, mới thấy được.”"
+      ],
+      "image": {
+        "prompt": "an enormous underground treasure hall bigger than a church, stacks of gleaming gold and silver bars piled to the ceiling, a peasant in a sheepskin coat straining to lift one gold bar with both hands, the tall host laughing kindly",
+        "seed": 1640293636,
+        "character": "hans"
+      },
+      "video": {
+        "motionPrompt": "gold bars glitter, the peasant pulls with all his strength and the bar does not budge, the host chuckles and shakes his head",
+        "seed": 2689511550
+      },
+      "voice": {}
+    },
+    {
+      "id": "bua-tiec-bang-vang",
+      "title": "Bữa tiệc bằng vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Lát sau chủ nhà trở lại, khác hẳn: áo lụa màu lửa viền tua vàng, thắt lưng vàng, đầu đội vương miện vàng nạm ngọc lấp lánh như sao đêm đông, tay cầm gậy vàng. Ông dẫn Hans vào phòng ăn: bàn ghế bằng bạc, bát đĩa bằng vàng. Một tá người hầu tí hon chạy tới phục vụ, nhanh như có cánh. Thấp quá không với tới bàn, chúng phải nhảy phốc lên mặt bàn mới lấy được món ăn. Chủ nhà kể: “Dịp cuối năm, tôi hay đi dạo trên mặt đất xem người ta sống ra sao. Phần đông chỉ cãi nhau, trách lỗi người khác, chẳng ai nghĩ đến lỗi mình.” Hans muốn cãi mà chẳng biết nói gì, ngồi im, rồi ngủ quên trên ghế.",
+      "subtitles": [
+        "Lát sau chủ nhà trở lại, khác hẳn: áo lụa màu lửa viền tua vàng, thắt lưng vàng,",
+        "đầu đội vương miện vàng nạm ngọc lấp lánh như sao đêm đông, tay cầm gậy vàng.",
+        "Ông dẫn Hans vào phòng ăn: bàn ghế bằng bạc, bát đĩa bằng vàng.",
+        "Một tá người hầu tí hon chạy tới phục vụ, nhanh như có cánh.",
+        "Thấp quá không với tới bàn, chúng phải nhảy phốc lên mặt bàn mới lấy được món ăn.",
+        "Chủ nhà kể: “Dịp cuối năm, tôi hay đi dạo trên mặt đất xem người ta sống ra sao.",
+        "Phần đông chỉ cãi nhau, trách lỗi người khác, chẳng ai nghĩ đến lỗi mình.”",
+        "Hans muốn cãi mà chẳng biết nói gì, ngồi im, rồi ngủ quên trên ghế."
+      ],
+      "image": {
+        "prompt": "a dazzling underground dining room with silver table and chairs and golden plates, a tall lord in a flame-colored silk robe and golden crown with jewels, tiny servants hopping onto the table to carry dishes, a sleepy peasant guest",
+        "seed": 2155580234,
+        "character": "chua-long-dat"
+      },
+      "video": {
+        "motionPrompt": "tiny servants hop and scurry with dishes, jewels on the crown twinkle, the peasant nods off slowly in his chair",
+        "seed": 4294847916
+      },
+      "voice": {}
+    },
+    {
+      "id": "tro-than-bang-bac",
+      "title": "Tro than bằng bạc",
+      "narrator": "ke-chuyen",
+      "narration": "Hans mơ thấy mình khoẻ lạ thường, vác hai thỏi vàng một lúc, vác mãi đến kiệt sức. Rồi bác nghe tiếng thợ rèn hát, thấy cả tia lửa bay. Bác vươn vai tỉnh dậy, thì thấy mình đang nằm trong rừng xanh, nắng hè chiếu rực rỡ. Bác ngẩn ngơ chẳng hiểu sao mùa đông đã thành mùa hè. Bên cạnh có dấu một đống lửa đã tàn. Lại gần, bác thấy tro hoá ra là bụi bạc mịn, còn mấy que củi cháy dở là vàng ròng. Hans cởi áo da cừu, gom hết tro bạc vào, xếp que vàng lên trên, buộc chặt bằng thắt lưng, rồi tìm chỗ giấu kỹ. Thế là Hans bỗng giàu có. Bác dọn tới một vùng xa, mua được ruộng vườn, cưới một cô gái xinh xắn, có con có cháu. Khi về già, bác kể cho con cháu nghe về chúa tể lòng đất đã cho bác giàu có thế nào.",
+      "subtitles": [
+        "Hans mơ thấy mình khoẻ lạ thường, vác hai thỏi vàng một lúc, vác mãi đến kiệt sức.",
+        "Rồi bác nghe tiếng thợ rèn hát, thấy cả tia lửa bay.",
+        "Bác vươn vai tỉnh dậy, thì thấy mình đang nằm trong rừng xanh, nắng hè chiếu rực rỡ.",
+        "Bác ngẩn ngơ chẳng hiểu sao mùa đông đã thành mùa hè. Bên cạnh có dấu một đống lửa đã tàn.",
+        "Lại gần, bác thấy tro hoá ra là bụi bạc mịn, còn mấy que củi cháy dở là vàng ròng.",
+        "Hans cởi áo da cừu, gom hết tro bạc vào, xếp que vàng lên trên, buộc chặt bằng thắt lưng,",
+        "rồi tìm chỗ giấu kỹ. Thế là Hans bỗng giàu có.",
+        "Bác dọn tới một vùng xa, mua được ruộng vườn, cưới một cô gái xinh xắn, có con có cháu.",
+        "Khi về già, bác kể cho con cháu nghe về chúa tể lòng đất đã cho bác giàu có thế nào."
+      ],
+      "image": {
+        "prompt": "a sunny green summer forest clearing, a peasant man kneeling by the remains of a campfire where the ashes sparkle like fine silver dust and the half-burnt sticks are pure gold, he gathers them into his sheepskin coat",
+        "seed": 1880673741,
+        "character": "hans"
+      },
+      "video": {
+        "motionPrompt": "sunlight sparkles on the silver ashes, the man scoops them carefully into his coat and laughs with joy",
+        "seed": 3307905487
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "mysterious and warm Estonian folk melody, kannel zither, soft wooden flute, low strings and gentle anvil chimes, a cold snowy opening, a rhythmic hammering forge theme and a sunny peaceful ending, instrumental, no vocals",
+    "durationSeconds": 140,
+    "seed": 3559463684
+  }
+}

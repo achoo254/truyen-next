@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "slug": "cao-va-bac-tieu-phu",
+  "shelf": "world",
+  "title": "Cáo và bác tiều phu",
+  "summary": "Bị thợ săn đuổi, con cáo xin bác tiều phu cho trốn trong lều. Bác hứa giữ bí mật bằng lời nói, nhưng ngón tay lại chỉ về phía chiếc lều. Ngụ ngôn Aesop về lời nói và việc làm phải đi đôi với nhau.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, truyện «The Fox and the Woodcutter», Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, an autumn forest edge with a woodcutter's small thatched hut, stacked logs and golden falling leaves, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cao",
+      "name": "Cáo",
+      "seed": 3925297972,
+      "sheetPrompt": "a slim orange fox with a bushy white-tipped tail, sharp clever eyes, tired and nervous, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bac-tieu-phu",
+      "name": "Bác tiều phu",
+      "seed": 2240666562,
+      "sheetPrompt": "a burly bearded woodcutter with a woollen cap, a checked brown tunic, a leather belt and a small hand axe for chopping logs, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "bi-duoi",
+      "title": "Bị đuổi theo",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một con cáo đang chạy thục mạng qua bìa rừng. Phía sau vang lên tiếng tù và và tiếng chó sủa của đoàn thợ săn. Đôi chân nó đã mỏi rã rời, cái đuôi xù dính đầy lá khô. Thấy bác tiều phu đang bổ củi trước lều, cáo hổn hển van nài: “Bác ơi, cứu cháu với! Cho cháu nấp nhờ một chút thôi ạ!”",
+      "subtitles": [
+        "Ngày xưa, có một con cáo đang chạy thục mạng qua bìa rừng.",
+        "Phía sau vang lên tiếng tù và và tiếng chó sủa của đoàn thợ săn.",
+        "Đôi chân nó đã mỏi rã rời, cái đuôi xù dính đầy lá khô.",
+        "Thấy bác tiều phu đang bổ củi trước lều, cáo hổn hển van nài:",
+        "“Bác ơi, cứu cháu với! Cho cháu nấp nhờ một chút thôi ạ!”"
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "a breathless fox running out of an autumn forest toward a woodcutter chopping logs in front of a small thatched hut, falling golden leaves",
+        "seed": 4250768252
+      },
+      "video": {
+        "motionPrompt": "the fox dashes across the leaves and skids to a stop, the woodcutter pauses mid-swing and looks down",
+        "seed": 3826663561
+      },
+      "voice": {}
+    },
+    {
+      "id": "nap-trong-leu",
+      "title": "Nấp trong lều",
+      "narrator": "ke-chuyen",
+      "narration": "Bác tiều phu chỉ vào chiếc lều nhỏ: “Vào đó mà nấp. Ta không nói với ai đâu.” Cáo cảm ơn rối rít, chui tọt vào lều, cuộn tròn sau đống rơm. Vừa lúc ấy, đoàn thợ săn kéo tới, hỏi bác có thấy con cáo nào chạy qua không.",
+      "subtitles": [
+        "Bác tiều phu chỉ vào chiếc lều nhỏ: “Vào đó mà nấp. Ta không nói với ai đâu.”",
+        "Cáo cảm ơn rối rít, chui tọt vào lều, cuộn tròn sau đống rơm.",
+        "Vừa lúc ấy, đoàn thợ săn kéo tới, hỏi bác có thấy con cáo nào chạy qua không."
+      ],
+      "image": {
+        "character": "bac-tieu-phu",
+        "prompt": "a woodcutter pointing to his little thatched hut while a fox slips through the door, hunters with horns and hounds appearing at the edge of the forest",
+        "seed": 89284405
+      },
+      "video": {
+        "motionPrompt": "the fox slips into the hut and curls behind the straw, hunters stride out of the trees, hounds sniff the ground",
+        "seed": 1863155869
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngon-tay-chi",
+      "title": "Lời một đằng, tay một nẻo",
+      "narrator": "ke-chuyen",
+      "narration": "Bác tiều phu lắc đầu: “Không, tôi chẳng thấy con nào cả.” Nhưng vừa nói, bác vừa lén giơ ngón tay chỉ về phía chiếc lều. Cáo trong lều nín thở, tim đập thình thịch. May sao, đám thợ săn chỉ nghe lời bác mà chẳng để ý đến ngón tay. Họ cảm ơn rồi thúc ngựa đi tiếp.",
+      "subtitles": [
+        "Bác tiều phu lắc đầu: “Không, tôi chẳng thấy con nào cả.”",
+        "Nhưng vừa nói, bác vừa lén giơ ngón tay chỉ về phía chiếc lều.",
+        "Cáo trong lều nín thở, tim đập thình thịch.",
+        "May sao, đám thợ săn chỉ nghe lời bác mà chẳng để ý đến ngón tay.",
+        "Họ cảm ơn rồi thúc ngựa đi tiếp."
+      ],
+      "image": {
+        "character": "bac-tieu-phu",
+        "prompt": "a woodcutter shaking his head at the hunters while secretly pointing one finger toward his hut behind his back, the hunters not noticing",
+        "seed": 491925115
+      },
+      "video": {
+        "motionPrompt": "the woodcutter shakes his head while his finger sneakily points at the hut, the hunters turn and ride away",
+        "seed": 3132971874
+      },
+      "voice": {}
+    },
+    {
+      "id": "cao-ra-di",
+      "title": "Cáo lặng lẽ ra đi",
+      "narrator": "ke-chuyen",
+      "narration": "Khi tiếng chó sủa đã xa, cáo chui ra khỏi lều, cứ thế đi thẳng, chẳng nói một lời. Bác tiều phu ngạc nhiên lắm, nhìn theo mãi. Bác tiều phu gọi giật lại: “Này, ta vừa cứu mạng ngươi, sao một câu cảm ơn cũng không có?”",
+      "subtitles": [
+        "Khi tiếng chó sủa đã xa, cáo chui ra khỏi lều, cứ thế đi thẳng, chẳng nói một lời.",
+        "Bác tiều phu ngạc nhiên lắm, nhìn theo mãi.",
+        "Bác tiều phu gọi giật lại: “Này, ta vừa cứu mạng ngươi, sao một câu cảm ơn cũng không có?”"
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "a fox walking away from the hut without looking back, the woodcutter calling after it with his hands on his hips",
+        "seed": 3718131476
+      },
+      "video": {
+        "motionPrompt": "the fox trots away through the falling leaves, the woodcutter puts his hands on his hips and calls out",
+        "seed": 1136467121
+      },
+      "voice": {}
+    },
+    {
+      "id": "tra-loi",
+      "title": "Câu trả lời của cáo",
+      "narrator": "ke-chuyen",
+      "narration": "Cáo quay lại, đáp: “Cháu đã định cảm ơn bác rồi. Nhưng cháu đứng trong lều, nhìn qua khe cửa, thấy rõ cả ngón tay của bác. Giá như việc bác làm cũng tốt như lời bác nói.” Bác tiều phu đỏ mặt, cúi đầu không đáp được. Các bạn nhỏ ạ, lời nói đẹp mà việc làm không đi cùng thì chẳng ai tin được.",
+      "subtitles": [
+        "Cáo quay lại, đáp: “Cháu đã định cảm ơn bác rồi.",
+        "Nhưng cháu đứng trong lều, nhìn qua khe cửa, thấy rõ cả ngón tay của bác.",
+        "Giá như việc bác làm cũng tốt như lời bác nói.”",
+        "Bác tiều phu đỏ mặt, cúi đầu không đáp được.",
+        "Các bạn nhỏ ạ, lời nói đẹp mà việc làm không đi cùng thì chẳng ai tin được."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "a fox looking back over its shoulder speaking calmly, the woodcutter blushing and looking at his own pointing finger, golden autumn light",
+        "seed": 3649733893
+      },
+      "video": {
+        "motionPrompt": "the fox speaks and turns away, the woodcutter looks down at his finger and blushes, leaves drift down around them",
+        "seed": 1678933133
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "autumn forest storybook music, acoustic guitar and recorder, distant hunting horn calls, a quick nervous chase theme, a thoughtful quiet cello ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3201421381
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-tho-con-cho-va-con-meo",
+  "shelf": "kids",
+  "title": "Con thỏ, con chó và con mèo",
+  "summary": "Chú thỏ trắng xổ lồng trốn về rừng, ông chủ trách chó, chó đi hỏi mèo, mèo lại bày ra chuyện hỏi chuột. Rốt cuộc mèo chỉ lo đuổi chuột, chó đứng ngẩn ra mà thỏ vẫn biệt tăm. Truyện cổ Việt Nam vui nhộn, kể nhẹ cho bé.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Con thỏ, con chó và con mèo» (số chín mươi) trong Truyện cổ nước Nam, quyển Muông chim (1934) của Ôn Như Nguyễn Văn Ngọc, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: ông chủ chỉ mắng, không dọa đánh; mèo chỉ đuổi chuột chạy tán loạn chứ không ăn chuột. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, a cozy thatched farmhouse with a bamboo yard, a rice granary basket and a green forest edge, warm gentle light, rounded friendly shapes, calm and playful mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 689224059,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "tho",
+      "name": "Chú thỏ",
+      "seed": 4249267750,
+      "sheetPrompt": "a small fluffy white rabbit with long ears, pink nose and bright curious eyes, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cho",
+      "name": "Chú chó",
+      "seed": 1473204356,
+      "sheetPrompt": "a loyal yellow Vietnamese village dog with floppy ears and a worried honest face, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "meo",
+      "name": "Anh mèo mướp",
+      "seed": 3439766890,
+      "sheetPrompt": "a sly striped tabby cat with a long tail and a sweet talking smile, cute, not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-chu",
+      "name": "Ông chủ",
+      "seed": 263609585,
+      "sheetPrompt": "a kind middle-aged Vietnamese farmer in brown clothes and a cone hat, round friendly face, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có biết không, nhà Miu cũng có một anh chó giữ nhà và một chú thỏ trắng đấy. Hôm nay Miu kể chuyện ngày xưa, về một chú thỏ trốn mất, một anh chó đi tìm, và một anh mèo nói khéo ơi là khéo. Thử đoán xem cuối cùng ai tìm được thỏ nhé! Mình cùng nghe nào!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn có biết không, nhà Miu cũng có một anh chó giữ nhà và một chú thỏ trắng đấy.",
+        "Hôm nay Miu kể chuyện ngày xưa, về một chú thỏ trốn mất, một anh chó đi tìm,",
+        "và một anh mèo nói khéo ơi là khéo. Thử đoán xem cuối cùng ai tìm được thỏ nhé!",
+        "Mình cùng nghe nào!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits in a bamboo yard beside an empty little rabbit cage, a yellow dog sniffs the ground and a striped cat peeks from behind a rice basket",
+        "seed": 448710731
+      },
+      "video": {
+        "motionPrompt": "the cat points at the empty cage and shrugs playfully, the dog sniffs around, the striped cat blinks, leaves rustle, slow camera push-in",
+        "seed": 3939672072
+      },
+      "voice": {}
+    },
+    {
+      "id": "tho-tron",
+      "title": "Thỏ trắng xổ lồng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, thỏ sống ở trên rừng, chẳng ai bắt được. Mãi sau có một ông dắt chó lên rừng, bắt được một chú thỏ trắng đem về nuôi trong lồng tre. Thỏ nhớ rừng lắm. Một hôm ông chủ đi vắng, thỏ lấy hàm răng sắc gặm mãi, gặm mãi, cho đến khi nan lồng đứt ra. Thỏ lách mình chui qua, nhảy một mạch về rừng xanh.",
+      "subtitles": [
+        "Ngày xưa, thỏ sống ở trên rừng, chẳng ai bắt được.",
+        "Mãi sau có một ông dắt chó lên rừng,",
+        "bắt được một chú thỏ trắng đem về nuôi trong lồng tre.",
+        "Thỏ nhớ rừng lắm. Một hôm ông chủ đi vắng, thỏ lấy hàm răng sắc gặm mãi, gặm mãi,",
+        "cho đến khi nan lồng đứt ra. Thỏ lách mình chui qua, nhảy một mạch về rừng xanh."
+      ],
+      "image": {
+        "character": "tho",
+        "prompt": "a fluffy white rabbit squeezes out of a small bamboo cage with a gnawed gap, then hops happily toward the green forest edge, the farmyard quiet in the afternoon",
+        "seed": 960022408
+      },
+      "video": {
+        "motionPrompt": "the rabbit nibbles the bamboo bar, wiggles through the gap and bounds away toward the trees, its ears bouncing, leaves sway",
+        "seed": 831811273
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-chu-mang",
+      "title": "Ông chủ trách chó",
+      "narrator": "ke-chuyen",
+      "narration": "Ông chủ về nhà, thấy lồng trống trơn, liền hỏi cả nhà: Ai thả thỏ của tôi đi đâu? Chẳng ai biết cả. Ông bèn gọi chó ra mắng: Mày giữ nhà giữ cửa, sao để mất thỏ? Hay mày ăn thỏ của tao rồi? Chó cuống quýt vẫy đuôi thưa: Ông ơi, con không biết, con cũng chẳng ăn đâu! Chắc là anh mèo đấy. Để con đi tìm anh ấy hỏi cho ra lẽ.",
+      "subtitles": [
+        "Ông chủ về nhà, thấy lồng trống trơn, liền hỏi cả nhà: Ai thả thỏ của tôi đi đâu?",
+        "Chẳng ai biết cả. Ông bèn gọi chó ra mắng: Mày giữ nhà giữ cửa, sao để mất thỏ?",
+        "Hay mày ăn thỏ của tao rồi?",
+        "Chó cuống quýt vẫy đuôi thưa: Ông ơi, con không biết, con cũng chẳng ăn đâu!",
+        "Chắc là anh mèo đấy. Để con đi tìm anh ấy hỏi cho ra lẽ."
+      ],
+      "image": {
+        "character": "cho",
+        "prompt": "the farmer in a cone hat stands with hands on hips by the empty rabbit cage, scolding the worried yellow dog who wags his tail and shakes his head",
+        "seed": 2506030968
+      },
+      "video": {
+        "motionPrompt": "the farmer points at the empty cage, the dog lowers his ears then lifts his head bravely and trots off, chickens wander past",
+        "seed": 3854361031
+      },
+      "voice": {}
+    },
+    {
+      "id": "meo-noi-kheo",
+      "title": "Anh mèo nói khéo",
+      "narrator": "ke-chuyen",
+      "narration": "Chó tìm thấy mèo đang nằm phơi nắng trên mái bếp. Chó sủa: Này anh mèo, con thỏ trong nhà, anh có bắt không? Mau trả lại cho ông! Mèo vươn vai cãi: Tôi nào có bắt! Thỏ ở trong lồng, tôi bắt sao được? Răng thỏ sắc lắm, chắc nó tự gặm lồng mà trốn đi xa rồi. Nhưng anh chuột trong bồ thóc vốn quen thỏ, chắc chuột biết thỏ ở đâu. Anh vào bồ lùa chuột ra đây, tôi đứng ngoài tôi hỏi cho.",
+      "subtitles": [
+        "Chó tìm thấy mèo đang nằm phơi nắng trên mái bếp.",
+        "Chó sủa: Này anh mèo, con thỏ trong nhà, anh có bắt không?",
+        "Mau trả lại cho ông! Mèo vươn vai cãi: Tôi nào có bắt!",
+        "Thỏ ở trong lồng, tôi bắt sao được?",
+        "Răng thỏ sắc lắm, chắc nó tự gặm lồng mà trốn đi xa rồi.",
+        "Nhưng anh chuột trong bồ thóc vốn quen thỏ, chắc chuột biết thỏ ở đâu.",
+        "Anh vào bồ lùa chuột ra đây, tôi đứng ngoài tôi hỏi cho."
+      ],
+      "image": {
+        "character": "meo",
+        "prompt": "a striped tabby cat lounges on a sunny kitchen roof, talking sweetly to the yellow dog below, pointing a paw toward a big round bamboo rice granary",
+        "seed": 2422112911
+      },
+      "video": {
+        "motionPrompt": "the cat stretches and waves her paw as she talks, the dog listens and nods, then turns to look at the rice granary, sunlight flickers",
+        "seed": 1154104968
+      },
+      "voice": {}
+    },
+    {
+      "id": "meo-duoi-chuot",
+      "title": "Mèo chỉ lo đuổi chuột",
+      "narrator": "ke-chuyen",
+      "narration": "Chó tin ngay, chạy thẳng vào bồ thóc, sủa gâu gâu, lùa cho chuột chạy ra. Mèo thì nấp sẵn ở ngoài. Chuột vừa ló đầu, mèo đã chồm ra vồ. Chuột hoảng quá chạy vòng vòng, mèo đuổi theo vòng vòng, chẳng hỏi câu nào về thỏ cả. Chó đứng ngẩn ra mà nhìn. Hóa ra anh mèo chỉ mượn chuyện thỏ để bắt chuột thôi. Còn chú thỏ trắng thì vẫn biệt tăm trên rừng.",
+      "subtitles": [
+        "Chó tin ngay, chạy thẳng vào bồ thóc, sủa gâu gâu, lùa cho chuột chạy ra.",
+        "Mèo thì nấp sẵn ở ngoài. Chuột vừa ló đầu, mèo đã chồm ra vồ.",
+        "Chuột hoảng quá chạy vòng vòng, mèo đuổi theo vòng vòng, chẳng hỏi câu nào về thỏ cả.",
+        "Chó đứng ngẩn ra mà nhìn. Hóa ra anh mèo chỉ mượn chuyện thỏ để bắt chuột thôi.",
+        "Còn chú thỏ trắng thì vẫn biệt tăm trên rừng."
+      ],
+      "image": {
+        "character": "cho",
+        "prompt": "a little grey mouse dashes out of the bamboo rice granary, the striped cat pounces after it in a comic chase, the yellow dog stands still with a puzzled face and drooping ears",
+        "seed": 3659481168
+      },
+      "video": {
+        "motionPrompt": "the mouse zigzags across the yard and slips into a hole, the cat chases in circles, the dog blinks in confusion, rice grains scatter, comic timing",
+        "seed": 2198327416
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, anh chó thật thà nghe lời mèo ngay, thế là bị mèo lừa mất. Còn anh mèo chỉ lo phần mình, chẳng giúp ai tìm thỏ cả. Khi có người nói ngọt nhờ mình làm giúp, mình nhớ nghĩ kỹ xem họ muốn gì nhé. Còn chú thỏ trắng chắc đang vui vẻ trên rừng đấy. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, anh chó thật thà nghe lời mèo ngay, thế là bị mèo lừa mất.",
+        "Còn anh mèo chỉ lo phần mình, chẳng giúp ai tìm thỏ cả.",
+        "Khi có người nói ngọt nhờ mình làm giúp, mình nhớ nghĩ kỹ xem họ muốn gì nhé.",
+        "Còn chú thỏ trắng chắc đang vui vẻ trên rừng đấy.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the edge of a green forest, a happy white rabbit peeks out from tall grass behind her, the farmhouse small in the distance",
+        "seed": 1010051460
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the rabbit wiggles its nose and hops into the ferns, sunset light glows, gentle camera pull-back",
+        "seed": 113137377
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light playful Vietnamese folk melody, bamboo flute and dan nguyet with soft wooden clappers, curious and humorous, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3722979470
+  }
+}

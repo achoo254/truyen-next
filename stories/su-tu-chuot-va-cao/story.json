@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "slug": "su-tu-chuot-va-cao",
+  "shelf": "world",
+  "title": "Sư tử, chuột và cáo",
+  "summary": "Một chú chuột nhắt chạy tót qua bờm sư tử đang ngủ, khiến chúa sơn lâm bật dậy lùng sục khắp nơi. Cáo cười chê sư tử sợ chuột, nhưng câu trả lời của sư tử lại khác hẳn. Ngụ ngôn Aesop về phép lịch sự.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, truyện «The Lion, the Mouse, and the Fox», Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, a shady forest clearing with a mossy rock, ferns and dappled sunlight, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "su-tu",
+      "name": "Sư tử",
+      "seed": 1646717897,
+      "sheetPrompt": "a big golden lion with a thick fluffy mane, dignified and a little grumpy, storybook style, not menacing, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chuot",
+      "name": "Chuột nhắt",
+      "seed": 4199362046,
+      "sheetPrompt": "a tiny cheeky grey mouse with round pink ears, a long thin tail and a mischievous grin, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cao",
+      "name": "Cáo",
+      "seed": 73016059,
+      "sheetPrompt": "a sly orange fox with a bushy tail and a teasing smirk, comical rather than menacing, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "giac-trua",
+      "title": "Giấc ngủ trưa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một con sư tử nằm ngủ trưa dưới bóng mát của khu rừng. Gió thổi hiu hiu, sư tử ngáy khò khò, bờm xõa ra như một đám cỏ vàng. Chim chóc cũng nín tiếng, chẳng ai dám làm phiền giấc ngủ của chúa sơn lâm. Lúc ấy, một chú chuột nhắt tinh nghịch chạy ngang qua.",
+      "subtitles": [
+        "Ngày xưa, có một con sư tử nằm ngủ trưa dưới bóng mát của khu rừng.",
+        "Gió thổi hiu hiu, sư tử ngáy khò khò, bờm xõa ra như một đám cỏ vàng.",
+        "Chim chóc cũng nín tiếng, chẳng ai dám làm phiền giấc ngủ của chúa sơn lâm.",
+        "Lúc ấy, một chú chuột nhắt tinh nghịch chạy ngang qua."
+      ],
+      "image": {
+        "character": "su-tu",
+        "prompt": "a big lion sleeping peacefully on a mossy rock in a shady forest clearing, mane spread out, a tiny mouse scampering nearby among the ferns",
+        "seed": 1414109048
+      },
+      "video": {
+        "motionPrompt": "the lion's chest rises and falls as it snores, ferns sway, a tiny mouse scurries closer",
+        "seed": 1164489088
+      },
+      "voice": {}
+    },
+    {
+      "id": "chay-qua-bom",
+      "title": "Chạy qua bờm sư tử",
+      "narrator": "ke-chuyen",
+      "narration": "Chuột ta chẳng biết sợ là gì, cứ thế leo tót lên mình sư tử. Nó chạy dọc qua bờm, nhảy lên tai, rồi trượt xuống mũi sư tử như chơi cầu trượt. Sư tử giật mình tỉnh giấc, bật dậy gầm vang, ngó nghiêng khắp nơi. Nhưng chuột đã chui tọt vào hang mất tăm.",
+      "subtitles": [
+        "Chuột ta chẳng biết sợ là gì, cứ thế leo tót lên mình sư tử.",
+        "Nó chạy dọc qua bờm, nhảy lên tai, rồi trượt xuống mũi sư tử như chơi cầu trượt.",
+        "Sư tử giật mình tỉnh giấc, bật dậy gầm vang, ngó nghiêng khắp nơi.",
+        "Nhưng chuột đã chui tọt vào hang mất tăm."
+      ],
+      "image": {
+        "character": "chuot",
+        "prompt": "a tiny cheeky mouse sliding down the nose of a lion that is just waking up with startled eyes, comical storybook moment",
+        "seed": 1305866575
+      },
+      "video": {
+        "motionPrompt": "the mouse slides down the lion's nose, the lion's eyes pop open, it leaps up and looks around while the mouse dashes into a hole",
+        "seed": 2183552564
+      },
+      "voice": {}
+    },
+    {
+      "id": "cao-che",
+      "title": "Cáo chê cười",
+      "narrator": "ke-chuyen",
+      "narration": "Lúc sư tử còn đang lùng sục từng bụi cỏ, một con cáo đi ngang qua. Cáo che miệng cười khúc khích: “Ô hay, chúa sơn lâm oai phong thế kia mà cũng sợ một con chuột nhắt bé tí sao?” “Để tôi kể cho cả rừng nghe, chắc ai cũng cười vỡ bụng!”",
+      "subtitles": [
+        "Lúc sư tử còn đang lùng sục từng bụi cỏ, một con cáo đi ngang qua.",
+        "Cáo che miệng cười khúc khích:",
+        "“Ô hay, chúa sơn lâm oai phong thế kia mà cũng sợ một con chuột nhắt bé tí sao?”",
+        "“Để tôi kể cho cả rừng nghe, chắc ai cũng cười vỡ bụng!”"
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "a sly fox covering its mouth and giggling while watching a lion search through the ferns with its nose to the ground",
+        "seed": 1178708730
+      },
+      "video": {
+        "motionPrompt": "the lion sniffs under the ferns, the fox giggles behind its paw and points, leaves rustle",
+        "seed": 266770994
+      },
+      "voice": {}
+    },
+    {
+      "id": "tra-loi",
+      "title": "Câu trả lời của sư tử",
+      "narrator": "ke-chuyen",
+      "narration": "Sư tử đứng thẳng dậy, rũ bờm, đáp chậm rãi: “Ta nào có sợ chuột. Nó bé thế, làm gì được ta. Ta chỉ không chịu được cái thói vô phép của nó. Ai lại đi giẫm lên đầu người khác đang ngủ mà chẳng nói một lời xin lỗi!” Cáo nghe xong thì im bặt, chẳng còn cười được nữa.",
+      "subtitles": [
+        "Sư tử đứng thẳng dậy, rũ bờm, đáp chậm rãi:",
+        "“Ta nào có sợ chuột. Nó bé thế, làm gì được ta.",
+        "Ta chỉ không chịu được cái thói vô phép của nó.",
+        "Ai lại đi giẫm lên đầu người khác đang ngủ mà chẳng nói một lời xin lỗi!”",
+        "Cáo nghe xong thì im bặt, chẳng còn cười được nữa."
+      ],
+      "image": {
+        "character": "su-tu",
+        "prompt": "a dignified lion standing tall and shaking its mane while explaining calmly to a fox that has stopped laughing, a mouse peeking out from a hole",
+        "seed": 3545580949
+      },
+      "video": {
+        "motionPrompt": "the lion shakes out its mane and speaks firmly, the fox's smile fades, the little mouse peeks out from its hole",
+        "seed": 483710433
+      },
+      "voice": {}
+    },
+    {
+      "id": "xin-loi",
+      "title": "Lời xin lỗi",
+      "narrator": "ke-chuyen",
+      "narration": "Chú chuột nấp trong hang nghe hết, đỏ mặt bò ra, cúi đầu: “Cháu xin lỗi bác sư tử ạ.” Sư tử phẩy đuôi bỏ qua, rồi nằm xuống ngủ tiếp. Các bạn nhỏ ạ, những việc vô phép nhỏ xíu cũng làm người khác phiền lòng. Lễ phép là điều ai cũng cần, dù với người lớn hay người bé.",
+      "subtitles": [
+        "Chú chuột nấp trong hang nghe hết, đỏ mặt bò ra, cúi đầu: “Cháu xin lỗi bác sư tử ạ.”",
+        "Sư tử phẩy đuôi bỏ qua, rồi nằm xuống ngủ tiếp.",
+        "Các bạn nhỏ ạ, những việc vô phép nhỏ xíu cũng làm người khác phiền lòng.",
+        "Lễ phép là điều ai cũng cần, dù với người lớn hay người bé."
+      ],
+      "image": {
+        "character": "chuot",
+        "prompt": "a small embarrassed mouse bowing politely before a large lion lying down again, the lion flicking its tail kindly, the fox watching from the side",
+        "seed": 3527734781
+      },
+      "video": {
+        "motionPrompt": "the mouse bows low, the lion flicks its tail gently and settles back to sleep, sunlight dances on the moss",
+        "seed": 3790501140
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light comic forest storybook music, pizzicato strings and piccolo for the scurrying mouse, a sleepy tuba snore, a sly clarinet giggle for the fox, a calm dignified ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1148776955
+  }
+}

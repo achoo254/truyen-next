@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "slug": "bay-ca-giu-ngon-lua",
+  "shelf": "world",
+  "title": "Bầy cá giữ ngọn lửa",
+  "summary": "Thuở xa xưa, loài cá sống trên cạn và đi săn như người. Một chiều mưa rét, cả bộ tộc cá nhóm lửa bên vách sông, và một cơn gió đã đưa ngọn lửa theo họ xuống tận đáy vực nước. Truyện dân gian của thổ dân Úc trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "than-thoai",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"A Fish Story\" trong The Lilac Fairy Book do Andrew Lang biên tập (1910), truyện dân gian của thổ dân Úc, Project Gutenberg #3454, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian thổ dân Úc, Andrew Lang chép (1910)",
+  "style": "warm storybook illustration inspired by the red desert and river landscapes of inland Australia, friendly fish people walking on land, a great river red gum tree on a steep riverbank, a deep cool waterhole, soft dot and line patterns as gentle decoration, warm gouache, colors of ochre, rust red, eucalyptus green and deep water blue, mythical and cozy, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "thuggai",
+      "name": "Cụ Thuggai",
+      "sheetPrompt": "a wise old fish elder from an Australian folk tale who walks on land, a big grey fish with a kind face, little arms and legs, a simple woven bag over the shoulder, full body, front and side views, plain light background, character reference sheet",
+      "seed": 4168036787
+    },
+    {
+      "id": "guddhu",
+      "name": "Bác cá tuyết Guddhu",
+      "sheetPrompt": "a strong calm cod fish from an Australian folk tale who walks on land and knows magic, speckled green and gold scales, kind serious eyes, holding pieces of tree bark, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2746210372
+    },
+    {
+      "id": "ca-con",
+      "name": "Chú cá nhỏ",
+      "sheetPrompt": "a tiny brave young fish from an Australian folk tale who walks on land, small and silver, big bright eyes, cheerful polite bow, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3996252176
+    }
+  ],
+  "scenes": [
+    {
+      "id": "khi-ca-con-o-tren-can",
+      "title": "Khi cá còn ở trên cạn",
+      "narrator": "ke-chuyen",
+      "narration": "Có lẽ bạn nghĩ cá thì xưa nay vẫn là cá, chỉ sống dưới nước. Nhưng nếu bạn tới vùng sa mạc cát đỏ giữa nước Úc và ngồi nghe các cụ thổ dân kể chuyện, bạn sẽ biết một chuyện khác hẳn. Ngày xửa ngày xưa, cá sống trên cạn. Chúng đi từ nơi này sang nơi khác, săn đủ thứ thú rừng. Bạn thử nhìn dáng con cá mà xem, đi săn trên cạn chắc là khó lắm, vậy mà chúng vẫn làm được, đủ biết chúng khéo léo nhường nào. Có khi đến giờ chúng vẫn còn đi săn trên cạn, nếu không xảy ra một chuyện lạ.",
+      "subtitles": [
+        "Có lẽ bạn nghĩ cá thì xưa nay vẫn là cá, chỉ sống dưới nước.",
+        "Nhưng nếu bạn tới vùng sa mạc cát đỏ giữa nước Úc và ngồi nghe các cụ thổ dân kể chuyện,",
+        "bạn sẽ biết một chuyện khác hẳn. Ngày xửa ngày xưa, cá sống trên cạn.",
+        "Chúng đi từ nơi này sang nơi khác, săn đủ thứ thú rừng.",
+        "Bạn thử nhìn dáng con cá mà xem, đi săn trên cạn chắc là khó lắm,",
+        "vậy mà chúng vẫn làm được, đủ biết chúng khéo léo nhường nào.",
+        "Có khi đến giờ chúng vẫn còn đi săn trên cạn, nếu không xảy ra một chuyện lạ."
+      ],
+      "image": {
+        "prompt": "long ago in the red sandy desert of inland Australia a tribe of friendly fish people walking on little legs across the red earth with woven bags, carrying hunting sticks, a wide sky and gum trees",
+        "seed": 1216795230,
+        "character": "thuggai"
+      },
+      "video": {
+        "motionPrompt": "the fish people waddle along in a line, heat shimmers over the sand, a gentle breeze moves the gum leaves",
+        "seed": 3983994641
+      },
+      "voice": {}
+    },
+    {
+      "id": "mua-va-gio-lanh",
+      "title": "Mưa và gió lạnh",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, cả bộ tộc cá đi săn về, mệt rã rời. Trời nóng, họ dừng chân dưới tán một cây lớn bên bờ sông. Họ nhóm lửa nấu ăn ngay mép một vách đất dựng đứng, dưới chân vách là một vực nước sâu. Trong lúc chờ đồ ăn chín, ai nấy nằm duỗi dưới gốc cây, sắp thiu thiu ngủ thì một đám mây đen kéo tới che kín mặt trời. Mưa nặng hạt rơi xuống, ngọn lửa gần tắt ngấm. Ở cái thời chưa có diêm, mất lửa là chuyện lớn lắm, nhóm lại khó vô cùng. Thế rồi gió lạnh buốt thổi về, bầy cá rét run cầm cập. Cụ Thuggai, người già nhất bộ tộc, bảo: “Không được rồi, cứ thế này cả bộ tộc rét cóng mất.”",
+      "subtitles": [
+        "Một hôm, cả bộ tộc cá đi săn về, mệt rã rời.",
+        "Trời nóng, họ dừng chân dưới tán một cây lớn bên bờ sông.",
+        "Họ nhóm lửa nấu ăn ngay mép một vách đất dựng đứng, dưới chân vách là một vực nước sâu.",
+        "Trong lúc chờ đồ ăn chín, ai nấy nằm duỗi dưới gốc cây,",
+        "sắp thiu thiu ngủ thì một đám mây đen kéo tới che kín mặt trời.",
+        "Mưa nặng hạt rơi xuống, ngọn lửa gần tắt ngấm.",
+        "Ở cái thời chưa có diêm, mất lửa là chuyện lớn lắm, nhóm lại khó vô cùng.",
+        "Thế rồi gió lạnh buốt thổi về, bầy cá rét run cầm cập.",
+        "Cụ Thuggai, người già nhất bộ tộc, bảo: “Không được rồi,",
+        "cứ thế này cả bộ tộc rét cóng mất.”"
+      ],
+      "image": {
+        "prompt": "under a big river red gum tree on a steep riverbank a tribe of fish people huddling around a small fading campfire as dark clouds and heavy rain roll in, a deep dark waterhole below the cliff",
+        "seed": 1815538159,
+        "character": "thuggai"
+      },
+      "video": {
+        "motionPrompt": "rain begins to pour, the little fire hisses and sputters, the fish people shiver and hug themselves",
+        "seed": 132601091
+      },
+      "voice": {}
+    },
+    {
+      "id": "ai-nhom-duoc-lua",
+      "title": "Ai nhóm được lửa",
+      "narrator": "ke-chuyen",
+      "narration": "Cụ Thuggai bảo các con trai cọ hai thanh gỗ vào nhau cho ra lửa. Họ cọ mãi đến mỏi nhừ tay mà chẳng thấy một tia lửa nào. “Để tôi thử,” cá xương Biernuga nói, nhưng cũng chẳng ăn thua. Cá tráp Kumbal thử, rồi cả bộ tộc lần lượt thử, đều không được. “Vô ích thôi,” cụ Thuggai thở dài. “Củi ướt quá rồi. Đành ngồi chờ nắng lên hong khô vậy.” Lúc ấy, một chú cá nhỏ xíu, chỉ dài chừng một gang tay, bé nhất bộ tộc, cúi chào cụ Thuggai: “Thưa cụ, xin cụ nhờ bố cháu, bác cá tuyết Guddhu. Bố cháu giỏi phép thuật hơn mọi người ạ.”",
+      "subtitles": [
+        "Cụ Thuggai bảo các con trai cọ hai thanh gỗ vào nhau cho ra lửa.",
+        "Họ cọ mãi đến mỏi nhừ tay mà chẳng thấy một tia lửa nào.",
+        "“Để tôi thử,” cá xương Biernuga nói, nhưng cũng chẳng ăn thua.",
+        "Cá tráp Kumbal thử, rồi cả bộ tộc lần lượt thử, đều không được.",
+        "“Vô ích thôi,” cụ Thuggai thở dài. “Củi ướt quá rồi. Đành ngồi chờ nắng lên hong khô vậy.”",
+        "Lúc ấy, một chú cá nhỏ xíu, chỉ dài chừng một gang tay, bé nhất bộ tộc,",
+        "cúi chào cụ Thuggai: “Thưa cụ, xin cụ nhờ bố cháu, bác cá tuyết Guddhu.",
+        "Bố cháu giỏi phép thuật hơn mọi người ạ.”"
+      ],
+      "image": {
+        "prompt": "fish people rubbing two wooden sticks together by a cold wet campfire, a bony fish and a bream trying in turn, a tiny silver young fish bowing politely before the wise old fish elder",
+        "seed": 3265619862,
+        "character": "ca-con"
+      },
+      "video": {
+        "motionPrompt": "the sticks rub back and forth with no spark, the fish people sigh, the tiny fish bows and points toward his father",
+        "seed": 3967349730
+      },
+      "voice": {}
+    },
+    {
+      "id": "phep-cua-guddhu",
+      "title": "Phép của Guddhu",
+      "narrator": "ke-chuyen",
+      "narration": "Cụ Thuggai bèn nhờ bác Guddhu. Bác bóc mấy miếng vỏ cây, đặt lên đống tro còn âm ỉ, rồi quỳ xuống thổi, thổi rất lâu. Đốm đỏ yếu ớt dần dần hồng lên, mép vỏ cây bắt đầu quăn lại. Thấy thế, cả bộ tộc chen nhau xúm lại, quay lưng về phía gió. Bác Guddhu bảo: “Mọi người sang bên kia đi, tôi cần gió để quạt lửa.” Chẳng mấy chốc, đốm lửa bùng thành ngọn, reo lách tách vui tai. “Thêm củi nào!” Ai nấy chạy đi gom củi chất lên, ngọn lửa bốc cao, nổ lép bép. “Sắp được sưởi ấm rồi! Bác Guddhu giỏi thật!” Họ lại xúm vào, sát hơn, sát hơn nữa.",
+      "subtitles": [
+        "Cụ Thuggai bèn nhờ bác Guddhu.",
+        "Bác bóc mấy miếng vỏ cây, đặt lên đống tro còn âm ỉ, rồi quỳ xuống thổi, thổi rất lâu.",
+        "Đốm đỏ yếu ớt dần dần hồng lên, mép vỏ cây bắt đầu quăn lại.",
+        "Thấy thế, cả bộ tộc chen nhau xúm lại, quay lưng về phía gió.",
+        "Bác Guddhu bảo: “Mọi người sang bên kia đi, tôi cần gió để quạt lửa.”",
+        "Chẳng mấy chốc, đốm lửa bùng thành ngọn, reo lách tách vui tai. “Thêm củi nào!”",
+        "Ai nấy chạy đi gom củi chất lên, ngọn lửa bốc cao, nổ lép bép. “Sắp được sưởi ấm rồi!",
+        "Bác Guddhu giỏi thật!” Họ lại xúm vào, sát hơn, sát hơn nữa."
+      ],
+      "image": {
+        "prompt": "a calm speckled cod fish kneeling and gently blowing on glowing ashes with curls of tree bark, a small flame rising into a merry crackling fire, the whole fish tribe gathering wood and crowding around happily",
+        "seed": 2094276128,
+        "character": "guddhu"
+      },
+      "video": {
+        "motionPrompt": "the ember glows brighter, the flame leaps up, sparks dance into the air, the fish people cheer and pile on more wood",
+        "seed": 897635849
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngon-lua-duoi-day-nuoc",
+      "title": "Ngọn lửa dưới đáy nước",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng một cơn gió rít từ trên đồi ào xuống, thổi bạt ngọn lửa về phía bầy cá. Họ giật mình lùi lại, quên mất mình đang đứng ở đâu, thế là cả bộ tộc lăn ùm xuống vách đất, người nọ đè lên người kia, rơi tõm vào vực nước bên dưới. Ôi, nước dưới vực tối và lạnh làm sao, ở đó chẳng bao giờ có nắng chiếu tới! Nhưng chỉ một thoáng sau, họ thấy ấm lại. Ngọn lửa bị gió lùa đã theo họ xuống tận đáy vực, và vẫn cháy sáng rực như trên bờ. Bầy cá lại quây quần quanh lửa như lúc trước. Ngọn lửa ấy không bao giờ tắt, cứ cháy mãi tới tận bây giờ. Từ đó loài cá ở luôn dưới nước. Vì thế, vào một ngày giá rét, nếu bạn lặn sâu xuống dưới mặt nước lạnh, bạn sẽ thấy bên dưới dễ chịu, ấm áp, đến mức chỉ tiếc không ở lại được lâu hơn.",
+      "subtitles": [
+        "Bỗng một cơn gió rít từ trên đồi ào xuống, thổi bạt ngọn lửa về phía bầy cá.",
+        "Họ giật mình lùi lại, quên mất mình đang đứng ở đâu,",
+        "thế là cả bộ tộc lăn ùm xuống vách đất, người nọ đè lên người kia,",
+        "rơi tõm vào vực nước bên dưới.",
+        "Ôi, nước dưới vực tối và lạnh làm sao, ở đó chẳng bao giờ có nắng chiếu tới!",
+        "Nhưng chỉ một thoáng sau, họ thấy ấm lại.",
+        "Ngọn lửa bị gió lùa đã theo họ xuống tận đáy vực, và vẫn cháy sáng rực như trên bờ.",
+        "Bầy cá lại quây quần quanh lửa như lúc trước.",
+        "Ngọn lửa ấy không bao giờ tắt, cứ cháy mãi tới tận bây giờ.",
+        "Từ đó loài cá ở luôn dưới nước.",
+        "Vì thế, vào một ngày giá rét, nếu bạn lặn sâu xuống dưới mặt nước lạnh,",
+        "bạn sẽ thấy bên dưới dễ chịu, ấm áp, đến mức chỉ tiếc không ở lại được lâu hơn."
+      ],
+      "image": {
+        "prompt": "deep underwater at the bottom of a calm waterhole a magical warm fire burning brightly among smooth stones, the fish tribe now swimming happily in a circle around its glow, rays of light from far above",
+        "seed": 2733007345,
+        "character": "guddhu"
+      },
+      "video": {
+        "motionPrompt": "the underwater fire flickers with a soft golden glow, the fish swim in slow happy circles, bubbles rise gently",
+        "seed": 766187726
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle mythical Australian landscape music, didgeridoo drone, clapsticks and soft warm strings, a calm desert opening, a cold rainy tense middle, a warm glowing underwater ending, instrumental, no vocals",
+    "durationSeconds": 90,
+    "seed": 3547919217
+  }
+}

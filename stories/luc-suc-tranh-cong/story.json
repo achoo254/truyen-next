@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "slug": "luc-suc-tranh-cong",
+  "shelf": "adults",
+  "title": "Sáu con vật tranh công",
+  "summary": "Trâu kêu khổ, chó cãi lại, ngựa khoe chiến công, dê khoe lễ nghĩa, gà khoe năm đức, heo khoe việc làng: sáu con vật trong nhà thay nhau kể công và chê nhau, để ông chủ phải đứng ra phân xử. Kể lại bằng văn xuôi từ truyện thơ Nôm Lục súc tranh công.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện thơ Nôm khuyết danh Lục súc tranh công (thế kỷ mười chín), thuộc phạm vi công cộng, theo văn bản quốc ngữ trên Wikisource tiếng Việt. Lời kể văn xuôi viết mới theo cốt truyện thơ; không trích câu thơ của bản phiên âm hay bản kể hiện đại nào.",
+  "basedOn": "Truyện thơ Nôm khuyết danh Lục súc tranh công",
+  "style": "traditional Vietnamese Dong Ho woodblock folk print style with bold black outlines and flat natural colours of ochre, rust red, leaf green and charcoal on warm do paper, a farmhouse yard of old northern Vietnam with bamboo hedge, haystack, well and tiled stable, expressive farm animals with comic faces, witty satirical mood for adult readers, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "ong-chu",
+      "name": "Ông chủ",
+      "sheetPrompt": "an elderly Vietnamese farmhouse master of old, calm wise face with a thin white beard, black khan xep turban, plain brown ao dai robe, holding a fan, standing patiently, full body, front view, Dong Ho woodblock style on warm paper, character reference sheet",
+      "seed": 3402490982
+    },
+    {
+      "id": "con-trau",
+      "name": "Con trâu",
+      "sheetPrompt": "a weary grey water buffalo with long curved horns and a rope through its nose, tired drooping eyes, mud on its legs, Dong Ho woodblock folk print style, full body, side view, plain warm paper background, character reference sheet",
+      "seed": 1293363738
+    },
+    {
+      "id": "con-ga",
+      "name": "Con gà",
+      "sheetPrompt": "a proud red rooster with a tall comb like a scholar's hat, sharp spurs, glossy green tail feathers, chest puffed out, Dong Ho woodblock folk print style, full body, side view, plain warm paper background, character reference sheet",
+      "seed": 2628915540
+    }
+  ],
+  "scenes": [
+    {
+      "id": "sau-loai-giup-nguoi",
+      "title": "Sáu loài giúp người",
+      "narrator": "ke-chuyen",
+      "narration": "Trời sinh ra muôn vật, đất nuôi lấy mọi loài. Chẳng giống nào là không có tài riêng, và người đời cũng chẳng ai không nhờ đến loài vật. Trong trời đất có bốn giống được gọi là linh thiêng: rồng lo việc trời, lân giúp thánh nhân, rùa biết trước lành dữ, phượng biết thời thịnh suy. Còn sáu giống vật nuôi trong nhà là trâu, chó, ngựa, dê, gà và heo, thì trời cho xuống trần để giúp người. Thế nhưng, ở một nhà nọ, sáu con vật ấy chẳng ai chịu ai. Con nào cũng cho mình công lớn nhất, thế là kéo nhau đến trước mặt ông chủ, con này kể công, con kia kể tội.",
+      "subtitles": [
+        "Trời sinh ra muôn vật, đất nuôi lấy mọi loài.",
+        "Chẳng giống nào là không có tài riêng, và người đời cũng chẳng ai không nhờ đến loài vật.",
+        "Trong trời đất có bốn giống được gọi là linh thiêng: rồng lo việc trời,",
+        "lân giúp thánh nhân, rùa biết trước lành dữ, phượng biết thời thịnh suy.",
+        "Còn sáu giống vật nuôi trong nhà là trâu, chó, ngựa, dê, gà và heo,",
+        "thì trời cho xuống trần để giúp người.",
+        "Thế nhưng, ở một nhà nọ, sáu con vật ấy chẳng ai chịu ai.",
+        "Con nào cũng cho mình công lớn nhất, thế là kéo nhau đến trước mặt ông chủ,",
+        "con này kể công, con kia kể tội."
+      ],
+      "image": {
+        "prompt": "a farmhouse yard of old northern Vietnam with a water buffalo, a dog, a horse, a goat, a rooster and a pig all gathered and squabbling in front of an elderly master seated on the veranda with a fan, bamboo hedge and haystack behind",
+        "seed": 43520673,
+        "character": "ong-chu"
+      },
+      "video": {
+        "motionPrompt": "the six animals turn toward the master all at once, the rooster flaps, the pig grunts, the master raises his fan, slow push in",
+        "seed": 712764002
+      },
+      "voice": {}
+    },
+    {
+      "id": "trau-ke-kho",
+      "title": "Trâu kể khổ",
+      "narrator": "ke-chuyen",
+      "narration": "Trâu lên tiếng trước, giọng mỏi mệt. Một mình trâu chịu bao nhiêu gian nan. Gà vừa gáy tàn canh, chủ đã gọi thằng chăn đánh trâu ra đồng, cho ăn vội ba miếng cỏ lót dạ. Trời vừa rạng, đã vào buổi cày bừa. Trước cổ mang ách, sau đuôi kéo cày, miệng bị dàm, mũi bị xỏ dây. Trâu thở ngắn thở dài, người còn quát tháo, mắng ngược mắng xuôi. Làm không kịp thở, ăn không kịp nhai, tắm mưa dãi gió có quản gì. Có trâu mới có lúa má tằm tơ. Gặt xong thì trâu kéo xe chở lúa, lúa chất đống lại để trâu đạp. Từ tháng giêng tới tháng chạp, xuân hạ thu đông, núi cao suối sâu, việc nặng nào cũng đổ lên lưng trâu.",
+      "subtitles": [
+        "Trâu lên tiếng trước, giọng mỏi mệt. Một mình trâu chịu bao nhiêu gian nan.",
+        "Gà vừa gáy tàn canh, chủ đã gọi thằng chăn đánh trâu ra đồng,",
+        "cho ăn vội ba miếng cỏ lót dạ. Trời vừa rạng, đã vào buổi cày bừa.",
+        "Trước cổ mang ách, sau đuôi kéo cày, miệng bị dàm, mũi bị xỏ dây.",
+        "Trâu thở ngắn thở dài, người còn quát tháo, mắng ngược mắng xuôi.",
+        "Làm không kịp thở, ăn không kịp nhai, tắm mưa dãi gió có quản gì.",
+        "Có trâu mới có lúa má tằm tơ.",
+        "Gặt xong thì trâu kéo xe chở lúa, lúa chất đống lại để trâu đạp.",
+        "Từ tháng giêng tới tháng chạp, xuân hạ thu đông, núi cao suối sâu,",
+        "việc nặng nào cũng đổ lên lưng trâu."
+      ],
+      "image": {
+        "prompt": "a weary water buffalo pulling a wooden plough through a flooded rice field at dawn, a yoke on its neck and a rope through its nose, flies around its back, a herd boy shouting behind, misty hills",
+        "seed": 1067800647,
+        "character": "con-trau"
+      },
+      "video": {
+        "motionPrompt": "the buffalo strains forward step by step through the mud, water ripples behind the plough, the herd boy waves a switch, slow side tracking shot",
+        "seed": 4163290447
+      },
+      "voice": {}
+    },
+    {
+      "id": "trau-oan-chu",
+      "title": "Trâu oán chủ",
+      "narrator": "ke-chuyen",
+      "narration": "Trâu nói tiếp. Ăn thì rơm khô cỏ rác, ở thì chuồng lầy bùn lấm. Công trâu như thế, lẽ ra phải được ăn cơm cá, về già được nuôi dưỡng. Vậy mà khi trâu chết, chẳng ai cúng tế. Người ta sắm dao, sắm rổ, kẻ đòi cái đầu, người đòi cái nọng. Thuở xưa vua Tề còn thương con trâu sắp bị đem tế mà tha cho, ông Điền Tử còn dạy con chớ bán con vật già đã hết sức. Sao ông chủ lại lấy oán trả ân? Rồi trâu quay sang chó. Còn cái giống muông kia, chẳng tài cán gì, ngày ba bữa chực ăn, việc đến thì lẩn. Ấy thế mà chó được ăn cơm, trâu phải nhai rơm, chó chết còn được chôn cất tử tế. Ông chủ thật là bất công.",
+      "subtitles": [
+        "Trâu nói tiếp.",
+        "Ăn thì rơm khô cỏ rác, ở thì chuồng lầy bùn lấm.",
+        "Công trâu như thế, lẽ ra phải được ăn cơm cá, về già được nuôi dưỡng.",
+        "Vậy mà khi trâu chết, chẳng ai cúng tế.",
+        "Người ta sắm dao, sắm rổ, kẻ đòi cái đầu, người đòi cái nọng.",
+        "Thuở xưa vua Tề còn thương con trâu sắp bị đem tế mà tha cho,",
+        "ông Điền Tử còn dạy con chớ bán con vật già đã hết sức. Sao ông chủ lại lấy oán trả ân?",
+        "Rồi trâu quay sang chó.",
+        "Còn cái giống muông kia, chẳng tài cán gì, ngày ba bữa chực ăn, việc đến thì lẩn.",
+        "Ấy thế mà chó được ăn cơm, trâu phải nhai rơm, chó chết còn được chôn cất tử tế.",
+        "Ông chủ thật là bất công."
+      ],
+      "image": {
+        "prompt": "the tired water buffalo standing before the elderly master, head lowered and eyes pleading, while a dog curls lazily by a clay kitchen stove nearby with ash scattered around it",
+        "seed": 601725148,
+        "character": "con-trau"
+      },
+      "video": {
+        "motionPrompt": "the buffalo shakes its heavy head and stamps a hoof, the dog lifts one ear by the stove, embers glow, slow pan from buffalo to dog",
+        "seed": 759182479
+      },
+      "voice": {}
+    },
+    {
+      "id": "cho-cai-lai",
+      "title": "Chó cãi lại",
+      "narrator": "ke-chuyen",
+      "narration": "Chó nghe vậy, tức đến lộn ruột, chạy ra sủa vang. Trời sinh mỗi loài một tài, lớn làm việc nặng, bé làm việc nhẹ. Anh to vai lớn vế thì lo cày bừa, còn tôi chân tay yếu ớt thì lo canh giữ trong nhà. Sao anh khéo bới lông tìm vết thế? Đêm năm canh, mắt tôi mở thao láo, kẻ trộm phải nép. Ngày sáu khắc, tai tôi thính như trống, kẻ gian thấy bóng đã run. Ăn thì cơm thừa canh cặn, khoai sùng môn sượng, có cũng được, không cũng xong. Anh trâu ăn rơm cỏ thật, nhưng phải có thằng chăn, tốn cơm tốn áo, tính ra mỗi năm đã mất đứt một con trâu. Còn tôi giữ cả gia tài cho chủ, chẳng tốn đồng nào. Sống thì giữ của, chết xuống âm phủ còn giữ cầu, người có phúc thì đưa qua, kẻ bất nhân thì chặn lại.",
+      "subtitles": [
+        "Chó nghe vậy, tức đến lộn ruột, chạy ra sủa vang.",
+        "Trời sinh mỗi loài một tài, lớn làm việc nặng, bé làm việc nhẹ.",
+        "Anh to vai lớn vế thì lo cày bừa, còn tôi chân tay yếu ớt thì lo canh giữ trong nhà.",
+        "Sao anh khéo bới lông tìm vết thế?",
+        "Đêm năm canh, mắt tôi mở thao láo, kẻ trộm phải nép.",
+        "Ngày sáu khắc, tai tôi thính như trống, kẻ gian thấy bóng đã run.",
+        "Ăn thì cơm thừa canh cặn, khoai sùng môn sượng, có cũng được, không cũng xong.",
+        "Anh trâu ăn rơm cỏ thật, nhưng phải có thằng chăn, tốn cơm tốn áo,",
+        "tính ra mỗi năm đã mất đứt một con trâu.",
+        "Còn tôi giữ cả gia tài cho chủ, chẳng tốn đồng nào.",
+        "Sống thì giữ của, chết xuống âm phủ còn giữ cầu, người có phúc thì đưa qua,",
+        "kẻ bất nhân thì chặn lại."
+      ],
+      "image": {
+        "prompt": "an alert brown village dog barking at the gate of a farmhouse at night under a full moon, a shadowy thief fleeing over the bamboo hedge, lantern glow from the house",
+        "seed": 448451593
+      },
+      "video": {
+        "motionPrompt": "the dog barks and lunges, the thief scrambles over the hedge and vanishes, bamboo sways, moonlight shimmers, quick pan",
+        "seed": 2511758669
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngua-bi-che",
+      "title": "Ngựa bị chê",
+      "narrator": "ke-chuyen",
+      "narration": "Trâu với chó cãi nhau không dứt, ông chủ khó lòng phân xử, đành bảo. Thôi, đừng so hơn thiệt nữa. Cả hai đứa đều có công, hòa nhau là quý. Hai con vật bằng lòng, vui vẻ làm lành. Nhưng rồi lại cùng nhau thưa. Hai chúng tôi ăn bữa có bữa không. Còn giống ngựa kia thì quý gì mà chủ chăm chút đến thế? Ăn thì cháo đậu xanh, ở thì tàu lợp ngói, ngày ngày tắm rửa, xén bờm, sửa móng. Thế mà cày bừa thì lếu láo, săn bắn thì kém cỏi. Nuôi không biết chủ là ai, ở không biết nhà mà về. Dại không ra dại, khôn chẳng ra khôn. Nuôi giống ấy làm gì cho rối.",
+      "subtitles": [
+        "Trâu với chó cãi nhau không dứt, ông chủ khó lòng phân xử, đành bảo.",
+        "Thôi, đừng so hơn thiệt nữa.",
+        "Cả hai đứa đều có công, hòa nhau là quý. Hai con vật bằng lòng, vui vẻ làm lành.",
+        "Nhưng rồi lại cùng nhau thưa. Hai chúng tôi ăn bữa có bữa không.",
+        "Còn giống ngựa kia thì quý gì mà chủ chăm chút đến thế?",
+        "Ăn thì cháo đậu xanh, ở thì tàu lợp ngói, ngày ngày tắm rửa, xén bờm, sửa móng.",
+        "Thế mà cày bừa thì lếu láo, săn bắn thì kém cỏi.",
+        "Nuôi không biết chủ là ai, ở không biết nhà mà về. Dại không ra dại, khôn chẳng ra khôn.",
+        "Nuôi giống ấy làm gì cho rối."
+      ],
+      "image": {
+        "prompt": "the buffalo and the dog standing side by side and pointing their noses toward a sleek white horse in a fine tiled stable, the horse wearing an ornate saddle with silver-trimmed reins, the master stroking his beard thoughtfully",
+        "seed": 1355384572,
+        "character": "ong-chu"
+      },
+      "video": {
+        "motionPrompt": "the horse tosses its groomed mane proudly, the buffalo and dog glance at each other, the master shakes his head with a faint smile, slow pan",
+        "seed": 301884781
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngua-khoe-cong",
+      "title": "Ngựa khoe công",
+      "narrator": "ke-chuyen",
+      "narration": "Ngựa nghe nói, tím gan, chạy ra hí vang. Này, tao bảo chúng bay! Thú thì cũng hai hạng thú, thú như tao, ai dám sánh? Tao từng đánh nam dẹp bắc, mỏi gối phò xã tắc, mòn lưng đội vương công, ngày ngày chầu sân rồng. Ông Hán Cao Tổ năm năm trên lưng ngựa mới dựng nên cơ nghiệp nhà Lưu. Ông Quan Công thoát qua sáu cửa ải cũng nhờ ngựa Xích Thố. Ngàn dặm quan san, ngựa phi một mạch là tới. Các chú được ăn no ngủ kỹ, nằm xó bếp, chính là nhờ ta lo cho nước yên. Nếu ta không lo việc nước, giặc đến nhà thì ai giữ cho chúng bay? Biết một mà chẳng biết mười. Ông chủ nghe ngựa nói cũng có lý, bèn phán. Lớn bé mỗi loài một tài, chớ tranh nhau hơn thiệt.",
+      "subtitles": [
+        "Ngựa nghe nói, tím gan, chạy ra hí vang. Này, tao bảo chúng bay!",
+        "Thú thì cũng hai hạng thú, thú như tao, ai dám sánh?",
+        "Tao từng đánh nam dẹp bắc, mỏi gối phò xã tắc, mòn lưng đội vương công,",
+        "ngày ngày chầu sân rồng.",
+        "Ông Hán Cao Tổ năm năm trên lưng ngựa mới dựng nên cơ nghiệp nhà Lưu.",
+        "Ông Quan Công thoát qua sáu cửa ải cũng nhờ ngựa Xích Thố.",
+        "Ngàn dặm quan san, ngựa phi một mạch là tới.",
+        "Các chú được ăn no ngủ kỹ, nằm xó bếp, chính là nhờ ta lo cho nước yên.",
+        "Nếu ta không lo việc nước, giặc đến nhà thì ai giữ cho chúng bay?",
+        "Biết một mà chẳng biết mười.",
+        "Ông chủ nghe ngựa nói cũng có lý, bèn phán.",
+        "Lớn bé mỗi loài một tài, chớ tranh nhau hơn thiệt."
+      ],
+      "image": {
+        "prompt": "a proud white war horse rearing up and neighing in the farmyard, behind it a ghostly vision in woodblock style of ancient generals on horseback galloping across mountain passes with banners, the buffalo and dog looking up in surprise",
+        "seed": 128095841
+      },
+      "video": {
+        "motionPrompt": "the horse rears and paws the air, the vision of galloping riders sweeps across the sky behind it and fades, dust swirls, dynamic camera tilt",
+        "seed": 96402679
+      },
+      "voice": {}
+    },
+    {
+      "id": "de-noi-le",
+      "title": "Dê nói lễ",
+      "narrator": "ke-chuyen",
+      "narration": "Trâu, chó, ngựa từ tạ ra về. Nhưng ngựa còn giận con dê, đứng lại mách chủ. Dê với ngựa cũng là thú, sao dê thì được ăn rồi nhảy chơi, còn ngựa phải cưỡi phải kéo? Cái giống đầu không ra đầu, đuôi không ra đuôi, mình nhỏ bụng to, thấy người là há miệng kêu be be. Dê nghe, vênh râu chạy ra. Anh từng vào dinh ra trấn thật, nhưng chớ cậy tài. Tôi không ăn lúa má, không phá đậu mè. Việc dê dê biết, việc ngựa ngựa hay. Dê thuộc về việc lễ: tế thánh, tế thần, cầu an, cầu phúc đều lấy dê dâng trước. Đến thánh nhân còn giữ lễ dâng dê ngày mồng một. Dê tuy nhỏ mà được phong Trường tu chủ bộ, ông quan râu dài. Ngựa ở cửa quyền, được phong chức gì, thử nói xem?",
+      "subtitles": [
+        "Trâu, chó, ngựa từ tạ ra về.",
+        "Nhưng ngựa còn giận con dê, đứng lại mách chủ.",
+        "Dê với ngựa cũng là thú, sao dê thì được ăn rồi nhảy chơi, còn ngựa phải cưỡi phải kéo?",
+        "Cái giống đầu không ra đầu, đuôi không ra đuôi, mình nhỏ bụng to,",
+        "thấy người là há miệng kêu be be. Dê nghe, vênh râu chạy ra.",
+        "Anh từng vào dinh ra trấn thật, nhưng chớ cậy tài. Tôi không ăn lúa má, không phá đậu mè.",
+        "Việc dê dê biết, việc ngựa ngựa hay.",
+        "Dê thuộc về việc lễ: tế thánh, tế thần, cầu an, cầu phúc đều lấy dê dâng trước.",
+        "Đến thánh nhân còn giữ lễ dâng dê ngày mồng một.",
+        "Dê tuy nhỏ mà được phong Trường tu chủ bộ, ông quan râu dài.",
+        "Ngựa ở cửa quyền, được phong chức gì, thử nói xem?"
+      ],
+      "image": {
+        "prompt": "a bearded white goat standing proudly on a temple step beside an altar with incense, lifting its chin and long beard toward the white horse, the master seated between them listening",
+        "seed": 2934852779
+      },
+      "video": {
+        "motionPrompt": "the goat strokes its beard with a hoof and lifts its chin higher, incense smoke curls up from the altar, the horse flicks its tail, slow push in",
+        "seed": 1589001923
+      },
+      "voice": {}
+    },
+    {
+      "id": "de-che-ga",
+      "title": "Dê chê gà",
+      "narrator": "ke-chuyen",
+      "narration": "Ông chủ phân xử cho dê và ngựa ngang nhau, ai giữ việc nấy. Hai bên làm lành xong, dê lại quay sang kiện gà. Nuôi chúng tôi thì lợi nước lợi nhà, còn nuôi gà thật vô ơn. Chủ vừa gieo luống ngò, luống cải, gà rủ nhau bươi trốc cả gốc. Người vừa trồng đậu, vun khoai, gà xúm vào cào nát cả hoa lá. Thấy mái nhà lợp rạ, gà kéo nhau lên đó nhảy nhót tung bừng. Ăn xong thì quẹt mỏ, trời chưa tối đã lo đi ngủ. Suốt ngày chỉ có khuấy với rầy. Nuôi giống ấy làm gì cho vô lối?",
+      "subtitles": [
+        "Ông chủ phân xử cho dê và ngựa ngang nhau, ai giữ việc nấy.",
+        "Hai bên làm lành xong, dê lại quay sang kiện gà.",
+        "Nuôi chúng tôi thì lợi nước lợi nhà, còn nuôi gà thật vô ơn.",
+        "Chủ vừa gieo luống ngò, luống cải, gà rủ nhau bươi trốc cả gốc.",
+        "Người vừa trồng đậu, vun khoai, gà xúm vào cào nát cả hoa lá.",
+        "Thấy mái nhà lợp rạ, gà kéo nhau lên đó nhảy nhót tung bừng.",
+        "Ăn xong thì quẹt mỏ, trời chưa tối đã lo đi ngủ. Suốt ngày chỉ có khuấy với rầy.",
+        "Nuôi giống ấy làm gì cho vô lối?"
+      ],
+      "image": {
+        "prompt": "a flock of hens and a rooster scratching up a freshly sown vegetable bed of coriander and mustard greens in a farmhouse garden, soil and leaves flying, the bearded goat pointing at them indignantly, the master watching",
+        "seed": 276905432,
+        "character": "ong-chu"
+      },
+      "video": {
+        "motionPrompt": "the hens scratch furiously and send soil flying, the goat stamps and bleats, a young leaf tumbles in the air, quick comic pan",
+        "seed": 1485654122
+      },
+      "voice": {}
+    },
+    {
+      "id": "ga-nam-duc",
+      "title": "Gà năm đức",
+      "narrator": "ke-chuyen",
+      "narration": "Gà nghe nói nóng mặt, nhảy ra vỗ cánh, ngẩng đầu. Này, gà có đủ năm đức: văn, võ, dũng, nhân, tín. Trên đầu đội mũ quan văn, dưới chân mang đôi cựa như giáo. Gà từng ra chiến trường, lập công vang dội. Nửa đêm gà gáy ba tiếng, chúc trời yên, chúc nước thịnh, chúc dân vui. Tiếng gà từng cứu Mạnh Thường Quân thoát qua cửa ải, từng đánh thức kẻ sĩ dậy học, lại nhắc vua dậy sớm lo việc nước. Người ta còn xem chân gà mà đoán thịnh suy. Dê biết lễ thì gà cũng biết lễ, dê là Chủ bộ thì gà là Tư thần. Gà không có người chăn nên mới lỡ bươi móc, còn dê mà không ai trông thì phá gấp mười. Gà chỉ thua dê một chòm râu nịnh. Dê nghe, biết mình thua lý, xin làm tờ chịu thuận.",
+      "subtitles": [
+        "Gà nghe nói nóng mặt, nhảy ra vỗ cánh, ngẩng đầu.",
+        "Này, gà có đủ năm đức: văn, võ, dũng, nhân, tín.",
+        "Trên đầu đội mũ quan văn, dưới chân mang đôi cựa như giáo.",
+        "Gà từng ra chiến trường, lập công vang dội.",
+        "Nửa đêm gà gáy ba tiếng, chúc trời yên, chúc nước thịnh, chúc dân vui.",
+        "Tiếng gà từng cứu Mạnh Thường Quân thoát qua cửa ải, từng đánh thức kẻ sĩ dậy học,",
+        "lại nhắc vua dậy sớm lo việc nước.",
+        "Người ta còn xem chân gà mà đoán thịnh suy.",
+        "Dê biết lễ thì gà cũng biết lễ, dê là Chủ bộ thì gà là Tư thần.",
+        "Gà không có người chăn nên mới lỡ bươi móc, còn dê mà không ai trông thì phá gấp mười.",
+        "Gà chỉ thua dê một chòm râu nịnh.",
+        "Dê nghe, biết mình thua lý, xin làm tờ chịu thuận."
+      ],
+      "image": {
+        "prompt": "a proud red rooster standing on a woodpile at dawn, crowing with chest puffed and comb blazing like a scholar's hat, the first light of sunrise behind it, the goat lowering its head in defeat below",
+        "seed": 1554048399,
+        "character": "con-ga"
+      },
+      "video": {
+        "motionPrompt": "the rooster throws back its head and crows, sunrise light spreads across the yard, the goat steps back and bows its head, slow tilt up to the sky",
+        "seed": 2576370617
+      },
+      "voice": {}
+    },
+    {
+      "id": "ga-che-heo",
+      "title": "Gà chê heo",
+      "narrator": "ke-chuyen",
+      "narration": "Gà vẫn chưa nguôi giận, quay sang thưa với chủ. Chúng gà giữ đạo làm tôi, thức khuya dậy sớm. Lúc bé còn được người nâng niu, lớn lên thì tự kiếm lấy mà ăn, siêng bươi thì no, biếng bươi thì đói. Làm tôi người mà chẳng được nhờ gì. Còn heo kia ăn xong ngủ ngáy khò khò, giả ngây giả dại, biết gì đến việc chủ. Mặt mũi thì dị hình dị dạng. Nuôi chơi cũng chẳng phải giống để chơi, chủ vẫn phải chạy rau chạy cám. No thì nhảy quanh, đói thì cắn máng cắn chuồng, ngày ba bữa không sai bữa nào. Chẳng biết nó có tài cán gì mà người yêu chiều đến thế?",
+      "subtitles": [
+        "Gà vẫn chưa nguôi giận, quay sang thưa với chủ.",
+        "Chúng gà giữ đạo làm tôi, thức khuya dậy sớm.",
+        "Lúc bé còn được người nâng niu, lớn lên thì tự kiếm lấy mà ăn, siêng bươi thì no,",
+        "biếng bươi thì đói. Làm tôi người mà chẳng được nhờ gì.",
+        "Còn heo kia ăn xong ngủ ngáy khò khò, giả ngây giả dại, biết gì đến việc chủ.",
+        "Mặt mũi thì dị hình dị dạng.",
+        "Nuôi chơi cũng chẳng phải giống để chơi, chủ vẫn phải chạy rau chạy cám.",
+        "No thì nhảy quanh, đói thì cắn máng cắn chuồng, ngày ba bữa không sai bữa nào.",
+        "Chẳng biết nó có tài cán gì mà người yêu chiều đến thế?"
+      ],
+      "image": {
+        "prompt": "the red rooster perched on the edge of a pigsty pointing its wing at a fat black pig snoring blissfully in the straw beside an empty feeding trough",
+        "seed": 852591453,
+        "character": "con-ga"
+      },
+      "video": {
+        "motionPrompt": "the pig's belly rises and falls as it snores, the rooster flaps its wings and squawks, a fly buzzes around the pig's ear, slow comic push in",
+        "seed": 1271520130
+      },
+      "voice": {}
+    },
+    {
+      "id": "heo-noi-lon",
+      "title": "Heo nói lớn",
+      "narrator": "ke-chuyen",
+      "narration": "Heo ngóc dậy. Chú gà chớ có múa mỏ, coi chừng có ngày bị cắn cổ đấy. Thương ghét là tùy lòng chủ, chớ có thóc mách. Trong sáu loài, ai béo tốt bằng heo? Vua làm lễ tế trời đất ở đàn Nam Giao, phải có heo mới đủ lễ tam sinh. Việc cưới xin mà không có heo thì mời năm bảy lần cũng chẳng thấy ai đến. Việc hòa giải cũng nhờ heo đầu công. Trong làng có kẻ cãi nhau, đánh nhau sứt đầu, làng xã rối tung chẳng ai gỡ nổi, khiêng con heo ra giữa là mọi việc xong xuôi. Việc quan, việc cưới, việc tang, việc tế, việc nào cũng lấy heo làm đầu. Tan xương nát thịt cũng chẳng quản, lòng thờ chủ ngay thẳng rõ ràng. Chỉ tại chú gà nói lời lấn lướt, nên heo mới phải phân trần.",
+      "subtitles": [
+        "Heo ngóc dậy.",
+        "Chú gà chớ có múa mỏ, coi chừng có ngày bị cắn cổ đấy.",
+        "Thương ghét là tùy lòng chủ, chớ có thóc mách. Trong sáu loài, ai béo tốt bằng heo?",
+        "Vua làm lễ tế trời đất ở đàn Nam Giao, phải có heo mới đủ lễ tam sinh.",
+        "Việc cưới xin mà không có heo thì mời năm bảy lần cũng chẳng thấy ai đến.",
+        "Việc hòa giải cũng nhờ heo đầu công.",
+        "Trong làng có kẻ cãi nhau, đánh nhau sứt đầu, làng xã rối tung chẳng ai gỡ nổi,",
+        "khiêng con heo ra giữa là mọi việc xong xuôi.",
+        "Việc quan, việc cưới, việc tang, việc tế, việc nào cũng lấy heo làm đầu.",
+        "Tan xương nát thịt cũng chẳng quản, lòng thờ chủ ngay thẳng rõ ràng.",
+        "Chỉ tại chú gà nói lời lấn lướt, nên heo mới phải phân trần."
+      ],
+      "image": {
+        "prompt": "a fat black pig standing up proudly in the farmyard with chest out, behind it a woodblock-style village scene of a wedding procession and village elders feasting around a roast pig at the communal house, the rooster stepping back",
+        "seed": 198907829
+      },
+      "video": {
+        "motionPrompt": "the pig lifts its snout and grunts proudly, the village feast scene glows behind it, the rooster backs away flapping, slow pan",
+        "seed": 2748298469
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-phan-xu",
+      "title": "Lời phân xử",
+      "narrator": "ke-chuyen",
+      "narration": "Bấy giờ ông chủ mới phân xử, phê một câu cho thấu tình. Gà biết bỏ mình mà giữ nghĩa, heo thì yên ổn mà sinh sôi, nuôi lớn. Người viết truyện bảo rằng, lúc rảnh rỗi thảo ra cho rõ chuyện đời. Chuyện này cũng chỉ là chuyện nói chơi, ai muốn thì đọc mà cười cho vui.",
+      "subtitles": [
+        "Bấy giờ ông chủ mới phân xử, phê một câu cho thấu tình.",
+        "Gà biết bỏ mình mà giữ nghĩa, heo thì yên ổn mà sinh sôi, nuôi lớn.",
+        "Người viết truyện bảo rằng, lúc rảnh rỗi thảo ra cho rõ chuyện đời.",
+        "Chuyện này cũng chỉ là chuyện nói chơi, ai muốn thì đọc mà cười cho vui."
+      ],
+      "image": {
+        "prompt": "the elderly master standing on the veranda with an open fan raised, all six animals buffalo, dog, horse, goat, rooster and pig gathered peacefully below him in the evening light, smoke rising from the kitchen, bamboo hedge glowing",
+        "seed": 3778747322,
+        "character": "ong-chu"
+      },
+      "video": {
+        "motionPrompt": "the master lowers his fan, the animals settle down side by side, evening light warms the yard, slow pull back over the farmhouse",
+        "seed": 3346999978
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light humorous traditional northern Vietnamese folk instrumental, dan bau monochord, bamboo flute and wooden clappers, playful village festival rhythm, medium tempo, no vocals",
+    "durationSeconds": 150,
+    "seed": 1650390696
+  }
+}

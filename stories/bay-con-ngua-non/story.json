@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "slug": "bay-con-ngua-non",
+  "shelf": "world",
+  "title": "Bảy con ngựa non",
+  "summary": "Nhà vua hứa gả công chúa cho ai trông được bảy con ngựa non suốt một ngày và nói đúng chúng ăn gì, uống gì. Hai người anh ham nghỉ nên thua, chỉ cậu út Lọ Lem bám chặt đuôi ngựa và khám phá ra bí mật của bảy hoàng tử bị phù phép. Truyện dân gian Na Uy trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Seven Foals\" trong The Red Fairy Book do Andrew Lang biên tập (1890; Lang chép từ tập truyện dân gian Na Uy của Jørgen Moe), Project Gutenberg #540, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ các đoạn dữ dằn (hai người anh chỉ bị đuổi về, phép giải bằng cây gậy sắt cổ khẽ chạm lên trán ngựa), không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Na Uy, Andrew Lang chép (1890)",
+  "style": "classic Scandinavian fairy tale picture book illustration, Norwegian pine forests, birch trees, rolling green hills and fjords, a wooden royal palace with carved dragon roof ends, soft northern light, gentle watercolor and gouache textures, colors of moss green, birch white, deep blue and warm amber, cozy and whimsical mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "lo-lem",
+      "name": "Cậu út Lọ Lem",
+      "sheetPrompt": "a cheerful skinny Norwegian farm boy from an old fairy tale, messy straw-colored hair with a smudge of ash on his cheek, patched brown wool tunic, simple leather shoes, bright determined eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2173747338
+    },
+    {
+      "id": "ngua-non",
+      "name": "Bảy con ngựa non",
+      "sheetPrompt": "seven young foals from a Norwegian fairy tale, sleek chestnut and bay coats with soft white stars on their foreheads, the youngest one smallest and lightest with a golden mane, lively and graceful, full body, plain light background, character reference sheet",
+      "seed": 506954225
+    },
+    {
+      "id": "nha-vua",
+      "name": "Nhà vua",
+      "sheetPrompt": "a stern but fair old Norwegian king from a fairy tale, long grey beard, simple gold crown, deep red cloak with white fur trim, standing tall, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3174366138
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nha-ngheo-trong-rung",
+      "title": "Ngôi nhà nghèo trong rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, sâu trong một khu rừng thông ở xứ Na Uy, có hai vợ chồng nghèo sống trong túp lều nhỏ. Họ có ba người con trai. Hai người anh thì cao lớn, còn cậu út suốt ngày ngồi bên bếp, cời tro chơi, nên ai cũng gọi là Lọ Lem. Một hôm, người anh cả bảo: \"Con đi tìm việc làm đây.\" Anh đi suốt một ngày, chiều tối thì tới trước cung điện. Nhà vua đứng trên bậc thềm, hỏi: \"Ngươi có muốn trông bảy con ngựa non của ta không? Trông chúng trọn một ngày, tối về nói đúng chúng ăn gì, uống gì, ta sẽ gả công chúa và chia cho nửa vương quốc. Còn nếu không nói được, ta sẽ phạt thật nặng rồi đuổi về.\"",
+      "subtitles": [
+        "Ngày xưa, sâu trong một khu rừng thông ở xứ Na Uy,",
+        "có hai vợ chồng nghèo sống trong túp lều nhỏ. Họ có ba người con trai.",
+        "Hai người anh thì cao lớn, còn cậu út suốt ngày ngồi bên bếp, cời tro chơi,",
+        "nên ai cũng gọi là Lọ Lem. Một hôm, người anh cả bảo: \"Con đi tìm việc làm đây.\"",
+        "Anh đi suốt một ngày, chiều tối thì tới trước cung điện.",
+        "Nhà vua đứng trên bậc thềm, hỏi: \"Ngươi có muốn trông bảy con ngựa non của ta không?",
+        "Trông chúng trọn một ngày, tối về nói đúng chúng ăn gì, uống gì,",
+        "ta sẽ gả công chúa và chia cho nửa vương quốc.",
+        "Còn nếu không nói được, ta sẽ phạt thật nặng rồi đuổi về.\""
+      ],
+      "image": {
+        "prompt": "a small wooden hut in a deep Norwegian pine forest, a skinny boy with ash on his cheek poking the hearth fire while his two tall older brothers pack bags, their poor parents watching",
+        "seed": 3789540423,
+        "character": "lo-lem"
+      },
+      "video": {
+        "motionPrompt": "the fire flickers, the boy pokes the ashes, the eldest brother swings his bag onto his shoulder and opens the door",
+        "seed": 1415561956
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-lao-chai-toc",
+      "title": "Bà lão chải tóc",
+      "narrator": "ke-chuyen",
+      "narration": "Người anh cả nghĩ việc ấy dễ quá, bèn nhận lời. Sáng sớm, bảy con ngựa non vừa được thả ra là phóng vụt đi, qua đồi, qua thung, qua rừng, qua đầm. Anh chạy theo mãi, mồ hôi ướt đẫm, chân mỏi rã rời. Tới một khe đá, anh thấy một bà lão ngồi kéo sợi. Bà gọi: \"Lại đây, lại đây con trai đẹp đẽ, để bà chải tóc cho.\" Anh mừng quá, ngồi xuống gối đầu lên gối bà mà nghỉ, quên khuấy bầy ngựa. Chiều về, bà đưa cho anh một chai nước và một nhúm rêu, dặn cứ nói với vua rằng ngựa ăn rêu, uống nước. Nhưng nhà vua biết ngay anh đã ngủ quên cả ngày. Vua giận lắm, phạt rồi đuổi anh về nhà. Hôm sau, người anh thứ hai cũng đi, và cũng y như thế.",
+      "subtitles": [
+        "Người anh cả nghĩ việc ấy dễ quá, bèn nhận lời.",
+        "Sáng sớm, bảy con ngựa non vừa được thả ra là phóng vụt đi, qua đồi, qua thung, qua rừng,",
+        "qua đầm. Anh chạy theo mãi, mồ hôi ướt đẫm, chân mỏi rã rời.",
+        "Tới một khe đá, anh thấy một bà lão ngồi kéo sợi.",
+        "Bà gọi: \"Lại đây, lại đây con trai đẹp đẽ, để bà chải tóc cho.\"",
+        "Anh mừng quá, ngồi xuống gối đầu lên gối bà mà nghỉ, quên khuấy bầy ngựa.",
+        "Chiều về, bà đưa cho anh một chai nước và một nhúm rêu,",
+        "dặn cứ nói với vua rằng ngựa ăn rêu, uống nước.",
+        "Nhưng nhà vua biết ngay anh đã ngủ quên cả ngày. Vua giận lắm, phạt rồi đuổi anh về nhà.",
+        "Hôm sau, người anh thứ hai cũng đi, và cũng y như thế."
+      ],
+      "image": {
+        "prompt": "in a mossy rock cleft an old woman spinning with a distaff combs the hair of a tired young man who rests his head on her lap, seven foals running far away over the hills behind them",
+        "seed": 480278061
+      },
+      "video": {
+        "motionPrompt": "the old woman combs slowly and smiles slyly, the young man yawns and dozes, the foals disappear over a distant hill",
+        "seed": 2017370912
+      },
+      "voice": {}
+    },
+    {
+      "id": "lo-lem-len-duong",
+      "title": "Lọ Lem lên đường",
+      "narrator": "ke-chuyen",
+      "narration": "Đến lượt cậu út. Hai người anh cười ầm lên: \"Đến bọn anh còn thua, em chỉ biết cời tro thì làm được gì?\" Cha mẹ cũng can, nhưng Lọ Lem vẫn nhất quyết đi. Tới cung điện, nhà vua nhíu mày: \"Ngươi là em của hai đứa kia ư? Ta chán những kẻ như vậy lắm rồi.\" Lọ Lem lễ phép thưa: \"Tâu bệ hạ, con đã tới đây, xin bệ hạ cho con thử một lần.\" Vua đành gật đầu. Sáng hôm sau, bảy con ngựa lại phóng đi. Lọ Lem nắm chặt đuôi một con, chạy theo không rời. Qua khe đá, bà lão lại gọi ngọt ngào: \"Lại đây, con trai, để bà chải tóc cho.\" Lọ Lem vừa chạy vừa đáp vui vẻ: \"Bà cứ chờ đó nhé!\" rồi lướt qua luôn. Đi một quãng, con ngựa non nhỏ nhất bỗng cất tiếng: \"Leo lên lưng tôi đi, đường còn xa lắm.\"",
+      "subtitles": [
+        "Đến lượt cậu út.",
+        "Hai người anh cười ầm lên: \"Đến bọn anh còn thua, em chỉ biết cời tro thì làm được gì?\"",
+        "Cha mẹ cũng can, nhưng Lọ Lem vẫn nhất quyết đi.",
+        "Tới cung điện, nhà vua nhíu mày: \"Ngươi là em của hai đứa kia ư?",
+        "Ta chán những kẻ như vậy lắm rồi.\"",
+        "Lọ Lem lễ phép thưa: \"Tâu bệ hạ, con đã tới đây, xin bệ hạ cho con thử một lần.\"",
+        "Vua đành gật đầu. Sáng hôm sau, bảy con ngựa lại phóng đi.",
+        "Lọ Lem nắm chặt đuôi một con, chạy theo không rời.",
+        "Qua khe đá, bà lão lại gọi ngọt ngào: \"Lại đây, con trai, để bà chải tóc cho.\"",
+        "Lọ Lem vừa chạy vừa đáp vui vẻ: \"Bà cứ chờ đó nhé!\" rồi lướt qua luôn.",
+        "Đi một quãng, con ngựa non nhỏ nhất bỗng cất tiếng: \"Leo lên lưng tôi đi,",
+        "đường còn xa lắm.\""
+      ],
+      "image": {
+        "prompt": "a cheerful skinny boy with ash on his cheek running and holding tightly to the tail of a young foal, passing an old woman spinning in a rock cleft, the smallest golden-maned foal turning its head to speak to him",
+        "seed": 4113145863,
+        "character": "lo-lem"
+      },
+      "video": {
+        "motionPrompt": "the boy runs laughing, the foals gallop over a green hill, the youngest foal slows down and lowers its back for him",
+        "seed": 2484451074
+      },
+      "voice": {}
+    },
+    {
+      "id": "can-phong-trong-goc-bach-duong",
+      "title": "Căn phòng trong gốc bạch dương",
+      "narrator": "ke-chuyen",
+      "narration": "Lọ Lem cưỡi ngựa đi mãi. Con ngựa hỏi: \"Cậu đã thấy gì chưa?\" \"Chưa thấy gì cả.\" Đi thêm một quãng xa, ngựa lại hỏi, cậu lại lắc đầu. Mãi sau cậu mới reo lên: \"Tôi thấy một vật trắng trắng, giống gốc cây bạch dương to lắm!\" Con ngựa lớn nhất húc nhẹ vào thân cây. Thân cây mở ra một cánh cửa, bên trong là căn phòng nhỏ có lò sưởi, hai chiếc ghế dài, một cây gậy sắt cổ và một chiếc bình nhỏ. Lọ Lem nhấc gậy không nổi, bèn uống ba ngụm nước trong bình, thế là nhấc lên nhẹ tênh. Con ngựa non nói: \"Chúng tôi vốn là bảy hoàng tử, anh em ruột của công chúa. Một lão quỷ núi đã phù phép biến chúng tôi thành ngựa. Đến ngày cưới, cậu hãy dùng cây gậy này chạm nhẹ lên trán từng người chúng tôi, từ anh cả đến em út, thì phép thuật sẽ tan.\"",
+      "subtitles": [
+        "Lọ Lem cưỡi ngựa đi mãi. Con ngựa hỏi: \"Cậu đã thấy gì chưa?\" \"Chưa thấy gì cả.\"",
+        "Đi thêm một quãng xa, ngựa lại hỏi, cậu lại lắc đầu.",
+        "Mãi sau cậu mới reo lên: \"Tôi thấy một vật trắng trắng, giống gốc cây bạch dương to lắm!\"",
+        "Con ngựa lớn nhất húc nhẹ vào thân cây.",
+        "Thân cây mở ra một cánh cửa, bên trong là căn phòng nhỏ có lò sưởi, hai chiếc ghế dài,",
+        "một cây gậy sắt cổ và một chiếc bình nhỏ.",
+        "Lọ Lem nhấc gậy không nổi, bèn uống ba ngụm nước trong bình, thế là nhấc lên nhẹ tênh.",
+        "Con ngựa non nói: \"Chúng tôi vốn là bảy hoàng tử, anh em ruột của công chúa.",
+        "Một lão quỷ núi đã phù phép biến chúng tôi thành ngựa.",
+        "Đến ngày cưới, cậu hãy dùng cây gậy này chạm nhẹ lên trán từng người chúng tôi,",
+        "từ anh cả đến em út, thì phép thuật sẽ tan.\""
+      ],
+      "image": {
+        "prompt": "inside a tiny secret room hidden in the trunk of a huge white birch tree, a small fireplace, two benches, a boy lifting an old heavy iron staff after drinking from a small clay pitcher, seven foals peeking in at the door",
+        "seed": 3831556441,
+        "character": "lo-lem"
+      },
+      "video": {
+        "motionPrompt": "the boy sips from the pitcher, then lifts the iron staff easily and grins, the foals nod their heads, firelight glows",
+        "seed": 3416458866
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-hoang-tu-o-nha-tho",
+      "title": "Bảy hoàng tử ở nhà thờ nhỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Họ lại đi tiếp, qua một dòng sông xanh có cây cầu dài thật đẹp, rồi tới một ngôi nhà thờ nhỏ đứng giữa đồi. Vừa bước vào sân, bảy con ngựa non hoá thành bảy chàng hoàng tử áo quần lộng lẫy. Họ vào nhà thờ, nhận bánh thánh và rượu lễ từ tay vị linh mục già. Lọ Lem cũng đi theo, và khi ra về, cậu xin mang theo một chiếc bánh nhỏ cùng một bình rượu lễ. Ra tới sân, bảy hoàng tử lại hoá thành ngựa. Lọ Lem leo lên lưng con út, và cả đoàn phi về nhanh như gió, qua cây cầu, qua gốc bạch dương, qua cả khe đá nơi bà lão đang ngồi. Bà lão đứng bật dậy, hét với theo giận dữ, nhưng ngựa chạy nhanh quá, Lọ Lem chẳng nghe rõ bà nói gì.",
+      "subtitles": [
+        "Họ lại đi tiếp, qua một dòng sông xanh có cây cầu dài thật đẹp,",
+        "rồi tới một ngôi nhà thờ nhỏ đứng giữa đồi.",
+        "Vừa bước vào sân, bảy con ngựa non hoá thành bảy chàng hoàng tử áo quần lộng lẫy.",
+        "Họ vào nhà thờ, nhận bánh thánh và rượu lễ từ tay vị linh mục già.",
+        "Lọ Lem cũng đi theo, và khi ra về,",
+        "cậu xin mang theo một chiếc bánh nhỏ cùng một bình rượu lễ.",
+        "Ra tới sân, bảy hoàng tử lại hoá thành ngựa.",
+        "Lọ Lem leo lên lưng con út, và cả đoàn phi về nhanh như gió, qua cây cầu,",
+        "qua gốc bạch dương, qua cả khe đá nơi bà lão đang ngồi.",
+        "Bà lão đứng bật dậy, hét với theo giận dữ, nhưng ngựa chạy nhanh quá,",
+        "Lọ Lem chẳng nghe rõ bà nói gì."
+      ],
+      "image": {
+        "prompt": "in front of a small wooden stave church on a green hill seven young princes in shining royal clothes walk inside, a boy following them, their foal shadows still visible on the grass, a long blue river with a handsome bridge in the distance",
+        "seed": 372387764,
+        "character": "lo-lem"
+      },
+      "video": {
+        "motionPrompt": "the foals shimmer and turn into princes as they step into the churchyard, warm light glows from the church door, a gentle breeze moves the grass",
+        "seed": 190423814
+      },
+      "voice": {}
+    },
+    {
+      "id": "tra-loi-nha-vua",
+      "title": "Trả lời nhà vua",
+      "narrator": "ke-chuyen",
+      "narration": "Trời vừa sẩm tối, cả đoàn về tới sân cung điện. Nhà vua đã đứng chờ sẵn. \"Ngươi có trông ngựa cẩn thận cả ngày không?\" \"Con đã cố hết sức, tâu bệ hạ.\" \"Vậy hãy nói xem, bảy con ngựa của ta ăn gì, uống gì?\" Lọ Lem lấy chiếc bánh và bình rượu lễ ra, thưa: \"Đây là thức ăn của chúng, còn đây là thức uống của chúng.\" Nhà vua lặng đi một lúc, rồi mỉm cười: \"Ngươi đã trông ngựa thật chăm chỉ và trung thực. Ta sẽ gả công chúa cho ngươi, cùng với nửa vương quốc.\" Thế là khắp nơi rộn ràng chuẩn bị đám cưới, nhà vua muốn một đám cưới thật linh đình để ai ai cũng phải nhắc tới.",
+      "subtitles": [
+        "Trời vừa sẩm tối, cả đoàn về tới sân cung điện. Nhà vua đã đứng chờ sẵn.",
+        "\"Ngươi có trông ngựa cẩn thận cả ngày không?\" \"Con đã cố hết sức, tâu bệ hạ.\"",
+        "\"Vậy hãy nói xem, bảy con ngựa của ta ăn gì, uống gì?\"",
+        "Lọ Lem lấy chiếc bánh và bình rượu lễ ra, thưa: \"Đây là thức ăn của chúng,",
+        "còn đây là thức uống của chúng.\"",
+        "Nhà vua lặng đi một lúc, rồi mỉm cười: \"Ngươi đã trông ngựa thật chăm chỉ và trung thực.",
+        "Ta sẽ gả công chúa cho ngươi, cùng với nửa vương quốc.\"",
+        "Thế là khắp nơi rộn ràng chuẩn bị đám cưới,",
+        "nhà vua muốn một đám cưới thật linh đình để ai ai cũng phải nhắc tới."
+      ],
+      "image": {
+        "prompt": "in a torch-lit palace courtyard at dusk a boy proudly shows a small loaf of bread and a flask to a tall old king with a grey beard, seven foals standing calmly behind him, a princess peeking from a window",
+        "seed": 1814480392,
+        "character": "nha-vua"
+      },
+      "video": {
+        "motionPrompt": "the king leans forward, his stern face softens into a smile, the princess smiles at the window, torches flicker",
+        "seed": 3231073433
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi-va-bay-hoang-tu",
+      "title": "Đám cưới và bảy hoàng tử",
+      "narrator": "ke-chuyen",
+      "narration": "Giữa tiệc cưới, chú rể Lọ Lem đứng dậy, xin phép xuống chuồng ngựa vì có việc quên chưa làm. Cậu cầm cây gậy sắt cổ, chạm nhẹ lên trán từng con ngựa non, từ con lớn nhất đến con bé nhất, đúng như lời dặn. Mỗi lần gậy chạm vào, một làn ánh sáng vàng toả ra, và con ngựa hoá thành một chàng hoàng tử. Cậu dẫn cả bảy anh em trở về phòng tiệc. Nhà vua mừng rỡ khôn xiết, ôm chầm lấy Lọ Lem, vỗ vai cậu mãi. Công chúa thì càng thương chồng hơn trước. Nhà vua nói: \"Nửa vương quốc đã là của con. Mai này, nửa kia cũng sẽ là của con, vì các con trai ta giờ đã tự lo được cho mình.\" Đám cưới hôm ấy vui ơi là vui, cả vương quốc ca hát nhảy múa suốt mấy ngày liền.",
+      "subtitles": [
+        "Giữa tiệc cưới, chú rể Lọ Lem đứng dậy,",
+        "xin phép xuống chuồng ngựa vì có việc quên chưa làm.",
+        "Cậu cầm cây gậy sắt cổ, chạm nhẹ lên trán từng con ngựa non,",
+        "từ con lớn nhất đến con bé nhất, đúng như lời dặn.",
+        "Mỗi lần gậy chạm vào, một làn ánh sáng vàng toả ra,",
+        "và con ngựa hoá thành một chàng hoàng tử. Cậu dẫn cả bảy anh em trở về phòng tiệc.",
+        "Nhà vua mừng rỡ khôn xiết, ôm chầm lấy Lọ Lem, vỗ vai cậu mãi.",
+        "Công chúa thì càng thương chồng hơn trước. Nhà vua nói: \"Nửa vương quốc đã là của con.",
+        "Mai này, nửa kia cũng sẽ là của con, vì các con trai ta giờ đã tự lo được cho mình.\"",
+        "Đám cưới hôm ấy vui ơi là vui, cả vương quốc ca hát nhảy múa suốt mấy ngày liền."
+      ],
+      "image": {
+        "prompt": "a joyful royal wedding feast in a wooden Norwegian hall with long tables, a happy young groom with a princess, seven young princes embracing their old father the king, warm golden light, guests dancing",
+        "seed": 509068048,
+        "character": "lo-lem"
+      },
+      "video": {
+        "motionPrompt": "golden light sparkles as the last foal turns into a prince, the king hugs the groom, guests raise their cups and dance",
+        "seed": 2713905381
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Norwegian folk melody, hardanger fiddle, soft harp and wooden flute, a playful galloping rhythm for the foals, a warm festive wedding dance at the end, peaceful fjord atmosphere, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 2763873056
+  }
+}

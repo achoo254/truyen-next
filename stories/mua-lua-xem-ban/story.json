@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "slug": "mua-lua-xem-ban",
+  "shelf": "world",
+  "title": "Mua lừa xem bạn",
+  "summary": "Một người muốn mua lừa nên dắt thử về nhà, thả vào chuồng với đàn lừa của mình. Chưa đầy một buổi, ông đã dắt nó trả lại chỉ vì nó chọn một người bạn. Ngụ ngôn Aesop về câu 'xem bạn biết người'.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; đối chiếu bản Townsend 1867, truyện «The Ass and His Purchaser», Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive characters, a lively ancient Greek market and a peaceful farmyard with a wooden stable, hay bales and olive trees, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "nguoi-mua",
+      "name": "Người mua lừa",
+      "seed": 1635163479,
+      "sheetPrompt": "a shrewd but friendly middle-aged Greek farmer with a grey beard, a green tunic, a leather pouch and a thoughtful look, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "lua-moi",
+      "name": "Chú lừa mới",
+      "seed": 399481443,
+      "sheetPrompt": "a young grey donkey with long ears, a fluffy forelock and a lazy half-closed sleepy expression, comical storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ra-cho",
+      "title": "Đi chợ mua lừa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bác nông dân muốn mua thêm một con lừa để chở hàng. Bác ra chợ, ngắm nghía mãi rồi dừng lại trước một chú lừa xám. Chú lừa có đôi tai dài, bộ lông xám mượt, trông cũng khá dễ thương. Người bán khen nức nở: “Lừa này khỏe lắm, chăm lắm!” Bác nông dân nói: “Cho tôi dắt về thử một hôm đã, ưng thì tôi mới mua.”",
+      "subtitles": [
+        "Ngày xưa, có một bác nông dân muốn mua thêm một con lừa để chở hàng.",
+        "Bác ra chợ, ngắm nghía mãi rồi dừng lại trước một chú lừa xám.",
+        "Chú lừa có đôi tai dài, bộ lông xám mượt, trông cũng khá dễ thương.",
+        "Người bán khen nức nở: “Lừa này khỏe lắm, chăm lắm!”",
+        "Bác nông dân nói: “Cho tôi dắt về thử một hôm đã, ưng thì tôi mới mua.”"
+      ],
+      "image": {
+        "character": "nguoi-mua",
+        "prompt": "a thoughtful farmer looking over a young grey donkey at a busy ancient Greek market, a smiling seller praising the donkey, baskets and stalls around",
+        "seed": 2864460815
+      },
+      "video": {
+        "motionPrompt": "the farmer strokes his beard and inspects the donkey, the seller gestures enthusiastically, market people bustle past",
+        "seed": 167422195
+      },
+      "voice": {}
+    },
+    {
+      "id": "tha-vao-chuong",
+      "title": "Thả vào chuồng",
+      "narrator": "ke-chuyen",
+      "narration": "Về tới nhà, bác thả chú lừa mới vào chuồng chung với đàn lừa của mình. Trong đàn có con chăm chỉ, có con khỏe mạnh, có con hiền lành. Con thì kéo cối xay, con thì chở bao lúa, con thì giúp bác gánh nước về nhà. Thế nhưng chú lừa mới chẳng thèm đến gần ai trong số đó.",
+      "subtitles": [
+        "Về tới nhà, bác thả chú lừa mới vào chuồng chung với đàn lừa của mình.",
+        "Trong đàn có con chăm chỉ, có con khỏe mạnh, có con hiền lành.",
+        "Con thì kéo cối xay, con thì chở bao lúa, con thì giúp bác gánh nước về nhà.",
+        "Thế nhưng chú lừa mới chẳng thèm đến gần ai trong số đó."
+      ],
+      "image": {
+        "character": "lua-moi",
+        "prompt": "a young grey donkey entering a farmyard stable where several donkeys are working and resting, a hardworking donkey carrying sacks",
+        "seed": 816118884
+      },
+      "video": {
+        "motionPrompt": "the new donkey walks in slowly, looks around the stable, ignores the hardworking donkeys, hay drifts in the air",
+        "seed": 1199712916
+      },
+      "voice": {}
+    },
+    {
+      "id": "chon-ban",
+      "title": "Chọn bạn",
+      "narrator": "ke-chuyen",
+      "narration": "Chú đi thẳng một mạch tới góc chuồng. Ở đó có một con lừa nổi tiếng lười nhất, tham ăn nhất đàn, suốt ngày chỉ nằm ườn bên máng cỏ. Chú lừa mới sà xuống nằm cạnh nó, hai đứa cùng nhai cỏ nhóp nhép, mắt lim dim.",
+      "subtitles": [
+        "Chú đi thẳng một mạch tới góc chuồng.",
+        "Ở đó có một con lừa nổi tiếng lười nhất,",
+        "tham ăn nhất đàn, suốt ngày chỉ nằm ườn bên máng cỏ.",
+        "Chú lừa mới sà xuống nằm cạnh nó, hai đứa cùng nhai cỏ nhóp nhép, mắt lim dim."
+      ],
+      "image": {
+        "character": "lua-moi",
+        "prompt": "a lazy young grey donkey lying down next to a fat lazy donkey beside the hay trough in the corner of the stable, both munching hay with half-closed eyes",
+        "seed": 2201404486
+      },
+      "video": {
+        "motionPrompt": "the two donkeys flop down side by side, munch hay lazily and close their eyes, a fly buzzes around their ears",
+        "seed": 3239384644
+      },
+      "voice": {}
+    },
+    {
+      "id": "tra-lai",
+      "title": "Dắt trả lại",
+      "narrator": "ke-chuyen",
+      "narration": "Bác nông dân đứng ngoài nhìn vào, gật gù. Bác lập tức tháo dây, dắt chú lừa ra chợ trả lại. Chú lừa mới ngáp dài một cái, lững thững đi theo, chẳng tiếc gì cái chuồng mới. Người bán ngạc nhiên: “Bác đã thử nó làm việc đâu mà biết nó không tốt?”",
+      "subtitles": [
+        "Bác nông dân đứng ngoài nhìn vào, gật gù.",
+        "Bác lập tức tháo dây, dắt chú lừa ra chợ trả lại.",
+        "Chú lừa mới ngáp dài một cái, lững thững đi theo, chẳng tiếc gì cái chuồng mới.",
+        "Người bán ngạc nhiên: “Bác đã thử nó làm việc đâu mà biết nó không tốt?”"
+      ],
+      "image": {
+        "character": "nguoi-mua",
+        "prompt": "the farmer leading the young grey donkey back to the market seller, the seller looking surprised with raised eyebrows",
+        "seed": 4071051581
+      },
+      "video": {
+        "motionPrompt": "the farmer walks briskly with the donkey on a rope, the seller raises his eyebrows and spreads his hands in surprise",
+        "seed": 632184535
+      },
+      "voice": {}
+    },
+    {
+      "id": "xem-ban",
+      "title": "Xem bạn biết người",
+      "narrator": "ke-chuyen",
+      "narration": "Bác nông dân mỉm cười: “Chẳng cần thử đâu. Nó vừa vào chuồng đã chọn ngay đứa lười nhất làm bạn. Nhìn bạn của nó, tôi biết nó là con lừa thế nào rồi.” Các bạn nhỏ ạ, người ta thường nhìn những người bạn ta chọn để đoán xem ta là người như thế nào. Hãy chọn bạn tốt mà chơi nhé.",
+      "subtitles": [
+        "Bác nông dân mỉm cười: “Chẳng cần thử đâu.",
+        "Nó vừa vào chuồng đã chọn ngay đứa lười nhất làm bạn.",
+        "Nhìn bạn của nó, tôi biết nó là con lừa thế nào rồi.”",
+        "Các bạn nhỏ ạ,",
+        "người ta thường nhìn những người bạn ta chọn để đoán xem ta là người như thế nào.",
+        "Hãy chọn bạn tốt mà chơi nhé."
+      ],
+      "image": {
+        "character": "nguoi-mua",
+        "prompt": "the wise farmer smiling and explaining to the market seller, the young donkey yawning lazily beside them, warm afternoon market light",
+        "seed": 842787438
+      },
+      "video": {
+        "motionPrompt": "the farmer smiles and nods, the donkey gives a big lazy yawn, the seller scratches his head and laughs",
+        "seed": 429690610
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "cheerful rustic market storybook music, accordion-like reed instrument and lute, a clip-clop donkey rhythm on woodblocks, a lazy sleepy tuba for the stable, a wise gentle ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2814861842
+  }
+}

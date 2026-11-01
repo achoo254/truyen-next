@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "slug": "vi-sao-qua-den-bim-bip-hai-mau",
+  "shelf": "kids",
+  "title": "Vì sao quạ đen, bìm bịp hai màu",
+  "summary": "Ông Thánh sai quạ ra sông xem nước, quạ mải ăn tôm cá quên về, rủ cả bìm bịp ăn theo. Sợ bị mắng, hai đứa bôi mực lên mình, quạ đen trùi trũi, bìm bịp nửa đen nửa đỏ. Sự tích dân gian Việt Nam kể nhẹ cho bé.",
+  "themes": [
+    "su-tich",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Việt Nam «Quạ và bìm bịp hóa thân» do A. Landes chép trong Contes et légendes annamites (Sài Gòn, 1886), truyện số tám mươi lăm, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản Pháp. Bản cho trẻ nhỏ: ông Thánh không đánh mà chỉ không cho hai đứa theo thuyền. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, thêm thoại và lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện dân gian Việt Nam (A. Landes, 1886)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, a wide river with reeds, a big wooden boat on the shore, a small village temple and bamboo groves, warm gentle light, rounded friendly shapes, calm and safe mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 2829666962,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-thanh",
+      "name": "Ông Thánh",
+      "seed": 35764089,
+      "sheetPrompt": "a kind old Vietnamese saint with a long white beard, a flowing light grey robe and a gentle smile, holding a wooden staff, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "qua",
+      "name": "Cậu quạ",
+      "seed": 1374382733,
+      "sheetPrompt": "a cheeky young boy who later becomes a glossy all-black crow with a mischievous smile, round cartoon style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bim-bip",
+      "name": "Cậu bìm bịp",
+      "seed": 1124160879,
+      "sheetPrompt": "a shy young boy who later becomes a greater coucal bird with a black head and body and rusty red wings, round cartoon style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bo-cau",
+      "name": "Chú bồ câu",
+      "seed": 1526382443,
+      "sheetPrompt": "a neat white-grey pigeon with soft eyes, carrying a green leaf in its beak, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã thấy chim quạ chưa? Quạ đen trùi trũi từ đầu đến chân. Còn chim bìm bịp ở bờ sông thì lại nửa đen, nửa đỏ như mặc áo hai màu. Vì sao lại thế nhỉ? Ngày xưa, hai chú chim ấy vốn là hai cậu bé đấy. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn đã thấy chim quạ chưa?",
+        "Quạ đen trùi trũi từ đầu đến chân.",
+        "Còn chim bìm bịp ở bờ sông thì lại nửa đen, nửa đỏ như mặc áo hai màu.",
+        "Vì sao lại thế nhỉ? Ngày xưa, hai chú chim ấy vốn là hai cậu bé đấy.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a riverside reed bank holding a little picture book, a black crow perches on a bamboo branch and a black-and-red coucal peeks from the reeds",
+        "seed": 2258976819
+      },
+      "video": {
+        "motionPrompt": "the cat looks from the crow to the coucal and tilts her head, reeds sway, the river sparkles, slow camera push-in",
+        "seed": 2220654595
+      },
+      "voice": {}
+    },
+    {
+      "id": "sai-qua",
+      "title": "Ông Thánh sai quạ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, quạ và bìm bịp vốn là hai cậu bé, ở cùng một ông Thánh. Một hôm, ông Thánh cho một trăm người thợ đóng một chiếc thuyền thật to. Thuyền đóng xong, ông gọi cậu quạ bảo: Con ra sông xem nước lên cao chưa, có hạ thuyền được chưa, rồi về báo cho ta. Cậu quạ dạ một tiếng rồi chạy ra bờ sông.",
+      "subtitles": [
+        "Ngày xưa, quạ và bìm bịp vốn là hai cậu bé, ở cùng một ông Thánh.",
+        "Một hôm, ông Thánh cho một trăm người thợ đóng một chiếc thuyền thật to.",
+        "Thuyền đóng xong, ông gọi cậu quạ bảo: Con ra sông xem nước lên cao chưa,",
+        "có hạ thuyền được chưa, rồi về báo cho ta. Cậu quạ dạ một tiếng rồi chạy ra bờ sông."
+      ],
+      "image": {
+        "character": "ong-thanh",
+        "prompt": "a kind old saint with a white beard stands beside a huge new wooden boat on the river shore, many carpenters cheer, he points toward the river and talks to a cheeky boy",
+        "seed": 1017322641
+      },
+      "video": {
+        "motionPrompt": "the saint points to the river, the boy nods and runs off, carpenters wave their tools, river water glimmers",
+        "seed": 2526542318
+      },
+      "voice": {}
+    },
+    {
+      "id": "mai-an",
+      "title": "Mải ăn quên về",
+      "narrator": "ke-chuyen",
+      "narration": "Ra đến sông, cậu quạ thấy tôm cá nhiều quá, nhảy tanh tách dưới nước. Cậu mê quá, ngồi xuống bắt tôm, mò cá mà ăn, quên khuấy cả việc ông dặn. Ông Thánh chờ mãi chẳng thấy, lại sai cậu bìm bịp đi tìm. Bìm bịp ra sông, thấy quạ đang ăn. Quạ vẫy: Ở đây nhiều tôm cá lắm, ngồi ăn với tớ đã, việc gì phải vội! Bìm bịp nghe bùi tai, cũng ngồi xuống ăn luôn.",
+      "subtitles": [
+        "Ra đến sông, cậu quạ thấy tôm cá nhiều quá, nhảy tanh tách dưới nước.",
+        "Cậu mê quá, ngồi xuống bắt tôm, mò cá mà ăn, quên khuấy cả việc ông dặn.",
+        "Ông Thánh chờ mãi chẳng thấy, lại sai cậu bìm bịp đi tìm.",
+        "Bìm bịp ra sông, thấy quạ đang ăn.",
+        "Quạ vẫy: Ở đây nhiều tôm cá lắm, ngồi ăn với tớ đã, việc gì phải vội!",
+        "Bìm bịp nghe bùi tai, cũng ngồi xuống ăn luôn."
+      ],
+      "image": {
+        "character": "qua",
+        "prompt": "two boys squat at the edge of a shallow river happily catching little shrimp and fish with their hands, splashing water, reeds around them, the big boat far away on the shore",
+        "seed": 2275056546
+      },
+      "video": {
+        "motionPrompt": "the boys splash and laugh catching shrimp, fish jump, ripples spread, the sun moves across the sky",
+        "seed": 442481282
+      },
+      "voice": {}
+    },
+    {
+      "id": "bo-cau-bao",
+      "title": "Bồ câu về báo",
+      "narrator": "ke-chuyen",
+      "narration": "Ông Thánh đợi mãi cả hai chẳng về, bèn sai chú bồ câu bay ra sông. Bồ câu thấy hai cậu đang mải ăn, chẳng nói gì, chỉ lấy một chiếc lá, dùng mỏ ghi lại những gì mình thấy, rồi bay về đưa cho ông. Ông Thánh đọc xong, buồn lòng lắm, bảo: Thôi, không chờ nữa. Rồi ông một mình hạ thuyền xuống nước.",
+      "subtitles": [
+        "Ông Thánh đợi mãi cả hai chẳng về, bèn sai chú bồ câu bay ra sông.",
+        "Bồ câu thấy hai cậu đang mải ăn, chẳng nói gì, chỉ lấy một chiếc lá,",
+        "dùng mỏ ghi lại những gì mình thấy, rồi bay về đưa cho ông.",
+        "Ông Thánh đọc xong, buồn lòng lắm, bảo: Thôi, không chờ nữa.",
+        "Rồi ông một mình hạ thuyền xuống nước."
+      ],
+      "image": {
+        "character": "bo-cau",
+        "prompt": "a white-grey pigeon hovers above the reeds watching the two boys eat, then flies back carrying a green leaf with little beak marks to the old saint who reads it with a sad sigh",
+        "seed": 3429557583
+      },
+      "video": {
+        "motionPrompt": "the pigeon flutters over the river, then glides to the saint, the saint reads the leaf and shakes his head, wind ruffles his robe",
+        "seed": 4261202445
+      },
+      "voice": {}
+    },
+    {
+      "id": "boi-muc",
+      "title": "Bôi mực lên mình",
+      "narrator": "ke-chuyen",
+      "narration": "Hai cậu biết mình làm sai, sợ không dám về, trốn vào một ngôi nhà bên đường. Ở đó có người viết chữ để lại một nghiên mực. Quạ bảo: Tớ bôi mực khắp người, về ông thấy buồn cười, sẽ không mắng nữa! Nói rồi quạ bôi đen trùi trũi. Bìm bịp cũng bôi theo, nhưng mực hết, chỉ đen được nửa người, đành lấy mực đỏ bôi nốt. Về đến nơi, ông Thánh thấy hai cậu lem luốc thì bật cười.",
+      "subtitles": [
+        "Hai cậu biết mình làm sai, sợ không dám về, trốn vào một ngôi nhà bên đường.",
+        "Ở đó có người viết chữ để lại một nghiên mực.",
+        "Quạ bảo: Tớ bôi mực khắp người, về ông thấy buồn cười, sẽ không mắng nữa!",
+        "Nói rồi quạ bôi đen trùi trũi.",
+        "Bìm bịp cũng bôi theo, nhưng mực hết, chỉ đen được nửa người, đành lấy mực đỏ bôi nốt.",
+        "Về đến nơi, ông Thánh thấy hai cậu lem luốc thì bật cười."
+      ],
+      "image": {
+        "character": "bim-bip",
+        "prompt": "in a little wooden house two boys giggle while painting themselves with ink, one completely black from head to toe, the other half black and half red with a red ink brush, an ink stone on the table, comic and light",
+        "seed": 2884474632
+      },
+      "video": {
+        "motionPrompt": "the boys dab ink with brushes and laugh, the ink stone runs empty, one boy switches to red ink, comic timing",
+        "seed": 2250079216
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Ông Thánh cười, nhưng khi lên thuyền, ông chẳng cho hai cậu đi theo, mà hóa cho cậu đen là con quạ, cậu nửa đen nửa đỏ là con bìm bịp. Thế nên quạ mới đen, bìm bịp mới hai màu đấy các bạn ạ. Được giao việc thì mình làm cho xong rồi hẵng chơi, làm sai thì nhận lỗi, đừng che giấu nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Ông Thánh cười, nhưng khi lên thuyền, ông chẳng cho hai cậu đi theo,",
+        "mà hóa cho cậu đen là con quạ, cậu nửa đen nửa đỏ là con bìm bịp.",
+        "Thế nên quạ mới đen, bìm bịp mới hai màu đấy các bạn ạ.",
+        "Được giao việc thì mình làm cho xong rồi hẵng chơi, làm sai thì nhận lỗi,",
+        "đừng che giấu nhé. Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye on the river bank at sunset, the big wooden boat sails away in the distance, a black crow and a black-and-red coucal perch on a reed stalk beside her",
+        "seed": 2561555707
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the boat drifts slowly away, the crow and coucal flap their wings, warm sunset glow on the water, gentle camera pull-back",
+        "seed": 1516280470
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Vietnamese river folk melody, dan bau and bamboo flute with soft water-like plucked strings, calm and storytelling, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 899454941
+  }
+}

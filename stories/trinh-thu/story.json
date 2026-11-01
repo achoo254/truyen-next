@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "slug": "trinh-thu",
+  "shelf": "adults",
+  "title": "Chuột bạch giữ lòng trinh",
+  "summary": "Đêm khuya, nàng chuột bạch góa chồng bị chó đuổi, chạy lạc vào hang một anh chuột đực giàu có. Anh ta dỗ dành, khoe của, đem cả sử sách ra ép, nàng vẫn một mực giữ lòng; đến khi vợ anh về nổi ghen thì chuyện mới thật to. Kể lại bằng văn xuôi từ truyện thơ Nôm Trinh thử.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện thơ Nôm Trinh thử (thế kỷ mười lăm), tương truyền của Hồ Huyền Quy, thuộc phạm vi công cộng, theo văn bản quốc ngữ trên Wikisource tiếng Việt. Lời kể văn xuôi viết mới theo cốt truyện thơ; không trích câu thơ của bản phiên âm hay bản kể hiện đại nào.",
+  "basedOn": "Truyện thơ Nôm Trinh thử (Hồ Huyền Quy)",
+  "style": "traditional Vietnamese silk painting illustration with fine ink linework and soft muted washes of ivory, jade green, rose and indigo, an old Vietnamese capital at night with moonlit walls, peach trees, mandarin courtyards and mouse holes at the foot of brick walls, anthropomorphic mice drawn with gentle expressive faces, refined moral fable mood for adult readers, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "chuot-bach",
+      "name": "Chuột bạch",
+      "sheetPrompt": "a slender white mouse widow with soft pink ears and modest downcast dark eyes, wearing a tiny plain mourning headscarf of undyed cloth, graceful dignified posture, full body, front view, traditional Vietnamese silk painting style, plain aged silk background, character reference sheet",
+      "seed": 674774515
+    },
+    {
+      "id": "chuot-duc",
+      "name": "Chuột đực",
+      "sheetPrompt": "a plump sleek brown male rat with a smug charming smile and a well-groomed moustache, wearing a tiny blue scholar's robe and a small black turban, gesturing smoothly with one paw, full body, front view, traditional Vietnamese silk painting style, plain aged silk background, character reference sheet",
+      "seed": 3310130800
+    },
+    {
+      "id": "chuot-cai",
+      "name": "Chuột cái",
+      "sheetPrompt": "a sturdy grey female rat, the brown rat's wife, sharp fiery eyes and a quick temper, wearing a tiny brown blouse with rolled-up sleeves and a headscarf, hands on hips, full body, front view, traditional Vietnamese silk painting style, plain aged silk background, character reference sheet",
+      "seed": 3437660598
+    },
+    {
+      "id": "ho-sinh",
+      "name": "Hồ sinh",
+      "sheetPrompt": "Ho sinh, a learned young Vietnamese scholar of the Tran dynasty, calm thoughtful face, hair in a topknot under a black turban, pale grey scholar's robe, holding a brush and a scroll, full body, front view, traditional Vietnamese silk painting style, plain aged silk background, character reference sheet",
+      "seed": 2859060411
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dem-o-kinh-thanh",
+      "title": "Đêm ở kinh thành",
+      "narrator": "ke-chuyen",
+      "narration": "Vào năm Long Khánh đời Trần, bốn phương yên ổn, các nước đến triều cống. Ở miền Lộc Động có một người học trò họ Hồ, tiếng tăm là người hiền, học rộng, lại hiểu được cả tiếng chim muông. Một lần lên chơi kinh thành, Hồ sinh trọ gần dinh một vị quan lớn. Đêm ấy, canh ba đã điểm, chàng lạ chỗ không sao ngủ được. Bỗng bên gốc bích đào có tiếng chó sủa ầm. Thì ra một nàng chuột bạch bên chân tường đang cong đuôi chạy trốn, hoảng hốt lao vào một cái hang ở góc thành. Chó mất mồi bỏ đi. Từ trong hang vọng ra tiếng một gã đàn ông. Ai đấy, chưa quen biết gì, đêm hôm sao lại xông vào đây?",
+      "subtitles": [
+        "Vào năm Long Khánh đời Trần, bốn phương yên ổn, các nước đến triều cống.",
+        "Ở miền Lộc Động có một người học trò họ Hồ, tiếng tăm là người hiền, học rộng,",
+        "lại hiểu được cả tiếng chim muông.",
+        "Một lần lên chơi kinh thành, Hồ sinh trọ gần dinh một vị quan lớn.",
+        "Đêm ấy, canh ba đã điểm, chàng lạ chỗ không sao ngủ được.",
+        "Bỗng bên gốc bích đào có tiếng chó sủa ầm.",
+        "Thì ra một nàng chuột bạch bên chân tường đang cong đuôi chạy trốn,",
+        "hoảng hốt lao vào một cái hang ở góc thành. Chó mất mồi bỏ đi.",
+        "Từ trong hang vọng ra tiếng một gã đàn ông.",
+        "Ai đấy, chưa quen biết gì, đêm hôm sao lại xông vào đây?"
+      ],
+      "image": {
+        "prompt": "a young scholar lying awake by an oil lamp in a guest room at night, through the open window a moonlit courtyard with a peach tree, a white mouse fleeing along the foot of a brick wall from a barking dog toward a small hole",
+        "seed": 3532834055,
+        "character": "ho-sinh"
+      },
+      "video": {
+        "motionPrompt": "the white mouse darts along the wall and vanishes into the hole, the dog skids to a halt and barks, the scholar sits up, peach blossoms drift, quick pan",
+        "seed": 340443472
+      },
+      "voice": {}
+    },
+    {
+      "id": "trong-hang-chuot-duc",
+      "title": "Trong hang chuột đực",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy chuyện lạ, Hồ sinh ghé mắt vào bên tường mà nhìn. Trong hang, một anh chuột đực nằm dài, ăn nói ngọt ngào như người. Nàng chuột bạch vẫn còn run lẩy bẩy. Hồi lâu tỉnh lại, nàng mới thưa. Nhà tôi cũng ở quanh quẩn miền này. Chồng tôi bị chó vồ, đã bỏ tôi mà đi, để lại một đàn con thơ dại. Nhà nghèo, chẳng có của dư. Nghe nói dinh quan bên này nhà cao cửa rộng, của nhiều như núi, tôi liều đêm hôm sang kiếm chút gì về nuôi con. Chẳng ngờ gặp con chó dữ, chạy lạc vào đây. Xin anh rộng lòng cho nương náu, qua được nạn này, ơn ấy tôi không dám quên.",
+      "subtitles": [
+        "Thấy chuyện lạ, Hồ sinh ghé mắt vào bên tường mà nhìn.",
+        "Trong hang, một anh chuột đực nằm dài, ăn nói ngọt ngào như người.",
+        "Nàng chuột bạch vẫn còn run lẩy bẩy. Hồi lâu tỉnh lại, nàng mới thưa.",
+        "Nhà tôi cũng ở quanh quẩn miền này.",
+        "Chồng tôi bị chó vồ, đã bỏ tôi mà đi, để lại một đàn con thơ dại.",
+        "Nhà nghèo, chẳng có của dư.",
+        "Nghe nói dinh quan bên này nhà cao cửa rộng, của nhiều như núi,",
+        "tôi liều đêm hôm sang kiếm chút gì về nuôi con.",
+        "Chẳng ngờ gặp con chó dữ, chạy lạc vào đây.",
+        "Xin anh rộng lòng cho nương náu, qua được nạn này, ơn ấy tôi không dám quên."
+      ],
+      "image": {
+        "prompt": "inside a cosy mouse burrow lit by a tiny lamp, a plump brown rat in a blue robe lounging on a cushion, a trembling white mouse widow kneeling near the entrance with her head bowed, a scholar's eye visible peering through a crack in the wall",
+        "seed": 644419280,
+        "character": "chuot-bach"
+      },
+      "video": {
+        "motionPrompt": "the white mouse's whiskers tremble as she bows, the brown rat props himself up on one elbow with interest, the tiny lamp flickers, slow push in",
+        "seed": 3693317525
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-ngon-ngot",
+      "title": "Lời ngon ngọt",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe nàng kể, anh chuột đực động lòng, nhưng là thứ động lòng chẳng ngay thẳng. Anh ta hỏi. Một mình khuya khoắt ra đi, hay là đi tìm hương đón gió? May mà gặp người rộng lượng như tôi, chứ gặp kẻ phũ phàng thì sao? Thương thay phận gái một mình long đong. Nàng nên tìm chỗ dựa vàng tựa ngọc, khỏi lo mẹ góa con côi. Nàng chuột bạch nghe lời sỗ sàng, nước mắt chan chứa, cúi đầu đáp. Đạo làm vợ, đã theo một chồng thì theo đến trọn đời. Nay tuổi tôi đã xế, đâu dám gieo mình lần nữa. Ong bướm có xôn xao, lòng tôi cũng chẳng chuyển một phần. Anh đã cứu tôi khỏi nạn, tôi đội ơn anh, nhưng tấm lòng này đã tạc đá ghi vàng.",
+      "subtitles": [
+        "Nghe nàng kể, anh chuột đực động lòng, nhưng là thứ động lòng chẳng ngay thẳng.",
+        "Anh ta hỏi.",
+        "Một mình khuya khoắt ra đi, hay là đi tìm hương đón gió?",
+        "May mà gặp người rộng lượng như tôi, chứ gặp kẻ phũ phàng thì sao?",
+        "Thương thay phận gái một mình long đong.",
+        "Nàng nên tìm chỗ dựa vàng tựa ngọc, khỏi lo mẹ góa con côi.",
+        "Nàng chuột bạch nghe lời sỗ sàng, nước mắt chan chứa, cúi đầu đáp.",
+        "Đạo làm vợ, đã theo một chồng thì theo đến trọn đời.",
+        "Nay tuổi tôi đã xế, đâu dám gieo mình lần nữa.",
+        "Ong bướm có xôn xao, lòng tôi cũng chẳng chuyển một phần.",
+        "Anh đã cứu tôi khỏi nạn, tôi đội ơn anh, nhưng tấm lòng này đã tạc đá ghi vàng."
+      ],
+      "image": {
+        "prompt": "the smug brown rat leaning toward the white mouse widow with a sweet smile and an open paw, the white mouse turning her face away with tears on her cheeks, the tiny lamp casting warm shadows on the burrow walls",
+        "seed": 1249068427,
+        "character": "chuot-duc"
+      },
+      "video": {
+        "motionPrompt": "the brown rat edges closer with a wheedling gesture, the white mouse turns away and wipes a tear, shadows sway, slow push in",
+        "seed": 3413583300
+      },
+      "voice": {}
+    },
+    {
+      "id": "vien-dan-su-sach",
+      "title": "Viện dẫn sử sách",
+      "narrator": "ke-chuyen",
+      "narration": "Anh chuột đực bảo nàng chấp mê. Xuân qua rồi không trở lại, một mình nuôi đàn con thơ thì ai lo cho? Rồi anh ta viện cả sử sách. Lã hậu đời Hán, chồng vừa khuất đã tư thông với người khác. Võ hậu đời Đường cũng thế. Điêu Thuyền khi theo Lã Bố, khi về Đổng Trác. Người còn chẳng giữ, huống chi loài vật nhỏ mọn, giữ tiết trinh làm gì? Nàng chuột bạch đáp. Từ thuở mở trời, người còn ở hang ở nội, đã có lễ nghĩa răn điều dâm bôn. Đạo vợ chồng là gốc của phong hóa. Những người anh kể, sử xanh chép lại để chê cười, bia miệng còn ghi đến nay, kể ra làm gì.",
+      "subtitles": [
+        "Anh chuột đực bảo nàng chấp mê.",
+        "Xuân qua rồi không trở lại, một mình nuôi đàn con thơ thì ai lo cho?",
+        "Rồi anh ta viện cả sử sách.",
+        "Lã hậu đời Hán, chồng vừa khuất đã tư thông với người khác. Võ hậu đời Đường cũng thế.",
+        "Điêu Thuyền khi theo Lã Bố, khi về Đổng Trác.",
+        "Người còn chẳng giữ, huống chi loài vật nhỏ mọn, giữ tiết trinh làm gì?",
+        "Nàng chuột bạch đáp.",
+        "Từ thuở mở trời, người còn ở hang ở nội, đã có lễ nghĩa răn điều dâm bôn.",
+        "Đạo vợ chồng là gốc của phong hóa.",
+        "Những người anh kể, sử xanh chép lại để chê cười, bia miệng còn ghi đến nay, kể ra làm gì."
+      ],
+      "image": {
+        "prompt": "the brown rat unrolling a tiny scroll of history and pointing at it with a lecturing paw, the white mouse sitting upright with calm dignity and shaking her head, ink paintings of ancient palaces faintly visible on the burrow wall",
+        "seed": 2170392043,
+        "character": "chuot-duc"
+      },
+      "video": {
+        "motionPrompt": "the scroll unrolls across the floor, the rat jabs a paw at it, the white mouse folds her paws and shakes her head slowly, gentle camera drift",
+        "seed": 4285918904
+      },
+      "voice": {}
+    },
+    {
+      "id": "khoe-cua",
+      "title": "Khoe của",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy nàng ngồi lặng, thỉnh thoảng lại ngoảnh đi thở dài, anh chuột đực tưởng đã xuôi, bèn kể chuyện lợi hại. Nhà chủ bên đông của nàng nghèo xác xơ, nước sông củi đồng, thịt cá chẳng có, đến chó mèo còn đói, lấy đâu thừa cho nàng. Còn tôi, mồ mả tổ tiên đắc địa, thầy nào xem cũng bảo số giàu. Nhà chủ tôi lầu cao kho đầy, người trong nhà lại tụng kinh chẳng nỡ sát sinh. Chỉ hiềm vợ chồng tôi hiếm muộn, thuốc thang cầu tự mãi chưa xong. Mấy hôm nay vợ tôi đi vắng. Nàng mà bằng lòng, cứ đem con sang đây, khỏi lo đói rét. Nàng đáp. Chủ bên này như Hồ Quý Ly, tham lam ngạo mạn, chỉ lo lợi mình. Đến ngày trời đất đổi thay, cháy thành thì vạ lây cá ao. Thà nghèo mà ngủ yên, còn hơn ăn sang mà thấp thỏm.",
+      "subtitles": [
+        "Thấy nàng ngồi lặng, thỉnh thoảng lại ngoảnh đi thở dài, anh chuột đực tưởng đã xuôi,",
+        "bèn kể chuyện lợi hại.",
+        "Nhà chủ bên đông của nàng nghèo xác xơ, nước sông củi đồng, thịt cá chẳng có,",
+        "đến chó mèo còn đói, lấy đâu thừa cho nàng.",
+        "Còn tôi, mồ mả tổ tiên đắc địa, thầy nào xem cũng bảo số giàu.",
+        "Nhà chủ tôi lầu cao kho đầy, người trong nhà lại tụng kinh chẳng nỡ sát sinh.",
+        "Chỉ hiềm vợ chồng tôi hiếm muộn, thuốc thang cầu tự mãi chưa xong.",
+        "Mấy hôm nay vợ tôi đi vắng.",
+        "Nàng mà bằng lòng, cứ đem con sang đây, khỏi lo đói rét. Nàng đáp.",
+        "Chủ bên này như Hồ Quý Ly, tham lam ngạo mạn, chỉ lo lợi mình.",
+        "Đến ngày trời đất đổi thay, cháy thành thì vạ lây cá ao.",
+        "Thà nghèo mà ngủ yên, còn hơn ăn sang mà thấp thỏm."
+      ],
+      "image": {
+        "prompt": "the brown rat gesturing grandly at heaps of rice, dried fish and treasures piled in his storeroom burrow, the white mouse widow standing at a distance looking unimpressed, a lavish mandarin mansion glimpsed above ground",
+        "seed": 1415822847,
+        "character": "chuot-duc"
+      },
+      "video": {
+        "motionPrompt": "the rat sweeps his paw over the piles of grain and a few grains spill, the white mouse turns her head away calmly, slow pan across the storeroom",
+        "seed": 1179067692
+      },
+      "voice": {}
+    },
+    {
+      "id": "tiet-ngoc-kho-lay",
+      "title": "Tiết ngọc khó lay",
+      "narrator": "ke-chuyen",
+      "narration": "Dỗ mãi không được, anh ta lại xin nàng làm vợ lẽ. Vợ cả nhà tôi hiền lắm, chẳng biết ghen, được nàng làm chị làm em thì vui biết mấy. Nàng chuột bạch đáp. Người xưa đã nói, nhường cơm nhường áo, chứ ai nhường chồng. Trên đầu còn có trời cao. Anh cứ ép nài, tôi xin mượn dao mà quyết một bề cho xong. Anh chuột đực hoảng sợ, vội bày một mâm cỗ, nào nem chả, nào yến sào, bảo nàng ăn rồi mang phần về cho con. Nàng cũng từ chối, chỉ xin được về. Ngồi lặng hồi lâu, anh ta nghĩ mình là kẻ có học mà làm chuyện này thật xấu hổ, bèn chữa thẹn. Ban nãy tôi chỉ thử lòng nàng thôi. Khen cho nàng một dạ kiên trinh. Nàng cảm ơn ơn cứu nạn, nhưng ơn ấy, nàng không trả bằng chuyện trăng hoa.",
+      "subtitles": [
+        "Dỗ mãi không được, anh ta lại xin nàng làm vợ lẽ.",
+        "Vợ cả nhà tôi hiền lắm, chẳng biết ghen, được nàng làm chị làm em thì vui biết mấy.",
+        "Nàng chuột bạch đáp.",
+        "Người xưa đã nói, nhường cơm nhường áo, chứ ai nhường chồng. Trên đầu còn có trời cao.",
+        "Anh cứ ép nài, tôi xin mượn dao mà quyết một bề cho xong.",
+        "Anh chuột đực hoảng sợ, vội bày một mâm cỗ, nào nem chả, nào yến sào,",
+        "bảo nàng ăn rồi mang phần về cho con. Nàng cũng từ chối, chỉ xin được về.",
+        "Ngồi lặng hồi lâu, anh ta nghĩ mình là kẻ có học mà làm chuyện này thật xấu hổ,",
+        "bèn chữa thẹn. Ban nãy tôi chỉ thử lòng nàng thôi. Khen cho nàng một dạ kiên trinh.",
+        "Nàng cảm ơn ơn cứu nạn, nhưng ơn ấy, nàng không trả bằng chuyện trăng hoa."
+      ],
+      "image": {
+        "prompt": "a small feast of tiny dishes spread on a lacquer tray in the burrow, the brown rat offering it with an awkward embarrassed smile, the white mouse standing by the entrance bowing politely to take her leave, moonlight at the hole",
+        "seed": 2634646629,
+        "character": "chuot-bach"
+      },
+      "video": {
+        "motionPrompt": "the white mouse bows and steps toward the moonlit entrance, the rat scratches his head sheepishly, steam drifts from the dishes, slow camera move",
+        "seed": 1606257650
+      },
+      "voice": {}
+    },
+    {
+      "id": "vo-chuot-tro-ve",
+      "title": "Vợ chuột trở về",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng vừa sửa soạn ra về thì vợ anh chuột đực về tới. Thấy chồng đưa tiễn một người đàn bà lạ, chị ta làm ngay một bài thơ, trách chồng mới vắng vợ mấy đêm đã nỡ lòng như thế. Chuột bạch tức ý, cũng họa lại một bài, nói tấm lòng mình vẫn giữ trọn với người chồng đã khuất. Rồi nàng giãi bày trước mặt cả hai vợ chồng. Tôi gặp nạn, được cứu giữa đêm khuya. Chị đừng nghĩ sai, kẻo miệng đời đàm tiếu. Chuột cái nổi trận lôi đình. Tôi vừa vắng nhà, anh đã nhử nguyệt quyến hoa! Tôi khuya sớm đi kiếm mồi nuôi anh, về tới đầu tường thấy con chó rình ở cửa hang, phải nín thở mới lẻn vào được, ai ngờ nhà lại ra nông nỗi này.",
+      "subtitles": [
+        "Nàng vừa sửa soạn ra về thì vợ anh chuột đực về tới.",
+        "Thấy chồng đưa tiễn một người đàn bà lạ, chị ta làm ngay một bài thơ,",
+        "trách chồng mới vắng vợ mấy đêm đã nỡ lòng như thế.",
+        "Chuột bạch tức ý, cũng họa lại một bài,",
+        "nói tấm lòng mình vẫn giữ trọn với người chồng đã khuất.",
+        "Rồi nàng giãi bày trước mặt cả hai vợ chồng. Tôi gặp nạn, được cứu giữa đêm khuya.",
+        "Chị đừng nghĩ sai, kẻo miệng đời đàm tiếu. Chuột cái nổi trận lôi đình.",
+        "Tôi vừa vắng nhà, anh đã nhử nguyệt quyến hoa!",
+        "Tôi khuya sớm đi kiếm mồi nuôi anh, về tới đầu tường thấy con chó rình ở cửa hang,",
+        "phải nín thở mới lẻn vào được, ai ngờ nhà lại ra nông nỗi này."
+      ],
+      "image": {
+        "prompt": "a fiery grey female rat bursting into the burrow with her hands on her hips, glaring at her husband and the white mouse, the brown rat raising his paws in protest, the white mouse standing straight with dignity",
+        "seed": 2368351464,
+        "character": "chuot-cai"
+      },
+      "video": {
+        "motionPrompt": "the grey rat stamps her foot and points accusingly, the brown rat backs away waving his paws, dust drifts from the burrow ceiling, quick push in",
+        "seed": 3097929635
+      },
+      "voice": {}
+    },
+    {
+      "id": "danh-ghen",
+      "title": "Đánh ghen",
+      "narrator": "ke-chuyen",
+      "narration": "Chuột đực van như tế sao, kể lại đầu đuôi, rằng chỉ vì thương người lỡ bước mà cho nấp nhờ một chốc. Vợ không tin, mỉa mai chồng chê vợ già, chuộng của lạ. Chồng hết nhịn. Tôi đâu phải hạng sợ vợ mà chịu để mắng mãi. Chuột cái bèn xắn quần xắn áo, tìm đường sang tận cửa hang chuột bạch ở bên đông, vừa sỉ vả vừa mỉa mai. Chuột bạch đỏ mặt tía tai. Ai đấy, mắng ai ở chốn này? Đúng lúc ấy, một con mèo thủng thỉnh ở góc thành đi tới xem hai bên tranh nhau. Hai con chuột hồn xiêu phách lạc, chạy tán loạn. Chuột cái lạ đường, sẩy chân rơi tõm xuống ao. Chuột bạch thì chạy thoát về nhà, chui qua cống mà vào.",
+      "subtitles": [
+        "Chuột đực van như tế sao, kể lại đầu đuôi,",
+        "rằng chỉ vì thương người lỡ bước mà cho nấp nhờ một chốc.",
+        "Vợ không tin, mỉa mai chồng chê vợ già, chuộng của lạ. Chồng hết nhịn.",
+        "Tôi đâu phải hạng sợ vợ mà chịu để mắng mãi.",
+        "Chuột cái bèn xắn quần xắn áo, tìm đường sang tận cửa hang chuột bạch ở bên đông,",
+        "vừa sỉ vả vừa mỉa mai. Chuột bạch đỏ mặt tía tai. Ai đấy, mắng ai ở chốn này?",
+        "Đúng lúc ấy, một con mèo thủng thỉnh ở góc thành đi tới xem hai bên tranh nhau.",
+        "Hai con chuột hồn xiêu phách lạc, chạy tán loạn.",
+        "Chuột cái lạ đường, sẩy chân rơi tõm xuống ao.",
+        "Chuột bạch thì chạy thoát về nhà, chui qua cống mà vào."
+      ],
+      "image": {
+        "prompt": "two mice facing off at the mouth of a hole under a moonlit wall, the grey rat with sleeves rolled up shouting, the white mouse red-faced, and a large cat calmly strolling toward them from the corner of the wall, a dark pond nearby",
+        "seed": 2068693260,
+        "character": "chuot-cai"
+      },
+      "video": {
+        "motionPrompt": "the cat steps out of the shadows and both mice scatter, the grey rat tumbles off the bank into the pond with a splash, the white mouse dashes into a drain, quick pan",
+        "seed": 1155729977
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-sinh-cuu-chuot",
+      "title": "Hồ sinh cứu chuột",
+      "narrator": "ke-chuyen",
+      "narration": "Hồ sinh nãy giờ đứng nấp bên tường đào, thấy chuột cái vùng vẫy dưới ao, còn con mèo chực sẵn trên bờ. Chàng giơ tay đuổi mèo, xắn quần lội xuống, lấy cán khêu bèo vớt nó lên. Lông ráo, tỉnh lại, chuột cái cúi đầu lạy. Tôi phận thơ dại, bị chồng ruồng rẫy, chạy đến đây thì gặp nạn. Ơn ông cứu mạng, muôn vàn không kể xiết. Hồ sinh bảo. Ngươi chỉ vì tính hay ghen. Ta đã thấy hết. Đêm qua chuột bạch đi kiếm ăn, bị chó đuổi nên chạy vào nấp nhờ. Chồng ngươi thấy người đẹp cũng muốn lân la thật, nhưng gặp người tiết hạnh, dỗ không được thì thôi. Ngươi về chưa rõ đầu đuôi đã ghen bừa, lại còn sang tận nhà người ta mà đánh ghen, làm oan cho một người tiết phụ.",
+      "subtitles": [
+        "Hồ sinh nãy giờ đứng nấp bên tường đào, thấy chuột cái vùng vẫy dưới ao,",
+        "còn con mèo chực sẵn trên bờ.",
+        "Chàng giơ tay đuổi mèo, xắn quần lội xuống, lấy cán khêu bèo vớt nó lên.",
+        "Lông ráo, tỉnh lại, chuột cái cúi đầu lạy.",
+        "Tôi phận thơ dại, bị chồng ruồng rẫy, chạy đến đây thì gặp nạn.",
+        "Ơn ông cứu mạng, muôn vàn không kể xiết. Hồ sinh bảo. Ngươi chỉ vì tính hay ghen.",
+        "Ta đã thấy hết.",
+        "Đêm qua chuột bạch đi kiếm ăn, bị chó đuổi nên chạy vào nấp nhờ.",
+        "Chồng ngươi thấy người đẹp cũng muốn lân la thật, nhưng gặp người tiết hạnh,",
+        "dỗ không được thì thôi.",
+        "Ngươi về chưa rõ đầu đuôi đã ghen bừa, lại còn sang tận nhà người ta mà đánh ghen,",
+        "làm oan cho một người tiết phụ."
+      ],
+      "image": {
+        "prompt": "the young scholar wading into a moonlit pond with his robe hitched up, lifting a soaked grey rat out on a stick among duckweed, waving away a cat on the bank with his other hand",
+        "seed": 1339585070,
+        "character": "ho-sinh"
+      },
+      "video": {
+        "motionPrompt": "the scholar lifts the dripping rat from the water, the cat slinks away into the shadows, ripples spread through the duckweed, slow push in",
+        "seed": 443497359
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-khuyen-hoa-thuan",
+      "title": "Lời khuyên hòa thuận",
+      "narrator": "ke-chuyen",
+      "narration": "Chuột cái nghe ra, hổ thẹn lắm. Trót cả giận mất khôn, giờ cắn rốn sao kịp. Hồ sinh khuyên. Muốn yên cửa yên nhà thì không gì bằng thuận hòa với nhau. Vợ chồng là nghĩa nặng, đâu phải một ngày rồi quên. Đừng bới bèo ra bọ cho tanh hôi cửa nhà. Một câu nhịn, chín câu lành. Biết đổi dữ làm lành thì lại sum họp một nhà. Chuột cái ghi lòng lời dạy, trở về xin lỗi chồng.",
+      "subtitles": [
+        "Chuột cái nghe ra, hổ thẹn lắm.",
+        "Trót cả giận mất khôn, giờ cắn rốn sao kịp. Hồ sinh khuyên.",
+        "Muốn yên cửa yên nhà thì không gì bằng thuận hòa với nhau.",
+        "Vợ chồng là nghĩa nặng, đâu phải một ngày rồi quên.",
+        "Đừng bới bèo ra bọ cho tanh hôi cửa nhà. Một câu nhịn, chín câu lành.",
+        "Biết đổi dữ làm lành thì lại sum họp một nhà.",
+        "Chuột cái ghi lòng lời dạy, trở về xin lỗi chồng."
+      ],
+      "image": {
+        "prompt": "the soaked grey rat bowing deeply on the bank before the kind scholar who sits on a stone and speaks gently, then in the background the grey rat bowing to her husband at the mouth of their burrow under the setting moon",
+        "seed": 3493318481,
+        "character": "chuot-cai"
+      },
+      "video": {
+        "motionPrompt": "the grey rat bows low and turns toward home, the moon sinks behind the city wall, a gentle breeze moves the duckweed, slow pull back",
+        "seed": 2325646
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-sinh-ghi-chuyen",
+      "title": "Hồ sinh ghi chuyện",
+      "narrator": "ke-chuyen",
+      "narration": "Hồ sinh về thư phòng, mở nghiên mài mực, chép lại chuyện đêm ấy kẻo quên. Chàng nghĩ, nào ngờ loài vật cũng có kẻ chính chuyên. Khen thay chuột bạch, gặp lúc sa cơ, ong bướm trêu ghẹo đủ đường vẫn không chuyển lòng, mà rốt cuộc vẫn được ra vào bình yên. Chê thay chuột đực, thấy người góa bụa không khuyên đường ngay mà lại toan quyến rũ. Cửa nhà lục đục, đâu chỉ trách mỗi người vợ hay ghen. Còn chuột cái, cả ghen mà không xét, nên mới sa xuống ao. Loài vật còn như thế, huống chi là người. Lòng ai ngay thẳng, trời chẳng phụ bao giờ.",
+      "subtitles": [
+        "Hồ sinh về thư phòng, mở nghiên mài mực, chép lại chuyện đêm ấy kẻo quên.",
+        "Chàng nghĩ, nào ngờ loài vật cũng có kẻ chính chuyên.",
+        "Khen thay chuột bạch, gặp lúc sa cơ, ong bướm trêu ghẹo đủ đường vẫn không chuyển lòng,",
+        "mà rốt cuộc vẫn được ra vào bình yên.",
+        "Chê thay chuột đực, thấy người góa bụa không khuyên đường ngay mà lại toan quyến rũ.",
+        "Cửa nhà lục đục, đâu chỉ trách mỗi người vợ hay ghen.",
+        "Còn chuột cái, cả ghen mà không xét, nên mới sa xuống ao.",
+        "Loài vật còn như thế, huống chi là người.",
+        "Lòng ai ngay thẳng, trời chẳng phụ bao giờ."
+      ],
+      "image": {
+        "prompt": "the young scholar at a low writing desk by lamplight in his study at dawn, brush in hand writing on a long paper scroll, a small white mouse peeking in at the window sill, ink stone and teacup beside him",
+        "seed": 2913310651,
+        "character": "ho-sinh"
+      },
+      "video": {
+        "motionPrompt": "the brush moves steadily across the scroll, the lamp flame flickers, dawn light grows at the window, the little white mouse twitches its whiskers, slow push in",
+        "seed": 1303432544
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "slow refined traditional Vietnamese chamber instrumental, dan tranh zither, dan nhi fiddle and soft bamboo flute, moonlit and contemplative with a gentle playful middle, no vocals",
+    "durationSeconds": 150,
+    "seed": 4159136061
+  }
+}
