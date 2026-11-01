@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "slug": "cay-kieu-mach",
+  "shelf": "world",
+  "title": "Cây kiều mạch",
+  "summary": "Giữa cánh đồng, cây kiều mạch kiêu hãnh không chịu cúi đầu như lúa mạch và hoa cỏ, dù cây liễu già đã khuyên can. Sau cơn giông, cả ruộng kiều mạch cháy sém đen thui. Ngụ ngôn nhỏ của Andersen về lòng kiêu ngạo.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Phỏng theo truyện Cây kiều mạch (Boghveden, 1842) của Hans Christian Andersen (mất năm 1875), phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép bản dịch nào.",
+  "basedOn": "Truyện Andersen (1842)",
+  "style": "classic Danish fairy tale storybook illustration, soft watercolour and fine ink, golden rye and barley fields, white flowering buckwheat, an old gnarled willow by a ditch, dramatic summer storm clouds then fresh rain washed light, gentle thoughtful mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "kieu-mach",
+      "name": "Cây kiều mạch",
+      "sheetPrompt": "a proud anthropomorphic buckwheat plant from a fairy tale, tall straight reddish stem, heart shaped green leaves, a crown of tiny white and pink flowers held high, haughty little face, full body, front view, plain light background, character reference sheet",
+      "seed": 881319666
+    },
+    {
+      "id": "cay-lieu",
+      "name": "Cây liễu già",
+      "sheetPrompt": "an old gnarled weeping willow tree from a fairy tale with a kind wise face in its bark, long drooping silver green branches, standing by a small ditch, full body, front view, plain light background, character reference sheet",
+      "seed": 17162658
+    }
+  ],
+  "scenes": [
+    {
+      "id": "canh-dong-den",
+      "title": "Cánh đồng cháy sém",
+      "narrator": "ke-chuyen",
+      "narration": "Sau một cơn giông, nếu có dịp đi ngang một ruộng kiều mạch, các bạn sẽ thấy cả ruộng đen sạm lại như vừa bị lửa sém qua. Người nông dân bảo: “Sét đánh đấy.” Nhưng vì sao lại thế? Tôi sẽ kể cho các bạn nghe điều mà đàn chim sẻ đã kể cho tôi. Chim sẻ thì nghe được từ một cây liễu già, đứng cạnh ruộng kiều mạch ấy, và cây liễu vẫn còn đứng đó cho tới bây giờ.",
+      "subtitles": [
+        "Sau một cơn giông, nếu có dịp đi ngang một ruộng kiều mạch,",
+        "các bạn sẽ thấy cả ruộng đen sạm lại như vừa bị lửa sém qua.",
+        "Người nông dân bảo: “Sét đánh đấy.”",
+        "Nhưng vì sao lại thế?",
+        "Tôi sẽ kể cho các bạn nghe điều mà đàn chim sẻ đã kể cho tôi.",
+        "Chim sẻ thì nghe được từ một cây liễu già, đứng cạnh ruộng kiều mạch ấy,",
+        "và cây liễu vẫn còn đứng đó cho tới bây giờ."
+      ],
+      "image": {
+        "prompt": "a blackened scorched buckwheat field after a summer storm beside green fields, a farmer with a hat pointing at it, sparrows perched on an old gnarled willow tree by the ditch",
+        "seed": 3928609862,
+        "character": "cay-lieu"
+      },
+      "video": {
+        "motionPrompt": "sparrows hop along the willow branches, clouds drift away, the farmer shakes his head slowly",
+        "seed": 231986180
+      },
+      "voice": {}
+    },
+    {
+      "id": "kieu-hanh",
+      "title": "Cây kiều mạch kiêu hãnh",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày ấy, quanh ruộng kiều mạch là những ruộng lúa mạch đen và lúa mạch vàng óng. Bông lúa càng chắc hạt thì càng cúi đầu xuống thấp, như thể khiêm nhường. Còn cây kiều mạch thì đứng thẳng đơ, ngẩng cao đầu, kiêu hãnh như một chàng công tử. Nó nói: “Ta cũng có nhiều hạt như lúa mạch, mà ta lại đẹp hơn nhiều. Hoa của ta trắng như hoa táo. Nhìn ta mà xem, có ai lộng lẫy hơn ta không, hả cây liễu già?” Cây liễu gật gù, chẳng nói gì.",
+      "subtitles": [
+        "Ngày ấy, quanh ruộng kiều mạch là những ruộng lúa mạch đen và lúa mạch vàng óng.",
+        "Bông lúa càng chắc hạt thì càng cúi đầu xuống thấp, như thể khiêm nhường.",
+        "Còn cây kiều mạch thì đứng thẳng đơ, ngẩng cao đầu, kiêu hãnh như một chàng công tử.",
+        "Nó nói: “Ta cũng có nhiều hạt như lúa mạch, mà ta lại đẹp hơn nhiều.",
+        "Hoa của ta trắng như hoa táo.",
+        "Nhìn ta mà xem, có ai lộng lẫy hơn ta không, hả cây liễu già?”",
+        "Cây liễu gật gù, chẳng nói gì."
+      ],
+      "image": {
+        "prompt": "golden ears of rye and barley bending their heads humbly in a summer field, beside them tall proud buckwheat plants with white flowers standing stiffly upright, an old willow nodding nearby, bright sunshine",
+        "seed": 2564188719,
+        "character": "kieu-mach"
+      },
+      "video": {
+        "motionPrompt": "the barley ears sway and bow in the breeze, the buckwheat stays stiff and upright, the willow branches nod gently",
+        "seed": 753875128
+      },
+      "voice": {}
+    },
+    {
+      "id": "giong-den",
+      "title": "Cơn giông kéo đến",
+      "narrator": "ke-chuyen",
+      "narration": "Rồi một hôm, mây đen ùn ùn kéo tới. Hoa đồng nội vội khép cánh, cúi đầu sát xuống. Lúa mạch cũng rạp mình. Chỉ có cây kiều mạch vẫn đứng sừng sững. Hoa cỏ gọi: “Cúi đầu xuống như chúng tôi đi!” Cây liễu già cũng khuyên: “Cúi đầu xuống, khép hoa lại, đừng ngước nhìn tia chớp khi mây xé ra. Đến loài người cũng không dám nhìn thẳng vào đó, vì qua tia chớp người ta thấy được tận trời cao, và ánh sáng ấy làm loá mắt họ. Huống hồ là chúng ta, những cây cỏ dưới mặt đất.” Kiều mạch hất đầu: “Ta chẳng cúi. Ta muốn nhìn thẳng lên trời xem sao.” Nó cứ ngẩng cao đầu, kiêu căng và ngạo nghễ.",
+      "subtitles": [
+        "Rồi một hôm, mây đen ùn ùn kéo tới.",
+        "Hoa đồng nội vội khép cánh, cúi đầu sát xuống.",
+        "Lúa mạch cũng rạp mình.",
+        "Chỉ có cây kiều mạch vẫn đứng sừng sững.",
+        "Hoa cỏ gọi: “Cúi đầu xuống như chúng tôi đi!”",
+        "Cây liễu già cũng khuyên: “Cúi đầu xuống, khép hoa lại,",
+        "đừng ngước nhìn tia chớp khi mây xé ra.",
+        "Đến loài người cũng không dám nhìn thẳng vào đó,",
+        "vì qua tia chớp người ta thấy được tận trời cao, và ánh sáng ấy làm loá mắt họ.",
+        "Huống hồ là chúng ta, những cây cỏ dưới mặt đất.”",
+        "Kiều mạch hất đầu: “Ta chẳng cúi.",
+        "Ta muốn nhìn thẳng lên trời xem sao.”",
+        "Nó cứ ngẩng cao đầu, kiêu căng và ngạo nghễ."
+      ],
+      "image": {
+        "prompt": "dark storm clouds rolling over a summer field, wildflowers closing and bowing low, barley flattened in the wind, the proud buckwheat standing upright staring at the sky, the old willow bending its branches as if pleading",
+        "seed": 1227060037,
+        "character": "kieu-mach"
+      },
+      "video": {
+        "motionPrompt": "storm clouds churn and darken, flowers fold their petals, wind sweeps the barley flat, the buckwheat stays upright",
+        "seed": 2259205555
+      },
+      "voice": {}
+    },
+    {
+      "id": "tia-chop",
+      "title": "Tia chớp",
+      "narrator": "ke-chuyen",
+      "narration": "Một tia chớp loé lên sáng rực như cả bầu trời bốc cháy, rồi tiếng sấm nổ vang trời. Cơn giông qua đi, hoa cỏ và lúa mạch ngẩng đầu lên, tươi mát trong làn không khí trong lành sau mưa. Nhưng ruộng kiều mạch thì đã bị sét đánh cháy sém, đen thui như than. Từ đấy nó chỉ còn là đám cỏ khô vô dụng trên cánh đồng.",
+      "subtitles": [
+        "Một tia chớp loé lên sáng rực như cả bầu trời bốc cháy, rồi tiếng sấm nổ vang trời.",
+        "Cơn giông qua đi, hoa cỏ và lúa mạch ngẩng đầu lên,",
+        "tươi mát trong làn không khí trong lành sau mưa.",
+        "Nhưng ruộng kiều mạch thì đã bị sét đánh cháy sém, đen thui như than.",
+        "Từ đấy nó chỉ còn là đám cỏ khô vô dụng trên cánh đồng."
+      ],
+      "image": {
+        "prompt": "a brilliant flash of lightning lighting up the whole sky over a field, then a fresh rain washed field where flowers and barley lift their heads in clear light while the buckwheat patch stands charred and black",
+        "seed": 2950426144,
+        "character": "kieu-mach"
+      },
+      "video": {
+        "motionPrompt": "a bright flash fills the sky then fades, raindrops glisten on the flowers, mist lifts from the field",
+        "seed": 1713268860
+      },
+      "voice": {}
+    },
+    {
+      "id": "giot-nuoc-mat",
+      "title": "Những giọt nước mắt của cây liễu",
+      "narrator": "ke-chuyen",
+      "narration": "Cây liễu già khẽ lay cành trong gió, những giọt mưa to rơi xuống từ lá liễu, như thể cây liễu đang khóc. Đàn chim sẻ hỏi: “Sao ông lại khóc? Ở đây trời quang mây tạnh, nắng đẹp thế này cơ mà.” Cây liễu bèn kể cho chim sẻ nghe về lòng kiêu ngạo của cây kiều mạch và cái giá mà nó phải trả. Tôi kể lại chuyện này cho các bạn, đúng như đàn chim sẻ đã kể cho tôi, vào một buổi tối nọ, khi tôi xin chúng kể cho nghe một câu chuyện.",
+      "subtitles": [
+        "Cây liễu già khẽ lay cành trong gió, những giọt mưa to rơi xuống từ lá liễu,",
+        "như thể cây liễu đang khóc.",
+        "Đàn chim sẻ hỏi: “Sao ông lại khóc?",
+        "Ở đây trời quang mây tạnh, nắng đẹp thế này cơ mà.”",
+        "Cây liễu bèn kể cho chim sẻ nghe về lòng kiêu ngạo của cây kiều mạch và cái giá mà nó",
+        "phải trả.",
+        "Tôi kể lại chuyện này cho các bạn, đúng như đàn chim sẻ đã kể cho tôi,",
+        "vào một buổi tối nọ, khi tôi xin chúng kể cho nghe một câu chuyện."
+      ],
+      "image": {
+        "prompt": "an old weeping willow dripping large raindrops from its long branches after the storm, a little flock of sparrows perched and listening, sunlight breaking through clouds over the fresh green field and the blackened buckwheat",
+        "seed": 497320021,
+        "character": "cay-lieu"
+      },
+      "video": {
+        "motionPrompt": "raindrops fall slowly from the willow leaves like tears, sparrows tilt their heads and listen, sunlight brightens",
+        "seed": 2571607472
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle pastoral fairy tale instrumental, oboe and clarinet over soft strings and harp, summer field ambience with distant thunder in the middle, thoughtful and calm with a quiet reflective ending, moderate tempo, no vocals",
+    "durationSeconds": 90,
+    "seed": 1691706208
+  }
+}
