@@ -40,6 +40,13 @@ Mảng JSON, mỗi dòng một mục, **thứ tự trong tệp là thứ tự vi
    `pnpm check:stories`. Với mỗi cảnh báo, sửa danh mục cho khớp thực tế: thêm mục cho thư mục chưa có (đúng slug, tên,
    kệ của truyện; `origin` và `plotSource` theo `source`/`basedOn` của truyện), đặt `status` và `shelf` theo thư mục.
    Không sửa truyện của người khác để khớp danh mục.
+
+   Trong sandbox cloud, `pnpm install` có thể lỗi 403 khi tải tarball `codeload.github.com/achoo254/shared-next`
+   (proxy chỉ cho đọc qua git). Khi đó: `git clone https://github.com/achoo254/shared-next` ra ngoài repo, checkout
+   đúng commit ghi trong `pnpm-lock.yaml`; chép repo (trừ `.git`, `node_modules`) sang thư mục tạm, trong bản chép đổi
+   các phụ thuộc `github:achoo254/shared-next#…&path:/packages/<gói>` ở `package.json` và `apps/web/package.json`
+   thành `file:<đường dẫn bản clone>/packages/<gói>`, `pnpm install` rồi chạy bước kiểm ở đó. Chỉ chép
+   `stories/` và `catalog/stories.json` về repo thật; không commit `package.json` hay lockfile đã đổi.
 2. **Chọn lô.** Lấy các mục `idea` đầu tiên theo thứ tự trong tệp (khoảng 15 mục mỗi ngày, hay 100 mục mỗi tuần).
    Trước khi viết một mục, kiểm `stories/<slug>` trên `main` mới nhất: đã có thư mục thì **không viết lại**, chỉ cập
    nhật mục đó (bước 1) và lấy mục kế. Không chắc nguồn của một mục thuộc phạm vi công cộng thì bỏ qua (để nguyên
@@ -83,9 +90,11 @@ Mảng JSON, mỗi dòng một mục, **thứ tự trong tệp là thứ tự vi
    31/12/2034), các bản dịch Grimm, Andersen tiếng Việt, sách giáo khoa. Không dùng chi tiết riêng của phim Disney.
 6. **Kiểm.** `pnpm check:stories` tới khi mọi truyện của lô có dấu ✓ và không còn lỗi; rồi gate
    `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm build`, chạy lần lượt, không song song.
-7. **Ghi trạng thái và commit theo lô.** Đổi `status` các mục vừa viết thành `text`. Một commit cho cả lô (các
-   `stories/<slug>/story.json` và `catalog/stories.json`), ví dụ `feat(stories): fifteen more tales on the three
-   shelves`. `git pull --rebase` trước khi push. Sau khi push, `ci` và `deploy` chạy; kiểm
+7. **Ghi trạng thái, commit và push từng truyện.** Lượt chạy có thể bị dừng giữa chừng (hết hạn mức), nên truyện nào
+   qua `pnpm check:stories` thì commit và push ngay, không chờ cả lô: đổi `status` mục đó thành `text`, một commit gồm
+   `stories/<slug>/story.json` và `catalog/stories.json`, ví dụ `feat(stories): add vi-sao-ho-co-van`,
+   `git pull --rebase` rồi push. Gate đầy đủ (`lint`, `typecheck`, `test`, `build`) chạy ít nhất một lần trước push
+   đầu tiên của lượt; CI chạy lại mỗi push. Deploy xếp hàng (không huỷ nhau); sau push cuối, kiểm
    `https://truyen.hoandat.com/RELEASE` trả đúng mã bản mới (`<YYYYMMDD-HHMMSS>-<12 ký tự commit>`).
 
 Việc PC làm sau (không phải routine): `pnpm story:build <slug>` sinh media và ghi `file`; ai chạy bước đó đổi `status`
