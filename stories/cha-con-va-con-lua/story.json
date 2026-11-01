@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "slug": "cha-con-va-con-lua",
+  "shelf": "world",
+  "title": "Cha con và con lừa",
+  "summary": "Hai cha con dắt lừa ra chợ, ai nói gì cũng nghe theo, cuối cùng phải khiêng cả con lừa đi giữa tiếng cười. Ngụ ngôn Aesop hài hước về chuyện muốn chiều lòng tất cả mọi người.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive village folk and animals, a winding country road between fields and a little stone bridge over a river, an old European market town in the distance, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "nguoi-cha",
+      "name": "Người cha",
+      "seed": 1914335259,
+      "sheetPrompt": "a plump middle-aged miller with a floury apron, round cheeks, bushy moustache and a straw hat, worried kindly expression, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-trai",
+      "name": "Cậu con trai",
+      "seed": 350918508,
+      "sheetPrompt": "a skinny cheerful boy of about twelve in a patched shirt, short trousers and bare feet, tousled hair, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-lua",
+      "name": "Con lừa",
+      "seed": 1341106241,
+      "sheetPrompt": "a small grey donkey with long fuzzy ears, a white muzzle and patient sleepy eyes, wearing a simple rope halter, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ra-cho",
+      "title": "Dắt lừa ra chợ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có hai cha con người thợ xay bột dắt con lừa ra chợ phiên để bán. Trời mát, đường làng rợp bóng cây, hai cha con vừa đi vừa trò chuyện. Được một quãng, họ gặp mấy cô gái đi gánh nước. Các cô cười khúc khích: “Ai đời có lừa mà không cưỡi, lại lội bộ cho mỏi chân!” Người cha nghe thấy cũng có lý, liền bảo con trai leo lên lưng lừa.",
+      "subtitles": [
+        "Ngày xưa, có hai cha con người thợ xay bột dắt con lừa ra chợ phiên để bán.",
+        "Trời mát, đường làng rợp bóng cây, hai cha con vừa đi vừa trò chuyện.",
+        "Được một quãng, họ gặp mấy cô gái đi gánh nước.",
+        "Các cô cười khúc khích: “Ai đời có lừa mà không cưỡi, lại lội bộ cho mỏi chân!”",
+        "Người cha nghe thấy cũng có lý, liền bảo con trai leo lên lưng lừa."
+      ],
+      "image": {
+        "character": "con-lua",
+        "prompt": "a miller and his son walking a small grey donkey along a shady country road, girls carrying water jugs giggling and pointing",
+        "seed": 1739690539
+      },
+      "video": {
+        "motionPrompt": "the donkey trots along, the girls giggle behind their hands, leaves sway over the road",
+        "seed": 1762556834
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-cuoi",
+      "title": "Con cưỡi, cha đi bộ",
+      "narrator": "ke-chuyen",
+      "narration": "Đi thêm một đoạn, hai cha con gặp mấy cụ già ngồi bên gốc cây. Một cụ chép miệng: “Trẻ bây giờ thật chẳng biết kính trên nhường dưới. Con thì ngồi chễm chệ, để cha già đi bộ!” Cậu con trai đỏ mặt, vội nhảy xuống. Người cha leo lên lưng lừa, cậu con đi bộ bên cạnh. Con lừa vẫn thong thả bước, tai vểnh lên như đang nghe chuyện.",
+      "subtitles": [
+        "Đi thêm một đoạn, hai cha con gặp mấy cụ già ngồi bên gốc cây.",
+        "Một cụ chép miệng: “Trẻ bây giờ thật chẳng biết kính trên nhường dưới.",
+        "Con thì ngồi chễm chệ, để cha già đi bộ!” Cậu con trai đỏ mặt, vội nhảy xuống.",
+        "Người cha leo lên lưng lừa, cậu con đi bộ bên cạnh.",
+        "Con lừa vẫn thong thả bước, tai vểnh lên như đang nghe chuyện."
+      ],
+      "image": {
+        "character": "con-trai",
+        "prompt": "a boy riding a grey donkey while his father walks beside, old men on a bench under a tree frowning and wagging their fingers",
+        "seed": 2617451809
+      },
+      "video": {
+        "motionPrompt": "the old men wag their fingers, the boy blushes and hops down, the donkey flicks its long ears",
+        "seed": 3612275606
+      },
+      "voice": {}
+    },
+    {
+      "id": "ca-hai-cung-cuoi",
+      "title": "Cả hai cùng cưỡi",
+      "narrator": "ke-chuyen",
+      "narration": "Chẳng bao lâu, họ gặp một nhóm phụ nữ dắt con đi chợ. Các bà xì xào: “Ông bố gì mà ngồi trên lưng lừa sung sướng, để thằng bé lẽo đẽo theo sau, mặt mũi bơ phờ!” Người cha bối rối, chẳng biết làm sao, bèn kéo con trai lên ngồi cùng. Thế là cả hai cha con cùng cưỡi trên lưng con lừa. Con lừa oằn lưng, bước chân chậm hẳn lại.",
+      "subtitles": [
+        "Chẳng bao lâu, họ gặp một nhóm phụ nữ dắt con đi chợ.",
+        "Các bà xì xào: “Ông bố gì mà ngồi trên lưng lừa sung sướng, để thằng bé lẽo đẽo theo sau,",
+        "mặt mũi bơ phờ!” Người cha bối rối, chẳng biết làm sao, bèn kéo con trai lên ngồi cùng.",
+        "Thế là cả hai cha con cùng cưỡi trên lưng con lừa.",
+        "Con lừa oằn lưng, bước chân chậm hẳn lại."
+      ],
+      "image": {
+        "character": "nguoi-cha",
+        "prompt": "a plump miller and his son both squeezed onto the back of a small sagging donkey, village women with baskets whispering and shaking their heads",
+        "seed": 2503004303
+      },
+      "video": {
+        "motionPrompt": "the donkey wobbles slowly under its load, the women whisper and shake their heads, dust puffs from the road",
+        "seed": 3366036731
+      },
+      "voice": {}
+    },
+    {
+      "id": "khieng-lua",
+      "title": "Khiêng lừa vào chợ",
+      "narrator": "ke-chuyen",
+      "narration": "Gần tới cổng chợ, một người đàn ông lắc đầu: “Hai người to khoẻ thế kia mà đè lên con vật bé nhỏ. Có khi các người khiêng nó còn hơn!” Hai cha con lại vội xuống. Họ buộc bốn chân lừa vào một cây sào, rồi mỗi người vác một đầu, khiêng đi. Người trong chợ thấy vậy thì cười ồ lên, chỉ trỏ, chưa từng thấy cảnh nào lạ đến thế.",
+      "subtitles": [
+        "Gần tới cổng chợ, một người đàn ông lắc đầu: “Hai người to khoẻ thế kia mà đè lên con vật",
+        "bé nhỏ. Có khi các người khiêng nó còn hơn!” Hai cha con lại vội xuống.",
+        "Họ buộc bốn chân lừa vào một cây sào, rồi mỗi người vác một đầu, khiêng đi.",
+        "Người trong chợ thấy vậy thì cười ồ lên, chỉ trỏ, chưa từng thấy cảnh nào lạ đến thế."
+      ],
+      "image": {
+        "character": "con-lua",
+        "prompt": "a miller and his son comically carrying a surprised grey donkey hanging from a long wooden pole on their shoulders, market crowd laughing and pointing at the town gate",
+        "seed": 1546985896
+      },
+      "video": {
+        "motionPrompt": "the pole bounces as they walk, the donkey blinks in surprise, the crowd laughs and points",
+        "seed": 1530504414
+      },
+      "voice": {}
+    },
+    {
+      "id": "mat-lua",
+      "title": "Mất cả con lừa",
+      "narrator": "ke-chuyen",
+      "narration": "Đến cây cầu bắc qua sông, tiếng cười ồn ào làm con lừa hoảng sợ. Nó giãy mạnh, đứt dây, rơi tõm xuống dòng nước. Con lừa vùng vẫy bơi vào bờ bên kia rồi chạy một mạch vào rừng, không bao giờ quay lại. Hai cha con đứng trên cầu, tay trắng, mặt buồn thiu. Người cha thở dài: “Muốn chiều lòng tất cả mọi người, rốt cuộc chẳng được lòng ai, lại mất cả con lừa.”",
+      "subtitles": [
+        "Đến cây cầu bắc qua sông, tiếng cười ồn ào làm con lừa hoảng sợ.",
+        "Nó giãy mạnh, đứt dây, rơi tõm xuống dòng nước.",
+        "Con lừa vùng vẫy bơi vào bờ bên kia rồi chạy một mạch vào rừng, không bao giờ quay lại.",
+        "Hai cha con đứng trên cầu, tay trắng, mặt buồn thiu.",
+        "Người cha thở dài: “Muốn chiều lòng tất cả mọi người, rốt cuộc chẳng được lòng ai, lại mất",
+        "cả con lừa.”"
+      ],
+      "image": {
+        "character": "nguoi-cha",
+        "prompt": "a grey donkey happily swimming away to the far riverbank while the miller and his son stand on a little stone bridge holding an empty pole, looking glum",
+        "seed": 558752538
+      },
+      "video": {
+        "motionPrompt": "the donkey paddles to the bank and trots off into the trees, the river flows, father and son droop their shoulders",
+        "seed": 471810714
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "comic classical storybook music, bassoon and clarinet with bouncy pizzicato strings, a trotting rhythm that grows clumsier, a splash then a soft wistful ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3916953124
+  }
+}

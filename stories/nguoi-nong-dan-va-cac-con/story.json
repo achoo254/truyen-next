@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "slug": "nguoi-nong-dan-va-cac-con",
+  "shelf": "world",
+  "title": "Người nông dân và các con",
+  "summary": "Trước lúc đi xa mãi mãi, ông lão nông dặn ba người con rằng có kho báu chôn trong vườn nho. Ba anh em đào bới khắp vườn và tìm thấy một kho báu không ai ngờ. Ngụ ngôn Aesop ấm áp về giá trị của lao động.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản tiếng Anh của Townsend năm 1867 trên Project Gutenberg), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, a rustic Greek farmhouse with a terracotta roof, rolling vineyards, olive trees and stone walls, simple homespun tunics, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cha",
+      "name": "Ông lão nông dân",
+      "seed": 91282056,
+      "sheetPrompt": "a kind old Greek farmer with a white beard, a weathered smiling face, a simple brown homespun tunic, a straw hat and a wooden walking stick, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba-anh-em",
+      "name": "Ba anh em",
+      "seed": 1035460020,
+      "sheetPrompt": "three young brothers in simple homespun tunics of blue, green and ochre, one tall, one stocky, one small with curly hair, standing side by side holding spades, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-nguoi-con",
+      "title": "Ba người con ham chơi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng quê có nắng vàng và đồi nho xanh, có một ông lão nông dân cần cù. Cả đời ông chăm vườn nho, sáng nào cũng ra đồng từ khi gà gáy. Ông có ba người con trai khỏe mạnh, nhưng cả ba lại ham chơi. Sáng thì ngủ nướng, chiều thì ra bờ suối câu cá, đánh đáo. Vườn nho của nhà mỗi năm một thêm cỏ dại.",
+      "subtitles": [
+        "Ngày xưa, ở một làng quê có nắng vàng và đồi nho xanh, có một ông lão nông dân cần cù.",
+        "Cả đời ông chăm vườn nho, sáng nào cũng ra đồng từ khi gà gáy.",
+        "Ông có ba người con trai khỏe mạnh, nhưng cả ba lại ham chơi.",
+        "Sáng thì ngủ nướng, chiều thì ra bờ suối câu cá, đánh đáo.",
+        "Vườn nho của nhà mỗi năm một thêm cỏ dại."
+      ],
+      "image": {
+        "character": "ba-anh-em",
+        "prompt": "three young brothers lazily fishing and playing by a sunny stream, while in the background the old farmer works alone in a vineyard overgrown with weeds, a terracotta-roofed farmhouse on the hill",
+        "seed": 164307612
+      },
+      "video": {
+        "motionPrompt": "the brothers dangle fishing lines and laugh, the stream sparkles, far away the old farmer slowly hoes the soil, vine leaves sway",
+        "seed": 1048711539
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-dan",
+      "title": "Lời dặn của cha",
+      "narrator": "ke-chuyen",
+      "narration": "Năm ấy, ông lão đã già yếu lắm, chẳng còn ra đồng được nữa. Biết mình sắp phải đi xa mãi mãi, ông gọi ba con đến bên giường, thì thầm: “Các con ơi, cha có một kho báu, chôn ngay trong vườn nho của nhà mình. Cha già rồi, chẳng nhớ đúng chỗ nữa. Các con cứ chịu khó đào mà tìm nhé.” Nói xong, ông mỉm cười, nắm tay từng đứa con.",
+      "subtitles": [
+        "Năm ấy, ông lão đã già yếu lắm, chẳng còn ra đồng được nữa.",
+        "Biết mình sắp phải đi xa mãi mãi, ông gọi ba con đến bên giường,",
+        "thì thầm: “Các con ơi, cha có một kho báu, chôn ngay trong vườn nho của nhà mình.",
+        "Cha già rồi, chẳng nhớ đúng chỗ nữa. Các con cứ chịu khó đào mà tìm nhé.”",
+        "Nói xong, ông mỉm cười, nắm tay từng đứa con."
+      ],
+      "image": {
+        "character": "cha",
+        "prompt": "inside a cosy farmhouse room lit by a warm oil lamp, the frail old farmer rests in bed smiling and holding his sons' hands, the three brothers kneel beside him listening closely, a window shows the vineyard at dusk",
+        "seed": 278437119
+      },
+      "video": {
+        "motionPrompt": "the lamp flame flickers softly, the old farmer whispers and squeezes a son's hand, the brothers lean closer, curtains stir in the breeze",
+        "seed": 1983802475
+      },
+      "voice": {}
+    },
+    {
+      "id": "dao-khap-vuon",
+      "title": "Đào khắp vườn nho",
+      "narrator": "ke-chuyen",
+      "narration": "Ít lâu sau, ông lão ra đi thanh thản. Ba anh em buồn lắm, và nhớ mãi lời cha dặn. Sáng hôm sau, cả ba vác thuổng ra vườn từ khi trời còn mờ sương. Anh cả đào dưới những gốc nho già. Anh hai đào dọc bờ tường đá. Cậu út đào quanh cây ô liu. Họ đào hết luống này sang luống khác, xới tung từng tấc đất, nhổ sạch cả cỏ dại.",
+      "subtitles": [
+        "Ít lâu sau, ông lão ra đi thanh thản. Ba anh em buồn lắm, và nhớ mãi lời cha dặn.",
+        "Sáng hôm sau, cả ba vác thuổng ra vườn từ khi trời còn mờ sương.",
+        "Anh cả đào dưới những gốc nho già. Anh hai đào dọc bờ tường đá.",
+        "Cậu út đào quanh cây ô liu.",
+        "Họ đào hết luống này sang luống khác, xới tung từng tấc đất, nhổ sạch cả cỏ dại."
+      ],
+      "image": {
+        "character": "ba-anh-em",
+        "prompt": "at misty dawn the three brothers dig eagerly with spades across the whole vineyard, one under the old vines, one along a stone wall, the youngest around an olive tree, piles of fresh dark soil and pulled weeds",
+        "seed": 3697675432
+      },
+      "video": {
+        "motionPrompt": "the brothers swing their spades and toss soil, morning mist drifts away, a rooster stands on the stone wall, the sun slowly rises",
+        "seed": 1903692122
+      },
+      "voice": {}
+    },
+    {
+      "id": "khong-thay-vang",
+      "title": "Chẳng thấy vàng đâu",
+      "narrator": "ke-chuyen",
+      "narration": "Đào đến tận chiều, rồi sang hôm sau, hôm sau nữa, ba anh em vẫn chẳng thấy một hũ vàng, một đồng bạc nào. Cậu út ngồi phịch xuống đất, lau mồ hôi: “Hay là cha nhớ nhầm rồi?” Anh cả nhìn khắp vườn, giờ đã sạch cỏ, đất tơi xốp. Anh bảo: “Đất đã xới cả rồi, ta cứ chăm nho cho tử tế, xem năm nay thế nào.”",
+      "subtitles": [
+        "Đào đến tận chiều, rồi sang hôm sau, hôm sau nữa,",
+        "ba anh em vẫn chẳng thấy một hũ vàng, một đồng bạc nào.",
+        "Cậu út ngồi phịch xuống đất, lau mồ hôi: “Hay là cha nhớ nhầm rồi?”",
+        "Anh cả nhìn khắp vườn, giờ đã sạch cỏ, đất tơi xốp.",
+        "Anh bảo: “Đất đã xới cả rồi, ta cứ chăm nho cho tử tế, xem năm nay thế nào.”"
+      ],
+      "image": {
+        "character": "ba-anh-em",
+        "prompt": "in the late afternoon the three tired brothers rest on the freshly dug vineyard soil, the youngest wiping his brow, the eldest pointing hopefully at the neat weed-free rows of vines",
+        "seed": 3999119978
+      },
+      "video": {
+        "motionPrompt": "the youngest brother sighs and wipes his forehead, the eldest gestures across the rows, the shadows grow long, a swallow swoops over the vines",
+        "seed": 3108386679
+      },
+      "voice": {}
+    },
+    {
+      "id": "mua-nho",
+      "title": "Mùa nho trĩu quả",
+      "narrator": "ke-chuyen",
+      "narration": "Nhờ đất được xới kỹ, nhờ cỏ dại không còn tranh chất màu, những gốc nho năm ấy lên xanh mơn mởn. Đến mùa, chùm nào chùm nấy to mọng, trĩu cả giàn. Cả làng kéo đến xem, ai cũng trầm trồ: “Chưa năm nào vườn nhà này được mùa đến thế!” Ba anh em hái nho mang ra chợ, bán được bao nhiêu là tiền.",
+      "subtitles": [
+        "Nhờ đất được xới kỹ, nhờ cỏ dại không còn tranh chất",
+        "màu, những gốc nho năm ấy lên xanh mơn mởn.",
+        "Đến mùa, chùm nào chùm nấy to mọng, trĩu cả giàn.",
+        "Cả làng kéo đến xem, ai cũng trầm trồ: “Chưa năm nào vườn nhà này được mùa đến thế!”",
+        "Ba anh em hái nho mang ra chợ, bán được bao nhiêu là tiền."
+      ],
+      "image": {
+        "character": "ba-anh-em",
+        "prompt": "a lush vineyard at harvest time, heavy clusters of purple grapes hanging from the vines, the happy brothers filling wicker baskets, villagers gathered admiring the harvest, golden afternoon light",
+        "seed": 2367000915
+      },
+      "video": {
+        "motionPrompt": "the brothers lift heavy grape clusters into baskets, villagers clap and smile, vine leaves rustle, bees hover over the grapes",
+        "seed": 50813419
+      },
+      "voice": {}
+    },
+    {
+      "id": "kho-bau-that",
+      "title": "Kho báu thật sự",
+      "narrator": "ke-chuyen",
+      "narration": "Tối ấy, ba anh em ngồi bên bếp lửa, đếm những đồng tiền bán nho. Bỗng anh cả mỉm cười: “Các em ơi, anh hiểu rồi. Kho báu cha nói chẳng phải vàng bạc chôn dưới đất, mà chính là công sức mình bỏ ra cho mảnh vườn.” Từ đó, ba anh em chăm chỉ làm lụng, vườn nho năm nào cũng xanh tốt. Các bạn nhỏ ạ, chịu khó làm việc chính là kho báu quý nhất.",
+      "subtitles": [
+        "Tối ấy, ba anh em ngồi bên bếp lửa, đếm những đồng tiền bán nho.",
+        "Bỗng anh cả mỉm cười: “Các em ơi, anh hiểu rồi.",
+        "Kho báu cha nói chẳng phải vàng bạc chôn dưới đất,",
+        "mà chính là công sức mình bỏ ra cho mảnh vườn.”",
+        "Từ đó, ba anh em chăm chỉ làm lụng, vườn nho năm nào cũng xanh tốt.",
+        "Các bạn nhỏ ạ, chịu khó làm việc chính là kho báu quý nhất."
+      ],
+      "image": {
+        "character": "ba-anh-em",
+        "prompt": "three brothers sitting happily around a warm hearth in the farmhouse at night, a small pile of coins and a basket of grapes on the wooden table, the eldest smiling with understanding, the old farmer's straw hat hanging on the wall",
+        "seed": 361591170
+      },
+      "video": {
+        "motionPrompt": "the fire crackles softly, the brothers smile at each other and nod, warm light dances on the walls, the straw hat sways slightly on its peg",
+        "seed": 2716862000
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm pastoral Greek folk music, gentle bouzouki and wooden flute with soft strings, calm and heartfelt, rising to a bright joyful harvest theme and a peaceful ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 523026052
+  }
+}

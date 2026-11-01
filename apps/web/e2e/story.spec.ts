@@ -27,9 +27,11 @@ async function bookAtRest(page: Page): Promise<void> {
 
 /** The open page (or two-page spread) the turning book shows: its pages at rest carry the library's `--simple`. */
 async function openPagesBox(page: Page): Promise<{ x: number; y: number; width: number; height: number }> {
-  const boxes = (await page.locator('.flip-page.--simple').evaluateAll((pages) => pages.map((p) => p.getBoundingClientRect().toJSON() as DOMRect)))
-    .filter((box) => box.width > 0);
-  if (boxes.length === 0) throw new Error('no page on show');
+  const measure = async (): Promise<DOMRect[]> =>
+    (await page.locator('.flip-page.--simple').evaluateAll((pages) => pages.map((p) => p.getBoundingClientRect().toJSON() as DOMRect))).filter((box) => box.width > 0);
+  // The reader reports settled a moment before the library lays the pages out: wait for them.
+  await expect.poll(async () => (await measure()).length, { message: 'no page on show' }).toBeGreaterThan(0);
+  const boxes = await measure();
   const x = Math.min(...boxes.map((box) => box.x));
   const right = Math.max(...boxes.map((box) => box.x + box.width));
   return { x, y: boxes[0]?.y ?? 0, width: right - x, height: boxes[0]?.height ?? 0 };
@@ -67,6 +69,8 @@ test('open the pilot story and step through it scene by scene', async ({ page })
   await page.click('[data-id=story-open-reader]');
   await expect(page.locator('[data-id=story-no-media]')).toBeVisible();
   for (const id of ['story-picture', 'story-subtitle-line', 'story-play']) {
+    // Laid out a moment after the reader opens: measure once it is on screen.
+    await expect(page.locator(`[data-id=${id}]`)).toBeVisible();
     const box = await page.locator(`[data-id=${id}]`).boundingBox();
     expect(box && box.y + box.height).toBeLessThanOrEqual(page.viewportSize()?.height ?? 0);
   }

@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "slug": "bua-tiec-dem-o-da-giang",
+  "shelf": "adults",
+  "title": "Chuyện bữa tiệc đêm ở Đà Giang",
+  "summary": "Vua Trần Phế Đế đi săn bên sông Đà, một con cáo và một con vượn già hóa làm hai kẻ sĩ, nửa đêm gõ cửa hành cung để can vua thôi săn bắn. Trước mặt thủ tướng Hồ Quý Ly, hai con vật tranh luận sắc sảo đến mức ông phải lúng túng: truyện truyền kỳ châm biếm kẻ cầm quyền tâm thuật bất chính.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Đà Giang dạ ẩm ký, truyện thứ mười lăm trong Truyền kỳ mạn lục của Nguyễn Dữ (thế kỷ XVI), sách cổ thuộc phạm vi công cộng. Lời kể viết mới, chỉ theo cốt truyện của nguyên tác; không chép bản dịch nào.",
+  "basedOn": "Truyền kỳ mạn lục, Chuyện bữa tiệc đêm ở Đà Giang",
+  "style": "classical Vietnamese ink and silk painting illustration, lively brush linework, washes of deep green, indigo, amber lantern light and mist grey on aged silk, late Tran dynasty Vietnam with the wild Da river, forested mountains and a royal hunting camp of tents and banners, sly mysterious mood for adult readers, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "con-cao",
+      "name": "Con cáo (xử sĩ họ Hồ)",
+      "sheetPrompt": "a cunning fox spirit disguised as a Vietnamese recluse scholar named Ho, slender man with narrow amber eyes, sharp clever face and a thin pointed beard, hair in a topknot under a soft grey cloth cap, an earthy russet robe with a dark sash, a hint of a fox tail shadow behind him, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 3829757346
+    },
+    {
+      "id": "con-vuon",
+      "name": "Con vượn già (tú tài họ Viên)",
+      "sheetPrompt": "an old gibbon spirit disguised as a Vietnamese scholar named Vien, elderly man with long arms, a wise wrinkled face framed by grey whiskers, gentle dark eyes, a faded moss green scholar robe and cloth cap, a faint gibbon silhouette in his shadow, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 510288519
+    },
+    {
+      "id": "ho-quy-ly",
+      "name": "Hồ Quý Ly",
+      "sheetPrompt": "Ho Quy Ly, a powerful chancellor of the late Tran dynasty in his fifties, shrewd stern face with a neat black beard and calculating eyes, tall black chancellor hat, rich dark purple court robe with gold embroidered dragons and a jade belt, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 1484424208
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cuoc-san-ben-song-da",
+      "title": "Cuộc săn bên sông Đà",
+      "narrator": "ke-chuyen",
+      "narration": "Năm Bính Dần đời nhà Trần, vua Trần Phế Đế đi săn, kéo theo cả một đoàn quân hầu đông đúc, ngựa xe rầm rập. Đến bờ bắc sông Đà, vua cho dựng trại nghỉ. Ban ngày, tiếng tù và vang khắp núi, chó săn sủa inh ỏi, lửa đốt vây từng sườn đồi để lùa thú ra. Đêm xuống, trong trướng lớn, đèn đuốc sáng rực, vua mở tiệc rượu linh đình cùng các quan. Tiếng cười nói, tiếng chén bát vọng ra tận bờ sông. Còn trong rừng sâu, muông thú nép mình trong hang hốc, run rẩy nghe tiếng người, không biết sáng mai đến lượt con nào.",
+      "subtitles": [
+        "Năm Bính Dần đời nhà Trần, vua Trần Phế Đế đi săn, kéo theo cả một đoàn quân hầu đông đúc,",
+        "ngựa xe rầm rập.",
+        "Đến bờ bắc sông Đà, vua cho dựng trại nghỉ.",
+        "Ban ngày, tiếng tù và vang khắp núi, chó săn sủa inh ỏi,",
+        "lửa đốt vây từng sườn đồi để lùa thú ra.",
+        "Đêm xuống, trong trướng lớn, đèn đuốc sáng rực, vua mở tiệc rượu linh đình cùng các quan.",
+        "Tiếng cười nói, tiếng chén bát vọng ra tận bờ sông.",
+        "Còn trong rừng sâu, muông thú nép mình trong hang hốc, run rẩy nghe tiếng người,",
+        "không biết sáng mai đến lượt con nào."
+      ],
+      "image": {
+        "prompt": "a royal hunting camp at night on the north bank of the Da river, large tents glowing with lanterns, banners and tethered horses, a lavish feast inside the main tent, dark forested mountains beyond where small eyes of hiding animals glint in the shadows",
+        "seed": 2410338798
+      },
+      "video": {
+        "motionPrompt": "lantern light flickers through the tent walls, banners ripple in the night wind, the river flows darkly, tiny animal eyes blink in the forest",
+        "seed": 1282948002
+      },
+      "voice": {}
+    },
+    {
+      "id": "cao-ban-voi-vuon",
+      "title": "Cáo bàn với vượn",
+      "narrator": "ke-chuyen",
+      "narration": "Có một con cáo từ chân núi đi về phía nam, gặp một con vượn già, liền bảo: “Vua tôi nhà ấy vào rừng săn bắn, nhắm cả vào bọn ta. Mạng sống của muông chim lúc này như treo trên sợi dây cung. Tuyết chưa rơi, gió chưa về, ta mà cứ ngồi yên thì nguy mất. Tôi định đến nói mấy lời ngăn họ lại, bác có đi với tôi không?” Vượn già lắc đầu: “Nói mà giải được vây thì hay lắm. Chỉ sợ nói không xong lại bị nghi, bị lộ hình, chuốc họa vào thân.” Cáo cười khẩy: “Bọn theo hầu vua toàn là võ biền, bụng chẳng có chữ, mắt chẳng tinh đời, sợ gì chúng nhận ra.” Vượn ngẫm một lúc rồi gật đầu.",
+      "subtitles": [
+        "Có một con cáo từ chân núi đi về phía nam, gặp một con vượn già, liền bảo:",
+        "“Vua tôi nhà ấy vào rừng săn bắn, nhắm cả vào bọn ta.",
+        "Mạng sống của muông chim lúc này như treo trên sợi dây cung.",
+        "Tuyết chưa rơi, gió chưa về, ta mà cứ ngồi yên thì nguy mất.",
+        "Tôi định đến nói mấy lời ngăn họ lại, bác có đi với tôi không?”",
+        "Vượn già lắc đầu: “Nói mà giải được vây thì hay lắm.",
+        "Chỉ sợ nói không xong lại bị nghi, bị lộ hình, chuốc họa vào thân.”",
+        "Cáo cười khẩy: “Bọn theo hầu vua toàn là võ biền, bụng chẳng có chữ, mắt chẳng tinh đời,",
+        "sợ gì chúng nhận ra.”",
+        "Vượn ngẫm một lúc rồi gật đầu."
+      ],
+      "image": {
+        "prompt": "a moonlit forest clearing above the river, a russet fox and an old grey gibbon sitting face to face on a mossy rock as if conferring, the distant glow of the royal hunting camp below",
+        "seed": 630962280,
+        "character": "con-cao"
+      },
+      "video": {
+        "motionPrompt": "the fox gestures with a paw, the old gibbon scratches its chin and nods slowly, moonlight filters through the leaves, distant camp lights flicker",
+        "seed": 3137956637
+      },
+      "voice": {}
+    },
+    {
+      "id": "go-cua-hanh-cung",
+      "title": "Gõ cửa hành cung",
+      "narrator": "ke-chuyen",
+      "narration": "Thế là cả hai hóa làm hai người đàn ông. Một người xưng là tú tài họ Viên, một người xưng là xử sĩ họ Hồ. Nửa đêm, họ đến gõ cửa hành cung, nhờ viên nội thị dâng vào một lời tâu: “Chúng tôi nghe nói thánh nhân trị vì thì trời đất trong sáng, vua sáng sửa đức thì chim muông cũng vui hòa. Nay chúa thượng làm chủ muôn dân muôn vật, lẽ ra nên giăng lưới tìm người hiền, đem xe ngựa và lời lẽ khiêm cung đón kẻ sĩ ở chốn quê mùa, để trong triều nhiều người giỏi giúp dân. Cớ sao lại đi săn gấu bắt thỏ, giành cả việc của người coi núi rừng?”",
+      "subtitles": [
+        "Thế là cả hai hóa làm hai người đàn ông.",
+        "Một người xưng là tú tài họ Viên, một người xưng là xử sĩ họ Hồ.",
+        "Nửa đêm, họ đến gõ cửa hành cung, nhờ viên nội thị dâng vào một lời tâu:",
+        "“Chúng tôi nghe nói thánh nhân trị vì thì trời đất trong sáng,",
+        "vua sáng sửa đức thì chim muông cũng vui hòa.",
+        "Nay chúa thượng làm chủ muôn dân muôn vật, lẽ ra nên giăng lưới tìm người hiền,",
+        "đem xe ngựa và lời lẽ khiêm cung đón kẻ sĩ ở chốn quê mùa,",
+        "để trong triều nhiều người giỏi giúp dân.",
+        "Cớ sao lại đi săn gấu bắt thỏ, giành cả việc của người coi núi rừng?”"
+      ],
+      "image": {
+        "prompt": "two travelers in scholar robes, one slender in russet and one elderly in moss green, standing at the torch-lit gate of the royal camp at midnight, bowing to a eunuch attendant who holds a lantern, guards with spears looking on",
+        "seed": 1939367678,
+        "character": "con-cao"
+      },
+      "video": {
+        "motionPrompt": "torch flames sway, the eunuch raises his lantern to inspect the two strangers, the two scholars bow in unison, their shadows on the ground look briefly like a fox and a gibbon",
+        "seed": 690166257
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-dieu-trai",
+      "title": "Ba điều trái",
+      "narrator": "ke-chuyen",
+      "narration": "Lúc ấy vua đã say, đang muốn đi nằm, bèn sai thủ tướng Hồ Quý Ly ra tiếp hai người khách ở dưới thềm, và giảng cho họ biết săn bắn là phép tắc có từ đời xưa, sao lại bỏ được. Người họ Hồ thưa: “Đời xưa đuổi tê voi là để trừ hại cho dân, mở cuộc săn là để luyện quân. Còn nay thì khác. Đang giữa mùa hạ mà bắt dân khó nhọc là trái thời. Giẫm nát lúa má để thỏa thú vui là trái chỗ. Vây quanh đầm, đốt trụi núi là trái lễ. Sao ngài không tâu với thánh thượng quay xe về, cho người và vật đều được yên?” Quý Ly đáp gọn: “Không được.”",
+      "subtitles": [
+        "Lúc ấy vua đã say, đang muốn đi nằm,",
+        "bèn sai thủ tướng Hồ Quý Ly ra tiếp hai người khách ở dưới thềm,",
+        "và giảng cho họ biết săn bắn là phép tắc có từ đời xưa, sao lại bỏ được.",
+        "Người họ Hồ thưa: “Đời xưa đuổi tê voi là để trừ hại cho dân,",
+        "mở cuộc săn là để luyện quân.",
+        "Còn nay thì khác.",
+        "Đang giữa mùa hạ mà bắt dân khó nhọc là trái thời.",
+        "Giẫm nát lúa má để thỏa thú vui là trái chỗ.",
+        "Vây quanh đầm, đốt trụi núi là trái lễ.",
+        "Sao ngài không tâu với thánh thượng quay xe về, cho người và vật đều được yên?”",
+        "Quý Ly đáp gọn: “Không được.”"
+      ],
+      "image": {
+        "prompt": "under the eaves of the royal tent lit by lanterns, the chancellor Ho Quy Ly in a purple court robe seated on a carved chair, the two guest scholars standing below the steps, the russet-robed one speaking with raised fingers counting points",
+        "seed": 2240289206,
+        "character": "ho-quy-ly"
+      },
+      "video": {
+        "motionPrompt": "the russet-robed scholar counts on his fingers as he speaks, the chancellor narrows his eyes and taps the armrest, lantern light flickers across their faces",
+        "seed": 1874899524
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-ho-tinh-nghin-tuoi",
+      "title": "Con hồ tinh nghìn tuổi",
+      "narrator": "ke-chuyen",
+      "narration": "Người họ Hồ lại nói: “Tôi chỉ xin cho những loài chim yếu thú hèn. Còn giống tinh khôn nhanh nhẹn thì tự biết chạy xa bay cao, đâu chịu ôm cây chờ chết.” Quý Ly bảo: “Nhà vua đi chuyến này đâu phải ham chim muông. Ngài nghe vùng này có con hồ tinh nghìn tuổi, nên mới kéo quân đến diệt, cho loài yêu quái hết đường tác oai tác quái.” Nghe đến đó, người họ Viên đưa mắt nhìn người họ Hồ, mỉm cười. Quý Ly hỏi vì sao cười. Người họ Hồ nhanh nhảu đáp: “Bây giờ lang sói đầy đường, sao ngài lại đi hỏi tội con hồ ly?”",
+      "subtitles": [
+        "Người họ Hồ lại nói: “Tôi chỉ xin cho những loài chim yếu thú hèn.",
+        "Còn giống tinh khôn nhanh nhẹn thì tự biết chạy xa bay cao, đâu chịu ôm cây chờ chết.”",
+        "Quý Ly bảo: “Nhà vua đi chuyến này đâu phải ham chim muông.",
+        "Ngài nghe vùng này có con hồ tinh nghìn tuổi, nên mới kéo quân đến diệt,",
+        "cho loài yêu quái hết đường tác oai tác quái.”",
+        "Nghe đến đó, người họ Viên đưa mắt nhìn người họ Hồ, mỉm cười.",
+        "Quý Ly hỏi vì sao cười.",
+        "Người họ Hồ nhanh nhảu đáp: “Bây giờ lang sói đầy đường,",
+        "sao ngài lại đi hỏi tội con hồ ly?”"
+      ],
+      "image": {
+        "prompt": "close view of the two disguised scholars exchanging a sly knowing glance and a hidden smile, the elderly one in green covering his mouth with his sleeve, the chancellor in purple watching them suspiciously in the lantern light",
+        "seed": 572986979,
+        "character": "ho-quy-ly"
+      },
+      "video": {
+        "motionPrompt": "the two scholars exchange a quick glance, a sly smile spreads, the chancellor leans forward frowning, lantern shadows tremble",
+        "seed": 476980528
+      },
+      "voice": {}
+    },
+    {
+      "id": "lang-soi-day-duong",
+      "title": "Lang sói đầy đường",
+      "narrator": "ke-chuyen",
+      "narration": "Quý Ly hỏi ý ấy là thế nào. Người họ Hồ đáp: “Nay bờ cõi chưa yên. Chế Bồng Nga như con chó dại cắn càn ở phương nam. Lý Anh như con hổ đói gầm thét ở phía tây bắc. Giặc giã lấm lét còn đó. Sao không giương cung thánh nhân, tuốt gươm thiên tử, lấy nhân làm yên ngựa, lấy nghĩa làm mái chèo, lấy hào kiệt làm nanh vuốt, lấy trung tín làm áo giáp, bắt hết giặc giã cho gần xa yên ổn? Bỏ việc ấy mà lẩn quẩn đi săn, dù được chim thú chất cao như núi, chúng tôi cũng chẳng phục.” Quý Ly nghe ra lẽ phải. Hai người mừng thầm: “Kế của ta xong rồi.” Họ nâng chén rượu đầy, uống cạn, rồi bàn luận thao thao, lời trôi như nước suối, không vấp một chữ.",
+      "subtitles": [
+        "Quý Ly hỏi ý ấy là thế nào.",
+        "Người họ Hồ đáp: “Nay bờ cõi chưa yên.",
+        "Chế Bồng Nga như con chó dại cắn càn ở phương nam.",
+        "Lý Anh như con hổ đói gầm thét ở phía tây bắc.",
+        "Giặc giã lấm lét còn đó.",
+        "Sao không giương cung thánh nhân, tuốt gươm thiên tử, lấy nhân làm yên ngựa,",
+        "lấy nghĩa làm mái chèo, lấy hào kiệt làm nanh vuốt, lấy trung tín làm áo giáp,",
+        "bắt hết giặc giã cho gần xa yên ổn?",
+        "Bỏ việc ấy mà lẩn quẩn đi săn, dù được chim thú chất cao như núi,",
+        "chúng tôi cũng chẳng phục.”",
+        "Quý Ly nghe ra lẽ phải.",
+        "Hai người mừng thầm: “Kế của ta xong rồi.”",
+        "Họ nâng chén rượu đầy, uống cạn, rồi bàn luận thao thao, lời trôi như nước suối,",
+        "không vấp một chữ."
+      ],
+      "image": {
+        "prompt": "the russet-robed scholar standing and speaking passionately with sweeping gestures, behind him in the misty air faint symbolic visions of a wild dog in the south and a hungry tiger in the northwest, the chancellor listening intently, the elderly scholar raising a full wine cup",
+        "seed": 4098489323,
+        "character": "con-cao"
+      },
+      "video": {
+        "motionPrompt": "the misty visions of the dog and tiger swirl and fade, the speaker's sleeves sweep wide, the old scholar drinks his wine, the chancellor slowly nods",
+        "seed": 1288363742
+      },
+      "voice": {}
+    },
+    {
+      "id": "quy-ly-sinh-nghi",
+      "title": "Quý Ly sinh nghi",
+      "narrator": "ke-chuyen",
+      "narration": "Quý Ly ngồi lặng hồi lâu rồi nói: “Ta từng tranh luận với sứ người Tàu, người Chiêm, chưa bao giờ chịu kém lý. Thế mà nay lại lúng túng trước mấy gã này. Các gã nếu chẳng phải yêu núi ma rừng thì sao ăn nói sắc bén đến vậy?” Hai người nổi giận: “Ông là thủ tướng, lẽ ra phải tiến cử người tài cho nước nhà dùng. Sao lại ghen người hiền, ghét kẻ giỏi? Sách xưa dạy thấy người có tài thì coi như mình có tài, ông quên rồi sao?” Quý Ly đổi sắc mặt, vội xin lỗi, rồi dỗ dành: “Đời này hiếm người như các ông. Sao không vứt nón lá áo tơi, ra lập công với đời, để tiếng về sau, việc gì phải chết khô trong hang núi không ai biết đến?”",
+      "subtitles": [
+        "Quý Ly ngồi lặng hồi lâu rồi nói: “Ta từng tranh luận với sứ người Tàu, người Chiêm,",
+        "chưa bao giờ chịu kém lý.",
+        "Thế mà nay lại lúng túng trước mấy gã này.",
+        "Các gã nếu chẳng phải yêu núi ma rừng thì sao ăn nói sắc bén đến vậy?”",
+        "Hai người nổi giận: “Ông là thủ tướng, lẽ ra phải tiến cử người tài cho nước nhà dùng.",
+        "Sao lại ghen người hiền, ghét kẻ giỏi?",
+        "Sách xưa dạy thấy người có tài thì coi như mình có tài, ông quên rồi sao?”",
+        "Quý Ly đổi sắc mặt, vội xin lỗi, rồi dỗ dành: “Đời này hiếm người như các ông.",
+        "Sao không vứt nón lá áo tơi, ra lập công với đời, để tiếng về sau,",
+        "việc gì phải chết khô trong hang núi không ai biết đến?”"
+      ],
+      "image": {
+        "prompt": "the chancellor in purple half rising from his chair with a suspicious stern expression, the two scholars drawing themselves up in indignation, a toppled wine cup on the table, the lantern light casting their shadows on the tent wall in the shapes of a fox and a gibbon",
+        "seed": 3172976312,
+        "character": "ho-quy-ly"
+      },
+      "video": {
+        "motionPrompt": "the chancellor rises halfway, the scholars straighten in anger, the animal-shaped shadows on the tent wall twitch and shift, then the chancellor sits back with a forced smile",
+        "seed": 4033283645
+      },
+      "voice": {}
+    },
+    {
+      "id": "tho-tu-gia",
+      "title": "Bài thơ từ giã",
+      "narrator": "ke-chuyen",
+      "narration": "Hai người cười: “Chúng tôi nương thân bên làn khói, náu mình trong hang mây. Ngủ thì cỏ làm đệm, khát thì suối làm rượu, bạn bè là hươu nai, ăn quả bách, nhai lá tùng, ngâm trăng vịnh gió cho khỏi vướng lưới trần. Ai rảnh đâu mà nhổ một sợi lông giúp đời.” Rồi họ bảo: “Chúng tôi vốn quen phóng túng, xưa nay hay thơ. Đêm nay dự tiệc, lẽ nào không có mấy câu ghi lại.” Người họ Hồ ngâm một bài, đại ý: uống nước khe trong, chẳng màng danh lợi; hang đá dễ nương thân, bụi trần khó đặt chân; mây khói rồi đây không dấu vết. Người họ Viên ngâm tiếp, rằng nghìn khe muôn suối đều có lối thông, ta về rừng, bác về hang, cùng một lòng tìm chốn yên thân.",
+      "subtitles": [
+        "Hai người cười: “Chúng tôi nương thân bên làn khói, náu mình trong hang mây.",
+        "Ngủ thì cỏ làm đệm, khát thì suối làm rượu, bạn bè là hươu nai, ăn quả bách, nhai lá tùng,",
+        "ngâm trăng vịnh gió cho khỏi vướng lưới trần.",
+        "Ai rảnh đâu mà nhổ một sợi lông giúp đời.”",
+        "Rồi họ bảo: “Chúng tôi vốn quen phóng túng, xưa nay hay thơ.",
+        "Đêm nay dự tiệc, lẽ nào không có mấy câu ghi lại.”",
+        "Người họ Hồ ngâm một bài, đại ý: uống nước khe trong, chẳng màng danh lợi;",
+        "hang đá dễ nương thân, bụi trần khó đặt chân; mây khói rồi đây không dấu vết.",
+        "Người họ Viên ngâm tiếp, rằng nghìn khe muôn suối đều có lối thông, ta về rừng,",
+        "bác về hang, cùng một lòng tìm chốn yên thân."
+      ],
+      "image": {
+        "prompt": "the two disguised scholars reciting poems by lantern light at the edge of the tent, the elderly green-robed one with eyes half closed and a hand raised in rhythm, mist rising from the dark river behind them, the chancellor listening with a guarded expression",
+        "seed": 3377957661,
+        "character": "con-vuon"
+      },
+      "video": {
+        "motionPrompt": "the elderly scholar sways slightly as he recites, mist curls up from the river, lantern light dims as night deepens, the chancellor's fingers tighten on his sleeve",
+        "seed": 3779778298
+      },
+      "voice": {}
+    },
+    {
+      "id": "cao-va-vuon-hien-hinh",
+      "title": "Cáo và vượn hiện hình",
+      "narrator": "ke-chuyen",
+      "narration": "Ngâm xong, hai người chắp tay từ biệt, thong thả bước ra khỏi trại. Quý Ly vẫn ngờ, lén sai người rón rén theo sau. Đến lưng chừng núi, dưới ánh trăng mờ, người đi theo thấy hai bóng người bỗng thấp hẳn xuống, hóa thành một con cáo và một con vượn, rồi chạy vụt vào rừng sâu, biến mất. Người đời sau bàn rằng: con người vốn là giống khôn thiêng nhất trong muôn loài, cớ sao cuộc tranh luận ở sông Đà lại để loài vật thắng thế? Ấy là vì tâm thuật của Quý Ly vốn không ngay thẳng, nên yêu quái mới dám đến đùa cợt. Nước sông trong thì người ta rửa mũ, nước đục thì rửa chân: kẻ khác đối với mình ra sao, đều do chính mình mà thôi.",
+      "subtitles": [
+        "Ngâm xong, hai người chắp tay từ biệt, thong thả bước ra khỏi trại.",
+        "Quý Ly vẫn ngờ, lén sai người rón rén theo sau.",
+        "Đến lưng chừng núi, dưới ánh trăng mờ,",
+        "người đi theo thấy hai bóng người bỗng thấp hẳn xuống,",
+        "hóa thành một con cáo và một con vượn, rồi chạy vụt vào rừng sâu, biến mất.",
+        "Người đời sau bàn rằng: con người vốn là giống khôn thiêng nhất trong muôn loài,",
+        "cớ sao cuộc tranh luận ở sông Đà lại để loài vật thắng thế?",
+        "Ấy là vì tâm thuật của Quý Ly vốn không ngay thẳng, nên yêu quái mới dám đến đùa cợt.",
+        "Nước sông trong thì người ta rửa mũ, nước đục thì rửa chân: kẻ khác đối với mình ra sao,",
+        "đều do chính mình mà thôi."
+      ],
+      "image": {
+        "prompt": "a moonlit mountain path halfway up a forested slope, two scholar figures transforming mid-stride into a russet fox and an old grey gibbon bounding into the trees, a startled spy hiding behind a rock, the Da river shining far below",
+        "seed": 3094901269,
+        "character": "con-cao"
+      },
+      "video": {
+        "motionPrompt": "the two figures shrink and change shape as they run, the fox darts into the undergrowth, the gibbon swings up into the branches, the spy gasps, leaves settle in the moonlight",
+        "seed": 173204939
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful yet mysterious Vietnamese traditional instrumental, dan bau and bamboo flute, light wooden clappers and soft drum, night forest and river ambience, sly and witty with a quiet reflective ending, moderate tempo, no vocals",
+    "durationSeconds": 150,
+    "seed": 3730338746
+  }
+}

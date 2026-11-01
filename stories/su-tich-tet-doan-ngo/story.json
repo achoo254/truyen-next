@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "slug": "su-tich-tet-doan-ngo",
+  "shelf": "kids",
+  "title": "Sự tích Tết Đoan Ngọ",
+  "summary": "Vì sao sáng mùng năm tháng năm, cả nhà lại ăn rượu nếp, mận, vải? Chuyện kể về năm sâu bọ kéo đến phá hết mùa màng, và ông lão lạ tên Đôi Truân đã chỉ cho dân làng cách đuổi chúng đi. Bản kể nhẹ nhàng cho trẻ nhỏ về Tết diệt sâu bọ.",
+  "themes": [
+    "su-tich",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Sự tích dân gian Việt Nam về ông Đôi Truân và Tết diệt sâu bọ, truyền miệng, không ai giữ quyền; lễ vật và cách làm theo lời ông lão khác nhau theo dị bản, bản này kể bánh tro, hoa quả và vươn vai vận động giữa trưa. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "basedOn": "Sự tích dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, early summer countryside with golden rice fields, lychee and plum trees, thatched houses, rounded friendly shapes, calm and safe mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3963225032
+    },
+    {
+      "id": "doi-truan",
+      "name": "Ông Đôi Truân",
+      "sheetPrompt": "Doi Truan, a mysterious kind old man from a Vietnamese folk tale, long white beard, brown traditional robe, conical straw hat on his back, wooden walking stick, gentle wise smile, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 792007812
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Sáng nay là mùng năm tháng năm âm lịch, bà cho Miu ăn rượu nếp, lại còn có mận chua, vải ngọt nữa. Bà bảo hôm nay là Tết Đoan Ngọ, Tết diệt sâu bọ. Sâu bọ ở đâu mà phải diệt nhỉ? Các bạn cùng nghe Miu kể nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Sáng nay là mùng năm tháng năm âm lịch, bà cho Miu ăn rượu nếp,",
+        "lại còn có mận chua, vải ngọt nữa. Bà bảo hôm nay là Tết Đoan Ngọ, Tết diệt sâu bọ.",
+        "Sâu bọ ở đâu mà phải diệt nhỉ? Các bạn cùng nghe Miu kể nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits at a low wooden table in the morning eating a small bowl of fermented sticky rice, plates of red lychees, plums and leaf-wrapped ash rice cakes beside her",
+        "seed": 2333671054,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat takes a spoonful of sticky rice and smiles with puffed cheeks, sunlight shines through the window, slow camera push-in",
+        "seed": 729359944
+      },
+      "voice": {}
+    },
+    {
+      "id": "nam-duoc-mua",
+      "title": "Một năm được mùa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một năm trời thuận gió hòa, lúa chín vàng đồng, cây trái sai trĩu cành. Dân làng vui lắm, rủ nhau mở hội ăn mừng. Ai cũng nghĩ năm nay nhà nào cũng sẽ đầy thóc, đầy quả.",
+      "subtitles": [
+        "Ngày xưa, có một năm trời thuận gió hòa, lúa chín vàng đồng, cây trái sai trĩu cành.",
+        "Dân làng vui lắm, rủ nhau mở hội ăn mừng.",
+        "Ai cũng nghĩ năm nay nhà nào cũng sẽ đầy thóc, đầy quả."
+      ],
+      "image": {
+        "prompt": "a happy Vietnamese village in early summer, golden rice fields, lychee and plum trees full of fruit, villagers dance and play drums at a small harvest festival",
+        "seed": 450753739
+      },
+      "video": {
+        "motionPrompt": "villagers dance and beat drums, rice stalks sway in the breeze, children run between the fruit trees",
+        "seed": 2476593832
+      },
+      "voice": {}
+    },
+    {
+      "id": "sau-bo-keo-den",
+      "title": "Sâu bọ kéo đến",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng đến đầu tháng năm, sâu bọ từ đâu kéo đến đông vô kể. Chúng gặm lá lúa, đục thân cây, cắn thủng từng quả mận, quả vải. Dân làng bắt mãi, đuổi mãi mà sâu bọ vẫn không hết. Hôm nay bắt sạch một góc ruộng, sáng mai sâu bọ lại kéo đến đông hơn. Trẻ con nhìn những quả vải bị cắn dở, mếu máo: Bà ơi, sâu ăn hết vải của con rồi! Ai nấy buồn rầu: Thế này thì mất cả mùa màng rồi!",
+      "subtitles": [
+        "Nhưng đến đầu tháng năm, sâu bọ từ đâu kéo đến đông vô kể.",
+        "Chúng gặm lá lúa, đục thân cây, cắn thủng từng quả mận, quả vải.",
+        "Dân làng bắt mãi, đuổi mãi mà sâu bọ vẫn không hết.",
+        "Hôm nay bắt sạch một góc ruộng, sáng mai sâu bọ lại kéo đến đông hơn.",
+        "Trẻ con nhìn những quả vải bị cắn dở, mếu máo: Bà ơi, sâu ăn hết vải của con rồi!",
+        "Ai nấy buồn rầu: Thế này thì mất cả mùa màng rồi!"
+      ],
+      "image": {
+        "prompt": "many small cartoon caterpillars and bugs nibble on rice leaves and fruit in a field, worried villagers try to brush them away with leafy branches, gentle and funny not creepy",
+        "seed": 810212676
+      },
+      "video": {
+        "motionPrompt": "the little bugs munch happily on the leaves, villagers shake branches, a farmer scratches his head",
+        "seed": 1618701385
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-lao-la",
+      "title": "Ông lão lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc ấy, có một ông lão râu tóc bạc phơ chống gậy đi tới. Ông tự xưng tên là Đôi Truân, rồi ân cần bảo dân làng: Các con hãy làm một cái đàn, bày bánh tro, hoa quả lên mà cúng. Đến giữa trưa mùng năm tháng năm, cả làng cùng ra sân, vươn vai, vận động cho khỏe người.",
+      "subtitles": [
+        "Đúng lúc ấy, có một ông lão râu tóc bạc phơ chống gậy đi tới.",
+        "Ông tự xưng tên là Đôi Truân, rồi ân cần bảo dân làng:",
+        "Các con hãy làm một cái đàn, bày bánh tro, hoa quả lên mà cúng.",
+        "Đến giữa trưa mùng năm tháng năm, cả làng cùng ra sân, vươn vai, vận động cho khỏe người."
+      ],
+      "image": {
+        "prompt": "the kind old man Doi Truan with a long white beard and a walking stick speaks gently to a crowd of villagers under a big banyan tree, pointing toward a village yard",
+        "seed": 2867979920,
+        "character": "doi-truan"
+      },
+      "video": {
+        "motionPrompt": "the old man raises his stick and explains, villagers nod and listen closely, leaves of the banyan tree rustle",
+        "seed": 2297566109
+      },
+      "voice": {}
+    },
+    {
+      "id": "sau-bo-bien-mat",
+      "title": "Sâu bọ biến mất",
+      "narrator": "ke-chuyen",
+      "narration": "Dân làng làm đúng như lời ông lão dặn. Mặt trời vừa đứng bóng, sâu bọ bỗng ngã lăn quay, rơi lả tả khỏi cành lá. Chẳng mấy chốc, đồng ruộng và vườn cây sạch bóng sâu bọ. Lúa lại xanh tốt, quả lại căng tròn. Cả làng reo hò sung sướng.",
+      "subtitles": [
+        "Dân làng làm đúng như lời ông lão dặn.",
+        "Mặt trời vừa đứng bóng, sâu bọ bỗng ngã lăn quay, rơi lả tả khỏi cành lá.",
+        "Chẳng mấy chốc, đồng ruộng và vườn cây sạch bóng sâu bọ.",
+        "Lúa lại xanh tốt, quả lại căng tròn. Cả làng reo hò sung sướng."
+      ],
+      "image": {
+        "prompt": "at noon villagers stretch their arms together in a sunny village yard beside an altar with ash rice cakes and fruit, the little cartoon bugs tumble off the leaves and roll away, green fields shine",
+        "seed": 3709583202
+      },
+      "video": {
+        "motionPrompt": "villagers stretch arms up high, the little bugs roll off the leaves and vanish, the rice plants straighten and sway",
+        "seed": 2518349363
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-lao-ra-di",
+      "title": "Lời dặn của ông lão",
+      "narrator": "ke-chuyen",
+      "narration": "Dân làng tìm ông lão để cảm ơn, nhưng ông đã đi xa từ lúc nào. Ông chỉ để lại lời dặn: Năm nào đến ngày này, các con cứ làm như thế, sâu bọ sẽ không phá được mùa màng.",
+      "subtitles": [
+        "Dân làng tìm ông lão để cảm ơn, nhưng ông đã đi xa từ lúc nào.",
+        "Ông chỉ để lại lời dặn: Năm nào đến ngày này, các con cứ làm như thế,",
+        "sâu bọ sẽ không phá được mùa màng."
+      ],
+      "image": {
+        "prompt": "the old man Doi Truan walks away along a path between green rice fields toward misty hills, villagers wave thankfully from the village gate",
+        "seed": 16433922,
+        "character": "doi-truan"
+      },
+      "video": {
+        "motionPrompt": "the old man walks slowly into the mist and fades away, villagers wave, birds fly over the fields",
+        "seed": 1762590500
+      },
+      "voice": {}
+    },
+    {
+      "id": "tet-diet-sau-bo",
+      "title": "Tết diệt sâu bọ",
+      "narrator": "ke-chuyen",
+      "narration": "Từ đó, mùng năm tháng năm trở thành Tết Đoan Ngọ, người ta còn gọi là Tết diệt sâu bọ. Sáng sớm hôm ấy, cả nhà ăn rượu nếp, ăn mận, ăn vải, bánh tro, người ta bảo ăn như vậy là để đuổi sâu bọ trong bụng đi. Có nhà còn cúng tổ tiên, hái lá thuốc phơi khô, mong cả năm ai cũng khỏe mạnh.",
+      "subtitles": [
+        "Từ đó, mùng năm tháng năm trở thành Tết Đoan Ngọ, người ta còn gọi là Tết diệt sâu bọ.",
+        "Sáng sớm hôm ấy, cả nhà ăn rượu nếp, ăn mận, ăn vải, bánh tro,",
+        "người ta bảo ăn như vậy là để đuổi sâu bọ trong bụng đi.",
+        "Có nhà còn cúng tổ tiên, hái lá thuốc phơi khô, mong cả năm ai cũng khỏe mạnh."
+      ],
+      "image": {
+        "prompt": "a Vietnamese family sits together on a mat in the early morning sharing fermented sticky rice, lychees, plums and ash rice cakes, grandparents and children smile",
+        "seed": 2486696981
+      },
+      "video": {
+        "motionPrompt": "the family passes fruit around, a child peels a lychee, grandma laughs, morning light glows",
+        "seed": 1501364882
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, ngày Tết nhỏ này cũng có một câu chuyện thật hay. Năm sau đến Tết Đoan Ngọ, các bạn nhớ ăn rượu nếp, ăn hoa quả cùng ông bà, bố mẹ nhé! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, ngày Tết nhỏ này cũng có một câu chuyện thật hay.",
+        "Năm sau đến Tết Đoan Ngọ, các bạn nhớ ăn rượu nếp, ăn hoa quả cùng ông bà, bố mẹ nhé!",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye holding a bunch of red lychees in a sunny Vietnamese garden with plum trees and green rice fields behind",
+        "seed": 1631108389,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, lychee leaves sway, butterflies flutter by, gentle camera pull-back",
+        "seed": 1010205812
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm Vietnamese countryside folk tune for children, bamboo flute and dan bau monochord, soft dan tranh zither and light drum, sunny early summer feeling, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4096139678
+  }
+}

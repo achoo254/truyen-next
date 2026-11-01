@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-lua-khoac-da-su-tu",
+  "shelf": "world",
+  "title": "Con lừa khoác da sư tử",
+  "summary": "Chú lừa nhặt được bộ da sư tử, khoác lên người rồi đi dọa cả khu rừng, cho tới khi gặp bác cáo tinh mắt. Ngụ ngôn Aesop vui nhộn về chuyện mượn vẻ ngoài: áo có thể đánh lừa người khác, nhưng lời nói sẽ để lộ ta là ai.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản tiếng Anh của Townsend năm 1867 trên Project Gutenberg), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, a sunny Greek countryside with olive groves, rocky hills and a leafy forest edge, playful and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "lua",
+      "name": "Chú lừa",
+      "seed": 4037957940,
+      "sheetPrompt": "a grey donkey with long fluffy ears, big curious eyes, a pale muzzle and a tufted tail, sometimes wearing an oversized golden lion costume hide with a shaggy mane draped over its back like a cloak, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cao",
+      "name": "Bác cáo",
+      "seed": 3929087268,
+      "sheetPrompt": "a clever red fox with a bushy white-tipped tail, bright amused eyes and a knowing grin, sitting upright, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nhat-duoc-da",
+      "title": "Bộ da bên bìa rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một chú lừa xám ngày ngày chở bao lúa cho chủ ra chợ. Ai cũng sai lừa, chẳng ai sợ lừa bao giờ. Một buổi sáng, lừa đi ngang bìa rừng thì thấy một bộ da sư tử ai đó phơi trên tảng đá rồi bỏ quên. Bộ da vàng óng, bờm dày rậm rạp. Lừa đứng ngắm mãi, rồi nảy ra một ý: “Nếu ta khoác cái này lên, hẳn cả khu rừng phải kiêng nể ta!”",
+      "subtitles": [
+        "Ngày xưa, có một chú lừa xám ngày ngày chở bao lúa cho chủ ra chợ.",
+        "Ai cũng sai lừa, chẳng ai sợ lừa bao giờ.",
+        "Một buổi sáng, lừa đi ngang bìa rừng thì thấy một",
+        "bộ da sư tử ai đó phơi trên tảng đá rồi bỏ quên.",
+        "Bộ da vàng óng, bờm dày rậm rạp. Lừa đứng ngắm mãi, rồi nảy ra một ý: “Nếu ta khoác",
+        "cái này lên, hẳn cả khu rừng phải kiêng nể ta!”"
+      ],
+      "image": {
+        "character": "lua",
+        "prompt": "a grey donkey with saddle bags stops at the edge of a sunny forest, staring with wide eyes at a big golden lion hide with a shaggy mane spread out to dry on a flat rock, olive trees and wildflowers",
+        "seed": 1057755297
+      },
+      "video": {
+        "motionPrompt": "the donkey tilts its head and flicks its long ears, a breeze ruffles the shaggy mane on the rock, butterflies drift by",
+        "seed": 721722330
+      },
+      "voice": {}
+    },
+    {
+      "id": "ca-rung-bo-chay",
+      "title": "Cả rừng bỏ chạy",
+      "narrator": "ke-chuyen",
+      "narration": "Lừa chui vào bộ da, kéo cái bờm lên che kín đầu, chỉ hở ra đôi mắt. Rồi lừa bước vào rừng, đi chầm chậm, oai vệ. Đàn thỏ đang gặm cỏ vừa trông thấy đã cắm đầu chạy. Bầy dê núi nhảy vội lên vách đá. Lũ chim sẻ bay vù khỏi bụi cây, kêu chí chóe: “Sư tử đến! Sư tử đến!” Lừa khoái chí lắm, nghĩ bụng: “Hóa ra làm sư tử sướng thế này!”",
+      "subtitles": [
+        "Lừa chui vào bộ da, kéo cái bờm lên che kín đầu, chỉ hở ra đôi mắt.",
+        "Rồi lừa bước vào rừng, đi chầm chậm, oai vệ.",
+        "Đàn thỏ đang gặm cỏ vừa trông thấy đã cắm đầu chạy.",
+        "Bầy dê núi nhảy vội lên vách đá. Lũ chim sẻ bay vù khỏi bụi cây, kêu chí chóe: “Sư tử đến!",
+        "Sư tử đến!” Lừa khoái chí lắm, nghĩ bụng: “Hóa ra làm sư tử sướng thế này!”"
+      ],
+      "image": {
+        "character": "lua",
+        "prompt": "the donkey disguised in the golden lion hide walks proudly through a sunny forest glade, only its eyes and the tips of its long ears peeking out, rabbits running away, goats leaping onto rocks, sparrows flying off a bush",
+        "seed": 397824810
+      },
+      "video": {
+        "motionPrompt": "the disguised donkey struts slowly with its chin up, rabbits scamper away, sparrows burst into the air, leaves sway",
+        "seed": 4217886503
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-bac-cao",
+      "title": "Gặp bác cáo",
+      "narrator": "ke-chuyen",
+      "narration": "Đi mãi, lừa tới một gốc cây sồi, nơi bác cáo đang nằm sưởi nắng. Bác cáo chẳng hề nhúc nhích. Lừa tức lắm: “Lão cáo kia dám không sợ ta ư?” Lừa bèn hít một hơi thật sâu, định gầm lên một tiếng cho cáo vỡ mật. Nhưng cái miệng lừa thì chỉ biết kêu kiểu lừa, nên cả khu rừng vang lên một tràng: “Hí ha! Hí ha! Hí ha!”",
+      "subtitles": [
+        "Đi mãi, lừa tới một gốc cây sồi, nơi bác cáo đang nằm sưởi nắng.",
+        "Bác cáo chẳng hề nhúc nhích. Lừa tức lắm: “Lão cáo kia dám không sợ ta ư?”",
+        "Lừa bèn hít một hơi thật sâu, định gầm lên một tiếng cho cáo vỡ mật.",
+        "Nhưng cái miệng lừa thì chỉ biết kêu kiểu lừa, nên cả khu rừng vang lên một tràng: “Hí ha!",
+        "Hí ha! Hí ha!”"
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "under a big oak a red fox lies calmly sunbathing, while the donkey in the lion hide stands in front of it, head thrown back and mouth wide open in a loud funny bray, birds peeking from the branches",
+        "seed": 3359525018
+      },
+      "video": {
+        "motionPrompt": "the donkey throws its head back and brays, its ears pop out from under the mane, the fox opens one eye, birds flutter on the branches",
+        "seed": 3394282517
+      },
+      "voice": {}
+    },
+    {
+      "id": "cao-bat-cuoi",
+      "title": "Bác cáo bật cười",
+      "narrator": "ke-chuyen",
+      "narration": "Bác cáo ngồi dậy, ôm bụng cười ngặt nghẽo đến chảy cả nước mắt. “Ôi chao, anh lừa ơi! Nếu ban nãy anh cứ im lặng, có khi tôi cũng run lên thật đấy. Nhưng tiếng kêu kia thì tôi nghe quen lắm rồi!” Đàn thỏ, bầy dê, lũ chim sẻ nghe vậy cũng rón rén quay lại xem. Thấy đôi tai dài thò ra dưới cái bờm, cả rừng cười rộ lên.",
+      "subtitles": [
+        "Bác cáo ngồi dậy, ôm bụng cười ngặt nghẽo đến chảy cả nước mắt.",
+        "“Ôi chao, anh lừa ơi! Nếu ban nãy anh cứ im lặng, có khi tôi cũng run lên thật đấy.",
+        "Nhưng tiếng kêu kia thì tôi nghe quen lắm rồi!”",
+        "Đàn thỏ, bầy dê, lũ chim sẻ nghe vậy cũng rón rén quay lại xem.",
+        "Thấy đôi tai dài thò ra dưới cái bờm, cả rừng cười rộ lên."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "the red fox sits up laughing and holding its belly, rabbits, goats and sparrows creep back from behind the trees to look, the donkey's long grey ears clearly sticking out from under the lion mane",
+        "seed": 397929386
+      },
+      "video": {
+        "motionPrompt": "the fox rocks with laughter, the animals peek out and giggle, the donkey's ears droop, sunlight flickers through the oak leaves",
+        "seed": 2234355274
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc",
+      "title": "Lừa vẫn là lừa",
+      "narrator": "ke-chuyen",
+      "narration": "Lừa xấu hổ đỏ mặt, cởi bộ da sư tử ra, gấp lại để về chỗ cũ trên tảng đá. Rồi lừa lững thững về nhà, lại chở lúa cho chủ như mọi ngày. Từ đó, lừa không giả làm ai khác nữa. Các bạn nhỏ ạ, mặc áo của người khác thì có thể lừa được mắt ai đó một lúc, nhưng chỉ cần mở miệng nói, người ta sẽ biết ngay mình là ai.",
+      "subtitles": [
+        "Lừa xấu hổ đỏ mặt, cởi bộ da sư tử ra, gấp lại để về chỗ cũ trên tảng đá.",
+        "Rồi lừa lững thững về nhà, lại chở lúa cho chủ như mọi ngày.",
+        "Từ đó, lừa không giả làm ai khác nữa.",
+        "Các bạn nhỏ ạ, mặc áo của người khác thì có thể lừa được mắt ai đó một",
+        "lúc, nhưng chỉ cần mở miệng nói, người ta sẽ biết ngay mình là ai."
+      ],
+      "image": {
+        "character": "lua",
+        "prompt": "at golden sunset the grey donkey, without the hide, gently lays the folded lion skin back on the flat rock, then walks home along a country path carrying grain sacks, a cosy farmhouse in the distance",
+        "seed": 3826059405
+      },
+      "video": {
+        "motionPrompt": "the donkey sets down the folded hide and turns toward home, its tail swishes, the sunset glow deepens, a few birds fly home",
+        "seed": 862440802
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful classical storybook music, bouncy bassoon and pizzicato strings for the clumsy donkey, a sly clarinet for the fox, light Mediterranean folk flavor, warm gentle ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1041406704
+  }
+}

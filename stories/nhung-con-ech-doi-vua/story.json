@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "slug": "nhung-con-ech-doi-vua",
+  "shelf": "world",
+  "title": "Những con ếch đòi vua",
+  "summary": "Đàn ếch đang sống tự do lại kêu trời đòi có vua; thần Dớt ban cho khúc gỗ, rồi một con cò oai vệ. Ngụ ngôn Aesop vui nhộn về chuyện biết quý những gì mình đang có.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, a wide reedy marsh with lily pads, cattails and soft mist, Greek mountains and clouds on the horizon, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ech-gia",
+      "name": "Ếch già",
+      "seed": 2062212283,
+      "sheetPrompt": "an old plump green frog with spectacles and a wrinkly smile, sitting on a lily pad like a village elder, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ech-con",
+      "name": "Đàn ếch",
+      "seed": 1603511736,
+      "sheetPrompt": "a group of small cheerful green frogs with big round eyes and freckles, croaking with puffed throats, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-co",
+      "name": "Con cò",
+      "seed": 1658212272,
+      "sheetPrompt": "a tall white stork with long thin red legs and a long orange beak, puffed-up chest and a pompous bossy expression, comical not scary, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dam-lay",
+      "title": "Đầm lầy tự do",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một đầm lầy rộng, nơi đàn ếch sống tự do vui vẻ. Chúng bơi lội, bắt muỗi, ca hát suốt đêm mà chẳng ai cấm cản. Thế nhưng sống sướng quá, lũ ếch lại sinh ra buồn chán. Một con ếch già nói: “Loài nào cũng có vua, sao loài ếch mình lại không? Phải có vua thì mới oai chứ!” Cả đàn nhao nhao đồng ý.",
+      "subtitles": [
+        "Ngày xưa, có một đầm lầy rộng, nơi đàn ếch sống tự do vui vẻ.",
+        "Chúng bơi lội, bắt muỗi, ca hát suốt đêm mà chẳng ai cấm cản.",
+        "Thế nhưng sống sướng quá, lũ ếch lại sinh ra buồn chán.",
+        "Một con ếch già nói: “Loài nào cũng có vua, sao loài ếch mình lại không?",
+        "Phải có vua thì mới oai chứ!” Cả đàn nhao nhao đồng ý."
+      ],
+      "image": {
+        "character": "ech-gia",
+        "prompt": "a merry marsh full of little frogs swimming, catching gnats and singing on lily pads, an old frog with spectacles raising a finger to make a speech",
+        "seed": 2670616246
+      },
+      "video": {
+        "motionPrompt": "frogs hop and splash between lily pads, throats puff as they croak, the old frog waves a finger, fireflies blink",
+        "seed": 4016616320
+      },
+      "voice": {}
+    },
+    {
+      "id": "khuc-go",
+      "title": "Ông vua khúc gỗ",
+      "narrator": "ke-chuyen",
+      "narration": "Đàn ếch ngửa cổ lên trời kêu ộp ộp xin thần Dớt ban cho một ông vua. Thần nghe ồn quá, mỉm cười, thả xuống đầm một khúc gỗ to. Khúc gỗ rơi “ùm” một tiếng, nước bắn tung toé. Lũ ếch sợ hết hồn, lặn sâu xuống bùn, nằm im thin thít. Mãi lâu sau, thấy ông vua chẳng nhúc nhích, chúng mới dám ngóc đầu lên nhìn.",
+      "subtitles": [
+        "Đàn ếch ngửa cổ lên trời kêu ộp ộp xin thần Dớt ban cho một ông vua.",
+        "Thần nghe ồn quá, mỉm cười, thả xuống đầm một khúc gỗ to. Khúc gỗ rơi “ùm”",
+        "một tiếng, nước bắn tung toé. Lũ ếch sợ hết hồn, lặn sâu xuống bùn, nằm im thin thít.",
+        "Mãi lâu sau, thấy ông vua chẳng nhúc nhích, chúng mới dám ngóc đầu lên nhìn."
+      ],
+      "image": {
+        "character": "ech-con",
+        "prompt": "a big mossy log splashing down into the marsh from the clouds, little frogs diving under lily pads with only their eyes peeking out",
+        "seed": 2295310676
+      },
+      "video": {
+        "motionPrompt": "the log drops with a big splash, ripples spread wide, frog eyes slowly peek up above the water",
+        "seed": 3012334970
+      },
+      "voice": {}
+    },
+    {
+      "id": "che-vua",
+      "title": "Chê vua gỗ",
+      "narrator": "ke-chuyen",
+      "narration": "Dần dần, lũ ếch bạo dạn hơn. Chúng bơi lại gần, rồi nhảy lên ngồi trên lưng ông vua gỗ, ca hát, nhảy múa, chẳng còn ai sợ. “Vua gì mà không nói, không đi, chẳng ra dáng vua chút nào!” Thế là cả đàn lại kêu trời: “Thần ơi, cho chúng con một ông vua khác, oai hơn, mạnh hơn!” Thần Dớt khẽ nhíu mày.",
+      "subtitles": [
+        "Dần dần, lũ ếch bạo dạn hơn.",
+        "Chúng bơi lại gần, rồi nhảy lên ngồi trên lưng ông vua gỗ, ca hát, nhảy múa, chẳng còn ai",
+        "sợ. “Vua gì mà không nói, không đi, chẳng ra dáng vua chút nào!”",
+        "Thế là cả đàn lại kêu trời: “Thần ơi, cho chúng con một ông vua khác, oai hơn, mạnh hơn!”",
+        "Thần Dớt khẽ nhíu mày."
+      ],
+      "image": {
+        "character": "ech-con",
+        "prompt": "little frogs dancing and sunbathing on top of a big floating log in the marsh, some sticking out their tongues at it, clouds gathering above",
+        "seed": 2959055693
+      },
+      "video": {
+        "motionPrompt": "frogs hop and dance on the log, one slips into the water with a plop, clouds swirl above",
+        "seed": 469757691
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-co",
+      "title": "Vua cò",
+      "narrator": "ke-chuyen",
+      "narration": "Lần này, thần gửi xuống một con cò trắng chân dài, mỏ dài nhọn hoắt. Vừa đáp xuống đầm, cò đã sải bước khắp nơi, chìa cái mỏ dài ra dọa. “Ta là vua! Đứa nào ồn ào, ta sẽ đớp tuốt!” Cò quắc mắt, gõ mỏ lách cách xuống mặt nước. Lũ ếch chạy tán loạn, đứa nấp dưới lá súng, đứa trốn trong đám sậy, chẳng con nào dám hát nữa.",
+      "subtitles": [
+        "Lần này, thần gửi xuống một con cò trắng chân dài, mỏ dài nhọn hoắt.",
+        "Vừa đáp xuống đầm, cò đã sải bước khắp nơi, chìa cái mỏ dài ra dọa. “Ta là vua!",
+        "Đứa nào ồn ào, ta sẽ đớp tuốt!” Cò quắc mắt, gõ mỏ lách cách xuống mặt nước.",
+        "Lũ ếch chạy tán loạn, đứa nấp dưới lá súng, đứa trốn trong đám sậy, chẳng con nào dám hát",
+        "nữa."
+      ],
+      "image": {
+        "character": "con-co",
+        "prompt": "a pompous tall white stork striding through the marsh clacking its long beak, little frogs hiding under lily pads and among reeds",
+        "seed": 2521524144
+      },
+      "video": {
+        "motionPrompt": "the stork high-steps through the shallows and clacks its beak, frogs dart under lily pads, reeds quiver",
+        "seed": 2490295996
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoi-han",
+      "title": "Ếch hối hận",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy, đầm lầy im phăng phắc. Lũ ếch run rẩy rủ rỉ với nhau: “Giá mà mình biết đủ, cứ sống tự do như trước thì sướng biết bao.” Chúng lại kêu xin thần, nhưng thần đáp: “Các con đòi vua, giờ đã có vua rồi đấy.” Từ đó, lũ ếch chỉ dám hát khe khẽ mỗi khi cò ngủ. Các bạn nhỏ ạ, hãy biết quý những gì mình đang có.",
+      "subtitles": [
+        "Đêm ấy, đầm lầy im phăng phắc.",
+        "Lũ ếch run rẩy rủ rỉ với nhau: “Giá mà mình biết đủ, cứ sống tự do như trước thì sướng",
+        "biết bao.”",
+        "Chúng lại kêu xin thần, nhưng thần đáp: “Các con đòi vua, giờ đã có vua rồi đấy.”",
+        "Từ đó, lũ ếch chỉ dám hát khe khẽ mỗi khi cò ngủ.",
+        "Các bạn nhỏ ạ, hãy biết quý những gì mình đang có."
+      ],
+      "image": {
+        "character": "ech-gia",
+        "prompt": "under moonlight frogs huddle together on a lily pad whispering sadly, the white stork asleep on one leg in the distance",
+        "seed": 3173328669
+      },
+      "video": {
+        "motionPrompt": "the stork dozes on one leg, frogs whisper and sigh, moonlight shimmers on the still water",
+        "seed": 7822867
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "whimsical classical storybook music, bassoon and pizzicato strings for croaking frogs, a comic thud, a pompous brass march for the stork, then a hushed nocturne ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1384811423
+  }
+}

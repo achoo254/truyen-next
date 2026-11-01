@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "slug": "truyen-bach-tri",
+  "shelf": "kids",
+  "title": "Sứ giả vua Hùng dâng chim trĩ trắng",
+  "summary": "Thời vua Hùng, sứ giả nước Việt Thường vượt nghìn dặm đường sang nhà Chu, mang theo món quà quý là con chim trĩ trắng. Trên đường về, sứ giả được tặng cỗ xe chỉ nam luôn chỉ về phương nam. Bản kể nhẹ nhàng cho trẻ nhỏ theo Lĩnh Nam chích quái.",
+  "themes": [
+    "su-tich",
+    "anh-hung"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện Bạch Trĩ trong Lĩnh Nam chích quái (thế kỷ mười lăm), sách cổ thuộc phạm vi công cộng; chỉ lấy cốt truyện, lời kể viết mới cho trẻ nhỏ, không theo bản dịch hiện đại nào.",
+  "basedOn": "Lĩnh Nam chích quái",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, ancient Van Lang era clothing with bronze-drum patterns, long journeys over mountains, rivers and seashores, an ancient Zhou dynasty palace, rounded friendly shapes, calm and safe mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2470802009
+    },
+    {
+      "id": "su-gia",
+      "name": "Sứ giả Việt Thường",
+      "sheetPrompt": "a brave kind envoy of ancient Viet Thuong in the Hung king era, young man with black hair tied with a cloth band, brown tunic with bronze-drum patterns, a woven travel bag, carrying a bamboo bird cage, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2891934963
+    },
+    {
+      "id": "chim-tri",
+      "name": "Chim trĩ trắng",
+      "sheetPrompt": "a rare beautiful white pheasant with long elegant snowy tail feathers and a small red patch around its eyes, gentle cute style, full body, side view, plain soft cream background, character reference sheet",
+      "seed": 3291222330
+    },
+    {
+      "id": "chu-cong",
+      "name": "Chu Công",
+      "sheetPrompt": "the Duke of Zhou, a wise kind ancient Chinese statesman, long black beard, dark blue and red Zhou dynasty robe, tall official hat, warm welcoming smile, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1884477657
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Miu đang cầm một chiếc la bàn đây. Kim la bàn lúc nào cũng chỉ về một hướng, nên đi đâu xa cũng không sợ lạc đường. Ngày xưa có một cỗ xe cũng biết chỉ đường như thế, gắn với một chuyến đi rất xa của ông cha ta. Miu kể các bạn nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Miu đang cầm một chiếc la bàn đây.",
+        "Kim la bàn lúc nào cũng chỉ về một hướng,",
+        "nên đi đâu xa cũng không sợ lạc đường.",
+        "Ngày xưa có một cỗ xe cũng biết chỉ đường như thế,",
+        "gắn với một chuyến đi rất xa của ông cha ta.",
+        "Miu kể các bạn nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits on a wooden floor holding a small round compass with a red needle, an open picture book beside her showing an ancient cart and a white bird",
+        "seed": 1830199315,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the compass needle wobbles then settles, the cat smiles and turns a page of the book, slow camera push-in",
+        "seed": 4083496453
+      },
+      "voice": {}
+    },
+    {
+      "id": "nuoc-viet-thuong",
+      "title": "Nước Việt Thường",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, thời các vua Hùng, phía nam có nước Việt Thường. Đã ba năm liền, trời không mưa dầm, không gió dữ, biển cũng chẳng nổi sóng lớn. Mùa màng tươi tốt, dân chúng yên vui. Các cụ già bảo nhau: Trời đất yên lành thế này, hẳn phương bắc đang có bậc thánh hiền. Ta nên sai người sang thăm hỏi, kết tình hòa hiếu.",
+      "subtitles": [
+        "Ngày xưa, thời các vua Hùng, phía nam có nước Việt Thường.",
+        "Đã ba năm liền, trời không mưa dầm, không gió dữ, biển cũng chẳng nổi sóng lớn.",
+        "Mùa màng tươi tốt, dân chúng yên vui.",
+        "Các cụ già bảo nhau: Trời đất yên lành thế này, hẳn phương bắc đang có bậc thánh hiền.",
+        "Ta nên sai người sang thăm hỏi, kết tình hòa hiếu."
+      ],
+      "image": {
+        "prompt": "a peaceful ancient Viet Thuong village of the Hung king era with stilt houses, calm sea and green rice fields under a clear sky, village elders sit together talking under a big tree",
+        "seed": 201862850
+      },
+      "video": {
+        "motionPrompt": "rice stalks sway gently, the calm sea sparkles, the elders nod and point toward the north",
+        "seed": 3958381661
+      },
+      "voice": {}
+    },
+    {
+      "id": "chim-tri-trang",
+      "title": "Món quà chim trĩ trắng",
+      "narrator": "ke-chuyen",
+      "narration": "Vua Hùng chọn một sứ giả thông minh, gan dạ. Món quà mang theo là một con chim trĩ trắng, lông trắng muốt như tuyết, đuôi dài thướt tha, hiếm có vô cùng. Sứ giả cẩn thận đặt chim vào chiếc lồng tre, cúi chào nhà vua rồi lên đường.",
+      "subtitles": [
+        "Vua Hùng chọn một sứ giả thông minh, gan dạ.",
+        "Món quà mang theo là một con chim trĩ trắng, lông trắng muốt như tuyết,",
+        "đuôi dài thướt tha, hiếm có vô cùng.",
+        "Sứ giả cẩn thận đặt chim vào chiếc lồng tre, cúi chào nhà vua rồi lên đường."
+      ],
+      "image": {
+        "prompt": "the young envoy of Viet Thuong kneels before the Hung king in a wooden palace with bronze drums, receiving a bamboo cage holding a beautiful snowy white pheasant with a long tail",
+        "seed": 4082819226,
+        "character": "su-gia"
+      },
+      "video": {
+        "motionPrompt": "the envoy bows and lifts the bamboo cage, the white pheasant ruffles its feathers, the king smiles and nods",
+        "seed": 1443011660
+      },
+      "voice": {}
+    },
+    {
+      "id": "duong-xa",
+      "title": "Đường xa nghìn dặm",
+      "narrator": "ke-chuyen",
+      "narration": "Đường sang phương bắc xa lắm. Sứ giả vượt núi cao, băng rừng rậm, lội qua bao con sông. Đi qua nhiều nước, mỗi nước nói một thứ tiếng khác nhau. Phải nhờ người phiên dịch hết lần này đến lần khác, mọi người mới hiểu được lời nhau. Suốt chặng đường, sứ giả luôn chăm cho chim trĩ ăn uống đầy đủ.",
+      "subtitles": [
+        "Đường sang phương bắc xa lắm. Sứ giả vượt núi cao, băng rừng rậm, lội qua bao con sông.",
+        "Đi qua nhiều nước, mỗi nước nói một thứ tiếng khác nhau.",
+        "Phải nhờ người phiên dịch hết lần này đến lần khác, mọi người mới hiểu được lời nhau.",
+        "Suốt chặng đường, sứ giả luôn chăm cho chim trĩ ăn uống đầy đủ."
+      ],
+      "image": {
+        "prompt": "the envoy walks along a winding mountain path through misty forests carrying the bamboo cage with the white pheasant, a friendly local interpreter walks beside him pointing the way",
+        "seed": 1092513046,
+        "character": "su-gia"
+      },
+      "video": {
+        "motionPrompt": "the envoy climbs the path step by step, mist rolls over the mountains, the pheasant peeks out of the cage",
+        "seed": 857933974
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-chu-cong",
+      "title": "Gặp Chu Công",
+      "narrator": "ke-chuyen",
+      "narration": "Đến kinh đô nhà Chu, sứ giả được gặp Chu Công, người giúp vua Chu trông coi việc nước. Chu Công hỏi: Các ông từ phương xa đến, có việc gì vậy? Sứ giả thưa: Ba năm nay nước tôi trời êm biển lặng. Các cụ già bảo phương bắc có bậc thánh hiền, nên sai chúng tôi sang chào hỏi.",
+      "subtitles": [
+        "Đến kinh đô nhà Chu, sứ giả được gặp Chu Công, người giúp vua Chu trông coi việc nước.",
+        "Chu Công hỏi: Các ông từ phương xa đến, có việc gì vậy?",
+        "Sứ giả thưa: Ba năm nay nước tôi trời êm biển lặng.",
+        "Các cụ già bảo phương bắc có bậc thánh hiền, nên sai chúng tôi sang chào hỏi."
+      ],
+      "image": {
+        "prompt": "inside a grand ancient Zhou dynasty hall, the wise Duke of Zhou welcomes the Viet Thuong envoy who bows and presents the bamboo cage with the snowy white pheasant, courtiers watch with interest",
+        "seed": 964247043,
+        "character": "chu-cong"
+      },
+      "video": {
+        "motionPrompt": "the envoy bows deeply and opens the cage, the white pheasant spreads its long tail, the Duke of Zhou smiles warmly",
+        "seed": 1850578282
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhan-qua",
+      "title": "Món quà được đón nhận",
+      "narrator": "ke-chuyen",
+      "narration": "Chu Công nghe xong rất cảm động, khen sứ giả đã không quản đường xa. Chim trĩ trắng được dâng lên vua nhà Chu, ai nhìn thấy cũng trầm trồ. Chu Công cho đón tiếp sứ giả thật chu đáo, rồi tặng lại nhiều quà quý.",
+      "subtitles": [
+        "Chu Công nghe xong rất cảm động, khen sứ giả đã không quản đường xa.",
+        "Chim trĩ trắng được dâng lên vua nhà Chu, ai nhìn thấy cũng trầm trồ.",
+        "Chu Công cho đón tiếp sứ giả thật chu đáo, rồi tặng lại nhiều quà quý."
+      ],
+      "image": {
+        "prompt": "the white pheasant stands proudly in a beautiful courtyard of an ancient palace, the young Zhou king and the Duke of Zhou admire it, the envoy smiles beside them",
+        "seed": 127879300,
+        "character": "chim-tri"
+      },
+      "video": {
+        "motionPrompt": "the pheasant walks slowly and fans its snowy tail, the king leans closer in wonder, banners flutter",
+        "seed": 2241715930
+      },
+      "voice": {}
+    },
+    {
+      "id": "xe-chi-nam",
+      "title": "Cỗ xe chỉ nam",
+      "narrator": "ke-chuyen",
+      "narration": "Đến lúc về, sứ giả lo lắng: Đường xa quá, tôi sợ quên lối mất rồi. Chu Công cho làm tặng sứ giả những cỗ xe chỉ nam. Trên xe có hình một người gỗ, dù xe rẽ hướng nào, tay người gỗ vẫn chỉ về phương nam. Sứ giả theo xe, đi men bờ biển, qua nhiều nước phương nam, đi một năm mới về đến nhà.",
+      "subtitles": [
+        "Đến lúc về, sứ giả lo lắng: Đường xa quá, tôi sợ quên lối mất rồi.",
+        "Chu Công cho làm tặng sứ giả những cỗ xe chỉ nam.",
+        "Trên xe có hình một người gỗ, dù xe rẽ hướng nào, tay người gỗ vẫn chỉ về phương nam.",
+        "Sứ giả theo xe, đi men bờ biển, qua nhiều nước phương nam, đi một năm mới về đến nhà."
+      ],
+      "image": {
+        "prompt": "an ancient wooden south-pointing chariot with a small carved wooden figure on top whose arm always points south, the envoy drives it along a sunny seashore road toward home",
+        "seed": 1836415181,
+        "character": "su-gia"
+      },
+      "video": {
+        "motionPrompt": "the chariot rolls along the seashore, it turns a bend but the wooden figure's arm keeps pointing south, waves wash the sand",
+        "seed": 2438415715
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, ông cha ta đã đi những chuyến thật xa để kết bạn với các nước láng giềng. Còn cỗ xe chỉ nam ngày xưa thì giống như chiếc la bàn của Miu bây giờ đấy. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, ông cha ta đã đi những chuyến thật xa",
+        "để kết bạn với các nước láng giềng.",
+        "Còn cỗ xe chỉ nam ngày xưa thì giống như chiếc la bàn của Miu bây giờ đấy.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye holding her compass, beside her a small wooden toy south-pointing chariot and a friendly white pheasant, warm sunset light",
+        "seed": 2238283340,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the white pheasant fluffs its tail, the compass needle points steadily, gentle camera pull-back",
+        "seed": 429272608
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Vietnamese folk tune for children with an ancient feeling, bamboo flute and dan tranh zither, soft bronze drum and small bells, a calm journey rhythm, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3497652982
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "slug": "soi-va-co",
+  "shelf": "world",
+  "title": "Sói và sếu",
+  "summary": "Con sói bị hóc xương, chị sếu tốt bụng giúp gắp ra, nhưng phần thưởng sói hứa lại chẳng thấy đâu. Ngụ ngôn Aesop về lòng tốt và bài học tự giữ mình trước kẻ vô ơn.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive woodland animals and birds, a sunny forest clearing by a brook with reeds, ferns and tall pines, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "soi",
+      "name": "Con sói",
+      "seed": 1584536558,
+      "sheetPrompt": "a greedy grey wolf with a big mouth, shaggy fur and a sly toothy grin, comical rather than frightening, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "seu",
+      "name": "Chị sếu",
+      "seed": 294862264,
+      "sheetPrompt": "a graceful grey crane with long thin legs, a long slender neck, a red cap on its head and a long pointed beak, kind modest expression, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hoc-xuong",
+      "title": "Sói hóc xương",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, con sói tham ăn kiếm được một bữa thịt ngon. Nó ngấu nghiến, nhai chẳng kỹ, nuốt vội vàng. Bỗng một mẩu xương nhọn mắc kẹt ngang cổ họng. Sói ho sặc sụa, nuốt không trôi, khạc chẳng ra, khổ sở chạy lòng vòng khắp khu rừng. Nó rên rỉ: “Ai lấy được cái xương này ra cho ta, ta sẽ trả công thật hậu!”",
+      "subtitles": [
+        "Một hôm, con sói tham ăn kiếm được một bữa thịt ngon.",
+        "Nó ngấu nghiến, nhai chẳng kỹ, nuốt vội vàng.",
+        "Bỗng một mẩu xương nhọn mắc kẹt ngang cổ họng.",
+        "Sói ho sặc sụa, nuốt không trôi, khạc chẳng ra, khổ sở chạy lòng vòng khắp khu rừng.",
+        "Nó rên rỉ: “Ai lấy được cái xương này ra cho ta, ta sẽ trả công thật hậu!”"
+      ],
+      "image": {
+        "character": "soi",
+        "prompt": "a greedy grey wolf coughing and clutching its throat with a paw in a forest clearing, eyes watering, forest animals peeking from behind trees",
+        "seed": 1490576361
+      },
+      "video": {
+        "motionPrompt": "the wolf coughs and staggers in circles, squirrels and rabbits peek out and hide again, leaves flutter",
+        "seed": 1981689373
+      },
+      "voice": {}
+    },
+    {
+      "id": "nho-seu",
+      "title": "Nhờ chị sếu",
+      "narrator": "ke-chuyen",
+      "narration": "Các con vật trong rừng nghe vậy, chẳng ai dám lại gần cái mõm đầy răng nhọn của sói. Đúng lúc ấy, chị sếu đi ngang qua bờ suối. Chị có đôi chân cao và cái cổ dài, mỏ dài như chiếc đũa. Sói vội chặn đường, giọng ngọt xớt: “Chị sếu ơi, giúp tôi với! Chỉ chị mới làm được thôi. Xong việc, tôi xin hậu tạ!”",
+      "subtitles": [
+        "Các con vật trong rừng nghe vậy, chẳng ai dám lại gần cái mõm đầy răng nhọn của sói.",
+        "Đúng lúc ấy, chị sếu đi ngang qua bờ suối.",
+        "Chị có đôi chân cao và cái cổ dài, mỏ dài như chiếc đũa.",
+        "Sói vội chặn đường, giọng ngọt xớt: “Chị sếu ơi, giúp tôi với! Chỉ chị mới làm được thôi.",
+        "Xong việc, tôi xin hậu tạ!”"
+      ],
+      "image": {
+        "character": "seu",
+        "prompt": "a grey wolf bowing with an overly sweet smile before a graceful crane standing by a brook among reeds",
+        "seed": 2087309560
+      },
+      "video": {
+        "motionPrompt": "the wolf bows and flatters, the crane tilts her long neck thoughtfully, the brook sparkles",
+        "seed": 2004362442
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-xuong",
+      "title": "Gắp xương",
+      "narrator": "ke-chuyen",
+      "narration": "Sếu ngần ngại một lúc rồi cũng gật đầu. Sói há miệng thật to. Sếu thò cái đầu nhỏ vào sâu trong cổ họng sói, dùng chiếc mỏ dài khéo léo gắp lấy mẩu xương. Một lần, hai lần, rồi ba lần cố gắng, cuối cùng sếu cũng kéo được mẩu xương ra ngoài. Sói thở phào một hơi thật dài, nuốt nước bọt, thấy cổ họng nhẹ bẫng.",
+      "subtitles": [
+        "Sếu ngần ngại một lúc rồi cũng gật đầu. Sói há miệng thật to.",
+        "Sếu thò cái đầu nhỏ vào sâu trong cổ họng sói, dùng chiếc mỏ dài khéo léo gắp lấy mẩu",
+        "xương.",
+        "Một lần, hai lần, rồi ba lần cố gắng, cuối cùng sếu cũng kéo được mẩu xương ra ngoài.",
+        "Sói thở phào một hơi thật dài, nuốt nước bọt, thấy cổ họng nhẹ bẫng."
+      ],
+      "image": {
+        "character": "seu",
+        "prompt": "a brave crane carefully reaching her long beak into the wide open jaws of a wolf sitting very still, pulling out a small bone, comical storybook staging",
+        "seed": 2915936807
+      },
+      "video": {
+        "motionPrompt": "the wolf opens wide and holds still, the crane leans in carefully and lifts out the small bone, the wolf sighs with relief",
+        "seed": 3975208070
+      },
+      "voice": {}
+    },
+    {
+      "id": "doi-cong",
+      "title": "Đòi công",
+      "narrator": "ke-chuyen",
+      "narration": "Sếu rũ lông, nhẹ nhàng nói: “Anh sói, tôi đã lấy xương ra cho anh rồi. Còn phần thưởng anh đã hứa thì sao?” Sói nhe hàm răng nhọn, cười khẩy: “Phần thưởng à? Chị vừa thò đầu vào miệng sói mà vẫn rút ra được lành lặn. Thế còn chưa đủ hay sao? Đi đi, đừng có lôi thôi!” Nói rồi sói quay lưng bỏ vào rừng.",
+      "subtitles": [
+        "Sếu rũ lông, nhẹ nhàng nói: “Anh sói, tôi đã lấy xương ra cho anh rồi.",
+        "Còn phần thưởng anh đã hứa thì sao?” Sói nhe hàm răng nhọn, cười khẩy: “Phần thưởng à?",
+        "Chị vừa thò đầu vào miệng sói mà vẫn rút ra được lành lặn. Thế còn chưa đủ hay sao?",
+        "Đi đi, đừng có lôi thôi!” Nói rồi sói quay lưng bỏ vào rừng."
+      ],
+      "image": {
+        "character": "soi",
+        "prompt": "a smug grey wolf with a sly grin turning away into the forest, the crane standing with her wings half open in astonishment",
+        "seed": 605468457
+      },
+      "video": {
+        "motionPrompt": "the wolf smirks and saunters off, the crane's feathers ruffle in surprise, pine branches sway",
+        "seed": 3142859295
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc",
+      "title": "Bài học của sếu",
+      "narrator": "ke-chuyen",
+      "narration": "Sếu đứng lặng bên bờ suối, vừa giận vừa thấy mình thật may. Chị tự nhủ: “Lần sau mình sẽ nghĩ kỹ trước khi tin lời kẻ xấu.” Rồi chị dang đôi cánh rộng, bay về tổ. Các bạn nhỏ ạ, giúp đỡ người khác là điều tốt, nhưng đừng mong kẻ gian ác biết đền ơn. Hãy thương người, nhưng cũng phải biết tự giữ mình.",
+      "subtitles": [
+        "Sếu đứng lặng bên bờ suối, vừa giận vừa thấy mình thật may.",
+        "Chị tự nhủ: “Lần sau mình sẽ nghĩ kỹ trước khi tin lời kẻ xấu.”",
+        "Rồi chị dang đôi cánh rộng, bay về tổ.",
+        "Các bạn nhỏ ạ, giúp đỡ người khác là điều tốt, nhưng đừng mong kẻ gian ác biết đền ơn.",
+        "Hãy thương người, nhưng cũng phải biết tự giữ mình."
+      ],
+      "image": {
+        "character": "seu",
+        "prompt": "a graceful crane spreading her wide wings and flying over the brook toward a golden sunset, reeds below",
+        "seed": 1457210238
+      },
+      "video": {
+        "motionPrompt": "the crane lifts off and glides over the water, the sunset glows, reeds bow in the breeze",
+        "seed": 597773590
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "classical woodland storybook music, oboe and soft strings, a clumsy coughing motif on bassoon, a delicate careful passage on harp, then a graceful soaring flute ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3925660729
+  }
+}

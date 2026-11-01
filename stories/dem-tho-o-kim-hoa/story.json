@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "slug": "dem-tho-o-kim-hoa",
+  "shelf": "adults",
+  "title": "Cuộc nói chuyện thơ ở Kim Hoa",
+  "summary": "Một đêm mưa gió, chàng học trò Mao Tử Biên xin ngủ nhờ một ngôi nhà tranh giữa đồng vắng huyện Kim Hoa và nghe trộm được cuộc bàn thơ của nữ học sĩ Ngô Chi Lan, chồng bà và một ông khách cưỡi lừa tía. Sáng ra, chàng tỉnh dậy giữa hai nấm mộ: truyện truyền kỳ về thi ca, danh tiếng và lời đàm tiếu của người đời.",
+  "themes": [
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Kim Hoa thi thoại ký, truyện thứ mười chín trong Truyền kỳ mạn lục của Nguyễn Dữ (thế kỷ XVI), sách cổ thuộc phạm vi công cộng. Lời kể viết mới, chỉ theo cốt truyện của nguyên tác; không chép bản dịch nào.",
+  "basedOn": "Truyền kỳ mạn lục, Cuộc nói chuyện thơ ở Kim Hoa",
+  "style": "classical Vietnamese ink and silk painting illustration, refined brush linework, washes of slate blue, soft lamplight amber, moss green and silver grey on aged silk, Le dynasty northern Vietnam countryside on a rainy night with a thatched house among dense trees, mica screens painted with the four seasons, poetic ghostly mood for adult readers, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "tu-bien",
+      "name": "Mao Tử Biên",
+      "sheetPrompt": "Mao Tu Bien, a young Vietnamese student of the Le dynasty, earnest bookish face with curious eyes, hair in a topknot under a small black cloth cap, a rain-soaked plain brown scholar robe, a travel bundle and an oiled paper umbrella, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 2151865430
+    },
+    {
+      "id": "ngo-chi-lan",
+      "name": "Ngô Chi Lan",
+      "sheetPrompt": "Ngo Chi Lan, a dignified Vietnamese woman poet and court scholar of the Le dynasty in her forties, elegant composed face with wise melancholy eyes, hair in a high bun with jade pins and pearl ornaments, a deep blue court robe embroidered with cranes, holding a writing brush, faint ethereal glow, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 158176150
+    },
+    {
+      "id": "sai-tien-sinh",
+      "name": "Ông khách cưỡi lừa",
+      "sheetPrompt": "an old Vietnamese poet of the Tran era, half white beard and eyebrows, high bony shoulders, keen humorous eyes, a faded grey scholar robe and a soft cloth cap, riding a small purple-brown donkey, faint ethereal glow, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 1763847477
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nu-hoc-si-phu-gia",
+      "title": "Nữ học sĩ nhà họ Phù",
+      "narrator": "ke-chuyen",
+      "narration": "Huyện Kim Hoa có bà Ngô Chi Lan, vợ hiền của tiên sinh họ Phù. Bà chữ đẹp văn hay, thơ lại càng giỏi. Vua Lê Thánh Tông mến tài, vời bà vào cung dạy chữ cho các cung nữ. Mỗi khi có yến tiệc, bà ôm quyển đứng hầu bên vua. Vua bảo làm thơ, chỉ thoáng chốc bà đã xong, chẳng phải sửa một chữ. Danh tiếng nữ học sĩ vang khắp kinh thành. Ngoài bốn mươi tuổi thì bà mất, được chôn ở cánh bãi Tây Nguyên. Năm tháng trôi qua, cỏ mọc xanh trên mộ, tên bà dần chỉ còn trong lời kể của người già.",
+      "subtitles": [
+        "Huyện Kim Hoa có bà Ngô Chi Lan, vợ hiền của tiên sinh họ Phù.",
+        "Bà chữ đẹp văn hay, thơ lại càng giỏi.",
+        "Vua Lê Thánh Tông mến tài, vời bà vào cung dạy chữ cho các cung nữ.",
+        "Mỗi khi có yến tiệc, bà ôm quyển đứng hầu bên vua.",
+        "Vua bảo làm thơ, chỉ thoáng chốc bà đã xong, chẳng phải sửa một chữ.",
+        "Danh tiếng nữ học sĩ vang khắp kinh thành.",
+        "Ngoài bốn mươi tuổi thì bà mất, được chôn ở cánh bãi Tây Nguyên.",
+        "Năm tháng trôi qua, cỏ mọc xanh trên mộ, tên bà dần chỉ còn trong lời kể của người già."
+      ],
+      "image": {
+        "prompt": "a grand Le dynasty palace banquet hall, an elegant woman poet in a deep blue robe standing beside the emperor's throne holding a scroll and writing a poem in one fluent stroke, court ladies and officials watching in admiration",
+        "seed": 1355804167,
+        "character": "ngo-chi-lan"
+      },
+      "video": {
+        "motionPrompt": "the brush glides across the paper in a single flowing motion, the emperor leans forward and smiles, court ladies whisper behind their sleeves, lanterns glow warmly",
+        "seed": 4180264553
+      },
+      "voice": {}
+    },
+    {
+      "id": "dem-mua-xin-ngu-nho",
+      "title": "Đêm mưa xin ngủ nhờ",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối đời Đoan Khánh, có chàng học trò Mao Tử Biên lên kinh đi học, lâu ngày nhớ nhà, bèn về thăm quê ở Đồng Hỷ, Thái Nguyên. Đi qua huyện Kim Hoa thì gặp mưa gió. Thôn xa đồng vắng, trời tối sập xuống. Nhìn quanh, chàng thấy phía nam có ánh đèn le lói, liền rảo bước tới. Đó là mấy gian nhà tranh giữa đám cây cối rậm rạp. Chàng xin ngủ nhờ, người gác cổng không cho. Nhìn vào trong, chàng thấy một ông già ngồi giữa giường, bên cạnh là một phu nhân trâm ngọc hài cườm, dáng như một bậc phi tần. Phu nhân nói vọng ra: “Đêm khuya mưa gió, người ta xin ngủ nhờ mà không cho thì người ta ngủ đâu?” Tử Biên vén áo bước vào, nằm nghỉ dưới mái hiên phía nam.",
+      "subtitles": [
+        "Cuối đời Đoan Khánh, có chàng học trò Mao Tử Biên lên kinh đi học, lâu ngày nhớ nhà,",
+        "bèn về thăm quê ở Đồng Hỷ, Thái Nguyên.",
+        "Đi qua huyện Kim Hoa thì gặp mưa gió.",
+        "Thôn xa đồng vắng, trời tối sập xuống.",
+        "Nhìn quanh, chàng thấy phía nam có ánh đèn le lói, liền rảo bước tới.",
+        "Đó là mấy gian nhà tranh giữa đám cây cối rậm rạp.",
+        "Chàng xin ngủ nhờ, người gác cổng không cho.",
+        "Nhìn vào trong, chàng thấy một ông già ngồi giữa giường,",
+        "bên cạnh là một phu nhân trâm ngọc hài cườm, dáng như một bậc phi tần.",
+        "Phu nhân nói vọng ra: “Đêm khuya mưa gió,",
+        "người ta xin ngủ nhờ mà không cho thì người ta ngủ đâu?”",
+        "Tử Biên vén áo bước vào, nằm nghỉ dưới mái hiên phía nam."
+      ],
+      "image": {
+        "prompt": "a stormy night in empty countryside, a soaked young student with an oiled paper umbrella hurrying along a muddy path toward a cluster of thatched houses glowing with lamplight among dense dark trees, rain slanting in the wind",
+        "seed": 3885715638,
+        "character": "tu-bien"
+      },
+      "video": {
+        "motionPrompt": "rain pours and wind bends the trees, the student's umbrella flaps, he quickens his pace toward the warm glow of the lamps, lightning briefly lights the fields",
+        "seed": 2154612885
+      },
+      "voice": {}
+    },
+    {
+      "id": "khach-cuoi-lua-tia",
+      "title": "Ông khách cưỡi lừa tía",
+      "narrator": "ke-chuyen",
+      "narration": "Gần trống canh hai, có một người râu tóc đã bạc quá nửa, hai vai nhô cao, cưỡi một con lừa tía đi đến. Ông già trong nhà xuống thềm đón: “Đường xa lận đận, tiên sinh chịu khó quá.” Khách đáp: “Đã trót hẹn thì không nỡ sai lời. Chỉ tiếc mưa gió đầy thành, thơ đang ngâm phải bỏ dở.” Chủ và khách ngồi đối diện, bàn chuyện văn chương. Phu nhân cũng ngồi dự, thấp hơn một bậc. Trong nhà có bốn tấm bình phong bằng đá vân mẫu, mỗi tấm đề một bài từ về một mùa, đều do phu nhân viết. Ông khách đứng dậy, đọc từng bài một.",
+      "subtitles": [
+        "Gần trống canh hai, có một người râu tóc đã bạc quá nửa, hai vai nhô cao,",
+        "cưỡi một con lừa tía đi đến.",
+        "Ông già trong nhà xuống thềm đón: “Đường xa lận đận, tiên sinh chịu khó quá.”",
+        "Khách đáp: “Đã trót hẹn thì không nỡ sai lời.",
+        "Chỉ tiếc mưa gió đầy thành, thơ đang ngâm phải bỏ dở.”",
+        "Chủ và khách ngồi đối diện, bàn chuyện văn chương.",
+        "Phu nhân cũng ngồi dự, thấp hơn một bậc.",
+        "Trong nhà có bốn tấm bình phong bằng đá vân mẫu, mỗi tấm đề một bài từ về một mùa,",
+        "đều do phu nhân viết.",
+        "Ông khách đứng dậy, đọc từng bài một."
+      ],
+      "image": {
+        "prompt": "inside the lamplit thatched house, an old poet with high shoulders dismounting from a small purple-brown donkey at the doorstep, the elderly host bowing to greet him, the elegant lady seated behind, four painted mica screens of the seasons along the wall",
+        "seed": 1857290672,
+        "character": "sai-tien-sinh"
+      },
+      "video": {
+        "motionPrompt": "the donkey shakes rain from its ears, the host bows and leads the guest inside, lamplight flickers on the four mica screens, rain drips from the eaves",
+        "seed": 819326006
+      },
+      "voice": {}
+    },
+    {
+      "id": "bon-buc-binh-phong",
+      "title": "Bốn bức bình phong",
+      "narrator": "ke-chuyen",
+      "narration": "Bài mùa xuân tả nắng mới hun người như say, liễu biếc oanh vàng cách rèm, bướm quanh hiên hoa, và nỗi buồn xuân mà trẻ nhỏ chẳng hiểu, cứ nghiêng mình cười cợt. Bài mùa hạ tả gió rung hoa lựu, người đẹp dừng kim thêu, tựa song mà hồn mộng bay xa. Bài mùa thu tả sương xuống, cánh nhạn lẻ loi, sen tàn mà giếng còn thơm, đom đóm lượn bên lan can, áo mỏng không chống nổi hơi lạnh. Bài mùa đông tả lò hương đỏ lửa, chén rượu ấm buổi sớm, tuyết lạnh lọt rèm, rồi đầu núi chớm nở một cành mai báo xuân về. Đọc xong, ông khách than: “Nếu không có tôi, phu nhân hẳn là tay tuyệt xướng một thời. Nếu không có phu nhân, tôi cũng là tay kiệt xuất. Lời đồn quả không sai.”",
+      "subtitles": [
+        "Bài mùa xuân tả nắng mới hun người như say, liễu biếc oanh vàng cách rèm,",
+        "bướm quanh hiên hoa, và nỗi buồn xuân mà trẻ nhỏ chẳng hiểu, cứ nghiêng mình cười cợt.",
+        "Bài mùa hạ tả gió rung hoa lựu, người đẹp dừng kim thêu, tựa song mà hồn mộng bay xa.",
+        "Bài mùa thu tả sương xuống, cánh nhạn lẻ loi, sen tàn mà giếng còn thơm,",
+        "đom đóm lượn bên lan can, áo mỏng không chống nổi hơi lạnh.",
+        "Bài mùa đông tả lò hương đỏ lửa, chén rượu ấm buổi sớm, tuyết lạnh lọt rèm,",
+        "rồi đầu núi chớm nở một cành mai báo xuân về.",
+        "Đọc xong, ông khách than: “Nếu không có tôi, phu nhân hẳn là tay tuyệt xướng một thời.",
+        "Nếu không có phu nhân, tôi cũng là tay kiệt xuất.",
+        "Lời đồn quả không sai.”"
+      ],
+      "image": {
+        "prompt": "close view of four elegant mica folding screens painted in ink with the four seasons, spring willows and orioles, summer pomegranate flowers and swallows, autumn wild geese and fading lotus, winter snow and a blooming plum branch, the old guest reading them by lamplight",
+        "seed": 3565766972,
+        "character": "ngo-chi-lan"
+      },
+      "video": {
+        "motionPrompt": "the camera glides slowly from screen to screen, willow branches seem to sway, geese drift, snowflakes fall on the plum branch, the old guest nods in admiration",
+        "seed": 2259255913
+      },
+      "voice": {}
+    },
+    {
+      "id": "tho-cua-phu-nhan",
+      "title": "Thơ của phu nhân",
+      "narrator": "ke-chuyen",
+      "narration": "Phu nhân khiêm tốn: “Tài tôi nhỏ mọn, đâu dám sánh với ngài. May được hầu tiên đế, ngày ngày chầu nghiên bút, nên mới biết phép làm thơ.” Rồi bà kể: có lần đi chơi núi Vệ Linh, nơi Thánh Gióng cưỡi ngựa sắt bay về trời, bà đề một bài, rằng ngựa sắt đã về trời mà tên vẫn ở sử, oai thiêng còn khắp non sông. Bài ấy truyền khắp trong cung, vua khen và ban áo. Lại một hôm, vua chê bài từ của một viên quan, quay sang bảo bà thử tài. Bà cầm bút viết ngay, vua khen mãi, ban năm nén vàng và gọi bà là nữ học sĩ nhà họ Phù. Khi vua băng hà, bà làm thơ viếng, nhớ hơn ba mươi năm trị vì, đêm đêm còn mơ tiếng nhạc trong cung, ngóng về lăng mà nước mắt đầy khăn.",
+      "subtitles": [
+        "Phu nhân khiêm tốn: “Tài tôi nhỏ mọn, đâu dám sánh với ngài.",
+        "May được hầu tiên đế, ngày ngày chầu nghiên bút, nên mới biết phép làm thơ.”",
+        "Rồi bà kể: có lần đi chơi núi Vệ Linh, nơi Thánh Gióng cưỡi ngựa sắt bay về trời,",
+        "bà đề một bài, rằng ngựa sắt đã về trời mà tên vẫn ở sử, oai thiêng còn khắp non sông.",
+        "Bài ấy truyền khắp trong cung, vua khen và ban áo.",
+        "Lại một hôm, vua chê bài từ của một viên quan, quay sang bảo bà thử tài.",
+        "Bà cầm bút viết ngay, vua khen mãi, ban năm nén vàng và gọi bà là nữ học sĩ nhà họ Phù.",
+        "Khi vua băng hà, bà làm thơ viếng, nhớ hơn ba mươi năm trị vì,",
+        "đêm đêm còn mơ tiếng nhạc trong cung, ngóng về lăng mà nước mắt đầy khăn."
+      ],
+      "image": {
+        "prompt": "a memory vision in soft mist, the woman poet in deep blue standing on a spring mountain with white clouds and blossoming trees where a legendary iron horse flies into the sky, and below a glimpse of the emperor handing her gold ingots",
+        "seed": 4110328318,
+        "character": "ngo-chi-lan"
+      },
+      "video": {
+        "motionPrompt": "clouds part as the iron horse rises into the sky, blossoms scatter in the wind, the vision shimmers and fades back into the lamplit room",
+        "seed": 1484405599
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-dam-tieu",
+      "title": "Lời đàm tiếu",
+      "narrator": "ke-chuyen",
+      "narration": "Ông khách nói: “Thơ này không mới lạ, nhưng tình thương nhớ thì thừa, rất hợp ý người xưa. Thơ người xưa lấy hùng hồn làm gốc, bình dị làm khéo, lời gần mà ý xa. Thơ người nay thì không đong đưa cũng giễu cợt, bịa chuyện đặt điều.” Nghe đến đó, phu nhân bỗng rơi nước mắt. Bà kể: “Tôi thờ vua Thánh Tông rồi đến vua Hiến Tông, nghĩa vua tôi mà tình như cha con, ra vào không cần giữ ý. Thế mà kẻ bạc bẽo bày chuyện, làm thơ bóng gió rằng vua buồn thì cứ gọi học sĩ Kim Hoa vào, rằng tiệc tan thơ mỏi thì canh dài nằm đợi. Kẻ sĩ có biết bao thú vui, sao lại lấy không làm có, đem chữ nghĩa ra bôi nhọ người khác?”",
+      "subtitles": [
+        "Ông khách nói: “Thơ này không mới lạ, nhưng tình thương nhớ thì thừa, rất hợp ý người xưa.",
+        "Thơ người xưa lấy hùng hồn làm gốc, bình dị làm khéo, lời gần mà ý xa.",
+        "Thơ người nay thì không đong đưa cũng giễu cợt, bịa chuyện đặt điều.”",
+        "Nghe đến đó, phu nhân bỗng rơi nước mắt.",
+        "Bà kể: “Tôi thờ vua Thánh Tông rồi đến vua Hiến Tông, nghĩa vua tôi mà tình như cha con,",
+        "ra vào không cần giữ ý.",
+        "Thế mà kẻ bạc bẽo bày chuyện,",
+        "làm thơ bóng gió rằng vua buồn thì cứ gọi học sĩ Kim Hoa vào,",
+        "rằng tiệc tan thơ mỏi thì canh dài nằm đợi.",
+        "Kẻ sĩ có biết bao thú vui, sao lại lấy không làm có, đem chữ nghĩa ra bôi nhọ người khác?”"
+      ],
+      "image": {
+        "prompt": "the woman poet in deep blue turning her face aside with tears on her cheeks in the lamplight, the old guest leaning toward her with a sympathetic expression, the elderly husband placing a gentle hand on her sleeve, rain streaking the window",
+        "seed": 3932290806,
+        "character": "sai-tien-sinh"
+      },
+      "video": {
+        "motionPrompt": "a tear rolls down her cheek, the husband's hand rests on her sleeve, the old guest shakes his head sadly, rain streams down the paper window",
+        "seed": 3159839319
+      },
+      "voice": {}
+    },
+    {
+      "id": "ban-chuyen-thi-nhan",
+      "title": "Bàn chuyện thi nhân",
+      "narrator": "ke-chuyen",
+      "narration": "Ông khách an ủi: “Đâu phải riêng phu nhân. Từ xưa người trinh liệt bị ngòi bút giễu cợt nhiều lắm. Chị Hằng ở cung trăng, có kẻ làm thơ bảo hối hận vì trót uống thuốc tiên. Người tiên lên trời, có kẻ bịa rằng nàng gặp người này người khác. Ước gì lấy được nước sông Lô mà gột sạch những câu thơ nhơ bẩn ấy.” Phu nhân lau nước mắt: “Không có tiên sinh hiểu cho, tôi thành viên ngọc có vết. Nhưng đêm vui khó gặp, thôi đừng nhắc chuyện buồn.” Rồi ba người bàn sang thơ văn bản triều. Ông khách khen chê từng nhà: người kỳ lạ mà tiêu sái, người tuấn tú mà gay gắt, người như chàng trai xông trận, người như cô gái chơi xuân. Chỉ thơ Nguyễn Trãi đầy lòng trung ái, lúc nào cũng nhớ vua, mới đáng sánh với Đỗ Phủ.",
+      "subtitles": [
+        "Ông khách an ủi: “Đâu phải riêng phu nhân.",
+        "Từ xưa người trinh liệt bị ngòi bút giễu cợt nhiều lắm.",
+        "Chị Hằng ở cung trăng, có kẻ làm thơ bảo hối hận vì trót uống thuốc tiên.",
+        "Người tiên lên trời, có kẻ bịa rằng nàng gặp người này người khác.",
+        "Ước gì lấy được nước sông Lô mà gột sạch những câu thơ nhơ bẩn ấy.”",
+        "Phu nhân lau nước mắt: “Không có tiên sinh hiểu cho, tôi thành viên ngọc có vết.",
+        "Nhưng đêm vui khó gặp, thôi đừng nhắc chuyện buồn.”",
+        "Rồi ba người bàn sang thơ văn bản triều.",
+        "Ông khách khen chê từng nhà: người kỳ lạ mà tiêu sái, người tuấn tú mà gay gắt,",
+        "người như chàng trai xông trận, người như cô gái chơi xuân.",
+        "Chỉ thơ Nguyễn Trãi đầy lòng trung ái, lúc nào cũng nhớ vua, mới đáng sánh với Đỗ Phủ."
+      ],
+      "image": {
+        "prompt": "the three figures in deep conversation around a low table with wine cups and books, the old guest gesturing animatedly as he speaks, the woman poet smiling again, the husband listening, a glowing oil lamp and night rain outside",
+        "seed": 89761607,
+        "character": "sai-tien-sinh"
+      },
+      "video": {
+        "motionPrompt": "the guest raises his cup and gestures, the woman poet laughs softly, wine is poured, the lamp flame dances, the night deepens",
+        "seed": 984287609
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-nghe-trom",
+      "title": "Người nghe trộm",
+      "narrator": "ke-chuyen",
+      "narration": "Câu chuyện ấy có thể chép ra đến bốn, năm nghìn chữ, nhưng Tử Biên không nhớ hết. Chàng đứng nép bên khe vách nghe lỏm đã lâu, bỗng lỡ chạm vào vật gì kêu sột soạt. Ông khách nhận ra ngay: “Cuộc gặp hôm nay hiếm có, mà hình như có người nghe trộm. Chỉ sợ chuyện phong lưu của chúng ta bị đem đi đồn khắp nơi.” Phu nhân cười: “Đám nho sinh cầm bút đời sau cùng lắm bảo chúng ta bàn nhảm là cùng, có hề chi.” Tử Biên không hiểu ý ấy là gì, liền rảo bước vào, phục lạy trước ba người và xin hỏi về phép làm thơ. Ông khách rút trong ngực áo ra một quyển sách chừng trăm trang, trao cho chàng: “Cứ đem về mà đọc, tha hồ học, chẳng cần tìm tập nào khác.”",
+      "subtitles": [
+        "Câu chuyện ấy có thể chép ra đến bốn, năm nghìn chữ, nhưng Tử Biên không nhớ hết.",
+        "Chàng đứng nép bên khe vách nghe lỏm đã lâu, bỗng lỡ chạm vào vật gì kêu sột soạt.",
+        "Ông khách nhận ra ngay: “Cuộc gặp hôm nay hiếm có, mà hình như có người nghe trộm.",
+        "Chỉ sợ chuyện phong lưu của chúng ta bị đem đi đồn khắp nơi.”",
+        "Phu nhân cười: “Đám nho sinh cầm bút đời sau cùng lắm bảo chúng ta bàn nhảm là cùng,",
+        "có hề chi.”",
+        "Tử Biên không hiểu ý ấy là gì, liền rảo bước vào,",
+        "phục lạy trước ba người và xin hỏi về phép làm thơ.",
+        "Ông khách rút trong ngực áo ra một quyển sách chừng trăm trang, trao cho chàng:",
+        "“Cứ đem về mà đọc, tha hồ học, chẳng cần tìm tập nào khác.”"
+      ],
+      "image": {
+        "prompt": "the young student in a brown robe kneeling and bowing low before the three luminous figures in the lamplit room, the old guest handing him a thick bound book from inside his robe, the woman poet watching with a gentle amused smile",
+        "seed": 4290927135,
+        "character": "tu-bien"
+      },
+      "video": {
+        "motionPrompt": "the student bows to the floor, the old guest draws the book from his robe and holds it out, the student receives it with both hands, the figures glow faintly in the lamplight",
+        "seed": 2778821743
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-nam-mo",
+      "title": "Hai nấm mộ",
+      "narrator": "ke-chuyen",
+      "narration": "Một lúc sau, bầu nghiêng chén cạn, chủ khách vái chào từ biệt. Ông khách cưỡi lừa đi, Tử Biên cũng đi nằm. Khi mặt trời lên, chàng choàng dậy, thấy mình nằm trên bãi cỏ, áo ướt đẫm sương. Nhà tranh, bình phong, đèn đuốc đều không còn, chỉ có hai nấm mộ một đông một tây. Chàng mở quyển sách ra xem, toàn giấy trắng, chỉ có bốn chữ “Lã Đường thi tập”, nét mực còn óng ánh chưa khô. Bấy giờ chàng mới hiểu ông khách chính là tiên sinh Sái Thuận, hiệu Lã Đường, một nhà thơ nổi tiếng đời trước. Hỏi người quanh vùng, mới biết hai nấm mộ kia là mộ vợ chồng quan Giáo thụ họ Phù.",
+      "subtitles": [
+        "Một lúc sau, bầu nghiêng chén cạn, chủ khách vái chào từ biệt.",
+        "Ông khách cưỡi lừa đi, Tử Biên cũng đi nằm.",
+        "Khi mặt trời lên, chàng choàng dậy, thấy mình nằm trên bãi cỏ, áo ướt đẫm sương.",
+        "Nhà tranh, bình phong, đèn đuốc đều không còn, chỉ có hai nấm mộ một đông một tây.",
+        "Chàng mở quyển sách ra xem, toàn giấy trắng, chỉ có bốn chữ “Lã Đường thi tập”,",
+        "nét mực còn óng ánh chưa khô.",
+        "Bấy giờ chàng mới hiểu ông khách chính là tiên sinh Sái Thuận, hiệu Lã Đường,",
+        "một nhà thơ nổi tiếng đời trước.",
+        "Hỏi người quanh vùng, mới biết hai nấm mộ kia là mộ vợ chồng quan Giáo thụ họ Phù."
+      ],
+      "image": {
+        "prompt": "early morning in an open grassy field with mist, the student sitting up on the dewy grass in a wet robe beside two old earthen grave mounds, holding open a book with blank pages, sunrise behind distant trees, no house anywhere",
+        "seed": 520509694,
+        "character": "tu-bien"
+      },
+      "video": {
+        "motionPrompt": "mist lifts from the field, the student turns the blank pages in wonder, sunlight touches the two grave mounds, a breeze ruffles the grass",
+        "seed": 357768237
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhat-nhanh-tap-tho",
+      "title": "Nhặt nhạnh tập thơ",
+      "narrator": "ke-chuyen",
+      "narration": "Tử Biên tìm đến quê của tiên sinh Sái Thuận, dò hỏi bản thảo tập thơ Lã Đường, thì thấy gián nhấm mọt gặm, thất lạc gần hết. Chàng bèn đi khắp xa gần hỏi han, gặp ai còn nhớ câu nào thì chép câu ấy, dù nửa câu, một chữ cũng không bỏ sót. Năm này qua năm khác, quyển sách trắng năm xưa dần dần được lấp đầy. Vì thế, từ khi nhà Lê dựng nghiệp, thi nhân có đến hơn trăm nhà, mà tập thơ của ông Sái vẫn được lưu truyền rộng rãi, phần lớn là nhờ công sức của Mao Tử Biên. Người đọc truyện đến đây hẳn hiểu vì sao đêm ấy, ông khách lại trao cho chàng học trò một quyển sách không chữ.",
+      "subtitles": [
+        "Tử Biên tìm đến quê của tiên sinh Sái Thuận, dò hỏi bản thảo tập thơ Lã Đường,",
+        "thì thấy gián nhấm mọt gặm, thất lạc gần hết.",
+        "Chàng bèn đi khắp xa gần hỏi han, gặp ai còn nhớ câu nào thì chép câu ấy, dù nửa câu,",
+        "một chữ cũng không bỏ sót.",
+        "Năm này qua năm khác, quyển sách trắng năm xưa dần dần được lấp đầy.",
+        "Vì thế, từ khi nhà Lê dựng nghiệp, thi nhân có đến hơn trăm nhà,",
+        "mà tập thơ của ông Sái vẫn được lưu truyền rộng rãi,",
+        "phần lớn là nhờ công sức của Mao Tử Biên.",
+        "Người đọc truyện đến đây hẳn hiểu vì sao đêm ấy,",
+        "ông khách lại trao cho chàng học trò một quyển sách không chữ."
+      ],
+      "image": {
+        "prompt": "the student, now older, traveling through villages and sitting with elderly villagers who recite remembered verses, carefully copying lines with a brush into the once blank book, which is now filling with writing, warm afternoon light in a village courtyard",
+        "seed": 973988151,
+        "character": "tu-bien"
+      },
+      "video": {
+        "motionPrompt": "an old villager recites with closed eyes, the brush moves carefully across the page, pages turn and fill with writing, the camera slowly pulls back across the village",
+        "seed": 3717890381
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "poetic Vietnamese traditional instrumental, dan tranh zither and dan nguyet moon lute, soft bamboo flute, gentle night rain ambience, refined and nostalgic with a luminous dawn ending, slow tempo, no vocals",
+    "durationSeconds": 160,
+    "seed": 1357559804
+  }
+}

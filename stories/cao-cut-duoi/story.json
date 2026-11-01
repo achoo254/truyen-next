@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "slug": "cao-cut-duoi",
+  "shelf": "world",
+  "title": "Con cáo cụt đuôi",
+  "summary": "Mất cái đuôi đẹp vì sập bẫy, chú cáo bày kế khuyên cả họ hàng cùng cắt đuôi cho khỏi bị cười. Ngụ ngôn Aesop dí dỏm về những lời khuyên có ý riêng.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive woodland animals, an autumn forest with a great old oak, golden leaves, a farm fence at the edge of the woods, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cao-cut",
+      "name": "Chú cáo cụt đuôi",
+      "seed": 4225448756,
+      "sheetPrompt": "a sly red fox with a white chest and a tiny stubby tail, sheepish yet scheming expression, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cao-gia",
+      "name": "Bác cáo già",
+      "seed": 3617932105,
+      "sheetPrompt": "an old wise fox with silvery grey-red fur, a magnificent bushy tail and a calm knowing smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mac-bay",
+      "title": "Sập bẫy",
+      "narrator": "ke-chuyen",
+      "narration": "Có một chú cáo đỏ nổi tiếng khắp khu rừng vì cái đuôi to, dài, mượt như nhung. Một đêm, chú lẻn vào trang trại tìm gà, chẳng may bước phải cái bẫy người nông dân đặt bên hàng rào. Chú giãy giụa mãi mới thoát ra được, nhưng cái đuôi đẹp đẽ thì bị kẹp lại, đứt mất. Chú cáo lủi thủi chạy về rừng, phía sau chỉ còn một mẩu đuôi cụt ngủn.",
+      "subtitles": [
+        "Có một chú cáo đỏ nổi tiếng khắp khu rừng vì cái đuôi to, dài, mượt như nhung.",
+        "Một đêm, chú lẻn vào trang trại tìm gà, chẳng may bước phải cái bẫy người nông dân đặt bên",
+        "hàng rào.",
+        "Chú giãy giụa mãi mới thoát ra được, nhưng cái đuôi đẹp đẽ thì bị kẹp lại, đứt mất.",
+        "Chú cáo lủi thủi chạy về rừng, phía sau chỉ còn một mẩu đuôi cụt ngủn."
+      ],
+      "image": {
+        "character": "cao-cut",
+        "prompt": "a red fox at night sneaking away from a farm fence toward the woods, glancing back in dismay at its tiny stubby tail, moonlight on the barn",
+        "seed": 1438464997
+      },
+      "video": {
+        "motionPrompt": "the fox slinks away from the fence, looks back at its stubby tail, an owl blinks on the barn roof",
+        "seed": 2295641566
+      },
+      "voice": {}
+    },
+    {
+      "id": "xau-ho",
+      "title": "Xấu hổ",
+      "narrator": "ke-chuyen",
+      "narration": "Mấy hôm liền, chú cáo trốn trong hang, chẳng dám ra ngoài. Chú nghĩ: “Cả họ nhà cáo ai cũng có đuôi đẹp, chỉ mình là cụt. Ra ngoài thể nào cũng bị chê cười.” Nằm mãi đâm buồn, chú vắt óc nghĩ cách. Rồi mắt chú sáng lên: “Phải rồi! Nếu cả họ nhà cáo đều cụt đuôi như mình, thì có ai cười ai được nữa đâu!”",
+      "subtitles": [
+        "Mấy hôm liền, chú cáo trốn trong hang, chẳng dám ra ngoài.",
+        "Chú nghĩ: “Cả họ nhà cáo ai cũng có đuôi đẹp, chỉ mình là cụt.",
+        "Ra ngoài thể nào cũng bị chê cười.” Nằm mãi đâm buồn, chú vắt óc nghĩ cách.",
+        "Rồi mắt chú sáng lên: “Phải rồi!",
+        "Nếu cả họ nhà cáo đều cụt đuôi như mình, thì có ai cười ai được nữa đâu!”"
+      ],
+      "image": {
+        "character": "cao-cut",
+        "prompt": "a red fox curled up glumly in a cosy burrow, then perking up with a sly bright idea, eyes gleaming",
+        "seed": 1478805522
+      },
+      "video": {
+        "motionPrompt": "the fox sighs and curls up, then its ears shoot up and its eyes gleam with an idea",
+        "seed": 3976074387
+      },
+      "voice": {}
+    },
+    {
+      "id": "hop-ho",
+      "title": "Cuộc họp dưới gốc sồi",
+      "narrator": "ke-chuyen",
+      "narration": "Chú cáo đi khắp rừng mời họ hàng tới họp dưới gốc sồi già. Khi mọi người đã đông đủ, chú đứng lên, ưỡn ngực nói: “Thưa bà con, tôi vừa tìm ra một bí quyết. Cái đuôi dài vừa nặng nề, vừa vướng víu, lội nước thì ướt, chạy thì kéo lê trong bùn. Từ ngày bỏ nó đi, tôi thấy người nhẹ hẳn. Bà con cũng nên bỏ đuôi đi cho tiện!”",
+      "subtitles": [
+        "Chú cáo đi khắp rừng mời họ hàng tới họp dưới gốc sồi già.",
+        "Khi mọi người đã đông đủ, chú đứng lên, ưỡn ngực nói: “Thưa bà con, tôi vừa tìm ra một bí",
+        "quyết.",
+        "Cái đuôi dài vừa nặng nề, vừa vướng víu, lội nước thì ướt, chạy thì kéo lê trong bùn.",
+        "Từ ngày bỏ nó đi, tôi thấy người nhẹ hẳn. Bà con cũng nên bỏ đuôi đi cho tiện!”"
+      ],
+      "image": {
+        "character": "cao-cut",
+        "prompt": "a stubby-tailed red fox standing on a tree root giving a grand speech to a gathering of foxes with bushy tails under a great old oak, autumn leaves falling",
+        "seed": 1475988759
+      },
+      "video": {
+        "motionPrompt": "the fox gestures grandly, the listening foxes swish their bushy tails, golden leaves drift down",
+        "seed": 2380210487
+      },
+      "voice": {}
+    },
+    {
+      "id": "cao-gia",
+      "title": "Câu hỏi của bác cáo già",
+      "narrator": "ke-chuyen",
+      "narration": "Đám cáo trẻ xì xào, có con đã bắt đầu ngoái nhìn đuôi mình mà phân vân. Bỗng một bác cáo già lông bạc đứng dậy, chậm rãi hỏi: “Này cháu, nếu cháu chưa mất đuôi, liệu cháu có khuyên bà con điều ấy không?” Cả đám im phăng phắc, rồi bật cười ồ lên. Chú cáo cụt đuôi đỏ mặt tía tai, chẳng biết trả lời thế nào.",
+      "subtitles": [
+        "Đám cáo trẻ xì xào, có con đã bắt đầu ngoái nhìn đuôi mình mà phân vân.",
+        "Bỗng một bác cáo già lông bạc đứng dậy, chậm rãi hỏi: “Này cháu, nếu cháu chưa mất đuôi,",
+        "liệu cháu có khuyên bà con điều ấy không?” Cả đám im phăng phắc, rồi bật cười ồ lên.",
+        "Chú cáo cụt đuôi đỏ mặt tía tai, chẳng biết trả lời thế nào."
+      ],
+      "image": {
+        "character": "cao-gia",
+        "prompt": "an old silver-grey fox raising a paw to ask a question, the young foxes laughing, the stubby-tailed fox blushing with drooping ears",
+        "seed": 1417508070
+      },
+      "video": {
+        "motionPrompt": "the old fox raises a paw, the crowd of foxes bursts into laughter, the stubby-tailed fox's ears droop",
+        "seed": 253957663
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc",
+      "title": "Đuôi ai nấy giữ",
+      "narrator": "ke-chuyen",
+      "narration": "Chú cáo cụt đuôi cúi đầu lủi mất vào bụi rậm. Họ hàng nhà cáo vẫn giữ nguyên những cái đuôi đỏ rực, phe phẩy đẹp đẽ trong nắng chiều. Còn chú cáo, từ đó chú học cách sống thật với mình, chẳng còn bày trò lừa ai. Các bạn nhỏ ạ, hãy cẩn thận với lời khuyên của người chỉ mong kéo người khác cùng chịu thiệt với mình.",
+      "subtitles": [
+        "Chú cáo cụt đuôi cúi đầu lủi mất vào bụi rậm.",
+        "Họ hàng nhà cáo vẫn giữ nguyên những cái đuôi đỏ rực, phe phẩy đẹp đẽ trong nắng chiều.",
+        "Còn chú cáo, từ đó chú học cách sống thật với mình, chẳng còn bày trò lừa ai.",
+        "Các bạn nhỏ ạ, hãy cẩn thận với lời khuyên của người chỉ mong kéo người khác cùng chịu",
+        "thiệt với mình."
+      ],
+      "image": {
+        "character": "cao-gia",
+        "prompt": "foxes with beautiful bushy red tails strolling home through an autumn forest at sunset, the stubby-tailed fox slipping into the bushes",
+        "seed": 2499330298
+      },
+      "video": {
+        "motionPrompt": "bushy tails swish in the golden light, leaves swirl, the little fox disappears into the bushes",
+        "seed": 250445835
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "sly playful classical storybook music, clarinet and pizzicato strings, a mock-grand speech theme with soft brass, a burst of light laughter-like woodwinds, then a warm autumn ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3698392146
+  }
+}

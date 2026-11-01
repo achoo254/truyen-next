@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "slug": "cay-soi-va-cay-say",
+  "shelf": "world",
+  "title": "Cây sồi và cây sậy",
+  "summary": "Cây sồi to lớn chê bụi sậy yếu ớt vì gió thoảng cũng cúi đầu, cho tới đêm cơn bão kéo về. Ngụ ngôn Aesop sâu lắng về sức mạnh của sự mềm dẻo.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive trees and plants with soft friendly faces, a wide river bank with a mighty old oak and a clump of slender reeds, big skies, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cay-soi",
+      "name": "Cây sồi",
+      "seed": 3079340243,
+      "sheetPrompt": "a mighty old oak tree with a broad gnarled trunk, a wide leafy crown and a proud bark face with bushy eyebrows, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cay-say",
+      "name": "Bụi sậy",
+      "seed": 1654689986,
+      "sheetPrompt": "a clump of slender green reeds with fluffy brown tips and small gentle faces, bending gracefully, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ben-song",
+      "title": "Bên bờ sông",
+      "narrator": "ke-chuyen",
+      "narration": "Bên bờ một con sông lớn, có một cây sồi già sừng sững. Thân sồi to đến ba người ôm không xuể, cành lá xoè rộng như một chiếc ô khổng lồ. Dưới chân sồi, sát mép nước, là một bụi sậy mảnh mai, thân nhỏ như chiếc đũa. Hễ có cơn gió nhẹ thổi qua, những cây sậy lại cúi rạp xuống, rồi khe khẽ đứng lên.",
+      "subtitles": [
+        "Bên bờ một con sông lớn, có một cây sồi già sừng sững.",
+        "Thân sồi to đến ba người ôm không xuể, cành lá xoè rộng như một chiếc ô khổng lồ.",
+        "Dưới chân sồi, sát mép nước, là một bụi sậy mảnh mai, thân nhỏ như chiếc đũa.",
+        "Hễ có cơn gió nhẹ thổi qua, những cây sậy lại cúi rạp xuống, rồi khe khẽ đứng lên."
+      ],
+      "image": {
+        "character": "cay-soi",
+        "prompt": "a mighty old oak standing proudly on a sunny river bank, a clump of slender reeds at the water's edge bending in a light breeze",
+        "seed": 3601960820
+      },
+      "video": {
+        "motionPrompt": "the reeds sway and bow in the breeze, the oak's leaves rustle, the river flows gently",
+        "seed": 757116729
+      },
+      "voice": {}
+    },
+    {
+      "id": "che-say",
+      "title": "Sồi chê sậy",
+      "narrator": "ke-chuyen",
+      "narration": "Cây sồi nhìn xuống, cười khà khà: “Này lũ sậy yếu ớt kia, gió thoảng thôi cũng làm các ngươi cúi đầu. Còn ta đây, chẳng cơn gió nào khiến ta phải nhún mình!” Bụi sậy chỉ lặng lẽ đáp: “Thưa bác sồi, chúng cháu bé nhỏ, nên chúng cháu biết cúi mình. Cúi xuống rồi lại đứng lên được, thế là đủ.” Cây sồi lắc đầu, cho rằng sậy thật hèn yếu.",
+      "subtitles": [
+        "Cây sồi nhìn xuống, cười khà khà: “Này lũ sậy yếu ớt kia, gió thoảng thôi cũng làm các",
+        "ngươi cúi đầu. Còn ta đây, chẳng cơn gió nào khiến ta phải nhún mình!”",
+        "Bụi sậy chỉ lặng lẽ đáp: “Thưa bác sồi, chúng cháu bé nhỏ, nên chúng cháu biết cúi mình.",
+        "Cúi xuống rồi lại đứng lên được, thế là đủ.” Cây sồi lắc đầu, cho rằng sậy thật hèn yếu."
+      ],
+      "image": {
+        "character": "cay-say",
+        "prompt": "the proud oak looking down with a smug bark face at the humble reeds, the reeds answering politely with gentle faces",
+        "seed": 1924557567
+      },
+      "video": {
+        "motionPrompt": "the oak's branches shake as it laughs, the reeds nod softly, dragonflies hover",
+        "seed": 3336869354
+      },
+      "voice": {}
+    },
+    {
+      "id": "bao-den",
+      "title": "Cơn bão",
+      "narrator": "ke-chuyen",
+      "narration": "Một đêm, trời nổi cơn bão lớn. Mây đen kéo kín bầu trời, sấm rền vang, gió gào thét dữ dội. Những cây sậy rạp sát xuống mặt nước, mềm mại uốn theo chiều gió. Còn cây sồi thì vươn thẳng người, gồng hết sức chống lại. “Ta không cúi! Ta không bao giờ cúi!” Gió càng thổi mạnh, cành sồi càng kêu răng rắc.",
+      "subtitles": [
+        "Một đêm, trời nổi cơn bão lớn.",
+        "Mây đen kéo kín bầu trời, sấm rền vang, gió gào thét dữ dội.",
+        "Những cây sậy rạp sát xuống mặt nước, mềm mại uốn theo chiều gió.",
+        "Còn cây sồi thì vươn thẳng người, gồng hết sức chống lại. “Ta không cúi!",
+        "Ta không bao giờ cúi!” Gió càng thổi mạnh, cành sồi càng kêu răng rắc."
+      ],
+      "image": {
+        "character": "cay-soi",
+        "prompt": "a stormy night on the river bank, dark clouds and distant lightning, the reeds bending low with the wind while the stiff oak strains against it",
+        "seed": 2953869438
+      },
+      "video": {
+        "motionPrompt": "wind whips the branches, the reeds bend flat and spring, rain sweeps across, lightning flickers far away",
+        "seed": 980541530
+      },
+      "voice": {}
+    },
+    {
+      "id": "soi-do",
+      "title": "Sồi đổ",
+      "narrator": "ke-chuyen",
+      "narration": "Đến nửa đêm, một trận gió mạnh nhất ập tới. Cây sồi gồng mình lần cuối, rồi “rắc” một tiếng vang trời. Rễ sồi bật khỏi mặt đất, cả thân cây to lớn đổ ầm xuống, nằm vắt ngang dòng sông. Sáng hôm sau, bão tan, mặt trời ló ra. Những cây sậy từ từ đứng thẳng lên, lá vẫn xanh mướt, chẳng gãy một nhánh nào.",
+      "subtitles": [
+        "Đến nửa đêm, một trận gió mạnh nhất ập tới. Cây sồi gồng mình lần cuối, rồi “rắc”",
+        "một tiếng vang trời.",
+        "Rễ sồi bật khỏi mặt đất, cả thân cây to lớn đổ ầm xuống, nằm vắt ngang dòng sông.",
+        "Sáng hôm sau, bão tan, mặt trời ló ra.",
+        "Những cây sậy từ từ đứng thẳng lên, lá vẫn xanh mướt, chẳng gãy một nhánh nào."
+      ],
+      "image": {
+        "character": "cay-say",
+        "prompt": "calm morning after the storm, the great oak lying across the river with its roots in the air, the reeds standing tall and green in the sunshine",
+        "seed": 1795915750
+      },
+      "video": {
+        "motionPrompt": "sunlight breaks through clouds, the reeds slowly straighten up, water drops sparkle, birds return",
+        "seed": 2759175901
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc",
+      "title": "Mềm mà bền",
+      "narrator": "ke-chuyen",
+      "narration": "Cây sồi nằm trên dòng nước, ngước nhìn bụi sậy, giọng trầm buồn: “Ta cứ tưởng cứng cỏi là mạnh. Hoá ra các cháu mới là khôn.” Bụi sậy rì rào an ủi bác sồi. Các bạn nhỏ ạ, đôi khi biết mềm mỏng, biết nhún nhường lại giúp ta vượt qua giông bão. Cứng quá thì dễ gãy, mềm dẻo thì bền lâu.",
+      "subtitles": [
+        "Cây sồi nằm trên dòng nước, ngước nhìn bụi sậy, giọng trầm buồn: “Ta cứ tưởng cứng cỏi là",
+        "mạnh. Hoá ra các cháu mới là khôn.” Bụi sậy rì rào an ủi bác sồi.",
+        "Các bạn nhỏ ạ, đôi khi biết mềm mỏng, biết nhún nhường lại giúp ta vượt qua giông bão.",
+        "Cứng quá thì dễ gãy, mềm dẻo thì bền lâu."
+      ],
+      "image": {
+        "character": "cay-soi",
+        "prompt": "the fallen oak with a humble thoughtful face resting across the gentle river, the reeds leaning kindly toward it, soft golden evening light",
+        "seed": 3631213436
+      },
+      "video": {
+        "motionPrompt": "the reeds sway kindly toward the oak, the river ripples softly, golden light fades",
+        "seed": 3300346889
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle classical storybook music, soft strings and woodwinds for the breeze, a dramatic but not frightening storm with timpani rolls, then a calm hopeful morning theme on flute, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2859067146
+  }
+}

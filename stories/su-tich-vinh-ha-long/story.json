@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "slug": "su-tich-vinh-ha-long",
+  "shelf": "kids",
+  "title": "Sự tích vịnh Hạ Long",
+  "summary": "Khi thuyền giặc từ biển kéo vào, Ngọc Hoàng sai Rồng Mẹ dẫn đàn Rồng Con xuống giúp người Việt. Những viên ngọc rồng nhả xuống biển hóa thành nghìn hòn đảo đá, và nơi rồng đáp xuống được gọi là Hạ Long. Bản kể nhẹ nhàng cho trẻ nhỏ về kỳ quan của đất nước.",
+  "themes": [
+    "than-thoai",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyền thuyết dân gian Việt Nam về rồng giáng xuống vịnh Hạ Long, truyền miệng, không ai giữ quyền; có dị bản kể rồng nhả ngọc, có dị bản kể rồng phun châu ngọc và dùng đuôi quẫy nước. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "basedOn": "Truyền thuyết dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, emerald sea with limestone karst islands, misty light, friendly golden Vietnamese dragons with soft rounded shapes, calm and safe mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2556084497
+    },
+    {
+      "id": "rong-me",
+      "name": "Rồng Mẹ",
+      "sheetPrompt": "the Mother Dragon from Vietnamese legend, a large gentle golden Vietnamese dragon with a long curving body, soft rounded features, kind eyes, flowing whiskers, holding a glowing pearl, full body, plain soft cream background, character reference sheet",
+      "seed": 1627041856
+    },
+    {
+      "id": "rong-con",
+      "name": "Rồng Con",
+      "sheetPrompt": "a cute small baby Vietnamese dragon from legend, golden and jade-green scales, big round eyes, tiny horns, playful pose, full body, plain soft cream background, character reference sheet",
+      "seed": 2631480942
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Hôm nay Miu đang ngồi trên một chiếc thuyền giữa vịnh Hạ Long đây. Các bạn nhìn kìa, biển xanh ngọc, còn những hòn đảo đá nhô lên nhiều không đếm xuể. Hòn thì giống con gà, hòn thì giống cái lư hương. Ai đã đặt chúng ở đây nhỉ? Miu kể các bạn nghe một truyền thuyết thật đẹp nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Hôm nay Miu đang ngồi trên một chiếc thuyền giữa vịnh Hạ Long đây.",
+        "Các bạn nhìn kìa, biển xanh ngọc, còn những hòn đảo đá nhô lên nhiều không đếm xuể.",
+        "Hòn thì giống con gà, hòn thì giống cái lư hương. Ai đã đặt chúng ở đây nhỉ?",
+        "Miu kể các bạn nghe một truyền thuyết thật đẹp nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits on the deck of a small wooden boat with brown sails gliding on an emerald bay full of limestone karst islands, morning mist",
+        "seed": 2751169249,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the boat glides slowly between the islands, the cat points at a rock shaped like two roosters, mist drifts, slow camera push-in",
+        "seed": 791936633
+      },
+      "voice": {}
+    },
+    {
+      "id": "giac-toi",
+      "title": "Giặc kéo tới từ biển",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, khi người Việt mới dựng nước, dân ta sống hiền hòa bên bờ biển. Bỗng một ngày, thuyền giặc từ ngoài khơi kéo đến đông nghịt. Chúng muốn cướp đất, cướp làng. Dân làng ra sức chống giữ, nhưng giặc đông quá.",
+      "subtitles": [
+        "Ngày xưa, khi người Việt mới dựng nước, dân ta sống hiền hòa bên bờ biển.",
+        "Bỗng một ngày, thuyền giặc từ ngoài khơi kéo đến đông nghịt.",
+        "Chúng muốn cướp đất, cướp làng. Dân làng ra sức chống giữ, nhưng giặc đông quá."
+      ],
+      "image": {
+        "prompt": "a peaceful ancient Vietnamese fishing village on the shore, in the distance many dark foreign ships with big sails approach across the sea, villagers gather on the beach looking worried",
+        "seed": 1939484047
+      },
+      "video": {
+        "motionPrompt": "the dark ships sail closer on the waves, villagers point and gather together, wind blows the palm trees",
+        "seed": 85017224
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngoc-hoang-sai-rong",
+      "title": "Ngọc Hoàng sai rồng",
+      "narrator": "ke-chuyen",
+      "narration": "Trên trời, Ngọc Hoàng nhìn xuống thấy dân Việt gặp nạn, thương lắm. Ngài liền gọi Rồng Mẹ đến và bảo: Con hãy dẫn đàn Rồng Con xuống trần, giúp dân Việt giữ lấy bờ biển. Rồng Mẹ cúi đầu vâng lệnh, cùng đàn con bay vút xuống.",
+      "subtitles": [
+        "Trên trời, Ngọc Hoàng nhìn xuống thấy dân Việt gặp nạn, thương lắm.",
+        "Ngài liền gọi Rồng Mẹ đến và bảo:",
+        "Con hãy dẫn đàn Rồng Con xuống trần, giúp dân Việt giữ lấy bờ biển.",
+        "Rồng Mẹ cúi đầu vâng lệnh, cùng đàn con bay vút xuống."
+      ],
+      "image": {
+        "prompt": "in a heavenly palace above the clouds the kind Jade Emperor speaks to the golden Mother Dragon, a group of small baby dragons gather around her eagerly",
+        "seed": 3685334167,
+        "character": "rong-me"
+      },
+      "video": {
+        "motionPrompt": "the Mother Dragon bows her head, the baby dragons wiggle with excitement, then they all swirl down through the clouds",
+        "seed": 2383377692
+      },
+      "voice": {}
+    },
+    {
+      "id": "rong-nha-ngoc",
+      "title": "Rồng nhả ngọc",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc thuyền giặc sắp tràn vào bờ, đàn rồng hạ xuống. Rồng Mẹ và Rồng Con nhả ra những viên ngọc sáng lấp lánh, rơi xuống mặt biển. Mỗi viên ngọc chạm nước liền hóa thành một hòn đảo đá, có hòn to, có hòn nhỏ. Các hòn đảo mọc lên san sát, như một bức tường vững chắc chắn ngang biển.",
+      "subtitles": [
+        "Đúng lúc thuyền giặc sắp tràn vào bờ, đàn rồng hạ xuống.",
+        "Rồng Mẹ và Rồng Con nhả ra những viên ngọc sáng lấp lánh, rơi xuống mặt biển.",
+        "Mỗi viên ngọc chạm nước liền hóa thành một hòn đảo đá, có hòn to, có hòn nhỏ.",
+        "Các hòn đảo mọc lên san sát, như một bức tường vững chắc chắn ngang biển."
+      ],
+      "image": {
+        "prompt": "golden Mother Dragon and baby dragons fly over the sea dropping glowing pearls, where each pearl touches the water a limestone island rises up, forming a wall of islands between the ships and the shore",
+        "seed": 1665549446,
+        "character": "rong-me"
+      },
+      "video": {
+        "motionPrompt": "glowing pearls fall from the dragons and splash softly, rocky islands rise from the water one after another, waves ripple outward",
+        "seed": 1681347974
+      },
+      "voice": {}
+    },
+    {
+      "id": "giac-bo-chay",
+      "title": "Thuyền giặc bỏ chạy",
+      "narrator": "ke-chuyen",
+      "narration": "Thuyền giặc đang lao nhanh, va vào đá, chiếc thì mắc cạn, chiếc thì vỡ tan. Bọn giặc hoảng sợ, quay thuyền bỏ chạy ra khơi, không bao giờ dám quay lại nữa. Dân làng trên bờ reo hò vang dậy, cảm ơn đàn rồng đã cứu giúp.",
+      "subtitles": [
+        "Thuyền giặc đang lao nhanh, va vào đá, chiếc thì mắc cạn, chiếc thì vỡ tan.",
+        "Bọn giặc hoảng sợ, quay thuyền bỏ chạy ra khơi, không bao giờ dám quay lại nữa.",
+        "Dân làng trên bờ reo hò vang dậy, cảm ơn đàn rồng đã cứu giúp."
+      ],
+      "image": {
+        "prompt": "foreign ships bump into the new rocky islands and turn around to flee out to sea, cheerful villagers on the shore wave and cheer at the golden dragons in the sky",
+        "seed": 2270029426
+      },
+      "video": {
+        "motionPrompt": "the ships turn away and sail off quickly, villagers jump and cheer, the dragons circle happily in the sky",
+        "seed": 2165276358
+      },
+      "voice": {}
+    },
+    {
+      "id": "rong-o-lai",
+      "title": "Rồng ở lại",
+      "narrator": "ke-chuyen",
+      "narration": "Giặc tan rồi, nhưng Rồng Mẹ và Rồng Con không muốn về trời nữa. Rồng thấy nơi đây biển xanh, đảo đẹp, người dân hiền lành, nên ở lại. Chỗ Rồng Mẹ đáp xuống được gọi là Hạ Long. Chỗ Rồng Con chầu quanh mẹ là Bái Tử Long. Còn nơi đuôi đàn rồng quẫy nước trắng xóa được gọi là Bạch Long Vĩ.",
+      "subtitles": [
+        "Giặc tan rồi, nhưng Rồng Mẹ và Rồng Con không muốn về trời nữa.",
+        "Rồng thấy nơi đây biển xanh, đảo đẹp, người dân hiền lành, nên ở lại.",
+        "Chỗ Rồng Mẹ đáp xuống được gọi là Hạ Long. Chỗ Rồng Con chầu quanh mẹ là Bái Tử Long.",
+        "Còn nơi đuôi đàn rồng quẫy nước trắng xóa được gọi là Bạch Long Vĩ."
+      ],
+      "image": {
+        "prompt": "the golden Mother Dragon curls peacefully among limestone islands in the emerald bay, baby dragons play around her in the water nearby, a long white trail of foam where their tails swish",
+        "seed": 1948551268,
+        "character": "rong-con"
+      },
+      "video": {
+        "motionPrompt": "the Mother Dragon settles gently into the bay, the baby dragons splash around her, their tails leave white foam trails",
+        "seed": 683999653
+      },
+      "voice": {}
+    },
+    {
+      "id": "vinh-ngay-nay",
+      "title": "Vịnh Hạ Long ngày nay",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày nay, vịnh Hạ Long có hàng nghìn hòn đảo đá muôn hình muôn vẻ. Trong lòng đảo có những hang động lung linh. Thuyền bè qua lại tấp nập. Người từ khắp nơi trên thế giới tìm đến ngắm cảnh, ai cũng khen đẹp như tranh.",
+      "subtitles": [
+        "Ngày nay, vịnh Hạ Long có hàng nghìn hòn đảo đá muôn hình muôn vẻ.",
+        "Trong lòng đảo có những hang động lung linh. Thuyền bè qua lại tấp nập.",
+        "Người từ khắp nơi trên thế giới tìm đến ngắm cảnh, ai cũng khen đẹp như tranh."
+      ],
+      "image": {
+        "prompt": "a sunny day on Ha Long Bay, many limestone islands of different shapes, small boats with brown sails, a sparkling cave entrance, happy visitors waving from a boat",
+        "seed": 2132079162
+      },
+      "video": {
+        "motionPrompt": "boats drift slowly across the bay, sunlight sparkles on the water, birds glide between the islands",
+        "seed": 1554338898
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thì ra mỗi hòn đảo ở Hạ Long là một viên ngọc rồng đấy các bạn ạ! Nếu có dịp đến vịnh Hạ Long, các bạn nhớ giữ cho biển thật sạch, thật xanh nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Thì ra mỗi hòn đảo ở Hạ Long là một viên ngọc rồng đấy các bạn ạ!",
+        "Nếu có dịp đến vịnh Hạ Long, các bạn nhớ giữ cho biển thật sạch, thật xanh nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye from a wooden boat in Ha Long Bay at sunset, golden light on limestone islands, a tiny friendly baby dragon peeks from the water",
+        "seed": 3051922247,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the baby dragon splashes and dives, the sun sets behind the islands, gentle camera pull-back",
+        "seed": 205804714
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "calm Vietnamese folk tune for children with a seaside feeling, dan tranh zither and bamboo flute, soft dan bau, gentle wave-like rhythm, majestic yet tender, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 25126277
+  }
+}

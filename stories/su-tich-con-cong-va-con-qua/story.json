@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "slug": "su-tich-con-cong-va-con-qua",
+  "shelf": "kids",
+  "title": "Sự tích con công và con quạ",
+  "summary": "Ngày xưa công và quạ là đôi bạn thân, cùng có bộ lông xám xịt. Quạ kiên nhẫn vẽ cho công bộ áo lộng lẫy, còn chính quạ vì nóng vội mà thành đen thui. Bản kể nhẹ nhàng cho trẻ nhỏ về đức tính kiên nhẫn.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Sự tích dân gian Việt Nam, truyền miệng, không ai giữ quyền; lý do quạ nóng vội khác nhau theo dị bản (nghe tin có cỗ, thấy có mồi), bản này kể quạ thấy có mồi ngon. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "basedOn": "Sự tích dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, lush tropical forest, bamboo groves and a clear stream, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 933366726
+    },
+    {
+      "id": "cong",
+      "name": "Công",
+      "sheetPrompt": "a gentle patient peacock from a Vietnamese folk tale, cute rounded cartoon bird, kind eyes, small crest on its head, shown after its painting with shimmering blue green and gold feathers and eye patterns on its long tail, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2454582386
+    },
+    {
+      "id": "qua",
+      "name": "Quạ",
+      "sheetPrompt": "a lively impatient crow from a Vietnamese folk tale, cute rounded cartoon bird, bright curious eyes, a small paintbrush held in its beak, plain dull grey feathers, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2230223446
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Hôm nay Miu đi chơi vườn bách thú, thấy một chú công xòe đuôi đẹp lộng lẫy, còn trên cành cây có một chú quạ đen nhánh. Miu tự hỏi: Sao công đẹp thế, còn quạ lại đen thui? Ngày xưa, hai bạn ấy có một chuyện rất buồn cười. Miu kể các bạn nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Hôm nay Miu đi chơi vườn bách thú,",
+        "thấy một chú công xòe đuôi đẹp lộng lẫy, còn trên cành cây có một chú quạ đen nhánh.",
+        "Miu tự hỏi: Sao công đẹp thế, còn quạ lại đen thui?",
+        "Ngày xưa, hai bạn ấy có một chuyện rất buồn cười. Miu kể các bạn nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat stands in a sunny park looking up in wonder at a peacock spreading its colorful tail, a black crow sits on a nearby branch",
+        "seed": 1174654653,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the peacock slowly fans out its tail, the crow tilts its head, the cat claps happily, slow camera push-in",
+        "seed": 1212116425
+      },
+      "voice": {}
+    },
+    {
+      "id": "doi-ban-than",
+      "title": "Đôi bạn lông xám",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, công và quạ là đôi bạn thân, ngày nào cũng bay đi kiếm ăn cùng nhau. Hồi ấy, cả hai đều có bộ lông màu xám xịt, chẳng có gì đẹp cả. Nhìn các loài chim khác áo đỏ, áo vàng, công thở dài: Ước gì chúng mình cũng có bộ lông thật đẹp nhỉ! Quạ nghĩ một lúc rồi reo lên: Hay là mình vẽ lông cho nhau đi!",
+      "subtitles": [
+        "Ngày xưa, công và quạ là đôi bạn thân, ngày nào cũng bay đi kiếm ăn cùng nhau.",
+        "Hồi ấy, cả hai đều có bộ lông màu xám xịt, chẳng có gì đẹp cả.",
+        "Nhìn các loài chim khác áo đỏ, áo vàng, công thở dài:",
+        "Ước gì chúng mình cũng có bộ lông thật đẹp nhỉ!",
+        "Quạ nghĩ một lúc rồi reo lên: Hay là mình vẽ lông cho nhau đi!"
+      ],
+      "image": {
+        "prompt": "two cute grey birds, a peacock and a crow, sit together on a branch in a lush forest, watching colorful birds fly past, the crow has a bright idea",
+        "seed": 1129062367,
+        "character": "cong"
+      },
+      "video": {
+        "motionPrompt": "colorful birds flutter past, the two grey friends look at each other, the crow flaps its wings excitedly",
+        "seed": 4236489439
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-ve-cho-cong",
+      "title": "Quạ vẽ cho công",
+      "narrator": "ke-chuyen",
+      "narration": "Hai bạn tìm được mấy lọ màu và một chiếc bút lông. Quạ bảo: Tớ vẽ cho cậu trước nhé! Quạ vẽ thật tỉ mỉ. Từng chiếc lông trên cổ công được tô màu xanh biếc. Trên đuôi, quạ vẽ những vòng tròn xanh, tím, vàng óng, trông như những con mắt nhỏ. Quạ vẽ suốt cả ngày, không hề vội vàng.",
+      "subtitles": [
+        "Hai bạn tìm được mấy lọ màu và một chiếc bút lông. Quạ bảo: Tớ vẽ cho cậu trước nhé!",
+        "Quạ vẽ thật tỉ mỉ. Từng chiếc lông trên cổ công được tô màu xanh biếc.",
+        "Trên đuôi, quạ vẽ những vòng tròn xanh, tím, vàng óng, trông như những con mắt nhỏ.",
+        "Quạ vẽ suốt cả ngày, không hề vội vàng."
+      ],
+      "image": {
+        "prompt": "the grey crow carefully paints the peacock's feathers with a small brush, bowls of blue, green, purple and gold paint on a rock, half of the peacock's tail already shimmering with eye patterns",
+        "seed": 952688001,
+        "character": "qua"
+      },
+      "video": {
+        "motionPrompt": "the crow dabs paint slowly feather by feather, colors appear on the peacock's tail, sunlight moves across the forest",
+        "seed": 3445583145
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-soi-suoi",
+      "title": "Công soi mình bên suối",
+      "narrator": "ke-chuyen",
+      "narration": "Vẽ xong, công chạy ra bờ suối soi mình, sung sướng xòe đuôi ra. Cái đuôi rực rỡ như một chiếc quạt ngọc. Công cảm ơn quạ rối rít: Cảm ơn cậu! Bây giờ đến lượt tớ vẽ cho cậu nhé!",
+      "subtitles": [
+        "Vẽ xong, công chạy ra bờ suối soi mình, sung sướng xòe đuôi ra.",
+        "Cái đuôi rực rỡ như một chiếc quạt ngọc. Công cảm ơn quạ rối rít:",
+        "Cảm ơn cậu! Bây giờ đến lượt tớ vẽ cho cậu nhé!"
+      ],
+      "image": {
+        "prompt": "the peacock now with shimmering blue green and gold feathers looks at its reflection in a clear forest stream, its tail fanned out like a jeweled fan, the grey crow smiles proudly beside it",
+        "seed": 2933249796,
+        "character": "cong"
+      },
+      "video": {
+        "motionPrompt": "the peacock slowly spreads its tail, ripples on the stream sparkle, the crow hops happily",
+        "seed": 3491778828
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-nong-voi",
+      "title": "Quạ nóng vội",
+      "narrator": "ke-chuyen",
+      "narration": "Công cầm bút, bắt đầu vẽ thật cẩn thận từng chiếc lông cho quạ. Vừa vẽ được một chút, quạ bỗng thấy phía bên kia đồi có mồi ngon. Quạ sốt ruột, cứ nhấp nhổm mãi. Rồi quạ giục: Thôi cậu ơi, vẽ lâu quá! Cậu đổ cả lọ mực lên người tớ cho nhanh đi! Công can: Làm thế xấu lắm đấy! Nhưng quạ nhất định không nghe.",
+      "subtitles": [
+        "Công cầm bút, bắt đầu vẽ thật cẩn thận từng chiếc lông cho quạ.",
+        "Vừa vẽ được một chút, quạ bỗng thấy phía bên kia đồi có mồi ngon.",
+        "Quạ sốt ruột, cứ nhấp nhổm mãi. Rồi quạ giục:",
+        "Thôi cậu ơi, vẽ lâu quá! Cậu đổ cả lọ mực lên người tớ cho nhanh đi!",
+        "Công can: Làm thế xấu lắm đấy! Nhưng quạ nhất định không nghe."
+      ],
+      "image": {
+        "prompt": "the colorful peacock holds a brush and starts painting the grey crow, the crow fidgets and stares eagerly at food on a distant hill, a pot of black ink sits nearby",
+        "seed": 1244568363,
+        "character": "qua"
+      },
+      "video": {
+        "motionPrompt": "the crow hops from foot to foot impatiently and flaps its wings, the peacock shakes its head gently",
+        "seed": 2127170582
+      },
+      "voice": {}
+    },
+    {
+      "id": "lo-muc-den",
+      "title": "Lọ mực đen",
+      "narrator": "ke-chuyen",
+      "narration": "Công đành nhấc lọ mực lên, đổ ào xuống người quạ. Thế là quạ đen thui từ đầu đến chân, từ mỏ đến đuôi. Quạ vội vã bay sang bên kia đồi, nhưng mồi ngon đã bị các bạn khác ăn hết rồi. Quạ nhìn bộ lông đen sì của mình, tiếc lắm, kêu lên: Quạ! Quạ!",
+      "subtitles": [
+        "Công đành nhấc lọ mực lên, đổ ào xuống người quạ.",
+        "Thế là quạ đen thui từ đầu đến chân, từ mỏ đến đuôi.",
+        "Quạ vội vã bay sang bên kia đồi, nhưng mồi ngon đã bị các bạn khác ăn hết rồi.",
+        "Quạ nhìn bộ lông đen sì của mình, tiếc lắm, kêu lên: Quạ! Quạ!"
+      ],
+      "image": {
+        "prompt": "a cartoon crow covered in black ink flies over a hill with a surprised funny face, the colorful peacock watches from below holding an empty ink pot, playful and gentle",
+        "seed": 1389765552,
+        "character": "qua"
+      },
+      "video": {
+        "motionPrompt": "the black ink splashes softly over the crow, it shakes its feathers and flies off, then lands looking sad and funny",
+        "seed": 2907072631
+      },
+      "voice": {}
+    },
+    {
+      "id": "tu-do-ve-sau",
+      "title": "Từ đó về sau",
+      "narrator": "ke-chuyen",
+      "narration": "Từ đó, công có bộ lông đẹp nhất rừng, đi đâu cũng được khen. Còn quạ mang mãi bộ áo đen, đến tận bây giờ vẫn thế. Có người kể rằng, mỗi khi thấy công xòe đuôi, quạ lại nhớ đến cái tính nóng vội của mình.",
+      "subtitles": [
+        "Từ đó, công có bộ lông đẹp nhất rừng, đi đâu cũng được khen.",
+        "Còn quạ mang mãi bộ áo đen, đến tận bây giờ vẫn thế.",
+        "Có người kể rằng, mỗi khi thấy công xòe đuôi, quạ lại nhớ đến cái tính nóng vội của mình."
+      ],
+      "image": {
+        "prompt": "in a bright forest clearing the beautiful peacock fans its tail while other animals admire it, a small black crow sits on a branch above looking a little sheepish",
+        "seed": 4035851327,
+        "character": "cong"
+      },
+      "video": {
+        "motionPrompt": "animals gather around the peacock, the crow lowers its head shyly, leaves rustle in the breeze",
+        "seed": 3211832074
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, chỉ vì vội vàng mà quạ mất cả bộ lông đẹp. Làm việc gì cũng vậy, mình cần kiên nhẫn từng chút một thì mới có kết quả tốt. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, chỉ vì vội vàng mà quạ mất cả bộ lông đẹp.",
+        "Làm việc gì cũng vậy, mình cần kiên nhẫn từng chút một thì mới có kết quả tốt.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye in a sunny park, a friendly peacock fans its tail behind her and a small black crow perches on her shoulder",
+        "seed": 791097937,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the crow caws softly, the peacock's tail shimmers, gentle camera pull-back",
+        "seed": 1274737911
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful Vietnamese folk tune for children, bamboo flute and dan nguyet lute, light wooden percussion and birdsong-like flute trills, cheerful and gentle, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2902309344
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "slug": "ga-trong-goi-mat-troi",
+  "shelf": "kids",
+  "title": "Gà trống gọi Mặt Trời",
+  "summary": "Thuở xưa trời có quá nhiều ông Mặt Trời, rồi đến một ngày ông Mặt Trời cuối cùng sợ hãi trốn biệt. Trâu rống, hổ gầm đều không gọi được, chỉ có tiếng gáy trong trẻo của gà trống mới mời Mặt Trời trở lại. Vì sao gà trống có mào đỏ và gáy mỗi sáng? Bản kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "than-thoai",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian của người H'Mông (người Tày, Nùng cũng có dị bản), truyền miệng, không ai giữ quyền; số Mặt Trời và những con vật gọi trước gà khác nhau theo dị bản, bản này kể trâu và hổ. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "basedOn": "Truyện dân gian H'Mông, Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration of the northern highlands, soft gouache and watercolor textures, terraced rice fields and misty mountains, H'Mong indigo clothing with embroidered patterns, rounded friendly shapes, calm and safe mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3196779041
+    },
+    {
+      "id": "ga-trong",
+      "name": "Gà trống",
+      "sheetPrompt": "a brave friendly rooster from a Vietnamese highland folk tale, cute rounded cartoon bird, golden brown and orange feathers, glossy green tail, bright red comb on its head, standing proudly, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3647457155
+    },
+    {
+      "id": "chang-trai",
+      "name": "Chàng trai bắn nỏ",
+      "sheetPrompt": "a strong kind young H'Mong man from a Vietnamese highland folk tale, indigo jacket with embroidered collar, red sash, holding a wooden crossbow, determined friendly face, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2394376737
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Ò ó o! Xin chào các bạn nhỏ! Sáng nào Miu cũng bị chú gà trống nhà bên gáy đánh thức. Chú gáy xong thì ông Mặt Trời cũng vừa nhô lên đỏ rực. Các bạn có biết vì sao gà trống gáy là Mặt Trời mọc không? Hôm nay Miu kể cho các bạn nghe một chuyện xưa của người H'Mông trên núi cao nhé!",
+      "subtitles": [
+        "Ò ó o! Xin chào các bạn nhỏ! Sáng nào Miu cũng bị chú gà trống nhà bên gáy đánh thức.",
+        "Chú gáy xong thì ông Mặt Trời cũng vừa nhô lên đỏ rực.",
+        "Các bạn có biết vì sao gà trống gáy là Mặt Trời mọc không?",
+        "Hôm nay Miu kể cho các bạn nghe một chuyện xưa của người H'Mông trên núi cao nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat stretches sleepily on a wooden porch of a highland house at dawn, a rooster crows on the fence, the sun rises over misty mountains and terraced fields",
+        "seed": 2546748166,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the rooster lifts its head and crows, the cat yawns and stretches, the sun slowly rises, slow camera push-in",
+        "seed": 2742514860
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhieu-mat-troi",
+      "title": "Trời có nhiều Mặt Trời",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, trên trời không chỉ có một mà có rất nhiều ông Mặt Trời. Các ông thay nhau chiếu sáng, nên chẳng bao giờ có đêm. Nắng gắt quá, suối cạn khô, cây cối héo rũ, ruộng nứt nẻ. Người và muôn loài khát nước, mệt lả, chẳng biết trốn nắng vào đâu.",
+      "subtitles": [
+        "Ngày xưa, trên trời không chỉ có một mà có rất nhiều ông Mặt Trời.",
+        "Các ông thay nhau chiếu sáng, nên chẳng bao giờ có đêm.",
+        "Nắng gắt quá, suối cạn khô, cây cối héo rũ, ruộng nứt nẻ.",
+        "Người và muôn loài khát nước, mệt lả, chẳng biết trốn nắng vào đâu."
+      ],
+      "image": {
+        "prompt": "many glowing suns in a bright sky above dry cracked fields and wilted trees in the highlands, tired villagers and animals rest in the thin shade of a big rock",
+        "seed": 841560162
+      },
+      "video": {
+        "motionPrompt": "heat shimmers over the dry land, the many suns glow, a villager fans himself with a leaf",
+        "seed": 3820822942
+      },
+      "voice": {}
+    },
+    {
+      "id": "chang-trai-ban-no",
+      "title": "Chàng trai bắn nỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Trong bản có một chàng trai khỏe mạnh, bắn nỏ rất giỏi. Chàng trèo lên đỉnh núi cao nhất, giương nỏ bắn rơi từng ông Mặt Trời một. Khi chỉ còn lại một ông, ông Mặt Trời ấy sợ quá, vội vàng trốn ra sau dãy núi, không dám ló mặt ra nữa.",
+      "subtitles": [
+        "Trong bản có một chàng trai khỏe mạnh, bắn nỏ rất giỏi.",
+        "Chàng trèo lên đỉnh núi cao nhất, giương nỏ bắn rơi từng ông Mặt Trời một.",
+        "Khi chỉ còn lại một ông, ông Mặt Trời ấy sợ quá,",
+        "vội vàng trốn ra sau dãy núi, không dám ló mặt ra nữa."
+      ],
+      "image": {
+        "prompt": "the young H'Mong man stands on a high mountain peak aiming his wooden crossbow at the sky full of suns, a few suns tumble down like falling lights, the last sun hides behind the mountains",
+        "seed": 4262631635,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the young man pulls back his crossbow, a sun drops away like a shooting light, the last sun quickly slips behind the mountain",
+        "seed": 2886165126
+      },
+      "voice": {}
+    },
+    {
+      "id": "the-gian-toi-om",
+      "title": "Trời đất tối om",
+      "narrator": "ke-chuyen",
+      "narration": "Thế là trời đất tối om, lạnh lẽo. Cây không lớn, lúa không trổ bông. Mọi người không biết khi nào là sáng để ra nương, khi nào là tối để về nhà. Muôn loài bàn nhau: Phải mời ông Mặt Trời quay lại thôi! Nhưng ai gọi được đây?",
+      "subtitles": [
+        "Thế là trời đất tối om, lạnh lẽo. Cây không lớn, lúa không trổ bông.",
+        "Mọi người không biết khi nào là sáng để ra nương, khi nào là tối để về nhà.",
+        "Muôn loài bàn nhau: Phải mời ông Mặt Trời quay lại thôi! Nhưng ai gọi được đây?"
+      ],
+      "image": {
+        "prompt": "a dark cold highland village under a starless sky, villagers hold small torches and gather with a buffalo, a tiger and a rooster around a fire to talk, cozy not scary",
+        "seed": 3215484703
+      },
+      "video": {
+        "motionPrompt": "torches flicker, the animals and villagers lean in and talk, cold wind moves the grass",
+        "seed": 981025135
+      },
+      "voice": {}
+    },
+    {
+      "id": "trau-va-ho",
+      "title": "Trâu rống, hổ gầm",
+      "narrator": "ke-chuyen",
+      "narration": "Trâu xung phong trước. Trâu ngẩng cổ lên rống thật to: Nghé ọ! Nghé ọ! Mặt Trời nghe tiếng ồm ồm, tưởng có ai giận dữ, càng nấp kỹ hơn. Đến lượt hổ. Hổ gầm vang cả núi rừng. Mặt Trời càng sợ, chẳng dám ló ra.",
+      "subtitles": [
+        "Trâu xung phong trước. Trâu ngẩng cổ lên rống thật to: Nghé ọ! Nghé ọ!",
+        "Mặt Trời nghe tiếng ồm ồm, tưởng có ai giận dữ, càng nấp kỹ hơn.",
+        "Đến lượt hổ. Hổ gầm vang cả núi rừng. Mặt Trời càng sợ, chẳng dám ló ra."
+      ],
+      "image": {
+        "prompt": "in the dark a big water buffalo bellows toward the mountains, a friendly cartoon tiger roars beside it, behind the far mountain a shy sun peeks and hides",
+        "seed": 2392652501
+      },
+      "video": {
+        "motionPrompt": "the buffalo lifts its head and bellows, the tiger roars, the faint glow behind the mountain shrinks back",
+        "seed": 2999288386
+      },
+      "voice": {}
+    },
+    {
+      "id": "ga-trong-gay",
+      "title": "Gà trống cất tiếng gáy",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng, chú gà trống nhỏ bé bước lên đầu dốc. Gà vươn cổ, gáy thật trong, thật vui: Ò ó o! Ò ó o! Tiếng gáy dịu dàng như một lời mời. Mặt Trời nghe thấy hay hay, tò mò ló ra sau núi, thấy gà trống đang đứng chờ, liền từ từ nhô lên. Ánh sáng lại tràn khắp núi đồi, ai nấy reo mừng.",
+      "subtitles": [
+        "Cuối cùng, chú gà trống nhỏ bé bước lên đầu dốc.",
+        "Gà vươn cổ, gáy thật trong, thật vui: Ò ó o! Ò ó o!",
+        "Tiếng gáy dịu dàng như một lời mời. Mặt Trời nghe thấy hay hay,",
+        "tò mò ló ra sau núi, thấy gà trống đang đứng chờ, liền từ từ nhô lên.",
+        "Ánh sáng lại tràn khắp núi đồi, ai nấy reo mừng."
+      ],
+      "image": {
+        "prompt": "the rooster stands on top of a hill and crows joyfully, the sun peeks shyly over the mountains and begins to rise, golden light spreads over terraced fields and cheering villagers",
+        "seed": 4020156885,
+        "character": "ga-trong"
+      },
+      "video": {
+        "motionPrompt": "the rooster stretches its neck and crows, the sun rises slowly, warm light sweeps across the valley",
+        "seed": 783377524
+      },
+      "voice": {}
+    },
+    {
+      "id": "mao-do",
+      "title": "Chiếc mào đỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Mặt Trời vui lắm, tặng gà trống một chiếc mào đỏ thắm để cài lên đầu. Ông dặn: Sáng nào chú cũng gọi ta nhé, nghe tiếng chú là ta sẽ lên. Từ đó, mỗi sớm mai, gà trống đều gáy vang. Và Mặt Trời luôn giữ lời hẹn.",
+      "subtitles": [
+        "Mặt Trời vui lắm, tặng gà trống một chiếc mào đỏ thắm để cài lên đầu.",
+        "Ông dặn: Sáng nào chú cũng gọi ta nhé, nghe tiếng chú là ta sẽ lên.",
+        "Từ đó, mỗi sớm mai, gà trống đều gáy vang. Và Mặt Trời luôn giữ lời hẹn."
+      ],
+      "image": {
+        "prompt": "a smiling gentle sun gives a bright red comb to the happy rooster on a hilltop at sunrise, villagers walk out to the terraced fields with baskets",
+        "seed": 172749342,
+        "character": "ga-trong"
+      },
+      "video": {
+        "motionPrompt": "a soft glow places the red comb on the rooster's head, the rooster bows, villagers wave and walk to the fields",
+        "seed": 1178429723
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thì ra không phải cứ to tiếng là gọi được người khác đâu các bạn ạ. Lời nói dịu dàng, vui vẻ như tiếng gà trống mới khiến người ta muốn lắng nghe. Sáng mai nghe gà gáy, các bạn nhớ dậy chào ông Mặt Trời nhé! Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Thì ra không phải cứ to tiếng là gọi được người khác đâu các bạn ạ.",
+        "Lời nói dịu dàng, vui vẻ như tiếng gà trống mới khiến người ta muốn lắng nghe.",
+        "Sáng mai nghe gà gáy, các bạn nhớ dậy chào ông Mặt Trời nhé! Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye beside a proud rooster with a red comb on a fence, sunrise over misty highland mountains and terraced fields",
+        "seed": 2602636514,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the rooster flaps its wings, sunlight grows brighter, gentle camera pull-back",
+        "seed": 2215001470
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Vietnamese highland folk tune for children, H'Mong khen bamboo mouth organ and leaf whistle, soft bamboo flute, light percussion, bright morning feeling, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3918395495
+  }
+}

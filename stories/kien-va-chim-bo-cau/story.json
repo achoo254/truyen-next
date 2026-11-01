@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "slug": "kien-va-chim-bo-cau",
+  "shelf": "world",
+  "title": "Kiến và chim bồ câu",
+  "summary": "Chim bồ câu thả chiếc lá cứu chú kiến khỏi dòng suối, rồi một ngày chú kiến bé xíu đã đền ơn bằng cả lòng dũng cảm. Ngụ ngôn Aesop ấm áp về lòng tốt và biết ơn.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive small woodland creatures, a clear brook running through a sunny summer forest with mossy stones and wildflowers, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "kien",
+      "name": "Chú kiến",
+      "seed": 599155155,
+      "sheetPrompt": "a tiny friendly brown ant with big shiny eyes and little antennae, standing on its back legs and waving, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bo-cau",
+      "name": "Chim bồ câu",
+      "seed": 3346129031,
+      "sheetPrompt": "a gentle white dove with soft grey wingtips, kind dark eyes and a small pink beak, perched calmly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-bay-chim",
+      "name": "Người bẫy chim",
+      "seed": 2712922205,
+      "sheetPrompt": "a lanky young bird-catcher in a brown peasant tunic and floppy hat, carrying a rolled-up net, comical sneaky expression, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "rot-xuong-suoi",
+      "title": "Rơi xuống suối",
+      "narrator": "ke-chuyen",
+      "narration": "Một buổi trưa hè nắng gắt, chú kiến nhỏ bò ra bờ suối tìm nước uống. Dòng suối trong veo, mát lạnh, chảy róc rách qua những hòn đá. Chú kiến rướn người ra mép đá để uống cho đã khát. Bỗng một làn sóng nhỏ ập tới, cuốn phăng chú xuống dòng nước. Chú kiến vùng vẫy, kêu lên: “Cứu tôi với! Ai cứu tôi với!” Nhưng tiếng kêu của chú bé quá, mà nước lại chảy xiết.",
+      "subtitles": [
+        "Một buổi trưa hè nắng gắt, chú kiến nhỏ bò ra bờ suối tìm nước uống.",
+        "Dòng suối trong veo, mát lạnh, chảy róc rách qua những hòn đá.",
+        "Chú kiến rướn người ra mép đá để uống cho đã khát.",
+        "Bỗng một làn sóng nhỏ ập tới, cuốn phăng chú xuống dòng nước.",
+        "Chú kiến vùng vẫy, kêu lên: “Cứu tôi với! Ai cứu tôi với!”",
+        "Nhưng tiếng kêu của chú bé quá, mà nước lại chảy xiết."
+      ],
+      "image": {
+        "character": "kien",
+        "prompt": "a tiny ant swept into a sparkling forest brook, paddling its little legs among ripples, a white dove on a branch above",
+        "seed": 894302986
+      },
+      "video": {
+        "motionPrompt": "the brook water swirls and sparkles, the tiny ant paddles in the current, leaves drift by",
+        "seed": 1626483029
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-la",
+      "title": "Chiếc lá cứu mạng",
+      "narrator": "ke-chuyen",
+      "narration": "Trên cành cây bên bờ suối, chim bồ câu trắng đang rỉa lông. Nghe tiếng kêu khe khẽ, bồ câu nghiêng đầu nhìn xuống và thấy chú kiến sắp bị nước cuốn đi. Không chần chừ, bồ câu mổ một chiếc lá to rồi thả xuống ngay cạnh chú kiến. Chú kiến bám lấy chiếc lá, leo lên ngồi, cứ thế trôi dần vào bờ. Lên được bờ, chú kiến rũ nước, ngước nhìn cành cây: “Cảm ơn bạn bồ câu! Tôi sẽ không bao giờ quên ơn bạn.”",
+      "subtitles": [
+        "Trên cành cây bên bờ suối, chim bồ câu trắng đang rỉa lông.",
+        "Nghe tiếng kêu khe khẽ, bồ câu nghiêng đầu nhìn xuống và thấy chú kiến sắp bị nước cuốn",
+        "đi. Không chần chừ, bồ câu mổ một chiếc lá to rồi thả xuống ngay cạnh chú kiến.",
+        "Chú kiến bám lấy chiếc lá, leo lên ngồi, cứ thế trôi dần vào bờ.",
+        "Lên được bờ, chú kiến rũ nước, ngước nhìn cành cây: “Cảm ơn bạn bồ câu!",
+        "Tôi sẽ không bao giờ quên ơn bạn.”"
+      ],
+      "image": {
+        "character": "bo-cau",
+        "prompt": "a white dove drops a big green leaf from its beak onto the brook beside a tiny ant, the ant climbing onto the leaf like a little boat",
+        "seed": 464432780
+      },
+      "video": {
+        "motionPrompt": "the leaf flutters down and lands on the water, the ant climbs aboard, the leaf floats gently toward the bank",
+        "seed": 148272337
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-bay-chim",
+      "title": "Người bẫy chim",
+      "narrator": "ke-chuyen",
+      "narration": "Bồ câu mỉm cười, nghĩ thầm: “Một chú kiến bé xíu thì giúp gì được mình nhỉ?” Vài hôm sau, có một người bẫy chim đi vào khu rừng. Anh ta mang theo một tấm lưới lớn, rón rén bước tới gốc cây nơi bồ câu đang ngủ trưa. Anh ta giương lưới lên, chỉ chờ chụp xuống là bắt được chim. Bồ câu vẫn say ngủ, chẳng hay biết gì cả.",
+      "subtitles": [
+        "Bồ câu mỉm cười, nghĩ thầm: “Một chú kiến bé xíu thì giúp gì được mình nhỉ?”",
+        "Vài hôm sau, có một người bẫy chim đi vào khu rừng.",
+        "Anh ta mang theo một tấm lưới lớn, rón rén bước tới gốc cây nơi bồ câu đang ngủ trưa.",
+        "Anh ta giương lưới lên, chỉ chờ chụp xuống là bắt được chim.",
+        "Bồ câu vẫn say ngủ, chẳng hay biết gì cả."
+      ],
+      "image": {
+        "character": "nguoi-bay-chim",
+        "prompt": "a sneaky bird-catcher tiptoes under a tree holding up a wide net toward a white dove dozing on a low branch, sunbeams through the leaves",
+        "seed": 3185755032
+      },
+      "video": {
+        "motionPrompt": "the bird-catcher creeps forward on tiptoe and slowly raises the net, the dove sleeps, leaves rustle softly",
+        "seed": 1960209521
+      },
+      "voice": {}
+    },
+    {
+      "id": "kien-cuu-ban",
+      "title": "Kiến cứu bạn",
+      "narrator": "ke-chuyen",
+      "narration": "Chú kiến đang tha mồi gần đó thì trông thấy tất cả. “Không được! Bạn ấy đã cứu mình!” Chú kiến chạy thật nhanh tới chân người bẫy chim, leo lên rồi cắn một phát thật mạnh vào gót chân anh ta. “Ui da!” Người bẫy chim giật nảy mình, tay run lên làm tấm lưới rơi xuống đất. Tiếng kêu đánh thức bồ câu. Chim vỗ cánh phành phạch, bay vút lên trời cao.",
+      "subtitles": [
+        "Chú kiến đang tha mồi gần đó thì trông thấy tất cả. “Không được! Bạn ấy đã cứu mình!”",
+        "Chú kiến chạy thật nhanh tới chân người bẫy chim, leo lên rồi cắn một phát thật mạnh vào",
+        "gót chân anh ta. “Ui da!”",
+        "Người bẫy chim giật nảy mình, tay run lên làm tấm lưới rơi xuống đất.",
+        "Tiếng kêu đánh thức bồ câu. Chim vỗ cánh phành phạch, bay vút lên trời cao."
+      ],
+      "image": {
+        "character": "kien",
+        "prompt": "a tiny brave ant nips the heel of a startled bird-catcher who hops on one foot, his net tumbling to the grass while the white dove flies up into the sky",
+        "seed": 2297050779
+      },
+      "video": {
+        "motionPrompt": "the man hops comically, the net falls, the dove flaps its wings and soars up through the branches",
+        "seed": 447439223
+      },
+      "voice": {}
+    },
+    {
+      "id": "doi-ban-than",
+      "title": "Đôi bạn thân",
+      "narrator": "ke-chuyen",
+      "narration": "Người bẫy chim xoa chân, lắc đầu, đành cuộn lưới đi về tay không. Chiều hôm ấy, bồ câu sà xuống bên tổ kiến: “Cảm ơn bạn kiến! Hôm nay bạn đã cứu tôi.” Chú kiến cười: “Bạn giúp tôi trước mà.” Từ đó, hai người bạn một lớn một bé luôn để mắt tới nhau. Các bạn nhỏ ạ, làm việc tốt thì chẳng bao giờ phí, và người nhỏ bé nhất cũng có thể giúp được người khác.",
+      "subtitles": [
+        "Người bẫy chim xoa chân, lắc đầu, đành cuộn lưới đi về tay không.",
+        "Chiều hôm ấy, bồ câu sà xuống bên tổ kiến: “Cảm ơn bạn kiến! Hôm nay bạn đã cứu tôi.”",
+        "Chú kiến cười: “Bạn giúp tôi trước mà.”",
+        "Từ đó, hai người bạn một lớn một bé luôn để mắt tới nhau.",
+        "Các bạn nhỏ ạ, làm việc tốt thì chẳng bao giờ phí, và người nhỏ bé nhất cũng có thể giúp",
+        "được người khác."
+      ],
+      "image": {
+        "character": "bo-cau",
+        "prompt": "at golden sunset a white dove sits beside a tiny ant on a mossy stone by the brook, the two friends smiling at each other",
+        "seed": 4294603435
+      },
+      "video": {
+        "motionPrompt": "the dove bows its head, the ant waves its antennae, golden light shimmers on the brook",
+        "seed": 2892823374
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle pastoral classical storybook music, flute and harp with light pizzicato strings, a short playful chase in the middle then a warm tender ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3605929353
+  }
+}

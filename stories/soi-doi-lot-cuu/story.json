@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "slug": "soi-doi-lot-cuu",
+  "shelf": "world",
+  "title": "Sói đội lốt cừu",
+  "summary": "Con sói khoác bộ lông cừu trà trộn vào đàn, tưởng sắp có bữa no, nào ngờ tự mình để lộ mặt thật. Ngụ ngôn Aesop về kẻ giả hiền và bài học đừng chỉ nhìn bề ngoài.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive farm animals and woodland creatures, rolling green hills with a flock of sheep, a wooden sheepfold and the edge of a dark forest, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "soi",
+      "name": "Con sói",
+      "seed": 648569082,
+      "sheetPrompt": "a scrawny grey wolf with a long snout, pointy ears and a sly comical grin, more silly than scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chang-chan-cuu",
+      "name": "Chàng chăn cừu",
+      "seed": 3870111500,
+      "sheetPrompt": "a young shepherd in a wool cloak and straw hat holding a wooden crook, with a big loyal shaggy sheepdog, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cuu-con",
+      "name": "Cừu con",
+      "seed": 3905300245,
+      "sheetPrompt": "a fluffy little white lamb with a black face, curious round eyes and a tiny bell around its neck, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "soi-doi",
+      "title": "Con sói đói meo",
+      "narrator": "ke-chuyen",
+      "narration": "Ở một vùng đồi cỏ xanh, có một con sói lúc nào cũng đói meo. Nó thèm đàn cừu trắng của chàng chăn cừu lắm, nhưng chàng trai canh giữ rất cẩn thận, lại có con chó lớn đi theo. Hễ sói lấp ló bìa rừng là chó sủa vang, đàn cừu chạy tụm lại bên chủ. Sói ngồi rình mãi, bụng sôi ùng ục, mà chẳng làm gì được.",
+      "subtitles": [
+        "Ở một vùng đồi cỏ xanh, có một con sói lúc nào cũng đói meo.",
+        "Nó thèm đàn cừu trắng của chàng chăn cừu lắm, nhưng chàng trai canh giữ rất cẩn thận, lại",
+        "có con chó lớn đi theo.",
+        "Hễ sói lấp ló bìa rừng là chó sủa vang, đàn cừu chạy tụm lại bên chủ.",
+        "Sói ngồi rình mãi, bụng sôi ùng ục, mà chẳng làm gì được."
+      ],
+      "image": {
+        "character": "soi",
+        "prompt": "a scrawny grey wolf peeking hungrily from the forest edge at a flock of white sheep on green hills, a shepherd and his big sheepdog watching over them",
+        "seed": 3598417203
+      },
+      "video": {
+        "motionPrompt": "the wolf's ears twitch, the sheepdog barks, the sheep bunch together beside the shepherd, grass ripples",
+        "seed": 2657339869
+      },
+      "voice": {}
+    },
+    {
+      "id": "bo-long",
+      "title": "Bộ lông cừu",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, sói nhặt được một bộ lông cừu mà người ta xén xong bỏ quên bên bờ suối. Mắt nó sáng lên: “Hay quá! Mình sẽ khoác bộ lông này vào, trà trộn vào đàn cừu. Chẳng ai nhận ra mình đâu!” Sói chui vào bộ lông, kéo trùm qua đầu, chỉ chừa ra đôi mắt. Nó tập đi lũn cũn, tập kêu “be be” cho giống, rồi tự khen mình thật là khôn.",
+      "subtitles": [
+        "Một hôm, sói nhặt được một bộ lông cừu mà người ta xén xong bỏ quên bên bờ suối.",
+        "Mắt nó sáng lên: “Hay quá! Mình sẽ khoác bộ lông này vào, trà trộn vào đàn cừu.",
+        "Chẳng ai nhận ra mình đâu!” Sói chui vào bộ lông, kéo trùm qua đầu, chỉ chừa ra đôi mắt.",
+        "Nó tập đi lũn cũn, tập kêu “be be” cho giống, rồi tự khen mình thật là khôn."
+      ],
+      "image": {
+        "character": "soi",
+        "prompt": "a sly grey wolf pulling a fluffy white sheep fleece over its head by a stream, only its eyes peeking out, practising a silly sheep walk",
+        "seed": 248129495
+      },
+      "video": {
+        "motionPrompt": "the wolf wriggles into the fleece, tries a wobbly sheep walk and bleats, the stream babbles",
+        "seed": 3132920210
+      },
+      "voice": {}
+    },
+    {
+      "id": "tron-vao-dan",
+      "title": "Trà trộn vào đàn",
+      "narrator": "ke-chuyen",
+      "narration": "Chiều hôm ấy, khi đàn cừu gặm cỏ bên sườn đồi, sói lẳng lặng bước vào giữa đàn. Mấy chú cừu con ngửi ngửi, thấy lạ nhưng cũng chẳng nghĩ gì. Chàng chăn cừu đếm đàn, thấy dư một con thì gãi đầu, cho là mình đếm nhầm. Tối đến, chàng lùa cả đàn vào chuồng, đóng cửa lại. Sói khoái chí lắm, nghĩ thầm: “Đêm nay mình sẽ được một bữa no nê.”",
+      "subtitles": [
+        "Chiều hôm ấy, khi đàn cừu gặm cỏ bên sườn đồi, sói lẳng lặng bước vào giữa đàn.",
+        "Mấy chú cừu con ngửi ngửi, thấy lạ nhưng cũng chẳng nghĩ gì.",
+        "Chàng chăn cừu đếm đàn, thấy dư một con thì gãi đầu, cho là mình đếm nhầm.",
+        "Tối đến, chàng lùa cả đàn vào chuồng, đóng cửa lại.",
+        "Sói khoái chí lắm, nghĩ thầm: “Đêm nay mình sẽ được một bữa no nê.”"
+      ],
+      "image": {
+        "character": "cuu-con",
+        "prompt": "a flock of sheep entering a wooden sheepfold at dusk, one odd lumpy sheep with a grey tail and pointy snout among them, a curious lamb sniffing it, the shepherd scratching his head",
+        "seed": 616298459
+      },
+      "video": {
+        "motionPrompt": "the sheep shuffle into the fold, the lamb sniffs the odd sheep, the shepherd scratches his head and closes the gate",
+        "seed": 2059614600
+      },
+      "voice": {}
+    },
+    {
+      "id": "lo-mat",
+      "title": "Lộ mặt thật",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng nằm trong chuồng ấm, giữa tiếng thở đều đều của đàn cừu, sói đói quá hoá sốt ruột. Nó cựa quậy, chiếc đuôi xám dài thò ra ngoài bộ lông. Rồi nó quên mất mình đang đóng giả, ngửa cổ tru lên một tiếng thật to. Đàn cừu hoảng hốt kêu ầm ĩ. Con chó lớn sủa vang, chàng chăn cừu cầm đèn chạy tới, soi thấy ngay cái mõm nhọn và đôi tai dựng đứng.",
+      "subtitles": [
+        "Nhưng nằm trong chuồng ấm, giữa tiếng thở đều đều của đàn cừu, sói đói quá hoá sốt ruột.",
+        "Nó cựa quậy, chiếc đuôi xám dài thò ra ngoài bộ lông.",
+        "Rồi nó quên mất mình đang đóng giả, ngửa cổ tru lên một tiếng thật to.",
+        "Đàn cừu hoảng hốt kêu ầm ĩ.",
+        "Con chó lớn sủa vang, chàng chăn cừu cầm đèn chạy tới, soi thấy ngay cái mõm nhọn và đôi",
+        "tai dựng đứng."
+      ],
+      "image": {
+        "character": "chang-chan-cuu",
+        "prompt": "inside a moonlit sheepfold the disguised wolf howls with its grey tail and pointy ears poking out of the fleece, sheep scattering, the shepherd arriving with a lantern and the sheepdog",
+        "seed": 171178029
+      },
+      "video": {
+        "motionPrompt": "the wolf throws back its head and howls, sheep scatter, lantern light swings across the fold, the sheepdog bounds in",
+        "seed": 3887632542
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-duoi",
+      "title": "Bị đuổi đi",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng trai vung gậy, con chó lao tới, sói sợ cuống cuồng, quẳng bộ lông cừu lại, phóng qua hàng rào chạy mất vào rừng. Nó không bao giờ dám quay lại đồi cỏ ấy nữa. Đàn cừu lại được ngủ yên. Các bạn nhỏ ạ, kẻ xấu có thể khoác bộ áo hiền lành, nhưng sớm muộn gì cũng lộ mặt thật. Đừng chỉ nhìn bề ngoài mà vội tin.",
+      "subtitles": [
+        "Chàng trai vung gậy, con chó lao tới, sói sợ cuống cuồng, quẳng bộ lông cừu lại, phóng qua",
+        "hàng rào chạy mất vào rừng. Nó không bao giờ dám quay lại đồi cỏ ấy nữa.",
+        "Đàn cừu lại được ngủ yên.",
+        "Các bạn nhỏ ạ, kẻ xấu có thể khoác bộ áo hiền lành, nhưng sớm muộn gì cũng lộ mặt thật.",
+        "Đừng chỉ nhìn bề ngoài mà vội tin."
+      ],
+      "image": {
+        "character": "soi",
+        "prompt": "a grey wolf leaping over a wooden fence and fleeing into the dark forest, an empty sheep fleece left on the grass, the shepherd and his dog standing guard, sheep sleeping peacefully under the moon",
+        "seed": 2026955163
+      },
+      "video": {
+        "motionPrompt": "the wolf bounds away into the trees, the fleece flutters to the ground, the dog wags its tail, the moon glows over sleeping sheep",
+        "seed": 832185921
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "sneaky playful classical storybook music, pizzicato strings and bassoon tiptoeing, a soft pastoral flute for the sheep, a brief comic howl-like horn then a calm moonlit ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 169273222
+  }
+}

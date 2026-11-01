@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "slug": "ly-tuong-quan",
+  "shelf": "adults",
+  "title": "Chuyện Lý tướng quân",
+  "summary": "Lý Hữu Chi từ người cày ruộng thành tướng quân thời Hậu Trần, rồi cậy quyền mà tham tàn, cướp ruộng, hành hạ dân lành, bỏ ngoài tai lời thầy tướng, lời mẹ, lời con. Khi ông chết yên ổn trong nhà, người đời than trời không có mắt, cho đến khi con trai ông tận mắt chứng kiến phiên xử nơi âm phủ: truyện truyền kỳ về lưới trời thưa mà khó lọt.",
+  "themes": [
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Lý tướng quân truyện, truyện thứ mười bảy trong Truyền kỳ mạn lục của Nguyễn Dữ (thế kỷ XVI), sách cổ thuộc phạm vi công cộng. Lời kể viết mới, chỉ theo cốt truyện của nguyên tác; không chép bản dịch nào.",
+  "basedOn": "Truyền kỳ mạn lục, Chuyện Lý tướng quân",
+  "style": "classical Vietnamese ink and silk painting illustration, bold brush linework, washes of charcoal, deep red, smoky ochre and dark teal on aged silk, early fifteenth century Vietnam in wartime with fortified manors, rice fields and an underworld palace of judgment, dark moral fable mood for adult readers, punishments shown symbolically with fire and shadow, never graphic, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "ly-huu-chi",
+      "name": "Lý Hữu Chi",
+      "sheetPrompt": "Ly Huu Chi, a brutal Vietnamese general of the late Tran resistance in his late thirties, massive muscular build, coarse heavy-jawed face with a bristling black beard and fierce arrogant eyes, a lacquered dark red armor over a black robe, a heavy halberd in hand, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 3109416413
+    },
+    {
+      "id": "thuc-khoan",
+      "name": "Lý Thúc Khoản",
+      "sheetPrompt": "Ly Thuc Khoan, the gentle young son of a general, slender build, kind worried face with a faint mustache, hair in a topknot under a simple black cloth cap, a plain grey-blue scholar robe, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 233731118
+    },
+    {
+      "id": "thay-tuong",
+      "name": "Ông thầy tướng",
+      "sheetPrompt": "a wandering Vietnamese fortune teller and physiognomist, thin elderly man with piercing calm eyes and a wispy white beard, a faded indigo robe and a conical straw hat on his back, holding a string of luminous small pearls, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 4060952715
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tu-nguoi-cay-ruong",
+      "title": "Từ người cày ruộng",
+      "narrator": "ke-chuyen",
+      "narration": "Khi vua Giản Định nhà Hậu Trần lên ngôi ở Mô Độ, hào kiệt bốn phương nô nức chiêu mộ quân lính, kéo về phò vua đánh giặc Minh. Ở huyện Đông Thành có Lý Hữu Chi, vốn chỉ là một người cày ruộng, tính hung dữ nhưng sức khỏe hơn người, đánh trận rất giỏi. Quốc công Đặng Tất tiến cử, Hữu Chi được phong làm tướng quân, cầm một cánh quân hương binh đi đánh giặc. Thuở ấy, dân trong vùng còn mừng rằng có một người áo vải ra cầm quân, hẳn sẽ hiểu nỗi khổ của người cày cấy. Nào ngờ, quyền vị càng cao, lòng người ấy lại càng đổi khác.",
+      "subtitles": [
+        "Khi vua Giản Định nhà Hậu Trần lên ngôi ở Mô Độ,",
+        "hào kiệt bốn phương nô nức chiêu mộ quân lính, kéo về phò vua đánh giặc Minh.",
+        "Ở huyện Đông Thành có Lý Hữu Chi, vốn chỉ là một người cày ruộng,",
+        "tính hung dữ nhưng sức khỏe hơn người, đánh trận rất giỏi.",
+        "Quốc công Đặng Tất tiến cử, Hữu Chi được phong làm tướng quân,",
+        "cầm một cánh quân hương binh đi đánh giặc.",
+        "Thuở ấy, dân trong vùng còn mừng rằng có một người áo vải ra cầm quân,",
+        "hẳn sẽ hiểu nỗi khổ của người cày cấy.",
+        "Nào ngờ, quyền vị càng cao, lòng người ấy lại càng đổi khác."
+      ],
+      "image": {
+        "prompt": "a burly peasant-born warrior in rough clothes kneeling before a dignified duke who hands him a general's commander tablet, a ragtag peasant militia with banners gathered in a field behind them, war smoke on the horizon",
+        "seed": 282201555,
+        "character": "ly-huu-chi"
+      },
+      "video": {
+        "motionPrompt": "the duke places the tablet into the warrior's hands, banners lift in the wind, the militia raise their spears with a cheer, smoke drifts across the horizon",
+        "seed": 3790976377
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-quyen-lam-bay",
+      "title": "Cậy quyền làm bậy",
+      "narrator": "ke-chuyen",
+      "narration": "Lên làm tướng, Hữu Chi bắt đầu làm những điều trái phép. Hắn tin dùng bọn trộm cướp như ruột thịt, lại coi kẻ có học như kẻ thù. Hắn mê gái đẹp, ham tiền của, tham không biết chán. Hắn tậu ruộng, dựng nhà, đào cả đồng lúa làm ao, đuổi hàng xóm đi cho rộng đất, lại sai người sang huyện khác khuân hoa lạ đá quý về trang trí vườn. Dân trong vùng bị bắt phục dịch quanh năm, anh nghỉ thì em đi, chồng về thì vợ thế, ai nấy vai sưng tay rách. Vậy mà hắn vẫn điềm nhiên ngồi uống rượu, chẳng mảy may động lòng.",
+      "subtitles": [
+        "Lên làm tướng, Hữu Chi bắt đầu làm những điều trái phép.",
+        "Hắn tin dùng bọn trộm cướp như ruột thịt, lại coi kẻ có học như kẻ thù.",
+        "Hắn mê gái đẹp, ham tiền của, tham không biết chán.",
+        "Hắn tậu ruộng, dựng nhà, đào cả đồng lúa làm ao, đuổi hàng xóm đi cho rộng đất,",
+        "lại sai người sang huyện khác khuân hoa lạ đá quý về trang trí vườn.",
+        "Dân trong vùng bị bắt phục dịch quanh năm, anh nghỉ thì em đi, chồng về thì vợ thế,",
+        "ai nấy vai sưng tay rách.",
+        "Vậy mà hắn vẫn điềm nhiên ngồi uống rượu, chẳng mảy may động lòng."
+      ],
+      "image": {
+        "prompt": "exhausted villagers with swollen shoulders hauling huge ornamental rocks and digging a pond in a ruined rice field under the eyes of armed retainers, the arrogant general lounging on a pavilion with wine and concubines behind them, a grand new manor rising",
+        "seed": 3612792249,
+        "character": "ly-huu-chi"
+      },
+      "video": {
+        "motionPrompt": "villagers strain under ropes dragging a great rock, a retainer cracks a whip in the air, the general raises his wine cup lazily, dust rises over the dug-up field",
+        "seed": 1503985768
+      },
+      "voice": {}
+    },
+    {
+      "id": "chum-hat-chau",
+      "title": "Chùm hạt châu của thầy tướng",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm có ông thầy tướng đến cửa xin ăn, nói được chuyện họa phúc. Hữu Chi bảo xem tướng cho mình. Ông thầy nói: “Thuốc đắng mới dã tật. Ngài cho phép thì tôi nói thật.” “Cứ nói.” “Thiện ác chứa lâu ắt rõ. Tướng mặt không bằng tướng lòng. Tướng quân dữ mà không lành, khinh người trọng của, mượn quyền làm bạo, trái lòng trời ắt bị trời phạt.” Hữu Chi cười lớn: “Ta có quân, có thành, tay không rời giáo mác, sức đuổi kịp gió chớp. Trời có giỏi cũng phải tránh ta.” Ông thầy bèn lấy trong tay áo ra một chùm hạt châu nhỏ. Hữu Chi nhìn vào, thấy lò lửa, vạc dầu sôi, quỷ sứ cầm thừng cầm dao, còn chính mình thì đeo gông, bò lổm ngổm bên vạc, run rẩy sợ hãi.",
+      "subtitles": [
+        "Một hôm có ông thầy tướng đến cửa xin ăn, nói được chuyện họa phúc.",
+        "Hữu Chi bảo xem tướng cho mình.",
+        "Ông thầy nói: “Thuốc đắng mới dã tật.",
+        "Ngài cho phép thì tôi nói thật.”",
+        "“Cứ nói.”",
+        "“Thiện ác chứa lâu ắt rõ.",
+        "Tướng mặt không bằng tướng lòng.",
+        "Tướng quân dữ mà không lành, khinh người trọng của, mượn quyền làm bạo,",
+        "trái lòng trời ắt bị trời phạt.”",
+        "Hữu Chi cười lớn: “Ta có quân, có thành, tay không rời giáo mác, sức đuổi kịp gió chớp.",
+        "Trời có giỏi cũng phải tránh ta.”",
+        "Ông thầy bèn lấy trong tay áo ra một chùm hạt châu nhỏ.",
+        "Hữu Chi nhìn vào, thấy lò lửa, vạc dầu sôi, quỷ sứ cầm thừng cầm dao,",
+        "còn chính mình thì đeo gông, bò lổm ngổm bên vạc, run rẩy sợ hãi."
+      ],
+      "image": {
+        "prompt": "in a lavish hall, a thin old fortune teller in indigo holding up a string of small glowing pearls, inside the glowing pearls a tiny dark vision of fire, a boiling cauldron and shadowy demon guards, the huge general leaning in with a mocking grin turning to shock",
+        "seed": 747327959,
+        "character": "thay-tuong"
+      },
+      "video": {
+        "motionPrompt": "the pearls glow brighter, the tiny vision of fire flickers inside them, the general's mocking grin freezes, the old man watches calmly",
+        "seed": 2753414711
+      },
+      "voice": {}
+    },
+    {
+      "id": "khong-chiu-quay-dau",
+      "title": "Không chịu quay đầu",
+      "narrator": "ke-chuyen",
+      "narration": "Hữu Chi hỏi có cách gì cứu gỡ. Ông thầy bảo: “Gốc ác đã sâu, mầm họa sắp nảy. Chỉ còn cách đuổi hết thê thiếp, phá bỏ vườn ao, trả lại binh quyền, quay về làm lành. Tội tuy chưa khỏi, cũng giảm được phần nào.” Hữu Chi ngẫm nghĩ hồi lâu, rồi lắc đầu: “Thôi thầy ạ. Có ai vì lo cái họa chưa chắc đã đến mà vứt bỏ cơ nghiệp gây dựng mấy năm trời.” Từ đó hắn càng làm càn, giết người không kiêng nể. Mẹ hắn giận mà mắng: “Ai cũng ham sống sợ chết, sao mày cứ giết chóc như thế? Không ngờ về già ta phải thấy con mình mang tội.” Con trai hắn là Thúc Khoản cũng nhiều lần can, nhưng hắn vẫn chứng nào tật ấy.",
+      "subtitles": [
+        "Hữu Chi hỏi có cách gì cứu gỡ.",
+        "Ông thầy bảo: “Gốc ác đã sâu, mầm họa sắp nảy.",
+        "Chỉ còn cách đuổi hết thê thiếp, phá bỏ vườn ao, trả lại binh quyền, quay về làm lành.",
+        "Tội tuy chưa khỏi, cũng giảm được phần nào.”",
+        "Hữu Chi ngẫm nghĩ hồi lâu, rồi lắc đầu: “Thôi thầy ạ.",
+        "Có ai vì lo cái họa chưa chắc đã đến mà vứt bỏ cơ nghiệp gây dựng mấy năm trời.”",
+        "Từ đó hắn càng làm càn, giết người không kiêng nể.",
+        "Mẹ hắn giận mà mắng: “Ai cũng ham sống sợ chết, sao mày cứ giết chóc như thế?",
+        "Không ngờ về già ta phải thấy con mình mang tội.”",
+        "Con trai hắn là Thúc Khoản cũng nhiều lần can, nhưng hắn vẫn chứng nào tật ấy."
+      ],
+      "image": {
+        "prompt": "the general turning his back dismissively on the old fortune teller who walks away down the steps, the general's aged mother in brown standing in a doorway scolding him with tears, his young son in grey-blue kneeling and pleading",
+        "seed": 157237298,
+        "character": "ly-huu-chi"
+      },
+      "video": {
+        "motionPrompt": "the fortune teller fades out through the gate, the mother points angrily with a trembling hand, the son bows his head to the floor, the general waves them all away",
+        "seed": 2047285048
+      },
+      "voice": {}
+    },
+    {
+      "id": "chet-yen-trong-nha",
+      "title": "Chết yên trong nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Năm bốn mươi tuổi, Lý Hữu Chi chết yên lành trong nhà, không bệnh tật dày vò, không gươm giáo động đến. Ngoài đường người ta xì xào: “Người làm lành thì chết vì gươm giáo, kẻ làm ác lại được chết trên giường. Đạo trời để đâu?” Trước đó, trong châu có một người tên Nguyễn Quỳ, khảng khái, trọng khí tiết, vốn là bạn thân của Thúc Khoản, đã mất được ba năm. Một buổi sớm, Thúc Khoản đi dạo thì gặp Nguyễn Quỳ giữa đường. Người bạn đã khuất nói: “Cha anh sắp bị đem ra tra xét. Tôi thân với anh nên báo trước. Tối mai tôi cho người đến đón, anh sẽ được xem. Nhưng xem rồi phải giữ kín, hở ra một lời là họa lây sang tôi.” Nói xong, Nguyễn Quỳ biến mất.",
+      "subtitles": [
+        "Năm bốn mươi tuổi, Lý Hữu Chi chết yên lành trong nhà, không bệnh tật dày vò,",
+        "không gươm giáo động đến.",
+        "Ngoài đường người ta xì xào: “Người làm lành thì chết vì gươm giáo,",
+        "kẻ làm ác lại được chết trên giường.",
+        "Đạo trời để đâu?”",
+        "Trước đó, trong châu có một người tên Nguyễn Quỳ, khảng khái, trọng khí tiết,",
+        "vốn là bạn thân của Thúc Khoản, đã mất được ba năm.",
+        "Một buổi sớm, Thúc Khoản đi dạo thì gặp Nguyễn Quỳ giữa đường.",
+        "Người bạn đã khuất nói: “Cha anh sắp bị đem ra tra xét.",
+        "Tôi thân với anh nên báo trước.",
+        "Tối mai tôi cho người đến đón, anh sẽ được xem.",
+        "Nhưng xem rồi phải giữ kín, hở ra một lời là họa lây sang tôi.”",
+        "Nói xong, Nguyễn Quỳ biến mất."
+      ],
+      "image": {
+        "prompt": "a misty dawn road outside a village, the young son in grey-blue startled as the pale translucent figure of his late friend in an official robe of the underworld appears before him, bare trees and fog",
+        "seed": 3822962739,
+        "character": "thuc-khoan"
+      },
+      "video": {
+        "motionPrompt": "fog swirls along the road, the ghostly friend leans close and speaks, the son steps back in shock, then the ghost dissolves into the mist",
+        "seed": 2984618846
+      },
+      "voice": {}
+    },
+    {
+      "id": "dien-am-phu",
+      "title": "Điện âm phủ",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng hẹn, Thúc Khoản ngồi trong một căn buồng nhỏ chờ đợi. Nửa đêm, quả có mấy tên lính đầu ngựa đến đón chàng tới một cung điện lớn. Trên điện có một vị vua ngồi, hai bên lính mặc áo sắt, đội mũ đồng, tay cầm búa, giáo, đứng hầu nghiêm ngặt. Bốn viên phán quan từ dãy nhà bên trái bước ra, một người chính là Nguyễn Quỳ. Họ quỳ trước án son, lần lượt đọc thẻ. Một vị quan cứng cỏi, không sợ quyền quý, liều mình vì nước, được xin cho lên làm tiên. Một viên quan tham, ăn hối lộ, khinh người hiền, bị xin xóa tên khỏi sổ. Một người họ Hà nhà nghèo mà phát thuốc cứu sống hơn nghìn người trong mùa dịch, được cho đầu thai vào nhà có phúc ba đời. Một gã họ Đinh sửa chúc thư cướp ruộng của các cháu mồ côi, phải đầu thai làm kẻ đói khát nằm vạ vật bên mương.",
+      "subtitles": [
+        "Đúng hẹn, Thúc Khoản ngồi trong một căn buồng nhỏ chờ đợi.",
+        "Nửa đêm, quả có mấy tên lính đầu ngựa đến đón chàng tới một cung điện lớn.",
+        "Trên điện có một vị vua ngồi, hai bên lính mặc áo sắt, đội mũ đồng, tay cầm búa, giáo,",
+        "đứng hầu nghiêm ngặt.",
+        "Bốn viên phán quan từ dãy nhà bên trái bước ra, một người chính là Nguyễn Quỳ.",
+        "Họ quỳ trước án son, lần lượt đọc thẻ.",
+        "Một vị quan cứng cỏi, không sợ quyền quý, liều mình vì nước, được xin cho lên làm tiên.",
+        "Một viên quan tham, ăn hối lộ, khinh người hiền, bị xin xóa tên khỏi sổ.",
+        "Một người họ Hà nhà nghèo mà phát thuốc cứu sống hơn nghìn người trong mùa dịch,",
+        "được cho đầu thai vào nhà có phúc ba đời.",
+        "Một gã họ Đinh sửa chúc thư cướp ruộng của các cháu mồ côi,",
+        "phải đầu thai làm kẻ đói khát nằm vạ vật bên mương."
+      ],
+      "image": {
+        "prompt": "a vast dark underworld palace hall lit by braziers, a stern crowned king on a high throne behind a vermilion desk, rows of guards in iron armor and bronze helmets with axes and halberds, four judges kneeling with bamboo tablets, the young son peeking through a crack in the wall",
+        "seed": 2195199626,
+        "character": "thuc-khoan"
+      },
+      "video": {
+        "motionPrompt": "brazier flames flicker, the judges read from their tablets one by one, the king nods slowly, the young son presses his eye to the crack in the wall",
+        "seed": 1313795351
+      },
+      "voice": {}
+    },
+    {
+      "id": "ban-buoc-toi",
+      "title": "Bản buộc tội",
+      "narrator": "ke-chuyen",
+      "narration": "Kế đó, một người áo đỏ từ dãy bên phải bước ra, quỳ tâu: “Sở của thần có kẻ tên Lý Hữu Chi, ngu ngoan làm càn, giam trong ngục đã một năm chưa xử. Xin đưa ra trước vương đình.” Rồi người ấy đọc bản buộc tội: trời phú cho người cái lý, nhưng không bắt người ai cũng thành hiền; thiện ác báo ứng rõ như bóng theo hình, như tiếng vọng theo tiếng. Còn Lý Hữu Chi, thân phận nhỏ như hạt cát con giun, mà kết bạn với phường tráo trở, lòng dạ như yêu quái; khinh chữ nghĩa, trọng bạc tiền; cướp ruộng người, giết hại mạng người; vu oan giá họa, độc hơn hùm sói; chỉ vì lòng tham sai khiến. Đọc xong, quỷ sứ lôi Hữu Chi ra, bắt quỳ dưới thềm, quất roi không ngớt. Hắn kêu gào, giãy giụa, không chịu nổi.",
+      "subtitles": [
+        "Kế đó, một người áo đỏ từ dãy bên phải bước ra, quỳ tâu:",
+        "“Sở của thần có kẻ tên Lý Hữu Chi, ngu ngoan làm càn, giam trong ngục đã một năm chưa xử.",
+        "Xin đưa ra trước vương đình.”",
+        "Rồi người ấy đọc bản buộc tội: trời phú cho người cái lý,",
+        "nhưng không bắt người ai cũng thành hiền; thiện ác báo ứng rõ như bóng theo hình,",
+        "như tiếng vọng theo tiếng.",
+        "Còn Lý Hữu Chi, thân phận nhỏ như hạt cát con giun, mà kết bạn với phường tráo trở,",
+        "lòng dạ như yêu quái; khinh chữ nghĩa, trọng bạc tiền; cướp ruộng người,",
+        "giết hại mạng người; vu oan giá họa, độc hơn hùm sói; chỉ vì lòng tham sai khiến.",
+        "Đọc xong, quỷ sứ lôi Hữu Chi ra, bắt quỳ dưới thềm, quất roi không ngớt.",
+        "Hắn kêu gào, giãy giụa, không chịu nổi."
+      ],
+      "image": {
+        "prompt": "in the underworld hall, a red-robed judge kneeling before the throne reading a long scroll of accusation, demon guards dragging the shackled general in a cangue forward to kneel at the foot of the steps, shadows and rising smoke, symbolic and not graphic",
+        "seed": 3753515046,
+        "character": "ly-huu-chi"
+      },
+      "video": {
+        "motionPrompt": "the scroll unrolls as the judge reads, the guards force the general to his knees, he struggles against the wooden cangue, smoke curls around the throne",
+        "seed": 3832402829
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhung-hinh-phat",
+      "title": "Những hình phạt",
+      "narrator": "ke-chuyen",
+      "narration": "Vua hỏi vì sao để án chậm cả năm. Người áo đỏ thưa: tội hắn chồng chất, chưa dám định vội. Rồi tâu từng tội. Ghẹo vợ người, hiếp con người, xử thế nào? Vua phán: “Hắn chìm trong bể dục, lấy nước sôi rửa ruột cho tình dục không sinh.” Hữu Chi bị ném vào vạc sôi, thân thể rã rời, rồi được rảy nước thần mà lành lặn lại. Cướp ruộng, phá nhà người, xử thế nào? “Suối tham dìm hắn, phải moi ruột cho lòng tham không nổi.” Lại phạt, rồi lại phẩy cành dương cho lành. Còn phá mồ mả người xưa, trái đạo với ruột thịt? Vua lặng hồi lâu: “Tội ấy rừng gươm núi dao cũng chưa đủ. Giải vào ngục Cửu U, đời đời kiếp kiếp không được ra.” Quỷ sứ lôi Hữu Chi đi mất vào bóng tối.",
+      "subtitles": [
+        "Vua hỏi vì sao để án chậm cả năm.",
+        "Người áo đỏ thưa: tội hắn chồng chất, chưa dám định vội.",
+        "Rồi tâu từng tội.",
+        "Ghẹo vợ người, hiếp con người, xử thế nào?",
+        "Vua phán: “Hắn chìm trong bể dục, lấy nước sôi rửa ruột cho tình dục không sinh.”",
+        "Hữu Chi bị ném vào vạc sôi, thân thể rã rời, rồi được rảy nước thần mà lành lặn lại.",
+        "Cướp ruộng, phá nhà người, xử thế nào?",
+        "“Suối tham dìm hắn, phải moi ruột cho lòng tham không nổi.”",
+        "Lại phạt, rồi lại phẩy cành dương cho lành.",
+        "Còn phá mồ mả người xưa, trái đạo với ruột thịt?",
+        "Vua lặng hồi lâu: “Tội ấy rừng gươm núi dao cũng chưa đủ.",
+        "Giải vào ngục Cửu U, đời đời kiếp kiếp không được ra.”",
+        "Quỷ sứ lôi Hữu Chi đi mất vào bóng tối."
+      ],
+      "image": {
+        "prompt": "a symbolic underworld scene of judgment, a huge iron cauldron with rising steam and red firelight, the crowned king pointing down with a stern verdict, demon guards hauling the shackled general toward a dark gate wreathed in black smoke, ink painting, restrained and not graphic",
+        "seed": 383270550,
+        "character": "ly-huu-chi"
+      },
+      "video": {
+        "motionPrompt": "steam billows from the cauldron, firelight pulses red, the dark gate creaks open, the guards drag the general into the black smoke, the gate slams shut",
+        "seed": 3518964069
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-khoc-sau-tuong",
+      "title": "Tiếng khóc sau tường",
+      "narrator": "ke-chuyen",
+      "narration": "Thúc Khoản đứng sau khe tường nhìn thấy hết, không nén được, bật khóc thành tiếng. Mấy tên quỷ sứ lập tức lấy tay bịt miệng chàng, đưa về nhà, rồi ném chàng từ trên không xuống đất. Thúc Khoản giật mình tỉnh dậy, thấy người nhà đang ngồi quanh khóc lóc. Họ bảo chàng đã chết hai ngày rồi, chỉ vì ngực còn thoi thóp hơi ấm nên chưa dám đem chôn. Chàng nằm lặng thinh hồi lâu, nhớ lại từng lời phán, từng tiếng kêu gào của cha. Những gì người đời than là trời không có mắt, nay chàng đã tận mắt thấy câu trả lời.",
+      "subtitles": [
+        "Thúc Khoản đứng sau khe tường nhìn thấy hết, không nén được, bật khóc thành tiếng.",
+        "Mấy tên quỷ sứ lập tức lấy tay bịt miệng chàng, đưa về nhà,",
+        "rồi ném chàng từ trên không xuống đất.",
+        "Thúc Khoản giật mình tỉnh dậy, thấy người nhà đang ngồi quanh khóc lóc.",
+        "Họ bảo chàng đã chết hai ngày rồi, chỉ vì ngực còn thoi thóp hơi ấm nên chưa dám đem chôn.",
+        "Chàng nằm lặng thinh hồi lâu, nhớ lại từng lời phán, từng tiếng kêu gào của cha.",
+        "Những gì người đời than là trời không có mắt, nay chàng đã tận mắt thấy câu trả lời."
+      ],
+      "image": {
+        "prompt": "a dim bedroom at dawn, the young son waking up with a gasp on a bed surrounded by weeping family members in white mourning, incense burning on a small altar, his face pale with terror and grief",
+        "seed": 3644054122,
+        "character": "thuc-khoan"
+      },
+      "video": {
+        "motionPrompt": "the son's eyes snap open and he gasps for breath, the family members startle and cry out, incense smoke wavers, dawn light creeps through the shutters",
+        "seed": 2153303533
+      },
+      "voice": {}
+    },
+    {
+      "id": "vao-rung-hai-thuoc",
+      "title": "Vào rừng hái thuốc",
+      "narrator": "ke-chuyen",
+      "narration": "Từ hôm ấy, Thúc Khoản đem hết của cải trong nhà chia cho mọi người, đốt sạch giấy nợ mà cha đã ép người ta ký, rồi từ bỏ gia đình, vào rừng hái thuốc tu luyện. Chuyện dưới âm phủ chàng giữ kín, chỉ vài người bõ già biết, nên ít ai được nghe. Người xưa bàn rằng: đạo trời công bằng không thiên vị, lưới trời thưa mà khó lọt. Có kẻ sống thì thoát họa mà chết lại chịu hình. Chỉ vì người đời không thấy, nên mới lắm kẻ dám làm điều ác. Còn Lý Hữu Chi, đã được thầy tướng cho thấy tận mắt mà vẫn chẳng chừa, ấy là kẻ hư hỏng đến cùng, không gì lay chuyển nổi.",
+      "subtitles": [
+        "Từ hôm ấy, Thúc Khoản đem hết của cải trong nhà chia cho mọi người,",
+        "đốt sạch giấy nợ mà cha đã ép người ta ký, rồi từ bỏ gia đình,",
+        "vào rừng hái thuốc tu luyện.",
+        "Chuyện dưới âm phủ chàng giữ kín, chỉ vài người bõ già biết, nên ít ai được nghe.",
+        "Người xưa bàn rằng: đạo trời công bằng không thiên vị, lưới trời thưa mà khó lọt.",
+        "Có kẻ sống thì thoát họa mà chết lại chịu hình.",
+        "Chỉ vì người đời không thấy, nên mới lắm kẻ dám làm điều ác.",
+        "Còn Lý Hữu Chi, đã được thầy tướng cho thấy tận mắt mà vẫn chẳng chừa,",
+        "ấy là kẻ hư hỏng đến cùng, không gì lay chuyển nổi."
+      ],
+      "image": {
+        "prompt": "the son in plain grey-blue clothes burning a pile of debt papers in a courtyard while villagers watch in amazement, then walking alone with a herb basket on his back up a misty forest mountain path",
+        "seed": 2802667653,
+        "character": "thuc-khoan"
+      },
+      "video": {
+        "motionPrompt": "flames consume the debt papers and ashes float upward, villagers bow in gratitude, the son walks up the mountain path and disappears into the mist",
+        "seed": 1386681345
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "dark solemn Vietnamese traditional instrumental, deep dan bau, low dan nhi fiddle, heavy temple drum and gong, wooden fish percussion, ominous and grave with a calm meditative ending, slow tempo, no vocals",
+    "durationSeconds": 170,
+    "seed": 2989783847
+  }
+}

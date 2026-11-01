@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "slug": "bo-dua",
+  "shelf": "world",
+  "title": "Bó đũa",
+  "summary": "Ba anh em suốt ngày cãi nhau, người cha già bèn đưa ra một bó đũa và thách các con bẻ gãy. Ngụ ngôn Aesop quen thuộc về tình anh em và sức mạnh của đoàn kết.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive village people, a whitewashed farmhouse among olive groves on a sunny Greek hillside, simple wooden table and clay jars, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "nguoi-cha",
+      "name": "Người cha",
+      "seed": 2087634194,
+      "sheetPrompt": "a kind elderly Greek farmer with a white beard, wise gentle eyes, plain wool tunic and a walking stick, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba-anh-em",
+      "name": "Ba anh em",
+      "seed": 740534786,
+      "sheetPrompt": "three young brothers of different heights in simple farm tunics, the eldest tall and broad, the middle one lean, the youngest small with curly hair, standing side by side, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cai-nhau",
+      "title": "Ba anh em hay cãi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng nhỏ ven đồi ô liu, có một người cha già sống cùng ba người con trai. Ba anh em khoẻ mạnh, chăm làm, nhưng lại hay cãi nhau. Anh cả chê em hai lười, em hai chê em út vụng, em út thì giận cả hai anh. Ngày nào trong nhà cũng ầm ĩ tiếng to tiếng nhỏ. Người cha khuyên mãi mà các con chẳng chịu nghe.",
+      "subtitles": [
+        "Ngày xưa, ở một làng nhỏ ven đồi ô liu, có một người cha già sống cùng ba người con trai.",
+        "Ba anh em khoẻ mạnh, chăm làm, nhưng lại hay cãi nhau.",
+        "Anh cả chê em hai lười, em hai chê em út vụng, em út thì giận cả hai anh.",
+        "Ngày nào trong nhà cũng ầm ĩ tiếng to tiếng nhỏ.",
+        "Người cha khuyên mãi mà các con chẳng chịu nghe."
+      ],
+      "image": {
+        "character": "ba-anh-em",
+        "prompt": "three brothers arguing with crossed arms and pouting faces in a farmhouse courtyard, an old father sighing in the doorway, olive trees behind",
+        "seed": 3885714447
+      },
+      "video": {
+        "motionPrompt": "the brothers wave their arms and turn their backs on each other, the father shakes his head, a cat slinks away",
+        "seed": 2122747864
+      },
+      "voice": {}
+    },
+    {
+      "id": "thu-thach",
+      "title": "Thử thách của cha",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, người cha gọi ba con lại, đặt lên bàn một bó đũa buộc chặt bằng sợi dây gai. Ông nói: “Đứa nào bẻ gãy được bó đũa này, cha sẽ thưởng một túi tiền.” Anh cả xắn tay áo, cầm bó đũa, bẻ thật mạnh. Bó đũa cong đi một chút rồi lại thẳng, chẳng gãy chiếc nào. Anh hai, rồi em út cũng thử, mặt đỏ gay, tay đau rát, mà bó đũa vẫn nguyên như cũ.",
+      "subtitles": [
+        "Một hôm, người cha gọi ba con lại, đặt lên bàn một bó đũa buộc chặt bằng sợi dây gai.",
+        "Ông nói: “Đứa nào bẻ gãy được bó đũa này, cha sẽ thưởng một túi tiền.”",
+        "Anh cả xắn tay áo, cầm bó đũa, bẻ thật mạnh.",
+        "Bó đũa cong đi một chút rồi lại thẳng, chẳng gãy chiếc nào.",
+        "Anh hai, rồi em út cũng thử, mặt đỏ gay, tay đau rát, mà bó đũa vẫn nguyên như cũ."
+      ],
+      "image": {
+        "character": "nguoi-cha",
+        "prompt": "an old father places a bundle of thin wooden sticks tied with cord on a wooden table, the eldest son straining with red cheeks to bend it, his brothers watching",
+        "seed": 3071589989
+      },
+      "video": {
+        "motionPrompt": "the son strains and the bundle bends slightly then springs back, the brothers lean in, the father smiles patiently",
+        "seed": 2525603603
+      },
+      "voice": {}
+    },
+    {
+      "id": "tung-chiec",
+      "title": "Bẻ từng chiếc",
+      "narrator": "ke-chuyen",
+      "narration": "Người cha mỉm cười, cởi sợi dây ra, rút từng chiếc đũa đưa cho các con. “Giờ thì bẻ thử từng chiếc xem nào.” Ba anh em cầm lấy, bẻ nhẹ một cái là nghe “tách”, chiếc đũa gãy đôi. Chẳng mấy chốc, cả bó đũa đã gãy hết thành những khúc nhỏ trên bàn. Ba anh em nhìn nhau ngơ ngác, chưa hiểu cha muốn nói điều gì.",
+      "subtitles": [
+        "Người cha mỉm cười, cởi sợi dây ra, rút từng chiếc đũa đưa cho các con.",
+        "“Giờ thì bẻ thử từng chiếc xem nào.”",
+        "Ba anh em cầm lấy, bẻ nhẹ một cái là nghe “tách”, chiếc đũa gãy đôi.",
+        "Chẳng mấy chốc, cả bó đũa đã gãy hết thành những khúc nhỏ trên bàn.",
+        "Ba anh em nhìn nhau ngơ ngác, chưa hiểu cha muốn nói điều gì."
+      ],
+      "image": {
+        "character": "ba-anh-em",
+        "prompt": "three brothers easily snapping single thin sticks in their hands, broken little pieces on the table, puzzled looks on their faces",
+        "seed": 9022964
+      },
+      "video": {
+        "motionPrompt": "each brother snaps a single stick with a little snap, pieces fall on the table, they look at each other puzzled",
+        "seed": 1588031391
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-cha",
+      "title": "Lời cha dạy",
+      "narrator": "ke-chuyen",
+      "narration": "Người cha chậm rãi nói: “Các con ạ, các con cũng như bó đũa này. Nếu biết thương nhau, đứng bên nhau, thì chẳng ai bẻ gãy được các con. Còn nếu mỗi đứa một nơi, cãi cọ, giận hờn, thì ai muốn bắt nạt cũng dễ như bẻ một chiếc đũa.” Cả gian nhà lặng đi. Anh cả cúi đầu, em hai đỏ mặt, em út khẽ nắm tay hai anh.",
+      "subtitles": [
+        "Người cha chậm rãi nói: “Các con ạ, các con cũng như bó đũa này.",
+        "Nếu biết thương nhau, đứng bên nhau, thì chẳng ai bẻ gãy được các con.",
+        "Còn nếu mỗi đứa một nơi, cãi cọ, giận hờn, thì ai muốn bắt nạt cũng dễ như bẻ một chiếc",
+        "đũa.” Cả gian nhà lặng đi. Anh cả cúi đầu, em hai đỏ mặt, em út khẽ nắm tay hai anh."
+      ],
+      "image": {
+        "character": "nguoi-cha",
+        "prompt": "the old father speaks gently by the table, the three sons listening with lowered heads, the youngest reaching for his brothers' hands, warm lamplight",
+        "seed": 3031525729
+      },
+      "video": {
+        "motionPrompt": "the father gestures slowly, the sons lower their heads, the youngest takes his brothers' hands, the lamp flickers warmly",
+        "seed": 2754817413
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-thuan",
+      "title": "Anh em hoà thuận",
+      "narrator": "ke-chuyen",
+      "narration": "Từ hôm ấy, ba anh em không còn cãi nhau như trước. Mùa hái ô liu, anh cả trèo cây, em hai rung cành, em út nhặt quả, việc gì cũng xong nhanh. Có kẻ xấu trong làng định lấn đất nhà ông, thấy ba anh em đứng cạnh nhau thì lặng lẽ bỏ đi. Người cha già ngồi trước hiên, nhìn các con cười vui. Các bạn nhỏ ạ, đoàn kết thì mạnh, chia rẽ thì yếu.",
+      "subtitles": [
+        "Từ hôm ấy, ba anh em không còn cãi nhau như trước.",
+        "Mùa hái ô liu, anh cả trèo cây, em hai rung cành, em út nhặt quả, việc gì cũng xong nhanh.",
+        "Có kẻ xấu trong làng định lấn đất nhà ông, thấy ba anh em đứng cạnh nhau thì lặng lẽ bỏ",
+        "đi. Người cha già ngồi trước hiên, nhìn các con cười vui.",
+        "Các bạn nhỏ ạ, đoàn kết thì mạnh, chia rẽ thì yếu."
+      ],
+      "image": {
+        "character": "ba-anh-em",
+        "prompt": "three brothers happily harvesting olives together in a sunny grove, one up the tree, one shaking branches, one gathering olives into a basket, the old father smiling on the porch",
+        "seed": 3704991235
+      },
+      "video": {
+        "motionPrompt": "olives patter down into baskets, the brothers laugh together, branches sway, the father nods contentedly",
+        "seed": 3928825830
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm Mediterranean folk-inspired storybook music, bouzouki-like plucked strings and soft flute, gentle and homely, a thoughtful pause in the middle then a joyful harmonious ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1127254934
+  }
+}

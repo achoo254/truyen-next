@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "slug": "hai-nguoi-ban-va-con-gau",
+  "shelf": "world",
+  "title": "Hai người bạn và con gấu",
+  "summary": "Gặp gấu giữa rừng, một người vội trèo lên cây bỏ mặc bạn mình. Con gấu đã thì thầm điều gì vào tai người ở lại? Ngụ ngôn Aesop về tình bạn thật lòng.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive travellers and forest animals, an old green forest path with tall oaks, ferns and dappled sunlight, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ban-cao",
+      "name": "Người bạn cao gầy",
+      "seed": 1469956042,
+      "sheetPrompt": "a tall skinny traveller with a long nose, feathered cap, green cloak and a walking pack, quick nervous look, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ban-thap",
+      "name": "Người bạn thấp",
+      "seed": 2444131694,
+      "sheetPrompt": "a short round traveller with rosy cheeks, brown cap, red vest and a small bundle on a stick, honest calm face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-gau",
+      "name": "Con gấu",
+      "seed": 2625436892,
+      "sheetPrompt": "a large but gentle-looking brown bear with fluffy fur, a big curious nose and small round ears, standing on all fours, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "lo-hua",
+      "title": "Lời hứa lên đường",
+      "narrator": "ke-chuyen",
+      "narration": "Có hai người bạn rủ nhau đi qua một khu rừng già để sang làng bên. Trước khi đi, họ vỗ vai nhau hứa hẹn: “Đường xa, rừng rậm, có chuyện gì thì chúng mình phải giúp đỡ nhau nhé!” Một người cao gầy, nhanh nhẹn. Người kia thấp, tròn trịa, đi chậm hơn. Hai người vừa đi vừa hát, tiếng chim ríu rít trên những vòm cây cao.",
+      "subtitles": [
+        "Có hai người bạn rủ nhau đi qua một khu rừng già để sang làng bên.",
+        "Trước khi đi, họ vỗ vai nhau hứa hẹn: “Đường xa, rừng rậm, có chuyện gì thì chúng mình",
+        "phải giúp đỡ nhau nhé!” Một người cao gầy, nhanh nhẹn.",
+        "Người kia thấp, tròn trịa, đi chậm hơn.",
+        "Hai người vừa đi vừa hát, tiếng chim ríu rít trên những vòm cây cao."
+      ],
+      "image": {
+        "character": "ban-thap",
+        "prompt": "two travellers, one tall and skinny, one short and round, walking cheerfully side by side on a sunny forest path, birds in the tall trees",
+        "seed": 1154877396
+      },
+      "video": {
+        "motionPrompt": "the two friends stroll and swing their arms singing, birds flit between branches, sunlight dapples the path",
+        "seed": 3775718352
+      },
+      "voice": {}
+    },
+    {
+      "id": "gau-xuat-hien",
+      "title": "Con gấu xuất hiện",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng có tiếng cành khô gãy răng rắc. Từ sau bụi cây, một con gấu nâu to lớn lừng lững bước ra. Người bạn cao gầy chẳng nói chẳng rằng, vội trèo phắt lên một cây cao, nấp kín trong tán lá. Người bạn thấp chạy không kịp, trèo cũng không xong. Anh nhớ lời các cụ dặn rằng gấu không thích động tới người nằm im, bèn nằm sấp xuống đất, nín thở.",
+      "subtitles": [
+        "Bỗng có tiếng cành khô gãy răng rắc.",
+        "Từ sau bụi cây, một con gấu nâu to lớn lừng lững bước ra.",
+        "Người bạn cao gầy chẳng nói chẳng rằng, vội trèo phắt lên một cây cao, nấp kín trong tán",
+        "lá. Người bạn thấp chạy không kịp, trèo cũng không xong.",
+        "Anh nhớ lời các cụ dặn rằng gấu không thích động tới người nằm im, bèn nằm sấp xuống đất,",
+        "nín thở."
+      ],
+      "image": {
+        "character": "con-gau",
+        "prompt": "a big brown bear steps out from the ferns, the tall traveller scrambling up a tree into the leaves, the short traveller lying flat on the path",
+        "seed": 1323798405
+      },
+      "video": {
+        "motionPrompt": "the bear lumbers out of the bushes, the tall man scrambles up the trunk, ferns sway",
+        "seed": 1087950642
+      },
+      "voice": {}
+    },
+    {
+      "id": "gau-ngui",
+      "title": "Gấu ghé tai",
+      "narrator": "ke-chuyen",
+      "narration": "Con gấu tiến lại gần, cúi cái mũi to xuống ngửi khắp người anh. Nó ngửi tóc, ngửi vai, rồi ghé sát vào tai anh một lúc lâu. Người bạn nằm dưới đất cố giữ thật yên, tim đập thình thịch, mồ hôi rịn ra trên trán. Trên cây, người bạn cao gầy nín thở nhìn xuống, chẳng dám nhúc nhích. Cuối cùng, con gấu khịt mũi một cái, quay lưng bỏ đi vào rừng sâu.",
+      "subtitles": [
+        "Con gấu tiến lại gần, cúi cái mũi to xuống ngửi khắp người anh.",
+        "Nó ngửi tóc, ngửi vai, rồi ghé sát vào tai anh một lúc lâu.",
+        "Người bạn nằm dưới đất cố giữ thật yên, tim đập thình thịch, mồ hôi rịn ra trên trán.",
+        "Trên cây, người bạn cao gầy nín thở nhìn xuống, chẳng dám nhúc nhích.",
+        "Cuối cùng, con gấu khịt mũi một cái, quay lưng bỏ đi vào rừng sâu."
+      ],
+      "image": {
+        "character": "con-gau",
+        "prompt": "a curious brown bear sniffing the ear of a short round man lying very still on the forest floor, the tall friend peeking down from the leaves above",
+        "seed": 656111078
+      },
+      "video": {
+        "motionPrompt": "the bear sniffs gently, its nose twitching, then turns and ambles away into the trees, leaves tremble above",
+        "seed": 3349168260
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoi-chuyen",
+      "title": "Câu hỏi khó nghe",
+      "narrator": "ke-chuyen",
+      "narration": "Khi con gấu đã đi xa, người bạn cao gầy mới tụt xuống, phủi quần áo, cười cười hỏi: “Này, lúc nãy tớ thấy con gấu ghé vào tai cậu thì thầm lâu lắm. Nó nói gì với cậu thế?” Người bạn thấp đứng dậy, chậm rãi phủi đất trên áo, rồi nhìn thẳng vào mắt bạn mình mà không cười. Khu rừng bỗng lặng im, chỉ còn tiếng lá khẽ reo.",
+      "subtitles": [
+        "Khi con gấu đã đi xa, người bạn cao gầy mới tụt xuống, phủi quần áo, cười cười hỏi: “Này,",
+        "lúc nãy tớ thấy con gấu ghé vào tai cậu thì thầm lâu lắm. Nó nói gì với cậu thế?”",
+        "Người bạn thấp đứng dậy, chậm rãi phủi đất trên áo, rồi nhìn thẳng vào mắt bạn mình mà",
+        "không cười. Khu rừng bỗng lặng im, chỉ còn tiếng lá khẽ reo."
+      ],
+      "image": {
+        "character": "ban-cao",
+        "prompt": "the tall traveller sliding down a tree trunk with an awkward grin, the short traveller standing up and brushing leaves off his red vest with a serious face",
+        "seed": 1878578028
+      },
+      "video": {
+        "motionPrompt": "the tall man slides down and grins sheepishly, the short man brushes off leaves slowly, a breeze stirs the ferns",
+        "seed": 3572527577
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-gau",
+      "title": "Lời con gấu",
+      "narrator": "ke-chuyen",
+      "narration": "Anh đáp: “Gấu bảo tớ rằng: đừng bao giờ đi đường xa cùng một người bạn bỏ mặc mình khi gặp nguy.” Người bạn cao gầy đỏ bừng mặt, cúi đầu không nói được câu nào. Rồi mỗi người lặng lẽ đi một ngả. Các bạn nhỏ ạ, người bạn thật là người ở bên ta lúc khó khăn, chứ không phải người chỉ giỏi hứa hẹn lúc vui.",
+      "subtitles": [
+        "Anh đáp: “Gấu bảo tớ rằng: đừng bao giờ đi đường xa cùng một người bạn bỏ mặc mình khi gặp",
+        "nguy.” Người bạn cao gầy đỏ bừng mặt, cúi đầu không nói được câu nào.",
+        "Rồi mỗi người lặng lẽ đi một ngả.",
+        "Các bạn nhỏ ạ, người bạn thật là người ở bên ta lúc khó khăn, chứ không phải người chỉ",
+        "giỏi hứa hẹn lúc vui."
+      ],
+      "image": {
+        "character": "ban-thap",
+        "prompt": "at a fork in the forest path the short traveller walks away calmly while the tall traveller stands red-faced with lowered head, evening light through the trees",
+        "seed": 1147860478
+      },
+      "video": {
+        "motionPrompt": "the short man walks off down one path, the tall man hangs his head, golden evening light fades softly",
+        "seed": 3090536815
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle classical forest storybook music, oboe and soft strings with a light walking rhythm, a hushed suspenseful middle with low cello, then a calm reflective ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2525277694
+  }
+}
