@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "slug": "cho-rung-va-cop",
+  "shelf": "kids",
+  "title": "Chó rừng và cọp",
+  "summary": "Chó rừng và cọp tranh nhau làm chủ khu rừng, bèn thách nhau trèo cây. Chó rừng bé hơn mà giở mẹo, khiến cọp to khỏe phải chịu thua. Truyện cổ Việt Nam kể vui cho trẻ nhỏ về thi đua thật thà.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Chó rừng và cọp» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: cọp chỉ cay mắt, nhắm tịt không nhìn thấy gì chứ không bị mù; chuyện chó rừng tè lên lá chỉ kể một câu, không vẽ. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, thêm thoại, lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, a deep green jungle with tall leafy trees, vines and ferns, dappled sunlight, calm and safe mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 4265194603,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cho-rung",
+      "name": "Chó rừng",
+      "seed": 3225980132,
+      "sheetPrompt": "a slim golden-brown jackal with big pointed ears, a bushy tail and a sly grin, round cartoon style, not scary, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cop",
+      "name": "Cọp",
+      "seed": 941796392,
+      "sheetPrompt": "a big orange striped tiger with a proud chest and a hot-tempered but silly face, round cartoon style, not scary, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Ai cũng gọi bác cọp là chúa sơn lâm, tức là vua của núi rừng. Thế mà ngày xưa, có một chú chó rừng bé hơn cọp nhiều, cũng đòi làm vua rừng đấy. Chó rừng làm cách nào nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Ai cũng gọi bác cọp là chúa sơn lâm, tức là vua của núi rừng.",
+        "Thế mà ngày xưa, có một chú chó rừng bé hơn cọp nhiều, cũng đòi làm vua rừng đấy.",
+        "Chó rừng làm cách nào nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a mossy log at the edge of a jungle, a picture book in her paws shows a big tiger and a small jackal",
+        "seed": 2705082309
+      },
+      "video": {
+        "motionPrompt": "the cat opens the book and looks surprised, ferns sway, a butterfly flutters by, slow camera push-in",
+        "seed": 3670631759
+      },
+      "voice": {}
+    },
+    {
+      "id": "tranh-lam-vua",
+      "title": "Tranh nhau làm vua rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, trong một khu rừng sâu, chó rừng và cọp tranh nhau làm chủ cả khu rừng. Con nào cũng khoe mình tài giỏi, chẳng con nào chịu thua con nào. Cọp gầm lên: Ta to khỏe nhất rừng, ta phải làm vua! Chó rừng nhe răng cười: Khỏe thì đã sao, anh có trèo cây được như tôi không? Muông thú trong rừng nghe hai bên cãi nhau, ai cũng tò mò kéo đến xem.",
+      "subtitles": [
+        "Ngày xưa, trong một khu rừng sâu, chó rừng và cọp tranh nhau làm chủ cả khu rừng.",
+        "Con nào cũng khoe mình tài giỏi, chẳng con nào chịu thua con nào.",
+        "Cọp gầm lên: Ta to khỏe nhất rừng, ta phải làm vua!",
+        "Chó rừng nhe răng cười: Khỏe thì đã sao, anh có trèo cây được như tôi không?",
+        "Muông thú trong rừng nghe hai bên cãi nhau, ai cũng tò mò kéo đến xem."
+      ],
+      "image": {
+        "character": "cop",
+        "prompt": "the big tiger puffs out its chest and roars proudly in a jungle clearing, the small jackal stands opposite with a sly grin and crossed paws",
+        "seed": 3193745147
+      },
+      "video": {
+        "motionPrompt": "the tiger roars and the leaves shake, the jackal smirks and flicks its tail, birds fly up from the trees, gentle camera drift",
+        "seed": 1332455292
+      },
+      "voice": {}
+    },
+    {
+      "id": "thach-treo-cay",
+      "title": "Thách nhau trèo cây",
+      "narrator": "ke-chuyen",
+      "narration": "Chó rừng nói tiếp: Tôi trèo cây được, anh thì không. Anh hơn tôi ở chỗ nào mà đòi cai quản rừng này? Cọp tức lắm: Mày trèo được thì tao cũng trèo được, tao chẳng kém mày đâu! Thế là hai con thách nhau trèo lên một cây thật to, cành lá rậm rạp giữa rừng. Ai trèo được lên trên, người ấy làm chủ khu rừng.",
+      "subtitles": [
+        "Chó rừng nói tiếp: Tôi trèo cây được, anh thì không.",
+        "Anh hơn tôi ở chỗ nào mà đòi cai quản rừng này?",
+        "Cọp tức lắm: Mày trèo được thì tao cũng trèo được, tao chẳng kém mày đâu!",
+        "Thế là hai con thách nhau trèo lên một cây thật to, cành lá rậm rạp giữa rừng.",
+        "Ai trèo được lên trên, người ấy làm chủ khu rừng."
+      ],
+      "image": {
+        "character": "cho-rung",
+        "prompt": "the jackal and the tiger stand at the foot of a huge leafy tree in the middle of the jungle, both looking up at its tall branches",
+        "seed": 4109713596
+      },
+      "video": {
+        "motionPrompt": "the two animals glare at each other then look up at the tree, the jackal points up, the tiger nods, leaves rustle, camera tilts up the trunk",
+        "seed": 188662869
+      },
+      "voice": {}
+    },
+    {
+      "id": "meo-cua-cho-rung",
+      "title": "Mẹo của chó rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Chó rừng tranh trèo trước. Lên đến trên cao, nó lén tè ướt hết cành lá, rồi mới tụt xuống, bảo cọp: Tôi trèo xong rồi đấy, đến lượt anh. Anh mà trèo trơn tru được, tôi xin nhường anh làm vua ngay! Cọp chẳng thèm đáp, chỉ nghĩ: Trèo cây thì có khó gì! Rồi cọp nhảy lên trèo luôn, chẳng để ý gì đến những giọt nước lấp lánh trên lá.",
+      "subtitles": [
+        "Chó rừng tranh trèo trước.",
+        "Lên đến trên cao, nó lén tè ướt hết cành lá, rồi mới tụt xuống, bảo cọp:",
+        "Tôi trèo xong rồi đấy, đến lượt anh.",
+        "Anh mà trèo trơn tru được, tôi xin nhường anh làm vua ngay!",
+        "Cọp chẳng thèm đáp, chỉ nghĩ: Trèo cây thì có khó gì!",
+        "Rồi cọp nhảy lên trèo luôn, chẳng để ý gì đến những giọt nước lấp lánh trên lá."
+      ],
+      "image": {
+        "character": "cho-rung",
+        "prompt": "the jackal climbs down from the tree with a sneaky smile, the leaves above glisten with water drops, the tiger starts climbing the trunk without looking",
+        "seed": 3636361497
+      },
+      "video": {
+        "motionPrompt": "the jackal hops down and grins, droplets twinkle on the leaves, the tiger leaps onto the trunk and climbs, comic timing, slow camera tilt",
+        "seed": 1650266958
+      },
+      "voice": {}
+    },
+    {
+      "id": "cop-chiu-thua",
+      "title": "Cọp đành chịu thua",
+      "narrator": "ke-chuyen",
+      "narration": "Cọp trèo được nửa chừng thì nước trên lá nhỏ tong tỏng vào mắt. Mắt cọp cay xè, nhắm tịt lại, chẳng nhìn thấy gì nữa. Cọp đành tụt xuống, dụi mắt mà than: Tao chẳng nhìn thấy gì rồi! Thôi, tao chịu mày, nhường mày làm chủ rừng này. Từ đó, người ta cũng gọi chó rừng là chúa sơn lâm, giống như gọi cọp vậy.",
+      "subtitles": [
+        "Cọp trèo được nửa chừng thì nước trên lá nhỏ tong tỏng vào mắt.",
+        "Mắt cọp cay xè, nhắm tịt lại, chẳng nhìn thấy gì nữa.",
+        "Cọp đành tụt xuống, dụi mắt mà than: Tao chẳng nhìn thấy gì rồi!",
+        "Thôi, tao chịu mày, nhường mày làm chủ rừng này.",
+        "Từ đó, người ta cũng gọi chó rừng là chúa sơn lâm, giống như gọi cọp vậy."
+      ],
+      "image": {
+        "character": "cop",
+        "prompt": "the tiger slides down the tree trunk rubbing its tightly shut eyes with a paw, the jackal stands proudly on a rock nearby with its chin up",
+        "seed": 28116366
+      },
+      "video": {
+        "motionPrompt": "the tiger blinks and rubs its eyes, sliding down slowly, the jackal puffs up and waves its tail, leaves drip softly, comic timing",
+        "seed": 693358922
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, chó rừng thắng không phải vì giỏi hơn, mà vì giở mẹo xấu. Còn bác cọp thì nóng vội, chẳng nhìn kỹ đã nhảy vào. Thắng mà gian dối thì chẳng đáng khen đâu. Chơi với bạn, mình thi đua cho thật thà nhé, và trước khi làm gì cũng nhìn kỹ một chút. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, chó rừng thắng không phải vì giỏi hơn, mà vì giở mẹo xấu.",
+        "Còn bác cọp thì nóng vội, chẳng nhìn kỹ đã nhảy vào.",
+        "Thắng mà gian dối thì chẳng đáng khen đâu.",
+        "Chơi với bạn, mình thi đua cho thật thà nhé, và trước khi làm gì cũng nhìn kỹ một chút.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the edge of the jungle, the tiger and the jackal sit on either side looking a little embarrassed",
+        "seed": 1534478086
+      },
+      "video": {
+        "motionPrompt": "the cat waves and wags a paw like a teacher, the tiger scratches its head, the jackal looks away, sunset light, gentle camera pull-back",
+        "seed": 3961456021
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful Vietnamese folk melody with bamboo flute, gongs and light drums, mischievous jungle mood, a comic climb and a calm ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3540448749
+  }
+}

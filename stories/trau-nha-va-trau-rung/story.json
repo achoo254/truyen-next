@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "slug": "trau-nha-va-trau-rung",
+  "shelf": "kids",
+  "title": "Trâu nhà và trâu rừng",
+  "summary": "Bác trâu nhà lên núi ăn cỏ, gặp đàn trâu rừng rủ bỏ cày bừa lên rừng sống tự do. Trâu nhà nghĩ một lúc rồi trả lời thật thấm. Truyện cổ Việt Nam về lòng biết ơn, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Trâu nhà và trâu rừng» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: bỏ câu dọa «không theo thì chết»; chuyện hổ báo rình và người đi săn chỉ nhắc nhẹ. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, thêm thoại, lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, green Vietnamese hills and terraced rice fields, a bamboo village below, a wild forest on the mountain, calm and safe mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 1475607709,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "trau-nha",
+      "name": "Trâu nhà",
+      "seed": 1846537469,
+      "sheetPrompt": "a gentle dark grey water buffalo with curved horns, a rope through its nose ring and kind thoughtful eyes, round cartoon style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "trau-rung",
+      "name": "Trâu rừng",
+      "seed": 3365869512,
+      "sheetPrompt": "a big shaggy wild gaur bull with dark brown fur, white stockings and wide horns, a free and proud face, round cartoon style, not scary, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cau-be",
+      "name": "Cậu bé chăn trâu",
+      "seed": 3134656680,
+      "sheetPrompt": "a cheerful little Vietnamese buffalo-herd boy in a brown shirt and a conical straw hat holding a bamboo flute, storybook style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã thấy bác trâu kéo cày ngoài đồng chưa? Bác trâu chăm lắm, ngày nào cũng cùng người nông dân cày ruộng. Có một lần, bác trâu nhà gặp một đàn trâu rừng, và đàn trâu ấy rủ bác bỏ nhà lên núi. Bác trâu có đi không nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn đã thấy bác trâu kéo cày ngoài đồng chưa?",
+        "Bác trâu chăm lắm, ngày nào cũng cùng người nông dân cày ruộng.",
+        "Có một lần, bác trâu nhà gặp một đàn trâu rừng, và đàn trâu ấy rủ bác bỏ nhà lên núi.",
+        "Bác trâu có đi không nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a rice field dyke waving at a gentle water buffalo ploughing with a farmer, green hills behind",
+        "seed": 642205909
+      },
+      "video": {
+        "motionPrompt": "the buffalo flicks its ears and swishes its tail, the cat waves, the rice shoots sway in the breeze, slow camera push-in",
+        "seed": 3669217130
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-trau-rung",
+      "title": "Gặp đàn trâu rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bác nông dân thả trâu lên núi ăn cỏ. Đang gặm cỏ ngon lành, trâu nhà bỗng gặp một đàn trâu rừng và bò tót. Đàn trâu rừng đến bên, ngắm nghía trâu nhà một lúc rồi bảo: Anh to khỏe thế kia, đôi sừng cong vút thế kia, sao lại chịu để một cậu bé tí xỏ dây vào mũi mà dắt đi?",
+      "subtitles": [
+        "Ngày xưa, có một bác nông dân thả trâu lên núi ăn cỏ.",
+        "Đang gặm cỏ ngon lành, trâu nhà bỗng gặp một đàn trâu rừng và bò tót.",
+        "Đàn trâu rừng đến bên, ngắm nghía trâu nhà một lúc rồi bảo: Anh to khỏe thế kia,",
+        "đôi sừng cong vút thế kia, sao lại chịu để một cậu bé tí xỏ dây vào mũi mà dắt đi?"
+      ],
+      "image": {
+        "character": "trau-nha",
+        "prompt": "on a grassy mountain slope the gentle water buffalo grazes, a herd of shaggy wild gaurs comes out of the forest edge and gathers around it curiously",
+        "seed": 3062772251
+      },
+      "video": {
+        "motionPrompt": "the wild gaurs walk closer and sniff, the buffalo lifts its head and chews slowly, grass ripples in the wind, gentle camera drift",
+        "seed": 2100531878
+      },
+      "voice": {}
+    },
+    {
+      "id": "trau-rung-ru",
+      "title": "Trâu rừng rủ rê",
+      "narrator": "ke-chuyen",
+      "narration": "Trâu rừng nói tiếp: Anh phải đeo ách, kéo cày, kéo bừa, nắng mưa cũng chịu, đói khát chẳng dám kêu. Còn chúng tôi sống thành từng đàn trên rừng xanh, muốn ăn thì ăn, muốn chơi thì chơi, chẳng ai bắt buộc mà cũng chẳng sợ ai. Anh theo chúng tôi lên núi đi, có bầu có bạn, sướng hơn nhiều!",
+      "subtitles": [
+        "Trâu rừng nói tiếp: Anh phải đeo ách, kéo cày, kéo bừa, nắng mưa cũng chịu,",
+        "đói khát chẳng dám kêu.",
+        "Còn chúng tôi sống thành từng đàn trên rừng xanh, muốn ăn thì ăn, muốn chơi thì chơi,",
+        "chẳng ai bắt buộc mà cũng chẳng sợ ai.",
+        "Anh theo chúng tôi lên núi đi, có bầu có bạn, sướng hơn nhiều!"
+      ],
+      "image": {
+        "character": "trau-rung",
+        "prompt": "the big wild gaur stands tall on a rocky hilltop gesturing toward the free wild forest, other gaurs graze and play behind it, the buffalo listens",
+        "seed": 889314081
+      },
+      "video": {
+        "motionPrompt": "the gaur tosses its head toward the forest, the herd frolics behind, clouds drift over the mountains, slow camera pan",
+        "seed": 2447733942
+      },
+      "voice": {}
+    },
+    {
+      "id": "trau-nha-tra-loi",
+      "title": "Trâu nhà trả lời",
+      "narrator": "ke-chuyen",
+      "narration": "Trâu nhà nghĩ một lúc rồi đáp: Các anh nói cũng có lý. Nhưng tôi nghĩ thế này. Ở với người, tôi có cậu bé chăn, cho ăn cho uống, tối về có chuồng ấm mà nằm. Mưa thì có mái che, nắng thì có bóng tre. Ngày cày bừa một buổi là để đền đáp công người nuôi, có gì là khổ đâu. Người ta tốt với mình như thế, mà mình bỏ đi thì là vô ơn đấy.",
+      "subtitles": [
+        "Trâu nhà nghĩ một lúc rồi đáp: Các anh nói cũng có lý.",
+        "Nhưng tôi nghĩ thế này.",
+        "Ở với người, tôi có cậu bé chăn, cho ăn cho uống, tối về có chuồng ấm mà nằm.",
+        "Mưa thì có mái che, nắng thì có bóng tre.",
+        "Ngày cày bừa một buổi là để đền đáp công người nuôi, có gì là khổ đâu.",
+        "Người ta tốt với mình như thế, mà mình bỏ đi thì là vô ơn đấy."
+      ],
+      "image": {
+        "character": "cau-be",
+        "prompt": "a warm memory scene: the little herd boy in a straw hat sits on the buffalo's back playing a bamboo flute at sunset, a cosy bamboo barn with fresh straw nearby",
+        "seed": 2800696707
+      },
+      "video": {
+        "motionPrompt": "the boy plays the flute and pats the buffalo, the buffalo closes its eyes happily, warm golden light, gentle camera drift",
+        "seed": 1827565525
+      },
+      "voice": {}
+    },
+    {
+      "id": "moi-ben-mot-nga",
+      "title": "Mỗi bên một ngả",
+      "narrator": "ke-chuyen",
+      "narration": "Trâu nhà lại nói: Còn các anh sống tự do thật, vui thật. Nhưng các anh phải dầm sương dãi gió, nay đây mai đó, bữa no bữa đói. Rồi khi hổ báo rình rập, hay người ta giăng lưới đi săn, các anh chạy đường nào cho kịp? Thôi, cảm ơn các anh, ai ở đường nấy. Nói xong, mỗi bên đi một ngả, nhưng bên nào cũng lặng lẽ suy nghĩ.",
+      "subtitles": [
+        "Trâu nhà lại nói: Còn các anh sống tự do thật, vui thật.",
+        "Nhưng các anh phải dầm sương dãi gió, nay đây mai đó, bữa no bữa đói.",
+        "Rồi khi hổ báo rình rập, hay người ta giăng lưới đi săn, các anh chạy đường nào cho kịp?",
+        "Thôi, cảm ơn các anh, ai ở đường nấy.",
+        "Nói xong, mỗi bên đi một ngả, nhưng bên nào cũng lặng lẽ suy nghĩ."
+      ],
+      "image": {
+        "character": "trau-nha",
+        "prompt": "the water buffalo walks down the green hill toward the bamboo village, the wild gaurs walk up into the misty forest, both glance back thoughtfully",
+        "seed": 1096680273
+      },
+      "video": {
+        "motionPrompt": "the buffalo plods down the path, the gaurs fade into the mist, both turn their heads once, evening light, slow camera pull-back",
+        "seed": 2346873136
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Trâu rừng thích được tự do, còn trâu nhà thì quý tình nghĩa với người chăm mình. Mỗi bên có cái hay riêng. Nhưng Miu thích nhất là bác trâu nhà biết nhớ ơn người nuôi nấng mình. Các bạn cũng nhớ ơn bố mẹ, ông bà, thầy cô đã chăm lo cho mình nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Trâu rừng thích được tự do, còn trâu nhà thì quý tình nghĩa với người chăm mình.",
+        "Mỗi bên có cái hay riêng.",
+        "Nhưng Miu thích nhất là bác trâu nhà biết nhớ ơn người nuôi nấng mình.",
+        "Các bạn cũng nhớ ơn bố mẹ, ông bà, thầy cô đã chăm lo cho mình nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye by the bamboo village gate, the herd boy and the gentle water buffalo stand beside her",
+        "seed": 3581350589
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the boy waves his straw hat, the buffalo nods, smoke rises from kitchen roofs, sunset light, gentle camera pull-back",
+        "seed": 2418239887
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "peaceful Vietnamese countryside folk melody with a herd boy's bamboo flute and soft dan bau, wide mountain feel, warm and thoughtful, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 700016712
+  }
+}

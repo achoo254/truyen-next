@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "slug": "vua-john-va-cha-be-tren",
+  "shelf": "world",
+  "title": "Vua John và cha bề trên",
+  "summary": "Vua John ghen tị với cha bề trên tu viện Canterbury, ra ba câu đố hóc búa và hạn đúng một tuần phải trả lời. Người cứu cha bề trên lại là anh chăn cừu chân chất với những câu trả lời vừa hóm vừa khôn. Truyện dân gian Anh về trí khôn bình dân.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Anh «King John and the Abbot of Canterbury», Joseph Jacobs kể lại từ bài ca dao cổ trong tuyển tập của Percy, in trong More English Fairy Tales (1894), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, kể nhẹ cho cả nhà, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Anh (Joseph Jacobs, 1894)",
+  "style": "classic English storybook illustration in a medieval manuscript-inspired manner, soft watercolor and ink, Canterbury abbey, green pastures with sheep, a royal court with banners, rich warm colors, witty cheerful mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "vua-john",
+      "name": "Vua John",
+      "sheetPrompt": "a proud scowling medieval English king with a short dark beard, golden crown, red and gold royal robe trimmed with ermine, arms crossed, full body, front view, plain light background, character reference sheet",
+      "seed": 3012523166
+    },
+    {
+      "id": "cha-be-tren",
+      "name": "Cha bề trên",
+      "sheetPrompt": "a gentle worried elderly abbot with a round face and white fringe of hair, rich dark robes with a golden pectoral cross, holding a shepherd-crook-like abbot staff, full body, front view, plain light background, character reference sheet",
+      "seed": 3940866221
+    },
+    {
+      "id": "chan-cuu",
+      "name": "Anh chăn cừu",
+      "sheetPrompt": "a cheerful quick-witted English shepherd with a sun-browned face, curly hair, simple brown tunic and woollen cloak, a wooden crook, bright clever eyes, full body, front view, plain light background, character reference sheet",
+      "seed": 3414148289
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tu-vien-giau",
+      "title": "Tu viện giàu sang",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, dưới thời vua John nước Anh, có một cha bề trên cai quản tu viện Canterbury. Tu viện giàu lắm, ngày ngày có cả trăm người ăn cơm cùng cha, năm mươi hiệp sĩ áo nhung dây vàng hầu hạ. Vua John vốn là ông vua hay ghen tị, không chịu nổi việc có người trong nước sống sang hơn mình. Vua liền cho gọi cha bề trên vào cung.",
+      "subtitles": [
+        "Ngày xưa, dưới thời vua John nước Anh, có một cha bề trên cai quản tu viện Canterbury.",
+        "Tu viện giàu lắm, ngày ngày có cả trăm người ăn cơm cùng cha,",
+        "năm mươi hiệp sĩ áo nhung dây vàng hầu hạ.",
+        "Vua John vốn là ông vua hay ghen tị,",
+        "không chịu nổi việc có người trong nước sống sang hơn mình.",
+        "Vua liền cho gọi cha bề trên vào cung."
+      ],
+      "image": {
+        "prompt": "a grand medieval abbey at Canterbury with a long dining hall full of monks and knights in velvet cloaks with gold chains, the gentle abbot at the head table, a royal messenger arriving at the door",
+        "seed": 2404725841,
+        "character": "cha-be-tren"
+      },
+      "video": {
+        "motionPrompt": "monks pass bread along the long table, candles flicker, the messenger bows at the door",
+        "seed": 2270891912
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-cau-do",
+      "title": "Ba câu đố của nhà vua",
+      "narrator": "ke-chuyen",
+      "narration": "Vua John hầm hầm bảo: “Nghe nói ông sống còn sang hơn cả ta, thế là không được!” Cha bề trên cúi đầu: “Tâu bệ hạ, của cải này đều do lòng thành của dân chúng gửi cho tu viện.” Vua phẩy tay: “Ta tha cho ông, nếu ông trả lời được ba câu hỏi. Một, đâu là chính giữa thế gian? Hai, ta cưỡi ngựa đi vòng quanh thế gian mất bao lâu? Ba, ta đang nghĩ gì? Hạn một tuần. Trả lời không được thì ông mất hết chức tước, tài sản, và còn bị trị tội nặng!”",
+      "subtitles": [
+        "Vua John hầm hầm bảo: “Nghe nói ông sống còn sang hơn cả ta, thế là không được!”",
+        "Cha bề trên cúi đầu: “Tâu bệ hạ,",
+        "của cải này đều do lòng thành của dân chúng gửi cho tu viện.”",
+        "Vua phẩy tay: “Ta tha cho ông, nếu ông trả lời được ba câu hỏi.",
+        "Một, đâu là chính giữa thế gian?",
+        "Hai, ta cưỡi ngựa đi vòng quanh thế gian mất bao lâu?",
+        "Ba, ta đang nghĩ gì?",
+        "Hạn một tuần.",
+        "Trả lời không được thì ông mất hết chức tước, tài sản, và còn bị trị tội nặng!”"
+      ],
+      "image": {
+        "prompt": "a proud scowling king on his throne pointing and counting three questions on his fingers, the worried abbot bowing low before him, courtiers watching in a grand hall with banners",
+        "seed": 2621419776,
+        "character": "vua-john"
+      },
+      "video": {
+        "motionPrompt": "the king raises three fingers one by one, the abbot bows lower, banners sway softly",
+        "seed": 3366194275
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-anh-chan-cuu",
+      "title": "Gặp anh chăn cừu",
+      "narrator": "ke-chuyen",
+      "narration": "Cha bề trên run rẩy ra về. Cha tới tận Oxford hỏi các học giả, nhưng chẳng ai trả lời nổi. Cha buồn bã quay về Canterbury, định từ biệt các thầy tu. Trên đường, cha gặp anh chăn cừu đang lùa đàn cừu về chuồng. “Chào cha, nhà vua có tin gì vui không ạ?” “Tin buồn lắm con ơi.” Nghe cha kể hết, anh chăn cừu cười: “Cha đừng lo! Có khi người khờ lại trả lời được điều người khôn không biết. Cha cho con mượn áo và đoàn tuỳ tùng, con sẽ lên kinh thay cha.”",
+      "subtitles": [
+        "Cha bề trên run rẩy ra về.",
+        "Cha tới tận Oxford hỏi các học giả, nhưng chẳng ai trả lời nổi.",
+        "Cha buồn bã quay về Canterbury, định từ biệt các thầy tu.",
+        "Trên đường, cha gặp anh chăn cừu đang lùa đàn cừu về chuồng.",
+        "“Chào cha, nhà vua có tin gì vui không ạ?”",
+        "“Tin buồn lắm con ơi.”",
+        "Nghe cha kể hết, anh chăn cừu cười: “Cha đừng lo!",
+        "Có khi người khờ lại trả lời được điều người khôn không biết.",
+        "Cha cho con mượn áo và đoàn tuỳ tùng, con sẽ lên kinh thay cha.”"
+      ],
+      "image": {
+        "prompt": "on a green hillside at dusk a sad abbot on horseback meeting a cheerful shepherd driving his flock of sheep, the shepherd patting his crook and grinning confidently",
+        "seed": 1308741490,
+        "character": "chan-cuu"
+      },
+      "video": {
+        "motionPrompt": "sheep trot along the path, the shepherd waves his crook and grins, the sky turns golden",
+        "seed": 1555171871
+      },
+      "voice": {}
+    },
+    {
+      "id": "gia-lam-cha",
+      "title": "Giả làm cha bề trên",
+      "narrator": "ke-chuyen",
+      "narration": "Cha bề trên ngần ngại: “Không được, con đâu giống ta.” Anh chăn cừu đáp: “Trùm mũ áo tu vào thì ai nhận ra con được!” Cuối cùng cha đồng ý. Anh chăn cừu mặc áo tu, trùm mũ kín mặt, dẫn theo đoàn hiệp sĩ lộng lẫy, lên London gặp vua. Vua John cười nhạt: “Chào cha bề trên, chắc đã sẵn sàng chịu tội rồi chứ?” “Tâu bệ hạ, tôi đã sẵn sàng trả lời ạ.”",
+      "subtitles": [
+        "Cha bề trên ngần ngại: “Không được, con đâu giống ta.”",
+        "Anh chăn cừu đáp: “Trùm mũ áo tu vào thì ai nhận ra con được!”",
+        "Cuối cùng cha đồng ý.",
+        "Anh chăn cừu mặc áo tu, trùm mũ kín mặt,",
+        "dẫn theo đoàn hiệp sĩ lộng lẫy, lên London gặp vua.",
+        "Vua John cười nhạt: “Chào cha bề trên, chắc đã sẵn sàng chịu tội rồi chứ?”",
+        "“Tâu bệ hạ, tôi đã sẵn sàng trả lời ạ.”"
+      ],
+      "image": {
+        "prompt": "the shepherd in a monk robe with the hood pulled low over his face riding toward London at the head of a splendid procession of knights in velvet cloaks, then standing before the king throne",
+        "seed": 1621757292,
+        "character": "chan-cuu"
+      },
+      "video": {
+        "motionPrompt": "the procession rides with fluttering pennants, the hooded figure lifts his chin bravely",
+        "seed": 1880691316
+      },
+      "voice": {}
+    },
+    {
+      "id": "tra-loi",
+      "title": "Ba câu trả lời",
+      "narrator": "ke-chuyen",
+      "narration": "Vua hỏi: “Chính giữa thế gian ở đâu?” Anh chăn cừu cắm cây gậy xuống đất: “Ở ngay đây ạ. Bệ hạ không tin thì cứ đo thử xem.” Vua bật cười: “Khôn đấy! Thế đi vòng quanh thế gian mất bao lâu?” “Bệ hạ cứ dậy cùng mặt trời, đi theo mặt trời cho tới khi nó mọc lại sáng hôm sau, là đi trọn một vòng ạ.” Vua cười lớn: “Không ngờ nhanh thế! Còn câu cuối, ta đang nghĩ gì?” “Dễ thôi ạ. Bệ hạ đang nghĩ tôi là cha bề trên Canterbury.” Anh hất mũ ra: “Nhưng tôi chỉ là anh chăn cừu của cha, đến xin bệ hạ tha cho cha và cho tôi.”",
+      "subtitles": [
+        "Vua hỏi: “Chính giữa thế gian ở đâu?”",
+        "Anh chăn cừu cắm cây gậy xuống đất: “Ở ngay đây ạ.",
+        "Bệ hạ không tin thì cứ đo thử xem.”",
+        "Vua bật cười: “Khôn đấy!",
+        "Thế đi vòng quanh thế gian mất bao lâu?”",
+        "“Bệ hạ cứ dậy cùng mặt trời,",
+        "đi theo mặt trời cho tới khi nó mọc lại sáng hôm sau, là đi trọn một vòng ạ.”",
+        "Vua cười lớn: “Không ngờ nhanh thế!",
+        "Còn câu cuối, ta đang nghĩ gì?”",
+        "“Dễ thôi ạ.",
+        "Bệ hạ đang nghĩ tôi là cha bề trên Canterbury.”",
+        "Anh hất mũ ra: “Nhưng tôi chỉ là anh chăn cừu của cha,",
+        "đến xin bệ hạ tha cho cha và cho tôi.”"
+      ],
+      "image": {
+        "prompt": "the hooded shepherd planting his staff firmly on the palace floor while the king leans forward curious, then the shepherd throwing back his hood with a cheeky grin as the astonished king bursts into laughter",
+        "seed": 2400864154,
+        "character": "chan-cuu"
+      },
+      "video": {
+        "motionPrompt": "the staff taps the floor, the hood falls back, the king throws his head back laughing",
+        "seed": 1419451501
+      },
+      "voice": {}
+    },
+    {
+      "id": "phan-thuong",
+      "title": "Phần thưởng của anh chăn cừu",
+      "narrator": "ke-chuyen",
+      "narration": "Vua John cười vang: “Bắt được ta rồi đấy! Ngươi còn khôn hơn cả chủ ngươi. Ta cho ngươi làm cha bề trên luôn!” Anh chăn cừu lắc đầu: “Tâu bệ hạ, tôi không biết đọc, không biết viết.” “Vậy thì mỗi tuần ta thưởng ngươi bốn đồng vàng, vì cái đầu nhanh trí ấy. Về bảo cha bề trên rằng ta tha cho ông ấy.” Anh chăn cừu mang quà vua ban về Canterbury. Cha bề trên mừng rỡ ôm lấy anh, và đàn cừu trên đồi hôm ấy cũng như kêu be be vui hơn mọi ngày.",
+      "subtitles": [
+        "Vua John cười vang: “Bắt được ta rồi đấy!",
+        "Ngươi còn khôn hơn cả chủ ngươi.",
+        "Ta cho ngươi làm cha bề trên luôn!”",
+        "Anh chăn cừu lắc đầu: “Tâu bệ hạ, tôi không biết đọc, không biết viết.”",
+        "“Vậy thì mỗi tuần ta thưởng ngươi bốn đồng vàng, vì cái đầu nhanh trí ấy.",
+        "Về bảo cha bề trên rằng ta tha cho ông ấy.”",
+        "Anh chăn cừu mang quà vua ban về Canterbury.",
+        "Cha bề trên mừng rỡ ôm lấy anh,",
+        "và đàn cừu trên đồi hôm ấy cũng như kêu be be vui hơn mọi ngày."
+      ],
+      "image": {
+        "prompt": "the laughing king handing a purse of gold to the delighted shepherd, then the joyful abbot embracing the shepherd outside Canterbury abbey while sheep graze happily on the green hill",
+        "seed": 1046448258,
+        "character": "cha-be-tren"
+      },
+      "video": {
+        "motionPrompt": "the king tosses a purse, the abbot hugs the shepherd, sheep bleat and frolic on the hill",
+        "seed": 2390114916
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "cheerful medieval English tune, lute, recorder, tambourine and soft bells, witty playful rhythm, bright courtly fanfare at the end, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 361862695
+  }
+}

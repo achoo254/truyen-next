@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-ran-va-nguoi-nuoi-ran",
+  "shelf": "kids",
+  "title": "Con rắn và người nuôi rắn",
+  "summary": "Con rắn được bác nông dân nuôi từ bé, đến hôm đói bụng lại quay ra dọa cắn người nuôi mình. Hạc, rùa và quạ mỗi con phân xử một kiểu, rồi ông Bụt định phần cho từng con. Truyện cổ nước Nam kể lại nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Con rắn và người nuôi rắn» (số 64) trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: rắn chỉ dọa \"cắn\", quạ mổ rắn mấy cái cho rắn đau rồi rắn đi kiện, không kể đoạn rắn mất mạng; Phật được gọi là ông Bụt; người nuôi bắt cào cào, châu chấu cho rắn ăn. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, thoại viết thêm cho sinh động, lời rút ý nhẹ ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, Vietnamese countryside with rice paddies, a lotus pond, bamboo groves and an old village pagoda courtyard, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 247253092
+    },
+    {
+      "id": "bac-nong-dan",
+      "name": "Bác nông dân",
+      "seed": 3129875789,
+      "sheetPrompt": "a kind old Vietnamese farmer in a brown shirt and conical hat with a gentle tired face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ran",
+      "name": "Con rắn",
+      "seed": 2716932549,
+      "sheetPrompt": "a green cartoon snake with big round eyes and a grumpy pout, cute and not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hac",
+      "name": "Bác hạc",
+      "seed": 2261177531,
+      "sheetPrompt": "a tall wise white crane with a red crown and a calm kind face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "qua",
+      "name": "Bác quạ",
+      "seed": 970295279,
+      "sheetPrompt": "a glossy black crow with sharp clever eyes and a stern but fair face, cute style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Nếu có ai chăm sóc mình từ lúc còn bé, mình sẽ đối xử với người ấy thế nào nhỉ? Chắc chắn là phải thương và biết ơn rồi. Nhưng ngày xưa có một con rắn được nuôi từ bé, lớn lên lại quay ra dọa người nuôi mình. Rồi ai sẽ phân xử chuyện này? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Nếu có ai chăm sóc mình từ lúc còn bé, mình sẽ đối xử với người ấy thế nào nhỉ?",
+        "Chắc chắn là phải thương và biết ơn rồi.",
+        "Nhưng ngày xưa có một con rắn được nuôi từ bé, lớn lên lại quay ra dọa người nuôi mình.",
+        "Rồi ai sẽ phân xử chuyện này?",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a bamboo bench with an open picture book, hugging a small potted plant she has been caring for",
+        "seed": 450120720
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello and opens the picture book, pages flutter softly, gentle camera push-in",
+        "seed": 2212598227
+      },
+      "voice": {}
+    },
+    {
+      "id": "nuoi-ran",
+      "title": "Bác nuôi rắn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bác nông dân nuôi một con rắn từ lúc rắn còn bé xíu. Ngày ngày, bác lội đồng bắt cào cào, châu chấu mang về cho rắn ăn. Rắn lớn dần, thân dài, vảy bóng. Một hôm, bác đi khắp đồng mà chẳng kiếm được gì. Bác về tay không, mệt lả. Rắn đói, nổi giận, rít lên: Không có gì cho tôi ăn thì tôi cắn ông đấy!",
+      "subtitles": [
+        "Ngày xưa, có một bác nông dân nuôi một con rắn từ lúc rắn còn bé xíu.",
+        "Ngày ngày, bác lội đồng bắt cào cào, châu chấu mang về cho rắn ăn.",
+        "Rắn lớn dần, thân dài, vảy bóng.",
+        "Một hôm, bác đi khắp đồng mà chẳng kiếm được gì.",
+        "Bác về tay không, mệt lả.",
+        "Rắn đói, nổi giận, rít lên: Không có gì cho tôi ăn thì tôi cắn ông đấy!"
+      ],
+      "image": {
+        "character": "ran",
+        "prompt": "a tired old farmer with empty hands stands in his yard at dusk, a grumpy green cartoon snake rears up and hisses at him, a woven basket lies empty",
+        "seed": 1902218608
+      },
+      "video": {
+        "motionPrompt": "the farmer shows his empty hands and sighs, the cartoon snake puffs up and hisses, a breeze rustles the bamboo",
+        "seed": 4143660041
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoi-hac",
+      "title": "Hỏi bác hạc",
+      "narrator": "ke-chuyen",
+      "narration": "Bác nông dân tức lắm, nhưng vẫn bình tĩnh bảo: Được, nhưng hai ta phải đi hỏi vài nơi đã, xem có nên làm thế không. Rắn đồng ý. Hai bên đến hỏi bác hạc trước. Hạc nghe xong, lắc đầu bảo rắn: Ai nuôi mày lớn chừng ấy, mà nay mày lại muốn cắn người ta? Thế còn tình nghĩa gì nữa! Rắn cúi đầu im lặng, nhưng trong bụng vẫn chưa chịu.",
+      "subtitles": [
+        "Bác nông dân tức lắm, nhưng vẫn bình tĩnh bảo: Được,",
+        "nhưng hai ta phải đi hỏi vài nơi đã, xem có nên làm thế không.",
+        "Rắn đồng ý.",
+        "Hai bên đến hỏi bác hạc trước.",
+        "Hạc nghe xong, lắc đầu bảo rắn: Ai nuôi mày lớn chừng ấy,",
+        "mà nay mày lại muốn cắn người ta?",
+        "Thế còn tình nghĩa gì nữa!",
+        "Rắn cúi đầu im lặng, nhưng trong bụng vẫn chưa chịu."
+      ],
+      "image": {
+        "character": "hac",
+        "prompt": "by a lotus pond, a tall wise white crane shakes its head and points a wing at the green cartoon snake, the old farmer stands beside them hopefully",
+        "seed": 33924660
+      },
+      "video": {
+        "motionPrompt": "the crane shakes its head slowly and points its wing, the snake lowers its head, lotus leaves sway, gentle camera move",
+        "seed": 2192638882
+      },
+      "voice": {}
+    },
+    {
+      "id": "rua-va-qua",
+      "title": "Rùa và quạ",
+      "narrator": "ke-chuyen",
+      "narration": "Hai bên lại đến hỏi lão rùa. Rùa chậm rãi bảo bác nông dân: Nuôi nó mà không cho nó ăn, thì nó cắn cũng chẳng oan. Rắn nghe thế, khoái chí lắm. Cuối cùng, hai bên đến hỏi bác quạ. Quạ nghe chuyện, giận rắn quá, chẳng nói chẳng rằng, sà xuống mổ cho rắn mấy cái thật đau. Rắn kêu oai oái, vội bò đi kiện lên ông Bụt.",
+      "subtitles": [
+        "Hai bên lại đến hỏi lão rùa.",
+        "Rùa chậm rãi bảo bác nông dân: Nuôi nó mà không cho nó ăn, thì nó cắn cũng chẳng oan.",
+        "Rắn nghe thế, khoái chí lắm.",
+        "Cuối cùng, hai bên đến hỏi bác quạ.",
+        "Quạ nghe chuyện, giận rắn quá, chẳng nói chẳng rằng, sà xuống mổ cho rắn mấy cái thật đau.",
+        "Rắn kêu oai oái, vội bò đi kiện lên ông Bụt."
+      ],
+      "image": {
+        "character": "qua",
+        "prompt": "a slow old tortoise on a riverbank shrugs, then a black crow swoops down and pecks the green cartoon snake on the tail, the snake jumps with a comical yelp",
+        "seed": 93285885
+      },
+      "video": {
+        "motionPrompt": "the tortoise shrugs slowly, the crow flaps down and gives a quick peck, the snake jumps and wriggles away, comic timing",
+        "seed": 1241450189
+      },
+      "voice": {}
+    },
+    {
+      "id": "but-xu",
+      "title": "Bụt phân xử",
+      "narrator": "ke-chuyen",
+      "narration": "Bụt nghe đầu đuôi, phán rằng: Hạc nói có tình có nghĩa, cho hạc được đứng trên cao. Rùa nói không phải lẽ, cho rùa ở dưới thấp. Còn rắn được người nuôi mà quên ơn, phải chịu phạt, để quạ trông chừng. Vì thế ở đình chùa, hạc đứng trên cao, rùa đội bia đá dưới thấp. Còn quạ đậu trên ngọn cây nêu, dưới buông tấm vải trắng trông như con rắn bị quạ cắp đi.",
+      "subtitles": [
+        "Bụt nghe đầu đuôi, phán rằng: Hạc nói có tình có nghĩa, cho hạc được đứng trên cao.",
+        "Rùa nói không phải lẽ, cho rùa ở dưới thấp.",
+        "Còn rắn được người nuôi mà quên ơn, phải chịu phạt, để quạ trông chừng.",
+        "Vì thế ở đình chùa, hạc đứng trên cao, rùa đội bia đá dưới thấp.",
+        "Còn quạ đậu trên ngọn cây nêu, dưới buông tấm vải trắng trông như con rắn bị quạ cắp đi."
+      ],
+      "image": {
+        "prompt": "a pagoda courtyard with a crane statue standing high, a stone stele resting on a tortoise, and a tall bamboo pole topped by a crow with a long white cloth banner hanging down, a kind old fairy grandfather smiles",
+        "seed": 657343647
+      },
+      "video": {
+        "motionPrompt": "the white banner flutters in the wind, the crow on the pole tilts its head, incense smoke curls, slow tilt up the bamboo pole",
+        "seed": 4077696054
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn ạ, rắn được bác nông dân nuôi lớn, chỉ một hôm đói bụng mà quên hết ơn nghĩa. Bác hạc nói rất đúng: ai giúp mình thì mình phải nhớ ơn. Khi bố mẹ, ông bà hay bạn bè chưa làm được điều mình muốn, mình hãy thông cảm, đừng giận dỗi nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn ạ, rắn được bác nông dân nuôi lớn, chỉ một hôm đói bụng mà quên hết ơn nghĩa.",
+        "Bác hạc nói rất đúng: ai giúp mình thì mình phải nhớ ơn.",
+        "Khi bố mẹ, ông bà hay bạn bè chưa làm được điều mình muốn,",
+        "mình hãy thông cảm, đừng giận dỗi nhé.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the pagoda courtyard, the crane and the old farmer smile beside her",
+        "seed": 79230054
+      },
+      "video": {
+        "motionPrompt": "the cat waves goodbye slowly, the friends wave back, leaves drift in the breeze, gentle camera pull-back",
+        "seed": 524054431
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Vietnamese folk melody, bamboo flute and dan bau monochord with soft temple bells, thoughtful and calm, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2923186622
+  }
+}

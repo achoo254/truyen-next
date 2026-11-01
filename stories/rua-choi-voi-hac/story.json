@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "slug": "rua-choi-voi-hac",
+  "shelf": "kids",
+  "title": "Rùa chơi với hạc",
+  "summary": "Vì sao ở đình chùa, con hạc lại đứng trên lưng con rùa? Chú rùa cô đơn được ông Bụt cho làm bạn với hạc, nhưng hạc vẫn còn ngần ngại. Truyện cổ nước Nam kể lại nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Rùa chơi với hạc» (số 37) trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, thoại viết thêm cho sinh động, ý nghĩ của hạc cũng viết thêm, lời rút ý nhẹ ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, a quiet lotus lake beside an old village pagoda, reeds, lily pads and soft misty mountains, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 4210289957
+    },
+    {
+      "id": "rua",
+      "name": "Chú rùa",
+      "seed": 255029174,
+      "sheetPrompt": "a small gentle tortoise with a round green-brown shell and kind lonely eyes, cute and calm, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hac",
+      "name": "Chú hạc",
+      "seed": 2792695351,
+      "sheetPrompt": "a tall elegant white crane with a red crown, long neck and thin legs, a little proud but friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "but",
+      "name": "Ông Bụt",
+      "seed": 1853064086,
+      "sheetPrompt": "a kind old Vietnamese folk-tale fairy grandfather with a long white beard, simple brown robe and a gentle smile, holding a walking staff, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Ở đình chùa, các bạn đã bao giờ thấy tượng con hạc đứng trên lưng con rùa chưa? Hạc thì cao, cổ dài, chân mảnh. Rùa thì thấp, chậm, mai tròn. Hai bạn khác nhau như thế mà lúc nào cũng đi cùng nhau. Vì sao hạc lại đứng trên lưng rùa nhỉ? Hôm nay Miu kể cho các bạn nghe một câu chuyện ngày xưa nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Ở đình chùa, các bạn đã bao giờ thấy tượng con hạc đứng trên lưng con rùa chưa?",
+        "Hạc thì cao, cổ dài, chân mảnh.",
+        "Rùa thì thấp, chậm, mai tròn.",
+        "Hai bạn khác nhau như thế mà lúc nào cũng đi cùng nhau.",
+        "Vì sao hạc lại đứng trên lưng rùa nhỉ?",
+        "Hôm nay Miu kể cho các bạn nghe một câu chuyện ngày xưa nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat stands in a pagoda courtyard looking up at a bronze statue of a crane standing on a tortoise, incense smoke curling softly, an open picture book in her paws",
+        "seed": 2308105686
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello and opens the picture book, pages flutter softly, gentle camera push-in",
+        "seed": 1565937584
+      },
+      "voice": {}
+    },
+    {
+      "id": "rua-co-don",
+      "title": "Rùa buồn vì không có bạn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một chú rùa sống bên hồ nước. Rùa đứng chung hàng tứ linh với rồng, lân và phượng, nên rất muốn kết bạn với các anh ấy. Nhưng rồng thì ở tận trên trời cao, chẳng mấy khi xuống. Lân ở sâu trong rừng xanh, chẳng mấy khi ra. Phượng ở nơi núi non xa xôi, chẳng mấy khi tới. Rùa ngồi một mình bên hồ, buồn thiu, ngày nào cũng chẳng biết chơi với ai.",
+      "subtitles": [
+        "Ngày xưa, có một chú rùa sống bên hồ nước.",
+        "Rùa đứng chung hàng tứ linh với rồng, lân và phượng, nên rất muốn kết bạn với các anh ấy.",
+        "Nhưng rồng thì ở tận trên trời cao, chẳng mấy khi xuống.",
+        "Lân ở sâu trong rừng xanh, chẳng mấy khi ra.",
+        "Phượng ở nơi núi non xa xôi, chẳng mấy khi tới.",
+        "Rùa ngồi một mình bên hồ, buồn thiu, ngày nào cũng chẳng biết chơi với ai."
+      ],
+      "image": {
+        "character": "rua",
+        "prompt": "a small lonely tortoise sits alone on a stone by a misty lake, far away a dragon flies among clouds, a unicorn-lion stands in a distant forest and a phoenix rests on a faraway mountain",
+        "seed": 2913116597
+      },
+      "video": {
+        "motionPrompt": "the tortoise sighs and looks up, the far dragon glides away into the clouds, mist drifts over the lake, slow gentle camera drift",
+        "seed": 1367685639
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-but",
+      "title": "Rùa gặp ông Bụt",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, ông Bụt hiện ra bên hồ. Rùa vội hỏi: Ông Bụt ơi, con muốn có bạn, mà các anh rồng, lân, phượng đều ở xa quá. Con biết làm bạn với ai bây giờ? Bụt hiền từ bảo: Con được trời cho sống lâu, ít ai sống lâu bằng con. Ta cho con làm bạn với con hạc, vì hạc cũng sống lâu lắm. Người ta vẫn nói tóc hạc tuổi rùa đấy. Rùa nghe vậy, mừng rỡ gật đầu.",
+      "subtitles": [
+        "Một hôm, ông Bụt hiện ra bên hồ.",
+        "Rùa vội hỏi: Ông Bụt ơi, con muốn có bạn, mà các anh rồng, lân, phượng đều ở xa quá.",
+        "Con biết làm bạn với ai bây giờ?",
+        "Bụt hiền từ bảo: Con được trời cho sống lâu, ít ai sống lâu bằng con.",
+        "Ta cho con làm bạn với con hạc, vì hạc cũng sống lâu lắm.",
+        "Người ta vẫn nói tóc hạc tuổi rùa đấy.",
+        "Rùa nghe vậy, mừng rỡ gật đầu."
+      ],
+      "image": {
+        "character": "but",
+        "prompt": "a kind old fairy grandfather with a white beard appears in a soft glow by the lake, smiling down at the small tortoise who looks up hopefully",
+        "seed": 2494075540
+      },
+      "video": {
+        "motionPrompt": "a soft golden glow appears, the old grandfather smiles and speaks, the tortoise nods happily, lily pads bob on the water",
+        "seed": 440245124
+      },
+      "voice": {}
+    },
+    {
+      "id": "hac-ngan-ngai",
+      "title": "Hạc ngần ngại",
+      "narrator": "ke-chuyen",
+      "narration": "Vừa lúc đó, một đàn hạc trắng bay ngang qua. Bụt giơ tay vẫy, một chú hạc liền sà xuống. Bụt bảo: Con hãy làm bạn với rùa, kẻo rùa một mình tội nghiệp. Hạc nghiêng đầu nói: Con bay cao, còn anh rùa thì không biết bay, làm bạn sao được ạ? Bụt cười: Lúc đi kiếm ăn thì thôi, còn lúc rảnh rỗi thì con xuống chơi với rùa, cho rùa đỡ buồn. Hạc đành vâng lời.",
+      "subtitles": [
+        "Vừa lúc đó, một đàn hạc trắng bay ngang qua.",
+        "Bụt giơ tay vẫy, một chú hạc liền sà xuống.",
+        "Bụt bảo: Con hãy làm bạn với rùa, kẻo rùa một mình tội nghiệp.",
+        "Hạc nghiêng đầu nói: Con bay cao, còn anh rùa thì không biết bay, làm bạn sao được ạ?",
+        "Bụt cười: Lúc đi kiếm ăn thì thôi,",
+        "còn lúc rảnh rỗi thì con xuống chơi với rùa, cho rùa đỡ buồn.",
+        "Hạc đành vâng lời."
+      ],
+      "image": {
+        "character": "hac",
+        "prompt": "a flock of white cranes flies over the lake, one tall crane lands beside the old fairy grandfather and tilts its head doubtfully at the small tortoise",
+        "seed": 3683677989
+      },
+      "video": {
+        "motionPrompt": "the cranes fly across the sky, one crane glides down and lands, tilts its head, the grandfather laughs kindly, reeds sway",
+        "seed": 1706544246
+      },
+      "voice": {}
+    },
+    {
+      "id": "dung-tren-lung",
+      "title": "Hạc đứng trên lưng rùa",
+      "narrator": "ke-chuyen",
+      "narration": "Từ hôm đó, hạc thỉnh thoảng lại sà xuống bên hồ chơi với rùa. Nhưng trong lòng hạc vẫn chưa ưng lắm. Hạc nghĩ: Mình cao thế này, cúi xuống nói chuyện với rùa thì mỏi cổ quá. Thế là mỗi lần đến chơi, hạc lại bước lên lưng rùa mà đứng. Rùa thì hiền, cứ để yên cho bạn đứng. Người ta nhìn mãi thành quen, nên khi làm tượng cũng làm hình hạc đứng trên lưng rùa.",
+      "subtitles": [
+        "Từ hôm đó, hạc thỉnh thoảng lại sà xuống bên hồ chơi với rùa.",
+        "Nhưng trong lòng hạc vẫn chưa ưng lắm.",
+        "Hạc nghĩ: Mình cao thế này, cúi xuống nói chuyện với rùa thì mỏi cổ quá.",
+        "Thế là mỗi lần đến chơi, hạc lại bước lên lưng rùa mà đứng.",
+        "Rùa thì hiền, cứ để yên cho bạn đứng.",
+        "Người ta nhìn mãi thành quen, nên khi làm tượng cũng làm hình hạc đứng trên lưng rùa."
+      ],
+      "image": {
+        "character": "hac",
+        "prompt": "the tall white crane stands on the back of the patient tortoise by the lake, the tortoise smiles gently, a villager in the distance carves a small wooden statue of the pair",
+        "seed": 1964176715
+      },
+      "video": {
+        "motionPrompt": "the crane steps onto the tortoise shell and stretches its neck, the tortoise blinks contentedly, ripples spread, slow push-in",
+        "seed": 4129249043
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn ạ, rùa đã mở lòng muốn làm bạn, còn hạc thì vẫn ngại vì hai bạn chẳng giống nhau. Nhưng làm bạn đâu cần phải giống hệt nhau. Bạn cao, bạn thấp, bạn nhanh, bạn chậm, vẫn có thể chơi vui với nhau. Mình hãy đối xử với bạn bè thật lòng, đừng coi mình hơn bạn nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn ạ, rùa đã mở lòng muốn làm bạn, còn hạc thì vẫn ngại vì hai bạn chẳng giống nhau.",
+        "Nhưng làm bạn đâu cần phải giống hệt nhau.",
+        "Bạn cao, bạn thấp, bạn nhanh, bạn chậm, vẫn có thể chơi vui với nhau.",
+        "Mình hãy đối xử với bạn bè thật lòng, đừng coi mình hơn bạn nhé.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye by the lotus lake, the crane now stands beside the tortoise on the grass instead of on his back, both smiling",
+        "seed": 3441844816
+      },
+      "video": {
+        "motionPrompt": "the cat waves goodbye slowly, the friends wave back, leaves drift in the breeze, gentle camera pull-back",
+        "seed": 4024117920
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "peaceful Vietnamese pagoda melody, bamboo flute and dan bau monochord with soft wooden bells, gentle and warm, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3720245436
+  }
+}

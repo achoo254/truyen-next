@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-doi-khong-chiu-diem-danh",
+  "shelf": "kids",
+  "title": "Con dơi không chịu điểm danh",
+  "summary": "Phượng hoàng gọi các loài chim đến họp, kỳ lân gọi các loài thú đến chào, lần nào cũng thiếu mỗi chú dơi. Bị bắt đến, dơi cãi rằng mình chẳng ở làng nào cả. Truyện cổ Việt Nam vui nhộn về chú dơi chẳng phải chim, cũng chẳng phải thú.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Con dơi» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: các loài đòi phạt dơi chứ không nói tiền vạ; lời bàn cuối của sách được thay bằng lời Mèo Miu. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, thêm thoại, lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, a grand gathering of birds and animals in a magical forest glade, a phoenix and a qilin as gentle kings, calm and safe mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 122002127,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "doi",
+      "name": "Chú dơi",
+      "seed": 1636381280,
+      "sheetPrompt": "a small brown fruit bat with big ears, wide leathery wings and a calm clever smile, round cartoon style, not scary, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "phuong-hoang",
+      "name": "Phượng hoàng",
+      "seed": 2296587754,
+      "sheetPrompt": "a graceful Vietnamese phoenix with long flowing colourful tail feathers and a gentle royal face, storybook style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ky-lan",
+      "name": "Kỳ lân",
+      "seed": 2218773627,
+      "sheetPrompt": "a friendly Vietnamese qilin with green scales, a curly mane and a kind royal face, storybook style, not scary, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có biết con dơi không? Dơi có cánh, bay được như chim, nhưng lại có lông mịn và nuôi con bằng sữa như các loài thú. Vậy dơi là chim hay là thú nhỉ? Ngày xưa, chính chú dơi đã làm cả làng chim lẫn làng thú phải ngẩn người đấy. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có biết con dơi không?",
+        "Dơi có cánh, bay được như chim,",
+        "nhưng lại có lông mịn và nuôi con bằng sữa như các loài thú.",
+        "Vậy dơi là chim hay là thú nhỉ?",
+        "Ngày xưa, chính chú dơi đã làm cả làng chim lẫn làng thú phải ngẩn người đấy.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a branch at dusk looking curiously at a small bat hanging upside down next to her, a bird and a deer watch from below",
+        "seed": 2848232995
+      },
+      "video": {
+        "motionPrompt": "the bat swings and waves a wing, the cat tilts her head upside down to look, the bird and deer peek, slow camera push-in",
+        "seed": 2985278055
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoi-lang-chim",
+      "title": "Làng chim điểm danh",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, kỳ lân, vua của muông thú, đến chơi nhà phượng hoàng, vua của loài chim. Phượng hoàng truyền cho các loài chim đến đông đủ để chào mừng khách. Quạ ra điểm danh, vừa bay vừa kêu: Chắc ấp! Chắc ấp! Loài nào cũng có mặt, chỉ thiếu mỗi anh dơi. Chờ mãi chẳng thấy, phượng hoàng bèn sai người đi gọi.",
+      "subtitles": [
+        "Một hôm, kỳ lân, vua của muông thú, đến chơi nhà phượng hoàng, vua của loài chim.",
+        "Phượng hoàng truyền cho các loài chim đến đông đủ để chào mừng khách.",
+        "Quạ ra điểm danh, vừa bay vừa kêu: Chắc ấp!",
+        "Chắc ấp! Loài nào cũng có mặt, chỉ thiếu mỗi anh dơi.",
+        "Chờ mãi chẳng thấy, phượng hoàng bèn sai người đi gọi."
+      ],
+      "image": {
+        "character": "phuong-hoang",
+        "prompt": "the graceful phoenix sits on a flowering tree welcoming the friendly qilin, many birds of all kinds gather in rows, a crow flies over them counting",
+        "seed": 2429468671
+      },
+      "video": {
+        "motionPrompt": "the crow flaps over the rows calling out, birds raise their wings one by one, the phoenix looks around for someone missing, gentle camera pan",
+        "seed": 3483224238
+      },
+      "voice": {}
+    },
+    {
+      "id": "cu-nguoi-di-goi",
+      "title": "Cử ai đi gọi dơi",
+      "narrator": "ke-chuyen",
+      "narration": "Các loài chim xin cử bác cò, vì chân cao đi nhanh. Cò lắc đầu: Tôi là bậc đàn anh, xin cử em nào nhỏ hơn. Vẹt nhảy ra: Xin cử anh choi choi! Chích chòe cãi: Choi choi vừa đi vừa nhảy, bao giờ mới tới nơi? Vẹt dỗi: Anh chích đã nói thế, thì cử luôn anh ấy đi cho nhanh! Phượng hoàng thấy phải, sai chích chòe đi. Một lát sau, chích chòe về, dẫn theo cả dơi.",
+      "subtitles": [
+        "Các loài chim xin cử bác cò, vì chân cao đi nhanh.",
+        "Cò lắc đầu: Tôi là bậc đàn anh, xin cử em nào nhỏ hơn.",
+        "Vẹt nhảy ra: Xin cử anh choi choi!",
+        "Chích chòe cãi: Choi choi vừa đi vừa nhảy, bao giờ mới tới nơi?",
+        "Vẹt dỗi: Anh chích đã nói thế, thì cử luôn anh ấy đi cho nhanh!",
+        "Phượng hoàng thấy phải, sai chích chòe đi.",
+        "Một lát sau, chích chòe về, dẫn theo cả dơi."
+      ],
+      "image": {
+        "character": "phuong-hoang",
+        "prompt": "a tall heron shakes its head, a green parrot points at a little plover hopping, a black and white magpie robin flies off quickly, the phoenix nods",
+        "seed": 439705852
+      },
+      "video": {
+        "motionPrompt": "the heron turns away, the parrot squawks and points, the plover hops in place, the magpie robin zooms off, comic timing, gentle camera drift",
+        "seed": 1268970255
+      },
+      "voice": {}
+    },
+    {
+      "id": "doi-cai-chim",
+      "title": "Dơi cãi với làng chim",
+      "narrator": "ke-chuyen",
+      "narration": "Vừa thấy dơi, các loài chim nhao nhao: Anh dơi chẳng coi làng ra gì! Phải phạt cho chừa! Dơi chẳng sợ chút nào, thong thả nói: Các anh nói gì lạ thế? Tôi có ở làng chim đâu mà bắt tôi đi họp. Không tin, cứ giở sổ ra xem! Phượng hoàng giở sổ, quả nhiên chẳng có tên dơi trong họ nhà chim. Phượng hoàng đành tha, các loài chim ngượng ngùng im bặt.",
+      "subtitles": [
+        "Vừa thấy dơi, các loài chim nhao nhao: Anh dơi chẳng coi làng ra gì!",
+        "Phải phạt cho chừa! Dơi chẳng sợ chút nào, thong thả nói: Các anh nói gì lạ thế?",
+        "Tôi có ở làng chim đâu mà bắt tôi đi họp.",
+        "Không tin, cứ giở sổ ra xem!",
+        "Phượng hoàng giở sổ, quả nhiên chẳng có tên dơi trong họ nhà chim.",
+        "Phượng hoàng đành tha, các loài chim ngượng ngùng im bặt."
+      ],
+      "image": {
+        "character": "doi",
+        "prompt": "the little bat stands calmly in the middle of a crowd of noisy birds, the phoenix opens a big old book of names with a puzzled face",
+        "seed": 964440438
+      },
+      "video": {
+        "motionPrompt": "the birds flap and chatter, the bat folds its wings and smiles, the phoenix flips the pages and blinks, the birds go quiet, slow camera push-in",
+        "seed": 1515967970
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoi-lang-thu",
+      "title": "Làng thú điểm danh",
+      "narrator": "ke-chuyen",
+      "narration": "Ít lâu sau, phượng hoàng sang thăm kỳ lân. Kỳ lân cũng gọi hết các loài thú đến chào. Chú ễnh ương ra điểm danh, vừa nhảy vừa kêu: Ì ộp! Ì ộp! Lại thiếu mỗi anh dơi. Ngựa được sai đi gọi, phi một lát đã dẫn dơi về. Các loài thú ồn ào đòi phạt. Dơi lại thủng thẳng: Tôi có ở làng thú đâu, cứ giở sổ ra mà xem! Kỳ lân giở sổ, quả nhiên chẳng có tên dơi. Các loài thú cũng đành chịu.",
+      "subtitles": [
+        "Ít lâu sau, phượng hoàng sang thăm kỳ lân.",
+        "Kỳ lân cũng gọi hết các loài thú đến chào.",
+        "Chú ễnh ương ra điểm danh, vừa nhảy vừa kêu: Ì ộp!",
+        "Ì ộp! Lại thiếu mỗi anh dơi. Ngựa được sai đi gọi, phi một lát đã dẫn dơi về.",
+        "Các loài thú ồn ào đòi phạt.",
+        "Dơi lại thủng thẳng: Tôi có ở làng thú đâu, cứ giở sổ ra mà xem!",
+        "Kỳ lân giở sổ, quả nhiên chẳng có tên dơi.",
+        "Các loài thú cũng đành chịu."
+      ],
+      "image": {
+        "character": "ky-lan",
+        "prompt": "the friendly qilin opens a big book of names, many animals gather around, a horse stands beside the little bat, a frog sits on a stone, the phoenix watches",
+        "seed": 3064447169
+      },
+      "video": {
+        "motionPrompt": "the frog hops and croaks, the horse trots in with the bat, the animals stamp and grumble, the qilin flips the pages and shrugs, comic timing",
+        "seed": 3577665425
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thế là dơi chẳng ở làng chim, cũng chẳng ở làng thú, chẳng họp với ai cả. Dơi khéo cãi thật, nhưng chẳng thuộc về đâu thì cũng chẳng có bạn bè nào. Các bạn ạ, ở lớp, ở nhà, mình là một phần của mọi người, nên cùng góp sức vào việc chung nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Thế là dơi chẳng ở làng chim, cũng chẳng ở làng thú, chẳng họp với ai cả.",
+        "Dơi khéo cãi thật, nhưng chẳng thuộc về đâu thì cũng chẳng có bạn bè nào.",
+        "Các bạn ạ, ở lớp, ở nhà, mình là một phần của mọi người,",
+        "nên cùng góp sức vào việc chung nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at dusk, birds on one side and animals on the other side, the little bat hangs alone on a branch between them",
+        "seed": 3207116194
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the birds and animals wave together, the bat peeks and gives a small wave, the moon rises, gentle camera pull-back",
+        "seed": 1198015050
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "whimsical Vietnamese folk melody with dan tranh and bamboo flute, light gongs for the royal gatherings, playful and curious, twilight calm ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3078947917
+  }
+}

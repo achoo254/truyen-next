@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-tho-lau-linh",
+  "shelf": "world",
+  "title": "Chú thỏ láu lỉnh",
+  "summary": "Chú thỏ nhỏ mồ côi sống với bà nội nghèo ở xứ băng tuyết, một mình bắt được cả lưới cá rồi liều sang bờ bên kia sông xin về một đốm lửa. Truyện dân gian thổ dân Bắc Mỹ trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Cunning Hare\" trong The Brown Fairy Book do Andrew Lang biên tập (1904), gốc truyện dân gian thổ dân Bắc Mỹ, Project Gutenberg #3282, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ đoạn chú thỏ bị bắt, không chép bản dịch nào.",
+  "basedOn": "Andrew Lang, The Brown Fairy Book (1904)",
+  "style": "classic children's picture book illustration of a snowy northern land, birch woods, an icy river thawing in spring, little hide tents with curling smoke, a small brown hare and his old grandmother, soft watercolor and colored pencil, palette of snow white, icy blue, warm ember orange and birch brown, cozy and gentle, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "tho-nho",
+      "name": "Chú thỏ nhỏ",
+      "sheetPrompt": "a small young brown hare from a northern folk tale, long ears, bright brave eyes, a little fur scarf, standing upright like a storybook animal, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3342717199
+    },
+    {
+      "id": "ba-noi-tho",
+      "name": "Bà nội thỏ",
+      "sheetPrompt": "an old grey grandmother hare from a northern folk tale, wrapped in a patched fur shawl, gentle tired eyes, leaning on a small walking stick, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2689623813
+    }
+  ],
+  "scenes": [
+    {
+      "id": "xu-bang-tuyet",
+      "title": "Ở xứ băng tuyết",
+      "narrator": "ke-chuyen",
+      "narration": "Ở một xứ lạnh xa tít bên kia biển, nơi băng tuyết phủ kín mặt đất gần như quanh năm, có một chú thỏ nhỏ sống với bà nội. Bố mẹ chú đã đi xa từ khi chú còn bé xíu, chẳng bao giờ quay về nữa. Chú thì còn nhỏ quá, bà thì đã già quá, nên hai bà cháu nghèo lắm, nhiều hôm chẳng có gì bỏ bụng. Rồi một ngày, băng trên sông tan, nước lại chảy róc rách.",
+      "subtitles": [
+        "Ở một xứ lạnh xa tít bên kia biển,",
+        "nơi băng tuyết phủ kín mặt đất gần như quanh năm, có một chú thỏ nhỏ sống với bà nội.",
+        "Bố mẹ chú đã đi xa từ khi chú còn bé xíu, chẳng bao giờ quay về nữa.",
+        "Chú thì còn nhỏ quá, bà thì đã già quá,",
+        "nên hai bà cháu nghèo lắm, nhiều hôm chẳng có gì bỏ bụng.",
+        "Rồi một ngày, băng trên sông tan, nước lại chảy róc rách."
+      ],
+      "image": {
+        "prompt": "a tiny snow covered hut at the edge of a birch wood, a small brown hare sitting by an empty cold hearth with his old grandmother, the river beyond beginning to thaw",
+        "seed": 1704258648,
+        "character": "tho-nho"
+      },
+      "video": {
+        "motionPrompt": "snowflakes drift slowly, ice cracks gently on the river, the little hare twitches his ears and looks toward the water",
+        "seed": 33777795
+      },
+      "voice": {}
+    },
+    {
+      "id": "xin-di-bat-ca",
+      "title": "Xin đi bắt cá",
+      "narrator": "ke-chuyen",
+      "narration": "\"Bà ơi, cho cháu ra sông thả lưới bắt cá về ăn sáng nhé!\" chú thỏ nói. Bà bật cười: \"Cá nào mà chịu để một chú thỏ con bắt hả cháu?\" Nhưng bà đau lưng, không tự kiếm được miếng ăn, nên đành chỉ cho chú chỗ cất tấm lưới cũ và cách giăng lưới qua sông. Chú vừa ra đến cửa, bà lại gọi: \"Mà có bắt được cá thì nhà mình cũng chẳng có lửa để nướng đâu cháu.\" Chú thỏ vui vẻ đáp: \"Bà cứ để cháu bắt cá, rồi cháu sẽ mang lửa về cho bà!\"",
+      "subtitles": [
+        "\"Bà ơi, cho cháu ra sông thả lưới bắt cá về ăn sáng nhé!\"",
+        "chú thỏ nói. Bà bật cười: \"Cá nào mà chịu để một chú thỏ con bắt hả cháu?\"",
+        "Nhưng bà đau lưng, không tự kiếm được miếng ăn,",
+        "nên đành chỉ cho chú chỗ cất tấm lưới cũ và cách giăng lưới qua sông.",
+        "Chú vừa ra đến cửa, bà lại gọi:",
+        "\"Mà có bắt được cá thì nhà mình cũng chẳng có lửa để nướng đâu cháu.\"",
+        "Chú thỏ vui vẻ đáp: \"Bà cứ để cháu bắt cá, rồi cháu sẽ mang lửa về cho bà!\""
+      ],
+      "image": {
+        "prompt": "inside a humble hide hut, the old grandmother hare pointing to an old rolled fishing net, the little hare puffing out his chest proudly",
+        "seed": 3637543813,
+        "character": "ba-noi-tho"
+      },
+      "video": {
+        "motionPrompt": "the grandmother shakes her head with a smile, the little hare hoists the heavy net onto his back and hops to the door",
+        "seed": 1878725041
+      },
+      "voice": {}
+    },
+    {
+      "id": "luoi-day-ca",
+      "title": "Lưới đầy cá",
+      "narrator": "ke-chuyen",
+      "narration": "Chú kéo tấm lưới qua bụi rậm, qua cánh đồng, đến một vũng sông người ta đồn là cá nhiều vô kể, rồi giăng lưới đúng như lời bà dặn. Cả đêm ấy chú hồi hộp chẳng ngủ được. Vừa hửng sáng, chú đã chạy một mạch ra sông, tim đập thình thịch. Ôi chao, mắt lưới nào cũng có một con cá béo núc! Lưới nặng đến nỗi chú chỉ nhấc nổi một góc. Chú thả bớt cá xuống nước, giấu một ít dưới hòn đá, rồi cuộn phần còn lại cõng về nhà.",
+      "subtitles": [
+        "Chú kéo tấm lưới qua bụi rậm, qua cánh đồng,",
+        "đến một vũng sông người ta đồn là cá nhiều vô kể, rồi giăng lưới đúng như lời bà dặn.",
+        "Cả đêm ấy chú hồi hộp chẳng ngủ được.",
+        "Vừa hửng sáng, chú đã chạy một mạch ra sông, tim đập thình thịch.",
+        "Ôi chao, mắt lưới nào cũng có một con cá béo núc!",
+        "Lưới nặng đến nỗi chú chỉ nhấc nổi một góc.",
+        "Chú thả bớt cá xuống nước, giấu một ít dưới hòn đá, rồi cuộn phần còn lại cõng về nhà."
+      ],
+      "image": {
+        "prompt": "dawn over a river pool, the little hare tugging at a fishing net full of shining silver fish, pink morning light on the snow",
+        "seed": 67813838,
+        "character": "tho-nho"
+      },
+      "video": {
+        "motionPrompt": "silver fish wriggle and sparkle in the net, the hare strains and pulls, water splashes in the morning light",
+        "seed": 834047330
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-ca-voi",
+      "title": "Cây cầu cá voi",
+      "narrator": "ke-chuyen",
+      "narration": "Bà nội làm cá, còn chú thỏ thì gấp tấm lưới thật nhỏ, chạy ra bờ sông. Lửa chỉ có ở những căn lều bên kia sông, mà dòng sông thì rộng quá, chẳng ai nhảy qua nổi. Chú đứng ngẫm một lúc, rồi chợt nhớ mấy câu thần chú từng nghe một ông phù thủy lẩm nhẩm bên bờ nước. Chú đọc lại, và chẳng bao lâu, mười lăm con cá voi khổng lồ phun nước bơi tới. Chú bảo chúng xếp hàng đầu nối đuôi, rồi nhảy từ lưng con này sang lưng con khác, sang tận bờ bên kia.",
+      "subtitles": [
+        "Bà nội làm cá, còn chú thỏ thì gấp tấm lưới thật nhỏ, chạy ra bờ sông.",
+        "Lửa chỉ có ở những căn lều bên kia sông, mà dòng sông thì rộng quá, chẳng ai nhảy qua nổi.",
+        "Chú đứng ngẫm một lúc,",
+        "rồi chợt nhớ mấy câu thần chú từng nghe một ông phù thủy lẩm nhẩm bên bờ nước.",
+        "Chú đọc lại, và chẳng bao lâu, mười lăm con cá voi khổng lồ phun nước bơi tới.",
+        "Chú bảo chúng xếp hàng đầu nối đuôi,",
+        "rồi nhảy từ lưng con này sang lưng con khác, sang tận bờ bên kia."
+      ],
+      "image": {
+        "prompt": "fifteen great friendly whales lined up head to tail across a wide river like stepping stones, the little hare leaping happily from back to back, fountains of spray in the air",
+        "seed": 1772800504,
+        "character": "tho-nho"
+      },
+      "video": {
+        "motionPrompt": "whales spout tall fountains of water, the little hare bounds from one broad back to the next, ripples spread across the river",
+        "seed": 2424619115
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-bat-trong-leu",
+      "title": "Bị bắt trong lều",
+      "narrator": "ke-chuyen",
+      "narration": "Chú vừa ngồi xuống bãi cát nghỉ chân thì một cậu bé chơi gần đó rón rén tới, túm chặt hai tai chú rồi chạy một mạch về lều. Bà cụ trong lều reo lên: \"Bỏ nó vào giỏ, nước sôi thì đem nấu!\" Chú thỏ sợ lắm, nhưng vẫn len lén nhìn quanh và thấy trên nóc lều có một lỗ thông khói. Chú giả vờ run rẩy, để một góc lưới khẽ bung ra, rồi thì thầm: \"Ước gì có một tia lửa rơi vào lưới của ta.\"",
+      "subtitles": [
+        "Chú vừa ngồi xuống bãi cát nghỉ chân thì một cậu bé chơi gần đó rón rén tới,",
+        "túm chặt hai tai chú rồi chạy một mạch về lều.",
+        "Bà cụ trong lều reo lên: \"Bỏ nó vào giỏ, nước sôi thì đem nấu!\"",
+        "Chú thỏ sợ lắm, nhưng vẫn len lén nhìn quanh và thấy trên nóc lều có một lỗ thông khói.",
+        "Chú giả vờ run rẩy, để một góc lưới khẽ bung ra,",
+        "rồi thì thầm: \"Ước gì có một tia lửa rơi vào lưới của ta.\""
+      ],
+      "image": {
+        "prompt": "inside a large hide tent with a crackling central fire and a pot hanging above, a family of villagers looking at the little hare in a basket, a smoke hole open in the roof",
+        "seed": 1615460689,
+        "character": "tho-nho"
+      },
+      "video": {
+        "motionPrompt": "firelight flickers on the tent walls, the little hare trembles and quietly lets a corner of his net unroll",
+        "seed": 770643082
+      },
+      "voice": {}
+    },
+    {
+      "id": "mang-lua-ve",
+      "title": "Mang lửa về nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Lập tức một khúc củi to đổ nhào vào giữa lều, tàn lửa bắn tung tóe, ai nấy giật lùi lại. Một tia lửa rơi trúng tấm lưới, bùng lên một ngọn lửa nhỏ. Chú thỏ nhảy vọt qua lỗ thông khói, ngậm chặt tấm lưới, chạy ra sông, ước một cái là bay vèo qua bờ bên này. Chú tung tăng về nhà, giơ tấm lưới đang cháy đỏ: \"Bà thấy chưa, cháu đã bảo sẽ mang lửa về mà!\" Bà hỏi chú qua sông bằng cách nào. Chú cười: \"Cháu nhảy thôi bà ạ!\" Bà không hỏi thêm nữa, vì bà biết đứa cháu nhỏ của mình khôn hơn bà nhiều.",
+      "subtitles": [
+        "Lập tức một khúc củi to đổ nhào vào giữa lều, tàn lửa bắn tung tóe, ai nấy giật lùi lại.",
+        "Một tia lửa rơi trúng tấm lưới, bùng lên một ngọn lửa nhỏ.",
+        "Chú thỏ nhảy vọt qua lỗ thông khói, ngậm chặt tấm lưới,",
+        "chạy ra sông, ước một cái là bay vèo qua bờ bên này.",
+        "Chú tung tăng về nhà, giơ tấm lưới đang cháy đỏ:",
+        "\"Bà thấy chưa, cháu đã bảo sẽ mang lửa về mà!\"",
+        "Bà hỏi chú qua sông bằng cách nào. Chú cười: \"Cháu nhảy thôi bà ạ!\"",
+        "Bà không hỏi thêm nữa, vì bà biết đứa cháu nhỏ của mình khôn hơn bà nhiều."
+      ],
+      "image": {
+        "prompt": "the little hare proudly holding up a net with a small warm flame at the door of the hut, the old grandmother smiling with wonder, fish ready to cook, sunset over the snow",
+        "seed": 3864206872,
+        "character": "tho-nho"
+      },
+      "video": {
+        "motionPrompt": "the small flame dances warmly on the net, the grandmother clasps her paws in joy, smoke begins to curl from the hut chimney",
+        "seed": 205348283
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle northern folk inspired instrumental music, soft frame drum, wooden flute and plucked strings, a playful hopping theme, a shimmering whale section, a cozy warm fireside ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3036284804
+  }
+}

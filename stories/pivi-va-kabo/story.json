@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "slug": "pivi-va-kabo",
+  "shelf": "world",
+  "title": "Pivi và Kabo",
+  "summary": "Chú chim Pivi vui vẻ được một người đàn bà tốt bụng bên sông chữa lành và biến thành chàng trai khôi ngô, còn Kabo đố kỵ bắt chước mà chẳng chịu nghe lời. Truyện dân gian đảo New Caledonia trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"Pivi and Kabo\" trong The Brown Fairy Book do Andrew Lang biên tập (1904), gốc truyện dân gian New Caledonia, Project Gutenberg #3282, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính; hai cô gái từ quả dừa được kể là hai cô em gái của Pivi thay vì hai người vợ, và kết cục của Kabo được kể nhẹ thành bị đuổi khỏi đảo; không chép bản dịch nào.",
+  "basedOn": "Andrew Lang, The Brown Fairy Book (1904)",
+  "style": "classic children's picture book illustration of a tropical Pacific island, banyan trees, tall coconut palms, a clear turquoise river and lagoon, thatched round huts, warm gouache with soft outlines, palette of lagoon turquoise, palm green, coral pink and sunset gold, bright and friendly, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "pivi",
+      "name": "Pivi",
+      "sheetPrompt": "a cheerful young island man from a Pacific folk tale, warm brown skin, curly black hair with a red hibiscus flower, simple woven waist cloth and shell necklace, kind smiling face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 705425104
+    },
+    {
+      "id": "kabo",
+      "name": "Kabo",
+      "sheetPrompt": "a grumpy scheming island man from a Pacific folk tale, scruffy black hair, frowning face, dark woven waist cloth, a slightly crooked leg, comic rather than scary, full body, front and side views, plain light background, character reference sheet",
+      "seed": 628528817
+    },
+    {
+      "id": "ba-ben-song",
+      "name": "Người đàn bà bên sông",
+      "sheetPrompt": "a kind and pretty island woman from a Pacific folk tale, long wavy black hair with white frangipani flowers, woven pandanus skirt, gentle wise smile, a faint magical glow, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3648383364
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tro-choi-na-ban",
+      "title": "Trò chơi ná bắn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xửa ngày xưa, khi chim còn là người và người còn là chim, trên hòn đảo New Caledonia xa xôi có hai bạn tên Pivi và Kabo. Pivi là chú chim nhỏ hay hót líu lo lúc hoàng hôn, còn Kabo là con chim đen kêu quàng quạc trong bóng tối. Một hôm, hai bạn tước vỏ cây đa bện dây làm ná, rồi ra bờ sông chơi trò bắn đá. Kabo đứng trên bờ bắn, còn Pivi lội dưới nước tránh. Pivi né rất khéo, nhưng rồi một hòn đá trúng ngay chân, làm chân Pivi gãy. Pivi rơi tõm xuống dòng sông, trôi mãi, trôi mãi, rồi lọt vào một ống tre to.",
+      "subtitles": [
+        "Ngày xửa ngày xưa, khi chim còn là người và người còn là chim,",
+        "trên hòn đảo New Caledonia xa xôi có hai bạn tên Pivi và Kabo.",
+        "Pivi là chú chim nhỏ hay hót líu lo lúc hoàng hôn,",
+        "còn Kabo là con chim đen kêu quàng quạc trong bóng tối.",
+        "Một hôm, hai bạn tước vỏ cây đa bện dây làm ná, rồi ra bờ sông chơi trò bắn đá.",
+        "Kabo đứng trên bờ bắn, còn Pivi lội dưới nước tránh.",
+        "Pivi né rất khéo, nhưng rồi một hòn đá trúng ngay chân, làm chân Pivi gãy.",
+        "Pivi rơi tõm xuống dòng sông, trôi mãi, trôi mãi, rồi lọt vào một ống tre to."
+      ],
+      "image": {
+        "prompt": "a little cheerful bird and a black crow-like bird playing with slings of bark string by a clear tropical river under a huge banyan tree",
+        "seed": 36035089,
+        "character": "pivi"
+      },
+      "video": {
+        "motionPrompt": "a pebble arcs through the air, the little bird tumbles into the river and drifts away, the black bird squawks on the bank",
+        "seed": 1899824000
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-dan-ba-ben-song",
+      "title": "Người đàn bà bên sông",
+      "narrator": "ke-chuyen",
+      "narration": "Ống tre ấy là của một người đàn bà dùng để rửa khoai. \"Cái gì trong ống tre của ta thế này?\" bà nói, rồi thổi phù một cái, Pivi văng ra như hạt đậu. \"Ôi, sao cháu ra nông nỗi này?\" Pivi kể Kabo bắn gãy chân mình. Người đàn bà vừa tốt bụng vừa xinh đẹp, bà đặt Pivi lên chiếu trong căn chòi để trái cây, bó chân cẩn thận rồi dặn: \"Lát nữa con kiến đen sẽ bò từ chân lên đầu cháu, cháu cứ nằm im như ngủ say nhé. Sau đó con kiến đỏ chân dài sẽ bò qua, lúc ấy cháu hãy rũ mình thật mạnh.\"",
+      "subtitles": [
+        "Ống tre ấy là của một người đàn bà dùng để rửa khoai.",
+        "\"Cái gì trong ống tre của ta thế này?\"",
+        "bà nói, rồi thổi phù một cái, Pivi văng ra như hạt đậu.",
+        "\"Ôi, sao cháu ra nông nỗi này?\" Pivi kể Kabo bắn gãy chân mình.",
+        "Người đàn bà vừa tốt bụng vừa xinh đẹp, bà đặt Pivi lên chiếu trong căn chòi để trái cây,",
+        "bó chân cẩn thận rồi dặn: \"Lát nữa con kiến đen sẽ bò từ chân lên đầu cháu,",
+        "cháu cứ nằm im như ngủ say nhé.",
+        "Sau đó con kiến đỏ chân dài sẽ bò qua, lúc ấy cháu hãy rũ mình thật mạnh.\""
+      ],
+      "image": {
+        "prompt": "a kind island woman with flowers in her hair gently blowing a little bird out of a bamboo tube by the river, sweet potatoes in a basket beside her",
+        "seed": 3955284663,
+        "character": "ba-ben-song"
+      },
+      "video": {
+        "motionPrompt": "the woman puffs into the bamboo tube, the little bird pops out like a pea, she cups it gently in her hands",
+        "seed": 3571157725
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-thanh-chang-trai",
+      "title": "Hóa thành chàng trai",
+      "narrator": "ke-chuyen",
+      "narration": "Pivi nằm im thin thít. Con kiến đen lạch bạch bò qua, Pivi vẫn không nhúc nhích. Đến lượt con kiến đỏ nhảy tanh tách trên mình, Pivi rũ người thật mạnh. Lạ chưa, chân Pivi lành hẳn! Chạy ra soi xuống dòng sông, Pivi thấy mình đã hóa thành một chàng trai khôi ngô. Người đàn bà lại bảo: \"Cháu hãy trèo lên cây dừa kia chỉ bằng chân thôi, hái hai quả dừa, cầm trên tay mà leo xuống, không được ném xuống đất.\" Việc ấy khó lắm, nhưng Pivi cố hết sức và làm được.",
+      "subtitles": [
+        "Pivi nằm im thin thít. Con kiến đen lạch bạch bò qua, Pivi vẫn không nhúc nhích.",
+        "Đến lượt con kiến đỏ nhảy tanh tách trên mình, Pivi rũ người thật mạnh.",
+        "Lạ chưa, chân Pivi lành hẳn!",
+        "Chạy ra soi xuống dòng sông, Pivi thấy mình đã hóa thành một chàng trai khôi ngô.",
+        "Người đàn bà lại bảo: \"Cháu hãy trèo lên cây dừa kia chỉ bằng chân thôi,",
+        "hái hai quả dừa, cầm trên tay mà leo xuống, không được ném xuống đất.\"",
+        "Việc ấy khó lắm, nhưng Pivi cố hết sức và làm được."
+      ],
+      "image": {
+        "prompt": "a handsome young island man looking at his reflection in a clear river with delight, a tall coconut palm nearby, a black ant and a red ant on a leaf",
+        "seed": 1030232109,
+        "character": "pivi"
+      },
+      "video": {
+        "motionPrompt": "the young man leans over the water and laughs, ripples shimmer, palm fronds sway in the breeze",
+        "seed": 2560399429
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-co-em-gai",
+      "title": "Hai cô em gái",
+      "narrator": "ke-chuyen",
+      "narration": "Pivi đặt hai quả dừa vào chòi như lời dặn, rồi ra sông nghịch nước suốt ngày. Hoàng hôn, Pivi quay lại thì nghe trong chòi có tiếng cười nói ríu rít. Bước vào, hai quả dừa đâu chẳng thấy, chỉ có hai cô gái xinh xắn đang trêu nhau khúc khích. Pivi chạy ra kêu mất dừa. Người đàn bà mỉm cười: \"Dừa của cháu đây. Đó là hai cô em gái của cháu, từ nay cháu chẳng còn lẻ loi nữa.\" Pivi cảm ơn rối rít, đưa hai em về nhà, ba anh em sống với nhau vui vẻ lắm.",
+      "subtitles": [
+        "Pivi đặt hai quả dừa vào chòi như lời dặn, rồi ra sông nghịch nước suốt ngày.",
+        "Hoàng hôn, Pivi quay lại thì nghe trong chòi có tiếng cười nói ríu rít.",
+        "Bước vào, hai quả dừa đâu chẳng thấy,",
+        "chỉ có hai cô gái xinh xắn đang trêu nhau khúc khích.",
+        "Pivi chạy ra kêu mất dừa. Người đàn bà mỉm cười: \"Dừa của cháu đây.",
+        "Đó là hai cô em gái của cháu, từ nay cháu chẳng còn lẻ loi nữa.\"",
+        "Pivi cảm ơn rối rít, đưa hai em về nhà, ba anh em sống với nhau vui vẻ lắm."
+      ],
+      "image": {
+        "prompt": "two laughing pretty island girls with flower garlands inside a little thatched hut at sunset, the young man in the doorway surprised and happy, two coconut shells on the floor",
+        "seed": 347027112,
+        "character": "pivi"
+      },
+      "video": {
+        "motionPrompt": "the two girls giggle and wave, warm sunset light pours into the hut, the young man claps his hands with joy",
+        "seed": 3438102118
+      },
+      "voice": {}
+    },
+    {
+      "id": "kabo-bat-chuoc",
+      "title": "Kabo bắt chước",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm Kabo ghé qua, ngó nghiêng mãi: \"Có phải Pivi đây không? Phải mà cũng chẳng phải.\" Nghe Pivi kể hết, Kabo đòi: \"Ta cũng muốn đẹp trai và có người nhà vui vẻ. Cậu bắn gãy chân ta đi!\" Thế là mọi chuyện lặp lại, Kabo cũng trôi vào ống tre, cũng được người đàn bà dặn dò. Nhưng Kabo chẳng thèm nghe. Kiến đen vừa bò tới, Kabo đã rũ mình, thế là chân vẫn khập khiễng, lưng còng, người đen như kiến. Lúc trèo dừa, Kabo dùng cả tay lẫn chân, lại ném dừa xuống đất. Tối đến, trong chòi chỉ có hai bà già cáu kỉnh suốt ngày cãi nhau, cào cấu nhau.",
+      "subtitles": [
+        "Một hôm Kabo ghé qua, ngó nghiêng mãi: \"Có phải Pivi đây không?",
+        "Phải mà cũng chẳng phải.\"",
+        "Nghe Pivi kể hết, Kabo đòi: \"Ta cũng muốn đẹp trai và có người nhà vui vẻ.",
+        "Cậu bắn gãy chân ta đi!\"",
+        "Thế là mọi chuyện lặp lại, Kabo cũng trôi vào ống tre, cũng được người đàn bà dặn dò.",
+        "Nhưng Kabo chẳng thèm nghe. Kiến đen vừa bò tới, Kabo đã rũ mình,",
+        "thế là chân vẫn khập khiễng, lưng còng, người đen như kiến.",
+        "Lúc trèo dừa, Kabo dùng cả tay lẫn chân, lại ném dừa xuống đất.",
+        "Tối đến, trong chòi chỉ có hai bà già cáu kỉnh suốt ngày cãi nhau, cào cấu nhau."
+      ],
+      "image": {
+        "prompt": "a grumpy man with a crooked back climbing a coconut palm clumsily with hands and feet and tossing coconuts down, comic expression",
+        "seed": 3484673353,
+        "character": "kabo"
+      },
+      "video": {
+        "motionPrompt": "coconuts bounce on the ground, the grumpy man slides down the trunk with a sulky face",
+        "seed": 113169809
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-trai-khong-lo",
+      "title": "Con trai khổng lồ",
+      "narrator": "ke-chuyen",
+      "narration": "Kabo ghen tức lắm. Hắn rủ Pivi chèo xuồng ra biển, bảo có một con trai to bằng tảng đá, đủ ăn cả tuần. Dưới làn nước trong vắt, con trai khổng lồ đang há rộng vỏ. Kabo lặn xuống nhưng tránh thật xa, rồi ngoi lên thở hổn hển: \"Ta chẳng gỡ nổi, cậu xuống thử xem!\" Pivi cầm cái que nhọn lặn xuống. Con trai há miệng rộng hơn, hút một cái, Pivi lọt thỏm vào trong, vỏ trai sập lại đánh tách. Kabo cười khoái chí rồi chèo xuồng về.",
+      "subtitles": [
+        "Kabo ghen tức lắm.",
+        "Hắn rủ Pivi chèo xuồng ra biển, bảo có một con trai to bằng tảng đá, đủ ăn cả tuần.",
+        "Dưới làn nước trong vắt, con trai khổng lồ đang há rộng vỏ.",
+        "Kabo lặn xuống nhưng tránh thật xa,",
+        "rồi ngoi lên thở hổn hển: \"Ta chẳng gỡ nổi, cậu xuống thử xem!\"",
+        "Pivi cầm cái que nhọn lặn xuống. Con trai há miệng rộng hơn, hút một cái,",
+        "Pivi lọt thỏm vào trong, vỏ trai sập lại đánh tách.",
+        "Kabo cười khoái chí rồi chèo xuồng về."
+      ],
+      "image": {
+        "prompt": "a giant clam as big as a rock on a sunny coral reef in clear turquoise water, a canoe floating above, a young man diving down toward it",
+        "seed": 3339703604,
+        "character": "pivi"
+      },
+      "video": {
+        "motionPrompt": "sunbeams ripple through the water, the giant clam slowly opens wide, then snaps shut with a burst of bubbles",
+        "seed": 335360621
+      },
+      "voice": {}
+    },
+    {
+      "id": "pivi-tro-ve",
+      "title": "Pivi trở về",
+      "narrator": "ke-chuyen",
+      "narration": "Về đến nơi, Kabo giả vờ khóc lóc, bảo Pivi đã bị con trai nuốt mất, rồi nói với hai cô gái: \"Từ nay các cô về nhà ta mà hầu hạ ta.\" \"Không đâu!\" hai cô kêu lên, \"chúng em chỉ thương anh Pivi thôi!\" Đúng lúc ấy, ngoài cửa vang lên một tiếng ho khẽ. Kabo run bắn, vì đó chính là tiếng ho của Pivi. Trong vỏ trai khô ráo, Pivi đã lấy cái que nhọn chọc mãi, đến khi con trai chịu không nổi phải há miệng ra. Pivi vẫy tay, hai mươi lăm người bạn kéo xuống đồi, đuổi Kabo ra khỏi đảo, và hắn không bao giờ dám quay lại. Người đàn bà bên sông bật cười, còn Pivi sống vui vẻ bên hai cô em gái mãi về sau.",
+      "subtitles": [
+        "Về đến nơi, Kabo giả vờ khóc lóc, bảo Pivi đã bị con trai nuốt mất,",
+        "rồi nói với hai cô gái: \"Từ nay các cô về nhà ta mà hầu hạ ta.\"",
+        "\"Không đâu!\" hai cô kêu lên, \"chúng em chỉ thương anh Pivi thôi!\"",
+        "Đúng lúc ấy, ngoài cửa vang lên một tiếng ho khẽ.",
+        "Kabo run bắn, vì đó chính là tiếng ho của Pivi.",
+        "Trong vỏ trai khô ráo, Pivi đã lấy cái que nhọn chọc mãi,",
+        "đến khi con trai chịu không nổi phải há miệng ra.",
+        "Pivi vẫy tay, hai mươi lăm người bạn kéo xuống đồi,",
+        "đuổi Kabo ra khỏi đảo, và hắn không bao giờ dám quay lại.",
+        "Người đàn bà bên sông bật cười, còn Pivi sống vui vẻ bên hai cô em gái mãi về sau."
+      ],
+      "image": {
+        "prompt": "a joyful reunion at a thatched hut, the young man returning safe and smiling, two girls running to hug him, friends coming down a green hill, a grumpy man fleeing to a canoe on the beach",
+        "seed": 3686750774,
+        "character": "pivi"
+      },
+      "video": {
+        "motionPrompt": "the girls run forward with open arms, friends wave from the hill, the grumpy man paddles away into the distance",
+        "seed": 675550093
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light Pacific island inspired instrumental music, ukulele like plucked strings, log drums, bamboo flute and gentle ocean waves, a playful mischievous theme, a shimmering underwater section, a joyful homecoming ending, instrumental, no vocals",
+    "durationSeconds": 140,
+    "seed": 4140078040
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "slug": "doi-meo-bo-tron",
+  "shelf": "world",
+  "title": "Đôi mèo bỏ trốn",
+  "summary": "Chú mèo Gon đẹp trai và cô mèo Koma xinh xắn thương nhau nhưng hai nhà chủ không chịu cho ở chung, nên đôi mèo trốn đi tìm hạnh phúc. Bị chia lìa giữa đường, Gon dũng cảm cứu công chúa và cứu cả Koma. Truyện dân gian Nhật Bản trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Cat's Elopement\" trong The Pink Fairy Book do Andrew Lang biên tập (1897; Lang chép từ tập truyện dân gian Nhật Bản của David Brauns), Project Gutenberg #5615, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ đoạn con rắn (Gon chỉ đuổi rắn đi mãi mãi), không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Nhật Bản, Andrew Lang chép (1897)",
+  "style": "classic Japanese fairy tale picture book illustration inspired by soft ukiyo-e woodblock prints, cherry blossoms, wooden houses with paper screens, a palace garden with a pond and stone lanterns, gentle watercolor textures, colors of sakura pink, moss green, indigo and cream, warm and tender mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "gon",
+      "name": "Mèo Gon",
+      "sheetPrompt": "a handsome large cat from an old Japanese fairy tale, soft shiny silver-grey fur like silk, wise green eyes, proud and brave posture, a small red silk collar, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1930803115
+    },
+    {
+      "id": "koma",
+      "name": "Mèo Koma",
+      "sheetPrompt": "a dainty little white cat with cream patches from an old Japanese fairy tale, pink nose, sweet blinking eyes, a tiny bell on a pink ribbon, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3337765759
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "sheetPrompt": "a kind gentle Japanese princess from an old fairy tale, long black hair tied low, layered pastel silk kimono with cherry blossom patterns, holding a koto plectrum, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3533411335
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hai-chu-meo",
+      "title": "Hai chú mèo",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một thị trấn nhỏ bên Nhật Bản, có chú mèo tên là Gon. Bộ lông của Gon mềm và bóng như lụa, đôi mắt xanh biếc nhìn rõ cả trong bóng tối. Chủ của Gon là một thầy dạy đàn, thương mèo đến mức ai trả bao nhiêu tiền cũng không bán. Cách đó không xa, một bà chủ nhà giàu nuôi cô mèo nhỏ tên là Koma. Koma ăn uống gọn gàng, chớp mắt thật duyên, ăn xong lại lấy lưỡi hồng liếm chiếc mũi xinh xinh. Bà chủ cứ ôm Koma mà nói: “Koma ơi, thiếu con thì ta biết làm sao?”",
+      "subtitles": [
+        "Ngày xưa, ở một thị trấn nhỏ bên Nhật Bản, có chú mèo tên là Gon.",
+        "Bộ lông của Gon mềm và bóng như lụa, đôi mắt xanh biếc nhìn rõ cả trong bóng tối.",
+        "Chủ của Gon là một thầy dạy đàn, thương mèo đến mức ai trả bao nhiêu tiền cũng không bán.",
+        "Cách đó không xa, một bà chủ nhà giàu nuôi cô mèo nhỏ tên là Koma.",
+        "Koma ăn uống gọn gàng, chớp mắt thật duyên,",
+        "ăn xong lại lấy lưỡi hồng liếm chiếc mũi xinh xinh.",
+        "Bà chủ cứ ôm Koma mà nói: “Koma ơi, thiếu con thì ta biết làm sao?”"
+      ],
+      "image": {
+        "prompt": "a quiet old Japanese town street with wooden houses, a silver-grey cat sitting proudly on a veranda beside a music teacher with a shamisen, and across the lane a little white cat on a cushion beside a smiling lady",
+        "seed": 2705882005,
+        "character": "gon"
+      },
+      "video": {
+        "motionPrompt": "the music teacher strokes the grey cat, the little white cat licks its pink nose, cherry petals drift down the lane",
+        "seed": 1779285069
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-nhau-duoi-goc-anh-dao",
+      "title": "Gặp nhau dưới gốc anh đào",
+      "narrator": "ke-chuyen",
+      "narration": "Một buổi chiều đi dạo, Gon và Koma gặp nhau dưới gốc cây anh đào đang nở hoa. Chỉ một ánh nhìn, hai chú mèo đã thương nhau ngay. Gon vốn được bao cô mèo trong xóm để ý, mà chưa cô nào làm chú vừa lòng. Nay chú chỉ nghĩ tới mỗi Koma. Gon nài thầy dạy đàn mua Koma về, nhưng bà chủ lắc đầu. Người ta lại hỏi mua Gon cho bà chủ, thì thầy dạy đàn cũng nhất định không bán. Koma buồn bã thủ thỉ: “Hai nhà chẳng ai chịu nhường, mình biết làm sao bây giờ?”",
+      "subtitles": [
+        "Một buổi chiều đi dạo, Gon và Koma gặp nhau dưới gốc cây anh đào đang nở hoa.",
+        "Chỉ một ánh nhìn, hai chú mèo đã thương nhau ngay.",
+        "Gon vốn được bao cô mèo trong xóm để ý, mà chưa cô nào làm chú vừa lòng.",
+        "Nay chú chỉ nghĩ tới mỗi Koma. Gon nài thầy dạy đàn mua Koma về, nhưng bà chủ lắc đầu.",
+        "Người ta lại hỏi mua Gon cho bà chủ, thì thầy dạy đàn cũng nhất định không bán.",
+        "Koma buồn bã thủ thỉ: “Hai nhà chẳng ai chịu nhường, mình biết làm sao bây giờ?”"
+      ],
+      "image": {
+        "prompt": "under a blooming cherry tree at dusk a handsome silver-grey cat and a little white cat sit nose to nose, pink petals falling around them",
+        "seed": 2999902224,
+        "character": "koma"
+      },
+      "video": {
+        "motionPrompt": "the two cats rub noses gently, petals swirl in the evening breeze, a paper lantern sways",
+        "seed": 481426319
+      },
+      "voice": {}
+    },
+    {
+      "id": "dem-trang-bo-tron",
+      "title": "Đêm trăng bỏ trốn",
+      "narrator": "ke-chuyen",
+      "narration": "Thương nhau quá, một đêm trăng sáng, đôi mèo quyết định cùng nhau trốn đi tìm một chân trời mới. Cả ngày hôm sau, hai chú bước mãi dưới nắng, bỏ lại quê nhà thật xa. Chiều tối, chúng lạc vào một khu vườn rộng, cỏ mềm như nệm, bóng cây mát rượi. Bỗng một con chó to tướng nhe răng lao tới. Koma kêu thét, phóng vội lên cây anh đào. Gon thì đứng vững, xù lông lên, vì biết Koma đang nhìn mình. Koma gào thật to để gọi người giúp. May sao, một người hầu của công chúa đi ngang, đuổi con chó đi rồi bế Gon đang run rẩy về dâng cho công chúa. Còn Koma ở lại một mình trên cây, nhìn theo mà rơi nước mắt.",
+      "subtitles": [
+        "Thương nhau quá, một đêm trăng sáng,",
+        "đôi mèo quyết định cùng nhau trốn đi tìm một chân trời mới.",
+        "Cả ngày hôm sau, hai chú bước mãi dưới nắng, bỏ lại quê nhà thật xa.",
+        "Chiều tối, chúng lạc vào một khu vườn rộng, cỏ mềm như nệm, bóng cây mát rượi.",
+        "Bỗng một con chó to tướng nhe răng lao tới. Koma kêu thét, phóng vội lên cây anh đào.",
+        "Gon thì đứng vững, xù lông lên, vì biết Koma đang nhìn mình.",
+        "Koma gào thật to để gọi người giúp.",
+        "May sao, một người hầu của công chúa đi ngang,",
+        "đuổi con chó đi rồi bế Gon đang run rẩy về dâng cho công chúa.",
+        "Còn Koma ở lại một mình trên cây, nhìn theo mà rơi nước mắt."
+      ],
+      "image": {
+        "prompt": "in a moonlit palace park a brave silver-grey cat with fur puffed up stands before a big barking dog, a little white cat clinging to a cherry tree branch above, a servant with a lantern running toward them",
+        "seed": 798907071,
+        "character": "gon"
+      },
+      "video": {
+        "motionPrompt": "the grey cat arches its back, the dog barks and backs away from the servant, the little white cat peeks down from the branch",
+        "seed": 2269928722
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-ran-trong-cung",
+      "title": "Con rắn trong cung",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa rất quý Gon vì chú đẹp và ngoan. Nhưng Gon chẳng vui, ngày đêm chỉ nhớ Koma. Công chúa là người hiền hậu, ai cũng thương, chỉ có một nỗi phiền: một con rắn cứ mon men tìm đến làm nàng sợ hãi. Người hầu đuổi bao nhiêu lần, con rắn ranh mãnh vẫn lẻn vào được. Một hôm, công chúa đang gảy đàn thì thấy con rắn trườn lên dải thắt lưng. Nàng hét lên. Gon đang nằm dưới chân nàng, nhảy phắt tới, ngoạm lấy con rắn, lắc mạnh rồi quăng ra thật xa. Con rắn sợ quá, bỏ đi biệt tăm, không bao giờ dám quay lại nữa. Từ đó, công chúa thương Gon như báu vật, cho chú ăn miếng ngon nhất, nằm chiếu êm nhất.",
+      "subtitles": [
+        "Công chúa rất quý Gon vì chú đẹp và ngoan. Nhưng Gon chẳng vui, ngày đêm chỉ nhớ Koma.",
+        "Công chúa là người hiền hậu, ai cũng thương, chỉ có một nỗi phiền:",
+        "một con rắn cứ mon men tìm đến làm nàng sợ hãi.",
+        "Người hầu đuổi bao nhiêu lần, con rắn ranh mãnh vẫn lẻn vào được.",
+        "Một hôm, công chúa đang gảy đàn thì thấy con rắn trườn lên dải thắt lưng. Nàng hét lên.",
+        "Gon đang nằm dưới chân nàng, nhảy phắt tới, ngoạm lấy con rắn,",
+        "lắc mạnh rồi quăng ra thật xa.",
+        "Con rắn sợ quá, bỏ đi biệt tăm, không bao giờ dám quay lại nữa.",
+        "Từ đó, công chúa thương Gon như báu vật, cho chú ăn miếng ngon nhất, nằm chiếu êm nhất."
+      ],
+      "image": {
+        "prompt": "inside an elegant Japanese palace room with sliding paper doors, a startled princess at her koto, a brave silver-grey cat leaping to chase away a small green snake toward the open garden",
+        "seed": 3162253943,
+        "character": "gon"
+      },
+      "video": {
+        "motionPrompt": "the cat springs forward, the little snake slithers away out the door into the garden, the princess clasps her hands in relief",
+        "seed": 2432386169
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-lai-koma",
+      "title": "Gặp lại Koma",
+      "narrator": "ke-chuyen",
+      "narration": "Thời gian trôi qua. Một sáng, Gon nằm sưởi nắng trước cửa cung. Chú lim dim nhìn ra xa, thấy một con mèo to xác đang bắt nạt một cô mèo nhỏ. Gon bật dậy, lao tới đuổi con mèo to đi, rồi quay lại an ủi cô mèo nhỏ. Tim chú như vỡ ra vì mừng: đó chính là Koma! Lúc đầu Koma không nhận ra Gon, vì chú đã lớn và oai vệ hơn nhiều. Đến khi nhận ra, Koma mừng quýnh. Hai chú mèo dụi đầu, dụi mũi vào nhau mãi, tiếng rừ rừ vang xa tận cuối vườn.",
+      "subtitles": [
+        "Thời gian trôi qua. Một sáng, Gon nằm sưởi nắng trước cửa cung.",
+        "Chú lim dim nhìn ra xa, thấy một con mèo to xác đang bắt nạt một cô mèo nhỏ.",
+        "Gon bật dậy, lao tới đuổi con mèo to đi, rồi quay lại an ủi cô mèo nhỏ.",
+        "Tim chú như vỡ ra vì mừng: đó chính là Koma!",
+        "Lúc đầu Koma không nhận ra Gon, vì chú đã lớn và oai vệ hơn nhiều.",
+        "Đến khi nhận ra, Koma mừng quýnh.",
+        "Hai chú mèo dụi đầu, dụi mũi vào nhau mãi, tiếng rừ rừ vang xa tận cuối vườn."
+      ],
+      "image": {
+        "prompt": "in a sunny palace courtyard a large stately silver-grey cat and a little white cat rub their heads together happily, a grumpy big cat running away in the background",
+        "seed": 957017815,
+        "character": "koma"
+      },
+      "video": {
+        "motionPrompt": "the two cats nuzzle and purr, their tails curl together, sunlight sparkles on the courtyard stones",
+        "seed": 493792232
+      },
+      "voice": {}
+    },
+    {
+      "id": "mai-mai-ben-nhau",
+      "title": "Mãi mãi bên nhau",
+      "narrator": "ke-chuyen",
+      "narration": "Hai chú mèo sóng đôi đến trước công chúa, kể hết chuyện mình đã trải qua. Công chúa nghe xong rơm rớm nước mắt, hứa: “Từ nay hai con sẽ không bao giờ phải xa nhau nữa. Cứ ở đây với ta mãi nhé.” Ít lâu sau, công chúa lấy chồng. Nàng kể cho hoàng tử nghe Gon đã dũng cảm thế nào, đã đuổi con rắn đi ra sao. Hoàng tử bảo: “Vậy thì nàng đi đâu, đôi mèo cũng được đi theo đó.” Thế là mọi việc đều như ý công chúa. Gon và Koma có một đàn mèo con, công chúa cũng có những đứa con nhỏ, và tất cả cùng nhau chơi đùa, làm bạn với nhau suốt đời.",
+      "subtitles": [
+        "Hai chú mèo sóng đôi đến trước công chúa, kể hết chuyện mình đã trải qua.",
+        "Công chúa nghe xong rơm rớm nước mắt, hứa:",
+        "“Từ nay hai con sẽ không bao giờ phải xa nhau nữa. Cứ ở đây với ta mãi nhé.”",
+        "Ít lâu sau, công chúa lấy chồng.",
+        "Nàng kể cho hoàng tử nghe Gon đã dũng cảm thế nào, đã đuổi con rắn đi ra sao.",
+        "Hoàng tử bảo: “Vậy thì nàng đi đâu, đôi mèo cũng được đi theo đó.”",
+        "Thế là mọi việc đều như ý công chúa.",
+        "Gon và Koma có một đàn mèo con, công chúa cũng có những đứa con nhỏ,",
+        "và tất cả cùng nhau chơi đùa, làm bạn với nhau suốt đời."
+      ],
+      "image": {
+        "prompt": "a joyful Japanese palace garden in spring, a princess and a prince sitting on a veranda, the silver-grey cat and the little white cat with a litter of playful kittens and small children playing together",
+        "seed": 4029957642,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "kittens tumble and chase butterflies, the children laugh, the princess smiles, cherry petals fall softly",
+        "seed": 3740865718
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle traditional Japanese lullaby melody, koto, shakuhachi flute and soft shamisen, a tender romantic theme, a short playful section for the cats, peaceful spring garden feeling, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2908677123
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "slug": "bay-anh-em-simon",
+  "shelf": "world",
+  "title": "Bảy anh em Simon",
+  "summary": "Bảy anh em nông dân cùng tên Simon, mỗi người một tài lạ: xây cột chạm mây, nhìn thấu thế gian, đóng thuyền đi nhanh như gió, kéo thuyền lặn xuống đáy biển. Nhờ họ, vua Archidej tìm được nàng công chúa Helena xinh đẹp ở hòn đảo xa. Truyện dân gian trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "anh-hung",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Story of the Seven Simons\" trong The Crimson Fairy Book do Andrew Lang biên tập (1903), Lang ghi lấy từ một tuyển truyện dân gian Hungary, Project Gutenberg #2435, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ các đoạn nhà vua dọa trị tội, không chép bản dịch nào.",
+  "basedOn": "Andrew Lang, The Crimson Fairy Book (1903)",
+  "style": "classic Eastern European fairy tale picture book illustration, golden wheat fields, a white tower reaching above the clouds, a magical wooden ship with singing rigging, onion domed palaces and a far island kingdom, ornate folk patterns, warm gouache and ink, palette of wheat gold, crimson red, sea blue and pearl white, adventurous and cheerful, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "bay-anh-em-simon",
+      "name": "Bảy anh em Simon",
+      "sheetPrompt": "seven nearly identical young peasant brothers from an Eastern European folk tale, standing in a row, red shirts trimmed with gold braid, sandy hair, honest cheerful faces, the youngest a little thinner with a sly smile, full body, plain light background, character reference sheet",
+      "seed": 3330138903
+    },
+    {
+      "id": "vua-archidej",
+      "name": "Vua Archidej",
+      "sheetPrompt": "a handsome good-natured young king from an Eastern European fairy tale, short dark beard, gold crown, rich blue and gold kaftan, a gentle hopeful face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1356480525
+    },
+    {
+      "id": "cong-chua-helena",
+      "name": "Công chúa Helena",
+      "sheetPrompt": "a radiant beautiful princess from an Eastern European fairy tale, long dark hair with a pearl headdress, rose red gown embroidered with gold, bright clever eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 555483919
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nha-vua-kho-tinh",
+      "title": "Nhà vua khó tính",
+      "narrator": "ke-chuyen",
+      "narration": "Xa thật xa, qua bao xứ sở, bao biển sông, có một kinh thành lộng lẫy của vua Archidej, vừa tốt bụng, vừa giàu có, vừa khôi ngô. Vua có tất cả, chỉ buồn vì chưa tìm được người vợ vừa ý. Một hôm có đoàn lái buôn ghé bến, kể rằng xa tít ngoài khơi, trên đảo Busan, có nàng công chúa Helena đẹp tuyệt trần, lại thông minh đến nỗi các cụ râu bạc thông thái nhất cũng không giải nổi câu đố của nàng. Nhưng đường tới đó phải đi mất mười năm, về thêm mười năm nữa. Vua buồn rầu, bèn cưỡi ngựa đi săn cho khuây khỏa.",
+      "subtitles": [
+        "Xa thật xa, qua bao xứ sở, bao biển sông,",
+        "có một kinh thành lộng lẫy của vua Archidej, vừa tốt bụng, vừa giàu có, vừa khôi ngô.",
+        "Vua có tất cả, chỉ buồn vì chưa tìm được người vợ vừa ý.",
+        "Một hôm có đoàn lái buôn ghé bến, kể rằng xa tít ngoài khơi,",
+        "trên đảo Busan, có nàng công chúa Helena đẹp tuyệt trần,",
+        "lại thông minh đến nỗi các cụ râu bạc thông thái nhất cũng không giải nổi câu đố của nàng.",
+        "Nhưng đường tới đó phải đi mất mười năm, về thêm mười năm nữa.",
+        "Vua buồn rầu, bèn cưỡi ngựa đi săn cho khuây khỏa."
+      ],
+      "image": {
+        "prompt": "a kind young king in a palace by the sea listening to travelling merchants with colorful bundles, a great ship in the harbour behind them",
+        "seed": 1217966456,
+        "character": "vua-archidej"
+      },
+      "video": {
+        "motionPrompt": "sails flutter in the harbour, the merchants gesture toward the far horizon, the king gazes out to sea thoughtfully",
+        "seed": 1358808802
+      },
+      "voice": {}
+    },
+    {
+      "id": "canh-dong-vang",
+      "title": "Cánh đồng vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Đi tới một hàng rào xanh, vua thấy một cánh đồng ngô vàng óng trải dài tít tắp, lăn tăn trong gió như biển vàng. \"Ai trồng được cánh đồng này hẳn là người làm ăn giỏi lắm,\" vua khen. Trước một trang trại nhỏ, bảy anh nông dân mặc áo đỏ viền vàng đang ăn bánh mì đen, uống nước lã, giống nhau như đúc. Người anh cả cúi chào: \"Thưa bệ hạ, chúng tôi là bảy anh em ruột, ai cũng tên là Simon. Cha dạy chúng tôi trung thành với vua, chăm chỉ làm đồng, tử tế với láng giềng, và dạy mỗi người một nghề riêng.\"",
+      "subtitles": [
+        "Đi tới một hàng rào xanh, vua thấy một cánh đồng ngô vàng óng trải dài tít tắp,",
+        "lăn tăn trong gió như biển vàng.",
+        "\"Ai trồng được cánh đồng này hẳn là người làm ăn giỏi lắm,\" vua khen.",
+        "Trước một trang trại nhỏ, bảy anh nông dân mặc áo đỏ viền vàng đang ăn bánh mì đen,",
+        "uống nước lã, giống nhau như đúc.",
+        "Người anh cả cúi chào: \"Thưa bệ hạ, chúng tôi là bảy anh em ruột, ai cũng tên là Simon.",
+        "Cha dạy chúng tôi trung thành với vua, chăm chỉ làm đồng,",
+        "tử tế với láng giềng, và dạy mỗi người một nghề riêng.\""
+      ],
+      "image": {
+        "prompt": "a wide field of golden maize swaying like a sea, a tidy farmhouse, seven identical brothers in red shirts with gold braid eating bread on a bench, the king on horseback with huntsmen",
+        "seed": 1536218430,
+        "character": "bay-anh-em-simon"
+      },
+      "video": {
+        "motionPrompt": "the golden field ripples in the breeze, the seven brothers stand up together and bow, the king's horse shakes its mane",
+        "seed": 4148106042
+      },
+      "voice": {}
+    },
+    {
+      "id": "sau-tai-la",
+      "title": "Sáu tài lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Simon thứ nhất nói mình xây được một cây cột trắng cao vượt mây. Simon thứ hai trèo lên cột ấy thì nhìn thấy, nghe thấy mọi chuyện khắp thế gian. Simon thứ ba đóng một con thuyền một, hai, ba là xong, đi một ngày bằng thuyền khác đi một năm. Simon thứ tư nắm mũi thuyền kéo lặn xuống đáy biển, rồi lại kéo lên được. Simon thứ năm rèn được cây nỏ bắn trúng mọi thứ mắt nhìn thấy. Simon thứ sáu thì bắt kịp mọi thứ anh mình bắn trúng, dù rơi xuống nước sâu hay vào rừng tối.",
+      "subtitles": [
+        "Simon thứ nhất nói mình xây được một cây cột trắng cao vượt mây.",
+        "Simon thứ hai trèo lên cột ấy thì nhìn thấy, nghe thấy mọi chuyện khắp thế gian.",
+        "Simon thứ ba đóng một con thuyền một, hai,",
+        "ba là xong, đi một ngày bằng thuyền khác đi một năm.",
+        "Simon thứ tư nắm mũi thuyền kéo lặn xuống đáy biển, rồi lại kéo lên được.",
+        "Simon thứ năm rèn được cây nỏ bắn trúng mọi thứ mắt nhìn thấy.",
+        "Simon thứ sáu thì bắt kịp mọi thứ anh mình bắn trúng,",
+        "dù rơi xuống nước sâu hay vào rừng tối."
+      ],
+      "image": {
+        "prompt": "a tall white tower rising above the clouds with a brother waving from the top, a magical wooden ship with harp-like rigging on the water, the other brothers showing off their crafts to the amazed king",
+        "seed": 101347013,
+        "character": "bay-anh-em-simon"
+      },
+      "video": {
+        "motionPrompt": "clouds drift past the top of the white tower, musicians play the singing rigging of the ship, the ship dips under the waves and rises again",
+        "seed": 3586325979
+      },
+      "voice": {}
+    },
+    {
+      "id": "simon-thu-bay",
+      "title": "Simon thứ bảy",
+      "narrator": "ke-chuyen",
+      "narration": "Vua chợt nhớ Simon thứ bảy chưa nói gì. Cậu ngập ngừng: \"Thưa bệ hạ, xin bệ hạ hứa không trị tội con rồi con mới dám nói.\" Vua hứa. \"Tài của con là lấy trộm, và giấu kỹ đến mức không ai tìm ra. Kho nào khóa kỹ đến đâu cũng không giữ nổi thứ con muốn lấy. Nhưng con biết nghề ấy mà chẳng bao giờ làm.\" Vua nổi giận, dù đã hứa tha tội, vẫn sai giam cậu vào ngục, chỉ cho ăn bánh mì uống nước. Sáu anh kia thì theo vua về kinh thành trổ tài, ai nấy đều giỏi đúng như lời mình nói.",
+      "subtitles": [
+        "Vua chợt nhớ Simon thứ bảy chưa nói gì.",
+        "Cậu ngập ngừng: \"Thưa bệ hạ, xin bệ hạ hứa không trị tội con rồi con mới dám nói.\"",
+        "Vua hứa. \"Tài của con là lấy trộm, và giấu kỹ đến mức không ai tìm ra.",
+        "Kho nào khóa kỹ đến đâu cũng không giữ nổi thứ con muốn lấy.",
+        "Nhưng con biết nghề ấy mà chẳng bao giờ làm.\"",
+        "Vua nổi giận, dù đã hứa tha tội, vẫn sai giam cậu vào ngục, chỉ cho ăn bánh mì uống nước.",
+        "Sáu anh kia thì theo vua về kinh thành trổ tài, ai nấy đều giỏi đúng như lời mình nói."
+      ],
+      "image": {
+        "prompt": "the youngest of the brothers with a sly modest smile bowing before the surprised king, guards stepping forward, the six other brothers looking worried",
+        "seed": 1405676917,
+        "character": "bay-anh-em-simon"
+      },
+      "video": {
+        "motionPrompt": "the king frowns and points, the guards lead the youngest brother away gently, his brothers glance at each other",
+        "seed": 879737811
+      },
+      "voice": {}
+    },
+    {
+      "id": "ke-cua-chu-he",
+      "title": "Kế của chú hề",
+      "narrator": "ke-chuyen",
+      "narration": "Vua sai Simon thứ hai trèo lên cột nhìn xem đảo Busan. Simon về tâu: vua đảo Busan kiêu ngạo lắm, bảo không ai trên đời xứng với con gái mình, ai dám hỏi cưới là ông đem quân đánh. Các cụ cố vấn im thin thít, nấp sau lưng nhau. Bỗng chú hề trong triều chen lên: \"Các ngài thông thái làm gì mà rối thế? Cứ cho Simon thứ bảy đi, cậu ấy đưa công chúa về chỉ trong nháy mắt. Ông vua kia muốn kéo quân sang thì cũng mất mười năm cơ!\" Vua cười, cho gọi Simon thứ bảy ra.",
+      "subtitles": [
+        "Vua sai Simon thứ hai trèo lên cột nhìn xem đảo Busan.",
+        "Simon về tâu: vua đảo Busan kiêu ngạo lắm,",
+        "bảo không ai trên đời xứng với con gái mình, ai dám hỏi cưới là ông đem quân đánh.",
+        "Các cụ cố vấn im thin thít, nấp sau lưng nhau.",
+        "Bỗng chú hề trong triều chen lên: \"Các ngài thông thái làm gì mà rối thế?",
+        "Cứ cho Simon thứ bảy đi, cậu ấy đưa công chúa về chỉ trong nháy mắt.",
+        "Ông vua kia muốn kéo quân sang thì cũng mất mười năm cơ!\"",
+        "Vua cười, cho gọi Simon thứ bảy ra."
+      ],
+      "image": {
+        "prompt": "a royal council hall with wise old bearded advisers hiding behind each other, a colorful court jester leaping forward with a grin, the king laughing on his throne",
+        "seed": 1979525676,
+        "character": "vua-archidej"
+      },
+      "video": {
+        "motionPrompt": "the jester bounces and jingles his bells, the advisers peek out nervously, the king throws back his head and laughs",
+        "seed": 3349062663
+      },
+      "voice": {}
+    },
+    {
+      "id": "thuyen-cho-lua-la",
+      "title": "Thuyền chở lụa là",
+      "narrator": "ke-chuyen",
+      "narration": "Simon thứ bảy xin chất đầy thuyền gấm vóc, thảm quý, ngọc trai, rồi cùng bốn người anh lên đường. Đúng một tuần sau, thuyền thần đã tới đảo Busan. Các anh em xưng là lái buôn hiền lành, mang hàng đẹp tới dâng công chúa. Công chúa Helena ngắm mãi không chán, mân mê từng tấm lụa, giơ từng viên ngọc lên ánh sáng. Simon thưa: \"Trên thuyền còn nhiều thứ đẹp hơn thế này gấp bội, xin công chúa ghé xem.\" Vua cha nghĩ mãi mới cho đi, kèm cả một đoàn hiệp sĩ hộ tống.",
+      "subtitles": [
+        "Simon thứ bảy xin chất đầy thuyền gấm vóc,",
+        "thảm quý, ngọc trai, rồi cùng bốn người anh lên đường.",
+        "Đúng một tuần sau, thuyền thần đã tới đảo Busan.",
+        "Các anh em xưng là lái buôn hiền lành, mang hàng đẹp tới dâng công chúa.",
+        "Công chúa Helena ngắm mãi không chán,",
+        "mân mê từng tấm lụa, giơ từng viên ngọc lên ánh sáng.",
+        "Simon thưa: \"Trên thuyền còn nhiều thứ đẹp hơn thế này gấp bội, xin công chúa ghé xem.\"",
+        "Vua cha nghĩ mãi mới cho đi, kèm cả một đoàn hiệp sĩ hộ tống."
+      ],
+      "image": {
+        "prompt": "a rose-red chamber in an island palace, the beautiful princess admiring shining brocades, velvets and ropes of pearls spread out by the brothers dressed as merchants",
+        "seed": 3684916152,
+        "character": "cong-chua-helena"
+      },
+      "video": {
+        "motionPrompt": "silks ripple as they unroll, pearls glimmer in the sunlight, the princess holds a jewel up to the window with delight",
+        "seed": 1940119266
+      },
+      "voice": {}
+    },
+    {
+      "id": "thien-nga-ca-bac-chuot-den",
+      "title": "Thiên nga, cá bạc, chuột đen",
+      "narrator": "ke-chuyen",
+      "narration": "Trên thuyền, Simon thứ bảy bày hàng, kể bao chuyện lạ, công chúa mải nghe quên cả mọi thứ. Lúc ấy Simon thứ tư khẽ nắm mũi thuyền, kéo cả con thuyền lặn xuống biển sâu, lướt đi như cá. Khi đảo đã khuất, thuyền mới nổi lên. Công chúa bước ra boong, chẳng thấy đảo đâu, liền hóa thành thiên nga trắng bay đi. Simon thứ năm bắn một mũi tên cùn làm thiên nga sa xuống, Simon thứ sáu đỡ lấy. Thiên nga hóa thành con cá bạc, Simon chộp được. Cá hóa thành chuột đen chạy quanh thuyền, Simon lại nhanh hơn cả mèo mà bắt kịp. Chuột nhỏ bèn hóa lại thành công chúa Helena xinh đẹp.",
+      "subtitles": [
+        "Trên thuyền, Simon thứ bảy bày hàng, kể bao chuyện lạ, công chúa mải nghe quên cả mọi thứ.",
+        "Lúc ấy Simon thứ tư khẽ nắm mũi thuyền,",
+        "kéo cả con thuyền lặn xuống biển sâu, lướt đi như cá.",
+        "Khi đảo đã khuất, thuyền mới nổi lên.",
+        "Công chúa bước ra boong, chẳng thấy đảo đâu, liền hóa thành thiên nga trắng bay đi.",
+        "Simon thứ năm bắn một mũi tên cùn làm thiên nga sa xuống, Simon thứ sáu đỡ lấy.",
+        "Thiên nga hóa thành con cá bạc, Simon chộp được.",
+        "Cá hóa thành chuột đen chạy quanh thuyền, Simon lại nhanh hơn cả mèo mà bắt kịp.",
+        "Chuột nhỏ bèn hóa lại thành công chúa Helena xinh đẹp."
+      ],
+      "image": {
+        "prompt": "on the deck of a magical ship on open sea, a white swan, a silver fish and a little black mouse shown in a playful magical swirl, the brothers reaching out to catch them, sparkles of transformation",
+        "seed": 1904605998,
+        "character": "cong-chua-helena"
+      },
+      "video": {
+        "motionPrompt": "the white swan flutters up, sparkles swirl as it turns into a silver fish and then a little mouse, a brother catches it gently",
+        "seed": 559791558
+      },
+      "voice": {}
+    },
+    {
+      "id": "nang-duoc-chon",
+      "title": "Nàng được chọn",
+      "narrator": "ke-chuyen",
+      "narration": "Một sáng, vua Archidej đang buồn bã nhìn ra biển thì thấy con thuyền thần căng buồm trở về, dây buồm ngân nga tiếng nhạc. Công chúa Helena bước qua tấm ván pha lê, rực rỡ như mặt trời. Vua chạy ra đón, cầm tay nàng: \"Nếu nàng muốn, thuyền thần sẽ đưa nàng về với vua cha. Nhưng nếu nàng bằng lòng ở lại, xin nàng làm hoàng hậu của ta.\" Nàng chẳng cần nghĩ lâu, nhận lời. Thư của nàng gửi về đảo Busan tới đúng lúc vua cha định trị tội đoàn hiệp sĩ, thế là ai nấy được tha.",
+      "subtitles": [
+        "Một sáng, vua Archidej đang buồn bã nhìn ra",
+        "biển thì thấy con thuyền thần căng buồm trở về,",
+        "dây buồm ngân nga tiếng nhạc.",
+        "Công chúa Helena bước qua tấm ván pha lê, rực rỡ như mặt trời.",
+        "Vua chạy ra đón, cầm tay nàng: \"Nếu nàng muốn, thuyền thần sẽ đưa nàng về với vua cha.",
+        "Nhưng nếu nàng bằng lòng ở lại, xin nàng làm hoàng hậu của ta.\"",
+        "Nàng chẳng cần nghĩ lâu, nhận lời.",
+        "Thư của nàng gửi về đảo Busan tới đúng lúc vua cha định trị tội đoàn hiệp sĩ,",
+        "thế là ai nấy được tha."
+      ],
+      "image": {
+        "prompt": "a magical ship arriving at a sunny harbour, the princess stepping down a crystal plank shining like the sun, the young king offering his hand, golden carpets and joyful crowds",
+        "seed": 925921340,
+        "character": "vua-archidej"
+      },
+      "video": {
+        "motionPrompt": "bells ring, the musical rigging plays, the princess walks down the crystal plank and takes the king's hand",
+        "seed": 44480794
+      },
+      "voice": {}
+    },
+    {
+      "id": "phan-thuong-cua-anh-em",
+      "title": "Phần thưởng của anh em",
+      "narrator": "ke-chuyen",
+      "narration": "Vua cho gọi bảy anh em Simon: \"Các ngươi muốn vàng bạc, muốn làm quan hay cai quản thành trì, cứ nói.\" Người anh cả cúi chào: \"Chúng tôi là dân quê, làm quan sao nổi. Đồng ruộng đã đủ nuôi chúng tôi. Nếu bệ hạ muốn thưởng, xin miễn thuế cho đất nhà tôi, và xin tha cho Simon thứ bảy.\" Vua cười: \"Được! Đất của các ngươi được miễn thuế, Simon thứ bảy được tha.\" Rồi vua mời cả bảy anh em dự tiệc cưới. Ôi, bữa tiệc ấy mới linh đình làm sao!",
+      "subtitles": [
+        "Vua cho gọi bảy anh em Simon: \"Các ngươi muốn vàng bạc,",
+        "muốn làm quan hay cai quản thành trì, cứ nói.\"",
+        "Người anh cả cúi chào: \"Chúng tôi là dân quê, làm quan sao nổi.",
+        "Đồng ruộng đã đủ nuôi chúng tôi.",
+        "Nếu bệ hạ muốn thưởng, xin miễn thuế cho đất nhà tôi, và xin tha cho Simon thứ bảy.\"",
+        "Vua cười: \"Được! Đất của các ngươi được miễn thuế, Simon thứ bảy được tha.\"",
+        "Rồi vua mời cả bảy anh em dự tiệc cưới. Ôi, bữa tiệc ấy mới linh đình làm sao!"
+      ],
+      "image": {
+        "prompt": "a joyful wedding feast in a golden palace, the king and the princess at the head of the table, the seven brothers in red shirts raising their cups and smiling",
+        "seed": 1992756653,
+        "character": "bay-anh-em-simon"
+      },
+      "video": {
+        "motionPrompt": "the seven brothers raise their cups together, musicians play, candles flicker and guests clap in rhythm",
+        "seed": 678146428
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "lively Eastern European folk inspired orchestral music, cimbalom, violin, accordion and frame drum, a sturdy peasant theme for the seven brothers, a sweeping sea voyage section, a playful magical chase, a festive wedding dance ending, instrumental, no vocals",
+    "durationSeconds": 160,
+    "seed": 3762630532
+  }
+}

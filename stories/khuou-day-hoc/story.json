@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "slug": "khuou-day-hoc",
+  "shelf": "kids",
+  "title": "Khướu dạy học",
+  "summary": "Thầy khướu biết đủ mọi thứ tiếng, mở trường dạy chim chóc học nói. Đi thi về, ngỗng quang quác trả lời lung tung, chim ri bé nhỏ mới là trò giỏi. Truyện cổ Việt Nam vui nhộn về tiếng chim, dạy bé biết thì nói biết, không biết thì nói không biết.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Khướu dạy học» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: những câu chữ Hán chơi chữ theo tiếng chim được kể bằng nghĩa tiếng Việt, giữ các tiếng kêu «Bài chi», «Đỗ cả», «Đã», «Hoan hô». Thêm để dẫn dắt: Mèo Miu mở đầu và kết, thêm thoại, lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, a little open-air village school under a big tree, a wooden board and low benches, bird pupils of many kinds, calm and safe mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 2378954442,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "khuou",
+      "name": "Thầy khướu",
+      "seed": 1416897324,
+      "sheetPrompt": "a wise laughing thrush bird with brown feathers and a white eye stripe, wearing tiny round spectacles and a small scholar hat, round cartoon style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ngong",
+      "name": "Anh ngỗng",
+      "seed": 1367865299,
+      "sheetPrompt": "a tall white goose with a long neck, an orange beak and a loud cheerful face, round cartoon style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chim-ri",
+      "name": "Chim ri",
+      "seed": 1094560756,
+      "sheetPrompt": "a tiny brown munia finch with a thick grey beak and a serious smart face, round cartoon style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có để ý không, tiếng chim kêu nhiều khi nghe giống tiếng người nói lắm. Chim khướu thì bắt chước được đủ thứ tiếng, còn ngỗng thì kêu quang quác ầm ĩ. Ngày xưa, các bạn chim ấy từng đi học, đi thi hẳn hoi đấy. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn có để ý không, tiếng chim kêu nhiều khi nghe giống tiếng người nói lắm.",
+        "Chim khướu thì bắt chước được đủ thứ tiếng, còn ngỗng thì kêu quang quác ầm ĩ.",
+        "Ngày xưa, các bạn chim ấy từng đi học, đi thi hẳn hoi đấy.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits under a big tree listening with a paw to her ear, a laughing thrush and a goose sing on a branch above",
+        "seed": 2648522527
+      },
+      "video": {
+        "motionPrompt": "the thrush opens its beak singing, musical notes float, the goose honks, the cat sways happily, slow camera push-in",
+        "seed": 1099497562
+      },
+      "voice": {}
+    },
+    {
+      "id": "truong-hoc",
+      "title": "Trường học của thầy khướu",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một thầy khướu nổi tiếng biết đủ mọi thứ tiếng. Thầy khướu mở trường dạy học nói. Chim chóc khắp nơi kéo nhau đến học, ríu ra ríu rít đông vui lắm. Trong cả trường, giỏi nhất có ba trò: anh chim ri bé nhỏ, anh dù dì mắt tròn, và anh ngỗng cổ dài. Năm ấy, Ông Trời mở khoa thi, học trò của thầy khướu rủ nhau đi thi cả.",
+      "subtitles": [
+        "Ngày xưa, có một thầy khướu nổi tiếng biết đủ mọi thứ tiếng.",
+        "Thầy khướu mở trường dạy học nói.",
+        "Chim chóc khắp nơi kéo nhau đến học, ríu ra ríu rít đông vui lắm.",
+        "Trong cả trường, giỏi nhất có ba trò: anh chim ri bé nhỏ, anh dù dì mắt tròn,",
+        "và anh ngỗng cổ dài.",
+        "Năm ấy, Ông Trời mở khoa thi, học trò của thầy khướu rủ nhau đi thi cả."
+      ],
+      "image": {
+        "character": "khuou",
+        "prompt": "the laughing thrush teacher with tiny spectacles stands at a wooden board, many bird pupils sit on low benches, in front a tiny finch, a big round eagle-owl and a white goose",
+        "seed": 1315662490
+      },
+      "video": {
+        "motionPrompt": "the teacher taps the board with a twig, the pupils chirp along together, the goose stretches its neck, leaves sway, gentle camera pan",
+        "seed": 3610989251
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoi-bai",
+      "title": "Thầy hỏi bài",
+      "narrator": "ke-chuyen",
+      "narration": "Thi xong trở về, thầy khướu hỏi ngay: Bài chi? Bài chi? Anh dù dì đọc lại đề bài, một câu chữ nho rất khó, nghĩa là: thế nào thì mới gọi là người có học? Thầy khướu hỏi tiếp: Các trò làm bài thế nào? Thế nào? Anh ngỗng vươn cổ, quang quác trả lời một tràng. Tiếng thì to lắm, mà nghe chẳng đâu vào đâu cả.",
+      "subtitles": [
+        "Thi xong trở về, thầy khướu hỏi ngay: Bài chi?",
+        "Bài chi? Anh dù dì đọc lại đề bài, một câu chữ nho rất khó, nghĩa là:",
+        "thế nào thì mới gọi là người có học?",
+        "Thầy khướu hỏi tiếp: Các trò làm bài thế nào?",
+        "Thế nào? Anh ngỗng vươn cổ, quang quác trả lời một tràng.",
+        "Tiếng thì to lắm, mà nghe chẳng đâu vào đâu cả."
+      ],
+      "image": {
+        "character": "ngong",
+        "prompt": "the white goose stretches its long neck and honks loudly with its beak wide open, the teacher thrush and the tiny finch cover their ears, the round eagle-owl blinks",
+        "seed": 2273261334
+      },
+      "video": {
+        "motionPrompt": "the goose flaps its wings and honks on and on, the other birds lean back, feathers fluff up, comic timing, slow camera push-in",
+        "seed": 159877277
+      },
+      "voice": {}
+    },
+    {
+      "id": "chim-ri-noi",
+      "title": "Chim ri nói câu hay",
+      "narrator": "ke-chuyen",
+      "narration": "Chim ri nghe ngỗng nói thì lắc đầu: Biết thì nói là biết, không biết thì nói là không biết. Đã không biết thì nói làm chi? Thầy khướu khen rối rít: Câu hay! Câu hay! Câu hay! Ngỗng ngượng quá, cúi cổ xuống, thưa nhỏ: Ạ à, tôi chưa biết thật, tôi chẳng bằng anh. Thầy khướu vẫn còn gật gù khen chim ri mãi.",
+      "subtitles": [
+        "Chim ri nghe ngỗng nói thì lắc đầu: Biết thì nói là biết,",
+        "không biết thì nói là không biết.",
+        "Đã không biết thì nói làm chi?",
+        "Thầy khướu khen rối rít: Câu hay!",
+        "Câu hay! Câu hay!",
+        "Ngỗng ngượng quá, cúi cổ xuống, thưa nhỏ: Ạ à, tôi chưa biết thật, tôi chẳng bằng anh.",
+        "Thầy khướu vẫn còn gật gù khen chim ri mãi."
+      ],
+      "image": {
+        "character": "chim-ri",
+        "prompt": "the tiny finch stands up on a bench speaking seriously, the thrush teacher claps its wings with joy, the goose bends its long neck down shyly",
+        "seed": 3349750075
+      },
+      "video": {
+        "motionPrompt": "the finch nods while speaking, the teacher flutters and claps, the goose lowers its head slowly, warm light, gentle camera drift",
+        "seed": 1935672394
+      },
+      "voice": {}
+    },
+    {
+      "id": "xem-bang",
+      "title": "Ngỗng đi xem bảng",
+      "narrator": "ke-chuyen",
+      "narration": "Ít hôm sau, có tin đã yết bảng. Thầy khướu sai ngỗng đi xem ai đỗ. Ngỗng lạch bạch đi xem, lúc về kêu vang từ đầu ngõ: Đỗ cả! Đỗ cả! Thầy khướu chưa tin, hỏi lại: Xem cho kỹ chưa? Kỹ chưa? Ngỗng gật lia lịa: Đã! Đã! Thầy khướu mừng quá, vỗ cánh hót vang: Hoan hô! Hoan hô! Hoan hô! Cả trường chim ríu rít mừng vui.",
+      "subtitles": [
+        "Ít hôm sau, có tin đã yết bảng.",
+        "Thầy khướu sai ngỗng đi xem ai đỗ.",
+        "Ngỗng lạch bạch đi xem, lúc về kêu vang từ đầu ngõ: Đỗ cả!",
+        "Đỗ cả! Thầy khướu chưa tin, hỏi lại: Xem cho kỹ chưa?",
+        "Kỹ chưa? Ngỗng gật lia lịa: Đã!",
+        "Đã! Thầy khướu mừng quá, vỗ cánh hót vang: Hoan hô!",
+        "Hoan hô! Hoan hô! Cả trường chim ríu rít mừng vui."
+      ],
+      "image": {
+        "character": "ngong",
+        "prompt": "the white goose waddles happily down a village lane honking, behind the school birds cheer, the thrush teacher flaps its wings with joy",
+        "seed": 2817170236
+      },
+      "video": {
+        "motionPrompt": "the goose waddles fast and honks, all the birds jump and flutter, small leaves and petals float like confetti, cheerful camera pull-back",
+        "seed": 1927774393
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn có nhận ra không, tiếng ngỗng kêu nghe như đỗ cả, tiếng khướu hót nghe như hoan hô đấy! Nhưng Miu thích nhất câu của chim ri: biết thì nói là biết, không biết thì nói là không biết. Khi đi học, chưa hiểu bài thì mình cứ mạnh dạn hỏi thầy cô nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn có nhận ra không, tiếng ngỗng kêu nghe như đỗ cả,",
+        "tiếng khướu hót nghe như hoan hô đấy!",
+        "Nhưng Miu thích nhất câu của chim ri: biết thì nói là biết,",
+        "không biết thì nói là không biết.",
+        "Khi đi học, chưa hiểu bài thì mình cứ mạnh dạn hỏi thầy cô nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the little tree school, the tiny finch sits on her shoulder, the goose and the thrush teacher wave behind",
+        "seed": 43161795
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the finch chirps, the goose honks softly, the teacher bows, sunset light, gentle camera pull-back",
+        "seed": 2019105763
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "cheerful Vietnamese folk melody with bamboo flute imitating birdsong, light wooden clappers and dan nguyet, playful school-day feel, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 318747343
+  }
+}

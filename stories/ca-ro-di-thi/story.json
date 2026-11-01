@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "slug": "ca-ro-di-thi",
+  "shelf": "kids",
+  "title": "Cá rô đi thi",
+  "summary": "Nghe cá chép đi thi vượt vũ môn, cá rô cũng tấp tểnh đi thi, được cả làng cá làm lễ cầu đỗ bằng một bài khấn ngộ nghĩnh. Thi trượt, rô lại đổ tại đất. Truyện cổ nước Nam kể lại vui nhộn cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Cá rô đi thi» (số 60) trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: bài văn khấn được viết lại ngắn bằng lời mới; chuyện rô muốn cất lại mả cha được kể thành rô mời thầy xem đất nhà; thêm câu giải thích chấm đen ở đuôi cá rô. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, thoại viết thêm cho sinh động, lời rút ý nhẹ ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, an underwater Vietnamese pond village with lotus stems, reeds, pebbles and soft rippling light, a waterfall gate in the distance, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2147256114
+    },
+    {
+      "id": "ca-ro",
+      "name": "Cá rô",
+      "seed": 946369398,
+      "sheetPrompt": "a small olive-green climbing perch fish with spiky fins, big eager eyes and a cheeky grin, wearing a tiny scholar hat, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ca-ngach",
+      "name": "Cụ cá ngạnh",
+      "seed": 507488097,
+      "sheetPrompt": "an old whiskered catfish with round spectacles holding a rolled paper scroll, comical and kind, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ca-chep",
+      "name": "Cá chép",
+      "seed": 1149274105,
+      "sheetPrompt": "a golden carp with shiny scales and flowing fins, graceful and friendly, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã nghe chuyện cá chép vượt vũ môn hóa rồng chưa? Muốn hóa rồng, cá chép phải nhảy qua những thác nước thật cao đấy. Có một chú cá rô nghe thế, cũng nằng nặc muốn đi thi theo. Nhưng chú cá rô ấy học hành ra sao, thi cử thế nào? Chuyện vui lắm, mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn đã nghe chuyện cá chép vượt vũ môn hóa rồng chưa?",
+        "Muốn hóa rồng, cá chép phải nhảy qua những thác nước thật cao đấy.",
+        "Có một chú cá rô nghe thế, cũng nằng nặc muốn đi thi theo.",
+        "Nhưng chú cá rô ấy học hành ra sao, thi cử thế nào?",
+        "Chuyện vui lắm, mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits by a pond with an open picture book, pointing at a tall waterfall where a golden carp leaps high",
+        "seed": 3599717984
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello and opens the picture book, pages flutter softly, gentle camera push-in",
+        "seed": 2645513818
+      },
+      "voice": {}
+    },
+    {
+      "id": "ro-xin-thi",
+      "title": "Rô xin đi thi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, cá rô nghe tin cá chép sắp đi thi vượt vũ môn, cũng tấp tểnh đòi đi. Rô tìm đến ông lý trưởng làng cá, nhờ ghi tên vào danh sách. Ông lý gật gù, gõ mõ họp làng, làm lễ cầu cho rô thi đỗ. Cả làng kéo đến đông vui. Cụ tôm làm chủ lễ, cụ cá sộp, cụ cá quả đứng hầu hai bên. Cụ lươn, cụ chạch lo thắp hương, còn cụ cá ngạnh được cử đọc bài văn khấn.",
+      "subtitles": [
+        "Ngày xưa, cá rô nghe tin cá chép sắp đi thi vượt vũ môn, cũng tấp tểnh đòi đi.",
+        "Rô tìm đến ông lý trưởng làng cá, nhờ ghi tên vào danh sách.",
+        "Ông lý gật gù, gõ mõ họp làng, làm lễ cầu cho rô thi đỗ.",
+        "Cả làng kéo đến đông vui.",
+        "Cụ tôm làm chủ lễ, cụ cá sộp, cụ cá quả đứng hầu hai bên.",
+        "Cụ lươn, cụ chạch lo thắp hương, còn cụ cá ngạnh được cử đọc bài văn khấn."
+      ],
+      "image": {
+        "character": "ca-ro",
+        "prompt": "an underwater pond village gathering, a little perch in a scholar hat bows proudly, an old shrimp leads a tiny ceremony, eels hold glowing sticks of incense, many fish watch",
+        "seed": 3677358330
+      },
+      "video": {
+        "motionPrompt": "the fish gather and bubble excitedly, the shrimp waves his feelers, the eels sway, the perch puffs his chest, light ripples through the water",
+        "seed": 829922326
+      },
+      "voice": {}
+    },
+    {
+      "id": "van-khan",
+      "title": "Bài văn khấn ngộ nghĩnh",
+      "narrator": "ke-chuyen",
+      "narration": "Cụ ngạnh hắng giọng, đọc to: Làng Lông Bông, xóm Nhấp Nhô, năm nào chẳng nhớ, tháng nào chẳng hay. Nay làng có anh rô đi thi. Bài văn của rô hay như đổ đậu, chữ của rô đẹp như gà bới. Xin ông trời thương tình cho rô thi đỗ! Cả làng nghe xong, ai cũng gật gù khen hay. Rô chẳng hiểu bài khấn nói gì, cứ thế hăm hở lên đường đi thi.",
+      "subtitles": [
+        "Cụ ngạnh hắng giọng, đọc to: Làng Lông Bông,",
+        "xóm Nhấp Nhô, năm nào chẳng nhớ, tháng nào chẳng hay.",
+        "Nay làng có anh rô đi thi.",
+        "Bài văn của rô hay như đổ đậu, chữ của rô đẹp như gà bới.",
+        "Xin ông trời thương tình cho rô thi đỗ!",
+        "Cả làng nghe xong, ai cũng gật gù khen hay.",
+        "Rô chẳng hiểu bài khấn nói gì, cứ thế hăm hở lên đường đi thi."
+      ],
+      "image": {
+        "character": "ca-ngach",
+        "prompt": "an old whiskered catfish with spectacles reads loudly from a long paper scroll, the fish villagers nod seriously, the little perch looks confused but excited",
+        "seed": 1989192637
+      },
+      "video": {
+        "motionPrompt": "the catfish unrolls the long scroll and reads with great drama, bubbles rise, the fish nod together, the perch scratches his head with a fin",
+        "seed": 3270152756
+      },
+      "voice": {}
+    },
+    {
+      "id": "troi-cham-thi",
+      "title": "Ông trời chấm thi",
+      "narrator": "ke-chuyen",
+      "narration": "Đến kỳ thi, ông trời ra chấm. Ông trời khen rô là đứa có tài, bơi khỏe, lại biết rạch ngược dòng nước. Nhưng ông trời chê: Rô chỉ biết rạch ngược, chứ không biết nhảy xa, làm sao vượt được vũ môn! Thế là rô không đỗ. Thương rô đã chịu khó, ông trời chấm cho rô một chấm đen ở sau đuôi. Vì thế mà đến bây giờ, đuôi cá rô vẫn còn một chấm đen nho nhỏ.",
+      "subtitles": [
+        "Đến kỳ thi, ông trời ra chấm.",
+        "Ông trời khen rô là đứa có tài, bơi khỏe, lại biết rạch ngược dòng nước.",
+        "Nhưng ông trời chê: Rô chỉ biết rạch ngược,",
+        "chứ không biết nhảy xa, làm sao vượt được vũ môn!",
+        "Thế là rô không đỗ.",
+        "Thương rô đã chịu khó, ông trời chấm cho rô một chấm đen ở sau đuôi.",
+        "Vì thế mà đến bây giờ, đuôi cá rô vẫn còn một chấm đen nho nhỏ."
+      ],
+      "image": {
+        "character": "ca-ro",
+        "prompt": "at the foot of a tall waterfall gate, the golden carp leaps high while the little perch only swims hard against the current, a kind sky elder in the clouds dabs a small black dot on the perch tail with a brush",
+        "seed": 3156581736
+      },
+      "video": {
+        "motionPrompt": "the carp leaps gracefully up the waterfall, the perch splashes but cannot jump, a gentle brush from the clouds touches its tail, spray glitters",
+        "seed": 1938718453
+      },
+      "voice": {}
+    },
+    {
+      "id": "do-tai-dat",
+      "title": "Rô đổ tại đất",
+      "narrator": "ke-chuyen",
+      "narration": "Rô về nhà, bực bội lắm. Rô chẳng chịu nghĩ tại mình, lại bảo tại đất nhà không tốt. Rô mời thầy địa lý đến xem đất. Thầy đi khắp vùng một lượt, rồi lắc đầu: Sông thì sâu, nước thì trắng, chẳng có núi non gì, thế thì làm được gì! Rô ngán ngẩm, ngồi ngâm thơ với vợ: Mình ơi, tại đất cả thôi, chứ học hành tôi có dốt gì đâu!",
+      "subtitles": [
+        "Rô về nhà, bực bội lắm.",
+        "Rô chẳng chịu nghĩ tại mình, lại bảo tại đất nhà không tốt.",
+        "Rô mời thầy địa lý đến xem đất.",
+        "Thầy đi khắp vùng một lượt, rồi lắc đầu: Sông thì sâu,",
+        "nước thì trắng, chẳng có núi non gì, thế thì làm được gì!",
+        "Rô ngán ngẩm, ngồi ngâm thơ với vợ: Mình ơi,",
+        "tại đất cả thôi, chứ học hành tôi có dốt gì đâu!"
+      ],
+      "image": {
+        "character": "ca-ro",
+        "prompt": "the little perch with a black dot on his tail sulks at home under a lotus leaf, an old fish fortune-teller with a compass shakes his head, the perch wife rolls her eyes",
+        "seed": 1109966828
+      },
+      "video": {
+        "motionPrompt": "the fortune-teller swims around and shakes his head, the perch sighs dramatically, his wife rolls her eyes, lotus leaves bob, comic timing",
+        "seed": 3698293998
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy cá rô có buồn cười không? Rô chưa luyện nhảy xa mà đã vội đi thi, thi trượt lại đổ tại đất, tại nước. Khi làm chưa tốt, mình đừng vội trách người khác hay trách hoàn cảnh nhé. Mình hãy xem mình còn thiếu điều gì, rồi chăm chỉ luyện tập thêm. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy cá rô có buồn cười không?",
+        "Rô chưa luyện nhảy xa mà đã vội đi thi, thi trượt lại đổ tại đất, tại nước.",
+        "Khi làm chưa tốt, mình đừng vội trách người khác hay trách hoàn cảnh nhé.",
+        "Mình hãy xem mình còn thiếu điều gì, rồi chăm chỉ luyện tập thêm.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye by the pond, the little perch practices jumping over a reed in the water while the golden carp cheers",
+        "seed": 1528033186
+      },
+      "video": {
+        "motionPrompt": "the cat waves goodbye slowly, the friends wave back, leaves drift in the breeze, gentle camera pull-back",
+        "seed": 1617984417
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful Vietnamese folk melody, bamboo flute and dan nguyet moon lute with bubbly plucks and light wooden drum, comic and cheerful, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1729299788
+  }
+}
