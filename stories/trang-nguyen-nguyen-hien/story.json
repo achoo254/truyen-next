@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "slug": "trang-nguyen-nguyen-hien",
+  "shelf": "kids",
+  "title": "Cậu bé trạng nguyên Nguyễn Hiền",
+  "summary": "Cậu bé nhà nghèo Nguyễn Hiền mê thả diều mà vẫn học giỏi, đỗ trạng nguyên khi mới mười ba tuổi. Khi sứ thần phương Bắc đố xâu sợi chỉ qua ruột con ốc, cậu chỉ cách bằng một bài đồng dao về chú kiến càng. Giai thoại về trạng nguyên nhỏ tuổi nhất nước ta, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "anh-hung"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Giai thoại dân gian Việt Nam về trạng nguyên Nguyễn Hiền đời Trần, truyền miệng, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; chỉ kể giai thoại đã lưu truyền, không thêm lời nói hay việc làm mới.",
+  "basedOn": "Giai thoại dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, Tran dynasty village with rice fields, a village pagoda and kites in the sky, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 4043270608
+    },
+    {
+      "id": "nguyen-hien",
+      "name": "Nguyễn Hiền",
+      "seed": 1649798464,
+      "sheetPrompt": "Nguyen Hien as a bright cheerful Vietnamese village boy about thirteen years old, clever sparkling eyes, short black hair with a small topknot, simple brown shirt and dark trousers, barefoot, holding a paper kite with a bamboo flute on it, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "su-than",
+      "name": "Sứ thần phương Bắc",
+      "seed": 891923978,
+      "sheetPrompt": "a proud comical foreign envoy from an old northern court, round face with a long thin moustache, red silk robe and a tall black official hat, holding a big spiral seashell, smug smile, funny not scary, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Hôm nay gió thổi lồng lộng, Mèo Miu đang thả một con diều sáo bay vi vu đây. Ngày xưa có một cậu bé cũng mê thả diều lắm, vậy mà cậu lại đỗ trạng nguyên khi mới mười ba tuổi. Cậu tên là Nguyễn Hiền. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Hôm nay gió thổi lồng lộng, Mèo Miu đang thả một con diều sáo bay vi vu đây.",
+        "Ngày xưa có một cậu bé cũng mê thả diều lắm,",
+        "vậy mà cậu lại đỗ trạng nguyên khi mới mười ba tuổi.",
+        "Cậu tên là Nguyễn Hiền.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat flies a paper kite with a bamboo flute on a grassy dyke beside green rice fields, blue sky with puffy clouds, breezy sunny afternoon",
+        "seed": 230864009,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the kite rises and dances in the wind, the cat tugs the string happily, rice fields ripple, slow camera tilt up to the kite",
+        "seed": 1276776308
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-be-ngheo",
+      "title": "Cậu bé học ở chùa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, vào đời nhà Trần, ở vùng quê Thiên Trường có một cậu bé nhà nghèo tên là Nguyễn Hiền. Nhà không có tiền cho đi học, cậu được gửi lên chùa làng để nhà sư dạy chữ. Cậu sáng dạ lạ thường, thầy giảng đến đâu hiểu ngay đến đó, đọc qua là nhớ.",
+      "subtitles": [
+        "Ngày xưa, vào đời nhà Trần,",
+        "ở vùng quê Thiên Trường có một cậu bé nhà nghèo tên là Nguyễn Hiền.",
+        "Nhà không có tiền cho đi học, cậu được gửi lên chùa làng để nhà sư dạy chữ.",
+        "Cậu sáng dạ lạ thường, thầy giảng đến đâu hiểu ngay đến đó, đọc qua là nhớ."
+      ],
+      "image": {
+        "prompt": "young Nguyen Hien sits on a straw mat in a quiet village pagoda learning to write with a brush, a kind old monk in brown robes teaching him from a book, incense and sunlight through wooden windows",
+        "seed": 1646790286,
+        "character": "nguyen-hien"
+      },
+      "video": {
+        "motionPrompt": "the boy writes carefully with the brush, the monk nods and smiles, sunbeams shift across the floor, slow push-in",
+        "seed": 3885322654
+      },
+      "voice": {}
+    },
+    {
+      "id": "tha-dieu",
+      "title": "Cậu bé mê thả diều",
+      "narrator": "ke-chuyen",
+      "narration": "Nguyễn Hiền cũng ham chơi như bao bạn nhỏ khác. Cậu mê nhất là thả diều. Chiều chiều, cậu cùng các bạn chạy ra bãi cỏ, những cánh diều bay cao, tiếng sáo diều vi vu khắp cánh đồng. Thế nhưng chơi thì chơi, cậu chẳng bao giờ bỏ bài vở. Cậu chăm chỉ học thêm, đọc thêm, nên hiểu biết ngày càng rộng.",
+      "subtitles": [
+        "Nguyễn Hiền cũng ham chơi như bao bạn nhỏ khác.",
+        "Cậu mê nhất là thả diều.",
+        "Chiều chiều, cậu cùng các bạn chạy ra bãi cỏ,",
+        "những cánh diều bay cao, tiếng sáo diều vi vu khắp cánh đồng.",
+        "Thế nhưng chơi thì chơi, cậu chẳng bao giờ bỏ bài vở.",
+        "Cậu chăm chỉ học thêm, đọc thêm, nên hiểu biết ngày càng rộng."
+      ],
+      "image": {
+        "prompt": "Nguyen Hien and village children run across a grassy field flying colorful paper kites high in the evening sky, water buffalo grazing, the village pagoda roof in the distance, golden sunset",
+        "seed": 3673633634,
+        "character": "nguyen-hien"
+      },
+      "video": {
+        "motionPrompt": "kites swoop and climb in the breeze, children run laughing, grass waves, camera follows the kites upward",
+        "seed": 3393785753
+      },
+      "voice": {}
+    },
+    {
+      "id": "do-trang",
+      "title": "Trạng nguyên mười ba tuổi",
+      "narrator": "ke-chuyen",
+      "narration": "Năm ấy, triều đình mở khoa thi lớn. Nguyễn Hiền mới mười ba tuổi cũng xin đi thi cùng các bậc người lớn. Cậu làm bài rất giỏi và đỗ đầu, trở thành trạng nguyên. Đến nay, cậu vẫn là trạng nguyên ít tuổi nhất nước ta. Nhưng vua thấy trạng nguyên còn nhỏ quá, nên cho cậu về quê học thêm, đợi lớn hơn sẽ gọi ra giúp nước.",
+      "subtitles": [
+        "Năm ấy, triều đình mở khoa thi lớn.",
+        "Nguyễn Hiền mới mười ba tuổi cũng xin đi thi cùng các bậc người lớn.",
+        "Cậu làm bài rất giỏi và đỗ đầu, trở thành trạng nguyên.",
+        "Đến nay, cậu vẫn là trạng nguyên ít tuổi nhất nước ta.",
+        "Nhưng vua thấy trạng nguyên còn nhỏ quá,",
+        "nên cho cậu về quê học thêm, đợi lớn hơn sẽ gọi ra giúp nước."
+      ],
+      "image": {
+        "prompt": "at a royal exam ground with many grown-up scholars in robes, little Nguyen Hien stands out among them, a red announcement board and smiling officials, then a kind king in yellow looking down at the small boy fondly",
+        "seed": 85332731,
+        "character": "nguyen-hien"
+      },
+      "video": {
+        "motionPrompt": "officials unroll a red scroll, the grown-up scholars turn to look at the boy in surprise, the king smiles warmly, slow camera pan",
+        "seed": 1514490379
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-oc",
+      "title": "Câu đố con ốc",
+      "narrator": "ke-chuyen",
+      "narration": "Ít lâu sau, có sứ thần phương Bắc sang, mang theo một con ốc có ruột xoắn ngoằn ngoèo từ đầu này sang đầu kia. Sứ thần đố: làm sao luồn được một sợi chỉ xuyên qua ruột con ốc? Các quan trong triều loay hoay mãi mà không ai nghĩ ra. Vua bèn sai người về quê tìm hỏi trạng nguyên Nguyễn Hiền.",
+      "subtitles": [
+        "Ít lâu sau, có sứ thần phương Bắc sang,",
+        "mang theo một con ốc có ruột xoắn ngoằn ngoèo từ đầu này sang đầu kia.",
+        "Sứ thần đố: làm sao luồn được một sợi chỉ xuyên qua ruột con ốc?",
+        "Các quan trong triều loay hoay mãi mà không ai nghĩ ra.",
+        "Vua bèn sai người về quê tìm hỏi trạng nguyên Nguyễn Hiền."
+      ],
+      "image": {
+        "prompt": "in a palace hall the smug foreign envoy holds up a big spiral seashell and a long red thread, Vietnamese mandarins in blue robes squint and try to poke the thread into the shell, puzzled funny faces",
+        "seed": 3308965475,
+        "character": "su-than"
+      },
+      "video": {
+        "motionPrompt": "the envoy twirls the shell smugly, a mandarin tries and fails to push the thread in, others scratch their heads, slow camera push-in",
+        "seed": 2694968233
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-dong-dao",
+      "title": "Bài đồng dao chú kiến",
+      "narrator": "ke-chuyen",
+      "narration": "Người của vua tìm đến nơi thì thấy cậu đang chơi đùa cùng lũ trẻ chăn trâu ngoài đầu làng. Nghe nói câu đố, Nguyễn Hiền không trả lời ngay, mà bảo các bạn hát một bài đồng dao, mở đầu bằng câu tang tình tang, tính tình tang. Bài hát bảo rằng: hãy bắt một con kiến càng, buộc sợi chỉ ngang lưng nó. Một đầu ốc bịt giấy lại, đầu kia bôi một chút mỡ, kiến thèm mùi mỡ sẽ bò xuyên qua ruột ốc, kéo theo sợi chỉ.",
+      "subtitles": [
+        "Người của vua tìm đến nơi thì thấy cậu đang chơi đùa cùng lũ trẻ chăn trâu ngoài đầu làng.",
+        "Nghe nói câu đố, Nguyễn Hiền không trả lời ngay,",
+        "mà bảo các bạn hát một bài đồng dao, mở đầu bằng câu tang tình tang, tính tình tang.",
+        "Bài hát bảo rằng: hãy bắt một con kiến càng, buộc sợi chỉ ngang lưng nó.",
+        "Một đầu ốc bịt giấy lại, đầu kia bôi một chút mỡ,",
+        "kiến thèm mùi mỡ sẽ bò xuyên qua ruột ốc, kéo theo sợi chỉ."
+      ],
+      "image": {
+        "prompt": "at the edge of a village under a big banyan tree, Nguyen Hien sits on a buffalo while a group of children clap and sing in a circle, a royal messenger in blue listening with a surprised smile, a big ant and a spiral shell drawn in the dirt",
+        "seed": 604279137,
+        "character": "nguyen-hien"
+      },
+      "video": {
+        "motionPrompt": "the children clap and sway as they sing, the messenger leans in to listen, leaves rustle, slow camera circle",
+        "seed": 506384499
+      },
+      "voice": {}
+    },
+    {
+      "id": "xau-chi",
+      "title": "Chú kiến xâu chỉ",
+      "narrator": "ke-chuyen",
+      "narration": "Người của vua về tâu lại, các quan làm đúng như lời bài hát. Quả nhiên, chú kiến càng bò lọt qua những vòng xoắn của con ốc, kéo theo sợi chỉ ra đầu bên kia. Sứ thần phương Bắc phải gật đầu chịu phục. Vua mừng lắm, cho người mang lễ vật, xe ngựa đến đón Nguyễn Hiền về kinh cho đúng phép. Về sau, ông trở thành một vị quan giỏi giang, giúp vua lo việc nước.",
+      "subtitles": [
+        "Người của vua về tâu lại, các quan làm đúng như lời bài hát.",
+        "Quả nhiên, chú kiến càng bò lọt qua những vòng xoắn của con ốc,",
+        "kéo theo sợi chỉ ra đầu bên kia.",
+        "Sứ thần phương Bắc phải gật đầu chịu phục.",
+        "Vua mừng lắm, cho người mang lễ vật, xe ngựa đến đón Nguyễn Hiền về kinh cho đúng phép.",
+        "Về sau, ông trở thành một vị quan giỏi giang, giúp vua lo việc nước."
+      ],
+      "image": {
+        "prompt": "close view of a cute little ant with a thin red thread tied around its waist crawling out of the end of a big spiral seashell, the foreign envoy bending down amazed, mandarins cheering in the background",
+        "seed": 2249519250,
+        "character": "su-than"
+      },
+      "video": {
+        "motionPrompt": "the little ant crawls out pulling the red thread, the envoy's eyebrows rise, mandarins clap and cheer, slow camera pull-back",
+        "seed": 2141184352
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thế là cậu bé thả diều đã trở thành trạng nguyên nhỏ tuổi nhất nước ta. Các bạn thấy không, chơi vui cũng được, miễn là mình chăm chỉ học hành và chịu khó suy nghĩ. Lần sau thả diều, các bạn nhớ đến ông trạng nhỏ Nguyễn Hiền nha. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Thế là cậu bé thả diều đã trở thành trạng nguyên nhỏ tuổi nhất nước ta.",
+        "Các bạn thấy không, chơi vui cũng được,",
+        "miễn là mình chăm chỉ học hành và chịu khó suy nghĩ.",
+        "Lần sau thả diều, các bạn nhớ đến ông trạng nhỏ Nguyễn Hiền nha.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye on a grassy dyke holding a kite string, many colorful kites flying over the rice fields at sunset, a little ant waving from a spiral seashell beside her",
+        "seed": 2184840787,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, kites dance in the sunset wind, the little ant waves back, gentle camera pull-back",
+        "seed": 3732846365
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "cheerful gentle Vietnamese folk tune for children, bamboo flute imitating kite whistles, dan bau one-string zither and soft clapping rhythm, bright and playful, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2042357107
+  }
+}

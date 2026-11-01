@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "slug": "chim-son-ca-va-dan-con",
+  "shelf": "world",
+  "title": "Chim sơn ca và đàn con",
+  "summary": "Mẹ sơn ca làm tổ giữa ruộng lúa chín và chỉ dọn nhà khi nghe bác nông dân nói sẽ tự tay gặt. Ngụ ngôn Aesop về việc tự mình làm lấy, chẳng trông chờ ai.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, golden wheat fields swaying under a wide summer sky, poppies and cornflowers, a stone farmhouse on the hill, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "son-ca-me",
+      "name": "Mẹ sơn ca",
+      "seed": 541784528,
+      "sheetPrompt": "a small brown skylark mother with a little crest, speckled breast, wise caring eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "son-ca-con",
+      "name": "Sơn ca con",
+      "seed": 2589693434,
+      "sheetPrompt": "three fluffy baby skylarks with tiny crests and big open beaks, sitting in a grass nest, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nong-dan",
+      "name": "Bác nông dân",
+      "seed": 700126244,
+      "sheetPrompt": "an old farmer with a straw hat, a white beard, a linen shirt and a wooden sickle handle over the shoulder, kindly face, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "to-giua-dong",
+      "title": "Tổ giữa đồng lúa",
+      "narrator": "ke-chuyen",
+      "narration": "Đầu hè, mẹ sơn ca làm tổ giữa ruộng lúa mì xanh mướt. Ít lâu sau, ba chú sơn ca con ra đời. Lúa dần chín vàng, đàn con cũng lớn lên, lông cánh đã mọc. Sáng nào đi kiếm mồi, mẹ cũng dặn: “Các con ở nhà, nghe thấy người ta nói gì thì nhớ kể lại cho mẹ nhé.”",
+      "subtitles": [
+        "Đầu hè, mẹ sơn ca làm tổ giữa ruộng lúa mì xanh mướt.",
+        "Ít lâu sau, ba chú sơn ca con ra đời.",
+        "Lúa dần chín vàng, đàn con cũng lớn lên, lông cánh đã mọc.",
+        "Sáng nào đi kiếm mồi, mẹ cũng dặn: “Các con ở nhà, nghe thấy người ta nói gì thì nhớ kể",
+        "lại cho mẹ nhé.”"
+      ],
+      "image": {
+        "character": "son-ca-me",
+        "prompt": "a skylark nest hidden among golden wheat stalks, three fluffy chicks with open beaks, the mother skylark feeding them, poppies around",
+        "seed": 1041936288
+      },
+      "video": {
+        "motionPrompt": "the wheat sways in the wind, the chicks chirp with open beaks, the mother flutters down to the nest",
+        "seed": 3188710242
+      },
+      "voice": {}
+    },
+    {
+      "id": "nho-hang-xom",
+      "title": "Nhờ hàng xóm",
+      "narrator": "ke-chuyen",
+      "narration": "Một chiều, mẹ về thì đàn con nhao nhao: “Mẹ ơi, nguy rồi! Bác chủ ruộng bảo lúa chín rồi, mai sang nhờ hàng xóm đến gặt giúp!” Mẹ sơn ca bình thản: “Đừng sợ, các con ạ. Nếu bác ấy chỉ trông vào hàng xóm, thì lúa chưa gặt đâu.” Quả nhiên, hôm sau chẳng có ai đến cả.",
+      "subtitles": [
+        "Một chiều, mẹ về thì đàn con nhao nhao: “Mẹ ơi, nguy rồi!",
+        "Bác chủ ruộng bảo lúa chín rồi, mai sang nhờ hàng xóm đến gặt giúp!”",
+        "Mẹ sơn ca bình thản: “Đừng sợ, các con ạ.",
+        "Nếu bác ấy chỉ trông vào hàng xóm, thì lúa chưa gặt đâu.”",
+        "Quả nhiên, hôm sau chẳng có ai đến cả."
+      ],
+      "image": {
+        "character": "nong-dan",
+        "prompt": "the old farmer standing at the edge of his golden wheat field with his son, pointing at the ripe grain, the hidden chicks peeking out between the stalks listening",
+        "seed": 1066242864
+      },
+      "video": {
+        "motionPrompt": "the farmer points across the field, the chicks peek out and duck back, clouds drift slowly",
+        "seed": 1755336485
+      },
+      "voice": {}
+    },
+    {
+      "id": "nho-ho-hang",
+      "title": "Nhờ họ hàng",
+      "narrator": "ke-chuyen",
+      "narration": "Mấy hôm sau, đàn con lại hốt hoảng: “Mẹ ơi, bác ấy bảo sẽ nhờ anh em họ hàng đến gặt!” Mẹ sơn ca vẫn mỉm cười: “Chưa sao đâu, các con cứ yên tâm mà ngủ.” Và đúng như lời mẹ, họ hàng ai cũng bận việc nhà mình, ruộng lúa vẫn đứng nguyên, vàng óng dưới nắng.",
+      "subtitles": [
+        "Mấy hôm sau, đàn con lại hốt hoảng: “Mẹ ơi, bác ấy bảo sẽ nhờ anh em họ hàng đến gặt!”",
+        "Mẹ sơn ca vẫn mỉm cười: “Chưa sao đâu, các con cứ yên tâm mà ngủ.”",
+        "Và đúng như lời mẹ, họ hàng ai cũng bận việc nhà mình, ruộng lúa vẫn đứng nguyên, vàng óng",
+        "dưới nắng."
+      ],
+      "image": {
+        "character": "son-ca-con",
+        "prompt": "the three skylark chicks chattering anxiously to their calm mother in the nest, the empty golden field around them, nobody coming along the road",
+        "seed": 1185082445
+      },
+      "video": {
+        "motionPrompt": "the chicks flap their small wings excitedly, the mother tucks them under her wing, the empty road shimmers in the heat",
+        "seed": 2979633234
+      },
+      "voice": {}
+    },
+    {
+      "id": "tu-gat",
+      "title": "Tự tay mình gặt",
+      "narrator": "ke-chuyen",
+      "narration": "Rồi một tối, đàn con kể: “Hôm nay bác nông dân nói với con trai: Chẳng trông chờ ai được nữa, sáng mai cha con mình tự mài liềm ra gặt.” Lần này, mẹ sơn ca đứng bật dậy: “Đến lúc dọn nhà rồi, các con ạ! Khi người ta quyết tự tay làm lấy, thì việc chắc chắn sẽ thành.” Ngay trong đêm, mẹ dẫn đàn con bay sang bãi cỏ bên bờ suối.",
+      "subtitles": [
+        "Rồi một tối, đàn con kể: “Hôm nay bác nông dân nói với con trai: Chẳng trông chờ ai được",
+        "nữa, sáng mai cha con mình tự mài liềm ra gặt.”",
+        "Lần này, mẹ sơn ca đứng bật dậy: “Đến lúc dọn nhà rồi, các con ạ!",
+        "Khi người ta quyết tự tay làm lấy, thì việc chắc chắn sẽ thành.”",
+        "Ngay trong đêm, mẹ dẫn đàn con bay sang bãi cỏ bên bờ suối."
+      ],
+      "image": {
+        "character": "son-ca-me",
+        "prompt": "at moonlit night the mother skylark leading her three young ones flying low over the wheat toward a meadow by a stream, stars above",
+        "seed": 4273006258
+      },
+      "video": {
+        "motionPrompt": "the birds flutter over the silver wheat, the moon glows, fireflies rise from the meadow",
+        "seed": 1108091128
+      },
+      "voice": {}
+    },
+    {
+      "id": "sang-hom-sau",
+      "title": "Sáng hôm sau",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, bác nông dân và con trai ra đồng từ sớm, liềm trong tay, gặt lúa phăng phăng. Đến trưa, cả ruộng đã gặt xong. Bên bờ suối, mẹ con nhà sơn ca ríu rít trong tổ mới, bình yên vô sự. Các bạn nhỏ ạ, việc của mình thì phải tự mình làm, trông chờ vào người khác thì chẳng biết đến bao giờ.",
+      "subtitles": [
+        "Sáng hôm sau, bác nông dân và con trai ra đồng từ sớm, liềm trong tay, gặt lúa phăng",
+        "phăng. Đến trưa, cả ruộng đã gặt xong.",
+        "Bên bờ suối, mẹ con nhà sơn ca ríu rít trong tổ mới, bình yên vô sự.",
+        "Các bạn nhỏ ạ, việc của mình thì phải tự mình làm, trông chờ vào người khác thì chẳng biết",
+        "đến bao giờ."
+      ],
+      "image": {
+        "character": "nong-dan",
+        "prompt": "the farmer and his son harvesting wheat in the morning sun, sheaves standing in rows, and in a corner a happy skylark family singing in a new nest by the stream",
+        "seed": 3416162028
+      },
+      "video": {
+        "motionPrompt": "sickles sweep through the wheat, sheaves fall in rows, the skylarks sing and hop in their new nest",
+        "seed": 2683200135
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "bright pastoral classical music, piccolo birdsong trills over warm strings, a gentle folk dance feel, calm happy ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 614003259
+  }
+}

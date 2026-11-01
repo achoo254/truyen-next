@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "slug": "phan-cua-su-tu",
+  "shelf": "world",
+  "title": "Phần của sư tử",
+  "summary": "Sư tử, lừa và cáo cùng đi kiếm ăn, nhưng đến lúc chia phần thì chỉ một con chia vừa ý chúa sơn lâm. Ngụ ngôn Aesop sâu sắc về kẻ mạnh và cách học từ chuyện người khác.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, an open African-like savanna with acacia trees and tall golden grass, adapted to a gentle storybook mood, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "su-tu",
+      "name": "Sư tử",
+      "seed": 3664696977,
+      "sheetPrompt": "a large majestic lion with a full golden mane, a proud stern face, sitting like a king, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "lua",
+      "name": "Lừa",
+      "seed": 3201391002,
+      "sheetPrompt": "an honest grey donkey with long ears, a white muzzle and a simple earnest expression, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cao",
+      "name": "Cáo",
+      "seed": 3243519839,
+      "sheetPrompt": "a clever slim red fox with bright watchful eyes and a bushy tail, polite and careful, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ket-ban",
+      "title": "Ba người bạn đi săn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một thảo nguyên rộng lớn, sư tử rủ lừa và cáo cùng đi kiếm ăn. Sư tử bảo: “Ba chúng ta hợp sức, được bao nhiêu sẽ chia đều.” Lừa và cáo nghe thế thì mừng lắm. Cả ngày, ba con đi khắp thảo nguyên, kẻ đánh hơi, người canh chừng, cuối cùng kiếm được một đống thức ăn thật to.",
+      "subtitles": [
+        "Ngày xưa, ở một thảo nguyên rộng lớn, sư tử rủ lừa và cáo cùng đi kiếm ăn.",
+        "Sư tử bảo: “Ba chúng ta hợp sức, được bao nhiêu sẽ chia đều.”",
+        "Lừa và cáo nghe thế thì mừng lắm.",
+        "Cả ngày, ba con đi khắp thảo nguyên, kẻ đánh hơi, người canh chừng, cuối cùng kiếm được",
+        "một đống thức ăn thật to."
+      ],
+      "image": {
+        "character": "su-tu",
+        "prompt": "a lion, a grey donkey and a red fox walking together across golden savanna grass under acacia trees, the lion in front like a leader",
+        "seed": 1827619390
+      },
+      "video": {
+        "motionPrompt": "the three animals walk in a line, the grass waves, a flock of birds rises from an acacia tree",
+        "seed": 2535582340
+      },
+      "voice": {}
+    },
+    {
+      "id": "lua-chia",
+      "title": "Lừa chia phần",
+      "narrator": "ke-chuyen",
+      "narration": "Sư tử nằm xuống, bảo: “Lừa, ngươi chia đi.” Lừa vốn thật thà, cẩn thận chia đống thức ăn thành ba phần bằng nhau, không hơn không kém, rồi lễ phép mời: “Xin mời bác chọn trước ạ.” Ngờ đâu, sư tử nổi giận gầm lên một tiếng vang cả thảo nguyên: “Ngươi dám chia ta bằng phần với các ngươi à?”",
+      "subtitles": [
+        "Sư tử nằm xuống, bảo: “Lừa, ngươi chia đi.”",
+        "Lừa vốn thật thà, cẩn thận chia đống thức ăn thành ba phần bằng nhau, không hơn không kém,",
+        "rồi lễ phép mời: “Xin mời bác chọn trước ạ.”",
+        "Ngờ đâu, sư tử nổi giận gầm lên một tiếng vang cả thảo nguyên: “Ngươi dám chia ta bằng",
+        "phần với các ngươi à?”"
+      ],
+      "image": {
+        "character": "lua",
+        "prompt": "the earnest donkey proudly showing three exactly equal piles of food in the grass, the lion's face darkening with anger behind it",
+        "seed": 2614725058
+      },
+      "video": {
+        "motionPrompt": "the donkey nudges the three piles with its nose, the lion's mane bristles, grass bends in a sudden gust",
+        "seed": 3027933721
+      },
+      "voice": {}
+    },
+    {
+      "id": "lua-chay",
+      "title": "Lừa bị đuổi đi",
+      "narrator": "ke-chuyen",
+      "narration": "Sư tử nhảy chồm tới. Lừa sợ quá, co cẳng chạy một mạch vào rừng sâu, chẳng dám ngoảnh lại, và không bao giờ quay về nhập bọn nữa. Thảo nguyên lặng như tờ. Sư tử quay sang cáo: “Giờ đến lượt ngươi. Chia đi!”",
+      "subtitles": [
+        "Sư tử nhảy chồm tới.",
+        "Lừa sợ quá, co cẳng chạy một mạch vào rừng sâu, chẳng dám ngoảnh lại, và không bao giờ",
+        "quay về nhập bọn nữa. Thảo nguyên lặng như tờ. Sư tử quay sang cáo: “Giờ đến lượt ngươi.",
+        "Chia đi!”"
+      ],
+      "image": {
+        "character": "lua",
+        "prompt": "the frightened donkey running away into the distant forest kicking up dust, the lion standing tall and roaring, the fox watching quietly",
+        "seed": 1944189833
+      },
+      "video": {
+        "motionPrompt": "the donkey gallops away into the trees, dust rises, the lion shakes its mane, the fox's ears flatten",
+        "seed": 151454061
+      },
+      "voice": {}
+    },
+    {
+      "id": "cao-chia",
+      "title": "Cáo chia phần",
+      "narrator": "ke-chuyen",
+      "narration": "Cáo chẳng nói chẳng rằng, gom gần hết đống thức ăn thành một đống to tướng, đặt trước mặt sư tử. Còn mình, cáo chỉ giữ lại một mẩu bé xíu. Sư tử hài lòng lắm: “Giỏi! Ai dạy ngươi chia khéo đến thế?” Cáo cúi đầu, đáp nhỏ: “Thưa bác, cháu học được từ chuyện vừa xảy ra với bác lừa đấy ạ.”",
+      "subtitles": [
+        "Cáo chẳng nói chẳng rằng, gom gần hết đống thức ăn thành một đống to tướng, đặt trước mặt",
+        "sư tử. Còn mình, cáo chỉ giữ lại một mẩu bé xíu. Sư tử hài lòng lắm: “Giỏi!",
+        "Ai dạy ngươi chia khéo đến thế?”",
+        "Cáo cúi đầu, đáp nhỏ: “Thưa bác, cháu học được từ chuyện vừa xảy ra với bác lừa đấy ạ.”"
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "the clever fox pushing a huge pile of food toward the satisfied lion, keeping only a tiny morsel for itself, sunset on the savanna",
+        "seed": 3103487868
+      },
+      "video": {
+        "motionPrompt": "the fox nudges the big pile forward, the lion smiles and settles down, the sun sinks behind acacia trees",
+        "seed": 780675139
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc",
+      "title": "Bài học của cáo",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy, cáo nằm dưới gốc cây, nhìn sao trời mà ngẫm nghĩ. Cáo hiểu rằng sư tử nói chia đều nhưng chẳng hề định chia đều. Từ đó, cáo không bao giờ đi chung với kẻ chỉ muốn phần hơn về mình. Các bạn nhỏ ạ, biết học từ chuyện của người khác thì đỡ phải vấp ngã. Và hãy nhớ, chơi với ai thì phải xem người ấy có công bằng không.",
+      "subtitles": [
+        "Đêm ấy, cáo nằm dưới gốc cây, nhìn sao trời mà ngẫm nghĩ.",
+        "Cáo hiểu rằng sư tử nói chia đều nhưng chẳng hề định chia đều.",
+        "Từ đó, cáo không bao giờ đi chung với kẻ chỉ muốn phần hơn về mình.",
+        "Các bạn nhỏ ạ, biết học từ chuyện của người khác thì đỡ phải vấp ngã.",
+        "Và hãy nhớ, chơi với ai thì phải xem người ấy có công bằng không."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "the thoughtful fox lying under an acacia tree at night, gazing at a sky full of stars, the savanna calm and blue",
+        "seed": 1041661197
+      },
+      "video": {
+        "motionPrompt": "stars twinkle, the fox's tail curls slowly, crickets chirp, a gentle breeze moves the grass",
+        "seed": 4031035238
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm orchestral storybook music with soft African-inspired percussion and kalimba, a heavy brass motif for the lion, a quick light flute for the fox, reflective calm ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1730165688
+  }
+}

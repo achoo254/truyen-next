@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "slug": "hai-cai-noi",
+  "shelf": "world",
+  "title": "Hai cái nồi",
+  "summary": "Nồi đồng rủ nồi đất cùng trôi sát bên nhau trên dòng sông, nhưng nồi đất biết mình mong manh. Ngụ ngôn Aesop về việc chọn bạn và biết giữ mình.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, a wide gentle river through green countryside, reeds, willows and a village bridge, the two pots drawn as charming characters with little faces, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "noi-dong",
+      "name": "Nồi đồng",
+      "seed": 903233030,
+      "sheetPrompt": "a shiny round copper cooking pot with a cheerful face, two small handles like arms, gleaming and sturdy, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "noi-dat",
+      "name": "Nồi đất",
+      "seed": 62501468,
+      "sheetPrompt": "a modest clay earthenware pot, reddish brown with a simple painted band, a shy gentle face, slightly fragile looking, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "can-bep",
+      "title": "Trong căn bếp",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, trong căn bếp của một ngôi nhà ven sông, có hai cái nồi sống cạnh nhau. Một là nồi đồng sáng loáng, chắc nịch. Một là nồi đất nâu hồng, hiền lành nhưng mỏng manh. Ngày ngày, cả hai cùng nấu cơm, kho cá cho cả nhà. Một hôm, bà chủ mang hai cái nồi ra bờ sông rửa, rồi đặt tạm trên bãi đá.",
+      "subtitles": [
+        "Ngày xưa, trong căn bếp của một ngôi nhà ven sông, có hai cái nồi sống cạnh nhau.",
+        "Một là nồi đồng sáng loáng, chắc nịch. Một là nồi đất nâu hồng, hiền lành nhưng mỏng manh.",
+        "Ngày ngày, cả hai cùng nấu cơm, kho cá cho cả nhà.",
+        "Một hôm, bà chủ mang hai cái nồi ra bờ sông rửa, rồi đặt tạm trên bãi đá."
+      ],
+      "image": {
+        "character": "noi-dat",
+        "prompt": "a copper pot and a clay pot with little faces sitting side by side on stones at a riverbank, a village house in the background, morning light",
+        "seed": 2979645054
+      },
+      "video": {
+        "motionPrompt": "the river flows gently, the copper pot gleams, the clay pot blinks shyly, reeds sway",
+        "seed": 1428606251
+      },
+      "voice": {}
+    },
+    {
+      "id": "nuoc-len",
+      "title": "Nước sông dâng lên",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy trời mưa to. Sáng ra, nước sông dâng lên, cuốn cả hai cái nồi trôi đi. Nồi đồng bập bềnh, chẳng sợ gì, còn gọi to: “Nồi đất ơi, lại đây! Cậu trôi sát vào tớ, tớ sẽ che chở cho cậu!” Nồi đồng nói thật lòng, vì nó muốn giúp bạn.",
+      "subtitles": [
+        "Đêm ấy trời mưa to. Sáng ra, nước sông dâng lên, cuốn cả hai cái nồi trôi đi.",
+        "Nồi đồng bập bềnh, chẳng sợ gì, còn gọi to: “Nồi đất ơi, lại đây!",
+        "Cậu trôi sát vào tớ, tớ sẽ che chở cho cậu!” Nồi đồng nói thật lòng, vì nó muốn giúp bạn."
+      ],
+      "image": {
+        "character": "noi-dong",
+        "prompt": "the two pots floating down a swollen river after rain, the copper pot calling out cheerfully and reaching a handle toward the clay pot",
+        "seed": 2216899684
+      },
+      "video": {
+        "motionPrompt": "the pots bob on the current, the copper pot waves a handle, raindrops still fall on the water",
+        "seed": 1575852358
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-tu-choi",
+      "title": "Lời từ chối khéo",
+      "narrator": "ke-chuyen",
+      "narration": "Nồi đất cảm ơn nhưng khẽ lắc đầu: “Cảm ơn cậu, cậu tốt bụng lắm. Nhưng cậu cứng, còn tớ giòn. Sóng mà xô chúng mình va vào nhau, dù cậu chẳng muốn, thì người vỡ vẫn là tớ thôi. Cậu cứ trôi bên ấy, tớ trôi bên này, mình vẫn là bạn tốt.” Nói rồi, nồi đất nhẹ nhàng dạt ra xa một khoảng.",
+      "subtitles": [
+        "Nồi đất cảm ơn nhưng khẽ lắc đầu: “Cảm ơn cậu, cậu tốt bụng lắm.",
+        "Nhưng cậu cứng, còn tớ giòn.",
+        "Sóng mà xô chúng mình va vào nhau, dù cậu chẳng muốn, thì người vỡ vẫn là tớ thôi.",
+        "Cậu cứ trôi bên ấy, tớ trôi bên này, mình vẫn là bạn tốt.”",
+        "Nói rồi, nồi đất nhẹ nhàng dạt ra xa một khoảng."
+      ],
+      "image": {
+        "character": "noi-dat",
+        "prompt": "the clay pot drifting gently away from the copper pot on the river, both smiling at each other, a safe distance of water between them",
+        "seed": 2906448966
+      },
+      "video": {
+        "motionPrompt": "the waves lift the copper pot high, the clay pot drifts aside smoothly, both pots nod to each other",
+        "seed": 1105314991
+      },
+      "voice": {}
+    },
+    {
+      "id": "cap-ben",
+      "title": "Cập bến bình yên",
+      "narrator": "ke-chuyen",
+      "narration": "Dòng sông đưa hai cái nồi qua cây cầu làng, qua những rặng liễu. Có lúc sóng lớn hất nồi đồng va vào tảng đá kêu “boong” một tiếng, nhưng nồi đồng chẳng hề gì. Nồi đất ở xa, trôi êm êm, rồi cả hai cùng mắc vào bãi cỏ mềm. Bà chủ tìm thấy, vui mừng mang cả hai về bếp. Các bạn nhỏ ạ, biết mình mạnh yếu ra sao để giữ mình, đó cũng là một điều khôn ngoan.",
+      "subtitles": [
+        "Dòng sông đưa hai cái nồi qua cây cầu làng, qua những rặng liễu.",
+        "Có lúc sóng lớn hất nồi đồng va vào tảng đá kêu “boong”",
+        "một tiếng, nhưng nồi đồng chẳng hề gì.",
+        "Nồi đất ở xa, trôi êm êm, rồi cả hai cùng mắc vào bãi cỏ mềm.",
+        "Bà chủ tìm thấy, vui mừng mang cả hai về bếp.",
+        "Các bạn nhỏ ạ, biết mình mạnh yếu ra sao để giữ mình, đó cũng là một điều khôn ngoan."
+      ],
+      "image": {
+        "character": "noi-dat",
+        "prompt": "both pots resting safely on a soft grassy riverbank under willows, the village woman smiling as she picks them up, sunset light",
+        "seed": 3562201253
+      },
+      "video": {
+        "motionPrompt": "the woman lifts the pots, the copper pot gleams, the clay pot smiles, willow branches sway",
+        "seed": 2186923048
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle flowing classical music, harp and strings like a river, a bright brass note for the copper pot and soft clarinet for the clay pot, calm ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2033992755
+  }
+}

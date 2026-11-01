@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "slug": "nu-than-mat-troi-va-mat-trang",
+  "shelf": "kids",
+  "title": "Nữ thần Mặt Trời và Mặt Trăng",
+  "summary": "Hai cô con gái của Ngọc Hoàng thay nhau soi sáng thế gian: chị Mặt Trời đi ban ngày, em Mặt Trăng đi ban đêm. Mặt Trăng nóng nảy hay sà xuống thấp, cho đến khi chàng Quải tung cát lên trời. Thần thoại Việt Nam giải thích vì sao ánh trăng dịu mát và trăng có lúc tròn lúc khuyết.",
+  "themes": [
+    "than-thoai",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Thần thoại dân gian Việt Nam, truyền miệng, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "basedOn": "Thần thoại dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, glowing golds for day and gentle silver-blues for night, rounded friendly shapes, calm and safe mood for young children, heavenly clouds and old Vietnamese countryside, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 4043270608
+    },
+    {
+      "id": "mat-troi",
+      "name": "Nữ thần Mặt Trời",
+      "seed": 1820318016,
+      "sheetPrompt": "the Sun Goddess from Vietnamese mythology, a gentle warm young woman, kind smiling face, golden-orange ao giao linh style flowing dress, a round glowing golden halo behind her head, long black hair with golden ribbons, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "mat-trang",
+      "name": "Nữ thần Mặt Trăng",
+      "seed": 2959208748,
+      "sheetPrompt": "the Moon Goddess from Vietnamese mythology, a lively proud young woman with a slightly pouty but cute face, shimmering silver-white flowing dress, a round bright silver halo behind her head, long black hair with silver ribbons, not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "quai",
+      "name": "Chàng Quải",
+      "seed": 487552266,
+      "sheetPrompt": "Quai, a big strong kind young Vietnamese villager from a folk myth, broad shoulders, friendly determined face, black hair tied up with a cloth band, simple brown sleeveless tunic and dark trousers, a cloth sack of sand on his shoulder, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Tối nay trăng tròn thật là đẹp, Mèo Miu ngồi trên mái nhà ngắm trăng đây. Các bạn có thấy trên mặt trăng có những vệt mờ mờ không? Ông bà ta kể rằng đó là dấu cát bám trên mặt một nàng tiên đấy. Chuyện thế nào, mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Tối nay trăng tròn thật là đẹp, Mèo Miu ngồi trên mái nhà ngắm trăng đây.",
+        "Các bạn có thấy trên mặt trăng có những vệt mờ mờ không?",
+        "Ông bà ta kể rằng đó là dấu cát bám trên mặt một nàng tiên đấy.",
+        "Chuyện thế nào, mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits on a tiled village roof at night gazing at a big round full moon with soft grey patches, fireflies and stars, peaceful blue night",
+        "seed": 2664822048,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat points at the moon and tilts her head, fireflies drift, stars twinkle, slow camera tilt up to the moon",
+        "seed": 4289145174
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-nang",
+      "title": "Hai cô con gái nhà trời",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, Ngọc Hoàng ở trên trời có hai cô con gái rất xinh đẹp. Cô chị là nữ thần Mặt Trời, cô em là nữ thần Mặt Trăng. Ngọc Hoàng giao cho hai chị em thay phiên nhau đi khắp bầu trời, soi sáng cho thế gian và xem xét mọi việc dưới trần, rồi về kể lại cho cha nghe.",
+      "subtitles": [
+        "Ngày xưa, Ngọc Hoàng ở trên trời có hai cô con gái rất xinh đẹp.",
+        "Cô chị là nữ thần Mặt Trời, cô em là nữ thần Mặt Trăng.",
+        "Ngọc Hoàng giao cho hai chị em thay phiên nhau đi khắp bầu trời,",
+        "soi sáng cho thế gian và xem xét mọi việc dưới trần, rồi về kể lại cho cha nghe."
+      ],
+      "image": {
+        "prompt": "in a heavenly palace above the clouds, a kindly old Jade Emperor with a white beard sits on a throne, the golden Sun Goddess and the silver Moon Goddess stand before him bowing, soft rainbow light",
+        "seed": 713801889,
+        "character": "mat-troi"
+      },
+      "video": {
+        "motionPrompt": "the emperor smiles and gestures toward the sky, the two goddesses bow and their halos glow, clouds drift, slow push-in",
+        "seed": 2899688232
+      },
+      "voice": {}
+    },
+    {
+      "id": "kieu-hoa",
+      "title": "Kiệu hoa của Mặt Trời",
+      "narrator": "ke-chuyen",
+      "narration": "Nữ thần Mặt Trời đi vào ban ngày. Nàng ngồi trên một chiếc kiệu hoa, có bốn người khiêng, chia làm hai tốp thay phiên nhau. Có tốp khiêng nhanh thoăn thoắt, thế là ngày ngắn lại. Có tốp đi thong thả, chậm rãi, thế là ngày dài ra. Nàng Mặt Trời đi đến đâu thì nắng ấm tỏa đến đó, cây cối xanh tươi, lúa chín vàng đồng.",
+      "subtitles": [
+        "Nữ thần Mặt Trời đi vào ban ngày.",
+        "Nàng ngồi trên một chiếc kiệu hoa, có bốn người khiêng, chia làm hai tốp thay phiên nhau.",
+        "Có tốp khiêng nhanh thoăn thoắt, thế là ngày ngắn lại.",
+        "Có tốp đi thong thả, chậm rãi, thế là ngày dài ra.",
+        "Nàng Mặt Trời đi đến đâu thì nắng ấm tỏa đến đó, cây cối xanh tươi, lúa chín vàng đồng."
+      ],
+      "image": {
+        "prompt": "the smiling Sun Goddess rides in a flower-decorated palanquin carried by four cheerful bearers across a bright blue sky, golden sunlight falling on green rice fields and villages far below",
+        "seed": 2444781089,
+        "character": "mat-troi"
+      },
+      "video": {
+        "motionPrompt": "the bearers walk across the sky, flower petals flutter from the palanquin, sunlight sweeps over the fields, side tracking shot",
+        "seed": 3176732143
+      },
+      "voice": {}
+    },
+    {
+      "id": "mat-trang-nong",
+      "title": "Mặt Trăng nóng nảy",
+      "narrator": "ke-chuyen",
+      "narration": "Còn cô em Mặt Trăng thì đi vào ban đêm. Ngày ấy, Mặt Trăng sáng rực và nóng hơn cả chị. Nàng lại thích sà xuống thật thấp, sát mặt đất. Hơi nóng của nàng làm cây cỏ héo khô, ao hồ cạn nước, người và muôn vật đều mệt nhoài. Đêm đến mà ai cũng nóng bức, không ngủ được. Dân chúng than phiền mãi, nhưng Ngọc Hoàng thương con nên vẫn để nàng đi như thế.",
+      "subtitles": [
+        "Còn cô em Mặt Trăng thì đi vào ban đêm.",
+        "Ngày ấy, Mặt Trăng sáng rực và nóng hơn cả chị.",
+        "Nàng lại thích sà xuống thật thấp, sát mặt đất.",
+        "Hơi nóng của nàng làm cây cỏ héo khô, ao hồ cạn nước, người và muôn vật đều mệt nhoài.",
+        "Đêm đến mà ai cũng nóng bức, không ngủ được.",
+        "Dân chúng than phiền mãi, nhưng Ngọc Hoàng thương con nên vẫn để nàng đi như thế."
+      ],
+      "image": {
+        "prompt": "the Moon Goddess glowing very bright and hot swoops low over a sleepy village at night, droopy wilted plants, villagers fanning themselves with palm-leaf fans outside their houses, a buffalo panting in a dried pond, gentle cartoon style",
+        "seed": 1041586486,
+        "character": "mat-trang"
+      },
+      "video": {
+        "motionPrompt": "the moon goddess swoops low and bright, villagers fan themselves, leaves droop, heat shimmers, slow camera pan",
+        "seed": 141929765
+      },
+      "voice": {}
+    },
+    {
+      "id": "quai",
+      "title": "Chàng Quải gan dạ",
+      "narrator": "ke-chuyen",
+      "narration": "Dưới trần gian có một chàng trai mồ côi tên là Quải. Quải to lớn, khỏe mạnh lại gan dạ. Thấy mọi người khổ sở vì hơi nóng của Mặt Trăng, chàng quyết làm cho nàng không sà xuống thấp nữa. Quải leo lên đỉnh một ngọn núi thật cao, mang theo một bọc cát lớn, ngồi chờ trời tối.",
+      "subtitles": [
+        "Dưới trần gian có một chàng trai mồ côi tên là Quải.",
+        "Quải to lớn, khỏe mạnh lại gan dạ.",
+        "Thấy mọi người khổ sở vì hơi nóng của Mặt Trăng,",
+        "chàng quyết làm cho nàng không sà xuống thấp nữa.",
+        "Quải leo lên đỉnh một ngọn núi thật cao, mang theo một bọc cát lớn, ngồi chờ trời tối."
+      ],
+      "image": {
+        "prompt": "strong kind Quai climbs a tall rocky mountain at dusk carrying a big cloth sack of sand on his shoulder, villages small below, the first stars appearing, determined friendly face",
+        "seed": 2829098788,
+        "character": "quai"
+      },
+      "video": {
+        "motionPrompt": "Quai climbs the last rocks and sets down the sack of sand, he looks up at the darkening sky, wind blows his headband, slow camera tilt up",
+        "seed": 613558488
+      },
+      "voice": {}
+    },
+    {
+      "id": "nem-cat",
+      "title": "Nắm cát tung lên trời",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy, Mặt Trăng lại sà xuống sát đỉnh núi như mọi lần. Quải liền vốc cát tung lên, cát bay rào rào vào mặt nàng. Mặt Trăng giật mình, vội vàng bay vút lên tít trên cao. Từ đó, nàng không dám sà xuống gần mặt đất nữa.",
+      "subtitles": [
+        "Đêm ấy, Mặt Trăng lại sà xuống sát đỉnh núi như mọi lần.",
+        "Quải liền vốc cát tung lên, cát bay rào rào vào mặt nàng.",
+        "Mặt Trăng giật mình, vội vàng bay vút lên tít trên cao.",
+        "Từ đó, nàng không dám sà xuống gần mặt đất nữa."
+      ],
+      "image": {
+        "prompt": "on a mountaintop at night Quai tosses a big sparkling handful of sand into the air toward the bright Moon Goddess, who flies upward startled with sand speckles on her face, cartoonish and gentle, no harm",
+        "seed": 3939485982,
+        "character": "quai"
+      },
+      "video": {
+        "motionPrompt": "a cloud of sparkling sand rises, the moon goddess startles and floats quickly up into the high sky, Quai shades his eyes and watches, camera tilts up",
+        "seed": 3501920347
+      },
+      "voice": {}
+    },
+    {
+      "id": "trang-diu",
+      "title": "Ánh trăng dịu mát",
+      "narrator": "ke-chuyen",
+      "narration": "Cát bám trên mặt nên Mặt Trăng không còn sáng chói và nóng rực như trước. Ánh trăng trở nên dịu dàng, mát mẻ, soi đường cho người đi đêm. Ông bà ta kể rằng, khi nàng quay mặt nhìn xuống trần gian, ta có trăng rằm tròn vành vạnh. Khi nàng quay lưng lại, đó là những đêm cuối tháng và đầu tháng không trăng. Còn khi nàng nghiêng mặt sang bên này hay bên kia, ta lại thấy vầng trăng khuyết cong cong.",
+      "subtitles": [
+        "Cát bám trên mặt nên Mặt Trăng không còn sáng chói và nóng rực như trước.",
+        "Ánh trăng trở nên dịu dàng, mát mẻ, soi đường cho người đi đêm.",
+        "Ông bà ta kể rằng, khi nàng quay mặt nhìn xuống trần gian, ta có trăng rằm tròn vành vạnh.",
+        "Khi nàng quay lưng lại, đó là những đêm cuối tháng và đầu tháng không trăng.",
+        "Còn khi nàng nghiêng mặt sang bên này hay bên kia,",
+        "ta lại thấy vầng trăng khuyết cong cong."
+      ],
+      "image": {
+        "prompt": "a calm cool night sky with a gentle silver moon high above, a row of moon shapes from crescent to full across the sky, happy villagers walking with lanterns on a path, children playing in soft moonlight",
+        "seed": 2282286196,
+        "character": "mat-trang"
+      },
+      "video": {
+        "motionPrompt": "the moon shapes glow one after another from crescent to full, lanterns bob along the path, children skip, slow camera pan",
+        "seed": 1814382703
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thế là các bạn đã biết vì sao ánh trăng lại dịu dàng, và vì sao trăng có lúc tròn, lúc khuyết rồi nhé. Những vệt mờ trên mặt trăng chính là dấu cát của chàng Quải đó. Tối nay các bạn ra ngắm trăng thử xem nha. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Thế là các bạn đã biết vì sao ánh trăng lại dịu dàng,",
+        "và vì sao trăng có lúc tròn, lúc khuyết rồi nhé.",
+        "Những vệt mờ trên mặt trăng chính là dấu cát của chàng Quải đó.",
+        "Tối nay các bạn ra ngắm trăng thử xem nha.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye on a village roof under a soft silver full moon with grey patches, a warm golden sunrise just beginning at the far edge of the sky, fireflies",
+        "seed": 2058677454,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the moon glows softly, the first sunrise light spreads at the horizon, gentle camera pull-back",
+        "seed": 2113775435
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "dreamy gentle Vietnamese lullaby-style tune for children, soft bamboo flute and dan tranh zither, light wind chimes, warm and calm like moonlight, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1782883156
+  }
+}

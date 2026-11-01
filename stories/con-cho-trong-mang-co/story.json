@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-cho-trong-mang-co",
+  "shelf": "world",
+  "title": "Con chó trong máng cỏ",
+  "summary": "Chú chó nằm lì trong máng cỏ, chẳng ăn được cỏ mà cũng không cho bò đói vào ăn. Ngụ ngôn Aesop ngắn về thói ích kỷ: thứ mình không dùng, đừng giành của người khác.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, a cosy wooden farm barn with hay bales, a wooden manger, warm afternoon light through the barn door, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cho",
+      "name": "Chú chó",
+      "seed": 3011851018,
+      "sheetPrompt": "a small scruffy brown farm dog with floppy ears, a grumpy frown, curled tail, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bo",
+      "name": "Bác bò",
+      "seed": 1032362515,
+      "sheetPrompt": "a big gentle brown-and-white ox with short curved horns, kind sleepy eyes, a wooden yoke resting on its neck, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "trua-he",
+      "title": "Một trưa hè",
+      "narrator": "ke-chuyen",
+      "narration": "Ở một trang trại nhỏ, có chú chó lông nâu suốt ngày chạy quanh sân. Một trưa hè nóng bức, chó tìm chỗ ngủ mát. Nó chui vào chuồng bò, thấy cái máng gỗ đầy ắp cỏ khô thơm phức, liền nhảy tót vào nằm. “Chà, êm quá!” Chó cuộn tròn trên đống cỏ, lim dim ngủ ngon lành, mặc cho đàn gà kêu cục tác ngoài sân và lũ chim sẻ ríu rít trên mái.",
+      "subtitles": [
+        "Ở một trang trại nhỏ, có chú chó lông nâu suốt ngày chạy quanh sân.",
+        "Một trưa hè nóng bức, chó tìm chỗ ngủ mát.",
+        "Nó chui vào chuồng bò, thấy cái máng gỗ đầy ắp cỏ khô thơm phức, liền nhảy tót vào nằm.",
+        "“Chà, êm quá!”",
+        "Chó cuộn tròn trên đống cỏ, lim dim ngủ ngon lành, mặc cho đàn gà kêu cục tác ngoài sân và",
+        "lũ chim sẻ ríu rít trên mái."
+      ],
+      "image": {
+        "character": "cho",
+        "prompt": "a little brown dog curled up asleep on fresh golden hay inside a wooden manger in a sunny barn, dust motes floating in the light",
+        "seed": 3991988101
+      },
+      "video": {
+        "motionPrompt": "the dog's chest rises and falls as it sleeps, dust motes drift in sunbeams, a hen pecks by the door",
+        "seed": 2469007204
+      },
+      "voice": {}
+    },
+    {
+      "id": "bo-ve",
+      "title": "Bác bò đi cày về",
+      "narrator": "ke-chuyen",
+      "narration": "Chiều đến, bác bò kéo cày ngoài đồng cả ngày, mệt lả và đói meo, lững thững về chuồng. Bác thèm được nhai những cọng cỏ khô thơm ngọt trong máng. Nhưng vừa ghé mõm vào, chú chó đã bật dậy, nhe răng gầm gừ: “Gừ… gừ… Tránh ra! Chỗ này của tôi!”",
+      "subtitles": [
+        "Chiều đến, bác bò kéo cày ngoài đồng cả ngày, mệt lả và đói meo, lững thững về chuồng.",
+        "Bác thèm được nhai những cọng cỏ khô thơm ngọt trong máng.",
+        "Nhưng vừa ghé mõm vào, chú chó đã bật dậy, nhe răng gầm gừ: “Gừ… gừ… Tránh ra!",
+        "Chỗ này của tôi!”"
+      ],
+      "image": {
+        "character": "bo",
+        "prompt": "a tired ox returning to the barn at dusk, reaching toward the manger, while the little dog stands up in the hay growling and baring its small teeth",
+        "seed": 3307461994
+      },
+      "video": {
+        "motionPrompt": "the ox lowers its head toward the hay, the dog jumps up and growls, the ox pulls back in surprise",
+        "seed": 1949484651
+      },
+      "voice": {}
+    },
+    {
+      "id": "chang-an-chang-cho",
+      "title": "Chẳng ăn mà chẳng cho",
+      "narrator": "ke-chuyen",
+      "narration": "Bác bò ôn tồn: “Này chú chó, chú đâu có ăn cỏ. Cho bác ăn một chút thôi.” Nhưng chó vẫn nằm chắn giữa máng, hễ bò đến gần là sủa ầm lên. Mấy lần như thế, bò đành đứng một góc, bụng sôi ùng ục. Bác thở dài: “Thật lạ, có những kẻ chính mình không dùng được thứ gì, mà cũng không chịu để cho người khác dùng.”",
+      "subtitles": [
+        "Bác bò ôn tồn: “Này chú chó, chú đâu có ăn cỏ. Cho bác ăn một chút thôi.”",
+        "Nhưng chó vẫn nằm chắn giữa máng, hễ bò đến gần là sủa ầm lên.",
+        "Mấy lần như thế, bò đành đứng một góc, bụng sôi ùng ục.",
+        "Bác thở dài: “Thật lạ, có những kẻ chính mình không dùng được thứ gì, mà cũng không chịu",
+        "để cho người khác dùng.”"
+      ],
+      "image": {
+        "character": "cho",
+        "prompt": "the hungry ox standing sadly in the corner of the barn, its stomach rumbling, while the stubborn dog sprawls across the full manger guarding hay it cannot eat",
+        "seed": 558609322
+      },
+      "video": {
+        "motionPrompt": "the ox sighs and shifts its weight, the dog keeps one eye open, a cat on a beam flicks its tail",
+        "seed": 780647259
+      },
+      "voice": {}
+    },
+    {
+      "id": "bac-nong-dan",
+      "title": "Bác nông dân về",
+      "narrator": "ke-chuyen",
+      "narration": "Vừa lúc ấy, bác nông dân bước vào chuồng. Thấy cảnh ấy, bác lắc đầu, bế chú chó ra khỏi máng: “Chó con ơi, cỏ này đâu phải để cho con. Con có ổ rơm của con ngoài hiên kia mà.” Bác bò được ăn một bữa no nê, nhai cỏ rau ráu, mắt lim dim vì sung sướng. Còn chú chó nằm ngoài hiên, ngẫm nghĩ mãi rồi thấy ngượng. Các bạn nhỏ ạ, cái gì mình không cần, đừng giữ khư khư chỉ để người khác không có.",
+      "subtitles": [
+        "Vừa lúc ấy, bác nông dân bước vào chuồng.",
+        "Thấy cảnh ấy, bác lắc đầu, bế chú chó ra khỏi máng: “Chó con ơi, cỏ này đâu phải để cho",
+        "con. Con có ổ rơm của con ngoài hiên kia mà.”",
+        "Bác bò được ăn một bữa no nê, nhai cỏ rau ráu, mắt lim dim vì sung sướng.",
+        "Còn chú chó nằm ngoài hiên, ngẫm nghĩ mãi rồi thấy ngượng.",
+        "Các bạn nhỏ ạ, cái gì mình không cần, đừng giữ khư khư chỉ để người khác không có."
+      ],
+      "image": {
+        "character": "bo",
+        "prompt": "a kind farmer lifting the little dog out of the manger, the ox happily munching hay, and later the dog lying thoughtfully on its own straw bed on the porch at sunset",
+        "seed": 1267099319
+      },
+      "video": {
+        "motionPrompt": "the farmer gently carries the dog away, the ox chews happily, the dog rests its chin on its paws and blinks",
+        "seed": 2532403496
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light rustic classical music, clarinet and acoustic guitar, a grumbling bassoon motif for the dog, gentle and warm ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2058732461
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "slug": "lau-dai-soria-moria",
+  "shelf": "world",
+  "title": "Lâu đài Soria Moria",
+  "summary": "Halvor, cậu bé lười chỉ biết ngồi bới tro, theo tàu ra biển, tới một xứ lạ và giải cứu ba nàng công chúa khỏi lũ quỷ núi nhiều đầu. Nhưng chỉ vì một lời khoe khoang, chàng để mất người mình yêu và phải theo Gió Tây đi tìm lại lâu đài Soria Moria. Truyện dân gian Na Uy kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "anh-hung",
+    "tinh-yeu",
+    "gia-dinh"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Na Uy \"Soria Moria slott\" (Lâu đài Soria Moria), do Asbjørnsen và Moe sưu tầm trong \"Norske Folkeeventyr\" (1841–1844), cốt truyện đối chiếu bản dịch Anh của George Webbe Dasent (1859) trên Project Gutenberg, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện dân gian; đoạn Halvor thắng lũ quỷ núi được kể nhẹ đi theo tín ngưỡng dân gian Na Uy rằng quỷ núi hóa đá khi gặp nắng; không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Na Uy (Asbjørnsen và Moe)",
+  "style": "classic Scandinavian children picture book illustration inspired by nineteenth century Norwegian folk tale art, soft watercolor and ink with golden light, misty fjords and an unknown green coast, three shining castles in silver, gold and sunset colors, big funny many-headed trolls with potato noses, warm adventurous mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "halvor",
+      "name": "Halvor",
+      "sheetPrompt": "a young Norwegian lad with tousled sandy hair and ash-smudged cheeks, ragged brown clothes, cheerful brave grin, full body, front view, plain light background, character reference sheet",
+      "seed": 2291777402
+    },
+    {
+      "id": "cong-chua-ut",
+      "name": "Công chúa út",
+      "sheetPrompt": "the youngest of three princesses, a lovely young woman with long silver-blonde hair, a flowing white and gold gown and a delicate crown, warm smile, full body, front view, plain light background, character reference sheet",
+      "seed": 1656154710
+    },
+    {
+      "id": "quy-nui",
+      "name": "Quỷ núi nhiều đầu",
+      "sheetPrompt": "a big clumsy troll from Norwegian folklore with three heads that bicker with each other, huge potato noses, mossy hair, bulging eyes, patched clothes, comical rather than scary, full body, front view, plain light background, character reference sheet",
+      "seed": 1728684267
+    }
+  ],
+  "scenes": [
+    {
+      "id": "halvor-ra-khoi",
+      "title": "Halvor ra khơi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có hai vợ chồng nghèo sinh được một cậu con trai tên là Halvor. Từ bé, Halvor chẳng chịu làm gì, chỉ ngồi bên bếp bới tro. Cha mẹ gửi đi học nghề nào, được vài hôm cậu lại trốn về bếp. Một hôm, có ông thuyền trưởng hỏi cậu có muốn đi biển không, Halvor nhận lời ngay. Tàu gặp bão lớn, trôi dạt tới một bờ biển lạ. Trong lúc chờ gió, Halvor xin lên bờ dạo một vòng.",
+      "subtitles": [
+        "Ngày xưa, có hai vợ chồng nghèo sinh được một cậu con trai tên là Halvor.",
+        "Từ bé, Halvor chẳng chịu làm gì, chỉ ngồi bên bếp bới tro.",
+        "Cha mẹ gửi đi học nghề nào, được vài hôm cậu lại trốn về bếp.",
+        "Một hôm, có ông thuyền trưởng hỏi cậu có muốn đi biển không, Halvor nhận lời ngay.",
+        "Tàu gặp bão lớn, trôi dạt tới một bờ biển lạ.",
+        "Trong lúc chờ gió, Halvor xin lên bờ dạo một vòng."
+      ],
+      "image": {
+        "prompt": "a lazy lad sitting by a hearth poking at the ashes with a stick, then the same lad standing on the deck of a sailing ship tossed by a storm, a strange green coast appearing through the clearing clouds",
+        "seed": 3882853939,
+        "character": "halvor"
+      },
+      "video": {
+        "motionPrompt": "embers glow in the hearth, then waves toss the ship and the clouds part to reveal a green coast",
+        "seed": 1468634468
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-thu-nhat",
+      "title": "Lâu đài thứ nhất",
+      "narrator": "ke-chuyen",
+      "narration": "Xứ ấy đồng lúa mênh mông mà chẳng có bóng người. Halvor theo một con đường phẳng lì tới một lâu đài lộng lẫy. Mở cửa phòng trong, cậu thấy một nàng công chúa đang quay sợi. “Trời ơi, sao cậu dám tới đây? Ở đây có quỷ núi ba đầu đấy!” “Ba đầu hay bảy đầu tôi cũng chẳng sợ,” Halvor đáp. “Nhưng tôi đói lắm, cho tôi ăn đã.” Ăn xong, nàng chỉ cho cậu bình nước thần trên tường: “Quỷ núi uống nó mới khỏe như thế.”",
+      "subtitles": [
+        "Xứ ấy đồng lúa mênh mông mà chẳng có bóng người.",
+        "Halvor theo một con đường phẳng lì tới một lâu đài lộng lẫy.",
+        "Mở cửa phòng trong, cậu thấy một nàng công chúa đang quay sợi.",
+        "“Trời ơi, sao cậu dám tới đây?",
+        "Ở đây có quỷ núi ba đầu đấy!” “Ba đầu hay bảy đầu tôi cũng chẳng sợ,” Halvor đáp.",
+        "“Nhưng tôi đói lắm, cho tôi ăn đã.”",
+        "Ăn xong, nàng chỉ cho cậu bình nước thần trên tường: “Quỷ núi uống nó mới khỏe như thế.”"
+      ],
+      "image": {
+        "prompt": "a lad in ragged clothes stepping into a grand castle room where a lovely princess sits at a spinning wheel, looking up in surprise, gold and silver pots gleaming in the kitchen behind, a magic flask hanging on the wall",
+        "seed": 1847979413,
+        "character": "halvor"
+      },
+      "video": {
+        "motionPrompt": "the spinning wheel slows to a stop, the princess's eyes widen, the flask on the wall glows softly",
+        "seed": 2055469974
+      },
+      "voice": {}
+    },
+    {
+      "id": "quy-ba-dau",
+      "title": "Quỷ núi ba đầu",
+      "narrator": "ke-chuyen",
+      "narration": "Halvor uống một ngụm, thấy người khỏe như mười con gấu. Vừa lúc ấy, quỷ núi về, thở phì phò. “Hừm hừm, có mùi người lạ!” cả ba cái đầu cùng hít hít. Halvor bước ra: “Có tôi đây. Ta thử vật tay xem ai khỏe hơn nào!” Quỷ núi cười khành khạch, ngồi xuống vật tay. Suốt đêm chẳng ai chịu thua, ba cái đầu còn cãi nhau chí chóe. Halvor cứ giữ quỷ núi lại cho tới khi tia nắng đầu tiên lọt qua cửa sổ. Nắng vừa chạm tới, quỷ núi liền hóa thành một tảng đá to. Công chúa vui mừng nhảy múa.",
+      "subtitles": [
+        "Halvor uống một ngụm, thấy người khỏe như mười con gấu.",
+        "Vừa lúc ấy, quỷ núi về, thở phì phò.",
+        "“Hừm hừm, có mùi người lạ!” cả ba cái đầu cùng hít hít.",
+        "Halvor bước ra: “Có tôi đây. Ta thử vật tay xem ai khỏe hơn nào!”",
+        "Quỷ núi cười khành khạch, ngồi xuống vật tay.",
+        "Suốt đêm chẳng ai chịu thua, ba cái đầu còn cãi nhau chí chóe.",
+        "Halvor cứ giữ quỷ núi lại cho tới khi tia nắng đầu tiên lọt qua cửa sổ.",
+        "Nắng vừa chạm tới, quỷ núi liền hóa thành một tảng đá to.",
+        "Công chúa vui mừng nhảy múa."
+      ],
+      "image": {
+        "prompt": "a strong lad arm wrestling at a big wooden table with a clumsy three-headed troll whose heads bicker with each other, the first ray of morning sunlight streaming through the window onto the troll, a princess watching hopefully, comical not scary",
+        "seed": 97730301,
+        "character": "quy-nui"
+      },
+      "video": {
+        "motionPrompt": "the troll's three heads squabble and puff their cheeks, the sunbeam creeps across the table and the troll turns slowly to grey stone",
+        "seed": 650663866
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-lau-dai-nua",
+      "title": "Hai lâu đài nữa",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng nàng chợt buồn: “Hai chị em tôi còn bị hai con quỷ núi khác bắt đi.” Halvor lăn tảng đá ra vườn, rồi lên đường. Ở lâu đài thứ hai, quỷ núi có sáu đầu, to đến nỗi phải đi nghiêng mới lọt cửa. Ở lâu đài thứ ba, xa hơn nữa và đẹp hơn nữa, quỷ núi có tới chín đầu. Lần nào Halvor cũng uống nước thần, giữ chân quỷ núi suốt đêm bằng đủ trò thi thố, và lần nào nắng sớm lên, quỷ núi cũng hóa đá. Lâu đài thứ ba ấy tên là Soria Moria.",
+      "subtitles": [
+        "Nhưng nàng chợt buồn: “Hai chị em tôi còn bị hai con quỷ núi khác bắt đi.”",
+        "Halvor lăn tảng đá ra vườn, rồi lên đường.",
+        "Ở lâu đài thứ hai, quỷ núi có sáu đầu, to đến nỗi phải đi nghiêng mới lọt cửa.",
+        "Ở lâu đài thứ ba, xa hơn nữa và đẹp hơn nữa, quỷ núi có tới chín đầu.",
+        "Lần nào Halvor cũng uống nước thần, giữ chân quỷ núi suốt đêm bằng đủ trò thi thố,",
+        "và lần nào nắng sớm lên, quỷ núi cũng hóa đá.",
+        "Lâu đài thứ ba ấy tên là Soria Moria."
+      ],
+      "image": {
+        "prompt": "two more fairy tale castles on distant hills, a funny six-headed troll squeezing sideways through a doorway, and a huge nine-headed troll turned to stone in golden morning light in front of the most beautiful castle of all",
+        "seed": 959572822,
+        "character": "quy-nui"
+      },
+      "video": {
+        "motionPrompt": "the six-headed troll wiggles sideways through the door, then morning light floods over the nine-headed stone troll",
+        "seed": 3025134806
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-cong-chua",
+      "title": "Ba nàng công chúa",
+      "narrator": "ke-chuyen",
+      "narration": "Ba nàng công chúa cùng về sống ở lâu đài Soria Moria, vui vẻ chưa từng thấy. Nàng nào cũng quý Halvor, nhưng thương chàng nhất là nàng út. Thế nhưng ít lâu sau, Halvor bỗng trầm lặng, ít nói. “Chàng thiếu gì sao?” “Ta chẳng thiếu gì cả, chỉ nhớ cha mẹ quá.” Các nàng may cho chàng quần áo đẹp như hoàng tử, đeo cho chàng một chiếc nhẫn thần, ước đi đâu là tới đó. “Nhưng chàng nhớ đừng tháo nhẫn ra, và đừng nhắc tên chúng em, kẻo không bao giờ gặp lại nhau.”",
+      "subtitles": [
+        "Ba nàng công chúa cùng về sống ở lâu đài Soria Moria, vui vẻ chưa từng thấy.",
+        "Nàng nào cũng quý Halvor, nhưng thương chàng nhất là nàng út.",
+        "Thế nhưng ít lâu sau, Halvor bỗng trầm lặng, ít nói.",
+        "“Chàng thiếu gì sao?” “Ta chẳng thiếu gì cả, chỉ nhớ cha mẹ quá.”",
+        "Các nàng may cho chàng quần áo đẹp như hoàng tử,",
+        "đeo cho chàng một chiếc nhẫn thần, ước đi đâu là tới đó.",
+        "“Nhưng chàng nhớ đừng tháo nhẫn ra,",
+        "và đừng nhắc tên chúng em, kẻo không bao giờ gặp lại nhau.”"
+      ],
+      "image": {
+        "prompt": "three lovely princesses in a sunny castle garden, the youngest with silver-blonde hair placing a magic ring on Halvor's finger, Halvor now dressed in fine clothes like a prince, looking homesick toward the distant sea",
+        "seed": 777833143,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the ring sparkles as it slips onto his finger, the princesses' gowns flutter in the breeze, clouds drift over the sea",
+        "seed": 4065810712
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-nha",
+      "title": "Bên bếp tro ngày xưa",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng ước một cái, đã đứng trước cửa nhà mình. Cha mẹ già thấy một vị công tử sang trọng thì cúi chào rối rít, chẳng nhận ra con. Halvor nhất định ở lại, ngồi xuống bên bếp, lấy que bới tro như ngày xưa. “Ông bà có con cái gì không?” “Có một thằng Halvor, lười lắm, chẳng biết giờ trôi dạt nơi đâu.” Bà mẹ cời lửa, ánh lửa hắt lên mặt chàng, bà nhận ra ngay. “Halvor, con đấy ư?” Cả nhà ôm nhau mừng mừng tủi tủi.",
+      "subtitles": [
+        "Chàng ước một cái, đã đứng trước cửa nhà mình.",
+        "Cha mẹ già thấy một vị công tử sang trọng thì cúi chào rối rít, chẳng nhận ra con.",
+        "Halvor nhất định ở lại, ngồi xuống bên bếp, lấy que bới tro như ngày xưa.",
+        "“Ông bà có con cái gì không?”",
+        "“Có một thằng Halvor, lười lắm, chẳng biết giờ trôi dạt nơi đâu.”",
+        "Bà mẹ cời lửa, ánh lửa hắt lên mặt chàng, bà nhận ra ngay.",
+        "“Halvor, con đấy ư?” Cả nhà ôm nhau mừng mừng tủi tủi."
+      ],
+      "image": {
+        "prompt": "inside a poor small cottage at dusk, a fine young gentleman sitting by the hearth poking the ashes with a stick, firelight lighting up his face, his old mother recognising him with joyful tears, his old father beside her",
+        "seed": 1622917772,
+        "character": "halvor"
+      },
+      "video": {
+        "motionPrompt": "the fire flares up as the mother stirs it, her face changes to joyful recognition, she reaches out to hug him",
+        "seed": 2032734912
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-khoe-khoang",
+      "title": "Lời khoe khoang",
+      "narrator": "ke-chuyen",
+      "narration": "Bà mẹ hãnh diện dẫn con lên nhà phú ông, nơi mấy cô gái ngày trước vẫn chê Halvor rách rưới. Halvor bèn khoe: “Các cô cứ tưởng mình đẹp lắm. Các cô mà gặp ba nàng công chúa của ta, nhất là nàng út, đẹp hơn cả Mặt Trời và Mặt Trăng! Ước gì các nàng ở đây cho các cô xem.” Vừa dứt lời, ba nàng công chúa đã hiện ra trước mặt. Halvor chợt nhớ lời dặn, hối hận vô cùng.",
+      "subtitles": [
+        "Bà mẹ hãnh diện dẫn con lên nhà phú ông,",
+        "nơi mấy cô gái ngày trước vẫn chê Halvor rách rưới.",
+        "Halvor bèn khoe: “Các cô cứ tưởng mình đẹp lắm.",
+        "Các cô mà gặp ba nàng công chúa của ta, nhất là nàng út, đẹp hơn cả Mặt Trời và Mặt Trăng!",
+        "Ước gì các nàng ở đây cho các cô xem.”",
+        "Vừa dứt lời, ba nàng công chúa đã hiện ra trước mặt.",
+        "Halvor chợt nhớ lời dặn, hối hận vô cùng."
+      ],
+      "image": {
+        "prompt": "in a farmhouse room proud farm girls looking embarrassed as Halvor in fine clothes boasts, three radiant princesses suddenly appearing in a shimmer of light, Halvor's face turning to regret",
+        "seed": 1954494939,
+        "character": "halvor"
+      },
+      "video": {
+        "motionPrompt": "a shimmer of light swirls as the three princesses appear, the farm girls gasp, Halvor claps a hand over his mouth",
+        "seed": 3754961302
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-nhan-bi-doi",
+      "title": "Chiếc nhẫn bị đổi",
+      "narrator": "ke-chuyen",
+      "narration": "Các nàng muốn đi dạo, Halvor đưa ra bờ hồ, ngồi trên bãi cỏ xanh. Nàng út nói: “Để em chải tóc cho chàng nhé.” Halvor gối đầu lên lòng nàng, chẳng mấy chốc ngủ thiếp đi. Nàng út khẽ tháo chiếc nhẫn thần, đeo vào tay chàng một chiếc nhẫn khác, rồi nói: “Chị em ta nắm tay nhau, ước gì được về lâu đài Soria Moria!” Halvor tỉnh dậy thì chẳng còn ai. Chàng buồn rầu từ biệt cha mẹ, bỏ ba trăm đồng vào túi, lên đường đi tìm.",
+      "subtitles": [
+        "Các nàng muốn đi dạo, Halvor đưa ra bờ hồ, ngồi trên bãi cỏ xanh.",
+        "Nàng út nói: “Để em chải tóc cho chàng nhé.”",
+        "Halvor gối đầu lên lòng nàng, chẳng mấy chốc ngủ thiếp đi.",
+        "Nàng út khẽ tháo chiếc nhẫn thần, đeo vào tay chàng một chiếc nhẫn khác,",
+        "rồi nói: “Chị em ta nắm tay nhau, ước gì được về lâu đài Soria Moria!”",
+        "Halvor tỉnh dậy thì chẳng còn ai.",
+        "Chàng buồn rầu từ biệt cha mẹ, bỏ ba trăm đồng vào túi, lên đường đi tìm."
+      ],
+      "image": {
+        "prompt": "by a calm lake on a green bank Halvor sleeping with his head in the lap of the youngest princess who gently combs his hair and slips the ring off his finger, her two sisters holding hands beside her, soft afternoon light",
+        "seed": 366560905,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the princess combs his hair softly, the ring glints as it comes off, then the three sisters fade away in a shimmer over the lake",
+        "seed": 3085520681
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-cu-mui-dai",
+      "title": "Bà cụ mũi dài",
+      "narrator": "ke-chuyen",
+      "narration": "Halvor mua một con ngựa, khi cưỡi khi dắt, đi mãi qua cánh rừng không bao giờ hết. Một tối, chàng thấy ánh đèn trong một túp lều. Trong đó có đôi vợ chồng già tóc bạc như chim câu, mà bà cụ có cái mũi dài đến nỗi dùng làm que cời lửa. Bà ra gọi: “Mặt Trăng ơi, có biết đường tới lâu đài Soria Moria không?” “Không biết, lần trước tôi soi tới đó thì mây che mất.” Bà xin con ngựa của Halvor, đổi cho chàng một đôi ủng thần, mỗi bước đi được hai mươi dặm.",
+      "subtitles": [
+        "Halvor mua một con ngựa, khi cưỡi khi dắt, đi mãi qua cánh rừng không bao giờ hết.",
+        "Một tối, chàng thấy ánh đèn trong một túp lều.",
+        "Trong đó có đôi vợ chồng già tóc bạc như chim câu,",
+        "mà bà cụ có cái mũi dài đến nỗi dùng làm que cời lửa.",
+        "Bà ra gọi: “Mặt Trăng ơi, có biết đường tới lâu đài Soria Moria không?”",
+        "“Không biết, lần trước tôi soi tới đó thì mây che mất.”",
+        "Bà xin con ngựa của Halvor, đổi cho chàng một đôi ủng thần, mỗi bước đi được hai mươi dặm."
+      ],
+      "image": {
+        "prompt": "a tiny hut in a deep moonlit forest, a funny kind old woman with an extremely long nose stirring the fire with it, she calls up to a friendly full moon face in the sky, Halvor holding a pair of magic boots",
+        "seed": 2416525906,
+        "character": "halvor"
+      },
+      "video": {
+        "motionPrompt": "the old woman's long nose pokes the fire and sparks fly, the moon blinks sleepily behind the treetops",
+        "seed": 1749803596
+      },
+      "voice": {}
+    },
+    {
+      "id": "theo-gio-tay",
+      "title": "Theo Gió Tây",
+      "narrator": "ke-chuyen",
+      "narration": "Nửa đêm, Gió Tây ào tới, vách lều kêu răng rắc. “Gió Tây ơi, có biết đường tới lâu đài Soria Moria không?” “Biết chứ, ta đang tới đó hong khô quần áo cho đám cưới đây. Cậu chạy nhanh thì đi theo.” Halvor xỏ ủng thần, chạy theo Gió Tây qua đồng, qua núi, qua đầm lầy. Gió Tây chỉ cho chàng tới chỗ các cô gái đang giặt đồ, từ đó tới lâu đài chẳng còn xa. Lâu đài đông nghịt khách. Quần áo rách tả tơi vì bụi gai, Halvor ngồi khuất một góc.",
+      "subtitles": [
+        "Nửa đêm, Gió Tây ào tới, vách lều kêu răng rắc.",
+        "“Gió Tây ơi, có biết đường tới lâu đài Soria Moria không?”",
+        "“Biết chứ, ta đang tới đó hong khô quần áo cho đám cưới đây.",
+        "Cậu chạy nhanh thì đi theo.”",
+        "Halvor xỏ ủng thần, chạy theo Gió Tây qua đồng, qua núi, qua đầm lầy.",
+        "Gió Tây chỉ cho chàng tới chỗ các cô gái đang giặt đồ, từ đó tới lâu đài chẳng còn xa.",
+        "Lâu đài đông nghịt khách. Quần áo rách tả tơi vì bụi gai, Halvor ngồi khuất một góc."
+      ],
+      "image": {
+        "prompt": "Halvor in magic boots leaping across hills and bogs behind the West Wind, drawn as a playful cloud giant blowing laundry dry, washer girls by a stream, the shining Soria Moria castle crowded with wedding guests in the distance",
+        "seed": 877584826,
+        "character": "halvor"
+      },
+      "video": {
+        "motionPrompt": "Halvor takes giant strides over the hills, the West Wind's cloudy cheeks puff, laundry flaps on the lines",
+        "seed": 1395306477
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-nhan-trong-ly",
+      "title": "Chiếc nhẫn trong ly",
+      "narrator": "ke-chuyen",
+      "narration": "Trong tiệc cưới, đến lượt Halvor nâng ly chúc mừng, chàng rồi khẽ thả chiếc nhẫn vào ly, nhờ mang tới cho cô dâu. Nàng út nhìn thấy nhẫn, đứng bật dậy: “Ai xứng đáng làm chồng một trong chị em ta hơn, người đã cứu chúng ta, hay người đang ngồi đây?” Mọi người đều đáp: “Người đã cứu các nàng!” Halvor liền cởi bộ áo rách, hiện ra trong bộ áo chú rể. “Đúng chàng rồi!” nàng út reo lên. Chàng rể kia đành lủi thủi ra về, còn Halvor và nàng út làm đám cưới, vui vẻ hạnh phúc mãi mãi.",
+      "subtitles": [
+        "Trong tiệc cưới, đến lượt Halvor nâng ly chúc mừng,",
+        "chàng rồi khẽ thả chiếc nhẫn vào ly, nhờ mang tới cho cô dâu.",
+        "Nàng út nhìn thấy nhẫn, đứng bật dậy: “Ai xứng đáng làm chồng một trong chị em ta hơn,",
+        "người đã cứu chúng ta, hay người đang ngồi đây?”",
+        "Mọi người đều đáp: “Người đã cứu các nàng!”",
+        "Halvor liền cởi bộ áo rách, hiện ra trong bộ áo chú rể.",
+        "“Đúng chàng rồi!” nàng út reo lên.",
+        "Chàng rể kia đành lủi thủi ra về,",
+        "còn Halvor và nàng út làm đám cưới, vui vẻ hạnh phúc mãi mãi."
+      ],
+      "image": {
+        "prompt": "a grand wedding feast in the shining Soria Moria castle hall, the youngest princess rising from her seat holding up a glass with a ring sparkling inside, Halvor throwing off his ragged cloak to reveal fine bridegroom clothes, guests cheering",
+        "seed": 1584142373,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the ring sparkles in the glass, the princess rises with a joyful smile, the ragged cloak falls away and the guests cheer",
+        "seed": 4118562505
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "adventurous yet tender Norwegian folk melody, Hardanger fiddle with harp, soft horns and flute, a rolling sea rhythm that turns into a sweeping journey theme and ends in a joyful wedding dance, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 1516216862
+  }
+}

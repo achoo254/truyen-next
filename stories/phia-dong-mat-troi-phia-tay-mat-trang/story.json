@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "slug": "phia-dong-mat-troi-phia-tay-mat-trang",
+  "shelf": "world",
+  "title": "Phía đông Mặt Trời, phía tây Mặt Trăng",
+  "summary": "Cô gái út nhà nghèo theo chú gấu trắng về sống trong lâu đài trong núi, rồi vì một ngọn nến mà để mất chàng hoàng tử bị phù phép. Nàng cưỡi gió đi tìm chàng tới tận lâu đài phía đông Mặt Trời, phía tây Mặt Trăng. Truyện cổ tích Na Uy nổi tiếng về tình yêu và lòng kiên trì, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "than-thoai",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Na Uy \"Østenfor sol og vestenfor måne\" (Phía đông Mặt Trời, phía tây Mặt Trăng), do Asbjørnsen và Moe sưu tầm trong \"Norske Folkeeventyr\" (1841–1844), cốt truyện đối chiếu bản dịch Anh của George Webbe Dasent (1859) trên Project Gutenberg, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện dân gian, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Na Uy (Asbjørnsen và Moe)",
+  "style": "classic Scandinavian children picture book illustration inspired by nineteenth century Norwegian folk tale art, soft watercolor and ink with gentle gold accents, snowy mountains, deep pine forests, northern lights and vast silver seas, a great white bear and the four winds drawn as cloud-bearded giants, dreamy romantic mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "co-gai",
+      "name": "Cô gái út",
+      "sheetPrompt": "a lovely brave young Norwegian peasant girl with long wheat-blonde braids, simple mended blue dress and a grey wool shawl, carrying a small cloth bundle, gentle determined face, full body, front view, plain light background, character reference sheet",
+      "seed": 3627774595
+    },
+    {
+      "id": "gau-trang",
+      "name": "Gấu trắng",
+      "sheetPrompt": "a huge gentle white polar bear with thick shaggy fur and kind dark eyes, calm and noble, full body, side view, plain light background, character reference sheet",
+      "seed": 2785774458
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "sheetPrompt": "a handsome young prince with wavy light brown hair, white linen shirt and a dark blue embroidered vest, kind sad eyes, full body, front view, plain light background, character reference sheet",
+      "seed": 1592861897
+    },
+    {
+      "id": "gio-bac",
+      "name": "Gió Bấc",
+      "sheetPrompt": "the North Wind as an enormous gruff old giant made of swirling grey storm clouds, frosty beard, great cloudy wings, puffed cheeks, full body, front view, plain light background, character reference sheet",
+      "seed": 1633168615
+    }
+  ],
+  "scenes": [
+    {
+      "id": "gau-trang-go-cua",
+      "title": "Gấu trắng gõ cửa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bác nông dân nghèo đông con, mà cô con gái út là xinh đẹp nhất. Một tối thứ năm cuối thu, gió mưa gào thét, bỗng có tiếng gõ cửa sổ ba lần. Bác ra xem thì thấy một chú gấu trắng to lớn. “Chào bác. Bác cho tôi cô con gái út nhé. Tôi sẽ làm cho cả nhà bác giàu có.” Cô gái lắc đầu nguầy nguậy. Nhưng nghĩ đến cha mẹ và các anh chị đang đói khổ, đến tối thứ năm sau, cô khoác tay nải, trèo lên lưng gấu trắng.",
+      "subtitles": [
+        "Ngày xưa, có một bác nông dân nghèo đông con, mà cô con gái út là xinh đẹp nhất.",
+        "Một tối thứ năm cuối thu, gió mưa gào thét, bỗng có tiếng gõ cửa sổ ba lần.",
+        "Bác ra xem thì thấy một chú gấu trắng to lớn.",
+        "“Chào bác. Bác cho tôi cô con gái út nhé.",
+        "Tôi sẽ làm cho cả nhà bác giàu có.”",
+        "Cô gái lắc đầu nguầy nguậy. Nhưng nghĩ đến cha mẹ và các anh chị đang đói khổ,",
+        "đến tối thứ năm sau, cô khoác tay nải, trèo lên lưng gấu trắng."
+      ],
+      "image": {
+        "prompt": "a huge white bear standing outside a small poor cottage on a stormy autumn night, tapping the window with his paw, rain and wind swirling, warm firelight inside where a big poor family sits, the youngest daughter looking out in wonder",
+        "seed": 1504725784,
+        "character": "gau-trang"
+      },
+      "video": {
+        "motionPrompt": "rain lashes and wind tosses the trees, the bear taps three times on the glass, firelight flickers inside",
+        "seed": 2425142236
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-trong-nui",
+      "title": "Lâu đài trong núi",
+      "narrator": "ke-chuyen",
+      "narration": "Đi được một quãng, gấu hỏi: “Em có sợ không?” “Không ạ.” “Cứ bám chắc vào lông ta là chẳng có gì phải sợ.” Gấu đưa cô tới một ngọn núi cao, gõ vào vách đá. Cửa mở ra, bên trong là một lâu đài sáng trưng, phòng nào cũng lấp lánh vàng bạc. Gấu trao cho cô một chiếc chuông bạc, muốn gì chỉ cần rung chuông là có. Đêm đến, khi cô tắt đèn, lại có một người lặng lẽ vào nằm ngủ ở góc phòng bên kia. Trời chưa sáng người ấy đã đi, cô chưa bao giờ nhìn thấy mặt.",
+      "subtitles": [
+        "Đi được một quãng, gấu hỏi: “Em có sợ không?”",
+        "“Không ạ.” “Cứ bám chắc vào lông ta là chẳng có gì phải sợ.”",
+        "Gấu đưa cô tới một ngọn núi cao, gõ vào vách đá.",
+        "Cửa mở ra, bên trong là một lâu đài sáng trưng, phòng nào cũng lấp lánh vàng bạc.",
+        "Gấu trao cho cô một chiếc chuông bạc, muốn gì chỉ cần rung chuông là có.",
+        "Đêm đến, khi cô tắt đèn, lại có một người lặng lẽ vào nằm ngủ ở góc phòng bên kia.",
+        "Trời chưa sáng người ấy đã đi, cô chưa bao giờ nhìn thấy mặt."
+      ],
+      "image": {
+        "prompt": "a girl with blonde braids riding on the back of a great white bear toward a door opening in a snowy mountainside, warm golden light pouring out of a hidden castle full of silver and gold rooms",
+        "seed": 1467524788,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the mountain door swings open, golden light spills over the snow, the bear walks inside with the girl holding his fur",
+        "seed": 3780282619
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-tham-nha",
+      "title": "Về thăm nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày ngày chỉ có một mình, cô buồn và nhớ nhà. Gấu bảo: “Ta sẽ đưa em về thăm. Nhưng em phải hứa đừng nói chuyện riêng một mình với mẹ, kẻo cả hai ta gặp xui xẻo.” Cô gật đầu. Gấu đưa cô về một ngôi nhà khang trang, nơi các anh chị đang nô đùa ngoài sân. Cả nhà mừng rỡ. Nhưng chiều ấy, bà mẹ kéo cô vào phòng riêng, nài mãi, cô đành kể hết chuyện người lạ mỗi đêm.",
+      "subtitles": [
+        "Ngày ngày chỉ có một mình, cô buồn và nhớ nhà.",
+        "Gấu bảo: “Ta sẽ đưa em về thăm.",
+        "Nhưng em phải hứa đừng nói chuyện riêng một mình với mẹ, kẻo cả hai ta gặp xui xẻo.”",
+        "Cô gật đầu. Gấu đưa cô về một ngôi nhà khang trang, nơi các anh chị đang nô đùa ngoài sân.",
+        "Cả nhà mừng rỡ. Nhưng chiều ấy, bà mẹ kéo cô vào phòng riêng,",
+        "nài mãi, cô đành kể hết chuyện người lạ mỗi đêm."
+      ],
+      "image": {
+        "prompt": "a joyful family reunion in front of a fine new farmhouse, brothers and sisters playing in the yard, the girl hugging her father and mother, the white bear turning away in the distance",
+        "seed": 4084108003,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the siblings run and laugh across the yard, the mother hugs her daughter tight, the bear walks slowly away toward the hills",
+        "seed": 2436623347
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-giot-sap-nen",
+      "title": "Ba giọt sáp nến",
+      "narrator": "ke-chuyen",
+      "narration": "“Biết đâu đó là một con quỷ núi!” bà mẹ hoảng hốt, rồi dúi cho cô một mẩu nến. “Đêm nay con thắp lên mà xem, nhưng đừng để sáp nhỏ lên người ta.” Đêm ấy, khi người lạ ngủ say, cô khẽ thắp nến. Trước mắt cô là một chàng hoàng tử đẹp nhất trần đời. Cô cúi xuống nhìn, ba giọt sáp nóng rơi xuống áo chàng. Chàng choàng tỉnh: “Em đã làm gì thế này? Mụ dì ghẻ phù phép cho ta ban ngày là gấu, ban đêm là người. Chờ thêm một năm nữa thôi là ta thoát. Giờ ta phải về lâu đài của mụ ở phía đông Mặt Trời, phía tây Mặt Trăng, cưới cô công chúa mũi dài ba thước.”",
+      "subtitles": [
+        "“Biết đâu đó là một con quỷ núi!” bà mẹ hoảng hốt, rồi dúi cho cô một mẩu nến.",
+        "“Đêm nay con thắp lên mà xem, nhưng đừng để sáp nhỏ lên người ta.”",
+        "Đêm ấy, khi người lạ ngủ say, cô khẽ thắp nến.",
+        "Trước mắt cô là một chàng hoàng tử đẹp nhất trần đời.",
+        "Cô cúi xuống nhìn, ba giọt sáp nóng rơi xuống áo chàng.",
+        "Chàng choàng tỉnh: “Em đã làm gì thế này?",
+        "Mụ dì ghẻ phù phép cho ta ban ngày là gấu, ban đêm là người.",
+        "Chờ thêm một năm nữa thôi là ta thoát.",
+        "Giờ ta phải về lâu đài của mụ ở phía đông Mặt Trời,",
+        "phía tây Mặt Trăng, cưới cô công chúa mũi dài ba thước.”"
+      ],
+      "image": {
+        "prompt": "in a dim golden bedroom a girl holding up a small candle, gazing in surprise at a handsome sleeping prince, three tiny drops of wax falling onto his white linen shirt, soft candlelight glow",
+        "seed": 1357320859,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the candle flame trembles, three drops of wax fall slowly, the prince's eyes open in sorrow",
+        "seed": 2441492324
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-ba-cu",
+      "title": "Ba bà cụ dưới vách đá",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng ra, chàng và lâu đài đều biến mất. Cô thấy mình nằm giữa một khu rừng tối, bên cạnh chỉ có tay nải cũ. Cô lau nước mắt, lên đường. Đi nhiều ngày, cô gặp một bà cụ ngồi dưới vách đá, tung hứng quả táo vàng. Bà chẳng biết đường, chỉ cho cô quả táo vàng và mượn ngựa sang hỏi nhà bên. Bà cụ thứ hai cho cô chiếc lược chải len bằng vàng. Bà cụ thứ ba cho cô chiếc xa quay sợi bằng vàng, rồi bảo: “Cháu hãy tìm Gió Đông mà hỏi.”",
+      "subtitles": [
+        "Sáng ra, chàng và lâu đài đều biến mất.",
+        "Cô thấy mình nằm giữa một khu rừng tối, bên cạnh chỉ có tay nải cũ.",
+        "Cô lau nước mắt, lên đường.",
+        "Đi nhiều ngày, cô gặp một bà cụ ngồi dưới vách đá, tung hứng quả táo vàng.",
+        "Bà chẳng biết đường, chỉ cho cô quả táo vàng và mượn ngựa sang hỏi nhà bên.",
+        "Bà cụ thứ hai cho cô chiếc lược chải len bằng vàng.",
+        "Bà cụ thứ ba cho cô chiếc xa quay sợi bằng vàng, rồi bảo: “Cháu hãy tìm Gió Đông mà hỏi.”"
+      ],
+      "image": {
+        "prompt": "a girl with blonde braids riding a borrowed horse through a deep pine forest toward a tall crag where a kindly old woman sits tossing a golden apple, two more crags far away with old women holding a golden comb and a golden spinning wheel",
+        "seed": 3208166194,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the old woman tosses the golden apple up and catches it, the horse trots along the forest path, sunbeams flicker through the pines",
+        "seed": 973474420
+      },
+      "voice": {}
+    },
+    {
+      "id": "bon-ngon-gio",
+      "title": "Bốn ngọn gió",
+      "narrator": "ke-chuyen",
+      "narration": "Gió Đông chưa từng thổi xa đến thế, bèn cõng cô sang hỏi Gió Tây. Gió Tây cũng không biết, cõng cô sang hỏi Gió Nam. “Phải hỏi anh cả Gió Bấc, anh ấy mà không biết thì chẳng ai biết đâu.” Gió Bấc đang cáu kỉnh, từ xa đã thổi ra từng luồng hơi lạnh buốt. “CÁC NGƯƠI MUỐN GÌ?” “Anh đừng quát thế. Cô gái này đi tìm hoàng tử ở phía đông Mặt Trời, phía tây Mặt Trăng.”",
+      "subtitles": [
+        "Gió Đông chưa từng thổi xa đến thế, bèn cõng cô sang hỏi Gió Tây.",
+        "Gió Tây cũng không biết, cõng cô sang hỏi Gió Nam.",
+        "“Phải hỏi anh cả Gió Bấc, anh ấy mà không biết thì chẳng ai biết đâu.”",
+        "Gió Bấc đang cáu kỉnh, từ xa đã thổi ra từng luồng hơi lạnh buốt.",
+        "“CÁC NGƯƠI MUỐN GÌ?” “Anh đừng quát thế.",
+        "Cô gái này đi tìm hoàng tử ở phía đông Mặt Trời, phía tây Mặt Trăng.”"
+      ],
+      "image": {
+        "prompt": "a girl riding on the cloudy back of the East Wind across the sky, passing the West Wind and the South Wind drawn as friendly cloud giants, far ahead the enormous grey North Wind blowing icy puffs from a snowy mountain",
+        "seed": 2695346580,
+        "character": "gio-bac"
+      },
+      "video": {
+        "motionPrompt": "clouds stream past, the winds' beards billow, icy puffs from the North Wind sparkle with frost",
+        "seed": 2828546862
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-qua-bien",
+      "title": "Bay qua biển lớn",
+      "narrator": "ke-chuyen",
+      "narration": "“Ta biết chỗ ấy,” Gió Bấc nói. “Có lần ta thổi một chiếc lá bay tới đó, mệt mấy ngày liền. Nếu cháu không sợ, ta sẽ đưa cháu đi.” “Cháu không sợ ạ!” Sáng sớm, Gió Bấc phồng người lên to khổng lồ, cõng cô bay vút lên trời. Bên dưới, sóng biển dựng cao như núi. Bay mãi, Gió Bấc mệt dần, sóng đã vỗ vào gót chân. “Cháu có sợ không?” “Không ạ!” Gắng hết sức, Gió Bấc thả được cô lên bờ, ngay dưới cửa sổ lâu đài phía đông Mặt Trời, phía tây Mặt Trăng.",
+      "subtitles": [
+        "“Ta biết chỗ ấy,” Gió Bấc nói.",
+        "“Có lần ta thổi một chiếc lá bay tới đó, mệt mấy ngày liền.",
+        "Nếu cháu không sợ, ta sẽ đưa cháu đi.”",
+        "“Cháu không sợ ạ!”",
+        "Sáng sớm, Gió Bấc phồng người lên to khổng lồ, cõng cô bay vút lên trời.",
+        "Bên dưới, sóng biển dựng cao như núi.",
+        "Bay mãi, Gió Bấc mệt dần, sóng đã vỗ vào gót chân.",
+        "“Cháu có sợ không?” “Không ạ!”",
+        "Gắng hết sức, Gió Bấc thả được cô lên bờ,",
+        "ngay dưới cửa sổ lâu đài phía đông Mặt Trời, phía tây Mặt Trăng."
+      ],
+      "image": {
+        "prompt": "the enormous cloud giant North Wind flying low over a vast silver sea carrying a brave girl on his back, huge waves splashing at his heels, a far shore with a strange castle on the horizon",
+        "seed": 3452380371,
+        "character": "gio-bac"
+      },
+      "video": {
+        "motionPrompt": "the North Wind's wings droop as waves splash higher, the girl holds on tight, the distant castle comes closer",
+        "seed": 4106864058
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-tao-vang",
+      "title": "Quả táo vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, cô ngồi dưới cửa sổ lâu đài, mân mê quả táo vàng. Cô công chúa mũi dài thò đầu ra: “Bán quả táo ấy bao nhiêu?” “Không bán lấy vàng bạc. Cho tôi gặp hoàng tử đêm nay, tôi sẽ tặng.” Công chúa mũi dài đồng ý. Nhưng đêm ấy, hoàng tử ngủ say, cô gọi, cô lay mà chàng chẳng tỉnh. Hôm sau cô đổi chiếc lược vàng, mọi chuyện lại y như vậy.",
+      "subtitles": [
+        "Sáng hôm sau, cô ngồi dưới cửa sổ lâu đài, mân mê quả táo vàng.",
+        "Cô công chúa mũi dài thò đầu ra: “Bán quả táo ấy bao nhiêu?”",
+        "“Không bán lấy vàng bạc. Cho tôi gặp hoàng tử đêm nay, tôi sẽ tặng.”",
+        "Công chúa mũi dài đồng ý.",
+        "Nhưng đêm ấy, hoàng tử ngủ say, cô gọi, cô lay mà chàng chẳng tỉnh.",
+        "Hôm sau cô đổi chiếc lược vàng, mọi chuyện lại y như vậy."
+      ],
+      "image": {
+        "prompt": "a comical princess with an extremely long nose leaning out of a castle window, eyeing a golden apple held up by a girl sitting on the grass below, fairy tale castle with pointed towers",
+        "seed": 2843201537,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the long nose wiggles as the princess leans out greedily, the golden apple gleams in the girl's hands",
+        "seed": 680350158
+      },
+      "voice": {}
+    },
+    {
+      "id": "dem-thu-ba",
+      "title": "Đêm thứ ba",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày thứ ba, cô đổi chiếc xa quay sợi bằng vàng. Mấy người bị giam ở phòng bên đã nghe tiếng cô gọi suốt hai đêm, liền kể cho hoàng tử. Tối ấy, chàng giả vờ uống cốc nước ngủ của công chúa mũi dài, rồi lén đổ đi. Khi cô gái bước vào, chàng đã tỉnh táo chờ sẵn. “Em đến thật đúng lúc, mai là ngày cưới rồi. Ta sẽ bảo chỉ cưới người giặt sạch được ba vết sáp trên áo ta. Lũ quỷ núi không giặt được đâu, chỉ có em làm được thôi.”",
+      "subtitles": [
+        "Ngày thứ ba, cô đổi chiếc xa quay sợi bằng vàng.",
+        "Mấy người bị giam ở phòng bên đã nghe tiếng cô gọi suốt hai đêm, liền kể cho hoàng tử.",
+        "Tối ấy, chàng giả vờ uống cốc nước ngủ của công chúa mũi dài, rồi lén đổ đi.",
+        "Khi cô gái bước vào, chàng đã tỉnh táo chờ sẵn.",
+        "“Em đến thật đúng lúc, mai là ngày cưới rồi.",
+        "Ta sẽ bảo chỉ cưới người giặt sạch được ba vết sáp trên áo ta.",
+        "Lũ quỷ núi không giặt được đâu, chỉ có em làm được thôi.”"
+      ],
+      "image": {
+        "prompt": "a happy reunion in a moonlit castle bedroom, the prince awake and holding the girl's hands, a golden spinning wheel in the corner, a cup of sleeping drink spilled quietly behind him",
+        "seed": 4207287084,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "moonlight drifts through the window, the prince smiles and squeezes her hands, the golden spinning wheel turns slowly by itself",
+        "seed": 2389447639
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-ao-trang",
+      "title": "Chiếc áo trắng tinh",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày cưới, hoàng tử nói: “Ta muốn xem cô dâu khéo tay đến đâu. Ai giặt sạch ba vết sáp trên áo này, ta mới cưới.” Công chúa mũi dài kỳ cọ mãi, vết sáp lại càng to ra. Mụ dì ghẻ giành lấy giặt, chiếc áo càng đen hơn. Cả lũ quỷ núi xúm vào giặt, chiếc áo đen thui như vừa chui qua ống khói. “Chẳng ai giặt được! Cô gái nghèo ngoài kia ơi, vào đây!” Cô vừa nhúng áo xuống nước, chiếc áo đã trắng tinh như tuyết. “Em chính là người ta sẽ cưới!”",
+      "subtitles": [
+        "Ngày cưới, hoàng tử nói: “Ta muốn xem cô dâu khéo tay đến đâu.",
+        "Ai giặt sạch ba vết sáp trên áo này, ta mới cưới.”",
+        "Công chúa mũi dài kỳ cọ mãi, vết sáp lại càng to ra.",
+        "Mụ dì ghẻ giành lấy giặt, chiếc áo càng đen hơn.",
+        "Cả lũ quỷ núi xúm vào giặt, chiếc áo đen thui như vừa chui qua ống khói.",
+        "“Chẳng ai giặt được! Cô gái nghèo ngoài kia ơi, vào đây!”",
+        "Cô vừa nhúng áo xuống nước, chiếc áo đã trắng tinh như tuyết.",
+        "“Em chính là người ta sẽ cưới!”"
+      ],
+      "image": {
+        "prompt": "a crowd of funny trolls with big noses scrubbing a sooty black shirt in wooden tubs, a long-nosed princess and her old stepmother splashing soapy water, the girl dipping the shirt into the water and it turning snow white, the prince smiling",
+        "seed": 889252162,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "soap bubbles fly as the trolls scrub in a frenzy, then the shirt in the girl's hands glows pure white",
+        "seed": 2199787110
+      },
+      "voice": {}
+    },
+    {
+      "id": "tu-do",
+      "title": "Rời xa lâu đài",
+      "narrator": "ke-chuyen",
+      "narration": "Mụ dì ghẻ tức quá, hóa thành đá ngay tại chỗ. Công chúa mũi dài và cả lũ quỷ núi cũng hóa đá theo, từ đó chẳng ai nghe nói đến chúng nữa. Hoàng tử và cô gái mở cửa thả hết những người bị giam giữ. Họ mang theo vàng bạc, rời thật xa tòa lâu đài ấy. Rồi hai người làm đám cưới, sống bên nhau hạnh phúc mãi mãi.",
+      "subtitles": [
+        "Mụ dì ghẻ tức quá, hóa thành đá ngay tại chỗ.",
+        "Công chúa mũi dài và cả lũ quỷ núi cũng hóa đá theo,",
+        "từ đó chẳng ai nghe nói đến chúng nữa.",
+        "Hoàng tử và cô gái mở cửa thả hết những người bị giam giữ.",
+        "Họ mang theo vàng bạc, rời thật xa tòa lâu đài ấy.",
+        "Rồi hai người làm đám cưới, sống bên nhau hạnh phúc mãi mãi."
+      ],
+      "image": {
+        "prompt": "a stepmother, a long-nosed princess and a group of trolls turned into grey stone statues in a castle courtyard, the prince and the girl leading freed people out through the gate toward a sunrise over the sea, carrying chests of gold and silver",
+        "seed": 1543237982,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the stone statues stand still as morning light spreads, the freed people walk out joyfully, birds fly over the sea",
+        "seed": 1290519240
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "dreamy Norwegian folk ballad, Hardanger fiddle and harp with soft strings and airy flute like wind over the fjords, tender and hopeful, slowly swelling, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 2345179914
+  }
+}

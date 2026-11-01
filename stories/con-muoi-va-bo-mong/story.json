@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-muoi-va-bo-mong",
+  "shelf": "world",
+  "title": "Con muỗi và con bò mộng",
+  "summary": "Con muỗi đậu lên sừng bò mộng, rồi trịnh trọng hỏi xem mình có làm bò nặng quá không. Ngụ ngôn Aesop hóm hỉnh về kẻ tự cho mình quan trọng.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, a green meadow beside a slow river, wildflowers, an old wooden fence, summer haze, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "muoi",
+      "name": "Con muỗi",
+      "seed": 1152195754,
+      "sheetPrompt": "a tiny cute cartoon gnat with big round eyes, thin legs, transparent wings and a puffed-up proud chest, friendly not creepy, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bo-mong",
+      "name": "Bò mộng",
+      "seed": 4219725351,
+      "sheetPrompt": "a huge calm bull with a broad chest, long curved horns, a ring of daisies on one horn, sleepy good-natured eyes, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dong-co",
+      "title": "Bên đồng cỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Ở một đồng cỏ ven sông, có chú bò mộng to lớn, khỏe mạnh nhất vùng. Bò mộng hiền lành, suốt ngày chỉ thong thả gặm cỏ, thỉnh thoảng phe phẩy đuôi đuổi ruồi. Một buổi trưa, có con muỗi bay vo ve qua đồng. Bay mỏi cánh, nó nhìn quanh tìm chỗ đậu, rồi chọn ngay chiếc sừng cong của bò mộng.",
+      "subtitles": [
+        "Ở một đồng cỏ ven sông, có chú bò mộng to lớn, khỏe mạnh nhất vùng.",
+        "Bò mộng hiền lành, suốt ngày chỉ thong thả gặm cỏ, thỉnh thoảng phe phẩy đuôi đuổi ruồi.",
+        "Một buổi trưa, có con muỗi bay vo ve qua đồng.",
+        "Bay mỏi cánh, nó nhìn quanh tìm chỗ đậu, rồi chọn ngay chiếc sừng cong của bò mộng."
+      ],
+      "image": {
+        "character": "bo-mong",
+        "prompt": "a huge calm bull grazing in a green riverside meadow, a tiny gnat buzzing toward its long curved horn, wildflowers and butterflies",
+        "seed": 4097502587
+      },
+      "video": {
+        "motionPrompt": "the bull chews slowly and swishes its tail, the tiny gnat zigzags through the air and lands on the horn",
+        "seed": 1333128090
+      },
+      "voice": {}
+    },
+    {
+      "id": "dau-tren-sung",
+      "title": "Đậu trên sừng",
+      "narrator": "ke-chuyen",
+      "narration": "Muỗi đậu trên sừng bò, ngắm cảnh một lúc lâu. Từ trên cao, nó thấy cả dòng sông, cả hàng rào gỗ. Muỗi nghĩ bụng: “Chà, mình ngồi đây lâu thế này, chắc bò mộng phải mỏi cổ lắm rồi. Mình nặng thế cơ mà!” Nó ưỡn ngực, vuốt râu, thấy mình quan trọng hơn bao giờ hết.",
+      "subtitles": [
+        "Muỗi đậu trên sừng bò, ngắm cảnh một lúc lâu.",
+        "Từ trên cao, nó thấy cả dòng sông, cả hàng rào gỗ.",
+        "Muỗi nghĩ bụng: “Chà, mình ngồi đây lâu thế này, chắc bò mộng phải mỏi cổ lắm rồi.",
+        "Mình nặng thế cơ mà!” Nó ưỡn ngực, vuốt râu, thấy mình quan trọng hơn bao giờ hết."
+      ],
+      "image": {
+        "character": "muoi",
+        "prompt": "the tiny gnat sitting proudly on the tip of the bull's horn, chest puffed out, looking over the river and meadow like a king",
+        "seed": 1327801156
+      },
+      "video": {
+        "motionPrompt": "the gnat puffs its chest and preens its feelers, the bull keeps chewing, the river glitters behind",
+        "seed": 2101518705
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-hoi",
+      "title": "Lời hỏi han",
+      "narrator": "ke-chuyen",
+      "narration": "Đến lúc muốn bay đi, muỗi đằng hắng một tiếng thật to, rồi nói: “Này bác bò mộng, tôi định bay đi đây. Tôi đậu lâu quá, chắc đè bác nặng lắm. Bác có muốn tôi đi ngay không, hay để tôi ở lại thêm chút nữa cho bác đỡ buồn?” Muỗi chờ bò mộng cảm ơn rối rít, vì nó tin rằng ai được nó ghé thăm cũng phải lấy làm vinh dự lắm.",
+      "subtitles": [
+        "Đến lúc muốn bay đi, muỗi đằng hắng một tiếng thật to, rồi nói: “Này bác bò mộng, tôi định",
+        "bay đi đây. Tôi đậu lâu quá, chắc đè bác nặng lắm.",
+        "Bác có muốn tôi đi ngay không, hay để tôi ở lại thêm chút nữa cho bác đỡ buồn?”",
+        "Muỗi chờ bò mộng cảm ơn rối rít, vì nó tin rằng ai được nó ghé thăm cũng phải lấy làm vinh",
+        "dự lắm."
+      ],
+      "image": {
+        "character": "muoi",
+        "prompt": "the tiny gnat standing on the horn and speaking very formally with one leg raised, the bull rolling its eyes up curiously toward the horn",
+        "seed": 3856471242
+      },
+      "video": {
+        "motionPrompt": "the gnat bows politely, the bull slowly lifts its eyes, a dragonfly zips past",
+        "seed": 2825622256
+      },
+      "voice": {}
+    },
+    {
+      "id": "bo-mong-dap",
+      "title": "Bò mộng đáp",
+      "narrator": "ke-chuyen",
+      "narration": "Bò mộng ngước mắt, ngạc nhiên lắm: “Ơ, có ai đó à? Lúc chú đến tôi có biết đâu, thì lúc chú đi tôi cũng chẳng thấy gì khác. Chú cứ tự nhiên nhé.” Nói rồi, bò lại cúi đầu gặm cỏ. Muỗi ngượng đỏ mặt, chẳng biết nói gì, đành lặng lẽ vỗ cánh bay đi, tiếng vo ve nhỏ dần rồi tắt hẳn. Các bạn nhỏ ạ, có những người tưởng mình quan trọng lắm, nhưng trong mắt người khác, họ nhỏ bé hơn mình nghĩ nhiều. Hãy khiêm tốn nhé.",
+      "subtitles": [
+        "Bò mộng ngước mắt, ngạc nhiên lắm: “Ơ, có ai đó à?",
+        "Lúc chú đến tôi có biết đâu, thì lúc chú đi tôi cũng chẳng thấy gì khác.",
+        "Chú cứ tự nhiên nhé.” Nói rồi, bò lại cúi đầu gặm cỏ.",
+        "Muỗi ngượng đỏ mặt, chẳng biết nói gì, đành lặng lẽ vỗ cánh bay đi, tiếng vo ve nhỏ dần",
+        "rồi tắt hẳn.",
+        "Các bạn nhỏ ạ, có những người tưởng mình quan trọng lắm, nhưng trong mắt người khác, họ",
+        "nhỏ bé hơn mình nghĩ nhiều. Hãy khiêm tốn nhé."
+      ],
+      "image": {
+        "character": "bo-mong",
+        "prompt": "the bull peacefully grazing again with a gentle smile, the embarrassed little gnat flying quietly away over the wildflowers in the afternoon light",
+        "seed": 2468796031
+      },
+      "video": {
+        "motionPrompt": "the bull lowers its head to graze, the gnat flutters away smaller and smaller, flowers nod in the breeze",
+        "seed": 2354807242
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light humorous classical music, buzzing violin trills for the gnat and a slow deep tuba for the bull, playful and warm with a calm ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1845197504
+  }
+}

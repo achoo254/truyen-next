@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "slug": "chang-trai-di-tim-gio-bac",
+  "shelf": "world",
+  "title": "Chàng trai đi tìm Gió Bấc",
+  "summary": "Gió Bấc thổi bay hết bột của hai mẹ con nghèo, cậu con trai bèn lặn lội đi đòi lại. Gió Bấc tặng cậu khăn thần, cừu thần và một cây gậy kỳ lạ, nhưng lão chủ quán tham lam cứ rình đánh tráo. Truyện dân gian Na Uy vui nhộn về sự thật thà và lanh trí, kể cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "thien-nhien",
+    "gia-dinh"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyện dân gian Na Uy \"Gutten som gikk til Nordenvinden og krevde igjen melet\" (Chàng trai đi tìm Gió Bấc), do Asbjørnsen và Moe sưu tầm trong \"Norske Folkeeventyr\" (1841–1844), cốt truyện đối chiếu bản dịch Anh của George Webbe Dasent (1859) trên Project Gutenberg, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện dân gian, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Na Uy (Asbjørnsen và Moe)",
+  "style": "classic Scandinavian children picture book illustration inspired by nineteenth century Norwegian folk tale art, soft watercolor and ink, windswept mountains and pine forests, a cozy roadside inn with a turf roof, the North Wind drawn as a huge bearded old man made of swirling clouds, playful humorous mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chang-trai",
+      "name": "Chàng trai",
+      "sheetPrompt": "a cheerful young Norwegian farm boy with tousled straw-colored hair, red knitted cap, patched brown jacket and wooden clogs, honest freckled face, full body, front view, plain light background, character reference sheet",
+      "seed": 1989489058
+    },
+    {
+      "id": "gio-bac",
+      "name": "Gió Bấc",
+      "sheetPrompt": "the North Wind as a giant gruff old man made of swirling grey and white clouds, puffed cheeks, long frosty beard blowing sideways, bushy eyebrows, stern but kindly eyes, full body, front view, plain light background, character reference sheet",
+      "seed": 800870539
+    },
+    {
+      "id": "chu-quan",
+      "name": "Lão chủ quán",
+      "sheetPrompt": "a sly plump innkeeper with a greasy apron, little twinkling greedy eyes, curled moustache and a bald head, tiptoeing pose, comical, full body, front view, plain light background, character reference sheet",
+      "seed": 3623286346
+    }
+  ],
+  "scenes": [
+    {
+      "id": "bot-bay-mat",
+      "title": "Bột bay mất",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bà mẹ góa ốm yếu sống với cậu con trai duy nhất. Một hôm, cậu xuống kho lấy bột về nấu cháo. Vừa bước ra bậc thềm thì Gió Bấc ào tới, phù một cái, cuốn sạch bột bay lên trời. Cậu quay vào lấy thêm bột. Phù! Gió Bấc lại thổi bay mất. Đến lần thứ ba cũng vậy. Cậu bực lắm: “Nhà mình đã nghèo, Gió Bấc lấy hết bột thì mẹ con mình lấy gì mà ăn? Mình phải đi đòi lại mới được!” Thế là cậu lên đường. Đường xa lắm, cậu đi mãi, đi mãi, mới tới nhà Gió Bấc.",
+      "subtitles": [
+        "Ngày xưa, có một bà mẹ góa ốm yếu sống với cậu con trai duy nhất.",
+        "Một hôm, cậu xuống kho lấy bột về nấu cháo.",
+        "Vừa bước ra bậc thềm thì Gió Bấc ào tới, phù một cái, cuốn sạch bột bay lên trời.",
+        "Cậu quay vào lấy thêm bột. Phù!",
+        "Gió Bấc lại thổi bay mất. Đến lần thứ ba cũng vậy.",
+        "Cậu bực lắm: “Nhà mình đã nghèo, Gió Bấc lấy hết bột thì mẹ con mình lấy gì mà ăn?",
+        "Mình phải đi đòi lại mới được!”",
+        "Thế là cậu lên đường. Đường xa lắm, cậu đi mãi, đi mãi, mới tới nhà Gió Bấc."
+      ],
+      "image": {
+        "prompt": "a farm boy standing on wooden steps outside a storehouse, a cloud of white flour swirling away into the sky, the face of the North Wind puffing his cheeks in the clouds above, the boy holding an empty bowl with an annoyed look",
+        "seed": 3235492377,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "a gust of wind whirls the flour up into the sky, the boy's cap flaps, clouds rush across the sky",
+        "seed": 30864850
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-khan-than",
+      "title": "Chiếc khăn thần",
+      "narrator": "ke-chuyen",
+      "narration": "“Chào ông Gió Bấc,” cậu lễ phép nói, “cảm ơn ông hôm qua đã ghé thăm nhà cháu.” “CHÀO CẬU!” Gió Bấc đáp, giọng ồm ồm vang cả núi. “Cậu đến có việc gì?” “Cháu xin ông trả lại chỗ bột ông lấy, nhà cháu nghèo lắm ạ.” “Bột thì ta không có. Nhưng ta cho cậu chiếc khăn này. Chỉ cần nói: Khăn ơi, trải ra, dọn món ngon! là có đủ thứ để ăn.” Cậu cảm ơn rồi ra về. Đường xa, tối ấy cậu nghỉ lại ở một quán trọ. Cậu trải khăn lên bàn, nói câu thần chú, và thức ăn ngon hiện ra đầy bàn. Bà chủ quán trố mắt nhìn. Nửa đêm, khi cậu ngủ say, bà lén đánh tráo bằng một chiếc khăn y hệt.",
+      "subtitles": [
+        "“Chào ông Gió Bấc,” cậu lễ phép nói, “cảm ơn ông hôm qua đã ghé thăm nhà cháu.”",
+        "“CHÀO CẬU!” Gió Bấc đáp, giọng ồm ồm vang cả núi.",
+        "“Cậu đến có việc gì?” “Cháu xin ông trả lại chỗ bột ông lấy, nhà cháu nghèo lắm ạ.”",
+        "“Bột thì ta không có. Nhưng ta cho cậu chiếc khăn này.",
+        "Chỉ cần nói: Khăn ơi, trải ra, dọn món ngon! là có đủ thứ để ăn.”",
+        "Cậu cảm ơn rồi ra về. Đường xa, tối ấy cậu nghỉ lại ở một quán trọ.",
+        "Cậu trải khăn lên bàn, nói câu thần chú, và thức ăn ngon hiện ra đầy bàn.",
+        "Bà chủ quán trố mắt nhìn.",
+        "Nửa đêm, khi cậu ngủ say, bà lén đánh tráo bằng một chiếc khăn y hệt."
+      ],
+      "image": {
+        "prompt": "the giant cloud-bearded North Wind leaning down from his windy mountain house handing a folded white tablecloth to a polite farm boy, snow and leaves swirling around them",
+        "seed": 1945871390,
+        "character": "gio-bac"
+      },
+      "video": {
+        "motionPrompt": "the North Wind's beard billows and swirls, the boy bows politely and takes the cloth, snowflakes spin in the air",
+        "seed": 3898460045
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-cuu-ra-vang",
+      "title": "Con cừu ra vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Về tới nhà, cậu khoe với mẹ. Mẹ cười: “Thấy tận mắt mẹ mới tin.” Cậu trải khăn, nói câu thần chú, nhưng đến một mẩu bánh khô cũng chẳng thấy đâu. Cậu đành quay lại tìm Gió Bấc. “Ông ơi, chiếc khăn chẳng được tích sự gì, ông trả bột cho cháu đi!” “Bột thì ta không có. Nhưng ngoài kia có con cừu. Cậu bảo: Cừu ơi cừu, ra tiền vàng! là nó làm ra vàng ngay.” Tối ấy cậu lại ghé quán trọ cũ, thử bảo cừu, quả nhiên tiền vàng rơi lách cách. Lão chủ quán thấy thế, đợi cậu ngủ, lén dắt một con cừu thường tới đổi.",
+      "subtitles": [
+        "Về tới nhà, cậu khoe với mẹ. Mẹ cười: “Thấy tận mắt mẹ mới tin.”",
+        "Cậu trải khăn, nói câu thần chú, nhưng đến một mẩu bánh khô cũng chẳng thấy đâu.",
+        "Cậu đành quay lại tìm Gió Bấc.",
+        "“Ông ơi, chiếc khăn chẳng được tích sự gì, ông trả bột cho cháu đi!”",
+        "“Bột thì ta không có. Nhưng ngoài kia có con cừu.",
+        "Cậu bảo: Cừu ơi cừu, ra tiền vàng! là nó làm ra vàng ngay.”",
+        "Tối ấy cậu lại ghé quán trọ cũ, thử bảo cừu, quả nhiên tiền vàng rơi lách cách.",
+        "Lão chủ quán thấy thế, đợi cậu ngủ, lén dắt một con cừu thường tới đổi."
+      ],
+      "image": {
+        "prompt": "a fluffy white magic ram standing in a cozy inn room dropping shiny gold coins on the wooden floor, the farm boy delighted, a sly bald innkeeper peeking around the door with greedy eyes",
+        "seed": 3847640755,
+        "character": "chu-quan"
+      },
+      "video": {
+        "motionPrompt": "gold coins tumble and bounce on the floor, the ram blinks, the innkeeper's eyes widen behind the door",
+        "seed": 3146108413
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-gay-ky-la",
+      "title": "Cây gậy kỳ lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Về nhà, cậu bảo cừu ra vàng, nhưng cừu chỉ kêu “be be” rồi gặm cỏ. Cậu lại đi tìm Gió Bấc, lần này cậu giận thật sự. Gió Bấc gãi bộ râu mây: “Ta chẳng còn gì nữa, chỉ có cây gậy cũ trong góc kia thôi. Cậu bảo: Gậy ơi, đánh đi! thì nó đánh, bảo: Gậy ơi, dừng lại! thì nó thôi.” Cậu cầm gậy, đi một mạch tới quán trọ. Lần này cậu đã đoán ra mọi chuyện. Cậu nằm xuống ghế dài, nhắm mắt, ngáy khò khò như đang ngủ say.",
+      "subtitles": [
+        "Về nhà, cậu bảo cừu ra vàng, nhưng cừu chỉ kêu “be be” rồi gặm cỏ.",
+        "Cậu lại đi tìm Gió Bấc, lần này cậu giận thật sự.",
+        "Gió Bấc gãi bộ râu mây: “Ta chẳng còn gì nữa, chỉ có cây gậy cũ trong góc kia thôi.",
+        "Cậu bảo: Gậy ơi, đánh đi! thì nó đánh, bảo: Gậy ơi, dừng lại! thì nó thôi.”",
+        "Cậu cầm gậy, đi một mạch tới quán trọ.",
+        "Lần này cậu đã đoán ra mọi chuyện.",
+        "Cậu nằm xuống ghế dài, nhắm mắt, ngáy khò khò như đang ngủ say."
+      ],
+      "image": {
+        "prompt": "the farm boy lying on a wooden bench in an inn pretending to snore with one eye peeking open, an old wooden walking stick beside him, the sly innkeeper tiptoeing closer holding a similar stick, candlelight, comical mood",
+        "seed": 78642133,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the boy snores with exaggerated breaths, the innkeeper tiptoes closer step by step, the candle flame flickers",
+        "seed": 1652517984
+      },
+      "voice": {}
+    },
+    {
+      "id": "gay-oi-danh-di",
+      "title": "Gậy ơi, đánh đi!",
+      "narrator": "ke-chuyen",
+      "narration": "Lão chủ quán rón rén lại gần, tay cầm một cây gậy y hệt. Vừa chạm vào gậy thần thì cậu hét lên: “Gậy ơi, đánh đi!” Cây gậy vụt bay lên, quất lia lịa vào lưng lão. Lão nhảy qua ghế, nhảy qua bàn, chạy vòng quanh quán, la oai oái: “Ối ối, bảo nó thôi đi! Ta trả lại khăn, trả lại cừu cho cậu!” Đợi lão chừa hẳn, cậu mới bảo: “Gậy ơi, dừng lại!” Rồi cậu nhét khăn vào túi, dắt cừu, chống gậy về nhà. Từ đó, hai mẹ con chẳng bao giờ thiếu ăn nữa, mà chỗ bột năm xưa coi như Gió Bấc đã trả đủ rồi.",
+      "subtitles": [
+        "Lão chủ quán rón rén lại gần, tay cầm một cây gậy y hệt.",
+        "Vừa chạm vào gậy thần thì cậu hét lên: “Gậy ơi, đánh đi!”",
+        "Cây gậy vụt bay lên, quất lia lịa vào lưng lão.",
+        "Lão nhảy qua ghế, nhảy qua bàn, chạy vòng quanh quán, la oai oái: “Ối ối, bảo nó thôi đi!",
+        "Ta trả lại khăn, trả lại cừu cho cậu!”",
+        "Đợi lão chừa hẳn, cậu mới bảo: “Gậy ơi, dừng lại!”",
+        "Rồi cậu nhét khăn vào túi, dắt cừu, chống gậy về nhà.",
+        "Từ đó, hai mẹ con chẳng bao giờ thiếu ăn nữa,",
+        "mà chỗ bột năm xưa coi như Gió Bấc đã trả đủ rồi."
+      ],
+      "image": {
+        "prompt": "a magic wooden stick flying through the air chasing a plump innkeeper who leaps over benches and tables in a cozy inn, the farm boy laughing, then the boy walking home along a mountain road leading the white ram with the folded cloth in his pocket, slapstick comedy, nobody hurt",
+        "seed": 3487615705,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the stick bounces after the hopping innkeeper around the tables, then the boy strolls home with the ram under a bright sky",
+        "seed": 389291405
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful Norwegian folk dance tune, Hardanger fiddle and flute with bouncy plucked strings and light percussion, whistling wind effects woven in, cheeky and bright, instrumental, no vocals",
+    "durationSeconds": 90,
+    "seed": 53516989
+  }
+}

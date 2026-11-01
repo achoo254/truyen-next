@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "slug": "soi-va-cuu-non",
+  "shelf": "world",
+  "title": "Sói và cừu non",
+  "summary": "Con sói đói gặp cừu non bên suối và cứ kiếm cớ bắt lỗi, dù cừu non trả lời đâu ra đấy. Ngụ ngôn Aesop về kẻ ỷ mạnh hiếp yếu, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, a clear mountain stream between grassy slopes, wild thyme and grey rocks, a shepherd's hut in the distance, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cuu-non",
+      "name": "Cừu non",
+      "seed": 1155423463,
+      "sheetPrompt": "a small fluffy white lamb with soft curly wool, a little pink nose, innocent gentle eyes, a tiny bell on a ribbon, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "soi",
+      "name": "Con sói",
+      "seed": 3444352099,
+      "sheetPrompt": "a lean grey wolf with shaggy fur, narrow sly yellow eyes, a cunning grin, cartoonish and not too scary, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ben-suoi",
+      "title": "Bên dòng suối",
+      "narrator": "ke-chuyen",
+      "narration": "Một sớm mùa hè, chú cừu non mải ăn cỏ non nên lạc xa đàn. Khát nước, cừu non lần xuống dòng suối trong vắt dưới chân đồi, cúi đầu uống từng ngụm mát lạnh. Ở phía trên dòng, con sói cũng đang uống nước. Vừa thấy cừu non, sói liếm mép. Nhưng sói muốn làm ra vẻ mình có lý, nên nó tìm cách bắt lỗi trước đã.",
+      "subtitles": [
+        "Một sớm mùa hè, chú cừu non mải ăn cỏ non nên lạc xa đàn.",
+        "Khát nước, cừu non lần xuống dòng suối trong vắt dưới chân đồi, cúi đầu uống từng ngụm mát",
+        "lạnh. Ở phía trên dòng, con sói cũng đang uống nước. Vừa thấy cừu non, sói liếm mép.",
+        "Nhưng sói muốn làm ra vẻ mình có lý, nên nó tìm cách bắt lỗi trước đã."
+      ],
+      "image": {
+        "character": "cuu-non",
+        "prompt": "a little lamb drinking from a clear stream at the foot of a hill, and further upstream a sly grey wolf watching it from behind a rock, morning mist",
+        "seed": 3365937358
+      },
+      "video": {
+        "motionPrompt": "the lamb sips water and its bell jingles, the stream sparkles, the wolf's ears perk up behind the rock",
+        "seed": 3281898849
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-co-thu-nhat",
+      "title": "Cái cớ thứ nhất",
+      "narrator": "ke-chuyen",
+      "narration": "Sói gầm lên: “Này cừu kia, sao mày dám làm đục nước tao đang uống?” Cừu non run run đáp: “Thưa ông sói, cháu đứng ở dưới dòng, nước chảy từ chỗ ông xuống chỗ cháu cơ mà. Cháu đâu làm đục nước của ông được ạ.” Sói cứng họng, nhưng nó không chịu thôi.",
+      "subtitles": [
+        "Sói gầm lên: “Này cừu kia, sao mày dám làm đục nước tao đang uống?”",
+        "Cừu non run run đáp: “Thưa ông sói, cháu đứng ở dưới dòng, nước chảy từ chỗ ông xuống chỗ",
+        "cháu cơ mà. Cháu đâu làm đục nước của ông được ạ.”",
+        "Sói cứng họng, nhưng nó không chịu thôi."
+      ],
+      "image": {
+        "character": "soi",
+        "prompt": "the grey wolf standing on a rock upstream, pointing an accusing paw, while the small lamb downstream looks up timidly, the water clearly flowing from the wolf toward the lamb",
+        "seed": 2675227135
+      },
+      "video": {
+        "motionPrompt": "the wolf growls and points, the water flows downstream past the lamb, the lamb's ears tremble",
+        "seed": 2989322131
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-co-thu-hai",
+      "title": "Cái cớ thứ hai",
+      "narrator": "ke-chuyen",
+      "narration": "Sói lại quát: “Thế thì năm ngoái chính mày đã nói xấu tao khắp cánh đồng!” Cừu non ngơ ngác: “Thưa ông, năm ngoái cháu còn chưa ra đời ạ.” Sói nghiến răng: “Không phải mày thì là anh mày, là cha mày! Cả họ nhà cừu chúng mày đều thế!” Thì ra, kẻ muốn bắt nạt thì chẳng cần lý lẽ gì cả. Sói nhe nanh, từng bước tiến lại gần.",
+      "subtitles": [
+        "Sói lại quát: “Thế thì năm ngoái chính mày đã nói xấu tao khắp cánh đồng!”",
+        "Cừu non ngơ ngác: “Thưa ông, năm ngoái cháu còn chưa ra đời ạ.”",
+        "Sói nghiến răng: “Không phải mày thì là anh mày, là cha mày!",
+        "Cả họ nhà cừu chúng mày đều thế!” Thì ra, kẻ muốn bắt nạt thì chẳng cần lý lẽ gì cả.",
+        "Sói nhe nanh, từng bước tiến lại gần."
+      ],
+      "image": {
+        "character": "soi",
+        "prompt": "the wolf leaning forward with a scowl and bared teeth, the bewildered lamb backing away between the rocks, tense but storybook gentle",
+        "seed": 4124307355
+      },
+      "video": {
+        "motionPrompt": "the wolf creeps one step closer, the lamb steps back, leaves drift down onto the stream",
+        "seed": 629774968
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-cho",
+      "title": "Bầy chó chăn cừu",
+      "narrator": "ke-chuyen",
+      "narration": "Cừu non sợ quá, kêu lên một tiếng “be be” thật to. Tiếng kêu vang khắp sườn đồi. Ngay lập tức, từ sau bụi cây, ba chú chó chăn cừu lao ra, sủa vang trời. Bác chăn cừu cũng cầm gậy chạy theo, gọi lớn. Sói giật mình, cụp đuôi, quay đầu chạy biến vào rừng sâu, chẳng dám ngoái lại.",
+      "subtitles": [
+        "Cừu non sợ quá, kêu lên một tiếng “be be” thật to. Tiếng kêu vang khắp sườn đồi.",
+        "Ngay lập tức, từ sau bụi cây, ba chú chó chăn cừu lao ra, sủa vang trời.",
+        "Bác chăn cừu cũng cầm gậy chạy theo, gọi lớn.",
+        "Sói giật mình, cụp đuôi, quay đầu chạy biến vào rừng sâu, chẳng dám ngoái lại."
+      ],
+      "image": {
+        "character": "cuu-non",
+        "prompt": "three brave shepherd dogs bursting out of the bushes barking, a shepherd with a crook running behind, the grey wolf fleeing with its tail between its legs, the lamb safe by the stream",
+        "seed": 811597022
+      },
+      "video": {
+        "motionPrompt": "the dogs bound forward barking, the wolf turns and runs into the forest, the shepherd waves his crook",
+        "seed": 1709201601
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-voi-me",
+      "title": "Về với mẹ",
+      "narrator": "ke-chuyen",
+      "narration": "Bác chăn cừu bế cừu non lên tay, đưa về với đàn. Cừu mẹ chạy ra, dụi đầu vào con. Cừu non nép vào mẹ, kể lại chuyện con sói. Cừu mẹ âu yếm bảo: “Con ạ, với kẻ đã muốn làm điều xấu, lý lẽ hay đến mấy cũng chẳng ngăn được. Vì thế con đừng đi lạc một mình, hãy luôn ở gần những người yêu thương con.” Từ đó, cừu non không bao giờ rời đàn nữa.",
+      "subtitles": [
+        "Bác chăn cừu bế cừu non lên tay, đưa về với đàn. Cừu mẹ chạy ra, dụi đầu vào con.",
+        "Cừu non nép vào mẹ, kể lại chuyện con sói.",
+        "Cừu mẹ âu yếm bảo: “Con ạ, với kẻ đã muốn làm điều xấu, lý lẽ hay đến mấy cũng chẳng ngăn",
+        "được. Vì thế con đừng đi lạc một mình, hãy luôn ở gần những người yêu thương con.”",
+        "Từ đó, cừu non không bao giờ rời đàn nữa."
+      ],
+      "image": {
+        "character": "cuu-non",
+        "prompt": "the shepherd gently returns the little lamb to its mother in the flock on a sunny hillside, the mother sheep nuzzling it, the shepherd dogs sitting proudly nearby",
+        "seed": 64270304
+      },
+      "video": {
+        "motionPrompt": "the mother sheep nuzzles the lamb, the dogs wag their tails, clouds drift over the green hill",
+        "seed": 3512464985
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle pastoral classical music, oboe and shepherd's flute, a tense low pizzicato passage for the wolf, then a bright rescue and a warm calm ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2309856389
+  }
+}

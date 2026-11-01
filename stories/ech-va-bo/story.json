@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "slug": "ech-va-bo",
+  "shelf": "world",
+  "title": "Ếch muốn to bằng bò",
+  "summary": "Bà ếch mẹ nghe đàn con kể về con bò khổng lồ bên ao, liền phình bụng ra cho to bằng bò. Ngụ ngôn Aesop vui nhộn về thói so bì và biết mình biết ta.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, a reedy village pond with lily pads, willows and a green pasture beyond, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ech-me",
+      "name": "Bà ếch mẹ",
+      "seed": 3325230760,
+      "sheetPrompt": "a plump proud mother frog, bright green with soft yellow belly, big round eyes, a tiny lily-pad bonnet, sitting upright, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ech-con",
+      "name": "Chú ếch con",
+      "seed": 3594894497,
+      "sheetPrompt": "a small excited baby frog, light green with freckles, huge wide eyes, waving its little arms, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ao-nho",
+      "title": "Cái ao nhỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một cái ao nhỏ đầy lá súng, nơi bà ếch mẹ sống cùng đàn con. Trong cả cái ao ấy, bà ếch là con vật to nhất. Sáng nào bà cũng ngồi trên chiếc lá súng giữa ao, ưỡn cái bụng trắng tròn, kêu “ộp ộp” thật to. Đàn ếch con, cá rô, nòng nọc đều phải nể bà. Bà ếch tin rằng trên đời này chẳng có ai oai hơn mình.",
+      "subtitles": [
+        "Ngày xưa, có một cái ao nhỏ đầy lá súng, nơi bà ếch mẹ sống cùng đàn con.",
+        "Trong cả cái ao ấy, bà ếch là con vật to nhất.",
+        "Sáng nào bà cũng ngồi trên chiếc lá súng giữa ao, ưỡn cái bụng trắng tròn, kêu “ộp ộp”",
+        "thật to. Đàn ếch con, cá rô, nòng nọc đều phải nể bà.",
+        "Bà ếch tin rằng trên đời này chẳng có ai oai hơn mình."
+      ],
+      "image": {
+        "character": "ech-me",
+        "prompt": "a proud mother frog sitting on a big lily pad in the middle of a small pond, puffing her pale belly and croaking, little frogs, tadpoles and fish looking up at her admiringly",
+        "seed": 4015654754
+      },
+      "video": {
+        "motionPrompt": "the mother frog puffs her throat and croaks, tadpoles wiggle, lily pads bob gently, dragonflies hover",
+        "seed": 1915583901
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-vat-khong-lo",
+      "title": "Con vật khổng lồ",
+      "narrator": "ke-chuyen",
+      "narration": "Một buổi chiều, chú ếch con nhảy lên bờ chơi rồi vội vàng chạy về, thở không ra hơi. “Mẹ ơi, mẹ ơi! Con vừa thấy một con vật to khủng khiếp! Nó có bốn cái chân to như bốn cây cột, hai cái sừng cong, cái đuôi phe phẩy. Nó cúi xuống uống nước, một ngụm hết cả một vũng!” Bà ếch mẹ nghe xong thì nhíu mày. Thì ra, đó là con bò của bác nông dân ra ao uống nước.",
+      "subtitles": [
+        "Một buổi chiều, chú ếch con nhảy lên bờ chơi rồi vội vàng chạy về, thở không ra hơi.",
+        "“Mẹ ơi, mẹ ơi! Con vừa thấy một con vật to khủng khiếp!",
+        "Nó có bốn cái chân to như bốn cây cột, hai cái sừng cong, cái đuôi phe phẩy.",
+        "Nó cúi xuống uống nước, một ngụm hết cả một vũng!” Bà ếch mẹ nghe xong thì nhíu mày.",
+        "Thì ra, đó là con bò của bác nông dân ra ao uống nước."
+      ],
+      "image": {
+        "character": "ech-con",
+        "prompt": "a tiny frog with wide eyes peeks through tall reeds at a huge gentle brown cow drinking from the pond edge, the cow towering like a mountain over the little frog",
+        "seed": 2430233828
+      },
+      "video": {
+        "motionPrompt": "the cow lowers its head to drink, its tail swishes, the little frog jumps back in surprise, reeds sway",
+        "seed": 1891260189
+      },
+      "voice": {}
+    },
+    {
+      "id": "phinh-bung",
+      "title": "Bà ếch phình bụng",
+      "narrator": "ke-chuyen",
+      "narration": "Bà ếch mẹ không chịu thua. Bà hít một hơi thật sâu, phình cái bụng ra rồi hỏi: “Có phải nó to bằng thế này không con?” Ếch con lắc đầu: “Không đâu mẹ, nó to hơn nhiều!” Bà ếch lại hít thêm hơi nữa, bụng căng tròn như quả bóng. “Thế này thì sao?” “To hơn nữa cơ mẹ ạ!” Bà ếch cố thêm, cố thêm, mắt lồi ra, mặt đỏ ửng, người căng như cái trống.",
+      "subtitles": [
+        "Bà ếch mẹ không chịu thua.",
+        "Bà hít một hơi thật sâu, phình cái bụng ra rồi hỏi: “Có phải nó to bằng thế này không",
+        "con?” Ếch con lắc đầu: “Không đâu mẹ, nó to hơn nhiều!”",
+        "Bà ếch lại hít thêm hơi nữa, bụng căng tròn như quả bóng. “Thế này thì sao?”",
+        "“To hơn nữa cơ mẹ ạ!”",
+        "Bà ếch cố thêm, cố thêm, mắt lồi ra, mặt đỏ ửng, người căng như cái trống."
+      ],
+      "image": {
+        "character": "ech-me",
+        "prompt": "the mother frog puffs herself up round like a balloon on the lily pad, cheeks bulging, while the baby frogs shake their heads and point toward the faraway cow",
+        "seed": 3093911821
+      },
+      "video": {
+        "motionPrompt": "the mother frog inflates bigger and bigger, the little frogs shake their heads, the lily pad sinks a little under her",
+        "seed": 884120319
+      },
+      "voice": {}
+    },
+    {
+      "id": "xep-lep",
+      "title": "Xì một cái, xẹp lép",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc bà ếch định phình thêm lần nữa, thì “xì” một tiếng thật dài! Hơi trong bụng bà xì ra hết. Bà ếch xẹp lép như chiếc lá khô, xoay tròn mấy vòng trên mặt nước rồi rơi tõm xuống ao. Đàn con vội bơi tới đỡ mẹ lên lá súng. Bà ếch ngồi thở dốc, mặt đỏ vì ngượng, còn ngoài bờ, con bò vẫn thong thả gặm cỏ, chẳng hề biết chuyện gì.",
+      "subtitles": [
+        "Đúng lúc bà ếch định phình thêm lần nữa, thì “xì” một tiếng thật dài!",
+        "Hơi trong bụng bà xì ra hết.",
+        "Bà ếch xẹp lép như chiếc lá khô, xoay tròn mấy vòng trên mặt nước rồi rơi tõm xuống ao.",
+        "Đàn con vội bơi tới đỡ mẹ lên lá súng.",
+        "Bà ếch ngồi thở dốc, mặt đỏ vì ngượng, còn ngoài bờ, con bò vẫn thong thả gặm cỏ, chẳng hề",
+        "biết chuyện gì."
+      ],
+      "image": {
+        "character": "ech-me",
+        "prompt": "the mother frog, deflated and flat, spins comically over the water with a little puff of air, baby frogs swimming to help her, the calm cow grazing in the background",
+        "seed": 3681057615
+      },
+      "video": {
+        "motionPrompt": "the frog whizzes in a small circle and plops into the water with a splash, ripples spread, the baby frogs paddle over",
+        "seed": 3754630494
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc",
+      "title": "Biết mình là ai",
+      "narrator": "ke-chuyen",
+      "narration": "Từ hôm ấy, bà ếch không còn so mình với bò nữa. Bà bảo đàn con: “Mẹ là ếch, bò là bò. Mỗi loài một vóc dáng, cố làm cái mình không phải chỉ khổ thân thôi.” Rồi bà lại ngồi trên lá súng, kêu “ộp ộp” vừa đủ nghe, thấy lòng nhẹ nhõm hẳn. Các bạn nhỏ ạ, đừng ganh tị, so bì với người khác, hãy vui với chính mình.",
+      "subtitles": [
+        "Từ hôm ấy, bà ếch không còn so mình với bò nữa. Bà bảo đàn con: “Mẹ là ếch, bò là bò.",
+        "Mỗi loài một vóc dáng, cố làm cái mình không phải chỉ khổ thân thôi.”",
+        "Rồi bà lại ngồi trên lá súng, kêu “ộp ộp” vừa đủ nghe, thấy lòng nhẹ nhõm hẳn.",
+        "Các bạn nhỏ ạ, đừng ganh tị, so bì với người khác, hãy vui với chính mình."
+      ],
+      "image": {
+        "character": "ech-me",
+        "prompt": "at sunset the mother frog sits calmly on a lily pad with her babies around her, smiling and content, fireflies over the pond, the cow resting far away in the meadow",
+        "seed": 3002462295
+      },
+      "video": {
+        "motionPrompt": "fireflies blink, the frogs nod and smile, gentle ripples glow orange in the sunset light",
+        "seed": 3812187591
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful classical storybook music, bassoon and pizzicato strings for the croaking frogs, a comic swelling crescendo then a soft deflating slide, light and warm, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3847755712
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "slug": "rua-va-dai-bang",
+  "shelf": "world",
+  "title": "Rùa và đại bàng",
+  "summary": "Chú rùa chán bò dưới đất, năn nỉ đại bàng dạy mình bay lên trời xanh. Ngụ ngôn Aesop về ước muốn quá sức và bài học biết mình là ai.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, rocky hills and a wide blue sky with soft clouds, a clear lily pond in a green valley below, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "rua",
+      "name": "Chú rùa",
+      "seed": 3137791660,
+      "sheetPrompt": "a young tortoise with a round green-brown shell, dreamy hopeful eyes always looking up at the sky, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "dai-bang",
+      "name": "Đại bàng",
+      "seed": 940669239,
+      "sheetPrompt": "a large majestic golden eagle with broad wings, a hooked yellow beak and calm wise eyes, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "uoc-mo",
+      "title": "Ước mơ được bay",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một chú rùa sống trong thung lũng. Ngày nào rùa cũng nằm ngửa cổ nhìn lên trời, ngắm chim bay lượn. “Sao mình cứ phải bò chậm rì dưới đất thế này? Giá mà mình được bay như chim!” Càng nhìn, rùa càng buồn. Nó chẳng còn thấy vui với bãi cỏ, với cái ao trong veo bên cạnh nhà nữa.",
+      "subtitles": [
+        "Ngày xưa, có một chú rùa sống trong thung lũng.",
+        "Ngày nào rùa cũng nằm ngửa cổ nhìn lên trời, ngắm chim bay lượn.",
+        "“Sao mình cứ phải bò chậm rì dưới đất thế này? Giá mà mình được bay như chim!”",
+        "Càng nhìn, rùa càng buồn.",
+        "Nó chẳng còn thấy vui với bãi cỏ, với cái ao trong veo bên cạnh nhà nữa."
+      ],
+      "image": {
+        "character": "rua",
+        "prompt": "a young tortoise lying in the grass of a green valley gazing up longingly at birds soaring across a wide blue sky, a lily pond nearby",
+        "seed": 282106049
+      },
+      "video": {
+        "motionPrompt": "birds glide across the sky, the tortoise stretches its neck up and sighs, clouds drift slowly",
+        "seed": 3891432996
+      },
+      "voice": {}
+    },
+    {
+      "id": "nan-ni",
+      "title": "Năn nỉ đại bàng",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, đại bàng sà xuống mỏm đá gần đó. Rùa vội bò tới: “Bác đại bàng ơi, bác dạy cháu bay với! Cháu sẽ biếu bác những viên ngọc trai đẹp nhất dưới đáy biển.” Đại bàng lắc đầu: “Rùa ơi, cháu không có cánh, trời sinh ra cháu để đi dưới đất và bơi dưới nước. Bay không hợp với cháu đâu.” Nhưng rùa cứ năn nỉ mãi, năn nỉ mãi.",
+      "subtitles": [
+        "Một hôm, đại bàng sà xuống mỏm đá gần đó.",
+        "Rùa vội bò tới: “Bác đại bàng ơi, bác dạy cháu bay với!",
+        "Cháu sẽ biếu bác những viên ngọc trai đẹp nhất dưới đáy biển.”",
+        "Đại bàng lắc đầu: “Rùa ơi, cháu không có cánh, trời sinh ra cháu để đi dưới đất và bơi",
+        "dưới nước. Bay không hợp với cháu đâu.” Nhưng rùa cứ năn nỉ mãi, năn nỉ mãi."
+      ],
+      "image": {
+        "character": "dai-bang",
+        "prompt": "a large golden eagle perched on a rock looking down kindly but doubtfully at the little tortoise who pleads with raised front feet",
+        "seed": 1534032815
+      },
+      "video": {
+        "motionPrompt": "the eagle tilts its head and shakes it slowly, the tortoise lifts its front feet pleading, wind ruffles the eagle's feathers",
+        "seed": 2042166391
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-len",
+      "title": "Bay lên trời xanh",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng, đại bàng đành chiều ý. Đại bàng quắp lấy mai rùa, vỗ cánh bay vút lên cao, cao mãi, qua những ngọn đồi, xuyên qua những đám mây. Rùa nhìn xuống, thấy cả thung lũng nhỏ xíu như bàn tay. “Đẹp quá, đẹp quá!” Đại bàng hỏi: “Cháu sẵn sàng chưa? Bác thả ra nhé, cháu tự bay đi!”",
+      "subtitles": [
+        "Cuối cùng, đại bàng đành chiều ý.",
+        "Đại bàng quắp lấy mai rùa, vỗ cánh bay vút lên cao, cao mãi, qua những ngọn đồi, xuyên qua",
+        "những đám mây. Rùa nhìn xuống, thấy cả thung lũng nhỏ xíu như bàn tay. “Đẹp quá, đẹp quá!”",
+        "Đại bàng hỏi: “Cháu sẵn sàng chưa? Bác thả ra nhé, cháu tự bay đi!”"
+      ],
+      "image": {
+        "character": "rua",
+        "prompt": "the eagle carrying the delighted tortoise high above clouds, rolling hills and the tiny valley and pond far below",
+        "seed": 1717054176
+      },
+      "video": {
+        "motionPrompt": "the eagle beats its wings steadily, clouds stream past, the tortoise looks down wide-eyed with joy",
+        "seed": 2270889988
+      },
+      "voice": {}
+    },
+    {
+      "id": "roi-xuong-ao",
+      "title": "Rơi xuống ao",
+      "narrator": "ke-chuyen",
+      "narration": "Đại bàng vừa buông móng, rùa khua bốn chân thật nhanh, nhưng chẳng bay được chút nào. Rùa rơi, rơi mãi, rồi “tõm” một cái, rơi đúng xuống cái ao trong veo cạnh nhà. Nước bắn tung tóe. Một lúc sau, rùa ngoi lên, ướt sũng, tim đập thình thịch, nhưng không hề hấn gì. Đại bàng lượn vòng trên cao, thở phào nhẹ nhõm.",
+      "subtitles": [
+        "Đại bàng vừa buông móng, rùa khua bốn chân thật nhanh, nhưng chẳng bay được chút nào.",
+        "Rùa rơi, rơi mãi, rồi “tõm” một cái, rơi đúng xuống cái ao trong veo cạnh nhà.",
+        "Nước bắn tung tóe.",
+        "Một lúc sau, rùa ngoi lên, ướt sũng, tim đập thình thịch, nhưng không hề hấn gì.",
+        "Đại bàng lượn vòng trên cao, thở phào nhẹ nhõm."
+      ],
+      "image": {
+        "character": "rua",
+        "prompt": "the tortoise landing in the lily pond with a big splash, water droplets sparkling, the eagle circling above, the tortoise popping its head out safe and surprised",
+        "seed": 1671996761
+      },
+      "video": {
+        "motionPrompt": "a big splash rises from the pond, lily pads rock, the tortoise surfaces blinking, the eagle circles above",
+        "seed": 2249609970
+      },
+      "voice": {}
+    },
+    {
+      "id": "biet-minh",
+      "title": "Biết mình là ai",
+      "narrator": "ke-chuyen",
+      "narration": "Rùa bò lên bờ, ngồi phơi nắng trên tảng đá. Nó nhìn quanh, thấy cái ao mát lành, bãi cỏ êm ái, và chợt thấy nơi mình sống thật đẹp. “Bay là việc của đại bàng,” rùa nghĩ, “còn bơi lặn và đi chậm mà chắc là việc của mình.” Từ đó, rùa không ước điều quá sức nữa. Các bạn nhỏ ạ, mỗi người có điểm mạnh riêng, hãy quý những gì mình có.",
+      "subtitles": [
+        "Rùa bò lên bờ, ngồi phơi nắng trên tảng đá.",
+        "Nó nhìn quanh, thấy cái ao mát lành, bãi cỏ êm ái, và chợt thấy nơi mình sống thật đẹp.",
+        "“Bay là việc của đại bàng,” rùa nghĩ, “còn bơi lặn và đi chậm mà chắc là việc của mình.”",
+        "Từ đó, rùa không ước điều quá sức nữa.",
+        "Các bạn nhỏ ạ, mỗi người có điểm mạnh riêng, hãy quý những gì mình có."
+      ],
+      "image": {
+        "character": "rua",
+        "prompt": "the content tortoise sunbathing on a warm stone beside the pond at golden hour, smiling, the eagle perched on a distant rock, dragonflies over the water",
+        "seed": 2197499424
+      },
+      "video": {
+        "motionPrompt": "the tortoise closes its eyes contentedly in the sun, dragonflies hover, water sparkles, the eagle preens on its rock",
+        "seed": 3370440844
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "soaring yet gentle classical storybook music, flute and strings rising for the flight, a playful splash on percussion, then a peaceful warm ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3044132715
+  }
+}

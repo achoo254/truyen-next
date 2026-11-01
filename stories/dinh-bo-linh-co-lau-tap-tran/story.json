@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "slug": "dinh-bo-linh-co-lau-tap-tran",
+  "shelf": "kids",
+  "title": "Đinh Bộ Lĩnh cờ lau tập trận",
+  "summary": "Cậu bé chăn trâu Đinh Bộ Lĩnh ở Hoa Lư lấy bông lau làm cờ, được bạn bè khoanh tay làm kiệu rước như vua. Có lần bị chú đuổi, cậu rơi xuống sông thì được rồng vàng đỡ lên. Lớn lên, cậu dẹp loạn mười hai sứ quân, trở thành vua Đinh Tiên Hoàng. Truyền thuyết kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "anh-hung",
+    "su-tich"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyền thuyết dân gian Việt Nam về thời nhỏ của Đinh Bộ Lĩnh, truyền miệng, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; chỉ kể các chi tiết dân gian đã lưu truyền, không thêm lời nói hay việc làm mới.",
+  "basedOn": "Truyền thuyết dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, Hoa Lu countryside with limestone mountains, rivers and white reed fields, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 4043270608
+    },
+    {
+      "id": "dinh-bo-linh",
+      "name": "Đinh Bộ Lĩnh",
+      "seed": 3359316346,
+      "sheetPrompt": "Dinh Bo Linh as a lively brave Vietnamese buffalo-herd boy about ten years old, bright confident smile, short black hair with a small topknot, simple brown shirt and rolled-up trousers, barefoot, holding a fluffy white reed flower like a flag, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-chu",
+      "name": "Người chú",
+      "seed": 782522363,
+      "sheetPrompt": "the uncle of Dinh Bo Linh, a stout grumpy but comical Vietnamese farmer, round face with a bushy moustache, brown peasant shirt and black headscarf, arms crossed, funny rather than scary, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu vừa hái được một bông lau trắng muốt, phe phẩy như một lá cờ đây. Phất phới, phất phới! Ngày xưa có một cậu bé chăn trâu cũng dùng bông lau làm cờ, chơi trò đánh trận với các bạn. Sau này, cậu bé ấy trở thành một vị vua. Cậu là ai nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Mèo Miu vừa hái được một bông lau trắng muốt, phe phẩy như một lá cờ đây.",
+        "Phất phới, phất phới!",
+        "Ngày xưa có một cậu bé chăn trâu cũng dùng bông lau làm cờ,",
+        "chơi trò đánh trận với các bạn.",
+        "Sau này, cậu bé ấy trở thành một vị vua.",
+        "Cậu là ai nhỉ?",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves a fluffy white reed flower like a flag in a field of white reeds, limestone mountains behind, a small water buffalo grazing nearby, warm sunny afternoon",
+        "seed": 3132214151,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves the reed flower back and forth, reeds sway in the breeze, the buffalo flicks its tail, slow camera push-in",
+        "seed": 918939429
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-be-chan-trau",
+      "title": "Cậu bé chăn trâu",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở vùng Hoa Lư có nhiều núi đá và đồng lau, có một cậu bé tên là Đinh Bộ Lĩnh. Cha mất từ khi cậu còn nhỏ, cậu theo mẹ về quê sống, hằng ngày đi chăn trâu. Bộ Lĩnh khỏe mạnh, nhanh nhẹn, lại rất can đảm, nên đám trẻ chăn trâu trong vùng ai cũng quý và nghe theo cậu.",
+      "subtitles": [
+        "Ngày xưa, ở vùng Hoa Lư có nhiều núi đá và đồng lau, có một cậu bé tên là Đinh Bộ Lĩnh.",
+        "Cha mất từ khi cậu còn nhỏ, cậu theo mẹ về quê sống, hằng ngày đi chăn trâu.",
+        "Bộ Lĩnh khỏe mạnh, nhanh nhẹn, lại rất can đảm,",
+        "nên đám trẻ chăn trâu trong vùng ai cũng quý và nghe theo cậu."
+      ],
+      "image": {
+        "prompt": "young Dinh Bo Linh rides on the back of a water buffalo along a river path between limestone mountains, a group of other buffalo-herd children following happily, morning mist",
+        "seed": 1517882389,
+        "character": "dinh-bo-linh"
+      },
+      "video": {
+        "motionPrompt": "the buffalo walks slowly along the river, the children wave and laugh, mist drifts around the mountains, side tracking shot",
+        "seed": 3014052276
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-lau",
+      "title": "Cờ lau tập trận",
+      "narrator": "ke-chuyen",
+      "narration": "Trên cánh đồng ven núi, lau mọc trắng xóa. Bộ Lĩnh bẻ những bông lau to nhất làm cờ, chia các bạn ra làm hai phe để chơi trò tập trận. Cờ lau phất lên, tiếng hò reo vang cả cánh đồng. Phe nào có Bộ Lĩnh chỉ huy thì phe ấy luôn thắng.",
+      "subtitles": [
+        "Trên cánh đồng ven núi, lau mọc trắng xóa.",
+        "Bộ Lĩnh bẻ những bông lau to nhất làm cờ,",
+        "chia các bạn ra làm hai phe để chơi trò tập trận.",
+        "Cờ lau phất lên, tiếng hò reo vang cả cánh đồng.",
+        "Phe nào có Bộ Lĩnh chỉ huy thì phe ấy luôn thắng."
+      ],
+      "image": {
+        "prompt": "on a wide field of white reeds two playful teams of village children run and cheer, each waving white reed flowers as flags, Dinh Bo Linh in front leading his team with a raised reed flag, joyful and bright",
+        "seed": 544106232,
+        "character": "dinh-bo-linh"
+      },
+      "video": {
+        "motionPrompt": "the children run and wave their reed flags, white fluff floats in the air, Bo Linh points forward and cheers, camera sweeps across the field",
+        "seed": 2336748503
+      },
+      "voice": {}
+    },
+    {
+      "id": "kieu-tay",
+      "title": "Kiệu bằng tay",
+      "narrator": "ke-chuyen",
+      "narration": "Các bạn phục Bộ Lĩnh lắm, cùng nhau tôn cậu làm anh cả. Có lúc, hai bạn khoanh tay vào nhau làm thành một chiếc kiệu, cho Bộ Lĩnh ngồi lên. Các bạn khác cầm cờ lau đi trước đi sau, rước cậu đi quanh cánh đồng như rước một ông vua thật vậy.",
+      "subtitles": [
+        "Các bạn phục Bộ Lĩnh lắm, cùng nhau tôn cậu làm anh cả.",
+        "Có lúc, hai bạn khoanh tay vào nhau làm thành một chiếc kiệu, cho Bộ Lĩnh ngồi lên.",
+        "Các bạn khác cầm cờ lau đi trước đi sau,",
+        "rước cậu đi quanh cánh đồng như rước một ông vua thật vậy."
+      ],
+      "image": {
+        "prompt": "two village boys cross their arms together to make a seat and carry a smiling Dinh Bo Linh, other children march in front and behind holding white reed flags like a royal parade, buffalo watching, golden light",
+        "seed": 3289475917,
+        "character": "dinh-bo-linh"
+      },
+      "video": {
+        "motionPrompt": "the little parade marches around the field, reed flags bob up and down, Bo Linh waves proudly, slow camera follow",
+        "seed": 3568528603
+      },
+      "voice": {}
+    },
+    {
+      "id": "khao-ban",
+      "title": "Bữa cỗ khao bạn",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, sau buổi tập trận, cả đám trẻ đều đói bụng. Bộ Lĩnh liền lấy một con trâu của người chú làm cỗ, khao các bạn một bữa thật no. Người chú biết chuyện, giận lắm, liền đuổi theo Bộ Lĩnh.",
+      "subtitles": [
+        "Một hôm, sau buổi tập trận, cả đám trẻ đều đói bụng.",
+        "Bộ Lĩnh liền lấy một con trâu của người chú làm cỗ, khao các bạn một bữa thật no.",
+        "Người chú biết chuyện, giận lắm, liền đuổi theo Bộ Lĩnh."
+      ],
+      "image": {
+        "prompt": "the comical grumpy uncle with a bushy moustache stomps across the reed field shaking his fist, while young Dinh Bo Linh runs away laughing toward the river, reeds flying, cartoon style, not scary",
+        "seed": 872924737,
+        "character": "nguoi-chu"
+      },
+      "video": {
+        "motionPrompt": "the uncle stomps and shakes his fist, the boy runs off toward the river, reed fluff flies up, side tracking shot",
+        "seed": 3306356948
+      },
+      "voice": {}
+    },
+    {
+      "id": "rong-vang",
+      "title": "Rồng vàng đỡ cậu bé",
+      "narrator": "ke-chuyen",
+      "narration": "Bộ Lĩnh chạy một mạch ra bờ sông. Cậu vừa chạy lên cây cầu bắc qua sông thì cầu gãy, cậu rơi tõm xuống nước. Ngay lúc ấy, hai con rồng vàng hiện lên giữa dòng sông, đỡ lấy cậu bé. Người chú chạy đến nơi, thấy rồng vàng che chở cho cháu thì sợ hãi đứng sững lại, rồi chắp tay vái lạy và lặng lẽ quay về.",
+      "subtitles": [
+        "Bộ Lĩnh chạy một mạch ra bờ sông.",
+        "Cậu vừa chạy lên cây cầu bắc qua sông thì cầu gãy, cậu rơi tõm xuống nước.",
+        "Ngay lúc ấy, hai con rồng vàng hiện lên giữa dòng sông, đỡ lấy cậu bé.",
+        "Người chú chạy đến nơi, thấy rồng vàng che chở cho cháu thì sợ hãi đứng sững lại,",
+        "rồi chắp tay vái lạy và lặng lẽ quay về."
+      ],
+      "image": {
+        "prompt": "two friendly golden dragons rise from a calm river and gently hold young Dinh Bo Linh above the water on their backs, a small broken wooden bridge nearby, the comical uncle on the bank amazed with hands pressed together, sparkling light",
+        "seed": 3326923877,
+        "character": "dinh-bo-linh"
+      },
+      "video": {
+        "motionPrompt": "the golden dragons rise gently and lift the boy, water sparkles, the uncle bows on the bank, slow camera push-in",
+        "seed": 2592882797
+      },
+      "voice": {}
+    },
+    {
+      "id": "lam-vua",
+      "title": "Vua Đinh Tiên Hoàng",
+      "narrator": "ke-chuyen",
+      "narration": "Lớn lên, Đinh Bộ Lĩnh trở thành một người tài giỏi. Thuở ấy, đất nước bị chia cắt, mười hai sứ quân mỗi người giữ một vùng, tranh giành nhau, dân chúng khổ sở. Đinh Bộ Lĩnh đã tập hợp mọi người, dẹp yên mười hai sứ quân, thống nhất đất nước. Ông lên ngôi vua, người đời gọi là vua Đinh Tiên Hoàng, đặt tên nước là Đại Cồ Việt và đóng đô ở Hoa Lư.",
+      "subtitles": [
+        "Lớn lên, Đinh Bộ Lĩnh trở thành một người tài giỏi.",
+        "Thuở ấy, đất nước bị chia cắt, mười hai sứ quân mỗi người giữ một vùng,",
+        "tranh giành nhau, dân chúng khổ sở.",
+        "Đinh Bộ Lĩnh đã tập hợp mọi người, dẹp yên mười hai sứ quân, thống nhất đất nước.",
+        "Ông lên ngôi vua, người đời gọi là vua Đinh Tiên Hoàng,",
+        "đặt tên nước là Đại Cồ Việt và đóng đô ở Hoa Lư."
+      ],
+      "image": {
+        "prompt": "grown-up Dinh Bo Linh as a kind king in a yellow royal robe stands at the gate of an ancient citadel nestled between limestone mountains, happy villagers bowing and cheering, red banners shaped like reed flags, sunny day",
+        "seed": 3751240874
+      },
+      "video": {
+        "motionPrompt": "banners flutter, villagers cheer and bow, the king raises his hand in greeting, gentle camera pull-back",
+        "seed": 558947578
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thế là cậu bé cờ lau năm nào đã trở thành vị vua dẹp loạn mười hai sứ quân. Ngày nay ở Hoa Lư, Ninh Bình vẫn có đền thờ vua Đinh. Các bạn thấy không, những trò chơi tuổi nhỏ cũng có thể nuôi lớn một ước mơ thật lớn đấy. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Thế là cậu bé cờ lau năm nào đã trở thành vị vua dẹp loạn mười hai sứ quân.",
+        "Ngày nay ở Hoa Lư, Ninh Bình vẫn có đền thờ vua Đinh.",
+        "Các bạn thấy không, những trò chơi tuổi nhỏ cũng có thể nuôi lớn một ước mơ thật lớn đấy.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye holding a white reed flower, an old temple with curved roofs among limestone mountains and a calm river behind her, sunset glow",
+        "seed": 2624871411,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves the reed flower slowly, reeds sway, a small boat glides on the river, gentle camera pull-back",
+        "seed": 1057189104
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "bright playful Vietnamese folk tune for children, bamboo flute and dan bau one-string zither, light festive drums like a children's parade, cheerful and brave, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2996419743
+  }
+}

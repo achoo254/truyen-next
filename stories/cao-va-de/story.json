@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "slug": "cao-va-de",
+  "shelf": "world",
+  "title": "Cáo và dê",
+  "summary": "Cáo lỡ rơi xuống giếng, bèn dụ dê nhảy xuống rồi giẫm lên lưng dê mà thoát ra. Ngụ ngôn Aesop về việc nghĩ kỹ trước khi làm và đừng nghe lời ngọt ngào.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại; theo bản Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, không chép câu chữ của bản dịch hay bản kể nào.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European children's picture-book illustration in the spirit of old Aesop's fables editions, soft watercolor washes with fine ink lines, warm golden light, gentle rounded expressive animals, a dry sunny countryside with an old stone well, olive trees and a dusty path, a farmhouse nearby, cosy and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cao",
+      "name": "Cáo",
+      "seed": 3720742799,
+      "sheetPrompt": "a slim red fox with a bushy white-tipped tail, sly narrow eyes, a sweet false smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "de",
+      "name": "Dê",
+      "seed": 3725841110,
+      "sheetPrompt": "a friendly white billy goat with a long beard, curved horns and kind trusting eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nong-dan",
+      "name": "Bác nông dân",
+      "seed": 3591295787,
+      "sheetPrompt": "a sturdy farmer with a wide straw hat, rolled-up sleeves and a coil of rope over his shoulder, warm smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "roi-xuong-gieng",
+      "title": "Cáo rơi xuống giếng",
+      "narrator": "ke-chuyen",
+      "narration": "Một ngày nắng gắt, cáo đi tìm nước uống. Thấy cái giếng đá cũ, cáo nhoài người ra nhìn, rồi trượt chân rơi tõm xuống. May mà nước giếng nông, cáo không sao, nhưng thành giếng cao và trơn quá. Cáo nhảy mãi, nhảy mãi mà không lên nổi. Nó đành ngồi trong lòng giếng, đảo mắt nghĩ mưu.",
+      "subtitles": [
+        "Một ngày nắng gắt, cáo đi tìm nước uống.",
+        "Thấy cái giếng đá cũ, cáo nhoài người ra nhìn, rồi trượt chân rơi tõm xuống.",
+        "May mà nước giếng nông, cáo không sao, nhưng thành giếng cao và trơn quá.",
+        "Cáo nhảy mãi, nhảy mãi mà không lên nổi. Nó đành ngồi trong lòng giếng, đảo mắt nghĩ mưu."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "a red fox sitting in shallow water at the bottom of an old stone well, looking up at the round patch of blue sky, mossy walls around",
+        "seed": 3206074073
+      },
+      "video": {
+        "motionPrompt": "the fox jumps and slides back down, water splashes softly, light glints on the wet stones",
+        "seed": 739925465
+      },
+      "voice": {}
+    },
+    {
+      "id": "de-khat-nuoc",
+      "title": "Dê khát nước",
+      "narrator": "ke-chuyen",
+      "narration": "Một lúc sau, có chú dê đi ngang qua, khát khô cả cổ. Dê ngó xuống giếng hỏi: “Cáo ơi, nước dưới ấy có ngon không?” Cáo vờ uống ừng ực, xuýt xoa: “Ngon lắm, mát lắm! Cả đời tôi chưa uống thứ nước nào ngọt thế này. Anh xuống đây mà uống cho thỏa!” Nghe vậy, dê chẳng nghĩ ngợi gì, nhảy ngay xuống giếng.",
+      "subtitles": [
+        "Một lúc sau, có chú dê đi ngang qua, khát khô cả cổ.",
+        "Dê ngó xuống giếng hỏi: “Cáo ơi, nước dưới ấy có ngon không?”",
+        "Cáo vờ uống ừng ực, xuýt xoa: “Ngon lắm, mát lắm!",
+        "Cả đời tôi chưa uống thứ nước nào ngọt thế này. Anh xuống đây mà uống cho thỏa!”",
+        "Nghe vậy, dê chẳng nghĩ ngợi gì, nhảy ngay xuống giếng."
+      ],
+      "image": {
+        "character": "de",
+        "prompt": "a white goat peering down into the well with a thirsty face, the fox at the bottom pretending to drink happily and waving it in",
+        "seed": 1441688537
+      },
+      "video": {
+        "motionPrompt": "the goat leans over the rim, the fox laps the water with exaggerated delight, then the goat leaps down",
+        "seed": 3651430627
+      },
+      "voice": {}
+    },
+    {
+      "id": "leo-len-lung",
+      "title": "Leo lên lưng dê",
+      "narrator": "ke-chuyen",
+      "narration": "Uống no rồi, dê mới hỏi: “Nhưng làm sao chúng ta lên được?” Cáo nói ngay: “Dễ thôi! Anh đứng thẳng, chống hai chân trước vào thành giếng, tôi leo lên lưng anh rồi lên trước, sau đó tôi kéo anh lên.” Dê làm theo. Cáo nhảy lên lưng dê, giẫm lên đôi sừng, phóng một cái lên miệng giếng. Rồi cáo quay lưng bỏ đi.",
+      "subtitles": [
+        "Uống no rồi, dê mới hỏi: “Nhưng làm sao chúng ta lên được?” Cáo nói ngay: “Dễ thôi!",
+        "Anh đứng thẳng, chống hai chân trước vào thành giếng, tôi leo lên lưng anh rồi lên trước,",
+        "sau đó tôi kéo anh lên.” Dê làm theo.",
+        "Cáo nhảy lên lưng dê, giẫm lên đôi sừng, phóng một cái lên miệng giếng.",
+        "Rồi cáo quay lưng bỏ đi."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "inside the well the goat stands on its hind legs against the wall, the fox climbing up its back and springing from its horns out of the well",
+        "seed": 847539957
+      },
+      "video": {
+        "motionPrompt": "the fox scrambles up the goat's back and leaps out, pebbles tumble, the goat looks up in surprise",
+        "seed": 3069258290
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-cao",
+      "title": "Lời của cáo",
+      "narrator": "ke-chuyen",
+      "narration": "Dê gọi với theo: “Cáo ơi, anh hứa kéo tôi lên cơ mà!” Cáo ngoái lại cười: “Anh dê ơi, giá mà anh có nhiều khôn ngoan như chòm râu của anh, thì anh đã chẳng nhảy xuống khi chưa biết đường lên.” Nói rồi, cáo chạy mất. Dê đứng một mình dưới giếng, kêu “be be” buồn bã.",
+      "subtitles": [
+        "Dê gọi với theo: “Cáo ơi, anh hứa kéo tôi lên cơ mà!”",
+        "Cáo ngoái lại cười: “Anh dê ơi, giá mà anh có nhiều khôn ngoan như chòm râu của anh, thì",
+        "anh đã chẳng nhảy xuống khi chưa biết đường lên.” Nói rồi, cáo chạy mất.",
+        "Dê đứng một mình dưới giếng, kêu “be be” buồn bã."
+      ],
+      "image": {
+        "character": "de",
+        "prompt": "the fox standing on the well rim grinning back over its shoulder, the goat alone at the bottom of the well looking up sadly",
+        "seed": 923880341
+      },
+      "video": {
+        "motionPrompt": "the fox flicks its tail and trots away, the goat bleats, a crow lands on the well rim",
+        "seed": 254955424
+      },
+      "voice": {}
+    },
+    {
+      "id": "bac-nong-dan",
+      "title": "Bác nông dân kéo lên",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe tiếng dê kêu, bác nông dân ở gần đó chạy tới. Bác thả sợi thừng xuống, buộc quanh mình dê, rồi gồng sức kéo lên từng chút một. Dê lên được miệng giếng, mừng rỡ dụi đầu vào tay bác. Từ đó, dê nhớ mãi bài học: trước khi nhảy vào đâu, phải nghĩ xem lối ra ở chỗ nào. Và đừng vội tin những lời ngọt ngào của kẻ chỉ lo cho mình.",
+      "subtitles": [
+        "Nghe tiếng dê kêu, bác nông dân ở gần đó chạy tới.",
+        "Bác thả sợi thừng xuống, buộc quanh mình dê, rồi gồng sức kéo lên từng chút một.",
+        "Dê lên được miệng giếng, mừng rỡ dụi đầu vào tay bác.",
+        "Từ đó, dê nhớ mãi bài học: trước khi nhảy vào đâu, phải nghĩ xem lối ra ở chỗ nào.",
+        "Và đừng vội tin những lời ngọt ngào của kẻ chỉ lo cho mình."
+      ],
+      "image": {
+        "character": "nong-dan",
+        "prompt": "a kind farmer pulling a rope to lift the goat out of the old well, the goat's front hooves on the rim, the farmer smiling, olive trees in golden afternoon light",
+        "seed": 123045046
+      },
+      "video": {
+        "motionPrompt": "the farmer heaves the rope, the goat scrambles over the rim and nuzzles his hand, leaves shimmer in the breeze",
+        "seed": 3032860436
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light playful classical storybook music, sly clarinet theme for the fox and a warm cello melody for the goat, a hopeful rescue and calm ending, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2746327758
+  }
+}

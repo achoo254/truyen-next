@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "slug": "luong-the-vinh-can-voi",
+  "shelf": "kids",
+  "title": "Lương Thế Vinh cân voi",
+  "summary": "Sứ thần phương Bắc đố triều đình cân được một con voi khổng lồ. Trạng Lường Lương Thế Vinh chỉ cần một chiếc thuyền và mấy hòn đá là giải xong câu đố. Giai thoại dân gian Việt Nam về trí thông minh, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "anh-hung"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Giai thoại dân gian Việt Nam về trạng nguyên Lương Thế Vinh, truyền miệng, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; chỉ kể giai thoại đã lưu truyền, không thêm lời nói hay việc làm mới.",
+  "basedOn": "Giai thoại dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, Le dynasty court, river wharf with wooden boats, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 4043270608
+    },
+    {
+      "id": "luong-the-vinh",
+      "name": "Lương Thế Vinh",
+      "seed": 497574916,
+      "sheetPrompt": "Luong The Vinh, a clever cheerful Vietnamese scholar-mandarin of the Le dynasty, bright twinkling eyes, neat black beard, dark blue mandarin robe with a square embroidered patch and a black winged scholar hat, holding a small abacus, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "su-than",
+      "name": "Sứ thần phương Bắc",
+      "seed": 1246771434,
+      "sheetPrompt": "a proud comical foreign envoy from an old northern court, round face with a long thin moustache, red silk robe and a tall black official hat, holding a folding fan, smug smile, funny not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "con-voi",
+      "name": "Con voi",
+      "seed": 2224303690,
+      "sheetPrompt": "a huge gentle grey elephant from old Vietnam, friendly sleepy eyes, big floppy ears, wearing a small red and gold cloth on its back, calm and cute, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã bao giờ đứng lên cái cân để xem mình nặng bao nhiêu chưa? Mèo Miu nặng bằng ba quả dưa hấu đấy, hi hi. Thế còn một chú voi to như cái nhà thì làm sao mà cân được nhỉ? Ngày xưa có một ông trạng đã nghĩ ra cách. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn đã bao giờ đứng lên cái cân để xem mình nặng bao nhiêu chưa?",
+        "Mèo Miu nặng bằng ba quả dưa hấu đấy, hi hi.",
+        "Thế còn một chú voi to như cái nhà thì làm sao mà cân được nhỉ?",
+        "Ngày xưa có một ông trạng đã nghĩ ra cách.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat stands on an old wooden balance scale next to three round watermelons, a big friendly elephant peeking curiously from behind, sunny courtyard",
+        "seed": 1863769758,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat wobbles on the scale and giggles, the elephant tilts its head and flaps its ears, slow camera push-in",
+        "seed": 4094368175
+      },
+      "voice": {}
+    },
+    {
+      "id": "trang-luong",
+      "title": "Ông Trạng Lường",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, dưới thời vua Lê Thánh Tông, có một ông trạng nguyên tên là Lương Thế Vinh. Ông nổi tiếng giỏi tính toán, đo đạc, việc gì khó đến tay ông cũng tìm ra cách giải. Vì thế, người đời gọi ông là Trạng Lường.",
+      "subtitles": [
+        "Ngày xưa, dưới thời vua Lê Thánh Tông, có một ông trạng nguyên tên là Lương Thế Vinh.",
+        "Ông nổi tiếng giỏi tính toán, đo đạc, việc gì khó đến tay ông cũng tìm ra cách giải.",
+        "Vì thế, người đời gọi ông là Trạng Lường."
+      ],
+      "image": {
+        "prompt": "cheerful scholar Luong The Vinh sits at a low wooden desk in a bright study counting with an abacus, scrolls, a measuring rope and brush pens around him, curious children peeking through the window",
+        "seed": 199699317,
+        "character": "luong-the-vinh"
+      },
+      "video": {
+        "motionPrompt": "his fingers slide the abacus beads, he smiles and nods, sunlight moves across the scrolls, slow push-in",
+        "seed": 2609831872
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-do",
+      "title": "Câu đố của sứ thần",
+      "narrator": "ke-chuyen",
+      "narration": "Một lần, có sứ thần phương Bắc sang nước ta. Muốn thử tài người nước Nam, viên sứ thần đưa ra một câu đố: phải cân cho được sức nặng của một con voi. Thời ấy, chẳng có cái cân nào to đến thế. Các quan trong triều nhìn nhau, ai cũng lắc đầu, chưa biết làm thế nào.",
+      "subtitles": [
+        "Một lần, có sứ thần phương Bắc sang nước ta.",
+        "Muốn thử tài người nước Nam, viên sứ thần đưa ra một câu đố:",
+        "phải cân cho được sức nặng của một con voi.",
+        "Thời ấy, chẳng có cái cân nào to đến thế.",
+        "Các quan trong triều nhìn nhau, ai cũng lắc đầu, chưa biết làm thế nào."
+      ],
+      "image": {
+        "prompt": "in a grand palace hall with red pillars, the smug foreign envoy points his fan at a huge gentle elephant, Vietnamese mandarins in blue robes look at each other puzzled and scratch their heads",
+        "seed": 475540084,
+        "character": "su-than"
+      },
+      "video": {
+        "motionPrompt": "the envoy fans himself smugly, the mandarins shake their heads, the elephant swings its trunk lazily, slow camera pan",
+        "seed": 2240689992
+      },
+      "voice": {}
+    },
+    {
+      "id": "dat-voi-xuong-thuyen",
+      "title": "Voi xuống thuyền",
+      "narrator": "ke-chuyen",
+      "narration": "Lương Thế Vinh nhận lời. Ông cho dắt con voi ra bờ sông, rồi dắt nó bước xuống một chiếc thuyền lớn. Voi nặng quá, chiếc thuyền chìm xuống thật sâu. Ông cho người vạch một đường ngay chỗ mặt nước ngang mạn thuyền. Xong, ông cho dắt voi lên bờ, chiếc thuyền lại nổi lên như cũ.",
+      "subtitles": [
+        "Lương Thế Vinh nhận lời.",
+        "Ông cho dắt con voi ra bờ sông, rồi dắt nó bước xuống một chiếc thuyền lớn.",
+        "Voi nặng quá, chiếc thuyền chìm xuống thật sâu.",
+        "Ông cho người vạch một đường ngay chỗ mặt nước ngang mạn thuyền.",
+        "Xong, ông cho dắt voi lên bờ, chiếc thuyền lại nổi lên như cũ."
+      ],
+      "image": {
+        "prompt": "the big gentle elephant stands on a large wooden boat at a river wharf, the boat sitting low in the water, Luong The Vinh points while a helper paints a white line on the hull at the waterline",
+        "seed": 4005812811,
+        "character": "luong-the-vinh"
+      },
+      "video": {
+        "motionPrompt": "the boat sinks lower as the elephant settles, the helper paints the line, ripples spread on the water, slow side pan",
+        "seed": 4022977639
+      },
+      "voice": {}
+    },
+    {
+      "id": "cho-da",
+      "title": "Chở đá xuống thuyền",
+      "narrator": "ke-chuyen",
+      "narration": "Mọi người còn đang ngơ ngác, thì ông sai lính khuân đá xếp vào thuyền. Từng hòn, từng hòn đá được đặt xuống, chiếc thuyền chìm dần, chìm dần. Đến khi mặt nước lên vừa đúng ngang vạch đã đánh dấu, ông mới bảo dừng tay.",
+      "subtitles": [
+        "Mọi người còn đang ngơ ngác, thì ông sai lính khuân đá xếp vào thuyền.",
+        "Từng hòn, từng hòn đá được đặt xuống, chiếc thuyền chìm dần, chìm dần.",
+        "Đến khi mặt nước lên vừa đúng ngang vạch đã đánh dấu, ông mới bảo dừng tay."
+      ],
+      "image": {
+        "prompt": "cheerful workers carry round stones one by one onto the empty wooden boat, the water rising up to the painted white line on the hull, Luong The Vinh raising his hand to say stop, puzzled onlookers on the wharf",
+        "seed": 4260163481,
+        "character": "luong-the-vinh"
+      },
+      "video": {
+        "motionPrompt": "workers set down stones, the boat slowly sinks until the water touches the white line, the scholar raises his hand, gentle camera push-in on the line",
+        "seed": 1959915449
+      },
+      "voice": {}
+    },
+    {
+      "id": "can-da",
+      "title": "Cân từng hòn đá",
+      "narrator": "ke-chuyen",
+      "narration": "Lúc này, ông cho đem từng hòn đá lên cân. Mỗi hòn đá nhỏ thì cân dễ dàng. Cân xong, ông cộng tất cả lại với nhau. Sức nặng của đống đá ấy cũng chính là sức nặng của con voi, vì cả hai đều làm thuyền chìm xuống đúng bằng nhau.",
+      "subtitles": [
+        "Lúc này, ông cho đem từng hòn đá lên cân.",
+        "Mỗi hòn đá nhỏ thì cân dễ dàng.",
+        "Cân xong, ông cộng tất cả lại với nhau.",
+        "Sức nặng của đống đá ấy cũng chính là sức nặng của con voi,",
+        "vì cả hai đều làm thuyền chìm xuống đúng bằng nhau."
+      ],
+      "image": {
+        "prompt": "on the riverbank workers weigh stones one at a time on an old hanging balance scale, Luong The Vinh adds up on his abacus with a happy smile, a neat pile of weighed stones, the elephant watching curiously",
+        "seed": 1068960820,
+        "character": "luong-the-vinh"
+      },
+      "video": {
+        "motionPrompt": "the scale tips and settles, abacus beads click, the elephant nods its head, slow camera pan",
+        "seed": 2148787570
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiu-phuc",
+      "title": "Câu đố đã có lời giải",
+      "narrator": "ke-chuyen",
+      "narration": "Viên sứ thần nghe giải thích thì gật gù chịu phục. Các quan trong triều cũng vui mừng. Câu đố tưởng như không ai giải nổi đã được Lương Thế Vinh giải xong, chỉ bằng một chiếc thuyền, mấy hòn đá và một cái đầu thật sáng suốt.",
+      "subtitles": [
+        "Viên sứ thần nghe giải thích thì gật gù chịu phục.",
+        "Các quan trong triều cũng vui mừng.",
+        "Câu đố tưởng như không ai giải nổi đã được Lương Thế Vinh giải xong,",
+        "chỉ bằng một chiếc thuyền, mấy hòn đá và một cái đầu thật sáng suốt."
+      ],
+      "image": {
+        "prompt": "the foreign envoy bows his head and nods in admiration with his fan closed, Vietnamese mandarins smile and clap, Luong The Vinh stands beside the boat and the elephant, bright sunny riverside",
+        "seed": 2664320795,
+        "character": "su-than"
+      },
+      "video": {
+        "motionPrompt": "the envoy bows and closes his fan, mandarins clap, the elephant raises its trunk happily, gentle pull-back",
+        "seed": 781405944
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thế là con voi to như cái nhà đã được cân xong rồi đấy. Các bạn thấy không, khi gặp việc khó, mình đừng vội lắc đầu. Hãy bình tĩnh suy nghĩ, chia việc lớn thành những việc nhỏ, thế nào cũng tìm ra cách. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Thế là con voi to như cái nhà đã được cân xong rồi đấy.",
+        "Các bạn thấy không, khi gặp việc khó, mình đừng vội lắc đầu.",
+        "Hãy bình tĩnh suy nghĩ, chia việc lớn thành những việc nhỏ, thế nào cũng tìm ra cách.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye sitting on the friendly elephant's back beside the river, a wooden boat with a white painted line and a little pile of stones nearby, sunset glow",
+        "seed": 2050485327,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the elephant sways and flaps its ears, the river sparkles, gentle camera pull-back",
+        "seed": 1335529488
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light playful Vietnamese folk tune for children, dan nguyet moon lute and bamboo flute, soft wooden percussion like counting beads, curious and clever mood, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2810916740
+  }
+}

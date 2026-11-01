@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "slug": "mac-dinh-chi-doi-dap",
+  "shelf": "kids",
+  "title": "Mạc Đĩnh Chi đối đáp sứ phương Bắc",
+  "summary": "Ông trạng nhỏ bé Mạc Đĩnh Chi đi sứ nhà Nguyên, đối đáp khéo léo ở cửa ải, giải nghĩa bức trướng chim sẻ cành trúc và đối lại vế đối mặt trời mặt trăng của vua Nguyên. Giai thoại dân gian về Lưỡng quốc trạng nguyên, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "anh-hung"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Giai thoại dân gian Việt Nam về trạng nguyên Mạc Đĩnh Chi đi sứ nhà Nguyên, truyền miệng, thuộc phạm vi công cộng; các vế đối là câu đối cổ được lưu truyền. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; chỉ kể giai thoại đã lưu truyền, không thêm lời nói hay việc làm mới.",
+  "basedOn": "Giai thoại dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, Tran dynasty envoy journey, mountain border pass, grand northern palace halls, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 4043270608
+    },
+    {
+      "id": "mac-dinh-chi",
+      "name": "Mạc Đĩnh Chi",
+      "seed": 2649171347,
+      "sheetPrompt": "Mac Dinh Chi, a short small Vietnamese scholar-envoy of the Tran dynasty with a plain but very clever face, bright confident eyes, thin black beard, dark green mandarin robe and a black scholar hat, holding a rolled scroll, gentle storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "quan-giu-ai",
+      "name": "Quan giữ ải",
+      "seed": 2965631769,
+      "sheetPrompt": "a comical northern border gatekeeper official, chubby with a thick moustache, grey-blue robe and a round official hat, holding a lantern, puzzled face, funny not scary, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có thích chơi trò đối đáp không? Mèo Miu nói trời xanh, bạn đáp mây trắng, thế là thành một cặp đối rồi đấy. Ngày xưa có một ông trạng người nhỏ bé nhưng đối đáp giỏi đến nỗi sứ thần nước lớn cũng phải phục. Ông là Mạc Đĩnh Chi. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn có thích chơi trò đối đáp không?",
+        "Mèo Miu nói trời xanh, bạn đáp mây trắng, thế là thành một cặp đối rồi đấy.",
+        "Ngày xưa có một ông trạng người nhỏ bé nhưng đối",
+        "đáp giỏi đến nỗi sứ thần nước lớn cũng phải phục.",
+        "Ông là Mạc Đĩnh Chi.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits at a low wooden desk with a brush pen and two paper scrolls, pointing up at a blue sky with white clouds, warm sunny study",
+        "seed": 3598510123,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat lifts the brush pen and points at the clouds, the scrolls flutter gently, slow camera push-in",
+        "seed": 4128171143
+      },
+      "voice": {}
+    },
+    {
+      "id": "trang-nho-be",
+      "title": "Ông trạng nhỏ bé",
+      "narrator": "ke-chuyen",
+      "narration": "Mạc Đĩnh Chi sống vào thời nhà Trần. Ông người thấp bé, dáng vẻ chẳng đẹp đẽ gì, nhưng học rất giỏi và thông minh hơn người. Ông thi đỗ trạng nguyên. Một lần, vua cử ông dẫn đoàn sứ giả sang nước phương Bắc, khi ấy là nhà Nguyên.",
+      "subtitles": [
+        "Mạc Đĩnh Chi sống vào thời nhà Trần.",
+        "Ông người thấp bé, dáng vẻ chẳng đẹp đẽ gì, nhưng học rất giỏi và thông minh hơn người.",
+        "Ông thi đỗ trạng nguyên.",
+        "Một lần, vua cử ông dẫn đoàn sứ giả sang nước phương Bắc, khi ấy là nhà Nguyên."
+      ],
+      "image": {
+        "prompt": "short clever scholar Mac Dinh Chi bows before a Tran dynasty king in a red-pillared hall, then a small envoy procession with horses and banners sets off along a mountain road",
+        "seed": 4157199348,
+        "character": "mac-dinh-chi"
+      },
+      "video": {
+        "motionPrompt": "the scholar bows and rises with a confident smile, banners flutter, horses start walking, slow camera pan",
+        "seed": 3540557736
+      },
+      "voice": {}
+    },
+    {
+      "id": "cua-ai",
+      "title": "Cửa ải đóng chặt",
+      "narrator": "ke-chuyen",
+      "narration": "Đường đi xa xôi, lại gặp mưa gió, nên đoàn sứ đến cửa ải thì trời đã tối, cổng ải đã đóng chặt. Viên quan giữ ải không chịu mở cổng, mà thả xuống một vế đối, bảo rằng đối được thì mới cho qua. Vế đối ấy là: “Quá quan trì, quan quan bế, nguyện quá khách quá quan.” Nghĩa là: đến cửa ải muộn, cửa ải đã đóng, xin mời khách qua đường tự tìm cách qua ải.",
+      "subtitles": [
+        "Đường đi xa xôi, lại gặp mưa gió,",
+        "nên đoàn sứ đến cửa ải thì trời đã tối, cổng ải đã đóng chặt.",
+        "Viên quan giữ ải không chịu mở cổng,",
+        "mà thả xuống một vế đối, bảo rằng đối được thì mới cho qua.",
+        "Vế đối ấy là: “Quá quan trì, quan quan bế, nguyện quá khách quá quan.”",
+        "Nghĩa là: đến cửa ải muộn, cửa ải đã đóng, xin mời khách qua đường tự tìm cách qua ải."
+      ],
+      "image": {
+        "prompt": "a tall stone border gate in the mountains at rainy dusk, its heavy wooden doors closed, the chubby gatekeeper with a lantern lowers a paper scroll on a string from the wall, Mac Dinh Chi and his tired companions holding umbrellas below",
+        "seed": 3352249690,
+        "character": "quan-giu-ai"
+      },
+      "video": {
+        "motionPrompt": "rain falls softly, the gatekeeper lowers the scroll swinging on its string, lantern light flickers, slow tilt down to the envoys",
+        "seed": 2129018105
+      },
+      "voice": {}
+    },
+    {
+      "id": "doi-lai",
+      "title": "Đối lại ngay",
+      "narrator": "ke-chuyen",
+      "narration": "Câu đối này khó lắm, vì chữ quá và chữ quan cứ lặp đi lặp lại. Mạc Đĩnh Chi chỉ nghĩ một lát rồi đối ngay: “Xuất đối dị, đối đối nan, thỉnh tiên sinh tiên đối.” Nghĩa là: ra câu đối thì dễ, đối lại mới khó, xin mời tiên sinh đối trước. Vế đối của ông cũng lặp chữ khéo léo y như vậy. Viên quan giữ ải phục tài, vội mở cổng mời đoàn sứ đi qua.",
+      "subtitles": [
+        "Câu đối này khó lắm, vì chữ quá và chữ quan cứ lặp đi lặp lại.",
+        "Mạc Đĩnh Chi chỉ nghĩ một lát rồi đối ngay:",
+        "“Xuất đối dị, đối đối nan, thỉnh tiên sinh tiên đối.”",
+        "Nghĩa là: ra câu đối thì dễ, đối lại mới khó, xin mời tiên sinh đối trước.",
+        "Vế đối của ông cũng lặp chữ khéo léo y như vậy.",
+        "Viên quan giữ ải phục tài, vội mở cổng mời đoàn sứ đi qua."
+      ],
+      "image": {
+        "prompt": "Mac Dinh Chi smiles confidently and calls up to the wall under his umbrella, the surprised gatekeeper on top drops his jaw, the heavy wooden gate doors beginning to swing open with warm light spilling out",
+        "seed": 915423541,
+        "character": "mac-dinh-chi"
+      },
+      "video": {
+        "motionPrompt": "the gate doors swing open slowly, warm light spills onto the wet road, the gatekeeper bows, the envoys walk through, gentle push-in",
+        "seed": 3061441060
+      },
+      "voice": {}
+    },
+    {
+      "id": "buc-truong",
+      "title": "Bức trướng chim sẻ",
+      "narrator": "ke-chuyen",
+      "narration": "Đến kinh đô, một hôm Mạc Đĩnh Chi vào phủ của quan tể tướng. Trong phủ treo một bức trướng thêu hình chú chim sẻ đậu trên cành trúc, trông như thật. Mạc Đĩnh Chi bước lại gần, rồi bất ngờ xé bức trướng xuống. Mọi người đều ngạc nhiên, hỏi vì sao ông làm vậy. Ông thong thả giải thích: người xưa coi cây trúc là người quân tử ngay thẳng, còn chim sẻ là kẻ tiểu nhân. Để chim sẻ đậu trên cành trúc, chẳng khác nào để kẻ tiểu nhân lấn át người quân tử. Ai nghe cũng phải gật gù.",
+      "subtitles": [
+        "Đến kinh đô, một hôm Mạc Đĩnh Chi vào phủ của quan tể tướng.",
+        "Trong phủ treo một bức trướng thêu hình chú chim sẻ đậu trên cành trúc, trông như thật.",
+        "Mạc Đĩnh Chi bước lại gần, rồi bất ngờ xé bức trướng xuống.",
+        "Mọi người đều ngạc nhiên, hỏi vì sao ông làm vậy.",
+        "Ông thong thả giải thích: người xưa coi cây trúc là người quân tử ngay thẳng,",
+        "còn chim sẻ là kẻ tiểu nhân.",
+        "Để chim sẻ đậu trên cành trúc, chẳng khác nào để kẻ tiểu nhân lấn át người quân tử.",
+        "Ai nghe cũng phải gật gù."
+      ],
+      "image": {
+        "prompt": "in an elegant northern palace room, a silk wall hanging embroidered with a little sparrow on a green bamboo branch, Mac Dinh Chi holding the torn-down hanging and calmly explaining, surprised officials in red robes listening",
+        "seed": 2511504040,
+        "character": "mac-dinh-chi"
+      },
+      "video": {
+        "motionPrompt": "the silk hanging flutters down, the officials lean in surprised, the scholar raises one finger as he explains, slow camera pan",
+        "seed": 1763782147
+      },
+      "voice": {}
+    },
+    {
+      "id": "mat-troi-mat-trang",
+      "title": "Mặt trời và mặt trăng",
+      "narrator": "ke-chuyen",
+      "narration": "Vua nhà Nguyên cũng muốn thử tài ông, bèn ra một vế đối: “Nhật hỏa vân yên, bạch đán thiêu tàn ngọc thố.” Nghĩa là: mặt trời là lửa, mây là khói, ban ngày đốt tan vầng trăng. Vua ví nước mình như mặt trời, còn nước Nam như vầng trăng nhỏ. Mạc Đĩnh Chi hiểu ngay, liền đối lại: “Nguyệt cung tinh đạn, hoàng hôn xạ lạc kim ô.” Nghĩa là: trăng là cây cung, sao là viên đạn, chiều tối bắn rơi mặt trời. Câu đối vừa chỉnh, vừa cứng cỏi, cho thấy nước Nam tuy nhỏ nhưng không hề chịu thua.",
+      "subtitles": [
+        "Vua nhà Nguyên cũng muốn thử tài ông, bèn ra một vế đối:",
+        "“Nhật hỏa vân yên, bạch đán thiêu tàn ngọc thố.”",
+        "Nghĩa là: mặt trời là lửa, mây là khói, ban ngày đốt tan vầng trăng.",
+        "Vua ví nước mình như mặt trời, còn nước Nam như vầng trăng nhỏ.",
+        "Mạc Đĩnh Chi hiểu ngay, liền đối lại: “Nguyệt cung tinh đạn, hoàng hôn xạ lạc kim ô.”",
+        "Nghĩa là: trăng là cây cung, sao là viên đạn, chiều tối bắn rơi mặt trời.",
+        "Câu đối vừa chỉnh, vừa cứng cỏi, cho thấy nước Nam tuy nhỏ nhưng không hề chịu thua."
+      ],
+      "image": {
+        "prompt": "in a grand throne hall a northern emperor in gold points up at a painted golden sun on the ceiling, Mac Dinh Chi calmly points to a painted silver crescent moon and twinkling stars, courtiers whispering in amazement",
+        "seed": 3143804596,
+        "character": "mac-dinh-chi"
+      },
+      "video": {
+        "motionPrompt": "the painted sun and moon glow softly, little stars twinkle, the courtiers turn to each other amazed, slow camera tilt up",
+        "seed": 395350608
+      },
+      "voice": {}
+    },
+    {
+      "id": "luong-quoc",
+      "title": "Lưỡng quốc trạng nguyên",
+      "narrator": "ke-chuyen",
+      "narration": "Người đời truyền rằng vua nhà Nguyên rất khâm phục tài ông, phong cho ông danh hiệu trạng nguyên. Thế là Mạc Đĩnh Chi được gọi là Lưỡng quốc trạng nguyên, nghĩa là trạng nguyên của cả hai nước. Tiếng tăm ông trạng nhỏ bé mà tài giỏi từ đó được lưu truyền mãi.",
+      "subtitles": [
+        "Người đời truyền rằng vua nhà Nguyên rất khâm phục tài ông,",
+        "phong cho ông danh hiệu trạng nguyên.",
+        "Thế là Mạc Đĩnh Chi được gọi là Lưỡng quốc trạng nguyên,",
+        "nghĩa là trạng nguyên của cả hai nước.",
+        "Tiếng tăm ông trạng nhỏ bé mà tài giỏi từ đó được lưu truyền mãi."
+      ],
+      "image": {
+        "prompt": "small Mac Dinh Chi stands proudly in a palace courtyard receiving a red silk scroll of honor, officials bowing around him, red lanterns and flags, golden sunset",
+        "seed": 203098887,
+        "character": "mac-dinh-chi"
+      },
+      "video": {
+        "motionPrompt": "the scholar bows as he receives the scroll, lanterns sway, petals drift down, gentle camera pull-back",
+        "seed": 408101069
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thế là các bạn đã nghe chuyện ông trạng nhỏ bé đi sứ rồi. Người nhỏ bé không sao cả, miễn là mình chăm học, nhanh trí và luôn tự hào về quê hương. Các bạn thử nghĩ một cặp đối thật hay để đố bạn bè nha. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Thế là các bạn đã nghe chuyện ông trạng nhỏ bé đi sứ rồi.",
+        "Người nhỏ bé không sao cả, miễn là mình chăm học, nhanh trí và luôn tự hào về quê hương.",
+        "Các bạn thử nghĩ một cặp đối thật hay để đố bạn bè nha.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye holding a brush pen beside two paper scrolls, a painted sun and crescent moon on the scrolls, a mountain pass gate in the distance at sunset",
+        "seed": 21189447,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves the brush pen slowly, the scrolls flutter, the sky turns golden, gentle camera pull-back",
+        "seed": 374984843
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "elegant gentle Vietnamese court music for children, dan tranh zither and bamboo flute with soft ceremonial drum, clever and dignified mood, medium-slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 890059148
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "slug": "su-tich-chua-thien-mu",
+  "shelf": "kids",
+  "title": "Sự tích chùa Thiên Mụ",
+  "summary": "Đêm đêm trên đồi Hà Khê bên sông Hương có một bà lão áo đỏ hiện ra, báo rằng sẽ có người đến dựng chùa giữ khí thiêng cho đất. Chúa Nguyễn Hoàng nghe chuyện liền cho dựng chùa Thiên Mụ. Sự tích ngôi chùa nổi tiếng xứ Huế, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "su-tich"
+  ],
+  "added": "2026-11-01",
+  "language": "vi",
+  "source": "Truyền thuyết dân gian Việt Nam về chùa Thiên Mụ (Huế), truyền miệng, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "basedOn": "Truyền thuyết dân gian Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, gentle pastel colors, calm and safe mood for young children, Hue landscape with the misty Perfume River, green hills, pine trees and an old pagoda, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 4043270608
+    },
+    {
+      "id": "nguyen-hoang",
+      "name": "Chúa Nguyễn Hoàng",
+      "seed": 2841458763,
+      "sheetPrompt": "Lord Nguyen Hoang of old Vietnam, a dignified kind lord in his fifties, neat black beard, calm eyes, dark blue silk robe with gold trim and a black scholar hat, gentle storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba-lao",
+      "name": "Bà lão áo đỏ",
+      "seed": 15057428,
+      "sheetPrompt": "a kind mysterious old Vietnamese grandmother spirit, silver-white hair in a bun, gentle smiling wrinkled face, red ao dai style top and green trousers, soft magical glow around her, calm and warm, not scary, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Hôm nay Mèo Miu đang ngồi thuyền xuôi dòng sông Hương ở xứ Huế mộng mơ. Kìa, trên ngọn đồi bên bờ sông có một ngôi tháp bảy tầng thật cao. Đó là chùa Thiên Mụ đấy. Tên chùa có nghĩa là bà lão nhà trời. Vì sao lại có cái tên lạ thế nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Hôm nay Mèo Miu đang ngồi thuyền xuôi dòng sông Hương ở xứ Huế mộng mơ.",
+        "Kìa, trên ngọn đồi bên bờ sông có một ngôi tháp bảy tầng thật cao.",
+        "Đó là chùa Thiên Mụ đấy.",
+        "Tên chùa có nghĩa là bà lão nhà trời.",
+        "Vì sao lại có cái tên lạ thế nhỉ?",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat sits in a small wooden boat on the calm Perfume River, pointing at a tall seven-tiered octagonal pagoda tower on a green hill by the riverbank, soft morning mist",
+        "seed": 2083032437,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the boat drifts slowly, the cat points and smiles, mist floats over the water, slow camera pan toward the pagoda tower",
+        "seed": 1793931417
+      },
+      "voice": {}
+    },
+    {
+      "id": "di-xem-dat",
+      "title": "Đi xem đất",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một vị chúa tên là Nguyễn Hoàng vào trông coi vùng đất Thuận Hóa. Ông thường đi khắp nơi, ngắm núi, ngắm sông, xem vùng nào đẹp, vùng nào tốt. Một hôm, ông men theo bờ sông Hương, đến một ngọn đồi nhỏ tên là đồi Hà Khê.",
+      "subtitles": [
+        "Ngày xưa, có một vị chúa tên là Nguyễn Hoàng vào trông coi vùng đất Thuận Hóa.",
+        "Ông thường đi khắp nơi, ngắm núi, ngắm sông, xem vùng nào đẹp, vùng nào tốt.",
+        "Một hôm, ông men theo bờ sông Hương, đến một ngọn đồi nhỏ tên là đồi Hà Khê."
+      ],
+      "image": {
+        "prompt": "Lord Nguyen Hoang rides a calm brown horse along the green bank of the Perfume River with a few attendants, rolling hills and pine trees ahead, gentle afternoon light",
+        "seed": 3695516503,
+        "character": "nguyen-hoang"
+      },
+      "video": {
+        "motionPrompt": "the horse walks slowly along the riverbank, the lord looks around at the hills, reeds sway in the breeze, side tracking shot",
+        "seed": 900655838
+      },
+      "voice": {}
+    },
+    {
+      "id": "doi-ha-khe",
+      "title": "Ngọn đồi hình rồng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngọn đồi nhô ra bên dòng sông xanh biếc, cây cối um tùm. Thế đồi uốn lượn, trông giống như một con rồng đang quay đầu nhìn lại. Nguyễn Hoàng đứng ngắm mãi, thấy cảnh vật nơi đây thật đẹp và linh thiêng.",
+      "subtitles": [
+        "Ngọn đồi nhô ra bên dòng sông xanh biếc, cây cối um tùm.",
+        "Thế đồi uốn lượn, trông giống như một con rồng đang quay đầu nhìn lại.",
+        "Nguyễn Hoàng đứng ngắm mãi, thấy cảnh vật nơi đây thật đẹp và linh thiêng."
+      ],
+      "image": {
+        "prompt": "a green hill curving beside the blue river, its long winding shape gently resembling a dragon turning its head back, Lord Nguyen Hoang standing on the slope admiring the view, soft clouds",
+        "seed": 3956864457,
+        "character": "nguyen-hoang"
+      },
+      "video": {
+        "motionPrompt": "clouds drift over the dragon-shaped hill, the lord's robe flutters in the wind, river sparkles, slow camera pull-back",
+        "seed": 3684840384
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-dan-ke",
+      "title": "Chuyện lạ trên đồi",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy có người lạ đến, dân làng quanh đó kéo ra chào. Họ kể cho Nguyễn Hoàng nghe một chuyện lạ. Đã từ lâu, cứ đêm đêm, trên đỉnh đồi lại hiện ra một bà lão. Bà mặc áo đỏ, quần màu xanh lục, tóc bạc phơ, ngồi lặng lẽ dưới ánh trăng.",
+      "subtitles": [
+        "Thấy có người lạ đến, dân làng quanh đó kéo ra chào.",
+        "Họ kể cho Nguyễn Hoàng nghe một chuyện lạ.",
+        "Đã từ lâu, cứ đêm đêm, trên đỉnh đồi lại hiện ra một bà lão.",
+        "Bà mặc áo đỏ, quần màu xanh lục, tóc bạc phơ, ngồi lặng lẽ dưới ánh trăng."
+      ],
+      "image": {
+        "prompt": "on a moonlit hilltop a kind old grandmother in a red top and green trousers with silver hair sits peacefully on a rock, soft magical glow around her, fireflies, a full moon over the river",
+        "seed": 2330771893,
+        "character": "ba-lao"
+      },
+      "video": {
+        "motionPrompt": "fireflies drift around the old woman, her silver hair stirs in the breeze, moonlight shimmers on the river, slow push-in",
+        "seed": 204079879
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-ba-lao",
+      "title": "Lời bà lão",
+      "narrator": "ke-chuyen",
+      "narration": "Bà lão nói với mọi người rằng: “Rồi đây sẽ có một vị chân chúa đến đây dựng chùa, để giữ khí thiêng của đất, cho đất nước được vững bền.” Nói xong, bà lão biến mất, không để lại dấu vết gì. Từ đó, dân làng gọi ngọn đồi là núi Thiên Mụ, nghĩa là núi của bà lão nhà trời.",
+      "subtitles": [
+        "Bà lão nói với mọi người rằng: “Rồi đây sẽ có một vị chân chúa đến đây dựng chùa,",
+        "để giữ khí thiêng của đất, cho đất nước được vững bền.”",
+        "Nói xong, bà lão biến mất, không để lại dấu vết gì.",
+        "Từ đó, dân làng gọi ngọn đồi là núi Thiên Mụ, nghĩa là núi của bà lão nhà trời."
+      ],
+      "image": {
+        "prompt": "the glowing old grandmother on the hilltop raises one hand gently as she speaks to a few surprised villagers holding lanterns, her figure softly fading into sparkles of light, full moon",
+        "seed": 1113309087,
+        "character": "ba-lao"
+      },
+      "video": {
+        "motionPrompt": "the old woman fades into drifting golden sparkles that float up to the moon, villagers lift their lanterns in wonder, slow tilt up",
+        "seed": 2562418461
+      },
+      "voice": {}
+    },
+    {
+      "id": "dung-chua",
+      "title": "Dựng chùa trên đồi",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe xong, Nguyễn Hoàng rất vui, vì điều bà lão nói cũng đúng với mong muốn của dân. Ông liền cho người dựng một ngôi chùa trên đỉnh đồi, mặt chùa hướng ra dòng sông Hương. Chùa được đặt tên là chùa Thiên Mụ, để nhớ đến bà lão nhà trời năm xưa. Năm ấy là năm một nghìn sáu trăm lẻ một.",
+      "subtitles": [
+        "Nghe xong, Nguyễn Hoàng rất vui, vì điều bà lão nói cũng đúng với mong muốn của dân.",
+        "Ông liền cho người dựng một ngôi chùa trên đỉnh đồi, mặt chùa hướng ra dòng sông Hương.",
+        "Chùa được đặt tên là chùa Thiên Mụ, để nhớ đến bà lão nhà trời năm xưa.",
+        "Năm ấy là năm một nghìn sáu trăm lẻ một."
+      ],
+      "image": {
+        "prompt": "Lord Nguyen Hoang watches happily as villagers and carpenters build a wooden pagoda with curved tiled roofs on top of the green hill facing the river, wooden beams, baskets of tiles, sunny day",
+        "seed": 3552995438,
+        "character": "nguyen-hoang"
+      },
+      "video": {
+        "motionPrompt": "carpenters lift a roof beam into place, the lord smiles and nods, birds fly over the river, slow camera pan",
+        "seed": 3230443861
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-chuong",
+      "title": "Tiếng chuông bên sông",
+      "narrator": "ke-chuyen",
+      "narration": "Từ đó, ngôi chùa trên đồi Hà Khê trở thành nơi linh thiêng của xứ Huế. Người dân khắp nơi tìm đến thắp hương, cầu mong mùa màng tươi tốt, gia đình bình an. Về sau, chùa còn có thêm một quả chuông lớn và một ngôi tháp cao. Mỗi sớm mỗi chiều, tiếng chuông chùa lại ngân nga, vang xa trên mặt sông Hương.",
+      "subtitles": [
+        "Từ đó, ngôi chùa trên đồi Hà Khê trở thành nơi linh thiêng của xứ Huế.",
+        "Người dân khắp nơi tìm đến thắp hương, cầu mong mùa màng tươi tốt, gia đình bình an.",
+        "Về sau, chùa còn có thêm một quả chuông lớn và một ngôi tháp cao.",
+        "Mỗi sớm mỗi chiều, tiếng chuông chùa lại ngân nga, vang xa trên mặt sông Hương."
+      ],
+      "image": {
+        "prompt": "the old pagoda on the hill at sunset with a tall seven-tiered tower and a big bronze bell under a small roof, families climbing the stone steps with flowers, the Perfume River glowing orange below",
+        "seed": 1947515356
+      },
+      "video": {
+        "motionPrompt": "the big bell sways gently, soft sound ripples drawn as circles spread over the river, families climb the steps, slow pull-back",
+        "seed": 652375176
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Thế là các bạn đã biết sự tích chùa Thiên Mụ rồi. Ngày nay ngôi chùa vẫn đứng bên dòng sông Hương, là một trong những cảnh đẹp nổi tiếng của Huế. Nếu có dịp đến Huế, các bạn nhớ lên đồi ngắm chùa và nghe tiếng chuông nha. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Thế là các bạn đã biết sự tích chùa Thiên Mụ rồi.",
+        "Ngày nay ngôi chùa vẫn đứng bên dòng sông Hương,",
+        "là một trong những cảnh đẹp nổi tiếng của Huế.",
+        "Nếu có dịp đến Huế, các bạn nhớ lên đồi ngắm chùa và nghe tiếng chuông nha.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye from the stone steps of the hilltop pagoda, the tall seven-tiered tower behind her, the misty Perfume River and a small boat below, soft evening light",
+        "seed": 944434645,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, a small boat glides on the river, pine branches sway, gentle camera pull-back",
+        "seed": 3044413356
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "peaceful Hue royal folk melody for children, dan tranh zither and soft bamboo flute, distant temple bell, gentle river feeling, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2616084700
+  }
+}
