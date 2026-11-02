@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "slug": "hoang-tu-ran",
+  "shelf": "world",
+  "title": "Hoàng tử rắn",
+  "summary": "Chuỗi ngọc trong chiếc rương của nhà vua bỗng hoá thành một bé trai kháu khỉnh. Lớn lên, hoàng tử bị vợ gặng hỏi bí mật về sự ra đời của mình, và khi chàng nói ra, chàng biến thành rắn lặn xuống sông. Nàng công chúa phải can đảm đứng chặn Nữ hoàng Rắn để đón chồng về. Truyện dân gian Punjab (Ấn Độ) trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Snake Prince\" trong The Olive Fairy Book do Andrew Lang biên tập (1907; truyện dân gian Punjab, Ấn Độ, do Thiếu tá Campbell ở Ferozepore ghi lại), Project Gutenberg #27826, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính; bỏ ý nghĩ tuyệt vọng của bà lão nghèo và kể nhẹ cách công chúa thức canh (vốc nước lạnh lên mặt), không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Punjab, Andrew Lang chép (1907)",
+  "style": "classic Indian fairy tale picture book illustration inspired by Pahari miniature painting, a white marble palace by a wide moonlit river, lotus ponds, lanterns among mango trees, a small house of black stone on the riverbank, soft gouache textures, colors of moonlight blue, emerald, rose and gold, tender and magical mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ba-lao",
+      "name": "Bà lão nghèo",
+      "sheetPrompt": "a poor kind old Indian woman from an old Punjabi folk tale, white hair, faded blue sari, holding a small round brass pot covered with a cloth, gentle wrinkled face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 671987068
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "sheetPrompt": "a handsome gentle Indian prince from an old Punjabi folk tale, about eighteen, ivory silk kurta, emerald turban with a pearl, a faint green shimmer like snake scales on his sash, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3466981591
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "sheetPrompt": "a brave graceful Indian princess from an old Punjabi folk tale, long black braid with jasmine flowers, saffron and rose sari with gold border, determined eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2945916198
+    },
+    {
+      "id": "nu-hoang-ran",
+      "name": "Nữ hoàng Rắn",
+      "sheetPrompt": "a large majestic queen of the snakes from a fairy tale, shimmering emerald and gold scales, a tiny golden crown on her head, wise glowing eyes, not scary, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1856861729
+    }
+  ],
+  "scenes": [
+    {
+      "id": "chiec-binh-dong",
+      "title": "Chiếc bình đồng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bà lão nghèo sống một mình. Một hôm, trong nhà chỉ còn một nắm bột, bà buồn bã cầm chiếc bình đồng nhỏ ra sông tắm và lấy nước. Bà để bình trên bờ, lấy khăn phủ miệng cho sạch. Tắm xong, bà mở khăn ra thì thấy trong bình có một con rắn cuộn tròn, vảy lấp lánh. Bà hoảng hốt bịt ngay miệng bình lại. Nghĩ ngợi một lúc, bà ôm bình về nhà, đóng hết cửa, rồi dốc ngược bình xuống nền bếp. Nhưng không phải con rắn rơi ra, mà là một chuỗi ngọc tuyệt đẹp, kêu lanh canh, sáng loá cả gian nhà.",
+      "subtitles": [
+        "Ngày xưa, có một bà lão nghèo sống một mình.",
+        "Một hôm, trong nhà chỉ còn một nắm bột,",
+        "bà buồn bã cầm chiếc bình đồng nhỏ ra sông tắm và lấy nước.",
+        "Bà để bình trên bờ, lấy khăn phủ miệng cho sạch.",
+        "Tắm xong, bà mở khăn ra thì thấy trong bình có một con rắn cuộn tròn, vảy lấp lánh.",
+        "Bà hoảng hốt bịt ngay miệng bình lại.",
+        "Nghĩ ngợi một lúc, bà ôm bình về nhà, đóng hết cửa, rồi dốc ngược bình xuống nền bếp.",
+        "Nhưng không phải con rắn rơi ra, mà là một chuỗi ngọc tuyệt đẹp, kêu lanh canh,",
+        "sáng loá cả gian nhà."
+      ],
+      "image": {
+        "prompt": "a poor old woman in a humble hut turning a small brass pot upside down on the hearth, a dazzling jewelled necklace tumbling out in a shower of light, her face full of wonder",
+        "seed": 623294269,
+        "character": "ba-lao"
+      },
+      "video": {
+        "motionPrompt": "the necklace slides out and sparkles, light ripples across the walls, the old woman covers her mouth in surprise",
+        "seed": 1351442533
+      },
+      "voice": {}
+    },
+    {
+      "id": "em-be-trong-ruong",
+      "title": "Em bé trong rương",
+      "narrator": "ke-chuyen",
+      "narration": "Bà lão gói chuỗi ngọc vào khăn, mang lên dâng nhà vua. Vua mê chuỗi ngọc lắm, trả cho bà năm trăm đồng bạc, đủ để bà sống no đủ suốt đời. Vua cất chuỗi ngọc vào chiếc rương châu báu của hoàng hậu, chìa khoá luôn đeo trên cổ. Ít lâu sau, nhà vua nước láng giềng mời sang dự tiệc mừng công chúa mới chào đời. Vua mở rương lấy chuỗi ngọc cho hoàng hậu đeo, nhưng chuỗi ngọc đâu mất, chỉ thấy một bé trai bụ bẫm đang khua chân múa tay cười khanh khách. Vua gọi ầm lên. Hoàng hậu chạy tới, ôm lấy đứa bé: “Ôi, con của mẹ! Con quý hơn mọi chuỗi ngọc trên đời!” Cả kinh thành mở hội suốt một tuần liền.",
+      "subtitles": [
+        "Bà lão gói chuỗi ngọc vào khăn, mang lên dâng nhà vua.",
+        "Vua mê chuỗi ngọc lắm, trả cho bà năm trăm đồng bạc, đủ để bà sống no đủ suốt đời.",
+        "Vua cất chuỗi ngọc vào chiếc rương châu báu của hoàng hậu, chìa khoá luôn đeo trên cổ.",
+        "Ít lâu sau, nhà vua nước láng giềng mời sang dự tiệc mừng công chúa mới chào đời.",
+        "Vua mở rương lấy chuỗi ngọc cho hoàng hậu đeo, nhưng chuỗi ngọc đâu mất,",
+        "chỉ thấy một bé trai bụ bẫm đang khua chân múa tay cười khanh khách. Vua gọi ầm lên.",
+        "Hoàng hậu chạy tới, ôm lấy đứa bé: “Ôi, con của mẹ! Con quý hơn mọi chuỗi ngọc trên đời!”",
+        "Cả kinh thành mở hội suốt một tuần liền."
+      ],
+      "image": {
+        "prompt": "a king and queen kneeling by an open jewel chest in a palace room, inside a chubby happy baby boy waving his arms on silk cushions, the queen reaching to lift him with joy",
+        "seed": 2093692578,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the baby kicks and laughs, the queen lifts him up, the king dances around the chest",
+        "seed": 569037535
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-dan-cua-me",
+      "title": "Lời dặn của mẹ",
+      "narrator": "ke-chuyen",
+      "narration": "Bà lão nghèo được vua gọi vào cung làm vú nuôi hoàng tử. Bà thương hoàng tử lắm, nhưng đôi khi lỡ lời, nên dần dần người ta đồn rằng hoàng tử ra đời nhờ phép lạ. Năm hoàng tử mười tám tuổi, hai nhà vua cho hoàng tử cưới nàng công chúa nước láng giềng như đã hứa từ lâu. Đêm trước ngày cưới, mẹ công chúa dặn con: “Con phải tìm cho ra chuyện bí ẩn của hoàng tử. Chàng nói gì con cũng đừng đáp, chờ chàng hỏi vì sao con im lặng, con hãy bắt chàng kể sự thật.” Công chúa vâng lời. Cưới xong, nàng cứ im lặng mãi. Hoàng tử hỏi, nàng chỉ đáp: “Chàng hãy cho em biết bí mật về sự ra đời của chàng.” Hoàng tử buồn bã: “Nếu ta nói, nàng sẽ hối hận suốt đời.”",
+      "subtitles": [
+        "Bà lão nghèo được vua gọi vào cung làm vú nuôi hoàng tử.",
+        "Bà thương hoàng tử lắm, nhưng đôi khi lỡ lời,",
+        "nên dần dần người ta đồn rằng hoàng tử ra đời nhờ phép lạ.",
+        "Năm hoàng tử mười tám tuổi,",
+        "hai nhà vua cho hoàng tử cưới nàng công chúa nước láng giềng như đã hứa từ lâu.",
+        "Đêm trước ngày cưới, mẹ công chúa dặn con: “Con phải tìm cho ra chuyện bí ẩn của hoàng tử.",
+        "Chàng nói gì con cũng đừng đáp, chờ chàng hỏi vì sao con im lặng,",
+        "con hãy bắt chàng kể sự thật.” Công chúa vâng lời. Cưới xong, nàng cứ im lặng mãi.",
+        "Hoàng tử hỏi, nàng chỉ đáp: “Chàng hãy cho em biết bí mật về sự ra đời của chàng.”",
+        "Hoàng tử buồn bã: “Nếu ta nói, nàng sẽ hối hận suốt đời.”"
+      ],
+      "image": {
+        "prompt": "a royal wedding chamber decorated with marigold garlands, a young princess sitting silent and turned away, the gentle prince holding out his hands to her with a sad questioning face",
+        "seed": 1767159461,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "marigold petals drift down, the prince speaks softly, the princess shakes her head and stays silent",
+        "seed": 904361304
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-mat-ben-song",
+      "title": "Bí mật bên sông",
+      "narrator": "ke-chuyen",
+      "narration": "Mấy tháng trôi qua, bí mật ấy như đám mây che giữa hai người. Cuối cùng hoàng tử bảo: “Nửa đêm nay ta sẽ nói, nếu nàng vẫn muốn.” Đêm đó, chàng đưa nàng cưỡi ngựa ra đúng khúc sông năm xưa bà lão nhặt được chiếc bình đồng. Chàng hỏi lại lần nữa: “Nàng vẫn muốn biết chứ?” “Vâng, chàng nói đi!” “Vậy thì nàng hãy biết: ta là con vua một xứ xa, bị phù phép hoá thành rắn.” Vừa dứt lời, hoàng tử biến mất. Công chúa nghe tiếng sột soạt, thấy mặt nước gợn lên, và dưới ánh trăng mờ, một con rắn lặng lẽ bơi ra giữa dòng. Nàng chờ mãi, chờ mãi, chồng nàng không trở lại.",
+      "subtitles": [
+        "Mấy tháng trôi qua, bí mật ấy như đám mây che giữa hai người.",
+        "Cuối cùng hoàng tử bảo: “Nửa đêm nay ta sẽ nói, nếu nàng vẫn muốn.”",
+        "Đêm đó,",
+        "chàng đưa nàng cưỡi ngựa ra đúng khúc sông năm xưa bà lão nhặt được chiếc bình đồng.",
+        "Chàng hỏi lại lần nữa: “Nàng vẫn muốn biết chứ?” “Vâng, chàng nói đi!”",
+        "“Vậy thì nàng hãy biết: ta là con vua một xứ xa, bị phù phép hoá thành rắn.”",
+        "Vừa dứt lời, hoàng tử biến mất.",
+        "Công chúa nghe tiếng sột soạt, thấy mặt nước gợn lên, và dưới ánh trăng mờ,",
+        "một con rắn lặng lẽ bơi ra giữa dòng. Nàng chờ mãi, chờ mãi, chồng nàng không trở lại."
+      ],
+      "image": {
+        "prompt": "a wide river under a faint moon, a princess on a white horse by the bank reaching out in sorrow, a slender green snake swimming away leaving silver ripples on the water",
+        "seed": 765816159,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "ripples spread across the moonlit water, the snake glides away, reeds sway in the night wind",
+        "seed": 3311268137
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhung-vet-bun",
+      "title": "Những vết bùn",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa xin dựng một ngôi nhà nhỏ bằng đá đen bên bờ sông, sống ở đó trong buồn bã, ngày đêm có lính canh. Năm năm trôi qua. Một sáng, nàng thấy trên thảm có một vệt bùn ướt. Lính canh thề chẳng ai vào được. Sáng hôm sau lại có vệt bùn. Đêm thứ ba, nàng quyết thức canh, cứ buồn ngủ là vốc nước lạnh lên mặt. Nửa đêm, nàng thấy một con rắn bò vào, miệng ngậm bùn sông, ngẩng đầu bên giường. Nàng run run hỏi: “Ai đó?” Con rắn đáp: “Ta là hoàng tử, chồng nàng đây. Nàng có hối hận không?” Nàng bật khóc: “Em hối hận lắm! Có cách nào cứu chàng không?” “Có một cách, nếu nàng đủ can đảm.”",
+      "subtitles": [
+        "Công chúa xin dựng một ngôi nhà nhỏ bằng đá đen bên bờ sông, sống ở đó trong buồn bã,",
+        "ngày đêm có lính canh. Năm năm trôi qua. Một sáng, nàng thấy trên thảm có một vệt bùn ướt.",
+        "Lính canh thề chẳng ai vào được. Sáng hôm sau lại có vệt bùn.",
+        "Đêm thứ ba, nàng quyết thức canh, cứ buồn ngủ là vốc nước lạnh lên mặt.",
+        "Nửa đêm, nàng thấy một con rắn bò vào, miệng ngậm bùn sông, ngẩng đầu bên giường.",
+        "Nàng run run hỏi: “Ai đó?” Con rắn đáp: “Ta là hoàng tử, chồng nàng đây.",
+        "Nàng có hối hận không?” Nàng bật khóc: “Em hối hận lắm! Có cách nào cứu chàng không?”",
+        "“Có một cách, nếu nàng đủ can đảm.”"
+      ],
+      "image": {
+        "prompt": "a small black stone house by the river at night, a princess sitting up in bed by a candle, a slender green snake raising its head gently at the bedside, both looking at each other with sad tenderness",
+        "seed": 359157477,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the candle flickers, the snake sways softly, the princess wipes her tears and leans forward",
+        "seed": 3293087594
+      },
+      "voice": {}
+    },
+    {
+      "id": "nu-hoang-ran",
+      "title": "Nữ hoàng Rắn",
+      "narrator": "ke-chuyen",
+      "narration": "Theo lời hoàng tử, vào đêm đã hẹn, công chúa đặt bốn bát sữa ngọt ở bốn góc phòng rồi đứng chặn ngay cửa. Nửa đêm, từ phía sông vang lên tiếng sột soạt rì rào. Hàng trăm con rắn bò về phía ngôi nhà, mắt sáng lấp lánh. Dẫn đầu là Nữ hoàng Rắn to lớn. Lính canh sợ quá bỏ chạy hết. Công chúa mặt tái đi, hai tay nắm chặt, nhưng vẫn đứng yên. Khi Nữ hoàng Rắn tới gần, nàng kêu lên: “Nữ hoàng Rắn ơi, xin trả chồng lại cho tôi!” Đàn rắn xì xào: “Chồng nàng ư? Chồng nàng ư?” Nữ hoàng Rắn trườn sát tới, đầu gần chạm mặt nàng. Nàng vẫn không lùi, nói lại lần nữa: “Nữ hoàng Rắn ơi, xin trả chồng lại cho tôi!” Nữ hoàng Rắn đáp: “Ngày mai nàng sẽ có chồng, ngày mai!”",
+      "subtitles": [
+        "Theo lời hoàng tử, vào đêm đã hẹn,",
+        "công chúa đặt bốn bát sữa ngọt ở bốn góc phòng rồi đứng chặn ngay cửa.",
+        "Nửa đêm, từ phía sông vang lên tiếng sột soạt rì rào.",
+        "Hàng trăm con rắn bò về phía ngôi nhà, mắt sáng lấp lánh. Dẫn đầu là Nữ hoàng Rắn to lớn.",
+        "Lính canh sợ quá bỏ chạy hết. Công chúa mặt tái đi, hai tay nắm chặt, nhưng vẫn đứng yên.",
+        "Khi Nữ hoàng Rắn tới gần, nàng kêu lên: “Nữ hoàng Rắn ơi, xin trả chồng lại cho tôi!”",
+        "Đàn rắn xì xào: “Chồng nàng ư? Chồng nàng ư?”",
+        "Nữ hoàng Rắn trườn sát tới, đầu gần chạm mặt nàng.",
+        "Nàng vẫn không lùi, nói lại lần nữa: “Nữ hoàng Rắn ơi, xin trả chồng lại cho tôi!”",
+        "Nữ hoàng Rắn đáp: “Ngày mai nàng sẽ có chồng, ngày mai!”"
+      ],
+      "image": {
+        "prompt": "a brave princess standing firm in a lit doorway with clasped hands, a large majestic snake queen with a tiny golden crown rising before her, many glittering snakes behind on the moonlit grass, bowls of milk in the room",
+        "seed": 691728305,
+        "character": "nu-hoang-ran"
+      },
+      "video": {
+        "motionPrompt": "the snakes sway and whisper, the snake queen rises and pauses, the princess stands still with brave shining eyes",
+        "seed": 1262952814
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoang-tu-tro-ve",
+      "title": "Hoàng tử trở về",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, công chúa thay bộ áo buồn đã mặc suốt năm năm, khoác lên áo đẹp. Nàng quét dọn nhà cửa, treo hoa, kết lá như sửa soạn ngày cưới. Tối đến, nàng thắp đèn lồng khắp vườn, bày một bàn tiệc, thắp cả nghìn ngọn nến. Đúng nửa đêm, từ dưới sông, hoàng tử bước lên, vừa cười vừa rưng rưng nước mắt. Nàng chạy ra ôm chầm lấy chàng, vừa khóc vừa cười. Hôm sau, hai người về cung, nhà vua già mừng rơi nước mắt. Chuông lại ngân vang, cả kinh thành lại mở hội. Bà lão vú nuôi năm xưa lại được trông các con của hoàng tử, dù bà đã già lắm rồi, chỉ còn biết thương yêu chúng. Hoàng tử và công chúa sau này lên làm vua, làm hoàng hậu, sống hạnh phúc rất lâu.",
+      "subtitles": [
+        "Sáng hôm sau, công chúa thay bộ áo buồn đã mặc suốt năm năm, khoác lên áo đẹp.",
+        "Nàng quét dọn nhà cửa, treo hoa, kết lá như sửa soạn ngày cưới.",
+        "Tối đến, nàng thắp đèn lồng khắp vườn, bày một bàn tiệc, thắp cả nghìn ngọn nến.",
+        "Đúng nửa đêm, từ dưới sông, hoàng tử bước lên, vừa cười vừa rưng rưng nước mắt.",
+        "Nàng chạy ra ôm chầm lấy chàng, vừa khóc vừa cười.",
+        "Hôm sau, hai người về cung, nhà vua già mừng rơi nước mắt.",
+        "Chuông lại ngân vang, cả kinh thành lại mở hội.",
+        "Bà lão vú nuôi năm xưa lại được trông các con của hoàng tử, dù bà đã già lắm rồi,",
+        "chỉ còn biết thương yêu chúng.",
+        "Hoàng tử và công chúa sau này lên làm vua, làm hoàng hậu, sống hạnh phúc rất lâu."
+      ],
+      "image": {
+        "prompt": "a garden glowing with a thousand candles and lanterns by the river at midnight, the prince stepping up from the water laughing, the princess in a bright festive sari running into his arms",
+        "seed": 1457539937,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "lanterns sway, candlelight sparkles on the river, the couple embraces and spins with joy",
+        "seed": 3956740271
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender Indian fairy tale melody, sarangi, bansuri flute and soft tanpura drone, a mysterious shimmering theme for the river at night, a joyful festive ending with light tabla and bells, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3847214667
+  }
+}

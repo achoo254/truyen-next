@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "slug": "than-lan-voi-ret",
+  "shelf": "kids",
+  "title": "Thằn lằn với rết",
+  "summary": "Thằn lằn rủ nhện, gián và rết cùng chúc nhà chủ mạnh khoẻ, nhưng rết lại buông lời trêu chọc. Hai bên cãi nhau, xô xát, và cả hai đều chuốc lấy khổ. Truyện cổ kể nhẹ nhàng cho trẻ nhỏ về lời nói tử tế và sự bao dung.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ nước Nam – Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ đổi kết: thằn lằn đớp rết, rết cắn lại rồi chui tọt vào khe gạch trốn mất, chứ không bị nuốt như bản gốc; thằn lằn bị sưng ngứa, ăn lá khoai thì khỏi. Thêm lời Mèo Miu mở đầu và kết thúc, đặt lời chúc của nhện và gián, thêm thoại, và rút ý nhẹ ở cuối.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, cozy old Vietnamese house corner with wooden beams, brick wall, a kitchen shelf and a sweet potato garden outside, warm evening light, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 78930657
+    },
+    {
+      "id": "than-lan",
+      "name": "Thằn lằn",
+      "seed": 1700177658,
+      "sheetPrompt": "a small brown house lizard with a long tail, big friendly eyes and a chatty expression, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ret",
+      "name": "Rết",
+      "seed": 1099149596,
+      "sheetPrompt": "a cartoon red-brown centipede with many little legs, cheeky grin, cute not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nhen-gian",
+      "name": "Nhện và gián",
+      "seed": 2789199945,
+      "sheetPrompt": "a small round cartoon spider with eight short legs and a little brown cockroach with long feelers standing side by side, cheerful and cute, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Trong nhà mình có biết bao nhiêu con vật bé xíu sống cùng đấy. Có thằn lằn trên tường, nhện giăng tơ trên xà, gián dưới bếp, và cả rết nhiều chân nữa. Một hôm, bốn con vật ấy gặp nhau, nói chuyện với nhau. Nhưng có một bạn ăn nói chẳng dễ nghe chút nào. Chuyện gì đã xảy ra? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Trong nhà mình có biết bao nhiêu con vật bé xíu sống cùng đấy.",
+        "Có thằn lằn trên tường, nhện giăng tơ trên xà, gián dưới bếp, và cả rết nhiều chân nữa.",
+        "Một hôm, bốn con vật ấy gặp nhau, nói chuyện với nhau.",
+        "Nhưng có một bạn ăn nói chẳng dễ nghe chút nào.",
+        "Chuyện gì đã xảy ra? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat stands in a cozy old Vietnamese house pointing up at a tiny lizard on the wall and a little spider on a beam, an open picture book on a wooden stool beside her",
+        "seed": 379257807
+      },
+      "video": {
+        "motionPrompt": "the cat points around the room, the lizard scurries, the spider swings on its thread, warm light flickers, slow gentle camera push-in",
+        "seed": 555658926
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-nhau",
+      "title": "Bốn con vật gặp nhau",
+      "narrator": "ke-chuyen",
+      "narration": "Một tối, thằn lằn gặp nhện, gián và rết ở góc nhà. Thằn lằn nói: Chúng mình ăn ở trong nhà ông chủ đã lâu, được ấm áp, có chỗ trú mưa. Vậy các bạn có chúc gì cho nhà chủ không? Nhện giăng tơ, nói ngay: Tôi chúc nhà chủ mạnh khoẻ, quanh năm vui vẻ! Gián vẫy râu: Tôi chúc nhà chủ thóc đầy bồ, gạo đầy chum! Thằn lằn gật gù, khen hay lắm.",
+      "subtitles": [
+        "Một tối, thằn lằn gặp nhện, gián và rết ở góc nhà.",
+        "Thằn lằn nói: Chúng mình ăn ở trong nhà ông chủ đã lâu, được ấm áp, có chỗ trú mưa.",
+        "Vậy các bạn có chúc gì cho nhà chủ không?",
+        "Nhện giăng tơ, nói ngay: Tôi chúc nhà chủ mạnh khoẻ, quanh năm vui vẻ!",
+        "Gián vẫy râu: Tôi chúc nhà chủ thóc đầy bồ, gạo đầy chum!",
+        "Thằn lằn gật gù, khen hay lắm."
+      ],
+      "image": {
+        "character": "than-lan",
+        "prompt": "in a cozy corner of an old Vietnamese house, a little lizard, a round spider on a thread, a brown cockroach and a cheeky centipede gather in a circle chatting, warm evening light from a small oil lamp",
+        "seed": 1233651531
+      },
+      "video": {
+        "motionPrompt": "the lizard nods, the spider sways on its thread and smiles, the cockroach waves its feelers, the centipede taps its many legs, lamp light flickers",
+        "seed": 251693405
+      },
+      "voice": {}
+    },
+    {
+      "id": "ret-treu",
+      "title": "Rết buông lời trêu",
+      "narrator": "ke-chuyen",
+      "narration": "Đến lượt rết. Rết nhe răng, chẳng chịu chúc gì, lại còn trêu: Chúc với chả tụng! Ta chỉ chúc cho thằn lằn đứt đuôi thôi! Thằn lằn nghe thế thì giận đỏ cả mặt: Rết ơi, đừng cậy mình lắm chân mà hỗn nhé! Rết vênh mặt: Thì đã sao nào? Nhện và gián vội can: Thôi, thôi, hai bạn đừng cãi nhau nữa! Nhưng chẳng ai chịu nghe ai cả.",
+      "subtitles": [
+        "Đến lượt rết.",
+        "Rết nhe răng, chẳng chịu chúc gì, lại còn trêu: Chúc với chả tụng!",
+        "Ta chỉ chúc cho thằn lằn đứt đuôi thôi!",
+        "Thằn lằn nghe thế thì giận đỏ cả mặt: Rết ơi, đừng cậy mình lắm chân mà hỗn nhé!",
+        "Rết vênh mặt: Thì đã sao nào?",
+        "Nhện và gián vội can: Thôi, thôi, hai bạn đừng cãi nhau nữa!",
+        "Nhưng chẳng ai chịu nghe ai cả."
+      ],
+      "image": {
+        "character": "ret",
+        "prompt": "a cheeky cartoon centipede grins and points at the lizard's tail, the little lizard puffs up with an angry red face, the spider and the cockroach raise their legs trying to calm them down",
+        "seed": 4139743477
+      },
+      "video": {
+        "motionPrompt": "the centipede wiggles and laughs, the lizard huffs and puffs, the spider and cockroach wave anxiously between them, comic timing",
+        "seed": 1332793463
+      },
+      "voice": {}
+    },
+    {
+      "id": "xo-xat",
+      "title": "Thằn lằn và rết xô xát",
+      "narrator": "ke-chuyen",
+      "narration": "Thằn lằn tức quá, nhảy ra đớp rết một cái. Rết cũng chẳng vừa, quay lại cắn trúng thằn lằn. Hai con vờn nhau một hồi, lăn từ góc tường xuống tận chân bếp. Rồi rết vội vàng chui tọt vào khe gạch, trốn biệt chẳng dám ló ra. Còn thằn lằn thì chỗ bị cắn cứ sưng tấy lên, nổi mẩn đỏ khắp mình, vừa đau vừa ngứa, nằm mệt lả bên bậc cửa.",
+      "subtitles": [
+        "Thằn lằn tức quá, nhảy ra đớp rết một cái.",
+        "Rết cũng chẳng vừa, quay lại cắn trúng thằn lằn.",
+        "Hai con vờn nhau một hồi, lăn từ góc tường xuống tận chân bếp.",
+        "Rồi rết vội vàng chui tọt vào khe gạch, trốn biệt chẳng dám ló ra.",
+        "Còn thằn lằn thì chỗ bị cắn cứ sưng tấy lên, nổi mẩn đỏ khắp mình, vừa đau vừa ngứa,",
+        "nằm mệt lả bên bậc cửa."
+      ],
+      "image": {
+        "character": "than-lan",
+        "prompt": "the little lizard lies tired by the doorstep with small red itchy spots on its skin, a cheeky centipede tail disappears into a crack between old bricks, the spider and cockroach peek worriedly",
+        "seed": 3822619092
+      },
+      "video": {
+        "motionPrompt": "the centipede's tail slips into the brick crack, the lizard scratches and sighs, the spider lowers itself to look, evening light dims softly",
+        "seed": 3012467551
+      },
+      "voice": {}
+    },
+    {
+      "id": "la-khoai",
+      "title": "Lá khoai chữa lành",
+      "narrator": "ke-chuyen",
+      "narration": "Thằn lằn nằm rên hừ hừ. Nhện lo lắng bảo: Bạn ơi, ra vườn khoai ngoài kia thử xem. Thằn lằn cố bò ra vườn, thấy lá khoai lang xanh mướt, liền ăn mấy lá. Lạ thay, chỉ một lát sau, chỗ sưng xẹp xuống, hết đau, hết ngứa. Thằn lằn thở phào: May quá! Từ nay ta chẳng thèm đôi co với kẻ ăn nói hỗn hào nữa. Các cụ bảo, ấy là ở hiền thì gặp lành.",
+      "subtitles": [
+        "Thằn lằn nằm rên hừ hừ.",
+        "Nhện lo lắng bảo: Bạn ơi, ra vườn khoai ngoài kia thử xem.",
+        "Thằn lằn cố bò ra vườn, thấy lá khoai lang xanh mướt, liền ăn mấy lá.",
+        "Lạ thay, chỉ một lát sau, chỗ sưng xẹp xuống, hết đau, hết ngứa.",
+        "Thằn lằn thở phào: May quá!",
+        "Từ nay ta chẳng thèm đôi co với kẻ ăn nói hỗn hào nữa.",
+        "Các cụ bảo, ấy là ở hiền thì gặp lành."
+      ],
+      "image": {
+        "character": "than-lan",
+        "prompt": "in a green sweet potato garden at dusk, the little lizard munches a fresh leaf and smiles in relief, its skin clear again, the little spider waves from a leaf above, fireflies around",
+        "seed": 2504188711
+      },
+      "video": {
+        "motionPrompt": "the lizard nibbles the leaf and stretches happily, the spider waves, sweet potato leaves sway, fireflies blink, soft light",
+        "seed": 4198784218
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, rết ăn nói hỗn hào nên phải trốn biệt, còn thằn lằn nóng giận xông vào cũng bị đau. Nghe bạn nói lời không hay, mình đừng vội đánh nhau, hãy bình tĩnh tránh đi, hoặc nhờ người lớn giúp. Và mình cũng nhớ nói những lời tử tế, như nhện và gián ấy. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, rết ăn nói hỗn hào nên phải trốn biệt,",
+        "còn thằn lằn nóng giận xông vào cũng bị đau.",
+        "Nghe bạn nói lời không hay, mình đừng vội đánh nhau, hãy bình tĩnh tránh đi,",
+        "hoặc nhờ người lớn giúp.",
+        "Và mình cũng nhớ nói những lời tử tế, như nhện và gián ấy.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye beside a sweet potato garden, the little lizard, the spider and the cockroach wave too, a cozy old house behind them, flowers around",
+        "seed": 3398368153
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the lizard flicks its tail happily, the spider swings, petals drift, gentle camera pull-back",
+        "seed": 1635559573
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "cozy Vietnamese folk tune, dan nguyet moon lute and soft bamboo flute with light wooden clappers, playful then soothing, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 954953935
+  }
+}

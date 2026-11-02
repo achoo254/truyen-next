@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "slug": "chuyen-bia-cua-bac-nong-dan",
+  "shelf": "world",
+  "title": "Chuyện bịa của bác nông dân",
+  "summary": "Lão chủ hiệu cho vay tham lam rủ bác nông dân thi kể chuyện bịa, ai tỏ ra không tin trước sẽ mất một trăm đồng. Lão kể chuyện một trăm lẻ một con lạc đà rơi vào mắt công chúa, còn bác nông dân kể chuyện ruộng lúa mì mọc trên lưng ngựa, khiến lão rơi vào thế khó. Truyện dân gian Punjab, Ấn Độ, trong tuyển tập của Andrew Lang, kể vui cho cả nhà.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"A Long-bow Story\" trong The Olive Fairy Book do Andrew Lang biên tập (1907; Lang ghi là chuyện kể truyền miệng xứ Punjab, Ấn Độ), Project Gutenberg #27826, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Punjab (Ấn Độ), Andrew Lang chép (1907)",
+  "style": "classic Indian folk tale picture book illustration inspired by Punjabi village life and Mughal miniature painting, dusty country road between golden wheat fields, camels and village huts, whimsical exaggerated story bubbles, soft gouache textures, colors of saffron, ochre, turquoise and wheat gold, warm humorous mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chu-hieu",
+      "name": "Lão chủ hiệu",
+      "sheetPrompt": "a plump greedy grain merchant and moneylender from an old Punjabi folk tale, white turban, round belly, cream kurta with a gold embroidered waistcoat, small ledger book, calculating eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1620967240
+    },
+    {
+      "id": "bac-nong-dan",
+      "name": "Bác nông dân",
+      "sheetPrompt": "a calm clever Punjabi farmer from an old folk tale, simple orange turban, grey beard, plain white kurta and dhoti, wooden walking stick, patient knowing smile, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1910829060
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hai-nguoi-chung-duong",
+      "title": "Hai người chung đường",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở xứ Punjab, có một lão chủ hiệu buôn lúa kiêm cho vay nặng lãi đang đi trên đường làng. Lão tiếc rẻ vì cả ngày chưa kiếm được đồng nào. Thấy một bác nông dân đi phía trước, lão sáng mắt lên: \"May quá, để xem gã này có moi được gì không.\" Lão rảo bước đuổi theo, chào hỏi rất ngọt ngào. \"Đi chung với bác thì đường xa hóa gần. Nhưng ta nói chuyện gì nhỉ?\" Lão bày trò: \"Mỗi người kể một chuyện bịa thật khó tin. Ai tỏ ra nghi ngờ chuyện của người kia trước thì phải trả người kia một trăm đồng.\" Bác nông dân đồng ý, mời lão kể trước, và tự nhủ dù chuyện vô lý thế nào cũng không hé môi nghi ngờ.",
+      "subtitles": [
+        "Ngày xưa, ở xứ Punjab,",
+        "có một lão chủ hiệu buôn lúa kiêm cho vay nặng lãi đang đi trên đường làng.",
+        "Lão tiếc rẻ vì cả ngày chưa kiếm được đồng nào.",
+        "Thấy một bác nông dân đi phía trước, lão sáng mắt lên: \"May quá,",
+        "để xem gã này có moi được gì không.\" Lão rảo bước đuổi theo, chào hỏi rất ngọt ngào.",
+        "\"Đi chung với bác thì đường xa hóa gần. Nhưng ta nói chuyện gì nhỉ?\"",
+        "Lão bày trò: \"Mỗi người kể một chuyện bịa thật khó tin.",
+        "Ai tỏ ra nghi ngờ chuyện của người kia trước thì phải trả người kia một trăm đồng.\"",
+        "Bác nông dân đồng ý, mời lão kể trước,",
+        "và tự nhủ dù chuyện vô lý thế nào cũng không hé môi nghi ngờ."
+      ],
+      "image": {
+        "prompt": "a dusty Punjabi country road between golden wheat fields, a plump merchant in a white turban hurrying to catch up with a calm farmer with a walking stick, both greeting each other politely",
+        "seed": 2648206072,
+        "character": "chu-hieu"
+      },
+      "video": {
+        "motionPrompt": "dust swirls lightly on the road, wheat sways in the breeze, the merchant bows with a sly smile",
+        "seed": 3600966521
+      },
+      "voice": {}
+    },
+    {
+      "id": "mot-tram-le-mot-con-lac-da",
+      "title": "Một trăm lẻ một con lạc đà",
+      "narrator": "ke-chuyen",
+      "narration": "\"Có lần ta đi trên con đường này, gặp một thương nhân dắt đoàn lạc đà chở đầy hàng,\" lão chủ hiệu bắt đầu. \"Chắc vậy, tôi cũng từng thấy,\" bác nông dân gật gù. \"Những một trăm lẻ một con, buộc mũi con này vào đuôi con kia, dài gần một dặm.\" \"Rồi sao nữa?\" \"Một con diều hâu sà xuống quắp con lạc đà đầu tiên bay lên trời. Vì buộc liền nhau, cả trăm con kia cũng bị kéo bay theo!\" \"Con diều hâu khỏe ghê thật,\" bác nông dân nói. \"Mà nó mang lạc đà đi đâu?\" \"Bác không tin à?\" lão hỏi dồn. \"Tin chứ, tin chứ!\" bác đáp ngay.",
+      "subtitles": [
+        "\"Có lần ta đi trên con đường này,",
+        "gặp một thương nhân dắt đoàn lạc đà chở đầy hàng,\" lão chủ hiệu bắt đầu.",
+        "\"Chắc vậy, tôi cũng từng thấy,\" bác nông dân gật gù.",
+        "\"Những một trăm lẻ một con, buộc mũi con này vào đuôi con kia, dài gần một dặm.\"",
+        "\"Rồi sao nữa?\" \"Một con diều hâu sà xuống quắp con lạc đà đầu tiên bay lên trời.",
+        "Vì buộc liền nhau, cả trăm con kia cũng bị kéo bay theo!\"",
+        "\"Con diều hâu khỏe ghê thật,\" bác nông dân nói. \"Mà nó mang lạc đà đi đâu?\"",
+        "\"Bác không tin à?\" lão hỏi dồn. \"Tin chứ, tin chứ!\" bác đáp ngay."
+      ],
+      "image": {
+        "prompt": "a whimsical sky scene of a large kite bird carrying a long chain of one hundred and one camels tied nose to tail up into the clouds over Punjabi fields, the merchant telling the story with big gestures",
+        "seed": 533136075,
+        "character": "chu-hieu"
+      },
+      "video": {
+        "motionPrompt": "the kite bird flaps its wings as the line of camels swings through the sky like a long ribbon",
+        "seed": 2846086024
+      },
+      "voice": {}
+    },
+    {
+      "id": "hat-bui-trong-mat",
+      "title": "Hạt bụi trong mắt công chúa",
+      "narrator": "ke-chuyen",
+      "narration": "\"Lúc ấy, công chúa nước bên đang ngồi trong vườn cho thị nữ chải tóc, đầu ngửa ra sau. Đúng lúc diều hâu bay ngang, lũ lạc đà giãy mạnh, nó tuột tay. Cả một trăm lẻ một con lạc đà rơi trúng vào mắt trái của công chúa!\" \"Tội nghiệp,\" bác nông dân nói, \"có gì trong mắt là cay lắm.\" \"Công chúa kêu lên: 'Ôi, có gì trong mắt ta, cay quá!' Thị nữ chạy lại, lật mí mắt, lôi ra một con lạc đà, bỏ vào túi. Rồi cô xoắn góc khăn, khều thêm một trăm con nữa, bỏ hết vào túi.\" Lão thở hổn hển: \"Hết rồi. Bác thấy sao?\" \"Tuyệt lắm, chắc chắn là chuyện thật!\"",
+      "subtitles": [
+        "\"Lúc ấy, công chúa nước bên đang ngồi trong vườn cho thị nữ chải tóc, đầu ngửa ra sau.",
+        "Đúng lúc diều hâu bay ngang, lũ lạc đà giãy mạnh, nó tuột tay.",
+        "Cả một trăm lẻ một con lạc đà rơi trúng vào mắt trái của công chúa!\"",
+        "\"Tội nghiệp,\" bác nông dân nói, \"có gì trong mắt là cay lắm.\"",
+        "\"Công chúa kêu lên: 'Ôi, có gì trong mắt ta, cay quá!' Thị nữ chạy lại, lật mí mắt,",
+        "lôi ra một con lạc đà, bỏ vào túi.",
+        "Rồi cô xoắn góc khăn, khều thêm một trăm con nữa, bỏ hết vào túi.\"",
+        "Lão thở hổn hển: \"Hết rồi. Bác thấy sao?\" \"Tuyệt lắm, chắc chắn là chuyện thật!\""
+      ],
+      "image": {
+        "prompt": "a lovely palace garden with a princess sitting while her maid gently combs her hair, the maid playfully pulling tiny camels out of the corner of the princess eye with a twisted cloth and dropping them into her pocket, humorous and whimsical",
+        "seed": 3075237662,
+        "character": "chu-hieu"
+      },
+      "video": {
+        "motionPrompt": "tiny camels tumble one by one into the maid pocket, the princess blinks, flower petals drift by",
+        "seed": 552189587
+      },
+      "voice": {}
+    },
+    {
+      "id": "ruong-lua-tren-lung-ngua",
+      "title": "Ruộng lúa trên lưng ngựa",
+      "narrator": "ke-chuyen",
+      "narration": "\"Giờ đến lượt bác,\" lão chủ hiệu nói. Bác nông dân thong thả kể: \"Cha tôi hồi ấy khá giả lắm, có bò, có trâu, có dê. Nhưng ông quý nhất con ngựa cái.\" \"Rồi sao, kể nhanh lên!\" \"Đừng giục tôi. Một hôm, cha cưỡi ngựa đi chợ bằng cái yên rách, cọ vào lưng ngựa thành một vết xước to bằng bàn tay. Tháng Sáu gió bụi mưa nắng, bụi bay vào chỗ xước, lẫn cả vài hạt lúa mì. Thế rồi hạt lúa nảy mầm, lớn lên.\" \"Lúa mì gặp dịp là mọc thôi,\" lão chủ hiệu nói. \"Phải. Rồi trên lưng ngựa mọc cả một cánh đồng lúa mì, phải thuê hai mươi người gặt, được bốn trăm bao.\" \"Mùa được đấy,\" lão lẩm bẩm.",
+      "subtitles": [
+        "\"Giờ đến lượt bác,\" lão chủ hiệu nói.",
+        "Bác nông dân thong thả kể: \"Cha tôi hồi ấy khá giả lắm, có bò, có trâu, có dê.",
+        "Nhưng ông quý nhất con ngựa cái.\" \"Rồi sao, kể nhanh lên!\" \"Đừng giục tôi.",
+        "Một hôm, cha cưỡi ngựa đi chợ bằng cái yên rách,",
+        "cọ vào lưng ngựa thành một vết xước to bằng bàn tay.",
+        "Tháng Sáu gió bụi mưa nắng, bụi bay vào chỗ xước, lẫn cả vài hạt lúa mì.",
+        "Thế rồi hạt lúa nảy mầm, lớn lên.\" \"Lúa mì gặp dịp là mọc thôi,\" lão chủ hiệu nói. \"Phải.",
+        "Rồi trên lưng ngựa mọc cả một cánh đồng lúa mì, phải thuê hai mươi người gặt,",
+        "được bốn trăm bao.\" \"Mùa được đấy,\" lão lẩm bẩm."
+      ],
+      "image": {
+        "prompt": "a whimsical scene of a gentle mare with a whole golden wheat field growing on her back, twenty tiny farmers with sickles harvesting the wheat while the mare stands patiently, a Punjabi village in the background",
+        "seed": 576750767,
+        "character": "bac-nong-dan"
+      },
+      "video": {
+        "motionPrompt": "the golden wheat on the mare back sways in the wind, tiny reapers bundle sheaves, the mare flicks her tail",
+        "seed": 76081209
+      },
+      "voice": {}
+    },
+    {
+      "id": "mon-no-ngay-xua",
+      "title": "Món nợ ngày xưa",
+      "narrator": "ke-chuyen",
+      "narration": "\"Rồi cha của ông,\" bác nông dân kể tiếp, \"hồi ấy nghèo rớt mồng tơi, đến chắp tay xin cha tôi.\" Lão chủ hiệu khịt mũi, nhưng cắn môi im lặng. \"'Cả tuần nay tôi chưa có miếng ăn. Xin ông cho vay mười sáu bao lúa mì, rồi tôi sẽ trả.' Cha tôi bảo: 'Được thôi, cứ lấy, trả được lúc nào thì trả.'\" \"Rồi sao?\" lão chủ hiệu hỏi, mắt long lên. \"Thì ông ấy mang lúa về, nhưng chẳng bao giờ trả. Món nợ ấy đến giờ vẫn còn. Nhiều lúc tôi cũng định kiện đòi đây.\" Lão chủ hiệu tức đỏ mặt, nhưng không dám nói chuyện ấy là bịa.",
+      "subtitles": [
+        "\"Rồi cha của ông,\" bác nông dân kể tiếp, \"hồi ấy nghèo rớt mồng tơi,",
+        "đến chắp tay xin cha tôi.\" Lão chủ hiệu khịt mũi, nhưng cắn môi im lặng.",
+        "\"'Cả tuần nay tôi chưa có miếng ăn.",
+        "Xin ông cho vay mười sáu bao lúa mì, rồi tôi sẽ trả.' Cha tôi bảo: 'Được thôi, cứ lấy,",
+        "trả được lúc nào thì trả.'\" \"Rồi sao?\" lão chủ hiệu hỏi, mắt long lên.",
+        "\"Thì ông ấy mang lúa về, nhưng chẳng bao giờ trả. Món nợ ấy đến giờ vẫn còn.",
+        "Nhiều lúc tôi cũng định kiện đòi đây.\"",
+        "Lão chủ hiệu tức đỏ mặt, nhưng không dám nói chuyện ấy là bịa."
+      ],
+      "image": {
+        "prompt": "the calm farmer telling his story with a twinkle in his eye while the plump merchant beside him turns red and bites his lip, golden fields and a village well behind them",
+        "seed": 634453692,
+        "character": "bac-nong-dan"
+      },
+      "video": {
+        "motionPrompt": "the merchant fumes and fidgets, the farmer strokes his beard calmly, birds fly over the fields",
+        "seed": 3194649233
+      },
+      "voice": {}
+    },
+    {
+      "id": "tra-lua-hay-tra-tien",
+      "title": "Trả lúa hay trả tiền",
+      "narrator": "ke-chuyen",
+      "narration": "Lão chủ hiệu bắt đầu lấy ngón cái lướt nhanh trên các đốt ngón tay, môi lẩm nhẩm tính. \"Ông làm gì thế?\" bác nông dân hỏi. Lão thở dài cam chịu: \"Lúa mì rẻ hơn. Ta trả bác số lúa mì.\" Lão hiểu rằng nếu bảo chuyện kia là bịa, theo chính luật chơi của mình, lão sẽ mất trăm đồng. Còn nhận là thật thì phải trả món nợ của cha. Từ đó, ở vùng ấy, hễ ai đòi nợ, người ta lại nói vui: \"Trả tiền cho tôi, không thì ít ra cũng trả lúa mì.\"",
+      "subtitles": [
+        "Lão chủ hiệu bắt đầu lấy ngón cái lướt nhanh trên các đốt ngón tay, môi lẩm nhẩm tính.",
+        "\"Ông làm gì thế?\" bác nông dân hỏi. Lão thở dài cam chịu: \"Lúa mì rẻ hơn.",
+        "Ta trả bác số lúa mì.\"",
+        "Lão hiểu rằng nếu bảo chuyện kia là bịa, theo chính luật chơi của mình,",
+        "lão sẽ mất trăm đồng. Còn nhận là thật thì phải trả món nợ của cha.",
+        "Từ đó, ở vùng ấy, hễ ai đòi nợ, người ta lại nói vui: \"Trả tiền cho tôi,",
+        "không thì ít ra cũng trả lúa mì.\""
+      ],
+      "image": {
+        "prompt": "the plump merchant counting on his fingers with a defeated sigh, handing over sacks of wheat to the smiling farmer at the edge of a village, villagers chuckling nearby",
+        "seed": 2434327975,
+        "character": "chu-hieu"
+      },
+      "video": {
+        "motionPrompt": "the merchant counts on his fingers, sacks of wheat are carried over, villagers laugh and nod",
+        "seed": 485008344
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light playful Indian folk instrumental, sitar, bansuri flute and tabla, Punjabi village feel, humorous storytelling mood, moderate tempo, no vocals",
+    "durationSeconds": 120,
+    "seed": 3890153188
+  }
+}

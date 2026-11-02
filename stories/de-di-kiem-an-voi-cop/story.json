@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "slug": "de-di-kiem-an-voi-cop",
+  "shelf": "kids",
+  "title": "Dê đi kiếm ăn với cọp",
+  "summary": "Chú dê muốn được chia phần nên xin theo hầu nhà cọp, rồi đang tâm lừa bác hươu cùng làng. Đến lúc chia phần, cọp cứ lấy dần cho tới khi dê chẳng còn gì. Truyện ngụ ngôn Việt về chuyện bỏ bạn theo kẻ mạnh, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Dê đi kiếm ăn với cọp» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: việc cọp vồ hươu chỉ kể vòng là hươu không bao giờ về rừng nữa, không tả cảnh ăn. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, a deep green tropical forest with ferns, vines and sunny clearings, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 2544803644,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cop",
+      "name": "Ông cọp",
+      "seed": 3522815796,
+      "sheetPrompt": "a big orange striped tiger with a bossy greedy grin, round cartoon style, not scary, cute, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "beo",
+      "name": "Bà beo",
+      "seed": 1053914897,
+      "sheetPrompt": "a spotted golden leopard mother with a calm proud face, round cartoon style, not scary, cute, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "de",
+      "name": "Chú dê",
+      "seed": 253316141,
+      "sheetPrompt": "a small white goat with little horns, a tiny beard and a flattering eager smile, cute rounded storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "huou",
+      "name": "Bác hươu",
+      "seed": 2722205678,
+      "sheetPrompt": "a gentle spotted brown deer with kind honest eyes and small antlers, cute rounded storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Có một chú dê nghĩ rằng: Đi theo ông cọp thật mạnh, chắc mình sẽ được chia phần to. Để được lòng cọp, dê còn làm một việc không tốt với người bạn cùng làng. Thế rồi dê có được chia phần to không nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Có một chú dê nghĩ rằng:",
+        "Đi theo ông cọp thật mạnh, chắc mình sẽ được chia phần to.",
+        "Để được lòng cọp, dê còn làm một việc không tốt với người bạn cùng làng.",
+        "Thế rồi dê có được chia phần to không nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a mossy log at the edge of a green forest holding a picture book, a little white goat and a gentle deer peeking from behind ferns",
+        "seed": 3057330475
+      },
+      "video": {
+        "motionPrompt": "the cat opens the book and smiles, the goat and the deer peek out and blink, leaves flutter in sunbeams, slow camera push-in",
+        "seed": 773513434
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-cop",
+      "title": "Nhà cọp đi kiếm ăn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có ông cọp sống một mình trong bụi rậm, buồn lắm. Một hôm cọp gặp bà beo, hai bên trò chuyện hợp ý, bèn lấy nhau làm vợ chồng, rồi sinh được ba đứa con nhỏ. Nhà đông, quanh chỗ ở mỗi ngày một hết cái ăn. Bà beo bảo: Mình ở mãi đây thì đói mất, phải đi tìm chỗ khác thôi. Thế là cả nhà năm con dắt nhau lên đường.",
+      "subtitles": [
+        "Ngày xưa, có ông cọp sống một mình trong bụi rậm, buồn lắm. Một hôm cọp gặp bà beo,",
+        "hai bên trò chuyện hợp ý, bèn lấy nhau làm vợ chồng, rồi sinh được ba đứa con nhỏ.",
+        "Nhà đông, quanh chỗ ở mỗi ngày một hết cái ăn.",
+        "Bà beo bảo: Mình ở mãi đây thì đói mất, phải đi tìm chỗ khác thôi.",
+        "Thế là cả nhà năm con dắt nhau lên đường."
+      ],
+      "image": {
+        "character": "cop",
+        "prompt": "a tiger and a leopard walk side by side through the forest followed by three small playful cubs in a row, sunlight through tall trees",
+        "seed": 900871856
+      },
+      "video": {
+        "motionPrompt": "the family walks along the forest path, the cubs tumble and play behind, ferns sway, gentle camera tracking",
+        "seed": 2488692802
+      },
+      "voice": {}
+    },
+    {
+      "id": "de-xin-theo",
+      "title": "Dê xin theo hầu",
+      "narrator": "ke-chuyen",
+      "narration": "Đi được một quãng, gặp một chú dê. Dê lon ton chạy lại, cúi chào thật thấp: Chào ông! Ông đi đâu mà dẫn cả bà và các cô các cậu đi thế ạ? Nếu ông cần, tôi xin theo hầu, sai gì tôi làm nấy. Cọp gật gù: Chúng tao đi kiếm ăn. Mày muốn theo thì cứ theo. Dê mừng rơn, nghĩ bụng: Theo ông cọp thế này, thể nào mình cũng được ăn no.",
+      "subtitles": [
+        "Đi được một quãng, gặp một chú dê. Dê lon ton chạy lại, cúi chào thật thấp:",
+        "Chào ông! Ông đi đâu mà dẫn cả bà và các cô các cậu đi thế ạ?",
+        "Nếu ông cần, tôi xin theo hầu, sai gì tôi làm nấy.",
+        "Cọp gật gù: Chúng tao đi kiếm ăn. Mày muốn theo thì cứ theo.",
+        "Dê mừng rơn, nghĩ bụng: Theo ông cọp thế này, thể nào mình cũng được ăn no."
+      ],
+      "image": {
+        "character": "de",
+        "prompt": "a small white goat bows very low with a flattering smile in front of the big tiger, the leopard and three cubs watching curiously on a forest path",
+        "seed": 2979300326
+      },
+      "video": {
+        "motionPrompt": "the goat bows again and again, the tiger nods proudly, the cubs giggle, leaves drift down, comic timing",
+        "seed": 321784802
+      },
+      "voice": {}
+    },
+    {
+      "id": "chan-duong-huou",
+      "title": "Dê chặn đường bác hươu",
+      "narrator": "ke-chuyen",
+      "narration": "Đi hết khu rừng, cọp thấy xa xa có bác hươu đang gặm cỏ. Cọp bảo dê: Mày với nó cùng một làng, mày phải giữ nó lại cho tao. Hươu thấy cọp, vội chạy, thì dê ra đứng chắn ngay giữa đường. Hươu ngạc nhiên: Chú với tôi cùng họ cùng làng, sao chú lại chặn đường tôi? Dê nói ngọt: Không đâu, tôi đến để giúp bác. Bác cứ đứng lại nói chuyện, chẳng sao đâu.",
+      "subtitles": [
+        "Đi hết khu rừng, cọp thấy xa xa có bác hươu đang gặm cỏ. Cọp bảo dê:",
+        "Mày với nó cùng một làng, mày phải giữ nó lại cho tao.",
+        "Hươu thấy cọp, vội chạy, thì dê ra đứng chắn ngay giữa đường. Hươu ngạc nhiên:",
+        "Chú với tôi cùng họ cùng làng, sao chú lại chặn đường tôi?",
+        "Dê nói ngọt: Không đâu, tôi đến để giúp bác. Bác cứ đứng lại nói chuyện, chẳng sao đâu."
+      ],
+      "image": {
+        "character": "huou",
+        "prompt": "a small white goat stands in the middle of a forest path blocking a gentle spotted deer, smiling sweetly, while the tiger's striped tail peeks from bushes far behind",
+        "seed": 944679924
+      },
+      "video": {
+        "motionPrompt": "the deer stops and looks puzzled, the goat spreads his little legs and smiles, the bushes behind rustle quietly, slow camera move",
+        "seed": 691242757
+      },
+      "voice": {}
+    },
+    {
+      "id": "huou-di-mai",
+      "title": "Bác hươu không về nữa",
+      "narrator": "ke-chuyen",
+      "narration": "Hươu còn đang ngần ngừ, thì cọp đã lẻn tới sau lưng, nhanh như chớp. Hươu buồn bã bảo dê: Chú hại tôi rồi! Thôi, chú cũng mau mau tránh đi, kẻo cọp không tha cho chú đâu. Cọp vồ lấy hươu, và từ hôm ấy, bác hươu hiền lành không bao giờ về rừng nữa. Cọp chia phần ra làm ba: Tao một phần, bà ấy và các con một phần, còn mày một phần.",
+      "subtitles": [
+        "Hươu còn đang ngần ngừ, thì cọp đã lẻn tới sau lưng, nhanh như chớp. Hươu buồn bã bảo dê:",
+        "Chú hại tôi rồi! Thôi, chú cũng mau mau tránh đi, kẻo cọp không tha cho chú đâu.",
+        "Cọp vồ lấy hươu, và từ hôm ấy, bác hươu hiền lành không bao giờ về rừng nữa.",
+        "Cọp chia phần ra làm ba: Tao một phần, bà ấy và các con một phần, còn mày một phần."
+      ],
+      "image": {
+        "character": "cop",
+        "prompt": "the big tiger leaps out from tall ferns in a burst of leaves, the goat jumps aside in surprise, the deer's antlers glimpsed fleeing into the shadows, soft and not violent",
+        "seed": 1225966593
+      },
+      "video": {
+        "motionPrompt": "leaves burst into the air as the tiger pounces forward, the goat hops aside and covers his eyes, the scene fades into swirling leaves",
+        "seed": 3729963681
+      },
+      "voice": {}
+    },
+    {
+      "id": "chia-phan",
+      "title": "Phần của dê",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà cọp ăn một loáng là hết. Dê thì nhai mãi mới được một tí. Cọp bảo: Mày ăn chậm quá, chia ba phần của mày ra, tao ăn giúp hai phần. Dê tiếc lắm, nhưng đành vâng. Một lúc sau, cọp lại bảo: Bà ấy với các con còn thèm, đưa thêm đây. Dê năn nỉ: Ông để cho tôi chút này, tôi cũng có công đấy ạ. Cọp gầm lên: Công gì mày! Không đưa nốt thì tao ăn cả mày bây giờ! Dê run cầm cập, dâng nốt phần còn lại, rồi lủi thủi đi về, bụng đói meo.",
+      "subtitles": [
+        "Nhà cọp ăn một loáng là hết. Dê thì nhai mãi mới được một tí.",
+        "Cọp bảo: Mày ăn chậm quá, chia ba phần của mày ra, tao ăn giúp hai phần.",
+        "Dê tiếc lắm, nhưng đành vâng. Một lúc sau,",
+        "cọp lại bảo: Bà ấy với các con còn thèm, đưa thêm đây.",
+        "Dê năn nỉ: Ông để cho tôi chút này, tôi cũng có công đấy ạ.",
+        "Cọp gầm lên: Công gì mày! Không đưa nốt thì tao ăn cả mày bây giờ!",
+        "Dê run cầm cập, dâng nốt phần còn lại, rồi lủi thủi đi về, bụng đói meo."
+      ],
+      "image": {
+        "character": "de",
+        "prompt": "a sad little white goat holds out an empty leaf plate to the big bossy tiger, the leopard and three cubs sit with round full bellies in a forest clearing",
+        "seed": 3451955454
+      },
+      "video": {
+        "motionPrompt": "the tiger snatches the leaf plate and grins, the goat's ears droop, he turns and trudges away down the path, the cubs yawn happily",
+        "seed": 1681782862
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, dê bỏ bạn cùng làng để chiều lòng kẻ mạnh, mà cuối cùng chẳng được gì. Kẻ chỉ biết lấy phần của người khác, thì có cho bao nhiêu cũng không đủ. Mình hãy luôn thật lòng với bạn bè, và đừng bao giờ vì một miếng ngon mà làm hại bạn nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, dê bỏ bạn cùng làng để chiều lòng kẻ mạnh, mà cuối cùng chẳng được gì.",
+        "Kẻ chỉ biết lấy phần của người khác, thì có cho bao nhiêu cũng không đủ.",
+        "Mình hãy luôn thật lòng với bạn bè, và đừng bao giờ vì một miếng ngon mà làm hại bạn nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the edge of a sunny forest meadow, butterflies around, a gentle deer grazing far away on a green hill",
+        "seed": 2564453639
+      },
+      "video": {
+        "motionPrompt": "the cat waves, butterflies flutter, grass ripples in the breeze, warm sunset light, gentle camera pull-back",
+        "seed": 2933818817
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "Vietnamese folk melody with bamboo flute and dan bau, soft wooden percussion and low drum hints for the tiger, curious then thoughtful, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4259737481
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-chanh-chanh-va-con-cha-cha",
+  "shelf": "kids",
+  "title": "Con chanh chanh và con chả chả",
+  "summary": "Năm đói kém, chim Chanh vay gạo của bạn thân là chim Chả rồi lại không chịu trả. Chả đi kiện, gặp thầy vạc đòi «bạc! bạc!», thầy vịt dọa «kẹp! kẹp!», đành về làm lành. Truyện cổ vui giải thích tiếng chim «trả trả» và «chanh chanh», kể cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Con chanh-chanh và con chả-chả» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ kể Chanh và Chả là hai chú chim. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, thoại giữa hai bạn được viết rộng ra, lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, playful and safe mood for young children, a village pond with lotus leaves, bamboo groves and little thatched bird houses, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 1319337008,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chanh",
+      "name": "Chim Chanh",
+      "seed": 184741853,
+      "sheetPrompt": "a small olive-green songbird with a round belly, a sheepish shifty smile and a tiny scarf, cute rounded storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cha",
+      "name": "Chim Chả",
+      "seed": 2065274274,
+      "sheetPrompt": "a small bright blue kingfisher with an orange chest and a big beak, honest and a bit grumpy face, cute rounded storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "thay-vac",
+      "name": "Thầy vạc",
+      "seed": 181369230,
+      "sheetPrompt": "a grey night heron dressed as an old village judge with a black hat and robe, greedy little eyes, comical, not scary, cute rounded storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "thay-vit",
+      "name": "Thầy vịt",
+      "seed": 1996609437,
+      "sheetPrompt": "a plump white duck dressed as a pompous judge with a red hat, flat beak open wide, comical, not scary, cute rounded storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Ra bờ ao, có khi các bạn nghe một chú chim kêu: Trả! Trả! Trả! Lập tức chú chim khác đáp lại: Chanh! Chanh! Chanh! Nghe như hai bạn đang cãi nhau ấy nhỉ? Ngày xưa, hai chú chim ấy vốn là đôi bạn thân đấy. Vì sao lại thành ra thế này? Miu kể các bạn nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Ra bờ ao, có khi các bạn nghe một chú chim kêu: Trả! Trả! Trả!",
+        "Lập tức chú chim khác đáp lại: Chanh! Chanh! Chanh! Nghe như hai bạn đang cãi nhau ấy nhỉ?",
+        "Ngày xưa, hai chú chim ấy vốn là đôi bạn thân đấy. Vì sao lại thành ra thế này?",
+        "Miu kể các bạn nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits by a village pond with lotus leaves, cupping a paw to her ear, a green songbird and a blue kingfisher on two bamboo branches facing each other",
+        "seed": 552974356
+      },
+      "video": {
+        "motionPrompt": "the cat tilts her head listening, the two birds open their beaks in turn, lotus leaves bob on the water, slow camera push-in",
+        "seed": 1504471671
+      },
+      "voice": {}
+    },
+    {
+      "id": "vay-gao",
+      "title": "Chanh sang vay gạo",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, chim Chanh và chim Chả là đôi bạn thân, đi đâu cũng có nhau. Rồi một năm trời làm mất mùa, nhà Chanh chẳng còn hạt gạo nào. Chanh bay sang nhà Chả, rụt rè nói: Bạn ơi, cho mình vay ít gạo, ít tiền. Sang năm được mùa, mình xin trả đủ. Chả nghe thương bạn quá, đong ngay cho một túi gạo đầy, lại cho thêm mấy đồng tiền. Chanh cảm ơn rối rít.",
+      "subtitles": [
+        "Ngày xưa, chim Chanh và chim Chả là đôi bạn thân, đi đâu cũng có nhau.",
+        "Rồi một năm trời làm mất mùa, nhà Chanh chẳng còn hạt gạo nào.",
+        "Chanh bay sang nhà Chả, rụt rè nói: Bạn ơi, cho mình vay ít gạo, ít tiền.",
+        "Sang năm được mùa, mình xin trả đủ. Chả nghe thương bạn quá,",
+        "đong ngay cho một túi gạo đầy, lại cho thêm mấy đồng tiền. Chanh cảm ơn rối rít."
+      ],
+      "image": {
+        "character": "cha",
+        "prompt": "the blue kingfisher kindly pours rice into a small cloth bag held by the green songbird inside a cozy thatched bird house, a few coins on a little table",
+        "seed": 4264995338
+      },
+      "video": {
+        "motionPrompt": "rice grains pour into the bag, the green bird bows again and again, the kingfisher smiles warmly, soft light, gentle camera pan",
+        "seed": 1033888599
+      },
+      "voice": {}
+    },
+    {
+      "id": "khong-tra",
+      "title": "Đến hẹn không trả",
+      "narrator": "ke-chuyen",
+      "narration": "Năm sau lúa lại xanh tốt, Chanh có ăn có để. Đến hẹn, Chả sang nhà Chanh đòi gạo. Chanh lại ngoảnh mặt đi: Gạo nào? Tiền nào? Mình có vay bạn bao giờ đâu! Chả sững sờ: Sao bạn lại nói thế? Năm ngoái mình đong cho bạn cả một túi đầy cơ mà! Chanh cứ lắc đầu chối mãi. Chả tức quá, bảo: Được, mình sẽ đi kiện, để quan xét xem ai đúng ai sai!",
+      "subtitles": [
+        "Năm sau lúa lại xanh tốt, Chanh có ăn có để. Đến hẹn, Chả sang nhà Chanh đòi gạo.",
+        "Chanh lại ngoảnh mặt đi: Gạo nào? Tiền nào? Mình có vay bạn bao giờ đâu!",
+        "Chả sững sờ: Sao bạn lại nói thế? Năm ngoái mình đong cho bạn cả một túi đầy cơ mà!",
+        "Chanh cứ lắc đầu chối mãi. Chả tức quá, bảo:",
+        "Được, mình sẽ đi kiện, để quan xét xem ai đúng ai sai!"
+      ],
+      "image": {
+        "character": "chanh",
+        "prompt": "the green songbird turns his head away with his wings crossed, while the blue kingfisher stands at his door looking shocked and upset, sacks of rice stacked behind the green bird",
+        "seed": 3212834479
+      },
+      "video": {
+        "motionPrompt": "the green bird shakes his head stubbornly, the kingfisher flaps his wings in frustration and turns away, leaves rustle, slow camera move",
+        "seed": 3789751772
+      },
+      "voice": {}
+    },
+    {
+      "id": "thay-vac",
+      "title": "Thầy vạc đòi bạc",
+      "narrator": "ke-chuyen",
+      "narration": "Chả bay đến nhà thầy vạc nhờ phân xử. Thầy vạc nổi tiếng háu ăn. Chưa nghe chuyện đầu đuôi ra sao, thầy đã giơ cánh ra đòi: Bạc! Bạc! Bạc! Ý là phải nộp bạc trước thì mới xử. Chả không chịu đưa tiền. Thầy vạc liền trợn mắt dọa: Chạc! Chạc! Chạc! Ý là không nộp thì lấy dây chạc trói lại. Chả sợ quá, vội vàng bay ra khỏi nhà thầy vạc.",
+      "subtitles": [
+        "Chả bay đến nhà thầy vạc nhờ phân xử. Thầy vạc nổi tiếng háu ăn.",
+        "Chưa nghe chuyện đầu đuôi ra sao, thầy đã giơ cánh ra đòi: Bạc! Bạc! Bạc!",
+        "Ý là phải nộp bạc trước thì mới xử. Chả không chịu đưa tiền.",
+        "Thầy vạc liền trợn mắt dọa: Chạc! Chạc! Chạc! Ý là không nộp thì lấy dây chạc trói lại.",
+        "Chả sợ quá, vội vàng bay ra khỏi nhà thầy vạc."
+      ],
+      "image": {
+        "character": "thay-vac",
+        "prompt": "a comical grey night heron judge in a black hat holds out his wing demanding payment from the small blue kingfisher in a reed hut, a coil of rope on the floor",
+        "seed": 767120845
+      },
+      "video": {
+        "motionPrompt": "the heron stretches his wing and shakes it greedily, then points at the rope, the kingfisher backs away and flies out the door, comic timing",
+        "seed": 1951505173
+      },
+      "voice": {}
+    },
+    {
+      "id": "thay-vit",
+      "title": "Thầy vịt dọa kẹp",
+      "narrator": "ke-chuyen",
+      "narration": "Chả lại tìm đến nhà thầy vịt. Mới tới cổng, đã nghe thầy vịt kêu: Kẹp! Kẹp! Kẹp! Vào đến trong nhà, thầy còn há cái mỏ to tướng ra dọa: Ặp! Ặp! Ặp! Chả nghĩ bụng: Kiện cáo thế này thì chưa đòi được gạo, đã mất hết cả tiền. Thôi, mình về làm lành với Chanh còn hơn. Thế là Chả bỏ không kiện nữa, bay về làm hoà với bạn.",
+      "subtitles": [
+        "Chả lại tìm đến nhà thầy vịt. Mới tới cổng, đã nghe thầy vịt kêu: Kẹp! Kẹp! Kẹp!",
+        "Vào đến trong nhà, thầy còn há cái mỏ to tướng ra dọa: Ặp! Ặp! Ặp!",
+        "Chả nghĩ bụng: Kiện cáo thế này thì chưa đòi được gạo, đã mất hết cả tiền.",
+        "Thôi, mình về làm lành với Chanh còn hơn.",
+        "Thế là Chả bỏ không kiện nữa, bay về làm hoà với bạn."
+      ],
+      "image": {
+        "character": "thay-vit",
+        "prompt": "a pompous white duck judge in a red hat opens his wide flat beak at a garden gate, the little blue kingfisher peeks in nervously, a pond and bamboo behind",
+        "seed": 124399878
+      },
+      "video": {
+        "motionPrompt": "the duck snaps his beak open and shut comically, the kingfisher jumps back, then shrugs and flies home over the pond, light playful mood",
+        "seed": 2634898828
+      },
+      "voice": {}
+    },
+    {
+      "id": "tra-tra-chanh-chanh",
+      "title": "Trả! Trả! Chanh! Chanh!",
+      "narrator": "ke-chuyen",
+      "narration": "Từ đó hai bạn lại chơi với nhau. Nhưng món nợ ấy, Chả vẫn chưa quên. Hễ hai bạn giận nhau, Chả lại nhắc: Trả! Trả! Trả! Chanh thì cãi lại: Chanh! Chanh! Chanh! Đến bây giờ, bên bờ ao, các bạn vẫn còn nghe hai chú chim gọi nhau như thế đấy.",
+      "subtitles": [
+        "Từ đó hai bạn lại chơi với nhau. Nhưng món nợ ấy, Chả vẫn chưa quên.",
+        "Hễ hai bạn giận nhau, Chả lại nhắc: Trả! Trả! Trả!",
+        "Chanh thì cãi lại: Chanh! Chanh! Chanh!",
+        "Đến bây giờ, bên bờ ao, các bạn vẫn còn nghe hai chú chim gọi nhau như thế đấy."
+      ],
+      "image": {
+        "prompt": "the green songbird and the blue kingfisher sit on opposite ends of a bamboo branch over a lotus pond, beaks open toward each other, little musical notes in the air",
+        "seed": 2322486984
+      },
+      "video": {
+        "motionPrompt": "the two birds take turns calling with puffed chests, the branch bounces, ripples spread on the pond, camera slowly pulls back",
+        "seed": 183005619
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn ơi, khi bạn bè giúp mình lúc khó khăn, mình phải nhớ ơn và giữ đúng lời hứa. Đã vay thì phải trả, có thế bạn bè mới mãi tin nhau. Còn khi có chuyện buồn, mình nói thật với nhau rồi làm lành, chứ đừng cãi nhau mãi nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn ơi, khi bạn bè giúp mình lúc khó khăn, mình phải nhớ ơn và giữ đúng lời hứa.",
+        "Đã vay thì phải trả, có thế bạn bè mới mãi tin nhau.",
+        "Còn khi có chuyện buồn, mình nói thật với nhau rồi làm lành, chứ đừng cãi nhau mãi nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye by the lotus pond, the green songbird and the blue kingfisher perched together on her shoulders, sunset over bamboo",
+        "seed": 2669854965
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the two birds nuzzle each other then flutter up, lotus flowers sway, warm sunset light, gentle camera pull-back",
+        "seed": 1315187158
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful Vietnamese folk melody, bamboo flute and dan nguyet with light wooden percussion like chirping birds, cheerful and a little comical, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3832517797
+  }
+}

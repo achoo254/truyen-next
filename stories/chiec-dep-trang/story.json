@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "slug": "chiec-dep-trang",
+  "shelf": "world",
+  "title": "Chiếc dép trắng",
+  "summary": "Nhà vua Balancin chỉ đi lại được nhờ chiếc dép trắng thần kỳ, cho đến ngày nó rơi xuống sông trôi mất. Vua hứa gả công chúa Diamantina cho ai tìm được chiếc dép, và một chàng trai mồ côi ham đọc sách đã tìm ra cách khác. Truyện cổ tích Tây Ban Nha trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The White Slipper\" trong The Orange Fairy Book do Andrew Lang biên tập (1906; Lang chép từ tập Capullos de Rosa của Enrique Ceballos Quintana, Tây Ban Nha), Project Gutenberg #3027, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ lời doạ phạt của nhà vua, không chép bản dịch nào.",
+  "basedOn": "Truyện cổ tích Tây Ban Nha, Andrew Lang chép (1906)",
+  "style": "classic Spanish fairy tale picture book illustration, a sunny royal palace with Moorish arches and a flower garden by a wide river, a festive gilded barge with banners, a cozy study full of old books and glass flasks, soft gouache textures, colors of terracotta, river blue, rose and gold, warm hopeful mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "vua-balancin",
+      "name": "Nhà vua Balancin",
+      "sheetPrompt": "a warm-hearted elderly Spanish king from an old fairy tale, white beard, small gold crown, burgundy velvet robe, one foot in a dazzling snow white goatskin slipper, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3395486317
+    },
+    {
+      "id": "diamantina",
+      "name": "Công chúa Diamantina",
+      "sheetPrompt": "a kind graceful Spanish princess from an old fairy tale, dark wavy hair with a small diamond comb, ivory gown with rose embroidery, a flower basket on her arm, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2303770645
+    },
+    {
+      "id": "gilguerillo",
+      "name": "Chàng Gilguerillo",
+      "sheetPrompt": "a shy clever young Spanish scholar from an old fairy tale, tall, tousled brown hair, simple brown coat with ink stains, a small crystal flask in his pocket, kind smile, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3219976011
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nha-vua-va-cong-chua",
+      "title": "Nhà vua và công chúa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có nhà vua Balancin thương yêu cô con gái duy nhất là công chúa Diamantina hơn tất cả. Mẹ nàng mất sớm, vua một tay nuôi nàng khôn lớn. Chiều nào nàng cũng ra vườn hái hoa, rồi đi khắp phố cho dân nghèo được gặp, nghe họ kể nỗi khổ, rồi về cùng cha bàn cách giúp đỡ. Sau con gái, nhà vua thích nhất là đi săn trên núi. Một hôm, vua chạy xuống dốc, sẩy chân lăn vào một hố đầy gai. Vết xước rồi cũng lành, chỉ có một bàn chân bị gai đâm sâu, cứ sưng tấy mãi, đau không đi nổi. Ngự y nào trong nước cũng chịu thua.",
+      "subtitles": [
+        "Ngày xưa,",
+        "có nhà vua Balancin thương yêu cô con gái duy nhất là công chúa Diamantina hơn tất cả.",
+        "Mẹ nàng mất sớm, vua một tay nuôi nàng khôn lớn.",
+        "Chiều nào nàng cũng ra vườn hái hoa, rồi đi khắp phố cho dân nghèo được gặp,",
+        "nghe họ kể nỗi khổ, rồi về cùng cha bàn cách giúp đỡ.",
+        "Sau con gái, nhà vua thích nhất là đi săn trên núi.",
+        "Một hôm, vua chạy xuống dốc, sẩy chân lăn vào một hố đầy gai.",
+        "Vết xước rồi cũng lành, chỉ có một bàn chân bị gai đâm sâu, cứ sưng tấy mãi,",
+        "đau không đi nổi. Ngự y nào trong nước cũng chịu thua."
+      ],
+      "image": {
+        "prompt": "a sunny palace garden by a river at sunset, a kind princess with a flower basket greeting poor townsfolk at the gate, her loving old father the king watching proudly from a balcony",
+        "seed": 4114464070,
+        "character": "diamantina"
+      },
+      "video": {
+        "motionPrompt": "flowers sway, the princess hands bread to a child, the king smiles and waves from the balcony",
+        "seed": 3653450814
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-dep-than",
+      "title": "Chiếc dép thần",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe nói ở một xứ xa có một thầy thuốc tài giỏi, vua trả thật nhiều tiền mời ông tới. Xem xong, thầy thuốc nói: “Tâu bệ hạ, vết thương này không người nào chữa khỏi được. Nhưng tôi có thể làm bệ hạ hết đau.” Ông bảo thợ đóng một chiếc dép da dê thật êm, rồi phết lên một lớp thuốc bí truyền, trắng hơn cả tuyết. Tám ngày sau, vua xỏ chân vào dép, mừng đến rơi nước mắt: vua đi lại, chạy nhảy dễ dàng như một cậu bé. Thầy thuốc chỉ nhận đúng số tiền đã hẹn rồi vội về nước, vì ở nhà còn nhiều người bệnh đang chờ.",
+      "subtitles": [
+        "Nghe nói ở một xứ xa có một thầy thuốc tài giỏi, vua trả thật nhiều tiền mời ông tới.",
+        "Xem xong, thầy thuốc nói: “Tâu bệ hạ, vết thương này không người nào chữa khỏi được.",
+        "Nhưng tôi có thể làm bệ hạ hết đau.”",
+        "Ông bảo thợ đóng một chiếc dép da dê thật êm, rồi phết lên một lớp thuốc bí truyền,",
+        "trắng hơn cả tuyết.",
+        "Tám ngày sau, vua xỏ chân vào dép, mừng đến rơi nước mắt: vua đi lại,",
+        "chạy nhảy dễ dàng như một cậu bé.",
+        "Thầy thuốc chỉ nhận đúng số tiền đã hẹn rồi vội về nước,",
+        "vì ở nhà còn nhiều người bệnh đang chờ."
+      ],
+      "image": {
+        "prompt": "a royal chamber, a wise travelling doctor kneeling to slip a dazzling snow white goatskin slipper onto the bandaged foot of a hopeful old king, a little case lined with velvet open beside him",
+        "seed": 2765575254,
+        "character": "vua-balancin"
+      },
+      "video": {
+        "motionPrompt": "the slipper glows softly, the king stands up and takes a delighted little hop, the doctor bows",
+        "seed": 525483188
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngay-hoi-tren-song",
+      "title": "Ngày hội trên sông",
+      "narrator": "ke-chuyen",
+      "narration": "Hai năm trôi qua êm đềm. Đến ngày sinh nhật vua vào tháng sáu, công chúa bày một ngày hội trên sông: đua thuyền, thi bơi, ca múa, pháo hoa, phát bánh mì cho người nghèo và áo mới cho các cô gái sắp lấy chồng. Chiều tối, khi vua bước lên thuyền về cung, quai dép vướng vào một cái đinh nhô ra. Vua vấp, đau quá giũ chân, chiếc dép tuột khỏi chân rơi tõm xuống sông. Vua chỉ kêu được: “Dép của ta! Dép của ta!” Chiếc dép trắng nhấp nhô trên dòng nước, trôi xa dần. Chân vua đau buốt trở lại, vua loạng choạng rồi ngã nhào xuống sông. Mọi người ào xuống bơi theo, một người khoẻ nhất túm được áo vua kéo vào bờ. Vua sốt li bì mấy ngày liền.",
+      "subtitles": [
+        "Hai năm trôi qua êm đềm.",
+        "Đến ngày sinh nhật vua vào tháng sáu, công chúa bày một ngày hội trên sông: đua thuyền,",
+        "thi bơi, ca múa, pháo hoa,",
+        "phát bánh mì cho người nghèo và áo mới cho các cô gái sắp lấy chồng.",
+        "Chiều tối, khi vua bước lên thuyền về cung, quai dép vướng vào một cái đinh nhô ra.",
+        "Vua vấp, đau quá giũ chân, chiếc dép tuột khỏi chân rơi tõm xuống sông.",
+        "Vua chỉ kêu được: “Dép của ta! Dép của ta!”",
+        "Chiếc dép trắng nhấp nhô trên dòng nước, trôi xa dần.",
+        "Chân vua đau buốt trở lại, vua loạng choạng rồi ngã nhào xuống sông.",
+        "Mọi người ào xuống bơi theo, một người khoẻ nhất túm được áo vua kéo vào bờ.",
+        "Vua sốt li bì mấy ngày liền."
+      ],
+      "image": {
+        "prompt": "a festive gilded royal barge with colorful banners on a wide river at dusk, a snow white slipper floating away on the current, the king reaching out in dismay, the princess rushing to his side, swimmers in the water",
+        "seed": 2313260981,
+        "character": "vua-balancin"
+      },
+      "video": {
+        "motionPrompt": "the slipper bobs away on the ripples, banners flap, swimmers splash toward the barge, lanterns sway",
+        "seed": 2734817000
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-rao-cua-vua",
+      "title": "Lời rao của vua",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa cho thợ lặn tìm khắp lòng sông, nhưng chiếc dép đã trôi ra biển. Nàng sai người đi mời thầy thuốc làm chiếc dép khác, thì được tin ông đã qua đời, mang theo cả bí mật của mình. Vua buồn đến bỏ ăn, rồi ra lời rao: ai tìm được chiếc dép trắng sẽ được nối ngôi và cưới công chúa. Diamantina nghe thế thì thắt lòng, nhưng nàng thương cha hơn hết thảy, nên chỉ lặng lẽ cúi đầu. Từ đó, bờ sông lúc nào cũng đông nghịt người tìm dép. Riêng có một chàng trai lúc nào cũng ở lại muộn nhất, tối mịt vẫn còn lặn tìm, quần áo dính sát người, răng va lập cập.",
+      "subtitles": [
+        "Công chúa cho thợ lặn tìm khắp lòng sông, nhưng chiếc dép đã trôi ra biển.",
+        "Nàng sai người đi mời thầy thuốc làm chiếc dép khác, thì được tin ông đã qua đời,",
+        "mang theo cả bí mật của mình.",
+        "Vua buồn đến bỏ ăn, rồi ra lời rao:",
+        "ai tìm được chiếc dép trắng sẽ được nối ngôi và cưới công chúa.",
+        "Diamantina nghe thế thì thắt lòng, nhưng nàng thương cha hơn hết thảy,",
+        "nên chỉ lặng lẽ cúi đầu. Từ đó, bờ sông lúc nào cũng đông nghịt người tìm dép.",
+        "Riêng có một chàng trai lúc nào cũng ở lại muộn nhất, tối mịt vẫn còn lặn tìm,",
+        "quần áo dính sát người, răng va lập cập."
+      ],
+      "image": {
+        "prompt": "a crowded riverbank with many hopeful young men searching the water, divers coming up empty handed, a lone tall young man still wading in the river at nightfall under the first stars",
+        "seed": 2523557407,
+        "character": "gilguerillo"
+      },
+      "video": {
+        "motionPrompt": "divers pop up and shake their heads, the crowd drifts home, the lone young man keeps searching as stars appear",
+        "seed": 502548943
+      },
+      "voice": {}
+    },
+    {
+      "id": "chang-gilguerillo",
+      "title": "Chàng Gilguerillo",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, vua đang nằm đau thì nghe ngoài phòng ồn ào. Người hầu tâu có một cậu thanh niên dưới phố xin vào đo chân vua để làm dép mới, đã bị đẩy ra ngoài. Vua cau mày: “Người ta có lòng tốt, sao lại đuổi? Gọi cậu ấy vào đây.” Chàng trai cao ráo, lễ độ, xin xem chân vua rồi nhẹ nhàng đắp lên một miếng thuốc. Cơn đau dịu hẳn. Chàng kể mình mồ côi từ năm sáu tuổi, người trong phố gọi chàng là Gilguerillo, nghĩa là chú chim hót líu lo, vì dù khổ chàng vẫn vừa đi vừa hát. Chàng hứa chữa khỏi chân vua trong mười lăm ngày, chỉ xin một con ngựa tốt. Cả triều cười ồ. Vua bảo: “Ngươi sẽ có ngựa. Làm được thì ngươi biết phần thưởng rồi. Không thì ngươi sẽ chịu phạt nặng.”",
+      "subtitles": [
+        "Một hôm, vua đang nằm đau thì nghe ngoài phòng ồn ào.",
+        "Người hầu tâu có một cậu thanh niên dưới phố xin vào đo chân vua để làm dép mới,",
+        "đã bị đẩy ra ngoài. Vua cau mày: “Người ta có lòng tốt, sao lại đuổi? Gọi cậu ấy vào đây.”",
+        "Chàng trai cao ráo, lễ độ, xin xem chân vua rồi nhẹ nhàng đắp lên một miếng thuốc.",
+        "Cơn đau dịu hẳn.",
+        "Chàng kể mình mồ côi từ năm sáu tuổi, người trong phố gọi chàng là Gilguerillo,",
+        "nghĩa là chú chim hót líu lo, vì dù khổ chàng vẫn vừa đi vừa hát.",
+        "Chàng hứa chữa khỏi chân vua trong mười lăm ngày, chỉ xin một con ngựa tốt.",
+        "Cả triều cười ồ. Vua bảo: “Ngươi sẽ có ngựa. Làm được thì ngươi biết phần thưởng rồi.",
+        "Không thì ngươi sẽ chịu phạt nặng.”"
+      ],
+      "image": {
+        "prompt": "a royal bedchamber, a shy tall young man in an ink stained brown coat gently placing a soothing herbal plaster on the foot of the old king in bed, courtiers whispering and smirking behind him",
+        "seed": 48307103,
+        "character": "gilguerillo"
+      },
+      "video": {
+        "motionPrompt": "the young man works carefully, the king relaxes and sighs with relief, courtiers giggle behind their hands",
+        "seed": 3983040411
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuon-sach-co",
+      "title": "Cuốn sách cổ",
+      "narrator": "ke-chuyen",
+      "narration": "Chẳng ai biết Gilguerillo là ai. Mồ côi từ nhỏ, chàng được người chú làm nghề bào chế thuốc nuôi dạy, truyền cho hết những gì ông biết. Lúc rảnh, chàng chỉ vùi đầu vào sách, nên người ta cho chàng là gàn. Sáng ngày hội, chàng nhìn thấy công chúa từ cửa sổ và đem lòng thương nàng. Biết mình chẳng xứng, chàng cố quên, cho đến khi có lời rao của vua. Chàng cũng ra sông lặn tìm như mọi người, nhưng rồi hiểu rằng không phải ở dưới sông mà chàng sẽ tìm được cách. Chàng lại vùi đầu vào sách. Một hôm, trong một cuốn sách cổ mấy trăm năm, chàng đọc được cách nấu một thứ thuốc chữa lành mọi vết thương, từ một loài cây chỉ mọc ở một xứ rất xa.",
+      "subtitles": [
+        "Chẳng ai biết Gilguerillo là ai.",
+        "Mồ côi từ nhỏ, chàng được người chú làm nghề bào chế thuốc nuôi dạy,",
+        "truyền cho hết những gì ông biết.",
+        "Lúc rảnh, chàng chỉ vùi đầu vào sách, nên người ta cho chàng là gàn.",
+        "Sáng ngày hội, chàng nhìn thấy công chúa từ cửa sổ và đem lòng thương nàng.",
+        "Biết mình chẳng xứng, chàng cố quên, cho đến khi có lời rao của vua.",
+        "Chàng cũng ra sông lặn tìm như mọi người,",
+        "nhưng rồi hiểu rằng không phải ở dưới sông mà chàng sẽ tìm được cách.",
+        "Chàng lại vùi đầu vào sách.",
+        "Một hôm, trong một cuốn sách cổ mấy trăm năm,",
+        "chàng đọc được cách nấu một thứ thuốc chữa lành mọi vết thương,",
+        "từ một loài cây chỉ mọc ở một xứ rất xa."
+      ],
+      "image": {
+        "prompt": "a cozy cluttered study at night lit by a candle, shelves of old books and glass flasks, a young man leaning over a huge ancient book with a drawing of a healing plant, his eyes bright with discovery",
+        "seed": 3010532307,
+        "character": "gilguerillo"
+      },
+      "video": {
+        "motionPrompt": "the candle flickers, pages turn by themselves in a soft draft, the young man sits up straight with a hopeful smile",
+        "seed": 2528845876
+      },
+      "voice": {}
+    },
+    {
+      "id": "di-tim-cay-thuoc",
+      "title": "Đi tìm cây thuốc",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng thúc ngựa đi suốt sáu ngày mới tới nơi loài cây ấy mọc. Trước mặt là một khu rừng rậm. Chàng buộc ngựa vào gốc cây, bò lom khom tìm khắp nơi. Đến lúc trời nhá nhem, sắp mất hết hy vọng, chàng bỗng thấy cả một khoảng cây thuốc ngay dưới chân. Chàng run run hái đầy túi, rồi phi ngựa trở về. Về tới thành thì đã khuya, mai mới hết hạn mười lăm ngày. Chàng nhóm lửa, cho lá vào nồi nước sôi rồi ngủ thiếp đi. Sáng ra, lá đã tan thành một thứ siro sánh, đúng như sách tả. Chàng hong cho se lại, đổ vào một chiếc lọ pha lê nhỏ, rồi mặc áo đẹp nhất vào cung. Chàng nhỏ vài giọt lên chân vua: “Ba đêm liền như thế, bệ hạ sẽ khỏi.”",
+      "subtitles": [
+        "Chàng thúc ngựa đi suốt sáu ngày mới tới nơi loài cây ấy mọc.",
+        "Trước mặt là một khu rừng rậm. Chàng buộc ngựa vào gốc cây, bò lom khom tìm khắp nơi.",
+        "Đến lúc trời nhá nhem, sắp mất hết hy vọng,",
+        "chàng bỗng thấy cả một khoảng cây thuốc ngay dưới chân.",
+        "Chàng run run hái đầy túi, rồi phi ngựa trở về.",
+        "Về tới thành thì đã khuya, mai mới hết hạn mười lăm ngày.",
+        "Chàng nhóm lửa, cho lá vào nồi nước sôi rồi ngủ thiếp đi.",
+        "Sáng ra, lá đã tan thành một thứ siro sánh, đúng như sách tả.",
+        "Chàng hong cho se lại, đổ vào một chiếc lọ pha lê nhỏ, rồi mặc áo đẹp nhất vào cung.",
+        "Chàng nhỏ vài giọt lên chân vua: “Ba đêm liền như thế, bệ hạ sẽ khỏi.”"
+      ],
+      "image": {
+        "prompt": "a young man on hands and knees in a dim forest at dusk joyfully finding a large patch of glowing green healing plants, his horse tied to a tree, then a pot simmering over a small hearth fire and a tiny crystal flask",
+        "seed": 1677373949,
+        "character": "gilguerillo"
+      },
+      "video": {
+        "motionPrompt": "fireflies glow over the plants, the young man gathers leaves into his bag, steam curls from the pot into the crystal flask",
+        "seed": 2320355262
+      },
+      "voice": {}
+    },
+    {
+      "id": "khoi-han",
+      "title": "Khỏi hẳn",
+      "narrator": "ke-chuyen",
+      "narration": "Cả thành bàn tán, gọi Gilguerillo là kẻ lừa bịp. Nhưng vua chẳng để tâm, tự tay nhỏ thuốc ba đêm liền. Sáng thứ tư, vua duỗi chân ra xem. Vết thương lành hẳn, không còn một vết sẹo. Vua nhảy phắt khỏi giường, nhẹ như một chú nai, rồi lộn nhào, nhảy nhót đủ trò cho chắc rằng chân đã khỏi thật. Vua cho gọi công chúa và chàng trai tới. Công chúa thầm nghĩ: “Chàng trẻ và hiền thật.” Khi người ta khoác cho chàng chiếc áo nhung xanh viền vàng, đội mũ cắm ba chiếc lông trắng, nàng đem lòng thương chàng ngay. Tám ngày sau, đám cưới được tổ chức, và trong buổi khiêu vũ, chẳng ai nhảy lâu và nhẹ nhàng bằng nhà vua Balancin.",
+      "subtitles": [
+        "Cả thành bàn tán, gọi Gilguerillo là kẻ lừa bịp.",
+        "Nhưng vua chẳng để tâm, tự tay nhỏ thuốc ba đêm liền. Sáng thứ tư, vua duỗi chân ra xem.",
+        "Vết thương lành hẳn, không còn một vết sẹo.",
+        "Vua nhảy phắt khỏi giường, nhẹ như một chú nai, rồi lộn nhào,",
+        "nhảy nhót đủ trò cho chắc rằng chân đã khỏi thật. Vua cho gọi công chúa và chàng trai tới.",
+        "Công chúa thầm nghĩ: “Chàng trẻ và hiền thật.”",
+        "Khi người ta khoác cho chàng chiếc áo nhung xanh viền vàng,",
+        "đội mũ cắm ba chiếc lông trắng, nàng đem lòng thương chàng ngay.",
+        "Tám ngày sau, đám cưới được tổ chức, và trong buổi khiêu vũ,",
+        "chẳng ai nhảy lâu và nhẹ nhàng bằng nhà vua Balancin."
+      ],
+      "image": {
+        "prompt": "a joyful palace ballroom, the old king dancing lightly with bare healed feet, the princess smiling at the young man in a green velvet tunic bordered with gold and a cap with three white plumes, guests clapping",
+        "seed": 104864071,
+        "character": "diamantina"
+      },
+      "video": {
+        "motionPrompt": "the king twirls and leaps, the couple joins hands and dances, the plumes bounce, candles sparkle",
+        "seed": 1323110357
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm Spanish fairy tale melody, classical guitar, mandolin and soft strings, a flowing river theme, a hopeful journey motif, a joyful dance ending with light castanets, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3659739239
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-chuot-tron-thoat",
+  "shelf": "world",
+  "title": "Chú chuột trốn thoát",
+  "summary": "Một làn sương phép phủ xuống xứ Dyved, cuốn mất người, nhà cửa và cả bạn thân của hoàng tử Manawyddan. Khi bầy chuột kéo đến ăn sạch ruộng lúa mì, chàng tóm được một chú chuột chạy chậm, và chính chú chuột nhỏ ấy là chìa khóa giải lời nguyền. Truyện dân gian xứ Wales trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "than-thoai",
+    "anh-hung"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Escape of the Mouse\" trong The Lilac Fairy Book do Andrew Lang biên tập (1910; Lang thuật lại từ Mabinogion, truyện cổ xứ Wales), Project Gutenberg #3454, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ các đoạn dữ dằn (thợ thủ công chỉ định gây sự, chú chuột chỉ bị đem ra xử tội trộm), không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian xứ Wales, Andrew Lang chép (1910)",
+  "style": "classic Welsh medieval fairy tale picture book illustration, green Welsh hills and stone castles, golden wheat fields, swirling enchanted mist, illuminated manuscript inspired borders without lettering, soft gouache textures, colors of moss green, wheat gold, slate grey and royal blue, gentle and whimsical mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "manawyddan",
+      "name": "Hoàng tử Manawyddan",
+      "sheetPrompt": "a wise calm Welsh prince from a medieval fairy tale, dark hair with a few grey streaks, neat beard, deep green tunic with a simple gold brooch, brown travelling cloak, thoughtful kind eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 4034164219
+    },
+    {
+      "id": "pryderi",
+      "name": "Pryderi",
+      "sheetPrompt": "a bold cheerful young Welsh nobleman from a medieval fairy tale, curly red-brown hair, blue tunic with a leather belt, hunting horn at his side, eager face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 232919497
+    },
+    {
+      "id": "chu-chuot",
+      "name": "Chú chuột",
+      "sheetPrompt": "a small plump brown field mouse from a Welsh fairy tale, soft round ears, bright gentle eyes, slightly slow and shy, cute and lively, full body, plain light background, character reference sheet",
+      "seed": 423727264
+    },
+    {
+      "id": "vi-giam-muc",
+      "name": "Vị giám mục",
+      "sheetPrompt": "a mysterious stately old bishop from a Welsh fairy tale, long white beard, rich purple and gold robes, tall staff, riding with a train of packhorses, knowing smile, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1407844709
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hai-nguoi-ban",
+      "title": "Hai người bạn lang thang",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở xứ Wales, hoàng tử Manawyddan bị người ta tranh mất ngai vàng, phải đi lang thang cùng người bạn thân là Pryderi. Manawyddan buồn bã lắm, nhưng Pryderi vỗ vai bạn: \"Đừng lo! Anh hãy cưới mẹ tôi, bà Rhiannon. Tôi sẽ tặng bà những vùng đất đẹp nhất làm của hồi môn. Chưa có phu nhân nào thông minh hơn mẹ tôi, mà đến giờ bà vẫn còn rất đẹp.\" Manawyddan cảm động: \"Cậu là người bạn tốt nhất trên đời.\" Bà Rhiannon vui vẻ nhận lời. Thế là bốn người, Manawyddan với Rhiannon, Pryderi với vợ là Kieva, sống bên nhau ở xứ Dyved, ngày nào cũng cùng đi săn, chẳng rời nhau nửa bước.",
+      "subtitles": [
+        "Ngày xưa, ở xứ Wales, hoàng tử Manawyddan bị người ta tranh mất ngai vàng,",
+        "phải đi lang thang cùng người bạn thân là Pryderi.",
+        "Manawyddan buồn bã lắm, nhưng Pryderi vỗ vai bạn: \"Đừng lo!",
+        "Anh hãy cưới mẹ tôi, bà Rhiannon. Tôi sẽ tặng bà những vùng đất đẹp nhất làm của hồi môn.",
+        "Chưa có phu nhân nào thông minh hơn mẹ tôi, mà đến giờ bà vẫn còn rất đẹp.\"",
+        "Manawyddan cảm động: \"Cậu là người bạn tốt nhất trên đời.\" Bà Rhiannon vui vẻ nhận lời.",
+        "Thế là bốn người, Manawyddan với Rhiannon, Pryderi với vợ là Kieva,",
+        "sống bên nhau ở xứ Dyved, ngày nào cũng cùng đi săn, chẳng rời nhau nửa bước."
+      ],
+      "image": {
+        "prompt": "two Welsh noblemen walking along a green hillside road toward a stone castle, where two elegant ladies in long gowns wait at the gate with a welcoming feast",
+        "seed": 2609546106,
+        "character": "manawyddan"
+      },
+      "video": {
+        "motionPrompt": "the cloaks sway in the wind, banners flutter on the castle, the ladies wave",
+        "seed": 2369935574
+      },
+      "voice": {}
+    },
+    {
+      "id": "man-suong-phep",
+      "title": "Màn sương phép",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, bốn người đang ngồi trên bãi cỏ xanh thì sấm nổ vang trời, một bức tường sương mù sập xuống, che khuất họ khỏi nhau. Khi sương tan, họ nhìn quanh mà sững sờ. Đàn bò, đàn cừu, nhà cửa, khói bếp, người dân, tất cả đều biến mất. Chỉ còn lại đúng bốn người họ. Lâu đài trống trơn, làng xóm vắng tanh, chỉ có thú rừng chạy nhảy. Suốt một năm, họ sống nhờ săn bắn và mật ong của những đàn ong hút hoa thạch nam trên núi. Sang năm thứ hai, Manawyddan bảo: \"Chẳng thể sống mãi thế này. Ta sang nước Anh học một nghề mà sinh sống.\"",
+      "subtitles": [
+        "Một hôm, bốn người đang ngồi trên bãi cỏ xanh thì sấm nổ vang trời,",
+        "một bức tường sương mù sập xuống, che khuất họ khỏi nhau.",
+        "Khi sương tan, họ nhìn quanh mà sững sờ.",
+        "Đàn bò, đàn cừu, nhà cửa, khói bếp, người dân, tất cả đều biến mất.",
+        "Chỉ còn lại đúng bốn người họ.",
+        "Lâu đài trống trơn, làng xóm vắng tanh, chỉ có thú rừng chạy nhảy.",
+        "Suốt một năm, họ sống nhờ săn bắn và mật ong của những đàn ong hút hoa thạch nam trên núi.",
+        "Sang năm thứ hai, Manawyddan bảo: \"Chẳng thể sống mãi thế này.",
+        "Ta sang nước Anh học một nghề mà sinh sống.\""
+      ],
+      "image": {
+        "prompt": "four Welsh nobles sitting on a green meadow as a great wall of swirling white enchanted mist rolls in under a stormy sky with a flash of light",
+        "seed": 4071142736,
+        "character": "manawyddan"
+      },
+      "video": {
+        "motionPrompt": "thick mist rolls slowly across the meadow, light flickers in the clouds, the four figures look around in wonder",
+        "seed": 1718124149
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-nghe-thu-cong",
+      "title": "Ba nghề thủ công",
+      "narrator": "ke-chuyen",
+      "narration": "Sang tới Hereford, Manawyddan và Pryderi làm yên ngựa, Manawyddan còn tự tay tráng men xanh trang trí. Yên đẹp đến nỗi cả thành chỉ mua của họ. Các thợ làm yên ghen tức, kéo nhau định gây sự. Pryderi muốn ở lại đánh một trận, nhưng Manawyddan khuyên bạn lẳng lặng dời sang thành khác trong đêm. Ở đó họ làm khiên, khiên cũng đẹp nhất thành, và thợ làm khiên cũng nổi giận. Họ lại đi tiếp. Lần này Manawyddan làm giày, mua da tốt nhất, thuê thợ kim hoàn đúc khóa vàng. Người ta gọi chàng là \"Người làm giày vàng\". Thợ giày cả thành cũng hè nhau định gây chuyện. Manawyddan bảo: \"Ta về Dyved thôi.\" Và họ trở về săn bắn như trước.",
+      "subtitles": [
+        "Sang tới Hereford, Manawyddan và Pryderi làm yên ngựa,",
+        "Manawyddan còn tự tay tráng men xanh trang trí. Yên đẹp đến nỗi cả thành chỉ mua của họ.",
+        "Các thợ làm yên ghen tức, kéo nhau định gây sự.",
+        "Pryderi muốn ở lại đánh một trận,",
+        "nhưng Manawyddan khuyên bạn lẳng lặng dời sang thành khác trong đêm.",
+        "Ở đó họ làm khiên, khiên cũng đẹp nhất thành, và thợ làm khiên cũng nổi giận.",
+        "Họ lại đi tiếp.",
+        "Lần này Manawyddan làm giày, mua da tốt nhất, thuê thợ kim hoàn đúc khóa vàng.",
+        "Người ta gọi chàng là \"Người làm giày vàng\".",
+        "Thợ giày cả thành cũng hè nhau định gây chuyện. Manawyddan bảo: \"Ta về Dyved thôi.\"",
+        "Và họ trở về săn bắn như trước."
+      ],
+      "image": {
+        "prompt": "a medieval English town workshop where two Welsh noblemen craft beautiful saddles with blue enamel, shields and golden-clasped shoes, admiring townsfolk crowding at the window",
+        "seed": 3341303711,
+        "character": "manawyddan"
+      },
+      "video": {
+        "motionPrompt": "hands work leather and polish blue enamel, townsfolk point and smile, sunlight streams through the window",
+        "seed": 1541457544
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-bat-vang",
+      "title": "Chiếc bát vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Một sáng, bầy chó săn chạy tới một bụi cây thì lùi lại, lông dựng đứng. Từ bụi cây vọt ra một con lợn rừng trắng như tuyết. Con lợn chạy vào một tòa lâu đài mới toanh, mọc ở nơi xưa nay chưa từng có nhà cửa. Bầy chó đuổi theo, rồi im bặt. \"Đừng vào,\" Manawyddan can, \"kẻ nào phù phép xứ này đã dựng lâu đài ấy.\" Nhưng Pryderi thương chó, vẫn bước vào. Bên trong chỉ có một đài phun nước bằng đá hoa, trên mép đặt một chiếc bát vàng chạm trổ rất đẹp. Pryderi vừa chạm tay vào, tay dính chặt lấy bát, chân dính chặt xuống đá. Bà Rhiannon vào tìm con, chạm vào bát, cũng dính chặt, không nói nên lời. Sấm lại nổ, sương lại phủ, và tòa lâu đài biến mất cùng hai mẹ con.",
+      "subtitles": [
+        "Một sáng, bầy chó săn chạy tới một bụi cây thì lùi lại, lông dựng đứng.",
+        "Từ bụi cây vọt ra một con lợn rừng trắng như tuyết.",
+        "Con lợn chạy vào một tòa lâu đài mới toanh, mọc ở nơi xưa nay chưa từng có nhà cửa.",
+        "Bầy chó đuổi theo, rồi im bặt.",
+        "\"Đừng vào,\" Manawyddan can, \"kẻ nào phù phép xứ này đã dựng lâu đài ấy.\"",
+        "Nhưng Pryderi thương chó, vẫn bước vào.",
+        "Bên trong chỉ có một đài phun nước bằng đá hoa,",
+        "trên mép đặt một chiếc bát vàng chạm trổ rất đẹp.",
+        "Pryderi vừa chạm tay vào, tay dính chặt lấy bát, chân dính chặt xuống đá.",
+        "Bà Rhiannon vào tìm con, chạm vào bát, cũng dính chặt, không nói nên lời.",
+        "Sấm lại nổ, sương lại phủ, và tòa lâu đài biến mất cùng hai mẹ con."
+      ],
+      "image": {
+        "prompt": "inside a strange new castle courtyard, a young nobleman frozen with his hands on a richly carved golden bowl at the edge of a white marble fountain, a lady in a long gown reaching toward him, enchanted mist gathering",
+        "seed": 76115577,
+        "character": "pryderi"
+      },
+      "video": {
+        "motionPrompt": "the golden bowl glimmers, mist curls around the fountain, the scene slowly fades into swirling white",
+        "seed": 3994621796
+      },
+      "voice": {}
+    },
+    {
+      "id": "ruong-lua-mi",
+      "title": "Ba ruộng lúa mì",
+      "narrator": "ke-chuyen",
+      "narration": "Chỉ còn Manawyddan và nàng Kieva. Chàng gieo ba ruộng lúa mì, ngày ngày đi săn, đi câu, chờ mùa gặt. Lúa ruộng thứ nhất chín vàng. \"Mai ta gặt,\" chàng nói. Sáng hôm sau, chỉ còn trơ rạ, chẳng còn một bông. Ruộng thứ hai cũng y như thế. Ruộng thứ ba đẹp hơn cả. Đêm ấy, Manawyddan nấp bên bờ ruộng canh. Nửa đêm, cả một đạo quân chuột đông không đếm xuể kéo tới. Mỗi con trèo lên một cọng lúa, cắn đứt bông rồi tha đi. Chàng lao tới nhưng chúng nhanh như muỗi, như chim. Chỉ có một con chạy chậm, tụt lại phía sau. Chàng tóm lấy đuôi nó, nhét vào chiếc găng tay, buộc chặt miệng găng bằng sợi dây rồi mang về.",
+      "subtitles": [
+        "Chỉ còn Manawyddan và nàng Kieva.",
+        "Chàng gieo ba ruộng lúa mì, ngày ngày đi săn, đi câu, chờ mùa gặt.",
+        "Lúa ruộng thứ nhất chín vàng. \"Mai ta gặt,\" chàng nói.",
+        "Sáng hôm sau, chỉ còn trơ rạ, chẳng còn một bông. Ruộng thứ hai cũng y như thế.",
+        "Ruộng thứ ba đẹp hơn cả. Đêm ấy, Manawyddan nấp bên bờ ruộng canh.",
+        "Nửa đêm, cả một đạo quân chuột đông không đếm xuể kéo tới.",
+        "Mỗi con trèo lên một cọng lúa, cắn đứt bông rồi tha đi.",
+        "Chàng lao tới nhưng chúng nhanh như muỗi, như chim.",
+        "Chỉ có một con chạy chậm, tụt lại phía sau.",
+        "Chàng tóm lấy đuôi nó, nhét vào chiếc găng tay,",
+        "buộc chặt miệng găng bằng sợi dây rồi mang về."
+      ],
+      "image": {
+        "prompt": "a golden wheat field under a full moon, hundreds of little field mice climbing wheat stalks and carrying away the ears, a Welsh prince leaping from his hiding place and catching one slow plump mouse",
+        "seed": 3843029541,
+        "character": "chu-chuot"
+      },
+      "video": {
+        "motionPrompt": "wheat stalks bend and sway as mice scurry everywhere, the prince reaches down, moonlight glints on the grain",
+        "seed": 2326449880
+      },
+      "voice": {}
+    },
+    {
+      "id": "xu-toi-ke-trom",
+      "title": "Xử tội kẻ trộm",
+      "narrator": "ke-chuyen",
+      "narration": "\"Chàng bắt được gì thế?\" Kieva hỏi. \"Một kẻ trộm,\" Manawyddan đáp. \"Mai ta sẽ đem nó ra xử theo luật trị kẻ trộm.\" Kieva cười: \"Một người như chàng mà đi xử một con chuột thì chẳng ra thể thống gì. Thả nó đi.\" Nhưng chàng không nghe. Sáng ra, chàng lên đỉnh đồi dựng một cái giá gỗ nhỏ để xử tội trước đất trời. Đã bảy năm nay chẳng có ai qua lại nơi này, thế mà bỗng có một anh học trò áo rách đi tới. \"Thưa ngài, làm việc ấy chẳng xứng với ngài. Tôi xin biếu ngài một đồng bảng để thả nó.\" \"Không bán, không thả.\" Rồi một thầy tu cưỡi ngựa đi qua, xin trả ba đồng bảng. Manawyddan vẫn lắc đầu: \"Nó ăn trộm của ta, nó phải chịu tội.\"",
+      "subtitles": [
+        "\"Chàng bắt được gì thế?\" Kieva hỏi. \"Một kẻ trộm,\" Manawyddan đáp.",
+        "\"Mai ta sẽ đem nó ra xử theo luật trị kẻ trộm.\"",
+        "Kieva cười: \"Một người như chàng mà đi xử một con chuột thì chẳng ra thể thống gì.",
+        "Thả nó đi.\" Nhưng chàng không nghe.",
+        "Sáng ra, chàng lên đỉnh đồi dựng một cái giá gỗ nhỏ để xử tội trước đất trời.",
+        "Đã bảy năm nay chẳng có ai qua lại nơi này, thế mà bỗng có một anh học trò áo rách đi tới.",
+        "\"Thưa ngài, làm việc ấy chẳng xứng với ngài. Tôi xin biếu ngài một đồng bảng để thả nó.\"",
+        "\"Không bán, không thả.\" Rồi một thầy tu cưỡi ngựa đi qua, xin trả ba đồng bảng.",
+        "Manawyddan vẫn lắc đầu: \"Nó ăn trộm của ta, nó phải chịu tội.\""
+      ],
+      "image": {
+        "prompt": "a Welsh prince on a green hilltop setting up a small wooden frame, holding a leather glove with a little mouse peeking out, a ragged young scholar approaching along the path",
+        "seed": 3500632182,
+        "character": "manawyddan"
+      },
+      "video": {
+        "motionPrompt": "wind ripples the hilltop grass, the little mouse wiggles its nose from the glove, the scholar walks up slowly",
+        "seed": 3978450067
+      },
+      "voice": {}
+    },
+    {
+      "id": "vi-giam-muc",
+      "title": "Vị giám mục",
+      "narrator": "ke-chuyen",
+      "narration": "Lúc sau, một vị giám mục đi tới, theo sau là đoàn tùy tùng và những con ngựa thồ chở đầy hành lý. \"Ta trả bảy đồng bảng, rồi hai mươi bốn đồng bảng, rồi cả đàn ngựa với bảy kiện hàng, chỉ xin ngươi thả nó ra!\" Manawyddan vẫn không thả. \"Vậy ngươi muốn giá nào?\" Manawyddan đáp: \"Hãy giải phép cho Pryderi và Rhiannon, và gỡ bùa khỏi cả xứ này. Rồi nói cho ta biết con chuột này là ai.\" Vị giám mục thở dài: \"Đó là vợ ta. Chính ta đã phù phép xứ này, để trả thù cho Gwawl, bạn ta. Người nhà ta xin hóa thành chuột ăn lúa của ngươi. Đêm thứ ba, vợ ta và các thị nữ cũng xin đi theo. Vợ ta đang mệt nên chạy chậm, mới bị ngươi bắt.\"",
+      "subtitles": [
+        "Lúc sau, một vị giám mục đi tới,",
+        "theo sau là đoàn tùy tùng và những con ngựa thồ chở đầy hành lý.",
+        "\"Ta trả bảy đồng bảng, rồi hai mươi bốn đồng bảng, rồi cả đàn ngựa với bảy kiện hàng,",
+        "chỉ xin ngươi thả nó ra!\" Manawyddan vẫn không thả. \"Vậy ngươi muốn giá nào?\"",
+        "Manawyddan đáp: \"Hãy giải phép cho Pryderi và Rhiannon, và gỡ bùa khỏi cả xứ này.",
+        "Rồi nói cho ta biết con chuột này là ai.\" Vị giám mục thở dài: \"Đó là vợ ta.",
+        "Chính ta đã phù phép xứ này, để trả thù cho Gwawl, bạn ta.",
+        "Người nhà ta xin hóa thành chuột ăn lúa của ngươi.",
+        "Đêm thứ ba, vợ ta và các thị nữ cũng xin đi theo.",
+        "Vợ ta đang mệt nên chạy chậm, mới bị ngươi bắt.\""
+      ],
+      "image": {
+        "prompt": "a grand old bishop in purple and gold robes on horseback with a train of laden packhorses, pleading with a Welsh prince on a hilltop who holds a glove with a small mouse",
+        "seed": 795677064,
+        "character": "vi-giam-muc"
+      },
+      "video": {
+        "motionPrompt": "the packhorses shift and snort, the bishop gestures eagerly, the prince stands firm with the glove held close",
+        "seed": 2665166046
+      },
+      "voice": {}
+    },
+    {
+      "id": "xu-dyved-hoi-sinh",
+      "title": "Xứ Dyved hồi sinh",
+      "narrator": "ke-chuyen",
+      "narration": "\"Ta chưa thả,\" Manawyddan nói, \"cho tới khi ngài thề không bao giờ trả thù Pryderi, Rhiannon hay ta.\" Vị giám mục thề. \"Và cho tới khi họ đứng trước mặt ta.\" \"Kìa, họ tới rồi,\" vị giám mục nói. Pryderi và Rhiannon bước đến, ba người ôm nhau mừng rỡ rồi ngồi xuống cỏ. Manawyddan cởi sợi dây cho chú chuột. Vị giám mục chạm gậy vào nó, và chú chuột hóa thành một thiếu phụ xinh đẹp nhất đời. \"Ngươi nhìn quanh xem,\" vị giám mục nói. Manawyddan nhìn ra: lúa lại xanh trên đồng, bò cừu lại gặm cỏ trên đồi, nhà cửa lại có khói bếp. Xứ Dyved đã sống lại.",
+      "subtitles": [
+        "\"Ta chưa thả,\" Manawyddan nói, \"cho tới khi ngài thề không bao giờ trả thù Pryderi,",
+        "Rhiannon hay ta.\" Vị giám mục thề. \"Và cho tới khi họ đứng trước mặt ta.\"",
+        "\"Kìa, họ tới rồi,\" vị giám mục nói.",
+        "Pryderi và Rhiannon bước đến, ba người ôm nhau mừng rỡ rồi ngồi xuống cỏ.",
+        "Manawyddan cởi sợi dây cho chú chuột.",
+        "Vị giám mục chạm gậy vào nó, và chú chuột hóa thành một thiếu phụ xinh đẹp nhất đời.",
+        "\"Ngươi nhìn quanh xem,\" vị giám mục nói.",
+        "Manawyddan nhìn ra: lúa lại xanh trên đồng, bò cừu lại gặm cỏ trên đồi,",
+        "nhà cửa lại có khói bếp. Xứ Dyved đã sống lại."
+      ],
+      "image": {
+        "prompt": "a joyful reunion on a green hillside, a Welsh prince embracing his friend and a lady while a little mouse transforms in a shower of sparkles into a lovely young woman, the land behind them full of green fields, sheep and cottages with chimney smoke",
+        "seed": 1799354430,
+        "character": "manawyddan"
+      },
+      "video": {
+        "motionPrompt": "sparkles swirl as the mouse transforms, chimney smoke rises from the cottages, sheep wander across the hills",
+        "seed": 1300667932
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle medieval Welsh instrumental, Celtic harp, crwth style bowed strings and soft wooden flute, mysterious misty mood turning bright and joyful, moderate tempo, no vocals",
+    "durationSeconds": 150,
+    "seed": 2909418198
+  }
+}

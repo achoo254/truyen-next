@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "slug": "trau-beo-trau-gay",
+  "shelf": "kids",
+  "title": "Trâu béo, trâu gầy",
+  "summary": "Quan bắt mỗi nhà đưa một con trâu lên rừng kéo gỗ. Hai anh em nhà nọ buộc con trâu béo khoẻ của anh dắt con trâu gầy yếu của em, đi chậm mà chẳng bỏ nhau. Truyện cổ về tình anh em đùm bọc, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "gia-dinh",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ nước Nam – Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ thêm lời Mèo Miu mở đầu và kết thúc, thêm thoại giữa hai anh em và cảnh đường lên rừng, bỏ lời quan doạ đánh, và rút ý nhẹ ở cuối: anh em giúp đỡ nhau, khoẻ đỡ yếu.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, Vietnamese village and green mountain forest trail with big trees, logs and red earth path, warm morning light, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2893186734
+    },
+    {
+      "id": "anh-em",
+      "name": "Hai anh em",
+      "seed": 2227508604,
+      "sheetPrompt": "two young Vietnamese village brothers in simple brown tunics and rolled-up trousers, the older one taller with a rope, the younger one smaller, kind faces, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "trau-beo",
+      "name": "Trâu béo",
+      "seed": 782406741,
+      "sheetPrompt": "a big strong round grey-black water buffalo with curved horns, healthy and calm, gentle eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "trau-gay",
+      "name": "Trâu gầy",
+      "seed": 445712301,
+      "sheetPrompt": "a small thin grey water buffalo with short horns, tired and gentle, sweet eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-quan",
+      "name": "Ông quan",
+      "seed": 3451204601,
+      "sheetPrompt": "a plump old-style Vietnamese official in a blue robe and black hat, stern face that softens into a kind smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có anh chị em không? Khi bạn mình mệt, hay em mình đi chậm, các bạn có chờ, có dắt tay em đi không? Ngày xưa có hai anh em nhà nọ, với hai con trâu, một con béo, một con gầy. Chuyện của họ có một câu nói rất hay mà ông bà mình vẫn hay nhắc. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có anh chị em không?",
+        "Khi bạn mình mệt, hay em mình đi chậm, các bạn có chờ, có dắt tay em đi không?",
+        "Ngày xưa có hai anh em nhà nọ, với hai con trâu, một con béo, một con gầy.",
+        "Chuyện của họ có một câu nói rất hay mà ông bà mình vẫn hay nhắc.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat holds the hand of a tiny kitten on a village path, smiling, an open picture book on a bamboo bench beside her, rice fields behind",
+        "seed": 573154287
+      },
+      "video": {
+        "motionPrompt": "the cat walks slowly holding the kitten's paw, the kitten toddles along, rice sways, slow gentle camera push-in",
+        "seed": 2467395766
+      },
+      "voice": {}
+    },
+    {
+      "id": "lenh-quan",
+      "title": "Lệnh lên rừng kéo gỗ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một ông quan ra lệnh cho cả làng, nhà nào cũng phải đưa một con trâu lên rừng kéo gỗ. Trong làng có hai anh em. Trâu của anh thì béo tròn, khoẻ mạnh. Trâu của em thì gầy gò, ốm yếu, đi mấy bước đã thở phì phò. Em lo lắng: Anh ơi, trâu em yếu thế này, lên rừng sao nổi? Anh vỗ vai em: Đừng lo, có anh đây rồi. Hai anh em dắt trâu đi theo mọi người.",
+      "subtitles": [
+        "Ngày xưa, có một ông quan ra lệnh cho cả làng,",
+        "nhà nào cũng phải đưa một con trâu lên rừng kéo gỗ.",
+        "Trong làng có hai anh em.",
+        "Trâu của anh thì béo tròn, khoẻ mạnh.",
+        "Trâu của em thì gầy gò, ốm yếu, đi mấy bước đã thở phì phò.",
+        "Em lo lắng: Anh ơi, trâu em yếu thế này, lên rừng sao nổi?",
+        "Anh vỗ vai em: Đừng lo, có anh đây rồi.",
+        "Hai anh em dắt trâu đi theo mọi người."
+      ],
+      "image": {
+        "character": "anh-em",
+        "prompt": "in a Vietnamese village yard two brothers stand with their buffaloes, the older brother pats the worried younger brother on the shoulder, one buffalo is big and round, the other is small and thin, villagers lead buffaloes toward the hills",
+        "seed": 3031672250
+      },
+      "video": {
+        "motionPrompt": "the older brother pats his brother's shoulder and smiles, the thin buffalo puffs and shakes its head, villagers walk by with their buffaloes, morning light",
+        "seed": 2001032831
+      },
+      "voice": {}
+    },
+    {
+      "id": "vao-rung",
+      "title": "Đường vào rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Vào đến rừng, trâu nhà người ta kéo gỗ đi phăm phăm, chẳng mấy chốc đã bỏ xa. Trâu gầy của em kéo được một đoạn thì mệt lả, đứng lại, chẳng nhích được nữa. Em sắp khóc. Anh nghĩ một lúc rồi lấy sợi dây thừng, buộc mũi trâu béo của mình vào sừng trâu gầy. Anh bảo: Nào trâu béo, dắt bạn đi nhé! Thế là trâu béo đi trước, trâu gầy theo sau, chậm chậm mà chắc chắn.",
+      "subtitles": [
+        "Vào đến rừng, trâu nhà người ta kéo gỗ đi phăm phăm, chẳng mấy chốc đã bỏ xa.",
+        "Trâu gầy của em kéo được một đoạn thì mệt lả, đứng lại, chẳng nhích được nữa.",
+        "Em sắp khóc.",
+        "Anh nghĩ một lúc rồi lấy sợi dây thừng, buộc mũi trâu béo của mình vào sừng trâu gầy.",
+        "Anh bảo: Nào trâu béo, dắt bạn đi nhé!",
+        "Thế là trâu béo đi trước, trâu gầy theo sau, chậm chậm mà chắc chắn."
+      ],
+      "image": {
+        "character": "trau-gay",
+        "prompt": "on a red earth forest trail, the older brother ties a rope between the big strong buffalo and the small thin buffalo, the younger brother wipes his eyes and smiles, other buffaloes pull logs far ahead",
+        "seed": 4189181357
+      },
+      "video": {
+        "motionPrompt": "the brother ties the rope gently, the big buffalo steps forward and the thin buffalo follows slowly, sunlight flickers through tall trees",
+        "seed": 438581924
+      },
+      "voice": {}
+    },
+    {
+      "id": "quan-hoi",
+      "title": "Quan đến xem",
+      "narrator": "ke-chuyen",
+      "narration": "Hai anh em đi chậm, lẽo đẽo tụt lại sau cùng. Ông quan đi kiểm tra, thấy vậy thì cau mày, quát to: Hai anh em kia làm trò gì mà chậm chạp thế hả? Người em sợ quá, nép sau lưng anh. Người anh lễ phép thưa: Bẩm quan, con trâu của em con yếu quá, con trâu của con thì khoẻ. Anh em con phải đỡ đần nhau, trâu béo kéo trâu gầy đấy ạ.",
+      "subtitles": [
+        "Hai anh em đi chậm, lẽo đẽo tụt lại sau cùng.",
+        "Ông quan đi kiểm tra, thấy vậy thì cau mày,",
+        "quát to: Hai anh em kia làm trò gì mà chậm chạp thế hả?",
+        "Người em sợ quá, nép sau lưng anh.",
+        "Người anh lễ phép thưa: Bẩm quan, con trâu của em con yếu quá, con trâu của con thì khoẻ.",
+        "Anh em con phải đỡ đần nhau, trâu béo kéo trâu gầy đấy ạ."
+      ],
+      "image": {
+        "character": "ong-quan",
+        "prompt": "on the forest trail a plump official in a blue robe frowns at the two brothers, the younger hides behind the older, who bows politely and points to the two buffaloes tied together",
+        "seed": 1373825967
+      },
+      "video": {
+        "motionPrompt": "the official frowns and points, the younger brother peeks out shyly, the older brother bows and explains, the buffaloes flick their ears",
+        "seed": 439398919
+      },
+      "voice": {}
+    },
+    {
+      "id": "quan-tha",
+      "title": "Quan cho trâu gầy về",
+      "narrator": "ke-chuyen",
+      "narration": "Ông quan lại gần nhìn kỹ, thấy con trâu gầy quả là yếu thật, mà hai anh em vẫn dắt nhau đi chứ chẳng bỏ nhau. Quan bật cười, gật gù: Được, được lắm! Anh em biết thương nhau thế là quý. Thôi, cho con trâu gầy về nhà nghỉ đi. Hai anh em mừng rỡ cúi đầu cảm ơn. Trâu gầy được về làng ăn cỏ non, còn trâu béo ở lại kéo gỗ cùng người anh.",
+      "subtitles": [
+        "Ông quan lại gần nhìn kỹ, thấy con trâu gầy quả là yếu thật,",
+        "mà hai anh em vẫn dắt nhau đi chứ chẳng bỏ nhau.",
+        "Quan bật cười, gật gù: Được, được lắm!",
+        "Anh em biết thương nhau thế là quý.",
+        "Thôi, cho con trâu gầy về nhà nghỉ đi.",
+        "Hai anh em mừng rỡ cúi đầu cảm ơn.",
+        "Trâu gầy được về làng ăn cỏ non, còn trâu béo ở lại kéo gỗ cùng người anh."
+      ],
+      "image": {
+        "character": "ong-quan",
+        "prompt": "the official smiles kindly and waves, the happy brothers bow, the younger brother leads the thin buffalo home toward green grass, the big buffalo stays with the older brother beside a log",
+        "seed": 2743514414
+      },
+      "video": {
+        "motionPrompt": "the official nods and smiles, the brothers bow happily, the younger brother walks the thin buffalo home waving, the big buffalo swishes its tail",
+        "seed": 2303722580
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, người anh không bỏ em lại, trâu béo cũng dắt trâu gầy cùng đi. Từ đó, ông bà mình mới có câu: trâu béo kéo trâu gầy, ý là người khoẻ giúp người yếu, người có giúp người chưa có. Ở nhà hay ở lớp, các bạn nhớ giúp đỡ nhau nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, người anh không bỏ em lại, trâu béo cũng dắt trâu gầy cùng đi.",
+        "Từ đó, ông bà mình mới có câu: trâu béo kéo trâu gầy, ý là người khoẻ giúp người yếu,",
+        "người có giúp người chưa có.",
+        "Ở nhà hay ở lớp, các bạn nhớ giúp đỡ nhau nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in a green meadow, the big buffalo and the thin buffalo graze side by side, the two brothers sit together under a tree, flowers around",
+        "seed": 968020538
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the two buffaloes nuzzle each other, the brothers laugh, butterflies flutter, gentle camera pull-back",
+        "seed": 1131353455
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm Vietnamese countryside melody, bamboo flute and dan bau with soft wooden percussion like buffalo bells, steady walking pace, gentle and kind, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2190815339
+  }
+}

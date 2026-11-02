@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "slug": "bay-chang-tho-det-ngoc",
+  "shelf": "world",
+  "title": "Bảy chàng thợ dệt ngốc",
+  "summary": "Anh thợ dệt chậm hiểu làm gì cũng nghe lời răm rắp mà hỏng việc, phải bỏ làng mà đi. Anh nhập bọn với sáu người thợ dệt khác, cùng bơi qua một con mương cạn khô, rồi đếm đi đếm lại vẫn chỉ thấy sáu người. Truyện cười dân gian Pashtun trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Foolish Weaver\" trong The Orange Fairy Book do Andrew Lang biên tập (1906; truyện dân gian Pashtun), Project Gutenberg #3027, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính; đàn cừu chỉ chạy tán loạn và hòn đá ném ruồi chỉ làm vỡ chum nước, bà cụ không hề hấn gì, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Pashtun, Andrew Lang chép (1906)",
+  "style": "classic Central Asian folk tale picture book illustration, dry rocky hills with grazing sheep, a mud brick farmhouse with a flat roof, a village of weavers with colorful threads hanging to dry, a dry stony riverbed, soft gouache textures, colors of sandy ochre, sky blue, madder red and sage green, gentle comic mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "tho-det",
+      "name": "Anh thợ dệt",
+      "sheetPrompt": "a good-hearted slow-witted young Pashtun weaver from an old folk tale, round face, puzzled eyebrows, loose white shirt, brown waistcoat, rolled wool cap, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3322870358
+    },
+    {
+      "id": "ong-chu",
+      "name": "Ông chủ trại",
+      "sheetPrompt": "a stern but fair Pashtun farmer from an old folk tale, thick black beard, white turban, grey shawl over his shoulder, holding a shepherd crook, full body, front and side views, plain light background, character reference sheet",
+      "seed": 305507762
+    },
+    {
+      "id": "nguoi-nong-dan",
+      "name": "Bác nông dân bên mương",
+      "sheetPrompt": "a cheerful clever old farmer from an old Pashtun folk tale, white beard, sun-browned face, patched brown clothes, a long walking stick, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1307440491
+    }
+  ],
+  "scenes": [
+    {
+      "id": "anh-chan-cuu",
+      "title": "Anh chăn cừu",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một anh thợ dệt thất nghiệp, xin vào chăn cừu cho một ông chủ trại. Biết anh chậm hiểu, ông chủ dặn dò từng việc rất kỹ. Cuối cùng ông nhặt một hòn đá to, giơ lên: “Nếu có sói hay thú dữ tới gần đàn cừu, cứ nhặt hòn đá như thế này mà ném, nó sẽ sợ mà bỏ đi.” Anh thợ dệt gật đầu lia lịa, lùa đàn cừu lên đồi. Buổi chiều, một con báo xuất hiện. Anh vội chạy một mạch về nhà, tìm cho bằng được đúng hòn đá ông chủ đã giơ lên. Khi anh quay lại, đàn cừu đã chạy tán loạn khắp các ngọn đồi, mất mấy ngày mới lùa về đủ.",
+      "subtitles": [
+        "Ngày xưa, có một anh thợ dệt thất nghiệp, xin vào chăn cừu cho một ông chủ trại.",
+        "Biết anh chậm hiểu, ông chủ dặn dò từng việc rất kỹ.",
+        "Cuối cùng ông nhặt một hòn đá to, giơ lên: “Nếu có sói hay thú dữ tới gần đàn cừu,",
+        "cứ nhặt hòn đá như thế này mà ném, nó sẽ sợ mà bỏ đi.”",
+        "Anh thợ dệt gật đầu lia lịa, lùa đàn cừu lên đồi. Buổi chiều, một con báo xuất hiện.",
+        "Anh vội chạy một mạch về nhà, tìm cho bằng được đúng hòn đá ông chủ đã giơ lên.",
+        "Khi anh quay lại, đàn cừu đã chạy tán loạn khắp các ngọn đồi, mất mấy ngày mới lùa về đủ."
+      ],
+      "image": {
+        "prompt": "dry rocky hills with sheep scattering in every direction, a puzzled young weaver running back uphill clutching one big stone in both arms, a leopard slinking away into the distance",
+        "seed": 2332096167,
+        "character": "tho-det"
+      },
+      "video": {
+        "motionPrompt": "sheep bound away across the hillside, the weaver huffs and puffs uphill with the stone, dust swirls in the wind",
+        "seed": 2834806007
+      },
+      "voice": {}
+    },
+    {
+      "id": "duoi-ruoi",
+      "title": "Đuổi ruồi",
+      "narrator": "ke-chuyen",
+      "narration": "Ông chủ mắng: “Trên đồi thiếu gì đá mà phải chạy về tận nhà lấy? Anh không chăn cừu được. Mai ở nhà trông bà cụ mẹ tôi đang ốm, đuổi ruồi cho bà là được.” Hôm sau, bà cụ nằm nghỉ trên chiếc giường tre ngoài sân, ruồi bay vo ve quanh mặt. Anh thợ dệt nhớ lời dặn hôm trước: có gì quấy thì nhặt hòn đá gần nhất mà ném. Anh bèn ôm hòn đá to nhất gần đó, ném thật mạnh vào đám ruồi. Ruồi bay mất, còn hòn đá rơi trúng chum nước đầu giường. Chum vỡ toang, nước té ướt sũng bà cụ, chân giường gãy rắc một cái. Bà cụ ngồi bệt xuống đất, may mà không sao, nhưng la lên ầm ĩ. Anh thợ dệt sợ ông chủ về, co cẳng chạy biến, không bao giờ dám quay lại vùng ấy nữa.",
+      "subtitles": [
+        "Ông chủ mắng: “Trên đồi thiếu gì đá mà phải chạy về tận nhà lấy? Anh không chăn cừu được.",
+        "Mai ở nhà trông bà cụ mẹ tôi đang ốm, đuổi ruồi cho bà là được.”",
+        "Hôm sau, bà cụ nằm nghỉ trên chiếc giường tre ngoài sân, ruồi bay vo ve quanh mặt.",
+        "Anh thợ dệt nhớ lời dặn hôm trước: có gì quấy thì nhặt hòn đá gần nhất mà ném.",
+        "Anh bèn ôm hòn đá to nhất gần đó, ném thật mạnh vào đám ruồi.",
+        "Ruồi bay mất, còn hòn đá rơi trúng chum nước đầu giường.",
+        "Chum vỡ toang, nước té ướt sũng bà cụ, chân giường gãy rắc một cái.",
+        "Bà cụ ngồi bệt xuống đất, may mà không sao, nhưng la lên ầm ĩ.",
+        "Anh thợ dệt sợ ông chủ về, co cẳng chạy biến, không bao giờ dám quay lại vùng ấy nữa."
+      ],
+      "image": {
+        "prompt": "a sunny farmhouse yard, a big clay water jar splashing apart, an old grandmother sitting safely on the ground soaked and shouting with surprise beside a tipped bamboo bed, the startled weaver running off, flies buzzing away",
+        "seed": 1050653879,
+        "character": "tho-det"
+      },
+      "video": {
+        "motionPrompt": "water splashes everywhere, the grandmother waves her arms, the weaver tiptoes backward then runs out of the gate",
+        "seed": 812257030
+      },
+      "voice": {}
+    },
+    {
+      "id": "lang-tho-det",
+      "title": "Làng thợ dệt",
+      "narrator": "ke-chuyen",
+      "narration": "Anh đi suốt một ngày một đêm, tới một ngôi làng có rất nhiều thợ dệt sống chung. Những sợi chỉ đủ màu phơi rực rỡ trên các mái nhà. Dân làng niềm nở: “Chào anh! Cứ ăn uống, ngủ nghỉ đi. Mai sáu người chúng tôi đi mua len ở làng bên, anh đi cùng cho vui.” Anh thợ dệt mừng rỡ nhận lời. Sáng hôm sau, bảy người thợ dệt lên đường, ai nấy đều vui vẻ, nói cười rôm rả.",
+      "subtitles": [
+        "Anh đi suốt một ngày một đêm, tới một ngôi làng có rất nhiều thợ dệt sống chung.",
+        "Những sợi chỉ đủ màu phơi rực rỡ trên các mái nhà. Dân làng niềm nở: “Chào anh!",
+        "Cứ ăn uống, ngủ nghỉ đi.",
+        "Mai sáu người chúng tôi đi mua len ở làng bên, anh đi cùng cho vui.”",
+        "Anh thợ dệt mừng rỡ nhận lời.",
+        "Sáng hôm sau, bảy người thợ dệt lên đường, ai nấy đều vui vẻ, nói cười rôm rả."
+      ],
+      "image": {
+        "prompt": "a cheerful village of weavers with colorful threads and cloth drying on flat rooftops, seven weavers setting off together along a dusty road in the morning sun, waving goodbye",
+        "seed": 1340981001,
+        "character": "tho-det"
+      },
+      "video": {
+        "motionPrompt": "colorful cloths flap in the breeze, the seven weavers stride off laughing, a donkey brays by the roadside",
+        "seed": 3325871154
+      },
+      "voice": {}
+    },
+    {
+      "id": "boi-tren-cat",
+      "title": "Bơi trên cát",
+      "narrator": "ke-chuyen",
+      "narration": "Dọc đường có một con mương. Mọi khi mương đầy nước, các anh thợ dệt quen bơi qua. Hôm nay mương khô cong, chỉ toàn cát với đá. Nhưng quen rồi, họ vẫn cởi áo ngoài buộc lên đầu, nằm xuống mà quờ quạng bơi qua lòng mương khô. Sang được bờ bên kia, ai cũng trầy đầu gối, xước khuỷu tay. Một người đứng ra đếm xem có đủ không: “Một, hai, ba, bốn, năm, sáu. Nguy rồi, thiếu một người!” Người khác đếm lại, cũng chỉ được sáu. Ai đếm cũng chỉ được sáu, vì chẳng ai nhớ đếm chính mình. Họ chạy dọc bờ mương, vò đầu bứt tai: “Một người bạn của chúng ta bị nước cuốn đi mất rồi!”",
+      "subtitles": [
+        "Dọc đường có một con mương. Mọi khi mương đầy nước, các anh thợ dệt quen bơi qua.",
+        "Hôm nay mương khô cong, chỉ toàn cát với đá.",
+        "Nhưng quen rồi, họ vẫn cởi áo ngoài buộc lên đầu,",
+        "nằm xuống mà quờ quạng bơi qua lòng mương khô.",
+        "Sang được bờ bên kia, ai cũng trầy đầu gối, xước khuỷu tay.",
+        "Một người đứng ra đếm xem có đủ không: “Một, hai, ba, bốn, năm, sáu.",
+        "Nguy rồi, thiếu một người!” Người khác đếm lại, cũng chỉ được sáu.",
+        "Ai đếm cũng chỉ được sáu, vì chẳng ai nhớ đếm chính mình.",
+        "Họ chạy dọc bờ mương, vò đầu bứt tai:",
+        "“Một người bạn của chúng ta bị nước cuốn đi mất rồi!”"
+      ],
+      "image": {
+        "prompt": "seven weavers with bundled clothes tied on their heads crawling and pretending to swim across a completely dry stony riverbed, then one of them standing on the bank pointing and counting the others with a worried face",
+        "seed": 1739484878,
+        "character": "tho-det"
+      },
+      "video": {
+        "motionPrompt": "the weavers paddle their arms over the dry sand, dust puffs up, one stands and counts on his fingers with growing alarm",
+        "seed": 488667718
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-phu-thuy-dem-so",
+      "title": "Ông phù thuỷ biết đếm",
+      "narrator": "ke-chuyen",
+      "narration": "Có một bác nông dân đi qua, hỏi chuyện gì. Một anh thợ dệt mếu máo: “Bảy chúng tôi xuống mương bên kia, mà lên đến đây chỉ còn sáu. Một người đã chìm mất rồi!” Bác nông dân nhìn họ một lúc, nhịn cười, cầm cây gậy gõ nhẹ lên vai từng người, vừa gõ vừa đếm to: “Một! Hai! Ba! Bốn! Năm! Sáu! Bảy!” Bảy anh thợ dệt nhìn nhau, mừng rỡ reo lên: đủ cả bảy người! Họ rối rít cảm ơn bác, tin chắc bác là một ông phù thuỷ tài giỏi, vì đã biến sáu người thành bảy người ngay trước mắt họ.",
+      "subtitles": [
+        "Có một bác nông dân đi qua, hỏi chuyện gì.",
+        "Một anh thợ dệt mếu máo: “Bảy chúng tôi xuống mương bên kia, mà lên đến đây chỉ còn sáu.",
+        "Một người đã chìm mất rồi!”",
+        "Bác nông dân nhìn họ một lúc, nhịn cười, cầm cây gậy gõ nhẹ lên vai từng người,",
+        "vừa gõ vừa đếm to: “Một! Hai! Ba! Bốn! Năm! Sáu! Bảy!”",
+        "Bảy anh thợ dệt nhìn nhau, mừng rỡ reo lên: đủ cả bảy người!",
+        "Họ rối rít cảm ơn bác, tin chắc bác là một ông phù thuỷ tài giỏi,",
+        "vì đã biến sáu người thành bảy người ngay trước mắt họ."
+      ],
+      "image": {
+        "prompt": "a smiling old farmer with a white beard tapping each of seven weavers lightly on the shoulder with his walking stick, the weavers lined up in a row with amazed delighted faces beside the dry riverbed",
+        "seed": 4234494358,
+        "character": "nguoi-nong-dan"
+      },
+      "video": {
+        "motionPrompt": "the farmer taps each shoulder one by one, the weavers count along on their fingers, then all jump and cheer",
+        "seed": 4059082838
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light comic Central Asian folk melody, rubab, soft tabla and a playful flute, bouncy rhythm for the silly counting, a cheerful ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2059423522
+  }
+}

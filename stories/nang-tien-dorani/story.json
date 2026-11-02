@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "slug": "nang-tien-dorani",
+  "shelf": "world",
+  "title": "Nàng tiên Dorani",
+  "summary": "Hoàng tử nhặt được một lọn tóc vàng thơm mùi hoa hồng trôi trên sông và cưới được nàng Dorani, nhưng cô dâu suốt ngày chẳng nói một lời, đêm nào cũng về nhà cha. Nhờ bột tàng hình của ông lão làm vườn, chàng theo nàng bay tới cung điện vua tiên Indra và khám phá ra bí mật. Truyện dân gian Punjab, Ấn Độ, trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"Dorani\" trong The Olive Fairy Book do Andrew Lang biên tập (1907; Lang ghi là truyện dân gian Punjab, Ấn Độ, do Major Campbell ở Feroshepore kể lại), Project Gutenberg #27826, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Punjab (Ấn Độ), Andrew Lang chép (1907)",
+  "style": "classic Indian fairy tale picture book illustration inspired by Mughal and Pahari miniature painting, moonlit rivers and rose gardens, flying four-legged stool with silk canopy, a celestial palace in the clouds, soft gouache textures, colors of rose pink, gold, indigo night and pearl white, dreamy romantic mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "dorani",
+      "name": "Nàng Dorani",
+      "sheetPrompt": "a graceful beautiful young Indian maiden from an old Punjabi fairy tale, very long shining golden hair, silver robe with strings of pearls, a crown of pink roses, gentle shy eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 4147409695
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "sheetPrompt": "a gentle romantic young Indian prince from an old Punjabi fairy tale, dark wavy hair, cream turban with a ruby, soft green embroidered coat, kind hopeful face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3506355799
+    },
+    {
+      "id": "nang-tien",
+      "name": "Nàng tiên bạn",
+      "sheetPrompt": "a lively fairy friend from an old Indian fairy tale, flowing lavender and gold veil, delicate jewellery, curious sparkling eyes, a faint glow around her, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1717976266
+    },
+    {
+      "id": "ong-lao-lam-vuon",
+      "name": "Ông lão làm vườn",
+      "sheetPrompt": "a very old kind palace gardener from an old Indian fairy tale, bent back, long white beard, simple white turban and brown shawl, holding small paper packets, wise gentle smile, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1904340023
+    }
+  ],
+  "scenes": [
+    {
+      "id": "lon-toc-troi-song",
+      "title": "Lọn tóc trôi sông",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một thành phố xứ Ấn Độ, có ông lão bán hương liệu với cô con gái đẹp tuyệt trần tên là Dorani. Nàng có một người bạn là nàng tiên. Hai nàng hát hay múa giỏi đến nỗi được vua tiên Indra rất mực yêu quý. Mái tóc Dorani óng như tơ vàng, thơm như hoa hồng mới nở. Nhưng tóc dày và dài quá, nhiều khi nặng trĩu cả đầu. Một hôm, nàng cắt một lọn, gói trong chiếc lá to, thả xuống dòng sông dưới cửa sổ. Hôm ấy, hoàng tử đi săn, xuống sông uống nước, thấy một chiếc lá trôi tới, thơm ngát mùi hoa hồng. Chàng lội ra vớt, mở ra thấy một lọn tóc vàng óng.",
+      "subtitles": [
+        "Ngày xưa, ở một thành phố xứ Ấn Độ,",
+        "có ông lão bán hương liệu với cô con gái đẹp tuyệt trần tên là Dorani.",
+        "Nàng có một người bạn là nàng tiên.",
+        "Hai nàng hát hay múa giỏi đến nỗi được vua tiên Indra rất mực yêu quý.",
+        "Mái tóc Dorani óng như tơ vàng, thơm như hoa hồng mới nở.",
+        "Nhưng tóc dày và dài quá, nhiều khi nặng trĩu cả đầu.",
+        "Một hôm, nàng cắt một lọn, gói trong chiếc lá to, thả xuống dòng sông dưới cửa sổ.",
+        "Hôm ấy, hoàng tử đi săn, xuống sông uống nước, thấy một chiếc lá trôi tới,",
+        "thơm ngát mùi hoa hồng. Chàng lội ra vớt, mở ra thấy một lọn tóc vàng óng."
+      ],
+      "image": {
+        "prompt": "a young Indian prince kneeling at a sparkling river bank catching a folded green leaf floating by, inside it a shining lock of golden hair, a distant window above the river where a maiden with long golden hair watches",
+        "seed": 2112588859,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the river flows gently, the leaf drifts into the prince hands, golden hair glimmers in the sunlight",
+        "seed": 3212919186
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-cau-hon",
+      "title": "Lời cầu hôn",
+      "narrator": "ke-chuyen",
+      "narration": "Về cung, hoàng tử buồn rầu lặng lẽ. Vua cha hỏi, chàng giơ lọn tóc lên: \"Cha xem, có mái tóc nào như thế không? Nếu không được cưới người con gái này, con sẽ buồn mãi không nguôi.\" Vua sai sứ giả đi khắp nước, cuối cùng biết đó là con gái ông lão bán hương liệu. Dorani dặn cha: \"Nếu vua muốn con lấy hoàng tử, con xin vâng. Nhưng cha hãy thưa rằng ban ngày con ở cung, còn đêm nào con cũng về nhà mình.\" Ông lão chẳng hiểu, nhưng biết con gái khôn hơn mình, nên cứ thế tâu lại. Vua thấy lạ, nhưng nghĩ đó là chuyện của con trai, ít lâu cô dâu sẽ chán đi đi về về. Đám cưới được tổ chức tưng bừng.",
+      "subtitles": [
+        "Về cung, hoàng tử buồn rầu lặng lẽ.",
+        "Vua cha hỏi, chàng giơ lọn tóc lên: \"Cha xem, có mái tóc nào như thế không?",
+        "Nếu không được cưới người con gái này, con sẽ buồn mãi không nguôi.\"",
+        "Vua sai sứ giả đi khắp nước, cuối cùng biết đó là con gái ông lão bán hương liệu.",
+        "Dorani dặn cha: \"Nếu vua muốn con lấy hoàng tử, con xin vâng.",
+        "Nhưng cha hãy thưa rằng ban ngày con ở cung, còn đêm nào con cũng về nhà mình.\"",
+        "Ông lão chẳng hiểu, nhưng biết con gái khôn hơn mình, nên cứ thế tâu lại.",
+        "Vua thấy lạ, nhưng nghĩ đó là chuyện của con trai, ít lâu cô dâu sẽ chán đi đi về về.",
+        "Đám cưới được tổ chức tưng bừng."
+      ],
+      "image": {
+        "prompt": "a grand Indian royal wedding celebration in a palace courtyard with flower garlands, musicians and lanterns, a prince and a bride with long golden hair under a canopy, an old scent seller bowing respectfully",
+        "seed": 2360255168,
+        "character": "dorani"
+      },
+      "video": {
+        "motionPrompt": "flower petals fall like rain, lanterns sway, musicians play as guests celebrate",
+        "seed": 3220117550
+      },
+      "voice": {}
+    },
+    {
+      "id": "nang-dau-khong-noi",
+      "title": "Nàng dâu không nói",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng hoàng tử buồn lắm. Ban ngày, Dorani chỉ ngồi trên chiếc ghế đẩu, gục đầu lên gối, chẳng nói một lời, chẳng nhìn chàng lấy một lần. Tối đến, kiệu lại đưa nàng về nhà cha. Một tối, hoàng tử lang thang trong khu vườn cổ cạnh cung. Ông lão làm vườn từng hầu hạ từ đời ông cố của chàng, cúi chào: \"Con ơi, sao con buồn thế?\" \"Ta cưới được người vợ đẹp như sao trời, mà nàng không nói với ta một lời, đêm nào cũng bỏ về nhà cha.\" Ông lão nghĩ một lúc rồi tập tễnh về chiếc chòi, mang ra năm sáu gói nhỏ. \"Mai khi vợ con rời cung, con rắc bột này lên người, con sẽ tàng hình mà vẫn nhìn rõ mọi thứ. Ta chỉ giúp được đến thế thôi.\"",
+      "subtitles": [
+        "Nhưng hoàng tử buồn lắm.",
+        "Ban ngày, Dorani chỉ ngồi trên chiếc ghế đẩu, gục đầu lên gối, chẳng nói một lời,",
+        "chẳng nhìn chàng lấy một lần. Tối đến, kiệu lại đưa nàng về nhà cha.",
+        "Một tối, hoàng tử lang thang trong khu vườn cổ cạnh cung.",
+        "Ông lão làm vườn từng hầu hạ từ đời ông cố của chàng, cúi chào: \"Con ơi,",
+        "sao con buồn thế?\"",
+        "\"Ta cưới được người vợ đẹp như sao trời, mà nàng không nói với ta một lời,",
+        "đêm nào cũng bỏ về nhà cha.\"",
+        "Ông lão nghĩ một lúc rồi tập tễnh về chiếc chòi, mang ra năm sáu gói nhỏ.",
+        "\"Mai khi vợ con rời cung, con rắc bột này lên người,",
+        "con sẽ tàng hình mà vẫn nhìn rõ mọi thứ. Ta chỉ giúp được đến thế thôi.\""
+      ],
+      "image": {
+        "prompt": "an old moonlit palace garden with fountains and roses, a bent old gardener with a white beard handing small paper packets to a sad young prince",
+        "seed": 793219189,
+        "character": "ong-lao-lam-vuon"
+      },
+      "video": {
+        "motionPrompt": "moonlight ripples on the fountain, the gardener presses the packets into the prince hands, rose petals drift by",
+        "seed": 1047380948
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-ghe-bay",
+      "title": "Chiếc ghế bay",
+      "narrator": "ke-chuyen",
+      "narration": "Tối hôm sau, hoàng tử rắc bột lên người, tàng hình, đi theo kiệu của vợ về nhà ông lão bán hương liệu, lặng lẽ bước vào theo nàng. Dorani bỏ ba lớp khăn che mặt qua ba cánh cửa, tắm trong chậu nước hoa hồng, ăn vội bát sữa chua, rồi khoác áo bạc, quấn chuỗi ngọc trai, cài vòng hoa hồng lên tóc. Nàng ngồi lên chiếc ghế đẩu bốn chân có màn lụa, kéo rèm lại và gọi: \"Ghế ơi, bay tới cung điện vua Indra!\" Chiếc ghế bay vút lên, hoàng tử vội túm chặt một chân ghế bay theo. Tới nhà nàng tiên bạn, nàng tiên ngạc nhiên: \"Sao hôm nay ghế bay lệch thế? Hay cậu đã nói chuyện với chồng?\" \"Mình chưa nói một lời nào,\" Dorani đáp.",
+      "subtitles": [
+        "Tối hôm sau, hoàng tử rắc bột lên người, tàng hình,",
+        "đi theo kiệu của vợ về nhà ông lão bán hương liệu, lặng lẽ bước vào theo nàng.",
+        "Dorani bỏ ba lớp khăn che mặt qua ba cánh cửa, tắm trong chậu nước hoa hồng,",
+        "ăn vội bát sữa chua, rồi khoác áo bạc, quấn chuỗi ngọc trai, cài vòng hoa hồng lên tóc.",
+        "Nàng ngồi lên chiếc ghế đẩu bốn chân có màn lụa, kéo rèm lại và gọi: \"Ghế ơi,",
+        "bay tới cung điện vua Indra!\"",
+        "Chiếc ghế bay vút lên, hoàng tử vội túm chặt một chân ghế bay theo.",
+        "Tới nhà nàng tiên bạn, nàng tiên ngạc nhiên: \"Sao hôm nay ghế bay lệch thế?",
+        "Hay cậu đã nói chuyện với chồng?\" \"Mình chưa nói một lời nào,\" Dorani đáp."
+      ],
+      "image": {
+        "prompt": "a magical night sky scene, a four-legged stool with a silk canopy flying over moonlit rooftops, a maiden with long golden hair and a rose crown sitting inside, a faint invisible prince clinging to one leg shown as a soft shimmering outline",
+        "seed": 234327107,
+        "character": "dorani"
+      },
+      "video": {
+        "motionPrompt": "the flying stool tilts slightly as it soars past the moon, silk curtains billow, stars twinkle",
+        "seed": 1420208021
+      },
+      "voice": {}
+    },
+    {
+      "id": "cung-dien-indra",
+      "title": "Cung điện vua tiên Indra",
+      "narrator": "ke-chuyen",
+      "narration": "Chiếc ghế chở hai nàng, cùng hoàng tử bám dưới chân, bay tới cung điện của vua tiên Indra trên mây. Suốt đêm, hai nàng hát và múa trước vua tiên, còn một cây đàn thần tự gảy những khúc nhạc say đắm lòng người. Hoàng tử ngồi xem mà mê mẩn. Gần sáng, vua tiên ra hiệu nghỉ. Hai nàng lại lên ghế, hoàng tử lại bám chân ghế, bay về nhà ông lão bán hương liệu. Hoàng tử chạy vội về cung trước, vừa bước qua ngưỡng cửa phòng mình thì hiện hình trở lại. Chàng nằm xuống trường kỷ, chờ vợ về.",
+      "subtitles": [
+        "Chiếc ghế chở hai nàng, cùng hoàng tử bám dưới chân,",
+        "bay tới cung điện của vua tiên Indra trên mây.",
+        "Suốt đêm, hai nàng hát và múa trước vua tiên,",
+        "còn một cây đàn thần tự gảy những khúc nhạc say đắm lòng người.",
+        "Hoàng tử ngồi xem mà mê mẩn. Gần sáng, vua tiên ra hiệu nghỉ.",
+        "Hai nàng lại lên ghế, hoàng tử lại bám chân ghế, bay về nhà ông lão bán hương liệu.",
+        "Hoàng tử chạy vội về cung trước, vừa bước qua ngưỡng cửa phòng mình thì hiện hình trở lại.",
+        "Chàng nằm xuống trường kỷ, chờ vợ về."
+      ],
+      "image": {
+        "prompt": "a celestial palace among glowing clouds, a maiden with golden hair and a fairy friend dancing gracefully before a radiant fairy king on a throne, a magical lute floating in the air and playing by itself",
+        "seed": 3236216840,
+        "character": "nang-tien"
+      },
+      "video": {
+        "motionPrompt": "the two dancers twirl gracefully, the floating lute strings shimmer and vibrate, glowing clouds drift around the palace",
+        "seed": 2887398277
+      },
+      "voice": {}
+    },
+    {
+      "id": "giac-mo-cua-hoang-tu",
+      "title": "Giấc mơ của hoàng tử",
+      "narrator": "ke-chuyen",
+      "narration": "Dorani về tới, lại ngồi gục đầu im lặng. Hoàng tử nói: \"Đêm qua ta mơ một giấc mơ lạ, toàn về nàng. Ta kể nhé, dù nàng chẳng để ý.\" Rồi chàng kể từng chi tiết. Khi chàng khen giọng hát của nàng, giọng chàng run run, Dorani ngẩng lên nhìn chàng, rồi lại cúi xuống. Nàng nghĩ thầm: \"Sao chàng biết được?\" Đêm sau, chàng lại tàng hình đi theo, và sáng ra lại kể. Lần này Dorani nhìn chàng hỏi: \"Chàng mơ thật, hay chàng đã ở đó?\" \"Ta đã ở đó.\" \"Sao chàng theo thiếp?\" \"Vì ta thương nàng, được ở bên nàng là ta hạnh phúc.\" Hàng mi Dorani khẽ run. Tối ấy, trước khi lên kiệu, nàng nói: \"Nếu chàng thương thiếp, đêm nay đừng theo thiếp.\" Hoàng tử nghe lời, ở nhà.",
+      "subtitles": [
+        "Dorani về tới, lại ngồi gục đầu im lặng.",
+        "Hoàng tử nói: \"Đêm qua ta mơ một giấc mơ lạ, toàn về nàng. Ta kể nhé, dù nàng chẳng để ý.\"",
+        "Rồi chàng kể từng chi tiết.",
+        "Khi chàng khen giọng hát của nàng, giọng chàng run run, Dorani ngẩng lên nhìn chàng,",
+        "rồi lại cúi xuống. Nàng nghĩ thầm: \"Sao chàng biết được?\"",
+        "Đêm sau, chàng lại tàng hình đi theo, và sáng ra lại kể.",
+        "Lần này Dorani nhìn chàng hỏi: \"Chàng mơ thật, hay chàng đã ở đó?\" \"Ta đã ở đó.\"",
+        "\"Sao chàng theo thiếp?\" \"Vì ta thương nàng, được ở bên nàng là ta hạnh phúc.\"",
+        "Hàng mi Dorani khẽ run.",
+        "Tối ấy, trước khi lên kiệu, nàng nói: \"Nếu chàng thương thiếp, đêm nay đừng theo thiếp.\"",
+        "Hoàng tử nghe lời, ở nhà."
+      ],
+      "image": {
+        "prompt": "a palace room in soft morning light, a gentle prince sitting beside his silent bride with long golden hair, she lifts her head and looks at him in wonder for the first time",
+        "seed": 1727572922,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "morning light grows warmer, the bride slowly raises her eyes, a curtain stirs in the breeze",
+        "seed": 739215493
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-dan-than",
+      "title": "Cây đàn thần",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy, chiếc ghế bay chòng chành đến nỗi hai nàng suýt ngã. Nàng tiên kêu: \"Chỉ có một lý do thôi! Cậu đã nói chuyện với chồng rồi!\" Dorani đáp: \"Ừ, mình đã nói rồi.\" Đêm ấy, Dorani hát hay chưa từng thấy. Vua tiên Indra đứng dậy, hứa sẽ cho nàng bất cứ thứ gì nàng xin. Nàng ngập ngừng, rồi nói: \"Xin bệ hạ ban cho cây đàn thần.\" Vua tiên hối hận vì đã hứa, bởi đó là báu vật ông quý nhất. Nhưng đã hứa thì phải giữ lời. Ông trao cây đàn và nói: \"Từ nay nàng đừng tới đây nữa. Đã xin món quà lớn thế, sao còn bằng lòng với quà nhỏ?\" Dorani lặng lẽ cúi đầu nhận đàn, rồi cùng nàng tiên ra cổng. Chiếc ghế chòng chành bay về trần gian.",
+      "subtitles": [
+        "Đêm ấy, chiếc ghế bay chòng chành đến nỗi hai nàng suýt ngã.",
+        "Nàng tiên kêu: \"Chỉ có một lý do thôi! Cậu đã nói chuyện với chồng rồi!\"",
+        "Dorani đáp: \"Ừ, mình đã nói rồi.\" Đêm ấy, Dorani hát hay chưa từng thấy.",
+        "Vua tiên Indra đứng dậy, hứa sẽ cho nàng bất cứ thứ gì nàng xin.",
+        "Nàng ngập ngừng, rồi nói: \"Xin bệ hạ ban cho cây đàn thần.\"",
+        "Vua tiên hối hận vì đã hứa, bởi đó là báu vật ông quý nhất. Nhưng đã hứa thì phải giữ lời.",
+        "Ông trao cây đàn và nói: \"Từ nay nàng đừng tới đây nữa.",
+        "Đã xin món quà lớn thế, sao còn bằng lòng với quà nhỏ?\"",
+        "Dorani lặng lẽ cúi đầu nhận đàn, rồi cùng nàng tiên ra cổng.",
+        "Chiếc ghế chòng chành bay về trần gian."
+      ],
+      "image": {
+        "prompt": "a radiant fairy king handing a glowing magical lute to a maiden with golden hair who bows her head, her fairy friend watching in surprise, celestial clouds and pillars around them",
+        "seed": 93182613,
+        "character": "dorani"
+      },
+      "video": {
+        "motionPrompt": "the lute glows softly as it passes between their hands, the clouds swirl, the fairy friend covers her mouth in surprise",
+        "seed": 549310349
+      },
+      "voice": {}
+    },
+    {
+      "id": "khong-bao-gio-roi-xa",
+      "title": "Không bao giờ rời xa",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng ấy về cung, Dorani hỏi hoàng tử: \"Đêm qua chàng có mơ nữa không?\" Chàng cười hạnh phúc, vì lần đầu nàng tự nói với chàng. \"Không. Nhưng giờ ta bắt đầu mơ, không phải về những gì đã qua, mà về những gì sắp tới.\" Cả ngày hôm ấy, chàng hỏi gì nàng cũng đáp. Chiều buông, tới giờ về, Dorani vẫn ngồi yên. Hoàng tử khẽ hỏi: \"Nàng không về nhà sao, Dorani?\" Nàng đứng dậy, ôm lấy chàng, rưng rưng: \"Không bao giờ nữa, thiếp không bao giờ rời xa chàng nữa.\" Từ đó, hai người chẳng dính dáng gì tới tiên và phép thuật nữa. Nhưng ngày nào họ cũng học thêm một thứ phép màu khác, phép màu của tình thương, thứ phép mà đến giờ ai cũng còn học được.",
+      "subtitles": [
+        "Sáng ấy về cung, Dorani hỏi hoàng tử: \"Đêm qua chàng có mơ nữa không?\"",
+        "Chàng cười hạnh phúc, vì lần đầu nàng tự nói với chàng. \"Không.",
+        "Nhưng giờ ta bắt đầu mơ, không phải về những gì đã qua, mà về những gì sắp tới.\"",
+        "Cả ngày hôm ấy, chàng hỏi gì nàng cũng đáp. Chiều buông, tới giờ về, Dorani vẫn ngồi yên.",
+        "Hoàng tử khẽ hỏi: \"Nàng không về nhà sao, Dorani?\"",
+        "Nàng đứng dậy, ôm lấy chàng, rưng rưng: \"Không bao giờ nữa,",
+        "thiếp không bao giờ rời xa chàng nữa.\"",
+        "Từ đó, hai người chẳng dính dáng gì tới tiên và phép thuật nữa.",
+        "Nhưng ngày nào họ cũng học thêm một thứ phép màu khác, phép màu của tình thương,",
+        "thứ phép mà đến giờ ai cũng còn học được."
+      ],
+      "image": {
+        "prompt": "a tender scene at sunset in a palace room, a maiden with long golden hair embracing a happy young prince, a magical lute resting nearby, warm golden light through carved windows and rose petals on the floor",
+        "seed": 150911318,
+        "character": "dorani"
+      },
+      "video": {
+        "motionPrompt": "warm sunset light glows, rose petals drift slowly, the couple holds each other close",
+        "seed": 1722824901
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "dreamy romantic Indian instrumental, santoor, sitar and soft bansuri flute with gentle tanpura drone, magical moonlit mood turning tender and warm, slow tempo, no vocals",
+    "durationSeconds": 150,
+    "seed": 1881949531
+  }
+}

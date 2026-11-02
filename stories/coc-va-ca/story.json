@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "slug": "coc-va-ca",
+  "shelf": "kids",
+  "title": "Cốc và cá",
+  "summary": "Đàn cá kiện chim cốc lên vua Thủy Tề vì cốc cứ lặn xuống bắt cá. Nhưng cốc bay lượn mấy vòng, cãi rằng mình là chim thì sao lặn được, khiến vua tin ngay. Truyện ngụ ngôn dân gian về sự khôn ranh, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ nước Nam – Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ thêm lời Mèo Miu mở đầu và kết thúc, thêm thoại, kể cốc bắt cá mà không tả cảnh cá bị ăn, và rút ý nhẹ ở cuối: đừng chỉ tin lời nói, phải nhìn việc làm.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, Vietnamese river and lake with lotus, reeds and fishing boats, a magical underwater palace of the Water King with coral and shells, clear blue-green water, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2344630535
+    },
+    {
+      "id": "coc",
+      "name": "Chim cốc",
+      "seed": 3817115122,
+      "sheetPrompt": "a sleek black cormorant bird with a hooked beak, shiny feathers and a sly clever grin, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ca",
+      "name": "Đàn cá",
+      "seed": 504714380,
+      "sheetPrompt": "a group of small cute colorful river fish, a carp, a perch and a little catfish, worried big eyes, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "thuy-te",
+      "name": "Vua Thủy Tề",
+      "seed": 157591282,
+      "sheetPrompt": "a round friendly underwater king with a long seaweed-green beard, a pearl crown and a blue-green royal robe with fish scales, sitting on a shell throne, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã bao giờ thấy chim cốc chưa? Cốc là loài chim lông đen, lặn dưới nước giỏi lắm, chuyên bắt cá. Ngày xưa, đàn cá dưới sông bực mình vì cốc lắm, bèn rủ nhau đi kiện. Nhưng anh cốc lại khôn ranh hơn cả. Cốc đã nói gì với nhà vua? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn đã bao giờ thấy chim cốc chưa?",
+        "Cốc là loài chim lông đen, lặn dưới nước giỏi lắm, chuyên bắt cá.",
+        "Ngày xưa, đàn cá dưới sông bực mình vì cốc lắm, bèn rủ nhau đi kiện.",
+        "Nhưng anh cốc lại khôn ranh hơn cả.",
+        "Cốc đã nói gì với nhà vua? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a riverbank with lotus flowers, pointing at a black cormorant diving into the water, an open picture book on a rock beside her",
+        "seed": 1012045557
+      },
+      "video": {
+        "motionPrompt": "the cat points as the cormorant dives with a splash, ripples spread, lotus leaves bob, slow gentle camera push-in",
+        "seed": 2353221598
+      },
+      "voice": {}
+    },
+    {
+      "id": "ca-di-kien",
+      "title": "Đàn cá đi kiện",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một khúc sông có con chim cốc. Ngày nào cốc cũng lặn ùm xuống nước, đuổi bắt cá, mỗi ngày một ít. Đàn cá sợ hãi, trốn mãi cũng chẳng được yên. Cá chép bảo cả đàn: Cứ thế này thì họ nhà mình còn đâu nữa! Chúng mình xuống kiện vua Thủy Tề đi! Cả đàn đồng thanh: Phải đấy! Thế là cá rủ nhau bơi xuống tận cung điện dưới đáy sông.",
+      "subtitles": [
+        "Ngày xưa, ở một khúc sông có con chim cốc.",
+        "Ngày nào cốc cũng lặn ùm xuống nước, đuổi bắt cá, mỗi ngày một ít.",
+        "Đàn cá sợ hãi, trốn mãi cũng chẳng được yên.",
+        "Cá chép bảo cả đàn: Cứ thế này thì họ nhà mình còn đâu nữa!",
+        "Chúng mình xuống kiện vua Thủy Tề đi!",
+        "Cả đàn đồng thanh: Phải đấy!",
+        "Thế là cá rủ nhau bơi xuống tận cung điện dưới đáy sông."
+      ],
+      "image": {
+        "character": "ca",
+        "prompt": "a group of small worried river fish gather in a circle under the water, a carp leads them, they swim together toward a glowing underwater palace with coral and shells, a dark bird shadow above the surface",
+        "seed": 2239442091
+      },
+      "video": {
+        "motionPrompt": "the fish huddle and nod, then swim off in a line toward the glowing palace, bubbles rise, the bird shadow passes overhead, sunbeams in the water",
+        "seed": 3622734019
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-kien",
+      "title": "Lời kiện của cá",
+      "narrator": "ke-chuyen",
+      "narration": "Vua Thủy Tề ngồi trên ngai vỏ sò, hỏi: Các ngươi có việc gì? Cá chép thưa: Muôn tâu Đại Vương, chúng con sống dưới nước, chẳng động chạm gì đến anh cốc. Thế mà anh ấy cứ thấy chúng con là lặn xuống bắt đi. Xin Đại Vương xét cho, kẻo chúng con khổ lắm ạ. Vua Thủy Tề nghe xong, nổi giận vỗ ngai: Thật quá quắt! Mau gọi cốc xuống đây cho ta hỏi!",
+      "subtitles": [
+        "Vua Thủy Tề ngồi trên ngai vỏ sò, hỏi: Các ngươi có việc gì?",
+        "Cá chép thưa: Muôn tâu Đại Vương, chúng con sống dưới nước,",
+        "chẳng động chạm gì đến anh cốc.",
+        "Thế mà anh ấy cứ thấy chúng con là lặn xuống bắt đi.",
+        "Xin Đại Vương xét cho, kẻo chúng con khổ lắm ạ.",
+        "Vua Thủy Tề nghe xong, nổi giận vỗ ngai: Thật quá quắt!",
+        "Mau gọi cốc xuống đây cho ta hỏi!"
+      ],
+      "image": {
+        "character": "thuy-te",
+        "prompt": "in a magical underwater palace, a round friendly king with a seaweed-green beard and pearl crown sits on a big shell throne listening, the little fish bow before him, coral and pearls glow",
+        "seed": 3617195888
+      },
+      "video": {
+        "motionPrompt": "the fish bow and wave their fins, the king strokes his beard then taps the throne firmly, bubbles swirl, coral sways softly",
+        "seed": 3414225049
+      },
+      "voice": {}
+    },
+    {
+      "id": "coc-bay",
+      "title": "Cốc bay lượn",
+      "narrator": "ke-chuyen",
+      "narration": "Cốc được gọi xuống, chẳng chút sợ hãi, lễ phép thưa: Muôn tâu Đại Vương, cá nói oan cho con đấy ạ. Con là loài chim, chim thì bay trên trời, làm sao mà lặn xuống nước bắt cá được? Nếu Đại Vương không tin, xin cho con bay thử để ngài xem. Nói rồi, cốc giang đôi cánh đen, bay vút lên, lượn một vòng, hai vòng, ba vòng, trông oai lắm.",
+      "subtitles": [
+        "Cốc được gọi xuống, chẳng chút sợ hãi, lễ phép thưa: Muôn tâu Đại Vương,",
+        "cá nói oan cho con đấy ạ.",
+        "Con là loài chim, chim thì bay trên trời, làm sao mà lặn xuống nước bắt cá được?",
+        "Nếu Đại Vương không tin, xin cho con bay thử để ngài xem.",
+        "Nói rồi, cốc giang đôi cánh đen, bay vút lên, lượn một vòng, hai vòng, ba vòng,",
+        "trông oai lắm."
+      ],
+      "image": {
+        "character": "coc",
+        "prompt": "a sleek black cormorant spreads its wings and circles gracefully above the water surface of the river, the round underwater king peeks up through the water with wide eyes, the little fish look shocked",
+        "seed": 2871362112
+      },
+      "video": {
+        "motionPrompt": "the cormorant flaps and loops three times in the sky, its shadow circles on the water, the king gazes up amazed, the fish open their mouths, comic timing",
+        "seed": 1977713314
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-tin",
+      "title": "Vua tin lời cốc",
+      "narrator": "ke-chuyen",
+      "narration": "Vua Thủy Tề thấy cốc bay giỏi thế thì gật gù, rồi quay sang mắng đàn cá: Các ngươi dám đổ oan cho người ta! Nó là chim, nó bay trên trời, lặn dưới nước sao được! Thôi về đi! Đàn cá ấm ức, chẳng biết nói sao. Cốc mỉm cười, bay đi luôn. Từ đó, cốc vẫn lặn bắt cá như thường. Cá chỉ còn cách nhanh chân lủi vào bụi rong mà trốn. Người ta bảo: Không ai khôn bằng cốc.",
+      "subtitles": [
+        "Vua Thủy Tề thấy cốc bay giỏi thế thì gật gù,",
+        "rồi quay sang mắng đàn cá: Các ngươi dám đổ oan cho người ta!",
+        "Nó là chim, nó bay trên trời, lặn dưới nước sao được!",
+        "Thôi về đi!",
+        "Đàn cá ấm ức, chẳng biết nói sao. Cốc mỉm cười, bay đi luôn.",
+        "Từ đó, cốc vẫn lặn bắt cá như thường.",
+        "Cá chỉ còn cách nhanh chân lủi vào bụi rong mà trốn.",
+        "Người ta bảo: Không ai khôn bằng cốc."
+      ],
+      "image": {
+        "character": "thuy-te",
+        "prompt": "the underwater king waves the sad little fish away, the fish hide among long water weeds, above the river the sly black cormorant flies off grinning toward the reeds and fishing boats",
+        "seed": 2435186838
+      },
+      "video": {
+        "motionPrompt": "the king waves his hand, the fish swim slowly into the weeds and peek out, the cormorant soars away over the river, reeds sway in the breeze",
+        "seed": 2596298710
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, cốc vừa bay vừa lặn đều giỏi, nhưng chỉ khoe cái bay để lừa nhà vua. Còn vua Thủy Tề chỉ nghe lời nói khéo mà chẳng chịu xem kỹ. Muốn biết ai đúng ai sai, mình phải nhìn xem người ta làm gì, chứ đừng chỉ nghe nói, các bạn nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, cốc vừa bay vừa lặn đều giỏi, nhưng chỉ khoe cái bay để lừa nhà vua.",
+        "Còn vua Thủy Tề chỉ nghe lời nói khéo mà chẳng chịu xem kỹ.",
+        "Muốn biết ai đúng ai sai, mình phải nhìn xem người ta làm gì, chứ đừng chỉ nghe nói,",
+        "các bạn nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye on a riverbank with lotus flowers, a cormorant perches on a fishing pole in the distance, little fish peek out of the clear water",
+        "seed": 4034061059
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the fish blow bubbles, the cormorant ruffles its feathers, lotus flowers sway, gentle camera pull-back",
+        "seed": 2545837237
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "flowing Vietnamese river folk melody, dan tranh zither and bamboo flute with soft water-like plucks, sly and playful then calm, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 563217358
+  }
+}

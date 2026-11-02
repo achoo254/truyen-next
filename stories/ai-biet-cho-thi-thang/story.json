@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "slug": "ai-biet-cho-thi-thang",
+  "shelf": "world",
+  "title": "Ai biết chờ thì thắng",
+  "summary": "Nàng công chúa trao quả táo vàng cho chàng trai nghèo con bà goá và bị vua cha đuổi khỏi cung. Chàng đi theo đoàn lạc đà, mang theo ba lời khuyên của một ông lão bên giếng, và chính những lời ấy đã cứu chàng dưới giếng thần lẫn hai mươi năm sau. Truyện dân gian Armenia trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "tinh-yeu",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"He Wins who Waits\" trong The Olive Fairy Book do Andrew Lang biên tập (1907; Lang chép từ tập Contes Arméniens của Frédéric Macler), Project Gutenberg #27826, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính; hai đứa trẻ dưới giếng chỉ khác nhau ở vẻ đẹp, hình phạt dưới giếng kể nhẹ thành bị giữ lại mãi, và cơn giận của người chồng không có cung tên, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Armenia, Andrew Lang chép (1907)",
+  "style": "classic Armenian and Middle Eastern fairy tale picture book illustration, stone villages among apricot orchards, a long camel caravan crossing a rocky desert, a glowing underground hall by a clear stream, a palace on golden pillars beside a tiny cottage, soft gouache textures, colors of apricot, desert sand, emerald and pomegranate red, warm hopeful mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chang-trai",
+      "name": "Con trai bà goá",
+      "sheetPrompt": "a kind honest young Armenian man from an old folk tale, dark curly hair, frank smiling eyes, simple brown tunic and sash, later a traveller with a turban and a goat-skin water bag, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2149306832
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "sheetPrompt": "a clever spirited Armenian princess from an old folk tale, long dark braids, green gown with a flowing golden veil, holding a golden apple, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3136305468
+    },
+    {
+      "id": "ong-lao",
+      "name": "Ông lão bên giếng",
+      "sheetPrompt": "a wise old man from an old Armenian folk tale sitting by a stone well, long white beard, grey robe, gentle deep eyes, wooden staff, full body, front and side views, plain light background, character reference sheet",
+      "seed": 240420646
+    }
+  ],
+  "scenes": [
+    {
+      "id": "qua-tao-vang",
+      "title": "Quả táo vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một nhà vua chỉ có một cô con gái. Nàng xinh đẹp, thông minh mà lại bướng bỉnh. Đến tuổi lấy chồng, nàng không chịu người cha chọn, mà nói: “Xin cha gọi hết trai tráng trong nước đến đây. Con trao quả táo vàng này cho ai thì người ấy là chồng con.” Ngày hẹn, trai tráng đứng chật sân. Công chúa đi qua từng hàng, rồi dừng lại trước một chàng trai ở gần cuối. Chàng chẳng đẹp trai hơn ai, áo quần cũng xoàng, nhưng nhìn nàng thẳng thắn và mỉm cười. Nàng cũng mỉm cười, trao quả táo. Vua kêu: “Nhầm rồi! Nó là con một bà goá nghèo!” Công chúa đi lại hai lượt nữa, lần nào cũng trao táo cho chàng. Vua giận: “Muốn lấy thì lấy, nhưng đừng ở đây nữa!” Công chúa ngẩng cao đầu, nắm tay chàng trai bước ra khỏi cung.",
+      "subtitles": [
+        "Ngày xưa, có một nhà vua chỉ có một cô con gái.",
+        "Nàng xinh đẹp, thông minh mà lại bướng bỉnh.",
+        "Đến tuổi lấy chồng, nàng không chịu người cha chọn, mà nói:",
+        "“Xin cha gọi hết trai tráng trong nước đến đây.",
+        "Con trao quả táo vàng này cho ai thì người ấy là chồng con.”",
+        "Ngày hẹn, trai tráng đứng chật sân.",
+        "Công chúa đi qua từng hàng, rồi dừng lại trước một chàng trai ở gần cuối.",
+        "Chàng chẳng đẹp trai hơn ai, áo quần cũng xoàng, nhưng nhìn nàng thẳng thắn và mỉm cười.",
+        "Nàng cũng mỉm cười, trao quả táo. Vua kêu: “Nhầm rồi! Nó là con một bà goá nghèo!”",
+        "Công chúa đi lại hai lượt nữa, lần nào cũng trao táo cho chàng.",
+        "Vua giận: “Muốn lấy thì lấy, nhưng đừng ở đây nữa!”",
+        "Công chúa ngẩng cao đầu, nắm tay chàng trai bước ra khỏi cung."
+      ],
+      "image": {
+        "prompt": "a palace courtyard full of young men in rows, a princess in a green gown and golden veil holding out a golden apple to a plainly dressed smiling young man, the king throwing up his hands in dismay",
+        "seed": 359191347,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the golden veil flutters, the apple gleams as it passes hand to hand, the king stamps his foot",
+        "seed": 3803239641
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-loi-khuyen",
+      "title": "Ba lời khuyên",
+      "narrator": "ke-chuyen",
+      "narration": "Bà mẹ chồng thấy con dâu là con nhà vua thì càu nhàu: “Đã nghèo lại rước thêm cô tiểu thư chẳng biết làm gì.” Công chúa vuốt tay bà: “Mẹ đừng lo, con kéo sợi giỏi lắm.” Nàng kéo sợi suốt ngày, nhưng cả nhà vẫn nghèo mãi. Sáu tháng sau, chàng trai xin làm người giúp việc cho một nhà buôn sắp dẫn đoàn lạc đà đi xa, được trả trước tiền công một năm. Lúc chia tay, công chúa dặn: “Qua cái giếng gần cổng thành, chàng hãy chào ông lão ngồi đó, hôn tay ông và xin ông một lời khuyên.” Ông lão bảo: “Con hãy nhớ ba điều. Người lòng mình thương bao giờ cũng là người đẹp nhất. Kiên nhẫn là bước đầu của hạnh phúc. Ai biết chờ thì thắng.”",
+      "subtitles": [
+        "Bà mẹ chồng thấy con dâu là con nhà vua thì càu nhàu:",
+        "“Đã nghèo lại rước thêm cô tiểu thư chẳng biết làm gì.”",
+        "Công chúa vuốt tay bà: “Mẹ đừng lo, con kéo sợi giỏi lắm.”",
+        "Nàng kéo sợi suốt ngày, nhưng cả nhà vẫn nghèo mãi.",
+        "Sáu tháng sau,",
+        "chàng trai xin làm người giúp việc cho một nhà buôn sắp dẫn đoàn lạc đà đi xa,",
+        "được trả trước tiền công một năm.",
+        "Lúc chia tay, công chúa dặn: “Qua cái giếng gần cổng thành,",
+        "chàng hãy chào ông lão ngồi đó, hôn tay ông và xin ông một lời khuyên.”",
+        "Ông lão bảo: “Con hãy nhớ ba điều. Người lòng mình thương bao giờ cũng là người đẹp nhất.",
+        "Kiên nhẫn là bước đầu của hạnh phúc. Ai biết chờ thì thắng.”"
+      ],
+      "image": {
+        "prompt": "by an old stone well near a city gate, a young traveller kneeling respectfully to kiss the hand of a white bearded old man, a camel caravan waiting in the distance at sunrise",
+        "seed": 488788551,
+        "character": "ong-lao"
+      },
+      "video": {
+        "motionPrompt": "the old man raises three fingers one by one, the young man nods, camels shift and bells jingle",
+        "seed": 1362078255
+      },
+      "voice": {}
+    },
+    {
+      "id": "gieng-than",
+      "title": "Giếng thần giữa sa mạc",
+      "narrator": "ke-chuyen",
+      "narration": "Đoàn lạc đà đi vào vùng đá khô cằn, đã lâu không có một giọt mưa. Người và vật đều khát khô cổ. Cách đó không xa có một cái giếng sâu lúc nào cũng có nước, nhưng ai xuống đó cũng không bao giờ trở lên. Các nhà buôn rao: ai dám xuống lấy nước, mỗi người sẽ thưởng một nghìn đồng. Chàng trai nghĩ ngợi một lúc rồi nói: “Tôi xin đi.” Ông chủ can mãi không được, bèn bảo: “Nếu con trở về, ta cho con cả một lưng lạc đà hàng và con la tốt nhất.” Người ta buộc dây quanh người chàng, đưa cho chàng một túi da lớn, rồi thả chàng xuống đáy giếng.",
+      "subtitles": [
+        "Đoàn lạc đà đi vào vùng đá khô cằn, đã lâu không có một giọt mưa.",
+        "Người và vật đều khát khô cổ.",
+        "Cách đó không xa có một cái giếng sâu lúc nào cũng có nước,",
+        "nhưng ai xuống đó cũng không bao giờ trở lên.",
+        "Các nhà buôn rao: ai dám xuống lấy nước, mỗi người sẽ thưởng một nghìn đồng.",
+        "Chàng trai nghĩ ngợi một lúc rồi nói: “Tôi xin đi.”",
+        "Ông chủ can mãi không được, bèn bảo: “Nếu con trở về,",
+        "ta cho con cả một lưng lạc đà hàng và con la tốt nhất.”",
+        "Người ta buộc dây quanh người chàng, đưa cho chàng một túi da lớn,",
+        "rồi thả chàng xuống đáy giếng."
+      ],
+      "image": {
+        "prompt": "a rocky desert camp with thirsty camels and merchants, a brave young man being lowered by a rope into a deep stone well, holding a large goat-skin water bag, the crowd watching anxiously",
+        "seed": 3710650344,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the rope slowly lowers, merchants lean over the edge, a camel shakes its head in the hot wind",
+        "seed": 3077512455
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-hoi-duoi-gieng",
+      "title": "Câu hỏi dưới giếng",
+      "narrator": "ke-chuyen",
+      "narration": "Dưới đáy giếng có một dòng suối trong vắt. Chàng vừa cúi xuống uống thì một người đàn ông cao lớn hiện ra: “Đi theo ta!” Ông ta dẫn chàng vào một gian điện sáng rực, ngồi xuống, kéo hai đứa con trai lại gần. Một đứa xinh đẹp như tranh, đứa kia trông rất bình thường. “Ta hỏi một câu. Đáp đúng thì ngươi được về. Đáp sai thì ngươi phải ở lại đây mãi như bao người trước. Trong hai đứa con, ta cho đứa nào đẹp hơn?” Chàng toan trả lời ngay, nhưng chợt nhớ lời ông lão: “Người lòng mình thương bao giờ cũng là người đẹp nhất.” Người đàn ông mừng rỡ ôm chầm lấy chàng: “Ngươi cứu ta rồi! Ta bị phù phép phải ở đây cho đến khi có người đáp đúng.” Ông cho chàng ba quả táo để lên được mặt đất bình an, và ba quả lựu xanh, đỏ, trắng: “Sẽ có ngày con cần đến chúng.”",
+      "subtitles": [
+        "Dưới đáy giếng có một dòng suối trong vắt.",
+        "Chàng vừa cúi xuống uống thì một người đàn ông cao lớn hiện ra: “Đi theo ta!”",
+        "Ông ta dẫn chàng vào một gian điện sáng rực, ngồi xuống, kéo hai đứa con trai lại gần.",
+        "Một đứa xinh đẹp như tranh, đứa kia trông rất bình thường. “Ta hỏi một câu.",
+        "Đáp đúng thì ngươi được về. Đáp sai thì ngươi phải ở lại đây mãi như bao người trước.",
+        "Trong hai đứa con, ta cho đứa nào đẹp hơn?”",
+        "Chàng toan trả lời ngay, nhưng chợt nhớ lời ông lão:",
+        "“Người lòng mình thương bao giờ cũng là người đẹp nhất.”",
+        "Người đàn ông mừng rỡ ôm chầm lấy chàng: “Ngươi cứu ta rồi!",
+        "Ta bị phù phép phải ở đây cho đến khi có người đáp đúng.”",
+        "Ông cho chàng ba quả táo để lên được mặt đất bình an, và ba quả lựu xanh, đỏ, trắng:",
+        "“Sẽ có ngày con cần đến chúng.”"
+      ],
+      "image": {
+        "prompt": "a glowing underground hall beside a clear bubbling stream, a tall man in rich robes with two little boys at his side, one strikingly pretty and one plain, both loved, the young traveller answering thoughtfully",
+        "seed": 212073918,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the stream sparkles, the tall man jumps up and hugs the traveller, light brightens the hall",
+        "seed": 1612312190
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-muoi-nam-xa-nha",
+      "title": "Hai mươi năm xa nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng trai được kéo lên, túi nước đầy ắp. Lạc đà uống, người uống, mà túi nước vẫn đầy như cũ. Các nhà buôn trả thưởng, ông chủ cho chàng hàng hoá và con la. Chàng nhờ người mang tiền và con la về cho vợ. Chàng toan gửi luôn ba quả lựu, mở khăn ra thì thấy chúng đã hoá thành ba viên ngọc xanh, trắng, đỏ. Chàng gửi cả về nhà. Ông chủ ngày càng tin chàng, giao hết việc buôn bán. Ông mất đi, bà chủ lại nhờ chàng ở lại giúp. Một sáng, chàng giật mình nhận ra đã hai mươi năm trôi qua. Chàng nói: “Tôi phải về với vợ tôi.” Rồi chàng cưỡi lạc đà lên đường.",
+      "subtitles": [
+        "Chàng trai được kéo lên, túi nước đầy ắp.",
+        "Lạc đà uống, người uống, mà túi nước vẫn đầy như cũ.",
+        "Các nhà buôn trả thưởng, ông chủ cho chàng hàng hoá và con la.",
+        "Chàng nhờ người mang tiền và con la về cho vợ.",
+        "Chàng toan gửi luôn ba quả lựu, mở khăn ra thì thấy chúng đã hoá thành ba viên ngọc xanh,",
+        "trắng, đỏ. Chàng gửi cả về nhà. Ông chủ ngày càng tin chàng, giao hết việc buôn bán.",
+        "Ông mất đi, bà chủ lại nhờ chàng ở lại giúp.",
+        "Một sáng, chàng giật mình nhận ra đã hai mươi năm trôi qua.",
+        "Chàng nói: “Tôi phải về với vợ tôi.” Rồi chàng cưỡi lạc đà lên đường."
+      ],
+      "image": {
+        "prompt": "camels and merchants drinking happily from an overflowing goat-skin bag in the desert, the young man opening a cloth to find three pomegranates turned into green, white and red jewels",
+        "seed": 1375549791,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "water splashes into bowls, camels drink, the pomegranates shimmer and turn into glowing gems",
+        "seed": 4167866217
+      },
+      "voice": {}
+    },
+    {
+      "id": "vien-ngoc-quy",
+      "title": "Viên ngọc quý",
+      "narrator": "ke-chuyen",
+      "narration": "Ở nhà, sau khi chàng đi ít lâu, công chúa sinh một bé trai. Khi tiền và ba quả lựu được gửi về, công chúa biết ngay đó là ngọc quý. Bà mẹ chồng lại tưởng là quả thật, định cho cháu ăn. Công chúa vội cất ngọc đi, ra chợ mua ba quả lựu ngon nhất đưa bà. Nàng bảo mẹ chồng mang một viên vào dâng vua, chỉ xin một tờ giấy có ấn vua, cho phép bà muốn làm gì cũng được. Viên hồng ngọc đẹp đến nỗi cả kho vàng của vua cũng không đủ mua, nên vua vui vẻ trao tờ giấy. Hai viên kia, vua các nước tranh nhau trả giá. Công chúa dựng một toà lâu đài trên cột vàng ngay cạnh căn nhà nhỏ. Nhà vua đi qua, thấy một chàng trai hai mươi tuổi đứng ở cửa, mến quá, đưa về cung phong làm tướng, mà chẳng biết đó là cháu ngoại mình.",
+      "subtitles": [
+        "Ở nhà, sau khi chàng đi ít lâu, công chúa sinh một bé trai.",
+        "Khi tiền và ba quả lựu được gửi về, công chúa biết ngay đó là ngọc quý.",
+        "Bà mẹ chồng lại tưởng là quả thật, định cho cháu ăn.",
+        "Công chúa vội cất ngọc đi, ra chợ mua ba quả lựu ngon nhất đưa bà.",
+        "Nàng bảo mẹ chồng mang một viên vào dâng vua, chỉ xin một tờ giấy có ấn vua,",
+        "cho phép bà muốn làm gì cũng được.",
+        "Viên hồng ngọc đẹp đến nỗi cả kho vàng của vua cũng không đủ mua,",
+        "nên vua vui vẻ trao tờ giấy. Hai viên kia, vua các nước tranh nhau trả giá.",
+        "Công chúa dựng một toà lâu đài trên cột vàng ngay cạnh căn nhà nhỏ.",
+        "Nhà vua đi qua, thấy một chàng trai hai mươi tuổi đứng ở cửa, mến quá,",
+        "đưa về cung phong làm tướng, mà chẳng biết đó là cháu ngoại mình."
+      ],
+      "image": {
+        "prompt": "a dazzling small palace on golden pillars set with sparkling diamonds beside a tiny old cottage, an old king on horseback admiring a handsome young man of twenty at the doorway",
+        "seed": 2850529120,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the golden pillars glitter in the sun, the king smiles and beckons, the young man bows",
+        "seed": 4048076425
+      },
+      "voice": {}
+    },
+    {
+      "id": "ai-biet-cho-thi-thang",
+      "title": "Ai biết chờ thì thắng",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng trai về đến làng, thấy căn nhà nhỏ vẫn còn đó, bên cạnh là một toà lâu đài lạ. Chàng trèo lên cây trước cửa mà nhìn. Một người đàn bà bước ra hái hoa. Chàng nhận ngay ra vợ mình. Chàng toan nhảy xuống thì một chàng trai trẻ bước tới, quàng tay ôm vai nàng. Chàng giận đến nóng bừng mặt, nhưng nhớ lời: “Kiên nhẫn là bước đầu của hạnh phúc.” Nàng quay lại hôn lên má chàng trai trẻ. Chàng lại giận, rồi lại nhớ: “Ai biết chờ thì thắng.” Bỗng chàng trai trẻ hỏi: “Mẹ ơi, cha con còn sống không? Đêm qua con mơ thấy cha về. Mai con sẽ xin vua cho người đi tìm cha khắp thế gian.” Người ngồi trên cây tụt xuống, ôm chầm lấy vợ con. Cả nhà kể chuyện suốt đêm. Sáng ra, chàng vào chầu vua. Nhà vua mừng rỡ vì con gái đã sống ngay cạnh mình, lại là mẹ của chàng tướng trẻ vua thương. Vua tha thứ hết, cho chàng làm con rể và nối ngôi sau này. Chàng đã biết chờ, và chàng đã thắng.",
+      "subtitles": [
+        "Chàng trai về đến làng, thấy căn nhà nhỏ vẫn còn đó, bên cạnh là một toà lâu đài lạ.",
+        "Chàng trèo lên cây trước cửa mà nhìn. Một người đàn bà bước ra hái hoa.",
+        "Chàng nhận ngay ra vợ mình.",
+        "Chàng toan nhảy xuống thì một chàng trai trẻ bước tới, quàng tay ôm vai nàng.",
+        "Chàng giận đến nóng bừng mặt, nhưng nhớ lời: “Kiên nhẫn là bước đầu của hạnh phúc.”",
+        "Nàng quay lại hôn lên má chàng trai trẻ.",
+        "Chàng lại giận, rồi lại nhớ: “Ai biết chờ thì thắng.”",
+        "Bỗng chàng trai trẻ hỏi: “Mẹ ơi, cha con còn sống không? Đêm qua con mơ thấy cha về.",
+        "Mai con sẽ xin vua cho người đi tìm cha khắp thế gian.”",
+        "Người ngồi trên cây tụt xuống, ôm chầm lấy vợ con. Cả nhà kể chuyện suốt đêm.",
+        "Sáng ra, chàng vào chầu vua.",
+        "Nhà vua mừng rỡ vì con gái đã sống ngay cạnh mình,",
+        "lại là mẹ của chàng tướng trẻ vua thương.",
+        "Vua tha thứ hết, cho chàng làm con rể và nối ngôi sau này.",
+        "Chàng đã biết chờ, và chàng đã thắng."
+      ],
+      "image": {
+        "prompt": "a man in travel clothes climbing down from a tree in front of a golden palace porch covered with roses and jasmine, joyfully embracing his wife and their grown son at sunset",
+        "seed": 133559202,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the man climbs down, the wife drops her flowers, the son runs forward, all three hug as petals fall",
+        "seed": 2326460257
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm Armenian folk melody, duduk, kanun and soft dhol, a gentle travelling rhythm for the camel caravan, a mysterious shimmer for the enchanted well, a heartfelt joyful reunion ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4121907895
+  }
+}

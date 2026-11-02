@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "slug": "cuoc-keu-trang",
+  "shelf": "kids",
+  "title": "Cuốc kêu trăng",
+  "summary": "Người vợ ngày đêm ngóng trăng chờ chồng đi lính xa trở về, chờ mãi rồi hoá thành con chim cuốc. Sự tích vì sao chim cuốc cứ đêm trăng lại kêu cuốc cuốc, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "su-tich",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ nước Nam – Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ không nói đến cái chết: người chồng đi xa mãi không về, người vợ chờ mong rồi hoá thành chim cuốc; thêm lời Mèo Miu mở đầu và kết thúc, thêm thoại, và rút ý nhẹ ở cuối về tình thương nhớ người thân.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, Vietnamese thatched village house with a moonlit yard, bamboo hedge, rice fields and a big round full moon, gentle blue night tones, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3779459077
+    },
+    {
+      "id": "nguoi-vo",
+      "name": "Người vợ",
+      "seed": 3821599606,
+      "sheetPrompt": "a kind young Vietnamese village woman in a simple brown ao tu than and black headscarf, gentle hopeful face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-chong",
+      "name": "Người chồng",
+      "seed": 3304344639,
+      "sheetPrompt": "a young Vietnamese village man in a plain old-style soldier tunic and conical hat, kind smile, carrying a small bundle, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chim-cuoc",
+      "name": "Chim cuốc",
+      "seed": 952341648,
+      "sheetPrompt": "a small dark grey-brown water hen bird with a white face and a short beak, gentle sad eyes, cute and soft, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Những đêm trăng sáng ở làng quê, các bạn có nghe thấy tiếng chim kêu cuốc, cuốc, cuốc vọng ra từ bờ ruộng không? Đó là tiếng chim cuốc đấy. Tiếng kêu ấy nghe sao mà buồn buồn, như đang gọi ai. Các cụ ngày xưa kể rằng, chim cuốc đang gọi một người thân yêu. Vì sao lại thế nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Những đêm trăng sáng ở làng quê, các bạn có nghe thấy tiếng chim kêu cuốc, cuốc,",
+        "cuốc vọng ra từ bờ ruộng không? Đó là tiếng chim cuốc đấy.",
+        "Tiếng kêu ấy nghe sao mà buồn buồn, như đang gọi ai.",
+        "Các cụ ngày xưa kể rằng, chim cuốc đang gọi một người thân yêu.",
+        "Vì sao lại thế nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a bamboo bench in a moonlit village yard, cupping her ear to listen, a big round full moon above rice fields, an open picture book beside her",
+        "seed": 724388250
+      },
+      "video": {
+        "motionPrompt": "the cat cups her ear and listens, fireflies drift over the rice field, the moon glows softly, slow gentle camera push-in",
+        "seed": 2640303172
+      },
+      "voice": {}
+    },
+    {
+      "id": "tien-chong",
+      "title": "Tiễn chồng đi xa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng nọ có hai vợ chồng nghèo mà thương nhau lắm. Một hôm, người chồng phải đi lính ở nơi xa thật xa. Trước lúc đi, chồng nắm tay vợ, dặn: Mình ở nhà giữ gìn sức khoẻ, đợi tôi về nhé. Người vợ gạt nước mắt, gật đầu: Mình đi, tôi ở nhà trông trăng mà đợi. Rồi người chồng khoác tay nải lên vai, đi mãi, khuất sau rặng tre đầu làng.",
+      "subtitles": [
+        "Ngày xưa, ở một làng nọ có hai vợ chồng nghèo mà thương nhau lắm.",
+        "Một hôm, người chồng phải đi lính ở nơi xa thật xa.",
+        "Trước lúc đi, chồng nắm tay vợ, dặn: Mình ở nhà giữ gìn sức khoẻ, đợi tôi về nhé.",
+        "Người vợ gạt nước mắt, gật đầu: Mình đi, tôi ở nhà trông trăng mà đợi.",
+        "Rồi người chồng khoác tay nải lên vai, đi mãi, khuất sau rặng tre đầu làng."
+      ],
+      "image": {
+        "character": "nguoi-chong",
+        "prompt": "at the bamboo gate of a thatched village house, a young man with a small bundle on his shoulder holds the hands of his wife to say goodbye, the village path leads past bamboo groves",
+        "seed": 586660581
+      },
+      "video": {
+        "motionPrompt": "the husband squeezes his wife's hands and walks away down the path, turning to wave, the wife waves back, bamboo leaves sway in the breeze",
+        "seed": 2944539373
+      },
+      "voice": {}
+    },
+    {
+      "id": "khan-trang",
+      "title": "Đêm rằm ngóng trăng",
+      "narrator": "ke-chuyen",
+      "narration": "Từ đó, người vợ ở nhà ngày ngày cấy lúa, tối tối ngồi ngóng ra đầu làng. Cứ đến đêm rằm, trăng tròn vằng vặc, chị lại ra giữa sân, ngửa mặt lên trời mà khấn: Chị Hằng ơi, chị soi khắp mọi nơi, xin chị trông giúp chồng em. Mong cho chồng em mạnh khoẻ, vẹn tròn như ánh trăng, đừng quên đường về nhà nhé. Trăng vẫn sáng, nhưng người chồng vẫn chưa về.",
+      "subtitles": [
+        "Từ đó, người vợ ở nhà ngày ngày cấy lúa, tối tối ngồi ngóng ra đầu làng.",
+        "Cứ đến đêm rằm, trăng tròn vằng vặc, chị lại ra giữa sân,",
+        "ngửa mặt lên trời mà khấn: Chị Hằng ơi, chị soi khắp mọi nơi, xin chị trông giúp chồng em.",
+        "Mong cho chồng em mạnh khoẻ, vẹn tròn như ánh trăng, đừng quên đường về nhà nhé.",
+        "Trăng vẫn sáng, nhưng người chồng vẫn chưa về."
+      ],
+      "image": {
+        "character": "nguoi-vo",
+        "prompt": "on a full-moon night a young woman stands in the middle of her moonlit yard, hands together, looking up at a huge bright moon with a hopeful face, a little lamp glows in the house behind",
+        "seed": 1785186432
+      },
+      "video": {
+        "motionPrompt": "moonlight shimmers, the woman bows her head and looks up at the moon, a soft breeze moves her headscarf, clouds drift slowly past the moon",
+        "seed": 4279490282
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-chim",
+      "title": "Hoá thành chim cuốc",
+      "narrator": "ke-chuyen",
+      "narration": "Một năm, rồi lại nhiều năm trôi qua. Rồi có tin báo về rằng người chồng sẽ không bao giờ trở lại nữa. Người vợ thương chồng lắm. Đêm nào chị cũng ra sân, nhìn trăng mà khóc, khóc mãi, người gầy rộc đi. Rồi một đêm trăng, người ta không thấy chị đâu nữa. Chỉ thấy bên bờ ruộng có một con chim nhỏ, lông xám, cứ ngước nhìn trăng mà kêu: cuốc, cuốc, cuốc.",
+      "subtitles": [
+        "Một năm, rồi lại nhiều năm trôi qua.",
+        "Rồi có tin báo về rằng người chồng sẽ không bao giờ trở lại nữa.",
+        "Người vợ thương chồng lắm.",
+        "Đêm nào chị cũng ra sân, nhìn trăng mà khóc, khóc mãi, người gầy rộc đi.",
+        "Rồi một đêm trăng, người ta không thấy chị đâu nữa.",
+        "Chỉ thấy bên bờ ruộng có một con chim nhỏ, lông xám, cứ ngước nhìn trăng mà kêu: cuốc,",
+        "cuốc, cuốc."
+      ],
+      "image": {
+        "character": "chim-cuoc",
+        "prompt": "a small grey water hen bird stands on a rice field bank under a big full moon, looking up at the moon, the empty moonlit yard and thatched house in the distance, fireflies around",
+        "seed": 1394506915
+      },
+      "video": {
+        "motionPrompt": "the little bird lifts its head toward the moon and calls, moonlight ripples on the flooded rice field, fireflies drift, slow camera tilt up to the moon",
+        "seed": 3560978600
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-cuoc",
+      "title": "Tiếng cuốc đêm đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Làm chim cuốc rồi, mà vẫn chẳng quên người chồng. Mùa hè cũng như mùa đông, đêm nào có trăng, chim cuốc lại ra bờ ruộng mà kêu, tiếng kêu nỉ non như gọi chồng về. Người trong làng nghe thấy, thương lắm, mới đặt ra câu hát: Con cuốc mà kêu mùa đông, con cuốc thương chồng, tiếng khóc nỉ non. Từ đó, ai nghe tiếng cuốc cũng nhớ đến người vợ hiền năm xưa.",
+      "subtitles": [
+        "Làm chim cuốc rồi, mà vẫn chẳng quên người chồng.",
+        "Mùa hè cũng như mùa đông, đêm nào có trăng, chim cuốc lại ra bờ ruộng mà kêu,",
+        "tiếng kêu nỉ non như gọi chồng về.",
+        "Người trong làng nghe thấy, thương lắm, mới đặt ra câu hát: Con cuốc mà kêu mùa đông,",
+        "con cuốc thương chồng, tiếng khóc nỉ non.",
+        "Từ đó, ai nghe tiếng cuốc cũng nhớ đến người vợ hiền năm xưa."
+      ],
+      "image": {
+        "character": "chim-cuoc",
+        "prompt": "village children and grandparents sit on a moonlit porch listening quietly, a small grey water hen calls from the edge of the rice field, a round moon over the bamboo",
+        "seed": 4243209580
+      },
+      "video": {
+        "motionPrompt": "the bird calls softly, the grandmother hugs a child, moonlight sparkles on the water, a gentle breeze moves the rice",
+        "seed": 2320008567
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn ạ, chim cuốc kêu vì thương nhớ người thân của mình đấy. Ai cũng có những người mình thương, như bố, như mẹ, như ông bà. Khi còn ở bên nhau, mình hãy ôm thật chặt, nói lời yêu thương thật nhiều nhé. Lần sau nghe tiếng cuốc kêu ngoài đồng, các bạn nhớ đến câu chuyện này. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn ạ, chim cuốc kêu vì thương nhớ người thân của mình đấy.",
+        "Ai cũng có những người mình thương, như bố, như mẹ, như ông bà.",
+        "Khi còn ở bên nhau, mình hãy ôm thật chặt, nói lời yêu thương thật nhiều nhé.",
+        "Lần sau nghe tiếng cuốc kêu ngoài đồng, các bạn nhớ đến câu chuyện này.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye on a moonlit village yard, a small grey water hen on the rice field bank and a big gentle full moon behind her",
+        "seed": 180149944
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the bird hops on the bank, fireflies drift up toward the moon, gentle camera pull-back",
+        "seed": 4014528253
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender Vietnamese folk lullaby, dan bau monochord and soft bamboo flute, moonlit and wistful but warm, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2494050991
+  }
+}

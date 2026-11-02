@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "slug": "qua-bac-cau",
+  "shelf": "kids",
+  "title": "Quạ bắc cầu",
+  "summary": "Các phường thợ mộc được Ngọc Hoàng sai bắc cầu qua sông Ngân cho Ngưu Lang Chức Nữ gặp nhau, nhưng cãi nhau mãi chẳng xong. Vì thế họ hoá thành quạ, năm năm phải kết thành cầu. Sự tích vì sao tháng bảy quạ rụng lông đầu, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "su-tich",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ nước Nam – Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ thêm lời Mèo Miu mở đầu và kết thúc, thêm thoại giữa các phường thợ, kể nhẹ cảnh quạ mổ nhau thành cãi nhau xô đẩy, và rút ý nhẹ ở cuối: cùng làm thì phải biết nghe nhau.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, dreamy starry night sky with a glittering Milky Way river, soft clouds, Vietnamese carpenters' tools and timber, gentle deep-blue and gold tones, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1447527829
+    },
+    {
+      "id": "tho-moc",
+      "name": "Các phường thợ mộc",
+      "seed": 3192799897,
+      "sheetPrompt": "a group of three cheerful old-style Vietnamese carpenters in brown tunics and headscarves holding a saw, a plane and a ruler, arguing comically, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "qua",
+      "name": "Đàn quạ",
+      "seed": 299702275,
+      "sheetPrompt": "a cute round black crow with shiny feathers and a slightly bald grey head, friendly cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguu-chuc",
+      "name": "Ngưu Lang và Chức Nữ",
+      "seed": 1208545959,
+      "sheetPrompt": "a gentle young cowherd in a simple brown tunic and a lovely weaver girl in a flowing pale blue ao dai with a shawl of stars, holding hands, kind smiles, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có biết vào tháng bảy, trời hay mưa rả rích, người ta gọi là mưa ngâu không? Các cụ kể rằng đó là lúc ông Ngâu bà Ngâu gặp nhau trên trời. Mà để gặp được nhau, hai ông bà phải đi qua một cây cầu rất lạ, do đàn quạ kết thành. Vì sao lại là quạ nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn có biết vào tháng bảy, trời hay mưa rả rích, người ta gọi là mưa ngâu không?",
+        "Các cụ kể rằng đó là lúc ông Ngâu bà Ngâu gặp nhau trên trời.",
+        "Mà để gặp được nhau, hai ông bà phải đi qua một cây cầu rất lạ, do đàn quạ kết thành.",
+        "Vì sao lại là quạ nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a porch at night holding a little umbrella, looking up at a starry sky with a glittering Milky Way, light rain drops, an open picture book beside her",
+        "seed": 41337633
+      },
+      "video": {
+        "motionPrompt": "the cat looks up and points at the Milky Way, gentle raindrops fall and sparkle, stars twinkle, slow gentle camera push-in",
+        "seed": 4059062555
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngan-ha",
+      "title": "Hai bờ sông Ngân",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, trên trời có chàng Ngưu Lang chăn trâu và nàng Chức Nữ dệt vải. Hai người thương nhau lắm, nhưng mải vui mà quên cả việc. Ngọc Hoàng giận, bắt mỗi người ở một bên bờ sông Ngân, chỉ cho mỗi năm gặp nhau một lần vào ngày mùng bảy tháng bảy. Nhưng sông Ngân rộng mênh mông, lại chẳng có thuyền bè. Ngọc Hoàng bèn gọi các phường thợ mộc dưới trần gian lên, sai bắc một cây cầu.",
+      "subtitles": [
+        "Ngày xưa, trên trời có chàng Ngưu Lang chăn trâu và nàng Chức Nữ dệt vải.",
+        "Hai người thương nhau lắm, nhưng mải vui mà quên cả việc.",
+        "Ngọc Hoàng giận, bắt mỗi người ở một bên bờ sông Ngân,",
+        "chỉ cho mỗi năm gặp nhau một lần vào ngày mùng bảy tháng bảy.",
+        "Nhưng sông Ngân rộng mênh mông, lại chẳng có thuyền bè.",
+        "Ngọc Hoàng bèn gọi các phường thợ mộc dưới trần gian lên, sai bắc một cây cầu."
+      ],
+      "image": {
+        "character": "nguu-chuc",
+        "prompt": "a young cowherd and a weaver girl stand on opposite banks of a wide glittering river of stars, reaching out toward each other, a kindly heavenly king on a cloud points down to a group of carpenters arriving with tools",
+        "seed": 3145128374
+      },
+      "video": {
+        "motionPrompt": "the stars flow along the river, the two reach out longingly, the carpenters climb up a cloud stair carrying timber, soft golden light",
+        "seed": 2280656584
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-nhau",
+      "title": "Cãi nhau cả năm",
+      "narrator": "ke-chuyen",
+      "narration": "Các phường thợ mộc kéo nhau lên trời. Nhưng chẳng ai chịu đứng ra làm chủ cả. Phường này bảo: Phải làm cầu cong như cầu ao làng mới đẹp! Phường kia cãi: Không, phải làm cầu thẳng mới chắc! Phường nọ lại vẽ một kiểu khác. Thế là cãi nhau hết ngày này sang ngày khác, chẳng ai chịu ai. Gỗ chất đống, cưa đục nằm im. Gần một năm trôi qua, mà cầu vẫn chưa thấy đâu.",
+      "subtitles": [
+        "Các phường thợ mộc kéo nhau lên trời.",
+        "Nhưng chẳng ai chịu đứng ra làm chủ cả.",
+        "Phường này bảo: Phải làm cầu cong như cầu ao làng mới đẹp!",
+        "Phường kia cãi: Không, phải làm cầu thẳng mới chắc!",
+        "Phường nọ lại vẽ một kiểu khác.",
+        "Thế là cãi nhau hết ngày này sang ngày khác, chẳng ai chịu ai.",
+        "Gỗ chất đống, cưa đục nằm im.",
+        "Gần một năm trôi qua, mà cầu vẫn chưa thấy đâu."
+      ],
+      "image": {
+        "character": "tho-moc",
+        "prompt": "on a cloud beside the starry river, three groups of carpenters argue comically, waving rulers and plans, piles of untouched timber and tools lie around, the river still has no bridge",
+        "seed": 1160842031
+      },
+      "video": {
+        "motionPrompt": "the carpenters wave their arms and shake their heads at each other, papers flutter, a pile of wood sits untouched, stars drift by, comic timing",
+        "seed": 1039054598
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-qua",
+      "title": "Hoá thành đàn quạ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày gặp nhau sắp đến, Ngọc Hoàng xuống xem, thấy chẳng có cây cầu nào, giận lắm. Ngài phạt các phường thợ hoá thành quạ đen. Lại bắt cứ đến tháng bảy, cả đàn quạ phải bay lên sông Ngân, xếp đầu sát vào nhau làm cầu cho ông Ngâu bà Ngâu đi qua. Hoá thành quạ rồi mà vẫn giận nhau. Trước mỗi lần bắc cầu, quạ lại xô đẩy, mổ nhau, đến xơ xác cả lông đầu.",
+      "subtitles": [
+        "Ngày gặp nhau sắp đến, Ngọc Hoàng xuống xem, thấy chẳng có cây cầu nào, giận lắm.",
+        "Ngài phạt các phường thợ hoá thành quạ đen.",
+        "Lại bắt cứ đến tháng bảy, cả đàn quạ phải bay lên sông Ngân,",
+        "xếp đầu sát vào nhau làm cầu cho ông Ngâu bà Ngâu đi qua.",
+        "Hoá thành quạ rồi mà vẫn giận nhau.",
+        "Trước mỗi lần bắc cầu, quạ lại xô đẩy, mổ nhau, đến xơ xác cả lông đầu."
+      ],
+      "image": {
+        "character": "qua",
+        "prompt": "a big flock of cute black crows lines up head to head forming a long bridge across a glittering river of stars, a few crows squabble and push each other comically, feathers puffing",
+        "seed": 2445232749
+      },
+      "video": {
+        "motionPrompt": "crows flap and settle into a long line across the starry river, two crows bump heads and squawk, a few feathers float, stars twinkle",
+        "seed": 2542852322
+      },
+      "voice": {}
+    },
+    {
+      "id": "long-dau",
+      "title": "Quạ rụng lông đầu",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày mùng bảy tháng bảy, ông Ngâu bà Ngâu bước lên cầu quạ. Thấy đầu quạ đen sì, lông xơ xác, hai ông bà ngại lắm, mới dặn: Năm sau lên đây, các ngươi nhớ nhổ lông đầu cho sạch sẽ nhé. Đầu quạ đã trụi vì mổ nhau, nay lại phải nhổ thêm. Vì thế đến tháng bảy, lông đầu quạ lại rụng sạch. Còn mưa ngâu rơi xuống, chính là nước mắt mừng vui của ông Ngâu bà Ngâu đấy.",
+      "subtitles": [
+        "Ngày mùng bảy tháng bảy, ông Ngâu bà Ngâu bước lên cầu quạ.",
+        "Thấy đầu quạ đen sì, lông xơ xác, hai ông bà ngại lắm, mới dặn: Năm sau lên đây,",
+        "các ngươi nhớ nhổ lông đầu cho sạch sẽ nhé.",
+        "Đầu quạ đã trụi vì mổ nhau, nay lại phải nhổ thêm.",
+        "Vì thế đến tháng bảy, lông đầu quạ lại rụng sạch.",
+        "Còn mưa ngâu rơi xuống, chính là nước mắt mừng vui của ông Ngâu bà Ngâu đấy."
+      ],
+      "image": {
+        "character": "nguu-chuc",
+        "prompt": "the cowherd and the weaver girl meet in the middle of a bridge made of cute crows over the starry river, holding hands happily, the crows have little bald grey heads, gentle rain sparkles below",
+        "seed": 1173003926
+      },
+      "video": {
+        "motionPrompt": "the couple walks carefully across the crow bridge and embraces, the crows blink and stay still, sparkling raindrops fall toward the earth, slow pan",
+        "seed": 1791859941
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, các bác thợ mộc ai cũng giỏi, nhưng chẳng ai chịu nghe ai, nên cây cầu mãi không xong. Khi cùng làm một việc, mình hãy biết lắng nghe bạn, cùng bàn bạc, nhường nhịn nhau, thì việc gì cũng thành các bạn ạ. Tháng bảy này có mưa ngâu, các bạn nhớ đến đàn quạ nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, các bác thợ mộc ai cũng giỏi, nhưng chẳng ai chịu nghe ai,",
+        "nên cây cầu mãi không xong.",
+        "Khi cùng làm một việc, mình hãy biết lắng nghe bạn, cùng bàn bạc, nhường nhịn nhau,",
+        "thì việc gì cũng thành các bạn ạ.",
+        "Tháng bảy này có mưa ngâu, các bạn nhớ đến đàn quạ nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye on a porch under a starry sky, a few cute crows perch on the bamboo fence, gentle rain sparkles in lantern light",
+        "seed": 2026852622
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the crows hop along the fence, raindrops sparkle, stars twinkle, gentle camera pull-back",
+        "seed": 1339573554
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "dreamy Vietnamese folk melody, dan tranh zither and soft bamboo flute with twinkling bells, gentle and starry, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3222460208
+  }
+}

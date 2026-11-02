@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "slug": "nguoi-tho-det-thong-minh",
+  "shelf": "world",
+  "title": "Người thợ dệt thông minh",
+  "summary": "Sứ giả của một hoàng đế hùng mạnh bước vào triều, vẽ một vòng tròn quanh ngai vua rồi ngồi im không nói một lời. Cả triều đình bó tay, chỉ có một người thợ dệt mang theo con gà mái và hai viên xương nhỏ là giải được câu đố. Truyện dân gian Armenia trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Clever Weaver\" trong The Olive Fairy Book do Andrew Lang biên tập (1907; Lang chép từ tập Contes Arméniens của Frédéric Macler), Project Gutenberg #27826, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ lời doạ của nhà vua với các quan (thành cách chức, đuổi khỏi triều), không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Armenia, Andrew Lang chép (1907)",
+  "style": "classic Armenian fairy tale picture book illustration, an old Caucasus mountain town with stone houses and apricot trees, a royal hall with carved stone arches and rich carpets, a sunny weaver workshop full of wooden wheels and colorful threads, soft gouache textures, colors of apricot orange, pomegranate red, stone grey and sky blue, clever and cheerful mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "tho-det",
+      "name": "Người thợ dệt",
+      "sheetPrompt": "a clever humble Armenian weaver from an old folk tale, middle aged, short grey beard, linen shirt and brown vest, a measuring string around his neck, twinkling eyes, holding a brown hen under one arm, full body, front and side views, plain light background, character reference sheet",
+      "seed": 671462933
+    },
+    {
+      "id": "nha-vua",
+      "name": "Nhà vua",
+      "sheetPrompt": "a worried Armenian king from an old folk tale, round crown, dark beard, deep red robe with gold embroidery, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2266608204
+    },
+    {
+      "id": "su-gia",
+      "name": "Sứ giả",
+      "sheetPrompt": "a stern silent envoy of an eastern emperor from an old folk tale, tall, black robe with silver trim, tall dark hat, holding a thin rod, unreadable calm face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1976098602
+    }
+  ],
+  "scenes": [
+    {
+      "id": "vong-tron-quanh-ngai",
+      "title": "Vòng tròn quanh ngai vua",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một xứ xa xôi, có một nhà vua đang ngồi trên ngai nghe dân chúng kêu kiện. Bỗng quan thị vệ vào tâu có sứ giả của một hoàng đế phương đông xin vào chầu. Hoàng đế ấy rất hùng mạnh, các nước xung quanh ai cũng sợ, nhà vua cũng vậy. Vua vội cho mời sứ giả vào và sai dọn tiệc thết đãi. Nhưng sứ giả không nói một lời. Ông ta bước tới trước ngai, cúi xuống, dùng cây gậy trong tay vẽ một vòng tròn đen quanh ngai vua. Rồi ông ta ngồi xuống chiếc ghế gần đó, im lặng như pho tượng, chẳng nhìn ai.",
+      "subtitles": [
+        "Ngày xưa, ở một xứ xa xôi, có một nhà vua đang ngồi trên ngai nghe dân chúng kêu kiện.",
+        "Bỗng quan thị vệ vào tâu có sứ giả của một hoàng đế phương đông xin vào chầu.",
+        "Hoàng đế ấy rất hùng mạnh, các nước xung quanh ai cũng sợ, nhà vua cũng vậy.",
+        "Vua vội cho mời sứ giả vào và sai dọn tiệc thết đãi. Nhưng sứ giả không nói một lời.",
+        "Ông ta bước tới trước ngai, cúi xuống,",
+        "dùng cây gậy trong tay vẽ một vòng tròn đen quanh ngai vua.",
+        "Rồi ông ta ngồi xuống chiếc ghế gần đó, im lặng như pho tượng, chẳng nhìn ai."
+      ],
+      "image": {
+        "prompt": "a grand royal hall with carved stone arches, a stern envoy in black bending to draw a dark circle on the floor around the throne with a thin rod, the king and courtiers staring in astonishment",
+        "seed": 372215352,
+        "character": "su-gia"
+      },
+      "video": {
+        "motionPrompt": "the rod traces the circle slowly, courtiers whisper behind their hands, the envoy sits down calmly",
+        "seed": 3686139900
+      },
+      "voice": {}
+    },
+    {
+      "id": "lenh-truoc-hoang-hon",
+      "title": "Lệnh trước hoàng hôn",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua và cả triều đình vừa khó hiểu vừa bực bội. Hỏi gì sứ giả cũng chẳng đáp. Vua cho họp các quan, nhưng chẳng ai đoán ra vòng tròn ấy nghĩa là gì. Vua nổi giận: “Trước khi mặt trời lặn, nếu không tìm được người giải được câu đố này, ta sẽ cách chức các ngươi, đuổi hết ra khỏi triều!” Các quan vội chia nhau từng khu phố, gõ cửa từng nhà mà hỏi. Người ta chỉ ngơ ngác lắc đầu.",
+      "subtitles": [
+        "Nhà vua và cả triều đình vừa khó hiểu vừa bực bội. Hỏi gì sứ giả cũng chẳng đáp.",
+        "Vua cho họp các quan, nhưng chẳng ai đoán ra vòng tròn ấy nghĩa là gì.",
+        "Vua nổi giận: “Trước khi mặt trời lặn, nếu không tìm được người giải được câu đố này,",
+        "ta sẽ cách chức các ngươi, đuổi hết ra khỏi triều!”",
+        "Các quan vội chia nhau từng khu phố, gõ cửa từng nhà mà hỏi.",
+        "Người ta chỉ ngơ ngác lắc đầu."
+      ],
+      "image": {
+        "prompt": "worried ministers in long robes hurrying through the narrow streets of an old stone town, knocking on doors, the sun already lowering behind the mountains",
+        "seed": 973855710,
+        "character": "nha-vua"
+      },
+      "video": {
+        "motionPrompt": "ministers rush from door to door, a cat leaps off a wall, the sun sinks a little lower",
+        "seed": 100061173
+      },
+      "voice": {}
+    },
+    {
+      "id": "xuong-det-ky-la",
+      "title": "Xưởng dệt kỳ lạ",
+      "narrator": "ke-chuyen",
+      "narration": "May thay, có một vị quan tinh ý hơn cả. Ông bước vào một ngôi nhà vắng, thấy chiếc xích đu tự đung đưa dù chẳng có ai. Sang phòng bên, lại một chiếc xích đu tự đung đưa. Nhìn qua cửa sổ, ông thấy ngoài ruộng lúa có một cây sào tự lắc lư không cần gió, đuổi lũ chim sẻ bay tán loạn. Ông đi xuống cầu thang, thấy một xưởng dệt rộng rãi, sáng sủa. Một người thợ dệt đang ngồi bên khung cửi, chỉ việc dẫn sợi, còn khung cửi thì tự chạy nhờ một bánh xe to ở góc phòng do chính ông chế ra. Vị quan mừng rỡ, kể hết chuyện vòng tròn, rồi giục: “Đi ngay với tôi, mặt trời sắp lặn rồi!” Người thợ dệt đứng nghĩ một lúc, ra cửa sổ nhặt hai viên xương nhỏ mà trẻ con vẫn dùng làm đồ chơi, rồi bắt con gà mái trong chuồng, cắp vào nách. “Tôi đi được rồi.”",
+      "subtitles": [
+        "May thay, có một vị quan tinh ý hơn cả.",
+        "Ông bước vào một ngôi nhà vắng, thấy chiếc xích đu tự đung đưa dù chẳng có ai.",
+        "Sang phòng bên, lại một chiếc xích đu tự đung đưa.",
+        "Nhìn qua cửa sổ, ông thấy ngoài ruộng lúa có một cây sào tự lắc lư không cần gió,",
+        "đuổi lũ chim sẻ bay tán loạn.",
+        "Ông đi xuống cầu thang, thấy một xưởng dệt rộng rãi, sáng sủa.",
+        "Một người thợ dệt đang ngồi bên khung cửi, chỉ việc dẫn sợi,",
+        "còn khung cửi thì tự chạy nhờ một bánh xe to ở góc phòng do chính ông chế ra.",
+        "Vị quan mừng rỡ, kể hết chuyện vòng tròn, rồi giục: “Đi ngay với tôi,",
+        "mặt trời sắp lặn rồi!”",
+        "Người thợ dệt đứng nghĩ một lúc,",
+        "ra cửa sổ nhặt hai viên xương nhỏ mà trẻ con vẫn dùng làm đồ chơi,",
+        "rồi bắt con gà mái trong chuồng, cắp vào nách. “Tôi đi được rồi.”"
+      ],
+      "image": {
+        "prompt": "a bright weaver workshop with a big wooden wheel turning a loom by itself, swings moving gently in the next room, a weaver calmly guiding colorful threads while a surprised minister watches",
+        "seed": 758884110,
+        "character": "tho-det"
+      },
+      "video": {
+        "motionPrompt": "the big wheel turns, the loom clacks by itself, a swing sways, the weaver smiles and tucks a hen under his arm",
+        "seed": 1281051943
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-do-khong-loi",
+      "title": "Câu đố không lời",
+      "narrator": "ke-chuyen",
+      "narration": "Vào đến điện, nhà vua vẫn ngồi trên ngai, sứ giả vẫn ngồi trên ghế. Người thợ dệt ra hiệu cho vị quan đứng yên, rồi một mình bước tới trước mặt sứ giả, đặt hai viên xương nhỏ xuống sàn ngay bên cạnh ông ta. Sứ giả nhìn, rồi móc trong túi ra một nắm hạt kê, rắc đầy quanh mình. Người thợ dệt thả con gà mái xuống. Gà mái mổ lia lịa, chỉ trong chớp mắt đã ăn sạch chỗ hạt kê. Sứ giả lặng lẽ đứng dậy, không nói lời nào, đi thẳng ra khỏi điện, rồi lên đường về nước.",
+      "subtitles": [
+        "Vào đến điện, nhà vua vẫn ngồi trên ngai, sứ giả vẫn ngồi trên ghế.",
+        "Người thợ dệt ra hiệu cho vị quan đứng yên, rồi một mình bước tới trước mặt sứ giả,",
+        "đặt hai viên xương nhỏ xuống sàn ngay bên cạnh ông ta.",
+        "Sứ giả nhìn, rồi móc trong túi ra một nắm hạt kê, rắc đầy quanh mình.",
+        "Người thợ dệt thả con gà mái xuống.",
+        "Gà mái mổ lia lịa, chỉ trong chớp mắt đã ăn sạch chỗ hạt kê.",
+        "Sứ giả lặng lẽ đứng dậy, không nói lời nào, đi thẳng ra khỏi điện, rồi lên đường về nước."
+      ],
+      "image": {
+        "prompt": "in the royal hall a humble weaver setting a brown hen down on the floor, the hen happily pecking up a scattering of millet seeds, the silent envoy rising to leave, the king leaning forward in amazement",
+        "seed": 1558315949,
+        "character": "tho-det"
+      },
+      "video": {
+        "motionPrompt": "the hen pecks quickly and the seeds vanish, the envoy stands, turns and walks out, the courtiers gasp",
+        "seed": 4108197316
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-giai-cua-tho-det",
+      "title": "Lời giải của thợ dệt",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua vẫy người thợ dệt lại gần: “Chỉ mình ngươi đoán được câu đố. Hãy nói cho ta nghe tất cả nghĩa là gì.” Người thợ dệt thưa: “Tâu bệ hạ, vòng tròn ấy là lời của hoàng đế: nếu ta đem quân vây kín kinh thành của ngươi, ngươi có chịu hàng không? Hai viên xương đồ chơi tôi đặt xuống là để đáp rằng: các ông chỉ là trẻ con, về mà chơi trò của trẻ con. Nắm hạt kê là số quân đông vô kể của hoàng đế. Còn con gà mái ăn sạch hạt kê là ý bảo: một người của ta chọi được cả trăm người của các ông. Tôi nghĩ hoàng đế sẽ không gây chiến nữa đâu.” Vua mừng lắm, hứa ban cho bất cứ thứ gì, kể cả nửa giang sơn. Người thợ dệt chỉ xin một mảnh trại nhỏ ngoài cổng thành làm của hồi môn cho con gái. Trước khi về, ông còn nói: “Xin bệ hạ nhớ cho, thợ dệt cũng có ích cho đất nước, và đôi khi còn khôn hơn cả các quan đấy ạ!”",
+      "subtitles": [
+        "Nhà vua vẫy người thợ dệt lại gần: “Chỉ mình ngươi đoán được câu đố.",
+        "Hãy nói cho ta nghe tất cả nghĩa là gì.”",
+        "Người thợ dệt thưa: “Tâu bệ hạ, vòng tròn ấy là lời của hoàng đế:",
+        "nếu ta đem quân vây kín kinh thành của ngươi, ngươi có chịu hàng không?",
+        "Hai viên xương đồ chơi tôi đặt xuống là để đáp rằng: các ông chỉ là trẻ con,",
+        "về mà chơi trò của trẻ con. Nắm hạt kê là số quân đông vô kể của hoàng đế.",
+        "Còn con gà mái ăn sạch hạt kê là ý bảo:",
+        "một người của ta chọi được cả trăm người của các ông.",
+        "Tôi nghĩ hoàng đế sẽ không gây chiến nữa đâu.”",
+        "Vua mừng lắm, hứa ban cho bất cứ thứ gì, kể cả nửa giang sơn.",
+        "Người thợ dệt chỉ xin một mảnh trại nhỏ ngoài cổng thành làm của hồi môn cho con gái.",
+        "Trước khi về, ông còn nói: “Xin bệ hạ nhớ cho, thợ dệt cũng có ích cho đất nước,",
+        "và đôi khi còn khôn hơn cả các quan đấy ạ!”"
+      ],
+      "image": {
+        "prompt": "a delighted king on his throne listening to the humble weaver explain with lively hand gestures, the brown hen resting proudly at his feet, ministers looking a little embarrassed",
+        "seed": 190428928,
+        "character": "tho-det"
+      },
+      "video": {
+        "motionPrompt": "the weaver gestures cheerfully, the king laughs and claps, the hen fluffs its feathers, the ministers lower their eyes",
+        "seed": 626156688
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful Armenian folk melody, duduk, kanun and light frame drum, a curious tiptoe theme for the silent riddle, a bright cheerful ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 212592098
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "slug": "ba-do-cua-xu-tien",
+  "shelf": "world",
+  "title": "Bà đỡ của xứ tiên",
+  "summary": "Một đêm, người vợ của bác nông dân xứ Ireland bị dân tiên lặng lẽ đưa đi làm vú nuôi cho con vua tiên. Nhờ bà đỡ tốt bụng trong làng lỡ chạm thuốc mỡ thần vào mắt mà nhìn thấu phép tiên, bác chồng mới có cơ hội giành lại vợ ở ngã tư đêm thứ Sáu. Truyện dân gian Ireland trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "than-thoai",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Fairy Nurse\" trong The Lilac Fairy Book do Andrew Lang biên tập (1910; Lang lấy từ Legendary Fictions of the Irish Celts của Patrick Kennedy, truyện dân gian Ireland), Project Gutenberg #3454, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ các đoạn đáng sợ (đám bóng hình gào thét chỉ ồn ào rồi tan, cuối truyện bà đỡ chỉ không còn nhìn thấy dân tiên), không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Ireland, Andrew Lang chép (1910)",
+  "style": "classic Irish fairy tale picture book illustration, green rolling hills with stone walls, thatched white cottages, misty moonlit crossroads, little fairy folk in red, white and green clothes, soft watercolor and ink textures, colors of emerald, moss, cream and moonlight silver, gentle and mysterious but cozy mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "molly",
+      "name": "Chị Molly",
+      "sheetPrompt": "a kind young Irish farm wife from an old fairy tale, auburn hair in a loose bun, simple blue wool dress with a white apron and a green shawl, gentle tired eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1559464334
+    },
+    {
+      "id": "ba-do",
+      "name": "Bà đỡ",
+      "sheetPrompt": "a brave plump old Irish village midwife from a fairy tale, rosy cheeks, grey hair under a white cap, dark red hooded cloak, sharp twinkling eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1581926819
+    },
+    {
+      "id": "john",
+      "name": "Bác John",
+      "sheetPrompt": "a gentle sturdy Irish farmer from an old fairy tale, brown hair and short beard, flat wool cap, brown waistcoat over a linen shirt, worried kind face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1809674695
+    },
+    {
+      "id": "nguoi-ao-den",
+      "name": "Người kỵ mã áo đen",
+      "sheetPrompt": "a tall mysterious fairy king from an Irish fairy tale, dark hair, long black cloak with green lining, pale calm face, riding a black horse, elegant and eerie but not frightening, full body, plain light background, character reference sheet",
+      "seed": 3025003349
+    }
+  ],
+  "scenes": [
+    {
+      "id": "trang-trai-o-coolgarrow",
+      "title": "Trang trại ở Coolgarrow",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, gần làng Coolgarrow bên xứ Ireland, có hai vợ chồng bác nông dân và ba đứa con nhỏ, đứa út còn đang bú. Chị vợ tên Molly, chăm chỉ, thương chồng thương con, nhưng lúc nào cũng bận bịu với trang trại. Một sáng Chủ nhật, chị để chồng con đi lễ nhà thờ trước, còn mình ghé hỏi một ông thầy bùa về con bò đang ốm. Chị đến nhà thờ muộn, bác John buồn lắm. Chị ân hận cả ngày, vì chị rất thương chồng.",
+      "subtitles": [
+        "Ngày xưa, gần làng Coolgarrow bên xứ Ireland,",
+        "có hai vợ chồng bác nông dân và ba đứa con nhỏ, đứa út còn đang bú.",
+        "Chị vợ tên Molly, chăm chỉ, thương chồng thương con,",
+        "nhưng lúc nào cũng bận bịu với trang trại.",
+        "Một sáng Chủ nhật, chị để chồng con đi lễ nhà thờ trước,",
+        "còn mình ghé hỏi một ông thầy bùa về con bò đang ốm.",
+        "Chị đến nhà thờ muộn, bác John buồn lắm. Chị ân hận cả ngày, vì chị rất thương chồng."
+      ],
+      "image": {
+        "prompt": "a cozy thatched Irish farmhouse near green hills on a Sunday morning, a farm wife in a green shawl watching her husband and two small children walk toward a little stone chapel, a cow in the field",
+        "seed": 3296235031,
+        "character": "molly"
+      },
+      "video": {
+        "motionPrompt": "gentle morning breeze moves the grass, the family slowly walks down the lane, soft clouds drift",
+        "seed": 3751298754
+      },
+      "voice": {}
+    },
+    {
+      "id": "dem-me-bien-mat",
+      "title": "Đêm mẹ biến mất",
+      "narrator": "ke-chuyen",
+      "narration": "Khuya hôm ấy, bác John giật mình thức giấc vì tiếng các con gọi: \"Mẹ ơi! Mẹ ơi!\" Bác quay sang thì không thấy vợ đâu. Lũ trẻ kể rằng căn phòng vừa đầy những người tí hon, mặc áo trắng, áo đỏ, áo xanh lá. Mẹ đi giữa đám người ấy, bước ra cửa như người đang mơ ngủ. Bác chạy ra tìm khắp quanh nhà, khắp cánh đồng, nhưng chẳng thấy tăm hơi. Từ đó, nhà vắng tiếng cười. Bác John nhìn các con lem luốc mà rơi nước mắt, may còn bà hàng xóm tốt bụng thỉnh thoảng sang trông giúp.",
+      "subtitles": [
+        "Khuya hôm ấy, bác John giật mình thức giấc vì tiếng các con gọi: \"Mẹ ơi! Mẹ ơi!\"",
+        "Bác quay sang thì không thấy vợ đâu.",
+        "Lũ trẻ kể rằng căn phòng vừa đầy những người tí hon, mặc áo trắng, áo đỏ, áo xanh lá.",
+        "Mẹ đi giữa đám người ấy, bước ra cửa như người đang mơ ngủ.",
+        "Bác chạy ra tìm khắp quanh nhà, khắp cánh đồng, nhưng chẳng thấy tăm hơi.",
+        "Từ đó, nhà vắng tiếng cười.",
+        "Bác John nhìn các con lem luốc mà rơi nước mắt,",
+        "may còn bà hàng xóm tốt bụng thỉnh thoảng sang trông giúp."
+      ],
+      "image": {
+        "prompt": "night inside a small Irish cottage bedroom, tiny fairy folk in red, white and green clothes gently leading a sleepwalking farm wife out the open door into moonlight, two small children sitting up in bed calling out",
+        "seed": 2490053842,
+        "character": "molly"
+      },
+      "video": {
+        "motionPrompt": "the tiny fairies glide softly toward the door, moonlight shimmers, the curtain flutters",
+        "seed": 26861877
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-ky-ma-ao-den",
+      "title": "Người kỵ mã áo đen",
+      "narrator": "ke-chuyen",
+      "narration": "Sáu tuần sau, một sáng bác John ra đồng, bà đỡ trong làng vội vã bước theo, kể cho bác nghe một chuyện lạ. \"Đêm qua, tôi vừa chợp mắt thì nghe tiếng vó ngựa và tiếng gõ cửa. Một người đàn ông áo đen ngồi trên con ngựa đen, bảo tôi đi ngay, có một phu nhân đang cần tôi. Ông ấy kéo tôi lên ngồi sau lưng, rồi vuốt ngón tay qua mắt tôi, thế là tôi chẳng thấy gì nữa. Lúc ông ấy vuốt ngược lại, tôi đã đứng trước cửa một lâu đài, trong có những căn phòng sơn xanh viền đỏ viền vàng, khách khứa sang trọng đi lại. Trên giường là một phu nhân xinh đẹp với một cậu bé kháu khỉnh. Người áo đen đưa tôi lọ thuốc mỡ xanh, bảo xoa khắp người đứa bé.\"",
+      "subtitles": [
+        "Sáu tuần sau, một sáng bác John ra đồng, bà đỡ trong làng vội vã bước theo,",
+        "kể cho bác nghe một chuyện lạ.",
+        "\"Đêm qua, tôi vừa chợp mắt thì nghe tiếng vó ngựa và tiếng gõ cửa.",
+        "Một người đàn ông áo đen ngồi trên con ngựa đen, bảo tôi đi ngay,",
+        "có một phu nhân đang cần tôi.",
+        "Ông ấy kéo tôi lên ngồi sau lưng, rồi vuốt ngón tay qua mắt tôi,",
+        "thế là tôi chẳng thấy gì nữa.",
+        "Lúc ông ấy vuốt ngược lại, tôi đã đứng trước cửa một lâu đài,",
+        "trong có những căn phòng sơn xanh viền đỏ viền vàng, khách khứa sang trọng đi lại.",
+        "Trên giường là một phu nhân xinh đẹp với một cậu bé kháu khỉnh.",
+        "Người áo đen đưa tôi lọ thuốc mỡ xanh, bảo xoa khắp người đứa bé.\""
+      ],
+      "image": {
+        "prompt": "an old Irish midwife in a red hooded cloak riding behind a tall man in a black cloak on a black horse through a misty moonlit night, then a glowing green and gold fairy hall in the distance",
+        "seed": 3968428997,
+        "character": "ba-do"
+      },
+      "video": {
+        "motionPrompt": "the black horse gallops softly through swirling mist, the cloak ripples, faint golden light glows ahead",
+        "seed": 2616177022
+      },
+      "voice": {}
+    },
+    {
+      "id": "thuoc-mo-xanh",
+      "title": "Lọ thuốc mỡ xanh",
+      "narrator": "ke-chuyen",
+      "narration": "\"Tôi xoa thuốc cho đứa bé,\" bà đỡ kể tiếp, \"nhưng mắt phải tôi cay quá, tôi đưa tay lên dụi. Thế rồi tôi sững người. Căn phòng lộng lẫy hóa ra là một cái hang đá ẩm ướt, nước rỉ qua kẽ đá. Áo gấm hóa ra áo rách, còn chủ nhà thì gầy gò, nhăn nheo. Tôi vờ như chẳng thấy gì. Ra tới cửa hang, tôi gặp chị Molly đang đứng nép một bên. Chị thì thầm: 'Họ bắt em về làm vú nuôi cho con của vua và hoàng hậu tiên. Đêm thứ Sáu này, cả triều đình tiên sẽ đi qua ngã tư gần Templeshambo. Nếu anh John nắm được tay hay vạt áo em lúc em đi ngang, và đủ gan không buông ra, em sẽ được cứu. Vua tới rồi, bà đừng trả lời em.'\"",
+      "subtitles": [
+        "\"Tôi xoa thuốc cho đứa bé,\" bà đỡ kể tiếp, \"nhưng mắt phải tôi cay quá,",
+        "tôi đưa tay lên dụi. Thế rồi tôi sững người.",
+        "Căn phòng lộng lẫy hóa ra là một cái hang đá ẩm ướt, nước rỉ qua kẽ đá.",
+        "Áo gấm hóa ra áo rách, còn chủ nhà thì gầy gò, nhăn nheo. Tôi vờ như chẳng thấy gì.",
+        "Ra tới cửa hang, tôi gặp chị Molly đang đứng nép một bên.",
+        "Chị thì thầm: 'Họ bắt em về làm vú nuôi cho con của vua và hoàng hậu tiên.",
+        "Đêm thứ Sáu này, cả triều đình tiên sẽ đi qua ngã tư gần Templeshambo.",
+        "Nếu anh John nắm được tay hay vạt áo em lúc em đi ngang, và đủ gan không buông ra,",
+        "em sẽ được cứu. Vua tới rồi, bà đừng trả lời em.'\""
+      ],
+      "image": {
+        "prompt": "inside a damp rocky fairy cave lit by a soft green glow, an old midwife in a red cloak rubbing her eye in surprise, a young farm wife in a green shawl whispering to her from the shadow near the entrance",
+        "seed": 2454517059,
+        "character": "molly"
+      },
+      "video": {
+        "motionPrompt": "water drips slowly down the rocks, the green glow flickers, the young wife glances around nervously",
+        "seed": 2051308338
+      },
+      "voice": {}
+    },
+    {
+      "id": "nam-chiec-la-soi",
+      "title": "Năm chiếc lá sồi",
+      "narrator": "ke-chuyen",
+      "narration": "\"Người áo đen chẳng liếc nhìn Molly lấy một lần, cũng không ngờ gì tôi,\" bà đỡ nói. \"Lúc ra ngoài, tôi mới biết mình đang ở dưới bờ mương của gò đất Cromogue. Con ngựa đen hóa ra chỉ là một cây cỏ dại to tướng, tôi cứ sợ ngã lăn xuống. Về tới nhà, ông ta dúi vào tay tôi năm đồng tiền vàng, cảm ơn rồi chúc ngủ ngon. Tôi cất tiền vào ngăn bàn. Sáng nay mở ra xem, năm đồng vàng đã biến thành năm chiếc lá sồi khô.\" Nghe xong, bác John vừa sợ, vừa mừng, vừa thương vợ. Hai người bàn đi tính lại, chỉ chờ tới đêm thứ Sáu.",
+      "subtitles": [
+        "\"Người áo đen chẳng liếc nhìn Molly lấy một lần, cũng không ngờ gì tôi,\" bà đỡ nói.",
+        "\"Lúc ra ngoài, tôi mới biết mình đang ở dưới bờ mương của gò đất Cromogue.",
+        "Con ngựa đen hóa ra chỉ là một cây cỏ dại to tướng, tôi cứ sợ ngã lăn xuống.",
+        "Về tới nhà, ông ta dúi vào tay tôi năm đồng tiền vàng, cảm ơn rồi chúc ngủ ngon.",
+        "Tôi cất tiền vào ngăn bàn.",
+        "Sáng nay mở ra xem, năm đồng vàng đã biến thành năm chiếc lá sồi khô.\"",
+        "Nghe xong, bác John vừa sợ, vừa mừng, vừa thương vợ.",
+        "Hai người bàn đi tính lại, chỉ chờ tới đêm thứ Sáu."
+      ],
+      "image": {
+        "prompt": "an old midwife at a wooden kitchen table in morning light, opening a drawer to find five dry brown oak leaves instead of gold coins, a worried farmer listening beside her",
+        "seed": 1323730903,
+        "character": "ba-do"
+      },
+      "video": {
+        "motionPrompt": "a dry oak leaf drifts from the drawer, sunlight slowly fills the kitchen",
+        "seed": 2151720478
+      },
+      "voice": {}
+    },
+    {
+      "id": "nga-tu-dem-thu-sau",
+      "title": "Ngã tư đêm thứ Sáu",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm thứ Sáu, bác John và bà đỡ đứng ở chỗ con đường núi cắt ngang đường đi Ross, trăng mờ chiếu xuống. Bỗng bà đỡ khẽ giật mình: \"Họ tới rồi! Dây cương leng keng, lông chim phất phơ! Tôi thấy vợ bác, cô ấy cưỡi ngựa ở mép ngoài, sát bên ta. Cứ đi chầm chậm như không biết gì. Lúc đi ngang, tôi đẩy bác một cái, bác phải làm cho tròn phận mình!\" Bác John chẳng nhìn thấy gì, chỉ nghe tiếng leng keng và tiếng vó ngựa rất khẽ. Rồi bà đỡ đẩy mạnh. Bác dang tay ôm lấy, và thấy vợ mình trong vòng tay.",
+      "subtitles": [
+        "Đêm thứ Sáu, bác John và bà đỡ đứng ở chỗ con đường núi cắt ngang đường đi Ross,",
+        "trăng mờ chiếu xuống. Bỗng bà đỡ khẽ giật mình: \"Họ tới rồi!",
+        "Dây cương leng keng, lông chim phất phơ!",
+        "Tôi thấy vợ bác, cô ấy cưỡi ngựa ở mép ngoài, sát bên ta.",
+        "Cứ đi chầm chậm như không biết gì.",
+        "Lúc đi ngang, tôi đẩy bác một cái, bác phải làm cho tròn phận mình!\"",
+        "Bác John chẳng nhìn thấy gì, chỉ nghe tiếng leng keng và tiếng vó ngựa rất khẽ.",
+        "Rồi bà đỡ đẩy mạnh. Bác dang tay ôm lấy, và thấy vợ mình trong vòng tay."
+      ],
+      "image": {
+        "prompt": "a moonlit Irish crossroads at night, an old midwife pointing excitedly while a farmer reaches out, a faint shimmering procession of tiny fairy riders with feathers and jingling bridles passing by, one young woman in a green shawl riding at the edge",
+        "seed": 1645664354,
+        "character": "john"
+      },
+      "video": {
+        "motionPrompt": "the ghostly fairy procession glides past with sparkling light, feathers sway, the farmer stretches out his arms",
+        "seed": 553159433
+      },
+      "voice": {}
+    },
+    {
+      "id": "khong-buong-tay",
+      "title": "Không buông tay",
+      "narrator": "ke-chuyen",
+      "narration": "Ngay lúc ấy, quanh bác nổi lên một trận ồn ào như động đất. Những bóng hình kỳ quái vây lấy bác, gào thét, cố giằng chị Molly ra. Nhưng bác John ôm vợ chặt như thể hai cánh tay làm bằng sắt, miệng cầu xin Chúa che chở và quát chúng phải đi đi. Chỉ trong một khoảnh khắc, mọi thứ im phăng phắc. Chị Molly ngất lịm trong vòng tay chồng, bà đỡ đứng ngay bên cạnh. Ít lâu sau, chị lại khỏe mạnh, lo cho chồng con và trang trại như xưa. Từ đó, chị chăm đi lễ hơn và tránh xa các ông thầy bùa, nhất là vào ngày Chủ nhật.",
+      "subtitles": [
+        "Ngay lúc ấy, quanh bác nổi lên một trận ồn ào như động đất.",
+        "Những bóng hình kỳ quái vây lấy bác, gào thét, cố giằng chị Molly ra.",
+        "Nhưng bác John ôm vợ chặt như thể hai cánh tay làm bằng sắt,",
+        "miệng cầu xin Chúa che chở và quát chúng phải đi đi.",
+        "Chỉ trong một khoảnh khắc, mọi thứ im phăng phắc.",
+        "Chị Molly ngất lịm trong vòng tay chồng, bà đỡ đứng ngay bên cạnh.",
+        "Ít lâu sau, chị lại khỏe mạnh, lo cho chồng con và trang trại như xưa.",
+        "Từ đó, chị chăm đi lễ hơn và tránh xa các ông thầy bùa, nhất là vào ngày Chủ nhật."
+      ],
+      "image": {
+        "prompt": "a farmer holding his wife tightly in his arms at a moonlit crossroads, swirling shadowy wisps fading away into the mist, the old midwife standing close beside them, calm dawn light beginning to appear",
+        "seed": 1572398574,
+        "character": "john"
+      },
+      "video": {
+        "motionPrompt": "the shadowy wisps swirl and then dissolve into the mist, the night becomes still and calm",
+        "seed": 1193390662
+      },
+      "voice": {}
+    },
+    {
+      "id": "phien-cho-enniscorthy",
+      "title": "Phiên chợ Enniscorthy",
+      "narrator": "ke-chuyen",
+      "narration": "Dính dáng tới dân tiên thì khó mà chẳng mang theo dấu vết gì. Một hôm thứ Năm, bà đỡ đi chợ Enniscorthy và thấy người áo đen đi giữa các thùng bơ, lén xúc mỗi thùng một ít. Bà buột miệng: \"Chào ông, phu nhân và cậu bé có khỏe không ạ?\" Ông ta giật mình: \"Cũng khỏe. Bà thấy bộ áo mới của ta thế nào?\" \"Tôi chẳng nhìn rõ ông,\" bà đáp. Ông ta bước sang phía bên kia: \"Còn bây giờ?\" \"Áo ông chẳng khác gì chiếc lá khô.\" Ông ta khẽ chạm cành cây nhỏ vào con mắt ấy. Từ hôm đó, con mắt ấy của bà không bao giờ nhìn thấy dân tiên nữa. Còn bà thì tự nhủ: chuyện của tiên, tốt nhất đừng nhận là mình thấy.",
+      "subtitles": [
+        "Dính dáng tới dân tiên thì khó mà chẳng mang theo dấu vết gì.",
+        "Một hôm thứ Năm, bà đỡ đi chợ Enniscorthy và thấy người áo đen đi giữa các thùng bơ,",
+        "lén xúc mỗi thùng một ít. Bà buột miệng: \"Chào ông, phu nhân và cậu bé có khỏe không ạ?\"",
+        "Ông ta giật mình: \"Cũng khỏe. Bà thấy bộ áo mới của ta thế nào?\"",
+        "\"Tôi chẳng nhìn rõ ông,\" bà đáp. Ông ta bước sang phía bên kia: \"Còn bây giờ?\"",
+        "\"Áo ông chẳng khác gì chiếc lá khô.\" Ông ta khẽ chạm cành cây nhỏ vào con mắt ấy.",
+        "Từ hôm đó, con mắt ấy của bà không bao giờ nhìn thấy dân tiên nữa.",
+        "Còn bà thì tự nhủ: chuyện của tiên, tốt nhất đừng nhận là mình thấy."
+      ],
+      "image": {
+        "prompt": "a busy Irish market day with wooden butter tubs, an old midwife in a red cloak talking to a tall pale man in a black cloak who is secretly scooping butter, villagers bustling unaware",
+        "seed": 834799795,
+        "character": "ba-do"
+      },
+      "video": {
+        "motionPrompt": "market folk bustle about, the tall man glances around and lightly lifts a small twig, butter tubs glisten in the sun",
+        "seed": 3137699743
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle traditional Irish instrumental, soft tin whistle, Celtic harp and fiddle, mysterious moonlit mood turning warm and hopeful, slow tempo, no vocals",
+    "durationSeconds": 150,
+    "seed": 3686160251
+  }
+}

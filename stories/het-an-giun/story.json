@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "slug": "het-an-giun",
+  "shelf": "kids",
+  "title": "Hét ăn giun",
+  "summary": "Anh Giun giữ lúa và chú bé Hét mang mối thù với nhau, người đuổi kẻ chạy mãi không thôi. Ông Bụt hoá Giun thành con giun chui xuống đất, hoá Hét thành chim hét. Sự tích vì sao chim hét hay bới đất tìm giun, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "su-tich",
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Hét ăn giun» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: chuyện Giun đánh cha Hét chỉ kể vòng là người cha không bao giờ trở về; bỏ đoạn người ta bẫy chim hét. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, lời rút ý về thù hận ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, rice fields, a green mountain with a misty path and soft brown earth, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 1525236956,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "giun",
+      "name": "Anh Giun",
+      "seed": 3098484235,
+      "sheetPrompt": "a skinny young Vietnamese rice field guard in a faded blue shirt and rolled-up trousers, worried face, cute rounded storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "het",
+      "name": "Cậu Hét",
+      "seed": 2016162920,
+      "sheetPrompt": "a stubborn Vietnamese boy with a dark brown shirt and messy black hair, determined frowning face, cute rounded storybook style, not scary, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-but",
+      "name": "Ông Bụt",
+      "seed": 1699833818,
+      "sheetPrompt": "a kind old Buddhist sage with a long white beard and a brown robe, holding a wooden staff, gentle smile, cute rounded storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chim-het",
+      "name": "Chim hét",
+      "seed": 1293273151,
+      "sheetPrompt": "a dark blackbird with a bright yellow-orange beak hopping on soft brown earth, cute and friendly, rounded storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có biết chim hét không? Đó là chú chim lông đen, mỏ vàng, suốt ngày nhảy lò cò trên đất, mổ mổ bới bới tìm giun. Ngày xưa, chim hét và con giun vốn là hai người đấy. Sao lại thành ra thế nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có biết chim hét không? Đó là chú chim lông đen, mỏ vàng,",
+        "suốt ngày nhảy lò cò trên đất, mổ mổ bới bới tìm giun.",
+        "Ngày xưa, chim hét và con giun vốn là hai người đấy. Sao lại thành ra thế nhỉ?",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat crouches in a garden watching a blackbird with a yellow beak pecking at soft brown earth, a little earthworm peeking out nearby",
+        "seed": 3504404475
+      },
+      "video": {
+        "motionPrompt": "the blackbird hops and pecks, the earthworm wiggles back into the soil, the cat giggles, grass sways, slow camera push-in",
+        "seed": 1265279036
+      },
+      "voice": {}
+    },
+    {
+      "id": "giu-lua",
+      "title": "Anh Giun giữ lúa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một anh tên là Giun, làm nghề canh lúa ngoài đồng. Một đêm, cha của cậu bé Hét lẻn ra đồng cắt trộm lúa. Anh Giun nóng tính, cầm gậy đánh đuổi. Cha Hét chạy mất vào bóng tối, rồi từ đó không bao giờ trở về nhà nữa. Cậu bé Hét ở nhà khóc ròng, thề rằng: Thế nào ta cũng bắt anh Giun phải đền!",
+      "subtitles": [
+        "Ngày xưa, có một anh tên là Giun, làm nghề canh lúa ngoài đồng.",
+        "Một đêm, cha của cậu bé Hét lẻn ra đồng cắt trộm lúa.",
+        "Anh Giun nóng tính, cầm gậy đánh đuổi. Cha Hét chạy mất vào bóng tối,",
+        "rồi từ đó không bao giờ trở về nhà nữa.",
+        "Cậu bé Hét ở nhà khóc ròng, thề rằng: Thế nào ta cũng bắt anh Giun phải đền!"
+      ],
+      "image": {
+        "character": "giun",
+        "prompt": "a skinny young rice guard holds a bamboo stick on a rice field dike at night under the moon, a shadowy figure running away through the rice in the distance",
+        "seed": 1939776363
+      },
+      "video": {
+        "motionPrompt": "the guard raises his stick and shouts, the shadow disappears into the dark rice, the moon slips behind a cloud, slow camera drift",
+        "seed": 1741347916
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-nguoi-duoi",
+      "title": "Người đuổi, kẻ chạy",
+      "narrator": "ke-chuyen",
+      "narration": "Hét lớn lên, ngày nào cũng đi tìm Giun. Một buổi, Hét bắt gặp Giun ngoài đồng, liền đuổi theo. Giun cắm đầu cắm cổ chạy, chạy mãi lên tận trên núi, thở chẳng ra hơi. Giữa đường núi, Giun gặp ông Bụt đang đứng, vội quỳ xuống: Ông ơi, cứu con với! Hét đang đuổi con ở ngay đằng sau kia!",
+      "subtitles": [
+        "Hét lớn lên, ngày nào cũng đi tìm Giun. Một buổi,",
+        "Hét bắt gặp Giun ngoài đồng, liền đuổi theo.",
+        "Giun cắm đầu cắm cổ chạy, chạy mãi lên tận trên núi, thở chẳng ra hơi.",
+        "Giữa đường núi, Giun gặp ông Bụt đang đứng, vội quỳ xuống:",
+        "Ông ơi, cứu con với! Hét đang đuổi con ở ngay đằng sau kia!"
+      ],
+      "image": {
+        "character": "het",
+        "prompt": "a determined boy in a brown shirt chases a frightened skinny young man up a winding misty mountain path, a kind old sage with a staff waiting at the top",
+        "seed": 787972735
+      },
+      "video": {
+        "motionPrompt": "the young man runs and stumbles up the path, the boy follows far behind, mist drifts across the mountain, camera follows upward",
+        "seed": 199678715
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-but-hoi",
+      "title": "Trốn đi đâu bây giờ?",
+      "narrator": "ke-chuyen",
+      "narration": "Bụt hỏi: Hay ta hoá cho con làm con chim, bay lên trời? Giun lắc đầu: Nhưng nó lấy cung bắn thì con cũng chẳng thoát được. Thế ta hoá cho con làm con cá, lặn xuống nước nhé? Nhưng nó lại giăng lưới thì con cũng bị bắt mất ông ạ. Bụt nghĩ một lúc rồi bảo: Lên trời không thoát, xuống nước không xong, thôi thì chui xuống đất vậy.",
+      "subtitles": [
+        "Bụt hỏi: Hay ta hoá cho con làm con chim, bay lên trời?",
+        "Giun lắc đầu: Nhưng nó lấy cung bắn thì con cũng chẳng thoát được.",
+        "Thế ta hoá cho con làm con cá, lặn xuống nước nhé?",
+        "Nhưng nó lại giăng lưới thì con cũng bị bắt mất ông ạ.",
+        "Bụt nghĩ một lúc rồi bảo: Lên trời không thoát,",
+        "xuống nước không xong, thôi thì chui xuống đất vậy."
+      ],
+      "image": {
+        "character": "ong-but",
+        "prompt": "the kind old sage with a white beard thinks with one finger raised while the frightened young man kneels before him on the mountain, thought bubbles with a bird and a fish",
+        "seed": 2593600276
+      },
+      "video": {
+        "motionPrompt": "the sage strokes his beard and tilts his head, the young man shakes his head at each idea, mist swirls softly, gentle camera move",
+        "seed": 2907107587
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-giun",
+      "title": "Giun chui xuống đất",
+      "narrator": "ke-chuyen",
+      "narration": "Bụt phẩy tay một cái. Anh Giun bé dần, dài dần, chẳng còn chân, cũng chẳng còn tay, rồi chui tuột xuống đất. Bụt bảo: Tên con là Giun, thì con ấy cứ gọi là con giun. Lát sau Hét chạy tới, hỏi Giun đâu. Nghe Bụt kể, Hét khóc ầm lên: Ông giấu nó đi thì con biết tìm ai mà đòi đền cho cha!",
+      "subtitles": [
+        "Bụt phẩy tay một cái. Anh Giun bé dần, dài dần, chẳng còn chân, cũng chẳng còn tay,",
+        "rồi chui tuột xuống đất. Bụt bảo: Tên con là Giun, thì con ấy cứ gọi là con giun.",
+        "Lát sau Hét chạy tới, hỏi Giun đâu. Nghe Bụt kể, Hét khóc ầm lên:",
+        "Ông giấu nó đi thì con biết tìm ai mà đòi đền cho cha!"
+      ],
+      "image": {
+        "character": "het",
+        "prompt": "on the mountain path a tiny pink earthworm wriggles into the soft earth with sparkles around it, the boy in brown arrives crying loudly in front of the sage",
+        "seed": 911314218
+      },
+      "video": {
+        "motionPrompt": "sparkles fade as the earthworm disappears into the soil, the boy stamps and rubs his eyes, the sage sighs kindly, camera tilts down then up",
+        "seed": 173103683
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-chim-het",
+      "title": "Hét hoá chim",
+      "narrator": "ke-chuyen",
+      "narration": "Bụt thở dài: Thù cũ cứ nối thù mới, thật khó mà dứt được. Thôi, ta hoá con làm giống chim, cứ lấy tên con mà gọi là chim hét. Muốn tìm Giun thì con tìm ở dưới đất vậy. Thế là cậu bé hoá thành chim hét, suốt ngày nhảy trên mặt đất, mổ mổ bới bới tìm giun. Cho nên người ta mới có câu: Muốn ăn hét, phải đào giun.",
+      "subtitles": [
+        "Bụt thở dài: Thù cũ cứ nối thù mới, thật khó mà dứt được.",
+        "Thôi, ta hoá con làm giống chim, cứ lấy tên con mà gọi là chim hét.",
+        "Muốn tìm Giun thì con tìm ở dưới đất vậy.",
+        "Thế là cậu bé hoá thành chim hét, suốt ngày nhảy trên mặt đất, mổ mổ bới bới tìm giun.",
+        "Cho nên người ta mới có câu: Muốn ăn hét, phải đào giun."
+      ],
+      "image": {
+        "character": "chim-het",
+        "prompt": "a dark blackbird with a bright yellow beak hops on brown earth beside the kind old sage, pecking at the ground, a green mountain and rice fields below",
+        "seed": 1919805223
+      },
+      "video": {
+        "motionPrompt": "the blackbird hops and pecks at the earth, the sage watches with a sad gentle smile, leaves drift down, camera slowly circles",
+        "seed": 2461926906
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, một chuyện giận nhau mà cứ để mãi, thì thành người đuổi kẻ chạy, chẳng bao giờ hết. Anh Giun giá biết nhẹ tay, cha Hét giá đừng lấy lúa của người, thì đâu đến nỗi. Mình biết nói lời xin lỗi và biết tha thứ cho nhau, thì ai cũng vui. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, một chuyện giận nhau mà cứ để mãi,",
+        "thì thành người đuổi kẻ chạy, chẳng bao giờ hết.",
+        "Anh Giun giá biết nhẹ tay, cha Hét giá đừng lấy lúa của người, thì đâu đến nỗi.",
+        "Mình biết nói lời xin lỗi và biết tha thứ cho nhau, thì ai cũng vui.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in a sunny garden, a blackbird sits on a flower pot beside her and a tiny earthworm peeks out of the soil far away",
+        "seed": 1259008801
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the blackbird bobs its head, the earthworm wiggles, warm sunset light, gentle camera pull-back",
+        "seed": 3603893585
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Vietnamese folk melody, bamboo flute and dan bau over soft dan tranh, a little wistful then calm and kind, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3204070458
+  }
+}

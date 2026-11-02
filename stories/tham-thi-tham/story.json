@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "slug": "tham-thi-tham",
+  "shelf": "world",
+  "title": "Tham thì thâm",
+  "summary": "Anh bán dầu nghèo ngủ quên trên cây bồ đề biết bay và nhặt được bốn viên hồng ngọc bên bờ biển hoang. Bốn viên ngọc đi từ tay anh tới chủ nợ, quan tể tướng rồi nhà vua, cho đến đêm cả bốn người cùng trèo lên cây thần. Truyện dân gian Punjab (Ấn Độ) về lòng tham, trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"Grasp all, Lose all\" trong The Olive Fairy Book do Andrew Lang biên tập (1907; truyện dân gian Punjab, Ấn Độ, do Thiếu tá Campbell ở Ferozepore ghi lại), Project Gutenberg #27826, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ lời doạ của nhà vua (thành \"trị tội\"), không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Punjab, Andrew Lang chép (1907)",
+  "style": "classic Indian fairy tale picture book illustration inspired by Rajput miniature painting, a busy old Indian town with flat roofs and bazaars, a giant peepul tree by a village well, a moonless starry night and a lonely beach sparkling with red jewels, soft gouache textures, colors of indigo, ruby red, ochre and leaf green, warm storytelling mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "dena",
+      "name": "Dena, anh bán dầu",
+      "sheetPrompt": "a poor cheerful Indian oil seller from an old Punjabi folk tale, thin, simple white dhoti and faded orange turban, a small oil jar, worried kind face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 611286331
+    },
+    {
+      "id": "lena",
+      "name": "Lena, chủ nợ",
+      "sheetPrompt": "a plump sharp-eyed Indian moneylender from an old Punjabi folk tale, red turban, embroidered waistcoat, account book under his arm, full body, front and side views, plain light background, character reference sheet",
+      "seed": 4077108807
+    },
+    {
+      "id": "musli",
+      "name": "Quan tể tướng Musli",
+      "sheetPrompt": "a tall clever Indian wazir from an old Punjabi folk tale, long grey beard, green robe, tall white turban with a feather, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3408580181
+    },
+    {
+      "id": "kahre",
+      "name": "Nhà vua Kahre",
+      "sheetPrompt": "a grand Indian rajah from an old Punjabi folk tale, curled moustache, golden turban with a ruby, rich purple brocade coat, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1565614971
+    }
+  ],
+  "scenes": [
+    {
+      "id": "anh-ban-dau-mac-no",
+      "title": "Anh bán dầu mắc nợ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một thành phố bên Ấn Độ, có anh bán dầu tên Dena, nghèo đến nỗi trong túi chẳng bao giờ giữ nổi một đồng. Anh vay của ông chủ nợ Lena một trăm đồng, tính cả lãi đã thành ba trăm. Tối nào Lena cũng tới nhà, đúng lúc vợ Dena đang nấu cơm, đứng giữa sân mà quát tháo, khiến cả nhà chẳng ai nuốt nổi miếng nào. Chịu không thấu, một tối Dena không về nhà nữa mà lẳng lặng đi ra khỏi thành, chẳng biết sẽ đi đâu.",
+      "subtitles": [
+        "Ngày xưa, ở một thành phố bên Ấn Độ, có anh bán dầu tên Dena,",
+        "nghèo đến nỗi trong túi chẳng bao giờ giữ nổi một đồng.",
+        "Anh vay của ông chủ nợ Lena một trăm đồng, tính cả lãi đã thành ba trăm.",
+        "Tối nào Lena cũng tới nhà, đúng lúc vợ Dena đang nấu cơm, đứng giữa sân mà quát tháo,",
+        "khiến cả nhà chẳng ai nuốt nổi miếng nào.",
+        "Chịu không thấu, một tối Dena không về nhà nữa mà lẳng lặng đi ra khỏi thành,",
+        "chẳng biết sẽ đi đâu."
+      ],
+      "image": {
+        "prompt": "a small mud house at dusk in an old Indian town, a plump moneylender in a red turban shouting and waving his account book, a poor oil seller with his wife and daughter sitting sadly before their cooking pot",
+        "seed": 747472507,
+        "character": "dena"
+      },
+      "video": {
+        "motionPrompt": "the moneylender stomps and points, the cooking fire flickers, the oil seller hangs his head",
+        "seed": 4050710464
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-bo-de-biet-bay",
+      "title": "Cây bồ đề biết bay",
+      "narrator": "ke-chuyen",
+      "narration": "Gần nửa đêm, anh tới một cái giếng bên đường, cạnh đó có cây bồ đề cổ thụ. Mệt rã rời, anh trèo lên cây, nằm gọn giữa những cành to rồi ngủ thiếp đi. Đêm ấy là đêm không trăng, lúc những tinh linh đi chơi khắp nơi. Chúng nhấc bổng cả cây bồ đề, bay vút đi, đặt xuống một bãi biển hoang vắng không một bóng người. Dena tỉnh dậy, sợ cứng cả người. Rồi anh thấy quanh mình lấp lánh những đốm sáng đỏ như những ngọn lửa nhỏ. Anh với tay nhặt một đốm gần nhất: đó là một viên đá đỏ rực, to gần bằng quả óc chó. Anh nhặt thêm ba viên nữa, buộc kỹ vào góc khăn. Trời vừa hửng sáng, cây bồ đề lại bay lên, đưa anh về đúng chỗ cũ bên giếng.",
+      "subtitles": [
+        "Gần nửa đêm, anh tới một cái giếng bên đường, cạnh đó có cây bồ đề cổ thụ.",
+        "Mệt rã rời, anh trèo lên cây, nằm gọn giữa những cành to rồi ngủ thiếp đi.",
+        "Đêm ấy là đêm không trăng, lúc những tinh linh đi chơi khắp nơi.",
+        "Chúng nhấc bổng cả cây bồ đề, bay vút đi,",
+        "đặt xuống một bãi biển hoang vắng không một bóng người. Dena tỉnh dậy, sợ cứng cả người.",
+        "Rồi anh thấy quanh mình lấp lánh những đốm sáng đỏ như những ngọn lửa nhỏ.",
+        "Anh với tay nhặt một đốm gần nhất: đó là một viên đá đỏ rực, to gần bằng quả óc chó.",
+        "Anh nhặt thêm ba viên nữa, buộc kỹ vào góc khăn.",
+        "Trời vừa hửng sáng, cây bồ đề lại bay lên, đưa anh về đúng chỗ cũ bên giếng."
+      ],
+      "image": {
+        "prompt": "a giant peepul tree flying through a starry moonless sky carried by tiny glowing spirits, then resting on a lonely beach where red jewels twinkle like little fires in the sand, a small man peeking from the branches",
+        "seed": 2362388300,
+        "character": "dena"
+      },
+      "video": {
+        "motionPrompt": "the tree glides through the starry sky, glowing spirits swirl around it, red lights twinkle on the sand",
+        "seed": 230115413
+      },
+      "voice": {}
+    },
+    {
+      "id": "bon-vien-ngoc-do",
+      "title": "Bốn viên ngọc đỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Hết hồn, Dena chẳng còn muốn đi đâu nữa, quay về nhà. Vợ anh mắng một trận, anh chỉ đóng cửa lại, mở góc khăn ra. Vợ bĩu môi: “Mấy hòn sỏi ấy ăn được không mà khoe?” Vừa lúc Lena tới quát tháo. Dena mời ông vào, đóng hết cửa, rồi đưa bốn viên đá ra: “Tôi chẳng còn gì khác để trả nợ, chỉ có mấy viên đá đẹp này.” Lena nhìn qua là biết ngay đó là những viên hồng ngọc vô giá. Ông thèm lắm, nhưng vẫn làm bộ cằn nhằn, rồi như miễn cưỡng nhận đá thay nợ, viết giấy xoá ba trăm đồng. Dena cảm ơn rối rít. Lena đem bán cho quan tể tướng Musli được mười nghìn đồng. Quan tể tướng lại đem dâng nhà vua Kahre, được vua ban cho mười ngôi làng.",
+      "subtitles": [
+        "Hết hồn, Dena chẳng còn muốn đi đâu nữa, quay về nhà.",
+        "Vợ anh mắng một trận, anh chỉ đóng cửa lại, mở góc khăn ra.",
+        "Vợ bĩu môi: “Mấy hòn sỏi ấy ăn được không mà khoe?” Vừa lúc Lena tới quát tháo.",
+        "Dena mời ông vào, đóng hết cửa, rồi đưa bốn viên đá ra: “Tôi chẳng còn gì khác để trả nợ,",
+        "chỉ có mấy viên đá đẹp này.” Lena nhìn qua là biết ngay đó là những viên hồng ngọc vô giá.",
+        "Ông thèm lắm, nhưng vẫn làm bộ cằn nhằn, rồi như miễn cưỡng nhận đá thay nợ,",
+        "viết giấy xoá ba trăm đồng. Dena cảm ơn rối rít.",
+        "Lena đem bán cho quan tể tướng Musli được mười nghìn đồng.",
+        "Quan tể tướng lại đem dâng nhà vua Kahre, được vua ban cho mười ngôi làng."
+      ],
+      "image": {
+        "prompt": "inside a small house with doors shut, the poor oil seller showing four glowing rubies on a cloth, the moneylender leaning in with greedy shining eyes while pretending to frown, the wife unimpressed in the corner",
+        "seed": 2610850141,
+        "character": "lena"
+      },
+      "video": {
+        "motionPrompt": "the rubies glint in lamplight, the moneylender licks his lips and quickly wraps them up, the oil seller bows gratefully",
+        "seed": 1209763297
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoang-hau-doi-them",
+      "title": "Hoàng hậu đòi thêm",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua cài bốn viên ngọc lên khăn xếp, đem khoe hoàng hậu. Hoàng hậu mừng quýnh, rồi nói: “Giá có thêm tám viên nữa thì thành một chuỗi vòng cổ đẹp nhất đời. Bệ hạ phải tìm cho thiếp!” Vua kêu: “Ta đã đổi mười ngôi làng lấy bốn viên này, còn đòi gì nữa?” Nhưng hoàng hậu khóc lóc mãi, vua đành hứa. Sáng hôm sau, vua gọi quan tể tướng: “Tìm thêm tám viên như thế, không thì ta trị tội!” Quan tể tướng gọi Lena, Lena khai ra Dena. Dena kể lại chuyện cây bồ đề biết bay, còn vợ anh nhớ ra đó là đêm không trăng cuối tháng. Nhà vua bèn bắt cả bốn người giữ kín chuyện này, và hẹn đến đêm không trăng sau, cả bốn sẽ cùng lên cây.",
+      "subtitles": [
+        "Nhà vua cài bốn viên ngọc lên khăn xếp, đem khoe hoàng hậu.",
+        "Hoàng hậu mừng quýnh, rồi nói:",
+        "“Giá có thêm tám viên nữa thì thành một chuỗi vòng cổ đẹp nhất đời.",
+        "Bệ hạ phải tìm cho thiếp!”",
+        "Vua kêu: “Ta đã đổi mười ngôi làng lấy bốn viên này, còn đòi gì nữa?”",
+        "Nhưng hoàng hậu khóc lóc mãi, vua đành hứa.",
+        "Sáng hôm sau, vua gọi quan tể tướng: “Tìm thêm tám viên như thế, không thì ta trị tội!”",
+        "Quan tể tướng gọi Lena, Lena khai ra Dena.",
+        "Dena kể lại chuyện cây bồ đề biết bay, còn vợ anh nhớ ra đó là đêm không trăng cuối tháng.",
+        "Nhà vua bèn bắt cả bốn người giữ kín chuyện này, và hẹn đến đêm không trăng sau,",
+        "cả bốn sẽ cùng lên cây."
+      ],
+      "image": {
+        "prompt": "a rich palace hall, a queen holding up four rubies and pointing at her bare neck, the rajah throwing up his hands, the wazir, the moneylender and the oil seller lined up nervously before the throne",
+        "seed": 1621507028,
+        "character": "kahre"
+      },
+      "video": {
+        "motionPrompt": "the queen sobs dramatically, the rajah points at the wazir, the wazir points at the moneylender, the moneylender points at the oil seller",
+        "seed": 2785560352
+      },
+      "voice": {}
+    },
+    {
+      "id": "bon-nguoi-tren-cay",
+      "title": "Bốn người trên cây",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm hẹn đã tới. Nhà vua Kahre, quan tể tướng Musli, chủ nợ Lena và anh bán dầu Dena lén ra khỏi thành, trèo lên cây bồ đề. Nửa đêm, cây rung rinh rồi bay vút lên trời. Dena thì thào: “Tâu bệ hạ, cây bay rồi!” Cây lại đáp xuống bãi biển hoang, những đốm đỏ lại lấp lánh khắp nơi. Mỗi người thầm nghĩ một điều. Dena nghĩ: “Lần trước bốn viên đã trả hết nợ, lần này nhặt thật nhiều cho giàu to.” Lena nghĩ: “Bốn viên được mười nghìn, nhặt bốn chục viên thì ta làm quan cũng được.” Quan tể tướng nghĩ: “Bốn viên được mười làng, nhặt thật nhiều thì ta mua được cả một nước.” Còn nhà vua nghĩ: “Tám viên thì nhằm nhò gì, nhặt đủ hai chục chuỗi vòng mới bõ.”",
+      "subtitles": [
+        "Đêm hẹn đã tới.",
+        "Nhà vua Kahre, quan tể tướng Musli, chủ nợ Lena và anh bán dầu Dena lén ra khỏi thành,",
+        "trèo lên cây bồ đề. Nửa đêm, cây rung rinh rồi bay vút lên trời.",
+        "Dena thì thào: “Tâu bệ hạ, cây bay rồi!”",
+        "Cây lại đáp xuống bãi biển hoang, những đốm đỏ lại lấp lánh khắp nơi.",
+        "Mỗi người thầm nghĩ một điều.",
+        "Dena nghĩ: “Lần trước bốn viên đã trả hết nợ, lần này nhặt thật nhiều cho giàu to.”",
+        "Lena nghĩ: “Bốn viên được mười nghìn, nhặt bốn chục viên thì ta làm quan cũng được.”",
+        "Quan tể tướng nghĩ: “Bốn viên được mười làng,",
+        "nhặt thật nhiều thì ta mua được cả một nước.”",
+        "Còn nhà vua nghĩ: “Tám viên thì nhằm nhò gì, nhặt đủ hai chục chuỗi vòng mới bõ.”"
+      ],
+      "image": {
+        "prompt": "four men clinging to the branches of a giant peepul tree flying over a dark sea under the stars, the rajah, the wazir, the moneylender and the oil seller each with greedy daydreaming faces",
+        "seed": 1172105109,
+        "character": "kahre"
+      },
+      "video": {
+        "motionPrompt": "the tree sways and flies, the four men hold on tight, each one smiles to himself with sparkling eyes",
+        "seed": 1358288768
+      },
+      "voice": {}
+    },
+    {
+      "id": "tham-thi-tham",
+      "title": "Tham thì thâm",
+      "narrator": "ke-chuyen",
+      "narration": "Thế là cả bốn tụt xuống cây, trải khăn ra, chạy khắp bãi mà nhặt, vừa nhặt vừa liếc xem người kia nhặt được nhiều hơn mình không. Mải mê quá, chẳng ai để ý trời đã rạng. Bỗng cây bồ đề bay vút lên, bỏ cả bốn người đứng trơ trên bãi biển, tay ôm những bọc ngọc nặng trĩu. Sáng hôm ấy, trong thành người ta đi tìm nhà vua, rồi tìm quan tể tướng, rồi tìm Lena, rồi tìm Dena, mà chẳng thấy ai. Cả bốn người không bao giờ quay lại nữa. Đến nay, ở xứ ấy, hễ thấy ai tham quá mà mất sạch, người ta lại bảo: “Mất cả rồi, chẳng còn Dena, chẳng còn Lena, chẳng còn Musli, chẳng còn Kahre!”",
+      "subtitles": [
+        "Thế là cả bốn tụt xuống cây, trải khăn ra, chạy khắp bãi mà nhặt,",
+        "vừa nhặt vừa liếc xem người kia nhặt được nhiều hơn mình không.",
+        "Mải mê quá, chẳng ai để ý trời đã rạng.",
+        "Bỗng cây bồ đề bay vút lên, bỏ cả bốn người đứng trơ trên bãi biển,",
+        "tay ôm những bọc ngọc nặng trĩu.",
+        "Sáng hôm ấy, trong thành người ta đi tìm nhà vua, rồi tìm quan tể tướng, rồi tìm Lena,",
+        "rồi tìm Dena, mà chẳng thấy ai. Cả bốn người không bao giờ quay lại nữa.",
+        "Đến nay, ở xứ ấy, hễ thấy ai tham quá mà mất sạch, người ta lại bảo: “Mất cả rồi,",
+        "chẳng còn Dena, chẳng còn Lena, chẳng còn Musli, chẳng còn Kahre!”"
+      ],
+      "image": {
+        "prompt": "dawn over a lonely beach, four men with bulging bundles of red jewels staring up in shock as a giant peepul tree flies away into the pink sky",
+        "seed": 817438717,
+        "character": "dena"
+      },
+      "video": {
+        "motionPrompt": "the tree rises and floats away, the four men drop their bundles and wave their arms, waves wash over the sand",
+        "seed": 4186861759
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "mysterious Indian folk melody, bansuri flute, santoor and soft tabla, a twinkling theme for the flying tree and the glittering jewels, a gently ironic ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4162313445
+  }
+}
