@@ -44,6 +44,8 @@ function ShelfBrowser({ shelf, entries }: { shelf: Shelf; entries: StoryListEntr
   const [query, setQuery] = useState<ShelfQuery>(() => parseQuery(window.location.search));
   const [typed, setTyped] = useState(query.q);
   const searchId = useId();
+  const filtersId = useId();
+  const [filtersOpen, setFiltersOpen] = useState(false);
 
   // The URL follows the state (replace, not push: Back leaves the shelf instead of undoing each keystroke).
   useEffect(() => {
@@ -60,6 +62,8 @@ function ShelfBrowser({ shelf, entries }: { shelf: Shelf; entries: StoryListEntr
   const shelfThemes = useMemo(() => THEMES.filter((theme) => entries.some((entry) => entry.themes.includes(theme))), [entries]);
   const change = (next: Partial<ShelfQuery>): void => setQuery((current) => ({ ...current, ...next, pages: 1 }));
   const filtered = query.q.trim() !== '' || query.theme !== null || query.length !== null;
+  // Counted on the compact "Filters" button so a closed panel still shows that something is on.
+  const activeFilters = Number(query.length !== null) + Number(query.theme !== null) + Number(query.sort !== 'moi');
   const clear = (): void => {
     setTyped('');
     setQuery(EMPTY_QUERY);
@@ -70,34 +74,50 @@ function ShelfBrowser({ shelf, entries }: { shelf: Shelf; entries: StoryListEntr
       <h2 className="sr-only" id={`${searchId}-heading`}>
         {t(`shelf.${shelf}`)}
       </h2>
-      <div className="shelf-tools" role="search" data-id="shelf-tools">
-        <label className="search" htmlFor={searchId}>
-          <Icon name="search" />
-          <span className="sr-only">{t('library.search')}</span>
-          <input
-            id={searchId}
-            className="search-input"
-            type="search"
-            value={typed}
-            placeholder={t('library.searchHint')}
-            autoComplete="off"
-            enterKeyHint="search"
-            onChange={(event) => setTyped(event.currentTarget.value)}
-            data-id="shelf-search"
+      <div className={filtersOpen ? 'shelf-tools is-open' : 'shelf-tools'} role="search" data-id="shelf-tools">
+        <div className="search-bar">
+          <label className="search" htmlFor={searchId}>
+            <Icon name="search" />
+            <span className="sr-only">{t('library.search')}</span>
+            <input
+              id={searchId}
+              className="search-input"
+              type="search"
+              value={typed}
+              placeholder={t('library.searchHint')}
+              autoComplete="off"
+              enterKeyHint="search"
+              onChange={(event) => setTyped(event.currentTarget.value)}
+              data-id="shelf-search"
+            />
+          </label>
+          <button
+            type="button"
+            className="filter-toggle"
+            aria-expanded={filtersOpen}
+            aria-controls={filtersId}
+            onClick={() => setFiltersOpen((open) => !open)}
+            data-id="shelf-filter-toggle"
+          >
+            <Icon name="filter" />
+            <span>{t('library.filters')}</span>
+            {activeFilters > 0 && <span className="filter-count">{activeFilters}</span>}
+          </button>
+        </div>
+        <div className="shelf-filters" id={filtersId} data-id="shelf-filters">
+          <ChipRow<LengthBand> label={t('library.length')} options={LENGTHS} value={query.length} onChange={(length) => change({ length })} name={(band) => t(`library.length.${band}`)} dataId="filter-length" />
+          {shelfThemes.length > 1 && (
+            <ChipRow<Theme> label={t('library.theme')} options={shelfThemes} value={query.theme} onChange={(theme) => change({ theme })} name={(theme) => t(`theme.${theme}`)} dataId="filter-theme" />
+          )}
+          <ChipRow<SortOrder>
+            label={t('library.sort')}
+            options={SORTS}
+            value={query.sort}
+            onChange={(sort) => change({ sort: sort ?? 'moi' })}
+            name={(sort) => t(`library.sort.${sort}`)}
+            dataId="sort"
           />
-        </label>
-        <ChipRow<LengthBand> label={t('library.length')} options={LENGTHS} value={query.length} onChange={(length) => change({ length })} name={(band) => t(`library.length.${band}`)} dataId="filter-length" />
-        {shelfThemes.length > 1 && (
-          <ChipRow<Theme> label={t('library.theme')} options={shelfThemes} value={query.theme} onChange={(theme) => change({ theme })} name={(theme) => t(`theme.${theme}`)} dataId="filter-theme" />
-        )}
-        <ChipRow<SortOrder>
-          label={t('library.sort')}
-          options={SORTS}
-          value={query.sort}
-          onChange={(sort) => change({ sort: sort ?? 'moi' })}
-          name={(sort) => t(`library.sort.${sort}`)}
-          dataId="sort"
-        />
+        </div>
       </div>
       <p className="shelf-count" role="status" data-id="shelf-count">
         {t('library.count', { n: view.total })}

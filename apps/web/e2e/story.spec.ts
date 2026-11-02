@@ -173,8 +173,12 @@ test('a shelf finds stories typed without marks and keeps the search in the addr
   await page.reload();
   await expect(page.locator('[data-id=shelf-search]')).toHaveValue('son tinh thuy');
   await page.click('[data-id=shelf-clear]');
+  // On a phone the length, topic and order rows fold behind the Filters button.
+  await expect(page.locator('[data-id=filter-length-ngan]')).toBeHidden();
+  await page.click('[data-id=shelf-filter-toggle]');
   await page.click('[data-id=filter-length-ngan]');
   await expect(page).toHaveURL(/do-dai=ngan/);
+  await expect(page.locator('[data-id=shelf-filter-toggle] .filter-count')).toHaveText('1');
   expect(await page.locator('[data-id=story-list-kids] > li').count()).toBeGreaterThan(1);
 });
 

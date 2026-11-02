@@ -22,6 +22,7 @@ export type IconName =
   | 'timer'
   | 'replay'
   | 'search'
+  | 'filter'
   | 'check'
   | 'download'
   | 'back'
@@ -91,6 +92,7 @@ const PATHS: Record<IconName, ReactNode> = {
       <path d="M15 15l5 5" />
     </>
   ),
+  filter: <path d="M4 6.5h16M7 12h10M10 17.5h4" />,
   check: <path d="M5 12.5l4.5 4.5L19 7.5" />,
   download: <path d="M12 4v11M7 10.5l5 5 5-5M5 19.5h14" />,
   back: <path d="M19 12H5M11 6l-6 6 6 6" />,

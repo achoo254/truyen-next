@@ -905,6 +905,72 @@ a {
   }
 }
 
+/* Search and, on compact screens, the button that opens the length/topic/order rows. */
+.search-bar {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.search-bar .search {
+  flex: 1;
+  min-width: 0;
+}
+
+.shelf-filters {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.filter-toggle {
+  display: none;
+  flex: none;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 48px;
+  padding: 0 var(--space-3);
+  border: 1.5px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  background: var(--c-page);
+  color: var(--c-text);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.filter-toggle[aria-expanded='true'] {
+  background: var(--c-ink-solid);
+  color: var(--c-on-ink);
+}
+
+.filter-count {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.4em;
+  height: 1.4em;
+  padding: 0 0.3em;
+  border-radius: var(--radius-full);
+  background: var(--c-ink-solid);
+  color: var(--c-on-ink);
+  font-size: 0.8rem;
+}
+
+.filter-toggle[aria-expanded='true'] .filter-count {
+  background: var(--c-on-ink);
+  color: var(--c-ink-solid);
+}
+
+/* Narrow or short screens: the rows fold behind the button so more covers fit on screen. */
+@media (max-width: 759px), (max-height: 860px) {
+  .filter-toggle {
+    display: inline-flex;
+  }
+
+  .shelf-tools:not(.is-open) .shelf-filters {
+    display: none;
+  }
+}
+
 .search {
   display: flex;
   align-items: center;
