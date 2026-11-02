@@ -50,12 +50,23 @@ Mảng JSON, mỗi dòng một mục, **thứ tự trong tệp là thứ tự vi
    các phụ thuộc `github:achoo254/shared-next#…&path:/packages/<gói>` ở `package.json` và `apps/web/package.json`
    thành `file:<đường dẫn bản clone>/packages/<gói>`, `pnpm install` rồi chạy bước kiểm ở đó. Chỉ chép
    `stories/` và `catalog/stories.json` về repo thật; không commit `package.json` hay lockfile đã đổi.
-2. **Chọn lô.** Lấy các mục `idea` đầu tiên theo thứ tự trong tệp (khoảng 15 mục mỗi ngày, hay 100 mục mỗi tuần).
+2. **Giữ kho ý tưởng.** CI đòi danh mục còn ít nhất 100 mục `idea` và kệ nào cũng còn (`scripts/story-catalog.test.ts`);
+   thiếu là deploy bị chặn. Trước khi viết, đếm `idea`: còn dưới 150, hoặc một kệ dưới 30, thì lượt này viết ít đi và
+   thêm ý tưởng cho đủ khoảng 200, ưu tiên kệ đang thiếu. Mỗi mục mới phải:
+   - có bản in thuộc phạm vi công cộng đã thực sự mở được (ghi số Gutenberg hoặc URL trong `plotSource`, không ghi theo
+     trí nhớ), đủ dài cho độ dài kệ mà không phải bịa thêm;
+   - không trùng `catalog/stories.json` hay `catalog/rejected.json`, so cả slug, tên và cốt truyện (cùng cốt có thể
+     mang tên khác);
+   - hợp luật kệ ở mục 5 (không phải tiểu sử, không có điều cấm nào ở đó).
+
+   Thêm ý tưởng mới vào **cuối** danh mục, `status: "idea"`, commit riêng
+   (`feat(catalog): add <số> story ideas`).
+3. **Chọn lô.** Lấy các mục `idea` đầu tiên theo thứ tự trong tệp (khoảng 15 mục mỗi ngày, hay 100 mục mỗi tuần).
    Trước khi viết một mục, kiểm `stories/<slug>` trên `main` mới nhất: đã có thư mục thì **không viết lại**, chỉ cập
    nhật mục đó (bước 1) và lấy mục kế. Không chắc nguồn của một mục thuộc phạm vi công cộng thì bỏ qua (để nguyên
    `idea`) và ghi vào báo cáo của lần chạy.
-3. **Viết `stories/<slug>/story.json`** theo [`story-format.md`](story-format.md), chỉ phần chữ:
-   - `schemaVersion: 1`, `slug` và `title` đúng như danh mục, `shelf` theo mục 4, `language: "vi"`,
+4. **Viết `stories/<slug>/story.json`** theo [`story-format.md`](story-format.md), chỉ phần chữ:
+   - `schemaVersion: 1`, `slug` và `title` đúng như danh mục, `shelf` theo mục 5, `language: "vi"`,
      `added` là ngày chạy theo giờ Việt Nam (`YYYY-MM-DD`; trang kệ xếp "Mới nhất" theo trường này).
    - `summary` một đến ba câu; `themes` một đến ba chủ đề trong `THEMES` của schema.
    - `source`: một hai câu nói gốc truyện (lấy từ `plotSource`) và cách viết lời kể. `basedOn` (schema bắt buộc,
@@ -66,7 +77,7 @@ Mảng JSON, mỗi dòng một mục, **thứ tự trong tệp là thứ tự vi
      `style`, `characters[].sheetPrompt`, `scenes[].image.prompt`, `scenes[].video.motionPrompt`, `music.prompt` và
      `durationSeconds`; `voice: {}` cho mỗi cảnh. **Không ghi trường `file` nào** và không có `track`: chúng chỉ có
      khi `pnpm story:build` đã tạo file.
-4. **Luật kệ** (kiểm bằng `pnpm check:stories`):
+5. **Luật kệ** (kiểm bằng `pnpm check:stories`):
 
    | | `kids` | `adults` | `world` |
    | --- | --- | --- | --- |
@@ -90,15 +101,15 @@ Mảng JSON, mỗi dòng một mục, **thứ tự trong tệp là thứ tự vi
        nữ là cốt lõi (xem `catalog/rejected.json`).
      Một truyện thế giới không thể kể nhẹ nhàng mà vẫn đúng cốt truyện thì bỏ qua và ghi vào báo cáo.
    - Từ cấm chỉ là lưới chặn sơ suất; giọng kể phải hợp kệ ngay từ đầu.
-5. **Bản quyền.** Chỉ lấy cốt truyện đã thuộc phạm vi công cộng: văn học dân gian không ai giữ quyền; sách cổ (Lĩnh Nam
+6. **Bản quyền.** Chỉ lấy cốt truyện đã thuộc phạm vi công cộng: văn học dân gian không ai giữ quyền; sách cổ (Lĩnh Nam
    chích quái, Việt điện u linh, Truyền kỳ mạn lục, Nam Hải dị nhân liệt truyện…); Grimm, Andersen, Aesop, Perrault,
    Andrew Lang Fairy Books, Nghìn lẻ một đêm, Pushkin, truyện dân gian Nga, Nhật, Anh, Na Uy… Không lấy truyện của tác
    giả còn được bảo hộ. **Không chép nguyên văn bản dịch nào**, kể cả bản dịch đã hết hạn: các bản dịch quốc ngữ hiện
    hành của Lĩnh Nam chích quái, lời và dị bản của Nguyễn Đổng Chi (Kho tàng truyện cổ tích Việt Nam, còn bảo hộ tới hết
    31/12/2034), các bản dịch Grimm, Andersen tiếng Việt, sách giáo khoa. Không dùng chi tiết riêng của phim Disney.
-6. **Kiểm.** `pnpm check:stories` tới khi mọi truyện của lô có dấu ✓ và không còn lỗi; rồi gate
+7. **Kiểm.** `pnpm check:stories` tới khi mọi truyện của lô có dấu ✓ và không còn lỗi; rồi gate
    `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm build`, chạy lần lượt, không song song.
-7. **Ghi trạng thái, commit và push từng truyện.** Lượt chạy có thể bị dừng giữa chừng (hết hạn mức), nên truyện nào
+8. **Ghi trạng thái, commit và push từng truyện.** Lượt chạy có thể bị dừng giữa chừng (hết hạn mức), nên truyện nào
    qua `pnpm check:stories` thì commit và push ngay, không chờ cả lô: đổi `status` mục đó thành `text`, một commit gồm
    `stories/<slug>/story.json` và `catalog/stories.json`, ví dụ `feat(stories): add vi-sao-ho-co-van`,
    `git pull --rebase` rồi push. Gate đầy đủ (`lint`, `typecheck`, `test`, `build`) chạy ít nhất một lần trước push
