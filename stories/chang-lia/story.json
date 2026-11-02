@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "slug": "chang-lia",
+  "shelf": "adults",
+  "title": "Chàng Lía",
+  "summary": "Cậu bé chăn trâu nghèo đất Bình Định học con cá lóc mà luyện được cú nhảy qua nóc nhà, rồi lập trại ở Truông Mây, lấy của nhà giàu chia cho người nghèo. Quan quân đánh mãi không được, bèn dùng mưu ly gián, và người anh hùng Truông Mây đi vào lời vè của dân.",
+  "themes": [
+    "anh-hung",
+    "thien-ac"
+  ],
+  "added": "2026-11-03",
+  "language": "vi",
+  "source": "Truyền thuyết dân gian Bình Định (Việt Nam) về chàng Lía ở Truông Mây, lưu truyền qua lời kể và vè của dân gian, không ai giữ quyền. Lời kể tiếng Việt viết mới theo cốt truyện truyền miệng, không chép theo bản vè hay sách in nào.",
+  "basedOn": "Truyền thuyết dân gian Bình Định",
+  "style": "painted illustration of eighteenth century rural central Vietnam, dry golden rice fields, dusty red roads, scrubby hills of a mountain pass covered with rattan and bushes, thatched mud houses, peasants in brown and indigo clothes with conical hats, earthy ochre, olive and dusk-blue palette, grounded heroic mood for adult readers, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "lia",
+      "name": "Chàng Lía",
+      "sheetPrompt": "Lia, a wiry young peasant hero of eighteenth century central Vietnam, sunburnt determined face, short hair tied with a dark headband, a loose brown tunic and rolled-up trousers, barefoot, a plain wooden staff over his shoulder, full body, front view, plain warm paper background, character reference sheet",
+      "seed": 1656477268
+    },
+    {
+      "id": "lia-nho",
+      "name": "Lía lúc nhỏ",
+      "sheetPrompt": "a skinny poor buffalo-herd boy of eighteenth century central Vietnam, about ten, cheeky bright eyes, shaved head with a small tuft, torn brown shorts, a bamboo switch in his hand, full body, front view, plain warm paper background, character reference sheet",
+      "seed": 3351735237
+    },
+    {
+      "id": "ba-man",
+      "name": "Bà Mẫn",
+      "sheetPrompt": "Ba Man, a stout strong middle-aged market woman of old central Vietnam who sells pork, round confident face, hair wrapped in a black turban, sleeves rolled up, brown blouse and dark trousers, a wooden pestle in her hands, full body, front view, plain warm paper background, character reference sheet",
+      "seed": 701997225
+    },
+    {
+      "id": "vo-lia",
+      "name": "Vợ chàng Lía",
+      "sheetPrompt": "a young village wife of eighteenth century central Vietnam, gentle troubled face, long hair in a knot, pale indigo ao dai style tunic and black trousers, holding a clay wine jug, full body, front view, plain warm paper background, character reference sheet",
+      "seed": 3103401171
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cau-be-chan-trau",
+      "title": "Cậu bé chăn trâu",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở đất Bình Định, có một cậu bé nhà nghèo tên là Lía. Nhà không có lấy một tấc ruộng, nên từ nhỏ Lía đã phải đi chăn trâu thuê cho một nhà địa chủ trong vùng. Cơm thì ăn độn khoai, áo thì vá chằng vá đụp, trâu lạc là bị đánh đòn. Nhưng Lía không hề chịu cúi đầu. Ngoài đồng, cậu hay tụ lũ trẻ chăn trâu lại, chia phe, cưỡi trâu làm ngựa, lấy cành tre làm cờ, chơi trò đánh trận. Bao giờ Lía cũng làm tướng, và phe của Lía bao giờ cũng thắng.",
+      "subtitles": [
+        "Ngày xưa, ở đất Bình Định, có một cậu bé nhà nghèo tên là Lía.",
+        "Nhà không có lấy một tấc ruộng,",
+        "nên từ nhỏ Lía đã phải đi chăn trâu thuê cho một nhà địa chủ trong vùng.",
+        "Cơm thì ăn độn khoai, áo thì vá chằng vá đụp, trâu lạc là bị đánh đòn.",
+        "Nhưng Lía không hề chịu cúi đầu.",
+        "Ngoài đồng, cậu hay tụ lũ trẻ chăn trâu lại, chia phe,",
+        "cưỡi trâu làm ngựa, lấy cành tre làm cờ, chơi trò đánh trận.",
+        "Bao giờ Lía cũng làm tướng, và phe của Lía bao giờ cũng thắng."
+      ],
+      "image": {
+        "prompt": "a group of poor buffalo-herd children playing a mock battle in dry rice fields of old central Vietnam, riding buffalo, waving bamboo branches as flags, a skinny cheeky boy leading them as general",
+        "seed": 4183512722,
+        "character": "lia-nho"
+      },
+      "video": {
+        "motionPrompt": "children run and shout across the field, bamboo flags wave, buffalo plod forward, dust drifts in the sunlight, slow pan",
+        "seed": 404885848
+      },
+      "voice": {}
+    },
+    {
+      "id": "cu-nhay-ca-loc",
+      "title": "Cú nhảy cá lóc",
+      "narrator": "ke-chuyen",
+      "narration": "Một buổi trưa nắng gắt, Lía ngồi bên bờ ruộng thì thấy một con cá lóc nằm trong vũng nước cạn. Bỗng con cá uốn mình, quẫy đuôi, vọt phắt lên khỏi mặt nước, bay qua bờ đất cao để sang ruộng bên kia. Lía tròn mắt nhìn. Một con cá mà nhảy được như thế, thì một con người sao lại không. Từ hôm ấy, Lía đào một cái hố ở góc bãi. Ngày nào cũng vậy, cậu đứng dưới đáy hố, gồng mình, bật lên như con cá lóc. Hố mỗi ngày một sâu thêm, chân Lía mỗi ngày một dẻo thêm.",
+      "subtitles": [
+        "Một buổi trưa nắng gắt,",
+        "Lía ngồi bên bờ ruộng thì thấy một con cá lóc nằm trong vũng nước cạn.",
+        "Bỗng con cá uốn mình, quẫy đuôi, vọt phắt lên khỏi mặt nước,",
+        "bay qua bờ đất cao để sang ruộng bên kia.",
+        "Lía tròn mắt nhìn.",
+        "Một con cá mà nhảy được như thế, thì một con người sao lại không.",
+        "Từ hôm ấy, Lía đào một cái hố ở góc bãi.",
+        "Ngày nào cũng vậy, cậu đứng dưới đáy hố, gồng mình, bật lên như con cá lóc.",
+        "Hố mỗi ngày một sâu thêm, chân Lía mỗi ngày một dẻo thêm."
+      ],
+      "image": {
+        "prompt": "a snakehead fish leaping high out of a shallow puddle over a muddy rice field bank, a skinny boy sitting on the bank watching with wide amazed eyes, bright midday sun",
+        "seed": 1460979523,
+        "character": "lia-nho"
+      },
+      "video": {
+        "motionPrompt": "the fish arcs through the air with splashing water drops, the boy jumps to his feet, slow motion then slow push in",
+        "seed": 1258439686
+      },
+      "voice": {}
+    },
+    {
+      "id": "lon-len",
+      "title": "Lớn lên giữa cảnh bất công",
+      "narrator": "ke-chuyen",
+      "narration": "Năm tháng trôi qua, cậu bé chăn trâu thành một chàng trai rắn rỏi. Người trong vùng đồn rằng Lía tung mình một cái là vọt qua khỏi nóc nhà, nhẹ như chiếc lá. Nhưng quanh chàng, đời người nghèo mỗi ngày một khổ. Quan lại đặt ra đủ thứ thuế, cường hào lấn ruộng, nhà nào không nộp đủ thì bị trói, bị tịch thu trâu bò. Có làng chỉ vài trăm nóc nhà mà có tới mấy chục người đi thu thuế. Lía từng đi thi, mong làm được chút gì cho dân, nhưng tới nơi chỉ thấy cảnh quan trường ăn tiền đút lót. Chàng xé quyển, bỏ về, lòng nóng như lửa.",
+      "subtitles": [
+        "Năm tháng trôi qua, cậu bé chăn trâu thành một chàng trai rắn rỏi.",
+        "Người trong vùng đồn rằng Lía tung mình một cái là vọt qua khỏi nóc nhà, nhẹ như chiếc lá.",
+        "Nhưng quanh chàng, đời người nghèo mỗi ngày một khổ.",
+        "Quan lại đặt ra đủ thứ thuế, cường hào lấn ruộng,",
+        "nhà nào không nộp đủ thì bị trói, bị tịch thu trâu bò.",
+        "Có làng chỉ vài trăm nóc nhà mà có tới mấy chục người đi thu thuế.",
+        "Lía từng đi thi, mong làm được chút gì cho dân,",
+        "nhưng tới nơi chỉ thấy cảnh quan trường ăn tiền đút lót.",
+        "Chàng xé quyển, bỏ về, lòng nóng như lửa."
+      ],
+      "image": {
+        "prompt": "a young peasant leaping high over the thatched roof of a village house at dusk, villagers below looking up in astonishment, tax collectors leading away a buffalo in the background",
+        "seed": 1464426554,
+        "character": "lia"
+      },
+      "video": {
+        "motionPrompt": "the young man soars over the roof against the evening sky, villagers turn their heads, the buffalo is pulled away slowly, slow tilt up",
+        "seed": 156393660
+      },
+      "voice": {}
+    },
+    {
+      "id": "lap-trai-truong-may",
+      "title": "Lập trại ở Truông Mây",
+      "narrator": "ke-chuyen",
+      "narration": "Lía rủ những người bạn nghèo cùng chí hướng, kéo nhau lên Truông Mây. Đó là một vùng đồi rậm rạp, mây phủ quanh năm, cây cối um tùm, con đường độc đạo chạy xuyên qua giữa. Ở đó, chàng dựng trại, luyện võ cho anh em, đặt người canh gác các ngả đường. Lía ra lệnh rằng người nghèo đi qua thì để yên, còn nhà giàu, quan lại đi qua thì phải để lại một phần của cải. Tiếng đồn bay khắp vùng, người nghèo nghe tên Lía thì mừng, còn bọn nhà giàu thì nghe tên Lía là run.",
+      "subtitles": [
+        "Lía rủ những người bạn nghèo cùng chí hướng, kéo nhau lên Truông Mây.",
+        "Đó là một vùng đồi rậm rạp, mây phủ quanh năm,",
+        "cây cối um tùm, con đường độc đạo chạy xuyên qua giữa.",
+        "Ở đó, chàng dựng trại, luyện võ cho anh em, đặt người canh gác các ngả đường.",
+        "Lía ra lệnh rằng người nghèo đi qua thì để yên, còn nhà giàu,",
+        "quan lại đi qua thì phải để lại một phần của cải.",
+        "Tiếng đồn bay khắp vùng, người nghèo nghe tên Lía thì mừng,",
+        "còn bọn nhà giàu thì nghe tên Lía là run."
+      ],
+      "image": {
+        "prompt": "a rough rebel camp hidden among thick rattan and bushes on misty hills of a mountain pass, peasants training with wooden staffs, a narrow dusty road winding through the pass below",
+        "seed": 3840688170,
+        "character": "lia"
+      },
+      "video": {
+        "motionPrompt": "mist drifts through the thick bushes, peasants practice with staffs in rhythm, a lookout waves from a tree, slow aerial pan",
+        "seed": 242021060
+      },
+      "voice": {}
+    },
+    {
+      "id": "chia-cua-cho-dan",
+      "title": "Lấy của nhà giàu chia cho người nghèo",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm đêm, Lía cùng anh em xuống núi. Họ tìm tới những nhà giàu ác nghiệt, những kẻ cho vay nặng lãi, những tên cường hào cướp ruộng của dân. Lúa trong kho, tiền trong rương được khuân ra, rồi đem chia cho những nhà nghèo đói trong xóm. Sáng ra, nhiều bà mẹ thấy trước cửa có một bao gạo, mà không biết ai để lại. Bị lính đuổi theo, Lía chỉ cần một cú nhảy cá lóc là vọt qua tường rào, mất hút vào bóng tối. Dân gian truyền nhau câu vè, kể rằng Lía là người của dân nghèo, ở Truông Mây chờ ngày dẹp yên bọn bóc lột.",
+      "subtitles": [
+        "Đêm đêm, Lía cùng anh em xuống núi.",
+        "Họ tìm tới những nhà giàu ác nghiệt, những kẻ cho vay nặng lãi,",
+        "những tên cường hào cướp ruộng của dân.",
+        "Lúa trong kho, tiền trong rương được khuân ra,",
+        "rồi đem chia cho những nhà nghèo đói trong xóm.",
+        "Sáng ra, nhiều bà mẹ thấy trước cửa có một bao gạo, mà không biết ai để lại.",
+        "Bị lính đuổi theo, Lía chỉ cần một cú nhảy cá lóc là vọt qua tường rào,",
+        "mất hút vào bóng tối.",
+        "Dân gian truyền nhau câu vè, kể rằng Lía là người của dân nghèo,",
+        "ở Truông Mây chờ ngày dẹp yên bọn bóc lột."
+      ],
+      "image": {
+        "prompt": "night scene in a poor village of old central Vietnam, rebels quietly leaving sacks of rice at the doors of thatched huts, an old mother opening her door in the morning light finding a sack of rice",
+        "seed": 1449793865,
+        "character": "lia"
+      },
+      "video": {
+        "motionPrompt": "lantern light glows softly, rebels move quietly between the huts, a door creaks open to morning light, slow dolly along the lane",
+        "seed": 3658856725
+      },
+      "voice": {}
+    },
+    {
+      "id": "thua-ba-man",
+      "title": "Lần thua bà Mẫn",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng người ta cũng kể một chuyện khiến dân làng cười mãi. Trong vùng có bà Mẫn bán thịt heo, giàu có mà to khỏe, tay cầm chày giã gạo như cầm que tre. Một đêm, Lía tìm tới nhà bà, định lấy của chia cho dân. Không ngờ bà Mẫn chẳng sợ chút nào. Bà vác chày xông ra, quật tới tấp, người tướng Truông Mây đỡ không kịp, đánh mãi không lại. Rốt cuộc, Lía đành tung một cú nhảy cá lóc, vọt qua hàng rào mà chạy. Từ đó, chàng thường nói với anh em rằng ở đời đừng bao giờ coi thường ai, nhất là một người đàn bà đang giữ nhà mình.",
+      "subtitles": [
+        "Nhưng người ta cũng kể một chuyện khiến dân làng cười mãi.",
+        "Trong vùng có bà Mẫn bán thịt heo, giàu có mà to khỏe,",
+        "tay cầm chày giã gạo như cầm que tre.",
+        "Một đêm, Lía tìm tới nhà bà, định lấy của chia cho dân.",
+        "Không ngờ bà Mẫn chẳng sợ chút nào.",
+        "Bà vác chày xông ra, quật tới tấp,",
+        "người tướng Truông Mây đỡ không kịp, đánh mãi không lại.",
+        "Rốt cuộc, Lía đành tung một cú nhảy cá lóc, vọt qua hàng rào mà chạy.",
+        "Từ đó, chàng thường nói với anh em rằng ở đời đừng bao giờ coi thường ai,",
+        "nhất là một người đàn bà đang giữ nhà mình."
+      ],
+      "image": {
+        "prompt": "comic night scene in a courtyard of old central Vietnam, a stout strong market woman swinging a big wooden pestle, a young rebel leaping over the bamboo fence to escape, a startled pig in its pen",
+        "seed": 3623032185,
+        "character": "ba-man"
+      },
+      "video": {
+        "motionPrompt": "the woman swings her pestle, the young man springs over the fence, the pig squeals and runs in circles, lively camera shake then settle",
+        "seed": 145553302
+      },
+      "voice": {}
+    },
+    {
+      "id": "quan-quan-vay-danh",
+      "title": "Quan quân vây đánh",
+      "narrator": "ke-chuyen",
+      "narration": "Tiếng tăm Lía lan tới tận phủ chúa. Quan trên sai quân lính về vây Truông Mây. Nhưng Truông Mây cây rậm, đường hẹp, quân lính vào là lạc lối, đi tới đâu cũng gặp bẫy, gặp người của Lía chặn đánh. Có lần quan quân tưởng đã vây chặt, thì Lía đã nhảy qua đầu họ mà đi mất. Đánh một lần, rồi lần nữa, rồi lần nữa, quân triều đình đều phải rút về tay không. Dân quanh vùng lại càng tin rằng chàng Lía có trời che chở.",
+      "subtitles": [
+        "Tiếng tăm Lía lan tới tận phủ chúa.",
+        "Quan trên sai quân lính về vây Truông Mây.",
+        "Nhưng Truông Mây cây rậm, đường hẹp, quân lính vào là lạc lối,",
+        "đi tới đâu cũng gặp bẫy, gặp người của Lía chặn đánh.",
+        "Có lần quan quân tưởng đã vây chặt, thì Lía đã nhảy qua đầu họ mà đi mất.",
+        "Đánh một lần, rồi lần nữa, rồi lần nữa, quân triều đình đều phải rút về tay không.",
+        "Dân quanh vùng lại càng tin rằng chàng Lía có trời che chở."
+      ],
+      "image": {
+        "prompt": "government soldiers in old uniforms with conical hats lost and confused among thick bushes on a misty hill pass, a rebel in the distance leaping above the foliage, the pass covered in clouds",
+        "seed": 1631567085,
+        "character": "lia"
+      },
+      "video": {
+        "motionPrompt": "soldiers turn in confusion, branches sway, a figure leaps over the bushes and vanishes into the mist, slow pan",
+        "seed": 2626823778
+      },
+      "voice": {}
+    },
+    {
+      "id": "muu-ly-gian",
+      "title": "Mưu ly gián",
+      "narrator": "ke-chuyen",
+      "narration": "Biết dùng sức không được, bọn quan bàn nhau dùng mưu. Chúng tìm tới nhà vợ Lía, khi thì đe dọa, khi thì dỗ ngon dỗ ngọt, hứa hẹn ruộng nương, vàng bạc, bảo rằng chỉ cần nàng giúp một tay, cả nhà sẽ được yên thân. Người đàn bà ấy rối bời trong lòng. Một bên là chồng, một bên là cha mẹ già đang bị quan nắm trong tay. Cuối cùng, nàng đã gật đầu. Không ai biết đêm ấy nàng khóc bao nhiêu, nhưng người dân Truông Mây thì về sau vẫn còn nhắc lại cái gật đầu đau đớn ấy.",
+      "subtitles": [
+        "Biết dùng sức không được, bọn quan bàn nhau dùng mưu.",
+        "Chúng tìm tới nhà vợ Lía, khi thì đe dọa, khi thì dỗ ngon dỗ ngọt, hứa hẹn ruộng nương,",
+        "vàng bạc, bảo rằng chỉ cần nàng giúp một tay, cả nhà sẽ được yên thân.",
+        "Người đàn bà ấy rối bời trong lòng.",
+        "Một bên là chồng, một bên là cha mẹ già đang bị quan nắm trong tay.",
+        "Cuối cùng, nàng đã gật đầu.",
+        "Không ai biết đêm ấy nàng khóc bao nhiêu,",
+        "nhưng người dân Truông Mây thì về sau vẫn còn nhắc lại cái gật đầu đau đớn ấy."
+      ],
+      "image": {
+        "prompt": "inside a dim village house at night, a mandarin's messenger in fine robes speaking persuasively to a young troubled wife, her elderly parents sitting anxiously in the shadows, an oil lamp flickering",
+        "seed": 82502446,
+        "character": "vo-lia"
+      },
+      "video": {
+        "motionPrompt": "the oil lamp flickers, the messenger gestures smoothly, the young woman lowers her eyes and her hands tremble, slow push in",
+        "seed": 3279763004
+      },
+      "voice": {}
+    },
+    {
+      "id": "bua-tiec",
+      "title": "Bữa tiệc trên trại",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm ấy, nhân một dịp vui, vợ Lía bày tiệc lớn trên trại Truông Mây. Rượu được khiêng lên từng vò, thịt bày đầy mâm. Nàng đi tới từng người, rót mời không ngớt. Anh em nghĩa quân bao lâu nay vất vả, uống say, ngủ vùi khắp các lều. Đến khuya, khi cả trại đã im lìm, thì bốn phía bỗng rực lên những bó đuốc. Quân triều đình đã theo con đường được chỉ sẵn mà lẻn vào. Trại Truông Mây vỡ tan trong một đêm. Những người anh em thân thiết của Lía, người thì bị bắt, người thì ngã xuống giữa bãi trại.",
+      "subtitles": [
+        "Hôm ấy, nhân một dịp vui, vợ Lía bày tiệc lớn trên trại Truông Mây.",
+        "Rượu được khiêng lên từng vò, thịt bày đầy mâm.",
+        "Nàng đi tới từng người, rót mời không ngớt.",
+        "Anh em nghĩa quân bao lâu nay vất vả, uống say, ngủ vùi khắp các lều.",
+        "Đến khuya, khi cả trại đã im lìm, thì bốn phía bỗng rực lên những bó đuốc.",
+        "Quân triều đình đã theo con đường được chỉ sẵn mà lẻn vào.",
+        "Trại Truông Mây vỡ tan trong một đêm.",
+        "Những người anh em thân thiết của Lía,",
+        "người thì bị bắt, người thì ngã xuống giữa bãi trại."
+      ],
+      "image": {
+        "prompt": "a feast in a rebel camp on a hill at night, jars of rice wine and trays of food, rebels asleep around the tents, rows of torches approaching through the bushes from all sides in the distance",
+        "seed": 2282852550,
+        "character": "vo-lia"
+      },
+      "video": {
+        "motionPrompt": "torches flicker as they come closer through the dark bushes, sleepers stir, smoke drifts, slow pan around the camp",
+        "seed": 842568464
+      },
+      "voice": {}
+    },
+    {
+      "id": "phut-cuoi",
+      "title": "Phút cuối của người anh hùng",
+      "narrator": "ke-chuyen",
+      "narration": "Chỉ mình Lía tung người thoát ra khỏi vòng vây. Chàng chạy mãi, chạy lên tận đỉnh núi cao, nhìn xuống Truông Mây chìm trong lửa khói. Anh em không còn, chí lớn không thành, người mình thương lại là người mở cửa cho giặc. Lía đứng lặng rất lâu trong gió núi. Chàng không chịu sa vào tay quân lính, không chịu để bọn quan đem mình ra làm trò. Người ta kể rằng trên đỉnh núi ấy, chàng Lía đã tự kết liễu đời mình, để lại một nỗi uất hận cho cả vùng đất Bình Định.",
+      "subtitles": [
+        "Chỉ mình Lía tung người thoát ra khỏi vòng vây.",
+        "Chàng chạy mãi, chạy lên tận đỉnh núi cao, nhìn xuống Truông Mây chìm trong lửa khói.",
+        "Anh em không còn, chí lớn không thành, người mình thương lại là người mở cửa cho giặc.",
+        "Lía đứng lặng rất lâu trong gió núi.",
+        "Chàng không chịu sa vào tay quân lính, không chịu để bọn quan đem mình ra làm trò.",
+        "Người ta kể rằng trên đỉnh núi ấy, chàng Lía đã tự kết liễu đời mình,",
+        "để lại một nỗi uất hận cho cả vùng đất Bình Định."
+      ],
+      "image": {
+        "prompt": "a lone young rebel standing on a windswept mountain top at dawn, looking down at smoke rising from the hills of the pass below, his headband fluttering in the wind, a vast lonely sky",
+        "seed": 4274449616,
+        "character": "lia"
+      },
+      "video": {
+        "motionPrompt": "the wind tugs at his clothes and headband, smoke drifts slowly over the hills below, clouds move across the sky, slow pull back",
+        "seed": 358377084
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-ve",
+      "title": "Còn mãi trong lời vè",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng Lía mất, nhưng tên chàng không mất. Những người nghèo từng nhận bao gạo trước cửa, những đứa trẻ chăn trâu từng nghe chuyện cú nhảy cá lóc, đã truyền cho nhau câu chuyện về người anh hùng Truông Mây. Lời vè chàng Lía được hát ở chợ, ở bến đò, bên những ruộng lúa vàng. Đến nay, đi qua Truông Mây, người già vẫn chỉ cho con cháu những dấu tích cũ, kể về chàng trai học con cá lóc mà dám đứng lên vì người nghèo.",
+      "subtitles": [
+        "Chàng Lía mất, nhưng tên chàng không mất.",
+        "Những người nghèo từng nhận bao gạo trước cửa,",
+        "những đứa trẻ chăn trâu từng nghe chuyện cú nhảy cá lóc,",
+        "đã truyền cho nhau câu chuyện về người anh hùng Truông Mây.",
+        "Lời vè chàng Lía được hát ở chợ, ở bến đò, bên những ruộng lúa vàng.",
+        "Đến nay, đi qua Truông Mây, người già vẫn chỉ cho con cháu những dấu tích cũ,",
+        "kể về chàng trai học con cá lóc mà dám đứng lên vì người nghèo."
+      ],
+      "image": {
+        "prompt": "an old storyteller singing to villagers and children at a riverside ferry landing in old central Vietnam, golden rice fields and misty hills of the pass behind them, warm evening light",
+        "seed": 3655865944
+      },
+      "video": {
+        "motionPrompt": "the ferry boat rocks gently, children lean in to listen, rice stalks sway in the evening breeze, slow push in",
+        "seed": 1029361781
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "melancholic yet stirring traditional central Vietnamese folk instrumental, dan bau monochord, bamboo flute and slow frame drum, ballad mood of a peasant hero, no vocals",
+    "durationSeconds": 120,
+    "seed": 1108839540
+  }
+}
