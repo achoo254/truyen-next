@@ -20,7 +20,7 @@ import { primaryOrigin } from '@achoo254/brand/hosts';
 import { type Page, chromium } from '@playwright/test';
 import { vi as messages } from '../apps/web/src/i18n/messages';
 import { BRAND_GENERATED_DIR, BRAND_ROOT, MANIFEST_OPTIONS, OG_IMAGE, type TruyenBrand, loadTruyenBrand } from '../apps/web/vite-brand';
-import { type TokenMap, parseTokens } from './token-contrast';
+import { type TokenMap, parseThemes } from './token-contrast';
 
 const PRINT = new URL('apps/web/src/art/dong-ho-print.svg', BRAND_ROOT);
 const TOKENS = new URL('apps/web/src/ui/tokens.css', BRAND_ROOT);
@@ -157,7 +157,9 @@ body { margin: 0; }
 
 async function main(): Promise<void> {
   const brand = loadTruyenBrand();
-  const tokens = parseTokens(readFileSync(TOKENS, 'utf8'));
+  // The link preview is in the paper (light) look; the lamplit look's values must not leak in.
+  const tokens = parseThemes(readFileSync(TOKENS, 'utf8')).get('light');
+  if (tokens === undefined) throw new Error('brand:gen: tokens.css has no light look');
   const printDataUrl = `data:image/svg+xml;base64,${readFileSync(PRINT).toString('base64')}`;
   const browser = await chromium.launch();
   try {
