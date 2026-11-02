@@ -28,12 +28,20 @@ const DOCS: Record<LegalPageKind, Record<Locale, LegalDoc>> = {
       intro: `{app} (${APP_HOST}) là app kể truyện cổ Việt Nam cho trẻ em và người lớn, do một nhà phát triển độc lập vận hành. Trang này nói rõ app giữ gì.`,
       sections: [
         {
-          heading: 'Không có tài khoản, không thu thập dữ liệu',
+          heading: 'Đọc truyện không cần tài khoản',
           paragraphs: [
-            'Nghe truyện không cần đăng nhập. App không hỏi tên, tuổi hay bất kỳ thông tin nào của bé hay của phụ huynh, và không gửi gì về máy chủ ngoài việc tải trang, câu chuyện, tranh và âm thanh.',
+            'Đọc và nghe truyện không cần đăng nhập. Khi chưa đăng nhập, app không hỏi tên, tuổi hay bất kỳ thông tin nào của bé hay của phụ huynh, và không gửi gì về máy chủ ngoài việc tải trang, câu chuyện, tranh và âm thanh. Trang đang đọc dở chỉ được nhớ trong trình duyệt của bạn.',
             'Lựa chọn ngôn ngữ được lưu trong cookie hd_lang trên tên miền hoandat.com, để các app hoandat.com khác mở cùng ngôn ngữ. Cookie này chỉ chứa mã ngôn ngữ.',
             'App không có quảng cáo, không dùng cookie theo dõi và không bán dữ liệu.',
             'App Truyện trên iPhone không có công cụ theo dõi hay đo lường của bên thứ ba. Truyện bạn tải về để nghe không cần mạng được lưu trong máy (không sao lưu lên iCloud) và xoá được bất cứ lúc nào ở trang Đã tải.',
+          ],
+        },
+        {
+          heading: 'Khi bạn đăng nhập trên trang web',
+          paragraphs: [
+            'Trên trang web, bạn có thể đăng nhập bằng tài khoản hoandat.com để lưu truyện yêu thích, đọc tiếp trên mọi máy và xem lại lịch sử đã đọc. App iPhone không có đăng nhập.',
+            'Khi đó máy chủ của app giữ: mã tài khoản, tên, email và ảnh đại diện do hoandat.com cung cấp (hiện ở menu tài khoản), danh sách truyện bạn đã lưu, và với mỗi truyện đã mở: cảnh đang đọc dở và thời điểm đọc (tối đa 200 truyện gần nhất). Một cookie phiên đăng nhập cho máy chủ biết bạn đã đăng nhập; mật khẩu do hoandat.com giữ, app không bao giờ thấy.',
+            'Đăng xuất ở menu tài khoản. Muốn xoá dữ liệu này, nhắn cho chúng tôi (mục Liên hệ).',
           ],
         },
         { heading: 'Liên hệ', paragraphs: ['Có câu hỏi: nhắn Trang Facebook Hoandat Apps.'] },
@@ -44,12 +52,20 @@ const DOCS: Record<LegalPageKind, Record<Locale, LegalDoc>> = {
       intro: `{app} (${APP_HOST}) is an app of Vietnamese folk tales for children and adults, run by an independent developer. This page says what the app keeps.`,
       sections: [
         {
-          heading: 'No account, no data collected',
+          heading: 'Reading needs no account',
           paragraphs: [
-            'Listening needs no sign-in. The app asks for no name, age or other detail of a child or parent, and sends nothing to the server beyond loading the page, the story, its pictures and its sound.',
+            'Reading and listening need no sign-in. While you are not signed in, the app asks for no name, age or other detail of a child or parent, and sends nothing to the server beyond loading the page, the story, its pictures and its sound. Where you stopped reading is kept only in your browser.',
             'Your language choice is kept in the hd_lang cookie on the hoandat.com domain, so the other hoandat.com apps open in the same language. The cookie holds only the language code.',
             'The app shows no ads, uses no tracking cookies and sells no data.',
             'The Truyện iPhone app has no third-party tracking or analytics. Stories you download to listen offline stay on the phone (not backed up to iCloud) and can be removed at any time on the Downloaded page.',
+          ],
+        },
+        {
+          heading: 'When you sign in on the website',
+          paragraphs: [
+            'On the website you can sign in with a hoandat.com account to save favourite stories, continue on any device and see what you have read. The iPhone app has no sign-in.',
+            'The app\'s server then keeps: the account id, and the name, email and picture hoandat.com gives (shown in the account menu); the stories you saved; and for each story you opened, the scene you stopped at and when (the 200 most recent). A session cookie tells the server you are signed in; your password stays with hoandat.com and the app never sees it.',
+            'Sign out from the account menu. To have this data deleted, message us (see Contact).',
           ],
         },
         { heading: 'Contact', paragraphs: ['Questions: message the Hoandat Apps Facebook page.'] },

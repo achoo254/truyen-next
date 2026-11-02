@@ -1,0 +1,30 @@
+# .65: /etc/systemd/system/truyen-server.service (installed by infra/install-site.sh, which infra/deploy.sh setup and
+# infra/setup-sign-in.sh run on the server).
+[Unit]
+Description=Truyen API (truyen.hoandat.com: sign-in, saved stories, reading progress)
+After=network-online.target postgresql.service
+Wants=network-online.target postgresql.service
+
+[Service]
+User=truyen
+Group=truyen
+# NODE_ENV=production, PORT=5300, PUBLIC_URL, DATABASE_URL, AUTH_ISSUER, AUTH_CLIENT_ID, AUTH_CLIENT_SECRET: written
+# on the server by infra/setup-sign-in.sh (root:root, 600; systemd reads it before dropping to the truyen user),
+# never in the repo.
+EnvironmentFile=/etc/truyen/production.env
+WorkingDirectory=/var/www/truyen/current
+# The bundle and its migrations ship inside each release under server/ (infra/deploy.sh); a release switch restarts
+# this service (infra/activate-incoming.sh).
+ExecStart=/opt/node22/bin/node --enable-source-maps /var/www/truyen/current/server/dist/server/index.mjs
+Restart=on-failure
+RestartSec=3
+# .65 has 8 GB shared by every app; the API is small (the stories are static files), so cap it.
+MemoryHigh=160M
+MemoryMax=256M
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

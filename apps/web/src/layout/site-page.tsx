@@ -1,5 +1,8 @@
 import { writePreference } from '@achoo254/app-shell/preferences';
-import type { ReactNode } from 'react';
+import { type ReactNode, useEffect } from 'react';
+import { AccountControl } from '../account/account-control';
+import { LoginNotice } from '../account/login-notice';
+import { loadSession } from '../account/session';
 import { BRAND_MARK_SRC, ECOSYSTEM_URL, brand } from '../brand';
 import { LOCALES, type Locale, useI18n } from '../i18n/i18n';
 import { useParentalGate } from '../native/parental-gate';
@@ -50,7 +53,7 @@ function LanguageSwitch(): ReactNode {
   );
 }
 
-function SiteHeader({ navLinks }: { navLinks: NavLink[] }): ReactNode {
+function SiteHeader({ path, navLinks }: { path: string; navLinks: NavLink[] }): ReactNode {
   const { t } = useI18n();
   return (
     <header className="topbar" data-id="public-header">
@@ -74,6 +77,7 @@ function SiteHeader({ navLinks }: { navLinks: NavLink[] }): ReactNode {
           )}
           <LightsSwitch className="icon-btn topbar-lights" dataId="header-lights" />
           <LanguageSwitch />
+          <AccountControl path={path} />
         </div>
       </div>
     </header>
@@ -126,21 +130,24 @@ function SiteFooter({ path }: { path: string }): ReactNode {
 }
 
 /**
- * Every page: the app's header (mark, name, links, language), the page body, and the footer (ecosystem link,
- * legal pages, note), in the same order as every hoandat.com app. No sign-in: reading needs no account.
+ * Every page: the app's header (mark, name, links, language, account), the page body, and the footer (ecosystem
+ * link, legal pages, note), in the same order as every hoandat.com app. Reading needs no account: signing in only
+ * keeps the reader's shelf, progress and history (account/).
  */
 export function SitePage({ path, children }: { path: string; children: ReactNode }): ReactNode {
   const { t } = useI18n();
   const navLinks: NavLink[] = [{ href: '/', label: t('layout.stories'), dataId: 'nav-stories', current: path === '/' }];
   const shelf = parseShelfPath(path);
+  useEffect(loadSession, []);
   return (
     <div className={shelf ? `site site--${shelf}` : 'site'}>
       <a className="skip-link" href="#main" data-id="skip-link">
         {t('layout.skip')}
       </a>
-      <SiteHeader navLinks={navLinks} />
+      <SiteHeader path={path} navLinks={navLinks} />
       {/* Focusable by the skip link only, not in the tab order. */}
       <main id="main" tabIndex={-1} className="main container">
+        <LoginNotice />
         {children}
       </main>
       <SiteFooter path={path} />

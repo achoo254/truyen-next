@@ -231,6 +231,96 @@ a {
   color: var(--c-on-ink);
 }
 
+/* The account control at the end of the header: the sign-in pill in vermilion (the header's one call to action), or
+   the shared account menu (@achoo254/app-shell AccountMenu, layout from app-shell.css) dressed as a pill like the
+   language switch. app-shell.css reads tokens Truyện does not define; they are mapped here, on the menu only. */
+.pill-sign-in {
+  border-color: var(--c-line);
+  background: var(--c-primary-solid);
+  color: var(--c-on-primary);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.pill-sign-in:hover {
+  background: var(--c-primary-solid-hover);
+}
+
+.shell-account {
+  --font-mono: var(--font-sans);
+  --c-icon-muted: var(--c-text-muted);
+  --c-border-subtle: var(--c-border);
+  --icon-stroke: 2;
+  --dur-fast: var(--dur-base);
+  --ease-standard: var(--ease);
+  --shadow-lg: var(--lift);
+}
+
+.shell-account-trigger {
+  min-height: var(--tap);
+  padding: 0 var(--space-3) 0 var(--space-1);
+  border: 1.5px solid var(--c-border-strong);
+  border-radius: var(--radius-full);
+  background: var(--c-surface);
+  color: var(--c-text);
+}
+
+.shell-account-trigger:hover,
+.shell-account[open] > .shell-account-trigger {
+  border-color: var(--c-line);
+  background: var(--c-surface);
+}
+
+.shell-account-trigger .shell-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-full);
+  box-shadow: 0 0 0 1.5px var(--c-line);
+}
+
+.shell-avatar-initial {
+  font-family: var(--font-display);
+  font-size: 17px;
+}
+
+.shell-account-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.shell-account-panel {
+  border: 1.5px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+}
+
+.shell-account-head-name {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.shell-account-item:hover {
+  background: var(--c-surface-raised);
+}
+
+/* Phones: the avatar alone (app-shell.css hides the name) in a round button; a tighter sign-in pill. */
+@media (max-width: 639px) {
+  .shell-account-trigger {
+    padding: 0 var(--space-1);
+  }
+
+  .shell-account-trigger > .shell-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 479px) {
+  .pill-sign-in {
+    padding: 0 var(--space-3);
+  }
+}
+
 .main {
   flex: 1;
   padding-top: var(--space-6);
@@ -2531,4 +2621,89 @@ html.reading .main {
   color: var(--c-text);
   font: inherit;
   font-size: 1.2rem;
+}
+
+/* The signed-in reader's own pages and what leads to them. */
+.hero-pitch {
+  color: var(--c-text-muted);
+  font-size: 1rem;
+}
+
+.login-notice {
+  margin-bottom: var(--space-5);
+}
+
+.sign-in-card {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-4);
+  max-width: 40em;
+}
+
+.sign-in-card p {
+  margin: 0;
+}
+
+.save-failed {
+  flex-basis: 100%;
+  margin: 0;
+  color: var(--c-error);
+  font-weight: 700;
+}
+
+.history-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.history-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3) var(--space-4);
+  padding: var(--space-3);
+  border: 1.5px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  background: var(--c-surface);
+  box-shadow: var(--lift);
+}
+
+.history-link {
+  display: flex;
+  flex: 1 1 16rem;
+  align-items: center;
+  gap: var(--space-4);
+  min-width: 0;
+  color: var(--c-text);
+  text-decoration: none;
+}
+
+.history-link .cover {
+  flex: none;
+  width: 88px;
+  padding: var(--space-2);
+}
+
+.history-link:hover .history-title {
+  text-decoration: underline;
+}
+
+.history-text {
+  display: grid;
+  gap: var(--space-1);
+  min-width: 0;
+}
+
+.history-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.history-meta {
+  color: var(--c-text-muted);
+  font-weight: 700;
 }

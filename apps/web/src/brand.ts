@@ -11,5 +11,8 @@ export const APP_HOST = new URL(primaryOrigin(brand)).host;
 /** The ecosystem's home page (the footer's "An app from …" link). */
 export const ECOSYSTEM_URL = `https://${brand.primaryTenant.domain}`;
 
+/** The hoandat.com account pages (email, sign-in methods), linked from the header's account menu. */
+export const IDP_ACCOUNT_URL = `${brand.primaryTenant.issuer}/account`;
+
 /** The app mark in the header and footer: the brand icon, served at the site root by vite-brand.ts. */
 export const BRAND_MARK_SRC = '/favicon.svg';

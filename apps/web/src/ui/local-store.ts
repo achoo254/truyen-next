@@ -12,6 +12,15 @@ export function readStored(key: string): unknown {
   }
 }
 
+/** The stored text as it is (cheap to compare), or null when absent or storage is blocked. */
+export function readStoredText(key: string): string | null {
+  try {
+    return window.localStorage.getItem(key);
+  } catch {
+    return null;
+  }
+}
+
 export function writeStored(key: string, value: unknown): void {
   try {
     window.localStorage.setItem(key, JSON.stringify(value));

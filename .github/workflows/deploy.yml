@@ -1,12 +1,13 @@
 # Continuous deploy of truyen.hoandat.com: after `ci` passes on a push to main,
-# build the static site, upload it as the restricted `truyen-deploy` user to
-# /var/www/truyen/ci-incoming/<id> and switch through the one sudo command that
-# user has (infra/activate-incoming.sh: releases/<id> with unchanged files
-# hard-linked to the current release, atomic `current` switch, origin check,
-# previous release back on failure). Building (which runs dependency code)
-# happens in a job without the deploy key; the deploy job only downloads the
-# artifact, uploads it and activates it. nginx changes only through
-# infra/deploy.sh setup.
+# build the site and the API bundle, upload them as the restricted
+# `truyen-deploy` user to /var/www/truyen/ci-incoming/<id> (the web build at the
+# root, the API bundle and its migrations under server/) and switch through the
+# one sudo command that user has (infra/activate-incoming.sh: releases/<id> with
+# unchanged files hard-linked to the current release, atomic `current` switch,
+# truyen-server restart and /healthz, origin check, previous release back on
+# failure). Building (which runs dependency code) happens in a job without the
+# deploy key; the deploy job only downloads the artifact, uploads it and
+# activates it. nginx and the unit change only through infra/deploy.sh setup.
 name: deploy
 
 on:
@@ -49,10 +50,16 @@ jobs:
         run: |
           echo "id=$(date -u +%Y%m%d-%H%M%S)-${SHA:0:12}" >>"$GITHUB_OUTPUT"
           pnpm build
+          # The layout infra/deploy.sh ships: the web build at the root, the API under server/ (Node and the
+          # migrations are all it needs on the server).
+          [ ! -e apps/web/dist/server ] || { echo "apps/web/dist/server would clash with the API bundle" >&2; exit 1; }
+          mkdir -p release/server
+          cp -R apps/web/dist/. release/
+          cp -R apps/server/dist apps/server/drizzle release/server/
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: release
-          path: apps/web/dist/
+          path: release/
           retention-days: 7
 
   deploy:

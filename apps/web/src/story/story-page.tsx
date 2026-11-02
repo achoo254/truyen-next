@@ -1,12 +1,13 @@
 import { type Story, storyListEntry } from '@truyen/story';
 import { type ReactNode, type RefObject, Suspense, lazy, useCallback, useEffect, useRef, useState } from 'react';
+import { SaveStoryButton } from '../account/save-story-button';
 import { IN_APP } from '../platform/app-build';
 import { StoryCover } from '../art/story-cover';
 import { useI18n } from '../i18n/i18n';
 import { setPageMeta } from '../page-meta';
 import { Icon } from '../ui/icons';
-import { StoryLoadError, fetchStory, shelfPath } from './story-api';
-import { progressOf, sceneFromQuery } from './reading-progress';
+import { StoryLoadError, fetchStory, shelfPath, storyPath } from './story-api';
+import { resumeIndex, sceneFromQuery, useProgress } from './reading-progress';
 import { storyHasVoice } from './scene-media';
 import { StoryPlayer } from './story-player';
 import { useLoad } from './use-load';
@@ -30,8 +31,8 @@ function StoryCoverPage({ story, onOpen, openRef }: { story: Story; onOpen: (ind
   const { t } = useI18n();
   const shelf = t(`shelf.${story.shelf}`);
   const { minutes, scenes } = storyListEntry(story);
-  // Read once per visit to the page: the reader saves as it goes, and closing it comes back here.
-  const [resume] = useState(() => progressOf(story.slug, story.scenes.length));
+  // Kept current: the reader saves as it goes, and an account's progress from other devices arrives once synced.
+  const resume = resumeIndex(useProgress()[story.slug], story.scenes.length);
   // Until a story has its voice it is read, not heard, so the buttons say so.
   const voiced = storyHasVoice(story);
   return (
@@ -66,6 +67,7 @@ function StoryCoverPage({ story, onOpen, openRef }: { story: Story; onOpen: (ind
                 {t(voiced ? 'story.fromStart' : 'story.readFromStart')}
               </button>
             )}
+            <SaveStoryButton slug={story.slug} path={storyPath(story.slug)} />
           </div>
           {DownloadPanel && (
             <Suspense fallback={null}>

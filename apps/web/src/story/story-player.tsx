@@ -13,7 +13,7 @@ import { useSceneTimer } from './use-scene-timer';
 import { useSwipe } from './use-swipe';
 import { ReaderSheet } from './reader-sheet';
 import { SceneIndex } from './scene-index';
-import { forgetProgress, saveProgress } from './reading-progress';
+import { recordProgress } from './progress-sync';
 import { MUSIC_VOLUME, useSleep } from './use-sleep';
 import { useStoryTrack } from './use-story-track';
 import { reportPosition, useMediaSession } from './media-session';
@@ -357,10 +357,10 @@ export function StoryPlayer({ story, initialIndex = 0, onClose }: StoryPlayerPro
     for (const url of preloadAfter(story, state.index)) new Image().src = url;
   }, [story, state.index]);
 
-  // Remember where the story was left; a story read to its end is forgotten.
+  // Remember where the story was left (for an account, on every device); a story read to its end has nothing to continue.
   useEffect(() => {
-    if (ended) forgetProgress(story.slug);
-    else if (state.status !== 'idle' || state.index > 0) saveProgress(story.slug, state.index);
+    if (ended) recordProgress(story.slug, 0);
+    else if (state.status !== 'idle' || state.index > 0) recordProgress(story.slug, state.index);
   }, [story.slug, state.index, state.status, ended]);
 
   const turnTo = useCallback((to: 'next' | 'prev') => dispatch({ type: to }), []);

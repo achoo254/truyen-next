@@ -7,6 +7,8 @@ dist-native/
 .env.*
 !.env.example
 *.log
+# The API's dev database (embedded PGlite, apps/server).
+.data/
 test-results/
 playwright-report/
 .idea/

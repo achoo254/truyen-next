@@ -10,3 +10,15 @@ export function setPageMeta(title: string, description: string): void {
     document.querySelector(selector)?.setAttribute('content', description);
   }
 }
+
+/**
+ * Keeps search engines off the page on screen (the reader's own pages): a robots meta tag in the head. nginx also
+ * sends X-Robots-Tag for those addresses (infra/nginx/truyen.hoandat.com.conf).
+ */
+export function setNoIndex(): void {
+  if (document.querySelector('meta[name="robots"]')) return;
+  const meta = document.createElement('meta');
+  meta.name = 'robots';
+  meta.content = 'noindex, nofollow';
+  document.head.append(meta);
+}

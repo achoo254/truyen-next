@@ -17,7 +17,8 @@ export async function withProductionCsp(page: Page): Promise<void> {
   if (process.env.E2E_BASE_URL !== undefined) return;
   const policy = productionCsp();
   await page.route('**/*', async (route) => {
-    if (route.request().resourceType() !== 'document') return route.continue();
+    // Sign-in answers are redirects (to the IdP and back), not pages: they pass untouched, so the browser follows them.
+    if (route.request().resourceType() !== 'document' || new URL(route.request().url()).pathname.startsWith('/auth/')) return route.continue();
     const response = await route.fetch();
     return route.fulfill({ response, headers: { ...response.headers(), 'content-security-policy': policy } });
   });

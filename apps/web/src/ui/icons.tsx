@@ -24,7 +24,9 @@ export type IconName =
   | 'search'
   | 'check'
   | 'download'
-  | 'back';
+  | 'back'
+  | 'bookmark'
+  | 'bookmarked';
 
 const PATHS: Record<IconName, ReactNode> = {
   play: <path d="M8 5.5v13l10.5-6.5z" fill="currentColor" />,
@@ -92,6 +94,8 @@ const PATHS: Record<IconName, ReactNode> = {
   check: <path d="M5 12.5l4.5 4.5L19 7.5" />,
   download: <path d="M12 4v11M7 10.5l5 5 5-5M5 19.5h14" />,
   back: <path d="M19 12H5M11 6l-6 6 6 6" />,
+  bookmark: <path d="M6.5 4h11v16l-5.5-4-5.5 4z" />,
+  bookmarked: <path d="M6.5 4h11v16l-5.5-4-5.5 4z" fill="currentColor" />,
 };
 
 export function Icon({ name, className }: { name: IconName; className?: string }): ReactNode {

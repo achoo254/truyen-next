@@ -2,7 +2,8 @@
 
 Truyện cổ Việt Nam xem từng cảnh: tranh, cảnh động, giọng kể, nhạc nền và phụ đề luôn hiện. Hai kệ trong cùng một
 app: **Trẻ em** (Mèo Miu dẫn chuyện, kể nhẹ nhàng cho trẻ nhỏ) và **Người lớn** (truyền thuyết, truyền kỳ, sự tích kể
-đầy đủ, theo sát truyện xưa). Không cần đăng nhập. Tên miền `truyen.hoandat.com`, thuộc tầng app giải trí của hệ sinh thái hoandat.com.
+đầy đủ, theo sát truyện xưa). Đọc không cần đăng nhập; đăng nhập bằng tài khoản hoandat.com (trên web) để có **Tủ
+truyện của tôi** (`/tu-truyen`), **đọc tiếp trên mọi máy** và **lịch sử đã đọc** (`/lich-su`). Tên miền `truyen.hoandat.com`, thuộc tầng app giải trí của hệ sinh thái hoandat.com.
 
 Mọi tranh, cảnh động, giọng và nhạc **sinh sẵn** trên máy nhà rồi phục vụ tĩnh: không có lời gọi AI nào lúc người dùng
 xem, app chạy cả khi máy nhà tắt. Nội dung AI không thuộc giấy phép MIT của mã nguồn: xem [`CREDITS.md`](CREDITS.md).
@@ -15,7 +16,8 @@ xem, app chạy cả khi máy nhà tắt. Nội dung AI không thuộc giấy ph
 | `catalog/stories.json` | Danh mục ứng viên: mọi truyện sẽ viết theo thứ tự, kệ, nguồn cốt truyện phạm vi công cộng, trạng thái `idea`/`text`/`media`/`live`; routine viết truyện lấy từ đây ([`docs/story-routine.md`](docs/story-routine.md)) |
 | `stories/<slug>/media/` | Tranh (WebP), cảnh động (MP4 không tiếng), giọng kể và nhạc (M4A) do `pnpm story:build` tạo |
 | `packages/story` | Schema, luật kiểm và thời gian đọc của truyện (dùng chung cho app và script, không phụ thuộc React hay Node) |
-| `apps/web` | App web tĩnh (Vite + React): hai kệ truyện, trình xem `/truyen/<slug>`, trang pháp lý |
+| `apps/web` | App web tĩnh (Vite + React): hai kệ truyện, trình xem `/truyen/<slug>`, trang pháp lý; đăng nhập, tủ truyện, đồng bộ trang đang đọc, lịch sử (`src/account/`, `src/story/progress-sync.ts`) |
+| `apps/server` | API nhỏ (Express 5, drizzle + Postgres, PGlite khi dev/test): đăng nhập OIDC qua `auth.hoandat.com` (client `truyen-web`), phiên cookie, `/api/shelf` (truyện đã lưu), `/api/reading` (trang đang đọc và lịch sử, bản mới hơn thắng). Đọc truyện không đi qua đây |
 | `apps/mobile` | App iPhone (Capacitor) quanh bản build app của web: phát nền khi khoá máy, màn hình khoá, nghe offline, cổng phụ huynh ([`docs/ios-app.md`](docs/ios-app.md)) |
 | `scripts/` | `build-story.ts` (sinh media), `validate-stories.ts`, `check-tokens.ts`, `brand-gen.ts` |
 | `brand.config.json`, `brand/` | Tên, màu, biểu tượng (gói `@achoo254/brand`) |
@@ -71,8 +73,8 @@ Cần Node ≥ 22.12 và pnpm 11 (`packageManager` trong `package.json`). Các g
 
 ```sh
 pnpm install
-pnpm dev            # http://localhost:5301
-pnpm build          # apps/web/dist: site tĩnh gồm /stories/
+pnpm dev            # web http://localhost:5301 + API 127.0.0.1:5300 (PGlite ở .data/; đăng nhập tắt khi chưa có AUTH_CLIENT_SECRET, xem .env.example)
+pnpm build          # apps/web/dist: site tĩnh gồm /stories/; apps/server/dist: bundle API
 ```
 
 Gate trước khi báo xong:
@@ -82,12 +84,12 @@ pnpm lint           # eslint, check-brand, check:tokens, check:stories
 pnpm typecheck
 pnpm test           # vitest --maxWorkers=2
 pnpm build
-pnpm e2e            # Playwright: build + preview ở 5302; kệ, trình đọc (nút, phím, vuốt), HTML render sẵn, tìm kiếm, tắt đèn (E2E_BASE_URL=<url>: site đã deploy)
+pnpm e2e            # Playwright: build + preview ở 5302, API 5303, IdP giả 5304; kệ, trình đọc (nút, phím, vuốt), HTML render sẵn, tìm kiếm, tắt đèn, khách chưa đăng nhập, đăng nhập + lưu truyện + đọc tiếp trên máy khác (E2E_BASE_URL=<url>: site đã deploy, bỏ phần đăng nhập)
 ```
 
 App iPhone: `pnpm mobile:build`, phát hành TestFlight `pnpm mobile:ios-release`; xem [`docs/ios-app.md`](docs/ios-app.md).
 
-Phục vụ production: `apps/web/dist` là file tĩnh. Bản build render sẵn HTML cho `/`, `/tre-em`, `/nguoi-lon` và từng
+Phục vụ production: `apps/web/dist` là file tĩnh; `/api/`, `/auth/` qua nginx sang `truyen-server` (loopback 5300). Bản build render sẵn HTML cho `/`, `/tre-em`, `/nguoi-lon` và từng
 `/truyen/<slug>` (tiêu đề, mô tả, danh sách truyện, JSON-LD; `apps/web/vite-prerender.ts`); mọi đường dẫn khác nhận
 `spa.html`. Production: `https://truyen.hoandat.com` trên máy chủ chung, đang chạy nhưng chưa
 quảng bá (không cho máy tìm kiếm lập chỉ mục). **Mỗi push lên `main` có CI xanh là tự deploy** (GitHub Actions, user

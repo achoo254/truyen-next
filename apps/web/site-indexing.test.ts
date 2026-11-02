@@ -16,7 +16,7 @@ describe('site indexing', () => {
   it('lets robots in with no meta tag and no marker once indexable', () => {
     const files = indexingFiles(true, 'https://truyen.hoandat.com');
     expect([...files.keys()]).toEqual(['robots.txt']);
-    expect(files.get('robots.txt')).toBe('User-agent: *\nAllow: /\nSitemap: https://truyen.hoandat.com/sitemap.xml\n');
+    expect(files.get('robots.txt')).toBe('User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /auth/\nSitemap: https://truyen.hoandat.com/sitemap.xml\n');
     expect(renderRobotsMeta(HTML, true)).toBe(HTML);
   });
 

@@ -23,9 +23,13 @@ export const ROBOTS_DIRECTIVE = 'noindex, nofollow';
 
 const ROBOTS_META = `<meta name="robots" content="${ROBOTS_DIRECTIVE}" />`;
 
-/** File name → content of what the build adds at the site root. */
+/**
+ * File name → content of what the build adds at the site root. Once indexable, robots still stay out of the API and
+ * the sign-in route (apps/server): nothing there to index, and a crawler following "Đăng nhập" would only spend the
+ * sign-in rate limit.
+ */
 export function indexingFiles(indexable: boolean, origin: string): ReadonlyMap<string, string> {
-  if (indexable) return new Map([['robots.txt', `User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`]]);
+  if (indexable) return new Map([['robots.txt', `User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /auth/\nSitemap: ${origin}/sitemap.xml\n`]]);
   return new Map([
     ['robots.txt', 'User-agent: *\nDisallow: /\n'],
     [NOINDEX_MARKER, 'Not indexed yet: nginx sends X-Robots-Tag while this file exists (apps/web/site-indexing.ts).\n'],

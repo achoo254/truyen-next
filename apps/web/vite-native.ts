@@ -31,6 +31,11 @@ const LOOPBACK = new Set(['localhost', '127.0.0.1', '[::1]']);
  * script and the address it posts to; the app has no edge in front of its pages and no third-party tracking.
  */
 export const CLOUDFLARE_ANALYTICS = ['https://static.cloudflareinsights.com', 'https://cloudflareinsights.com'] as const;
+/**
+ * Where account pictures come from (Google, GitHub): the web header's account menu shows them. The app has no sign-in,
+ * so its policy leaves them out.
+ */
+export const ACCOUNT_PICTURE_HOSTS = ['https://lh3.googleusercontent.com', 'https://avatars.githubusercontent.com'] as const;
 /** Directives a meta tag cannot carry (browsers ignore them there and warn). */
 const HEADER_ONLY = new Set(['frame-ancestors', 'report-uri', 'sandbox']);
 
@@ -63,17 +68,17 @@ export function siteContentSecurityPolicy(): string {
 }
 
 /**
- * The site's policy for the app: Cloudflare Web Analytics and the header-only directives dropped, the story origin
- * added where pictures, motion, sound and story files come from.
+ * The site's policy for the app: Cloudflare Web Analytics, account pictures and the header-only directives dropped,
+ * the story origin added where pictures, motion, sound and story files come from.
  */
 export function nativeContentSecurityPolicy(sitePolicy: string, storyOrigin: string): string {
   const extra: Record<string, string[]> = storyOrigin ? { 'connect-src': [storyOrigin], 'img-src': [storyOrigin], 'media-src': [storyOrigin] } : {};
-  const tracking = new Set<string>(CLOUDFLARE_ANALYTICS);
+  const notInApp = new Set<string>([...CLOUDFLARE_ANALYTICS, ...ACCOUNT_PICTURE_HOSTS]);
   return sitePolicy
     .split(';')
     .map((directive) => directive.trim().split(/\s+/))
     .filter(([name]) => name !== undefined && name !== '' && !HEADER_ONLY.has(name))
-    .map(([name = '', ...values]) => [name, ...values.filter((value) => !tracking.has(value)), ...(extra[name] ?? [])].join(' '))
+    .map(([name = '', ...values]) => [name, ...values.filter((value) => !notInApp.has(value)), ...(extra[name] ?? [])].join(' '))
     .join('; ');
 }
 

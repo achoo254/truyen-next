@@ -7,9 +7,14 @@ import { storyFiles } from './vite-stories.ts';
 import { pageFlipWithoutInlineStyle } from './vite-page-flip.ts';
 import { NATIVE_MODE, NATIVE_OUT_DIR, nativePolicy, nativeStoryOrigin } from './vite-native.ts';
 
-/** A static site: no API. The stories (stories/ at the repository root) are served and copied by vite-stories.ts;
- * robots.txt and the noindex signals come from site-indexing.ts; each page's own HTML from vite-prerender.ts; the
- * page-turn library loses its inline <style> (CSP) in vite-page-flip.ts. `--mode native` is the iPhone app's build
+/** The API (apps/server) on loopback: sign-in and the reader's shelf, progress and history. The dev and preview
+ * servers proxy to it as nginx does in production; TRUYEN_API_PORT moves it (the E2E run uses its own port). */
+const API = `http://127.0.0.1:${process.env.TRUYEN_API_PORT ?? '5300'}`;
+const API_PROXY = { '/api': API, '/auth': API, '/healthz': API };
+
+/** The site is static; reading never needs the API. The stories (stories/ at the repository root) are served and
+ * copied by vite-stories.ts; robots.txt and the noindex signals come from site-indexing.ts; each page's own HTML from
+ * vite-prerender.ts; the page-turn library loses its inline <style> (CSP) in vite-page-flip.ts. `--mode native` is the iPhone app's build
  * (vite-native.ts): the app only, into dist-native/, reading the stories from the site. */
 export default defineConfig(({ mode }) => {
   const native = mode === NATIVE_MODE;
@@ -21,8 +26,8 @@ export default defineConfig(({ mode }) => {
     define: { 'import.meta.env.VITE_TRUYEN_STORY_ORIGIN': JSON.stringify(storyOrigin) },
     // Served through the plugins (not pre-bundled), so the dev server drops the inline <style> too.
     optimizeDeps: { exclude: ['page-flip'] },
-    server: { port: 5301, strictPort: true },
-    preview: { port: 5301, strictPort: true },
+    server: { port: 5301, strictPort: true, proxy: API_PROXY },
+    preview: { port: 5301, strictPort: true, proxy: API_PROXY },
     build: {
       target: 'es2022',
       ...(native ? { outDir: NATIVE_OUT_DIR } : {}),

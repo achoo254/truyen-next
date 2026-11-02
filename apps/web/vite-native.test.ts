@@ -16,6 +16,9 @@ describe('the iPhone app build', () => {
     expect(site).toContain('cloudflareinsights');
     const app = nativeContentSecurityPolicy(site, 'https://truyen.hoandat.com');
     expect(app).not.toContain('cloudflareinsights');
+    expect(site).toContain('https://lh3.googleusercontent.com');
+    expect(app).not.toContain('googleusercontent');
+    expect(app).not.toContain('githubusercontent');
     expect(app).not.toContain('frame-ancestors');
     expect(app).toContain("script-src 'self';");
     expect(app).toContain("media-src 'self' https://truyen.hoandat.com");

@@ -1,10 +1,13 @@
 import { type ReactNode, Suspense, lazy, useEffect } from 'react';
+import { parsePersonalPath } from './account/personal-paths';
 import { DOWNLOADS_PATH, IN_APP } from './platform/app-build';
 import { useI18n } from './i18n/i18n';
 import { SitePage } from './layout/site-page';
+import { HistoryPage } from './pages/history-page';
 import { HomePage } from './pages/home-page';
+import { MyShelfPage } from './pages/my-shelf-page';
 import { ShelfPage } from './pages/shelf-page';
-import { setPageMeta } from './page-meta';
+import { setNoIndex, setPageMeta } from './page-meta';
 import { type LegalPageKind, LegalPage, legalTitle } from './pages/legal-pages';
 import { parseShelfPath, parseStoryPath } from './story/story-api';
 import { StoryPage } from './story/story-page';
@@ -37,6 +40,7 @@ export function App({ pathname }: { pathname: string }): ReactNode {
   const legal = LEGAL_PATHS[path];
   const slug = parseStoryPath(path);
   const shelf = parseShelfPath(path);
+  const personal = parsePersonalPath(path);
 
   useEffect(() => {
     // A story page sets its own title once the story has loaded.
@@ -48,14 +52,20 @@ export function App({ pathname }: { pathname: string }): ReactNode {
       page = t(`shelf.${shelf}.title`);
       description = t(`shelf.${shelf}.description`);
     } else if (legal) page = legalTitle(legal, locale);
-    else page = t('notFound.title');
+    else if (personal) {
+      page = t(personal === 'my-shelf' ? 'account.myShelf' : 'account.history');
+      description = t('account.pitch');
+      setNoIndex();
+    } else page = t('notFound.title');
     setPageMeta(page, description);
-  }, [path, legal, slug, shelf, locale, t]);
+  }, [path, legal, slug, shelf, personal, locale, t]);
 
   let page: ReactNode;
   if (path === '/') page = <HomePage />;
   else if (shelf) page = <ShelfPage shelf={shelf} />;
   else if (legal) page = <LegalPage kind={legal} />;
+  else if (personal === 'my-shelf') page = <MyShelfPage />;
+  else if (personal === 'history') page = <HistoryPage />;
   else if (slug) page = <StoryPage slug={slug} />;
   else if (DownloadsPage && path === DOWNLOADS_PATH) {
     page = (

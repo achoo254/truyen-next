@@ -1,5 +1,6 @@
 import { type Shelf, type StoryListEntry, THEMES, type Theme } from '@truyen/story';
 import { type ReactNode, useEffect, useId, useMemo, useState } from 'react';
+import { SignInPitch } from '../account/sign-in-pitch';
 import { MeoMiu } from '../art/meo-miu';
 import { useI18n } from '../i18n/i18n';
 import { fetchStoryList } from '../story/story-api';
@@ -150,6 +151,7 @@ export function ShelfPage({ shelf }: { shelf: Shelf }): ReactNode {
         <div className="hero-text">
           <h1 className="hero-title">{t(`shelf.${shelf}.title`)}</h1>
           <p className="hero-lede">{t(`shelf.${shelf}.lede`)}</p>
+          <SignInPitch />
           {locale !== 'vi' && <p className="hero-lang">{t('story.language')}</p>}
           <a className="text-link" href="/" data-id="shelf-all">
             {t('shelf.all')}

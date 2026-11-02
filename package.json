@@ -8,8 +8,8 @@
     "node": ">=22.12"
   },
   "scripts": {
-    "dev": "pnpm --filter @truyen/web dev",
-    "build": "pnpm --filter @truyen/web build",
+    "dev": "pnpm --parallel --filter @truyen/server --filter @truyen/web dev",
+    "build": "pnpm --filter @truyen/web build && pnpm --filter @truyen/server bundle",
     "test": "vitest run --maxWorkers=2",
     "typecheck": "tsc --noEmit -p tsconfig.json && pnpm -r --workspace-concurrency=1 typecheck",
     "lint": "eslint . --max-warnings=0 && pnpm check:brand && pnpm check:tokens && pnpm check:stories",

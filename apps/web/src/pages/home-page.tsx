@@ -1,8 +1,9 @@
 import { SHELVES, type Shelf, type StoryListEntry, THEMES } from '@truyen/story';
-import { type ReactNode, useState } from 'react';
+import type { ReactNode } from 'react';
+import { SignInPitch } from '../account/sign-in-pitch';
 import printUrl from '../art/dong-ho-print.svg';
 import { useI18n } from '../i18n/i18n';
-import { readProgress } from '../story/reading-progress';
+import { resumeIndex, useProgress } from '../story/reading-progress';
 import { fetchStoryList, shelfPath } from '../story/story-api';
 import { useLoad } from '../story/use-load';
 import { EMPTY_QUERY, applyQuery, queryString } from './library';
@@ -35,12 +36,15 @@ function TileRow({ title, entries, href, dataId, notes }: { title: string; entri
   );
 }
 
-/** "Nghe tiếp": stories left in the middle on this device, most recent first. Hidden when there are none. */
+/**
+ * "Đọc tiếp": stories left in the middle, most recent first; on this device, and for an account on every device once
+ * the progress has synced. Hidden when there are none.
+ */
 function ContinueRow({ entries }: { entries: StoryListEntry[] }): ReactNode {
   const { t } = useI18n();
-  const [progress] = useState(readProgress);
+  const progress = useProgress();
   const started = entries
-    .filter((entry) => progress[entry.slug] !== undefined)
+    .filter((entry) => resumeIndex(progress[entry.slug], entry.scenes) !== null)
     .sort((a, b) => (progress[b.slug]?.at ?? 0) - (progress[a.slug]?.at ?? 0));
   const notes = Object.fromEntries(started.map((entry) => [entry.slug, t('home.continueAt', { n: (progress[entry.slug]?.index ?? 0) + 1, total: entry.scenes })]));
   return <TileRow title={t('home.continue')} entries={started} dataId="row-continue" notes={notes} />;
@@ -114,6 +118,7 @@ export function HomePage(): ReactNode {
         <div className="hero-text">
           <h1 className="hero-title">{t('home.title')}</h1>
           <p className="hero-lede">{t('home.lede')}</p>
+          <SignInPitch />
           {/* Only worth saying to someone reading the site in another language. */}
           {locale !== 'vi' && <p className="hero-lang">{t('story.language')}</p>}
         </div>
