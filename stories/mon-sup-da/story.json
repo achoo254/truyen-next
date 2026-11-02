@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "slug": "mon-sup-da",
+  "shelf": "kids",
+  "title": "Món súp đá",
+  "summary": "Bà lão keo kiệt bảo nhà chẳng còn gì ăn, nhưng bác lữ khách vui tính chỉ cần một nồi nước và một hòn đá đã nấu nên cả một bữa tiệc. Truyện dân gian châu Âu kể nhẹ cho bé về sự khéo léo và niềm vui chia sẻ.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian châu Âu quen gọi là «Súp đá» hay «Súp đinh» (Pháp, Thụy Điển và nhiều nước), cốt truyện đối chiếu với bản in «The Old Woman and the Tramp» trong Baron G. Djurklou, Fairy Tales from the Swedish, H. L. Brækstad dịch (Heinemann, 1901), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản nào; bản Thụy Điển dùng chiếc đinh, ở đây theo tên gọi quen thuộc dùng hòn đá, bỏ rượu khỏi bữa tiệc; Mèo Miu mở đầu và kết, giữ nguyên cốt truyện.",
+  "basedOn": "Truyện dân gian châu Âu (bản in 1901)",
+  "style": "classic Scandinavian storybook illustration in the spirit of early twentieth-century Nordic folk-tale books, soft watercolor and pencil, a snowy pine forest and a cozy red wooden cottage with a hearth fire and a big iron pot, warm candlelight, rounded friendly characters, warm and safe mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 1207106615,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "lu-khach",
+      "name": "Bác lữ khách",
+      "seed": 1640971030,
+      "sheetPrompt": "a merry wandering traveler with a scruffy brown beard, a patched coat, a knitted cap and a knapsack, twinkling eyes and a big grin, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba-lao",
+      "name": "Bà lão",
+      "seed": 3908527586,
+      "sheetPrompt": "a stout old Scandinavian woman with grey hair in a bun, a headscarf, a striped apron and a grumpy but funny face, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã bao giờ ăn súp nấu bằng đá chưa? Chưa à? Miu cũng chưa! Thế mà ngày xưa có một bác lữ khách nấu được đấy, lại còn ngon tuyệt nữa. Bác ấy làm thế nào nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn đã bao giờ ăn súp nấu bằng đá chưa? Chưa à? Miu cũng chưa!",
+        "Thế mà ngày xưa có một bác lữ khách nấu được đấy, lại còn ngon tuyệt nữa.",
+        "Bác ấy làm thế nào nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits by a cozy hearth holding an open picture book, a big iron pot bubbles over the fire with a smooth round stone beside it",
+        "seed": 621039267
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello, the pot bubbles and steam curls up, the fire crackles softly, gentle camera push-in",
+        "seed": 3409627168
+      },
+      "voice": {}
+    },
+    {
+      "id": "go-cua",
+      "title": "Bác lữ khách gõ cửa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bác lữ khách đi bộ qua khu rừng thông lạnh giá. Trời tối dần, bác thấy một căn nhà gỗ có ánh đèn, bèn gõ cửa. Một bà lão ra mở cửa. Bác lữ khách chào: Chào bà ạ! Bà cho tôi ngủ nhờ một đêm được không? Bà lão xua tay: Không được! Ông nhà tôi đi vắng, nhà tôi đâu phải quán trọ. Ông đi chỗ khác đi!",
+      "subtitles": [
+        "Ngày xưa, có một bác lữ khách đi bộ qua khu rừng thông lạnh giá.",
+        "Trời tối dần, bác thấy một căn nhà gỗ có ánh đèn, bèn gõ cửa.",
+        "Một bà lão ra mở cửa. Bác lữ khách chào: Chào bà ạ! Bà cho tôi ngủ nhờ một đêm được không?",
+        "Bà lão xua tay: Không được! Ông nhà tôi đi vắng, nhà tôi đâu phải quán trọ.",
+        "Ông đi chỗ khác đi!"
+      ],
+      "image": {
+        "character": "lu-khach",
+        "prompt": "a merry bearded traveler with a knapsack knocks on the door of a small red wooden cottage in a snowy pine forest at dusk, a grumpy old woman peeks out",
+        "seed": 1253450421
+      },
+      "video": {
+        "motionPrompt": "snow drifts down, the traveler knocks and smiles, the door opens a crack and the old woman frowns, gentle camera push-in",
+        "seed": 186471861
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngu-nho",
+      "title": "Được ngủ nhờ dưới sàn",
+      "narrator": "ke-chuyen",
+      "narration": "Bác lữ khách nói: Bà ơi, người với người thì nên giúp nhau chứ ạ. Bà lão càu nhàu: Giúp nhau à? Ai giúp tôi? Nhà tôi chẳng còn một miếng gì để ăn đâu! Bác lữ khách vẫn vui vẻ nài mãi, nài mãi. Cuối cùng bà lão đành cho bác nằm tạm dưới sàn nhà. Bác cảm ơn rối rít, còn đọc vè: Nằm sàn mà ấm áp, còn hơn lạnh ngoài rừng! Bước vào nhà, bác để ý thấy nhà bà lão không đến nỗi nghèo như bà nói.",
+      "subtitles": [
+        "Bác lữ khách nói: Bà ơi, người với người thì nên giúp nhau chứ ạ.",
+        "Bà lão càu nhàu: Giúp nhau à? Ai giúp tôi? Nhà tôi chẳng còn một miếng gì để ăn đâu!",
+        "Bác lữ khách vẫn vui vẻ nài mãi, nài mãi.",
+        "Cuối cùng bà lão đành cho bác nằm tạm dưới sàn nhà.",
+        "Bác cảm ơn rối rít, còn đọc vè: Nằm sàn mà ấm áp, còn hơn lạnh ngoài rừng!",
+        "Bước vào nhà, bác để ý thấy nhà bà lão không đến nỗi nghèo như bà nói."
+      ],
+      "image": {
+        "character": "ba-lao",
+        "prompt": "inside a cozy wooden cottage the old woman stands with her arms crossed while the cheerful traveler bows and thanks her, shelves and a cupboard visible in the warm firelight",
+        "seed": 2819375361
+      },
+      "video": {
+        "motionPrompt": "the traveler bows and laughs, the old woman rolls her eyes but steps aside, the fire flickers, gentle camera pan",
+        "seed": 2579874165
+      },
+      "voice": {}
+    },
+    {
+      "id": "hon-da",
+      "title": "Một hòn đá vào nồi",
+      "narrator": "ke-chuyen",
+      "narration": "Bác lữ khách hỏi: Bà có gì cho tôi ăn không ạ? Bà lão lắc đầu: Lấy đâu ra! Cả ngày nay tôi còn chưa ăn gì. Bác bảo: Tội nghiệp bà quá. Vậy để tôi mời bà ăn với tôi nhé. Bà cho tôi mượn cái nồi. Bà lão tò mò đưa nồi. Bác đổ nước vào, bắc lên bếp, thổi lửa cháy bùng. Rồi bác lấy trong túi ra một hòn đá tròn nhẵn, xoay xoay ba vòng, thả tõm vào nồi. Bà lão tròn mắt: Ông nấu gì thế? Bác lữ khách đáp: Súp đá đấy bà ạ.",
+      "subtitles": [
+        "Bác lữ khách hỏi: Bà có gì cho tôi ăn không ạ? Bà lão lắc đầu: Lấy đâu ra!",
+        "Cả ngày nay tôi còn chưa ăn gì.",
+        "Bác bảo: Tội nghiệp bà quá. Vậy để tôi mời bà ăn với tôi nhé. Bà cho tôi mượn cái nồi.",
+        "Bà lão tò mò đưa nồi. Bác đổ nước vào, bắc lên bếp, thổi lửa cháy bùng.",
+        "Rồi bác lấy trong túi ra một hòn đá tròn nhẵn, xoay xoay ba vòng, thả tõm vào nồi.",
+        "Bà lão tròn mắt: Ông nấu gì thế? Bác lữ khách đáp: Súp đá đấy bà ạ."
+      ],
+      "image": {
+        "character": "lu-khach",
+        "prompt": "the traveler drops a smooth round stone into a big iron pot of water over the hearth fire, the old woman leans in with wide curious eyes",
+        "seed": 2708148113
+      },
+      "video": {
+        "motionPrompt": "the stone plops into the water with a little splash, bubbles rise, the old woman's eyes grow wide, warm firelight flickers",
+        "seed": 1824978307
+      },
+      "voice": {}
+    },
+    {
+      "id": "them-bot",
+      "title": "Giá có thêm nắm bột",
+      "narrator": "ke-chuyen",
+      "narration": "Súp đá à? Bà lão sống đã lâu mà chưa nghe ai nấu súp bằng đá bao giờ. Bà bảo: Tôi muốn học cách nấu món này. Bác lữ khách vừa khuấy vừa nói: Hòn đá này nấu súp ngon lắm. Có điều cả tuần nay tôi nấu mãi một hòn, chắc súp hơi loãng. Giá có một nắm bột thì tuyệt. Nhưng thôi, không có thì chẳng nghĩ làm gì. Bà lão ngẫm nghĩ rồi nói: Hình như tôi còn chút bột. Bà đi lấy về, bột vừa trắng vừa mịn.",
+      "subtitles": [
+        "Súp đá à? Bà lão sống đã lâu mà chưa nghe ai nấu súp bằng đá bao giờ.",
+        "Bà bảo: Tôi muốn học cách nấu món này.",
+        "Bác lữ khách vừa khuấy vừa nói: Hòn đá này nấu súp ngon lắm.",
+        "Có điều cả tuần nay tôi nấu mãi một hòn, chắc súp hơi loãng.",
+        "Giá có một nắm bột thì tuyệt. Nhưng thôi, không có thì chẳng nghĩ làm gì.",
+        "Bà lão ngẫm nghĩ rồi nói: Hình như tôi còn chút bột. Bà đi lấy về, bột vừa trắng vừa mịn."
+      ],
+      "image": {
+        "character": "ba-lao",
+        "prompt": "the old woman returns with a sack of fine white flour while the traveler stirs the steaming pot with a long wooden spoon, both smiling",
+        "seed": 4267223547
+      },
+      "video": {
+        "motionPrompt": "the traveler stirs in slow circles, flour puffs as it is poured in, steam swirls up, gentle camera push-in",
+        "seed": 4153522829
+      },
+      "voice": {}
+    },
+    {
+      "id": "them-thit",
+      "title": "Món súp của nhà vua",
+      "narrator": "ke-chuyen",
+      "narration": "Bác lữ khách cho bột vào, khuấy đều: Súp này mời khách được rồi đấy. Giá có thêm vài củ khoai, miếng thịt muối thì quý ông nào ăn cũng phải khen. Nhưng thôi, không có thì chẳng nghĩ làm gì. Bà lão nhớ ra mình có khoai, có cả thịt. Bà lại lấy ra. Bác lữ khách bảo: Giá có thêm nắm lúa mạch, chút sữa, thì mời cả nhà vua ăn cũng được. Tôi từng phụ bếp cho nhà vua, tối nào ngài cũng ăn món này. Bà lão vỗ đùi: Trời ơi, mời cả nhà vua! Rồi bà vội chạy đi lấy lúa mạch và sữa.",
+      "subtitles": [
+        "Bác lữ khách cho bột vào, khuấy đều: Súp này mời khách được rồi đấy.",
+        "Giá có thêm vài củ khoai, miếng thịt muối thì quý ông nào ăn cũng phải khen.",
+        "Nhưng thôi, không có thì chẳng nghĩ làm gì.",
+        "Bà lão nhớ ra mình có khoai, có cả thịt. Bà lại lấy ra.",
+        "Bác lữ khách bảo: Giá có thêm nắm lúa mạch, chút sữa, thì mời cả nhà vua ăn cũng được.",
+        "Tôi từng phụ bếp cho nhà vua, tối nào ngài cũng ăn món này.",
+        "Bà lão vỗ đùi: Trời ơi, mời cả nhà vua! Rồi bà vội chạy đi lấy lúa mạch và sữa."
+      ],
+      "image": {
+        "character": "ba-lao",
+        "prompt": "the excited old woman carries potatoes, a piece of salted meat, a bowl of barley and a jug of milk to the pot, the traveler grins and keeps stirring",
+        "seed": 2423341567
+      },
+      "video": {
+        "motionPrompt": "the old woman hurries back and forth with food, the traveler stirs and nods, the pot bubbles merrily, gentle camera pan",
+        "seed": 4146921105
+      },
+      "voice": {}
+    },
+    {
+      "id": "bua-tiec",
+      "title": "Bữa tiệc với hòn đá",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng bác lữ khách vớt hòn đá ra: Súp chín rồi! Nhưng nhà vua ăn súp này còn có bánh, có trải khăn bàn nữa. Thôi, không có thì chẳng nghĩ làm gì. Bà lão lúc này thấy mình sang trọng lắm. Bà trải khăn bàn, bày ra bánh mì, bơ, pho mát, thịt hun khói, bàn ăn trông như tiệc lớn. Cả đời bà chưa từng ăn bữa nào ngon như thế. Bà cứ xuýt xoa: Ai mà ngờ, chỉ nhờ một hòn đá!",
+      "subtitles": [
+        "Bỗng bác lữ khách vớt hòn đá ra: Súp chín rồi!",
+        "Nhưng nhà vua ăn súp này còn có bánh, có trải khăn bàn nữa.",
+        "Thôi, không có thì chẳng nghĩ làm gì.",
+        "Bà lão lúc này thấy mình sang trọng lắm.",
+        "Bà trải khăn bàn, bày ra bánh mì, bơ, pho mát, thịt hun khói, bàn ăn trông như tiệc lớn.",
+        "Cả đời bà chưa từng ăn bữa nào ngon như thế.",
+        "Bà cứ xuýt xoa: Ai mà ngờ, chỉ nhờ một hòn đá!"
+      ],
+      "image": {
+        "character": "lu-khach",
+        "prompt": "the traveler and the old woman feast happily at a table with a white cloth, bowls of steaming soup, bread, butter, cheese and smoked meat, the smooth stone resting on a plate",
+        "seed": 2423432449
+      },
+      "video": {
+        "motionPrompt": "they lift spoons and laugh, steam rises from the bowls, the old woman pats her cheeks with delight, warm candlelight flickers",
+        "seed": 2535733876
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket",
+      "title": "Chia sẻ là bữa tiệc",
+      "narrator": "miu",
+      "narration": "Tối ấy, bà lão nhất định không để bác nằm sàn nữa mà dọn giường cho bác ngủ. Sáng ra, bà còn cho bác ăn sáng và tặng một đồng bạc sáng loáng, cảm ơn bác đã dạy món súp đá. Các bạn ạ, hòn đá chẳng làm súp ngon đâu. Chính những thứ bà lão mang ra chia sẻ mới làm nên bữa tiệc. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Tối ấy, bà lão nhất định không để bác nằm sàn nữa mà dọn giường cho bác ngủ.",
+        "Sáng ra, bà còn cho bác ăn sáng và tặng một đồng bạc sáng loáng,",
+        "cảm ơn bác đã dạy món súp đá.",
+        "Các bạn ạ, hòn đá chẳng làm súp ngon đâu.",
+        "Chính những thứ bà lão mang ra chia sẻ mới làm nên bữa tiệc. Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat stands at the door of the snowy red cottage at sunrise, the old woman waves goodbye to the merry traveler who holds up a shiny silver coin",
+        "seed": 3848181436
+      },
+      "video": {
+        "motionPrompt": "the traveler tips his cap and walks off through the snowy pines, the old woman waves, the cat waves goodbye, slow camera pull-back",
+        "seed": 2460961367
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm Scandinavian folk melody, nyckelharpa and soft fiddle with gentle accordion and light foot-tapping rhythm, cozy and playful, gentle for young children, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2224970687
+  }
+}

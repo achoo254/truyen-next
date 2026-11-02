@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "slug": "co-ga-mai-do-cham-chi",
+  "shelf": "kids",
+  "title": "Cô gà mái đỏ chăm chỉ",
+  "summary": "Cô gà mái đỏ nhặt được một hạt lúa mì. Ai giúp gieo hạt, gặt lúa, xay bột, nướng bánh? Lợn, mèo và chuột đều lắc đầu: Không phải tôi! Truyện dân gian Anh kể nhẹ cho bé về sự chăm chỉ và phần thưởng của người chịu làm.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Anh–Mỹ «The Little Red Hen», đối chiếu với bản in «The Little Red Hen, An Old English Folk Tale» do Florence White Williams kể lại và vẽ tranh (Saalfield, 1918), Project Gutenberg #18735, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản nào; Mèo Miu mở đầu và kết, vài thoại và chi tiết cảnh vật do người viết thêm, giữ nguyên cốt truyện.",
+  "basedOn": "Truyện dân gian Anh (bản in 1918)",
+  "style": "classic English picture-book illustration in the spirit of early twentieth-century nursery books, soft watercolor and ink, a sunny farmyard with a red barn, wooden fences, golden wheat fields and a windmill, rounded friendly animals, warm and safe mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 3671928482,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ga-mai",
+      "name": "Gà mái đỏ",
+      "seed": 3102645246,
+      "sheetPrompt": "a busy little red hen with glossy russet feathers, a bright red comb, a small white apron and a kind determined face, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "lon",
+      "name": "Chú lợn",
+      "seed": 2970875316,
+      "sheetPrompt": "a plump lazy pink pig with a curly tail and sleepy half-closed eyes, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "meo",
+      "name": "Cô mèo",
+      "seed": 1039886056,
+      "sheetPrompt": "a lazy fluffy grey tabby cat with a long tail and a mischievous grin, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chuot",
+      "name": "Chú chuột",
+      "seed": 1070971933,
+      "sheetPrompt": "a fat vain brown rat with round ears, a little bow tie and a small hand mirror, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Sáng nay các bạn ăn bánh mì chưa? Các bạn có biết, để có một ổ bánh mì thơm phức, phải làm bao nhiêu việc không? Hôm nay Miu kể chuyện một cô gà mái đỏ rất chăm chỉ, và ba người bạn lười biếng ở cùng sân. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Sáng nay các bạn ăn bánh mì chưa?",
+        "Các bạn có biết, để có một ổ bánh mì thơm phức, phải làm bao nhiêu việc không?",
+        "Hôm nay Miu kể chuyện một cô gà mái đỏ rất chăm chỉ,",
+        "và ba người bạn lười biếng ở cùng sân. Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a hay bale in a sunny farmyard holding an open picture book, a little red hen with chicks pecks nearby beside a red barn",
+        "seed": 1273809034
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello, the hen pecks and the chicks hop, a windmill turns in the distance, gentle camera push-in",
+        "seed": 4212836623
+      },
+      "voice": {}
+    },
+    {
+      "id": "san-nha",
+      "title": "Cô gà mái và ba người bạn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, trong một cái sân trại, có cô gà mái đỏ sống cùng đàn con nhỏ. Cả ngày cô lách cách đi khắp sân, bới đất tìm sâu. Hễ tìm được con sâu béo, cô lại gọi: Cục cục cục! Các con ơi, lại đây ăn này! Cũng trong sân ấy có cô mèo suốt ngày nằm ngủ ở cửa kho, chú chuột béo chạy lung tung, và chú lợn chỉ thích ăn cho thật no rồi nằm khì.",
+      "subtitles": [
+        "Ngày xưa, trong một cái sân trại, có cô gà mái đỏ sống cùng đàn con nhỏ.",
+        "Cả ngày cô lách cách đi khắp sân, bới đất tìm sâu.",
+        "Hễ tìm được con sâu béo, cô lại gọi: Cục cục cục! Các con ơi, lại đây ăn này!",
+        "Cũng trong sân ấy có cô mèo suốt ngày nằm ngủ ở cửa kho, chú chuột béo chạy lung tung,",
+        "và chú lợn chỉ thích ăn cho thật no rồi nằm khì."
+      ],
+      "image": {
+        "character": "ga-mai",
+        "prompt": "a little red hen scratches the ground and feeds a worm to her fluffy yellow chicks, behind her a grey cat naps in the barn doorway, a brown rat scurries past and a pink pig lies in the mud",
+        "seed": 436724080
+      },
+      "video": {
+        "motionPrompt": "the hen scratches and calls, the chicks run to her, the cat stretches and yawns, the pig rolls over lazily, gentle camera pan",
+        "seed": 1294226274
+      },
+      "voice": {}
+    },
+    {
+      "id": "hat-lua-mi",
+      "title": "Ai gieo hạt?",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, cô gà mái bới được một hạt gì dài dài. Hỏi han khắp nơi, cô mới biết đó là hạt lúa mì. Đem gieo xuống, nó sẽ mọc thành cây, hạt chín xay ra bột, rồi làm thành bánh mì. Cô gà mái cất tiếng gọi: Ai gieo hạt lúa mì nào? Chú lợn nói: Không phải tôi. Cô mèo nói: Không phải tôi. Chú chuột nói: Không phải tôi. Thế thì tôi gieo vậy, cô gà mái nói. Và cô tự gieo hạt xuống đất.",
+      "subtitles": [
+        "Một hôm, cô gà mái bới được một hạt gì dài dài.",
+        "Hỏi han khắp nơi, cô mới biết đó là hạt lúa mì.",
+        "Đem gieo xuống, nó sẽ mọc thành cây, hạt chín xay ra bột, rồi làm thành bánh mì.",
+        "Cô gà mái cất tiếng gọi: Ai gieo hạt lúa mì nào?",
+        "Chú lợn nói: Không phải tôi. Cô mèo nói: Không phải tôi. Chú chuột nói: Không phải tôi.",
+        "Thế thì tôi gieo vậy, cô gà mái nói. Và cô tự gieo hạt xuống đất."
+      ],
+      "image": {
+        "character": "ga-mai",
+        "prompt": "the little red hen plants a single golden grain of wheat in a small patch of soil, while the pig, the cat and the rat turn away shaking their heads",
+        "seed": 2767302100
+      },
+      "video": {
+        "motionPrompt": "the hen pats the soil with her foot, the three animals shake their heads and wander off, a sunbeam falls on the patch, gentle camera push-in",
+        "seed": 1462501874
+      },
+      "voice": {}
+    },
+    {
+      "id": "gat-lua",
+      "title": "Ai gặt lúa?",
+      "narrator": "ke-chuyen",
+      "narration": "Suốt mùa hè, cô gà mái vẫn bới sâu, chăm con. Chú lợn béo ra, cô mèo béo ra, chú chuột cũng béo ra, còn cây lúa mì thì lớn cao, hạt chín vàng óng. Ai gặt lúa mì nào? Cô gà mái hỏi. Không phải tôi, không phải tôi, không phải tôi! Cả ba cùng lắc đầu. Thế thì tôi gặt vậy. Cô gà mái lấy cái liềm nhỏ trong kho, tự tay gặt hết cây lúa.",
+      "subtitles": [
+        "Suốt mùa hè, cô gà mái vẫn bới sâu, chăm con.",
+        "Chú lợn béo ra, cô mèo béo ra, chú chuột cũng béo ra, còn cây lúa mì thì lớn cao,",
+        "hạt chín vàng óng.",
+        "Ai gặt lúa mì nào? Cô gà mái hỏi.",
+        "Không phải tôi, không phải tôi, không phải tôi! Cả ba cùng lắc đầu.",
+        "Thế thì tôi gặt vậy. Cô gà mái lấy cái liềm nhỏ trong kho, tự tay gặt hết cây lúa."
+      ],
+      "image": {
+        "character": "ga-mai",
+        "prompt": "the little red hen cuts tall golden wheat with a small sickle on a sunny afternoon, the fat pig, cat and rat lounge in the shade nearby",
+        "seed": 2867822776
+      },
+      "video": {
+        "motionPrompt": "wheat stalks sway and fall as the hen works, the three lazy animals doze and yawn in the shade, butterflies drift, gentle camera pan",
+        "seed": 2338630103
+      },
+      "voice": {}
+    },
+    {
+      "id": "dap-lua",
+      "title": "Ai đập lúa, ai mang đi xay?",
+      "narrator": "ke-chuyen",
+      "narration": "Lúa gặt xong thì đàn gà con kêu chiêm chiếp đòi mẹ. Cô gà mái cho các con ăn, ru các con ngủ trưa, rồi lại hỏi: Ai đập lúa nào? Không phải tôi! Lợn ủn ỉn, mèo meo meo, chuột chít chít. Cô gà mái lại tự đập lúa. Rồi cô hỏi: Ai mang lúa đến cối xay? Cả ba quay lưng đi: Không phải tôi! Thế là cô gà mái vác bao lúa lặn lội tới cái cối xay gió tận đằng xa. Bác thợ xay xay cho cô một bao bột trắng tinh, cô lại vác về.",
+      "subtitles": [
+        "Lúa gặt xong thì đàn gà con kêu chiêm chiếp đòi mẹ.",
+        "Cô gà mái cho các con ăn, ru các con ngủ trưa, rồi lại hỏi: Ai đập lúa nào?",
+        "Không phải tôi! Lợn ủn ỉn, mèo meo meo, chuột chít chít.",
+        "Cô gà mái lại tự đập lúa.",
+        "Rồi cô hỏi: Ai mang lúa đến cối xay? Cả ba quay lưng đi: Không phải tôi!",
+        "Thế là cô gà mái vác bao lúa lặn lội tới cái cối xay gió tận đằng xa.",
+        "Bác thợ xay xay cho cô một bao bột trắng tinh, cô lại vác về."
+      ],
+      "image": {
+        "character": "ga-mai",
+        "prompt": "the little red hen carries a sack of wheat along a country lane toward a tall windmill, then walks home with a sack of white flour, her fluffy chicks waiting happily at the farm gate",
+        "seed": 3988040396
+      },
+      "video": {
+        "motionPrompt": "the windmill sails turn, the hen trudges along the lane with her sack, the chicks hop and cheep at the gate, slow camera follow",
+        "seed": 2578784941
+      },
+      "voice": {}
+    },
+    {
+      "id": "nuong-banh",
+      "title": "Ai làm bánh mì?",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, cô gà mái tìm cả ba người bạn: Ai làm bánh mì nào? Không phải tôi, không phải tôi, không phải tôi! Thế thì tôi làm vậy. Cô đeo tạp dề sạch sẽ, đội mũ đầu bếp, nhào bột, nặn thành từng ổ, rồi cho vào lò nướng. Trong lúc ấy, cô mèo ngồi cười khúc khích, chú chuột ngắm mình trong gương, còn chú lợn ngáy khò khò ở đằng xa.",
+      "subtitles": [
+        "Sáng hôm sau, cô gà mái tìm cả ba người bạn: Ai làm bánh mì nào?",
+        "Không phải tôi, không phải tôi, không phải tôi!",
+        "Thế thì tôi làm vậy. Cô đeo tạp dề sạch sẽ, đội mũ đầu bếp, nhào bột, nặn thành từng ổ,",
+        "rồi cho vào lò nướng.",
+        "Trong lúc ấy, cô mèo ngồi cười khúc khích, chú chuột ngắm mình trong gương,",
+        "còn chú lợn ngáy khò khò ở đằng xa."
+      ],
+      "image": {
+        "character": "ga-mai",
+        "prompt": "in a cozy farm kitchen the little red hen in a white apron and chef's cap kneads dough and shapes loaves by a brick oven, the cat giggles in a corner, the rat admires himself in a hand mirror",
+        "seed": 4244451376
+      },
+      "video": {
+        "motionPrompt": "the hen kneads dough with flour puffing up, the cat giggles, the rat preens in his mirror, the pig snores through the window, warm firelight",
+        "seed": 1978910913
+      },
+      "voice": {}
+    },
+    {
+      "id": "ai-an-banh",
+      "title": "Ai ăn bánh mì?",
+      "narrator": "ke-chuyen",
+      "narration": "Lúc bánh chín, mùi thơm bay khắp sân trại. Ai cũng hít hà. Những ổ bánh mì vàng ruộm ra lò, ngon tuyệt. Cô gà mái hỏi: Ai ăn bánh mì nào? Lần này, chú lợn nói: Tôi! Cô mèo nói: Tôi! Chú chuột nói: Tôi! Cô gà mái lắc đầu: Không đâu. Các bạn chẳng giúp việc gì cả. Mẹ con tôi sẽ ăn. Và cô cùng đàn con ăn bánh mì ngon lành.",
+      "subtitles": [
+        "Lúc bánh chín, mùi thơm bay khắp sân trại. Ai cũng hít hà.",
+        "Những ổ bánh mì vàng ruộm ra lò, ngon tuyệt.",
+        "Cô gà mái hỏi: Ai ăn bánh mì nào?",
+        "Lần này, chú lợn nói: Tôi! Cô mèo nói: Tôi! Chú chuột nói: Tôi!",
+        "Cô gà mái lắc đầu: Không đâu. Các bạn chẳng giúp việc gì cả. Mẹ con tôi sẽ ăn.",
+        "Và cô cùng đàn con ăn bánh mì ngon lành."
+      ],
+      "image": {
+        "character": "ga-mai",
+        "prompt": "the little red hen and her fluffy chicks share warm golden loaves of bread at a little table, the pig, the cat and the rat watch hungrily over the fence with their mouths open",
+        "seed": 839579528
+      },
+      "video": {
+        "motionPrompt": "steam rises from the loaves, the chicks nibble happily, the three animals lick their lips and look sheepish, gentle camera push-in",
+        "seed": 1945669014
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket",
+      "title": "Chăm chỉ thì có quả ngọt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, cô gà mái làm hết mọi việc nên được ăn bánh thơm. Còn ai chỉ ngồi chơi thì đành đứng nhìn thôi. Lần sau có người nhờ, các bạn nhớ nói: Tớ giúp cho! nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, cô gà mái làm hết mọi việc nên được ăn bánh thơm.",
+        "Còn ai chỉ ngồi chơi thì đành đứng nhìn thôi.",
+        "Lần sau có người nhờ, các bạn nhớ nói: Tớ giúp cho! nhé. Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat smiles in the sunny farmyard beside the little red hen and her chicks with a basket of fresh bread, the windmill turning in the distance",
+        "seed": 1590884123
+      },
+      "video": {
+        "motionPrompt": "the hen offers a piece of bread, the chicks cheep, the cat waves goodbye, slow camera pull-back",
+        "seed": 1320007667
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "cheerful English folk melody, tin whistle, fiddle and soft acoustic guitar with light hand percussion, bouncy farmyard feel, gentle for young children, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3290373189
+  }
+}

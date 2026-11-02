@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-cho-rung-va-dong-suoi",
+  "shelf": "world",
+  "title": "Chú chó rừng và dòng suối",
+  "summary": "Mùa khô, muông thú cùng nhau đào giếng, chỉ có chú chó rừng lười biếng không chịu làm mà vẫn muốn uống. Thỏ, thỏ rừng con lần lượt mắc mưu miếng mật ong, cho tới khi bác rùa chậm chạp ra canh giếng. Truyện dân gian người Basotho, miền nam châu Phi, trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Jackal and the Spring\" trong The Grey Fairy Book do Andrew Lang biên tập (1900; Lang lấy từ tập truyện dân gian người Basotho do E. Jacottet sưu tầm), Project Gutenberg #6746, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ trọn cốt truyện, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Basotho, Andrew Lang chép (1900)",
+  "style": "classic African folk tale picture book illustration, dry golden savanna of southern Africa with flat-topped acacia trees, red earth and a small sparkling well, warm earthy colors of ochre, sienna, sun gold and sky blue, gentle humorous mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cho-rung",
+      "name": "Chú chó rừng",
+      "sheetPrompt": "a sly lazy jackal from an African folk tale, slender golden-brown fur with a dark saddle on its back, big pointed ears, a small woven bag hanging at its side, mischievous grin, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2686452852
+    },
+    {
+      "id": "bac-rua",
+      "name": "Bác rùa",
+      "sheetPrompt": "a calm patient old tortoise from an African folk tale, high domed patterned shell, wise half-closed eyes, wrinkly gentle face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1379238006
+    },
+    {
+      "id": "tho-con",
+      "name": "Thỏ rừng con",
+      "sheetPrompt": "a small eager young hare from an African folk tale, sandy brown fur, very long ears, big curious eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 202776211
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dao-gieng",
+      "title": "Đào giếng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một năm sông suối cạn khô hết, muông thú chẳng biết tìm nước ở đâu. Tìm mãi, chúng mới thấy một mạch nước nhỏ xíu, chỉ cần đào sâu thêm là có nước dồi dào. Muông thú bảo nhau: “Ta cùng đào một cái giếng, thế là khỏi lo khát nữa.” Con nào cũng đồng ý, trừ chú chó rừng. Chú ghét làm lụng, lúc nào cũng tìm cách để kẻ khác làm thay. Đào xong giếng, muông thú họp nhau chọn người canh, để chó rừng không bén mảng tới được. Chúng bảo: “Nó không làm thì nó không được uống.” Bàn tới bàn lui, chúng giao cho thỏ canh giếng, rồi ai về nhà nấy.",
+      "subtitles": [
+        "Ngày xưa, có một năm sông suối cạn khô hết, muông thú chẳng biết tìm nước ở đâu.",
+        "Tìm mãi, chúng mới thấy một mạch nước nhỏ xíu, chỉ cần đào sâu thêm là có nước dồi dào.",
+        "Muông thú bảo nhau: “Ta cùng đào một cái giếng, thế là khỏi lo khát nữa.”",
+        "Con nào cũng đồng ý, trừ chú chó rừng.",
+        "Chú ghét làm lụng, lúc nào cũng tìm cách để kẻ khác làm thay.",
+        "Đào xong giếng, muông thú họp nhau chọn người canh, để chó rừng không bén mảng tới được.",
+        "Chúng bảo: “Nó không làm thì nó không được uống.”",
+        "Bàn tới bàn lui, chúng giao cho thỏ canh giếng, rồi ai về nhà nấy."
+      ],
+      "image": {
+        "prompt": "a dry golden savanna with acacia trees, many animals, zebras, antelopes, a panther, a rabbit and a tortoise, digging together around a small sparkling spring, a lazy jackal lounging in the shade watching",
+        "seed": 3767330998,
+        "character": "cho-rung"
+      },
+      "video": {
+        "motionPrompt": "the animals dig and splash as water bubbles up, the jackal yawns lazily in the shade, heat shimmers over the grass",
+        "seed": 3131050147
+      },
+      "voice": {}
+    },
+    {
+      "id": "tho-mac-muu",
+      "title": "Thỏ mắc mưu",
+      "narrator": "ke-chuyen",
+      "narration": "Muông thú vừa đi khuất thì chó rừng tới. “Chào thỏ, chào thỏ!” Thỏ lễ phép chào lại. Chó rừng mở cái túi nhỏ đeo bên mình, lấy ra một miếng sáp ong đầy mật, vừa ăn vừa nói: “Thỏ thấy đấy, tôi chẳng khát tí nào. Món này còn ngon hơn nước nhiều.” “Cho tôi một miếng với.” Chó rừng đưa cho một mẩu bé tí. “Ôi, ngon quá! Cho tôi thêm chút nữa đi, bạn thân mến!” “Muốn thêm thì phải để tôi trói chân ra sau, nằm ngửa ra, tôi mới đổ vào miệng cho được.” Thỏ làm theo. Vừa trói chặt thỏ, chó rừng chạy ngay ra giếng uống no nê, rồi về hang. Tối, muông thú về thấy thỏ bị trói, bèn mắng: “Thỏ ơi, sao để nó lừa dễ thế?” Thế là thỏ rừng con nhanh nhảu xin: “Để em canh cho!”",
+      "subtitles": [
+        "Muông thú vừa đi khuất thì chó rừng tới. “Chào thỏ, chào thỏ!”",
+        "Thỏ lễ phép chào lại.",
+        "Chó rừng mở cái túi nhỏ đeo bên mình, lấy ra một miếng sáp ong đầy mật, vừa ăn vừa nói:",
+        "“Thỏ thấy đấy, tôi chẳng khát tí nào. Món này còn ngon hơn nước nhiều.”",
+        "“Cho tôi một miếng với.” Chó rừng đưa cho một mẩu bé tí.",
+        "“Ôi, ngon quá! Cho tôi thêm chút nữa đi, bạn thân mến!”",
+        "“Muốn thêm thì phải để tôi trói chân ra sau, nằm ngửa ra, tôi mới đổ vào miệng cho được.”",
+        "Thỏ làm theo. Vừa trói chặt thỏ, chó rừng chạy ngay ra giếng uống no nê, rồi về hang.",
+        "Tối, muông thú về thấy thỏ bị trói, bèn mắng: “Thỏ ơi, sao để nó lừa dễ thế?”",
+        "Thế là thỏ rừng con nhanh nhảu xin: “Để em canh cho!”"
+      ],
+      "image": {
+        "prompt": "beside a small well in the savanna, a sly jackal offering a dripping golden honeycomb from its little woven bag to a hopeful rabbit, acacia trees and warm afternoon light",
+        "seed": 841862138,
+        "character": "cho-rung"
+      },
+      "video": {
+        "motionPrompt": "honey drips from the comb, the rabbit's nose twitches eagerly, the jackal grins and glances at the well",
+        "seed": 2862016387
+      },
+      "voice": {}
+    },
+    {
+      "id": "tho-rung-con",
+      "title": "Thỏ rừng con",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, thỏ rừng con ở lại canh giếng. Muông thú vừa đi thì chó rừng lại tới. “Chào thỏ rừng con!” Thỏ rừng con lễ phép chào lại. “Cho tôi xin một nhúm thuốc hít nào.” “Tiếc quá, tôi chẳng có.” Chó rừng ngồi xuống bên cạnh, lấy miếng sáp mật ra liếm láp: “Ôi, giá mà em biết món này ngon thế nào! Nó làm cổ họng mát rượi, ăn xong chẳng thấy khát gì nữa. Không như các anh cứ suốt ngày đòi nước.” “Cho em một miếng đi anh.” “Từ từ đã. Muốn ăn cho thật ngon thì phải để anh trói chân ra sau, nằm ngửa ra, anh đổ vào miệng cho.” “Anh trói đi, nhưng nhanh lên nhé!” Trói xong, chó rừng lại thong thả ra giếng uống no rồi về hang. Tối về, muông thú lại mắng: “Em bảo em tinh khôn lắm cơ mà? Giờ xem còn bao nhiêu nước cho bọn ta uống đây!”",
+      "subtitles": [
+        "Sáng hôm sau, thỏ rừng con ở lại canh giếng. Muông thú vừa đi thì chó rừng lại tới.",
+        "“Chào thỏ rừng con!” Thỏ rừng con lễ phép chào lại.",
+        "“Cho tôi xin một nhúm thuốc hít nào.” “Tiếc quá, tôi chẳng có.”",
+        "Chó rừng ngồi xuống bên cạnh, lấy miếng sáp mật ra liếm láp: “Ôi,",
+        "giá mà em biết món này ngon thế nào!",
+        "Nó làm cổ họng mát rượi, ăn xong chẳng thấy khát gì nữa.",
+        "Không như các anh cứ suốt ngày đòi nước.” “Cho em một miếng đi anh.”",
+        "“Từ từ đã. Muốn ăn cho thật ngon thì phải để anh trói chân ra sau, nằm ngửa ra,",
+        "anh đổ vào miệng cho.” “Anh trói đi, nhưng nhanh lên nhé!”",
+        "Trói xong, chó rừng lại thong thả ra giếng uống no rồi về hang.",
+        "Tối về, muông thú lại mắng: “Em bảo em tinh khôn lắm cơ mà?",
+        "Giờ xem còn bao nhiêu nước cho bọn ta uống đây!”"
+      ],
+      "image": {
+        "prompt": "a small young hare with long ears lying on its back with its paws tied by a grass rope, looking embarrassed, while a sly jackal happily drinks from the well in the background, animals returning at sunset",
+        "seed": 1982321945,
+        "character": "tho-con"
+      },
+      "video": {
+        "motionPrompt": "the young hare wiggles its ears sheepishly, the jackal laps water happily, the sunset glows orange",
+        "seed": 3070195729
+      },
+      "voice": {}
+    },
+    {
+      "id": "bac-rua-canh-gieng",
+      "title": "Bác rùa canh giếng",
+      "narrator": "ke-chuyen",
+      "narration": "Muông thú hỏi nhau: “Giờ biết tin ai canh giếng đây?” Báo đen bảo: “Để bác rùa canh.” Sáng hôm sau, rùa ở lại bên giếng. Chó rừng lại tới: “Chào bác rùa, chào bác rùa!” Rùa chẳng thèm đáp. “Chào bác rùa!” Rùa vẫn làm như không nghe thấy. Chó rừng nghĩ bụng: “Hôm nay gặp đứa còn ngốc hơn nữa. Cứ hất nó sang bên rồi uống thôi.” Nó khẽ gọi: “Rùa ơi, rùa ơi!” Rùa vẫn im lặng. Chó rừng bèn hất rùa sang một bên, cúi xuống giếng. Vừa chạm môi vào nước, rùa đã ngoạm chặt lấy chân nó. “Ối, gãy chân tôi mất!” Nhưng rùa càng cắn chặt hơn.",
+      "subtitles": [
+        "Muông thú hỏi nhau: “Giờ biết tin ai canh giếng đây?”",
+        "Báo đen bảo: “Để bác rùa canh.” Sáng hôm sau, rùa ở lại bên giếng.",
+        "Chó rừng lại tới: “Chào bác rùa, chào bác rùa!”",
+        "Rùa chẳng thèm đáp. “Chào bác rùa!” Rùa vẫn làm như không nghe thấy.",
+        "Chó rừng nghĩ bụng: “Hôm nay gặp đứa còn ngốc hơn nữa.",
+        "Cứ hất nó sang bên rồi uống thôi.” Nó khẽ gọi: “Rùa ơi, rùa ơi!”",
+        "Rùa vẫn im lặng. Chó rừng bèn hất rùa sang một bên, cúi xuống giếng.",
+        "Vừa chạm môi vào nước, rùa đã ngoạm chặt lấy chân nó.",
+        "“Ối, gãy chân tôi mất!” Nhưng rùa càng cắn chặt hơn."
+      ],
+      "image": {
+        "prompt": "at the edge of a sparkling savanna well, a calm old tortoise firmly holding the hind leg of a startled jackal that yelps with ears flattened, comical storybook style, acacia trees in the background",
+        "seed": 2456497096,
+        "character": "bac-rua"
+      },
+      "video": {
+        "motionPrompt": "the jackal tugs and hops in a comical panic, the tortoise holds on calmly with eyes half closed, water ripples in the well",
+        "seed": 227193789
+      },
+      "voice": {}
+    },
+    {
+      "id": "rua-thang-cuoc",
+      "title": "Rùa thắng cuộc",
+      "narrator": "ke-chuyen",
+      "narration": "Chó rừng lôi túi ra, dí miếng sáp mật vào mũi rùa cho ngửi, nhưng rùa quay mặt đi, chẳng ngửi gì. Cuối cùng nó năn nỉ: “Tôi biếu bác cả cái túi, cả mọi thứ trong túi!” Rùa chẳng nói một lời, chỉ ngoạm chặt hơn nữa. Cứ thế cho tới khi muông thú trở về. Vừa thấy chúng, chó rừng giật mạnh một cái, rút được chân ra, cắm đầu chạy mất hút. Muông thú vây quanh rùa, reo lên: “Giỏi lắm, bác rùa! Bác thật can đảm. Từ nay chúng ta được uống nước giếng yên ổn rồi, vì bác đã thắng được tên chó rừng ăn cắp ấy!”",
+      "subtitles": [
+        "Chó rừng lôi túi ra, dí miếng sáp mật vào mũi rùa cho ngửi, nhưng rùa quay mặt đi,",
+        "chẳng ngửi gì. Cuối cùng nó năn nỉ: “Tôi biếu bác cả cái túi, cả mọi thứ trong túi!”",
+        "Rùa chẳng nói một lời, chỉ ngoạm chặt hơn nữa.",
+        "Cứ thế cho tới khi muông thú trở về.",
+        "Vừa thấy chúng, chó rừng giật mạnh một cái, rút được chân ra, cắm đầu chạy mất hút.",
+        "Muông thú vây quanh rùa, reo lên: “Giỏi lắm, bác rùa!",
+        "Bác thật can đảm. Từ nay chúng ta được uống nước giếng yên ổn rồi,",
+        "vì bác đã thắng được tên chó rừng ăn cắp ấy!”"
+      ],
+      "image": {
+        "prompt": "joyful savanna animals, zebras, antelopes, a panther, a rabbit and a young hare, cheering around a proud old tortoise beside a sparkling well, a jackal running away in the far distance kicking up dust, golden sunset",
+        "seed": 2141751878,
+        "character": "bac-rua"
+      },
+      "video": {
+        "motionPrompt": "the animals dance and cheer, the tortoise smiles slowly, a small cloud of dust trails the fleeing jackal",
+        "seed": 4225399012
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle southern African folk instrumental with mbira, marimba, soft hand drums and shaker, playful and sunny, no vocals",
+    "durationSeconds": 120,
+    "seed": 2588184031
+  }
+}

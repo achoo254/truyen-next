@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "slug": "co-gai-mat-de",
+  "shelf": "world",
+  "title": "Cô gái mặt dê",
+  "summary": "Được bà tiên thằn lằn nuôi như công chúa rồi gả cho nhà vua, cô gái nhà nghèo Renzolla quên cả lời cảm ơn, và bỗng mang một gương mặt dê. Chỉ khi biết nhận lỗi, cô mới tìm lại được chính mình. Truyện dân gian Ý trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Goat-faced Girl\" trong The Grey Fairy Book do Andrew Lang biên tập (1900; truyện dân gian Ý, gốc từ Basile), Project Gutenberg #6746, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ đoạn chú chó nhỏ bị ném qua cửa sổ, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Ý, Andrew Lang chép (1900)",
+  "style": "classic Italian fairy tale picture book illustration, Neapolitan countryside with rocky mountains and vineyards, a magical palace, warm Mediterranean light, colors of emerald green, terracotta, gold and soft rose, gentle whimsical mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "renzolla",
+      "name": "Renzolla",
+      "sheetPrompt": "a pretty young woman from an old Italian fairy tale with long dark shiny braids, rose silk gown with gold embroidery, a slightly proud expression, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1170258392
+    },
+    {
+      "id": "ba-tien",
+      "name": "Bà tiên thằn lằn",
+      "sheetPrompt": "a kind fairy from an old Italian fairy tale shown two ways: as a large friendly emerald green lizard with gentle golden eyes, and as a graceful lady in a flowing emerald gown with a silver crown, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3076776267
+    },
+    {
+      "id": "nha-vua",
+      "name": "Nhà vua",
+      "sheetPrompt": "a young king from an old Italian fairy tale, dark curly hair, golden crown, deep blue hunting cloak, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2949665840
+    }
+  ],
+  "scenes": [
+    {
+      "id": "thang-lan-xanh",
+      "title": "Con thằn lằn xanh",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có bác nông dân tên Masaniello sinh được mười hai cô con gái, mỗi cô cách nhau đúng một tuổi, đứng cạnh nhau trông như bậc cầu thang. Bác cày cuốc quần quật suốt ngày mà các con vẫn thường phải nhịn đói đi ngủ. Một hôm, đang làm dưới chân núi, bác thấy một cửa hang tối om. Từ trong hang, một con thằn lằn xanh to như cá sấu bò ra. Bác sợ suýt ngất. Nhưng thằn lằn ngồi xuống cạnh bác, giọng hiền hậu: “Đừng sợ, bác ạ. Ta không làm hại bác đâu, ta muốn giúp bác. Ngày mai, bác hãy mang cô con gái út tới đây. Ta hứa sẽ nuôi nó như con đẻ, quý như con ngươi của mắt mình.”",
+      "subtitles": [
+        "Ngày xưa, có bác nông dân tên Masaniello sinh được mười hai cô con gái,",
+        "mỗi cô cách nhau đúng một tuổi, đứng cạnh nhau trông như bậc cầu thang.",
+        "Bác cày cuốc quần quật suốt ngày mà các con vẫn thường phải nhịn đói đi ngủ.",
+        "Một hôm, đang làm dưới chân núi, bác thấy một cửa hang tối om.",
+        "Từ trong hang, một con thằn lằn xanh to như cá sấu bò ra.",
+        "Bác sợ suýt ngất. Nhưng thằn lằn ngồi xuống cạnh bác, giọng hiền hậu: “Đừng sợ, bác ạ.",
+        "Ta không làm hại bác đâu, ta muốn giúp bác. Ngày mai, bác hãy mang cô con gái út tới đây.",
+        "Ta hứa sẽ nuôi nó như con đẻ, quý như con ngươi của mắt mình.”"
+      ],
+      "image": {
+        "prompt": "a poor Italian peasant with a hoe kneeling in surprise at the mouth of a dark mountain cave, a large friendly emerald green lizard sitting beside him with gentle golden eyes, rocky hills and wildflowers",
+        "seed": 4229532420,
+        "character": "ba-tien"
+      },
+      "video": {
+        "motionPrompt": "the lizard tilts its head kindly, the peasant slowly lowers his hoe, a breeze moves the wildflowers",
+        "seed": 2536254403
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-trong-hang",
+      "title": "Lâu đài trong hang",
+      "narrator": "ke-chuyen",
+      "narration": "Bác Masaniello về nhà mặt trắng bệch, kể lại với vợ, lòng rối như tơ vò: bác thương bé Renzolla biết bao, mà cũng sợ con thằn lằn biết bao. Bác gái nghĩ ngợi rồi bảo: “Biết đâu nó là bạn chứ không phải thù? Biết đâu đây là khởi đầu của những ngày tốt đẹp? Lòng em bảo rằng mình sẽ không phải hối hận.” Sáng sớm hôm sau, bác dắt con gái út tới cửa hang. Thằn lằn ra đón, nắm tay bé, trao cho bác một bao vàng: “Bác về lo của hồi môn cho các con, cứ yên lòng. Renzolla có ta làm cả cha lẫn mẹ.” Nhờ bao vàng ấy, các cô chị đều lấy được chồng tử tế, hai ông bà sống sung túc đến già. Còn thằn lằn thì biến cái hang thành một tòa lâu đài lộng lẫy, nuôi Renzolla như một nàng công chúa, có cả ngàn người hầu.",
+      "subtitles": [
+        "Bác Masaniello về nhà mặt trắng bệch, kể lại với vợ, lòng rối như tơ vò:",
+        "bác thương bé Renzolla biết bao, mà cũng sợ con thằn lằn biết bao.",
+        "Bác gái nghĩ ngợi rồi bảo: “Biết đâu nó là bạn chứ không phải thù?",
+        "Biết đâu đây là khởi đầu của những ngày tốt đẹp?",
+        "Lòng em bảo rằng mình sẽ không phải hối hận.”",
+        "Sáng sớm hôm sau, bác dắt con gái út tới cửa hang.",
+        "Thằn lằn ra đón, nắm tay bé, trao cho bác một bao vàng:",
+        "“Bác về lo của hồi môn cho các con, cứ yên lòng.",
+        "Renzolla có ta làm cả cha lẫn mẹ.”",
+        "Nhờ bao vàng ấy, các cô chị đều lấy được chồng tử tế, hai ông bà sống sung túc đến già.",
+        "Còn thằn lằn thì biến cái hang thành một tòa lâu đài lộng lẫy,",
+        "nuôi Renzolla như một nàng công chúa, có cả ngàn người hầu."
+      ],
+      "image": {
+        "prompt": "a dark cave magically transforming into a splendid sparkling palace with marble columns and fountains, a little peasant girl holding the claw of a friendly emerald lizard, her father walking away happily with a sack of gold",
+        "seed": 2204764390,
+        "character": "ba-tien"
+      },
+      "video": {
+        "motionPrompt": "the cave walls shimmer and turn into marble and gold, fountains begin to sparkle, the little girl looks around in wonder",
+        "seed": 1536008264
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-vua-ghe-tham",
+      "title": "Nhà vua ghé thăm",
+      "narrator": "ke-chuyen",
+      "narration": "Năm tháng trôi qua, Renzolla lớn lên xinh đẹp. Một tối, nhà vua đi săn trong khu rừng gần đó, trời tối không về kịp, thấy lâu đài sáng đèn bèn sai người xin nghỉ nhờ. Thằn lằn hóa thành một phu nhân xinh đẹp, ra tận cửa đón vua. Một trăm thị đồng cầm đuốc rước vua vào, một trăm người hầu bàn, một trăm người phe phẩy quạt. Renzolla rót rượu mời vua, dáng điệu duyên dáng đến nỗi vua không rời mắt được. Vua đem lòng yêu cô, xin bà tiên cho cưới. Bà tiên chỉ mong điều tốt cho Renzolla, nên vui vẻ nhận lời, lại cho thêm bảy nghìn đồng vàng làm của hồi môn.",
+      "subtitles": [
+        "Năm tháng trôi qua, Renzolla lớn lên xinh đẹp.",
+        "Một tối, nhà vua đi săn trong khu rừng gần đó, trời tối không về kịp,",
+        "thấy lâu đài sáng đèn bèn sai người xin nghỉ nhờ.",
+        "Thằn lằn hóa thành một phu nhân xinh đẹp, ra tận cửa đón vua.",
+        "Một trăm thị đồng cầm đuốc rước vua vào, một trăm người hầu bàn,",
+        "một trăm người phe phẩy quạt.",
+        "Renzolla rót rượu mời vua, dáng điệu duyên dáng đến nỗi vua không rời mắt được.",
+        "Vua đem lòng yêu cô, xin bà tiên cho cưới.",
+        "Bà tiên chỉ mong điều tốt cho Renzolla, nên vui vẻ nhận lời,",
+        "lại cho thêm bảy nghìn đồng vàng làm của hồi môn."
+      ],
+      "image": {
+        "prompt": "a grand candlelit banquet hall in a magical palace, a graceful young woman with dark braids pouring wine for a charmed young king in a blue cloak, a lady in an emerald gown watching kindly, rows of pages holding torches",
+        "seed": 778877226,
+        "character": "renzolla"
+      },
+      "video": {
+        "motionPrompt": "torches flicker, fans wave slowly, the king gazes at the young woman as she pours the wine",
+        "seed": 3042586302
+      },
+      "voice": {}
+    },
+    {
+      "id": "guong-mat-de",
+      "title": "Gương mặt dê",
+      "narrator": "ke-chuyen",
+      "narration": "Vua vui sướng chuẩn bị lên đường, đưa Renzolla về nước. Nhưng Renzolla bước theo vua mà chẳng nói lấy một lời cảm ơn bà tiên đã nuôi nấng mình. Thấy cô vô ơn như thế, bà tiên quyết định phạt. Trong nháy mắt, cái miệng xinh xắn của Renzolla dài ra thành mõm, cằm mọc một chòm râu dài, hai bím tóc óng ả hóa thành hai cái sừng nhọn. Nhà vua quay lại, tưởng mình hoa mắt. Vua bật khóc: “Mái tóc, đôi mắt mà ta yêu đâu rồi? Lẽ nào ta phải sống cả đời bên một cô gái mặt dê, để thần dân cười chê?” Về tới cung, vua nhốt Renzolla trong một căn phòng nhỏ trên tháp, cùng một cô hầu gái, giao cho mỗi người mười bó lanh, dặn phải kéo sợi xong trước cuối tuần.",
+      "subtitles": [
+        "Vua vui sướng chuẩn bị lên đường, đưa Renzolla về nước.",
+        "Nhưng Renzolla bước theo vua mà chẳng nói lấy một lời cảm ơn bà tiên đã nuôi nấng mình.",
+        "Thấy cô vô ơn như thế, bà tiên quyết định phạt.",
+        "Trong nháy mắt, cái miệng xinh xắn của Renzolla dài ra thành mõm,",
+        "cằm mọc một chòm râu dài, hai bím tóc óng ả hóa thành hai cái sừng nhọn.",
+        "Nhà vua quay lại, tưởng mình hoa mắt. Vua bật khóc: “Mái tóc, đôi mắt mà ta yêu đâu rồi?",
+        "Lẽ nào ta phải sống cả đời bên một cô gái mặt dê, để thần dân cười chê?”",
+        "Về tới cung, vua nhốt Renzolla trong một căn phòng nhỏ trên tháp, cùng một cô hầu gái,",
+        "giao cho mỗi người mười bó lanh, dặn phải kéo sợi xong trước cuối tuần."
+      ],
+      "image": {
+        "prompt": "on a forest road beside a royal carriage, a young king in a blue cloak staring in shock at a young woman in a rose gown who now has a gentle goat face with small curved horns and a long white beard, whimsical not scary",
+        "seed": 2979234756,
+        "character": "nha-vua"
+      },
+      "video": {
+        "motionPrompt": "the king steps back in surprise, the goat-faced girl tilts her head puzzled, leaves swirl around the carriage",
+        "seed": 2272551935
+      },
+      "voice": {}
+    },
+    {
+      "id": "lanh-va-chu-cho-nho",
+      "title": "Bó lanh và chú chó nhỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Cô hầu gái ngoan ngoãn chải lanh, quay sợi chăm chỉ, đến tối thứ bảy là xong. Còn Renzolla quen được nuông chiều, lại chẳng biết mặt mình đã đổi khác, ném hết lanh qua cửa sổ: “Vua nghĩ gì vậy? Ta mang về cho vua bảy nghìn đồng vàng, ta là vợ chứ đâu phải người hầu!” Nhưng tới tối thứ bảy, sợ bị phạt, cô vội chạy về lâu đài bà tiên kể khổ. Bà tiên vẫn ôm cô âu yếm, cho cô một bao sợi đã kéo sẵn. Renzolla cầm lấy, lại chẳng cảm ơn một lời. Sau đó, vua cho hai người mỗi người một chú chó con, dặn chăm sóc dạy dỗ cẩn thận. Cô hầu chăm chó như con. Còn Renzolla thì kêu: “Ta mà phải tự tay chải lông cho chó ư?” rồi mở cửa sổ, ném chú chó nhỏ ra ngoài. Chú cún chạy biến vào rừng, không bao giờ quay lại nữa.",
+      "subtitles": [
+        "Cô hầu gái ngoan ngoãn chải lanh, quay sợi chăm chỉ, đến tối thứ bảy là xong.",
+        "Còn Renzolla quen được nuông chiều, lại chẳng biết mặt mình đã đổi khác,",
+        "ném hết lanh qua cửa sổ: “Vua nghĩ gì vậy?",
+        "Ta mang về cho vua bảy nghìn đồng vàng, ta là vợ chứ đâu phải người hầu!”",
+        "Nhưng tới tối thứ bảy, sợ bị phạt, cô vội chạy về lâu đài bà tiên kể khổ.",
+        "Bà tiên vẫn ôm cô âu yếm, cho cô một bao sợi đã kéo sẵn.",
+        "Renzolla cầm lấy, lại chẳng cảm ơn một lời.",
+        "Sau đó, vua cho hai người mỗi người một chú chó con, dặn chăm sóc dạy dỗ cẩn thận.",
+        "Cô hầu chăm chó như con.",
+        "Còn Renzolla thì kêu: “Ta mà phải tự tay chải lông cho chó ư?” rồi mở cửa sổ,",
+        "ném chú chó nhỏ ra ngoài. Chú cún chạy biến vào rừng, không bao giờ quay lại nữa."
+      ],
+      "image": {
+        "prompt": "a small tower room in an Italian palace, a diligent maid spinning flax at a wheel with a happy puppy at her feet, a goat-faced young woman in a rose gown scowling by the open window with bundles of flax scattered outside",
+        "seed": 1747984941,
+        "character": "renzolla"
+      },
+      "video": {
+        "motionPrompt": "the spinning wheel turns steadily, the puppy wags its tail, flax fibres drift out of the window on the breeze",
+        "seed": 2735593243
+      },
+      "voice": {}
+    },
+    {
+      "id": "tam-guong",
+      "title": "Tấm gương",
+      "narrator": "ke-chuyen",
+      "narration": "Mấy tháng sau, vua nhắn muốn xem hai chú chó lớn tới đâu. Renzolla hốt hoảng chạy về lâu đài bà tiên. Lần này, đứng ở cửa là một ông lão. “Cô là ai, tới đây làm gì?” Renzolla gắt: “Không biết ta à, lão râu dê kia?” Ông lão đáp: “Chính cô mới có cái đầu dê đấy, cô gái vô ơn ạ.” Rồi ông mang ra một tấm gương. Nhìn thấy gương mặt đầy lông của mình, Renzolla suýt ngã quỵ, òa khóc nức nở. Ông lão bảo: “Cô hãy nhớ, cô là con gái nhà nông, bà tiên đã biến cô thành hoàng hậu. Vậy mà cô chưa một lần cảm ơn. Muốn mất chòm râu ấy, hãy quỳ xuống xin bà tha lỗi. Bà ấy có tấm lòng rất mềm.”",
+      "subtitles": [
+        "Mấy tháng sau, vua nhắn muốn xem hai chú chó lớn tới đâu.",
+        "Renzolla hốt hoảng chạy về lâu đài bà tiên. Lần này, đứng ở cửa là một ông lão.",
+        "“Cô là ai, tới đây làm gì?” Renzolla gắt: “Không biết ta à, lão râu dê kia?”",
+        "Ông lão đáp: “Chính cô mới có cái đầu dê đấy, cô gái vô ơn ạ.”",
+        "Rồi ông mang ra một tấm gương.",
+        "Nhìn thấy gương mặt đầy lông của mình, Renzolla suýt ngã quỵ, òa khóc nức nở.",
+        "Ông lão bảo: “Cô hãy nhớ, cô là con gái nhà nông, bà tiên đã biến cô thành hoàng hậu.",
+        "Vậy mà cô chưa một lần cảm ơn. Muốn mất chòm râu ấy, hãy quỳ xuống xin bà tha lỗi.",
+        "Bà ấy có tấm lòng rất mềm.”"
+      ],
+      "image": {
+        "prompt": "at the golden gate of a magical palace, a wise old man with a long white beard holding up an ornate mirror, a goat-faced young woman in a rose gown looking into it and bursting into tears",
+        "seed": 2060771271,
+        "character": "renzolla"
+      },
+      "video": {
+        "motionPrompt": "the mirror catches a gleam of light, the young woman covers her face and sobs, the old man lowers the mirror gently",
+        "seed": 2089689942
+      },
+      "voice": {}
+    },
+    {
+      "id": "biet-on",
+      "title": "Biết ơn",
+      "narrator": "ke-chuyen",
+      "narration": "Lần này Renzolla thật lòng hối hận. Cô làm theo lời ông lão, quỳ xuống trước bà tiên, xin tha thứ. Bà tiên không chỉ trả lại cho cô gương mặt xinh đẹp ngày xưa, mà còn cho cô mặc áo thêu chỉ vàng, ngồi xe ngựa lộng lẫy, có cả đoàn người hầu đưa về với chồng. Thấy vợ xinh đẹp như xưa, nhà vua lại yêu thương cô, và hối hận vì đã để cô chịu khổ. Từ đó Renzolla sống hạnh phúc, vì cô yêu chồng, kính trọng bà tiên, và biết ơn ông lão đã nói cho cô nghe sự thật.",
+      "subtitles": [
+        "Lần này Renzolla thật lòng hối hận.",
+        "Cô làm theo lời ông lão, quỳ xuống trước bà tiên, xin tha thứ.",
+        "Bà tiên không chỉ trả lại cho cô gương mặt xinh đẹp ngày xưa,",
+        "mà còn cho cô mặc áo thêu chỉ vàng, ngồi xe ngựa lộng lẫy,",
+        "có cả đoàn người hầu đưa về với chồng.",
+        "Thấy vợ xinh đẹp như xưa, nhà vua lại yêu thương cô, và hối hận vì đã để cô chịu khổ.",
+        "Từ đó Renzolla sống hạnh phúc, vì cô yêu chồng, kính trọng bà tiên,",
+        "và biết ơn ông lão đã nói cho cô nghe sự thật."
+      ],
+      "image": {
+        "prompt": "a beautiful young woman with dark braids in a gold embroidered gown arriving in a splendid carriage at a palace, a young king in a blue cloak running to greet her with joy, a fairy lady in emerald waving from afar",
+        "seed": 2533913302,
+        "character": "renzolla"
+      },
+      "video": {
+        "motionPrompt": "the carriage door opens, the king takes her hands joyfully, rose petals drift through the golden afternoon air",
+        "seed": 482110950
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Italian folk instrumental with mandolin, flute and soft strings, whimsical and magical, turning tender at the end, no vocals",
+    "durationSeconds": 150,
+    "seed": 1128916304
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "slug": "chang-may-man",
+  "shelf": "world",
+  "title": "Chàng May Mắn",
+  "summary": "Người hầu trung thành nghe lỏm ba bầy chim mà cứu đôi vợ chồng hoàng tử khỏi ba cái bẫy, rồi vì nói ra sự thật mà hóa đá. Hoàng tử lên đường tìm Chàng May Mắn, mang theo cả câu hỏi của bác thợ xay, ba cô gái và một dòng suối lạ. Truyện dân gian Hungary trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Lucky Luck» trong The Crimson Fairy Book do Andrew Lang biên tập (1903), truyện dân gian Hungary, Project Gutenberg #2435, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính, nói tránh những mưu hại của ông vua cha, bản án của người hầu và kết cục của bọn trộm, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Hungary, Andrew Lang chép (1903)",
+  "style": "classic Hungarian folk fairy tale picture book illustration, a roadside inn with crows on the roof, a golden river bridge, a water mill in the forest, a vineyard valley with a little reed thatched house, folk embroidery motifs in the borders, soft gouache, colors of wheat gold, vine green, brick red and dusk blue, warm hopeful mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "sheetPrompt": "a kind young Hungarian prince from a folk tale, dark wavy hair, embroidered blue dolman jacket with gold braid, traveling cloak, earnest loyal eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2167637221
+    },
+    {
+      "id": "nguoi-hau",
+      "name": "Người hầu trung thành",
+      "sheetPrompt": "a faithful sharp-eared young servant from a Hungarian folk tale, short brown hair, plain brown vest over a white shirt, felt hat, watchful brave face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1443284578
+    },
+    {
+      "id": "chang-may-man",
+      "name": "Chàng May Mắn",
+      "sheetPrompt": "a cheerful sunburnt young vineyard worker from a Hungarian folk tale who is Lucky Luck himself, curly golden hair, straw hat, linen shirt with rolled sleeves, a spade, bright knowing smile, full body, front and side views, plain light background, character reference sheet",
+      "seed": 4188368815
+    }
+  ],
+  "scenes": [
+    {
+      "id": "loi-chim-tren-mai",
+      "title": "Lời chim trên mái",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có ông vua đi đánh trận xa, để hoàng tử ở nhà trông nước và dặn không được lấy vợ khi vua chưa về. Mười năm trôi qua, hoàng tử nóng lòng, lên đường tìm vợ. Vua cha nổi giận, không cho ai theo con. Chỉ một người hầu trung thành ở lại bên chàng. Ở thành Vàng, hoàng tử cưới được nàng công chúa xinh đẹp. Đêm đầu tiên trên đường về, họ trọ ở một quán. Cả nhà ngủ say, chỉ người hầu thức canh. Nửa đêm, ba con quạ đậu trên mái bàn nhau: “Mai, đúng giữa trưa, cầu sông Vàng sẽ gãy khi đôi vợ chồng ấy đi qua. Ai nghe được mà nói ra thì sẽ hóa đá tới đầu gối.”",
+      "subtitles": [
+        "Ngày xưa, có ông vua đi đánh trận xa,",
+        "để hoàng tử ở nhà trông nước và dặn không được lấy vợ khi vua chưa về.",
+        "Mười năm trôi qua, hoàng tử nóng lòng, lên đường tìm vợ.",
+        "Vua cha nổi giận, không cho ai theo con.",
+        "Chỉ một người hầu trung thành ở lại bên chàng.",
+        "Ở thành Vàng, hoàng tử cưới được nàng công chúa xinh đẹp.",
+        "Đêm đầu tiên trên đường về, họ trọ ở một quán.",
+        "Cả nhà ngủ say, chỉ người hầu thức canh.",
+        "Nửa đêm, ba con quạ đậu trên mái bàn nhau: “Mai,",
+        "đúng giữa trưa, cầu sông Vàng sẽ gãy khi đôi vợ chồng ấy đi qua.",
+        "Ai nghe được mà nói ra thì sẽ hóa đá tới đầu gối.”"
+      ],
+      "image": {
+        "prompt": "a cozy roadside inn under a starry night sky, three black crows talking on the roof, a faithful young servant sitting awake by the window listening carefully, a lantern glowing",
+        "seed": 3693410726,
+        "character": "nguoi-hau"
+      },
+      "video": {
+        "motionPrompt": "the crows tilt their heads and caw softly, the lantern flickers, the servant leans closer to the window",
+        "seed": 2813507020
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-cai-bay",
+      "title": "Ba cái bẫy",
+      "narrator": "ke-chuyen",
+      "narration": "Quạ bay đi thì ba con bồ câu tới: “Qua được cầu, nhà vua sẽ gửi tới một cỗ xe mới tinh. Ngồi vào, gió lốc sẽ cuốn xe lên mây. Ai nói ra thì hóa đá tới thắt lưng.” Rồi ba con đại bàng: “Thoát được cả hai, họ sẽ nhận hai bộ áo thêu vàng. Mặc vào là lửa bùng lên. Ai nói ra thì hóa đá từ đầu tới chân.” Sáng ra, người hầu thưa: “Con nằm mơ, nếu điện hạ để con lo liệu mọi việc thì sẽ về nhà bình an.” Hoàng tử cười, nhưng vẫn hứa. Tới cầu, người hầu xin cả nhà đi bộ qua, mình dắt ngựa lội suối. Gặp cỗ xe của vua, chàng đập vỡ tan. Gặp hai bộ áo thêu vàng, chàng cũng hủy đi. Ba cái bẫy, chàng gỡ cả ba.",
+      "subtitles": [
+        "Quạ bay đi thì ba con bồ câu tới: “Qua được cầu, nhà vua sẽ gửi tới một cỗ xe mới tinh.",
+        "Ngồi vào, gió lốc sẽ cuốn xe lên mây.",
+        "Ai nói ra thì hóa đá tới thắt lưng.”",
+        "Rồi ba con đại bàng: “Thoát được cả hai, họ sẽ nhận hai bộ áo thêu vàng.",
+        "Mặc vào là lửa bùng lên. Ai nói ra thì hóa đá từ đầu tới chân.”",
+        "Sáng ra, người hầu thưa: “Con nằm mơ,",
+        "nếu điện hạ để con lo liệu mọi việc thì sẽ về nhà bình an.”",
+        "Hoàng tử cười, nhưng vẫn hứa.",
+        "Tới cầu, người hầu xin cả nhà đi bộ qua, mình dắt ngựa lội suối.",
+        "Gặp cỗ xe của vua, chàng đập vỡ tan.",
+        "Gặp hai bộ áo thêu vàng, chàng cũng hủy đi.",
+        "Ba cái bẫy, chàng gỡ cả ba."
+      ],
+      "image": {
+        "prompt": "a prince and princess walking safely across a golden bridge over a river while a faithful servant leads the horses through the shallow water, a shiny new carriage waiting further down the road",
+        "seed": 2565116574,
+        "character": "nguoi-hau"
+      },
+      "video": {
+        "motionPrompt": "the river sparkles in the noon sun, the bridge creaks, the servant guides the horses through the water",
+        "seed": 3121780394
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-hau-hoa-da",
+      "title": "Người hầu hóa đá",
+      "narrator": "ke-chuyen",
+      "narration": "Về tới nhà, ông vua già tức tối vì mọi mưu kế đều hỏng, mà theo luật, con đã cưới vợ thì vua phải nhường ngôi. Biết người hầu đã phá cỗ xe và hai bộ áo, vua cùng hội đồng kết tội anh thật nặng, dẫn anh ra quảng trường trước cung. Trước khi chịu tội, anh xin nói đôi lời. Anh kể chuyện ba con quạ, và chân anh hóa đá tới đầu gối. Hoàng tử kêu lên: “Thôi, đừng nói nữa, ta biết anh vô tội rồi!” Nhưng anh vẫn kể tiếp chuyện bồ câu, chuyện đại bàng. Kể xong thì anh đã thành một pho tượng đá từ đầu tới chân. Hoàng tử đau lòng lắm, thề sẽ đi khắp thế gian tìm cách cứu anh.",
+      "subtitles": [
+        "Về tới nhà, ông vua già tức tối vì mọi mưu kế đều hỏng,",
+        "mà theo luật, con đã cưới vợ thì vua phải nhường ngôi.",
+        "Biết người hầu đã phá cỗ xe và hai bộ áo,",
+        "vua cùng hội đồng kết tội anh thật nặng, dẫn anh ra quảng trường trước cung.",
+        "Trước khi chịu tội, anh xin nói đôi lời.",
+        "Anh kể chuyện ba con quạ, và chân anh hóa đá tới đầu gối.",
+        "Hoàng tử kêu lên: “Thôi, đừng nói nữa, ta biết anh vô tội rồi!”",
+        "Nhưng anh vẫn kể tiếp chuyện bồ câu, chuyện đại bàng.",
+        "Kể xong thì anh đã thành một pho tượng đá từ đầu tới chân.",
+        "Hoàng tử đau lòng lắm, thề sẽ đi khắp thế gian tìm cách cứu anh."
+      ],
+      "image": {
+        "prompt": "in a palace square a faithful young servant slowly turning into a gray stone statue from his feet upward while calmly speaking, a grieving prince reaching toward him, courtiers watching in silence",
+        "seed": 3673803416,
+        "character": "nguoi-hau"
+      },
+      "video": {
+        "motionPrompt": "gray stone creeps slowly up the servant’s body, the prince stretches out his hand, a few doves fly up from the square",
+        "seed": 3256876663
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhung-cau-hoi-doc-duong",
+      "title": "Những câu hỏi dọc đường",
+      "narrator": "ke-chuyen",
+      "narration": "Bà vú già bảo hoàng tử: “Con phải tìm cho được Chàng May Mắn. Chàng ấy không giúp được thì chẳng ai giúp được.” Hoàng tử gửi vợ cho bà, rồi lên đường. Bác thợ xay bên sông nhờ: “Cối xay tốt, lúa mang tới nhiều, sao tôi vẫn nghèo rớt?” Ba cô gái ở thị trấn nhỏ nhờ: “Chúng tôi ngoài ba mươi, xinh xắn, chăm chỉ, sao chẳng ai tới hỏi?” Giữa rừng, một dòng suối đứng im rồi cất tiếng: “Rẽ ra cho ta qua, ta sẽ kể.” Suối rẽ đôi, chàng đi qua không ướt chân. Suối nhờ: “Nước ta trong vắt, sao chẳng có con cá nào?” Hoàng tử hứa sẽ hỏi giúp tất cả.",
+      "subtitles": [
+        "Bà vú già bảo hoàng tử: “Con phải tìm cho được Chàng May Mắn.",
+        "Chàng ấy không giúp được thì chẳng ai giúp được.”",
+        "Hoàng tử gửi vợ cho bà, rồi lên đường.",
+        "Bác thợ xay bên sông nhờ: “Cối xay tốt, lúa mang tới nhiều, sao tôi vẫn nghèo rớt?”",
+        "Ba cô gái ở thị trấn nhỏ nhờ: “Chúng tôi ngoài ba mươi,",
+        "xinh xắn, chăm chỉ, sao chẳng ai tới hỏi?”",
+        "Giữa rừng, một dòng suối đứng im rồi cất tiếng: “Rẽ ra cho ta qua, ta sẽ kể.”",
+        "Suối rẽ đôi, chàng đi qua không ướt chân.",
+        "Suối nhờ: “Nước ta trong vắt, sao chẳng có con cá nào?”",
+        "Hoàng tử hứa sẽ hỏi giúp tất cả."
+      ],
+      "image": {
+        "prompt": "in a deep forest a clear magical stream parting into two walls of water so a young prince can walk across the dry stones, sunbeams shining through tall trees, a water mill far behind",
+        "seed": 2210621035,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the water rises gently on both sides like glass curtains, the prince walks through, sunlight sparkles on the droplets",
+        "seed": 4181081097
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-chang-may-man",
+      "title": "Gặp Chàng May Mắn",
+      "narrator": "ke-chuyen",
+      "narration": "Ra khỏi rừng, chàng tới một ngôi nhà mái lau sạch sẽ trong thung lũng. Bà cụ hiền hậu bên bếp nói: “Ta là mẹ của Chàng May Mắn. Nó đang xới vườn nho. Con cầm cuốc ra, cứ làm cùng, đừng nói gì. Ăn trưa thì ngồi ăn cùng. Ăn xong nó sẽ hỏi.” Hoàng tử làm đúng như thế. Nghỉ trưa, Chàng May Mắn lên tiếng: “Anh là ai mà làm cả buổi chẳng nói câu nào?” “Tôi là hoàng tử khốn khổ có người hầu trung thành hóa đá.” “Anh tìm cứu anh ấy là phải. Về nhà, vợ anh vừa sinh con trai. Chích nhẹ ngón tay út của em bé, lấy ba giọt, dùng ngọn cỏ xoa lên cổ tay pho tượng, người hầu sẽ sống lại.”",
+      "subtitles": [
+        "Ra khỏi rừng, chàng tới một ngôi nhà mái lau sạch sẽ trong thung lũng.",
+        "Bà cụ hiền hậu bên bếp nói: “Ta là mẹ của Chàng May Mắn.",
+        "Nó đang xới vườn nho. Con cầm cuốc ra, cứ làm cùng, đừng nói gì.",
+        "Ăn trưa thì ngồi ăn cùng. Ăn xong nó sẽ hỏi.”",
+        "Hoàng tử làm đúng như thế.",
+        "Nghỉ trưa, Chàng May Mắn lên tiếng: “Anh là ai mà làm cả buổi chẳng nói câu nào?”",
+        "“Tôi là hoàng tử khốn khổ có người hầu trung thành hóa đá.”",
+        "“Anh tìm cứu anh ấy là phải. Về nhà, vợ anh vừa sinh con trai.",
+        "Chích nhẹ ngón tay út của em bé, lấy ba giọt,",
+        "dùng ngọn cỏ xoa lên cổ tay pho tượng, người hầu sẽ sống lại.”"
+      ],
+      "image": {
+        "prompt": "in a sunny vineyard valley a cheerful young man in a straw hat and the prince sitting together on the grass sharing bread at noon, spades leaning on the vines, a little reed thatched house below",
+        "seed": 1527516844,
+        "character": "chang-may-man"
+      },
+      "video": {
+        "motionPrompt": "vine leaves rustle in the breeze, the young man in the straw hat smiles and gestures as he speaks, a butterfly flutters past",
+        "seed": 4086532775
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-loi-giai-dap",
+      "title": "Ba lời giải đáp",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử hỏi tiếp chuyện dòng suối. Chàng May Mắn đáp: “Vì chưa từng có ai bị nó cuốn đi. Nhớ qua hẳn bờ bên kia, đứng thật cao rồi mới nói, kẻo nó cuốn luôn anh.” Hỏi chuyện ba cô gái: “Vì họ cứ hắt rác quét nhà thẳng về phía mặt trời.” Hỏi chuyện bác thợ xay: “Vì bác ấy giữ hết cho mình, chẳng chia cho ai đang cần.” Hoàng tử ghi lại hết, chào từ biệt. Tới suối, chàng qua bờ, trèo lên tảng đá cao mới hét: “Chàng May Mắn bảo: phải có người bị nước cuốn đi thì suối mới có cá!” Suối dâng ào lên ba lần, nước bắn tung tóe, nhưng chàng bám chặt. Rồi suối lại chảy hiền như cũ.",
+      "subtitles": [
+        "Hoàng tử hỏi tiếp chuyện dòng suối.",
+        "Chàng May Mắn đáp: “Vì chưa từng có ai bị nó cuốn đi.",
+        "Nhớ qua hẳn bờ bên kia, đứng thật cao rồi mới nói, kẻo nó cuốn luôn anh.”",
+        "Hỏi chuyện ba cô gái: “Vì họ cứ hắt rác quét nhà thẳng về phía mặt trời.”",
+        "Hỏi chuyện bác thợ xay: “Vì bác ấy giữ hết cho mình, chẳng chia cho ai đang cần.”",
+        "Hoàng tử ghi lại hết, chào từ biệt.",
+        "Tới suối, chàng qua bờ, trèo lên tảng đá cao mới hét:",
+        "“Chàng May Mắn bảo: phải có người bị nước cuốn đi thì suối mới có cá!”",
+        "Suối dâng ào lên ba lần, nước bắn tung tóe, nhưng chàng bám chặt.",
+        "Rồi suối lại chảy hiền như cũ."
+      ],
+      "image": {
+        "prompt": "a young prince clinging to a high rock while a magical forest stream surges up in great splashing waves below him, spray glittering in the sunlight",
+        "seed": 2915190783,
+        "character": "chang-may-man"
+      },
+      "video": {
+        "motionPrompt": "the stream swells and splashes up the rock three times, spray flies, then the water calms and flows on peacefully",
+        "seed": 3859936061
+      },
+      "voice": {}
+    },
+    {
+      "id": "moi-chuyen-doi-thay",
+      "title": "Mọi chuyện đổi thay",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử ghé cối xay báo lời giải cho bác thợ xay, ghé nhà ba cô gái dặn đừng hắt rác về phía mặt trời. Chàng vừa về tới nhà thì có toán trộm dắt con ngựa ăn cắp lội qua suối. Ra giữa dòng, nước dâng lên cuốn phăng cả bọn, không bao giờ thấy chúng quay lại. Từ đó, suối thành nơi nhiều cá nhất vùng. Bác thợ xay bắt đầu chia gạo cho người nghèo, thành người tốt bụng, và giàu tới mức không đếm xuể của cải. Ba cô gái thôi hắt rác về phía mặt trời, chưa hết một tuần, cô nào cũng có người tới hỏi cưới.",
+      "subtitles": [
+        "Hoàng tử ghé cối xay báo lời giải cho bác thợ xay,",
+        "ghé nhà ba cô gái dặn đừng hắt rác về phía mặt trời.",
+        "Chàng vừa về tới nhà thì có toán trộm dắt con ngựa ăn cắp lội qua suối.",
+        "Ra giữa dòng, nước dâng lên cuốn phăng cả bọn, không bao giờ thấy chúng quay lại.",
+        "Từ đó, suối thành nơi nhiều cá nhất vùng.",
+        "Bác thợ xay bắt đầu chia gạo cho người nghèo,",
+        "thành người tốt bụng, và giàu tới mức không đếm xuể của cải.",
+        "Ba cô gái thôi hắt rác về phía mặt trời,",
+        "chưa hết một tuần, cô nào cũng có người tới hỏi cưới."
+      ],
+      "image": {
+        "prompt": "a cheerful miller handing sacks of flour to poor villagers in front of his water mill, a clear stream full of jumping fish, three smiling sisters greeting young suitors at a cottage gate",
+        "seed": 1431532739,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "fish leap and splash in the stream, the mill wheel turns, the sisters wave and laugh with the suitors",
+        "seed": 1291420321
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-hau-tro-ve",
+      "title": "Người hầu trở về",
+      "narrator": "ke-chuyen",
+      "narration": "Về tới cung, hoàng tử thấy vợ vừa sinh một bé trai kháu khỉnh. Chàng chích nhẹ ngón tay út của con, lấy ba giọt, dùng ngọn cỏ xoa lên cổ tay pho tượng. Pho tượng rùng mình, nứt làm bảy mảnh kêu răng rắc, và người hầu trung thành bước ra, khỏe mạnh như xưa. Ông vua già thấy thế giận quá, mặt mũi tím tái, ngã vật xuống đất, rồi không bao giờ dậy nữa. Người hầu ở lại hầu hạ chủ mình trung thành suốt đời. Và nếu cả hai vẫn còn, thì chắc giờ này anh vẫn đang hầu bên chàng.",
+      "subtitles": [
+        "Về tới cung, hoàng tử thấy vợ vừa sinh một bé trai kháu khỉnh.",
+        "Chàng chích nhẹ ngón tay út của con, lấy ba giọt, dùng ngọn cỏ xoa lên cổ tay pho tượng.",
+        "Pho tượng rùng mình, nứt làm bảy mảnh kêu răng rắc,",
+        "và người hầu trung thành bước ra, khỏe mạnh như xưa.",
+        "Ông vua già thấy thế giận quá, mặt mũi tím tái,",
+        "ngã vật xuống đất, rồi không bao giờ dậy nữa.",
+        "Người hầu ở lại hầu hạ chủ mình trung thành suốt đời.",
+        "Và nếu cả hai vẫn còn, thì chắc giờ này anh vẫn đang hầu bên chàng."
+      ],
+      "image": {
+        "prompt": "in a sunny palace hall a gray stone statue cracking open with light as a faithful young servant steps out smiling, the prince joyfully embracing him, the princess holding a newborn baby nearby",
+        "seed": 569425424,
+        "character": "nguoi-hau"
+      },
+      "video": {
+        "motionPrompt": "cracks of golden light spread over the statue, stone pieces fall away gently, the prince and servant embrace",
+        "seed": 40210316
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Hungarian folk music, cimbalom, violin and tárogató, a mysterious night theme, a long wandering journey melody, a bright joyful homecoming ending, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 2870110713
+  }
+}

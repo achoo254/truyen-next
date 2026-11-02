@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "slug": "nang-ilonka-xinh-dep",
+  "shelf": "world",
+  "title": "Nàng Ilonka xinh đẹp",
+  "summary": "Chàng hoàng tử đi tìm ba cây cỏ lác thần, từ cây thứ ba bước ra nàng Ilonka xinh đẹp. Nhưng trong lúc chàng vắng mặt, con gái lão chăn lợn đẩy nàng xuống giếng rồi giả làm cô dâu, và Ilonka phải hóa vịt, hóa cô hầu mới tìm lại được người mình thương. Truyện dân gian Hungary trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Lovely Ilonka» trong The Crimson Fairy Book do Andrew Lang biên tập (1903), truyện dân gian Hungary, Project Gutenberg #2435, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính, kể nhẹ hình phạt cuối truyện (kẻ gian bị đuổi khỏi vương quốc), không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Hungary, Andrew Lang chép (1903)",
+  "style": "classic Hungarian folk fairy tale picture book illustration, wide puszta plains with a wooden well sweep, reed marshes, a whitewashed royal palace, Hungarian folk embroidery motifs of red tulips and roses in the borders, soft gouache, colors of poppy red, meadow green, cream and sky blue, romantic gentle mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "sheetPrompt": "a brave earnest young Hungarian prince from a folk tale, dark hair, small moustache, embroidered dolman jacket with gold braid, tall boots, kind determined eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2892847222
+    },
+    {
+      "id": "ilonka",
+      "name": "Ilonka",
+      "sheetPrompt": "a lovely gentle maiden from a Hungarian folk tale who sprang from a bulrush, long golden hair with a wreath of meadow flowers, white blouse with red tulip embroidery and a full skirt, sweet hopeful face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 467024698
+    },
+    {
+      "id": "con-gai-lao-chan-lon",
+      "name": "Con gái lão chăn lợn",
+      "sheetPrompt": "a sly sulky young woman from a Hungarian folk tale, dressed in borrowed fine clothes too big for her, crooked crown, scheming narrow eyes, comical rather than frightening, full body, front and side views, plain light background, character reference sheet",
+      "seed": 480189757
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-cay-co-lac",
+      "title": "Ba cây cỏ lác",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có chàng hoàng tử thưa với vua cha rằng mình muốn lấy vợ. Nhà vua bảo: “Đừng vội. Phải làm được việc gì lớn đã. Ngày trước cha ta cũng bắt ta đi giành thanh gươm vàng rồi mới cho cưới.” Hoàng tử vâng lời, lên đường đi tìm ba cây cỏ lác thần. Chàng gặp một bà lão, bà thổi sáo gọi hết quạ trên đời về hỏi, chẳng con nào biết. Chàng gặp một ông lão, ông gọi hết chim ác là đen, cũng không. Chàng đi qua bảy vương quốc, gặp một bà lão nữa. Bà thổi sáo, chim ác là khắp nơi bay về, chỉ thiếu một con bị gãy chân gãy cánh. Bà cho đi gọi nó, và chỉ con chim què ấy biết ba cây cỏ lác ở đâu.",
+      "subtitles": [
+        "Ngày xưa, có chàng hoàng tử thưa với vua cha rằng mình muốn lấy vợ.",
+        "Nhà vua bảo: “Đừng vội. Phải làm được việc gì lớn đã.",
+        "Ngày trước cha ta cũng bắt ta đi giành thanh gươm vàng rồi mới cho cưới.”",
+        "Hoàng tử vâng lời, lên đường đi tìm ba cây cỏ lác thần.",
+        "Chàng gặp một bà lão, bà thổi sáo gọi hết quạ trên đời về hỏi, chẳng con nào biết.",
+        "Chàng gặp một ông lão, ông gọi hết chim ác là đen, cũng không.",
+        "Chàng đi qua bảy vương quốc, gặp một bà lão nữa.",
+        "Bà thổi sáo, chim ác là khắp nơi bay về, chỉ thiếu một con bị gãy chân gãy cánh.",
+        "Bà cho đi gọi nó, và chỉ con chim què ấy biết ba cây cỏ lác ở đâu."
+      ],
+      "image": {
+        "prompt": "a young Hungarian prince on horseback beside a little thatched hut on the plain, a kind old woman playing a small pipe while a great flock of magpies swirls around her, one lame magpie hopping forward",
+        "seed": 4141228626,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "hundreds of magpies circle and land around the old woman, the little lame magpie hops toward the prince",
+        "seed": 1178870785
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-gai-tu-cay-co-lac",
+      "title": "Cô gái từ cây cỏ lác",
+      "narrator": "ke-chuyen",
+      "narration": "Con ác là què dẫn chàng tới một bức tường đá cao vút. “Ba cây cỏ lác ở sau tường đấy.” Hoàng tử thúc ngựa nhảy qua, nhổ ba cây cỏ lác rồi quay về. Dọc đường, một cây va vào vật gì đó, tách đôi, và một cô gái xinh đẹp bước ra: “Người thương ơi, em là của anh, anh là của em. Cho em xin cốc nước.” Nhưng quanh đó chẳng có nước, cô gái bay đi mất. Cây thứ hai cũng vậy. Chàng giữ cây thứ ba thật cẩn thận, đợi tới bên một cái giếng mới tách ra. Một cô gái đẹp gấp bảy lần bước ra, xin nước. Lần này nước có sẵn. Cô gái ở lại, tên là Ilonka, và hai người hứa sẽ thương nhau trọn đời.",
+      "subtitles": [
+        "Con ác là què dẫn chàng tới một bức tường đá cao vút.",
+        "“Ba cây cỏ lác ở sau tường đấy.”",
+        "Hoàng tử thúc ngựa nhảy qua, nhổ ba cây cỏ lác rồi quay về.",
+        "Dọc đường, một cây va vào vật gì đó, tách đôi, và một cô gái xinh đẹp bước ra:",
+        "“Người thương ơi, em là của anh, anh là của em. Cho em xin cốc nước.”",
+        "Nhưng quanh đó chẳng có nước, cô gái bay đi mất. Cây thứ hai cũng vậy.",
+        "Chàng giữ cây thứ ba thật cẩn thận, đợi tới bên một cái giếng mới tách ra.",
+        "Một cô gái đẹp gấp bảy lần bước ra, xin nước. Lần này nước có sẵn.",
+        "Cô gái ở lại, tên là Ilonka, và hai người hứa sẽ thương nhau trọn đời."
+      ],
+      "image": {
+        "prompt": "beside an old wooden well sweep on a flowering plain a lovely golden haired maiden stepping out of a split bulrush in a soft glow, a young prince offering her a cup of water",
+        "seed": 1851691365,
+        "character": "ilonka"
+      },
+      "video": {
+        "motionPrompt": "the bulrush opens with a gentle shimmer of light, the maiden steps out and smiles, wildflowers sway in the wind",
+        "seed": 2868257594
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-dau-gia",
+      "title": "Cô dâu giả",
+      "narrator": "ke-chuyen",
+      "narration": "Về tới gần kinh thành, hoàng tử muốn đón cô dâu bằng cỗ xe thật đẹp, nên để Ilonka ở lại bên giếng, nhờ những người chăn lợn, chăn bò của vua trông giúp. Lão chăn lợn có cô con gái chẳng xinh mà lại lắm mưu. Chàng vừa đi khỏi, lão liền mặc quần áo đẹp cho con gái, rồi đẩy Ilonka xuống giếng. Hoàng tử quay lại cùng vua, hoàng hậu và cả đoàn quan quân. Ai nấy sững sờ khi thấy cô dâu là con gái lão chăn lợn. Nhưng đã hứa thì phải giữ lời. Hai hôm sau, hoàng tử cưới nàng ta, nhà vua cũng nhường ngôi cho chàng. Vậy mà lòng chàng chẳng yên, chàng biết mình bị lừa, chỉ không hiểu lừa thế nào.",
+      "subtitles": [
+        "Về tới gần kinh thành, hoàng tử muốn đón cô dâu bằng cỗ xe thật đẹp,",
+        "nên để Ilonka ở lại bên giếng, nhờ những người chăn lợn, chăn bò của vua trông giúp.",
+        "Lão chăn lợn có cô con gái chẳng xinh mà lại lắm mưu.",
+        "Chàng vừa đi khỏi, lão liền mặc quần áo đẹp cho con gái, rồi đẩy Ilonka xuống giếng.",
+        "Hoàng tử quay lại cùng vua, hoàng hậu và cả đoàn quan quân.",
+        "Ai nấy sững sờ khi thấy cô dâu là con gái lão chăn lợn.",
+        "Nhưng đã hứa thì phải giữ lời.",
+        "Hai hôm sau, hoàng tử cưới nàng ta, nhà vua cũng nhường ngôi cho chàng.",
+        "Vậy mà lòng chàng chẳng yên, chàng biết mình bị lừa, chỉ không hiểu lừa thế nào."
+      ],
+      "image": {
+        "prompt": "a royal procession with a golden carriage arriving at a well on the plain, the shocked prince and his parents staring at a sly young woman in borrowed fine clothes and a crooked crown, her scheming father bowing",
+        "seed": 2089405195,
+        "character": "con-gai-lao-chan-lon"
+      },
+      "video": {
+        "motionPrompt": "the carriage halts, the courtiers lean forward in surprise, the prince’s smile slowly fades",
+        "seed": 3873311756
+      },
+      "voice": {}
+    },
+    {
+      "id": "chu-vit-trong-gau",
+      "title": "Chú vịt trong gàu",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, vua trẻ muốn uống nước lấy từ cái giếng ấy. Người đánh xe ra múc, trong gàu có một chú vịt nhỏ xinh đang bơi. Bác còn đang ngẩn ra thì chú vịt biến mất, trước mặt là một cô gái lem luốc. Cô theo bác về cung, xin được làm cô hầu. Việc nhiều suốt ngày, nhưng hễ rảnh là cô ngồi kéo sợi. Lạ thay, guồng sợi tự quay, con suốt tự xe, bó lanh tự tháo, dùng bao nhiêu cũng không vơi. Hoàng hậu giả nghe chuyện, thèm cái guồng sợi lắm, nhưng cô hầu không chịu bán.",
+      "subtitles": [
+        "Một hôm, vua trẻ muốn uống nước lấy từ cái giếng ấy.",
+        "Người đánh xe ra múc, trong gàu có một chú vịt nhỏ xinh đang bơi.",
+        "Bác còn đang ngẩn ra thì chú vịt biến mất, trước mặt là một cô gái lem luốc.",
+        "Cô theo bác về cung, xin được làm cô hầu.",
+        "Việc nhiều suốt ngày, nhưng hễ rảnh là cô ngồi kéo sợi.",
+        "Lạ thay, guồng sợi tự quay, con suốt tự xe,",
+        "bó lanh tự tháo, dùng bao nhiêu cũng không vơi.",
+        "Hoàng hậu giả nghe chuyện, thèm cái guồng sợi lắm, nhưng cô hầu không chịu bán."
+      ],
+      "image": {
+        "prompt": "a coachman pulling up a wooden bucket from a well, a pretty little white duck swimming in the water inside the bucket, then a humble girl spinning flax by a palace window as the distaff turns by itself",
+        "seed": 565184724,
+        "character": "ilonka"
+      },
+      "video": {
+        "motionPrompt": "the little duck paddles in circles and fades into soft light, the spindle spins all by itself with glowing thread",
+        "seed": 1506994149
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-dem-thi-tham",
+      "title": "Ba đêm thì thầm",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng, cô hầu bằng lòng đổi guồng sợi, chỉ xin được ngủ một đêm trong phòng nhà vua. Hoàng hậu giả tức lắm, mắng cô một trận, nhưng vì thèm guồng sợi nên vẫn đồng ý, rồi lén bỏ thuốc ngủ vào bữa tối của vua. Đêm ấy, cô hầu vào phòng, đẹp hơn bảy lần, cúi xuống thì thầm: “Người thương ơi, em là của anh, anh là của em. Nói với em một lời thôi, em là Ilonka đây.” Nhưng vua ngủ say, chẳng nghe thấy gì. Ilonka buồn bã ra về, ngỡ chàng xấu hổ không muốn nhận mình. Lần thứ hai đổi lấy con suốt, mọi chuyện lại y như thế.",
+      "subtitles": [
+        "Cuối cùng, cô hầu bằng lòng đổi guồng sợi, chỉ xin được ngủ một đêm trong phòng nhà vua.",
+        "Hoàng hậu giả tức lắm, mắng cô một trận, nhưng vì thèm guồng sợi nên vẫn đồng ý,",
+        "rồi lén bỏ thuốc ngủ vào bữa tối của vua.",
+        "Đêm ấy, cô hầu vào phòng, đẹp hơn bảy lần, cúi xuống thì thầm:",
+        "“Người thương ơi, em là của anh, anh là của em.",
+        "Nói với em một lời thôi, em là Ilonka đây.”",
+        "Nhưng vua ngủ say, chẳng nghe thấy gì.",
+        "Ilonka buồn bã ra về, ngỡ chàng xấu hổ không muốn nhận mình.",
+        "Lần thứ hai đổi lấy con suốt, mọi chuyện lại y như thế."
+      ],
+      "image": {
+        "prompt": "a moonlit royal bedroom, a young king fast asleep, a lovely golden haired maiden bending over him and whispering softly, a sleeping cup on the table, moonbeams through the window",
+        "seed": 807956215,
+        "character": "ilonka"
+      },
+      "video": {
+        "motionPrompt": "moonlight glows softly, the maiden whispers and waits, then turns away sadly and the curtain sways",
+        "seed": 3023245603
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-vua-thuc-giac",
+      "title": "Nhà vua thức giấc",
+      "narrator": "ke-chuyen",
+      "narration": "Mấy người hầu trong cung để ý, liền báo nhỏ với vua: “Bệ hạ đừng ăn uống gì hoàng hậu mời. Hai đêm rồi bà ấy bỏ thuốc ngủ cho bệ hạ đấy.” Hoàng hậu giả không hay biết. Lần thứ ba, khi muốn có bó lanh, bà ta lại đồng ý trả cái giá cũ. Bữa tối, bà mời đủ món ngon, nhưng vua bảo không đói, đi ngủ sớm, nằm thao thức chờ. Bỗng chàng thấy một cô gái xinh đẹp cúi xuống: “Người thương ơi, em là của anh, anh là của em. Hãy nói với em, em là Ilonka đây.” Tim nhà vua đập rộn ràng. Chàng bật dậy ôm lấy nàng, và Ilonka kể hết những gì mình đã trải qua.",
+      "subtitles": [
+        "Mấy người hầu trong cung để ý, liền báo nhỏ với vua: “Bệ hạ đừng ăn uống gì hoàng hậu mời.",
+        "Hai đêm rồi bà ấy bỏ thuốc ngủ cho bệ hạ đấy.”",
+        "Hoàng hậu giả không hay biết.",
+        "Lần thứ ba, khi muốn có bó lanh, bà ta lại đồng ý trả cái giá cũ.",
+        "Bữa tối, bà mời đủ món ngon, nhưng vua bảo không đói, đi ngủ sớm, nằm thao thức chờ.",
+        "Bỗng chàng thấy một cô gái xinh đẹp cúi xuống:",
+        "“Người thương ơi, em là của anh, anh là của em.",
+        "Hãy nói với em, em là Ilonka đây.” Tim nhà vua đập rộn ràng.",
+        "Chàng bật dậy ôm lấy nàng, và Ilonka kể hết những gì mình đã trải qua."
+      ],
+      "image": {
+        "prompt": "in a candlelit royal bedroom a young king sitting up joyfully and embracing a lovely golden haired maiden, a heap of flax and a spindle on a chair, warm candlelight",
+        "seed": 429840126,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the king leaps up and opens his arms, candle flames dance, the maiden laughs with tears of joy",
+        "seed": 1224677439
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi-that",
+      "title": "Đám cưới thật",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe xong, nhà vua giận lắm vì mình bị lừa, còn Ilonka thì chịu bao khổ sở. Chàng ra lệnh đuổi lão chăn lợn, vợ lão và cô con gái ra khỏi vương quốc, không bao giờ được quay về. Ngay hôm sau, nhà vua cưới nàng Ilonka xinh đẹp. Tiệc cưới linh đình, tiếng vĩ cầm, tiếng đàn tam thập lục vang khắp cung. Con chim ác là què cũng được mời tới, đậu trên vai cô dâu. Và nếu họ chưa già đi mất thì chắc giờ này hai người vẫn đang sống hạnh phúc bên nhau.",
+      "subtitles": [
+        "Nghe xong, nhà vua giận lắm vì mình bị lừa, còn Ilonka thì chịu bao khổ sở.",
+        "Chàng ra lệnh đuổi lão chăn lợn,",
+        "vợ lão và cô con gái ra khỏi vương quốc, không bao giờ được quay về.",
+        "Ngay hôm sau, nhà vua cưới nàng Ilonka xinh đẹp.",
+        "Tiệc cưới linh đình, tiếng vĩ cầm, tiếng đàn tam thập lục vang khắp cung.",
+        "Con chim ác là què cũng được mời tới, đậu trên vai cô dâu.",
+        "Và nếu họ chưa già đi mất thì chắc giờ này hai người vẫn đang sống hạnh phúc bên nhau."
+      ],
+      "image": {
+        "prompt": "a joyful Hungarian royal wedding in a palace hall decorated with red tulip garlands, a young king and the golden haired bride dancing, a little lame magpie perched on her shoulder, musicians with cimbalom and violins",
+        "seed": 3253432795,
+        "character": "ilonka"
+      },
+      "video": {
+        "motionPrompt": "the couple twirls in a lively dance, ribbons and petals fly, the magpie flaps its wings happily",
+        "seed": 974056976
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "romantic Hungarian folk music, cimbalom, violin and shepherd flute, a slow yearning opening, a playful czardas in the middle, a tender joyful wedding ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3662047539
+  }
+}

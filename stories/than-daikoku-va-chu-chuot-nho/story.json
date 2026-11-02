@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "slug": "than-daikoku-va-chu-chuot-nho",
+  "shelf": "kids",
+  "title": "Thần Daikoku và chú chuột nhỏ",
+  "summary": "Một con quỷ oni to lớn được sai đi đuổi thần may mắn Daikoku thật xa. Nhưng nó không ngờ bên cạnh thần lại có một chú chuột nhỏ dũng cảm với cành ô rô đầy gai. Truyện dân gian Nhật Bản kể nhẹ cho bé, giải thích tục cài cành ô rô trước cửa đêm giao thừa.",
+  "themes": [
+    "than-thoai",
+    "su-tich"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Nhật Bản «Daikoku and the Oni», theo bản kể tiếng Anh của William Elliot Griffis trong Japanese Fairy World (1880; tác giả mất 1928), Project Gutenberg #29337, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản nào; việc con quỷ được sai đi hại thần kể nhẹ thành đuổi thần đi, Mèo Miu dẫn chuyện mở đầu và kết thúc.",
+  "basedOn": "Truyện dân gian Nhật Bản (Griffis, 1880)",
+  "style": "Japanese folk-tale picture-book illustration inspired by soft ukiyo-e woodblock prints, gentle watercolor colors, a cosy treasure storehouse shaped like a giant wooden rice measure, straw rice bales and lucky money bags, a Japanese garden with holly bushes, playful comic mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 4214039193,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "daikoku",
+      "name": "Thần Daikoku",
+      "seed": 2127257935,
+      "sheetPrompt": "Daikoku, the chubby jolly Japanese god of good fortune with big earlobes, a round smiling face, a soft black cap, a hunting-style robe, sitting on rice bales with a small wooden lucky mallet, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chuot",
+      "name": "Chú chuột nhỏ",
+      "seed": 486417842,
+      "sheetPrompt": "a brave little grey Japanese mouse with big round ears, bright eyes and a tiny red scarf, standing upright holding a sprig of spiky green holly leaves, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "oni-shino",
+      "name": "Quỷ Shino",
+      "seed": 388678289,
+      "sheetPrompt": "Shino, a big clumsy comical Japanese oni with blue skin, two small horns, a wide goofy grin, bushy eyebrows and a striped tiger-pattern belt, silly not scary, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có biết, bên Nhật Bản, đêm giao thừa, người ta hay cài một cành lá ô rô đầy gai trước cửa nhà không? Cành lá nhỏ thế thôi mà xua được cả quỷ đấy! Vì sao vậy nhỉ? Hôm nay Miu kể chuyện thần may mắn Daikoku và chú chuột nhỏ. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có biết, bên Nhật Bản, đêm giao thừa,",
+        "người ta hay cài một cành lá ô rô đầy gai trước cửa nhà không?",
+        "Cành lá nhỏ thế thôi mà xua được cả quỷ đấy! Vì sao vậy nhỉ?",
+        "Hôm nay Miu kể chuyện thần may mắn Daikoku và chú chuột nhỏ. Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat holds a sprig of spiky green holly leaves in front of a Japanese wooden house door decorated for New Year, an open picture book beside her",
+        "seed": 936734236
+      },
+      "video": {
+        "motionPrompt": "the cat waves the holly sprig proudly, a paper decoration on the door flutters, gentle camera push-in",
+        "seed": 766746862
+      },
+      "voice": {}
+    },
+    {
+      "id": "than-daikoku",
+      "title": "Vị thần may mắn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở Nhật Bản có thần Daikoku, béo tròn, tai to, lúc nào cũng tươi cười. Thần là vị thần của may mắn và giàu có, nên ai cũng quý thần, thắp hương cho thần. Có những tượng thần từ phương xa theo đường Ấn Độ, Trung Hoa sang Nhật, thấy mọi người vẫn mến Daikoku thì không vui. Họ nhờ Diêm Vương Yemma đuổi thần Daikoku đi thật xa.",
+      "subtitles": [
+        "Ngày xưa, ở Nhật Bản có thần Daikoku, béo tròn, tai to, lúc nào cũng tươi cười.",
+        "Thần là vị thần của may mắn và giàu có, nên ai cũng quý thần, thắp hương cho thần.",
+        "Có những tượng thần từ phương xa theo đường Ấn Độ, Trung Hoa sang Nhật,",
+        "thấy mọi người vẫn mến Daikoku thì không vui.",
+        "Họ nhờ Diêm Vương Yemma đuổi thần Daikoku đi thật xa."
+      ],
+      "image": {
+        "character": "daikoku",
+        "prompt": "the chubby smiling god Daikoku sits happily on straw rice bales eating a big white daikon radish, surrounded by money bags and playful mice, villagers bowing with incense outside",
+        "seed": 3266778124
+      },
+      "video": {
+        "motionPrompt": "Daikoku munches the radish and chuckles, mice scamper around the rice bales, incense smoke curls up gently",
+        "seed": 3469515679
+      },
+      "voice": {}
+    },
+    {
+      "id": "quy-shino",
+      "title": "Quỷ Shino lên đường",
+      "narrator": "ke-chuyen",
+      "narration": "Diêm Vương có cả một đạo quân quỷ oni, con xanh, con đen, con xanh chàm, con đỏ son. Việc này quan trọng, nên Diêm Vương gọi lão Shino, con quỷ ranh mãnh nhất. Shino cúi chào, thắt chặt chiếc đai da hổ, rồi lên đường. Tìm thần Daikoku khó lắm. Shino đi mãi, hỏi mãi, lạc đường bao nhiêu lần. Cuối cùng, một chú chim sẻ chỉ cho nó đường đến lâu đài của thần.",
+      "subtitles": [
+        "Diêm Vương có cả một đạo quân quỷ oni, con xanh, con đen, con xanh chàm, con đỏ son.",
+        "Việc này quan trọng, nên Diêm Vương gọi lão Shino, con quỷ ranh mãnh nhất.",
+        "Shino cúi chào, thắt chặt chiếc đai da hổ, rồi lên đường.",
+        "Tìm thần Daikoku khó lắm. Shino đi mãi, hỏi mãi, lạc đường bao nhiêu lần.",
+        "Cuối cùng, một chú chim sẻ chỉ cho nó đường đến lâu đài của thần."
+      ],
+      "image": {
+        "character": "oni-shino",
+        "prompt": "a big clumsy blue oni with small horns and a tiger-striped belt scratches his head at a crossroads, a tiny sparrow on a signpost pointing the way with its wing, colorful oni friends waving goodbye far behind",
+        "seed": 2641590127
+      },
+      "video": {
+        "motionPrompt": "the oni looks left and right in confusion, the sparrow flutters and points, the oni grins and stomps off down the road",
+        "seed": 2455394170
+      },
+      "voice": {}
+    },
+    {
+      "id": "kho-thoc",
+      "title": "Kho thóc hình cái đấu",
+      "narrator": "ke-chuyen",
+      "narration": "Shino rón rén vào cổng, nhìn quanh chẳng thấy ai. Nó đi tiếp, thấy một cái kho đứng riêng, xây giống hệt một cái đấu đong gạo khổng lồ, chẳng có cửa ra vào, cũng chẳng có cửa sổ. Shino leo lên một tấm ván dựng sát mép, ngó vào: thần Daikoku đang ngồi giữa những bao tiền, những bao gạo chất cao tận nóc, vừa nhai củ cải vừa chơi với lũ chuột cưng.",
+      "subtitles": [
+        "Shino rón rén vào cổng, nhìn quanh chẳng thấy ai.",
+        "Nó đi tiếp, thấy một cái kho đứng riêng, xây giống hệt một cái đấu đong gạo khổng lồ,",
+        "chẳng có cửa ra vào, cũng chẳng có cửa sổ.",
+        "Shino leo lên một tấm ván dựng sát mép, ngó vào:",
+        "thần Daikoku đang ngồi giữa những bao tiền,",
+        "những bao gạo chất cao tận nóc, vừa nhai củ cải vừa chơi với lũ chuột cưng."
+      ],
+      "image": {
+        "character": "oni-shino",
+        "prompt": "the clumsy blue oni tiptoes up a narrow plank leaning against a big wooden storehouse shaped like a giant square rice measure and peeks over the top edge, a garden with holly bushes below",
+        "seed": 1603644556
+      },
+      "video": {
+        "motionPrompt": "the oni climbs the wobbly plank on tiptoe and peeks over the rim with wide eyes, the plank wobbles, leaves rustle",
+        "seed": 1728088593
+      },
+      "voice": {}
+    },
+    {
+      "id": "chuot-dung-cam",
+      "title": "Chú chuột dũng cảm",
+      "narrator": "ke-chuyen",
+      "narration": "Shino tụt xuống bên trong, cười khoái chí, định chộp lấy thần Daikoku. Nhưng thần Daikoku đã kêu lên: Chú chuột ơi, ta thấy hình như có con gì lạ ở gần đây. Đuổi nó đi nhé! Chú chuột chạy vụt ra vườn, bẻ một cành ô rô, lá đầy gai nhọn như kim. Chú cầm cành ô rô xông vào, quất tới tấp, gai châm khắp người con quỷ. Shino kêu oai oái, ôm đầu chạy một mạch, không dám ngoái lại.",
+      "subtitles": [
+        "Shino tụt xuống bên trong, cười khoái chí, định chộp lấy thần Daikoku.",
+        "Nhưng thần Daikoku đã kêu lên: Chú chuột ơi, ta thấy hình như có con gì lạ ở gần đây.",
+        "Đuổi nó đi nhé!",
+        "Chú chuột chạy vụt ra vườn, bẻ một cành ô rô, lá đầy gai nhọn như kim.",
+        "Chú cầm cành ô rô xông vào, quất tới tấp, gai châm khắp người con quỷ.",
+        "Shino kêu oai oái, ôm đầu chạy một mạch, không dám ngoái lại."
+      ],
+      "image": {
+        "character": "chuot",
+        "prompt": "inside the storehouse a tiny brave grey mouse waves a spiky holly sprig at the big clumsy blue oni, who hops away comically yelping, the jolly god Daikoku laughing on his rice bales",
+        "seed": 2559315258
+      },
+      "video": {
+        "motionPrompt": "the little mouse dashes forward swishing the holly, the oni jumps and hops away holding his bottom, Daikoku claps and laughs, rice grains bounce",
+        "seed": 1100954074
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-binh",
+      "title": "Làm lành với thần Daikoku",
+      "narrator": "ke-chuyen",
+      "narration": "Chạy về đến cung Diêm Vương, Shino ngã lăn ra thở hổn hển. Nó kể lại mọi chuyện, rồi van xin: Xin đừng bao giờ sai con đi gặp thần Daikoku nữa! Các tượng thần thấy không đuổi được Daikoku, bèn làm lành với thần. Từ đó, ai ai cũng thờ vị thần béo tròn của may mắn.",
+      "subtitles": [
+        "Chạy về đến cung Diêm Vương, Shino ngã lăn ra thở hổn hển.",
+        "Nó kể lại mọi chuyện, rồi van xin: Xin đừng bao giờ sai con đi gặp thần Daikoku nữa!",
+        "Các tượng thần thấy không đuổi được Daikoku, bèn làm lành với thần.",
+        "Từ đó, ai ai cũng thờ vị thần béo tròn của may mắn."
+      ],
+      "image": {
+        "character": "oni-shino",
+        "prompt": "the tired blue oni flops on the floor of a grand red palace panting, a big stern but comical king Yemma with a tall black hat listening, a few holly prickles still stuck on the oni",
+        "seed": 2442293603
+      },
+      "video": {
+        "motionPrompt": "the oni lies flat and puffs, Yemma raises his eyebrows, then sighs and shakes his head, the oni waves his hands pleading",
+        "seed": 1154045205
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Nghe chuyện một chú chuột nhỏ cầm cành ô rô mà đuổi được cả quỷ, người Nhật bắt chước làm theo. Đêm giao thừa, sau khi rải đậu rang đuổi điều xấu, họ cài cành ô rô lên cột cửa. Các bạn thấy không, nhỏ bé mà dũng cảm thì cũng làm được việc lớn! Miu cũng sẽ cài một cành ô rô trước cửa nhà mình. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Nghe chuyện một chú chuột nhỏ cầm cành ô rô mà đuổi được cả quỷ,",
+        "người Nhật bắt chước làm theo.",
+        "Đêm giao thừa, sau khi rải đậu rang đuổi điều xấu, họ cài cành ô rô lên cột cửa.",
+        "Các bạn thấy không, nhỏ bé mà dũng cảm thì cũng làm được việc lớn!",
+        "Miu cũng sẽ cài một cành ô rô trước cửa nhà mình. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat ties a holly sprig to a wooden doorpost at New Year, the little grey mouse with a red scarf sitting on her shoulder, both waving goodbye, roasted beans scattered on the step",
+        "seed": 3992701457
+      },
+      "video": {
+        "motionPrompt": "the cat fastens the holly and waves, the mouse waves too, a gentle snowfall begins, slow camera pull back",
+        "seed": 28896640
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful Japanese folk tune, shamisen and bamboo flute with small taiko taps, comic sneaky steps turning into a happy festive New Year melody, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3531202954
+  }
+}

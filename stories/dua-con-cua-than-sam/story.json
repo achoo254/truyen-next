@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "slug": "dua-con-cua-than-sam",
+  "shelf": "kids",
+  "title": "Đứa con của thần Sấm",
+  "summary": "Giữa cơn giông, một tia chớp lóe lên và trước mặt bác nông dân nghèo hiện ra một em bé hồng hào đang cười. Hai vợ chồng nhận em làm con, và từ đó mưa lành luôn tưới mát ruộng nhà. Truyện dân gian Nhật Bản kể nhẹ cho bé về tình thương và lòng biết ơn.",
+  "themes": [
+    "gia-dinh",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Nhật Bản «The Child of the Thunder», theo bản kể tiếng Anh của William Elliot Griffis trong Japanese Fairy World (1880; tác giả mất 1928), Project Gutenberg #29337, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản nào; bỏ các đoạn nói về sấm sét làm hại người, Mèo Miu dẫn chuyện mở đầu và kết thúc.",
+  "basedOn": "Truyện dân gian Nhật Bản (Griffis, 1880)",
+  "style": "Japanese folk-tale picture-book illustration inspired by soft ukiyo-e woodblock prints, gentle watercolor colors, terraced rice fields in a mountain gully below snowy Mount Hakusan, thatched farmhouse, summer clouds like silver castles, warm calm mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 112539473,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bimbo",
+      "name": "Bác Bimbo",
+      "seed": 2375755325,
+      "sheetPrompt": "Bimbo, a poor but hardworking old Japanese farmer with a kind wrinkled face, a headband, a patched indigo work kimono rolled at the sleeves and a hoe over his shoulder, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "raitaro",
+      "name": "Raitaro",
+      "seed": 2710829827,
+      "sheetPrompt": "Raitaro, a gentle handsome Japanese farm boy of about eighteen with tidy black hair, calm dreamy eyes and a light sky-blue kimono with a cloud pattern, a soft hint of a white glow around him, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "rong-trang",
+      "name": "Rồng trắng nhỏ",
+      "seed": 105090747,
+      "sheetPrompt": "a small friendly white Japanese dragon with a long slender body, tiny soft whiskers, round kind eyes and pearly scales shimmering with pale blue, floating gracefully, cute storybook style, full body, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Ùng oàng, ùng oàng! Các bạn có nghe tiếng sấm ngoài kia không? Miu hơi sợ một chút, nên Miu ôm gối thật chặt đây. Nhưng hôm nay Miu kể một câu chuyện Nhật Bản, trong đó tiếng sấm lại mang đến một món quà tuyệt vời. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Ùng oàng, ùng oàng! Các bạn có nghe tiếng sấm ngoài kia không?",
+        "Miu hơi sợ một chút, nên Miu ôm gối thật chặt đây.",
+        "Nhưng hôm nay Miu kể một câu chuyện Nhật Bản,",
+        "trong đó tiếng sấm lại mang đến một món quà tuyệt vời.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits by a rainy window hugging a soft pillow, an open picture book on her lap, a gentle summer rain falling outside over green hills",
+        "seed": 1526108746
+      },
+      "video": {
+        "motionPrompt": "raindrops slide down the window, a faraway flash lights the clouds softly, the cat hugs her pillow and then smiles, gentle camera push-in",
+        "seed": 2083742781
+      },
+      "voice": {}
+    },
+    {
+      "id": "ruong-bac-thang",
+      "title": "Mảnh ruộng bậc thang",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, giữa vùng đồi núi Echizen, có bác nông dân tên Bimbo sống cùng bác gái. Hai bác nghèo lắm, nhưng chăm chỉ và tằn tiện. Bác rất yêu trẻ con, mà mãi chẳng có đứa con nào. Bao nhiêu năm trời, hai bác gùi từng sọt đất lên khe núi, xếp đá làm bờ, đắp thành những thửa ruộng bậc thang nhỏ xíu để trồng lúa. Một con suối nhỏ chảy từ khe đá xuống, tưới nước cho ruộng. Nhưng gặp năm hạn hán, suối khô, lúa héo, hai bác chỉ biết thở dài.",
+      "subtitles": [
+        "Ngày xưa, giữa vùng đồi núi Echizen, có bác nông dân tên Bimbo sống cùng bác gái.",
+        "Hai bác nghèo lắm, nhưng chăm chỉ và tằn tiện.",
+        "Bác rất yêu trẻ con, mà mãi chẳng có đứa con nào.",
+        "Bao nhiêu năm trời, hai bác gùi từng sọt đất lên khe núi, xếp đá làm bờ,",
+        "đắp thành những thửa ruộng bậc thang nhỏ xíu để trồng lúa.",
+        "Một con suối nhỏ chảy từ khe đá xuống, tưới nước cho ruộng.",
+        "Nhưng gặp năm hạn hán, suối khô, lúa héo, hai bác chỉ biết thở dài."
+      ],
+      "image": {
+        "character": "bimbo",
+        "prompt": "an old farmer couple carry baskets of soil on their backs up a narrow mountain gully, tiny stepped rice terraces with stone walls below, a thin stream trickling down, snowy mountain in the distance",
+        "seed": 780471780
+      },
+      "video": {
+        "motionPrompt": "the couple climb slowly step by step, the little stream trickles over the stones, clouds drift across the snowy peak",
+        "seed": 3048242610
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-giong",
+      "title": "Cơn giông mùa hạ",
+      "narrator": "ke-chuyen",
+      "narration": "Một ngày hè, sau bao ngày nắng hạn, mạ non đã vàng úa đầu lá. Bỗng mây đen kéo đến, mưa rào trút xuống mát rượi. Bác Bimbo mừng quá, cứ cầm cuốc đắp bờ ruộng giữa mưa. Sấm mỗi lúc một gần, bác vác cuốc định về. Đúng lúc ấy, một tia chớp sáng lóa, tiếng sấm nổ vang ngay trước mặt. Bác lấy tay che mắt.",
+      "subtitles": [
+        "Một ngày hè, sau bao ngày nắng hạn, mạ non đã vàng úa đầu lá.",
+        "Bỗng mây đen kéo đến, mưa rào trút xuống mát rượi. Bác Bimbo mừng quá,",
+        "cứ cầm cuốc đắp bờ ruộng giữa mưa. Sấm mỗi lúc một gần, bác vác cuốc định về.",
+        "Đúng lúc ấy, một tia chớp sáng lóa, tiếng sấm nổ vang ngay trước mặt. Bác lấy tay che mắt."
+      ],
+      "image": {
+        "character": "bimbo",
+        "prompt": "the old farmer stands in the rain on a green rice terrace holding his hoe, dark storm clouds rolling overhead, a bright soft flash of lightning far up in the clouds, not frightening",
+        "seed": 4200509888
+      },
+      "video": {
+        "motionPrompt": "rain pours down, the farmer lifts his face happily to the rain, then a bright flash fills the sky and he covers his eyes with his arm",
+        "seed": 2877359093
+      },
+      "voice": {}
+    },
+    {
+      "id": "em-be",
+      "title": "Em bé dưới chân",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy mình vẫn bình yên, bác mở mắt ra nhìn xuống chân. Ô kìa! Một em bé hồng hào, ấm áp đang nằm đó, cười khanh khách, chẳng hề sợ mưa chút nào. Bác Bimbo ngạc nhiên quá, rồi mừng rơn, nhẹ nhàng bế em bé lên, chạy một mạch về nhà. Bác bảo bác gái: Thần Sấm tặng cho mình đấy! Ta nhận làm con, đặt tên là Raitaro, nghĩa là đứa con đầu lòng của thần Sấm.",
+      "subtitles": [
+        "Thấy mình vẫn bình yên, bác mở mắt ra nhìn xuống chân.",
+        "Ô kìa! Một em bé hồng hào, ấm áp đang nằm đó, cười khanh khách,",
+        "chẳng hề sợ mưa chút nào. Bác Bimbo ngạc nhiên quá, rồi mừng rơn,",
+        "nhẹ nhàng bế em bé lên, chạy một mạch về nhà.",
+        "Bác bảo bác gái: Thần Sấm tặng cho mình đấy! Ta nhận làm con, đặt tên là Raitaro,",
+        "nghĩa là đứa con đầu lòng của thần Sấm."
+      ],
+      "image": {
+        "character": "bimbo",
+        "prompt": "inside a cozy thatched farmhouse the old farmer, dripping with rain, proudly shows a rosy laughing baby to his delighted wife, a warm hearth fire glowing",
+        "seed": 382752562
+      },
+      "video": {
+        "motionPrompt": "the baby kicks and giggles, the old wife reaches out with joy, the hearth fire flickers, rain patters on the roof",
+        "seed": 1907901981
+      },
+      "voice": {}
+    },
+    {
+      "id": "raitaro-lon-len",
+      "title": "Raitaro lớn lên",
+      "narrator": "ke-chuyen",
+      "narration": "Raitaro lớn lên hiền lành, ngoan ngoãn, thương cha mẹ nuôi như cha mẹ ruột. Cậu không thích chơi đùa trong làng. Cả ngày cậu theo cha ra đồng, nghịch nước suối, ngắm mây trời, ngắm chim bay. Lạ thay, từ khi có Raitaro, mưa thường rơi đúng trên ruộng nhà bác, dù nơi khác chẳng có giọt nào. Lúa xanh tốt, nhà bác khá giả dần. Bác tin rằng Raitaro biết vẫy gọi mây về.",
+      "subtitles": [
+        "Raitaro lớn lên hiền lành, ngoan ngoãn, thương cha mẹ nuôi như cha mẹ ruột.",
+        "Cậu không thích chơi đùa trong làng. Cả ngày cậu theo cha ra đồng,",
+        "nghịch nước suối, ngắm mây trời, ngắm chim bay.",
+        "Lạ thay, từ khi có Raitaro, mưa thường rơi đúng trên ruộng nhà bác,",
+        "dù nơi khác chẳng có giọt nào.",
+        "Lúa xanh tốt, nhà bác khá giả dần. Bác tin rằng Raitaro biết vẫy gọi mây về."
+      ],
+      "image": {
+        "character": "raitaro",
+        "prompt": "a gentle boy in a sky-blue kimono sits on a high rock above green rice terraces watching the clouds, a small rain cloud showering only on his family's fields while the land around stays sunny",
+        "seed": 158700898
+      },
+      "video": {
+        "motionPrompt": "the boy lifts his hand toward the sky, a little cloud drifts over and sprinkles rain on the terraces, sunlight glows elsewhere, birds glide by",
+        "seed": 3464886696
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-tu-biet",
+      "title": "Lời từ biệt",
+      "narrator": "ke-chuyen",
+      "narration": "Năm Raitaro tròn mười tám tuổi, cha mẹ làm một bữa cơm nhỏ mừng sinh nhật con. Cả nhà vừa ăn vừa kể lại chuyện cơn giông năm xưa. Bỗng Raitaro đứng dậy, cúi chào: Thưa cha mẹ, con cảm ơn cha mẹ đã thương yêu con. Nhưng giờ con phải đi rồi. Mong cha mẹ luôn được an vui.",
+      "subtitles": [
+        "Năm Raitaro tròn mười tám tuổi, cha mẹ làm một bữa cơm nhỏ mừng sinh nhật con.",
+        "Cả nhà vừa ăn vừa kể lại chuyện cơn giông năm xưa.",
+        "Bỗng Raitaro đứng dậy, cúi chào: Thưa cha mẹ, con cảm ơn cha mẹ đã thương yêu con.",
+        "Nhưng giờ con phải đi rồi. Mong cha mẹ luôn được an vui."
+      ],
+      "image": {
+        "character": "raitaro",
+        "prompt": "a small birthday meal on a low table in the farmhouse, the gray-haired old couple listen with surprise as the young man in a sky-blue kimono bows deeply to them",
+        "seed": 3160414936
+      },
+      "video": {
+        "motionPrompt": "the young man bows slowly, the old couple put down their chopsticks, a soft white glow begins around him, the lamp light flickers",
+        "seed": 151419419
+      },
+      "voice": {}
+    },
+    {
+      "id": "rong-trang",
+      "title": "Chú rồng trắng",
+      "narrator": "ke-chuyen",
+      "narration": "Vừa dứt lời, Raitaro biến mất. Trên không trung hiện ra một chú rồng trắng nhỏ xíu, lượn một vòng quanh cha mẹ, rồi bay vút ra ngoài. Hai ông bà chạy theo nhìn lên. Chú rồng mỗi lúc một lớn, bay về phía những đám mây trắng chồng lên nhau như lâu đài bạc trên đỉnh núi, rồi khuất hẳn vào trong mây.",
+      "subtitles": [
+        "Vừa dứt lời, Raitaro biến mất. Trên không trung hiện ra một chú rồng trắng nhỏ xíu,",
+        "lượn một vòng quanh cha mẹ, rồi bay vút ra ngoài.",
+        "Hai ông bà chạy theo nhìn lên. Chú rồng mỗi lúc một lớn,",
+        "bay về phía những đám mây trắng chồng lên nhau như lâu đài bạc trên đỉnh núi,",
+        "rồi khuất hẳn vào trong mây."
+      ],
+      "image": {
+        "character": "rong-trang",
+        "prompt": "a small white dragon rises from the farmhouse and soars toward towering white summer clouds shaped like silver castles above the mountains, the old couple waving from their doorway below",
+        "seed": 2579129525
+      },
+      "video": {
+        "motionPrompt": "the white dragon swirls once around the house, then glides upward growing larger, the clouds glow, the couple wave slowly",
+        "seed": 1874941202
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Từ đó, hai ông bà không còn phải vất vả nữa, sống đầy đủ, bình yên đến tận tuổi già. Các bạn thấy không, ai thương yêu và chăm chút cho người khác, sẽ nhận lại bao điều tốt lành. Lần sau nghe tiếng sấm, Miu sẽ không sợ nữa đâu. Biết đâu chú rồng trắng đang bay qua đấy! Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Từ đó, hai ông bà không còn phải vất vả nữa, sống đầy đủ, bình yên đến tận tuổi già.",
+        "Các bạn thấy không, ai thương yêu và chăm chút cho người khác,",
+        "sẽ nhận lại bao điều tốt lành.",
+        "Lần sau nghe tiếng sấm, Miu sẽ không sợ nữa đâu. Biết đâu chú rồng trắng đang bay qua đấy!",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the window, the rain has stopped and a rainbow arches over green hills, a tiny white dragon shape in the clouds far away",
+        "seed": 2102086402
+      },
+      "video": {
+        "motionPrompt": "the cat waves, a rainbow brightens, a small white dragon shape glides through the clouds, slow camera pull back",
+        "seed": 3073442437
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Japanese folk lullaby, shakuhachi bamboo flute and soft koto, light rain-like chimes, calm and warm turning wondrous, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 994475318
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "slug": "chang-bensurdatu",
+  "shelf": "world",
+  "title": "Chàng Bensurdatu",
+  "summary": "Ba nàng công chúa bị một đám mây đen cuốn mất, hai viên tướng đi tìm rồi bỏ cuộc giữa đường. Chỉ có Bensurdatu, người hầu trung thành của nhà vua, dám lặn xuống đáy sông đối mặt hai gã khổng lồ và con rắn bảy đầu, để rồi bị chính bạn đồng hành phản bội. Truyện dân gian Sicily trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "anh-hung",
+    "thien-ac",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Story of Bensurdatu\" trong The Grey Fairy Book do Andrew Lang biên tập (1900; Lang lấy từ tập truyện dân gian Sicily), Project Gutenberg #6746, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ các trận đánh dưới đáy sông, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Sicily, Andrew Lang chép (1900)",
+  "style": "classic Sicilian fairy tale picture book illustration, sunny royal palace and country gardens, a deep river with a glowing underwater hall, a grand sailing ship, warm colors of gold, deep blue, terracotta and olive green, gentle heroic mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "bensurdatu",
+      "name": "Bensurdatu",
+      "sheetPrompt": "a loyal brave servant of a king from an old Sicilian fairy tale, strong build, short dark beard, kind steady eyes, simple dark green tunic with a leather belt and travelling cloak, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1675379929
+    },
+    {
+      "id": "cong-chua-ut",
+      "name": "Công chúa út",
+      "sheetPrompt": "a beautiful brave youngest princess from an old Sicilian fairy tale, long black hair, small golden crown, white and gold gown, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2452193893
+    },
+    {
+      "id": "hai-vien-tuong",
+      "name": "Hai viên tướng",
+      "sheetPrompt": "two vain young generals from an old Sicilian fairy tale standing side by side, plumed helmets, shiny breastplates, red and blue capes, sly faces, full body, front and side views, plain light background, character reference sheet",
+      "seed": 263179489
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dam-may-den",
+      "title": "Đám mây đen",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một ông vua và một bà hoàng hậu sinh được ba nàng công chúa xinh đẹp tuyệt trần. Một hôm, các nàng xin cha mẹ cho đi ăn trưa ngoài đồng quê. Cả nhà đánh xe tới khu vườn của nhà vua, ăn uống vui vẻ. Ăn xong, ba nàng cười đùa chạy xuống con đường cỏ xanh dẫn vào vườn: “Khi nào về thì cha mẹ gọi chúng con nhé.” Nhưng vừa bước qua hàng rào, một đám mây đen sà xuống phủ kín lấy các nàng. Chiều xuống, vua và hoàng hậu gọi mãi không thấy ai thưa. Tìm khắp nơi chẳng thấy dấu vết. Nhà vua ban chiếu: ai đưa được các công chúa về sẽ được cưới một nàng, và sau này được nối ngôi.",
+      "subtitles": [
+        "Ngày xưa có một ông vua và một bà hoàng hậu sinh được ba nàng công chúa xinh đẹp tuyệt",
+        "trần. Một hôm, các nàng xin cha mẹ cho đi ăn trưa ngoài đồng quê.",
+        "Cả nhà đánh xe tới khu vườn của nhà vua, ăn uống vui vẻ.",
+        "Ăn xong, ba nàng cười đùa chạy xuống con đường cỏ xanh dẫn vào vườn:",
+        "“Khi nào về thì cha mẹ gọi chúng con nhé.”",
+        "Nhưng vừa bước qua hàng rào, một đám mây đen sà xuống phủ kín lấy các nàng.",
+        "Chiều xuống, vua và hoàng hậu gọi mãi không thấy ai thưa.",
+        "Tìm khắp nơi chẳng thấy dấu vết.",
+        "Nhà vua ban chiếu: ai đưa được các công chúa về sẽ được cưới một nàng,",
+        "và sau này được nối ngôi."
+      ],
+      "image": {
+        "prompt": "three laughing princesses running down a green glade into a royal garden in the Sicilian countryside, a strange dark cloud swirling down over them, the king and queen resting on a picnic blanket in the distance",
+        "seed": 2087882747,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the dark cloud swirls down and wraps around the princesses, leaves scatter, the light dims over the garden",
+        "seed": 79579789
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-vien-tuong",
+      "title": "Hai viên tướng",
+      "narrator": "ke-chuyen",
+      "narration": "Trong triều có hai viên tướng trẻ, nghe chiếu vua liền rủ nhau đi tìm, mong mình là người may mắn. Nhưng hỏi khắp các làng chẳng ai biết gì, tiền tiêu hết, đành bán ngựa, rồi bán cả áo dự phòng. Cuối cùng, đói lả, họ vào một quán trọ ăn uống mà không có tiền trả, đành xin ở lại làm người hầu cho chủ quán. Trong cung, vua và hoàng hậu vẫn ngày đêm mong ngóng. Bấy giờ có Bensurdatu, người hầu trung thành đã theo vua bao năm. Thấy vua buồn, chàng xin: “Xin bệ hạ cho tôi đi tìm các công chúa.” “Không được, ta đã mất ba con gái, lại mất hai viên tướng, lẽ nào mất cả ngươi?” Nhưng Bensurdatu nài mãi: “Bệ hạ cứ tin tôi.” Vua đành để chàng đi.",
+      "subtitles": [
+        "Trong triều có hai viên tướng trẻ, nghe chiếu vua liền rủ nhau đi tìm,",
+        "mong mình là người may mắn.",
+        "Nhưng hỏi khắp các làng chẳng ai biết gì, tiền tiêu hết, đành bán ngựa,",
+        "rồi bán cả áo dự phòng.",
+        "Cuối cùng, đói lả, họ vào một quán trọ ăn uống mà không có tiền trả,",
+        "đành xin ở lại làm người hầu cho chủ quán.",
+        "Trong cung, vua và hoàng hậu vẫn ngày đêm mong ngóng.",
+        "Bấy giờ có Bensurdatu, người hầu trung thành đã theo vua bao năm.",
+        "Thấy vua buồn, chàng xin: “Xin bệ hạ cho tôi đi tìm các công chúa.”",
+        "“Không được, ta đã mất ba con gái, lại mất hai viên tướng, lẽ nào mất cả ngươi?”",
+        "Nhưng Bensurdatu nài mãi: “Bệ hạ cứ tin tôi.”",
+        "Vua đành để chàng đi."
+      ],
+      "image": {
+        "prompt": "a loyal servant with a short dark beard kneeling before a sad old king on his throne in a Sicilian palace, the king reaching out his hand with worry, sunlight through arched windows",
+        "seed": 1409212251,
+        "character": "bensurdatu"
+      },
+      "video": {
+        "motionPrompt": "the king slowly nods, the servant rises with determination, a curtain stirs in the breeze",
+        "seed": 1487014686
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-lao-trong-leu",
+      "title": "Bà lão trong lều",
+      "narrator": "ke-chuyen",
+      "narration": "Bensurdatu tới đúng quán trọ nọ, nhận ra ngay hai viên tướng trong bộ áo rách rưới. Chàng trả hết nợ, chuộc lại áo quần cho họ. Hai người xin đi theo chàng. Cả ba đi mãi tới một vùng hoang vắng. Trời tối, họ thấy ánh đèn trong một túp lều nhỏ. Một bà lão rất già mở cửa: “Các anh từ đâu tới, đi đâu?” “Chúng tôi đi đưa các công chúa về cung.” “Khổ thân các anh! Muốn cứu các nàng, phải xuống tận đáy một con sông sâu. Hai nàng chị bị hai gã khổng lồ canh giữ, còn nàng út bị một con rắn bảy đầu canh.” Hai viên tướng sợ tái mặt, muốn quay về ngay. Nhưng Bensurdatu vững lòng: “Đã đi tới đây thì phải làm cho trọn. Xin bà chỉ đường.” Bà lão chỉ đường, lại cho họ bánh mì, pho mát và rượu.",
+      "subtitles": [
+        "Bensurdatu tới đúng quán trọ nọ, nhận ra ngay hai viên tướng trong bộ áo rách rưới.",
+        "Chàng trả hết nợ, chuộc lại áo quần cho họ. Hai người xin đi theo chàng.",
+        "Cả ba đi mãi tới một vùng hoang vắng. Trời tối, họ thấy ánh đèn trong một túp lều nhỏ.",
+        "Một bà lão rất già mở cửa: “Các anh từ đâu tới, đi đâu?”",
+        "“Chúng tôi đi đưa các công chúa về cung.” “Khổ thân các anh!",
+        "Muốn cứu các nàng, phải xuống tận đáy một con sông sâu.",
+        "Hai nàng chị bị hai gã khổng lồ canh giữ, còn nàng út bị một con rắn bảy đầu canh.”",
+        "Hai viên tướng sợ tái mặt, muốn quay về ngay.",
+        "Nhưng Bensurdatu vững lòng: “Đã đi tới đây thì phải làm cho trọn.",
+        "Xin bà chỉ đường.” Bà lão chỉ đường, lại cho họ bánh mì, pho mát và rượu."
+      ],
+      "image": {
+        "prompt": "inside a tiny hut lit by a lamp in a wild lonely landscape at night, a very old kind woman pointing the way, a brave bearded servant listening closely, two generals in plumed helmets looking frightened behind him",
+        "seed": 285746360,
+        "character": "bensurdatu"
+      },
+      "video": {
+        "motionPrompt": "the lamp flame flickers, the old woman points into the dark, the generals glance nervously at each other",
+        "seed": 1787832362
+      },
+      "voice": {}
+    },
+    {
+      "id": "duoi-day-song",
+      "title": "Dưới đáy sông",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau họ tới bờ sông. Viên tướng lớn tuổi đòi xuống trước. Họ buộc dây vào người anh ta, đưa cho một cái chuông nhỏ. Nhưng vừa chìm xuống nước, tiếng sấm, tiếng gầm vang dội khắp nơi, anh ta mất hết can đảm, rung chuông xin kéo lên. Viên tướng thứ hai cũng vậy. Bensurdatu buộc dây vào mình: “Cứ ầm ĩ bao nhiêu tùy thích, chẳng làm gì được ta đâu.” Chân chạm đáy, chàng thấy một gian sảnh rực sáng. Công chúa cả ngồi đó, trước mặt là một gã khổng lồ đang ngủ say. Gã chợt cựa mình: “Ta ngửi thấy mùi người!” Công chúa dỗ: “Làm sao có người xuống được đây? Ngủ tiếp đi.” Gã vừa ngủ lại, Bensurdatu liền ra tay, một đòn hạ gục gã khổng lồ. Công chúa cả mừng rỡ, đặt lên đầu chàng một chiếc vương miện vàng.",
+      "subtitles": [
+        "Sáng hôm sau họ tới bờ sông. Viên tướng lớn tuổi đòi xuống trước.",
+        "Họ buộc dây vào người anh ta, đưa cho một cái chuông nhỏ.",
+        "Nhưng vừa chìm xuống nước, tiếng sấm, tiếng gầm vang dội khắp nơi, anh ta mất hết can đảm,",
+        "rung chuông xin kéo lên. Viên tướng thứ hai cũng vậy.",
+        "Bensurdatu buộc dây vào mình: “Cứ ầm ĩ bao nhiêu tùy thích, chẳng làm gì được ta đâu.”",
+        "Chân chạm đáy, chàng thấy một gian sảnh rực sáng.",
+        "Công chúa cả ngồi đó, trước mặt là một gã khổng lồ đang ngủ say.",
+        "Gã chợt cựa mình: “Ta ngửi thấy mùi người!”",
+        "Công chúa dỗ: “Làm sao có người xuống được đây?",
+        "Ngủ tiếp đi.” Gã vừa ngủ lại, Bensurdatu liền ra tay, một đòn hạ gục gã khổng lồ.",
+        "Công chúa cả mừng rỡ, đặt lên đầu chàng một chiếc vương miện vàng."
+      ],
+      "image": {
+        "prompt": "a brilliantly lit magical hall at the bottom of a river with glowing water above, a princess on a chair pressing a finger to her lips, a huge giant snoring on the floor, a brave bearded servant tiptoeing behind a pillar",
+        "seed": 375839927,
+        "character": "bensurdatu"
+      },
+      "video": {
+        "motionPrompt": "bubbles rise toward the shimmering water ceiling, the giant snores and stirs, the servant creeps forward quietly",
+        "seed": 1387651521
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-ran-bay-dau",
+      "title": "Con rắn bảy đầu",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa cả dẫn chàng sang gian sảnh thứ hai, nơi công chúa thứ hai bị một gã khổng lồ khác canh. Lại câu “Ta ngửi thấy mùi người!”, lại lời dỗ dành, và Bensurdatu lại hạ gục gã. Công chúa thứ hai cũng trao chàng một chiếc vương miện vàng. Hai nàng thở dài: “Em út thì e chẳng cứu nổi đâu, nó ở trong tay con rắn bảy đầu.” “Đưa tôi tới đó. Sẽ là một trận ra trò!” Gian sảnh thứ ba còn lớn hơn. Nàng út bị xích vào tường, trước mặt là con rắn bảy đầu. Rắn quay cả bảy cái đầu về phía chàng, lao tới định quấn lấy. Bensurdatu chiến đấu không lùi bước, cho tới khi cả bảy cái đầu rắn nằm im dưới đất. Chàng chạy tới bẻ xích cho công chúa. Nàng khóc vì mừng, tháo vương miện vàng trên đầu trao cho chàng.",
+      "subtitles": [
+        "Công chúa cả dẫn chàng sang gian sảnh thứ hai,",
+        "nơi công chúa thứ hai bị một gã khổng lồ khác canh.",
+        "Lại câu “Ta ngửi thấy mùi người!”, lại lời dỗ dành, và Bensurdatu lại hạ gục gã.",
+        "Công chúa thứ hai cũng trao chàng một chiếc vương miện vàng.",
+        "Hai nàng thở dài: “Em út thì e chẳng cứu nổi đâu, nó ở trong tay con rắn bảy đầu.”",
+        "“Đưa tôi tới đó. Sẽ là một trận ra trò!” Gian sảnh thứ ba còn lớn hơn.",
+        "Nàng út bị xích vào tường, trước mặt là con rắn bảy đầu.",
+        "Rắn quay cả bảy cái đầu về phía chàng, lao tới định quấn lấy.",
+        "Bensurdatu chiến đấu không lùi bước, cho tới khi cả bảy cái đầu rắn nằm im dưới đất.",
+        "Chàng chạy tới bẻ xích cho công chúa.",
+        "Nàng khóc vì mừng, tháo vương miện vàng trên đầu trao cho chàng."
+      ],
+      "image": {
+        "prompt": "a vast glowing underwater hall, a seven-headed green serpent coiling back in defeat, a brave bearded servant breaking iron chains from the wall to free a princess in a white and gold gown, storybook style not frightening",
+        "seed": 280738038,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the chains fall away with a flash of light, the serpent slumps still, the princess's hair floats in the shimmering glow",
+        "seed": 1727563890
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-phan-boi",
+      "title": "Bị phản bội",
+      "narrator": "ke-chuyen",
+      "narration": "Bensurdatu đưa ba nàng ra chỗ dây thả xuống. Hai viên tướng kéo nàng cả, rồi nàng thứ hai lên. Còn lại chàng và nàng út. Nàng nói: “Chàng hãy lên trước đi, em sợ hai viên tướng kia phản bội.” “Không, tôi không bỏ nàng lại đâu. Bạn tôi chẳng có gì phải sợ.” “Vậy em lên, nhưng em thề: nếu chàng không lên cưới em, em sẽ ở vậy suốt đời.” Nàng út được kéo lên. Nhưng lòng ghen tị trỗi dậy, hai viên tướng không thả dây xuống nữa, bỏ mặc Bensurdatu dưới đáy sông. Chúng còn dọa các công chúa phải nói với vua rằng chính chúng đã cứu các nàng, và chưa từng thấy Bensurdatu. Vua và hoàng hậu mừng khôn xiết, gả hai nàng chị cho hai viên tướng.",
+      "subtitles": [
+        "Bensurdatu đưa ba nàng ra chỗ dây thả xuống.",
+        "Hai viên tướng kéo nàng cả, rồi nàng thứ hai lên.",
+        "Còn lại chàng và nàng út.",
+        "Nàng nói: “Chàng hãy lên trước đi, em sợ hai viên tướng kia phản bội.”",
+        "“Không, tôi không bỏ nàng lại đâu. Bạn tôi chẳng có gì phải sợ.”",
+        "“Vậy em lên, nhưng em thề: nếu chàng không lên cưới em, em sẽ ở vậy suốt đời.”",
+        "Nàng út được kéo lên. Nhưng lòng ghen tị trỗi dậy, hai viên tướng không thả dây xuống nữa,",
+        "bỏ mặc Bensurdatu dưới đáy sông.",
+        "Chúng còn dọa các công chúa phải nói với vua rằng chính chúng đã cứu các nàng,",
+        "và chưa từng thấy Bensurdatu.",
+        "Vua và hoàng hậu mừng khôn xiết, gả hai nàng chị cho hai viên tướng."
+      ],
+      "image": {
+        "prompt": "on a riverbank, two sly generals in plumed helmets coiling up the rope and turning away, three frightened princesses being led toward horses, the dark river water swirling below",
+        "seed": 2522267167,
+        "character": "hai-vien-tuong"
+      },
+      "video": {
+        "motionPrompt": "the generals pull away the rope and stride off, the youngest princess looks back at the river with tears, clouds drift overhead",
+        "seed": 725614371
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-ba-vuong-mien",
+      "title": "Vua ba vương miện",
+      "narrator": "ke-chuyen",
+      "narration": "Dưới đáy sông, Bensurdatu chờ mãi không thấy dây, hiểu mình đã bị phản bội. Nhưng than thở chẳng ích gì, chàng đi khắp ba gian sảnh tìm lối thoát, thấy một mâm thức ăn bèn ăn uống cho lại sức. Nhiều tháng trôi qua. Một sáng, chàng thấy trên tường treo một cái túi lạ. Vừa cầm xuống, túi cất tiếng: “Chủ nhân sai bảo gì?” “Đưa ta lên mặt đất!” Chớp mắt, chàng đã đứng bên bờ sông. “Cho ta con tàu đẹp nhất trần đời!” Con tàu hiện ra, cờ trên cột buồm đề: Vua ba vương miện. Chàng giương buồm tới kinh thành, thổi kèn, nổi trống. Nhà vua ra đón, chẳng nhận ra người hầu cũ, mời vào cung dự tiệc rồi ngỏ ý gả công chúa út. Nàng út buồn bã: “Xin cha cho con ở vậy.” Bensurdatu hỏi: “Nếu ta là Bensurdatu, nàng có trả lời như thế không?” Rồi chàng kể hết mọi chuyện. Hai viên tướng bị đuổi khỏi đất nước, còn Bensurdatu và nàng út cưới nhau trong ba ngày hội tưng bừng.",
+      "subtitles": [
+        "Dưới đáy sông, Bensurdatu chờ mãi không thấy dây, hiểu mình đã bị phản bội.",
+        "Nhưng than thở chẳng ích gì, chàng đi khắp ba gian sảnh tìm lối thoát,",
+        "thấy một mâm thức ăn bèn ăn uống cho lại sức.",
+        "Nhiều tháng trôi qua. Một sáng, chàng thấy trên tường treo một cái túi lạ.",
+        "Vừa cầm xuống, túi cất tiếng: “Chủ nhân sai bảo gì?”",
+        "“Đưa ta lên mặt đất!” Chớp mắt, chàng đã đứng bên bờ sông.",
+        "“Cho ta con tàu đẹp nhất trần đời!”",
+        "Con tàu hiện ra, cờ trên cột buồm đề: Vua ba vương miện.",
+        "Chàng giương buồm tới kinh thành, thổi kèn, nổi trống.",
+        "Nhà vua ra đón, chẳng nhận ra người hầu cũ,",
+        "mời vào cung dự tiệc rồi ngỏ ý gả công chúa út.",
+        "Nàng út buồn bã: “Xin cha cho con ở vậy.”",
+        "Bensurdatu hỏi: “Nếu ta là Bensurdatu, nàng có trả lời như thế không?”",
+        "Rồi chàng kể hết mọi chuyện. Hai viên tướng bị đuổi khỏi đất nước,",
+        "còn Bensurdatu và nàng út cưới nhau trong ba ngày hội tưng bừng."
+      ],
+      "image": {
+        "prompt": "a magnificent sailing ship with a flag showing three golden crowns arriving at a sunny Sicilian harbour, a richly dressed bearded man in a fine cloak bowing before a delighted king, a princess in white and gold looking at him with sudden recognition",
+        "seed": 534795790,
+        "character": "bensurdatu"
+      },
+      "video": {
+        "motionPrompt": "the flag with three crowns flutters, trumpets shine in the sun, the princess's face lights up with joy",
+        "seed": 341148579
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "heroic gentle Sicilian folk instrumental with mandolin, guitar, soft brass and drums, adventurous then triumphant and festive, no vocals",
+    "durationSeconds": 170,
+    "seed": 2341732989
+  }
+}

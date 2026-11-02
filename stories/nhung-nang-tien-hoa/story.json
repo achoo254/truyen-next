@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "slug": "nhung-nang-tien-hoa",
+  "shelf": "kids",
+  "title": "Những nàng tiên hoa",
+  "summary": "Một đêm trăng, các cô gái lạ áo xanh, áo trắng, áo hồng, áo đỏ đến xin nghỉ chân trong vườn của chàng thư sinh yêu hoa. Khi gió dữ sắp tới, các cô nhờ chàng dựng một lá cờ đỏ. Truyện dân gian Trung Hoa kể nhẹ cho bé về lòng yêu thiên nhiên.",
+  "themes": [
+    "thien-nhien",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Trung Hoa «The Flower-Elves», theo bản của Richard Wilhelm trong The Chinese Fairy Book (bản tiếng Anh của Frederick H. Martens, 1921; Wilhelm mất 1930, Martens mất 1932), Project Gutenberg #29939, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản nào; tên các cô gái đặt theo loài hoa như bản gốc, Mèo Miu dẫn chuyện mở đầu và kết thúc.",
+  "basedOn": "Truyện dân gian Trung Hoa (Wilhelm, 1921)",
+  "style": "classic Chinese fairy-tale picture-book illustration, soft ink lines with delicate watercolor, a hidden moonlit garden full of willow, plum, peach and pomegranate blossoms around a small scholar's pavilion, bamboo groves, glowing lanterns, dreamy gentle mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 2523010981,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "thu-sinh",
+      "name": "Chàng thư sinh",
+      "seed": 1709321807,
+      "sheetPrompt": "a gentle old Chinese scholar with a neat grey beard, kind eyes, a light blue scholar's robe and a black soft cap, holding a small watering can, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "co-luu",
+      "name": "Cô Lựu áo đỏ",
+      "seed": 1983472585,
+      "sheetPrompt": "a lively young Chinese flower fairy girl in a deep red silk dress with pomegranate blossoms in her hair, proud bright eyes and a little pout, flowing sleeves, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cac-co-hoa",
+      "name": "Các nàng tiên hoa",
+      "seed": 813471342,
+      "sheetPrompt": "a group of three gentle Chinese flower fairy girls, one in willow green, one in plum white, one in peach pink, flowers and willow twigs in their hands, flowing sleeves, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có thích hoa không? Miu thích lắm! Hoa đào hồng, hoa mận trắng, hoa lựu đỏ rực, cành liễu xanh mướt. Có người bảo mỗi bông hoa đều có một nàng tiên nhỏ sống bên trong. Hôm nay Miu kể chuyện những nàng tiên hoa ở bên Trung Hoa. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có thích hoa không? Miu thích lắm!",
+        "Hoa đào hồng, hoa mận trắng, hoa lựu đỏ rực, cành liễu xanh mướt.",
+        "Có người bảo mỗi bông hoa đều có một nàng tiên nhỏ sống bên trong.",
+        "Hôm nay Miu kể chuyện những nàng tiên hoa ở bên Trung Hoa. Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits in a blooming garden holding a little pot of red pomegranate flowers, peach and plum blossoms around her, an open picture book on the grass",
+        "seed": 2861223200
+      },
+      "video": {
+        "motionPrompt": "the cat sniffs the flowers happily, petals drift down around her, a willow branch sways, gentle camera push-in",
+        "seed": 133360917
+      },
+      "voice": {}
+    },
+    {
+      "id": "khu-vuon-an",
+      "title": "Khu vườn giấu mình",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một ông thư sinh sống một mình trong một khu vườn kín đáo. Quanh căn nhà nhỏ, ông trồng đủ loại hoa, lại thêm trúc và cây xanh, che kín cả lối vào. Ông yêu hoa như yêu chính mình, chẳng bao giờ bước chân ra khỏi vườn. Ông chỉ có một cậu bé giúp việc ở căn chòi riêng, khi nào được gọi mới đến. Một đêm xuân, gió mát thổi nhẹ, trăng sáng vằng vặc, ông ngồi ngắm hoa và thấy lòng thật vui.",
+      "subtitles": [
+        "Ngày xưa, có một ông thư sinh sống một mình trong một khu vườn kín đáo.",
+        "Quanh căn nhà nhỏ, ông trồng đủ loại hoa, lại thêm trúc và cây xanh, che kín cả lối vào.",
+        "Ông yêu hoa như yêu chính mình, chẳng bao giờ bước chân ra khỏi vườn.",
+        "Ông chỉ có một cậu bé giúp việc ở căn chòi riêng, khi nào được gọi mới đến.",
+        "Một đêm xuân, gió mát thổi nhẹ, trăng sáng vằng vặc,",
+        "ông ngồi ngắm hoa và thấy lòng thật vui."
+      ],
+      "image": {
+        "character": "thu-sinh",
+        "prompt": "the gentle old scholar sits on the porch of his little pavilion on a spring night, sipping tea, a bright full moon above, trees full of blossoms all around, bamboo hiding the gate",
+        "seed": 448084604
+      },
+      "video": {
+        "motionPrompt": "the moon glows, blossoms sway in a soft breeze, the scholar lifts his teacup and smiles, petals float past",
+        "seed": 562604321
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-gai-la",
+      "title": "Những vị khách lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng có một cô gái mặc áo sẫm màu nhẹ nhàng bước tới, cúi chào: Thưa ông, chúng tôi là hàng xóm của ông. Chị em chúng tôi đang đi thăm mười tám dì, xin được ghé vườn ông nghỉ chân một lát. Ông thư sinh biết đây là chuyện lạ, liền vui vẻ mời vào. Một lúc sau, cả một đoàn cô gái kéo đến, tay cầm hoa và cành liễu, áo bay phấp phới, thơm ngát một mùi hương mà trên đời chưa ai từng ngửi thấy.",
+      "subtitles": [
+        "Bỗng có một cô gái mặc áo sẫm màu nhẹ nhàng bước tới, cúi chào:",
+        "Thưa ông, chúng tôi là hàng xóm của ông. Chị em chúng tôi đang đi thăm mười tám dì,",
+        "xin được ghé vườn ông nghỉ chân một lát.",
+        "Ông thư sinh biết đây là chuyện lạ, liền vui vẻ mời vào.",
+        "Một lúc sau, cả một đoàn cô gái kéo đến, tay cầm hoa và cành liễu, áo bay phấp phới,",
+        "thơm ngát một mùi hương mà trên đời chưa ai từng ngửi thấy."
+      ],
+      "image": {
+        "character": "cac-co-hoa",
+        "prompt": "a group of graceful flower fairy girls in green, white, pink and red dresses arrive along a moonlit garden path carrying flowers and willow twigs, bowing politely to the surprised scholar",
+        "seed": 603790219
+      },
+      "video": {
+        "motionPrompt": "the girls glide forward with sleeves fluttering, a sparkle of fragrance drifts in the air, the scholar rises and bows, moonlight shimmers",
+        "seed": 1780037083
+      },
+      "voice": {}
+    },
+    {
+      "id": "muoi-tam-di",
+      "title": "Mười tám dì họ Phong",
+      "narrator": "ke-chuyen",
+      "narration": "Cô áo xanh giới thiệu: Tôi họ Dương. Đây là cô Lý áo trắng, cô Đào áo hồng, còn cô áo đỏ thắm kia là cô Thạch Lựu, em út nhà tôi. Vừa lúc ấy, cậu bé giúp việc báo: Các dì đến rồi ạ! Đó là mười tám dì họ Phong. Các dì nói cười ào ào như gió, lại gần thấy se se lạnh. Mọi người ngồi quanh bàn, ăn những món ngon và uống mật hoa thơm phức. Các cô gái đứng lên múa hát, nhẹ nhàng như bướm lượn quanh hoa.",
+      "subtitles": [
+        "Cô áo xanh giới thiệu: Tôi họ Dương. Đây là cô Lý áo trắng, cô Đào áo hồng,",
+        "còn cô áo đỏ thắm kia là cô Thạch Lựu, em út nhà tôi.",
+        "Vừa lúc ấy, cậu bé giúp việc báo: Các dì đến rồi ạ! Đó là mười tám dì họ Phong.",
+        "Các dì nói cười ào ào như gió, lại gần thấy se se lạnh.",
+        "Mọi người ngồi quanh bàn, ăn những món ngon và uống mật hoa thơm phức.",
+        "Các cô gái đứng lên múa hát, nhẹ nhàng như bướm lượn quanh hoa."
+      ],
+      "image": {
+        "character": "cac-co-hoa",
+        "prompt": "a moonlit garden feast: eighteen breezy aunts in swirling pale grey-blue robes sit at the head of a long table, the flower fairy girls dance like butterflies, the scholar watches in delight",
+        "seed": 1595037277
+      },
+      "video": {
+        "motionPrompt": "the fairy girls twirl with flowing sleeves, the aunts' robes ripple as if in wind, lanterns sway, petals spin through the air",
+        "seed": 291818249
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-ao-do",
+      "title": "Chiếc áo đỏ bị vấy bẩn",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng các dì họ Phong tính hơi hấp tấp. Một dì nâng chén, làm sóng mật hoa ra áo cô Lựu. Cô Lựu còn trẻ, lại rất ưa sạch sẽ, thấy áo đỏ bị vết bẩn thì giận lắm. Cô đứng phắt dậy: Dì vụng về quá! Các chị em tôi sợ dì, chứ tôi chẳng sợ đâu! Các dì phật ý, kéo áo đứng dậy bỏ đi. Các cô gái chạy theo xin lỗi mãi mà các dì không nghe. Rồi các cô cũng chào ông thư sinh, tản vào các khóm hoa và biến mất.",
+      "subtitles": [
+        "Nhưng các dì họ Phong tính hơi hấp tấp. Một dì nâng chén, làm sóng mật hoa ra áo cô Lựu.",
+        "Cô Lựu còn trẻ, lại rất ưa sạch sẽ, thấy áo đỏ bị vết bẩn thì giận lắm.",
+        "Cô đứng phắt dậy: Dì vụng về quá! Các chị em tôi sợ dì, chứ tôi chẳng sợ đâu!",
+        "Các dì phật ý, kéo áo đứng dậy bỏ đi.",
+        "Các cô gái chạy theo xin lỗi mãi mà các dì không nghe.",
+        "Rồi các cô cũng chào ông thư sinh, tản vào các khóm hoa và biến mất."
+      ],
+      "image": {
+        "character": "co-luu",
+        "prompt": "the lively flower fairy in a deep red dress stands up crossly pointing at a small stain on her sleeve, the breezy aunts rise in a huff with their robes swirling, the other girls try to calm everyone",
+        "seed": 1024611942
+      },
+      "video": {
+        "motionPrompt": "the red-dressed girl stamps her foot, the aunts sweep away like a gust of wind, petals and lanterns swing, the other girls reach out pleading",
+        "seed": 3662909390
+      },
+      "voice": {}
+    },
+    {
+      "id": "la-co-do",
+      "title": "Lá cờ đỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Tối hôm sau, các cô gái quay lại, buồn bã nói thật với ông: Chúng tôi đều sống trong vườn của ông. Năm nào gió dữ cũng đến phá, nên phải nhờ các dì che chở. Nay em Lựu làm các dì giận, chẳng biết các dì còn giúp nữa không. Xin ông may một lá cờ đỏ, vẽ mặt trời, mặt trăng và năm ngôi sao, rồi cắm ở phía đông khu vườn vào ngày hai mươi mốt tháng này. Gió Đông sắp đến rồi! Ông thư sinh vui vẻ nhận lời, và cặm cụi may ngay một lá cờ đỏ thật đẹp.",
+      "subtitles": [
+        "Tối hôm sau, các cô gái quay lại, buồn bã nói thật với ông:",
+        "Chúng tôi đều sống trong vườn của ông.",
+        "Năm nào gió dữ cũng đến phá, nên phải nhờ các dì che chở.",
+        "Nay em Lựu làm các dì giận, chẳng biết các dì còn giúp nữa không.",
+        "Xin ông may một lá cờ đỏ, vẽ mặt trời, mặt trăng và năm ngôi sao,",
+        "rồi cắm ở phía đông khu vườn vào ngày hai mươi mốt tháng này. Gió Đông sắp đến rồi!",
+        "Ông thư sinh vui vẻ nhận lời, và cặm cụi may ngay một lá cờ đỏ thật đẹp."
+      ],
+      "image": {
+        "character": "thu-sinh",
+        "prompt": "by lamplight the scholar sews a scarlet flag painted with a golden sun, a silver moon and five small stars, the flower fairy girls watching hopefully around him",
+        "seed": 737734734
+      },
+      "video": {
+        "motionPrompt": "the scholar's needle moves, the painted sun and moon on the flag gleam in the lamplight, the girls clasp their hands and smile",
+        "seed": 2422663528
+      },
+      "voice": {}
+    },
+    {
+      "id": "gio-dong",
+      "title": "Gió Đông thổi tới",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng sớm hôm ấy, quả nhiên Gió Đông nổi lên. Ông thư sinh vội cắm lá cờ ở góc vườn phía đông. Gió gào rít, rừng cây ngoài kia cong rạp, cành gãy răng rắc. Thế mà khu vườn của ông, không một bông hoa nào lay động. Lúc ấy ông mới hiểu ra: cô Dương là cây liễu, cô Lý là cây mận, cô Đào là cây đào, còn cô Lựu bướng bỉnh chính là cây lựu. Và mười tám dì họ Phong chính là các nàng tiên gió.",
+      "subtitles": [
+        "Sáng sớm hôm ấy, quả nhiên Gió Đông nổi lên.",
+        "Ông thư sinh vội cắm lá cờ ở góc vườn phía đông.",
+        "Gió gào rít, rừng cây ngoài kia cong rạp, cành gãy răng rắc.",
+        "Thế mà khu vườn của ông, không một bông hoa nào lay động.",
+        "Lúc ấy ông mới hiểu ra: cô Dương là cây liễu, cô Lý là cây mận,",
+        "cô Đào là cây đào, còn cô Lựu bướng bỉnh chính là cây lựu.",
+        "Và mười tám dì họ Phong chính là các nàng tiên gió."
+      ],
+      "image": {
+        "character": "thu-sinh",
+        "prompt": "a fierce wind bends the forest trees outside the garden wall, but inside the garden willow, plum, peach and pomegranate trees stand calm and blooming around a scarlet flag fluttering in the east corner, the scholar watching in wonder",
+        "seed": 1375505543
+      },
+      "video": {
+        "motionPrompt": "trees beyond the wall bend hard in the wind, the scarlet flag snaps bravely, inside the garden blossoms barely move, the scholar shields his eyes",
+        "seed": 2752195892
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Tối đến, các nàng tiên hoa mang tặng ông những bông hoa rực rỡ. Ông ăn hoa, bỗng trẻ lại như chàng trai đôi mươi, rồi sau này thành người tiên. Các bạn thấy không, ai yêu thương và che chở cây hoa, cây hoa sẽ mang lại niềm vui cho người ấy. Miu về tưới chậu hoa lựu đây. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Tối đến, các nàng tiên hoa mang tặng ông những bông hoa rực rỡ.",
+        "Ông ăn hoa, bỗng trẻ lại như chàng trai đôi mươi,",
+        "rồi sau này thành người tiên. Các bạn thấy không, ai yêu thương và che chở cây hoa,",
+        "cây hoa sẽ mang lại niềm vui cho người ấy. Miu về tưới chậu hoa lựu đây.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waters a little red pomegranate flower pot and waves goodbye, behind her the young-looking scholar and the flower fairy girls smile in a moonlit garden full of blossoms",
+        "seed": 1893322169
+      },
+      "video": {
+        "motionPrompt": "the cat tips her watering can and waves, petals swirl up into the moonlight, the fairies wave gently, slow camera pull back",
+        "seed": 4037068294
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "dreamy Chinese garden melody, soft guzheng zither and bamboo xiao flute, light wind chimes, gentle and magical, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1934131317
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-ca-dong-dat",
+  "shelf": "kids",
+  "title": "Con cá động đất",
+  "summary": "Người Nhật xưa kể rằng cả đất nước nằm trên lưng một con cá trê khổng lồ, mỗi lần nó vẫy đuôi là đất rung. May sao có thần Kashima ngày đêm canh giữ, dùng một tảng đá thần giữ cho cá nằm yên. Truyện dân gian Nhật Bản kể nhẹ cho bé, giải thích vì sao có động đất.",
+  "themes": [
+    "than-thoai",
+    "su-tich",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Nhật Bản «The Earthquake Fish», theo bản kể tiếng Anh của William Elliot Griffis trong Japanese Fairy World (1880; tác giả mất 1928), Project Gutenberg #29337, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản nào; bỏ câu so sánh râu cá với người nước ngoài của bản gốc, Mèo Miu dẫn chuyện mở đầu và kết thúc.",
+  "basedOn": "Truyện dân gian Nhật Bản (Griffis, 1880)",
+  "style": "Japanese myth picture-book illustration inspired by soft ukiyo-e woodblock prints, gentle watercolor colors, the islands of ancient Japan resting on the back of a gigantic friendly catfish in a blue sea, pine forests, small villages, a great mossy stone, calm reassuring mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 3081218708,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "kashima",
+      "name": "Thần Kashima",
+      "seed": 3190012377,
+      "sheetPrompt": "Kashima, a towering kind Japanese guardian god with a calm brave face, long black hair tied in loops at the ears in ancient style, white ancient tunic and wide trousers, a jade necklace, arms folded, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ca-tre",
+      "name": "Cá trê khổng lồ",
+      "seed": 2175878846,
+      "sheetPrompt": "a gigantic grumpy but cute Japanese catfish called namazu, dark grey-green smooth skin, a wide mouth, two long wiggly whiskers and sleepy eyes, cute storybook style, full body, side view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Có lần Miu đang ngủ, bỗng thấy giường rung rung, chén nước sóng sánh. Mẹ bảo đó là một trận động đất nhỏ. Ngày xưa, người Nhật Bản không biết vì sao đất lại rung, nên họ kể cho nhau nghe một câu chuyện về con cá động đất. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Có lần Miu đang ngủ, bỗng thấy giường rung rung, chén nước sóng sánh.",
+        "Mẹ bảo đó là một trận động đất nhỏ.",
+        "Ngày xưa, người Nhật Bản không biết vì sao đất lại rung,",
+        "nên họ kể cho nhau nghe một câu chuyện về con cá động đất. Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on her bed hugging a pillow, a glass of water on the bedside table with tiny ripples, an open picture book on her lap, a soft night lamp",
+        "seed": 2080938519
+      },
+      "video": {
+        "motionPrompt": "the water in the glass ripples gently, the cat blinks in surprise and then smiles, gentle camera push-in",
+        "seed": 3501621081
+      },
+      "voice": {}
+    },
+    {
+      "id": "dat-rung",
+      "title": "Mặt đất cứ rung mãi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xửa ngày xưa, khi các vị thần từ trên trời xuống dựng xây đất nước Nhật Bản, mặt đất rung lắc luôn luôn, chẳng có gì giữ cho yên. Nhà cửa nghiêng ngả, người dân lúc nào cũng lo lắng, chẳng ai ngủ được ngon giấc. Có hai vị thần được giao giữ yên miền đông bắc, tên là Kashima và Katori.",
+      "subtitles": [
+        "Ngày xửa ngày xưa, khi các vị thần từ trên trời xuống dựng xây đất nước Nhật Bản,",
+        "mặt đất rung lắc luôn luôn, chẳng có gì giữ cho yên.",
+        "Nhà cửa nghiêng ngả, người dân lúc nào cũng lo lắng, chẳng ai ngủ được ngon giấc.",
+        "Có hai vị thần được giao giữ yên miền đông bắc, tên là Kashima và Katori."
+      ],
+      "image": {
+        "character": "kashima",
+        "prompt": "two tall kind ancient gods stand on a hill looking down at small thatched villages where houses gently tilt and villagers hold onto each other, the ground softly wavy, worried but not frightening",
+        "seed": 3702883156
+      },
+      "video": {
+        "motionPrompt": "the ground sways softly, house roofs wobble, the two gods exchange a determined look and nod",
+        "seed": 2049775110
+      },
+      "voice": {}
+    },
+    {
+      "id": "tang-da-kaname",
+      "title": "Tảng đá Kaname",
+      "narrator": "ke-chuyen",
+      "narration": "Hai thần đến xứ Hitachi. Thần Kashima cắm thanh gươm thần xuống đất, xuyên suốt sang tận phía bên kia, chỉ còn chuôi gươm nhô lên trên mặt đất. Trăm năm, nghìn năm trôi qua, chuôi gươm hóa thành đá. Người ta gọi nó là đá Kaname, nghĩa là cái đinh chốt của chiếc quạt, cái chốt giữ cho các nan quạt không bung ra. Tảng đá ấy giữ cho cả mặt đất gắn chặt vào nhau. Không ai nhấc nổi nó, trừ thần Kashima.",
+      "subtitles": [
+        "Hai thần đến xứ Hitachi. Thần Kashima cắm thanh gươm thần xuống đất,",
+        "xuyên suốt sang tận phía bên kia, chỉ còn chuôi gươm nhô lên trên mặt đất.",
+        "Trăm năm, nghìn năm trôi qua, chuôi gươm hóa thành đá. Người ta gọi nó là đá Kaname,",
+        "nghĩa là cái đinh chốt của chiếc quạt, cái chốt giữ cho các nan quạt không bung ra.",
+        "Tảng đá ấy giữ cho cả mặt đất gắn chặt vào nhau. Không ai nhấc nổi nó, trừ thần Kashima."
+      ],
+      "image": {
+        "character": "kashima",
+        "prompt": "the great god Kashima plants a huge glowing pillar deep into the ground of a pine forest, beside it an old mossy round stone with a straw rope tied around it, a folding paper fan drawn in the sky showing its pivot",
+        "seed": 2091515832
+      },
+      "video": {
+        "motionPrompt": "the glowing pillar sinks into the earth with a soft shimmer, then slowly turns into mossy stone, moss and grass grow over it, pine trees sway",
+        "seed": 3845245557
+      },
+      "voice": {}
+    },
+    {
+      "id": "ca-tre-khong-lo",
+      "title": "Con cá trê khổng lồ",
+      "narrator": "ke-chuyen",
+      "narration": "Vậy vì sao đất vẫn rung? Người xưa kể rằng dưới đất có một con cá rất to, giống như cá trê, dài bảy trăm dặm. Cả nước Nhật nằm trên lưng nó! Đuôi nó ở tận phía bắc, đầu nó ở gần kinh đô. Miệng cá có hai sợi râu dài ngoằng. Hễ râu bắt đầu ngoe nguẩy là cá đang bực bội. Nó vẫy đuôi hay húc đầu một cái, là mặt đất phía trên rung lên.",
+      "subtitles": [
+        "Vậy vì sao đất vẫn rung?",
+        "Người xưa kể rằng dưới đất có một con cá rất to, giống như cá trê,",
+        "dài bảy trăm dặm. Cả nước Nhật nằm trên lưng nó!",
+        "Đuôi nó ở tận phía bắc, đầu nó ở gần kinh đô.",
+        "Miệng cá có hai sợi râu dài ngoằng. Hễ râu bắt đầu ngoe nguẩy là cá đang bực bội.",
+        "Nó vẫy đuôi hay húc đầu một cái, là mặt đất phía trên rung lên."
+      ],
+      "image": {
+        "character": "ca-tre",
+        "prompt": "a cross-section picture: the long islands of Japan with mountains, pine forests and tiny villages rest on the back of a gigantic sleepy catfish swimming in the deep blue underground sea, its two long whiskers starting to wiggle",
+        "seed": 1050364224
+      },
+      "video": {
+        "motionPrompt": "the giant catfish's whiskers wiggle, its tail gives a little flap, the villages on its back wobble gently, bubbles rise",
+        "seed": 2279364358
+      },
+      "voice": {}
+    },
+    {
+      "id": "than-canh-giu",
+      "title": "Thần Kashima canh giữ",
+      "narrator": "ke-chuyen",
+      "narration": "Để con cá nằm yên, thần Kashima được giao canh giữ nó ngày đêm. Hễ cá vùng vẫy dữ quá, thần nhảy lên lưng nó, giữ chặt mang, đặt chân lên vây, và khi cần, thần nhấc tảng đá Kaname đè lên đầu cá. Tảng đá nặng quá, con cá đành nằm im, và mặt đất lại yên lành.",
+      "subtitles": [
+        "Để con cá nằm yên, thần Kashima được giao canh giữ nó ngày đêm.",
+        "Hễ cá vùng vẫy dữ quá, thần nhảy lên lưng nó, giữ chặt mang, đặt chân lên vây,",
+        "và khi cần, thần nhấc tảng đá Kaname đè lên đầu cá.",
+        "Tảng đá nặng quá, con cá đành nằm im, và mặt đất lại yên lành."
+      ],
+      "image": {
+        "character": "kashima",
+        "prompt": "the big kind god Kashima sits on the head of the giant grumpy catfish, holding it calmly and pressing the huge mossy Kaname stone down on its head, the catfish closing its eyes and settling down, calm sea around",
+        "seed": 3684397845
+      },
+      "video": {
+        "motionPrompt": "Kashima lifts the mossy stone and sets it down gently, the catfish's whiskers stop wiggling and it settles with a sleepy sigh, the sea grows calm",
+        "seed": 340716022
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hat",
+      "title": "Bài hát của người dân",
+      "narrator": "ke-chuyen",
+      "narration": "Người dân yên tâm lắm, họ còn hát với nhau một bài hát: Đá Kaname chẳng ai lay được, dù con cá có kéo thật mạnh. Vì trên tảng đá luôn có thần Kashima đứng canh. Bài hát ấy được ông bà, cha mẹ truyền lại cho con cháu từ đời này sang đời khác.",
+      "subtitles": [
+        "Người dân yên tâm lắm, họ còn hát với nhau một bài hát:",
+        "Đá Kaname chẳng ai lay được, dù con cá có kéo thật mạnh.",
+        "Vì trên tảng đá luôn có thần Kashima đứng canh.",
+        "Bài hát ấy được ông bà, cha mẹ truyền lại cho con cháu từ đời này sang đời khác."
+      ],
+      "image": {
+        "character": "kashima",
+        "prompt": "villagers in an old Japanese village sing happily together, a mother holding her child, children holding hands in a circle, a tall friendly figure of the god Kashima watching over them in the distant clouds",
+        "seed": 4185426884
+      },
+      "video": {
+        "motionPrompt": "the villagers sway as they sing, children turn in a circle, the god in the clouds smiles and nods, cherry petals drift",
+        "seed": 215848679
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Ngày nay, các nhà khoa học đã biết động đất là do những tấm đá rất lớn dưới lòng đất xô vào nhau. Nhưng câu chuyện con cá trê và thần Kashima vẫn được người Nhật kể mãi. Nếu có lúc đất rung, các bạn nhớ nghe lời người lớn, nấp dưới gầm bàn thật an toàn nhé. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Ngày nay, các nhà khoa học đã biết động đất là do",
+        "những tấm đá rất lớn dưới lòng đất xô vào nhau.",
+        "Nhưng câu chuyện con cá trê và thần Kashima vẫn được người Nhật kể mãi.",
+        "Nếu có lúc đất rung, các bạn nhớ nghe lời người lớn, nấp dưới gầm bàn thật an toàn nhé.",
+        "Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye holding a small cute catfish plush toy, a picture book open on the floor showing a giant catfish under the islands of Japan, cosy room",
+        "seed": 411560865
+      },
+      "video": {
+        "motionPrompt": "the cat waves and wiggles the plush catfish's whiskers playfully, slow camera pull back",
+        "seed": 39744259
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "calm Japanese folk lullaby, koto and shakuhachi bamboo flute with soft low taiko rumbles that settle into peaceful stillness, gentle and reassuring, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 801113142
+  }
+}

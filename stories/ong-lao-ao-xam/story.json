@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "slug": "ong-lao-ao-xam",
+  "shelf": "world",
+  "title": "Ông lão áo xám",
+  "summary": "Một cô nữ tu, một anh nông dân và một bác thợ rèn trú nhờ trong lâu đài hoang giữa rừng. Ngày nào người ở nhà cũng bị một ông lão tí hon áo xám tới ăn sạch bữa trưa, mỗi lần lại thêm một cái đầu. Truyện cổ tích Đức trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "than-thoai",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Little Gray Man\" trong The Grey Fairy Book do Andrew Lang biên tập (1900; truyện cổ tích Đức, theo tập của Kletke), Project Gutenberg #6746, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ những đoạn xô xát với ông lão tí hon và con chó dữ, không chép bản dịch nào.",
+  "basedOn": "Truyện cổ tích Đức, Andrew Lang chép (1900)",
+  "style": "classic German fairy tale picture book illustration, a thick dark fir forest, a crumbling old castle with ivy, a cozy hearth and an iron door, warm firelight colors with deep forest green, slate grey and amber, gently mysterious mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ong-lao-xam",
+      "name": "Ông lão áo xám",
+      "sheetPrompt": "a tiny grumpy old man from an old German fairy tale, long grey beard, shabby grey hooded coat, shivering and greedy expression, a whimsical storybook dwarf, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1800118428
+    },
+    {
+      "id": "tho-ren",
+      "name": "Bác thợ rèn",
+      "sheetPrompt": "a strong cheerful blacksmith from an old German fairy tale, broad shoulders, short brown beard, leather apron over a rolled-sleeve shirt, holding a big iron hammer, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1656001401
+    },
+    {
+      "id": "nu-tu",
+      "name": "Cô nữ tu",
+      "sheetPrompt": "a kind young nun from an old German fairy tale, simple dark grey habit and white wimple, gentle face, carrying a sewing basket, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1711067814
+    }
+  ],
+  "scenes": [
+    {
+      "id": "lau-dai-hoang",
+      "title": "Lâu đài hoang",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có ba người cùng nhau đi khắp thế gian: một cô nữ tu, một anh nông dân và một bác thợ rèn. Một hôm họ lạc trong khu rừng rậm tối om, mừng rỡ khi thấy xa xa có bức tường một tòa nhà. Tới gần mới biết đó là một lâu đài cũ bỏ hoang, đổ nát gần hết, chỉ còn vài phòng ở được. Ba người không nhà không cửa, bèn quyết định ở lại. Họ giao hẹn: mỗi ngày một người ở nhà nấu nướng, hai người kia vào rừng tìm kế sinh nhai.",
+      "subtitles": [
+        "Ngày xưa có ba người cùng nhau đi khắp thế gian: một cô nữ tu,",
+        "một anh nông dân và một bác thợ rèn.",
+        "Một hôm họ lạc trong khu rừng rậm tối om, mừng rỡ khi thấy xa xa có bức tường một tòa nhà.",
+        "Tới gần mới biết đó là một lâu đài cũ bỏ hoang, đổ nát gần hết, chỉ còn vài phòng ở được.",
+        "Ba người không nhà không cửa, bèn quyết định ở lại.",
+        "Họ giao hẹn: mỗi ngày một người ở nhà nấu nướng, hai người kia vào rừng tìm kế sinh nhai."
+      ],
+      "image": {
+        "prompt": "three travellers, a young nun in grey, a peasant in a straw hat and a burly blacksmith, standing before a crumbling ivy-covered old castle in a thick dark fir forest at dusk",
+        "seed": 131108463,
+        "character": "tho-ren"
+      },
+      "video": {
+        "motionPrompt": "the travellers point toward the castle with relief, mist drifts between the fir trees, crows circle the old tower",
+        "seed": 852046686
+      },
+      "voice": {}
+    },
+    {
+      "id": "nu-tu-o-nha",
+      "title": "Cô nữ tu ở nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày đầu đến lượt cô nữ tu ở nhà. Cô dọn dẹp, nấu ăn, ăn phần mình, cất phần hai bạn vào lò cho ấm. Cô vừa ngồi xuống khâu vá thì cửa mở, một ông lão tí hon áo xám bước vào: “Ôi, lạnh quá!” Cô thương tình: “Ông ngồi bên lò sưởi cho ấm đi.” Một lát sau ông lão kêu: “Ôi, đói quá!” “Trong lò có thức ăn, ông ăn đi.” Chẳng cần mời lần hai, ông lão ăn sạch không chừa một miếng. Cô nữ tu giận lắm, trách ông chẳng để phần cho ai. Ông lão nổi cơn tam bành, xô cô ngã dúi dụi, đẩy cô hết vào tường bên này lại sang tường bên kia, rồi bỏ đi mất. Tối về, hai bạn đói meo, trách cô ăn hết, chẳng ai tin lời cô kể.",
+      "subtitles": [
+        "Ngày đầu đến lượt cô nữ tu ở nhà.",
+        "Cô dọn dẹp, nấu ăn, ăn phần mình, cất phần hai bạn vào lò cho ấm.",
+        "Cô vừa ngồi xuống khâu vá thì cửa mở, một ông lão tí hon áo xám bước vào: “Ôi, lạnh quá!”",
+        "Cô thương tình: “Ông ngồi bên lò sưởi cho ấm đi.”",
+        "Một lát sau ông lão kêu: “Ôi, đói quá!” “Trong lò có thức ăn, ông ăn đi.”",
+        "Chẳng cần mời lần hai, ông lão ăn sạch không chừa một miếng.",
+        "Cô nữ tu giận lắm, trách ông chẳng để phần cho ai.",
+        "Ông lão nổi cơn tam bành, xô cô ngã dúi dụi,",
+        "đẩy cô hết vào tường bên này lại sang tường bên kia, rồi bỏ đi mất.",
+        "Tối về, hai bạn đói meo, trách cô ăn hết, chẳng ai tin lời cô kể."
+      ],
+      "image": {
+        "prompt": "a cozy castle kitchen with a glowing hearth, a tiny old man in a shabby grey hooded coat greedily eating from a big pot, a young nun in grey with her sewing dropped, looking shocked",
+        "seed": 4913450,
+        "character": "ong-lao-xam"
+      },
+      "video": {
+        "motionPrompt": "the tiny old man gobbles from the pot, the fire crackles, the nun stands up with hands on her hips",
+        "seed": 546264942
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-cai-dau",
+      "title": "Hai cái đầu",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm sau, anh nông dân xin ở nhà, hứa sẽ không để ai phải đi ngủ với bụng đói. Anh nấu nướng, ăn phần mình, cất phần còn lại vào lò. Vừa dọn xong thì ông lão áo xám lại vào, lần này có tới hai cái đầu. Ông run cầm cập: “Ôi, lạnh quá!” Anh nông dân sợ hết hồn, vội mời ông ngồi sưởi. “Ôi, đói quá!” “Trong lò có thức ăn đấy.” Ông lão ăn bằng cả hai cái đầu, chẳng mấy chốc sạch trơn. Anh nông dân vừa trách một câu, ông lão lại xô anh ngã nhào khắp phòng như với cô nữ tu, rồi đi mất. Tối đó, bác thợ rèn về thấy chẳng còn gì ăn, nổi giận đùng đùng, thề rằng mai bác sẽ ở nhà và không ai phải nhịn đói nữa.",
+      "subtitles": [
+        "Hôm sau, anh nông dân xin ở nhà, hứa sẽ không để ai phải đi ngủ với bụng đói.",
+        "Anh nấu nướng, ăn phần mình, cất phần còn lại vào lò.",
+        "Vừa dọn xong thì ông lão áo xám lại vào, lần này có tới hai cái đầu.",
+        "Ông run cầm cập: “Ôi, lạnh quá!” Anh nông dân sợ hết hồn, vội mời ông ngồi sưởi.",
+        "“Ôi, đói quá!” “Trong lò có thức ăn đấy.”",
+        "Ông lão ăn bằng cả hai cái đầu, chẳng mấy chốc sạch trơn.",
+        "Anh nông dân vừa trách một câu, ông lão lại xô anh ngã nhào khắp phòng như với cô nữ tu,",
+        "rồi đi mất. Tối đó, bác thợ rèn về thấy chẳng còn gì ăn, nổi giận đùng đùng,",
+        "thề rằng mai bác sẽ ở nhà và không ai phải nhịn đói nữa."
+      ],
+      "image": {
+        "prompt": "a whimsical tiny old man with two bearded heads in a grey hooded coat eating hungrily by the hearth, a frightened peasant in a straw hat peeking from behind a chair, storybook style",
+        "seed": 1821031122,
+        "character": "ong-lao-xam"
+      },
+      "video": {
+        "motionPrompt": "both heads chew busily, the peasant trembles behind the chair, sparks rise from the fire",
+        "seed": 1750061587
+      },
+      "voice": {}
+    },
+    {
+      "id": "bac-tho-ren",
+      "title": "Bác thợ rèn",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, bác thợ rèn ở nhà nấu ăn. Ông lão áo xám lại tới, lần này có ba cái đầu. Ông kêu lạnh, bác mời ngồi sưởi. Ông kêu đói, bác xới một đĩa thức ăn cho. Ông ăn hết vèo, rồi đưa sáu con mắt nhìn quanh đòi thêm. Bác thợ rèn nhất định không cho. Ông lão nổi giận, xông vào định xô bác như hai người kia. Nhưng bác thợ rèn đâu dễ bắt nạt. Bác vớ lấy cây búa to, giáng một nhát, hai cái đầu thừa của ông lão văng xuống sàn. Ông lão la oai oái, cắm đầu chạy. Bác đuổi theo một quãng thật xa, tới một cánh cửa sắt thì ông lão lách vào, cửa đóng sập lại. Bác đành quay về, đặt bữa tối lên bàn cho hai bạn, kể lại mọi chuyện. Ba người quyết định ngày mai đi tìm ông lão, để thoát khỏi phép của lão.",
+      "subtitles": [
+        "Sáng hôm sau, bác thợ rèn ở nhà nấu ăn. Ông lão áo xám lại tới, lần này có ba cái đầu.",
+        "Ông kêu lạnh, bác mời ngồi sưởi. Ông kêu đói, bác xới một đĩa thức ăn cho.",
+        "Ông ăn hết vèo, rồi đưa sáu con mắt nhìn quanh đòi thêm.",
+        "Bác thợ rèn nhất định không cho. Ông lão nổi giận, xông vào định xô bác như hai người kia.",
+        "Nhưng bác thợ rèn đâu dễ bắt nạt.",
+        "Bác vớ lấy cây búa to, giáng một nhát, hai cái đầu thừa của ông lão văng xuống sàn.",
+        "Ông lão la oai oái, cắm đầu chạy.",
+        "Bác đuổi theo một quãng thật xa, tới một cánh cửa sắt thì ông lão lách vào,",
+        "cửa đóng sập lại. Bác đành quay về, đặt bữa tối lên bàn cho hai bạn, kể lại mọi chuyện.",
+        "Ba người quyết định ngày mai đi tìm ông lão, để thoát khỏi phép của lão."
+      ],
+      "image": {
+        "prompt": "a burly blacksmith in a leather apron raising a big iron hammer in a castle kitchen, a tiny three-headed old man in a grey coat leaping back in surprise, pots and a table of food nearby, comical storybook style",
+        "seed": 1902852382,
+        "character": "tho-ren"
+      },
+      "video": {
+        "motionPrompt": "the blacksmith swings the hammer, the tiny man tumbles and scurries out the door, the fire flares brightly",
+        "seed": 2759571939
+      },
+      "voice": {}
+    },
+    {
+      "id": "canh-cua-sat",
+      "title": "Cánh cửa sắt",
+      "narrator": "ke-chuyen",
+      "narration": "Ba người đi rất xa, tìm mãi mới thấy cánh cửa sắt, lại phải vất vả lắm mới phá được ổ khóa. Bên trong là một gian sảnh lớn, một cô gái trẻ xinh đẹp đang ngồi làm việc bên bàn. Thấy họ, cô quỳ xuống, rưng rưng cảm ơn đã cứu mình. Cô là con gái một ông vua, bị một phù thủy hùng mạnh giam trong lâu đài. Trưa hôm qua, cô bỗng thấy phép thuật trói buộc mình tan biến, và từ đó cô ngóng đợi người tới cứu. Cô kể còn một nàng công chúa nữa cũng bị giam. Họ đi qua bao nhiêu phòng thì tìm được nàng thứ hai, cũng mừng rỡ cảm ơn không ngớt. Hai nàng nói dưới hầm lâu đài có một kho báu lớn, nhưng có một con chó dữ canh giữ.",
+      "subtitles": [
+        "Ba người đi rất xa, tìm mãi mới thấy cánh cửa sắt,",
+        "lại phải vất vả lắm mới phá được ổ khóa.",
+        "Bên trong là một gian sảnh lớn, một cô gái trẻ xinh đẹp đang ngồi làm việc bên bàn.",
+        "Thấy họ, cô quỳ xuống, rưng rưng cảm ơn đã cứu mình.",
+        "Cô là con gái một ông vua, bị một phù thủy hùng mạnh giam trong lâu đài.",
+        "Trưa hôm qua, cô bỗng thấy phép thuật trói buộc mình tan biến,",
+        "và từ đó cô ngóng đợi người tới cứu. Cô kể còn một nàng công chúa nữa cũng bị giam.",
+        "Họ đi qua bao nhiêu phòng thì tìm được nàng thứ hai, cũng mừng rỡ cảm ơn không ngớt.",
+        "Hai nàng nói dưới hầm lâu đài có một kho báu lớn, nhưng có một con chó dữ canh giữ."
+      ],
+      "image": {
+        "prompt": "a heavy iron door swung open into a grand dim hall, a lovely young princess in a pale blue gown rising from a table with tears of joy, the nun, the peasant and the blacksmith entering with lanterns",
+        "seed": 722928773,
+        "character": "nu-tu"
+      },
+      "video": {
+        "motionPrompt": "lantern light spreads across the hall, the princess rises and clasps her hands, dust motes glitter in the air",
+        "seed": 103626063
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoang-tu-thoat-phep",
+      "title": "Hoàng tử thoát phép",
+      "narrator": "ke-chuyen",
+      "narration": "Chẳng chút nao núng, cả nhóm xuống hầm. Con chó dữ đứng canh trước kho báu đúng như lời hai nàng. Bác thợ rèn chỉ cần một nhát búa, con chó ngã gục, không bao giờ trỗi dậy được nữa. Trước mắt họ là một căn hầm vòm đầy vàng bạc châu báu. Bên kho báu, một chàng trai trẻ khôi ngô bước tới cảm ơn ba người. Chàng là một hoàng tử, bị phù thủy độc ác đày tới đây và biến thành ông lão tí hon ba đầu. Khi mất hai cái đầu, phép giam hai nàng công chúa được giải. Khi con chó dữ bị hạ, chàng cũng được tự do. Để tạ ơn, hoàng tử xin ba người chia nhau kho báu. Của nhiều tới nỗi chia mãi mới xong. Một nàng công chúa lấy bác thợ rèn, nàng kia lấy anh nông dân, còn hoàng tử thì cưới cô nữ tu. Từ đó, tất cả sống bên nhau vui vẻ trọn đời.",
+      "subtitles": [
+        "Chẳng chút nao núng, cả nhóm xuống hầm.",
+        "Con chó dữ đứng canh trước kho báu đúng như lời hai nàng.",
+        "Bác thợ rèn chỉ cần một nhát búa, con chó ngã gục, không bao giờ trỗi dậy được nữa.",
+        "Trước mắt họ là một căn hầm vòm đầy vàng bạc châu báu.",
+        "Bên kho báu, một chàng trai trẻ khôi ngô bước tới cảm ơn ba người.",
+        "Chàng là một hoàng tử, bị phù thủy độc ác đày tới đây và biến thành ông lão tí hon ba đầu.",
+        "Khi mất hai cái đầu, phép giam hai nàng công chúa được giải.",
+        "Khi con chó dữ bị hạ, chàng cũng được tự do.",
+        "Để tạ ơn, hoàng tử xin ba người chia nhau kho báu.",
+        "Của nhiều tới nỗi chia mãi mới xong.",
+        "Một nàng công chúa lấy bác thợ rèn, nàng kia lấy anh nông dân,",
+        "còn hoàng tử thì cưới cô nữ tu. Từ đó, tất cả sống bên nhau vui vẻ trọn đời."
+      ],
+      "image": {
+        "prompt": "a vaulted castle cellar glittering with heaps of gold, silver and jewels, a handsome young prince in a grey and silver doublet bowing in thanks to a nun, a peasant and a blacksmith, two princesses smiling beside them",
+        "seed": 1265220590,
+        "character": "nu-tu"
+      },
+      "video": {
+        "motionPrompt": "jewels sparkle in the lantern light, the prince bows deeply, everyone laughs and embraces",
+        "seed": 2947652289
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle German folk instrumental with fiddle, recorder and soft accordion, mysterious and playful, warming to a happy dance at the end, no vocals",
+    "durationSeconds": 150,
+    "seed": 2922144996
+  }
+}
