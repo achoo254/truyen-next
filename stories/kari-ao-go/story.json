@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "slug": "kari-ao-go",
+  "shelf": "world",
+  "title": "Kari áo gỗ",
+  "summary": "Bị dì ghẻ hắt hủi, nàng công chúa cưỡi chú bò xanh thần kỳ băng qua rừng đồng, rừng bạc, rừng vàng, rồi khoác chiếc áo gỗ thô kệch làm cô rửa bát trong cung một hoàng tử. Truyện cổ Na Uy trong tuyển tập của Andrew Lang, một nàng Lọ Lem phương Bắc kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "tinh-yeu",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"Kari Woodengown\" trong The Red Fairy Book do Andrew Lang biên tập (1890, theo Asbjørnsen), Project Gutenberg, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ các đoạn dữ dằn (chú bò thắng quỷ khổng lồ rồi bước vào vách đá thay cho cảnh bị hạ, cô em kế ướm giày không vừa), không chép bản dịch nào.",
+  "basedOn": "Andrew Lang, The Red Fairy Book (1890)",
+  "style": "classic Norwegian fairy tale picture book illustration in the style of early twentieth century Scandinavian storybooks, snowy fells, fjords, a wooden stave church, glittering copper, silver and golden forests, a big gentle blue bull, warm watercolor and ink, colors of copper, silver, gold, pine green and cream, magical and cozy, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "kari",
+      "name": "Kari",
+      "sheetPrompt": "a kind beautiful princess from a Norwegian fairy tale, long golden braid, sometimes wearing a stiff clumsy dark wooden gown like a barrel, gentle brave eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2099660046
+    },
+    {
+      "id": "bo-xanh",
+      "name": "Chú bò xanh",
+      "sheetPrompt": "a big gentle magical blue bull with soft fur, kind dark eyes and smooth curved horns, sleek and shining, full body, front and side views, plain light background, character reference sheet",
+      "seed": 445607375
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "sheetPrompt": "a proud young prince from a Norwegian fairy tale, dark hair, fur trimmed red cloak, full body, front and side views, plain light background, character reference sheet",
+      "seed": 589003625
+    }
+  ],
+  "scenes": [
+    {
+      "id": "chu-bo-xanh",
+      "title": "Chú bò xanh biết nói",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có ông vua goá vợ, có cô con gái vừa xinh đẹp vừa khôn ngoan. Vua lấy một bà hoàng goá cũng có con gái riêng, nhưng hai mẹ con bà vừa xấu tính vừa ghen ghét. Khi vua đi đánh trận, dì ghẻ bỏ đói công chúa, bắt nàng đi chăn bò ngoài đồng. Trong đàn có một chú bò xanh to lớn, mượt mà, hay đến cho nàng vuốt ve. Một hôm thấy nàng khóc, chú bò cất tiếng: \"Ta biết vì sao nàng buồn. Trong tai trái của ta có một tấm khăn, trải ra là có bao nhiêu món ngon tuỳ thích.\" Nàng làm theo, và tấm khăn đầy ắp thức ăn. Chẳng bao lâu nàng lại hồng hào, tươi tắn.",
+      "subtitles": [
+        "Ngày xưa có ông vua goá vợ, có cô con gái vừa xinh đẹp vừa khôn ngoan.",
+        "Vua lấy một bà hoàng goá cũng có con gái riêng,",
+        "nhưng hai mẹ con bà vừa xấu tính vừa ghen ghét.",
+        "Khi vua đi đánh trận, dì ghẻ bỏ đói công chúa, bắt nàng đi chăn bò ngoài đồng.",
+        "Trong đàn có một chú bò xanh to lớn, mượt mà, hay đến cho nàng vuốt ve.",
+        "Một hôm thấy nàng khóc, chú bò cất tiếng: \"Ta biết vì sao nàng buồn.",
+        "Trong tai trái của ta có một tấm khăn, trải ra là có bao nhiêu món ngon tuỳ thích.\"",
+        "Nàng làm theo, và tấm khăn đầy ắp thức ăn.",
+        "Chẳng bao lâu nàng lại hồng hào, tươi tắn."
+      ],
+      "image": {
+        "prompt": "a thin sad princess herding cattle in a green meadow by a fjord, a big gentle blue bull nuzzling her, a magic cloth spread on the grass covered with delicious dishes and cakes",
+        "seed": 4153935721,
+        "character": "bo-xanh"
+      },
+      "video": {
+        "motionPrompt": "the blue bull lowers his head kindly, the cloth unfolds and dishes appear with a sparkle, cows graze in the background",
+        "seed": 60520958
+      },
+      "voice": {}
+    },
+    {
+      "id": "tron-di-trong-dem",
+      "title": "Trốn đi trong đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Dì ghẻ sai người hầu rình, biết được bí mật của tấm khăn. Khi vua thắng trận trở về, mụ giả vờ ốm, đút tiền cho thầy thuốc phán rằng chỉ có thịt bò xanh mới chữa khỏi bệnh. Cả cung xin tha cho chú bò, nhưng vô ích. Công chúa xuống chuồng ôm chú bò mà khóc. Chú bò nói: \"Họ bắt ta xong, chẳng mấy chốc sẽ đến lượt nàng. Nếu nàng muốn, đêm nay chúng ta cùng đi.\" Đêm ấy, khi mọi người đã ngủ, nàng nhẹ nhàng trèo lên lưng chú bò, và hai bạn lặng lẽ rời khỏi cung.",
+      "subtitles": [
+        "Dì ghẻ sai người hầu rình, biết được bí mật của tấm khăn.",
+        "Khi vua thắng trận trở về, mụ giả vờ ốm,",
+        "đút tiền cho thầy thuốc phán rằng chỉ có thịt bò xanh mới chữa khỏi bệnh.",
+        "Cả cung xin tha cho chú bò, nhưng vô ích.",
+        "Công chúa xuống chuồng ôm chú bò mà khóc.",
+        "Chú bò nói: \"Họ bắt ta xong, chẳng mấy chốc sẽ đến lượt nàng.",
+        "Nếu nàng muốn, đêm nay chúng ta cùng đi.\"",
+        "Đêm ấy, khi mọi người đã ngủ, nàng nhẹ nhàng trèo lên lưng chú bò,",
+        "và hai bạn lặng lẽ rời khỏi cung."
+      ],
+      "image": {
+        "prompt": "night in a castle courtyard, the princess quietly climbing onto the back of the big blue bull, moonlight on the snowy roofs, a sly queen's silhouette in a lit window",
+        "seed": 585435782,
+        "character": "bo-xanh"
+      },
+      "video": {
+        "motionPrompt": "the bull walks softly out of the gate, the princess holds on tight, stars twinkle, the window light flickers",
+        "seed": 970870623
+      },
+      "voice": {}
+    },
+    {
+      "id": "rung-dong-rung-bac",
+      "title": "Rừng đồng và rừng bạc",
+      "narrator": "ke-chuyen",
+      "narration": "Hai bạn đi qua bao miền đất, đến một khu rừng mà cây, cành, lá, hoa đều bằng đồng. Chú bò dặn: \"Nàng đừng chạm vào chiếc lá nào, khu rừng này của quỷ khổng lồ ba đầu.\" Nàng cẩn thận gạt cành, nhưng rừng rậm quá, một chiếc lá đồng vẫn rơi vào tay nàng. \"Giữ kỹ chiếc lá nhé,\" chú bò bảo. Quỷ ba đầu ầm ầm chạy tới: \"Đứa nào động vào rừng của ta?\" Chú bò húc nhau với quỷ suốt một ngày, cuối cùng đuổi được quỷ đi mãi mãi. Chú mệt lả, nàng lấy sừng thuốc mỡ bên hông quỷ để lại, xoa cho chú khoẻ lại. Đến rừng bạc, chuyện y như thế, nàng lỡ hái một chiếc lá bạc, và chú bò phải vất vả ba ngày mới thắng được quỷ sáu đầu.",
+      "subtitles": [
+        "Hai bạn đi qua bao miền đất, đến một khu rừng mà cây, cành, lá, hoa đều bằng đồng.",
+        "Chú bò dặn: \"Nàng đừng chạm vào chiếc lá nào, khu rừng này của quỷ khổng lồ ba đầu.\"",
+        "Nàng cẩn thận gạt cành, nhưng rừng rậm quá, một chiếc lá đồng vẫn rơi vào tay nàng.",
+        "\"Giữ kỹ chiếc lá nhé,\" chú bò bảo.",
+        "Quỷ ba đầu ầm ầm chạy tới: \"Đứa nào động vào rừng của ta?\"",
+        "Chú bò húc nhau với quỷ suốt một ngày, cuối cùng đuổi được quỷ đi mãi mãi.",
+        "Chú mệt lả, nàng lấy sừng thuốc mỡ bên hông quỷ để lại, xoa cho chú khoẻ lại.",
+        "Đến rừng bạc, chuyện y như thế, nàng lỡ hái một chiếc lá bạc,",
+        "và chú bò phải vất vả ba ngày mới thắng được quỷ sáu đầu."
+      ],
+      "image": {
+        "prompt": "the princess riding the blue bull through a glittering forest where every tree, leaf and flower is made of shining copper, beyond it a forest of silver, a big clumsy three headed troll stomping in the distance",
+        "seed": 635395449,
+        "character": "kari"
+      },
+      "video": {
+        "motionPrompt": "copper leaves tinkle and shimmer as the bull pushes through, the troll waves its arms, the bull lowers its horns bravely",
+        "seed": 2860598569
+      },
+      "voice": {}
+    },
+    {
+      "id": "rung-vang",
+      "title": "Quả táo trong rừng vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Rồi họ tới một khu rừng toàn bằng vàng, vàng lấp lánh nhỏ giọt xuống. Chú bò dặn đi dặn lại, vì quỷ chín đầu ở đây khỏe hơn hai con kia cộng lại. Nhưng cành cây cứ quất vào mắt, chẳng biết từ lúc nào, nàng đã cầm trong tay một quả táo vàng. Nàng hoảng sợ bật khóc, chú bò an ủi: \"Giữ kỹ quả táo nhé.\" Quỷ chín đầu gầm lên lao tới. Trận húc nhau dữ dội kéo dài cả tuần, cuối cùng chú bò cũng đuổi được quỷ đi mãi mãi. Chú kiệt sức, nằm không nhúc nhích. Không cần chú dặn, nàng tự lấy sừng thuốc mỡ xoa cho chú, rồi ngồi chăm chú suốt ba tuần liền.",
+      "subtitles": [
+        "Rồi họ tới một khu rừng toàn bằng vàng, vàng lấp lánh nhỏ giọt xuống.",
+        "Chú bò dặn đi dặn lại, vì quỷ chín đầu ở đây khỏe hơn hai con kia cộng lại.",
+        "Nhưng cành cây cứ quất vào mắt, chẳng biết từ lúc nào,",
+        "nàng đã cầm trong tay một quả táo vàng.",
+        "Nàng hoảng sợ bật khóc, chú bò an ủi: \"Giữ kỹ quả táo nhé.\"",
+        "Quỷ chín đầu gầm lên lao tới.",
+        "Trận húc nhau dữ dội kéo dài cả tuần, cuối cùng chú bò cũng đuổi được quỷ đi mãi mãi.",
+        "Chú kiệt sức, nằm không nhúc nhích.",
+        "Không cần chú dặn, nàng tự lấy sừng thuốc mỡ xoa cho chú,",
+        "rồi ngồi chăm chú suốt ba tuần liền."
+      ],
+      "image": {
+        "prompt": "a forest of pure gold dripping with golden light, the princess holding a golden apple with a worried face, the brave blue bull facing an enormous clumsy nine headed troll among golden trees",
+        "seed": 2367304291,
+        "character": "kari"
+      },
+      "video": {
+        "motionPrompt": "golden leaves drip sparkling light, the princess clutches the apple, the bull paws the ground and charges bravely",
+        "seed": 2324243566
+      },
+      "voice": {}
+    },
+    {
+      "id": "ao-go",
+      "title": "Chiếc áo gỗ",
+      "narrator": "ke-chuyen",
+      "narration": "Họ vượt bao đồi núi, đến một vách đá cao, từ đó nhìn thấy một toà lâu đài. Chú bò nói: \"Dưới lâu đài có túp lều, trong ấy có chiếc áo bằng gỗ. Nàng mặc vào, xưng là Kari áo gỗ, xin làm việc trong cung. Giờ ta phải ở lại trong vách đá này. Nàng cất chiếc lá đồng, lá bạc và quả táo vàng ở đây. Khi cần ta, hãy lấy cây gậy bên vách mà gõ.\" Nói rồi chú bò toả ánh sáng dịu, bước vào vách đá. Nàng vừa đi vừa khóc. Nàng khoác chiếc áo gỗ cứng đơ, vào bếp xin rửa bát. Đầu bếp nhận ngay: \"Rồi cô cũng chán mà bỏ đi thôi.\" Nàng đáp: \"Không đâu,\" rồi rửa bát thật sạch sẽ.",
+      "subtitles": [
+        "Họ vượt bao đồi núi, đến một vách đá cao, từ đó nhìn thấy một toà lâu đài.",
+        "Chú bò nói: \"Dưới lâu đài có túp lều, trong ấy có chiếc áo bằng gỗ.",
+        "Nàng mặc vào, xưng là Kari áo gỗ, xin làm việc trong cung.",
+        "Giờ ta phải ở lại trong vách đá này.",
+        "Nàng cất chiếc lá đồng, lá bạc và quả táo vàng ở đây.",
+        "Khi cần ta, hãy lấy cây gậy bên vách mà gõ.\"",
+        "Nói rồi chú bò toả ánh sáng dịu, bước vào vách đá. Nàng vừa đi vừa khóc.",
+        "Nàng khoác chiếc áo gỗ cứng đơ, vào bếp xin rửa bát.",
+        "Đầu bếp nhận ngay: \"Rồi cô cũng chán mà bỏ đi thôi.\"",
+        "Nàng đáp: \"Không đâu,\" rồi rửa bát thật sạch sẽ."
+      ],
+      "image": {
+        "prompt": "on a high fell the princess and the blue bull looking at a castle far away, a tall rock wall with a magic stick leaning beside it, the princess holding a stiff clumsy wooden gown, the bull glowing softly as he steps into the rock",
+        "seed": 2334588805,
+        "character": "kari"
+      },
+      "video": {
+        "motionPrompt": "the bull's outline glows and melts gently into the rock wall, the princess waves goodbye with tears, wind blows over the fell",
+        "seed": 3707441650
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-ngay-chu-nhat",
+      "title": "Ba ngày Chủ nhật",
+      "narrator": "ke-chuyen",
+      "narration": "Chủ nhật, Kari xin bưng nước rửa mặt lên cho hoàng tử. Áo gỗ kêu lạch cạch trên cầu thang, hoàng tử chê: \"Ai thèm nước do thứ như cô mang lên,\" rồi hắt nước vào nàng. Kari xin đi lễ nhà thờ, ra gõ vách đá. Một người đàn ông bước ra, trao cho nàng bộ váy sáng như rừng đồng và một con ngựa đẹp. Ở nhà thờ, ai cũng ngắm nàng, hoàng tử chẳng rời mắt. Chàng giữ được chiếc găng tay của nàng, hỏi nàng từ đâu đến. \"Từ xứ Chậu Nước,\" nàng đáp, rồi khẽ nói: \"Sau lưng tối mịt, trước mặt sáng đường, để hoàng tử chẳng thấy ta về đâu!\" Chủ nhật sau, chuyện lặp lại với chiếc khăn mặt và bộ váy bạc, nàng xưng từ xứ Khăn Mặt. Chủ nhật thứ ba, với chiếc lược và bộ váy vàng, nàng xưng từ xứ Chiếc Lược. Lần này hoàng tử đổ nhựa thông ở cửa, và một chiếc giày vàng của nàng dính lại.",
+      "subtitles": [
+        "Chủ nhật, Kari xin bưng nước rửa mặt lên cho hoàng tử.",
+        "Áo gỗ kêu lạch cạch trên cầu thang, hoàng tử chê:",
+        "\"Ai thèm nước do thứ như cô mang lên,\" rồi hắt nước vào nàng.",
+        "Kari xin đi lễ nhà thờ, ra gõ vách đá.",
+        "Một người đàn ông bước ra, trao cho nàng bộ váy sáng như rừng đồng và một con ngựa đẹp.",
+        "Ở nhà thờ, ai cũng ngắm nàng, hoàng tử chẳng rời mắt.",
+        "Chàng giữ được chiếc găng tay của nàng, hỏi nàng từ đâu đến.",
+        "\"Từ xứ Chậu Nước,\" nàng đáp, rồi khẽ nói: \"Sau lưng tối mịt,",
+        "trước mặt sáng đường, để hoàng tử chẳng thấy ta về đâu!\"",
+        "Chủ nhật sau, chuyện lặp lại với chiếc khăn mặt và bộ váy bạc, nàng xưng từ xứ Khăn Mặt.",
+        "Chủ nhật thứ ba, với chiếc lược và bộ váy vàng, nàng xưng từ xứ Chiếc Lược.",
+        "Lần này hoàng tử đổ nhựa thông ở cửa, và một chiếc giày vàng của nàng dính lại."
+      ],
+      "image": {
+        "prompt": "the princess in a shining copper gown riding a fine horse in front of a little wooden stave church, the admiring prince holding a dropped glove, villagers staring in wonder, a clumsy girl in a wooden gown climbing stairs in the background",
+        "seed": 5943177,
+        "character": "kari"
+      },
+      "video": {
+        "motionPrompt": "the copper gown sparkles, the horse turns and gallops off, a soft mist swirls behind her and hides her path",
+        "seed": 3562570903
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-giay-vang",
+      "title": "Chiếc giày vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử đi khắp thế gian hỏi xứ Chiếc Lược ở đâu, chẳng ai biết. Chàng bèn rao rằng ai đi vừa chiếc giày vàng, chàng sẽ cưới làm vợ. Cô gái khắp nơi kéo đến, chẳng ai vừa. Rồi dì ghẻ cũng dắt con gái tới, cô ta cố nhét chân thật mạnh cho chiếc giày khép vào. Hoàng tử miễn cưỡng chuẩn bị đám cưới. Nhưng trên đường đến nhà thờ, một chú chim nhỏ đậu trên cành hót: \"Giày vàng của Kari áo gỗ, chân kia nhét vào đâu có vừa!\" Hoàng tử hiểu tiếng chim, cho tháo giày ra xem, quả nhiên chẳng vừa chút nào.",
+      "subtitles": [
+        "Hoàng tử đi khắp thế gian hỏi xứ Chiếc Lược ở đâu, chẳng ai biết.",
+        "Chàng bèn rao rằng ai đi vừa chiếc giày vàng, chàng sẽ cưới làm vợ.",
+        "Cô gái khắp nơi kéo đến, chẳng ai vừa.",
+        "Rồi dì ghẻ cũng dắt con gái tới, cô ta cố nhét chân thật mạnh cho chiếc giày khép vào.",
+        "Hoàng tử miễn cưỡng chuẩn bị đám cưới.",
+        "Nhưng trên đường đến nhà thờ, một chú chim nhỏ đậu trên cành hót:",
+        "\"Giày vàng của Kari áo gỗ, chân kia nhét vào đâu có vừa!\"",
+        "Hoàng tử hiểu tiếng chim, cho tháo giày ra xem, quả nhiên chẳng vừa chút nào."
+      ],
+      "image": {
+        "prompt": "a palace hall where many maidens line up to try a tiny golden shoe, the stepsister in a bridal veil looking sulky, a little bird singing on a tree branch by the window",
+        "seed": 535636482,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the little bird hops and sings, maidens shake their heads one after another, the prince frowns thoughtfully",
+        "seed": 1330114240
+      },
+      "voice": {}
+    },
+    {
+      "id": "kari-thu-giay",
+      "title": "Kari thử giày",
+      "narrator": "ke-chuyen",
+      "narration": "Tất cả cô hầu trong cung lần lượt thử giày, không ai vừa. \"Thế còn Kari áo gỗ đâu?\" hoàng tử hỏi. Mọi người cười ồ: \"Con bé ấy chân to như chân ngựa!\" Hoàng tử bảo: \"Ai cũng thử rồi, Kari cũng được thử.\" Kari lên cầu thang, áo gỗ kêu lạch cạch như cả đoàn kỵ binh. Người hầu trêu chọc, nhưng nàng xỏ chân vào giày nhẹ tênh. Nàng cởi bỏ áo gỗ, hiện ra trong bộ váy vàng rực như nắng, chân kia mang chiếc giày vàng còn lại. Hoàng tử nhận ra nàng ngay, mừng rỡ chạy đến nắm tay nàng. Khi biết nàng là công chúa, chàng càng vui hơn. Rồi đám cưới linh đình được tổ chức, ấm áp như nắng mùa hè phương Bắc.",
+      "subtitles": [
+        "Tất cả cô hầu trong cung lần lượt thử giày, không ai vừa.",
+        "\"Thế còn Kari áo gỗ đâu?\" hoàng tử hỏi.",
+        "Mọi người cười ồ: \"Con bé ấy chân to như chân ngựa!\"",
+        "Hoàng tử bảo: \"Ai cũng thử rồi, Kari cũng được thử.\"",
+        "Kari lên cầu thang, áo gỗ kêu lạch cạch như cả đoàn kỵ binh.",
+        "Người hầu trêu chọc, nhưng nàng xỏ chân vào giày nhẹ tênh.",
+        "Nàng cởi bỏ áo gỗ, hiện ra trong bộ váy vàng rực như nắng,",
+        "chân kia mang chiếc giày vàng còn lại.",
+        "Hoàng tử nhận ra nàng ngay, mừng rỡ chạy đến nắm tay nàng.",
+        "Khi biết nàng là công chúa, chàng càng vui hơn.",
+        "Rồi đám cưới linh đình được tổ chức, ấm áp như nắng mùa hè phương Bắc."
+      ],
+      "image": {
+        "prompt": "Kari slipping her foot easily into the golden shoe, the clumsy wooden gown falling away to reveal a radiant golden dress, the delighted prince reaching for her hands, surprised servants in the doorway",
+        "seed": 85135549,
+        "character": "kari"
+      },
+      "video": {
+        "motionPrompt": "the wooden gown splits and falls away, golden light spreads like sunshine, the prince smiles and steps forward",
+        "seed": 3090485346
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Norwegian folk fairy tale music, Hardanger fiddle, soft harp and flute, a steady walking journey theme through shimmering forests, a quiet hopeful kitchen theme, a bright joyful wedding ending, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 1827215756
+  }
+}

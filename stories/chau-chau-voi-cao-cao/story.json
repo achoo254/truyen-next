@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "slug": "chau-chau-voi-cao-cao",
+  "shelf": "kids",
+  "title": "Châu chấu với cào cào",
+  "summary": "Ngày xưa châu chấu với cào cào là hai anh em ở nhờ nhà cậu. Châu chấu nghịch dại đem trâu đấu với voi, từ đó cậu chỉ thương cào cào, mua voi cho Cào mà chẳng mua cho Chấu. Truyện cổ Việt Nam về tình anh em, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "gia-dinh",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Châu chấu với cào cào» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: cha mẹ hai anh em kể vòng là mồ côi; trâu bị voi húc ngã, đau chân không cày được nữa, thay cho chi tiết trâu mất trong sách; bỏ đoạn hát rủa cậu, chỉ giữ câu hát châu chấu than thân. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, lời thoại kể thêm và lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, a Vietnamese countryside with green rice paddies, earthen dikes, a thatched house with a rice mortar and a stone mill in the yard, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 197541202,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chau-chau",
+      "name": "Châu chấu",
+      "seed": 2168039655,
+      "sheetPrompt": "a small brown-green grasshopper boy with a cheeky lively face, short legs and a little straw hat, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cao-cao",
+      "name": "Cào cào",
+      "seed": 877200974,
+      "sheetPrompt": "a slim bright green grasshopper boy with a long pointed head, a calm obedient face and a small brown scarf, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-cau",
+      "name": "Ông cậu",
+      "seed": 1485924458,
+      "sheetPrompt": "a strict middle-aged Vietnamese village uncle in a dark brown ao and a black turban, frowning but not scary, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "trau",
+      "name": "Con trâu",
+      "seed": 380247791,
+      "sheetPrompt": "a gentle dark grey water buffalo with curved horns and kind eyes, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Châu chấu với cào cào trông giống nhau lắm, phải không? Ai cũng nhảy giỏi, ai cũng thích ăn lá lúa. Người xưa bảo, ngày trước hai bạn ấy là hai anh em ruột đấy. Có chuyện gì mà hai anh em lại xa nhau nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Châu chấu với cào cào trông giống nhau lắm, phải không?",
+        "Ai cũng nhảy giỏi, ai cũng thích ăn lá lúa.",
+        "Người xưa bảo, ngày trước hai bạn ấy là hai anh em ruột đấy.",
+        "Có chuyện gì mà hai anh em lại xa nhau nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat crouches in the rice field grass looking at a brown grasshopper and a green grasshopper sitting on two different blades of grass",
+        "seed": 3098516060
+      },
+      "video": {
+        "motionPrompt": "the cat looks from one grasshopper to the other and smiles, both grasshoppers hop, rice leaves ripple, slow camera push-in",
+        "seed": 1670680172
+      },
+      "voice": {}
+    },
+    {
+      "id": "o-nho-nha-cau",
+      "title": "Ở nhờ nhà cậu",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, châu chấu và cào cào là hai anh em mồ côi, nhà không có, phải đi làm thuê làm mướn kiếm ăn. Về sau, chẳng ai thuê nữa, hai anh em đành dắt nhau đến xin ở nhờ nhà cậu. Cậu bằng lòng, nhưng dặn: Ở nhà cậu thì phải chia việc nhau ra. Một đứa đi chăn trâu, một đứa ở nhà xay lúa, giã gạo. Hai anh em vâng dạ, cảm ơn cậu rối rít.",
+      "subtitles": [
+        "Ngày xưa, châu chấu và cào cào là hai anh em mồ côi, nhà không có,",
+        "phải đi làm thuê làm mướn kiếm ăn.",
+        "Về sau, chẳng ai thuê nữa, hai anh em đành dắt nhau đến xin ở nhờ nhà cậu.",
+        "Cậu bằng lòng, nhưng dặn: Ở nhà cậu thì phải chia việc nhau ra.",
+        "Một đứa đi chăn trâu, một đứa ở nhà xay lúa, giã gạo.",
+        "Hai anh em vâng dạ, cảm ơn cậu rối rít."
+      ],
+      "image": {
+        "character": "ong-cau",
+        "prompt": "two little grasshopper brothers holding small bundles stand at the bamboo gate of a thatched house, a strict uncle points to a water buffalo and a rice mortar",
+        "seed": 47507872
+      },
+      "video": {
+        "motionPrompt": "the brothers bow politely, the uncle gestures toward the buffalo and the mortar, chickens wander, soft morning light",
+        "seed": 1482749632
+      },
+      "voice": {}
+    },
+    {
+      "id": "trau-dau-voi",
+      "title": "Trâu đấu với voi",
+      "narrator": "ke-chuyen",
+      "narration": "Châu chấu nhận đi chăn trâu, cào cào nhận ở nhà giã gạo. Một hôm, châu chấu dắt trâu ra đồng, gặp một con voi to sừng sững. Châu chấu nghịch dại, đem trâu ra đấu với voi. Voi khoẻ, trâu yếu, trâu bị húc ngã lăn, đau chân, từ đó chẳng kéo cày được nữa. Châu chấu sợ quá, ôm đầu đứng im.",
+      "subtitles": [
+        "Châu chấu nhận đi chăn trâu, cào cào nhận ở nhà giã gạo.",
+        "Một hôm, châu chấu dắt trâu ra đồng, gặp một con voi to sừng sững.",
+        "Châu chấu nghịch dại, đem trâu ra đấu với voi.",
+        "Voi khoẻ, trâu yếu, trâu bị húc ngã lăn, đau chân, từ đó chẳng kéo cày được nữa.",
+        "Châu chấu sợ quá, ôm đầu đứng im."
+      ],
+      "image": {
+        "character": "trau",
+        "prompt": "on a field dike the cheeky brown grasshopper boy watches nervously as a big elephant pushes the water buffalo over in a comic tumble onto soft grass, not scary",
+        "seed": 1885151704
+      },
+      "video": {
+        "motionPrompt": "the buffalo and elephant push heads, the buffalo tumbles softly onto the grass and rubs its leg, the grasshopper covers his head, comic but gentle",
+        "seed": 2071899644
+      },
+      "voice": {}
+    },
+    {
+      "id": "mua-voi-cho-cao",
+      "title": "Cậu mua voi cho Cào",
+      "narrator": "ke-chuyen",
+      "narration": "Cậu giận lắm, bắt châu chấu ở nhà giã gạo cùng cào cào. Từ đó, hai anh em làm việc như nhau, mà cậu chỉ thương cào cào, chẳng ưa châu chấu. Có hôm cậu gọi: Cào cào, châu chấu! Đem gạo cậu coi. Mai mốt cậu mua voi cho Cào! Rồi quả thật, cậu mua voi cho cào cào thật, còn châu chấu thì chẳng được gì. Cào cào cưỡi voi đi khắp xóm, vui lắm.",
+      "subtitles": [
+        "Cậu giận lắm, bắt châu chấu ở nhà giã gạo cùng cào cào.",
+        "Từ đó, hai anh em làm việc như nhau, mà cậu chỉ thương cào cào, chẳng ưa châu chấu.",
+        "Có hôm cậu gọi: Cào cào, châu chấu! Đem gạo cậu coi.",
+        "Mai mốt cậu mua voi cho Cào!",
+        "Rồi quả thật, cậu mua voi cho cào cào thật, còn châu chấu thì chẳng được gì.",
+        "Cào cào cưỡi voi đi khắp xóm, vui lắm."
+      ],
+      "image": {
+        "character": "cao-cao",
+        "prompt": "in the yard the green grasshopper boy proudly sits on a small elephant the uncle has bought, the brown grasshopper boy stands alone by the rice mortar looking left out",
+        "seed": 4283228983
+      },
+      "video": {
+        "motionPrompt": "the uncle pats the green grasshopper's head, the little elephant flaps its ears, the brown grasshopper lowers his eyes and keeps pounding rice slowly",
+        "seed": 538691997
+      },
+      "voice": {}
+    },
+    {
+      "id": "chau-chau-hat",
+      "title": "Châu chấu tủi thân",
+      "narrator": "ke-chuyen",
+      "narration": "Châu chấu tủi thân lắm. Những lúc vắng vẻ, châu chấu ngồi một mình mà hát: Cậu la, cậu lắc, cậu loi, sao cậu lại mua voi cho Cào? Phận sao phận bạc như vôi! Tiếng hát nghe buồn ơi là buồn. Cào cào nghe thấy, cũng chẳng biết nói sao. Từ đó, hai anh em chẳng còn thân nhau như trước, mỗi đứa nhảy một bờ ruộng.",
+      "subtitles": [
+        "Châu chấu tủi thân lắm.",
+        "Những lúc vắng vẻ, châu chấu ngồi một mình mà hát: Cậu la, cậu lắc, cậu loi,",
+        "sao cậu lại mua voi cho Cào? Phận sao phận bạc như vôi!",
+        "Tiếng hát nghe buồn ơi là buồn. Cào cào nghe thấy, cũng chẳng biết nói sao.",
+        "Từ đó, hai anh em chẳng còn thân nhau như trước, mỗi đứa nhảy một bờ ruộng."
+      ],
+      "image": {
+        "character": "chau-chau",
+        "prompt": "at sunset the brown grasshopper boy sits alone on a rice stalk singing sadly, far away on another dike the green grasshopper boy listens quietly",
+        "seed": 2304752376
+      },
+      "video": {
+        "motionPrompt": "the brown grasshopper sways and sings, the green one looks over then turns away, rice stalks sway, the sky glows orange, slow drift",
+        "seed": 2728112514
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn ơi, châu chấu nghịch dại làm trâu của cậu bị đau, thế là sai thật. Nhưng cậu cứ thương một đứa, ghét một đứa, làm hai anh em xa nhau. Anh chị em trong nhà, mình thương nhau, biết nhận lỗi và tha lỗi cho nhau nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn ơi, châu chấu nghịch dại làm trâu của cậu bị đau, thế là sai thật.",
+        "Nhưng cậu cứ thương một đứa, ghét một đứa, làm hai anh em xa nhau.",
+        "Anh chị em trong nhà, mình thương nhau, biết nhận lỗi và tha lỗi cho nhau nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the rice field, the brown and green grasshoppers sit close together on one rice stalk beside her",
+        "seed": 1501218158
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the two grasshoppers shyly scoot closer and hop together, the rice ripples in the breeze, gentle camera pull-back",
+        "seed": 3845763743
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle wistful Vietnamese countryside folk melody, dan bau and bamboo flute with soft rice-pounding rhythm, tender and a little sad then warm, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3865762639
+  }
+}

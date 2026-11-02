@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "slug": "hai-vo-chong-con-chien-chien-va-ong-su",
+  "shelf": "kids",
+  "title": "Hai vợ chồng con chiền chiện và ông sư",
+  "summary": "Nhà chiền chiện làm tổ ngay trên tai một ông sư đang ngồi tu. Một đêm chim mẹ kẹt trong bông sen, chim bố ngủ quên, chú cào cào vụng về làm chim con đau chân, thế là cả nhà cãi nhau ầm ĩ. Truyện cổ Việt Nam vui về chuyện đổ lỗi, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Hai vợ chồng con chiền chiện và ông sư» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: chim bố trách chim mẹ đi đâu cả đêm, bỏ lời nghi ngờ trong sách; chim con chỉ đau chân; ông sư gỡ tổ đặt sang cành cây thay cho phá tổ. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, lời thoại kể thêm và lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, a quiet old Vietnamese pagoda garden with a lotus pond, banyan trees, mossy stone steps and soft morning mist, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 197541202,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-su",
+      "name": "Ông sư",
+      "seed": 3418597286,
+      "sheetPrompt": "a calm elderly Vietnamese monk with a shaved head, brown robe and kind closed eyes, sitting cross-legged in meditation, a tiny bird nest resting by his ear, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chien-chien-me",
+      "name": "Chiền chiện mẹ",
+      "seed": 2758167876,
+      "sheetPrompt": "a small brown crested lark mother with a cream speckled chest and caring eyes, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chien-chien-bo",
+      "name": "Chiền chiện bố",
+      "seed": 2727432069,
+      "sheetPrompt": "a small brown crested lark father with a slightly bigger crest and a fussy worried face, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cao-cao",
+      "name": "Chú cào cào",
+      "seed": 582884322,
+      "sheetPrompt": "a lanky green grasshopper with very long legs, clumsy and sheepish, a cheeky stubborn smile, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn thử tưởng tượng xem, có một nhà chim làm tổ ngay trên tai một ông sư! Ông sư ngồi tu im lặng, nên chim tưởng chỗ ấy yên lành lắm. Thế mà rồi có chuyện ồn ào to. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn thử tưởng tượng xem, có một nhà chim làm tổ ngay trên tai một ông sư!",
+        "Ông sư ngồi tu im lặng, nên chim tưởng chỗ ấy yên lành lắm.",
+        "Thế mà rồi có chuyện ồn ào to. Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on stone steps in a pagoda garden giggling and pointing, in the distance a calm monk meditates with a tiny bird nest by his ear",
+        "seed": 2716636862
+      },
+      "video": {
+        "motionPrompt": "the cat giggles and covers her mouth, a little bird hops into the nest by the monk's ear, lotus leaves sway, slow camera push-in",
+        "seed": 1794330889
+      },
+      "voice": {}
+    },
+    {
+      "id": "to-tren-tai",
+      "title": "Tổ chim trên tai ông sư",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một ông sư ngồi tu lặng im, lâu đến nỗi chim chóc chẳng sợ. Hai vợ chồng chiền chiện bèn tha rơm, tha cỏ, làm một cái tổ nhỏ xinh ngay bên tai ông. Ít lâu sau, chiền chiện mẹ nở ra một chú chiền chiện con. Cả nhà ríu rít suốt ngày, vui lắm. Ông sư vẫn ngồi im, chẳng nói gì.",
+      "subtitles": [
+        "Ngày xưa có một ông sư ngồi tu lặng im, lâu đến nỗi chim chóc chẳng sợ.",
+        "Hai vợ chồng chiền chiện bèn tha rơm, tha cỏ, làm một cái tổ nhỏ xinh ngay bên tai ông.",
+        "Ít lâu sau, chiền chiện mẹ nở ra một chú chiền chiện con.",
+        "Cả nhà ríu rít suốt ngày, vui lắm. Ông sư vẫn ngồi im, chẳng nói gì."
+      ],
+      "image": {
+        "character": "ong-su",
+        "prompt": "the calm monk meditates under a banyan tree, a tiny straw nest sits by his ear with two brown lark parents and a fluffy chick peeping out",
+        "seed": 566494689
+      },
+      "video": {
+        "motionPrompt": "the lark parents bring a blade of grass to the nest, the chick peeps and flaps tiny wings, the monk breathes slowly, leaves drift down",
+        "seed": 4159401589
+      },
+      "voice": {}
+    },
+    {
+      "id": "me-ket-trong-sen",
+      "title": "Chim mẹ kẹt trong bông sen",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, chiền chiện mẹ bay đi kiếm mồi cho con. Trời đổ mưa, chim mẹ bay suốt ngày mà chẳng kiếm được gì. Chiều về qua hồ sen, chim mẹ ngỡ trong bông sen có mồi, liền sà vào. Trời tối, bông sen cụp cánh lại, chim mẹ không ra được, đành ngủ lại trong hoa, lo cho con suốt đêm.",
+      "subtitles": [
+        "Một hôm, chiền chiện mẹ bay đi kiếm mồi cho con.",
+        "Trời đổ mưa, chim mẹ bay suốt ngày mà chẳng kiếm được gì.",
+        "Chiều về qua hồ sen, chim mẹ ngỡ trong bông sen có mồi, liền sà vào.",
+        "Trời tối, bông sen cụp cánh lại, chim mẹ không ra được, đành ngủ lại trong hoa,",
+        "lo cho con suốt đêm."
+      ],
+      "image": {
+        "character": "chien-chien-me",
+        "prompt": "dusk over a lotus pond after rain, a small brown lark mother peeks out worriedly from inside a closing pink lotus flower, raindrops on the leaves",
+        "seed": 4136535201
+      },
+      "video": {
+        "motionPrompt": "the lotus petals slowly fold closed around the little bird, raindrops roll off lotus leaves, the sky fades to evening blue",
+        "seed": 4107177356
+      },
+      "voice": {}
+    },
+    {
+      "id": "cao-cao-vao-to",
+      "title": "Chú cào cào vụng về",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy, chiền chiện bố ở tổ một mình, mệt quá ngủ quên. Có chú cào cào nhảy vào tổ, ngồi ấp chú chim con cho ấm. Nhưng cào cào chân dài, vụng về, đè phải làm chim con đau chân, kêu chiêm chiếp. Sáng ra, hoa sen nở, chiền chiện mẹ mới bay được về nhà.",
+      "subtitles": [
+        "Đêm ấy, chiền chiện bố ở tổ một mình, mệt quá ngủ quên.",
+        "Có chú cào cào nhảy vào tổ, ngồi ấp chú chim con cho ấm.",
+        "Nhưng cào cào chân dài, vụng về, đè phải làm chim con đau chân, kêu chiêm chiếp.",
+        "Sáng ra, hoa sen nở, chiền chiện mẹ mới bay được về nhà."
+      ],
+      "image": {
+        "character": "cao-cao",
+        "prompt": "night in the tiny nest by the sleeping monk's ear, the lark father dozes, a lanky green grasshopper awkwardly sits on the fluffy chick who squeaks, moonlight",
+        "seed": 3829514172
+      },
+      "video": {
+        "motionPrompt": "the grasshopper fumbles with its long legs, the chick squeaks and wriggles, the father bird snores, then morning light rises and the lotus opens far away",
+        "seed": 1379947038
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-nhau",
+      "title": "Cả nhà cãi nhau",
+      "narrator": "ke-chuyen",
+      "narration": "Chiền chiện bố vừa lo vừa giận, mắng ầm lên: Cả đêm mình đi đâu mà không về, để cào cào vào làm con đau chân thế này! Chiền chiện mẹ chạy ra cửa tổ, quay sang mắng cào cào: Mày làm cho chân con tao lành lại ngay! Cào cào cũng chẳng chịu, cãi lại: Việc nhà chúng mày, sao lại đổ cho tao! Thế là cả ba cãi nhau ầm ĩ ngay trên tai ông sư.",
+      "subtitles": [
+        "Chiền chiện bố vừa lo vừa giận, mắng ầm lên: Cả đêm mình đi đâu mà không về,",
+        "để cào cào vào làm con đau chân thế này!",
+        "Chiền chiện mẹ chạy ra cửa tổ, quay sang mắng cào cào:",
+        "Mày làm cho chân con tao lành lại ngay!",
+        "Cào cào cũng chẳng chịu, cãi lại: Việc nhà chúng mày, sao lại đổ cho tao!",
+        "Thế là cả ba cãi nhau ầm ĩ ngay trên tai ông sư."
+      ],
+      "image": {
+        "character": "chien-chien-bo",
+        "prompt": "a noisy comic squabble at the nest by the monk's ear, the lark father flaps angrily, the lark mother scolds the green grasshopper, the chick holds up a tiny bandaged foot",
+        "seed": 700993393
+      },
+      "video": {
+        "motionPrompt": "the birds flap and chirp loudly, the grasshopper hops and argues, feathers and leaves flutter, the monk's eyebrow twitches, comic chaos",
+        "seed": 395061567
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-su-go-to",
+      "title": "Ông sư gỡ tổ",
+      "narrator": "ke-chuyen",
+      "narration": "Ông sư bị đinh tai nhức óc, chẳng sao ngồi yên mà tu được nữa. Ông thở dài, gỡ cái tổ trên tai xuống, đặt sang một cành cây xa xa. Người xưa kể rằng vì những ồn ào ấy mà ông sư tu mãi vẫn chưa thành. Còn nhà chiền chiện thì phải sống ở chỗ mới, chẳng còn yên lành như trước.",
+      "subtitles": [
+        "Ông sư bị đinh tai nhức óc, chẳng sao ngồi yên mà tu được nữa.",
+        "Ông thở dài, gỡ cái tổ trên tai xuống, đặt sang một cành cây xa xa.",
+        "Người xưa kể rằng vì những ồn ào ấy mà ông sư tu mãi vẫn chưa thành.",
+        "Còn nhà chiền chiện thì phải sống ở chỗ mới, chẳng còn yên lành như trước."
+      ],
+      "image": {
+        "character": "ong-su",
+        "prompt": "the tired monk gently lifts the little nest from beside his ear and places it on a far tree branch, the lark family looks on sheepishly, the grasshopper hops away",
+        "seed": 2959433854
+      },
+      "video": {
+        "motionPrompt": "the monk sighs and carefully moves the nest, the birds settle on the new branch, the grasshopper bounces off into the grass, calm returns",
+        "seed": 2720797465
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, chuyện xảy ra chẳng ai muốn, vậy mà cả nhà cứ đổ lỗi cho nhau, to tiếng ầm ĩ. Cuối cùng chẳng ai vui, lại còn làm phiền cả ông sư. Lúc có chuyện, mình bình tĩnh nói nhỏ nhẹ với nhau thì tốt hơn nhiều nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, chuyện xảy ra chẳng ai muốn, vậy mà cả nhà cứ đổ lỗi cho nhau,",
+        "to tiếng ầm ĩ. Cuối cùng chẳng ai vui, lại còn làm phiền cả ông sư.",
+        "Lúc có chuyện, mình bình tĩnh nói nhỏ nhẹ với nhau thì tốt hơn nhiều nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye by the lotus pond, the lark family sits quietly together in their new nest on a branch, the monk smiles peacefully",
+        "seed": 2174341684
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the lark family snuggles together, lotus flowers sway, soft morning sunlight, gentle camera pull-back",
+        "seed": 3105535250
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "peaceful Vietnamese temple-garden melody, soft wooden fish percussion, dan tranh and bamboo flute, gentle with a short comic busy middle, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1863758122
+  }
+}

@@ -8,7 +8,7 @@ mục `media/` do `pnpm story:build` tạo. Schema và luật kiểm: `packages/
 
 | Trường | Ý nghĩa |
 | --- | --- |
-| `shelf` | Kệ của truyện, bắt buộc: `kids` (Trẻ em), `adults` (Người lớn) hoặc `world` (Thế giới: cổ tích, ngụ ngôn các nước). Mỗi kệ có luật riêng ở dưới. |
+| `shelf` | Kệ của truyện, bắt buộc: `kids` (Trẻ em: truyện Việt và các nước kể nhẹ, Mèo Miu dẫn), `adults` (Người lớn: truyện Việt và các nước kể đầy đủ) hoặc `world` (Thế giới: cổ tích, ngụ ngôn các nước kể nhẹ cho cả nhà). Mỗi kệ có luật riêng ở dưới. |
 | `themes` | Không bắt buộc: 1–3 chủ đề cho bộ lọc của kệ, trong `than-thoai`, `su-tich`, `anh-hung`, `thien-ac`, `gia-dinh`, `tinh-yeu`, `thien-nhien`, `ngu-ngon`. |
 | `added` | Không bắt buộc: ngày truyện lên kệ (`YYYY-MM-DD`), cho thứ tự "Mới nhất". |
 | `source` | Truyện lấy từ đâu (truyện dân gian, sách cổ nào) và cách viết lời kể. |

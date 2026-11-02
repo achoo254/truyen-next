@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "slug": "hoa-sung-va-ba-co-gai-quay-to-vang",
+  "shelf": "world",
+  "title": "Hoa súng và ba cô gái quay tơ vàng",
+  "summary": "Ba cô gái quay tơ vàng ngày đêm trong túp lều giữa rừng, bị bà lão dặn không được nói chuyện với người lạ. Cô út gặp một hoàng tử lạc đường, rồi bị bùa phép biến thành bông hoa súng vàng hát buồn dưới cầu. Hoàng tử phải học tiếng chim và hóa thành con cua để cứu nàng. Truyện cổ Estonia, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Water-Lily. The Gold-Spinners\" trong The Blue Fairy Book do Andrew Lang biên tập (1889; Lang chép từ tập truyện dân gian Estonia của F. R. Kreutzwald), Project Gutenberg #503, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính; kết cục của bà phù thủy được kể nhẹ (ngủ thiếp đi mãi, không bao giờ bắt ai quay tơ nữa), không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Estonia, Andrew Lang chép (1889)",
+  "style": "classic Northern European fairy tale picture book illustration, a hidden log hut deep in a pine and birch forest, golden flax glowing on spinning wheels, a narrow wooden bridge over a clear river with a yellow water lily, talking birds in the branches, soft watercolor and gouache, colors of pine green, gold, river blue and pale yellow, tender magical mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "co-ut",
+      "name": "Cô út",
+      "sheetPrompt": "the youngest and fairest of three gold spinning maidens from an Estonian fairy tale, long golden braid, simple linen dress with embroidered sleeves, gentle bright eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1290098528
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "sheetPrompt": "a kind young prince from an Estonian fairy tale, fair hair, green hunting coat and soft leather boots, a feathered hat, earnest face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3922936831
+    },
+    {
+      "id": "ba-lao",
+      "name": "Bà lão phù thủy",
+      "sheetPrompt": "a stern old forest witch from an Estonian fairy tale, hunched back, grey shawl, sharp nose, a bundle of golden flax under her arm, full body, front and side views, plain light background, character reference sheet",
+      "seed": 328434950
+    }
+  ],
+  "scenes": [
+    {
+      "id": "soi-to-vang",
+      "title": "Sợi tơ vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, giữa khu rừng lớn, có một bà lão sống cùng ba cô gái trong túp lều khuất sau những tán cây. Ba cô đều xinh, nhưng cô út đẹp nhất. Từ sáng tới tối, bà lão bắt các cô quay sợi lanh vàng thành tơ, xong cuộn này lại tới cuộn khác. Mỗi mùa hè, bà lão đi xa vài lần. Lần này, trước khi đi, bà dặn: “Các con không được để mắt nhìn lung tung, nhất là không được nói chuyện với đàn ông. Nếu không, sợi tơ sẽ mất ánh vàng và tai họa sẽ tới.” Các cô cười với nhau: “Giữa rừng sâu này, gặp ai mà nói chuyện?”",
+      "subtitles": [
+        "Ngày xưa, giữa khu rừng lớn,",
+        "có một bà lão sống cùng ba cô gái trong túp lều khuất sau những tán cây.",
+        "Ba cô đều xinh, nhưng cô út đẹp nhất.",
+        "Từ sáng tới tối, bà lão bắt các cô quay sợi lanh vàng thành tơ,",
+        "xong cuộn này lại tới cuộn khác. Mỗi mùa hè, bà lão đi xa vài lần.",
+        "Lần này, trước khi đi, bà dặn: “Các con không được để mắt nhìn lung tung,",
+        "nhất là không được nói chuyện với đàn ông.",
+        "Nếu không, sợi tơ sẽ mất ánh vàng và tai họa sẽ tới.”",
+        "Các cô cười với nhau: “Giữa rừng sâu này, gặp ai mà nói chuyện?”"
+      ],
+      "image": {
+        "prompt": "three beautiful maidens spinning glowing golden flax on wooden spinning wheels in a cozy log hut deep in a pine forest, a stern old woman with a shawl wagging her finger at the door",
+        "seed": 1788081857,
+        "character": "ba-lao"
+      },
+      "video": {
+        "motionPrompt": "the spinning wheels whirl, golden threads shimmer, the old woman turns and hobbles away into the trees",
+        "seed": 3209746093
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoang-tu-lac-duong",
+      "title": "Hoàng tử lạc đường",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày thứ ba, một hoàng tử đi săn bị lạc trong rừng. Chàng mỏi mệt, ngủ thiếp dưới gốc cây. Tỉnh dậy, chàng theo một lối mòn nhỏ tới túp lều. Hai cô chị sợ, nhớ lời bà lão, vội chạy vào nhà. Cô út thì bảo: “Em chưa bao giờ thấy ai như thế, để em nhìn một chút.” Hoàng tử chào hỏi lễ phép, kể mình lạc đường, vừa đói vừa mệt. Cô dọn cơm mời chàng, trò chuyện vui đến nỗi quên cả lời dặn. Quân lính của nhà vua đi tìm ba ngày mới thấy, mà hoàng tử ngỡ mới qua một giờ. Trước khi đi, chàng hứa sẽ quay lại đón cô về cung làm vợ.",
+      "subtitles": [
+        "Ngày thứ ba, một hoàng tử đi săn bị lạc trong rừng. Chàng mỏi mệt, ngủ thiếp dưới gốc cây.",
+        "Tỉnh dậy, chàng theo một lối mòn nhỏ tới túp lều.",
+        "Hai cô chị sợ, nhớ lời bà lão, vội chạy vào nhà.",
+        "Cô út thì bảo: “Em chưa bao giờ thấy ai như thế, để em nhìn một chút.”",
+        "Hoàng tử chào hỏi lễ phép, kể mình lạc đường, vừa đói vừa mệt.",
+        "Cô dọn cơm mời chàng, trò chuyện vui đến nỗi quên cả lời dặn.",
+        "Quân lính của nhà vua đi tìm ba ngày mới thấy, mà hoàng tử ngỡ mới qua một giờ.",
+        "Trước khi đi, chàng hứa sẽ quay lại đón cô về cung làm vợ."
+      ],
+      "image": {
+        "prompt": "at the door of a forest hut a gentle maiden with a golden braid serving bread and milk to a young prince in a green hunting coat, his horse grazing nearby, sunset through the pines",
+        "seed": 1837723955,
+        "character": "co-ut"
+      },
+      "video": {
+        "motionPrompt": "the prince laughs as they talk, the maiden smiles shyly, the horse nibbles grass and the sun sinks",
+        "seed": 3569783021
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-qua-dua-tin",
+      "title": "Con quạ đưa tin",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử đi rồi, cô út ngồi vào guồng quay, thì sợi tơ đã mờ hết ánh vàng. Đêm ấy bà lão về, nhìn sợi tơ là biết chuyện, giận dữ bảo cô đã rước tai họa cho mình và cho cả hoàng tử. Từ nhỏ, cô út hiểu được tiếng chim. Cô nói với con quạ trên cành thông: “Quạ ơi, loài chim khôn và bay nhanh nhất, bay tới cung vua báo tin cho hoàng tử giúp ta.” Con quạ bay đi, gặp con trai ông thầy gió hiểu tiếng chim, nhờ chuyển lời. Chiều tối, quạ mang tin về: hoàng tử sẽ đến đón cô vào đêm thứ chín. Đêm ấy, dưới ánh trăng, hoàng tử tới, bế cô lên ngựa, cùng phi về theo những gốc cây đã đánh dấu.",
+      "subtitles": [
+        "Hoàng tử đi rồi, cô út ngồi vào guồng quay, thì sợi tơ đã mờ hết ánh vàng.",
+        "Đêm ấy bà lão về, nhìn sợi tơ là biết chuyện,",
+        "giận dữ bảo cô đã rước tai họa cho mình và cho cả hoàng tử.",
+        "Từ nhỏ, cô út hiểu được tiếng chim.",
+        "Cô nói với con quạ trên cành thông: “Quạ ơi, loài chim khôn và bay nhanh nhất,",
+        "bay tới cung vua báo tin cho hoàng tử giúp ta.”",
+        "Con quạ bay đi, gặp con trai ông thầy gió hiểu tiếng chim, nhờ chuyển lời.",
+        "Chiều tối, quạ mang tin về: hoàng tử sẽ đến đón cô vào đêm thứ chín.",
+        "Đêm ấy, dưới ánh trăng, hoàng tử tới, bế cô lên ngựa,",
+        "cùng phi về theo những gốc cây đã đánh dấu."
+      ],
+      "image": {
+        "prompt": "a maiden whispering to a clever black raven perched on a pine branch, then by moonlight a prince on horseback lifting her into the saddle beside a marked birch tree",
+        "seed": 4178131260,
+        "character": "co-ut"
+      },
+      "video": {
+        "motionPrompt": "the raven tilts its head, spreads its wings and flies off, moonlight glows as the horse sets off at a gallop",
+        "seed": 414402898
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-bong-bua",
+      "title": "Quả bóng bùa",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng ra, bà lão thấy vắng cô út, đoán ngay mọi chuyện. Bà vốn là phù thủy, liền gom chín thứ cỏ bùa với một nắm muối, gói thành một quả bóng bông xù, thả theo gió đuổi theo. Trưa hôm ấy, đoàn hoàng tử tới một con sông sâu, cây cầu hẹp chỉ vừa một ngựa. Ngựa của hoàng tử và cô gái vừa ra giữa cầu thì quả bóng bùa bay vụt qua. Ngựa hoảng sợ chồm lên, hất cô gái rơi xuống dòng nước xiết. Hoàng tử định nhảy theo nhưng quân lính giữ chặt lại. Về cung, chàng buồn rầu, không ăn không uống. Phải nhờ ông thầy phù thủy già từ Phần Lan tới, bảo cho gió thổi bay nỗi buồn, chàng mới khỏe lại. Vua bảo chàng quên cô đi, nhưng chàng nói không thể yêu ai khác.",
+      "subtitles": [
+        "Sáng ra, bà lão thấy vắng cô út, đoán ngay mọi chuyện.",
+        "Bà vốn là phù thủy, liền gom chín thứ cỏ bùa với một nắm muối,",
+        "gói thành một quả bóng bông xù, thả theo gió đuổi theo.",
+        "Trưa hôm ấy, đoàn hoàng tử tới một con sông sâu, cây cầu hẹp chỉ vừa một ngựa.",
+        "Ngựa của hoàng tử và cô gái vừa ra giữa cầu thì quả bóng bùa bay vụt qua.",
+        "Ngựa hoảng sợ chồm lên, hất cô gái rơi xuống dòng nước xiết.",
+        "Hoàng tử định nhảy theo nhưng quân lính giữ chặt lại.",
+        "Về cung, chàng buồn rầu, không ăn không uống.",
+        "Phải nhờ ông thầy phù thủy già từ Phần Lan tới, bảo cho gió thổi bay nỗi buồn,",
+        "chàng mới khỏe lại. Vua bảo chàng quên cô đi, nhưng chàng nói không thể yêu ai khác."
+      ],
+      "image": {
+        "prompt": "a fluffy magic ball whirling on the wind over a narrow wooden bridge above a swift river, a startled white horse rearing, a prince reaching out as the maiden tumbles toward the water",
+        "seed": 2716196669,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the fluffy ball spins past, the horse rears, the river swirls and ripples spread wide",
+        "seed": 4097307544
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-sung-hat",
+      "title": "Hoa súng hát",
+      "narrator": "ke-chuyen",
+      "narration": "Một năm sau, hoàng tử đi ngang cây cầu cũ, đứng khóc nhớ người yêu. Bỗng chàng nghe có tiếng hát: “Than ôi, ta bị bùa phép, nằm mãi dưới dòng sông. Người yêu chẳng còn nhớ tới, chẳng ai cứu cô dâu xưa.” Chàng nhìn quanh chẳng thấy ai, chỉ có một bông hoa súng vàng nổi trên mặt nước. Chàng vội tới túp lều hỏi hai cô chị. Họ bảo: “Bông hoa súng ấy chính là em chúng tôi, bị quả bóng bùa biến thành hoa.” Cô chị cả làm cho chàng một chiếc bánh bằng cỏ thần. Đêm ấy, chàng mơ mình hiểu được tiếng chim. Hai chị dặn: “Hãy lắng nghe loài chim. Cứu được em rồi, xin chàng quay lại cứu chúng tôi.”",
+      "subtitles": [
+        "Một năm sau, hoàng tử đi ngang cây cầu cũ, đứng khóc nhớ người yêu.",
+        "Bỗng chàng nghe có tiếng hát: “Than ôi, ta bị bùa phép, nằm mãi dưới dòng sông.",
+        "Người yêu chẳng còn nhớ tới, chẳng ai cứu cô dâu xưa.”",
+        "Chàng nhìn quanh chẳng thấy ai, chỉ có một bông hoa súng vàng nổi trên mặt nước.",
+        "Chàng vội tới túp lều hỏi hai cô chị.",
+        "Họ bảo: “Bông hoa súng ấy chính là em chúng tôi, bị quả bóng bùa biến thành hoa.”",
+        "Cô chị cả làm cho chàng một chiếc bánh bằng cỏ thần.",
+        "Đêm ấy, chàng mơ mình hiểu được tiếng chim. Hai chị dặn: “Hãy lắng nghe loài chim.",
+        "Cứu được em rồi, xin chàng quay lại cứu chúng tôi.”"
+      ],
+      "image": {
+        "prompt": "a sad prince standing on an old wooden bridge listening to a beautiful yellow water lily floating among broad green leaves on the clear river, soft glowing notes rising from the flower",
+        "seed": 3231644040,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the water lily sways gently, tiny glowing notes drift up, the prince leans over the railing in wonder",
+        "seed": 2923309099
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-cua-loai-chim",
+      "title": "Lời của loài chim",
+      "narrator": "ke-chuyen",
+      "narration": "Trên đường về, chàng hiểu hết tiếng chim. Chim hét bảo chim ác là: “Con người ngốc thật. Cô gái hóa hoa súng đã một năm, hát buồn thế mà chẳng ai cứu.” Ác là đáp: “Chỉ cần hỏi ông thầy phù thủy Phần Lan là cô được cứu ngay.” Nghe hai con én định bay sang Phần Lan, chàng gọi: “Bạn ơi, cho ta gửi nghìn lời chào tới ông thầy, hỏi cách cứu cô gái hóa hoa.” Ít lâu sau, một con đại bàng sà xuống: “Ông thầy dặn: ra sông, trát bùn khắp người, nói ‘Từ người hóa cua’. Lặn xuống, gỡ rễ hoa súng khỏi bùn, ôm lấy mà trôi theo dòng, tới cây thanh lương trà bên bờ trái có tảng đá lớn thì nói: ‘Từ cua hóa người, từ hoa súng hóa thiếu nữ’.”",
+      "subtitles": [
+        "Trên đường về, chàng hiểu hết tiếng chim. Chim hét bảo chim ác là: “Con người ngốc thật.",
+        "Cô gái hóa hoa súng đã một năm, hát buồn thế mà chẳng ai cứu.”",
+        "Ác là đáp: “Chỉ cần hỏi ông thầy phù thủy Phần Lan là cô được cứu ngay.”",
+        "Nghe hai con én định bay sang Phần Lan, chàng gọi: “Bạn ơi,",
+        "cho ta gửi nghìn lời chào tới ông thầy, hỏi cách cứu cô gái hóa hoa.”",
+        "Ít lâu sau, một con đại bàng sà xuống: “Ông thầy dặn: ra sông, trát bùn khắp người,",
+        "nói ‘Từ người hóa cua’.",
+        "Lặn xuống, gỡ rễ hoa súng khỏi bùn, ôm lấy mà trôi theo dòng,",
+        "tới cây thanh lương trà bên bờ trái có tảng đá lớn thì nói: ‘Từ cua hóa người,",
+        "từ hoa súng hóa thiếu nữ’.”"
+      ],
+      "image": {
+        "prompt": "a prince riding through a sunlit forest listening to a thrush and a magpie chatting on a branch, two swallows flying north, and a great eagle landing on a garden tree beside him",
+        "seed": 2549817029,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "birds hop and chatter, the swallows dart away, the eagle folds its wings and bows its head to speak",
+        "seed": 3640662151
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-thanh-con-cua",
+      "title": "Hóa thành con cua",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử còn ngần ngừ, một con quạ giục: “Sao còn chần chừ? Mau đi lau nước mắt cho cô gái!” Chàng ra cầu, nghe hoa súng lại hát, liền trát bùn khắp người, nói: “Từ người hóa cua!” rồi lao xuống sông. Chàng bơi tới bông hoa, kiên nhẫn gỡ từng sợi rễ bám chặt trong bùn, rồi ôm lấy nổi lên, trôi theo dòng nước. Mãi sau mới thấy cây thanh lương trà và tảng đá lớn. Chàng nói: “Từ cua hóa người, từ hoa súng hóa thiếu nữ!” Lập tức chàng lại là hoàng tử, và cô gái đứng bên cạnh, đẹp gấp mười xưa, mặc áo vàng nhạt lấp lánh. Hóa ra chàng đã ở dưới nước hơn mười ngày. Một cỗ xe sáu ngựa đưa hai người về cung. Vua và hoàng hậu mừng rỡ, tiệc cưới kéo dài sáu tuần.",
+      "subtitles": [
+        "Hoàng tử còn ngần ngừ, một con quạ giục: “Sao còn chần chừ?",
+        "Mau đi lau nước mắt cho cô gái!”",
+        "Chàng ra cầu, nghe hoa súng lại hát, liền trát bùn khắp người, nói: “Từ người hóa cua!”",
+        "rồi lao xuống sông.",
+        "Chàng bơi tới bông hoa, kiên nhẫn gỡ từng sợi rễ bám chặt trong bùn, rồi ôm lấy nổi lên,",
+        "trôi theo dòng nước. Mãi sau mới thấy cây thanh lương trà và tảng đá lớn.",
+        "Chàng nói: “Từ cua hóa người, từ hoa súng hóa thiếu nữ!”",
+        "Lập tức chàng lại là hoàng tử, và cô gái đứng bên cạnh, đẹp gấp mười xưa,",
+        "mặc áo vàng nhạt lấp lánh. Hóa ra chàng đã ở dưới nước hơn mười ngày.",
+        "Một cỗ xe sáu ngựa đưa hai người về cung.",
+        "Vua và hoàng hậu mừng rỡ, tiệc cưới kéo dài sáu tuần."
+      ],
+      "image": {
+        "prompt": "under clear river water a small brave crab gently loosening the roots of a yellow water lily, then on the riverbank by a rowan tree and a large stone the prince and the maiden in a shimmering pale yellow gown smiling",
+        "seed": 1070304570,
+        "character": "co-ut"
+      },
+      "video": {
+        "motionPrompt": "bubbles rise as the crab tugs the roots free, then a golden glow and the prince and maiden appear hand in hand",
+        "seed": 3522228622
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuu-hai-co-chi",
+      "title": "Cứu hai cô chị",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, hai vợ chồng đang ngồi trong vườn thì một con quạ bay tới: “Sao các người quên hai cô gái đã giúp mình? Họ phải quay tơ mãi sao? Ba cô đều là công chúa, bị bà phù thủy bắt đi từ nhỏ, cùng cả kho đồ bạc bị biến thành lanh vàng.” Hoàng tử xấu hổ vì quên lời hứa, lập tức lên đường. Đến túp lều lúc bà lão đi vắng, hai cô chị đã mơ thấy chàng tới, sẵn sàng đi theo. Trước khi đi, họ để lại một chiếc bánh làm bằng cỏ bùa. Bà lão về, thấy bánh ngon, ăn hết, rồi ngủ thiếp đi mãi, không bao giờ còn bắt ai quay tơ nữa. Người ta tìm thấy năm mươi xe tơ vàng. Hoàng tử, cô dâu cùng hai cô chị sống hạnh phúc mãi mãi.",
+      "subtitles": [
+        "Một hôm, hai vợ chồng đang ngồi trong vườn thì một con quạ bay tới:",
+        "“Sao các người quên hai cô gái đã giúp mình? Họ phải quay tơ mãi sao?",
+        "Ba cô đều là công chúa, bị bà phù thủy bắt đi từ nhỏ,",
+        "cùng cả kho đồ bạc bị biến thành lanh vàng.”",
+        "Hoàng tử xấu hổ vì quên lời hứa, lập tức lên đường.",
+        "Đến túp lều lúc bà lão đi vắng, hai cô chị đã mơ thấy chàng tới, sẵn sàng đi theo.",
+        "Trước khi đi, họ để lại một chiếc bánh làm bằng cỏ bùa.",
+        "Bà lão về, thấy bánh ngon, ăn hết, rồi ngủ thiếp đi mãi,",
+        "không bao giờ còn bắt ai quay tơ nữa. Người ta tìm thấy năm mươi xe tơ vàng.",
+        "Hoàng tử, cô dâu cùng hai cô chị sống hạnh phúc mãi mãi."
+      ],
+      "image": {
+        "prompt": "a prince helping two lovely maidens out of the forest hut into a carriage, golden flax piled high in wagons, a garden crow watching from a branch, the forest bright with morning sun",
+        "seed": 2713689129,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the sisters hug each other and climb into the carriage, wagons of golden flax roll behind, the crow caws happily",
+        "seed": 3886166866
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Estonian folk inspired melody, kannel zither, soft flute and strings, a sad flowing river song theme, birdsong flutters, a joyful village wedding dance ending, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 3988611037
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "slug": "nhung-nguoi-khon-ngoan",
+  "shelf": "world",
+  "title": "Những người khôn ngoan",
+  "summary": "Bà Trina bán ba con bò mà để người mua dắt đi hai con không trả đồng nào. Ông Hans tức giận lên đường tìm người còn khờ hơn vợ mình, và chẳng mấy chốc đã gặp liền hai người. Truyện cổ Grimm hài hước, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện số một trăm lẻ bốn “Die klugen Leute” (Wise Folks) trong Kinder- und Hausmärchen của anh em Grimm (bản 1857), theo bản dịch tiếng Anh của Margaret Hunt (1884), Project Gutenberg #5314, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính, đổi lời dọa đánh của ông chồng thành lời dọa phạt nhẹ, không chép bản dịch nào.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic German folk tale picture book illustration in the spirit of nineteenth century storybooks, half-timbered farmhouses, cow barns, country roads lined with willows, ox carts and wheat fields, colors of barn red, hay gold, meadow green and cream, soft watercolor and ink, warm humorous mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ong-hans",
+      "name": "Ông Hans",
+      "sheetPrompt": "a shrewd middle-aged German peasant from an old Grimm folk tale, bushy eyebrows, grey felt hat, brown waistcoat, holding a hazel walking stick and a long pipe, sly amused smile, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1831083258
+    },
+    {
+      "id": "ba-trina",
+      "name": "Bà Trina",
+      "sheetPrompt": "a sweet simple-minded German peasant wife from an old Grimm folk tale, round rosy face, white bonnet, red skirt and checked apron, cheerful proud smile, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1371658720
+    },
+    {
+      "id": "ba-xe-bo",
+      "name": "Bà đứng trên xe bò",
+      "sheetPrompt": "a gullible kind-hearted German country widow from an old folk tale, black headscarf and long dark dress, holding a purse, wide trusting eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1781010038
+    },
+    {
+      "id": "cau-con-trai",
+      "name": "Cậu con trai",
+      "sheetPrompt": "a naive young German farm lad from an old folk tale, straw hat, linen shirt and suspenders, tired but trusting face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1243616249
+    }
+  ],
+  "scenes": [
+    {
+      "id": "loi-dan-truoc-khi-di",
+      "title": "Lời dặn trước khi đi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa ở nước Đức, có ông nông dân tên Hans. Một hôm, ông chống gậy chuẩn bị đi xa, dặn vợ: “Trina này, tôi đi ba ngày. Nếu lái bò có tới mua ba con bò nhà mình, bà cứ bán, nhưng phải đủ hai trăm đồng bạc, thiếu một đồng cũng không được.” Bà Trina xua tay: “Ông cứ yên tâm mà đi, việc ấy tôi lo được.” Ông Hans lắc đầu: “Bà mà làm hỏng việc, thì cả năm tới bà phải chịu phạt đấy nhé.” Nói rồi, ông lên đường.",
+      "subtitles": [
+        "Ngày xưa ở nước Đức, có ông nông dân tên Hans.",
+        "Một hôm, ông chống gậy chuẩn bị đi xa, dặn vợ: “Trina này, tôi đi ba ngày.",
+        "Nếu lái bò có tới mua ba con bò nhà mình, bà cứ bán,",
+        "nhưng phải đủ hai trăm đồng bạc,",
+        "thiếu một đồng cũng không được.” Bà Trina xua tay: “Ông cứ yên tâm mà đi,",
+        "việc ấy tôi lo được.” Ông Hans lắc đầu: “Bà mà làm hỏng việc,",
+        "thì cả năm tới bà phải chịu phạt đấy nhé.” Nói rồi, ông lên đường."
+      ],
+      "image": {
+        "prompt": "a half-timbered German farmhouse yard, the peasant Hans with his hazel stick wagging a finger at his cheerful wife Trina in her bonnet, three cows looking on from the barn",
+        "seed": 2155759589,
+        "character": "ong-hans"
+      },
+      "video": {
+        "motionPrompt": "Hans wags his finger, Trina waves him off with a confident smile, a cow moos and flicks its tail",
+        "seed": 1780507561
+      },
+      "voice": {}
+    },
+    {
+      "id": "ban-bo-giu-lai-mot-con",
+      "title": "Bán bò, giữ lại một con",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, lái bò tới thật. Xem bò, nghe giá, ông ta gật ngay: “Đáng giá lắm, tôi dắt đi luôn.” Ông tháo dây, lùa cả ba con ra cổng. Bà Trina níu tay áo: “Phải trả hai trăm đồng bạc đã chứ!” “Phải lắm, nhưng tôi quên mang túi tiền. Thế này, tôi dắt hai con, để lại một con làm tin.” Bà thấy hợp lý quá, để ông dắt đi. Ba ngày sau ông Hans về, bà khoe: “Bán được rồi, đúng hai trăm. Tiền thì chưa có, nhưng tôi giữ lại một con làm tin. Tôi khéo lắm nhé, giữ lại con bé nhất, ăn ít nhất!”",
+      "subtitles": [
+        "Sáng hôm sau, lái bò tới thật.",
+        "Xem bò, nghe giá, ông ta gật ngay: “Đáng giá lắm, tôi dắt đi luôn.” Ông tháo dây,",
+        "lùa cả ba con ra cổng.",
+        "Bà Trina níu tay áo: “Phải trả hai trăm đồng bạc đã chứ!” “Phải lắm,",
+        "nhưng tôi quên mang túi tiền.",
+        "Thế này, tôi dắt hai con, để lại một con làm tin.” Bà thấy hợp lý quá, để ông dắt đi.",
+        "Ba ngày sau ông Hans về, bà khoe: “Bán được rồi, đúng hai trăm.",
+        "Tiền thì chưa có, nhưng tôi giữ lại một con làm tin.",
+        "Tôi khéo lắm nhé, giữ lại con bé nhất, ăn ít nhất!”"
+      ],
+      "image": {
+        "prompt": "a smiling cattle dealer leading two cows out of the farm gate while Trina proudly holds the rope of the smallest cow, waving goodbye happily",
+        "seed": 457572371,
+        "character": "ba-trina"
+      },
+      "video": {
+        "motionPrompt": "the dealer tips his hat and leads the cows away, Trina waves cheerfully, the little cow munches hay",
+        "seed": 3519444038
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-tu-tren-troi-roi-xuong",
+      "title": "Người từ trên trời rơi xuống",
+      "narrator": "ke-chuyen",
+      "narration": "Ông Hans giận lắm, giơ gậy lên, rồi lại hạ xuống: “Bà là con ngỗng khờ nhất thế gian. Thôi được, tôi ra đường cái ngồi ba ngày. Gặp được ai khờ hơn bà thì bà thoát phạt.” Ông ra ngồi trên tảng đá bên đường. Chẳng bao lâu, một chiếc xe bò chạy tới, trên xe có bà nọ đứng thẳng giữa xe, chứ không ngồi lên bó rơm. Ông Hans nghĩ: “Đúng người mình cần tìm đây.” Ông chạy tới chạy lui trước xe như người ngớ ngẩn. “Ông từ đâu tới?” “Tôi từ trên trời rơi xuống, chẳng biết đường về. Bà chở tôi lên được không?”",
+      "subtitles": [
+        "Ông Hans giận lắm, giơ gậy lên, rồi lại hạ xuống: “Bà là con ngỗng khờ nhất thế gian.",
+        "Thôi được, tôi ra đường cái ngồi ba ngày.",
+        "Gặp được ai khờ hơn bà thì bà thoát phạt.” Ông ra ngồi trên tảng đá bên đường.",
+        "Chẳng bao lâu, một chiếc xe bò chạy tới, trên xe có bà nọ đứng thẳng giữa xe,",
+        "chứ không ngồi lên bó rơm.",
+        "Ông Hans nghĩ: “Đúng người mình cần tìm đây.” Ông chạy tới chạy lui trước xe như người ngớ",
+        "ngẩn.",
+        "“Ông từ đâu tới?” “Tôi từ trên trời rơi xuống, chẳng biết đường về.",
+        "Bà chở tôi lên được không?”"
+      ],
+      "image": {
+        "prompt": "a country road lined with willows, a woman standing upright in the middle of an ox cart beside a bundle of straw, Hans running back and forth in front of the oxen acting silly, pointing at the sky",
+        "seed": 477736618,
+        "character": "ba-xe-bo"
+      },
+      "video": {
+        "motionPrompt": "the oxen plod slowly, Hans hops about pointing at the clouds, the woman stares with wide trusting eyes",
+        "seed": 786434050
+      },
+      "voice": {}
+    },
+    {
+      "id": "tui-tien-gui-len-troi",
+      "title": "Túi tiền gửi lên trời",
+      "narrator": "ke-chuyen",
+      "narration": "Bà kia bảo: “Tôi không biết đường. Nhưng ông ở trên trời xuống, chắc đã gặp chồng tôi. Ông ấy lên trời ba năm nay rồi, có khỏe không?” “Có gặp chứ. Ông ấy chăn cừu, cừu chạy lên núi mãi, ông ấy đuổi theo, áo quần rách hết rồi, mà trên ấy chẳng có thợ may.” “Trời ơi! Để tôi về lấy áo ngày lễ của ông ấy gửi lên.” “Không được, mang áo lên trời, người gác cổng thu mất.” “Vậy tôi gửi tiền. Hôm qua tôi vừa bán lúa mì. Ông giấu túi tiền trong túi áo, chẳng ai biết.” Bà đánh xe về lấy tiền, tự tay nhét vào túi ông Hans, rồi cảm ơn rối rít mãi.",
+      "subtitles": [
+        "Bà kia bảo: “Tôi không biết đường.",
+        "Nhưng ông ở trên trời xuống, chắc đã gặp chồng tôi.",
+        "Ông ấy lên trời ba năm nay rồi, có khỏe không?” “Có gặp chứ.",
+        "Ông ấy chăn cừu, cừu chạy lên núi mãi, ông ấy đuổi theo, áo quần rách hết rồi,",
+        "mà trên ấy chẳng có thợ may.” “Trời ơi!",
+        "Để tôi về lấy áo ngày lễ của ông ấy gửi lên.” “Không được, mang áo lên trời,",
+        "người gác cổng thu mất.” “Vậy tôi gửi tiền.",
+        "Hôm qua tôi vừa bán lúa mì.",
+        "Ông giấu túi tiền trong túi áo, chẳng ai biết.” Bà đánh xe về lấy tiền,",
+        "tự tay nhét vào túi ông Hans, rồi cảm ơn rối rít mãi."
+      ],
+      "image": {
+        "prompt": "the kind widow eagerly pressing a fat purse of coins into Hans's coat pocket beside the ox cart, Hans pretending to look solemn, birds on the willow branches watching",
+        "seed": 3921227037,
+        "character": "ba-xe-bo"
+      },
+      "video": {
+        "motionPrompt": "the widow pushes the purse into his pocket and bows many times, Hans nods gravely while hiding a smile",
+        "seed": 794684296
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-con-trai-cho-muon-ngua",
+      "title": "Cậu con trai cho mượn ngựa",
+      "narrator": "ke-chuyen",
+      "narration": "Về nhà, bà kể cho cậu con trai nghe. Cậu sửng sốt: “Người trên trời xuống đâu phải ngày nào cũng có. Con phải đi hỏi trên ấy ra sao!” Cậu thắng yên ngựa phi đi, gặp ông Hans đang ngồi dưới gốc liễu đếm tiền. “Ông có thấy người từ trên trời xuống không?” “Có, ông ấy vừa leo lên ngọn đồi kia để về trời cho gần. Phi nhanh thì kịp.” “Ôi, cả ngày làm lụng, con mệt rã rời. Ông biết mặt ông ấy, ông cưỡi ngựa con đi gọi giúp nhé.” Ông Hans nghĩ thầm: “Lại thêm một người nữa!” rồi nhảy lên ngựa, phi nước kiệu đi mất. Cậu ngồi chờ tới tối mịt, rồi về bảo mẹ: “Con gửi luôn con ngựa cho cha, để cha khỏi phải chạy bộ.” Mẹ khen: “Con làm đúng lắm.”",
+      "subtitles": [
+        "Về nhà, bà kể cho cậu con trai nghe.",
+        "Cậu sửng sốt: “Người trên trời xuống đâu phải ngày nào cũng có.",
+        "Con phải đi hỏi trên ấy ra sao!” Cậu thắng yên ngựa phi đi,",
+        "gặp ông Hans đang ngồi dưới gốc liễu đếm tiền.",
+        "“Ông có thấy người từ trên trời xuống không?” “Có,",
+        "ông ấy vừa leo lên ngọn đồi kia để về trời cho gần.",
+        "Phi nhanh thì kịp.” “Ôi, cả ngày làm lụng, con mệt rã rời.",
+        "Ông biết mặt ông ấy, ông cưỡi ngựa con đi gọi giúp nhé.” Ông Hans nghĩ thầm: “Lại thêm một",
+        "người nữa!” rồi nhảy lên ngựa, phi nước kiệu đi mất.",
+        "Cậu ngồi chờ tới tối mịt, rồi về bảo mẹ: “Con gửi luôn con ngựa cho cha,",
+        "để cha khỏi phải chạy bộ.” Mẹ khen: “Con làm đúng lắm.”"
+      ],
+      "image": {
+        "prompt": "under a willow tree at dusk, a naive farm lad handing the reins of his horse to Hans, who is mounting it with a cheeky grin, a green hill in the distance",
+        "seed": 1527911534,
+        "character": "cau-con-trai"
+      },
+      "video": {
+        "motionPrompt": "Hans trots away on the horse, the lad waves trustingly and sits down under the willow, the sky turns to evening",
+        "seed": 1897794425
+      },
+      "voice": {}
+    },
+    {
+      "id": "ai-moi-khon",
+      "title": "Ai mới khôn",
+      "narrator": "ke-chuyen",
+      "narration": "Ông Hans về nhà, dắt ngựa vào chuồng cạnh con bò làm tin, rồi bảo vợ: “Trina này, bà may lắm. Tôi gặp liền hai người còn khờ hơn bà. Lần này bà khỏi chịu phạt, để dành dịp khác.” Ông châm tẩu, ngồi phịch xuống chiếc ghế bành của ông nội, cười khà khà: “Hai con bò gầy mà đổi được một con ngựa béo với cả túi tiền. Nếu khờ mà được lời thế này, thì tôi cũng xin tôn trọng cái khờ.” Ông Hans nghĩ thế đấy. Còn các bạn, chắc là thương những người thật thà hơn, phải không nào?",
+      "subtitles": [
+        "Ông Hans về nhà, dắt ngựa vào chuồng cạnh con bò làm tin, rồi bảo vợ: “Trina này,",
+        "bà may lắm. Tôi gặp liền hai người còn khờ hơn bà.",
+        "Lần này bà khỏi chịu phạt, để dành dịp khác.” Ông châm tẩu,",
+        "ngồi phịch xuống chiếc ghế bành của ông nội,",
+        "cười khà khà: “Hai con bò gầy mà đổi được một con ngựa béo với cả túi tiền.",
+        "Nếu khờ mà được lời thế này, thì tôi cũng xin tôn trọng cái khờ.” Ông Hans nghĩ thế đấy.",
+        "Còn các bạn, chắc là thương những người thật thà hơn, phải không nào?"
+      ],
+      "image": {
+        "prompt": "a cozy farmhouse evening, Hans relaxing in an old armchair smoking a long pipe with a purse of coins on the table, Trina beaming with relief, a sleek horse and a little cow visible through the stable door",
+        "seed": 1953316096,
+        "character": "ong-hans"
+      },
+      "video": {
+        "motionPrompt": "pipe smoke curls upward, Hans chuckles and pats the purse, Trina claps happily, the horse nuzzles the cow",
+        "seed": 3340544374
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful German folk melody, accordion, clarinet and plucked strings, a jaunty walking rhythm, a sly comic middle, a cozy chuckling ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3579821384
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "slug": "chuot-bach-va-hai-vo-chong-chuot-chu",
+  "shelf": "kids",
+  "title": "Chuột bạch và hai vợ chồng chuột chù",
+  "summary": "Cô chuột bạch một mình nuôi con, lạc vào nhà chuột chù và bị vợ chuột chù mắng oan. May có bác chuột cống hàng xóm bình tĩnh kể rõ đầu đuôi, mọi chuyện mới êm. Truyện cổ Việt Nam về lòng thủy chung và câu “một câu nhịn là chín câu lành”, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "gia-dinh",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện số một trăm hai mươi tám trong Truyện cổ nước Nam – Muông chim (1934) của Ôn Như Nguyễn Văn Ngọc, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; Mèo Miu dẫn chuyện, thoại và lời rút ý cuối truyện do người viết thêm. Truyện gốc rất dài; ở đây kể gọn một mạch từ đêm chuột bạch lạc vào nhà chuột chù đến lúc được minh oan. Bản cho trẻ nhỏ: chồng chuột bạch được kể là đi xa không về; bỏ lời dọa liều mình và những câu chửi; bác chuột cống nghe được qua vách thay vì tự nhận có mặt.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, cozy underground mouse homes with little round doors, straw beds, baskets of rice grains and corn, soft lantern light, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1083840565
+    },
+    {
+      "id": "chuot-bach",
+      "name": "Chuột bạch",
+      "seed": 2959947064,
+      "sheetPrompt": "a gentle white mouse mother with snowy fur, pink ears and a small blue headscarf, kind tired eyes, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chuot-chu",
+      "name": "Chuột chù chồng",
+      "seed": 4260868794,
+      "sheetPrompt": "a plump grey shrew with a long pointy nose, a fancy brown vest and a smug smile, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "vo-chuot-chu",
+      "name": "Vợ chuột chù",
+      "seed": 4287630487,
+      "sheetPrompt": "a grey shrew wife with a long nose, hair bun and a flowered apron, hands on hips, fiery temper, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chuot-cong",
+      "name": "Bác chuột cống",
+      "seed": 60131906,
+      "sheetPrompt": "an old brown rat neighbor with round spectacles and a walking stick, calm wise face, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Khi thấy ai làm điều mình không vừa ý, các bạn có vội nổi giận không? Hôm nay Miu kể chuyện một cô chuột bạch hiền lành bị mắng oan, và một bác chuột cống tốt bụng đã giúp cô. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Khi thấy ai làm điều mình không vừa ý, các bạn có vội nổi giận không?",
+        "Hôm nay Miu kể chuyện một cô chuột bạch hiền lành bị mắng oan,",
+        "và một bác chuột cống tốt bụng đã giúp cô.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits by a little round mouse door in the roots of a tree at night with a picture book and a lantern, tiny mouse homes glowing softly",
+        "seed": 3310520959
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello and lifts her lantern, tiny windows glow one by one, fireflies drift, slow gentle camera push-in",
+        "seed": 3551145452
+      },
+      "voice": {}
+    },
+    {
+      "id": "me-chuot-bach",
+      "title": "Mẹ chuột bạch",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một cô chuột bạch lông trắng muốt, sống trong một cái hang nhỏ với đàn con thơ. Chồng cô đã đi xa, không bao giờ quay về nữa. Nhà nghèo, con dại, một mình cô vất vả lắm. Đêm nào cô cũng phải đi mò mẫm kiếm từng hạt thóc, hạt ngô mang về cho các con đang ngóng mẹ.",
+      "subtitles": [
+        "Ngày xưa, có một cô chuột bạch lông trắng muốt,",
+        "sống trong một cái hang nhỏ với đàn con thơ.",
+        "Chồng cô đã đi xa, không bao giờ quay về nữa.",
+        "Nhà nghèo, con dại, một mình cô vất vả lắm.",
+        "Đêm nào cô cũng phải đi mò mẫm kiếm từng hạt thóc,",
+        "hạt ngô mang về cho các con đang ngóng mẹ."
+      ],
+      "image": {
+        "character": "chuot-bach",
+        "prompt": "a gentle white mouse mother tucks her tiny babies into a straw bed in a small humble burrow, then sets out into the dark night carrying an empty little basket",
+        "seed": 452623785
+      },
+      "video": {
+        "motionPrompt": "the mother kisses her babies goodnight, the babies wave sleepily, she steps out into the moonlit grass with her basket",
+        "seed": 4244345604
+      },
+      "voice": {}
+    },
+    {
+      "id": "lac-duong",
+      "title": "Lạc vào nhà chuột chù",
+      "narrator": "ke-chuyen",
+      "narration": "Có một đêm tối trời, chuột bạch đi lạc vào nhà của chuột chù. Nhà chuột chù to rộng, thóc gạo đầy bồ. Vợ chuột chù đi vắng, chỉ có chồng ở nhà. Chuột chù thấy chuột bạch xinh xắn thì giữ lại hỏi han. Chuột bạch thật thà kể: Tôi một mình nuôi con, kiếm bữa sáng lại lo bữa tối, chỉ mong các con khôn lớn.",
+      "subtitles": [
+        "Có một đêm tối trời, chuột bạch đi lạc vào nhà của chuột chù.",
+        "Nhà chuột chù to rộng, thóc gạo đầy bồ.",
+        "Vợ chuột chù đi vắng, chỉ có chồng ở nhà.",
+        "Chuột chù thấy chuột bạch xinh xắn thì giữ lại hỏi han.",
+        "Chuột bạch thật thà kể: Tôi một mình nuôi con, kiếm bữa sáng lại lo bữa tối,",
+        "chỉ mong các con khôn lớn."
+      ],
+      "image": {
+        "character": "chuot-chu",
+        "prompt": "inside a big rich shrew burrow full of rice baskets and corn, a plump shrew in a fancy vest greets the shy white mouse at his round door",
+        "seed": 3682093141
+      },
+      "video": {
+        "motionPrompt": "the shrew waves her in with a smug smile, the white mouse looks around timidly at the full baskets, lantern light flickers",
+        "seed": 587448961
+      },
+      "voice": {}
+    },
+    {
+      "id": "tu-choi",
+      "title": "Chuột bạch từ chối",
+      "narrator": "ke-chuyen",
+      "narration": "Chuột chù vuốt râu, ngọt ngào bảo: Nhà ta giàu có, thóc lúa ăn mãi không hết. Cô ở lại đây với ta, khỏi phải vất vả nữa! Chuột bạch nghiêm mặt đáp: Cảm ơn bác, nhưng tôi một lòng nuôi con, giữ trọn nghĩa với chồng tôi. Giàu sang đến mấy tôi cũng không ham. Xin bác cho tôi về, các con tôi đang đợi. Chuột chù thấy cô cương quyết, cũng phải nể, đành để cô đi.",
+      "subtitles": [
+        "Chuột chù vuốt râu, ngọt ngào bảo: Nhà ta giàu có, thóc lúa ăn mãi không hết.",
+        "Cô ở lại đây với ta, khỏi phải vất vả nữa!",
+        "Chuột bạch nghiêm mặt đáp: Cảm ơn bác, nhưng tôi một lòng nuôi con,",
+        "giữ trọn nghĩa với chồng tôi.",
+        "Giàu sang đến mấy tôi cũng không ham.",
+        "Xin bác cho tôi về, các con tôi đang đợi.",
+        "Chuột chù thấy cô cương quyết, cũng phải nể, đành để cô đi."
+      ],
+      "image": {
+        "character": "chuot-bach",
+        "prompt": "the white mouse mother stands firm with a serious polite face and a paw raised to refuse, the shrew gestures at his piles of grain, then steps back respectfully",
+        "seed": 1530095434
+      },
+      "video": {
+        "motionPrompt": "the shrew points proudly at his baskets, the white mouse shakes her head firmly, the shrew scratches his head and steps aside",
+        "seed": 1388820101
+      },
+      "voice": {}
+    },
+    {
+      "id": "vo-ve",
+      "title": "Vợ chuột chù về",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng chuột bạch vừa ra đến cửa thì gặp ngay vợ chuột chù đi đâu về. Thấy có người lạ từ nhà mình đi ra, vợ chuột chù nổi cơn ghen, túm lấy chuột bạch mà mắng ầm lên: À, nhân lúc tôi vắng nhà, cô đến đây làm gì? Mắng chuột bạch xong, chị lại quay sang mắng chồng, mắng mãi chẳng cho ai nói lấy một câu. Chuột bạch sợ quá, chỉ biết ngồi thở dài.",
+      "subtitles": [
+        "Nhưng chuột bạch vừa ra đến cửa thì gặp ngay vợ chuột chù đi đâu về.",
+        "Thấy có người lạ từ nhà mình đi ra, vợ chuột chù nổi cơn ghen,",
+        "túm lấy chuột bạch mà mắng ầm lên: À, nhân lúc tôi vắng nhà, cô đến đây làm gì?",
+        "Mắng chuột bạch xong, chị lại quay sang mắng chồng, mắng mãi chẳng cho ai nói lấy một câu.",
+        "Chuột bạch sợ quá, chỉ biết ngồi thở dài."
+      ],
+      "image": {
+        "character": "vo-chuot-chu",
+        "prompt": "at the round door the angry shrew wife with hands on hips scolds loudly, steam puffing from her ears in a comic way, the white mouse shrinks shyly and the shrew husband covers his ears",
+        "seed": 3444420791
+      },
+      "video": {
+        "motionPrompt": "the shrew wife waves her arms and scolds, comic steam puffs rise, the white mouse sighs and the husband ducks, comic timing",
+        "seed": 2403830239
+      },
+      "voice": {}
+    },
+    {
+      "id": "chuot-cong",
+      "title": "Bác chuột cống giải thích",
+      "narrator": "ke-chuyen",
+      "narration": "Tiếng mắng vang sang tận nhà bên. Bác chuột cống hàng xóm vội chạy sang, hỏi: Có việc gì mà chị ầm ĩ cả xóm thế? Vợ chuột chù kể một thôi một hồi. Bác chuột cống ôn tồn bảo: Chị bớt giận đã. Tôi ở sát vách, nghe rõ cả đầu đuôi. Cô chuột bạch đi lạc vào đây, lại một mực từ chối, chỉ xin về với con. Chị chưa hỏi rõ đã vội mắng oan người ta rồi.",
+      "subtitles": [
+        "Tiếng mắng vang sang tận nhà bên.",
+        "Bác chuột cống hàng xóm vội chạy sang, hỏi: Có việc gì mà chị ầm ĩ cả xóm thế?",
+        "Vợ chuột chù kể một thôi một hồi.",
+        "Bác chuột cống ôn tồn bảo: Chị bớt giận đã.",
+        "Tôi ở sát vách, nghe rõ cả đầu đuôi.",
+        "Cô chuột bạch đi lạc vào đây, lại một mực từ chối, chỉ xin về với con.",
+        "Chị chưa hỏi rõ đã vội mắng oan người ta rồi."
+      ],
+      "image": {
+        "character": "chuot-cong",
+        "prompt": "the wise old rat neighbor with spectacles and a walking stick stands between them speaking calmly with one paw raised, the shrew wife listening with a surprised face",
+        "seed": 2164199181
+      },
+      "video": {
+        "motionPrompt": "the old rat lifts his paw and speaks gently, the shrew wife's anger fades and her eyes widen, the white mouse looks up hopefully",
+        "seed": 2532381486
+      },
+      "voice": {}
+    },
+    {
+      "id": "lam-lanh",
+      "title": "Làm lành",
+      "narrator": "ke-chuyen",
+      "narration": "Bác chuột cống lại khuyên: Vợ chồng ăn ở với nhau, quý nhất là chữ hòa. Một câu nhịn là chín câu lành chị ạ. Rồi bác quay sang an ủi chuột bạch: Thôi cô về đi, kẻo các con ở nhà mong. Vợ chuột chù nghe ra, hối hận lắm, xin lỗi chuột bạch. Chuột bạch mỉm cười, vội vã về với đàn con. Từ đó, cả họ nhà chuột ai cũng khen chuột bạch hiền hậu, thủy chung.",
+      "subtitles": [
+        "Bác chuột cống lại khuyên: Vợ chồng ăn ở với nhau, quý nhất là chữ hòa.",
+        "Một câu nhịn là chín câu lành chị ạ.",
+        "Rồi bác quay sang an ủi chuột bạch: Thôi cô về đi, kẻo các con ở nhà mong.",
+        "Vợ chuột chù nghe ra, hối hận lắm, xin lỗi chuột bạch.",
+        "Chuột bạch mỉm cười, vội vã về với đàn con.",
+        "Từ đó, cả họ nhà chuột ai cũng khen chuột bạch hiền hậu, thủy chung."
+      ],
+      "image": {
+        "character": "chuot-bach",
+        "prompt": "the shrew wife bows apologetically to the white mouse while the old rat smiles, then the white mouse hurries home under the moon and hugs her happy babies in their straw bed",
+        "seed": 256649959
+      },
+      "video": {
+        "motionPrompt": "the shrew wife bows, the white mouse smiles and waves, she runs home through moonlit grass and her babies jump into her arms",
+        "seed": 107931943
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, vợ chuột chù chưa nghe đầu đuôi đã vội nổi nóng, mắng oan cả người tốt. May có bác chuột cống bình tĩnh giải thích, mọi chuyện mới êm. Khi giận, mình hãy hít một hơi thật sâu, hỏi cho rõ rồi hãy nói nhé. Một câu nhịn là chín câu lành mà. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, vợ chuột chù chưa nghe đầu đuôi đã vội nổi nóng,",
+        "mắng oan cả người tốt.",
+        "May có bác chuột cống bình tĩnh giải thích, mọi chuyện mới êm.",
+        "Khi giận, mình hãy hít một hơi thật sâu, hỏi cho rõ rồi hãy nói nhé.",
+        "Một câu nhịn là chín câu lành mà. Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye by the tree roots at night, the white mouse family, the old rat and the shrew couple waving together from their little round doors",
+        "seed": 305242462
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, all the little mice wave back from their doors, lanterns glow, gentle camera pull-back",
+        "seed": 3692463835
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender Vietnamese night melody, dan bau monochord and dan tranh zither with soft bamboo flute, gentle lullaby then a short comic flutter, warm ending, slow tempo, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 3269148945
+  }
+}

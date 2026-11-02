@@ -70,7 +70,7 @@ Mảng JSON, mỗi dòng một mục, **thứ tự trong tệp là thứ tự vi
 
    | | `kids` | `adults` | `world` |
    | --- | --- | --- | --- |
-   | Dành cho | Truyện Việt kể nhẹ cho trẻ nhỏ | Truyện Việt kể đầy đủ, theo sát truyện xưa | Truyện các nước kể nhẹ cho cả nhà |
+   | Dành cho | Truyện Việt hoặc các nước kể nhẹ cho trẻ nhỏ | Truyện Việt hoặc các nước kể đầy đủ, theo sát truyện xưa | Truyện các nước kể nhẹ cho cả nhà |
    | Số cảnh | 6–10 | 8–14 | 4–12 |
    | Đọc to (ước tính) | 3–6 phút | 6–12 phút | 2–8 phút |
    | Người kể | `miu` (Mèo Miu, giọng Trúc Ly) kể cảnh đầu và cảnh cuối, người kể chuyện giọng Quỳnh Anh | Đúng một người kể, giọng Thanh Bình (không phải Trúc Ly, Quỳnh Anh, Mỹ Duyên) | Đúng một người kể, giọng Mỹ Duyên |
@@ -80,9 +80,14 @@ Mảng JSON, mỗi dòng một mục, **thứ tự trong tệp là thứ tự vi
    - **Mèo Miu chỉ ở kệ `kids`**: kệ khác không có người kể `miu`, không có nhân vật `miu`.
    - Mọi kệ: không có chữ số trong lời kể (viết "ba", "một trăm"); không dùng các giọng Ngọc Trân, Quang Sơn, Thùy
      Dung, Minh Triết.
-   - Kệ: `origin: vn-folk` lên `kids` hoặc `adults` theo nội dung (cái chết, bạo lực, chuyện tình bi thương ⇒ `adults`;
-     truyện nhẹ ⇒ `kids`, kể vòng qua chi tiết đáng sợ). `SHELVES` đã có `world`, nên mọi mục `origin: world` lên kệ
-     `world` theo luật kệ đó; mục `origin: world` nào trong danh mục còn ghi `kids` hay `adults` thì sửa thành `world`.
+   - Kệ (người sở hữu chốt 02/11/2026): `origin` ghi gốc truyện, `shelf` ghi người đọc, hai thứ độc lập.
+     - `kids`: truyện Việt **hoặc** truyện các nước kể nhẹ cho trẻ nhỏ, Mèo Miu mở và kết.
+     - `adults`: truyện Việt **hoặc** truyện các nước kể đầy đủ (Nghìn lẻ một đêm, Liêu Trai, thần thoại Hy Lạp…), được
+       nói tới cái chết; đây là chỗ cho truyện các nước mà cái chết là cốt lõi nên không kể nhẹ được.
+     - `world`: truyện các nước kể nhẹ cho cả nhà.
+     - Không đổi `shelf` của một mục trong danh mục chỉ vì `origin`; giữ kệ đã ghi.
+     - Không viết: tiểu sử danh nhân thuần lịch sử; truyện mà loạn luân, xâm hại, chế giễu dân tộc hay coi thường phụ
+       nữ là cốt lõi (xem `catalog/rejected.json`).
      Một truyện thế giới không thể kể nhẹ nhàng mà vẫn đúng cốt truyện thì bỏ qua và ghi vào báo cáo.
    - Từ cấm chỉ là lưới chặn sơ suất; giọng kể phải hợp kệ ngay từ đầu.
 5. **Bản quyền.** Chỉ lấy cốt truyện đã thuộc phạm vi công cộng: văn học dân gian không ai giữ quyền; sách cổ (Lĩnh Nam

@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "slug": "hoang-tu-mui-dai",
+  "shelf": "world",
+  "title": "Hoàng tử mũi dài",
+  "summary": "Vì lời nguyền của một phù thủy hóa mèo, hoàng tử Hyacinth sinh ra với chiếc mũi to dài che nửa mặt, nhưng cả triều đình đều khen mũi chàng đẹp. Chỉ khi không thể hôn tay nàng công chúa trong lâu đài pha lê, chàng mới nhận ra sự thật. Truyện cổ Pháp về lòng tự ái và những lời nịnh, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "ngu-ngon",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"Prince Hyacinth and the Dear Little Princess\" trong The Blue Fairy Book do Andrew Lang biên tập (1889; Lang theo truyện \"Le Prince Désir et la Princesse Mignonne\" của bà Leprince de Beaumont), Project Gutenberg #503, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện và lời răn của bà tiên, không chép bản dịch nào.",
+  "basedOn": "Truyện cổ Leprince de Beaumont, Andrew Lang chép (1889)",
+  "style": "classic French fairy tale picture book illustration in eighteenth century rococo style, an elegant palace hung with portraits, a lonely plain at dusk with a glowing cave, a sparkling crystal palace, soft pastel watercolor and gold, colors of powder blue, rose pink, ivory and gold, playful witty mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hyacinth",
+      "name": "Hoàng tử Hyacinth",
+      "sheetPrompt": "a young French prince from an eighteenth century fairy tale with a comically enormous long nose covering half his face, large blue eyes, sweet small mouth, powder blue velvet coat with lace cuffs, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2880792203
+    },
+    {
+      "id": "cong-chua-be",
+      "name": "Công chúa Bé Xinh",
+      "sheetPrompt": "a dainty pretty French princess from an eighteenth century fairy tale with a small saucy turned-up nose, rosy cheeks, powdered curls with pink ribbons, pink silk gown, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1808102617
+    },
+    {
+      "id": "ba-tien-gia",
+      "name": "Bà tiên già",
+      "sheetPrompt": "a tiny chatty hundred year old fairy from a French fairy tale with a very short little nose, round spectacles slipping off, lace cap, old fashioned lavender gown, full body, front and side views, plain light background, character reference sheet",
+      "seed": 219777431
+    },
+    {
+      "id": "phu-thuy-meo",
+      "name": "Phù thủy mèo",
+      "sheetPrompt": "a large fluffy grey cat with a long bushy tail from a French fairy tale, arching his back, and beside it the same character as a tall grumpy enchanter in a dark purple cloak with glowing eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1966742726
+    }
+  ],
+  "scenes": [
+    {
+      "id": "giam-duoi-meo",
+      "title": "Giẫm đuôi mèo",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một ông vua đem lòng yêu một nàng công chúa, nhưng nàng bị bùa phép nên không thể lấy ai. Vua đi tìm một bà tiên hỏi cách. Bà tiên bảo: “Công chúa có con mèo to rất quý. Ai khéo giẫm được lên đuôi con mèo ấy, người đó sẽ lấy được nàng.” Vua nghĩ chuyện ấy dễ ợt. Nhưng hễ vua tới thăm, con mèo lại cong lưng đi trước, vua vừa bước dài định giẫm thì nó quay ngoắt đi, chân vua chỉ giẫm vào khoảng không. Cứ thế suốt tám ngày, vua tưởng cái đuôi ấy làm bằng thủy ngân, chẳng lúc nào chịu yên.",
+      "subtitles": [
+        "Ngày xưa có một ông vua đem lòng yêu một nàng công chúa,",
+        "nhưng nàng bị bùa phép nên không thể lấy ai. Vua đi tìm một bà tiên hỏi cách.",
+        "Bà tiên bảo: “Công chúa có con mèo to rất quý.",
+        "Ai khéo giẫm được lên đuôi con mèo ấy, người đó sẽ lấy được nàng.”",
+        "Vua nghĩ chuyện ấy dễ ợt.",
+        "Nhưng hễ vua tới thăm, con mèo lại cong lưng đi trước,",
+        "vua vừa bước dài định giẫm thì nó quay ngoắt đi, chân vua chỉ giẫm vào khoảng không.",
+        "Cứ thế suốt tám ngày, vua tưởng cái đuôi ấy làm bằng thủy ngân, chẳng lúc nào chịu yên."
+      ],
+      "image": {
+        "prompt": "an elegant palace hall, a king in a rococo coat taking a giant tiptoe step toward the long bushy tail of a big grey cat that flicks away just in time, a princess laughing behind her fan",
+        "seed": 179506645,
+        "character": "phu-thuy-meo"
+      },
+      "video": {
+        "motionPrompt": "the cat whisks its tail away, the king hops on one foot and wobbles, the princess giggles",
+        "seed": 343378873
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-nguyen",
+      "title": "Lời nguyền",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng, vua gặp lúc con mèo đang ngủ say, đuôi duỗi dài trên thảm. Vua liền giẫm mạnh lên. Con mèo kêu thét một tiếng, nhảy dựng lên, hóa thành một người đàn ông cao lớn, mắt nhìn vua giận dữ. Đó là một phù thủy. Lão nói: “Ngươi đã phá được bùa, ngươi sẽ lấy được công chúa. Nhưng ta sẽ trả thù. Ngươi sẽ có một đứa con trai, nó sẽ chẳng bao giờ được hạnh phúc cho tới khi nhận ra mũi mình quá dài. Nếu ngươi kể lời này với ai, ngươi sẽ biến mất mãi mãi.” Vua sợ, nhưng cũng bật cười: “Mũi dài như thế thì làm sao nó không thấy?” Rồi vua cưới công chúa. Ít lâu sau, nhà vua qua đời.",
+      "subtitles": [
+        "Cuối cùng, vua gặp lúc con mèo đang ngủ say, đuôi duỗi dài trên thảm.",
+        "Vua liền giẫm mạnh lên.",
+        "Con mèo kêu thét một tiếng, nhảy dựng lên, hóa thành một người đàn ông cao lớn,",
+        "mắt nhìn vua giận dữ. Đó là một phù thủy.",
+        "Lão nói: “Ngươi đã phá được bùa, ngươi sẽ lấy được công chúa. Nhưng ta sẽ trả thù.",
+        "Ngươi sẽ có một đứa con trai,",
+        "nó sẽ chẳng bao giờ được hạnh phúc cho tới khi nhận ra mũi mình quá dài.",
+        "Nếu ngươi kể lời này với ai, ngươi sẽ biến mất mãi mãi.”",
+        "Vua sợ, nhưng cũng bật cười: “Mũi dài như thế thì làm sao nó không thấy?”",
+        "Rồi vua cưới công chúa. Ít lâu sau, nhà vua qua đời."
+      ],
+      "image": {
+        "prompt": "a sleeping grey cat on a rug suddenly transforming into a tall grumpy enchanter in a purple cloak in a puff of sparkling smoke, the startled king stepping back",
+        "seed": 3943561637,
+        "character": "phu-thuy-meo"
+      },
+      "video": {
+        "motionPrompt": "sparkles swirl as the cat grows into a tall enchanter, he points a long finger, the king covers his mouth",
+        "seed": 2336561729
+      },
+      "voice": {}
+    },
+    {
+      "id": "mui-dep-nhat",
+      "title": "Mũi đẹp nhất",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng hậu sinh được một hoàng tử, đặt tên là Hyacinth. Hoàng tử có đôi mắt xanh to đẹp nhất đời, cái miệng xinh xinh, nhưng chiếc mũi thì to đến che mất nửa khuôn mặt. Hoàng hậu buồn lắm, các thị nữ vội an ủi: “Mũi to là mũi anh hùng đấy ạ, cứ mở sử sách ra mà xem.” Từ đó, người ta chỉ kể cho hoàng tử nghe chuyện về người mũi ngắn thật đáng chê. Ai được tới gần hoàng tử cũng phải có mũi dài. Các quan còn kéo mũi con mình mỗi ngày cho dài ra. Phòng hoàng tử treo toàn tranh những người mũi to. Lớn lên, Hyacinth tin chắc mũi dài là đẹp nhất, có cho cũng chẳng chịu bớt đi một phân.",
+      "subtitles": [
+        "Hoàng hậu sinh được một hoàng tử, đặt tên là Hyacinth.",
+        "Hoàng tử có đôi mắt xanh to đẹp nhất đời, cái miệng xinh xinh,",
+        "nhưng chiếc mũi thì to đến che mất nửa khuôn mặt.",
+        "Hoàng hậu buồn lắm, các thị nữ vội an ủi: “Mũi to là mũi anh hùng đấy ạ,",
+        "cứ mở sử sách ra mà xem.”",
+        "Từ đó, người ta chỉ kể cho hoàng tử nghe chuyện về người mũi ngắn thật đáng chê.",
+        "Ai được tới gần hoàng tử cũng phải có mũi dài.",
+        "Các quan còn kéo mũi con mình mỗi ngày cho dài ra.",
+        "Phòng hoàng tử treo toàn tranh những người mũi to.",
+        "Lớn lên, Hyacinth tin chắc mũi dài là đẹp nhất, có cho cũng chẳng chịu bớt đi một phân."
+      ],
+      "image": {
+        "prompt": "a young prince with a comically enormous nose admiring portraits of long nosed heroes on the palace walls, courtiers bowing with exaggerated long noses, a nurse gently tugging a baby nose",
+        "seed": 2211355033,
+        "character": "hyacinth"
+      },
+      "video": {
+        "motionPrompt": "the prince strikes a proud pose, the courtiers nod in agreement, a portrait seems to wink",
+        "seed": 615497276
+      },
+      "voice": {}
+    },
+    {
+      "id": "chan-dung-cong-chua",
+      "title": "Chân dung công chúa",
+      "narrator": "ke-chuyen",
+      "narration": "Năm Hyacinth hai mươi tuổi, hoàng hậu cho mang tới chân dung các nàng công chúa để chàng chọn vợ. Chàng mê ngay nàng Công chúa Bé Xinh. Nàng có cái mũi nhỏ hếch lên tinh nghịch, trên gương mặt nàng thì xinh xắn vô cùng. Các quan quen chê mũi ngắn, lỡ cười thì bị hoàng tử đuổi khỏi triều ngay. Một vị khôn hơn, tâu rằng đàn ông thì phải mũi dài mới đáng giá, còn đàn bà thì khác, nghe nói nàng Cleopatra cũng có mũi hếch. Hoàng tử thưởng vị ấy thật hậu, rồi sai sứ sang hỏi cưới. Vua cha công chúa bằng lòng.",
+      "subtitles": [
+        "Năm Hyacinth hai mươi tuổi,",
+        "hoàng hậu cho mang tới chân dung các nàng công chúa để chàng chọn vợ.",
+        "Chàng mê ngay nàng Công chúa Bé Xinh.",
+        "Nàng có cái mũi nhỏ hếch lên tinh nghịch, trên gương mặt nàng thì xinh xắn vô cùng.",
+        "Các quan quen chê mũi ngắn, lỡ cười thì bị hoàng tử đuổi khỏi triều ngay.",
+        "Một vị khôn hơn, tâu rằng đàn ông thì phải mũi dài mới đáng giá, còn đàn bà thì khác,",
+        "nghe nói nàng Cleopatra cũng có mũi hếch.",
+        "Hoàng tử thưởng vị ấy thật hậu, rồi sai sứ sang hỏi cưới. Vua cha công chúa bằng lòng."
+      ],
+      "image": {
+        "prompt": "the long nosed prince gazing lovingly at a portrait of a dainty princess with a small turned-up nose, a clever courtier whispering behind his hand, other courtiers stifling giggles",
+        "seed": 2380601485,
+        "character": "hyacinth"
+      },
+      "video": {
+        "motionPrompt": "the prince clasps the portrait to his heart, a courtier tries hard not to laugh, ribbons flutter",
+        "seed": 3369606571
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-cuop-mat",
+      "title": "Bị cướp mất",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử nóng lòng, đi trước ba dặm để đón nàng. Chàng vừa cúi xuống định hôn tay công chúa thì lão phù thủy hiện ra nhanh như chớp, chộp lấy nàng và cuốn đi mất. Hoàng tử buồn bã, thề không tìm được nàng thì không về. Chàng không cho ai theo, một mình lên ngựa, để ngựa tự chọn đường. Chàng đi suốt một ngày trên cánh đồng hoang chẳng thấy nhà cửa, người ngựa đều đói lả. Trời tối, chàng thấy ánh đèn le lói từ một hang đá.",
+      "subtitles": [
+        "Hoàng tử nóng lòng, đi trước ba dặm để đón nàng.",
+        "Chàng vừa cúi xuống định hôn tay công chúa thì lão phù thủy hiện ra nhanh như chớp,",
+        "chộp lấy nàng và cuốn đi mất. Hoàng tử buồn bã, thề không tìm được nàng thì không về.",
+        "Chàng không cho ai theo, một mình lên ngựa, để ngựa tự chọn đường.",
+        "Chàng đi suốt một ngày trên cánh đồng hoang chẳng thấy nhà cửa, người ngựa đều đói lả.",
+        "Trời tối, chàng thấy ánh đèn le lói từ một hang đá."
+      ],
+      "image": {
+        "prompt": "a long nosed prince on horseback riding alone across a wide empty plain at dusk toward a warm light glowing from a small cave, far behind him a whirl of purple smoke fading in the sky",
+        "seed": 2599126241,
+        "character": "hyacinth"
+      },
+      "video": {
+        "motionPrompt": "the horse walks slowly, the prince droops in the saddle, then lifts his head as the cave light flickers",
+        "seed": 3606660767
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-tien-mui-ngan",
+      "title": "Bà tiên mũi ngắn",
+      "narrator": "ke-chuyen",
+      "narration": "Trong hang có một bà lão trông như đã trăm tuổi. Bà đeo kính mãi mới yên vì mũi bà ngắn quá. Hai người vừa nhìn nhau đã phá lên cười: “Ôi, cái mũi buồn cười chưa!” Bà tiên bảo: “Cậu là con người bạn thân nhất của ta. Cha cậu có cái mũi đẹp lắm.” Hoàng tử hỏi: “Thế mũi cháu thiếu gì?” “Chẳng thiếu gì, mà thừa quá nhiều.” Trong bữa tối, bà nói luyên thuyên không ngừng, cứ chốc chốc lại nhắc mũi chàng: “Cậu xích sang bên kia giùm, mũi cậu che hết bóng, ta chẳng thấy đĩa đâu.” Hoàng tử nghĩ: “Bà này bị đám nịnh thần làm hư, chẳng thấy lỗi mình. Còn ta, ta biết rõ lỗi của ta.” Chàng đâu biết, những người khen mũi chàng cũng đang cười chàng sau lưng.",
+      "subtitles": [
+        "Trong hang có một bà lão trông như đã trăm tuổi.",
+        "Bà đeo kính mãi mới yên vì mũi bà ngắn quá.",
+        "Hai người vừa nhìn nhau đã phá lên cười: “Ôi, cái mũi buồn cười chưa!”",
+        "Bà tiên bảo: “Cậu là con người bạn thân nhất của ta. Cha cậu có cái mũi đẹp lắm.”",
+        "Hoàng tử hỏi: “Thế mũi cháu thiếu gì?” “Chẳng thiếu gì, mà thừa quá nhiều.”",
+        "Trong bữa tối, bà nói luyên thuyên không ngừng, cứ chốc chốc lại nhắc mũi chàng:",
+        "“Cậu xích sang bên kia giùm, mũi cậu che hết bóng, ta chẳng thấy đĩa đâu.”",
+        "Hoàng tử nghĩ: “Bà này bị đám nịnh thần làm hư, chẳng thấy lỗi mình.",
+        "Còn ta, ta biết rõ lỗi của ta.”",
+        "Chàng đâu biết, những người khen mũi chàng cũng đang cười chàng sau lưng."
+      ],
+      "image": {
+        "prompt": "inside a cozy cave a tiny old fairy with a very short nose and slipping spectacles chatting at a supper table, the long nosed prince leaning away while his nose casts a huge shadow over her plate, a maid laughing slyly",
+        "seed": 3394218105,
+        "character": "ba-tien-gia"
+      },
+      "video": {
+        "motionPrompt": "the fairy talks and waves her fork, the prince shifts his seat, the giant nose shadow slides across the table",
+        "seed": 2876535089
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-pha-le",
+      "title": "Lâu đài pha lê",
+      "narrator": "ke-chuyen",
+      "narration": "Ăn xong, chàng bực quá, lên ngựa đi thẳng. Nhưng đi tới đâu, người ta cũng bàn tán về mũi chàng, chàng chỉ nghĩ họ điên cả. Bà tiên muốn giúp chàng, bèn nhốt Công chúa Bé Xinh trong một lâu đài pha lê, đặt ngay trên đường chàng đi. Hoàng tử mừng rỡ, ra sức phá cửa mà không được. Công chúa đưa tay qua khe để chàng hôn. Nhưng chàng xoay bên nào cũng không đưa được bàn tay nàng lên môi, vì chiếc mũi dài cứ vướng mãi. Lần đầu tiên, chàng thấy mũi mình dài thật, bèn kêu lên: “Phải công nhận là mũi ta quá dài!”",
+      "subtitles": [
+        "Ăn xong, chàng bực quá, lên ngựa đi thẳng.",
+        "Nhưng đi tới đâu, người ta cũng bàn tán về mũi chàng, chàng chỉ nghĩ họ điên cả.",
+        "Bà tiên muốn giúp chàng, bèn nhốt Công chúa Bé Xinh trong một lâu đài pha lê,",
+        "đặt ngay trên đường chàng đi. Hoàng tử mừng rỡ, ra sức phá cửa mà không được.",
+        "Công chúa đưa tay qua khe để chàng hôn.",
+        "Nhưng chàng xoay bên nào cũng không đưa được bàn tay nàng lên môi,",
+        "vì chiếc mũi dài cứ vướng mãi.",
+        "Lần đầu tiên, chàng thấy mũi mình dài thật, bèn kêu lên:",
+        "“Phải công nhận là mũi ta quá dài!”"
+      ],
+      "image": {
+        "prompt": "a sparkling crystal palace in a meadow, a dainty princess reaching her hand through a gap in the crystal wall, the prince trying again and again to kiss it but his enormous nose bumping the crystal",
+        "seed": 3756851522,
+        "character": "cong-chua-be"
+      },
+      "video": {
+        "motionPrompt": "the prince tilts his head left and right, his nose bonks the crystal with a soft clink, the princess giggles",
+        "seed": 2850872702
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc-cua-ba-tien",
+      "title": "Bài học của bà tiên",
+      "narrator": "ke-chuyen",
+      "narration": "Ngay lập tức, lâu đài pha lê vỡ tan thành nghìn mảnh lấp lánh. Bà tiên già dắt tay công chúa bước ra, bảo hoàng tử: “Giờ cậu có biết ơn ta không? Ta nói mãi chuyện cái mũi mà chẳng ăn thua. Phải đến khi nó cản đường cậu, cậu mới chịu thấy. Lòng tự ái che mắt chúng ta, không cho ta thấy lỗi của mình, cho tới khi lỗi ấy làm hỏng việc ta muốn.” Mũi hoàng tử Hyacinth trở lại bình thường như mũi bao người khác. Chàng ghi nhớ bài học ấy, cưới Công chúa Bé Xinh, và hai người sống hạnh phúc mãi mãi.",
+      "subtitles": [
+        "Ngay lập tức, lâu đài pha lê vỡ tan thành nghìn mảnh lấp lánh.",
+        "Bà tiên già dắt tay công chúa bước ra, bảo hoàng tử: “Giờ cậu có biết ơn ta không?",
+        "Ta nói mãi chuyện cái mũi mà chẳng ăn thua.",
+        "Phải đến khi nó cản đường cậu, cậu mới chịu thấy.",
+        "Lòng tự ái che mắt chúng ta, không cho ta thấy lỗi của mình,",
+        "cho tới khi lỗi ấy làm hỏng việc ta muốn.”",
+        "Mũi hoàng tử Hyacinth trở lại bình thường như mũi bao người khác.",
+        "Chàng ghi nhớ bài học ấy, cưới Công chúa Bé Xinh, và hai người sống hạnh phúc mãi mãi."
+      ],
+      "image": {
+        "prompt": "a crystal palace bursting into a thousand harmless glittering sparkles, the old fairy leading the princess by the hand, the prince now with a normal handsome nose kneeling joyfully",
+        "seed": 4240782792,
+        "character": "hyacinth"
+      },
+      "video": {
+        "motionPrompt": "crystal sparkles float down like snow, the prince touches his new nose in wonder, then takes the princess hand",
+        "seed": 2631840419
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "graceful French baroque fairy tale music, harpsichord, flute and light strings in a playful minuet, a shimmering crystal glockenspiel moment, a sweet wedding gavotte ending, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 2129370828
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-cho-co-nghia",
+  "shelf": "kids",
+  "title": "Con chó có nghĩa",
+  "summary": "Ông chủ trách chú chó chỉ biết ngồi chực bữa cơm mà chẳng làm gì. Chú chó nhỏ nhẹ kể chuyện thức canh nhà suốt đêm, và nhất định không bỏ chủ mà đi. Truyện cổ Việt Nam về lòng trung thành, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện số một trăm linh năm trong Truyện cổ nước Nam – Muông chim (1934) của Ôn Như Nguyễn Văn Ngọc, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; Mèo Miu dẫn chuyện, thoại và lời rút ý cuối truyện do người viết thêm. Lời đối đáp của ông chủ và chú chó viết lại bằng vần mới; thêm cảnh chú chó canh nhà ban đêm; bỏ chi tiết ông chủ ghét con mèo, chỉ kể mèo xấu hổ không xui dại nữa.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, northern Vietnamese village house with a bamboo gate, rice fields and a moonlit yard, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3674081040
+    },
+    {
+      "id": "cho",
+      "name": "Chú chó vàng",
+      "seed": 3762610128,
+      "sheetPrompt": "a loyal golden-yellow village dog with floppy ears, kind eyes and a curled tail, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-chu",
+      "name": "Ông chủ",
+      "seed": 3824683267,
+      "sheetPrompt": "an elderly Vietnamese farmer in a brown ao ba ba shirt and a conical hat, grey moustache, kind but grumpy face, cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "meo",
+      "name": "Chị mèo",
+      "seed": 858768477,
+      "sheetPrompt": "a sly tabby cat with narrow green eyes and a fluffy tail, mischievous smile, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Nhà bạn nào có nuôi chó không? Ban ngày chó hay nằm lim dim ngủ, nhưng ban đêm lại thức canh nhà đấy. Ngày xưa có một ông chủ không biết điều ấy, nên trách oan chú chó của mình. Chú chó đã nói gì nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Nhà bạn nào có nuôi chó không?",
+        "Ban ngày chó hay nằm lim dim ngủ, nhưng ban đêm lại thức canh nhà đấy.",
+        "Ngày xưa có một ông chủ không biết điều ấy, nên trách oan chú chó của mình.",
+        "Chú chó đã nói gì nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a bamboo bench in a village yard at dusk, holding a picture book, a sleepy yellow dog curled up near her feet",
+        "seed": 4206645454
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello, the dog lifts one ear and wags its tail, fireflies begin to glow, slow gentle camera push-in",
+        "seed": 596946445
+      },
+      "voice": {}
+    },
+    {
+      "id": "bua-com",
+      "title": "Bữa cơm",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một làng quê, có một nhà nuôi một chú chó vàng. Cứ đến bữa cơm, cả nhà ngồi quanh mâm, thì chú chó cũng ngồi chực bên cạnh, mắt nhìn mâm cơm, đuôi ngoe nguẩy. Ông chủ thấy thế thì bực lắm. Một hôm, ông chỉ tay vào chú chó mà mắng: Ngoài đồng cày cấy, chẳng thấy mày đâu. Mâm cơm vừa dọn, mày đã ngồi chờ!",
+      "subtitles": [
+        "Ngày xưa, ở một làng quê, có một nhà nuôi một chú chó vàng.",
+        "Cứ đến bữa cơm, cả nhà ngồi quanh mâm, thì chú chó cũng ngồi chực bên cạnh,",
+        "mắt nhìn mâm cơm, đuôi ngoe nguẩy.",
+        "Ông chủ thấy thế thì bực lắm.",
+        "Một hôm, ông chỉ tay vào chú chó mà mắng: Ngoài đồng cày cấy, chẳng thấy mày đâu.",
+        "Mâm cơm vừa dọn, mày đã ngồi chờ!"
+      ],
+      "image": {
+        "character": "ong-chu",
+        "prompt": "a Vietnamese family eats around a low wooden tray of rice and vegetables on a bamboo mat, a yellow dog sits politely beside them wagging its tail, the old farmer points at the dog with a grumpy face",
+        "seed": 2166923214
+      },
+      "video": {
+        "motionPrompt": "the family eats with chopsticks, the dog tilts its head hopefully, the farmer frowns and points, steam rises from the rice bowls",
+        "seed": 758256901
+      },
+      "voice": {}
+    },
+    {
+      "id": "cho-dap",
+      "title": "Chú chó trả lời",
+      "narrator": "ke-chuyen",
+      "narration": "Chú chó cúi đầu, rồi nhỏ nhẹ đáp: Đêm dài năm canh, tôi thức tôi canh. Ông ngủ say sưa, nào ông có biết. Vắng tôi một đêm, thóc gà ông mất. Xin ông thương tình, đừng mắng tôi nữa! Ông chủ nghe vậy thì lặng thinh, chẳng nói thêm câu nào.",
+      "subtitles": [
+        "Chú chó cúi đầu, rồi nhỏ nhẹ đáp: Đêm dài năm canh, tôi thức tôi canh.",
+        "Ông ngủ say sưa, nào ông có biết.",
+        "Vắng tôi một đêm, thóc gà ông mất.",
+        "Xin ông thương tình, đừng mắng tôi nữa!",
+        "Ông chủ nghe vậy thì lặng thinh, chẳng nói thêm câu nào."
+      ],
+      "image": {
+        "character": "cho",
+        "prompt": "the yellow dog bows its head and speaks gently to the surprised old farmer, a soft dream bubble shows the dog guarding the gate under the moon",
+        "seed": 3167642272
+      },
+      "video": {
+        "motionPrompt": "the dog lowers its head then looks up kindly, the farmer slowly puts down his chopsticks, the dream bubble glows and fades",
+        "seed": 1789316601
+      },
+      "voice": {}
+    },
+    {
+      "id": "dem-canh-nha",
+      "title": "Đêm canh nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy, trăng sáng vằng vặc. Cả nhà đã ngủ say. Chỉ có chú chó vẫn nằm trước cổng, tai dỏng lên nghe ngóng. Có tiếng sột soạt ngoài bờ rào, chú đứng bật dậy, sủa vang: Gâu! Gâu! Cái bóng lạ ngoài rào vội vàng bỏ chạy. Đàn gà trong chuồng vẫn ngủ yên, bồ thóc trong nhà vẫn đầy ắp.",
+      "subtitles": [
+        "Đêm ấy, trăng sáng vằng vặc. Cả nhà đã ngủ say.",
+        "Chỉ có chú chó vẫn nằm trước cổng, tai dỏng lên nghe ngóng.",
+        "Có tiếng sột soạt ngoài bờ rào, chú đứng bật dậy, sủa vang: Gâu!",
+        "Gâu! Cái bóng lạ ngoài rào vội vàng bỏ chạy.",
+        "Đàn gà trong chuồng vẫn ngủ yên, bồ thóc trong nhà vẫn đầy ắp."
+      ],
+      "image": {
+        "character": "cho",
+        "prompt": "a moonlit village yard, the yellow dog stands alert at the bamboo gate barking, a shadowy figure hurries away beyond the hedge, a henhouse with sleeping hens and a rice basket full of grain",
+        "seed": 1385949312
+      },
+      "video": {
+        "motionPrompt": "the dog's ears perk up, it barks bravely, the shadow scurries off into the dark, hens sleep peacefully, moonlight shimmers",
+        "seed": 2146054050
+      },
+      "voice": {}
+    },
+    {
+      "id": "meo-xui",
+      "title": "Chị mèo xui dại",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, con mèo nhà ấy đến bên chú chó, thì thầm: Ông chủ đối với anh bạc bẽo thế, anh còn ở lại làm gì? Bỏ đi chỗ khác có phải sướng hơn không? Chú chó lắc đầu: Không được đâu chị mèo ạ. Người ta bảo chó gầy thì xấu mặt người nuôi. Ông chủ đã nuôi tôi từ bé, nay tôi bỏ ông mà đi thì là không có nghĩa.",
+      "subtitles": [
+        "Sáng hôm sau, con mèo nhà ấy đến bên chú chó, thì thầm: Ông chủ đối với anh bạc bẽo thế,",
+        "anh còn ở lại làm gì?",
+        "Bỏ đi chỗ khác có phải sướng hơn không?",
+        "Chú chó lắc đầu: Không được đâu chị mèo ạ.",
+        "Người ta bảo chó gầy thì xấu mặt người nuôi.",
+        "Ông chủ đã nuôi tôi từ bé, nay tôi bỏ ông mà đi thì là không có nghĩa."
+      ],
+      "image": {
+        "character": "meo",
+        "prompt": "morning in the village yard, a sly tabby cat whispers to the yellow dog beside a water jar, the dog shakes its head firmly, a servant sweeping the yard overhears",
+        "seed": 3065390707
+      },
+      "video": {
+        "motionPrompt": "the cat leans in whispering, the dog shakes its head, the servant pauses with the broom and listens, morning sunlight spreads",
+        "seed": 2770900123
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-chu-hieu",
+      "title": "Ông chủ hiểu ra",
+      "narrator": "ke-chuyen",
+      "narration": "Có người làm trong nhà nghe được, bèn vào kể lại với ông chủ. Ông chủ ngẫm nghĩ hồi lâu, thấy thương chú chó vô cùng. Từ đó, ông không bao giờ mắng chú chó nữa. Bữa nào ông cũng để dành cho chú một bát cơm đầy. Ai mà mắng chó, ông còn bênh: Mắng chó thì cũng phải nể mặt chủ nhà chứ! Còn chị mèo thì đỏ mặt, chẳng dám xui dại ai nữa.",
+      "subtitles": [
+        "Có người làm trong nhà nghe được, bèn vào kể lại với ông chủ.",
+        "Ông chủ ngẫm nghĩ hồi lâu, thấy thương chú chó vô cùng.",
+        "Từ đó, ông không bao giờ mắng chú chó nữa.",
+        "Bữa nào ông cũng để dành cho chú một bát cơm đầy.",
+        "Ai mà mắng chó, ông còn bênh: Mắng chó thì cũng phải nể mặt chủ nhà chứ!",
+        "Còn chị mèo thì đỏ mặt, chẳng dám xui dại ai nữa."
+      ],
+      "image": {
+        "character": "ong-chu",
+        "prompt": "the old farmer smiles and pats the happy yellow dog, giving it a full bowl of rice, the tabby cat hides shyly behind a water jar with a blushing face",
+        "seed": 1454857484
+      },
+      "video": {
+        "motionPrompt": "the farmer strokes the dog's head, the dog wags its tail joyfully, the cat peeks out shyly and hides again, warm light",
+        "seed": 1470447977
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn ơi, có những việc tốt người khác làm mà mình không nhìn thấy, như chú chó thức canh nhà lúc mọi người ngủ say. Vì thế, mình đừng vội trách ai khi chưa hiểu hết. Còn chú chó dạy chúng mình lòng biết ơn: ai thương mình, nuôi mình, thì mình không bỏ đi lúc khó khăn. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn ơi, có những việc tốt người khác làm mà mình không nhìn thấy,",
+        "như chú chó thức canh nhà lúc mọi người ngủ say.",
+        "Vì thế, mình đừng vội trách ai khi chưa hiểu hết.",
+        "Còn chú chó dạy chúng mình lòng biết ơn: ai thương mình, nuôi mình,",
+        "thì mình không bỏ đi lúc khó khăn.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the bamboo gate, the yellow dog sits proudly beside her and the old farmer smiles from the porch, sunset over rice fields",
+        "seed": 932223181
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the dog wags its tail, the farmer nods, golden sunset light, gentle camera pull-back",
+        "seed": 675694639
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm Vietnamese village melody, dan bau monochord and soft bamboo flute, tender and loyal mood, calm night-time feeling, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3237210135
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-tau-bay",
+  "shelf": "world",
+  "title": "Con tàu bay",
+  "summary": "Nhà vua hứa gả công chúa cho ai đóng được con tàu biết bay. Chàng út khờ khạo nhờ biết chia phần bánh với một ông lão mà có được con tàu, rồi đón thêm bảy người bạn tài ba dọc đường để vượt qua mọi thử thách của nhà vua. Truyện cổ Nga trong tuyển tập của Andrew Lang, kể vui cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện “The Flying Ship” trong The Yellow Fairy Book do Andrew Lang biên tập (1894; Lang ghi nguồn truyện dân gian Nga), Project Gutenberg #640, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính, đổi khẩu súng của người thiện xạ thành cây cung và kể nhẹ các thử thách, không chép bản dịch nào.",
+  "basedOn": "Andrew Lang, The Yellow Fairy Book (1894)",
+  "style": "classic Russian folk fairy tale picture book illustration inspired by Ivan Bilibin, ornate decorative borders, wooden izba houses with carved windows, onion domed palace, birch forests and golden wheat fields, a wooden ship sailing among clouds, colors of red, gold, deep blue and birch white, warm whimsical storybook mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chang-ut",
+      "name": "Chàng út",
+      "sheetPrompt": "a cheerful simple-hearted young Russian peasant lad from an old folk tale, messy straw blond hair, red embroidered linen shirt with a rope belt, patched trousers, bast shoes, big friendly grin, full body, front and side views, plain light background, character reference sheet",
+      "seed": 309077427
+    },
+    {
+      "id": "ong-lao-ti-hon",
+      "name": "Ông lão tí hon",
+      "sheetPrompt": "a tiny kindly old man from a Russian folk tale, long white beard down to his knees, grey peasant coat and fur hat, twinkling eyes, wooden walking stick, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1743848926
+    },
+    {
+      "id": "bay-nguoi-ban",
+      "name": "Bảy người bạn tài ba",
+      "sheetPrompt": "a group of seven funny Russian folk tale companions in peasant clothes: one with a huge ear pressed to the ground, one hopping on one leg, an archer with a bow, a round man with a bread basket, a thin thirsty man, a man carrying a bundle of sticks, a man carrying straw on his back, cheerful, full body, plain light background, character reference sheet",
+      "seed": 296189362
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "sheetPrompt": "a lovely young Russian princess from an old folk tale, long golden braid, tall pearl kokoshnik headdress, embroidered red and gold sarafan, gentle smile, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2926991479
+    }
+  ],
+  "scenes": [
+    {
+      "id": "loi-hua-cua-nha-vua",
+      "title": "Lời hứa của nhà vua",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa ở nước Nga, có hai ông bà già sinh được ba người con trai. Hai anh lớn khôn ngoan, còn chàng út thì khờ khạo, cứ hay vướng chân mẹ. Một hôm, cả làng xôn xao tin nhà vua hứa gả công chúa cho ai đóng được con tàu biết bay. Hai anh lớn được mẹ sửa sang quần áo, gói đồ ăn ngon, rồi lên đường. Chàng út cũng đòi đi, cứ nằng nặc: “Con đi, con đi cơ!” Mẹ đành đưa chàng một mẩu bánh khô và chai nước lã, rồi chẳng buồn để ý nữa.",
+      "subtitles": [
+        "Ngày xưa ở nước Nga, có hai ông bà già sinh được ba người con trai.",
+        "Hai anh lớn khôn ngoan, còn chàng út thì khờ khạo, cứ hay vướng chân mẹ.",
+        "Một hôm, cả làng xôn xao tin nhà vua hứa gả công chúa cho ai đóng được con tàu biết bay.",
+        "Hai anh lớn được mẹ sửa sang quần áo, gói đồ ăn ngon, rồi lên đường.",
+        "Chàng út cũng đòi đi, cứ nằng nặc: “Con đi,",
+        "con đi cơ!” Mẹ đành đưa chàng một mẩu bánh khô và chai nước lã, rồi chẳng buồn để ý nữa."
+      ],
+      "image": {
+        "prompt": "a wooden Russian village with carved izba houses, a herald reading a royal proclamation, the cheerful simple lad tugging his mother's sleeve while his two elder brothers ride away",
+        "seed": 159781640,
+        "character": "chang-ut"
+      },
+      "video": {
+        "motionPrompt": "the herald unrolls the scroll, villagers gather, the lad jumps eagerly, the brothers ride off down the road",
+        "seed": 369828697
+      },
+      "voice": {}
+    },
+    {
+      "id": "chia-banh-voi-ong-lao",
+      "title": "Chia bánh với ông lão",
+      "narrator": "ke-chuyen",
+      "narration": "Đi được một quãng, chàng gặp một ông lão tí hon râu dài tới gối. “Cháu đi đâu đấy?” “Cháu lên kinh đóng tàu bay để cưới công chúa.” “Cháu biết đóng tàu bay à?” “Dạ, không ạ.” “Thế đi làm gì?” “Cháu cũng chẳng biết nữa.” Ông lão cười, bảo chàng ngồi xuống ăn chung. Chàng ngượng ngùng mở túi, ai ngờ mẩu bánh khô đã thành mấy ổ bánh mì thơm phức. Chàng vui vẻ chia cho ông. Ăn xong, ông dặn: “Vào rừng, đứng trước cây đầu tiên, cúi chào ba lần, gõ rìu vào thân cây, rồi úp mặt xuống đất chờ. Gặp ai dọc đường thì rủ người ấy đi cùng.”",
+      "subtitles": [
+        "Đi được một quãng, chàng gặp một ông lão tí hon râu dài tới gối.",
+        "“Cháu đi đâu đấy?” “Cháu lên kinh đóng tàu bay để cưới công chúa.” “Cháu biết đóng tàu bay",
+        "à?” “Dạ, không ạ.” “Thế đi làm gì?” “Cháu cũng chẳng biết nữa.” Ông lão cười,",
+        "bảo chàng ngồi xuống ăn chung.",
+        "Chàng ngượng ngùng mở túi, ai ngờ mẩu bánh khô đã thành mấy ổ bánh mì thơm phức.",
+        "Chàng vui vẻ chia cho ông.",
+        "Ăn xong, ông dặn: “Vào rừng, đứng trước cây đầu tiên, cúi chào ba lần,",
+        "gõ rìu vào thân cây, rồi úp mặt xuống đất chờ.",
+        "Gặp ai dọc đường thì rủ người ấy đi cùng.”"
+      ],
+      "image": {
+        "prompt": "a tiny old man with a long white beard sitting on a log by a country road sharing fresh golden loaves of bread with the happy peasant lad, birch trees around",
+        "seed": 71309851,
+        "character": "ong-lao-ti-hon"
+      },
+      "video": {
+        "motionPrompt": "the lad opens his satchel and finds fresh loaves, his eyes widen, the old man chuckles and strokes his beard",
+        "seed": 53512002
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-tau-cat-canh",
+      "title": "Con tàu cất cánh",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng làm đúng như lời ông lão, úp mặt xuống đất rồi ngủ thiếp đi lúc nào không hay. Khi tỉnh dậy, bên cạnh đã có một con tàu gỗ sơn son thếp vàng. Chàng trèo lên, con tàu từ từ nâng lên khỏi ngọn cây, rồi bay vút giữa trời xanh. Nhìn xuống, chàng thấy một người áp tai xuống đất. “Bác làm gì thế?” “Tôi nghe xem thiên hạ đang nói gì.” “Lên tàu với tôi nào!” Bay thêm một quãng, chàng gặp một người nhảy lò cò, một chân buộc lên tận tai. “Tôi chạy nhanh quá, không buộc lại thì một bước đã tới cuối trời.” Chàng cũng rủ người ấy lên tàu.",
+      "subtitles": [
+        "Chàng làm đúng như lời ông lão, úp mặt xuống đất rồi ngủ thiếp đi lúc nào không hay.",
+        "Khi tỉnh dậy, bên cạnh đã có một con tàu gỗ sơn son thếp vàng.",
+        "Chàng trèo lên, con tàu từ từ nâng lên khỏi ngọn cây, rồi bay vút giữa trời xanh.",
+        "Nhìn xuống, chàng thấy một người áp tai xuống đất.",
+        "“Bác làm gì thế?” “Tôi nghe xem thiên hạ đang nói gì.” “Lên tàu với tôi nào!” Bay thêm một",
+        "quãng, chàng gặp một người nhảy lò cò, một chân buộc lên tận tai.",
+        "“Tôi chạy nhanh quá, không buộc lại thì một bước đã tới cuối trời.” Chàng cũng rủ người ấy",
+        "lên tàu."
+      ],
+      "image": {
+        "prompt": "a red and gold painted wooden ship flying above birch forests and clouds, the lad waving from the deck to a man pressing his huge ear to the ground and a man hopping on one leg",
+        "seed": 2189978249,
+        "character": "chang-ut"
+      },
+      "video": {
+        "motionPrompt": "the flying ship glides through the clouds, its sail billows, the lad waves and the men below wave back",
+        "seed": 3345403608
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhung-nguoi-ban-tai-ba",
+      "title": "Những người bạn tài ba",
+      "narrator": "ke-chuyen",
+      "narration": "Con tàu bay tiếp, đón thêm một người thiện xạ giương cung về phía chân trời, bắn trúng chiếc lá cách trăm dặm. Rồi một người cõng cả thúng bánh mì mà than đói, vì chừng ấy chỉ đủ một miếng. Rồi một người đứng bên hồ lớn kêu khát, vì cả cái hồ cũng chỉ đủ một ngụm. Rồi một người vác bó củi, quăng xuống đất là hóa thành cả một đạo quân. Cuối cùng là một người cõng rơm, rắc rơm ra thì giữa mùa hè cũng hóa giá lạnh, tuyết rơi trắng trời. Chàng út rủ hết lên tàu, và con tàu chở cả bọn bay thẳng về kinh thành.",
+      "subtitles": [
+        "Con tàu bay tiếp, đón thêm một người thiện xạ giương cung về phía chân trời,",
+        "bắn trúng chiếc lá cách trăm dặm.",
+        "Rồi một người cõng cả thúng bánh mì mà than đói, vì chừng ấy chỉ đủ một miếng.",
+        "Rồi một người đứng bên hồ lớn kêu khát, vì cả cái hồ cũng chỉ đủ một ngụm.",
+        "Rồi một người vác bó củi, quăng xuống đất là hóa thành cả một đạo quân.",
+        "Cuối cùng là một người cõng rơm, rắc rơm ra thì giữa mùa hè cũng hóa giá lạnh,",
+        "tuyết rơi trắng trời.",
+        "Chàng út rủ hết lên tàu, và con tàu chở cả bọn bay thẳng về kinh thành."
+      ],
+      "image": {
+        "prompt": "the flying wooden ship crowded with seven funny companions: an archer, a round man with a bread basket, a thin thirsty man, a man with a bundle of sticks and a man with straw, all laughing together in the sky",
+        "seed": 2717924814,
+        "character": "bay-nguoi-ban"
+      },
+      "video": {
+        "motionPrompt": "the companions laugh and point at the city ahead, the round man nibbles bread, the ship sails over the clouds",
+        "seed": 2008945918
+      },
+      "voice": {}
+    },
+    {
+      "id": "nuoc-than-cuoi-dat",
+      "title": "Nước thần ở cuối đất",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua đang dùng bữa thì nghe tin có con tàu bay đáp xuống, trên tàu toàn dân quê. Vua chẳng muốn gả công chúa cho anh nông dân nghèo, bèn nghĩ ra những việc không ai làm nổi. Việc đầu tiên: phải lấy nước thần ở tận cuối đất về trước khi vua ăn xong. Người tai thính nghe được hết, báo cho chàng út. Người chạy nhanh cởi dây buộc chân, chớp mắt đã tới cuối đất múc nước. Nhưng mệt quá, anh nằm xuống bãi cỏ ngủ khò. Người tai thính áp tai xuống đất: “Hắn đang ngáy kia!” Người thiện xạ liền bắn một mũi tên cắm phập vào gốc cây sát tai bạn. Người chạy nhanh giật mình, ba chân bốn cẳng chạy về kịp lúc.",
+      "subtitles": [
+        "Nhà vua đang dùng bữa thì nghe tin có con tàu bay đáp xuống, trên tàu toàn dân quê.",
+        "Vua chẳng muốn gả công chúa cho anh nông dân nghèo,",
+        "bèn nghĩ ra những việc không ai làm nổi.",
+        "Việc đầu tiên: phải lấy nước thần ở tận cuối đất về trước khi vua ăn xong.",
+        "Người tai thính nghe được hết, báo cho chàng út.",
+        "Người chạy nhanh cởi dây buộc chân, chớp mắt đã tới cuối đất múc nước.",
+        "Nhưng mệt quá, anh nằm xuống bãi cỏ ngủ khò.",
+        "Người tai thính áp tai xuống đất: “Hắn đang ngáy kia!” Người thiện xạ liền bắn một mũi tên",
+        "cắm phập vào gốc cây sát tai bạn.",
+        "Người chạy nhanh giật mình, ba chân bốn cẳng chạy về kịp lúc."
+      ],
+      "image": {
+        "prompt": "at the far end of the world under a glowing sky, a swift runner fast asleep on the grass beside a well with a jug of shining water, an arrow stuck in the tree trunk right beside his head",
+        "seed": 145979426,
+        "character": "bay-nguoi-ban"
+      },
+      "video": {
+        "motionPrompt": "the arrow thuds into the tree, the runner jolts awake, grabs the jug and dashes off in a blur",
+        "seed": 2746351085
+      },
+      "voice": {}
+    },
+    {
+      "id": "an-uong-cho-thoa",
+      "title": "Ăn uống cho thỏa",
+      "narrator": "ke-chuyen",
+      "narration": "Vua lại ra lệnh: cả bọn phải ăn hết mười hai mâm thịt quay và mười hai xe bánh mì. Chàng út thở dài: “Cả đời cũng chẳng ăn hết chừng ấy.” Người háu ăn xoa bụng: “Đừng lo, tôi đang đói đây.” Chỉ một bữa, anh ăn sạch, còn chê ít. Vua lại bắt uống hết bốn mươi thùng nước nho lớn. Người khát nước ngửa cổ, ừng ực một hơi là thùng nào cũng trơ đáy. Anh liếm môi: “Giá có thêm hai thùng nữa thì tốt.” Cả triều đình đứng nhìn, há hốc miệng.",
+      "subtitles": [
+        "Vua lại ra lệnh: cả bọn phải ăn hết mười hai mâm thịt quay và mười hai xe bánh mì.",
+        "Chàng út thở dài: “Cả đời cũng chẳng ăn hết chừng ấy.” Người háu ăn xoa bụng: “Đừng lo,",
+        "tôi đang đói đây.” Chỉ một bữa, anh ăn sạch, còn chê ít.",
+        "Vua lại bắt uống hết bốn mươi thùng nước nho lớn.",
+        "Người khát nước ngửa cổ, ừng ực một hơi là thùng nào cũng trơ đáy.",
+        "Anh liếm môi: “Giá có thêm hai thùng nữa thì tốt.” Cả triều đình đứng nhìn, há hốc miệng."
+      ],
+      "image": {
+        "prompt": "beside the flying ship in the palace courtyard, a round cheerful man happily eating from a mountain of bread and roast dishes, a thin man drinking from huge wooden barrels, astonished courtiers watching",
+        "seed": 1220754332,
+        "character": "bay-nguoi-ban"
+      },
+      "video": {
+        "motionPrompt": "the round man gobbles bread happily, the thin man tips up a giant barrel, courtiers' jaws drop",
+        "seed": 2969619793
+      },
+      "voice": {}
+    },
+    {
+      "id": "phong-tam-bang-sat",
+      "title": "Phòng tắm bằng sắt",
+      "narrator": "ke-chuyen",
+      "narration": "Vua bèn mời chàng út vào tắm trong một gian phòng bằng sắt, rồi sai đốt lửa cho nóng hừng hực để làm khó chàng. Nhưng người cõng rơm đã lẳng lặng theo vào. Cửa vừa đóng, anh rắc rơm khắp phòng. Bốn bức tường đang nóng rực bỗng mát rượi, rồi lạnh buốt, nước trong chậu đóng thành băng. Chàng út phải trèo lên bệ lò, quấn chăn nằm suốt đêm. Sáng ra, người ta mở cửa, thấy chàng vẫn khỏe mạnh, đang nghêu ngao hát.",
+      "subtitles": [
+        "Vua bèn mời chàng út vào tắm trong một gian phòng bằng sắt,",
+        "rồi sai đốt lửa cho nóng hừng hực để làm khó chàng.",
+        "Nhưng người cõng rơm đã lẳng lặng theo vào.",
+        "Cửa vừa đóng, anh rắc rơm khắp phòng.",
+        "Bốn bức tường đang nóng rực bỗng mát rượi, rồi lạnh buốt, nước trong chậu đóng thành băng.",
+        "Chàng út phải trèo lên bệ lò, quấn chăn nằm suốt đêm.",
+        "Sáng ra, người ta mở cửa, thấy chàng vẫn khỏe mạnh, đang nghêu ngao hát."
+      ],
+      "image": {
+        "prompt": "inside an iron bathhouse covered in frost and snowflakes, the lad wrapped snugly in blankets on top of the stove singing, his friend sprinkling magic straw, icicles everywhere",
+        "seed": 3782811738,
+        "character": "chang-ut"
+      },
+      "video": {
+        "motionPrompt": "snowflakes swirl from the straw, frost spreads over the iron walls, the lad sings cheerfully under his blanket",
+        "seed": 4040993887
+      },
+      "voice": {}
+    },
+    {
+      "id": "dao-quan-tu-bo-cui",
+      "title": "Đạo quân từ bó củi",
+      "narrator": "ke-chuyen",
+      "narration": "Vua nghĩ thêm một kế cuối: “Bảo hắn phải dựng ngay một đạo quân cho ta!” Người vác củi cười: “Chàng quên tôi rồi sao?” Đêm ấy, anh ra cánh đồng rải củi khắp nơi. Sáng hôm sau, vua thức giấc vì tiếng kèn, tiếng trống vang trời. Nhìn ra, cả một đạo quân hùng hậu đứng thẳng hàng, cờ bay phấp phới. Vua đành chịu: “Ta không bằng người này rồi.” Vua gửi áo bào và châu báu, mời chàng vào cung làm lễ cưới. Khoác áo mới, chàng út oai vệ đến nỗi chẳng ai nhận ra. Công chúa vừa gặp đã đem lòng thương. Tiệc cưới linh đình, đến cả người háu ăn và người khát nước cũng được ăn uống no say.",
+      "subtitles": [
+        "Vua nghĩ thêm một kế cuối: “Bảo hắn phải dựng ngay một đạo quân cho ta!” Người vác củi",
+        "cười: “Chàng quên tôi rồi sao?” Đêm ấy, anh ra cánh đồng rải củi khắp nơi.",
+        "Sáng hôm sau, vua thức giấc vì tiếng kèn, tiếng trống vang trời.",
+        "Nhìn ra, cả một đạo quân hùng hậu đứng thẳng hàng, cờ bay phấp phới.",
+        "Vua đành chịu: “Ta không bằng người này rồi.” Vua gửi áo bào và châu báu,",
+        "mời chàng vào cung làm lễ cưới.",
+        "Khoác áo mới, chàng út oai vệ đến nỗi chẳng ai nhận ra.",
+        "Công chúa vừa gặp đã đem lòng thương.",
+        "Tiệc cưới linh đình, đến cả người háu ăn và người khát nước cũng được ăn uống no say."
+      ],
+      "image": {
+        "prompt": "a grand onion domed palace, a huge army with colorful banners and drums standing in a golden field at sunrise, then the lad in royal robes marrying the smiling princess at a joyful feast",
+        "seed": 3814454384,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "banners flutter, drums beat, the king peeks from the window in amazement, the lad and princess hold hands as guests cheer",
+        "seed": 2198539078
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "lively Russian folk fairy tale music, balalaika, accordion and light bells, a soaring airy theme for the flying ship, playful bouncing middle, a festive wedding ending, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 1691013342
+  }
+}

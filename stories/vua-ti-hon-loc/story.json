@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "slug": "vua-ti-hon-loc",
+  "shelf": "world",
+  "title": "Vua tí hon Loc",
+  "summary": "Cô bé Abeille trốn nhà ra hồ xanh, được những người tí hon râu dài mang vào lòng núi, nơi vua tí hon Loc thương cô hết lòng. Nhưng cô vẫn nhớ mẹ và người anh nuôi Youri đang bị các nàng tiên nước giữ dưới đáy hồ. Truyện cổ Pháp trong tuyển tập của Andrew Lang về một tình thương biết buông tay, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "gia-dinh",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Story of Little King Loc\" trong The Olive Fairy Book do Andrew Lang biên tập (1907, phỏng theo Anatole France), Project Gutenberg, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, rút gọn và giữ cốt truyện chính, kể nhẹ các đoạn dữ dằn (các nàng tiên nước chỉ giữ Youri lại dưới hồ, Youri gặp vua Loc mà không giao tranh), không chép bản dịch nào.",
+  "basedOn": "Andrew Lang, The Olive Fairy Book (1907)",
+  "style": "classic French fairy tale picture book illustration in the style of early twentieth century storybooks, a castle by the sea, a shining blue lake with water lilies, glowing underground halls full of jewels, tiny bearded gnomes in pointed caps, a little gnome riding a crow, warm watercolor and ink, colors of lake blue, amethyst, gold and cream, gentle and dreamy, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "abeille",
+      "name": "Abeille",
+      "sheetPrompt": "a sweet young girl from a French fairy tale, golden curls with a blue ribbon, pale blue satin dress, bright curious eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3472517662
+    },
+    {
+      "id": "youri",
+      "name": "Youri",
+      "sheetPrompt": "a brave young boy from a French fairy tale, dark hair, little velvet doublet in deep blue, determined kind face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1848265947
+    },
+    {
+      "id": "vua-loc",
+      "name": "Vua tí hon Loc",
+      "sheetPrompt": "a tiny dignified gnome king with a very long white beard, a crown of big diamonds, a royal purple mantle, wise gentle eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2888482797
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hai-anh-em",
+      "title": "Hai anh em nuôi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, bên bờ biển nước Pháp có lâu đài của bà nữ công tước xứ Clarides. Bà có cô con gái nhỏ tên là Abeille. Một người bạn thân của bà biết mình sắp phải ra đi mãi mãi, đã gửi lại cậu con trai tên Youri. Từ đó Youri và Abeille lớn lên bên nhau như anh em ruột. Một lần đi chơi xa, hai đứa thấy một mặt hồ xanh lấp lánh dưới chân núi. Bà nữ công tước dặn: \"Hồ đẹp lắm, nhưng dưới đáy có các nàng tiên nước hay dụ người qua đường. Đừng bao giờ lại gần.\" Thế nhưng hai đứa trẻ chẳng quên được mặt hồ ấy.",
+      "subtitles": [
+        "Ngày xưa, bên bờ biển nước Pháp có lâu đài của bà nữ công tước xứ Clarides.",
+        "Bà có cô con gái nhỏ tên là Abeille.",
+        "Một người bạn thân của bà biết mình sắp phải ra đi mãi mãi,",
+        "đã gửi lại cậu con trai tên Youri.",
+        "Từ đó Youri và Abeille lớn lên bên nhau như anh em ruột.",
+        "Một lần đi chơi xa, hai đứa thấy một mặt hồ xanh lấp lánh dưới chân núi.",
+        "Bà nữ công tước dặn: \"Hồ đẹp lắm,",
+        "nhưng dưới đáy có các nàng tiên nước hay dụ người qua đường. Đừng bao giờ lại gần.\"",
+        "Thế nhưng hai đứa trẻ chẳng quên được mặt hồ ấy."
+      ],
+      "image": {
+        "prompt": "a castle by the sea, a kind young duchess with two children, a little girl with golden curls and a slightly older boy, looking from the top of a tower at a glittering blue lake beneath distant mountains",
+        "seed": 3903057857,
+        "character": "abeille"
+      },
+      "video": {
+        "motionPrompt": "sea wind ruffles the children's hair, the distant lake sparkles, the girl points eagerly",
+        "seed": 1998223574
+      },
+      "voice": {}
+    },
+    {
+      "id": "tron-ra-ho",
+      "title": "Trốn nhà ra hồ xanh",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, Abeille trèo lên tháp ngắm hồ, rồi trêu Youri: \"Làm con trai mà không biết đường ra hồ à?\" Youri tự ái, nắm tay em: \"Được, cả hai ta cùng đi.\" Chiều hôm sau, hai đứa lẻn khỏi vườn, băng qua cánh đồng hoa. Abeille đi đôi giày lụa, chẳng mấy chốc đã đau chân, mếu máo đòi về. Youri dỗ dành: \"Sắp tới rồi, ta sẽ về kịp bữa tối.\" Tới hồ thì trời đã nhá nhem. Abeille ngả đầu lên đám rêu mềm, ngủ thiếp đi. Youri đi hái dâu cho em, rồi tò mò ra mép hồ ngắm. Làn sương bạc tan dần, những nàng tiên tóc xanh như rong bơi đến vẫy tay gọi. Cậu muốn chạy, nhưng đã muộn. Các nàng tiên nước đưa Youri xuống cung điện dưới đáy hồ.",
+      "subtitles": [
+        "Một hôm, Abeille trèo lên tháp ngắm hồ, rồi trêu Youri:",
+        "\"Làm con trai mà không biết đường ra hồ à?\"",
+        "Youri tự ái, nắm tay em: \"Được, cả hai ta cùng đi.\"",
+        "Chiều hôm sau, hai đứa lẻn khỏi vườn, băng qua cánh đồng hoa.",
+        "Abeille đi đôi giày lụa, chẳng mấy chốc đã đau chân, mếu máo đòi về.",
+        "Youri dỗ dành: \"Sắp tới rồi, ta sẽ về kịp bữa tối.\"",
+        "Tới hồ thì trời đã nhá nhem.",
+        "Abeille ngả đầu lên đám rêu mềm, ngủ thiếp đi.",
+        "Youri đi hái dâu cho em, rồi tò mò ra mép hồ ngắm.",
+        "Làn sương bạc tan dần, những nàng tiên tóc xanh như rong bơi đến vẫy tay gọi.",
+        "Cậu muốn chạy, nhưng đã muộn.",
+        "Các nàng tiên nước đưa Youri xuống cung điện dưới đáy hồ."
+      ],
+      "image": {
+        "prompt": "two children walking hand in hand across flowery meadows toward a blue lake, the little girl limping in torn satin shoes, irises and water lilies on the lake shore, a soft silver mist rising at dusk",
+        "seed": 389279045,
+        "character": "youri"
+      },
+      "video": {
+        "motionPrompt": "wildflowers sway in the breeze, the mist slowly rises over the lake, the girl rests her head sleepily on the moss",
+        "seed": 2419329852
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-ti-hon",
+      "title": "Những người tí hon",
+      "narrator": "ke-chuyen",
+      "narration": "Abeille vẫn ngủ say, chẳng biết rằng một đám người tí hon râu trắng dài tới gối đã đứng vây quanh. \"Làm gì với cô bé bây giờ?\" ông Pic hỏi. \"Làm cái lồng nhốt lại,\" ông Rug nói. \"Không, công chúa xinh thế ai lại nhốt,\" ông Dig cãi. Ông Tad hiền nhất thì muốn đưa cô về nhà. Abeille tỉnh dậy, sợ hãi gọi: \"Anh Youri ơi!\" Ông Tad khẽ vuốt tay cô. Cô bé ngước lên: \"Mấy ông tí hon xấu quá, nhưng con vẫn thương nếu các ông cho con ăn, con đói lắm.\" Một ông cưỡi quạ bay đi, mang về sữa, mật ong và bánh mì trắng. Ăn xong, Abeille hết sợ. Họ làm một chiếc kiệu rêu, khiêng cô vào núi gặp nhà vua.",
+      "subtitles": [
+        "Abeille vẫn ngủ say,",
+        "chẳng biết rằng một đám người tí hon râu trắng dài tới gối đã đứng vây quanh.",
+        "\"Làm gì với cô bé bây giờ?\" ông Pic hỏi.",
+        "\"Làm cái lồng nhốt lại,\" ông Rug nói.",
+        "\"Không, công chúa xinh thế ai lại nhốt,\" ông Dig cãi.",
+        "Ông Tad hiền nhất thì muốn đưa cô về nhà.",
+        "Abeille tỉnh dậy, sợ hãi gọi: \"Anh Youri ơi!\" Ông Tad khẽ vuốt tay cô.",
+        "Cô bé ngước lên: \"Mấy ông tí hon xấu quá,",
+        "nhưng con vẫn thương nếu các ông cho con ăn, con đói lắm.\"",
+        "Một ông cưỡi quạ bay đi, mang về sữa, mật ong và bánh mì trắng. Ăn xong, Abeille hết sợ.",
+        "Họ làm một chiếc kiệu rêu, khiêng cô vào núi gặp nhà vua."
+      ],
+      "image": {
+        "prompt": "a sleeping little girl on soft moss by a lake under the moon, surrounded by a circle of tiny gnomes with white beards down to their knees, one gnome riding a crow bringing a jug of milk, honey and white bread",
+        "seed": 486802412,
+        "character": "abeille"
+      },
+      "video": {
+        "motionPrompt": "the gnomes lean in curiously, the crow flaps down gently, moonlight glimmers on the water",
+        "seed": 368780362
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-loc",
+      "title": "Vua tí hon Loc",
+      "narrator": "ke-chuyen",
+      "narration": "Trước mặt Abeille là một ông vua nhỏ chưa bằng nửa người cô, đội vương miện kim cương to tướng. Đó là vua Loc. Vua kiễng chân hôn tay cô: \"Con sẽ ở với chúng ta, muốn gì cũng có.\" \"Con muốn một đôi giày,\" Abeille nói. Ngay lập tức, cô có đôi giày bạc đính ngọc trai. \"Đẹp lắm, nhưng giày này có đưa con về với mẹ được không?\" Vua Loc lắc đầu. Cô năn nỉ, nhắc đến anh Youri. Vua Loc lặng thinh, vì ông đã mong sau này cô sẽ làm vợ mình. Thấy cô khóc, ông hứa: \"Đêm nào ta cũng gửi cho mẹ con một giấc mơ, để bà thấy con bình an. Và gửi cho con một giấc mơ để con thấy mẹ.\"",
+      "subtitles": [
+        "Trước mặt Abeille là một ông vua nhỏ chưa bằng nửa người cô,",
+        "đội vương miện kim cương to tướng. Đó là vua Loc.",
+        "Vua kiễng chân hôn tay cô: \"Con sẽ ở với chúng ta, muốn gì cũng có.\"",
+        "\"Con muốn một đôi giày,\" Abeille nói.",
+        "Ngay lập tức, cô có đôi giày bạc đính ngọc trai.",
+        "\"Đẹp lắm, nhưng giày này có đưa con về với mẹ được không?\" Vua Loc lắc đầu.",
+        "Cô năn nỉ, nhắc đến anh Youri.",
+        "Vua Loc lặng thinh, vì ông đã mong sau này cô sẽ làm vợ mình.",
+        "Thấy cô khóc, ông hứa: \"Đêm nào ta cũng gửi cho mẹ con một giấc mơ,",
+        "để bà thấy con bình an.",
+        "Và gửi cho con một giấc mơ để con thấy mẹ.\""
+      ],
+      "image": {
+        "prompt": "inside a glowing underground hall a tiny gnome king with a huge diamond crown and royal mantle standing on tiptoe to kiss the hand of the little girl, a gnome slipping silver pearl shoes onto her feet",
+        "seed": 3193149233,
+        "character": "vua-loc"
+      },
+      "video": {
+        "motionPrompt": "crystals glitter on the cavern walls, the tiny king rises on tiptoe, the silver shoes sparkle",
+        "seed": 1276229077
+      },
+      "voice": {}
+    },
+    {
+      "id": "kho-bau",
+      "title": "Kho báu dưới lòng núi",
+      "narrator": "ke-chuyen",
+      "narration": "Sáu năm trôi qua. Những người tí hon tốt bụng làm đồ chơi khéo hơn người trần, ai cũng chiều chuộng cô. Một hôm, vua Loc mở kho báu, bảo cô chọn bất cứ thứ gì. Abeille vừa giơ tay tới chuỗi ngọc trai thì nhìn thấy một mảnh trời xanh qua khe đá. Cô buông tay: \"Vua Loc ơi, giọt sương trong vườn Clarides còn sáng hơn kim cương, và viên đá xanh nhất cũng không xanh bằng mắt anh Youri.\" Lòng vua Loc nhói đau. Ông đội cho cô vương miện công chúa của xứ tí hon. Rồi một hôm ông hỏi cưới cô. Abeille nói: \"Con thương ông vì ông hiền và tốt với con, nhưng chỉ thương như thế thôi.\" Vua Loc thở dài, chỉ xin cô hứa, nếu có ngày cô thương ai, hãy nói cho ông biết.",
+      "subtitles": [
+        "Sáu năm trôi qua.",
+        "Những người tí hon tốt bụng làm đồ chơi khéo hơn người trần, ai cũng chiều chuộng cô.",
+        "Một hôm, vua Loc mở kho báu, bảo cô chọn bất cứ thứ gì.",
+        "Abeille vừa giơ tay tới chuỗi ngọc trai thì nhìn thấy một mảnh trời xanh qua khe đá.",
+        "Cô buông tay: \"Vua Loc ơi, giọt sương trong vườn Clarides còn sáng hơn kim cương,",
+        "và viên đá xanh nhất cũng không xanh bằng mắt anh Youri.\" Lòng vua Loc nhói đau.",
+        "Ông đội cho cô vương miện công chúa của xứ tí hon.",
+        "Rồi một hôm ông hỏi cưới cô.",
+        "Abeille nói: \"Con thương ông vì ông hiền và tốt với con, nhưng chỉ thương như thế thôi.\"",
+        "Vua Loc thở dài, chỉ xin cô hứa, nếu có ngày cô thương ai, hãy nói cho ông biết."
+      ],
+      "image": {
+        "prompt": "a grown up girl in a treasure hall full of jewels, pearls and gold, ignoring them and gazing at a thin crack of blue sky in the rock, the tiny gnome king on a throne of gold and ivory watching her sadly",
+        "seed": 3741507664,
+        "character": "abeille"
+      },
+      "video": {
+        "motionPrompt": "jewels shimmer, a beam of daylight falls through the crack onto her face, the king lowers his eyes",
+        "seed": 1966957929
+      },
+      "voice": {}
+    },
+    {
+      "id": "tham-me",
+      "title": "Thăm mẹ trong đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Abeille ngày càng buồn, chẳng còn chơi đàn. Cô đứng nhìn mảnh trời xanh suốt một ngày: \"Vua Loc ơi, cho con gặp mẹ, không thì con buồn đến héo hon mất.\" Đêm đó, vua Loc khoác cho cô tấm áo choàng, dẫn cô qua những đường hầm, ra thế gian. Ông bế cô vào lâu đài: \"Nhớ nhé, đừng chạm vào mẹ, đừng lên tiếng, kẻo phép của ta tan mất.\" Dưới ngọn đèn, mẹ cô ngủ, gương mặt buồn bỗng mỉm cười, đôi tay giơ ra như muốn ôm con. Abeille cúi xuống, nhưng vua Loc vội bế cô về. Từ hôm ấy cô khóc suốt: \"Con nhớ mẹ, nhưng con còn nhớ anh Youri hơn, vì con chẳng biết anh ở đâu.\"",
+      "subtitles": [
+        "Abeille ngày càng buồn, chẳng còn chơi đàn.",
+        "Cô đứng nhìn mảnh trời xanh suốt một ngày: \"Vua Loc ơi,",
+        "cho con gặp mẹ, không thì con buồn đến héo hon mất.\"",
+        "Đêm đó, vua Loc khoác cho cô tấm áo choàng, dẫn cô qua những đường hầm, ra thế gian.",
+        "Ông bế cô vào lâu đài: \"Nhớ nhé, đừng chạm vào mẹ,",
+        "đừng lên tiếng, kẻo phép của ta tan mất.\"",
+        "Dưới ngọn đèn, mẹ cô ngủ, gương mặt buồn bỗng mỉm cười, đôi tay giơ ra như muốn ôm con.",
+        "Abeille cúi xuống, nhưng vua Loc vội bế cô về.",
+        "Từ hôm ấy cô khóc suốt: \"Con nhớ mẹ,",
+        "nhưng con còn nhớ anh Youri hơn, vì con chẳng biết anh ở đâu.\""
+      ],
+      "image": {
+        "prompt": "at night the tiny gnome king in a dark cloak carrying the girl gently into a quiet castle bedroom, her sleeping mother smiling in her dream with arms reaching out under a hanging lamp",
+        "seed": 2237957645,
+        "character": "vua-loc"
+      },
+      "video": {
+        "motionPrompt": "the lamp glows softly, the mother's hands lift in her sleep, the girl leans forward with tears of joy",
+        "seed": 3458478783
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuu-youri",
+      "title": "Vua Loc cứu Youri",
+      "narrator": "ke-chuyen",
+      "narration": "Vua Loc đi hỏi ông Nur, người tí hon già nhất, có đủ thứ kính nhìn thấu cả mặt đất lẫn đáy biển. Thử mãi, ông Nur reo lên: \"Kia rồi! Youri đang ở cung điện các nàng tiên nước dưới hồ.\" Bảy năm qua, Youri đã thành chàng trai. Nữ hoàng tiên nước muốn chàng ở lại làm vua, chàng đáp: \"Tôi chỉ muốn cưới Abeille.\" Nữ hoàng giận, nhốt chàng trong chiếc lồng pha lê. Vua Loc đi nhiều tuần mới tới nơi, chạm chiếc nhẫn thần vào lồng, lồng pha lê nứt toác. \"Đi theo lối này, cậu sẽ về được thế gian,\" ông nói, rồi lặng lẽ quay đi.",
+      "subtitles": [
+        "Vua Loc đi hỏi ông Nur, người tí hon già nhất,",
+        "có đủ thứ kính nhìn thấu cả mặt đất lẫn đáy biển.",
+        "Thử mãi, ông Nur reo lên: \"Kia rồi!",
+        "Youri đang ở cung điện các nàng tiên nước dưới hồ.\"",
+        "Bảy năm qua, Youri đã thành chàng trai.",
+        "Nữ hoàng tiên nước muốn chàng ở lại làm vua, chàng đáp: \"Tôi chỉ muốn cưới Abeille.\"",
+        "Nữ hoàng giận, nhốt chàng trong chiếc lồng pha lê.",
+        "Vua Loc đi nhiều tuần mới tới nơi, chạm chiếc nhẫn thần vào lồng, lồng pha lê nứt toác.",
+        "\"Đi theo lối này, cậu sẽ về được thế gian,\" ông nói, rồi lặng lẽ quay đi."
+      ],
+      "image": {
+        "prompt": "an old gnome with many pairs of spectacles peering into a crystal, showing a young man inside a crystal cage under a lake palace of green haired water maidens, the tiny gnome king touching the cage with a magic ring so it splits open",
+        "seed": 2991615571,
+        "character": "youri"
+      },
+      "video": {
+        "motionPrompt": "the crystal cage cracks open with a bright chime, water ripples, the young man steps out and gazes at the tiny king in wonder",
+        "seed": 548718839
+      },
+      "voice": {}
+    },
+    {
+      "id": "tinh-thuong-buong-tay",
+      "title": "Tình thương biết buông tay",
+      "narrator": "ke-chuyen",
+      "narration": "Youri về đến lâu đài, bà nữ công tước ôm chàng không rời. Rồi chàng cùng bác quản gia già tìm đến hang dẫn vào xứ tí hon. Cửa mở ra, chàng thấy vua Loc đứng trên tảng đá. \"Ông là người đã cứu tôi! Xin cho tôi gặp Abeille.\" Vua Loc nhìn chàng hiền hậu: \"Những người tí hon sống ngay thẳng, chẳng giữ ai trái lòng.\" Ông cho mời Abeille. Vừa thấy Youri, cô reo lên, chạy đến ôm chầm lấy chàng. \"Đây là người con muốn cưới phải không?\" vua Loc hỏi, giọng hơi buồn. \"Vâng, chính anh ấy!\" Youri bảo: \"Em hãy cảm ơn vua Loc, chính ông đã cứu anh.\" Abeille hiểu ra tất cả, nhìn vua Loc mà rưng rưng: \"Ông đã làm vậy vì con sao?\" Vua tí hon chỉ mỉm cười. Có những tình thương lớn nhất là tình thương biết buông tay.",
+      "subtitles": [
+        "Youri về đến lâu đài, bà nữ công tước ôm chàng không rời.",
+        "Rồi chàng cùng bác quản gia già tìm đến hang dẫn vào xứ tí hon.",
+        "Cửa mở ra, chàng thấy vua Loc đứng trên tảng đá.",
+        "\"Ông là người đã cứu tôi!",
+        "Xin cho tôi gặp Abeille.\"",
+        "Vua Loc nhìn chàng hiền hậu: \"Những người tí hon sống ngay thẳng, chẳng giữ ai trái lòng.\"",
+        "Ông cho mời Abeille.",
+        "Vừa thấy Youri, cô reo lên, chạy đến ôm chầm lấy chàng.",
+        "\"Đây là người con muốn cưới phải không?\"",
+        "vua Loc hỏi, giọng hơi buồn. \"Vâng, chính anh ấy!\"",
+        "Youri bảo: \"Em hãy cảm ơn vua Loc, chính ông đã cứu anh.\"",
+        "Abeille hiểu ra tất cả, nhìn vua Loc mà rưng rưng: \"Ông đã làm vậy vì con sao?\"",
+        "Vua tí hon chỉ mỉm cười.",
+        "Có những tình thương lớn nhất là tình thương biết buông tay."
+      ],
+      "image": {
+        "prompt": "a vast glowing cavern full of tiny gnomes on the walls, the young man and the girl embracing with joy, the tiny gnome king on a rock with a kind bittersweet smile",
+        "seed": 2722548403,
+        "character": "vua-loc"
+      },
+      "video": {
+        "motionPrompt": "lanterns glow brighter, the gnomes cheer quietly and wave their caps, the king smiles as he lowers his crown slightly",
+        "seed": 4187859065
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "dreamy French fairy tale music, harp, celesta and soft strings, a twinkling underground gnome theme, a shimmering lake melody, a bittersweet tender ending, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 1656521228
+  }
+}

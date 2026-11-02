@@ -55,7 +55,7 @@ test('open the pilot story and step through it scene by scene', async ({ page })
   await withProductionCsp(page);
   // The children's shelf alone, the way in from Miu World.
   await page.goto('/tre-em');
-  await expect(page.locator('h1')).toHaveText('Cổ tích Việt Nam cho bé');
+  await expect(page.locator('h1')).toHaveText('Truyện cổ tích cho bé');
   await expect(page.locator('[data-id=shelf-adults]')).toHaveCount(0);
   // The shelf outgrew one page: find the pilot by name, as a reader would.
   await page.fill('[data-id=shelf-search]', 'son tinh thuy');

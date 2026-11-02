@@ -106,8 +106,8 @@ describe('routes', () => {
     stubList(LIST);
     show('/tre-em');
     await screen.findByText('Thánh Gióng');
-    expect(document.querySelector('h1')?.textContent).toBe('Cổ tích Việt Nam cho bé');
-    expect(document.title).toMatch(/^Cổ tích Việt Nam cho bé · /);
+    expect(document.querySelector('h1')?.textContent).toBe('Truyện cổ tích cho bé');
+    expect(document.title).toMatch(/^Truyện cổ tích cho bé · /);
     expect(cardsOf('kids')).toEqual(['story-card-thanh-giong', 'story-card-son-tinh-thuy-tinh']);
     expect(document.querySelector('[data-id=shelf-adults]')).toBeNull();
     expect(screen.queryByText('Sự tích Hồ Gươm')).toBeNull();

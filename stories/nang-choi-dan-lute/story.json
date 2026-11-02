@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "slug": "nang-choi-dan-lute",
+  "shelf": "world",
+  "title": "Nàng chơi đàn lute",
+  "summary": "Nhà vua ra trận rồi bị bắt làm tù binh ở xứ xa. Hoàng hậu cắt tóc, cải trang thành chàng trai ôm đàn lute, dùng tiếng đàn và lời ca để cứu chồng mà không ai hay biết. Truyện cổ Nga trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện “The Lute Player” trong The Violet Fairy Book do Andrew Lang biên tập (1901; Lang ghi nguồn truyện dân gian Nga), Project Gutenberg #641, thuộc phạm vi công cộng. Lời kể và lời bài hát viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ cảnh tù đày, không chép bản dịch nào.",
+  "basedOn": "Andrew Lang, The Violet Fairy Book (1901)",
+  "style": "classic Russian fairy tale picture book illustration, ornate folk borders, onion domed palaces and wooden towers, distant eastern desert palace with arches and gardens, a wandering minstrel road through steppes and birch woods, colors of crimson, gold, deep blue and warm sand, soft gouache texture, tender romantic mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hoang-hau",
+      "name": "Hoàng hậu",
+      "sheetPrompt": "a brave gentle young Russian queen from an old folk tale, long brown hair, embroidered crimson sarafan and pearl kokoshnik, kind determined eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2662122155
+    },
+    {
+      "id": "chang-dan-lute",
+      "name": "Chàng trai ôm đàn lute",
+      "sheetPrompt": "the same young queen disguised as a slim wandering minstrel boy, short cropped brown hair, simple blue tunic, travel cloak and soft boots, carrying a wooden lute, gentle face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1363130521
+    },
+    {
+      "id": "nha-vua",
+      "name": "Nhà vua",
+      "sheetPrompt": "a kind Russian king from an old folk tale, short brown beard, golden crown, red and gold royal robe trimmed with white fur, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1365970685
+    },
+    {
+      "id": "vua-xu-xa",
+      "name": "Ông vua xứ xa",
+      "sheetPrompt": "a stern grumpy foreign king from an old fairy tale, big black curled moustache, tall jeweled turban, heavy purple robe, arms folded, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3718879043
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nha-vua-ra-tran",
+      "title": "Nhà vua ra trận",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một đôi vua và hoàng hậu sống với nhau rất hạnh phúc. Nhưng rồi nhà vua thấy trong lòng bồn chồn, muốn đi xa lập công danh. Ở một xứ bên kia biển có ông vua độc ác, hành hạ dân lành. Nhà vua bèn tập hợp quân lính, dặn dò các quan, từ biệt hoàng hậu, rồi vượt biển ra đi. Lúc đầu quân ta thắng liền mấy trận. Nhưng tới một hẻm núi, đại quân của vua xứ xa đã chờ sẵn. Quân ta tan tác, còn nhà vua bị bắt mang đi.",
+      "subtitles": [
+        "Ngày xưa có một đôi vua và hoàng hậu sống với nhau rất hạnh phúc.",
+        "Nhưng rồi nhà vua thấy trong lòng bồn chồn, muốn đi xa lập công danh.",
+        "Ở một xứ bên kia biển có ông vua độc ác, hành hạ dân lành.",
+        "Nhà vua bèn tập hợp quân lính, dặn dò các quan, từ biệt hoàng hậu, rồi vượt biển ra đi.",
+        "Lúc đầu quân ta thắng liền mấy trận.",
+        "Nhưng tới một hẻm núi, đại quân của vua xứ xa đã chờ sẵn.",
+        "Quân ta tan tác, còn nhà vua bị bắt mang đi."
+      ],
+      "image": {
+        "prompt": "a king in a red royal robe tenderly saying goodbye to his queen on a palace terrace, ships with crimson sails waiting in the harbor below",
+        "seed": 1779499097,
+        "character": "nha-vua"
+      },
+      "video": {
+        "motionPrompt": "the queen holds the king's hands, sails billow in the harbor, the king turns and waves farewell",
+        "seed": 1539355623
+      },
+      "voice": {}
+    },
+    {
+      "id": "la-thu-tu-nguc",
+      "title": "Lá thư từ ngục",
+      "narrator": "ke-chuyen",
+      "narration": "Trong ngục của vua xứ xa, ngày ngày các tù nhân bị bắt cày ruộng từ sáng tới tối. Ba năm sau, nhà vua mới tìm được cách gửi thư về: “Hãy bán hết lâu đài, cầm hết châu báu, đến cứu ta ra.” Hoàng hậu đọc thư, khóc nức nở. Nàng nghĩ: “Nếu ta tự đi, vua xứ ấy sẽ giữ ta lại. Còn sai các quan, ta chẳng biết tin ai.” Nghĩ mãi, nàng nảy ra một ý. Nàng cắt mái tóc nâu dài óng, mặc áo con trai, ôm cây đàn lute, rồi lặng lẽ ra đi, không nói với một ai.",
+      "subtitles": [
+        "Trong ngục của vua xứ xa, ngày ngày các tù nhân bị bắt cày ruộng từ sáng tới tối.",
+        "Ba năm sau, nhà vua mới tìm được cách gửi thư về: “Hãy bán hết lâu đài,",
+        "cầm hết châu báu, đến cứu ta ra.” Hoàng hậu đọc thư, khóc nức nở.",
+        "Nàng nghĩ: “Nếu ta tự đi, vua xứ ấy sẽ giữ ta lại.",
+        "Còn sai các quan, ta chẳng biết tin ai.” Nghĩ mãi, nàng nảy ra một ý.",
+        "Nàng cắt mái tóc nâu dài óng, mặc áo con trai, ôm cây đàn lute, rồi lặng lẽ ra đi,",
+        "không nói với một ai."
+      ],
+      "image": {
+        "prompt": "the young queen by candlelight reading a letter with tears, her long brown hair cut and lying beside her, a boy's tunic and a wooden lute ready on the chair",
+        "seed": 4144922037,
+        "character": "hoang-hau"
+      },
+      "video": {
+        "motionPrompt": "candlelight flickers, the queen wipes a tear, then picks up the lute with a determined look",
+        "seed": 105145537
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-dan-truoc-cung",
+      "title": "Tiếng đàn trước cung",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng đi qua bao xứ, bao thành, chịu bao vất vả mới tới kinh đô của vua xứ xa. Nàng đi một vòng quanh cung, thấy nhà ngục ở phía sau. Rồi nàng vào sân trước, ôm đàn gảy những tiếng trong như suối, ai nghe cũng chẳng muốn rời chân. Rồi nàng cất tiếng hát, giọng ngọt hơn chim sơn ca: “Tôi từ xứ xa lạ tới đây, hành trang chỉ có cây đàn này. Tôi hát cho người tù mong ngóng, cho trái tim khắc khoải đêm ngày. Hỡi đức vua, nếu người nghe thấu, xin ban cho tôi điều ước ấy.”",
+      "subtitles": [
+        "Nàng đi qua bao xứ, bao thành, chịu bao vất vả mới tới kinh đô của vua xứ xa.",
+        "Nàng đi một vòng quanh cung, thấy nhà ngục ở phía sau.",
+        "Rồi nàng vào sân trước, ôm đàn gảy những tiếng trong như suối,",
+        "ai nghe cũng chẳng muốn rời chân.",
+        "Rồi nàng cất tiếng hát, giọng ngọt hơn chim sơn ca: “Tôi từ xứ xa lạ tới đây,",
+        "hành trang chỉ có cây đàn này.",
+        "Tôi hát cho người tù mong ngóng, cho trái tim khắc khoải đêm ngày.",
+        "Hỡi đức vua, nếu người nghe thấu, xin ban cho tôi điều ước ấy.”"
+      ],
+      "image": {
+        "prompt": "a slim minstrel boy with a lute singing in a sunny palace courtyard with arches and fountains, guards and servants pausing to listen, a stern king looking down from a balcony",
+        "seed": 1353896805,
+        "character": "chang-dan-lute"
+      },
+      "video": {
+        "motionPrompt": "fingers pluck the lute strings, a fountain sparkles, listeners sway gently, the king leans on the balcony",
+        "seed": 345685436
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-ngay-trong-cung",
+      "title": "Ba ngày trong cung",
+      "narrator": "ke-chuyen",
+      "narration": "Vua xứ xa nghe tiếng hát, cho gọi người hát vào. “Chào người chơi đàn. Ngươi từ đâu tới?” “Thưa bệ hạ, quê tôi ở bên kia nhiều biển, tôi đi khắp nơi kiếm sống bằng tiếng đàn.” “Hãy ở lại vài ngày. Khi đi, ta sẽ ban cho ngươi điều ước trong bài hát.” Thế là chàng lute ở lại, đàn hát suốt ngày. Vua nghe say sưa, quên cả ăn uống, quên cả việc hành hạ ai. Vua gật gù: “Tiếng đàn này như có bàn tay dịu dàng gỡ hết muộn phiền cho ta.”",
+      "subtitles": [
+        "Vua xứ xa nghe tiếng hát, cho gọi người hát vào.",
+        "“Chào người chơi đàn.",
+        "Ngươi từ đâu tới?” “Thưa bệ hạ, quê tôi ở bên kia nhiều biển,",
+        "tôi đi khắp nơi kiếm sống bằng tiếng đàn.” “Hãy ở lại vài ngày.",
+        "Khi đi, ta sẽ ban cho ngươi điều ước trong bài hát.” Thế là chàng lute ở lại,",
+        "đàn hát suốt ngày.",
+        "Vua nghe say sưa, quên cả ăn uống, quên cả việc hành hạ ai.",
+        "Vua gật gù: “Tiếng đàn này như có bàn tay dịu dàng gỡ hết muộn phiền cho ta.”"
+      ],
+      "image": {
+        "prompt": "inside a richly decorated foreign throne room, the stern king relaxing on cushions with eyes closed and a peaceful smile while the minstrel boy plays the lute",
+        "seed": 1046267496,
+        "character": "vua-xu-xa"
+      },
+      "video": {
+        "motionPrompt": "the king's stern face softens into a smile, he nods along to the music, incense smoke curls slowly",
+        "seed": 2268014051
+      },
+      "voice": {}
+    },
+    {
+      "id": "chon-mot-nguoi-tu",
+      "title": "Chọn một người tù",
+      "narrator": "ke-chuyen",
+      "narration": "Ba ngày sau, chàng lute xin cáo từ. “Ngươi muốn ta thưởng gì?” “Xin bệ hạ cho tôi một người tù. Trong ngục có nhiều người, tôi muốn có bạn đồng hành. Mỗi khi nghe giọng người ấy vui vẻ, tôi sẽ nhớ ơn bệ hạ.” Vua dẫn chàng đi khắp nhà ngục, cho tự chọn. Hoàng hậu đi giữa đám tù, và chọn đúng chồng mình. Hai người đi cùng nhau suốt chặng đường dài, mà nhà vua vẫn không nhận ra người bạn trẻ là ai.",
+      "subtitles": [
+        "Ba ngày sau, chàng lute xin cáo từ.",
+        "“Ngươi muốn ta thưởng gì?” “Xin bệ hạ cho tôi một người tù.",
+        "Trong ngục có nhiều người, tôi muốn có bạn đồng hành.",
+        "Mỗi khi nghe giọng người ấy vui vẻ,",
+        "tôi sẽ nhớ ơn bệ hạ.” Vua dẫn chàng đi khắp nhà ngục, cho tự chọn.",
+        "Hoàng hậu đi giữa đám tù, và chọn đúng chồng mình.",
+        "Hai người đi cùng nhau suốt chặng đường dài,",
+        "mà nhà vua vẫn không nhận ra người bạn trẻ là ai."
+      ],
+      "image": {
+        "prompt": "the minstrel boy leading the tired king in plain clothes out of a prison gate into sunlight, then the two walking together along a long road through steppes and birch woods",
+        "seed": 2732733797,
+        "character": "nha-vua"
+      },
+      "video": {
+        "motionPrompt": "the gate creaks open, sunlight floods in, the two travelers walk side by side down the winding road",
+        "seed": 3574252680
+      },
+      "voice": {}
+    },
+    {
+      "id": "chia-tay-o-bien-gioi",
+      "title": "Chia tay ở biên giới",
+      "narrator": "ke-chuyen",
+      "narration": "Tới biên giới, nhà vua nói: “Cậu bé tốt bụng ơi, ta không phải tù nhân thường, ta là vua nước này. Hãy theo ta về, muốn thưởng gì ta cũng cho.” “Xin đừng nói chuyện thưởng, ngài cứ về bình an.” “Vậy hãy về làm khách của ta.” “Đến lúc thích hợp, tôi sẽ tới cung của ngài.” Rồi họ chia tay. Hoàng hậu đi đường tắt, về trước nhà vua, thay lại xiêm áo. Một lúc sau, cả cung reo hò: “Đức vua đã về!” Nhà vua chào hỏi mọi người vui vẻ, nhưng chẳng thèm nhìn hoàng hậu lấy một lần.",
+      "subtitles": [
+        "Tới biên giới, nhà vua nói: “Cậu bé tốt bụng ơi, ta không phải tù nhân thường,",
+        "ta là vua nước này.",
+        "Hãy theo ta về, muốn thưởng gì ta cũng cho.” “Xin đừng nói chuyện thưởng,",
+        "ngài cứ về bình an.” “Vậy hãy về làm khách của ta.” “Đến lúc thích hợp,",
+        "tôi sẽ tới cung của ngài.” Rồi họ chia tay.",
+        "Hoàng hậu đi đường tắt, về trước nhà vua, thay lại xiêm áo.",
+        "Một lúc sau, cả cung reo hò: “Đức vua đã về!” Nhà vua chào hỏi mọi người vui vẻ,",
+        "nhưng chẳng thèm nhìn hoàng hậu lấy một lần."
+      ],
+      "image": {
+        "prompt": "at a border stone marker under a wide sky, the king gratefully clasping the minstrel boy's hand, then the palace crowd cheering as the king returns while the queen in her gown stands quietly aside",
+        "seed": 34762780,
+        "character": "nha-vua"
+      },
+      "video": {
+        "motionPrompt": "the king bows to the minstrel, crowds cheer and throw flowers, the queen watches with a hidden smile",
+        "seed": 1599768426
+      },
+      "voice": {}
+    },
+    {
+      "id": "dieu-uoc-cua-nang",
+      "title": "Điều ước của nàng",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua họp các quan, giận dữ: “Lúc ta trong ngục, hoàng hậu chẳng làm gì cứu ta!” Các quan thưa: “Tâu bệ hạ, tin vừa tới thì hoàng hậu biến mất, hôm nay mới về.” Vua càng giận: “Nếu không có chàng lute, ta chẳng bao giờ về được.” Đúng lúc ấy, ngoài sân lại vang lên tiếng đàn và bài hát quen thuộc. Vua chạy ra, nắm tay chàng lute dắt vào: “Đây là người đã cứu ta! Bạn ơi, ta sẽ ban cho bạn điều ước.” “Thần xin điều mà vua xứ xa đã ban, nhưng lần này thần giữ luôn. Thần xin chính bệ hạ!” Nàng cởi chiếc áo choàng, và ai cũng thấy đó là hoàng hậu. Nhà vua mừng khôn xiết, mở tiệc mời cả thiên hạ, vui suốt một tuần liền.",
+      "subtitles": [
+        "Nhà vua họp các quan, giận dữ: “Lúc ta trong ngục,",
+        "hoàng hậu chẳng làm gì cứu ta!” Các quan thưa: “Tâu bệ hạ,",
+        "tin vừa tới thì hoàng hậu biến mất,",
+        "hôm nay mới về.” Vua càng giận: “Nếu không có chàng lute,",
+        "ta chẳng bao giờ về được.” Đúng lúc ấy,",
+        "ngoài sân lại vang lên tiếng đàn và bài hát quen thuộc.",
+        "Vua chạy ra, nắm tay chàng lute dắt vào: “Đây là người đã cứu ta!",
+        "Bạn ơi, ta sẽ ban cho bạn điều ước.” “Thần xin điều mà vua xứ xa đã ban,",
+        "nhưng lần này thần giữ luôn.",
+        "Thần xin chính bệ hạ!” Nàng cởi chiếc áo choàng, và ai cũng thấy đó là hoàng hậu.",
+        "Nhà vua mừng khôn xiết, mở tiệc mời cả thiên hạ, vui suốt một tuần liền."
+      ],
+      "image": {
+        "prompt": "in the royal hall the minstrel throwing off a traveling cloak to reveal the smiling queen, the astonished king opening his arms, courtiers gasping happily, a grand feast prepared behind",
+        "seed": 2094980934,
+        "character": "hoang-hau"
+      },
+      "video": {
+        "motionPrompt": "the cloak falls away, the king's face lights up with joy, he embraces the queen as courtiers cheer",
+        "seed": 4072929551
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender Russian folk melody led by a solo lute, soft gusli and strings, a wistful traveling theme, a gentle singing middle, a joyful festive reunion ending, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 3842796625
+  }
+}

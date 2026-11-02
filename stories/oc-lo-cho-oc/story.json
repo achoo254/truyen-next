@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "slug": "oc-lo-cho-oc",
+  "shelf": "kids",
+  "title": "Ốc lo cho ốc",
+  "summary": "Giữa tháng rét, con cốc lặn xuống ao mò cá, khoe mình giỏi cả bơi lẫn bay. Chú ốc bé tí lại đi lo đầu cốc mọc rêu, rồi lủi tọt xuống bùn. Truyện cổ Việt Nam về câu tục ngữ “Ốc chẳng lo nổi mình ốc”, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện số một trăm mười sáu trong Truyện cổ nước Nam – Muông chim (1934) của Ôn Như Nguyễn Văn Ngọc, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; Mèo Miu dẫn chuyện, thoại và lời rút ý cuối truyện do người viết thêm. Thêm cảnh cốc rũ lông bay đi và lời giải thích câu tục ngữ cho trẻ nhỏ.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, chilly winter village pond with lotus leaves, reeds, misty grey sky and soft green water, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1533223796
+    },
+    {
+      "id": "coc",
+      "name": "Con cốc",
+      "seed": 2155260367,
+      "sheetPrompt": "a sleek glossy black cormorant with a long hooked beak and a proud puffed chest, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "oc",
+      "name": "Chú ốc",
+      "seed": 2080889415,
+      "sheetPrompt": "a tiny round pond snail with a brown spiral shell, two little eye stalks and a worried kind face, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Có bao giờ các bạn lo cho người khác, trong khi việc của mình lại chưa xong chưa? Hôm nay Miu kể chuyện một chú ốc bé xíu rất hay lo, lo cả chuyện của bạn cốc to đùng. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Có bao giờ các bạn lo cho người khác, trong khi việc của mình lại chưa xong chưa?",
+        "Hôm nay Miu kể chuyện một chú ốc bé xíu rất hay lo, lo cả chuyện của bạn cốc to đùng.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat wrapped in a cozy scarf sits by a misty winter pond with a picture book, a tiny snail on a lotus leaf and a black cormorant on a post nearby",
+        "seed": 514966006
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello and pulls her scarf tighter, mist drifts over the water, the snail peeks out of its shell, slow gentle camera push-in",
+        "seed": 1135644499
+      },
+      "voice": {}
+    },
+    {
+      "id": "ao-lanh",
+      "title": "Ao nước tháng rét",
+      "narrator": "ke-chuyen",
+      "narration": "Hồi ấy là tháng một, trời rét căm căm, gió bấc thổi ù ù qua bờ ao. Mặt nước lạnh buốt, chẳng ai dám xuống tắm. Ấy thế mà có một con cốc lông đen bóng vẫn lặn ùm xuống ao mò cá. Lặn xuống tận đáy, cốc gặp một chú ốc nhỏ đang bám trên cọng rong.",
+      "subtitles": [
+        "Hồi ấy là tháng một, trời rét căm căm, gió bấc thổi ù ù qua bờ ao.",
+        "Mặt nước lạnh buốt, chẳng ai dám xuống tắm.",
+        "Ấy thế mà có một con cốc lông đen bóng vẫn lặn ùm xuống ao mò cá.",
+        "Lặn xuống tận đáy, cốc gặp một chú ốc nhỏ đang bám trên cọng rong."
+      ],
+      "image": {
+        "character": "coc",
+        "prompt": "a cold windy winter day at a village pond, a black cormorant dives into the green water with a splash, underwater view of the cormorant meeting a tiny snail clinging to waterweed",
+        "seed": 2871561422
+      },
+      "video": {
+        "motionPrompt": "wind ripples the pond, the cormorant dives with a splash, bubbles rise, underwater the cormorant and the snail blink at each other",
+        "seed": 2151537890
+      },
+      "voice": {}
+    },
+    {
+      "id": "oc-hoi",
+      "title": "Ốc hỏi cốc",
+      "narrator": "ke-chuyen",
+      "narration": "Ốc ngạc nhiên hỏi: Trời rét như thế này mà anh cũng dám xuống đây tắm à? Cốc vươn cổ, đáp: Ta đây giỏi cả dưới nước lẫn trên cạn! Khi ta khép cánh lại, ta lội khắp sông hồ. Khi ta giương cánh ra, ta bay cao tít tận trời. Nóng hay lạnh, mưa hay nắng, ta chẳng quản.",
+      "subtitles": [
+        "Ốc ngạc nhiên hỏi: Trời rét như thế này mà anh cũng dám xuống đây tắm à?",
+        "Cốc vươn cổ, đáp: Ta đây giỏi cả dưới nước lẫn trên cạn!",
+        "Khi ta khép cánh lại, ta lội khắp sông hồ.",
+        "Khi ta giương cánh ra, ta bay cao tít tận trời.",
+        "Nóng hay lạnh, mưa hay nắng, ta chẳng quản."
+      ],
+      "image": {
+        "character": "oc",
+        "prompt": "underwater in the soft green pond, the tiny snail looks up in surprise at the proud cormorant who stretches its neck and half-opens its wings, a dream bubble of the cormorant flying high in the sky",
+        "seed": 4166116301
+      },
+      "video": {
+        "motionPrompt": "the snail tilts its eye stalks, the cormorant puffs its chest, bubbles float up, the dream bubble shows wings soaring and fades",
+        "seed": 930944534
+      },
+      "voice": {}
+    },
+    {
+      "id": "oc-lo",
+      "title": "Ốc lo cho cốc",
+      "narrator": "ke-chuyen",
+      "narration": "Cốc nhìn ốc, nói thêm: Ta chỉ thương bọn các chú, ở dưới nước lâu quá thì bụng phình ra, lên cạn lâu quá thì bụng thắt lại, khổ chưa! Ốc chậm rãi đáp: Nhà tôi ở dưới nước, tôi quen rồi, chẳng sợ gì cả. Tôi chỉ lo cho anh thôi. Anh cứ lặn xuống đây mãi, không khéo rêu mọc đầy đầu anh ấy!",
+      "subtitles": [
+        "Cốc nhìn ốc, nói thêm: Ta chỉ thương bọn các chú, ở dưới nước lâu quá thì bụng phình ra,",
+        "lên cạn lâu quá thì bụng thắt lại, khổ chưa!",
+        "Ốc chậm rãi đáp: Nhà tôi ở dưới nước, tôi quen rồi, chẳng sợ gì cả.",
+        "Tôi chỉ lo cho anh thôi.",
+        "Anh cứ lặn xuống đây mãi, không khéo rêu mọc đầy đầu anh ấy!"
+      ],
+      "image": {
+        "character": "oc",
+        "prompt": "the tiny snail points an eye stalk at the cormorant's head with a worried face, a funny thought bubble shows the cormorant with green moss growing on its head like a wig",
+        "seed": 1351025774
+      },
+      "video": {
+        "motionPrompt": "the snail wiggles its eye stalks worriedly, the cormorant blinks in surprise, the funny moss-wig bubble pops, comic timing",
+        "seed": 462452703
+      },
+      "voice": {}
+    },
+    {
+      "id": "oc-lui",
+      "title": "Ốc lủi xuống bùn",
+      "narrator": "ke-chuyen",
+      "narration": "Nói xong, ốc lủi tọt xuống bùn, chỉ còn mấy bong bóng nhỏ nổi lên. Cốc ngẩn ra một lúc, lắc lắc cái đầu, chẳng biết ốc nói thật hay nói đùa. Rồi cốc ngoi lên bờ, đứng rũ lông cho khô. Một lát sau, cốc giương cánh bay vút lên trời, trên đầu chẳng có cọng rêu nào cả.",
+      "subtitles": [
+        "Nói xong, ốc lủi tọt xuống bùn, chỉ còn mấy bong bóng nhỏ nổi lên.",
+        "Cốc ngẩn ra một lúc, lắc lắc cái đầu, chẳng biết ốc nói thật hay nói đùa.",
+        "Rồi cốc ngoi lên bờ, đứng rũ lông cho khô.",
+        "Một lát sau, cốc giương cánh bay vút lên trời, trên đầu chẳng có cọng rêu nào cả."
+      ],
+      "image": {
+        "character": "coc",
+        "prompt": "the snail disappears into soft mud leaving a few bubbles, the cormorant stands on the bank shaking water from its feathers, then spreads its wings to fly into the grey winter sky",
+        "seed": 3850430358
+      },
+      "video": {
+        "motionPrompt": "bubbles pop on the surface, the cormorant shakes its feathers and flaps up into the sky, reeds bend in the wind",
+        "seed": 3318994484
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-tuc-ngu",
+      "title": "Câu tục ngữ",
+      "narrator": "ke-chuyen",
+      "narration": "Chuyện ấy truyền đi khắp làng. Từ đó người ta mới có câu tục ngữ: Ốc chẳng lo nổi mình ốc, ốc lại lo đầu cốc mọc rêu. Câu ấy để nói những ai việc của mình còn chưa lo xong, lại cứ đi lo chuyện của người khác.",
+      "subtitles": [
+        "Chuyện ấy truyền đi khắp làng.",
+        "Từ đó người ta mới có câu tục ngữ: Ốc chẳng lo nổi mình ốc, ốc lại lo đầu cốc mọc rêu.",
+        "Câu ấy để nói những ai việc của mình còn chưa lo xong, lại cứ đi lo chuyện của người khác."
+      ],
+      "image": {
+        "character": "oc",
+        "prompt": "village children and grandparents sit by the pond laughing and chatting, a tiny snail peeks out of the mud nearby, a cormorant flies in the distant sky",
+        "seed": 1744024341
+      },
+      "video": {
+        "motionPrompt": "the villagers laugh warmly, the snail peeks out and hides shyly, the cormorant glides far away, mist lifts slowly",
+        "seed": 2800273066
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn ơi, chú ốc bé tí, đi chậm, lại phải trốn trong bùn, thế mà cứ đi lo cho bạn cốc bay cao, lặn giỏi. Lo cho bạn bè là điều tốt, nhưng mình cũng phải lo xong việc của mình trước đã. Còn bạn cốc thì cũng đừng khoe khoang, chê bạn nhỏ hơn mình nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn ơi, chú ốc bé tí, đi chậm, lại phải trốn trong bùn,",
+        "thế mà cứ đi lo cho bạn cốc bay cao, lặn giỏi.",
+        "Lo cho bạn bè là điều tốt, nhưng mình cũng phải lo xong việc của mình trước đã.",
+        "Còn bạn cốc thì cũng đừng khoe khoang, chê bạn nhỏ hơn mình nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat in a cozy scarf waves goodbye by the pond, the tiny snail on a lotus leaf and the cormorant on a post nearby both smiling",
+        "seed": 2517275955
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the snail waves an eye stalk, the cormorant nods, mist drifts, gentle camera pull-back",
+        "seed": 1240148174
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "calm Vietnamese winter pond melody, dan bau monochord and bamboo flute with soft water-drop plucks, cool and gently humorous mood, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3679005374
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "slug": "voi-cop-thi-tai",
+  "shelf": "kids",
+  "title": "Voi, cọp thi tài",
+  "summary": "Voi với cọp tranh nhau làm vua, thi gầm cho lá rụng, voi thua. Chú thỏ bé xíu nghĩ ra mẹo «một voi, hai voi, ta ăn hết» khiến cọp sợ chạy mất. Truyện cổ Việt Nam kể vì sao cọp còn được gọi là con hổ, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "su-tich"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «Voi, cọp thi tài» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: bên thua phải nộp mình làm bữa ăn cho bên thắng, không tả việc ăn; khỉ chỉ bị xóc văng xuống bụi cỏ, nằm nhăn nhó, thay cho kết cục trong sách. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, lời thoại kể thêm và lời rút ý ở cuối; cốt truyện giữ nguyên.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, a lush green Vietnamese jungle with a giant old tree, ferns and vines, sun dappled clearings and misty hills, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 197541202,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "voi",
+      "name": "Voi",
+      "seed": 2842567749,
+      "sheetPrompt": "a big gentle grey elephant with small tusks, worried kind eyes and floppy ears, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cop",
+      "name": "Cọp",
+      "seed": 1129220058,
+      "sheetPrompt": "a big orange striped tiger with a proud chest, round cartoon style and a nervous easily startled face, not scary, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "tho",
+      "name": "Thỏ",
+      "seed": 4056986098,
+      "sheetPrompt": "a small clever white rabbit with long ears, bright eyes and a confident playful grin, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "khi",
+      "name": "Khỉ",
+      "seed": 2710296963,
+      "sheetPrompt": "a cheeky brown monkey with a long tail, a big boastful grin and quick hands, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có biết vì sao con cọp còn có tên là con hổ không? Người xưa kể rằng có một lần, cọp to khoẻ thế mà lại thua một chú thỏ bé xíu, xấu hổ lắm. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có biết vì sao con cọp còn có tên là con hổ không?",
+        "Người xưa kể rằng có một lần, cọp to khoẻ thế mà lại thua một chú thỏ bé xíu, xấu hổ lắm.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a tree root in a jungle clearing holding a picture book, a small white rabbit grins beside her and a big tiger peeks shyly from the ferns",
+        "seed": 3909227376
+      },
+      "video": {
+        "motionPrompt": "the cat giggles, the rabbit wiggles its ears, the tiger hides its face behind a fern leaf, sunbeams flicker, slow camera push-in",
+        "seed": 397842058
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoi-muong-thu",
+      "title": "Hội muông thú",
+      "narrator": "ke-chuyen",
+      "narration": "Thuở xưa, muông thú đều biết nói, thường họp nhau thành một hội lớn. Một buổi, cả hội bầu chim phượng hoàng làm chúa loài chim, bầu kỳ lân làm vua loài thú. Ai cũng đồng ý, chỉ có voi và cọp là không chịu. Voi khoe: Tôi to nhất! Cọp cậy: Tôi khoẻ nhất! Hai bên cãi nhau mãi, chẳng ai can nổi.",
+      "subtitles": [
+        "Thuở xưa, muông thú đều biết nói, thường họp nhau thành một hội lớn.",
+        "Một buổi, cả hội bầu chim phượng hoàng làm chúa loài chim, bầu kỳ lân làm vua loài thú.",
+        "Ai cũng đồng ý, chỉ có voi và cọp là không chịu.",
+        "Voi khoe: Tôi to nhất! Cọp cậy: Tôi khoẻ nhất!",
+        "Hai bên cãi nhau mãi, chẳng ai can nổi."
+      ],
+      "image": {
+        "character": "voi",
+        "prompt": "a big animal meeting in a jungle clearing, a colourful phoenix and a gentle qilin sit on a mossy rock as leaders, the elephant and the tiger argue loudly in front while other animals watch",
+        "seed": 3714587914
+      },
+      "video": {
+        "motionPrompt": "animals murmur and turn their heads, the elephant lifts its trunk, the tiger puffs its chest, the phoenix spreads its wings to calm them",
+        "seed": 3253751316
+      },
+      "voice": {}
+    },
+    {
+      "id": "thi-gam",
+      "title": "Thi gầm cho lá rụng",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng, hai bên giao hẹn: Ra chỗ cây to kia, ai gầm một tiếng làm lá rụng thì người ấy thắng. Bên thua phải nộp mình làm bữa ăn cho bên thắng. Voi rống trước, lá cây chẳng nhúc nhích. Đến lượt cọp gầm, lá rụng xuống ào ào. Voi thua, xin cọp cho về nhà vài hôm rồi sẽ quay lại gốc cây.",
+      "subtitles": [
+        "Cuối cùng, hai bên giao hẹn: Ra chỗ cây to kia,",
+        "ai gầm một tiếng làm lá rụng thì người ấy thắng.",
+        "Bên thua phải nộp mình làm bữa ăn cho bên thắng.",
+        "Voi rống trước, lá cây chẳng nhúc nhích. Đến lượt cọp gầm, lá rụng xuống ào ào.",
+        "Voi thua, xin cọp cho về nhà vài hôm rồi sẽ quay lại gốc cây."
+      ],
+      "image": {
+        "character": "cop",
+        "prompt": "under a giant old tree the tiger roars upward and leaves shower down all around, the elephant stands beside it looking worried, comical not scary",
+        "seed": 1129900207
+      },
+      "video": {
+        "motionPrompt": "the tiger roars with a big comic face, leaves rain down in swirls, the elephant's ears droop, camera tilts up to the falling leaves",
+        "seed": 2066681215
+      },
+      "voice": {}
+    },
+    {
+      "id": "tho-giup-voi",
+      "title": "Thỏ hứa giúp voi",
+      "narrator": "ke-chuyen",
+      "narration": "Voi về nhà, ngồi thở dài thườn thượt. Thỏ đi qua hỏi: Anh làm sao thế? Voi kể hết đầu đuôi, rồi bảo: Mai là đến hẹn rồi, còn gì là đời tôi nữa! Thỏ cười: Anh đừng sợ, mai tôi đến giúp. Sáng hôm sau, thỏ dặn voi ra gốc cây nằm ngửa, bốn chân chổng lên trời, còn mọi việc để thỏ lo.",
+      "subtitles": [
+        "Voi về nhà, ngồi thở dài thườn thượt. Thỏ đi qua hỏi: Anh làm sao thế?",
+        "Voi kể hết đầu đuôi, rồi bảo: Mai là đến hẹn rồi, còn gì là đời tôi nữa!",
+        "Thỏ cười: Anh đừng sợ, mai tôi đến giúp.",
+        "Sáng hôm sau, thỏ dặn voi ra gốc cây nằm ngửa, bốn chân chổng lên trời,",
+        "còn mọi việc để thỏ lo."
+      ],
+      "image": {
+        "character": "tho",
+        "prompt": "the sad elephant sits by a jungle stream sighing, the small white rabbit stands on a rock patting the elephant's trunk with a confident grin",
+        "seed": 2695135027
+      },
+      "video": {
+        "motionPrompt": "the elephant sighs heavily, the rabbit pats its trunk and winks, butterflies drift past, warm hopeful light",
+        "seed": 581931983
+      },
+      "voice": {}
+    },
+    {
+      "id": "mot-voi-hai-voi",
+      "title": "Một voi, hai voi",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy cọp sắp tới, thỏ nhảy tót lên bụng voi, vừa nhảy nhót vừa nói to: Một voi ta ăn hết, hai voi ta ăn hết, ba voi bốn voi ta ăn cũng hết! Cọp nghe thế giật mình: Nó hạ được cả con voi to thế kia, lại còn đòi mấy voi nữa. Mình lại gần thì nó ăn nốt cả mình mất! Nghĩ thế, cọp cong đuôi chạy một mạch qua ba cánh rừng.",
+      "subtitles": [
+        "Thấy cọp sắp tới, thỏ nhảy tót lên bụng voi, vừa nhảy nhót vừa nói to: Một voi ta ăn hết,",
+        "hai voi ta ăn hết, ba voi bốn voi ta ăn cũng hết!",
+        "Cọp nghe thế giật mình: Nó hạ được cả con voi to thế kia, lại còn đòi mấy voi nữa.",
+        "Mình lại gần thì nó ăn nốt cả mình mất!",
+        "Nghĩ thế, cọp cong đuôi chạy một mạch qua ba cánh rừng."
+      ],
+      "image": {
+        "character": "tho",
+        "prompt": "the elephant lies on its back under the big tree with four legs up, the little rabbit dances on its belly shouting, the tiger peeks from bushes in shock, comic",
+        "seed": 2396610199
+      },
+      "video": {
+        "motionPrompt": "the rabbit hops and dances on the elephant's belly, the tiger's eyes pop wide and it spins around and runs away, leaves fly, comic timing",
+        "seed": 2285909153
+      },
+      "voice": {}
+    },
+    {
+      "id": "khi-ru-cop",
+      "title": "Khỉ rủ cọp quay lại",
+      "narrator": "ke-chuyen",
+      "narration": "Giữa đường, cọp gặp khỉ. Nghe cọp kể, khỉ cười chê: Anh to xác mà nhát thế! Đi với tôi, tôi giúp anh ăn cả sáu voi. Cọp vẫn sợ, bắt khỉ ngồi ôm chặt trên lưng mới chịu đi. Thỏ trông thấy từ xa, liền nói to: Này khỉ kia! Cha mày còn nợ tao ba con cọp, sao giờ chỉ mang có một con đến trả thế?",
+      "subtitles": [
+        "Giữa đường, cọp gặp khỉ. Nghe cọp kể, khỉ cười chê: Anh to xác mà nhát thế!",
+        "Đi với tôi, tôi giúp anh ăn cả sáu voi.",
+        "Cọp vẫn sợ, bắt khỉ ngồi ôm chặt trên lưng mới chịu đi.",
+        "Thỏ trông thấy từ xa, liền nói to: Này khỉ kia!",
+        "Cha mày còn nợ tao ba con cọp, sao giờ chỉ mang có một con đến trả thế?"
+      ],
+      "image": {
+        "character": "khi",
+        "prompt": "the cheeky monkey rides on the nervous tiger's back hugging tight as they walk back through the jungle, far ahead the little rabbit stands on a rock calling out boldly",
+        "seed": 2687929627
+      },
+      "video": {
+        "motionPrompt": "the tiger tiptoes nervously, the monkey grins and points ahead, the rabbit cups its paws and shouts, the tiger's ears flatten in fright",
+        "seed": 425071402
+      },
+      "voice": {}
+    },
+    {
+      "id": "cop-thanh-ho",
+      "title": "Cọp thành con hổ",
+      "narrator": "ke-chuyen",
+      "narration": "Cọp nghĩ bụng: Thôi nguy rồi, mình mắc lừa, khỉ dắt mình đến trả nợ! Cọp cắm đầu chạy, chẳng kể gai góc bụi rậm. Khỉ ôm trên lưng bị xóc lên xóc xuống, đến lúc văng xuống bụi cỏ thì nằm nhăn nhó, chẳng dám rủ ai nữa. Từ đó, cọp sợ thỏ lắm, đi đâu cũng cúi mặt. To khoẻ thế mà thua trí con thỏ, nên người ta gọi cọp là con hổ, nghĩa là xấu hổ đấy.",
+      "subtitles": [
+        "Cọp nghĩ bụng: Thôi nguy rồi, mình mắc lừa, khỉ dắt mình đến trả nợ!",
+        "Cọp cắm đầu chạy, chẳng kể gai góc bụi rậm.",
+        "Khỉ ôm trên lưng bị xóc lên xóc xuống, đến lúc văng xuống bụi cỏ thì nằm nhăn nhó,",
+        "chẳng dám rủ ai nữa. Từ đó, cọp sợ thỏ lắm, đi đâu cũng cúi mặt.",
+        "To khoẻ thế mà thua trí con thỏ, nên người ta gọi cọp là con hổ, nghĩa là xấu hổ đấy."
+      ],
+      "image": {
+        "character": "cop",
+        "prompt": "the tiger dashes through the jungle in panic, the monkey bounces off into a soft grassy bush with a dizzy grimace, later the tiger walks with its head bowed in embarrassment",
+        "seed": 936478172
+      },
+      "video": {
+        "motionPrompt": "the tiger zooms past, the monkey tumbles softly into the grass and rubs its head, then the tiger slinks along hiding its face with a paw, comic",
+        "seed": 2730118231
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, thỏ bé nhưng nhanh trí, lại tốt bụng giúp bạn voi. Còn voi với cọp, cứ tranh nhau làm vua, chẳng chịu nhường ai, nên mới gặp chuyện. Mình biết nhường nhịn, biết nghĩ cách giúp bạn, là giỏi nhất rồi đấy. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, thỏ bé nhưng nhanh trí, lại tốt bụng giúp bạn voi.",
+        "Còn voi với cọp, cứ tranh nhau làm vua, chẳng chịu nhường ai, nên mới gặp chuyện.",
+        "Mình biết nhường nhịn, biết nghĩ cách giúp bạn, là giỏi nhất rồi đấy.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the jungle clearing, the little rabbit sits on the happy elephant's head waving too",
+        "seed": 1055318031
+      },
+      "video": {
+        "motionPrompt": "the cat waves, the elephant lifts its trunk in a cheerful salute, the rabbit waves its ears, sunlight through the leaves, gentle camera pull-back",
+        "seed": 366643801
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "lively Vietnamese jungle folk tune, bamboo flute, dan bau and playful hand drums, a bit of comic suspense then cheerful, moderate tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2934689514
+  }
+}

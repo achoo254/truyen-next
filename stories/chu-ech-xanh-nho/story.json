@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-ech-xanh-nho",
+  "shelf": "world",
+  "title": "Chú ếch xanh nhỏ",
+  "summary": "Hoàng tử Saphir lên đường tìm con chim thần có thể chữa bệnh cho vua cha, và được một chú ếch xanh nhỏ bên dòng suối chỉ đường. Hai lần chàng làm sai lời dặn, lần thứ ba mới thành công, và chú ếch hóa ra là cô gái chàng vẫn thấy trong gương thần. Truyện cổ Pháp trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện “The Little Green Frog” trong The Yellow Fairy Book do Andrew Lang biên tập (1894; Lang ghi nguồn Cabinet des Fées, truyện Pháp thế kỷ mười tám), Project Gutenberg #640, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính, lược bớt chuyện hai ông vua thuở trước và kể nhẹ việc hoàng hậu biến mất, không chép bản dịch nào.",
+  "basedOn": "Andrew Lang, The Yellow Fairy Book (1894)",
+  "style": "classic French eighteenth century fairy tale picture book illustration, rococo palaces of crystal and gold, cedar forests with soft green grass and rare flowers, a clear bubbling fountain, pastel colors of sky blue, emerald, gold and blush pink, delicate ink lines and watercolor, gentle romantic mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hoang-tu-saphir",
+      "name": "Hoàng tử Saphir",
+      "sheetPrompt": "a gentle eighteen year old prince from an old French fairy tale, wavy chestnut hair tied with a blue ribbon, sky blue velvet coat with gold buttons, riding boots, kind earnest face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 186050635
+    },
+    {
+      "id": "ech-xanh",
+      "name": "Chú ếch xanh nhỏ",
+      "sheetPrompt": "a tiny pretty bright green frog with the most beautiful large kind eyes, glossy skin with soft golden speckles, cute storybook style, full body, plain light background, character reference sheet",
+      "seed": 474746575
+    },
+    {
+      "id": "serpentine",
+      "name": "Nàng Serpentine",
+      "sheetPrompt": "a lovely young maiden from an old French fairy tale, long golden hair with a crown of small white flowers, soft green silk gown, shy gentle smile, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2150867321
+    },
+    {
+      "id": "chim-than",
+      "name": "Con chim thần",
+      "sheetPrompt": "a magnificent magical bird with sky blue and gold feathers, glittering ruby red beak and feet, diamond bright eyes, a tiny sparkling crown on its head, full body, plain light background, character reference sheet",
+      "seed": 3906621330
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tam-guong-than",
+      "title": "Tấm gương thần",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có vua Peridor rất mực thương hoàng hậu. Nhưng một ngày kia, hoàng hậu bỗng biến mất, không ai biết đi đâu, khiến nhà vua buồn rầu suốt mười lăm năm trời. Niềm an ủi duy nhất của vua là hoàng tử Saphir, con trai tài giỏi và hiền hậu. Năm hoàng tử mười lăm tuổi, các bà tiên lặng lẽ đặt vào phòng chàng một tấm gương khung đen. Lạ thay, trong gương không hiện mặt chàng, mà hiện một cô gái xinh như buổi sớm mai. Từ đó, hoàng tử chẳng muốn rời căn phòng nhỏ ấy nữa.",
+      "subtitles": [
+        "Ngày xưa có vua Peridor rất mực thương hoàng hậu.",
+        "Nhưng một ngày kia, hoàng hậu bỗng biến mất, không ai biết đi đâu,",
+        "khiến nhà vua buồn rầu suốt mười lăm năm trời.",
+        "Niềm an ủi duy nhất của vua là hoàng tử Saphir, con trai tài giỏi và hiền hậu.",
+        "Năm hoàng tử mười lăm tuổi, các bà tiên lặng lẽ đặt vào phòng chàng một tấm gương khung",
+        "đen.",
+        "Lạ thay, trong gương không hiện mặt chàng, mà hiện một cô gái xinh như buổi sớm mai.",
+        "Từ đó, hoàng tử chẳng muốn rời căn phòng nhỏ ấy nữa."
+      ],
+      "image": {
+        "prompt": "a young prince in a sky blue coat gazing in wonder into a small black framed magic mirror that shows a lovely golden haired maiden, elegant rococo room",
+        "seed": 3847635850,
+        "character": "hoang-tu-saphir"
+      },
+      "video": {
+        "motionPrompt": "the image in the mirror shimmers softly, the maiden in the mirror turns her head, the prince leans closer",
+        "seed": 3970852484
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-chim-tren-bau-cua",
+      "title": "Con chim trên bậu cửa",
+      "narrator": "ke-chuyen",
+      "narration": "Vài năm sau, vua Peridor lâm bệnh nặng, ngực nặng trĩu, thở chẳng ra hơi. Một hôm, cửa sổ mở toang, một con chim lộng lẫy bay tới đậu trên bậu cửa. Lông nó xanh da trời pha vàng óng, mỏ và chân như hồng ngọc, mắt sáng hơn kim cương, đầu đội một chiếc vương miện nhỏ. Chim chẳng hót, chỉ lặng lẽ nhìn nhà vua, và mỗi ánh nhìn lại khiến vua khỏe thêm. Vua mừng quá, chồm dậy định bắt, chim vụt bay mất. Cả nước đổ đi tìm mà không thấy, và nhà vua lại ốm như cũ.",
+      "subtitles": [
+        "Vài năm sau, vua Peridor lâm bệnh nặng, ngực nặng trĩu, thở chẳng ra hơi.",
+        "Một hôm, cửa sổ mở toang, một con chim lộng lẫy bay tới đậu trên bậu cửa.",
+        "Lông nó xanh da trời pha vàng óng, mỏ và chân như hồng ngọc, mắt sáng hơn kim cương,",
+        "đầu đội một chiếc vương miện nhỏ.",
+        "Chim chẳng hót, chỉ lặng lẽ nhìn nhà vua, và mỗi ánh nhìn lại khiến vua khỏe thêm.",
+        "Vua mừng quá, chồm dậy định bắt, chim vụt bay mất.",
+        "Cả nước đổ đi tìm mà không thấy, và nhà vua lại ốm như cũ."
+      ],
+      "image": {
+        "prompt": "a magnificent blue and gold bird with a tiny crown perched on a palace window sill, gazing at an old king resting in a canopied bed, sunlight streaming in",
+        "seed": 1182392348,
+        "character": "chim-than"
+      },
+      "video": {
+        "motionPrompt": "the bird tilts its head and gazes, a soft glow passes to the king, then the bird flutters away through the window",
+        "seed": 2480139499
+      },
+      "voice": {}
+    },
+    {
+      "id": "chu-ech-trong-chen",
+      "title": "Chú ếch trong chén nước",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử Saphir thương cha, quyết đi tìm con chim. Chàng đi qua bao bờ rào bụi rậm, tới một khu rừng tuyết tùng rộng mênh mông, cỏ mềm và hoa lạ phủ kín mặt đất. Khát quá, chàng lấy chén múc nước bên một dòng suối trong vắt. Một chú ếch xanh nhỏ nhảy tót vào chén. Chàng hất ra, ếch lại nhảy vào. Rồi chú ngước đôi mắt đẹp nhất trần đời lên nhìn chàng và nói: “Tôi là bạn của con chim chàng đang tìm. Uống nước xong, chàng hãy nghe tôi.”",
+      "subtitles": [
+        "Hoàng tử Saphir thương cha, quyết đi tìm con chim.",
+        "Chàng đi qua bao bờ rào bụi rậm, tới một khu rừng tuyết tùng rộng mênh mông,",
+        "cỏ mềm và hoa lạ phủ kín mặt đất.",
+        "Khát quá, chàng lấy chén múc nước bên một dòng suối trong vắt.",
+        "Một chú ếch xanh nhỏ nhảy tót vào chén.",
+        "Chàng hất ra, ếch lại nhảy vào.",
+        "Rồi chú ngước đôi mắt đẹp nhất trần đời lên nhìn chàng và nói: “Tôi là bạn của con chim",
+        "chàng đang tìm. Uống nước xong, chàng hãy nghe tôi.”"
+      ],
+      "image": {
+        "prompt": "in a deep cedar forest by a clear bubbling fountain, a tiny bright green frog sitting in a silver cup held by the surprised prince",
+        "seed": 3084165332,
+        "character": "ech-xanh"
+      },
+      "video": {
+        "motionPrompt": "the fountain bubbles, the little frog blinks its big eyes and speaks, the prince lowers the cup in surprise",
+        "seed": 3396228183
+      },
+      "voice": {}
+    },
+    {
+      "id": "lan-dau-sai-loi",
+      "title": "Lần đầu sai lời",
+      "narrator": "ke-chuyen",
+      "narration": "Ếch xanh dặn: “Chàng đi một mình theo con đường trồng tuyết tùng, tới tòa lâu đài pha lê. Chôn hạt cát này sát cổng, cổng sẽ mở và mọi người trong đó ngủ say. Chàng vào chuồng ngựa, chọn con đẹp nhất, nhảy lên lưng rồi về ngay với tôi.” Hoàng tử làm đúng như lời. Nhưng trong chuồng, chàng thấy bộ yên cương lộng lẫy, tiện tay đặt lên lưng ngựa. Lập tức cả lâu đài bừng tỉnh, người ta xô tới giữ chàng lại. May sao chủ lâu đài thấy chàng hiền lành, cho chàng ra về.",
+      "subtitles": [
+        "Ếch xanh dặn: “Chàng đi một mình theo con đường trồng tuyết tùng, tới tòa lâu đài pha lê.",
+        "Chôn hạt cát này sát cổng, cổng sẽ mở và mọi người trong đó ngủ say.",
+        "Chàng vào chuồng ngựa, chọn con đẹp nhất,",
+        "nhảy lên lưng rồi về ngay với tôi.” Hoàng tử làm đúng như lời.",
+        "Nhưng trong chuồng, chàng thấy bộ yên cương lộng lẫy, tiện tay đặt lên lưng ngựa.",
+        "Lập tức cả lâu đài bừng tỉnh, người ta xô tới giữ chàng lại.",
+        "May sao chủ lâu đài thấy chàng hiền lành, cho chàng ra về."
+      ],
+      "image": {
+        "prompt": "a shining crystal castle with golden ornaments, the prince in the stable placing a jeweled saddle on a white horse while castle guards wake and rush in",
+        "seed": 2097395077,
+        "character": "hoang-tu-saphir"
+      },
+      "video": {
+        "motionPrompt": "the guards open their eyes and hurry forward, the horse tosses its mane, the prince freezes in surprise",
+        "seed": 506474572
+      },
+      "voice": {}
+    },
+    {
+      "id": "lan-thu-hai-sai-loi",
+      "title": "Lần thứ hai sai lời",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng xấu hổ trở lại dòng suối. Ếch xanh mắng cho một trận: “Chàng tưởng tôi nói cho vui hay sao?” Thấy chàng xin lỗi thật lòng, ếch lại đưa cho chàng một hạt vàng: “Lần này đừng vào chuồng ngựa. Hãy đi thẳng vào phòng thơm ngát, đánh thức cô gái đang ngủ và đưa nàng đi ngay, đừng để nàng nấn ná.” Mọi việc trôi chảy, cô gái bằng lòng đi theo, nhưng xin được mặc áo trước. Hoàng tử thấy điều ấy hợp lý quá, bèn gật đầu. Tay nàng vừa chạm vào áo, cả lâu đài lại bừng tỉnh, và chàng lại bị giữ lại.",
+      "subtitles": [
+        "Chàng xấu hổ trở lại dòng suối.",
+        "Ếch xanh mắng cho một trận: “Chàng tưởng tôi nói cho vui hay sao?” Thấy chàng xin lỗi thật",
+        "lòng, ếch lại đưa cho chàng một hạt vàng: “Lần này đừng vào chuồng ngựa.",
+        "Hãy đi thẳng vào phòng thơm ngát, đánh thức cô gái đang ngủ và đưa nàng đi ngay,",
+        "đừng để nàng nấn ná.” Mọi việc trôi chảy, cô gái bằng lòng đi theo,",
+        "nhưng xin được mặc áo trước.",
+        "Hoàng tử thấy điều ấy hợp lý quá, bèn gật đầu.",
+        "Tay nàng vừa chạm vào áo, cả lâu đài lại bừng tỉnh, và chàng lại bị giữ lại."
+      ],
+      "image": {
+        "prompt": "a perfumed rococo bedroom in the crystal castle, a sleepy maiden reaching for her gown while the prince waits politely, servants waking up in the doorway",
+        "seed": 1317747517,
+        "character": "ech-xanh"
+      },
+      "video": {
+        "motionPrompt": "the maiden's hand touches the gown, candles flare brighter, the servants stir and rush in",
+        "seed": 2541746360
+      },
+      "voice": {}
+    },
+    {
+      "id": "lan-thu-ba-nghe-loi",
+      "title": "Lần thứ ba nghe lời",
+      "narrator": "ke-chuyen",
+      "narration": "Nhờ các bà tiên làm mềm lòng người trong lâu đài, chàng lại được thả về. Chàng cúi đầu xin ếch tha thứ. Ếch giận lắm, nhưng rồi trao cho chàng một hạt kim cương nhỏ xíu: “Lần này đừng vào chuồng ngựa, cũng đừng vào phòng ngủ. Hãy ra vườn, tới khu rừng nhỏ có cây thân vàng lá ngọc. Con chim đang ngủ trên cành, chàng cắt cành ấy mang về. Sai lời lần nữa thì đừng mong ai giúp.” Lần này chàng làm đúng từng chữ. Thấy chiếc lồng vàng treo bên cạnh, chàng cũng không đụng tới, chỉ nhón chân mang cành cây về.",
+      "subtitles": [
+        "Nhờ các bà tiên làm mềm lòng người trong lâu đài, chàng lại được thả về.",
+        "Chàng cúi đầu xin ếch tha thứ.",
+        "Ếch giận lắm, nhưng rồi trao cho chàng một hạt kim cương nhỏ xíu: “Lần này đừng vào chuồng",
+        "ngựa, cũng đừng vào phòng ngủ.",
+        "Hãy ra vườn, tới khu rừng nhỏ có cây thân vàng lá ngọc.",
+        "Con chim đang ngủ trên cành, chàng cắt cành ấy mang về.",
+        "Sai lời lần nữa thì đừng mong ai giúp.” Lần này chàng làm đúng từng chữ.",
+        "Thấy chiếc lồng vàng treo bên cạnh, chàng cũng không đụng tới,",
+        "chỉ nhón chân mang cành cây về."
+      ],
+      "image": {
+        "prompt": "a magical garden grove with a tree of golden trunk and emerald leaves, the beautiful blue and gold bird asleep on a branch, the prince carefully carrying the branch away on tiptoe, a golden cage left hanging",
+        "seed": 4190043748,
+        "character": "chim-than"
+      },
+      "video": {
+        "motionPrompt": "emerald leaves glitter, the prince tiptoes away holding the branch, the bird sleeps peacefully",
+        "seed": 883275634
+      },
+      "voice": {}
+    },
+    {
+      "id": "chu-ech-la-ai",
+      "title": "Chú ếch là ai",
+      "narrator": "ke-chuyen",
+      "narration": "Về tới nơi, dòng suối đã biến mất. Thay vào đó là một ngôi nhà nhỏ xinh, trước cửa có một cô gái đứng đợi. Hoàng tử sững sờ, đó chính là cô gái trong gương! Nàng đỏ mặt kể: “Em tên là Serpentine, được các bà tiên nuôi từ bé. Em cũng có một tấm gương, và trong gương em thấy chàng. Các bà tiên đã biến em thành ếch, bảo em giúp người đầu tiên tới bên suối. Chỉ khi chàng có được con chim, em mới trở lại hình người.” Nhưng rồi nàng buồn bã: “Em chẳng biết cha mẹ mình là ai, sao dám sánh với một hoàng tử.”",
+      "subtitles": [
+        "Về tới nơi, dòng suối đã biến mất.",
+        "Thay vào đó là một ngôi nhà nhỏ xinh, trước cửa có một cô gái đứng đợi.",
+        "Hoàng tử sững sờ, đó chính là cô gái trong gương!",
+        "Nàng đỏ mặt kể: “Em tên là Serpentine, được các bà tiên nuôi từ bé.",
+        "Em cũng có một tấm gương, và trong gương em thấy chàng.",
+        "Các bà tiên đã biến em thành ếch, bảo em giúp người đầu tiên tới bên suối.",
+        "Chỉ khi chàng có được con chim, em mới trở lại hình người.” Nhưng rồi nàng buồn bã: “Em",
+        "chẳng biết cha mẹ mình là ai, sao dám sánh với một hoàng tử.”"
+      ],
+      "image": {
+        "prompt": "a charming little rustic cottage in the cedar forest where the fountain used to be, a blushing golden haired maiden in a green gown greeting the astonished prince who holds the sleeping bird on its branch",
+        "seed": 993246584,
+        "character": "serpentine"
+      },
+      "video": {
+        "motionPrompt": "the maiden blushes and lowers her eyes, flowers sway around the cottage, the prince steps closer",
+        "seed": 2402132601
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngay-sum-hop",
+      "title": "Ngày sum họp",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc ấy, một bà tiên ngồi xe ngà hạ xuống, dẫn theo hoàng hậu Aglantine. Con chim thức giấc, bay lên đậu trên vai hoàng tử. Bà tiên đưa cả mấy người lên xe, bay vút về hoàng cung. Vừa thấy cung điện, con chim liền bay thẳng tới bên giường vua, nhìn một cái là vua khỏi hẳn. Rồi chim hiện nguyên hình, chính là hoàng hậu Constance biến mất năm nào! Còn Serpentine hóa ra là con gái của hoàng hậu Aglantine, cũng là một nàng công chúa. Đám cưới linh đình được tổ chức, và cả vương quốc sống vui vẻ, đầm ấm mãi về sau.",
+      "subtitles": [
+        "Đúng lúc ấy, một bà tiên ngồi xe ngà hạ xuống, dẫn theo hoàng hậu Aglantine.",
+        "Con chim thức giấc, bay lên đậu trên vai hoàng tử.",
+        "Bà tiên đưa cả mấy người lên xe, bay vút về hoàng cung.",
+        "Vừa thấy cung điện, con chim liền bay thẳng tới bên giường vua,",
+        "nhìn một cái là vua khỏi hẳn.",
+        "Rồi chim hiện nguyên hình, chính là hoàng hậu Constance biến mất năm nào!",
+        "Còn Serpentine hóa ra là con gái của hoàng hậu Aglantine, cũng là một nàng công chúa.",
+        "Đám cưới linh đình được tổ chức, và cả vương quốc sống vui vẻ, đầm ấm mãi về sau."
+      ],
+      "image": {
+        "prompt": "a flying ivory fairy chariot arriving at a sunny palace roof, the blue and gold bird transforming in a burst of soft light into a smiling queen embracing the old king, the prince and the maiden holding hands",
+        "seed": 1264051733,
+        "character": "chim-than"
+      },
+      "video": {
+        "motionPrompt": "the chariot glides down, soft golden light swirls as the bird becomes the queen, everyone embraces joyfully",
+        "seed": 1547258511
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "elegant French baroque fairy tale music, harpsichord, flute and soft strings, a gentle minuet feeling, a magical shimmering middle, a joyful warm reunion ending, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 1268926088
+  }
+}

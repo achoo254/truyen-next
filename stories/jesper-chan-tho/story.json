@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "slug": "jesper-chan-tho",
+  "shelf": "world",
+  "title": "Jesper chăn thỏ",
+  "summary": "Ba anh em nhà chài mang ngọc trai lên cung cầu hôn công chúa, nhưng chỉ cậu út Jesper tốt bụng mới qua được thử thách: chia thóc, chăn một trăm con thỏ, và kể sự thật cho đầy một cái thùng. Truyện cổ Bắc Âu trong tuyển tập của Andrew Lang, kể vui cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện “Jesper who herded the Hares” trong The Violet Fairy Book do Andrew Lang biên tập (1901; Lang ghi nguồn truyện dân gian Bắc Âu), Project Gutenberg #641, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ trận đánh của vua kiến với vua bọ cánh cứng, không chép bản dịch nào.",
+  "basedOn": "Andrew Lang, The Violet Fairy Book (1901)",
+  "style": "classic Scandinavian fairy tale picture book illustration in the spirit of old Nordic storybooks, small seaside kingdom with red wooden houses, fishing boats, wildflower meadows and birch groves, a cozy little palace with turf roofs, colors of falu red, meadow green, sea blue and butter yellow, warm humorous storybook mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "jesper",
+      "name": "Jesper",
+      "sheetPrompt": "a clever cheerful young Scandinavian fisher lad from an old folk tale, tousled blond hair, knitted blue sweater, brown trousers and wooden clogs, a small wooden whistle on a string around his neck, friendly grin, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3684564040
+    },
+    {
+      "id": "vua-kien",
+      "name": "Vua kiến",
+      "sheetPrompt": "a tiny brave king ant from a fairy tale wearing a little golden crown and a red cape, standing proudly, cute storybook style, full body, plain light background, character reference sheet",
+      "seed": 3734275962
+    },
+    {
+      "id": "ba-lao",
+      "name": "Bà lão bên đường",
+      "sheetPrompt": "a mysterious kindly old woman from a Scandinavian folk tale, grey shawl and long brown skirt, walking stick, twinkling eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3020549696
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "sheetPrompt": "a pretty young Scandinavian princess from an old folk tale, long golden braids, simple blue dress, also shown disguised in a shabby patched apron dress, shy smile, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2935878875
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ngoc-trai-trong-so",
+      "title": "Ngọc trai trong sò",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một vương quốc nhỏ xíu, đứng trên nóc cung là nhìn thấy hết bờ cõi. Nhà vua chỉ có một cô công chúa, nên ra lệnh: ai mang tới mười hai viên ngọc trai đẹp nhất và làm được những việc vua giao, sẽ được cưới công chúa và nối ngôi. Ở một góc vương quốc bên bờ biển, có bác đánh cá nghèo với ba người con trai: Peter, Paul và cậu út Jesper. Hai anh to khỏe, nhưng Jesper mới là người lanh trí nhất. Một hôm, bác mang về ba mươi sáu con sò, con nào cũng có một viên ngọc trai tuyệt đẹp. Ba anh em chia nhau, mỗi người mười hai viên, rồi lần lượt lên cung thử vận may.",
+      "subtitles": [
+        "Ngày xưa có một vương quốc nhỏ xíu, đứng trên nóc cung là nhìn thấy hết bờ cõi.",
+        "Nhà vua chỉ có một cô công chúa,",
+        "nên ra lệnh: ai mang tới mười hai viên ngọc trai đẹp nhất và làm được những việc vua giao,",
+        "sẽ được cưới công chúa và nối ngôi.",
+        "Ở một góc vương quốc bên bờ biển, có bác đánh cá nghèo với ba người con trai: Peter,",
+        "Paul và cậu út Jesper.",
+        "Hai anh to khỏe, nhưng Jesper mới là người lanh trí nhất.",
+        "Một hôm, bác mang về ba mươi sáu con sò, con nào cũng có một viên ngọc trai tuyệt đẹp.",
+        "Ba anh em chia nhau, mỗi người mười hai viên, rồi lần lượt lên cung thử vận may."
+      ],
+      "image": {
+        "prompt": "a small red wooden fisherman's cottage by the sea, three brothers gathered around a table with opened oyster shells revealing big shining pearls, the old fisherman smiling",
+        "seed": 859969507,
+        "character": "jesper"
+      },
+      "video": {
+        "motionPrompt": "the pearls gleam as each shell opens, the brothers gasp, waves lap against the shore outside",
+        "seed": 3797786376
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-anh-hoa-ra-tro",
+      "title": "Hai anh hóa ra tro",
+      "narrator": "ke-chuyen",
+      "narration": "Peter đi trước. Giữa đường, vua kiến và vua bọ cánh cứng đang dàn quân sắp đánh nhau. “Giúp ta với, bọn bọ to quá,” vua kiến kêu. Peter gạt đi: “Ta không rảnh lo chuyện người khác.” Đi tiếp, gặp một bà lão hỏi: “Trong giỏ cậu có gì thế?” “Tro bếp,” Peter nói bừa. “Ừ, tro thì tro,” bà lão nói theo. Đến cung, vua vừa mở giỏ, ngọc trai mờ dần, đen dần, rồi thành một nắm tro. Peter xấu hổ chạy về. Hôm sau, Paul cũng y như vậy, chẳng giúp kiến, lại trả lời bà lão là tro, và ngọc của Paul cũng hóa ra tro nốt.",
+      "subtitles": [
+        "Peter đi trước.",
+        "Giữa đường, vua kiến và vua bọ cánh cứng đang dàn quân sắp đánh nhau.",
+        "“Giúp ta với, bọn bọ to quá,” vua kiến kêu.",
+        "Peter gạt đi: “Ta không rảnh lo chuyện người khác.” Đi tiếp,",
+        "gặp một bà lão hỏi: “Trong giỏ cậu có gì thế?” “Tro bếp,” Peter nói bừa.",
+        "“Ừ, tro thì tro,” bà lão nói theo.",
+        "Đến cung, vua vừa mở giỏ, ngọc trai mờ dần, đen dần, rồi thành một nắm tro.",
+        "Peter xấu hổ chạy về.",
+        "Hôm sau, Paul cũng y như vậy, chẳng giúp kiến, lại trả lời bà lão là tro,",
+        "và ngọc của Paul cũng hóa ra tro nốt."
+      ],
+      "image": {
+        "prompt": "in a palace hall, the king and courtiers staring as shining pearls in a basket turn dark grey like ashes, an embarrassed older brother backing away",
+        "seed": 1593368454,
+        "character": "ba-lao"
+      },
+      "video": {
+        "motionPrompt": "the pearls slowly darken into grey ashes, the courtiers frown, the brother blushes and hurries out",
+        "seed": 836930687
+      },
+      "voice": {}
+    },
+    {
+      "id": "jesper-tot-bung",
+      "title": "Jesper tốt bụng",
+      "narrator": "ke-chuyen",
+      "narration": "Đến lượt Jesper. Hai anh nằm trong chăn trêu chọc, cậu chẳng nói gì, xách giỏ ngọc lên đường. Đàn kiến hôm ấy chỉ còn lèo tèo, sắp thua đến nơi. “Giúp chúng ta với!” Jesper vốn nghe người ta khen kiến chăm chỉ, liền bước tới. Cậu vừa dậm chân, cả đàn bọ cánh cứng hoảng hốt bỏ chạy, chui hết xuống hang. Vua kiến cảm ơn rối rít: “Khi nào cần, cứ gọi ta, ta ở đâu cũng gần.” Rồi Jesper gặp bà lão. Cậu thật thà mở giỏ cho xem ngọc, lại đưa luôn bữa trưa của mình cho bà. Bà tặng lại cậu một chiếc còi: “Thổi lên, thứ gì cậu đánh mất hay bị lấy đi cũng sẽ quay về.”",
+      "subtitles": [
+        "Đến lượt Jesper.",
+        "Hai anh nằm trong chăn trêu chọc, cậu chẳng nói gì, xách giỏ ngọc lên đường.",
+        "Đàn kiến hôm ấy chỉ còn lèo tèo, sắp thua đến nơi.",
+        "“Giúp chúng ta với!” Jesper vốn nghe người ta khen kiến chăm chỉ, liền bước tới.",
+        "Cậu vừa dậm chân, cả đàn bọ cánh cứng hoảng hốt bỏ chạy, chui hết xuống hang.",
+        "Vua kiến cảm ơn rối rít: “Khi nào cần, cứ gọi ta,",
+        "ta ở đâu cũng gần.” Rồi Jesper gặp bà lão.",
+        "Cậu thật thà mở giỏ cho xem ngọc, lại đưa luôn bữa trưa của mình cho bà.",
+        "Bà tặng lại cậu một chiếc còi: “Thổi lên,",
+        "thứ gì cậu đánh mất hay bị lấy đi cũng sẽ quay về.”"
+      ],
+      "image": {
+        "prompt": "on a sunny country path, the fisher lad Jesper kneeling to talk with a tiny ant king wearing a golden crown, beetles scurrying away into holes, an old woman waiting further down the road",
+        "seed": 2365159443,
+        "character": "vua-kien"
+      },
+      "video": {
+        "motionPrompt": "the beetles scurry away, the ant king bows with his tiny cape fluttering, Jesper laughs and tips his cap",
+        "seed": 1301112936
+      },
+      "voice": {}
+    },
+    {
+      "id": "dong-thoc-tron-lan",
+      "title": "Đống thóc trộn lẫn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngọc của Jesper sáng lấp lánh, cả triều trầm trồ. Nhưng vua chẳng ưng một cậu bé nhà chài. Hoàng hậu thì thầm: “Cứ giao việc thật khó, hắn sẽ tự bỏ đi.” Sáng hôm sau, vua dẫn Jesper vào kho, chỉ một đống lúa mì, lúa mạch, yến mạch và lúa đen trộn lẫn. “Trước khi mặt trời lặn một giờ, phải chia thành bốn đống, sai một hạt là hỏng.” Vua khóa cửa đi mất. Jesper nhặt mãi chẳng xong, chợt nhớ tới vua kiến, bèn khẽ gọi. Vua kiến hiện ra ngay, ra hiệu một cái, cả đoàn kiến kéo vào, chia thóc thoăn thoắt. Đêm qua không ngủ, Jesper ngồi xem rồi thiếp đi. Vua quay lại, thấy việc đã xong, mà cậu còn kịp ngủ một giấc.",
+      "subtitles": [
+        "Ngọc của Jesper sáng lấp lánh, cả triều trầm trồ.",
+        "Nhưng vua chẳng ưng một cậu bé nhà chài.",
+        "Hoàng hậu thì thầm: “Cứ giao việc thật khó, hắn sẽ tự bỏ đi.” Sáng hôm sau,",
+        "vua dẫn Jesper vào kho, chỉ một đống lúa mì, lúa mạch, yến mạch và lúa đen trộn lẫn.",
+        "“Trước khi mặt trời lặn một giờ, phải chia thành bốn đống,",
+        "sai một hạt là hỏng.” Vua khóa cửa đi mất.",
+        "Jesper nhặt mãi chẳng xong, chợt nhớ tới vua kiến, bèn khẽ gọi.",
+        "Vua kiến hiện ra ngay, ra hiệu một cái, cả đoàn kiến kéo vào, chia thóc thoăn thoắt.",
+        "Đêm qua không ngủ, Jesper ngồi xem rồi thiếp đi.",
+        "Vua quay lại, thấy việc đã xong, mà cậu còn kịp ngủ một giấc."
+      ],
+      "image": {
+        "prompt": "inside a wooden barn, thousands of tiny ants carrying grains into four neat piles of wheat, barley, oats and rye, Jesper asleep against a sack with a peaceful smile",
+        "seed": 653738122,
+        "character": "vua-kien"
+      },
+      "video": {
+        "motionPrompt": "lines of ants march carrying grains, the four piles grow, Jesper snores softly, sunlight shifts across the floor",
+        "seed": 220389569
+      },
+      "voice": {}
+    },
+    {
+      "id": "mot-tram-con-tho",
+      "title": "Một trăm con thỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Việc thứ hai còn khó hơn. Người giữ rừng thả một trăm con thỏ ra đồng cỏ rộng. Jesper phải chăn chúng suốt ngày, tối lùa về đủ, thiếu một con là hỏng. Bao tải vừa mở, trăm con thỏ vẫy đuôi, vểnh tai, chạy tứ tán mỗi con một ngả. Jesper đứng ngẩn ra, đút tay vào túi, chạm phải chiếc còi của bà lão. Cậu thử thổi một hồi. Chẳng mấy chốc, thỏ từ bốn phía chui qua hàng rào chạy về, ngồi quanh cậu thành một vòng tròn. Từ đó, Jesper cứ để chúng chơi thoải mái, miễn là trong đồng cỏ.",
+      "subtitles": [
+        "Việc thứ hai còn khó hơn.",
+        "Người giữ rừng thả một trăm con thỏ ra đồng cỏ rộng.",
+        "Jesper phải chăn chúng suốt ngày, tối lùa về đủ, thiếu một con là hỏng.",
+        "Bao tải vừa mở, trăm con thỏ vẫy đuôi, vểnh tai, chạy tứ tán mỗi con một ngả.",
+        "Jesper đứng ngẩn ra, đút tay vào túi, chạm phải chiếc còi của bà lão.",
+        "Cậu thử thổi một hồi.",
+        "Chẳng mấy chốc, thỏ từ bốn phía chui qua hàng rào chạy về,",
+        "ngồi quanh cậu thành một vòng tròn.",
+        "Từ đó, Jesper cứ để chúng chơi thoải mái, miễn là trong đồng cỏ."
+      ],
+      "image": {
+        "prompt": "a wide wildflower meadow, Jesper blowing a little wooden whistle while one hundred fluffy hares come bounding back from every direction and sit around him in a big circle",
+        "seed": 2372583921,
+        "character": "jesper"
+      },
+      "video": {
+        "motionPrompt": "hares hop in from all sides through the hedges, ears bouncing, and settle in a circle around Jesper",
+        "seed": 1773825316
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhung-vi-khach-la",
+      "title": "Những vị khách lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe tin, vua tức lắm, bàn với hoàng hậu tìm cách lấy bớt một con thỏ. Lát sau, một cô gái mặc váy cũ vá víu đi tới: “Cho em xin một con thỏ, nhà em có khách.” Cô xinh lắm, xin mãi, Jesper bảo: “Thơm má tôi một cái thì được.” Cô ngượng ngùng thơm má cậu, ôm thỏ đi. Ra khỏi đồng, Jesper thổi còi, thỏ vùng ra chạy về. Rồi một bà béo áo nông dân tới xin. Jesper bảo bà nhón chân đi quanh cậu, ngước mắt lên trời, kêu cục tác như gà mái. Bà làm xong, ôm thỏ đi, rồi thỏ lại chạy về. Cuối cùng là một ông béo mặc áo người hầu cung, phải trồng chuối, đập hai gót chân vào nhau, hô “Hoan hô!” mới được thỏ. Và tất nhiên, thỏ lại chạy về.",
+      "subtitles": [
+        "Nghe tin, vua tức lắm, bàn với hoàng hậu tìm cách lấy bớt một con thỏ.",
+        "Lát sau, một cô gái mặc váy cũ vá víu đi tới: “Cho em xin một con thỏ,",
+        "nhà em có khách.” Cô xinh lắm, xin mãi,",
+        "Jesper bảo: “Thơm má tôi một cái thì được.” Cô ngượng ngùng thơm má cậu, ôm thỏ đi.",
+        "Ra khỏi đồng, Jesper thổi còi, thỏ vùng ra chạy về.",
+        "Rồi một bà béo áo nông dân tới xin.",
+        "Jesper bảo bà nhón chân đi quanh cậu, ngước mắt lên trời, kêu cục tác như gà mái.",
+        "Bà làm xong, ôm thỏ đi, rồi thỏ lại chạy về.",
+        "Cuối cùng là một ông béo mặc áo người hầu cung, phải trồng chuối,",
+        "đập hai gót chân vào nhau, hô “Hoan hô!” mới được thỏ.",
+        "Và tất nhiên, thỏ lại chạy về."
+      ],
+      "image": {
+        "prompt": "comic scene in the meadow: a stout lady in a peasant dress tiptoeing in a circle and clucking like a hen, a fat man in palace livery standing on his head kicking his heels, Jesper trying hard not to laugh, hares watching",
+        "seed": 1918687074,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the lady flaps her arms like a hen, the fat man wobbles upside down, Jesper covers his mouth to hide a laugh",
+        "seed": 1439326363
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-thung-su-that",
+      "title": "Cái thùng sự thật",
+      "narrator": "ke-chuyen",
+      "narration": "Tối ấy, Jesper lùa đủ một trăm con thỏ về, công chúa khẽ mỉm cười với cậu. Vua bảo: “Còn một việc nhỏ nữa thôi.” Hôm sau, giữa đại sảnh, trước mặt cả triều, người ta khiêng ra một cái thùng rỗng. “Ngươi phải kể những sự thật không ai chối cãi được, cho đến khi đầy thùng.” “Làm sao biết khi nào đầy ạ?” “Việc ấy để ta lo.” Jesper bắt đầu: “Hôm qua, một cô gái mặc váy cũ xin tôi một con thỏ và phải thơm má tôi, cô ấy chính là công chúa. Có đúng không ạ?” Công chúa đỏ mặt, gật đầu. “Rồi một bà béo phải kêu cục tác như gà mái, bà ấy chính là hoàng hậu.” Hoàng hậu đỏ bừng mặt, cũng chẳng chối được.",
+      "subtitles": [
+        "Tối ấy, Jesper lùa đủ một trăm con thỏ về, công chúa khẽ mỉm cười với cậu.",
+        "Vua bảo: “Còn một việc nhỏ nữa thôi.” Hôm sau, giữa đại sảnh, trước mặt cả triều,",
+        "người ta khiêng ra một cái thùng rỗng.",
+        "“Ngươi phải kể những sự thật không ai chối cãi được,",
+        "cho đến khi đầy thùng.” “Làm sao biết khi nào đầy ạ?” “Việc ấy để ta lo.” Jesper bắt đầu:",
+        "“Hôm qua, một cô gái mặc váy cũ xin tôi một con thỏ và phải thơm má tôi,",
+        "cô ấy chính là công chúa.",
+        "Có đúng không ạ?” Công chúa đỏ mặt, gật đầu.",
+        "“Rồi một bà béo phải kêu cục tác như gà mái,",
+        "bà ấy chính là hoàng hậu.” Hoàng hậu đỏ bừng mặt, cũng chẳng chối được."
+      ],
+      "image": {
+        "prompt": "a grand wooden palace hall full of lords and ladies, an empty barrel in front of the thrones, Jesper telling his story while the blushing princess and the red-faced queen sit beside the nervous king",
+        "seed": 2626308814,
+        "character": "jesper"
+      },
+      "video": {
+        "motionPrompt": "the courtiers whisper and giggle, the princess blushes and hides a smile, the king tugs at his collar nervously",
+        "seed": 1062349342
+      },
+      "voice": {}
+    },
+    {
+      "id": "thung-da-day",
+      "title": "Thùng đã đầy",
+      "narrator": "ke-chuyen",
+      "narration": "Vua lẩm bẩm với hoàng hậu: “Không ngờ bà lại dại thế.” “Thế ông đã làm gì?” “Ta mà thèm làm gì vì hắn à?” rồi vội giục Jesper kể tiếp. Jesper kể: “Sau đó, một ông béo rất oai vệ tới xin thỏ, phải trồng chuối, đập gót chân và hô hoan hô, ông ấy chính là…” “Thôi, thôi!” vua hét lên. “Không cần nói thêm, thùng đầy rồi!” Cả triều vỗ tay vang dội. Vua và hoàng hậu nhận Jesper làm rể, công chúa vui lắm, vì nàng đã thương chàng trai vừa đẹp trai vừa lanh trí. Về sau vua nghĩ kỹ, thấy rằng ai chăn nổi một trăm con thỏ, ắt sẽ chăm lo cho dân rất chu đáo.",
+      "subtitles": [
+        "Vua lẩm bẩm với hoàng hậu: “Không ngờ bà lại dại thế.” “Thế ông đã làm gì?” “Ta mà thèm",
+        "làm gì vì hắn à?” rồi vội giục Jesper kể tiếp.",
+        "Jesper kể: “Sau đó, một ông béo rất oai vệ tới xin thỏ, phải trồng chuối,",
+        "đập gót chân và hô hoan hô, ông ấy chính là…” “Thôi, thôi!” vua hét lên.",
+        "“Không cần nói thêm, thùng đầy rồi!” Cả triều vỗ tay vang dội.",
+        "Vua và hoàng hậu nhận Jesper làm rể, công chúa vui lắm,",
+        "vì nàng đã thương chàng trai vừa đẹp trai vừa lanh trí.",
+        "Về sau vua nghĩ kỹ, thấy rằng ai chăn nổi một trăm con thỏ,",
+        "ắt sẽ chăm lo cho dân rất chu đáo."
+      ],
+      "image": {
+        "prompt": "the king jumping up from his throne waving his hands to stop Jesper, the whole court laughing and applauding, the happy princess taking Jesper's hand, hares peeking through the palace doors",
+        "seed": 2751005415,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the king leaps up flustered, the court bursts into applause, the princess and Jesper smile at each other",
+        "seed": 3637032837
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "cheerful Scandinavian folk melody, nyckelharpa, fiddle and light hand drum, a bouncy hopping theme for the hares, a comic tiptoe middle, a bright festive ending, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 51370905
+  }
+}

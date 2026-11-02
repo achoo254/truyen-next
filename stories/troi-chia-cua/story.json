@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "slug": "troi-chia-cua",
+  "shelf": "kids",
+  "title": "Trời chia của",
+  "summary": "Ông Trời chia cho mỗi loài một vì sao, nhưng chú cóc chân ngắn lên tới nơi thì cửa trời đã đóng. Cóc kêu van mãi, Trời bèn cho cóc ông trăng. Truyện cổ Việt Nam giải thích vì sao trên cung trăng có bóng cóc, kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "than-thoai",
+    "su-tich"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện số một trăm mười bốn trong Truyện cổ nước Nam – Muông chim (1934) của Ôn Như Nguyễn Văn Ngọc, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; Mèo Miu dẫn chuyện, thoại và lời rút ý cuối truyện do người viết thêm. Thêm cảnh cóc vượt đường xa lên trời và lời đối đáp với Ông Trời.",
+  "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, magical starry night sky, soft clouds, a golden heavenly gate and a big glowing full moon, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 589406412
+    },
+    {
+      "id": "coc",
+      "name": "Chú cóc",
+      "seed": 1676526141,
+      "sheetPrompt": "a small round brown toad with bumpy skin, big hopeful golden eyes and a wide friendly mouth, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-troi",
+      "name": "Ông Trời",
+      "seed": 2129300648,
+      "sheetPrompt": "a kind old Vietnamese heavenly king with a long white beard, golden robe and crown, sitting on clouds, gentle smile, cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Đêm trăng rằm, các bạn ngước lên nhìn mặt trăng có thấy bóng gì không? Người xưa kể rằng trên cung trăng có một chú cóc đấy. Vì sao chú cóc lại được lên ở trên ấy nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Đêm trăng rằm, các bạn ngước lên nhìn mặt trăng có thấy bóng gì không?",
+        "Người xưa kể rằng trên cung trăng có một chú cóc đấy.",
+        "Vì sao chú cóc lại được lên ở trên ấy nhỉ?",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a village rooftop at night with a picture book, pointing up at a huge glowing full moon with a faint toad shape on it, stars twinkling",
+        "seed": 2118087823
+      },
+      "video": {
+        "motionPrompt": "the cat points at the moon and smiles, stars twinkle, a soft cloud drifts past the moon, slow gentle camera push-in",
+        "seed": 4075568167
+      },
+      "voice": {}
+    },
+    {
+      "id": "troi-goi",
+      "title": "Ông Trời gọi muôn loài",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xửa ngày xưa, có một lần Ông Trời cho gọi tất cả muôn loài lên trời để chia của. Của của Trời chẳng phải vàng bạc, mà là những vì sao lấp lánh. Mỗi loài sẽ được một vì sao. Trâu, bò, chim, cá, hổ, voi nghe tin đều nô nức lên đường. Con nào cũng muốn đến sớm để nhận phần.",
+      "subtitles": [
+        "Ngày xửa ngày xưa, có một lần Ông Trời cho gọi tất cả muôn loài lên trời để chia của.",
+        "Của của Trời chẳng phải vàng bạc, mà là những vì sao lấp lánh.",
+        "Mỗi loài sẽ được một vì sao.",
+        "Trâu, bò, chim, cá, hổ, voi nghe tin đều nô nức lên đường.",
+        "Con nào cũng muốn đến sớm để nhận phần."
+      ],
+      "image": {
+        "character": "ong-troi",
+        "prompt": "the kind heavenly king on a cloud throne holds out a basket of sparkling stars, a happy parade of buffalo, birds, fish, tigers and elephants climbs a rainbow path of clouds toward him",
+        "seed": 335261497
+      },
+      "video": {
+        "motionPrompt": "the heavenly king lifts a glowing star, animals hurry up the cloud path cheerfully, stars sparkle and swirl",
+        "seed": 940975646
+      },
+      "voice": {}
+    },
+    {
+      "id": "coc-cham",
+      "title": "Cóc đến muộn",
+      "narrator": "ke-chuyen",
+      "narration": "Chú cóc cũng muốn đi lắm. Nhưng chân cóc ngắn, cóc chỉ nhảy được từng bước nhỏ. Cóc nhảy qua ruộng, qua đồi, qua mấy tầng mây, mệt bở hơi tai. Dọc đường, cóc đã gặp trâu, bò, chim, cá nhận sao xong, vui vẻ đi về. Khi cóc lên tới cửa trời thì cửa đã đóng từ lâu rồi. Hai chú lính canh đứng chắn trước cổng, chẳng cho cóc vào.",
+      "subtitles": [
+        "Chú cóc cũng muốn đi lắm.",
+        "Nhưng chân cóc ngắn, cóc chỉ nhảy được từng bước nhỏ.",
+        "Cóc nhảy qua ruộng, qua đồi, qua mấy tầng mây, mệt bở hơi tai.",
+        "Dọc đường, cóc đã gặp trâu, bò, chim, cá nhận sao xong, vui vẻ đi về.",
+        "Khi cóc lên tới cửa trời thì cửa đã đóng từ lâu rồi.",
+        "Hai chú lính canh đứng chắn trước cổng, chẳng cho cóc vào."
+      ],
+      "image": {
+        "character": "coc",
+        "prompt": "a tired little toad hops up the last soft cloud steps toward a big closed golden heavenly gate, two friendly cartoon gate guards in red uniforms holding tall flag poles stand in front",
+        "seed": 504086233
+      },
+      "video": {
+        "motionPrompt": "the toad hops wearily step by step and wipes its brow, the golden gate stays shut, the guards shake their heads, clouds drift",
+        "seed": 3207471086
+      },
+      "voice": {}
+    },
+    {
+      "id": "keu-van",
+      "title": "Cóc kêu van",
+      "narrator": "ke-chuyen",
+      "narration": "Cóc kêu van: Các anh ơi, cho tôi vào với, tôi cũng muốn nhận phần của Trời! Lính canh lắc đầu: Tại anh đến muộn thì mất phần, còn kêu van gì nữa! Nhưng cóc không chịu về. Cóc cứ ngồi trước cổng, kêu mãi, kêu mãi, tiếng kêu vang khắp cõi trời. Lính canh đành phải vào tâu với Ông Trời.",
+      "subtitles": [
+        "Cóc kêu van: Các anh ơi, cho tôi vào với, tôi cũng muốn nhận phần của Trời!",
+        "Lính canh lắc đầu: Tại anh đến muộn thì mất phần, còn kêu van gì nữa!",
+        "Nhưng cóc không chịu về.",
+        "Cóc cứ ngồi trước cổng, kêu mãi, kêu mãi, tiếng kêu vang khắp cõi trời.",
+        "Lính canh đành phải vào tâu với Ông Trời."
+      ],
+      "image": {
+        "character": "coc",
+        "prompt": "the little toad sits stubbornly in front of the golden gate croaking loudly with its mouth wide open, the guards covering their ears, one guard hurrying inside",
+        "seed": 3453682133
+      },
+      "video": {
+        "motionPrompt": "the toad croaks again and again, sound ripples spread in the clouds, the guards cover their ears and one runs inside, comic timing",
+        "seed": 3117784009
+      },
+      "voice": {}
+    },
+    {
+      "id": "troi-cho-trang",
+      "title": "Trời cho cóc ông trăng",
+      "narrator": "ke-chuyen",
+      "narration": "Ông Trời cho gọi cóc vào, ôn tồn bảo: Tại con lên chậm. Có bao nhiêu sao, ta đã chia đều cho các loài cả rồi. Bây giờ chỉ còn lại một ông trăng thôi. Con có bằng lòng thì ta dành ông trăng cho con. Cóc ngẩn người, rồi gật đầu lia lịa: Con bằng lòng ạ!",
+      "subtitles": [
+        "Ông Trời cho gọi cóc vào, ôn tồn bảo: Tại con lên chậm.",
+        "Có bao nhiêu sao, ta đã chia đều cho các loài cả rồi.",
+        "Bây giờ chỉ còn lại một ông trăng thôi.",
+        "Con có bằng lòng thì ta dành ông trăng cho con.",
+        "Cóc ngẩn người, rồi gật đầu lia lịa: Con bằng lòng ạ!"
+      ],
+      "image": {
+        "character": "ong-troi",
+        "prompt": "inside the cloud palace the kind heavenly king smiles down at the small toad and gestures toward a big glowing full moon, the toad looks up amazed and nods",
+        "seed": 2199830254
+      },
+      "video": {
+        "motionPrompt": "the heavenly king gestures gently, the moon glows brighter, the toad blinks then nods happily again and again",
+        "seed": 3796135507
+      },
+      "voice": {}
+    },
+    {
+      "id": "cung-trang",
+      "title": "Cóc ở cung trăng",
+      "narrator": "ke-chuyen",
+      "narration": "Thế là cóc không có sao nào cả, nên người ta mới bảo: Cóc không có tinh lạc. Nhưng từ đó, cóc được lên ở trong cung trăng, gọi là con thiềm thừ. Đêm rằm, nhìn kỹ mặt trăng, các bạn sẽ thấy bóng chú cóc ngồi đó, hiền lành nhìn xuống mặt đất.",
+      "subtitles": [
+        "Thế là cóc không có sao nào cả, nên người ta mới bảo: Cóc không có tinh lạc.",
+        "Nhưng từ đó, cóc được lên ở trong cung trăng, gọi là con thiềm thừ.",
+        "Đêm rằm, nhìn kỹ mặt trăng, các bạn sẽ thấy bóng chú cóc ngồi đó,",
+        "hiền lành nhìn xuống mặt đất."
+      ],
+      "image": {
+        "character": "coc",
+        "prompt": "the little toad sits happily on the glowing surface of the full moon, looking down at a sleeping Vietnamese village and rice fields far below, stars all around",
+        "seed": 452566419
+      },
+      "video": {
+        "motionPrompt": "the toad settles on the moon and smiles, the moon glows softly, village lights twinkle below, slow camera pull-back",
+        "seed": 3428423779
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, cóc đến muộn nên không có sao như các bạn khác. Vì thế, việc gì quan trọng thì mình nên đi sớm, làm sớm cho kịp nhé. Nhưng cóc cũng thật kiên trì, không bỏ cuộc, nên vẫn được Ông Trời thương. Miu kể đến đây là hết rồi. Tối nay các bạn nhớ ngắm trăng xem có thấy chú cóc không nhé!",
+      "subtitles": [
+        "Các bạn thấy không, cóc đến muộn nên không có sao như các bạn khác.",
+        "Vì thế, việc gì quan trọng thì mình nên đi sớm, làm sớm cho kịp nhé.",
+        "Nhưng cóc cũng thật kiên trì, không bỏ cuộc, nên vẫn được Ông Trời thương.",
+        "Miu kể đến đây là hết rồi.",
+        "Tối nay các bạn nhớ ngắm trăng xem có thấy chú cóc không nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye on the rooftop under the big full moon, the little toad waving back from the moon, stars twinkling",
+        "seed": 3252906506
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the tiny toad on the moon waves back, stars twinkle, gentle camera pull-back",
+        "seed": 1157156902
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "dreamy Vietnamese lullaby melody, dan tranh zither and soft bamboo flute with twinkling chimes, magical starry night mood, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4101759994
+  }
+}
