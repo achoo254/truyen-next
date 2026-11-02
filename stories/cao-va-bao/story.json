@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "slug": "cao-va-bao",
+  "shelf": "kids",
+  "title": "Cáo và báo",
+  "summary": "Báo hoa mai khoe bộ lông đốm vàng đẹp nhất rừng, còn cáo bảo mình đẹp hơn nhiều. Vì sao một con cáo lông đỏ bình thường lại dám nói thế? Ngụ ngôn Aesop kể nhẹ cho bé về vẻ đẹp bên trong.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Fox and the Leopard» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản dịch nào. Truyện gốc chỉ vài câu: Mèo Miu dẫn chuyện; các con vật đứng xem, cảnh chú nhím con mắc kẹt được cáo nghĩ cách giúp và thoại do người viết thêm.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, warm dappled sunlight, a green forest clearing with a big flat rock, ferns and a little stream, rounded friendly shapes, calm gentle mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 3042044468,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cao",
+      "name": "Cáo",
+      "seed": 2365928030,
+      "sheetPrompt": "a slim red fox with a bushy white-tipped tail, bright clever eyes and a warm friendly smile, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bao",
+      "name": "Báo hoa mai",
+      "seed": 4034049278,
+      "sheetPrompt": "a sleek golden leopard covered in pretty black rosette spots, a proud but friendly face, cute cartoon style, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nhim-con",
+      "name": "Nhím con",
+      "seed": 4156472675,
+      "sheetPrompt": "a tiny round baby hedgehog with soft brown spines and a shy sweet face, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn thấy Miu có đẹp không? Lông trắng muốt, váy hồng xinh xinh này! Nhưng mẹ Miu bảo, đẹp nhất là lúc Miu biết chia cá cho em. Hôm nay Miu kể chuyện bạn cáo và bác báo cãi nhau xem ai đẹp hơn. Ai sẽ thắng nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn thấy Miu có đẹp không? Lông trắng muốt, váy hồng xinh xinh này!",
+        "Nhưng mẹ Miu bảo, đẹp nhất là lúc Miu biết chia cá cho em.",
+        "Hôm nay Miu kể chuyện bạn cáo và bác báo cãi nhau xem ai đẹp hơn.",
+        "Ai sẽ thắng nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat poses in her pink dress holding an open picture book, in the forest behind her a red fox and a spotted leopard stand on a big flat rock",
+        "seed": 1210568517
+      },
+      "video": {
+        "motionPrompt": "the cat twirls and poses, then giggles and points to the fox and the leopard, gentle camera push-in",
+        "seed": 1490660217
+      },
+      "voice": {}
+    },
+    {
+      "id": "tren-tang-da",
+      "title": "Trên tảng đá giữa rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, giữa khoảng rừng xanh có một tảng đá to bằng phẳng, nắng chiếu xuống vàng ươm. Một buổi trưa, báo hoa mai nằm phơi nắng trên tảng đá, liếm láp bộ lông bóng mượt. Cáo đỏ đi ngang qua, chào: Chào bác báo, hôm nay trời đẹp quá nhỉ! Báo hé mắt: Trời đẹp, nhưng chẳng đẹp bằng ta đâu.",
+      "subtitles": [
+        "Ngày xưa, giữa khoảng rừng xanh có một tảng đá to bằng phẳng, nắng chiếu xuống vàng ươm.",
+        "Một buổi trưa, báo hoa mai nằm phơi nắng trên tảng đá, liếm láp bộ lông bóng mượt.",
+        "Cáo đỏ đi ngang qua, chào: Chào bác báo, hôm nay trời đẹp quá nhỉ!",
+        "Báo hé mắt: Trời đẹp, nhưng chẳng đẹp bằng ta đâu."
+      ],
+      "image": {
+        "character": "bao",
+        "prompt": "a sleek spotted leopard lounges on a big sunny flat rock in a forest clearing licking its shiny fur, a friendly red fox trots past and waves",
+        "seed": 3704501757
+      },
+      "video": {
+        "motionPrompt": "the leopard stretches lazily in the sun, the fox waves its paw, sunlight flickers through the leaves",
+        "seed": 2134029230
+      },
+      "voice": {}
+    },
+    {
+      "id": "bao-khoe",
+      "title": "Báo khoe từng đốm lông",
+      "narrator": "ke-chuyen",
+      "narration": "Báo đứng dậy, xoay người chầm chậm cho cáo ngắm. Nhìn này, đốm này tròn như đồng xu vàng, đốm này như bông hoa, đốm này như vầng trăng nhỏ. Cả rừng này, có ai mặc bộ áo đẹp như ta không? Hươu, thỏ, sóc nghe thấy thì kéo nhau tới xem, ai cũng gật gù: Đẹp thật, đẹp thật!",
+      "subtitles": [
+        "Báo đứng dậy, xoay người chầm chậm cho cáo ngắm.",
+        "Nhìn này, đốm này tròn như đồng xu vàng, đốm này như bông hoa, đốm này như vầng trăng nhỏ.",
+        "Cả rừng này, có ai mặc bộ áo đẹp như ta không?",
+        "Hươu, thỏ, sóc nghe thấy thì kéo nhau tới xem, ai cũng gật gù: Đẹp thật, đẹp thật!"
+      ],
+      "image": {
+        "character": "bao",
+        "prompt": "the proud leopard turns slowly on the rock showing off its beautiful rosette spots, a deer, a rabbit and a squirrel gather around admiring, the fox watches with a little smile",
+        "seed": 1416877141
+      },
+      "video": {
+        "motionPrompt": "the leopard turns gracefully, its spots glow in the sun, the animals lean in and nod in admiration",
+        "seed": 3868272227
+      },
+      "voice": {}
+    },
+    {
+      "id": "cao-dap",
+      "title": "Câu trả lời của cáo",
+      "narrator": "ke-chuyen",
+      "narration": "Báo quay sang hỏi: Còn cáo, lông cậu chỉ đỏ trơn một màu. Cậu có gì mà khoe nào? Cáo mỉm cười: Bộ lông bác đẹp thật. Nhưng em nghĩ em còn đẹp hơn bác nhiều. Cả bọn tròn mắt. Báo bật cười: Đẹp hơn? Đẹp ở chỗ nào? Cáo chỉ lên đầu mình: Áo của bác ở bên ngoài. Còn cái đẹp của em, nó ở bên trong này cơ.",
+      "subtitles": [
+        "Báo quay sang hỏi: Còn cáo, lông cậu chỉ đỏ trơn một màu. Cậu có gì mà khoe nào?",
+        "Cáo mỉm cười: Bộ lông bác đẹp thật. Nhưng em nghĩ em còn đẹp hơn bác nhiều.",
+        "Cả bọn tròn mắt. Báo bật cười: Đẹp hơn? Đẹp ở chỗ nào?",
+        "Cáo chỉ lên đầu mình: Áo của bác ở bên ngoài. Còn cái đẹp của em, nó ở bên trong này cơ."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "the smiling red fox taps its own head with a paw while talking to the surprised leopard, the other animals look at each other in wonder",
+        "seed": 2952911840
+      },
+      "video": {
+        "motionPrompt": "the fox taps its head gently and smiles, the leopard raises an eyebrow and laughs, the animals tilt their heads",
+        "seed": 875041723
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhim-mac-ket",
+      "title": "Nhím con mắc kẹt",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc ấy, có tiếng khóc thút thít bên bờ suối. Nhím con bị kẹt giữa hai hòn đá, không chui ra được. Báo vội chạy tới, lấy móng cào cào hòn đá, nhưng đá to quá, chẳng nhúc nhích. Cáo nhìn quanh, nghĩ một chút rồi bảo: Bác báo ơi, ta lấy cành cây khô kia bẩy đá lên! Báo đẩy một đầu cành, cáo giữ một đầu. Hòn đá từ từ nhích ra, nhím con lăn tròn ra ngoài.",
+      "subtitles": [
+        "Đúng lúc ấy, có tiếng khóc thút thít bên bờ suối.",
+        "Nhím con bị kẹt giữa hai hòn đá, không chui ra được.",
+        "Báo vội chạy tới, lấy móng cào cào hòn đá, nhưng đá to quá, chẳng nhúc nhích.",
+        "Cáo nhìn quanh, nghĩ một chút rồi bảo: Bác báo ơi, ta lấy cành cây khô kia bẩy đá lên!",
+        "Báo đẩy một đầu cành, cáo giữ một đầu. Hòn đá từ từ nhích ra, nhím con lăn tròn ra ngoài."
+      ],
+      "image": {
+        "character": "nhim-con",
+        "prompt": "a tiny baby hedgehog stuck between two stones by a forest stream, the leopard and the fox work together using a long dry branch as a lever to lift the stone",
+        "seed": 587875674
+      },
+      "video": {
+        "motionPrompt": "the fox points to the branch, the leopard pushes, the stone slowly lifts and the baby hedgehog rolls out happily, water sparkles",
+        "seed": 1149702030
+      },
+      "voice": {}
+    },
+    {
+      "id": "bao-hieu-ra",
+      "title": "Báo hiểu ra",
+      "narrator": "ke-chuyen",
+      "narration": "Nhím con dụi đầu vào cáo: Cảm ơn bác cáo, cảm ơn bác báo! Báo nhìn cáo một lúc, rồi gật gù: Giờ ta hiểu rồi. Đốm lông của ta chỉ để ngắm. Còn cái đầu biết nghĩ của cậu mới cứu được nhím con. Cáo cười: Hôm nay nhờ cả bác nữa mà. Thôi, ta cùng đưa nhím con về nhà nhé!",
+      "subtitles": [
+        "Nhím con dụi đầu vào cáo: Cảm ơn bác cáo, cảm ơn bác báo!",
+        "Báo nhìn cáo một lúc, rồi gật gù: Giờ ta hiểu rồi.",
+        "Đốm lông của ta chỉ để ngắm. Còn cái đầu biết nghĩ của cậu mới cứu được nhím con.",
+        "Cáo cười: Hôm nay nhờ cả bác nữa mà. Thôi, ta cùng đưa nhím con về nhà nhé!"
+      ],
+      "image": {
+        "character": "bao",
+        "prompt": "the baby hedgehog hugs the fox's leg, the leopard smiles warmly at the fox, then the three walk together along the stream",
+        "seed": 1477501678
+      },
+      "video": {
+        "motionPrompt": "the hedgehog nuzzles the fox, the leopard nods and smiles, the three friends walk off along the stream, dappled light",
+        "seed": 1042363327
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, áo đẹp thì ai cũng thích ngắm, nhưng cái đầu biết nghĩ, trái tim biết thương, đó mới là cái đẹp không bao giờ phai. Nên các bạn ơi, mình chăm học, biết giúp bạn, là đã đẹp lắm rồi. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, áo đẹp thì ai cũng thích ngắm, nhưng cái đầu biết nghĩ,",
+        "trái tim biết thương,",
+        "đó mới là cái đẹp không bao giờ phai.",
+        "Nên các bạn ơi, mình chăm học, biết giúp bạn, là đã đẹp lắm rồi.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the edge of the forest at sunset, the fox, the leopard and the baby hedgehog wave from the path below",
+        "seed": 1020697200
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and smiles, the three friends wave back, fireflies begin to glow, gentle camera pull-back",
+        "seed": 3854379548
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle woodland melody with a warm ancient Greek flavour, lyre and reed flute with soft strings, calm and kind, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2749932555
+  }
+}

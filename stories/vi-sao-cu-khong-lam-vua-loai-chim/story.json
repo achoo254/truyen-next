@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "slug": "vi-sao-cu-khong-lam-vua-loai-chim",
+  "shelf": "kids",
+  "title": "Vì sao cú không làm vua loài chim",
+  "summary": "Muôn loài đều có vua, chỉ loài chim là chưa. Cả bầy chim họp nhau chọn cú làm vua, thì một bác quạ già đứng lên phản đối. Truyện tiền thân Jataka của Ấn Độ kể nhẹ nhàng cho trẻ nhỏ, giải thích vì sao quạ và cú chẳng ưa nhau.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện tiền thân Đức Phật (Jataka, Ấn Độ cổ đại), theo bản kể lại tiếng Anh của Ellen C. Babbitt, Jataka Tales (1912), truyện «Why the Owl is Not King of the Birds», Project Gutenberg #62514, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản nào; Mèo Miu dẫn chuyện, thoại và chi tiết nhỏ do người viết thêm. Bản cho trẻ nhỏ: câu mở đầu truyện gốc về quạ và cú hại nhau được kể nhẹ thành trêu chọc nhau, không cho nhau ngủ yên; thêm cảnh các loài chim tới họp và lời chim cu gáy nhận làm vua.",
+  "basedOn": "Truyện tiền thân Jataka (Ấn Độ)",
+  "style": "classic Indian storybook illustration in the spirit of old Jataka picture books, soft watercolor and gouache with gentle Mughal miniature touches, warm golden light, rounded friendly shapes, calm and safe mood for young children, a great flat rock in an ancient Indian forest clearing at dawn, banyan and mango trees, many colorful birds gathered, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3563624275
+    },
+    {
+      "id": "cu",
+      "name": "Cú mèo",
+      "seed": 124636125,
+      "sheetPrompt": "a round grey-brown owl with big round orange eyes and a serious frowning face, comical not scary, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "qua-gia",
+      "name": "Bác quạ già",
+      "seed": 3728389090,
+      "sheetPrompt": "an old black crow with a slightly ruffled crest and clever bright eyes, comical storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cu-gay",
+      "name": "Chim cu gáy",
+      "seed": 1484122641,
+      "sheetPrompt": "a gentle soft grey turtle dove with a speckled neck ring and kind eyes, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cac-loai-chim",
+      "name": "Các loài chim",
+      "seed": 3150771624,
+      "sheetPrompt": "a cheerful crowd of colorful Indian birds, a peacock, parrots, mynas, kingfishers and sparrows, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có để ý không, ban ngày bác cú thường ngủ, còn bầy quạ cứ hay kêu ầm lên trêu chọc. Đến đêm, bác cú lại thức dậy, chẳng cho bầy quạ ngủ yên. Vì sao quạ và cú lại chẳng ưa nhau như thế? Hôm nay Miu kể một câu chuyện từ thuở xa xưa ở Ấn Độ. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn có để ý không, ban ngày bác cú thường ngủ,",
+        "còn bầy quạ cứ hay kêu ầm lên trêu chọc.",
+        "Đến đêm, bác cú lại thức dậy, chẳng cho bầy quạ ngủ yên.",
+        "Vì sao quạ và cú lại chẳng ưa nhau như thế?",
+        "Hôm nay Miu kể một câu chuyện từ thuở xa xưa ở Ấn Độ.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits under a banyan tree holding an open picture book, a grumpy owl dozes on a branch while a crow caws nearby",
+        "seed": 2709944164
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello, the crow hops and caws, the owl opens one eye grumpily, leaves sway, slow gentle camera push-in",
+        "seed": 3228886987
+      },
+      "voice": {}
+    },
+    {
+      "id": "muon-loai-co-vua",
+      "title": "Muôn loài đều có vua",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xửa ngày xưa, khi trái đất còn rất trẻ, loài người họp nhau chọn ra một vị vua. Các loài thú bốn chân cũng chọn một con làm vua của mình. Dưới biển sâu, các loài cá cũng có vua. Chỉ có loài chim là chưa có ai đứng đầu. Các loài chim bàn nhau: Người có vua, thú có vua, cá cũng có vua, chỉ chim chúng ta là chưa có. Phải chọn một vị vua thôi!",
+      "subtitles": [
+        "Ngày xửa ngày xưa, khi trái đất còn rất trẻ, loài người họp nhau chọn ra một vị vua.",
+        "Các loài thú bốn chân cũng chọn một con làm vua của mình.",
+        "Dưới biển sâu, các loài cá cũng có vua.",
+        "Chỉ có loài chim là chưa có ai đứng đầu.",
+        "Các loài chim bàn nhau: Người có vua, thú có vua, cá cũng có vua,",
+        "chỉ chim chúng ta là chưa có. Phải chọn một vị vua thôi!"
+      ],
+      "image": {
+        "prompt": "a gentle storybook panorama: a human king on a throne, a lion with a crown among animals, a big fish king under the sea, and many birds in the sky looking on",
+        "seed": 2456687893
+      },
+      "video": {
+        "motionPrompt": "the panorama drifts slowly from the king to the lion to the sea, birds circle in the sky chirping to each other, gentle camera pan",
+        "seed": 2853298270
+      },
+      "voice": {}
+    },
+    {
+      "id": "hop-tren-da",
+      "title": "Cuộc họp trên tảng đá",
+      "narrator": "ke-chuyen",
+      "narration": "Thế là một buổi sáng, chim muôn loài kéo nhau về một tảng đá phẳng thật lớn giữa rừng. Chim công xòe đuôi rực rỡ, vẹt xanh nói líu lo, sáo nâu nhảy nhót, bói cá đậu ngay ngắn, chim sẻ ríu rít chen nhau. Ai cũng háo hức. Chúng bàn qua bàn lại, rồi có tiếng gọi: Chọn cú đi! Cú to lớn, mắt tròn, trông thật nghiêm trang! Cả bầy chim hưởng ứng: Đúng rồi, chọn cú làm vua!",
+      "subtitles": [
+        "Thế là một buổi sáng, chim muôn loài kéo nhau về một tảng đá phẳng thật lớn giữa rừng.",
+        "Chim công xòe đuôi rực rỡ, vẹt xanh nói líu lo, sáo nâu nhảy nhót, bói cá đậu ngay ngắn,",
+        "chim sẻ ríu rít chen nhau. Ai cũng háo hức.",
+        "Chúng bàn qua bàn lại, rồi có tiếng gọi: Chọn cú đi!",
+        "Cú to lớn, mắt tròn, trông thật nghiêm trang!",
+        "Cả bầy chim hưởng ứng: Đúng rồi, chọn cú làm vua!"
+      ],
+      "image": {
+        "character": "cac-loai-chim",
+        "prompt": "many colorful birds gather on a huge flat rock in a forest clearing, a peacock spreads its tail, parrots and sparrows chatter excitedly",
+        "seed": 3668225920
+      },
+      "video": {
+        "motionPrompt": "the peacock fans its tail, parrots flap and chatter, sparrows hop about, sunlight spreads over the rock, gentle camera pull-back",
+        "seed": 3552339213
+      },
+      "voice": {}
+    },
+    {
+      "id": "cu-cau-co",
+      "title": "Bác cú cau có",
+      "narrator": "ke-chuyen",
+      "narration": "Cú được mời lên đứng giữa tảng đá. Đáng lẽ được chọn làm vua thì phải vui lắm chứ. Thế mà cú vẫn đứng đó, mặt nặng như chì, lông mày chau lại, đôi mắt tròn trừng trừng nhìn mọi người. Cả bầy chim vẫn reo hò, chẳng ai để ý gì tới vẻ mặt ấy.",
+      "subtitles": [
+        "Cú được mời lên đứng giữa tảng đá.",
+        "Đáng lẽ được chọn làm vua thì phải vui lắm chứ.",
+        "Thế mà cú vẫn đứng đó, mặt nặng như chì, lông mày chau lại,",
+        "đôi mắt tròn trừng trừng nhìn mọi người.",
+        "Cả bầy chim vẫn reo hò, chẳng ai để ý gì tới vẻ mặt ấy."
+      ],
+      "image": {
+        "character": "cu",
+        "prompt": "a round grey-brown owl stands in the middle of the flat rock with a very serious frowning face while colorful birds cheer around it",
+        "seed": 1764894634
+      },
+      "video": {
+        "motionPrompt": "the owl frowns and blinks slowly, the birds flap and cheer around it, a feather floats down, slow camera push-in on the owl's grumpy face",
+        "seed": 2235892061
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-phan-doi",
+      "title": "Bác quạ già phản đối",
+      "narrator": "ke-chuyen",
+      "narration": "Không phải tất cả đều đồng ý đâu. Một bác quạ già đứng lên, nói to: Riêng tôi thì tôi không muốn cú làm vua! Các bạn nhìn kìa, mọi người đang reo hò chọn bác ấy, thế mà mặt bác ấy vẫn cau có thế kia. Lúc vui mà mặt còn như thế, thì lúc giận còn đáng sợ đến đâu? Tôi không muốn có một ông vua mặt mày khó đăm đăm như vậy!",
+      "subtitles": [
+        "Không phải tất cả đều đồng ý đâu.",
+        "Một bác quạ già đứng lên, nói to: Riêng tôi thì tôi không muốn cú làm vua!",
+        "Các bạn nhìn kìa, mọi người đang reo hò chọn bác ấy, thế mà mặt bác ấy vẫn cau có thế kia.",
+        "Lúc vui mà mặt còn như thế, thì lúc giận còn đáng sợ đến đâu?",
+        "Tôi không muốn có một ông vua mặt mày khó đăm đăm như vậy!"
+      ],
+      "image": {
+        "character": "qua-gia",
+        "prompt": "an old black crow stands up on the rock and points a wing toward the frowning owl, the other birds turn to listen in surprise",
+        "seed": 1422631789
+      },
+      "video": {
+        "motionPrompt": "the crow flaps one wing and points, the birds turn their heads together, the owl's frown deepens, gentle camera pan between crow and owl",
+        "seed": 3590236585
+      },
+      "voice": {}
+    },
+    {
+      "id": "cu-duoi-qua",
+      "title": "Cú đuổi theo quạ",
+      "narrator": "ke-chuyen",
+      "narration": "Nói xong, bác quạ vỗ cánh bay vút lên trời, vừa bay vừa kêu: Tôi không thích đâu! Tôi không thích đâu! Cú tức lắm, cũng bay lên đuổi theo. Hai con chim bay vòng vòng trên ngọn cây, con kêu quạ quạ, con kêu cú cú. Từ ngày ấy, quạ và cú thành ra chẳng ưa gì nhau.",
+      "subtitles": [
+        "Nói xong, bác quạ vỗ cánh bay vút lên trời, vừa bay vừa kêu: Tôi không thích đâu!",
+        "Tôi không thích đâu! Cú tức lắm, cũng bay lên đuổi theo.",
+        "Hai con chim bay vòng vòng trên ngọn cây, con kêu quạ quạ, con kêu cú cú.",
+        "Từ ngày ấy, quạ và cú thành ra chẳng ưa gì nhau."
+      ],
+      "image": {
+        "character": "cu",
+        "prompt": "an old black crow flies up into the sky cawing while a grumpy owl flaps after it, the two birds circle above the treetops",
+        "seed": 382258528
+      },
+      "video": {
+        "motionPrompt": "the crow swoops and caws, the owl flaps after it in circles, leaves shake below, the other birds watch from the rock, gentle camera tilt up",
+        "seed": 840761946
+      },
+      "voice": {}
+    },
+    {
+      "id": "chon-cu-gay",
+      "title": "Chim cu gáy làm vua",
+      "narrator": "ke-chuyen",
+      "narration": "Các loài chim còn lại nhìn nhau, rồi lại bàn bạc. Lần này, chúng chọn chim cu gáy, một chú chim hiền lành, lúc nào cũng nhẹ nhàng gù gù dễ nghe. Chim cu gáy cúi đầu cảm ơn: Tôi sẽ cố gắng để mọi người sống vui vẻ với nhau. Cả bầy chim vỗ cánh mừng vua mới, rồi ai về tổ nấy.",
+      "subtitles": [
+        "Các loài chim còn lại nhìn nhau, rồi lại bàn bạc.",
+        "Lần này, chúng chọn chim cu gáy, một chú chim hiền lành,",
+        "lúc nào cũng nhẹ nhàng gù gù dễ nghe.",
+        "Chim cu gáy cúi đầu cảm ơn: Tôi sẽ cố gắng để mọi người sống vui vẻ với nhau.",
+        "Cả bầy chim vỗ cánh mừng vua mới, rồi ai về tổ nấy."
+      ],
+      "image": {
+        "character": "cu-gay",
+        "prompt": "a gentle grey turtle dove sits proudly on the flat rock wearing a tiny flower crown, colorful birds bow and flap their wings happily around it",
+        "seed": 36331589
+      },
+      "video": {
+        "motionPrompt": "the dove bows its head gently, the birds flap and cheer, petals drift down, the sun rises higher, gentle camera push-in",
+        "seed": 1659891606
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, gương mặt của mình cũng biết nói đấy. Mặt lúc nào cũng cau có thì bạn bè sẽ ngại lại gần. Còn khuôn mặt tươi cười, giọng nói dịu dàng như chim cu gáy thì ai cũng quý. Các bạn cùng Miu cười thật tươi một cái nào! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, gương mặt của mình cũng biết nói đấy.",
+        "Mặt lúc nào cũng cau có thì bạn bè sẽ ngại lại gần.",
+        "Còn khuôn mặt tươi cười, giọng nói dịu dàng như chim cu gáy thì ai cũng quý.",
+        "Các bạn cùng Miu cười thật tươi một cái nào!",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat smiles widely and waves goodbye under the banyan tree, a gentle turtle dove with a flower crown sits on her shoulder",
+        "seed": 4087202490
+      },
+      "video": {
+        "motionPrompt": "the cat waves and grins, the dove coos and bobs its head, leaves sway, gentle camera pull-back",
+        "seed": 417251279
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "bright ancient Indian forest melody with bansuri flute, santoor and soft tabla, lively birdsong-like trills, a playful chase passage and a gentle peaceful ending, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1561989257
+  }
+}

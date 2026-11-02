@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "slug": "bay-khi-nhay-mua",
+  "shelf": "kids",
+  "title": "Bầy khỉ nhảy múa",
+  "summary": "Vị hoàng tử dạy bầy khỉ mặc áo gấm, đeo mặt nạ, múa đẹp như các quan trong triều. Nhưng chỉ một nắm hạt dẻ ném lên sân khấu là mọi thứ rối tung. Ngụ ngôn Aesop kể vui cho bé về chuyện giả vờ và bản tính thật.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Dancing Monkeys» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản dịch nào. Mèo Miu dẫn chuyện; kể nhẹ đoạn bầy khỉ giành hạt dẻ; tên chú khỉ Bông, buổi tập múa, thoại và cảnh hoàng tử bật cười cuối truyện do người viết thêm.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, warm golden lamplight, an ancient palace hall with marble columns, a small stage with curtains, rich colourful costumes and masks, rounded friendly shapes, gentle humorous mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 2032762159,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "khi-bong",
+      "name": "Chú khỉ Bông",
+      "seed": 3921760635,
+      "sheetPrompt": "a small cheeky brown monkey wearing a tiny embroidered silk robe and holding a smiling theatre mask, bright playful eyes, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "seed": 739763871,
+      "sheetPrompt": "a young kind prince in a simple ancient Greek royal robe with a thin golden circlet, warm smile, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "vien-quan",
+      "name": "Viên quan tinh nghịch",
+      "seed": 1788438077,
+      "sheetPrompt": "a plump mischievous courtier in a long ancient robe with a sly grin, holding a little cloth pouch of nuts, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có biết loài khỉ rất giỏi bắt chước không? Mình gãi đầu, khỉ cũng gãi đầu. Mình nhảy, khỉ cũng nhảy theo. Hôm nay Miu kể chuyện một bầy khỉ học múa trong cung điện, mặc áo đẹp như người. Nhưng rồi có chuyện bất ngờ xảy ra. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có biết loài khỉ rất giỏi bắt chước không?",
+        "Mình gãi đầu, khỉ cũng gãi đầu. Mình nhảy, khỉ cũng nhảy theo.",
+        "Hôm nay Miu kể chuyện một bầy khỉ học múa trong cung điện, mặc áo đẹp như người.",
+        "Nhưng rồi có chuyện bất ngờ xảy ra. Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat scratches her head with a funny face holding an open picture book, a little monkey in a silk robe copies her pose on a small stage behind her",
+        "seed": 3210150368
+      },
+      "video": {
+        "motionPrompt": "the cat scratches her head, the monkey copies her exactly, the cat laughs, gentle camera push-in",
+        "seed": 4051952089
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoc-mua",
+      "title": "Hoàng tử dạy khỉ múa",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một vị hoàng tử nuôi một bầy khỉ trong vườn thượng uyển. Thấy chúng cái gì cũng bắt chước được, hoàng tử bèn mời thầy về dạy chúng múa. Thầy giơ tay, khỉ giơ tay. Thầy xoay một vòng, khỉ xoay một vòng. Chú khỉ nhỏ tên Bông học nhanh nhất, cúi chào còn khéo hơn cả thầy. Hoàng tử vỗ tay cười: Giỏi lắm! Ta sẽ cho các con biểu diễn trước cả triều đình!",
+      "subtitles": [
+        "Ngày xưa, có một vị hoàng tử nuôi một bầy khỉ trong vườn thượng uyển.",
+        "Thấy chúng cái gì cũng bắt chước được, hoàng tử bèn mời thầy về dạy chúng múa.",
+        "Thầy giơ tay, khỉ giơ tay. Thầy xoay một vòng, khỉ xoay một vòng.",
+        "Chú khỉ nhỏ tên Bông học nhanh nhất, cúi chào còn khéo hơn cả thầy.",
+        "Hoàng tử vỗ tay cười: Giỏi lắm! Ta sẽ cho các con biểu diễn trước cả triều đình!"
+      ],
+      "image": {
+        "character": "khi-bong",
+        "prompt": "in a sunny palace garden a dance teacher raises his arms and a row of little monkeys copies him, the small monkey Bong bows gracefully, a young prince claps and smiles",
+        "seed": 3591570640
+      },
+      "video": {
+        "motionPrompt": "the monkeys mimic the teacher's moves in a row, Bong spins and bows, the prince claps, playful timing",
+        "seed": 2387469767
+      },
+      "voice": {}
+    },
+    {
+      "id": "dem-dien",
+      "title": "Đêm biểu diễn",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm biểu diễn tới. Đèn dầu sáng rực khắp đại sảnh, các quan ngồi kín hai bên. Bầy khỉ bước ra, mặc áo gấm đỏ, áo gấm vàng, mặt đeo mặt nạ người tươi cười. Nhạc đàn lia nổi lên, chúng xoay, chúng lượn, chúng cúi chào, uyển chuyển như những vị quan thật. Cả sảnh trầm trồ: Ai mà biết đó là khỉ chứ! Đêm nào diễn xong, tiếng vỗ tay cũng vang mãi không thôi.",
+      "subtitles": [
+        "Đêm biểu diễn tới. Đèn dầu sáng rực khắp đại sảnh, các quan ngồi kín hai bên.",
+        "Bầy khỉ bước ra, mặc áo gấm đỏ, áo gấm vàng, mặt đeo mặt nạ người tươi cười.",
+        "Nhạc đàn lia nổi lên, chúng xoay, chúng lượn, chúng cúi chào,",
+        "uyển chuyển như những vị quan thật.",
+        "Cả sảnh trầm trồ: Ai mà biết đó là khỉ chứ!",
+        "Đêm nào diễn xong, tiếng vỗ tay cũng vang mãi không thôi."
+      ],
+      "image": {
+        "character": "khi-bong",
+        "prompt": "monkeys in rich colourful silk robes and smiling human masks dance gracefully on a lamp-lit palace stage, courtiers in the audience watch amazed and applaud",
+        "seed": 1207540995
+      },
+      "video": {
+        "motionPrompt": "the masked monkeys twirl and bow in time with the lyre music, lamplight flickers, the audience claps, slow elegant camera pan",
+        "seed": 1582369083
+      },
+      "voice": {}
+    },
+    {
+      "id": "nam-hat-de",
+      "title": "Nắm hạt dẻ",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng trong đám khán giả có một viên quan rất tinh nghịch. Ông cười khì khì, móc trong túi ra một nắm hạt dẻ, rồi tung lên sân khấu: lộp bộp, lộp bộp! Hạt dẻ lăn lông lốc khắp sàn gỗ. Bầy khỉ khựng lại. Mùi hạt dẻ thơm quá! Chú khỉ Bông là người đầu tiên quên hết bài múa.",
+      "subtitles": [
+        "Nhưng trong đám khán giả có một viên quan rất tinh nghịch.",
+        "Ông cười khì khì, móc trong túi ra một nắm hạt dẻ, rồi tung lên sân khấu:",
+        "lộp bộp, lộp bộp!",
+        "Hạt dẻ lăn lông lốc khắp sàn gỗ. Bầy khỉ khựng lại. Mùi hạt dẻ thơm quá!",
+        "Chú khỉ Bông là người đầu tiên quên hết bài múa."
+      ],
+      "image": {
+        "character": "vien-quan",
+        "prompt": "a plump mischievous courtier with a sly grin throws a handful of nuts onto the stage, the nuts bounce across the wooden floor, the masked monkeys freeze mid-dance",
+        "seed": 3341643154
+      },
+      "video": {
+        "motionPrompt": "the courtier tosses the nuts with a giggle, nuts bounce and roll, the monkeys stop and turn their masked faces toward the nuts, comic timing",
+        "seed": 259685836
+      },
+      "voice": {}
+    },
+    {
+      "id": "roi-tung",
+      "title": "Sân khấu rối tung",
+      "narrator": "ke-chuyen",
+      "narration": "Bông giật phăng mặt nạ, nhảy chồm tới vồ hạt dẻ. Cả bầy ùa theo, kéo áo gấm, giẫm vào vạt áo nhau, chí cha chí chóe giành từng hạt. Mặt nạ văng một bên, khăn áo tuột một nẻo, chẳng còn ai múa nữa. Lúc này, chúng lại đúng là những chú khỉ nghịch ngợm, chứ đâu phải những vị quan múa giỏi.",
+      "subtitles": [
+        "Bông giật phăng mặt nạ, nhảy chồm tới vồ hạt dẻ.",
+        "Cả bầy ùa theo, kéo áo gấm, giẫm vào vạt áo nhau, chí cha chí chóe giành từng hạt.",
+        "Mặt nạ văng một bên, khăn áo tuột một nẻo, chẳng còn ai múa nữa.",
+        "Lúc này, chúng lại đúng là những chú khỉ nghịch ngợm, chứ đâu phải những vị quan múa giỏi."
+      ],
+      "image": {
+        "character": "khi-bong",
+        "prompt": "chaos on the stage: monkeys throw off their masks and silk robes and scramble playfully over each other for the nuts, masks and scarves fly through the air",
+        "seed": 2748069171
+      },
+      "video": {
+        "motionPrompt": "the monkeys tumble and scramble for nuts, masks fly off, silk robes slide away, a playful messy pile, comic fast timing",
+        "seed": 38307996
+      },
+      "voice": {}
+    },
+    {
+      "id": "ca-sanh-cuoi",
+      "title": "Cả sảnh bật cười",
+      "narrator": "ke-chuyen",
+      "narration": "Cả đại sảnh ngớ ra một lúc, rồi cười rộ lên, cười đến chảy nước mắt. Buổi múa thế là tan. Hoàng tử lắc đầu, rồi cũng bật cười: Ta dạy được chúng múa, chứ đâu dạy được chúng quên mê hạt dẻ! Từ hôm ấy, bầy khỉ lại được chạy nhảy trong vườn, và Bông vẫn là chú khỉ ăn hạt dẻ nhanh nhất.",
+      "subtitles": [
+        "Cả đại sảnh ngớ ra một lúc, rồi cười rộ lên, cười đến chảy nước mắt.",
+        "Buổi múa thế là tan. Hoàng tử lắc đầu, rồi cũng bật cười:",
+        "Ta dạy được chúng múa, chứ đâu dạy được chúng quên mê hạt dẻ!",
+        "Từ hôm ấy, bầy khỉ lại được chạy nhảy trong vườn,",
+        "và Bông vẫn là chú khỉ ăn hạt dẻ nhanh nhất."
+      ],
+      "image": {
+        "character": "hoang-tu",
+        "prompt": "the courtiers laugh heartily in the palace hall, the young prince shakes his head and laughs too, on stage the monkeys sit happily cracking nuts surrounded by fallen masks",
+        "seed": 2786579865
+      },
+      "video": {
+        "motionPrompt": "the audience bursts into laughter, the prince covers his smile, Bong cracks a nut and grins, warm lamplight",
+        "seed": 2799267965
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, khoác áo đẹp, đeo mặt nạ thì trông giống ai cũng được, nhưng bản tính thật thì vẫn lộ ra lúc nào không hay. Thay vì giả làm người khác, mình cứ vui vẻ làm chính mình nhé. Còn Miu à, ai mà tung một con cá ra đây, Miu cũng quên kể chuyện luôn đấy! Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, khoác áo đẹp, đeo mặt nạ thì trông giống ai cũng được,",
+        "nhưng bản tính thật thì vẫn lộ ra lúc nào không hay.",
+        "Thay vì giả làm người khác, mình cứ vui vẻ làm chính mình nhé.",
+        "Còn Miu à, ai mà tung một con cá ra đây, Miu cũng quên kể chuyện luôn đấy!",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in a palace garden at sunset, the little monkey Bong happily munches nuts on a tree branch beside her",
+        "seed": 4094313887
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and smiles, Bong waves back with a nut in its paw, leaves rustle, gentle camera pull-back",
+        "seed": 3020504810
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful ancient Greek court dance melody, lyre and reed flute with light tambourine, elegant then bouncy and comic, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1484017453
+  }
+}

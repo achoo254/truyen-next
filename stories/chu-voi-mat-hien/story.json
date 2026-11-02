@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-voi-mat-hien",
+  "shelf": "kids",
+  "title": "Chú voi Mặt Hiền",
+  "summary": "Chú voi Mặt Hiền của nhà vua nổi tiếng hiền lành, bỗng một ngày trở nên hung dữ chẳng ai dám lại gần. Một nhà thông thái đã tìm ra lý do và giúp chú hiền trở lại. Truyện tiền thân Jataka của Ấn Độ kể nhẹ nhàng cho trẻ nhỏ về sức mạnh của những lời ta nghe.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện tiền thân Đức Phật (Jataka, Ấn Độ cổ đại), theo bản kể lại tiếng Anh của Ellen C. Babbitt, Jataka Tales (1912), truyện «The Elephant Girly-face», Project Gutenberg #62514, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản nào; Mèo Miu dẫn chuyện, thoại và chi tiết nhỏ do người viết thêm. Bản cho trẻ nhỏ: lời bàn của bọn trộm được kể nhẹ thành phải hung dữ, không thương xót ai; việc voi làm hại hai người quản tượng được kể nhẹ thành hất ngã và đuổi chạy mọi người. Tên voi dịch thoáng thành Mặt Hiền.",
+  "basedOn": "Truyện tiền thân Jataka (Ấn Độ)",
+  "style": "classic Indian storybook illustration in the spirit of old Jataka picture books, soft watercolor and gouache with gentle Mughal miniature touches, warm golden light, rounded friendly shapes, calm and safe mood for young children, an ancient Indian royal elephant stable with carved wooden pillars, hay, oil lamps and a moonlit courtyard, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3680742928
+    },
+    {
+      "id": "voi",
+      "name": "Voi Mặt Hiền",
+      "seed": 229662188,
+      "sheetPrompt": "a gentle grey Indian elephant with soft kind eyes, long eyelashes and a decorated embroidered cloth on its back, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nha-thong-thai",
+      "name": "Nhà thông thái",
+      "seed": 2184134295,
+      "sheetPrompt": "a calm old ancient Indian wise man with a white beard, white robes and a wooden walking staff, kind face, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "quan-tuong",
+      "name": "Bác quản tượng",
+      "seed": 1050137742,
+      "sheetPrompt": "a friendly ancient Indian elephant keeper in a simple turban and dhoti carrying a bundle of sugarcane, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bon-trom",
+      "name": "Bọn trộm",
+      "seed": 4163368130,
+      "sheetPrompt": "a few comical shady ancient Indian thieves in dark cloaks and turbans whispering in the moonlight, faces in shadow, not scary, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có biết không, những lời mình nghe mỗi ngày có thể làm mình thay đổi đấy. Nghe lời hay thì mình hay lên, nghe lời xấu thì mình dễ xấu theo. Hôm nay Miu kể chuyện một chú voi rất hiền ở đất nước Ấn Độ, bỗng một ngày trở nên dữ dằn. Vì sao vậy nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn có biết không, những lời mình nghe mỗi ngày có thể làm mình thay đổi đấy.",
+        "Nghe lời hay thì mình hay lên, nghe lời xấu thì mình dễ xấu theo.",
+        "Hôm nay Miu kể chuyện một chú voi rất hiền ở đất nước Ấn Độ, bỗng một ngày trở nên dữ dằn.",
+        "Vì sao vậy nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits beside a royal elephant stable holding an open picture book, a gentle grey elephant peeks over the wooden gate",
+        "seed": 2172597788
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello, the elephant flaps its ears and blinks its long lashes, lamps flicker, slow gentle camera push-in",
+        "seed": 2671636637
+      },
+      "voice": {}
+    },
+    {
+      "id": "voi-hien",
+      "title": "Chú voi hiền nhất",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, nhà vua có một chú voi tên là Mặt Hiền. Người ta gọi chú như thế vì chú hiền lành, ngoan ngoãn, gương mặt lúc nào cũng hiền khô. Trẻ con trong cung hay chạy tới cho chú ăn mía. Bác quản tượng vẫn thường khoe với mọi người: Mặt Hiền nhà tôi chưa làm đau ai bao giờ.",
+      "subtitles": [
+        "Ngày xưa, nhà vua có một chú voi tên là Mặt Hiền.",
+        "Người ta gọi chú như thế vì chú hiền lành, ngoan ngoãn, gương mặt lúc nào cũng hiền khô.",
+        "Trẻ con trong cung hay chạy tới cho chú ăn mía.",
+        "Bác quản tượng vẫn thường khoe với mọi người: Mặt Hiền nhà tôi chưa làm đau ai bao giờ."
+      ],
+      "image": {
+        "character": "voi",
+        "prompt": "a gentle grey elephant takes sugarcane from palace children with its trunk, a friendly elephant keeper smiles beside it in a sunny courtyard",
+        "seed": 1950399166
+      },
+      "video": {
+        "motionPrompt": "the elephant gently takes the sugarcane with its trunk, children giggle and clap, the keeper pats the elephant, gentle camera pan",
+        "seed": 71737146
+      },
+      "voice": {}
+    },
+    {
+      "id": "bon-trom",
+      "title": "Lời bàn trong đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Một đêm, có mấy tên trộm lẻn vào sân, ngồi ngay ngoài chuồng của Mặt Hiền mà bàn nhau. Tiếng thì thầm làm chú voi thức giấc. Bọn trộm bảo nhau: Đã đi ăn trộm thì phải thật hung dữ. Gặp ai cản đường cứ việc xô ngã. Không được thương xót ai, không được hiền lành, dù chỉ một chút.",
+      "subtitles": [
+        "Một đêm, có mấy tên trộm lẻn vào sân, ngồi ngay ngoài chuồng của Mặt Hiền mà bàn nhau.",
+        "Tiếng thì thầm làm chú voi thức giấc.",
+        "Bọn trộm bảo nhau: Đã đi ăn trộm thì phải thật hung dữ.",
+        "Gặp ai cản đường cứ việc xô ngã.",
+        "Không được thương xót ai, không được hiền lành, dù chỉ một chút."
+      ],
+      "image": {
+        "character": "bon-trom",
+        "prompt": "a few comical thieves in dark cloaks huddle and whisper in a moonlit courtyard right outside an elephant stable, the elephant's eye opens in the dark",
+        "seed": 2657960915
+      },
+      "video": {
+        "motionPrompt": "the thieves lean together whispering and gesturing, the elephant's ear twitches as it listens, moonlight shifts, slow camera push-in",
+        "seed": 2639909665
+      },
+      "voice": {}
+    },
+    {
+      "id": "voi-doi-tinh",
+      "title": "Mặt Hiền đổi tính",
+      "narrator": "ke-chuyen",
+      "narration": "Mặt Hiền nằm nghe, rồi nghĩ: Những người kia đang dạy mình đấy. Vậy từ nay mình phải dữ dằn, không thương ai, không hiền nữa. Sáng hôm sau, bác quản tượng mang mía tới. Mặt Hiền bỗng vung vòi hất bác ngã lăn ra đất. Một bác quản tượng khác chạy tới xem, cũng bị chú đuổi chạy thục mạng. Bác nào cũng sợ hãi, may mà chạy thoát ra ngoài.",
+      "subtitles": [
+        "Mặt Hiền nằm nghe, rồi nghĩ: Những người kia đang dạy mình đấy.",
+        "Vậy từ nay mình phải dữ dằn, không thương ai, không hiền nữa.",
+        "Sáng hôm sau, bác quản tượng mang mía tới.",
+        "Mặt Hiền bỗng vung vòi hất bác ngã lăn ra đất.",
+        "Một bác quản tượng khác chạy tới xem, cũng bị chú đuổi chạy thục mạng.",
+        "Bác nào cũng sợ hãi, may mà chạy thoát ra ngoài."
+      ],
+      "image": {
+        "character": "voi",
+        "prompt": "a grumpy grey elephant raises its trunk and trumpets loudly, an elephant keeper tumbles onto the hay and scrambles away, sugarcane scattered",
+        "seed": 3550374236
+      },
+      "video": {
+        "motionPrompt": "the elephant swings its trunk and stamps, the keeper rolls on the soft hay and runs off, sugarcane bounces, gentle camera shake then settle",
+        "seed": 509848815
+      },
+      "voice": {}
+    },
+    {
+      "id": "khong-ai-dam",
+      "title": "Không ai dám lại gần",
+      "narrator": "ke-chuyen",
+      "narration": "Suốt nhiều ngày liền, Mặt Hiền dữ dằn đến nỗi chẳng ai dám bước tới gần chuồng. Thức ăn chỉ dám đặt từ xa rồi bỏ chạy. Trẻ con không còn tới cho voi ăn mía nữa. Cả cung điện thì thầm: Sao chú voi hiền nhất lại thành ra thế này?",
+      "subtitles": [
+        "Suốt nhiều ngày liền, Mặt Hiền dữ dằn đến nỗi chẳng ai dám bước tới gần chuồng.",
+        "Thức ăn chỉ dám đặt từ xa rồi bỏ chạy.",
+        "Trẻ con không còn tới cho voi ăn mía nữa.",
+        "Cả cung điện thì thầm: Sao chú voi hiền nhất lại thành ra thế này?"
+      ],
+      "image": {
+        "character": "voi",
+        "prompt": "a grumpy grey elephant stands alone in its stable, a pile of food left far from the gate, palace children hide behind a pillar peeking nervously",
+        "seed": 3547914463
+      },
+      "video": {
+        "motionPrompt": "the elephant swishes its tail grumpily, the children peek and duck back, dust floats in the light, slow gentle camera pull-back",
+        "seed": 3297596225
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-thong-thai",
+      "title": "Nhà thông thái tìm hiểu",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua nghe chuyện, liền sai một nhà thông thái tới xem Mặt Hiền bị làm sao. Ông đã quen Mặt Hiền từ lâu. Ông xem xét chú voi thật kỹ, từ vòi tới chân, nhưng chẳng thấy đau ốm gì. Ông ngẫm nghĩ rồi hỏi: Gần đây có kẻ xấu nào ngồi nói chuyện quanh đây không? Một bác quản tượng đáp: Có ạ, mấy tuần trước có một bọn trộm ngồi bàn mưu ngay cạnh chuồng, sau đó đã bị bắt.",
+      "subtitles": [
+        "Nhà vua nghe chuyện, liền sai một nhà thông thái tới xem Mặt Hiền bị làm sao.",
+        "Ông đã quen Mặt Hiền từ lâu.",
+        "Ông xem xét chú voi thật kỹ, từ vòi tới chân, nhưng chẳng thấy đau ốm gì.",
+        "Ông ngẫm nghĩ rồi hỏi: Gần đây có kẻ xấu nào ngồi nói chuyện quanh đây không?",
+        "Một bác quản tượng đáp: Có ạ,",
+        "mấy tuần trước có một bọn trộm ngồi bàn mưu ngay cạnh chuồng, sau đó đã bị bắt."
+      ],
+      "image": {
+        "character": "nha-thong-thai",
+        "prompt": "a calm old wise man with a white beard carefully looks over the grey elephant, an elephant keeper explains something from a safe distance",
+        "seed": 1672619312
+      },
+      "video": {
+        "motionPrompt": "the wise man walks slowly around the elephant and strokes his beard thoughtfully, the keeper points toward the courtyard, gentle camera circle",
+        "seed": 1391577554
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-tot-noi",
+      "title": "Những lời hay ý đẹp",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà thông thái về tâu vua: Thưa bệ hạ, Mặt Hiền đã nghe phải những lời xấu. Xin bệ hạ cho những người tốt tới ngồi nói chuyện gần chuồng voi. Tối hôm ấy, những người hiền lành nhất được mời tới. Họ ngồi bên ngọn đèn, nói với nhau: Làm đau người khác là sai. Ai cũng nên hiền hòa và tử tế với nhau. Mặt Hiền nằm trong chuồng, lắng tai nghe từng lời.",
+      "subtitles": [
+        "Nhà thông thái về tâu vua: Thưa bệ hạ, Mặt Hiền đã nghe phải những lời xấu.",
+        "Xin bệ hạ cho những người tốt tới ngồi nói chuyện gần chuồng voi.",
+        "Tối hôm ấy, những người hiền lành nhất được mời tới.",
+        "Họ ngồi bên ngọn đèn, nói với nhau: Làm đau người khác là sai.",
+        "Ai cũng nên hiền hòa và tử tế với nhau.",
+        "Mặt Hiền nằm trong chuồng, lắng tai nghe từng lời."
+      ],
+      "image": {
+        "character": "voi",
+        "prompt": "a group of kind ancient Indian people sit around an oil lamp near the elephant stable talking softly, the grey elephant listens with its ears forward",
+        "seed": 4129359164
+      },
+      "video": {
+        "motionPrompt": "the lamp glows warmly, the people speak and nod gently, the elephant's ears slowly relax and its eyes soften, gentle camera push-in",
+        "seed": 3075669994
+      },
+      "voice": {}
+    },
+    {
+      "id": "hien-tro-lai",
+      "title": "Mặt Hiền hiền trở lại",
+      "narrator": "ke-chuyen",
+      "narration": "Mặt Hiền nghĩ: Những người này đang dạy mình đấy. Mình phải hiền lành, tử tế, không làm đau ai cả. Từ hôm ấy, chú voi lại ngoan hiền như xưa, có khi còn hiền hơn trước. Bác quản tượng lại mang mía tới, trẻ con lại chạy tới chơi. Mặt Hiền đưa vòi ra đón, nhẹ nhàng như một làn gió.",
+      "subtitles": [
+        "Mặt Hiền nghĩ: Những người này đang dạy mình đấy.",
+        "Mình phải hiền lành, tử tế, không làm đau ai cả.",
+        "Từ hôm ấy, chú voi lại ngoan hiền như xưa, có khi còn hiền hơn trước.",
+        "Bác quản tượng lại mang mía tới, trẻ con lại chạy tới chơi.",
+        "Mặt Hiền đưa vòi ra đón, nhẹ nhàng như một làn gió."
+      ],
+      "image": {
+        "character": "voi",
+        "prompt": "the gentle grey elephant happily takes sugarcane from the smiling keeper again, palace children laugh and play around it in morning sunshine",
+        "seed": 3051402880
+      },
+      "video": {
+        "motionPrompt": "the elephant curls its trunk gently around the sugarcane, children run and laugh, flower petals drift, gentle camera pull-back",
+        "seed": 3790804579
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, Mặt Hiền vốn hiền, nhưng nghe lời xấu thì thành dữ, nghe lời hay thì lại hiền. Vì thế, mình hãy chọn nghe những lời tốt, chơi với những bạn tốt, và nói những lời tốt cho người khác nghe nhé. Miu cũng sẽ chỉ nói những lời thật dễ thương thôi. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, Mặt Hiền vốn hiền, nhưng nghe lời xấu thì thành dữ,",
+        "nghe lời hay thì lại hiền.",
+        "Vì thế, mình hãy chọn nghe những lời tốt, chơi với những bạn tốt,",
+        "và nói những lời tốt cho người khác nghe nhé.",
+        "Miu cũng sẽ chỉ nói những lời thật dễ thương thôi.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the sunny palace courtyard, the gentle grey elephant gently pats her head with its trunk",
+        "seed": 717825340
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and giggles, the elephant pats her head softly with its trunk, petals drift down, gentle camera pull-back",
+        "seed": 3571247459
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "calm ancient Indian palace melody with sitar, bansuri flute and soft tanpura, a brief grumpy low passage then a peaceful gentle ending, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 463128301
+  }
+}

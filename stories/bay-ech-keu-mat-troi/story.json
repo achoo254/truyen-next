@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "slug": "bay-ech-keu-mat-troi",
+  "shelf": "kids",
+  "title": "Bầy ếch kêu Mặt Trời",
+  "summary": "Nghe tin Mặt Trời sắp lấy vợ, cả bầy ếch dưới đầm kêu ầm ĩ tới tận trời cao. Vì sao chúng lo lắng đến thế? Ngụ ngôn Aesop kể nhẹ nhàng cho trẻ nhỏ về nỗi lo của kẻ bé nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Frogs' Complaint Against the Sun» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản dịch nào. Truyện gốc chỉ vài câu: Mèo Miu dẫn chuyện; thoại, chi tiết đời thường và lời rút ý cuối truyện do người viết thêm. Bản cho trẻ nhỏ: nỗi khổ của bầy ếch được kể là đầm cạn, ao nứt, ếch khô da khát nước; thêm cảnh mùa hè nắng gắt, thần Jupiter cúi xuống hỏi han và cơn mưa mát cuối truyện.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, warm gentle light, rounded friendly shapes, calm and safe mood for young children, green marsh with reeds and water lilies under a big friendly sun, soft summer sky, ancient Greek clouds and Mount Olympus far away, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2884427629
+    },
+    {
+      "id": "ech-gia",
+      "name": "Bác ếch già",
+      "seed": 1298665789,
+      "sheetPrompt": "a plump old green frog with a little white beard of moss, round wise eyes, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bay-ech",
+      "name": "Bầy ếch",
+      "seed": 122089896,
+      "sheetPrompt": "a group of small bright green frogs with big round eyes and puffed cheeks, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "mat-troi",
+      "name": "Mặt Trời",
+      "seed": 471711163,
+      "sheetPrompt": "a big round smiling sun with soft golden rays and rosy cheeks, gentle storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "than-jupiter",
+      "name": "Thần Jupiter",
+      "seed": 2619762550,
+      "sheetPrompt": "a kind old Greek sky god with a long white beard, white robe and laurel crown, sitting on a soft cloud, friendly face, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã bao giờ nghe tiếng ếch kêu vào buổi tối chưa? Ộp ộp, ộp ộp, vang khắp cánh đồng. Hôm nay Miu kể chuyện một bầy ếch kêu to đến nỗi tiếng kêu bay lên tận trời cao, làm cả thần trên trời cũng phải giật mình. Vì sao bầy ếch lại kêu như thế nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn đã bao giờ nghe tiếng ếch kêu vào buổi tối chưa?",
+        "Ộp ộp, ộp ộp, vang khắp cánh đồng.",
+        "Hôm nay Miu kể chuyện một bầy ếch kêu to đến nỗi tiếng kêu bay lên tận trời cao,",
+        "làm cả thần trên trời cũng phải giật mình.",
+        "Vì sao bầy ếch lại kêu như thế nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a mossy stone beside a green marsh holding an open picture book, little frogs peek up from the water lilies",
+        "seed": 2297451799
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello, frogs puff their throats and blink, reeds sway, dragonflies drift, slow gentle camera push-in",
+        "seed": 2874046846
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-nuoc",
+      "title": "Cái đầm của bầy ếch",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xửa ngày xưa, ở một vùng đất xa xôi, có một cái đầm nước xanh mát. Quanh đầm, lau sậy mọc cao, hoa súng nở trắng mặt nước. Ở đó có một bầy ếch đông vui sống cùng nhau. Sáng ra, chúng nhảy từ lá súng này sang lá súng khác. Tối đến, chúng ngồi thành hàng, cất tiếng hát ộp ộp. Bác ếch già thường bảo: Cái đầm này là nhà của chúng ta, có nước là có tất cả.",
+      "subtitles": [
+        "Ngày xửa ngày xưa, ở một vùng đất xa xôi, có một cái đầm nước xanh mát.",
+        "Quanh đầm, lau sậy mọc cao, hoa súng nở trắng mặt nước.",
+        "Ở đó có một bầy ếch đông vui sống cùng nhau.",
+        "Sáng ra, chúng nhảy từ lá súng này sang lá súng khác.",
+        "Tối đến, chúng ngồi thành hàng, cất tiếng hát ộp ộp.",
+        "Bác ếch già thường bảo: Cái đầm này là nhà của chúng ta, có nước là có tất cả."
+      ],
+      "image": {
+        "character": "bay-ech",
+        "prompt": "a happy group of little green frogs jumping between water lilies on a cool green marsh, tall reeds and white lilies, morning light",
+        "seed": 658006503
+      },
+      "video": {
+        "motionPrompt": "frogs leap from lily pad to lily pad making soft ripples, water lilies bob gently, reeds sway, slow pan across the marsh",
+        "seed": 1278105552
+      },
+      "voice": {}
+    },
+    {
+      "id": "mua-he-nang",
+      "title": "Mùa hè nắng gắt",
+      "narrator": "ke-chuyen",
+      "narration": "Rồi mùa hè tới. Ông Mặt Trời ngày nào cũng dậy thật sớm, chiếu những tia nắng vàng rực xuống mặt đất. Nước trong đầm cứ vơi dần, vơi dần. Bùn ven bờ khô lại, nứt ra từng mảng. Mấy chú ếch con ngồi dưới bóng lá, thè lưỡi thở phì phò: Nóng quá, khát quá đi mất! Bác ếch già nhìn lên trời, lắc đầu: Một ông Mặt Trời thôi mà đầm đã cạn thế này rồi.",
+      "subtitles": [
+        "Rồi mùa hè tới.",
+        "Ông Mặt Trời ngày nào cũng dậy thật sớm, chiếu những tia nắng vàng rực xuống mặt đất.",
+        "Nước trong đầm cứ vơi dần, vơi dần.",
+        "Bùn ven bờ khô lại, nứt ra từng mảng.",
+        "Mấy chú ếch con ngồi dưới bóng lá, thè lưỡi thở phì phò: Nóng quá, khát quá đi mất!",
+        "Bác ếch già nhìn lên trời, lắc đầu: Một ông Mặt Trời thôi mà đầm đã cạn thế này rồi."
+      ],
+      "image": {
+        "character": "mat-troi",
+        "prompt": "a big friendly sun shines brightly over a shrinking marsh with cracked dry mud at the edges, little frogs sit fanning themselves under a lily leaf",
+        "seed": 539610907
+      },
+      "video": {
+        "motionPrompt": "sun rays shimmer, heat haze wobbles over the cracked mud, a little frog fans itself with a leaf, slow gentle camera tilt down from the sky",
+        "seed": 1492649306
+      },
+      "voice": {}
+    },
+    {
+      "id": "tin-mat-troi",
+      "title": "Tin Mặt Trời sắp lấy vợ",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, chim sẻ bay ngang qua đầm, ríu rít báo tin: Các bạn ếch ơi, ông Mặt Trời sắp lấy vợ đấy! Cả bầy ếch tròn mắt. Bác ếch già ngồi im một lúc lâu, rồi lo lắng nói: Các con ơi, bây giờ mới có một ông Mặt Trời mà đầm nhà ta đã gần khô. Nếu ông ấy lấy vợ, rồi sinh ra thêm nhiều Mặt Trời con nữa, thì nước ở đâu cho chúng ta bơi?",
+      "subtitles": [
+        "Một hôm, chim sẻ bay ngang qua đầm, ríu rít báo tin: Các bạn ếch ơi,",
+        "ông Mặt Trời sắp lấy vợ đấy! Cả bầy ếch tròn mắt.",
+        "Bác ếch già ngồi im một lúc lâu, rồi lo lắng nói: Các con ơi,",
+        "bây giờ mới có một ông Mặt Trời mà đầm nhà ta đã gần khô.",
+        "Nếu ông ấy lấy vợ, rồi sinh ra thêm nhiều Mặt Trời con nữa,",
+        "thì nước ở đâu cho chúng ta bơi?"
+      ],
+      "image": {
+        "character": "ech-gia",
+        "prompt": "an old green frog with a mossy beard sits on a stone looking worried, a little sparrow chirps from a reed, young frogs gather around with wide eyes",
+        "seed": 3228419595
+      },
+      "video": {
+        "motionPrompt": "the sparrow flutters and chirps, the old frog strokes his mossy beard thoughtfully, young frogs blink and huddle closer, gentle camera push-in",
+        "seed": 3722788581
+      },
+      "voice": {}
+    },
+    {
+      "id": "keu-am-i",
+      "title": "Bầy ếch kêu vang trời",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe bác ếch nói vậy, cả bầy ếch hoảng lên. Chúng ngửa cổ, phồng má, kêu thật to: Ộp ộp! Đừng lấy vợ! Ộp ộp! Đừng thêm Mặt Trời nữa! Con nào cũng kêu, con bé kêu, con lớn cũng kêu. Tiếng kêu vang khắp đầm, vọng qua đồi, bay lên mãi, lên mãi, tới tận những đám mây trắng trên cao.",
+      "subtitles": [
+        "Nghe bác ếch nói vậy, cả bầy ếch hoảng lên.",
+        "Chúng ngửa cổ, phồng má, kêu thật to: Ộp ộp! Đừng lấy vợ!",
+        "Ộp ộp! Đừng thêm Mặt Trời nữa!",
+        "Con nào cũng kêu, con bé kêu, con lớn cũng kêu.",
+        "Tiếng kêu vang khắp đầm, vọng qua đồi, bay lên mãi, lên mãi,",
+        "tới tận những đám mây trắng trên cao."
+      ],
+      "image": {
+        "character": "bay-ech",
+        "prompt": "the whole group of little green frogs throw back their heads and croak loudly together toward the sky, cheeks puffed, musical lines of sound rising toward white clouds",
+        "seed": 757493583
+      },
+      "video": {
+        "motionPrompt": "frogs puff their throats in rhythm, ripples spread across the water, little swirls of sound rise to the clouds, slow camera tilt up to the sky",
+        "seed": 1505606888
+      },
+      "voice": {}
+    },
+    {
+      "id": "than-jupiter-hoi",
+      "title": "Thần Jupiter hỏi chuyện",
+      "narrator": "ke-chuyen",
+      "narration": "Trên trời cao, thần Jupiter đang ngồi nghỉ trên đám mây. Nghe tiếng ồn ào, thần cúi xuống hỏi: Này các chú ếch, có chuyện gì mà kêu to thế? Bác ếch già nhảy lên tảng đá cao nhất, cúi chào rồi thưa: Thưa thần, bây giờ ông Mặt Trời còn ở một mình mà đã làm đầm nhà con cạn khô, ếch con khát nước khổ sở. Nếu ông ấy có thêm cả một đàn Mặt Trời con, thì chúng con biết sống ở đâu?",
+      "subtitles": [
+        "Trên trời cao, thần Jupiter đang ngồi nghỉ trên đám mây.",
+        "Nghe tiếng ồn ào, thần cúi xuống hỏi: Này các chú ếch, có chuyện gì mà kêu to thế?",
+        "Bác ếch già nhảy lên tảng đá cao nhất, cúi chào rồi thưa: Thưa thần,",
+        "bây giờ ông Mặt Trời còn ở một mình mà đã làm đầm nhà con cạn khô,",
+        "ếch con khát nước khổ sở.",
+        "Nếu ông ấy có thêm cả một đàn Mặt Trời con, thì chúng con biết sống ở đâu?"
+      ],
+      "image": {
+        "character": "than-jupiter",
+        "prompt": "a kind old Greek sky god with a white beard leans down from a soft cloud listening, far below an old frog bows on a tall stone in the marsh",
+        "seed": 4173809912
+      },
+      "video": {
+        "motionPrompt": "the god leans down and cups his ear, clouds drift slowly, the frog bows and gestures toward the sun, gentle camera move from clouds down to the marsh",
+        "seed": 3801728714
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-mua-mat",
+      "title": "Cơn mưa mát lành",
+      "narrator": "ke-chuyen",
+      "narration": "Thần Jupiter bật cười, vuốt chòm râu trắng. Thần thấy bầy ếch nhỏ bé mà lo xa thật. Thần phẩy tay, gọi một đám mây xám kéo tới. Lộp độp, lộp độp, mưa rơi xuống đầm. Nước dâng lên, bùn nứt khép lại, hoa súng lại xòe cánh. Cả bầy ếch nhảy tưng bừng, hát vang một bài thật vui. Từ đó, mỗi khi trời nắng lâu, bầy ếch lại ngửa cổ kêu ộp ộp, như để nhắc trời cho một cơn mưa.",
+      "subtitles": [
+        "Thần Jupiter bật cười, vuốt chòm râu trắng.",
+        "Thần thấy bầy ếch nhỏ bé mà lo xa thật.",
+        "Thần phẩy tay, gọi một đám mây xám kéo tới.",
+        "Lộp độp, lộp độp, mưa rơi xuống đầm.",
+        "Nước dâng lên, bùn nứt khép lại, hoa súng lại xòe cánh.",
+        "Cả bầy ếch nhảy tưng bừng, hát vang một bài thật vui.",
+        "Từ đó, mỗi khi trời nắng lâu, bầy ếch lại ngửa cổ kêu ộp ộp,",
+        "như để nhắc trời cho một cơn mưa."
+      ],
+      "image": {
+        "character": "bay-ech",
+        "prompt": "gentle rain falls on the green marsh, the water rises again, happy little frogs leap and dance on lily pads, a soft grey cloud and a rainbow above",
+        "seed": 3954602249
+      },
+      "video": {
+        "motionPrompt": "raindrops patter and make rings on the water, frogs jump joyfully, a rainbow slowly appears, gentle camera pull-back",
+        "seed": 1601130778
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, bầy ếch nhỏ bé mà biết lo cho cái đầm của mình đấy. Khi một điều gì đó đã làm mình khó khăn, thì nhiều thêm điều ấy chắc chắn sẽ còn khó hơn. Bầy ếch đã dám cất tiếng nói lên nỗi lo của mình. Còn Miu thì sợ nước lắm, nên Miu chỉ ngồi trên bờ nghe ếch hát thôi. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, bầy ếch nhỏ bé mà biết lo cho cái đầm của mình đấy.",
+        "Khi một điều gì đó đã làm mình khó khăn, thì nhiều thêm điều ấy chắc chắn sẽ còn khó hơn.",
+        "Bầy ếch đã dám cất tiếng nói lên nỗi lo của mình.",
+        "Còn Miu thì sợ nước lắm, nên Miu chỉ ngồi trên bờ nghe ếch hát thôi.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye on the grassy bank of the marsh after the rain, little frogs sit on lily pads waving back, a rainbow in the sky",
+        "seed": 2588952008
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, frogs croak and wave, the rainbow glows, droplets fall from reeds, gentle camera pull-back",
+        "seed": 525579246
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle pastoral Greek melody with flute and soft lyre, playful frog-like plucked strings, light rain sounds at the end, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4210250269
+  }
+}

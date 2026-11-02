@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "slug": "chim-en-va-con-qua",
+  "shelf": "kids",
+  "title": "Chim én và con quạ",
+  "summary": "Chim én và con quạ cãi nhau xem bộ lông ai đẹp hơn. Én khoe áo mùa xuân óng ả, còn quạ chỉ nói một câu về mùa đông là én lặng im. Ngụ ngôn Aesop kể nhẹ cho bé về cái đẹp và sự bền bỉ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Swallow and the Crow» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản dịch nào. Truyện gốc chỉ vài câu: Mèo Miu dẫn chuyện; cảnh én bay đi tránh rét, quạ ở lại qua mùa đông, thoại và cảnh xuân năm sau do người viết thêm.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, changing seasons from blossoming spring to snowy winter, a Greek village with a big old oak tree and tiled roofs, rounded friendly shapes, calm gentle mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 3248332846,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "en",
+      "name": "Chim én",
+      "seed": 2386329987,
+      "sheetPrompt": "a sleek little swallow with glossy blue-black wings, a red throat, a white belly and a forked tail, lively cheerful face, cute cartoon style, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "qua",
+      "name": "Con quạ",
+      "seed": 1679287567,
+      "sheetPrompt": "a big black crow with thick fluffy feathers, wise calm eyes and a friendly face, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn thích mặc áo gì nhất? Miu thì mê cái váy hồng xinh xinh này. Nhưng trời rét thì Miu phải khoác thêm áo len dày, không là hắt xì liền! Hôm nay Miu kể chuyện chim én và con quạ, hai bạn cãi nhau xem ai có bộ áo lông đẹp hơn. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn thích mặc áo gì nhất? Miu thì mê cái váy hồng xinh xinh này.",
+        "Nhưng trời rét thì Miu phải khoác thêm áo len dày, không là hắt xì liền!",
+        "Hôm nay Miu kể chuyện chim én và con quạ, hai bạn cãi nhau xem ai có bộ áo lông đẹp hơn.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat in her pink dress holds a thick knitted scarf and an open picture book, a swallow and a crow perch on a branch behind her",
+        "seed": 877359019
+      },
+      "video": {
+        "motionPrompt": "the cat twirls in her pink dress, then wraps the scarf around her neck and pretends to sneeze, gentle camera push-in",
+        "seed": 878223227
+      },
+      "voice": {}
+    },
+    {
+      "id": "mua-xuan",
+      "title": "Mùa xuân rực rỡ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một mùa xuân hoa hạnh nở trắng cả ngôi làng. Chim én từ phương xa bay về, liệng qua liệng lại trên mái ngói, lông xanh biếc óng ánh dưới nắng. Trên cây sồi già đầu làng, bác quạ đen đang ngồi rỉa lông. Én sà xuống cành, ngắm bác quạ từ đầu đến chân rồi cười khúc khích.",
+      "subtitles": [
+        "Ngày xưa, có một mùa xuân hoa hạnh nở trắng cả ngôi làng.",
+        "Chim én từ phương xa bay về, liệng qua liệng lại trên mái ngói,",
+        "lông xanh biếc óng ánh dưới nắng.",
+        "Trên cây sồi già đầu làng, bác quạ đen đang ngồi rỉa lông.",
+        "Én sà xuống cành, ngắm bác quạ từ đầu đến chân rồi cười khúc khích."
+      ],
+      "image": {
+        "character": "en",
+        "prompt": "a glossy swallow swoops over a Greek village full of white almond blossoms in spring, a big black crow sits on an old oak branch preening its feathers",
+        "seed": 3416637855
+      },
+      "video": {
+        "motionPrompt": "the swallow loops through the blossoms, petals swirl, the crow looks up from preening, bright spring light",
+        "seed": 819283818
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-nhau",
+      "title": "Ai đẹp hơn ai",
+      "narrator": "ke-chuyen",
+      "narration": "Én vênh mỏ nói: Bác quạ ơi, áo lông bác đen sì, lại dày cộp, trông nặng nề quá! Nhìn em này: cánh xanh biếc, cổ đỏ tươi, bụng trắng tinh, đuôi xẻ như cái kéo. Em bay nhanh nhất làng, ai trông thấy cũng khen đẹp. Quạ chẳng giận. Bác chỉ hỏi: Thế mùa đông tới, áo của em có giữ ấm được không? Én phồng má: Mùa đông thì... thì để mùa đông hẵng hay!",
+      "subtitles": [
+        "Én vênh mỏ nói: Bác quạ ơi, áo lông bác đen sì, lại dày cộp, trông nặng nề quá!",
+        "Nhìn em này: cánh xanh biếc, cổ đỏ tươi, bụng trắng tinh, đuôi xẻ như cái kéo.",
+        "Em bay nhanh nhất làng, ai trông thấy cũng khen đẹp.",
+        "Quạ chẳng giận. Bác chỉ hỏi: Thế mùa đông tới, áo của em có giữ ấm được không?",
+        "Én phồng má: Mùa đông thì... thì để mùa đông hẵng hay!"
+      ],
+      "image": {
+        "character": "en",
+        "prompt": "the swallow shows off its shiny blue wings and forked tail on the oak branch, the calm black crow listens with a gentle smile",
+        "seed": 4269353521
+      },
+      "video": {
+        "motionPrompt": "the swallow spreads its wings and poses proudly, the crow tilts its head kindly, blossoms drift past",
+        "seed": 4074941337
+      },
+      "voice": {}
+    },
+    {
+      "id": "en-bay-di",
+      "title": "Gió lạnh thổi về",
+      "narrator": "ke-chuyen",
+      "narration": "Rồi hè qua, thu tới. Một sớm kia, gió bấc thổi rít, lá sồi rụng vàng cả sân. Bộ lông mỏng của én không chịu nổi cái lạnh. Én run run, gọi cả đàn: Đi thôi, đi thôi, bay về phương nam ấm áp thôi! Trước khi đi, én ngoái nhìn bác quạ vẫn ngồi trên cành, lông xù lên ấm áp, chẳng hề run.",
+      "subtitles": [
+        "Rồi hè qua, thu tới. Một sớm kia, gió bấc thổi rít, lá sồi rụng vàng cả sân.",
+        "Bộ lông mỏng của én không chịu nổi cái lạnh. Én run run, gọi cả đàn:",
+        "Đi thôi, đi thôi, bay về phương nam ấm áp thôi!",
+        "Trước khi đi, én ngoái nhìn bác quạ vẫn ngồi trên cành, lông xù lên ấm áp, chẳng hề run."
+      ],
+      "image": {
+        "character": "en",
+        "prompt": "in autumn, a flock of swallows gathers on a wire and flies south over the village, golden oak leaves blow in the cold wind, the crow sits fluffed up and calm on the oak branch",
+        "seed": 4116081617
+      },
+      "video": {
+        "motionPrompt": "golden leaves whirl in the wind, the swallows take off together in a long line toward the horizon, the crow watches calmly",
+        "seed": 2296427583
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-mua-dong",
+      "title": "Bác quạ giữa mùa đông",
+      "narrator": "ke-chuyen",
+      "narration": "Mùa đông năm ấy, tuyết rơi trắng xoá cả mái nhà, cả cánh đồng. Bác quạ vẫn ở lại làng. Bộ lông đen dày ủ ấm bác như một chiếc chăn bông. Bác bay đi tìm hạt rơi trên tuyết, đứng canh cây sồi, gọi lũ sẻ nhỏ đến nép vào tán cây. Bác lẩm bẩm: Áo của ta không đẹp, nhưng nó che cho ta suốt mùa lạnh.",
+      "subtitles": [
+        "Mùa đông năm ấy, tuyết rơi trắng xoá cả mái nhà, cả cánh đồng.",
+        "Bác quạ vẫn ở lại làng. Bộ lông đen dày ủ ấm bác như một chiếc chăn bông.",
+        "Bác bay đi tìm hạt rơi trên tuyết, đứng canh cây sồi, gọi lũ sẻ nhỏ đến nép vào tán cây.",
+        "Bác lẩm bẩm: Áo của ta không đẹp, nhưng nó che cho ta suốt mùa lạnh."
+      ],
+      "image": {
+        "character": "qua",
+        "prompt": "the black crow fluffed up warm on a snowy oak branch, little sparrows snuggling close beside it, the village rooftops covered in snow",
+        "seed": 2764883235
+      },
+      "video": {
+        "motionPrompt": "snow falls softly, the crow fluffs its feathers and shelters the sparrows, chimney smoke curls upward, slow gentle zoom",
+        "seed": 2292804953
+      },
+      "voice": {}
+    },
+    {
+      "id": "xuan-nam-sau",
+      "title": "Gặp lại vào mùa xuân",
+      "narrator": "ke-chuyen",
+      "narration": "Xuân năm sau, én bay về, sà xuống cây sồi già. Bác quạ vẫn ngồi đó, khoẻ mạnh vui vẻ. Én lí nhí: Bác quạ ơi, năm ngoái em nói sai rồi. Áo của em đẹp lúc trời ấm, còn áo của bác thì tốt cả lúc trời rét. Quạ cười hiền: Mỗi bộ áo hợp với một người, em ạ. Bay chơi cho vui đi! Từ đó, hai bạn chẳng cãi nhau nữa.",
+      "subtitles": [
+        "Xuân năm sau, én bay về, sà xuống cây sồi già. Bác quạ vẫn ngồi đó, khoẻ mạnh vui vẻ.",
+        "Én lí nhí: Bác quạ ơi, năm ngoái em nói sai rồi. Áo của em đẹp lúc trời ấm,",
+        "còn áo của bác thì tốt cả lúc trời rét.",
+        "Quạ cười hiền: Mỗi bộ áo hợp với một người, em ạ. Bay chơi cho vui đi!",
+        "Từ đó, hai bạn chẳng cãi nhau nữa."
+      ],
+      "image": {
+        "character": "en",
+        "prompt": "next spring the swallow returns and perches shyly next to the black crow on the blossoming oak, the two birds smile at each other",
+        "seed": 3719139106
+      },
+      "video": {
+        "motionPrompt": "the swallow lands and bows its head shyly, the crow smiles and nods, blossoms fall around them, warm spring light",
+        "seed": 3555154640
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, thứ đẹp đẽ lúc trời đẹp chưa chắc đã giúp được mình lúc khó khăn. Bạn tốt cũng thế, không phải ai đẹp nhất, mà là người ở bên mình cả lúc mưa rét. Còn Miu à, Miu vẫn thích váy hồng, nhưng mùa đông Miu nhớ quàng khăn nhé! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, thứ đẹp đẽ lúc trời đẹp chưa chắc đã giúp được mình lúc khó khăn.",
+        "Bạn tốt cũng thế, không phải ai đẹp nhất, mà là người ở bên mình cả lúc mưa rét.",
+        "Còn Miu à, Miu vẫn thích váy hồng, nhưng mùa đông Miu nhớ quàng khăn nhé!",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at sunset under the blossoming oak, the swallow and the crow sit together on a branch above her",
+        "seed": 3832047084
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and smiles, the swallow and the crow wave their wings, petals drift down, gentle camera pull-back",
+        "seed": 156616252
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle ancient Greek pastoral melody, reed flute and lyre, light and airy for spring then calm and warm for winter, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3834508342
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-ech-khoe-lam-thay-thuoc",
+  "shelf": "kids",
+  "title": "Chú ếch khoe làm thầy thuốc",
+  "summary": "Chú ếch nhảy lên bờ, khoe với muông thú rằng mình là thầy thuốc giỏi nhất, chữa được mọi bệnh. Cáo chỉ hỏi một câu mà ếch cứng họng. Ngụ ngôn Aesop kể vui cho bé về chuyện khoe khoang.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Quack Frog» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản dịch nào. Truyện gốc chỉ vài câu: Mèo Miu dẫn chuyện; bạn thỏ, bác gấu, các lọ thuốc lá cỏ và cảnh ếch về đầm do người viết thêm.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, warm sunny light, a green marsh with reeds and lily pads beside a forest meadow, rounded friendly shapes, gentle humorous mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 3576579639,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ech",
+      "name": "Chú ếch",
+      "seed": 1046772870,
+      "sheetPrompt": "a plump green frog with bumpy wrinkled skin, big round eyes and a proud grin, wearing a tiny leaf cap like a doctor, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cao",
+      "name": "Cáo",
+      "seed": 1069836982,
+      "sheetPrompt": "a clever red fox with a bushy tail, a thoughtful calm face and bright eyes, cute friendly cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "tho",
+      "name": "Bạn thỏ",
+      "seed": 319062789,
+      "sheetPrompt": "a small grey bunny with long ears, a sniffly pink nose and a curious face, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Khi bị ốm, các bạn đi gặp ai? Đúng rồi, bác sĩ! Bác sĩ phải học rất lâu, rất chăm mới chữa được bệnh cho mọi người. Hôm nay Miu kể chuyện một chú ếch tự xưng là thầy thuốc giỏi nhất khu rừng. Chú ếch có giỏi thật không nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Khi bị ốm, các bạn đi gặp ai? Đúng rồi, bác sĩ!",
+        "Bác sĩ phải học rất lâu, rất chăm mới chữa được bệnh cho mọi người.",
+        "Hôm nay Miu kể chuyện một chú ếch tự xưng là thầy thuốc giỏi nhất khu rừng.",
+        "Chú ếch có giỏi thật không nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a mossy log holding an open picture book, a little green frog wearing a leaf cap sits on a lily pad in the marsh behind her",
+        "seed": 2605904571
+      },
+      "video": {
+        "motionPrompt": "the cat taps the book and smiles, the frog puffs up its throat proudly, reeds sway, gentle camera push-in",
+        "seed": 1426858848
+      },
+      "voice": {}
+    },
+    {
+      "id": "ech-len-bo",
+      "title": "Ếch nhảy lên bờ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một cái đầm lầy đầy lau sậy, có một chú ếch rất thích được khen. Một sáng nọ, chú đội cái mũ bằng lá sen, xách giỏ lá cỏ, nhảy tót lên bờ. Chú đứng trên tảng đá giữa bãi cỏ, phồng mang kêu to: Ộp ộp! Bà con muông thú ơi, lại đây mà xem! Thỏ, nhím, gấu, sóc nghe gọi, ai nấy kéo tới đứng quanh.",
+      "subtitles": [
+        "Ngày xưa, ở một cái đầm lầy đầy lau sậy, có một chú ếch rất thích được khen.",
+        "Một sáng nọ, chú đội cái mũ bằng lá sen, xách giỏ lá cỏ, nhảy tót lên bờ.",
+        "Chú đứng trên tảng đá giữa bãi cỏ, phồng mang kêu to: Ộp ộp!",
+        "Bà con muông thú ơi, lại đây mà xem!",
+        "Thỏ, nhím, gấu, sóc nghe gọi, ai nấy kéo tới đứng quanh."
+      ],
+      "image": {
+        "character": "ech",
+        "prompt": "a proud green frog in a leaf cap stands on a rock in a forest meadow next to a little basket of herbs, calling out to a crowd of curious animals: a bunny, a hedgehog, a bear and a squirrel",
+        "seed": 2128191434
+      },
+      "video": {
+        "motionPrompt": "the frog puffs its throat and croaks loudly, the animals hop and waddle closer, butterflies flutter, playful timing",
+        "seed": 704260960
+      },
+      "voice": {}
+    },
+    {
+      "id": "khoe-khoang",
+      "title": "Thầy thuốc giỏi nhất",
+      "narrator": "ke-chuyen",
+      "narration": "Chú ếch vênh mặt nói: Ta là thầy thuốc tài giỏi nhất thiên hạ! Ta biết hết các loại lá, các loại rễ. Đau bụng, sổ mũi, gãy chân, bệnh gì ta cũng chữa khỏi tuốt! Chú bày ra mấy cái vỏ ốc đựng nước lá xanh lè: Đây là thuốc thần của ta đấy! Bạn thỏ đang sổ mũi, khịt khịt mũi hỏi: Thật hả bác ếch? Bác chữa cho cháu với! Bác gấu cũng gãi gãi cái lưng: Còn tôi bị ngứa lưng mãi, có thuốc không?",
+      "subtitles": [
+        "Chú ếch vênh mặt nói: Ta là thầy thuốc tài giỏi nhất thiên hạ!",
+        "Ta biết hết các loại lá, các loại rễ.",
+        "Đau bụng, sổ mũi, gãy chân, bệnh gì ta cũng chữa khỏi tuốt!",
+        "Chú bày ra mấy cái vỏ ốc đựng nước lá xanh lè: Đây là thuốc thần của ta đấy!",
+        "Bạn thỏ đang sổ mũi, khịt khịt mũi hỏi: Thật hả bác ếch? Bác chữa cho cháu với!",
+        "Bác gấu cũng gãi gãi cái lưng: Còn tôi bị ngứa lưng mãi, có thuốc không?"
+      ],
+      "image": {
+        "character": "tho",
+        "prompt": "the frog proudly shows off snail shells filled with green herb water, a sniffly little bunny and a big bear scratching his back listen hopefully",
+        "seed": 1200633091
+      },
+      "video": {
+        "motionPrompt": "the frog waves its arms grandly over the shells, the bunny sniffles, the bear scratches his back on a tree, comic timing",
+        "seed": 3773550243
+      },
+      "voice": {}
+    },
+    {
+      "id": "cao-hoi",
+      "title": "Câu hỏi của cáo",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc ấy, cáo đỏ từ bụi cây bước ra. Cáo nhìn ếch từ đầu đến chân, rồi hỏi: Này ếch, nếu anh chữa được mọi bệnh, sao anh không chữa cho mình trước? Anh nhảy thì khập khiễng, da thì nhăn nheo sần sùi thế kia. Mình còn chưa chữa nổi cho mình, thì chữa cho ai được?",
+      "subtitles": [
+        "Đúng lúc ấy, cáo đỏ từ bụi cây bước ra. Cáo nhìn ếch từ đầu đến chân, rồi hỏi:",
+        "Này ếch, nếu anh chữa được mọi bệnh, sao anh không chữa cho mình trước?",
+        "Anh nhảy thì khập khiễng, da thì nhăn nheo sần sùi thế kia.",
+        "Mình còn chưa chữa nổi cho mình, thì chữa cho ai được?"
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "a clever red fox steps out of a bush and points calmly at the frog's bumpy wrinkled skin and wobbly legs, the other animals turn to look at the frog",
+        "seed": 3148692812
+      },
+      "video": {
+        "motionPrompt": "the fox steps forward and raises a paw thoughtfully, the animals turn their heads one by one toward the frog",
+        "seed": 1100364439
+      },
+      "voice": {}
+    },
+    {
+      "id": "ech-cung-hong",
+      "title": "Ếch cứng họng",
+      "narrator": "ke-chuyen",
+      "narration": "Chú ếch há miệng định cãi, nhưng chẳng nghĩ ra câu nào. Chỉ phát ra được một tiếng: Ộp! Muông thú nhìn nhau rồi phá lên cười. Bạn thỏ khịt mũi: Thôi, cháu về nhờ bác cú già vậy. Chú ếch đỏ bừng mặt, cái mũ lá rơi xuống đất. Chú ôm giỏ lá, nhảy bõm xuống đầm, lặn mất tăm trong đám lau sậy.",
+      "subtitles": [
+        "Chú ếch há miệng định cãi, nhưng chẳng nghĩ ra câu nào. Chỉ phát ra được một tiếng: Ộp!",
+        "Muông thú nhìn nhau rồi phá lên cười. Bạn thỏ khịt mũi: Thôi, cháu về nhờ bác cú già vậy.",
+        "Chú ếch đỏ bừng mặt, cái mũ lá rơi xuống đất.",
+        "Chú ôm giỏ lá, nhảy bõm xuống đầm, lặn mất tăm trong đám lau sậy."
+      ],
+      "image": {
+        "character": "ech",
+        "prompt": "the embarrassed frog with open mouth and a fallen leaf cap, the animals laughing kindly, then the frog hops back into the marsh with a splash",
+        "seed": 572992206
+      },
+      "video": {
+        "motionPrompt": "the frog's leaf cap slides off, the animals laugh, the frog leaps into the water with a big splash, ripples spread among the reeds",
+        "seed": 3736980401
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, khoe mình giỏi thì dễ, nhưng làm được thật mới khó. Muốn người khác tin mình, mình phải học thật, làm thật, chứ không chỉ nói to thôi. Còn bạn thỏ à, bạn ấy được bác cú già cho uống nước ấm, ngủ một giấc là khỏi sổ mũi rồi. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, khoe mình giỏi thì dễ, nhưng làm được thật mới khó.",
+        "Muốn người khác tin mình, mình phải học thật, làm thật, chứ không chỉ nói to thôi.",
+        "Còn bạn thỏ à, bạn ấy được bác cú già cho uống nước ấm, ngủ một giấc là khỏi sổ mũi rồi.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye by the marsh at sunset, the bunny happily hops with a wise old owl nearby, the frog peeks shyly from the reeds",
+        "seed": 1132481326
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and smiles, the bunny hops, the frog blinks from the reeds, fireflies begin to glow, gentle camera pull-back",
+        "seed": 652382063
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light playful woodland melody with a croaking-frog rhythm, reed flute, lyre and soft wooden percussion, humorous and warm, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4134380420
+  }
+}

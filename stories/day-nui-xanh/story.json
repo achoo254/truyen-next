@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "slug": "day-nui-xanh",
+  "shelf": "adults",
+  "title": "Dãy núi xanh",
+  "summary": "Ba người lính đào ngũ lạc trong rừng sâu, và chỉ chàng lính Ireland chịu hỏi nàng công chúa trong lâu đài vắng xem nàng là ai. Ba đêm bị đánh tơi bời để giải lời yểm, một cây kim độc ác, ba ông già sống ba trăm năm và con đại bàng bay tới dãy núi xanh. Truyện dân gian xứ Gael kể đầy đủ cho người lớn.",
+  "themes": [
+    "tinh-yeu",
+    "anh-hung",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «The Blue Mountains» trong The Yellow Fairy Book do Andrew Lang chủ biên (1894), truyện dân gian xứ Gael vùng Scotland, Project Gutenberg, thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới hoàn toàn, theo sát cốt truyện của bản Lang.",
+  "basedOn": "Truyện dân gian Scotland, Andrew Lang kể lại (1894)",
+  "style": "Celtic fairy tale illustration in the manner of late Victorian storybook engravings with muted watercolor, deep green forests, misty highlands and a grey stone castle, distant blue mountains on the horizon, interlaced Celtic knot borders, moody candlelight interiors, grand and melancholy mood for adult readers, danger shown with restraint, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "chang-linh",
+      "name": "Chàng lính Ireland",
+      "sheetPrompt": "a young Irish soldier of the eighteenth century, lean and weathered, curly red-brown hair, honest freckled face, a worn red army coat with tarnished buttons, grey breeches, battered boots, a clay pipe in his pocket, full body, front and side views, plain parchment background, character reference sheet",
+      "seed": 2104292886
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa núi Xanh",
+      "sheetPrompt": "an enchanted Celtic princess, young woman with very long pale golden hair, sad grey-green eyes, a flowing gown of deep blue embroidered with silver knotwork, a thin silver circlet, full body, front and side views, plain parchment background, character reference sheet",
+      "seed": 2219164065
+    },
+    {
+      "id": "dai-bang",
+      "name": "Con đại bàng",
+      "sheetPrompt": "an enormous ancient golden eagle large enough to carry a man, dark brown and gold feathers, fierce amber eyes, hooked beak, wings spread wide, full body, side view, plain parchment background, character reference sheet",
+      "seed": 3237895048
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-nguoi-linh-tron",
+      "title": "Ba người lính bỏ trốn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có ba người lính cùng ở một đạo quân: một người xứ Scotland, một người xứ Anh và một người xứ Ireland. Cả ba bàn nhau hễ có dịp là bỏ trốn, và dịp ấy đã đến. Họ đi suốt hai ngày qua một khu rừng lớn, không cơm không nước, không gặp lấy một mái nhà. Đêm nào cũng phải trèo lên cây mà ngủ, vì sợ thú dữ trong rừng. Sáng ngày thứ hai, từ ngọn cây, anh lính Scotland trông thấy một tòa lâu đài ở rất xa. Anh nghĩ: Ở lại đây gặm rễ cỏ thì chết đói mất. Thế rồi anh tụt xuống và đi thẳng về phía lâu đài, chẳng nói với hai bạn một lời. Có lẽ đói khát đã làm lòng người đổi khác, đến nỗi ai chỉ còn lo cho thân mình.",
+      "subtitles": [
+        "Ngày xưa có ba người lính cùng ở một đạo quân: một người xứ Scotland,",
+        "một người xứ Anh và một người xứ Ireland.",
+        "Cả ba bàn nhau hễ có dịp là bỏ trốn, và dịp ấy đã đến.",
+        "Họ đi suốt hai ngày qua một khu rừng lớn, không cơm không nước, không gặp lấy một mái nhà.",
+        "Đêm nào cũng phải trèo lên cây mà ngủ, vì sợ thú dữ trong rừng.",
+        "Sáng ngày thứ hai, từ ngọn cây, anh lính Scotland trông thấy một tòa lâu đài ở rất xa.",
+        "Anh nghĩ: Ở lại đây gặm rễ cỏ thì chết đói mất.",
+        "Thế rồi anh tụt xuống và đi thẳng về phía lâu đài, chẳng nói với hai bạn một lời.",
+        "Có lẽ đói khát đã làm lòng người đổi khác, đến nỗi ai chỉ còn lo cho thân mình."
+      ],
+      "image": {
+        "prompt": "three ragged eighteenth century soldiers in faded red coats sleeping on high branches of huge oak trees in a dark Celtic forest at night, glowing eyes of wolves in the undergrowth below",
+        "seed": 2983812899,
+        "character": "chang-linh"
+      },
+      "video": {
+        "motionPrompt": "branches sway in the night wind, glowing eyes blink in the dark below, mist drifts between the trunks, slow upward tilt",
+        "seed": 2658466291
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-vang-ve",
+      "title": "Tòa lâu đài vắng vẻ",
+      "narrator": "ke-chuyen",
+      "narration": "Chiều muộn anh lính Scotland mới tới nơi, nhưng cửa nào cũng đóng, ống khói nào cũng lạnh tanh. Anh nằm xuống bên chân tường, nghĩ phen này đằng nào cũng chết. Bỗng một khung cửa sổ trên cao mở ra, và anh thấy người đàn bà đẹp nhất đời mình. Nàng hỏi anh cần gì. Anh đáp: Tôi sắp chết vì đói khát. Nàng mời anh vào, dọn cho anh ăn uống no nê, rồi dẫn anh tới một gian phòng lớn có rất nhiều đàn ông đang nằm ngủ say. Anh nằm xuống một chiếc giường và ngủ thiếp đi. Sáng hôm sau, anh lính Anh trèo lên đúng cái cây ấy, cũng thấy lâu đài, cũng lặng lẽ bỏ đi, và mọi chuyện xảy ra với anh y hệt như vậy.",
+      "subtitles": [
+        "Chiều muộn anh lính Scotland mới tới nơi, nhưng cửa nào cũng đóng,",
+        "ống khói nào cũng lạnh tanh.",
+        "Anh nằm xuống bên chân tường, nghĩ phen này đằng nào cũng chết.",
+        "Bỗng một khung cửa sổ trên cao mở ra, và anh thấy người đàn bà đẹp nhất đời mình.",
+        "Nàng hỏi anh cần gì. Anh đáp: Tôi sắp chết vì đói khát.",
+        "Nàng mời anh vào, dọn cho anh ăn uống no nê,",
+        "rồi dẫn anh tới một gian phòng lớn có rất nhiều đàn ông đang nằm ngủ say.",
+        "Anh nằm xuống một chiếc giường và ngủ thiếp đi.",
+        "Sáng hôm sau, anh lính Anh trèo lên đúng cái cây ấy, cũng thấy lâu đài,",
+        "cũng lặng lẽ bỏ đi, và mọi chuyện xảy ra với anh y hệt như vậy."
+      ],
+      "image": {
+        "prompt": "a grey stone castle with closed doors and cold chimneys at dusk, a beautiful pale woman with long golden hair leaning from a high window above an exhausted soldier lying against the wall",
+        "seed": 2248313133
+      },
+      "video": {
+        "motionPrompt": "the high window swings open, candlelight spills out, the woman leans down, the soldier lifts his head, slow tilt up the wall",
+        "seed": 3759343728
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-biet-hoi",
+      "title": "Người duy nhất biết hỏi",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng lính Ireland còn lại một mình, buồn bã chẳng biết hai bạn đi đâu. Đêm đến, chàng trèo lên cái cây hôm trước, và sáng ra cũng thấy tòa lâu đài. Nàng công chúa mời chàng vào, bày ra những món ăn chàng chưa thấy bao giờ. Căn phòng có chiếc giường treo nhẫn kim cương ở từng vòng rèm, đẹp đến nỗi chàng quên cả đói. Thấy chàng không ăn, nàng hỏi chàng còn muốn gì nữa. Chàng đáp: Tôi sẽ không ăn không uống, chừng nào chưa biết cô là ai, từ đâu tới, và ai đã đưa cô vào đây.",
+      "subtitles": [
+        "Chàng lính Ireland còn lại một mình, buồn bã chẳng biết hai bạn đi đâu.",
+        "Đêm đến, chàng trèo lên cái cây hôm trước, và sáng ra cũng thấy tòa lâu đài.",
+        "Nàng công chúa mời chàng vào, bày ra những món ăn chàng chưa thấy bao giờ.",
+        "Căn phòng có chiếc giường treo nhẫn kim cương ở từng vòng rèm,",
+        "đẹp đến nỗi chàng quên cả đói.",
+        "Thấy chàng không ăn, nàng hỏi chàng còn muốn gì nữa.",
+        "Chàng đáp: Tôi sẽ không ăn không uống, chừng nào chưa biết cô là ai, từ đâu tới,",
+        "và ai đã đưa cô vào đây."
+      ],
+      "image": {
+        "prompt": "a candlelit chamber in a Celtic castle, a table laden with strange rich dishes, a bed whose curtains are hung with diamond rings, a young soldier refusing to eat and looking earnestly at the golden haired princess",
+        "seed": 457841399,
+        "character": "chang-linh"
+      },
+      "video": {
+        "motionPrompt": "candle flames flicker, diamond rings on the bed curtains glint, the soldier pushes his plate away and leans forward, slow push-in",
+        "seed": 3909825431
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-yem",
+      "title": "Lời yểm mười sáu năm",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng nói: Ta là một công chúa bị yểm bùa. Cha ta hứa ai giải được bùa cho ta thì được một phần ba vương quốc lúc ông còn sống, cả vương quốc khi ông mất, và được cưới ta. Ta ở đây đã mười sáu năm, chưa một ai đến lâu đài mà hỏi ta là ai, chỉ trừ chàng. Mọi kẻ khác đều đang nằm ngủ trong gian phòng lớn dưới kia. Chàng hỏi cách nào giải được bùa. Nàng đáp: Có một căn phòng nhỏ đằng kia. Nếu có người chịu ở trong ấy từ mười giờ đến nửa đêm, ba đêm liền, thì ta sẽ được tự do. Chàng lính nói ngay: Vậy tôi là người cô cần, tôi xin nhận việc ấy.",
+      "subtitles": [
+        "Nàng nói: Ta là một công chúa bị yểm bùa.",
+        "Cha ta hứa ai giải được bùa cho ta thì được một phần ba vương quốc lúc ông còn sống,",
+        "cả vương quốc khi ông mất, và được cưới ta.",
+        "Ta ở đây đã mười sáu năm, chưa một ai đến lâu đài mà hỏi ta là ai, chỉ trừ chàng.",
+        "Mọi kẻ khác đều đang nằm ngủ trong gian phòng lớn dưới kia.",
+        "Chàng hỏi cách nào giải được bùa.",
+        "Nàng đáp: Có một căn phòng nhỏ đằng kia.",
+        "Nếu có người chịu ở trong ấy từ mười giờ đến nửa đêm, ba đêm liền, thì ta sẽ được tự do.",
+        "Chàng lính nói ngay: Vậy tôi là người cô cần, tôi xin nhận việc ấy."
+      ],
+      "image": {
+        "prompt": "the golden haired princess in a deep blue gown telling her story beside a tall window, a great hall below glimpsed through an arch where dozens of men lie asleep on beds under dust and cobwebs",
+        "seed": 1638899365,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the princess turns toward the window, dust motes float above the sleeping men in the hall below, candlelight wavers, slow pan across the hall",
+        "seed": 302780099
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-dem-bi-danh",
+      "title": "Ba đêm trong căn phòng nhỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng đưa cho chàng tẩu và thuốc, rồi chàng vào căn phòng nhỏ. Chẳng bao lâu, có tiếng đập cửa rầm rầm, bắt chàng mở ra. Chàng đáp: Không mở. Lập tức cánh cửa bay vào, cùng với cả đám người bên ngoài. Chúng quật chàng xuống, đá chàng, quỳ lên người chàng cho tới nửa đêm, nhưng gà vừa gáy thì chúng biến mất. Sáng ra, công chúa thấy chàng nằm sóng soài, không nói nổi một lời. Nàng lấy một cái chai, xoa thuốc khắp người chàng, và chàng lại lành lặn như xưa. Đêm thứ hai, bọn chúng đông gấp ba, tung chàng lên tận trần nhà cho tới khi gà gáy. Đêm thứ ba lại đông gấp ba nữa. Sáng hôm ấy chàng nằm như người chết, nàng phải bắt mạch mới thấy còn thoi thóp. Nàng đổ hết thuốc trong chai lên người chàng, chàng đứng dậy khỏe như thường, và lời yểm được giải.",
+      "subtitles": [
+        "Nàng đưa cho chàng tẩu và thuốc, rồi chàng vào căn phòng nhỏ.",
+        "Chẳng bao lâu, có tiếng đập cửa rầm rầm, bắt chàng mở ra.",
+        "Chàng đáp: Không mở.",
+        "Lập tức cánh cửa bay vào, cùng với cả đám người bên ngoài.",
+        "Chúng quật chàng xuống, đá chàng, quỳ lên người chàng cho tới nửa đêm,",
+        "nhưng gà vừa gáy thì chúng biến mất.",
+        "Sáng ra, công chúa thấy chàng nằm sóng soài, không nói nổi một lời.",
+        "Nàng lấy một cái chai, xoa thuốc khắp người chàng, và chàng lại lành lặn như xưa.",
+        "Đêm thứ hai, bọn chúng đông gấp ba, tung chàng lên tận trần nhà cho tới khi gà gáy.",
+        "Đêm thứ ba lại đông gấp ba nữa.",
+        "Sáng hôm ấy chàng nằm như người chết, nàng phải bắt mạch mới thấy còn thoi thóp.",
+        "Nàng đổ hết thuốc trong chai lên người chàng, chàng đứng dậy khỏe như thường,",
+        "và lời yểm được giải."
+      ],
+      "image": {
+        "prompt": "a small bare stone room at midnight, its door burst inward, a crowd of shadowy goblin-like figures crowding around a fallen soldier, a clay pipe dropped on the floor, a cockerel silhouetted at a window against the first light",
+        "seed": 70148825,
+        "character": "chang-linh"
+      },
+      "video": {
+        "motionPrompt": "shadowy figures whirl around the room, the soldier is tossed upward, then the cockerel crows at the window and the figures dissolve into smoke, quick then slow",
+        "seed": 2593841948
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-kim",
+      "title": "Cậu bé tóc vàng và cây kim",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa bảo chàng rằng nàng phải đi một thời gian, vài hôm nữa sẽ quay lại đón chàng bằng cỗ xe bốn ngựa xám. Chàng chưa kịp níu, nàng đã biến mất, chỉ để lại một cây gậy nhỏ để đánh thức những người đang ngủ. Rồi một cậu bé tóc vàng xuất hiện, nói rằng cậu được bà chủ sai tới hầu chàng, và sáng mai chín giờ nàng sẽ đến. Sáng hôm sau, chàng ra vườn đợi. Nhưng cậu bé lén cắm một cây kim to vào lưng áo chàng, và chàng lăn ra ngủ say. Công chúa đến, hỏi chủ cậu đã dậy chưa. Cậu đáp chưa. Nàng nói: Mai mà chàng không gặp ta đúng giờ này, e rằng cả đời chẳng còn thấy ta nữa. Hôm sau lại y như thế. Lần này nàng buồn bã để lại một thanh gươm cùng lời chúc phúc, rồi đi hẳn. Cậu bé rút kim ra, chàng tỉnh dậy, giận đến muốn đánh cậu, nhưng ngoảnh lại thì cậu bé đã không còn dấu vết.",
+      "subtitles": [
+        "Công chúa bảo chàng rằng nàng phải đi một thời gian,",
+        "vài hôm nữa sẽ quay lại đón chàng bằng cỗ xe bốn ngựa xám.",
+        "Chàng chưa kịp níu, nàng đã biến mất,",
+        "chỉ để lại một cây gậy nhỏ để đánh thức những người đang ngủ.",
+        "Rồi một cậu bé tóc vàng xuất hiện, nói rằng cậu được bà chủ sai tới hầu chàng,",
+        "và sáng mai chín giờ nàng sẽ đến.",
+        "Sáng hôm sau, chàng ra vườn đợi.",
+        "Nhưng cậu bé lén cắm một cây kim to vào lưng áo chàng, và chàng lăn ra ngủ say.",
+        "Công chúa đến, hỏi chủ cậu đã dậy chưa. Cậu đáp chưa.",
+        "Nàng nói: Mai mà chàng không gặp ta đúng giờ này, e rằng cả đời chẳng còn thấy ta nữa.",
+        "Hôm sau lại y như thế.",
+        "Lần này nàng buồn bã để lại một thanh gươm cùng lời chúc phúc, rồi đi hẳn.",
+        "Cậu bé rút kim ra, chàng tỉnh dậy, giận đến muốn đánh cậu,",
+        "nhưng ngoảnh lại thì cậu bé đã không còn dấu vết."
+      ],
+      "image": {
+        "prompt": "a castle garden in morning light, a young soldier asleep on a bench, a small fair-haired boy slyly pressing a long pin into the back of his coat, a carriage with four grey horses arriving at the gate",
+        "seed": 1651998929,
+        "character": "chang-linh"
+      },
+      "video": {
+        "motionPrompt": "the boy slips the pin into the coat, the soldier slumps into sleep, the grey horses toss their heads at the gate, gentle pan from the bench to the carriage",
+        "seed": 2905900474
+      },
+      "voice": {}
+    },
+    {
+      "id": "danh-thuc-nguoi-ngu",
+      "title": "Đánh thức những người ngủ",
+      "narrator": "ke-chuyen",
+      "narration": "Còn lại một mình, chàng vào gian phòng lớn, và giữa những người đang ngủ, chàng nhận ra hai người bạn đã bỏ mình mà đi. Nhớ lời công chúa, chàng chạm cây gậy vào họ trước tiên. Họ bật dậy, và chàng cho họ vàng bạc mang được bao nhiêu thì mang. Chàng còn bận rộn cả ngày đánh thức những người khác, có người đã ngủ tới mười sáu năm, hai cửa lâu đài đông nghẹt người ra về. Nhưng nỗi mất nàng công chúa cứ day dứt chàng ngày đêm. Chàng bèn lấy con ngựa tốt nhất trong chuồng, lên đường đi khắp thế gian hỏi tin nàng.",
+      "subtitles": [
+        "Còn lại một mình, chàng vào gian phòng lớn, và giữa những người đang ngủ,",
+        "chàng nhận ra hai người bạn đã bỏ mình mà đi.",
+        "Nhớ lời công chúa, chàng chạm cây gậy vào họ trước tiên.",
+        "Họ bật dậy, và chàng cho họ vàng bạc mang được bao nhiêu thì mang.",
+        "Chàng còn bận rộn cả ngày đánh thức những người khác,",
+        "có người đã ngủ tới mười sáu năm, hai cửa lâu đài đông nghẹt người ra về.",
+        "Nhưng nỗi mất nàng công chúa cứ day dứt chàng ngày đêm.",
+        "Chàng bèn lấy con ngựa tốt nhất trong chuồng, lên đường đi khắp thế gian hỏi tin nàng."
+      ],
+      "image": {
+        "prompt": "a vast dim hall of a castle full of men waking up from long sleep, stretching and rubbing their eyes, a young soldier touching them with a small wand, two of his former comrades rising first",
+        "seed": 391727642
+      },
+      "video": {
+        "motionPrompt": "the wand touches a sleeper, he blinks awake, ripples of waking spread across the hall, dust rises, slow pan",
+        "seed": 4114404633
+      },
+      "voice": {}
+    },
+    {
+      "id": "thanh-guom-co-chu",
+      "title": "Dòng chữ trên lưỡi gươm",
+      "narrator": "ke-chuyen",
+      "narration": "Ba năm ròng chàng đi qua rừng rậm và đồng hoang, không ai nói được gì về nàng. Cuối cùng chàng tuyệt vọng đến mức muốn tự kết liễu đời mình bằng chính thanh gươm nàng để lại. Nhưng vừa rút gươm khỏi vỏ, chàng thấy một bên lưỡi có khắc chữ: Chàng sẽ tìm thấy ta ở dãy núi xanh. Chàng lấy lại can đảm, bỏ ý định kia, quyết đi tiếp cho tới khi gặp người chỉ được đường tới dãy núi xanh.",
+      "subtitles": [
+        "Ba năm ròng chàng đi qua rừng rậm và đồng hoang, không ai nói được gì về nàng.",
+        "Cuối cùng chàng tuyệt vọng đến mức muốn tự kết liễu đời mình bằng chính thanh gươm nàng để",
+        "lại.",
+        "Nhưng vừa rút gươm khỏi vỏ, chàng thấy một bên lưỡi có khắc chữ: Chàng sẽ tìm thấy ta ở",
+        "dãy núi xanh. Chàng lấy lại can đảm, bỏ ý định kia,",
+        "quyết đi tiếp cho tới khi gặp người chỉ được đường tới dãy núi xanh."
+      ],
+      "image": {
+        "prompt": "a weary traveler in a worn red coat kneeling alone on a bleak moor at dusk, holding a half drawn sword, engraved lettering glinting faintly along the blade as a symbol, a tired horse grazing behind him",
+        "seed": 684925816,
+        "character": "chang-linh"
+      },
+      "video": {
+        "motionPrompt": "the blade slides from the sheath, a soft gleam travels along the engraving, the traveler's face changes from despair to hope, slow push-in",
+        "seed": 2062025080
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-ong-gia",
+      "title": "Ba ông già ba trăm tuổi",
+      "narrator": "ke-chuyen",
+      "narration": "Một đêm, chàng thấy ánh đèn của một túp nhà nhỏ. Ông già trong nhà bảo: Ta sống ở đây ba trăm năm, chưa thấy một con người nào ngoài cậu. Ông có cuốn sách chép lịch sử thế gian, thức trắng đêm lật tìm, nhưng không có một chữ nào về dãy núi xanh. Ông bảo: Ta có người anh sống cách đây chín trăm dặm. Ông thổi còi một tiếng, và chưa tối chàng đã đứng trước cửa nhà người anh. Người anh cũng ba trăm năm không gặp ai, cũng thức đêm lật sách, cũng chẳng tìm ra. Ông lại thổi còi đưa chàng tới người em thứ ba. Ông già thứ ba nói: Ta chưa nghe tên ấy bao giờ, nhưng ta là chúa của mọi loài chim trên thế gian.",
+      "subtitles": [
+        "Một đêm, chàng thấy ánh đèn của một túp nhà nhỏ.",
+        "Ông già trong nhà bảo: Ta sống ở đây ba trăm năm, chưa thấy một con người nào ngoài cậu.",
+        "Ông có cuốn sách chép lịch sử thế gian, thức trắng đêm lật tìm,",
+        "nhưng không có một chữ nào về dãy núi xanh.",
+        "Ông bảo: Ta có người anh sống cách đây chín trăm dặm.",
+        "Ông thổi còi một tiếng, và chưa tối chàng đã đứng trước cửa nhà người anh.",
+        "Người anh cũng ba trăm năm không gặp ai, cũng thức đêm lật sách, cũng chẳng tìm ra.",
+        "Ông lại thổi còi đưa chàng tới người em thứ ba.",
+        "Ông già thứ ba nói: Ta chưa nghe tên ấy bao giờ,",
+        "nhưng ta là chúa của mọi loài chim trên thế gian."
+      ],
+      "image": {
+        "prompt": "a tiny lamplit hut in a wild wilderness, an ancient white bearded old man reading a huge leather book of the world's history by candlelight while a young soldier waits, an old silver whistle on the table",
+        "seed": 268529433
+      },
+      "video": {
+        "motionPrompt": "pages of the great book turn slowly, the candle gutters, the old man lifts the whistle to his lips and a swirl of wind fills the room, slow push-in",
+        "seed": 3491639828
+      },
+      "voice": {}
+    },
+    {
+      "id": "dai-bang-den-muon",
+      "title": "Con đại bàng đến muộn",
+      "narrator": "ke-chuyen",
+      "narration": "Ông thổi còi, và chim muông khắp thế gian kéo về. Ông hỏi từng con đến từ đâu, nhưng không con nào đến từ dãy núi xanh. Chỉ thiếu một con đại bàng lớn. Lát sau có vật gì khổng lồ bay tới, che tối cả bầu trời. Ông mắng nó đến muộn. Đại bàng đáp: Tôi phải bay xa gấp hai mươi lần mọi con chim khác, tôi từ dãy núi xanh về. Ở đó người ta đang sửa soạn đám cưới cho con gái vua dãy núi xanh. Ba năm nay nàng chối từ mọi người, chờ người đã giải bùa cho nàng. Nay hết hạn ba năm đã hứa với vua cha, nàng không thể chờ thêm. Chàng lính biết nàng chờ chính mình, nhưng làm sao tới được đó.",
+      "subtitles": [
+        "Ông thổi còi, và chim muông khắp thế gian kéo về.",
+        "Ông hỏi từng con đến từ đâu, nhưng không con nào đến từ dãy núi xanh.",
+        "Chỉ thiếu một con đại bàng lớn.",
+        "Lát sau có vật gì khổng lồ bay tới, che tối cả bầu trời.",
+        "Ông mắng nó đến muộn.",
+        "Đại bàng đáp: Tôi phải bay xa gấp hai mươi lần mọi con chim khác, tôi từ dãy núi xanh về.",
+        "Ở đó người ta đang sửa soạn đám cưới cho con gái vua dãy núi xanh.",
+        "Ba năm nay nàng chối từ mọi người, chờ người đã giải bùa cho nàng.",
+        "Nay hết hạn ba năm đã hứa với vua cha, nàng không thể chờ thêm.",
+        "Chàng lính biết nàng chờ chính mình, nhưng làm sao tới được đó."
+      ],
+      "image": {
+        "prompt": "thousands of birds of every kind gathered around an ancient old man on a hilltop, the sky darkened by a gigantic golden eagle descending with outspread wings, a young soldier gazing up in awe",
+        "seed": 2845736889,
+        "character": "dai-bang"
+      },
+      "video": {
+        "motionPrompt": "flocks of birds swirl and settle, a huge shadow sweeps over them as the eagle descends and folds its wings, slow tilt down",
+        "seed": 3836409941
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-ve-nui-xanh",
+      "title": "Bay về dãy núi xanh",
+      "narrator": "ke-chuyen",
+      "narration": "Ông già hỏi đại bàng muốn gì để chở chàng đi. Nó đáp: Phải giết sáu mươi con bò, chặt thành từng phần tư, và mỗi lần tôi ngoái lại, chàng phải ném một miếng vào miệng tôi. Chàng và ông già đi săn tới chiều, đủ sáu mươi con bò, chất thịt lên lưng chim, phải bắc cái thang mười bốn bậc mới trèo lên được. Đại bàng cất cánh, và mỗi lần nó ngoái đầu, chàng lại ném thịt vào. Gần tới biên giới thì thịt hết. Khi đại bàng ngoái lại lần nữa, chàng chỉ còn cách ném hòn đá vào giữa cổ và đuôi nó. Đại bàng lộn nhào một vòng, hất chàng rơi xuống biển, ngay vịnh trước cung điện nhà vua. May thay đầu ngón chân chàng vừa chạm đáy, và chàng lội được vào bờ.",
+      "subtitles": [
+        "Ông già hỏi đại bàng muốn gì để chở chàng đi.",
+        "Nó đáp: Phải giết sáu mươi con bò, chặt thành từng phần tư,",
+        "và mỗi lần tôi ngoái lại, chàng phải ném một miếng vào miệng tôi.",
+        "Chàng và ông già đi săn tới chiều, đủ sáu mươi con bò, chất thịt lên lưng chim,",
+        "phải bắc cái thang mười bốn bậc mới trèo lên được.",
+        "Đại bàng cất cánh, và mỗi lần nó ngoái đầu, chàng lại ném thịt vào.",
+        "Gần tới biên giới thì thịt hết.",
+        "Khi đại bàng ngoái lại lần nữa, chàng chỉ còn cách ném hòn đá vào giữa cổ và đuôi nó.",
+        "Đại bàng lộn nhào một vòng, hất chàng rơi xuống biển, ngay vịnh trước cung điện nhà vua.",
+        "May thay đầu ngón chân chàng vừa chạm đáy, và chàng lội được vào bờ."
+      ],
+      "image": {
+        "prompt": "a gigantic eagle flying over a stormy sea toward a range of shimmering blue mountains, a young soldier on its back tossing a large piece of meat into its open beak, a royal palace glowing on the shore far below",
+        "seed": 1225781731,
+        "character": "dai-bang"
+      },
+      "video": {
+        "motionPrompt": "the eagle turns its head back, the soldier throws, the wings beat over the waves, then the eagle somersaults and the tiny figure falls toward the bay, sweeping camera",
+        "seed": 1441521815
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi",
+      "title": "Đám cưới một năm một ngày",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng lên thị trấn thì đường phố rực đèn, đám cưới của công chúa sắp bắt đầu. Chàng bước vào ngôi nhà đầu tiên gặp được, đó là nhà bà lão nuôi gà của nhà vua. Bà kể: Đêm nay công chúa phải lấy chồng trái ý mình, vì nàng vẫn ngày ngày mong người đã giải bùa cho nàng. Chàng đưa bà một đồng vàng: Bà đi gọi nàng tới đây. Bà lão đi, và chẳng mấy chốc trở về cùng công chúa. Hai người nhận ra nhau ngay. Họ nên vợ nên chồng, và đám cưới linh đình kéo dài một năm một ngày.",
+      "subtitles": [
+        "Chàng lên thị trấn thì đường phố rực đèn, đám cưới của công chúa sắp bắt đầu.",
+        "Chàng bước vào ngôi nhà đầu tiên gặp được, đó là nhà bà lão nuôi gà của nhà vua.",
+        "Bà kể: Đêm nay công chúa phải lấy chồng trái ý mình,",
+        "vì nàng vẫn ngày ngày mong người đã giải bùa cho nàng.",
+        "Chàng đưa bà một đồng vàng: Bà đi gọi nàng tới đây.",
+        "Bà lão đi, và chẳng mấy chốc trở về cùng công chúa.",
+        "Hai người nhận ra nhau ngay.",
+        "Họ nên vợ nên chồng, và đám cưới linh đình kéo dài một năm một ngày."
+      ],
+      "image": {
+        "prompt": "a humble cottage kitchen lit by firelight, the golden haired princess in a wedding gown of blue and silver rushing into the arms of a dripping wet soldier, an old hen-wife smiling beside the hearth, festive lights of the town through the window",
+        "seed": 1466750935,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the door bursts open, the princess runs in, the two embrace, firelight and festival lanterns glow, slow pull-back",
+        "seed": 1116517775
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "Celtic folk instrumental, low whistle and harp over a slow drone, misty and longing, a lively jig breaking out near the end for the wedding, no vocals",
+    "durationSeconds": 180,
+    "seed": 3032206152
+  }
+}

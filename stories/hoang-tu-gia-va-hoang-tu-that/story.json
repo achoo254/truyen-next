@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "slug": "hoang-tu-gia-va-hoang-tu-that",
+  "shelf": "world",
+  "title": "Hoàng tử giả và hoàng tử thật",
+  "summary": "Chàng quý tộc trẻ lỡ tay đánh hoàng tử và sắp bị xử tội nặng thì một bà lão trăm tuổi hứa cứu, với điều kiện chàng phải cưới bà. Trước triều đình, chàng kể ra những bí mật làm lộ ai mới là hoàng tử thật. Truyện dân gian Bồ Đào Nha kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "tinh-yeu",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Bồ Đào Nha, theo bản tiếng Anh \"The False Prince and the True\" trong The Lilac Fairy Book do Andrew Lang chủ biên (1910), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; bản án dành cho chàng trai được kể nhẹ thành \"tội rất nặng\".",
+  "basedOn": "Truyện dân gian Bồ Đào Nha",
+  "style": "classic Iberian fairy-tale picture-book illustration, warm watercolor and fine ink, sunlit Portuguese palace courtyards with blue azulejo tiles, orange trees and apple orchards in blossom, moonlit narrow city streets, a candle-lit royal hall, gentle storybook mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chang-trai",
+      "name": "Chàng trai",
+      "sheetPrompt": "an honest brave young Portuguese nobleman under twenty, dark curly hair, earnest brown eyes, a dark green doublet with a white collar and a short cape, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 156149580
+    },
+    {
+      "id": "ba-lao",
+      "name": "Bà lão",
+      "sheetPrompt": "a tiny wizened old woman bent almost double, very wrinkled kind face, surprisingly bright quick youthful eyes, a dark shawl over a plain brown dress, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3377318906
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa xứ Granada",
+      "sheetPrompt": "a beautiful young princess of Granada, long black hair, fair glowing face, a crown of gold and pearls, an ivory silk gown with Moorish embroidery, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2478448652
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tran-dau-bong",
+      "title": "Trận đấu bóng",
+      "narrator": "ke-chuyen",
+      "narration": "Một trưa hè nóng nực, nhà vua vừa nghỉ dậy thì một nhóm quý tộc trẻ đến tâu: \"Sáng nay chơi bóng, hoàng tử thua nên buông lời lăng mạ. Chàng trai đây tức quá, tát hoàng tử một cái thật mạnh.\" Nhà vua hỏi: \"Hoàng tử không đáp trả sao?\" \"Thưa không, hoàng tử chạy vào góc sân ngồi khóc.\" Nhà vua đứng lặng bên cửa sổ hồi lâu, mặt buồn rười rượi. Rồi ngài phán: đánh người kế vị ngai vàng là tội rất nặng, mười lăm ngày nữa chàng trai sẽ bị đưa ra xét xử. Trong lúc chờ, chàng được đi lại trong thành, có lính đi kèm.",
+      "subtitles": [
+        "Một trưa hè nóng nực, nhà vua vừa nghỉ dậy thì một nhóm quý tộc trẻ đến tâu: \"Sáng nay",
+        "chơi bóng, hoàng tử thua nên buông lời lăng mạ.",
+        "Chàng trai đây tức quá, tát hoàng tử một cái thật mạnh.\" Nhà vua hỏi: \"Hoàng tử không đáp",
+        "trả sao?\" \"Thưa không, hoàng tử chạy vào góc sân ngồi khóc.\" Nhà vua đứng lặng bên cửa sổ",
+        "hồi lâu, mặt buồn rười rượi.",
+        "Rồi ngài phán: đánh người kế vị ngai vàng là tội rất nặng,",
+        "mười lăm ngày nữa chàng trai sẽ bị đưa ra xét xử.",
+        "Trong lúc chờ, chàng được đi lại trong thành, có lính đi kèm."
+      ],
+      "image": {
+        "prompt": "a sunny Portuguese palace courtyard with blue tiles, a group of young nobles reporting to a stern king dressed in cool white, a worried young nobleman standing with lowered head between two guards",
+        "seed": 636355697,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "palm fronds sway in the hot breeze, the king turns slowly from the window, the young nobleman lifts his head",
+        "seed": 3372882171
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-lao-ben-cong",
+      "title": "Bà lão bên cổng",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng trai đi hỏi khắp các bậc thông thái, nhưng chẳng ai giúp được. Đêm thứ mười bốn, chàng thẫn thờ đi qua cổng một tu viện thì gặp một bà lão còng lưng, nhăn nheo như đã trăm tuổi, nhưng đôi mắt sáng như mắt thiếu nữ. \"Ta biết chuyện của cậu. Chỉ ta cứu được cậu, nếu cậu chịu cưới ta.\" Chàng buột miệng: \"Cưới bà ư? Cháu chưa đến hai mươi, còn bà...\" Mắt bà lóe giận, bà quay đi thoăn thoắt. Chàng chợt hiểu mình vừa bỏ lỡ cơ hội duy nhất, bèn đuổi theo. Lạ thay, bà lão đi nhanh như bay. Chàng thở hổn hển: \"Xin bà tha lỗi, cháu xin nhận lời.\"",
+      "subtitles": [
+        "Chàng trai đi hỏi khắp các bậc thông thái, nhưng chẳng ai giúp được.",
+        "Đêm thứ mười bốn, chàng thẫn thờ đi qua cổng một tu viện thì gặp một bà lão còng lưng,",
+        "nhăn nheo như đã trăm tuổi, nhưng đôi mắt sáng như mắt thiếu nữ.",
+        "\"Ta biết chuyện của cậu.",
+        "Chỉ ta cứu được cậu, nếu cậu chịu cưới ta.\" Chàng buột miệng: \"Cưới bà ư?",
+        "Cháu chưa đến hai mươi, còn bà...\" Mắt bà lóe giận, bà quay đi thoăn thoắt.",
+        "Chàng chợt hiểu mình vừa bỏ lỡ cơ hội duy nhất, bèn đuổi theo.",
+        "Lạ thay, bà lão đi nhanh như bay.",
+        "Chàng thở hổn hển: \"Xin bà tha lỗi, cháu xin nhận lời.\""
+      ],
+      "image": {
+        "prompt": "a moonlit narrow street beside an old monastery gate, a tiny bent old woman with surprisingly bright eyes speaking to the startled young nobleman, two guards waiting a few steps behind, lanterns glowing",
+        "seed": 336482241,
+        "character": "ba-lao"
+      },
+      "video": {
+        "motionPrompt": "moonlight flickers through drifting clouds, the old woman turns and hurries away astonishingly fast, the young man runs after her",
+        "seed": 3570576637
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-the-truoc-cha-xu",
+      "title": "Lời thề trước cha xứ",
+      "narrator": "ke-chuyen",
+      "narration": "Bà lão dẫn chàng đến nhà một vị cha xứ. Trước mặt cha và các nhân chứng, chàng thề sẽ cưới bà làm vợ. Bà nhờ mọi người ra ngoài một lát, rồi thì thầm dặn chàng phải nói gì trước tòa. Sáng hôm sau, đại sảnh chật kín người. Ai cũng lạ vì gương mặt chàng trai sáng bừng. Chàng cúi chào: \"Xin bệ hạ cho phép tôi nói đến cùng. Năm xưa, cưới nhau bốn năm mà bệ hạ và hoàng hậu chưa có con. Khi bệ hạ đi xa đánh trận, hoàng hậu đã lén nhận nuôi con trai của một người thợ đá nghèo, rồi báo tin rằng bệ hạ có con. Ít lâu sau, hoàng hậu lâm bệnh rồi mãi mãi ra đi.\"",
+      "subtitles": [
+        "Bà lão dẫn chàng đến nhà một vị cha xứ.",
+        "Trước mặt cha và các nhân chứng, chàng thề sẽ cưới bà làm vợ.",
+        "Bà nhờ mọi người ra ngoài một lát, rồi thì thầm dặn chàng phải nói gì trước tòa.",
+        "Sáng hôm sau, đại sảnh chật kín người.",
+        "Ai cũng lạ vì gương mặt chàng trai sáng bừng.",
+        "Chàng cúi chào: \"Xin bệ hạ cho phép tôi nói đến cùng.",
+        "Năm xưa, cưới nhau bốn năm mà bệ hạ và hoàng hậu chưa có con.",
+        "Khi bệ hạ đi xa đánh trận, hoàng hậu đã lén nhận nuôi con trai của một người thợ đá nghèo,",
+        "rồi báo tin rằng bệ hạ có con.",
+        "Ít lâu sau, hoàng hậu lâm bệnh rồi mãi mãi ra đi.\""
+      ],
+      "image": {
+        "prompt": "a grand candle-lit hall of justice packed with nobles and judges, the young nobleman standing with a bright confident face before the throne, the king leaning forward listening in astonishment",
+        "seed": 1965539370,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "candles flicker, the crowd leans in, the young man speaks with calm open hands, the king's eyes widen",
+        "seed": 2456902492
+      },
+      "voice": {}
+    },
+    {
+      "id": "vuon-tao-nam-xua",
+      "title": "Vườn táo năm xưa",
+      "narrator": "ke-chuyen",
+      "narration": "\"Ít lâu sau đó, bệ hạ đi săn lạc vào một vườn táo đang nở hoa, gặp một cô gái đang tung bóng. Bệ hạ đem lòng thương, cưới nàng trong bí mật, tặng nàng ba chiếc nhẫn và một mặt dây chuyền hình thánh giá. Rồi một ngày, căn nhà nhỏ trong rừng trống không. Nàng đã về với cha mình, ngài công tước. Ông giấu con gái đi, chờ ngày bệ hạ công khai nhận nàng làm hoàng hậu. Rồi tôi ra đời.\" Chàng đặt ba chiếc nhẫn và cây thánh giá dưới chân nhà vua. Nhà vua lặng người, như thấy lại vườn táo hai mươi năm trước. \"Đúng rồi. Đây mới là con ta.\" Hoàng tử giả được ban tiền dưỡng già, nhưng không được trở lại triều nữa.",
+      "subtitles": [
+        "\"Ít lâu sau đó, bệ hạ đi săn lạc vào một vườn táo đang nở hoa,",
+        "gặp một cô gái đang tung bóng.",
+        "Bệ hạ đem lòng thương, cưới nàng trong bí mật,",
+        "tặng nàng ba chiếc nhẫn và một mặt dây chuyền hình thánh giá.",
+        "Rồi một ngày, căn nhà nhỏ trong rừng trống không.",
+        "Nàng đã về với cha mình, ngài công tước.",
+        "Ông giấu con gái đi, chờ ngày bệ hạ công khai nhận nàng làm hoàng hậu.",
+        "Rồi tôi ra đời.\" Chàng đặt ba chiếc nhẫn và cây thánh giá dưới chân nhà vua.",
+        "Nhà vua lặng người, như thấy lại vườn táo hai mươi năm trước.",
+        "\"Đúng rồi.",
+        "Đây mới là con ta.\" Hoàng tử giả được ban tiền dưỡng già,",
+        "nhưng không được trở lại triều nữa."
+      ],
+      "image": {
+        "prompt": "a dreamy memory of a pink and white apple orchard in blossom with a beautiful girl tossing a ball, blending into the throne hall where three rings and a small gold cross lie at the feet of the moved king",
+        "seed": 3570596443,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "apple blossoms drift across the memory and fade into the hall, the rings glint, the king's eyes glisten",
+        "seed": 177772935
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-dau-tram-tuoi",
+      "title": "Cô dâu trăm tuổi",
+      "narrator": "ke-chuyen",
+      "narration": "Vào phòng riêng, chàng kể cho cha nghe chuyện bà lão. Chàng ngập ngừng nói rằng mình chẳng muốn cưới bà, vì tuổi tác cách xa quá. Nhà vua nghiêm mặt: \"Con đã thề cưới bà nếu bà cứu con. Dù thế nào cũng phải giữ lời.\" Ngài sai người tìm bà lão, đón vào cung với đủ nghi lễ dành cho cô dâu của hoàng tử. Lính canh tròn mắt nhìn bà lão còng lưng, rồi càng ngạc nhiên hơn khi thấy bà nhảy chân sáo lên bậc thềm. Nhà vua cung kính dắt tay bà vào nhà nguyện làm lễ cưới. Mấy tuần sau, hoàng tử suốt ngày đi săn cho khuây khỏa, còn cô dâu ở một mình trong phòng, chẳng cần ai hầu hạ.",
+      "subtitles": [
+        "Vào phòng riêng, chàng kể cho cha nghe chuyện bà lão.",
+        "Chàng ngập ngừng nói rằng mình chẳng muốn cưới bà, vì tuổi tác cách xa quá.",
+        "Nhà vua nghiêm mặt: \"Con đã thề cưới bà nếu bà cứu con.",
+        "Dù thế nào cũng phải giữ lời.\" Ngài sai người tìm bà lão,",
+        "đón vào cung với đủ nghi lễ dành cho cô dâu của hoàng tử.",
+        "Lính canh tròn mắt nhìn bà lão còng lưng,",
+        "rồi càng ngạc nhiên hơn khi thấy bà nhảy chân sáo lên bậc thềm.",
+        "Nhà vua cung kính dắt tay bà vào nhà nguyện làm lễ cưới.",
+        "Mấy tuần sau, hoàng tử suốt ngày đi săn cho khuây khỏa,",
+        "còn cô dâu ở một mình trong phòng, chẳng cần ai hầu hạ."
+      ],
+      "image": {
+        "prompt": "a grand palace staircase with astonished guards in two lines, the tiny bent old bride skipping lightly up the steps, the king bowing gravely to take her hand, the young prince standing beside him trying to stay polite",
+        "seed": 1664962406,
+        "character": "ba-lao"
+      },
+      "video": {
+        "motionPrompt": "the old woman skips up the stairs with surprising lightness, the guards exchange amazed looks, the king offers his hand",
+        "seed": 1467884188
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-chua-xu-granada",
+      "title": "Công chúa xứ Granada",
+      "narrator": "ke-chuyen",
+      "narration": "Một đêm, hoàng tử nghe tiếng động ở phòng bên. Chàng ghé nhìn qua cửa và sững sờ: trên giường là một thiếu nữ tuyệt đẹp, đội vương miện vàng ngọc trai, da trắng hơn tuyết. Nàng mở mắt mỉm cười: \"Đúng, em là vợ chàng, và phép thuật đã hết rồi. Em là con gái vua xứ Granada. Khi em còn nhỏ xíu, một bà tiên độc ác đã làm em già nua nhăn nheo. Chỉ có bà vú thương em. Một ông phù thủy được bà vú chăm sóc lúc ốm đã hứa: nếu có chàng trai nào thề cưới em đúng như vẻ ngoài ấy, phép sẽ tan.\" Nàng cười: \"Giờ chàng hãy cho người báo tin cho cha em. Chắc người sẽ chúc phúc cho chúng ta.\"",
+      "subtitles": [
+        "Một đêm, hoàng tử nghe tiếng động ở phòng bên.",
+        "Chàng ghé nhìn qua cửa và sững sờ: trên giường là một thiếu nữ tuyệt đẹp,",
+        "đội vương miện vàng ngọc trai, da trắng hơn tuyết.",
+        "Nàng mở mắt mỉm cười: \"Đúng, em là vợ chàng, và phép thuật đã hết rồi.",
+        "Em là con gái vua xứ Granada.",
+        "Khi em còn nhỏ xíu, một bà tiên độc ác đã làm em già nua nhăn nheo.",
+        "Chỉ có bà vú thương em.",
+        "Một ông phù thủy được bà vú chăm sóc lúc ốm đã hứa: nếu có chàng trai nào thề cưới em đúng",
+        "như vẻ ngoài ấy, phép sẽ tan.\" Nàng cười: \"Giờ chàng hãy cho người báo tin cho cha em.",
+        "Chắc người sẽ chúc phúc cho chúng ta.\""
+      ],
+      "image": {
+        "prompt": "a moonlit palace bedroom glowing with a torch, a beautiful young princess with a crown of gold and pearls sitting up and smiling, the amazed young prince at the doorway, rose petals and soft magical sparkles in the air",
+        "seed": 2939662520,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "soft sparkles drift and fade as the spell lifts, the princess opens her eyes and smiles, the prince steps slowly closer",
+        "seed": 806049578
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm Portuguese and Iberian storybook music, classical guitar, mandolin and soft strings, a tense but gentle courtroom theme, a dreamy apple-orchard waltz, a tender magical ending, instrumental, no vocals",
+    "durationSeconds": 140,
+    "seed": 1676467863
+  }
+}

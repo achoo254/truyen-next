@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "slug": "nang-muffette-va-ba-tien-coc",
+  "shelf": "world",
+  "title": "Nàng Muffette và bà tiên cóc",
+  "summary": "Hoàng hậu trẻ bị Tiên Sư Tử bắt xuống xứ sở dưới lòng đất, chỉ có một bà tiên cóc nhỏ bé làm bạn. Nhờ bà tiên cóc, hoàng hậu sống sót qua những thử thách khó, sinh ra nàng Muffette và được nhà vua tìm đến cứu. Truyện cổ tích Pháp của bà d'Aulnoy kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "than-thoai",
+    "gia-dinh",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ tích của bà d'Aulnoy (mất năm 1705), theo bản tiếng Anh \"The Frog and the Lion Fairy\" trong The Orange Fairy Book do Andrew Lang chủ biên (1906), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; các trận đánh với Tiên Sư Tử và lũ quái vật được kể lướt, và bức thư của hoàng hậu viết bằng mực thường.",
+  "basedOn": "Truyện cổ tích của bà d'Aulnoy",
+  "style": "classic seventeenth-century French fairy-tale picture-book illustration, delicate watercolor and fine ink, an old forest castle, a dim underground realm with a silvery quicksilver lake softened into wonder rather than fear, a comical royal procession of frogs, snails and grasshoppers, a sunny royal court, warm gentle colors, safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hoang-hau",
+      "name": "Hoàng hậu",
+      "sheetPrompt": "a young gentle French queen, long light-brown hair in a simple braid, kind sad eyes, a pale blue seventeenth-century gown, a small silver circlet, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 559092381
+    },
+    {
+      "id": "ba-tien-coc",
+      "name": "Bà tiên cóc",
+      "sheetPrompt": "a small friendly fairy frog standing on her hind legs, bright green skin, a wide cheerful smile, wearing a tiny magic cap made of pink rose leaves, dignified little bow, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 42339679
+    },
+    {
+      "id": "muffette",
+      "name": "Nàng Muffette",
+      "sheetPrompt": "a beautiful brave young princess of fourteen, long golden-brown curls, clear determined eyes, a rose-pink gown with a light hunting cloak, holding a small bow, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2845837876
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tien-su-tu",
+      "title": "Tiên Sư Tử",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có ông vua hiền lành bị nước láng giềng gây chiến. Ngài gửi hoàng hậu trẻ đến lâu đài ven rừng. Lâu không có tin chồng, hoàng hậu lén đánh xe trốn về. Ngựa lồng lên, xe đâm vào gốc cây, hoàng hậu ngã xuống ngất đi. Khi tỉnh dậy, nàng thấy trước mặt một bà khổng lồ khoác da sư tử. \"Ta là Tiên Sư Tử,\" bà ta nói. \"Ngươi sẽ ở với ta cho vui.\" Rồi bà hóa thành sư tử, cõng hoàng hậu xuống mười nghìn bậc thang, tới tận xứ sở dưới lòng đất.",
+      "subtitles": [
+        "Ngày xưa, có ông vua hiền lành bị nước láng giềng gây chiến.",
+        "Ngài gửi hoàng hậu trẻ đến lâu đài ven rừng.",
+        "Lâu không có tin chồng, hoàng hậu lén đánh xe trốn về.",
+        "Ngựa lồng lên, xe đâm vào gốc cây, hoàng hậu ngã xuống ngất đi.",
+        "Khi tỉnh dậy, nàng thấy trước mặt một bà khổng lồ khoác da sư tử.",
+        "\"Ta là Tiên Sư Tử,\" bà ta nói.",
+        "\"Ngươi sẽ ở với ta cho vui.\" Rồi bà hóa thành sư tử,",
+        "cõng hoàng hậu xuống mười nghìn bậc thang, tới tận xứ sở dưới lòng đất."
+      ],
+      "image": {
+        "prompt": "a deep green forest with a small broken chariot beside a tree, a tall giant fairy woman wrapped in a lion's skin leaning on a club, looking down at a frightened young queen sitting on the moss, dappled light",
+        "seed": 1784949448,
+        "character": "hoang-hau"
+      },
+      "video": {
+        "motionPrompt": "leaves tremble, the giant fairy leans closer with a sly smile, then the scene dissolves into a long stone stairway spiraling downward",
+        "seed": 3097077421
+      },
+      "voice": {}
+    },
+    {
+      "id": "chu-coc-duoi-cay-thong",
+      "title": "Chú cóc dưới gốc thông",
+      "narrator": "ke-chuyen",
+      "narration": "Xứ sở ấy u ám, bên một hồ thủy ngân có lũ quái vật quẫy nước. Tiên Sư Tử ra lệnh: \"Muốn ta vui lòng thì làm cho ta một chiếc bánh nhân ngòi ong.\" Nhưng ở đây làm gì có ong! Hoàng hậu ngồi khóc dưới gốc thông. Bỗng nàng thấy một con quạ quắp con cóc béo trong móng. Nàng vội lấy quạt gõ vào chân quạ, con cóc rơi xuống thoát nạn. Cóc nhảy đến cúi chào: \"Thưa bà, tôi là nửa người nửa tiên. Phép của tôi nằm trong chiếc mũ cánh hoa hồng, ban nãy tôi lỡ cởi ra. Bà đã cứu tôi, nay tôi sẽ giúp bà.\"",
+      "subtitles": [
+        "Xứ sở ấy u ám, bên một hồ thủy ngân có lũ quái vật quẫy nước.",
+        "Tiên Sư Tử ra lệnh: \"Muốn ta vui lòng thì làm cho ta một chiếc bánh nhân ngòi ong.\" Nhưng",
+        "ở đây làm gì có ong! Hoàng hậu ngồi khóc dưới gốc thông.",
+        "Bỗng nàng thấy một con quạ quắp con cóc béo trong móng.",
+        "Nàng vội lấy quạt gõ vào chân quạ, con cóc rơi xuống thoát nạn.",
+        "Cóc nhảy đến cúi chào: \"Thưa bà, tôi là nửa người nửa tiên.",
+        "Phép của tôi nằm trong chiếc mũ cánh hoa hồng, ban nãy tôi lỡ cởi ra.",
+        "Bà đã cứu tôi, nay tôi sẽ giúp bà.\""
+      ],
+      "image": {
+        "prompt": "a dim mysterious underground land with a silvery lake and gentle glowing mist, the young queen under a yew tree tapping a crow's claw with her fan, a fat green frog dropping safely to the ground",
+        "seed": 1689013806,
+        "character": "ba-tien-coc"
+      },
+      "video": {
+        "motionPrompt": "the crow flaps away startled, the little frog tumbles to the moss and hops up, silver mist drifts over the lake",
+        "seed": 1560645024
+      },
+      "voice": {}
+    },
+    {
+      "id": "sau-nghin-chu-coc",
+      "title": "Sáu nghìn chú cóc",
+      "narrator": "ke-chuyen",
+      "narration": "Bà tiên cóc giậm chân ba lần. Lập tức sáu nghìn chú cóc hiện ra, một chú ngậm chiếc mũ cánh hồng. Bà đội mũ lên đầu, ra lệnh: \"Lăn mình vào mật, rồi nhảy quanh tổ ong của Tiên Sư Tử!\" Lát sau cả đàn trở về, ong bám đầy người. Chiếc bánh làm xong, Tiên Sư Tử ăn ngấu nghiến, chỉ chê: \"Hơi nhạt tiêu.\" Bà ta lại đòi một bó hoa quý nhất trần gian. Bà tiên cóc cho bạn dơi mượn mũ thần bay lên mặt đất, mang về đủ thứ hoa thơm.",
+      "subtitles": [
+        "Bà tiên cóc giậm chân ba lần.",
+        "Lập tức sáu nghìn chú cóc hiện ra, một chú ngậm chiếc mũ cánh hồng.",
+        "Bà đội mũ lên đầu, ra lệnh: \"Lăn mình vào mật,",
+        "rồi nhảy quanh tổ ong của Tiên Sư Tử!\" Lát sau cả đàn trở về, ong bám đầy người.",
+        "Chiếc bánh làm xong, Tiên Sư Tử ăn ngấu nghiến,",
+        "chỉ chê: \"Hơi nhạt tiêu.\" Bà ta lại đòi một bó hoa quý nhất trần gian.",
+        "Bà tiên cóc cho bạn dơi mượn mũ thần bay lên mặt đất, mang về đủ thứ hoa thơm."
+      ],
+      "image": {
+        "prompt": "thousands of little frogs hopping happily covered in sleepy bees, the fairy frog in her rose-leaf cap directing them, the young queen laughing, a cute little wooden cabin being built by frogs in the background",
+        "seed": 3814337595,
+        "character": "ba-tien-coc"
+      },
+      "video": {
+        "motionPrompt": "frogs hop in cheerful waves, bees buzz lazily on their backs, the queen covers her smile with her hand",
+        "seed": 1937090338
+      },
+      "voice": {}
+    },
+    {
+      "id": "be-muffette",
+      "title": "Bé Muffette",
+      "narrator": "ke-chuyen",
+      "narration": "Hương hoa làm hoàng hậu nhớ nhà da diết. Bà tiên cóc đặt chiếc mũ vào một chiếc hộp để hỏi ý. Từ trong hộp vang lên một giọng nói: \"Chưa đến lúc rời khỏi nơi này, nhưng một món quà sẽ an ủi nàng.\" Ít hôm sau, hoàng hậu sinh một bé gái xinh xắn, đặt tên là Muffette. Bé thích nhất trò chơi nhảy cóc với bà tiên. Nhưng hoàng hậu vẫn buồn: \"Giá cha con được thấy con. Chắc chàng tưởng ta đã mất, rồi sẽ cưới vợ khác mất thôi.\"",
+      "subtitles": [
+        "Hương hoa làm hoàng hậu nhớ nhà da diết.",
+        "Bà tiên cóc đặt chiếc mũ vào một chiếc hộp để hỏi ý.",
+        "Từ trong hộp vang lên một giọng nói: \"Chưa đến lúc rời khỏi nơi này,",
+        "nhưng một món quà sẽ an ủi nàng.\" Ít hôm sau, hoàng hậu sinh một bé gái xinh xắn,",
+        "đặt tên là Muffette.",
+        "Bé thích nhất trò chơi nhảy cóc với bà tiên.",
+        "Nhưng hoàng hậu vẫn buồn: \"Giá cha con được thấy con.",
+        "Chắc chàng tưởng ta đã mất, rồi sẽ cưới vợ khác mất thôi.\""
+      ],
+      "image": {
+        "prompt": "inside a cozy little cabin lined with fragrant herbs, a laughing baby girl crawling on a soft blanket, the fairy frog in her rose-leaf cap leaping playfully over her, the young queen watching with a tender but wistful smile",
+        "seed": 1127746460,
+        "character": "muffette"
+      },
+      "video": {
+        "motionPrompt": "the frog springs up in a playful arc and lands gently by the baby, the baby giggles and reaches out, warm light flickers",
+        "seed": 245328054
+      },
+      "voice": {}
+    },
+    {
+      "id": "doan-su-gia-ky-la",
+      "title": "Đoàn sứ giả kỳ lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Bà tiên cóc nói: \"Để tôi đi báo tin cho nhà vua. Đường xa, tôi đi chậm, nhưng sớm muộn cũng tới.\" Hoàng hậu mừng rỡ, viết vài dòng lên góc chiếc khăn tay gửi theo. Bà tiên cóc leo mười nghìn bậc thang mất hơn một năm. Rồi bà sửa soạn một đoàn sứ giả cho đàng hoàng: đi đầu là đội cận vệ châu chấu, tiếp theo là các thị nữ ếch xanh cưỡi ốc sên đóng yên nhung, rồi chuột nước làm thị đồng. Bà tiên ngồi trong kiệu mai rùa do tám chú cóc khiêng. Họ đi ròng rã bảy năm.",
+      "subtitles": [
+        "Bà tiên cóc nói: \"Để tôi đi báo tin cho nhà vua.",
+        "Đường xa, tôi đi chậm, nhưng sớm muộn cũng tới.\" Hoàng hậu mừng rỡ,",
+        "viết vài dòng lên góc chiếc khăn tay gửi theo.",
+        "Bà tiên cóc leo mười nghìn bậc thang mất hơn một năm.",
+        "Rồi bà sửa soạn một đoàn sứ giả cho đàng hoàng: đi đầu là đội cận vệ châu chấu,",
+        "tiếp theo là các thị nữ ếch xanh cưỡi ốc sên đóng yên nhung, rồi chuột nước làm thị đồng.",
+        "Bà tiên ngồi trong kiệu mai rùa do tám chú cóc khiêng.",
+        "Họ đi ròng rã bảy năm."
+      ],
+      "image": {
+        "prompt": "a funny dignified royal procession on a country road, grasshopper guards marching in front, little green frog ladies riding snails with velvet saddles, water rats dressed as pages, the fairy frog in her rose-leaf cap riding in a tortoiseshell litter carried by eight toads",
+        "seed": 1533028299,
+        "character": "ba-tien-coc"
+      },
+      "video": {
+        "motionPrompt": "the tiny procession marches proudly along, snails glide slowly, grasshoppers hop in step, flowers sway beside the road",
+        "seed": 1531574782
+      },
+      "voice": {}
+    },
+    {
+      "id": "dung-ngay-cuoi",
+      "title": "Đúng ngày cưới",
+      "narrator": "ke-chuyen",
+      "narration": "Đoàn sứ giả tiến vào kinh thành đúng lúc nhà vua sắp cưới vợ mới, sau chín năm chờ đợi. Bà tiên cóc nhảy phắt lên tay ngai: \"May mà tôi đến kịp! Hoàng hậu vẫn còn sống. Đây là thư của bà. Ngài còn có một cô con gái.\" Nhà vua run run đọc thư, nhận ra nét chữ vợ. Các sứ thần của cô dâu không tin. Bà tiên đội mũ, gọi các bạn tiên đến múa, hóa thành dòng sông có những chiếc thuyền mạ vàng. Cô dâu và các sứ thần vừa bước lên thuyền thì tất cả biến mất. Bà tiên trao cho nhà vua một chiếc nhẫn thần.",
+      "subtitles": [
+        "Đoàn sứ giả tiến vào kinh thành đúng lúc nhà vua sắp cưới vợ mới, sau chín năm chờ đợi.",
+        "Bà tiên cóc nhảy phắt lên tay ngai: \"May mà tôi đến kịp!",
+        "Hoàng hậu vẫn còn sống. Đây là thư của bà.",
+        "Ngài còn có một cô con gái.\" Nhà vua run run đọc thư, nhận ra nét chữ vợ.",
+        "Các sứ thần của cô dâu không tin.",
+        "Bà tiên đội mũ, gọi các bạn tiên đến múa,",
+        "hóa thành dòng sông có những chiếc thuyền mạ vàng.",
+        "Cô dâu và các sứ thần vừa bước lên thuyền thì tất cả biến mất.",
+        "Bà tiên trao cho nhà vua một chiếc nhẫn thần."
+      ],
+      "image": {
+        "prompt": "a bright royal throne hall, the little fairy frog in her rose-leaf cap standing on the arm of the throne holding out a small handkerchief letter, the amazed king with tears of joy, courtiers staring, magical fountains and painted golden boats appearing in the hall",
+        "seed": 2749292649,
+        "character": "ba-tien-coc"
+      },
+      "video": {
+        "motionPrompt": "the king's hands tremble as he reads, sparkling fountains rise and turn into a little river with golden boats that fade away",
+        "seed": 3047015865
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-pha-le",
+      "title": "Lâu đài pha lê",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua đeo nhẫn thần, theo nhẫn chỉ đường xuống xứ sở dưới lòng đất. Tiên Sư Tử gầm lên lao tới, nhưng nhà vua đã có nhẫn thần che chở nên bà ta đành chịu thua. Có điều, bà ta đã nhốt hoàng hậu và Muffette trong một lâu đài pha lê trôi lững lờ giữa hồ thủy ngân, có lũ quái vật canh giữ. Qua vách pha lê, nhà vua thấy vợ con giơ tay gọi mình. Ngài thề không bao giờ rời đi nếu không đưa được hai mẹ con về. Suốt ba năm trời, ngài ngày ngày tìm cách qua hồ.",
+      "subtitles": [
+        "Nhà vua đeo nhẫn thần, theo nhẫn chỉ đường xuống xứ sở dưới lòng đất.",
+        "Tiên Sư Tử gầm lên lao tới, nhưng nhà vua đã có nhẫn thần che chở nên bà ta đành chịu",
+        "thua.",
+        "Có điều, bà ta đã nhốt hoàng hậu và Muffette trong một lâu đài pha lê trôi lững lờ giữa hồ",
+        "thủy ngân, có lũ quái vật canh giữ.",
+        "Qua vách pha lê, nhà vua thấy vợ con giơ tay gọi mình.",
+        "Ngài thề không bao giờ rời đi nếu không đưa được hai mẹ con về.",
+        "Suốt ba năm trời, ngài ngày ngày tìm cách qua hồ."
+      ],
+      "image": {
+        "prompt": "a shimmering crystal palace floating on a silvery lake in a dim underground cavern, the queen and a young girl waving through the clear walls, the determined king on the shore with a glowing ring on his finger, odd but not scary lake creatures circling",
+        "seed": 1292779934
+      },
+      "video": {
+        "motionPrompt": "the crystal palace drifts slowly on the silvery water, the queen and girl wave, the king's ring glows softly",
+        "seed": 1759565843
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-hua-voi-con-rong",
+      "title": "Lời hứa với con rồng",
+      "narrator": "ke-chuyen",
+      "narration": "Một đêm, khi nhà vua sắp tuyệt vọng, một con rồng nhỏ vẫn đậu trên mái lâu đài bò đến bên ngài: \"Nếu ngài thề lấy vương miện mà hứa rằng hễ ta đòi, ngài sẽ cho ta một bữa ăn món ta thích nhất, thì ta sẽ đưa ngài đến chỗ vợ con.\" Nhà vua mừng quá, thề ngay. Ngài nhảy lên lưng rồng. Lũ quái vật kéo đến, nhưng nhà vua vẫn can đảm xông lên. Bỗng một tiếng sấm vang lên. Lâu đài và quái vật biến mất, và nhà vua thấy mình đang đứng cùng vợ con giữa cung điện của chính mình.",
+      "subtitles": [
+        "Một đêm, khi nhà vua sắp tuyệt vọng,",
+        "một con rồng nhỏ vẫn đậu trên mái lâu đài bò đến bên ngài: \"Nếu ngài thề lấy vương miện mà",
+        "hứa rằng hễ ta đòi, ngài sẽ cho ta một bữa ăn món ta thích nhất,",
+        "thì ta sẽ đưa ngài đến chỗ vợ con.\" Nhà vua mừng quá, thề ngay.",
+        "Ngài nhảy lên lưng rồng.",
+        "Lũ quái vật kéo đến, nhưng nhà vua vẫn can đảm xông lên.",
+        "Bỗng một tiếng sấm vang lên.",
+        "Lâu đài và quái vật biến mất, và nhà vua thấy mình đang đứng cùng vợ con giữa cung điện",
+        "của chính mình."
+      ],
+      "image": {
+        "prompt": "a brave king riding on the back of a small winged dragon flying over a silvery lake toward a crystal palace, flocks of bats and owls scattering, a flash of light, then the king embracing his queen and daughter in his own sunny palace hall",
+        "seed": 3701184981
+      },
+      "video": {
+        "motionPrompt": "the little dragon beats its wings and rises, birds scatter in a swirl, a bright flash fades into a warm family embrace",
+        "seed": 2859091711
+      },
+      "voice": {}
+    },
+    {
+      "id": "nang-muffette-dung-cam",
+      "title": "Nàng Muffette dũng cảm",
+      "narrator": "ke-chuyen",
+      "narration": "Muffette lớn lên xinh đẹp, bắn cung giỏi. Năm mười bốn tuổi, nàng đính hôn với một hoàng tử tài giỏi mà nàng thương mến. Đúng lúc ấy, một gã khổng lồ đến làm sứ giả cho con rồng năm xưa. Con rồng nhớ lời thề, đòi bắt Muffette mang đi làm bữa ăn của nó. Gã khổng lồ hiền lành bảo: \"Chỉ có một cách: gả công chúa cho cháu ta, nó biết phép, sẽ bảo vệ được nàng.\" Nhưng Muffette đứng dậy: \"Con không đổi sự an toàn của mình bằng việc phụ lòng người con đã hứa.\" Rồi nàng tự mình theo gã khổng lồ đến chân núi của con rồng.",
+      "subtitles": [
+        "Muffette lớn lên xinh đẹp, bắn cung giỏi.",
+        "Năm mười bốn tuổi, nàng đính hôn với một hoàng tử tài giỏi mà nàng thương mến.",
+        "Đúng lúc ấy, một gã khổng lồ đến làm sứ giả cho con rồng năm xưa.",
+        "Con rồng nhớ lời thề, đòi bắt Muffette mang đi làm bữa ăn của nó.",
+        "Gã khổng lồ hiền lành bảo: \"Chỉ có một cách: gả công chúa cho cháu ta, nó biết phép,",
+        "sẽ bảo vệ được nàng.\" Nhưng Muffette đứng dậy: \"Con không đổi sự an toàn của mình bằng",
+        "việc phụ lòng người con đã hứa.\" Rồi nàng tự mình theo gã khổng lồ đến chân núi của con",
+        "rồng."
+      ],
+      "image": {
+        "prompt": "a royal hall, a big kind-faced giant ambassador bowing awkwardly, the worried king and queen pleading, the brave young princess in rose pink standing tall with her chin raised, refusing calmly",
+        "seed": 2463533267,
+        "character": "muffette"
+      },
+      "video": {
+        "motionPrompt": "the princess rises and steps forward with quiet courage, the giant scratches his head, the queen wipes her tears",
+        "seed": 3258295601
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoang-tu-den-cuu",
+      "title": "Hoàng tử đến cứu",
+      "narrator": "ke-chuyen",
+      "narration": "Từ xa, một đám mây đen kéo tới. Đó là con rồng, nay đã to lớn khủng khiếp. Nhưng bà tiên cóc cưỡi chó săn còn nhanh hơn. Bà chạy đến chỗ hoàng tử: \"Còn ngồi đó sao? Ngoài sân có con ngựa xanh ba đầu và thanh gươm thần đang chờ, mau lên!\" Hoàng tử phóng đến, đánh nhau với rồng suốt một ngày. Khi con rồng há miệng gầm lên, hoàng tử phóng thanh gươm thần vào miệng nó. Con rồng khổng lồ đổ sập xuống và không bao giờ đứng dậy nữa. Muffette được cứu. Hôm sau, đám cưới linh đình, bà tiên cóc ngồi chỗ danh dự.",
+      "subtitles": [
+        "Từ xa, một đám mây đen kéo tới.",
+        "Đó là con rồng, nay đã to lớn khủng khiếp.",
+        "Nhưng bà tiên cóc cưỡi chó săn còn nhanh hơn.",
+        "Bà chạy đến chỗ hoàng tử: \"Còn ngồi đó sao?",
+        "Ngoài sân có con ngựa xanh ba đầu và thanh gươm thần đang chờ,",
+        "mau lên!\" Hoàng tử phóng đến, đánh nhau với rồng suốt một ngày.",
+        "Khi con rồng há miệng gầm lên, hoàng tử phóng thanh gươm thần vào miệng nó.",
+        "Con rồng khổng lồ đổ sập xuống và không bao giờ đứng dậy nữa.",
+        "Muffette được cứu.",
+        "Hôm sau, đám cưới linh đình, bà tiên cóc ngồi chỗ danh dự."
+      ],
+      "image": {
+        "prompt": "a brave young prince riding a fantastic green horse with three heads across a rocky mountain foot, a huge six-winged dragon in the sky, the fairy frog on a racing greyhound, the princess watching with hope, then a joyful wedding feast with the fairy frog in the seat of honor",
+        "seed": 1141582783,
+        "character": "muffette"
+      },
+      "video": {
+        "motionPrompt": "the green horse gallops forward, the dragon's wings stir the clouds, light breaks through, wedding banners flutter happily",
+        "seed": 2039591812
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "elegant French baroque fairy-tale music, harpsichord, recorder and light strings, a comic bouncy march for the frog procession, a mysterious soft theme for the underground realm, a bright courageous rescue and joyful wedding finale, instrumental, no vocals",
+    "durationSeconds": 160,
+    "seed": 1896138737
+  }
+}

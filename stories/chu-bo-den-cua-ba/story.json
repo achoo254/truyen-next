@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-bo-den-cua-ba",
+  "shelf": "kids",
+  "title": "Chú voi đen của bà",
+  "summary": "Chú voi đen được bà cụ nuôi từ bé, ngày ngày chỉ ăn, ngủ và chơi với lũ trẻ trong làng. Một hôm thấy bà đã già yếu, chú quyết định đi làm kiếm tiền phụng dưỡng bà. Truyện tiền thân Jataka của Ấn Độ kể nhẹ nhàng cho trẻ nhỏ về lòng biết ơn.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện tiền thân Đức Phật (Jataka, Ấn Độ cổ đại), theo bản kể lại tiếng Anh của Ellen C. Babbitt, Jataka Tales (1912), truyện «Grannie's Blackie», Project Gutenberg #62514, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản nào; Mèo Miu dẫn chuyện, thoại và chi tiết nhỏ do người viết thêm. Nhân vật chính trong truyện gốc là một chú voi con lông đen, trẻ con gọi là «Blackie của bà»; tên truyện tiếng Việt giữ đúng như danh mục, còn lời kể gọi chú là chú voi đen, tên Bé Đen.",
+  "basedOn": "Truyện tiền thân Jataka (Ấn Độ)",
+  "style": "classic Indian storybook illustration in the spirit of old Jataka picture books, soft watercolor and gouache with gentle Mughal miniature touches, warm golden light, rounded friendly shapes, calm and safe mood for young children, a small ancient Indian village with mud houses, a riverbank with shallow water, ox wagons loaded with goods, palm trees and marigolds, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1501330687
+    },
+    {
+      "id": "be-den",
+      "name": "Bé Đen",
+      "seed": 2686965593,
+      "sheetPrompt": "a young dark grey almost black Indian elephant with big round friendly eyes and floppy ears, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ba",
+      "name": "Bà cụ",
+      "seed": 3002958013,
+      "sheetPrompt": "a kind frail old ancient Indian grandmother in a simple white sari with a warm wrinkled smile, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "lu-tre",
+      "name": "Lũ trẻ trong làng",
+      "seed": 3476020671,
+      "sheetPrompt": "a group of cheerful ancient Indian village children in simple colorful clothes, barefoot, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-chu-xe",
+      "name": "Ông chủ đoàn xe",
+      "seed": 607022663,
+      "sheetPrompt": "a plump ancient Indian merchant with a big yellow turban, a curly moustache and a money pouch on his belt, comical storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Ở nhà, ai là người chăm sóc các bạn nhiều nhất? Có phải là ông bà, bố mẹ không? Hôm nay Miu kể chuyện một chú voi con màu đen ở đất nước Ấn Độ, được một bà cụ nuôi nấng từ bé. Rồi một ngày, chú voi đã làm một việc khiến bà vui ơi là vui. Đó là việc gì nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Ở nhà, ai là người chăm sóc các bạn nhiều nhất?",
+        "Có phải là ông bà, bố mẹ không?",
+        "Hôm nay Miu kể chuyện một chú voi con màu đen ở đất nước Ấn Độ,",
+        "được một bà cụ nuôi nấng từ bé.",
+        "Rồi một ngày, chú voi đã làm một việc khiến bà vui ơi là vui.",
+        "Đó là việc gì nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits under a palm tree in a small Indian village holding an open picture book, a young dark elephant peeks from behind a mud house",
+        "seed": 516857578
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello, the young elephant flaps its ears and lifts its trunk, palm leaves sway, slow gentle camera push-in",
+        "seed": 182380896
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-nuoi-voi",
+      "title": "Bà cụ và chú voi con",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một người nhà giàu tặng cho một bà cụ trong làng một chú voi con. Bà chăm chú voi chu đáo lắm, cho ăn, tắm rửa, trò chuyện với chú mỗi ngày. Chẳng mấy chốc, bà thương chú như thương cháu ruột. Trẻ con trong làng gọi bà là bà, còn chú voi đen thì chúng gọi là Bé Đen của bà.",
+      "subtitles": [
+        "Ngày xưa, có một người nhà giàu tặng cho một bà cụ trong làng một chú voi con.",
+        "Bà chăm chú voi chu đáo lắm, cho ăn, tắm rửa, trò chuyện với chú mỗi ngày.",
+        "Chẳng mấy chốc, bà thương chú như thương cháu ruột.",
+        "Trẻ con trong làng gọi bà là bà, còn chú voi đen thì chúng gọi là Bé Đen của bà."
+      ],
+      "image": {
+        "character": "ba",
+        "prompt": "a kind old grandmother in a white sari washes a small dark elephant calf with a clay pot at her mud house, the calf splashes happily",
+        "seed": 2399645848
+      },
+      "video": {
+        "motionPrompt": "the grandmother pours water gently, the calf sprays a little water and she laughs, sunlight glitters on the drops, gentle camera push-in",
+        "seed": 3381981204
+      },
+      "voice": {}
+    },
+    {
+      "id": "choi-voi-tre",
+      "title": "Bé Đen chơi với lũ trẻ",
+      "narrator": "ke-chuyen",
+      "narration": "Bé Đen lớn lên, cõng lũ trẻ đi khắp làng. Lũ trẻ chia bánh kẹo cho chú, ngày nào cũng níu vòi chú mà xin: Bé Đen ơi, cho bọn tớ đu với! Bé Đen đáp: Lại đây nào! Ai lên trước nào? Rồi chú dùng vòi nhấc từng bạn lên, đu thật cao trên không, rồi đặt xuống nhẹ nhàng, cẩn thận lắm.",
+      "subtitles": [
+        "Bé Đen lớn lên, cõng lũ trẻ đi khắp làng.",
+        "Lũ trẻ chia bánh kẹo cho chú, ngày nào cũng níu vòi chú mà xin: Bé Đen ơi,",
+        "cho bọn tớ đu với! Bé Đen đáp: Lại đây nào!",
+        "Ai lên trước nào?",
+        "Rồi chú dùng vòi nhấc từng bạn lên, đu thật cao trên không, rồi đặt xuống nhẹ nhàng,",
+        "cẩn thận lắm."
+      ],
+      "image": {
+        "character": "lu-tre",
+        "prompt": "a young dark elephant gently swings a laughing child high in the air with its trunk, other village children cheer and wait their turn",
+        "seed": 415396907
+      },
+      "video": {
+        "motionPrompt": "the elephant lifts the child up in a soft arc and sets them down gently, children clap and jump, marigolds sway, gentle camera follow",
+        "seed": 3778337482
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-gia-yeu",
+      "title": "Bà đã già yếu",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng Bé Đen chẳng bao giờ làm việc gì. Chú chỉ ăn, ngủ, chơi với lũ trẻ, rồi về trò chuyện với bà. Một hôm, chú rủ bà vào rừng chơi. Bà lắc đầu: Bà không đi được đâu, Bé Đen ạ. Bà còn bao nhiêu việc phải làm. Bé Đen nhìn bà, lần đầu tiên chú thấy lưng bà đã còng, tay bà đã run. Chú nghĩ: Bà già yếu thế này mà vẫn làm lụng vất vả. Mình còn trẻ, mình khỏe. Mình phải đi kiếm tiền về cho bà, để bà được nghỉ ngơi.",
+      "subtitles": [
+        "Nhưng Bé Đen chẳng bao giờ làm việc gì.",
+        "Chú chỉ ăn, ngủ, chơi với lũ trẻ, rồi về trò chuyện với bà.",
+        "Một hôm, chú rủ bà vào rừng chơi.",
+        "Bà lắc đầu: Bà không đi được đâu, Bé Đen ạ.",
+        "Bà còn bao nhiêu việc phải làm.",
+        "Bé Đen nhìn bà, lần đầu tiên chú thấy lưng bà đã còng, tay bà đã run.",
+        "Chú nghĩ: Bà già yếu thế này mà vẫn làm lụng vất vả.",
+        "Mình còn trẻ, mình khỏe.",
+        "Mình phải đi kiếm tiền về cho bà, để bà được nghỉ ngơi."
+      ],
+      "image": {
+        "character": "be-den",
+        "prompt": "a young dark elephant looks thoughtfully at a frail old grandmother carrying a heavy water pot, evening light over the village",
+        "seed": 2138845479
+      },
+      "video": {
+        "motionPrompt": "the grandmother walks slowly with the heavy pot, the elephant tilts its head and its eyes soften, a breeze stirs the palms, slow gentle camera push-in",
+        "seed": 1451780894
+      },
+      "voice": {}
+    },
+    {
+      "id": "ben-song",
+      "title": "Đoàn xe mắc cạn",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng sớm hôm sau, Bé Đen đi ra bờ sông. Ở đó có một ông chủ đang rối rít cả lên. Đoàn xe của ông chở hàng nặng quá, đàn bò kéo mãi mà xe không qua nổi khúc sông cạn. Thấy Bé Đen, ông hỏi: Voi này của ai thế? Ta muốn thuê nó kéo xe qua sông. Một em bé đứng gần đáp: Đó là Bé Đen của bà đấy ạ. Ông chủ bảo: Được, mỗi cỗ xe nó kéo qua, ta trả hai đồng bạc.",
+      "subtitles": [
+        "Sáng sớm hôm sau, Bé Đen đi ra bờ sông.",
+        "Ở đó có một ông chủ đang rối rít cả lên.",
+        "Đoàn xe của ông chở hàng nặng quá, đàn bò kéo mãi mà xe không qua nổi khúc sông cạn.",
+        "Thấy Bé Đen, ông hỏi: Voi này của ai thế?",
+        "Ta muốn thuê nó kéo xe qua sông.",
+        "Một em bé đứng gần đáp: Đó là Bé Đen của bà đấy ạ.",
+        "Ông chủ bảo: Được, mỗi cỗ xe nó kéo qua, ta trả hai đồng bạc."
+      ],
+      "image": {
+        "character": "ong-chu-xe",
+        "prompt": "a plump merchant in a yellow turban points at a young dark elephant on a riverbank, heavy ox wagons are stuck in shallow water, a village child stands nearby",
+        "seed": 3225128612
+      },
+      "video": {
+        "motionPrompt": "the oxen strain and the wagons do not move, the merchant waves his arms, the elephant perks up its ears, river water ripples, gentle camera pan",
+        "seed": 949725322
+      },
+      "voice": {}
+    },
+    {
+      "id": "keo-xe",
+      "title": "Bé Đen kéo xe qua sông",
+      "narrator": "ke-chuyen",
+      "narration": "Bé Đen mừng lắm. Chú lội xuống sông, kéo từng cỗ xe một qua bờ bên kia, chẳng cỗ nào làm khó được chú. Kéo xong, chú tới chỗ ông chủ để nhận tiền công. Nhưng ông chủ chỉ đếm ra một đồng bạc cho mỗi cỗ xe, chứ không phải hai đồng như đã hứa. Bé Đen nhìn số bạc, không thèm động vào. Chú đứng chắn ngang đường, không cho đoàn xe đi tiếp. Ông chủ đẩy thế nào, chú cũng không nhúc nhích một bước.",
+      "subtitles": [
+        "Bé Đen mừng lắm.",
+        "Chú lội xuống sông, kéo từng cỗ xe một qua bờ bên kia, chẳng cỗ nào làm khó được chú.",
+        "Kéo xong, chú tới chỗ ông chủ để nhận tiền công.",
+        "Nhưng ông chủ chỉ đếm ra một đồng bạc cho mỗi cỗ xe, chứ không phải hai đồng như đã hứa.",
+        "Bé Đen nhìn số bạc, không thèm động vào.",
+        "Chú đứng chắn ngang đường, không cho đoàn xe đi tiếp.",
+        "Ông chủ đẩy thế nào, chú cũng không nhúc nhích một bước."
+      ],
+      "image": {
+        "character": "be-den",
+        "prompt": "a young dark elephant stands firmly across the road blocking a line of wagons, a few silver coins on a cloth untouched, the merchant pushes in vain",
+        "seed": 2583531979
+      },
+      "video": {
+        "motionPrompt": "the merchant pushes and puffs, the elephant stays still with its trunk folded, the oxen wait patiently, gentle camera push-in",
+        "seed": 3838802871
+      },
+      "voice": {}
+    },
+    {
+      "id": "tra-du-tien",
+      "title": "Ông chủ trả đủ tiền",
+      "narrator": "ke-chuyen",
+      "narration": "Biết không lừa được, ông chủ đành quay lại đếm thêm một đồng bạc cho mỗi cỗ xe, cho đủ như lời hứa. Ông bỏ hết vào một cái túi, buộc quanh cổ Bé Đen. Bé Đen tránh sang một bên cho đoàn xe đi, rồi hớn hở lên đường về nhà. Chú tự hào lắm, vì đã có một món quà cho bà.",
+      "subtitles": [
+        "Biết không lừa được, ông chủ đành quay lại đếm thêm một đồng bạc cho mỗi cỗ xe,",
+        "cho đủ như lời hứa.",
+        "Ông bỏ hết vào một cái túi, buộc quanh cổ Bé Đen.",
+        "Bé Đen tránh sang một bên cho đoàn xe đi, rồi hớn hở lên đường về nhà.",
+        "Chú tự hào lắm, vì đã có một món quà cho bà."
+      ],
+      "image": {
+        "character": "ong-chu-xe",
+        "prompt": "the merchant ties a small bag of silver coins around the young dark elephant's neck with a sheepish smile, the wagons roll past",
+        "seed": 2134090919
+      },
+      "video": {
+        "motionPrompt": "the merchant ties the bag and shrugs, the elephant lifts its trunk proudly, the wagons roll on, gentle camera pull-back",
+        "seed": 4180024347
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-voi-ba",
+      "title": "Món quà cho bà",
+      "narrator": "ke-chuyen",
+      "narration": "Cả ngày không thấy Bé Đen, lũ trẻ đi tìm khắp nơi. Tới gần tối, chúng mới nghe tiếng chân chú. Bé Đen ơi, cậu đi đâu thế? Cái gì trên cổ cậu thế? Nhưng Bé Đen chẳng dừng lại, chạy một mạch về nhà bà. Bà tháo cái túi ra, Bé Đen kể rằng chú đã đi làm kiếm tiền cho bà. Bà ôm lấy vòi chú: Ôi Bé Đen ơi, cháu đã làm việc vất vả biết bao! Cháu ngoan quá! Từ đó, Bé Đen làm hết việc nặng, còn bà thì được nghỉ ngơi.",
+      "subtitles": [
+        "Cả ngày không thấy Bé Đen, lũ trẻ đi tìm khắp nơi.",
+        "Tới gần tối, chúng mới nghe tiếng chân chú.",
+        "Bé Đen ơi, cậu đi đâu thế? Cái gì trên cổ cậu thế?",
+        "Nhưng Bé Đen chẳng dừng lại, chạy một mạch về nhà bà.",
+        "Bà tháo cái túi ra, Bé Đen kể rằng chú đã đi làm kiếm tiền cho bà.",
+        "Bà ôm lấy vòi chú: Ôi Bé Đen ơi, cháu đã làm việc vất vả biết bao!",
+        "Cháu ngoan quá!",
+        "Từ đó, Bé Đen làm hết việc nặng, còn bà thì được nghỉ ngơi."
+      ],
+      "image": {
+        "character": "ba",
+        "prompt": "a kind old grandmother hugs the trunk of the young dark elephant at her doorstep at dusk, holding a little bag of silver, village children gather happily",
+        "seed": 1648121173
+      },
+      "video": {
+        "motionPrompt": "the grandmother hugs the trunk with tears of joy, the elephant curls its trunk around her gently, children cheer, a lamp glows, gentle camera push-in",
+        "seed": 1879391732
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy Bé Đen có đáng yêu không? Bà nuôi chú từ bé, nên khi bà già yếu, chú biết đỡ đần bà. Chú còn biết đòi cho đủ những gì người ta đã hứa nữa. Mình cũng hãy giúp ông bà, bố mẹ những việc nhỏ hằng ngày nhé. Miu sẽ về giúp bà quét nhà đây. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy Bé Đen có đáng yêu không?",
+        "Bà nuôi chú từ bé, nên khi bà già yếu, chú biết đỡ đần bà.",
+        "Chú còn biết đòi cho đủ những gì người ta đã hứa nữa.",
+        "Mình cũng hãy giúp ông bà, bố mẹ những việc nhỏ hằng ngày nhé.",
+        "Miu sẽ về giúp bà quét nhà đây. Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the village at sunset, the young dark elephant and the old grandmother sit happily together nearby",
+        "seed": 2947919562
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and holds up a little broom, the elephant lifts its trunk, the grandmother smiles, gentle camera pull-back",
+        "seed": 2487518945
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm ancient Indian village melody with bansuri flute, sitar and soft tabla, tender and heartfelt, a happy homecoming at the end, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3340515399
+  }
+}

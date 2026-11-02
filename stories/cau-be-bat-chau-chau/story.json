@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "slug": "cau-be-bat-chau-chau",
+  "shelf": "kids",
+  "title": "Cậu bé bắt châu chấu",
+  "summary": "Một cậu bé mải mê bắt châu chấu trên đồng cỏ, suýt nữa thì chộp nhầm một chú bọ cạp. Lời nhắc của bọ cạp khiến cậu nhớ mãi bài học nhìn cho kỹ trước khi đưa tay. Ngụ ngôn Aesop kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Boy Hunting Locusts» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản dịch nào. Truyện gốc chỉ vài câu: Mèo Miu dẫn chuyện; thoại, chi tiết đời thường và lời rút ý cuối truyện do người viết thêm. Bản cho trẻ nhỏ: thêm cảnh cậu bé ra đồng với cái giỏ tre, mẹ dặn dò, cậu thả châu chấu về đồng khi về nhà; lời bọ cạp được kể như một lời nhắc nhở.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, warm gentle light, rounded friendly shapes, calm and safe mood for young children, golden summer meadow in ancient Greece with tall grass, wildflowers, flat warm stones and olive trees, a small white village on the hill, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1692225414
+    },
+    {
+      "id": "cau-be",
+      "name": "Cậu bé",
+      "seed": 243279175,
+      "sheetPrompt": "a cheerful little Greek boy with curly brown hair, simple short tunic and sandals, carrying a small woven bamboo basket, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bo-cap",
+      "name": "Bọ cạp",
+      "seed": 3636980970,
+      "sheetPrompt": "a small reddish-brown scorpion with a curled tail, round friendly cartoon eyes, not scary, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chau-chau",
+      "name": "Châu chấu",
+      "seed": 3223150488,
+      "sheetPrompt": "a few bright green grasshoppers with long legs and big round eyes, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "me",
+      "name": "Mẹ cậu bé",
+      "seed": 624720861,
+      "sheetPrompt": "a kind young Greek mother in a simple linen dress and headscarf, gentle smile, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã bao giờ ra đồng bắt châu chấu chưa? Miu thì rất thích, vì châu chấu nhảy tanh tách, đuổi theo vui lắm. Hôm nay Miu kể chuyện một cậu bé cũng mê bắt châu chấu. Nhưng có một lần, cậu suýt nữa thì chộp nhầm một con vật khác. Đó là con gì nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn đã bao giờ ra đồng bắt châu chấu chưa?",
+        "Miu thì rất thích, vì châu chấu nhảy tanh tách, đuổi theo vui lắm.",
+        "Hôm nay Miu kể chuyện một cậu bé cũng mê bắt châu chấu.",
+        "Nhưng có một lần, cậu suýt nữa thì chộp nhầm một con vật khác.",
+        "Đó là con gì nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits in a golden summer meadow holding an open picture book, green grasshoppers hop around her in the tall grass",
+        "seed": 2204664911
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello and tries to catch a hopping grasshopper playfully, grass sways, wildflowers nod, slow gentle camera push-in",
+        "seed": 3635941913
+      },
+      "voice": {}
+    },
+    {
+      "id": "ra-dong",
+      "title": "Cậu bé ra đồng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một ngôi làng nhỏ trên đồi, có một cậu bé rất thích châu chấu. Sáng hôm ấy, trời nắng đẹp, cậu xách cái giỏ tre chạy ra cửa. Mẹ gọi với theo: Con ra đồng nhớ nhìn cho kỹ nhé, đừng có thò tay bừa vào đâu đấy! Cậu bé gật đầu lia lịa: Vâng ạ! Rồi cậu chạy một mạch xuống cánh đồng cỏ vàng ruộm.",
+      "subtitles": [
+        "Ngày xưa, ở một ngôi làng nhỏ trên đồi, có một cậu bé rất thích châu chấu.",
+        "Sáng hôm ấy, trời nắng đẹp, cậu xách cái giỏ tre chạy ra cửa.",
+        "Mẹ gọi với theo: Con ra đồng nhớ nhìn cho kỹ nhé, đừng có thò tay bừa vào đâu đấy!",
+        "Cậu bé gật đầu lia lịa: Vâng ạ!",
+        "Rồi cậu chạy một mạch xuống cánh đồng cỏ vàng ruộm."
+      ],
+      "image": {
+        "character": "cau-be",
+        "prompt": "a cheerful little Greek boy with a bamboo basket runs out of a white village house, his kind mother waves from the doorway, a golden meadow below the hill",
+        "seed": 3988270025
+      },
+      "video": {
+        "motionPrompt": "the boy waves and runs down the path, the mother calls out with a raised hand, a rooster flaps on the wall, gentle camera follow",
+        "seed": 1352143794
+      },
+      "voice": {}
+    },
+    {
+      "id": "bat-chau-chau",
+      "title": "Bắt được bao nhiêu là châu chấu",
+      "narrator": "ke-chuyen",
+      "narration": "Trên đồng cỏ, châu chấu nhiều ơi là nhiều. Chúng nhảy tanh tách từ ngọn cỏ này sang ngọn cỏ khác. Cậu bé rón rén bước tới, khum hai bàn tay lại, rồi chụp một cái. Được rồi! Cậu bỏ chú châu chấu xanh vào giỏ, đậy nắp lại. Cứ thế, một con, hai con, rồi mười con. Cái giỏ tre kêu lách tách vui tai. Cậu bé cười tít mắt, càng bắt càng hăng.",
+      "subtitles": [
+        "Trên đồng cỏ, châu chấu nhiều ơi là nhiều.",
+        "Chúng nhảy tanh tách từ ngọn cỏ này sang ngọn cỏ khác.",
+        "Cậu bé rón rén bước tới, khum hai bàn tay lại, rồi chụp một cái.",
+        "Được rồi! Cậu bỏ chú châu chấu xanh vào giỏ, đậy nắp lại.",
+        "Cứ thế, một con, hai con, rồi mười con.",
+        "Cái giỏ tre kêu lách tách vui tai.",
+        "Cậu bé cười tít mắt, càng bắt càng hăng."
+      ],
+      "image": {
+        "character": "chau-chau",
+        "prompt": "a little boy crouches in the tall golden grass cupping his hands over a green grasshopper, a bamboo basket beside him, more grasshoppers leaping around",
+        "seed": 279265341
+      },
+      "video": {
+        "motionPrompt": "grasshoppers leap in arcs, the boy cups his hands gently, the basket lid bounces a little, sunlight flickers, gentle camera push-in",
+        "seed": 2034110149
+      },
+      "voice": {}
+    },
+    {
+      "id": "tren-tang-da",
+      "title": "Trên tảng đá nóng",
+      "narrator": "ke-chuyen",
+      "narration": "Mải mê quá, cậu bé chạy tới gần một tảng đá phẳng, nóng hổi dưới nắng. Trên đá có một con vật nhỏ màu nâu đỏ đang nằm im. Cậu nheo mắt nhìn qua: chắc lại là một chú châu chấu to nằm phơi nắng. Cậu chẳng nghĩ ngợi gì, quên luôn lời mẹ dặn, giơ tay ra định chộp lấy.",
+      "subtitles": [
+        "Mải mê quá, cậu bé chạy tới gần một tảng đá phẳng, nóng hổi dưới nắng.",
+        "Trên đá có một con vật nhỏ màu nâu đỏ đang nằm im.",
+        "Cậu nheo mắt nhìn qua: chắc lại là một chú châu chấu to nằm phơi nắng.",
+        "Cậu chẳng nghĩ ngợi gì, quên luôn lời mẹ dặn, giơ tay ra định chộp lấy."
+      ],
+      "image": {
+        "character": "cau-be",
+        "prompt": "a little boy reaches his hand toward a small reddish-brown creature resting on a warm flat stone in the meadow, his basket of grasshoppers at his side",
+        "seed": 684293193
+      },
+      "video": {
+        "motionPrompt": "the boy's hand slowly reaches forward, heat shimmers above the stone, the little creature stays very still, slow camera push-in",
+        "seed": 2725410698
+      },
+      "voice": {}
+    },
+    {
+      "id": "bo-cap-noi",
+      "title": "Bọ cạp lên tiếng",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng con vật nhỏ ấy ngẩng lên, cong cái đuôi có ngòi nhọn hoắt. Hóa ra đó là một chú bọ cạp! Bọ cạp nói: Này cậu bạn, nhìn cho kỹ đã! Tôi không phải châu chấu đâu. Nếu cậu mà chạm vào tôi, ngòi đuôi tôi sẽ chích cậu một cái đau điếng. Lúc ấy cậu sẽ đánh rơi cả giỏ, mất luôn cả tôi lẫn chỗ châu chấu cậu đã bắt đấy!",
+      "subtitles": [
+        "Bỗng con vật nhỏ ấy ngẩng lên, cong cái đuôi có ngòi nhọn hoắt.",
+        "Hóa ra đó là một chú bọ cạp!",
+        "Bọ cạp nói: Này cậu bạn, nhìn cho kỹ đã!",
+        "Tôi không phải châu chấu đâu.",
+        "Nếu cậu mà chạm vào tôi, ngòi đuôi tôi sẽ chích cậu một cái đau điếng.",
+        "Lúc ấy cậu sẽ đánh rơi cả giỏ, mất luôn cả tôi lẫn chỗ châu chấu cậu đã bắt đấy!"
+      ],
+      "image": {
+        "character": "bo-cap",
+        "prompt": "a small reddish-brown cartoon scorpion with friendly eyes raises its curled tail as a warning, a surprised little boy pulls his hand back",
+        "seed": 3633675582
+      },
+      "video": {
+        "motionPrompt": "the scorpion lifts its tail slowly and wags one claw like a finger, the boy jumps back in surprise, the basket wobbles, gentle camera shake then settle",
+        "seed": 3200557710
+      },
+      "voice": {}
+    },
+    {
+      "id": "rut-tay",
+      "title": "Cậu bé rụt tay lại",
+      "narrator": "ke-chuyen",
+      "narration": "Cậu bé giật mình, rụt tay lại, tim đập thình thịch. Cậu lùi xa mấy bước, ôm chặt cái giỏ tre. Cậu nhớ ra lời mẹ dặn lúc sáng. Cậu cúi đầu nói nhỏ: Cảm ơn bạn bọ cạp đã nhắc mình. Bọ cạp gật gù rồi bò đi, lẩn vào khe đá mát. Cậu bé đứng nhìn theo, thở phào nhẹ nhõm.",
+      "subtitles": [
+        "Cậu bé giật mình, rụt tay lại, tim đập thình thịch.",
+        "Cậu lùi xa mấy bước, ôm chặt cái giỏ tre.",
+        "Cậu nhớ ra lời mẹ dặn lúc sáng.",
+        "Cậu cúi đầu nói nhỏ: Cảm ơn bạn bọ cạp đã nhắc mình.",
+        "Bọ cạp gật gù rồi bò đi, lẩn vào khe đá mát.",
+        "Cậu bé đứng nhìn theo, thở phào nhẹ nhõm."
+      ],
+      "image": {
+        "character": "cau-be",
+        "prompt": "a little boy hugs his bamboo basket and steps back safely, the cartoon scorpion crawls away into a cool crack in the stone",
+        "seed": 1802410827
+      },
+      "video": {
+        "motionPrompt": "the boy breathes out with relief, the scorpion waves a claw and slips into the crack, grass sways softly, gentle camera pull-back",
+        "seed": 1602022804
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-nha",
+      "title": "Về nhà kể cho mẹ",
+      "narrator": "ke-chuyen",
+      "narration": "Chiều về, cậu bé kể hết cho mẹ nghe. Mẹ ôm cậu vào lòng: May mà con có người nhắc. Từ nay, trước khi đưa tay ra, con phải nhìn thật kỹ nhé. Cậu bé gật đầu. Rồi cậu mở nắp giỏ, thả hết châu chấu về bãi cỏ trước nhà. Châu chấu nhảy tanh tách, như đang cảm ơn cậu.",
+      "subtitles": [
+        "Chiều về, cậu bé kể hết cho mẹ nghe.",
+        "Mẹ ôm cậu vào lòng: May mà con có người nhắc.",
+        "Từ nay, trước khi đưa tay ra, con phải nhìn thật kỹ nhé.",
+        "Cậu bé gật đầu.",
+        "Rồi cậu mở nắp giỏ, thả hết châu chấu về bãi cỏ trước nhà.",
+        "Châu chấu nhảy tanh tách, như đang cảm ơn cậu."
+      ],
+      "image": {
+        "character": "me",
+        "prompt": "a kind Greek mother hugs her little boy at the doorstep in warm evening light, the boy opens his basket and green grasshoppers hop out onto the grass",
+        "seed": 415764397
+      },
+      "video": {
+        "motionPrompt": "grasshoppers spring out of the basket in happy arcs, the mother smiles and strokes the boy's hair, sunset glows, gentle camera pull-back",
+        "seed": 1829619057
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, chỉ vì vội vàng mà cậu bé suýt bị đau, còn suýt mất hết những gì mình đã có. Thứ gì trông giống nhau chưa chắc đã giống nhau đâu. Trước khi đưa tay ra cầm cái gì, mình hãy nhìn cho thật kỹ nhé. Miu cũng nhớ rồi, lần sau thấy cái gì lạ lạ, Miu sẽ đứng xa ngắm thôi. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, chỉ vì vội vàng mà cậu bé suýt bị đau,",
+        "còn suýt mất hết những gì mình đã có.",
+        "Thứ gì trông giống nhau chưa chắc đã giống nhau đâu.",
+        "Trước khi đưa tay ra cầm cái gì, mình hãy nhìn cho thật kỹ nhé.",
+        "Miu cũng nhớ rồi, lần sau thấy cái gì lạ lạ, Miu sẽ đứng xa ngắm thôi.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the golden meadow at sunset, green grasshoppers hop around, a little scorpion peeks from a stone far away",
+        "seed": 1380221855
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and peers carefully at the grass, grasshoppers hop, the sunset glows, gentle camera pull-back",
+        "seed": 876757040
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light ancient Greek summer meadow melody with shepherd flute and soft lyre, playful hopping pizzicato, a gentle pause of surprise in the middle, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2811029937
+  }
+}

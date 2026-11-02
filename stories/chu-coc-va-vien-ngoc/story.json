@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-coc-va-vien-ngoc",
+  "shelf": "adults",
+  "title": "Chú cóc và viên ngọc",
+  "summary": "Cô cóc con xấu xí nhất dưới đáy giếng nhảy vào gàu nước để lên xem thế giới, rồi cứ thế đi mãi, khao khát lên cao hơn, xa hơn, tới tận Ai Cập. Người ta đồn cóc mang ngọc trong đầu; cô không biết rằng viên ngọc ấy chính là nỗi khát khao của mình. Truyện cổ Andersen buồn và đẹp, kể đầy đủ theo nguyên tác.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện “The Toad” (Skrubtudsen) của H. C. Andersen (1866), trong tuyển tập Fairy Tales of Hans Christian Andersen do H. P. Paull dịch, Project Gutenberg #27200, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, theo sát nguyên tác kể cả cái chết của cô cóc; không chép bản dịch nào.",
+  "basedOn": "Truyện cổ Andersen (1866)",
+  "style": "nineteenth century Danish storybook illustration in soft watercolor and fine ink, a deep stone well, nettles and wildflowers, a dusty country road, a reedy pond, a farmhouse with a stork's nest on the thatched roof, luminous hopeful and melancholy mood for adult readers, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "coc-con",
+      "name": "Cô cóc con",
+      "sheetPrompt": "a small warty brown toad, plain and homely but with large shining golden eyes full of longing, sitting upright, gentle storybook animal character, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1722676836
+    },
+    {
+      "id": "co",
+      "name": "Ông cò",
+      "sheetPrompt": "a tall white stork with black wing tips, long red beak and red legs, dignified and talkative, standing on one leg, storybook bird character, full body, front and side views, plain light background, character reference sheet",
+      "seed": 4000988837
+    },
+    {
+      "id": "nha-tho",
+      "name": "Chàng thi sĩ",
+      "sheetPrompt": "a kind young poet student of nineteenth century Denmark, soft wavy hair, gentle dreamy face, loose white shirt and brown waistcoat, a small book of verses in hand, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2184131329
+    }
+  ],
+  "scenes": [
+    {
+      "id": "day-gieng",
+      "title": "Dưới đáy giếng",
+      "narrator": "ke-chuyen",
+      "narration": "Cái giếng sâu lắm, nên dây gàu phải dài, quay tời kéo một gàu nước lên tới miệng giếng là việc nặng nhọc. Nước trong vắt, nhưng mặt trời chẳng bao giờ soi được xuống tận đáy. Chỉ chỗ nào nắng với tới, cây cỏ xanh mới mọc ra giữa kẽ đá. Dưới ấy có một gia đình nhà cóc. Chúng lộn nhào xuống giếng từ đời bà mẹ cóc già, nay vẫn còn sống. Lũ ếch xanh ở đó từ lâu gọi chúng là khách trọ giếng. Nhưng nhà cóc thấy ở đây rất dễ chịu, gọi những hòn đá ướt là chỗ khô ráo.",
+      "subtitles": [
+        "Cái giếng sâu lắm, nên dây gàu phải dài,",
+        "quay tời kéo một gàu nước lên tới miệng giếng là việc nặng nhọc.",
+        "Nước trong vắt, nhưng mặt trời chẳng bao giờ soi được xuống tận đáy.",
+        "Chỉ chỗ nào nắng với tới, cây cỏ xanh mới mọc ra giữa kẽ đá.",
+        "Dưới ấy có một gia đình nhà cóc.",
+        "Chúng lộn nhào xuống giếng từ đời bà mẹ cóc già, nay vẫn còn sống.",
+        "Lũ ếch xanh ở đó từ lâu gọi chúng là khách trọ giếng.",
+        "Nhưng nhà cóc thấy ở đây rất dễ chịu, gọi những hòn đá ướt là chỗ khô ráo."
+      ],
+      "image": {
+        "prompt": "looking down inside a deep old stone well, green ferns growing between the stones where faint sunlight reaches, a family of brown toads sitting on wet stones near the dark water, green frogs swimming",
+        "seed": 2658974777,
+        "character": "coc-con"
+      },
+      "video": {
+        "motionPrompt": "a thin shaft of light trembles on the water, frogs glide in slow circles, a drop falls from the stones",
+        "seed": 1178511849
+      },
+      "voice": {}
+    },
+    {
+      "id": "vien-ngoc",
+      "title": "Viên ngọc trong đầu",
+      "narrator": "ke-chuyen",
+      "narration": "Bà mẹ ếch từng đi xa một lần, khi bà lỡ ngồi trong gàu nước bị kéo lên. Ánh sáng chói quá làm bà đau mắt, bà nhảy ra rơi tõm xuống nước, đau lưng mất ba ngày. Bà chẳng kể được gì nhiều về trên ấy, chỉ biết giếng không phải là cả thế giới. Lũ ếch con chê nhà cóc: béo, thô, xấu xí, con cái rồi cũng xấu y như mẹ. Có thể lắm, bà mẹ cóc đáp, nhưng một đứa con ta có viên ngọc trong đầu, không thì chính ta có. Lũ cóc con kiêu hãnh đá chân, đứa nào cũng tưởng mình có ngọc. Ngọc là gì hả mẹ? Là thứ quý giá lắm, không tả nổi. Người ta mang nó cho mình vui, còn kẻ khác thì tức. Nhưng đừng hỏi, ta không trả lời đâu.",
+      "subtitles": [
+        "Bà mẹ ếch từng đi xa một lần, khi bà lỡ ngồi trong gàu nước bị kéo lên.",
+        "Ánh sáng chói quá làm bà đau mắt, bà nhảy ra rơi tõm xuống nước, đau lưng mất ba ngày.",
+        "Bà chẳng kể được gì nhiều về trên ấy, chỉ biết giếng không phải là cả thế giới.",
+        "Lũ ếch con chê nhà cóc: béo, thô, xấu xí, con cái rồi cũng xấu y như mẹ.",
+        "Có thể lắm, bà mẹ cóc đáp, nhưng một đứa con ta có viên ngọc trong đầu,",
+        "không thì chính ta có.",
+        "Lũ cóc con kiêu hãnh đá chân, đứa nào cũng tưởng mình có ngọc.",
+        "Ngọc là gì hả mẹ? Là thứ quý giá lắm, không tả nổi.",
+        "Người ta mang nó cho mình vui, còn kẻ khác thì tức.",
+        "Nhưng đừng hỏi, ta không trả lời đâu."
+      ],
+      "image": {
+        "prompt": "an old fat mother toad sitting proudly on a stone in the dim well, her little toads gazing up at her with wonder, sneering green frogs peeking from the water",
+        "seed": 1737484711
+      },
+      "video": {
+        "motionPrompt": "the little toads hold their heads very still and proud, the frogs pull faces and dive with small splashes",
+        "seed": 15004492
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhay-vao-gau",
+      "title": "Nhảy vào gàu nước",
+      "narrator": "ke-chuyen",
+      "narration": "Con cóc nhỏ nhất, xấu nhất trong đàn, nói: con không có ngọc đâu. Mà thứ làm người khác tức thì con chẳng vui được. Con chỉ ước lên được miệng giếng mà nhìn ra ngoài, trên ấy chắc đẹp lắm. Ở yên đấy, bà mẹ dặn, cái gàu sẽ đè con chết, mà có vào được gàu thì cũng rơi ra, đâu phải ai cũng ngã khéo như ta. Nhưng cô cóc nhỏ khao khát màu xanh trên kia quá. Sáng hôm sau, gàu nước được kéo lên, dừng lại một chút ngay trước hòn đá cô ngồi. Tim cô rung lên, và cô nhảy vào gàu.",
+      "subtitles": [
+        "Con cóc nhỏ nhất, xấu nhất trong đàn, nói: con không có ngọc đâu.",
+        "Mà thứ làm người khác tức thì con chẳng vui được.",
+        "Con chỉ ước lên được miệng giếng mà nhìn ra ngoài, trên ấy chắc đẹp lắm.",
+        "Ở yên đấy, bà mẹ dặn, cái gàu sẽ đè con chết, mà có vào được gàu thì cũng rơi ra,",
+        "đâu phải ai cũng ngã khéo như ta.",
+        "Nhưng cô cóc nhỏ khao khát màu xanh trên kia quá.",
+        "Sáng hôm sau, gàu nước được kéo lên, dừng lại một chút ngay trước hòn đá cô ngồi.",
+        "Tim cô rung lên, và cô nhảy vào gàu."
+      ],
+      "image": {
+        "prompt": "a full wooden bucket hanging on a rope inside the well pausing beside a stone, the tiny homely toad leaping bravely into the water of the bucket, a circle of bright sky far above",
+        "seed": 200756700,
+        "character": "coc-con"
+      },
+      "video": {
+        "motionPrompt": "the bucket sways on its rope, the little toad leaps in with a splash, the bucket begins to rise toward the light",
+        "seed": 2481015861
+      },
+      "voice": {}
+    },
+    {
+      "id": "rung-tam-ma",
+      "title": "Rừng tầm ma",
+      "narrator": "ke-chuyen",
+      "narration": "Eo ơi, con vật gớm chưa, anh làm công đổ gàu kêu lên. Lâu lắm tao mới thấy con gì xấu đến thế. Anh đá chiếc guốc gỗ về phía cô. Cô cóc suýt bị giẫm nát, may bò kịp vào bụi tầm ma mọc cao bên thành giếng. Ở đó cô nhìn từng thân cây, rồi ngước lên. Nắng xuyên qua những chiếc lá trong veo, cô thấy như người bước vào một khu rừng lớn, nắng rọi giữa cành lá. Ở đây đẹp hơn dưới giếng nhiều, cô nói, ước gì được ở đây suốt đời. Rồi cô bò ra đường cái, nắng chiếu lên, bụi rắc đầy mình. Chỗ khô ráo thật rồi, khô đến nỗi buồn buồn cả người.",
+      "subtitles": [
+        "Eo ơi, con vật gớm chưa, anh làm công đổ gàu kêu lên.",
+        "Lâu lắm tao mới thấy con gì xấu đến thế.",
+        "Anh đá chiếc guốc gỗ về phía cô.",
+        "Cô cóc suýt bị giẫm nát, may bò kịp vào bụi tầm ma mọc cao bên thành giếng.",
+        "Ở đó cô nhìn từng thân cây, rồi ngước lên.",
+        "Nắng xuyên qua những chiếc lá trong veo, cô thấy như người bước vào một khu rừng lớn,",
+        "nắng rọi giữa cành lá.",
+        "Ở đây đẹp hơn dưới giếng nhiều, cô nói, ước gì được ở đây suốt đời.",
+        "Rồi cô bò ra đường cái, nắng chiếu lên, bụi rắc đầy mình.",
+        "Chỗ khô ráo thật rồi, khô đến nỗi buồn buồn cả người."
+      ],
+      "image": {
+        "prompt": "the tiny toad sitting among tall green stinging nettles beside the stone rim of the well, sunlight glowing through translucent leaves like a forest canopy, a farm worker's wooden clog nearby",
+        "seed": 3012852596,
+        "character": "coc-con"
+      },
+      "video": {
+        "motionPrompt": "sunlight flickers through the nettle leaves, the toad looks up in wonder, a breeze sways the tall stems",
+        "seed": 43053361
+      },
+      "voice": {}
+    },
+    {
+      "id": "di-mai",
+      "title": "Đi mãi, đi mãi",
+      "narrator": "ke-chuyen",
+      "narration": "Cô tới bờ mương có hoa lưu ly, hoa râu dê, hàng rào táo gai, cây cơm cháy và dây bìm trắng. Một con bướm bay qua, cô tưởng đó là bông hoa tự bứt khỏi cành để đi ngắm thế gian. Giá mình đi xa được như thế, cô nói. Tám ngày tám đêm cô ở đó, chẳng thiếu cái ăn. Ngày thứ chín cô nghĩ: tiến lên nào! Sống thật là tuyệt, ra khỏi giếng, nằm giữa tầm ma, bò trên đường bụi. Nhưng phải đi nữa, để tìm ếch hay một cô cóc nhỏ. Thiên nhiên thôi chưa đủ, mình cần có bạn. Cô tới một cái ao lớn đầy lau sậy. Lũ ếch bảo: ở đây ẩm quá với cô đấy, nhưng cứ tự nhiên. Tối ấy chúng mời cô dự buổi hoà nhạc gia đình, hăng hái lắm mà giọng thì mỏng dính.",
+      "subtitles": [
+        "Cô tới bờ mương có hoa lưu ly, hoa râu dê, hàng rào táo gai,",
+        "cây cơm cháy và dây bìm trắng.",
+        "Một con bướm bay qua, cô tưởng đó là bông hoa tự bứt khỏi cành để đi ngắm thế gian.",
+        "Giá mình đi xa được như thế, cô nói.",
+        "Tám ngày tám đêm cô ở đó, chẳng thiếu cái ăn.",
+        "Ngày thứ chín cô nghĩ: tiến lên nào!",
+        "Sống thật là tuyệt, ra khỏi giếng, nằm giữa tầm ma, bò trên đường bụi.",
+        "Nhưng phải đi nữa, để tìm ếch hay một cô cóc nhỏ.",
+        "Thiên nhiên thôi chưa đủ, mình cần có bạn.",
+        "Cô tới một cái ao lớn đầy lau sậy.",
+        "Lũ ếch bảo: ở đây ẩm quá với cô đấy, nhưng cứ tự nhiên.",
+        "Tối ấy chúng mời cô dự buổi hoà nhạc gia đình, hăng hái lắm mà giọng thì mỏng dính."
+      ],
+      "image": {
+        "prompt": "the little toad by a ditch full of blue forget-me-nots and white bindweed under a hawthorn hedge, a bright butterfly fluttering above her, then a wide reedy pond in the evening with frogs singing",
+        "seed": 565531151,
+        "character": "coc-con"
+      },
+      "video": {
+        "motionPrompt": "the butterfly flutters away over the flowers, the toad gazes after it, reeds sway by the pond",
+        "seed": 433424734
+      },
+      "voice": {}
+    },
+    {
+      "id": "mat-trang-la-gau",
+      "title": "Mặt trăng là chiếc gàu",
+      "narrator": "ke-chuyen",
+      "narration": "Mình lại phải lên đường, cô cóc nói, vì lòng cô luôn khao khát điều gì tốt hơn. Cô thấy sao sáng, to và rực rỡ, thấy trăng lấp lánh, thấy mặt trời mọc lên cao mãi. Biết đâu mình vẫn còn ở trong giếng, chỉ là cái giếng to hơn thôi. Phải lên cao hơn nữa. Khi trăng tròn, cô nghĩ: hay đó là chiếc gàu thả xuống để mình bước vào? Hay mặt trời mới là chiếc gàu lớn? Nó sáng quá, to quá, nó đưa được tất cả lên. Mình phải để ý kẻo lỡ dịp. Nó chiếu sáng cả trong đầu mình, chắc ngọc cũng chẳng sáng hơn. Mình không có ngọc, nhưng mình chẳng khóc vì thế đâu. Mình thấy tin tưởng, mà cũng thấy sợ.",
+      "subtitles": [
+        "Mình lại phải lên đường, cô cóc nói, vì lòng cô luôn khao khát điều gì tốt hơn.",
+        "Cô thấy sao sáng, to và rực rỡ, thấy trăng lấp lánh, thấy mặt trời mọc lên cao mãi.",
+        "Biết đâu mình vẫn còn ở trong giếng, chỉ là cái giếng to hơn thôi.",
+        "Phải lên cao hơn nữa.",
+        "Khi trăng tròn, cô nghĩ: hay đó là chiếc gàu thả xuống để mình bước vào?",
+        "Hay mặt trời mới là chiếc gàu lớn?",
+        "Nó sáng quá, to quá, nó đưa được tất cả lên.",
+        "Mình phải để ý kẻo lỡ dịp.",
+        "Nó chiếu sáng cả trong đầu mình, chắc ngọc cũng chẳng sáng hơn.",
+        "Mình không có ngọc, nhưng mình chẳng khóc vì thế đâu.",
+        "Mình thấy tin tưởng, mà cũng thấy sợ."
+      ],
+      "image": {
+        "prompt": "the small toad sitting on a mossy stone at night gazing up at a huge glowing full moon in a starry sky, its shining eyes reflecting the moonlight, a dark meadow around",
+        "seed": 3260388921,
+        "character": "coc-con"
+      },
+      "video": {
+        "motionPrompt": "stars twinkle, the moon glows brighter, the toad's eyes shine as she lifts her head toward the sky",
+        "seed": 3462169699
+      },
+      "voice": {}
+    },
+    {
+      "id": "vuon-rau",
+      "title": "Vườn rau",
+      "narrator": "ke-chuyen",
+      "narration": "Cô tới một con đường có nhà người ở, có vườn hoa và vườn rau. Cô nhảy vào vườn bắp cải. Ở đây xanh quá, đẹp quá! Ta biết, con sâu trên lá nói, lá của ta to nhất. Nó che mất nửa thế giới, nhưng ta cần gì thế giới. Một bầy gà kéo tới. Con gà mái đi đầu tinh mắt, mổ con sâu rơi xuống đất, sâu quằn quại. Gà nghiêng đầu nhìn, định mổ tiếp. Cô cóc sợ quá, bò thẳng về phía con gà. A, nó có đồng minh, gà nói, nhìn cái con bò lổm ngổm kia kìa. Rồi cả đàn bỏ đi. Cô cóc mừng vì cái xấu của mình doạ được lũ gà. Nhưng con sâu cáu: ta tự vặn mình thoát đấy chứ. Trông ngươi khó chịu lắm. Để ta yên trên đất của ta. Ta phải leo lên cao.",
+      "subtitles": [
+        "Cô tới một con đường có nhà người ở, có vườn hoa và vườn rau.",
+        "Cô nhảy vào vườn bắp cải. Ở đây xanh quá, đẹp quá!",
+        "Ta biết, con sâu trên lá nói, lá của ta to nhất.",
+        "Nó che mất nửa thế giới, nhưng ta cần gì thế giới.",
+        "Một bầy gà kéo tới.",
+        "Con gà mái đi đầu tinh mắt, mổ con sâu rơi xuống đất, sâu quằn quại.",
+        "Gà nghiêng đầu nhìn, định mổ tiếp.",
+        "Cô cóc sợ quá, bò thẳng về phía con gà.",
+        "A, nó có đồng minh, gà nói, nhìn cái con bò lổm ngổm kia kìa.",
+        "Rồi cả đàn bỏ đi.",
+        "Cô cóc mừng vì cái xấu của mình doạ được lũ gà.",
+        "Nhưng con sâu cáu: ta tự vặn mình thoát đấy chứ.",
+        "Trông ngươi khó chịu lắm. Để ta yên trên đất của ta.",
+        "Ta phải leo lên cao."
+      ],
+      "image": {
+        "prompt": "a lush cabbage garden beside a thatched farmhouse, a hen with a curious tilted head looking at a green caterpillar on the ground, the little toad crawling bravely toward the hen",
+        "seed": 2909934491,
+        "character": "coc-con"
+      },
+      "video": {
+        "motionPrompt": "the hen tilts her head one way then the other, the toad crawls forward, the hens turn and walk off",
+        "seed": 3639988893
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-chang-sinh-vien",
+      "title": "Hai chàng sinh viên",
+      "narrator": "ke-chuyen",
+      "narration": "Trong trang trại có hai chàng sinh viên ở trọ, một là thi sĩ, một là nhà khảo cứu tự nhiên. Một người hát về muôn loài như chúng soi vào tim mình. Người kia mổ xẻ vạn vật, coi tạo hoá như một bài toán lớn. Cả hai đều là người tốt, vui tính. Con cóc đẹp đây, nhà khảo cứu nói, phải ngâm nó vào lọ rượu. Anh có hai con rồi, thi sĩ đáp, để nó yên mà sống. Nhưng nó xấu lạ lùng. Ừ, giá mà tìm được viên ngọc trong đầu nó thì mình cũng muốn mổ ra. Người xưa tin rằng con vật xấu nhất lại mang viên ngọc quý nhất. Con người cũng thế, hãy nghĩ tới Aesop, tới Socrates. Cô cóc chẳng hiểu hết, nhưng cô thoát được cái lọ rượu.",
+      "subtitles": [
+        "Trong trang trại có hai chàng sinh viên ở trọ, một là thi sĩ,",
+        "một là nhà khảo cứu tự nhiên.",
+        "Một người hát về muôn loài như chúng soi vào tim mình.",
+        "Người kia mổ xẻ vạn vật, coi tạo hoá như một bài toán lớn.",
+        "Cả hai đều là người tốt, vui tính.",
+        "Con cóc đẹp đây, nhà khảo cứu nói, phải ngâm nó vào lọ rượu.",
+        "Anh có hai con rồi, thi sĩ đáp, để nó yên mà sống.",
+        "Nhưng nó xấu lạ lùng.",
+        "Ừ, giá mà tìm được viên ngọc trong đầu nó thì mình cũng muốn mổ ra.",
+        "Người xưa tin rằng con vật xấu nhất lại mang viên ngọc quý nhất.",
+        "Con người cũng thế, hãy nghĩ tới Aesop, tới Socrates.",
+        "Cô cóc chẳng hiểu hết, nhưng cô thoát được cái lọ rượu."
+      ],
+      "image": {
+        "prompt": "two young students in a sunny kitchen garden bending to look at a small toad among cabbages, one with a notebook and magnifying glass, the gentle poet holding a book of verses and smiling",
+        "seed": 883488008,
+        "character": "nha-tho"
+      },
+      "video": {
+        "motionPrompt": "the naturalist leans closer with his glass, the poet gently holds his arm back, the toad blinks up at them",
+        "seed": 1894375873
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-ong-co",
+      "title": "Lời ông cò",
+      "narrator": "ke-chuyen",
+      "narration": "May mà mình không có ngọc, cô cóc nghĩ, có thì khổ to. Trên mái nhà, ông cò đang diễn thuyết với cả nhà. Con người là loài kiêu căng nhất, ông nói. Nghe chúng múa mép kìa, vậy mà vỗ mỏ cũng chẳng ra hồn. Tiếng nói của chúng cứ đi một ngày đường là đổi khác, người này chẳng hiểu người kia. Còn ta nói một thứ tiếng khắp mặt đất, từ phương bắc tới Ai Cập. Chúng lại chẳng biết bay, phải lao đi bằng cái gọi là đường sắt, gãy cổ như chơi. Không có người, thế gian vẫn sống tốt, miễn còn ếch và giun. Bài diễn văn hay quá, cô cóc nghĩ. Ông ấy ngồi cao chưa từng thấy. Rồi bà cò kể về Ai Cập, về sông Nin, về thứ bùn tuyệt vời ở xứ lạ ấy.",
+      "subtitles": [
+        "May mà mình không có ngọc, cô cóc nghĩ, có thì khổ to.",
+        "Trên mái nhà, ông cò đang diễn thuyết với cả nhà.",
+        "Con người là loài kiêu căng nhất, ông nói.",
+        "Nghe chúng múa mép kìa, vậy mà vỗ mỏ cũng chẳng ra hồn.",
+        "Tiếng nói của chúng cứ đi một ngày đường là đổi khác, người này chẳng hiểu người kia.",
+        "Còn ta nói một thứ tiếng khắp mặt đất, từ phương bắc tới Ai Cập.",
+        "Chúng lại chẳng biết bay, phải lao đi bằng cái gọi là đường sắt, gãy cổ như chơi.",
+        "Không có người, thế gian vẫn sống tốt, miễn còn ếch và giun.",
+        "Bài diễn văn hay quá, cô cóc nghĩ.",
+        "Ông ấy ngồi cao chưa từng thấy.",
+        "Rồi bà cò kể về Ai Cập, về sông Nin, về thứ bùn tuyệt vời ở xứ lạ ấy."
+      ],
+      "image": {
+        "prompt": "a stork family in a big twig nest on the thatched roof of a farmhouse, the father stork clattering his beak as if giving a speech, the tiny toad far below in the grass gazing up in admiration",
+        "seed": 2596817580,
+        "character": "co"
+      },
+      "video": {
+        "motionPrompt": "the father stork clatters his beak and spreads his wings, then soars off across the sky as the toad watches",
+        "seed": 1943593305
+      },
+      "voice": {}
+    },
+    {
+      "id": "len-cao",
+      "title": "Lên cao",
+      "narrator": "ke-chuyen",
+      "narration": "Mình phải tới Ai Cập, cô cóc nói. Giá ông cò hay một cậu cò con chở mình đi, mình sẽ đền đáp. Mình vui quá! Mọi khao khát, mọi niềm vui trong lòng mình còn hơn có ngọc trong đầu. Mà chính cô lại là người có ngọc. Viên ngọc ấy là nỗi khát khao không ngừng được vươn lên, mãi vươn lên. Nó sáng trong đầu cô, sáng trong niềm vui, rực lên trong mong ước. Bỗng ông cò sà xuống. Ông thấy cô trong cỏ, ngoạm lấy chẳng chút nhẹ nhàng. Mỏ cò kẹp chặt, gió rít bên tai. Chẳng dễ chịu gì, nhưng cô đang được lên cao, lên về phía Ai Cập, cô biết thế. Vì vậy mắt cô sáng rực, như có tia lửa bay ra.",
+      "subtitles": [
+        "Mình phải tới Ai Cập, cô cóc nói.",
+        "Giá ông cò hay một cậu cò con chở mình đi, mình sẽ đền đáp.",
+        "Mình vui quá!",
+        "Mọi khao khát, mọi niềm vui trong lòng mình còn hơn có ngọc trong đầu.",
+        "Mà chính cô lại là người có ngọc.",
+        "Viên ngọc ấy là nỗi khát khao không ngừng được vươn lên, mãi vươn lên.",
+        "Nó sáng trong đầu cô, sáng trong niềm vui, rực lên trong mong ước.",
+        "Bỗng ông cò sà xuống.",
+        "Ông thấy cô trong cỏ, ngoạm lấy chẳng chút nhẹ nhàng.",
+        "Mỏ cò kẹp chặt, gió rít bên tai.",
+        "Chẳng dễ chịu gì, nhưng cô đang được lên cao, lên về phía Ai Cập, cô biết thế.",
+        "Vì vậy mắt cô sáng rực, như có tia lửa bay ra."
+      ],
+      "image": {
+        "prompt": "a white stork flying high over golden fields at sunset carrying the small toad in its long red beak, a tiny bright spark of light glowing in the toad's eye, wide sky toward the south",
+        "seed": 2894115247,
+        "character": "co"
+      },
+      "video": {
+        "motionPrompt": "the stork beats its great wings and rises higher, wind streams past, a tiny spark of light flashes from the toad's eye",
+        "seed": 894724019
+      },
+      "voice": {}
+    },
+    {
+      "id": "tia-sang",
+      "title": "Tia sáng",
+      "narrator": "ke-chuyen",
+      "narration": "Cái thân nhỏ đã chết, cô cóc không còn nữa. Nhưng tia sáng bay ra từ đôi mắt cô thì đi đâu? Tia nắng đã đón lấy nó, tia nắng mang viên ngọc ra khỏi đầu cô cóc. Mang đi đâu? Đừng hỏi nhà khảo cứu, hãy hỏi thi sĩ. Chàng sẽ kể bằng một câu chuyện cổ tích, có cả con sâu trên lá bắp cải, có cả gia đình nhà cò. Hãy nghĩ xem: con sâu sẽ hoá thành bướm đẹp. Nhà cò bay qua núi qua biển tới tận châu Phi, rồi vẫn tìm đường ngắn nhất về đúng mái nhà cũ. Nghe khó tin mà là thật. Còn viên ngọc của cô cóc? Hãy tìm nó trong mặt trời, nếu nhìn được. Ánh sáng ở đó chói quá. Mắt ta chưa đủ sức nhìn vào vinh quang tạo hoá, nhưng rồi một ngày ta sẽ có, và đó sẽ là câu chuyện đẹp nhất, mà ai cũng có phần.",
+      "subtitles": [
+        "Cái thân nhỏ đã chết, cô cóc không còn nữa.",
+        "Nhưng tia sáng bay ra từ đôi mắt cô thì đi đâu?",
+        "Tia nắng đã đón lấy nó, tia nắng mang viên ngọc ra khỏi đầu cô cóc.",
+        "Mang đi đâu? Đừng hỏi nhà khảo cứu, hãy hỏi thi sĩ.",
+        "Chàng sẽ kể bằng một câu chuyện cổ tích, có cả con sâu trên lá bắp cải,",
+        "có cả gia đình nhà cò.",
+        "Hãy nghĩ xem: con sâu sẽ hoá thành bướm đẹp.",
+        "Nhà cò bay qua núi qua biển tới tận châu Phi,",
+        "rồi vẫn tìm đường ngắn nhất về đúng mái nhà cũ.",
+        "Nghe khó tin mà là thật. Còn viên ngọc của cô cóc?",
+        "Hãy tìm nó trong mặt trời, nếu nhìn được.",
+        "Ánh sáng ở đó chói quá.",
+        "Mắt ta chưa đủ sức nhìn vào vinh quang tạo hoá, nhưng rồi một ngày ta sẽ có,",
+        "và đó sẽ là câu chuyện đẹp nhất, mà ai cũng có phần."
+      ],
+      "image": {
+        "prompt": "a single tiny spark of golden light carried upward on a sunbeam into a radiant sky, below a white butterfly over a cabbage garden and a flock of storks flying far away toward the sun",
+        "seed": 2687241431
+      },
+      "video": {
+        "motionPrompt": "the spark drifts upward along the sunbeam and dissolves into the dazzling sun, the butterfly flutters, storks glide into the distance",
+        "seed": 227703896
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender nineteenth century chamber instrumental, solo violin and harp rising in long hopeful phrases, a feeling of longing upward, gentle and luminous ending, no vocals",
+    "durationSeconds": 160,
+    "seed": 4064010553
+  }
+}

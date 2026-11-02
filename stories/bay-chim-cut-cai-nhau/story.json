@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "slug": "bay-chim-cut-cai-nhau",
+  "shelf": "kids",
+  "title": "Bầy chim cút cãi nhau",
+  "summary": "Nhờ cùng nhau nhấc lưới bay lên, bầy chim cút nhiều lần thoát khỏi người đánh bẫy. Nhưng rồi chỉ vì một cú giẫm nhầm, cả bầy cãi nhau ầm ĩ. Truyện tiền thân Jataka của Ấn Độ kể nhẹ nhàng cho trẻ nhỏ về sức mạnh của đoàn kết.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện tiền thân Đức Phật (Jataka, Ấn Độ cổ đại), theo bản kể lại tiếng Anh của Ellen C. Babbitt, Jataka Tales (1912), truyện «The Quarrel of the Quails», Project Gutenberg #62514, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản nào; Mèo Miu dẫn chuyện, thoại và chi tiết nhỏ do người viết thêm. Bản cho trẻ nhỏ: chuyện người đánh bẫy mang chim đi bán được kể nhẹ thành nhốt vào lồng mang ra chợ, không bao giờ được về rừng nữa; thêm thoại của chim cút đầu đàn ở cuối truyện.",
+  "basedOn": "Truyện tiền thân Jataka (Ấn Độ)",
+  "style": "classic Indian storybook illustration in the spirit of old Jataka picture books, soft watercolor and gouache with gentle Mughal miniature touches, warm golden light, rounded friendly shapes, calm and safe mood for young children, an ancient Indian forest edge with tall grass, thorn bushes, a feeding ground of seeds and soft morning mist, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 437191928
+    },
+    {
+      "id": "cut-dau-dan",
+      "name": "Chim cút đầu đàn",
+      "seed": 37092725,
+      "sheetPrompt": "a wise plump brown quail with a little crest feather, kind eyes, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bay-cut",
+      "name": "Bầy chim cút",
+      "seed": 2776733579,
+      "sheetPrompt": "a group of small round brown speckled quails with tiny crests, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-bay-chim",
+      "name": "Người đánh bẫy chim",
+      "seed": 33496238,
+      "sheetPrompt": "a sly but comical ancient Indian bird-catcher with a big turban, a long moustache and a folded net over his shoulder, not scary, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có hay cãi nhau với bạn bè không? Miu thì có lúc cũng cãi nhau với bạn cún nhà bên đấy. Hôm nay Miu kể chuyện một bầy chim cút ở đất nước Ấn Độ. Khi cả bầy đồng lòng, chẳng ai bắt nạt được. Nhưng khi chúng cãi nhau thì chuyện gì xảy ra nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn có hay cãi nhau với bạn bè không?",
+        "Miu thì có lúc cũng cãi nhau với bạn cún nhà bên đấy.",
+        "Hôm nay Miu kể chuyện một bầy chim cút ở đất nước Ấn Độ.",
+        "Khi cả bầy đồng lòng, chẳng ai bắt nạt được.",
+        "Nhưng khi chúng cãi nhau thì chuyện gì xảy ra nhỉ?",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits at the edge of a misty forest meadow holding an open picture book, a group of little round quails peck seeds nearby",
+        "seed": 626589001
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello, the quails hop and peck, grass sways in the morning mist, slow gentle camera push-in",
+        "seed": 3247238391
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-cut",
+      "title": "Bầy chim cút trong rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở bìa một khu rừng, có rất nhiều chim cút sống chung với nhau. Đứng đầu cả bầy là một chú chim cút khôn ngoan nhất. Mỗi sáng, chim cút đầu đàn cất tiếng gọi: Cút cút, cút cút! Nghe tiếng gọi quen thuộc, cả bầy lại tụ về bãi cỏ, cùng nhau nhặt hạt, cùng nhau chơi đùa.",
+      "subtitles": [
+        "Ngày xưa, ở bìa một khu rừng, có rất nhiều chim cút sống chung với nhau.",
+        "Đứng đầu cả bầy là một chú chim cút khôn ngoan nhất.",
+        "Mỗi sáng, chim cút đầu đàn cất tiếng gọi: Cút cút, cút cút!",
+        "Nghe tiếng gọi quen thuộc, cả bầy lại tụ về bãi cỏ, cùng nhau nhặt hạt,",
+        "cùng nhau chơi đùa."
+      ],
+      "image": {
+        "character": "cut-dau-dan",
+        "prompt": "a wise brown quail with a crest stands on a small mound calling out, many little quails run toward him across a grassy feeding ground",
+        "seed": 135592319
+      },
+      "video": {
+        "motionPrompt": "the leader quail lifts its head and calls, little quails scurry in from all sides, seeds scatter, gentle camera pan",
+        "seed": 4017559417
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-bay",
+      "title": "Người đánh bẫy bắt chước",
+      "narrator": "ke-chuyen",
+      "narration": "Gần khu rừng có một người chuyên đánh bẫy chim cút mang ra chợ bán. Ngày nào ông ta cũng nấp trong bụi, lắng nghe tiếng gọi của chim cút đầu đàn. Lâu dần, ông bắt chước được y hệt. Ông giả tiếng gọi: Cút cút! Bầy chim tưởng đầu đàn gọi, chạy ùa tới. Thế là ông tung lưới chụp lấy, nhốt vào lồng mang đi. Mỗi ngày bầy cút lại vắng đi một ít.",
+      "subtitles": [
+        "Gần khu rừng có một người chuyên đánh bẫy chim cút mang ra chợ bán.",
+        "Ngày nào ông ta cũng nấp trong bụi, lắng nghe tiếng gọi của chim cút đầu đàn.",
+        "Lâu dần, ông bắt chước được y hệt.",
+        "Ông giả tiếng gọi: Cút cút!",
+        "Bầy chim tưởng đầu đàn gọi, chạy ùa tới.",
+        "Thế là ông tung lưới chụp lấy, nhốt vào lồng mang đi.",
+        "Mỗi ngày bầy cút lại vắng đi một ít."
+      ],
+      "image": {
+        "character": "nguoi-bay-chim",
+        "prompt": "a comical bird-catcher in a big turban hides behind a bush cupping his hands to his mouth, a net ready over his shoulder, little quails run toward the sound",
+        "seed": 980868537
+      },
+      "video": {
+        "motionPrompt": "the bird-catcher puffs his cheeks to call, the quails tilt their heads and run closer, the net slips off his shoulder, gentle camera push-in",
+        "seed": 2358974052
+      },
+      "voice": {}
+    },
+    {
+      "id": "ke-hoach",
+      "title": "Kế hoạch của đầu đàn",
+      "narrator": "ke-chuyen",
+      "narration": "Chim cút đầu đàn biết hết mưu của người đánh bẫy. Nó gọi cả bầy lại, nói: Cứ thế này thì bầy ta vắng hết mất. Ta có một cách. Lần tới, khi lưới chụp xuống, mỗi bạn hãy chui đầu qua một mắt lưới. Rồi tất cả cùng vỗ cánh bay lên một lúc, mang cả tấm lưới tới bụi gai gần nhất. Thả lưới mắc lại trên gai, thế là chúng ta thoát. Cả bầy reo lên: Hay quá! Chúng mình làm thế!",
+      "subtitles": [
+        "Chim cút đầu đàn biết hết mưu của người đánh bẫy.",
+        "Nó gọi cả bầy lại, nói: Cứ thế này thì bầy ta vắng hết mất.",
+        "Ta có một cách.",
+        "Lần tới, khi lưới chụp xuống, mỗi bạn hãy chui đầu qua một mắt lưới.",
+        "Rồi tất cả cùng vỗ cánh bay lên một lúc, mang cả tấm lưới tới bụi gai gần nhất.",
+        "Thả lưới mắc lại trên gai, thế là chúng ta thoát.",
+        "Cả bầy reo lên: Hay quá! Chúng mình làm thế!"
+      ],
+      "image": {
+        "character": "cut-dau-dan",
+        "prompt": "the wise leader quail stands on a stone explaining a plan, the whole group of little quails gathers close in a circle listening eagerly",
+        "seed": 1383321470
+      },
+      "video": {
+        "motionPrompt": "the leader flaps one wing to show the plan, the quails nod their heads together, leaves drift down, gentle camera circle",
+        "seed": 3673058468
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhac-luoi",
+      "title": "Cùng nhau nhấc lưới",
+      "narrator": "ke-chuyen",
+      "narration": "Ngay hôm sau, người đánh bẫy lại giả tiếng gọi, lại tung lưới chụp xuống. Lần này, mỗi chú cút chui đầu qua một mắt lưới, rồi một, hai, ba, cả bầy cùng vỗ cánh. Tấm lưới bay vút lên trời! Chúng mang lưới tới bụi gai, thả xuống, rồi bay về báo tin vui với đầu đàn. Người đánh bẫy loay hoay gỡ lưới khỏi bụi gai tới tận tối, tay không về nhà. Hôm sau cũng thế, hôm sau nữa vẫn thế.",
+      "subtitles": [
+        "Ngay hôm sau, người đánh bẫy lại giả tiếng gọi, lại tung lưới chụp xuống.",
+        "Lần này, mỗi chú cút chui đầu qua một mắt lưới, rồi một, hai, ba, cả bầy cùng vỗ cánh.",
+        "Tấm lưới bay vút lên trời!",
+        "Chúng mang lưới tới bụi gai, thả xuống, rồi bay về báo tin vui với đầu đàn.",
+        "Người đánh bẫy loay hoay gỡ lưới khỏi bụi gai tới tận tối, tay không về nhà.",
+        "Hôm sau cũng thế, hôm sau nữa vẫn thế."
+      ],
+      "image": {
+        "character": "bay-cut",
+        "prompt": "many little quails fly up together lifting a big net into the sky, each quail's head poking through a hole, a surprised bird-catcher below",
+        "seed": 3779690852
+      },
+      "video": {
+        "motionPrompt": "the quails flap in unison and the net rises into the air, the bird-catcher's mouth drops open, the net floats toward a thorn bush, gentle camera tilt up",
+        "seed": 3088166592
+      },
+      "voice": {}
+    },
+    {
+      "id": "vo-cang-nhang",
+      "title": "Lời của người đánh bẫy",
+      "narrator": "ke-chuyen",
+      "narration": "Vợ người đánh bẫy cằn nhằn: Sao dạo này ông chẳng mang về được đồng nào thế? Ông ta gãi đầu đáp: Bầy cút ấy bây giờ đồng lòng lắm, lưới vừa chụp xuống là chúng nhấc lên bay mất. Nhưng bà cứ chờ xem. Đến lúc chúng cãi nhau, tôi sẽ bắt được hết.",
+      "subtitles": [
+        "Vợ người đánh bẫy cằn nhằn: Sao dạo này ông chẳng mang về được đồng nào thế?",
+        "Ông ta gãi đầu đáp: Bầy cút ấy bây giờ đồng lòng lắm,",
+        "lưới vừa chụp xuống là chúng nhấc lên bay mất.",
+        "Nhưng bà cứ chờ xem.",
+        "Đến lúc chúng cãi nhau, tôi sẽ bắt được hết."
+      ],
+      "image": {
+        "character": "nguoi-bay-chim",
+        "prompt": "a bird-catcher scratches his head in a small mud house while his wife scolds him with hands on hips, a tangled net full of thorns lies on the floor",
+        "seed": 3012346264
+      },
+      "video": {
+        "motionPrompt": "the wife wags her finger, the bird-catcher shrugs and pulls a thorn from the net, a lamp flickers, gentle camera push-in",
+        "seed": 4136830962
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-nhau",
+      "title": "Cú giẫm nhầm",
+      "narrator": "ke-chuyen",
+      "narration": "Ít lâu sau, một chú cút sà xuống bãi cỏ, lỡ chân giẫm lên đầu một chú khác. Chú kia tức giận: Ai giẫm lên đầu tôi đấy? Chú thứ nhất vội nói: Tôi đấy, nhưng tôi không cố ý, bạn đừng giận nhé. Thế mà chú kia vẫn giận, còn nói những lời khó nghe. Rồi bạn này bênh bạn này, bạn kia bênh bạn kia. Chẳng mấy chốc, cả bầy chia làm hai phe, cãi nhau ầm ĩ.",
+      "subtitles": [
+        "Ít lâu sau, một chú cút sà xuống bãi cỏ, lỡ chân giẫm lên đầu một chú khác.",
+        "Chú kia tức giận: Ai giẫm lên đầu tôi đấy?",
+        "Chú thứ nhất vội nói: Tôi đấy, nhưng tôi không cố ý, bạn đừng giận nhé.",
+        "Thế mà chú kia vẫn giận, còn nói những lời khó nghe.",
+        "Rồi bạn này bênh bạn này, bạn kia bênh bạn kia.",
+        "Chẳng mấy chốc, cả bầy chia làm hai phe, cãi nhau ầm ĩ."
+      ],
+      "image": {
+        "character": "bay-cut",
+        "prompt": "two little quails squabble on the feeding ground, feathers ruffled, the rest of the group splits into two sides chirping angrily at each other",
+        "seed": 1427086145
+      },
+      "video": {
+        "motionPrompt": "the quails puff up their feathers and chirp at each other, little feathers float in the air, the two groups turn their backs, gentle camera shake then settle",
+        "seed": 1830474387
+      },
+      "voice": {}
+    },
+    {
+      "id": "mac-luoi",
+      "title": "Không ai chịu nhấc lưới",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc ấy, người đánh bẫy lại tung lưới chụp xuống. Phe này bảo: Các cậu nhấc lưới đi! Phe kia đáp: Tự các cậu nhấc lấy! Các cậu định bắt bọn tớ làm hết à? Các cậu nhấc trước thì bọn tớ giúp! Cứ thế cãi qua cãi lại, chẳng phe nào chịu nhấc trước. Người đánh bẫy thong thả gom lưới lại, nhốt cả bầy vào lồng mang ra chợ. Từ đó, chúng không bao giờ được về khu rừng ấy nữa.",
+      "subtitles": [
+        "Đúng lúc ấy, người đánh bẫy lại tung lưới chụp xuống.",
+        "Phe này bảo: Các cậu nhấc lưới đi!",
+        "Phe kia đáp: Tự các cậu nhấc lấy!",
+        "Các cậu định bắt bọn tớ làm hết à?",
+        "Các cậu nhấc trước thì bọn tớ giúp!",
+        "Cứ thế cãi qua cãi lại, chẳng phe nào chịu nhấc trước.",
+        "Người đánh bẫy thong thả gom lưới lại, nhốt cả bầy vào lồng mang ra chợ.",
+        "Từ đó, chúng không bao giờ được về khu rừng ấy nữa."
+      ],
+      "image": {
+        "character": "bay-cut",
+        "prompt": "a net lies over the quarreling quails who keep arguing instead of lifting it, a comical bird-catcher calmly gathers the net into a woven basket cage",
+        "seed": 2832488199
+      },
+      "video": {
+        "motionPrompt": "the quails keep chirping at each other under the net, the bird-catcher strolls in smiling and gathers the net, gentle camera pull-back",
+        "seed": 3238302291
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, khi bầy cút đồng lòng, cả tấm lưới to cũng nhấc lên được. Nhưng chỉ vì một chuyện nhỏ xíu, không ai chịu nhường ai, thế là cả bầy gặp nạn. Khi bạn lỡ làm mình đau mà đã xin lỗi rồi, mình hãy tha thứ cho bạn nhé. Miu sẽ đi làm lành với bạn cún ngay đây. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, khi bầy cút đồng lòng, cả tấm lưới to cũng nhấc lên được.",
+        "Nhưng chỉ vì một chuyện nhỏ xíu, không ai chịu nhường ai, thế là cả bầy gặp nạn.",
+        "Khi bạn lỡ làm mình đau mà đã xin lỗi rồi, mình hãy tha thứ cho bạn nhé.",
+        "Miu sẽ đi làm lành với bạn cún ngay đây.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye at the edge of the forest meadow, a few little quails sit close together in a friendly row",
+        "seed": 955760594
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the quails snuggle together and bob their heads, grass sways, gentle camera pull-back",
+        "seed": 3726003557
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle ancient Indian forest melody with bansuri flute and soft santoor, light bird-like trills, a tense quarrel passage then a calm thoughtful ending, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2457259022
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "slug": "mu-phu-thuy-va-dam-tay-sai",
+  "shelf": "adults",
+  "title": "Mụ phù thủy và đám tay sai",
+  "summary": "Hoàng tử út Iwanich canh ba cây táo thần và bắt được nàng Militza hóa chim thiên nga. Vì tò mò mở cánh cửa sắt bị cấm, chàng mất cả vợ lẫn lâu đài, phải ở đợ một năm cho mụ phù thủy Corva, chăn con ngựa cái và con ngựa non chỉ chực trốn đi. Truyện dân gian Nga kể đầy đủ cho người lớn.",
+  "themes": [
+    "than-thoai",
+    "anh-hung",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «The Witch and her Servants» trong The Yellow Fairy Book do Andrew Lang chủ biên (1894), truyện dân gian Nga theo bản sưu tầm của Kletke, Project Gutenberg, thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới hoàn toàn, theo sát cốt truyện của bản Lang.",
+  "basedOn": "Truyện dân gian Nga, Andrew Lang kể lại (1894)",
+  "style": "Russian fairy tale illustration in the manner of Ivan Bilibin, bold ink outlines with flat jewel colors, ornamental folk borders, birch forests, white palaces and dark heaths, moonlit gardens with golden apples, dark and grand mood for adult readers, danger shown with restraint, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "iwanich",
+      "name": "Hoàng tử Iwanich",
+      "sheetPrompt": "Prince Iwanich, a slender young Russian prince of about eighteen, fair hair under a fur-trimmed cap, clear brave blue eyes, a green kaftan with gold embroidery, red leather boots, full body, front and side views, plain cream background, Bilibin style character reference sheet",
+      "seed": 1790057988
+    },
+    {
+      "id": "militza",
+      "name": "Nàng Militza",
+      "sheetPrompt": "Militza, a beautiful fairy princess of Russian legend, long silver-blonde braid, gentle dark eyes, a white sarafan embroidered with swan feathers and pearls, a diamond ring on her finger, full body, front and side views, plain cream background, Bilibin style character reference sheet",
+      "seed": 1711900436
+    },
+    {
+      "id": "corva",
+      "name": "Mụ phù thủy Corva",
+      "sheetPrompt": "Corva the witch, a hideous gaunt old crone of Russian folklore, hooked nose, tangled grey hair, skinny clawlike hands, ragged black and rust colored shawls, iron keys at her belt, full body, front and side views, plain cream background, Bilibin style character reference sheet",
+      "seed": 188530265
+    },
+    {
+      "id": "ngua-non",
+      "name": "Con ngựa non",
+      "sheetPrompt": "a magical pitch-black foal with a long flowing mane, bright intelligent eyes, slender strong legs, a faint silver glow along its back, full body, side view, plain cream background, Bilibin style character reference sheet",
+      "seed": 1746652993
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-cay-tao-than",
+      "title": "Ba cây táo thần",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một ông vua có ba người con trai: Szabo, Warza và út là Iwanich. Một sáng mùa xuân, vua dẫn các con dạo vườn, tới một bãi đất hoang có ba cây táo tuyệt đẹp thì lắc đầu buồn bã. Vua kể: Hạt giống ba cây này do một pháp sư lừng danh tặng ông nội các con. Pháp sư dặn chớ hái quả khi còn xanh, kẻo cả cây thối hết, chín rồi quả sẽ vàng óng. Năm đầu tiên, đúng đêm quả chín, có một bàn tay vô hình hái sạch. Năm sau ta hái sớm thì quả đắng, sáng ra thối rữa cả. Từ đó năm nào cũng vậy, đúng đêm ấy quả lại bị trộm mất.",
+      "subtitles": [
+        "Ngày xưa có một ông vua có ba người con trai: Szabo, Warza và út là Iwanich.",
+        "Một sáng mùa xuân, vua dẫn các con dạo vườn,",
+        "tới một bãi đất hoang có ba cây táo tuyệt đẹp thì lắc đầu buồn bã.",
+        "Vua kể: Hạt giống ba cây này do một pháp sư lừng danh tặng ông nội các con.",
+        "Pháp sư dặn chớ hái quả khi còn xanh, kẻo cả cây thối hết, chín rồi quả sẽ vàng óng.",
+        "Năm đầu tiên, đúng đêm quả chín, có một bàn tay vô hình hái sạch.",
+        "Năm sau ta hái sớm thì quả đắng, sáng ra thối rữa cả.",
+        "Từ đó năm nào cũng vậy, đúng đêm ấy quả lại bị trộm mất."
+      ],
+      "image": {
+        "prompt": "an old Russian king with a long white beard and his three sons standing in a wild corner of a palace garden before three magnificent apple trees heavy with pale fruit, the king shaking his head sadly",
+        "seed": 1722481851
+      },
+      "video": {
+        "motionPrompt": "petals drift from the orchard, the king lowers his head, the sons exchange glances, golden light on the apples, slow push-in",
+        "seed": 2087211434
+      },
+      "voice": {}
+    },
+    {
+      "id": "nang-thien-nga",
+      "title": "Nàng thiên nga trên cây táo",
+      "narrator": "ke-chuyen",
+      "narration": "Người anh cả xin canh cây, nhưng quá nửa đêm thì ngủ gục, sáng ra quả mất sạch. Năm sau người anh thứ hai cũng thế. Tới lượt Iwanich. Trăng sáng vằng vặc. Đúng nửa đêm, gió tây lay cây, một con chim trắng như thiên nga sà xuống ngực chàng. Chàng chộp lấy đôi cánh, và trong tay chàng là một thiếu nữ đẹp nhất đời. Nàng nói: Đừng sợ Militza. Kẻ trộm không phải là pháp sư. Chính hắn đã trộm hạt giống của mẹ ta và gây nên cái chết của bà. Trước khi mất, mẹ dặn ta năm nào cũng lấy lại quả. Chàng ôm chặt ta nên lời yểm trên ta đã tan.",
+      "subtitles": [
+        "Người anh cả xin canh cây, nhưng quá nửa đêm thì ngủ gục, sáng ra quả mất sạch.",
+        "Năm sau người anh thứ hai cũng thế. Tới lượt Iwanich.",
+        "Trăng sáng vằng vặc.",
+        "Đúng nửa đêm, gió tây lay cây, một con chim trắng như thiên nga sà xuống ngực chàng.",
+        "Chàng chộp lấy đôi cánh, và trong tay chàng là một thiếu nữ đẹp nhất đời.",
+        "Nàng nói: Đừng sợ Militza. Kẻ trộm không phải là pháp sư.",
+        "Chính hắn đã trộm hạt giống của mẹ ta và gây nên cái chết của bà.",
+        "Trước khi mất, mẹ dặn ta năm nào cũng lấy lại quả.",
+        "Chàng ôm chặt ta nên lời yểm trên ta đã tan."
+      ],
+      "image": {
+        "prompt": "a moonlit apple tree in a royal garden, a young prince in a green kaftan among the branches holding a beautiful girl in a white feathered gown, white swan feathers still drifting in the air",
+        "seed": 2023277046,
+        "character": "iwanich"
+      },
+      "video": {
+        "motionPrompt": "the swan shimmers into the shape of a girl in the prince's arms, feathers float down through moonbeams, branches sway, slow push-in",
+        "seed": 4024722781
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-nhan-kim-cuong",
+      "title": "Chiếc nhẫn kim cương",
+      "narrator": "ke-chuyen",
+      "narration": "Hai người trò chuyện tới gần sáng, và Iwanich đã đem lòng yêu nàng. Nàng nói: Một mụ phù thủy từng cắt trộm một lọn tóc của ta lúc ta ngủ, nên ta bị mụ khống chế. Trời sáng mà ta còn ở đây thì mụ sẽ hại ta, có khi hại cả chàng. Nàng tháo chiếc nhẫn kim cương trao cho chàng: Nếu chàng yêu ta thật lòng, hãy tìm tới vương quốc của ta. Tới ngã ba nào, chàng cứ nhìn viên kim cương. Nó còn sáng thì đi thẳng, nó mờ đi thì rẽ lối khác. Nàng hôn lên trán chàng rồi tan vào một đám mây trắng nhỏ.",
+      "subtitles": [
+        "Hai người trò chuyện tới gần sáng, và Iwanich đã đem lòng yêu nàng.",
+        "Nàng nói: Một mụ phù thủy từng cắt trộm một lọn tóc của ta lúc ta ngủ,",
+        "nên ta bị mụ khống chế.",
+        "Trời sáng mà ta còn ở đây thì mụ sẽ hại ta, có khi hại cả chàng.",
+        "Nàng tháo chiếc nhẫn kim cương trao cho chàng: Nếu chàng yêu ta thật lòng,",
+        "hãy tìm tới vương quốc của ta.",
+        "Tới ngã ba nào, chàng cứ nhìn viên kim cương.",
+        "Nó còn sáng thì đi thẳng, nó mờ đi thì rẽ lối khác.",
+        "Nàng hôn lên trán chàng rồi tan vào một đám mây trắng nhỏ."
+      ],
+      "image": {
+        "prompt": "dawn breaking over the palace garden, the fairy princess placing a sparkling diamond ring in the prince's palm, a small white cloud forming around her as she begins to fade",
+        "seed": 1971164308,
+        "character": "militza"
+      },
+      "video": {
+        "motionPrompt": "the diamond flashes in the first light, the girl dissolves into a little white cloud that drifts up through the branches, slow tilt up",
+        "seed": 1069542305
+      },
+      "voice": {}
+    },
+    {
+      "id": "khu-rung-thu-du",
+      "title": "Khu rừng thú dữ",
+      "narrator": "ke-chuyen",
+      "narration": "Vua cha mừng rỡ vì quả đã chín vàng, mở tiệc khắp kinh thành. Iwanich chỉ nói dối rằng chàng đã đuổi một con ong vò vẽ khổng lồ suốt đêm. Rồi giữa bữa tiệc, chàng lấy mấy túi vàng, phóng ngựa đi biệt. Ba tháng sau, chàng tới bìa một khu rừng mênh mông. Một ông già gầy gò rách rưới ngồi dưới gốc sồi gọi lại: Trong rừng có vô số hổ, sói, gấu và rắn độc. Thấy chàng nhất quyết đi, ông cho chàng một túi vụn bánh mì và một con thỏ sống, dặn để ngựa lại. Vào rừng một quãng, thú dữ vây kín. Chàng rắc vụn bánh cho chúng tranh nhau ăn, hết vụn thì thả con thỏ. Con thỏ chạy như tên bắn, cả bầy thú đuổi theo, và chàng đi tiếp.",
+      "subtitles": [
+        "Vua cha mừng rỡ vì quả đã chín vàng, mở tiệc khắp kinh thành.",
+        "Iwanich chỉ nói dối rằng chàng đã đuổi một con ong vò vẽ khổng lồ suốt đêm.",
+        "Rồi giữa bữa tiệc, chàng lấy mấy túi vàng, phóng ngựa đi biệt.",
+        "Ba tháng sau, chàng tới bìa một khu rừng mênh mông.",
+        "Một ông già gầy gò rách rưới ngồi dưới gốc sồi gọi lại: Trong rừng có vô số hổ, sói,",
+        "gấu và rắn độc.",
+        "Thấy chàng nhất quyết đi, ông cho chàng một túi vụn bánh mì và một con thỏ sống,",
+        "dặn để ngựa lại. Vào rừng một quãng, thú dữ vây kín.",
+        "Chàng rắc vụn bánh cho chúng tranh nhau ăn, hết vụn thì thả con thỏ.",
+        "Con thỏ chạy như tên bắn, cả bầy thú đuổi theo, và chàng đi tiếp."
+      ],
+      "image": {
+        "prompt": "a young prince in a vast dark forest scattering breadcrumbs from a bag while a ring of tigers, wolves, bears and snakes close in around him, a white hare in his other arm ready to be released",
+        "seed": 3991372079,
+        "character": "iwanich"
+      },
+      "video": {
+        "motionPrompt": "crumbs scatter, the beasts lunge for them, the hare leaps from his arms and races away with the whole pack chasing it, quick pan",
+        "seed": 961161194
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-lun-va-su-tu",
+      "title": "Người lùn và hai con sư tử",
+      "narrator": "ke-chuyen",
+      "narration": "Chẳng bao lâu, một người lùn kỳ quặc đi tới, cao chưa tới một mét, chân cong queo, khắp người đầy gai như con nhím, hai con sư tử buộc vào hai đầu bộ râu dài. Hắn hỏi: Có phải ngươi vừa cho đội cận vệ của ta ăn không? Ta cảm ơn ngươi, ngươi muốn gì? Iwanich chỉ xin đi qua rừng bình an. Người lùn tháo một con sư tử khỏi râu, sai nó hộ tống chàng, dặn ra khỏi rừng thì thả nó về. Có sư tử đi bên, bầy thú chỉ dám đứng xa. Tới bìa rừng, chàng cảm ơn sư tử, ngủ một đêm bên đống lửa, và sáng ra thấy một tòa lâu đài trắng.",
+      "subtitles": [
+        "Chẳng bao lâu, một người lùn kỳ quặc đi tới, cao chưa tới một mét, chân cong queo,",
+        "khắp người đầy gai như con nhím, hai con sư tử buộc vào hai đầu bộ râu dài.",
+        "Hắn hỏi: Có phải ngươi vừa cho đội cận vệ của ta ăn không?",
+        "Ta cảm ơn ngươi, ngươi muốn gì?",
+        "Iwanich chỉ xin đi qua rừng bình an.",
+        "Người lùn tháo một con sư tử khỏi râu, sai nó hộ tống chàng,",
+        "dặn ra khỏi rừng thì thả nó về.",
+        "Có sư tử đi bên, bầy thú chỉ dám đứng xa.",
+        "Tới bìa rừng, chàng cảm ơn sư tử, ngủ một đêm bên đống lửa,",
+        "và sáng ra thấy một tòa lâu đài trắng."
+      ],
+      "image": {
+        "prompt": "a strange tiny man covered in hedgehog spines with crooked legs, two great lions leashed to the ends of his very long beard, meeting a young prince on a forest path",
+        "seed": 291395422
+      },
+      "video": {
+        "motionPrompt": "the little man unties one lion from his beard, the lion pads to the prince's side, the other lion yawns, slow push-in",
+        "seed": 2424792618
+      },
+      "voice": {}
+    },
+    {
+      "id": "canh-cua-sat",
+      "title": "Cánh cửa sắt bị cấm",
+      "narrator": "ke-chuyen",
+      "narration": "Giữa khu vườn của lâu đài, Militza đang ngồi cùng các thị nữ kết hoa. Nàng chạy tới ôm chàng, và chẳng bao lâu họ làm lễ cưới linh đình. Ba tháng hạnh phúc trôi qua thì nàng được dì gọi sang thăm. Trước khi đi, nàng trao chàng mọi chìa khóa: Chàng muốn đi đâu cũng được. Chỉ xin chàng đừng mở cánh cửa sắt nhỏ trong tháp phía bắc, có bảy ổ khóa và bảy then cài. Nếu mở, cả hai ta sẽ khổ. Chàng hứa, và nàng đi, hẹn bảy ngày sẽ về.",
+      "subtitles": [
+        "Giữa khu vườn của lâu đài, Militza đang ngồi cùng các thị nữ kết hoa.",
+        "Nàng chạy tới ôm chàng, và chẳng bao lâu họ làm lễ cưới linh đình.",
+        "Ba tháng hạnh phúc trôi qua thì nàng được dì gọi sang thăm.",
+        "Trước khi đi, nàng trao chàng mọi chìa khóa: Chàng muốn đi đâu cũng được.",
+        "Chỉ xin chàng đừng mở cánh cửa sắt nhỏ trong tháp phía bắc, có bảy ổ khóa và bảy then cài.",
+        "Nếu mở, cả hai ta sẽ khổ.",
+        "Chàng hứa, và nàng đi, hẹn bảy ngày sẽ về."
+      ],
+      "image": {
+        "prompt": "a white marble palace hall, the fairy princess in travelling clothes handing a heavy ring of keys to the prince and pointing gravely toward a dark north tower seen through the window",
+        "seed": 1999765279,
+        "character": "militza"
+      },
+      "video": {
+        "motionPrompt": "the keys jingle as they pass between hands, the princess's finger lingers toward the tower, a cold shadow crosses the window, slow push-in",
+        "seed": 988395624
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-trong-vac",
+      "title": "Người trong vạc nhựa sôi",
+      "narrator": "ke-chuyen",
+      "narration": "Hai ngày chàng cố cưỡng lại, đến ngày thứ ba thì không chịu nổi. Chàng cầm đuốc lên tháp, mở từng ổ khóa cho tới khi cửa bật ra. Bên trong là một căn phòng ám khói, ngọn lửa xanh lè liếm dưới một cái vạc nhựa đường sôi sùng sục, và trong vạc là một người đàn ông bị xích, đang gào lên đau đớn. Hắn van: Hãy làm dịu cơn đau cho ta trước đã, chỉ cần vẩy ít nước. Động lòng thương, chàng chạy xuống sân múc một bình nước, dội lên người hắn. Lập tức một tiếng sấm nổ vang, cả lâu đài xoay tít quanh đầu chàng rồi tan biến, để chàng đứng trơ trọi giữa một bãi hoang đầy đá sỏi.",
+      "subtitles": [
+        "Hai ngày chàng cố cưỡng lại, đến ngày thứ ba thì không chịu nổi.",
+        "Chàng cầm đuốc lên tháp, mở từng ổ khóa cho tới khi cửa bật ra.",
+        "Bên trong là một căn phòng ám khói,",
+        "ngọn lửa xanh lè liếm dưới một cái vạc nhựa đường sôi sùng sục,",
+        "và trong vạc là một người đàn ông bị xích, đang gào lên đau đớn.",
+        "Hắn van: Hãy làm dịu cơn đau cho ta trước đã, chỉ cần vẩy ít nước.",
+        "Động lòng thương, chàng chạy xuống sân múc một bình nước, dội lên người hắn.",
+        "Lập tức một tiếng sấm nổ vang, cả lâu đài xoay tít quanh đầu chàng rồi tan biến,",
+        "để chàng đứng trơ trọi giữa một bãi hoang đầy đá sỏi."
+      ],
+      "image": {
+        "prompt": "a smoke-blackened tower room lit by eerie blue flames, a huge iron cauldron with a chained gaunt man inside reaching out, the young prince with a torch in one hand and a jug of water in the other",
+        "seed": 1567905059,
+        "character": "iwanich"
+      },
+      "video": {
+        "motionPrompt": "the water splashes, steam bursts upward, the walls begin to spin and dissolve into darkness, whirling camera",
+        "seed": 838298736
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-mu-corva",
+      "title": "Nhà mụ Corva",
+      "narrator": "ke-chuyen",
+      "narration": "Lang thang trong tuyệt vọng, chàng gặp lại túp lều của ông già rách rưới. Ông bảo vùng này không người ở, nếu cần việc làm thì đi ngược dòng suối ba giờ, tới chỗ mụ phù thủy Corva. Nhà mụ đen sì, cửa sổ chăng mạng nhện, quanh nhà là hàng rào cọc nhọn, trên mỗi cọc cắm một chiếc đầu lâu người. Mụ dẫn chàng xuống chuồng có một con ngựa cái và một con ngựa non đen tuyền. Mụ nói: Ngươi chỉ việc đưa chúng ra đồng mỗi sáng và đừng để con nào trốn. Hầu ta đủ một năm thì muốn gì ta cũng cho. Để sổng một con thì đầu ngươi sẽ cắm lên chiếc cọc cuối cùng kia. Chàng nghĩ mình chẳng thể khốn khổ hơn, nên nhận lời.",
+      "subtitles": [
+        "Lang thang trong tuyệt vọng, chàng gặp lại túp lều của ông già rách rưới.",
+        "Ông bảo vùng này không người ở, nếu cần việc làm thì đi ngược dòng suối ba giờ,",
+        "tới chỗ mụ phù thủy Corva.",
+        "Nhà mụ đen sì, cửa sổ chăng mạng nhện, quanh nhà là hàng rào cọc nhọn,",
+        "trên mỗi cọc cắm một chiếc đầu lâu người.",
+        "Mụ dẫn chàng xuống chuồng có một con ngựa cái và một con ngựa non đen tuyền.",
+        "Mụ nói: Ngươi chỉ việc đưa chúng ra đồng mỗi sáng và đừng để con nào trốn.",
+        "Hầu ta đủ một năm thì muốn gì ta cũng cho.",
+        "Để sổng một con thì đầu ngươi sẽ cắm lên chiếc cọc cuối cùng kia.",
+        "Chàng nghĩ mình chẳng thể khốn khổ hơn, nên nhận lời."
+      ],
+      "image": {
+        "prompt": "a small black witch's house on a desolate heath with two grated cobwebbed windows, surrounded by a tall fence of sharp stakes with one bare stake at the end, a hideous old crone at the iron door beckoning a ragged young prince",
+        "seed": 3959187180,
+        "character": "corva"
+      },
+      "video": {
+        "motionPrompt": "crows circle above the stakes, the iron door creaks open, the crone's bony finger beckons, grey clouds roll, slow push-in",
+        "seed": 1509288723
+      },
+      "voice": {}
+    },
+    {
+      "id": "ca-dai-bang-cao",
+      "title": "Con cá, con đại bàng và con cáo",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày ngày chàng chăn ngựa yên ổn. Một hôm, thấy một con cá lớn mắc cạn, chàng ôm nó thả về sông. Cá trao chàng một chiếc vảy: Lúc cần thì ném vảy xuống sông, ta sẽ đến. Hôm khác, chàng cầm cành cây xua đàn quạ đang vây đánh một con đại bàng. Đại bàng nhổ một chiếc lông: Lúc cần thì thổi chiếc lông lên trời. Hôm khác nữa, chàng gỡ một con cáo khỏi bẫy. Cáo nhổ hai sợi lông đuôi: Lúc cần thì ném vào lửa. Chàng cất cả ba vật vào người.",
+      "subtitles": [
+        "Ngày ngày chàng chăn ngựa yên ổn.",
+        "Một hôm, thấy một con cá lớn mắc cạn, chàng ôm nó thả về sông.",
+        "Cá trao chàng một chiếc vảy: Lúc cần thì ném vảy xuống sông, ta sẽ đến.",
+        "Hôm khác, chàng cầm cành cây xua đàn quạ đang vây đánh một con đại bàng.",
+        "Đại bàng nhổ một chiếc lông: Lúc cần thì thổi chiếc lông lên trời.",
+        "Hôm khác nữa, chàng gỡ một con cáo khỏi bẫy.",
+        "Cáo nhổ hai sợi lông đuôi: Lúc cần thì ném vào lửa.",
+        "Chàng cất cả ba vật vào người."
+      ],
+      "image": {
+        "prompt": "three small panels in folk art style: a young man releasing a great fish into a river, the same young man driving black ravens away from an eagle with a branch, and freeing a red fox from a trap",
+        "seed": 3161955186,
+        "character": "iwanich"
+      },
+      "video": {
+        "motionPrompt": "the fish splashes into the water, ravens scatter into the sky, the fox leaps free of the trap, gentle pan across the three panels",
+        "seed": 2898446501
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngua-tron-xuong-song",
+      "title": "Ngựa trốn xuống sông và lên mây",
+      "narrator": "ke-chuyen",
+      "narration": "Còn ba ngày nữa là đủ năm. Tối ấy chàng lén theo mụ ra chuồng, nghe mụ dặn hai con ngựa: Mai đợi nó ngủ thì trốn xuống sông, không nghe thì ta đánh cho tóe máu. Sáng ra chàng buộc dây vào cả hai con mà cầm chặt, nhưng phép mụ vẫn làm chàng ngủ thiếp. Tỉnh dậy, ngựa đã mất. Chàng ném vảy cá xuống sông. Nước sôi lên sùng sục, đàn cá lùa hai con ngựa run rẩy lên bờ. Hôm sau mụ bắt chúng trốn lên mây. Chàng thổi chiếc lông, đàn đại bàng lớn nhỏ bay lên lùa ngựa xuống. Mụ Corva tức tối không giấu nổi.",
+      "subtitles": [
+        "Còn ba ngày nữa là đủ năm.",
+        "Tối ấy chàng lén theo mụ ra chuồng,",
+        "nghe mụ dặn hai con ngựa: Mai đợi nó ngủ thì trốn xuống sông,",
+        "không nghe thì ta đánh cho tóe máu.",
+        "Sáng ra chàng buộc dây vào cả hai con mà cầm chặt, nhưng phép mụ vẫn làm chàng ngủ thiếp.",
+        "Tỉnh dậy, ngựa đã mất. Chàng ném vảy cá xuống sông.",
+        "Nước sôi lên sùng sục, đàn cá lùa hai con ngựa run rẩy lên bờ.",
+        "Hôm sau mụ bắt chúng trốn lên mây.",
+        "Chàng thổi chiếc lông, đàn đại bàng lớn nhỏ bay lên lùa ngựa xuống.",
+        "Mụ Corva tức tối không giấu nổi."
+      ],
+      "image": {
+        "prompt": "a wild river churning with silver fish as a black mare and foal leap terrified onto the bank, while in the background flocks of eagles drive dark horse shapes down out of the clouds over the mountains",
+        "seed": 3264387580,
+        "character": "iwanich"
+      },
+      "video": {
+        "motionPrompt": "foam bursts from the river as the horses spring ashore, eagles spiral down through the clouds, quick sweeping camera",
+        "seed": 2862493313
+      },
+      "voice": {}
+    },
+    {
+      "id": "chuong-ga-nha-vua",
+      "title": "Chuồng gà nhà vua",
+      "narrator": "ke-chuyen",
+      "narration": "Lần thứ ba, mụ bắt hai con ngựa trốn vào chuồng gà của nhà vua giữa đồng hoang. Chàng đốt lửa, ném hai sợi lông đuôi vào, con cáo hiện ra dẫn đường. Cáo bảo: Chàng đứng ở cửa, ta chui vào đuổi gà. Các bà nuôi gà sẽ chạy ra, tưởng ngựa làm loạn mà đuổi chúng ra ngoài. Mọi việc đúng như cáo nói. Trên đường về, ngựa cái bỗng lên tiếng: Chàng là người đầu tiên lừa được mụ Corva. Hãy hứa đừng bao giờ phản ta, ta sẽ mách chàng một điều. Đừng đòi gì khác ngoài con ngựa non. Nó chạy từ đầu này tới đầu kia trái đất chỉ trong vài phút. Mụ sẽ chê nó lười, nó ốm, chàng đừng nghe.",
+      "subtitles": [
+        "Lần thứ ba, mụ bắt hai con ngựa trốn vào chuồng gà của nhà vua giữa đồng hoang.",
+        "Chàng đốt lửa, ném hai sợi lông đuôi vào, con cáo hiện ra dẫn đường.",
+        "Cáo bảo: Chàng đứng ở cửa, ta chui vào đuổi gà.",
+        "Các bà nuôi gà sẽ chạy ra, tưởng ngựa làm loạn mà đuổi chúng ra ngoài.",
+        "Mọi việc đúng như cáo nói.",
+        "Trên đường về, ngựa cái bỗng lên tiếng: Chàng là người đầu tiên lừa được mụ Corva.",
+        "Hãy hứa đừng bao giờ phản ta, ta sẽ mách chàng một điều.",
+        "Đừng đòi gì khác ngoài con ngựa non.",
+        "Nó chạy từ đầu này tới đầu kia trái đất chỉ trong vài phút.",
+        "Mụ sẽ chê nó lười, nó ốm, chàng đừng nghe."
+      ],
+      "image": {
+        "prompt": "a young prince riding a black mare across a moonlit heath leading a glowing black foal by the bridle, the mare turning her head to speak to him, a royal henhouse in uproar far behind with feathers flying",
+        "seed": 2907549275,
+        "character": "ngua-non"
+      },
+      "video": {
+        "motionPrompt": "the horses trot through silver grass, the mare's ears turn back as she speaks, feathers drift in the distance, slow tracking shot",
+        "seed": 2979206243
+      },
+      "voice": {}
+    },
+    {
+      "id": "phan-thuong",
+      "title": "Phần thưởng của mụ",
+      "narrator": "ke-chuyen",
+      "narration": "Lần này Corva đón chàng niềm nở, dọn một bữa thịnh soạn, rồi hỏi chàng muốn thưởng gì. Chàng đáp: Con ngựa non của bà. Mụ vờ ngạc nhiên, chê nó lười biếng, nhút nhát, chột một mắt, chẳng đáng một xu. Nhưng thấy chàng không đổi ý, mụ đành nói: Ta phải giữ lời. Ta biết ngươi là ai và muốn gì. Kẻ trong vạc nhựa mà ngươi cứu là một pháp sư hùng mạnh. Vì tính tò mò của ngươi, Militza đã rơi vào tay hắn, bị đưa cùng lâu đài tới một xứ xa. Chỉ ngươi diệt được hắn, nên hắn rất sợ ngươi. Gặp hắn, chớ nói một lời, kẻo sa vào tay bè lũ của hắn. Cứ túm râu hắn mà quật xuống đất.",
+      "subtitles": [
+        "Lần này Corva đón chàng niềm nở, dọn một bữa thịnh soạn, rồi hỏi chàng muốn thưởng gì.",
+        "Chàng đáp: Con ngựa non của bà.",
+        "Mụ vờ ngạc nhiên, chê nó lười biếng, nhút nhát, chột một mắt, chẳng đáng một xu.",
+        "Nhưng thấy chàng không đổi ý, mụ đành nói: Ta phải giữ lời.",
+        "Ta biết ngươi là ai và muốn gì.",
+        "Kẻ trong vạc nhựa mà ngươi cứu là một pháp sư hùng mạnh.",
+        "Vì tính tò mò của ngươi, Militza đã rơi vào tay hắn, bị đưa cùng lâu đài tới một xứ xa.",
+        "Chỉ ngươi diệt được hắn, nên hắn rất sợ ngươi.",
+        "Gặp hắn, chớ nói một lời, kẻo sa vào tay bè lũ của hắn.",
+        "Cứ túm râu hắn mà quật xuống đất."
+      ],
+      "image": {
+        "prompt": "inside a smoky witch's kitchen, the crone in rust colored shawls handing the bridle of a black foal to the young prince with a crooked false smile, a fire crackling in the hearth",
+        "seed": 519946984,
+        "character": "corva"
+      },
+      "video": {
+        "motionPrompt": "the fire crackles, the crone's smile twists, the foal stamps a hoof, the prince grips the bridle firmly, slow push-in",
+        "seed": 1343032523
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-xe-cu",
+      "title": "Cỗ xe cú trên trời",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng cảm ơn mụ, nhảy lên lưng ngựa non, và nó lao vút đi như tia chớp trên không trung. Trời vừa sẩm tối thì chàng thấy phía xa mấy bóng người: chính tên pháp sư cùng bè bạn đang ngồi trên một cỗ xe do lũ cú kéo, bay giữa trời. Bị đuổi kịp, hết đường thoát, tên pháp sư quay lại giả lả: Hỡi ân nhân của ta! Nhưng chàng không nói một lời, túm ngay râu hắn quật xuống đất. Con ngựa non nhảy bổ lên, giẫm đạp hắn bằng bốn vó cho tới khi hắn chết hẳn.",
+      "subtitles": [
+        "Chàng cảm ơn mụ, nhảy lên lưng ngựa non, và nó lao vút đi như tia chớp trên không trung.",
+        "Trời vừa sẩm tối thì chàng thấy phía xa mấy bóng người: chính tên pháp sư cùng bè bạn đang",
+        "ngồi trên một cỗ xe do lũ cú kéo, bay giữa trời.",
+        "Bị đuổi kịp, hết đường thoát, tên pháp sư quay lại giả lả: Hỡi ân nhân của ta!",
+        "Nhưng chàng không nói một lời, túm ngay râu hắn quật xuống đất.",
+        "Con ngựa non nhảy bổ lên, giẫm đạp hắn bằng bốn vó cho tới khi hắn chết hẳn."
+      ],
+      "image": {
+        "prompt": "a dusky sky over the steppe, a young prince on a black flying foal overtaking a dark carriage pulled by great owls, a gaunt sorcerer with a long beard turning back with a false smile",
+        "seed": 126182063,
+        "character": "iwanich"
+      },
+      "video": {
+        "motionPrompt": "the foal surges through the clouds, the owls flap wildly, the prince reaches for the sorcerer's beard, dramatic fast push-in",
+        "seed": 367082867
+      },
+      "voice": {}
+    },
+    {
+      "id": "doan-tu",
+      "title": "Đoàn tụ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngay lúc ấy, Iwanich thấy mình đã đứng giữa lâu đài của vợ, và Militza chạy ùa vào vòng tay chàng. Từ đó về sau, hai người sống bên nhau yên ổn, hạnh phúc, không gì quấy nhiễu, cho tới cuối đời.",
+      "subtitles": [
+        "Ngay lúc ấy, Iwanich thấy mình đã đứng giữa lâu đài của vợ,",
+        "và Militza chạy ùa vào vòng tay chàng.",
+        "Từ đó về sau, hai người sống bên nhau yên ổn, hạnh phúc, không gì quấy nhiễu,",
+        "cho tới cuối đời."
+      ],
+      "image": {
+        "prompt": "the white palace restored in morning light, the fairy princess running into the arms of the young prince in a garden of flowers, the black foal standing proudly nearby",
+        "seed": 1205786473,
+        "character": "militza"
+      },
+      "video": {
+        "motionPrompt": "sunlight floods the garden, petals drift, the two embrace, the foal tosses its mane, slow pull-back",
+        "seed": 2563949605
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "Russian folk instrumental, balalaika and domra with a low choir hum, mysterious and brooding, galloping rhythm in the middle, triumphant bells at the end, no vocals",
+    "durationSeconds": 180,
+    "seed": 2591369909
+  }
+}

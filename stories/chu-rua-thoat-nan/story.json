@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-rua-thoat-nan",
+  "shelf": "kids",
+  "title": "Chú rùa thoát nạn",
+  "summary": "Các hoàng tử nhỏ tưởng chú rùa trong hồ là yêu quái, nhà vua liền sai người bắt đi. Bằng một mẹo nhỏ thật khôn, chú rùa đã tự tìm đường về nhà. Truyện tiền thân Jataka của Ấn Độ kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện tiền thân Đức Phật (Jataka, Ấn Độ cổ đại), theo bản kể lại tiếng Anh của Ellen C. Babbitt, Jataka Tales (1912), truyện «How the Turtle Saved His Own Life», Project Gutenberg #62514, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản nào; Mèo Miu dẫn chuyện, thoại và chi tiết nhỏ do người viết thêm. Bản cho trẻ nhỏ: những cách người trong cung bàn để trị chú rùa được kể nhẹ thành nhốt vào lồng, đem đi thật xa; ý ném rùa xuống hồ cho nước cuốn đi được giữ đúng như truyện gốc.",
+  "basedOn": "Truyện tiền thân Jataka (Ấn Độ)",
+  "style": "classic Indian storybook illustration in the spirit of old Jataka picture books, soft watercolor and gouache with gentle Mughal miniature touches, warm golden light, rounded friendly shapes, calm and safe mood for young children, an ancient Indian palace courtyard with a lotus lake, marble steps, palm trees and a little waterfall flowing over rocks into a river, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 461377662
+    },
+    {
+      "id": "rua",
+      "name": "Chú rùa",
+      "seed": 2431896513,
+      "sheetPrompt": "a small clever green turtle with a patterned shell and bright twinkling eyes, gentle smile, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Các hoàng tử nhỏ",
+      "seed": 37552862,
+      "sheetPrompt": "three little Indian princes in colorful silk tunics and small turbans, round faces, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nha-vua",
+      "name": "Nhà vua",
+      "seed": 4061070681,
+      "sheetPrompt": "a kind ancient Indian king with a golden crown, a curled moustache and a rich red robe, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-lao",
+      "name": "Ông lão sợ nước",
+      "seed": 2582933752,
+      "sheetPrompt": "a thin old man in a white dhoti and shawl with a long grey beard, nervous expression, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có biết con rùa sống ở đâu không? Có bạn rùa sống trên cạn, có bạn rùa sống dưới nước. Hôm nay Miu kể một câu chuyện từ đất nước Ấn Độ xa xôi, về một chú rùa bị người ta tưởng là yêu quái. Chú rùa đã thoát nạn bằng cách nào nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn có biết con rùa sống ở đâu không?",
+        "Có bạn rùa sống trên cạn, có bạn rùa sống dưới nước.",
+        "Hôm nay Miu kể một câu chuyện từ đất nước Ấn Độ xa xôi,",
+        "về một chú rùa bị người ta tưởng là yêu quái.",
+        "Chú rùa đã thoát nạn bằng cách nào nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on marble steps beside a lotus lake holding an open picture book, a little green turtle peeks out from the lotus leaves",
+        "seed": 291677411
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello, the turtle pokes its head out and blinks, lotus flowers bob, slow gentle camera push-in",
+        "seed": 1321523751
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-sen",
+      "title": "Hồ nước trong vườn vua",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một nhà vua cho đào một cái hồ thật đẹp ngay giữa sân cung điện, để các hoàng tử nhỏ có chỗ vui chơi. Các hoàng tử bơi lội, thả thuyền giấy, chèo bè gỗ suốt ngày. Một hôm, vua bảo: Các con ơi, cha đã cho người thả cá xuống hồ rồi đấy. Các hoàng tử reo lên, chạy ùa ra bờ hồ xem cá.",
+      "subtitles": [
+        "Ngày xưa, có một nhà vua cho đào một cái hồ thật đẹp ngay giữa sân cung điện,",
+        "để các hoàng tử nhỏ có chỗ vui chơi.",
+        "Các hoàng tử bơi lội, thả thuyền giấy, chèo bè gỗ suốt ngày.",
+        "Một hôm, vua bảo: Các con ơi, cha đã cho người thả cá xuống hồ rồi đấy.",
+        "Các hoàng tử reo lên, chạy ùa ra bờ hồ xem cá."
+      ],
+      "image": {
+        "character": "hoang-tu",
+        "prompt": "three little Indian princes run happily toward a lotus lake in a palace courtyard, toy boats float on the water, colorful fish swim below",
+        "seed": 2163478032
+      },
+      "video": {
+        "motionPrompt": "the princes run and point at the water, toy boats drift, fish flash in the sunlight, gentle camera follow toward the lake",
+        "seed": 3256583693
+      },
+      "voice": {}
+    },
+    {
+      "id": "yeu-quai",
+      "title": "Yêu quái bên bờ hồ",
+      "narrator": "ke-chuyen",
+      "narration": "Cá vàng, cá bạc bơi tung tăng, các hoàng tử thích lắm. Nhưng cùng với đàn cá, còn có một chú rùa xanh. Chú bò lên bờ phơi nắng, thò cái đầu nhỏ ra ngó nghiêng. Các hoàng tử chưa bao giờ thấy rùa. Chúng sợ hãi kêu lên: Yêu quái! Có yêu quái trên bờ hồ! Rồi cả bọn ù té chạy về tìm cha.",
+      "subtitles": [
+        "Cá vàng, cá bạc bơi tung tăng, các hoàng tử thích lắm.",
+        "Nhưng cùng với đàn cá, còn có một chú rùa xanh.",
+        "Chú bò lên bờ phơi nắng, thò cái đầu nhỏ ra ngó nghiêng.",
+        "Các hoàng tử chưa bao giờ thấy rùa.",
+        "Chúng sợ hãi kêu lên: Yêu quái! Có yêu quái trên bờ hồ!",
+        "Rồi cả bọn ù té chạy về tìm cha."
+      ],
+      "image": {
+        "character": "rua",
+        "prompt": "a small green turtle sunbathes on the edge of the lotus lake poking out its head, three little princes run away in fright with arms waving",
+        "seed": 3847085337
+      },
+      "video": {
+        "motionPrompt": "the turtle stretches its neck and blinks, the princes scatter and run away, lotus leaves sway, gentle camera push-in on the turtle",
+        "seed": 1349235047
+      },
+      "voice": {}
+    },
+    {
+      "id": "bat-rua",
+      "title": "Nhà vua sai bắt rùa",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua rất thương các con, liền sai người hầu ra bắt con yêu quái mang vào cung. Chú rùa bị đặt lên chiếc khay bạc trước mặt mọi người. Vừa thấy nó, các hoàng tử lại khóc òa, chạy trốn sau lưng cha. Vua cau mày, phán: Con vật này làm các con ta sợ. Phải đuổi nó đi cho thật xa, không cho quay lại đây nữa!",
+      "subtitles": [
+        "Nhà vua rất thương các con, liền sai người hầu ra bắt con yêu quái mang vào cung.",
+        "Chú rùa bị đặt lên chiếc khay bạc trước mặt mọi người.",
+        "Vừa thấy nó, các hoàng tử lại khóc òa, chạy trốn sau lưng cha.",
+        "Vua cau mày, phán: Con vật này làm các con ta sợ.",
+        "Phải đuổi nó đi cho thật xa, không cho quay lại đây nữa!"
+      ],
+      "image": {
+        "character": "nha-vua",
+        "prompt": "a kind Indian king on a throne frowns at a little green turtle sitting on a silver tray, three little princes hide behind the throne, palace servants stand nearby",
+        "seed": 3967324231
+      },
+      "video": {
+        "motionPrompt": "the princes peek out from behind the throne and duck back, the turtle pulls its head into its shell, the king raises a hand, gentle camera push-in",
+        "seed": 2191270414
+      },
+      "voice": {}
+    },
+    {
+      "id": "ban-cach",
+      "title": "Mọi người bàn cách",
+      "narrator": "ke-chuyen",
+      "narration": "Người trong cung xúm lại bàn tán. Người này bảo: Nhốt nó vào cái lồng sắt thật chặt. Người kia nói: Mang nó lên núi cao, bỏ vào hang đá tối. Mỗi người một ý, chẳng ai chịu ai. Chú rùa nằm im trong mai, nghe hết, lo lắm, nhưng vẫn cố nghĩ xem mình nên làm gì.",
+      "subtitles": [
+        "Người trong cung xúm lại bàn tán.",
+        "Người này bảo: Nhốt nó vào cái lồng sắt thật chặt.",
+        "Người kia nói: Mang nó lên núi cao, bỏ vào hang đá tối.",
+        "Mỗi người một ý, chẳng ai chịu ai.",
+        "Chú rùa nằm im trong mai, nghe hết, lo lắm, nhưng vẫn cố nghĩ xem mình nên làm gì."
+      ],
+      "image": {
+        "prompt": "palace servants in colorful turbans gather around a silver tray arguing and gesturing, a small turtle hides inside its shell listening carefully",
+        "seed": 2502300254
+      },
+      "video": {
+        "motionPrompt": "the servants wave their hands and argue, the turtle's eyes peek out from its shell and dart left and right, gentle camera circle",
+        "seed": 3166812926
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-lao-noi",
+      "title": "Ông lão sợ nước",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng một ông lão râu dài bước lên. Ông vốn rất sợ nước, cả đời chẳng dám lội qua con suối nào. Ông nói: Cứ ném nó xuống hồ, chỗ nước chảy qua ghềnh đá ra sông ấy. Nước chảy xiết lắm, thế nào nó cũng bị cuốn đi mất! Nghe vậy, chú rùa thò đầu ra, giả vờ hoảng hốt van xin.",
+      "subtitles": [
+        "Bỗng một ông lão râu dài bước lên.",
+        "Ông vốn rất sợ nước, cả đời chẳng dám lội qua con suối nào.",
+        "Ông nói: Cứ ném nó xuống hồ, chỗ nước chảy qua ghềnh đá ra sông ấy.",
+        "Nước chảy xiết lắm, thế nào nó cũng bị cuốn đi mất!",
+        "Nghe vậy, chú rùa thò đầu ra, giả vờ hoảng hốt van xin."
+      ],
+      "image": {
+        "character": "ong-lao",
+        "prompt": "a thin old man with a long grey beard points toward a little waterfall flowing over rocks, a small turtle peeks out of its shell on the tray",
+        "seed": 4103493702
+      },
+      "video": {
+        "motionPrompt": "the old man points and shivers at the sight of the water, the turtle slowly pushes its head out with a sly twinkle, gentle camera pan toward the waterfall",
+        "seed": 3112075387
+      },
+      "voice": {}
+    },
+    {
+      "id": "rua-van-xin",
+      "title": "Chú rùa giả vờ van xin",
+      "narrator": "ke-chuyen",
+      "narration": "Rùa kêu lên: Ông ơi, tôi đã làm gì mà ông nỡ đối xử với tôi như vậy? Mấy cách kia đã đáng sợ lắm rồi, nhưng ném tôi xuống hồ thì còn khủng khiếp hơn nữa! Xin đừng, xin đừng nói tới chuyện ấy! Nhà vua nghe thấy rùa sợ nước như thế, liền ra lệnh: Mang nó đi, ném ngay xuống chỗ nước chảy kia!",
+      "subtitles": [
+        "Rùa kêu lên: Ông ơi, tôi đã làm gì mà ông nỡ đối xử với tôi như vậy?",
+        "Mấy cách kia đã đáng sợ lắm rồi, nhưng ném tôi xuống hồ thì còn khủng khiếp hơn nữa!",
+        "Xin đừng, xin đừng nói tới chuyện ấy!",
+        "Nhà vua nghe thấy rùa sợ nước như thế, liền ra lệnh: Mang nó đi,",
+        "ném ngay xuống chỗ nước chảy kia!"
+      ],
+      "image": {
+        "character": "rua",
+        "prompt": "a small green turtle pretends to plead with dramatic tiny gestures, the king points firmly toward the lake, servants step forward to pick up the tray",
+        "seed": 1039911393
+      },
+      "video": {
+        "motionPrompt": "the turtle waves its little front legs dramatically and squeezes its eyes shut, the king points, servants lift the tray, gentle camera pull-back",
+        "seed": 1826144029
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-nha",
+      "title": "Chú rùa về nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Người hầu khiêng rùa ra bờ hồ, tõm một cái, thả chú xuống chỗ nước chảy. Chú rùa khoái chí cười thầm, lặn một hơi, theo dòng nước trôi qua ghềnh đá, ra tới con sông rộng, nơi ngôi nhà cũ của chú. Rùa ngoi đầu lên, nói một mình: Hay quá! Những người ấy đâu biết rằng ở dưới nước, ta an toàn nhất!",
+      "subtitles": [
+        "Người hầu khiêng rùa ra bờ hồ, tõm một cái, thả chú xuống chỗ nước chảy.",
+        "Chú rùa khoái chí cười thầm, lặn một hơi, theo dòng nước trôi qua ghềnh đá,",
+        "ra tới con sông rộng, nơi ngôi nhà cũ của chú.",
+        "Rùa ngoi đầu lên, nói một mình: Hay quá!",
+        "Những người ấy đâu biết rằng ở dưới nước, ta an toàn nhất!"
+      ],
+      "image": {
+        "character": "rua",
+        "prompt": "a happy little green turtle swims down a sparkling river past rocks and reeds, palm trees on the banks, the palace far behind in the distance",
+        "seed": 3350602061
+      },
+      "video": {
+        "motionPrompt": "the turtle paddles joyfully with the current, bubbles rise, fish swim alongside, sunlight sparkles on the river, gentle camera follow",
+        "seed": 897823926
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy chú rùa có khôn không? Gặp chuyện khó, chú không khóc lóc mà bình tĩnh nghĩ cách. Chú biết mình giỏi nhất ở đâu, và khéo léo tìm đường về đó. Còn các hoàng tử nhỏ thì nhớ nhé, chưa biết con vật nào, đừng vội gọi nó là yêu quái. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy chú rùa có khôn không?",
+        "Gặp chuyện khó, chú không khóc lóc mà bình tĩnh nghĩ cách.",
+        "Chú biết mình giỏi nhất ở đâu, và khéo léo tìm đường về đó.",
+        "Còn các hoàng tử nhỏ thì nhớ nhé, chưa biết con vật nào, đừng vội gọi nó là yêu quái.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye on a sunny riverbank, a little green turtle waves from the water among lotus leaves",
+        "seed": 1194279145
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the turtle splashes and waves back, lotus flowers sway, the river sparkles, gentle camera pull-back",
+        "seed": 1804227935
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle ancient Indian melody with bansuri flute, soft sitar and light tabla, playful and clever, flowing water feeling at the end, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1307120226
+  }
+}

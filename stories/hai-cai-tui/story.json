@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "slug": "hai-cai-tui",
+  "shelf": "kids",
+  "title": "Hai cái túi",
+  "summary": "Người xưa kể rằng ai sinh ra cũng đeo hai cái túi: túi trước đựng lỗi của người khác, túi sau đựng lỗi của chính mình. Vì sao ta dễ thấy lỗi người mà khó thấy lỗi mình? Ngụ ngôn Aesop kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Two Bags» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản dịch nào. Truyện gốc chỉ vài câu: Mèo Miu dẫn chuyện; thoại, chi tiết đời thường và lời rút ý cuối truyện do người viết thêm. Bản gốc chỉ là một lời kể xưa về hai cái túi; người viết thêm cảnh thần linh treo túi cho muôn loài và một chuyện nhỏ giữa các con vật trong rừng để trẻ dễ hiểu ý truyện.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, warm gentle light, rounded friendly shapes, calm and safe mood for young children, sunny ancient Greek woodland with olive trees, a little stream and a grassy clearing, soft clouds above, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1380968401
+    },
+    {
+      "id": "than-linh",
+      "name": "Thần linh",
+      "seed": 718726883,
+      "sheetPrompt": "a kind old Greek god with a long white beard, white robe and laurel crown, carrying many little cloth bags on a staff, friendly face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "khi-con",
+      "name": "Khỉ con",
+      "seed": 747138298,
+      "sheetPrompt": "a small cheeky brown monkey with a long curly tail, wearing two little cloth bags on a string, one in front and a big one on its back, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "tho-con",
+      "name": "Thỏ con",
+      "seed": 3209878312,
+      "sheetPrompt": "a small white rabbit with long ears, wearing two little cloth bags on a string, one in front and one on its back, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "rua-gia",
+      "name": "Bác rùa già",
+      "seed": 911009185,
+      "sheetPrompt": "a wise old tortoise with a mossy shell and round spectacles, gentle smile, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có túi không? Miu có một cái túi nhỏ màu hồng, đựng đầy bánh cá. Nhưng hôm nay Miu kể về hai cái túi rất lạ, mà ai cũng đeo mà chẳng ai nhìn thấy. Một cái treo phía trước, một cái treo sau lưng. Trong túi đựng gì nhỉ? Các bạn nghe thật kỹ nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có túi không?",
+        "Miu có một cái túi nhỏ màu hồng, đựng đầy bánh cá.",
+        "Nhưng hôm nay Miu kể về hai cái túi rất lạ, mà ai cũng đeo mà chẳng ai nhìn thấy.",
+        "Một cái treo phía trước, một cái treo sau lưng.",
+        "Trong túi đựng gì nhỉ? Các bạn nghe thật kỹ nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits in a sunny woodland clearing holding an open picture book, a little pink bag beside her, two mysterious cloth bags hang from an olive branch",
+        "seed": 2314126990
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello and taps her little pink bag, the cloth bags sway softly on the branch, leaves flutter, slow gentle camera push-in",
+        "seed": 770294194
+      },
+      "voice": {}
+    },
+    {
+      "id": "treo-tui",
+      "title": "Thần linh treo túi",
+      "narrator": "ke-chuyen",
+      "narration": "Người xưa kể rằng, ngày xửa ngày xưa, khi muôn loài mới ra đời, có một vị thần râu tóc bạc phơ đi khắp nơi. Thần mang theo thật nhiều túi vải. Ai ra đời, thần cũng đeo cho hai cái túi, buộc chung một sợi dây vòng qua cổ. Cái túi nhỏ treo phía trước ngực. Cái túi to treo phía sau lưng. Thần dặn: Hãy mang theo chúng suốt đời nhé.",
+      "subtitles": [
+        "Người xưa kể rằng, ngày xửa ngày xưa, khi muôn loài mới ra đời,",
+        "có một vị thần râu tóc bạc phơ đi khắp nơi.",
+        "Thần mang theo thật nhiều túi vải.",
+        "Ai ra đời, thần cũng đeo cho hai cái túi, buộc chung một sợi dây vòng qua cổ.",
+        "Cái túi nhỏ treo phía trước ngực.",
+        "Cái túi to treo phía sau lưng.",
+        "Thần dặn: Hãy mang theo chúng suốt đời nhé."
+      ],
+      "image": {
+        "character": "than-linh",
+        "prompt": "a kind old Greek god with a white beard gently hangs two cloth bags on a string around the neck of a little animal, many small animals wait in a line in a sunny meadow",
+        "seed": 3807445319
+      },
+      "video": {
+        "motionPrompt": "the god smiles and loops the string over a little animal's head, bags sway, animals in line hop forward one by one, gentle camera pan",
+        "seed": 3149500346
+      },
+      "voice": {}
+    },
+    {
+      "id": "trong-tui",
+      "title": "Trong túi đựng gì",
+      "narrator": "ke-chuyen",
+      "narration": "Vậy trong túi đựng gì? Cái túi phía trước đựng những lỗi nhỏ của người khác: ai đó nói to, ai đó làm đổ nước, ai đó quên chào. Cái túi phía sau lưng thì to hơn, đựng những lỗi của chính mình. Túi trước ở ngay trước mắt, nên lúc nào cũng nhìn thấy rõ. Còn túi sau lưng thì mình chẳng bao giờ ngoái lại mà nhìn được.",
+      "subtitles": [
+        "Vậy trong túi đựng gì?",
+        "Cái túi phía trước đựng những lỗi nhỏ của người khác: ai đó nói to, ai đó làm đổ nước,",
+        "ai đó quên chào.",
+        "Cái túi phía sau lưng thì to hơn, đựng những lỗi của chính mình.",
+        "Túi trước ở ngay trước mắt, nên lúc nào cũng nhìn thấy rõ.",
+        "Còn túi sau lưng thì mình chẳng bao giờ ngoái lại mà nhìn được."
+      ],
+      "image": {
+        "prompt": "a cosy close-up of two cloth bags on a string, a small bag in front glowing softly and a big bag on the back in gentle shadow, sunny woodland behind",
+        "seed": 2287953889
+      },
+      "video": {
+        "motionPrompt": "the front bag glows and sways gently, the back bag stays in soft shadow, light shimmers through leaves, slow camera circle around the bags",
+        "seed": 349456979
+      },
+      "voice": {}
+    },
+    {
+      "id": "khi-con-che",
+      "title": "Khỉ con chê bạn",
+      "narrator": "ke-chuyen",
+      "narration": "Trong khu rừng ô liu có một chú khỉ con rất hay chê bạn. Thấy thỏ con ăn cà rốt rơi vụn, khỉ cười: Ồ, thỏ ăn uống bừa bộn quá! Thấy sóc con chạy vấp ngã, khỉ lại chỉ trỏ: Sóc vụng về thật! Cái túi trước ngực khỉ ngày càng đầy. Nhưng khỉ đâu có biết, sau lưng mình, cái túi to cũng đang căng phồng.",
+      "subtitles": [
+        "Trong khu rừng ô liu có một chú khỉ con rất hay chê bạn.",
+        "Thấy thỏ con ăn cà rốt rơi vụn, khỉ cười: Ồ, thỏ ăn uống bừa bộn quá!",
+        "Thấy sóc con chạy vấp ngã, khỉ lại chỉ trỏ: Sóc vụng về thật!",
+        "Cái túi trước ngực khỉ ngày càng đầy.",
+        "Nhưng khỉ đâu có biết, sau lưng mình, cái túi to cũng đang căng phồng."
+      ],
+      "image": {
+        "character": "khi-con",
+        "prompt": "a small cheeky brown monkey on a branch pointing and giggling at a little rabbit nibbling a carrot with crumbs around, a squirrel nearby, the monkey's back bag bulges",
+        "seed": 114640256
+      },
+      "video": {
+        "motionPrompt": "the monkey giggles and points, the rabbit looks down shyly at the crumbs, the squirrel's tail flicks, gentle camera push-in",
+        "seed": 1673259581
+      },
+      "voice": {}
+    },
+    {
+      "id": "tho-nhac",
+      "title": "Thỏ con nhắc khéo",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, khỉ con vừa chê thỏ xong thì quay đi, tiện tay vứt vỏ chuối ngay giữa đường. Vỏ chuối, hạt ô liu, lá cây vương vãi khắp nơi. Thỏ con khẽ nói: Khỉ ơi, bạn chê mình ăn bừa bộn, thế còn chỗ vỏ chuối kia là của ai? Khỉ con ngoái lại nhìn, ngẩn người ra. Ơ kìa, của mình thật à? Sao từ nãy giờ mình chẳng thấy gì cả?",
+      "subtitles": [
+        "Một hôm, khỉ con vừa chê thỏ xong thì quay đi, tiện tay vứt vỏ chuối ngay giữa đường.",
+        "Vỏ chuối, hạt ô liu, lá cây vương vãi khắp nơi.",
+        "Thỏ con khẽ nói: Khỉ ơi, bạn chê mình ăn bừa bộn, thế còn chỗ vỏ chuối kia là của ai?",
+        "Khỉ con ngoái lại nhìn, ngẩn người ra.",
+        "Ơ kìa, của mình thật à?",
+        "Sao từ nãy giờ mình chẳng thấy gì cả?"
+      ],
+      "image": {
+        "character": "tho-con",
+        "prompt": "a little white rabbit gently points at banana peels and olive pits scattered on the path behind a surprised brown monkey who turns around with wide eyes",
+        "seed": 1594566457
+      },
+      "video": {
+        "motionPrompt": "the monkey turns around slowly, eyes widen, a banana peel slides a little, the rabbit tilts her head kindly, gentle camera pull-back",
+        "seed": 3605149238
+      },
+      "voice": {}
+    },
+    {
+      "id": "bac-rua-giang",
+      "title": "Bác rùa giảng giải",
+      "narrator": "ke-chuyen",
+      "narration": "Bác rùa già chậm rãi bò tới, mỉm cười bảo: Cháu ạ, đó là vì hai cái túi đấy. Lỗi của bạn nằm ở túi trước, ngay trước mắt cháu. Lỗi của cháu nằm ở túi sau lưng, nên cháu không nhìn thấy. Ai cũng thế cả, chẳng riêng gì cháu đâu. Muốn thấy túi sau lưng, cháu phải chịu khó ngoái lại, và lắng nghe khi bạn bè nhắc nhở.",
+      "subtitles": [
+        "Bác rùa già chậm rãi bò tới, mỉm cười bảo: Cháu ạ, đó là vì hai cái túi đấy.",
+        "Lỗi của bạn nằm ở túi trước, ngay trước mắt cháu.",
+        "Lỗi của cháu nằm ở túi sau lưng, nên cháu không nhìn thấy.",
+        "Ai cũng thế cả, chẳng riêng gì cháu đâu.",
+        "Muốn thấy túi sau lưng, cháu phải chịu khó ngoái lại, và lắng nghe khi bạn bè nhắc nhở."
+      ],
+      "image": {
+        "character": "rua-gia",
+        "prompt": "a wise old tortoise with spectacles talks kindly to a little monkey and a little rabbit under an olive tree, both listen carefully",
+        "seed": 4080624736
+      },
+      "video": {
+        "motionPrompt": "the tortoise nods slowly and points to the bags, the monkey scratches his head, the rabbit smiles, leaves drift down, gentle camera push-in",
+        "seed": 3374650628
+      },
+      "voice": {}
+    },
+    {
+      "id": "khi-sua-sai",
+      "title": "Khỉ con sửa mình",
+      "narrator": "ke-chuyen",
+      "narration": "Khỉ con đỏ mặt, cúi xuống nhặt hết vỏ chuối, hạt ô liu bỏ vào giỏ. Rồi khỉ quay sang thỏ con: Mình xin lỗi nhé, lúc nãy mình chê bạn. Thỏ con cười tít mắt: Không sao đâu, mình cũng sẽ ăn gọn gàng hơn. Từ hôm ấy, mỗi lần định chê ai, khỉ con lại nhớ tới cái túi sau lưng, và tự nhìn lại mình trước đã.",
+      "subtitles": [
+        "Khỉ con đỏ mặt, cúi xuống nhặt hết vỏ chuối, hạt ô liu bỏ vào giỏ.",
+        "Rồi khỉ quay sang thỏ con: Mình xin lỗi nhé, lúc nãy mình chê bạn.",
+        "Thỏ con cười tít mắt: Không sao đâu, mình cũng sẽ ăn gọn gàng hơn.",
+        "Từ hôm ấy, mỗi lần định chê ai, khỉ con lại nhớ tới cái túi sau lưng,",
+        "và tự nhìn lại mình trước đã."
+      ],
+      "image": {
+        "character": "khi-con",
+        "prompt": "a little brown monkey happily picks up banana peels into a basket while a smiling white rabbit helps, the woodland path now clean and sunny",
+        "seed": 2892241896
+      },
+      "video": {
+        "motionPrompt": "the monkey drops peels into the basket, the rabbit hops and helps, the two friends smile at each other, butterflies flutter, gentle camera pan",
+        "seed": 3270656173
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn ơi, ai cũng đeo hai cái túi đấy, cả Miu nữa. Lỗi của bạn thì mình thấy rất nhanh, còn lỗi của mình thì hay quên mất. Nên trước khi chê ai, mình hãy ngoái lại nhìn túi sau lưng mình một chút nhé. Miu cũng đang tập đấy, vì Miu hay làm đổ sữa mà cứ đổ cho chú chó. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn ơi, ai cũng đeo hai cái túi đấy, cả Miu nữa.",
+        "Lỗi của bạn thì mình thấy rất nhanh, còn lỗi của mình thì hay quên mất.",
+        "Nên trước khi chê ai, mình hãy ngoái lại nhìn túi sau lưng mình một chút nhé.",
+        "Miu cũng đang tập đấy, vì Miu hay làm đổ sữa mà cứ đổ cho chú chó.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the sunny woodland, a little monkey and a white rabbit sit together under an olive tree waving back",
+        "seed": 1667856253
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and peeks over her shoulder playfully, the monkey and rabbit wave, leaves flutter, gentle camera pull-back",
+        "seed": 3508243130
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle ancient Greek folk melody with lyre and soft flute, warm and thoughtful, light playful plucks, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 78414953
+  }
+}

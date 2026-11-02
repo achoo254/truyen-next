@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-bo-thang-cuoc",
+  "shelf": "kids",
+  "title": "Chú bò thắng cuộc",
+  "summary": "Chủ nhà cược rằng chú bò khỏe của mình kéo nổi một trăm cỗ xe, nhưng hôm ấy chú bò đứng im không nhúc nhích. Vì sao vậy, và làm sao để chú bò chịu kéo? Truyện tiền thân Jataka của Ấn Độ kể nhẹ nhàng cho trẻ nhỏ về lời nói tử tế.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện tiền thân Đức Phật (Jataka, Ấn Độ cổ đại), theo bản kể lại tiếng Anh của Ellen C. Babbitt, Jataka Tales (1912), truyện «The Ox Who Won the Forfeit», Project Gutenberg #62514, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản nào; Mèo Miu dẫn chuyện, thoại và chi tiết nhỏ do người viết thêm. Bản cho trẻ nhỏ: chuyện roi vọt được kể nhẹ thành quát mắng và quất roi vào không khí cho bò đi; thêm chi tiết bác chủ chăm bò mỗi ngày và nắm cỏ non lúc làm lành.",
+  "basedOn": "Truyện tiền thân Jataka (Ấn Độ)",
+  "style": "classic Indian storybook illustration in the spirit of old Jataka picture books, soft watercolor and gouache with gentle Mughal miniature touches, warm golden light, rounded friendly shapes, calm and safe mood for young children, an ancient Indian village square with a long line of wooden ox carts, mud houses, a banyan tree and curious villagers, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1620993029
+    },
+    {
+      "id": "bo",
+      "name": "Chú bò",
+      "seed": 3634709396,
+      "sheetPrompt": "a big strong white Indian ox with curved horns, a gentle face and a little brass bell on its neck, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bac-chu",
+      "name": "Bác chủ bò",
+      "seed": 3362243125,
+      "sheetPrompt": "a proud ancient Indian farmer with a white turban, a thick moustache and a simple kurta, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "dan-lang",
+      "name": "Dân làng",
+      "seed": 2575628291,
+      "sheetPrompt": "a cheerful crowd of ancient Indian villagers in colorful turbans and saris, laughing, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Khi có ai nói với các bạn bằng giọng thật dịu dàng, các bạn thấy thế nào? Vui lắm phải không? Còn khi bị quát mắng thì sao nhỉ? Hôm nay Miu kể chuyện một chú bò khỏe ơi là khỏe ở đất nước Ấn Độ. Có một hôm chú bò nhất định không chịu kéo xe. Vì sao vậy? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Khi có ai nói với các bạn bằng giọng thật dịu dàng, các bạn thấy thế nào?",
+        "Vui lắm phải không? Còn khi bị quát mắng thì sao nhỉ?",
+        "Hôm nay Miu kể chuyện một chú bò khỏe ơi là khỏe ở đất nước Ấn Độ.",
+        "Có một hôm chú bò nhất định không chịu kéo xe. Vì sao vậy?",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits under a banyan tree holding an open picture book, a big white ox with a brass bell grazes in the village behind",
+        "seed": 2617333620
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello, the ox lifts its head and its bell jingles, banyan leaves sway, slow gentle camera push-in",
+        "seed": 3862065830
+      },
+      "voice": {}
+    },
+    {
+      "id": "bac-chu-khoe",
+      "title": "Bác chủ hay khoe",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bác nông dân nuôi một chú bò rất khỏe. Ngày nào bác cũng tắm cho bò, cho bò ăn cỏ non, gọi bò bằng những tiếng thật thân thương. Bác thương bò lắm, mà cũng tự hào về bò lắm. Gặp ai bác cũng khoe: Bò nhà tôi khỏe nhất vùng này đấy! Nó kéo được những xe nặng mà chẳng con bò nào kéo nổi.",
+      "subtitles": [
+        "Ngày xưa, có một bác nông dân nuôi một chú bò rất khỏe.",
+        "Ngày nào bác cũng tắm cho bò, cho bò ăn cỏ non, gọi bò bằng những tiếng thật thân thương.",
+        "Bác thương bò lắm, mà cũng tự hào về bò lắm.",
+        "Gặp ai bác cũng khoe: Bò nhà tôi khỏe nhất vùng này đấy!",
+        "Nó kéo được những xe nặng mà chẳng con bò nào kéo nổi."
+      ],
+      "image": {
+        "character": "bac-chu",
+        "prompt": "a proud ancient Indian farmer in a white turban washes and pats a big white ox by a village well, neighbors listen as he boasts",
+        "seed": 1766581646
+      },
+      "video": {
+        "motionPrompt": "the farmer pours water over the ox and gestures proudly, the ox closes its eyes happily, neighbors nod, gentle camera push-in",
+        "seed": 857045596
+      },
+      "voice": {}
+    },
+    {
+      "id": "dat-cuoc",
+      "title": "Bác chủ đặt cược",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, bác chủ vào làng bên, đứng giữa chợ nói thật to: Bò nhà tôi kéo nổi một trăm cỗ xe nối đuôi nhau. Nếu nó không kéo được, tôi xin đền một nghìn đồng bạc! Dân làng cười ồ lên: Được thôi! Bác mang bò tới đây, chúng tôi buộc một trăm cỗ xe thành hàng, xem bò bác kéo thế nào!",
+      "subtitles": [
+        "Một hôm, bác chủ vào làng bên, đứng giữa chợ nói thật to:",
+        "Bò nhà tôi kéo nổi một trăm cỗ xe nối đuôi nhau.",
+        "Nếu nó không kéo được, tôi xin đền một nghìn đồng bạc!",
+        "Dân làng cười ồ lên: Được thôi!",
+        "Bác mang bò tới đây, chúng tôi buộc một trăm cỗ xe thành hàng, xem bò bác kéo thế nào!"
+      ],
+      "image": {
+        "character": "dan-lang",
+        "prompt": "an ancient Indian farmer stands in a busy village market raising his hand proudly, a cheerful crowd of villagers laughs and points",
+        "seed": 2104350807
+      },
+      "video": {
+        "motionPrompt": "villagers laugh and clap, the farmer puffs out his chest, market awnings flutter, gentle camera pan across the crowd",
+        "seed": 1520371817
+      },
+      "voice": {}
+    },
+    {
+      "id": "bo-dung-im",
+      "title": "Chú bò đứng im",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm sau, cả làng kéo ra xem. Một trăm cỗ xe gỗ xếp thành hàng dài, dài tít tắp. Chú bò được buộc vào cỗ xe đầu tiên. Bác chủ đứng cạnh, hôm ấy chẳng hiểu sao lại vung roi quát ầm lên: Đi mau! Đồ lười! Đồ vô dụng! Chú bò chưa bao giờ bị nói như thế. Chú buồn lắm, cứ đứng im như trời trồng. Bác quát thế nào, chú cũng không nhích lấy một bước.",
+      "subtitles": [
+        "Hôm sau, cả làng kéo ra xem.",
+        "Một trăm cỗ xe gỗ xếp thành hàng dài, dài tít tắp.",
+        "Chú bò được buộc vào cỗ xe đầu tiên.",
+        "Bác chủ đứng cạnh, hôm ấy chẳng hiểu sao lại vung roi quát ầm lên: Đi mau!",
+        "Đồ lười! Đồ vô dụng! Chú bò chưa bao giờ bị nói như thế.",
+        "Chú buồn lắm, cứ đứng im như trời trồng.",
+        "Bác quát thế nào, chú cũng không nhích lấy một bước."
+      ],
+      "image": {
+        "character": "bo",
+        "prompt": "a big white ox stands still and sad at the front of a very long line of wooden carts, the farmer waves a stick in the air and shouts, villagers watch",
+        "seed": 3912339750
+      },
+      "video": {
+        "motionPrompt": "the farmer waves the stick in the air, the ox lowers its head and stays still, the long line of carts does not move, gentle camera pull-back along the carts",
+        "seed": 2307886058
+      },
+      "voice": {}
+    },
+    {
+      "id": "bac-chu-buon",
+      "title": "Bác chủ buồn bã",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng, bác chủ đành đền một nghìn đồng bạc, cúi đầu dắt bò về nhà giữa tiếng cười của dân làng. Về tới nhà, bác nằm vật ra giường, thở dài: Sao con bò khỏe thế lại làm như vậy? Bao lần nó kéo những xe nặng hơn thế nhiều. Sao nó lại để mình xấu hổ trước mặt mọi người?",
+      "subtitles": [
+        "Cuối cùng, bác chủ đành đền một nghìn đồng bạc,",
+        "cúi đầu dắt bò về nhà giữa tiếng cười của dân làng.",
+        "Về tới nhà, bác nằm vật ra giường, thở dài: Sao con bò khỏe thế lại làm như vậy?",
+        "Bao lần nó kéo những xe nặng hơn thế nhiều.",
+        "Sao nó lại để mình xấu hổ trước mặt mọi người?"
+      ],
+      "image": {
+        "character": "bac-chu",
+        "prompt": "a sad farmer lies on a simple rope bed in a mud house, a small empty coin pouch beside him, evening light through the window",
+        "seed": 974955130
+      },
+      "video": {
+        "motionPrompt": "the farmer sighs and turns over, a lamp flickers, a breeze moves the curtain, slow gentle camera push-in",
+        "seed": 3039621340
+      },
+      "voice": {}
+    },
+    {
+      "id": "bo-noi",
+      "title": "Chú bò lên tiếng",
+      "narrator": "ke-chuyen",
+      "narration": "Tối ấy, bác ra chuồng mang cỏ cho bò. Chú bò quay lại nhìn bác, nói: Sao hôm nay bác lại quất roi với cháu? Trước giờ bác chưa bao giờ làm thế. Sao bác lại gọi cháu là đồ lười, đồ vô dụng? Trước giờ bác chỉ gọi cháu bằng những tên thật hay. Bác chủ lặng người, rồi ôm lấy cổ bò: Bác xin lỗi. Bác sai rồi. Bác sẽ không bao giờ như thế nữa. Cháu tha lỗi cho bác nhé.",
+      "subtitles": [
+        "Tối ấy, bác ra chuồng mang cỏ cho bò.",
+        "Chú bò quay lại nhìn bác, nói: Sao hôm nay bác lại quất roi với cháu?",
+        "Trước giờ bác chưa bao giờ làm thế.",
+        "Sao bác lại gọi cháu là đồ lười, đồ vô dụng?",
+        "Trước giờ bác chỉ gọi cháu bằng những tên thật hay.",
+        "Bác chủ lặng người, rồi ôm lấy cổ bò: Bác xin lỗi.",
+        "Bác sai rồi. Bác sẽ không bao giờ như thế nữa.",
+        "Cháu tha lỗi cho bác nhé."
+      ],
+      "image": {
+        "character": "bo",
+        "prompt": "in a cosy lamplit cowshed the big white ox turns to speak to the farmer, who hugs the ox's neck with an armful of fresh grass",
+        "seed": 837602972
+      },
+      "video": {
+        "motionPrompt": "the ox turns its head gently, the farmer hugs its neck and closes his eyes, the lamp glows warmly, gentle camera push-in",
+        "seed": 575041977
+      },
+      "voice": {}
+    },
+    {
+      "id": "keo-tram-xe",
+      "title": "Kéo một trăm cỗ xe",
+      "narrator": "ke-chuyen",
+      "narration": "Chú bò gật đầu: Được ạ. Ngày mai cháu sẽ kéo cho bác xem. Sáng hôm sau, bác chủ cho bò ăn thật no, quàng lên cổ bò một vòng hoa thơm. Ra làng, bác đặt cược lần nữa, lần này những hai nghìn đồng bạc. Bác vuốt cổ bò, nói dịu dàng: Nào, bò ngoan của bác, cho mọi người thấy cháu khỏe thế nào nhé! Chú bò rướn mình kéo thật mạnh. Một trăm cỗ xe lăn bánh, chiếc cuối cùng lăn tới tận chỗ chiếc đầu tiên vừa đứng.",
+      "subtitles": [
+        "Chú bò gật đầu: Được ạ. Ngày mai cháu sẽ kéo cho bác xem.",
+        "Sáng hôm sau, bác chủ cho bò ăn thật no, quàng lên cổ bò một vòng hoa thơm.",
+        "Ra làng, bác đặt cược lần nữa, lần này những hai nghìn đồng bạc.",
+        "Bác vuốt cổ bò, nói dịu dàng: Nào, bò ngoan của bác,",
+        "cho mọi người thấy cháu khỏe thế nào nhé!",
+        "Chú bò rướn mình kéo thật mạnh.",
+        "Một trăm cỗ xe lăn bánh, chiếc cuối cùng lăn tới tận chỗ chiếc đầu tiên vừa đứng."
+      ],
+      "image": {
+        "character": "bo",
+        "prompt": "the big white ox wearing a bright marigold garland pulls a very long line of wooden carts through the village, the farmer pats its neck kindly, villagers cheer",
+        "seed": 144672159
+      },
+      "video": {
+        "motionPrompt": "the ox leans forward and the carts roll one after another, marigold petals flutter, villagers throw up their hands and cheer, gentle camera follow",
+        "seed": 4174809416
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-nha-vui",
+      "title": "Hai bác cháu vui vẻ về nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Cả làng reo hò vang dậy: Đúng là con bò khỏe nhất chúng tôi từng thấy! Dân làng trả lại cho bác chủ số bạc hôm trước, lại còn thêm cả tiền thắng cược. Chiều hôm ấy, bác chủ và chú bò thong thả đi về nhà, tiếng chuông đồng trên cổ bò kêu leng keng, vui ơi là vui.",
+      "subtitles": [
+        "Cả làng reo hò vang dậy: Đúng là con bò khỏe nhất chúng tôi từng thấy!",
+        "Dân làng trả lại cho bác chủ số bạc hôm trước, lại còn thêm cả tiền thắng cược.",
+        "Chiều hôm ấy, bác chủ và chú bò thong thả đi về nhà,",
+        "tiếng chuông đồng trên cổ bò kêu leng keng, vui ơi là vui."
+      ],
+      "image": {
+        "character": "dan-lang",
+        "prompt": "a happy farmer and a big white ox with a marigold garland walk home together along a village road at sunset, villagers wave behind them",
+        "seed": 2608293188
+      },
+      "video": {
+        "motionPrompt": "the ox's brass bell swings and jingles, the farmer pats the ox, villagers wave, the sunset glows, gentle camera pull-back",
+        "seed": 3306520471
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, cùng một chú bò ấy, bị quát mắng thì chẳng muốn làm gì, được nói lời dịu dàng thì lại kéo được cả trăm cỗ xe. Lời nói tử tế có sức mạnh lớn lắm đấy. Mình hãy nói với bạn bè, với ông bà, với cả các con vật những lời thật dễ thương nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, cùng một chú bò ấy, bị quát mắng thì chẳng muốn làm gì,",
+        "được nói lời dịu dàng thì lại kéo được cả trăm cỗ xe.",
+        "Lời nói tử tế có sức mạnh lớn lắm đấy.",
+        "Mình hãy nói với bạn bè, với ông bà, với cả các con vật những lời thật dễ thương nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye under the banyan tree, the big white ox with a marigold garland stands beside her smiling",
+        "seed": 63003271
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and pats the ox's nose, the ox's bell jingles, banyan leaves sway, gentle camera pull-back",
+        "seed": 428655524
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm ancient Indian village melody with bansuri flute, harmonium and soft tabla, gentle ox-cart rhythm, a joyful lift at the end, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 904209992
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-la-kieu-ngao",
+  "shelf": "kids",
+  "title": "Chú la kiêu ngạo",
+  "summary": "Được ăn no, nghỉ nhiều, chú la tung tăng phi nước đại và khoe bố mình là ngựa đua cừ khôi. Nhưng chỉ sau một chuyến đi xa, chú đã đổi giọng. Ngụ ngôn Aesop kể vui cho bé về chuyện khoe khoang quá sớm.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Mule» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản dịch nào. Truyện gốc chỉ vài câu: Mèo Miu dẫn chuyện; bác nông dân, bạn ngỗng, chuyến chở hàng lên núi và thoại do người viết thêm; giữ ý chú la vốn là con của ngựa và lừa.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, warm sunny light, a Greek farm with a stable, a meadow and a rocky mountain path, rounded friendly shapes, gentle humorous mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 4196895396,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "la",
+      "name": "Chú la",
+      "seed": 982097240,
+      "sheetPrompt": "a chubby young brown mule with long ears, a shiny coat and a proud cheeky grin, cute cartoon style, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ngong",
+      "name": "Bạn ngỗng",
+      "seed": 1058542771,
+      "sheetPrompt": "a plump white farm goose with an orange beak and a sensible kind face, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nong-dan",
+      "name": "Bác nông dân",
+      "seed": 1746842441,
+      "sheetPrompt": "a kind sturdy Greek farmer in a simple tunic and a straw hat, with a friendly beard, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có biết con la không? Con la có bố là lừa, mẹ là ngựa, nên trông vừa giống ngựa, vừa giống lừa đấy. Hôm nay Miu kể chuyện một chú la rất thích khoe khoang. Chú khoe gì nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có biết con la không?",
+        "Con la có bố là lừa, mẹ là ngựa, nên trông vừa giống ngựa, vừa giống lừa đấy.",
+        "Hôm nay Miu kể chuyện một chú la rất thích khoe khoang.",
+        "Chú khoe gì nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a fence holding an open picture book showing a horse and a donkey side by side, a chubby young mule grazes in the meadow behind her",
+        "seed": 2371245372
+      },
+      "video": {
+        "motionPrompt": "the cat points from the horse to the donkey in the book and tilts her head, the mule flicks its long ears, gentle camera push-in",
+        "seed": 1775162015
+      },
+      "voice": {}
+    },
+    {
+      "id": "an-no-ngu-ky",
+      "title": "Ăn no, ngủ kỹ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một trang trại nọ, có một chú la đang tuổi lớn. Mấy tuần liền trời mưa, bác nông dân chẳng có việc gì cho chú làm. Ngày nào chú cũng được ăn đầy máng lúa mạch thơm, ngủ trên đống rơm êm. Chú la béo tròn, lông bóng mượt, khỏe re, người cứ ngứa ngáy muốn chạy nhảy.",
+      "subtitles": [
+        "Ngày xưa, ở một trang trại nọ, có một chú la đang tuổi lớn.",
+        "Mấy tuần liền trời mưa, bác nông dân chẳng có việc gì cho chú làm.",
+        "Ngày nào chú cũng được ăn đầy máng lúa mạch thơm, ngủ trên đống rơm êm.",
+        "Chú la béo tròn, lông bóng mượt, khỏe re, người cứ ngứa ngáy muốn chạy nhảy."
+      ],
+      "image": {
+        "character": "la",
+        "prompt": "a chubby young mule happily munches from a trough overflowing with barley in a cosy stable, rain falls outside, soft straw on the floor",
+        "seed": 2767989005
+      },
+      "video": {
+        "motionPrompt": "the mule munches happily and swishes its tail, rain drips from the roof, the mule rolls in the straw, cosy light",
+        "seed": 2733522494
+      },
+      "voice": {}
+    },
+    {
+      "id": "phi-nuoc-dai",
+      "title": "Phi nước đại khắp đồng",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm trời tạnh, chú la phóng ra đồng, tung vó phi nước đại, hí vang cả một góc trời. Chú nhảy qua hàng rào, chạy vòng quanh cây ô liu, bùn đất bắn tung toé. Bạn ngỗng đang mổ cỏ, giật mình kêu quạc quạc. Chú la dừng lại, ngẩng cao đầu: Ngỗng thấy chưa? Bố tôi chắc chắn là một con ngựa đua cừ khôi! Tôi giống hệt bố, chạy nhanh như gió, khỏe như bão!",
+      "subtitles": [
+        "Hôm trời tạnh, chú la phóng ra đồng, tung vó phi nước đại, hí vang cả một góc trời.",
+        "Chú nhảy qua hàng rào, chạy vòng quanh cây ô liu, bùn đất bắn tung toé.",
+        "Bạn ngỗng đang mổ cỏ, giật mình kêu quạc quạc.",
+        "Chú la dừng lại, ngẩng cao đầu: Ngỗng thấy chưa?",
+        "Bố tôi chắc chắn là một con ngựa đua cừ khôi!",
+        "Tôi giống hệt bố, chạy nhanh như gió, khỏe như bão!"
+      ],
+      "image": {
+        "character": "ngong",
+        "prompt": "the chubby mule gallops wildly across a green meadow and leaps a fence, a startled white goose flaps its wings, then the mule stands proudly with its head held high",
+        "seed": 898192970
+      },
+      "video": {
+        "motionPrompt": "the mule kicks up its heels and gallops in circles, the goose flaps and honks, the mule poses proudly, sunny breeze",
+        "seed": 3366812485
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngong-nhac",
+      "title": "Lời nhắc của bạn ngỗng",
+      "narrator": "ke-chuyen",
+      "narration": "Bạn ngỗng nghiêng đầu: Thế à? Chạy chơi một vòng thì ai chẳng nhanh. Mai bác nông dân chở hàng lên núi, lúc ấy mới biết ai khỏe thật đấy. Chú la bĩu môi: Chuyện nhỏ! Ngựa đua như tôi thì sợ gì đường xa.",
+      "subtitles": [
+        "Bạn ngỗng nghiêng đầu: Thế à? Chạy chơi một vòng thì ai chẳng nhanh.",
+        "Mai bác nông dân chở hàng lên núi, lúc ấy mới biết ai khỏe thật đấy.",
+        "Chú la bĩu môi: Chuyện nhỏ! Ngựa đua như tôi thì sợ gì đường xa."
+      ],
+      "image": {
+        "character": "la",
+        "prompt": "the sensible goose tilts its head and talks to the proud mule, who turns up its nose with a cheeky grin, a mountain path visible in the distance",
+        "seed": 1274843035
+      },
+      "video": {
+        "motionPrompt": "the goose waggles its head wisely, the mule tosses its mane and snorts, clouds drift over the far mountain",
+        "seed": 2623536398
+      },
+      "voice": {}
+    },
+    {
+      "id": "duong-xa",
+      "title": "Chuyến đi xa",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, bác nông dân chất lên lưng chú la hai bao lúa và mấy vò dầu. Con đường lên núi dài ơi là dài, dốc ơi là dốc, toàn đá với sỏi. Chú la bước, bước mãi. Mặt trời lên cao, nắng chang chang. Chân chú mỏi rã rời, mồ hôi nhễ nhại, tai cụp xuống, thở phì phò. Đến chiều, chú chỉ còn lê từng bước chậm rì rì.",
+      "subtitles": [
+        "Sáng hôm sau, bác nông dân chất lên lưng chú la hai bao lúa và mấy vò dầu.",
+        "Con đường lên núi dài ơi là dài, dốc ơi là dốc, toàn đá với sỏi.",
+        "Chú la bước, bước mãi. Mặt trời lên cao, nắng chang chang.",
+        "Chân chú mỏi rã rời, mồ hôi nhễ nhại, tai cụp xuống, thở phì phò.",
+        "Đến chiều, chú chỉ còn lê từng bước chậm rì rì."
+      ],
+      "image": {
+        "character": "nong-dan",
+        "prompt": "the farmer leads the mule up a long rocky mountain path, the mule carries two grain sacks and clay jars, it looks very tired with drooping ears under the hot sun",
+        "seed": 22881525
+      },
+      "video": {
+        "motionPrompt": "the mule plods slowly uphill with drooping ears, the farmer wipes his brow and pats the mule kindly, pebbles roll down the path",
+        "seed": 2164737346
+      },
+      "voice": {}
+    },
+    {
+      "id": "doi-giong",
+      "title": "Chú la đổi giọng",
+      "narrator": "ke-chuyen",
+      "narration": "Tối về tới chuồng, chú la nằm phịch xuống đống rơm, thở dài thườn thượt: Chắc tôi nhầm rồi. Bố tôi chẳng phải ngựa đua đâu, chắc chỉ là một chú lừa thôi. Bạn ngỗng ghé đầu vào khẽ cười: Lừa thì sao? Lừa chăm chỉ, bền bỉ, ai cũng quý đấy. Chú la nghĩ một lúc rồi gật đầu, mỉm cười mệt mỏi mà vui.",
+      "subtitles": [
+        "Tối về tới chuồng, chú la nằm phịch xuống đống rơm, thở dài thườn thượt:",
+        "Chắc tôi nhầm rồi. Bố tôi chẳng phải ngựa đua đâu, chắc chỉ là một chú lừa thôi.",
+        "Bạn ngỗng ghé đầu vào khẽ cười: Lừa thì sao? Lừa chăm chỉ, bền bỉ, ai cũng quý đấy.",
+        "Chú la nghĩ một lúc rồi gật đầu, mỉm cười mệt mỏi mà vui."
+      ],
+      "image": {
+        "character": "la",
+        "prompt": "the tired mule lies flat on the straw in the stable at night, the goose peeks in kindly through the door, a lantern glows warmly",
+        "seed": 2288223495
+      },
+      "video": {
+        "motionPrompt": "the mule lets out a long sigh and closes its eyes, the goose nods gently, the lantern flickers softly",
+        "seed": 1951340618
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, lúc nhàn rỗi thì chú la khoe ầm lên, đến lúc làm việc thật mới biết sức mình. Đừng vội khoe trước nhé, cứ làm cho tốt rồi mọi người sẽ tự biết mình giỏi. Mà có bố là ngựa hay là lừa thì cũng đều đáng tự hào cả. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, lúc nhàn rỗi thì chú la khoe ầm lên,",
+        "đến lúc làm việc thật mới biết sức mình.",
+        "Đừng vội khoe trước nhé, cứ làm cho tốt rồi mọi người sẽ tự biết mình giỏi.",
+        "Mà có bố là ngựa hay là lừa thì cũng đều đáng tự hào cả.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye on a hilltop at sunset, below the mule and the goose rest together outside the stable",
+        "seed": 67501509
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and smiles, the mule flicks its ears, the goose tucks its head under a wing, gentle camera pull-back",
+        "seed": 3108041543
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light Greek country melody, bouzouki-like plucked strings and reed flute, a bouncy galloping start then slow and cosy, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3672062803
+  }
+}

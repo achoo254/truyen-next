@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "slug": "hoang-tu-di-tim-truong-sinh",
+  "shelf": "adults",
+  "title": "Hoàng tử đi tìm trường sinh",
+  "summary": "Chàng hoàng tử không thiết ngai vàng, chỉ day dứt một điều: ai rồi cũng phải chết. Chàng từ chối sáu trăm, tám trăm, một nghìn năm sống bên ba nàng công chúa để tìm xứ không có cái chết, và ở đó một nghìn năm trôi qua như sáu tháng. Nhưng thần Chết vẫn kiên nhẫn chờ. Truyện dân gian Hungary kể đầy đủ cho người lớn.",
+  "themes": [
+    "than-thoai",
+    "su-tich"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện «The Prince Who Would Seek Immortality» trong The Crimson Fairy Book do Andrew Lang chủ biên (1903), truyện dân gian Hungary theo tập Ungarische Volksmärchen, Project Gutenberg, thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới hoàn toàn, theo sát cốt truyện của bản Lang.",
+  "basedOn": "Truyện dân gian Hungary, Andrew Lang kể lại (1903)",
+  "style": "Hungarian fairy tale illustration in rich gouache with folk embroidery motifs of red tulips and peonies on borders, vast plains, a giant tree with an eagle king, a bald mountain, a city of marble palaces veiled in silver mist, a golden city floating in the clouds at the end of the world, dreamlike and solemn mood for adult readers, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "sheetPrompt": "a thoughtful young Hungarian prince of long ago, dark hair and a short beard, deep melancholy grey eyes, a long blue mente coat with gold frogging and a fur-trimmed kalpak cap with a heron feather, a sword at his side, full body, front and side views, plain parchment background, character reference sheet",
+      "seed": 19266059
+    },
+    {
+      "id": "nu-hoang-bat-tu",
+      "name": "Nữ hoàng xứ Bất Tử",
+      "sheetPrompt": "the Queen of the Immortals, a radiant ageless woman with flowing hair like spun gold, serene commanding eyes, a gown of pale gold light embroidered with stars, a delicate crown of morning-star crystals, full body, front and side views, plain parchment background, character reference sheet",
+      "seed": 2310796107
+    },
+    {
+      "id": "than-chet",
+      "name": "Thần Chết",
+      "sheetPrompt": "Death as an old man of Hungarian folklore, tall thin figure with a very long white beard and white hair, a pale stern but patient face, a grey hooded traveller's cloak and a long walking staff, full body, front and side views, plain parchment background, character reference sheet",
+      "seed": 1090297544
+    }
+  ],
+  "scenes": [
+    {
+      "id": "noi-buon-cua-hoang-tu",
+      "title": "Nỗi buồn của hoàng tử",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở chính giữa của chính giữa một vương quốc lớn, có một thành phố, trong thành có cung điện, trong cung có một ông vua. Vua có một người con trai khôn ngoan, được thầy giỏi dạy dỗ, lại được đi khắp các xứ học hỏi. Nhưng một năm sau ngày trở về, chàng từ một cậu bé vui tươi đã thành người trầm ngâm, ủ rũ. Vua đoán chắc con mình đang yêu, bèn dẫn con vào một căn phòng treo đầy chân dung những người đẹp nhất thế gian: Con chọn ai, ta sẽ sai sứ tới hỏi. Hoàng tử đáp: Thưa cha, không phải tình yêu làm con buồn. Con day dứt ngày đêm vì ai rồi cũng phải chết, kể cả các vua. Con sẽ không yên chừng nào chưa tìm được xứ sở không có cái chết.",
+      "subtitles": [
+        "Ngày xưa, ở chính giữa của chính giữa một vương quốc lớn, có một thành phố,",
+        "trong thành có cung điện, trong cung có một ông vua.",
+        "Vua có một người con trai khôn ngoan, được thầy giỏi dạy dỗ,",
+        "lại được đi khắp các xứ học hỏi.",
+        "Nhưng một năm sau ngày trở về, chàng từ một cậu bé vui tươi đã thành người trầm ngâm,",
+        "ủ rũ. Vua đoán chắc con mình đang yêu,",
+        "bèn dẫn con vào một căn phòng treo đầy chân dung những người đẹp nhất thế gian: Con chọn",
+        "ai, ta sẽ sai sứ tới hỏi.",
+        "Hoàng tử đáp: Thưa cha, không phải tình yêu làm con buồn.",
+        "Con day dứt ngày đêm vì ai rồi cũng phải chết, kể cả các vua.",
+        "Con sẽ không yên chừng nào chưa tìm được xứ sở không có cái chết."
+      ],
+      "image": {
+        "prompt": "a long gallery in a Hungarian palace hung with portraits of beautiful princesses, an old king with a white moustache gesturing hopefully at the paintings, his young son turning away with a gloomy faraway look",
+        "seed": 3320512365,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the old king sweeps his arm along the portraits, the prince's gaze drifts to the window and the sky beyond, candlelight flickers on gilded frames, slow push-in",
+        "seed": 1397178469
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-dai-bang",
+      "title": "Vua đại bàng và cái cây",
+      "narrator": "ke-chuyen",
+      "narration": "Vua cha can ngăn mãi, kể mình đã mong con về để trao ngôi, nhưng vô ích. Sáng hôm sau, chàng đeo gươm lên đường. Đi đã nhiều ngày, xa khỏi quê hương, chàng thấy trên ngọn một cây khổng lồ có con đại bàng đang dốc sức lay cành. Thấy chàng, nó bay xuống, chân chạm đất liền hóa thành một ông vua. Ông nói: Ta bị phạt phải làm thế, vì ta và họ hàng ta không thể chết cho tới khi nhổ bật được cây này. Trời tối rồi, mời cậu về nhà ta. Con gái xinh đẹp của vua đại bàng dọn tiệc. Nghe chàng kể, vua nói: Cậu tìm thấy rồi đấy. Phải sáu trăm năm nữa ta mới nhổ xong cây. Ở lại cưới con gái ta đi, sáu trăm năm cũng như vĩnh viễn. Chàng đáp: Nhưng hết sáu trăm năm, ta vẫn phải chết.",
+      "subtitles": [
+        "Vua cha can ngăn mãi, kể mình đã mong con về để trao ngôi, nhưng vô ích.",
+        "Sáng hôm sau, chàng đeo gươm lên đường.",
+        "Đi đã nhiều ngày, xa khỏi quê hương,",
+        "chàng thấy trên ngọn một cây khổng lồ có con đại bàng đang dốc sức lay cành.",
+        "Thấy chàng, nó bay xuống, chân chạm đất liền hóa thành một ông vua.",
+        "Ông nói: Ta bị phạt phải làm thế,",
+        "vì ta và họ hàng ta không thể chết cho tới khi nhổ bật được cây này.",
+        "Trời tối rồi, mời cậu về nhà ta.",
+        "Con gái xinh đẹp của vua đại bàng dọn tiệc.",
+        "Nghe chàng kể, vua nói: Cậu tìm thấy rồi đấy.",
+        "Phải sáu trăm năm nữa ta mới nhổ xong cây.",
+        "Ở lại cưới con gái ta đi, sáu trăm năm cũng như vĩnh viễn.",
+        "Chàng đáp: Nhưng hết sáu trăm năm, ta vẫn phải chết."
+      ],
+      "image": {
+        "prompt": "an enormous ancient tree on a lonely plain at dusk, a great eagle on its topmost bough shaking the branches with all its strength, a young prince below on the road staring up in wonder",
+        "seed": 2473009804,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the eagle beats its wings and wrenches at the branches, leaves rain down, the eagle glides to the ground and shimmers into the shape of a crowned king, slow tilt down",
+        "seed": 616163810
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-hop-chan-dung",
+      "title": "Chiếc hộp có bức chân dung",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa nài chàng ở lại, nhưng thấy chàng quyết chí, nàng lấy trong tủ ra một chiếc hộp nhỏ đựng chân dung mình: Hãy giữ lấy để đôi khi nhớ tới chúng tôi. Khi mỏi chân, chàng mở hộp ra nhìn ảnh ta, sẽ được đưa đi trên mặt đất hay trên không, nhanh như ý nghĩ, mạnh như gió lốc. Một chiều, chiếc hộp đưa chàng lên đỉnh một ngọn núi cao, nơi một người hói đầu đang xúc đất đổ đầy giỏ, mang đi đổ rồi lại xúc giỏ khác.",
+      "subtitles": [
+        "Công chúa nài chàng ở lại, nhưng thấy chàng quyết chí,",
+        "nàng lấy trong tủ ra một chiếc hộp nhỏ đựng chân dung mình: Hãy giữ lấy để đôi khi nhớ tới",
+        "chúng tôi. Khi mỏi chân, chàng mở hộp ra nhìn ảnh ta,",
+        "sẽ được đưa đi trên mặt đất hay trên không, nhanh như ý nghĩ, mạnh như gió lốc.",
+        "Một chiều, chiếc hộp đưa chàng lên đỉnh một ngọn núi cao,",
+        "nơi một người hói đầu đang xúc đất đổ đầy giỏ, mang đi đổ rồi lại xúc giỏ khác."
+      ],
+      "image": {
+        "prompt": "a young prince opening a small jewelled box showing a tiny portrait of a lovely princess, and being swept up into the evening sky by a whirlwind of light over mountains and forests",
+        "seed": 3644454158
+      },
+      "video": {
+        "motionPrompt": "the lid opens, a soft glow spills out, the wind swirls around the prince and lifts him high above the landscape, sweeping aerial camera",
+        "seed": 926826832
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-hoi",
+      "title": "Ông vua hói đầu và ngọn núi",
+      "narrator": "ke-chuyen",
+      "narration": "Người hói nói: Ta bị phạt phải làm thế, vì ta và gia đình không thể chết cho tới khi san phẳng ngọn núi này. Ông hái một chiếc lá, liền từ người đào đất thô kệch hóa thành một ông vua hói oai nghiêm, mời chàng về cung. Con gái ông còn đẹp hơn nàng trước, dọn tiệc trên bàn đầy đĩa bạc. Vua hói nói: Phải tám trăm năm nữa ta mới san xong núi. Ở lại cưới con gái ta đi, tám trăm năm hẳn là đủ dài. Chàng đáp: Hẳn rồi, nhưng ta vẫn muốn tìm xứ không có cái chết. Nàng công chúa nài mãi không được, bèn tặng chàng một chiếc nhẫn vàng. Nhẫn này còn quý hơn chiếc hộp: chỉ cần ước ở đâu là có mặt ở đó, chẳng cần bay qua không trung.",
+      "subtitles": [
+        "Người hói nói: Ta bị phạt phải làm thế,",
+        "vì ta và gia đình không thể chết cho tới khi san phẳng ngọn núi này.",
+        "Ông hái một chiếc lá, liền từ người đào đất thô kệch hóa thành một ông vua hói oai nghiêm,",
+        "mời chàng về cung.",
+        "Con gái ông còn đẹp hơn nàng trước, dọn tiệc trên bàn đầy đĩa bạc.",
+        "Vua hói nói: Phải tám trăm năm nữa ta mới san xong núi.",
+        "Ở lại cưới con gái ta đi, tám trăm năm hẳn là đủ dài.",
+        "Chàng đáp: Hẳn rồi, nhưng ta vẫn muốn tìm xứ không có cái chết.",
+        "Nàng công chúa nài mãi không được, bèn tặng chàng một chiếc nhẫn vàng.",
+        "Nhẫn này còn quý hơn chiếc hộp: chỉ cần ước ở đâu là có mặt ở đó,",
+        "chẳng cần bay qua không trung."
+      ],
+      "image": {
+        "prompt": "the bare top of a high mountain at sunset, a bald-headed man in rough clothes digging earth into baskets, the same man transformed into a stately bald king in a royal mantle holding a leaf, a young prince watching",
+        "seed": 3837783246
+      },
+      "video": {
+        "motionPrompt": "the spade bites into the earth, a leaf is plucked, a ripple of light transforms the digger into a king, the sun sinks behind the peak, slow push-in",
+        "seed": 253544696
+      },
+      "voice": {}
+    },
+    {
+      "id": "nu-hoang-suong-bac",
+      "title": "Nữ hoàng mạng sương bạc",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng nhắm mắt ước: Ước gì ta ở tận cùng thế gian. Mở mắt ra, chàng đứng giữa một con phố toàn cung điện cẩm thạch, người qua lại cao lớn, áo xống lộng lẫy. Chàng hỏi bằng cả hai mươi bảy thứ tiếng, chẳng ai đáp. Bỗng chàng thấy một người ăn mặc như ở quê mình. Người ấy nói: Đây là kinh đô Vương quốc Xanh. Vua đã mất, con gái ngài đang trị vì. Nữ hoàng ngồi trên bậc thềm cung điện có những cột cẩm thạch xanh mảnh mai, khoác tấm mạng sương bạc lấp lánh, đang nghe dân kêu kiện. Thấy chàng, bà biết ngay đây không phải người thường, cho dân lui rồi mời chàng vào cung.",
+      "subtitles": [
+        "Chàng nhắm mắt ước: Ước gì ta ở tận cùng thế gian.",
+        "Mở mắt ra, chàng đứng giữa một con phố toàn cung điện cẩm thạch, người qua lại cao lớn,",
+        "áo xống lộng lẫy.",
+        "Chàng hỏi bằng cả hai mươi bảy thứ tiếng, chẳng ai đáp.",
+        "Bỗng chàng thấy một người ăn mặc như ở quê mình.",
+        "Người ấy nói: Đây là kinh đô Vương quốc Xanh.",
+        "Vua đã mất, con gái ngài đang trị vì.",
+        "Nữ hoàng ngồi trên bậc thềm cung điện có những cột cẩm thạch xanh mảnh mai,",
+        "khoác tấm mạng sương bạc lấp lánh, đang nghe dân kêu kiện.",
+        "Thấy chàng, bà biết ngay đây không phải người thường, cho dân lui rồi mời chàng vào cung."
+      ],
+      "image": {
+        "prompt": "a splendid square in a city of white marble palaces, a young queen veiled in shimmering silver mist seated on broad steps before slender pillars of soft green marble, petitioners before her, a travelling prince approaching through the crowd",
+        "seed": 4271699289,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the silver mist of the veil drifts and glitters, the queen lifts her hand and the crowd parts, the prince steps forward, slow push-in",
+        "seed": 4062446150
+      },
+      "voice": {}
+    },
+    {
+      "id": "can-phong-kim",
+      "title": "Căn phòng toàn kim khâu",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe chàng kể, nữ hoàng dẫn chàng tới một căn phòng mà sàn cắm kín kim khâu, không còn chỗ cho một chiếc kim nào nữa. Bà nói: Ta và gia đình không thể chết cho tới khi khâu mòn hết số kim này. Phải ít nhất một nghìn năm. Ở lại cùng ta trị vì, một nghìn năm là đủ dài rồi. Chàng đáp: Hết nghìn năm ta vẫn phải chết. Nữ hoàng đành thôi, tặng chàng một chiếc gậy vàng nhỏ, biến được thành bất cứ thứ gì chàng cần.",
+      "subtitles": [
+        "Nghe chàng kể, nữ hoàng dẫn chàng tới một căn phòng mà sàn cắm kín kim khâu,",
+        "không còn chỗ cho một chiếc kim nào nữa.",
+        "Bà nói: Ta và gia đình không thể chết cho tới khi khâu mòn hết số kim này.",
+        "Phải ít nhất một nghìn năm.",
+        "Ở lại cùng ta trị vì, một nghìn năm là đủ dài rồi.",
+        "Chàng đáp: Hết nghìn năm ta vẫn phải chết.",
+        "Nữ hoàng đành thôi, tặng chàng một chiếc gậy vàng nhỏ,",
+        "biến được thành bất cứ thứ gì chàng cần."
+      ],
+      "image": {
+        "prompt": "a strange chamber whose entire floor is a glittering carpet of countless steel needles standing upright, the mist-veiled queen and the prince standing at the threshold, light sparkling across the needle points",
+        "seed": 1592687096
+      },
+      "video": {
+        "motionPrompt": "light ripples across the forest of needle points like wind over grass, the queen's veil stirs, the prince shakes his head slowly, slow pan",
+        "seed": 947615469
+      },
+      "voice": {}
+    },
+    {
+      "id": "thanh-pho-tren-may",
+      "title": "Thành phố trên mây",
+      "narrator": "ke-chuyen",
+      "narration": "Ra khỏi thành, chàng gặp một con sông rộng không ai vượt qua được, vì đây là tận cùng thế gian, và sông chảy vòng quanh nó. Trên đầu chàng, một thành phố tuyệt đẹp lơ lửng giữa trời, cứ như kéo chàng lên. Chàng ném chiếc gậy vàng xuống đất, ước nó thành cây cầu, và trước mặt hiện ra một chiếc thang vàng dẫn thẳng lên thành. Tới cổng, một con quái vật nhiều đầu lao ra. Chàng hô: Gươm ơi, ra khỏi vỏ! Thanh gươm vụt ra chém rụng mấy cái đầu, nhưng đầu khác mọc ngay. Nữ hoàng của thành nghe thấy, sai người ra cứu, rồi nghe chàng kể chuyện. Bà nói: Ngươi tìm thấy rồi đó. Ta là nữ hoàng cai quản cả sự sống lẫn cái chết. Ở đây ngươi sẽ sống cùng những người bất tử.",
+      "subtitles": [
+        "Ra khỏi thành, chàng gặp một con sông rộng không ai vượt qua được,",
+        "vì đây là tận cùng thế gian, và sông chảy vòng quanh nó.",
+        "Trên đầu chàng, một thành phố tuyệt đẹp lơ lửng giữa trời, cứ như kéo chàng lên.",
+        "Chàng ném chiếc gậy vàng xuống đất, ước nó thành cây cầu,",
+        "và trước mặt hiện ra một chiếc thang vàng dẫn thẳng lên thành.",
+        "Tới cổng, một con quái vật nhiều đầu lao ra.",
+        "Chàng hô: Gươm ơi, ra khỏi vỏ!",
+        "Thanh gươm vụt ra chém rụng mấy cái đầu, nhưng đầu khác mọc ngay.",
+        "Nữ hoàng của thành nghe thấy, sai người ra cứu, rồi nghe chàng kể chuyện.",
+        "Bà nói: Ngươi tìm thấy rồi đó.",
+        "Ta là nữ hoàng cai quản cả sự sống lẫn cái chết.",
+        "Ở đây ngươi sẽ sống cùng những người bất tử."
+      ],
+      "image": {
+        "prompt": "at the end of the world beside a vast encircling river, a golden ladder rising from the ground up into the clouds to a radiant floating city with golden gates, a many-headed beast guarding the gates, a luminous queen at a high window",
+        "seed": 2087245086,
+        "character": "nu-hoang-bat-tu"
+      },
+      "video": {
+        "motionPrompt": "the golden ladder unfurls upward into the clouds, the beast's many heads rear at the gate, the queen leans from her window raising a hand, slow tilt up",
+        "seed": 530829075
+      },
+      "voice": {}
+    },
+    {
+      "id": "nghin-nam",
+      "title": "Một nghìn năm như sáu tháng",
+      "narrator": "ke-chuyen",
+      "narration": "Một nghìn năm trôi qua mà chàng tưởng chỉ mới sáu tháng, và không lúc nào chàng không hạnh phúc. Cho tới một đêm, chàng mơ thấy cha mẹ. Nỗi nhớ nhà ập tới, sáng ra chàng xin về thăm. Nữ hoàng sửng sốt: Ngươi điên rồi sao? Cha mẹ ngươi mất đã hơn tám trăm năm, đến bụi cũng chẳng còn. Ta vẫn phải đi. Hiểu không cản được, bà mở rương báu, đeo vào cổ chàng hai chiếc bình, một bằng vàng, một bằng bạc. Bà nói: Hãy múc vào bình bạc thứ nước dưới cửa sập này. Ai bị vẩy nó, dù đã sống nghìn năm, cũng chết ngay. Còn bình vàng hãy múc nước giếng kia, nước chảy ra từ tảng đá vĩnh hằng. Vẩy vài giọt lên người đã chết nghìn năm, người ấy cũng sống lại.",
+      "subtitles": [
+        "Một nghìn năm trôi qua mà chàng tưởng chỉ mới sáu tháng,",
+        "và không lúc nào chàng không hạnh phúc.",
+        "Cho tới một đêm, chàng mơ thấy cha mẹ.",
+        "Nỗi nhớ nhà ập tới, sáng ra chàng xin về thăm.",
+        "Nữ hoàng sửng sốt: Ngươi điên rồi sao?",
+        "Cha mẹ ngươi mất đã hơn tám trăm năm, đến bụi cũng chẳng còn.",
+        "Ta vẫn phải đi.",
+        "Hiểu không cản được, bà mở rương báu, đeo vào cổ chàng hai chiếc bình, một bằng vàng,",
+        "một bằng bạc.",
+        "Bà nói: Hãy múc vào bình bạc thứ nước dưới cửa sập này.",
+        "Ai bị vẩy nó, dù đã sống nghìn năm, cũng chết ngay.",
+        "Còn bình vàng hãy múc nước giếng kia, nước chảy ra từ tảng đá vĩnh hằng.",
+        "Vẩy vài giọt lên người đã chết nghìn năm, người ấy cũng sống lại."
+      ],
+      "image": {
+        "prompt": "a treasure chamber in a golden palace of the immortal city, the luminous queen hanging a golden flask and a silver flask around the prince's neck, a dark trap-door open in one corner and a glowing spring well in the other",
+        "seed": 3359773392,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the flasks swing and glint as they settle on the chain, dark water stirs beneath the trap-door, the well glows and ripples with light, slow push-in",
+        "seed": 1480289890
+      },
+      "voice": {}
+    },
+    {
+      "id": "danh-thuc-ba-nguoi",
+      "title": "Đánh thức ba người bạn",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng tới thành của nữ hoàng mạng sương, phố xá đã đổi khác, trong cung im phăng phắc. Nữ hoàng nằm trong phòng, tay còn cầm đồ thêu, như đang ngủ say. Chàng chạy sang căn phòng kim: trống trơn. Bà đã làm gãy chiếc kim cuối cùng, phép thuật hết, và bà đã chết. Chàng vội vẩy nước bình vàng. Bà cựa mình mở mắt: Ôi bạn thân, may mà bạn đánh thức ta, chắc ta ngủ lâu lắm. Chàng đáp: Không có ta, bà sẽ ngủ tới muôn đời. Tới nước vua hói, núi đã bị san phẳng, vua nằm chết bên xẻng và giỏ. Tới cây lớn, cây đã bị nhổ bật gốc, vua đại bàng chết, đôi cánh dang rộng như sắp bay. Chàng đều cứu sống, và cả ba đều thề sẽ đền ơn khi có dịp.",
+      "subtitles": [
+        "Chàng tới thành của nữ hoàng mạng sương, phố xá đã đổi khác, trong cung im phăng phắc.",
+        "Nữ hoàng nằm trong phòng, tay còn cầm đồ thêu, như đang ngủ say.",
+        "Chàng chạy sang căn phòng kim: trống trơn.",
+        "Bà đã làm gãy chiếc kim cuối cùng, phép thuật hết, và bà đã chết.",
+        "Chàng vội vẩy nước bình vàng.",
+        "Bà cựa mình mở mắt: Ôi bạn thân, may mà bạn đánh thức ta, chắc ta ngủ lâu lắm.",
+        "Chàng đáp: Không có ta, bà sẽ ngủ tới muôn đời.",
+        "Tới nước vua hói, núi đã bị san phẳng, vua nằm chết bên xẻng và giỏ.",
+        "Tới cây lớn, cây đã bị nhổ bật gốc, vua đại bàng chết, đôi cánh dang rộng như sắp bay.",
+        "Chàng đều cứu sống, và cả ba đều thề sẽ đền ơn khi có dịp."
+      ],
+      "image": {
+        "prompt": "a silent palace room, a queen lying lifeless on a couch with embroidery still in her hands, the prince sprinkling glowing drops from a golden flask over her, her eyelids beginning to flutter",
+        "seed": 3134334565,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "shining drops fall in slow motion onto the queen, a warm glow spreads over her, she stirs and opens her eyes, dust motes float in the light, slow push-in",
+        "seed": 216710530
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-luu-huynh",
+      "title": "Hồ lưu huỳnh nơi cung cũ",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng chàng về tới kinh đô của cha. Nhưng nơi cung điện xưa, chỗ những hành lang cẩm thạch chàng từng nô đùa, chỉ còn một hồ lưu huỳnh lớn, lửa xanh phụt lên trời. Làm sao cứu được cha mẹ dưới đáy hồ ấy? Chàng buồn bã quay đi, lang thang trên phố. Bỗng sau lưng có tiếng gọi: Đứng lại, hoàng tử, rốt cuộc ta đã tóm được ngươi. Ta đi tìm ngươi đã một nghìn năm rồi! Bên cạnh chàng là bóng dáng già nua, râu tóc bạc trắng của thần Chết.",
+      "subtitles": [
+        "Cuối cùng chàng về tới kinh đô của cha.",
+        "Nhưng nơi cung điện xưa, chỗ những hành lang cẩm thạch chàng từng nô đùa,",
+        "chỉ còn một hồ lưu huỳnh lớn, lửa xanh phụt lên trời.",
+        "Làm sao cứu được cha mẹ dưới đáy hồ ấy?",
+        "Chàng buồn bã quay đi, lang thang trên phố.",
+        "Bỗng sau lưng có tiếng gọi: Đứng lại, hoàng tử, rốt cuộc ta đã tóm được ngươi.",
+        "Ta đi tìm ngươi đã một nghìn năm rồi!",
+        "Bên cạnh chàng là bóng dáng già nua, râu tóc bạc trắng của thần Chết."
+      ],
+      "image": {
+        "prompt": "a vast lake of burning sulphur where a palace once stood, eerie blue flames dancing high into the dusk, a grieving prince turning in a ruined street to face a tall old man with a long white beard in a grey hooded cloak",
+        "seed": 2392406124,
+        "character": "than-chet"
+      },
+      "video": {
+        "motionPrompt": "blue flames flicker and leap over the lake, the old figure in grey steps out of the shadows, the prince turns slowly, cold wind lifts his cloak, slow push-in",
+        "seed": 2516889631
+      },
+      "voice": {}
+    },
+    {
+      "id": "chay-tron-than-chet",
+      "title": "Chạy trốn thần Chết",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng tháo vội chiếc nhẫn, và vua đại bàng, vua hói cùng nữ hoàng mạng sương lập tức tới cứu. Họ giữ chặt lấy thần Chết để chàng kịp về xứ Bất Tử. Nhưng họ không biết thần Chết bay nhanh đến thế. Chàng mới đặt một chân qua biên giới thì chân kia đã bị nắm lại, và tiếng thần Chết vang lên: Đứng lại! Giờ ngươi là của ta. Nữ hoàng Bất Tử từ cửa sổ kêu lên: Ngươi không có quyền gì ở xứ ta. Thần Chết đáp: Đúng thế, nhưng chân nó ở trong xứ ta, nên nó thuộc về ta. Nữ hoàng nói: Ít nhất nửa người nó là của ta. Nửa người thì ngươi hay ta cũng chẳng dùng được. Lần này ta cho ngươi bước vào, ta sẽ đánh cược xem nó thuộc về ai.",
+      "subtitles": [
+        "Chàng tháo vội chiếc nhẫn, và vua đại bàng,",
+        "vua hói cùng nữ hoàng mạng sương lập tức tới cứu.",
+        "Họ giữ chặt lấy thần Chết để chàng kịp về xứ Bất Tử.",
+        "Nhưng họ không biết thần Chết bay nhanh đến thế.",
+        "Chàng mới đặt một chân qua biên giới thì chân kia đã bị nắm lại,",
+        "và tiếng thần Chết vang lên: Đứng lại! Giờ ngươi là của ta.",
+        "Nữ hoàng Bất Tử từ cửa sổ kêu lên: Ngươi không có quyền gì ở xứ ta.",
+        "Thần Chết đáp: Đúng thế, nhưng chân nó ở trong xứ ta, nên nó thuộc về ta.",
+        "Nữ hoàng nói: Ít nhất nửa người nó là của ta.",
+        "Nửa người thì ngươi hay ta cũng chẳng dùng được.",
+        "Lần này ta cho ngươi bước vào, ta sẽ đánh cược xem nó thuộc về ai."
+      ],
+      "image": {
+        "prompt": "a glowing border line at the edge of the floating golden city, the prince with one foot across it, a tall white-bearded figure in grey gripping his other ankle, an eagle king, a bald king and a misty veiled queen struggling in the clouds behind",
+        "seed": 3472224377,
+        "character": "than-chet"
+      },
+      "video": {
+        "motionPrompt": "the prince lunges forward across the shining line, the grey hand closes on his ankle, the three helpers grapple in a swirl of cloud, dramatic fast push-in then freeze",
+        "seed": 2378605763
+      },
+      "voice": {}
+    },
+    {
+      "id": "vu-danh-cuoc",
+      "title": "Cú tung tới sao Mai",
+      "narrator": "ke-chuyen",
+      "narration": "Thần Chết bước qua lằn ranh hẹp bao quanh xứ Bất Tử. Nữ hoàng nói: Ta sẽ tung nó lên trời, tới tận sau lưng sao Mai. Nếu nó rơi trong thành, nó là của ta. Nếu rơi ngoài tường, nó thuộc về ngươi. Giữa thành có một quảng trường rộng. Nữ hoàng đặt bàn chân dưới chân hoàng tử, hất chàng lên cao, cao mãi giữa các vì sao, không mắt người nào theo kịp. Bà lo lắng: mình có tung thẳng không? Bỗng cả hai thấy một chấm nhỏ như con ong giữa trời xanh. Có rơi thẳng không? Không! Có! Nhưng gần tới thành thì một làn gió nhẹ nổi lên, đẩy chàng về phía tường. Thêm một giây nữa là chàng rơi vắt qua tường. Nữ hoàng lao tới, chụp lấy chàng, ném vào trong lâu đài. Rồi bà sai người hầu tống cổ thần Chết ra khỏi thành, đánh cho một trận nên thân, đến nỗi hắn không bao giờ dám ló mặt tới xứ Bất Tử nữa.",
+      "subtitles": [
+        "Thần Chết bước qua lằn ranh hẹp bao quanh xứ Bất Tử.",
+        "Nữ hoàng nói: Ta sẽ tung nó lên trời, tới tận sau lưng sao Mai.",
+        "Nếu nó rơi trong thành, nó là của ta.",
+        "Nếu rơi ngoài tường, nó thuộc về ngươi.",
+        "Giữa thành có một quảng trường rộng.",
+        "Nữ hoàng đặt bàn chân dưới chân hoàng tử, hất chàng lên cao,",
+        "cao mãi giữa các vì sao, không mắt người nào theo kịp.",
+        "Bà lo lắng: mình có tung thẳng không?",
+        "Bỗng cả hai thấy một chấm nhỏ như con ong giữa trời xanh.",
+        "Có rơi thẳng không? Không! Có!",
+        "Nhưng gần tới thành thì một làn gió nhẹ nổi lên, đẩy chàng về phía tường.",
+        "Thêm một giây nữa là chàng rơi vắt qua tường.",
+        "Nữ hoàng lao tới, chụp lấy chàng, ném vào trong lâu đài.",
+        "Rồi bà sai người hầu tống cổ thần Chết ra khỏi thành, đánh cho một trận nên thân,",
+        "đến nỗi hắn không bao giờ dám ló mặt tới xứ Bất Tử nữa."
+      ],
+      "image": {
+        "prompt": "a vast square in a golden city in the clouds at dawn, the radiant queen and the grey-cloaked old figure of Death both gazing up at a tiny speck falling from the stars near the morning star, the city wall close by",
+        "seed": 1813562707,
+        "character": "nu-hoang-bat-tu"
+      },
+      "video": {
+        "motionPrompt": "the speck tumbles down through the sky, a breeze nudges it toward the wall, the queen leaps forward with arms outstretched, sweeping camera following the fall",
+        "seed": 2240343912
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "Hungarian folk instrumental, cimbalom, violin and tárogató in a slow contemplative lassú, a shimmering ethereal passage for the land of immortality, a tense fast friss for the chase with Death, no vocals",
+    "durationSeconds": 180,
+    "seed": 1365294024
+  }
+}

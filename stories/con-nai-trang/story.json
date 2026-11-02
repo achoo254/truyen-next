@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-nai-trang",
+  "shelf": "world",
+  "title": "Con nai trắng",
+  "summary": "Công chúa Désirée bị bà tiên giận dữ phạt không được thấy ánh mặt trời trước tuổi mười lăm. Chỉ vì một tia nắng lọt qua thành xe, nàng hóa thành con nai trắng giữa rừng, ngày làm nai, đêm làm người, cho tới khi chàng hoàng tử nhận ra nàng. Truyện cổ tích Pháp của bà d'Aulnoy kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "than-thoai",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ tích của bà d'Aulnoy (mất năm 1705), theo bản tiếng Anh \"The White Doe\" trong The Orange Fairy Book do Andrew Lang chủ biên (1906), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; lời nguyền và mũi tên của hoàng tử được kể nhẹ cho cả nhà.",
+  "basedOn": "Truyện cổ tích của bà d'Aulnoy",
+  "style": "classic seventeenth-century French fairy-tale picture-book illustration, delicate watercolor and fine ink, a fairy palace of roses and jasmine, a windowless candle-lit tower, a deep green forest with sunlit glades, a small woodland cottage, a graceful white doe, soft pastel and golden light, romantic and safe mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "desiree",
+      "name": "Công chúa Désirée",
+      "sheetPrompt": "a lovely gentle French princess of fifteen, long dark wavy hair, soft brown eyes, a flowing green silk gown, a delicate diamond circlet, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 627635226
+    },
+    {
+      "id": "nai-trang",
+      "name": "Con nai trắng",
+      "sheetPrompt": "a graceful pure white doe with large gentle brown eyes that look almost human, slender legs, soft glowing fur, full body, side view, plain soft cream background, character reference sheet",
+      "seed": 2348663618
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "sheetPrompt": "a handsome young French prince, slightly pale from illness, shoulder-length chestnut hair, a green hunting coat with a feathered hat tied with ribbons, a hunting bow on his back, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3360751903
+    }
+  ],
+  "scenes": [
+    {
+      "id": "ba-tien-cua",
+      "title": "Bà tiên cua",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một vua và hoàng hậu thương nhau lắm, chỉ buồn vì chưa có con. Một hôm, hoàng hậu ngồi khóc bên thác nước trong vườn. Bỗng một con cua to bò lên tảng đá: \"Thưa hoàng hậu, điều bà mong sắp thành rồi. Hãy theo tôi đến cung điện của các bà tiên.\" Hoàng hậu đưa tay ra, con cua liền hóa thành một bà lão nhỏ nhắn mặc áo trắng đỏ. Bà dẫn hoàng hậu theo lối đi rợp hoa hồng, hoa nhài, đến một cung điện sáng rực. Sáu bà tiên ra đón, mỗi người cầm một bông hoa bằng ngọc: \"Chẳng bao lâu nữa, bà sẽ có một cô con gái.\"",
+      "subtitles": [
+        "Ngày xưa, có một vua và hoàng hậu thương nhau lắm, chỉ buồn vì chưa có con.",
+        "Một hôm, hoàng hậu ngồi khóc bên thác nước trong vườn.",
+        "Bỗng một con cua to bò lên tảng đá: \"Thưa hoàng hậu, điều bà mong sắp thành rồi.",
+        "Hãy theo tôi đến cung điện của các bà tiên.\" Hoàng hậu đưa tay ra,",
+        "con cua liền hóa thành một bà lão nhỏ nhắn mặc áo trắng đỏ.",
+        "Bà dẫn hoàng hậu theo lối đi rợp hoa hồng, hoa nhài, đến một cung điện sáng rực.",
+        "Sáu bà tiên ra đón, mỗi người cầm một bông hoa bằng ngọc: \"Chẳng bao lâu nữa,",
+        "bà sẽ có một cô con gái.\""
+      ],
+      "image": {
+        "prompt": "a lush palace park with a sparkling waterfall, a sad gentle queen seated on a rock, a large crab on a stone turning into a tiny smiling old fairy in white and crimson with green ribbons, a glowing fairy palace behind roses and jasmine",
+        "seed": 79975394
+      },
+      "video": {
+        "motionPrompt": "the waterfall sparkles, the crab shimmers and transforms into the little old fairy, rose petals drift along the path",
+        "seed": 1514578407
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-phat-cua-ba-tien",
+      "title": "Lời phạt của bà tiên",
+      "narrator": "ke-chuyen",
+      "narration": "Ít lâu sau, hoàng hậu sinh một bé gái, đặt tên là Désirée, nghĩa là \"người được mong đợi\". Hoàng hậu mời các bà tiên đến mừng, nhưng lại quên mất bà tiên cua, người đã giúp mình nhiều nhất. Giữa buổi lễ, một bóng đen phủ xuống. Bà tiên cua hiện ra, cao đến trần nhà: \"Ai đã dẫn đường cho bà, mà nay bà quên ta?\" Các bà tiên khác hết lời xin, bà mới dịu lại: \"Ta phạt đứa bé thế này: nếu nó thấy ánh mặt trời trước năm mười lăm tuổi, nó sẽ gặp chuyện chẳng lành.\" Các bà tiên liền dựng cho công chúa một tòa lâu đài không có cửa sổ, sáng trưng nến.",
+      "subtitles": [
+        "Ít lâu sau, hoàng hậu sinh một bé gái, đặt tên là Désirée, nghĩa là \"người được mong đợi\".",
+        "Hoàng hậu mời các bà tiên đến mừng, nhưng lại quên mất bà tiên cua,",
+        "người đã giúp mình nhiều nhất.",
+        "Giữa buổi lễ, một bóng đen phủ xuống.",
+        "Bà tiên cua hiện ra, cao đến trần nhà: \"Ai đã dẫn đường cho bà,",
+        "mà nay bà quên ta?\" Các bà tiên khác hết lời xin,",
+        "bà mới dịu lại: \"Ta phạt đứa bé thế này: nếu nó thấy ánh mặt trời trước năm mười lăm tuổi,",
+        "nó sẽ gặp chuyện chẳng lành.\" Các bà tiên liền dựng cho công chúa một tòa lâu đài không có",
+        "cửa sổ, sáng trưng nến."
+      ],
+      "image": {
+        "prompt": "a royal nursery full of fairies in fantastic carriages drawn by birds, a baby asleep on pink cushions, an angry towering fairy figure casting a cold shadow, the frightened queen pleading, then a windowless tower glowing with candles",
+        "seed": 1674388708,
+        "character": "desiree"
+      },
+      "video": {
+        "motionPrompt": "a cold shadow sweeps across the room, the tall angry fairy shrinks back to normal size, candles flicker inside the tower",
+        "seed": 3766434651
+      },
+      "voice": {}
+    },
+    {
+      "id": "buc-chan-dung",
+      "title": "Bức chân dung",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa lớn lên trong tòa lâu đài ấy, được các bà tiên dạy dỗ, đẹp và giỏi giang. Gần sinh nhật mười lăm, chân dung nàng được gửi đến các nước láng giềng. Một hoàng tử nhìn bức tranh rồi thương nhớ đến phát ốm, dù vua cha đã hứa gả chàng cho công chúa Nera. Cuối cùng vua cha đành sai quan Becasigue sang hỏi cưới Désirée. Vua cha nàng nhận lời, nhưng dặn phải chờ qua sinh nhật mười lăm. Hoàng tử nóng lòng lại đổ bệnh. Désirée thương chàng, nghĩ ra một cách: \"Hãy làm một cỗ xe kín, không lọt chút ánh sáng nào. Con sẽ đi đêm, đến nơi thì ở trong căn phòng dưới đất.\"",
+      "subtitles": [
+        "Công chúa lớn lên trong tòa lâu đài ấy, được các bà tiên dạy dỗ, đẹp và giỏi giang.",
+        "Gần sinh nhật mười lăm, chân dung nàng được gửi đến các nước láng giềng.",
+        "Một hoàng tử nhìn bức tranh rồi thương nhớ đến phát ốm,",
+        "dù vua cha đã hứa gả chàng cho công chúa Nera.",
+        "Cuối cùng vua cha đành sai quan Becasigue sang hỏi cưới Désirée.",
+        "Vua cha nàng nhận lời, nhưng dặn phải chờ qua sinh nhật mười lăm.",
+        "Hoàng tử nóng lòng lại đổ bệnh.",
+        "Désirée thương chàng, nghĩ ra một cách: \"Hãy làm một cỗ xe kín,",
+        "không lọt chút ánh sáng nào.",
+        "Con sẽ đi đêm, đến nơi thì ở trong căn phòng dưới đất.\""
+      ],
+      "image": {
+        "prompt": "a lovesick young prince lying on cushions gazing at a portrait of a beautiful dark-haired princess, his worried old father beside him, an envoy bowing, and far away the princess in a candle-lit tower holding the prince's portrait",
+        "seed": 3251161540,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "candlelight flickers over the portrait, the prince sighs and reaches toward the painting, curtains stir gently",
+        "seed": 2978017691
+      },
+      "voice": {}
+    },
+    {
+      "id": "tia-nang-dau-tien",
+      "title": "Tia nắng đầu tiên",
+      "narrator": "ke-chuyen",
+      "narration": "Cỗ xe bọc nhung xanh, không có cửa sổ, đưa công chúa lên đường. Đi cùng nàng có cô thị nữ trung thành Eglantine, cô Cerisette và mẹ cô ta. Cerisette cũng mê hoàng tử nên ghen với chủ. Bà Tiên Suối Nước, mẹ đỡ đầu của công chúa Nera, giận vì cô con gái đỡ đầu bị bỏ, liền vô hình ngồi bên xui khiến hai mẹ con. Khi xe sắp ra khỏi rừng, họ lén khoét một lỗ trên thành xe. Mặt trời vừa lên, tia nắng đầu tiên chiếu vào người Désirée. Nàng khẽ thở dài. Cửa xe bật mở, một con nai trắng nhảy vụt ra, biến vào rừng. Eglantine kịp thấy, liền chạy theo.",
+      "subtitles": [
+        "Cỗ xe bọc nhung xanh, không có cửa sổ, đưa công chúa lên đường.",
+        "Đi cùng nàng có cô thị nữ trung thành Eglantine, cô Cerisette và mẹ cô ta.",
+        "Cerisette cũng mê hoàng tử nên ghen với chủ.",
+        "Bà Tiên Suối Nước, mẹ đỡ đầu của công chúa Nera, giận vì cô con gái đỡ đầu bị bỏ,",
+        "liền vô hình ngồi bên xui khiến hai mẹ con.",
+        "Khi xe sắp ra khỏi rừng, họ lén khoét một lỗ trên thành xe.",
+        "Mặt trời vừa lên, tia nắng đầu tiên chiếu vào người Désirée.",
+        "Nàng khẽ thở dài.",
+        "Cửa xe bật mở, một con nai trắng nhảy vụt ra, biến vào rừng.",
+        "Eglantine kịp thấy, liền chạy theo."
+      ],
+      "image": {
+        "prompt": "a closed green velvet carriage with golden thistles leaving a dark forest at sunrise, a beam of sunlight shining through a small hole in its side, a graceful white doe leaping out of the carriage door toward the trees, a loyal maid running after her",
+        "seed": 2564395998,
+        "character": "nai-trang"
+      },
+      "video": {
+        "motionPrompt": "a golden sunbeam slides into the carriage, the door swings open, the white doe bounds lightly into the forest",
+        "seed": 1193651650
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-dau-gia",
+      "title": "Cô dâu giả",
+      "narrator": "ke-chuyen",
+      "narration": "Cerisette vội mặc áo của công chúa, đội vương miện kim cương lên đầu, rồi vào kinh thành giữa tiếng reo mừng. Nhưng khi nhà vua và hoàng tử bước vào, ai nấy sững sờ: cô dâu chẳng giống chút nào người trong tranh. Hoàng tử lặng người bên cửa rồi ngã quỵ. Nhà vua giận lắm, sai giam hai mẹ con lại để tra hỏi cho ra lẽ. Hoàng tử ốm lâu, buồn đến nỗi chẳng muốn gặp ai. Khi khỏe lại, vào một đêm đầy sao, chàng cùng người bạn thân Becasigue lặng lẽ rời cung, định sống một mình ở nơi hẻo lánh.",
+      "subtitles": [
+        "Cerisette vội mặc áo của công chúa, đội vương miện kim cương lên đầu,",
+        "rồi vào kinh thành giữa tiếng reo mừng.",
+        "Nhưng khi nhà vua và hoàng tử bước vào,",
+        "ai nấy sững sờ: cô dâu chẳng giống chút nào người trong tranh.",
+        "Hoàng tử lặng người bên cửa rồi ngã quỵ.",
+        "Nhà vua giận lắm, sai giam hai mẹ con lại để tra hỏi cho ra lẽ.",
+        "Hoàng tử ốm lâu, buồn đến nỗi chẳng muốn gặp ai.",
+        "Khi khỏe lại, vào một đêm đầy sao,",
+        "chàng cùng người bạn thân Becasigue lặng lẽ rời cung, định sống một mình ở nơi hẻo lánh."
+      ],
+      "image": {
+        "prompt": "a brilliantly lit palace hall, a tall thin lady wearing a princess gown that is too short and a heavy diamond crown, the shocked old king and the pale young prince leaning on his friend in the doorway, courtiers staring",
+        "seed": 2429486781,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the diamond crown wobbles on the impostor's head, the prince steps back in dismay, courtiers whisper to each other",
+        "seed": 1647457731
+      },
+      "voice": {}
+    },
+    {
+      "id": "tup-leu-trong-rung",
+      "title": "Túp lều trong rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Còn con nai trắng, khi soi mình xuống suối, mới biết mình đã hóa thành nai. Eglantine tìm đến, con nai dụi đầu vào vai cô, mắt rưng rưng. Eglantine chợt hiểu, quỳ xuống ôm lấy nai: \"Công chúa của em!\" Bà tiên Tulip thương Désirée nhất, liền hiện ra: \"Ta không gỡ hẳn được lời phạt, nhưng ta làm nó ngắn lại. Từ nay hễ trời tối, con sẽ trở lại làm người.\" Bà chỉ đường đến một túp lều nhỏ. Một bà lão ra đón, cho hai cô trú lại. Mặt trời vừa lặn, Désirée đã thành cô gái, ôm chầm lấy Eglantine. Sáng ra, nàng lại hóa nai, chạy vào rừng.",
+      "subtitles": [
+        "Còn con nai trắng, khi soi mình xuống suối, mới biết mình đã hóa thành nai.",
+        "Eglantine tìm đến, con nai dụi đầu vào vai cô, mắt rưng rưng.",
+        "Eglantine chợt hiểu, quỳ xuống ôm lấy nai: \"Công chúa của em!\" Bà tiên Tulip thương",
+        "Désirée nhất, liền hiện ra: \"Ta không gỡ hẳn được lời phạt, nhưng ta làm nó ngắn lại.",
+        "Từ nay hễ trời tối, con sẽ trở lại làm người.\" Bà chỉ đường đến một túp lều nhỏ.",
+        "Một bà lão ra đón, cho hai cô trú lại.",
+        "Mặt trời vừa lặn, Désirée đã thành cô gái, ôm chầm lấy Eglantine.",
+        "Sáng ra, nàng lại hóa nai, chạy vào rừng."
+      ],
+      "image": {
+        "prompt": "a sunny forest glade, a loyal young maid kneeling and hugging a white doe with tearful eyes, a kind fairy with tulip-petal robes appearing in a soft glow, a small cozy cottage at the end of a path",
+        "seed": 2823540150,
+        "character": "nai-trang"
+      },
+      "video": {
+        "motionPrompt": "the doe nuzzles the maid's shoulder, a soft pink glow blooms as the fairy appears, birds flutter between the trees",
+        "seed": 2906437088
+      },
+      "voice": {}
+    },
+    {
+      "id": "chang-tho-san",
+      "title": "Chàng thợ săn",
+      "narrator": "ke-chuyen",
+      "narration": "Tình cờ, hoàng tử và Becasigue cũng ở nhờ túp lều ấy. Sáng sớm, hoàng tử vào rừng, thấy con nai trắng đang gặm cỏ. Chàng giương cung, nhưng bà tiên Tulip khiến không mũi tên nào chạm được nai. Hôm sau, nai thấy hoàng tử ngủ dưới gốc cây. Nàng rón rén lại gần, nhận ra người trong tranh, khẽ hôn lên trán chàng. Chàng tỉnh dậy, đuổi theo, gọi: \"Nai ơi, đừng sợ, ta không làm hại đâu!\" Nai mệt quá nằm xuống. Chàng vuốt ve, mang nước đến. Nhưng trời sắp tối, nàng không muốn chàng thấy mình lần đầu như thế, bèn lẻn đi khi chàng ra suối lấy nước.",
+      "subtitles": [
+        "Tình cờ, hoàng tử và Becasigue cũng ở nhờ túp lều ấy.",
+        "Sáng sớm, hoàng tử vào rừng, thấy con nai trắng đang gặm cỏ.",
+        "Chàng giương cung, nhưng bà tiên Tulip khiến không mũi tên nào chạm được nai.",
+        "Hôm sau, nai thấy hoàng tử ngủ dưới gốc cây.",
+        "Nàng rón rén lại gần, nhận ra người trong tranh, khẽ hôn lên trán chàng.",
+        "Chàng tỉnh dậy, đuổi theo, gọi: \"Nai ơi, đừng sợ,",
+        "ta không làm hại đâu!\" Nai mệt quá nằm xuống.",
+        "Chàng vuốt ve, mang nước đến.",
+        "Nhưng trời sắp tối, nàng không muốn chàng thấy mình lần đầu như thế,",
+        "bèn lẻn đi khi chàng ra suối lấy nước."
+      ],
+      "image": {
+        "prompt": "a quiet green forest clearing, the young prince asleep under a great oak, a white doe bending gently to kiss his forehead, then the prince kneeling and offering water in a hunting horn cup to the resting doe on a bed of moss",
+        "seed": 3430477191,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the doe lowers her head softly, the prince's eyes flutter open, leaves drift down in golden light",
+        "seed": 2305511975
+      },
+      "voice": {}
+    },
+    {
+      "id": "dai-ruy-bang",
+      "title": "Dải ruy băng",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm sau, hoàng tử lại gặp nai. Sợ nàng chạy mất, chàng bắn một mũi tên sượt qua chân nai. Nàng khuỵu xuống. Chàng hối hận vô cùng, vội đắp lá thuốc, ôm đầu nai vào lòng: \"Ta thật tệ, giờ chắc nai ghét ta mất rồi!\" Chàng định bế nai về lều nhưng nai bỗng nặng trĩu, chàng đành buộc nai vào gốc cây bằng dải ruy băng trên mũ rồi đi tìm người giúp. Eglantine tìm tới, gỡ mãi không được nút buộc. Hoàng tử quay lại: \"Nai này của ta!\" Eglantine đáp: \"Của tôi chứ! Nai ơi, đặt chân lên tim chị nào.\" Con nai làm theo ngay. Hoàng tử đành buồn bã nhường nai cho cô.",
+      "subtitles": [
+        "Hôm sau, hoàng tử lại gặp nai.",
+        "Sợ nàng chạy mất, chàng bắn một mũi tên sượt qua chân nai.",
+        "Nàng khuỵu xuống.",
+        "Chàng hối hận vô cùng, vội đắp lá thuốc, ôm đầu nai vào lòng: \"Ta thật tệ,",
+        "giờ chắc nai ghét ta mất rồi!\" Chàng định bế nai về lều nhưng nai bỗng nặng trĩu,",
+        "chàng đành buộc nai vào gốc cây bằng dải ruy băng trên mũ rồi đi tìm người giúp.",
+        "Eglantine tìm tới, gỡ mãi không được nút buộc.",
+        "Hoàng tử quay lại: \"Nai này của ta!\" Eglantine đáp: \"Của tôi chứ!",
+        "Nai ơi, đặt chân lên tim chị nào.\" Con nai làm theo ngay.",
+        "Hoàng tử đành buồn bã nhường nai cho cô."
+      ],
+      "image": {
+        "prompt": "a white doe resting under a tree, tied loosely with fluttering colorful hat ribbons, the loyal maid kneeling to untie the knots, the young prince returning and talking with her, the doe lifting a gentle hoof to the maid's heart",
+        "seed": 44470599,
+        "character": "nai-trang"
+      },
+      "video": {
+        "motionPrompt": "the ribbons flutter in the breeze, the doe raises one hoof gently, the prince lowers his eyes sadly",
+        "seed": 4260288421
+      },
+      "voice": {}
+    },
+    {
+      "id": "het-loi-phat",
+      "title": "Hết lời phạt",
+      "narrator": "ke-chuyen",
+      "narration": "Becasigue thấy Eglantine dắt nai vào phòng bên cạnh thì nhận ra cô thị nữ của công chúa. Ông khoét lỗ nhỏ trên vách nhìn sang: trên nệm là cô gái trong bức chân dung, đang thì thầm rằng dù vì chàng mà khổ, nàng vẫn không ghét được chàng. Hoàng tử nhìn qua là nhận ra ngay. Chàng gõ cửa, quỳ xuống bên Désirée, kể hết nỗi lòng. Hai người trò chuyện suốt đêm. Khi mặt trời lên cao, nàng vẫn là cô gái: lời phạt đã hết. Bà lão chủ lều hóa ra chính là bà tiên Tulip. Bà làm một bữa tiệc cưới linh đình, còn mẹ con Cerisette thì bị đưa ra đảo nhỏ, tự làm lụng kiếm sống.",
+      "subtitles": [
+        "Becasigue thấy Eglantine dắt nai vào phòng bên cạnh thì nhận ra cô thị nữ của công chúa.",
+        "Ông khoét lỗ nhỏ trên vách nhìn sang: trên nệm là cô gái trong bức chân dung,",
+        "đang thì thầm rằng dù vì chàng mà khổ, nàng vẫn không ghét được chàng.",
+        "Hoàng tử nhìn qua là nhận ra ngay.",
+        "Chàng gõ cửa, quỳ xuống bên Désirée, kể hết nỗi lòng.",
+        "Hai người trò chuyện suốt đêm.",
+        "Khi mặt trời lên cao, nàng vẫn là cô gái: lời phạt đã hết.",
+        "Bà lão chủ lều hóa ra chính là bà tiên Tulip.",
+        "Bà làm một bữa tiệc cưới linh đình, còn mẹ con Cerisette thì bị đưa ra đảo nhỏ,",
+        "tự làm lụng kiếm sống."
+      ],
+      "image": {
+        "prompt": "inside a small cottage room at dawn, the beautiful princess in green silk smiling as the prince kneels before her, the loyal maid and the friend watching happily, the kind old woman of the cottage glowing as she turns into the tulip fairy, sunlight pouring in",
+        "seed": 2811761923,
+        "character": "desiree"
+      },
+      "video": {
+        "motionPrompt": "morning sunlight spreads across the room, the princess stays in her human form and smiles, the old woman shimmers into the fairy",
+        "seed": 1613130022
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "romantic French baroque fairy-tale music, harp, flute and soft strings, a delicate dancing theme for the white doe in the forest, a hushed candle-lit melody for the tower, a warm joyful wedding ending, instrumental, no vocals",
+    "durationSeconds": 160,
+    "seed": 3854319082
+  }
+}

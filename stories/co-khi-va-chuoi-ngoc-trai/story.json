@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "slug": "co-khi-va-chuoi-ngoc-trai",
+  "shelf": "kids",
+  "title": "Cô khỉ và chuỗi ngọc trai",
+  "summary": "Chuỗi ngọc trai của hoàng hậu biến mất trong khu vườn canh gác cẩn mật. Viên đội trưởng thông minh đã nghĩ ra một mẹo thật hay với những chuỗi hạt cườm để tìm ra thủ phạm. Truyện tiền thân Jataka của Ấn Độ kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện tiền thân Đức Phật (Jataka, Ấn Độ cổ đại), theo bản kể lại tiếng Anh của Ellen C. Babbitt, More Jataka Tales (1922), truyện «The Girl Monkey and the String of Pearls», Project Gutenberg #7518, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản nào; Mèo Miu dẫn chuyện, thoại và chi tiết nhỏ do người viết thêm. Bản cho trẻ nhỏ giữ đúng cốt truyện; thêm chi tiết cô khỉ ngắm mình dưới nước và lời nhắc cuối truyện về tính khoe khoang.",
+  "basedOn": "Truyện tiền thân Jataka (Ấn Độ)",
+  "style": "classic Indian storybook illustration in the spirit of old Jataka picture books, soft watercolor and gouache with gentle Mughal miniature touches, warm golden light, rounded friendly shapes, calm and safe mood for young children, a lush ancient Indian royal garden with a lotus lake, mango and banyan trees full of playful monkeys, marble pavilions and flower bushes, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1964001079
+    },
+    {
+      "id": "co-khi",
+      "name": "Cô khỉ",
+      "seed": 1607652995,
+      "sheetPrompt": "a small playful light brown monkey girl with a pink face and bright curious eyes, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "doi-truong",
+      "name": "Đội trưởng cận vệ",
+      "seed": 420832323,
+      "sheetPrompt": "a clever ancient Indian chief guard with a neat turban, a trimmed moustache and a kind thoughtful smile, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoang-hau",
+      "name": "Hoàng hậu",
+      "seed": 1694961199,
+      "sheetPrompt": "a gentle ancient Indian queen in a flowing silk sari with a pearl necklace, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nguoi-hau",
+      "name": "Cô hầu gái",
+      "seed": 603992143,
+      "sheetPrompt": "a young ancient Indian maid in a simple cotton sari sitting beside a carved wooden jewel box, sleepy eyes, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có thích đồ đẹp không? Miu thích cái nơ hồng của Miu lắm, lúc nào cũng muốn khoe với mọi người. Hôm nay Miu kể chuyện một cô khỉ ở đất nước Ấn Độ, cũng thích đồ đẹp ơi là thích. Chính vì thích khoe mà cô khỉ đã bị lộ một bí mật. Bí mật gì nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có thích đồ đẹp không?",
+        "Miu thích cái nơ hồng của Miu lắm, lúc nào cũng muốn khoe với mọi người.",
+        "Hôm nay Miu kể chuyện một cô khỉ ở đất nước Ấn Độ, cũng thích đồ đẹp ơi là thích.",
+        "Chính vì thích khoe mà cô khỉ đã bị lộ một bí mật.",
+        "Bí mật gì nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits in a lush royal garden holding an open picture book, a playful little monkey peeks down from a mango tree",
+        "seed": 3153359561
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello and touches her bow, the monkey swings on a branch and grins, lotus flowers bob, slow gentle camera push-in",
+        "seed": 976296327
+      },
+      "voice": {}
+    },
+    {
+      "id": "di-tam-ho",
+      "title": "Hoàng hậu đi tắm hồ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một hôm nhà vua đi dạo trong rừng về, liền gọi cả nhà ra hồ sen trong vườn tắm mát. Trước khi xuống nước, hoàng hậu và các cung nữ tháo đồ trang sức ra, giao cho người hầu trông giữ. Hoàng hậu cẩn thận đặt chuỗi ngọc trai trắng muốt vào chiếc hộp gỗ chạm hoa. Trên cành cây gần đó, có một cô khỉ đang ngồi nhìn không chớp mắt.",
+      "subtitles": [
+        "Ngày xưa, có một hôm nhà vua đi dạo trong rừng về,",
+        "liền gọi cả nhà ra hồ sen trong vườn tắm mát.",
+        "Trước khi xuống nước, hoàng hậu và các cung nữ tháo đồ trang sức ra,",
+        "giao cho người hầu trông giữ.",
+        "Hoàng hậu cẩn thận đặt chuỗi ngọc trai trắng muốt vào chiếc hộp gỗ chạm hoa.",
+        "Trên cành cây gần đó, có một cô khỉ đang ngồi nhìn không chớp mắt."
+      ],
+      "image": {
+        "character": "hoang-hau",
+        "prompt": "a gentle queen in a silk sari places a white pearl necklace into a carved wooden jewel box beside a lotus lake, a little monkey watches from a tree branch",
+        "seed": 3078606933
+      },
+      "video": {
+        "motionPrompt": "the queen lowers the pearls gently into the box, the monkey leans forward with wide eyes, lotus leaves ripple, gentle camera push-in",
+        "seed": 9902806
+      },
+      "voice": {}
+    },
+    {
+      "id": "lay-ngoc",
+      "title": "Nhanh như gió",
+      "narrator": "ke-chuyen",
+      "narration": "Cô khỉ thích chuỗi ngọc ấy lắm. Cô ngồi im, chờ người hầu ngủ gật. Lúc đầu, cô hầu gái chăm chú nhìn chiếc hộp. Nhưng trời trưa nóng nực, cô gật gù, gật gù, rồi ngủ thiếp đi. Nhanh như gió, cô khỉ nhảy xuống, mở hộp, lấy chuỗi ngọc, rồi nhanh như gió lại vọt lên cây. Cô đeo thử chuỗi ngọc vào cổ, ngắm mình dưới mặt hồ. Sợ lính gác nhìn thấy, cô giấu chuỗi ngọc vào một cái hốc cây, rồi ngồi ngay cạnh đó, làm như chẳng có chuyện gì.",
+      "subtitles": [
+        "Cô khỉ thích chuỗi ngọc ấy lắm.",
+        "Cô ngồi im, chờ người hầu ngủ gật.",
+        "Lúc đầu, cô hầu gái chăm chú nhìn chiếc hộp.",
+        "Nhưng trời trưa nóng nực, cô gật gù, gật gù, rồi ngủ thiếp đi.",
+        "Nhanh như gió, cô khỉ nhảy xuống, mở hộp, lấy chuỗi ngọc,",
+        "rồi nhanh như gió lại vọt lên cây.",
+        "Cô đeo thử chuỗi ngọc vào cổ, ngắm mình dưới mặt hồ.",
+        "Sợ lính gác nhìn thấy, cô giấu chuỗi ngọc vào một cái hốc cây, rồi ngồi ngay cạnh đó,",
+        "làm như chẳng có chuyện gì."
+      ],
+      "image": {
+        "character": "co-khi",
+        "prompt": "a little monkey sits on a high branch hiding a shiny pearl necklace inside a hollow in the tree trunk, below a maid dozes beside an open jewel box",
+        "seed": 2870110427
+      },
+      "video": {
+        "motionPrompt": "the maid nods off, the monkey darts down and back up in a quick blur, then tucks the pearls into the hollow and whistles innocently, gentle camera tilt up",
+        "seed": 3950160914
+      },
+      "voice": {}
+    },
+    {
+      "id": "mat-ngoc",
+      "title": "Chuỗi ngọc biến mất",
+      "narrator": "ke-chuyen",
+      "narration": "Cô hầu gái tỉnh dậy, nhìn vào hộp thì không thấy chuỗi ngọc đâu nữa. Cô hốt hoảng kêu lên: Có người lấy mất chuỗi ngọc của hoàng hậu rồi! Lính gác chạy tới từ khắp nơi. Cô hầu kể: Tôi ngồi ngay đây, chẳng đi đâu cả. Nhưng trời nóng quá, tôi mệt nên ngủ quên mất. Lúc tỉnh dậy thì chuỗi ngọc đã không còn. Nhà vua ra lệnh: Phải tìm cho ra kẻ đã lấy chuỗi ngọc!",
+      "subtitles": [
+        "Cô hầu gái tỉnh dậy, nhìn vào hộp thì không thấy chuỗi ngọc đâu nữa.",
+        "Cô hốt hoảng kêu lên: Có người lấy mất chuỗi ngọc của hoàng hậu rồi!",
+        "Lính gác chạy tới từ khắp nơi.",
+        "Cô hầu kể: Tôi ngồi ngay đây, chẳng đi đâu cả.",
+        "Nhưng trời nóng quá, tôi mệt nên ngủ quên mất.",
+        "Lúc tỉnh dậy thì chuỗi ngọc đã không còn.",
+        "Nhà vua ra lệnh: Phải tìm cho ra kẻ đã lấy chuỗi ngọc!"
+      ],
+      "image": {
+        "character": "nguoi-hau",
+        "prompt": "a startled maid stares into an empty jewel box with her hands on her cheeks, palace guards in turbans run toward her across the garden",
+        "seed": 947681196
+      },
+      "video": {
+        "motionPrompt": "the maid gasps and lifts the empty box, guards hurry in from all sides, birds fly up from the bushes, gentle camera push-in",
+        "seed": 879660118
+      },
+      "voice": {}
+    },
+    {
+      "id": "doi-truong-nghi",
+      "title": "Đội trưởng suy nghĩ",
+      "narrator": "ke-chuyen",
+      "narration": "Lính gác lục tìm khắp nơi mà chẳng thấy. Viên đội trưởng đứng một mình, ngẫm nghĩ: Lạ thật. Cổng vườn có lính canh cẩn mật, người ngoài không thể vào được. Nhưng trong vườn lại có hàng trăm con khỉ. Biết đâu một cô khỉ đã lấy chuỗi ngọc? Ông nghĩ ra một mẹo. Ông ra chợ mua thật nhiều chuỗi hạt cườm thủy tinh đủ màu sắc.",
+      "subtitles": [
+        "Lính gác lục tìm khắp nơi mà chẳng thấy.",
+        "Viên đội trưởng đứng một mình, ngẫm nghĩ: Lạ thật.",
+        "Cổng vườn có lính canh cẩn mật, người ngoài không thể vào được.",
+        "Nhưng trong vườn lại có hàng trăm con khỉ.",
+        "Biết đâu một cô khỉ đã lấy chuỗi ngọc? Ông nghĩ ra một mẹo.",
+        "Ông ra chợ mua thật nhiều chuỗi hạt cườm thủy tinh đủ màu sắc."
+      ],
+      "image": {
+        "character": "doi-truong",
+        "prompt": "a clever chief guard in a neat turban strokes his moustache thoughtfully in the royal garden, many monkeys play in the trees behind him",
+        "seed": 3385484698
+      },
+      "video": {
+        "motionPrompt": "the guard taps his chin and looks up at the monkeys, monkeys swing and chatter in the branches, sunlight glints, gentle camera push-in",
+        "seed": 940068471
+      },
+      "voice": {}
+    },
+    {
+      "id": "treo-hat-cuom",
+      "title": "Những chuỗi hạt cườm",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy, lính gác treo những chuỗi hạt cườm lấp lánh lên các bụi cây thấp trong vườn. Sáng hôm sau, bầy khỉ thức dậy, thấy hạt cườm đủ màu thì mừng rỡ, con nào cũng chạy xuống giành lấy một chuỗi. Chúng đeo lên cổ, ríu rít khoe nhau. Chỉ có một cô khỉ ngồi yên trên cây, cạnh cái hốc cây, chẳng xuống lấy.",
+      "subtitles": [
+        "Đêm ấy, lính gác treo những chuỗi hạt cườm lấp lánh lên các bụi cây thấp trong vườn.",
+        "Sáng hôm sau, bầy khỉ thức dậy, thấy hạt cườm đủ màu thì mừng rỡ,",
+        "con nào cũng chạy xuống giành lấy một chuỗi.",
+        "Chúng đeo lên cổ, ríu rít khoe nhau.",
+        "Chỉ có một cô khỉ ngồi yên trên cây, cạnh cái hốc cây, chẳng xuống lấy."
+      ],
+      "image": {
+        "character": "doi-truong",
+        "prompt": "colorful glass bead strings hang sparkling on low bushes in the morning garden, many happy monkeys wear them and show them off, one monkey sits quietly on a high branch",
+        "seed": 2699285251
+      },
+      "video": {
+        "motionPrompt": "the monkeys run down and grab the beads, they twirl and admire each other, beads sparkle in the sun, the quiet monkey watches from above, gentle camera pan",
+        "seed": 1556560660
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-khi-khoe",
+      "title": "Cô khỉ không nhịn được",
+      "narrator": "ke-chuyen",
+      "narration": "Bầy khỉ ngước lên nói với cô: Tiếc quá, cậu chẳng có chuỗi nào cả! Cô khỉ ngồi im, chẳng nói gì. Nhưng nghe mãi, cô không nhịn được nữa. Cô lấy chuỗi ngọc trai ra đeo lên cổ, nhảy xuống, vênh mặt nói: Các cậu chỉ có hạt cườm thủy tinh thôi. Nhìn đây này, của tớ là ngọc trai thật đấy! Ngay lúc ấy, viên đội trưởng đang nấp gần đó bước ra, nhẹ nhàng bế cô khỉ lên.",
+      "subtitles": [
+        "Bầy khỉ ngước lên nói với cô: Tiếc quá, cậu chẳng có chuỗi nào cả!",
+        "Cô khỉ ngồi im, chẳng nói gì.",
+        "Nhưng nghe mãi, cô không nhịn được nữa.",
+        "Cô lấy chuỗi ngọc trai ra đeo lên cổ, nhảy xuống, vênh mặt nói:",
+        "Các cậu chỉ có hạt cườm thủy tinh thôi.",
+        "Nhìn đây này, của tớ là ngọc trai thật đấy!",
+        "Ngay lúc ấy, viên đội trưởng đang nấp gần đó bước ra, nhẹ nhàng bế cô khỉ lên."
+      ],
+      "image": {
+        "character": "co-khi",
+        "prompt": "a little monkey proudly shows off a white pearl necklace to other monkeys wearing glass beads, the chief guard steps out from behind a bush smiling",
+        "seed": 2373813473
+      },
+      "video": {
+        "motionPrompt": "the monkey lifts her chin and poses with the pearls, the other monkeys gasp, the guard steps out and gently scoops her up, gentle camera push-in",
+        "seed": 3511852622
+      },
+      "voice": {}
+    },
+    {
+      "id": "tra-ngoc",
+      "title": "Trả lại chuỗi ngọc",
+      "narrator": "ke-chuyen",
+      "narration": "Đội trưởng mang cô khỉ tới trước nhà vua: Thưa bệ hạ, chính cô khỉ này đã lấy chuỗi ngọc. Nhà vua vui mừng nhận lại chuỗi ngọc, rồi hỏi làm sao ông tìm ra. Đội trưởng kể lại chuyện cổng vườn canh gác cẩn mật, chuyện hàng trăm con khỉ, và mẹo treo hạt cườm. Nhà vua cười lớn: Ngươi đúng là người tài giỏi, đặt đúng chỗ! Rồi vua cảm ơn ông mãi. Còn cô khỉ thì được tặng một chuỗi hạt cườm, và hứa không bao giờ lấy đồ của người khác nữa.",
+      "subtitles": [
+        "Đội trưởng mang cô khỉ tới trước nhà vua: Thưa bệ hạ, chính cô khỉ này đã lấy chuỗi ngọc.",
+        "Nhà vua vui mừng nhận lại chuỗi ngọc, rồi hỏi làm sao ông tìm ra.",
+        "Đội trưởng kể lại chuyện cổng vườn canh gác cẩn mật, chuyện hàng trăm con khỉ,",
+        "và mẹo treo hạt cườm.",
+        "Nhà vua cười lớn: Ngươi đúng là người tài giỏi, đặt đúng chỗ!",
+        "Rồi vua cảm ơn ông mãi.",
+        "Còn cô khỉ thì được tặng một chuỗi hạt cườm,",
+        "và hứa không bao giờ lấy đồ của người khác nữa."
+      ],
+      "image": {
+        "character": "doi-truong",
+        "prompt": "the chief guard bows before a smiling Indian king and returns the pearl necklace, the little monkey sits shyly on the guard's arm wearing a string of glass beads",
+        "seed": 2924899181
+      },
+      "video": {
+        "motionPrompt": "the king lifts the pearls and laughs, the guard bows, the little monkey hides her face then peeks out with a shy smile, gentle camera pull-back",
+        "seed": 1270220302
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, cô khỉ đã giấu kỹ lắm rồi, thế mà vì thích khoe nên tự làm lộ bí mật. Đồ không phải của mình thì đừng lấy, các bạn nhé. Còn viên đội trưởng thì chẳng cần chạy đuổi ai, chỉ cần suy nghĩ thật kỹ là tìm ra. Miu cũng sẽ bớt khoe cái nơ hồng một chút. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, cô khỉ đã giấu kỹ lắm rồi, thế mà vì thích khoe nên tự làm lộ bí mật.",
+        "Đồ không phải của mình thì đừng lấy, các bạn nhé.",
+        "Còn viên đội trưởng thì chẳng cần chạy đuổi ai, chỉ cần suy nghĩ thật kỹ là tìm ra.",
+        "Miu cũng sẽ bớt khoe cái nơ hồng một chút.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the royal garden, the little monkey wearing glass beads waves from a mango branch",
+        "seed": 620683604
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and straightens her bow, the monkey swings and waves, lotus flowers bob, gentle camera pull-back",
+        "seed": 2248990685
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful ancient Indian garden melody with sitar, bansuri flute and light tabla, a sneaky tiptoe passage and a cheerful clever ending, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 783037194
+  }
+}
