@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "slug": "hoa-hong-va-hoa-den",
+  "shelf": "kids",
+  "title": "Hoa hồng và hoa dền",
+  "summary": "Hoa dền mộc mạc ghen tị với hoa hồng vừa đẹp vừa thơm, ai đi qua cũng dừng lại ngắm. Nhưng hoa hồng lại nói một điều khiến hoa dền bất ngờ. Ngụ ngôn Aesop kể nhẹ nhàng cho trẻ nhỏ: ai cũng có điều quý riêng.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Rose and the Amaranth» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản dịch nào. Truyện gốc chỉ vài câu: Mèo Miu dẫn chuyện; thoại, chi tiết đời thường và lời rút ý cuối truyện do người viết thêm. Bản cho trẻ nhỏ: lời hoa hồng về số phận ngắn ngủi được kể nhẹ thành hoa sớm tàn; thêm cảnh ong bướm, cô bé hái hoa dền cắm lọ mùa đông và mùa xuân hai bông hoa thành bạn.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, warm gentle light, rounded friendly shapes, calm and safe mood for young children, sunny old European cottage garden with a rose bush and a bed of red amaranth, bees and butterflies, a little window with a vase, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1778366438
+    },
+    {
+      "id": "hoa-hong",
+      "name": "Hoa hồng",
+      "seed": 3662656969,
+      "sheetPrompt": "a beautiful red rose bush with a gentle smiling face in its biggest bloom, soft petals and green leaves, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "hoa-den",
+      "name": "Hoa dền",
+      "seed": 2049856476,
+      "sheetPrompt": "a plain amaranth plant with long deep-red velvety tassel flowers and a shy wistful face, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "co-be",
+      "name": "Cô bé",
+      "seed": 3791367997,
+      "sheetPrompt": "a little girl with braided hair in a simple old European dress and apron, carrying a small flower basket, kind smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Miu thích đi dạo trong vườn hoa lắm, ngửi bông này, ngắm bông kia. Các bạn đã bao giờ ước được giống ai đó chưa? Ước xinh như bạn này, giỏi như bạn kia? Hôm nay Miu kể chuyện một bông hoa cũng ước như thế đấy. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Miu thích đi dạo trong vườn hoa lắm, ngửi bông này, ngắm bông kia.",
+        "Các bạn đã bao giờ ước được giống ai đó chưa?",
+        "Ước xinh như bạn này, giỏi như bạn kia?",
+        "Hôm nay Miu kể chuyện một bông hoa cũng ước như thế đấy.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits in a sunny cottage garden holding an open picture book, sniffing a flower, a red rose bush and a bed of deep red amaranth beside her",
+        "seed": 3132697660
+      },
+      "video": {
+        "motionPrompt": "the cat sniffs a flower and sneezes softly, then giggles and waves hello, butterflies flutter, slow gentle camera push-in",
+        "seed": 2927252304
+      },
+      "voice": {}
+    },
+    {
+      "id": "khu-vuon",
+      "title": "Trong khu vườn nhỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Trong một khu vườn nhỏ, có một khóm hồng nở những bông hoa đỏ thắm, cánh mềm như nhung, hương thơm bay khắp vườn. Ong bướm bay đến quanh hoa hồng suốt ngày. Ai đi qua cũng dừng chân, cúi xuống ngửi, khen: Hoa hồng đẹp quá, thơm quá! Ngay bên cạnh là một cây dền, hoa dền dài như chùm tua đỏ sẫm, chẳng có hương thơm, chẳng mấy ai để ý.",
+      "subtitles": [
+        "Trong một khu vườn nhỏ, có một khóm hồng nở những bông hoa đỏ thắm, cánh mềm như nhung,",
+        "hương thơm bay khắp vườn.",
+        "Ong bướm bay đến quanh hoa hồng suốt ngày.",
+        "Ai đi qua cũng dừng chân, cúi xuống ngửi, khen: Hoa hồng đẹp quá, thơm quá!",
+        "Ngay bên cạnh là một cây dền, hoa dền dài như chùm tua đỏ sẫm, chẳng có hương thơm,",
+        "chẳng mấy ai để ý."
+      ],
+      "image": {
+        "character": "hoa-hong",
+        "prompt": "a sunny cottage garden with a lovely red rose bush surrounded by bees and butterflies, passers-by bend to smell the roses, a plain amaranth with long deep-red tassels stands quietly beside it",
+        "seed": 3885798358
+      },
+      "video": {
+        "motionPrompt": "bees buzz around the roses, a passer-by bends and smiles at the scent, the amaranth tassels sway quietly in the breeze",
+        "seed": 2943378550
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-den-uoc",
+      "title": "Hoa dền ước ao",
+      "narrator": "ke-chuyen",
+      "narration": "Một buổi chiều, hoa dền khẽ thở dài, nói với hoa hồng: Chị hồng ơi, chị đẹp quá! Người ta yêu chị, ong bướm cũng yêu chị. Người xưa còn bảo, cả các vị thần cũng thích hoa hồng nhất. Em ước gì em được xinh đẹp và thơm ngát như chị. Còn em thì chẳng ai ngắm, chẳng ai khen. Hoa hồng lắng nghe, rồi mỉm cười buồn buồn.",
+      "subtitles": [
+        "Một buổi chiều, hoa dền khẽ thở dài, nói với hoa hồng: Chị hồng ơi, chị đẹp quá!",
+        "Người ta yêu chị, ong bướm cũng yêu chị.",
+        "Người xưa còn bảo, cả các vị thần cũng thích hoa hồng nhất.",
+        "Em ước gì em được xinh đẹp và thơm ngát như chị.",
+        "Còn em thì chẳng ai ngắm, chẳng ai khen.",
+        "Hoa hồng lắng nghe, rồi mỉm cười buồn buồn."
+      ],
+      "image": {
+        "character": "hoa-den",
+        "prompt": "evening in the garden, the shy amaranth with deep-red tassels looks up wistfully at the beautiful red rose, the rose listens with a gentle sad smile, golden light",
+        "seed": 3324545806
+      },
+      "video": {
+        "motionPrompt": "the amaranth's tassels droop as it sighs, the rose bends her bloom toward it kindly, petals glow in the golden evening light",
+        "seed": 1209524727
+      },
+      "voice": {}
+    },
+    {
+      "id": "hong-dap",
+      "title": "Lời hoa hồng",
+      "narrator": "ke-chuyen",
+      "narration": "Hoa hồng dịu dàng đáp: Em dền ơi, chị đẹp thật, nhưng chị chỉ nở được ít ngày thôi. Dù chẳng ai ngắt chị khỏi cành, chỉ vài hôm nữa cánh chị cũng héo, rồi rụng xuống đất. Còn em, hoa của em giữ được màu đỏ rất lâu, lâu lắm, như chẳng bao giờ tàn phai. Chị mới là người phải ước được như em đấy. Hoa dền ngạc nhiên lắm, chưa bao giờ nghĩ thế.",
+      "subtitles": [
+        "Hoa hồng dịu dàng đáp: Em dền ơi, chị đẹp thật, nhưng chị chỉ nở được ít ngày thôi.",
+        "Dù chẳng ai ngắt chị khỏi cành, chỉ vài hôm nữa cánh chị cũng héo, rồi rụng xuống đất.",
+        "Còn em, hoa của em giữ được màu đỏ rất lâu, lâu lắm, như chẳng bao giờ tàn phai.",
+        "Chị mới là người phải ước được như em đấy.",
+        "Hoa dền ngạc nhiên lắm, chưa bao giờ nghĩ thế."
+      ],
+      "image": {
+        "character": "hoa-hong",
+        "prompt": "the red rose speaks gently to the amaranth, a few rose petals have fallen on the soil, the amaranth's deep-red tassels stay bright and fresh, the amaranth looks surprised",
+        "seed": 304139790
+      },
+      "video": {
+        "motionPrompt": "a single rose petal drifts slowly to the ground, the rose smiles kindly as she speaks, the amaranth lifts its tassels in surprise",
+        "seed": 2607109587
+      },
+      "voice": {}
+    },
+    {
+      "id": "mua-dong",
+      "title": "Mùa đông đến",
+      "narrator": "ke-chuyen",
+      "narration": "Rồi mùa đông đến. Khóm hồng chỉ còn cành lá, những bông hoa đã tàn từ lâu. Nhưng hoa dền vẫn đỏ sẫm như ngày nào. Một cô bé ra vườn, reo lên: Ôi, vẫn còn hoa đỏ này! Cô bé hái mấy chùm hoa dền, cắm vào lọ đặt bên cửa sổ, cả căn nhà như sáng bừng. Sang xuân, khóm hồng lại nở. Hai bông hoa chào nhau, giờ đã là đôi bạn thân.",
+      "subtitles": [
+        "Rồi mùa đông đến.",
+        "Khóm hồng chỉ còn cành lá, những bông hoa đã tàn từ lâu.",
+        "Nhưng hoa dền vẫn đỏ sẫm như ngày nào.",
+        "Một cô bé ra vườn, reo lên: Ôi, vẫn còn hoa đỏ này!",
+        "Cô bé hái mấy chùm hoa dền, cắm vào lọ đặt bên cửa sổ, cả căn nhà như sáng bừng.",
+        "Sang xuân, khóm hồng lại nở.",
+        "Hai bông hoa chào nhau, giờ đã là đôi bạn thân."
+      ],
+      "image": {
+        "character": "co-be",
+        "prompt": "a quiet winter garden, the rose bush without flowers, a little girl happily picks bright deep-red amaranth tassels, then a vase of amaranth glowing on a cottage windowsill",
+        "seed": 4161427828
+      },
+      "video": {
+        "motionPrompt": "the girl smiles and gathers the red tassels into her basket, she sets them in a vase by the window, warm light fills the room, then spring roses bloom again",
+        "seed": 3193603251
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, hoa dền ước được như hoa hồng, còn hoa hồng lại mong được như hoa dền. Ai cũng có điều quý của riêng mình, chỉ là đôi khi mình chưa nhận ra thôi. Vậy mình đừng ghen tị với bạn khác, mà hãy vui với cái hay của chính mình nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, hoa dền ước được như hoa hồng, còn hoa hồng lại mong được như hoa dền.",
+        "Ai cũng có điều quý của riêng mình, chỉ là đôi khi mình chưa nhận ra thôi.",
+        "Vậy mình đừng ghen tị với bạn khác, mà hãy vui với cái hay của chính mình nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the spring garden, the red rose and the deep-red amaranth bloom side by side, butterflies around them",
+        "seed": 2349716418
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the rose and the amaranth sway together, butterflies dance, gentle camera pull-back",
+        "seed": 2890613837
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender European garden waltz, music box, harp and soft violin, gentle and sweet with a quiet winter passage, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2318892774
+  }
+}

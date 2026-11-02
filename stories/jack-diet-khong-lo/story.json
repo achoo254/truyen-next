@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 1,
+  "slug": "jack-diet-khong-lo",
+  "shelf": "adults",
+  "title": "Jack diệt khổng lồ",
+  "summary": "Chàng nông dân trẻ xứ Cornwall đào hố bẫy gã khổng lồ Cormoran, rồi đi khắp xứ Wales đánh bại hết gã khổng lồ này tới gã khổng lồ khác bằng mưu trí, áo tàng hình và thanh gươm sắc bén. Truyện cổ nước Anh thời vua Arthur, kể đầy đủ cho người lớn.",
+  "themes": [
+    "anh-hung",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Anh Jack the Giant-Killer, theo bản Joseph Jacobs ghi trong English Fairy Tales (1890), thuộc phạm vi công cộng. Lời kể viết mới hoàn toàn bằng tiếng Việt, theo sát cốt truyện gốc; không chép bản dịch nào.",
+  "basedOn": "Joseph Jacobs, English Fairy Tales (1890)",
+  "style": "old English chapbook woodcut illustration reimagined in rich watercolour, Arthurian Cornwall and Wales, rugged sea cliffs, stone castles, misty forests, towering brutish giants and a small clever young hero, warm earthy greens, slate greys and gold, adventurous and darkly humorous mood for adult readers, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "jack",
+      "name": "Jack",
+      "seed": 1386027903,
+      "sheetPrompt": "Jack, a lean quick-witted young Cornish farmer lad of about eighteen, tousled brown hair, bright mischievous eyes, simple linen shirt, brown jerkin and boots, a wide leather belt embroidered with gold letters, full body, front view, plain parchment background, character reference sheet"
+    },
+    {
+      "id": "cormoran",
+      "name": "Cormoran",
+      "seed": 1594589961,
+      "sheetPrompt": "Cormoran, a huge brutish giant of the Mount of Cornwall, eighteen feet tall, wild matted hair and beard, rough hide clothes, a sheep slung over his shoulder, grim fierce face, full body, front view, plain parchment background, character reference sheet"
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Con trai vua Arthur",
+      "seed": 3800059299,
+      "sheetPrompt": "the only son of King Arthur, a generous young prince of about twenty, golden hair, fine blue tunic with a small crown emblem, riding cloak, kind open face, full body, front view, plain parchment background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cornwall",
+      "title": "Gã khổng lồ trên núi",
+      "narrator": "ke-chuyen",
+      "narration": "Thuở vua Arthur hiền đức còn trị vì nước Anh, ở mũi đất tận cùng xứ Cornwall có một bác nông dân chỉ có một đứa con trai tên là Jack. Jack nhanh nhảu, đầu óc lanh lợi, chẳng ai, chẳng điều gì làm khó được cậu. Hồi ấy, ngọn núi ngoài biển xứ Cornwall là sào huyệt của một gã khổng lồ tên Cormoran. Gã cao gấp ba người thường, mặt mũi dữ tợn, khiến mọi làng mạc quanh vùng khiếp sợ. Gã ở trong một cái hang giữa núi, đói thì lội qua biển vào đất liền, gặp gì vơ nấy. Người ta chạy hết khỏi nhà, còn gã thì vác nửa tá bò trên lưng, buộc cừu với lợn quanh thắt lưng như buộc một chùm nến.",
+      "subtitles": [
+        "Thuở vua Arthur hiền đức còn trị vì nước Anh,",
+        "ở mũi đất tận cùng xứ Cornwall có một bác nông dân chỉ có một đứa con trai tên là Jack.",
+        "Jack nhanh nhảu, đầu óc lanh lợi, chẳng ai, chẳng điều gì làm khó được cậu.",
+        "Hồi ấy, ngọn núi ngoài biển xứ Cornwall là sào huyệt của một gã khổng lồ tên Cormoran.",
+        "Gã cao gấp ba người thường, mặt mũi dữ tợn, khiến mọi làng mạc quanh vùng khiếp sợ.",
+        "Gã ở trong một cái hang giữa núi, đói thì lội qua biển vào đất liền, gặp gì vơ nấy.",
+        "Người ta chạy hết khỏi nhà, còn gã thì vác nửa tá bò trên lưng,",
+        "buộc cừu với lợn quanh thắt lưng như buộc một chùm nến."
+      ],
+      "image": {
+        "character": "cormoran",
+        "seed": 564624126,
+        "prompt": "a rugged tidal island mount off the Cornwall coast at dusk, a huge brutish giant wading through the sea toward the mainland with oxen on his back, villagers fleeing from cottages"
+      },
+      "video": {
+        "seed": 3565392408,
+        "motionPrompt": "waves wash around the giant legs, villagers run, gulls wheel over the cliffs, slow pan"
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-bay",
+      "title": "Cái hố trong đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm các vị quan trong vùng họp nhau ở toà thị chính bàn chuyện gã khổng lồ, Jack tình cờ có mặt. Cậu hỏi: “Ai trừ được Cormoran thì được thưởng gì?” Họ đáp: “Kho báu của gã sẽ thuộc về người ấy.” Jack nói: “Vậy để tôi làm.” Cậu mang theo một cái tù và, một cái xẻng, một cái cuốc, sang núi lúc trời đông vừa sập tối. Cậu đào suốt đêm, tới sáng đã được một cái hố sâu hơn ba con người chồng lên nhau, rộng cũng chừng ấy. Cậu gác cành cây dài lên miệng hố, phủ rơm, rắc một lớp đất mỏng, trông y như mặt đất bằng. Rồi cậu đứng sang bờ bên kia, đúng lúc rạng đông thì đưa tù và lên miệng thổi vang.",
+      "subtitles": [
+        "Một hôm các vị quan trong vùng họp nhau ở toà thị chính bàn chuyện gã khổng lồ,",
+        "Jack tình cờ có mặt.",
+        "Cậu hỏi: “Ai trừ được Cormoran thì được thưởng gì?”",
+        "Họ đáp: “Kho báu của gã sẽ thuộc về người ấy.” Jack nói: “Vậy để tôi làm.”",
+        "Cậu mang theo một cái tù và, một cái xẻng, một cái cuốc,",
+        "sang núi lúc trời đông vừa sập tối.",
+        "Cậu đào suốt đêm, tới sáng đã được một cái hố sâu hơn ba con người chồng lên nhau,",
+        "rộng cũng chừng ấy.",
+        "Cậu gác cành cây dài lên miệng hố, phủ rơm, rắc một lớp đất mỏng,",
+        "trông y như mặt đất bằng.",
+        "Rồi cậu đứng sang bờ bên kia, đúng lúc rạng đông thì đưa tù và lên miệng thổi vang."
+      ],
+      "image": {
+        "character": "jack",
+        "seed": 602209024,
+        "prompt": "a young farmer lad digging a deep pit by lantern light on a dark winter night on the rocky mount, covering it with sticks and straw, a horn hanging at his belt"
+      },
+      "video": {
+        "seed": 800092386,
+        "motionPrompt": "shovel moves, straw is spread, lantern flickers, snow flurries drift, slow zoom"
+      },
+      "voice": {}
+    },
+    {
+      "id": "cormoran-sa-bay",
+      "title": "Cormoran sa bẫy",
+      "narrator": "ke-chuyen",
+      "narration": "Gã khổng lồ bị đánh thức, lao ra khỏi hang, gầm lên: “Thằng ranh, mày dám tới phá giấc ngủ của ta! Ta sẽ bắt mày nướng nguyên con làm bữa sáng!” Gã vừa dứt lời thì sụp ngay xuống hố, cả chân núi rung lên. Jack cười: “Này khổng lồ, giờ ngươi ở đâu rồi? Còn muốn nướng Jack làm bữa sáng nữa không? Chẳng có món gì khác vừa miệng ngươi hay sao?” Trêu chọc một lúc, cậu giáng một nhát cuốc thật mạnh vào đỉnh đầu gã, Cormoran chết ngay tại chỗ. Jack lấp hố, vào hang lấy kho báu. Các vị quan tặng cậu một thanh gươm và một chiếc thắt lưng thêu chữ vàng: Đây là chàng trai xứ Cornwall dũng cảm, người đã diệt gã khổng lồ Cormoran.",
+      "subtitles": [
+        "Gã khổng lồ bị đánh thức, lao ra khỏi hang, gầm lên: “Thằng ranh,",
+        "mày dám tới phá giấc ngủ của ta!",
+        "Ta sẽ bắt mày nướng nguyên con làm bữa sáng!”",
+        "Gã vừa dứt lời thì sụp ngay xuống hố, cả chân núi rung lên.",
+        "Jack cười: “Này khổng lồ, giờ ngươi ở đâu rồi? Còn muốn nướng Jack làm bữa sáng nữa không?",
+        "Chẳng có món gì khác vừa miệng ngươi hay sao?”",
+        "Trêu chọc một lúc, cậu giáng một nhát cuốc thật mạnh vào đỉnh đầu gã,",
+        "Cormoran chết ngay tại chỗ.",
+        "Jack lấp hố, vào hang lấy kho báu.",
+        "Các vị quan tặng cậu một thanh gươm và một chiếc thắt lưng thêu chữ vàng:",
+        "Đây là chàng trai xứ Cornwall dũng cảm, người đã diệt gã khổng lồ Cormoran."
+      ],
+      "image": {
+        "character": "jack",
+        "seed": 763645137,
+        "prompt": "at dawn the giant crashing down into a hidden pit while the young lad stands on the far edge holding a pickaxe and a horn, dust and straw flying"
+      },
+      "video": {
+        "seed": 460041957,
+        "motionPrompt": "straw and earth collapse, the lad raises the pickaxe, sunrise light spreads, camera shake then settle"
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-blunderbore",
+      "title": "Lâu đài của Blunderbore",
+      "narrator": "ke-chuyen",
+      "narration": "Tin ấy bay khắp miền tây nước Anh. Một gã khổng lồ khác tên Blunderbore, chúa một toà lâu đài bị yểm bùa giữa rừng sâu, thề sẽ trả thù. Bốn tháng sau, Jack trên đường sang xứ Wales, mệt quá ngồi nghỉ bên một dòng suối rồi ngủ thiếp đi. Gã khổng lồ ra suối lấy nước, đọc dòng chữ trên thắt lưng, biết ngay đây là Jack, liền vác cậu lên vai mang về. Cành lá sột soạt làm Jack tỉnh dậy. Vào lâu đài, cậu thấy xương người rải đầy sân, gã bảo xương cậu rồi cũng nằm đấy. Gã nhốt cậu vào một căn phòng lớn, rồi đi gọi người anh em cũng là khổng lồ tới ăn cùng.",
+      "subtitles": [
+        "Tin ấy bay khắp miền tây nước Anh.",
+        "Một gã khổng lồ khác tên Blunderbore, chúa một toà lâu đài bị yểm bùa giữa rừng sâu,",
+        "thề sẽ trả thù.",
+        "Bốn tháng sau, Jack trên đường sang xứ Wales,",
+        "mệt quá ngồi nghỉ bên một dòng suối rồi ngủ thiếp đi.",
+        "Gã khổng lồ ra suối lấy nước, đọc dòng chữ trên thắt lưng, biết ngay đây là Jack,",
+        "liền vác cậu lên vai mang về.",
+        "Cành lá sột soạt làm Jack tỉnh dậy.",
+        "Vào lâu đài, cậu thấy xương người rải đầy sân, gã bảo xương cậu rồi cũng nằm đấy.",
+        "Gã nhốt cậu vào một căn phòng lớn, rồi đi gọi người anh em cũng là khổng lồ tới ăn cùng."
+      ],
+      "image": {
+        "character": "jack",
+        "seed": 1373520471,
+        "prompt": "a gloomy enchanted castle in a lonesome wood, a giant carrying the sleeping young lad over his shoulder through a thicket, scattered old bones dimly visible in the courtyard"
+      },
+      "video": {
+        "seed": 4072056562,
+        "motionPrompt": "branches sway, the lad stirs awake, ravens take off from the battlements, slow push in"
+      },
+      "voice": {}
+    },
+    {
+      "id": "thong-long",
+      "title": "Hai sợi thòng lọng",
+      "narrator": "ke-chuyen",
+      "narration": "Nhìn qua cửa sổ, Jack thấy hai gã khổng lồ đang đi về. Cậu nghĩ: “Giờ là sống hay chết đây.” Trong góc phòng có mấy cuộn thừng chắc, cậu lấy hai sợi, thắt nút thòng lọng ở đầu. Khi hai gã đang mở cổng sắt, cậu quăng thòng lọng tròng đúng cổ cả hai, vắt đầu kia qua xà nhà rồi kéo hết sức. Thấy chúng tím tái cả mặt, cậu tuột theo dây xuống, rút gươm kết liễu cả hai. Cậu lấy chùm chìa khoá mở các phòng, thấy ba người đàn bà bị trói treo bằng tóc, đói gần chết. Jack nói: “Thưa các bà, con quái vật và người anh em của nó đã bị diệt, các bà được tự do rồi.” Cậu trao chìa khoá cho họ rồi tiếp tục lên đường sang xứ Wales.",
+      "subtitles": [
+        "Nhìn qua cửa sổ, Jack thấy hai gã khổng lồ đang đi về.",
+        "Cậu nghĩ: “Giờ là sống hay chết đây.”",
+        "Trong góc phòng có mấy cuộn thừng chắc, cậu lấy hai sợi, thắt nút thòng lọng ở đầu.",
+        "Khi hai gã đang mở cổng sắt, cậu quăng thòng lọng tròng đúng cổ cả hai,",
+        "vắt đầu kia qua xà nhà rồi kéo hết sức.",
+        "Thấy chúng tím tái cả mặt, cậu tuột theo dây xuống, rút gươm kết liễu cả hai.",
+        "Cậu lấy chùm chìa khoá mở các phòng, thấy ba người đàn bà bị trói treo bằng tóc,",
+        "đói gần chết.",
+        "Jack nói: “Thưa các bà, con quái vật và người anh em của nó đã bị diệt,",
+        "các bà được tự do rồi.”",
+        "Cậu trao chìa khoá cho họ rồi tiếp tục lên đường sang xứ Wales."
+      ],
+      "image": {
+        "character": "jack",
+        "seed": 4092352450,
+        "prompt": "from a high castle window the young lad drops two rope nooses over the heads of two giants unlocking an iron gate below, tense moment"
+      },
+      "video": {
+        "seed": 81122575,
+        "motionPrompt": "ropes fall and tighten, the lad hauls on the beam, giants stagger, dramatic low angle"
+      },
+      "voice": {}
+    },
+    {
+      "id": "khong-lo-hai-dau",
+      "title": "Gã khổng lồ xứ Wales",
+      "narrator": "ke-chuyen",
+      "narration": "Lạc đường giữa đêm, Jack gõ cửa một ngôi nhà lớn trong thung lũng hẹp. Ra mở cửa là một gã khổng lồ hai đầu. Nửa đêm, Jack nghe gã lẩm bẩm ở phòng bên rằng đêm nay khách ngủ đây, sáng mai sẽ không còn thấy mặt trời, chày của gã sẽ đập nát đầu khách. Jack bảo: “Mưu mẹo đấy à, để xem ai khôn hơn ai.” Cậu đặt một khúc gỗ vào giường, còn mình nấp vào góc. Đêm khuya gã vào, nện chày lia lịa xuống giường. Sáng ra, Jack tỉnh bơ cảm ơn gã vì đêm ngủ ngon. Gã hỏi đêm qua có thấy gì không. Jack đáp: “Chỉ có con chuột quất đuôi vào tôi vài cái.”",
+      "subtitles": [
+        "Lạc đường giữa đêm, Jack gõ cửa một ngôi nhà lớn trong thung lũng hẹp.",
+        "Ra mở cửa là một gã khổng lồ hai đầu.",
+        "Nửa đêm, Jack nghe gã lẩm bẩm ở phòng bên rằng đêm nay khách ngủ đây,",
+        "sáng mai sẽ không còn thấy mặt trời, chày của gã sẽ đập nát đầu khách.",
+        "Jack bảo: “Mưu mẹo đấy à, để xem ai khôn hơn ai.”",
+        "Cậu đặt một khúc gỗ vào giường, còn mình nấp vào góc.",
+        "Đêm khuya gã vào, nện chày lia lịa xuống giường.",
+        "Sáng ra, Jack tỉnh bơ cảm ơn gã vì đêm ngủ ngon.",
+        "Gã hỏi đêm qua có thấy gì không. Jack đáp: “Chỉ có con chuột quất đuôi vào tôi vài cái.”"
+      ],
+      "image": {
+        "character": "jack",
+        "seed": 1713820009,
+        "prompt": "a candlelit bedroom in a Welsh giant house, a two-headed giant raising a club over a bed holding only a log under blankets, the young lad hiding in a dark corner"
+      },
+      "video": {
+        "seed": 3909775761,
+        "motionPrompt": "candle flickers, club swings down, the lad covers his mouth to stifle a laugh, slow zoom"
+      },
+      "voice": {}
+    },
+    {
+      "id": "bat-chao",
+      "title": "Bát cháo đặc",
+      "narrator": "ke-chuyen",
+      "narration": "Gã khổng lồ ngạc nhiên lắm, dọn bữa sáng cho Jack một bát cháo bột to đến mấy thùng. Không muốn gã nghĩ mình ăn không nổi, Jack giấu một cái túi da dưới vạt áo rộng, đổ cháo vào túi mà gã chẳng hay. Rồi cậu bảo sẽ làm một trò hay cho gã xem. Cậu cầm dao rạch cái túi, cháo tuôn hết ra ngoài. Gã khổng lồ hai đầu kêu: “Trò ấy ta cũng làm được!” Gã chộp lấy con dao, rạch bụng mình theo, và ngã vật xuống chết.",
+      "subtitles": [
+        "Gã khổng lồ ngạc nhiên lắm, dọn bữa sáng cho Jack một bát cháo bột to đến mấy thùng.",
+        "Không muốn gã nghĩ mình ăn không nổi, Jack giấu một cái túi da dưới vạt áo rộng,",
+        "đổ cháo vào túi mà gã chẳng hay.",
+        "Rồi cậu bảo sẽ làm một trò hay cho gã xem.",
+        "Cậu cầm dao rạch cái túi, cháo tuôn hết ra ngoài.",
+        "Gã khổng lồ hai đầu kêu: “Trò ấy ta cũng làm được!”",
+        "Gã chộp lấy con dao, rạch bụng mình theo, và ngã vật xuống chết."
+      ],
+      "image": {
+        "character": "jack",
+        "seed": 1793624224,
+        "prompt": "a huge breakfast table, the young lad slyly pouring porridge into a leather bag under his coat while the two-headed giant watches puzzled"
+      },
+      "video": {
+        "seed": 722603249,
+        "motionPrompt": "porridge slides into the hidden bag, the giant scratches both heads, steam rises, gentle pan"
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoang-tu-hao-phong",
+      "title": "Vị hoàng tử hào phóng",
+      "narrator": "ke-chuyen",
+      "narration": "Thời ấy, con trai duy nhất của vua Arthur xin cha một món tiền lớn, để sang xứ Wales cầu hôn một tiểu thư xinh đẹp bị bảy ác linh ám. Vua can không được, đành cho đi với hai con ngựa, một con chở vàng, một con để cưỡi. Tới một thị trấn ở Wales, chàng thấy đám đông vây quanh một người vừa mất: chủ nợ giữ lại, không cho chôn. Chàng nói: “Hãy đem chôn người ta đi, chủ nợ tới chỗ ta trọ, ta trả hết.” Chủ nợ kéo tới đông tới mức tối đó chàng chỉ còn hai đồng xu. Jack đi ngang, cảm phục lòng hào phóng ấy, xin theo hầu. Ra khỏi thị trấn, một bà lão đòi nốt hai xu, chàng cũng đưa.",
+      "subtitles": [
+        "Thời ấy, con trai duy nhất của vua Arthur xin cha một món tiền lớn,",
+        "để sang xứ Wales cầu hôn một tiểu thư xinh đẹp bị bảy ác linh ám.",
+        "Vua can không được, đành cho đi với hai con ngựa, một con chở vàng, một con để cưỡi.",
+        "Tới một thị trấn ở Wales, chàng thấy đám đông vây quanh một người vừa mất: chủ nợ giữ lại,",
+        "không cho chôn.",
+        "Chàng nói: “Hãy đem chôn người ta đi, chủ nợ tới chỗ ta trọ, ta trả hết.”",
+        "Chủ nợ kéo tới đông tới mức tối đó chàng chỉ còn hai đồng xu.",
+        "Jack đi ngang, cảm phục lòng hào phóng ấy, xin theo hầu.",
+        "Ra khỏi thị trấn, một bà lão đòi nốt hai xu, chàng cũng đưa."
+      ],
+      "image": {
+        "character": "hoang-tu",
+        "seed": 3223276024,
+        "prompt": "a Welsh market town square, a generous young prince handing out gold coins to a crowd of creditors beside a covered coffin, the lad watching admiringly"
+      },
+      "video": {
+        "seed": 3494402069,
+        "motionPrompt": "coins pass from hand to hand, the crowd murmurs, banners flap, slow pan"
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-chu-ba-dau",
+      "title": "Ông chú ba đầu",
+      "narrator": "ke-chuyen",
+      "narration": "Chiều xuống, hoàng tử hỏi đêm nay ngủ đâu. Jack bảo cậu có ông chú ở gần đây, một gã khổng lồ ba đầu đánh tan năm trăm người mặc giáp. Cậu phi ngựa tới gõ cổng, xưng là “thằng cháu Jack”, rồi báo tin dữ: con vua đang dẫn một nghìn quân tới giết ông. Gã khổng lồ hoảng hồn, chui xuống hầm, nhờ Jack khoá chặt lại cho tới khi hoàng tử đi khỏi. Sáng ra, Jack thả gã, xin đền ơn bằng mấy thứ cũ ở đầu giường: áo tàng hình, mũ biết mọi điều, gươm chém gì đứt nấy và đôi giày chạy nhanh như gió. Gã tiếc lắm, nhưng vì ơn giữ lâu đài nên đành cho cả.",
+      "subtitles": [
+        "Chiều xuống, hoàng tử hỏi đêm nay ngủ đâu.",
+        "Jack bảo cậu có ông chú ở gần đây,",
+        "một gã khổng lồ ba đầu đánh tan năm trăm người mặc giáp.",
+        "Cậu phi ngựa tới gõ cổng, xưng là “thằng cháu Jack”, rồi báo tin dữ:",
+        "con vua đang dẫn một nghìn quân tới giết ông.",
+        "Gã khổng lồ hoảng hồn, chui xuống hầm,",
+        "nhờ Jack khoá chặt lại cho tới khi hoàng tử đi khỏi.",
+        "Sáng ra, Jack thả gã, xin đền ơn bằng mấy thứ cũ ở đầu giường: áo tàng hình,",
+        "mũ biết mọi điều, gươm chém gì đứt nấy và đôi giày chạy nhanh như gió.",
+        "Gã tiếc lắm, nhưng vì ơn giữ lâu đài nên đành cho cả."
+      ],
+      "image": {
+        "character": "jack",
+        "seed": 1704097346,
+        "prompt": "a fearsome three-headed giant cowering into a stone vault while the young lad turns a huge key, a cloak, cap, rusty sword and slippers by a giant bed"
+      },
+      "video": {
+        "seed": 3879705640,
+        "motionPrompt": "the vault door swings shut, the key turns, torchlight flickers, slow zoom"
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieu-thu-bi-am",
+      "title": "Tiểu thư bị ác linh ám",
+      "narrator": "ke-chuyen",
+      "narration": "Vị tiểu thư mở tiệc đãi hoàng tử, rồi lau miệng chàng bằng chiếc khăn tay, cất vào ngực áo và nói: “Sáng mai chàng phải đưa ta xem chiếc khăn này, không thì mất đầu.” Nửa đêm, nàng gọi ác linh đưa mình tới chỗ quỷ vương Lucifer, trao chiếc khăn cho hắn. Jack khoác áo tàng hình, xỏ giày thần, theo sát và lấy lại chiếc khăn trên giá. Hôm sau nàng đòi chàng phải đưa ra đôi môi mà nàng hôn đêm ấy. Đêm đó nàng hôn quỷ vương, và Jack chém phăng đầu hắn, giấu dưới áo tàng hình mang về. Sáng ra, hoàng tử cầm sừng nhấc cái đầu lên trước mặt nàng. Bùa phép tan, ác linh rời bỏ nàng, nàng hiện ra đẹp rạng ngời. Hai người cưới nhau, về triều vua Arthur, còn Jack được phong làm hiệp sĩ Bàn Tròn.",
+      "subtitles": [
+        "Vị tiểu thư mở tiệc đãi hoàng tử, rồi lau miệng chàng bằng chiếc khăn tay,",
+        "cất vào ngực áo và nói:",
+        "“Sáng mai chàng phải đưa ta xem chiếc khăn này, không thì mất đầu.”",
+        "Nửa đêm, nàng gọi ác linh đưa mình tới chỗ quỷ vương Lucifer, trao chiếc khăn cho hắn.",
+        "Jack khoác áo tàng hình, xỏ giày thần, theo sát và lấy lại chiếc khăn trên giá.",
+        "Hôm sau nàng đòi chàng phải đưa ra đôi môi mà nàng hôn đêm ấy.",
+        "Đêm đó nàng hôn quỷ vương, và Jack chém phăng đầu hắn, giấu dưới áo tàng hình mang về.",
+        "Sáng ra, hoàng tử cầm sừng nhấc cái đầu lên trước mặt nàng.",
+        "Bùa phép tan, ác linh rời bỏ nàng, nàng hiện ra đẹp rạng ngời.",
+        "Hai người cưới nhau, về triều vua Arthur, còn Jack được phong làm hiệp sĩ Bàn Tròn."
+      ],
+      "image": {
+        "character": "hoang-tu",
+        "seed": 2656176950,
+        "prompt": "a haunted banquet hall, a pale enchanted lady wiping the prince mouth with a lace handkerchief, shadowy spirits curling around her, the lad in a shimmering invisible cloak behind"
+      },
+      "video": {
+        "seed": 1458941702,
+        "motionPrompt": "shadowy wisps swirl, candles gutter, the cloak shimmers faintly, slow push in"
+      },
+      "voice": {}
+    },
+    {
+      "id": "thunderdell",
+      "title": "Thunderdell và cây cầu",
+      "narrator": "ke-chuyen",
+      "narration": "Jack lại đi tìm khổng lồ. Cậu khoác áo tàng hình hạ một gã ngồi trước cửa hang, mở cửa ngục thả những người bị gã nhốt chờ làm bữa ăn, chia vàng bạc cho họ. Bỗng có tin: Thunderdell, gã khổng lồ hai đầu, kéo từ miền bắc tới trả thù cho họ hàng. Lâu đài nằm trên đảo, quanh là hào sâu và một cây cầu kéo. Jack cho cưa gần đứt hai bên cầu. Gã khổng lồ đánh hơi thấy Jack, gầm lên đòi nghiền xương cậu làm bánh mì. Jack cởi áo tàng hình, xỏ giày thần, dụ gã chạy vòng vòng cho cả lâu đài xem. Cậu nhẹ nhàng chạy qua cầu, gã đuổi theo, tới giữa cầu thì sức nặng làm cầu sập, gã rơi tõm xuống hào, quẫy như cá voi. Jack quăng dây thừng tròng hai cái đầu, cho ngựa kéo gã lên bờ rồi kết liễu gã bằng thanh gươm sắc.",
+      "subtitles": [
+        "Jack lại đi tìm khổng lồ.",
+        "Cậu khoác áo tàng hình hạ một gã ngồi trước cửa hang,",
+        "mở cửa ngục thả những người bị gã nhốt chờ làm bữa ăn, chia vàng bạc cho họ.",
+        "Bỗng có tin: Thunderdell, gã khổng lồ hai đầu, kéo từ miền bắc tới trả thù cho họ hàng.",
+        "Lâu đài nằm trên đảo, quanh là hào sâu và một cây cầu kéo.",
+        "Jack cho cưa gần đứt hai bên cầu.",
+        "Gã khổng lồ đánh hơi thấy Jack, gầm lên đòi nghiền xương cậu làm bánh mì.",
+        "Jack cởi áo tàng hình, xỏ giày thần, dụ gã chạy vòng vòng cho cả lâu đài xem.",
+        "Cậu nhẹ nhàng chạy qua cầu, gã đuổi theo, tới giữa cầu thì sức nặng làm cầu sập,",
+        "gã rơi tõm xuống hào, quẫy như cá voi.",
+        "Jack quăng dây thừng tròng hai cái đầu,",
+        "cho ngựa kéo gã lên bờ rồi kết liễu gã bằng thanh gươm sắc."
+      ],
+      "image": {
+        "character": "jack",
+        "seed": 1155797221,
+        "prompt": "a castle on an island ringed by a deep moat, a huge two-headed giant tumbling through a breaking drawbridge into the water while the lad in swift shoes runs across, lords and ladies watching from a garden"
+      },
+      "video": {
+        "seed": 3881699610,
+        "motionPrompt": "the bridge cracks and collapses, water splashes high, the crowd cheers, dynamic pan"
+      },
+      "voice": {}
+    },
+    {
+      "id": "galligantua",
+      "title": "Chiếc kèn vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Lần nọ, Jack trọ nhà một ông lão tóc bạc dưới chân núi. Ông kể trên đỉnh núi có lâu đài của gã khổng lồ Galligantua và một lão phù thuỷ. Chúng bắt nhiều hiệp sĩ, tiểu thư về, hoá họ thành chim muông. Con gái một vị công tước bị bắt đi trên cỗ xe lửa rồng kéo, bị hoá thành con hươu trắng. Cổng có hai con quái điểu canh giữ, ai tới gần cũng mất mạng. Sáng hôm sau, Jack mặc áo tàng hình, lặng lẽ đi qua chúng. Trên cổng treo một chiếc kèn vàng, dưới khắc rằng ai thổi kèn sẽ hạ được khổng lồ và phá tan bùa dữ. Jack thổi vang. Lâu đài rung chuyển. Gã khổng lồ cúi nhặt chày, Jack chém một nhát là xong. Lão phù thuỷ bị gió lốc cuốn đi mất. Mọi người hiện lại hình người, lâu đài tan thành khói. Vua Arthur gả con gái công tước cho Jack, ban cho chàng một lâu đài, và hai người sống hạnh phúc trọn đời.",
+      "subtitles": [
+        "Lần nọ, Jack trọ nhà một ông lão tóc bạc dưới chân núi.",
+        "Ông kể trên đỉnh núi có lâu đài của gã khổng lồ Galligantua và một lão phù thuỷ.",
+        "Chúng bắt nhiều hiệp sĩ, tiểu thư về, hoá họ thành chim muông.",
+        "Con gái một vị công tước bị bắt đi trên cỗ xe lửa rồng kéo, bị hoá thành con hươu trắng.",
+        "Cổng có hai con quái điểu canh giữ, ai tới gần cũng mất mạng.",
+        "Sáng hôm sau, Jack mặc áo tàng hình, lặng lẽ đi qua chúng.",
+        "Trên cổng treo một chiếc kèn vàng,",
+        "dưới khắc rằng ai thổi kèn sẽ hạ được khổng lồ và phá tan bùa dữ. Jack thổi vang.",
+        "Lâu đài rung chuyển. Gã khổng lồ cúi nhặt chày, Jack chém một nhát là xong.",
+        "Lão phù thuỷ bị gió lốc cuốn đi mất.",
+        "Mọi người hiện lại hình người, lâu đài tan thành khói.",
+        "Vua Arthur gả con gái công tước cho Jack, ban cho chàng một lâu đài,",
+        "và hai người sống hạnh phúc trọn đời."
+      ],
+      "image": {
+        "character": "jack",
+        "seed": 46237286,
+        "prompt": "a mountaintop enchanted castle, the young lad blowing a golden trumpet hanging on a silver chain at the gate, two fiery griffins nearby unaware, a white hind in the courtyard"
+      },
+      "video": {
+        "seed": 3437758162,
+        "motionPrompt": "the castle trembles, smoke begins to swirl, the hind lifts her head, birds burst into the sky, slow zoom out"
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "medieval English folk instrumental, fiddle, tin whistle, hurdy-gurdy and frame drum, bold adventurous tune with playful moments and a few ominous low drones, no vocals",
+    "durationSeconds": 180,
+    "seed": 1706413090
+  }
+}

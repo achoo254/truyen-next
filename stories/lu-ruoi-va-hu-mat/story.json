@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "slug": "lu-ruoi-va-hu-mat",
+  "shelf": "kids",
+  "title": "Lũ ruồi và hũ mật",
+  "summary": "Hũ mật ong đổ trong nhà kho, cả đàn ruồi bu lại ăn lấy ăn để đến nỗi chân dính chặt, cánh không vỗ nổi. Ngụ ngôn Aesop kể nhẹ cho bé: vì chút ngọt ngào trước mắt mà quên mất mình.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Flies and the Honey-Pot» (bản dịch G. F. Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản nào; truyện gốc rất ngắn nên thêm thoại và chi tiết đời thường (bà quản gia, chú ruồi nhỏ nhút nhát đứng ngoài), kể nhẹ đoạn kết; Mèo Miu mở đầu và rút bài học ở cuối.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic children's picture-book illustration, soft watercolor and colored pencil, cozy old country pantry with wooden shelves, clay jars, bread and herbs, warm sunlight through a small window, gentle humor, rounded friendly cartoon shapes, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 390562421,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "dan-ruoi",
+      "name": "Đàn ruồi",
+      "seed": 3337359802,
+      "sheetPrompt": "a group of funny cartoon houseflies with big round eyes, tiny shiny wings and cheeky greedy grins, cute and not gross, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ruoi-nho",
+      "name": "Ruồi nhỏ",
+      "seed": 669538389,
+      "sheetPrompt": "a tiny shy cartoon fly with big round worried eyes, delicate clean wings, sweet cautious expression, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có thích mật ong không? Ngọt lịm, thơm lừng! Miu cũng thích lắm. Nhưng có một đàn ruồi vì quá mê mật ong mà gặp chuyện khó ra phết. Chuyện thế nào nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có thích mật ong không? Ngọt lịm, thơm lừng!",
+        "Miu cũng thích lắm. Nhưng có một đàn ruồi vì quá mê mật ong mà gặp chuyện khó ra phết.",
+        "Chuyện thế nào nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits at a kitchen table licking a little spoon of golden honey happily, a clay honey jar beside her and a curious cartoon fly hovering nearby",
+        "seed": 1282941169
+      },
+      "video": {
+        "motionPrompt": "the cat licks the spoon and smiles, honey drips slowly, the little fly circles around, warm light, gentle camera push-in",
+        "seed": 2525845450
+      },
+      "voice": {}
+    },
+    {
+      "id": "hu-mat-do",
+      "title": "Hũ mật bị đổ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, trong nhà kho của một bà quản gia, có hũ mật ong đặt trên kệ gỗ. Một hôm, bà quản gia vội vàng lấy bột, khuỷu tay quệt phải hũ mật. Hũ đổ nghiêng, mật vàng óng chảy lênh láng ra mặt kệ. Bà chẳng để ý, xách giỏ đi chợ mất. Mùi mật ngọt bay khắp nhà, bay cả ra ngoài cửa sổ.",
+      "subtitles": [
+        "Ngày xưa, trong nhà kho của một bà quản gia, có hũ mật ong đặt trên kệ gỗ.",
+        "Một hôm, bà quản gia vội vàng lấy bột, khuỷu tay quệt phải hũ mật. Hũ đổ nghiêng,",
+        "mật vàng óng chảy lênh láng ra mặt kệ. Bà chẳng để ý, xách giỏ đi chợ mất.",
+        "Mùi mật ngọt bay khắp nhà, bay cả ra ngoài cửa sổ."
+      ],
+      "image": {
+        "character": "dan-ruoi",
+        "prompt": "in a cozy country pantry a busy housekeeper with a basket hurries out the door while behind her a clay honey jar has tipped over on a wooden shelf, golden honey spreading, sunlight from a small window",
+        "seed": 405953011
+      },
+      "video": {
+        "motionPrompt": "the jar wobbles and tips over, golden honey oozes slowly across the shelf, the door closes behind the housekeeper, sweet scent swirls drift toward the window",
+        "seed": 3142058344
+      },
+      "voice": {}
+    },
+    {
+      "id": "bu-lai",
+      "title": "Cả đàn bu lại",
+      "narrator": "ke-chuyen",
+      "narration": "Đàn ruồi ngửi thấy, kéo nhau bay vào vo ve: Mật ong! Mật ong! Tiệc lớn rồi anh em ơi! Con nào cũng sà xuống, đặt cả sáu chân vào vũng mật mà ăn lấy ăn để. Ruồi nhỏ đứng ngoài mép kệ, rụt rè bảo: Các anh ơi, đứng ở mép mà ăn thôi, đừng giẫm vào giữa, dính chân đấy! Đàn ruồi cười ầm: Nhát thế! Ngọt thế này ai mà nhịn được!",
+      "subtitles": [
+        "Đàn ruồi ngửi thấy, kéo nhau bay vào vo ve: Mật ong! Mật ong! Tiệc lớn rồi anh em ơi!",
+        "Con nào cũng sà xuống, đặt cả sáu chân vào vũng mật mà ăn lấy ăn để.",
+        "Ruồi nhỏ đứng ngoài mép kệ, rụt rè bảo: Các anh ơi, đứng ở mép mà ăn thôi,",
+        "đừng giẫm vào giữa, dính chân đấy! Đàn ruồi cười ầm: Nhát thế!",
+        "Ngọt thế này ai mà nhịn được!"
+      ],
+      "image": {
+        "character": "dan-ruoi",
+        "prompt": "a crowd of cheeky cartoon flies dive happily into a golden puddle of honey on the pantry shelf, while a tiny shy fly stands carefully at the dry edge waving a warning",
+        "seed": 4095830179
+      },
+      "video": {
+        "motionPrompt": "the flies zoom in and land in the honey with big grins, the small fly waves its arms at the edge, honey glistens, comic timing",
+        "seed": 1194719269
+      },
+      "voice": {}
+    },
+    {
+      "id": "dinh-chat",
+      "title": "Dính chặt",
+      "narrator": "ke-chuyen",
+      "narration": "Ăn no căng bụng, đàn ruồi định bay đi. Nhưng ơ kìa, chân con nào cũng dính chặt vào mật! Chúng vỗ cánh phành phạch, mật lại bết lên cả cánh, nặng trĩu, chẳng nhấc lên nổi. Con nào cũng giãy, càng giãy càng lún sâu hơn. Ruồi nhỏ cuống quýt chạy quanh mép kệ mà chẳng biết làm sao kéo các anh ra.",
+      "subtitles": [
+        "Ăn no căng bụng, đàn ruồi định bay đi. Nhưng ơ kìa, chân con nào cũng dính chặt vào mật!",
+        "Chúng vỗ cánh phành phạch, mật lại bết lên cả cánh, nặng trĩu, chẳng nhấc lên nổi.",
+        "Con nào cũng giãy, càng giãy càng lún sâu hơn.",
+        "Ruồi nhỏ cuống quýt chạy quanh mép kệ mà chẳng biết làm sao kéo các anh ra."
+      ],
+      "image": {
+        "character": "dan-ruoi",
+        "prompt": "the cartoon flies with round bellies try to lift off but their feet and wings are stuck in the golden honey, comic strained faces, the tiny fly runs worriedly along the edge",
+        "seed": 740210275
+      },
+      "video": {
+        "motionPrompt": "the flies flap and tug, honey stretches like taffy, they sink a little deeper, the small fly hurries back and forth, gentle comic motion",
+        "seed": 3173567858
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoi-han",
+      "title": "Hối hận thì muộn rồi",
+      "narrator": "ke-chuyen",
+      "narration": "Đàn ruồi mệt lả, thở than: Ôi, chúng mình dại quá! Chỉ vì chút ngọt ngào trước mắt mà mắc kẹt thế này. Giá lúc nãy chịu nghe lời ruồi nhỏ, ăn vừa phải ở ngoài mép thì đâu đến nỗi. Từ đó, đàn ruồi tham ăn ấy mãi mãi không bay lên được nữa.",
+      "subtitles": [
+        "Đàn ruồi mệt lả, thở than: Ôi, chúng mình dại quá!",
+        "Chỉ vì chút ngọt ngào trước mắt mà mắc kẹt thế này.",
+        "Giá lúc nãy chịu nghe lời ruồi nhỏ, ăn vừa phải ở ngoài mép thì đâu đến nỗi.",
+        "Từ đó, đàn ruồi tham ăn ấy mãi mãi không bay lên được nữa."
+      ],
+      "image": {
+        "character": "dan-ruoi",
+        "prompt": "the stuck cartoon flies sit still in the honey with sorry regretful faces, sunlight fading softly through the pantry window, the tiny fly sitting sadly on the dry edge of the shelf, gentle and not frightening",
+        "seed": 3977684065
+      },
+      "video": {
+        "motionPrompt": "the flies droop their heads sorrowfully, the light from the window slowly turns golden orange, the small fly lowers its head, very slow camera drift",
+        "seed": 512094448
+      },
+      "voice": {}
+    },
+    {
+      "id": "ruoi-nho-bay-di",
+      "title": "Ruồi nhỏ bay đi",
+      "narrator": "ke-chuyen",
+      "narration": "Chiều ấy, bà quản gia đi chợ về, vội lau sạch mặt kệ, đậy kín hũ mật. Ruồi nhỏ vỗ đôi cánh sạch sẽ, bay ra cửa sổ, ra với nắng chiều và gió mát. Chú tự nhủ: Ngọt mấy cũng phải biết dừng. Ăn vừa đủ thì mới còn bay được.",
+      "subtitles": [
+        "Chiều ấy, bà quản gia đi chợ về, vội lau sạch mặt kệ, đậy kín hũ mật.",
+        "Ruồi nhỏ vỗ đôi cánh sạch sẽ, bay ra cửa sổ, ra với nắng chiều và gió mát.",
+        "Chú tự nhủ: Ngọt mấy cũng phải biết dừng. Ăn vừa đủ thì mới còn bay được."
+      ],
+      "image": {
+        "character": "ruoi-nho",
+        "prompt": "the tiny fly with clean shining wings flies out of the pantry window into the golden evening sky over a garden, behind it the housekeeper wipes the shelf and closes the honey jar lid",
+        "seed": 3592996448
+      },
+      "video": {
+        "motionPrompt": "the small fly flutters out the window and loops happily in the evening air, the housekeeper wipes the shelf, sunset light glows, camera follows the fly",
+        "seed": 2139790271
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, mật ong ngon thật, nhưng đàn ruồi tham ăn quá nên mắc kẹt. Bánh kẹo, kem, hay trò chơi trên điện thoại cũng vậy đấy, vui một chút thì được, ham quá là dễ gặp chuyện không hay. Mình biết dừng đúng lúc, như ruồi nhỏ nhé! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, mật ong ngon thật, nhưng đàn ruồi tham ăn quá nên mắc kẹt.",
+        "Bánh kẹo, kem, hay trò chơi trên điện thoại cũng vậy đấy, vui một chút thì được,",
+        "ham quá là dễ gặp chuyện không hay. Mình biết dừng đúng lúc, như ruồi nhỏ nhé!",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye beside the closed honey jar on the kitchen table, the tiny fly waving its little arm from the windowsill, evening light",
+        "seed": 2652627086
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the small fly waves and buzzes off into the sunset, the jar lid gleams, gentle camera pull-back",
+        "seed": 3135631369
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light playful children's tune, pizzicato strings, bassoon and xylophone with buzzing comic touches, curious and gentle, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2022216403
+  }
+}

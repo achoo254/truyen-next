@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "slug": "hai-anh-em-va-con-rong",
+  "shelf": "adults",
+  "title": "Hai anh em và con rồng",
+  "summary": "Hai anh em đánh cá tha cho con cá nhỏ, được tặng ngựa, giáp và gươm. Người anh giết con rắn bảy đầu cứu công chúa nhưng bị mụ phù thuỷ hoá đá, người em vượt nghìn dặm đến cứu, rồi chính lòng ghen đã đẩy người anh vào tội lỗi. Truyện dân gian Sicily kể đầy đủ về tình anh em, lòng chung thuỷ và sự sám hối.",
+  "themes": [
+    "anh-hung",
+    "gia-dinh",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Sicily do Laura Gonzenbach ghi lại, theo truyện «The Two Brothers» trong The Pink Fairy Book do Andrew Lang chủ biên (1897), thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới hoàn toàn, theo sát cốt truyện của bản Lang.",
+  "basedOn": "Truyện dân gian Sicily, Andrew Lang kể lại (1897)",
+  "style": "Sicilian folk tale illustration inspired by painted Sicilian carts and old Mediterranean book plates, sun-bleached ochre, lemon yellow, terracotta, deep sea blue and olive green, fishing villages, fig trees, rocky rivers and a torchlit mountain castle, adventurous yet sombre mood for adult readers, violence shown with restraint, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "nguoi-anh",
+      "name": "Người anh",
+      "sheetPrompt": "the elder of two twin-like Sicilian brothers, handsome young man with short black curly hair and dark passionate eyes, tanned skin, polished steel breastplate over a deep red tunic, a sword at his side, full body, front view, plain parchment background, character reference sheet",
+      "seed": 1090185306
+    },
+    {
+      "id": "nguoi-em",
+      "name": "Người em",
+      "sheetPrompt": "the younger of two almost identical Sicilian brothers, handsome young man with short black curly hair and kind thoughtful dark eyes, tanned skin, polished steel breastplate over a deep blue tunic, a sword at his side, full body, front view, plain parchment background, character reference sheet",
+      "seed": 403298508
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "sheetPrompt": "a beautiful young Sicilian princess, long dark wavy hair, large tearful brown eyes, a cream silk gown embroidered with gold lemons, holding a finely embroidered cloth, full body, front view, plain parchment background, character reference sheet",
+      "seed": 1215751402
+    }
+  ],
+  "scenes": [
+    {
+      "id": "con-ca-nho",
+      "title": "Con cá nhỏ biết nói",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có hai anh em đều đẹp trai, mà nghèo đến mức hầu như chỉ ăn cá mình câu được. Một hôm, ra khơi từ sáng sớm chẳng được con nào, sắp về thì dây câu giật nhẹ, kéo lên chỉ là một con cá tí xíu. Người anh bảo: Bé tẹo, nhưng còn hơn không, tối nay đem nướng. Con cá van: Đừng giết tôi vội, tôi sẽ đem lại may mắn cho các anh! Người em thương con cá: Tha cho nó đi, nó chẳng đủ một miếng, biết đâu ta lại vứt bỏ vận may. Cá hứa: Nếu tha tôi, sáng mai trên bãi cát sẽ có hai con ngựa đẹp yên cương đầy đủ, các anh cưỡi đi khắp thiên hạ làm hiệp sĩ. Người anh không tin, nhưng người em bảo: Nó nói dối thì ta câu lại có sao. Cuối cùng người anh thả cá xuống biển, và hai anh em nhịn đói đi ngủ.",
+      "subtitles": [
+        "Ngày xưa có hai anh em đều đẹp trai, mà nghèo đến mức hầu như chỉ ăn cá mình câu được.",
+        "Một hôm, ra khơi từ sáng sớm chẳng được con nào, sắp về thì dây câu giật nhẹ,",
+        "kéo lên chỉ là một con cá tí xíu.",
+        "Người anh bảo: Bé tẹo, nhưng còn hơn không, tối nay đem nướng.",
+        "Con cá van: Đừng giết tôi vội, tôi sẽ đem lại may mắn cho các anh!",
+        "Người em thương con cá: Tha cho nó đi, nó chẳng đủ một miếng,",
+        "biết đâu ta lại vứt bỏ vận may.",
+        "Cá hứa: Nếu tha tôi, sáng mai trên bãi cát sẽ có hai con ngựa đẹp yên cương đầy đủ,",
+        "các anh cưỡi đi khắp thiên hạ làm hiệp sĩ.",
+        "Người anh không tin, nhưng người em bảo: Nó nói dối thì ta câu lại có sao.",
+        "Cuối cùng người anh thả cá xuống biển, và hai anh em nhịn đói đi ngủ."
+      ],
+      "image": {
+        "prompt": "a small wooden fishing boat on a calm sea at sunset off the Sicilian coast, two young brothers in simple fishermen's clothes looking at a tiny silver fish on a line that seems to speak to them",
+        "seed": 3352995301,
+        "character": "nguoi-em"
+      },
+      "video": {
+        "motionPrompt": "the tiny fish wriggles on the line and glints in the sunset light, the younger brother reaches out gently, the boat rocks softly on the water, slow push-in",
+        "seed": 1218149120
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-sung",
+      "title": "Cây sung làm chứng",
+      "narrator": "ke-chuyen",
+      "narration": "Tờ mờ sáng, hai anh em chạy ra bãi. Đúng như lời cá, có hai con ngựa tuyệt đẹp yên cương đầy đủ, trên lưng là áo giáp, quần áo, hai thanh gươm và hai túi vàng. Người em bảo: Anh thấy chưa, may mà ta không ăn con cá. Giờ mỗi người đi tìm vận hội của mình, anh một đường, em một đường. Người anh hỏi: Làm sao biết người kia còn sống? Người em chỉ cây sung: Khi nào muốn biết tin nhau, cứ đến đây lấy gươm rạch vào vỏ cây. Nếu nhựa trắng như sữa chảy ra là người kia vẫn bình yên. Nếu máu chảy ra là người kia đã chết hoặc đang gặp nguy lớn. Rồi hai anh em mặc giáp, đeo gươm, bịn rịn chia tay, mỗi người phi ngựa một ngả.",
+      "subtitles": [
+        "Tờ mờ sáng, hai anh em chạy ra bãi.",
+        "Đúng như lời cá, có hai con ngựa tuyệt đẹp yên cương đầy đủ, trên lưng là áo giáp,",
+        "quần áo, hai thanh gươm và hai túi vàng.",
+        "Người em bảo: Anh thấy chưa, may mà ta không ăn con cá.",
+        "Giờ mỗi người đi tìm vận hội của mình, anh một đường, em một đường.",
+        "Người anh hỏi: Làm sao biết người kia còn sống?",
+        "Người em chỉ cây sung: Khi nào muốn biết tin nhau, cứ đến đây lấy gươm rạch vào vỏ cây.",
+        "Nếu nhựa trắng như sữa chảy ra là người kia vẫn bình yên.",
+        "Nếu máu chảy ra là người kia đã chết hoặc đang gặp nguy lớn.",
+        "Rồi hai anh em mặc giáp, đeo gươm, bịn rịn chia tay, mỗi người phi ngựa một ngả."
+      ],
+      "image": {
+        "prompt": "a sandy Sicilian beach at dawn, two magnificent saddled horses with armour, swords and purses of gold laid on their backs, two brothers standing beside an old fig tree as one points to its bark",
+        "seed": 1522083639,
+        "character": "nguoi-anh"
+      },
+      "video": {
+        "motionPrompt": "dawn light spreads across the sand, the horses toss their manes, the brothers embrace and then mount, riding off in opposite directions, slow wide shot",
+        "seed": 1355129369
+      },
+      "voice": {}
+    },
+    {
+      "id": "ran-bay-dau",
+      "title": "Con rắn bảy đầu",
+      "narrator": "ke-chuyen",
+      "narration": "Người anh đi mãi tới bờ sông một xứ lạ. Giữa dòng, một thiếu nữ xinh đẹp bị xích vào tảng đá, khóc nức nở. Dưới sông có con rắn bảy đầu, đe doạ phun lửa thiêu rụi cả nước nếu mỗi sáng nhà vua không nộp một người cho nó ăn. Lâu dần chẳng còn ai, vua đành nộp chính con gái. Nàng bảo: Chàng đi đi, kẻo nó ăn luôn cả chàng. Chàng đáp: Ta ở lại để cứu nàng. Nàng bèn dặn: Chàng đứng tránh sang một bên. Khi rắn trồi lên, em sẽ bảo nó hôm nay được ăn hai người, nên ăn chàng trai trước vì em bị xích, không chạy đâu được. Nghe thế hẳn nó sẽ lao vào chàng. Mọi chuyện diễn ra đúng vậy. Rắn há hàm lao tới, chàng nhảy tránh, rút gươm, đánh đến khi chém rơi cả bảy cái đầu.",
+      "subtitles": [
+        "Người anh đi mãi tới bờ sông một xứ lạ.",
+        "Giữa dòng, một thiếu nữ xinh đẹp bị xích vào tảng đá, khóc nức nở.",
+        "Dưới sông có con rắn bảy đầu,",
+        "đe doạ phun lửa thiêu rụi cả nước nếu mỗi sáng nhà vua không nộp một người cho nó ăn.",
+        "Lâu dần chẳng còn ai, vua đành nộp chính con gái.",
+        "Nàng bảo: Chàng đi đi, kẻo nó ăn luôn cả chàng. Chàng đáp: Ta ở lại để cứu nàng.",
+        "Nàng bèn dặn: Chàng đứng tránh sang một bên.",
+        "Khi rắn trồi lên, em sẽ bảo nó hôm nay được ăn hai người,",
+        "nên ăn chàng trai trước vì em bị xích, không chạy đâu được.",
+        "Nghe thế hẳn nó sẽ lao vào chàng. Mọi chuyện diễn ra đúng vậy.",
+        "Rắn há hàm lao tới, chàng nhảy tránh, rút gươm, đánh đến khi chém rơi cả bảy cái đầu."
+      ],
+      "image": {
+        "prompt": "a rocky river with a beautiful princess chained to a rock in midstream, a monstrous seven-headed water serpent rising from the current breathing fire, a young knight in a steel breastplate leaping aside with his sword raised",
+        "seed": 1453745790,
+        "character": "nguoi-anh"
+      },
+      "video": {
+        "motionPrompt": "the river churns as the seven heads rise and lunge, firelight flickers on the water, the knight leaps clear and swings his sword in a flashing arc, dramatic slow motion",
+        "seed": 3536258249
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-cai-luoi",
+      "title": "Bảy cái lưỡi và tấm khăn thêu",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng tháo xích cho công chúa, nàng ôm chầm lấy chàng: Chàng đã cứu em, chàng phải làm chồng em, vì cha em đã hứa gả em cho ai giết được con rắn. Chàng đáp: Ta chưa thể cưới nàng, vì ta còn phải đi xa. Hãy chờ ta bảy năm bảy tháng. Nếu ta không về, nàng cứ lấy người khác. Để nàng khỏi quên, ta mang theo bảy cái lưỡi rắn làm bằng chứng. Chàng cắt bảy cái lưỡi, công chúa đưa chàng tấm khăn dày để bọc, rồi chàng lên ngựa đi. Ngay sau đó, một tên nô lệ được vua sai ra xem số phận công chúa. Thấy nàng đứng bình yên cạnh xác rắn, hắn nảy ra ý độc: Nếu cô không nói với vua rằng chính tôi giết con rắn, tôi sẽ giết cô chôn ở đây, chẳng ai hay. Nàng đành hứa. Hắn nhặt bảy cái đầu, đưa nàng về.",
+      "subtitles": [
+        "Chàng tháo xích cho công chúa, nàng ôm chầm lấy chàng: Chàng đã cứu em,",
+        "chàng phải làm chồng em, vì cha em đã hứa gả em cho ai giết được con rắn.",
+        "Chàng đáp: Ta chưa thể cưới nàng, vì ta còn phải đi xa. Hãy chờ ta bảy năm bảy tháng.",
+        "Nếu ta không về, nàng cứ lấy người khác.",
+        "Để nàng khỏi quên, ta mang theo bảy cái lưỡi rắn làm bằng chứng.",
+        "Chàng cắt bảy cái lưỡi, công chúa đưa chàng tấm khăn dày để bọc, rồi chàng lên ngựa đi.",
+        "Ngay sau đó, một tên nô lệ được vua sai ra xem số phận công chúa.",
+        "Thấy nàng đứng bình yên cạnh xác rắn, hắn nảy ra ý độc:",
+        "Nếu cô không nói với vua rằng chính tôi giết con rắn, tôi sẽ giết cô chôn ở đây,",
+        "chẳng ai hay. Nàng đành hứa. Hắn nhặt bảy cái đầu, đưa nàng về."
+      ],
+      "image": {
+        "prompt": "a riverbank beside the slain seven-headed serpent's huge body, a princess handing a finely embroidered cloth to the young knight as he prepares to ride away, while in the distance a sly servant creeps out from behind the reeds",
+        "seed": 403875766,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the embroidered cloth passes between their hands, the knight mounts and rides away, the reeds part and the sly servant's eyes gleam, slow pan",
+        "seed": 696456357
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-nam-bay-thang",
+      "title": "Bảy năm bảy tháng",
+      "narrator": "ke-chuyen",
+      "narration": "Nhà vua mừng khôn xiết thấy con trở về, cả thành reo vui. Tên nô lệ kể chuyện hắn giết rắn, vua tuyên bố gả công chúa cho hắn. Nàng quỳ dưới chân cha: Cha đã hứa thì không rút lại được, nhưng xin cho con chờ bảy năm bảy tháng rồi hẵng cưới. Vua bằng lòng, và suốt bảy năm bảy tháng nàng ngày đêm khóc chờ người chồng thật. Hết hạn, chỉ vài ngày trước lễ cưới, chàng hiệp sĩ trở về, đến trước mặt vua: Xin gả con gái ngài cho tôi, vì chính tôi giết con rắn bảy đầu. Đây là bảy cái lưỡi tôi cắt ra, và tấm khăn thêu con gái ngài đã trao. Công chúa cất tiếng: Thưa cha, chàng nói thật, chàng mới là chồng con. Nhưng xin cha tha cho tên nô lệ, vì hắn bị cám dỗ quá. Vua đáp: Phản trắc như thế không ai tha được. Tên nô lệ bị xử chém để không ai bắt chước, rồi tiệc cưới được mở.",
+      "subtitles": [
+        "Nhà vua mừng khôn xiết thấy con trở về, cả thành reo vui.",
+        "Tên nô lệ kể chuyện hắn giết rắn, vua tuyên bố gả công chúa cho hắn.",
+        "Nàng quỳ dưới chân cha: Cha đã hứa thì không rút lại được,",
+        "nhưng xin cho con chờ bảy năm bảy tháng rồi hẵng cưới.",
+        "Vua bằng lòng, và suốt bảy năm bảy tháng nàng ngày đêm khóc chờ người chồng thật.",
+        "Hết hạn, chỉ vài ngày trước lễ cưới, chàng hiệp sĩ trở về, đến trước mặt vua:",
+        "Xin gả con gái ngài cho tôi, vì chính tôi giết con rắn bảy đầu.",
+        "Đây là bảy cái lưỡi tôi cắt ra, và tấm khăn thêu con gái ngài đã trao.",
+        "Công chúa cất tiếng: Thưa cha, chàng nói thật, chàng mới là chồng con.",
+        "Nhưng xin cha tha cho tên nô lệ, vì hắn bị cám dỗ quá.",
+        "Vua đáp: Phản trắc như thế không ai tha được.",
+        "Tên nô lệ bị xử chém để không ai bắt chước, rồi tiệc cưới được mở."
+      ],
+      "image": {
+        "prompt": "a sunlit royal court, the returned knight kneeling before the king and unwrapping an embroidered cloth to reveal the serpent's seven tongues, the princess's face lighting up, a pale servant in wedding finery shrinking back",
+        "seed": 928005823,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the cloth unfolds slowly, courtiers lean forward in astonishment, the princess steps toward the knight with tears of joy, the servant edges away, slow push-in",
+        "seed": 1868851239
+      },
+      "voice": {}
+    },
+    {
+      "id": "anh-sang-tren-nui",
+      "title": "Ánh sáng trên núi",
+      "narrator": "ke-chuyen",
+      "narration": "Hai người sống hạnh phúc một thời gian dài. Một tối, đứng bên cửa sổ, chàng thấy trên ngọn núi ngoài thành có một luồng sáng rực. Vợ chàng bảo: Đừng nhìn, đó là nhà một mụ phù thuỷ độc ác, chưa ai giết nổi mụ. Lời ấy làm lòng chàng sôi lên, muốn thử sức với mụ. Sáng hôm sau, mặc vợ khóc lóc, chàng lên ngựa đi. Đường xa hơn chàng tưởng, nhờ luồng sáng chàng mới tìm tới một toà lâu đài lửa sáng rực mọi cửa sổ. Trong sảnh, một mụ già xấu xí ngồi trên ghế vàng, gườm gườm bảo: Chỉ một sợi tóc của ta cũng biến ngươi thành đá. Chàng cười: Một sợi tóc thì làm gì được? Mụ nhổ một sợi tóc đặt lên vai chàng, tay chân chàng lạnh cứng lại, không cựa được nữa.",
+      "subtitles": [
+        "Hai người sống hạnh phúc một thời gian dài.",
+        "Một tối, đứng bên cửa sổ, chàng thấy trên ngọn núi ngoài thành có một luồng sáng rực.",
+        "Vợ chàng bảo: Đừng nhìn, đó là nhà một mụ phù thuỷ độc ác, chưa ai giết nổi mụ.",
+        "Lời ấy làm lòng chàng sôi lên, muốn thử sức với mụ.",
+        "Sáng hôm sau, mặc vợ khóc lóc, chàng lên ngựa đi. Đường xa hơn chàng tưởng,",
+        "nhờ luồng sáng chàng mới tìm tới một toà lâu đài lửa sáng rực mọi cửa sổ.",
+        "Trong sảnh, một mụ già xấu xí ngồi trên ghế vàng, gườm gườm bảo:",
+        "Chỉ một sợi tóc của ta cũng biến ngươi thành đá.",
+        "Chàng cười: Một sợi tóc thì làm gì được?",
+        "Mụ nhổ một sợi tóc đặt lên vai chàng, tay chân chàng lạnh cứng lại, không cựa được nữa."
+      ],
+      "image": {
+        "prompt": "a castle on a dark mountain blazing with light from every window, inside a great hall a hideous old witch on a golden chair laying a single grey hair on the shoulder of a knight whose limbs are turning to grey stone",
+        "seed": 2831454867,
+        "character": "nguoi-anh"
+      },
+      "video": {
+        "motionPrompt": "the witch's bony fingers lay the hair on his shoulder, grey stone creeps slowly across the knight's armour and face, torchlight flickers wildly, slow ominous push-in",
+        "seed": 398405143
+      },
+      "voice": {}
+    },
+    {
+      "id": "nguoi-em-den",
+      "title": "Người em tìm đến",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc ấy người em nghĩ đến anh, bèn tìm đến cây sung, rạch vào vỏ. Một dòng máu ồng ộc chảy ra. Chàng kêu lên: Khổ thân tôi, anh tôi đã chết hay sắp chết! Chàng phi ngựa như gió khắp thế gian, cho tới thành nơi anh mình ở. Công chúa ngày nào cũng khóc chờ chồng, thấy chàng đi qua dưới ban công thì tưởng là chồng, vì hai anh em giống nhau như đúc. Nàng gọi: Cuối cùng chàng đã về! Người em hiểu ra đây là chị dâu, nhưng im lặng để nàng tin mình là chồng. Vua mừng rỡ mở tiệc. Nhưng khi nàng định ôm hôn, chàng giơ tay ngăn: Đừng chạm vào ta. Nàng lấy làm lạ lắm. Vài hôm sau, chàng hỏi luồng sáng trên núi là gì, nàng kêu: Ánh sáng ấy đã hại chàng một lần, chàng còn muốn đấu với mụ phù thuỷ nữa sao? Thế là chàng biết anh mình ở đâu.",
+      "subtitles": [
+        "Đúng lúc ấy người em nghĩ đến anh, bèn tìm đến cây sung, rạch vào vỏ.",
+        "Một dòng máu ồng ộc chảy ra.",
+        "Chàng kêu lên: Khổ thân tôi, anh tôi đã chết hay sắp chết!",
+        "Chàng phi ngựa như gió khắp thế gian, cho tới thành nơi anh mình ở.",
+        "Công chúa ngày nào cũng khóc chờ chồng,",
+        "thấy chàng đi qua dưới ban công thì tưởng là chồng, vì hai anh em giống nhau như đúc.",
+        "Nàng gọi: Cuối cùng chàng đã về!",
+        "Người em hiểu ra đây là chị dâu, nhưng im lặng để nàng tin mình là chồng.",
+        "Vua mừng rỡ mở tiệc.",
+        "Nhưng khi nàng định ôm hôn, chàng giơ tay ngăn: Đừng chạm vào ta. Nàng lấy làm lạ lắm.",
+        "Vài hôm sau, chàng hỏi luồng sáng trên núi là gì, nàng kêu:",
+        "Ánh sáng ấy đã hại chàng một lần, chàng còn muốn đấu với mụ phù thuỷ nữa sao?",
+        "Thế là chàng biết anh mình ở đâu."
+      ],
+      "image": {
+        "prompt": "a palace balcony draped with flowers, a weeping princess leaning down joyfully toward a knight who looks exactly like her husband riding beneath, behind him in the distance an old fig tree on a hill",
+        "seed": 1914603863,
+        "character": "nguoi-em"
+      },
+      "video": {
+        "motionPrompt": "the princess leans over the balustrade and reaches down, the young knight looks up with a thoughtful hidden expression, petals drift in the breeze, slow tilt",
+        "seed": 223053422
+      },
+      "voice": {}
+    },
+    {
+      "id": "nam-toc-mu-phu-thuy",
+      "title": "Nắm tóc mụ phù thuỷ",
+      "narrator": "ke-chuyen",
+      "narration": "Trước bình minh, chàng lên đường. Giữa đường, một ông già nhỏ bé dặn: Sức mạnh của mụ nằm ở tóc. Thấy mụ là nhảy tới túm tóc, đừng bao giờ buông. Bắt mụ dẫn tới chỗ anh cậu, bắt mụ làm anh cậu sống lại, vì mụ có thứ thuốc mỡ chữa mọi vết thương, đánh thức cả người chết. Khi anh cậu đứng dậy bình yên, hãy chém đầu mụ, vì mụ là kẻ độc ác. Đến lâu đài, mụ lại nhe răng: Một sợi tóc ta cũng biến ngươi thành đá. Chàng túm ngay tóc mụ: Mụ đã làm gì anh ta? Mụ hết sức, đành dẫn chàng qua một gian đầy tượng đá vốn là người, chỉ bừa một bức: Anh ngươi đây. Chàng lắc đầu. Đến gian cuối cùng chàng mới thấy anh nằm dưới đất. Mụ mở tủ đầy chai lọ, mấy lần đưa thuốc giả, chàng đều nhận ra, cuối cùng mụ phải đưa đúng chai thuốc thật.",
+      "subtitles": [
+        "Trước bình minh, chàng lên đường.",
+        "Giữa đường, một ông già nhỏ bé dặn: Sức mạnh của mụ nằm ở tóc.",
+        "Thấy mụ là nhảy tới túm tóc, đừng bao giờ buông.",
+        "Bắt mụ dẫn tới chỗ anh cậu, bắt mụ làm anh cậu sống lại,",
+        "vì mụ có thứ thuốc mỡ chữa mọi vết thương, đánh thức cả người chết.",
+        "Khi anh cậu đứng dậy bình yên, hãy chém đầu mụ, vì mụ là kẻ độc ác.",
+        "Đến lâu đài, mụ lại nhe răng: Một sợi tóc ta cũng biến ngươi thành đá.",
+        "Chàng túm ngay tóc mụ: Mụ đã làm gì anh ta?",
+        "Mụ hết sức, đành dẫn chàng qua một gian đầy tượng đá vốn là người, chỉ bừa một bức:",
+        "Anh ngươi đây. Chàng lắc đầu.",
+        "Đến gian cuối cùng chàng mới thấy anh nằm dưới đất.",
+        "Mụ mở tủ đầy chai lọ, mấy lần đưa thuốc giả, chàng đều nhận ra,",
+        "cuối cùng mụ phải đưa đúng chai thuốc thật."
+      ],
+      "image": {
+        "prompt": "a hall full of grey stone statues that were once knights, a young knight gripping a hideous witch firmly by her long grey hair as she leads him unwillingly between the statues, a cupboard of bottles and jars at the far end",
+        "seed": 4106906530,
+        "character": "nguoi-em"
+      },
+      "video": {
+        "motionPrompt": "the knight holds the witch's hair tight as she shuffles forward, his eyes scan the frozen stone faces, bottles glint in the open cupboard, slow tracking shot",
+        "seed": 484786641
+      },
+      "voice": {}
+    },
+    {
+      "id": "giet-em",
+      "title": "Lưỡi gươm của lòng ghen",
+      "narrator": "ke-chuyen",
+      "narration": "Tay vẫn không buông tóc mụ, chàng bắt mụ cúi xuống bôi thuốc lên mặt anh mình. Người anh vừa mở mắt, chàng rút gươm chém đầu mụ chỉ một nhát. Người anh đứng dậy vươn vai: Ôi, ta ngủ lâu quá, đây là đâu? Người em kể lại mọi chuyện. Hai anh em giải phép cho các hiệp sĩ khác bị mụ hoá đá, chia nhau vàng bạc trong lâu đài rồi ai về nhà nấy. Người anh nắm chặt chai thuốc đã cứu mình. Dọc đường, người em buột miệng: Anh dại quá, bỏ người vợ đẹp thế mà đi đánh phù thuỷ. Chị ấy tưởng em là anh, em cũng chẳng nói không. Nghe thế, lòng ghen giận bùng lên, người anh không nói một lời, rút gươm chém người em, xác em lăn xuống bụi đường. Rồi người anh phi ngựa về nhà.",
+      "subtitles": [
+        "Tay vẫn không buông tóc mụ, chàng bắt mụ cúi xuống bôi thuốc lên mặt anh mình.",
+        "Người anh vừa mở mắt, chàng rút gươm chém đầu mụ chỉ một nhát.",
+        "Người anh đứng dậy vươn vai: Ôi, ta ngủ lâu quá, đây là đâu? Người em kể lại mọi chuyện.",
+        "Hai anh em giải phép cho các hiệp sĩ khác bị mụ hoá đá,",
+        "chia nhau vàng bạc trong lâu đài rồi ai về nhà nấy.",
+        "Người anh nắm chặt chai thuốc đã cứu mình.",
+        "Dọc đường, người em buột miệng: Anh dại quá, bỏ người vợ đẹp thế mà đi đánh phù thuỷ.",
+        "Chị ấy tưởng em là anh, em cũng chẳng nói không.",
+        "Nghe thế, lòng ghen giận bùng lên, người anh không nói một lời, rút gươm chém người em,",
+        "xác em lăn xuống bụi đường. Rồi người anh phi ngựa về nhà."
+      ],
+      "image": {
+        "prompt": "a dusty mountain road at sunset, two identical brothers on horseback, the elder suddenly drawing his sword in a flash of jealous rage while the younger turns to him in surprise, long shadows on the road",
+        "seed": 3462306388,
+        "character": "nguoi-anh"
+      },
+      "video": {
+        "motionPrompt": "the younger brother laughs and turns, the elder's face darkens, steel flashes in the low sun, the horses rear, the scene cuts to a lone rider galloping away into the dusk, dramatic slow motion",
+        "seed": 339774163
+      },
+      "voice": {}
+    },
+    {
+      "id": "sam-hoi",
+      "title": "Sám hối",
+      "narrator": "ke-chuyen",
+      "narration": "Vợ chàng chạy ra ôm chồng: Em đợi chàng lâu lắm rồi, đừng bao giờ bỏ em đi nữa! Vua mở tiệc mừng con rể. Tối đến, chỉ còn hai vợ chồng, nàng hỏi: Sao hôm chàng mới về lại không cho em chạm vào, lúc nào em định ôm hôn chàng cũng đẩy ra? Người anh chợt hiểu em mình đã trung thực với mình đến nhường nào. Chàng ngồi sụp xuống khóc, vò tay vì tội ác mình đã gây. Bỗng chàng bật dậy, nhớ ra chai thuốc giấu trong áo, chạy như bay tới chỗ em vẫn nằm. Chàng quỳ xuống, bôi thuốc lên cổ em, chỗ vết chém liền lại, người em ngồi dậy nhìn quanh. Hai anh em ôm chầm lấy nhau, người anh xin em tha thứ cho nhát gươm độc ác. Rồi họ cùng trở về cung điện, và từ đó không bao giờ xa nhau nữa.",
+      "subtitles": [
+        "Vợ chàng chạy ra ôm chồng: Em đợi chàng lâu lắm rồi, đừng bao giờ bỏ em đi nữa!",
+        "Vua mở tiệc mừng con rể.",
+        "Tối đến, chỉ còn hai vợ chồng, nàng hỏi: Sao hôm chàng mới về lại không cho em chạm vào,",
+        "lúc nào em định ôm hôn chàng cũng đẩy ra?",
+        "Người anh chợt hiểu em mình đã trung thực với mình đến nhường nào.",
+        "Chàng ngồi sụp xuống khóc, vò tay vì tội ác mình đã gây.",
+        "Bỗng chàng bật dậy, nhớ ra chai thuốc giấu trong áo, chạy như bay tới chỗ em vẫn nằm.",
+        "Chàng quỳ xuống, bôi thuốc lên cổ em, chỗ vết chém liền lại, người em ngồi dậy nhìn quanh.",
+        "Hai anh em ôm chầm lấy nhau, người anh xin em tha thứ cho nhát gươm độc ác.",
+        "Rồi họ cùng trở về cung điện, và từ đó không bao giờ xa nhau nữa."
+      ],
+      "image": {
+        "prompt": "a moonlit roadside, the elder brother kneeling in tears beside his younger brother who is sitting up alive, a small open bottle of ointment in his hand, the two embracing as dawn begins to glow on the horizon",
+        "seed": 145535188,
+        "character": "nguoi-em"
+      },
+      "video": {
+        "motionPrompt": "the elder brother's hands tremble as he applies the ointment, a soft glow spreads, the younger brother opens his eyes and sits up, they embrace as the first light of dawn rises, slow tender push-in",
+        "seed": 2779691294
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm Sicilian folk instrumental, mandolin and classical guitar with friscalettu reed flute and soft tambourine, heroic and bittersweet, turning to tender reconciliation at the end, moderate tempo, no vocals",
+    "durationSeconds": 160,
+    "seed": 124613574
+  }
+}

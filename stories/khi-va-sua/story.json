@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "slug": "khi-va-sua",
+  "shelf": "kids",
+  "title": "Khỉ và sứa",
+  "summary": "Hoàng hậu Long cung ốm nặng, thầy thuốc bảo phải có gan khỉ mới khỏi, bác rùa liền lên bờ đưa một chú khỉ con xuống biển. Truyện dân gian Nhật Bản vui nhộn kể cho bé: vì sao con sứa mềm oặt, không có vỏ cứng?",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Nhật Bản «The Monkey and the Jelly-fish» trong The Violet Fairy Book (1901) do Andrew Lang chủ biên, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản nào; kể nhẹ đoạn bầy khỉ đuổi rùa (ném quả thay vì lột mai), thêm thoại và chi tiết Long cung; Mèo Miu mở đầu và rút bài học ở cuối.",
+  "basedOn": "Truyện dân gian Nhật Bản (Andrew Lang, 1901)",
+  "style": "classic Japanese children's picture-book illustration in soft ukiyo-e inspired watercolor, gentle undersea palace with coral and seaweed, pine-covered seashore, warm friendly colors, rounded cute characters, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 4028774388,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "khi-con",
+      "name": "Khỉ con",
+      "seed": 2911101924,
+      "sheetPrompt": "a cute clever young Japanese macaque monkey with a pink face, fluffy brown fur, bright curious eyes, playful grin, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bac-rua",
+      "name": "Bác rùa",
+      "seed": 3958943623,
+      "sheetPrompt": "a wise old sea turtle with a shiny green-brown shell, kind wrinkled face, small round glasses perched on its nose, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "sua",
+      "name": "Chú sứa",
+      "seed": 1953559315,
+      "sheetPrompt": "a chatty little jellyfish wearing a hard round pearly shell on top like a bowl, small friendly face, soft trailing tentacles, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã thấy con sứa bao giờ chưa? Nó mềm oặt, trong veo như thạch ấy. Nhưng người Nhật kể rằng ngày xưa sứa cũng có vỏ cứng như con ốc đấy. Vì sao sứa mất vỏ? Tất cả là tại một cái miệng hay nói. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn đã thấy con sứa bao giờ chưa? Nó mềm oặt, trong veo như thạch ấy.",
+        "Nhưng người Nhật kể rằng ngày xưa sứa cũng có vỏ cứng như con ốc đấy.",
+        "Vì sao sứa mất vỏ? Tất cả là tại một cái miệng hay nói. Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a sandy Japanese beach holding a seashell to her ear, a soft see-through jellyfish floats in a tide pool beside her, pine trees on the shore",
+        "seed": 2994249899
+      },
+      "video": {
+        "motionPrompt": "the cat listens to the shell and smiles, the jellyfish bobs gently in the pool, small waves roll in, slow camera push-in",
+        "seed": 1245708212
+      },
+      "voice": {}
+    },
+    {
+      "id": "long-cung",
+      "title": "Hoàng hậu Long cung bị ốm",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, dưới đáy biển sâu có cung điện của hoàng hậu Long cung. Một hôm hoàng hậu ốm nặng, thầy thuốc khắp biển đến chữa mà chẳng ai chữa nổi. Sau cùng, một ông thầy thuốc vuốt râu bảo: Phải có lá gan của một con khỉ thì hoàng hậu mới khỏi. Cả triều đình nhìn nhau: Khỉ sống trên cạn, ai lên mà tìm? Bác rùa già đằng hắng: Để tôi đi. Tôi bơi được dưới nước, lại bò được trên bờ.",
+      "subtitles": [
+        "Ngày xưa, dưới đáy biển sâu có cung điện của hoàng hậu Long cung.",
+        "Một hôm hoàng hậu ốm nặng, thầy thuốc khắp biển đến chữa mà chẳng ai chữa nổi.",
+        "Sau cùng, một ông thầy thuốc vuốt râu bảo:",
+        "Phải có lá gan của một con khỉ thì hoàng hậu mới khỏi.",
+        "Cả triều đình nhìn nhau: Khỉ sống trên cạn, ai lên mà tìm?",
+        "Bác rùa già đằng hắng: Để tôi đi. Tôi bơi được dưới nước, lại bò được trên bờ."
+      ],
+      "image": {
+        "character": "bac-rua",
+        "prompt": "a glowing undersea palace of coral and pearls, a queen of the sea resting on a shell bed looking pale, fish and crab courtiers gathered around worried, the old turtle stepping forward bravely",
+        "seed": 3475143217
+      },
+      "video": {
+        "motionPrompt": "seaweed sways, bubbles rise, the fish courtiers whisper to each other, the old turtle nods and swims upward, soft blue light",
+        "seed": 3015937529
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-khi",
+      "title": "Bác rùa gặp khỉ con",
+      "narrator": "ke-chuyen",
+      "narration": "Bác rùa bơi tới một bờ biển có rừng cây cao, nằm chờ mãi, chờ mãi, rồi ngủ quên lúc nào không hay. Bầy khỉ trên cây tò mò trèo xuống. Chú khỉ con bạo nhất đưa tay sờ cái mai bóng loáng. Bác rùa giật mình tỉnh dậy, ngậm chặt lấy tay chú, nói: Ngoan nào, ta không làm đau cháu đâu. Cháu leo lên lưng ta, ta đưa cháu đi chơi Long cung. Bầy khỉ hoảng hốt chạy mất. Khỉ con đành ngồi lên lưng bác rùa, cùng lặn xuống biển.",
+      "subtitles": [
+        "Bác rùa bơi tới một bờ biển có rừng cây cao, nằm chờ mãi, chờ mãi,",
+        "rồi ngủ quên lúc nào không hay.",
+        "Bầy khỉ trên cây tò mò trèo xuống. Chú khỉ con bạo nhất đưa tay sờ cái mai bóng loáng.",
+        "Bác rùa giật mình tỉnh dậy, ngậm chặt lấy tay chú, nói:",
+        "Ngoan nào, ta không làm đau cháu đâu.",
+        "Cháu leo lên lưng ta, ta đưa cháu đi chơi Long cung.",
+        "Bầy khỉ hoảng hốt chạy mất. Khỉ con đành ngồi lên lưng bác rùa, cùng lặn xuống biển."
+      ],
+      "image": {
+        "character": "khi-con",
+        "prompt": "on a pine-covered shore a curious young monkey touches the shiny shell of a sleeping old turtle while other monkeys peek from the branches, gentle and funny",
+        "seed": 660125375
+      },
+      "video": {
+        "motionPrompt": "the monkeys creep down the trunks, the young monkey reaches out and pats the shell, the turtle opens one eye, the other monkeys scatter up the trees",
+        "seed": 1515025207
+      },
+      "voice": {}
+    },
+    {
+      "id": "sua-noi-lo",
+      "title": "Chú sứa nói lộ",
+      "narrator": "ke-chuyen",
+      "narration": "Ở Long cung, ai cũng đón khỉ con thật vui, cho ăn ngon, ngủ êm. Nhưng thỉnh thoảng nhớ nhà, khỉ con lại ngồi buồn sau tảng đá. Một chú sứa có vỏ cứng bơi ngang qua, thấy thế liền tặc lưỡi: Tội nghiệp cậu quá. Ít hôm nữa người ta sẽ lấy lá gan của cậu làm thuốc cho hoàng hậu đấy. Khỉ con sợ run cả người. Sứa còn dặn: Cậu cứ ngồi yên, đừng làm ầm lên nhé. Rồi bơi đi mất.",
+      "subtitles": [
+        "Ở Long cung, ai cũng đón khỉ con thật vui, cho ăn ngon, ngủ êm.",
+        "Nhưng thỉnh thoảng nhớ nhà, khỉ con lại ngồi buồn sau tảng đá.",
+        "Một chú sứa có vỏ cứng bơi ngang qua, thấy thế liền tặc lưỡi:",
+        "Tội nghiệp cậu quá. Ít hôm nữa người ta sẽ lấy lá gan của cậu làm thuốc cho hoàng hậu đấy.",
+        "Khỉ con sợ run cả người. Sứa còn dặn: Cậu cứ ngồi yên, đừng làm ầm lên nhé.",
+        "Rồi bơi đi mất."
+      ],
+      "image": {
+        "character": "sua",
+        "prompt": "a little jellyfish with a hard pearly shell on top whispers to a sad young monkey sitting behind a coral rock in the undersea palace garden, the monkey's eyes wide with surprise",
+        "seed": 2856912926
+      },
+      "video": {
+        "motionPrompt": "the jellyfish bobs closer and whispers, the monkey's ears perk up and he trembles, seaweed sways, little fish dart past",
+        "seed": 2612289020
+      },
+      "voice": {}
+    },
+    {
+      "id": "meo-khi",
+      "title": "Mẹo của khỉ con",
+      "narrator": "ke-chuyen",
+      "narration": "Khỉ con nghĩ mãi, rồi nghĩ ra một mẹo. Hôm trời đổ mưa, chú khóc ầm ĩ suốt từ sáng đến tối. Bác rùa chạy đến hỏi, chú mếu máo: Trước khi đi, cháu phơi lá gan trên cành cây. Mưa thế này thì gan ướt hỏng mất, chẳng chữa được cho hoàng hậu đâu! Triều đình bàn nhau rồi bảo bác rùa đưa khỉ con lên bờ lấy gan, dặn trông chừng thật kỹ.",
+      "subtitles": [
+        "Khỉ con nghĩ mãi, rồi nghĩ ra một mẹo.",
+        "Hôm trời đổ mưa, chú khóc ầm ĩ suốt từ sáng đến tối.",
+        "Bác rùa chạy đến hỏi, chú mếu máo: Trước khi đi, cháu phơi lá gan trên cành cây.",
+        "Mưa thế này thì gan ướt hỏng mất, chẳng chữa được cho hoàng hậu đâu!",
+        "Triều đình bàn nhau rồi bảo bác rùa đưa khỉ con lên bờ lấy gan, dặn trông chừng thật kỹ."
+      ],
+      "image": {
+        "character": "khi-con",
+        "prompt": "rain drops ripple the sea surface far above, the young monkey sits crying dramatically with big tears in the undersea palace, the old turtle listens with a worried face, fish courtiers nod",
+        "seed": 778793635
+      },
+      "video": {
+        "motionPrompt": "the monkey wipes fake tears and peeks with one eye, the turtle scratches his head, rain ripples shimmer on the surface above, comic timing",
+        "seed": 2421030183
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-bo",
+      "title": "Về lại khu rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Vừa tới bờ, khỉ con nhảy vút lên cành cây, cười khúc khích: Gan cháu ở trong bụng chứ đâu ở trên cây! Cả bầy khỉ kéo ra, ném quả thông lộp bộp vào mai bác rùa. Bác vội lặn về Long cung kể lại mọi chuyện. Hoàng hậu biết ai đã nói lộ, bèn phạt chú sứa: Cái miệng hay nói làm hỏng việc, từ nay sứa phải bỏ vỏ cứng. Từ đó đến nay, sứa cứ mềm oặt, trôi lềnh bềnh khắp biển.",
+      "subtitles": [
+        "Vừa tới bờ, khỉ con nhảy vút lên cành cây, cười khúc khích:",
+        "Gan cháu ở trong bụng chứ đâu ở trên cây!",
+        "Cả bầy khỉ kéo ra, ném quả thông lộp bộp vào mai bác rùa.",
+        "Bác vội lặn về Long cung kể lại mọi chuyện.",
+        "Hoàng hậu biết ai đã nói lộ, bèn phạt chú sứa:",
+        "Cái miệng hay nói làm hỏng việc, từ nay sứa phải bỏ vỏ cứng.",
+        "Từ đó đến nay, sứa cứ mềm oặt, trôi lềnh bềnh khắp biển."
+      ],
+      "image": {
+        "character": "khi-con",
+        "prompt": "the young monkey laughs from a high pine branch with his family while pine cones rain softly on the old turtle who hurries back into the waves, and far below the sea a jellyfish without its shell floats away soft and clear",
+        "seed": 593942988
+      },
+      "video": {
+        "motionPrompt": "the monkey swings up the branch, pine cones bounce off the turtle's shell, the turtle paddles into the waves, a soft jellyfish drifts gently in blue water",
+        "seed": 163647852
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, khỉ con gặp chuyện khó mà vẫn bình tĩnh nghĩ ra cách thoát thân. Giỏi quá! Còn chú sứa thì vì nói chuyện không nên nói mà bị phạt mất cả vỏ. Chuyện gì chưa nên nói, mình giữ lại trong lòng nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, khỉ con gặp chuyện khó mà vẫn bình tĩnh nghĩ ra cách thoát thân.",
+        "Giỏi quá!",
+        "Còn chú sứa thì vì nói chuyện không nên nói mà bị phạt mất cả vỏ.",
+        "Chuyện gì chưa nên nói, mình giữ lại trong lòng nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye on the beach at sunset, the young monkey waves from a pine tree and a soft clear jellyfish glows in the shallow water",
+        "seed": 1984962178
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the monkey swings and waves, the jellyfish pulses gently, golden waves roll in, gentle camera pull-back",
+        "seed": 1631900177
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Japanese folk tune for children, koto and shakuhachi flute with soft taiko taps and ocean shimmer, playful and calm, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3367419275
+  }
+}

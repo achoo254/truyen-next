@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-be-ti-hon",
+  "shelf": "adults",
+  "title": "Chú bé tí hon và ông khổng lồ",
+  "summary": "Bị cha mẹ nghèo đói bỏ trong rừng, chú bé tí hon nhất nhà dẫn sáu người anh lạc vào nhà một lão khổng lồ ăn thịt trẻ con, rồi bằng mưu trí đổi mũ, lấy đôi hài bảy dặm mà cứu cả nhà. Truyện cổ Perrault, kể đầy đủ cho người lớn.",
+  "themes": [
+    "gia-dinh",
+    "anh-hung",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện Le Petit Poucet của Charles Perrault trong Histoires ou contes du temps passé (1697), thuộc phạm vi công cộng; đối chiếu bản kể tiếng Anh Little Thumb trong The Blue Fairy Book của Andrew Lang. Lời kể viết mới hoàn toàn bằng tiếng Việt, theo sát cốt truyện gốc; không chép bản dịch nào.",
+  "basedOn": "Truyện cổ Perrault (1697)",
+  "style": "seventeenth-century French fairy tale illustration in the manner of old engravings coloured with muted gouache, a poor woodcutter hut, a vast dark forest, a gloomy ogre house, seven small boys in peasant clothes, eerie and suspenseful mood for adult readers, forest greens, candlelight amber and night blues, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "ti-hon",
+      "name": "Chú bé Tí Hon",
+      "seed": 2331768551,
+      "sheetPrompt": "Little Thumb, the smallest of seven poor peasant boys, about seven years old but tiny, sharp watchful eyes, too-big patched smock and a little woollen nightcap, quiet clever face, full body, front view, plain parchment background, character reference sheet"
+    },
+    {
+      "id": "khong-lo",
+      "name": "Lão khổng lồ",
+      "seed": 2781556814,
+      "sheetPrompt": "the Ogre, a huge cruel giant ogre with a bristling black beard, small greedy eyes, butcher apron over a rough coat, enormous seven-league boots, a great kitchen knife at his belt, full body, front view, plain parchment background, character reference sheet"
+    },
+    {
+      "id": "vo-khong-lo",
+      "name": "Vợ lão khổng lồ",
+      "seed": 1404882984,
+      "sheetPrompt": "the ogre wife, a stout kindly peasant woman with a white cap and apron, worried compassionate face, full body, front view, plain parchment background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nha-tieu-phu",
+      "title": "Nhà tiều phu nghèo",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có hai vợ chồng làm nghề bó củi, sinh được bảy người con, toàn con trai. Đứa lớn nhất mới mười tuổi, đứa út mới bảy tuổi. Họ nghèo lắm, bảy đứa con chưa đứa nào tự kiếm được miếng ăn. Đứa út lại yếu ớt, ít nói, nên cha mẹ tưởng nó đần, trong khi đó là dấu hiệu của người biết suy nghĩ. Lúc sinh ra, nó chỉ to bằng ngón tay cái, nên người ta gọi nó là Tí Hon. Việc gì hỏng trong nhà cũng đổ lên đầu nó, có lỗi hay không cũng bị mắng. Thế nhưng nó khôn hơn cả sáu người anh gộp lại, nói ít mà nghe nhiều, nghĩ nhiều.",
+      "subtitles": [
+        "Ngày xưa có hai vợ chồng làm nghề bó củi, sinh được bảy người con, toàn con trai.",
+        "Đứa lớn nhất mới mười tuổi, đứa út mới bảy tuổi.",
+        "Họ nghèo lắm, bảy đứa con chưa đứa nào tự kiếm được miếng ăn.",
+        "Đứa út lại yếu ớt, ít nói, nên cha mẹ tưởng nó đần,",
+        "trong khi đó là dấu hiệu của người biết suy nghĩ.",
+        "Lúc sinh ra, nó chỉ to bằng ngón tay cái, nên người ta gọi nó là Tí Hon.",
+        "Việc gì hỏng trong nhà cũng đổ lên đầu nó, có lỗi hay không cũng bị mắng.",
+        "Thế nhưng nó khôn hơn cả sáu người anh gộp lại, nói ít mà nghe nhiều, nghĩ nhiều."
+      ],
+      "image": {
+        "character": "ti-hon",
+        "seed": 3840144056,
+        "prompt": "a poor seventeenth-century French woodcutter hut, a weary father and mother with seven small ragged boys around a bare table, the tiniest boy sitting quietly in the corner watching"
+      },
+      "video": {
+        "seed": 2416595826,
+        "motionPrompt": "firelight flickers, the boys squabble, the tiny boy watches silently, slow zoom"
+      },
+      "voice": {}
+    },
+    {
+      "id": "nam-doi",
+      "title": "Năm đói",
+      "narrator": "ke-chuyen",
+      "narration": "Rồi một năm mất mùa tới, nạn đói khủng khiếp tới mức hai vợ chồng quyết bỏ con. Một tối, khi các con đã ngủ, người cha ngồi bên bếp lửa nói với vợ, lòng đau như cắt: “Mình thấy đấy, ta không nuôi nổi chúng nữa. Tôi không đành nhìn chúng chết đói trước mắt. Mai tôi sẽ bỏ chúng trong rừng.” Người vợ kêu: “Ông nỡ lòng nào dắt con đi để bỏ?” Bà không chịu. Bà nghèo thật, nhưng bà là mẹ. Nhưng nghĩ tới cảnh nhìn con chết đói, cuối cùng bà cũng ưng, rồi khóc mà đi ngủ. Tí Hon nghe hết. Nó đã lén ra nấp dưới ghế của cha. Cả đêm nó không ngủ, nghĩ cách. Sáng sớm, nó ra bờ suối, nhặt đầy túi những viên sỏi trắng nhỏ.",
+      "subtitles": [
+        "Rồi một năm mất mùa tới, nạn đói khủng khiếp tới mức hai vợ chồng quyết bỏ con.",
+        "Một tối, khi các con đã ngủ, người cha ngồi bên bếp lửa nói với vợ, lòng đau như cắt:",
+        "“Mình thấy đấy, ta không nuôi nổi chúng nữa. Tôi không đành nhìn chúng chết đói trước mắt.",
+        "Mai tôi sẽ bỏ chúng trong rừng.”",
+        "Người vợ kêu: “Ông nỡ lòng nào dắt con đi để bỏ?” Bà không chịu.",
+        "Bà nghèo thật, nhưng bà là mẹ.",
+        "Nhưng nghĩ tới cảnh nhìn con chết đói, cuối cùng bà cũng ưng, rồi khóc mà đi ngủ.",
+        "Tí Hon nghe hết. Nó đã lén ra nấp dưới ghế của cha. Cả đêm nó không ngủ, nghĩ cách.",
+        "Sáng sớm, nó ra bờ suối, nhặt đầy túi những viên sỏi trắng nhỏ."
+      ],
+      "image": {
+        "character": "ti-hon",
+        "seed": 1319966487,
+        "prompt": "night in the hut, the father and mother whispering grimly by a dying fire, the tiny boy hiding under his father stool listening, then dawn at a riverbank where he fills his pockets with white pebbles"
+      },
+      "video": {
+        "seed": 3719666452,
+        "motionPrompt": "embers glow, the mother weeps, pebbles glint in the water, slow pan"
+      },
+      "voice": {}
+    },
+    {
+      "id": "soi-trang",
+      "title": "Những viên sỏi trắng",
+      "narrator": "ke-chuyen",
+      "narration": "Cả nhà vào một khu rừng rậm, rậm tới mức cách mười bước đã không thấy nhau. Người cha chặt củi, lũ trẻ nhặt cành. Thấy con mải làm, cha mẹ lặng lẽ lẩn vào lối nhỏ, bỏ chạy. Thấy chỉ còn lại mình, lũ trẻ khóc ầm lên. Tí Hon để mặc các anh khóc, vì suốt đường đi nó đã rải những viên sỏi trắng. Nó nói: “Các anh đừng sợ. Cha mẹ bỏ ta ở đây, nhưng em sẽ dẫn các anh về. Cứ theo em.” Nó dẫn các anh về đúng con đường cũ. Tới nơi, cả bọn không dám vào, ngồi ngoài cửa nghe cha mẹ nói chuyện.",
+      "subtitles": [
+        "Cả nhà vào một khu rừng rậm, rậm tới mức cách mười bước đã không thấy nhau.",
+        "Người cha chặt củi, lũ trẻ nhặt cành.",
+        "Thấy con mải làm, cha mẹ lặng lẽ lẩn vào lối nhỏ, bỏ chạy.",
+        "Thấy chỉ còn lại mình, lũ trẻ khóc ầm lên.",
+        "Tí Hon để mặc các anh khóc, vì suốt đường đi nó đã rải những viên sỏi trắng.",
+        "Nó nói: “Các anh đừng sợ. Cha mẹ bỏ ta ở đây, nhưng em sẽ dẫn các anh về. Cứ theo em.”",
+        "Nó dẫn các anh về đúng con đường cũ.",
+        "Tới nơi, cả bọn không dám vào, ngồi ngoài cửa nghe cha mẹ nói chuyện."
+      ],
+      "image": {
+        "character": "ti-hon",
+        "seed": 3421841751,
+        "prompt": "a deep dark forest path dotted with small white pebbles shining in moonlight, the tiny boy leading his six crying brothers home"
+      },
+      "video": {
+        "seed": 2206284990,
+        "motionPrompt": "pebbles gleam one after another, branches sway, the boys walk in a line, tracking shot"
+      },
+      "voice": {}
+    },
+    {
+      "id": "muoi-dong-vang",
+      "title": "Mười đồng vàng",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc hai vợ chồng về tới nhà, ông lãnh chúa trong vùng gửi trả mười đồng vàng nợ họ từ lâu. Người vợ chạy ngay ra hàng thịt, mua gấp ba phần đủ cho hai người ăn. Ăn xong, bà than: “Các con tội nghiệp của tôi giờ ở đâu? Tôi đã bảo rồi sẽ hối hận mà. Biết đâu sói đã ăn thịt chúng rồi.” Bà nhắc tới hai chục lần, tới khi ông chồng phát cáu doạ đánh. Bà khóc to: “Các con tôi ở đâu?” Lũ trẻ ngoài cửa đồng thanh: “Chúng con đây! Chúng con đây!” Bà chạy ra ôm lấy các con, mừng rỡ, nhất là cậu cả Peter, đứa bà thương nhất vì tóc hung hung giống bà. Cả nhà vui vẻ, nhưng chỉ vui chừng nào mười đồng vàng còn.",
+      "subtitles": [
+        "Đúng lúc hai vợ chồng về tới nhà,",
+        "ông lãnh chúa trong vùng gửi trả mười đồng vàng nợ họ từ lâu.",
+        "Người vợ chạy ngay ra hàng thịt, mua gấp ba phần đủ cho hai người ăn.",
+        "Ăn xong, bà than: “Các con tội nghiệp của tôi giờ ở đâu? Tôi đã bảo rồi sẽ hối hận mà.",
+        "Biết đâu sói đã ăn thịt chúng rồi.”",
+        "Bà nhắc tới hai chục lần, tới khi ông chồng phát cáu doạ đánh.",
+        "Bà khóc to: “Các con tôi ở đâu?” Lũ trẻ ngoài cửa đồng thanh: “Chúng con đây!",
+        "Chúng con đây!”",
+        "Bà chạy ra ôm lấy các con, mừng rỡ, nhất là cậu cả Peter,",
+        "đứa bà thương nhất vì tóc hung hung giống bà.",
+        "Cả nhà vui vẻ, nhưng chỉ vui chừng nào mười đồng vàng còn."
+      ],
+      "image": {
+        "character": "ti-hon",
+        "seed": 3964189383,
+        "prompt": "the mother opening the hut door to embrace her seven muddy returning sons, a red-haired eldest boy in her arms, a table with meat and ten gold coins, the father in the background"
+      },
+      "video": {
+        "seed": 770234349,
+        "motionPrompt": "the door swings open, the mother hugs the boys, candlelight warms the room, gentle zoom"
+      },
+      "voice": {}
+    },
+    {
+      "id": "vun-banh",
+      "title": "Vụn bánh mì",
+      "narrator": "ke-chuyen",
+      "narration": "Tiền hết, cha mẹ lại tính bỏ con, lần này mang đi thật xa. Tí Hon lại nghe được, dậy sớm định đi nhặt sỏi, nhưng cửa nhà đã khoá hai lần. Cha phát cho mỗi đứa một mẩu bánh mì ăn sáng. Tí Hon nghĩ có thể dùng bánh thay sỏi, nên bỏ túi, dọc đường bẻ vụn rắc xuống. Cha mẹ dẫn chúng vào chỗ rậm nhất, tối nhất của khu rừng rồi bỏ lại. Tí Hon chẳng lo, nhưng quay lại thì không còn một vụn bánh nào. Chim chóc đã ăn sạch. Đêm xuống, gió nổi dữ dội, chúng tưởng nghe tiếng sói hú khắp nơi. Mưa như trút, ướt sũng, trượt ngã trong bùn, tay tê cóng.",
+      "subtitles": [
+        "Tiền hết, cha mẹ lại tính bỏ con, lần này mang đi thật xa.",
+        "Tí Hon lại nghe được, dậy sớm định đi nhặt sỏi, nhưng cửa nhà đã khoá hai lần.",
+        "Cha phát cho mỗi đứa một mẩu bánh mì ăn sáng.",
+        "Tí Hon nghĩ có thể dùng bánh thay sỏi, nên bỏ túi, dọc đường bẻ vụn rắc xuống.",
+        "Cha mẹ dẫn chúng vào chỗ rậm nhất, tối nhất của khu rừng rồi bỏ lại.",
+        "Tí Hon chẳng lo, nhưng quay lại thì không còn một vụn bánh nào. Chim chóc đã ăn sạch.",
+        "Đêm xuống, gió nổi dữ dội, chúng tưởng nghe tiếng sói hú khắp nơi.",
+        "Mưa như trút, ướt sũng, trượt ngã trong bùn, tay tê cóng."
+      ],
+      "image": {
+        "character": "ti-hon",
+        "seed": 1279199060,
+        "prompt": "birds pecking up breadcrumbs on a forest path in the darkest part of the woods, seven small boys lost under driving rain and wind, mud underfoot"
+      },
+      "video": {
+        "seed": 2887538091,
+        "motionPrompt": "rain lashes, birds flutter off, the boys huddle together, slow push in"
+      },
+      "voice": {}
+    },
+    {
+      "id": "anh-den",
+      "title": "Ánh đèn xa",
+      "narrator": "ke-chuyen",
+      "narration": "Tí Hon trèo lên ngọn cây nhìn khắp bốn phía, thấy xa xa một đốm sáng như ánh nến. Chúng đi mãi về phía ấy, tới một ngôi nhà, gõ cửa. Một người đàn bà hiền hậu ra mở. Thấy lũ trẻ xinh xắn, bà khóc: “Các con tội nghiệp, các con tới đâu thế này? Đây là nhà một lão khổng lồ ăn thịt trẻ con.” Tí Hon run cầm cập, đáp: “Thưa bà, bà không cho chúng con ở, đêm nay sói rừng cũng ăn thịt chúng con. Thà để ông nhà ăn còn hơn, biết đâu ông thương tình, nếu bà xin giúp.” Bà tin có thể giấu chúng tới sáng, nên cho vào sưởi bên lò lửa, nơi cả một con cừu đang quay trên xiên cho bữa tối của chồng.",
+      "subtitles": [
+        "Tí Hon trèo lên ngọn cây nhìn khắp bốn phía, thấy xa xa một đốm sáng như ánh nến.",
+        "Chúng đi mãi về phía ấy, tới một ngôi nhà, gõ cửa. Một người đàn bà hiền hậu ra mở.",
+        "Thấy lũ trẻ xinh xắn, bà khóc: “Các con tội nghiệp, các con tới đâu thế này?",
+        "Đây là nhà một lão khổng lồ ăn thịt trẻ con.”",
+        "Tí Hon run cầm cập, đáp: “Thưa bà, bà không cho chúng con ở,",
+        "đêm nay sói rừng cũng ăn thịt chúng con.",
+        "Thà để ông nhà ăn còn hơn, biết đâu ông thương tình, nếu bà xin giúp.”",
+        "Bà tin có thể giấu chúng tới sáng, nên cho vào sưởi bên lò lửa,",
+        "nơi cả một con cừu đang quay trên xiên cho bữa tối của chồng."
+      ],
+      "image": {
+        "character": "vo-khong-lo",
+        "seed": 3618690518,
+        "prompt": "the tiny boy at the top of a tall tree in a stormy night forest pointing at a faraway candlelit window, then the boys at the door of a gloomy house welcomed by a kind stout woman"
+      },
+      "video": {
+        "seed": 1774290750,
+        "motionPrompt": "wind tosses the treetop, the distant light flickers, the door opens with warm light, slow pan"
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngui-thay",
+      "title": "Ta ngửi thấy thịt tươi",
+      "narrator": "ke-chuyen",
+      "narration": "Vừa ấm người thì có mấy tiếng đập cửa thình thình. Lão khổng lồ về. Bà vội giấu lũ trẻ dưới gầm giường. Lão ngồi vào bàn, con cừu còn sống sượng, lão càng thích. Lão hít hít bên phải bên trái: “Ta ngửi thấy thịt tươi.” Vợ bảo đó là con bê vừa lột da. Lão quát: “Ta ngửi thấy thịt tươi,” rồi đi thẳng tới gầm giường. Lão lôi từng đứa ra: “Mồi ngon đây, vừa kịp đãi ba người bạn khổng lồ sắp tới chơi.” Lũ trẻ quỳ xin tha, nhưng lão là một trong những gã khổng lồ tàn ác nhất đời. Lão cầm con dao lớn, mài trên đá. Vợ lão can: “Sao phải vội? Mai làm cũng được. Nhà còn cả con bê, hai con cừu với nửa con lợn kia mà.” Lão nghe ra, bảo cho chúng ăn no rồi đi ngủ, kẻo gầy.",
+      "subtitles": [
+        "Vừa ấm người thì có mấy tiếng đập cửa thình thình. Lão khổng lồ về.",
+        "Bà vội giấu lũ trẻ dưới gầm giường.",
+        "Lão ngồi vào bàn, con cừu còn sống sượng, lão càng thích.",
+        "Lão hít hít bên phải bên trái: “Ta ngửi thấy thịt tươi.” Vợ bảo đó là con bê vừa lột da.",
+        "Lão quát: “Ta ngửi thấy thịt tươi,” rồi đi thẳng tới gầm giường.",
+        "Lão lôi từng đứa ra: “Mồi ngon đây, vừa kịp đãi ba người bạn khổng lồ sắp tới chơi.”",
+        "Lũ trẻ quỳ xin tha, nhưng lão là một trong những gã khổng lồ tàn ác nhất đời.",
+        "Lão cầm con dao lớn, mài trên đá. Vợ lão can: “Sao phải vội? Mai làm cũng được.",
+        "Nhà còn cả con bê, hai con cừu với nửa con lợn kia mà.”",
+        "Lão nghe ra, bảo cho chúng ăn no rồi đi ngủ, kẻo gầy."
+      ],
+      "image": {
+        "character": "khong-lo",
+        "seed": 3166675358,
+        "prompt": "a huge ogre at a heavy table sniffing the air, dragging small boys out from under a bed, his worried wife holding his arm, a great knife and whetstone on the table"
+      },
+      "video": {
+        "seed": 1861912054,
+        "motionPrompt": "the ogre sniffs, the boys kneel trembling, the wife pleads, slow push in"
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-co-con-gai",
+      "title": "Bảy cô con gái",
+      "narrator": "ke-chuyen",
+      "narration": "Lão khổng lồ có bảy cô con gái nhỏ, má hồng hào vì ăn thịt tươi như cha, nhưng mắt xám tròn, mũi khoằm, răng dài nhọn. Chúng đã từng cắn trẻ con để hút máu. Bảy cô ngủ sớm trên một chiếc giường lớn, mỗi cô đội một chiếc vương miện vàng. Trong cùng phòng có một chiếc giường khác, và bà vợ cho bảy anh em ngủ ở đó. Tí Hon sợ lão đổi ý ngay trong đêm. Nửa đêm, nó dậy, lấy mũ ngủ của mình và các anh, nhẹ nhàng đội cho bảy cô con gái, rồi đội vương miện vàng của chúng lên đầu mình và các anh.",
+      "subtitles": [
+        "Lão khổng lồ có bảy cô con gái nhỏ, má hồng hào vì ăn thịt tươi như cha,",
+        "nhưng mắt xám tròn, mũi khoằm, răng dài nhọn. Chúng đã từng cắn trẻ con để hút máu.",
+        "Bảy cô ngủ sớm trên một chiếc giường lớn, mỗi cô đội một chiếc vương miện vàng.",
+        "Trong cùng phòng có một chiếc giường khác, và bà vợ cho bảy anh em ngủ ở đó.",
+        "Tí Hon sợ lão đổi ý ngay trong đêm.",
+        "Nửa đêm, nó dậy, lấy mũ ngủ của mình và các anh, nhẹ nhàng đội cho bảy cô con gái,",
+        "rồi đội vương miện vàng của chúng lên đầu mình và các anh."
+      ],
+      "image": {
+        "character": "ti-hon",
+        "seed": 2094992084,
+        "prompt": "a dim bedchamber with two big beds, seven sleeping ogre daughters wearing little gold crowns, the tiny boy tiptoeing to swap their crowns for woollen nightcaps"
+      },
+      "video": {
+        "seed": 1732454322,
+        "motionPrompt": "gold crowns glint, the boy moves silently, a candle gutters, slow zoom"
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-dao-trong-dem",
+      "title": "Con dao trong đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng như nó lo, nửa đêm lão khổng lồ tỉnh dậy, tiếc vì đã để tới mai việc làm được ngay. Lão cầm dao lớn, mò lên phòng: “Xem lũ ranh con thế nào, làm luôn một thể.” Lão lần tới giường lũ con trai, sờ đầu từng đứa. Tí Hon sợ chết khiếp khi bàn tay lão lần tới đầu mình. Sờ thấy vương miện vàng, lão lẩm bẩm: “Suýt nữa thì hỏng việc. Tối qua ta uống quá chén rồi.” Lão sang giường kia, sờ thấy mũ ngủ của lũ con trai: “À, lũ nhóc đây rồi.” Chẳng nói thêm lời nào, lão cắt cổ cả bảy đứa con gái mình, rồi hài lòng quay về ngủ. Nghe lão ngáy, Tí Hon đánh thức các anh, bảo mặc quần áo theo mình. Cả bọn lẻn xuống vườn, trèo qua tường, chạy suốt đêm, run rẩy, chẳng biết đi đâu.",
+      "subtitles": [
+        "Đúng như nó lo, nửa đêm lão khổng lồ tỉnh dậy, tiếc vì đã để tới mai việc làm được ngay.",
+        "Lão cầm dao lớn, mò lên phòng: “Xem lũ ranh con thế nào, làm luôn một thể.”",
+        "Lão lần tới giường lũ con trai, sờ đầu từng đứa.",
+        "Tí Hon sợ chết khiếp khi bàn tay lão lần tới đầu mình.",
+        "Sờ thấy vương miện vàng, lão lẩm bẩm: “Suýt nữa thì hỏng việc.",
+        "Tối qua ta uống quá chén rồi.”",
+        "Lão sang giường kia, sờ thấy mũ ngủ của lũ con trai: “À, lũ nhóc đây rồi.”",
+        "Chẳng nói thêm lời nào, lão cắt cổ cả bảy đứa con gái mình, rồi hài lòng quay về ngủ.",
+        "Nghe lão ngáy, Tí Hon đánh thức các anh, bảo mặc quần áo theo mình.",
+        "Cả bọn lẻn xuống vườn, trèo qua tường, chạy suốt đêm, run rẩy, chẳng biết đi đâu."
+      ],
+      "image": {
+        "character": "khong-lo",
+        "seed": 904247696,
+        "prompt": "in deep darkness the ogre groping by the beds with a great knife in hand, the tiny boy lying wide-eyed under a golden crown, then seven boys climbing over a garden wall into the night"
+      },
+      "video": {
+        "seed": 4252517819,
+        "motionPrompt": "shadows loom, the ogre hand hovers, the boys slip over the wall, suspenseful slow pan"
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-bay-dam",
+      "title": "Đôi hài bảy dặm",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng ra, lão bảo vợ lên “sửa soạn” cho lũ nhóc tối qua. Bà ngạc nhiên vì chồng tốt bụng, lên lầu thì thấy bảy đứa con gái nằm chết, và bà ngất lịm. Lão lên theo, cũng bàng hoàng trước cảnh ấy: “Ta đã làm gì thế này? Lũ khốn sẽ phải đền tội ngay!” Lão dội nước cho vợ tỉnh, rồi bảo: “Đưa ngay đôi hài bảy dặm, để ta đi bắt chúng.” Lão sải chân từ núi này sang núi khác, bước qua sông như bước qua rãnh nước, tới đúng con đường lũ trẻ đang đi, chỉ còn cách nhà chúng trăm bước. Tí Hon thấy một hốc đá, giấu các anh vào, rồi chui vào theo. Đôi hài bảy dặm làm người đi rất mệt, nên lão ngồi xuống nghỉ, đúng trên tảng đá ấy, rồi ngủ thiếp, ngáy vang khủng khiếp.",
+      "subtitles": [
+        "Sáng ra, lão bảo vợ lên “sửa soạn” cho lũ nhóc tối qua.",
+        "Bà ngạc nhiên vì chồng tốt bụng, lên lầu thì thấy bảy đứa con gái nằm chết,",
+        "và bà ngất lịm.",
+        "Lão lên theo, cũng bàng hoàng trước cảnh ấy: “Ta đã làm gì thế này?",
+        "Lũ khốn sẽ phải đền tội ngay!”",
+        "Lão dội nước cho vợ tỉnh, rồi bảo: “Đưa ngay đôi hài bảy dặm, để ta đi bắt chúng.”",
+        "Lão sải chân từ núi này sang núi khác, bước qua sông như bước qua rãnh nước,",
+        "tới đúng con đường lũ trẻ đang đi, chỉ còn cách nhà chúng trăm bước.",
+        "Tí Hon thấy một hốc đá, giấu các anh vào, rồi chui vào theo.",
+        "Đôi hài bảy dặm làm người đi rất mệt, nên lão ngồi xuống nghỉ, đúng trên tảng đá ấy,",
+        "rồi ngủ thiếp, ngáy vang khủng khiếp."
+      ],
+      "image": {
+        "character": "khong-lo",
+        "seed": 2164967147,
+        "prompt": "the giant ogre striding across mountains and rivers in enormous seven-league boots, then fast asleep and snoring on a big hollow rock where seven boys hide inside"
+      },
+      "video": {
+        "seed": 2381148866,
+        "motionPrompt": "giant strides cover the land, clouds race, the sleeping ogre breathes heavily, dynamic then slow"
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-nha",
+      "title": "Trở về",
+      "narrator": "ke-chuyen",
+      "narration": "Tí Hon bảo các anh chạy ngay về nhà, đừng lo cho nó. Rồi nó tới bên lão, nhẹ nhàng cởi đôi hài, xỏ vào chân mình. Hài là đồ phép, tự to nhỏ theo chân người đi, nên vừa khít với nó. Nó tới ngay nhà lão, gặp bà vợ đang khóc các con, nói rằng lão bị một toán cướp bắt, doạ giết nếu không nộp hết vàng bạc. Lão sai nó về lấy, cho mượn cả đôi hài để đi cho nhanh, làm bằng chứng. Bà sợ hãi, đưa hết của cải, vì dù ăn thịt trẻ con, lão vẫn là người chồng tốt. Tí Hon mang hết về nhà cha, cả nhà mừng rỡ khôn tả. Có người lại kể khác: Tí Hon không lấy vàng của lão, chỉ lấy đôi hài, rồi vào triều làm người đưa tin cho nhà vua, mang tin ra trận chỉ trong một ngày. Nó giàu lên, về nhà lo cho cha và các anh được yên ổn đủ đầy.",
+      "subtitles": [
+        "Tí Hon bảo các anh chạy ngay về nhà, đừng lo cho nó.",
+        "Rồi nó tới bên lão, nhẹ nhàng cởi đôi hài, xỏ vào chân mình.",
+        "Hài là đồ phép, tự to nhỏ theo chân người đi, nên vừa khít với nó.",
+        "Nó tới ngay nhà lão, gặp bà vợ đang khóc các con, nói rằng lão bị một toán cướp bắt,",
+        "doạ giết nếu không nộp hết vàng bạc.",
+        "Lão sai nó về lấy, cho mượn cả đôi hài để đi cho nhanh, làm bằng chứng.",
+        "Bà sợ hãi, đưa hết của cải, vì dù ăn thịt trẻ con, lão vẫn là người chồng tốt.",
+        "Tí Hon mang hết về nhà cha, cả nhà mừng rỡ khôn tả.",
+        "Có người lại kể khác: Tí Hon không lấy vàng của lão, chỉ lấy đôi hài,",
+        "rồi vào triều làm người đưa tin cho nhà vua, mang tin ra trận chỉ trong một ngày.",
+        "Nó giàu lên, về nhà lo cho cha và các anh được yên ổn đủ đầy."
+      ],
+      "image": {
+        "character": "ti-hon",
+        "seed": 854486482,
+        "prompt": "the tiny boy wearing magical seven-league boots running home across the countryside with a sack of gold, his overjoyed parents and brothers waiting at the woodcutter hut at sunset"
+      },
+      "video": {
+        "seed": 3376731845,
+        "motionPrompt": "the boots carry him in huge strides, the family runs out to greet him, golden light, slow zoom out"
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "French baroque-folk instrumental, recorder, viol and soft percussion, a tense forest theme with a bright clever motif for the little hero, no vocals",
+    "durationSeconds": 180,
+    "seed": 657433553
+  }
+}

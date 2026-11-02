@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-bo-cau-khat-nuoc",
+  "shelf": "kids",
+  "title": "Chú bồ câu khát nước",
+  "summary": "Giữa trưa hè, chú bồ câu khát khô cổ thấy cốc nước mát vẽ trên tấm biển, vội lao tới mà chẳng kịp nhìn kỹ. Ngụ ngôn Aesop kể nhẹ cho bé: vội vàng quá thì dễ hỏng việc.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Thirsty Pigeon» (bản dịch G. F. Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản nào; truyện gốc rất ngắn nên thêm thoại và chi tiết đời thường (trưa hè, chị sẻ khuyên nhủ, phố chợ), kể nhẹ đoạn bồ câu va vào biển và bị người đứng gần bắt lấy; Mèo Miu mở đầu và rút bài học ở cuối.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic children's picture-book illustration, soft watercolor and gouache, sunny old market street with tiled roofs, wooden shop signboards and a stone fountain, bright summer light, rounded friendly shapes, gentle humor, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 1959782910,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bo-cau",
+      "name": "Bồ câu",
+      "seed": 1224440797,
+      "sheetPrompt": "a cute plump grey pigeon with shimmering green and purple neck feathers, orange eyes, small pink feet, eager impatient expression, storybook style, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chi-se",
+      "name": "Chị sẻ",
+      "seed": 2604013929,
+      "sheetPrompt": "a small wise brown sparrow with a calm kind face, tidy feathers, cute storybook style, full body, side view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Trưa hè nóng bức, các bạn có khát nước không? Miu thì khát lắm! Nhưng dù khát đến mấy, mình cũng phải nhìn cho kỹ trước khi uống đấy. Có một chú bồ câu đã quên mất điều ấy. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Trưa hè nóng bức, các bạn có khát nước không? Miu thì khát lắm!",
+        "Nhưng dù khát đến mấy, mình cũng phải nhìn cho kỹ trước khi uống đấy.",
+        "Có một chú bồ câu đã quên mất điều ấy. Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat fans herself with a big green leaf on a hot sunny day, holding a glass of water with a straw, a grey pigeon perched on a rooftop nearby",
+        "seed": 3096983008
+      },
+      "video": {
+        "motionPrompt": "the cat fans herself and sips water, heat shimmers in the air, the pigeon pants on the roof, gentle camera push-in",
+        "seed": 3975014171
+      },
+      "voice": {}
+    },
+    {
+      "id": "trua-he",
+      "title": "Trưa hè nắng gắt",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một mùa hè nắng to lắm. Ao hồ cạn khô, vũng nước nào cũng bốc hơi hết. Chú bồ câu bay suốt từ sáng, khát khô cả cổ, cánh mỏi rã rời. Chú bay qua cánh đồng, qua dòng sông nhỏ, chỗ nào cũng chỉ còn đất nứt nẻ. Chú đậu xuống mái nhà, thở hổn hển: Nước ơi, nước đâu rồi? Ước gì có một ngụm nước mát.",
+      "subtitles": [
+        "Ngày xưa, có một mùa hè nắng to lắm. Ao hồ cạn khô, vũng nước nào cũng bốc hơi hết.",
+        "Chú bồ câu bay suốt từ sáng, khát khô cả cổ, cánh mỏi rã rời.",
+        "Chú bay qua cánh đồng, qua dòng sông nhỏ, chỗ nào cũng chỉ còn đất nứt nẻ.",
+        "Chú đậu xuống mái nhà, thở hổn hển: Nước ơi, nước đâu rồi? Ước gì có một ngụm nước mát."
+      ],
+      "image": {
+        "character": "bo-cau",
+        "prompt": "a thirsty grey pigeon pants on a hot tiled rooftop under a blazing summer sun, a dried-up pond and wilted flowers below, heat shimmering in the air",
+        "seed": 2365442942
+      },
+      "video": {
+        "motionPrompt": "the pigeon opens its beak and pants, heat waves shimmer, a dry leaf blows across the roof, slow camera drift",
+        "seed": 3525607303
+      },
+      "voice": {}
+    },
+    {
+      "id": "thay-coc-nuoc",
+      "title": "Thấy cốc nước mát",
+      "narrator": "ke-chuyen",
+      "narration": "Bỗng chú nhìn xuống phố chợ. Trước một quán nước có tấm biển treo, trên biển vẽ một cốc nước to, trong veo, mát lạnh, như còn đọng cả giọt nước bên ngoài. Bồ câu reo lên: Nước kia rồi! Nước mát kia rồi! Chú chẳng nghĩ ngợi gì nữa, chỉ muốn lao ngay tới đó.",
+      "subtitles": [
+        "Bỗng chú nhìn xuống phố chợ. Trước một quán nước có tấm biển treo,",
+        "trên biển vẽ một cốc nước to, trong veo, mát lạnh, như còn đọng cả giọt nước bên ngoài.",
+        "Bồ câu reo lên: Nước kia rồi! Nước mát kia rồi!",
+        "Chú chẳng nghĩ ngợi gì nữa, chỉ muốn lao ngay tới đó."
+      ],
+      "image": {
+        "character": "bo-cau",
+        "prompt": "the pigeon on the rooftop stares wide-eyed at a wooden shop signboard hanging over a market street, the signboard painted with a big glass of cool blue water with droplets",
+        "seed": 3691982911
+      },
+      "video": {
+        "motionPrompt": "the pigeon's eyes grow wide and sparkle, it fluffs its feathers and crouches ready to fly, the signboard sways slightly on its chains",
+        "seed": 1170674460
+      },
+      "voice": {}
+    },
+    {
+      "id": "chi-se-khuyen",
+      "title": "Chị sẻ khuyên",
+      "narrator": "ke-chuyen",
+      "narration": "Chị sẻ đậu bên cạnh vội can: Khoan đã em ơi! Nhìn kỹ xem, đó chỉ là tranh vẽ thôi. Nước thật thì lấp lánh, gió thổi qua thì gợn sóng cơ. Bồ câu gạt đi: Chị cứ nói, em khát lắm rồi, chậm chân là hết nước mất! Em đi đây!",
+      "subtitles": [
+        "Chị sẻ đậu bên cạnh vội can: Khoan đã em ơi! Nhìn kỹ xem, đó chỉ là tranh vẽ thôi.",
+        "Nước thật thì lấp lánh, gió thổi qua thì gợn sóng cơ.",
+        "Bồ câu gạt đi: Chị cứ nói, em khát lắm rồi, chậm chân là hết nước mất! Em đi đây!"
+      ],
+      "image": {
+        "character": "chi-se",
+        "prompt": "a small wise sparrow flaps her wings to stop the eager pigeon on the rooftop, pointing at the painted signboard below, the pigeon already spreading its wings impatiently",
+        "seed": 853838377
+      },
+      "video": {
+        "motionPrompt": "the sparrow hops and flaps urgently, the pigeon shakes its head and spreads its wings, comic timing",
+        "seed": 97073300
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-vao-bien",
+      "title": "Đâm vào tấm biển",
+      "narrator": "ke-chuyen",
+      "narration": "Bồ câu lao vút xuống, cánh vỗ phần phật thật to. Rồi cốp một tiếng! Chú đâm sầm vào tấm biển gỗ. Cốc nước vẽ chẳng có giọt nào, chỉ có tấm gỗ cứng. Chú choáng váng, đôi cánh đau rã rời, rơi bịch xuống đất, chẳng bay lên nổi. Một bác đứng xem gần đó cúi xuống, nhẹ nhàng nhặt chú lên và mang đi.",
+      "subtitles": [
+        "Bồ câu lao vút xuống, cánh vỗ phần phật thật to. Rồi cốp một tiếng!",
+        "Chú đâm sầm vào tấm biển gỗ. Cốc nước vẽ chẳng có giọt nào, chỉ có tấm gỗ cứng.",
+        "Chú choáng váng, đôi cánh đau rã rời, rơi bịch xuống đất, chẳng bay lên nổi.",
+        "Một bác đứng xem gần đó cúi xuống, nhẹ nhàng nhặt chú lên và mang đi."
+      ],
+      "image": {
+        "character": "bo-cau",
+        "prompt": "a dizzy grey pigeon sits on the cobblestones below the painted signboard with little stars circling its head, cartoon style, a market man bending down to pick it up gently, not frightening",
+        "seed": 1249883230
+      },
+      "video": {
+        "motionPrompt": "little stars circle the pigeon's head, the signboard swings, the man bends down and cups the pigeon in his hands, gentle comic motion",
+        "seed": 3651014228
+      },
+      "voice": {}
+    },
+    {
+      "id": "chi-se-nghi",
+      "title": "Chị sẻ ngẫm nghĩ",
+      "narrator": "ke-chuyen",
+      "narration": "Chị sẻ trên mái nhà nhìn theo, thở dài thương bạn. Đi thêm mấy con phố nữa thôi là có đài phun nước mát rượi, nước thật hẳn hoi. Chị bay xuống đài phun nước, uống từng ngụm nhỏ, rồi tự nhủ: Khát mấy cũng phải nhìn cho kỹ. Vội vàng quá là hỏng việc.",
+      "subtitles": [
+        "Chị sẻ trên mái nhà nhìn theo, thở dài thương bạn.",
+        "Đi thêm mấy con phố nữa thôi là có đài phun nước mát rượi, nước thật hẳn hoi.",
+        "Chị bay xuống đài phun nước, uống từng ngụm nhỏ, rồi tự nhủ:",
+        "Khát mấy cũng phải nhìn cho kỹ. Vội vàng quá là hỏng việc."
+      ],
+      "image": {
+        "character": "chi-se",
+        "prompt": "the small sparrow drinks calmly from a sparkling stone fountain in a quiet town square, real water splashing and glittering in the sunlight",
+        "seed": 1251901558
+      },
+      "video": {
+        "motionPrompt": "water splashes and glitters, the sparrow dips her beak and lifts her head to swallow, droplets shine, slow camera push-in",
+        "seed": 4148149833
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, bồ câu khát quá nên vội vàng, chẳng chịu nghe chị sẻ, lao vào cốc nước vẽ trên tấm biển. Muốn gì đến mấy, mình cũng dừng lại một chút, nhìn cho kỹ, nghĩ cho kỹ rồi hãy làm nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, bồ câu khát quá nên vội vàng, chẳng chịu nghe chị sẻ,",
+        "lao vào cốc nước vẽ trên tấm biển.",
+        "Muốn gì đến mấy, mình cũng dừng lại một chút, nhìn cho kỹ, nghĩ cho kỹ rồi hãy làm nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye beside the sparkling town fountain, the little sparrow perched on the fountain rim, soft afternoon light",
+        "seed": 633608226
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the sparrow chirps and flutters, the fountain sparkles, gentle camera pull-back",
+        "seed": 2246350048
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light cheerful children's tune, mandolin and accordion with a soft flute and gentle percussion, sunny market-town mood, medium tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 413282815
+  }
+}

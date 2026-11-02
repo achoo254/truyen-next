@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "slug": "chim-diec-va-chim-dau-riu",
+  "shelf": "kids",
+  "title": "Chim diệc và chim đầu rìu",
+  "summary": "Hai người chăn bò, một người thả bò nơi cỏ quá tốt, một người thả nơi đồi cát cằn khô, chiều về chẳng ai lùa được đàn bò. Truyện cổ Grimm ngắn kể cho bé vì sao chim diệc kêu «về đi bò ơi» còn chim đầu rìu kêu «dậy, dậy, dậy».",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Grimm số 173 «The Bittern and the Hoopoe» (Kinder- und Hausmärchen, bản 1857; bản dịch Margaret Hunt 1884), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản nào; thêm thoại, chi tiết đời thường của hai người chăn bò và một cậu bé nghe kể; Mèo Miu mở đầu và rút bài học ở cuối.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic German children's picture-book illustration, soft watercolor and ink, rolling green meadows full of flowers and sandy windswept hills, old farmhouses, warm gentle light, rounded friendly shapes, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 2743160163,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-lao",
+      "name": "Ông lão chăn bò",
+      "seed": 844505125,
+      "sheetPrompt": "a kind old German cowherd with a white beard, felt hat, patched brown coat and a wooden staff, warm smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chim-diec",
+      "name": "Chim diệc",
+      "seed": 3494408063,
+      "sheetPrompt": "a shy brown streaked bittern bird standing among reeds with its long beak pointed up, gentle eyes, cute storybook style, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chim-dau-riu",
+      "name": "Chim đầu rìu",
+      "seed": 1934619439,
+      "sheetPrompt": "a colorful hoopoe bird with an orange crest fanned out, black and white striped wings, curved slender beak, cheerful cute storybook style, full body, side view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Buổi chiều ngoài đồng, các bạn có nghe tiếng chim kêu bao giờ không? Có con chim cứ kêu như gọi: Về đi bò ơi! Có con lại kêu: Dậy, dậy, dậy! Ở nước Đức, ông bà kể rằng hai con chim ấy ngày xưa là hai người chăn bò. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Buổi chiều ngoài đồng, các bạn có nghe tiếng chim kêu bao giờ không?",
+        "Có con chim cứ kêu như gọi: Về đi bò ơi! Có con lại kêu: Dậy, dậy, dậy!",
+        "Ở nước Đức, ông bà kể rằng hai con chim ấy ngày xưa là hai người chăn bò.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a wooden fence at the edge of a green meadow at dusk, cupping a paw to her ear, a bittern in the reeds and a hoopoe on a fence post nearby",
+        "seed": 562011868
+      },
+      "video": {
+        "motionPrompt": "the cat leans and listens, the reeds sway, the hoopoe fans its crest, warm evening light, slow camera push-in",
+        "seed": 3019849393
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-lao-ke",
+      "title": "Ông lão kể chuyện",
+      "narrator": "ke-chuyen",
+      "narration": "Có một cậu bé đi qua cánh đồng, thấy ông lão chăn bò đang ngồi nghỉ, bèn hỏi: Ông ơi, ông thích cho bò ăn ở đâu nhất ạ? Ông lão cười: Ở chỗ cỏ không tốt quá mà cũng không xấu quá. Sao lại thế hả ông? Ông lão chỉ ra đầm lau: Cháu có nghe tiếng chim kêu buồn buồn kia không? Đó là chim diệc. Ngày xưa nó là người chăn bò, chim đầu rìu cũng thế. Để ông kể cháu nghe.",
+      "subtitles": [
+        "Có một cậu bé đi qua cánh đồng, thấy ông lão chăn bò đang ngồi nghỉ, bèn hỏi:",
+        "Ông ơi, ông thích cho bò ăn ở đâu nhất ạ?",
+        "Ông lão cười: Ở chỗ cỏ không tốt quá mà cũng không xấu quá.",
+        "Sao lại thế hả ông? Ông lão chỉ ra đầm lau:",
+        "Cháu có nghe tiếng chim kêu buồn buồn kia không?",
+        "Đó là chim diệc. Ngày xưa nó là người chăn bò, chim đầu rìu cũng thế. Để ông kể cháu nghe."
+      ],
+      "image": {
+        "character": "ong-lao",
+        "prompt": "a kind old cowherd sitting on a tree stump with his staff, telling a story to a curious little boy, cows grazing calmly in a meadow behind, reeds by a pond",
+        "seed": 1948265846
+      },
+      "video": {
+        "motionPrompt": "the old man gestures toward the reeds, the boy leans in listening, cows swish their tails, grass waves in the breeze",
+        "seed": 532784396
+      },
+      "voice": {}
+    },
+    {
+      "id": "dong-co-tot",
+      "title": "Đồng cỏ quá tốt",
+      "narrator": "ke-chuyen",
+      "narration": "Người chăn bò thứ nhất chỉ thích đưa bò tới những đồng cỏ xanh mướt, hoa nở đầy. Anh bảo: Bò nhà ta phải được ăn thật no, ăn thỏa thích! Đàn bò ăn suốt ngày, béo tròn, khỏe như voi. Nhưng béo khỏe quá, chúng đâm ra ngang bướng, nhảy nhót, chạy lung tung khắp cánh đồng, chẳng chịu nghe lời ai.",
+      "subtitles": [
+        "Người chăn bò thứ nhất chỉ thích đưa bò tới những đồng cỏ xanh mướt, hoa nở đầy.",
+        "Anh bảo: Bò nhà ta phải được ăn thật no, ăn thỏa thích!",
+        "Đàn bò ăn suốt ngày, béo tròn, khỏe như voi.",
+        "Nhưng béo khỏe quá, chúng đâm ra ngang bướng, nhảy nhót, chạy lung tung khắp cánh đồng,",
+        "chẳng chịu nghe lời ai."
+      ],
+      "image": {
+        "character": "chim-diec",
+        "prompt": "a young cowherd in a lush green meadow full of flowers watches his fat frisky cows leap and run in every direction, comic and lively",
+        "seed": 408591329
+      },
+      "video": {
+        "motionPrompt": "the cows kick up their heels and gallop playfully, flowers bend, the young herdsman throws up his hands, bright cheerful light",
+        "seed": 2790724742
+      },
+      "voice": {}
+    },
+    {
+      "id": "doi-cat",
+      "title": "Đồi cát cằn khô",
+      "narrator": "ke-chuyen",
+      "narration": "Người chăn bò thứ hai thì ngược lại. Anh lùa bò lên những ngọn đồi cao trơ trụi, nơi gió thổi cát bay vèo vèo, chỉ có vài nhúm cỏ khô. Anh nghĩ: Chỗ này vắng vẻ, chẳng ai tranh, đỡ phải đi xa. Đàn bò gặm mãi chẳng no bụng, ngày một gầy nhom, đi đứng lảo đảo, chẳng còn chút sức nào.",
+      "subtitles": [
+        "Người chăn bò thứ hai thì ngược lại. Anh lùa bò lên những ngọn đồi cao trơ trụi,",
+        "nơi gió thổi cát bay vèo vèo, chỉ có vài nhúm cỏ khô.",
+        "Anh nghĩ: Chỗ này vắng vẻ, chẳng ai tranh, đỡ phải đi xa. Đàn bò gặm mãi chẳng no bụng,",
+        "ngày một gầy nhom, đi đứng lảo đảo, chẳng còn chút sức nào."
+      ],
+      "image": {
+        "character": "chim-dau-riu",
+        "prompt": "a second cowherd on a bare sandy windswept hill with a few thin tired cows lying down on the sand, wind blowing sand in little swirls, a gentle sad mood but still soft and cute",
+        "seed": 1134306976
+      },
+      "video": {
+        "motionPrompt": "wind swirls the sand gently, the thin cows blink sleepily, the herdsman shades his eyes against the breeze, slow camera pan",
+        "seed": 545320556
+      },
+      "voice": {}
+    },
+    {
+      "id": "chieu-ve",
+      "title": "Chiều về chẳng lùa được bò",
+      "narrator": "ke-chuyen",
+      "narration": "Chiều xuống, đến giờ lùa bò về chuồng. Đàn bò béo của người thứ nhất tung tăng chạy mất. Anh gọi khản cả giọng: Về đi bò ơi, về đi! Nhưng chẳng con nào thèm nghe. Còn đàn bò gầy của người thứ hai nằm bẹp trên cát. Anh giục: Dậy, dậy, dậy! Nhưng chúng mệt quá, chẳng đứng lên nổi.",
+      "subtitles": [
+        "Chiều xuống, đến giờ lùa bò về chuồng. Đàn bò béo của người thứ nhất tung tăng chạy mất.",
+        "Anh gọi khản cả giọng: Về đi bò ơi, về đi! Nhưng chẳng con nào thèm nghe.",
+        "Còn đàn bò gầy của người thứ hai nằm bẹp trên cát. Anh giục: Dậy, dậy, dậy!",
+        "Nhưng chúng mệt quá, chẳng đứng lên nổi."
+      ],
+      "image": {
+        "character": "chim-diec",
+        "prompt": "at sunset one herdsman calls after his frisky cows running away across the flowery meadow while on the far sandy hill the other herdsman pleads with his weak cows lying on the sand, warm orange sky",
+        "seed": 3600482046
+      },
+      "video": {
+        "motionPrompt": "the frisky cows trot away into the sunset, the first herdsman cups his hands and calls, on the hill the second herdsman tugs gently at a sleepy cow, sky glows orange",
+        "seed": 4264051069
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-chim",
+      "title": "Hai người hóa thành chim",
+      "narrator": "ke-chuyen",
+      "narration": "Ông lão bảo cậu bé: Đấy, chuyện gì quá nhiều hay quá ít cũng chẳng hay. Người ta kể rằng hai người chăn bò ấy về sau hóa thành chim. Giờ chẳng còn đàn bò nào để chăn, mà chiều chiều chim diệc vẫn kêu: Về đi bò ơi! Còn chim đầu rìu vẫn gọi: Dậy, dậy, dậy! Cậu bé ngồi im lắng nghe, rồi bật cười: Đúng là giống thật ông ạ!",
+      "subtitles": [
+        "Ông lão bảo cậu bé: Đấy, chuyện gì quá nhiều hay quá ít cũng chẳng hay.",
+        "Người ta kể rằng hai người chăn bò ấy về sau hóa thành chim.",
+        "Giờ chẳng còn đàn bò nào để chăn,",
+        "mà chiều chiều chim diệc vẫn kêu: Về đi bò ơi! Còn chim đầu rìu vẫn gọi: Dậy, dậy, dậy!",
+        "Cậu bé ngồi im lắng nghe, rồi bật cười: Đúng là giống thật ông ạ!"
+      ],
+      "image": {
+        "character": "chim-dau-riu",
+        "prompt": "a bittern calling from the reeds and a hoopoe calling from a fence post at dusk, the old cowherd and the little boy listen and smile, his calm cows grazing on medium green grass",
+        "seed": 2836627976
+      },
+      "video": {
+        "motionPrompt": "the bittern lifts its beak and calls, the hoopoe fans its crest and bobs its head, the boy laughs, fireflies begin to glow",
+        "seed": 1285940377
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, đàn bò ăn quá nhiều thì ngang bướng, ăn quá ít thì yếu ớt. Mình cũng vậy: ăn vừa đủ, chơi vừa đủ, ngủ vừa đủ thì mới khỏe mạnh, vui vẻ. Lần sau nghe tiếng chim kêu ngoài đồng, các bạn nhớ chuyện hai người chăn bò nhé! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, đàn bò ăn quá nhiều thì ngang bướng, ăn quá ít thì yếu ớt.",
+        "Mình cũng vậy: ăn vừa đủ, chơi vừa đủ, ngủ vừa đủ thì mới khỏe mạnh, vui vẻ.",
+        "Lần sau nghe tiếng chim kêu ngoài đồng, các bạn nhớ chuyện hai người chăn bò nhé!",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye from the meadow fence at twilight, the bittern and the hoopoe perched nearby, calm cows resting, first stars appearing",
+        "seed": 2025811812
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the hoopoe bobs its crest, the cows chew peacefully, stars twinkle, gentle camera pull-back",
+        "seed": 2395380416
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle German folk lullaby for children, accordion and wooden recorder with soft zither, pastoral and warm, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2083818307
+  }
+}

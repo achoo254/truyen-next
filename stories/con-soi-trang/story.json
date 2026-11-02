@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-soi-trang",
+  "shelf": "adults",
+  "title": "Con sói trắng",
+  "summary": "Vì một vòng hoa dại, nhà vua lỡ hứa gả cô công chúa út cho con sói trắng bên đường. Sói hoá ra là một hoàng tử, nhưng khi tấm da sói bị đốt, chàng biến mất, và nàng phải hỏi gió, sao, trăng, mặt trời, leo lên núi thuỷ tinh để giành lại chồng. Truyện cổ châu Âu kể đầy đủ về lời hứa và lòng chung thuỷ.",
+  "themes": [
+    "tinh-yeu",
+    "gia-dinh",
+    "than-thoai"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ tích châu Âu, theo truyện «The White Wolf» trong The Grey Fairy Book do Andrew Lang chủ biên (1900), thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới hoàn toàn, theo sát cốt truyện của bản Lang.",
+  "basedOn": "Truyện cổ châu Âu, Andrew Lang kể lại (1900)",
+  "style": "romantic European fairy tale illustration in the manner of late nineteenth century painted storybooks, deep snowy forests, a stately castle courtyard, a little cottage of the wind, starry skies, the moon and sun personified and a shining glass mountain, palette of frost white, midnight blue, wildflower violet and warm gold, tender and wondrous mood for adult readers, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "cong-chua-ut",
+      "name": "Công chúa út",
+      "sheetPrompt": "the youngest princess, a gentle beautiful young woman with long chestnut hair, soft brown eyes, a simple pale rose gown and a wreath of wild flowers on her head, full body, front view, plain parchment background, character reference sheet",
+      "seed": 3040222523
+    },
+    {
+      "id": "soi-trang",
+      "name": "Con sói trắng",
+      "sheetPrompt": "a large majestic white wolf with thick snow-white fur, intelligent blue human-like eyes, a calm noble bearing, full body, side view, plain parchment background, character reference sheet",
+      "seed": 4064886252
+    },
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "sheetPrompt": "a tall stately young prince with wavy silver-blond hair, clear blue eyes, a white and silver velvet doublet with a cloak of white fur, full body, front view, plain parchment background, character reference sheet",
+      "seed": 143306726
+    }
+  ],
+  "scenes": [
+    {
+      "id": "vong-hoa-dai",
+      "title": "Vòng hoa dại",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một ông vua có ba cô con gái, cô nào cũng đẹp, nhưng cô út đẹp nhất. Một hôm vua phải đi tuần xa, cô út xin cha mang về cho mình một vòng hoa dại. Lúc về, vua muốn mua quà cho cả ba con. Ông vào hiệu kim hoàn mua chuỗi ngọc cho cô cả, vào nhà buôn giàu mua chiếc áo thêu chỉ vàng chỉ bạc cho cô thứ hai, nhưng tìm khắp các hàng hoa, khắp chợ, chẳng đâu có vòng hoa dại cô út mong. Đường về băng qua một khu rừng rậm. Còn cách cung chừng bốn dặm, vua thấy một con sói trắng ngồi bên vệ đường, và lạ thay, trên đầu sói đội một vòng hoa dại.",
+      "subtitles": [
+        "Ngày xưa có một ông vua có ba cô con gái, cô nào cũng đẹp, nhưng cô út đẹp nhất.",
+        "Một hôm vua phải đi tuần xa, cô út xin cha mang về cho mình một vòng hoa dại.",
+        "Lúc về, vua muốn mua quà cho cả ba con.",
+        "Ông vào hiệu kim hoàn mua chuỗi ngọc cho cô cả,",
+        "vào nhà buôn giàu mua chiếc áo thêu chỉ vàng chỉ bạc cho cô thứ hai,",
+        "nhưng tìm khắp các hàng hoa, khắp chợ, chẳng đâu có vòng hoa dại cô út mong.",
+        "Đường về băng qua một khu rừng rậm.",
+        "Còn cách cung chừng bốn dặm, vua thấy một con sói trắng ngồi bên vệ đường, và lạ thay,",
+        "trên đầu sói đội một vòng hoa dại."
+      ],
+      "image": {
+        "prompt": "a deep green forest road, a royal carriage halted, a majestic white wolf sitting calmly at the roadside with a wreath of colourful wild flowers on its head, the king leaning out of the carriage window in surprise",
+        "seed": 1660154635,
+        "character": "soi-trang"
+      },
+      "video": {
+        "motionPrompt": "sunbeams slant through the trees, the white wolf turns its head slowly toward the carriage, petals of the wreath stir in the breeze, slow push-in",
+        "seed": 3519994195
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-hua",
+      "title": "Lời hứa của nhà vua",
+      "narrator": "ke-chuyen",
+      "narration": "Vua bảo người đánh xe xuống lấy vòng hoa trên đầu sói. Sói nghe thấy, cất tiếng: Tâu bệ hạ, tôi sẽ dâng vòng hoa, nhưng phải đổi lấy một thứ. Vua đáp: Ngươi muốn gì? Ta sẵn lòng đổi cho ngươi châu báu. Sói nói: Tôi không cần châu báu, chỉ xin bệ hạ hứa cho tôi thứ đầu tiên bệ hạ gặp trên đường về cung. Ba ngày nữa tôi sẽ đến lấy. Vua nghĩ thầm: Đường về còn xa, thế nào chẳng gặp một con thú hay con chim, hứa cũng chẳng sao. Thế là vua nhận lời, mang vòng hoa đi. Nhưng suốt dọc đường chẳng gặp sinh vật nào, cho đến khi xe vào cổng cung, và người đầu tiên chạy ra đón chính là cô con gái út.",
+      "subtitles": [
+        "Vua bảo người đánh xe xuống lấy vòng hoa trên đầu sói.",
+        "Sói nghe thấy, cất tiếng: Tâu bệ hạ, tôi sẽ dâng vòng hoa, nhưng phải đổi lấy một thứ.",
+        "Vua đáp: Ngươi muốn gì? Ta sẵn lòng đổi cho ngươi châu báu.",
+        "Sói nói: Tôi không cần châu báu,",
+        "chỉ xin bệ hạ hứa cho tôi thứ đầu tiên bệ hạ gặp trên đường về cung.",
+        "Ba ngày nữa tôi sẽ đến lấy.",
+        "Vua nghĩ thầm: Đường về còn xa, thế nào chẳng gặp một con thú hay con chim,",
+        "hứa cũng chẳng sao. Thế là vua nhận lời, mang vòng hoa đi.",
+        "Nhưng suốt dọc đường chẳng gặp sinh vật nào, cho đến khi xe vào cổng cung,",
+        "và người đầu tiên chạy ra đón chính là cô con gái út."
+      ],
+      "image": {
+        "prompt": "a palace gate at dusk, a joyful young princess with chestnut hair running out to greet her father's carriage, the king stepping down holding a wreath of wild flowers, his face suddenly stricken with dread",
+        "seed": 2045922831,
+        "character": "soi-trang"
+      },
+      "video": {
+        "motionPrompt": "the princess runs forward with open arms, the king freezes with the wreath in his hand, a cold wind sweeps through the gate, slow push-in on his face",
+        "seed": 2177479553
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-hau-gia-danh",
+      "title": "Cô hầu giả danh",
+      "narrator": "ke-chuyen",
+      "narration": "Tối ấy vua buồn rầu, kể cho hoàng hậu nghe, bà cũng khóc. Cô út hỏi vì sao cha mẹ khóc, vua đành nói thật: ba ngày nữa con sói trắng sẽ đến bắt con đi, cha mẹ sẽ không bao giờ thấy con nữa. Hoàng hậu nghĩ mãi rồi nảy ra một kế. Trong cung có một cô hầu gái cùng tuổi, cùng vóc dáng với công chúa. Bà mặc cho cô bộ áo đẹp của con gái, định giao cô cho sói. Ngày thứ ba, sói bước vào sân, lên cầu thang lớn, đến phòng vua và hoàng hậu: Tôi đến đòi lời hứa, hãy giao công chúa út cho tôi. Họ dắt cô hầu ra. Sói hất cô lên lưng, chạy đến chỗ đã gặp vua thì dừng lại nghỉ, hỏi: Nếu khu rừng này là của cha cô, ông sẽ làm gì? Cô đáp: Cha tôi nghèo, ông sẽ chặt cây xẻ ván đem bán, nhà tôi sẽ chẳng bao giờ nghèo nữa, lúc nào cũng đủ ăn.",
+      "subtitles": [
+        "Tối ấy vua buồn rầu, kể cho hoàng hậu nghe, bà cũng khóc.",
+        "Cô út hỏi vì sao cha mẹ khóc, vua đành nói thật:",
+        "ba ngày nữa con sói trắng sẽ đến bắt con đi, cha mẹ sẽ không bao giờ thấy con nữa.",
+        "Hoàng hậu nghĩ mãi rồi nảy ra một kế.",
+        "Trong cung có một cô hầu gái cùng tuổi, cùng vóc dáng với công chúa.",
+        "Bà mặc cho cô bộ áo đẹp của con gái, định giao cô cho sói.",
+        "Ngày thứ ba, sói bước vào sân, lên cầu thang lớn, đến phòng vua và hoàng hậu:",
+        "Tôi đến đòi lời hứa, hãy giao công chúa út cho tôi. Họ dắt cô hầu ra.",
+        "Sói hất cô lên lưng, chạy đến chỗ đã gặp vua thì dừng lại nghỉ, hỏi:",
+        "Nếu khu rừng này là của cha cô, ông sẽ làm gì?",
+        "Cô đáp: Cha tôi nghèo, ông sẽ chặt cây xẻ ván đem bán, nhà tôi sẽ chẳng bao giờ nghèo nữa,",
+        "lúc nào cũng đủ ăn."
+      ],
+      "image": {
+        "prompt": "a forest roadside, a white wolf sitting beside a servant girl dressed in a borrowed rich gown that does not quite fit her, the girl gesturing toward the tall trees as she speaks, the wolf watching her with knowing eyes",
+        "seed": 1311674271,
+        "character": "soi-trang"
+      },
+      "video": {
+        "motionPrompt": "the girl points at the trees and mimes sawing planks, the wolf's ears flatten and its eyes narrow, leaves drift down, slow push-in",
+        "seed": 3518282553
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-chua-that",
+      "title": "Công chúa thật",
+      "narrator": "ke-chuyen",
+      "narration": "Sói biết mình không được công chúa thật, bèn hất cô hầu lên lưng mang trả về cung, giận dữ bước vào phòng vua: Giao ngay công chúa thật cho ta. Nếu còn lừa nữa, ta sẽ gọi bão đến làm sập tường cung điện, chôn vùi các người dưới đống đổ nát. Vua và hoàng hậu khóc, nhưng biết không còn đường thoát. Vua gọi con gái út: Con yêu dấu, con phải đi với sói trắng, vì cha đã hứa, cha phải giữ lời. Công chúa sửa soạn lên đường, nhưng trước khi đi, nàng vào phòng lấy vòng hoa dại mang theo. Sói hất nàng lên lưng chạy đi. Đến chỗ cũ, sói dừng nghỉ và hỏi cùng câu hỏi ấy. Nàng đáp: Cha tôi sẽ chặt bớt cây, biến nơi này thành vườn thượng uyển, mùa hè cha cùng triều thần dạo chơi giữa những khoảng rừng thưa. Sói nghĩ thầm: Đây đúng là công chúa thật.",
+      "subtitles": [
+        "Sói biết mình không được công chúa thật, bèn hất cô hầu lên lưng mang trả về cung,",
+        "giận dữ bước vào phòng vua: Giao ngay công chúa thật cho ta.",
+        "Nếu còn lừa nữa, ta sẽ gọi bão đến làm sập tường cung điện,",
+        "chôn vùi các người dưới đống đổ nát.",
+        "Vua và hoàng hậu khóc, nhưng biết không còn đường thoát.",
+        "Vua gọi con gái út: Con yêu dấu, con phải đi với sói trắng, vì cha đã hứa,",
+        "cha phải giữ lời.",
+        "Công chúa sửa soạn lên đường, nhưng trước khi đi,",
+        "nàng vào phòng lấy vòng hoa dại mang theo. Sói hất nàng lên lưng chạy đi.",
+        "Đến chỗ cũ, sói dừng nghỉ và hỏi cùng câu hỏi ấy.",
+        "Nàng đáp: Cha tôi sẽ chặt bớt cây, biến nơi này thành vườn thượng uyển,",
+        "mùa hè cha cùng triều thần dạo chơi giữa những khoảng rừng thưa.",
+        "Sói nghĩ thầm: Đây đúng là công chúa thật."
+      ],
+      "image": {
+        "prompt": "the same forest roadside in soft golden light, the youngest princess holding her wreath of wild flowers and gesturing gracefully at an imagined park of gardens and glades, the white wolf listening with gentle eyes",
+        "seed": 3500071342,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the princess turns the wreath in her hands as she speaks, golden light filters through the leaves, the wolf's tail sweeps slowly and its gaze softens, slow orbit",
+        "seed": 3442669041
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-cua-soi",
+      "title": "Lâu đài của sói",
+      "narrator": "ke-chuyen",
+      "narration": "Sói bảo nàng lên lưng, rồi chạy mãi, chạy mãi qua rừng, đến trước một khoảng sân lộng lẫy có cổng lớn đồ sộ. Cổng mở ra, nàng bước vào, nói: Lâu đài đẹp quá, giá mà ta không ở xa cha mẹ thế này. Sói đáp: Hết một năm, chúng ta sẽ về thăm cha mẹ nàng. Vừa dứt lời, tấm da lông trắng tuột khỏi lưng sói, nàng thấy đó chẳng phải sói mà là một chàng trai đẹp đẽ, cao lớn, oai nghiêm. Chàng đưa tay cho nàng, dắt nàng lên những bậc thang của lâu đài.",
+      "subtitles": [
+        "Sói bảo nàng lên lưng, rồi chạy mãi, chạy mãi qua rừng,",
+        "đến trước một khoảng sân lộng lẫy có cổng lớn đồ sộ.",
+        "Cổng mở ra, nàng bước vào, nói: Lâu đài đẹp quá, giá mà ta không ở xa cha mẹ thế này.",
+        "Sói đáp: Hết một năm, chúng ta sẽ về thăm cha mẹ nàng.",
+        "Vừa dứt lời, tấm da lông trắng tuột khỏi lưng sói,",
+        "nàng thấy đó chẳng phải sói mà là một chàng trai đẹp đẽ, cao lớn, oai nghiêm.",
+        "Chàng đưa tay cho nàng, dắt nàng lên những bậc thang của lâu đài."
+      ],
+      "image": {
+        "prompt": "the grand courtyard of a stately castle with massive gates swinging open, a white wolf skin slipping to the ground like a cloak, revealing a tall handsome prince in white and silver offering his hand to the astonished princess",
+        "seed": 401913777,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the gates swing wide, the white fur slides away and the wolf rises into the form of a prince, he extends his hand and she takes it, they begin to climb the stairs, magical slow motion",
+        "seed": 50082467
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi-chi-ca",
+      "title": "Đám cưới người chị cả",
+      "narrator": "ke-chuyen",
+      "narration": "Nửa năm sau, chàng vào phòng nàng bảo: Nàng yêu, hãy sửa soạn dự đám cưới, chị cả nàng sắp lấy chồng. Ta sẽ đưa nàng về cung cha, xong tiệc ta sẽ đến đón. Ta sẽ huýt sáo ngoài cổng, nghe tiếng là nàng phải ra ngay, đừng nghe cha mẹ nói gì, bỏ cả khiêu vũ yến tiệc mà ra với ta. Nếu ta phải về một mình, nàng sẽ không bao giờ tự tìm được đường qua rừng. Lúc lên đường, chàng đã khoác lại tấm da lông trắng mà hoá sói, chở nàng về cung cha rồi một mình quay về. Tối đến, chàng trở lại, đứng ngoài cổng huýt một tiếng dài thật vang. Đang khiêu vũ, nàng nghe tiếng, lập tức ra với chàng. Sói hất nàng lên lưng, đưa về lâu đài.",
+      "subtitles": [
+        "Nửa năm sau, chàng vào phòng nàng bảo: Nàng yêu, hãy sửa soạn dự đám cưới,",
+        "chị cả nàng sắp lấy chồng.",
+        "Ta sẽ đưa nàng về cung cha, xong tiệc ta sẽ đến đón.",
+        "Ta sẽ huýt sáo ngoài cổng, nghe tiếng là nàng phải ra ngay, đừng nghe cha mẹ nói gì,",
+        "bỏ cả khiêu vũ yến tiệc mà ra với ta.",
+        "Nếu ta phải về một mình, nàng sẽ không bao giờ tự tìm được đường qua rừng.",
+        "Lúc lên đường, chàng đã khoác lại tấm da lông trắng mà hoá sói,",
+        "chở nàng về cung cha rồi một mình quay về.",
+        "Tối đến, chàng trở lại, đứng ngoài cổng huýt một tiếng dài thật vang.",
+        "Đang khiêu vũ, nàng nghe tiếng, lập tức ra với chàng.",
+        "Sói hất nàng lên lưng, đưa về lâu đài."
+      ],
+      "image": {
+        "prompt": "night outside a brightly lit palace where a wedding ball is in full swing behind tall windows, a white wolf standing at the gate with its head raised in a long whistle, the youngest princess hurrying down the steps in her ball gown",
+        "seed": 1600261358,
+        "character": "soi-trang"
+      },
+      "video": {
+        "motionPrompt": "music and dancers swirl behind the glowing windows, the wolf lifts its head and whistles, the princess gathers her skirts and runs down the steps to him, slow tracking shot",
+        "seed": 1494436421
+      },
+      "voice": {}
+    },
+    {
+      "id": "tam-da-bi-dot",
+      "title": "Tấm da bị đốt",
+      "narrator": "ke-chuyen",
+      "narration": "Nửa năm sau nữa, chàng lại vào phòng nàng trong hình sói: Nàng yêu, hãy chuẩn bị dự đám cưới chị thứ hai. Lần này ta cùng đi, ở lại đến sáng mai. Hai người cùng đến dự cưới. Tối ấy, khi chỉ còn hai người trong phòng, chàng cởi tấm da lông, trở lại làm hoàng tử. Họ không biết hoàng hậu đang nấp trong phòng. Thấy tấm da trắng nằm trên sàn, bà rón rén ra ngoài, sai người hầu lấy tấm da đem đốt trong lò bếp. Lửa vừa bén vào tấm da thì một tiếng sấm nổ vang trời, hoàng tử bị một cơn lốc cuốn bay qua cổng cung, trở về lâu đài một mình.",
+      "subtitles": [
+        "Nửa năm sau nữa, chàng lại vào phòng nàng trong hình sói: Nàng yêu,",
+        "hãy chuẩn bị dự đám cưới chị thứ hai. Lần này ta cùng đi, ở lại đến sáng mai.",
+        "Hai người cùng đến dự cưới.",
+        "Tối ấy, khi chỉ còn hai người trong phòng, chàng cởi tấm da lông, trở lại làm hoàng tử.",
+        "Họ không biết hoàng hậu đang nấp trong phòng.",
+        "Thấy tấm da trắng nằm trên sàn, bà rón rén ra ngoài,",
+        "sai người hầu lấy tấm da đem đốt trong lò bếp.",
+        "Lửa vừa bén vào tấm da thì một tiếng sấm nổ vang trời,",
+        "hoàng tử bị một cơn lốc cuốn bay qua cổng cung, trở về lâu đài một mình."
+      ],
+      "image": {
+        "prompt": "a palace kitchen hearth at night, a servant throwing a white wolf skin into the roaring fire, a crack of lightning splitting the sky outside the window, and in the courtyard a whirlwind sweeping a prince away through the gate",
+        "seed": 664059045,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the white fur catches and flares in the hearth, lightning flashes, the whirlwind spins up and carries the prince away through the palace gate, the princess reaches out too late, dramatic fast motion",
+        "seed": 291686796
+      },
+      "voice": {}
+    },
+    {
+      "id": "gio-sao-trang",
+      "title": "Hỏi gió, hỏi sao, hỏi trăng",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa đau đớn, khóc suốt đêm. Sáng ra nàng lên đường tìm lâu đài, nhưng lạc giữa rừng, chẳng còn lối mòn dấu vết nào. Mười bốn ngày lang thang trong rừng, ngủ dưới gốc cây, ăn quả dại rễ cây, cuối cùng nàng tới một căn nhà nhỏ, mở cửa vào thấy gió ngồi một mình. Nàng hỏi: Gió ơi, gió có thấy sói trắng không? Gió đáp: Ngày đêm ta thổi quanh thế giới, vừa mới về, nhưng không thấy. Gió cho nàng đôi giày, mỗi bước đi được trăm dặm. Nàng bước qua trời tới một ngôi sao. Sao bảo cả đêm chiếu sáng mà không thấy, cho nàng đôi giày mỗi bước hai trăm dặm. Nàng bước tới mặt trăng. Trăng bảo cả đêm trôi khắp trời mà không thấy, cho nàng đôi giày mỗi bước bốn trăm dặm.",
+      "subtitles": [
+        "Công chúa đau đớn, khóc suốt đêm.",
+        "Sáng ra nàng lên đường tìm lâu đài, nhưng lạc giữa rừng, chẳng còn lối mòn dấu vết nào.",
+        "Mười bốn ngày lang thang trong rừng, ngủ dưới gốc cây, ăn quả dại rễ cây,",
+        "cuối cùng nàng tới một căn nhà nhỏ, mở cửa vào thấy gió ngồi một mình.",
+        "Nàng hỏi: Gió ơi, gió có thấy sói trắng không?",
+        "Gió đáp: Ngày đêm ta thổi quanh thế giới, vừa mới về, nhưng không thấy.",
+        "Gió cho nàng đôi giày, mỗi bước đi được trăm dặm. Nàng bước qua trời tới một ngôi sao.",
+        "Sao bảo cả đêm chiếu sáng mà không thấy, cho nàng đôi giày mỗi bước hai trăm dặm.",
+        "Nàng bước tới mặt trăng.",
+        "Trăng bảo cả đêm trôi khắp trời mà không thấy, cho nàng đôi giày mỗi bước bốn trăm dặm."
+      ],
+      "image": {
+        "prompt": "a dreamlike night sky, a determined princess in a worn rose gown striding through the air across a path of stars, a little cottage of the wind far below, a glowing star and a gentle crescent moon with kind faces handing her shoes",
+        "seed": 1018138013,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "the princess strides from star to star with long gliding steps, clouds part beneath her, the moon smiles and holds out a pair of silver shoes, slow dreamy tracking shot",
+        "seed": 2151617948
+      },
+      "voice": {}
+    },
+    {
+      "id": "mat-troi",
+      "title": "Mặt trời chỉ đường",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng tới mặt trời: Mặt trời ơi, có thấy sói trắng không? Mặt trời đáp: Có, ta thấy rồi. Chàng đã chọn một cô dâu khác, vì tưởng nàng đã bỏ chàng không bao giờ trở lại, chàng đang sửa soạn đám cưới. Nhưng ta sẽ giúp nàng. Đây là đôi giày đi được trên thuỷ tinh, trên băng, leo được những nơi dốc nhất. Còn đây là chiếc guồng quay sợi biến rêu thành tơ. Rời khỏi đây, nàng sẽ đến một ngọn núi thuỷ tinh. Đi đôi giày ta cho, nàng sẽ leo lên dễ dàng. Trên đỉnh là lâu đài của sói trắng. Nàng lên đường, chẳng bao lâu tới núi thuỷ tinh, và trên đỉnh có lâu đài của sói trắng, đúng như mặt trời nói.",
+      "subtitles": [
+        "Nàng tới mặt trời: Mặt trời ơi, có thấy sói trắng không? Mặt trời đáp: Có, ta thấy rồi.",
+        "Chàng đã chọn một cô dâu khác, vì tưởng nàng đã bỏ chàng không bao giờ trở lại,",
+        "chàng đang sửa soạn đám cưới. Nhưng ta sẽ giúp nàng.",
+        "Đây là đôi giày đi được trên thuỷ tinh, trên băng, leo được những nơi dốc nhất.",
+        "Còn đây là chiếc guồng quay sợi biến rêu thành tơ.",
+        "Rời khỏi đây, nàng sẽ đến một ngọn núi thuỷ tinh.",
+        "Đi đôi giày ta cho, nàng sẽ leo lên dễ dàng. Trên đỉnh là lâu đài của sói trắng.",
+        "Nàng lên đường, chẳng bao lâu tới núi thuỷ tinh, và trên đỉnh có lâu đài của sói trắng,",
+        "đúng như mặt trời nói."
+      ],
+      "image": {
+        "prompt": "a radiant personified sun with a warm golden face giving a pair of shining shoes and a small wooden spinning wheel to the princess, far beyond them a towering mountain of clear glass with a castle on its summit glittering in the light",
+        "seed": 3652081412,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "golden rays pulse gently around the sun's face, the princess receives the gifts and turns toward the distant glass mountain, light flashes off its smooth slopes, slow pull-back",
+        "seed": 3574481122
+      },
+      "voice": {}
+    },
+    {
+      "id": "nui-thuy-tinh",
+      "title": "Chiếc guồng quay rêu thành tơ",
+      "narrator": "ke-chuyen",
+      "narration": "Không ai nhận ra nàng, vì nàng đã cải trang thành một bà già, quấn khăn kín đầu. Cả lâu đài đang tất bật sửa soạn đám cưới vào ngày mai. Nàng lấy guồng ra ngồi quay rêu thành tơ. Cô dâu mới đi qua, thấy rêu hoá tơ thì bảo: Bà cụ ơi, cho tôi chiếc guồng ấy đi. Nàng đáp: Tôi sẽ cho cô, nếu cô cho tôi đêm nay ngủ trên tấm thảm ngoài cửa phòng hoàng tử. Cô dâu bằng lòng. Đêm ấy, quấn kín khăn, nàng nằm trên tấm thảm trước cửa phòng sói trắng. Khi cả lâu đài đã ngủ, nàng bắt đầu kể hết chuyện mình: nàng là út trong ba chị em, đẹp nhất, cha nàng đã hứa gả nàng cho sói trắng, nàng dự cưới chị cả, rồi cùng chồng dự cưới chị thứ, mẹ sai đốt tấm da, nàng lang thang khóc tìm chồng trong rừng, được gió, sao, trăng, mặt trời giúp đỡ mới tìm đến đây. Nghe hết, sói trắng biết đó là người vợ đầu tiên đã vượt bao gian nguy tìm mình.",
+      "subtitles": [
+        "Không ai nhận ra nàng, vì nàng đã cải trang thành một bà già, quấn khăn kín đầu.",
+        "Cả lâu đài đang tất bật sửa soạn đám cưới vào ngày mai.",
+        "Nàng lấy guồng ra ngồi quay rêu thành tơ.",
+        "Cô dâu mới đi qua, thấy rêu hoá tơ thì bảo: Bà cụ ơi, cho tôi chiếc guồng ấy đi.",
+        "Nàng đáp: Tôi sẽ cho cô,",
+        "nếu cô cho tôi đêm nay ngủ trên tấm thảm ngoài cửa phòng hoàng tử. Cô dâu bằng lòng.",
+        "Đêm ấy, quấn kín khăn, nàng nằm trên tấm thảm trước cửa phòng sói trắng.",
+        "Khi cả lâu đài đã ngủ, nàng bắt đầu kể hết chuyện mình: nàng là út trong ba chị em,",
+        "đẹp nhất, cha nàng đã hứa gả nàng cho sói trắng, nàng dự cưới chị cả,",
+        "rồi cùng chồng dự cưới chị thứ, mẹ sai đốt tấm da,",
+        "nàng lang thang khóc tìm chồng trong rừng, được gió, sao, trăng,",
+        "mặt trời giúp đỡ mới tìm đến đây.",
+        "Nghe hết, sói trắng biết đó là người vợ đầu tiên đã vượt bao gian nguy tìm mình."
+      ],
+      "image": {
+        "prompt": "a moonlit castle corridor atop a glass mountain, a figure wrapped in a shawl like an old woman lying on a mat outside a carved door, whispering her story, and on the other side of the door the prince sitting up in bed listening with tears in his eyes",
+        "seed": 3646493764,
+        "character": "cong-chua-ut"
+      },
+      "video": {
+        "motionPrompt": "moonlight glides along the corridor, the shawled figure murmurs softly with her cheek near the door, on the other side the prince rises and lays his hand on the wood, slow push-in",
+        "seed": 218712080
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-chia-khoa-cu",
+      "title": "Chiếc chìa khoá cũ",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng chàng chưa nói gì, đợi đến hôm sau, khi khách khứa, vua chúa các nước xa đã tề tựu đông đủ trong sảnh tiệc. Chàng nói: Xin các vị nghe ta. Ta đánh mất chìa khoá hòm báu, bèn sai làm một chiếc mới, nhưng rồi lại tìm được chiếc cũ. Vậy chiếc nào tốt hơn? Các vua chúa đều đáp: Chắc chắn chiếc chìa cũ tốt hơn chiếc mới. Chàng nói: Nếu vậy, người vợ đầu của ta cũng hơn người vợ mới. Chàng cho gọi cô dâu mới, gả cô cho một hoàng tử có mặt ở đó, rồi quay sang khách: Còn đây là người vợ đầu của ta. Công chúa xinh đẹp được dẫn vào, ngồi cạnh chàng trên ngai. Chàng nói: Ta tưởng nàng đã quên ta, không bao giờ trở lại. Nhưng nàng đã tìm ta khắp nơi, giờ đây chúng ta được ở bên nhau, sẽ không bao giờ xa cách nữa.",
+      "subtitles": [
+        "Nhưng chàng chưa nói gì, đợi đến hôm sau, khi khách khứa,",
+        "vua chúa các nước xa đã tề tựu đông đủ trong sảnh tiệc. Chàng nói: Xin các vị nghe ta.",
+        "Ta đánh mất chìa khoá hòm báu, bèn sai làm một chiếc mới, nhưng rồi lại tìm được chiếc cũ.",
+        "Vậy chiếc nào tốt hơn?",
+        "Các vua chúa đều đáp: Chắc chắn chiếc chìa cũ tốt hơn chiếc mới.",
+        "Chàng nói: Nếu vậy, người vợ đầu của ta cũng hơn người vợ mới.",
+        "Chàng cho gọi cô dâu mới, gả cô cho một hoàng tử có mặt ở đó, rồi quay sang khách:",
+        "Còn đây là người vợ đầu của ta.",
+        "Công chúa xinh đẹp được dẫn vào, ngồi cạnh chàng trên ngai.",
+        "Chàng nói: Ta tưởng nàng đã quên ta, không bao giờ trở lại.",
+        "Nhưng nàng đã tìm ta khắp nơi, giờ đây chúng ta được ở bên nhau,",
+        "sẽ không bao giờ xa cách nữa."
+      ],
+      "image": {
+        "prompt": "a splendid banquet hall in a castle of glass and silver, kings and princes from far lands at long tables, the prince standing beside his throne holding up an old key and a new key, the youngest princess in a rose gown being led in to sit beside him",
+        "seed": 3759773578,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the prince raises the two keys and they glint in the candlelight, the guests nod and murmur, the princess enters and he takes her hand and seats her on the throne beside him, warm slow push-in",
+        "seed": 1597631293
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender romantic European instrumental, harp and solo violin with soft celesta and gentle strings, wintry and longing in the middle, warm and joyful at the end, slow tempo, no vocals",
+    "durationSeconds": 160,
+    "seed": 2530686926
+  }
+}

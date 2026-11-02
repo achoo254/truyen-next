@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "slug": "tho-rung-va-cho-san",
+  "shelf": "kids",
+  "title": "Thỏ rừng và chó săn",
+  "summary": "Bác chó săn đuổi theo thỏ rừng mãi mà không kịp, còn bị bác chăn dê trêu là chạy thua con thỏ bé tí. Câu trả lời của chó săn khiến ai nghe cũng phải gật gù. Ngụ ngôn Aesop kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Hare and the Hound» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản dịch nào. Truyện gốc chỉ vài câu: Mèo Miu dẫn chuyện; thoại, chi tiết đời thường và lời rút ý cuối truyện do người viết thêm. Thêm cảnh thỏ gặm cỏ bên hang, đàn dê kêu be be và chi tiết thỏ về tới hang mới an toàn.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, warm gentle light, rounded friendly shapes, calm and safe mood for young children, green Greek hillside meadow, oak forest edge, little stream, goats grazing, olive trees, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2862899625
+    },
+    {
+      "id": "tho",
+      "name": "Thỏ rừng",
+      "seed": 1355459150,
+      "sheetPrompt": "a slim brown wild hare with long ears and bright alert eyes, cute cartoon style, gentle face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "cho-san",
+      "name": "Chó săn",
+      "seed": 846787581,
+      "sheetPrompt": "a tall lean hunting hound with floppy ears and a long tail, friendly tired face, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bac-chan-de",
+      "name": "Bác chăn dê",
+      "seed": 2458893705,
+      "sheetPrompt": "a cheerful old goat-herd in a simple ancient Greek tunic and straw hat, holding a wooden shepherd crook and a little reed flute, kind smile, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có thích chơi đuổi bắt không? Chạy thật nhanh, thở hổn hển, vui ơi là vui. Nhưng hôm nay Miu kể chuyện một cuộc đuổi bắt chẳng vui chút nào, giữa một bạn thỏ rừng nhỏ bé và một bác chó săn to lớn. Ai chạy nhanh hơn, và vì sao lại thế? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có thích chơi đuổi bắt không?",
+        "Chạy thật nhanh, thở hổn hển, vui ơi là vui.",
+        "Nhưng hôm nay Miu kể chuyện một cuộc đuổi bắt chẳng vui chút nào,",
+        "giữa một bạn thỏ rừng nhỏ bé và một bác chó săn to lớn.",
+        "Ai chạy nhanh hơn, và vì sao lại thế? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat stands on a sunny meadow holding an open picture book, a brown hare peeks from behind a bush and a tall hound sits far away on the hill",
+        "seed": 1095180615
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello and points toward the bush, the hare's ears twitch, grass sways in the breeze, slow gentle camera push-in",
+        "seed": 685770745
+      },
+      "voice": {}
+    },
+    {
+      "id": "hang-tho",
+      "title": "Tiếng sủa bên hang thỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Bên sườn đồi có một bãi cỏ xanh, cạnh đó là cánh rừng sồi rậm rạp. Dưới gốc một bụi cây, thỏ rừng đào cái hang nhỏ ấm áp. Sáng hôm ấy, thỏ đang gặm mấy lá cỏ còn đọng sương thì nghe tiếng sủa vang: Gâu! Gâu! Một bác chó săn chân dài, mũi khụt khịt đánh hơi, đã tìm ra hang thỏ. Thỏ giật thót, vểnh hai tai lên, rồi phóng vụt ra khỏi bụi cây.",
+      "subtitles": [
+        "Bên sườn đồi có một bãi cỏ xanh, cạnh đó là cánh rừng sồi rậm rạp.",
+        "Dưới gốc một bụi cây, thỏ rừng đào cái hang nhỏ ấm áp.",
+        "Sáng hôm ấy, thỏ đang gặm mấy lá cỏ còn đọng sương thì nghe tiếng sủa vang: Gâu!",
+        "Gâu!",
+        "Một bác chó săn chân dài, mũi khụt khịt đánh hơi, đã tìm ra hang thỏ.",
+        "Thỏ giật thót, vểnh hai tai lên, rồi phóng vụt ra khỏi bụi cây."
+      ],
+      "image": {
+        "character": "tho",
+        "prompt": "a little brown hare nibbles dewy clover beside a cosy burrow under a bush at the edge of an oak forest, a tall hound sniffs the ground nearby with his nose down",
+        "seed": 92772436
+      },
+      "video": {
+        "motionPrompt": "the hare lifts its ears in alarm and bolts out of the bush, the hound raises his head and barks, dew sparkles on the grass",
+        "seed": 2823542128
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuoc-chay",
+      "title": "Cuộc chạy trên đồi",
+      "narrator": "ke-chuyen",
+      "narration": "Thế là cuộc chạy bắt đầu. Thỏ lao qua bãi cỏ, nhảy qua con suối nhỏ, luồn vào những bụi cây. Chó săn đuổi theo sát gót, hai tai bay phần phật. Thỏ chạy ngoằn ngoèo, lúc rẽ trái, lúc rẽ phải, chân như không chạm đất. Chạy mãi, chạy mãi, chó săn bắt đầu thở hồng hộc, lưỡi thè ra, bước chân chậm dần. Cuối cùng bác đành dừng lại dưới gốc cây, nằm phịch xuống cỏ.",
+      "subtitles": [
+        "Thế là cuộc chạy bắt đầu.",
+        "Thỏ lao qua bãi cỏ, nhảy qua con suối nhỏ, luồn vào những bụi cây.",
+        "Chó săn đuổi theo sát gót, hai tai bay phần phật.",
+        "Thỏ chạy ngoằn ngoèo, lúc rẽ trái, lúc rẽ phải, chân như không chạm đất.",
+        "Chạy mãi, chạy mãi, chó săn bắt đầu thở hồng hộc, lưỡi thè ra, bước chân chậm dần.",
+        "Cuối cùng bác đành dừng lại dưới gốc cây, nằm phịch xuống cỏ."
+      ],
+      "image": {
+        "character": "cho-san",
+        "prompt": "a hare zigzags across a green hillside meadow and leaps over a little stream, a tall hound runs behind with ears flying, then a tired hound lies down panting under a tree",
+        "seed": 433856926
+      },
+      "video": {
+        "motionPrompt": "the hare darts left and right in quick hops, the hound slows down and flops onto the grass with his tongue out, butterflies scatter, playful timing",
+        "seed": 771389813
+      },
+      "voice": {}
+    },
+    {
+      "id": "bac-chan-de",
+      "title": "Bác chăn dê trêu chó săn",
+      "narrator": "ke-chuyen",
+      "narration": "Gần đó, một bác chăn dê đang ngồi trên tảng đá, thổi sáo trông đàn dê gặm cỏ. Thấy chó săn nằm thở dốc, bác bật cười, gọi to: Ha ha, bác chó ơi, to xác thế mà chạy thua một con thỏ bé tí! Xem ra con thỏ mới là tay chạy giỏi nhất vùng này rồi. Đàn dê cũng kêu be be, nghe như đang cười theo. Chó săn hơi ngượng, nhưng rồi bác ngẩng đầu lên đáp lời.",
+      "subtitles": [
+        "Gần đó, một bác chăn dê đang ngồi trên tảng đá, thổi sáo trông đàn dê gặm cỏ.",
+        "Thấy chó săn nằm thở dốc, bác bật cười, gọi to: Ha ha, bác chó ơi,",
+        "to xác thế mà chạy thua một con thỏ bé tí!",
+        "Xem ra con thỏ mới là tay chạy giỏi nhất vùng này rồi.",
+        "Đàn dê cũng kêu be be, nghe như đang cười theo.",
+        "Chó săn hơi ngượng, nhưng rồi bác ngẩng đầu lên đáp lời."
+      ],
+      "image": {
+        "character": "bac-chan-de",
+        "prompt": "a cheerful old goat-herd sits on a rock playing a reed flute and laughing, his goats graze around him, a tired hound lies on the grass looking a little embarrassed",
+        "seed": 4014056931
+      },
+      "video": {
+        "motionPrompt": "the goat-herd lowers his flute and chuckles, a goat bleats and wags its tail, the hound lifts his head slowly, soft afternoon light",
+        "seed": 2435229716
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-cho-san",
+      "title": "Lời đáp của chó săn",
+      "narrator": "ke-chuyen",
+      "narration": "Chó săn chậm rãi nói: Bác chăn dê ơi, bác chưa thấy chỗ khác nhau giữa tôi và thỏ đâu. Tôi chạy chỉ để kiếm một bữa ăn. Hụt bữa này, chiều về chủ vẫn cho tôi bát cháo nóng. Còn thỏ kia chạy để giữ lấy mạng sống của mình, để còn được về hang. Người chạy vì một bữa ăn sao nhanh bằng người chạy để giữ mạng sống được. Bác chăn dê nghe xong gật gù: Ừ nhỉ, bác nói phải lắm. Lúc ấy, ở tít bìa rừng, thỏ đã về tới một cái hang mới an toàn.",
+      "subtitles": [
+        "Chó săn chậm rãi nói: Bác chăn dê ơi, bác chưa thấy chỗ khác nhau giữa tôi và thỏ đâu.",
+        "Tôi chạy chỉ để kiếm một bữa ăn.",
+        "Hụt bữa này, chiều về chủ vẫn cho tôi bát cháo nóng.",
+        "Còn thỏ kia chạy để giữ lấy mạng sống của mình, để còn được về hang.",
+        "Người chạy vì một bữa ăn sao nhanh bằng người chạy để giữ mạng sống được.",
+        "Bác chăn dê nghe xong gật gù: Ừ nhỉ, bác nói phải lắm.",
+        "Lúc ấy, ở tít bìa rừng, thỏ đã về tới một cái hang mới an toàn."
+      ],
+      "image": {
+        "character": "cho-san",
+        "prompt": "the hound sits up and talks calmly to the goat-herd, who listens and nods, far away at the forest edge a tiny hare slips safely into a new burrow",
+        "seed": 4036094088
+      },
+      "video": {
+        "motionPrompt": "the hound speaks with gentle gestures of his paw, the goat-herd nods slowly, in the distance the hare hops into its burrow, golden evening light",
+        "seed": 4095662931
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, chó săn to khỏe mà vẫn không đuổi kịp thỏ. Vì thỏ chạy cho điều quan trọng nhất của mình, nên thỏ dốc hết sức. Khi mình thật lòng muốn làm một việc gì, mình sẽ cố gắng hơn rất nhiều đấy. Còn Miu à, Miu chạy nhanh nhất khi nghe mẹ gọi về ăn cá thôi! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, chó săn to khỏe mà vẫn không đuổi kịp thỏ.",
+        "Vì thỏ chạy cho điều quan trọng nhất của mình, nên thỏ dốc hết sức.",
+        "Khi mình thật lòng muốn làm một việc gì, mình sẽ cố gắng hơn rất nhiều đấy.",
+        "Còn Miu à, Miu chạy nhanh nhất khi nghe mẹ gọi về ăn cá thôi!",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye on a hilltop at sunset, the hare sits safely by its burrow and the hound rests beside the goat-herd far below",
+        "seed": 504126875
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and smiles, the hare twitches its nose, clouds glow pink, gentle camera pull-back",
+        "seed": 3769765179
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light ancient Greek pastoral melody, reed flute and lyre, playful running rhythm then calm and warm, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2866651950
+  }
+}

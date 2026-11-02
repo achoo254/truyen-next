@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "slug": "bay-tho-va-bay-ech",
+  "shelf": "kids",
+  "title": "Bầy thỏ và bầy ếch",
+  "summary": "Bầy thỏ nhút nhát, lá rơi cũng sợ, gió thổi cũng giật mình, nên rủ nhau bỏ rừng đi thật xa. Ra tới bờ hồ, chúng gặp một bầy ếch còn nhát hơn cả mình. Ngụ ngôn Aesop kể nhẹ nhàng cho trẻ nhỏ về lòng can đảm.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Hares and the Frogs» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản dịch nào. Truyện gốc chỉ vài câu: Mèo Miu dẫn chuyện; thoại, chi tiết đời thường và lời rút ý cuối truyện do người viết thêm. Bản cho trẻ nhỏ: bầy thỏ chỉ định bỏ rừng đi thật xa chứ không định nhảy xuống hồ tự hại như bản gốc; thêm cảnh quả thông rơi, cuộc họp của bầy thỏ và cảnh thỏ quay về rừng.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, warm gentle light, rounded friendly shapes, calm and safe mood for young children, sunny woodland clearing, pine trees, a wide blue lake with reeds and lily pads, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3514437472
+    },
+    {
+      "id": "bay-tho",
+      "name": "Bầy thỏ",
+      "seed": 4186645787,
+      "sheetPrompt": "a group of small fluffy grey and brown rabbits with long ears and nervous wide eyes, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "tho-gia",
+      "name": "Thỏ già",
+      "seed": 2157337243,
+      "sheetPrompt": "a wise old grey rabbit with white whiskers and a little walking stick, kind calm face, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "bay-ech",
+      "name": "Bầy ếch",
+      "seed": 223042224,
+      "sheetPrompt": "a few small round green frogs with big eyes sitting on a lily pad, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Miu kể bí mật này nhé: Miu sợ cái máy hút bụi lắm. Mỗi lần máy kêu ù ù là Miu chui tọt xuống gầm giường. Các bạn có sợ điều gì không? Hôm nay Miu kể chuyện một bầy thỏ sợ đủ thứ trên đời, sợ đến mức muốn bỏ nhà đi thật xa. Rồi chuyện gì xảy ra nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Miu kể bí mật này nhé: Miu sợ cái máy hút bụi lắm.",
+        "Mỗi lần máy kêu ù ù là Miu chui tọt xuống gầm giường.",
+        "Các bạn có sợ điều gì không?",
+        "Hôm nay Miu kể chuyện một bầy thỏ sợ đủ thứ trên đời, sợ đến mức muốn bỏ nhà đi thật xa.",
+        "Rồi chuyện gì xảy ra nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat peeks out shyly from under a bed with an open picture book, a vacuum cleaner stands in the corner of a cosy room",
+        "seed": 1430868112
+      },
+      "video": {
+        "motionPrompt": "the cat peeks out, then giggles and waves hello, the curtain sways softly, slow gentle camera push-in",
+        "seed": 2300237610
+      },
+      "voice": {}
+    },
+    {
+      "id": "rung-tho",
+      "title": "Bầy thỏ nhút nhát",
+      "narrator": "ke-chuyen",
+      "narration": "Trong khu rừng thông có một bầy thỏ đông lắm. Thỏ nào cũng có đôi tai dài và đôi chân nhanh, nhưng thỏ nào cũng nhút nhát. Chiếc lá rơi xào xạc, cả bầy giật mình. Con chim vỗ cánh phành phạch, cả bầy chạy tán loạn. Có hôm một quả thông rơi bộp xuống đất, cả bầy chạy một mạch, mãi đến tối mới dám rón rén quay về.",
+      "subtitles": [
+        "Trong khu rừng thông có một bầy thỏ đông lắm.",
+        "Thỏ nào cũng có đôi tai dài và đôi chân nhanh, nhưng thỏ nào cũng nhút nhát.",
+        "Chiếc lá rơi xào xạc, cả bầy giật mình.",
+        "Con chim vỗ cánh phành phạch, cả bầy chạy tán loạn.",
+        "Có hôm một quả thông rơi bộp xuống đất, cả bầy chạy một mạch,",
+        "mãi đến tối mới dám rón rén quay về."
+      ],
+      "image": {
+        "character": "bay-tho",
+        "prompt": "a clearing in a pine forest where a group of fluffy rabbits scatter in fright as a single pine cone falls to the ground, a bird flaps its wings on a branch",
+        "seed": 345116120
+      },
+      "video": {
+        "motionPrompt": "the pine cone drops and bounces, all the rabbits leap and scatter in every direction, ears flopping, comic timing",
+        "seed": 2995687925
+      },
+      "voice": {}
+    },
+    {
+      "id": "hop-bay",
+      "title": "Cuộc họp của bầy thỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Một tối, cả bầy ngồi họp dưới gốc thông. Một chú thỏ thở dài: Ngày nào cũng sợ, đêm nào cũng run, mệt quá đi mất! Chú thỏ khác nói: Hay là mình bỏ rừng này, đi thật xa, sang tận bên kia hồ, tới chỗ chẳng có gì đáng sợ nữa! Cả bầy gật đầu lia lịa. Sáng hôm sau, chúng rủ nhau lên đường, chạy rầm rập về phía hồ nước lớn.",
+      "subtitles": [
+        "Một tối, cả bầy ngồi họp dưới gốc thông.",
+        "Một chú thỏ thở dài: Ngày nào cũng sợ, đêm nào cũng run, mệt quá đi mất!",
+        "Chú thỏ khác nói: Hay là mình bỏ rừng này, đi thật xa, sang tận bên kia hồ,",
+        "tới chỗ chẳng có gì đáng sợ nữa! Cả bầy gật đầu lia lịa.",
+        "Sáng hôm sau, chúng rủ nhau lên đường, chạy rầm rập về phía hồ nước lớn."
+      ],
+      "image": {
+        "character": "bay-tho",
+        "prompt": "evening under a big pine tree, a circle of rabbits sits close together in a serious meeting, one rabbit points toward a distant lake glowing in the moonlight",
+        "seed": 1361120114
+      },
+      "video": {
+        "motionPrompt": "the rabbits nod their heads together, ears bobbing, one rabbit stands up and points far away, fireflies float, moonlight shimmers",
+        "seed": 3694550934
+      },
+      "voice": {}
+    },
+    {
+      "id": "ra-ho",
+      "title": "Bên bờ hồ",
+      "narrator": "ke-chuyen",
+      "narration": "Trên bờ hồ, một bầy ếch đang ngồi phơi nắng trên đám lá sen. Nghe tiếng chân thỏ rầm rập kéo tới, bầy ếch hoảng hốt. Ếch lớn kêu ộp một tiếng, rồi cả bầy nhảy tõm, tõm, tõm xuống nước, lặn mất tăm. Mặt hồ gợn lên bao nhiêu vòng tròn. Bầy thỏ đứng sững lại, tròn mắt nhìn nhau.",
+      "subtitles": [
+        "Trên bờ hồ, một bầy ếch đang ngồi phơi nắng trên đám lá sen.",
+        "Nghe tiếng chân thỏ rầm rập kéo tới, bầy ếch hoảng hốt.",
+        "Ếch lớn kêu ộp một tiếng, rồi cả bầy nhảy tõm, tõm, tõm xuống nước, lặn mất tăm.",
+        "Mặt hồ gợn lên bao nhiêu vòng tròn.",
+        "Bầy thỏ đứng sững lại, tròn mắt nhìn nhau."
+      ],
+      "image": {
+        "character": "bay-ech",
+        "prompt": "at a sunny lake shore with reeds and lily pads, a group of little frogs leap into the water with splashes as a crowd of rabbits arrives running, the rabbits stop in surprise",
+        "seed": 2241599112
+      },
+      "video": {
+        "motionPrompt": "the frogs jump one after another into the lake, splash rings spread across the water, the rabbits skid to a stop with wide eyes",
+        "seed": 241899186
+      },
+      "voice": {}
+    },
+    {
+      "id": "tho-gia",
+      "title": "Lời thỏ già",
+      "narrator": "ke-chuyen",
+      "narration": "Một bác thỏ già chống gậy bước lên trước, cười hiền: Các cháu ơi, dừng lại đã! Các cháu xem kìa, bầy ếch sợ chúng ta đấy. Hóa ra trên đời còn có những bạn nhát hơn cả mình. Mình đâu phải loài nhút nhát nhất mà phải bỏ nhà đi. Bầy thỏ ngẫm nghĩ một lúc, rồi bật cười khúc khích. Chúng xin lỗi bầy ếch, rồi cùng nhau quay về khu rừng thông thân yêu.",
+      "subtitles": [
+        "Một bác thỏ già chống gậy bước lên trước, cười hiền: Các cháu ơi, dừng lại đã!",
+        "Các cháu xem kìa, bầy ếch sợ chúng ta đấy.",
+        "Hóa ra trên đời còn có những bạn nhát hơn cả mình.",
+        "Mình đâu phải loài nhút nhát nhất mà phải bỏ nhà đi.",
+        "Bầy thỏ ngẫm nghĩ một lúc, rồi bật cười khúc khích.",
+        "Chúng xin lỗi bầy ếch, rồi cùng nhau quay về khu rừng thông thân yêu."
+      ],
+      "image": {
+        "character": "tho-gia",
+        "prompt": "a wise old grey rabbit with a walking stick speaks kindly to the young rabbits by the lake, frogs peek up from the water with curious eyes, the rabbits begin to smile",
+        "seed": 562184914
+      },
+      "video": {
+        "motionPrompt": "the old rabbit raises his stick and smiles, the young rabbits giggle, frogs pop their heads out of the water, the group hops back toward the forest",
+        "seed": 3177791950
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, ai cũng có lúc sợ hãi, bầy thỏ sợ, bầy ếch cũng sợ. Sợ không có gì xấu cả. Nhưng đừng vì sợ mà bỏ chạy mãi, hãy hít một hơi thật sâu và dũng cảm một chút nhé. Từ hôm nay Miu cũng sẽ thử đứng nhìn cái máy hút bụi lâu hơn một tí. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, ai cũng có lúc sợ hãi, bầy thỏ sợ, bầy ếch cũng sợ.",
+        "Sợ không có gì xấu cả.",
+        "Nhưng đừng vì sợ mà bỏ chạy mãi, hãy hít một hơi thật sâu và dũng cảm một chút nhé.",
+        "Từ hôm nay Miu cũng sẽ thử đứng nhìn cái máy hút bụi lâu hơn một tí.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the pine forest clearing, the rabbits play happily around her and a little frog sits on a stone nearby",
+        "seed": 964214344
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the rabbits hop in a happy circle, the frog croaks, pine branches sway, gentle camera pull-back",
+        "seed": 3745968999
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle European woodland melody, pizzicato strings and clarinet, nervous tiptoe beginning then warm and brave, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4024852090
+  }
+}

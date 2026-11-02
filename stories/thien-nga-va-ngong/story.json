@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "slug": "thien-nga-va-ngong",
+  "shelf": "kids",
+  "title": "Thiên nga và ngỗng",
+  "summary": "Trong đêm tối, bác đầu bếp bắt nhầm thiên nga thay cho ngỗng. Thiên nga cất tiếng hát, và chính giọng hát ấy đã cứu thiên nga. Ngụ ngôn Aesop kể nhẹ nhàng cho trẻ nhỏ về món quà riêng mỗi người đều có.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Swan and the Goose» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản dịch nào. Truyện gốc chỉ vài câu: Mèo Miu dẫn chuyện; thoại, chi tiết đời thường và lời rút ý cuối truyện do người viết thêm. Bản cho trẻ nhỏ: ông chủ nuôi ngỗng để đem bán ở chợ phiên chứ không làm thịt như bản gốc; thêm cảnh mua chim ở chợ, ngỗng ham ăn và thiên nga hát bên ao mỗi chiều.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, warm gentle light, rounded friendly shapes, calm and safe mood for young children, ancient Greek country house with a courtyard pond, market stalls, oil lamps, starry night sky, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2009792749
+    },
+    {
+      "id": "thien-nga",
+      "name": "Thiên nga",
+      "seed": 1749127096,
+      "sheetPrompt": "an elegant white swan with a long graceful neck and an orange beak, gentle kind eyes, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ngong",
+      "name": "Ngỗng",
+      "seed": 1269044535,
+      "sheetPrompt": "a plump grey and white farm goose with an orange beak, cheerful greedy smile, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-chu",
+      "name": "Ông chủ",
+      "seed": 1476920373,
+      "sheetPrompt": "a kind wealthy old man in an ancient Greek robe with a neat grey beard, gentle smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "dau-bep",
+      "name": "Bác đầu bếp",
+      "seed": 2401170812,
+      "sheetPrompt": "a round friendly cook in a simple ancient Greek tunic and apron, rosy cheeks, a little clumsy, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có biết không, mỗi người đều có một món quà riêng. Có bạn vẽ đẹp, có bạn chạy nhanh, có bạn hát hay. Như Miu đây, Miu kêu meo meo là cả nhà nhận ra Miu ngay. Hôm nay Miu kể chuyện một bạn thiên nga nhờ giọng hát của mình mà thoát nạn trong đêm tối. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Các bạn có biết không, mỗi người đều có một món quà riêng.",
+        "Có bạn vẽ đẹp, có bạn chạy nhanh, có bạn hát hay.",
+        "Như Miu đây, Miu kêu meo meo là cả nhà nhận ra Miu ngay.",
+        "Hôm nay Miu kể chuyện một bạn thiên nga nhờ giọng hát của mình mà thoát nạn trong đêm tối.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits by a calm pond at dusk holding an open picture book, a white swan glides on the water behind her",
+        "seed": 1193600927
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello, the swan bows its long neck, ripples spread across the pond, slow gentle camera push-in",
+        "seed": 1595546053
+      },
+      "voice": {}
+    },
+    {
+      "id": "cho-phien",
+      "title": "Ở chợ phiên",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một ông nhà giàu đi chợ phiên. Chợ đông vui lắm, nào hoa quả, nào vải vóc, nào gà vịt kêu inh ỏi. Ông dừng lại trước một cái lồng, mua một con ngỗng béo và một con thiên nga trắng muốt. Người bán hỏi: Ông mua hai con chim làm gì thế? Ông cười: Con ngỗng thì tôi nuôi cho béo rồi đem bán ở phiên chợ sau. Còn con thiên nga thì tôi giữ lại để nghe nó hát.",
+      "subtitles": [
+        "Ngày xưa có một ông nhà giàu đi chợ phiên.",
+        "Chợ đông vui lắm, nào hoa quả, nào vải vóc, nào gà vịt kêu inh ỏi.",
+        "Ông dừng lại trước một cái lồng, mua một con ngỗng béo và một con thiên nga trắng muốt.",
+        "Người bán hỏi: Ông mua hai con chim làm gì thế?",
+        "Ông cười: Con ngỗng thì tôi nuôi cho béo rồi đem bán ở phiên chợ sau.",
+        "Còn con thiên nga thì tôi giữ lại để nghe nó hát."
+      ],
+      "image": {
+        "character": "ong-chu",
+        "prompt": "a busy ancient Greek market with fruit and cloth stalls, a kind old man points at a wooden cage holding a plump goose and a white swan, a smiling seller beside it",
+        "seed": 3692358545
+      },
+      "video": {
+        "motionPrompt": "market people bustle by, the goose flaps and honks, the swan lifts its neck gracefully, the old man smiles and hands over coins",
+        "seed": 444312751
+      },
+      "voice": {}
+    },
+    {
+      "id": "ben-ao",
+      "title": "Những buổi chiều bên ao",
+      "narrator": "ke-chuyen",
+      "narration": "Về nhà, hai con chim sống chung trong cái sân có ao nước nhỏ. Ngỗng suốt ngày cạp cạp, ăn hết máng thóc này đến máng rau khác, bụng tròn vo. Còn thiên nga thì bơi nhẹ nhàng trên mặt ao. Chiều nào cũng vậy, khi mặt trời xuống thấp, thiên nga lại cất tiếng hát, trong veo như tiếng suối. Ông chủ ngồi bên hiên, nhắm mắt nghe, vui lắm.",
+      "subtitles": [
+        "Về nhà, hai con chim sống chung trong cái sân có ao nước nhỏ.",
+        "Ngỗng suốt ngày cạp cạp, ăn hết máng thóc này đến máng rau khác, bụng tròn vo.",
+        "Còn thiên nga thì bơi nhẹ nhàng trên mặt ao.",
+        "Chiều nào cũng vậy, khi mặt trời xuống thấp, thiên nga lại cất tiếng hát,",
+        "trong veo như tiếng suối.",
+        "Ông chủ ngồi bên hiên, nhắm mắt nghe, vui lắm."
+      ],
+      "image": {
+        "character": "thien-nga",
+        "prompt": "a courtyard pond at sunset, a white swan sings gracefully on the water, a plump goose eats happily from a trough of grain, the old man listens on a porch with his eyes closed",
+        "seed": 1002828061
+      },
+      "video": {
+        "motionPrompt": "the swan opens its beak and sings softly, the goose gobbles grain and waddles, golden light shimmers on the water",
+        "seed": 2017626338
+      },
+      "voice": {}
+    },
+    {
+      "id": "dem-toi",
+      "title": "Bắt nhầm trong đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Đến hôm phiên chợ mới, ông chủ dặn bác đầu bếp: Gà gáy thì bác bắt con ngỗng cho vào lồng, sáng sớm ta mang ra chợ. Trời còn tối om, bác đầu bếp quên mang đèn, cứ thế dò dẫm ra sân. Bác lần tay theo bờ ao, sờ thấy một con chim to, lông mềm. Bác chộp lấy ngay, lẩm bẩm: Đây rồi, con ngỗng đây rồi! Nhưng bác đâu biết, mình đã bắt nhầm thiên nga.",
+      "subtitles": [
+        "Đến hôm phiên chợ mới, ông chủ dặn bác đầu bếp: Gà gáy thì bác bắt con ngỗng cho vào lồng,",
+        "sáng sớm ta mang ra chợ.",
+        "Trời còn tối om, bác đầu bếp quên mang đèn, cứ thế dò dẫm ra sân.",
+        "Bác lần tay theo bờ ao, sờ thấy một con chim to, lông mềm.",
+        "Bác chộp lấy ngay, lẩm bẩm: Đây rồi, con ngỗng đây rồi!",
+        "Nhưng bác đâu biết, mình đã bắt nhầm thiên nga."
+      ],
+      "image": {
+        "character": "dau-bep",
+        "prompt": "a dark starry night in a courtyard, a round clumsy cook gropes by the pond without a lamp and gently lifts a white swan, the goose sleeps nearby with its head under its wing",
+        "seed": 4229273273
+      },
+      "video": {
+        "motionPrompt": "the cook tiptoes and feels around in the dark, he picks up the surprised swan, stars twinkle above, a cricket hops away",
+        "seed": 514959099
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-hat",
+      "title": "Tiếng hát trong đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Thiên nga sợ quá, không biết bác định mang mình đi đâu. Thế là thiên nga cất tiếng hát, giọng hát run run mà vẫn trong vắt giữa đêm khuya. Bác đầu bếp giật mình: Ơ, ngỗng đâu có biết hát! Đây là thiên nga rồi! Bác vội đặt thiên nga xuống ao, xin lỗi rối rít, rồi đi thắp đèn để bắt đúng con ngỗng. Trong nhà, ông chủ nghe tiếng hát, mỉm cười: Giọng hát ấy đã tự cứu nó đấy.",
+      "subtitles": [
+        "Thiên nga sợ quá, không biết bác định mang mình đi đâu.",
+        "Thế là thiên nga cất tiếng hát, giọng hát run run mà vẫn trong vắt giữa đêm khuya.",
+        "Bác đầu bếp giật mình: Ơ, ngỗng đâu có biết hát!",
+        "Đây là thiên nga rồi!",
+        "Bác vội đặt thiên nga xuống ao, xin lỗi rối rít, rồi đi thắp đèn để bắt đúng con ngỗng.",
+        "Trong nhà, ông chủ nghe tiếng hát, mỉm cười: Giọng hát ấy đã tự cứu nó đấy."
+      ],
+      "image": {
+        "character": "thien-nga",
+        "prompt": "by lamplight in the night courtyard, the white swan sings with its neck raised, the surprised cook gently sets it back on the pond, the old man smiles from a lit window",
+        "seed": 1016470468
+      },
+      "video": {
+        "motionPrompt": "the swan sings and the cook jumps in surprise, he carefully lowers the swan onto the water and bows in apology, a warm lamp glows in the window",
+        "seed": 2101481209
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, giữa đêm tối chẳng ai nhìn thấy gì, thế mà giọng hát đã giúp mọi người nhận ra thiên nga. Mỗi bạn nhỏ cũng có một điều hay của riêng mình. Hãy giữ gìn và chăm chút cho món quà ấy, vì có ngày nó sẽ giúp mình đấy. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, giữa đêm tối chẳng ai nhìn thấy gì,",
+        "thế mà giọng hát đã giúp mọi người nhận ra thiên nga.",
+        "Mỗi bạn nhỏ cũng có một điều hay của riêng mình.",
+        "Hãy giữ gìn và chăm chút cho món quà ấy, vì có ngày nó sẽ giúp mình đấy.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye beside the moonlit pond, the white swan floats peacefully and the goose naps in the grass",
+        "seed": 93369700
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the swan glides in a gentle circle, fireflies glow, gentle camera pull-back",
+        "seed": 1315176781
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle classical lullaby, harp and soft flute like a swan song, calm night mood with a tender rising melody, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1333928005
+  }
+}

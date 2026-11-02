@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "slug": "anh-giau-em-ngheo",
+  "shelf": "world",
+  "title": "Anh giàu, em nghèo",
+  "summary": "Người anh bị cha từ vì cưới cô gái nghèo, rồi lại bị chính em ruột kiện đòi mấy căn nhà dở dang. Trên đường tới tòa án Evora, xui xẻo nối tiếp xui xẻo, nhưng ông quan tòa khôn ngoan đã xử một cách không ai ngờ. Truyện dân gian Bồ Đào Nha trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện “The Rich Brother and the Poor Brother” trong The Lilac Fairy Book do Andrew Lang biên tập (1910; Lang ghi phỏng theo truyện Bồ Đào Nha), Project Gutenberg #3454, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ đoạn trên mặt thành (người anh trượt chân ngã, cụ già bị thương thay vì qua đời), không chép bản dịch nào.",
+  "basedOn": "Andrew Lang, The Lilac Fairy Book (1910)",
+  "style": "classic Portuguese folk tale picture book illustration, sunny vineyards and whitewashed farmhouses with terracotta roofs, hilly muddy roads, the old walled city of Evora with stone battlements and a cathedral steeple, azulejo blue tile details, warm colors of terracotta, olive green, cobalt blue and cream, gentle humorous storybook mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "nguoi-anh",
+      "name": "Người anh nghèo",
+      "sheetPrompt": "a kind honest poor man from an old Portuguese folk tale, about thirty, worn brown jacket and patched trousers, simple cap, tired but gentle face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2453991544
+    },
+    {
+      "id": "nguoi-em",
+      "name": "Người em giàu",
+      "sheetPrompt": "a well dressed weak willed rich man from an old Portuguese folk tale, about twenty eight, fine dark riding coat and wide brimmed hat, uneasy expression, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3876091994
+    },
+    {
+      "id": "quan-toa",
+      "name": "Ông quan tòa",
+      "sheetPrompt": "a wise calm old judge from an old Portuguese folk tale, black robe and white collar, grey beard, small spectacles, a faint clever smile, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2209801211
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dam-cuoi-giau-cha",
+      "title": "Đám cưới giấu cha",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở Bồ Đào Nha có một ông già giàu có, suốt ngày chỉ lo đếm vàng trong rương sắt. Người con cả ở nhà giúp cha chăm chỉ làm lụng. Một hôm, ông lên phố chợ, bà chủ quán trọ tò mò hỏi: “Ông thấy cô con dâu mới thế nào?” Ông ngẩn người. Bà kể rằng con trai ông đã lặng lẽ cưới cô con gái nghèo của bác giữ vườn nho, cô gái xinh đẹp nhất vùng. Ông về nhà, giận run người: “Mày đã lừa tao! Cút đi, tao không còn đứa con này nữa!” Người con cả buồn bã ra đi. Anh biết mình sai vì đã giấu cha, cứ định nói mà lần lữa mãi.",
+      "subtitles": [
+        "Ngày xưa, ở Bồ Đào Nha có một ông già giàu có, suốt ngày chỉ lo đếm vàng trong rương sắt.",
+        "Người con cả ở nhà giúp cha chăm chỉ làm lụng.",
+        "Một hôm, ông lên phố chợ, bà chủ quán trọ tò mò hỏi: “Ông thấy cô con dâu mới thế nào?”",
+        "Ông ngẩn người.",
+        "Bà kể rằng con trai ông đã lặng lẽ cưới cô con gái nghèo của bác giữ vườn nho,",
+        "cô gái xinh đẹp nhất vùng.",
+        "Ông về nhà, giận run người: “Mày đã lừa tao!",
+        "Cút đi, tao không còn đứa con này nữa!” Người con cả buồn bã ra đi.",
+        "Anh biết mình sai vì đã giấu cha, cứ định nói mà lần lữa mãi."
+      ],
+      "image": {
+        "prompt": "in front of a whitewashed Portuguese farmhouse among vineyards, an angry old man in a dark coat pointing away down the road, his sad elder son turning to leave with his head bowed",
+        "seed": 2252721440,
+        "character": "nguoi-anh"
+      },
+      "video": {
+        "motionPrompt": "the old man shakes his finger, the son walks slowly away, vine leaves tremble in the wind",
+        "seed": 361272431
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhung-can-nha-do-dang",
+      "title": "Những căn nhà dở dang",
+      "narrator": "ke-chuyen",
+      "narration": "Ông già gọi người con út trên thành phố về, cho thừa hưởng hết ruộng vườn tiền bạc. Mấy năm mùa màng kém, ông cho dừng xây mấy căn nhà lớn trên phố. Đến lúc qua đời, ông vẫn không chịu nhìn mặt con cả. Người anh ngày càng nghèo. Thấy các con gầy đi, anh nén lòng vượt núi tìm em: “Em ơi, anh không xin tiền. Em cho anh mấy căn nhà dở dang trên phố. Anh sẽ sửa cho kín mưa để vợ con có chỗ ở.” Người em thương tình, làm giấy cho anh mấy căn nhà.",
+      "subtitles": [
+        "Ông già gọi người con út trên thành phố về, cho thừa hưởng hết ruộng vườn tiền bạc.",
+        "Mấy năm mùa màng kém, ông cho dừng xây mấy căn nhà lớn trên phố.",
+        "Đến lúc qua đời, ông vẫn không chịu nhìn mặt con cả.",
+        "Người anh ngày càng nghèo.",
+        "Thấy các con gầy đi, anh nén lòng vượt núi tìm em: “Em ơi, anh không xin tiền.",
+        "Em cho anh mấy căn nhà dở dang trên phố.",
+        "Anh sẽ sửa cho kín mưa để vợ con có chỗ ở.” Người em thương tình,",
+        "làm giấy cho anh mấy căn nhà."
+      ],
+      "image": {
+        "prompt": "two brothers meeting in a farmhouse courtyard, the poor elder brother in worn clothes humbly asking, the younger brother in fine clothes signing a paper on a wooden table",
+        "seed": 92011852,
+        "character": "nguoi-anh"
+      },
+      "video": {
+        "motionPrompt": "the younger brother dips his quill and signs, the elder brother wipes a tear and smiles with relief",
+        "seed": 686920716
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-vo-tham-lam",
+      "title": "Cô vợ tham lam",
+      "narrator": "ke-chuyen",
+      "narration": "Vài năm sau, người em cưới một cô vợ giàu mà tham, có gì cũng muốn thêm, thấy của ai cũng thèm. Một lần lên phố, cô ghé thăm chị dâu. Mấy căn nhà có cột đá chạm trổ, cầu thang cẩm thạch, chỉ là còn dở dang, nước rỉ trên tường. Cô nghĩ bụng sửa sang lại thì đẹp như cung vua. Về nhà, cô khóc lóc ầm ĩ, bắt chồng đòi lại nhà. Người em yếu lòng, đành kiện anh ra tòa. Quan tòa xử người anh thắng. Cô vợ không chịu, kiện lên tòa trên, rồi tòa trên nữa, cho tới tòa cao nhất ở thành Evora.",
+      "subtitles": [
+        "Vài năm sau, người em cưới một cô vợ giàu mà tham, có gì cũng muốn thêm,",
+        "thấy của ai cũng thèm. Một lần lên phố, cô ghé thăm chị dâu.",
+        "Mấy căn nhà có cột đá chạm trổ, cầu thang cẩm thạch, chỉ là còn dở dang,",
+        "nước rỉ trên tường.",
+        "Cô nghĩ bụng sửa sang lại thì đẹp như cung vua.",
+        "Về nhà, cô khóc lóc ầm ĩ, bắt chồng đòi lại nhà.",
+        "Người em yếu lòng, đành kiện anh ra tòa.",
+        "Quan tòa xử người anh thắng.",
+        "Cô vợ không chịu, kiện lên tòa trên, rồi tòa trên nữa, cho tới tòa cao nhất ở thành Evora."
+      ],
+      "image": {
+        "prompt": "a greedy young wife in an elegant dress and lace mantilla admiring an unfinished grand house with carved stone pillars and a marble staircase, rain stains on the walls, her sister in law sewing children's clothes inside",
+        "seed": 1241794302,
+        "character": "nguoi-em"
+      },
+      "video": {
+        "motionPrompt": "the wife's eyes widen as she looks up at the pillars, rainwater trickles down the wall, the sister in law keeps sewing",
+        "seed": 549986814
+      },
+      "voice": {}
+    },
+    {
+      "id": "cu-hanh-tay",
+      "title": "Củ hành tây",
+      "narrator": "ke-chuyen",
+      "narration": "Hai anh em cùng lên đường tới Evora. Em cưỡi ngựa, túi đầy đồ ăn; anh đi bộ, chỉ có mẩu bánh mì và bốn củ hành. Tối đến, họ xin nghỉ nhờ nhà một bác nông dân. Hôm ấy là sinh nhật vợ bác. Bà vợ chẳng thiết ăn gì, chỉ đòi một củ hành người anh đang nướng bên bếp. Anh vui vẻ đưa cho bà. Nửa đêm, bà kêu rên: “Ối, đau bụng quá! Tại củ hành, chắc nó có thuốc độc!” Bác nông dân vớ gậy lao xuống định đánh người anh. Người em giật lấy gậy: “Chúng tôi đang tới Evora hầu tòa. Bác cứ tới đó mà kiện anh ấy.” Bác bèn dắt ngựa đi theo.",
+      "subtitles": [
+        "Hai anh em cùng lên đường tới Evora.",
+        "Em cưỡi ngựa, túi đầy đồ ăn; anh đi bộ, chỉ có mẩu bánh mì và bốn củ hành.",
+        "Tối đến, họ xin nghỉ nhờ nhà một bác nông dân.",
+        "Hôm ấy là sinh nhật vợ bác.",
+        "Bà vợ chẳng thiết ăn gì, chỉ đòi một củ hành người anh đang nướng bên bếp.",
+        "Anh vui vẻ đưa cho bà.",
+        "Nửa đêm, bà kêu rên: “Ối, đau bụng quá!",
+        "Tại củ hành, chắc nó có thuốc độc!” Bác nông dân vớ gậy lao xuống định đánh người anh.",
+        "Người em giật lấy gậy: “Chúng tôi đang tới Evora hầu tòa.",
+        "Bác cứ tới đó mà kiện anh ấy.” Bác bèn dắt ngựa đi theo."
+      ],
+      "image": {
+        "prompt": "a rustic farmhouse kitchen at night, a farmer in a nightshirt waving a stick, the poor man startled awake in a corner by the hearth, the rich brother stepping in between them holding up his hand",
+        "seed": 2243978297,
+        "character": "nguoi-anh"
+      },
+      "video": {
+        "motionPrompt": "the lantern swings, the farmer raises the stick, the younger brother grabs it and stops him",
+        "seed": 2305939717
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-duoi-con-la",
+      "title": "Cái đuôi con la",
+      "narrator": "ke-chuyen",
+      "narration": "Mưa suốt đêm, đường lầy lội. Một con la chở hàng bị sa lầy, người chủ kêu cứu. Hai người cưỡi ngựa đi vòng qua, chẳng thèm ngoái lại. Người anh tới sau, lấm bùn từ đầu tới chân, vẫn xắn tay giúp. Anh kê gỗ lên bùn, bước ra nắm lấy đuôi con la mà kéo. Con la vùng lên được chỗ khô, nhưng cái đuôi đứt luôn trong tay anh. Người chủ la quên cả ơn cứu giúp, chửi bới om sòm: “Anh làm hỏng con la của tôi! Tôi sẽ kiện anh ra tòa!” Rồi gã nhảy lên lưng la, phi thẳng tới Evora.",
+      "subtitles": [
+        "Mưa suốt đêm, đường lầy lội.",
+        "Một con la chở hàng bị sa lầy, người chủ kêu cứu.",
+        "Hai người cưỡi ngựa đi vòng qua, chẳng thèm ngoái lại.",
+        "Người anh tới sau, lấm bùn từ đầu tới chân, vẫn xắn tay giúp.",
+        "Anh kê gỗ lên bùn, bước ra nắm lấy đuôi con la mà kéo.",
+        "Con la vùng lên được chỗ khô, nhưng cái đuôi đứt luôn trong tay anh.",
+        "Người chủ la quên cả ơn cứu giúp, chửi bới om sòm: “Anh làm hỏng con la của tôi!",
+        "Tôi sẽ kiện anh ra tòa!” Rồi gã nhảy lên lưng la, phi thẳng tới Evora."
+      ],
+      "image": {
+        "prompt": "on a muddy hillside road in the rain, the poor man covered in mud holding a mule's tail in his hand, a mule scrambling onto dry ground, its angry owner shaking his fist",
+        "seed": 1552643661,
+        "character": "nguoi-anh"
+      },
+      "video": {
+        "motionPrompt": "the mule lurches out of the mud, rain falls steadily, the owner shakes his fist and climbs onto the mule",
+        "seed": 207413609
+      },
+      "voice": {}
+    },
+    {
+      "id": "tren-mat-thanh",
+      "title": "Trên mặt thành",
+      "narrator": "ke-chuyen",
+      "narration": "Người anh lê bước tới Evora, buồn bã nghĩ: “Thế nào mình cũng thua cả mấy vụ kiện.” Sáng hôm sau, trời quang, anh trèo lên mặt thành ngắm mặt trời mọc, lòng nặng trĩu. Đói lả, chóng mặt, anh trượt chân ngã nhào xuống. Thật không may, dưới chân thành có một cụ già ốm yếu được con cháu khiêng ra nằm sưởi nắng. Anh rơi trúng người cụ. Anh chẳng sao, nhưng cụ già bị đau nặng. Hai người con trai của cụ túm lấy anh: “Anh đã làm cha chúng tôi bị thương! Đi ngay tới quan tòa!” Thế là anh có thêm vụ kiện thứ tư.",
+      "subtitles": [
+        "Người anh lê bước tới Evora, buồn bã nghĩ: “Thế nào mình cũng thua cả mấy vụ kiện.” Sáng",
+        "hôm sau, trời quang, anh trèo lên mặt thành ngắm mặt trời mọc, lòng nặng trĩu.",
+        "Đói lả, chóng mặt, anh trượt chân ngã nhào xuống.",
+        "Thật không may, dưới chân thành có một cụ già ốm yếu được con cháu khiêng ra nằm sưởi",
+        "nắng. Anh rơi trúng người cụ.",
+        "Anh chẳng sao, nhưng cụ già bị đau nặng.",
+        "Hai người con trai của cụ túm lấy anh: “Anh đã làm cha chúng tôi bị thương!",
+        "Đi ngay tới quan tòa!” Thế là anh có thêm vụ kiện thứ tư."
+      ],
+      "image": {
+        "prompt": "early morning at the old stone walls of Evora, two young men holding the arms of the bewildered poor man, an old man lying on a blanket at the foot of the wall being cared for, the cathedral steeple glowing in the sunrise",
+        "seed": 4152391466,
+        "character": "nguoi-anh"
+      },
+      "video": {
+        "motionPrompt": "sunlight spreads over the battlements, the young men pull the poor man along, pigeons take off from the wall",
+        "seed": 862317783
+      },
+      "voice": {}
+    },
+    {
+      "id": "phien-toa-evora",
+      "title": "Phiên tòa ở Evora",
+      "narrator": "ke-chuyen",
+      "narration": "Ở tòa, ai cũng nói cùng lúc, quan tòa bắt im lặng và nghe từng người. Người em kể chuyện mấy căn nhà, người anh đưa tờ giấy tặng. Quan tòa phán: “Nhà thuộc về người được tặng. Kẻ biết mình kiện sai phải bồi thường cho anh một nghìn đồng.” Tới bác nông dân, quan tòa nhịn cười hỏi: “Lúc bác đi, vợ bác có thật đau nặng không?” Bác gãi đầu, vì vội đi kiện nên chẳng biết. Quan tòa xử bác phải bồi thường. Còn gã chủ la vô ơn phải nộp phạt, lại phải cho người anh mượn con la cho tới khi đuôi nó mọc lại.",
+      "subtitles": [
+        "Ở tòa, ai cũng nói cùng lúc, quan tòa bắt im lặng và nghe từng người.",
+        "Người em kể chuyện mấy căn nhà, người anh đưa tờ giấy tặng.",
+        "Quan tòa phán: “Nhà thuộc về người được tặng.",
+        "Kẻ biết mình kiện sai phải bồi thường cho anh một nghìn đồng.” Tới bác nông dân,",
+        "quan tòa nhịn cười hỏi: “Lúc bác đi, vợ bác có thật đau nặng không?” Bác gãi đầu,",
+        "vì vội đi kiện nên chẳng biết.",
+        "Quan tòa xử bác phải bồi thường.",
+        "Còn gã chủ la vô ơn phải nộp phạt,",
+        "lại phải cho người anh mượn con la cho tới khi đuôi nó mọc lại."
+      ],
+      "image": {
+        "prompt": "a grand old courtroom with high windows, the wise old judge in black robes raising his hand calmly, the rich brother looking ashamed, a farmer scratching his head, a muleteer frowning beside his tailless mule",
+        "seed": 2336324090,
+        "character": "quan-toa"
+      },
+      "video": {
+        "motionPrompt": "the judge lowers his hand, the farmer scratches his head, the tailless mule flicks its stump",
+        "seed": 2671857511
+      },
+      "voice": {}
+    },
+    {
+      "id": "phan-quyet-cuoi-cung",
+      "title": "Phán quyết cuối cùng",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng, hai người con trai của cụ già bước lên: “Hắn rơi từ trên thành xuống người cha chúng tôi. Hắn phải chịu tội!” Quan tòa nghe người anh kể lại, rồi chậm rãi phán: “Được. Bây giờ cho người này ngồi dưới chân thành, hai anh hãy trèo lên mà nhảy xuống người anh ta, y như anh ta đã rơi vào cha các anh. Nếu không dám, các anh phải nộp phạt vì kiện oan.” Hai anh em nhìn nhau, lắc đầu: “Chúng tôi xin nộp phạt.” Thế là người anh nghèo cưỡi con la cụt đuôi về nhà, mang theo đủ tiền để vợ con sống sung túc tới cuối đời.",
+      "subtitles": [
+        "Cuối cùng, hai người con trai của cụ già bước lên: “Hắn rơi từ trên thành xuống người cha",
+        "chúng tôi.",
+        "Hắn phải chịu tội!” Quan tòa nghe người anh kể lại, rồi chậm rãi phán: “Được.",
+        "Bây giờ cho người này ngồi dưới chân thành,",
+        "hai anh hãy trèo lên mà nhảy xuống người anh ta, y như anh ta đã rơi vào cha các anh.",
+        "Nếu không dám, các anh phải nộp phạt vì kiện oan.” Hai anh em nhìn nhau,",
+        "lắc đầu: “Chúng tôi xin nộp phạt.” Thế là người anh nghèo cưỡi con la cụt đuôi về nhà,",
+        "mang theo đủ tiền để vợ con sống sung túc tới cuối đời."
+      ],
+      "image": {
+        "prompt": "the happy poor man riding a tailless mule along a sunny country road toward a vineyard home, bags of coins hanging from the saddle, his wife and children running out to greet him",
+        "seed": 1889574321,
+        "character": "quan-toa"
+      },
+      "video": {
+        "motionPrompt": "the mule trots cheerfully, the children run with open arms, the wife waves from the doorway",
+        "seed": 950144048
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "Portuguese folk fairy tale melody, Portuguese guitar, accordion and light tambourine, a gently humorous walking theme for the journey, a warm happy ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 316018248
+  }
+}

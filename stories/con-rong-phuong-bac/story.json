@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "slug": "con-rong-phuong-bac",
+  "shelf": "adults",
+  "title": "Con rồng phương Bắc",
+  "summary": "Để diệt con rồng phương Bắc nuốt cả người lẫn vật, một chàng trai học tiếng chim, tìm đến nàng phù thuỷ bên suối trăng và lừa lấy chiếc nhẫn của vua Solomon. Truyện dân gian Estonia kể đầy đủ: ngựa sắt, ngọn giáo hai đầu, ba ngày ba đêm vật lộn, và cái giá của món đồ lấy bằng gian dối.",
+  "themes": [
+    "than-thoai",
+    "anh-hung",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian Estonia do F. R. Kreutzwald ghi lại, theo truyện «The Dragon of the North» trong The Yellow Fairy Book do Andrew Lang chủ biên (1894), thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới hoàn toàn, theo sát cốt truyện của bản Lang.",
+  "basedOn": "Truyện dân gian Estonia, Andrew Lang kể lại (1894)",
+  "style": "Baltic folk tale illustration in the manner of old northern European woodcuts coloured with soft gouache, dark pine forests, misty bogs, moonlit springs, wooden villages and a golden enchanted palace, palette of moss green, peat brown, moon silver and ember red, eerie and wondrous mood for adult readers, danger shown with restraint, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "chang-trai",
+      "name": "Chàng trai",
+      "sheetPrompt": "a brave good-hearted young Estonian traveller, sun-browned face, shaggy light brown hair, linen shirt with a woven belt, grey wool coat, leather boots, a walking staff and a travel bag, full body, front view, plain parchment background, character reference sheet",
+      "seed": 104587633
+    },
+    {
+      "id": "nang-phu-thuy",
+      "name": "Nàng phù thuỷ",
+      "sheetPrompt": "a bewitchingly beautiful young witch-maiden of Baltic legend, very long flowing silver-blonde hair, pale luminous skin, dark knowing eyes, a white gown embroidered with silver moons, barefoot, full body, front view, plain parchment background, character reference sheet",
+      "seed": 1768291301
+    },
+    {
+      "id": "rong-phuong-bac",
+      "name": "Rồng phương Bắc",
+      "sheetPrompt": "the Dragon of the North, a monstrous beast with the bulky body of an ox covered in stone-hard grey scales, short front legs and long frog-like hind legs, a serpent tail of enormous length, two huge glowing lamp-like eyes, full body, side view, plain parchment background, character reference sheet",
+      "seed": 903245816
+    }
+  ],
+  "scenes": [
+    {
+      "id": "con-quai-vat",
+      "title": "Con quái vật từ phương Bắc",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một con quái vật từ phương Bắc tràn xuống, tàn phá cả những vùng đất rộng, nuốt cả người lẫn súc vật. Nó mình như bò, chân như ếch, hai chân trước ngắn, hai chân sau dài, đuôi như rắn dài mười sải. Vảy nó cứng hơn đá hơn sắt, không vũ khí nào xuyên thủng. Hai con mắt to sáng rực như đèn, ai lỡ nhìn vào là bị bùa mê, tự mình chạy vào miệng nó. Các vua chúa treo thưởng hậu, bao người thử sức đều thất bại. Các nhà hiền triết chỉ truyền nhau rằng: ai có chiếc nhẫn ấn của vua Solomon, đọc được dòng chữ bí mật khắc trên đó, sẽ biết cách diệt rồng.",
+      "subtitles": [
+        "Ngày xưa có một con quái vật từ phương Bắc tràn xuống, tàn phá cả những vùng đất rộng,",
+        "nuốt cả người lẫn súc vật.",
+        "Nó mình như bò, chân như ếch, hai chân trước ngắn, hai chân sau dài,",
+        "đuôi như rắn dài mười sải.",
+        "Vảy nó cứng hơn đá hơn sắt, không vũ khí nào xuyên thủng.",
+        "Hai con mắt to sáng rực như đèn, ai lỡ nhìn vào là bị bùa mê, tự mình chạy vào miệng nó.",
+        "Các vua chúa treo thưởng hậu, bao người thử sức đều thất bại.",
+        "Các nhà hiền triết chỉ truyền nhau rằng: ai có chiếc nhẫn ấn của vua Solomon,",
+        "đọc được dòng chữ bí mật khắc trên đó, sẽ biết cách diệt rồng."
+      ],
+      "image": {
+        "prompt": "a monstrous dragon with an ox-like scaled body, frog legs and a very long serpent tail crouching in a burnt forest, its two great eyes glowing like lamps through the smoke, a ruined village far behind",
+        "seed": 3334206725,
+        "character": "rong-phuong-bac"
+      },
+      "video": {
+        "motionPrompt": "smoke drifts through blackened trees, the beast's lamp-like eyes pulse with light, its long tail slides slowly across the ash, ominous slow push-in",
+        "seed": 2840023952
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoc-tieng-chim",
+      "title": "Học tiếng chim",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng, một chàng trai tốt bụng và gan dạ lên đường tìm chiếc nhẫn. Chàng đi về phía mặt trời mọc, vì mọi sự thông thái xưa đều đến từ phương Đông. Sau mấy năm, chàng gặp một pháp sư phương Đông nổi tiếng. Ông bảo: Người trần ít khôn ngoan, chẳng giúp gì được con, nhưng chim trời sẽ dẫn đường nếu con hiểu tiếng chúng. Ông nấu một thứ thuốc từ chín loại cỏ hái một mình dưới trăng, mỗi ngày cho chàng uống chín thìa, suốt ba ngày, và chàng hiểu được tiếng chim. Lúc chia tay, ông dặn: Nếu tìm được nhẫn Solomon, hãy quay lại đây để ta giải nghĩa dòng chữ, vì trên đời không ai khác làm được.",
+      "subtitles": [
+        "Cuối cùng, một chàng trai tốt bụng và gan dạ lên đường tìm chiếc nhẫn.",
+        "Chàng đi về phía mặt trời mọc, vì mọi sự thông thái xưa đều đến từ phương Đông.",
+        "Sau mấy năm, chàng gặp một pháp sư phương Đông nổi tiếng.",
+        "Ông bảo: Người trần ít khôn ngoan, chẳng giúp gì được con,",
+        "nhưng chim trời sẽ dẫn đường nếu con hiểu tiếng chúng.",
+        "Ông nấu một thứ thuốc từ chín loại cỏ hái một mình dưới trăng,",
+        "mỗi ngày cho chàng uống chín thìa, suốt ba ngày, và chàng hiểu được tiếng chim.",
+        "Lúc chia tay, ông dặn: Nếu tìm được nhẫn Solomon,",
+        "hãy quay lại đây để ta giải nghĩa dòng chữ, vì trên đời không ai khác làm được."
+      ],
+      "image": {
+        "prompt": "an old Eastern magician in a starry robe stirring a bubbling potion of nine moonlit herbs in a copper pot, a young traveller sipping from a spoon, birds perched on the window ledge of a stone tower",
+        "seed": 2637846449,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "steam curls from the copper pot in silver spirals, the young man swallows and looks up as the birds begin to chirp, his face lights with understanding, slow push-in",
+        "seed": 1284237333
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-con-chim-la",
+      "title": "Hai con chim lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Một chiều mệt mỏi, chàng ngồi ăn dưới gốc cây thì nghe hai con chim lông sặc sỡ trên ngọn cây bàn về mình. Một con nói: Gã lang thang ngốc nghếch kia đi tìm nhẫn Solomon mãi mà chưa thấy. Con kia đáp: Hắn phải nhờ đến nàng phù thuỷ. Nàng không ở đâu cố định, nhưng ba đêm nữa, khi trăng tròn, nàng sẽ đến dòng suối rửa mặt, như mỗi tháng vẫn làm để mãi mãi trẻ đẹp. Chàng quyết bám theo. Đến ngày thứ ba, chàng chạy theo hai con chim đến hụt hơi, tới một khoảng rừng trống có dòng suối trong vắt.",
+      "subtitles": [
+        "Một chiều mệt mỏi,",
+        "chàng ngồi ăn dưới gốc cây thì nghe hai con chim lông sặc sỡ trên ngọn cây bàn về mình.",
+        "Một con nói: Gã lang thang ngốc nghếch kia đi tìm nhẫn Solomon mãi mà chưa thấy.",
+        "Con kia đáp: Hắn phải nhờ đến nàng phù thuỷ.",
+        "Nàng không ở đâu cố định, nhưng ba đêm nữa, khi trăng tròn, nàng sẽ đến dòng suối rửa mặt,",
+        "như mỗi tháng vẫn làm để mãi mãi trẻ đẹp. Chàng quyết bám theo.",
+        "Đến ngày thứ ba, chàng chạy theo hai con chim đến hụt hơi,",
+        "tới một khoảng rừng trống có dòng suối trong vắt."
+      ],
+      "image": {
+        "prompt": "a weary traveller sitting under a tall tree in a dusky forest eating his supper, two brilliantly coloured unfamiliar birds on a high branch leaning toward each other as if gossiping about him",
+        "seed": 1230164294,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the two birds hop and chatter on the branch, the traveller stops chewing and cocks his head to listen, evening light shifts through the leaves, slow tilt down",
+        "seed": 3771494103
+      },
+      "voice": {}
+    },
+    {
+      "id": "suoi-trang",
+      "title": "Nàng phù thuỷ bên suối trăng",
+      "narrator": "ke-chuyen",
+      "narration": "Trăng tròn vừa lên thì có tiếng sột soạt. Một thiếu nữ bước ra khỏi rừng, lướt trên cỏ nhẹ như không chạm đất. Chàng chưa từng thấy ai đẹp đến thế. Nàng ngước nhìn trăng, quỳ xuống rửa mặt chín lần, rồi đi vòng quanh suối chín vòng, vừa đi vừa hát xin vầng trăng giữ cho nhan sắc mình không bao giờ phai. Rồi nàng chợt thấy chàng dưới gốc cây. Nàng nói: Ngươi đáng bị phạt nặng vì dám nhìn trộm việc bí mật của ta, nhưng ta tha vì ngươi là người lạ. Hãy về nghỉ đêm với chúng ta, gối êm hơn rêu ẩm. Chàng còn đang ngần ngừ thì nghe chim trên cây dặn: Cứ đi theo nàng, nhưng đừng cho nàng giọt máu nào, kẻo bán mất linh hồn.",
+      "subtitles": [
+        "Trăng tròn vừa lên thì có tiếng sột soạt.",
+        "Một thiếu nữ bước ra khỏi rừng, lướt trên cỏ nhẹ như không chạm đất.",
+        "Chàng chưa từng thấy ai đẹp đến thế.",
+        "Nàng ngước nhìn trăng, quỳ xuống rửa mặt chín lần, rồi đi vòng quanh suối chín vòng,",
+        "vừa đi vừa hát xin vầng trăng giữ cho nhan sắc mình không bao giờ phai.",
+        "Rồi nàng chợt thấy chàng dưới gốc cây.",
+        "Nàng nói: Ngươi đáng bị phạt nặng vì dám nhìn trộm việc bí mật của ta,",
+        "nhưng ta tha vì ngươi là người lạ.",
+        "Hãy về nghỉ đêm với chúng ta, gối êm hơn rêu ẩm.",
+        "Chàng còn đang ngần ngừ thì nghe chim trên cây dặn: Cứ đi theo nàng,",
+        "nhưng đừng cho nàng giọt máu nào, kẻo bán mất linh hồn."
+      ],
+      "image": {
+        "prompt": "a moonlit forest clearing with a clear round spring, a beautiful pale witch-maiden with very long silver-blonde hair kneeling to bathe her face, a full moon reflected in the water, a young man half hidden under a tree, two birds above",
+        "seed": 128933449,
+        "character": "nang-phu-thuy"
+      },
+      "video": {
+        "motionPrompt": "she circles the spring slowly, her hair and gown flowing, ripples carry the moon's reflection, she turns her head toward the hidden young man, dreamy slow orbit",
+        "seed": 3893400511
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-phep",
+      "title": "Toà lâu đài phép thuật",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng dẫn chàng tới một khu vườn có toà nhà lấp lánh như dát vàng bạc dưới trăng. Trong nhà hàng trăm ngọn nến trên chân đèn vàng sáng như ban ngày. Hai người ngồi ăn bên bàn đầy cao lương, nàng ghế vàng, chàng ghế bạc. Sáng ra, nàng ngỏ lời: Ta trẻ đẹp mãi, chẳng phải nghe lệnh ai, nên chưa từng nghĩ đến chuyện lấy chồng. Nhưng từ lúc thấy chàng, ta đã đem lòng thương. Ta giàu có lắm, hai ta sẽ sống như ông hoàng bà chúa. Chàng nhớ lời chim, khôn khéo xin thêm ít ngày suy nghĩ. Nàng vui vẻ cho chàng tuỳ ý, rồi dẫn đi xem khắp kho báu, vốn đều là ảo ảnh do nhẫn Solomon tạo ra, tan đi như gió.",
+      "subtitles": [
+        "Nàng dẫn chàng tới một khu vườn có toà nhà lấp lánh như dát vàng bạc dưới trăng.",
+        "Trong nhà hàng trăm ngọn nến trên chân đèn vàng sáng như ban ngày.",
+        "Hai người ngồi ăn bên bàn đầy cao lương, nàng ghế vàng, chàng ghế bạc.",
+        "Sáng ra, nàng ngỏ lời: Ta trẻ đẹp mãi, chẳng phải nghe lệnh ai,",
+        "nên chưa từng nghĩ đến chuyện lấy chồng.",
+        "Nhưng từ lúc thấy chàng, ta đã đem lòng thương.",
+        "Ta giàu có lắm, hai ta sẽ sống như ông hoàng bà chúa.",
+        "Chàng nhớ lời chim, khôn khéo xin thêm ít ngày suy nghĩ.",
+        "Nàng vui vẻ cho chàng tuỳ ý, rồi dẫn đi xem khắp kho báu,",
+        "vốn đều là ảo ảnh do nhẫn Solomon tạo ra, tan đi như gió."
+      ],
+      "image": {
+        "prompt": "an enchanted palace hall glittering with gold and silver, hundreds of candles on golden stands, a witch-maiden on a golden chair and a young man on a silver chair at a lavish table, silent maidens in white serving them",
+        "seed": 3393126483,
+        "character": "nang-phu-thuy"
+      },
+      "video": {
+        "motionPrompt": "candle flames flicker in long rows, the white-clad servants glide without sound, the witch-maiden smiles across the table, the golden walls shimmer faintly as if not quite real, slow dolly",
+        "seed": 2045561124
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-nhan-solomon",
+      "title": "Chiếc nhẫn của vua Solomon",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, nàng dẫn chàng vào phòng kín, chỉ chiếc hộp vàng trên bàn bạc: Đây là báu vật lớn nhất của ta, một chiếc nhẫn vàng. Ngày cưới ta sẽ trao nó cho chàng. Nhưng để tình ta bền mãi, chàng phải đổi cho ta ba giọt máu từ ngón út tay trái. Chàng rùng mình, nhưng giấu kín, chỉ hỏi như vô tình nhẫn có gì lạ. Nàng kể: Đeo ở ngón út tay trái thì bay như chim. Ngón áp út thì tàng hình. Ngón giữa thì lửa, nước, gươm đao không làm gì được. Ngón trỏ thì muốn gì có nấy. Ngón cái thì bàn tay mạnh đến phá vỡ đá tảng. Nhẫn này vốn của vua Solomon. Chàng quyết lấy cho được chiếc nhẫn.",
+      "subtitles": [
+        "Một hôm, nàng dẫn chàng vào phòng kín, chỉ chiếc hộp vàng trên bàn bạc:",
+        "Đây là báu vật lớn nhất của ta, một chiếc nhẫn vàng. Ngày cưới ta sẽ trao nó cho chàng.",
+        "Nhưng để tình ta bền mãi, chàng phải đổi cho ta ba giọt máu từ ngón út tay trái.",
+        "Chàng rùng mình, nhưng giấu kín, chỉ hỏi như vô tình nhẫn có gì lạ.",
+        "Nàng kể: Đeo ở ngón út tay trái thì bay như chim. Ngón áp út thì tàng hình.",
+        "Ngón giữa thì lửa, nước, gươm đao không làm gì được. Ngón trỏ thì muốn gì có nấy.",
+        "Ngón cái thì bàn tay mạnh đến phá vỡ đá tảng. Nhẫn này vốn của vua Solomon.",
+        "Chàng quyết lấy cho được chiếc nhẫn."
+      ],
+      "image": {
+        "prompt": "a secret chamber with a small golden box open on a silver table, a glittering gold ring engraved with mysterious signs shining like a sunbeam in the witch-maiden's fingers, the young man watching with a guarded face",
+        "seed": 2470550481,
+        "character": "nang-phu-thuy"
+      },
+      "video": {
+        "motionPrompt": "the witch-maiden lifts the ring and its engraved signs glow one after another, light dances across the young man's wary face, slow close-up",
+        "seed": 3316078639
+      },
+      "voice": {}
+    },
+    {
+      "id": "lua-lay-nhan",
+      "title": "Lừa lấy chiếc nhẫn",
+      "narrator": "ke-chuyen",
+      "narration": "Vài hôm sau, chàng giả vờ không tin nhẫn có phép như thế. Nàng đeo nhẫn vào ngón giữa, bảo chàng lấy dao đâm thử. Chàng đâm thật, nhưng như có bức tường sắt vô hình chắn giữa. Chàng nài: Cho ta thử xem nào. Nàng không chút nghi ngờ, trao nhẫn. Chàng đeo vào ngón cái, đấm một cú, tảng đá lớn ngoài sân vỡ tan nghìn mảnh. Trong lúc hai người còn cười, chàng như đùa, chuyển nhẫn sang ngón áp út. Nàng bảo: Giờ ta không thấy chàng nữa. Nhưng chàng chẳng tháo ra, mà lùi xa, đeo nhẫn vào ngón út rồi bay vút lên như chim. Nàng gọi: Quay lại đi, chàng thấy ta nói thật rồi đấy! Nhưng chàng không bao giờ quay lại.",
+      "subtitles": [
+        "Vài hôm sau, chàng giả vờ không tin nhẫn có phép như thế.",
+        "Nàng đeo nhẫn vào ngón giữa, bảo chàng lấy dao đâm thử.",
+        "Chàng đâm thật, nhưng như có bức tường sắt vô hình chắn giữa.",
+        "Chàng nài: Cho ta thử xem nào. Nàng không chút nghi ngờ, trao nhẫn.",
+        "Chàng đeo vào ngón cái, đấm một cú, tảng đá lớn ngoài sân vỡ tan nghìn mảnh.",
+        "Trong lúc hai người còn cười, chàng như đùa, chuyển nhẫn sang ngón áp út.",
+        "Nàng bảo: Giờ ta không thấy chàng nữa.",
+        "Nhưng chàng chẳng tháo ra, mà lùi xa, đeo nhẫn vào ngón út rồi bay vút lên như chim.",
+        "Nàng gọi: Quay lại đi, chàng thấy ta nói thật rồi đấy! Nhưng chàng không bao giờ quay lại."
+      ],
+      "image": {
+        "prompt": "a palace courtyard with a huge boulder shattered into a thousand pieces, a laughing witch-maiden looking around in confusion at empty air, and high above the rooftops the faint shape of a young man soaring away like a bird",
+        "seed": 3115825358,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "stone fragments settle in the dust, the witch-maiden's smile fades as she searches the air, a shimmering figure rises above the palace and dwindles into the sky, slow tilt up",
+        "seed": 2399933000
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngua-sat-va-ngon-giao",
+      "title": "Ngựa sắt và ngọn giáo hai đầu",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng bay thẳng về chỗ vị pháp sư. Ông mừng lắm, mất bảy tuần mới đọc rõ những dấu bí mật trên nhẫn, rồi dặn: Hãy đúc một con ngựa sắt có bánh xe dưới mỗi chân, và một ngọn giáo hai đầu nhọn, giữa to như thân cây lớn, gắn hai sợi xích dài mười sải. Đâm giáo xuyên hàm rồng, nhảy xuống, đóng xích chặt xuống đất bằng cọc sắt. Hai ba ngày sau rồng kiệt sức, hãy đeo nhẫn ở ngón cái mà kết liễu nó. Xong việc, đừng để mất nhẫn hay để ai lừa lấy. Về quê ít tuần, chàng nghe tin rồng sắp tới. Nhà vua hứa gả công chúa và chia nửa vương quốc cho ai diệt được nó. Chàng xin vua đúc đủ mọi thứ.",
+      "subtitles": [
+        "Chàng bay thẳng về chỗ vị pháp sư.",
+        "Ông mừng lắm, mất bảy tuần mới đọc rõ những dấu bí mật trên nhẫn, rồi dặn:",
+        "Hãy đúc một con ngựa sắt có bánh xe dưới mỗi chân, và một ngọn giáo hai đầu nhọn,",
+        "giữa to như thân cây lớn, gắn hai sợi xích dài mười sải.",
+        "Đâm giáo xuyên hàm rồng, nhảy xuống, đóng xích chặt xuống đất bằng cọc sắt.",
+        "Hai ba ngày sau rồng kiệt sức, hãy đeo nhẫn ở ngón cái mà kết liễu nó.",
+        "Xong việc, đừng để mất nhẫn hay để ai lừa lấy.",
+        "Về quê ít tuần, chàng nghe tin rồng sắp tới.",
+        "Nhà vua hứa gả công chúa và chia nửa vương quốc cho ai diệt được nó.",
+        "Chàng xin vua đúc đủ mọi thứ."
+      ],
+      "image": {
+        "prompt": "a royal foundry yard, a massive iron horse on little wheels, a giant double-pointed spear thick as a tree trunk with two long chains, workmen staring in awe as a young man lifts the spear with one hand wearing a glowing ring on his thumb",
+        "seed": 3137579044,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "sparks rise from the foundry, the workmen strain and fail to move the iron horse, the young man grips the spear and the ring glows, he raises it easily, slow push-in",
+        "seed": 378202422
+      },
+      "voice": {}
+    },
+    {
+      "id": "tran-danh-rong",
+      "title": "Ba ngày ba đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Rồng đã sát biên giới. Nghe lời một con quạ, chàng ngồi trên ngựa sắt, chống giáo xuống đất đẩy đi như đẩy thuyền. Con rồng há rộng hàm chờ mồi. Chỉ vài bước nữa là cả người lẫn ngựa bị nuốt chửng. Chàng run sợ mà không mất can đảm, dựng thẳng ngọn giáo, dồn hết sức đâm xuyên hàm dưới con rồng, rồi nhanh như chớp nhảy khỏi ngựa. Một tiếng rầm như sấm vang xa hàng dặm: hàm rồng đã sập vào ngọn giáo, răng ngoạm chặt con ngựa sắt. Chàng vội đóng xích xuống đất bằng những cọc sắt khổng lồ. Rồng vật vã ba ngày ba đêm, quật đuôi làm đất rung như động đất xa mười dặm. Khi nó không còn quẫy nổi, chàng nhấc một tảng đá hai mươi người không khiêng nổi, nện vào đầu nó cho đến khi nó nằm im bất động.",
+      "subtitles": [
+        "Rồng đã sát biên giới.",
+        "Nghe lời một con quạ, chàng ngồi trên ngựa sắt,",
+        "chống giáo xuống đất đẩy đi như đẩy thuyền. Con rồng há rộng hàm chờ mồi.",
+        "Chỉ vài bước nữa là cả người lẫn ngựa bị nuốt chửng.",
+        "Chàng run sợ mà không mất can đảm, dựng thẳng ngọn giáo,",
+        "dồn hết sức đâm xuyên hàm dưới con rồng, rồi nhanh như chớp nhảy khỏi ngựa.",
+        "Một tiếng rầm như sấm vang xa hàng dặm: hàm rồng đã sập vào ngọn giáo,",
+        "răng ngoạm chặt con ngựa sắt.",
+        "Chàng vội đóng xích xuống đất bằng những cọc sắt khổng lồ.",
+        "Rồng vật vã ba ngày ba đêm, quật đuôi làm đất rung như động đất xa mười dặm.",
+        "Khi nó không còn quẫy nổi, chàng nhấc một tảng đá hai mươi người không khiêng nổi,",
+        "nện vào đầu nó cho đến khi nó nằm im bất động."
+      ],
+      "image": {
+        "prompt": "a vast open plain, the colossal scaled dragon pinned to the earth by a huge spear driven through its jaws and two long chains staked into the ground, its teeth clamped on an iron horse, a young man in the distance holding up an enormous stone, dust and storm clouds",
+        "seed": 2206577976,
+        "character": "rong-phuong-bac"
+      },
+      "video": {
+        "motionPrompt": "the dragon thrashes and its long tail whips up clouds of dust, the chains strain against the iron stakes, the ground trembles, gradually the beast grows still, dramatic slow motion",
+        "seed": 1119470826
+      },
+      "voice": {}
+    },
+    {
+      "id": "dai-dich",
+      "title": "Đám cưới và bệnh dịch",
+      "narrator": "ke-chuyen",
+      "narration": "Tin rồng chết bay khắp nơi, người ta đón chàng vào thành như đón vị vua hùng mạnh nhất. Công chúa vui lòng lấy người anh hùng một mình làm được điều cả đạo quân không làm nổi. Đám cưới linh đình kéo dài bốn tuần. Nhưng giữa niềm vui, ai cũng quên chôn xác con rồng khổng lồ. Nó bốc mùi nồng nặc, không ai sống nổi quanh đó, rồi không khí nhiễm độc, dịch bệnh nổ ra cướp đi hàng trăm mạng người. Giữa cảnh khốn cùng, chàng rể vua quyết định nhờ vị pháp sư phương Đông lần nữa, đeo nhẫn hoá chim bay đi. Nhưng tục ngữ có câu, của phi nghĩa chẳng bao giờ bền.",
+      "subtitles": [
+        "Tin rồng chết bay khắp nơi, người ta đón chàng vào thành như đón vị vua hùng mạnh nhất.",
+        "Công chúa vui lòng lấy người anh hùng một mình làm được điều cả đạo quân không làm nổi.",
+        "Đám cưới linh đình kéo dài bốn tuần.",
+        "Nhưng giữa niềm vui, ai cũng quên chôn xác con rồng khổng lồ.",
+        "Nó bốc mùi nồng nặc, không ai sống nổi quanh đó, rồi không khí nhiễm độc,",
+        "dịch bệnh nổ ra cướp đi hàng trăm mạng người.",
+        "Giữa cảnh khốn cùng, chàng rể vua quyết định nhờ vị pháp sư phương Đông lần nữa,",
+        "đeo nhẫn hoá chim bay đi.",
+        "Nhưng tục ngữ có câu, của phi nghĩa chẳng bao giờ bền."
+      ],
+      "image": {
+        "prompt": "a grand wedding feast in a wooden northern castle with garlands and many kings at long tables, while through a window the distant shape of the huge fallen dragon lies on the plain under a sickly yellow-green haze",
+        "seed": 2693653072,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "musicians play and guests raise their cups, the camera drifts to the window where the green haze creeps toward the town, the music seems to fade, slow dolly",
+        "seed": 4061692107
+      },
+      "voice": {}
+    },
+    {
+      "id": "dai-bang",
+      "title": "Con đại bàng trên trời",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng phù thuỷ chưa ngày nào nguôi tìm chiếc nhẫn. Biết bằng phép thuật rằng chàng đang hoá chim bay sang phương Đông, nàng biến thành đại bàng rình trên trời. Nàng nhận ra chàng nhờ chiếc nhẫn đeo ở cổ bằng sợi ruy băng, lao xuống quắp lấy, giật phăng chiếc nhẫn. Hai người đáp xuống đất, trở lại hình người. Chàng van xin tha tội, nàng đáp: Muộn rồi. Ngươi đã khinh tình ta, lại trộm báu vật của ta, phải chịu phạt. Nàng đeo nhẫn vào ngón cái, kẹp chàng dưới nách mà đi, đến một hang đá sâu có xích treo trên vách, xích chân tay chàng lại: Ngươi sẽ bị xích ở đây đến chết. Ngày ngày ta mang cơm cho ngươi khỏi chết đói, nhưng đừng mong được tự do.",
+      "subtitles": [
+        "Nàng phù thuỷ chưa ngày nào nguôi tìm chiếc nhẫn.",
+        "Biết bằng phép thuật rằng chàng đang hoá chim bay sang phương Đông,",
+        "nàng biến thành đại bàng rình trên trời.",
+        "Nàng nhận ra chàng nhờ chiếc nhẫn đeo ở cổ bằng sợi ruy băng, lao xuống quắp lấy,",
+        "giật phăng chiếc nhẫn.",
+        "Hai người đáp xuống đất, trở lại hình người.",
+        "Chàng van xin tha tội, nàng đáp: Muộn rồi.",
+        "Ngươi đã khinh tình ta, lại trộm báu vật của ta, phải chịu phạt.",
+        "Nàng đeo nhẫn vào ngón cái, kẹp chàng dưới nách mà đi,",
+        "đến một hang đá sâu có xích treo trên vách, xích chân tay chàng lại:",
+        "Ngươi sẽ bị xích ở đây đến chết.",
+        "Ngày ngày ta mang cơm cho ngươi khỏi chết đói, nhưng đừng mong được tự do."
+      ],
+      "image": {
+        "prompt": "a great eagle with silver-white feathers seizing a small bird in its talons high among the clouds, a gold ring on a ribbon flashing as it is torn away, mountains far below",
+        "seed": 635983338,
+        "character": "nang-phu-thuy"
+      },
+      "video": {
+        "motionPrompt": "the eagle dives through the clouds and strikes, feathers scatter, the ring on its ribbon swings and flashes, both birds spiral down toward the mountains, fast then slow",
+        "seed": 2651688741
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-nam-trong-hang",
+      "title": "Bảy năm trong hang đá",
+      "narrator": "ke-chuyen",
+      "narration": "Vua già và công chúa đợi mòn mỏi mà chẳng có tin. Các pháp sư được triệu đến chỉ biết chàng còn sống mà đang đau khổ. Cuối cùng một pháp sư xứ Phần Lan tìm ra chàng bị giam ở phương Đông, không phải bởi người phàm. Sứ giả được sai đi, may mắn gặp đúng vị pháp sư năm xưa. Ông xin đi cùng. Chim dẫn đường, họ tới hang đá nơi chàng bị xích gần bảy năm. Chàng gầy đến nỗi ông già không nhận ra. Ông mở xích bằng phép, chăm sóc chàng hồi sức. Về đến nhà thì vua già vừa mất sáng hôm ấy, chàng lên ngôi, sống sung túc đến cuối đời. Nhưng chàng không bao giờ lấy lại được chiếc nhẫn, và từ đó chưa mắt người trần nào thấy lại nó.",
+      "subtitles": [
+        "Vua già và công chúa đợi mòn mỏi mà chẳng có tin.",
+        "Các pháp sư được triệu đến chỉ biết chàng còn sống mà đang đau khổ.",
+        "Cuối cùng một pháp sư xứ Phần Lan tìm ra chàng bị giam ở phương Đông,",
+        "không phải bởi người phàm.",
+        "Sứ giả được sai đi, may mắn gặp đúng vị pháp sư năm xưa. Ông xin đi cùng.",
+        "Chim dẫn đường, họ tới hang đá nơi chàng bị xích gần bảy năm.",
+        "Chàng gầy đến nỗi ông già không nhận ra.",
+        "Ông mở xích bằng phép, chăm sóc chàng hồi sức.",
+        "Về đến nhà thì vua già vừa mất sáng hôm ấy, chàng lên ngôi, sống sung túc đến cuối đời.",
+        "Nhưng chàng không bao giờ lấy lại được chiếc nhẫn,",
+        "và từ đó chưa mắt người trần nào thấy lại nó."
+      ],
+      "image": {
+        "prompt": "a deep rock cave lit by a single lantern, an old magician in a starry robe unlocking heavy chains from the wrists of a gaunt bearded prisoner, messengers and a guiding bird at the cave mouth",
+        "seed": 1280515800,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the lantern light trembles, the chains fall open with a soft glow of magic, the thin prisoner slowly lifts his head, birds flutter at the cave mouth against the dawn, slow push-in",
+        "seed": 3552735856
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "eerie Baltic folk instrumental, kannel zither and wooden flute over a low drone and soft frame drum, moonlit and mysterious, a darker pulse for the dragon, moderate tempo, no vocals",
+    "durationSeconds": 180,
+    "seed": 52097307
+  }
+}

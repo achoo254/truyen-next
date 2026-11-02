@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "slug": "nai-con-va-nai-me",
+  "shelf": "kids",
+  "title": "Nai con và nai mẹ",
+  "summary": "Nai mẹ to hơn chó, chạy nhanh hơn chó, lại có sừng, vậy mà cứ nghe tiếng chó sủa là bỏ chạy. Ngụ ngôn Aesop kể nhẹ cho bé về nỗi sợ, và chuyện lý lẽ hay mấy cũng chẳng làm người ta dũng cảm ngay được.",
+  "themes": [
+    "ngu-ngon",
+    "gia-dinh",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Fawn and His Mother» (bản dịch G. F. Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản nào; truyện gốc rất ngắn nên thêm thoại và chi tiết đời thường (buổi sáng trong rừng, nai con tập chạy, tiếng chó sủa xa xa); Mèo Miu mở đầu và rút bài học ở cuối.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic children's picture-book illustration, soft watercolor and gouache, sunlit forest glade with ferns, wildflowers and a clear stream, warm gentle light, rounded friendly shapes, peaceful mood, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 2913577321,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nai-con",
+      "name": "Nai con",
+      "seed": 1636752500,
+      "sheetPrompt": "a cute curious fawn with white spots on its reddish-brown coat, big dark eyes, long wobbly legs, perky ears, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nai-me",
+      "name": "Nai mẹ",
+      "seed": 4035455368,
+      "sheetPrompt": "a graceful tall mother deer with branching antlers, warm brown coat, kind gentle eyes, slightly shy expression, full body, side view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có sợ cái gì không? Bóng tối, sấm sét, hay con sâu róm? Miu thì hơi sợ tiếng máy hút bụi một chút. Suỵt, các bạn đừng cười Miu nhé! Hôm nay Miu kể chuyện một cô nai rất to, rất nhanh, mà vẫn sợ một thứ nhỏ xíu. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có sợ cái gì không? Bóng tối, sấm sét, hay con sâu róm?",
+        "Miu thì hơi sợ tiếng máy hút bụi một chút. Suỵt, các bạn đừng cười Miu nhé!",
+        "Hôm nay Miu kể chuyện một cô nai rất to, rất nhanh, mà vẫn sợ một thứ nhỏ xíu.",
+        "Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a mossy log at the edge of a sunny forest glade, covering her mouth shyly with a paw and giggling, a fawn peeking from the ferns",
+        "seed": 2510376342
+      },
+      "video": {
+        "motionPrompt": "the cat giggles and covers her mouth, the fawn peeks out and blinks, ferns sway, sunbeams flicker, gentle camera push-in",
+        "seed": 3609022801
+      },
+      "voice": {}
+    },
+    {
+      "id": "buoi-sang",
+      "title": "Buổi sáng trong rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, trong một khu rừng xanh, có mẹ con nhà nai sống bên dòng suối trong. Mỗi sáng, nai mẹ dẫn nai con đi gặm cỏ non, uống nước suối mát. Nai con tập chạy, chân còn run run, ngã oạch xuống bãi cỏ, rồi lại đứng lên chạy tiếp. Nai mẹ đứng nhìn, mỉm cười: Giỏi lắm con, chạy thêm vòng nữa nào!",
+      "subtitles": [
+        "Ngày xưa, trong một khu rừng xanh, có mẹ con nhà nai sống bên dòng suối trong.",
+        "Mỗi sáng, nai mẹ dẫn nai con đi gặm cỏ non, uống nước suối mát.",
+        "Nai con tập chạy, chân còn run run, ngã oạch xuống bãi cỏ, rồi lại đứng lên chạy tiếp.",
+        "Nai mẹ đứng nhìn, mỉm cười: Giỏi lắm con, chạy thêm vòng nữa nào!"
+      ],
+      "image": {
+        "character": "nai-con",
+        "prompt": "a spotted fawn on wobbly legs practices running across a flowery forest glade while the mother deer with antlers watches proudly beside a clear stream",
+        "seed": 4206566519
+      },
+      "video": {
+        "motionPrompt": "the fawn trots, stumbles softly onto the grass, gets up and bounces on, the mother deer nods, the stream sparkles, butterflies flit",
+        "seed": 835957933
+      },
+      "voice": {}
+    },
+    {
+      "id": "me-gioi-qua",
+      "title": "Mẹ giỏi quá",
+      "narrator": "ke-chuyen",
+      "narration": "Chạy mỏi, nai con nằm bên mẹ, ngắm mẹ thật lâu rồi bảo: Mẹ ơi, mẹ to hơn con chó nhiều. Mẹ chạy nhanh hơn chó, nhảy cao hơn chó, lại có đôi sừng to để tự vệ nữa. Mẹ giỏi quá đi! Nai mẹ dụi mũi vào má con: Con khen mẹ nhiều thế, mẹ ngượng mất.",
+      "subtitles": [
+        "Chạy mỏi, nai con nằm bên mẹ, ngắm mẹ thật lâu rồi bảo:",
+        "Mẹ ơi, mẹ to hơn con chó nhiều. Mẹ chạy nhanh hơn chó, nhảy cao hơn chó,",
+        "lại có đôi sừng to để tự vệ nữa. Mẹ giỏi quá đi!",
+        "Nai mẹ dụi mũi vào má con: Con khen mẹ nhiều thế, mẹ ngượng mất."
+      ],
+      "image": {
+        "character": "nai-me",
+        "prompt": "the fawn rests against the mother deer in the soft grass, looking up admiringly at her big antlers, the mother nuzzles the fawn's cheek, dappled sunlight",
+        "seed": 4145667915
+      },
+      "video": {
+        "motionPrompt": "the fawn gazes up at the antlers, the mother lowers her head and nuzzles, leaves drift down slowly, warm light",
+        "seed": 669401418
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-cho-sua",
+      "title": "Tiếng chó sủa xa xa",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc ấy, từ phía làng xa vọng lại một tiếng gâu gâu. Chỉ một con chó thôi, mà còn ở xa lắm. Thế mà nai mẹ giật bắn mình, tai dựng đứng lên. Mẹ khẽ gọi: Đi thôi con! Rồi hai mẹ con phóng vụt vào bụi rậm, chạy một mạch qua mấy quả đồi mới dừng lại. Nai con thở hổn hển, chẳng hiểu chuyện gì.",
+      "subtitles": [
+        "Đúng lúc ấy, từ phía làng xa vọng lại một tiếng gâu gâu.",
+        "Chỉ một con chó thôi, mà còn ở xa lắm.",
+        "Thế mà nai mẹ giật bắn mình, tai dựng đứng lên. Mẹ khẽ gọi: Đi thôi con!",
+        "Rồi hai mẹ con phóng vụt vào bụi rậm, chạy một mạch qua mấy quả đồi mới dừng lại.",
+        "Nai con thở hổn hển, chẳng hiểu chuyện gì."
+      ],
+      "image": {
+        "character": "nai-me",
+        "prompt": "the mother deer and fawn leap away gracefully through ferns and tall trees, ears up, a tiny dog far away on a distant village hill, the forest bright and safe",
+        "seed": 4261065352
+      },
+      "video": {
+        "motionPrompt": "the mother deer's ears twitch, she bounds into the ferns with the fawn following, leaves swirl behind them, the distant little dog wags its tail, camera follows",
+        "seed": 1564130007
+      },
+      "voice": {}
+    },
+    {
+      "id": "sao-me-so",
+      "title": "Sao mẹ lại sợ?",
+      "narrator": "ke-chuyen",
+      "narration": "Nai con hỏi: Mẹ ơi, mẹ to hơn, nhanh hơn, lại có sừng. Thế sao một tiếng chó sủa lại làm mẹ sợ thế? Nai mẹ cười hiền: Con nói đúng hết, mẹ biết mà. Mẹ có đủ những điều con kể. Nhưng hễ nghe tiếng chó sủa, dù chỉ một con thôi, là chân mẹ cứ tự chạy, tim mẹ đập thình thịch, mẹ chẳng nghĩ được gì nữa. Nỗi sợ ấy không nghe lời lý lẽ đâu con ạ.",
+      "subtitles": [
+        "Nai con hỏi: Mẹ ơi, mẹ to hơn, nhanh hơn, lại có sừng.",
+        "Thế sao một tiếng chó sủa lại làm mẹ sợ thế?",
+        "Nai mẹ cười hiền: Con nói đúng hết, mẹ biết mà.",
+        "Mẹ có đủ những điều con kể. Nhưng hễ nghe tiếng chó sủa, dù chỉ một con thôi,",
+        "là chân mẹ cứ tự chạy, tim mẹ đập thình thịch, mẹ chẳng nghĩ được gì nữa.",
+        "Nỗi sợ ấy không nghe lời lý lẽ đâu con ạ."
+      ],
+      "image": {
+        "character": "nai-con",
+        "prompt": "on a quiet hilltop at the forest edge the fawn looks up with a puzzled question while the mother deer smiles gently and a little shyly, soft afternoon sky",
+        "seed": 655799425
+      },
+      "video": {
+        "motionPrompt": "the fawn tilts its head and asks, the mother deer smiles and lowers her ears shyly, grass waves softly, clouds drift",
+        "seed": 61214837
+      },
+      "voice": {}
+    },
+    {
+      "id": "cung-nhau",
+      "title": "Có nhau thì đỡ sợ",
+      "narrator": "ke-chuyen",
+      "narration": "Nai con nghĩ một lúc rồi dụi đầu vào mẹ: Thế thì lần sau mẹ sợ, con sẽ chạy bên cạnh mẹ. Con sẽ bảo: Mẹ ơi, con chó ở xa lắm, mình đi chậm thôi. Nai mẹ bật cười, ôm con vào lòng. Chiều hôm ấy, hai mẹ con thong thả đi về bên dòng suối, nắng vàng rải khắp khu rừng.",
+      "subtitles": [
+        "Nai con nghĩ một lúc rồi dụi đầu vào mẹ: Thế thì lần sau mẹ sợ, con sẽ chạy bên cạnh mẹ.",
+        "Con sẽ bảo: Mẹ ơi, con chó ở xa lắm, mình đi chậm thôi.",
+        "Nai mẹ bật cười, ôm con vào lòng. Chiều hôm ấy, hai mẹ con thong thả đi về bên dòng suối,",
+        "nắng vàng rải khắp khu rừng."
+      ],
+      "image": {
+        "character": "nai-con",
+        "prompt": "the fawn and the mother deer walk side by side back toward the stream through golden late-afternoon light, the fawn leaning against its mother, peaceful forest",
+        "seed": 3777774001
+      },
+      "video": {
+        "motionPrompt": "the two deer walk slowly side by side, the fawn bumps its head against its mother, golden light streams through the trees, gentle camera follow",
+        "seed": 3153998495
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, nai mẹ to khỏe là thế mà vẫn sợ tiếng chó sủa. Nói bao nhiêu lý lẽ cũng chẳng làm ai hết sợ ngay được đâu. Ai cũng có lúc sợ, chẳng có gì xấu hổ cả. Khi bạn mình sợ, mình đừng chê cười, hãy ở bên cạnh bạn, như nai con ở bên mẹ ấy. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, nai mẹ to khỏe là thế mà vẫn sợ tiếng chó sủa.",
+        "Nói bao nhiêu lý lẽ cũng chẳng làm ai hết sợ ngay được đâu.",
+        "Ai cũng có lúc sợ, chẳng có gì xấu hổ cả. Khi bạn mình sợ,",
+        "mình đừng chê cười, hãy ở bên cạnh bạn, như nai con ở bên mẹ ấy.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye beside the forest stream at sunset, the fawn and mother deer drinking water together nearby, fireflies beginning to glow",
+        "seed": 3522958731
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the deer lift their heads and blink, fireflies twinkle, the stream glitters, gentle camera pull-back",
+        "seed": 2001917943
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tender pastoral children's tune, soft acoustic guitar, flute and gentle strings with forest birdsong feel, calm and warm, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2567802949
+  }
+}

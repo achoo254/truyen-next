@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "slug": "theseus-va-minotaur",
+  "shelf": "adults",
+  "title": "Theseus và quái vật Minotaur",
+  "summary": "Chàng trai Theseus nhấc tảng đá lấy gươm cha, dẹp lũ cướp trên đường tới Athens, rồi tự nguyện vào mê cung xứ Crete đối mặt quái vật đầu bò Minotaur. Cuộn chỉ của nàng Ariadne đưa chàng ra, nhưng một cánh buồm quên đổi đã khiến chiến thắng thành tang tóc. Thần thoại Hy Lạp theo Apollodorus, kể đầy đủ cho người lớn.",
+  "themes": [
+    "than-thoai",
+    "anh-hung",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Thần thoại Theseus theo Apollodorus, Bibliotheca (thế kỷ một đến hai, phần Epitome), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, theo sát cốt truyện của Apollodorus, kể các trận đánh và cái chết của vua Aegeus mà không tả máu me; không chép bản dịch nào.",
+  "basedOn": "Thần thoại Hy Lạp, Apollodorus, Bibliotheca",
+  "style": "classical ancient Greek myth illustration in the manner of black-figure and red-figure vase painting blended with warm fresco colors, terracotta, black, ochre and Aegean blue, Bronze Age Athens and Minoan Crete with red columns and bull frescoes, heroic yet sober mood for adult readers, fights shown from afar, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "theseus",
+      "name": "Theseus",
+      "sheetPrompt": "Theseus, young hero of ancient Athens, a strong athletic man of nineteen with short curly dark hair and a determined face, short white chiton with a red border, leather sandals, an ivory-hilted bronze short sword at his belt, full body, front and side views, plain light parchment background, character reference sheet",
+      "seed": 1473124969
+    },
+    {
+      "id": "aegeus",
+      "name": "Vua Aegeus",
+      "sheetPrompt": "King Aegeus of Athens, an elderly king with a white beard and kind worried eyes, deep blue royal robe with a golden laurel crown, holding a plain wooden staff, full body, front and side views, plain light parchment background, character reference sheet",
+      "seed": 4118929737
+    },
+    {
+      "id": "ariadne",
+      "name": "Ariadne",
+      "sheetPrompt": "Princess Ariadne of Minoan Crete, a clever young woman of eighteen with long black curled hair bound with gold ribbons, a flounced Minoan skirt in saffron and blue with an embroidered bodice and shawl, holding a ball of red thread, full body, front and side views, plain light parchment background, character reference sheet",
+      "seed": 1875417025
+    },
+    {
+      "id": "minotaur",
+      "name": "Minotaur",
+      "sheetPrompt": "the Minotaur of Crete, a huge powerful creature with the body of a muscular man and the head of a great dark bull with long curved horns, wearing only a rough loincloth, menacing and powerful, full body, front and side views, plain light parchment background, character reference sheet",
+      "seed": 4099152029
+    }
+  ],
+  "scenes": [
+    {
+      "id": "tang-da-o-troezen",
+      "title": "Tảng đá ở Troezen",
+      "narrator": "ke-chuyen",
+      "narration": "Vua Aegeus của Athens mãi không có con trai. Trên đường từ đền thần về, ông ghé thành Troezen, và ở đó ông ăn ở với nàng Aethra, con gái vua Pittheus. Trước khi trở về Athens, Aegeus đặt một thanh gươm và một đôi dép dưới một tảng đá lớn. Ông dặn Aethra: “Nếu nàng sinh con trai, khi nó lớn đủ sức lật được tảng đá này, hãy để nó lấy gươm và dép, rồi tìm tới ta. Nhưng đừng cho ai biết nó là con ta.” Ở Athens, vua có năm mươi người cháu, con của em trai Pallas, đang rình rập ngai vàng. Aegeus sợ họ hại đứa con chưa chào đời.",
+      "subtitles": [
+        "Vua Aegeus của Athens mãi không có con trai.",
+        "Trên đường từ đền thần về, ông ghé thành Troezen, và ở đó ông ăn ở với nàng Aethra,",
+        "con gái vua Pittheus.",
+        "Trước khi trở về Athens, Aegeus đặt một thanh gươm và một đôi dép dưới một tảng đá lớn.",
+        "Ông dặn Aethra: “Nếu nàng sinh con trai, khi nó lớn đủ sức lật được tảng đá này,",
+        "hãy để nó lấy gươm và dép, rồi tìm tới ta.",
+        "Nhưng đừng cho ai biết nó là con ta.” Ở Athens, vua có năm mươi người cháu,",
+        "con của em trai Pallas, đang rình rập ngai vàng.",
+        "Aegeus sợ họ hại đứa con chưa chào đời."
+      ],
+      "image": {
+        "prompt": "on a rocky hillside above the sea at Troezen, the old king Aegeus placing an ivory-hilted bronze sword and a pair of sandals under a huge boulder while a young woman Aethra watches",
+        "seed": 2965392933,
+        "character": "aegeus"
+      },
+      "video": {
+        "motionPrompt": "the king's hands slide the sword beneath the stone, sea wind ruffles the woman's veil, gulls glide over the bay",
+        "seed": 3201786456
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhac-tang-da",
+      "title": "Nhấc tảng đá",
+      "narrator": "ke-chuyen",
+      "narration": "Aethra sinh được một con trai, đặt tên là Theseus. Cậu lớn lên khoẻ mạnh, can đảm, nổi tiếng khắp vùng. Khi tròn tuổi trưởng thành, mẹ dẫn cậu tới tảng đá. Theseus ghé vai vào, gồng mình đẩy một hơi, tảng đá lật nghiêng, để lộ thanh gươm và đôi dép của cha. Mẹ kể cho chàng nghe cha chàng là ai. Người ta khuyên chàng đi đường biển cho an toàn, vì đường bộ đầy kẻ cướp. Nhưng chàng chọn đường bộ, vì chàng muốn dẹp yên con đường ấy cho người đi sau.",
+      "subtitles": [
+        "Aethra sinh được một con trai, đặt tên là Theseus.",
+        "Cậu lớn lên khoẻ mạnh, can đảm, nổi tiếng khắp vùng.",
+        "Khi tròn tuổi trưởng thành, mẹ dẫn cậu tới tảng đá.",
+        "Theseus ghé vai vào, gồng mình đẩy một hơi, tảng đá lật nghiêng,",
+        "để lộ thanh gươm và đôi dép của cha.",
+        "Mẹ kể cho chàng nghe cha chàng là ai.",
+        "Người ta khuyên chàng đi đường biển cho an toàn, vì đường bộ đầy kẻ cướp.",
+        "Nhưng chàng chọn đường bộ, vì chàng muốn dẹp yên con đường ấy cho người đi sau."
+      ],
+      "image": {
+        "prompt": "a strong young man heaving aside a massive boulder on a hillside, revealing an ivory-hilted sword and sandals, his mother watching proudly",
+        "seed": 2738159020,
+        "character": "theseus"
+      },
+      "video": {
+        "motionPrompt": "the boulder tilts and rolls aside, dust lifts in the sunlight, the young man reaches down and lifts the sword",
+        "seed": 1097786458
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-duong-ke-cuop",
+      "title": "Con đường kẻ cướp",
+      "narrator": "ke-chuyen",
+      "narration": "Ở Epidaurus, chàng gặp Periphetes, kẻ dùng chiếc chùy sắt đánh người qua đường. Chàng hạ hắn và giữ chiếc chùy làm vũ khí. Ở eo đất Corinth là Sinis, kẻ bẻ cong hai cây thông để hại khách lạ, chàng bắt hắn chịu chính trò của hắn. Ở Crommyon, chàng diệt con lợn lòi hung dữ. Trên vách đá Megara, Sciron bắt khách rửa chân cho hắn rồi đá họ xuống biển, chàng ném hắn xuống đúng chỗ ấy. Ở Eleusis, chàng vật ngã Cercyon. Cuối cùng là Procrustes, kẻ đặt khách lên chiếc giường của hắn, người dài thì hắn chặt bớt, người ngắn thì hắn kéo ra. Theseus bắt hắn nằm lên chính giường mình, và con đường từ đó được yên.",
+      "subtitles": [
+        "Ở Epidaurus, chàng gặp Periphetes, kẻ dùng chiếc chùy sắt đánh người qua đường.",
+        "Chàng hạ hắn và giữ chiếc chùy làm vũ khí.",
+        "Ở eo đất Corinth là Sinis, kẻ bẻ cong hai cây thông để hại khách lạ,",
+        "chàng bắt hắn chịu chính trò của hắn.",
+        "Ở Crommyon, chàng diệt con lợn lòi hung dữ.",
+        "Trên vách đá Megara, Sciron bắt khách rửa chân cho hắn rồi đá họ xuống biển,",
+        "chàng ném hắn xuống đúng chỗ ấy.",
+        "Ở Eleusis, chàng vật ngã Cercyon.",
+        "Cuối cùng là Procrustes, kẻ đặt khách lên chiếc giường của hắn,",
+        "người dài thì hắn chặt bớt, người ngắn thì hắn kéo ra.",
+        "Theseus bắt hắn nằm lên chính giường mình, và con đường từ đó được yên."
+      ],
+      "image": {
+        "prompt": "seen from afar along a rugged coastal road of ancient Greece, the young hero with a heavy iron club confronting a series of bandits on cliffs and pine forests, travelers watching from a distance",
+        "seed": 1011566766,
+        "character": "theseus"
+      },
+      "video": {
+        "motionPrompt": "the hero strides along the winding road, pine trees sway, a bandit flees across the cliff, distant travelers lift their heads in relief",
+        "seed": 627681149
+      },
+      "voice": {}
+    },
+    {
+      "id": "chen-ruou-doc",
+      "title": "Chén rượu độc",
+      "narrator": "ke-chuyen",
+      "narration": "Theseus tới Athens. Khi ấy, vua Aegeus đang sống với nàng phù thuỷ Medea, người đã hứa sinh con cho ông. Medea nhận ra chàng trai lạ là ai và sợ mất chỗ của mình. Nàng nói với vua rằng kẻ này tới để mưu hại ông. Vua không nhận ra con mình, liền sai chàng đi bắt con bò mộng hung dữ ở Marathon. Theseus bắt được con bò và đem về. Medea bèn rót sẵn thuốc độc vào chén rượu, để vua mời chàng uống trong buổi tiệc. Chén rượu vừa trao tay, Theseus rút gươm ra như để cắt thịt. Vua nhìn thấy chuôi gươm, nhận ra gươm của mình, liền hất văng chén rượu khỏi tay con.",
+      "subtitles": [
+        "Theseus tới Athens.",
+        "Khi ấy, vua Aegeus đang sống với nàng phù thuỷ Medea, người đã hứa sinh con cho ông.",
+        "Medea nhận ra chàng trai lạ là ai và sợ mất chỗ của mình.",
+        "Nàng nói với vua rằng kẻ này tới để mưu hại ông.",
+        "Vua không nhận ra con mình, liền sai chàng đi bắt con bò mộng hung dữ ở Marathon.",
+        "Theseus bắt được con bò và đem về.",
+        "Medea bèn rót sẵn thuốc độc vào chén rượu, để vua mời chàng uống trong buổi tiệc.",
+        "Chén rượu vừa trao tay, Theseus rút gươm ra như để cắt thịt.",
+        "Vua nhìn thấy chuôi gươm, nhận ra gươm của mình, liền hất văng chén rượu khỏi tay con."
+      ],
+      "image": {
+        "prompt": "a feast in an ancient Athenian palace hall, the old king knocking a golden cup from the young hero's hand as he recognizes the ivory-hilted sword, a dark-robed sorceress stepping back in alarm",
+        "seed": 3295542971,
+        "character": "aegeus"
+      },
+      "video": {
+        "motionPrompt": "the golden cup flies and wine splashes across the floor, the king grips his son's arms, the sorceress retreats into shadow",
+        "seed": 227145390
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-vat-cho-crete",
+      "title": "Cống vật cho Crete",
+      "narrator": "ke-chuyen",
+      "narration": "Medea bị đuổi khỏi Athens. Nhưng thành phố đang mang một nỗi đau lớn hơn. Nhiều năm trước, con trai của vua Minos xứ Crete đã bỏ mạng trên đất Athens. Minos đem quân trả thù, trời lại giáng dịch bệnh, và Athens phải chịu cống nạp: cứ đến kỳ, gửi bảy chàng trai và bảy cô gái sang Crete làm mồi cho Minotaur. Đó là con quái vật mình người đầu bò, con của hoàng hậu Pasiphae, bị nhốt trong toà mê cung do người thợ Daedalus dựng nên. Ai vào mê cung đều không tìm được lối ra. Đến kỳ cống nạp thứ ba, Theseus tự nguyện đi cùng đoàn người, nhiều người nói chàng bị bốc thăm trúng.",
+      "subtitles": [
+        "Medea bị đuổi khỏi Athens.",
+        "Nhưng thành phố đang mang một nỗi đau lớn hơn.",
+        "Nhiều năm trước, con trai của vua Minos xứ Crete đã bỏ mạng trên đất Athens.",
+        "Minos đem quân trả thù, trời lại giáng dịch bệnh,",
+        "và Athens phải chịu cống nạp: cứ đến kỳ,",
+        "gửi bảy chàng trai và bảy cô gái sang Crete làm mồi cho Minotaur.",
+        "Đó là con quái vật mình người đầu bò, con của hoàng hậu Pasiphae,",
+        "bị nhốt trong toà mê cung do người thợ Daedalus dựng nên.",
+        "Ai vào mê cung đều không tìm được lối ra.",
+        "Đến kỳ cống nạp thứ ba, Theseus tự nguyện đi cùng đoàn người,",
+        "nhiều người nói chàng bị bốc thăm trúng."
+      ],
+      "image": {
+        "prompt": "at the harbor of ancient Athens, a ship with black sails waiting, seven young men and seven young women in white saying farewell to weeping families, Theseus standing among them with his head held high",
+        "seed": 1093569485,
+        "character": "theseus"
+      },
+      "video": {
+        "motionPrompt": "the black sails ripple in the wind, families embrace the youths, waves lap at the stone quay",
+        "seed": 3946969802
+      },
+      "voice": {}
+    },
+    {
+      "id": "canh-buom-den",
+      "title": "Cánh buồm đen",
+      "narrator": "ke-chuyen",
+      "narration": "Con tàu chở đoàn người xấu số bao giờ cũng giương buồm đen. Trước khi đi, vua Aegeus dặn con: “Nếu con còn sống trở về, hãy giương buồm trắng, để cha từ xa đã biết tin vui.” Theseus hứa với cha. Ông vua già đứng trên bờ, nhìn con tàu buồm đen nhỏ dần ngoài khơi, cho tới khi chỉ còn là một chấm mờ giữa biển.",
+      "subtitles": [
+        "Con tàu chở đoàn người xấu số bao giờ cũng giương buồm đen.",
+        "Trước khi đi, vua Aegeus dặn con: “Nếu con còn sống trở về, hãy giương buồm trắng,",
+        "để cha từ xa đã biết tin vui.” Theseus hứa với cha.",
+        "Ông vua già đứng trên bờ, nhìn con tàu buồm đen nhỏ dần ngoài khơi,",
+        "cho tới khi chỉ còn là một chấm mờ giữa biển."
+      ],
+      "image": {
+        "prompt": "the old king Aegeus standing on a high rock above the sea holding up a folded white sail, watching a black-sailed ship sail away toward the horizon",
+        "seed": 2768707901,
+        "character": "aegeus"
+      },
+      "video": {
+        "motionPrompt": "the ship shrinks into the distance, the king's robe flaps in the wind, clouds move slowly over the sea",
+        "seed": 2743849992
+      },
+      "voice": {}
+    },
+    {
+      "id": "cuon-chi-cua-ariadne",
+      "title": "Cuộn chỉ của Ariadne",
+      "narrator": "ke-chuyen",
+      "narration": "Tới Crete, công chúa Ariadne, con gái vua Minos, vừa nhìn thấy Theseus đã đem lòng yêu. Nàng hứa giúp chàng nếu chàng đưa nàng về Athens làm vợ. Theseus thề sẽ làm như vậy. Ariadne tìm tới người thợ Daedalus, và theo lời ông chỉ, nàng trao cho Theseus một cuộn chỉ. Nàng thì thầm: “Chàng buộc đầu chỉ vào cửa mê cung, vừa đi vừa thả. Khi xong việc, chàng cứ lần theo sợi chỉ mà trở ra.”",
+      "subtitles": [
+        "Tới Crete, công chúa Ariadne, con gái vua Minos, vừa nhìn thấy Theseus đã đem lòng yêu.",
+        "Nàng hứa giúp chàng nếu chàng đưa nàng về Athens làm vợ.",
+        "Theseus thề sẽ làm như vậy.",
+        "Ariadne tìm tới người thợ Daedalus, và theo lời ông chỉ,",
+        "nàng trao cho Theseus một cuộn chỉ.",
+        "Nàng thì thầm: “Chàng buộc đầu chỉ vào cửa mê cung, vừa đi vừa thả.",
+        "Khi xong việc, chàng cứ lần theo sợi chỉ mà trở ra.”"
+      ],
+      "image": {
+        "prompt": "by night at the entrance of a vast stone labyrinth on Crete, princess Ariadne secretly pressing a ball of red thread into Theseus's hands, torchlight on Minoan red columns",
+        "seed": 169198898,
+        "character": "ariadne"
+      },
+      "video": {
+        "motionPrompt": "torch flames flicker, Ariadne glances over her shoulder, the red thread gleams as Theseus takes it",
+        "seed": 3679718746
+      },
+      "voice": {}
+    },
+    {
+      "id": "trong-me-cung",
+      "title": "Trong mê cung",
+      "narrator": "ke-chuyen",
+      "narration": "Theseus buộc chỉ vào cửa rồi bước vào bóng tối. Lối đi rẽ trái rẽ phải, tách đôi rồi lại nhập làm một, quay về chỗ cũ mà tưởng là chỗ mới. Chàng cứ đi, cuộn chỉ cứ nhỏ dần trong tay. Rồi ở chỗ sâu nhất của mê cung, chàng nghe tiếng thở phì phò nặng nề. Con Minotaur hiện ra, to lớn, sừng cong vút. Theseus không dùng gươm. Chàng lao vào, dùng chính đôi tay trần mà đánh, cho tới khi con quái vật đổ gục xuống nền đá lạnh và không bao giờ đứng dậy nữa. Rồi chàng lần theo sợi chỉ, đi ngược ra ánh sáng.",
+      "subtitles": [
+        "Theseus buộc chỉ vào cửa rồi bước vào bóng tối.",
+        "Lối đi rẽ trái rẽ phải, tách đôi rồi lại nhập làm một, quay về chỗ cũ mà tưởng là chỗ mới.",
+        "Chàng cứ đi, cuộn chỉ cứ nhỏ dần trong tay.",
+        "Rồi ở chỗ sâu nhất của mê cung, chàng nghe tiếng thở phì phò nặng nề.",
+        "Con Minotaur hiện ra, to lớn, sừng cong vút.",
+        "Theseus không dùng gươm.",
+        "Chàng lao vào, dùng chính đôi tay trần mà đánh,",
+        "cho tới khi con quái vật đổ gục xuống nền đá lạnh và không bao giờ đứng dậy nữa.",
+        "Rồi chàng lần theo sợi chỉ, đi ngược ra ánh sáng."
+      ],
+      "image": {
+        "prompt": "deep in a dim stone labyrinth lit by a single torch, Theseus facing the towering bull-headed Minotaur in a tense standoff, a red thread trailing behind him through the winding corridors",
+        "seed": 653156801,
+        "character": "minotaur"
+      },
+      "video": {
+        "motionPrompt": "torchlight trembles on the walls, the Minotaur lowers its horns, Theseus braces himself, shadows lurch across the corridor",
+        "seed": 3077983047
+      },
+      "voice": {}
+    },
+    {
+      "id": "dao-naxos",
+      "title": "Đảo Naxos",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy, Theseus đưa Ariadne cùng các chàng trai cô gái Athens xuống tàu, trốn khỏi Crete. Tàu ghé đảo Naxos. Ở đó, thần rượu Dionysus đem lòng yêu Ariadne và mang nàng đi, đưa nàng về đảo Lemnos làm vợ. Người ta còn kể khác nhau, có người nói Theseus đã bỏ nàng ngủ lại trên bờ. Chỉ biết rằng khi tàu rời Naxos, trên tàu không còn Ariadne. Theseus lòng nặng trĩu, và trong nỗi buồn ấy, chàng quên mất một điều đã hứa với cha.",
+      "subtitles": [
+        "Đêm ấy, Theseus đưa Ariadne cùng các chàng trai cô gái Athens xuống tàu, trốn khỏi Crete.",
+        "Tàu ghé đảo Naxos.",
+        "Ở đó, thần rượu Dionysus đem lòng yêu Ariadne và mang nàng đi,",
+        "đưa nàng về đảo Lemnos làm vợ.",
+        "Người ta còn kể khác nhau, có người nói Theseus đã bỏ nàng ngủ lại trên bờ.",
+        "Chỉ biết rằng khi tàu rời Naxos, trên tàu không còn Ariadne.",
+        "Theseus lòng nặng trĩu, và trong nỗi buồn ấy, chàng quên mất một điều đã hứa với cha."
+      ],
+      "image": {
+        "prompt": "at dawn on the beach of Naxos, a ship sailing away from shore while the god Dionysus crowned with ivy leads Ariadne toward a grove of vines, Theseus standing at the stern looking back",
+        "seed": 2929804413,
+        "character": "ariadne"
+      },
+      "video": {
+        "motionPrompt": "the ship drifts away from the shore, vine leaves rustle in the grove, Theseus lowers his gaze, the dawn light spreads",
+        "seed": 1040872258
+      },
+      "voice": {}
+    },
+    {
+      "id": "bien-aegeus",
+      "title": "Biển Aegeus",
+      "narrator": "ke-chuyen",
+      "narration": "Từ ngày con đi, ngày nào vua Aegeus cũng trèo lên đồi thành Athens, nhìn ra biển. Rồi một hôm, ông thấy con tàu trở về, và trên cột buồm vẫn là cánh buồm đen. Ông tin rằng con trai mình đã chết trong mê cung. Nỗi đau quá lớn, ông vua già gieo mình từ trên cao xuống và chết. Theseus cập bến trong niềm vui chiến thắng, rồi nghe tin cha mất. Chàng lên ngôi vua Athens với chiếc áo tang trên vai. Vùng biển nơi ông vua già đã chờ con mỏi mắt, từ đó mang tên ông, gọi là biển Aegeus.",
+      "subtitles": [
+        "Từ ngày con đi, ngày nào vua Aegeus cũng trèo lên đồi thành Athens, nhìn ra biển.",
+        "Rồi một hôm, ông thấy con tàu trở về, và trên cột buồm vẫn là cánh buồm đen.",
+        "Ông tin rằng con trai mình đã chết trong mê cung.",
+        "Nỗi đau quá lớn, ông vua già gieo mình từ trên cao xuống và chết.",
+        "Theseus cập bến trong niềm vui chiến thắng, rồi nghe tin cha mất.",
+        "Chàng lên ngôi vua Athens với chiếc áo tang trên vai.",
+        "Vùng biển nơi ông vua già đã chờ con mỏi mắt, từ đó mang tên ông, gọi là biển Aegeus."
+      ],
+      "image": {
+        "prompt": "seen from afar, the lonely figure of the old king on the edge of the Athenian acropolis cliff staring at an approaching ship with a black sail, the vast blue sea below glowing in late light",
+        "seed": 2809513287,
+        "character": "aegeus"
+      },
+      "video": {
+        "motionPrompt": "the black-sailed ship approaches slowly, the old king's robe trembles in the wind, the light dims over the sea",
+        "seed": 1917339339
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "heroic and solemn ancient Greek inspired instrumental, lyre, aulos and deep frame drums, a tense rhythmic middle section and a mournful ending with sea wind, no vocals",
+    "durationSeconds": 180,
+    "seed": 1197874459
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "slug": "cao-va-nhim",
+  "shelf": "kids",
+  "title": "Cáo và nhím",
+  "summary": "Cáo bị dòng nước cuốn xuống khe sâu, nằm mệt lả, lại bị ruồi muỗi bâu kín. Nhím tốt bụng muốn đuổi giúp, nhưng cáo lắc đầu từ chối với một lý do không ai ngờ. Ngụ ngôn Aesop kể nhẹ nhàng cho trẻ nhỏ.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Fox and the Hedgehog» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản dịch nào. Truyện gốc chỉ vài câu: Mèo Miu dẫn chuyện; thoại, chi tiết đời thường và lời rút ý cuối truyện do người viết thêm. Bản cho trẻ nhỏ: lũ ruồi muỗi hút máu trong bản gốc được kể nhẹ thành đã no căng bụng, đốt ít; thêm cảnh cáo muốn sang vườn nho bên kia sông và cảnh cáo khỏe lại trèo lên khỏi khe.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, warm gentle light, rounded friendly shapes, calm and safe mood for young children, rushing river among rocks, a deep green ravine with ferns and moss, vineyard on the far bank, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 4225034910
+    },
+    {
+      "id": "cao",
+      "name": "Cáo",
+      "seed": 3868949906,
+      "sheetPrompt": "a slender orange fox with a fluffy white-tipped tail, clever eyes, a little scruffy and tired, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nhim",
+      "name": "Nhím",
+      "seed": 2667147791,
+      "sheetPrompt": "a small round brown hedgehog with soft-looking spines, a pointy pink nose and kind little eyes, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Mùa hè, buổi tối ngồi ngoài hiên, các bạn có bị muỗi đốt bao giờ chưa? Ngứa ơi là ngứa! Ai mà chẳng muốn đuổi muỗi đi ngay. Thế mà hôm nay có một chú cáo lại xin đừng đuổi lũ ruồi muỗi đi đấy. Lạ chưa? Chú cáo ấy có lý do riêng của mình đấy. Mình cùng nghe xem vì sao nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Mùa hè, buổi tối ngồi ngoài hiên, các bạn có bị muỗi đốt bao giờ chưa?",
+        "Ngứa ơi là ngứa! Ai mà chẳng muốn đuổi muỗi đi ngay.",
+        "Thế mà hôm nay có một chú cáo lại xin đừng đuổi lũ ruồi muỗi đi đấy.",
+        "Lạ chưa? Chú cáo ấy có lý do riêng của mình đấy.",
+        "Mình cùng nghe xem vì sao nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a porch on a summer evening holding an open picture book, scratching her ear, a few tiny gnats hover in the warm lamplight",
+        "seed": 3965725809
+      },
+      "video": {
+        "motionPrompt": "the cat swats at a gnat and giggles, then waves hello, fireflies glow in the garden, slow gentle camera push-in",
+        "seed": 2915533983
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-song",
+      "title": "Cáo bơi qua sông",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một chú cáo muốn sang bờ bên kia sông, nơi có vườn nho chín mọng. Cáo bảo mình: Sông này có là gì, mình bơi một lát là tới! Nói rồi cáo nhảy ùm xuống nước. Nhưng sông chảy xiết hơn cáo tưởng. Dòng nước cuốn cáo đi phăng phăng, xoay vòng vòng, đẩy cáo trôi xa mãi, xa mãi.",
+      "subtitles": [
+        "Ngày xưa có một chú cáo muốn sang bờ bên kia sông, nơi có vườn nho chín mọng.",
+        "Cáo bảo mình: Sông này có là gì, mình bơi một lát là tới!",
+        "Nói rồi cáo nhảy ùm xuống nước.",
+        "Nhưng sông chảy xiết hơn cáo tưởng.",
+        "Dòng nước cuốn cáo đi phăng phăng, xoay vòng vòng, đẩy cáo trôi xa mãi, xa mãi."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "a confident orange fox leaps into a fast river among rocks, ripe purple grapes hang in a vineyard on the far bank, the current swirls around him",
+        "seed": 3170284383
+      },
+      "video": {
+        "motionPrompt": "the fox jumps in with a splash and paddles hard, the current spins him around and carries him downstream, water foams around the rocks",
+        "seed": 33548465
+      },
+      "voice": {}
+    },
+    {
+      "id": "duoi-khe",
+      "title": "Dưới khe sâu",
+      "narrator": "ke-chuyen",
+      "narration": "Dòng nước đẩy cáo xuống một cái khe sâu đầy đá và rêu. Cáo bị va vào đá, người đau ê ẩm, mệt lả, không sao nhấc mình dậy được. Cáo nằm thở dốc bên bờ khe. Chẳng bao lâu, một đàn ruồi muỗi đói bay vo ve tới, bâu kín lên người cáo, đốt khắp nơi. Cáo chỉ biết nằm yên, chẳng còn sức mà đuổi, đến cái đuôi cũng không vẫy nổi.",
+      "subtitles": [
+        "Dòng nước đẩy cáo xuống một cái khe sâu đầy đá và rêu.",
+        "Cáo bị va vào đá, người đau ê ẩm, mệt lả, không sao nhấc mình dậy được.",
+        "Cáo nằm thở dốc bên bờ khe.",
+        "Chẳng bao lâu, một đàn ruồi muỗi đói bay vo ve tới, bâu kín lên người cáo, đốt khắp nơi.",
+        "Cáo chỉ biết nằm yên, chẳng còn sức mà đuổi, đến cái đuôi cũng không vẫy nổi."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "a tired scruffy orange fox lies resting on mossy stones at the bottom of a deep green ravine with ferns, a small cloud of tiny gnats buzzes around him",
+        "seed": 2420212740
+      },
+      "video": {
+        "motionPrompt": "the fox lies still and sighs, his ears droop, a little cloud of gnats circles and settles, ferns sway gently, water trickles",
+        "seed": 1155046447
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhim-den",
+      "title": "Nhím đi ngang qua",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc ấy, một bạn nhím đi ngang qua khe. Thấy cáo nằm khổ sở, nhím thương lắm, lại gần hỏi: Bác cáo ơi, bác bị ruồi muỗi đốt khổ quá. Để cháu dùng gai xua chúng đi giúp bác nhé? Cáo khẽ lắc đầu: Không, không, cháu đừng đuổi chúng. Nhím tròn mắt ngạc nhiên: Sao lại thế ạ? Bác không muốn hết bị đốt sao?",
+      "subtitles": [
+        "Đúng lúc ấy, một bạn nhím đi ngang qua khe.",
+        "Thấy cáo nằm khổ sở, nhím thương lắm, lại gần hỏi: Bác cáo ơi,",
+        "bác bị ruồi muỗi đốt khổ quá.",
+        "Để cháu dùng gai xua chúng đi giúp bác nhé?",
+        "Cáo khẽ lắc đầu: Không, không, cháu đừng đuổi chúng.",
+        "Nhím tròn mắt ngạc nhiên: Sao lại thế ạ?",
+        "Bác không muốn hết bị đốt sao?"
+      ],
+      "image": {
+        "character": "nhim",
+        "prompt": "a small kind hedgehog trundles along the ravine and stops beside the tired fox, offering to help, the fox gently shakes his head",
+        "seed": 3247855527
+      },
+      "video": {
+        "motionPrompt": "the hedgehog waddles closer and raises a tiny paw, the fox shakes his head slowly, the hedgehog tilts its head in surprise",
+        "seed": 2827837851
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-cao",
+      "title": "Lời giải thích của cáo",
+      "narrator": "ke-chuyen",
+      "narration": "Cáo thều thào: Cháu nhìn kỹ xem, lũ này đã đốt no căng bụng rồi, giờ chúng chỉ đậu đấy, đốt ít thôi. Nếu cháu đuổi chúng đi, một đàn khác đang đói meo sẽ bay đến ngay, đốt bác đau hơn nhiều. Nhím gật gù: Ra là thế! Nhím ngồi lại với cáo cho cáo đỡ buồn. Mấy hôm sau, cáo khỏe lại, lần theo bờ khe trèo lên, cảm ơn nhím rối rít.",
+      "subtitles": [
+        "Cáo thều thào: Cháu nhìn kỹ xem, lũ này đã đốt no căng bụng rồi, giờ chúng chỉ đậu đấy,",
+        "đốt ít thôi.",
+        "Nếu cháu đuổi chúng đi, một đàn khác đang đói meo sẽ bay đến ngay, đốt bác đau hơn nhiều.",
+        "Nhím gật gù: Ra là thế!",
+        "Nhím ngồi lại với cáo cho cáo đỡ buồn.",
+        "Mấy hôm sau, cáo khỏe lại, lần theo bờ khe trèo lên, cảm ơn nhím rối rít."
+      ],
+      "image": {
+        "character": "cao",
+        "prompt": "the fox explains softly to the listening hedgehog in the ravine, then a later sunny scene of the recovered fox climbing out along the rocks while the hedgehog waves",
+        "seed": 1447661963
+      },
+      "video": {
+        "motionPrompt": "the fox speaks slowly and the hedgehog nods, time passes with shifting light, the fox stands, stretches and climbs up the mossy rocks, waving thanks",
+        "seed": 1359081080
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, đôi khi một cái phiền nhỏ mà mình đã quen còn dễ chịu hơn một cái phiền to mới đến. Cáo thật khéo nghĩ. Nhưng Miu cũng học được từ cáo thêm một điều: sông chảy xiết thì đừng có liều mà nhảy xuống nhé! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không,",
+        "đôi khi một cái phiền nhỏ mà mình đã quen còn dễ chịu hơn một cái phiền to mới đến.",
+        "Cáo thật khéo nghĩ.",
+        "Nhưng Miu cũng học được từ cáo thêm một điều:",
+        "sông chảy xiết thì đừng có liều mà nhảy xuống nhé!",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye on a sunny riverbank, the fox and the hedgehog sit together on a rock, the vineyard glows in the background",
+        "seed": 2401933408
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly, the fox wags his fluffy tail, the hedgehog rolls happily, the river sparkles, gentle camera pull-back",
+        "seed": 275817554
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle European folk melody, acoustic guitar and soft flute, flowing water rhythm then calm and thoughtful, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 4054797696
+  }
+}

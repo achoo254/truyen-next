@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "slug": "meo-gia-va-lu-chuot",
+  "shelf": "kids",
+  "title": "Mèo già và lũ chuột",
+  "summary": "Lũ chuột trốn kỹ trong hang, mèo già bèn treo mình lên móc giả vờ nằm im như cái túi để dụ chúng ra. Nhưng một chú chuột khôn ngoan đã nhận ra mưu mẹo. Ngụ ngôn Aesop kể nhẹ nhàng cho trẻ nhỏ về sự cẩn thận.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop «The Cat and the Mice» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản dịch nào. Truyện gốc chỉ vài câu: Mèo Miu dẫn chuyện; thoại, chi tiết đời thường và lời rút ý cuối truyện do người viết thêm. Bản cho trẻ nhỏ: mèo bắt chuột được kể nhẹ thành tóm được chú nào là chú ấy không về hang nữa, và mèo giả vờ ngủ im bất động thay cho giả vờ đã chết như bản gốc; thêm cảnh lũ chuột gặm bánh mì, bà chủ nhà than phiền.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, warm gentle light, rounded friendly shapes, calm and safe mood for young children, cosy old European country kitchen with wooden beams, pegs on the wall, flour sacks and cheese, mouse holes in the skirting board, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2553391745
+    },
+    {
+      "id": "meo-gia",
+      "name": "Mèo già",
+      "seed": 1062402977,
+      "sheetPrompt": "a plump old grey tabby cat with long whiskers and sly half-closed eyes, funny not scary, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chuot-gia",
+      "name": "Chú chuột khôn",
+      "seed": 2817945253,
+      "sheetPrompt": "a small brown mouse with round ears, tiny spectacles and a wise calm smile, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "lu-chuot",
+      "name": "Lũ chuột",
+      "seed": 3415763921,
+      "sheetPrompt": "a group of little grey mice with pink ears and long tails, curious and nervous, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Hôm nay Miu kể chuyện về một bác mèo già, họ hàng xa của Miu đấy. Bác mèo này nghĩ ra một mưu mẹo rất buồn cười để bắt chuột. Nhưng lũ chuột cũng chẳng vừa đâu. Ai khôn hơn ai nhỉ? Các bạn nghe thật kỹ, nghe xong rồi bảo Miu nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Hôm nay Miu kể chuyện về một bác mèo già, họ hàng xa của Miu đấy.",
+        "Bác mèo này nghĩ ra một mưu mẹo rất buồn cười để bắt chuột.",
+        "Nhưng lũ chuột cũng chẳng vừa đâu. Ai khôn hơn ai nhỉ?",
+        "Các bạn nghe thật kỹ, nghe xong rồi bảo Miu nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits in a cosy kitchen holding an open picture book, a few little mice peek out curiously from holes in the wall",
+        "seed": 1695203594
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello and winks, the mice duck back into their holes then peek out again, a candle flickers, slow gentle camera push-in",
+        "seed": 2407173003
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-nhieu-chuot",
+      "title": "Ngôi nhà lắm chuột",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một ngôi nhà nhiều chuột lắm. Đêm nào lũ chuột cũng kéo nhau ra, gặm bánh mì trên bàn, khoét thủng bao bột, tha cả miếng phô mai vào hang. Sáng ra, bà chủ nhà nhìn căn bếp bừa bộn, thở dài: Trời ơi, lại mất nửa cái bánh nữa rồi! Ước gì có một chú mèo đến ở với nhà mình. Lũ chuột trong hang nghe thấy, khúc khích cười, chẳng sợ gì cả.",
+      "subtitles": [
+        "Ngày xưa có một ngôi nhà nhiều chuột lắm.",
+        "Đêm nào lũ chuột cũng kéo nhau ra, gặm bánh mì trên bàn, khoét thủng bao bột,",
+        "tha cả miếng phô mai vào hang.",
+        "Sáng ra, bà chủ nhà nhìn căn bếp bừa bộn, thở dài: Trời ơi, lại mất nửa cái bánh nữa rồi!",
+        "Ước gì có một chú mèo đến ở với nhà mình.",
+        "Lũ chuột trong hang nghe thấy, khúc khích cười, chẳng sợ gì cả."
+      ],
+      "image": {
+        "character": "lu-chuot",
+        "prompt": "night in an old country kitchen, little mice nibble a loaf of bread on the table, drag a piece of cheese and nibble a hole in a flour sack, moonlight through the window",
+        "seed": 3015577864
+      },
+      "video": {
+        "motionPrompt": "the mice scurry across the table and carry crumbs away, flour puffs out of the sack, then morning light shows a sighing housewife with her hands on her cheeks",
+        "seed": 4082690424
+      },
+      "voice": {}
+    },
+    {
+      "id": "meo-den",
+      "title": "Mèo già đến nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Chẳng bao lâu, có một bác mèo già nghe tin, lần đến ngôi nhà ấy. Đêm đêm, mèo già rình bên góc bếp. Chú chuột nào chạy ra mà bị mèo tóm được, là chú ấy không bao giờ quay về hang nữa. Lũ chuột sợ quá, rủ nhau trốn tịt trong hang, chẳng chú nào dám thò mũi ra. Mèo già rình mãi, rình mãi, ngáp dài ngáp ngắn mà chẳng bắt được ai.",
+      "subtitles": [
+        "Chẳng bao lâu, có một bác mèo già nghe tin, lần đến ngôi nhà ấy.",
+        "Đêm đêm, mèo già rình bên góc bếp.",
+        "Chú chuột nào chạy ra mà bị mèo tóm được, là chú ấy không bao giờ quay về hang nữa.",
+        "Lũ chuột sợ quá, rủ nhau trốn tịt trong hang, chẳng chú nào dám thò mũi ra.",
+        "Mèo già rình mãi, rình mãi, ngáp dài ngáp ngắn mà chẳng bắt được ai."
+      ],
+      "image": {
+        "character": "meo-gia",
+        "prompt": "a plump old grey tabby cat crouches and watches in the corner of the dark kitchen, rows of little mouse holes in the wall with tiny worried eyes peeking out",
+        "seed": 1442249421
+      },
+      "video": {
+        "motionPrompt": "the old cat waits with a twitching tail, tiny eyes blink inside the holes and vanish, the clock ticks, the cat yawns with boredom",
+        "seed": 1238671417
+      },
+      "voice": {}
+    },
+    {
+      "id": "treo-minh",
+      "title": "Mèo già giả vờ",
+      "narrator": "ke-chuyen",
+      "narration": "Mèo già nghĩ bụng: Phải có mẹo mới dụ được chúng ra. Thế là mèo nhảy lên cái móc trên tường, treo mình lủng lẳng, đầu chúc xuống, mắt nhắm nghiền, chẳng nhúc nhích tí nào. Trông bác giống hệt một cái túi vải cũ ai đó treo quên. Mèo nằm im, chờ lũ chuột tưởng mình đang ngủ say mà chạy ra.",
+      "subtitles": [
+        "Mèo già nghĩ bụng: Phải có mẹo mới dụ được chúng ra.",
+        "Thế là mèo nhảy lên cái móc trên tường, treo mình lủng lẳng, đầu chúc xuống,",
+        "mắt nhắm nghiền, chẳng nhúc nhích tí nào.",
+        "Trông bác giống hệt một cái túi vải cũ ai đó treo quên.",
+        "Mèo nằm im, chờ lũ chuột tưởng mình đang ngủ say mà chạy ra."
+      ],
+      "image": {
+        "character": "meo-gia",
+        "prompt": "a funny plump old tabby cat hangs upside down from a wooden peg on the kitchen wall with eyes shut tight, looking like an old cloth bag, perfectly still",
+        "seed": 4103662340
+      },
+      "video": {
+        "motionPrompt": "the cat hangs very still and sways gently like a sack, one eye opens a tiny crack and quickly shuts again, comic timing",
+        "seed": 2321329208
+      },
+      "voice": {}
+    },
+    {
+      "id": "chuot-khon",
+      "title": "Chú chuột khôn ngoan",
+      "narrator": "ke-chuyen",
+      "narration": "Một chú chuột khôn ngoan rón rén thò đầu ra khỏi hang, ngó lên cái móc. Chú nhìn thật lâu, rồi cười khúc khích: Chào bà mèo! Bà khéo giả vờ lắm. Nhưng bà có biến thành bao bột thật, chúng tôi cũng chẳng dại gì mà lại gần đâu! Nói rồi chú chui vào hang, dặn cả nhà cứ ở yên trong đó. Mèo già xấu hổ, tụt xuống đất, lững thững bỏ đi.",
+      "subtitles": [
+        "Một chú chuột khôn ngoan rón rén thò đầu ra khỏi hang, ngó lên cái móc.",
+        "Chú nhìn thật lâu, rồi cười khúc khích: Chào bà mèo!",
+        "Bà khéo giả vờ lắm.",
+        "Nhưng bà có biến thành bao bột thật, chúng tôi cũng chẳng dại gì mà lại gần đâu!",
+        "Nói rồi chú chui vào hang, dặn cả nhà cứ ở yên trong đó.",
+        "Mèo già xấu hổ, tụt xuống đất, lững thững bỏ đi."
+      ],
+      "image": {
+        "character": "chuot-gia",
+        "prompt": "a wise little mouse with tiny spectacles peeks out of a hole and grins up at an old tabby cat hanging from a peg, the cat opens one eye in embarrassment",
+        "seed": 1919677394
+      },
+      "video": {
+        "motionPrompt": "the mouse waves a tiny paw and ducks back inside, the cat drops down from the peg, shakes himself and slinks away with drooping whiskers",
+        "seed": 2613257366
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-thuc",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, chú chuột ấy khôn thật đấy. Miu là mèo mà cũng phải khen. Khi ai đã từng lừa mình một lần, mình nên cẩn thận, đừng vội tin những gì trông có vẻ vô hại. Còn Miu thì không thèm bắt chuột đâu, Miu thích cá hơn. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Các bạn thấy không, chú chuột ấy khôn thật đấy.",
+        "Miu là mèo mà cũng phải khen.",
+        "Khi ai đã từng lừa mình một lần, mình nên cẩn thận,",
+        "đừng vội tin những gì trông có vẻ vô hại.",
+        "Còn Miu thì không thèm bắt chuột đâu, Miu thích cá hơn.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye in the cosy kitchen, little mice peek out happily from their holes, a plate of fish on the table",
+        "seed": 3352145937
+      },
+      "video": {
+        "motionPrompt": "the cat waves slowly and points at the fish, the mice wave back from their holes, candlelight flickers, gentle camera pull-back",
+        "seed": 3736105808
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful European kitchen melody, bassoon and pizzicato strings, sneaky tiptoe rhythm with a funny ending, slow tempo, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2178352290
+  }
+}
