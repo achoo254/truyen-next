@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "slug": "chang-nong-dan-va-con-meo",
+  "shelf": "world",
+  "title": "Chàng nông dân và con mèo",
+  "summary": "Nghe lời dặn trong giấc mơ, chàng trai nghèo đem nửa gia tài của người cha keo kiệt trả lại cho người nghèo, nửa kia ném xuống biển, chỉ giữ lại sáu đồng bạc nổi trên mặt nước. Sáu đồng ấy mua được một con vật lạ chưa ai từng thấy ở xứ chàng: một con mèo. Truyện dân gian Iceland trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "su-tich"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Cottager And His Cat\" trong The Crimson Fairy Book do Andrew Lang biên tập (1903), chép từ truyện dân gian Iceland (Isländische Märchen), Project Gutenberg #2435, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ trọn cốt truyện; chuyện cha mẹ chàng trai qua đời kể ngắn gọn, con mèo đuổi lũ chuột chạy khỏi cung điện, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Iceland, Andrew Lang chép (1903)",
+  "style": "classic Nordic Icelandic fairy tale picture book illustration, turf-roofed cottages, grey sea cliffs and green meadows, a wooden royal hall with carved beams and long tables, wool cloaks and knitted patterns, soft watercolor textures, colors of moss green, slate blue and warm firelight, cozy gentle mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chang-trai",
+      "name": "Chàng trai nghèo",
+      "sheetPrompt": "an honest kind young Icelandic man from an old folk tale, straw-blond hair, rosy cheeks, patched grey wool cloak and knitted cap, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3759216481
+    },
+    {
+      "id": "con-meo",
+      "name": "Con mèo",
+      "sheetPrompt": "a small fluffy grey cat with very large bright green eyes from an old Icelandic folk tale, friendly and clever, sitting upright with its tail curled, full body, front and side views, plain light background, character reference sheet",
+      "seed": 664535381
+    }
+  ],
+  "scenes": [
+    {
+      "id": "giac-mo-la",
+      "title": "Giấc mơ lạ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, gần cung điện nhà vua có một túp lều xiêu vẹo, bẩn thỉu đến nỗi người ta bảo lợn cũng chê. Thế mà ông lão chủ lều lại giàu lắm, vì ông keo kiệt, thà nhịn đói cả ngày chứ không chịu tiêu một đồng vàng. Rồi một lần nhịn đói quá sức, ông ốm nặng và qua đời, để lại vợ và một cậu con trai. Đêm ấy, chàng trai nằm mơ thấy một người lạ bảo: “Mẹ con rồi cũng sẽ đi theo cha, và cả gia tài sẽ về tay con. Nhưng một nửa số tiền ấy cha con bóp nặn của người nghèo, con hãy trả lại cho họ. Nửa kia, con ném xuống biển. Hãy nhìn kỹ, thứ gì nổi lên thì vớt lấy mà giữ, dù chỉ là mẩu giấy.”",
+      "subtitles": [
+        "Ngày xưa, gần cung điện nhà vua có một túp lều xiêu vẹo,",
+        "bẩn thỉu đến nỗi người ta bảo lợn cũng chê.",
+        "Thế mà ông lão chủ lều lại giàu lắm, vì ông keo kiệt,",
+        "thà nhịn đói cả ngày chứ không chịu tiêu một đồng vàng.",
+        "Rồi một lần nhịn đói quá sức, ông ốm nặng và qua đời, để lại vợ và một cậu con trai.",
+        "Đêm ấy, chàng trai nằm mơ thấy một người lạ bảo: “Mẹ con rồi cũng sẽ đi theo cha,",
+        "và cả gia tài sẽ về tay con.",
+        "Nhưng một nửa số tiền ấy cha con bóp nặn của người nghèo, con hãy trả lại cho họ.",
+        "Nửa kia, con ném xuống biển.",
+        "Hãy nhìn kỹ, thứ gì nổi lên thì vớt lấy mà giữ, dù chỉ là mẩu giấy.”"
+      ],
+      "image": {
+        "prompt": "a tumbledown turf-roofed cottage at night beside a grand palace on a hill, a young man asleep on a straw bed, a mysterious glowing stranger appearing beside him in a dream",
+        "seed": 1530198138,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the stranger's soft glow pulses, the young man stirs in his sleep, the candle flickers",
+        "seed": 881722384
+      },
+      "voice": {}
+    },
+    {
+      "id": "sau-dong-bac",
+      "title": "Sáu đồng bạc",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng trai trăn trở mãi. Cả đời chàng đã biết đói rét là gì, ai lại chẳng muốn được sống sung túc một chút. Nhưng chàng thật thà, nghĩ tiền của bất chính thì có giữ cũng chẳng vui. Chàng tìm những nhà nghèo nhất làng, chia cho họ một nửa. Nửa kia, chàng ra mỏm đá nhô ra biển mà ném xuống. Tiền chìm mất tăm, chỉ còn một mẩu giấy nhỏ nổi trên sóng. Chàng cúi xuống vớt lên, mở ra thấy sáu đồng bạc. Chàng nhìn chúng, thở dài: “Sáu đồng thì làm được gì.” Nhưng có còn hơn không, chàng gói lại cẩn thận, cất vào túi áo.",
+      "subtitles": [
+        "Chàng trai trăn trở mãi.",
+        "Cả đời chàng đã biết đói rét là gì, ai lại chẳng muốn được sống sung túc một chút.",
+        "Nhưng chàng thật thà, nghĩ tiền của bất chính thì có giữ cũng chẳng vui.",
+        "Chàng tìm những nhà nghèo nhất làng, chia cho họ một nửa.",
+        "Nửa kia, chàng ra mỏm đá nhô ra biển mà ném xuống.",
+        "Tiền chìm mất tăm, chỉ còn một mẩu giấy nhỏ nổi trên sóng.",
+        "Chàng cúi xuống vớt lên, mở ra thấy sáu đồng bạc.",
+        "Chàng nhìn chúng, thở dài: “Sáu đồng thì làm được gì.”",
+        "Nhưng có còn hơn không, chàng gói lại cẩn thận, cất vào túi áo."
+      ],
+      "image": {
+        "prompt": "a young man standing on a rocky point above a grey sea, reaching down to pick up a small floating paper packet from the waves, seagulls overhead",
+        "seed": 1715627938,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the waves roll against the rocks, the young man stretches down for the paper packet, gulls circle",
+        "seed": 1992189606
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-vat-ten-la-meo",
+      "title": "Con vật tên là mèo",
+      "narrator": "ke-chuyen",
+      "narration": "Mấy tuần sau, mẹ chàng cũng qua đời. Chàng buồn bã lang thang vào rừng, đói lả thì gõ cửa một túp lều xin bát sữa. Bà cụ mời chàng vào, cho ở lại qua đêm chẳng lấy tiền. Ăn xong, chàng thấy bên bếp lửa có một con vật nhỏ màu xám, mắt to sáng long lanh, cứ rừ rừ như đang hát. Chàng hỏi: “Con vật lạ kia tên là gì thế ạ?” Mọi người đáp: “Chúng tôi gọi nó là mèo.” “Nếu không đắt quá, cháu muốn mua nó làm bạn.” Họ bảo giá sáu đồng bạc. Chàng lấy mẩu giấy ra, trả đủ sáu đồng, và sáng hôm sau ra đi, con mèo nằm gọn trong vạt áo.",
+      "subtitles": [
+        "Mấy tuần sau, mẹ chàng cũng qua đời.",
+        "Chàng buồn bã lang thang vào rừng, đói lả thì gõ cửa một túp lều xin bát sữa.",
+        "Bà cụ mời chàng vào, cho ở lại qua đêm chẳng lấy tiền.",
+        "Ăn xong, chàng thấy bên bếp lửa có một con vật nhỏ màu xám, mắt to sáng long lanh,",
+        "cứ rừ rừ như đang hát. Chàng hỏi: “Con vật lạ kia tên là gì thế ạ?”",
+        "Mọi người đáp: “Chúng tôi gọi nó là mèo.”",
+        "“Nếu không đắt quá, cháu muốn mua nó làm bạn.”",
+        "Họ bảo giá sáu đồng bạc. Chàng lấy mẩu giấy ra, trả đủ sáu đồng, và sáng hôm sau ra đi,",
+        "con mèo nằm gọn trong vạt áo."
+      ],
+      "image": {
+        "prompt": "a cozy forest hut with a crackling fire, a small grey cat with huge bright green eyes sitting by the hearth purring, a young man and a kind old woman looking at it with wonder",
+        "seed": 625641985,
+        "character": "con-meo"
+      },
+      "video": {
+        "motionPrompt": "the firelight flickers, the cat blinks its big green eyes and purrs, the young man leans closer smiling",
+        "seed": 3420730844
+      },
+      "voice": {}
+    },
+    {
+      "id": "lu-chuot-trong-cung",
+      "title": "Lũ chuột trong cung",
+      "narrator": "ke-chuyen",
+      "narration": "Tối hôm ấy, chàng xin ngủ nhờ một nhà khác. Con mèo đặt trên bệ lò sưởi, cọ vào người này người kia, đưa chân ra bắt tay và rừ rừ hát, làm ai cũng thích mê. Ông chủ nhà khuyên chàng lên cung gặp nhà vua, vì vua tốt bụng với mọi người. Sáng sau chàng tới cung. Vua đang ngự tiệc, nhưng trên sàn, trên bàn, đầy những con vật nhỏ màu đen chạy nhặng. Chúng giật cả thức ăn trong đĩa của vua, ai đuổi thì chúng cắn. Vua than: “Chúng là lũ chuột. Bao năm nay ta tìm đủ cách mà không trừ được.” Bỗng có cái gì vọt qua không trung. Con mèo đã nhảy lên bàn, vồ bên này, chộp bên kia. Lũ chuột chạy tán loạn, chỉ một lát sau cả sảnh sạch bóng.",
+      "subtitles": [
+        "Tối hôm ấy, chàng xin ngủ nhờ một nhà khác.",
+        "Con mèo đặt trên bệ lò sưởi, cọ vào người này người kia, đưa chân ra bắt tay và rừ rừ hát,",
+        "làm ai cũng thích mê.",
+        "Ông chủ nhà khuyên chàng lên cung gặp nhà vua, vì vua tốt bụng với mọi người.",
+        "Sáng sau chàng tới cung.",
+        "Vua đang ngự tiệc, nhưng trên sàn, trên bàn, đầy những con vật nhỏ màu đen chạy nhặng.",
+        "Chúng giật cả thức ăn trong đĩa của vua, ai đuổi thì chúng cắn.",
+        "Vua than: “Chúng là lũ chuột. Bao năm nay ta tìm đủ cách mà không trừ được.”",
+        "Bỗng có cái gì vọt qua không trung.",
+        "Con mèo đã nhảy lên bàn, vồ bên này, chộp bên kia.",
+        "Lũ chuột chạy tán loạn, chỉ một lát sau cả sảnh sạch bóng."
+      ],
+      "image": {
+        "prompt": "a long wooden royal hall with a feast table, a small grey cat leaping onto the table while a crowd of little black rats scatters in every direction, the king and courtiers staring in amazement",
+        "seed": 3022477103,
+        "character": "con-meo"
+      },
+      "video": {
+        "motionPrompt": "the cat springs across the table, the little rats scurry away out of the hall, the courtiers jump up in surprise",
+        "seed": 480482449
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-chua-va-vuong-quoc",
+      "title": "Công chúa và vương quốc",
+      "narrator": "ke-chuyen",
+      "narration": "Vua và cả triều đình nhìn nhau sửng sốt. Vua hỏi: “Con vật gì mà có phép lạ thế?” Chàng trai thưa đó là con mèo, chàng mua nó bằng sáu đồng bạc. Vua nói: “Ngươi đã giải thoát cung điện của ta khỏi cái hoạ bao năm nay. Ta cho ngươi chọn: hoặc làm tể tướng, hoặc lấy con gái ta và sau này nối ngôi.” Chàng trai đáp: “Thưa bệ hạ, con xin công chúa và vương quốc.” Và mọi việc đúng như thế. Sáu đồng bạc nổi trên mặt biển hôm nào đã đem lại cho chàng trai thật thà cả một vương quốc.",
+      "subtitles": [
+        "Vua và cả triều đình nhìn nhau sửng sốt.",
+        "Vua hỏi: “Con vật gì mà có phép lạ thế?”",
+        "Chàng trai thưa đó là con mèo, chàng mua nó bằng sáu đồng bạc.",
+        "Vua nói: “Ngươi đã giải thoát cung điện của ta khỏi cái hoạ bao năm nay.",
+        "Ta cho ngươi chọn: hoặc làm tể tướng, hoặc lấy con gái ta và sau này nối ngôi.”",
+        "Chàng trai đáp: “Thưa bệ hạ, con xin công chúa và vương quốc.”",
+        "Và mọi việc đúng như thế.",
+        "Sáu đồng bạc nổi trên mặt biển hôm nào đã đem lại cho chàng trai thật thà cả một vương",
+        "quốc."
+      ],
+      "image": {
+        "prompt": "a happy young man in a fine new cloak kneeling before a smiling king who presents a gentle princess, the small grey cat sitting proudly at his feet, warm candlelight",
+        "seed": 1573709678,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the king places the princess's hand in the young man's, the cat swishes its tail proudly, candles glow",
+        "seed": 2098574105
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Icelandic folk melody, langspil-like bowed strings, soft flute and harp, a calm sea mood at the start, a playful pizzicato for the cat chasing the rats, a warm happy ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3538550514
+  }
+}

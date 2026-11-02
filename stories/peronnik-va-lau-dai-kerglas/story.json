@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "slug": "peronnik-va-lau-dai-kerglas",
+  "shelf": "adults",
+  "title": "Peronnik và lâu đài Kerglas",
+  "summary": "Peronnik, chàng trai khờ không nhà không cửa ở xứ Bretagne, cưỡi con ngựa non của phù thuỷ Rogear băng qua khu rừng yểm bùa, lừa chú lùn giữ cây táo, con sư tử bờm rắn và hồ rồng để đoạt chiếc bát vàng cứu sống người chết cùng ngọn giáo kim cương. Truyện dân gian Bretagne kể trọn vẹn, đầy mưu mẹo và phép lạ.",
+  "themes": [
+    "anh-hung",
+    "thien-ac",
+    "su-tich"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện dân gian xứ Bretagne do Émile Souvestre ghi lại trong Le Foyer Breton, theo truyện «The Castle of Kerglas» trong The Lilac Fairy Book do Andrew Lang chủ biên (1910), thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới hoàn toàn, theo sát cốt truyện của bản Lang.",
+  "basedOn": "Truyện dân gian Bretagne, Andrew Lang kể lại (1910)",
+  "style": "medieval Breton legend illustration in the manner of old French illuminated manuscripts and woodcut storybooks, muted moss green, slate grey, heather purple, ochre and burnished gold, misty oak forests, granite menhirs and stone castles, eerie yet whimsical mood for adult readers, danger shown with restraint, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "peronnik",
+      "name": "Peronnik",
+      "sheetPrompt": "Peronnik, a lanky simple-hearted Breton peasant youth with tousled straw-colored hair, wide innocent blue eyes and a gap-toothed smile, a knitted woollen cap, patched brown smock and rope belt, bare feet, a cloth pouch at his hip, full body, front view, plain parchment background, character reference sheet",
+      "seed": 1195794636
+    },
+    {
+      "id": "rogear",
+      "name": "Phù thuỷ Rogear",
+      "sheetPrompt": "Rogear, a huge brooding giant sorcerer with a black forked beard and heavy brows, a dark crimson robe embroidered with silver runes, a golden bowl hanging on a chain around his neck, holding a long lance with a glittering diamond head, full body, front view, plain parchment background, character reference sheet",
+      "seed": 4277261089
+    },
+    {
+      "id": "ngua-non",
+      "name": "Con ngựa non",
+      "sheetPrompt": "a small lively black colt with a shaggy mane, bright clever eyes and a rope halter, full body, side view, plain parchment background, character reference sheet",
+      "seed": 3738858317
+    }
+  ],
+  "scenes": [
+    {
+      "id": "chang-kho-peronnik",
+      "title": "Chàng khờ Peronnik",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở xứ Bretagne có chàng trai khờ tên Peronnik, không cha không mẹ, đói thì xin cơm người làng, tối thì chui vào đống rơm mà ngủ. Khờ là thế mà chàng chẳng bao giờ buồn, lại bắt chước chim sơn ca hót giống đến mức không ai phân biệt nổi. Một chiều đói lả, chàng ghé một trang trại bìa rừng. Bà chủ trại cho chàng vét cái bát bọn trẻ vừa ăn. Chàng khen đây là cháo ngon nhất vùng, bà mát lòng, cắt thêm cho chàng khoanh bánh mì phết bơ.",
+      "subtitles": [
+        "Ngày xưa, ở xứ Bretagne có chàng trai khờ tên Peronnik, không cha không mẹ,",
+        "đói thì xin cơm người làng, tối thì chui vào đống rơm mà ngủ.",
+        "Khờ là thế mà chàng chẳng bao giờ buồn,",
+        "lại bắt chước chim sơn ca hót giống đến mức không ai phân biệt nổi.",
+        "Một chiều đói lả, chàng ghé một trang trại bìa rừng.",
+        "Bà chủ trại cho chàng vét cái bát bọn trẻ vừa ăn.",
+        "Chàng khen đây là cháo ngon nhất vùng, bà mát lòng,",
+        "cắt thêm cho chàng khoanh bánh mì phết bơ."
+      ],
+      "image": {
+        "prompt": "a humble Breton farmhouse at the edge of an oak forest at dusk, a kind farmer's wife in a white lace coiffe handing a slice of bread to a ragged simple youth sitting on the doorstep, a large wooden bowl in his lap, chickens nearby",
+        "seed": 3692271246,
+        "character": "peronnik"
+      },
+      "video": {
+        "motionPrompt": "warm evening light flickers from the doorway, the youth bites the bread happily, the woman smiles and shakes her head, leaves stir at the forest edge, slow push-in",
+        "seed": 2367267969
+      },
+      "voice": {}
+    },
+    {
+      "id": "chang-hiep-si-hoi-duong",
+      "title": "Chàng hiệp sĩ hỏi đường",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng đang nhai thì một hiệp sĩ phi ngựa tới hỏi đường đến lâu đài Kerglas. Chàng tìm chiếc bát vàng và ngọn giáo kim cương của phù thuỷ Rogear. Bát vàng cho món ăn ngon nhất, chữa mọi bệnh, áp vào miệng người chết thì người ấy sống lại. Giáo kim cương xuyên mọi thứ đá và sắt. Bà chủ trại tái mặt: Đã hơn trăm hiệp sĩ đi qua đây, chưa ai trở về. Hiệp sĩ kể lời ông ẩn sĩ dặn: phải qua khu rừng yểm bùa, chú lùn cầm kiếm lửa canh cây táo, con sư tử bờm rắn canh bông hoa biết cười, hồ rồng, gã canh cửa cầm quả cầu sắt, thung lũng khoái lạc, và cuối cùng là phu nhân áo đen ngồi bên chỗ lội. Nói rồi chàng phi ngựa đi mất.",
+      "subtitles": [
+        "Chàng đang nhai thì một hiệp sĩ phi ngựa tới hỏi đường đến lâu đài Kerglas.",
+        "Chàng tìm chiếc bát vàng và ngọn giáo kim cương của phù thuỷ Rogear.",
+        "Bát vàng cho món ăn ngon nhất, chữa mọi bệnh,",
+        "áp vào miệng người chết thì người ấy sống lại.",
+        "Giáo kim cương xuyên mọi thứ đá và sắt.",
+        "Bà chủ trại tái mặt: Đã hơn trăm hiệp sĩ đi qua đây, chưa ai trở về.",
+        "Hiệp sĩ kể lời ông ẩn sĩ dặn: phải qua khu rừng yểm bùa,",
+        "chú lùn cầm kiếm lửa canh cây táo, con sư tử bờm rắn canh bông hoa biết cười, hồ rồng,",
+        "gã canh cửa cầm quả cầu sắt, thung lũng khoái lạc,",
+        "và cuối cùng là phu nhân áo đen ngồi bên chỗ lội.",
+        "Nói rồi chàng phi ngựa đi mất."
+      ],
+      "image": {
+        "prompt": "an armored knight on a grey warhorse reining in before the farmhouse gate, the farmer's wife pale with alarm, the simple youth looking up with sudden interest, a winding path disappearing into a dark forest beyond",
+        "seed": 1941472872,
+        "character": "peronnik"
+      },
+      "video": {
+        "motionPrompt": "the knight's horse stamps and tosses its head, his cloak stirs in the wind, the youth slowly lowers his bread and stares, slow pan from knight to youth",
+        "seed": 1449296868
+      },
+      "voice": {}
+    },
+    {
+      "id": "chan-bo-o-bia-rung",
+      "title": "Chăn bò ở bìa rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Ông chủ trại cần người chăn bò, Peronnik nhớ bữa ăn ngon nên ở lại. Ngày ngày chàng lùa bò ra bìa rừng. Một hôm đuổi theo con bò đen ương bướng, chàng thấy gã khổng lồ Rogear cưỡi ngựa cái đen đi qua, con ngựa non mười ba tháng tuổi lon ton phía sau, bát vàng đeo ở cổ, giáo kim cương lấp lánh như lửa trong tay. Chuyện ấy lặp lại nhiều lần. Mỗi lần thấy hắn, Peronnik lại càng muốn có chiếc bát và ngọn giáo.",
+      "subtitles": [
+        "Ông chủ trại cần người chăn bò, Peronnik nhớ bữa ăn ngon nên ở lại.",
+        "Ngày ngày chàng lùa bò ra bìa rừng.",
+        "Một hôm đuổi theo con bò đen ương bướng,",
+        "chàng thấy gã khổng lồ Rogear cưỡi ngựa cái đen đi qua,",
+        "con ngựa non mười ba tháng tuổi lon ton phía sau, bát vàng đeo ở cổ,",
+        "giáo kim cương lấp lánh như lửa trong tay.",
+        "Chuyện ấy lặp lại nhiều lần.",
+        "Mỗi lần thấy hắn, Peronnik lại càng muốn có chiếc bát và ngọn giáo."
+      ],
+      "image": {
+        "prompt": "a towering giant sorcerer riding a black mare through a misty oak wood, a golden bowl gleaming on a chain at his chest and a diamond-tipped lance shining like fire, a small black colt trotting behind, the simple youth peeking out from behind leaves holding a hazel switch, a black cow nearby",
+        "seed": 973199651,
+        "character": "rogear"
+      },
+      "video": {
+        "motionPrompt": "the giant rides slowly past through drifting mist, the lance glitters, the colt trots behind, the youth's eyes follow them wide with longing, slow tracking shot",
+        "seed": 41785323
+      },
+      "voice": {}
+    },
+    {
+      "id": "lao-phu-thuy-rau-trang",
+      "title": "Lão phù thuỷ râu trắng",
+      "narrator": "ke-chuyen",
+      "narration": "Một chiều, ông già râu trắng dừng bên Peronnik, xưng là Bryak, anh cả của Rogear. Lão bảo ngay cả lão qua rừng yểm bùa cũng lạc, nên phải gọi con ngựa non dẫn đường. Lão vẽ ba vòng tròn trên đất, lầm rầm mấy câu rất khẽ rồi nói to: Ngựa non ơi, tự do chạy nhảy, tự do ăn, ngựa non ơi, phi mau đến gặp ta. Con ngựa non hiện ra ngay, lão nhảy lên lưng mà đi. Peronnik hiểu muốn tới Kerglas phải bắt được con ngựa ấy, nhưng chàng không nghe được thần chú, phải nghĩ cách khác.",
+      "subtitles": [
+        "Một chiều, ông già râu trắng dừng bên Peronnik, xưng là Bryak, anh cả của Rogear.",
+        "Lão bảo ngay cả lão qua rừng yểm bùa cũng lạc, nên phải gọi con ngựa non dẫn đường.",
+        "Lão vẽ ba vòng tròn trên đất, lầm rầm mấy câu rất khẽ rồi nói to: Ngựa non ơi,",
+        "tự do chạy nhảy, tự do ăn, ngựa non ơi, phi mau đến gặp ta.",
+        "Con ngựa non hiện ra ngay, lão nhảy lên lưng mà đi.",
+        "Peronnik hiểu muốn tới Kerglas phải bắt được con ngựa ấy,",
+        "nhưng chàng không nghe được thần chú, phải nghĩ cách khác."
+      ],
+      "image": {
+        "prompt": "an old white-bearded wizard in a grey hooded robe tracing glowing circles on the ground at the forest edge at sunset, a small black colt bounding out of the trees toward him, the simple youth sitting on a stump watching in astonishment",
+        "seed": 1628590630,
+        "character": "ngua-non"
+      },
+      "video": {
+        "motionPrompt": "faint light runs along the three circles traced in the earth, the colt leaps out of the shadows and skids to a halt, the wizard slips a halter over its neck, slow push-in",
+        "seed": 4253738665
+      },
+      "voice": {}
+    },
+    {
+      "id": "bat-ngua-non",
+      "title": "Bắt con ngựa non",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm đến, chàng sửa chiếc dây cương cũ, bện dây gai buộc chân ngựa, đan tấm lưới bẫy chim, khâu cái túi nhét keo trộn lông sơn ca, một chuỗi hạt, cái còi gỗ và lát bánh mì xoa mỡ. Chàng rắc vụn bánh mì bên đường Rogear vẫn đi rồi nấp vào bụi. Rogear và ngựa cái đi qua, còn con ngựa non cúi mũi liếm bánh mì mải mê, không hay Peronnik bò tới, cho đến khi dây cương đã tròng cổ, dây đã quấn chân, và có người ngồi trên lưng.",
+      "subtitles": [
+        "Đêm đến, chàng sửa chiếc dây cương cũ, bện dây gai buộc chân ngựa, đan tấm lưới bẫy chim,",
+        "khâu cái túi nhét keo trộn lông sơn ca, một chuỗi hạt, cái còi gỗ và lát bánh mì xoa mỡ.",
+        "Chàng rắc vụn bánh mì bên đường Rogear vẫn đi rồi nấp vào bụi.",
+        "Rogear và ngựa cái đi qua, còn con ngựa non cúi mũi liếm bánh mì mải mê,",
+        "không hay Peronnik bò tới, cho đến khi dây cương đã tròng cổ, dây đã quấn chân,",
+        "và có người ngồi trên lưng."
+      ],
+      "image": {
+        "prompt": "on a forest path at dawn, a small black colt greedily nibbling breadcrumbs scattered on the ground while the simple youth creeps out of the bushes behind it holding a patched halter and a coil of hemp rope",
+        "seed": 2138449716,
+        "character": "peronnik"
+      },
+      "video": {
+        "motionPrompt": "the colt licks at the crumbs with its ears twitching, the youth tiptoes closer, then in one quick motion throws the halter and swings onto its back, the colt rears in surprise",
+        "seed": 1910925465
+      },
+      "voice": {}
+    },
+    {
+      "id": "khu-rung-yem-bua",
+      "title": "Khu rừng yểm bùa",
+      "narrator": "ke-chuyen",
+      "narration": "Con ngựa non lao vào chốn hoang vu nhất của khu rừng. Có lúc đất toác ra thành vực không đáy, có lúc cây cối bốc lửa, nước suối dâng lên, đá tảng lăn ầm ầm như muốn nghiền nát người lẫn ngựa. Peronnik kéo mũ len sụp xuống che mắt, phó mặc cho ngựa tìm đường. Ra khỏi rừng là cánh đồng gió lộng, hài cốt người và ngựa nằm rải rác, xa xa thấp thoáng bóng sói.",
+      "subtitles": [
+        "Con ngựa non lao vào chốn hoang vu nhất của khu rừng.",
+        "Có lúc đất toác ra thành vực không đáy, có lúc cây cối bốc lửa, nước suối dâng lên,",
+        "đá tảng lăn ầm ầm như muốn nghiền nát người lẫn ngựa.",
+        "Peronnik kéo mũ len sụp xuống che mắt, phó mặc cho ngựa tìm đường.",
+        "Ra khỏi rừng là cánh đồng gió lộng, hài cốt người và ngựa nằm rải rác,",
+        "xa xa thấp thoáng bóng sói."
+      ],
+      "image": {
+        "prompt": "the simple youth on the small black colt galloping through a nightmarish enchanted forest, trees bursting into ghostly flames, a chasm opening in the ground ahead, boulders tumbling from a hillside, the youth's knitted cap pulled down over his eyes",
+        "seed": 2149875712,
+        "character": "peronnik"
+      },
+      "video": {
+        "motionPrompt": "phantom flames flare and vanish around the rider, the ground seems to split and close, rocks roll past, the colt gallops on unwavering, fast tracking shot",
+        "seed": 739441619
+      },
+      "voice": {}
+    },
+    {
+      "id": "chu-lun-va-cay-tao",
+      "title": "Chú lùn và cây táo",
+      "narrator": "ke-chuyen",
+      "narration": "Rồi tới cây táo trĩu quả, chú lùn korigan cầm kiếm lửa rít lên chặn đường. Peronnik ngả mũ: Ngài Rogear thuê tôi tới bẫy chim, còn cho mượn cả ngựa non. Thấy ngựa của phù thuỷ, lại thấy gương mặt ngây ngô, chú lùn tin. Chú bảo: Táo của ta cũng bị chim ăn, bẫy được thì cho qua. Peronnik buộc lưới vào gốc táo, nhờ chú cầm đầu kia, rồi bất thần quăng thòng lọng vào cổ chú mà thắt lại. Chú càng giãy, nút càng siết. Chàng thong thả hái một quả táo rồi lên ngựa đi.",
+      "subtitles": [
+        "Rồi tới cây táo trĩu quả, chú lùn korigan cầm kiếm lửa rít lên chặn đường.",
+        "Peronnik ngả mũ: Ngài Rogear thuê tôi tới bẫy chim, còn cho mượn cả ngựa non.",
+        "Thấy ngựa của phù thuỷ, lại thấy gương mặt ngây ngô, chú lùn tin.",
+        "Chú bảo: Táo của ta cũng bị chim ăn, bẫy được thì cho qua.",
+        "Peronnik buộc lưới vào gốc táo, nhờ chú cầm đầu kia,",
+        "rồi bất thần quăng thòng lọng vào cổ chú mà thắt lại.",
+        "Chú càng giãy, nút càng siết.",
+        "Chàng thong thả hái một quả táo rồi lên ngựa đi."
+      ],
+      "image": {
+        "prompt": "a shady enchanted glade with a single apple tree bowed with red fruit, a tiny furious dwarf in a pointed hood tangled in a bird net tied to the trunk, a glowing fiery blade lying in the grass, the simple youth reaching up to pluck an apple beside his black colt",
+        "seed": 3506251347,
+        "character": "peronnik"
+      },
+      "video": {
+        "motionPrompt": "the dwarf thrashes and shrieks inside the tightening net, embers drift from the fiery blade in the grass, the youth calmly plucks an apple and swings onto the colt, slow pan",
+        "seed": 3639237020
+      },
+      "voice": {}
+    },
+    {
+      "id": "su-tu-va-hoa-biet-cuoi",
+      "title": "Sư tử và bông hoa biết cười",
+      "narrator": "ke-chuyen",
+      "narration": "Tới thung lũng hoa, bông păng xê đỏ thắm biết cười mọc cao nhất, con sư tử bờm toàn rắn độc đi tới đi lui canh giữ. Peronnik bỏ mũ chào, bảo mình mang chim sơn ca tặng ngài Rogear làm bánh. Sư tử liếm mép: Cả trăm năm nay ta chưa được miếng sơn ca nào. Chàng quay lưng giả tiếng chim hót trong túi. Sư tử thò cả đầu vào túi định đớp, thì keo và lông chim dính chặt lấy nó. Chàng thắt miệng túi một nút không ai gỡ nổi, hái bông hoa biết cười rồi phóng đi.",
+      "subtitles": [
+        "Tới thung lũng hoa, bông păng xê đỏ thắm biết cười mọc cao nhất,",
+        "con sư tử bờm toàn rắn độc đi tới đi lui canh giữ.",
+        "Peronnik bỏ mũ chào, bảo mình mang chim sơn ca tặng ngài Rogear làm bánh.",
+        "Sư tử liếm mép: Cả trăm năm nay ta chưa được miếng sơn ca nào.",
+        "Chàng quay lưng giả tiếng chim hót trong túi.",
+        "Sư tử thò cả đầu vào túi định đớp, thì keo và lông chim dính chặt lấy nó.",
+        "Chàng thắt miệng túi một nút không ai gỡ nổi, hái bông hoa biết cười rồi phóng đi."
+      ],
+      "image": {
+        "prompt": "a narrow flowering valley full of roses, yellow broom and pink honeysuckle, a great scarlet pansy with a strange laughing face towering above them, a lion with a mane of writhing green serpents stuck with its head inside a cloth sack, the simple youth running off holding the laughing flower",
+        "seed": 1763608801,
+        "character": "peronnik"
+      },
+      "video": {
+        "motionPrompt": "the lion staggers and paws at the sack over its head, the serpents of its mane coil and hiss, the scarlet flower seems to sway and laugh, the youth leaps onto his colt and gallops off",
+        "seed": 3343763854
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-rong-va-ga-sau-mat",
+      "title": "Hồ rồng và gã sáu mắt",
+      "narrator": "ke-chuyen",
+      "narration": "Bơi qua hồ rồng, chàng ném chuỗi hạt xuống như rải thóc cho vịt, con rồng nào nuốt hạt thì lật ngửa mà chết. Trước thung lũng kế tiếp là gã canh cửa bị xích chân vào đá, cầm quả cầu sắt ném không bao giờ trượt, đầu có sáu con mắt thay phiên nhau canh. Peronnik bò dọc rãnh nước tới nép chân tảng đá. Trời nóng, gã buồn ngủ, hai mắt nhắm lại. Chàng khe khẽ hát, rồi mắt thứ ba, thứ tư, thứ năm, thứ sáu lần lượt sụp mi. Gã ngủ say, chàng dắt ngựa đi qua trên lớp rêu êm.",
+      "subtitles": [
+        "Bơi qua hồ rồng, chàng ném chuỗi hạt xuống như rải thóc cho vịt,",
+        "con rồng nào nuốt hạt thì lật ngửa mà chết.",
+        "Trước thung lũng kế tiếp là gã canh cửa bị xích chân vào đá,",
+        "cầm quả cầu sắt ném không bao giờ trượt, đầu có sáu con mắt thay phiên nhau canh.",
+        "Peronnik bò dọc rãnh nước tới nép chân tảng đá.",
+        "Trời nóng, gã buồn ngủ, hai mắt nhắm lại.",
+        "Chàng khe khẽ hát, rồi mắt thứ ba, thứ tư, thứ năm, thứ sáu lần lượt sụp mi.",
+        "Gã ngủ say, chàng dắt ngựa đi qua trên lớp rêu êm."
+      ],
+      "image": {
+        "prompt": "a vast six-eyed giant guard chained by one ankle to a great rock at the mouth of a valley, an iron ball resting in his hand, his eyes drooping shut one by one in the afternoon heat, the simple youth crouched against the rock softly singing, behind them a misty lake with dark dragons turned belly-up",
+        "seed": 1998881873
+      },
+      "video": {
+        "motionPrompt": "the giant's eyelids droop closed one after another, his head nods, the iron ball slips to rest on his knee, the youth tiptoes away leading the colt over soft moss, slow pan",
+        "seed": 4172663042
+      },
+      "voice": {}
+    },
+    {
+      "id": "thung-lung-khoai-lac",
+      "title": "Thung lũng khoái lạc",
+      "narrator": "ke-chuyen",
+      "narration": "Thung lũng khoái lạc đầy trái cây lủng lẳng trước miệng, suối chảy rượu vang, hoa cất tiếng hát, bàn tiệc thơm lừng, các cô gái nhảy múa gọi chàng vào cùng. Peronnik cho ngựa đi chậm dần, chỉ chút nữa là lạc mãi như bao người trước. Bỗng chàng nhớ tới bát vàng và giáo kim cương. Chàng thổi còi thật to cho át những tiếng ngọt ngào, nhai nốt bánh mì mỡ cho đỡ thèm, mắt dán vào hai tai con ngựa non, cứ thế mà ra tới bờ sông trước lâu đài Kerglas.",
+      "subtitles": [
+        "Thung lũng khoái lạc đầy trái cây lủng lẳng trước miệng, suối chảy rượu vang,",
+        "hoa cất tiếng hát, bàn tiệc thơm lừng, các cô gái nhảy múa gọi chàng vào cùng.",
+        "Peronnik cho ngựa đi chậm dần, chỉ chút nữa là lạc mãi như bao người trước.",
+        "Bỗng chàng nhớ tới bát vàng và giáo kim cương.",
+        "Chàng thổi còi thật to cho át những tiếng ngọt ngào, nhai nốt bánh mì mỡ cho đỡ thèm,",
+        "mắt dán vào hai tai con ngựa non, cứ thế mà ra tới bờ sông trước lâu đài Kerglas."
+      ],
+      "image": {
+        "prompt": "an enchanted garden of pleasure with fountains of wine, fruit hanging low, singing flowers and long banquet tables, maidens in flowing gowns dancing on the grass and beckoning, the simple youth riding through blowing hard on an elder-wood whistle with his eyes fixed on his colt's ears",
+        "seed": 3814244261,
+        "character": "peronnik"
+      },
+      "video": {
+        "motionPrompt": "dancers swirl and beckon, petals drift through golden light, the youth blows the whistle with puffed cheeks and rides steadily on without turning his head, slow tracking shot",
+        "seed": 3375499169
+      },
+      "voice": {}
+    },
+    {
+      "id": "phu-nhan-ao-den",
+      "title": "Phu nhân áo đen",
+      "narrator": "ke-chuyen",
+      "narration": "Phu nhân áo đen mặt sạm lạ thường ngồi chờ bên chỗ lội. Bà ngồi lên ngựa sau chàng, dặn: Dụ hắn nếm quả táo kia, hắn sẽ chết. Chưa đủ thì ta chạm ngón tay vào hắn, vì ta là bệnh dịch. Còn bông hoa biết cười mở được mọi cánh cửa. Rogear đang phơi nắng trước cổng, quát như sấm: Kìa thằng khờ cưỡi ngựa non của ta! Peronnik thưa ông Bryak sai mình mang tới hai món quà, quả táo hạnh phúc và người hầu vâng lời. Rogear cắn quả táo thì loạng choạng, ngón tay vàng vọt của người đàn bà chạm vào, hắn ngã xuống chết.",
+      "subtitles": [
+        "Phu nhân áo đen mặt sạm lạ thường ngồi chờ bên chỗ lội.",
+        "Bà ngồi lên ngựa sau chàng, dặn: Dụ hắn nếm quả táo kia, hắn sẽ chết.",
+        "Chưa đủ thì ta chạm ngón tay vào hắn, vì ta là bệnh dịch.",
+        "Còn bông hoa biết cười mở được mọi cánh cửa.",
+        "Rogear đang phơi nắng trước cổng, quát như sấm: Kìa thằng khờ cưỡi ngựa non của ta!",
+        "Peronnik thưa ông Bryak sai mình mang tới hai món quà,",
+        "quả táo hạnh phúc và người hầu vâng lời.",
+        "Rogear cắn quả táo thì loạng choạng, ngón tay vàng vọt của người đàn bà chạm vào,",
+        "hắn ngã xuống chết."
+      ],
+      "image": {
+        "prompt": "a tall gloomy stone castle across a single river ford, a pale gaunt lady in a black satin gown riding behind the simple youth on the black colt, the giant sorcerer seated under an awning before the gate rising to his feet with a bitten apple in his hand",
+        "seed": 679836852,
+        "character": "rogear"
+      },
+      "video": {
+        "motionPrompt": "the colt splashes through the ford, the lady in black slowly raises one long finger, the giant staggers as the apple falls from his hand, dark clouds gather over the castle, slow push-in",
+        "seed": 2196747799
+      },
+      "voice": {}
+    },
+    {
+      "id": "bat-vang-giao-kim-cuong",
+      "title": "Bát vàng và giáo kim cương",
+      "narrator": "ke-chuyen",
+      "narration": "Peronnik cầm bông hoa biết cười đi vào, năm mươi cánh cửa mở toang. Chàng xuống bậc thang sâu tới cánh cửa bạc không khoá. Giơ bông hoa lên, cửa mở, hang sáng rực ánh bát vàng và giáo kim cương. Chàng đeo bát lên cổ, cầm giáo trong tay. Mặt đất rung chuyển, lâu đài biến mất, chàng thấy mình đứng bên khu rừng chăn bò năm nào. Chàng không về trại nữa, mua áo nhung nâu và ngựa trắng bằng nắm vàng nhặt trong lâu đài, rồi lên đường tới thành Nantes.",
+      "subtitles": [
+        "Peronnik cầm bông hoa biết cười đi vào, năm mươi cánh cửa mở toang.",
+        "Chàng xuống bậc thang sâu tới cánh cửa bạc không khoá.",
+        "Giơ bông hoa lên, cửa mở, hang sáng rực ánh bát vàng và giáo kim cương.",
+        "Chàng đeo bát lên cổ, cầm giáo trong tay.",
+        "Mặt đất rung chuyển, lâu đài biến mất, chàng thấy mình đứng bên khu rừng chăn bò năm nào.",
+        "Chàng không về trại nữa, mua áo nhung nâu và ngựa trắng bằng nắm vàng nhặt trong lâu đài,",
+        "rồi lên đường tới thành Nantes."
+      ],
+      "image": {
+        "prompt": "a deep cavern lit like daylight by a radiant golden bowl and a dazzling diamond lance resting on a stone ledge, a silver door swung open, the simple youth holding up a glowing scarlet laughing flower, his face full of wonder",
+        "seed": 1299228611,
+        "character": "peronnik"
+      },
+      "video": {
+        "motionPrompt": "the silver door swings slowly open, golden and diamond light floods the cavern, the youth lifts the bowl and lance, then the cave trembles and dissolves into swirling light, slow push-in",
+        "seed": 709813254
+      },
+      "voice": {}
+    },
+    {
+      "id": "giai-vay-thanh-nantes",
+      "title": "Giải vây thành Nantes",
+      "narrator": "ke-chuyen",
+      "narration": "Nantes đang bị quân Pháp vây, trong thành người chết đói. Lính kèn rao trên mặt thành rằng công tước sẽ nhận làm người nối ngôi ai đuổi được giặc. Peronnik đáp: Khỏi rao nữa, tôi sẽ giải vây. Một tên lính giặc vung gươm lao tới, chàng chạm giáo vào hắn, hắn ngã xuống chết, giáp không hề thủng. Chàng nói: Kẻ thù của ta thế đấy, giờ xem ta làm gì cho bạn ta. Chàng áp bát vàng vào miệng hắn, hắn ngồi dậy khoẻ như thường. Chiếc bát làm sống lại mọi người Bretagne đã ngã xuống, Peronnik có đạo quân đủ đông đuổi quân Pháp đi. Còn bát và giáo về sau ra sao thì không ai biết. Có người bảo Bryak đã lấy trộm lại, ai muốn có thì phải đi tìm như Peronnik ngày trước.",
+      "subtitles": [
+        "Nantes đang bị quân Pháp vây, trong thành người chết đói.",
+        "Lính kèn rao trên mặt thành rằng công tước sẽ nhận làm người nối ngôi ai đuổi được giặc.",
+        "Peronnik đáp: Khỏi rao nữa, tôi sẽ giải vây.",
+        "Một tên lính giặc vung gươm lao tới, chàng chạm giáo vào hắn, hắn ngã xuống chết,",
+        "giáp không hề thủng.",
+        "Chàng nói: Kẻ thù của ta thế đấy, giờ xem ta làm gì cho bạn ta.",
+        "Chàng áp bát vàng vào miệng hắn, hắn ngồi dậy khoẻ như thường.",
+        "Chiếc bát làm sống lại mọi người Bretagne đã ngã xuống,",
+        "Peronnik có đạo quân đủ đông đuổi quân Pháp đi.",
+        "Còn bát và giáo về sau ra sao thì không ai biết.",
+        "Có người bảo Bryak đã lấy trộm lại, ai muốn có thì phải đi tìm như Peronnik ngày trước."
+      ],
+      "image": {
+        "prompt": "the walled medieval city of Nantes under siege on a barren plain, a young man in a brown velvet costume on a white horse holding a shining diamond lance and a golden bowl, a soldier sitting up alive beside him, astonished troops looking on, a trumpeter on the battlements",
+        "seed": 1328948274,
+        "character": "peronnik"
+      },
+      "video": {
+        "motionPrompt": "banners flutter on the walls, the golden bowl glows as the fallen soldier sits up, the white horse leaps the trench toward the opening city gate, triumphant slow pull-back",
+        "seed": 4184510355
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "Breton folk instrumental, bombarde and biniou with Celtic harp and soft bodhran, mysterious misty forest mood turning bright and triumphant, medieval legend atmosphere, moderate tempo, no vocals",
+    "durationSeconds": 180,
+    "seed": 439146623
+  }
+}

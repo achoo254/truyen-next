@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "slug": "cau-be-biet-giu-bi-mat",
+  "shelf": "world",
+  "title": "Cậu bé biết giữ bí mật",
+  "summary": "Cậu bé con bà goá nằm mơ một giấc mơ lạ và thề không kể cho ai nghe cho tới khi nó thành sự thật, dù bị mẹ đánh đòn, bị vua đuổi, bị nhốt trong tháp. Bên mình cậu có thanh gươm nhỏ lớn lên theo năm tháng, và trí khôn giúp cậu giải những câu đố hiểm hóc của vua Thổ. Truyện dân gian Hungary trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "anh-hung",
+    "su-tich",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"The Boy Who Could Keep A Secret\" trong The Crimson Fairy Book do Andrew Lang biên tập (1903), chép từ truyện dân gian Hungary (Folk Tales of the Magyars), Project Gutenberg #2435, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính; những trận đòn chàng trai trả cho hai nàng công chúa kể nhẹ thành lời quát và cái đẩy, pháp trường thành buổi xử tội, trận đánh với quân vua Thổ kể vòng qua, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Hungary, Andrew Lang chép (1903)",
+  "style": "classic Hungarian folk tale picture book illustration, whitewashed village cottages with red geraniums, a grand palace in Buda above the Danube, an Ottoman palace with domes and minarets, embroidered folk costumes, soft watercolor and gouache textures, colors of paprika red, meadow green and gold, warm gentle mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cau-be",
+      "name": "Cậu bé con bà goá",
+      "sheetPrompt": "a brave quiet Hungarian boy from an old folk tale who later grows into a handsome young man, dark hair, steady eyes, white embroidered shirt and dark vest, a small ornate scabbard at his belt, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3502308793
+    },
+    {
+      "id": "cong-chua-buda",
+      "name": "Công chúa ở Buda",
+      "sheetPrompt": "a lovely kind-hearted Hungarian princess from an old folk tale, long golden braids with ribbons, rose-colored embroidered gown and floral headdress, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1604144692
+    },
+    {
+      "id": "vua-hung",
+      "name": "Vua nước Hung",
+      "sheetPrompt": "a portly worried Hungarian king from an old folk tale, grey moustache, fur-trimmed crimson cloak, golden crown, full body, front and side views, plain light background, character reference sheet",
+      "seed": 968837790
+    }
+  ],
+  "scenes": [
+    {
+      "id": "thanh-guom-trong-vuon",
+      "title": "Thanh gươm trong vườn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một bà goá nghèo chỉ có một cậu con trai. Bên hông cậu luôn đeo một cái vỏ gươm nhỏ, cậu lớn tới đâu thì vỏ gươm lớn theo tới đó. Còn thanh gươm thì cậu tìm thấy cắm dưới đất ngoài vườn, ngày nào cũng nhổ lên ướm thử vào vỏ. Một buổi sáng, nó trượt vào vỏ ngọt xớt. Cậu mừng quá, nhưng quyết không kể với ai, nhất là với mẹ, vì mẹ cậu chẳng giữ được chuyện gì.",
+      "subtitles": [
+        "Ngày xưa, có một bà goá nghèo chỉ có một cậu con trai.",
+        "Bên hông cậu luôn đeo một cái vỏ gươm nhỏ, cậu lớn tới đâu thì vỏ gươm lớn theo tới đó.",
+        "Còn thanh gươm thì cậu tìm thấy cắm dưới đất ngoài vườn,",
+        "ngày nào cũng nhổ lên ướm thử vào vỏ.",
+        "Một buổi sáng, nó trượt vào vỏ ngọt xớt.",
+        "Cậu mừng quá, nhưng quyết không kể với ai, nhất là với mẹ,",
+        "vì mẹ cậu chẳng giữ được chuyện gì."
+      ],
+      "image": {
+        "prompt": "a small cottage garden with sunflowers, a little boy in a white embroidered shirt joyfully sliding a small shining blade into an ornate scabbard at his belt, morning light",
+        "seed": 1809474066,
+        "character": "cau-be"
+      },
+      "video": {
+        "motionPrompt": "the boy pulls the small blade from the soil and slides it into its scabbard, sunflowers sway, morning light glows",
+        "seed": 546715641
+      },
+      "voice": {}
+    },
+    {
+      "id": "khong-ke-cho-ai",
+      "title": "Không kể cho ai",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy mặt cậu sáng rỡ, mẹ hỏi có chuyện gì. Cậu đáp: “Đêm qua con mơ một giấc mơ đẹp lắm, nhưng chừng nào nó chưa thành thật, con không kể cho ai hết.” Mẹ giận, đánh đòn cậu, mà vẫn chẳng moi được bí mật. Cậu chạy ra vườn, quỳ bên thanh gươm mà khóc. Nhà vua đi xe ngang qua, nghe tiếng khóc thì cho gọi cậu, rồi xin nhận cậu làm con nuôi. Bà mẹ mừng rỡ bằng lòng. Cậu tra thanh gươm vào vỏ và lên xe theo vua.",
+      "subtitles": [
+        "Thấy mặt cậu sáng rỡ, mẹ hỏi có chuyện gì.",
+        "Cậu đáp: “Đêm qua con mơ một giấc mơ đẹp lắm, nhưng chừng nào nó chưa thành thật,",
+        "con không kể cho ai hết.” Mẹ giận, đánh đòn cậu, mà vẫn chẳng moi được bí mật.",
+        "Cậu chạy ra vườn, quỳ bên thanh gươm mà khóc.",
+        "Nhà vua đi xe ngang qua, nghe tiếng khóc thì cho gọi cậu, rồi xin nhận cậu làm con nuôi.",
+        "Bà mẹ mừng rỡ bằng lòng. Cậu tra thanh gươm vào vỏ và lên xe theo vua."
+      ],
+      "image": {
+        "prompt": "a weeping little boy kneeling in a cottage garden beside a small blade standing in the soil, a golden royal carriage stopping at the gate, a kind king leaning out of the window",
+        "seed": 613406310,
+        "character": "cau-be"
+      },
+      "video": {
+        "motionPrompt": "the carriage rolls to a stop, the king leans out and beckons, the boy wipes his tears and stands up",
+        "seed": 331851655
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-duoi-khoi-cung",
+      "title": "Bị đuổi khỏi cung",
+      "narrator": "ke-chuyen",
+      "narration": "Trên đường, vua hỏi giấc mơ ấy là gì, cậu lễ phép thưa: “Cả bệ hạ con cũng không kể được.” Về cung, ba nàng công chúa thay nhau nài: “Cậu sẽ kể cho tôi.” Cậu lắc đầu: “Chưa thành thật thì tôi không kể, ai cứ hỏi mãi tôi sẽ trả đũa.” Vua thương cậu, nhưng không muốn giữ bên mình đứa trẻ không vâng lời, bèn cho cậu xuống ở với người hầu. Họ đối xử tử tế, và cậu sống vui vẻ ở đó tới năm mười bảy tuổi.",
+      "subtitles": [
+        "Trên đường, vua hỏi giấc mơ ấy là gì, cậu lễ phép thưa: “Cả bệ hạ con cũng không kể được.”",
+        "Về cung, ba nàng công chúa thay nhau nài: “Cậu sẽ kể cho tôi.”",
+        "Cậu lắc đầu: “Chưa thành thật thì tôi không kể, ai cứ hỏi mãi tôi sẽ trả đũa.”",
+        "Vua thương cậu, nhưng không muốn giữ bên mình đứa trẻ không vâng lời,",
+        "bèn cho cậu xuống ở với người hầu.",
+        "Họ đối xử tử tế, và cậu sống vui vẻ ở đó tới năm mười bảy tuổi."
+      ],
+      "image": {
+        "prompt": "a palace playroom with three little princesses offering toys to a boy who shakes his head firmly, the king watching from the doorway with a frown",
+        "seed": 3346534818,
+        "character": "cau-be"
+      },
+      "video": {
+        "motionPrompt": "the princesses lean in eagerly, the boy shakes his head, the king folds his arms",
+        "seed": 1783706457
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-nuoc-hung-den-cuu",
+      "title": "Vua nước Hung đến cứu",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, nàng công chúa út sang khu người hầu, nhận ra người bạn ngày bé nay là chàng trai tuấn tú. Nàng bảo: “Kể bí mật đi, tôi sẽ lấy chàng.” Chàng chỉ đẩy nàng ra như lời đã hứa. Nàng chạy về mách, vua cha nổi giận, sai đem chàng ra xử tội trước dân chúng. Đúng lúc ấy thanh gươm kêu leng keng, một cỗ xe vàng cắm cờ trắng phi tới. Vua nước Hung bước xuống xin tha cho chàng: “Ta có cô con gái đẹp như sao Mai, thế nào nó cũng kể cho con ta.” Vua kia đành gật đầu.",
+      "subtitles": [
+        "Một hôm, nàng công chúa út sang khu người hầu,",
+        "nhận ra người bạn ngày bé nay là chàng trai tuấn tú.",
+        "Nàng bảo: “Kể bí mật đi, tôi sẽ lấy chàng.”",
+        "Chàng chỉ đẩy nàng ra như lời đã hứa.",
+        "Nàng chạy về mách, vua cha nổi giận, sai đem chàng ra xử tội trước dân chúng.",
+        "Đúng lúc ấy thanh gươm kêu leng keng, một cỗ xe vàng cắm cờ trắng phi tới.",
+        "Vua nước Hung bước xuống xin tha cho chàng: “Ta có cô con gái đẹp như sao Mai,",
+        "thế nào nó cũng kể cho con ta.”",
+        "Vua kia đành gật đầu."
+      ],
+      "image": {
+        "prompt": "a town square crowded with people, a young man with his hands bound standing before a stern judge, a golden coach with a white flag arriving, a Hungarian king stepping down with raised hand",
+        "seed": 4059847634,
+        "character": "vua-hung"
+      },
+      "video": {
+        "motionPrompt": "the golden coach rushes in, the white flag waves, the crowd turns their heads, the king steps down",
+        "seed": 957877671
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhot-trong-thap",
+      "title": "Nhốt trong tháp",
+      "narrator": "ke-chuyen",
+      "narration": "Về tới Buda, công chúa vừa thấy chàng đã nói: “Con chỉ lấy chàng thôi.” Một tuần sau, nàng mặc áo đẹp nhất sang hỏi bí mật. Chàng đáp: “Nàng ơi, đừng hỏi.” Nàng cứ nài, chàng quát lên và đẩy nàng ra cửa. Vua giận, sai xây một cái tháp hẹp, nhốt chàng vào, không cho ăn uống. Nhưng công chúa thương chàng, lén nhờ bác thợ khoét một lỗ nhỏ, sáng nào cũng đưa bánh qua đó. Người vua sai leo thang nhìn vào về tâu: “Anh ta vẫn béo tốt hồng hào.” Vua lẩm bẩm: “Chắc có phép lạ gì đây.”",
+      "subtitles": [
+        "Về tới Buda, công chúa vừa thấy chàng đã nói: “Con chỉ lấy chàng thôi.”",
+        "Một tuần sau, nàng mặc áo đẹp nhất sang hỏi bí mật.",
+        "Chàng đáp: “Nàng ơi, đừng hỏi.”",
+        "Nàng cứ nài, chàng quát lên và đẩy nàng ra cửa.",
+        "Vua giận, sai xây một cái tháp hẹp, nhốt chàng vào, không cho ăn uống.",
+        "Nhưng công chúa thương chàng, lén nhờ bác thợ khoét một lỗ nhỏ,",
+        "sáng nào cũng đưa bánh qua đó.",
+        "Người vua sai leo thang nhìn vào về tâu: “Anh ta vẫn béo tốt hồng hào.”",
+        "Vua lẩm bẩm: “Chắc có phép lạ gì đây.”"
+      ],
+      "image": {
+        "prompt": "a narrow round stone tower in a palace garden, a princess with golden braids secretly passing a loaf of bread and a jug through a small hidden hole at the base, roses around",
+        "seed": 3167079582,
+        "character": "cong-chua-buda"
+      },
+      "video": {
+        "motionPrompt": "the princess glances around and slips the bread through the hole, a hand inside takes it, rose petals drift",
+        "seed": 1407627588
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-cay-gay-ba-chu-ngua",
+      "title": "Ba cây gậy và ba chú ngựa",
+      "narrator": "ke-chuyen",
+      "narration": "Rồi vua Thổ gửi sang ba cây gậy giống hệt nhau, đòi nói cây nào cắt từ gốc, từ giữa, từ ngọn, không thì đem quân sang đánh. Chàng dặn công chúa: “Thả gậy vào nước ấm. Cây chìm là gốc, cây lơ lửng là giữa, cây nổi là ngọn.” Năm sau, vua Thổ gửi ba chú ngựa non, hỏi con nào sinh buổi sáng, buổi trưa, buổi tối. Vua cho đưa chàng ra khỏi tháp. Chàng bảo: “Con ăn yến mạch sinh buổi sáng, con ăn lúa mì sinh buổi trưa, con ăn lúa mạch sinh buổi tối.” Lần nào cũng đúng, và không có chiến tranh.",
+      "subtitles": [
+        "Rồi vua Thổ gửi sang ba cây gậy giống hệt nhau, đòi nói cây nào cắt từ gốc, từ giữa,",
+        "từ ngọn, không thì đem quân sang đánh.",
+        "Chàng dặn công chúa: “Thả gậy vào nước ấm.",
+        "Cây chìm là gốc, cây lơ lửng là giữa, cây nổi là ngọn.”",
+        "Năm sau, vua Thổ gửi ba chú ngựa non, hỏi con nào sinh buổi sáng, buổi trưa, buổi tối.",
+        "Vua cho đưa chàng ra khỏi tháp.",
+        "Chàng bảo: “Con ăn yến mạch sinh buổi sáng, con ăn lúa mì sinh buổi trưa,",
+        "con ăn lúa mạch sinh buổi tối.”",
+        "Lần nào cũng đúng, và không có chiến tranh."
+      ],
+      "image": {
+        "prompt": "a young man and a Hungarian king beside three wooden troughs of oats, wheat and barley, three young foals eating, an Ottoman envoy in a turban watching in surprise",
+        "seed": 2130407393,
+        "character": "cau-be"
+      },
+      "video": {
+        "motionPrompt": "the foals lower their heads to the troughs, the young man points from one to another, the envoy strokes his beard",
+        "seed": 2669188233
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-chang-trai-giong-nhau",
+      "title": "Ba chàng trai giống nhau",
+      "narrator": "ke-chuyen",
+      "narration": "Mụ phù thuỷ, dì của vua Thổ, bảo: “Người giải đố là con một bà goá, mai này sẽ làm vua nước Hung. Phải bắt nó sang đây.” Chàng bèn tìm hai anh em sinh đôi, vẽ cho mình cái mặt nạ giống hệt họ. Ba chàng trai sang cung vua Thổ, cùng cúi chào, cùng nói, cùng ngồi như một người. Đêm ấy, mụ phù thuỷ lén cắt tay áo chàng làm dấu. Sáng ra chàng cắt tay áo hai bạn y như thế. Vua Thổ chịu thua, cho cả ba về.",
+      "subtitles": [
+        "Mụ phù thuỷ, dì của vua Thổ, bảo: “Người giải đố là con một bà goá,",
+        "mai này sẽ làm vua nước Hung. Phải bắt nó sang đây.”",
+        "Chàng bèn tìm hai anh em sinh đôi, vẽ cho mình cái mặt nạ giống hệt họ.",
+        "Ba chàng trai sang cung vua Thổ, cùng cúi chào, cùng nói, cùng ngồi như một người.",
+        "Đêm ấy, mụ phù thuỷ lén cắt tay áo chàng làm dấu.",
+        "Sáng ra chàng cắt tay áo hai bạn y như thế.",
+        "Vua Thổ chịu thua, cho cả ba về."
+      ],
+      "image": {
+        "prompt": "three identical young men in matching Hungarian coats bowing together before an Ottoman sultan on a cushioned throne, an old witch with a long nose peering from a window",
+        "seed": 3896814244,
+        "character": "cau-be"
+      },
+      "video": {
+        "motionPrompt": "the three young men bow in perfect unison, the sultan squints from one to another, the witch frowns",
+        "seed": 1971228742
+      },
+      "voice": {}
+    },
+    {
+      "id": "giac-mo-thanh-that",
+      "title": "Giấc mơ thành thật",
+      "narrator": "ke-chuyen",
+      "narration": "Lần sau, vua Thổ đòi chàng sang một mình. Công chúa khóc, chàng an ủi: “Đừng khóc, mọi việc sẽ ổn thôi.” Tới cung vua Thổ, lính ùa ra chặn, thanh gươm vụt khỏi vỏ quật ngã cả bọn. Đêm ấy mụ phù thuỷ lẻn vào trộm gươm, bị nó gõ gãy cái mũi sắt. Sáng ra cả đạo quân kéo tới cũng bị đánh tan tác, còn chàng không sứt một vết xước. Ở Buda, công chúa sốt ruột dẫn quân đi đón, vừa ra khỏi thành đã gặp chàng trở về. Vua nước Hung gả công chúa và nhường ngôi cho chàng. Nhưng chàng xin về thăm mẹ trước. Bà goá thấy đoàn quân dừng trước túp lều thì sợ hết hồn. Chàng hôn tay bà và nói: “Mẹ ơi, giờ mẹ được nghe bí mật rồi. Con mơ thấy mình sẽ làm vua nước Hung, và giấc mơ đã thành thật. Hồi bé nói ra thì chẳng có ngày hôm nay.”",
+      "subtitles": [
+        "Lần sau, vua Thổ đòi chàng sang một mình.",
+        "Công chúa khóc, chàng an ủi: “Đừng khóc, mọi việc sẽ ổn thôi.”",
+        "Tới cung vua Thổ, lính ùa ra chặn, thanh gươm vụt khỏi vỏ quật ngã cả bọn.",
+        "Đêm ấy mụ phù thuỷ lẻn vào trộm gươm, bị nó gõ gãy cái mũi sắt.",
+        "Sáng ra cả đạo quân kéo tới cũng bị đánh tan tác, còn chàng không sứt một vết xước.",
+        "Ở Buda, công chúa sốt ruột dẫn quân đi đón, vừa ra khỏi thành đã gặp chàng trở về.",
+        "Vua nước Hung gả công chúa và nhường ngôi cho chàng.",
+        "Nhưng chàng xin về thăm mẹ trước.",
+        "Bà goá thấy đoàn quân dừng trước túp lều thì sợ hết hồn.",
+        "Chàng hôn tay bà và nói: “Mẹ ơi, giờ mẹ được nghe bí mật rồi.",
+        "Con mơ thấy mình sẽ làm vua nước Hung, và giấc mơ đã thành thật.",
+        "Hồi bé nói ra thì chẳng có ngày hôm nay.”"
+      ],
+      "image": {
+        "prompt": "a young man in fine royal clothes kneeling to kiss the hand of an astonished old peasant woman in front of a humble cottage, a troop of riders with banners behind, sunset",
+        "seed": 3334870050,
+        "character": "cau-be"
+      },
+      "video": {
+        "motionPrompt": "the young man kneels and takes his mother's hand, she raises her other hand to her mouth in wonder, banners flutter",
+        "seed": 2991877533
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "warm Hungarian folk melody, violin, cimbalom and soft clarinet, playful and proud, a tense pizzicato for the riddles, a joyful czardas-like ending, instrumental, no vocals",
+    "durationSeconds": 150,
+    "seed": 311133684
+  }
+}

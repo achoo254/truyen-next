@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "slug": "de-khon-va-soi",
+  "shelf": "kids",
+  "title": "Dê khôn và sói",
+  "summary": "Vợ chồng nhà sói bày mưu lừa cô dê khôn ra khỏi hang, nhưng lần nào cô dê cũng tỉnh táo nhận ra. Đến lần thứ hai, chính cô dê nghĩ ra một mẹo khiến sói chạy mất dạng. Truyện tiền thân Jataka của Ấn Độ kể nhẹ cho bé về sự cẩn thận trước lời ngọt ngào của kẻ xấu.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện tiền thân Đức Phật (Jataka, Ấn Độ cổ đại), theo bản kể lại tiếng Anh của Ellen C. Babbitt, More Jataka Tales (1922), truyện «The Wise Goat and the Wolf», Project Gutenberg #7518, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản nào; Mèo Miu mở đầu và rút ý ở cuối. Bản cho trẻ nhỏ kể nhẹ: các bạn dê bị sói bắt đi, sói giả vờ nằm im không dậy nữa; giữ nguyên cốt truyện.",
+  "basedOn": "Truyện tiền thân Jataka (Ấn Độ)",
+  "style": "classic Indian storybook illustration in the spirit of old Jataka picture books, soft watercolor and gouache with gentle Mughal miniature touches, warm golden light, rounded friendly shapes, a rocky green hillside with a cosy cave, wildflowers and a winding path, calm and safe mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 105354904,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "de-khon",
+      "name": "Cô dê khôn",
+      "seed": 558059062,
+      "sheetPrompt": "a clever white mountain goat with small curved horns, a little beard, bright alert eyes and a calm confident smile, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "soi-vo",
+      "name": "Sói vợ",
+      "seed": 38883345,
+      "sheetPrompt": "a sly grey she-wolf with a sweet fake smile, droopy pretend-sad eyes and a fluffy tail, not scary, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "soi-chong",
+      "name": "Sói chồng",
+      "seed": 594778797,
+      "sheetPrompt": "a scruffy grey wolf with a long snout and a hungry comical expression, not scary, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Nếu có người lạ nói ngọt ngào rủ các bạn đi theo, các bạn sẽ làm gì nào? Miu thì sẽ dừng lại và nghĩ thật kỹ. Hôm nay Miu kể chuyện một cô dê rất khôn, chẳng bao giờ để ai lừa được mình. Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ!",
+        "Nếu có người lạ nói ngọt ngào rủ các bạn đi theo, các bạn sẽ làm gì nào?",
+        "Miu thì sẽ dừng lại và nghĩ thật kỹ. Hôm nay Miu kể chuyện một cô dê rất khôn,",
+        "chẳng bao giờ để ai lừa được mình. Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a rock on a green hillside holding an open picture book, a white goat peeks out of a cave nearby and two grey wolves hide behind bushes",
+        "seed": 2626340216
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello and taps her head thoughtfully, the goat blinks, the wolves' ears pop up behind the bushes, gentle camera push-in",
+        "seed": 3135763617
+      },
+      "voice": {}
+    },
+    {
+      "id": "hang-de",
+      "title": "Hang dê trên sườn đồi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, trong một cái hang trên sườn đồi, có rất nhiều chú dê rừng sống cùng nhau. Gần đó có vợ chồng nhà sói. Sói thích ăn thịt dê lắm, nên cứ rình bắt dần các bạn dê đi. Cuối cùng chỉ còn lại một cô dê. Cô khôn hơn tất cả, sói tìm đủ mọi cách mà chẳng bắt được.",
+      "subtitles": [
+        "Ngày xưa, trong một cái hang trên sườn đồi, có rất nhiều chú dê rừng sống cùng nhau.",
+        "Gần đó có vợ chồng nhà sói. Sói thích ăn thịt dê lắm, nên cứ rình bắt dần các bạn dê đi.",
+        "Cuối cùng chỉ còn lại một cô dê.",
+        "Cô khôn hơn tất cả, sói tìm đủ mọi cách mà chẳng bắt được."
+      ],
+      "image": {
+        "character": "de-khon",
+        "prompt": "a clever white goat stands alone at the mouth of a cosy cave on a green hillside, watching two grey wolves prowling far down the slope among bushes",
+        "seed": 2916584583
+      },
+      "video": {
+        "motionPrompt": "the goat lifts her head and watches carefully, the wolves sneak and then give up, wildflowers sway, slow camera pan",
+        "seed": 1894330389
+      },
+      "voice": {}
+    },
+    {
+      "id": "muu-gia-vo",
+      "title": "Mưu giả vờ của sói",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, sói chồng nói với vợ: Mình bày mẹo lừa cô dê ấy đi. Anh sẽ nằm im ở đây, giả vờ như đã không còn sống nữa. Em đến hang, làm bộ buồn rầu, nhờ cô ta sang tiễn biệt anh. Cô ta thương em, thế nào cũng đi theo. Khi cô ta đến gần, anh sẽ bật dậy chộp lấy!",
+      "subtitles": [
+        "Một hôm, sói chồng nói với vợ: Mình bày mẹo lừa cô dê ấy đi.",
+        "Anh sẽ nằm im ở đây, giả vờ như đã không còn sống nữa.",
+        "Em đến hang, làm bộ buồn rầu, nhờ cô ta sang tiễn biệt anh.",
+        "Cô ta thương em, thế nào cũng đi theo.",
+        "Khi cô ta đến gần, anh sẽ bật dậy chộp lấy!"
+      ],
+      "image": {
+        "character": "soi-chong",
+        "prompt": "two grey wolves whisper together behind a big rock, the scruffy wolf mimes lying flat with his tongue out comically while the she-wolf practises a fake sad face",
+        "seed": 4099609835
+      },
+      "video": {
+        "motionPrompt": "the wolf flops down and pretends to lie still, the she-wolf rehearses dramatic sad sighs, comic sneaky motion",
+        "seed": 4192165007
+      },
+      "voice": {}
+    },
+    {
+      "id": "di-cung-soi",
+      "title": "Đi trước đi, chị sói",
+      "narrator": "ke-chuyen",
+      "narration": "Sói vợ đến hang, sụt sịt: Cô dê ơi, chồng tôi nằm kia, chẳng bao giờ dậy nữa. Tôi buồn quá, cô sang với tôi nhé. Cô dê đáp: Chồng chị đã bắt hết bạn bè tôi. Tôi ở đây yên ổn hơn. Sói vợ năn nỉ mãi, cuối cùng dê cũng nhận lời. Nhưng vừa đi, dê vừa nghĩ: Biết đâu sói chồng vẫn còn tỉnh? Dê bảo: Chị đi trước đi, tôi theo sau.",
+      "subtitles": [
+        "Sói vợ đến hang, sụt sịt: Cô dê ơi, chồng tôi nằm kia, chẳng bao giờ dậy nữa.",
+        "Tôi buồn quá, cô sang với tôi nhé.",
+        "Cô dê đáp: Chồng chị đã bắt hết bạn bè tôi. Tôi ở đây yên ổn hơn.",
+        "Sói vợ năn nỉ mãi, cuối cùng dê cũng nhận lời.",
+        "Nhưng vừa đi, dê vừa nghĩ: Biết đâu sói chồng vẫn còn tỉnh?",
+        "Dê bảo: Chị đi trước đi, tôi theo sau."
+      ],
+      "image": {
+        "character": "de-khon",
+        "prompt": "a white goat walks carefully up a winding hillside path a few steps behind a grey she-wolf who pretends to wipe tears, the goat looks thoughtful and alert",
+        "seed": 1953622876
+      },
+      "video": {
+        "motionPrompt": "the she-wolf walks ahead sniffling dramatically, the goat follows slowly, ears turning, stopping to think, gentle camera follow",
+        "seed": 1373482417
+      },
+      "voice": {}
+    },
+    {
+      "id": "soi-ngang-dau",
+      "title": "Sói ngẩng đầu",
+      "narrator": "ke-chuyen",
+      "narration": "Sói chồng nằm chờ mãi, đói quá, nghe tiếng chân đến gần liền ngẩng đầu lên nhìn. Cô dê thấy ngay. Cô quay ngoắt lại, chạy một mạch về hang. Sói vợ giận lắm: Đang giả vờ, sao mình lại ngẩng đầu lên? Sói chồng gãi tai, chẳng biết trả lời sao.",
+      "subtitles": [
+        "Sói chồng nằm chờ mãi, đói quá, nghe tiếng chân đến gần liền ngẩng đầu lên nhìn.",
+        "Cô dê thấy ngay. Cô quay ngoắt lại, chạy một mạch về hang.",
+        "Sói vợ giận lắm: Đang giả vờ, sao mình lại ngẩng đầu lên?",
+        "Sói chồng gãi tai, chẳng biết trả lời sao."
+      ],
+      "image": {
+        "character": "soi-chong",
+        "prompt": "a scruffy grey wolf lying in the grass lifts his head to peek, while further up the path the white goat turns and gallops back to her cave, the she-wolf stamps her paw",
+        "seed": 2897145711
+      },
+      "video": {
+        "motionPrompt": "the wolf lifts his head and peeks, the goat spins and runs away, the she-wolf scolds and the wolf scratches his ear sheepishly, comic motion",
+        "seed": 165772164
+      },
+      "voice": {}
+    },
+    {
+      "id": "lan-thu-hai",
+      "title": "Mẹo của cô dê",
+      "narrator": "ke-chuyen",
+      "narration": "Ít lâu sau, sói lại sang hang dê, nói ngọt: Cô dê ơi, nhờ cô ghé hôm trước mà chồng tôi khỏe lại rồi. Sang chơi với chúng tôi nhé! Dê nghĩ: Lại một mẹo nữa đây. Nhưng lần này mình cũng có mẹo. Dê tươi cười: Được chứ! Tôi sẽ rủ thêm bạn đi cùng: chú chó săn Lão Xám, chú chó săn Cậu Nâu, và anh chó to khỏe tên là Bốn Mắt. Mỗi chú sẽ dẫn theo cả vợ nữa!",
+      "subtitles": [
+        "Ít lâu sau, sói lại sang hang dê, nói ngọt:",
+        "Cô dê ơi, nhờ cô ghé hôm trước mà chồng tôi khỏe lại rồi. Sang chơi với chúng tôi nhé!",
+        "Dê nghĩ: Lại một mẹo nữa đây. Nhưng lần này mình cũng có mẹo.",
+        "Dê tươi cười: Được chứ!",
+        "Tôi sẽ rủ thêm bạn đi cùng: chú chó săn Lão Xám, chú chó săn Cậu Nâu,",
+        "và anh chó to khỏe tên là Bốn Mắt. Mỗi chú sẽ dẫn theo cả vợ nữa!"
+      ],
+      "image": {
+        "character": "de-khon",
+        "prompt": "the white goat stands confidently at her cave entrance smiling, talking to a grey she-wolf, behind the goat a little thought bubble shows three big friendly hunting dogs",
+        "seed": 2561291050
+      },
+      "video": {
+        "motionPrompt": "the goat smiles and counts on her hoof, the she-wolf's smile freezes and her ears flatten, gentle camera push-in",
+        "seed": 2035209598
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket",
+      "title": "Sói chạy mất dạng",
+      "narrator": "miu",
+      "narration": "Nghe đến chó săn, sói hoảng hồn, quay đầu chạy một mạch về hang. Từ đó, cô dê chẳng bao giờ thấy vợ chồng sói nữa. Các bạn ạ, kẻ xấu hay nói những lời ngọt ngào để lừa mình. Mình hãy bình tĩnh, nghĩ thật kỹ, và đừng đi theo ai khi chưa hỏi bố mẹ nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Nghe đến chó săn, sói hoảng hồn, quay đầu chạy một mạch về hang.",
+        "Từ đó, cô dê chẳng bao giờ thấy vợ chồng sói nữa.",
+        "Các bạn ạ, kẻ xấu hay nói những lời ngọt ngào để lừa mình.",
+        "Mình hãy bình tĩnh, nghĩ thật kỹ, và đừng đi theo ai khi chưa hỏi bố mẹ nhé.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits beside the happy white goat at the cave mouth at sunset, far down the hill a grey wolf runs away in a puff of dust",
+        "seed": 3169143476
+      },
+      "video": {
+        "motionPrompt": "the cat and the goat wave goodbye and laugh, the wolf scurries off into the distance, warm sunset light, slow camera pull-back",
+        "seed": 1601750421
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle ancient Indian melody, bansuri flute and soft sitar with light tabla, a little sneaky in the middle and bright and cheerful at the end, gentle for young children, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3577917475
+  }
+}

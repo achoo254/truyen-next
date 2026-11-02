@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "slug": "chu-be-ngon-tay-di-lam-tho",
+  "shelf": "world",
+  "title": "Chú bé Ngón Tay đi làm thợ",
+  "summary": "Chú bé thợ may chỉ to bằng ngón tay cái, đeo cây kim khâu làm gươm, cưỡi làn hơi bay ra khỏi ống khói để đi khắp thế gian. Chú trốn dưới cái đê khâu, nấp sau đồng bạc, lọt vào bụng bò, vào cả khúc dồi treo bếp, và lần nào cũng thoát nhờ nhanh trí. Truyện cổ Grimm kể vui nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện số bốn mươi lăm \"Thumbling as Journeyman\" (Daumerlings Wanderschaft) trong Kinder- und Hausmärchen của anh em Grimm (bản 1857, bản dịch Margaret Hunt 1884), Project Gutenberg #5314, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và giọng hài hước; đoạn trong lò mổ kể nhẹ, không chép bản dịch nào.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic German fairy tale picture book illustration in the manner of nineteenth-century storybooks, cozy half-timbered houses, a tiny thumb-sized tailor boy among giant everyday objects like thimbles, coins and spoons, soft watercolor and ink line textures, colors of warm brown, cream and forest green, playful whimsical mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "ngon-tay",
+      "name": "Chú bé Ngón Tay",
+      "sheetPrompt": "a tiny cheerful tailor boy no bigger than a thumb from an old German folk tale, rosy cheeks, pointed green cap, little brown waistcoat, a darning needle with a red wax knob carried at his side, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3120973372
+    },
+    {
+      "id": "con-cao",
+      "name": "Con cáo",
+      "sheetPrompt": "a sly but good-natured red fox from an old German folk tale, bushy tail, bright amber eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3980173622
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cuoi-lan-hoi",
+      "title": "Cưỡi làn hơi ra đi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, bác thợ may có một cậu con trai bé tí, chỉ to bằng ngón tay cái, nên ai cũng gọi là Ngón Tay. Bé thì bé, cậu gan lắm. Một hôm cậu bảo: “Cha ơi, con phải đi xem thế gian.” Ông bố gật đầu, lấy cây kim khâu dài, nhỏ một giọt sáp đỏ làm chuôi: “Đây là gươm của con.” Trước khi đi, cậu muốn ăn bữa cuối ở nhà, liền nhảy vào bếp hỏi mẹ nấu gì. Mẹ bảo: “Con tự xem lấy.” Ngón Tay nhảy lên bếp, nghển cổ nhìn vào đĩa thức ăn, ai ngờ làn hơi nóng cuốn cậu bay vút lên ống khói. Cậu cưỡi hơi bay lơ lửng một hồi, rồi đáp xuống đất, giữa thế gian rộng lớn.",
+      "subtitles": [
+        "Ngày xưa, bác thợ may có một cậu con trai bé tí, chỉ to bằng ngón tay cái,",
+        "nên ai cũng gọi là Ngón Tay. Bé thì bé, cậu gan lắm.",
+        "Một hôm cậu bảo: “Cha ơi, con phải đi xem thế gian.”",
+        "Ông bố gật đầu, lấy cây kim khâu dài, nhỏ một giọt sáp đỏ làm chuôi:",
+        "“Đây là gươm của con.”",
+        "Trước khi đi, cậu muốn ăn bữa cuối ở nhà, liền nhảy vào bếp hỏi mẹ nấu gì.",
+        "Mẹ bảo: “Con tự xem lấy.” Ngón Tay nhảy lên bếp, nghển cổ nhìn vào đĩa thức ăn,",
+        "ai ngờ làn hơi nóng cuốn cậu bay vút lên ống khói.",
+        "Cậu cưỡi hơi bay lơ lửng một hồi, rồi đáp xuống đất, giữa thế gian rộng lớn."
+      ],
+      "image": {
+        "prompt": "a cozy tailor's kitchen, a thumb-sized boy in a green cap being lifted by a curl of steam from a dish up toward the chimney, his surprised mother with a ladle",
+        "seed": 1220117525,
+        "character": "ngon-tay"
+      },
+      "video": {
+        "motionPrompt": "the steam swirls upward carrying the tiny boy, he waves his little needle, the mother looks up open-mouthed",
+        "seed": 870958141
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-khoai-tay",
+      "title": "Ông vua Khoai Tây",
+      "narrator": "ke-chuyen",
+      "narration": "Ngón Tay xin vào làm cho một ông chủ thợ may, nhưng cơm nhà ấy dở quá. Cậu bảo bà chủ: “Bà không cho ăn ngon hơn thì sáng mai tôi đi, và lấy phấn viết lên cửa: Lắm khoai tây, ít thịt quá, chào ông vua Khoai Tây!” Bà chủ giận, vớ cái khăn lau định đập. Ngón Tay nhanh chân chui tọt dưới cái đê khâu, thò đầu ra lè lưỡi. Bà nhấc đê lên, cậu nhảy vào nếp khăn. Bà giũ khăn, cậu chui vào kẽ bàn: “Hô hô, bà chủ ơi!” Bà đập, cậu lại nhảy vào ngăn kéo. Mãi rồi bà cũng tóm được, và đuổi cậu ra khỏi nhà.",
+      "subtitles": [
+        "Ngón Tay xin vào làm cho một ông chủ thợ may, nhưng cơm nhà ấy dở quá.",
+        "Cậu bảo bà chủ: “Bà không cho ăn ngon hơn thì sáng mai tôi đi, và lấy phấn viết lên cửa:",
+        "Lắm khoai tây, ít thịt quá, chào ông vua Khoai Tây!”",
+        "Bà chủ giận, vớ cái khăn lau định đập.",
+        "Ngón Tay nhanh chân chui tọt dưới cái đê khâu, thò đầu ra lè lưỡi.",
+        "Bà nhấc đê lên, cậu nhảy vào nếp khăn.",
+        "Bà giũ khăn, cậu chui vào kẽ bàn: “Hô hô, bà chủ ơi!”",
+        "Bà đập, cậu lại nhảy vào ngăn kéo.",
+        "Mãi rồi bà cũng tóm được, và đuổi cậu ra khỏi nhà."
+      ],
+      "image": {
+        "prompt": "a tailor's workroom, a cross woman raising a dishcloth, a thumb-sized boy peeking out from under a silver thimble on the table sticking out his tongue",
+        "seed": 841959320,
+        "character": "ngon-tay"
+      },
+      "video": {
+        "motionPrompt": "the woman lifts the thimble, the tiny boy darts into the folds of the cloth, the cloth flaps",
+        "seed": 1086570342
+      },
+      "voice": {}
+    },
+    {
+      "id": "kho-bac-nha-vua",
+      "title": "Trong kho bạc nhà vua",
+      "narrator": "ke-chuyen",
+      "narration": "Vào một khu rừng lớn, cậu gặp một bọn trộm đang tính lấy kho bạc của nhà vua. Chúng bảo: “Thằng bé tí này chui lọt lỗ khoá, ném tiền ra cho bọn ta.” Ngón Tay nghĩ một lúc, rồi theo đi. Cậu tìm được một khe cửa, lách vào. Một người lính gác thấy, bảo: “Con nhện xấu xí quá, đập đi.” Người kia can: “Để yên nó, nó có làm gì đâu.” Vào trong, Ngón Tay mở cửa sổ, ném ra từng đồng bạc một. Lính gác nghe tiếng leng keng liền chạy vào. Cậu nấp dưới một đồng bạc, kêu: “Ta ở đây!” Họ chạy tới thì cậu đã sang góc khác: “Hô hô, ta ở đây!” Cứ thế, họ chạy vòng vòng tới mệt rồi bỏ đi. Đồng cuối cùng, cậu ngồi lên nó bay xuống qua cửa sổ. Bọn trộm muốn cậu làm thủ lĩnh, nhưng cậu chỉ lấy một đồng xu nhỏ, vì mang nhiều hơn không nổi, rồi lại lên đường.",
+      "subtitles": [
+        "Vào một khu rừng lớn, cậu gặp một bọn trộm đang tính lấy kho bạc của nhà vua.",
+        "Chúng bảo: “Thằng bé tí này chui lọt lỗ khoá, ném tiền ra cho bọn ta.”",
+        "Ngón Tay nghĩ một lúc, rồi theo đi.",
+        "Cậu tìm được một khe cửa, lách vào.",
+        "Một người lính gác thấy, bảo: “Con nhện xấu xí quá, đập đi.”",
+        "Người kia can: “Để yên nó, nó có làm gì đâu.”",
+        "Vào trong, Ngón Tay mở cửa sổ, ném ra từng đồng bạc một.",
+        "Lính gác nghe tiếng leng keng liền chạy vào.",
+        "Cậu nấp dưới một đồng bạc, kêu: “Ta ở đây!”",
+        "Họ chạy tới thì cậu đã sang góc khác: “Hô hô, ta ở đây!”",
+        "Cứ thế, họ chạy vòng vòng tới mệt rồi bỏ đi.",
+        "Đồng cuối cùng, cậu ngồi lên nó bay xuống qua cửa sổ.",
+        "Bọn trộm muốn cậu làm thủ lĩnh, nhưng cậu chỉ lấy một đồng xu nhỏ,",
+        "vì mang nhiều hơn không nổi, rồi lại lên đường."
+      ],
+      "image": {
+        "prompt": "a royal treasure chamber full of silver coins, two puzzled guards with lanterns searching the corners, a thumb-sized boy peeking out from under a large silver coin laughing",
+        "seed": 701480821,
+        "character": "ngon-tay"
+      },
+      "video": {
+        "motionPrompt": "the guards rush from corner to corner, the tiny boy pops up under a different coin each time, lantern light swings",
+        "seed": 4175521082
+      },
+      "voice": {}
+    },
+    {
+      "id": "trong-bung-bo",
+      "title": "Trong bụng con bò đen",
+      "narrator": "ke-chuyen",
+      "narration": "Sau đó, Ngón Tay vào làm người hầu ở một quán trọ. Cậu bé tí nên thấy hết những gì các cô hầu gái lén lấy trong đĩa, trong hầm, và mách lại ông bà chủ. Các cô tức lắm, rủ nhau trả thù. Một cô cắt cỏ ngoài vườn, thấy cậu nhảy nhót giữa đám rau, liền cắt luôn cả cậu lẫn cỏ, gói vào khăn đem cho bò ăn. Con bò đen to nuốt chửng cậu mà chẳng làm cậu đau. Trong bụng bò tối om, chẳng có ngọn nến nào. Lúc người ta vắt sữa, cậu gọi: “Vắt vắt vắt, xô đầy chưa nào?” nhưng tiếng sữa chảy át mất. Ông chủ bảo mai sẽ đem bò đi mổ. Cậu sợ quá, kêu to: “Cho tôi ra trước đã, tôi ở trong con đen!” Ông chủ nghe thấy, nhưng chẳng hiểu tiếng nói từ đâu ra.",
+      "subtitles": [
+        "Sau đó, Ngón Tay vào làm người hầu ở một quán trọ.",
+        "Cậu bé tí nên thấy hết những gì các cô hầu gái lén lấy trong đĩa, trong hầm,",
+        "và mách lại ông bà chủ. Các cô tức lắm, rủ nhau trả thù.",
+        "Một cô cắt cỏ ngoài vườn, thấy cậu nhảy nhót giữa đám rau, liền cắt luôn cả cậu lẫn cỏ,",
+        "gói vào khăn đem cho bò ăn. Con bò đen to nuốt chửng cậu mà chẳng làm cậu đau.",
+        "Trong bụng bò tối om, chẳng có ngọn nến nào.",
+        "Lúc người ta vắt sữa, cậu gọi: “Vắt vắt vắt, xô đầy chưa nào?”",
+        "nhưng tiếng sữa chảy át mất. Ông chủ bảo mai sẽ đem bò đi mổ.",
+        "Cậu sợ quá, kêu to: “Cho tôi ra trước đã, tôi ở trong con đen!”",
+        "Ông chủ nghe thấy, nhưng chẳng hiểu tiếng nói từ đâu ra."
+      ],
+      "image": {
+        "prompt": "a cozy cow barn with a big gentle black cow being milked, a milkmaid on a stool with a pail, the puzzled innkeeper in the doorway cupping his ear, warm lantern light",
+        "seed": 1768804275,
+        "character": "ngon-tay"
+      },
+      "video": {
+        "motionPrompt": "milk streams into the pail, the black cow chews calmly and swishes her tail, the lantern sways",
+        "seed": 1048966333
+      },
+      "voice": {}
+    },
+    {
+      "id": "khuc-doi-treo-bep",
+      "title": "Khúc dồi treo bếp",
+      "narrator": "ke-chuyen",
+      "narration": "Hôm sau, người ta làm thịt con bò. May sao Ngón Tay nhanh nhẹn né được hết, nhưng lại lọt vào đống thịt băm. Cậu kêu: “Đừng băm sâu, tôi ở trong này!” Tiếng dao át mất. Cậu nhảy tránh khéo léo giữa những nhát dao, không sứt một vết xước, nhưng rốt cuộc bị nhồi vào một khúc dồi cùng mấy miếng mỡ, rồi treo lên ống khói cho ám khói. Trong ấy chật chội, ngày dài lê thê. Mãi tới mùa đông, khúc dồi mới được đem xuống thết khách. Bà chủ cắt từng lát, cậu cẩn thận rụt đầu lại, rồi chờ đúng lúc nhảy vọt ra ngoài.",
+      "subtitles": [
+        "Hôm sau, người ta làm thịt con bò.",
+        "May sao Ngón Tay nhanh nhẹn né được hết, nhưng lại lọt vào đống thịt băm.",
+        "Cậu kêu: “Đừng băm sâu, tôi ở trong này!”",
+        "Tiếng dao át mất. Cậu nhảy tránh khéo léo giữa những nhát dao, không sứt một vết xước,",
+        "nhưng rốt cuộc bị nhồi vào một khúc dồi cùng mấy miếng mỡ,",
+        "rồi treo lên ống khói cho ám khói.",
+        "Trong ấy chật chội, ngày dài lê thê.",
+        "Mãi tới mùa đông, khúc dồi mới được đem xuống thết khách.",
+        "Bà chủ cắt từng lát, cậu cẩn thận rụt đầu lại, rồi chờ đúng lúc nhảy vọt ra ngoài."
+      ],
+      "image": {
+        "prompt": "an old inn kitchen with sausages hanging in the chimney smoke, a hostess slicing a sausage on a board, a thumb-sized boy leaping out joyfully between the slices",
+        "seed": 437199845,
+        "character": "ngon-tay"
+      },
+      "video": {
+        "motionPrompt": "the knife lifts, the tiny boy springs out and lands on the table, smoke curls gently up the chimney",
+        "seed": 3407745536
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-cao-va-dan-ga",
+      "title": "Con cáo và đàn gà",
+      "narrator": "ke-chuyen",
+      "narration": "Ngón Tay chẳng muốn ở cái nhà ấy thêm ngày nào, lại lên đường. Giữa đồng, một con cáo lơ đễnh đớp phải cậu. “Này bác Cáo, tôi mắc trong cổ họng bác đây, thả tôi ra!” Cáo bảo: “Mày bé tẹo, ăn cũng chẳng bõ. Hứa cho ta đàn gà nhà bố mày thì ta thả.” “Được, tôi hứa, gà trống gà mái đều là của bác.” Cáo thả cậu ra, lại còn cõng cậu về tận nhà. Ông bố gặp lại con trai thì mừng quá, vui lòng đem cả đàn gà cho cáo. Ngón Tay đưa cha đồng xu nhỏ: “Con mang về cho cha món tiền con kiếm được đây.” Có người hỏi: “Sao lại để cáo ăn mất đàn gà tội nghiệp?” Ô hay, bố nào mà chẳng thương con mình hơn đàn gà ngoài sân!",
+      "subtitles": [
+        "Ngón Tay chẳng muốn ở cái nhà ấy thêm ngày nào, lại lên đường.",
+        "Giữa đồng, một con cáo lơ đễnh đớp phải cậu.",
+        "“Này bác Cáo, tôi mắc trong cổ họng bác đây, thả tôi ra!”",
+        "Cáo bảo: “Mày bé tẹo, ăn cũng chẳng bõ.",
+        "Hứa cho ta đàn gà nhà bố mày thì ta thả.”",
+        "“Được, tôi hứa, gà trống gà mái đều là của bác.”",
+        "Cáo thả cậu ra, lại còn cõng cậu về tận nhà.",
+        "Ông bố gặp lại con trai thì mừng quá, vui lòng đem cả đàn gà cho cáo.",
+        "Ngón Tay đưa cha đồng xu nhỏ: “Con mang về cho cha món tiền con kiếm được đây.”",
+        "Có người hỏi: “Sao lại để cáo ăn mất đàn gà tội nghiệp?”",
+        "Ô hay, bố nào mà chẳng thương con mình hơn đàn gà ngoài sân!"
+      ],
+      "image": {
+        "prompt": "a red fox trotting up a village lane to a tailor's cottage with a thumb-sized boy riding on its back, the overjoyed tailor father running out with open arms, hens in the yard",
+        "seed": 3823496627,
+        "character": "con-cao"
+      },
+      "video": {
+        "motionPrompt": "the fox trots along wagging its bushy tail, the boy waves his cap, the father hurries out of the door",
+        "seed": 1803412091
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "playful German folk melody, clarinet, bassoon and light pizzicato strings, a bouncy hopping rhythm for the tiny hero, a sneaky tiptoe theme in the treasure chamber, a warm homecoming ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 2467543024
+  }
+}

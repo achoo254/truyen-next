@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "slug": "hoang-tu-luc-si",
+  "shelf": "adults",
+  "title": "Hoàng tử lực sĩ",
+  "summary": "Mất cha, hoàng tử theo mẹ vào rừng và tìm được thanh gươm khiến người đeo mạnh hơn mọi người. Chàng diệt cả băng cướp, nhưng chính mẹ chàng lại toan tính với tên tướng cướp còn sống để cướp gươm. Truyện dân gian Hungary trong tuyển tập Andrew Lang, kể đầy đủ cho người lớn.",
+  "themes": [
+    "anh-hung",
+    "gia-dinh",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện “The Strong Prince” trong The Crimson Fairy Book do Andrew Lang chủ biên (1903), Project Gutenberg #2435, thuộc phạm vi công cộng; gốc là truyện dân gian Hungary. Lời kể viết mới bằng tiếng Việt, theo sát cốt truyện, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Hungary (Andrew Lang, 1903)",
+  "style": "nineteenth century Central European fairy tale illustration in dark rich oils and fine ink, deep oak forests, a robbers' cave turned into an enchanted castle, a gentle giant's hall, a monkey, a fox and a squirrel as helpers, dramatic candlelight, adventurous mood for adult readers, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "sheetPrompt": "a tall strong young Hungarian prince, broad shoulders, dark wavy hair, plain travelling tunic and boots, a gold wrought sword belted at his waist, determined eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 597246369
+    },
+    {
+      "id": "hoang-hau",
+      "name": "Hoàng hậu",
+      "sheetPrompt": "a handsome widowed queen in her forties, dark mourning gown with a veil, a ring of keys at her belt, restless calculating eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2330062137
+    },
+    {
+      "id": "tuong-cuop",
+      "name": "Tên tướng cướp",
+      "sheetPrompt": "a cunning robber captain with a black beard and sly grin, a faded woman's shawl wrapped round his neck, leather jerkin and tall boots, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2622649023
+    },
+    {
+      "id": "nguoi-khong-lo",
+      "name": "Người khổng lồ",
+      "sheetPrompt": "a kindly giant with a great grey beard, simple brown robe and leather belt, enormous gentle hands, wise sad eyes, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1552973539
+    }
+  ],
+  "scenes": [
+    {
+      "id": "vua-chet-me-con-bo-nuoc",
+      "title": "Vua chết, mẹ con bỏ nước",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một ông vua mê rượu đến nỗi đầu giường lúc nào cũng phải buộc sẵn một bình đầy, không thì chẳng ngủ được. Suốt ngày ông uống, đến mức chẳng còn tỉnh táo mà lo việc nước, và vương quốc cứ thế rệu rã dần. Một hôm đi săn, một cành cây gãy rơi trúng đầu, vua ngã ngựa chết ngay giữa đường. Hoàng hậu và hoàng tử khóc thương ông thảm thiết, vì dù nhiều tật xấu, ông vẫn luôn hiền với vợ con. Hai mẹ con bỏ lại vương miện, rời đất nước mà đi, chẳng biết đi đâu, cũng chẳng thiết biết.",
+      "subtitles": [
+        "Ngày xưa có một ông vua mê rượu đến nỗi đầu giường lúc nào cũng phải buộc sẵn một bình",
+        "đầy, không thì chẳng ngủ được.",
+        "Suốt ngày ông uống, đến mức chẳng còn tỉnh táo mà lo việc nước,",
+        "và vương quốc cứ thế rệu rã dần.",
+        "Một hôm đi săn, một cành cây gãy rơi trúng đầu, vua ngã ngựa chết ngay giữa đường.",
+        "Hoàng hậu và hoàng tử khóc thương ông thảm thiết, vì dù nhiều tật xấu,",
+        "ông vẫn luôn hiền với vợ con.",
+        "Hai mẹ con bỏ lại vương miện, rời đất nước mà đi, chẳng biết đi đâu,",
+        "cũng chẳng thiết biết."
+      ],
+      "image": {
+        "prompt": "a grieving queen in black and her young son walking away from a distant castle along a forest road at dusk, a crown left behind on a cushion in an empty hall",
+        "seed": 1070444541,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "slow pull back as the two small figures walk down the road and the castle fades into mist",
+        "seed": 3549865490
+      },
+      "voice": {}
+    },
+    {
+      "id": "thanh-guom-tren-canh-cay",
+      "title": "Thanh gươm trên cành cây",
+      "narrator": "ke-chuyen",
+      "narration": "Đi mãi, hai mẹ con vào một khu rừng, mệt lả ngồi dưới gốc cây ăn chút bánh mì. Hoàng hậu khát, bảo con đi lấy nước. Hoàng tử nghe tiếng suối róc rách gần đó, lấy mũ múc nước về cho mẹ, rồi lần theo dòng suối lên tận nguồn, nơi nước trong mát trào ra từ một tảng đá. Chàng quỳ xuống định uống, thì thấy dưới mặt nước bóng một thanh gươm treo trên cành cây phía trên đầu. Chàng trèo lên cắt dây, mang gươm về cho mẹ. Thanh gươm chạm vàng, rất tinh xảo, trên chuôi khắc dòng chữ: ai đeo được thanh gươm này sẽ mạnh hơn mọi người. Hoàng hậu mừng rỡ giục con thử ngay. Chàng vừa thắt gươm vào lưng, một luồng sức mạnh chạy rần rật khắp mạch máu. Chàng nắm lấy một cây sồi to, nhổ bật cả gốc dễ như nhổ một cọng cỏ.",
+      "subtitles": [
+        "Đi mãi, hai mẹ con vào một khu rừng, mệt lả ngồi dưới gốc cây ăn chút bánh mì.",
+        "Hoàng hậu khát, bảo con đi lấy nước.",
+        "Hoàng tử nghe tiếng suối róc rách gần đó, lấy mũ múc nước về cho mẹ,",
+        "rồi lần theo dòng suối lên tận nguồn, nơi nước trong mát trào ra từ một tảng đá.",
+        "Chàng quỳ xuống định uống, thì thấy dưới mặt nước bóng một thanh gươm treo trên cành cây",
+        "phía trên đầu. Chàng trèo lên cắt dây, mang gươm về cho mẹ.",
+        "Thanh gươm chạm vàng, rất tinh xảo,",
+        "trên chuôi khắc dòng chữ: ai đeo được thanh gươm này sẽ mạnh hơn mọi người.",
+        "Hoàng hậu mừng rỡ giục con thử ngay.",
+        "Chàng vừa thắt gươm vào lưng, một luồng sức mạnh chạy rần rật khắp mạch máu.",
+        "Chàng nắm lấy một cây sồi to, nhổ bật cả gốc dễ như nhổ một cọng cỏ."
+      ],
+      "image": {
+        "prompt": "a young prince kneeling at a clear forest spring, the reflection of a gold wrought sword hanging from an oak branch above shimmering in the water",
+        "seed": 1553887832,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "ripples spread across the reflection as the prince looks up toward the hanging sword, sunlight flickers through leaves",
+        "seed": 1003490728
+      },
+      "voice": {}
+    },
+    {
+      "id": "hang-cuop-trong-dem",
+      "title": "Hang cướp trong đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm xuống, trời tối đặc đến mức tưởng có thể lấy dao mà cắt. Sợ sói và thú dữ, hai mẹ con nắm tay nhau dò đường, cho đến khi hoàng tử vấp phải một vật nặng nằm chắn lối. Chàng dồn sức đẩy nó lăn ra khỏi đường, mới biết đó là một tảng đá lớn. Sau tảng đá là một cái hang, rõ ràng là sào huyệt của một bọn cướp, nhưng lúc ấy chẳng có tên nào ở nhà. Chàng dập tắt đống lửa cháy sáng trong hang, bảo mẹ vào nằm im, còn mình đi đi lại lại canh chừng. Đang buồn ngủ díp mắt, chàng chợt nghe bọn cướp kéo về, vừa đi vừa hát hò. Rồi tiếng hát tắt, chúng xì xào hỏi nhau sao chẳng thấy lửa. Giọng tên tướng cướp vang lên: đúng chỗ này rồi, ta sờ thấy cái hào trước cửa. Đứa nào quên giữ lửa nên nó tắt thôi. Mỗi đứa nhảy qua hào, vừa nhảy vừa hô: hấp, tôi đây! Ta nhảy sau cùng.",
+      "subtitles": [
+        "Đêm xuống, trời tối đặc đến mức tưởng có thể lấy dao mà cắt.",
+        "Sợ sói và thú dữ, hai mẹ con nắm tay nhau dò đường,",
+        "cho đến khi hoàng tử vấp phải một vật nặng nằm chắn lối.",
+        "Chàng dồn sức đẩy nó lăn ra khỏi đường, mới biết đó là một tảng đá lớn.",
+        "Sau tảng đá là một cái hang, rõ ràng là sào huyệt của một bọn cướp,",
+        "nhưng lúc ấy chẳng có tên nào ở nhà.",
+        "Chàng dập tắt đống lửa cháy sáng trong hang, bảo mẹ vào nằm im,",
+        "còn mình đi đi lại lại canh chừng.",
+        "Đang buồn ngủ díp mắt, chàng chợt nghe bọn cướp kéo về, vừa đi vừa hát hò.",
+        "Rồi tiếng hát tắt, chúng xì xào hỏi nhau sao chẳng thấy lửa.",
+        "Giọng tên tướng cướp vang lên: đúng chỗ này rồi, ta sờ thấy cái hào trước cửa.",
+        "Đứa nào quên giữ lửa nên nó tắt thôi.",
+        "Mỗi đứa nhảy qua hào, vừa nhảy vừa hô: hấp, tôi đây!",
+        "Ta nhảy sau cùng."
+      ],
+      "image": {
+        "prompt": "a young prince standing in the dark mouth of a rocky cave beside a moved boulder, sword drawn, listening, while lantern lights of a robber band approach through the black forest",
+        "seed": 1194670922,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "distant lanterns bob closer between the trees, the prince's silhouette tenses at the cave entrance",
+        "seed": 615420754
+      },
+      "voice": {}
+    },
+    {
+      "id": "muoi-hai-ten-cuop",
+      "title": "Mười hai tên cướp",
+      "narrator": "ke-chuyen",
+      "narration": "Tên đứng đầu nhảy qua hào, nhưng chưa kịp hô thì một nhát gươm lặng lẽ của hoàng tử đã lấy mạng hắn. Chàng hô thay: hấp, tôi đây! Tên thứ hai yên tâm nhảy qua, và chịu chung số phận. Chỉ ít phút sau, mười một tên cướp đã nằm chết, chỉ còn lại tên tướng cướp. Hắn quấn quanh cổ chiếc khăn choàng của người vợ đã mất, nên nhát gươm chém xuống không làm gì được hắn. Vốn xảo quyệt, hắn chẳng chống cự, chỉ lăn ra nằm cứng đờ như đã chết. Hoàng tử cũng ngờ ngợ, nhưng hắn nằm im quá, rốt cuộc chàng tin. Chàng kéo cả bọn vào một gian buồng trong hang, khóa cửa lại, rồi cùng mẹ tìm chút đồ ăn và ngủ một giấc yên lành.",
+      "subtitles": [
+        "Tên đứng đầu nhảy qua hào, nhưng chưa kịp hô thì một nhát gươm lặng lẽ của hoàng tử đã lấy",
+        "mạng hắn. Chàng hô thay: hấp, tôi đây!",
+        "Tên thứ hai yên tâm nhảy qua, và chịu chung số phận.",
+        "Chỉ ít phút sau, mười một tên cướp đã nằm chết, chỉ còn lại tên tướng cướp.",
+        "Hắn quấn quanh cổ chiếc khăn choàng của người vợ đã mất,",
+        "nên nhát gươm chém xuống không làm gì được hắn.",
+        "Vốn xảo quyệt, hắn chẳng chống cự, chỉ lăn ra nằm cứng đờ như đã chết.",
+        "Hoàng tử cũng ngờ ngợ, nhưng hắn nằm im quá, rốt cuộc chàng tin.",
+        "Chàng kéo cả bọn vào một gian buồng trong hang, khóa cửa lại,",
+        "rồi cùng mẹ tìm chút đồ ăn và ngủ một giấc yên lành."
+      ],
+      "image": {
+        "prompt": "night at the cave entrance, a robber leaping over a ditch toward the dark opening, the prince's raised sword catching moonlight, the robber captain with a woman's shawl round his neck waiting at the back",
+        "seed": 9137600,
+        "character": "tuong-cuop"
+      },
+      "video": {
+        "motionPrompt": "a figure jumps across the ditch in slow motion, a flash of moonlight on steel, the scene cuts to shadow",
+        "seed": 2383762952
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-va-can-phong-khoa",
+      "title": "Lâu đài và căn phòng khóa",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng ra, hai mẹ con thức dậy thì cái hang đêm qua đã thành một lâu đài lộng lẫy với biết bao phòng đẹp. Hoàng tử đi khóa hết các phòng, giao chùm chìa khóa cho mẹ giữ, rồi đi săn. Con vừa quay lưng, hoàng hậu đã không nhịn được tò mò, mở từng phòng ra xem, cho đến căn phòng có xác bọn cướp. Nhìn vết máu trên sàn bà đã choáng váng, nhưng thấy tên tướng cướp đang đi đi lại lại trong đó còn kinh hơn. Bà vội khóa cửa, chạy về phòng mình. Chiều ấy hoàng tử mang về một con gấu lớn làm bữa tối, đủ ăn nhiều ngày, nên hôm sau chàng ở nhà xem xét lâu đài. Chàng tìm ra một lối bí mật dẫn vào rừng, và cuối lối là một lâu đài khác còn lớn hơn, của một người khổng lồ. Chàng gõ cửa xin vào. Người khổng lồ đáp: ta biết ngươi là ai, ta không giao du với quân cướp. Hoàng tử nói: tôi không phải cướp, tôi là con vua, và tôi đã diệt cả băng. Không mở cửa, tôi phá cửa vào. Chàng ghé vai đẩy, cánh cửa gỗ kêu răng rắc. Người khổng lồ đành mở cửa, bảo: ngươi là chàng trai dũng cảm, ta với ngươi hãy làm hòa. Hoàng tử vui lòng, vì chàng vừa thoáng thấy cô con gái xinh đẹp của người khổng lồ.",
+      "subtitles": [
+        "Sáng ra, hai mẹ con thức dậy thì cái hang đêm qua đã thành một lâu đài lộng lẫy với biết",
+        "bao phòng đẹp.",
+        "Hoàng tử đi khóa hết các phòng, giao chùm chìa khóa cho mẹ giữ, rồi đi săn.",
+        "Con vừa quay lưng, hoàng hậu đã không nhịn được tò mò, mở từng phòng ra xem,",
+        "cho đến căn phòng có xác bọn cướp.",
+        "Nhìn vết máu trên sàn bà đã choáng váng,",
+        "nhưng thấy tên tướng cướp đang đi đi lại lại trong đó còn kinh hơn.",
+        "Bà vội khóa cửa, chạy về phòng mình.",
+        "Chiều ấy hoàng tử mang về một con gấu lớn làm bữa tối, đủ ăn nhiều ngày,",
+        "nên hôm sau chàng ở nhà xem xét lâu đài.",
+        "Chàng tìm ra một lối bí mật dẫn vào rừng, và cuối lối là một lâu đài khác còn lớn hơn,",
+        "của một người khổng lồ. Chàng gõ cửa xin vào.",
+        "Người khổng lồ đáp: ta biết ngươi là ai, ta không giao du với quân cướp.",
+        "Hoàng tử nói: tôi không phải cướp, tôi là con vua, và tôi đã diệt cả băng.",
+        "Không mở cửa, tôi phá cửa vào.",
+        "Chàng ghé vai đẩy, cánh cửa gỗ kêu răng rắc.",
+        "Người khổng lồ đành mở cửa, bảo: ngươi là chàng trai dũng cảm, ta với ngươi hãy làm hòa.",
+        "Hoàng tử vui lòng, vì chàng vừa thoáng thấy cô con gái xinh đẹp của người khổng lồ."
+      ],
+      "image": {
+        "prompt": "a widowed queen with a ring of keys opening a heavy oak door in a candlelit castle corridor and recoiling at the sight of a robber captain pacing inside",
+        "seed": 738196421,
+        "character": "hoang-hau"
+      },
+      "video": {
+        "motionPrompt": "the door creaks open, candle flames shiver, the queen steps back with a hand at her throat",
+        "seed": 1587364394
+      },
+      "voice": {}
+    },
+    {
+      "id": "am-muu-cua-hoang-hau",
+      "title": "Âm mưu của hoàng hậu",
+      "narrator": "ke-chuyen",
+      "narration": "Từ đó hoàng tử hay sang nhà người khổng lồ, còn hoàng hậu ở lại một mình trong lâu đài, buồn tẻ đến phát chán. Để khuây khỏa, bà lén sang thăm tên tướng cướp. Hắn ngọt nhạt tán tỉnh, cho đến khi bà ưng thuận lấy hắn. Nhưng bà sợ con trai, nên bày mưu: lần tới khi nó xuống sông tắm, ngươi hãy lấy thanh gươm treo trên đầu giường. Không có gươm, nó chẳng còn sức đâu mà trị ngươi. Tên cướp cho là kế hay. Sáng hôm sau, khi hoàng tử đi tắm, hắn tháo gươm khỏi đinh, đeo vào lưng mình.",
+      "subtitles": [
+        "Từ đó hoàng tử hay sang nhà người khổng lồ,",
+        "còn hoàng hậu ở lại một mình trong lâu đài, buồn tẻ đến phát chán.",
+        "Để khuây khỏa, bà lén sang thăm tên tướng cướp.",
+        "Hắn ngọt nhạt tán tỉnh, cho đến khi bà ưng thuận lấy hắn.",
+        "Nhưng bà sợ con trai, nên bày mưu: lần tới khi nó xuống sông tắm,",
+        "ngươi hãy lấy thanh gươm treo trên đầu giường.",
+        "Không có gươm, nó chẳng còn sức đâu mà trị ngươi.",
+        "Tên cướp cho là kế hay.",
+        "Sáng hôm sau, khi hoàng tử đi tắm, hắn tháo gươm khỏi đinh, đeo vào lưng mình."
+      ],
+      "image": {
+        "prompt": "a queen and a bearded robber captain whispering together in a shadowy castle bedroom, a gold wrought sword hanging on a nail above the bed",
+        "seed": 2721226794,
+        "character": "hoang-hau"
+      },
+      "video": {
+        "motionPrompt": "candlelight flickers across their conspiring faces, the captain's hand reaches slowly toward the hanging sword",
+        "seed": 197451490
+      },
+      "voice": {}
+    },
+    {
+      "id": "bi-moc-mat",
+      "title": "Bị móc mắt",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử tắm về, thấy tên cướp đứng chờ trên bậc thềm, vung thanh gươm trên đầu. Biết tai họa đã đến, chàng quỳ xuống xin tha. Nhưng xin hắn thương cũng như vắt nước từ đá. Hắn tha mạng, nhưng móc cả hai mắt của chàng, nhét vào tay chàng mà nói giọng tàn nhẫn: này, giữ lấy, biết đâu có lúc cần. Hoàng tử khóc, lần mò tìm đường sang nhà người khổng lồ, kể hết mọi chuyện. Người khổng lồ thương xót, hỏi chàng đã làm gì với đôi mắt. Chàng lặng lẽ lấy trong túi ra đưa. Người khổng lồ rửa sạch, đặt lại vào chỗ cũ. Ba ngày chàng nằm trong bóng tối, rồi ánh sáng trở lại dần, chẳng mấy chốc chàng nhìn rõ như xưa. Nhưng chàng vẫn đau lòng vì thanh gươm đã rơi vào tay kẻ thù.",
+      "subtitles": [
+        "Hoàng tử tắm về, thấy tên cướp đứng chờ trên bậc thềm, vung thanh gươm trên đầu.",
+        "Biết tai họa đã đến, chàng quỳ xuống xin tha.",
+        "Nhưng xin hắn thương cũng như vắt nước từ đá.",
+        "Hắn tha mạng, nhưng móc cả hai mắt của chàng,",
+        "nhét vào tay chàng mà nói giọng tàn nhẫn: này, giữ lấy, biết đâu có lúc cần.",
+        "Hoàng tử khóc, lần mò tìm đường sang nhà người khổng lồ, kể hết mọi chuyện.",
+        "Người khổng lồ thương xót, hỏi chàng đã làm gì với đôi mắt.",
+        "Chàng lặng lẽ lấy trong túi ra đưa.",
+        "Người khổng lồ rửa sạch, đặt lại vào chỗ cũ.",
+        "Ba ngày chàng nằm trong bóng tối, rồi ánh sáng trở lại dần,",
+        "chẳng mấy chốc chàng nhìn rõ như xưa.",
+        "Nhưng chàng vẫn đau lòng vì thanh gươm đã rơi vào tay kẻ thù."
+      ],
+      "image": {
+        "prompt": "a blindfolded young prince lying on a bed in the giant's hall, the kindly grey bearded giant gently tending him by firelight",
+        "seed": 1838702075,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "firelight pulses softly, the giant's huge hand rests on the young man's brow, dawn light grows at the window",
+        "seed": 2304461258
+      },
+      "voice": {}
+    },
+    {
+      "id": "khi-cao-va-soc",
+      "title": "Khỉ, cáo và sóc",
+      "narrator": "ke-chuyen",
+      "narration": "Người khổng lồ bảo: đừng lo, bạn ta, ta sẽ lấy lại gươm cho ngươi. Rồi ông gọi con khỉ, gia nhân đứng đầu của ông, dặn nó dẫn theo con cáo và con sóc đi lấy gươm về. Ba con lên đường, con nọ cưỡi lưng con kia, khỉ lười đi bộ nên thường ngồi trên cùng. Đến cửa sổ phòng tên cướp, khỉ nhảy khỏi lưng cáo và sóc, trèo vào. Phòng không có ai, thanh gươm treo trên đinh. Khỉ gỡ xuống, thắt vào lưng y như từng thấy hoàng tử làm, rồi đu xuống, cưỡi lên lưng hai bạn, vội vã chạy về với chủ.",
+      "subtitles": [
+        "Người khổng lồ bảo: đừng lo, bạn ta, ta sẽ lấy lại gươm cho ngươi.",
+        "Rồi ông gọi con khỉ, gia nhân đứng đầu của ông,",
+        "dặn nó dẫn theo con cáo và con sóc đi lấy gươm về.",
+        "Ba con lên đường, con nọ cưỡi lưng con kia, khỉ lười đi bộ nên thường ngồi trên cùng.",
+        "Đến cửa sổ phòng tên cướp, khỉ nhảy khỏi lưng cáo và sóc, trèo vào.",
+        "Phòng không có ai, thanh gươm treo trên đinh.",
+        "Khỉ gỡ xuống, thắt vào lưng y như từng thấy hoàng tử làm, rồi đu xuống,",
+        "cưỡi lên lưng hai bạn, vội vã chạy về với chủ."
+      ],
+      "image": {
+        "prompt": "a monkey wearing a too large gold wrought sword riding on the backs of a fox and a squirrel stacked together, sneaking beneath a castle window by moonlight",
+        "seed": 2384776906,
+        "character": "nguoi-khong-lo"
+      },
+      "video": {
+        "motionPrompt": "the comic little tower of animals scurries along the castle wall, the sword swinging at the monkey's side",
+        "seed": 3946907618
+      },
+      "voice": {}
+    },
+    {
+      "id": "bao-oan",
+      "title": "Báo oán",
+      "narrator": "ke-chuyen",
+      "narration": "Người khổng lồ bảo khỉ trao gươm cho hoàng tử. Chàng đeo gươm vào, phóng về lâu đài, quát lớn: ra đây, đồ bất lương, ra mà trả lời ta về những gì ngươi đã làm! Tên cướp chạy ra, ngước nhìn chỗ treo gươm thì trống trơn, rồi thấy thanh gươm sáng loáng trong tay hoàng tử. Đến lượt hắn quỳ xuống xin tha, nhưng đã quá muộn. Hắn đã làm gì với hoàng tử, hoàng tử làm y như thế với hắn. Bị móc mắt, hắn bị đuổi ra ngoài, ngã xuống một cái hố sâu, đến giờ vẫn còn ở dưới đó. Còn mẹ mình, hoàng tử gửi trả về nhà ông ngoại, và không bao giờ muốn gặp lại nữa.",
+      "subtitles": [
+        "Người khổng lồ bảo khỉ trao gươm cho hoàng tử.",
+        "Chàng đeo gươm vào, phóng về lâu đài, quát lớn: ra đây, đồ bất lương,",
+        "ra mà trả lời ta về những gì ngươi đã làm!",
+        "Tên cướp chạy ra, ngước nhìn chỗ treo gươm thì trống trơn,",
+        "rồi thấy thanh gươm sáng loáng trong tay hoàng tử.",
+        "Đến lượt hắn quỳ xuống xin tha, nhưng đã quá muộn.",
+        "Hắn đã làm gì với hoàng tử, hoàng tử làm y như thế với hắn.",
+        "Bị móc mắt, hắn bị đuổi ra ngoài, ngã xuống một cái hố sâu, đến giờ vẫn còn ở dưới đó.",
+        "Còn mẹ mình, hoàng tử gửi trả về nhà ông ngoại, và không bao giờ muốn gặp lại nữa."
+      ],
+      "image": {
+        "prompt": "the prince standing in a castle courtyard with his gold wrought sword raised, the robber captain on his knees before him, the queen watching pale from a high window",
+        "seed": 3644097001,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "storm clouds race overhead, the sword gleams as the prince steps forward, the queen draws back from the window",
+        "seed": 902618502
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi-trong-rung",
+      "title": "Đám cưới trong rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Xong mọi việc, hoàng tử quay lại nhà người khổng lồ mà nói: bạn ta, xin làm thêm cho ta một ơn nữa, gả con gái bạn cho ta. Và họ cưới nhau. Tiệc cưới linh đình đến nỗi chẳng vương quốc nào trên đời không nghe tiếng. Hoàng tử không bao giờ trở về ngai vàng của cha nữa. Chàng sống yên vui cùng vợ giữa rừng sâu, và nếu chưa chết thì có lẽ đến giờ họ vẫn còn sống ở đó.",
+      "subtitles": [
+        "Xong mọi việc, hoàng tử quay lại nhà người khổng lồ mà nói: bạn ta,",
+        "xin làm thêm cho ta một ơn nữa, gả con gái bạn cho ta.",
+        "Và họ cưới nhau.",
+        "Tiệc cưới linh đình đến nỗi chẳng vương quốc nào trên đời không nghe tiếng.",
+        "Hoàng tử không bao giờ trở về ngai vàng của cha nữa.",
+        "Chàng sống yên vui cùng vợ giữa rừng sâu,",
+        "và nếu chưa chết thì có lẽ đến giờ họ vẫn còn sống ở đó."
+      ],
+      "image": {
+        "prompt": "a joyful forest wedding feast at the giant's castle, the prince and the giant's lovely daughter in festive dress, the giant beaming, the monkey, fox and squirrel among the guests, lanterns in the oaks",
+        "seed": 3649038377,
+        "character": "nguoi-khong-lo"
+      },
+      "video": {
+        "motionPrompt": "lanterns sway, guests dance in a ring, the camera rises above the treetops into a starry sky",
+        "seed": 3535702312
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "dark Central European orchestral folk instrumental, low strings, horn and cimbalom, a brooding forest theme, a tense night ambush, a mournful passage and a warm wedding dance at the end, no vocals",
+    "durationSeconds": 160,
+    "seed": 3969418778
+  }
+}

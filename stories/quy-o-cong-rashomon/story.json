@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "slug": "quy-o-cong-rashomon",
+  "shelf": "adults",
+  "title": "Quỷ ở cổng Rashomon",
+  "summary": "Giữa đêm mưa bão, hiệp sĩ Watanabe một mình cưỡi ngựa tới cổng Rashomon để chứng minh lời đồn về con quỷ ăn thịt người chỉ là chuyện bịa, và chém đứt một cánh tay khổng lồ. Nhưng con quỷ chưa chết, và nó biết cách quay về đòi lại thứ của mình: truyện cổ Nhật Bản kể trọn vẹn cho người lớn.",
+  "themes": [
+    "anh-hung",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện cổ Nhật Bản «The Ogre of Rashomon» trong Japanese Fairy Tales của Yei Theodora Ozaki (1908), Project Gutenberg #4018, thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới hoàn toàn, theo sát cốt truyện của bản Ozaki.",
+  "basedOn": "Truyện cổ Nhật Bản, Yei Theodora Ozaki kể lại (1908)",
+  "style": "Japanese ukiyo-e woodblock print illustration in the spirit of Heian-era warrior legends, deep indigo night, charcoal grey, vermilion gate lacquer, rain streaks and storm clouds, bold ink outlines and flat colour fields, tense eerie mood for adult readers, conflict shown with restraint, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "watanabe",
+      "name": "Hiệp sĩ Watanabe",
+      "sheetPrompt": "Watanabe no Tsuna, a brave young Heian-era Japanese samurai knight, strong jaw and fierce calm eyes, black hair tied in a topknot, lacquered dark blue armour with red silk lacing, a large horned helmet, a long curved sword at his hip, full body, front view, plain washi paper background, character reference sheet",
+      "seed": 1223672783
+    },
+    {
+      "id": "quy",
+      "name": "Con quỷ ở Rashomon",
+      "sheetPrompt": "a towering Japanese oni ogre taller than a city gate, dark red skin, wild black mane, two short horns, eyes flashing like mirrors, wide mouth breathing small flames, a tiger-skin loincloth, huge hairy clawed arms, full body, front view, plain washi paper background, character reference sheet",
+      "seed": 2385970943
+    },
+    {
+      "id": "ba-vu",
+      "name": "Bà vú già",
+      "sheetPrompt": "a respectable elderly Japanese woman in a plain grey and brown kimono, white hair in a neat bun, kindly smiling wrinkled face with a faint strange glint in her eyes, slightly bent, hands folded in her sleeves, full body, front view, plain washi paper background, character reference sheet",
+      "seed": 327574143
+    }
+  ],
+  "scenes": [
+    {
+      "id": "kinh-do-so-hai",
+      "title": "Kinh đô sợ hãi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, rất xưa, ở kinh đô Kyoto, người ta truyền tai nhau một chuyện khiến ai nghe cũng lạnh gáy. Họ bảo cứ lúc chạng vạng, có một con quỷ hiện ra ở cổng Rashomon, gặp ai đi ngang qua là chộp lấy mang đi. Những người mất tích không bao giờ trở về, nên dân chúng thì thào rằng con quỷ ấy ăn thịt người. Từ đó, cả kinh đô lẫn các làng quanh đấy đều sợ hãi. Hễ mặt trời vừa lặn, không một ai dám bén mảng tới gần cổng Rashomon nữa.",
+      "subtitles": [
+        "Ngày xưa, rất xưa, ở kinh đô Kyoto,",
+        "người ta truyền tai nhau một chuyện khiến ai nghe cũng lạnh gáy.",
+        "Họ bảo cứ lúc chạng vạng, có một con quỷ hiện ra ở cổng Rashomon,",
+        "gặp ai đi ngang qua là chộp lấy mang đi.",
+        "Những người mất tích không bao giờ trở về,",
+        "nên dân chúng thì thào rằng con quỷ ấy ăn thịt người.",
+        "Từ đó, cả kinh đô lẫn các làng quanh đấy đều sợ hãi.",
+        "Hễ mặt trời vừa lặn, không một ai dám bén mảng tới gần cổng Rashomon nữa."
+      ],
+      "image": {
+        "prompt": "the great two-storey Rashomon gate of old Kyoto at dusk, vermilion pillars faded and cracked, an empty road, frightened townspeople hurrying away and closing their shutters, crows circling under a purple sky",
+        "seed": 1329752038
+      },
+      "video": {
+        "motionPrompt": "the dusk light fades over the empty gate, crows wheel slowly overhead, a last shutter slides closed in the foreground, slow push-in toward the dark gateway",
+        "seed": 2158726652
+      },
+      "voice": {}
+    },
+    {
+      "id": "nam-hiep-si",
+      "title": "Năm hiệp sĩ bên mâm rượu",
+      "narrator": "ke-chuyen",
+      "narration": "Thời ấy, ở Kyoto có vị tướng tên là Raiko, lừng danh khắp nước vì lòng can đảm. Trước đó ít lâu, ông đã đánh lên núi Oeyama, dẹp tan cả một bầy quỷ dữ và chém đầu tên quỷ đầu sỏ của chúng. Bên ông luôn có một đoàn hiệp sĩ trung thành, trong đó nổi bật nhất là năm người. Một tối, năm hiệp sĩ ngồi cùng mâm, rót rượu sake vào bát, gắp cá sống, cá kho, cá nướng, nâng chén chúc nhau. Đang vui, hiệp sĩ thứ nhất là Hojo hạ giọng hỏi: Các anh đã nghe đồn chưa? Chiều nào cũng có một con quỷ ra cổng Rashomon bắt người qua đường đấy.",
+      "subtitles": [
+        "Thời ấy, ở Kyoto có vị tướng tên là Raiko, lừng danh khắp nước vì lòng can đảm.",
+        "Trước đó ít lâu, ông đã đánh lên núi Oeyama,",
+        "dẹp tan cả một bầy quỷ dữ và chém đầu tên quỷ đầu sỏ của chúng.",
+        "Bên ông luôn có một đoàn hiệp sĩ trung thành, trong đó nổi bật nhất là năm người.",
+        "Một tối, năm hiệp sĩ ngồi cùng mâm, rót rượu sake vào bát, gắp cá sống, cá kho, cá nướng,",
+        "nâng chén chúc nhau.",
+        "Đang vui, hiệp sĩ thứ nhất là Hojo hạ giọng hỏi: Các anh đã nghe đồn chưa?",
+        "Chiều nào cũng có một con quỷ ra cổng Rashomon bắt người qua đường đấy."
+      ],
+      "image": {
+        "prompt": "five Heian-era samurai knights seated on tatami around low lacquer tables in a lamplit hall, sake bowls and plates of fish, one knight leaning forward telling a rumour while the others listen, paper lanterns glowing",
+        "seed": 2684112050,
+        "character": "watanabe"
+      },
+      "video": {
+        "motionPrompt": "lantern light flickers across the faces, one knight leans forward and lowers his voice, the others set down their sake bowls, gentle slow pan along the table",
+        "seed": 3665086433
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-thach-do",
+      "title": "Lời thách đố",
+      "narrator": "ke-chuyen",
+      "narration": "Hiệp sĩ thứ hai là Watanabe gạt đi: Đừng nói chuyện vớ vẩn! Chủ tướng Raiko của chúng ta đã diệt sạch bọn quỷ ở Oeyama rồi. Dù có con nào sót lại, nó cũng chẳng dám ló mặt vào kinh thành này. Hojo hỏi lại: Vậy anh cho rằng tôi nói dối sao? Watanabe đáp: Tôi không bảo anh nói dối, chỉ là anh nghe chuyện của mấy bà già, chẳng đáng tin đâu. Hojo bèn nói: Thế thì cách tốt nhất là anh tự đến đó mà xem thật hay không. Watanabe không chịu được ý nghĩ bạn mình tưởng mình sợ, liền đáp ngay: Được, tôi đi ngay bây giờ!",
+      "subtitles": [
+        "Hiệp sĩ thứ hai là Watanabe gạt đi: Đừng nói chuyện vớ vẩn!",
+        "Chủ tướng Raiko của chúng ta đã diệt sạch bọn quỷ ở Oeyama rồi.",
+        "Dù có con nào sót lại, nó cũng chẳng dám ló mặt vào kinh thành này.",
+        "Hojo hỏi lại: Vậy anh cho rằng tôi nói dối sao?",
+        "Watanabe đáp: Tôi không bảo anh nói dối, chỉ là anh nghe chuyện của mấy bà già,",
+        "chẳng đáng tin đâu.",
+        "Hojo bèn nói: Thế thì cách tốt nhất là anh tự đến đó mà xem thật hay không.",
+        "Watanabe không chịu được ý nghĩ bạn mình tưởng mình sợ, liền đáp ngay: Được,",
+        "tôi đi ngay bây giờ!"
+      ],
+      "image": {
+        "prompt": "two samurai knights facing each other across the low table, one stern and challenging, the other rising proudly to his feet with a determined look, the three others watching in surprise",
+        "seed": 4189547401,
+        "character": "watanabe"
+      },
+      "video": {
+        "motionPrompt": "Watanabe rises to his feet and slaps the table, the other knight folds his arms with a challenging smile, the lamp flame trembles, slow push-in",
+        "seed": 3601067437
+      },
+      "voice": {}
+    },
+    {
+      "id": "to-giay-co-ten",
+      "title": "Tờ giấy có bốn chữ ký",
+      "narrator": "ke-chuyen",
+      "narration": "Watanabe lập tức sửa soạn. Chàng đeo thanh gươm dài, khoác áo giáp, buộc chiếc mũ trụ lớn lên đầu. Trước khi đi, chàng bảo các bạn: Hãy đưa ta một vật gì để làm chứng là ta đã tới đó. Một người lấy cuộn giấy, nghiên mực và bút lông, rồi cả bốn người cùng ký tên lên một tờ giấy. Watanabe cầm lấy mà rằng: Ta sẽ dán tờ này lên cổng Rashomon. Sáng mai các anh cứ ra đó mà xem. Biết đâu đến lúc ấy ta đã tóm được một hai con quỷ rồi cũng nên! Nói xong, chàng nhảy lên ngựa, phóng đi rất hiên ngang.",
+      "subtitles": [
+        "Watanabe lập tức sửa soạn.",
+        "Chàng đeo thanh gươm dài, khoác áo giáp, buộc chiếc mũ trụ lớn lên đầu.",
+        "Trước khi đi, chàng bảo các bạn: Hãy đưa ta một vật gì để làm chứng là ta đã tới đó.",
+        "Một người lấy cuộn giấy, nghiên mực và bút lông,",
+        "rồi cả bốn người cùng ký tên lên một tờ giấy.",
+        "Watanabe cầm lấy mà rằng: Ta sẽ dán tờ này lên cổng Rashomon.",
+        "Sáng mai các anh cứ ra đó mà xem.",
+        "Biết đâu đến lúc ấy ta đã tóm được một hai con quỷ rồi cũng nên!",
+        "Nói xong, chàng nhảy lên ngựa, phóng đi rất hiên ngang."
+      ],
+      "image": {
+        "prompt": "a samurai in full armour and a great horned helmet taking a sheet of washi paper with four brush-written names from his comrades, an ink stone and brushes on the table, his saddled horse waiting at the open veranda",
+        "seed": 599075198,
+        "character": "watanabe"
+      },
+      "video": {
+        "motionPrompt": "Watanabe tucks the folded paper into his armour, turns and strides to his horse, mounts and gallops off into the night, the comrades watch from the veranda",
+        "seed": 2856998201
+      },
+      "voice": {}
+    },
+    {
+      "id": "dem-mua-bao",
+      "title": "Đêm mưa bão",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm ấy tối đen như mực, không trăng cũng chẳng có lấy một vì sao. Rồi giông bão kéo tới, mưa trút xối xả, gió rú lên như bầy sói trên núi. Người thường hẳn đã run sợ chẳng dám bước chân ra khỏi cửa, nhưng Watanabe là kẻ gan dạ, danh dự và lời hứa của chàng đang bị đem ra thử, nên chàng cứ thế lao vào màn đêm. Ở nhà, bốn người bạn lắng nghe tiếng vó ngựa xa dần rồi tắt hẳn. Họ kéo kín cửa, ngồi quây quanh lò than, ai cũng thầm hỏi không biết bạn mình có gặp phải con quỷ hay không.",
+      "subtitles": [
+        "Đêm ấy tối đen như mực, không trăng cũng chẳng có lấy một vì sao.",
+        "Rồi giông bão kéo tới, mưa trút xối xả, gió rú lên như bầy sói trên núi.",
+        "Người thường hẳn đã run sợ chẳng dám bước chân ra khỏi cửa, nhưng Watanabe là kẻ gan dạ,",
+        "danh dự và lời hứa của chàng đang bị đem ra thử, nên chàng cứ thế lao vào màn đêm.",
+        "Ở nhà, bốn người bạn lắng nghe tiếng vó ngựa xa dần rồi tắt hẳn.",
+        "Họ kéo kín cửa, ngồi quây quanh lò than,",
+        "ai cũng thầm hỏi không biết bạn mình có gặp phải con quỷ hay không."
+      ],
+      "image": {
+        "prompt": "a lone armoured samurai on a black horse galloping through a violent night storm along an empty Kyoto road, slanting rain, wind-bent willows, lightning outlining distant rooftops",
+        "seed": 617521483,
+        "character": "watanabe"
+      },
+      "video": {
+        "motionPrompt": "heavy rain lashes across the frame, the horse gallops through puddles, willows whip in the wind, a flash of lightning, tracking shot alongside the rider",
+        "seed": 719729618
+      },
+      "voice": {}
+    },
+    {
+      "id": "ban-tay-trong-bong-toi",
+      "title": "Bàn tay trong bóng tối",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng Watanabe tới cổng Rashomon. Chàng căng mắt nhìn vào bóng tối mà chẳng thấy bóng dáng con quỷ nào. Chàng nghĩ bụng: Đúng như ta đoán, làm gì có quỷ, chỉ là chuyện của mấy bà già. Ta dán tờ giấy lên cổng cho bọn họ sáng mai ra xem, rồi về nhà cười vào mặt họ. Chàng dán tờ giấy có chữ ký lên cổng, rồi quay đầu ngựa. Đúng lúc ấy, chàng thấy có ai đó sau lưng, một giọng nói gọi chàng đứng lại, rồi chiếc mũ trụ bị túm chặt từ phía sau. Watanabe không chút run sợ, hỏi: Kẻ nào đó? Chàng đưa tay sờ ra sau và chạm vào một thứ giống cánh tay, phủ đầy lông, to như thân cây. Biết ngay đó là tay quỷ, chàng rút gươm chém một nhát thật mạnh.",
+      "subtitles": [
+        "Cuối cùng Watanabe tới cổng Rashomon.",
+        "Chàng căng mắt nhìn vào bóng tối mà chẳng thấy bóng dáng con quỷ nào.",
+        "Chàng nghĩ bụng: Đúng như ta đoán, làm gì có quỷ, chỉ là chuyện của mấy bà già.",
+        "Ta dán tờ giấy lên cổng cho bọn họ sáng mai ra xem, rồi về nhà cười vào mặt họ.",
+        "Chàng dán tờ giấy có chữ ký lên cổng, rồi quay đầu ngựa.",
+        "Đúng lúc ấy, chàng thấy có ai đó sau lưng, một giọng nói gọi chàng đứng lại,",
+        "rồi chiếc mũ trụ bị túm chặt từ phía sau.",
+        "Watanabe không chút run sợ, hỏi: Kẻ nào đó?",
+        "Chàng đưa tay sờ ra sau và chạm vào một thứ giống cánh tay, phủ đầy lông, to như thân cây.",
+        "Biết ngay đó là tay quỷ, chàng rút gươm chém một nhát thật mạnh."
+      ],
+      "image": {
+        "prompt": "the dark Rashomon gate in the rain, a samurai on horseback turning in alarm as a huge hairy clawed arm reaches out of the shadows and grips the back of his horned helmet, a sheet of paper pasted on the gate pillar",
+        "seed": 2178211221,
+        "character": "watanabe"
+      },
+      "video": {
+        "motionPrompt": "rain streams down, the giant hairy hand clamps onto the helmet, the samurai twists in the saddle and draws his long blade in a silver flash, quick push-in",
+        "seed": 2285181928
+      },
+      "voice": {}
+    },
+    {
+      "id": "giao-chien",
+      "title": "Giao chiến dưới cổng thành",
+      "narrator": "ke-chuyen",
+      "narration": "Một tiếng gào đau đớn vang lên, rồi con quỷ nhảy ra chắn trước mặt người hiệp sĩ. Watanabe trợn tròn mắt kinh ngạc. Con quỷ cao hơn cả cổng thành, đôi mắt loé lên như gương phản ánh nắng, cái miệng khổng lồ há rộng, mỗi lần thở lại phun ra những lưỡi lửa. Nó định làm chàng khiếp vía, nhưng Watanabe không hề nao núng. Chàng xông vào đánh bằng hết sức mình, hai bên quần nhau rất lâu. Thấy không doạ được, cũng không thắng nổi, sợ mình sẽ thua, con quỷ quay đầu bỏ chạy. Watanabe thúc ngựa đuổi theo, nhưng con quỷ chạy nhanh hơn ngựa, chẳng mấy chốc đã khuất dạng trong đêm.",
+      "subtitles": [
+        "Một tiếng gào đau đớn vang lên, rồi con quỷ nhảy ra chắn trước mặt người hiệp sĩ.",
+        "Watanabe trợn tròn mắt kinh ngạc.",
+        "Con quỷ cao hơn cả cổng thành, đôi mắt loé lên như gương phản ánh nắng,",
+        "cái miệng khổng lồ há rộng, mỗi lần thở lại phun ra những lưỡi lửa.",
+        "Nó định làm chàng khiếp vía, nhưng Watanabe không hề nao núng.",
+        "Chàng xông vào đánh bằng hết sức mình, hai bên quần nhau rất lâu.",
+        "Thấy không doạ được, cũng không thắng nổi, sợ mình sẽ thua, con quỷ quay đầu bỏ chạy.",
+        "Watanabe thúc ngựa đuổi theo, nhưng con quỷ chạy nhanh hơn ngựa,",
+        "chẳng mấy chốc đã khuất dạng trong đêm."
+      ],
+      "image": {
+        "prompt": "a towering red oni taller than the Rashomon gate, eyes flashing, small flames from its open mouth, facing a lone samurai on a rearing horse with his long blade raised, storm clouds and rain swirling around them",
+        "seed": 3322875705,
+        "character": "quy"
+      },
+      "video": {
+        "motionPrompt": "the ogre looms and exhales a burst of firelight, the horse rears, the samurai holds his ground and strikes, the ogre staggers back and flees into the darkness, dramatic low-angle shot",
+        "seed": 386486477
+      },
+      "voice": {}
+    },
+    {
+      "id": "chien-loi-pham",
+      "title": "Chiến lợi phẩm",
+      "narrator": "ke-chuyen",
+      "narration": "Watanabe quay lại chỗ vừa giao chiến, xuống ngựa, thì vấp phải một vật nằm trên mặt đất. Cúi xuống nhặt lên, chàng thấy đó chính là một cánh tay khổng lồ của con quỷ, bị chàng chém đứt trong lúc đánh nhau. Chàng mừng lắm, vì đây là bằng chứng không ai cãi được. Chàng mang nó về nhà. Bạn bè thấy vậy đều tôn chàng là người anh hùng của cả nhóm và mở tiệc lớn mừng chàng. Chẳng mấy chốc tin ấy lan khắp Kyoto, người gần người xa kéo nhau tới xem cánh tay quỷ.",
+      "subtitles": [
+        "Watanabe quay lại chỗ vừa giao chiến, xuống ngựa, thì vấp phải một vật nằm trên mặt đất.",
+        "Cúi xuống nhặt lên, chàng thấy đó chính là một cánh tay khổng lồ của con quỷ,",
+        "bị chàng chém đứt trong lúc đánh nhau.",
+        "Chàng mừng lắm, vì đây là bằng chứng không ai cãi được.",
+        "Chàng mang nó về nhà.",
+        "Bạn bè thấy vậy đều tôn chàng là người anh hùng của cả nhóm và mở tiệc lớn mừng chàng.",
+        "Chẳng mấy chốc tin ấy lan khắp Kyoto, người gần người xa kéo nhau tới xem cánh tay quỷ."
+      ],
+      "image": {
+        "prompt": "at dawn, the samurai kneeling at the foot of the rain-soaked Rashomon gate, lifting the ogre's huge clawed arm from the wet stones with astonishment, the storm clearing behind him",
+        "seed": 2178470695,
+        "character": "watanabe"
+      },
+      "video": {
+        "motionPrompt": "pale dawn light spreads, rain drips from the gate eaves, the samurai lifts the giant clawed arm and stares at it in wonder, slow crane down",
+        "seed": 1180751367
+      },
+      "voice": {}
+    },
+    {
+      "id": "chiec-hom-niem-phong",
+      "title": "Chiếc hòm niêm phong",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng rồi Watanabe bắt đầu lo. Chàng biết con quỷ vẫn còn sống, và sớm muộn gì, khi hết sợ, nó sẽ quay lại đòi cánh tay của mình. Vì vậy chàng cho đóng một chiếc hòm bằng thứ gỗ chắc nhất, đai sắt quanh mình. Chàng đặt cánh tay vào đó, niêm phong nắp hòm nặng trịch và không mở cho bất cứ ai xem. Chàng để chiếc hòm ngay trong phòng mình, tự tay canh giữ, không lúc nào rời mắt.",
+      "subtitles": [
+        "Nhưng rồi Watanabe bắt đầu lo.",
+        "Chàng biết con quỷ vẫn còn sống, và sớm muộn gì, khi hết sợ,",
+        "nó sẽ quay lại đòi cánh tay của mình.",
+        "Vì vậy chàng cho đóng một chiếc hòm bằng thứ gỗ chắc nhất, đai sắt quanh mình.",
+        "Chàng đặt cánh tay vào đó, niêm phong nắp hòm nặng trịch và không mở cho bất cứ ai xem.",
+        "Chàng để chiếc hòm ngay trong phòng mình, tự tay canh giữ, không lúc nào rời mắt."
+      ],
+      "image": {
+        "prompt": "inside a samurai's austere room, a heavy dark wooden chest bound with iron bands and sealed with paper talismans, the samurai sitting beside it on guard with his long blade across his knees, a single oil lamp",
+        "seed": 1053310682,
+        "character": "watanabe"
+      },
+      "video": {
+        "motionPrompt": "the oil lamp flickers, the samurai's eyes stay fixed on the iron-banded chest, a draught stirs the paper seals, very slow push-in",
+        "seed": 1931337794
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-vu-den-tham",
+      "title": "Bà vú đến thăm",
+      "narrator": "ke-chuyen",
+      "narration": "Một đêm, có tiếng gõ cửa. Người hầu ra xem thì chỉ thấy một bà cụ, dáng vẻ đứng đắn. Bà mỉm cười nói mình từng là vú nuôi của chủ nhà khi ông còn bé, xin được gặp mặt. Watanabe thấy lạ vì bà tới vào giờ khuya khoắt, nhưng nghĩ tới người vú già từng thương mình như mẹ, lâu lắm chưa gặp, lòng chàng chợt mềm lại, bèn cho mời vào. Chào hỏi xong, bà cụ nói: Chuyện cậu đánh nhau với quỷ ở cổng Rashomon lan tới tận tai vú. Có thật cậu chém đứt tay nó không? Trước khi nhắm mắt, vú chỉ mong được nhìn cánh tay ấy một lần. Watanabe đáp: Con xin lỗi, nhưng không được. Quỷ là giống thù dai, mở hòm ra thì biết đâu nó hiện tới cướp lại.",
+      "subtitles": [
+        "Một đêm, có tiếng gõ cửa.",
+        "Người hầu ra xem thì chỉ thấy một bà cụ, dáng vẻ đứng đắn.",
+        "Bà mỉm cười nói mình từng là vú nuôi của chủ nhà khi ông còn bé, xin được gặp mặt.",
+        "Watanabe thấy lạ vì bà tới vào giờ khuya khoắt,",
+        "nhưng nghĩ tới người vú già từng thương mình như mẹ, lâu lắm chưa gặp,",
+        "lòng chàng chợt mềm lại, bèn cho mời vào.",
+        "Chào hỏi xong, bà cụ nói: Chuyện cậu đánh nhau với quỷ ở cổng Rashomon lan tới tận tai vú.",
+        "Có thật cậu chém đứt tay nó không?",
+        "Trước khi nhắm mắt, vú chỉ mong được nhìn cánh tay ấy một lần.",
+        "Watanabe đáp: Con xin lỗi, nhưng không được.",
+        "Quỷ là giống thù dai, mở hòm ra thì biết đâu nó hiện tới cướp lại."
+      ],
+      "image": {
+        "prompt": "a lamplit Japanese room at night, a kindly elderly woman in a grey kimono bowing low on the tatami before the young samurai, the iron-banded chest in the shadowy corner behind them",
+        "seed": 2860772799,
+        "character": "ba-vu"
+      },
+      "video": {
+        "motionPrompt": "the old woman bows and straightens, her smile warm but her eyes drifting toward the chest in the corner, the samurai shakes his head gently, slow orbit",
+        "seed": 3485703324
+      },
+      "voice": {}
+    },
+    {
+      "id": "nai-xin",
+      "title": "Lời nài xin",
+      "narrator": "ke-chuyen",
+      "narration": "Bà cụ gật gù: Cậu cẩn thận như thế là phải. Nhưng vú là vú nuôi của cậu, chẳng lẽ cậu cũng không cho vú xem? Vú vừa nghe tin đã không đợi được tới sáng mà tìm đến ngay. Watanabe khổ sở lắm, nhưng vẫn lắc đầu. Bà cụ hỏi: Hay cậu ngờ vú là tay sai của con quỷ? Chàng vội nói: Không, vú là người nuôi con, con nào dám ngờ. Bà liền tiếp: Vậy thì cậu chẳng còn cớ gì mà từ chối nữa. Đời vú chỉ ước được thấy tay quỷ một lần thôi. Watanabe không cứng lòng được nữa, đành nói: Thôi được, vú đã muốn đến thế thì con cho vú xem. Vú theo con.",
+      "subtitles": [
+        "Bà cụ gật gù: Cậu cẩn thận như thế là phải.",
+        "Nhưng vú là vú nuôi của cậu, chẳng lẽ cậu cũng không cho vú xem?",
+        "Vú vừa nghe tin đã không đợi được tới sáng mà tìm đến ngay.",
+        "Watanabe khổ sở lắm, nhưng vẫn lắc đầu.",
+        "Bà cụ hỏi: Hay cậu ngờ vú là tay sai của con quỷ?",
+        "Chàng vội nói: Không, vú là người nuôi con, con nào dám ngờ.",
+        "Bà liền tiếp: Vậy thì cậu chẳng còn cớ gì mà từ chối nữa.",
+        "Đời vú chỉ ước được thấy tay quỷ một lần thôi.",
+        "Watanabe không cứng lòng được nữa, đành nói: Thôi được,",
+        "vú đã muốn đến thế thì con cho vú xem. Vú theo con."
+      ],
+      "image": {
+        "prompt": "the elderly woman leaning forward on the tatami with pleading folded hands, the troubled young samurai looking down, torn between duty and affection, lamp shadows stretching long on the paper walls",
+        "seed": 339355277,
+        "character": "ba-vu"
+      },
+      "video": {
+        "motionPrompt": "the old woman edges closer, pleading, the samurai sighs and finally nods, rises and gestures toward the inner room, slow pan",
+        "seed": 1103615552
+      },
+      "voice": {}
+    },
+    {
+      "id": "quy-doi-tay",
+      "title": "Con quỷ đòi lại cánh tay",
+      "narrator": "ke-chuyen",
+      "narration": "Vào phòng, Watanabe đóng cửa cẩn thận, tới góc phòng nhấc chiếc nắp nặng của hòm lên và gọi bà cụ lại gần. Bà cụ vui mừng nói: Nó trông thế nào? Cho vú nhìn kỹ một chút. Bà rón rén bước tới như sợ hãi, cho tới khi đứng sát mép hòm. Bỗng bà thọc tay vào hòm, chộp lấy cánh tay, gào lên một tiếng làm rung cả gian phòng: Ha! Ta lấy lại được tay ta rồi! Trong chớp mắt, bà lão biến thành con quỷ khổng lồ ghê rợn. Watanabe sững người một lúc, rồi nhận ra chính con quỷ ở cổng Rashomon, chàng rút gươm nhanh như chớp chém tới. Nhưng con quỷ đã nhảy vọt lên trần, phá thủng mái nhà, biến vào mây mù.",
+      "subtitles": [
+        "Vào phòng, Watanabe đóng cửa cẩn thận,",
+        "tới góc phòng nhấc chiếc nắp nặng của hòm lên và gọi bà cụ lại gần.",
+        "Bà cụ vui mừng nói: Nó trông thế nào? Cho vú nhìn kỹ một chút.",
+        "Bà rón rén bước tới như sợ hãi, cho tới khi đứng sát mép hòm.",
+        "Bỗng bà thọc tay vào hòm, chộp lấy cánh tay, gào lên một tiếng làm rung cả gian phòng: Ha!",
+        "Ta lấy lại được tay ta rồi!",
+        "Trong chớp mắt, bà lão biến thành con quỷ khổng lồ ghê rợn.",
+        "Watanabe sững người một lúc, rồi nhận ra chính con quỷ ở cổng Rashomon,",
+        "chàng rút gươm nhanh như chớp chém tới.",
+        "Nhưng con quỷ đã nhảy vọt lên trần, phá thủng mái nhà, biến vào mây mù."
+      ],
+      "image": {
+        "prompt": "inside the lamplit room, the old woman transforming into a towering red oni that bursts upward through the shattered wooden roof into swirling night clouds, clutching its huge clawed arm, the samurai below drawing his blade",
+        "seed": 3605175394,
+        "character": "quy"
+      },
+      "video": {
+        "motionPrompt": "the old woman's shape swells into the giant ogre, roof beams and tiles burst apart, the ogre leaps upward into the mist, the samurai's blade sweeps through empty air, fast upward tilt",
+        "seed": 987453109
+      },
+      "voice": {}
+    },
+    {
+      "id": "kyoto-binh-yen",
+      "title": "Kyoto bình yên trở lại",
+      "narrator": "ke-chuyen",
+      "narration": "Thế là con quỷ mang được cánh tay của nó đi. Watanabe nghiến răng tiếc hận, nhưng chẳng làm gì hơn được nữa. Chàng kiên nhẫn chờ một dịp khác để diệt trừ nó. Thế nhưng con quỷ đã khiếp sợ sức mạnh và lòng gan dạ của người hiệp sĩ, từ đó không bao giờ dám quấy nhiễu Kyoto nữa. Dân kinh thành lại thong thả đi lại, kể cả lúc đêm khuya, không còn sợ hãi gì. Còn chiến công của Watanabe ở cổng Rashomon thì người ta kể mãi, cho tới tận hôm nay.",
+      "subtitles": [
+        "Thế là con quỷ mang được cánh tay của nó đi.",
+        "Watanabe nghiến răng tiếc hận, nhưng chẳng làm gì hơn được nữa.",
+        "Chàng kiên nhẫn chờ một dịp khác để diệt trừ nó.",
+        "Thế nhưng con quỷ đã khiếp sợ sức mạnh và lòng gan dạ của người hiệp sĩ,",
+        "từ đó không bao giờ dám quấy nhiễu Kyoto nữa.",
+        "Dân kinh thành lại thong thả đi lại, kể cả lúc đêm khuya, không còn sợ hãi gì.",
+        "Còn chiến công của Watanabe ở cổng Rashomon thì người ta kể mãi, cho tới tận hôm nay."
+      ],
+      "image": {
+        "prompt": "the Rashomon gate on a calm moonlit evening, townspeople with paper lanterns walking peacefully through it, the samurai standing watch nearby with a resolute look, a hole in a distant rooftop being repaired",
+        "seed": 2091466970,
+        "character": "watanabe"
+      },
+      "video": {
+        "motionPrompt": "lanterns bob gently as people stroll through the gate, moonlight softens the scene, the samurai turns his gaze to the clear sky, slow pull-back",
+        "seed": 1546054497
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "tense Japanese instrumental, shakuhachi bamboo flute, low taiko drums and biwa lute, rain-like koto plucks, eerie Heian night atmosphere building to a heroic clash then a calm resolution, no vocals",
+    "durationSeconds": 150,
+    "seed": 842391642
+  }
+}

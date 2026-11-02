@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "slug": "hoang-tu-va-ba-dinh-menh",
+  "shelf": "adults",
+  "title": "Hoàng tử và ba định mệnh",
+  "summary": "Ngay lúc chào đời, hoàng tử Ai Cập bị phán rằng sẽ chết vì cá sấu, rắn hoặc chó. Chàng vẫn rời lâu đài đi tìm đời mình, trèo tường cưới công chúa, và chính người vợ dũng cảm đã giành chàng lại từ tay số phận. Truyện cổ Ai Cập trong tuyển tập Andrew Lang, kể đầy đủ cho người lớn.",
+  "themes": [
+    "than-thoai",
+    "tinh-yeu",
+    "gia-dinh"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện “The Prince and the Three Fates” trong The Brown Fairy Book do Andrew Lang chủ biên (1904), Project Gutenberg #3282, thuộc phạm vi công cộng; gốc là truyện cổ Ai Cập. Lời kể viết mới bằng tiếng Việt, theo sát cốt truyện, không chép bản dịch nào.",
+  "basedOn": "Truyện cổ Ai Cập (Andrew Lang, 1904)",
+  "style": "ancient Egyptian inspired storybook painting in warm ochre, lapis blue and gold, papyrus marshes along the Nile, white palaces with lotus columns, desert dunes and red rocks, soft painterly light, mysterious and tender mood for adult readers, no blood, no gore, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Thanh Bình"
+    }
+  },
+  "characters": [
+    {
+      "id": "hoang-tu",
+      "name": "Hoàng tử",
+      "sheetPrompt": "a young ancient Egyptian prince, bronze skin, short black hair, white linen kilt and broad beaded collar, gold armbands, a bow on his shoulder, brave gentle face, full body, front and side views, plain light background, character reference sheet",
+      "seed": 958591643
+    },
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "sheetPrompt": "a brave young ancient Egyptian princess, long braided black hair with gold beads, white pleated linen dress, a coil of rope on her shoulder, determined dark eyes lined with kohl, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2031272352
+    },
+    {
+      "id": "con-cho",
+      "name": "Con chó",
+      "sheetPrompt": "a small fluffy pale golden dog with pointed ears and a curled tail, lively and loyal, shown young and also grey muzzled when old, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1345221684
+    },
+    {
+      "id": "ca-sau",
+      "name": "Con cá sấu",
+      "sheetPrompt": "an enormous ancient Nile crocodile with dark green armoured scales, heavy jaws and knowing golden eyes, menacing but not graphic, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2028486837
+    }
+  ],
+  "scenes": [
+    {
+      "id": "loi-phan-ben-noi",
+      "title": "Lời phán bên nôi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một xứ lớn có dòng sông rộng chảy qua, nhà vua sinh được một cậu con trai. Vua mừng đến cuống quýt, cho mời những bà tiên quyền phép nhất đến xem mặt con. Các bà đến đông nghịt quanh nôi, nhưng ai cũng nghiêm mặt. Vua hỏi có chuyện gì. Các bà cùng lắc đầu: thằng bé đẹp lắm, thật đáng tiếc, nhưng điều gì đã định thì sẽ đến. Trong sách số phận đã ghi, nó sẽ chết hoặc vì cá sấu, hoặc vì rắn, hoặc vì chó. Nếu cứu được, chúng ta đã cứu, nhưng việc ấy vượt quá sức chúng ta. Nói xong, các bà biến mất.",
+      "subtitles": [
+        "Ngày xưa, ở một xứ lớn có dòng sông rộng chảy qua, nhà vua sinh được một cậu con trai.",
+        "Vua mừng đến cuống quýt, cho mời những bà tiên quyền phép nhất đến xem mặt con.",
+        "Các bà đến đông nghịt quanh nôi, nhưng ai cũng nghiêm mặt.",
+        "Vua hỏi có chuyện gì.",
+        "Các bà cùng lắc đầu: thằng bé đẹp lắm, thật đáng tiếc, nhưng điều gì đã định thì sẽ đến.",
+        "Trong sách số phận đã ghi, nó sẽ chết hoặc vì cá sấu, hoặc vì rắn, hoặc vì chó.",
+        "Nếu cứu được, chúng ta đã cứu, nhưng việc ấy vượt quá sức chúng ta.",
+        "Nói xong, các bà biến mất."
+      ],
+      "image": {
+        "prompt": "a royal Egyptian nursery with a gilded cradle surrounded by grave luminous fairy women in white linen, a worried pharaoh standing at the doorway, faint shapes of a crocodile, a serpent and a dog woven into a wall painting",
+        "seed": 1630571020,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the fairy women slowly fade into golden light one by one, the king steps toward the cradle",
+        "seed": 3410305496
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-tren-nui-va-con-cho",
+      "title": "Lâu đài trên núi và con chó",
+      "narrator": "ke-chuyen",
+      "narration": "Vua đứng lặng hồi lâu vì kinh hoàng, nhưng vốn tính lạc quan, ông lập tức tìm cách cứu con. Ông dựng cho con một lâu đài kiên cố trên đỉnh núi, đủ đồ quý đồ chơi, lính canh ngày đêm, quanh là tường cao hào sâu. Một hôm, cậu bé nhìn qua hào thấy một quả bông nhỏ xíu đang nhảy nhót bên kia. Cậu chưa từng thấy con chó nào, vì chó bị giữ thật xa. Cậu hỏi người hầu: con vật gì chạy nhanh thế kia? Đó là con chó, thưa hoàng tử. Thế thì kiếm cho ta một con. Người hầu tâu vua. Vua bảo: cứ cho nó một con, không thì nó khóc hết nước mắt mất. Thế là một chú chó con được mang đến, giống hệt con kia. Hoàng tử và con chó lớn lên bên nhau, không rời nửa bước.",
+      "subtitles": [
+        "Vua đứng lặng hồi lâu vì kinh hoàng, nhưng vốn tính lạc quan,",
+        "ông lập tức tìm cách cứu con.",
+        "Ông dựng cho con một lâu đài kiên cố trên đỉnh núi, đủ đồ quý đồ chơi,",
+        "lính canh ngày đêm, quanh là tường cao hào sâu.",
+        "Một hôm, cậu bé nhìn qua hào thấy một quả bông nhỏ xíu đang nhảy nhót bên kia.",
+        "Cậu chưa từng thấy con chó nào, vì chó bị giữ thật xa.",
+        "Cậu hỏi người hầu: con vật gì chạy nhanh thế kia?",
+        "Đó là con chó, thưa hoàng tử. Thế thì kiếm cho ta một con.",
+        "Người hầu tâu vua.",
+        "Vua bảo: cứ cho nó một con, không thì nó khóc hết nước mắt mất.",
+        "Thế là một chú chó con được mang đến, giống hệt con kia.",
+        "Hoàng tử và con chó lớn lên bên nhau, không rời nửa bước."
+      ],
+      "image": {
+        "prompt": "a little Egyptian prince on a walled terrace of a mountain castle hugging a fluffy golden puppy, guards walking the battlements, the moat and the wide river far below",
+        "seed": 1456340890,
+        "character": "con-cho"
+      },
+      "video": {
+        "motionPrompt": "the puppy licks the boy's face and he laughs, banners flutter in the warm wind",
+        "seed": 933940975
+      },
+      "voice": {}
+    },
+    {
+      "id": "ra-di",
+      "title": "Ra đi",
+      "narrator": "ke-chuyen",
+      "narration": "Năm tháng qua, cậu bé thành chàng trai cao lớn khỏe mạnh. Một ngày, chàng gửi lời đến cha: sao cha giam con ở đây không cho làm gì? Con biết hết lời phán lúc con ra đời, nhưng thà chết ngay còn hơn sống vô ích thế này. Xin cha cho con vũ khí và để con đi, con với con chó của con. Vua lại chiều con. Chàng và con chó được thuyền đưa sang bờ bên kia sông, rộng đến mức trông như biển. Một con ngựa đen buộc sẵn dưới gốc cây. Chàng nhảy lên ngựa, cứ thế đi theo ý thích, con chó luôn bám gót. Chưa hoàng tử nào vui sướng như chàng. Đi mãi, chàng đến cung điện của một ông vua khác.",
+      "subtitles": [
+        "Năm tháng qua, cậu bé thành chàng trai cao lớn khỏe mạnh.",
+        "Một ngày, chàng gửi lời đến cha: sao cha giam con ở đây không cho làm gì?",
+        "Con biết hết lời phán lúc con ra đời, nhưng thà chết ngay còn hơn sống vô ích thế này.",
+        "Xin cha cho con vũ khí và để con đi, con với con chó của con.",
+        "Vua lại chiều con.",
+        "Chàng và con chó được thuyền đưa sang bờ bên kia sông, rộng đến mức trông như biển.",
+        "Một con ngựa đen buộc sẵn dưới gốc cây.",
+        "Chàng nhảy lên ngựa, cứ thế đi theo ý thích, con chó luôn bám gót.",
+        "Chưa hoàng tử nào vui sướng như chàng.",
+        "Đi mãi, chàng đến cung điện của một ông vua khác."
+      ],
+      "image": {
+        "prompt": "a young prince on a black horse riding along the Nile bank at sunrise, a golden dog running beside him, a boat drifting away behind, papyrus and palms",
+        "seed": 898418821,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the horse breaks into a canter, the dog bounds alongside, the camera follows as the sun climbs",
+        "seed": 1366100709
+      },
+      "voice": {}
+    },
+    {
+      "id": "toa-thap-bay-muoi-cua-so",
+      "title": "Tòa tháp bảy mươi cửa sổ",
+      "narrator": "ke-chuyen",
+      "narration": "Ông vua ở đây chẳng lo việc dân, chỉ mê bày trò kỳ quặc. Ông vừa xây cho cô con gái duy nhất một tòa nhà có bảy mươi cửa sổ, mỗi cửa cao bảy mươi thước so với mặt đất, rồi cho sứ giả loan báo khắp các nước láng giềng: ai trèo tường lên được tới cửa sổ công chúa sẽ được cưới nàng. Tiếng đồn về nhan sắc công chúa bay xa, các hoàng tử kéo đến đông nghịt. Nhưng chẳng ai leo được gần tới đỉnh. Các chàng trai đón hoàng tử vào ở cùng, hỏi chàng từ đâu tới. Chàng có lý do giấu thân phận, nên đáp: cha tôi là quan coi ngựa của vua nước tôi. Mẹ tôi mất, cha lấy vợ khác, khi bà có con riêng thì sinh ghét tôi, nên tôi bỏ trốn.",
+      "subtitles": [
+        "Ông vua ở đây chẳng lo việc dân, chỉ mê bày trò kỳ quặc.",
+        "Ông vừa xây cho cô con gái duy nhất một tòa nhà có bảy mươi cửa sổ,",
+        "mỗi cửa cao bảy mươi thước so với mặt đất,",
+        "rồi cho sứ giả loan báo khắp các nước láng giềng: ai trèo tường lên được tới cửa sổ công",
+        "chúa sẽ được cưới nàng.",
+        "Tiếng đồn về nhan sắc công chúa bay xa, các hoàng tử kéo đến đông nghịt.",
+        "Nhưng chẳng ai leo được gần tới đỉnh.",
+        "Các chàng trai đón hoàng tử vào ở cùng, hỏi chàng từ đâu tới.",
+        "Chàng có lý do giấu thân phận, nên đáp: cha tôi là quan coi ngựa của vua nước tôi.",
+        "Mẹ tôi mất, cha lấy vợ khác, khi bà có con riêng thì sinh ghét tôi, nên tôi bỏ trốn."
+      ],
+      "image": {
+        "prompt": "a tall gleaming white Egyptian tower with seventy high windows, many young suitors in colourful garments clinging to its walls at different heights, a veiled princess leaning from the topmost window",
+        "seed": 2335727646,
+        "character": "hoang-tu"
+      },
+      "video": {
+        "motionPrompt": "the camera tilts slowly up the wall past struggling climbers to the princess at the top window",
+        "seed": 2427368854
+      },
+      "voice": {}
+    },
+    {
+      "id": "leo-len-cua-so",
+      "title": "Leo lên cửa sổ",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng tử xin thử, nhưng nhiều ngày liền chàng chỉ đứng xem người khác leo, ghi nhớ chỗ khó để tránh, đến khi thuộc lòng bức tường mới vào cuộc. Nhờ học từ thất bại của mọi người, chàng bám hết mấu đá này đến mấu đá khác, cho đến khi đứng trên bậu cửa sổ công chúa, trước con mắt ghen tị của bạn bè. Từ dưới nhìn lên, họ thấy một bàn tay trắng muốt chìa ra kéo chàng vào. Nghe tin người thắng chỉ là con quan coi ngựa, nhà vua nổi giận đập vỡ cả chén rượu: bảo nó cút về xứ nó, ta đâu gả con cho kẻ lưu vong. Công chúa nghe được, sai người tâu rằng nếu chàng bị đem đi, nàng thề không ăn không uống nữa. Vua sai lính đến giết chàng, nhưng công chúa lao ra đứng chắn: đụng đến chàng một ngón tay, trước khi mặt trời lặn ta sẽ chết. Lính đành rút về.",
+      "subtitles": [
+        "Hoàng tử xin thử, nhưng nhiều ngày liền chàng chỉ đứng xem người khác leo,",
+        "ghi nhớ chỗ khó để tránh, đến khi thuộc lòng bức tường mới vào cuộc.",
+        "Nhờ học từ thất bại của mọi người, chàng bám hết mấu đá này đến mấu đá khác,",
+        "cho đến khi đứng trên bậu cửa sổ công chúa, trước con mắt ghen tị của bạn bè.",
+        "Từ dưới nhìn lên, họ thấy một bàn tay trắng muốt chìa ra kéo chàng vào.",
+        "Nghe tin người thắng chỉ là con quan coi ngựa,",
+        "nhà vua nổi giận đập vỡ cả chén rượu: bảo nó cút về xứ nó, ta đâu gả con cho kẻ lưu vong.",
+        "Công chúa nghe được, sai người tâu rằng nếu chàng bị đem đi,",
+        "nàng thề không ăn không uống nữa.",
+        "Vua sai lính đến giết chàng, nhưng công chúa lao ra đứng chắn: đụng đến chàng một ngón",
+        "tay, trước khi mặt trời lặn ta sẽ chết. Lính đành rút về."
+      ],
+      "image": {
+        "prompt": "the young prince pulling himself onto the high window sill of the white tower, the princess reaching out her hand to draw him in, suitors far below looking up",
+        "seed": 2510685140,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the princess's hand clasps his, wind lifts her linen veil, the crowd below cheers soundlessly",
+        "seed": 3017499387
+      },
+      "voice": {}
+    },
+    {
+      "id": "dam-cuoi-va-loi-thu-that",
+      "title": "Đám cưới và lời thú thật",
+      "narrator": "ke-chuyen",
+      "narration": "Cơn giận nguôi dần, nhà vua nghĩ đến chuyện dân sẽ chê mình nuốt lời. Ông cho gọi đôi trẻ đến, thấy vẻ cao quý của chàng trai thì hết giận, chạy đến ôm chàng: nói ta nghe ngươi là ai, ta không tin trong người ngươi không có dòng máu vua chúa. Chàng vẫn kể câu chuyện cũ. Vua quý chàng nên chẳng hỏi thêm, hôm sau làm lễ cưới, ban cho đôi trẻ đàn gia súc lớn và một điền trang. Ít lâu sau, hoàng tử nói với vợ: mạng anh nằm trong tay ba con vật, cá sấu, rắn và chó. Công chúa ôm lấy cổ chồng: sao anh liều thế, biết vậy mà còn giữ con chó bên mình? Em sẽ sai người giết nó ngay. Chàng không nghe: giết con chó bạn chơi của anh từ thuở nó còn bé tí ư? Không bao giờ. Công chúa chỉ xin được chàng hứa luôn đeo gươm và có người đi theo mỗi khi ra khỏi cung.",
+      "subtitles": [
+        "Cơn giận nguôi dần, nhà vua nghĩ đến chuyện dân sẽ chê mình nuốt lời.",
+        "Ông cho gọi đôi trẻ đến, thấy vẻ cao quý của chàng trai thì hết giận,",
+        "chạy đến ôm chàng: nói ta nghe ngươi là ai,",
+        "ta không tin trong người ngươi không có dòng máu vua chúa.",
+        "Chàng vẫn kể câu chuyện cũ.",
+        "Vua quý chàng nên chẳng hỏi thêm, hôm sau làm lễ cưới,",
+        "ban cho đôi trẻ đàn gia súc lớn và một điền trang.",
+        "Ít lâu sau, hoàng tử nói với vợ: mạng anh nằm trong tay ba con vật, cá sấu, rắn và chó.",
+        "Công chúa ôm lấy cổ chồng: sao anh liều thế, biết vậy mà còn giữ con chó bên mình?",
+        "Em sẽ sai người giết nó ngay.",
+        "Chàng không nghe: giết con chó bạn chơi của anh từ thuở nó còn bé tí ư?",
+        "Không bao giờ.",
+        "Công chúa chỉ xin được chàng hứa luôn đeo gươm và có người đi theo mỗi khi ra khỏi cung."
+      ],
+      "image": {
+        "prompt": "the young prince and princess sitting together in a lotus columned chamber, the princess embracing him anxiously, the golden dog resting its head on the prince's knee",
+        "seed": 2864681799,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "lamplight flickers, the dog thumps its tail, the princess glances warily at it",
+        "seed": 3102183875
+      },
+      "voice": {}
+    },
+    {
+      "id": "ca-sau-va-ran",
+      "title": "Cá sấu và rắn",
+      "narrator": "ke-chuyen",
+      "narration": "Mấy tháng sau, hoàng tử nghe tin dì ghẻ đã mất, cha già ốm yếu mong con trưởng về bên. Chàng từ biệt vợ lên đường. Một đêm, khi chàng ngủ trọ ở thành bên bờ sông lớn, một con cá sấu khổng lồ lặng lẽ bò lên theo lối đi tới phòng chàng. May có lính canh tỉnh giấc, nhốt nó vào một gian sảnh có người khổng lồ canh giữ. Chàng ở lại đó chờ vợ đến. Đêm công chúa vừa tới, trong khi chồng ngủ, nàng thấy ở góc phòng một vệt đen cứ dài ra, bò dần về phía chàng. Đó là cái đầu dẹt của một con rắn. Nhớ lời phán, nàng nhẹ nhàng xuống giường, đặt một bát sữa đầy trên lối nó đi, vì rắn nào cũng mê sữa. Con rắn ngửi thấy, uống lấy uống để đến giọt cuối cùng rồi lăn ra ngủ mê. Nàng chỉ chờ có thế, cầm gươm của chồng chặt phăng đầu nó. Định mệnh thứ nhất đã qua.",
+      "subtitles": [
+        "Mấy tháng sau, hoàng tử nghe tin dì ghẻ đã mất, cha già ốm yếu mong con trưởng về bên.",
+        "Chàng từ biệt vợ lên đường.",
+        "Một đêm, khi chàng ngủ trọ ở thành bên bờ sông lớn,",
+        "một con cá sấu khổng lồ lặng lẽ bò lên theo lối đi tới phòng chàng.",
+        "May có lính canh tỉnh giấc, nhốt nó vào một gian sảnh có người khổng lồ canh giữ.",
+        "Chàng ở lại đó chờ vợ đến.",
+        "Đêm công chúa vừa tới, trong khi chồng ngủ,",
+        "nàng thấy ở góc phòng một vệt đen cứ dài ra, bò dần về phía chàng.",
+        "Đó là cái đầu dẹt của một con rắn.",
+        "Nhớ lời phán, nàng nhẹ nhàng xuống giường, đặt một bát sữa đầy trên lối nó đi,",
+        "vì rắn nào cũng mê sữa.",
+        "Con rắn ngửi thấy, uống lấy uống để đến giọt cuối cùng rồi lăn ra ngủ mê.",
+        "Nàng chỉ chờ có thế, cầm gươm của chồng chặt phăng đầu nó.",
+        "Định mệnh thứ nhất đã qua."
+      ],
+      "image": {
+        "prompt": "a moonlit bedchamber, the prince asleep on cushions, the princess crouching silently to set a bowl of milk on the floor in the path of a long dark serpent gliding from the corner",
+        "seed": 250564859,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the serpent's head rises and sways toward the bowl, the princess holds her breath, moonlight shifts",
+        "seed": 2044181146
+      },
+      "voice": {}
+    },
+    {
+      "id": "thu-thach-ho-cat",
+      "title": "Thử thách hố cát",
+      "narrator": "ke-chuyen",
+      "narration": "Về đến kinh đô thì vua cha đã mất. Lo tang lễ xong, chàng làm việc nước đến kiệt sức, phải ra cung điện bên sông nghỉ ngơi, ngày ngày đi săn vịt trời cùng con chó nay đã già. Một sáng, đang chạy theo con chó gần bờ sông, chàng suýt vấp vào một vật như khúc gỗ. Vật ấy cất tiếng: ngươi không thoát được ta đâu. Ta là số phận của ngươi, ngươi đi đâu cũng sẽ gặp ta trước mặt. Chỉ có một cách giải phép của ta: đào một cái hố trên cát khô mà giữ được đầy nước. Không được thì cái chết sẽ đến nhanh. Ta cho ngươi một cơ hội ấy. Giờ thì đi đi. Hoàng tử buồn bã về cung, đóng cửa không gặp ai. Đến hoàng hôn, công chúa đập cửa mãi chàng mới mở. Nghe chồng kể, nàng nói nhẹ tênh: nếu chỉ có thế thì em cứu được. Mẹ tiên đỡ đầu dạy em biết các loài cây. Trong sa mạc gần đây có một loài cỏ bốn lá giữ nước trong hố suốt một năm. Sáng mai em đi tìm, anh cứ đào hố đi.",
+      "subtitles": [
+        "Về đến kinh đô thì vua cha đã mất.",
+        "Lo tang lễ xong, chàng làm việc nước đến kiệt sức,",
+        "phải ra cung điện bên sông nghỉ ngơi, ngày ngày đi săn vịt trời cùng con chó nay đã già.",
+        "Một sáng, đang chạy theo con chó gần bờ sông, chàng suýt vấp vào một vật như khúc gỗ.",
+        "Vật ấy cất tiếng: ngươi không thoát được ta đâu.",
+        "Ta là số phận của ngươi, ngươi đi đâu cũng sẽ gặp ta trước mặt.",
+        "Chỉ có một cách giải phép của ta: đào một cái hố trên cát khô mà giữ được đầy nước.",
+        "Không được thì cái chết sẽ đến nhanh.",
+        "Ta cho ngươi một cơ hội ấy. Giờ thì đi đi.",
+        "Hoàng tử buồn bã về cung, đóng cửa không gặp ai.",
+        "Đến hoàng hôn, công chúa đập cửa mãi chàng mới mở.",
+        "Nghe chồng kể, nàng nói nhẹ tênh: nếu chỉ có thế thì em cứu được.",
+        "Mẹ tiên đỡ đầu dạy em biết các loài cây.",
+        "Trong sa mạc gần đây có một loài cỏ bốn lá giữ nước trong hố suốt một năm.",
+        "Sáng mai em đi tìm, anh cứ đào hố đi."
+      ],
+      "image": {
+        "prompt": "a huge ancient crocodile lying like a log on the sandy riverbank speaking to the startled young king, an old grey muzzled dog barking nearby, reeds and morning haze",
+        "seed": 1953532308,
+        "character": "ca-sau"
+      },
+      "video": {
+        "motionPrompt": "the crocodile's golden eye opens slowly, mist drifts over the water, the old dog backs away barking",
+        "seed": 4081028028
+      },
+      "voice": {}
+    },
+    {
+      "id": "tang-da-giua-sa-mac",
+      "title": "Tảng đá giữa sa mạc",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng nói nhẹ cho chồng yên lòng, nhưng biết rõ việc chẳng dễ. Trời còn sao, nàng cưỡi con lừa trắng đi thẳng về phía tây. Cát mỗi lúc một nóng, khát cháy cổ, mà nàng phải về trước chiều tối. Cuối cùng một tảng đá cao hiện ra, quanh chân là một vực sâu. Nàng ném dây thòng lọng qua vực, lần đầu tuột, lần sau mới móc được, rồi đánh liều đu người qua cây cầu dây mong manh. Vách đá cứ đặt chân là vỡ vụn, nàng phải lướt nhẹ qua mỏm yếu, bám mỏm chắc, leo lên tới đỉnh với đôi tay rách nát. Trên đỉnh gió dữ đến mù mắt, nàng nằm sấp sờ soạng khắp mặt đá, chỉ toàn sỏi. Rồi ngón tay chạm một thứ mềm trong khe. Nàng đếm lá: một, hai, ba, bốn! Ngắt một lá giữ chặt trong tay, nàng trượt xuống, qua cầu dây, và con lừa mừng rỡ phi về.",
+      "subtitles": [
+        "Nàng nói nhẹ cho chồng yên lòng, nhưng biết rõ việc chẳng dễ.",
+        "Trời còn sao, nàng cưỡi con lừa trắng đi thẳng về phía tây.",
+        "Cát mỗi lúc một nóng, khát cháy cổ, mà nàng phải về trước chiều tối.",
+        "Cuối cùng một tảng đá cao hiện ra, quanh chân là một vực sâu.",
+        "Nàng ném dây thòng lọng qua vực, lần đầu tuột, lần sau mới móc được,",
+        "rồi đánh liều đu người qua cây cầu dây mong manh.",
+        "Vách đá cứ đặt chân là vỡ vụn, nàng phải lướt nhẹ qua mỏm yếu, bám mỏm chắc,",
+        "leo lên tới đỉnh với đôi tay rách nát.",
+        "Trên đỉnh gió dữ đến mù mắt, nàng nằm sấp sờ soạng khắp mặt đá, chỉ toàn sỏi.",
+        "Rồi ngón tay chạm một thứ mềm trong khe.",
+        "Nàng đếm lá: một, hai, ba, bốn!",
+        "Ngắt một lá giữ chặt trong tay, nàng trượt xuống, qua cầu dây, và con lừa mừng rỡ phi về."
+      ],
+      "image": {
+        "prompt": "a determined princess with a rope climbing a towering red rock in a sandstorm under a blazing desert sun, a white donkey waiting in the shade far below beside a deep chasm",
+        "seed": 1870676853,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "sand whips across the rock face, the princess pulls herself up another ledge, small stones crumble away",
+        "seed": 1972292817
+      },
+      "voice": {}
+    },
+    {
+      "id": "manh-hon-so-phan",
+      "title": "Mạnh hơn số phận",
+      "narrator": "ke-chuyen",
+      "narration": "Bên bờ sông, hoàng tử đã đào xong hố, cạnh đó là vò nước lớn. Con cá sấu nằm phơi nắng gần đấy, há rộng hàm răng sắc nhọn. Theo hiệu của vợ, chàng đổ nước vào hố, nước vừa tới miệng, nàng thả chiếc lá bốn cánh xuống. Nửa giờ đồng hồ hai người đứng nín thở. Hố vẫn đầy như lúc đầu, chiếc lá xanh nổi trên mặt. Hoàng tử reo lên chiến thắng, con cá sấu hậm hực lặn xuống sông. Chàng đã thoát định mệnh thứ hai mãi mãi. Đang đứng nhìn theo, chàng giật mình vì một con vịt trời bay vụt qua tìm chỗ nấp trong lau sậy. Con chó già lao theo, va mạnh vào chân chủ. Hoàng tử loạng choạng, ngã ngửa xuống sông, bùn và lau sậy giữ chặt lấy chàng. Chàng kêu cứu, vợ chạy tới, may mà nàng vẫn mang theo sợi dây. Con chó già tội nghiệp chết đuối, nhưng hoàng tử được kéo lên bờ. Chàng nói: vợ ta đã mạnh hơn số phận của ta.",
+      "subtitles": [
+        "Bên bờ sông, hoàng tử đã đào xong hố, cạnh đó là vò nước lớn.",
+        "Con cá sấu nằm phơi nắng gần đấy, há rộng hàm răng sắc nhọn.",
+        "Theo hiệu của vợ, chàng đổ nước vào hố, nước vừa tới miệng,",
+        "nàng thả chiếc lá bốn cánh xuống.",
+        "Nửa giờ đồng hồ hai người đứng nín thở.",
+        "Hố vẫn đầy như lúc đầu, chiếc lá xanh nổi trên mặt.",
+        "Hoàng tử reo lên chiến thắng, con cá sấu hậm hực lặn xuống sông.",
+        "Chàng đã thoát định mệnh thứ hai mãi mãi.",
+        "Đang đứng nhìn theo, chàng giật mình vì một con vịt trời bay vụt qua tìm chỗ nấp trong lau",
+        "sậy. Con chó già lao theo, va mạnh vào chân chủ.",
+        "Hoàng tử loạng choạng, ngã ngửa xuống sông, bùn và lau sậy giữ chặt lấy chàng.",
+        "Chàng kêu cứu, vợ chạy tới, may mà nàng vẫn mang theo sợi dây.",
+        "Con chó già tội nghiệp chết đuối, nhưng hoàng tử được kéo lên bờ.",
+        "Chàng nói: vợ ta đã mạnh hơn số phận của ta."
+      ],
+      "image": {
+        "prompt": "on the Nile bank a young king and his wife watching a sand pit brimming with water with a four leaved green herb floating on top, a sulking crocodile sliding into the river, a wild duck flying up from the reeds",
+        "seed": 641260635,
+        "character": "con-cho"
+      },
+      "video": {
+        "motionPrompt": "the leaf bobs on the still water, the crocodile slips under, then the duck bursts out of the reeds and the old dog leaps after it",
+        "seed": 3701698039
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "ancient Egyptian inspired instrumental with ney flute, harp, frame drum and soft strings, a mysterious prophecy theme, a bright journey melody, a tense desert climb and a tender ending by the river, no vocals",
+    "durationSeconds": 170,
+    "seed": 4204463118
+  }
+}

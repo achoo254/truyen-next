@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "slug": "go-kien-rua-va-nai",
+  "shelf": "kids",
+  "title": "Gõ kiến, rùa và nai",
+  "summary": "Chú nai sa vào bẫy của người thợ săn, và hai người bạn nhỏ là chị gõ kiến và chú rùa đã cùng nhau tìm cách cứu bạn. Rồi đến lượt nai liều mình cứu lại rùa. Truyện tiền thân Jataka của Ấn Độ kể nhẹ cho bé về tình bạn và lòng dũng cảm.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện tiền thân Đức Phật (Jataka, Ấn Độ cổ đại), theo bản kể lại tiếng Anh của Ellen C. Babbitt, More Jataka Tales (1922), truyện «The Woodpecker, Turtle, and Deer», Project Gutenberg #7518, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản nào; Mèo Miu mở đầu và rút ý ở cuối. Bản cho trẻ nhỏ kể nhẹ: người thợ săn không cầm dao, rùa chỉ đau răng, mỏi miệng; giữ nguyên cốt truyện.",
+  "basedOn": "Truyện tiền thân Jataka (Ấn Độ)",
+  "style": "classic Indian storybook illustration in the spirit of old Jataka picture books, soft watercolor and gouache with gentle Mughal miniature touches, warm golden light, rounded friendly shapes, a quiet forest lake with lotus leaves, tall trees and a small thatched hut at the forest edge, calm and safe mood for young children, no text, no letters, no watermark",
+  "narrators": {
+    "miu": {
+      "name": "Mèo Miu",
+      "voice": "Trúc Ly"
+    },
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Quỳnh Anh"
+    }
+  },
+  "characters": [
+    {
+      "id": "miu",
+      "name": "Mèo Miu",
+      "seed": 4060560417,
+      "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nai",
+      "name": "Chú nai",
+      "seed": 3378794975,
+      "sheetPrompt": "a gentle young spotted deer with small antlers, big kind eyes and slender legs, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "go-kien",
+      "name": "Chị gõ kiến",
+      "seed": 1012328006,
+      "sheetPrompt": "a brave little woodpecker with a red cap, black and white wings and a strong pointed beak, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "rua",
+      "name": "Chú rùa",
+      "seed": 2047674104,
+      "sheetPrompt": "a sturdy friendly green lake turtle with a round patterned shell and a determined smile, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "tho-san",
+      "name": "Người thợ săn",
+      "seed": 1025903049,
+      "sheetPrompt": "a grumpy but comical ancient Indian hunter with a big turban, a bushy moustache, a cloth sack and a coil of rope over his shoulder, not scary, storybook style, full body, front view, plain soft cream background, character reference sheet"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "mo-dau",
+      "title": "Mèo Miu chào các bạn",
+      "narrator": "miu",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có người bạn thân nào không? Miu có nhiều bạn lắm, bạn nào cũng quý. Hôm nay Miu kể chuyện ba người bạn ở bên một cái hồ trong rừng: một chú nai, một chị gõ kiến và một chú rùa. Khi một bạn gặp nạn, hai bạn kia sẽ làm gì nhỉ? Mình cùng nghe nhé!",
+      "subtitles": [
+        "Xin chào các bạn nhỏ! Các bạn có người bạn thân nào không?",
+        "Miu có nhiều bạn lắm, bạn nào cũng quý.",
+        "Hôm nay Miu kể chuyện ba người bạn ở bên một cái hồ trong rừng:",
+        "một chú nai, một chị gõ kiến và một chú rùa.",
+        "Khi một bạn gặp nạn, hai bạn kia sẽ làm gì nhỉ? Mình cùng nghe nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a mossy rock beside a forest lake holding an open picture book, a deer, a woodpecker and a turtle peek out from the reeds",
+        "seed": 3691089079
+      },
+      "video": {
+        "motionPrompt": "the cat waves hello, the deer flicks its ears, the woodpecker hops on a branch, the turtle pokes its head out of the water, gentle camera push-in",
+        "seed": 73405535
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-nguoi-ban",
+      "title": "Ba người bạn bên hồ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một khu rừng, có một cái hồ nước trong xanh. Chú nai sống trong rừng gần hồ, chị gõ kiến làm tổ trên ngọn cây cao, còn chú rùa thì ở dưới nước. Ba bạn thân nhau lắm. Sáng sáng nai xuống hồ uống nước, rùa ngoi lên chào, gõ kiến gõ cốc cốc trên thân cây như gọi cả nhà dậy.",
+      "subtitles": [
+        "Ngày xưa, ở một khu rừng, có một cái hồ nước trong xanh.",
+        "Chú nai sống trong rừng gần hồ, chị gõ kiến làm tổ trên ngọn cây cao,",
+        "còn chú rùa thì ở dưới nước.",
+        "Ba bạn thân nhau lắm.",
+        "Sáng sáng nai xuống hồ uống nước, rùa ngoi lên chào,",
+        "gõ kiến gõ cốc cốc trên thân cây như gọi cả nhà dậy."
+      ],
+      "image": {
+        "character": "nai",
+        "prompt": "a spotted deer drinks at a clear forest lake at dawn, a turtle on a lotus leaf greets him, a woodpecker taps on a tall tree trunk above",
+        "seed": 3474557994
+      },
+      "video": {
+        "motionPrompt": "the deer lowers its head to drink, ripples spread, the turtle waves a flipper, the woodpecker taps the bark, soft morning mist drifts",
+        "seed": 2647007673
+      },
+      "voice": {}
+    },
+    {
+      "id": "sa-bay",
+      "title": "Chú nai sa bẫy",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, có người thợ săn đi qua, thấy dấu chân nai in trên bờ hồ. Ông ta nghĩ: Nai hay xuống đây uống nước. Mình đặt bẫy ở đây là bắt được! Rồi ông đặt một cái bẫy bằng dây da thật chắc và về nhà. Tối hôm ấy, nai xuống uống nước thì sập bẫy. Dây da quấn chặt lấy chân. Nai hoảng hốt kêu lên: Cứu tôi với!",
+      "subtitles": [
+        "Một hôm, có người thợ săn đi qua, thấy dấu chân nai in trên bờ hồ.",
+        "Ông ta nghĩ: Nai hay xuống đây uống nước. Mình đặt bẫy ở đây là bắt được!",
+        "Rồi ông đặt một cái bẫy bằng dây da thật chắc và về nhà.",
+        "Tối hôm ấy, nai xuống uống nước thì sập bẫy. Dây da quấn chặt lấy chân.",
+        "Nai hoảng hốt kêu lên: Cứu tôi với!"
+      ],
+      "image": {
+        "character": "tho-san",
+        "prompt": "a comical hunter in a big turban kneels by the lakeshore setting a loop trap of thick leather straps among the reeds, deer hoofprints in the soft mud",
+        "seed": 1951334674
+      },
+      "video": {
+        "motionPrompt": "the hunter ties the leather loop and looks around slyly, then walks away, evening light fades over the lake, slow camera pan",
+        "seed": 4120626085
+      },
+      "voice": {}
+    },
+    {
+      "id": "chia-viec",
+      "title": "Gõ kiến và rùa chia việc",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe tiếng bạn kêu, gõ kiến bay vụt xuống, rùa cũng bò lên bờ. Gõ kiến nói: Rùa ơi, bạn có hàm răng khỏe, bạn gặm đứt dây bẫy nhé. Còn tôi sẽ bay đến nhà người thợ săn, tìm cách giữ chân ông ta. Hai đứa mình cố hết sức, nhất định cứu được nai! Rùa gật đầu, bắt tay vào gặm sợi dây da cứng ngắc.",
+      "subtitles": [
+        "Nghe tiếng bạn kêu, gõ kiến bay vụt xuống, rùa cũng bò lên bờ.",
+        "Gõ kiến nói: Rùa ơi, bạn có hàm răng khỏe, bạn gặm đứt dây bẫy nhé.",
+        "Còn tôi sẽ bay đến nhà người thợ săn, tìm cách giữ chân ông ta.",
+        "Hai đứa mình cố hết sức, nhất định cứu được nai!",
+        "Rùa gật đầu, bắt tay vào gặm sợi dây da cứng ngắc."
+      ],
+      "image": {
+        "character": "go-kien",
+        "prompt": "at night by the lake, a woodpecker perches beside a turtle, both looking at a worried deer caught by a leather strap around one leg, moonlight on the water",
+        "seed": 2972932278
+      },
+      "video": {
+        "motionPrompt": "the woodpecker flutters and points with a wing, the turtle nods and starts nibbling the strap, the deer stays still, moonlight shimmers",
+        "seed": 2008942604
+      },
+      "voice": {}
+    },
+    {
+      "id": "cua-truoc-cua-sau",
+      "title": "Cửa trước, cửa sau",
+      "narrator": "ke-chuyen",
+      "narration": "Gõ kiến bay đến căn nhà nhỏ ở bìa rừng, đậu chờ trên cây. Trời vừa hửng sáng, người thợ săn mở cửa trước bước ra. Gõ kiến lao xuống, đập cánh phành phạch vào mặt ông. Ông giật mình chạy vào nhà, nằm một lúc rồi nghĩ: Cửa trước có con chim dữ quá, mình đi cửa sau vậy. Nhưng gõ kiến khôn lắm. Chị đoán trước, bay ra đậu sẵn ở cửa sau. Ông vừa thò đầu ra, lại bị cánh chim đập vào mặt lần nữa.",
+      "subtitles": [
+        "Gõ kiến bay đến căn nhà nhỏ ở bìa rừng, đậu chờ trên cây.",
+        "Trời vừa hửng sáng, người thợ săn mở cửa trước bước ra.",
+        "Gõ kiến lao xuống, đập cánh phành phạch vào mặt ông.",
+        "Ông giật mình chạy vào nhà, nằm một lúc rồi nghĩ:",
+        "Cửa trước có con chim dữ quá, mình đi cửa sau vậy.",
+        "Nhưng gõ kiến khôn lắm. Chị đoán trước, bay ra đậu sẵn ở cửa sau.",
+        "Ông vừa thò đầu ra, lại bị cánh chim đập vào mặt lần nữa."
+      ],
+      "image": {
+        "character": "go-kien",
+        "prompt": "at dawn a little woodpecker flaps her wings right in front of a surprised hunter's face at the back door of a small thatched hut, the hunter covers his eyes with his arm",
+        "seed": 97291540
+      },
+      "video": {
+        "motionPrompt": "the woodpecker flutters fast, the hunter stumbles back inside, then peeks out the back door and gets flapped again, comic gentle motion",
+        "seed": 834893402
+      },
+      "voice": {}
+    },
+    {
+      "id": "nai-thoat",
+      "title": "Nai thoát, rùa bị bắt",
+      "narrator": "ke-chuyen",
+      "narration": "Mặt trời lên cao, người thợ săn lại đi ra. Lần này gõ kiến bay vội về hồ, vừa bay vừa kêu: Ông ta đến rồi! Lúc ấy rùa đã gặm đứt gần hết, chỉ còn một sợi. Răng rùa ê ẩm, miệng đau rát. Nai dồn sức giật mạnh một cái, sợi dây cuối cùng đứt phựt. Nai phóng vào rừng, gõ kiến bay lên tổ. Nhưng rùa mệt quá, không bò đi nổi. Người thợ săn nhặt rùa bỏ vào bao, buộc treo lên cành cây.",
+      "subtitles": [
+        "Mặt trời lên cao, người thợ săn lại đi ra.",
+        "Lần này gõ kiến bay vội về hồ, vừa bay vừa kêu: Ông ta đến rồi!",
+        "Lúc ấy rùa đã gặm đứt gần hết, chỉ còn một sợi. Răng rùa ê ẩm, miệng đau rát.",
+        "Nai dồn sức giật mạnh một cái, sợi dây cuối cùng đứt phựt.",
+        "Nai phóng vào rừng, gõ kiến bay lên tổ.",
+        "Nhưng rùa mệt quá, không bò đi nổi.",
+        "Người thợ săn nhặt rùa bỏ vào bao, buộc treo lên cành cây."
+      ],
+      "image": {
+        "character": "rua",
+        "prompt": "a tired turtle sits on the lakeshore beside a broken leather strap while the deer leaps away into the trees, the hunter in a turban arrives holding an open cloth sack",
+        "seed": 2747217101
+      },
+      "video": {
+        "motionPrompt": "the deer tugs and the last strap snaps, the deer bounds into the forest, the hunter reaches down toward the tired turtle, gentle camera pan",
+        "seed": 375582938
+      },
+      "voice": {}
+    },
+    {
+      "id": "nai-cuu-rua",
+      "title": "Nai quay lại cứu bạn",
+      "narrator": "ke-chuyen",
+      "narration": "Nai thấy bạn bị bắt thì không bỏ đi. Nai cố ý hiện ra cho người thợ săn trông thấy. Người thợ săn mừng rỡ đuổi theo. Nai chạy lúc nhanh lúc chậm, dẫn ông vào tít rừng sâu. Đến khi ông lạc giữa rừng, nai lẻn đi đường khác, nhanh như gió quay về chỗ cũ, gọi: Rùa ơi, rùa ơi! Có tiếng đáp: Tớ ở trong cái bao trên cây này! Nai dùng sừng gỡ bao xuống, xé toạc ra, đưa rùa ra ngoài.",
+      "subtitles": [
+        "Nai thấy bạn bị bắt thì không bỏ đi. Nai cố ý hiện ra cho người thợ săn trông thấy.",
+        "Người thợ săn mừng rỡ đuổi theo. Nai chạy lúc nhanh lúc chậm, dẫn ông vào tít rừng sâu.",
+        "Đến khi ông lạc giữa rừng, nai lẻn đi đường khác, nhanh như gió quay về chỗ cũ, gọi:",
+        "Rùa ơi, rùa ơi!",
+        "Có tiếng đáp: Tớ ở trong cái bao trên cây này!",
+        "Nai dùng sừng gỡ bao xuống, xé toạc ra, đưa rùa ra ngoài."
+      ],
+      "image": {
+        "character": "nai",
+        "prompt": "the spotted deer lifts a cloth sack down from a tree branch with its small antlers, the turtle's happy face peeks out of the opening, the woodpecker flies down to help",
+        "seed": 1158050396
+      },
+      "video": {
+        "motionPrompt": "the deer hooks the sack with its antlers and sets it down gently, the turtle crawls out smiling, the woodpecker circles above, warm forest light",
+        "seed": 3891395801
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket",
+      "title": "Ba bạn bên nhau mãi",
+      "narrator": "miu",
+      "narration": "Nai bảo: Hai bạn đã cứu tớ. Giờ mau đi thôi! Gõ kiến bay lên, rùa lặn xuống hồ, tớ vào rừng trốn. Người thợ săn quay lại chỉ thấy cái bao rách, đành ôm bao về nhà. Từ đấy, ba người bạn sống bên nhau vui vẻ suốt đời. Các bạn ạ, bạn bè thật lòng là khi bạn gặp khó, mình góp sức giúp bạn, mỗi người một việc. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "subtitles": [
+        "Nai bảo: Hai bạn đã cứu tớ.",
+        "Giờ mau đi thôi! Gõ kiến bay lên, rùa lặn xuống hồ, tớ vào rừng trốn.",
+        "Người thợ săn quay lại chỉ thấy cái bao rách, đành ôm bao về nhà.",
+        "Từ đấy, ba người bạn sống bên nhau vui vẻ suốt đời.",
+        "Các bạn ạ, bạn bè thật lòng là khi bạn gặp khó, mình góp sức giúp bạn, mỗi người một việc.",
+        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+      ],
+      "image": {
+        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits by the forest lake at sunset with the deer, the woodpecker on a branch and the turtle on a lotus leaf, all smiling together",
+        "seed": 520956316
+      },
+      "video": {
+        "motionPrompt": "the cat waves goodbye, the deer nuzzles the turtle, the woodpecker taps happily, golden sunset ripples on the lake, slow camera pull-back",
+        "seed": 3931895513
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle ancient Indian melody, bansuri flute and soft sitar with light tabla and birdsong, warm and brave with a playful middle, calm for young children, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 1314691939
+  }
+}

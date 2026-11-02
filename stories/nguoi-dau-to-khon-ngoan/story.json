@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "slug": "nguoi-dau-to-khon-ngoan",
+  "shelf": "world",
+  "title": "Người đầy tớ khôn ngoan",
+  "summary": "Chàng Hans được ông chủ sai đi tìm con bò lạc, nhưng chàng chẳng tìm bò mà mải chạy theo ba con chim sáo đen giữa cánh đồng. Một truyện cổ Grimm ngắn, nói ngược đầy hóm hỉnh, kể nhẹ nhàng cho cả nhà cùng cười và cùng ngẫm.",
+  "themes": [
+    "ngu-ngon"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện số một trăm sáu mươi hai \"The Wise Servant\" (Der kluge Knecht) trong Kinder- und Hausmärchen của anh em Grimm (bản 1857, bản dịch Margaret Hunt 1884), Project Gutenberg #5314, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ trọn cốt truyện và lời khuyên nói ngược ở cuối, thêm một câu ngắn ở cuối nói rõ đó là lời nói ngược cho trẻ nhỏ hiểu, không chép bản dịch nào.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic German folk tale picture book illustration in nineteenth-century storybook style, rolling green fields and hedgerows, a farmhouse with a red roof, blackbirds in a wide sky, soft watercolor and ink line textures, colors of meadow green, sky blue and warm ochre, light humorous mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "hans",
+      "name": "Chàng Hans",
+      "sheetPrompt": "a cheerful daydreaming young German farmhand from an old folk tale, tousled straw-colored hair, big grin, loose white shirt with rolled sleeves, brown breeches and braces, full body, front and side views, plain light background, character reference sheet",
+      "seed": 319815919
+    },
+    {
+      "id": "ong-chu",
+      "name": "Ông chủ",
+      "sheetPrompt": "a portly good-natured German farmer from an old folk tale, grey whiskers, round spectacles, green waistcoat, walking stick, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3866796254
+    }
+  ],
+  "scenes": [
+    {
+      "id": "di-tim-bo",
+      "title": "Đi tìm con bò",
+      "narrator": "ke-chuyen",
+      "narration": "Người ta bảo: ông chủ nào có được một người đầy tớ khôn ngoan thì thật là có phúc. Người đầy tớ ấy nghe lệnh chủ, nhưng không làm theo, mà làm theo cái khôn của riêng mình. Ngày xưa có một chàng Hans khôn ngoan như thế. Một hôm, ông chủ sai Hans đi tìm con bò bị lạc. Hans đi từ sáng, mãi chẳng thấy về. Ông chủ nghĩ bụng: “Hans thật là chăm chỉ, chẳng quản công sức gì.”",
+      "subtitles": [
+        "Người ta bảo: ông chủ nào có được một người đầy tớ khôn ngoan thì thật là có phúc.",
+        "Người đầy tớ ấy nghe lệnh chủ, nhưng không làm theo, mà làm theo cái khôn của riêng mình.",
+        "Ngày xưa có một chàng Hans khôn ngoan như thế.",
+        "Một hôm, ông chủ sai Hans đi tìm con bò bị lạc.",
+        "Hans đi từ sáng, mãi chẳng thấy về.",
+        "Ông chủ nghĩ bụng: “Hans thật là chăm chỉ, chẳng quản công sức gì.”"
+      ],
+      "image": {
+        "prompt": "a red-roofed farmhouse in the morning, a portly farmer with a walking stick pointing toward distant fields, a cheerful young farmhand setting off with a rope over his shoulder",
+        "seed": 1149468481,
+        "character": "ong-chu"
+      },
+      "video": {
+        "motionPrompt": "the farmer points into the distance, the young farmhand waves and strolls off down the lane, clouds drift",
+        "seed": 3236969982
+      },
+      "voice": {}
+    },
+    {
+      "id": "ong-chu-di-tim",
+      "title": "Ông chủ đi tìm",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng trưa qua, chiều xuống, Hans vẫn biệt tăm. Ông chủ bắt đầu lo, sợ chàng gặp chuyện chẳng lành, bèn chống gậy đi tìm. Ông lội qua bờ ruộng, vượt qua hàng rào, hỏi thăm mấy người hàng xóm, đi mãi đi mãi. Rồi xa xa, giữa một cánh đồng rộng, ông thấy Hans đang chạy lên chạy xuống, hết bên này sang bên kia, chẳng ngơi chân lúc nào.",
+      "subtitles": [
+        "Nhưng trưa qua, chiều xuống, Hans vẫn biệt tăm.",
+        "Ông chủ bắt đầu lo, sợ chàng gặp chuyện chẳng lành, bèn chống gậy đi tìm.",
+        "Ông lội qua bờ ruộng, vượt qua hàng rào, hỏi thăm mấy người hàng xóm, đi mãi đi mãi.",
+        "Rồi xa xa, giữa một cánh đồng rộng, ông thấy Hans đang chạy lên chạy xuống,",
+        "hết bên này sang bên kia, chẳng ngơi chân lúc nào."
+      ],
+      "image": {
+        "prompt": "a wide green field in the late afternoon, a puzzled portly farmer leaning on his walking stick at a hedge, far away a young farmhand running back and forth across the field",
+        "seed": 4263082304,
+        "character": "ong-chu"
+      },
+      "video": {
+        "motionPrompt": "the farmer shades his eyes with his hand, the tiny figure of the farmhand dashes to and fro, the grass ripples",
+        "seed": 2854946966
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-con-chim-sao",
+      "title": "Ba con chim sáo đen",
+      "narrator": "ke-chuyen",
+      "narration": "Ông chủ tới gần, hỏi: “Hans ơi, con đã tìm thấy con bò ta sai con đi tìm chưa?” Hans đáp: “Thưa ông, con chưa tìm thấy con bò, mà con cũng chưa tìm nó.” “Thế con tìm cái gì?” “Một thứ còn hay hơn, và may quá, con tìm được rồi.” “Thứ gì thế, Hans?” “Ba con chim sáo đen ạ.” “Thế chúng đâu?” Hans hớn hở đáp: “Một con con nhìn thấy, một con con nghe thấy, còn một con thì con đang đuổi theo đây ạ!”",
+      "subtitles": [
+        "Ông chủ tới gần, hỏi: “Hans ơi, con đã tìm thấy con bò ta sai con đi tìm chưa?”",
+        "Hans đáp: “Thưa ông, con chưa tìm thấy con bò, mà con cũng chưa tìm nó.”",
+        "“Thế con tìm cái gì?” “Một thứ còn hay hơn, và may quá, con tìm được rồi.”",
+        "“Thứ gì thế, Hans?” “Ba con chim sáo đen ạ.”",
+        "“Thế chúng đâu?” Hans hớn hở đáp: “Một con con nhìn thấy, một con con nghe thấy,",
+        "còn một con thì con đang đuổi theo đây ạ!”"
+      ],
+      "image": {
+        "prompt": "a beaming young farmhand pointing up at three blackbirds in the sky, one perched on a fence post, one singing in a tree, one flying away, the portly farmer staring at him open-mouthed",
+        "seed": 320732251,
+        "character": "hans"
+      },
+      "video": {
+        "motionPrompt": "one blackbird sings in the tree, another flutters off and the farmhand starts to run after it, the farmer throws up his hands",
+        "seed": 3803346083
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-khuyen-noi-nguoc",
+      "title": "Lời khuyên nói ngược",
+      "narrator": "ke-chuyen",
+      "narration": "Thế đấy, các bạn hãy học theo chàng Hans. Đừng bận tâm tới ông chủ hay lời ông dặn làm gì, cứ việc làm điều gì mình thích, điều gì chợt nảy ra trong đầu. Làm thế, các bạn sẽ khôn ngoan y như chàng Hans vậy. Dĩ nhiên, đó là lời nói ngược, để ai nghe xong cũng phì cười mà tự hiểu lấy: được nhờ đi tìm con bò, thì hãy tìm con bò trước đã.",
+      "subtitles": [
+        "Thế đấy, các bạn hãy học theo chàng Hans.",
+        "Đừng bận tâm tới ông chủ hay lời ông dặn làm gì, cứ việc làm điều gì mình thích,",
+        "điều gì chợt nảy ra trong đầu.",
+        "Làm thế, các bạn sẽ khôn ngoan y như chàng Hans vậy.",
+        "Dĩ nhiên, đó là lời nói ngược, để ai nghe xong cũng phì cười mà tự hiểu lấy:",
+        "được nhờ đi tìm con bò, thì hãy tìm con bò trước đã."
+      ],
+      "image": {
+        "prompt": "a sunset over the fields, a young farmhand happily chasing a blackbird over the hill while the portly farmer shakes his head with a wry smile, a lost brown cow peeking from behind a haystack",
+        "seed": 3458035963,
+        "character": "hans"
+      },
+      "video": {
+        "motionPrompt": "the farmhand runs over the hill after the bird, the farmer chuckles and shakes his head, the cow peeks out and chews slowly",
+        "seed": 3386741882
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light humorous German folk tune, bassoon, clarinet and pizzicato strings, a strolling rhythm, a fluttering bird-like flute for the blackbirds, a wry playful ending, instrumental, no vocals",
+    "durationSeconds": 60,
+    "seed": 4248452726
+  }
+}

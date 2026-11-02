@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "slug": "chang-paperarelloo",
+  "shelf": "world",
+  "title": "Chàng Paperarelloo",
+  "summary": "Vị vua trẻ được các nàng tiên cứu sống trong rừng, mang theo lọn tóc thần của người vợ tiên đi xem thế gian, rồi giả làm chú bé chăn ngỗng lấm lem trong cung một ông vua khác. Một đêm nướng đủ bánh cho cả đạo quân, ba lần cưỡi ngựa ra trận cứu nguy, chàng khiến cả triều đình phải sửng sốt. Truyện dân gian Sicily trong tuyển tập của Andrew Lang, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "anh-hung",
+    "su-tich",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện \"Paperarelloo\" trong The Crimson Fairy Book do Andrew Lang biên tập (1903), chép từ truyện dân gian Sicily (Sicilianische Märchen), Project Gutenberg #2435, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính; đoạn yêu tinh hại chàng kể nhẹ thành chàng ngất lịm rồi được các nàng tiên đánh thức, ba món thưởng nhà vua trao cho hiệp sĩ rời ra nhờ phép tiên mà không đau, không chép bản dịch nào.",
+  "basedOn": "Truyện dân gian Sicily, Andrew Lang chép (1903)",
+  "style": "classic Sicilian fairy tale picture book illustration, sunlit Mediterranean palace with terracotta roofs, lemon groves and olive trees, a fairy castle in a misty forest, a flock of white geese, knights in shining armour on bright banners, soft gouache textures, colors of lemon yellow, sea blue and terracotta, warm cheerful mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "paperarelloo",
+      "name": "Paperarelloo",
+      "sheetPrompt": "a handsome young king from an old Sicilian folk tale disguised as a muddy goose-boy, tousled dark curls, cheeky smile, patched brown rags smeared with mud, a golden lock of hair tucked in his belt, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2978977436
+    },
+    {
+      "id": "nang-tien",
+      "name": "Nàng tiên vợ chàng",
+      "sheetPrompt": "a gentle fairy from an old Sicilian folk tale, very long flowing golden hair, pale blue gown with silver stars, soft glow around her, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1978864008
+    },
+    {
+      "id": "nha-vua",
+      "name": "Nhà vua",
+      "sheetPrompt": "a proud stubborn Sicilian king from an old folk tale, short black beard, red and gold robes, golden crown, full body, front and side views, plain light background, character reference sheet",
+      "seed": 1242770783
+    }
+  ],
+  "scenes": [
+    {
+      "id": "vi-vua-nho",
+      "title": "Vị vua nhỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một vị vua và một bà hoàng hậu có một cậu con trai. Vua cha rất thương con, còn hoàng hậu thì lòng dạ độc ác, chẳng ưa gì cậu. Năm cậu mười hai tuổi, vua cha qua đời. Dân chúng biết hoàng hậu không tốt, nên đưa cậu bé lên ngôi. Hoàng hậu tức lắm. Một hôm vua nhỏ đi săn, bà cũng nằng nặc đòi theo. Chiều tối, hai mẹ con lạc vào một vùng lạ, gặp một gã to lớn mời về nhà nghỉ. Về tới nơi mới biết đó là hang của yêu tinh ăn thịt người. Yêu tinh tha cho hoàng hậu, còn vua nhỏ thì bị nó đánh ngất lịm, trói lên lưng một con ngựa rồi xua vào rừng sâu.",
+      "subtitles": [
+        "Ngày xưa, có một vị vua và một bà hoàng hậu có một cậu con trai.",
+        "Vua cha rất thương con, còn hoàng hậu thì lòng dạ độc ác, chẳng ưa gì cậu.",
+        "Năm cậu mười hai tuổi, vua cha qua đời.",
+        "Dân chúng biết hoàng hậu không tốt, nên đưa cậu bé lên ngôi.",
+        "Hoàng hậu tức lắm. Một hôm vua nhỏ đi săn, bà cũng nằng nặc đòi theo.",
+        "Chiều tối, hai mẹ con lạc vào một vùng lạ, gặp một gã to lớn mời về nhà nghỉ.",
+        "Về tới nơi mới biết đó là hang của yêu tinh ăn thịt người.",
+        "Yêu tinh tha cho hoàng hậu, còn vua nhỏ thì bị nó đánh ngất lịm,",
+        "trói lên lưng một con ngựa rồi xua vào rừng sâu."
+      ],
+      "image": {
+        "prompt": "a dark forest at dusk, a frightened boy king in a small crown and a cold-faced queen in a dark gown standing before the hut of a huge shaggy ogre",
+        "seed": 4116673040,
+        "character": "paperarelloo"
+      },
+      "video": {
+        "motionPrompt": "the ogre's shadow looms over the pair, the trees sway, the queen turns away coldly",
+        "seed": 1847708141
+      },
+      "voice": {}
+    },
+    {
+      "id": "lau-dai-tien",
+      "title": "Lâu đài các nàng tiên",
+      "narrator": "ke-chuyen",
+      "narration": "Yêu tinh không biết con ngựa ấy là ngựa thần. Nó phi thẳng một mạch tới lâu đài các nàng tiên, lấy móng gõ cửa. Các nàng nhìn qua cửa sổ, reo lên: “Kìa chị em ơi, trên lưng ngựa có một cậu bé đẹp nhất trần đời!” Các nàng cởi dây trói, dùng phép đánh thức cậu dậy, rồi giữ cậu ở lại làm em. Cậu bé lớn lên thành chàng trai, và nàng tiên cả nên duyên với chàng. Họ sống rất vui, nhưng chàng vẫn ao ước được đi xem thế gian. Ngày chàng lên đường, vợ chàng cắt một lọn tóc dài trao cho chồng: “Khi nào cần, chàng cứ nói với nó.”",
+      "subtitles": [
+        "Yêu tinh không biết con ngựa ấy là ngựa thần.",
+        "Nó phi thẳng một mạch tới lâu đài các nàng tiên, lấy móng gõ cửa.",
+        "Các nàng nhìn qua cửa sổ, reo lên: “Kìa chị em ơi,",
+        "trên lưng ngựa có một cậu bé đẹp nhất trần đời!”",
+        "Các nàng cởi dây trói, dùng phép đánh thức cậu dậy, rồi giữ cậu ở lại làm em.",
+        "Cậu bé lớn lên thành chàng trai, và nàng tiên cả nên duyên với chàng.",
+        "Họ sống rất vui, nhưng chàng vẫn ao ước được đi xem thế gian.",
+        "Ngày chàng lên đường, vợ chàng cắt một lọn tóc dài trao cho chồng: “Khi nào cần,",
+        "chàng cứ nói với nó.”"
+      ],
+      "image": {
+        "prompt": "a glowing fairy castle in a misty forest, several fairies in pale gowns lifting a sleeping boy from the back of a white horse, the eldest fairy with very long golden hair smiling",
+        "seed": 4206837824,
+        "character": "nang-tien"
+      },
+      "video": {
+        "motionPrompt": "the white horse taps its hoof, the fairies gently lift the boy, soft sparkles drift around them",
+        "seed": 2085817905
+      },
+      "voice": {}
+    },
+    {
+      "id": "chu-be-chan-ngong",
+      "title": "Chú bé chăn ngỗng",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng đi qua bao nhiêu xứ. Đêm nào giữa hoang mạc, chàng chỉ cần cầm lọn tóc mà ước, là có ngay lâu đài, người hầu, cơm ngon và chuồng ngựa. Cuối cùng chàng tới đất của một ông vua lớn. Chàng để ngựa ngoài thành, mặc áo rách, vào cung xin việc. Hoàng hậu thương tình nhưng bảo: “Cung đã đủ người, chỉ thiếu một đứa chăn ngỗng.” Chàng vui vẻ nhận, nên người ta gọi chàng là Paperarelloo, tức chú bé chăn ngỗng. Để không ai đoán ra mình là ai, chàng bôi bùn đầy mặt đầy áo. Hoàng hậu thỉnh thoảng bảo: “Đi tắm đi, Paperarelloo!” Chàng cười: “Sạch sẽ con không quen ạ,” rồi huýt sáo đi theo đàn ngỗng.",
+      "subtitles": [
+        "Chàng đi qua bao nhiêu xứ.",
+        "Đêm nào giữa hoang mạc, chàng chỉ cần cầm lọn tóc mà ước, là có ngay lâu đài, người hầu,",
+        "cơm ngon và chuồng ngựa. Cuối cùng chàng tới đất của một ông vua lớn.",
+        "Chàng để ngựa ngoài thành, mặc áo rách, vào cung xin việc.",
+        "Hoàng hậu thương tình nhưng bảo: “Cung đã đủ người, chỉ thiếu một đứa chăn ngỗng.”",
+        "Chàng vui vẻ nhận, nên người ta gọi chàng là Paperarelloo, tức chú bé chăn ngỗng.",
+        "Để không ai đoán ra mình là ai, chàng bôi bùn đầy mặt đầy áo.",
+        "Hoàng hậu thỉnh thoảng bảo: “Đi tắm đi, Paperarelloo!”",
+        "Chàng cười: “Sạch sẽ con không quen ạ,” rồi huýt sáo đi theo đàn ngỗng."
+      ],
+      "image": {
+        "prompt": "a muddy cheerful goose-boy in patched rags leading a flock of white geese past a sunlit Sicilian palace, a kind queen watching from a balcony with a smile",
+        "seed": 3186890812,
+        "character": "paperarelloo"
+      },
+      "video": {
+        "motionPrompt": "the geese waddle and flap their wings, the goose-boy whistles and swings his stick, the queen shakes her head with a smile",
+        "seed": 438789167
+      },
+      "voice": {}
+    },
+    {
+      "id": "bay-me-banh",
+      "title": "Bảy mẻ bánh trong một đêm",
+      "narrator": "ke-chuyen",
+      "narration": "Một năm, cối xay hỏng, cả đạo quân của vua không có bánh ăn. Vua gọi bác đầu bếp, ra lệnh đến sáng phải có đủ bảy lò bánh. Bác kêu trời, vì bột tối mới xay xong. Vua bảo: “Làm được thì ta gả công chúa cho, không làm được thì chịu tội.” Paperarelloo đi ngang qua, lên tiếng: “Bệ hạ đừng lo, để con nướng.” Tối ấy chàng lên giường ngủ ngon lành. Đám người hầu chốc chốc lại lay chàng dậy: “Điên à? Sáng ra vua tới bây giờ!” Chàng chỉ ngáp: “Cho tôi ngủ thêm tí nữa.” Trời hửng sáng, chàng mới cầm lọn tóc bước vào bếp. Bánh đã chất cao như núi, sáu lò đầy ắp, lò thứ bảy còn đang thơm phức. Vua phán: “Giỏi lắm, công chúa là của ngươi.”",
+      "subtitles": [
+        "Một năm, cối xay hỏng, cả đạo quân của vua không có bánh ăn.",
+        "Vua gọi bác đầu bếp, ra lệnh đến sáng phải có đủ bảy lò bánh.",
+        "Bác kêu trời, vì bột tối mới xay xong.",
+        "Vua bảo: “Làm được thì ta gả công chúa cho, không làm được thì chịu tội.”",
+        "Paperarelloo đi ngang qua, lên tiếng: “Bệ hạ đừng lo, để con nướng.”",
+        "Tối ấy chàng lên giường ngủ ngon lành.",
+        "Đám người hầu chốc chốc lại lay chàng dậy: “Điên à?",
+        "Sáng ra vua tới bây giờ!” Chàng chỉ ngáp: “Cho tôi ngủ thêm tí nữa.”",
+        "Trời hửng sáng, chàng mới cầm lọn tóc bước vào bếp.",
+        "Bánh đã chất cao như núi, sáu lò đầy ắp, lò thứ bảy còn đang thơm phức.",
+        "Vua phán: “Giỏi lắm, công chúa là của ngươi.”"
+      ],
+      "image": {
+        "prompt": "a big palace kitchen at dawn piled high with golden loaves of bread, astonished servants staring, the muddy goose-boy holding up a glowing golden lock of hair, the king in the doorway",
+        "seed": 3160448111,
+        "character": "paperarelloo"
+      },
+      "video": {
+        "motionPrompt": "steam rises from the ovens, servants gasp and point, the golden lock of hair glimmers in the goose-boy's hand",
+        "seed": 1093141001
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-chua-khong-ung",
+      "title": "Công chúa không ưng",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa nghe tin thì khóc lóc, nhất định không chịu lấy anh chàng chăn ngỗng bẩn thỉu. Vua mặc kệ, đám cưới vẫn được làm linh đình, chú rể chẳng buồn rửa mặt. Tối đến, chàng lại về ngủ với đàn ngỗng. Công chúa xin cha đuổi chàng đi cho khuất mắt. Vua lắc đầu: “Không được. Nó là một tay phù thuỷ giỏi, phải tìm ra bí mật của nó đã.”",
+      "subtitles": [
+        "Công chúa nghe tin thì khóc lóc, nhất định không chịu lấy anh chàng chăn ngỗng bẩn thỉu.",
+        "Vua mặc kệ, đám cưới vẫn được làm linh đình, chú rể chẳng buồn rửa mặt.",
+        "Tối đến, chàng lại về ngủ với đàn ngỗng.",
+        "Công chúa xin cha đuổi chàng đi cho khuất mắt.",
+        "Vua lắc đầu: “Không được. Nó là một tay phù thuỷ giỏi, phải tìm ra bí mật của nó đã.”"
+      ],
+      "image": {
+        "prompt": "a grand wedding hall with garlands, a weeping proud princess in a white gown turning away from the grinning muddy goose-boy groom, guests whispering behind their hands",
+        "seed": 1778911117,
+        "character": "paperarelloo"
+      },
+      "video": {
+        "motionPrompt": "the princess turns away dabbing her eyes, the goose-boy bows cheerfully, guests whisper",
+        "seed": 4195434749
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-lan-ra-tran",
+      "title": "Ba lần ra trận",
+      "narrator": "ke-chuyen",
+      "narration": "Rồi chiến tranh nổ ra. Paperarelloo xin theo đánh giặc, chọn một con ngựa què trong chuồng. Đi một quãng, chàng bảo quân lính: “Ngựa tôi không đi nổi nữa, các anh cứ đi, tôi ngồi đây nặn lính đất chơi trận giả.” Ai nấy cười ồ. Họ vừa khuất, chàng cầm lọn tóc ước bộ giáp sáng nhất, con ngựa nhanh nhất, rồi phi ra trận. Quân vua đang núng thế, chàng xông vào, giặc chạy tan tác. Vua hỏi muốn thưởng gì, hiệp sĩ đáp: “Ngón tay út của bệ hạ.” Vua đã hứa thì phải giữ lời. Hiệp sĩ chạm lọn tóc tiên, ngón út của vua rời ra nhẹ như chiếc lá, chẳng đau chút nào. Hôm sau, chàng xin cái tai. Hôm sau nữa, chàng xin cái mũi. Chiều nào quân về cũng thấy Paperarelloo ngồi bên đường nặn búp bê đất.",
+      "subtitles": [
+        "Rồi chiến tranh nổ ra.",
+        "Paperarelloo xin theo đánh giặc, chọn một con ngựa què trong chuồng.",
+        "Đi một quãng, chàng bảo quân lính: “Ngựa tôi không đi nổi nữa, các anh cứ đi,",
+        "tôi ngồi đây nặn lính đất chơi trận giả.”",
+        "Ai nấy cười ồ. Họ vừa khuất, chàng cầm lọn tóc ước bộ giáp sáng nhất, con ngựa nhanh nhất,",
+        "rồi phi ra trận. Quân vua đang núng thế, chàng xông vào, giặc chạy tan tác.",
+        "Vua hỏi muốn thưởng gì, hiệp sĩ đáp: “Ngón tay út của bệ hạ.”",
+        "Vua đã hứa thì phải giữ lời.",
+        "Hiệp sĩ chạm lọn tóc tiên, ngón út của vua rời ra nhẹ như chiếc lá, chẳng đau chút nào.",
+        "Hôm sau, chàng xin cái tai. Hôm sau nữa, chàng xin cái mũi.",
+        "Chiều nào quân về cũng thấy Paperarelloo ngồi bên đường nặn búp bê đất."
+      ],
+      "image": {
+        "prompt": "a shining knight in silver armour on a swift white horse charging across a battlefield, enemy soldiers running away, the king's banners raised high, bright sky",
+        "seed": 1128312815,
+        "character": "paperarelloo"
+      },
+      "video": {
+        "motionPrompt": "the white horse gallops, the knight's cloak streams behind, banners flutter, the enemy scatters into the distance",
+        "seed": 2038367664
+      },
+      "voice": {}
+    },
+    {
+      "id": "tro-ve-voi-nang-tien",
+      "title": "Trở về với nàng tiên",
+      "narrator": "ke-chuyen",
+      "narration": "Tối ấy, trong bữa tiệc, Paperarelloo bước vào, đặt ngón tay, cái tai và cái mũi lên bàn, rồi nói trước cả triều đình: “Tôi chính là hiệp sĩ ba lần cứu bệ hạ. Tôi cũng là con vua, chứ đâu phải đứa chăn ngỗng.” Chàng đi tắm rửa, thay áo đẹp, trở lại tuấn tú đến nỗi công chúa đem lòng yêu ngay. Nhưng chàng chỉ cảm ơn vua: “Bệ hạ đã gả con gái cho tôi, tôi xin đa tạ. Nhưng ở nhà tôi đã có người vợ tôi thương hơn cả. Xin chúc ngón tay, cái tai và cái mũi của bệ hạ trở về chỗ cũ.” Vừa dứt lời, ba thứ lại nguyên lành. Chàng chào mọi người, cưỡi ngựa về với nàng tiên, và sống bên nàng hạnh phúc suốt đời.",
+      "subtitles": [
+        "Tối ấy, trong bữa tiệc, Paperarelloo bước vào, đặt ngón tay, cái tai và cái mũi lên bàn,",
+        "rồi nói trước cả triều đình: “Tôi chính là hiệp sĩ ba lần cứu bệ hạ.",
+        "Tôi cũng là con vua, chứ đâu phải đứa chăn ngỗng.”",
+        "Chàng đi tắm rửa, thay áo đẹp, trở lại tuấn tú đến nỗi công chúa đem lòng yêu ngay.",
+        "Nhưng chàng chỉ cảm ơn vua: “Bệ hạ đã gả con gái cho tôi, tôi xin đa tạ.",
+        "Nhưng ở nhà tôi đã có người vợ tôi thương hơn cả.",
+        "Xin chúc ngón tay, cái tai và cái mũi của bệ hạ trở về chỗ cũ.”",
+        "Vừa dứt lời, ba thứ lại nguyên lành.",
+        "Chàng chào mọi người, cưỡi ngựa về với nàng tiên, và sống bên nàng hạnh phúc suốt đời."
+      ],
+      "image": {
+        "prompt": "a handsome young king in fine clothes riding a white horse along a forest path toward a glowing fairy castle, a fairy with very long golden hair waiting at the gate with open arms",
+        "seed": 1994608615,
+        "character": "paperarelloo"
+      },
+      "video": {
+        "motionPrompt": "the horse trots toward the castle, the fairy waves and her golden hair drifts in the breeze, sparkles in the air",
+        "seed": 2020125702
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "bright Sicilian folk melody, mandolin, accordion and tambourine, a playful tarantella rhythm for the goose-boy, a heroic gallop for the battles, a tender dreamy ending, instrumental, no vocals",
+    "durationSeconds": 140,
+    "seed": 21100895
+  }
+}

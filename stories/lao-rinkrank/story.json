@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "slug": "lao-rinkrank",
+  "shelf": "world",
+  "title": "Lão Rinkrank",
+  "summary": "Nàng công chúa trượt chân trên núi thuỷ tinh, rơi xuống hang sâu và phải làm lụng nhiều năm cho lão Rinkrank râu dài. Chỉ bằng một ô cửa sổ nhỏ và một sợi dây, nàng khiến lão phải nộp chiếc thang thần để trở về với người yêu. Truyện cổ Grimm kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "tinh-yeu",
+    "thien-ac"
+  ],
+  "added": "2026-11-02",
+  "language": "vi",
+  "source": "Truyện số một trăm chín mươi sáu \"Old Rinkrank\" (Oll Rinkrank) trong Kinder- und Hausmärchen của anh em Grimm (bản 1857, bản dịch Margaret Hunt 1884), Project Gutenberg #5314, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ trọn cốt truyện và ba câu vè của lão Rinkrank; lời đe doạ và hình phạt cuối truyện kể nhẹ, không chép bản dịch nào.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic German fairy tale picture book illustration in nineteenth-century storybook style, a shimmering glass mountain under a pale sky, a cozy underground cave house with a tiny window, heaps of gold and silver, soft watercolor and ink line textures, colors of crystal blue, earthy brown and warm gold, mysterious but gentle mood, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cong-chua",
+      "name": "Công chúa",
+      "sheetPrompt": "a brave patient German princess from an old folk tale, long chestnut hair tied back, simple grey working dress with apron over a hint of royal blue, small gold circlet, full body, front and side views, plain light background, character reference sheet",
+      "seed": 2856562330
+    },
+    {
+      "id": "rinkrank",
+      "name": "Lão Rinkrank",
+      "sheetPrompt": "a grumpy old gnome-like man from an old German folk tale with an extremely long grey beard reaching the ground, bushy eyebrows, patched brown coat, a folding wooden ladder sticking out of his pocket, full body, front and side views, plain light background, character reference sheet",
+      "seed": 3832577903
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nui-thuy-tinh",
+      "title": "Ngọn núi thuỷ tinh",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có một ông vua có cô con gái duy nhất. Vua cho đắp một ngọn núi bằng thuỷ tinh, rồi phán rằng ai đi qua được sang bên kia mà không trượt ngã thì sẽ được cưới công chúa. Có một chàng trai yêu công chúa tha thiết, xin vua cho thử. Vua bằng lòng. Công chúa bảo sẽ cùng đi với chàng, chàng sắp ngã thì nàng đỡ. Hai người dắt tay nhau leo lên. Nhưng tới lưng chừng núi, chính công chúa lại trượt chân. Núi thuỷ tinh mở ra, nuốt nàng vào trong rồi khép lại ngay. Chàng trai chẳng biết nàng đi đâu, khóc lóc thảm thiết. Vua cũng buồn rầu, sai đục núi ra tìm, nhưng không sao tìm thấy chỗ nàng rơi xuống.",
+      "subtitles": [
+        "Ngày xưa, có một ông vua có cô con gái duy nhất.",
+        "Vua cho đắp một ngọn núi bằng thuỷ tinh,",
+        "rồi phán rằng ai đi qua được sang bên kia mà không trượt ngã thì sẽ được cưới công chúa.",
+        "Có một chàng trai yêu công chúa tha thiết, xin vua cho thử.",
+        "Vua bằng lòng. Công chúa bảo sẽ cùng đi với chàng, chàng sắp ngã thì nàng đỡ.",
+        "Hai người dắt tay nhau leo lên.",
+        "Nhưng tới lưng chừng núi, chính công chúa lại trượt chân.",
+        "Núi thuỷ tinh mở ra, nuốt nàng vào trong rồi khép lại ngay.",
+        "Chàng trai chẳng biết nàng đi đâu, khóc lóc thảm thiết.",
+        "Vua cũng buồn rầu, sai đục núi ra tìm, nhưng không sao tìm thấy chỗ nàng rơi xuống."
+      ],
+      "image": {
+        "prompt": "a huge shimmering glass mountain under a pale sky, a young man and a princess holding hands halfway up the slippery slope, the princess slipping as the glass begins to open beneath her",
+        "seed": 1075790736,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "light glints across the glass slope, the princess's foot slides, the young man reaches out his hand",
+        "seed": 5579214
+      },
+      "voice": {}
+    },
+    {
+      "id": "lao-rau-dai",
+      "title": "Lão già râu dài",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa rơi mãi, rơi mãi, xuống tận một cái hang lớn sâu trong lòng đất. Một lão già râu xám dài lê thê ra đón, bảo: “Muốn yên ổn ở đây thì phải làm đầy tớ cho ta, sai gì làm nấy. Không thì đừng hòng.” Nàng đành vâng lời. Sáng nào lão cũng rút trong túi ra một cái thang, dựng vào vách núi, trèo lên tới đỉnh, rồi kéo thang theo. Công chúa ở nhà nấu cơm, dọn giường, làm hết mọi việc. Chiều về, lần nào lão cũng mang theo một đống vàng bạc. Cứ thế nhiều năm trôi qua. Lão gọi nàng là mẹ Mansrot, còn nàng phải gọi lão là lão Rinkrank.",
+      "subtitles": [
+        "Công chúa rơi mãi, rơi mãi, xuống tận một cái hang lớn sâu trong lòng đất.",
+        "Một lão già râu xám dài lê thê ra đón, bảo: “Muốn yên ổn ở đây thì phải làm đầy tớ cho ta,",
+        "sai gì làm nấy. Không thì đừng hòng.”",
+        "Nàng đành vâng lời.",
+        "Sáng nào lão cũng rút trong túi ra một cái thang, dựng vào vách núi, trèo lên tới đỉnh,",
+        "rồi kéo thang theo. Công chúa ở nhà nấu cơm, dọn giường, làm hết mọi việc.",
+        "Chiều về, lần nào lão cũng mang theo một đống vàng bạc.",
+        "Cứ thế nhiều năm trôi qua.",
+        "Lão gọi nàng là mẹ Mansrot, còn nàng phải gọi lão là lão Rinkrank."
+      ],
+      "image": {
+        "prompt": "a cozy underground cave house lit by a lantern, a grumpy old man with an extremely long grey beard pulling a folding wooden ladder from his pocket, a princess in an apron sweeping the floor, heaps of gold coins in the corner",
+        "seed": 2145744406,
+        "character": "rinkrank"
+      },
+      "video": {
+        "motionPrompt": "the old man unfolds the ladder and sets it against the rock wall, the princess sweeps quietly, lantern light flickers on the gold",
+        "seed": 978177148
+      },
+      "voice": {}
+    },
+    {
+      "id": "khong-mo-cua",
+      "title": "Không mở cửa",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, lão Rinkrank đi vắng. Công chúa dọn giường, rửa bát xong, liền đóng chặt hết cửa lớn cửa sổ, chỉ để hé một ô cửa sổ nhỏ cho ánh sáng lọt vào. Chiều về, lão gõ cửa: “Mẹ Mansrot ơi, mở cửa cho ta.” “Không, lão Rinkrank, tôi không mở cửa cho lão đâu.” Lão bèn đọc: “Rinkrank đứng đây tội nghiệp, trên mười bảy cái cẳng dài, trên một bàn chân mỏi mệt, rửa bát cho ta, mẹ Mansrot.” “Bát tôi rửa rồi.” Lão lại đọc: “Rinkrank đứng đây tội nghiệp, trên mười bảy cái cẳng dài, trên một bàn chân mỏi mệt, dọn giường cho ta, mẹ Mansrot.” “Giường tôi dọn rồi.” Lão đọc lần nữa: “Rinkrank đứng đây tội nghiệp, trên mười bảy cái cẳng dài, trên một bàn chân mỏi mệt, mở cửa cho ta, mẹ Mansrot.”",
+      "subtitles": [
+        "Một hôm, lão Rinkrank đi vắng.",
+        "Công chúa dọn giường, rửa bát xong, liền đóng chặt hết cửa lớn cửa sổ,",
+        "chỉ để hé một ô cửa sổ nhỏ cho ánh sáng lọt vào.",
+        "Chiều về, lão gõ cửa: “Mẹ Mansrot ơi, mở cửa cho ta.”",
+        "“Không, lão Rinkrank, tôi không mở cửa cho lão đâu.”",
+        "Lão bèn đọc: “Rinkrank đứng đây tội nghiệp, trên mười bảy cái cẳng dài,",
+        "trên một bàn chân mỏi mệt, rửa bát cho ta, mẹ Mansrot.”",
+        "“Bát tôi rửa rồi.” Lão lại đọc: “Rinkrank đứng đây tội nghiệp, trên mười bảy cái cẳng dài,",
+        "trên một bàn chân mỏi mệt, dọn giường cho ta, mẹ Mansrot.”",
+        "“Giường tôi dọn rồi.”",
+        "Lão đọc lần nữa: “Rinkrank đứng đây tội nghiệp, trên mười bảy cái cẳng dài,",
+        "trên một bàn chân mỏi mệt, mở cửa cho ta, mẹ Mansrot.”"
+      ],
+      "image": {
+        "prompt": "the outside of a little cave house with all its doors and shutters closed except one tiny open window, the old man with the extremely long beard knocking at the door and pleading, the princess listening inside",
+        "seed": 3719977336,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the old man knocks and stamps his foot, his long beard sways, the princess folds her arms behind the door",
+        "seed": 3494801407
+      },
+      "voice": {}
+    },
+    {
+      "id": "bo-rau-mac-cua-so",
+      "title": "Bộ râu mắc cửa sổ",
+      "narrator": "ke-chuyen",
+      "narration": "Nàng vẫn không mở. Lão chạy vòng quanh nhà, thấy ô cửa sổ nhỏ còn mở, nghĩ bụng: “Để ta nhìn xem mụ đang làm gì mà không chịu mở cửa.” Lão thò đầu vào, nhưng bộ râu dài quá vướng, không lọt. Lão bèn luồn bộ râu vào trước. Vừa lúc ấy, công chúa đi ngang, kéo sợi dây buộc sẵn vào cánh cửa sổ. Cánh cửa sập xuống, kẹp chặt bộ râu. Lão đau quá, kêu rên thảm thiết, van nài nàng thả ra. Nàng bảo: “Chưa được, trừ khi lão đưa tôi cái thang lão vẫn dùng để trèo lên núi.” Muốn hay không, lão cũng đành chỉ chỗ cất thang.",
+      "subtitles": [
+        "Nàng vẫn không mở. Lão chạy vòng quanh nhà, thấy ô cửa sổ nhỏ còn mở, nghĩ bụng:",
+        "“Để ta nhìn xem mụ đang làm gì mà không chịu mở cửa.”",
+        "Lão thò đầu vào, nhưng bộ râu dài quá vướng, không lọt.",
+        "Lão bèn luồn bộ râu vào trước.",
+        "Vừa lúc ấy, công chúa đi ngang, kéo sợi dây buộc sẵn vào cánh cửa sổ.",
+        "Cánh cửa sập xuống, kẹp chặt bộ râu.",
+        "Lão đau quá, kêu rên thảm thiết, van nài nàng thả ra.",
+        "Nàng bảo: “Chưa được, trừ khi lão đưa tôi cái thang lão vẫn dùng để trèo lên núi.”",
+        "Muốn hay không, lão cũng đành chỉ chỗ cất thang."
+      ],
+      "image": {
+        "prompt": "an old man with an extremely long grey beard caught in a tiny window that has snapped shut, his face scrunched in a comic wail, the princess inside holding a cord tied to the window",
+        "seed": 3217183044,
+        "character": "rinkrank"
+      },
+      "video": {
+        "motionPrompt": "the old man tugs at his trapped beard and wails, the princess holds the cord firmly, dust puffs from the window frame",
+        "seed": 3520736370
+      },
+      "voice": {}
+    },
+    {
+      "id": "tro-ve-cung",
+      "title": "Trở về cung",
+      "narrator": "ke-chuyen",
+      "narration": "Công chúa buộc một dải ruy băng thật dài vào cửa sổ, dựng thang lên và trèo lên đỉnh núi. Lên tới nơi, nàng giật ruy băng, mở cửa sổ thả bộ râu lão ra. Rồi nàng về gặp vua cha, kể hết mọi chuyện. Vua mừng khôn xiết. Chàng trai năm xưa vẫn còn ở đó, chờ nàng suốt bao năm. Mọi người kéo nhau đi đào núi, tìm thấy lão Rinkrank cùng cả kho vàng bạc. Vua bắt lão chịu phạt nặng, đuổi đi mãi mãi, và thu hết vàng bạc của lão. Công chúa cưới người yêu, và hai người sống hạnh phúc trong cảnh giàu sang vui vẻ.",
+      "subtitles": [
+        "Công chúa buộc một dải ruy băng thật dài vào cửa sổ, dựng thang lên và trèo lên đỉnh núi.",
+        "Lên tới nơi, nàng giật ruy băng, mở cửa sổ thả bộ râu lão ra.",
+        "Rồi nàng về gặp vua cha, kể hết mọi chuyện.",
+        "Vua mừng khôn xiết. Chàng trai năm xưa vẫn còn ở đó, chờ nàng suốt bao năm.",
+        "Mọi người kéo nhau đi đào núi, tìm thấy lão Rinkrank cùng cả kho vàng bạc.",
+        "Vua bắt lão chịu phạt nặng, đuổi đi mãi mãi, và thu hết vàng bạc của lão.",
+        "Công chúa cưới người yêu, và hai người sống hạnh phúc trong cảnh giàu sang vui vẻ."
+      ],
+      "image": {
+        "prompt": "a joyful reunion in a royal palace hall, the princess embracing her faithful betrothed, the old king beaming, chests of gold and silver being carried in by servants",
+        "seed": 3923509421,
+        "character": "cong-chua"
+      },
+      "video": {
+        "motionPrompt": "the princess and the young man embrace, the king raises his arms in joy, servants carry in glittering chests",
+        "seed": 1601463516
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "mysterious yet gentle German folk melody, music box, celesta and soft strings, a glassy shimmering theme for the glass mountain, a grumpy bassoon for old Rinkrank's chant, a warm joyful ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3700000496
+  }
+}
