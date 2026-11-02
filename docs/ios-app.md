@@ -35,7 +35,7 @@ xcrun simctl install booted /tmp/truyen-dd/Build/Products/Debug-iphonesimulator/
 xcrun simctl launch booted com.hoandat.truyen
 ```
 
-Biểu tượng và màn khởi động (tạm, vẽ từ `brand/icon.svg`): `pnpm --filter @truyen/mobile icons`, rồi commit PNG.
+Biểu tượng và màn khởi động (vẽ từ `brand/icon.svg`, tức logo AI do `pnpm brand:gen` dựng): `pnpm --filter @truyen/mobile icons`, rồi commit PNG.
 `apps/mobile/mobile-project.test.ts` (trong `pnpm test`) giữ bundle id, phiên bản, phát nền, phiên âm thanh, không có
 ngoại lệ ATS, biểu tượng 1024 px không kênh alpha.
 

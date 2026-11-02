@@ -7,7 +7,7 @@
  * - Splash.imageset/splash-2732x2732*.png: the icon in the middle of the brand background, the size the Capacitor
  *   template gives the launch screen picture.
  *
- * The icon is the interim vector mark until the AI-drawn one is made; run again after changing it, then commit the PNGs:
+ * Run again after changing the brand icon (pnpm brand:gen), then commit the PNGs:
  *
  *   pnpm --filter @truyen/mobile icons
  */
