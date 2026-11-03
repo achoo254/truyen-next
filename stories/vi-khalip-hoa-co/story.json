@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "slug": "vi-khalip-hoa-co",
+  "shelf": "world",
+  "title": "Vị khalip hóa cò",
+  "summary": "Khalip Chasid thành Baghdad cùng quan đại thần Mansor hít thứ bột thần mua của một lão bán hàng rong, hóa thành hai con cò. Chỉ vì một trận cười mà họ quên mất câu thần chú để trở lại làm người, và phải nhờ một cô cú buồn trong lâu đài đổ nát giúp sức. Truyện cổ tích của Wilhelm Hauff, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "thien-ac",
+    "tinh-yeu"
+  ],
+  "added": "2026-11-04",
+  "language": "vi",
+  "source": "Truyện \"Die Geschichte von Kalif Storch\" của Wilhelm Hauff (mất 1827), in trong The Green Fairy Book do Andrew Lang chủ biên (1892, tác giả mất 1912), Project Gutenberg #7277, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; kể nhẹ đoạn trừng phạt lão phù thủy cho hợp cả nhà, giữ nguyên cốt truyện.",
+  "basedOn": "Truyện cổ tích của Wilhelm Hauff (1826)",
+  "style": "classic Victorian picture-book illustration of an Arabian tale, soft watercolor and fine ink lines, Baghdad palaces with domes and minarets, palm trees, desert marshes with tall reeds, a crumbling moonlit castle, warm gold and turquoise colors, gentle wondrous mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chasid",
+      "name": "Khalip Chasid",
+      "sheetPrompt": "a kind cheerful middle-aged caliph of Baghdad with a neat black beard, a white turban with a jewel, a richly embroidered blue and gold robe, a gentle humorous face, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1940879216
+    },
+    {
+      "id": "mansor",
+      "name": "Quan đại thần Mansor",
+      "sheetPrompt": "a wise thoughtful grand vizier with a long grey beard, a tall green turban, a dark green robe and a sash, a loyal careful expression, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 238703519
+    },
+    {
+      "id": "co-chasid",
+      "name": "Cò Chasid",
+      "sheetPrompt": "a graceful white stork with black wing tips, long red legs and a red beak, wearing a tiny jewelled turban to show it is an enchanted caliph, full body, side view, plain soft cream background, character reference sheet",
+      "seed": 334770537
+    },
+    {
+      "id": "cu-lusa",
+      "name": "Cô cú Lusa",
+      "sheetPrompt": "a small sad brown owl with big golden eyes and soft speckled feathers, a tiny delicate golden circlet on her head to show she is an enchanted princess, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 393788179
+    },
+    {
+      "id": "kaschnur",
+      "name": "Lão phù thủy Kaschnur",
+      "sheetPrompt": "a sly old peddler-sorcerer with a hooked nose, a scraggly grey beard, a shabby brown cloak hiding a dark star-patterned robe, carrying a box of wares, a crafty smile, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3202223698
+    }
+  ],
+  "scenes": [
+    {
+      "id": "lao-ban-hang-rong",
+      "title": "Lão bán hàng rong",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở thành Baghdad có vị khalip tên là Chasid, tính tình vui vẻ, hiền hậu. Một buổi chiều đẹp trời, ông đang ngồi nghỉ cùng quan đại thần Mansor thì có một lão bán hàng rong xin vào cung. Lão mở hòm, bày ra nào ngọc trai, nào nhẫn, nào súng ngắn chạm bạc. Khalip mua mấy món làm quà, rồi bỗng thấy dưới đáy hòm có một chiếc hộp nhỏ đựng thứ bột màu đen, kèm một mảnh giấy ghi những chữ lạ. Lão bán rẻ cho khalip rồi vội vã đi ngay.",
+      "subtitles": [
+        "Ngày xưa, ở thành Baghdad có vị khalip tên là Chasid, tính tình vui vẻ, hiền hậu.",
+        "Một buổi chiều đẹp trời,",
+        "ông đang ngồi nghỉ cùng quan đại thần Mansor thì có một lão bán hàng rong xin vào cung.",
+        "Lão mở hòm, bày ra nào ngọc trai, nào nhẫn, nào súng ngắn chạm bạc.",
+        "Khalip mua mấy món làm quà,",
+        "rồi bỗng thấy dưới đáy hòm có một chiếc hộp nhỏ đựng thứ bột màu đen,",
+        "kèm một mảnh giấy ghi những chữ lạ.",
+        "Lão bán rẻ cho khalip rồi vội vã đi ngay."
+      ],
+      "image": {
+        "prompt": "a sunny marble palace terrace in Baghdad, a cheerful caliph and his grey-bearded vizier on cushions, a sly old peddler kneeling with an open box of pearls, rings and trinkets, holding up a small dark snuff box with a folded paper",
+        "seed": 3688681298,
+        "character": "chasid"
+      },
+      "video": {
+        "motionPrompt": "palm leaves sway, the peddler lifts the little box with a crafty smile, the caliph leans forward curiously",
+        "seed": 1791233396
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-than-chu-mutabor",
+      "title": "Câu thần chú Mutabor",
+      "narrator": "ke-chuyen",
+      "narration": "Khalip cho mời một nhà thông thái đến đọc mảnh giấy. Ông đọc chậm rãi: \"Ai hít bột này và nói Mutabor, sẽ hóa thành bất cứ con vật nào mình muốn, và hiểu được tiếng của muông thú. Muốn trở lại làm người, hãy cúi đầu ba lần về hướng đông và nói lại câu ấy. Nhưng nhớ kỹ, khi đang là thú, tuyệt đối không được cười. Lỡ cười thì sẽ quên mất câu thần chú, và mãi mãi không trở lại làm người được nữa.\" Khalip vui lắm, rủ quan đại thần sáng mai cùng thử.",
+      "subtitles": [
+        "Khalip cho mời một nhà thông thái đến đọc mảnh giấy.",
+        "Ông đọc chậm rãi: \"Ai hít bột này và nói Mutabor,",
+        "sẽ hóa thành bất cứ con vật nào mình muốn, và hiểu được tiếng của muông thú.",
+        "Muốn trở lại làm người, hãy cúi đầu ba lần về hướng đông và nói lại câu ấy.",
+        "Nhưng nhớ kỹ, khi đang là thú, tuyệt đối không được cười.",
+        "Lỡ cười thì sẽ quên mất câu thần chú, và mãi mãi không trở lại làm người được nữa.\"",
+        "Khalip vui lắm, rủ quan đại thần sáng mai cùng thử."
+      ],
+      "image": {
+        "prompt": "a wise old scholar in a white robe reading a small paper scroll aloud by lamplight in a palace library, the caliph and the vizier listening with eager surprised faces, the little dark snuff box on a low table",
+        "seed": 1953610871,
+        "character": "mansor"
+      },
+      "video": {
+        "motionPrompt": "the lamp flame flickers, the scholar traces the strange letters with his finger, the caliph rubs his hands with delight",
+        "seed": 2059331859
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-con-co",
+      "title": "Hai con cò",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, hai người ra một cái đầm ngoài thành, thấy có một con cò đang đi lại chậm rãi. Khalip bảo: \"Ta hóa thành cò đi, để nghe xem cò nói gì.\" Hai người mỗi người hít một chút bột, cùng kêu lên: \"Mutabor!\" Lập tức chân họ dài ngoẵng ra, đỏ au, tay biến thành đôi cánh, mũi mọc thành chiếc mỏ dài. Khalip ngắm mình dưới nước, khen: \"Đẹp lắm, Mansor ạ! Ta thề có râu ông nhà tiên tri, chưa bao giờ ta thấy cái gì đẹp thế.\"",
+      "subtitles": [
+        "Sáng hôm sau, hai người ra một cái đầm ngoài thành,",
+        "thấy có một con cò đang đi lại chậm rãi.",
+        "Khalip bảo: \"Ta hóa thành cò đi, để nghe xem cò nói gì.\"",
+        "Hai người mỗi người hít một chút bột, cùng kêu lên: \"Mutabor!\"",
+        "Lập tức chân họ dài ngoẵng ra, đỏ au, tay biến thành đôi cánh, mũi mọc thành chiếc mỏ dài.",
+        "Khalip ngắm mình dưới nước, khen: \"Đẹp lắm, Mansor ạ!",
+        "Ta thề có râu ông nhà tiên tri, chưa bao giờ ta thấy cái gì đẹp thế.\""
+      ],
+      "image": {
+        "prompt": "a reedy marsh outside Baghdad in the morning, two elegant white storks with tiny turbans admiring their reflections in the water, the minarets of the city in the distance",
+        "seed": 49362520,
+        "character": "co-chasid"
+      },
+      "video": {
+        "motionPrompt": "the reeds sway in the breeze, the two storks lift their long red legs and turn their heads proudly, ripples spread in the water",
+        "seed": 235309967
+      },
+      "voice": {}
+    },
+    {
+      "id": "tran-cuoi-tai-hai",
+      "title": "Trận cười tai hại",
+      "narrator": "ke-chuyen",
+      "narration": "Hai con cò mới nghe được hai cô cò đang trò chuyện. Một cô bảo hôm nay cô phải múa trước mặt cha mình, bèn tập thử ngay. Cô co một chân lên, giang cánh ra, nghiêng ngả trông vụng về đến buồn cười. Khalip và quan đại thần không nhịn được, phá lên cười khanh khách. Cười xong, khalip sực nhớ ra, vội cúi đầu về hướng đông: \"Mu, mu, mu gì nhỉ?\" Hai người nghĩ nát óc mà chẳng ai nhớ nổi câu thần chú. Họ đã thành cò thật mất rồi.",
+      "subtitles": [
+        "Hai con cò mới nghe được hai cô cò đang trò chuyện.",
+        "Một cô bảo hôm nay cô phải múa trước mặt cha mình, bèn tập thử ngay.",
+        "Cô co một chân lên, giang cánh ra, nghiêng ngả trông vụng về đến buồn cười.",
+        "Khalip và quan đại thần không nhịn được, phá lên cười khanh khách.",
+        "Cười xong, khalip sực nhớ ra, vội cúi đầu về hướng đông: \"Mu, mu, mu gì nhỉ?\"",
+        "Hai người nghĩ nát óc mà chẳng ai nhớ nổi câu thần chú.",
+        "Họ đã thành cò thật mất rồi."
+      ],
+      "image": {
+        "prompt": "a young stork doing a clumsy one-legged dance in the marsh with wings spread, two turbaned storks behind the reeds bent over with laughter, then the two storks bowing toward the east looking puzzled and worried",
+        "seed": 2618520879,
+        "character": "co-chasid"
+      },
+      "video": {
+        "motionPrompt": "the young stork wobbles on one leg, the two turbaned storks shake with laughter, then freeze and look at each other in dismay",
+        "seed": 1969245038
+      },
+      "voice": {}
+    },
+    {
+      "id": "ke-ngoi-tren-ngai",
+      "title": "Kẻ ngồi trên ngai",
+      "narrator": "ke-chuyen",
+      "narration": "Buồn bã, hai con cò bay về thành Baghdad. Đường phố đông nghịt người, ai cũng bàn tán khalip đã biến mất. Rồi họ thấy một đoàn rước đi vào cung, trên lưng ngựa là một chàng trai lạ mặt, mặc áo bào khalip. Quan đại thần Mansor thở dài: \"Bệ hạ ơi, đó là Mizra, con trai lão phù thủy Kaschnur, kẻ thù của bệ hạ. Lão bán hàng rong hôm nọ chính là lão phù thủy. Lão lừa chúng ta để con lão lên ngôi.\" Hai con cò đành bay đi, tìm đến mộ nhà tiên tri, mong may ra cởi được phép yểm.",
+      "subtitles": [
+        "Buồn bã, hai con cò bay về thành Baghdad.",
+        "Đường phố đông nghịt người, ai cũng bàn tán khalip đã biến mất.",
+        "Rồi họ thấy một đoàn rước đi vào cung, trên lưng ngựa là một chàng trai lạ mặt,",
+        "mặc áo bào khalip.",
+        "Quan đại thần Mansor thở dài: \"Bệ hạ ơi, đó là Mizra,",
+        "con trai lão phù thủy Kaschnur, kẻ thù của bệ hạ.",
+        "Lão bán hàng rong hôm nọ chính là lão phù thủy.",
+        "Lão lừa chúng ta để con lão lên ngôi.\"",
+        "Hai con cò đành bay đi, tìm đến mộ nhà tiên tri, mong may ra cởi được phép yểm."
+      ],
+      "image": {
+        "prompt": "two sad storks perched on a high rooftop over a crowded Baghdad street, below a grand procession leads a smug young man in caliph robes on a white horse toward the palace, a sly old sorcerer grinning in the crowd",
+        "seed": 2503229514,
+        "character": "kaschnur"
+      },
+      "video": {
+        "motionPrompt": "banners flutter in the procession, the crowd murmurs and moves, the two storks droop their heads and spread their wings to fly away",
+        "seed": 866276082
+      },
+      "voice": {}
+    },
+    {
+      "id": "co-cu-trong-lau-dai",
+      "title": "Cô cú trong lâu đài",
+      "narrator": "ke-chuyen",
+      "narration": "Đêm xuống, hai con cò ghé nghỉ trong một lâu đài đổ nát. Bỗng có tiếng khóc thút thít vọng ra từ một gian phòng. Đó là một cô cú nhỏ, mắt to tròn ướt đẫm. Thấy hai con cò nói được tiếng người, cô mừng rỡ kể: \"Tôi là Lusa, công chúa nước Ấn Độ. Lão phù thủy Kaschnur muốn tôi lấy con trai lão là Mizra. Cha tôi không chịu, lão bèn hóa tôi thành cú, nhốt ở đây. Tôi chỉ trở lại làm người khi có ai bằng lòng cưới tôi, dù tôi đang mang lốt cú.\"",
+      "subtitles": [
+        "Đêm xuống, hai con cò ghé nghỉ trong một lâu đài đổ nát.",
+        "Bỗng có tiếng khóc thút thít vọng ra từ một gian phòng.",
+        "Đó là một cô cú nhỏ, mắt to tròn ướt đẫm.",
+        "Thấy hai con cò nói được tiếng người, cô mừng rỡ kể: \"Tôi là Lusa, công chúa nước Ấn Độ.",
+        "Lão phù thủy Kaschnur muốn tôi lấy con trai lão là Mizra.",
+        "Cha tôi không chịu, lão bèn hóa tôi thành cú, nhốt ở đây.",
+        "Tôi chỉ trở lại làm người khi có ai bằng lòng cưới tôi, dù tôi đang mang lốt cú.\""
+      ],
+      "image": {
+        "prompt": "a crumbling moonlit castle hall with broken columns and ivy, a small sad owl with a tiny golden circlet weeping on a ledge, two turbaned storks listening kindly",
+        "seed": 919320684,
+        "character": "cu-lusa"
+      },
+      "video": {
+        "motionPrompt": "moonlight shifts through the broken roof, the little owl wipes a tear with her wing, the storks lean closer",
+        "seed": 3019499665
+      },
+      "voice": {}
+    },
+    {
+      "id": "buoi-hop-cua-phu-thuy",
+      "title": "Buổi họp của phù thủy",
+      "narrator": "ke-chuyen",
+      "narration": "Cô cú kể tiếp: \"Tháng nào lão phù thủy cũng đến đây họp với bạn bè. Lão hay khoe khoang, biết đâu lại nói ra câu thần chú.\" Đêm ấy, ba con chim nấp sau bức tường, nhìn vào gian đại sảnh. Quanh chiếc bàn đầy thức ăn, lão Kaschnur đang cười hô hố, kể cho bạn bè nghe chuyện lừa được khalip. Một lão hỏi: \"Thế anh dạy họ câu gì?\" Kaschnur đáp: \"Một chữ La tinh khó lắm: Mutabor!\" Hai con cò nghe rõ mồn một, tim đập thình thịch vì mừng.",
+      "subtitles": [
+        "Cô cú kể tiếp: \"Tháng nào lão phù thủy cũng đến đây họp với bạn bè.",
+        "Lão hay khoe khoang, biết đâu lại nói ra câu thần chú.\"",
+        "Đêm ấy, ba con chim nấp sau bức tường, nhìn vào gian đại sảnh.",
+        "Quanh chiếc bàn đầy thức ăn, lão Kaschnur đang cười hô hố,",
+        "kể cho bạn bè nghe chuyện lừa được khalip.",
+        "Một lão hỏi: \"Thế anh dạy họ câu gì?\"",
+        "Kaschnur đáp: \"Một chữ La tinh khó lắm: Mutabor!\"",
+        "Hai con cò nghe rõ mồn một, tim đập thình thịch vì mừng."
+      ],
+      "image": {
+        "prompt": "a gloomy great hall in the ruined castle lit by lanterns, a group of grumpy old sorcerers in dark robes feasting around a long table, the sly sorcerer laughing and boasting, three birds peeking through a crack in the wall",
+        "seed": 1667818601,
+        "character": "kaschnur"
+      },
+      "video": {
+        "motionPrompt": "lantern light flickers on the table, the sorcerer throws back his head laughing, the three birds peek and gasp with joy",
+        "seed": 1458419941
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-hua-cua-khalip",
+      "title": "Lời hứa của khalip",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng trước đó, cô cú đã xin một điều: ai trong hai người phải hứa cưới cô. Quan đại thần Mansor vội từ chối, ông đã có vợ ở nhà rồi. Khalip nghĩ một lúc, thấy cô cú hiền lành, lại vừa giúp mình hết lòng, bèn nói: \"Ta xin hứa.\" Ra khỏi lâu đài, ba con chim cùng quay về hướng mặt trời mọc, cúi đầu ba lần và nói: \"Mutabor!\" Trong chớp mắt, khalip và quan đại thần trở lại làm người. Còn cô cú thì hóa thành một nàng công chúa xinh đẹp, mỉm cười cảm ơn khalip.",
+      "subtitles": [
+        "Nhưng trước đó, cô cú đã xin một điều: ai trong hai người phải hứa cưới cô.",
+        "Quan đại thần Mansor vội từ chối, ông đã có vợ ở nhà rồi.",
+        "Khalip nghĩ một lúc, thấy cô cú hiền lành, lại vừa giúp mình hết lòng,",
+        "bèn nói: \"Ta xin hứa.\"",
+        "Ra khỏi lâu đài, ba con chim cùng quay về hướng mặt trời mọc,",
+        "cúi đầu ba lần và nói: \"Mutabor!\"",
+        "Trong chớp mắt, khalip và quan đại thần trở lại làm người.",
+        "Còn cô cú thì hóa thành một nàng công chúa xinh đẹp, mỉm cười cảm ơn khalip."
+      ],
+      "image": {
+        "prompt": "at dawn outside the ruined castle, the caliph and the vizier back in human form in their robes, and a beautiful young Indian princess in a rose and gold sari smiling gratefully, a few soft feathers floating away in golden light",
+        "seed": 1690321797,
+        "character": "co-chasid"
+      },
+      "video": {
+        "motionPrompt": "golden sunrise light spreads, soft white and brown feathers swirl and drift away, the princess smiles and the caliph bows",
+        "seed": 1153774252
+      },
+      "voice": {}
+    },
+    {
+      "id": "tro-ve-baghdad",
+      "title": "Trở về Baghdad",
+      "narrator": "ke-chuyen",
+      "narration": "Khalip đưa công chúa về Baghdad. Dân thành mừng rỡ đón vị khalip hiền của mình. Lão phù thủy Kaschnur bị bắt và phải đền tội. Còn Mizra, khalip bắt hắn hít chính thứ bột thần kia rồi hóa thành cò, nhốt trong một chiếc lồng lớn ngoài vườn, chẳng ai đọc thần chú cho hắn nữa. Khalip cưới công chúa Lusa, sống với nhau rất hạnh phúc. Thỉnh thoảng, để các con cười, ông lại bắt chước dáng cò đi lò dò, và lần nào cũng nhắc: \"Lúc đã hóa phép thì đừng có cười đấy nhé!\"",
+      "subtitles": [
+        "Khalip đưa công chúa về Baghdad.",
+        "Dân thành mừng rỡ đón vị khalip hiền của mình.",
+        "Lão phù thủy Kaschnur bị bắt và phải đền tội.",
+        "Còn Mizra, khalip bắt hắn hít chính thứ bột thần kia rồi hóa thành cò,",
+        "nhốt trong một chiếc lồng lớn ngoài vườn, chẳng ai đọc thần chú cho hắn nữa.",
+        "Khalip cưới công chúa Lusa, sống với nhau rất hạnh phúc.",
+        "Thỉnh thoảng, để các con cười, ông lại bắt chước dáng cò đi lò dò,",
+        "và lần nào cũng nhắc: \"Lúc đã hóa phép thì đừng có cười đấy nhé!\""
+      ],
+      "image": {
+        "prompt": "a joyful Baghdad welcoming the caliph and the princess with flowers and lanterns, later a palace garden where the caliph playfully walks like a stork on tiptoe to make his laughing children giggle, a grumpy stork in a large garden cage",
+        "seed": 1575651321,
+        "character": "chasid"
+      },
+      "video": {
+        "motionPrompt": "flower petals fall over the cheering crowd, the caliph lifts one leg like a stork, the children clap and laugh, the caged stork ruffles its feathers",
+        "seed": 1501242009
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Arabian fairy tale music, an oud and a soft ney flute over light frame drum and strings, playful and wondrous, a mysterious night passage, then a joyful celebratory ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3666526423
+  }
+}
