@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "slug": "ong-lao-hoa-tre",
+  "shelf": "world",
+  "title": "Ông lão hóa trẻ",
+  "summary": "Chúa Trời và Thánh Phêrô ghé nhà một bác thợ rèn, cho cụ ăn mày còng lưng hóa thành chàng trai hai mươi tuổi trong lò lửa. Bác thợ rèn nhìn qua một lần đã tưởng mình làm được phép lạ ấy, liền đem bà mẹ vợ ra thử. Truyện cổ Grimm vui mà thấm, về cái họa của kẻ bắt chước điều mình không hiểu.",
+  "themes": [
+    "thien-ac",
+    "ngu-ngon"
+  ],
+  "added": "2026-11-04",
+  "language": "vi",
+  "source": "Truyện cổ Grimm \"Das junggeglühte Männlein\" (Kinder- und Hausmärchen, bản 1857, truyện số 147), thuộc phạm vi công cộng; cốt truyện đối chiếu bản tiếng Anh \"The Old Man Made Young Again\" của Margaret Hunt (1884), Project Gutenberg #5314. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; kể nhẹ đoạn bà cụ trong lò để hợp cả nhà, giữ nguyên cốt truyện.",
+  "basedOn": "Truyện cổ Grimm (1857)",
+  "style": "classic nineteenth-century German picture-book illustration, soft watercolor and fine ink lines, an old village smithy with a stone forge, an anvil and a big wooden water tub, warm orange firelight against cool evening blue, simple peasant clothes, gentle humorous mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "chua-troi",
+      "name": "Chúa Trời",
+      "sheetPrompt": "a kind calm traveller with a long white beard and a soft glowing light around his head, a plain white robe, a wooden staff, gentle face, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1678251995
+    },
+    {
+      "id": "thanh-phero",
+      "name": "Thánh Phêrô",
+      "sheetPrompt": "a sturdy old fisherman-like disciple with a short grey curly beard and a bald crown, a brown robe and a rope belt, warm caring eyes, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2788177757
+    },
+    {
+      "id": "bac-tho-ren",
+      "name": "Bác thợ rèn",
+      "sheetPrompt": "a broad-shouldered village blacksmith with rolled sleeves, a leather apron, a thick black moustache and a proud eager grin, holding big tongs, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1643766543
+    },
+    {
+      "id": "ba-me-vo",
+      "name": "Bà mẹ vợ",
+      "sheetPrompt": "a tiny bent old village grandmother with a crooked back, squinting half-blind eyes, a patched grey shawl and a walking stick, curious hopeful face, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2402631146
+    }
+  ],
+  "scenes": [
+    {
+      "id": "lo-ren-ven-lang",
+      "title": "Lò rèn ven làng",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, khi Chúa Trời còn đi khắp mặt đất, có một tối Người cùng Thánh Phêrô xin nghỉ nhờ nhà một bác thợ rèn. Đang lúc ấy, một cụ ăn mày lẩy bẩy bước vào. Cụ già lắm rồi, lưng còng gập, chân run run, đến đứng cũng chẳng vững. Thánh Phêrô thương cụ quá, khẽ thưa: \"Lạy Chúa, xin Người chữa cho cụ khỏi đau yếu, để cụ còn tự kiếm miếng ăn.\" Chúa Trời gật đầu, quay sang bảo bác thợ rèn: \"Bác cho tôi mượn cái lò, bỏ thêm than vào. Tôi sẽ làm cho cụ già này trẻ lại.\"",
+      "subtitles": [
+        "Ngày xưa, khi Chúa Trời còn đi khắp mặt đất,",
+        "có một tối Người cùng Thánh Phêrô xin nghỉ nhờ nhà một bác thợ rèn.",
+        "Đang lúc ấy, một cụ ăn mày lẩy bẩy bước vào.",
+        "Cụ già lắm rồi, lưng còng gập, chân run run, đến đứng cũng chẳng vững.",
+        "Thánh Phêrô thương cụ quá, khẽ thưa: \"Lạy Chúa,",
+        "xin Người chữa cho cụ khỏi đau yếu, để cụ còn tự kiếm miếng ăn.\"",
+        "Chúa Trời gật đầu, quay sang bảo bác thợ rèn: \"Bác cho tôi mượn cái lò, bỏ thêm than vào.",
+        "Tôi sẽ làm cho cụ già này trẻ lại.\""
+      ],
+      "image": {
+        "prompt": "a humble village smithy at evening, a kind white-bearded traveller with a soft glow and an old bald disciple warming their hands, a frail bent old beggar with a stick stepping through the doorway, the blacksmith turning to look",
+        "seed": 1166813309,
+        "character": "chua-troi"
+      },
+      "video": {
+        "motionPrompt": "the forge fire flickers softly, the old beggar shuffles in slowly, the disciple reaches out a caring hand",
+        "seed": 1204226970
+      },
+      "voice": {}
+    },
+    {
+      "id": "lo-lua-ky-dieu",
+      "title": "Lò lửa kỳ diệu",
+      "narrator": "ke-chuyen",
+      "narration": "Bác thợ rèn vui vẻ chất than, Thánh Phêrô kéo bễ phì phò cho lửa bốc lên đỏ rực. Chúa Trời đỡ cụ già đặt vào giữa lò. Lạ thay, cụ chẳng hề kêu đau, chỉ sáng hồng lên như một khóm hoa hồng nở, miệng cất tiếng ca ngợi Trời cao. Xong, Chúa Trời nhấc cụ ra, nhúng vào thùng nước lớn cho nguội rồi giơ tay ban phước. Chỉ trong chớp mắt, từ thùng nước nhảy ra một chàng trai lưng thẳng, má hồng, khỏe mạnh như mới hai mươi tuổi.",
+      "subtitles": [
+        "Bác thợ rèn vui vẻ chất than, Thánh Phêrô kéo bễ phì phò cho lửa bốc lên đỏ rực.",
+        "Chúa Trời đỡ cụ già đặt vào giữa lò.",
+        "Lạ thay, cụ chẳng hề kêu đau, chỉ sáng hồng lên như một khóm hoa hồng nở,",
+        "miệng cất tiếng ca ngợi Trời cao.",
+        "Xong, Chúa Trời nhấc cụ ra, nhúng vào thùng nước lớn cho nguội rồi giơ tay ban phước.",
+        "Chỉ trong chớp mắt, từ thùng nước nhảy ra một chàng trai lưng thẳng,",
+        "má hồng, khỏe mạnh như mới hai mươi tuổi."
+      ],
+      "image": {
+        "prompt": "inside a glowing stone forge an old man sits peacefully surrounded by rosy light like a blooming rose bush, hands folded in praise, the kind traveller beside him, the disciple pumping the big leather bellows",
+        "seed": 4240079947,
+        "character": "chua-troi"
+      },
+      "video": {
+        "motionPrompt": "rosy warm light pulses gently around the old man, sparks drift upward like petals, the bellows rise and fall",
+        "seed": 708062806
+      },
+      "voice": {}
+    },
+    {
+      "id": "bua-toi-vui",
+      "title": "Bữa tối vui vẻ",
+      "narrator": "ke-chuyen",
+      "narration": "Bác thợ rèn đứng xem từ đầu đến cuối, mắt tròn xoe. Tối ấy bác mời cả nhà ngồi ăn với khách. Trong nhà có bà mẹ vợ của bác, đã già khọm, lưng còng, mắt kèm nhèm. Bà lần đến bên chàng trai, hỏi nhỏ: \"Này cậu, ngồi trong lửa có nóng lắm không?\" Chàng trai cười: \"Cháu chưa bao giờ thấy dễ chịu đến thế, cứ như ngồi trong sương mát buổi sớm.\" Câu nói ấy cứ văng vẳng bên tai bà cụ suốt cả đêm.",
+      "subtitles": [
+        "Bác thợ rèn đứng xem từ đầu đến cuối, mắt tròn xoe.",
+        "Tối ấy bác mời cả nhà ngồi ăn với khách.",
+        "Trong nhà có bà mẹ vợ của bác, đã già khọm, lưng còng, mắt kèm nhèm.",
+        "Bà lần đến bên chàng trai, hỏi nhỏ: \"Này cậu, ngồi trong lửa có nóng lắm không?\"",
+        "Chàng trai cười: \"Cháu chưa bao giờ thấy dễ chịu đến thế,",
+        "cứ như ngồi trong sương mát buổi sớm.\"",
+        "Câu nói ấy cứ văng vẳng bên tai bà cụ suốt cả đêm."
+      ],
+      "image": {
+        "prompt": "a cosy wooden table at supper in the smithy house, candles, bread and soup, a cheerful young man with rosy cheeks, a tiny bent squinting grandmother leaning close to ask him something, the blacksmith listening with wide eyes",
+        "seed": 370825800,
+        "character": "ba-me-vo"
+      },
+      "video": {
+        "motionPrompt": "candle flames sway, the young man laughs and gestures, the grandmother tilts her head dreamily",
+        "seed": 3238100353
+      },
+      "voice": {}
+    },
+    {
+      "id": "bac-tho-ren-bat-chuoc",
+      "title": "Bác thợ rèn bắt chước",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, Chúa Trời cảm ơn chủ nhà rồi cùng Thánh Phêrô lên đường. Bác thợ rèn nghĩ bụng: \"Mình xem kỹ cả rồi, có khó gì đâu. Để mình làm cho mẹ vợ trẻ lại xem sao.\" Bác hỏi: \"Mẹ có muốn chạy nhảy như cô gái mười tám không?\" Bà cụ đáp ngay: \"Muốn chứ, muốn lắm! Cậu kia bảo dễ chịu như sương mát cơ mà.\" Thế là bác thợ rèn nhóm một lò lửa thật to, rồi đặt bà cụ vào.",
+      "subtitles": [
+        "Sáng hôm sau, Chúa Trời cảm ơn chủ nhà rồi cùng Thánh Phêrô lên đường.",
+        "Bác thợ rèn nghĩ bụng: \"Mình xem kỹ cả rồi, có khó gì đâu.",
+        "Để mình làm cho mẹ vợ trẻ lại xem sao.\"",
+        "Bác hỏi: \"Mẹ có muốn chạy nhảy như cô gái mười tám không?\"",
+        "Bà cụ đáp ngay: \"Muốn chứ, muốn lắm!",
+        "Cậu kia bảo dễ chịu như sương mát cơ mà.\"",
+        "Thế là bác thợ rèn nhóm một lò lửa thật to, rồi đặt bà cụ vào."
+      ],
+      "image": {
+        "prompt": "morning in the smithy, the two travellers walking away down a sunny road in the background, the proud blacksmith rolling up his sleeves beside a roaring forge while the tiny grandmother nods eagerly",
+        "seed": 166212962,
+        "character": "bac-tho-ren"
+      },
+      "video": {
+        "motionPrompt": "the travellers grow smaller down the road, the blacksmith pumps the bellows hard, flames leap higher",
+        "seed": 2647768166
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-keu-trong-lo",
+      "title": "Tiếng kêu trong lò",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng lần này chẳng có sương mát nào cả. Bà cụ bị lửa nóng táp vào, kêu la oai oái. Bác thợ rèn vẫn tưởng mình làm đúng: \"Mẹ ngồi yên nào, kêu gì mà kêu, để con thổi mạnh thêm!\" Bác càng kéo bễ, bà càng kêu, đến cả manh áo cũ cũng cháy sém. Bấy giờ bác mới hoảng, nghĩ: \"Hình như nghề của mình chưa đúng lắm.\" Bác vội lôi bà ra, thả tõm vào thùng nước. Bà cụ chẳng trẻ ra chút nào, chỉ nhăn nhúm hơn, ngồi co ro trong thùng mà khóc mếu.",
+      "subtitles": [
+        "Nhưng lần này chẳng có sương mát nào cả.",
+        "Bà cụ bị lửa nóng táp vào, kêu la oai oái.",
+        "Bác thợ rèn vẫn tưởng mình làm đúng: \"Mẹ ngồi yên nào,",
+        "kêu gì mà kêu, để con thổi mạnh thêm!\"",
+        "Bác càng kéo bễ, bà càng kêu, đến cả manh áo cũ cũng cháy sém.",
+        "Bấy giờ bác mới hoảng, nghĩ: \"Hình như nghề của mình chưa đúng lắm.\"",
+        "Bác vội lôi bà ra, thả tõm vào thùng nước.",
+        "Bà cụ chẳng trẻ ra chút nào, chỉ nhăn nhúm hơn, ngồi co ro trong thùng mà khóc mếu."
+      ],
+      "image": {
+        "prompt": "a comic picture of a flustered blacksmith with tongs hurriedly lifting a small wailing grandmother out of the forge toward the big water tub, puffs of grey smoke from her scorched shawl, no injury shown, slapstick picture-book tone",
+        "seed": 590561539,
+        "character": "ba-me-vo"
+      },
+      "video": {
+        "motionPrompt": "the blacksmith hops about in a panic, a splash rises from the tub, little puffs of smoke curl away",
+        "seed": 4265178126
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhung-chu-khi",
+      "title": "Những chú khỉ đầu tiên",
+      "narrator": "ke-chuyen",
+      "narration": "Tiếng bà cụ kêu to đến nỗi vợ và con dâu bác thợ rèn trên gác cũng nghe thấy. Hai người đang mang thai, vội chạy xuống, thấy bà cụ ngồi co quắp trong thùng nước, mặt mũi nhăn nheo méo xệch, thì sợ hết hồn. Ngay đêm ấy, mỗi người sinh ra một đứa con trai, nhưng chẳng giống người mà lại giống khỉ. Hai đứa bé nhảy tót vào rừng, và người ta kể rằng giống khỉ trên đời sinh ra từ đó. Còn bác thợ rèn thì chẳng bao giờ dám bắt chước phép lạ của người khác nữa.",
+      "subtitles": [
+        "Tiếng bà cụ kêu to đến nỗi vợ và con dâu bác thợ rèn trên gác cũng nghe thấy.",
+        "Hai người đang mang thai, vội chạy xuống, thấy bà cụ ngồi co quắp trong thùng nước,",
+        "mặt mũi nhăn nheo méo xệch, thì sợ hết hồn.",
+        "Ngay đêm ấy, mỗi người sinh ra một đứa con trai, nhưng chẳng giống người mà lại giống khỉ.",
+        "Hai đứa bé nhảy tót vào rừng, và người ta kể rằng giống khỉ trên đời sinh ra từ đó.",
+        "Còn bác thợ rèn thì chẳng bao giờ dám bắt chước phép lạ của người khác nữa."
+      ],
+      "image": {
+        "prompt": "a moonlit forest edge beside the village, two playful little monkeys swinging into the trees, the blacksmith in the doorway scratching his head sheepishly, gentle storybook humour",
+        "seed": 2579367872
+      },
+      "video": {
+        "motionPrompt": "the little monkeys leap from branch to branch into the moonlit trees, leaves rustle, the blacksmith sighs and lowers his head",
+        "seed": 3828299051
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "light playful German folk music for a humorous fairy tale, plucked strings, a bouncy bassoon and a warm accordion, a short anxious comic passage, then a gentle tune, instrumental, no vocals",
+    "durationSeconds": 90,
+    "seed": 2431144415
+  }
+}
