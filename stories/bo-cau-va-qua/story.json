@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "slug": "bo-cau-va-qua",
+  "shelf": "world",
+  "title": "Bồ câu và quạ",
+  "summary": "Một chú quạ tham ăn giả làm bạn với chú bồ câu sống trong bếp nhà giàu để được vào bếp. Không nghe lời bạn khuyên, quạ lén mổ trộm cá của bác đầu bếp và phải trả giá cho thói tham ăn của mình.",
+  "themes": [
+    "ngu-ngon",
+    "thien-ac"
+  ],
+  "added": "2026-11-03",
+  "language": "vi",
+  "source": "Truyện dân gian Ấn Độ, truyện «The Pigeon and the Crow» trong Indian Fairy Tales do Joseph Jacobs tuyển chọn (1892), Project Gutenberg #7128, thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới, kể nhẹ phần kết cho cả nhà.",
+  "basedOn": "Truyện cổ Ấn Độ, Joseph Jacobs (1892)",
+  "style": "classic storybook illustration of an old Indian town, a spacious kitchen with copper pots and woven baskets, mango trees and dusty lanes, warm saffron, turquoise and terracotta palette, soft gentle light for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "bo-cau",
+      "name": "Chú bồ câu",
+      "sheetPrompt": "a gentle soft grey pigeon with an iridescent green and violet neck and calm round eyes, full body, side view, plain warm paper background, character reference sheet",
+      "seed": 3895628491
+    },
+    {
+      "id": "con-qua",
+      "name": "Chú quạ",
+      "sheetPrompt": "a glossy black crow with a grey collar, a sharp beak and sly greedy eyes, full body, side view, plain warm paper background, character reference sheet",
+      "seed": 388451740
+    },
+    {
+      "id": "bac-dau-bep",
+      "name": "Bác đầu bếp",
+      "sheetPrompt": "a plump cheerful Indian cook with a white turban, a simple white kurta and an apron, holding a wooden ladle, full body, front view, plain warm paper background, character reference sheet",
+      "seed": 3196193035
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cai-gio-trong-bep",
+      "title": "Cái giỏ trong bếp",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một thành phố bên Ấn Độ, có một nhà giàu với gian bếp rộng lúc nào cũng thơm mùi cơm, mùi cá. Trong bếp ấy, bác đầu bếp treo một cái giỏ nhỏ trên tường, và đó là nhà của một chú bồ câu. Sáng sáng, bồ câu bay ra đồng nhặt hạt thóc, hạt cỏ. Chiều chiều, chú bay về giỏ nằm ngủ yên lành. Chú chẳng bao giờ đụng đến món ăn trong bếp, nên bác đầu bếp quý chú lắm.",
+      "subtitles": [
+        "Ngày xưa, ở một thành phố bên Ấn Độ,",
+        "có một nhà giàu với gian bếp rộng lúc nào cũng thơm mùi cơm, mùi cá.",
+        "Trong bếp ấy, bác đầu bếp treo một cái giỏ nhỏ trên tường,",
+        "và đó là nhà của một chú bồ câu. Sáng sáng, bồ câu bay ra đồng nhặt hạt thóc, hạt cỏ.",
+        "Chiều chiều, chú bay về giỏ nằm ngủ yên lành.",
+        "Chú chẳng bao giờ đụng đến món ăn trong bếp, nên bác đầu bếp quý chú lắm."
+      ],
+      "image": {
+        "prompt": "a soft grey pigeon resting in a small woven basket hanging on the wall of a spacious old Indian kitchen with copper pots and a clay stove",
+        "seed": 2814225910,
+        "character": "bo-cau"
+      },
+      "video": {
+        "motionPrompt": "the pigeon settles into its basket and fluffs its feathers, steam curls up from a pot, slow push in",
+        "seed": 3792757697
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-them-thuong",
+      "title": "Quạ thèm thuồng",
+      "narrator": "ke-chuyen",
+      "narration": "Trên cây xoài ngoài sân có một chú quạ. Ngày nào quạ cũng nghển cổ nhìn vào bếp, thấy cá tươi bày đầy mâm, thịt treo trên móc, mà thèm đến chảy nước miếng. Quạ nghĩ bụng. Giá mà mình vào được gian bếp ấy thì sướng biết bao. Rồi quạ để ý thấy chú bồ câu ngày nào cũng ra vào bếp tự do. Quạ nảy ra một kế.",
+      "subtitles": [
+        "Trên cây xoài ngoài sân có một chú quạ.",
+        "Ngày nào quạ cũng nghển cổ nhìn vào bếp, thấy cá tươi bày đầy mâm, thịt treo trên móc,",
+        "mà thèm đến chảy nước miếng. Quạ nghĩ bụng.",
+        "Giá mà mình vào được gian bếp ấy thì sướng biết bao.",
+        "Rồi quạ để ý thấy chú bồ câu ngày nào cũng ra vào bếp tự do.",
+        "Quạ nảy ra một kế."
+      ],
+      "image": {
+        "prompt": "a glossy black crow perched on a mango tree branch outside, peering hungrily through a kitchen window at fresh fish laid out on a tray",
+        "seed": 4230177013,
+        "character": "con-qua"
+      },
+      "video": {
+        "motionPrompt": "the crow leans forward on the branch and tilts its head, mango leaves sway, slow pan toward the window",
+        "seed": 843795521
+      },
+      "voice": {}
+    },
+    {
+      "id": "xin-lam-ban",
+      "title": "Xin làm bạn",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, bồ câu bay ra đồng thì quạ lẽo đẽo bay theo. Bồ câu nhặt hạt ở đâu, quạ cũng sà xuống bới bới ở đó. Bồ câu lấy làm lạ, hỏi. Anh quạ ơi, sao anh cứ đi theo tôi mãi thế? Quạ cất giọng ngọt ngào. Tôi mến anh lắm, anh hiền lành và đẹp quá, cho tôi làm bạn với anh nhé. Bồ câu lắc đầu. Anh với tôi ăn uống khác nhau, anh thích thịt cá, tôi chỉ ăn hạt, làm bạn sao được. Quạ vội nói. Anh ăn gì thì tôi ăn nấy, tôi theo anh hết. Bồ câu thật thà, nghe vậy thì gật đầu.",
+      "subtitles": [
+        "Sáng hôm sau, bồ câu bay ra đồng thì quạ lẽo đẽo bay theo.",
+        "Bồ câu nhặt hạt ở đâu, quạ cũng sà xuống bới bới ở đó.",
+        "Bồ câu lấy làm lạ, hỏi. Anh quạ ơi, sao anh cứ đi theo tôi mãi thế?",
+        "Quạ cất giọng ngọt ngào.",
+        "Tôi mến anh lắm, anh hiền lành và đẹp quá, cho tôi làm bạn với anh nhé.",
+        "Bồ câu lắc đầu.",
+        "Anh với tôi ăn uống khác nhau, anh thích thịt cá, tôi chỉ ăn hạt, làm bạn sao được.",
+        "Quạ vội nói. Anh ăn gì thì tôi ăn nấy, tôi theo anh hết.",
+        "Bồ câu thật thà, nghe vậy thì gật đầu."
+      ],
+      "image": {
+        "prompt": "a grey pigeon pecking seeds in a sunny field while a black crow hops close beside it, bowing politely and smiling",
+        "seed": 181924127,
+        "character": "con-qua"
+      },
+      "video": {
+        "motionPrompt": "the crow hops closer and bows, the pigeon looks up surprised, grass ripples in the breeze",
+        "seed": 3698077861
+      },
+      "voice": {}
+    },
+    {
+      "id": "them-mot-cai-gio",
+      "title": "Thêm một cái giỏ",
+      "narrator": "ke-chuyen",
+      "narration": "Chiều ấy, quạ theo bồ câu bay về bếp nhà giàu. Bác đầu bếp thấy thế thì cười bảo. Ồ, bồ câu có bạn rồi đây. Bác treo thêm một cái giỏ nữa cạnh giỏ của bồ câu cho quạ ở. Từ đó, ngày nào hai bạn cũng cùng ra đồng, cùng về bếp. Quạ ngoài mặt thì nhặt hạt, nhưng trong bụng chỉ nghĩ đến những mâm cá trong bếp.",
+      "subtitles": [
+        "Chiều ấy, quạ theo bồ câu bay về bếp nhà giàu.",
+        "Bác đầu bếp thấy thế thì cười bảo. Ồ, bồ câu có bạn rồi đây.",
+        "Bác treo thêm một cái giỏ nữa cạnh giỏ của bồ câu cho quạ ở.",
+        "Từ đó, ngày nào hai bạn cũng cùng ra đồng, cùng về bếp.",
+        "Quạ ngoài mặt thì nhặt hạt, nhưng trong bụng chỉ nghĩ đến những mâm cá trong bếp."
+      ],
+      "image": {
+        "prompt": "a cheerful Indian cook in a white turban hanging a second woven basket on the kitchen wall next to the pigeon basket, a crow watching eagerly",
+        "seed": 3007156816,
+        "character": "bac-dau-bep"
+      },
+      "video": {
+        "motionPrompt": "the cook lifts the basket onto a hook, the crow flutters its wings with delight, warm evening light, slow push in",
+        "seed": 2099855943
+      },
+      "voice": {}
+    },
+    {
+      "id": "gia-vo-dau-bung",
+      "title": "Giả vờ đau bụng",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, nhà giàu mua về rất nhiều cá. Bác đầu bếp bày cá ra mâm, chuẩn bị nấu một bữa thật linh đình. Quạ nhìn thấy, mắt sáng rỡ. Sáng ấy, bồ câu gọi bạn đi ra đồng, quạ nằm lì trong giỏ, rên rỉ rằng mình đau bụng, không bay nổi. Bồ câu nhìn bạn, hiểu ngay. Anh quạ ơi, tôi biết anh không đau bụng đâu, anh đang thèm cá đấy. Anh đừng tham ăn mà mang họa vào thân. Quạ quay mặt đi, chẳng thèm nghe.",
+      "subtitles": [
+        "Một hôm, nhà giàu mua về rất nhiều cá.",
+        "Bác đầu bếp bày cá ra mâm, chuẩn bị nấu một bữa thật linh đình.",
+        "Quạ nhìn thấy, mắt sáng rỡ.",
+        "Sáng ấy, bồ câu gọi bạn đi ra đồng, quạ nằm lì trong giỏ, rên rỉ rằng mình đau bụng,",
+        "không bay nổi. Bồ câu nhìn bạn, hiểu ngay.",
+        "Anh quạ ơi, tôi biết anh không đau bụng đâu, anh đang thèm cá đấy.",
+        "Anh đừng tham ăn mà mang họa vào thân. Quạ quay mặt đi, chẳng thèm nghe."
+      ],
+      "image": {
+        "prompt": "a crow lying in its basket pretending to be ill with half closed eyes, a worried grey pigeon perched on the edge giving advice, trays of fish on the kitchen table below",
+        "seed": 754730587,
+        "character": "bo-cau"
+      },
+      "video": {
+        "motionPrompt": "the pigeon flaps its wings gently and speaks, the crow turns its head away, slow pan down to the fish trays",
+        "seed": 2737318050
+      },
+      "voice": {}
+    },
+    {
+      "id": "mo-trom-ca",
+      "title": "Mổ trộm cá",
+      "narrator": "ke-chuyen",
+      "narration": "Bồ câu đành bay ra đồng một mình. Bếp vắng, bác đầu bếp ra sân một lúc. Quạ liền nhảy ra khỏi giỏ, sà xuống mâm, mổ lấy một miếng cá to. Nắp nồi rơi xuống đất kêu loảng xoảng. Bác đầu bếp chạy vào, bắt quả tang quạ đang ngậm cá. Bác giận lắm, tóm lấy quạ, nhổ sạch bộ lông đen bóng của nó, rồi xát vào da nó một nắm muối với gừng cay, và ném nó trở lại cái giỏ.",
+      "subtitles": [
+        "Bồ câu đành bay ra đồng một mình. Bếp vắng, bác đầu bếp ra sân một lúc.",
+        "Quạ liền nhảy ra khỏi giỏ, sà xuống mâm, mổ lấy một miếng cá to.",
+        "Nắp nồi rơi xuống đất kêu loảng xoảng.",
+        "Bác đầu bếp chạy vào, bắt quả tang quạ đang ngậm cá.",
+        "Bác giận lắm, tóm lấy quạ, nhổ sạch bộ lông đen bóng của nó,",
+        "rồi xát vào da nó một nắm muối với gừng cay, và ném nó trở lại cái giỏ."
+      ],
+      "image": {
+        "prompt": "an indignant cook in a white turban rushing into the kitchen as a black crow grabs a piece of fish from a tray, a copper pot lid clattering on the floor",
+        "seed": 826268176,
+        "character": "bac-dau-bep"
+      },
+      "video": {
+        "motionPrompt": "the crow flaps in surprise with fish in its beak, the pot lid spins on the floor, the cook hurries in, quick push in",
+        "seed": 3875798578
+      },
+      "voice": {}
+    },
+    {
+      "id": "bai-hoc-tham-an",
+      "title": "Bài học tham ăn",
+      "narrator": "ke-chuyen",
+      "narration": "Chiều về, bồ câu thấy quạ trụi lông nằm co ro trong giỏ, cay xót đến mức chẳng kêu nổi một tiếng. Bồ câu buồn bã nói. Tôi đã khuyên anh rồi mà anh không nghe. Kẻ tham ăn thì sớm muộn cũng tự rước khổ vào mình. Rồi bồ câu nghĩ, ở chung với kẻ tham lam thì chẳng biết ngày nào mình cũng bị vạ lây. Chú cất cánh bay đi, tìm một chốn khác yên lành mà làm tổ. Còn quạ thì ở lại một mình, ôm lấy bài học đắt giá nhớ suốt đời.",
+      "subtitles": [
+        "Chiều về, bồ câu thấy quạ trụi lông nằm co ro trong giỏ,",
+        "cay xót đến mức chẳng kêu nổi một tiếng. Bồ câu buồn bã nói.",
+        "Tôi đã khuyên anh rồi mà anh không nghe.",
+        "Kẻ tham ăn thì sớm muộn cũng tự rước khổ vào mình.",
+        "Rồi bồ câu nghĩ, ở chung với kẻ tham lam thì chẳng biết ngày nào mình cũng bị vạ lây.",
+        "Chú cất cánh bay đi, tìm một chốn khác yên lành mà làm tổ.",
+        "Còn quạ thì ở lại một mình, ôm lấy bài học đắt giá nhớ suốt đời."
+      ],
+      "image": {
+        "prompt": "a sad grey pigeon flying away through an open window toward a golden sunset over mango trees, a small bald shivering crow left huddled in a basket on the kitchen wall",
+        "seed": 1446805385,
+        "character": "bo-cau"
+      },
+      "video": {
+        "motionPrompt": "the pigeon spreads its wings and flies out of the window into the sunset, the basket sways gently, slow pull back",
+        "seed": 2120481676
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle Indian folk style instrumental, soft sitar, bansuri flute and light tabla, warm playful and slightly wistful mood, no vocals",
+    "durationSeconds": 90,
+    "seed": 1463466294
+  }
+}
