@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "slug": "cay-soi-va-nhung-nguoi-tieu-phu",
+  "shelf": "world",
+  "title": "Cây sồi và những người tiều phu",
+  "summary": "Những người tiều phu hạ cây sồi già trên núi rồi bổ thân cây bằng những chiếc nêm đẽo từ chính cành của nó. Cây sồi buồn rằng nỗi đau do chính mình gây ra mới là nỗi đau khó chịu nhất.",
+  "themes": [
+    "ngu-ngon",
+    "thien-nhien"
+  ],
+  "added": "2026-11-03",
+  "language": "vi",
+  "source": "Ngụ ngôn Aesop (Hy Lạp cổ đại), truyện «The Oak and the Woodcutters» trong bản dịch tiếng Anh của George Fyler Townsend (1867), Project Gutenberg #21, thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới, kể thành truyện từ cốt và lời răn của ngụ ngôn.",
+  "basedOn": "Ngụ ngôn Aesop",
+  "style": "classic storybook illustration of a mountain forest in ancient Greece, a huge old oak on a rocky slope, misty peaks, deep forest green, bark brown and soft dawn gold palette, quiet thoughtful mood for family reading, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cay-soi",
+      "name": "Cây sồi già",
+      "sheetPrompt": "a huge ancient mountain oak tree with a wide gnarled trunk, spreading branches and a gentle face faintly visible in the bark, full view, plain warm paper background, character reference sheet",
+      "seed": 1671360231
+    },
+    {
+      "id": "nguoi-tieu-phu",
+      "name": "Người tiều phu",
+      "sheetPrompt": "a sturdy ancient Greek woodcutter with a curly beard, a short brown tunic, leather sandals and an axe resting on his shoulder, full body, front view, plain warm paper background, character reference sheet",
+      "seed": 3158014906
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cay-soi-tren-nui",
+      "title": "Cây sồi trên núi",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, trên một sườn núi cao xứ Hy Lạp, có một cây sồi già đã sống qua không biết bao nhiêu mùa mưa nắng. Thân nó to đến mấy người ôm không xuể, cành lá vươn ra che mát cả một khoảng rừng. Chim làm tổ trên cành, sóc chuyền trong tán lá, dê núi nằm nghỉ dưới gốc. Cây sồi đứng đó, vững vàng, hiền hậu, trông xuống thung lũng.",
+      "subtitles": [
+        "Ngày xưa, trên một sườn núi cao xứ Hy Lạp,",
+        "có một cây sồi già đã sống qua không biết bao nhiêu mùa mưa nắng.",
+        "Thân nó to đến mấy người ôm không xuể, cành lá vươn ra che mát cả một khoảng rừng.",
+        "Chim làm tổ trên cành, sóc chuyền trong tán lá, dê núi nằm nghỉ dưới gốc.",
+        "Cây sồi đứng đó, vững vàng, hiền hậu, trông xuống thung lũng."
+      ],
+      "image": {
+        "prompt": "a huge ancient oak on a rocky mountain slope above a misty valley, birds nesting in its branches, a squirrel on a limb and mountain goats resting in its shade",
+        "seed": 1693383293,
+        "character": "cay-soi"
+      },
+      "video": {
+        "motionPrompt": "leaves rustle in the wind, birds flutter in and out of the branches, mist drifts in the valley, slow crane up",
+        "seed": 3448402773
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-riu",
+      "title": "Tiếng rìu",
+      "narrator": "ke-chuyen",
+      "narration": "Một buổi sáng, có mấy người tiều phu leo lên núi. Họ cần gỗ tốt để làm nhà, đóng thuyền. Nhìn thấy cây sồi to lớn, họ bảo nhau. Cây này gỗ chắc lắm đây. Thế rồi tiếng rìu vang lên cốc, cốc khắp sườn núi. Chim bay tán loạn, sóc chạy đi mất. Mãi tới trưa, cây sồi già mới nghiêng mình, đổ xuống nằm dài trên sườn đá.",
+      "subtitles": [
+        "Một buổi sáng, có mấy người tiều phu leo lên núi.",
+        "Họ cần gỗ tốt để làm nhà, đóng thuyền. Nhìn thấy cây sồi to lớn, họ bảo nhau.",
+        "Cây này gỗ chắc lắm đây. Thế rồi tiếng rìu vang lên cốc, cốc khắp sườn núi.",
+        "Chim bay tán loạn, sóc chạy đi mất.",
+        "Mãi tới trưa, cây sồi già mới nghiêng mình, đổ xuống nằm dài trên sườn đá."
+      ],
+      "image": {
+        "prompt": "ancient Greek woodcutters with axes standing at the foot of the great oak in morning light, birds flying away from the treetop",
+        "seed": 3825190842,
+        "character": "nguoi-tieu-phu"
+      },
+      "video": {
+        "motionPrompt": "the woodcutters raise their axes, birds scatter from the branches, wood chips fly, slow push in",
+        "seed": 2921885852
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhung-chiec-nem",
+      "title": "Những chiếc nêm",
+      "narrator": "ke-chuyen",
+      "narration": "Thân cây to quá, rìu không bổ nổi. Người tiều phu bèn chặt mấy cành sồi, đẽo thành những chiếc nêm nhọn. Họ đặt nêm vào kẽ nứt trên thân cây, rồi lấy búa nện mạnh. Mỗi nhát búa, chiếc nêm lại lún sâu thêm, và thân cây sồi cứ thế toác dần ra từng mảnh.",
+      "subtitles": [
+        "Thân cây to quá, rìu không bổ nổi.",
+        "Người tiều phu bèn chặt mấy cành sồi, đẽo thành những chiếc nêm nhọn.",
+        "Họ đặt nêm vào kẽ nứt trên thân cây, rồi lấy búa nện mạnh.",
+        "Mỗi nhát búa, chiếc nêm lại lún sâu thêm, và thân cây sồi cứ thế toác dần ra từng mảnh."
+      ],
+      "image": {
+        "prompt": "a woodcutter carving pointed wooden wedges from oak branches beside the great fallen trunk, another woodcutter tapping a wedge into a crack with a mallet",
+        "seed": 932510236,
+        "character": "nguoi-tieu-phu"
+      },
+      "video": {
+        "motionPrompt": "the woodcutter shapes a wedge with his knife, the mallet rises and falls, wood chips scatter, slow pan along the trunk",
+        "seed": 1370834767
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-than-cua-cay-soi",
+      "title": "Lời than của cây sồi",
+      "narrator": "ke-chuyen",
+      "narration": "Cây sồi già thở dài, khẽ nói. Những nhát rìu chặt vào gốc ta, ta còn chịu được. Nhưng bị xẻ tan ra bởi những chiếc nêm đẽo từ chính cành của ta, điều ấy mới làm ta đau lòng nhất. Gió núi thổi qua, lá sồi rơi xào xạc như cũng buồn theo. Câu chuyện nhắc chúng ta rằng, nỗi khổ do người lạ gây ra còn dễ chịu đựng, nhưng nỗi khổ đến từ chính những gì thuộc về mình mới là khó chịu nhất.",
+      "subtitles": [
+        "Cây sồi già thở dài, khẽ nói. Những nhát rìu chặt vào gốc ta, ta còn chịu được.",
+        "Nhưng bị xẻ tan ra bởi những chiếc nêm đẽo từ chính cành của ta,",
+        "điều ấy mới làm ta đau lòng nhất. Gió núi thổi qua, lá sồi rơi xào xạc như cũng buồn theo.",
+        "Câu chuyện nhắc chúng ta rằng, nỗi khổ do người lạ gây ra còn dễ chịu đựng,",
+        "nhưng nỗi khổ đến từ chính những gì thuộc về mình mới là khó chịu nhất."
+      ],
+      "image": {
+        "prompt": "the great fallen oak on the mountainside at dusk with wooden wedges in its trunk, a gentle sorrowful face in the bark, golden leaves drifting in the wind",
+        "seed": 3206839732,
+        "character": "cay-soi"
+      },
+      "video": {
+        "motionPrompt": "leaves drift down slowly in the wind, the dusk light fades over the peaks, slow pull back",
+        "seed": 3885531435
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "quiet ancient Greek style instrumental, soft lyre and low wooden flute, gentle melancholy mountain mood, no vocals",
+    "durationSeconds": 90,
+    "seed": 898302289
+  }
+}
