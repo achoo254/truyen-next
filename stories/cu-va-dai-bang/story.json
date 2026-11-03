@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "slug": "cu-va-dai-bang",
+  "shelf": "world",
+  "title": "Cú và đại bàng",
+  "summary": "Ở xứ tuyết phủ quanh năm, chú cú và chú đại bàng lấy hai chị em làm vợ. Một mùa xuân hai chồng đi săn không về, hai người vợ dắt con lên đường tìm, vượt hồ nhờ cậu bé ếch và dùng mưu thắng mụ phù thủy trong rừng sâu. Truyện dân gian xứ tuyết, kể nhẹ nhàng cho cả nhà.",
+  "themes": [
+    "gia-dinh",
+    "thien-ac"
+  ],
+  "added": "2026-11-04",
+  "language": "vi",
+  "source": "Truyện \"The Owl and the Eagle\" trong The Orange Fairy Book do Andrew Lang chủ biên (1906, tác giả mất 1912), Project Gutenberg #3027, thuộc phạm vi công cộng; Lang ghi truyện lấy từ Journal of the Anthropological Institute. Lời kể viết mới bằng tiếng Việt, không chép bản dịch nào; kể nhẹ đoạn kết của mụ phù thủy cho hợp cả nhà, giữ nguyên cốt truyện.",
+  "basedOn": "Andrew Lang, The Orange Fairy Book (1906)",
+  "style": "classic picture-book illustration of a northern folk tale, soft watercolor and fine ink lines, deep snowy pine forests, a frozen lake turning blue in spring, a small log hut with a smoking chimney, cool blue and white tones warmed by firelight, gentle adventurous mood for the whole family, no text, no letters, no watermark",
+  "narrators": {
+    "ke-chuyen": {
+      "name": "Người kể chuyện",
+      "voice": "Mỹ Duyên"
+    }
+  },
+  "characters": [
+    {
+      "id": "cu",
+      "name": "Chú cú",
+      "sheetPrompt": "a friendly large snowy brown owl with round amber eyes and soft speckled feathers, a calm sleepy kind expression, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3414151383
+    },
+    {
+      "id": "dai-bang",
+      "name": "Chú đại bàng",
+      "sheetPrompt": "a proud golden-brown eagle with a hooked yellow beak and strong wings, a brave warm expression, full body, side view, plain soft cream background, character reference sheet",
+      "seed": 38805681
+    },
+    {
+      "id": "chi-ca",
+      "name": "Người chị",
+      "sheetPrompt": "a calm clever young woman of a snowy northern land, long black braids, a fur-trimmed brown hide coat with bead embroidery, a coil of string at her belt, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 2941118930
+    },
+    {
+      "id": "em-gai",
+      "name": "Người em",
+      "sheetPrompt": "a lively brave younger woman of a snowy northern land, two short black braids, a fur-trimmed red-brown hide coat with bead embroidery, fur boots, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1841976410
+    },
+    {
+      "id": "ech-con",
+      "name": "Cậu bé ếch",
+      "sheetPrompt": "a cute plump green frog child with big shiny eyes and a cheeky pouting face, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 1390757686
+    },
+    {
+      "id": "phu-thuy",
+      "name": "Mụ phù thủy",
+      "sheetPrompt": "a huge grumpy forest witch with wild grey tangled hair, a crooked nose and a patched dark fur cloak, a sly grin, cartoonish rather than frightening, full body, front view, plain soft cream background, character reference sheet",
+      "seed": 3898602620
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hai-ban-chung-nha",
+      "title": "Hai người bạn chung nhà",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở một xứ sở mà tuyết phủ trắng gần suốt năm, có một chú cú và một chú đại bàng. Hai chú khác nhau đủ đường, vậy mà lại thành bạn thân, ở chung một mái nhà. Đại bàng săn ban ngày, cú săn ban đêm, nên chẳng bao giờ cãi nhau. Chỉ có một điều làm cả hai buồn lòng. Đại bàng than: chiều về mỏi cánh quá, chẳng còn sức mà quét dọn nhà cửa. Cú cũng thở dài: sáng ra buồn ngủ ríu cả mắt, còn lau chùi gì nổi. Thế là hai bạn bàn nhau phải đi tìm vợ.",
+      "subtitles": [
+        "Ngày xưa, ở một xứ sở mà tuyết phủ trắng gần suốt năm, có một chú cú và một chú đại bàng.",
+        "Hai chú khác nhau đủ đường, vậy mà lại thành bạn thân, ở chung một mái nhà.",
+        "Đại bàng săn ban ngày, cú săn ban đêm, nên chẳng bao giờ cãi nhau.",
+        "Chỉ có một điều làm cả hai buồn lòng.",
+        "Đại bàng than: chiều về mỏi cánh quá, chẳng còn sức mà quét dọn nhà cửa.",
+        "Cú cũng thở dài: sáng ra buồn ngủ ríu cả mắt, còn lau chùi gì nổi.",
+        "Thế là hai bạn bàn nhau phải đi tìm vợ."
+      ],
+      "image": {
+        "prompt": "a cozy log hut in a snowy pine forest, a big brown owl perched on the roof at dusk while a golden eagle flies out in the morning light, split day and night sky, warm window light",
+        "seed": 1747652551,
+        "character": "cu"
+      },
+      "video": {
+        "motionPrompt": "snow drifts down softly, the eagle spreads its wings and glides away, the owl blinks sleepily on the roof",
+        "seed": 4016334240
+      },
+      "voice": {}
+    },
+    {
+      "id": "hai-chi-em-lac-duong",
+      "title": "Hai chị em lạc đường",
+      "narrator": "ke-chuyen",
+      "narration": "Những lúc rảnh, hai chú bay đi hỏi các cô gái quanh vùng, nhưng cô nào cũng lắc đầu: một nhà mà hai ông chồng thì lạ lắm. Thế rồi một tối, hôm hiếm hoi hai chú cùng đi săn với nhau, về đến nhà thì thấy hai chị em lạ đang ngủ say trên hai chiếc giường. Cú nhìn đại bàng, đại bàng nhìn cú. Rồi cả hai vội bay đi chải chuốt bộ lông, chờ khách thức dậy.",
+      "subtitles": [
+        "Những lúc rảnh, hai chú bay đi hỏi các cô gái quanh vùng, nhưng cô nào cũng lắc đầu:",
+        "một nhà mà hai ông chồng thì lạ lắm.",
+        "Thế rồi một tối, hôm hiếm hoi hai chú cùng đi săn với nhau,",
+        "về đến nhà thì thấy hai chị em lạ đang ngủ say trên hai chiếc giường.",
+        "Cú nhìn đại bàng, đại bàng nhìn cú.",
+        "Rồi cả hai vội bay đi chải chuốt bộ lông, chờ khách thức dậy."
+      ],
+      "image": {
+        "prompt": "inside a simple log hut lit by a small fire, two young women asleep on two fur beds, an owl and an eagle peeking in at the doorway, looking at each other in surprise",
+        "seed": 1422550412,
+        "character": "chi-ca"
+      },
+      "video": {
+        "motionPrompt": "the fire flickers, the sisters breathe softly in sleep, the owl and the eagle turn their heads to look at each other",
+        "seed": 1802585359
+      },
+      "voice": {}
+    },
+    {
+      "id": "trung-va-sua",
+      "title": "Trứng và sữa",
+      "narrator": "ke-chuyen",
+      "narration": "Hai chị em ngủ một mạch rất lâu, vì họ đã đi bộ đường xa từ một thị trấn nghèo đói. Khi mở mắt ra, họ thấy hai chú chim đang lễ phép đứng chờ. Cú hỏi: hai cô nghỉ có khỏe không? Hai chị em đáp: cảm ơn, khỏe rồi, chỉ có đói bụng quá. Đại bàng liền bay tới một trang trại xa, quắp về cả một ổ trứng. Còn cú xách chiếc nồi nhỏ, lẻn qua cửa sổ chuồng bò nhà một bà cụ, múc đầy một nồi sữa mới vắt. Thấy hai chú chim vừa tốt bụng vừa khéo léo, khi được hỏi cưới, hai chị em nhận lời ngay. Đại bàng lấy cô em, cú lấy cô chị, và chẳng có mái nhà nào êm ấm hơn thế.",
+      "subtitles": [
+        "Hai chị em ngủ một mạch rất lâu, vì họ đã đi bộ đường xa từ một thị trấn nghèo đói.",
+        "Khi mở mắt ra, họ thấy hai chú chim đang lễ phép đứng chờ.",
+        "Cú hỏi: hai cô nghỉ có khỏe không?",
+        "Hai chị em đáp: cảm ơn, khỏe rồi, chỉ có đói bụng quá.",
+        "Đại bàng liền bay tới một trang trại xa, quắp về cả một ổ trứng.",
+        "Còn cú xách chiếc nồi nhỏ, lẻn qua cửa sổ chuồng bò nhà một bà cụ,",
+        "múc đầy một nồi sữa mới vắt.",
+        "Thấy hai chú chim vừa tốt bụng vừa khéo léo, khi được hỏi cưới, hai chị em nhận lời ngay.",
+        "Đại bàng lấy cô em, cú lấy cô chị, và chẳng có mái nhà nào êm ấm hơn thế."
+      ],
+      "image": {
+        "prompt": "two smiling young women sitting by the hearth eating eggs and drinking milk from a small tin pot, the eagle proudly holding a nest of eggs and the owl holding the tin pot, warm and cheerful",
+        "seed": 2592244718,
+        "character": "em-gai"
+      },
+      "video": {
+        "motionPrompt": "steam rises from the milk, the sisters laugh and share the eggs, the owl bows politely",
+        "seed": 3516386162
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-be-va-cau-ech",
+      "title": "Cậu bé và cậu ếch",
+      "narrator": "ke-chuyen",
+      "narration": "Vài tháng sau, cùng một ngày, vợ đại bàng sinh được một cậu con trai, còn vợ cú thì lạ thay, sinh ra một chú ếch con. Chú ếch có vẻ không thích ở trong nhà, nên mẹ đặt chú xuống bờ suối gần đó. Hai đứa trẻ lớn nhanh, ngày nào cũng chơi với nhau bên suối. Rồi một đêm xuân, băng đã tan, tuyết đã hết, hai chị em ngồi xe sợi chờ chồng về. Chờ mãi, chờ mãi, cú và đại bàng vẫn không về, mấy hôm liền cũng không.",
+      "subtitles": [
+        "Vài tháng sau, cùng một ngày, vợ đại bàng sinh được một cậu con trai,",
+        "còn vợ cú thì lạ thay, sinh ra một chú ếch con.",
+        "Chú ếch có vẻ không thích ở trong nhà, nên mẹ đặt chú xuống bờ suối gần đó.",
+        "Hai đứa trẻ lớn nhanh, ngày nào cũng chơi với nhau bên suối.",
+        "Rồi một đêm xuân, băng đã tan, tuyết đã hết, hai chị em ngồi xe sợi chờ chồng về.",
+        "Chờ mãi, chờ mãi, cú và đại bàng vẫn không về, mấy hôm liền cũng không."
+      ],
+      "image": {
+        "prompt": "a little boy in a fur coat playing by a spring stream with a cheeky green frog child, melting snow and the first green grass, the log hut in the background",
+        "seed": 4033688502,
+        "character": "ech-con"
+      },
+      "video": {
+        "motionPrompt": "the stream ripples, the frog hops in a circle, the boy laughs and splashes",
+        "seed": 3735534992
+      },
+      "voice": {}
+    },
+    {
+      "id": "len-duong-tim-chong",
+      "title": "Lên đường tìm chồng",
+      "narrator": "ke-chuyen",
+      "narration": "Hai người vợ không ngồi khóc, vì họ là những người đàn bà cứng cỏi. Họ gọi con lại, quyết đi khắp thế gian cho tới khi tìm được chồng. Họ nhớ xa xa có một khu rừng rậm săn bắt rất tốt, bèn đi về hướng ấy. Đang đi, cô em đi trước bỗng kêu lên: chị ơi, nhìn cái hồ kia, làm sao mà qua được! Cô chị bình tĩnh đáp: có cách rồi. Cô lấy trong túi ra một sợi dây dài, buộc vào miệng chú ếch như buộc cương ngựa, rồi đặt chú xuống nước. Con bơi qua hồ nhé, mẹ và dì sẽ đi trên sợi dây theo sau con.",
+      "subtitles": [
+        "Hai người vợ không ngồi khóc, vì họ là những người đàn bà cứng cỏi.",
+        "Họ gọi con lại, quyết đi khắp thế gian cho tới khi tìm được chồng.",
+        "Họ nhớ xa xa có một khu rừng rậm săn bắt rất tốt, bèn đi về hướng ấy.",
+        "Đang đi, cô em đi trước bỗng kêu lên: chị ơi, nhìn cái hồ kia, làm sao mà qua được!",
+        "Cô chị bình tĩnh đáp: có cách rồi.",
+        "Cô lấy trong túi ra một sợi dây dài, buộc vào miệng chú ếch như buộc cương ngựa,",
+        "rồi đặt chú xuống nước.",
+        "Con bơi qua hồ nhé, mẹ và dì sẽ đi trên sợi dây theo sau con."
+      ],
+      "image": {
+        "prompt": "two women and a small boy standing at the shore of a wide blue lake at the edge of a dark pine forest, the elder sister tying a long string to the frog child at the water's edge",
+        "seed": 317896380,
+        "character": "chi-ca"
+      },
+      "video": {
+        "motionPrompt": "the lake water shimmers, the elder sister gently lowers the frog into the water, the string trails behind",
+        "seed": 2207471505
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-ech-doi-qua",
+      "title": "Cậu ếch dỗi giữa hồ",
+      "narrator": "ke-chuyen",
+      "narration": "Thế là chú ếch bơi, còn hai chị em và cậu bé bước trên sợi dây thần mà đi qua mặt nước. Ra tới giữa hồ, chú ếch bỗng dừng lại, phụng phịu: con không thích, con không bơi nữa đâu! Mẹ phải hứa đủ thứ quà, chú mới chịu bơi tiếp. Sang tới bờ bên kia, người mẹ tháo dây cho chú, dặn chú cứ chơi bên hồ chờ mọi người về. Ba người đi tiếp, mệt lả thì thấy khói bay lên từ một túp lều nhỏ. Cô em bảo: mình vào xin bát nước đi chị.",
+      "subtitles": [
+        "Thế là chú ếch bơi, còn hai chị em và cậu bé bước trên sợi dây thần mà đi qua mặt nước.",
+        "Ra tới giữa hồ, chú ếch bỗng dừng lại, phụng phịu: con không thích, con không bơi nữa đâu!",
+        "Mẹ phải hứa đủ thứ quà, chú mới chịu bơi tiếp.",
+        "Sang tới bờ bên kia, người mẹ tháo dây cho chú, dặn chú cứ chơi bên hồ chờ mọi người về.",
+        "Ba người đi tiếp, mệt lả thì thấy khói bay lên từ một túp lều nhỏ.",
+        "Cô em bảo: mình vào xin bát nước đi chị."
+      ],
+      "image": {
+        "prompt": "the frog child pouting in the middle of the lake with the string in its mouth, the two women and the boy balancing on the glowing magic string above the water, funny and gentle",
+        "seed": 3008495562,
+        "character": "ech-con"
+      },
+      "video": {
+        "motionPrompt": "the frog crosses its arms and pouts, the women wobble on the string, ripples spread across the lake",
+        "seed": 2303651484
+      },
+      "voice": {}
+    },
+    {
+      "id": "trong-tup-leu",
+      "title": "Trong túp lều tối",
+      "narrator": "ke-chuyen",
+      "narration": "Trong lều tối om, mới đầu chẳng thấy gì. Rồi từ một góc vọng ra tiếng kêu khe khẽ. Hai chị em quay lại, và kia rồi, chính là hai người chồng, bị trói cả cánh lẫn chân, gầy rộc đi vì đói. Hai chị em vội cởi dây cho chồng. Cú và đại bàng yếu quá, chỉ khẽ kêu lên mừng rỡ. Bỗng có tiếng quát như sấm: ai dám vào nhà ta? Một mụ phù thủy to lớn hiện ra. Hai chị em mạnh dạn đáp: chúng tôi đến đưa chồng về. Mụ cười khẩy: được, nếu các ngươi trượt được xuống đáy vực kia rồi trở lên, ta sẽ trả chồng cho.",
+      "subtitles": [
+        "Trong lều tối om, mới đầu chẳng thấy gì.",
+        "Rồi từ một góc vọng ra tiếng kêu khe khẽ.",
+        "Hai chị em quay lại, và kia rồi, chính là hai người chồng, bị trói cả cánh lẫn chân,",
+        "gầy rộc đi vì đói.",
+        "Hai chị em vội cởi dây cho chồng.",
+        "Cú và đại bàng yếu quá, chỉ khẽ kêu lên mừng rỡ.",
+        "Bỗng có tiếng quát như sấm: ai dám vào nhà ta?",
+        "Một mụ phù thủy to lớn hiện ra.",
+        "Hai chị em mạnh dạn đáp: chúng tôi đến đưa chồng về.",
+        "Mụ cười khẩy: được, nếu các ngươi trượt được xuống đáy vực kia rồi trở lên,",
+        "ta sẽ trả chồng cho."
+      ],
+      "image": {
+        "prompt": "inside a dark smoky hut, the two sisters untying a weak owl and eagle, a huge grumpy witch with wild grey hair looming in the doorway, cartoonish rather than frightening, firelight",
+        "seed": 3267989270,
+        "character": "phu-thuy"
+      },
+      "video": {
+        "motionPrompt": "the sisters loosen the leather ties, the owl flutters weakly, the witch's cloak sways as she points outside",
+        "seed": 4178336788
+      },
+      "voice": {}
+    },
+    {
+      "id": "soi-day-than",
+      "title": "Sợi dây thần",
+      "narrator": "ke-chuyen",
+      "narration": "Mụ đẩy họ ra mép một vách đá dựng đứng, sâu hun hút. Nhân lúc mụ quay đi, cô chị lén buộc một đầu sợi dây thần vào người, thì thầm dặn cậu bé nắm thật chặt đầu kia. Rồi cô ngồi xuống, trượt vèo xuống vực. Mụ vừa gọi cô em ra thế chỗ thì cô chị đã được sợi dây thần kéo lên khỏi mép đá. Mụ tức tối úp mặt vào tay, và cô em kịp buộc dây vào người, cũng trượt xuống rồi trở lên bình an.",
+      "subtitles": [
+        "Mụ đẩy họ ra mép một vách đá dựng đứng, sâu hun hút.",
+        "Nhân lúc mụ quay đi, cô chị lén buộc một đầu sợi dây thần vào người,",
+        "thì thầm dặn cậu bé nắm thật chặt đầu kia.",
+        "Rồi cô ngồi xuống, trượt vèo xuống vực.",
+        "Mụ vừa gọi cô em ra thế chỗ thì cô chị đã được sợi dây thần kéo lên khỏi mép đá.",
+        "Mụ tức tối úp mặt vào tay, và cô em kịp buộc dây vào người,",
+        "cũng trượt xuống rồi trở lên bình an."
+      ],
+      "image": {
+        "prompt": "the edge of a steep rocky cliff in the forest, the elder sister climbing back up over the edge pulled by a glowing string held tight by the small boy, the witch covering her face in frustration",
+        "seed": 3112248329,
+        "character": "chi-ca"
+      },
+      "video": {
+        "motionPrompt": "the glowing string tightens, the sister rises over the cliff edge, the boy pulls with all his strength, the witch stamps her foot",
+        "seed": 878529080
+      },
+      "voice": {}
+    },
+    {
+      "id": "mai-toc-den",
+      "title": "Mái tóc đen",
+      "narrator": "ke-chuyen",
+      "narration": "Mụ phù thủy run lên vì giận, nhưng không dám để lộ ra. Mụ cười gằn: chưa xong đâu! Làm cho tóc ta dày và đen như tóc các ngươi, không thì đừng hòng gặp lại chồng. Cô chị đáp: dễ thôi, có điều phải làm đúng như chúng tôi đã làm, hơi khó chịu một chút đấy. Mụ bảo: các ngươi chịu được thì ta cũng chịu được. Hai chị em bèn bảo mụ ngồi xuống, phết nhựa thông dẻo quánh lên đầu mụ, rồi đặt lên trên một hòn đá nặng. Cô chị xõa tóc mình trước mắt mụ, để mụ tưởng tóc mình đang mọc. Nhựa thông khô lại, dính chặt mụ dưới hòn đá to, mụ vùng vẫy mãi mà không sao đứng dậy được nữa.",
+      "subtitles": [
+        "Mụ phù thủy run lên vì giận, nhưng không dám để lộ ra.",
+        "Mụ cười gằn: chưa xong đâu!",
+        "Làm cho tóc ta dày và đen như tóc các ngươi, không thì đừng hòng gặp lại chồng.",
+        "Cô chị đáp: dễ thôi, có điều phải làm đúng như chúng tôi đã làm,",
+        "hơi khó chịu một chút đấy.",
+        "Mụ bảo: các ngươi chịu được thì ta cũng chịu được.",
+        "Hai chị em bèn bảo mụ ngồi xuống, phết nhựa thông dẻo quánh lên đầu mụ,",
+        "rồi đặt lên trên một hòn đá nặng.",
+        "Cô chị xõa tóc mình trước mắt mụ, để mụ tưởng tóc mình đang mọc.",
+        "Nhựa thông khô lại, dính chặt mụ dưới hòn đá to,",
+        "mụ vùng vẫy mãi mà không sao đứng dậy được nữa."
+      ],
+      "image": {
+        "prompt": "the witch sitting on a stump with her eyes covered by the elder sister's long black hair, the younger sister pouring sticky golden pine resin from a pot, a big flat stone nearby, comic and gentle",
+        "seed": 225185553,
+        "character": "phu-thuy"
+      },
+      "video": {
+        "motionPrompt": "golden resin drips slowly, the witch grins believing her hair is growing, the sisters exchange a knowing look",
+        "seed": 51943188
+      },
+      "voice": {}
+    },
+    {
+      "id": "mai-nha-moi",
+      "title": "Mái nhà mới",
+      "narrator": "ke-chuyen",
+      "narration": "Thế là phép thuật của mụ phù thủy chẳng còn làm hại được ai. Hai chị em đưa chồng về túp lều, chăm sóc cho tới khi cú và đại bàng khỏe lại, đôi cánh lại vươn rộng như xưa. Rồi cả nhà quay ra bờ hồ, đón chú ếch con đang ngồi chờ. Họ cùng nhau sang bờ bên kia của hồ lớn, dựng một mái nhà mới. Ở đó cả nhà sống êm ấm mãi về sau.",
+      "subtitles": [
+        "Thế là phép thuật của mụ phù thủy chẳng còn làm hại được ai.",
+        "Hai chị em đưa chồng về túp lều, chăm sóc cho tới khi cú và đại bàng khỏe lại,",
+        "đôi cánh lại vươn rộng như xưa.",
+        "Rồi cả nhà quay ra bờ hồ, đón chú ếch con đang ngồi chờ.",
+        "Họ cùng nhau sang bờ bên kia của hồ lớn, dựng một mái nhà mới.",
+        "Ở đó cả nhà sống êm ấm mãi về sau."
+      ],
+      "image": {
+        "prompt": "a new cozy log hut on the far shore of a sparkling spring lake, the owl and the eagle perched happily on the roof, the two sisters spinning by the door, the boy and the frog playing at the water's edge, golden evening light",
+        "seed": 1873098235,
+        "character": "dai-bang"
+      },
+      "video": {
+        "motionPrompt": "the eagle and the owl stretch their wings, the spinning wheel turns, the frog leaps into the lake with a splash",
+        "seed": 1920143993
+      },
+      "voice": {}
+    }
+  ],
+  "music": {
+    "prompt": "gentle northern folk fairy tale music, a soft wooden flute and a frame drum over warm strings, snowy and calm at first, a brave mysterious forest passage, then a warm homely ending, instrumental, no vocals",
+    "durationSeconds": 120,
+    "seed": 3379788109
+  }
+}
