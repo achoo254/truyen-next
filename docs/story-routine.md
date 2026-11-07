@@ -1,12 +1,35 @@
 # Routine viết truyện (phần chữ)
 
-Routine chạy trên cloud viết khoảng 100 truyện mỗi tuần (mục tiêu đặt 01/11/2026), chỉ phần chữ: lời kể mới, phụ đề,
-prompt và seed để máy nhà (PC) sinh tranh, cảnh động, giọng và nhạc sau. Mỗi push lên `main` có CI xanh là tự deploy
+Routine chạy trên cloud viết truyện, chỉ phần chữ: lời kể mới, phụ đề, prompt và seed để máy nhà (PC) sinh tranh,
+cảnh động, giọng và nhạc sau. Mỗi push lên `main` có CI xanh là tự deploy
 ([`deployment-guide.md`](deployment-guide.md)), nên truyện vừa commit lên web ngay dưới dạng bản đọc chữ.
 
 Nguồn sự thật về định dạng và luật kệ: [`story-format.md`](story-format.md),
 `packages/story/src/story-schema.ts`, `packages/story/src/validate-story.ts`. Tài liệu này chỉ nói routine làm gì và
 theo thứ tự nào; luật trong code thắng nếu hai bên lệch nhau.
+
+## Đang làm: viết lại truyện cũ cho trọn vẹn (từ 07/11/2026)
+
+Gần một nghìn truyện đầu tiên bị rút gọn cho vừa trần thời lượng cũ. Người sở hữu chốt: **khi còn truyện chờ viết lại
+thì routine chỉ viết lại, tạm dừng viết truyện mới và tạm dừng thêm ý tưởng** (bước 2 và 3 bên dưới nghỉ). Hết hàng
+chờ thì routine tự quay về viết truyện mới theo các bước bên dưới, không cần hỏi lại.
+
+1. `git pull --rebase`, cài, `pnpm check:stories` như bước 1 bên dưới; rồi `pnpm story:rewrite-queue 20` in số truyện
+   còn chờ và thứ tự: kệ Người lớn trước, rồi Thế giới, rồi Trẻ em; trong một kệ, truyện dài nhất trước (truyện từng
+   chạm trần cũ là truyện bị cắt nhiều nhất). Lấy truyện theo đúng thứ tự đó.
+2. Với mỗi truyện: đọc `story.json` hiện có và `source`, rồi **mở bản gốc thật** thuộc phạm vi công cộng (Wikisource,
+   Project Gutenberg… theo `source`/`plotSource`). Lập danh sách tình tiết chính của bản gốc (chỉ dùng tạm khi làm,
+   không ghi vào repo).
+3. Kể lại trọn vẹn theo luật trọn vẹn ở [`story-format.md`](story-format.md): mọi tình tiết và nhân vật, có thoại;
+   lời kể viết mới, không chép bản dịch. Giữ nguyên `slug`, `title`, `shelf`, `added`, người kể và giọng; bỏ chi tiết
+   bản cũ tự thêm mà bản gốc không có. Được đổi số cảnh (tối đa 16), thêm nhân vật, viết lại prompt, seed mới cho cảnh
+   mới. Thêm `revised` là ngày chạy theo giờ Việt Nam. Viết xong, đối chiếu từng tình tiết trong danh sách; thiếu thì
+   bổ sung.
+4. **Không có bản gốc đầy đủ để đối chiếu** (truyện dân gian chỉ còn dị bản ngắn, nguồn không mở được) **hoặc bản gốc
+   vốn ngắn** (ngụ ngôn): không kéo dài bằng chi tiết bịa. Chỉ sửa chỗ sai so với bản gốc nếu có, ghi `revised`, và
+   nêu trong báo cáo của lượt.
+5. Kiểm và push **từng truyện** như bước 7–8 bên dưới, commit `feat(stories): retell <slug> in full`. Danh mục không
+   đổi (`status` vẫn là `text`).
 
 ## Danh mục ứng viên: `catalog/stories.json`
 
@@ -61,13 +84,14 @@ Mảng JSON, mỗi dòng một mục, **thứ tự trong tệp là thứ tự vi
 
    Thêm ý tưởng mới vào **cuối** danh mục, `status: "idea"`, commit riêng
    (`feat(catalog): add <số> story ideas`).
-3. **Chọn lô.** Lấy các mục `idea` đầu tiên theo thứ tự trong tệp (khoảng 15 mục mỗi ngày, hay 100 mục mỗi tuần).
+3. **Chọn lô.** Lấy các mục `idea` đầu tiên theo thứ tự trong tệp.
    Trước khi viết một mục, kiểm `stories/<slug>` trên `main` mới nhất: đã có thư mục thì **không viết lại**, chỉ cập
    nhật mục đó (bước 1) và lấy mục kế. Không chắc nguồn của một mục thuộc phạm vi công cộng thì bỏ qua (để nguyên
    `idea`) và ghi vào báo cáo của lần chạy.
 4. **Viết `stories/<slug>/story.json`** theo [`story-format.md`](story-format.md), chỉ phần chữ:
    - `schemaVersion: 1`, `slug` và `title` đúng như danh mục, `shelf` theo mục 5, `language: "vi"`,
-     `added` là ngày chạy theo giờ Việt Nam (`YYYY-MM-DD`; trang kệ xếp "Mới nhất" theo trường này).
+     `added` là ngày chạy theo giờ Việt Nam (`YYYY-MM-DD`; trang kệ xếp "Mới nhất" theo trường này), `revised` cùng
+     ngày đó; kể trọn vẹn theo luật ở [`story-format.md`](story-format.md).
    - `summary` một đến ba câu; `themes` một đến ba chủ đề trong `THEMES` của schema.
    - `source`: một hai câu nói gốc truyện (lấy từ `plotSource`) và cách viết lời kể. `basedOn` (schema bắt buộc,
      3–80 ký tự): nguồn ngắn gọn, hiện trên trang thành "Cốt truyện theo: …", ví dụ "Truyện dân gian Việt Nam",
@@ -82,8 +106,8 @@ Mảng JSON, mỗi dòng một mục, **thứ tự trong tệp là thứ tự vi
    | | `kids` | `adults` | `world` |
    | --- | --- | --- | --- |
    | Dành cho | Truyện Việt hoặc các nước kể nhẹ cho trẻ nhỏ | Truyện Việt hoặc các nước kể đầy đủ, theo sát truyện xưa | Truyện các nước kể nhẹ cho cả nhà |
-   | Số cảnh | 6–10 | 8–14 | 4–12 |
-   | Đọc to (ước tính) | 3–6 phút | 6–12 phút | 2–8 phút |
+   | Số cảnh | 6–16 | 8–16 | 4–16 |
+   | Đọc to (ước tính) | 3–10 phút | từ 6 phút, không trần | từ 2 phút, không trần |
    | Người kể | `miu` (Mèo Miu, giọng Trúc Ly) kể cảnh đầu và cảnh cuối, người kể chuyện giọng Quỳnh Anh | Đúng một người kể, giọng Thanh Bình (không phải Trúc Ly, Quỳnh Anh, Mỹ Duyên) | Đúng một người kể, giọng Mỹ Duyên |
    | Từ cấm trong tên, tóm tắt, lời kể | "giết", "máu", "chết", "chém", "thi thể", "xác chết", "ghê rợn", "rùng rợn" | Không có | Như `kids` |
    | Từ cấm trong prompt | Như `world` và thêm "dead", "death", "kill", "sword", "spear"… | "blood", "gore", "corpse", "severed", "wound", "skull"… | Như `kids` |

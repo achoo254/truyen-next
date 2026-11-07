@@ -105,6 +105,11 @@ export const storySchema = z.strictObject({
   themes: z.array(themeSchema).min(1).max(3).optional(),
   /** When the story joined the shelf (YYYY-MM-DD), for "newest first". */
   added: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'a date like 2026-10-30').optional(),
+  /**
+   * When the story was retold whole under the full-telling rules (YYYY-MM-DD). Absent: an older, shortened telling
+   * still waiting for its rewrite (scripts/rewrite-queue.ts).
+   */
+  revised: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'a date like 2026-11-08').optional(),
   language: z.literal('vi'),
   /** Where the tale comes from and how the words were written. */
   source: text,

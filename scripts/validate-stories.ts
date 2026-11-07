@@ -4,6 +4,7 @@
  * folder the catalog does not list yet, an `idea` that is already written) are printed but do not fail.
  */
 import { estimateStorySeconds } from '@truyen/story';
+import { rewriteQueue } from './rewrite-queue-plan';
 import { type StoryFacts, checkCatalog, readCatalog, storyStatus } from './story-catalog';
 import { loadStories, storyFolders } from './story-files';
 
@@ -11,6 +12,8 @@ const { stories, errors } = loadStories();
 for (const { slug, story } of stories) {
   console.log(`✓ ${slug} (${story.shelf}): ${story.scenes.length} scenes, about ${Math.round(estimateStorySeconds(story))} s read aloud`);
 }
+
+console.log(`✓ rewrite: ${rewriteQueue(stories).length} of ${stories.length} stories still to retell whole`);
 
 const facts = new Map<string, StoryFacts | null>(storyFolders().map((slug) => [slug, null]));
 for (const { slug, story } of stories) facts.set(slug, { shelf: story.shelf, title: story.title, status: storyStatus(story) });

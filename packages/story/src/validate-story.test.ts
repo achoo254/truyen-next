@@ -24,7 +24,7 @@ describe('the stories of the repository', () => {
     expect(story.scenes.length).toBeGreaterThanOrEqual(rules.minScenes);
     expect(story.scenes.length).toBeLessThanOrEqual(rules.maxScenes);
     expect(estimateStorySeconds(story)).toBeGreaterThanOrEqual(rules.minSeconds);
-    expect(estimateStorySeconds(story)).toBeLessThanOrEqual(rules.maxSeconds);
+    if (rules.maxSeconds !== null) expect(estimateStorySeconds(story)).toBeLessThanOrEqual(rules.maxSeconds);
     if (story.shelf === 'kids') {
       expect(story.scenes[0]?.narrator).toBe('miu');
       expect(story.scenes.at(-1)?.narrator).toBe('miu');
@@ -84,14 +84,14 @@ describe('validateStory', () => {
 
   it('checks the scene count and the read-aloud length of the children\'s shelf', () => {
     const story = pilot();
-    expect(errorsOf({ ...story, scenes: story.scenes.slice(0, 5).concat(story.scenes.slice(-1)).slice(0, 5) }).join('\n')).toMatch(/5 scenes, expected 6–10 on the kids shelf/);
+    expect(errorsOf({ ...story, scenes: story.scenes.slice(0, 5).concat(story.scenes.slice(-1)).slice(0, 5) }).join('\n')).toMatch(/5 scenes, expected 6–16 on the kids shelf/);
     const padded = story.scenes.map((scene) => {
-      const narration = `${scene.narration} ${'la la la la la la la la la la.'.repeat(4)}`;
-      return { ...scene, narration, subtitles: [...scene.subtitles, ...Array.from({ length: 4 }, () => 'la la la la la la la la la la.')] };
+      const narration = `${scene.narration} ${'la la la la la la la la la la.'.repeat(16)}`;
+      return { ...scene, narration, subtitles: [...scene.subtitles, ...Array.from({ length: 16 }, () => 'la la la la la la la la la la.')] };
     });
     const longStory = { ...story, scenes: padded };
-    expect(estimateStorySeconds(longStory)).toBeGreaterThan(SHELF_RULES.kids.maxSeconds);
-    expect(errorsOf(longStory).join('\n')).toMatch(/read aloud, expected 180–360 s on the kids shelf/);
+    expect(estimateStorySeconds(longStory)).toBeGreaterThan(SHELF_RULES.kids.maxSeconds ?? Infinity);
+    expect(errorsOf(longStory).join('\n')).toMatch(/read aloud, expected 180–600 s on the kids shelf/);
   });
 
   it('requires a shelf: kids, adults or world', () => {
@@ -137,7 +137,7 @@ describe('validateStory', () => {
       'narrators.miu: "Trúc Ly" is another shelf\'s voice; the adults\' storyteller has their own',
     ]);
     // The pilot moved to the adults' shelf breaks every rule of it: Mèo Miu, two voices, too short.
-    expect(errorsOf({ ...pilot(), shelf: 'adults' }).join('\n')).toMatch(/one storyteller[\s\S]*Mèo Miu narrates only[\s\S]*Mèo Miu appears only[\s\S]*expected 360–720 s on the adults shelf/);
+    expect(errorsOf({ ...pilot(), shelf: 'adults' }).join('\n')).toMatch(/one storyteller[\s\S]*Mèo Miu narrates only[\s\S]*Mèo Miu appears only[\s\S]*expected at least 360 s on the adults shelf/);
   });
 
   it('lets an adults\' story name death and weapons, but no prompt asks for gore', () => {
@@ -149,7 +149,7 @@ describe('validateStory', () => {
     expect(errorsOf({ ...story, scenes: [{ ...first, image: { ...first.image, prompt: 'a bloody battlefield' } }, ...rest] })).toEqual([
       `scenes.${first.id}.image.prompt: no "bloody"`,
     ]);
-    expect(errorsOf({ ...story, scenes: story.scenes.slice(0, 7) }).join('\n')).toMatch(/7 scenes, expected 8–14 on the adults shelf/);
+    expect(errorsOf({ ...story, scenes: story.scenes.slice(0, 7) }).join('\n')).toMatch(/7 scenes, expected 8–16 on the adults shelf/);
   });
 
   it('tells world stories with one storyteller, Mỹ Duyên, gently enough for a child', () => {

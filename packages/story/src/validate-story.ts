@@ -9,19 +9,20 @@ import { trackErrors } from './story-track.ts';
 export interface ShelfRules {
   minScenes: number;
   maxScenes: number;
-  /** Estimated read-aloud length, in seconds. */
+  /** Estimated read-aloud length, in seconds; no upper bound when `maxSeconds` is null. */
   minSeconds: number;
-  maxSeconds: number;
+  maxSeconds: number | null;
 }
 
 /**
- * Children: six to ten scenes, three to six minutes. Adults: a fuller telling, eight to fourteen scenes, six to twelve
- * minutes. World: from a short fable (four scenes, two minutes) to a long fairy tale (twelve scenes, eight minutes).
+ * Every story is told whole: every event and character of the source, with dialogue. A scene holds as many
+ * paragraphs as it needs, so a long tale gets longer scenes, not more pictures (at most sixteen). Adults and world
+ * have no length cap; a short fable stays short. Children: the whole plot within ten minutes, as a child listens.
  */
 export const SHELF_RULES: Record<Shelf, ShelfRules> = {
-  kids: { minScenes: 6, maxScenes: 10, minSeconds: 180, maxSeconds: 360 },
-  adults: { minScenes: 8, maxScenes: 14, minSeconds: 360, maxSeconds: 720 },
-  world: { minScenes: 4, maxScenes: 12, minSeconds: 120, maxSeconds: 480 },
+  kids: { minScenes: 6, maxScenes: 16, minSeconds: 180, maxSeconds: 600 },
+  adults: { minScenes: 8, maxScenes: 16, minSeconds: 360, maxSeconds: null },
+  world: { minScenes: 4, maxScenes: 16, minSeconds: 120, maxSeconds: null },
 };
 /** A subtitle line fits two short rows on a phone. */
 export const MAX_SUBTITLE_CHARS = 90;
@@ -178,8 +179,9 @@ function crossFieldErrors(story: Story): string[] {
   }
 
   const seconds = estimateStorySeconds(story);
-  if (seconds < rules.minSeconds || seconds > rules.maxSeconds) {
-    errors.push(`scenes: about ${Math.round(seconds)} s read aloud, expected ${rules.minSeconds}–${rules.maxSeconds} s on the ${story.shelf} shelf`);
+  if (seconds < rules.minSeconds || (rules.maxSeconds !== null && seconds > rules.maxSeconds)) {
+    const expected = rules.maxSeconds === null ? `at least ${rules.minSeconds}` : `${rules.minSeconds}–${rules.maxSeconds}`;
+    errors.push(`scenes: about ${Math.round(seconds)} s read aloud, expected ${expected} s on the ${story.shelf} shelf`);
   }
 
   return errors;
