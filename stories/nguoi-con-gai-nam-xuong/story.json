@@ -3,14 +3,15 @@
   "slug": "nguoi-con-gai-nam-xuong",
   "shelf": "adults",
   "title": "Chuyện người con gái Nam Xương",
-  "summary": "Vũ Nương một mình nuôi con, phụng dưỡng mẹ chồng khi chồng đi lính. Chỉ vì một câu nói ngây thơ của đứa trẻ về chiếc bóng trên vách, người chồng ghen tuông đẩy nàng đến bến Hoàng Giang. Câu chuyện oan khuất nổi tiếng nhất của văn chương trung đại Việt Nam.",
+  "summary": "Vũ Nương một mình nuôi con, phụng dưỡng mẹ chồng khi chồng đi lính. Chỉ vì câu nói ngây thơ của đứa trẻ về người cha đêm nào cũng đến, người chồng hay ghen đuổi nàng khỏi nhà, và nàng gieo mình xuống bến Hoàng Giang. Kể trọn theo Truyền kỳ mạn lục, tới cuộc gặp dưới thủy cung và đàn giải oan bên sông.",
   "themes": [
     "gia-dinh",
     "tinh-yeu"
   ],
   "added": "2026-10-30",
+  "revised": "2026-11-07",
   "language": "vi",
-  "source": "Nam Xương nữ tử truyện trong Truyền kỳ mạn lục của Nguyễn Dữ (thế kỷ XVI), tác phẩm cổ thuộc phạm vi công cộng. Lời kể viết mới, theo sát cốt truyện gốc; không chép bản dịch hay bản kể hiện đại nào.",
+  "source": "Nam Xương nữ tử truyện trong Truyền kỳ mạn lục của Nguyễn Dữ (thế kỷ XVI), tác phẩm cổ thuộc phạm vi công cộng; cốt truyện đối chiếu với bản dịch Ngô Văn Triện trên Wikisource. Lời kể viết mới, kể trọn mọi tình tiết và lời bình của bản gốc; không chép câu chữ của bản dịch nào.",
   "basedOn": "Truyền kỳ mạn lục của Nguyễn Dữ",
   "style": "classical Vietnamese silk painting (tranh lụa) illustration, fine ink linework, soft washes of muted ochre, indigo, jade and faded rose on aged silk, gentle mist, quiet contemplative and dignified mood for adult readers, late fourteenth-century Vietnamese village life, ao giao lanh clothing, thatched and tiled roofs, rivers and bamboo, restrained emotion, no blood, no gore, no text, no letters, no watermark",
   "narrators": {
@@ -25,6 +26,12 @@
       "name": "Vũ Nương",
       "seed": 41501,
       "sheetPrompt": "Vu Nuong, a graceful young Vietnamese woman of the late fourteenth century, oval face with calm sorrowful dignity, long black hair coiled under a dark brown head wrap, plain brown cross-collar ao giao lanh over a cream inner garment and a long black skirt, simple wooden hairpin, full body, front view, plain aged silk background, character reference sheet"
+    },
+    {
+      "id": "me-truong",
+      "name": "Mẹ Trương Sinh",
+      "seed": 41506,
+      "sheetPrompt": "the mother of Truong Sinh, a frail elderly Vietnamese village woman of the late fourteenth century, kind lined face, grey hair tied in a small bun under a dark head wrap, faded brown cross-collar ao giao lanh and a black skirt, leaning on a bamboo cane, full body, front view, plain aged silk background, character reference sheet"
     },
     {
       "id": "truong-sinh",
@@ -53,105 +60,133 @@
   ],
   "scenes": [
     {
-      "id": "vu-nuong",
+      "id": "nam-xuong",
       "title": "Người con gái đất Nam Xương",
       "narrator": "ke-chuyen",
-      "narration": "Ở đất Nam Xương thuở trước có một người con gái họ Vũ, tên là Thiết, người làng quen gọi là Vũ Nương. Nàng không chỉ đẹp người mà còn đẹp nết, tính tình thùy mị, đoan trang. Trong làng có chàng Trương Sinh, con nhà giàu nhưng ít học. Mến dung hạnh của nàng, Trương Sinh xin mẹ đem một trăm lạng vàng đến hỏi cưới. Trương Sinh vốn đa nghi, đối với vợ lúc nào cũng phòng ngừa quá mức. Biết tính chồng, Vũ Nương luôn giữ gìn khuôn phép, nên trong nhà chưa từng xảy ra chuyện bất hòa.",
+      "narration": "Ở huyện Nam Xương ngày trước có một người con gái họ Vũ, tên là Thiết. Người trong làng quen gọi nàng là Vũ Nương. Nàng có dung mạo dịu dàng, tươi tắn, mà tính nết lại thuỳ mị, nết na, ai gặp cũng đem lòng quý mến.\n\nCùng làng có chàng Trương Sinh. Mến nàng vì cả dung nhan lẫn đức hạnh, Trương Sinh thưa với mẹ, xin đem một trăm lạng vàng sang hỏi cưới. Thế là Vũ Nương về làm dâu nhà họ Trương.\n\nCó điều, Trương Sinh mang một tính xấu: hay ghen. Với vợ, lúc nào chàng cũng dè chừng, canh giữ quá mức. Biết tính chồng, Vũ Nương càng giữ gìn khuôn phép. Nàng nói năng chừng mực, đi đứng cẩn trọng, nên chưa lần nào vợ chồng phải bất hoà.",
       "subtitles": [
-        "Ở đất Nam Xương thuở trước có một người con gái họ Vũ, tên là Thiết,",
-        "người làng quen gọi là Vũ Nương.",
-        "Nàng không chỉ đẹp người mà còn đẹp nết, tính tình thùy mị, đoan trang.",
-        "Trong làng có chàng Trương Sinh, con nhà giàu nhưng ít học.",
-        "Mến dung hạnh của nàng, Trương Sinh xin mẹ đem một trăm lạng vàng đến hỏi cưới.",
-        "Trương Sinh vốn đa nghi, đối với vợ lúc nào cũng phòng ngừa quá mức.",
-        "Biết tính chồng, Vũ Nương luôn giữ gìn khuôn phép,",
-        "nên trong nhà chưa từng xảy ra chuyện bất hòa."
+        "Ở huyện Nam Xương ngày trước có một người con gái họ Vũ, tên là Thiết.",
+        "Người trong làng quen gọi nàng là Vũ Nương.",
+        "Nàng có dung mạo dịu dàng, tươi tắn, mà tính nết lại thuỳ mị, nết na,",
+        "ai gặp cũng đem lòng quý mến.",
+        "Cùng làng có chàng Trương Sinh.",
+        "Mến nàng vì cả dung nhan lẫn đức hạnh, Trương Sinh thưa với mẹ,",
+        "xin đem một trăm lạng vàng sang hỏi cưới.",
+        "Thế là Vũ Nương về làm dâu nhà họ Trương.",
+        "Có điều, Trương Sinh mang một tính xấu: hay ghen.",
+        "Với vợ, lúc nào chàng cũng dè chừng, canh giữ quá mức.",
+        "Biết tính chồng, Vũ Nương càng giữ gìn khuôn phép.",
+        "Nàng nói năng chừng mực, đi đứng cẩn trọng, nên chưa lần nào vợ chồng phải bất hoà."
       ],
       "image": {
-        "character": "vu-nuong",
+        "prompt": "a riverside village of Nam Xuong in fourteenth-century Vietnam, the graceful young bride Vu Nuong in a plain brown cross-collar dress serves tea with lowered eyes in a modest courtyard, her new husband Truong Sinh sits on a bamboo bench watching her with a guarded, jealous look, areca palms and bamboo, soft morning mist",
         "seed": 52501,
-        "prompt": "a modest village courtyard by a river in late fourteenth-century Vietnam, the graceful young woman Vu Nuong pours tea with lowered eyes while her new husband Truong Sinh watches her with a guarded, suspicious look, bamboo and areca palms, soft morning mist"
+        "character": "vu-nuong"
       },
       "video": {
-        "seed": 63501,
-        "motionPrompt": "steam rises from the teacup, the woman sets the pot down quietly, the husband narrows his eyes, bamboo leaves stir in a light wind, slow camera push-in"
+        "motionPrompt": "steam rises from the teacup, the young wife sets the pot down quietly, the husband narrows his eyes, bamboo leaves stir in a light wind, slow camera push-in",
+        "seed": 63501
       },
       "voice": {}
     },
     {
       "id": "tien-chong",
-      "title": "Tiễn chồng ra trận",
+      "title": "Chén rượu tiễn chồng",
       "narrator": "ke-chuyen",
-      "narration": "Cưới nhau chưa được bao lâu thì có giặc Chiêm Thành quấy nhiễu biên giới. Triều đình bắt lính, Trương Sinh không có học nên phải đi đầu trong số những người ra trận. Hôm tiễn chồng, mẹ già dặn con giữ mình, đừng ham công danh mà liều lĩnh. Vũ Nương rót chén rượu đầy, nói với chồng: Chàng ra đi, thiếp không cầu chàng lập công, được phong quan tước. Thiếp chỉ cầu một điều: ngày về, chàng về lành lặn. Thiếp chỉ sợ chiến trận dài ngày, mẹ già ngóng mãi không thấy con, còn thiếp thì đếm từng mùa mà đợi. Nghe những lời ấy, mọi người đều rơi nước mắt.",
+      "narration": "Vợ chồng sum họp chưa được bao lâu thì triều đình có việc đi đánh Chiêm Thành, bắt lính khắp nơi. Trương Sinh tuy là con nhà dòng dõi, nhưng không có học, tên đã ghi vào sổ trai tráng, nên phải ra lính ngay trong đợt đầu.\n\nHôm chàng lên đường, bà mẹ già gọi con lại mà dặn: “Nay con phải đi tòng quân, xa mẹ. Người ta bảo ra trận là dịp lập công danh hiếm có. Nhưng ở chốn gươm giáo, con phải biết giữ lấy thân. Thấy mồi thơm thì đừng vội lao vào, kẻo mắc lưới như con cá. Chức cao tước lớn, cứ nhường cho người khác. Con làm được như thế thì mẹ ở nhà mới đỡ lo.”\n\nTrương Sinh quỳ xuống đất, vâng lời mẹ dạy.\n\nVũ Nương rót một chén rượu đầy, hai tay dâng chồng, rồi nói: “Chàng đi chuyến này, thiếp không dám mong chàng được đeo ấn phong hầu, áo gấm về làng. Thiếp chỉ mong một điều: ngày chàng về, chàng được bình yên vô sự. Như thế là thiếp mãn nguyện rồi. Thiếp chỉ lo việc binh khó đoán, thế giặc khó lường. Tháng ngày dằng dặc, tin tức xa xôi. Nơi biên ải mưa tuyết gió rét, chàng dầm dãi một thân, thiếp ở nhà nghĩ tới mà lạnh cả lòng. Vì chàng mà thiếp rơi lệ, vì chàng mà thân thiếp phải lẻ loi.”\n\nNàng nói tới đó, những người đứng quanh ai cũng ứa nước mắt.\n\nChén rượu vừa cạn, ngựa đã lên đường. Bóng cờ, tiếng trống nhỏ dần nơi cuối nẻo, để lại nỗi buồn dài nơi cửa nhà.",
       "subtitles": [
-        "Cưới nhau chưa được bao lâu thì có giặc Chiêm Thành quấy nhiễu biên giới.",
-        "Triều đình bắt lính,",
-        "Trương Sinh không có học nên phải đi đầu trong số những người ra trận.",
-        "Hôm tiễn chồng, mẹ già dặn con giữ mình, đừng ham công danh mà liều lĩnh.",
-        "Vũ Nương rót chén rượu đầy, nói với chồng:",
-        "Chàng ra đi, thiếp không cầu chàng lập công, được phong quan tước.",
-        "Thiếp chỉ cầu một điều: ngày về, chàng về lành lặn.",
-        "Thiếp chỉ sợ chiến trận dài ngày, mẹ già ngóng mãi không thấy con,",
-        "còn thiếp thì đếm từng mùa mà đợi.",
-        "Nghe những lời ấy, mọi người đều rơi nước mắt."
+        "Vợ chồng sum họp chưa được bao lâu thì triều đình có việc đi đánh Chiêm Thành,",
+        "bắt lính khắp nơi.",
+        "Trương Sinh tuy là con nhà dòng dõi, nhưng không có học, tên đã ghi vào sổ trai tráng,",
+        "nên phải ra lính ngay trong đợt đầu.",
+        "Hôm chàng lên đường, bà mẹ già gọi con lại mà dặn: “Nay con phải đi tòng quân, xa mẹ.",
+        "Người ta bảo ra trận là dịp lập công danh hiếm có.",
+        "Nhưng ở chốn gươm giáo, con phải biết giữ lấy thân.",
+        "Thấy mồi thơm thì đừng vội lao vào, kẻo mắc lưới như con cá.",
+        "Chức cao tước lớn, cứ nhường cho người khác.",
+        "Con làm được như thế thì mẹ ở nhà mới đỡ lo.”",
+        "Trương Sinh quỳ xuống đất, vâng lời mẹ dạy.",
+        "Vũ Nương rót một chén rượu đầy, hai tay dâng chồng, rồi nói: “Chàng đi chuyến này,",
+        "thiếp không dám mong chàng được đeo ấn phong hầu, áo gấm về làng.",
+        "Thiếp chỉ mong một điều: ngày chàng về, chàng được bình yên vô sự.",
+        "Như thế là thiếp mãn nguyện rồi.",
+        "Thiếp chỉ lo việc binh khó đoán, thế giặc khó lường.",
+        "Tháng ngày dằng dặc, tin tức xa xôi.",
+        "Nơi biên ải mưa tuyết gió rét, chàng dầm dãi một thân,",
+        "thiếp ở nhà nghĩ tới mà lạnh cả lòng.",
+        "Vì chàng mà thiếp rơi lệ, vì chàng mà thân thiếp phải lẻ loi.”",
+        "Nàng nói tới đó, những người đứng quanh ai cũng ứa nước mắt.",
+        "Chén rượu vừa cạn, ngựa đã lên đường.",
+        "Bóng cờ, tiếng trống nhỏ dần nơi cuối nẻo, để lại nỗi buồn dài nơi cửa nhà."
       ],
       "image": {
-        "character": "vu-nuong",
+        "prompt": "at a misty village crossroads at dawn, Vu Nuong offers a small cup of wine with both hands to her husband Truong Sinh dressed as a conscripted soldier, his aged mother leaning on a cane beside them, Truong Sinh kneeling before his mother, war banners and drums of departing troops fading into the haze",
         "seed": 52502,
-        "prompt": "at a misty river landing at dawn, Vu Nuong offers a small cup of wine with both hands to her husband Truong Sinh dressed as a conscripted soldier with a bundle on his back, his aged mother leaning on a cane beside them, other soldiers boarding boats in the haze"
+        "character": "vu-nuong"
       },
       "video": {
-        "seed": 63502,
-        "motionPrompt": "mist drifts over the water, the husband takes the cup slowly, the mother wipes her eyes, boats rock gently at the landing, a slow sideways camera pan"
+        "motionPrompt": "mist drifts across the road, the husband lifts the cup slowly, the mother wipes her eyes, distant banners flutter and move away, slow sideways camera pan",
+        "seed": 63502
       },
       "voice": {}
     },
     {
-      "id": "o-nha",
-      "title": "Một mình nuôi mẹ, nuôi con",
+      "id": "con-tho",
+      "title": "Đứa con và nỗi nhớ",
       "narrator": "ke-chuyen",
-      "narration": "Chồng đi được ít ngày thì Vũ Nương sinh một bé trai, đặt tên là Đản. Ngày qua tháng lại, thấy bướm lượn đầy vườn, mây che kín núi, nỗi nhớ chồng trong nàng chẳng lúc nào nguôi. Mẹ chồng thương nhớ con mà sinh bệnh. Nàng hết lòng thuốc thang, lễ bái thần phật, lấy lời ngọt ngào khuyên lơn mẹ. Bệnh mẹ ngày một nặng. Trước lúc ra đi, bà cầm tay con dâu mà nói: Con ở với mẹ hết lòng, trời cao có mắt, ắt sẽ không bạc đãi con. Vũ Nương hết lời thương xót, lo ma chay tế lễ chu đáo như với cha mẹ đẻ của mình.",
+      "narration": "Lúc tiễn chồng, Vũ Nương đã mang thai. Chồng đi được chừng mười ngày thì nàng sinh một bé trai, đặt tên là Đản.\n\nNgày qua tháng lại, thoắt cái đã nửa năm. Mỗi lần thấy bướm lượn ngoài vườn, mây sẫm phủ kín đầu non, lòng nàng lại cồn lên nỗi nhớ người chồng đang ở tận chân trời góc bể. Nỗi buồn ấy chẳng có cách gì ngăn được.\n\nBà mẹ chồng cũng vì nhớ con mà sinh ốm, rồi ốm mỗi ngày một nặng. Vũ Nương hết lòng chạy chữa thuốc thang, đi lễ bái thần phật cầu cho mẹ, lại lựa những lời ngọt ngào, khéo léo mà khuyên giải. Một mình nàng vừa chăm mẹ già, vừa nuôi con nhỏ.",
       "subtitles": [
-        "Chồng đi được ít ngày thì Vũ Nương sinh một bé trai, đặt tên là Đản.",
-        "Ngày qua tháng lại, thấy bướm lượn đầy vườn, mây che kín núi,",
-        "nỗi nhớ chồng trong nàng chẳng lúc nào nguôi.",
-        "Mẹ chồng thương nhớ con mà sinh bệnh. Nàng hết lòng thuốc thang, lễ bái thần phật,",
-        "lấy lời ngọt ngào khuyên lơn mẹ.",
-        "Bệnh mẹ ngày một nặng. Trước lúc ra đi, bà cầm tay con dâu mà nói:",
-        "Con ở với mẹ hết lòng, trời cao có mắt, ắt sẽ không bạc đãi con.",
-        "Vũ Nương hết lời thương xót, lo ma chay tế lễ chu đáo như với cha mẹ đẻ của mình."
+        "Lúc tiễn chồng, Vũ Nương đã mang thai.",
+        "Chồng đi được chừng mười ngày thì nàng sinh một bé trai, đặt tên là Đản.",
+        "Ngày qua tháng lại, thoắt cái đã nửa năm.",
+        "Mỗi lần thấy bướm lượn ngoài vườn, mây sẫm phủ kín đầu non,",
+        "lòng nàng lại cồn lên nỗi nhớ người chồng đang ở tận chân trời góc bể.",
+        "Nỗi buồn ấy chẳng có cách gì ngăn được.",
+        "Bà mẹ chồng cũng vì nhớ con mà sinh ốm, rồi ốm mỗi ngày một nặng.",
+        "Vũ Nương hết lòng chạy chữa thuốc thang, đi lễ bái thần phật cầu cho mẹ,",
+        "lại lựa những lời ngọt ngào, khéo léo mà khuyên giải.",
+        "Một mình nàng vừa chăm mẹ già, vừa nuôi con nhỏ."
       ],
       "image": {
-        "character": "vu-nuong",
+        "prompt": "a quiet thatched house garden in late summer, Vu Nuong holding her baby son on her hip gazes past butterflies toward distant mountains wrapped in dark clouds, through the open door her ailing mother-in-law rests on a bamboo bed with a bowl of herbal medicine nearby",
         "seed": 52503,
-        "prompt": "inside a dim thatched house, Vu Nuong kneels beside her ailing mother-in-law on a bamboo bed, holding a bowl of herbal medicine, a baby boy sleeping in a cradle nearby, an oil lamp, butterflies and clouded mountains glimpsed through the window"
+        "character": "vu-nuong"
       },
       "video": {
-        "seed": 63503,
-        "motionPrompt": "the lamp flame trembles softly, the old woman reaches out and holds the young woman hand, the cradle sways, clouds drift past the mountains outside"
+        "motionPrompt": "butterflies flutter over the garden, clouds roll slowly over the far mountains, the baby stirs in her arms, a light breeze moves her sleeves, slow camera push-in",
+        "seed": 63503
       },
       "voice": {}
     },
     {
-      "id": "chiec-bong",
-      "title": "Chiếc bóng trên vách",
+      "id": "loi-troi",
+      "title": "Lời trối của mẹ",
       "narrator": "ke-chuyen",
-      "narration": "Những đêm dài một mình, Vũ Nương ngồi bên ngọn đèn dầu, ôm con vào lòng. Bé Đản hay hỏi cha đâu. Muốn con khỏi tủi thân, nàng trỏ chiếc bóng của mình in trên vách mà bảo: Cha Đản đấy. Cha đến với con đấy. Đứa trẻ tin là thật. Từ đó, đêm nào nó cũng nhìn lên vách mà cười.",
+      "narration": "Nhưng thuốc thang không giữ được tuổi già. Biết mình không qua khỏi, bà cụ cầm tay con dâu mà trối lại:\n\n“Sống ngắn hay dài là có số, tươi hay héo là do trời. Mẹ đâu phải không muốn đợi chồng con về, để cả nhà được sum vầy. Nhưng tuổi thọ có hạn, số trời khó tránh. Ngọn đèn đã cạn dầu, mẹ chẳng còn được bao lâu. Tấm thân già này sớm tối chẳng biết ra sao, cứ phải phiền đến con. Chồng con ở xa, mẹ đi lúc nào nó cũng chẳng kịp về mà báo đáp. Sau này trời thương người hiền, sẽ ban phúc cho con, cho dòng giống tốt tươi, con cháu đông đàn. Trời xanh kia chắc chắn không phụ con, cũng như con đã chẳng nỡ phụ mẹ.”\n\nNói xong, bà cụ nhắm mắt qua đời.\n\nVũ Nương thương xót khôn nguôi. Mọi việc ma chay, cúng tế, nàng lo liệu chu đáo, như đối với chính cha mẹ đẻ của mình.",
       "subtitles": [
-        "Những đêm dài một mình, Vũ Nương ngồi bên ngọn đèn dầu, ôm con vào lòng.",
-        "Bé Đản hay hỏi cha đâu. Muốn con khỏi tủi thân,",
-        "nàng trỏ chiếc bóng của mình in trên vách mà bảo:",
-        "Cha Đản đấy. Cha đến với con đấy.",
-        "Đứa trẻ tin là thật. Từ đó, đêm nào nó cũng nhìn lên vách mà cười."
+        "Nhưng thuốc thang không giữ được tuổi già.",
+        "Biết mình không qua khỏi, bà cụ cầm tay con dâu mà trối lại: “Sống ngắn hay dài là có số,",
+        "tươi hay héo là do trời.",
+        "Mẹ đâu phải không muốn đợi chồng con về, để cả nhà được sum vầy.",
+        "Nhưng tuổi thọ có hạn, số trời khó tránh.",
+        "Ngọn đèn đã cạn dầu, mẹ chẳng còn được bao lâu.",
+        "Tấm thân già này sớm tối chẳng biết ra sao, cứ phải phiền đến con.",
+        "Chồng con ở xa, mẹ đi lúc nào nó cũng chẳng kịp về mà báo đáp.",
+        "Sau này trời thương người hiền, sẽ ban phúc cho con, cho dòng giống tốt tươi,",
+        "con cháu đông đàn.",
+        "Trời xanh kia chắc chắn không phụ con, cũng như con đã chẳng nỡ phụ mẹ.”",
+        "Nói xong, bà cụ nhắm mắt qua đời.",
+        "Vũ Nương thương xót khôn nguôi.",
+        "Mọi việc ma chay, cúng tế, nàng lo liệu chu đáo, như đối với chính cha mẹ đẻ của mình."
       ],
       "image": {
-        "character": "be-dan",
+        "prompt": "inside a dim thatched house by the light of an oil lamp, the frail old mother lies on a bamboo bed and holds the hand of her kneeling daughter-in-law Vu Nuong, a small boy asleep on a mat nearby, an incense burner on a simple altar",
         "seed": 52504,
-        "prompt": "night inside a quiet thatched house, Vu Nuong sits beside a small oil lamp holding her little son Dan on her lap, she points to her own large soft shadow cast on the earthen wall, the child looks up at the shadow with wonder"
+        "character": "me-truong"
       },
       "video": {
-        "seed": 63504,
-        "motionPrompt": "the lamp flame flickers and the shadow on the wall wavers gently, the boy reaches toward it and smiles, the mother strokes his hair, very slow camera push-in"
+        "motionPrompt": "the lamp flame trembles softly, the old woman tightens her grip on the young woman hand then slowly lets go, incense smoke curls upward, very slow camera push-in",
+        "seed": 63504
       },
       "voice": {}
     },
@@ -159,213 +194,333 @@
       "id": "tro-ve",
       "title": "Ngày trở về",
       "narrator": "ke-chuyen",
-      "narration": "Năm sau, giặc tan, Trương Sinh trở về. Biết tin mẹ đã mất, chàng đau lòng lắm. Chàng bế con ra thăm mộ mẹ. Đứa bé quấy khóc, chàng dỗ: Nín đi con, đừng khóc, cha về rồi. Đứa bé tròn mắt: Ông mà cũng là cha Đản à? Cha Đản có biết nói đâu. Trương Sinh gặng hỏi. Đứa bé kể: Tối nào cha Đản cũng đến, chẳng nói câu nào. Mẹ đứng dậy thì cha đứng dậy, mẹ ngồi xuống thì cha ngồi xuống. Mà cha chưa bế Đản lần nào.",
+      "narration": "Sang năm sau, giặc Chiêm thua trận, quân ta kéo về. Trương Sinh về tới nhà thì mẹ đã mất, còn đứa con trai thì vừa mới tập nói.\n\nChàng hỏi nơi chôn mẹ, rồi bế đứa con nhỏ đi viếng mộ. Ra tới cánh đồng, đứa bé cứ quấy khóc mãi. Chàng vừa vỗ về vừa dỗ: “Con nín đi, đừng khóc nữa. Cha về thì bà đã không còn, lòng cha đau khổ lắm rồi.”\n\nĐứa trẻ ngây thơ ngẩng lên nhìn chàng mà nói: “Ơ hay, thế ra ông cũng là cha tôi à? Ông lại biết nói, chứ cha tôi ngày trước chỉ im thin thít thôi.”\n\nTrương Sinh sững người, gặng hỏi. Đứa bé kể: “Hồi ông chưa về, có một người đàn ông đêm nào cũng đến. Mẹ Đản đi thì ông ấy cũng đi, mẹ Đản ngồi thì ông ấy cũng ngồi. Nhưng chẳng bao giờ ông ấy bế Đản cả.”",
       "subtitles": [
-        "Năm sau, giặc tan, Trương Sinh trở về. Biết tin mẹ đã mất, chàng đau lòng lắm.",
-        "Chàng bế con ra thăm mộ mẹ. Đứa bé quấy khóc, chàng dỗ:",
-        "Nín đi con, đừng khóc, cha về rồi.",
-        "Đứa bé tròn mắt: Ông mà cũng là cha Đản à? Cha Đản có biết nói đâu.",
-        "Trương Sinh gặng hỏi. Đứa bé kể: Tối nào cha Đản cũng đến, chẳng nói câu nào.",
-        "Mẹ đứng dậy thì cha đứng dậy,",
-        "mẹ ngồi xuống thì cha ngồi xuống. Mà cha chưa bế Đản lần nào."
+        "Sang năm sau, giặc Chiêm thua trận, quân ta kéo về.",
+        "Trương Sinh về tới nhà thì mẹ đã mất, còn đứa con trai thì vừa mới tập nói.",
+        "Chàng hỏi nơi chôn mẹ, rồi bế đứa con nhỏ đi viếng mộ.",
+        "Ra tới cánh đồng, đứa bé cứ quấy khóc mãi.",
+        "Chàng vừa vỗ về vừa dỗ: “Con nín đi, đừng khóc nữa.",
+        "Cha về thì bà đã không còn, lòng cha đau khổ lắm rồi.”",
+        "Đứa trẻ ngây thơ ngẩng lên nhìn chàng mà nói: “Ơ hay, thế ra ông cũng là cha tôi à?",
+        "Ông lại biết nói, chứ cha tôi ngày trước chỉ im thin thít thôi.”",
+        "Trương Sinh sững người, gặng hỏi.",
+        "Đứa bé kể: “Hồi ông chưa về, có một người đàn ông đêm nào cũng đến.",
+        "Mẹ Đản đi thì ông ấy cũng đi, mẹ Đản ngồi thì ông ấy cũng ngồi.",
+        "Nhưng chẳng bao giờ ông ấy bế Đản cả.”"
       ],
       "image": {
-        "character": "be-dan",
+        "prompt": "in an open field of tall grass under a grey sky, Truong Sinh in a worn soldier tunic carries his small son Dan toward a simple grave mound, the toddler pulls away and stares at him doubtfully, incense sticks smoking at the grave, distant bamboo groves",
         "seed": 52505,
-        "prompt": "by a simple grave mound in a field of tall grass, Truong Sinh in a worn soldier tunic holds his small son Dan who pulls away and looks at him doubtfully, incense smoke rising, a grey overcast sky over distant bamboo"
+        "character": "be-dan"
       },
       "video": {
-        "seed": 63505,
-        "motionPrompt": "incense smoke curls upward, the child turns his face away, the man frowns and his grip tightens, grass bends in the wind, slow camera push-in"
+        "motionPrompt": "grass bends in the wind, incense smoke curls upward, the child turns his face away and points, the man frowns and stops walking, slow camera push-in",
+        "seed": 63505
       },
       "voice": {}
     },
     {
-      "id": "nghi-ngo",
-      "title": "Lòng ghen mù quáng",
+      "id": "long-ghen",
+      "title": "Lòng ghen",
       "narrator": "ke-chuyen",
-      "narration": "Tính vốn hay ghen, nghe con nói vậy, Trương Sinh đinh ninh là vợ hư hỏng. Chàng không hỏi han ai, về nhà la mắng, nói ra những lời nhục mạ, rồi đánh đuổi nàng đi. Họ hàng, làng xóm bênh vực nàng, chàng cũng không nghe. Vũ Nương vừa khóc vừa phân trần: Thiếp xuất thân nghèo khó, về nhà chàng là được chỗ nương thân. Suốt những năm chàng đi, thiếp một lòng chờ đợi, chưa hề làm điều gì để người ta chê trách. Có điều gì chàng cứ nói ra, xin đừng vội kết tội thiếp. Nhưng Trương Sinh vẫn không tin, cũng không nói rõ vì đâu mà ngờ vực.",
+      "narration": "Tính Trương Sinh vốn hay ghen. Nghe con nói vậy, chàng đinh ninh vợ mình đã hư hỏng, chẳng ai còn gỡ được mối ngờ ấy ra khỏi đầu chàng nữa.\n\nVề tới nhà, chàng mắng vợ một trận cho hả giận. Vũ Nương khóc mà nói: “Thiếp vốn con nhà nghèo, được về làm dâu nhà giàu sang. Vợ chồng sum họp chưa được bao lâu thì đã chia lìa vì chuyện binh đao. Ba năm xa cách, thiếp một lòng giữ trọn tiết hạnh. Son phấn, thiếp đã chẳng thiết đến. Những chốn trăng hoa, thiếp chưa từng đặt chân. Đâu có chuyện thất tiết hư thân như lời chàng nói. Thiếp xin được bày tỏ ngay thẳng để chàng hết ngờ. Mong chàng đừng một mực đổ oan cho thiếp.”\n\nNhưng chàng vẫn không tin. Nàng hỏi chàng nghe chuyện ấy từ đâu, chàng giấu biệt, không kể lời đứa con. Chàng chỉ ngày ngày mắng mỏ, nhiếc móc, rồi đánh đuổi nàng đi. Họ hàng, làng xóm đứng ra bênh vực, phân giải cho nàng, cũng chẳng ăn thua gì.",
       "subtitles": [
-        "Tính vốn hay ghen, nghe con nói vậy, Trương Sinh đinh ninh là vợ hư hỏng.",
-        "Chàng không hỏi han ai, về nhà la mắng, nói ra những lời nhục mạ, rồi đánh đuổi nàng đi.",
-        "Họ hàng, làng xóm bênh vực nàng, chàng cũng không nghe.",
-        "Vũ Nương vừa khóc vừa phân trần: Thiếp xuất thân nghèo khó,",
-        "về nhà chàng là được chỗ nương thân.",
-        "Suốt những năm chàng đi, thiếp một lòng chờ đợi,",
-        "chưa hề làm điều gì để người ta chê trách.",
-        "Có điều gì chàng cứ nói ra, xin đừng vội kết tội thiếp.",
-        "Nhưng Trương Sinh vẫn không tin, cũng không nói rõ vì đâu mà ngờ vực."
+        "Tính Trương Sinh vốn hay ghen.",
+        "Nghe con nói vậy, chàng đinh ninh vợ mình đã hư hỏng,",
+        "chẳng ai còn gỡ được mối ngờ ấy ra khỏi đầu chàng nữa.",
+        "Về tới nhà, chàng mắng vợ một trận cho hả giận.",
+        "Vũ Nương khóc mà nói: “Thiếp vốn con nhà nghèo, được về làm dâu nhà giàu sang.",
+        "Vợ chồng sum họp chưa được bao lâu thì đã chia lìa vì chuyện binh đao.",
+        "Ba năm xa cách, thiếp một lòng giữ trọn tiết hạnh.",
+        "Son phấn, thiếp đã chẳng thiết đến.",
+        "Những chốn trăng hoa, thiếp chưa từng đặt chân.",
+        "Đâu có chuyện thất tiết hư thân như lời chàng nói.",
+        "Thiếp xin được bày tỏ ngay thẳng để chàng hết ngờ.",
+        "Mong chàng đừng một mực đổ oan cho thiếp.”",
+        "Nhưng chàng vẫn không tin.",
+        "Nàng hỏi chàng nghe chuyện ấy từ đâu, chàng giấu biệt, không kể lời đứa con.",
+        "Chàng chỉ ngày ngày mắng mỏ, nhiếc móc, rồi đánh đuổi nàng đi.",
+        "Họ hàng, làng xóm đứng ra bênh vực, phân giải cho nàng, cũng chẳng ăn thua gì."
       ],
       "image": {
-        "character": "truong-sinh",
+        "prompt": "inside the family house, Truong Sinh stands with an angry arm pointing toward the door, Vu Nuong kneels in tears with hands clasped in plea, relatives and village elders crowd the doorway raising their hands to speak for her, little Dan clutching a wooden post in confusion",
         "seed": 52506,
-        "prompt": "inside the house, Truong Sinh stands with an angry pointing arm toward the door, Vu Nuong kneels with her face lowered and hands clasped in plea, neighbours and elders at the doorway raise their hands to intervene, little Dan clutching a post in confusion"
+        "character": "truong-sinh"
       },
       "video": {
-        "seed": 63506,
-        "motionPrompt": "the man jabs his finger toward the door, the kneeling woman bows lower, the elders step forward pleading, the hanging lamp sways, tense still camera"
+        "motionPrompt": "the man jabs his finger toward the door, the kneeling woman bows lower, the elders step forward pleading, a hanging lamp sways, tense still camera",
+        "seed": 63506
       },
       "voice": {}
     },
     {
-      "id": "ben-hoang-giang",
-      "title": "Bến Hoàng Giang",
+      "id": "tram-gay",
+      "title": "Bình rơi trâm gãy",
       "narrator": "ke-chuyen",
-      "narration": "Biết không còn cách nào giãi bày, Vũ Nương tắm gội sạch sẽ, rồi một mình ra bến Hoàng Giang. Nàng ngửa mặt lên trời mà khấn: Trời cao xin soi xét. Nếu thiếp trong sạch, thì dưới sông này xin được hóa ngọc như nàng Mị Nương, lên bờ xin hóa cỏ như nàng Ngu Mỹ. Còn nếu thiếp từng phụ chồng, dối con, thì cá tôm dưới nước, chim chóc trên trời, cứ việc mà xâu xé. Khấn xong, nàng gieo mình xuống dòng sông. Mặt nước khép lại, chỉ còn những vòng sóng nhỏ loang dần vào bóng chiều.",
+      "narration": "Đến nước ấy, Vũ Nương không còn cách nào khác, đành nói với chồng: “Thiếp nương tựa vào chàng là mong có một mái nhà êm ấm, vợ chồng hoà thuận. Đâu ngờ tình nghĩa mỏng manh như chiếc lá, còn lời gièm pha thì chất cao như núi. Giờ đây bình đã vỡ, trâm đã gãy, mây đã tạnh, mưa đã tan. Thiếp nay như sen úa giữa ao, như liễu héo trong gió, như hoa lìa cành giữa tuyết lạnh, như con én lạc tổ giữa mùa xuân. Nước đã sâu, buồm đã xa, thiếp còn đâu mà lên núi Vọng Phu được nữa.”\n\nNgày xưa có người vợ lấy chồng lâu năm không con, bị chồng rẫy bỏ. Nàng làm bài thơ từ biệt, nói rằng mình không còn lòng nào lên núi Vọng Phu, khiến người chồng động lòng mà giữ vợ ở lại. Vũ Nương nhắc tích ấy, nhưng Trương Sinh vẫn không đổi ý.",
       "subtitles": [
-        "Biết không còn cách nào giãi bày, Vũ Nương tắm gội sạch sẽ,",
-        "rồi một mình ra bến Hoàng Giang. Nàng ngửa mặt lên trời mà khấn:",
-        "Trời cao xin soi xét. Nếu thiếp trong sạch,",
-        "thì dưới sông này xin được hóa ngọc như nàng Mị Nương,",
-        "lên bờ xin hóa cỏ như nàng Ngu Mỹ.",
-        "Còn nếu thiếp từng phụ chồng, dối con, thì cá tôm dưới nước,",
-        "chim chóc trên trời, cứ việc mà xâu xé.",
-        "Khấn xong, nàng gieo mình xuống dòng sông.",
-        "Mặt nước khép lại, chỉ còn những vòng sóng nhỏ loang dần vào bóng chiều."
+        "Đến nước ấy, Vũ Nương không còn cách nào khác, đành nói với chồng:",
+        "“Thiếp nương tựa vào chàng là mong có một mái nhà êm ấm, vợ chồng hoà thuận.",
+        "Đâu ngờ tình nghĩa mỏng manh như chiếc lá, còn lời gièm pha thì chất cao như núi.",
+        "Giờ đây bình đã vỡ, trâm đã gãy, mây đã tạnh, mưa đã tan.",
+        "Thiếp nay như sen úa giữa ao, như liễu héo trong gió, như hoa lìa cành giữa tuyết lạnh,",
+        "như con én lạc tổ giữa mùa xuân.",
+        "Nước đã sâu, buồm đã xa, thiếp còn đâu mà lên núi Vọng Phu được nữa.”",
+        "Ngày xưa có người vợ lấy chồng lâu năm không con, bị chồng rẫy bỏ.",
+        "Nàng làm bài thơ từ biệt, nói rằng mình không còn lòng nào lên núi Vọng Phu,",
+        "khiến người chồng động lòng mà giữ vợ ở lại.",
+        "Vũ Nương nhắc tích ấy, nhưng Trương Sinh vẫn không đổi ý."
       ],
       "image": {
-        "character": "vu-nuong",
+        "prompt": "Vu Nuong alone in a dim room, a broken hairpin and a fallen vase on the floor before her, she gazes through a lattice window at a faded lotus pond and a wind-bent willow, a lone swallow in the grey sky, quiet desolation",
         "seed": 52507,
-        "prompt": "at dusk on the wide misty bank of the Hoang Giang river, the lone figure of Vu Nuong in plain brown clothes stands at the edge of a wooden landing with face lifted to the pale sky, reeds and a single drifting boat, a calm melancholy scene seen from a distance"
+        "character": "vu-nuong"
       },
       "video": {
-        "seed": 63507,
-        "motionPrompt": "the reeds bend slowly, the woman lifts her face to the sky, mist rolls over the water, the light fades, gentle rings spread on the calm river surface, slow camera pull-back"
+        "motionPrompt": "willow branches sway in the wind, wilted lotus leaves tremble on the pond, a single swallow circles and flies away, the woman lowers her eyes, slow camera pull-back",
+        "seed": 63507
       },
       "voice": {}
     },
     {
-      "id": "su-that",
-      "title": "Cha Đản lại đến kia kìa",
+      "id": "hoang-giang",
+      "title": "Lời thề bên bến Hoàng Giang",
       "narrator": "ke-chuyen",
-      "narration": "Trương Sinh tuy giận vợ, nhưng cũng động lòng thương, cho người mò tìm xác nàng mà không thấy. Một đêm, chàng ngồi bên ngọn đèn với con. Bỗng đứa bé trỏ lên chiếc bóng của chàng in trên vách, reo lên: Cha Đản lại đến kia kìa! Trương Sinh lặng người. Người cha đêm đêm đến ngồi cạnh mẹ con nó, hóa ra chỉ là cái bóng in trên vách. Trương Sinh tỉnh ngộ thì việc đã rồi. Chàng thấu nỗi oan của vợ, đau đớn mà hối hận.",
+      "narration": "Rồi nàng tắm gội chay sạch, một mình ra bến Hoàng Giang. Đứng trước dòng sông, nàng ngửa mặt lên trời mà than:\n\n“Thiếp phận mỏng duyên hẩm, bị chồng con ruồng bỏ, mang tiếng nhơ nhuốc mà chẳng biết từ đâu. Thần sông nếu có linh thiêng, xin chứng giám cho. Nếu thiếp đoan chính, giữ trọn tiết trinh, thì xuống nước xin làm viên ngọc như nàng Mỵ Nương, lên đất xin làm ngọn cỏ như nàng Ngu Mỹ Nhân. Còn nếu thiếp lòng dạ đổi thay, lừa chồng dối con, thì dưới nước xin làm mồi cho tôm cá, trên trời xin làm mồi cho diều quạ, và chịu cho người đời phỉ nhổ.”\n\nMỵ Nương là con gái vua An Dương Vương, vì lòng ngay mà chịu oan, hoá thành ngọc trai dưới biển. Ngu Mỹ Nhân là vợ Hạng Vũ, tự vẫn theo chồng, hồn hoá thành khóm cỏ trên mộ. Vũ Nương mượn hai người đàn bà ấy để tỏ lòng mình.\n\nKhấn xong, nàng gieo mình xuống dòng sông.\n\nTrương Sinh tuy vẫn giận vợ thất tiết, nhưng thấy nàng tự tận thì cũng động lòng thương. Chàng cho người mò tìm xác nàng, nhưng tìm mãi chẳng thấy tăm hơi.",
       "subtitles": [
-        "Trương Sinh tuy giận vợ, nhưng cũng động lòng thương,",
-        "cho người mò tìm xác nàng mà không thấy.",
-        "Một đêm, chàng ngồi bên ngọn đèn với con.",
-        "Bỗng đứa bé trỏ lên chiếc bóng của chàng in trên vách, reo lên:",
-        "Cha Đản lại đến kia kìa!",
-        "Trương Sinh lặng người. Người cha đêm đêm đến ngồi cạnh mẹ con nó,",
-        "hóa ra chỉ là cái bóng in trên vách.",
-        "Trương Sinh tỉnh ngộ thì việc đã rồi. Chàng thấu nỗi oan của vợ, đau đớn mà hối hận."
+        "Rồi nàng tắm gội chay sạch, một mình ra bến Hoàng Giang.",
+        "Đứng trước dòng sông, nàng ngửa mặt lên trời mà than: “Thiếp phận mỏng duyên hẩm,",
+        "bị chồng con ruồng bỏ, mang tiếng nhơ nhuốc mà chẳng biết từ đâu.",
+        "Thần sông nếu có linh thiêng, xin chứng giám cho.",
+        "Nếu thiếp đoan chính, giữ trọn tiết trinh,",
+        "thì xuống nước xin làm viên ngọc như nàng Mỵ Nương,",
+        "lên đất xin làm ngọn cỏ như nàng Ngu Mỹ Nhân.",
+        "Còn nếu thiếp lòng dạ đổi thay, lừa chồng dối con, thì dưới nước xin làm mồi cho tôm cá,",
+        "trên trời xin làm mồi cho diều quạ, và chịu cho người đời phỉ nhổ.”",
+        "Mỵ Nương là con gái vua An Dương Vương, vì lòng ngay mà chịu oan,",
+        "hoá thành ngọc trai dưới biển.",
+        "Ngu Mỹ Nhân là vợ Hạng Vũ, tự vẫn theo chồng, hồn hoá thành khóm cỏ trên mộ.",
+        "Vũ Nương mượn hai người đàn bà ấy để tỏ lòng mình.",
+        "Khấn xong, nàng gieo mình xuống dòng sông.",
+        "Trương Sinh tuy vẫn giận vợ thất tiết, nhưng thấy nàng tự tận thì cũng động lòng thương.",
+        "Chàng cho người mò tìm xác nàng, nhưng tìm mãi chẳng thấy tăm hơi."
       ],
       "image": {
-        "character": "truong-sinh",
+        "prompt": "at dusk on the wide misty bank of the Hoang Giang river, the lone figure of Vu Nuong in a plain clean robe stands at the edge of a wooden landing with face lifted to the pale sky, hands joined in prayer, reeds and a single empty boat, a calm melancholy scene seen from a distance",
         "seed": 52508,
-        "prompt": "night in the same thatched house, Truong Sinh sits by the oil lamp with little Dan, the boy points happily at the man large shadow on the earthen wall, the man turns to look at the shadow with dawning horror and regret on his face"
+        "character": "vu-nuong"
       },
       "video": {
-        "seed": 63508,
-        "motionPrompt": "the lamp flickers and the shadow on the wall shifts, the boy points and laughs, the man slowly turns his head and lowers it into his hands, very slow camera push-in"
+        "motionPrompt": "the reeds bend slowly, the woman lifts her face to the sky, mist rolls over the water, the light fades, gentle rings spread on the calm river surface, slow camera pull-back",
+        "seed": 63508
       },
       "voice": {}
     },
     {
-      "id": "phan-lang",
-      "title": "Con rùa xanh năm trước",
+      "id": "bong-tren-vach",
+      "title": "Cha Đản lại đến",
       "narrator": "ke-chuyen",
-      "narration": "Cùng làng với Vũ Nương có Phan Lang. Một đêm, chàng nằm mộng thấy một người con gái áo xanh đến xin tha mạng. Sáng ra, có người đánh cá bắt được một con rùa mai xanh. Phan Lang nhớ giấc mộng, mua rùa đem thả. Về sau, cuối đời nhà Hồ, giặc Minh sang, dân làng chạy giặc ra biển. Thuyền đắm, Phan Lang dạt vào một hòn đảo, rồi được đưa xuống thủy cung. Người cứu chàng là Linh Phi, vợ vua biển Nam Hải, chính là con rùa xanh năm xưa.",
+      "narration": "Một đêm, căn phòng vắng vẻ, Trương Sinh ngồi buồn bên ngọn đèn khuya, đứa con ở bên cạnh. Bỗng đứa bé reo lên: “Ô, cha Đản lại đến rồi kìa!”\n\nChàng hỏi: “Đâu?”\n\nĐứa bé giơ tay trỏ lên cái bóng của chàng in trên vách: “Đây này!”\n\nThì ra, những ngày chàng đi vắng, Vũ Nương thường đùa với con, trỏ cái bóng của mình trên vách mà bảo đó là cha Đản. Người đàn ông đêm nào cũng đến, mẹ đi cũng đi, mẹ ngồi cũng ngồi, mà chẳng bao giờ bế Đản, hoá ra chỉ là một chiếc bóng.\n\nĐến lúc ấy Trương Sinh mới tỉnh ngộ, hiểu ra nỗi oan của vợ. Nhưng mọi việc đã rồi, chẳng còn làm gì được nữa.",
       "subtitles": [
-        "Cùng làng với Vũ Nương có Phan Lang. Một đêm,",
-        "chàng nằm mộng thấy một người con gái áo xanh đến xin tha mạng.",
-        "Sáng ra, có người đánh cá bắt được một con rùa mai xanh.",
-        "Phan Lang nhớ giấc mộng, mua rùa đem thả.",
-        "Về sau, cuối đời nhà Hồ, giặc Minh sang, dân làng chạy giặc ra biển.",
-        "Thuyền đắm, Phan Lang dạt vào một hòn đảo, rồi được đưa xuống thủy cung.",
-        "Người cứu chàng là Linh Phi, vợ vua biển Nam Hải, chính là con rùa xanh năm xưa."
+        "Một đêm, căn phòng vắng vẻ, Trương Sinh ngồi buồn bên ngọn đèn khuya, đứa con ở bên cạnh.",
+        "Bỗng đứa bé reo lên: “Ô, cha Đản lại đến rồi kìa!” Chàng hỏi: “Đâu?”",
+        "Đứa bé giơ tay trỏ lên cái bóng của chàng in trên vách: “Đây này!”",
+        "Thì ra, những ngày chàng đi vắng, Vũ Nương thường đùa với con,",
+        "trỏ cái bóng của mình trên vách mà bảo đó là cha Đản.",
+        "Người đàn ông đêm nào cũng đến, mẹ đi cũng đi, mẹ ngồi cũng ngồi, mà chẳng bao giờ bế Đản,",
+        "hoá ra chỉ là một chiếc bóng.",
+        "Đến lúc ấy Trương Sinh mới tỉnh ngộ, hiểu ra nỗi oan của vợ.",
+        "Nhưng mọi việc đã rồi, chẳng còn làm gì được nữa."
       ],
       "image": {
-        "character": "phan-lang",
+        "prompt": "night in the same thatched house, Truong Sinh sits alone by a small oil lamp beside little Dan, the boy points happily at the man large shadow on the earthen wall, the man turns to look at the shadow with dawning grief and regret on his face",
         "seed": 52509,
-        "prompt": "two moments on one silk scroll: on the left Phan Lang gently releases a turtle with a green shell into the river from a fishing boat; on the right, years later, he is led by sea attendants through a shimmering underwater palace gate of coral and jade"
+        "character": "truong-sinh"
       },
       "video": {
-        "seed": 63509,
-        "motionPrompt": "the green turtle slips into the water with soft ripples, light rays sway through the water on the right, seaweed drifts, fish glide past the jade gate, slow sideways pan"
+        "motionPrompt": "the lamp flickers and the shadow on the wall wavers, the boy points and laughs, the man slowly turns his head and lowers his face into his hands, very slow camera push-in",
+        "seed": 63509
+      },
+      "voice": {}
+    },
+    {
+      "id": "rua-mai-xanh",
+      "title": "Con rùa mai xanh",
+      "narrator": "ke-chuyen",
+      "narration": "Cùng làng với Vũ Nương có một người tên là Phan Lang. Trước kia, Phan Lang làm đầu mục coi bến đò Hoàng Giang.\n\nMột đêm, Phan Lang nằm mộng thấy một người con gái mặc áo xanh đến kêu khóc, xin chàng tha mạng. Sáng hôm sau thức dậy, có người phường chài mang đến biếu chàng một con rùa mai xanh. Phan Lang sực nhớ tới giấc mộng đêm qua, bèn đem con rùa ấy ra sông thả đi.",
+      "subtitles": [
+        "Cùng làng với Vũ Nương có một người tên là Phan Lang.",
+        "Trước kia, Phan Lang làm đầu mục coi bến đò Hoàng Giang.",
+        "Một đêm, Phan Lang nằm mộng thấy một người con gái mặc áo xanh đến kêu khóc,",
+        "xin chàng tha mạng.",
+        "Sáng hôm sau thức dậy, có người phường chài mang đến biếu chàng một con rùa mai xanh.",
+        "Phan Lang sực nhớ tới giấc mộng đêm qua, bèn đem con rùa ấy ra sông thả đi."
+      ],
+      "image": {
+        "prompt": "at the Hoang Giang ferry landing in the early morning, Phan Lang kneels on the wooden steps and gently releases a turtle with a green shell into the river, a fisherman with a basket watches, in a faint dreamlike haze above the water the figure of a young woman in green robes bows in thanks",
+        "seed": 52510,
+        "character": "phan-lang"
+      },
+      "video": {
+        "motionPrompt": "the green turtle slips into the water with soft ripples, the faint figure in green fades into the mist, the ferry boat rocks gently, slow sideways pan",
+        "seed": 63510
+      },
+      "voice": {}
+    },
+    {
+      "id": "dong-rua",
+      "title": "Động rùa ngoài hải đảo",
+      "narrator": "ke-chuyen",
+      "narration": "Về sau, vào cuối đời Khai Đại nhà Hồ, quân Minh mượn cớ đưa Trần Thiêm Bình về nước, kéo sang đánh vào ải Chi Lăng. Dân trong nước nhiều người sợ hãi, bỏ nhà chạy trốn. Phan Lang cùng người trong làng cũng chạy ra biển. Chẳng may thuyền đắm giữa khơi, mọi người đều chết đuối cả.\n\nThân Phan Lang trôi dạt vào một cái động rùa ở ngoài hải đảo. Có một vị phu nhân trông thấy, liền nói: “Đây là ân nhân đã cứu sống ta ngày trước.”\n\nBà sai lấy khăn gấm lau cho chàng, lại lấy thuốc thần đổ vào miệng. Một lát sau, Phan Lang tỉnh lại. Chàng mở mắt, thấy quanh mình toàn là cung gấm, đài ngọc, nguy nga lộng lẫy, mà không biết mình đã lạc vào chốn thủy cung.\n\nVị phu nhân mặc áo gấm thêu mây dát ngọc, chân đi đôi giày thêu ráng chiều nạm vàng, mỉm cười bảo chàng: “Ta là Linh Phi ở động Rùa, vợ của Long Vương biển Nam Hải. Hồi còn nhỏ, ta đi chơi ở bến sông, bị người đánh cá bắt được. Ta tình cờ báo mộng, quả nhiên được nhờ ơn ông cứu sống. Hôm nay lại gặp ông ở đây, há chẳng phải lòng trời muốn cho ta được đền ơn báo nghĩa hay sao.”",
+      "subtitles": [
+        "Về sau, vào cuối đời Khai Đại nhà Hồ, quân Minh mượn cớ đưa Trần Thiêm Bình về nước,",
+        "kéo sang đánh vào ải Chi Lăng.",
+        "Dân trong nước nhiều người sợ hãi, bỏ nhà chạy trốn.",
+        "Phan Lang cùng người trong làng cũng chạy ra biển.",
+        "Chẳng may thuyền đắm giữa khơi, mọi người đều chết đuối cả.",
+        "Thân Phan Lang trôi dạt vào một cái động rùa ở ngoài hải đảo.",
+        "Có một vị phu nhân trông thấy, liền nói: “Đây là ân nhân đã cứu sống ta ngày trước.”",
+        "Bà sai lấy khăn gấm lau cho chàng, lại lấy thuốc thần đổ vào miệng.",
+        "Một lát sau, Phan Lang tỉnh lại.",
+        "Chàng mở mắt, thấy quanh mình toàn là cung gấm, đài ngọc, nguy nga lộng lẫy,",
+        "mà không biết mình đã lạc vào chốn thủy cung.",
+        "Vị phu nhân mặc áo gấm thêu mây dát ngọc, chân đi đôi giày thêu ráng chiều nạm vàng,",
+        "mỉm cười bảo chàng: “Ta là Linh Phi ở động Rùa, vợ của Long Vương biển Nam Hải.",
+        "Hồi còn nhỏ, ta đi chơi ở bến sông, bị người đánh cá bắt được.",
+        "Ta tình cờ báo mộng, quả nhiên được nhờ ơn ông cứu sống.",
+        "Hôm nay lại gặp ông ở đây,",
+        "há chẳng phải lòng trời muốn cho ta được đền ơn báo nghĩa hay sao.”"
+      ],
+      "image": {
+        "prompt": "inside a shimmering sea grotto palace of coral, mother of pearl and jade on a far island, the serene sea queen Linh Phi in a cloud-embroidered jewelled robe kneels beside the unconscious Phan Lang lying on a silk mat, an attendant offers a cup of glowing medicine, soft blue light filtering through water",
+        "seed": 52511,
+        "character": "linh-phi"
+      },
+      "video": {
+        "motionPrompt": "light ripples across the grotto walls, the queen gently wipes the man face with a brocade cloth, his eyes slowly open, seaweed sways, small fish glide past, slow camera push-in",
+        "seed": 63511
       },
       "voice": {}
     },
     {
       "id": "thuy-cung",
-      "title": "Gặp lại dưới thủy cung",
+      "title": "Người cùng làng nơi thủy cung",
       "narrator": "ke-chuyen",
-      "narration": "Trong thủy cung, Phan Lang gặp một người đàn bà rất quen. Đó chính là Vũ Nương. Nàng kể rằng hôm ấy gieo mình xuống sông, được các nàng tiên cứu, đưa về đây. Phan Lang khuyên nàng về. Nàng lặng đi một lúc rồi nói: Chim bay mỏi còn nhớ tổ, thiếp sao không nhớ nhà. Có điều, một ngày nào đó, thiếp sẽ tìm cách về. Rồi nàng trao cho Phan Lang một chiếc thoa vàng, dặn: Xin anh đem vật này về cho chàng Trương. Nếu chàng còn nghĩ đến thiếp, thì dựng một đàn giải oan ở bến sông, thắp đèn soi xuống mặt nước. Khi ấy thiếp sẽ hiện về.",
+      "narration": "Linh Phi bày tiệc trên gác Triệu Dương để thết đãi Phan Lang. Ngồi dự tiệc có rất nhiều người đẹp, ai cũng mặc xiêm áo nhẹ, búi tóc lệch. Trong số ấy có một người, mặt chỉ điểm chút son phấn, trông rất giống Vũ Nương, vợ của Trương Sinh. Phan Lang chốc chốc lại nhìn trộm, nhưng không dám nhận.\n\nTiệc tan, người ấy đến bảo Phan Lang: “Tôi với ông vốn người cùng làng, xa nhau chưa bao lâu mà ông đã quên rồi sao?”\n\nBấy giờ Phan Lang mới nhận ra đúng là Vũ Nương. Chàng hỏi vì sao nàng lại ở đây. Nàng kể: “Ngày trước tôi không may bị người ta vu oan, phải gieo mình xuống sông. Các tiên nữ trong thủy cung thương tôi vô tội, rẽ một đường nước cho tôi thoát chết. Nếu không thì tôi đã vùi thân trong bụng cá, còn đâu mà gặp lại ông.”\n\nPhan Lang nói: “Nàng chẳng phải Tào Nga liều mình theo cha, cũng chẳng mang mối hờn như chim Tinh Vệ ngậm đá lấp biển. Từ khi lạc xuống cung nước, thấm thoắt đã một năm rồi, lẽ nào nàng không nhớ quê nhà?”\n\nVũ Nương đáp: “Tôi đã bị chồng ruồng bỏ. Thà già đời ở chốn mây nước này, chứ còn mặt mũi nào mà về gặp chồng nữa.”\n\nPhan Lang lại nói: “Thưa nàng, tôi trộm nghĩ, nhà cửa của tổ tiên nàng nay cây cối đã mọc thành rừng, mồ mả tổ tiên cỏ gai đã che kín. Nàng dẫu không nghĩ tới, nhưng còn đứa con ngày ngày trông đợi nàng thì sao?”\n\nNghe tới đấy, Vũ Nương ứa nước mắt, rồi nói: “Tôi không thể giấu mình ở đây mãi được. Ngựa Hồ thấy gió bắc thì hí, chim Việt bay xa vẫn đậu cành phía nam. Lòng tôi cũng thế, thế nào cũng có ngày tôi tìm về.”\n\nHôm sau, Linh Phi lấy một cái túi lụa tía, đựng mười hạt minh châu tặng Phan Lang, rồi sai sứ giả Xích Hỗn, vốn là một con cá quả, đưa chàng ra khỏi nước. Vũ Nương cũng gửi theo một chiếc thoa vàng, dặn rằng: “Nhờ ông nói giúp với chàng Trương: nếu chàng còn nhớ chút tình xưa, thì lập một đàn giải oan ở bến sông, đốt đèn thần chiếu xuống mặt nước, tôi sẽ hiện về.”",
       "subtitles": [
-        "Trong thủy cung, Phan Lang gặp một người đàn bà rất quen. Đó chính là Vũ Nương.",
-        "Nàng kể rằng hôm ấy gieo mình xuống sông, được các nàng tiên cứu, đưa về đây.",
-        "Phan Lang khuyên nàng về. Nàng lặng đi một lúc rồi nói:",
-        "Chim bay mỏi còn nhớ tổ, thiếp sao không nhớ nhà.",
-        "Có điều, một ngày nào đó, thiếp sẽ tìm cách về.",
-        "Rồi nàng trao cho Phan Lang một chiếc thoa vàng, dặn:",
-        "Xin anh đem vật này về cho chàng Trương. Nếu chàng còn nghĩ đến thiếp,",
-        "thì dựng một đàn giải oan ở bến sông,",
-        "thắp đèn soi xuống mặt nước. Khi ấy thiếp sẽ hiện về."
+        "Linh Phi bày tiệc trên gác Triệu Dương để thết đãi Phan Lang.",
+        "Ngồi dự tiệc có rất nhiều người đẹp, ai cũng mặc xiêm áo nhẹ, búi tóc lệch.",
+        "Trong số ấy có một người, mặt chỉ điểm chút son phấn, trông rất giống Vũ Nương,",
+        "vợ của Trương Sinh.",
+        "Phan Lang chốc chốc lại nhìn trộm, nhưng không dám nhận.",
+        "Tiệc tan, người ấy đến bảo Phan Lang: “Tôi với ông vốn người cùng làng,",
+        "xa nhau chưa bao lâu mà ông đã quên rồi sao?”",
+        "Bấy giờ Phan Lang mới nhận ra đúng là Vũ Nương.",
+        "Chàng hỏi vì sao nàng lại ở đây.",
+        "Nàng kể: “Ngày trước tôi không may bị người ta vu oan, phải gieo mình xuống sông.",
+        "Các tiên nữ trong thủy cung thương tôi vô tội, rẽ một đường nước cho tôi thoát chết.",
+        "Nếu không thì tôi đã vùi thân trong bụng cá, còn đâu mà gặp lại ông.”",
+        "Phan Lang nói: “Nàng chẳng phải Tào Nga liều mình theo cha,",
+        "cũng chẳng mang mối hờn như chim Tinh Vệ ngậm đá lấp biển.",
+        "Từ khi lạc xuống cung nước, thấm thoắt đã một năm rồi, lẽ nào nàng không nhớ quê nhà?”",
+        "Vũ Nương đáp: “Tôi đã bị chồng ruồng bỏ.",
+        "Thà già đời ở chốn mây nước này, chứ còn mặt mũi nào mà về gặp chồng nữa.”",
+        "Phan Lang lại nói: “Thưa nàng, tôi trộm nghĩ,",
+        "nhà cửa của tổ tiên nàng nay cây cối đã mọc thành rừng, mồ mả tổ tiên cỏ gai đã che kín.",
+        "Nàng dẫu không nghĩ tới, nhưng còn đứa con ngày ngày trông đợi nàng thì sao?”",
+        "Nghe tới đấy, Vũ Nương ứa nước mắt, rồi nói: “Tôi không thể giấu mình ở đây mãi được.",
+        "Ngựa Hồ thấy gió bắc thì hí, chim Việt bay xa vẫn đậu cành phía nam.",
+        "Lòng tôi cũng thế, thế nào cũng có ngày tôi tìm về.”",
+        "Hôm sau, Linh Phi lấy một cái túi lụa tía, đựng mười hạt minh châu tặng Phan Lang,",
+        "rồi sai sứ giả Xích Hỗn, vốn là một con cá quả, đưa chàng ra khỏi nước.",
+        "Vũ Nương cũng gửi theo một chiếc thoa vàng, dặn rằng: “Nhờ ông nói giúp với chàng Trương:",
+        "nếu chàng còn nhớ chút tình xưa, thì lập một đàn giải oan ở bến sông,",
+        "đốt đèn thần chiếu xuống mặt nước, tôi sẽ hiện về.”"
       ],
       "image": {
-        "character": "vu-nuong",
-        "seed": 52510,
-        "prompt": "in a luminous underwater palace hall of pearl and jade, Vu Nuong now dressed in flowing pale sea-green robes hands a golden hairpin to the kneeling Phan Lang, the serene sea queen Linh Phi seated behind them, fish and soft light rays drifting"
+        "prompt": "a banquet in the Trieu Duong pavilion of the underwater palace, many beautiful ladies in light flowing robes with loose side-swept hair, among them Vu Nuong in pale sea-green robes with only a touch of rouge hands a golden hairpin to Phan Lang, the sea queen Linh Phi seated above holding a small purple silk pouch, soft light rays and drifting fish",
+        "seed": 52512,
+        "character": "vu-nuong"
       },
       "video": {
-        "seed": 63510,
-        "motionPrompt": "light ripples across the hall, the golden hairpin glints as it passes from hand to hand, robes float in the water current, small fish circle slowly"
+        "motionPrompt": "light ripples across the pavilion, robes float in the gentle current, the golden hairpin glints as it passes from hand to hand, small fish circle slowly, slow camera push-in",
+        "seed": 63512
       },
       "voice": {}
     },
     {
       "id": "dan-giai-oan",
-      "title": "Đàn giải oan",
+      "title": "Đàn giải oan bên sông",
       "narrator": "ke-chuyen",
-      "narration": "Phan Lang trở về, đưa chiếc thoa vàng cho Trương Sinh. Nhận ra vật của vợ, chàng bật khóc. Theo lời dặn, chàng lập đàn giải oan ba ngày ba đêm bên bến Hoàng Giang. Quả nhiên, Vũ Nương hiện về, ngồi trên chiếc kiệu hoa giữa dòng, theo sau là năm mươi chiếc xe cờ tán, lúc ẩn lúc hiện. Trương Sinh gọi tên vợ. Từ giữa dòng, nàng đáp vọng lại: Ơn Linh Phi cứu mạng, thiếp đã hứa ở lại hầu người, không thể nuốt lời. Tấm lòng của chàng, thiếp đã nhận. Nhưng đường về cõi người, thiếp không đi được nữa rồi. Giọng nàng xa dần. Kiệu hoa, cờ tán mờ đi trong sương, rồi mặt sông lại trống trơn.",
+      "narration": "Về đến làng, Phan Lang tìm tới nhà họ Trương, kể lại mọi chuyện. Ban đầu Trương Sinh không tin. Đến khi cầm chiếc thoa vàng trong tay, chàng mới giật mình mà nói: “Đây đúng là vật của vợ tôi ngày trước.”\n\nChàng bèn làm theo lời dặn, lập một đàn tràng giải oan suốt ba ngày ba đêm bên bến Hoàng Giang.\n\nRồi quả nhiên, Vũ Nương hiện ra giữa dòng, ngồi trên một chiếc kiệu hoa. Theo sau nàng có hơn năm mươi chiếc xe, cờ quạt, tàn lọng rực rỡ khắp mặt sông, lúc ẩn lúc hiện.\n\nTrương Sinh vội vàng gọi vợ. Nàng vẫn ngồi giữa dòng, nói vọng vào: “Thiếp đội ơn đức của Linh Phi, đã thề sống chết cũng không rời bỏ người. Đa tạ tấm tình của chàng, nhưng thiếp chẳng thể trở về cõi người được nữa.”\n\nRồi chỉ trong chốc lát, kiệu hoa, xe cờ cùng bóng nàng chìm dần, mờ đi, rồi biến mất trên mặt sông.",
       "subtitles": [
-        "Phan Lang trở về, đưa chiếc thoa vàng cho Trương Sinh. Nhận ra vật của vợ, chàng bật khóc.",
-        "Theo lời dặn, chàng lập đàn giải oan ba ngày ba đêm bên bến Hoàng Giang.",
-        "Quả nhiên, Vũ Nương hiện về, ngồi trên chiếc kiệu hoa giữa dòng,",
-        "theo sau là năm mươi chiếc xe cờ tán, lúc ẩn lúc hiện.",
-        "Trương Sinh gọi tên vợ. Từ giữa dòng, nàng đáp vọng lại:",
-        "Ơn Linh Phi cứu mạng, thiếp đã hứa ở lại hầu người, không thể nuốt lời.",
-        "Tấm lòng của chàng, thiếp đã nhận. Nhưng đường về cõi người, thiếp không đi được nữa rồi.",
-        "Giọng nàng xa dần. Kiệu hoa, cờ tán mờ đi trong sương, rồi mặt sông lại trống trơn."
+        "Về đến làng, Phan Lang tìm tới nhà họ Trương, kể lại mọi chuyện.",
+        "Ban đầu Trương Sinh không tin.",
+        "Đến khi cầm chiếc thoa vàng trong tay, chàng mới giật mình mà nói:",
+        "“Đây đúng là vật của vợ tôi ngày trước.”",
+        "Chàng bèn làm theo lời dặn,",
+        "lập một đàn tràng giải oan suốt ba ngày ba đêm bên bến Hoàng Giang.",
+        "Rồi quả nhiên, Vũ Nương hiện ra giữa dòng, ngồi trên một chiếc kiệu hoa.",
+        "Theo sau nàng có hơn năm mươi chiếc xe, cờ quạt, tàn lọng rực rỡ khắp mặt sông,",
+        "lúc ẩn lúc hiện.",
+        "Trương Sinh vội vàng gọi vợ.",
+        "Nàng vẫn ngồi giữa dòng, nói vọng vào: “Thiếp đội ơn đức của Linh Phi,",
+        "đã thề sống chết cũng không rời bỏ người.",
+        "Đa tạ tấm tình của chàng, nhưng thiếp chẳng thể trở về cõi người được nữa.”",
+        "Rồi chỉ trong chốc lát, kiệu hoa, xe cờ cùng bóng nàng chìm dần, mờ đi,",
+        "rồi biến mất trên mặt sông."
       ],
       "image": {
-        "character": "vu-nuong",
-        "seed": 52511,
-        "prompt": "night on the Hoang Giang river, an altar with candles and incense on the bank where Truong Sinh kneels holding a golden hairpin, out on the misty water Vu Nuong sits in a flower-decked palanquin among many faint floating banners and parasols glowing like a dream"
+        "prompt": "night on the Hoang Giang river, an altar with candles, a sacred lamp and incense on the bank where Truong Sinh kneels holding a golden hairpin, out on the misty water Vu Nuong sits in a flower-decked palanquin followed by a long procession of faint carriages, banners and parasols glowing like a dream",
+        "seed": 52513,
+        "character": "vu-nuong"
       },
       "video": {
-        "seed": 63511,
-        "motionPrompt": "candle flames sway, the glowing procession on the water fades in and out of the mist, the woman raises one hand in farewell, the vision slowly dissolves into the dark river"
+        "motionPrompt": "candle flames sway, the glowing procession on the water fades in and out of the mist, the woman raises one hand in farewell, the vision slowly dissolves into the dark river",
+        "seed": 63513
       },
       "voice": {}
     },
     {
-      "id": "loi-ket",
-      "title": "Lời người kể",
+      "id": "loi-binh",
+      "title": "Lời bình của Nguyễn Dữ",
       "narrator": "ke-chuyen",
-      "narration": "Chuyện người con gái Nam Xương được Nguyễn Dữ ghi lại từ hơn bốn trăm năm trước, và đến nay vẫn được kể đi kể lại. Một người vợ hiền, một người con hiếu thảo, chỉ vì lòng ghen mù quáng của chồng và một câu nói ngây thơ của đứa trẻ, mà phải chịu nỗi oan không gì gột rửa được. Bên dòng sông ở Lý Nhân, Hà Nam ngày nay vẫn còn đền thờ Vũ Nương, như một lời nhắc: lòng tin trong một mái nhà mong manh như chiếc bóng trên vách.",
+      "narration": "Chép xong chuyện này, Nguyễn Dữ, người viết Truyền kỳ mạn lục, có mấy lời than.\n\nÔng bảo rằng, những việc trông tựa tựa nhau thật khó phân rõ, mà lại rất dễ làm người ta lầm. Như mẹ thầy Tăng Sâm, một bậc đại hiền: có kẻ trùng tên với con bà làm điều ác, hai người đến báo, bà vẫn điềm nhiên ngồi dệt cửi; đến người thứ ba, bà cũng phải quăng thoi mà đứng dậy. Như người mất cái búa, ngờ đứa con nhà hàng xóm, nhìn dáng đi, nghe giọng nói của nó, chỗ nào cũng thấy giống kẻ trộm; đến khi tìm được búa, nhìn lại thì nó chẳng có gì đáng ngờ. Như vua Hán nghe lời gièm, ngờ xe hạt ý dĩ của Mã Viện là xe chở ngọc quý. Như Tào Tháo nghe câu “trói lại mà giết”, tưởng người ta định hại mình, bèn ra tay với cả nhà ân nhân, rồi mới biết thứ bị trói chỉ là một con lợn.\n\nChuyện của Vũ Nương cũng giống như thế. Nếu không nhờ trời xét tấm lòng thành, nước sông không làm hại, thì thân ngọc ngà ấy đã vùi trong bụng cá dưới lòng sông, còn đâu mà gửi được tin về, để tấm lòng trong trắng của nàng được tỏ bày cho hết.\n\nVà ông kết lại: đã là người đàn ông, chớ để người con gái hiền phải chịu oan khuất như thế này.",
       "subtitles": [
-        "Chuyện người con gái Nam Xương được Nguyễn Dữ ghi lại từ hơn bốn trăm năm trước,",
-        "và đến nay vẫn được kể đi kể lại.",
-        "Một người vợ hiền, một người con hiếu thảo, chỉ vì lòng ghen mù quáng của chồng",
-        "và một câu nói ngây thơ của đứa trẻ, mà phải chịu nỗi oan không gì gột rửa được.",
-        "Bên dòng sông ở Lý Nhân, Hà Nam ngày nay vẫn còn đền thờ Vũ Nương,",
-        "như một lời nhắc: lòng tin trong một mái nhà mong manh như chiếc bóng trên vách."
+        "Chép xong chuyện này, Nguyễn Dữ, người viết Truyền kỳ mạn lục, có mấy lời than.",
+        "Ông bảo rằng, những việc trông tựa tựa nhau thật khó phân rõ,",
+        "mà lại rất dễ làm người ta lầm.",
+        "Như mẹ thầy Tăng Sâm, một bậc đại hiền: có kẻ trùng tên với con bà làm điều ác,",
+        "hai người đến báo, bà vẫn điềm nhiên ngồi dệt cửi; đến người thứ ba,",
+        "bà cũng phải quăng thoi mà đứng dậy.",
+        "Như người mất cái búa, ngờ đứa con nhà hàng xóm, nhìn dáng đi, nghe giọng nói của nó,",
+        "chỗ nào cũng thấy giống kẻ trộm; đến khi tìm được búa,",
+        "nhìn lại thì nó chẳng có gì đáng ngờ.",
+        "Như vua Hán nghe lời gièm, ngờ xe hạt ý dĩ của Mã Viện là xe chở ngọc quý.",
+        "Như Tào Tháo nghe câu “trói lại mà giết”, tưởng người ta định hại mình,",
+        "bèn ra tay với cả nhà ân nhân, rồi mới biết thứ bị trói chỉ là một con lợn.",
+        "Chuyện của Vũ Nương cũng giống như thế.",
+        "Nếu không nhờ trời xét tấm lòng thành, nước sông không làm hại,",
+        "thì thân ngọc ngà ấy đã vùi trong bụng cá dưới lòng sông, còn đâu mà gửi được tin về,",
+        "để tấm lòng trong trắng của nàng được tỏ bày cho hết.",
+        "Và ông kết lại: đã là người đàn ông,",
+        "chớ để người con gái hiền phải chịu oan khuất như thế này."
       ],
       "image": {
-        "character": "vu-nuong",
-        "seed": 52512,
-        "prompt": "a quiet old riverside temple with a curved tiled roof among ancient trees at dawn, incense smoke drifting from the courtyard, a small lamp lit inside, the calm river beyond, a faint shadow of a woman on the temple wall, serene and solemn"
+        "prompt": "an old scholar in a dark robe writes with a brush by lamplight in a quiet study, behind him a silk scroll shows a faint misty river with a woman shadow on a wall, piles of bound books, an inkstone, a window opening onto a calm river at dawn",
+        "seed": 52514
       },
       "video": {
-        "seed": 63512,
-        "motionPrompt": "incense smoke drifts slowly across the courtyard, the lamp glows, leaves fall one by one, the river glimmers in the first light, slow camera pull-back"
+        "motionPrompt": "the brush moves slowly across the paper, the lamp glows, mist drifts over the river outside the window, the light of dawn slowly brightens, slow camera pull-back",
+        "seed": 63514
       },
       "voice": {}
     }
   ],
   "music": {
     "prompt": "slow melancholic Vietnamese traditional instrumental, solo dan bau monochord with long bends, sparse dan nguyet moon lute and soft bamboo flute, quiet river night atmosphere, mournful but dignified, very slow tempo, no vocals",
-    "durationSeconds": 180,
+    "durationSeconds": 240,
     "seed": 74501
   }
 }
