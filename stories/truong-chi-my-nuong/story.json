@@ -9,8 +9,9 @@
     "su-tich"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-08",
   "language": "vi",
-  "source": "Truyện cổ tích dân gian Việt Nam về chàng lái đò Trương Chi và Mỵ Nương con quan thừa tướng, truyền miệng, không ai giữ quyền. Lời kể viết mới, theo cốt truyện phổ biến (trái tim Trương Chi hóa ngọc, tiện thành chén); không chép bản kể hiện đại nào.",
+  "source": "Truyện cổ tích dân gian Việt Nam về chàng lái đò Trương Chi và Mỵ Nương con quan thừa tướng, truyền miệng, không ai giữ quyền; gộp các dị bản (tiếng hát hoặc tiếng sáo, chiếc nón lá che mặt, trái tim hóa ngọc tiện thành chén) và lời Quan họ về Lầu Tây. Lời kể viết mới; không chép bản kể hiện đại nào.",
   "basedOn": "Truyện cổ tích dân gian Việt Nam",
   "style": "classical Vietnamese silk painting (tranh lua) illustration, fine ink linework, soft washes of jade green, misty blue, ivory and faded vermilion on aged silk, ancient Vietnamese riverside with a mandarin's red-lacquered pavilion, wooden ferry boats and bamboo banks, melancholy romantic mood for adult readers, no text, no letters, no watermark",
   "narrators": {
@@ -35,246 +36,235 @@
   ],
   "scenes": [
     {
-      "id": "lau-son",
-      "title": "Cô gái trên lầu son",
+      "id": "lau-tay-ben-song",
+      "title": "Nàng Mỵ Nương ở lầu Tây",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, bên bờ một con sông lớn, có một vị quan thừa tướng dựng dinh thự nguy nga. Ông có một người con gái tên là Mỵ Nương, nhan sắc như hoa, được cha nâng niu như ngọc. Sợ con gặp điều không hay, quan cho nàng ở trên một tòa lầu son, quanh năm suốt tháng chỉ thêu thùa, đọc sách, ít khi bước chân ra khỏi cửa. Ngày ngày, Mỵ Nương ngồi bên song cửa trông xuống dòng sông. Nước trôi, mây bay, thuyền bè qua lại, mà lòng nàng thì cứ man mác một nỗi buồn không tên.",
+      "narration": "Ngày xưa, có một ông quan thừa tướng sinh được người con gái tên là Mỵ Nương, nhan sắc đẹp tuyệt trần. Sống trong phủ quan, nàng chẳng lấy làm vui, nên thường ra Lầu Tây, ngôi lầu cạnh bờ sông ngay bên nhà, để thêu thùa, đọc sách cho khuây khỏa. Nàng sống như một con chim bị giam trong chiếc lồng lớn, lúc nào cũng man mác nỗi buồn. Ngồi bên song cửa trông ra khúc sông, nàng thấy nước trôi, mây bay, thuyền bè qua lại, mà lòng cứ vắng lặng một nỗi niềm khó gọi tên.",
       "subtitles": [
-        "Ngày xưa, bên bờ một con sông lớn, có một vị quan thừa tướng dựng dinh thự nguy nga.",
-        "Ông có một người con gái tên là Mỵ Nương, nhan sắc như hoa, được cha nâng niu như ngọc.",
-        "Sợ con gặp điều không hay, quan cho nàng ở trên một tòa lầu son,",
-        "quanh năm suốt tháng chỉ thêu thùa, đọc sách, ít khi bước chân ra khỏi cửa.",
-        "Ngày ngày, Mỵ Nương ngồi bên song cửa trông xuống dòng sông.",
-        "Nước trôi, mây bay, thuyền bè qua lại, mà lòng nàng thì cứ man mác một nỗi buồn không tên."
+        "Ngày xưa, có một ông quan thừa tướng sinh được người con gái tên là Mỵ Nương,",
+        "nhan sắc đẹp tuyệt trần.",
+        "Sống trong phủ quan, nàng chẳng lấy làm vui, nên thường ra Lầu Tây,",
+        "ngôi lầu cạnh bờ sông ngay bên nhà, để thêu thùa, đọc sách cho khuây khỏa.",
+        "Nàng sống như một con chim bị giam trong chiếc lồng lớn, lúc nào cũng man mác nỗi buồn.",
+        "Ngồi bên song cửa trông ra khúc sông, nàng thấy nước trôi, mây bay, thuyền bè qua lại,",
+        "mà lòng cứ vắng lặng một nỗi niềm khó gọi tên."
       ],
       "image": {
-        "prompt": "a red-lacquered two-storey pavilion with curved tiled roofs on a high riverbank, the young lady My Nuong sitting at a carved lattice window above the wide misty river, embroidery frame beside her, willow branches",
-        "seed": 3965646696,
+        "prompt": "a beautiful daughter of a high official sitting at the window of a small riverside west pavilion embroidering, river and boats below, soft afternoon light, ancient Vietnam",
+        "seed": 1391221826,
         "character": "my-nuong"
       },
       "video": {
-        "motionPrompt": "mist drifts slowly over the river, willow branches sway, My Nuong turns her head toward the water, gentle camera push-in toward the window",
-        "seed": 567721840
+        "motionPrompt": "the girl lifts her eyes from her embroidery to the river as a boat drifts past",
+        "seed": 1250832665
       },
       "voice": {}
     },
     {
       "id": "chang-lai-do",
-      "title": "Chàng lái đò nghèo",
+      "title": "Chàng trai làng chài",
       "narrator": "ke-chuyen",
-      "narration": "Cũng trên khúc sông ấy, có một chàng trai tên là Trương Chi, làm nghề chở đò, đánh cá. Nhà chàng nghèo, cha mẹ mất sớm, chỉ có chiếc thuyền nan làm nhà. Trương Chi mặt mũi xấu xí, da đen sạm vì nắng gió, ai nhìn qua cũng chẳng muốn nhìn lại lần thứ hai. Nhưng trời lại cho chàng một giọng hát hiếm có trên đời. Mỗi khi chàng cất tiếng, tiếng hát ngân xa trên mặt nước, trong như suối, ấm như nắng chiều, đến chim cũng đậu lại mà nghe, cá cũng ngoi lên mặt nước.",
+      "narration": "Bấy giờ có một chàng trai con nhà thuyền chài, tên là Trương Chi, ngày ngày đến thả lưới kiếm ăn trên khúc sông ấy. Nhà chàng nghèo, chỉ có chiếc thuyền nan làm nơi nương thân. Trương Chi dung mạo vô cùng xấu xí, nhưng trời đã cho chàng một giọng hát hiếm có. Chàng thường buông lưới, vừa hát, tiếng hát ngân xa trên mặt nước, trong như suối, ấm như nắng chiều. Người trong làng chài vẫn bảo người thì thậm xấu mà hát thì thậm hay.",
       "subtitles": [
-        "Cũng trên khúc sông ấy, có một chàng trai tên là Trương Chi, làm nghề chở đò, đánh cá.",
-        "Nhà chàng nghèo, cha mẹ mất sớm, chỉ có chiếc thuyền nan làm nhà.",
-        "Trương Chi mặt mũi xấu xí, da đen sạm vì nắng gió,",
-        "ai nhìn qua cũng chẳng muốn nhìn lại lần thứ hai.",
-        "Nhưng trời lại cho chàng một giọng hát hiếm có trên đời.",
-        "Mỗi khi chàng cất tiếng, tiếng hát ngân xa trên mặt nước, trong như suối,",
-        "ấm như nắng chiều, đến chim cũng đậu lại mà nghe, cá cũng ngoi lên mặt nước."
+        "Bấy giờ có một chàng trai con nhà thuyền chài, tên là Trương Chi,",
+        "ngày ngày đến thả lưới kiếm ăn trên khúc sông ấy.",
+        "Nhà chàng nghèo, chỉ có chiếc thuyền nan làm nơi nương thân.",
+        "Trương Chi dung mạo vô cùng xấu xí, nhưng trời đã cho chàng một giọng hát hiếm có.",
+        "Chàng thường buông lưới, vừa hát, tiếng hát ngân xa trên mặt nước, trong như suối,",
+        "ấm như nắng chiều.",
+        "Người trong làng chài vẫn bảo người thì thậm xấu mà hát thì thậm hay."
       ],
       "image": {
-        "prompt": "a small bamboo fishing boat on a wide calm river at sunset, the poor ferryman Truong Chi standing at the stern singing with his head raised, fishing net drying on the boat, birds perched on the rim, golden reflections",
+        "prompt": "a poor fisherman with an unattractive weathered face singing as he casts his net from a small boat on a river at dusk, gentle gold light on the water",
         "seed": 242934453,
         "character": "truong-chi"
       },
       "video": {
-        "motionPrompt": "the boat drifts slowly, ripples spread, birds settle on the rim, the ferryman sways gently as he sings, slow tracking camera",
+        "motionPrompt": "the fisherman casts his net with a lilting song, ripples spread outward",
         "seed": 2835494000
       },
       "voice": {}
     },
     {
-      "id": "tieng-hat",
-      "title": "Tiếng hát trên sông",
+      "id": "tieng-hat-len-lau",
+      "title": "Tiếng hát lên tận lầu",
       "narrator": "ke-chuyen",
-      "narration": "Một buổi chiều, tiếng hát của Trương Chi theo gió bay lên tận lầu son. Mỵ Nương đang thêu bỗng dừng tay. Tiếng hát lúc tha thiết, lúc buồn bã, như kể nỗi lòng của chính nàng. Từ đó, chiều nào nàng cũng ngồi bên cửa sổ đợi tiếng hát. Thuyền chàng trôi xa, nàng chỉ thấy một bóng người nhỏ bé trên sông, không rõ mặt mũi. Nàng tự nhủ: Người hát hay như thế, hẳn phải là một chàng trai khôi ngô tuấn tú. Rồi nàng thầm mong, thầm nhớ, mà chính nàng cũng không hay.",
+      "narration": "Gió đưa tiếng hát phảng phất lên tới lầu của Mỵ Nương. Mỗi chiều hoàng hôn, nàng nghe giọng hát trên khúc sông ấy mà xao xuyến, say mê. Lúc tha thiết, lúc buồn bã, tiếng hát như kể nỗi lòng của chính nàng. Chiều nào nàng cũng ngồi bên cửa sổ chờ tiếng hát, chỉ thấy xa xa một bóng người nhỏ trên sông, chẳng rõ mặt mũi. Nàng thầm nghĩ người hát hay như thế hẳn phải là một chàng trai tuấn tú.",
       "subtitles": [
-        "Một buổi chiều, tiếng hát của Trương Chi theo gió bay lên tận lầu son.",
-        "Mỵ Nương đang thêu bỗng dừng tay.",
-        "Tiếng hát lúc tha thiết, lúc buồn bã, như kể nỗi lòng của chính nàng.",
-        "Từ đó, chiều nào nàng cũng ngồi bên cửa sổ đợi tiếng hát.",
-        "Thuyền chàng trôi xa, nàng chỉ thấy một bóng người nhỏ bé trên sông, không rõ mặt mũi.",
-        "Nàng tự nhủ: Người hát hay như thế, hẳn phải là một chàng trai khôi ngô tuấn tú.",
-        "Rồi nàng thầm mong, thầm nhớ, mà chính nàng cũng không hay."
+        "Gió đưa tiếng hát phảng phất lên tới lầu của Mỵ Nương.",
+        "Mỗi chiều hoàng hôn, nàng nghe giọng hát trên khúc sông ấy mà xao xuyến, say mê.",
+        "Lúc tha thiết, lúc buồn bã, tiếng hát như kể nỗi lòng của chính nàng.",
+        "Chiều nào nàng cũng ngồi bên cửa sổ chờ tiếng hát,",
+        "chỉ thấy xa xa một bóng người nhỏ trên sông, chẳng rõ mặt mũi.",
+        "Nàng thầm nghĩ người hát hay như thế hẳn phải là một chàng trai tuấn tú."
       ],
       "image": {
-        "prompt": "My Nuong leaning at the pavilion window at dusk, her embroidery needle paused in her hand, eyes closed listening, a tiny distant boat on the river far below, soft evening light",
-        "seed": 33779746,
+        "prompt": "a girl listening dreamily at her window to a distant singing boatman on the river at sunset, wind carrying lantern petals, warm light",
+        "seed": 1110045870,
         "character": "my-nuong"
       },
       "video": {
-        "motionPrompt": "evening wind lifts her silk sleeves, the tiny boat glides far away on the river, light fades to dusk, slow camera pull-back",
-        "seed": 1131520202
+        "motionPrompt": "she rests her chin on her hand, listening, the boat small in the glow",
+        "seed": 2883675624
       },
       "voice": {}
     },
     {
-      "id": "tuong-tu",
-      "title": "Mỵ Nương sinh bệnh",
+      "id": "benh-tuong-tu",
+      "title": "Bệnh tương tư",
       "narrator": "ke-chuyen",
-      "narration": "Một hôm, rồi nhiều hôm liền, không còn nghe tiếng hát nữa. Thì ra thuyền Trương Chi đã xuôi xuống một khúc sông khác kiếm ăn. Mỵ Nương ngồi chờ hết chiều này đến chiều khác, dòng sông vẫn lặng im. Nàng biếng ăn, biếng ngủ, người gầy rộc đi, rồi lâm bệnh nằm liệt trên giường. Quan thừa tướng lo sợ, mời thầy thuốc giỏi khắp nơi về chữa, uống bao nhiêu thang thuốc mà bệnh chẳng thuyên giảm. Không thầy thuốc nào đoán ra bệnh gì.",
+      "narration": "Một dạo, Trương Chi đi đánh cá ở khúc sông khác, nên tiếng hát vắng bặt. Mỵ Nương quá thương nhớ tiếng hát, sinh ra sầu não, bồn chồn ngày đêm ngóng đợi mà dòng sông vẫn lặng im. Nàng bắt đầu ốm. Cha nàng lo lắng mời hết thầy thuốc này đến thầy thuốc khác xem mạch, bốc thuốc, uống đã nhiều mà bệnh chẳng chuyển. Về sau ông hỏi dò những người hầu hạ trong nhà, mới biết con mình ốm tương tư tiếng hát bên sông, và các lương y cũng khuyên ông cho gọi chàng lái đò đến.",
       "subtitles": [
-        "Một hôm, rồi nhiều hôm liền, không còn nghe tiếng hát nữa.",
-        "Thì ra thuyền Trương Chi đã xuôi xuống một khúc sông khác kiếm ăn.",
-        "Mỵ Nương ngồi chờ hết chiều này đến chiều khác, dòng sông vẫn lặng im.",
-        "Nàng biếng ăn, biếng ngủ, người gầy rộc đi, rồi lâm bệnh nằm liệt trên giường.",
-        "Quan thừa tướng lo sợ, mời thầy thuốc giỏi khắp nơi về chữa,",
-        "uống bao nhiêu thang thuốc mà bệnh chẳng thuyên giảm.",
-        "Không thầy thuốc nào đoán ra bệnh gì."
+        "Một dạo, Trương Chi đi đánh cá ở khúc sông khác, nên tiếng hát vắng bặt.",
+        "Mỵ Nương quá thương nhớ tiếng hát, sinh ra sầu não,",
+        "bồn chồn ngày đêm ngóng đợi mà dòng sông vẫn lặng im.",
+        "Nàng bắt đầu ốm.",
+        "Cha nàng lo lắng mời hết thầy thuốc này đến thầy thuốc khác xem mạch, bốc thuốc,",
+        "uống đã nhiều mà bệnh chẳng chuyển.",
+        "Về sau ông hỏi dò những người hầu hạ trong nhà,",
+        "mới biết con mình ốm tương tư tiếng hát bên sông,",
+        "và các lương y cũng khuyên ông cho gọi chàng lái đò đến."
       ],
       "image": {
-        "prompt": "My Nuong lying pale and thin on a carved wooden bed behind silk curtains, a worried old mandarin father in dark robes sitting beside her, a physician with medicine bowls, the window open to an empty silent river",
-        "seed": 3495344624,
+        "prompt": "a pale sick girl lying in a bed with her worried father the high official and doctors around her, medicine bowls, a servant whispering to the father, lamplight",
+        "seed": 1058672911,
         "character": "my-nuong"
       },
       "video": {
-        "motionPrompt": "the silk curtains stir faintly, steam rises from a medicine bowl, the father lowers his head, the empty river glints outside, slow camera push-in",
-        "seed": 3986113731
+        "motionPrompt": "the father leans over his sick daughter, the servant whispers in his ear",
+        "seed": 2886118474
       },
       "voice": {}
     },
     {
-      "id": "nguoi-hau-ke",
-      "title": "Lời người hầu gái",
+      "id": "chiec-non-la",
+      "title": "Chiếc nón lá che mặt",
       "narrator": "ke-chuyen",
-      "narration": "Cô hầu gái thân cận thấy chủ ngày càng héo hon, bèn lén thưa với quan: Bẩm quan lớn, từ ngày trên sông vắng tiếng hát của anh chàng chở đò, tiểu thư mới sinh bệnh. Quan nghe xong nghĩ ngợi hồi lâu. Ông vốn trọng môn đăng hộ đối, nhưng thương con quá, đành sai người đi dò hỏi khắp các bến sông. Mãi sau mới tìm được chàng lái đò tên Trương Chi, và mời chàng về dinh, bảo chàng hát cho tiểu thư nghe.",
+      "narration": "Trương Chi được mời đến thăm Mỵ Nương. Chàng đội chiếc nón lá che kín khuôn mặt, đứng ngoài sân cất tiếng hát. Nghe lại giọng hát quen thuộc, bệnh nàng thuyên giảm rất nhanh. Khi khỏi bệnh, nàng xin cha cho được gặp mặt người hát tài tình để cảm ơn. Sau nhiều lần trì hoãn mà không ngăn được, cha nàng bất đắc dĩ phải cho dẫn chàng vào. Mỵ Nương năn nỉ mãi, rồi phải ra lệnh, Trương Chi mới ngả chiếc nón ra. Vừa nhìn thấy mặt chàng, nàng vỡ mộng, vì chàng xấu xí quá. Nàng tỏ ý lạnh nhạt, cho chàng ra về, và từ đó không còn si mê tiếng hát của chàng như trước nữa.",
       "subtitles": [
-        "Cô hầu gái thân cận thấy chủ ngày càng héo hon, bèn lén thưa với quan: Bẩm quan lớn,",
-        "từ ngày trên sông vắng tiếng hát của anh chàng chở đò, tiểu thư mới sinh bệnh.",
-        "Quan nghe xong nghĩ ngợi hồi lâu. Ông vốn trọng môn đăng hộ đối, nhưng thương con quá,",
-        "đành sai người đi dò hỏi khắp các bến sông.",
-        "Mãi sau mới tìm được chàng lái đò tên Trương Chi, và mời chàng về dinh,",
-        "bảo chàng hát cho tiểu thư nghe."
+        "Trương Chi được mời đến thăm Mỵ Nương.",
+        "Chàng đội chiếc nón lá che kín khuôn mặt, đứng ngoài sân cất tiếng hát.",
+        "Nghe lại giọng hát quen thuộc, bệnh nàng thuyên giảm rất nhanh.",
+        "Khi khỏi bệnh, nàng xin cha cho được gặp mặt người hát tài tình để cảm ơn.",
+        "Sau nhiều lần trì hoãn mà không ngăn được, cha nàng bất đắc dĩ phải cho dẫn chàng vào.",
+        "Mỵ Nương năn nỉ mãi, rồi phải ra lệnh, Trương Chi mới ngả chiếc nón ra.",
+        "Vừa nhìn thấy mặt chàng, nàng vỡ mộng, vì chàng xấu xí quá.",
+        "Nàng tỏ ý lạnh nhạt, cho chàng ra về,",
+        "và từ đó không còn si mê tiếng hát của chàng như trước nữa."
       ],
       "image": {
-        "prompt": "a young maidservant kneeling and speaking softly to the stern mandarin in his hall, lanterns and lacquered pillars, servants then hurrying along a riverbank searching among moored fishing boats",
-        "seed": 3745018493,
-        "character": "my-nuong"
-      },
-      "video": {
-        "motionPrompt": "lantern flames flicker, the mandarin strokes his beard thoughtfully, servants walk quickly along the bank, slow camera pan",
-        "seed": 279653022
-      },
-      "voice": {}
-    },
-    {
-      "id": "gap-mat",
-      "title": "Lần gặp mặt",
-      "narrator": "ke-chuyen",
-      "narration": "Trương Chi được đưa vào dinh, đứng dưới thềm, cất tiếng hát. Vẫn giọng hát ấy, tha thiết như xưa. Mỵ Nương nghe tiếng, mừng rỡ, gượng dậy vén rèm nhìn ra. Nhưng khi thấy người đứng dưới thềm là một anh chàng mặt mũi xấu xí, quần áo lam lũ, nàng sững sờ. Bao nhiêu mộng đẹp về một chàng trai tuấn tú bỗng chốc tan tành. Nàng buông rèm, quay mặt vào trong. Lạ thay, cơn bệnh cũng theo đó mà khỏi hẳn, như chưa từng có.",
-      "subtitles": [
-        "Trương Chi được đưa vào dinh, đứng dưới thềm, cất tiếng hát.",
-        "Vẫn giọng hát ấy, tha thiết như xưa.",
-        "Mỵ Nương nghe tiếng, mừng rỡ, gượng dậy vén rèm nhìn ra.",
-        "Nhưng khi thấy người đứng dưới thềm là một anh chàng mặt mũi xấu xí, quần áo lam lũ,",
-        "nàng sững sờ. Bao nhiêu mộng đẹp về một chàng trai tuấn tú bỗng chốc tan tành.",
-        "Nàng buông rèm, quay mặt vào trong.",
-        "Lạ thay, cơn bệnh cũng theo đó mà khỏi hẳn, như chưa từng có."
-      ],
-      "image": {
-        "prompt": "inside the mandarin's mansion, the plain ragged ferryman Truong Chi standing below the stone steps singing, above him My Nuong lifting a silk curtain and freezing in surprise and disappointment, attendants watching",
-        "seed": 4195807288,
+        "prompt": "a fisherman in a conical hat singing in a courtyard, later the same man removing the hat before a disappointed girl behind a bamboo blind, her face turning cool, father looking on",
+        "seed": 3129452833,
         "character": "truong-chi"
       },
       "video": {
-        "motionPrompt": "the silk curtain is lifted then slowly falls again, Truong Chi keeps singing with hopeful eyes, attendants exchange glances, gentle camera push-in",
-        "seed": 1000616988
+        "motionPrompt": "the fisherman slowly lowers his hat, the girl pulls her hand to her lips and turns away",
+        "seed": 2180801392
       },
       "voice": {}
     },
     {
-      "id": "trai-tim-ngoc",
-      "title": "Mối tình không thành",
+      "id": "mang-moi-tinh-han",
+      "title": "Mối tình hận",
       "narrator": "ke-chuyen",
-      "narration": "Còn Trương Chi, lần đầu được thấy mặt Mỵ Nương, chàng mê mẩn trước nhan sắc của nàng. Từ hôm đó, chàng về thuyền mà lòng không yên. Chàng biết mình nghèo hèn, xấu xí, chẳng bao giờ với tới cô con gái quan thừa tướng, nhưng vẫn không sao quên được. Chàng không còn thiết hát, cũng chẳng thiết chở đò. Thương nhớ hóa thành bệnh, chàng ốm mòn từng ngày rồi chết trên chiếc thuyền nan. Người ta chôn chàng bên bờ sông, nơi tiếng hát xưa kia từng vang lên mỗi chiều.",
+      "narration": "Về phần Trương Chi, từ khi nhìn thấy Mỵ Nương xinh đẹp, chàng đã thầm yêu nàng. Có truyện kể một hôm chàng tự tìm đến thổ lộ nỗi lòng, nhưng nàng từ chối. Chàng tủi cho thân phận nghèo hèn, xấu xí của mình, buồn bã chẳng còn thiết ăn, thiết làm. Chàng ra bến sông, cắm sào giữa dòng, hát thề một câu rằng kiếp này đã dở dang nhau, xin kiếp khác duyên sau lại lành. Rồi chàng mang mối tình hận, biếng ăn mất ngủ, sầu héo dần mà chết vì tương tư. Những người bạn cùng làng chài vớt chàng lên, đem chôn bên bờ sông.",
       "subtitles": [
-        "Còn Trương Chi, lần đầu được thấy mặt Mỵ Nương, chàng mê mẩn trước nhan sắc của nàng.",
-        "Từ hôm đó, chàng về thuyền mà lòng không yên.",
-        "Chàng biết mình nghèo hèn, xấu xí, chẳng bao giờ với tới cô con gái quan thừa tướng,",
-        "nhưng vẫn không sao quên được. Chàng không còn thiết hát, cũng chẳng thiết chở đò.",
-        "Thương nhớ hóa thành bệnh, chàng ốm mòn từng ngày rồi chết trên chiếc thuyền nan.",
-        "Người ta chôn chàng bên bờ sông, nơi tiếng hát xưa kia từng vang lên mỗi chiều."
+        "Về phần Trương Chi, từ khi nhìn thấy Mỵ Nương xinh đẹp, chàng đã thầm yêu nàng.",
+        "Có truyện kể một hôm chàng tự tìm đến thổ lộ nỗi lòng, nhưng nàng từ chối.",
+        "Chàng tủi cho thân phận nghèo hèn, xấu xí của mình, buồn bã chẳng còn thiết ăn, thiết làm.",
+        "Chàng ra bến sông, cắm sào giữa dòng, hát thề một câu rằng kiếp này đã dở dang nhau,",
+        "xin kiếp khác duyên sau lại lành.",
+        "Rồi chàng mang mối tình hận, biếng ăn mất ngủ, sầu héo dần mà chết vì tương tư.",
+        "Những người bạn cùng làng chài vớt chàng lên, đem chôn bên bờ sông."
       ],
       "image": {
-        "prompt": "the ferryman Truong Chi sitting alone in his small moored boat at night, gazing toward the distant lit pavilion across the river, moon behind thin clouds, his bamboo pole lying idle",
-        "seed": 342550690,
+        "prompt": "a fisherman sitting alone at the end of a boat at night with a pole planted in the river, singing sadly under the moon, thin and weary, village fishermen silent on the bank",
+        "seed": 1350565759,
         "character": "truong-chi"
       },
       "video": {
-        "motionPrompt": "moonlight ripples on the water, the boat rocks slowly, the distant pavilion lights flicker, Truong Chi lowers his head, slow camera pull-back",
-        "seed": 988396698
+        "motionPrompt": "the fisherman sings in the moonlight, the pole stands still in the water",
+        "seed": 2810813829
       },
       "voice": {}
     },
     {
-      "id": "khoi-ngoc",
-      "title": "Khối ngọc trong suốt",
+      "id": "nam-mo-cao",
+      "title": "Nấm mộ và khối ngọc",
       "narrator": "ke-chuyen",
-      "narration": "Mấy năm sau, có người đào mộ Trương Chi để dời đi nơi khác. Xương thịt đã tan thành đất, chỉ còn trái tim chàng hóa thành một khối ngọc trong suốt, sáng lấp lánh. Người ta lấy khối ngọc đặt lên thuyền làm của lạ. Nhìn vào trong ngọc, ai cũng thấy thấp thoáng bóng một con thuyền nhỏ, có người lái đò đang chèo. Tiếng đồn lan đến tai quan thừa tướng. Quan cho mua khối ngọc về, sai thợ giỏi tiện thành một chiếc chén để uống trà.",
+      "narration": "Một dạo sau, không ai còn nghe tiếng chàng hát trên sông nữa. Mỵ Nương lại nhớ tiếng hát, hỏi thăm mới biết anh dân chài đã chết. Nàng sai đắp cho chàng một nấm mộ cao. Nhưng lạ thay, khi đào mộ lên, thịt xương Trương Chi đã tan rữa hết, chỉ còn trái tim biến thành một khối ngọc trong suốt, sáng long lanh. Có truyện kể người ta thấy một viên to như quả cam, như quả cầu pha lê, đem gắn vào mạn chiếc thuyền cũ của chàng, rồi cha Mỵ Nương đi ngang bến sông, thấy viên ngọc đẹp sáng liền mua về.",
       "subtitles": [
-        "Mấy năm sau, có người đào mộ Trương Chi để dời đi nơi khác.",
-        "Xương thịt đã tan thành đất, chỉ còn trái tim chàng hóa thành một khối ngọc trong suốt,",
-        "sáng lấp lánh. Người ta lấy khối ngọc đặt lên thuyền làm của lạ.",
-        "Nhìn vào trong ngọc, ai cũng thấy thấp thoáng bóng một con thuyền nhỏ,",
-        "có người lái đò đang chèo. Tiếng đồn lan đến tai quan thừa tướng.",
-        "Quan cho mua khối ngọc về, sai thợ giỏi tiện thành một chiếc chén để uống trà."
+        "Một dạo sau, không ai còn nghe tiếng chàng hát trên sông nữa.",
+        "Mỵ Nương lại nhớ tiếng hát, hỏi thăm mới biết anh dân chài đã chết.",
+        "Nàng sai đắp cho chàng một nấm mộ cao.",
+        "Nhưng lạ thay, khi đào mộ lên, thịt xương Trương Chi đã tan rữa hết,",
+        "chỉ còn trái tim biến thành một khối ngọc trong suốt, sáng long lanh.",
+        "Có truyện kể người ta thấy một viên to như quả cam, như quả cầu pha lê,",
+        "đem gắn vào mạn chiếc thuyền cũ của chàng, rồi cha Mỵ Nương đi ngang bến sông,",
+        "thấy viên ngọc đẹp sáng liền mua về."
       ],
       "image": {
-        "prompt": "a craftsman in an ancient workshop holding up a translucent glowing jade stone, inside the jade the faint tiny image of a ferryman rowing a little boat, fascinated villagers gathered around",
-        "seed": 2450308787
+        "prompt": "a grave by the river being opened by villagers finding a luminous clear gem the size of an orange glowing in soil, mist, a boat nearby, mystical light",
+        "seed": 2324888292,
+        "character": "my-nuong"
       },
       "video": {
-        "motionPrompt": "soft light pulses inside the translucent jade, the tiny ferry image seems to drift, the craftsman turns the stone slowly, gentle camera push-in",
-        "seed": 138150317
+        "motionPrompt": "the villagers lift the glowing gem from the earth and light spreads across their faces",
+        "seed": 664614204
       },
       "voice": {}
     },
     {
       "id": "chen-ngoc",
-      "title": "Chén ngọc tan thành nước",
+      "title": "Chiếc chén ngọc",
       "narrator": "ke-chuyen",
-      "narration": "Một hôm, Mỵ Nương rót trà vào chiếc chén ngọc. Nước trà vừa chạm đáy chén, nàng bỗng thấy hiện lên bóng một con thuyền nhỏ, người lái đò đang chèo thong thả, văng vẳng đâu đây tiếng hát xưa. Nàng nhận ra đó là Trương Chi. Nhớ lại chuyện cũ, nàng hiểu rằng chàng đã vì mình mà chết. Mỵ Nương thương xót, nước mắt rơi lã chã xuống chén. Giọt lệ vừa chạm vào ngọc, chiếc chén liền tan ra thành nước, như một mối oan tình đã được cởi bỏ.",
+      "narration": "Mỵ Nương sai thợ ngọc đẽo khối ngọc ấy thành một chiếc chén uống trà, và nàng rất thích chiếc chén. Một hôm, nàng cầm chén rót trà, thì lạ thay, hình ảnh người đánh cá chèo thuyền hiện lên, chầm chậm xoay quanh trong lòng chén. Tức thì tiếng hát năm xưa cũng văng vẳng như than, như trách. Mỵ Nương chạnh lòng nhớ lại mối tình đã qua. Một giọt nước mắt của nàng rơi xuống chén, và chiếc chén ngọc tự nhiên tan ra thành nước.",
       "subtitles": [
-        "Một hôm, Mỵ Nương rót trà vào chiếc chén ngọc.",
-        "Nước trà vừa chạm đáy chén, nàng bỗng thấy hiện lên bóng một con thuyền nhỏ,",
-        "người lái đò đang chèo thong thả, văng vẳng đâu đây tiếng hát xưa.",
-        "Nàng nhận ra đó là Trương Chi. Nhớ lại chuyện cũ, nàng hiểu rằng chàng đã vì mình mà chết.",
-        "Mỵ Nương thương xót, nước mắt rơi lã chã xuống chén.",
-        "Giọt lệ vừa chạm vào ngọc, chiếc chén liền tan ra thành nước,",
-        "như một mối oan tình đã được cởi bỏ."
+        "Mỵ Nương sai thợ ngọc đẽo khối ngọc ấy thành một chiếc chén uống trà,",
+        "và nàng rất thích chiếc chén.",
+        "Một hôm, nàng cầm chén rót trà, thì lạ thay, hình ảnh người đánh cá chèo thuyền hiện lên,",
+        "chầm chậm xoay quanh trong lòng chén.",
+        "Tức thì tiếng hát năm xưa cũng văng vẳng như than, như trách.",
+        "Mỵ Nương chạnh lòng nhớ lại mối tình đã qua.",
+        "Một giọt nước mắt của nàng rơi xuống chén, và chiếc chén ngọc tự nhiên tan ra thành nước."
       ],
       "image": {
-        "prompt": "My Nuong seated at a low lacquered tea table holding a translucent jade cup, inside the tea the reflected image of a small ferry boat and a rowing ferryman, a single tear falling from her eye toward the cup",
+        "prompt": "a girl pouring tea into a translucent jade cup, a tiny fisherman in a boat appearing and rowing slowly inside the tea, her tear falling into the cup, the cup melting into water, magical soft light",
         "seed": 3282499570,
         "character": "my-nuong"
       },
       "video": {
-        "motionPrompt": "a tear drops into the cup, ripples spread and the jade cup slowly dissolves into clear water, the ferry image fades away, slow camera push-in",
+        "motionPrompt": "a tiny boat circles inside the cup, a tear falls and the jade cup dissolves into water",
         "seed": 4139552073
       },
       "voice": {}
     },
     {
-      "id": "loi-nhac",
-      "title": "Lời còn lại",
+      "id": "khuc-quan-ho",
+      "title": "Khúc hát Quan họ",
       "narrator": "ke-chuyen",
-      "narration": "Từ đó, chuyện Trương Chi và Mỵ Nương được người đời truyền nhau kể mãi. Người thương chàng lái đò vì một tấm lòng chung tình đến chết không phai. Người trách cô gái chỉ yêu tiếng hát mà quên con người. Lại có người bảo, giọt nước mắt muộn màng kia cũng đã đủ để cởi một mối hận. Cho đến bây giờ, những chiều trên sông vắng, nghe ai cất tiếng hát buồn, người già vẫn nhắc đến chàng Trương Chi, như một lời nhắc nhở rằng đừng chỉ nhìn dáng vẻ bên ngoài mà phụ lòng người.",
+      "narration": "Chuyện tình ấy lưu truyền mãi ở vùng Kinh Bắc, gắn với sông Tiêu Tương nơi Quan họ Bắc Ninh. Trong bài Quan họ vẫn còn câu hát rằng ngày xưa có anh Trương Chi, người thì thậm xấu, hát thì thậm hay, cô Mỵ Nương vốn ở lầu tây, con quan thừa tướng ngày rày cấm cung. Trương Chi có chiếc thuyền chài, chèo thuyền ngang dọc hôm mai dãi dầu, mới hát một câu, gió đưa phảng phất tới lầu Mỵ Nương. Mỵ Nương nghe hát thì thương, nhưng trông thấy mặt anh lại chê. Trương Chi buồn bã ra về, cắm sào giữa bến hát thề một câu, kiếp này đã dở dang nhau, có sang kiếp khác lấy nhau cũng không thành. Lầu Tây chính là đồi Hồng Vân hay đồi Lim, nơi mỗi năm vào hội tháng riêng, trai gái các làng lại về đây hát Quan họ để tưởng nhớ mối tình ấy và kết bạn tình.",
       "subtitles": [
-        "Từ đó, chuyện Trương Chi và Mỵ Nương được người đời truyền nhau kể mãi.",
-        "Người thương chàng lái đò vì một tấm lòng chung tình đến chết không phai.",
-        "Người trách cô gái chỉ yêu tiếng hát mà quên con người.",
-        "Lại có người bảo, giọt nước mắt muộn màng kia cũng đã đủ để cởi một mối hận.",
-        "Cho đến bây giờ, những chiều trên sông vắng, nghe ai cất tiếng hát buồn,",
-        "người già vẫn nhắc đến chàng Trương Chi,",
-        "như một lời nhắc nhở rằng đừng chỉ nhìn dáng vẻ bên ngoài mà phụ lòng người."
+        "Chuyện tình ấy lưu truyền mãi ở vùng Kinh Bắc,",
+        "gắn với sông Tiêu Tương nơi Quan họ Bắc Ninh.",
+        "Trong bài Quan họ vẫn còn câu hát rằng ngày xưa có anh Trương Chi, người thì thậm xấu,",
+        "hát thì thậm hay, cô Mỵ Nương vốn ở lầu tây, con quan thừa tướng ngày rày cấm cung.",
+        "Trương Chi có chiếc thuyền chài, chèo thuyền ngang dọc hôm mai dãi dầu, mới hát một câu,",
+        "gió đưa phảng phất tới lầu Mỵ Nương.",
+        "Mỵ Nương nghe hát thì thương, nhưng trông thấy mặt anh lại chê.",
+        "Trương Chi buồn bã ra về, cắm sào giữa bến hát thề một câu, kiếp này đã dở dang nhau,",
+        "có sang kiếp khác lấy nhau cũng không thành.",
+        "Lầu Tây chính là đồi Hồng Vân hay đồi Lim, nơi mỗi năm vào hội tháng riêng,",
+        "trai gái các làng lại về đây hát Quan họ để tưởng nhớ mối tình ấy và kết bạn tình."
       ],
       "image": {
-        "prompt": "a wide quiet river at dusk with an empty small boat drifting near the reed bank, the red pavilion faint in the distance, a flock of birds crossing the pale sky",
-        "seed": 636850605
+        "prompt": "a spring festival of Quan ho singers on a green hill, young men and women in traditional dress singing in pairs under a pavilion, river below, joyful yet wistful mood",
+        "seed": 4124477175,
+        "character": "truong-chi"
       },
       "video": {
-        "motionPrompt": "the empty boat drifts slowly, reeds bend in the breeze, birds cross the sky, the light fades into dusk, slow camera crane up",
-        "seed": 3629221595
+        "motionPrompt": "the singers trade verses in pairs as spring wind moves their scarves",
+        "seed": 2752693062
       },
       "voice": {}
     }
