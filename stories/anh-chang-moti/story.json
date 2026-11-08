@@ -9,8 +9,9 @@
     "anh-hung"
   ],
   "added": "2026-11-02",
+  "revised": "2026-11-08",
   "language": "vi",
-  "source": "Truyện \"Moti\" trong The Lilac Fairy Book do Andrew Lang biên tập (1910; Major Campbell dịch từ tiếng Pashto), Project Gutenberg #3454, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, giữ cốt truyện chính và kể nhẹ các đoạn dữ (con hổ được đưa về rừng sâu, lời dọa của Moti nói tránh), không chép bản dịch nào.",
+  "source": "Truyện \"Moti\" trong The Lilac Fairy Book do Andrew Lang biên tập (1910; Major Campbell dịch từ tiếng Pashto), Project Gutenberg #3454, thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, đi theo từng đoạn của bản gốc, kể nhẹ các lời dọa của Moti; không chép bản dịch nào.",
   "basedOn": "Truyện dân gian Pashtun, Andrew Lang chép (1910)",
   "style": "classic South Asian fairy tale picture book illustration with touches of Mughal and Pashtun miniature painting, a walled caravan inn with arches, a bustling horse market, a royal court with carpets, a plain with tall castor oil plants, warm gouache, colors of saffron, terracotta, turquoise and dusty green, humorous and lively mood, no text, no letters, no watermark",
   "narrators": {
@@ -35,186 +36,483 @@
   ],
   "scenes": [
     {
-      "id": "chang-trai-vung-ve",
+      "id": "chang-vung-ve",
       "title": "Chàng trai vụng về",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, ở vùng núi của người Pashtun có một chàng trai tên là Moti. Moti cao to, khỏe như trâu, nhưng vụng về chẳng ai bằng. Mẹ để bát sữa, bát sữa chua dưới đất cho nguội, thế nào bàn chân to tướng của anh cũng thọc vào. Hết làm đổ lại làm vỡ, cho đến một hôm bố gọi anh lại: “Moti này, đây là năm mươi đồng bạc bố mẹ dành dụm bao năm. Con cầm lấy mà đi lập nghiệp đi.” Một sáng đầu xuân, Moti vác cây gậy to lên vai, vừa đi vừa hát. Một tối nóng nực, anh tới một thành phố, xin trọ trong một quán trọ lớn, nơi người và lạc đà, ngựa, trâu ngủ chung quanh một khoảng sân rộng. Anh mượn chiếc giường, kê cạnh một con trâu già trông giống trâu nhà, và chỉ năm phút sau đã ngáy khò khò.",
+      "narration": "Ngày xửa ngày xưa có một chàng trai tên là Moti, người to khỏe lạ thường, nhưng vụng về thì không ai sánh bằng. Vụng đến nỗi chân to của anh lúc nào cũng thọc vào những bát sữa ngọt hay sữa đông mà mẹ anh bày ra sàn cho nguội. Anh lúc nào cũng làm đổ, làm vỡ, làm hỏng, đập phá đồ đạc trong nhà đến mức mẹ anh chỉ biết thở dài, cho đến một ngày cha anh nói rằng này Moti, đây là năm mươi đồng bạc dành dụm bao năm, con cầm lấy mà đi kiếm sống, hay kiếm lấy cơ may nếu con làm nổi. Thế là một sáng đầu xuân, Moti vác cây gậy to trên vai lên đường, vừa đi vừa hát vang vui vẻ, chẳng chút lo lắng về những ngày sắp tới, tuy trong túi chỉ có năm mươi đồng bạc, tất cả tiền dành dụm của cha mẹ anh trong nhiều năm trời. Làng xóm ai cũng biết tiếng vụng của Moti, vậy mà không ai nỡ giận anh lâu, vì anh thật thà, tốt bụng và khỏe đến nỗi một mình bằng ba người cùng làm.",
       "subtitles": [
-        "Ngày xưa, ở vùng núi của người Pashtun có một chàng trai tên là Moti.",
-        "Moti cao to, khỏe như trâu, nhưng vụng về chẳng ai bằng.",
-        "Mẹ để bát sữa, bát sữa chua dưới đất cho nguội,",
-        "thế nào bàn chân to tướng của anh cũng thọc vào.",
-        "Hết làm đổ lại làm vỡ, cho đến một hôm bố gọi anh lại: “Moti này,",
-        "đây là năm mươi đồng bạc bố mẹ dành dụm bao năm. Con cầm lấy mà đi lập nghiệp đi.”",
-        "Một sáng đầu xuân, Moti vác cây gậy to lên vai, vừa đi vừa hát.",
-        "Một tối nóng nực, anh tới một thành phố, xin trọ trong một quán trọ lớn,",
-        "nơi người và lạc đà, ngựa, trâu ngủ chung quanh một khoảng sân rộng.",
-        "Anh mượn chiếc giường, kê cạnh một con trâu già trông giống trâu nhà,",
-        "và chỉ năm phút sau đã ngáy khò khò."
+        "Ngày xửa ngày xưa có một chàng trai tên là Moti, người to khỏe lạ thường,",
+        "nhưng vụng về thì không ai sánh bằng.",
+        "Vụng đến nỗi chân to của anh lúc nào cũng thọc vào những bát sữa ngọt hay sữa đông mà mẹ",
+        "anh bày ra sàn cho nguội.",
+        "Anh lúc nào cũng làm đổ, làm vỡ, làm hỏng,",
+        "đập phá đồ đạc trong nhà đến mức mẹ anh chỉ biết thở dài,",
+        "cho đến một ngày cha anh nói rằng này Moti, đây là năm mươi đồng bạc dành dụm bao năm,",
+        "con cầm lấy mà đi kiếm sống, hay kiếm lấy cơ may nếu con làm nổi.",
+        "Thế là một sáng đầu xuân, Moti vác cây gậy to trên vai lên đường,",
+        "vừa đi vừa hát vang vui vẻ, chẳng chút lo lắng về những ngày sắp tới,",
+        "tuy trong túi chỉ có năm mươi đồng bạc,",
+        "tất cả tiền dành dụm của cha mẹ anh trong nhiều năm trời.",
+        "Làng xóm ai cũng biết tiếng vụng của Moti, vậy mà không ai nỡ giận anh lâu,",
+        "vì anh thật thà, tốt bụng và khỏe đến nỗi một mình bằng ba người cùng làm."
       ],
       "image": {
-        "prompt": "a big clumsy young Pashtun villager with a white turban and a thick staff walking cheerfully along a spring mountain road, behind him a small village home where a spilled bowl of milk lies on the floor",
-        "seed": 3417884149,
+        "prompt": "a very big clumsy young Pashtun village lad with a thick staff over his shoulder striding off cheerfully down a dusty road in early spring, his mother and father waving from a mud-brick house, spilled bowls of milk behind",
+        "seed": 331473630,
         "character": "moti"
       },
       "video": {
-        "motionPrompt": "the young man swings his staff and sings, spring blossoms drift, a small dog trots after him",
-        "seed": 413809054
+        "motionPrompt": "Moti shoulders his staff and strides off singing while his parents wave",
+        "seed": 3212853062
       },
       "voice": {}
     },
     {
-      "id": "qua-luu-trong-hop",
-      "title": "Quả lựu trong hộp",
+      "id": "nha-tro-ban-dem",
+      "title": "Nhà trọ ban đêm",
       "narrator": "ke-chuyen",
-      "narration": "Nửa đêm, Moti thò tay xuống gối thì túi bạc đã mất. Anh lặng lẽ đi một vòng, nghe sau cột có hai người buôn ngựa đang thì thầm đếm chính túi bạc của mình. Moti chẳng nói gì, quay về ngủ tiếp. Sáng ra, anh theo họ ra chợ ngựa, chọn con đẹp nhất và xin cưỡi thử. Chưa cưỡi ngựa bao giờ, anh ôm cứng lấy nó, con ngựa phi một mạch về đúng chỗ buộc quen trong quán trọ. Hai người buôn ngựa đuổi tới đòi ngựa. Moti miệng đầy cơm, nói: “Ngựa của tôi chứ. Đêm qua các ông lấy năm mươi đồng của tôi, hôm nay tôi lấy ngựa của các ông, thế là sòng phẳng!” Họ kiện lên nhà vua. Nhà vua bèn bảo: “Ta sẽ khóa một vật vào hộp này. Đoán trúng thì ngựa là của anh.” Vua ra sau cửa, mang về một vật bọc khăn. Moti đã kịp thấy sau cửa là vườn cây. Anh nghĩ: bọc chặt thế thì không phải hoa, bọc khăn sạch thì không phải đá, không thơm thì là quả, mà mùa này quả gì đang chín nhỉ? Anh ngước nhìn trần nhà, cúi nhìn sàn, rồi chậm rãi nói: “Vừa hái, tròn và đỏ. Là quả lựu!”",
+      "narration": "Bằng cách này hay cách khác, anh đi đường cũng khá suôn sẻ, cho đến một chiều nóng nực thì tới một thành phố nọ, vào nghỉ đêm ở một khu nhà trọ cho khách đi đường. Nhà trọ thuở ấy thường là một khoảnh sân vuông rộng có tường cao bao quanh, bên trong có dãy cột vòng quanh để chứa cả người lẫn súc vật, cùng vài căn phòng ở các góc tháp dành cho kẻ giàu hay kẻ kiêu kỳ. Moti vốn là chàng quê, cả đời sống với trâu bò, lại chẳng giàu cũng chẳng kiêu, nên chỉ mượn của chủ nhà một cái giường, đặt cạnh một con trâu già khiến anh nhớ nhà, và chỉ năm phút sau là ngủ say như một đứa trẻ, chẳng hề nghĩ đến chuyện giữ túi tiền của mình. Gió đêm thổi qua dãy cột, lũ lạc đà khẽ nhai cỏ, đèn dầu leo lắt ở mấy góc tháp, và cả khu nhà trọ chìm trong tiếng ngáy của những người khách mệt nhoài. Moti ngủ ngon lành đến nỗi con trâu già bên cạnh còn phải khịt mũi mấy lần như muốn bảo anh khẽ tiếng lại.",
       "subtitles": [
-        "Nửa đêm, Moti thò tay xuống gối thì túi bạc đã mất.",
-        "Anh lặng lẽ đi một vòng,",
-        "nghe sau cột có hai người buôn ngựa đang thì thầm đếm chính túi bạc của mình.",
-        "Moti chẳng nói gì, quay về ngủ tiếp.",
-        "Sáng ra, anh theo họ ra chợ ngựa, chọn con đẹp nhất và xin cưỡi thử.",
-        "Chưa cưỡi ngựa bao giờ, anh ôm cứng lấy nó,",
-        "con ngựa phi một mạch về đúng chỗ buộc quen trong quán trọ.",
-        "Hai người buôn ngựa đuổi tới đòi ngựa. Moti miệng đầy cơm, nói: “Ngựa của tôi chứ.",
-        "Đêm qua các ông lấy năm mươi đồng của tôi, hôm nay tôi lấy ngựa của các ông,",
-        "thế là sòng phẳng!” Họ kiện lên nhà vua. Nhà vua bèn bảo: “Ta sẽ khóa một vật vào hộp này.",
-        "Đoán trúng thì ngựa là của anh.” Vua ra sau cửa, mang về một vật bọc khăn.",
-        "Moti đã kịp thấy sau cửa là vườn cây.",
-        "Anh nghĩ: bọc chặt thế thì không phải hoa, bọc khăn sạch thì không phải đá,",
-        "không thơm thì là quả, mà mùa này quả gì đang chín nhỉ?",
-        "Anh ngước nhìn trần nhà, cúi nhìn sàn, rồi chậm rãi nói: “Vừa hái, tròn và đỏ.",
-        "Là quả lựu!”"
+        "Bằng cách này hay cách khác, anh đi đường cũng khá suôn sẻ,",
+        "cho đến một chiều nóng nực thì tới một thành phố nọ,",
+        "vào nghỉ đêm ở một khu nhà trọ cho khách đi đường.",
+        "Nhà trọ thuở ấy thường là một khoảnh sân vuông rộng có tường cao bao quanh,",
+        "bên trong có dãy cột vòng quanh để chứa cả người lẫn súc vật,",
+        "cùng vài căn phòng ở các góc tháp dành cho kẻ giàu hay kẻ kiêu kỳ.",
+        "Moti vốn là chàng quê, cả đời sống với trâu bò, lại chẳng giàu cũng chẳng kiêu,",
+        "nên chỉ mượn của chủ nhà một cái giường, đặt cạnh một con trâu già khiến anh nhớ nhà,",
+        "và chỉ năm phút sau là ngủ say như một đứa trẻ,",
+        "chẳng hề nghĩ đến chuyện giữ túi tiền của mình.",
+        "Gió đêm thổi qua dãy cột, lũ lạc đà khẽ nhai cỏ, đèn dầu leo lắt ở mấy góc tháp,",
+        "và cả khu nhà trọ chìm trong tiếng ngáy của những người khách mệt nhoài.",
+        "Moti ngủ ngon lành đến nỗi con trâu già bên cạnh còn phải khịt mũi mấy lần như muốn bảo",
+        "anh khẽ tiếng lại."
       ],
       "image": {
-        "prompt": "in a royal court with rich carpets a plump king in a jeweled turban holding a small carved box, a big clumsy villager with fingers on his forehead pretending to think hard, two sly horse dealers and courtiers watching",
-        "seed": 848684965,
+        "prompt": "a walled caravanserai courtyard at dusk with arched colonnade, camels, horses and a buffalo, a big country lad lying on a borrowed bed beside an old buffalo, warm lamplight",
+        "seed": 645814630,
         "character": "moti"
       },
       "video": {
-        "motionPrompt": "the villager looks up at the ceiling and down at the floor, the king slowly opens the box to reveal a red pomegranate, the courtiers gasp",
-        "seed": 2237384775
+        "motionPrompt": "Moti settles his bed beside the old buffalo and falls asleep as the lamps flicker",
+        "seed": 4080489740
       },
       "voice": {}
     },
     {
-      "id": "con-ho-trong-quan-tro",
-      "title": "Con hổ trong quán trọ",
+      "id": "bi-mat-tien",
+      "title": "Hai tay buôn ngựa",
       "narrator": "ke-chuyen",
-      "narration": "Đúng là quả lựu thật. Nhà vua chẳng biết gì về hoa trái, tưởng Moti thông thái như thần. Hai người buôn ngựa cụp đuôi bỏ đi, còn Moti được giữ ngựa và vào làm việc cho vua. Ít lâu sau, một tối mưa gió, con ngựa sổng mất, chỉ còn đoạn dây đứt. Moti cầm dây và gậy, lần theo vết móng vào rừng. Trời tối hẳn thì anh bắt gặp một con hổ, và con ngựa đã thành bữa tối của nó. “Đồ ăn trộm!” Moti hét lên, vung gậy nện cho con hổ một trận choáng váng, rồi buộc dây vào cổ nó kéo về quán trọ. “Mày lấy ngựa của tao thì tao lấy mày, thế là sòng phẳng!” Anh buộc con hổ cẩn thận rồi lăn ra ngủ. Sáng ra, cả quán trọ hoảng hồn: một con hổ thật, tuy bị đòn ê ẩm, đang đứng chớp mắt giữa đám lạc đà! Nhà vua thân chinh tới xem. Ngài chẳng vui chút nào, sai lính nhốt con hổ vào cũi sắt, đem trả về tận rừng sâu. Nhưng từ đó vua tin Moti là người gan dạ nhất đời, tăng lương cho anh gấp trăm lần.",
+      "narration": "Giữa đêm, anh thức giấc vì thấy như có ai động đến mình, thò tay xuống dưới gối thì hoảng hồn nhận ra túi tiền đã mất. Anh khẽ khàng đứng dậy, đi rình quanh xem ai còn thức. Anh vấp vào vài người và vài con vật, đánh thức được một số, nhưng đi hết cả nhà trọ, nấp trong bóng những mái vòm, mà chẳng gặp tên trộm nào đáng ngờ. Anh sắp bỏ cuộc thì nghe thấy hai người thì thầm, một người cười khẽ. Anh ló ra sau một cây cột, thấy hai gã lái buôn ngựa người Afghanistan đang đếm tiền trong chính túi tiền của mình. Thế rồi Moti lẳng lặng quay lại giường ngủ tiếp, như chẳng có chuyện gì đáng bận tâm, vì anh đã biết kẻ nào lấy tiền của mình và biết đi tìm chúng ở đâu vào sáng mai! Có lẽ anh nghĩ rằng đã biết ai là kẻ trộm thì chẳng việc gì phải hấp tấp, cứ để sáng mai tính sổ cho đàng hoàng.",
       "subtitles": [
-        "Đúng là quả lựu thật. Nhà vua chẳng biết gì về hoa trái, tưởng Moti thông thái như thần.",
-        "Hai người buôn ngựa cụp đuôi bỏ đi, còn Moti được giữ ngựa và vào làm việc cho vua.",
-        "Ít lâu sau, một tối mưa gió, con ngựa sổng mất, chỉ còn đoạn dây đứt.",
-        "Moti cầm dây và gậy, lần theo vết móng vào rừng.",
-        "Trời tối hẳn thì anh bắt gặp một con hổ, và con ngựa đã thành bữa tối của nó.",
-        "“Đồ ăn trộm!”",
-        "Moti hét lên, vung gậy nện cho con hổ một trận choáng váng,",
-        "rồi buộc dây vào cổ nó kéo về quán trọ.",
-        "“Mày lấy ngựa của tao thì tao lấy mày, thế là sòng phẳng!”",
-        "Anh buộc con hổ cẩn thận rồi lăn ra ngủ.",
-        "Sáng ra, cả quán trọ hoảng hồn: một con hổ thật, tuy bị đòn ê ẩm,",
-        "đang đứng chớp mắt giữa đám lạc đà! Nhà vua thân chinh tới xem.",
-        "Ngài chẳng vui chút nào, sai lính nhốt con hổ vào cũi sắt, đem trả về tận rừng sâu.",
-        "Nhưng từ đó vua tin Moti là người gan dạ nhất đời, tăng lương cho anh gấp trăm lần."
+        "Giữa đêm, anh thức giấc vì thấy như có ai động đến mình,",
+        "thò tay xuống dưới gối thì hoảng hồn nhận ra túi tiền đã mất.",
+        "Anh khẽ khàng đứng dậy, đi rình quanh xem ai còn thức.",
+        "Anh vấp vào vài người và vài con vật, đánh thức được một số, nhưng đi hết cả nhà trọ,",
+        "nấp trong bóng những mái vòm, mà chẳng gặp tên trộm nào đáng ngờ.",
+        "Anh sắp bỏ cuộc thì nghe thấy hai người thì thầm, một người cười khẽ.",
+        "Anh ló ra sau một cây cột, thấy hai gã lái buôn ngựa người Afghanistan đang đếm tiền",
+        "trong chính túi tiền của mình.",
+        "Thế rồi Moti lẳng lặng quay lại giường ngủ tiếp, như chẳng có chuyện gì đáng bận tâm,",
+        "vì anh đã biết kẻ nào lấy tiền của mình và biết đi tìm chúng ở đâu vào sáng mai!",
+        "Có lẽ anh nghĩ rằng đã biết ai là kẻ trộm thì chẳng việc gì phải hấp tấp,",
+        "cứ để sáng mai tính sổ cho đàng hoàng."
       ],
       "image": {
-        "prompt": "at dawn in a walled caravan inn with arches a big villager snoring on a rope bed beside a grumpy tied up tiger blinking sleepily, frightened travellers, camels and horses peeking from behind pillars",
-        "seed": 609165422,
+        "prompt": "a clumsy lad peeking from behind a pillar at two Afghan horse traders counting coins from a leather bag by lantern light in a night courtyard, shadows, comedic tension",
+        "seed": 2507077967,
         "character": "moti"
       },
       "video": {
-        "motionPrompt": "the tiger blinks and twitches its ears, the travellers tiptoe and whisper, the villager snores with his mouth open",
-        "seed": 2712258905
+        "motionPrompt": "the lad peeks around the pillar, then tiptoes back to bed",
+        "seed": 1483804494
       },
       "voice": {}
     },
     {
-      "id": "con-ngua-nho-xiu",
-      "title": "Con ngựa nhỏ xíu",
+      "id": "con-ngua-chay-ve",
+      "title": "Con ngựa chạy về",
       "narrator": "ke-chuyen",
-      "narration": "Vài tuần sau, nhà vua gọi Moti vào, mặt mày ủ rũ. Ông vua nước láng giềng có quân đông gấp bội đã tuyên chiến, mà vua chẳng có tiền, cũng chẳng đủ quân. Moti bảo: “Có thế thôi à? Bệ hạ cứ cho quân ra, có tôi đi cùng.” Vua mừng rỡ, dẫn anh vào chuồng ngựa cho chọn con nào cũng được. Ai ngờ Moti chọn con ngựa thồ bé tí chuyên chở cỏ chở nước. “Sao lại chọn con ấy?” “Tâu bệ hạ, tôi hay ngã lắm. Ngã từ con ngựa to thì gãy tay gãy chân, ngã từ con bé thì chẳng sao.” Hôm ra trận, trông Moti buồn cười hết sức. Anh chỉ cầm cây gậy, lại buộc vào mỗi cổ chân một hòn đá to cho khỏi mất thăng bằng, hai hòn đá gần quệt đất. Kỵ binh đi trước, bộ binh lững thững theo sau, nhà vua run run đi cuối cùng.",
+      "narration": "Sáng ra, Moti đi theo hai gã người Afghanistan ra ngoài thành, tới chợ ngựa, nơi họ bày bán ngựa của mình. Anh chọn con ngựa trông đẹp nhất trong đám, tới hỏi con ngựa này có bán không, cho tôi cưỡi thử nhé. Hai gã bằng lòng, anh bèn trèo lên lưng, thúc gót chân, và con ngựa phi như bay. Cả đời Moti chưa cưỡi ngựa bao giờ, nên mải dùng cả hai tay cả hai chân để bám, con vật muốn đi đâu thì đi, rồi phóng một mạch trở lại đúng nhà trọ nó đã ở mấy đêm qua. Anh nghĩ bụng thế này thì tiện quá. Ngựa dừng lại ở chỗ máng của nó, Moti lăn xuống đất, nhưng anh nhảy dậy ngay, buộc con ngựa lại và gọi đồ ăn sáng, ngồi ăn một cách rất ngon lành như người vừa làm xong một phi vụ buôn bán đáng khen. Chẳng mấy chốc hai gã người Afghanistan xuất hiện, thở không ra hơi, giận dữ, và đòi lại con ngựa. Cả chợ ngựa há hốc miệng nhìn theo bóng chàng trai to lớn bám chặt lưng ngựa, bụi bốc mù mịt sau vó con vật đang phi không gì cản nổi. Mọi người trong nhà trọ giật mình nhìn con ngựa lạ vừa chạy vào sân và chàng trai nằm bò dưới chân nó, chẳng ai hiểu chuyện gì xảy ra.",
       "subtitles": [
-        "Vài tuần sau, nhà vua gọi Moti vào, mặt mày ủ rũ.",
-        "Ông vua nước láng giềng có quân đông gấp bội đã tuyên chiến, mà vua chẳng có tiền,",
-        "cũng chẳng đủ quân. Moti bảo: “Có thế thôi à? Bệ hạ cứ cho quân ra, có tôi đi cùng.”",
-        "Vua mừng rỡ, dẫn anh vào chuồng ngựa cho chọn con nào cũng được.",
-        "Ai ngờ Moti chọn con ngựa thồ bé tí chuyên chở cỏ chở nước. “Sao lại chọn con ấy?”",
-        "“Tâu bệ hạ, tôi hay ngã lắm.",
-        "Ngã từ con ngựa to thì gãy tay gãy chân, ngã từ con bé thì chẳng sao.”",
-        "Hôm ra trận, trông Moti buồn cười hết sức.",
-        "Anh chỉ cầm cây gậy, lại buộc vào mỗi cổ chân một hòn đá to cho khỏi mất thăng bằng,",
-        "hai hòn đá gần quệt đất.",
-        "Kỵ binh đi trước, bộ binh lững thững theo sau, nhà vua run run đi cuối cùng."
+        "Sáng ra, Moti đi theo hai gã người Afghanistan ra ngoài thành, tới chợ ngựa,",
+        "nơi họ bày bán ngựa của mình.",
+        "Anh chọn con ngựa trông đẹp nhất trong đám, tới hỏi con ngựa này có bán không,",
+        "cho tôi cưỡi thử nhé.",
+        "Hai gã bằng lòng, anh bèn trèo lên lưng, thúc gót chân, và con ngựa phi như bay.",
+        "Cả đời Moti chưa cưỡi ngựa bao giờ, nên mải dùng cả hai tay cả hai chân để bám,",
+        "con vật muốn đi đâu thì đi, rồi phóng một mạch trở lại đúng nhà trọ nó đã ở mấy đêm qua.",
+        "Anh nghĩ bụng thế này thì tiện quá.",
+        "Ngựa dừng lại ở chỗ máng của nó, Moti lăn xuống đất, nhưng anh nhảy dậy ngay,",
+        "buộc con ngựa lại và gọi đồ ăn sáng,",
+        "ngồi ăn một cách rất ngon lành như người vừa làm xong một phi vụ buôn bán đáng khen.",
+        "Chẳng mấy chốc hai gã người Afghanistan xuất hiện, thở không ra hơi, giận dữ,",
+        "và đòi lại con ngựa.",
+        "Cả chợ ngựa há hốc miệng nhìn theo bóng chàng trai to lớn bám chặt lưng ngựa,",
+        "bụi bốc mù mịt sau vó con vật đang phi không gì cản nổi.",
+        "Mọi người trong nhà trọ giật mình nhìn con ngựa lạ vừa chạy vào sân và chàng trai nằm bò",
+        "dưới chân nó, chẳng ai hiểu chuyện gì xảy ra."
       ],
       "image": {
-        "prompt": "a comical big man riding a tiny shaggy pony with a big stone tied to each ankle almost touching the ground, holding a wooden staff, behind him a small cavalry in armour and a nervous king on horseback with attendants",
-        "seed": 4027633498,
+        "prompt": "a big lad barely hanging on to a galloping horse in a dusty horse market, traders shouting behind him, then arriving in the caravanserai courtyard and tumbling off",
+        "seed": 4249885167,
         "character": "moti"
       },
       "video": {
-        "motionPrompt": "the tiny pony trots with wobbly steps, the stones swing and scrape the dust, the soldiers try not to laugh",
-        "seed": 1051896083
+        "motionPrompt": "the horse gallops wildly with the lad clinging on and skids to a stop at the courtyard trough",
+        "seed": 2843029023
       },
       "voice": {}
     },
     {
-      "id": "can-gio-tren-dong",
-      "title": "Cơn gió trên đồng",
+      "id": "thua-kien",
+      "title": "Đi kiện lên nhà vua",
       "narrator": "ke-chuyen",
-      "narration": "Con ngựa nhỏ chở người nặng lại thêm hai hòn đá nên tụt lại phía sau. Moti sốt ruột quất cho nó một gậy. Con ngựa nổi khùng, lồng lên phi như bay. Hai hòn đá lần lượt tuột ra lăn lông lốc, Moti đánh rơi cả gậy, ôm chặt bờm ngựa, vừa phi vừa quát nó: “Đợi đấy, bắt được thì biết tay ta!” Kỵ binh tưởng anh quát quân giặc, phục lăn, rồi ngựa của họ cũng hăng lên lao theo. Ngang qua một ruộng thầu dầu cao quá đầu người, Moti túm lấy một cây cho khỏi ngã, rễ bật lên, thế là anh vung cả cây thầu dầu như vung một cây sồi. Bên kia, một tên lính chạy về báo vua giặc: “Bệ hạ chạy ngay đi! Đi đầu quân địch là một gã khổng lồ, tay cầm cả cái cây, vừa phi vừa gào thét dữ lắm!” Vua giặc nhìn ra, thấy bụi mù cuồn cuộn và cái cây vung vẩy, liền quay ngựa chạy thục mạng, cả đạo quân chạy theo.",
+      "narration": "Moti miệng đầy cơm, nói gì mà ngựa của tôi, tôi trả các anh năm mươi đồng bạc, hời quá còn gì. Một gã đáp bậy nào, đó là ngựa của chúng tôi, và bắt đầu tháo dây cương. Moti chộp cây gậy hét lên rằng buông ra, không thì tôi đập vỡ đầu, đồ ăn trộm, tôi biết các anh rồi, đêm qua các anh lấy tiền của tôi nên hôm nay tôi lấy ngựa của các anh, thế là công bằng. Hai gã bắt đầu thấy bất an, nhưng thấy Moti nhất định giữ ngựa thì họ quyết định nhờ đến pháp luật, bèn đi thưa với nhà vua rằng Moti ăn cắp ngựa mà không chịu trả lại, cũng chẳng trả tiền. Một người lính tới gọi Moti đến gặp vua. Anh cúi chào, và nhà vua hỏi vì sao anh phóng ngựa đi như vậy, và vì sao lại không chịu trả ngựa cho chủ cũ. Hai gã người Afghanistan đứng bên cạnh, nhìn anh bằng ánh mắt đầy căm tức. Anh chẳng chút sợ hãi, chỉ lo rằng cơm sáng bị nguội vì phải đi, nhưng vẫn đi theo người lính vào cung, bụng thì tin chắc mình nói đúng. Trên đường đi, người lính kể rằng nhà vua là người công bằng, nhưng Moti chỉ gật đầu cho có lệ, vì miệng anh vẫn còn nhai dở miếng cơm sáng.",
       "subtitles": [
-        "Con ngựa nhỏ chở người nặng lại thêm hai hòn đá nên tụt lại phía sau.",
-        "Moti sốt ruột quất cho nó một gậy. Con ngựa nổi khùng, lồng lên phi như bay.",
-        "Hai hòn đá lần lượt tuột ra lăn lông lốc, Moti đánh rơi cả gậy, ôm chặt bờm ngựa,",
-        "vừa phi vừa quát nó: “Đợi đấy, bắt được thì biết tay ta!”",
-        "Kỵ binh tưởng anh quát quân giặc, phục lăn, rồi ngựa của họ cũng hăng lên lao theo.",
-        "Ngang qua một ruộng thầu dầu cao quá đầu người, Moti túm lấy một cây cho khỏi ngã,",
-        "rễ bật lên, thế là anh vung cả cây thầu dầu như vung một cây sồi.",
-        "Bên kia, một tên lính chạy về báo vua giặc: “Bệ hạ chạy ngay đi!",
-        "Đi đầu quân địch là một gã khổng lồ, tay cầm cả cái cây, vừa phi vừa gào thét dữ lắm!”",
-        "Vua giặc nhìn ra, thấy bụi mù cuồn cuộn và cái cây vung vẩy,",
-        "liền quay ngựa chạy thục mạng, cả đạo quân chạy theo."
+        "Moti miệng đầy cơm, nói gì mà ngựa của tôi, tôi trả các anh năm mươi đồng bạc,",
+        "hời quá còn gì.",
+        "Một gã đáp bậy nào, đó là ngựa của chúng tôi, và bắt đầu tháo dây cương.",
+        "Moti chộp cây gậy hét lên rằng buông ra, không thì tôi đập vỡ đầu, đồ ăn trộm,",
+        "tôi biết các anh rồi, đêm qua các anh lấy tiền của tôi nên hôm nay tôi lấy ngựa của các",
+        "anh, thế là công bằng.",
+        "Hai gã bắt đầu thấy bất an, nhưng thấy Moti nhất định giữ ngựa thì họ quyết định nhờ đến",
+        "pháp luật, bèn đi thưa với nhà vua rằng Moti ăn cắp ngựa mà không chịu trả lại,",
+        "cũng chẳng trả tiền.",
+        "Một người lính tới gọi Moti đến gặp vua.",
+        "Anh cúi chào, và nhà vua hỏi vì sao anh phóng ngựa đi như vậy,",
+        "và vì sao lại không chịu trả ngựa cho chủ cũ.",
+        "Hai gã người Afghanistan đứng bên cạnh, nhìn anh bằng ánh mắt đầy căm tức.",
+        "Anh chẳng chút sợ hãi, chỉ lo rằng cơm sáng bị nguội vì phải đi,",
+        "nhưng vẫn đi theo người lính vào cung, bụng thì tin chắc mình nói đúng.",
+        "Trên đường đi, người lính kể rằng nhà vua là người công bằng,",
+        "nhưng Moti chỉ gật đầu cho có lệ, vì miệng anh vẫn còn nhai dở miếng cơm sáng."
       ],
       "image": {
-        "prompt": "a big man clinging to the mane of a galloping tiny pony and waving an uprooted tall castor oil plant like a tree, a huge cloud of dust behind him with cavalry following, far away an enemy army turning to flee in panic",
-        "seed": 3601612017,
+        "prompt": "two Afghan merchants angrily confronting a lad eating rice by a horse in the courtyard, he raises his staff, later the lad bowing before a king on a throne in a court hall",
+        "seed": 577391243,
         "character": "moti"
       },
       "video": {
-        "motionPrompt": "the pony gallops wildly, the leafy plant whirls through the air, dust billows, the enemy soldiers drop their banners and run",
-        "seed": 3734192886
+        "motionPrompt": "the lad waves his staff at the merchants, then bows before the king in the court",
+        "seed": 4212552477
       },
       "voice": {}
     },
     {
-      "id": "nguoi-thong-thai-nhat",
-      "title": "Người thông thái nhất",
+      "id": "doan-qua-luu",
+      "title": "Đoán vật trong hộp",
       "narrator": "ke-chuyen",
-      "narration": "Chỉ có một viên quan béo chạy không kịp, sợ quá nằm rạp xuống đất. Con ngựa nhỏ giật mình phanh lại, Moti bay vọt qua đầu nó như pháo thăng thiên, rơi đúng lên lưng viên quan. Anh bật dậy, vung cây thầu dầu, quát vang: “Vua các người đâu? Gọi ra đây! Quân của ta tới cả rồi, mỗi người sẽ nhổ một cái cây!” Viên quan quỳ chắp tay xin tha, rồi chạy đi gọi vua mình. Khi quân của Moti đã dàn hàng thật oai, vua giặc tới, khúm núm xin lỗi, hứa không bao giờ gây chiến nữa và xin nộp thật nhiều vàng bạc. Thế là hai bên kéo quân về, ai cũng vui. Từ đó, anh chàng vụng về Moti sống lâu, giàu có, được cả nước coi là người khôn ngoan, gan dạ và thận trọng bậc nhất. Chỉ có họ hàng nhà anh là mãi chẳng hiểu nổi anh đã làm gì mà được tiếng khôn hơn thiên hạ.",
+      "narration": "Moti khai rằng mình đổi con ngựa lấy năm mươi đồng bạc, còn hai gã thì thề rằng số tiền họ có là tiền bán những con ngựa khác. Chuyện cứ rối lên, cuối cùng nhà vua, người vốn tưởng Moti đã ăn cắp ngựa, nói rằng thôi, ta sẽ có cách. Ta khóa một vật vào cái hộp này, nếu hắn đoán trúng thì con ngựa thuộc về hắn, còn không thì thuộc về các ngươi. Moti vui vẻ đồng ý. Nhà vua đứng dậy, ra cửa nhỏ ở sau triều đình, một lát quay lại, ôm chặt một vật gói trong tấm vải dưới áo, bỏ vào hộp, khóa lại, đặt ở nơi ai cũng thấy được, rồi bảo Moti đoán đi. Khi nhà vua mở cửa sau, Moti đã nhìn thấy bên ngoài là một khu vườn, nên không đợi vua quay lại, anh nghĩ xem trong vườn có thứ gì nhỏ vừa bỏ vào hộp. Là quả hay là hoa? Không phải hoa, vì vua ôm chặt quá. Vậy là quả hay hòn đá, nhưng không phải đá vì chẳng ai gói viên đá bẩn trong tấm vải sạch. Vậy là quả, mà là quả ít mùi, nếu không vua đã sợ anh ngửi thấy. Quả ít mùi nào đang vào mùa nhỉ? Biết được điều đó là anh đoán xong câu đố, anh nghĩ thế, và thầm thấy mình khá thông minh. Cả triều đình im lặng nhìn chàng thanh niên to lớn, người thì nín cười, người thì nín thở, chờ xem anh trả lời thế nào.",
       "subtitles": [
-        "Chỉ có một viên quan béo chạy không kịp, sợ quá nằm rạp xuống đất.",
-        "Con ngựa nhỏ giật mình phanh lại, Moti bay vọt qua đầu nó như pháo thăng thiên,",
-        "rơi đúng lên lưng viên quan.",
-        "Anh bật dậy, vung cây thầu dầu, quát vang: “Vua các người đâu? Gọi ra đây!",
-        "Quân của ta tới cả rồi, mỗi người sẽ nhổ một cái cây!”",
-        "Viên quan quỳ chắp tay xin tha, rồi chạy đi gọi vua mình.",
-        "Khi quân của Moti đã dàn hàng thật oai, vua giặc tới, khúm núm xin lỗi,",
-        "hứa không bao giờ gây chiến nữa và xin nộp thật nhiều vàng bạc.",
-        "Thế là hai bên kéo quân về, ai cũng vui.",
-        "Từ đó, anh chàng vụng về Moti sống lâu, giàu có, được cả nước coi là người khôn ngoan,",
-        "gan dạ và thận trọng bậc nhất.",
-        "Chỉ có họ hàng nhà anh là mãi chẳng hiểu nổi anh đã làm gì mà được tiếng khôn hơn thiên",
-        "hạ."
+        "Moti khai rằng mình đổi con ngựa lấy năm mươi đồng bạc,",
+        "còn hai gã thì thề rằng số tiền họ có là tiền bán những con ngựa khác.",
+        "Chuyện cứ rối lên, cuối cùng nhà vua, người vốn tưởng Moti đã ăn cắp ngựa, nói rằng thôi,",
+        "ta sẽ có cách.",
+        "Ta khóa một vật vào cái hộp này, nếu hắn đoán trúng thì con ngựa thuộc về hắn,",
+        "còn không thì thuộc về các ngươi.",
+        "Moti vui vẻ đồng ý.",
+        "Nhà vua đứng dậy, ra cửa nhỏ ở sau triều đình, một lát quay lại,",
+        "ôm chặt một vật gói trong tấm vải dưới áo, bỏ vào hộp, khóa lại,",
+        "đặt ở nơi ai cũng thấy được, rồi bảo Moti đoán đi.",
+        "Khi nhà vua mở cửa sau, Moti đã nhìn thấy bên ngoài là một khu vườn,",
+        "nên không đợi vua quay lại, anh nghĩ xem trong vườn có thứ gì nhỏ vừa bỏ vào hộp.",
+        "Là quả hay là hoa?",
+        "Không phải hoa, vì vua ôm chặt quá.",
+        "Vậy là quả hay hòn đá, nhưng không phải đá vì chẳng ai gói viên đá bẩn trong tấm vải sạch.",
+        "Vậy là quả, mà là quả ít mùi, nếu không vua đã sợ anh ngửi thấy.",
+        "Quả ít mùi nào đang vào mùa nhỉ?",
+        "Biết được điều đó là anh đoán xong câu đố, anh nghĩ thế, và thầm thấy mình khá thông minh.",
+        "Cả triều đình im lặng nhìn chàng thanh niên to lớn, người thì nín cười,",
+        "người thì nín thở, chờ xem anh trả lời thế nào."
       ],
       "image": {
-        "prompt": "a big villager standing proudly with an uprooted castor oil plant over his shoulder, an apologetic enemy king bowing and offering chests of gold, a fat officer kneeling, the happy plump king and soldiers cheering behind",
-        "seed": 2333885886,
+        "prompt": "a king locking a small box in a court hall while a lad reasons aloud thoughtfully by staring at the ceiling, a garden visible through a small back door, courtiers watching",
+        "seed": 238890245,
         "character": "moti"
       },
       "video": {
-        "motionPrompt": "the soldiers cheer and wave, the enemy king bows again and again, the villager grins and scratches his head",
-        "seed": 1288731528
+        "motionPrompt": "the lad frowns at the ceiling with a finger on his forehead as the king folds his arms",
+        "seed": 2302975758
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-luu",
+      "title": "Quả lựu",
+      "narrator": "ke-chuyen",
+      "narration": "Moti là chàng quê, quen làm việc trong vườn của cha, biết hết các loại quả thường. Nên anh nghĩ mình đoán được, nhưng để khỏi có vẻ quá dễ, anh ngước nhìn lên trần nhà với vẻ bối rối, rồi cúi xuống nhìn sàn với vẻ thông thái, ngón tay ấn vào trán, rồi chậm rãi nói, mắt nhìn nhà vua, vừa mới hái. Nó tròn và nó đỏ. Đó là quả lựu! Nhà vua chỉ biết quả thì ăn ngon, còn mùa nào quả nào thì cứ đòi là có, nên với ông lời đoán của Moti như phép màu, vừa là bằng chứng cho trí khôn, vừa cho sự ngay thẳng của anh, vì quả thật ông đã bỏ quả lựu vào hộp. Nhà vua kinh ngạc khen ngợi, mọi người cũng khen theo. Hai gã người Afghanistan cúi đầu bỏ đi, còn Moti dắt ngựa vào làm việc cho nhà vua. Từ hôm ấy, Moti được ở lại phục vụ nhà vua với đồng lương hậu hĩnh, và anh vẫn trọ ở nhà trọ cũ như trước, cạnh con ngựa quý.",
+      "subtitles": [
+        "Moti là chàng quê, quen làm việc trong vườn của cha, biết hết các loại quả thường.",
+        "Nên anh nghĩ mình đoán được, nhưng để khỏi có vẻ quá dễ,",
+        "anh ngước nhìn lên trần nhà với vẻ bối rối, rồi cúi xuống nhìn sàn với vẻ thông thái,",
+        "ngón tay ấn vào trán, rồi chậm rãi nói, mắt nhìn nhà vua, vừa mới hái.",
+        "Nó tròn và nó đỏ.",
+        "Đó là quả lựu!",
+        "Nhà vua chỉ biết quả thì ăn ngon, còn mùa nào quả nào thì cứ đòi là có,",
+        "nên với ông lời đoán của Moti như phép màu, vừa là bằng chứng cho trí khôn,",
+        "vừa cho sự ngay thẳng của anh, vì quả thật ông đã bỏ quả lựu vào hộp.",
+        "Nhà vua kinh ngạc khen ngợi, mọi người cũng khen theo.",
+        "Hai gã người Afghanistan cúi đầu bỏ đi, còn Moti dắt ngựa vào làm việc cho nhà vua.",
+        "Từ hôm ấy, Moti được ở lại phục vụ nhà vua với đồng lương hậu hĩnh,",
+        "và anh vẫn trọ ở nhà trọ cũ như trước, cạnh con ngựa quý."
+      ],
+      "image": {
+        "prompt": "a king opening a small box to reveal a red pomegranate while the astonished courtiers gasp and a big lad smiles modestly, two merchants slinking off, bright court hall",
+        "seed": 3562180251,
+        "character": "moti"
+      },
+      "video": {
+        "motionPrompt": "the box opens to show a red pomegranate, the court gasps and the merchants slink away",
+        "seed": 970695561
+      },
+      "voice": {}
+    },
+    {
+      "id": "con-ho-trong-nha-tro",
+      "title": "Con hổ trong nhà trọ",
+      "narrator": "ke-chuyen",
+      "narration": "Không bao lâu sau, một chiều mưa bão, Moti vẫn ở nhà trọ, trở về thì thấy con ngựa quý đã đi đâu mất, chỉ còn sợi dây cương đứt. Hỏi hết những ai có thể biết mà chẳng ai hay con ngựa đi đâu. Anh cầm sợi dây và cây gậy lớn, đi ra thành, vào khu rừng gần đó, lần theo dấu chân ngựa trong bùn. Trời tối dần mà anh vẫn đi, cho đến lúc trong bóng tối chợt gặp ngay một con hổ đang ung dung ăn con ngựa của mình. Anh la lên đồ ăn trộm, chạy tới, và khi con hổ ngạc nhiên làm rơi khúc xương, cây gậy của anh giáng xuống đầu nó mạnh đến mức con vật choáng váng, khó thở, khó nhìn. Anh tiếp tục đánh và mắng cho tới khi con hổ không đứng nổi, rồi buộc đầu dây cương còn lại vào cổ nó, kéo về nhà trọ. Anh vừa kéo con hổ vừa nói rằng nếu mày ăn con ngựa của tao thì ít nhất tao có mày, thế là công bằng, rồi buộc nó chặt cả đầu lẫn chân như đã buộc ngựa, và vì đêm đã khuya nên anh nằm xuống bên cạnh, ngủ say, đêm đã gần sáng. Gió gào ngoài rừng, mưa quất vào mặt anh, nhưng anh mải nghĩ đến con ngựa nên chẳng thấy lạnh, càng chẳng thấy sợ trước bóng tối bao trùm quanh mình.",
+      "subtitles": [
+        "Không bao lâu sau, một chiều mưa bão, Moti vẫn ở nhà trọ,",
+        "trở về thì thấy con ngựa quý đã đi đâu mất, chỉ còn sợi dây cương đứt.",
+        "Hỏi hết những ai có thể biết mà chẳng ai hay con ngựa đi đâu.",
+        "Anh cầm sợi dây và cây gậy lớn, đi ra thành, vào khu rừng gần đó,",
+        "lần theo dấu chân ngựa trong bùn.",
+        "Trời tối dần mà anh vẫn đi, cho đến lúc trong bóng tối chợt gặp ngay một con hổ đang ung",
+        "dung ăn con ngựa của mình.",
+        "Anh la lên đồ ăn trộm, chạy tới, và khi con hổ ngạc nhiên làm rơi khúc xương,",
+        "cây gậy của anh giáng xuống đầu nó mạnh đến mức con vật choáng váng, khó thở, khó nhìn.",
+        "Anh tiếp tục đánh và mắng cho tới khi con hổ không đứng nổi,",
+        "rồi buộc đầu dây cương còn lại vào cổ nó, kéo về nhà trọ.",
+        "Anh vừa kéo con hổ vừa nói rằng nếu mày ăn con ngựa của tao thì ít nhất tao có mày,",
+        "thế là công bằng, rồi buộc nó chặt cả đầu lẫn chân như đã buộc ngựa,",
+        "và vì đêm đã khuya nên anh nằm xuống bên cạnh, ngủ say, đêm đã gần sáng.",
+        "Gió gào ngoài rừng, mưa quất vào mặt anh,",
+        "nhưng anh mải nghĩ đến con ngựa nên chẳng thấy lạnh,",
+        "càng chẳng thấy sợ trước bóng tối bao trùm quanh mình."
+      ],
+      "image": {
+        "prompt": "a big lad dragging a stunned dazed tiger by a broken halter through a rainy forest toward a lamp lit caravanserai, his staff over his shoulder, stormy night, comic",
+        "seed": 3087828517,
+        "character": "moti"
+      },
+      "video": {
+        "motionPrompt": "the lad drags the dazed tiger along the muddy path by a broken rope",
+        "seed": 1848116476
+      },
+      "voice": {}
+    },
+    {
+      "id": "sang-ra-co-ho",
+      "title": "Sáng ra có hổ",
+      "narrator": "ke-chuyen",
+      "narration": "Không thể tưởng tượng được nỗi hoảng sợ của mọi người trong nhà trọ khi thức dậy mà thấy một con hổ, tuy bị đánh khá tơi tả nhưng vẫn là hổ, bị buộc chặt giữa đám người và súc vật. Người ta tụ thành từng nhóm bàn tán, trách chủ nhà sao để con thú nguy hiểm như thế vào trọ, chủ nhà cũng lo như ai, chẳng ai dám lại gần nơi con hổ đứng chớp mắt nhìn mọi người ủ rũ, còn Moti nằm duỗi dài ngáy như sấm. Tin đến tai nhà vua rằng Moti đã đổi con ngựa lấy một con hổ sống, và nhà vua tự mình xuống xem, nửa ngờ nửa tin. Cuối cùng có người đánh thức Moti, báo rằng chúa thượng của anh đã đến, anh vươn vai ngáp dài, hớn hở khoe món của mới. Nhà vua chẳng vui chút nào, gọi một người lính bắn con hổ, mọi người trong nhà trọ nhẹ cả người, trừ Moti. Nếu trước đó nhà vua tin Moti là bậc khôn ngoan nhất, thì giờ ông còn tin anh là người can đảm nhất, và tăng lương cho anh gấp trăm lần, khiến chàng tưởng mình là người may mắn nhất trần đời. Moti chẳng hiểu vì sao ai cũng nhìn mình bằng ánh mắt kinh ngạc như thế, anh chỉ biết mình đã làm điều công bằng, bắt kẻ ăn trộm ngựa trả giá bằng chính thân nó. Mãi đến khi nghe tiếng nhà vua, anh mới mở mắt hẳn ra, nhìn quanh với vẻ ngạc nhiên thật thà, như người vừa có một đêm ngon giấc.",
+      "subtitles": [
+        "Không thể tưởng tượng được nỗi hoảng sợ của mọi người trong nhà trọ khi thức dậy mà thấy",
+        "một con hổ, tuy bị đánh khá tơi tả nhưng vẫn là hổ,",
+        "bị buộc chặt giữa đám người và súc vật.",
+        "Người ta tụ thành từng nhóm bàn tán,",
+        "trách chủ nhà sao để con thú nguy hiểm như thế vào trọ, chủ nhà cũng lo như ai,",
+        "chẳng ai dám lại gần nơi con hổ đứng chớp mắt nhìn mọi người ủ rũ,",
+        "còn Moti nằm duỗi dài ngáy như sấm.",
+        "Tin đến tai nhà vua rằng Moti đã đổi con ngựa lấy một con hổ sống,",
+        "và nhà vua tự mình xuống xem, nửa ngờ nửa tin.",
+        "Cuối cùng có người đánh thức Moti, báo rằng chúa thượng của anh đã đến,",
+        "anh vươn vai ngáp dài, hớn hở khoe món của mới.",
+        "Nhà vua chẳng vui chút nào, gọi một người lính bắn con hổ,",
+        "mọi người trong nhà trọ nhẹ cả người, trừ Moti.",
+        "Nếu trước đó nhà vua tin Moti là bậc khôn ngoan nhất,",
+        "thì giờ ông còn tin anh là người can đảm nhất, và tăng lương cho anh gấp trăm lần,",
+        "khiến chàng tưởng mình là người may mắn nhất trần đời.",
+        "Moti chẳng hiểu vì sao ai cũng nhìn mình bằng ánh mắt kinh ngạc như thế,",
+        "anh chỉ biết mình đã làm điều công bằng, bắt kẻ ăn trộm ngựa trả giá bằng chính thân nó.",
+        "Mãi đến khi nghe tiếng nhà vua, anh mới mở mắt hẳn ra,",
+        "nhìn quanh với vẻ ngạc nhiên thật thà, như người vừa có một đêm ngon giấc."
+      ],
+      "image": {
+        "prompt": "a caravanserai in the morning where travelers gather in fear around a tethered battered tiger while a big lad snores beside it, a king arriving with soldiers, comic",
+        "seed": 770450552,
+        "character": "moti"
+      },
+      "video": {
+        "motionPrompt": "the travelers keep their distance as the lad snores and the tiger blinks sadly",
+        "seed": 3567065275
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-vua-lo-lang",
+      "title": "Nhà vua lo lắng",
+      "narrator": "ke-chuyen",
+      "narration": "Một hai tuần sau, nhà vua cho gọi Moti, tới nơi thấy ông đang tuyệt vọng. Ông kể rằng một vị vua láng giềng, có nhiều binh lính hơn ông rất nhiều, đã tuyên bố đánh ông, mà ông không có tiền để mua chuộc, cũng không đủ quân để chống lại, vậy phải làm sao? Moti nói nếu chỉ có thế thì xin ngài đừng lo, hãy cho quân ra, tôi sẽ đi cùng, chúng ta sẽ sớm dạy cho tên cướp này biết điều. Nhà vua nói anh cứ chọn con ngựa nào thích nhất trong chuồng, rồi hỏi anh muốn con nào. Moti chọn một con ngựa con nhỏ xíu, gầy gò, bờm tơi tả. Nhà vua ngạc nhiên hỏi sao chọn con thú đó. Moti đáp tâu bệ hạ, cưỡi ngựa có nhiều cơ hội ngã lắm, nếu tôi chọn một con ngựa to lớn thì ngã từ trên cao xuống có khi gãy tay gãy chân, thậm chí gãy cổ, còn ngã từ con ngựa nhỏ này thì chẳng đau mấy. Nhà vua nghe xong, đành gật đầu, dù trong bụng vẫn còn nhiều điều lo. Nhìn dáng vẻ thản nhiên của chàng trai, nhà vua thấy lòng yên hơn một chút, tuy ông vẫn chưa hiểu chàng nghĩ gì trong đầu.",
+      "subtitles": [
+        "Một hai tuần sau, nhà vua cho gọi Moti, tới nơi thấy ông đang tuyệt vọng.",
+        "Ông kể rằng một vị vua láng giềng, có nhiều binh lính hơn ông rất nhiều,",
+        "đã tuyên bố đánh ông, mà ông không có tiền để mua chuộc, cũng không đủ quân để chống lại,",
+        "vậy phải làm sao?",
+        "Moti nói nếu chỉ có thế thì xin ngài đừng lo, hãy cho quân ra, tôi sẽ đi cùng,",
+        "chúng ta sẽ sớm dạy cho tên cướp này biết điều.",
+        "Nhà vua nói anh cứ chọn con ngựa nào thích nhất trong chuồng, rồi hỏi anh muốn con nào.",
+        "Moti chọn một con ngựa con nhỏ xíu, gầy gò, bờm tơi tả.",
+        "Nhà vua ngạc nhiên hỏi sao chọn con thú đó.",
+        "Moti đáp tâu bệ hạ, cưỡi ngựa có nhiều cơ hội ngã lắm,",
+        "nếu tôi chọn một con ngựa to lớn thì ngã từ trên cao xuống có khi gãy tay gãy chân,",
+        "thậm chí gãy cổ, còn ngã từ con ngựa nhỏ này thì chẳng đau mấy.",
+        "Nhà vua nghe xong, đành gật đầu, dù trong bụng vẫn còn nhiều điều lo.",
+        "Nhìn dáng vẻ thản nhiên của chàng trai, nhà vua thấy lòng yên hơn một chút,",
+        "tuy ông vẫn chưa hiểu chàng nghĩ gì trong đầu."
+      ],
+      "image": {
+        "prompt": "a worried king in a court hall explaining a looming war to a big lad, then the lad choosing a tiny scruffy pony from a royal stable of tall horses, the king surprised",
+        "seed": 3723467002,
+        "character": "moti"
+      },
+      "video": {
+        "motionPrompt": "the lad pats a tiny scruffy pony while the royal horses look down from their stalls",
+        "seed": 2375617550
+      },
+      "voice": {}
+    },
+    {
+      "id": "ra-tran",
+      "title": "Ra trận",
+      "narrator": "ke-chuyen",
+      "narration": "Cảnh Moti ra trận thật buồn cười. Vũ khí duy nhất anh mang là cây gậy, và để giữ thăng bằng trên lưng ngựa, anh buộc vào mỗi mắt cá chân một hòn đá lớn chạm gần đất khi anh ngồi trên con ngựa con. Kỵ binh nhà vua tuy không đông nhưng đi ngất ngưởng trong áo giáp trên những con ngựa tốt, sau họ là đám đông bộ binh cầm đủ thứ khí giới, và cuối cùng là nhà vua cùng tùy tùng, lo lắng bồn chồn. Đoàn quân lên đường. Họ chưa đi xa thì con ngựa con của Moti, mang người nặng và hai tảng đá, bắt đầu tụt lại sau kỵ binh, và đã tụt cả sau bộ binh nếu bộ binh không ngại ra trận sớm, nên cố đi chậm cho Moti kịp. Chàng đi mỗi lúc một chậm, cho tới khi sốt ruột vì con ngựa lề mề, anh quất cho nó một gậy mạnh đến nỗi nó nổi cơn và phóng như điên, bỏ lại sau lưng cả đoàn người đang há hốc miệng nhìn theo. Cả đoàn quân người nhìn người, ngựa nhìn ngựa, chẳng ai hiểu nổi tại sao nhà vua lại tin vào một chàng trai như thế, nhưng ai cũng im lặng đi tiếp. Dọc đường, dân làng đứng xem hai bên, trẻ con chỉ trỏ cười khúc khích khi thấy chàng trai to lớn ngồi trên con ngựa nhỏ xíu mang hai hòn đá, trông chẳng khác gì một chiếc thuyền nặng chòng chành trên sóng.",
+      "subtitles": [
+        "Cảnh Moti ra trận thật buồn cười.",
+        "Vũ khí duy nhất anh mang là cây gậy, và để giữ thăng bằng trên lưng ngựa,",
+        "anh buộc vào mỗi mắt cá chân một hòn đá lớn chạm gần đất khi anh ngồi trên con ngựa con.",
+        "Kỵ binh nhà vua tuy không đông nhưng đi ngất ngưởng trong áo giáp trên những con ngựa",
+        "tốt, sau họ là đám đông bộ binh cầm đủ thứ khí giới,",
+        "và cuối cùng là nhà vua cùng tùy tùng, lo lắng bồn chồn.",
+        "Đoàn quân lên đường.",
+        "Họ chưa đi xa thì con ngựa con của Moti, mang người nặng và hai tảng đá,",
+        "bắt đầu tụt lại sau kỵ binh, và đã tụt cả sau bộ binh nếu bộ binh không ngại ra trận sớm,",
+        "nên cố đi chậm cho Moti kịp.",
+        "Chàng đi mỗi lúc một chậm, cho tới khi sốt ruột vì con ngựa lề mề,",
+        "anh quất cho nó một gậy mạnh đến nỗi nó nổi cơn và phóng như điên,",
+        "bỏ lại sau lưng cả đoàn người đang há hốc miệng nhìn theo.",
+        "Cả đoàn quân người nhìn người, ngựa nhìn ngựa,",
+        "chẳng ai hiểu nổi tại sao nhà vua lại tin vào một chàng trai như thế,",
+        "nhưng ai cũng im lặng đi tiếp.",
+        "Dọc đường, dân làng đứng xem hai bên,",
+        "trẻ con chỉ trỏ cười khúc khích khi thấy chàng trai to lớn ngồi trên con ngựa nhỏ xíu",
+        "mang hai hòn đá, trông chẳng khác gì một chiếc thuyền nặng chòng chành trên sóng."
+      ],
+      "image": {
+        "prompt": "a comical army marching in armour with cavalry and foot soldiers and a king behind, a big lad on a tiny pony with huge stones tied to his ankles at the rear, dust road",
+        "seed": 833689531,
+        "character": "moti"
+      },
+      "video": {
+        "motionPrompt": "the tiny pony plods under the lad and the stones while the royal cavalry marches ahead",
+        "seed": 1280552444
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-than-du",
+      "title": "Cây thầu dầu",
+      "narrator": "ke-chuyen",
+      "narration": "Trước tiên một hòn đá tuột dây, lăn về một bên đường trong đám bụi, Moti suýt lăn theo, nhưng anh nắm chặt bờm con ngựa, đánh rơi cây gậy, bám lấy như bám vào sinh mạng. Rồi hòn đá kia cũng bứt ra khỏi chân bên kia, lăn ầm ầm xuống một khe núi gần đó. Kỵ binh đi đầu chỉ vừa kịp tránh sang một bên thì Moti phóng vụt qua, hét những lời dọa nạt con ngựa. Anh đi xa trước tất cả, và trên đường gặp một cánh đồng thầu dầu cao mười hai mười ba bộ, to và rậm, còn xanh và mềm. Anh chỉ mong thoát khỏi lưng con ngựa bốc lửa, nên nắm lấy một cây khi đi ngang, nhưng rễ bật lên, và anh lao đi với cả cây thầu dầu như một cây non trong tay. Tiếng vó ngựa vang dội cả vùng, tiếng hét của anh át cả tiếng gió, trong khi cây thầu dầu xanh um vẫn rung rinh trên tay như ngọn cờ lạ. Đoàn kỵ binh của nhà vua dạt sang hai bên đường, ngựa lồng lên, người hô hoán, còn anh thì chẳng nhìn thấy gì ngoài bụi mù trước mặt.",
+      "subtitles": [
+        "Trước tiên một hòn đá tuột dây, lăn về một bên đường trong đám bụi, Moti suýt lăn theo,",
+        "nhưng anh nắm chặt bờm con ngựa, đánh rơi cây gậy, bám lấy như bám vào sinh mạng.",
+        "Rồi hòn đá kia cũng bứt ra khỏi chân bên kia, lăn ầm ầm xuống một khe núi gần đó.",
+        "Kỵ binh đi đầu chỉ vừa kịp tránh sang một bên thì Moti phóng vụt qua,",
+        "hét những lời dọa nạt con ngựa.",
+        "Anh đi xa trước tất cả, và trên đường gặp một cánh đồng thầu dầu cao mười hai mười ba bộ,",
+        "to và rậm, còn xanh và mềm.",
+        "Anh chỉ mong thoát khỏi lưng con ngựa bốc lửa, nên nắm lấy một cây khi đi ngang,",
+        "nhưng rễ bật lên, và anh lao đi với cả cây thầu dầu như một cây non trong tay.",
+        "Tiếng vó ngựa vang dội cả vùng, tiếng hét của anh át cả tiếng gió,",
+        "trong khi cây thầu dầu xanh um vẫn rung rinh trên tay như ngọn cờ lạ.",
+        "Đoàn kỵ binh của nhà vua dạt sang hai bên đường, ngựa lồng lên, người hô hoán,",
+        "còn anh thì chẳng nhìn thấy gì ngoài bụi mù trước mặt."
+      ],
+      "image": {
+        "prompt": "a lad on a bolting pony dust flying, grabbing a whole castor-oil plant that comes up by the roots in his fist, huge green leaves waving, fields, comedic energy",
+        "seed": 2160499374,
+        "character": "moti"
+      },
+      "video": {
+        "motionPrompt": "the pony bolts and the lad yanks up a huge green plant that waves like a banner",
+        "seed": 4102964310
+      },
+      "voice": {}
+    },
+    {
+      "id": "doi-phuong-chay",
+      "title": "Quân địch bỏ chạy",
+      "narrator": "ke-chuyen",
+      "narration": "Quân địch đang dàn trận tiến qua đồng bằng, vua của họ đi cùng, tự tin và vui vẻ, thì bỗng từ phía trước một người lính phi ngựa như điên chạy tới, hét lên rằng bệ hạ cứu lấy thân, quân thù đang tới. Đi đầu là một gã khổng lồ điên cuồng phi như bay, múa một cây cổ thụ làm chùy, giận dữ gào rằng cứ đợi đấy, ta sẽ cho các ngươi biết tay, ta sẽ vặn cổ các ngươi, ta sẽ bẻ gãy mọi cái xương trong người các ngươi. Còn những kẻ khác theo sau, bệ hạ nên lui đi trước cơn lốc hủy diệt này. Đúng lúc ấy, từ đám bụi xa, nhà vua thấy Moti phi tới, trông như một gã khổng lồ so với con ngựa nhỏ, vung cây thầu dầu mà từ xa tưởng cây sồi, và tiếng hắn quát mắng theo gió bay đến. Phía sau hắn bụi mù cuộn lên theo tiếng vó ngựa như sấm, lóe lên đây đó ánh thép. Nhà vua khiếp đảm, quay ngựa chạy hết tốc lực, tưởng cả một đạo quân khổng lồ đang gào thét đuổi theo, và toàn quân cũng chạy theo. Tiếng la hoảng của họ vang đi xa, kéo theo những người bỏ cả khiên giáo, cả mũ, thậm chí cả giày, miễn là chạy nhanh hơn cơn lốc đang ập tới sau lưng.",
+      "subtitles": [
+        "Quân địch đang dàn trận tiến qua đồng bằng, vua của họ đi cùng, tự tin và vui vẻ,",
+        "thì bỗng từ phía trước một người lính phi ngựa như điên chạy tới,",
+        "hét lên rằng bệ hạ cứu lấy thân, quân thù đang tới.",
+        "Đi đầu là một gã khổng lồ điên cuồng phi như bay, múa một cây cổ thụ làm chùy,",
+        "giận dữ gào rằng cứ đợi đấy, ta sẽ cho các ngươi biết tay, ta sẽ vặn cổ các ngươi,",
+        "ta sẽ bẻ gãy mọi cái xương trong người các ngươi.",
+        "Còn những kẻ khác theo sau, bệ hạ nên lui đi trước cơn lốc hủy diệt này.",
+        "Đúng lúc ấy, từ đám bụi xa, nhà vua thấy Moti phi tới,",
+        "trông như một gã khổng lồ so với con ngựa nhỏ, vung cây thầu dầu mà từ xa tưởng cây sồi,",
+        "và tiếng hắn quát mắng theo gió bay đến.",
+        "Phía sau hắn bụi mù cuộn lên theo tiếng vó ngựa như sấm, lóe lên đây đó ánh thép.",
+        "Nhà vua khiếp đảm, quay ngựa chạy hết tốc lực,",
+        "tưởng cả một đạo quân khổng lồ đang gào thét đuổi theo, và toàn quân cũng chạy theo.",
+        "Tiếng la hoảng của họ vang đi xa, kéo theo những người bỏ cả khiên giáo, cả mũ,",
+        "thậm chí cả giày, miễn là chạy nhanh hơn cơn lốc đang ập tới sau lưng."
+      ],
+      "image": {
+        "prompt": "an enemy army in battle array seeing a huge dust cloud and a wild rider with a giant tree club, a messenger shouting a warning, the king turning his horse to flee, soldiers scattering, dramatic comedic",
+        "seed": 3711196199,
+        "character": "moti"
+      },
+      "video": {
+        "motionPrompt": "the enemy king wheels his horse around and the whole army scatters ahead of the dust cloud",
+        "seed": 2986692861
+      },
+      "voice": {}
+    },
+    {
+      "id": "chien-thang",
+      "title": "Người hùng vụng về",
+      "narrator": "ke-chuyen",
+      "narration": "Chỉ có một viên sĩ quan béo không theo kịp trên đôi chân, và khi Moti phi tới, ông ta ngã sụp xuống đất vì quá sợ. Thế là con ngựa kích động của Moti giật mình tránh sang một bên, Moti bay qua đầu nó như pháo hoa, và đáp ngay lên người viên sĩ quan béo. Anh nhanh chóng đứng dậy, quay cây thầu dầu quanh đầu và hét rằng quân của ngươi đâu, đưa họ lên đây ta xử, cả bọn các ngươi đâu, vua các ngươi đâu, mang ra đây, quân của ta đang tới, mỗi người sẽ nhổ một cây lên cả rễ và quật ngã các ngươi, nhà cửa thành phố gì cũng thế, tới đi! Viên sĩ quan tội nghiệp chỉ biết quỳ chắp tay thở hổn hển. Cuối cùng, khi hết thở dốc, Moti sai ông đi gọi vua của mình, bảo rằng nếu biết điều thì sẽ được tha. Ông ta đi, và lúc quân bên Moti đã kéo tới bày thế trận cho thật oai nghiêm, ông trở về cùng nhà vua. Vị vua ấy rất nhún nhường và xin lỗi, hứa không bao giờ gây chiến nữa, hứa trả một món tiền lớn và làm bất cứ điều gì người chiến thắng muốn. Hai đạo quân vui vẻ kéo nhau về, và đó là bước đầu làm nên cơ đồ cho chàng Moti vụng về, người sống lâu và luôn được trọng vọng như suối nguồn của trí khôn, lòng can đảm và sự thận trọng, trừ những người thân của anh, những người chẳng bao giờ hiểu anh đã làm gì mà được coi là khôn hơn mọi người. Từ đó, mỗi khi có chuyện khó khăn, người ta lại nhớ đến chàng trai vụng về nhưng may mắn ấy, và Moti cũng chẳng bao giờ giải thích rõ mình đã làm điều gì, vì chính anh cũng chẳng hiểu hết.",
+      "subtitles": [
+        "Chỉ có một viên sĩ quan béo không theo kịp trên đôi chân, và khi Moti phi tới,",
+        "ông ta ngã sụp xuống đất vì quá sợ.",
+        "Thế là con ngựa kích động của Moti giật mình tránh sang một bên,",
+        "Moti bay qua đầu nó như pháo hoa, và đáp ngay lên người viên sĩ quan béo.",
+        "Anh nhanh chóng đứng dậy, quay cây thầu dầu quanh đầu và hét rằng quân của ngươi đâu,",
+        "đưa họ lên đây ta xử, cả bọn các ngươi đâu, vua các ngươi đâu, mang ra đây,",
+        "quân của ta đang tới, mỗi người sẽ nhổ một cây lên cả rễ và quật ngã các ngươi,",
+        "nhà cửa thành phố gì cũng thế, tới đi!",
+        "Viên sĩ quan tội nghiệp chỉ biết quỳ chắp tay thở hổn hển.",
+        "Cuối cùng, khi hết thở dốc, Moti sai ông đi gọi vua của mình,",
+        "bảo rằng nếu biết điều thì sẽ được tha.",
+        "Ông ta đi, và lúc quân bên Moti đã kéo tới bày thế trận cho thật oai nghiêm,",
+        "ông trở về cùng nhà vua.",
+        "Vị vua ấy rất nhún nhường và xin lỗi, hứa không bao giờ gây chiến nữa,",
+        "hứa trả một món tiền lớn và làm bất cứ điều gì người chiến thắng muốn.",
+        "Hai đạo quân vui vẻ kéo nhau về, và đó là bước đầu làm nên cơ đồ cho chàng Moti vụng về,",
+        "người sống lâu và luôn được trọng vọng như suối nguồn của trí khôn,",
+        "lòng can đảm và sự thận trọng, trừ những người thân của anh,",
+        "những người chẳng bao giờ hiểu anh đã làm gì mà được coi là khôn hơn mọi người.",
+        "Từ đó, mỗi khi có chuyện khó khăn,",
+        "người ta lại nhớ đến chàng trai vụng về nhưng may mắn ấy,",
+        "và Moti cũng chẳng bao giờ giải thích rõ mình đã làm điều gì,",
+        "vì chính anh cũng chẳng hiểu hết."
+      ],
+      "image": {
+        "prompt": "a big lad swinging a huge plant over his head over a kneeling fat officer, enemy king bowing humbly, armies cheering and going home in peace, banners, golden evening",
+        "seed": 2714018113,
+        "character": "moti"
+      },
+      "video": {
+        "motionPrompt": "the lad swings the plant while the enemy king bows and the armies cheer",
+        "seed": 3502452422
       },
       "voice": {}
     }
