@@ -9,8 +9,9 @@
     "thien-ac"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-08",
   "language": "vi",
-  "source": "Dạ Xoa bộ soái lục, truyện thứ hai mươi trong Truyền kỳ mạn lục của Nguyễn Dữ (thế kỷ XVI), sách cổ thuộc phạm vi công cộng. Lời kể viết mới, chỉ theo cốt truyện của nguyên tác; không chép bản dịch nào.",
+  "source": "Dạ Xoa bộ soái lục, truyện thứ hai mươi trong Truyền kỳ mạn lục của Nguyễn Dữ (thế kỷ XVI), sách cổ thuộc phạm vi công cộng; đối chiếu bản chép trên Wikisource. Lời kể viết mới theo từng đoạn của nguyên tác, không chép bản dịch nào.",
   "basedOn": "Truyền kỳ mạn lục, Chuyện tướng Dạ Xoa",
   "style": "classical Vietnamese ink and silk painting illustration, expressive brush linework, smoky washes of indigo, charcoal grey, ochre and muted purple on aged silk, early fifteenth century Vietnamese countryside at night with misty fields, bamboo villages and old temples, eerie but not gruesome supernatural mood for adult readers, ghosts as translucent pale shadowy figures, no text, no letters, no watermark",
   "narrators": {
@@ -41,272 +42,387 @@
   ],
   "scenes": [
     {
-      "id": "thoi-loan",
-      "title": "Thời loạn lạc",
+      "id": "ky-si",
+      "title": "Kẻ sĩ không sợ ma quỷ",
       "narrator": "ke-chuyen",
-      "narration": "Cuối đời Trùng Quang nhà Trần, đất nước rối ren, binh lửa liên miên. Người chết vì giặc giã, vì đói khát nhiều không kể xiết, xương phơi khắp đồng nội chẳng ai chôn cất. Oan hồn không nơi nương tựa, tụ lại thành từng bầy, đêm đêm kéo nhau đi khắp thôn xóm. Chúng gieo bệnh tật, phá hoại mùa màng, người đi đường gặp phải thì lăn ra ốm. Trời vừa tắt nắng, nhà nhà đã đóng cửa cài then, không ai dám bén mảng ra ngoài.",
+      "narration": "Ở hạt Quốc Oai có một kẻ sĩ họ Văn, tên là Dĩ Thành. Chàng tính tình hào hiệp, không chịu để ma quỷ làm mê hoặc. Những loài hoa yêu, trăng quái, những thần dâm quỷ dữ không được ghi vào điển lễ thờ cúng, chàng đều coi thường, chẳng sợ chút nào. Cuối đời Trùng Quang nhà Trần, người chết chóc rất nhiều. Những oan hồn không chỗ nương tựa thường họp lại thành từng đàn lũ. Có lúc chúng gõ cửa hàng cơm để kiếm miếng ăn, có lúc đón các cô gái chơi bời để kết duyên tạm bợ. Ai vướng vào thì bệnh nặng nguy khốn, ai lập đàn cầu cúng thì thầy phù thủy cũng hết phép. Chúng hoành hành khắp đồng nội mà chẳng biết kiêng sợ điều gì.",
       "subtitles": [
-        "Cuối đời Trùng Quang nhà Trần, đất nước rối ren, binh lửa liên miên.",
-        "Người chết vì giặc giã, vì đói khát nhiều không kể xiết,",
-        "xương phơi khắp đồng nội chẳng ai chôn cất.",
-        "Oan hồn không nơi nương tựa, tụ lại thành từng bầy, đêm đêm kéo nhau đi khắp thôn xóm.",
-        "Chúng gieo bệnh tật, phá hoại mùa màng, người đi đường gặp phải thì lăn ra ốm.",
-        "Trời vừa tắt nắng, nhà nhà đã đóng cửa cài then, không ai dám bén mảng ra ngoài."
+        "Ở hạt Quốc Oai có một kẻ sĩ họ Văn, tên là Dĩ Thành.",
+        "Chàng tính tình hào hiệp, không chịu để ma quỷ làm mê hoặc.",
+        "Những loài hoa yêu, trăng quái, những thần dâm quỷ dữ không được ghi vào điển lễ thờ cúng,",
+        "chàng đều coi thường, chẳng sợ chút nào.",
+        "Cuối đời Trùng Quang nhà Trần, người chết chóc rất nhiều.",
+        "Những oan hồn không chỗ nương tựa thường họp lại thành từng đàn lũ.",
+        "Có lúc chúng gõ cửa hàng cơm để kiếm miếng ăn,",
+        "có lúc đón các cô gái chơi bời để kết duyên tạm bợ.",
+        "Ai vướng vào thì bệnh nặng nguy khốn, ai lập đàn cầu cúng thì thầy phù thủy cũng hết phép.",
+        "Chúng hoành hành khắp đồng nội mà chẳng biết kiêng sợ điều gì."
       ],
       "image": {
-        "prompt": "a desolate Vietnamese countryside at night after war, misty abandoned rice fields and broken fences, a crowd of pale translucent shadowy ghost figures drifting along a dirt road toward a dark village with shut doors, a thin moon",
-        "seed": 3733052148
+        "prompt": "a lonely moonlit field in Tran dynasty Vietnam, pale ghostly shapes gathering in clusters among tall grass and old tombs, a distant closed village with shuttered windows, eerie but gentle ink-wash mood",
+        "seed": 2153586100,
+        "character": "di-thanh"
       },
       "video": {
-        "motionPrompt": "mist rolls across the empty fields, pale ghostly figures drift slowly, a village lantern is blown out, slow eerie camera pan",
-        "seed": 173524405
+        "motionPrompt": "pale mist drifts over the grass, ghostly shapes sway softly, a night breeze stirs",
+        "seed": 3247648131
       },
       "voice": {}
     },
     {
-      "id": "di-thanh",
-      "title": "Người không sợ ma",
+      "id": "gap-quy",
+      "title": "Cưỡi ngựa gặp bầy quỷ",
       "narrator": "ke-chuyen",
-      "narration": "Ở hạt Quốc Oai có một người tên là Văn Dĩ Thành, tính tình hào hiệp, khảng khái, xưa nay chẳng biết sợ ma quỷ là gì. Một đêm, ông uống rượu say, cưỡi ngựa đi qua cánh đồng vắng. Bầy oan hồn đang tụ tập bên đường, thấy ông đến thì hoảng hốt tán loạn, chạy trốn vào bụi rậm. Dĩ Thành ghìm cương, cất tiếng gọi lớn: Lũ các ngươi chạy đi đâu? Hãy quay lại đây, ta có điều muốn hỏi!",
+      "narration": "Một đêm, Dĩ Thành uống rượu say, cưỡi ngựa đi ra ngoài đồng. Bầy ma quỷ trông thấy sợ hãi, đều tản chạy cả. Chàng liền gọi lớn: Các ngươi vốn là những người can đảm, chỉ không may gặp nạn mà thôi. Ta đến đây để nói chuyện hơn thiệt, xin đừng chạy trốn ta như thế. Bầy quỷ dần dần họp lại, còn mời chàng lên ngồi ở chỗ trên. Dĩ Thành nghiêm nghị hỏi: Lũ các ngươi cứ thích làm cho người ta mắc tai nạn, bị chết chóc, chẳng hay để làm gì. Chúng đáp: Chúng tôi muốn thêm quân. Dĩ Thành nói: Quân thêm thì cái ăn phải thiếu, người bớt thì cúng tế phải thua, lợi gì cho các ngươi mà cứ thích làm như vậy. Lòng tham mà buông ra thì sông ngòi cũng không lấp đầy, thói ác mà thả ra thì hổ sói cũng phải kém. Các ngươi gieo bệnh, rắc họa, tranh quyền của tạo hóa, rình rập từng mái nhà, làm dân chúng mất yên. Các ngươi lấy làm thú vị, ta nghe lại thấy hổ thẹn. Trời thương người bằng đức chứ không bằng uy, người ta muốn sống chứ không muốn giết nhau. Thượng đế mà không dung tha, hình phạt sẽ đến, các ngươi biết trốn vào đâu.",
       "subtitles": [
-        "Ở hạt Quốc Oai có một người tên là Văn Dĩ Thành, tính tình hào hiệp, khảng khái,",
-        "xưa nay chẳng biết sợ ma quỷ là gì.",
-        "Một đêm, ông uống rượu say, cưỡi ngựa đi qua cánh đồng vắng.",
-        "Bầy oan hồn đang tụ tập bên đường, thấy ông đến thì hoảng hốt tán loạn,",
-        "chạy trốn vào bụi rậm. Dĩ Thành ghìm cương, cất tiếng gọi lớn: Lũ các ngươi chạy đi đâu?",
-        "Hãy quay lại đây, ta có điều muốn hỏi!"
+        "Một đêm, Dĩ Thành uống rượu say, cưỡi ngựa đi ra ngoài đồng.",
+        "Bầy ma quỷ trông thấy sợ hãi, đều tản chạy cả.",
+        "Chàng liền gọi lớn: Các ngươi vốn là những người can đảm, chỉ không may gặp nạn mà thôi.",
+        "Ta đến đây để nói chuyện hơn thiệt, xin đừng chạy trốn ta như thế.",
+        "Bầy quỷ dần dần họp lại, còn mời chàng lên ngồi ở chỗ trên.",
+        "Dĩ Thành nghiêm nghị hỏi: Lũ các ngươi cứ thích làm cho người ta mắc tai nạn,",
+        "bị chết chóc, chẳng hay để làm gì.",
+        "Chúng đáp: Chúng tôi muốn thêm quân.",
+        "Dĩ Thành nói: Quân thêm thì cái ăn phải thiếu, người bớt thì cúng tế phải thua,",
+        "lợi gì cho các ngươi mà cứ thích làm như vậy.",
+        "Lòng tham mà buông ra thì sông ngòi cũng không lấp đầy,",
+        "thói ác mà thả ra thì hổ sói cũng phải kém.",
+        "Các ngươi gieo bệnh, rắc họa, tranh quyền của tạo hóa, rình rập từng mái nhà,",
+        "làm dân chúng mất yên.",
+        "Các ngươi lấy làm thú vị, ta nghe lại thấy hổ thẹn.",
+        "Trời thương người bằng đức chứ không bằng uy, người ta muốn sống chứ không muốn giết nhau.",
+        "Thượng đế mà không dung tha, hình phạt sẽ đến, các ngươi biết trốn vào đâu."
       ],
       "image": {
-        "prompt": "Van Di Thanh on a dark horse at night on a field path, raising one hand and calling out boldly, pale ghostly figures scattering into tall grass and bushes, moonlight and mist",
-        "seed": 2181272129,
+        "prompt": "a young scholar-warrior in a dark robe on a horse stopping in a night field and addressing a group of timid pale ghosts who gather around him, moonlight, a gourd of wine at his saddle, wary yet curious mood",
+        "seed": 651523334,
         "character": "di-thanh"
       },
       "video": {
-        "motionPrompt": "the horse rears slightly and stamps, the ghostly shadows scatter and freeze, mist swirls, Di Thanh holds his arm raised, dramatic slow camera push-in",
-        "seed": 826540606
+        "motionPrompt": "the horse shifts its feet, ghostly forms drift closer, the scholar's sleeve stirs in the wind",
+        "seed": 2944157869
       },
       "voice": {}
     },
     {
-      "id": "trach-quy",
-      "title": "Lời trách mắng",
+      "id": "chu-soai",
+      "title": "Bầy quỷ xin một chủ soái",
       "narrator": "ke-chuyen",
-      "narration": "Bầy oan hồn rụt rè quay lại, đứng xúm xít trước đầu ngựa. Dĩ Thành nghiêm giọng mắng: Các ngươi lúc sống cũng là người, nay chết đi lại quay về hại người, gieo bệnh cho dân lành, như thế có đáng không? Một con quỷ thưa: Bẩm ngài, chúng tôi chết oan giữa thời loạn, không mồ mả, không người cúng giỗ, đói khát lang thang, không biết nương tựa vào đâu, nên mới làm càn. Nếu được ngài đứng ra cai quản, chúng tôi xin theo về dưới cờ.",
+      "narration": "Bầy quỷ buồn bã đáp: Chúng tôi làm thế là bất đắc dĩ, không ai muốn cả. Lúc sống thì gặp thời loạn, lúc chết lại không đúng số mệnh. Đói không có gì ăn, lui về không có chỗ nương. Nằm giữa gò xương trắng, rêu cỏ buồn thảm, trên cát vàng hiu quạnh, sương gió lạnh lùng. Vì vậy phải rủ nhau, tìm cách kiếm miếng ăn. Vả lại vận nước sắp đổi, nhà người ta sắp đến lúc tan tác, âm ty không ngăn cấm, nên chúng tôi mới dám làm càn. Chỉ e sang năm còn tệ hơn năm nay. Rồi bếp quỷ dọn cỗ lên, mâm bàn la liệt. Hỏi nguồn gốc thì thịt là con trâu bắt ở thôn nọ, rượu là thúng bỗng lấy ở làng kia. Dĩ Thành ăn uống rất nhanh, như mưa như gió. Bầy quỷ mừng rỡ bảo nhau: Thật đúng là chủ soái của ta. Chúng nói với chàng: Chúng tôi chỉ là một đám đông lộn xộn, ai cũng muốn làm đầu, mà không có người thống lĩnh thì khó bền lâu. Nay sứ quân thương tình ghé tới, ấy là trời đã gửi ngài đến cho chúng tôi.",
       "subtitles": [
-        "Bầy oan hồn rụt rè quay lại, đứng xúm xít trước đầu ngựa.",
-        "Dĩ Thành nghiêm giọng mắng: Các ngươi lúc sống cũng là người,",
-        "nay chết đi lại quay về hại người, gieo bệnh cho dân lành, như thế có đáng không?",
-        "Một con quỷ thưa: Bẩm ngài, chúng tôi chết oan giữa thời loạn, không mồ mả,",
-        "không người cúng giỗ, đói khát lang thang, không biết nương tựa vào đâu, nên mới làm càn.",
-        "Nếu được ngài đứng ra cai quản, chúng tôi xin theo về dưới cờ."
+        "Bầy quỷ buồn bã đáp: Chúng tôi làm thế là bất đắc dĩ, không ai muốn cả.",
+        "Lúc sống thì gặp thời loạn, lúc chết lại không đúng số mệnh.",
+        "Đói không có gì ăn, lui về không có chỗ nương.",
+        "Nằm giữa gò xương trắng, rêu cỏ buồn thảm, trên cát vàng hiu quạnh, sương gió lạnh lùng.",
+        "Vì vậy phải rủ nhau, tìm cách kiếm miếng ăn.",
+        "Vả lại vận nước sắp đổi, nhà người ta sắp đến lúc tan tác, âm ty không ngăn cấm,",
+        "nên chúng tôi mới dám làm càn.",
+        "Chỉ e sang năm còn tệ hơn năm nay.",
+        "Rồi bếp quỷ dọn cỗ lên, mâm bàn la liệt.",
+        "Hỏi nguồn gốc thì thịt là con trâu bắt ở thôn nọ, rượu là thúng bỗng lấy ở làng kia.",
+        "Dĩ Thành ăn uống rất nhanh, như mưa như gió.",
+        "Bầy quỷ mừng rỡ bảo nhau: Thật đúng là chủ soái của ta.",
+        "Chúng nói với chàng: Chúng tôi chỉ là một đám đông lộn xộn, ai cũng muốn làm đầu,",
+        "mà không có người thống lĩnh thì khó bền lâu.",
+        "Nay sứ quân thương tình ghé tới, ấy là trời đã gửi ngài đến cho chúng tôi."
       ],
       "image": {
-        "prompt": "a group of pale ghostly figures in tattered ancient clothing bowing timidly before Van Di Thanh on horseback at night, one older ghost stepping forward to speak with folded hands, misty field",
-        "seed": 1125071386,
+        "prompt": "a feast laid out on mats in a moonlit graveyard clearing, the dark-robed scholar eating briskly while ghosts of the dead in tattered clothes gather around with hopeful faces, lanterns of pale blue flame",
+        "seed": 3281556008,
         "character": "di-thanh"
       },
       "video": {
-        "motionPrompt": "the ghosts sway and bow slowly, the horse breathes steam in the cold night, mist curls around their feet, gentle camera arc",
-        "seed": 4083069855
+        "motionPrompt": "pale blue lantern flames flicker, ghostly figures bow, steam rises from the dishes",
+        "seed": 995250023
       },
       "voice": {}
     },
     {
-      "id": "sau-dieu-ran",
-      "title": "Sáu điều răn",
+      "id": "sau-dieu",
+      "title": "Sáu điều làm tướng",
       "narrator": "ke-chuyen",
-      "narration": "Dĩ Thành nghĩ ngợi rồi bằng lòng, nhưng đặt ra sáu điều răn: phải nghe lệnh, không được hại dân lành, không được cướp bóc, phải cứu giúp người gặp nạn, ban ngày không được hiện hình, ban đêm không được kéo bè kết đảng phá phách. Bầy quỷ cúi đầu xin vâng. Có một con quỷ già đến chậm, chẳng coi lệnh ra gì, Dĩ Thành liền sai trị tội ngay trước mặt mọi kẻ để làm gương. Từ đó, cả bầy răm rắp tuân theo, thôn xóm quanh vùng dần yên ổn.",
+      "narration": "Dĩ Thành nói: Ta văn võ kiêm toàn, dù hèn cũng làm tướng được. Nhưng cõi âm cõi dương cách trở, còn bà mẹ già của ta thì sao. Bầy quỷ đáp: Ngài không phải xuống tận chín suối đâu. Chỉ xin ngài giữ oai nghiêm và ban hiệu lệnh, còn ban ngày chúng tôi sống tản ra từng khu, đêm đến sẽ cử người về trình báo. Dĩ Thành nói: Nếu bất đắc dĩ phải dùng đến ta, ta có sáu điều làm việc, các ngươi phải thề mà tuân theo mới được. Bầy quỷ vâng dạ, xin đến đêm thứ ba tới chỗ ấy lập đàn. Đến kỳ hẹn, bầy quỷ đều họp lại. Có một tên quỷ già đến sau, Dĩ Thành sai đem chém, ai nấy đều run sợ. Chàng liền ra lệnh: Các ngươi không được coi nhẹ mệnh lệnh, không được quen thói dâm ô, không được quấy phá hại mạng dân, không được cướp bóc mà phải cứu nạn cho dân, ban ngày không được giả hình, ban đêm không được kết đảng. Nghe mệnh ta thì ta làm tướng các ngươi, trái mệnh ta thì ta trị tội các ngươi. Nghe rõ lời ta, đừng để về sau hối hận. Rồi chàng chia bầy quỷ ra từng bộ từng tốt, dặn rằng có điều gì hay dở thì phải đến bẩm trình.",
       "subtitles": [
-        "Dĩ Thành nghĩ ngợi rồi bằng lòng, nhưng đặt ra sáu điều răn: phải nghe lệnh,",
-        "không được hại dân lành, không được cướp bóc, phải cứu giúp người gặp nạn,",
-        "ban ngày không được hiện hình, ban đêm không được kéo bè kết đảng phá phách.",
-        "Bầy quỷ cúi đầu xin vâng. Có một con quỷ già đến chậm, chẳng coi lệnh ra gì,",
-        "Dĩ Thành liền sai trị tội ngay trước mặt mọi kẻ để làm gương.",
-        "Từ đó, cả bầy răm rắp tuân theo, thôn xóm quanh vùng dần yên ổn."
+        "Dĩ Thành nói: Ta văn võ kiêm toàn, dù hèn cũng làm tướng được.",
+        "Nhưng cõi âm cõi dương cách trở, còn bà mẹ già của ta thì sao.",
+        "Bầy quỷ đáp: Ngài không phải xuống tận chín suối đâu.",
+        "Chỉ xin ngài giữ oai nghiêm và ban hiệu lệnh, còn ban ngày chúng tôi sống tản ra từng khu,",
+        "đêm đến sẽ cử người về trình báo.",
+        "Dĩ Thành nói: Nếu bất đắc dĩ phải dùng đến ta, ta có sáu điều làm việc,",
+        "các ngươi phải thề mà tuân theo mới được.",
+        "Bầy quỷ vâng dạ, xin đến đêm thứ ba tới chỗ ấy lập đàn.",
+        "Đến kỳ hẹn, bầy quỷ đều họp lại.",
+        "Có một tên quỷ già đến sau, Dĩ Thành sai đem chém, ai nấy đều run sợ.",
+        "Chàng liền ra lệnh: Các ngươi không được coi nhẹ mệnh lệnh, không được quen thói dâm ô,",
+        "không được quấy phá hại mạng dân, không được cướp bóc mà phải cứu nạn cho dân,",
+        "ban ngày không được giả hình, ban đêm không được kết đảng.",
+        "Nghe mệnh ta thì ta làm tướng các ngươi, trái mệnh ta thì ta trị tội các ngươi.",
+        "Nghe rõ lời ta, đừng để về sau hối hận.",
+        "Rồi chàng chia bầy quỷ ra từng bộ từng tốt,",
+        "dặn rằng có điều gì hay dở thì phải đến bẩm trình."
       ],
       "image": {
-        "prompt": "Van Di Thanh standing on a low earthen mound at night addressing rows of kneeling pale ghostly soldiers in tattered armor, a torch planted beside him, a defiant old ghost being led away by two others",
-        "seed": 3471064298,
+        "prompt": "an altar of earth under a dark night sky with torches, the scholar-general standing above rows of kneeling ghosts raising his hand to command them, a stern solemn expression, tattered banners",
+        "seed": 3427730842,
         "character": "di-thanh"
       },
       "video": {
-        "motionPrompt": "torch flame flickers, rows of ghosts bow in unison, the defiant ghost is pulled back into the darkness, slow camera pull-back",
-        "seed": 1881163743
+        "motionPrompt": "torch flames flicker, banners stir, kneeling ghosts bow their heads in unison",
+        "seed": 2763495473
       },
       "voice": {}
     },
     {
       "id": "su-gia",
-      "title": "Sứ giả âm phủ",
+      "title": "Sứ giả của Diêm vương",
       "narrator": "ke-chuyen",
-      "narration": "Hơn một tháng sau, có một sứ giả từ âm phủ tìm đến, trao giấy mời Dĩ Thành nhận chức tướng Dạ Xoa, cai quản một bộ quân dưới cõi âm. Dĩ Thành ngần ngừ. Bầy quỷ dưới trướng xúm lại khuyên ông nhận lời. Ông nói: Sống trong thời này, thấy kẻ gian ác ngồi trên, người ngay thẳng chịu khổ, thà làm quỷ có khí tiết còn hơn làm người hèn kém. Nói xong, ông thu xếp việc nhà cho chu tất, rồi nằm xuống mà mất, nét mặt thản nhiên như người đi ngủ.",
+      "narration": "Được hơn một tháng, một hôm đang ngồi nhàn, Dĩ Thành thấy một người tự xưng là sứ giả của Minh ty đến xin mời chàng đi. Dĩ Thành toan lảng tránh, người ấy nói: Đó là mệnh lệnh của đức Diêm vương. Ngài thấy ông là người cương nghị, định đem phẩm trật tặng cho, chứ không làm gì phiền ông đâu, xin đừng từ chối. Chỉ xin để ông được rộng kỳ hạn, ông sẽ tự đến, tôi chờ ông dọc đường. Nói xong, người ấy không thấy đâu nữa. Dĩ Thành gọi bầy quỷ đến hỏi. Chúng thưa: Quả có việc ấy thật, chúng tôi chưa kịp thưa với sứ quân. Hôm nọ, Diêm vương thấy đời đang loạn, đặt ra bốn bộ Dạ xoa, mỗi bộ cử một viên tướng, giao quyền sát phạt, ủy cho tính mạng muôn loài, trách nhiệm rất lớn, không như các chức quan khác. Sứ quân oai vọng lẫy lừng, ngài đã nghe tiếng, lại nhờ chúng tôi hết sức tiến cử, nên định cử sứ quân vào chức lớn ấy.",
       "subtitles": [
-        "Hơn một tháng sau, có một sứ giả từ âm phủ tìm đến,",
-        "trao giấy mời Dĩ Thành nhận chức tướng Dạ Xoa, cai quản một bộ quân dưới cõi âm.",
-        "Dĩ Thành ngần ngừ. Bầy quỷ dưới trướng xúm lại khuyên ông nhận lời.",
-        "Ông nói: Sống trong thời này, thấy kẻ gian ác ngồi trên, người ngay thẳng chịu khổ,",
-        "thà làm quỷ có khí tiết còn hơn làm người hèn kém.",
-        "Nói xong, ông thu xếp việc nhà cho chu tất, rồi nằm xuống mà mất,",
-        "nét mặt thản nhiên như người đi ngủ."
+        "Được hơn một tháng, một hôm đang ngồi nhàn,",
+        "Dĩ Thành thấy một người tự xưng là sứ giả của Minh ty đến xin mời chàng đi.",
+        "Dĩ Thành toan lảng tránh, người ấy nói: Đó là mệnh lệnh của đức Diêm vương.",
+        "Ngài thấy ông là người cương nghị, định đem phẩm trật tặng cho,",
+        "chứ không làm gì phiền ông đâu, xin đừng từ chối.",
+        "Chỉ xin để ông được rộng kỳ hạn, ông sẽ tự đến, tôi chờ ông dọc đường.",
+        "Nói xong, người ấy không thấy đâu nữa.",
+        "Dĩ Thành gọi bầy quỷ đến hỏi.",
+        "Chúng thưa: Quả có việc ấy thật, chúng tôi chưa kịp thưa với sứ quân.",
+        "Hôm nọ, Diêm vương thấy đời đang loạn, đặt ra bốn bộ Dạ xoa, mỗi bộ cử một viên tướng,",
+        "giao quyền sát phạt, ủy cho tính mạng muôn loài, trách nhiệm rất lớn,",
+        "không như các chức quan khác.",
+        "Sứ quân oai vọng lẫy lừng, ngài đã nghe tiếng, lại nhờ chúng tôi hết sức tiến cử,",
+        "nên định cử sứ quân vào chức lớn ấy."
       ],
       "image": {
-        "prompt": "a mysterious messenger of the underworld in dark official robes with a pale face handing a sealed scroll to Van Di Thanh in his simple house at night, lamplight, shadowy ghost attendants waiting in the doorway",
-        "seed": 2321485302,
+        "prompt": "an official messenger of the underworld in a dark court robe appearing in a candlelit hall before the scholar-general, holding a scroll tied with black cord, ghosts watching nervously from the corners",
+        "seed": 2637050844,
         "character": "di-thanh"
       },
       "video": {
-        "motionPrompt": "the lamp flame bends as if touched by cold wind, the scroll is slowly unrolled, the ghost attendants bow in the doorway, slow camera push-in",
-        "seed": 542058025
+        "motionPrompt": "candle flames bend, the messenger's robe flows, the scroll glints dully",
+        "seed": 2968337803
       },
       "voice": {}
     },
     {
-      "id": "ban-ngheo",
-      "title": "Người bạn nghèo",
+      "id": "nhan-chuc",
+      "title": "Nhận chức tướng Dạ Xoa",
       "narrator": "ke-chuyen",
-      "narration": "Dĩ Thành có người bạn thân tên là Lê Ngộ, học hành giỏi giang mà mãi nghèo túng, đang trọ học ở đất Quế Dương. Một đêm khuya, Lê Ngộ còn ngồi bên đèn, bỗng thấy Dĩ Thành bước vào, áo mũ chỉnh tề như một vị quan. Dĩ Thành cười nói: Tôi nay đã làm quan dưới cõi âm, nhớ bạn nên ghé thăm. Lê Ngộ vừa mừng vừa sợ, bày rượu ra mời. Hai người ngồi đối ẩm, chuyện trò như thuở còn sống bên nhau.",
+      "narration": "Dĩ Thành hỏi: Như lời các ngươi nói thì đó là phúc hay là họa cho ta. Bầy quỷ đáp: Dưới điện Diêm la, tuyển người cũng như tuyển phật, không thể đút lót mà được, cũng không thể cầu may mà nên. Giữ mình cương chính, dù hèn mọn cũng được cất lên, ăn ở gian tà thì dù hiển vinh cũng chẳng được kể đến. Việc huấn luyện, trông coi, chẳng thuộc về sứ quân thì thuộc về ai. Nếu sứ quân còn luyến tiếc vợ con, dùng dằng ngày tháng, thì chức ấy tất lọt về tay người khác, chúng tôi cũng sẽ buồn lắm. Dĩ Thành tắc lưỡi mà rằng: Chết tuy đáng ghét, nhưng danh tiếng cũng khó mua. Ngọn bút nhọn thì chóng cùn, cây thông nhiều cành thì dễ bị chặt, chim trĩ đẹp lông vẫn mắc họa, voi trắng ngà cũng bị săn. Nhan Hồi hiền tài mà mất lúc ba mươi hai tuổi, thi nhân Lý Hạ mất khi mới hăm bảy, nghe nói trời mời họ lên viết văn cho lầu ngọc. Bậc trượng phu sinh ở đời, không làm nên được lưng đeo vàng, chân bước ngọc, thì cũng phải để lại tiếng muôn thuở. Tội gì cúi đầu ở cõi đời vẩn đục, so kè tuổi thọ dài ngắn làm gì. Nói rồi, chàng thu xếp việc nhà, rồi mất.",
       "subtitles": [
-        "Dĩ Thành có người bạn thân tên là Lê Ngộ, học hành giỏi giang mà mãi nghèo túng,",
-        "đang trọ học ở đất Quế Dương.",
-        "Một đêm khuya, Lê Ngộ còn ngồi bên đèn, bỗng thấy Dĩ Thành bước vào,",
-        "áo mũ chỉnh tề như một vị quan.",
-        "Dĩ Thành cười nói: Tôi nay đã làm quan dưới cõi âm, nhớ bạn nên ghé thăm.",
-        "Lê Ngộ vừa mừng vừa sợ, bày rượu ra mời.",
-        "Hai người ngồi đối ẩm, chuyện trò như thuở còn sống bên nhau."
+        "Dĩ Thành hỏi: Như lời các ngươi nói thì đó là phúc hay là họa cho ta.",
+        "Bầy quỷ đáp: Dưới điện Diêm la, tuyển người cũng như tuyển phật,",
+        "không thể đút lót mà được, cũng không thể cầu may mà nên.",
+        "Giữ mình cương chính, dù hèn mọn cũng được cất lên,",
+        "ăn ở gian tà thì dù hiển vinh cũng chẳng được kể đến.",
+        "Việc huấn luyện, trông coi, chẳng thuộc về sứ quân thì thuộc về ai.",
+        "Nếu sứ quân còn luyến tiếc vợ con, dùng dằng ngày tháng,",
+        "thì chức ấy tất lọt về tay người khác, chúng tôi cũng sẽ buồn lắm.",
+        "Dĩ Thành tắc lưỡi mà rằng: Chết tuy đáng ghét, nhưng danh tiếng cũng khó mua.",
+        "Ngọn bút nhọn thì chóng cùn, cây thông nhiều cành thì dễ bị chặt,",
+        "chim trĩ đẹp lông vẫn mắc họa, voi trắng ngà cũng bị săn.",
+        "Nhan Hồi hiền tài mà mất lúc ba mươi hai tuổi, thi nhân Lý Hạ mất khi mới hăm bảy,",
+        "nghe nói trời mời họ lên viết văn cho lầu ngọc.",
+        "Bậc trượng phu sinh ở đời, không làm nên được lưng đeo vàng, chân bước ngọc,",
+        "thì cũng phải để lại tiếng muôn thuở.",
+        "Tội gì cúi đầu ở cõi đời vẩn đục, so kè tuổi thọ dài ngắn làm gì.",
+        "Nói rồi, chàng thu xếp việc nhà, rồi mất."
       ],
       "image": {
-        "prompt": "Le Ngo in a humble rented room at night beside an oil lamp, surprised as his friend Van Di Thanh appears in the doorway in dignified official robes with a faint pale glow, a small jar of wine on a low table",
-        "seed": 1505031650,
-        "character": "le-ngo"
-      },
-      "video": {
-        "motionPrompt": "the oil lamp flickers, a faint glow surrounds Di Thanh as he steps in, Le Ngo slowly rises from his seat, gentle camera push-in",
-        "seed": 981178553
-      },
-      "voice": {}
-    },
-    {
-      "id": "phan-nghe",
-      "title": "Phận nghèo của kẻ sĩ",
-      "narrator": "ke-chuyen",
-      "narration": "Rượu được vài tuần, Lê Ngộ thở dài: Bạn bè cùng học với tôi, người nay làm quan, kẻ nay giàu có, riêng tôi cứ mãi nghèo hèn, sống chẳng khác gì kẻ thừa. Dĩ Thành đáp: Giàu nghèo là do số trời, người quân tử chỉ cần giữ trọn phẩm hạnh, làm tròn bổn phận của mình. Xưa kia biết bao người tài giỏi cũng phải chịu cảnh khốn cùng, mà tiếng thơm vẫn còn mãi. Bạn đừng vì nghèo mà đổi lòng ngay thẳng. Lê Ngộ nghe xong, trong lòng nhẹ nhõm hẳn.",
-      "subtitles": [
-        "Rượu được vài tuần, Lê Ngộ thở dài: Bạn bè cùng học với tôi, người nay làm quan,",
-        "kẻ nay giàu có, riêng tôi cứ mãi nghèo hèn, sống chẳng khác gì kẻ thừa.",
-        "Dĩ Thành đáp: Giàu nghèo là do số trời, người quân tử chỉ cần giữ trọn phẩm hạnh,",
-        "làm tròn bổn phận của mình.",
-        "Xưa kia biết bao người tài giỏi cũng phải chịu cảnh khốn cùng, mà tiếng thơm vẫn còn mãi.",
-        "Bạn đừng vì nghèo mà đổi lòng ngay thẳng.",
-        "Lê Ngộ nghe xong, trong lòng nhẹ nhõm hẳn."
-      ],
-      "image": {
-        "prompt": "two friends sitting cross-legged on a mat drinking wine by lamplight, the ghostly official Di Thanh gesturing calmly as he speaks, the poor scholar Le Ngo listening with a softened face, books piled in the corner",
-        "seed": 726784752,
-        "character": "le-ngo"
-      },
-      "video": {
-        "motionPrompt": "lamp flame sways, wine is poured slowly into small cups, the two friends nod to each other, soft camera arc",
-        "seed": 1796773562
-      },
-      "voice": {}
-    },
-    {
-      "id": "loi-dan",
-      "title": "Lời dặn trước lúc chia tay",
-      "narrator": "ke-chuyen",
-      "narration": "Trước khi đi, Dĩ Thành hạ giọng dặn: Nay tôi được giao cai quản quân ôn dịch. Sắp tới đây, dịch bệnh, đói kém và binh lửa sẽ nổi lên, dân chết quá nửa. Bạn nên sớm về quê. Có điều quân của viên tướng họ Đinh ở phía tây sông hung ác hơn quân của tôi nhiều. Nếu chúng kéo đến nhà, bạn hãy bày cỗ bàn ngoài sân, đợi chúng ăn uống xong xuôi rồi hãy ra lạy, chỉ lạy thôi, đừng nói thêm điều gì. Dặn xong, ông biến mất, chỉ còn ngọn đèn lay lắt.",
-      "subtitles": [
-        "Trước khi đi, Dĩ Thành hạ giọng dặn: Nay tôi được giao cai quản quân ôn dịch.",
-        "Sắp tới đây, dịch bệnh, đói kém và binh lửa sẽ nổi lên, dân chết quá nửa.",
-        "Bạn nên sớm về quê.",
-        "Có điều quân của viên tướng họ Đinh ở phía tây sông hung ác hơn quân của tôi nhiều.",
-        "Nếu chúng kéo đến nhà, bạn hãy bày cỗ bàn ngoài sân,",
-        "đợi chúng ăn uống xong xuôi rồi hãy ra lạy, chỉ lạy thôi, đừng nói thêm điều gì.",
-        "Dặn xong, ông biến mất, chỉ còn ngọn đèn lay lắt."
-      ],
-      "image": {
-        "prompt": "the ghostly general Di Thanh standing at the open door at night, half-fading into mist, raising a warning hand toward Le Ngo, beyond him a dark river and shadowy troops waiting on the far bank",
-        "seed": 1187500621,
+        "prompt": "a calm young scholar sitting beside a lamp in his study, setting his household papers in order beside an aged mother's sleeping mat, a faint dark door of mist opening at the back of the room, quiet resolve, no violence",
+        "seed": 3247666542,
         "character": "di-thanh"
       },
       "video": {
-        "motionPrompt": "Di Thanh's figure slowly dissolves into the mist, the lamp gutters, shadowy troops on the far bank fade away, slow camera pull-back",
-        "seed": 1580404574
+        "motionPrompt": "lamp flame steadies, the mist at the back door slowly widens, papers stir",
+        "seed": 1232322037
+      },
+      "voice": {}
+    },
+    {
+      "id": "le-ngo",
+      "title": "Người khách cưỡi ngựa ở Quế Dương",
+      "narrator": "ke-chuyen",
+      "narration": "Bấy giờ có người đồng hương tên là Lê Ngộ, vốn chơi thân với Dĩ Thành, phiêu bạt đến vùng Quế Dương, ngụ trong một nhà trọ. Một hôm, quá canh một, Lê Ngộ thấy một người cưỡi ngựa, có kẻ hầu người theo rộn ràng, đến xin vào yết kiến. Chủ trọ vén màn ra đón. Lê Ngộ rất lấy làm lạ, vì tiếng nói của khách giống hệt tiếng Dĩ Thành, nhưng trông mặt thì hơi không giống. Lê Ngộ toan ra cửa tránh đi. Người khách nói: Cố nhân biết ông, ông lại không biết cố nhân là sao. Rồi khách kể quê quán, họ tên, nói mình đã lĩnh chức quan lớn dưới âm phủ, vì có tình cũ với Lê Ngộ nên đến thăm. Chàng bèn cởi áo, nhờ nhà trọ lấy rượu uống cho vui.",
+      "subtitles": [
+        "Bấy giờ có người đồng hương tên là Lê Ngộ, vốn chơi thân với Dĩ Thành,",
+        "phiêu bạt đến vùng Quế Dương, ngụ trong một nhà trọ.",
+        "Một hôm, quá canh một, Lê Ngộ thấy một người cưỡi ngựa, có kẻ hầu người theo rộn ràng,",
+        "đến xin vào yết kiến.",
+        "Chủ trọ vén màn ra đón.",
+        "Lê Ngộ rất lấy làm lạ, vì tiếng nói của khách giống hệt tiếng Dĩ Thành,",
+        "nhưng trông mặt thì hơi không giống.",
+        "Lê Ngộ toan ra cửa tránh đi.",
+        "Người khách nói: Cố nhân biết ông, ông lại không biết cố nhân là sao.",
+        "Rồi khách kể quê quán, họ tên, nói mình đã lĩnh chức quan lớn dưới âm phủ,",
+        "vì có tình cũ với Lê Ngộ nên đến thăm.",
+        "Chàng bèn cởi áo, nhờ nhà trọ lấy rượu uống cho vui."
+      ],
+      "image": {
+        "prompt": "a roadside inn at night with lanterns, an honorably dressed visitor in a dark official robe dismounting from a tall horse with attendants, an astonished lean scholar Le Ngo stepping out the door, misty street, subtle ghostly glow",
+        "seed": 2716612304,
+        "character": "le-ngo"
+      },
+      "video": {
+        "motionPrompt": "lantern light flickers, the horse breathes steam, the host holds the curtain open",
+        "seed": 3985939439
+      },
+      "voice": {}
+    },
+    {
+      "id": "tam-su",
+      "title": "Lời than của kẻ nghèo",
+      "narrator": "ke-chuyen",
+      "narration": "Rượu uống đã mấy tuần, Lê Ngộ nói: Tôi xưa nay ở đời, vẫn để ý tu âm công, không mưu lợi riêng, không gieo nguy bách cho người. Dạy học thì tùy tài mà dẫn dắt, tự học thì hết sức dùi mài, không ước điều vẩn vơ, không làm việc quá đáng. Vậy mà sao phải bốn phương kiếm miếng ăn, chiếc bóng nhờ người, con khóc đói lòng, vợ than rét cật, về thì thiếu túp lều chắn gió, đi thì không chiếc nón che mưa, long đong chạy hết đông sang tây. Bè bạn tôi thì nhiều người làm quan, so tài nghệ cũng chỉ ngang nhau mà thân danh khác nhau xa. Kẻ sướng người khổ như thế là cớ làm sao. Dĩ Thành đáp: Giàu sang không thể cầu mà được, nghèo khó là do số phận. Xưa có người được ban cả một núi đồng để đúc tiền mà vẫn chết đói, có người phải nhờ gió thổi qua núi Mã Đương mới viết nên bài tựa nổi danh, có người nghèo đến nỗi chờ một tấm bia để rập bán, bia lại bị sét đánh vỡ. Nếu không có số, thì đức hạnh như Nhan Uyên, Mẫn Tử Khiên hẳn đã lên đến mây xanh, tài văn chương như Lư Chiếu Lân, Lạc Tân Vương đâu đến nỗi chỉ là chân trắng. Việc gì mình không làm mà nên là bởi trời, không vời mà đến là bởi mệnh. Điều đáng quý ở kẻ sĩ là nghèo mà không luồn cúi, cùng khốn mà lòng vẫn vững, làm tròn phận mình và thuận theo cảnh ngộ. Còn vận cùng hay vận thông, ta chẳng thể cưỡng lại.",
+      "subtitles": [
+        "Rượu uống đã mấy tuần, Lê Ngộ nói: Tôi xưa nay ở đời, vẫn để ý tu âm công,",
+        "không mưu lợi riêng, không gieo nguy bách cho người.",
+        "Dạy học thì tùy tài mà dẫn dắt, tự học thì hết sức dùi mài, không ước điều vẩn vơ,",
+        "không làm việc quá đáng.",
+        "Vậy mà sao phải bốn phương kiếm miếng ăn, chiếc bóng nhờ người, con khóc đói lòng,",
+        "vợ than rét cật, về thì thiếu túp lều chắn gió, đi thì không chiếc nón che mưa,",
+        "long đong chạy hết đông sang tây.",
+        "Bè bạn tôi thì nhiều người làm quan,",
+        "so tài nghệ cũng chỉ ngang nhau mà thân danh khác nhau xa.",
+        "Kẻ sướng người khổ như thế là cớ làm sao.",
+        "Dĩ Thành đáp: Giàu sang không thể cầu mà được, nghèo khó là do số phận.",
+        "Xưa có người được ban cả một núi đồng để đúc tiền mà vẫn chết đói,",
+        "có người phải nhờ gió thổi qua núi Mã Đương mới viết nên bài tựa nổi danh,",
+        "có người nghèo đến nỗi chờ một tấm bia để rập bán, bia lại bị sét đánh vỡ.",
+        "Nếu không có số, thì đức hạnh như Nhan Uyên, Mẫn Tử Khiên hẳn đã lên đến mây xanh,",
+        "tài văn chương như Lư Chiếu Lân, Lạc Tân Vương đâu đến nỗi chỉ là chân trắng.",
+        "Việc gì mình không làm mà nên là bởi trời, không vời mà đến là bởi mệnh.",
+        "Điều đáng quý ở kẻ sĩ là nghèo mà không luồn cúi, cùng khốn mà lòng vẫn vững,",
+        "làm tròn phận mình và thuận theo cảnh ngộ.",
+        "Còn vận cùng hay vận thông, ta chẳng thể cưỡng lại."
+      ],
+      "image": {
+        "prompt": "two old friends sitting across a small table in a modest inn, lamp between them, one in a shabby scholar's robe pouring wine, the other in a dark official's robe listening gravely, rain at the window",
+        "seed": 3178436738,
+        "character": "le-ngo"
+      },
+      "video": {
+        "motionPrompt": "lamp glows warm, wine ripples in the cups, rain streaks the window",
+        "seed": 465370617
+      },
+      "voice": {}
+    },
+    {
+      "id": "dan-do",
+      "title": "Lời dặn lúc chia tay",
+      "narrator": "ke-chuyen",
+      "narration": "Rượu đã cạn, hai người lại khêu đèn trò chuyện, kéo dài mãi mà không biết chán. Hôm sau, lúc từ biệt, Dĩ Thành đuổi hết mọi người ra rồi nói: Tôi mới vâng lệnh Thượng đế, kiêm coi cả bọn quân ôn dịch, chia đi làm việc ở các quận huyện, lại thêm nạn đói khát và binh đao, dân sinh sẽ điêu tàn, mười phần chỉ còn bốn năm. Người nào không có nguồn phúc sâu xa, e sẽ đến ngọc đá cùng nát cả. Phúc nhà bác mỏng, tựa như khó tránh được, nên sớm về quê, đừng nấn ná ở đất khách mãi. Lê Ngộ nói: Tôi tưởng rất có thể trông nhờ bác che chở. Dĩ Thành đáp: Không phải trong địa hạt của tôi, tôi không thể vượt qua. Từ sông Trường Giang trở về phía bắc là do tôi coi, còn từ sông ấy trở sang phía tây là do viên tướng họ Đinh trông. Quân của tôi mặc áo đen, còn có chút lòng thương. Quân họ Đinh mặc áo trắng, phần nhiều là ác quỷ, bác không nên không lo liệu trước. Lê Ngộ hỏi: Vậy làm thế nào. Dĩ Thành nói: Mỗi bộ soái, đêm đêm sai hơn nghìn tên quân chia đi gieo ôn dịch các nơi. Bác nên sắm nhiều cỗ bàn bày sẵn ngoài sân. Bọn chúng từ xa đến tất đói khát, thấy cỗ là ăn mà chẳng nghĩ gì. Bác núp ở chỗ tối, đợi lúc thấy ăn uống gần xong thì ra sụp lạy, cũng đừng kêu nài gì cả. Như thế may ra cứu vãn được phần nào. Nói xong, ứa nước mắt từ biệt nhau.",
+      "subtitles": [
+        "Rượu đã cạn, hai người lại khêu đèn trò chuyện, kéo dài mãi mà không biết chán.",
+        "Hôm sau, lúc từ biệt, Dĩ Thành đuổi hết mọi người ra rồi nói: Tôi mới vâng lệnh Thượng đế,",
+        "kiêm coi cả bọn quân ôn dịch, chia đi làm việc ở các quận huyện,",
+        "lại thêm nạn đói khát và binh đao, dân sinh sẽ điêu tàn, mười phần chỉ còn bốn năm.",
+        "Người nào không có nguồn phúc sâu xa, e sẽ đến ngọc đá cùng nát cả.",
+        "Phúc nhà bác mỏng, tựa như khó tránh được, nên sớm về quê, đừng nấn ná ở đất khách mãi.",
+        "Lê Ngộ nói: Tôi tưởng rất có thể trông nhờ bác che chở.",
+        "Dĩ Thành đáp: Không phải trong địa hạt của tôi, tôi không thể vượt qua.",
+        "Từ sông Trường Giang trở về phía bắc là do tôi coi,",
+        "còn từ sông ấy trở sang phía tây là do viên tướng họ Đinh trông.",
+        "Quân của tôi mặc áo đen, còn có chút lòng thương.",
+        "Quân họ Đinh mặc áo trắng, phần nhiều là ác quỷ, bác không nên không lo liệu trước.",
+        "Lê Ngộ hỏi: Vậy làm thế nào.",
+        "Dĩ Thành nói: Mỗi bộ soái, đêm đêm sai hơn nghìn tên quân chia đi gieo ôn dịch các nơi.",
+        "Bác nên sắm nhiều cỗ bàn bày sẵn ngoài sân.",
+        "Bọn chúng từ xa đến tất đói khát, thấy cỗ là ăn mà chẳng nghĩ gì.",
+        "Bác núp ở chỗ tối, đợi lúc thấy ăn uống gần xong thì ra sụp lạy, cũng đừng kêu nài gì cả.",
+        "Như thế may ra cứu vãn được phần nào.",
+        "Nói xong, ứa nước mắt từ biệt nhau."
+      ],
+      "image": {
+        "prompt": "a misty dawn at an inn doorway, two friends in a grave parting, the dark-robed official placing a hand on the scholar's shoulder, attendants waiting with horses in the grey mist, sorrowful quiet",
+        "seed": 3213496068,
+        "character": "di-thanh"
+      },
+      "video": {
+        "motionPrompt": "mist drifts slowly, the horses stir, the two friends stand close in silence",
+        "seed": 1875988115
       },
       "voice": {}
     },
     {
       "id": "dich-benh",
-      "title": "Đêm bày cỗ",
+      "title": "Dịch bệnh về làng",
       "narrator": "ke-chuyen",
-      "narration": "Lê Ngộ vội vã về quê. Về đến nơi thì dịch bệnh đang hoành hành, nhà nhà đóng cửa, vợ con ông đều ốm nặng, nằm thiêm thiếp không dậy nổi. Nhớ lời bạn, đêm ấy ông bày một mâm cỗ lớn giữa sân rồi nấp vào trong. Đến nửa đêm, gió lạnh nổi lên, một đám quỷ ồn ào kéo đến, ngồi quanh mâm ăn uống. Ngồi giữa là một người mặc áo tía, mặt lạnh như đá. Ăn uống xong xuôi, Lê Ngộ mới bước ra, sụp xuống lạy, không nói một lời.",
+      "narration": "Lê Ngộ về đến quê nhà thì bệnh dịch đang nổi rất dữ. Vợ con đều mắc bệnh nặng, nằm li bì, hầu như không nhận ra nhau nữa. Ông bèn theo lời Dĩ Thành, đêm hôm ấy làm một mâm cỗ thật hậu, bày ra ngoài sân. Quả nhiên có một đám đông quỷ sứ từ trên không bay đến. Chúng nhìn nhau mà nói: Chúng ta đều đói cả, có sẵn cỗ đây mà không ăn thì còn đi đâu. Chả nhẽ vì uống mấy chén rượu mà đến mức phải tội. Rồi chúng quay lại ngồi ăn uống. Một người mặc áo tía chễm chệ ngồi giữa, còn những kẻ khác đứng chầu chung quanh, người cầm dao búa, người cầm sổ sách.",
       "subtitles": [
-        "Lê Ngộ vội vã về quê.",
-        "Về đến nơi thì dịch bệnh đang hoành hành, nhà nhà đóng cửa, vợ con ông đều ốm nặng,",
-        "nằm thiêm thiếp không dậy nổi.",
-        "Nhớ lời bạn, đêm ấy ông bày một mâm cỗ lớn giữa sân rồi nấp vào trong.",
-        "Đến nửa đêm, gió lạnh nổi lên, một đám quỷ ồn ào kéo đến, ngồi quanh mâm ăn uống.",
-        "Ngồi giữa là một người mặc áo tía, mặt lạnh như đá.",
-        "Ăn uống xong xuôi, Lê Ngộ mới bước ra, sụp xuống lạy, không nói một lời."
+        "Lê Ngộ về đến quê nhà thì bệnh dịch đang nổi rất dữ.",
+        "Vợ con đều mắc bệnh nặng, nằm li bì, hầu như không nhận ra nhau nữa.",
+        "Ông bèn theo lời Dĩ Thành, đêm hôm ấy làm một mâm cỗ thật hậu, bày ra ngoài sân.",
+        "Quả nhiên có một đám đông quỷ sứ từ trên không bay đến.",
+        "Chúng nhìn nhau mà nói: Chúng ta đều đói cả, có sẵn cỗ đây mà không ăn thì còn đi đâu.",
+        "Chả nhẽ vì uống mấy chén rượu mà đến mức phải tội.",
+        "Rồi chúng quay lại ngồi ăn uống.",
+        "Một người mặc áo tía chễm chệ ngồi giữa, còn những kẻ khác đứng chầu chung quanh,",
+        "người cầm dao búa, người cầm sổ sách."
       ],
       "image": {
-        "prompt": "a village courtyard at midnight with a large feast laid on mats, a crowd of shadowy pale ghost figures eating around it, at the center a stern man in purple robes, the scholar Le Ngo kneeling and bowing silently at the edge",
-        "seed": 2314713068,
+        "prompt": "a village courtyard at night with a laden feast table, a lean scholar hiding in a dark corner behind a door, a troop of white-robed spirits descending from the sky to eat, a figure in purple seated at the center, a sick household behind the shuttered door",
+        "seed": 4223238870,
         "character": "le-ngo"
       },
       "video": {
-        "motionPrompt": "cold wind stirs the lanterns, ghost figures reach for the dishes, the man in purple turns his stony face toward the kneeling scholar, slow camera push-in",
-        "seed": 2547226596
+        "motionPrompt": "white spirits drift down like smoke, lamplight trembles on the feast, the hidden man holds his breath",
+        "seed": 3051478077
       },
       "voice": {}
     },
     {
-      "id": "xoa-ten",
-      "title": "Những cái tên được xóa",
+      "id": "ao-tia",
+      "title": "Người áo tía xóa sổ",
       "narrator": "ke-chuyen",
-      "narration": "Người áo tía làm như không thấy, toan đứng dậy đi. Một con quỷ bên cạnh bèn thưa: Đã ăn của người ta một bữa no nê, nay lại làm ngơ thì sao phải đạo? Người áo tía im lặng hồi lâu, rồi giở cuốn sổ ra, cầm bút xóa đi hơn mười chữ. Cả đám quỷ đứng dậy, theo gió lạnh mà tan đi. Mấy hôm sau, vợ con Lê Ngộ lần lượt khỏi bệnh. Biết là nhờ ơn bạn, Lê Ngộ lập miếu ngay trong nhà để thờ Dĩ Thành. Người trong làng đến cầu khấn cũng đều linh ứng.",
+      "narration": "Thấy họ ăn uống gần xong, Lê Ngộ bước ra, lạy mãi lạy mãi. Người áo tía nói: Ta đang ăn, gã kia đến đây làm gì. Bầy quỷ thưa: Chắc là chủ nhân bày những mâm cỗ này, trong nhà có người ốm nặng, đến kêu xin châm chước. Người áo tía tức giận, cầm quyển sổ ném xuống đất mà nói: Lẽ nào vì một mâm cỗ sơ sài mà đòi đổi được năm mạng người. Bầy quỷ nói: Nhưng đã ăn của nhà nó, chẳng lẽ nỡ làm ngơ không cứu. Thôi thì dù có vì cứu nó mà phải tội, dẫu chết cũng bằng lòng. Người áo tía ngẫm nghĩ hồi lâu, bèn lấy bút son xóa đi hơn mười chữ rồi bỏ đi. Sau vài ngày, cả nhà họ Lê ai nấy đều lui bệnh rồi khỏi hẳn.",
       "subtitles": [
-        "Người áo tía làm như không thấy, toan đứng dậy đi.",
-        "Một con quỷ bên cạnh bèn thưa: Đã ăn của người ta một bữa no nê,",
-        "nay lại làm ngơ thì sao phải đạo?",
-        "Người áo tía im lặng hồi lâu, rồi giở cuốn sổ ra, cầm bút xóa đi hơn mười chữ.",
-        "Cả đám quỷ đứng dậy, theo gió lạnh mà tan đi.",
-        "Mấy hôm sau, vợ con Lê Ngộ lần lượt khỏi bệnh.",
-        "Biết là nhờ ơn bạn, Lê Ngộ lập miếu ngay trong nhà để thờ Dĩ Thành.",
-        "Người trong làng đến cầu khấn cũng đều linh ứng."
+        "Thấy họ ăn uống gần xong, Lê Ngộ bước ra, lạy mãi lạy mãi.",
+        "Người áo tía nói: Ta đang ăn, gã kia đến đây làm gì.",
+        "Bầy quỷ thưa: Chắc là chủ nhân bày những mâm cỗ này, trong nhà có người ốm nặng,",
+        "đến kêu xin châm chước.",
+        "Người áo tía tức giận, cầm quyển sổ ném xuống đất mà nói:",
+        "Lẽ nào vì một mâm cỗ sơ sài mà đòi đổi được năm mạng người.",
+        "Bầy quỷ nói: Nhưng đã ăn của nhà nó, chẳng lẽ nỡ làm ngơ không cứu.",
+        "Thôi thì dù có vì cứu nó mà phải tội, dẫu chết cũng bằng lòng.",
+        "Người áo tía ngẫm nghĩ hồi lâu, bèn lấy bút son xóa đi hơn mười chữ rồi bỏ đi.",
+        "Sau vài ngày, cả nhà họ Lê ai nấy đều lui bệnh rồi khỏi hẳn."
       ],
       "image": {
-        "prompt": "the purple-robed underworld official opening a thick ledger in the moonlit courtyard and striking out names with a brush, a ghost beside him speaking up, Le Ngo still bowing, dawn light beginning at the horizon",
-        "seed": 4087326634,
+        "prompt": "a stern figure in a purple robe throwing a record book to the ground in anger at a courtyard feast, then slowly crossing out names with a red brush, white-robed spirits murmuring around him, the lean scholar kneeling in the dark, flickering lamplight",
+        "seed": 4171001976,
         "character": "nguoi-ao-tia"
       },
       "video": {
-        "motionPrompt": "the brush moves slowly across the ledger, pages flutter in the wind, the ghosts dissolve into mist as dawn light grows, slow camera crane up",
-        "seed": 814858255
+        "motionPrompt": "the purple figure's sleeve sweeps, the red brush draws a line, lamp flame steadies",
+        "seed": 753432951
       },
       "voice": {}
     },
     {
-      "id": "loi-binh",
-      "title": "Tình bạn sống chết không đổi",
+      "id": "lap-mieu",
+      "title": "Miếu thờ Dĩ Thành",
       "narrator": "ke-chuyen",
-      "narration": "Người xưa kể chuyện này, không cốt hỏi thật hay hư. Điều đáng quý là một tình bạn chân thành: lúc sống thương nhau, khi chết rồi vẫn tìm về cứu bạn qua cơn hoạn nạn. Đời có biết bao kẻ chỉ kết bạn quanh mâm rượu, đến khi gặp chuyện hơn thiệt thì quay lưng như chẳng hề quen. Đem so với tướng Dạ Xoa họ Văn, há chẳng đáng hổ thẹn lắm sao.",
+      "narration": "Lê Ngộ cảm ân đức của Dĩ Thành, bèn lập miếu ngay ở nhà để thờ. Người làng đến khấn vái cầu xin cũng thường linh ứng. Người xưa than rằng: Bè bạn là một trong năm đạo thường, có thể coi khinh được sao. Chuyện quỷ Dạ xoa này thật hay không, chẳng cần phải biện bác cho lắm. Chỉ có một điều đáng nói, ấy là tình bạn của Dĩ Thành. Khi đã coi ai là bạn chân chính thì sống chết không đổi thay, hoạn nạn cùng cứu gỡ. Đời có những kẻ kết bạn quanh mâm rượu, gan dạ đảo điên, hễ gặp chuyện lợi hại thì lờ đi như không quen biết nhau. Nghe chuyện này, há chẳng chạnh lòng hổ thẹn.",
       "subtitles": [
-        "Người xưa kể chuyện này, không cốt hỏi thật hay hư.",
-        "Điều đáng quý là một tình bạn chân thành: lúc sống thương nhau,",
-        "khi chết rồi vẫn tìm về cứu bạn qua cơn hoạn nạn.",
-        "Đời có biết bao kẻ chỉ kết bạn quanh mâm rượu,",
-        "đến khi gặp chuyện hơn thiệt thì quay lưng như chẳng hề quen.",
-        "Đem so với tướng Dạ Xoa họ Văn, há chẳng đáng hổ thẹn lắm sao."
+        "Lê Ngộ cảm ân đức của Dĩ Thành, bèn lập miếu ngay ở nhà để thờ.",
+        "Người làng đến khấn vái cầu xin cũng thường linh ứng.",
+        "Người xưa than rằng: Bè bạn là một trong năm đạo thường, có thể coi khinh được sao.",
+        "Chuyện quỷ Dạ xoa này thật hay không, chẳng cần phải biện bác cho lắm.",
+        "Chỉ có một điều đáng nói, ấy là tình bạn của Dĩ Thành.",
+        "Khi đã coi ai là bạn chân chính thì sống chết không đổi thay, hoạn nạn cùng cứu gỡ.",
+        "Đời có những kẻ kết bạn quanh mâm rượu, gan dạ đảo điên,",
+        "hễ gặp chuyện lợi hại thì lờ đi như không quen biết nhau.",
+        "Nghe chuyện này, há chẳng chạnh lòng hổ thẹn."
       ],
       "image": {
-        "prompt": "a small humble ancestral shrine inside a village house with incense smoke rising before a simple painted portrait of the bold general Van Di Thanh, Le Ngo and his recovered family bowing, morning light",
-        "seed": 2897251311,
-        "character": "di-thanh"
+        "prompt": "a small humble family shrine in a thatched house, incense smoke rising before a portrait of a young scholar in dark robes, villagers bowing, a recovered family gathered in warm morning light, tender hopeful mood",
+        "seed": 21071978,
+        "character": "le-ngo"
       },
       "video": {
-        "motionPrompt": "incense smoke curls upward, the family bows slowly, morning light spreads across the shrine, gentle camera push-in on the portrait",
-        "seed": 343669943
+        "motionPrompt": "incense smoke rises in curls, morning light warms the shrine, villagers bow slowly",
+        "seed": 3145145537
       },
       "voice": {}
     }
