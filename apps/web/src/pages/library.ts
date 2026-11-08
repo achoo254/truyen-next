@@ -1,5 +1,6 @@
 /**
- * Browsing a large shelf: search that ignores Vietnamese marks ("son tinh" finds "Sơn Tinh"), filters by topic and
+ * Browsing a large shelf: whole-word search where plain typing ignores Vietnamese marks ("son tinh" finds "Sơn Tinh")
+ * and typed marks are kept ("cá" is not "cả"), title matches first, filters by topic and
  * length, three orders, and pages of 24. The whole state lives in the URL (`?q=&chu-de=&do-dai=&sap-xep=&trang=`),
  * so reload, Back and a shared link keep it. Pure: the list is small enough (a few hundred entries) to filter in
  * the browser.
@@ -33,8 +34,49 @@ export function fold(text: string): string {
   return [...text].map(foldChar).join('');
 }
 
-function words(q: string): string[] {
-  return fold(q).split(/\s+/).filter(Boolean);
+const WORD_CHAR = /[\p{L}\p{N}]/u;
+
+/** A searched word: typed with marks it must match exactly ("cá" is not "cả"), typed plain it matches any marks. */
+interface Term {
+  text: string;
+  plain: boolean;
+  /** The last word, while still being typed, may be the start of a longer word. */
+  prefix: boolean;
+}
+
+function terms(q: string): Term[] {
+  const typed = q.normalize('NFC').toLowerCase().match(/[\p{L}\p{N}]+/gu) ?? [];
+  return typed.map((text, i) => ({ text, plain: fold(text) === text, prefix: i === typed.length - 1 && [...text].length >= 3 }));
+}
+
+/** Whole words only: "rồng" finds "con rồng", not "trong" or "rộng". */
+function termMatches(term: Term, word: string): boolean {
+  const candidate = term.plain ? fold(word) : word.normalize('NFC').toLowerCase();
+  return candidate === term.text || (term.prefix && candidate.startsWith(term.text));
+}
+
+/** Start and end (in characters) of every word of `chars`. */
+function wordSpans(chars: readonly string[]): Array<[number, number]> {
+  const spans: Array<[number, number]> = [];
+  let start = -1;
+  chars.forEach((char, i) => {
+    if (WORD_CHAR.test(char)) {
+      if (start < 0) start = i;
+    } else if (start >= 0) {
+      spans.push([start, i]);
+      start = -1;
+    }
+  });
+  if (start >= 0) spans.push([start, chars.length]);
+  return spans;
+}
+
+function textWords(text: string): string[] {
+  return text.normalize('NFC').match(/[\p{L}\p{N}]+/gu) ?? [];
+}
+
+function allFound(found: readonly Term[], words: readonly string[]): boolean {
+  return found.every((term) => words.some((word) => termMatches(term, word)));
 }
 
 export function lengthBand(minutes: number): LengthBand {
@@ -43,8 +85,14 @@ export function lengthBand(minutes: number): LengthBand {
 }
 
 export function matchesSearch(entry: StoryListEntry, q: string): boolean {
-  const haystack = fold(`${entry.title} ${entry.summary}`);
-  return words(q).every((word) => haystack.includes(word));
+  return allFound(terms(q), textWords(`${entry.title} ${entry.summary}`));
+}
+
+/** Stories whose title holds every searched word come first, then those whose title holds some of them. */
+function titleRank(entry: StoryListEntry, found: readonly Term[]): number {
+  const title = textWords(entry.title);
+  if (allFound(found, title)) return 2;
+  return found.some((term) => title.some((word) => termMatches(term, word))) ? 1 : 0;
 }
 
 const collator = new Intl.Collator('vi');
@@ -64,11 +112,15 @@ export interface ShelfView {
 }
 
 export function applyQuery(entries: readonly StoryListEntry[], query: ShelfQuery): ShelfView {
+  const found = terms(query.q);
+  const order = compare(query.sort);
   const matching = entries
     .filter((entry) => matchesSearch(entry, query.q))
     .filter((entry) => query.theme === null || entry.themes.includes(query.theme))
     .filter((entry) => query.length === null || lengthBand(entry.minutes) === query.length)
-    .sort(compare(query.sort));
+    .map((entry) => ({ entry, rank: found.length ? titleRank(entry, found) : 0 }))
+    .sort((a, b) => b.rank - a.rank || order(a.entry, b.entry))
+    .map(({ entry }) => entry);
   const shown = query.pages * PAGE_SIZE;
   return { items: matching.slice(0, shown), total: matching.length, hasMore: matching.length > shown };
 }
@@ -106,11 +158,12 @@ export interface Segment {
 
 /** `text` cut into the parts that match a search word (marked) and the rest, for highlighting. */
 export function highlight(text: string, q: string): Segment[] {
-  const chars = [...text];
-  const folded = chars.map(foldChar).join('');
+  const chars = [...text.normalize('NFC')];
+  const found = terms(q);
   const hits = new Array<boolean>(chars.length).fill(false);
-  for (const word of words(q)) {
-    for (let at = folded.indexOf(word); at >= 0; at = folded.indexOf(word, at + 1)) for (let i = at; i < at + word.length; i += 1) hits[i] = true;
+  for (const [start, end] of wordSpans(chars)) {
+    const word = chars.slice(start, end).join('');
+    if (found.some((term) => termMatches(term, word))) for (let i = start; i < end; i += 1) hits[i] = true;
   }
   const segments: Segment[] = [];
   chars.forEach((char, i) => {

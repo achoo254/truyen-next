@@ -29,6 +29,24 @@ describe('library search', () => {
     expect(applyQuery(LIST, { ...EMPTY_QUERY, q: 'không có' }).total).toBe(0);
   });
 
+  it('matches whole words, keeps typed marks, and puts title matches first', () => {
+    const list = [
+      { ...entry('trong-rung', 'Trong rừng sâu', 5, '2026-11-01'), summary: 'Một cánh rừng rộng.' },
+      { ...entry('con-rong', 'Bầy chim', 5, '2026-11-02'), summary: 'Có một con rồng.' },
+      { ...entry('rong-vang', 'Con rồng vàng', 5, '2026-10-01'), summary: 'Chuyện xưa.' },
+      { ...entry('cho-meo', 'Chó và mèo', 5, '2026-10-02'), summary: 'Cả nhà nuôi cá.' },
+    ];
+    const slugs = (q: string): string[] => applyQuery(list, { ...EMPTY_QUERY, q }).items.map((e) => e.slug);
+    expect(slugs('rồng')).toEqual(['rong-vang', 'con-rong']);
+    expect(slugs('rong')).toEqual(['rong-vang', 'con-rong', 'trong-rung']);
+    expect(slugs('hổ')).toEqual([]);
+    expect(slugs('cá')).toEqual(['cho-meo']);
+    expect(slugs('cả')).toEqual(['cho-meo']);
+    expect(slugs('mè')).toEqual([]);
+    expect(slugs('vàn')).toEqual(['rong-vang']);
+    expect(highlight('Trong rừng sâu', 'rong')).toEqual([{ text: 'Trong rừng sâu', hit: false }]);
+  });
+
   it('filters by topic and length, and orders newest, A–Z or shortest first', () => {
     expect(lengthBand(4)).toBe('ngan');
     expect(lengthBand(10)).toBe('vua');
