@@ -9,6 +9,7 @@
     "thien-ac"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-08",
   "language": "vi",
   "source": "Mộc miên thụ truyện (Chuyện cây gạo) trong Truyền kỳ mạn lục của Nguyễn Dữ (thế kỷ XVI), thuộc phạm vi công cộng. Lời kể viết mới hoàn toàn, theo sát cốt truyện cổ; không chép bản dịch hay bản kể hiện đại nào.",
   "basedOn": "Truyền kỳ mạn lục, Mộc miên thụ truyện",
@@ -41,151 +42,274 @@
   ],
   "scenes": [
     {
-      "id": "ben-nam-xang",
-      "title": "Bến Nam Xang",
+      "id": "cau-lieu-khe",
+      "title": "Cầu Liễu Khê",
       "narrator": "ke-chuyen",
-      "narration": "Đời nhà Trần, có một chàng lái buôn người Bắc Hà tên là Trình Trung Ngộ. Chàng trẻ tuổi, mặt mũi khôi ngô, nhà lại giàu, quanh năm chở hàng xuôi ngược, thường dừng thuyền buôn bán ở chợ Nam Xang. Mỗi lần tới đó, chàng thuê nhà trọ ở gần bến, ngày đi chợ, đêm thong thả dạo chơi. Gần chợ có một xóm nhỏ, bên kia xóm là một ngôi chùa cũ ven sông, sân chùa có cây gạo cổ thụ cao vút, mùa xuân hoa đỏ rực như lửa.",
+      "narration": "Ngày xưa, ở đất Bắc Hà có một chàng trai tên là Trình Trung Ngộ, dáng vẻ khôi ngô, nhà lại giàu có. Chàng thuê thuyền xuôi về vùng phía nam để buôn bán. Mỗi lần tới nơi, chàng thường cho thuyền đậu dưới chân cầu Liễu Khê, thuộc làng Liễu Kiều, huyện Nam Xang, rồi đi bộ vào chợ Nam Xang. Trên con đường ấy, chàng hay gặp một cô gái xinh đẹp từ xóm Đông đi ra, sau lưng có một cô hầu nhỏ theo gót. Chàng liếc nhìn một lần mà biết ngay đó là người đẹp hiếm có. Nhưng đất lạ quê người, biết hỏi han vào đâu, chàng chỉ biết ôm trong lòng một mối tình âm ỉ. Một hôm khác, chàng lại gặp nàng trên đường. Chàng muốn tìm một lời kín đáo để làm quen, nhưng cô gái đã vén váy bước nhanh, vừa đi vừa nói với cô hầu: Bấy lâu nay ta uống rượu xuân quá chén, mê man nằm dài suốt nửa năm trời, chẳng lên chơi cầu Liễu Khê lần nào, không biết cảnh vật bây giờ ra sao. Đêm nay ta ghé thăm cảnh cũ cho khuây khỏa nỗi buồn trong lòng, em có đi theo ta không? Cô hầu vâng dạ. Trung Ngộ nghe lỏm được những lời ấy thì mừng khôn xiết.",
       "subtitles": [
-        "Đời nhà Trần, có một chàng lái buôn người Bắc Hà tên là Trình Trung Ngộ.",
-        "Chàng trẻ tuổi, mặt mũi khôi ngô, nhà lại giàu, quanh năm chở hàng xuôi ngược,",
-        "thường dừng thuyền buôn bán ở chợ Nam Xang.",
-        "Mỗi lần tới đó, chàng thuê nhà trọ ở gần bến, ngày đi chợ, đêm thong thả dạo chơi.",
-        "Gần chợ có một xóm nhỏ, bên kia xóm là một ngôi chùa cũ ven sông,",
-        "sân chùa có cây gạo cổ thụ cao vút, mùa xuân hoa đỏ rực như lửa."
+        "Ngày xưa, ở đất Bắc Hà có một chàng trai tên là Trình Trung Ngộ, dáng vẻ khôi ngô,",
+        "nhà lại giàu có.",
+        "Chàng thuê thuyền xuôi về vùng phía nam để buôn bán.",
+        "Mỗi lần tới nơi, chàng thường cho thuyền đậu dưới chân cầu Liễu Khê, thuộc làng Liễu Kiều,",
+        "huyện Nam Xang, rồi đi bộ vào chợ Nam Xang.",
+        "Trên con đường ấy, chàng hay gặp một cô gái xinh đẹp từ xóm Đông đi ra,",
+        "sau lưng có một cô hầu nhỏ theo gót.",
+        "Chàng liếc nhìn một lần mà biết ngay đó là người đẹp hiếm có.",
+        "Nhưng đất lạ quê người, biết hỏi han vào đâu,",
+        "chàng chỉ biết ôm trong lòng một mối tình âm ỉ.",
+        "Một hôm khác, chàng lại gặp nàng trên đường.",
+        "Chàng muốn tìm một lời kín đáo để làm quen, nhưng cô gái đã vén váy bước nhanh,",
+        "vừa đi vừa nói với cô hầu: Bấy lâu nay ta uống rượu xuân quá chén,",
+        "mê man nằm dài suốt nửa năm trời, chẳng lên chơi cầu Liễu Khê lần nào,",
+        "không biết cảnh vật bây giờ ra sao.",
+        "Đêm nay ta ghé thăm cảnh cũ cho khuây khỏa nỗi buồn trong lòng, em có đi theo ta không?",
+        "Cô hầu vâng dạ.",
+        "Trung Ngộ nghe lỏm được những lời ấy thì mừng khôn xiết."
       ],
       "image": {
-        "prompt": "a bustling river market at Nam Xang in the Tran dynasty, merchant boats moored along the bank, the handsome young merchant in a green silk robe stepping ashore, in the distance an old riverside pagoda with a towering kapok tree in red bloom",
-        "seed": 4273964965,
+        "prompt": "a medieval Vietnamese riverside road near Lieu Khe bridge in the Tran dynasty, a handsome young merchant in a dark green silk robe glancing back at a graceful young woman in a pale rose dress followed by a small maid, moored merchant boat under the stone bridge",
+        "seed": 311002,
         "character": "trung-ngo"
       },
       "video": {
-        "motionPrompt": "boats bob on the river, porters carry goods, the merchant walks up the landing, red kapok petals drift down in the distance, gentle pan",
-        "seed": 2341782938
+        "motionPrompt": "the merchant glances back, the woman walks on with her maid, willow branches sway over the water, gentle pan",
+        "seed": 2177027
       },
       "voice": {}
     },
     {
-      "id": "gap-go",
-      "title": "Đêm gặp gỡ",
+      "id": "dem-tren-cau",
+      "title": "Tiếng đàn đêm khuya",
       "narrator": "ke-chuyen",
-      "narration": "Một đêm xuân trăng sáng, Trung Ngộ đi dạo về phía xóm, bỗng thấy một người con gái đi một mình bên bờ sông. Nàng chừng mười tám tuổi, tóc dài, da trắng như ngà, dáng đi nhẹ như không chạm đất. Chàng đi theo, buông lời hỏi han. Nàng quay lại, mỉm cười buồn mà đáp: Thiếp tên là Nhị Khanh, cháu một nhà quyền quý ở làng phía đông. Cha mẹ mất sớm, chồng lại bỏ đi, thiếp phải ra ở một mình ngoài xóm, đêm buồn nên đi dạo thế thôi.",
+      "narration": "Tối hôm ấy, chàng đến đứng chờ sẵn bên đầu cầu. Đêm đã khuya, người qua lại thưa dần, quả nhiên chàng thấy cô gái cùng cô hầu bước tới, tay mang một cây hồ cầm. Tới đầu cầu, nàng thở dài mà rằng: Non nước vẫn là non nước ngày xưa, cảnh còn như cũ mà người đã khác trước, làm sao lòng không bùi ngùi cho được. Nói đoạn, nàng tựa vào lan can cầu, ôm đàn gảy mấy khúc Nam cung và vài điệu Thu tứ, tiếng đàn thánh thót mà buồn. Gảy một lát, nàng đặt đàn xuống, đứng dậy nói: Muốn giãi nỗi lòng nên mượn tiếng đàn, nhưng điệu cao ý xa như vậy, đời này ai là người tri âm mà hiểu cho mình. Thôi, chi bằng về sớm. Trung Ngộ liền bước nhanh ra trước mặt nàng, cúi chào và nói: Chính tôi đây là người tri âm mà nương tử cho là không có.",
       "subtitles": [
-        "Một đêm xuân trăng sáng, Trung Ngộ đi dạo về phía xóm,",
-        "bỗng thấy một người con gái đi một mình bên bờ sông.",
-        "Nàng chừng mười tám tuổi, tóc dài, da trắng như ngà, dáng đi nhẹ như không chạm đất.",
-        "Chàng đi theo, buông lời hỏi han.",
-        "Nàng quay lại, mỉm cười buồn mà đáp: Thiếp tên là Nhị Khanh,",
-        "cháu một nhà quyền quý ở làng phía đông.",
-        "Cha mẹ mất sớm, chồng lại bỏ đi, thiếp phải ra ở một mình ngoài xóm,",
-        "đêm buồn nên đi dạo thế thôi."
+        "Tối hôm ấy, chàng đến đứng chờ sẵn bên đầu cầu.",
+        "Đêm đã khuya, người qua lại thưa dần, quả nhiên chàng thấy cô gái cùng cô hầu bước tới,",
+        "tay mang một cây hồ cầm.",
+        "Tới đầu cầu, nàng thở dài mà rằng: Non nước vẫn là non nước ngày xưa,",
+        "cảnh còn như cũ mà người đã khác trước, làm sao lòng không bùi ngùi cho được.",
+        "Nói đoạn, nàng tựa vào lan can cầu, ôm đàn gảy mấy khúc Nam cung và vài điệu Thu tứ,",
+        "tiếng đàn thánh thót mà buồn.",
+        "Gảy một lát, nàng đặt đàn xuống, đứng dậy nói: Muốn giãi nỗi lòng nên mượn tiếng đàn,",
+        "nhưng điệu cao ý xa như vậy, đời này ai là người tri âm mà hiểu cho mình.",
+        "Thôi, chi bằng về sớm.",
+        "Trung Ngộ liền bước nhanh ra trước mặt nàng, cúi chào và nói:",
+        "Chính tôi đây là người tri âm mà nương tử cho là không có."
       ],
       "image": {
-        "prompt": "a moonlit riverbank in spring, a pale beautiful young woman with long loose hair in a faded rose dress walking alone, the young merchant approaching her with a lantern, her feet seeming not to touch the grass",
-        "seed": 1920663067,
+        "prompt": "a quiet stone bridge over a river at deep night, a pale young woman in a faded rose dress leaning on the railing and playing a two-stringed hu qin fiddle, her small maid beside her, a young merchant stepping out of the shadows, moonlit indigo mist",
+        "seed": 311003,
         "character": "nhi-khanh"
       },
       "video": {
-        "motionPrompt": "moonlight ripples on the water, her hair and shawl drift as if in a breeze that does not touch the reeds, the merchant lifts his lantern, slow drift",
-        "seed": 1498373964
+        "motionPrompt": "her fingers move over the strings, mist drifts over the river, the merchant steps forward from the dark, slow drift",
+        "seed": 2177034
       },
       "voice": {}
     },
     {
-      "id": "tinh-say",
-      "title": "Một tháng say đắm",
+      "id": "nhi-khanh",
+      "title": "Nàng Nhị Khanh",
       "narrator": "ke-chuyen",
-      "narration": "Trung Ngộ say đắm ngay từ phút đầu. Đêm ấy chàng mời nàng xuống thuyền, hai người trò chuyện tới khuya. Nàng biết làm thơ, ngâm cho chàng nghe những câu buồn như tiếng gió. Gà gáy sáng, nàng vội vã đứng dậy ra về, không cho chàng tiễn. Từ đó, đêm nào nàng cũng tới, sáng nào nàng cũng đi, đều đặn như trăng lên trăng lặn, hơn một tháng trời. Trung Ngộ chẳng còn để tâm tới việc buôn bán, ngày ngồi ngẩn ngơ, chỉ mong trời mau tối.",
+      "narration": "Người con gái giật mình, rồi nói: Thì ra chàng cũng ở đây. Thiếp đã nhiều lần được chàng để mắt tới, ơn ấy vẫn ghi lòng. Chỉ vì giữa đường vội vã nên không tiện tỏ bày. Đêm nay vắng vẻ, thiếp dạo bước nhàn du, không ngờ chàng đã đến trước. Nếu chẳng phải duyên trời thì sao có cuộc gặp gỡ may mắn thế này. Có điều bên cạnh chàng là châu ngọc, thiếp tự thấy mình nhơ bẩn, thật hổ thẹn vô cùng. Chàng hỏi họ tên và nhà cửa. Nàng chau mày đáp: Thiếp họ Nhị, tên Khanh, là cháu gái của cụ Hối, một nhà có tiếng trong làng. Cha mẹ mất sớm, nhà cửa đơn côi. Mới đây thiếp lại bị người chồng ruồng bỏ, phải dọn ra ở ngoài lũy làng. Nghĩ đời người chẳng khác một giấc chiêm bao. Chi bằng trời cho sống ngày nào thì tìm lấy niềm vui ngày ấy, kẻo một sớm chết đi, thành người dưới suối vàng, có muốn tìm cuộc vui ân ái cũng chẳng còn được nữa. Hai người dắt nhau xuống thuyền. Nàng khẽ nói với chàng: Thân tàn của thiếp chỉ cách cái chết một bước ngắn. Ngày tháng quạnh hiu, chẳng ai chăm sóc. Nay mong quân tử thổi hơi ấm vào hang tối, đem hơi nóng tới mầm khô, để cánh hoa sắp rụng này được mượn chút nắng xuân. Được vậy, đời thiếp không còn gì phải than phiền nữa. Rồi hai người nên duyên, hết lòng ân ái.",
       "subtitles": [
-        "Trung Ngộ say đắm ngay từ phút đầu.",
-        "Đêm ấy chàng mời nàng xuống thuyền, hai người trò chuyện tới khuya.",
-        "Nàng biết làm thơ, ngâm cho chàng nghe những câu buồn như tiếng gió.",
-        "Gà gáy sáng, nàng vội vã đứng dậy ra về, không cho chàng tiễn.",
-        "Từ đó, đêm nào nàng cũng tới, sáng nào nàng cũng đi, đều đặn như trăng lên trăng lặn,",
-        "hơn một tháng trời.",
-        "Trung Ngộ chẳng còn để tâm tới việc buôn bán, ngày ngồi ngẩn ngơ, chỉ mong trời mau tối."
+        "Người con gái giật mình, rồi nói: Thì ra chàng cũng ở đây.",
+        "Thiếp đã nhiều lần được chàng để mắt tới, ơn ấy vẫn ghi lòng.",
+        "Chỉ vì giữa đường vội vã nên không tiện tỏ bày.",
+        "Đêm nay vắng vẻ, thiếp dạo bước nhàn du, không ngờ chàng đã đến trước.",
+        "Nếu chẳng phải duyên trời thì sao có cuộc gặp gỡ may mắn thế này.",
+        "Có điều bên cạnh chàng là châu ngọc, thiếp tự thấy mình nhơ bẩn, thật hổ thẹn vô cùng.",
+        "Chàng hỏi họ tên và nhà cửa.",
+        "Nàng chau mày đáp: Thiếp họ Nhị, tên Khanh, là cháu gái của cụ Hối,",
+        "một nhà có tiếng trong làng.",
+        "Cha mẹ mất sớm, nhà cửa đơn côi.",
+        "Mới đây thiếp lại bị người chồng ruồng bỏ, phải dọn ra ở ngoài lũy làng.",
+        "Nghĩ đời người chẳng khác một giấc chiêm bao.",
+        "Chi bằng trời cho sống ngày nào thì tìm lấy niềm vui ngày ấy, kẻo một sớm chết đi,",
+        "thành người dưới suối vàng, có muốn tìm cuộc vui ân ái cũng chẳng còn được nữa.",
+        "Hai người dắt nhau xuống thuyền.",
+        "Nàng khẽ nói với chàng: Thân tàn của thiếp chỉ cách cái chết một bước ngắn.",
+        "Ngày tháng quạnh hiu, chẳng ai chăm sóc.",
+        "Nay mong quân tử thổi hơi ấm vào hang tối, đem hơi nóng tới mầm khô,",
+        "để cánh hoa sắp rụng này được mượn chút nắng xuân.",
+        "Được vậy, đời thiếp không còn gì phải than phiền nữa.",
+        "Rồi hai người nên duyên, hết lòng ân ái."
       ],
       "image": {
-        "prompt": "inside a wooden merchant boat at night lit by a single oil lamp, the pale woman reciting poetry while the merchant gazes at her enchanted, mist on the dark river outside, the moon reflected on the water",
-        "seed": 214775654,
+        "prompt": "inside a small merchant boat moored under a bridge at night, a lantern glowing, a pale beautiful young woman with long black hair and a faded rose dress sitting close to a young merchant, soft tender mood with a cold faint glow around her",
+        "seed": 311004,
         "character": "nhi-khanh"
       },
       "video": {
-        "motionPrompt": "the lamp flame flickers, she turns a page of poems, mist rolls past the boat window, the moon slowly sets, dawn light creeps in and she is gone",
-        "seed": 3574109141
+        "motionPrompt": "lantern flame wavers inside the boat, the river laps the hull, the woman lowers her eyes, slow drift",
+        "seed": 2177041
       },
       "voice": {}
     },
     {
-      "id": "can-ngan",
-      "title": "Lời can ngăn",
+      "id": "hai-bai-tho",
+      "title": "Hai bài thơ",
       "narrator": "ke-chuyen",
-      "narration": "Bạn buôn của Trung Ngộ thấy chàng ngày càng gầy rộc, mặt xanh như tàu lá, lấy làm lo. Họ bảo nhau: Người con gái nào lại chỉ đi đêm, sáng ra đã biến mất, không ai trong chợ biết mặt. Chuyện này chẳng lành. Họ khuyên chàng dứt bỏ đi. Trung Ngộ không tin, nhưng trong lòng cũng gợn lên một chút ngờ vực. Đêm ấy, chàng nói với nàng: Ta với nàng đã thân thiết thế này, sao nàng chưa một lần cho ta tới nhà. Nàng ngập ngừng hồi lâu, rồi khẽ gật đầu.",
+      "narration": "Nàng còn làm hai bài thơ để ghi lại cuộc vui. Bài thứ nhất kể một giấc xuân mê mệt nơi nhà hoang vắng, bỗng ngượng ngùng khi có người ôm ấp. Ngón tay măng ngọc vuốt nhẹ chiếc xuyến trên cổ tay, dải lụa cởi ra, đôi hài thêu tháo xuống. Giấc mộng tan giữa gối bướm, xuân hết canh ba nghe chim quyên kêu khắc khoải. Lời nguyền ở chung một huyệt còn chưa tròn, nhưng vì nhau thì dẫu một lần chết nàng cũng sẵn lòng. Bài thứ hai nói đêm đẹp không nỡ bỏ phí, nàng ôm cây đàn bạc say sưa gảy đi gảy lại. Cây trâm hình chim én nghiêng nghiêng trên búi tóc, vòng eo thon thắt như thân con ve vàng. Hoa đường lê mới nở còn đượm ướt sắc hồng, phấn mai trắng trên da chưa phai. Sớm muộn gì cũng kết đôi như loan với phượng, gió sớm trăng khuya mặc sức mời nhau. Trung Ngộ vốn là người đi buôn, chữ nghĩa biết chẳng bao nhiêu, nàng bèn giảng giải từng câu cho chàng hiểu. Chàng hết lời khen ngợi: Tài văn chương của nàng chẳng kém gì bà Lý Thanh Chiếu thuở trước. Nàng mỉm cười đáp: Người ta sinh ra ở đời, cốt được thỏa lòng. Văn chương thì làm gì, rồi cũng chỉ còn nắm đất vàng. Những người giỏi chữ như nàng Ban Cơ hay nàng Sái Diễm đời xưa, nay còn lại gì đâu. Sao bằng ngay trước mắt, tìm lấy cái thú say sưa, để khỏi phụ một thời xuân tươi đẹp. Trời gần sáng, nàng từ biệt ra về. Từ đó, đêm nào nàng cũng tới.",
       "subtitles": [
-        "Bạn buôn của Trung Ngộ thấy chàng ngày càng gầy rộc, mặt xanh như tàu lá, lấy làm lo.",
-        "Họ bảo nhau: Người con gái nào lại chỉ đi đêm, sáng ra đã biến mất,",
-        "không ai trong chợ biết mặt. Chuyện này chẳng lành.",
-        "Họ khuyên chàng dứt bỏ đi.",
-        "Trung Ngộ không tin, nhưng trong lòng cũng gợn lên một chút ngờ vực.",
-        "Đêm ấy, chàng nói với nàng: Ta với nàng đã thân thiết thế này,",
-        "sao nàng chưa một lần cho ta tới nhà. Nàng ngập ngừng hồi lâu, rồi khẽ gật đầu."
+        "Nàng còn làm hai bài thơ để ghi lại cuộc vui.",
+        "Bài thứ nhất kể một giấc xuân mê mệt nơi nhà hoang vắng,",
+        "bỗng ngượng ngùng khi có người ôm ấp.",
+        "Ngón tay măng ngọc vuốt nhẹ chiếc xuyến trên cổ tay, dải lụa cởi ra,",
+        "đôi hài thêu tháo xuống.",
+        "Giấc mộng tan giữa gối bướm, xuân hết canh ba nghe chim quyên kêu khắc khoải.",
+        "Lời nguyền ở chung một huyệt còn chưa tròn,",
+        "nhưng vì nhau thì dẫu một lần chết nàng cũng sẵn lòng.",
+        "Bài thứ hai nói đêm đẹp không nỡ bỏ phí, nàng ôm cây đàn bạc say sưa gảy đi gảy lại.",
+        "Cây trâm hình chim én nghiêng nghiêng trên búi tóc,",
+        "vòng eo thon thắt như thân con ve vàng.",
+        "Hoa đường lê mới nở còn đượm ướt sắc hồng, phấn mai trắng trên da chưa phai.",
+        "Sớm muộn gì cũng kết đôi như loan với phượng, gió sớm trăng khuya mặc sức mời nhau.",
+        "Trung Ngộ vốn là người đi buôn, chữ nghĩa biết chẳng bao nhiêu,",
+        "nàng bèn giảng giải từng câu cho chàng hiểu.",
+        "Chàng hết lời khen ngợi:",
+        "Tài văn chương của nàng chẳng kém gì bà Lý Thanh Chiếu thuở trước.",
+        "Nàng mỉm cười đáp: Người ta sinh ra ở đời, cốt được thỏa lòng.",
+        "Văn chương thì làm gì, rồi cũng chỉ còn nắm đất vàng.",
+        "Những người giỏi chữ như nàng Ban Cơ hay nàng Sái Diễm đời xưa, nay còn lại gì đâu.",
+        "Sao bằng ngay trước mắt, tìm lấy cái thú say sưa, để khỏi phụ một thời xuân tươi đẹp.",
+        "Trời gần sáng, nàng từ biệt ra về.",
+        "Từ đó, đêm nào nàng cũng tới."
       ],
       "image": {
-        "prompt": "fellow merchants gathered around the gaunt pale young merchant in a riverside inn, warning him with worried faces, then at night the pale woman hesitating as he takes her hand",
-        "seed": 1514021060,
+        "prompt": "a young woman writing a poem with a brush on silk by lantern light while a young merchant listens in admiration, scrolls, an ink stone, a two-stringed fiddle by her side, small merchant boat interior, warm lantern against deep indigo night",
+        "seed": 311005,
         "character": "trung-ngo"
       },
       "video": {
-        "motionPrompt": "the merchants lean in and gesture urgently, he looks away uneasy, cut to night where she lowers her eyes and slowly nods, candlelight trembles",
-        "seed": 459355308
+        "motionPrompt": "the brush glides over the silk, lantern flame flickers, the merchant leans closer, slow drift",
+        "seed": 2177048
       },
       "voice": {}
     },
     {
-      "id": "tup-leu",
-      "title": "Căn lều bên xóm",
+      "id": "ban-buon-can",
+      "title": "Lời can của bạn buôn",
       "narrator": "ke-chuyen",
-      "narration": "Nàng dẫn chàng đi qua bãi cỏ, tới một túp lều tranh xiêu vẹo nằm lẻ loi bên rìa xóm. Cửa lều vừa mở, một mùi hôi lạnh xộc ra. Trong ánh trăng lọt qua mái thủng, Trung Ngộ thấy giữa lều đặt một cỗ quan tài phủ bụi. Chàng rụng rời chân tay, quay người bỏ chạy. Nàng níu áo chàng lại, giọng tha thiết: Chàng ơi, đừng đi. Nhưng Trung Ngộ đã giằng ra, chạy một mạch về nhà trọ, không dám ngoái lại. Hỏi người trong xóm, chàng mới biết Nhị Khanh đã chết từ nửa năm trước, quan tài còn để tạm chưa chôn.",
+      "narration": "Hơn một tháng trôi qua, có mấy người bạn buôn biết chuyện, bèn khuyên Trung Ngộ rằng: Anh ở nơi đất khách, nên giữ mình thận trọng, tránh điều hiềm nghi. Sao lại giở trò gió trăng, quấn quýt với kẻ hoa liễu? Cô gái kia chẳng rõ nguồn gốc, nếu không phải cô ả nũng nịu trong buồng thêu thì cũng là nàng hầu được yêu chiều nơi gác gấm. Nay anh cứ thế này, một sớm việc lộ ra, trên thì bị luật pháp lôi thôi, dưới lại chẳng có họ hàng nào cứu giúp, lúc ấy anh tính sao? Chi bằng đã trót dan díu thì nên tìm cho ra gốc gác nhà cửa của nàng. Nếu muốn bỏ thì bỏ, như ông Xương Lê bỏ nàng Liễu Chi. Nếu muốn đem về thì đem về, như ông Lý Tĩnh nhận nàng Hồng Phất. Làm thế mới là kế vẹn toàn. Trung Ngộ cho là phải. Một hôm chàng nói với nàng: Tôi là người khách phương xa, tình cờ kết mối lương duyên với nàng. Nhưng nhà cửa nàng chưa rõ, tung tích chưa tường, trong bụng tôi áy náy lắm. Nàng đáp: Nhà thiếp cũng chẳng xa là bao. Nhưng nghĩ cuộc gặp gỡ của chúng ta chỉ là chuyện riêng tây, sợ người đời ghen ghét, tai mắt nghi ngờ, như đánh vịt mà làm kinh chim uyên, đốt lan mà làm héo hoa huệ. Vì thế thiếp thà đội sao mà đến, đội trăng mà về, để lang quân khỏi lo.",
       "subtitles": [
-        "Nàng dẫn chàng đi qua bãi cỏ, tới một túp lều tranh xiêu vẹo nằm lẻ loi bên rìa xóm.",
-        "Cửa lều vừa mở, một mùi hôi lạnh xộc ra.",
-        "Trong ánh trăng lọt qua mái thủng, Trung Ngộ thấy giữa lều đặt một cỗ quan tài phủ bụi.",
-        "Chàng rụng rời chân tay, quay người bỏ chạy.",
-        "Nàng níu áo chàng lại, giọng tha thiết: Chàng ơi, đừng đi.",
-        "Nhưng Trung Ngộ đã giằng ra, chạy một mạch về nhà trọ, không dám ngoái lại.",
-        "Hỏi người trong xóm, chàng mới biết Nhị Khanh đã chết từ nửa năm trước,",
-        "quan tài còn để tạm chưa chôn."
+        "Hơn một tháng trôi qua, có mấy người bạn buôn biết chuyện, bèn khuyên Trung Ngộ rằng:",
+        "Anh ở nơi đất khách, nên giữ mình thận trọng, tránh điều hiềm nghi.",
+        "Sao lại giở trò gió trăng, quấn quýt với kẻ hoa liễu?",
+        "Cô gái kia chẳng rõ nguồn gốc,",
+        "nếu không phải cô ả nũng nịu trong buồng thêu thì cũng là nàng hầu được yêu chiều nơi gác",
+        "gấm.",
+        "Nay anh cứ thế này, một sớm việc lộ ra, trên thì bị luật pháp lôi thôi,",
+        "dưới lại chẳng có họ hàng nào cứu giúp, lúc ấy anh tính sao?",
+        "Chi bằng đã trót dan díu thì nên tìm cho ra gốc gác nhà cửa của nàng.",
+        "Nếu muốn bỏ thì bỏ, như ông Xương Lê bỏ nàng Liễu Chi.",
+        "Nếu muốn đem về thì đem về, như ông Lý Tĩnh nhận nàng Hồng Phất.",
+        "Làm thế mới là kế vẹn toàn.",
+        "Trung Ngộ cho là phải.",
+        "Một hôm chàng nói với nàng: Tôi là người khách phương xa,",
+        "tình cờ kết mối lương duyên với nàng.",
+        "Nhưng nhà cửa nàng chưa rõ, tung tích chưa tường, trong bụng tôi áy náy lắm.",
+        "Nàng đáp: Nhà thiếp cũng chẳng xa là bao.",
+        "Nhưng nghĩ cuộc gặp gỡ của chúng ta chỉ là chuyện riêng tây, sợ người đời ghen ghét,",
+        "tai mắt nghi ngờ, như đánh vịt mà làm kinh chim uyên, đốt lan mà làm héo hoa huệ.",
+        "Vì thế thiếp thà đội sao mà đến, đội trăng mà về, để lang quân khỏi lo."
       ],
       "image": {
-        "prompt": "a crooked abandoned thatched hut at the edge of a village under moonlight, its door open revealing a dusty wooden coffin inside, the pale woman clutching the sleeve of the terrified merchant as he tries to flee",
-        "seed": 1555540800,
+        "prompt": "daytime riverside market scene, a young merchant listening gravely to two older fellow merchants who wag their fingers in warning, bales of cloth and baskets, a moored boat behind them, muted washes of grey and indigo",
+        "seed": 311006,
         "character": "trung-ngo"
       },
       "video": {
-        "motionPrompt": "the door creaks open, moonlight falls on the coffin, the merchant recoils and tears his sleeve free, the pale woman reaches after him as he runs into the dark",
-        "seed": 1870738765
+        "motionPrompt": "the older merchants gesture earnestly, the young man looks down troubled, boats bob on the river, gentle pan",
+        "seed": 2177055
       },
       "voice": {}
     },
     {
-      "id": "om-liet",
-      "title": "Ốm liệt giường",
+      "id": "ve-dong-thon",
+      "title": "Về xóm Đông",
       "narrator": "ke-chuyen",
-      "narration": "Từ đêm ấy, Trung Ngộ lâm bệnh nặng. Nhưng bóng nàng vẫn không buông tha. Đêm nào nàng cũng hiện ra bên song cửa, gọi tên chàng, giọng ai oán như khóc. Chàng nghe tiếng gọi thì trong lòng lại xao xuyến, quên cả sợ hãi, cứ đòi chạy theo. Bạn bè thấy vậy, đành lấy dây trói chàng vào giường, thay nhau canh giữ. Mấy đêm liền, Trung Ngộ vật vã, khi mê khi tỉnh, miệng không thôi gọi tên Nhị Khanh.",
+      "narration": "Trung Ngộ cứ nài nỉ mãi. Nàng mỉm cười nói: Chỉ vì nhà thiếp xấu xa nên thẹn mà muốn giấu. Nay chàng đã muốn biết đến thế, thiếp xin đưa chàng về. Canh ba đêm ấy, giữa lúc trời tối đen, hai người cùng đi đến xóm Đông. Tới một chỗ có hàng rào tre bao quanh, thỉnh thoảng chen vài khóm lau khô, bên trong là túp nhà tranh thấp nhỏ xiêu vẹo, dây bìm dây vôi leo kín cả vách lẫn mái. Nàng chỉ vào đó và bảo: Đây là nhà của thiếp. Xin chàng cứ đẩy cửa vào ngồi chơi, để thiếp đi kiếm lửa. Trung Ngộ cúi đầu qua mái tranh, vào ngồi tạm ở chỗ bậu cửa. Thỉnh thoảng gió thổi qua, chàng thoáng ngửi thấy một mùi tanh hôi khó chịu, đang ngạc nhiên không biết là mùi gì thì trong nhà bỗng có ánh đèn sáng lên.",
       "subtitles": [
-        "Từ đêm ấy, Trung Ngộ lâm bệnh nặng. Nhưng bóng nàng vẫn không buông tha.",
-        "Đêm nào nàng cũng hiện ra bên song cửa, gọi tên chàng, giọng ai oán như khóc.",
-        "Chàng nghe tiếng gọi thì trong lòng lại xao xuyến, quên cả sợ hãi, cứ đòi chạy theo.",
-        "Bạn bè thấy vậy, đành lấy dây trói chàng vào giường, thay nhau canh giữ.",
-        "Mấy đêm liền, Trung Ngộ vật vã, khi mê khi tỉnh, miệng không thôi gọi tên Nhị Khanh."
+        "Trung Ngộ cứ nài nỉ mãi.",
+        "Nàng mỉm cười nói: Chỉ vì nhà thiếp xấu xa nên thẹn mà muốn giấu.",
+        "Nay chàng đã muốn biết đến thế, thiếp xin đưa chàng về.",
+        "Canh ba đêm ấy, giữa lúc trời tối đen, hai người cùng đi đến xóm Đông.",
+        "Tới một chỗ có hàng rào tre bao quanh, thỉnh thoảng chen vài khóm lau khô,",
+        "bên trong là túp nhà tranh thấp nhỏ xiêu vẹo, dây bìm dây vôi leo kín cả vách lẫn mái.",
+        "Nàng chỉ vào đó và bảo: Đây là nhà của thiếp.",
+        "Xin chàng cứ đẩy cửa vào ngồi chơi, để thiếp đi kiếm lửa.",
+        "Trung Ngộ cúi đầu qua mái tranh, vào ngồi tạm ở chỗ bậu cửa.",
+        "Thỉnh thoảng gió thổi qua, chàng thoáng ngửi thấy một mùi tanh hôi khó chịu,",
+        "đang ngạc nhiên không biết là mùi gì thì trong nhà bỗng có ánh đèn sáng lên."
       ],
       "image": {
-        "prompt": "the gaunt merchant bound to his bed by worried friends in a dim inn room, outside the latticed window the pale ghostly woman calling to him under the moon, friends dozing by a candle",
-        "seed": 3394668365,
+        "prompt": "a dark ramshackle thatched hut behind a bamboo hedge and dry reeds, vines creeping over the walls, a faint lamp glow inside the doorway, a young merchant hesitating at the threshold, a pale woman in a faded rose dress beside him, ominous moonless night",
+        "seed": 311007,
         "character": "nhi-khanh"
       },
       "video": {
-        "motionPrompt": "the ghost presses her hand to the lattice, her hair drifts, the merchant strains against the ropes toward her, the candle gutters, slow push-in",
-        "seed": 3753846105
+        "motionPrompt": "dry reeds rustle, vines tremble on the wall, a faint lamp glow grows in the doorway, slow push in",
+        "seed": 2177062
+      },
+      "voice": {}
+    },
+    {
+      "id": "linh-cuu",
+      "title": "Linh cữu của Nhị Khanh",
+      "narrator": "ke-chuyen",
+      "narration": "Chàng nhìn vào trong. Ở gian bên trái kê một chiếc giường mây nhỏ, trên giường đặt một cỗ áo quan sơn đỏ, phủ tấm the hồng, dùng nhũ bạc đề mấy chữ: Linh cữu của Nhị Khanh. Bên cạnh cỗ quan tài có một người con gái nặn bằng đất, tay ôm cây hồ cầm đứng hầu. Trung Ngộ thấy vậy sởn gai dựng tóc, vội vàng nhảy phắt ra khỏi căn nhà. Nhưng chàng vừa chạy thì người con gái đã chắn ngay đường, nói: Chàng đã từ xa đến đây thì nhất định không có lẽ nào trở về nữa. Huống chi trong bài thơ hôm nọ, thiếp chẳng đã lấy cái chết mà hẹn nhau rồi sao. Xin chàng sớm theo thiếp, cho thỏa nguyền cùng chung một huyệt. Nằm vò võ một mình lâu như vậy, lẽ nào nay thiếp lại để chàng về. Nói đoạn nàng xông tới nắm lấy vạt áo chàng. May mà vạt áo cũ đã bở, chàng giật mạnh, vạt áo rách ra, nhờ vậy chạy thoát được. Về đến cầu Liễu Khê, chàng như kẻ mất hồn, không thốt nổi một lời.",
+      "subtitles": [
+        "Chàng nhìn vào trong.",
+        "Ở gian bên trái kê một chiếc giường mây nhỏ, trên giường đặt một cỗ áo quan sơn đỏ,",
+        "phủ tấm the hồng, dùng nhũ bạc đề mấy chữ: Linh cữu của Nhị Khanh.",
+        "Bên cạnh cỗ quan tài có một người con gái nặn bằng đất, tay ôm cây hồ cầm đứng hầu.",
+        "Trung Ngộ thấy vậy sởn gai dựng tóc, vội vàng nhảy phắt ra khỏi căn nhà.",
+        "Nhưng chàng vừa chạy thì người con gái đã chắn ngay đường, nói:",
+        "Chàng đã từ xa đến đây thì nhất định không có lẽ nào trở về nữa.",
+        "Huống chi trong bài thơ hôm nọ, thiếp chẳng đã lấy cái chết mà hẹn nhau rồi sao.",
+        "Xin chàng sớm theo thiếp, cho thỏa nguyền cùng chung một huyệt.",
+        "Nằm vò võ một mình lâu như vậy, lẽ nào nay thiếp lại để chàng về.",
+        "Nói đoạn nàng xông tới nắm lấy vạt áo chàng.",
+        "May mà vạt áo cũ đã bở, chàng giật mạnh, vạt áo rách ra, nhờ vậy chạy thoát được.",
+        "Về đến cầu Liễu Khê, chàng như kẻ mất hồn, không thốt nổi một lời."
+      ],
+      "image": {
+        "prompt": "inside a dim hut a red-lacquered coffin on a small rattan bed draped with rose-coloured gauze bearing silver characters, a clay figure of a maid holding a fiddle beside it, a terrified young merchant turning to flee, a pale woman blocking the doorway reaching for his sleeve, eerie lamplight",
+        "seed": 311008,
+        "character": "nhi-khanh"
+      },
+      "video": {
+        "motionPrompt": "the lamp flame gutters, the pale woman reaches for his torn sleeve, the merchant tears free and runs, quick handheld motion",
+        "seed": 2177069
+      },
+      "voice": {}
+    },
+    {
+      "id": "om-nang",
+      "title": "Cơn bệnh nặng",
+      "narrator": "ke-chuyen",
+      "narration": "Sáng hôm sau, chàng nhân tiện đến xóm Đông dò hỏi, thì quả có một người cháu gái của cụ Hối, hai mươi tuổi, đã mất được nửa năm, hiện quàn ngoài đồng sát bên làng. Từ đó, Trung Ngộ đổ bệnh nặng. Nhị Khanh vẫn thường tới lui, có khi đứng bên cửa sổ thì thầm với chàng. Trung Ngộ cũng đáp lời nàng như thường và muốn gượng dậy theo nàng đi. Người trong thuyền phải lấy dây thừng trói chàng lại. Chàng quát lên: Chỗ vợ ta ở có lầu son gác tía, có hương hoa ngào ngạt. Ta phải đi theo nàng, không thể quanh quẩn mãi trong chốn bụi hồng này. Việc gì đến các ngươi mà dám đem dây trói ta thế này?",
+      "subtitles": [
+        "Sáng hôm sau, chàng nhân tiện đến xóm Đông dò hỏi,",
+        "thì quả có một người cháu gái của cụ Hối, hai mươi tuổi, đã mất được nửa năm,",
+        "hiện quàn ngoài đồng sát bên làng.",
+        "Từ đó, Trung Ngộ đổ bệnh nặng.",
+        "Nhị Khanh vẫn thường tới lui, có khi đứng bên cửa sổ thì thầm với chàng.",
+        "Trung Ngộ cũng đáp lời nàng như thường và muốn gượng dậy theo nàng đi.",
+        "Người trong thuyền phải lấy dây thừng trói chàng lại.",
+        "Chàng quát lên: Chỗ vợ ta ở có lầu son gác tía, có hương hoa ngào ngạt.",
+        "Ta phải đi theo nàng, không thể quanh quẩn mãi trong chốn bụi hồng này.",
+        "Việc gì đến các ngươi mà dám đem dây trói ta thế này?"
+      ],
+      "image": {
+        "prompt": "a feverish young merchant lying on a mat in a boat cabin, ropes around his arms, his shipmates anxious beside him, a pale woman in rose standing faintly at the window in moonlight, muted grey and indigo tones",
+        "seed": 311009,
+        "character": "trung-ngo"
+      },
+      "video": {
+        "motionPrompt": "the moonlit curtain stirs, the sick man strains against the rope, the pale figure at the window whispers, slow drift",
+        "seed": 2177076
       },
       "voice": {}
     },
@@ -193,74 +317,82 @@
       "id": "chet-ben-quan-tai",
       "title": "Bên cỗ quan tài",
       "narrator": "ke-chuyen",
-      "narration": "Một đêm, bạn bè canh mệt, ngủ thiếp đi. Trung Ngộ cựa mãi, dây trói lỏng ra. Chàng lặng lẽ ra khỏi nhà, theo tiếng gọi mà đi. Sáng hôm sau, mọi người hốt hoảng đi tìm, tới túp lều bên xóm thì thấy chàng đã chết, nằm ôm lấy cỗ quan tài của Nhị Khanh. Gương mặt chàng trắng bệch mà thanh thản lạ thường. Người làng thương xót, đem chôn chàng cạnh mộ nàng, tưởng rằng thế là xong một mối oan tình.",
+      "narration": "Một đêm nọ, những người trong thuyền ngủ say. Sáng ra thức dậy thì không thấy Trung Ngộ đâu nữa. Họ vội chạy đến xóm Đông, tìm thấy chàng nằm ôm cỗ quan tài mà chết. Mọi người đành thu liệm rồi chôn chàng ngay tại đó.",
       "subtitles": [
-        "Một đêm, bạn bè canh mệt, ngủ thiếp đi. Trung Ngộ cựa mãi, dây trói lỏng ra.",
-        "Chàng lặng lẽ ra khỏi nhà, theo tiếng gọi mà đi.",
-        "Sáng hôm sau, mọi người hốt hoảng đi tìm, tới túp lều bên xóm thì thấy chàng đã chết,",
-        "nằm ôm lấy cỗ quan tài của Nhị Khanh. Gương mặt chàng trắng bệch mà thanh thản lạ thường.",
-        "Người làng thương xót, đem chôn chàng cạnh mộ nàng,",
-        "tưởng rằng thế là xong một mối oan tình."
+        "Một đêm nọ, những người trong thuyền ngủ say.",
+        "Sáng ra thức dậy thì không thấy Trung Ngộ đâu nữa.",
+        "Họ vội chạy đến xóm Đông, tìm thấy chàng nằm ôm cỗ quan tài mà chết.",
+        "Mọi người đành thu liệm rồi chôn chàng ngay tại đó."
       ],
       "image": {
-        "prompt": "early morning mist at the abandoned hut, friends of the merchant standing frozen at the doorway, inside the merchant lies still with his arms around the dusty coffin, his face pale and peaceful",
-        "seed": 3840425802,
+        "prompt": "dawn at the edge of a village field, shipmates finding a young merchant lying lifeless with his arms around a red-lacquered coffin outside a hut, grey mist, sorrowful quiet mood",
+        "seed": 311010,
         "character": "trung-ngo"
       },
       "video": {
-        "motionPrompt": "mist drifts through the doorway, a friend drops his lantern, light flickers across the still figure and the coffin, slow somber pull-back",
-        "seed": 2540867725
+        "motionPrompt": "pale dawn mist rolls over the field, the shipmates stand bowed, slow pan",
+        "seed": 2177083
       },
       "voice": {}
     },
     {
-      "id": "ma-quay",
+      "id": "doi-hon-quay",
       "title": "Đôi hồn quấy phá",
       "narrator": "ke-chuyen",
-      "narration": "Nào ngờ, từ đó trong vùng sinh ra chuyện lạ. Những đêm mưa gió, người ta thấy một đôi trai gái dắt tay nhau đi ngoài bãi, khi cười khi hát, ai gặp phải thì về ốm nặng. Họ lại đòi cúng bái, không cúng thì làm loạn cả xóm. Dân làng sợ quá, bèn đào cả hai ngôi mộ lên, ném hài cốt xuống sông cho trôi đi. Nhưng đôi hồn ma vẫn không tan. Chúng nương vào cây gạo cổ thụ bên ngôi chùa ven sông, thành yêu quái, ban đêm thường hiện ra quấy nhiễu, hại người qua lại.",
+      "narration": "Từ đó về sau, những đêm trời tối, người ta thường thấy hai bóng dắt tay nhau đi, lúc thì hát, lúc thì khóc. Họ bắt người làng phải khấn vái lễ bái, hễ không vừa ý là gây tai gây vạ. Dân làng không chịu nổi nỗi khổ ấy, bèn đào mồ phá quan tài của chàng, cùng với hài cốt của nàng, vứt cả xuống sông cho trôi theo dòng nước. Bên bờ sông ấy có một ngôi chùa, trong chùa có cây gạo rất cổ, tương truyền đã sống hơn một trăm năm. Hồn của đôi trai gái bèn nương vào cây gạo ấy mà làm yêu làm quái. Ai động đến cành lá của cây là rìu mẻ dao gãy, không sao đốn nổi.",
       "subtitles": [
-        "Nào ngờ, từ đó trong vùng sinh ra chuyện lạ.",
-        "Những đêm mưa gió, người ta thấy một đôi trai gái dắt tay nhau đi ngoài bãi,",
-        "khi cười khi hát, ai gặp phải thì về ốm nặng.",
-        "Họ lại đòi cúng bái, không cúng thì làm loạn cả xóm.",
-        "Dân làng sợ quá, bèn đào cả hai ngôi mộ lên, ném hài cốt xuống sông cho trôi đi.",
-        "Nhưng đôi hồn ma vẫn không tan.",
-        "Chúng nương vào cây gạo cổ thụ bên ngôi chùa ven sông, thành yêu quái,",
-        "ban đêm thường hiện ra quấy nhiễu, hại người qua lại."
+        "Từ đó về sau, những đêm trời tối, người ta thường thấy hai bóng dắt tay nhau đi,",
+        "lúc thì hát, lúc thì khóc.",
+        "Họ bắt người làng phải khấn vái lễ bái, hễ không vừa ý là gây tai gây vạ.",
+        "Dân làng không chịu nổi nỗi khổ ấy, bèn đào mồ phá quan tài của chàng,",
+        "cùng với hài cốt của nàng, vứt cả xuống sông cho trôi theo dòng nước.",
+        "Bên bờ sông ấy có một ngôi chùa, trong chùa có cây gạo rất cổ,",
+        "tương truyền đã sống hơn một trăm năm.",
+        "Hồn của đôi trai gái bèn nương vào cây gạo ấy mà làm yêu làm quái.",
+        "Ai động đến cành lá của cây là rìu mẻ dao gãy, không sao đốn nổi."
       ],
       "image": {
-        "prompt": "a stormy night by the river, two ghostly figures of the young merchant and the pale woman walking hand in hand across a field, villagers hiding behind doors, then the towering kapok tree by the old pagoda with two faint shapes among its branches",
-        "seed": 3182404115,
+        "prompt": "villagers at the riverbank by night with torches casting remains into the dark water, an ancient kapok tree beside a riverside pagoda with two faint ghostly figures hand in hand among its branches, haunting indigo and grey",
+        "seed": 311011,
         "character": "nhi-khanh"
       },
       "video": {
-        "motionPrompt": "rain slants through the night, the two ghosts glide hand in hand, a villager shuts the door in fright, lightning reveals the kapok tree and two pale shapes in its branches",
-        "seed": 2971577341
+        "motionPrompt": "torchlight flickers on the water, two pale figures sway among the branches of the kapok tree, slow drift",
+        "seed": 2177090
       },
       "voice": {}
     },
     {
-      "id": "dao-si",
-      "title": "Vị đạo sĩ",
+      "id": "dao-nhan",
+      "title": "Vị đạo nhân",
       "narrator": "ke-chuyen",
-      "narration": "Nhiều năm sau, có một vị đạo sĩ đi ngang qua ngôi chùa. Trời vừa chạng vạng, ông thấy dưới gốc cây gạo có hai bóng người lõa lồ đang đùa giỡn, vừa thấy người thì biến mất vào thân cây. Ông hỏi dân làng, nghe kể hết đầu đuôi, thì thở dài mà rằng: Lũ yêu này không trừ, còn hại người mãi. Rồi ông bảo dân lập một đàn tế ngay trước cây gạo, sắm hương đèn, giấy bút, để ông làm phép.",
+      "narration": "Vào năm Canh Ngọ, niên hiệu Khai Hựu đời nhà Trần, có một vị đạo nhân tới ngủ nhờ trong ngôi chùa ấy. Đêm sông vắng lặng, trăng mờ, bốn bề im phăng phắc, đạo nhân trông thấy một đôi trai gái thân thể trần trụi cười đùa nô giỡn với nhau, rồi lát sau họ đến gõ cửa chùa thình thình, cất tiếng gọi hỏi. Đạo nhân tưởng đó là đôi trai gái lẳng lơ rủ nhau đi chơi đêm trăng, khinh phẩm cách của họ nên cứ đóng cửa nằm im, không thèm đáp lại. Sáng hôm sau, ông kể chuyện đã thấy cho một cụ già trong thôn nghe và than rằng sao phong tục nơi đây suy đồi đến vậy. Cụ già nói: Ngài không biết đó thôi. Ấy là giống yêu quỷ, đã đến ở trên cây gạo mấy năm nay. Chúng tôi chỉ mong có được thanh kiếm trừ tà để diệt cho dân làng giống yêu quỷ ấy. Đạo nhân trầm ngâm hồi lâu rồi nói: Việc ta làm vốn là cứu giúp mọi người. Nay chuyện đã trông thấy tận mắt mà không đem phép ra, thì khác nào thấy người chết đuối mà không cứu.",
       "subtitles": [
-        "Nhiều năm sau, có một vị đạo sĩ đi ngang qua ngôi chùa.",
-        "Trời vừa chạng vạng, ông thấy dưới gốc cây gạo có hai bóng người lõa lồ đang đùa giỡn,",
-        "vừa thấy người thì biến mất vào thân cây.",
-        "Ông hỏi dân làng, nghe kể hết đầu đuôi, thì thở dài mà rằng: Lũ yêu này không trừ,",
-        "còn hại người mãi.",
-        "Rồi ông bảo dân lập một đàn tế ngay trước cây gạo, sắm hương đèn, giấy bút,",
-        "để ông làm phép."
+        "Vào năm Canh Ngọ, niên hiệu Khai Hựu đời nhà Trần,",
+        "có một vị đạo nhân tới ngủ nhờ trong ngôi chùa ấy.",
+        "Đêm sông vắng lặng, trăng mờ, bốn bề im phăng phắc,",
+        "đạo nhân trông thấy một đôi trai gái thân thể trần trụi cười đùa nô giỡn với nhau,",
+        "rồi lát sau họ đến gõ cửa chùa thình thình, cất tiếng gọi hỏi.",
+        "Đạo nhân tưởng đó là đôi trai gái lẳng lơ rủ nhau đi chơi đêm trăng,",
+        "khinh phẩm cách của họ nên cứ đóng cửa nằm im, không thèm đáp lại.",
+        "Sáng hôm sau,",
+        "ông kể chuyện đã thấy cho một cụ già trong thôn nghe và than rằng sao phong tục nơi đây",
+        "suy đồi đến vậy.",
+        "Cụ già nói: Ngài không biết đó thôi.",
+        "Ấy là giống yêu quỷ, đã đến ở trên cây gạo mấy năm nay.",
+        "Chúng tôi chỉ mong có được thanh kiếm trừ tà để diệt cho dân làng giống yêu quỷ ấy.",
+        "Đạo nhân trầm ngâm hồi lâu rồi nói: Việc ta làm vốn là cứu giúp mọi người.",
+        "Nay chuyện đã trông thấy tận mắt mà không đem phép ra,",
+        "thì khác nào thấy người chết đuối mà không cứu."
       ],
       "image": {
-        "prompt": "dusk at the old riverside pagoda, a wandering Taoist priest with a white beard and horsetail whisk watching two pale ghostly figures vanish into the trunk of the towering kapok tree, villagers gathering behind him",
-        "seed": 3280853275,
+        "prompt": "an elderly lean Taoist priest with a long white beard in a dark blue robe sitting at dawn with an old villager on the steps of a riverside pagoda, a huge ancient kapok tree behind them, serious conversation, soft grey morning light",
+        "seed": 311012,
         "character": "dao-si"
       },
       "video": {
-        "motionPrompt": "the two faint figures dissolve into the bark, the priest narrows his eyes and strokes his beard, red kapok petals fall slowly, villagers whisper",
-        "seed": 3623077872
+        "motionPrompt": "the old villager gestures toward the kapok tree, the priest strokes his beard thoughtfully, leaves stir, gentle pan",
+        "seed": 2177097
       },
       "voice": {}
     },
@@ -268,25 +400,55 @@
       "id": "tru-ma",
       "title": "Trừ ma dưới gốc gạo",
       "narrator": "ke-chuyen",
-      "narration": "Đêm ấy, đạo sĩ đứng trên đàn, tay cầm kiếm gỗ đào, miệng đọc thần chú, viết bùa đốt lên. Bỗng trời tối sầm, gió nổi ầm ầm, sấm sét vang rền. Cây gạo cổ thụ bị nhổ bật cả rễ, thân cây tan nát. Giữa luồng gió xoáy, người ta thấy mấy tên lính quỷ đầu trâu hiện ra, xiềng lấy hai hồn ma mà giải đi mất. Sáng ra, trời quang mây tạnh. Dân làng đem vàng bạc tới tạ ơn, nhưng đạo sĩ lắc đầu không nhận, phất trần mà đi. Từ đó, quanh vùng yên ổn. Chuyện kể lại như lời răn về những cuộc tình mê muội, quên hết lẽ phải.",
+      "narration": "Đạo nhân vời dân làng họp lại, lập một đàn tràng cúng tế, viết ba đạo bùa. Một đạo đóng vào thân cây gạo, một đạo thả chìm xuống sông, một đạo đốt giữa trời. Rồi ông quát lớn: Những tên dâm quỷ ngang ngược đã lâu, nhờ các vị thần linh trừ loài nhơ bẩn, phép không được chậm trễ, mau mau thi hành. Chốc lát, mây gió nổi lên ầm ầm, người đứng cách nhau mấy thước cũng không trông thấy nhau, dưới sông sóng cuộn dữ dội, vang trời động đất. Sau một hồi, gió lặng mây quang, người ta thấy cây gạo đã bị nhổ bật gốc, cành gãy nát, vỏ bị tước tơi như tước sợi đay. Tiếp đó nghe trên không có tiếng roi vọt và tiếng kêu khóc. Mọi người ngẩng lên nhìn, thấy sáu bảy trăm lính đầu trâu đang trói và dẫn hai kẻ kia đi. Dân làng đem thật nhiều tiền của tạ ơn đạo nhân, nhưng ông phất áo bỏ vào núi sâu, không nhận một đồng nào.",
       "subtitles": [
-        "Đêm ấy, đạo sĩ đứng trên đàn, tay cầm kiếm gỗ đào, miệng đọc thần chú, viết bùa đốt lên.",
-        "Bỗng trời tối sầm, gió nổi ầm ầm, sấm sét vang rền.",
-        "Cây gạo cổ thụ bị nhổ bật cả rễ, thân cây tan nát.",
-        "Giữa luồng gió xoáy, người ta thấy mấy tên lính quỷ đầu trâu hiện ra,",
-        "xiềng lấy hai hồn ma mà giải đi mất. Sáng ra, trời quang mây tạnh.",
-        "Dân làng đem vàng bạc tới tạ ơn, nhưng đạo sĩ lắc đầu không nhận, phất trần mà đi.",
-        "Từ đó, quanh vùng yên ổn.",
-        "Chuyện kể lại như lời răn về những cuộc tình mê muội, quên hết lẽ phải."
+        "Đạo nhân vời dân làng họp lại, lập một đàn tràng cúng tế, viết ba đạo bùa.",
+        "Một đạo đóng vào thân cây gạo, một đạo thả chìm xuống sông, một đạo đốt giữa trời.",
+        "Rồi ông quát lớn: Những tên dâm quỷ ngang ngược đã lâu,",
+        "nhờ các vị thần linh trừ loài nhơ bẩn, phép không được chậm trễ, mau mau thi hành.",
+        "Chốc lát, mây gió nổi lên ầm ầm,",
+        "người đứng cách nhau mấy thước cũng không trông thấy nhau, dưới sông sóng cuộn dữ dội,",
+        "vang trời động đất.",
+        "Sau một hồi, gió lặng mây quang, người ta thấy cây gạo đã bị nhổ bật gốc, cành gãy nát,",
+        "vỏ bị tước tơi như tước sợi đay.",
+        "Tiếp đó nghe trên không có tiếng roi vọt và tiếng kêu khóc.",
+        "Mọi người ngẩng lên nhìn, thấy sáu bảy trăm lính đầu trâu đang trói và dẫn hai kẻ kia đi.",
+        "Dân làng đem thật nhiều tiền của tạ ơn đạo nhân, nhưng ông phất áo bỏ vào núi sâu,",
+        "không nhận một đồng nào."
       ],
       "image": {
-        "prompt": "a night ritual at an altar before the kapok tree, the Taoist priest raising a peachwood sword amid swirling wind and lightning, the great tree torn from its roots, buffalo-headed spirit guards in the storm leading away two chained pale ghosts",
-        "seed": 676433705,
+        "prompt": "a Taoist priest in a dark blue robe holding a peachwood sword before an altar under a giant kapok tree as a violent storm gathers, three yellow talismans, kneeling villagers, wind-torn branches, spectral ox-headed soldiers in the sky leading away two pale bound figures, dramatic indigo and grey storm",
+        "seed": 311013,
         "character": "dao-si"
       },
       "video": {
-        "motionPrompt": "talismans burn and swirl upward, lightning strikes, the great tree heaves and topples, buffalo-headed guards drag the two ghosts into the dark clouds, then calm dawn light",
-        "seed": 2915685643
+        "motionPrompt": "wind whips the robes and branches, the kapok tree tilts and tears from the ground, ox-headed shadows pass across the clouds, dynamic push in",
+        "seed": 2177104
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-ban",
+      "title": "Lời bàn",
+      "narrator": "ke-chuyen",
+      "narration": "Than ôi, loài ma quỷ xưa nay vốn không phải mối lo lớn của người đời, nhưng kẻ phàm phu nhiều ham muốn thì thường mắc phải. Trung Ngộ là một gã lái buôn thiếu hiểu biết, nên cũng chẳng đáng trách nhiều. Còn vị đạo nhân kia vì dân trừ hại, công đức lớn lao, những người bàn chuyện công bằng về sau nên ghi nhớ. Đừng lấy cớ đó là phép thuật mà cho là chuyện nhảm, đừng bảo đó là dị đoan mà làm mất cái hay của câu chuyện.",
+      "subtitles": [
+        "Than ôi, loài ma quỷ xưa nay vốn không phải mối lo lớn của người đời,",
+        "nhưng kẻ phàm phu nhiều ham muốn thì thường mắc phải.",
+        "Trung Ngộ là một gã lái buôn thiếu hiểu biết, nên cũng chẳng đáng trách nhiều.",
+        "Còn vị đạo nhân kia vì dân trừ hại, công đức lớn lao,",
+        "những người bàn chuyện công bằng về sau nên ghi nhớ.",
+        "Đừng lấy cớ đó là phép thuật mà cho là chuyện nhảm,",
+        "đừng bảo đó là dị đoan mà làm mất cái hay của câu chuyện."
+      ],
+      "image": {
+        "prompt": "the quiet riverside pagoda at sunrise, the great kapok tree gone leaving only a bare patch of earth, soft light on the river, a lone Taoist priest walking away up a misty mountain path, serene aftermath",
+        "seed": 311014,
+        "character": "dao-si"
+      },
+      "video": {
+        "motionPrompt": "sunrise light spreads over the river, mist drifts on the mountain path, the priest slowly walks away, gentle pan",
+        "seed": 2177111
       },
       "voice": {}
     }
