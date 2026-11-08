@@ -82,7 +82,7 @@ describe('validateStory', () => {
     expect(errorsOf({ ...story, scenes: [first, { ...second, narration: long, subtitles: [long] }, ...rest] }).join('\n')).toMatch(/subtitles\[0\]: \d+ characters, at most 90/);
   });
 
-  it('checks the scene count and the read-aloud length of the children\'s shelf', () => {
+  it('checks the scene count of the children\'s shelf and sets no length cap', () => {
     const story = pilot();
     expect(errorsOf({ ...story, scenes: story.scenes.slice(0, 5).concat(story.scenes.slice(-1)).slice(0, 5) }).join('\n')).toMatch(/5 scenes, expected 6–16 on the kids shelf/);
     const padded = story.scenes.map((scene) => {
@@ -90,8 +90,8 @@ describe('validateStory', () => {
       return { ...scene, narration, subtitles: [...scene.subtitles, ...Array.from({ length: 16 }, () => 'la la la la la la la la la la.')] };
     });
     const longStory = { ...story, scenes: padded };
-    expect(estimateStorySeconds(longStory)).toBeGreaterThan(SHELF_RULES.kids.maxSeconds ?? Infinity);
-    expect(errorsOf(longStory).join('\n')).toMatch(/read aloud, expected 180–600 s on the kids shelf/);
+    expect(estimateStorySeconds(longStory)).toBeGreaterThan(600);
+    expect(errorsOf(longStory).join('\n')).not.toMatch(/read aloud/);
   });
 
   it('requires a shelf: kids, adults or world', () => {

@@ -16,11 +16,11 @@ export interface ShelfRules {
 
 /**
  * Every story is told whole: every event and character of the source, with dialogue. A scene holds as many
- * paragraphs as it needs, so a long tale gets longer scenes, not more pictures (at most sixteen). Adults and world
- * have no length cap; a short fable stays short. Children: the whole plot within ten minutes, as a child listens.
+ * paragraphs as it needs, so a long tale gets longer scenes, not more pictures (at most sixteen). No shelf has a length cap and
+ * nothing is summarised; a short fable stays short.
  */
 export const SHELF_RULES: Record<Shelf, ShelfRules> = {
-  kids: { minScenes: 6, maxScenes: 16, minSeconds: 180, maxSeconds: 600 },
+  kids: { minScenes: 6, maxScenes: 16, minSeconds: 180, maxSeconds: null },
   adults: { minScenes: 8, maxScenes: 16, minSeconds: 360, maxSeconds: null },
   world: { minScenes: 4, maxScenes: 16, minSeconds: 120, maxSeconds: null },
 };

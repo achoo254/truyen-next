@@ -30,12 +30,12 @@ Thời gian đọc to ước tính theo nhịp 2,4 tiếng/giây, nghỉ 0,5 gi�
 **Mỗi truyện kể trọn vẹn** (người sở hữu chốt 07/11/2026): giữ mọi tình tiết và nhân vật của bản gốc, có thoại và
 miêu tả; không cắt đoạn giữa, không tóm tắt cái kết, không thêm chi tiết bản gốc không có. Độ dài theo bản gốc: truyện
 dài thì kể dài, ngụ ngôn ngắn vẫn ngắn. Truyện dài không thêm tranh: tối đa 16 cảnh, mỗi cảnh chứa bao nhiêu đoạn văn
-cũng được (cảnh là chương, có tên riêng). Kệ Trẻ em vẫn đủ cốt truyện nhưng gọn trong mười phút, cho trẻ nghe hết.
+cũng được (cảnh là chương, có tên riêng). Không kệ nào có trần thời lượng, kể cả Kệ Trẻ em: không tóm tắt gì (người sở hữu chốt 08/11/2026).
 
 | | Kệ Trẻ em (`kids`) | Kệ Người lớn (`adults`) | Kệ Thế giới (`world`) |
 | --- | --- | --- | --- |
 | Số cảnh | 6 đến 16 | 8 đến 16 | 4 đến 16 |
-| Đọc to | 3 đến 10 phút | ít nhất 6 phút, không giới hạn trên | ít nhất 2 phút, không giới hạn trên |
+| Đọc to | ít nhất 3 phút, không giới hạn trên | ít nhất 6 phút, không giới hạn trên | ít nhất 2 phút, không giới hạn trên |
 | Người kể | Mèo Miu (`miu`, giọng Trúc Ly) kể cảnh đầu và cảnh cuối; người kể chuyện giọng Quỳnh Anh | Đúng một người kể, giọng khác Trúc Ly, Quỳnh Anh và Mỹ Duyên; không có Mèo Miu (không người kể, không nhân vật `miu`) | Đúng một người kể, giọng Mỹ Duyên; không có Mèo Miu |
 | Nội dung | Kể lại nhẹ nhàng cho trẻ nhỏ: không bạo lực, máu me, cảnh chết hay chi tiết đáng sợ. Lời kể không được có các từ "giết", "máu", "chết", "chém", "thi thể", "xác chết", "ghê rợn", "rùng rợn"; prompt tranh, cảnh động, nhân vật không có "dead", "death", "kill", "sword", "spear", "blood", "gore"… | Kể đầy đủ, theo sát truyện xưa; được nói đến cái chết. Prompt không có "blood", "gore", "corpse", "severed", "wound", "skull"… | Cổ tích, ngụ ngôn các nước kể nhẹ nhàng cho cả nhà: cùng danh sách từ cấm trong lời kể và prompt như kệ Trẻ em |
 

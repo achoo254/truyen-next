@@ -107,7 +107,7 @@ Mảng JSON, mỗi dòng một mục, **thứ tự trong tệp là thứ tự vi
    | --- | --- | --- | --- |
    | Dành cho | Truyện Việt hoặc các nước kể nhẹ cho trẻ nhỏ | Truyện Việt hoặc các nước kể đầy đủ, theo sát truyện xưa | Truyện các nước kể nhẹ cho cả nhà |
    | Số cảnh | 6–16 | 8–16 | 4–16 |
-   | Đọc to (ước tính) | 3–10 phút | từ 6 phút, không trần | từ 2 phút, không trần |
+   | Đọc to (ước tính) | từ 3 phút, không trần | từ 6 phút, không trần | từ 2 phút, không trần |
    | Người kể | `miu` (Mèo Miu, giọng Trúc Ly) kể cảnh đầu và cảnh cuối, người kể chuyện giọng Quỳnh Anh | Đúng một người kể, giọng Thanh Bình (không phải Trúc Ly, Quỳnh Anh, Mỹ Duyên) | Đúng một người kể, giọng Mỹ Duyên |
    | Từ cấm trong tên, tóm tắt, lời kể | "giết", "máu", "chết", "chém", "thi thể", "xác chết", "ghê rợn", "rùng rợn" | Không có | Như `kids` |
    | Từ cấm trong prompt | Như `world` và thêm "dead", "death", "kill", "sword", "spear"… | "blood", "gore", "corpse", "severed", "wound", "skull"… | Như `kids` |
