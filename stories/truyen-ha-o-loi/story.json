@@ -9,8 +9,9 @@
     "than-thoai"
   ],
   "added": "2026-11-02",
+  "revised": "2026-11-08",
   "language": "vi",
-  "source": "Truyện Hà Ô Lôi chép trong Lĩnh Nam chích quái (thế kỷ XV), sách cổ thuộc phạm vi công cộng. Lời kể viết mới hoàn toàn, chỉ lấy cốt truyện, không theo bản dịch hiện đại nào.",
+  "source": "Truyện Hà Ô Lôi chép trong Lĩnh Nam chích quái (thế kỷ XV), sách cổ thuộc phạm vi công cộng; đọc bản chép lại của vnthuquan.net (khuyết danh) và đối chiếu bản kể tóm lược. Lời kể viết mới theo từng đoạn truyện cổ, không chép bản dịch hay bản kể hiện đại nào.",
   "basedOn": "Lĩnh Nam chích quái, truyện Hà Ô Lôi",
   "style": "classical Vietnamese silk painting (tranh lua) illustration, fine ink linework, washes of indigo, jasmine white, ochre and vermilion on aged silk, fourteenth-century Tran dynasty court and villages, lotus ponds, walled gardens, moonlit courtyards and lanterns, romantic and bittersweet mood for adult readers, tasteful and discreet, no nudity, no blood, no gore, no text, no letters, no watermark",
   "narrators": {
@@ -37,283 +38,378 @@
       "name": "Vua Trần Dụ Tông",
       "sheetPrompt": "Tran Du Tong, Tran dynasty king of Dai Viet, young pleasure-loving man with a thin moustache, playful eyes, wearing a yellow dragon robe and a black royal hat, holding a fan, full body, front view, plain aged silk background, character reference sheet",
       "seed": 2949045690
+    },
+    {
+      "id": "minh-uy-vuong",
+      "name": "Minh Uy Vương",
+      "sheetPrompt": "Prince Minh Uy of the Tran dynasty, a stern heavyset man of fifty in a deep blue court robe with a dragon-pattern sash, black winged-fold cap, hard unforgiving eyes, full body, front view, plain aged silk background, character reference sheet",
+      "seed": 1982354498
     }
   ],
   "scenes": [
     {
       "id": "than-ma-la",
-      "title": "Thần Ma La",
+      "title": "Thần Ma La vào phòng người đi sứ",
       "narrator": "ke-chuyen",
-      "narration": "Đời vua Trần Dụ Tông, năm Thiệu Phong thứ sáu, ở làng Ma La có viên quan Đặng Sĩ Dinh vâng lệnh vua đi sứ phương Bắc. Vợ ông là Vũ Thị ở nhà một mình. Trong làng có ngôi đền thờ thần Ma La. Đêm đêm, thần hóa thành Sĩ Dinh, dáng đi, giọng nói, nét mặt giống y như thật, lẻn vào phòng Vũ Thị chung chăn gối. Gà vừa gáy, người ấy đã vội vã ra đi.",
+      "narration": "Ngày xưa, đời vua Trần Dụ Tông, ở làng Ma La có một viên quan tên là Đặng Sĩ Dinh, làm chức An phủ sứ. Năm Thiệu Phong thứ ba, ông vâng mệnh vua sang sứ nước Tàu, để vợ là Vũ Thị ở nhà một mình. Làng ấy có một ngôi đền thờ thần Ma La. Nhân lúc người chồng đi xa, đêm đến thần hiện thành người, dáng đi, nét mặt, cử chỉ giống Sĩ Dinh như đúc, rồi vào phòng Vũ Thị cùng nàng ân ái. Đến lúc gà gáy thì lại biến đi mất. Đêm sau, Vũ Thị hỏi: Chàng vâng mệnh vua đi sứ nước Tàu, sao đêm nào cũng về nhà, sáng ra lại không thấy. Thần nói dối rằng: Nhà vua đã sai người khác thay ta, nhưng bắt ta ở cạnh ngài để hầu cờ, không cho ra ngoài. Nghĩ tình vợ chồng, ta lẻn trốn về với nàng, mờ sáng lại phải vội vào chầu, không dám trễ nải. Nói xong, nghe gà gáy lại đi. Trong bụng Vũ Thị thấy nghi lắm.",
       "subtitles": [
-        "Đời vua Trần Dụ Tông, năm Thiệu Phong thứ sáu,",
-        "ở làng Ma La có viên quan Đặng Sĩ Dinh vâng lệnh vua đi sứ phương Bắc.",
-        "Vợ ông là Vũ Thị ở nhà một mình.",
-        "Trong làng có ngôi đền thờ thần Ma La.",
-        "Đêm đêm, thần hóa thành Sĩ Dinh, dáng đi, giọng nói, nét mặt giống y như thật,",
-        "lẻn vào phòng Vũ Thị chung chăn gối.",
-        "Gà vừa gáy, người ấy đã vội vã ra đi."
+        "Ngày xưa, đời vua Trần Dụ Tông, ở làng Ma La có một viên quan tên là Đặng Sĩ Dinh,",
+        "làm chức An phủ sứ.",
+        "Năm Thiệu Phong thứ ba, ông vâng mệnh vua sang sứ nước Tàu,",
+        "để vợ là Vũ Thị ở nhà một mình.",
+        "Làng ấy có một ngôi đền thờ thần Ma La.",
+        "Nhân lúc người chồng đi xa, đêm đến thần hiện thành người, dáng đi, nét mặt,",
+        "cử chỉ giống Sĩ Dinh như đúc, rồi vào phòng Vũ Thị cùng nàng ân ái.",
+        "Đến lúc gà gáy thì lại biến đi mất.",
+        "Đêm sau, Vũ Thị hỏi: Chàng vâng mệnh vua đi sứ nước Tàu, sao đêm nào cũng về nhà,",
+        "sáng ra lại không thấy.",
+        "Thần nói dối rằng: Nhà vua đã sai người khác thay ta, nhưng bắt ta ở cạnh ngài để hầu cờ,",
+        "không cho ra ngoài.",
+        "Nghĩ tình vợ chồng, ta lẻn trốn về với nàng, mờ sáng lại phải vội vào chầu,",
+        "không dám trễ nải.",
+        "Nói xong, nghe gà gáy lại đi.",
+        "Trong bụng Vũ Thị thấy nghi lắm."
       ],
       "image": {
-        "prompt": "a moonlit village house of the Tran dynasty, a figure in an official robe slipping through the gate at night, behind him a small village shrine glowing faintly among bamboo",
-        "seed": 631893357
-      },
-      "video": {
-        "motionPrompt": "moonlight shifts through bamboo, the figure glides toward the door, the shrine lantern flickers, a rooster silhouette on the roof at dawn, slow mysterious pan",
-        "seed": 2719993064
-      },
-      "voice": {}
-    },
-    {
-      "id": "dua-con-den",
-      "title": "Đứa con đen như mực",
-      "narrator": "ke-chuyen",
-      "narration": "Vũ Thị sinh nghi, hỏi sao chồng đi sứ mà đêm nào cũng về được. Người ấy đáp dối rằng vua giữ lại đánh cờ, chỉ đêm mới trốn về được. Một năm sau, Sĩ Dinh đi sứ về thì vợ đã có mang sắp sinh. Ông tâu lên vua, Vũ Thị bị bắt giam. Đêm ấy vua mộng thấy thần Ma La đến xin nhận đứa con. Vua xử: vợ trả về cho Sĩ Dinh, con thì giao cho thần. Ba ngày sau, Vũ Thị sinh ra một cái bọc đen, xé ra thì thấy một đứa bé đen như mực.",
-      "subtitles": [
-        "Vũ Thị sinh nghi, hỏi sao chồng đi sứ mà đêm nào cũng về được.",
-        "Người ấy đáp dối rằng vua giữ lại đánh cờ, chỉ đêm mới trốn về được.",
-        "Một năm sau, Sĩ Dinh đi sứ về thì vợ đã có mang sắp sinh.",
-        "Ông tâu lên vua, Vũ Thị bị bắt giam.",
-        "Đêm ấy vua mộng thấy thần Ma La đến xin nhận đứa con.",
-        "Vua xử: vợ trả về cho Sĩ Dinh, con thì giao cho thần.",
-        "Ba ngày sau, Vũ Thị sinh ra một cái bọc đen, xé ra thì thấy một đứa bé đen như mực."
-      ],
-      "image": {
-        "prompt": "a woman in a plain dress holding a newborn baby whose skin is dark as ink and glossy, a faint spirit figure in the shadows behind her, an astonished official looking on",
-        "seed": 1682003512
-      },
-      "video": {
-        "motionPrompt": "the woman cradles the baby, the baby opens bright eyes, the spirit figure bows and fades, candle flames waver, soft slow zoom",
-        "seed": 1776790561
-      },
-      "voice": {}
-    },
-    {
-      "id": "la-dong-tan",
-      "title": "Gặp Lã Động Tân",
-      "narrator": "ke-chuyen",
-      "narration": "Đứa bé lớn lên được đặt tên là Ô Lôi. Da chàng đen như sơn mà bóng như mỡ, mười lăm tuổi đã được vua gọi vào cung, rất được yêu chiều. Một hôm Ô Lôi đi chơi, gặp tiên Lã Động Tân. Tiên hỏi: \"Cậu bé đẹp đẽ thế, muốn xin ta điều gì?\" Ô Lôi đáp: \"Thiên hạ thái bình, giàu sang với tôi như mây nổi. Tôi chỉ mong có giọng hay, có dáng đẹp để vui tai vui mắt người đời.\" Lã Động Tân bảo chàng há miệng, nhổ nước bọt vào, bắt nuốt đi, rồi bay mất.",
-      "subtitles": [
-        "Đứa bé lớn lên được đặt tên là Ô Lôi.",
-        "Da chàng đen như sơn mà bóng như mỡ, mười lăm tuổi đã được vua gọi vào cung,",
-        "rất được yêu chiều.",
-        "Một hôm Ô Lôi đi chơi, gặp tiên Lã Động Tân.",
-        "Tiên hỏi: \"Cậu bé đẹp đẽ thế, muốn xin ta điều gì?\"",
-        "Ô Lôi đáp: \"Thiên hạ thái bình, giàu sang với tôi như mây nổi.",
-        "Tôi chỉ mong có giọng hay, có dáng đẹp để vui tai vui mắt người đời.\"",
-        "Lã Động Tân bảo chàng há miệng, nhổ nước bọt vào, bắt nuốt đi, rồi bay mất."
-      ],
-      "image": {
-        "prompt": "a young man with glossy dark skin on a country path meeting a Taoist immortal in flowing white robes holding a fly-whisk, the immortal bending close as if about to bless him, clouds swirling",
-        "seed": 3820719528,
-        "character": "ha-o-loi"
-      },
-      "video": {
-        "motionPrompt": "the immortal smiles and leans toward the youth, wind lifts their sleeves, the immortal rises into the clouds and vanishes, the youth looks up in wonder",
-        "seed": 514625898
-      },
-      "voice": {}
-    },
-    {
-      "id": "giong-hat",
-      "title": "Giọng hát mê hồn",
-      "narrator": "ke-chuyen",
-      "narration": "Từ đó, Ô Lôi tuy không biết chữ mà ăn nói lanh lợi, ngâm thơ, hát xướng, đối đáp không ai bằng. Giọng chàng ngân nga như cợt gió đùa trăng, như mây bay nước chảy, ai nghe cũng say, đàn bà con gái lại càng mê, ai cũng muốn được nhìn mặt. Vua thương chàng, phán rằng ai bắt được Ô Lôi làm nhục con gái nhà mình thì cứ đưa lên, vua thưởng một nghìn quan tiền. Còn ai giết Ô Lôi thì phải đền mười nghìn quan.",
-      "subtitles": [
-        "Từ đó, Ô Lôi tuy không biết chữ mà ăn nói lanh lợi, ngâm thơ, hát xướng,",
-        "đối đáp không ai bằng.",
-        "Giọng chàng ngân nga như cợt gió đùa trăng, như mây bay nước chảy, ai nghe cũng say,",
-        "đàn bà con gái lại càng mê, ai cũng muốn được nhìn mặt.",
-        "Vua thương chàng, phán rằng ai bắt được Ô Lôi làm nhục con gái nhà mình thì cứ đưa lên,",
-        "vua thưởng một nghìn quan tiền.",
-        "Còn ai giết Ô Lôi thì phải đền mười nghìn quan."
-      ],
-      "image": {
-        "prompt": "the dark-skinned young man singing on a moonlit pavilion by a lotus pond at the Tran court, ladies peeking from behind screens and fans, the king listening with delight",
-        "seed": 581236171,
-        "character": "ha-o-loi"
-      },
-      "video": {
-        "motionPrompt": "the singer lifts his head, lotus leaves tremble, ladies lower their fans to look, the king taps his fan in rhythm, soft moonlight shimmer",
-        "seed": 3312354021
-      },
-      "voice": {}
-    },
-    {
-      "id": "loi-hua-voi-vua",
-      "title": "Lời hứa với nhà vua",
-      "narrator": "ke-chuyen",
-      "narration": "Bấy giờ ở làng Nhân Mục có nàng A Kim, người trong tông thất, mới ngoài hai mươi tuổi đã góa chồng, nhan sắc không ai sánh kịp. Vua muốn gần mà không sao gần được. Vua hỏi Ô Lôi: \"Ngươi có mưu gì lấy được người ấy không?\" Ô Lôi tâu: \"Thần xin dốc hết sức, trong vòng một năm sẽ được gặp mặt nàng. Nếu không, mưu của thần coi như hỏng, thần cũng chẳng khác gì người chết.\" Nói rồi chàng lạy tạ ra về.",
-      "subtitles": [
-        "Bấy giờ ở làng Nhân Mục có nàng A Kim, người trong tông thất,",
-        "mới ngoài hai mươi tuổi đã góa chồng, nhan sắc không ai sánh kịp.",
-        "Vua muốn gần mà không sao gần được.",
-        "Vua hỏi Ô Lôi: \"Ngươi có mưu gì lấy được người ấy không?\"",
-        "Ô Lôi tâu: \"Thần xin dốc hết sức, trong vòng một năm sẽ được gặp mặt nàng.",
-        "Nếu không, mưu của thần coi như hỏng, thần cũng chẳng khác gì người chết.\"",
-        "Nói rồi chàng lạy tạ ra về."
-      ],
-      "image": {
-        "prompt": "the young king in yellow robes leaning toward the kneeling dark-skinned singer in a palace hall, both smiling conspiratorially, a painted screen of a beautiful lady behind them",
-        "seed": 709465554,
+        "prompt": "a village shrine of the god Ma La at night, a shadowy figure in an official's robe slipping toward a house window lit by one lamp, a young wife standing inside, tropical moonlight, bamboo grove, Tran dynasty Vietnam",
+        "seed": 2675198602,
         "character": "tran-du-tong"
       },
       "video": {
-        "motionPrompt": "the king gestures with his fan, the singer bows low and rises, curtains stir, slow push in on their faces",
-        "seed": 3188211140
+        "motionPrompt": "lamp flame sways, a shadow glides toward the window, bamboo leaves rustle",
+        "seed": 4068718689
       },
       "voice": {}
     },
     {
-      "id": "ke-cat-co",
-      "title": "Kẻ cắt cỏ",
+      "id": "bo-den",
+      "title": "Cái bọc đen",
       "narrator": "ke-chuyen",
-      "narration": "Về nhà, Ô Lôi cởi bỏ áo quan, lăn xuống bùn, phơi nắng dầm mưa cho xấu xí. Chàng đóng khố vải, giả làm đứa giữ ngựa, gánh đôi sọt tre, mang theo trầu cau đến cổng dinh A Kim, biếu người coi cổng rồi xin vào cắt cỏ. Lúc ấy đang tháng năm tháng sáu, hoa nở khắp vườn. Ô Lôi cắt sạch hoa bỏ vào sọt. A Kim thấy hoa mất hết, sai đầy tớ trói chàng lại, giam mấy ngày liền mà chẳng thấy ai đến chuộc.",
+      "narration": "Được một năm, Sĩ Dinh đi sứ về, thấy vợ đã có thai gần ngày sinh. Ông làm trạng tâu lên nhà vua, Vũ Thị liền bị bắt giam vào ngục. Đêm ấy, vua nằm mộng, thấy một vị thần đến tâu rằng: Tôi là thần Ma La, đã lấy Vũ Thị làm vợ, nàng có thai với tôi mà bị Sĩ Dinh cướp mất. Vua giật mình tỉnh dậy. Sáng hôm sau, nhà vua cho đưa Vũ Thị ra khỏi ngục mà phán rằng: Vợ thì trả lại cho Sĩ Dinh, còn con thì giao cho thần Ma La. Ba ngày sau, Vũ Thị sinh ra một cái bọc đen. Xé bọc ra, bên trong là một đứa bé trai đen như mực. Đến năm mười hai tuổi, vì thần không có họ, nhà vua đặt cho cậu họ Hà, tên là Ô Lôi. Da cậu tuy đen nhưng bóng nhoáng như mỡ. Năm mười lăm tuổi, nhà vua triệu vào hầu bên cạnh, rất yêu quý, đãi như bậc tân khách.",
       "subtitles": [
-        "Về nhà, Ô Lôi cởi bỏ áo quan, lăn xuống bùn, phơi nắng dầm mưa cho xấu xí.",
-        "Chàng đóng khố vải, giả làm đứa giữ ngựa, gánh đôi sọt tre,",
-        "mang theo trầu cau đến cổng dinh A Kim, biếu người coi cổng rồi xin vào cắt cỏ.",
-        "Lúc ấy đang tháng năm tháng sáu, hoa nở khắp vườn.",
-        "Ô Lôi cắt sạch hoa bỏ vào sọt.",
-        "A Kim thấy hoa mất hết, sai đầy tớ trói chàng lại,",
-        "giam mấy ngày liền mà chẳng thấy ai đến chuộc."
+        "Được một năm, Sĩ Dinh đi sứ về, thấy vợ đã có thai gần ngày sinh.",
+        "Ông làm trạng tâu lên nhà vua, Vũ Thị liền bị bắt giam vào ngục.",
+        "Đêm ấy, vua nằm mộng, thấy một vị thần đến tâu rằng: Tôi là thần Ma La,",
+        "đã lấy Vũ Thị làm vợ, nàng có thai với tôi mà bị Sĩ Dinh cướp mất.",
+        "Vua giật mình tỉnh dậy.",
+        "Sáng hôm sau, nhà vua cho đưa Vũ Thị ra khỏi ngục mà phán rằng:",
+        "Vợ thì trả lại cho Sĩ Dinh, còn con thì giao cho thần Ma La.",
+        "Ba ngày sau, Vũ Thị sinh ra một cái bọc đen.",
+        "Xé bọc ra, bên trong là một đứa bé trai đen như mực.",
+        "Đến năm mười hai tuổi, vì thần không có họ, nhà vua đặt cho cậu họ Hà, tên là Ô Lôi.",
+        "Da cậu tuy đen nhưng bóng nhoáng như mỡ.",
+        "Năm mười lăm tuổi, nhà vua triệu vào hầu bên cạnh, rất yêu quý, đãi như bậc tân khách."
       ],
       "image": {
-        "prompt": "a mud-stained ragged young man with dark skin carrying two bamboo baskets full of cut jasmine flowers in a walled garden, servants rushing toward him with ropes, a lady watching from a veranda",
-        "seed": 3730534791,
+        "prompt": "a prison gate opening at dawn and a pale young mother carried out gently to a courtyard, then her newborn in an opened black cloth bundle, a glossy ink-black baby, village women astonished, Tran dynasty Vietnam, no violence",
+        "seed": 168752716,
+        "character": "tran-du-tong"
+      },
+      "video": {
+        "motionPrompt": "the black cloth bundle slowly opens, early light spreads over the baby, women lean in",
+        "seed": 3267345723
+      },
+      "voice": {}
+    },
+    {
+      "id": "lu-dong-tan",
+      "title": "Món quà của tiên Lữ Động Tân",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, Ô Lôi đi chơi thì gặp tiên Lữ Động Tân. Vị tiên hỏi: Đứa bé kia, ngươi có muốn xin gì không. Ô Lôi đáp: Nay thiên hạ thái bình, nước nhà vô sự, con xem phú quý cũng như mây nổi, chỉ muốn có giọng hay và sắc đẹp để làm vui tai vui mắt người đời. Lữ Động Tân cười mà rằng: Giọng hay sắc đẹp của ngươi rồi sẽ có lúc hay, có lúc dở. Nhưng ta cũng cho ngươi cái tuyệt kỹ ấy, để lưu tên một thời. Rồi tiên bảo Ô Lôi há miệng, nhổ nước bọt vào, bảo nuốt đi, xong cưỡi mây bay mất. Từ đó Ô Lôi tuy không biết một chữ nào, nhưng thông minh lanh lợi, biện bạch giỏi hơn người, làm được cả thơ phú ca vịnh. Giọng ngâm giọng hát của chàng như cợt gió bỡn trăng, như mây bay nước chảy, khiến ai cũng để ý và thích nghe. Chàng hay đi chơi các chùa miếu, bến đò, ngâm vịnh theo hứng. Đi khỏi rồi mà dư âm còn văng vẳng, đàn bà con gái lại càng muốn nhìn tận mặt chàng.",
+      "subtitles": [
+        "Một hôm, Ô Lôi đi chơi thì gặp tiên Lữ Động Tân.",
+        "Vị tiên hỏi: Đứa bé kia, ngươi có muốn xin gì không.",
+        "Ô Lôi đáp: Nay thiên hạ thái bình, nước nhà vô sự, con xem phú quý cũng như mây nổi,",
+        "chỉ muốn có giọng hay và sắc đẹp để làm vui tai vui mắt người đời.",
+        "Lữ Động Tân cười mà rằng: Giọng hay sắc đẹp của ngươi rồi sẽ có lúc hay, có lúc dở.",
+        "Nhưng ta cũng cho ngươi cái tuyệt kỹ ấy, để lưu tên một thời.",
+        "Rồi tiên bảo Ô Lôi há miệng, nhổ nước bọt vào, bảo nuốt đi, xong cưỡi mây bay mất.",
+        "Từ đó Ô Lôi tuy không biết một chữ nào, nhưng thông minh lanh lợi,",
+        "biện bạch giỏi hơn người, làm được cả thơ phú ca vịnh.",
+        "Giọng ngâm giọng hát của chàng như cợt gió bỡn trăng, như mây bay nước chảy,",
+        "khiến ai cũng để ý và thích nghe.",
+        "Chàng hay đi chơi các chùa miếu, bến đò, ngâm vịnh theo hứng.",
+        "Đi khỏi rồi mà dư âm còn văng vẳng, đàn bà con gái lại càng muốn nhìn tận mặt chàng."
+      ],
+      "image": {
+        "prompt": "a black-skinned boy of fifteen kneeling on a mountain path as the immortal Lu Dongbin in flowing robes with a sword on his back leans down and spits into his open mouth, clouds parting, mystical dawn light",
+        "seed": 5509470,
         "character": "ha-o-loi"
       },
       "video": {
-        "motionPrompt": "flowers spill from the baskets, servants grab his arms, the lady on the veranda frowns, petals drift in the wind, lively camera move",
-        "seed": 2146361971
+        "motionPrompt": "clouds drift, the immortal's sleeves billow, the boy's eyes widen as light sparkles around him",
+        "seed": 1909279013
       },
       "voice": {}
     },
     {
-      "id": "xin-o-lam-dau",
-      "title": "Xin ở làm đầy tớ",
+      "id": "chieu-chi",
+      "title": "Lệnh của nhà vua",
       "narrator": "ke-chuyen",
-      "narration": "Nàng hỏi: \"Ngươi là đầy tớ nhà ai mà không ai đến chuộc?\" Ô Lôi thưa: \"Tôi không cha mẹ, không chủ, chỉ theo phường hát rong làm thuê kiếm ăn. Có người cho năm đồng bảo đi cắt cỏ cho ngựa, tôi tưởng hoa cũng là cỏ. Nay tôi chẳng có gì đền, xin ở lại làm đầy tớ để trả nợ.\" Từ đó chàng ở lại. Tối tối, chàng hát với bọn gia nô, ai nghe cũng mê mẩn. Có đêm cả nhà quên cả tắt đèn, tới mức A Kim nổi giận, các thị nữ phải thú nhận vì mải nghe anh cắt cỏ hát mà quên hết việc.",
+      "narration": "Vua cưng chiều Ô Lôi, thường ban lệnh ở triều rằng nếu Ô Lôi phạm vào con gái nhà ai, ai bắt được giải lên cho vua thì sẽ được thưởng một nghìn quan tiền. Còn ai tự tiện giết hay làm bị thương chàng thì phải bồi thường một vạn quan. Trong tôn thất bấy giờ có một bà quận chúa tên là A Kim, hiệu là Kim Liên. Năm hai mươi ba tuổi, chồng bà qua đời, bà ở vậy thủ tiết. Quận chúa có sắc đẹp nghiêng nước nghiêng thành, đời không ai sánh kịp. Nhà vua đem lòng yêu mà không sao gần được, nên giận trong bụng. Một hôm, vua bảo Ô Lôi: Mày có cách nào cho ta được gần nàng không. Ô Lôi tâu: Hạ thần xin hẹn trong một năm. Nếu không thấy hạ thần trở về thì mưu không thành, hạ thần đã chết rồi. Tâu xong, chàng lạy tạ ra đi.",
       "subtitles": [
-        "Nàng hỏi: \"Ngươi là đầy tớ nhà ai mà không ai đến chuộc?\"",
-        "Ô Lôi thưa: \"Tôi không cha mẹ, không chủ, chỉ theo phường hát rong làm thuê kiếm ăn.",
-        "Có người cho năm đồng bảo đi cắt cỏ cho ngựa, tôi tưởng hoa cũng là cỏ.",
-        "Nay tôi chẳng có gì đền, xin ở lại làm đầy tớ để trả nợ.\"",
-        "Từ đó chàng ở lại.",
-        "Tối tối, chàng hát với bọn gia nô, ai nghe cũng mê mẩn.",
-        "Có đêm cả nhà quên cả tắt đèn, tới mức A Kim nổi giận,",
-        "các thị nữ phải thú nhận vì mải nghe anh cắt cỏ hát mà quên hết việc."
+        "Vua cưng chiều Ô Lôi, thường ban lệnh ở triều rằng nếu Ô Lôi phạm vào con gái nhà ai,",
+        "ai bắt được giải lên cho vua thì sẽ được thưởng một nghìn quan tiền.",
+        "Còn ai tự tiện giết hay làm bị thương chàng thì phải bồi thường một vạn quan.",
+        "Trong tôn thất bấy giờ có một bà quận chúa tên là A Kim, hiệu là Kim Liên.",
+        "Năm hai mươi ba tuổi, chồng bà qua đời, bà ở vậy thủ tiết.",
+        "Quận chúa có sắc đẹp nghiêng nước nghiêng thành, đời không ai sánh kịp.",
+        "Nhà vua đem lòng yêu mà không sao gần được, nên giận trong bụng.",
+        "Một hôm, vua bảo Ô Lôi: Mày có cách nào cho ta được gần nàng không.",
+        "Ô Lôi tâu: Hạ thần xin hẹn trong một năm.",
+        "Nếu không thấy hạ thần trở về thì mưu không thành, hạ thần đã chết rồi.",
+        "Tâu xong, chàng lạy tạ ra đi."
       ],
       "image": {
-        "prompt": "evening in the servants quarters of a noble house, the dark-skinned young man singing by a small oil lamp, maids and servants gathered around entranced, lamps left burning everywhere",
-        "seed": 256236790,
+        "prompt": "King Tran Du Tong on his throne speaking to the glossy-skinned young singer Ha O Loi who bows low before him, courtiers watching, ornate Tran dynasty hall, a folded imperial edict on a table, warm lamplight",
+        "seed": 4087179328,
+        "character": "tran-du-tong"
+      },
+      "video": {
+        "motionPrompt": "incense smoke curls, the young man bows lower, courtiers whisper",
+        "seed": 2167848607
+      },
+      "voice": {}
+    },
+    {
+      "id": "cat-co",
+      "title": "Anh cắt cỏ trong vườn hoa lài",
+      "narrator": "ke-chuyen",
+      "narration": "Về đến nhà, Ô Lôi bỏ hết áo quần, xoa đất bùn lên người, rồi ra giữa trời dầm mưa dãi nắng cho nhem nhuốc. Chàng đóng một chiếc khố, cầm một cái liềm, quảy hai sọt tre, giả làm anh chăn ngựa. Chàng đến cổng dinh quận chúa, biếu người coi cổng một gói trầu để xin vào vườn cắt cỏ. Lúc ấy vào tháng năm, hoa lài đang nở rộ. Ô Lôi cắt sạch hoa, bỏ đầy sọt. Bọn thị tỳ thấy cả vườn hết hoa bèn la lên, bắt Ô Lôi giữ lại, chờ người nhà đến chuộc và bồi thường tiền hoa. Ô Lôi nói: Tôi vốn là kẻ lưu lạc, không nhà, không chủ, không cha mẹ, hay đi làm thuê gánh mướn kiếm ăn. Vừa rồi có một ông quan buộc ngựa ở cửa thành nam, ngựa đói không có cỏ, ông cho tôi năm tiền bảo cắt một gánh cỏ. Tôi được tiền mừng quá, đi cắt ngay, chẳng biết cây lài là cây gì, tưởng cũng là cỏ cả. Nay không có gì đền, xin làm đầy tớ để trả nợ hoa.",
+      "subtitles": [
+        "Về đến nhà, Ô Lôi bỏ hết áo quần, xoa đất bùn lên người,",
+        "rồi ra giữa trời dầm mưa dãi nắng cho nhem nhuốc.",
+        "Chàng đóng một chiếc khố, cầm một cái liềm, quảy hai sọt tre, giả làm anh chăn ngựa.",
+        "Chàng đến cổng dinh quận chúa, biếu người coi cổng một gói trầu để xin vào vườn cắt cỏ.",
+        "Lúc ấy vào tháng năm, hoa lài đang nở rộ.",
+        "Ô Lôi cắt sạch hoa, bỏ đầy sọt.",
+        "Bọn thị tỳ thấy cả vườn hết hoa bèn la lên, bắt Ô Lôi giữ lại,",
+        "chờ người nhà đến chuộc và bồi thường tiền hoa.",
+        "Ô Lôi nói: Tôi vốn là kẻ lưu lạc, không nhà, không chủ, không cha mẹ,",
+        "hay đi làm thuê gánh mướn kiếm ăn.",
+        "Vừa rồi có một ông quan buộc ngựa ở cửa thành nam, ngựa đói không có cỏ,",
+        "ông cho tôi năm tiền bảo cắt một gánh cỏ.",
+        "Tôi được tiền mừng quá, đi cắt ngay, chẳng biết cây lài là cây gì, tưởng cũng là cỏ cả.",
+        "Nay không có gì đền, xin làm đầy tớ để trả nợ hoa."
+      ],
+      "image": {
+        "prompt": "a muddy young man in a loincloth with a bamboo basket cutting jasmine flowers by mistake in a princess's garden, maids rushing from a pavilion pointing in dismay, white blossoms scattered, bright May sun, Tran dynasty Vietnam",
+        "seed": 967900018,
         "character": "ha-o-loi"
       },
       "video": {
-        "motionPrompt": "the singer sways as he sings, the listeners lean in, lamp flames dance, a maid forgets the jar in her hands, warm slow zoom",
-        "seed": 1357711797
+        "motionPrompt": "jasmine petals fall and drift, maids hurry across the path, the young man bows with his basket",
+        "seed": 1019028521
       },
       "voice": {}
     },
     {
-      "id": "dem-trang",
-      "title": "Đêm trăng hè",
+      "id": "tieng-hat",
+      "title": "Tiếng hát ngoài cổng",
       "narrator": "ke-chuyen",
-      "narration": "Giữa mùa hè nóng nực, A Kim cùng thị nữ ngồi hóng mát ngắm trăng giữa sân. Bỗng bên kia tường vẳng sang tiếng Ô Lôi hát, khi bổng khi trầm như khúc nhạc trên trời. Lòng nàng xao động, sai gọi chàng vào hầu cận, ngày sai việc, đêm cầm đèn đứng hầu, bắt hát cho khuây. Ba bốn tháng sau, nàng sinh bệnh tương tư. Một đêm, nàng nói với Ô Lôi: \"Từ ngày ngươi đến đây, ta mắc bệnh vì tiếng hát của ngươi.\" Rồi nàng cùng chàng ân ái, bệnh dần dần khỏi.",
+      "narration": "Thế là chàng được giữ lại ở ngoài cửa hơn một tháng. Bọn thị tỳ thấy chàng đói khát thì thương mà cho ăn uống. Ban đêm, Ô Lôi thường cất tiếng hát cho người canh cổng nghe. Bọn thị tỳ và người nấu bếp trong dinh nghe thấy cũng lại nhìn mặt chàng, ai nấy mê mẩn nghe tiếng hát mà quên hết mọi việc. Có một buổi trời đã hoàng hôn mà đèn chưa thắp, quận chúa ngồi mò trong tối, gọi tả hữu mà không có một ai. Nàng giận quá, cho gọi họ về trách tội bỏ bê việc hầu hạ, toan trói lại đánh. Mọi người lạy tạ mà thưa: Có đứa cắt cỏ hát hay quá, chúng tôi mải nghe quên cả mọi thứ, đến nỗi như vầy, dẫu quận chúa có đánh cũng xin cam chịu. Quận chúa nghe vậy, làm ngơ không hỏi đến.",
       "subtitles": [
-        "Giữa mùa hè nóng nực, A Kim cùng thị nữ ngồi hóng mát ngắm trăng giữa sân.",
-        "Bỗng bên kia tường vẳng sang tiếng Ô Lôi hát, khi bổng khi trầm như khúc nhạc trên trời.",
-        "Lòng nàng xao động, sai gọi chàng vào hầu cận, ngày sai việc, đêm cầm đèn đứng hầu,",
-        "bắt hát cho khuây.",
-        "Ba bốn tháng sau, nàng sinh bệnh tương tư.",
-        "Một đêm, nàng nói với Ô Lôi: \"Từ ngày ngươi đến đây, ta mắc bệnh vì tiếng hát của ngươi.\"",
-        "Rồi nàng cùng chàng ân ái, bệnh dần dần khỏi."
+        "Thế là chàng được giữ lại ở ngoài cửa hơn một tháng.",
+        "Bọn thị tỳ thấy chàng đói khát thì thương mà cho ăn uống.",
+        "Ban đêm, Ô Lôi thường cất tiếng hát cho người canh cổng nghe.",
+        "Bọn thị tỳ và người nấu bếp trong dinh nghe thấy cũng lại nhìn mặt chàng,",
+        "ai nấy mê mẩn nghe tiếng hát mà quên hết mọi việc.",
+        "Có một buổi trời đã hoàng hôn mà đèn chưa thắp, quận chúa ngồi mò trong tối,",
+        "gọi tả hữu mà không có một ai.",
+        "Nàng giận quá, cho gọi họ về trách tội bỏ bê việc hầu hạ, toan trói lại đánh.",
+        "Mọi người lạy tạ mà thưa: Có đứa cắt cỏ hát hay quá, chúng tôi mải nghe quên cả mọi thứ,",
+        "đến nỗi như vầy, dẫu quận chúa có đánh cũng xin cam chịu.",
+        "Quận chúa nghe vậy, làm ngơ không hỏi đến."
       ],
       "image": {
-        "prompt": "a moonlit courtyard of a noble residence, a beautiful young widow in pale silk seated among her maids, turning her head toward the garden wall from beyond which a song drifts, the full moon above",
-        "seed": 1421619350,
+        "prompt": "dusk in a princess's courtyard, dark unlit lanterns, an angry noblewoman in elegant robes standing alone while her maids kneel apologetically, in the distance beyond the gate a dim figure singing, soft evening light",
+        "seed": 913514356,
         "character": "a-kim"
       },
       "video": {
-        "motionPrompt": "moonlight glows, the widow rises slowly and listens, the maids exchange glances, jasmine blossoms sway along the wall, slow tender push in",
-        "seed": 3710137309
+        "motionPrompt": "dusk light fades, lantern wicks hang unlit, faint singing seems to drift across the courtyard",
+        "seed": 4045653059
       },
       "voice": {}
     },
     {
-      "id": "chiec-mu-ngoc",
+      "id": "ben-tuong",
+      "title": "Khúc hát bên kia tường",
+      "narrator": "ke-chuyen",
+      "narration": "Một đêm mùa hè nóng nực, quận chúa cùng các thị tỳ ngồi hóng gió ngoài sân, ngắm trăng. Bỗng cách một bức tường vẳng sang tiếng hát của Ô Lôi, như khúc nhạc từ trên trời đưa xuống, chẳng còn là tiếng người nữa. Quận chúa say mê, rất vui lòng, bèn cho Ô Lôi vào làm đầy tớ trong nhà để sai vặt và để được nghe cho gần, thường bắt chàng ca hát cho khuây nỗi lòng uất kết. Từ đó Ô Lôi càng ra sức hầu hạ để mua lòng quận chúa, ngày túc trực bên cạnh, đêm thắp đèn chầu chực, nhanh nhẹn đắc lực. Khi chúa sai hát, chàng cất giọng lanh lảnh ngân xa. Chàng có bài hát cợt gió, nói gió từ hang sâu bay ra, thổi qua vườn xuân, vào song bắc, sang đài hè, đưa dương liễu đón hải đường, xin gỡ giúp cô nường này mối sầu. Lại có bài thơ cười trăng, nói trăng đa đoan, khi đầy khi khuyết, mượn ánh sáng mà yêu chị Hằng trên cao, một dạ long lanh chẳng nguôi. Tiếng hát của Ô Lôi khiến cả chim lẫn cá cũng phải lắng nghe.",
+      "subtitles": [
+        "Một đêm mùa hè nóng nực, quận chúa cùng các thị tỳ ngồi hóng gió ngoài sân, ngắm trăng.",
+        "Bỗng cách một bức tường vẳng sang tiếng hát của Ô Lôi,",
+        "như khúc nhạc từ trên trời đưa xuống, chẳng còn là tiếng người nữa.",
+        "Quận chúa say mê, rất vui lòng,",
+        "bèn cho Ô Lôi vào làm đầy tớ trong nhà để sai vặt và để được nghe cho gần,",
+        "thường bắt chàng ca hát cho khuây nỗi lòng uất kết.",
+        "Từ đó Ô Lôi càng ra sức hầu hạ để mua lòng quận chúa, ngày túc trực bên cạnh,",
+        "đêm thắp đèn chầu chực, nhanh nhẹn đắc lực.",
+        "Khi chúa sai hát, chàng cất giọng lanh lảnh ngân xa.",
+        "Chàng có bài hát cợt gió, nói gió từ hang sâu bay ra, thổi qua vườn xuân, vào song bắc,",
+        "sang đài hè, đưa dương liễu đón hải đường, xin gỡ giúp cô nường này mối sầu.",
+        "Lại có bài thơ cười trăng, nói trăng đa đoan, khi đầy khi khuyết,",
+        "mượn ánh sáng mà yêu chị Hằng trên cao, một dạ long lanh chẳng nguôi.",
+        "Tiếng hát của Ô Lôi khiến cả chim lẫn cá cũng phải lắng nghe."
+      ],
+      "image": {
+        "prompt": "a moonlit summer night in a princess's garden, a noblewoman and her maids sitting in the courtyard listening toward a tall wall, a silhouette of a singer beyond it, silver clouds and drifting leaves, ethereal mood",
+        "seed": 3858603206,
+        "character": "a-kim"
+      },
+      "video": {
+        "motionPrompt": "moonlit leaves stir as if swept by song, clouds gather slowly over the wall",
+        "seed": 1176292717
+      },
+      "voice": {}
+    },
+    {
+      "id": "benh-tuong-tu",
+      "title": "Bệnh tương tư",
+      "narrator": "ke-chuyen",
+      "narration": "Quận chúa cảm động mà thành bệnh sầu tư, ba bốn tháng trôi qua bệnh càng nặng thêm. Các thị tỳ hầu thuốc đã lâu, mệt mỏi, một đêm khuya ngủ say, chủ gọi cũng không dậy, chỉ có một mình Ô Lôi ứng tiếng vào hầu. Mối tình uất kết không thể giữ nổi nữa, quận chúa bảo: Giọng hát của ngươi làm mê mệt tinh thần ta, khiến ta thương mến đến nông nỗi này. Vừa rồi ngươi ở giữa sân hát mấy câu mà gió ùn ùn nổi lên, mây từ từ kéo lại, vật còn như thế huống chi là người. Vì giọng hát của ngươi mà ta sinh bệnh, nên ta cũng chẳng nề hà gì trên dưới nữa. Nếu ngươi thật biết đạo cầm sắt, nghĩa tình duyên nợ, thì chẳng phiền gì thầy thuốc mà bệnh ta cũng khỏi. Ô Lôi từ chối. Quận chúa lại nói: Ôi, ngươi lầm lắm. Lấy cái giọng hơn đời sánh với nhan sắc tuyệt thế, sao lại chẳng được, sao phải bắt ta nói đi nói lại. Ngươi quá câu nệ, bệnh ta khó lành. Ô Lôi bèn vâng dạ. Hai người dan díu, quên cả sang hèn xấu đẹp. Bệnh của quận chúa dần dần khỏi mà tình ái ngày một tăng.",
+      "subtitles": [
+        "Quận chúa cảm động mà thành bệnh sầu tư, ba bốn tháng trôi qua bệnh càng nặng thêm.",
+        "Các thị tỳ hầu thuốc đã lâu, mệt mỏi, một đêm khuya ngủ say, chủ gọi cũng không dậy,",
+        "chỉ có một mình Ô Lôi ứng tiếng vào hầu.",
+        "Mối tình uất kết không thể giữ nổi nữa, quận chúa bảo:",
+        "Giọng hát của ngươi làm mê mệt tinh thần ta, khiến ta thương mến đến nông nỗi này.",
+        "Vừa rồi ngươi ở giữa sân hát mấy câu mà gió ùn ùn nổi lên, mây từ từ kéo lại,",
+        "vật còn như thế huống chi là người.",
+        "Vì giọng hát của ngươi mà ta sinh bệnh, nên ta cũng chẳng nề hà gì trên dưới nữa.",
+        "Nếu ngươi thật biết đạo cầm sắt, nghĩa tình duyên nợ,",
+        "thì chẳng phiền gì thầy thuốc mà bệnh ta cũng khỏi.",
+        "Ô Lôi từ chối.",
+        "Quận chúa lại nói: Ôi, ngươi lầm lắm.",
+        "Lấy cái giọng hơn đời sánh với nhan sắc tuyệt thế, sao lại chẳng được,",
+        "sao phải bắt ta nói đi nói lại.",
+        "Ngươi quá câu nệ, bệnh ta khó lành.",
+        "Ô Lôi bèn vâng dạ.",
+        "Hai người dan díu, quên cả sang hèn xấu đẹp.",
+        "Bệnh của quận chúa dần dần khỏi mà tình ái ngày một tăng."
+      ],
+      "image": {
+        "prompt": "a pale noblewoman lying on a sick bed in a lamplit chamber, her eyes fixed on a young servant kneeling at her side, drawn curtains, a tray of herbal medicine untouched, intimate quiet mood, Tran dynasty Vietnam",
+        "seed": 1432604648,
+        "character": "a-kim"
+      },
+      "video": {
+        "motionPrompt": "lamp light flickers softly, the curtain stirs in a night breeze, slow push-in",
+        "seed": 2768171559
+      },
+      "voice": {}
+    },
+    {
+      "id": "mu-vang",
       "title": "Chiếc mũ vàng nạm ngọc",
       "narrator": "ke-chuyen",
-      "narration": "Tình càng ngày càng nặng, nàng muốn cho chàng một khoảnh đất làm nhà. Ô Lôi thưa: \"Tôi được gặp nàng như gặp tiên trên trời, thế đã là phúc lớn. Tôi không cần ruộng đất, vàng bạc. Chỉ xin được một lần đội thử chiếc mũ vàng nạm ngọc của nàng, thì có chết cũng nhắm mắt.\" Chiếc mũ ấy là của vua trước ban cho nàng để đội trong những buổi chầu. Nàng chẳng tiếc, trao ngay cho chàng.",
+      "narration": "Quận chúa còn muốn tậu ruộng, làm nhà cho người tình. Nhưng Ô Lôi thưa: Tôi vốn không có nhà cửa, nay gặp quận chúa chẳng khác gì gặp tiên trên trời, thật là hạnh phúc. Tôi không xin ruộng nương, châu báu vàng bạc gì cả, chỉ xin quận chúa cho tôi cái mũ nạm ngọc dát vàng mà đội thử một lần, thì có chết cũng nhắm mắt. Cái mũ ấy vốn của đức tiên đế ban cho quận chúa để đội vào những ngày lễ chầu mừng, lễ xong thì đội mà vào chầu. Quận chúa chẳng tiếc, trao luôn cho chàng. Ô Lôi được mũ, trốn thẳng về triều, đội vào chầu vua. Vua rất mừng, liền ra lệnh vời quận chúa vào chầu, lại sai Ô Lôi đội mũ ngọc vào trước, đứng hầu bên cạnh. Quận chúa đến, vua chỉ Ô Lôi mà hỏi: Nàng có quen người này không. Quận chúa thẹn thùng xiết bao, cúi đầu không nói nên lời.",
       "subtitles": [
-        "Tình càng ngày càng nặng, nàng muốn cho chàng một khoảnh đất làm nhà.",
-        "Ô Lôi thưa: \"Tôi được gặp nàng như gặp tiên trên trời, thế đã là phúc lớn.",
-        "Tôi không cần ruộng đất, vàng bạc.",
-        "Chỉ xin được một lần đội thử chiếc mũ vàng nạm ngọc của nàng, thì có chết cũng nhắm mắt.\"",
-        "Chiếc mũ ấy là của vua trước ban cho nàng để đội trong những buổi chầu.",
-        "Nàng chẳng tiếc, trao ngay cho chàng."
+        "Quận chúa còn muốn tậu ruộng, làm nhà cho người tình.",
+        "Nhưng Ô Lôi thưa: Tôi vốn không có nhà cửa,",
+        "nay gặp quận chúa chẳng khác gì gặp tiên trên trời, thật là hạnh phúc.",
+        "Tôi không xin ruộng nương, châu báu vàng bạc gì cả,",
+        "chỉ xin quận chúa cho tôi cái mũ nạm ngọc dát vàng mà đội thử một lần,",
+        "thì có chết cũng nhắm mắt.",
+        "Cái mũ ấy vốn của đức tiên đế ban cho quận chúa để đội vào những ngày lễ chầu mừng,",
+        "lễ xong thì đội mà vào chầu.",
+        "Quận chúa chẳng tiếc, trao luôn cho chàng.",
+        "Ô Lôi được mũ, trốn thẳng về triều, đội vào chầu vua.",
+        "Vua rất mừng, liền ra lệnh vời quận chúa vào chầu, lại sai Ô Lôi đội mũ ngọc vào trước,",
+        "đứng hầu bên cạnh.",
+        "Quận chúa đến, vua chỉ Ô Lôi mà hỏi: Nàng có quen người này không.",
+        "Quận chúa thẹn thùng xiết bao, cúi đầu không nói nên lời."
       ],
       "image": {
-        "prompt": "the young widow in pale silk handing a golden headdress studded with pearls to the dark-skinned young man kneeling before her in a lamplit chamber, gentle and trusting expression",
-        "seed": 900398543,
-        "character": "a-kim"
+        "prompt": "the royal court hall, the princess A Kim entering and freezing at the sight of the glossy-skinned young singer Ha O Loi standing beside the king wearing her gold and jade crown, the king gesturing with a knowing smile, courtiers murmuring",
+        "seed": 3618359642,
+        "character": "ha-o-loi"
       },
       "video": {
-        "motionPrompt": "the golden headdress glints in lamplight as it passes between their hands, the curtain sways, the lamp flame trembles, slow intimate zoom",
-        "seed": 2118162953
+        "motionPrompt": "the princess lowers her face, courtiers' robes stir, light glints on the golden crown",
+        "seed": 1277954289
       },
       "voice": {}
     },
     {
-      "id": "tro-ve-trieu",
-      "title": "Trở về triều",
+      "id": "tieng-tam",
+      "title": "Tiếng tăm một thời",
       "narrator": "ke-chuyen",
-      "narration": "Có được mũ, Ô Lôi lẻn về triều, dâng lên vua. Vua mừng quá, lập tức cho triệu A Kim vào chầu. Nàng đến nơi, thấy Ô Lôi đội chiếc mũ vàng nạm ngọc đứng hầu bên vua. Vua hỏi: \"Nàng có biết Ô Lôi không?\" A Kim xấu hổ cúi mặt, không nói nên lời. Ô Lôi ngâm hai câu thơ nôm, đại ý: kiên trì làm thân đầy tớ, mà được cả trời đất về tay. Chuyện lan khắp kinh thành, người ta đặt thơ chế giễu, vậy mà các tiểu thư nhà quyền quý vẫn mê tiếng hát của chàng.",
+      "narration": "Từ đó Ô Lôi nhờ giọng hát mà nổi tiếng khắp nước. Chàng có câu thơ tự vịnh nói rằng cứ náu mình làm kẻ tôi tớ, may gặp chữ thiên phúc mà làm cha Lôi. Con gái nhà các vương hầu thường chê cười chàng bằng câu thơ rằng: Dùng chi một bộ mặt cháy mà lem, người thấy kẻ chê, đủ lời dèm pha, nếu có vàng ròng cùng quốc sắc thì nàng mới đến thử nhìn xem. Dẫu cười cái hình dạng như vậy, nhưng rốt cuộc họ vẫn bị giọng hát của chàng cám dỗ, tránh không nổi, nên thường tư thông với chàng. Ô Lôi cũng lấy giọng hát của mình mà gợi tình, rồi thông gian với con gái nhà người ta. Thiên hạ sợ lệnh vua, lại sợ phải bồi tiền, nên không ai dám bắt. Chàng lại tư thông với con gái các vương hầu, cũng chẳng ai dám động đến.",
       "subtitles": [
-        "Có được mũ, Ô Lôi lẻn về triều, dâng lên vua.",
-        "Vua mừng quá, lập tức cho triệu A Kim vào chầu.",
-        "Nàng đến nơi, thấy Ô Lôi đội chiếc mũ vàng nạm ngọc đứng hầu bên vua.",
-        "Vua hỏi: \"Nàng có biết Ô Lôi không?\"",
-        "A Kim xấu hổ cúi mặt, không nói nên lời.",
-        "Ô Lôi ngâm hai câu thơ nôm, đại ý: kiên trì làm thân đầy tớ, mà được cả trời đất về tay.",
-        "Chuyện lan khắp kinh thành, người ta đặt thơ chế giễu,",
-        "vậy mà các tiểu thư nhà quyền quý vẫn mê tiếng hát của chàng."
+        "Từ đó Ô Lôi nhờ giọng hát mà nổi tiếng khắp nước.",
+        "Chàng có câu thơ tự vịnh nói rằng cứ náu mình làm kẻ tôi tớ,",
+        "may gặp chữ thiên phúc mà làm cha Lôi.",
+        "Con gái nhà các vương hầu thường chê cười chàng bằng câu thơ rằng:",
+        "Dùng chi một bộ mặt cháy mà lem, người thấy kẻ chê, đủ lời dèm pha,",
+        "nếu có vàng ròng cùng quốc sắc thì nàng mới đến thử nhìn xem.",
+        "Dẫu cười cái hình dạng như vậy, nhưng rốt cuộc họ vẫn bị giọng hát của chàng cám dỗ,",
+        "tránh không nổi, nên thường tư thông với chàng.",
+        "Ô Lôi cũng lấy giọng hát của mình mà gợi tình, rồi thông gian với con gái nhà người ta.",
+        "Thiên hạ sợ lệnh vua, lại sợ phải bồi tiền, nên không ai dám bắt.",
+        "Chàng lại tư thông với con gái các vương hầu, cũng chẳng ai dám động đến."
       ],
       "image": {
-        "prompt": "a Tran dynasty throne hall, the dark-skinned young man standing beside the laughing king wearing the golden pearl headdress, the young widow kneeling below with her face hidden behind her sleeve",
-        "seed": 729161097,
+        "prompt": "a lively Tran dynasty street at dusk, noblewomen in carriage windows and balconies glancing sideways at a glossy dark-skinned young singer walking by with a lute, some covering their smiles with fans, lantern light",
+        "seed": 2244242844,
         "character": "ha-o-loi"
       },
       "video": {
-        "motionPrompt": "the king laughs and points, the widow lowers her head, courtiers whisper behind their hands, the headdress sparkles, slow sweeping pan",
-        "seed": 3965460726
+        "motionPrompt": "fans flutter, women lean from windows, lanterns sway gently as he passes",
+        "seed": 4283477067
       },
       "voice": {}
     },
     {
-      "id": "cai-chet",
-      "title": "Được vì tiếng hát, mất vì tiếng hát",
+      "id": "minh-uy",
+      "title": "Minh Uy Vương",
       "narrator": "ke-chuyen",
-      "narration": "Về sau, Ô Lôi tư thông với con gái đầu của Minh Uy Vương, người anh em ruột của hoàng hậu Huy Từ. Minh Uy Vương bắt giam chàng, sáng hôm sau vào tâu dối rằng đêm qua có kẻ lẻn vào nhà, tối trời không rõ, đã lỡ tay đánh chết, xin chịu nộp tiền đền. Vua không biết Ô Lôi vẫn còn sống, bảo rằng đánh chết lúc ấy thì cũng không sao. Minh Uy Vương về giết Ô Lôi thật. Trước khi chết, chàng ngâm thơ rằng sống chết có trời, chết vì thanh sắc âu cũng đáng. Rồi chàng nói: \"Lã Động Tân từng bảo ta, tiếng hát ấy được cũng vì nó, mất cũng vì nó. Quả đúng như vậy.\"",
+      "narration": "Sau cùng, Ô Lôi thông gian với con gái của Minh Uy Vương. Vương bắt được chàng nhưng chưa giết ngay. Sáng hôm sau, Vương vào chầu, quỳ tâu với vua rằng: Đêm qua Ô Lôi vào nhà thần, tối tăm không biết là ai, thần trót đánh chết, vậy số tiền đền là bao nhiêu, thần xin nộp. Vua ngỡ chàng đã chết thật, bèn phán: Thôi, đương đêm tối không biết là ai mà trót giết, vậy không phải đền nữa. Vì Minh Uy Vương là người thân của Thánh hoàng hậu nên nhà vua không bắt tội. Vương về nhà, dùng trượng đánh Ô Lôi mà chàng chưa chết, bèn bỏ vào cối giã cho đến chết hẳn.",
       "subtitles": [
-        "Về sau, Ô Lôi tư thông với con gái đầu của Minh Uy Vương,",
-        "người anh em ruột của hoàng hậu Huy Từ.",
-        "Minh Uy Vương bắt giam chàng, sáng hôm sau vào tâu dối rằng đêm qua có kẻ lẻn vào nhà,",
-        "tối trời không rõ, đã lỡ tay đánh chết, xin chịu nộp tiền đền.",
-        "Vua không biết Ô Lôi vẫn còn sống, bảo rằng đánh chết lúc ấy thì cũng không sao.",
-        "Minh Uy Vương về giết Ô Lôi thật.",
-        "Trước khi chết, chàng ngâm thơ rằng sống chết có trời, chết vì thanh sắc âu cũng đáng.",
-        "Rồi chàng nói: \"Lã Động Tân từng bảo ta, tiếng hát ấy được cũng vì nó, mất cũng vì nó.",
-        "Quả đúng như vậy.\""
+        "Sau cùng, Ô Lôi thông gian với con gái của Minh Uy Vương.",
+        "Vương bắt được chàng nhưng chưa giết ngay.",
+        "Sáng hôm sau, Vương vào chầu, quỳ tâu với vua rằng: Đêm qua Ô Lôi vào nhà thần,",
+        "tối tăm không biết là ai, thần trót đánh chết, vậy số tiền đền là bao nhiêu, thần xin nộp.",
+        "Vua ngỡ chàng đã chết thật, bèn phán: Thôi, đương đêm tối không biết là ai mà trót giết,",
+        "vậy không phải đền nữa.",
+        "Vì Minh Uy Vương là người thân của Thánh hoàng hậu nên nhà vua không bắt tội.",
+        "Vương về nhà, dùng trượng đánh Ô Lôi mà chàng chưa chết,",
+        "bèn bỏ vào cối giã cho đến chết hẳn."
       ],
       "image": {
-        "prompt": "dawn in a stone courtyard, the dark-skinned young man standing calmly between guards with a serene faint smile, looking up at the pale morning sky, a stern noble lord turning away in the background",
-        "seed": 4144615814,
+        "prompt": "a dim stone courtyard of a prince's residence at dawn, Prince Minh Uy in a dark blue robe turning away stiffly with a staff in hand toward a closed door, a lone figure bound at the far side, grey sky, severe cold mood, nothing graphic",
+        "seed": 729847086,
+        "character": "minh-uy-vuong"
+      },
+      "video": {
+        "motionPrompt": "grey clouds drift, the prince's robe sways as he walks, a door slowly closes",
+        "seed": 1055185589
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-cuoi",
+      "title": "Hay một dở",
+      "narrator": "ke-chuyen",
+      "narration": "Lúc sắp chết, Ô Lôi ngâm một bài thơ quốc ngữ rằng: Sống chết do mệnh trời, cần chi phải kêu nài, làm trai chỉ cần giữ chí anh hào. Chết vì thanh sắc thì cam đành chịu chết, chứ chết vì ốm đau thì đâu có được ngụm cơm cháo nào. Chàng lại nói: Ngày trước tiên Lữ Động Tân từng răn rằng giọng hay và sắc đẹp, một hay một dở, cân nhau như nhau. Nay ta mới biết lời ấy đúng thật.",
+      "subtitles": [
+        "Lúc sắp chết, Ô Lôi ngâm một bài thơ quốc ngữ rằng: Sống chết do mệnh trời,",
+        "cần chi phải kêu nài, làm trai chỉ cần giữ chí anh hào.",
+        "Chết vì thanh sắc thì cam đành chịu chết,",
+        "chứ chết vì ốm đau thì đâu có được ngụm cơm cháo nào.",
+        "Chàng lại nói: Ngày trước tiên Lữ Động Tân từng răn rằng giọng hay và sắc đẹp,",
+        "một hay một dở, cân nhau như nhau.",
+        "Nay ta mới biết lời ấy đúng thật."
+      ],
+      "image": {
+        "prompt": "a still pre-dawn scene, an empty garden with a single old lute lying on a stone bench, a faint silhouette of the immortal Lu Dongbin watching from a cloud above, falling jasmine petals, quiet sorrowful mood, nothing graphic",
+        "seed": 4175375504,
         "character": "ha-o-loi"
       },
       "video": {
-        "motionPrompt": "morning mist drifts, the young man closes his eyes and murmurs a verse, the guards lower their heads, a single swallow flies across the sky, slow solemn fade",
-        "seed": 3295680463
+        "motionPrompt": "jasmine petals fall slowly, the immortal's cloud drifts away, dawn light grows",
+        "seed": 630560431
       },
       "voice": {}
     }
