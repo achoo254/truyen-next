@@ -9,6 +9,7 @@
     "thien-ac"
   ],
   "added": "2026-11-02",
+  "revised": "2026-11-08",
   "language": "vi",
   "source": "Truyện “The Black Thief and Knight of the Glen” trong The Red Fairy Book do Andrew Lang chủ biên (1890), Project Gutenberg #540, thuộc phạm vi công cộng; gốc là truyện dân gian Ireland in trong The Hibernian Tales. Lời kể viết mới bằng tiếng Việt, theo sát cốt truyện, kể cả những cái chết nhưng không tả chi tiết; không chép bản dịch nào.",
   "basedOn": "Truyện dân gian Ireland",
@@ -47,177 +48,322 @@
   ],
   "scenes": [
     {
-      "id": "toa-thap-giua-bien",
-      "title": "Toà tháp giữa biển",
+      "id": "loi-di-chuc",
+      "title": "Lời trăn trối của hoàng hậu",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa ở miền nam Ireland có một ông vua và hoàng hậu sinh được ba hoàng tử. Khi các con còn nhỏ, hoàng hậu lâm bệnh nặng. Biết mình sắp mất, bà dặn vua: chàng còn trẻ, rồi sẽ lấy vợ khác. Thiếp chỉ xin chàng xây một toà tháp trên đảo giữa biển, giữ ba con ở đó cho tới khi chúng trưởng thành, để chúng không phải sống dưới tay người đàn bà nào khác. Vua rưng rưng hứa, và bà mỉm cười trút hơi thở cuối. Cả nước để tang. Vua xây tháp, đưa các con ra đảo đúng lời hứa.",
+      "narration": "Ngày xưa, ở miền nam Ireland, có một vị vua và một hoàng hậu, họ có ba người con trai, đứa nào cũng xinh đẹp. Nhưng hoàng hậu, mẹ của các cậu, ngã bệnh đến mức sắp chết khi các con còn rất nhỏ, và chuyện ấy gây nên nỗi đau lớn trong cả triều đình, nhất là với nhà vua, chồng bà, người không sao nguôi ngoai được. Thấy cái chết đang đến gần, bà gọi nhà vua lại và nói thế này: Thiếp sắp lìa xa chàng, và vì chàng còn trẻ, đang độ sung sức, nên chắc chắn sau khi thiếp mất chàng sẽ cưới vợ khác. Điều duy nhất thiếp xin chàng là hãy xây một cái tháp trên một hòn đảo giữa biển, và giữ ba đứa con trai của chúng ta trong đó cho đến khi chúng trưởng thành và đủ sức tự lo liệu, để chúng không phải chịu quyền hay sự cai quản của bất kỳ người đàn bà nào khác. Chàng đừng quên cho chúng được học hành xứng với dòng dõi, và để chúng được rèn luyện mọi môn thể thao và trò chơi cần thiết cho con trai nhà vua. Thiếp chỉ có bấy nhiêu lời, vậy xin từ biệt chàng. Nhà vua, với đôi mắt đẫm lệ, vừa kịp hứa với bà rằng mọi điều bà dặn sẽ được làm theo, thì bà trở mình trên giường, mỉm cười, và trút hơi thở cuối cùng. Chưa bao giờ người ta thấy cảnh tang tóc lớn hơn thế trong cả triều đình và khắp vương quốc, vì trên đời này không có người phụ nữ nào tốt hơn hoàng hậu, dù với người giàu hay người nghèo. Bà được an táng rất long trọng và lộng lẫy, còn nhà vua, chồng bà, trở nên gần như không thể an ủi nổi vì mất bà. Tuy vậy, ông vẫn cho xây ngôi tháp và đưa các con vào đó, dưới sự trông nom của những người giám hộ thích hợp, đúng như lời đã hứa.",
       "subtitles": [
-        "Ngày xưa ở miền nam Ireland có một ông vua và hoàng hậu sinh được ba hoàng tử.",
-        "Khi các con còn nhỏ, hoàng hậu lâm bệnh nặng.",
-        "Biết mình sắp mất, bà dặn vua: chàng còn trẻ, rồi sẽ lấy vợ khác.",
-        "Thiếp chỉ xin chàng xây một toà tháp trên đảo giữa biển,",
-        "giữ ba con ở đó cho tới khi chúng trưởng thành,",
-        "để chúng không phải sống dưới tay người đàn bà nào khác.",
-        "Vua rưng rưng hứa, và bà mỉm cười trút hơi thở cuối.",
-        "Cả nước để tang.",
-        "Vua xây tháp, đưa các con ra đảo đúng lời hứa."
+        "Ngày xưa, ở miền nam Ireland, có một vị vua và một hoàng hậu, họ có ba người con trai, đứa",
+        "nào cũng xinh đẹp. Nhưng hoàng hậu, mẹ của các cậu, ngã bệnh đến mức sắp chết khi các con",
+        "còn rất nhỏ, và chuyện ấy gây nên nỗi đau lớn trong cả triều đình, nhất là với nhà vua,",
+        "chồng bà, người không sao nguôi ngoai được. Thấy cái chết đang đến gần, bà gọi nhà vua lại",
+        "và nói thế này: Thiếp sắp lìa xa chàng, và vì chàng còn trẻ, đang độ sung sức, nên chắc",
+        "chắn sau khi thiếp mất chàng sẽ cưới vợ khác. Điều duy nhất thiếp xin chàng là hãy xây một",
+        "cái tháp trên một hòn đảo giữa biển, và giữ ba đứa con trai của chúng ta trong đó cho đến",
+        "khi chúng trưởng thành và đủ sức tự lo liệu, để chúng không phải chịu quyền hay sự cai",
+        "quản của bất kỳ người đàn bà nào khác. Chàng đừng quên cho chúng được học hành xứng với",
+        "dòng dõi, và để chúng được rèn luyện mọi môn thể thao và trò chơi cần thiết cho con trai",
+        "nhà vua. Thiếp chỉ có bấy nhiêu lời, vậy xin từ biệt chàng. Nhà vua, với đôi mắt đẫm lệ,",
+        "vừa kịp hứa với bà rằng mọi điều bà dặn sẽ được làm theo, thì bà trở mình trên giường, mỉm",
+        "cười, và trút hơi thở cuối cùng. Chưa bao giờ người ta thấy cảnh tang tóc lớn hơn thế",
+        "trong cả triều đình và khắp vương quốc, vì trên đời này không có người phụ nữ nào tốt hơn",
+        "hoàng hậu, dù với người giàu hay người nghèo. Bà được an táng rất long trọng và lộng lẫy,",
+        "còn nhà vua, chồng bà, trở nên gần như không thể an ủi nổi vì mất bà. Tuy vậy, ông vẫn cho",
+        "xây ngôi tháp và đưa các con vào đó, dưới sự trông nom của những người giám hộ thích hợp,",
+        "đúng như lời đã hứa."
       ],
       "image": {
-        "prompt": "a lonely round stone tower on a rocky island in a grey Irish sea, three young princes looking out from its windows, a royal ship anchored nearby under a cloudy sky",
-        "seed": 861241530
-      },
-      "video": {
-        "motionPrompt": "waves crash against the island rocks, seabirds wheel around the tower, clouds drift slowly",
-        "seed": 828351228
-      },
-      "voice": {}
-    },
-    {
-      "id": "ba-nuoi-ga",
-      "title": "Lời bà nuôi gà",
-      "narrator": "ke-chuyen",
-      "narration": "Ít lâu sau, các quan khuyên vua lấy vợ mới. Hoàng hậu mới sinh một con trai, và người xưa dần bị lãng quên. Một hôm hoàng hậu tới nhà bà nuôi gà bàn việc. Lúc chia tay, bà già lại chúc: nếu hoàng hậu còn tới đây lần nữa thì gãy cổ cho xong. Hoàng hậu giận dữ đòi biết lý do. Muốn biết thì phải trả công, bà già nói: đầy một bao len, đầy một vò bơ, đầy một thùng lúa mì, mà bao ấy cần len của bảy đàn cừu trong bảy năm. Hoàng hậu bằng lòng. Ấy là vì bà ngốc quá, chẳng biết vua còn ba con trai giấu trong tháp, sau này sẽ chia nhau cả nước. Không trừ chúng đi thì mẹ con bà sẽ trắng tay.",
-      "subtitles": [
-        "Ít lâu sau, các quan khuyên vua lấy vợ mới.",
-        "Hoàng hậu mới sinh một con trai, và người xưa dần bị lãng quên.",
-        "Một hôm hoàng hậu tới nhà bà nuôi gà bàn việc.",
-        "Lúc chia tay, bà già lại chúc: nếu hoàng hậu còn tới đây lần nữa thì gãy cổ cho xong.",
-        "Hoàng hậu giận dữ đòi biết lý do.",
-        "Muốn biết thì phải trả công, bà già nói: đầy một bao len, đầy một vò bơ,",
-        "đầy một thùng lúa mì, mà bao ấy cần len của bảy đàn cừu trong bảy năm.",
-        "Hoàng hậu bằng lòng.",
-        "Ấy là vì bà ngốc quá, chẳng biết vua còn ba con trai giấu trong tháp,",
-        "sau này sẽ chia nhau cả nước.",
-        "Không trừ chúng đi thì mẹ con bà sẽ trắng tay."
-      ],
-      "image": {
-        "prompt": "a dim smoky cottage full of hens, a crooked old hen-wife whispering slyly to a beautiful young queen in a purple gown, handing her a worn pack of playing cards by the hearth",
-        "seed": 3942870140,
+        "prompt": "an old Irish castle bedchamber, a dying queen with a gentle smile in a carved bed speaking to a grieving king who clasps her hand, three small boy princes standing in the doorway, a distant island tower in a grey sea seen through a narrow window",
+        "seed": 873757966,
         "character": "hoang-hau-ke"
       },
       "video": {
-        "motionPrompt": "the fire crackles, hens flutter on the rafters, the old woman's hand slides the cards toward the queen",
-        "seed": 2580837543
+        "motionPrompt": "candle flames sway as the queen's hand slips from the king's, the boys look on in the doorway, grey sea light shifts in the window, slow push-in",
+        "seed": 3290960193
       },
       "voice": {}
     },
     {
-      "id": "van-bai",
-      "title": "Ván bài",
+      "id": "hoang-hau-moi",
+      "title": "Hoàng hậu mới",
       "narrator": "ke-chuyen",
-      "narration": "Bà già bày mưu: hãy xin vua đón các hoàng tử về triều, rồi trong ngày hội, rủ chúng đánh bài. Giao hẹn trước mọi người: ai thua phải làm theo lệnh kẻ thắng. Đây là bộ bài, bà sẽ chẳng thua đâu. Hoàng hậu khéo léo thưa chuyện, vua vui vẻ đón con về. Ba chàng đẹp đẽ, giỏi giang, ai cũng mến. Hoàng hậu càng ghen ghét. Ván đầu bà thắng anh cả, ván hai thắng anh thứ, nhưng ván ba hoàng tử út thắng. Bà ra lệnh: hai người phải mang về con ngựa đeo chuông của Hiệp sĩ Thung lũng, không thì mất đầu. Cả triều kinh hãi, vì ai đi tìm con ngựa ấy đều chết. Tới lượt hoàng tử út ra lệnh: con sẽ đi cùng các anh, còn hoàng hậu phải đứng trên tháp cao nhất cung điện, chỉ ăn lúa còn nguyên bó, uống nước lạnh, cho tới khi chúng con về.",
+      "narration": "Rồi theo thời gian, các lãnh chúa và hiệp sĩ trong vương quốc khuyên nhà vua, vì ông còn trẻ, đừng sống như thế mãi nữa mà nên cưới vợ. Lời khuyên ấy thắng thế, và họ chọn cho ông một công chúa giàu có và xinh đẹp làm hoàng hậu, con gái của một vị vua láng giềng, người mà nhà vua rất yêu mến. Không lâu sau, hoàng hậu sinh một cậu con trai kháu khỉnh, đỏ hỏn và khỏe mạnh, khiến triều đình mở tiệc mừng vui, đến mức hoàng hậu quá cố hầu như bị lãng quên hẳn. Mọi chuyện tốt đẹp như thế, nhà vua và hoàng hậu sống hạnh phúc bên nhau nhiều năm. Đến một hôm, hoàng hậu có việc với một mụ chăn gà, bèn tự mình đến gặp mụ, và sau một cuộc trò chuyện dài, khi bà đang chào từ biệt, mụ chăn gà cầu mong rằng nếu bà còn trở lại với mụ lần nữa thì bà sẽ gãy cổ. Hoàng hậu giận dữ vô cùng vì sự xúc phạm táo tợn từ một thần dân hèn mọn nhất của mình, liền đòi mụ giải thích ngay lập tức lý do, nếu không bà sẽ cho xử tử mụ. Mụ chăn gà nói: Thưa bà, bà nên trả công cho tôi xứng đáng, vì lý do tôi cầu như vậy với bà dính dáng rất nhiều đến bà. Hoàng hậu hỏi: Ta phải trả ngươi cái gì? Mụ đáp: Bà phải cho tôi đầy một bao len, và tôi có một cái nồi đất cổ mà bà phải đổ đầy bơ, lại còn một cái thùng bà phải đổ đầy lúa mì cho tôi. Hoàng hậu hỏi: Một bao len thì cần bao nhiêu len? Mụ đáp: Cần bảy bầy cừu, và sự sinh sôi của chúng trong bảy năm. Hoàng hậu hỏi: Còn bơ để đổ đầy nồi của ngươi thì cần bao nhiêu? Mụ đáp: Bảy trại sữa, và sự sinh sôi của chúng trong bảy năm. Hoàng hậu hỏi: Còn cái thùng ngươi có thì cần bao nhiêu để đổ đầy? Mụ đáp: Cần số lúa mì sinh sôi của bảy thùng trong bảy năm.",
       "subtitles": [
-        "Bà già bày mưu: hãy xin vua đón các hoàng tử về triều, rồi trong ngày hội,",
-        "rủ chúng đánh bài.",
-        "Giao hẹn trước mọi người: ai thua phải làm theo lệnh kẻ thắng.",
-        "Đây là bộ bài, bà sẽ chẳng thua đâu.",
-        "Hoàng hậu khéo léo thưa chuyện, vua vui vẻ đón con về.",
-        "Ba chàng đẹp đẽ, giỏi giang, ai cũng mến.",
-        "Hoàng hậu càng ghen ghét.",
-        "Ván đầu bà thắng anh cả, ván hai thắng anh thứ, nhưng ván ba hoàng tử út thắng.",
-        "Bà ra lệnh: hai người phải mang về con ngựa đeo chuông của Hiệp sĩ Thung lũng,",
-        "không thì mất đầu.",
-        "Cả triều kinh hãi, vì ai đi tìm con ngựa ấy đều chết.",
-        "Tới lượt hoàng tử út ra lệnh: con sẽ đi cùng các anh,",
-        "còn hoàng hậu phải đứng trên tháp cao nhất cung điện, chỉ ăn lúa còn nguyên bó,",
-        "uống nước lạnh, cho tới khi chúng con về."
+        "Rồi theo thời gian, các lãnh chúa và hiệp sĩ trong vương quốc khuyên nhà vua, vì ông còn",
+        "trẻ, đừng sống như thế mãi nữa mà nên cưới vợ. Lời khuyên ấy thắng thế, và họ chọn cho ông",
+        "một công chúa giàu có và xinh đẹp làm hoàng hậu, con gái của một vị vua láng giềng, người",
+        "mà nhà vua rất yêu mến. Không lâu sau, hoàng hậu sinh một cậu con trai kháu khỉnh, đỏ hỏn",
+        "và khỏe mạnh, khiến triều đình mở tiệc mừng vui, đến mức hoàng hậu quá cố hầu như bị lãng",
+        "quên hẳn. Mọi chuyện tốt đẹp như thế, nhà vua và hoàng hậu sống hạnh phúc bên nhau nhiều",
+        "năm. Đến một hôm, hoàng hậu có việc với một mụ chăn gà, bèn tự mình đến gặp mụ, và sau một",
+        "cuộc trò chuyện dài, khi bà đang chào từ biệt, mụ chăn gà cầu mong rằng nếu bà còn trở lại",
+        "với mụ lần nữa thì bà sẽ gãy cổ. Hoàng hậu giận dữ vô cùng vì sự xúc phạm táo tợn từ một",
+        "thần dân hèn mọn nhất của mình, liền đòi mụ giải thích ngay lập tức lý do, nếu không bà sẽ",
+        "cho xử tử mụ. Mụ chăn gà nói: Thưa bà, bà nên trả công cho tôi xứng đáng, vì lý do tôi cầu",
+        "như vậy với bà dính dáng rất nhiều đến bà. Hoàng hậu hỏi: Ta phải trả ngươi cái gì? Mụ",
+        "đáp: Bà phải cho tôi đầy một bao len, và tôi có một cái nồi đất cổ mà bà phải đổ đầy bơ,",
+        "lại còn một cái thùng bà phải đổ đầy lúa mì cho tôi. Hoàng hậu hỏi: Một bao len thì cần",
+        "bao nhiêu len? Mụ đáp: Cần bảy bầy cừu, và sự sinh sôi của chúng trong bảy năm. Hoàng hậu",
+        "hỏi: Còn bơ để đổ đầy nồi của ngươi thì cần bao nhiêu? Mụ đáp: Bảy trại sữa, và sự sinh",
+        "sôi của chúng trong bảy năm. Hoàng hậu hỏi: Còn cái thùng ngươi có thì cần bao nhiêu để đổ",
+        "đầy? Mụ đáp: Cần số lúa mì sinh sôi của bảy thùng trong bảy năm."
       ],
       "image": {
-        "prompt": "a great feast hall with a long table, the scheming queen playing cards against the youngest prince, courtiers crowding around, the older princes looking worried, torches on the walls",
-        "seed": 3082178850,
+        "prompt": "a young beautiful new queen in a rich gown sitting beside the king in a feasting hall, an infant prince in a cradle between them, courtiers dancing and raising cups, and a humble thatched hen-wife's cottage glimpsed through a window, where the queen walks toward it alone",
+        "seed": 2294994206,
+        "character": "hoang-hau-ke"
+      },
+      "video": {
+        "motionPrompt": "feast lamps flicker, the queen turns from the cradle and slips out the door, the thatched cottage appears across the meadow, slow tracking shot",
+        "seed": 47952825
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-xui-cua-ba-lao",
+      "title": "Lời xúi của mụ chăn gà",
+      "narrator": "ke-chuyen",
+      "narration": "Hoàng hậu nói: Đó là một số lượng lớn, nhưng lý do chắc phải phi thường, và trước khi ta cần đến, ta sẽ cho ngươi tất cả những gì ngươi đòi. Mụ chăn gà nói: Được rồi, thưa bà, lý do là vì bà ngốc quá, không để ý hay phát hiện ra những chuyện nguy hiểm và có hại cho chính bà và con bà. Hoàng hậu hỏi: Chuyện gì vậy? Mụ đáp: Chuyện là thế này: chồng bà, nhà vua, có ba người con trai đẹp trai do bà hoàng hậu quá cố sinh ra, ông giữ chúng nhốt trong một cái tháp cho đến khi chúng trưởng thành, định chia vương quốc cho chúng, và để con trai bà tự đi tìm vận may. Bây giờ, nếu bà không tìm cách hãm hại chúng thì con bà, và có lẽ cả bà, rốt cuộc sẽ bị bỏ rơi trong cảnh cô quạnh. Hoàng hậu hỏi: Vậy bà khuyên ta nên làm gì? Ta hoàn toàn không biết phải xử trí việc này ra sao. Mụ chăn gà đáp: Bà phải báo cho nhà vua biết rằng bà nghe nói về các con trai của ông, và rất ngạc nhiên vì ông giấu chúng với bà bấy lâu nay. Hãy nói bà muốn gặp chúng, rằng đã đến lúc phải thả chúng ra, và bà muốn nhà vua đưa chúng về triều đình. Khi ấy nhà vua sẽ làm vậy, và vì chuyện đó sẽ có một bữa tiệc lớn được chuẩn bị, cùng với đủ thứ trò vui để giải trí cho dân chúng. Trong những cuộc vui ấy, bà hãy mời các hoàng tử đánh bài với bà, và họ sẽ không từ chối. Bấy giờ bà phải đặt một giao ước, rằng nếu bà thắng thì họ phải làm bất cứ điều gì bà ra lệnh, và nếu họ thắng thì bà phải làm bất cứ điều gì họ ra lệnh. Giao ước ấy phải được lập trước cả hội đồng, và đây là một bộ bài mà tôi nghĩ bà sẽ không thua đâu. Hoàng hậu lập tức cầm lấy bộ bài cũ kỹ ấy, và sau khi cảm ơn mụ chăn gà vì lời chỉ dạy tử tế, bà trở về cung điện, nơi bà chẳng yên lòng chút nào cho đến khi nói được với nhà vua về các con của ông.",
+      "subtitles": [
+        "Hoàng hậu nói: Đó là một số lượng lớn, nhưng lý do chắc phải phi thường, và trước khi ta",
+        "cần đến, ta sẽ cho ngươi tất cả những gì ngươi đòi. Mụ chăn gà nói: Được rồi, thưa bà, lý",
+        "do là vì bà ngốc quá, không để ý hay phát hiện ra những chuyện nguy hiểm và có hại cho",
+        "chính bà và con bà. Hoàng hậu hỏi: Chuyện gì vậy? Mụ đáp: Chuyện là thế này: chồng bà, nhà",
+        "vua, có ba người con trai đẹp trai do bà hoàng hậu quá cố sinh ra, ông giữ chúng nhốt",
+        "trong một cái tháp cho đến khi chúng trưởng thành, định chia vương quốc cho chúng, và để",
+        "con trai bà tự đi tìm vận may. Bây giờ, nếu bà không tìm cách hãm hại chúng thì con bà, và",
+        "có lẽ cả bà, rốt cuộc sẽ bị bỏ rơi trong cảnh cô quạnh. Hoàng hậu hỏi: Vậy bà khuyên ta",
+        "nên làm gì? Ta hoàn toàn không biết phải xử trí việc này ra sao. Mụ chăn gà đáp: Bà phải",
+        "báo cho nhà vua biết rằng bà nghe nói về các con trai của ông, và rất ngạc nhiên vì ông",
+        "giấu chúng với bà bấy lâu nay. Hãy nói bà muốn gặp chúng, rằng đã đến lúc phải thả chúng",
+        "ra, và bà muốn nhà vua đưa chúng về triều đình. Khi ấy nhà vua sẽ làm vậy, và vì chuyện đó",
+        "sẽ có một bữa tiệc lớn được chuẩn bị, cùng với đủ thứ trò vui để giải trí cho dân chúng.",
+        "Trong những cuộc vui ấy, bà hãy mời các hoàng tử đánh bài với bà, và họ sẽ không từ chối.",
+        "Bấy giờ bà phải đặt một giao ước, rằng nếu bà thắng thì họ phải làm bất cứ điều gì bà ra",
+        "lệnh, và nếu họ thắng thì bà phải làm bất cứ điều gì họ ra lệnh. Giao ước ấy phải được lập",
+        "trước cả hội đồng, và đây là một bộ bài mà tôi nghĩ bà sẽ không thua đâu. Hoàng hậu lập",
+        "tức cầm lấy bộ bài cũ kỹ ấy, và sau khi cảm ơn mụ chăn gà vì lời chỉ dạy tử tế, bà trở về",
+        "cung điện, nơi bà chẳng yên lòng chút nào cho đến khi nói được với nhà vua về các con của",
+        "ông."
+      ],
+      "image": {
+        "prompt": "a cramped thatched cottage lit by a smoky fire, a sly old hen-wife leaning toward a richly dressed young queen and whispering, a worn deck of cards held out in her gnarled hand, hens roosting on the rafters, a faint tower on an island seen through the doorway",
+        "seed": 2722174838,
+        "character": "hoang-hau-ke"
+      },
+      "video": {
+        "motionPrompt": "smoke curls from the fire, the hen-wife's gnarled hand slides the cards across the table, the queen's eyes narrow, slow push-in",
+        "seed": 3371184322
+      },
+      "voice": {}
+    },
+    {
+      "id": "van-bai-dinh-menh",
+      "title": "Ván bài định mệnh",
+      "narrator": "ke-chuyen",
+      "narration": "Cuối cùng bà thốt ra chuyện ấy với ông bằng một cách rất lịch sự và duyên dáng, khiến ông không thấy chút mưu mô hay toan tính nào trong đó. Ông sẵn lòng chấp thuận mong muốn của bà, và các hoàng tử được triệu từ ngọn tháp về triều đình, họ mừng rỡ vui vẻ vì được thoát khỏi cảnh giam cầm ấy. Cả ba đều rất đẹp trai, rất thành thạo mọi môn nghệ thuật và thể thao, nên họ được lòng mến và sự kính trọng của tất cả những ai gặp họ. Hoàng hậu, vốn đã ghen ghét họ hơn bao giờ hết trong thâm tâm, thấy mọi tiệc tùng và vui chơi kéo dài như một thế kỷ, vì bà nóng lòng được nêu lời đề nghị, đặt trọn hy vọng vào sức mạnh của bộ bài mụ chăn gà đã đưa. Cuối cùng cuộc hội họp hoàng gia này bắt đầu vui chơi và đùa giỡn đủ mọi trò, và hoàng hậu rất khôn khéo thách ba hoàng tử đánh bài với bà, lập giao ước với họ đúng như bà đã được dạy. Họ nhận lời thách thức, không chút nghi ngờ. Hoàng tử cả chơi ván đầu với bà, và bà thắng. Rồi hoàng tử thứ hai chơi, và bà cũng thắng ván ấy. Hoàng tử út chơi ván cuối cùng với bà, và chàng thắng ván ấy, điều đó làm bà đau đớn vô cùng vì bà không nắm được chàng, trong khi chàng lại là người đẹp trai nhất và được yêu quý nhất trong ba người, như nắm được hai người kia. Tuy nhiên, ai nấy đều nóng lòng muốn nghe hoàng hậu ra lệnh gì với hai vị hoàng tử, không ngờ rằng bà ấp ủ ý đồ xấu nào. Dù là mụ chăn gà đã dạy bà, hay là do chính sự hiểu biết của bà, tôi không rõ, nhưng bà tuyên bố họ phải đi mang về cho bà con Ngựa Chuông của Hiệp Sĩ Thung Lũng, nếu không họ sẽ mất đầu.",
+      "subtitles": [
+        "Cuối cùng bà thốt ra chuyện ấy với ông bằng một cách rất lịch sự và duyên dáng, khiến ông",
+        "không thấy chút mưu mô hay toan tính nào trong đó. Ông sẵn lòng chấp thuận mong muốn của",
+        "bà, và các hoàng tử được triệu từ ngọn tháp về triều đình, họ mừng rỡ vui vẻ vì được thoát",
+        "khỏi cảnh giam cầm ấy. Cả ba đều rất đẹp trai, rất thành thạo mọi môn nghệ thuật và thể",
+        "thao, nên họ được lòng mến và sự kính trọng của tất cả những ai gặp họ. Hoàng hậu, vốn đã",
+        "ghen ghét họ hơn bao giờ hết trong thâm tâm, thấy mọi tiệc tùng và vui chơi kéo dài như",
+        "một thế kỷ, vì bà nóng lòng được nêu lời đề nghị, đặt trọn hy vọng vào sức mạnh của bộ bài",
+        "mụ chăn gà đã đưa. Cuối cùng cuộc hội họp hoàng gia này bắt đầu vui chơi và đùa giỡn đủ",
+        "mọi trò, và hoàng hậu rất khôn khéo thách ba hoàng tử đánh bài với bà, lập giao ước với họ",
+        "đúng như bà đã được dạy. Họ nhận lời thách thức, không chút nghi ngờ. Hoàng tử cả chơi ván",
+        "đầu với bà, và bà thắng. Rồi hoàng tử thứ hai chơi, và bà cũng thắng ván ấy. Hoàng tử út",
+        "chơi ván cuối cùng với bà, và chàng thắng ván ấy, điều đó làm bà đau đớn vô cùng vì bà",
+        "không nắm được chàng, trong khi chàng lại là người đẹp trai nhất và được yêu quý nhất",
+        "trong ba người, như nắm được hai người kia. Tuy nhiên, ai nấy đều nóng lòng muốn nghe",
+        "hoàng hậu ra lệnh gì với hai vị hoàng tử, không ngờ rằng bà ấp ủ ý đồ xấu nào. Dù là mụ",
+        "chăn gà đã dạy bà, hay là do chính sự hiểu biết của bà, tôi không rõ, nhưng bà tuyên bố họ",
+        "phải đi mang về cho bà con Ngựa Chuông của Hiệp Sĩ Thung Lũng, nếu không họ sẽ mất đầu."
+      ],
+      "image": {
+        "prompt": "a great hall during a royal festival, a cunning young queen at a card table across from three handsome princes, the court watching with excitement, the eldest and second prince bowing in defeat while the youngest triumphantly lays down his hand, the queen's smile faltering",
+        "seed": 2826563067,
+        "character": "hoang-hau-ke"
+      },
+      "video": {
+        "motionPrompt": "cards slap on the table in turn, courtiers lean in, the youngest prince lays down his winning hand, the queen's smile freezes, slow push-in",
+        "seed": 382801680
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-hoang-tu-len-duong",
+      "title": "Ba hoàng tử lên đường",
+      "narrator": "ke-chuyen",
+      "narration": "Hai vị hoàng tử trẻ chẳng chút bận tâm, vì không biết mình phải làm gì, cũng không biết con ngựa ấy là gì. Nhưng cả triều đình sửng sốt trước yêu cầu của hoàng hậu, vì biết rõ rằng không bao giờ họ có thể kiếm được con ngựa ấy, bởi tất cả những ai từng đi tìm nó đều chết trong cuộc tìm kiếm. Tuy nhiên họ không thể rút lại giao ước, và hoàng tử út được yêu cầu nói xem chàng có điều gì muốn đòi hỏi hoàng hậu, vì chàng đã thắng ván của mình. Chàng nói: Các anh tôi bây giờ sắp đi du hành, và như tôi hiểu thì đó là một cuộc hành trình nguy hiểm, trong đó họ không biết sẽ đi đường nào hay điều gì có thể xảy đến. Vì vậy tôi quyết định không ở lại đây mà sẽ đi cùng họ, dù có chuyện gì xảy ra. Và theo giao ước, tôi yêu cầu và ra lệnh rằng hoàng hậu phải đứng trên ngọn tháp cao nhất của cung điện, cho đến khi chúng tôi trở về hoặc biết chắc rằng chúng tôi đã chết, chỉ ăn lúa nguyên bó và uống nước lạnh, dù có phải bảy năm hay hơn nữa.",
+      "subtitles": [
+        "Hai vị hoàng tử trẻ chẳng chút bận tâm, vì không biết mình phải làm gì, cũng không biết",
+        "con ngựa ấy là gì. Nhưng cả triều đình sửng sốt trước yêu cầu của hoàng hậu, vì biết rõ",
+        "rằng không bao giờ họ có thể kiếm được con ngựa ấy, bởi tất cả những ai từng đi tìm nó đều",
+        "chết trong cuộc tìm kiếm. Tuy nhiên họ không thể rút lại giao ước, và hoàng tử út được yêu",
+        "cầu nói xem chàng có điều gì muốn đòi hỏi hoàng hậu, vì chàng đã thắng ván của mình. Chàng",
+        "nói: Các anh tôi bây giờ sắp đi du hành, và như tôi hiểu thì đó là một cuộc hành trình",
+        "nguy hiểm, trong đó họ không biết sẽ đi đường nào hay điều gì có thể xảy đến. Vì vậy tôi",
+        "quyết định không ở lại đây mà sẽ đi cùng họ, dù có chuyện gì xảy ra. Và theo giao ước, tôi",
+        "yêu cầu và ra lệnh rằng hoàng hậu phải đứng trên ngọn tháp cao nhất của cung điện, cho đến",
+        "khi chúng tôi trở về hoặc biết chắc rằng chúng tôi đã chết, chỉ ăn lúa nguyên bó và uống",
+        "nước lạnh, dù có phải bảy năm hay hơn nữa."
+      ],
+      "image": {
+        "prompt": "a young prince declaring his demand before the court, the hall in uproar, three princes riding away from the castle at dawn on a winding road, and in the distance a tall tower where a proud queen stands at the top with a sheaf of corn and a jug of water",
+        "seed": 1164201249,
         "character": "hoang-tu-ut"
       },
       "video": {
-        "motionPrompt": "the prince lays down his winning card, the queen's smile freezes, courtiers lean in and murmur",
-        "seed": 1211551090
+        "motionPrompt": "the court gasps and murmurs, the three princes ride out of the gate, the queen stands high on the tower in the wind, slow tracking shot",
+        "seed": 2338667490
       },
       "voice": {}
     },
     {
-      "id": "gap-trom-den",
-      "title": "Gặp Trộm Đen",
+      "id": "tay-trom-den",
+      "title": "Tay trộm Sloan",
       "narrator": "ke-chuyen",
-      "narration": "Ba hoàng tử lên đường, gặp một ông già hơi khập khiễng đội chiếc mũ đen kỳ lạ. Hoàng tử út hỏi tên. Ta là Trộm xứ Sloan, người ta còn gọi là Trộm Đen vì cái mũ này. Nghe chuyện ba chàng, ông lắc đầu: các cậu không biết mình liều thế nào đâu. Bảy năm nay ta rình con ngựa ấy mà chẳng trộm được. Nó khoác tấm lụa gắn sáu mươi cái chuông, ai lại gần là nó lắc mình, chuông vang khắp vùng. Kẻ nào bị hiệp sĩ bắt đều bị ném vào lò lửa đỏ rực. Về không có ngựa thì mất đầu, hoàng tử nói, đường nào cũng chết. Nếu là ta, ta thà chết dưới tay hiệp sĩ còn hơn dưới tay mụ hoàng hậu độc ác, Trộm Đen nói. Ta sẽ dẫn đường, sống chết có nhau.",
+      "narration": "Mọi việc đã được định đoạt như thế, ba hoàng tử rời triều đình, lưng đeo hành trang, đi tìm cung điện của Hiệp Sĩ Thung Lũng. Đi dọc đường, họ gặp một người đàn ông hơi khập khiễng, có vẻ đã khá lớn tuổi, và chẳng mấy chốc họ chuyện trò với nhau. Hoàng tử út hỏi tên người lạ, hoặc vì sao ông đội chiếc mũ đen kỳ lạ như thế. Ông nói: Người ta gọi tôi là Tên Trộm Sloan, và đôi khi là Tên Trộm Đen vì chiếc mũ. Rồi ông kể cho hoàng tử nghe phần lớn những cuộc phiêu lưu của mình, và hỏi lại họ đi đâu hoặc đang làm gì. Hoàng tử, sẵn lòng thỏa mãn yêu cầu của ông, kể lại sự tình từ đầu đến cuối. Chàng nói: Giờ chúng tôi đang đi, nhưng không biết có đúng đường không. Tên Trộm Đen nói: Ôi, các chàng dũng cảm ơi, các chàng chẳng biết mình đang gặp nguy hiểm đến thế nào! Tôi cũng đi tìm con ngựa ấy suốt bảy năm rồi mà chẳng bao giờ trộm được nó, vì nó có một tấm phủ bằng lụa trong chuồng, với sáu mươi cái chuông gắn vào đó, và hễ ai đến gần chỗ ấy thì nó lập tức phát hiện và rũ mình. Nhờ tiếng chuông ấy, không chỉ vị hiệp sĩ và các lính canh của ông, mà cả vùng xung quanh đều bị báo động, nên không thể nào bắt được nó, và những kẻ không may bị Hiệp Sĩ Thung Lũng bắt sẽ bị luộc trong lò lửa nung đỏ. Hoàng tử út nói: Trời ơi, thế thì chúng ta làm sao đây? Nếu chúng ta trở về mà không có con ngựa thì sẽ mất đầu, vậy là chúng ta rơi vào thế khó cả hai bề. Tên Trộm Sloan nói: Thế này nhé, nếu là tôi thì tôi thà chết dưới tay hiệp sĩ còn hơn chết dưới tay bà hoàng hậu độc ác. Hơn nữa, chính tôi sẽ đi cùng các chàng để chỉ đường, và dù các chàng gặp vận may nào, tôi cũng chấp nhận chung vận ấy.",
       "subtitles": [
-        "Ba hoàng tử lên đường, gặp một ông già hơi khập khiễng đội chiếc mũ đen kỳ lạ.",
-        "Hoàng tử út hỏi tên.",
-        "Ta là Trộm xứ Sloan, người ta còn gọi là Trộm Đen vì cái mũ này.",
-        "Nghe chuyện ba chàng, ông lắc đầu: các cậu không biết mình liều thế nào đâu.",
-        "Bảy năm nay ta rình con ngựa ấy mà chẳng trộm được.",
-        "Nó khoác tấm lụa gắn sáu mươi cái chuông, ai lại gần là nó lắc mình,",
-        "chuông vang khắp vùng.",
-        "Kẻ nào bị hiệp sĩ bắt đều bị ném vào lò lửa đỏ rực.",
-        "Về không có ngựa thì mất đầu, hoàng tử nói, đường nào cũng chết.",
-        "Nếu là ta, ta thà chết dưới tay hiệp sĩ còn hơn dưới tay mụ hoàng hậu độc ác,",
-        "Trộm Đen nói. Ta sẽ dẫn đường, sống chết có nhau."
+        "Mọi việc đã được định đoạt như thế, ba hoàng tử rời triều đình, lưng đeo hành trang, đi",
+        "tìm cung điện của Hiệp Sĩ Thung Lũng. Đi dọc đường, họ gặp một người đàn ông hơi khập",
+        "khiễng, có vẻ đã khá lớn tuổi, và chẳng mấy chốc họ chuyện trò với nhau. Hoàng tử út hỏi",
+        "tên người lạ, hoặc vì sao ông đội chiếc mũ đen kỳ lạ như thế. Ông nói: Người ta gọi tôi là",
+        "Tên Trộm Sloan, và đôi khi là Tên Trộm Đen vì chiếc mũ. Rồi ông kể cho hoàng tử nghe phần",
+        "lớn những cuộc phiêu lưu của mình, và hỏi lại họ đi đâu hoặc đang làm gì. Hoàng tử, sẵn",
+        "lòng thỏa mãn yêu cầu của ông, kể lại sự tình từ đầu đến cuối. Chàng nói: Giờ chúng tôi",
+        "đang đi, nhưng không biết có đúng đường không. Tên Trộm Đen nói: Ôi, các chàng dũng cảm",
+        "ơi, các chàng chẳng biết mình đang gặp nguy hiểm đến thế nào! Tôi cũng đi tìm con ngựa ấy",
+        "suốt bảy năm rồi mà chẳng bao giờ trộm được nó, vì nó có một tấm phủ bằng lụa trong",
+        "chuồng, với sáu mươi cái chuông gắn vào đó, và hễ ai đến gần chỗ ấy thì nó lập tức phát",
+        "hiện và rũ mình. Nhờ tiếng chuông ấy, không chỉ vị hiệp sĩ và các lính canh của ông, mà cả",
+        "vùng xung quanh đều bị báo động, nên không thể nào bắt được nó, và những kẻ không may bị",
+        "Hiệp Sĩ Thung Lũng bắt sẽ bị luộc trong lò lửa nung đỏ. Hoàng tử út nói: Trời ơi, thế thì",
+        "chúng ta làm sao đây? Nếu chúng ta trở về mà không có con ngựa thì sẽ mất đầu, vậy là",
+        "chúng ta rơi vào thế khó cả hai bề. Tên Trộm Sloan nói: Thế này nhé, nếu là tôi thì tôi",
+        "thà chết dưới tay hiệp sĩ còn hơn chết dưới tay bà hoàng hậu độc ác. Hơn nữa, chính tôi sẽ",
+        "đi cùng các chàng để chỉ đường, và dù các chàng gặp vận may nào, tôi cũng chấp nhận chung",
+        "vận ấy."
       ],
       "image": {
-        "prompt": "a misty green Irish road between stone walls, three young princes meeting a limping old rogue in a black cap leaning on his stick and grinning, hills fading into fog behind",
-        "seed": 1690326292,
+        "prompt": "three princes riding along a country road, meeting a slightly lame middle-aged man with a rough black cap sitting at the roadside, who rises and walks beside them gesturing as he talks, a forked road ahead and green hills in the distance",
+        "seed": 1785492279,
         "character": "trom-den"
       },
       "video": {
-        "motionPrompt": "fog rolls over the hills, the old thief doffs his black cap with a flourish, the princes exchange glances",
-        "seed": 4037834734
+        "motionPrompt": "the black-capped man falls into step beside the youngest prince, hands gesturing as he talks, hills drift by, slow tracking shot",
+        "seed": 1075376560
       },
       "voice": {}
     },
     {
-      "id": "con-ngua-deo-chuong",
-      "title": "Con ngựa đeo chuông",
+      "id": "lau-dai-hiep-si",
+      "title": "Lâu đài hiệp sĩ",
       "narrator": "ke-chuyen",
-      "narration": "Trộm Đen dẫn họ tới gần lâu đài hiệp sĩ, chờ tới nửa đêm, khi mọi người say ngủ, vì con ngựa là kẻ canh duy nhất ở đó. Nhưng họ chưa tới chuồng ngựa thì nó đã hí vang, lắc mình, sáu mươi cái chuông reo inh ỏi. Hiệp sĩ và lính tráng choàng dậy. Bốn người bị vây bắt, giải vào gian ngục có lò lửa cháy suốt ngày đêm. Lũ trộm to gan, hiệp sĩ quát, ta sẽ không thiêu cả lũ một lần, mà từng đứa một, để đứa sau cùng phải nhìn bạn mình chịu tội. Nhóm lửa lên, thiêu đứa trẻ nhất trước, cuối cùng là lão già mũ đen kia, trông lão như đầu sỏ.",
+      "narration": "Họ cảm ơn ông chân thành, hết lời, vì lòng tốt ấy, mừng như vừa gặp được người thân, và vì ông thuộc đường rõ, nên chẳng bao lâu ông đã đưa họ đến nơi nhìn thấy lâu đài của vị hiệp sĩ. Ông nói: Bây giờ chúng ta phải nằm yên ở đây cho đến khi đêm xuống, vì tôi biết mọi lối đi ở nơi này, và nếu có cơ hội nào thì đó là lúc mọi người đều nghỉ ngơi, vì con ngựa là toàn bộ sự canh giữ mà hiệp sĩ có ở đó. Đúng như thế, vào đúng giờ khuya khoắt của đêm, ba hoàng tử con vua cùng Tên Trộm Sloan cố bắt Ngựa Chuông để mang nó đi. Nhưng trước khi họ kịp đến chuồng ngựa, con ngựa đã hí lên khủng khiếp và rũ mình đến nỗi những cái chuông reo lên ầm ĩ, và vị hiệp sĩ cùng tất cả người của ông bật dậy trong chốc lát. Tên Trộm Đen và các hoàng tử định trốn thoát, nhưng bất ngờ bị lính canh của hiệp sĩ vây quanh và bắt làm tù binh. Họ bị đưa đến cái góc tối tăm của cung điện nơi vị hiệp sĩ có một cái lò luôn sôi, nơi ông ném tất cả những kẻ phạm tội nào cản đường ông, và chỉ trong chốc lát lò ấy sẽ nuốt hết họ. Hiệp Sĩ Thung Lũng nói: Lũ vô lại láo xược! Sao bọn bay dám làm một việc táo bạo như trộm ngựa của ta? Hãy xem phần thưởng cho sự dại dột của bọn bay đây. Để trừng phạt nặng hơn, ta sẽ không luộc tất cả bọn bay cùng một lúc, mà lần lượt từng người một, để kẻ nào sống sót sẽ chứng kiến nỗi đau khốn khổ của các bạn đồng hành bất hạnh. Nói thế, ông ra lệnh cho kẻ hầu khuấy lửa lên. Ông nói: Chúng ta sẽ luộc kẻ trông lớn tuổi nhất trong số các chàng trai này trước, rồi cứ thế đến người cuối cùng, tức là lão tướng đội mũ đen này. Hắn có vẻ là kẻ đứng đầu, và trông như người từng trải qua nhiều gian khổ. Tên Trộm Đen nói: Tôi cũng từng suýt chết như vị hoàng tử này, mà vẫn thoát, và chàng cũng sẽ thoát thôi. Hiệp sĩ nói: Không, ngươi chưa bao giờ như thế, vì hắn chỉ còn hai ba phút nữa là hết đời. Tên Trộm Đen nói: Nhưng tôi từng chỉ còn cách cái chết đúng một khoảnh khắc, mà tôi vẫn còn ở đây. Hiệp sĩ hỏi: Sao thế? Ta muốn nghe lắm, vì dường như điều đó bất khả thi, ngươi lại còn đang đứng đây. Tên Trộm Đen nói: Nếu ngài nghĩ rằng nguy hiểm tôi từng gặp vượt hơn cả nguy hiểm của chàng trai này, ngài có tha tội cho chàng không? Hiệp sĩ nói: Ta sẽ tha, ta hứa như thế, vậy cứ kể chuyện của ngươi đi.",
       "subtitles": [
-        "Trộm Đen dẫn họ tới gần lâu đài hiệp sĩ, chờ tới nửa đêm, khi mọi người say ngủ,",
-        "vì con ngựa là kẻ canh duy nhất ở đó.",
-        "Nhưng họ chưa tới chuồng ngựa thì nó đã hí vang, lắc mình, sáu mươi cái chuông reo inh ỏi.",
-        "Hiệp sĩ và lính tráng choàng dậy.",
-        "Bốn người bị vây bắt, giải vào gian ngục có lò lửa cháy suốt ngày đêm.",
-        "Lũ trộm to gan, hiệp sĩ quát, ta sẽ không thiêu cả lũ một lần, mà từng đứa một,",
-        "để đứa sau cùng phải nhìn bạn mình chịu tội.",
-        "Nhóm lửa lên, thiêu đứa trẻ nhất trước, cuối cùng là lão già mũ đen kia,",
-        "trông lão như đầu sỏ."
+        "Họ cảm ơn ông chân thành, hết lời, vì lòng tốt ấy, mừng như vừa gặp được người thân, và vì",
+        "ông thuộc đường rõ, nên chẳng bao lâu ông đã đưa họ đến nơi nhìn thấy lâu đài của vị hiệp",
+        "sĩ. Ông nói: Bây giờ chúng ta phải nằm yên ở đây cho đến khi đêm xuống, vì tôi biết mọi",
+        "lối đi ở nơi này, và nếu có cơ hội nào thì đó là lúc mọi người đều nghỉ ngơi, vì con ngựa",
+        "là toàn bộ sự canh giữ mà hiệp sĩ có ở đó. Đúng như thế, vào đúng giờ khuya khoắt của đêm,",
+        "ba hoàng tử con vua cùng Tên Trộm Sloan cố bắt Ngựa Chuông để mang nó đi. Nhưng trước khi",
+        "họ kịp đến chuồng ngựa, con ngựa đã hí lên khủng khiếp và rũ mình đến nỗi những cái chuông",
+        "reo lên ầm ĩ, và vị hiệp sĩ cùng tất cả người của ông bật dậy trong chốc lát. Tên Trộm Đen",
+        "và các hoàng tử định trốn thoát, nhưng bất ngờ bị lính canh của hiệp sĩ vây quanh và bắt",
+        "làm tù binh. Họ bị đưa đến cái góc tối tăm của cung điện nơi vị hiệp sĩ có một cái lò luôn",
+        "sôi, nơi ông ném tất cả những kẻ phạm tội nào cản đường ông, và chỉ trong chốc lát lò ấy",
+        "sẽ nuốt hết họ. Hiệp Sĩ Thung Lũng nói: Lũ vô lại láo xược! Sao bọn bay dám làm một việc",
+        "táo bạo như trộm ngựa của ta? Hãy xem phần thưởng cho sự dại dột của bọn bay đây. Để trừng",
+        "phạt nặng hơn, ta sẽ không luộc tất cả bọn bay cùng một lúc, mà lần lượt từng người một,",
+        "để kẻ nào sống sót sẽ chứng kiến nỗi đau khốn khổ của các bạn đồng hành bất hạnh. Nói thế,",
+        "ông ra lệnh cho kẻ hầu khuấy lửa lên. Ông nói: Chúng ta sẽ luộc kẻ trông lớn tuổi nhất",
+        "trong số các chàng trai này trước, rồi cứ thế đến người cuối cùng, tức là lão tướng đội mũ",
+        "đen này. Hắn có vẻ là kẻ đứng đầu, và trông như người từng trải qua nhiều gian khổ. Tên",
+        "Trộm Đen nói: Tôi cũng từng suýt chết như vị hoàng tử này, mà vẫn thoát, và chàng cũng sẽ",
+        "thoát thôi. Hiệp sĩ nói: Không, ngươi chưa bao giờ như thế, vì hắn chỉ còn hai ba phút nữa",
+        "là hết đời. Tên Trộm Đen nói: Nhưng tôi từng chỉ còn cách cái chết đúng một khoảnh khắc,",
+        "mà tôi vẫn còn ở đây. Hiệp sĩ hỏi: Sao thế? Ta muốn nghe lắm, vì dường như điều đó bất khả",
+        "thi, ngươi lại còn đang đứng đây. Tên Trộm Đen nói: Nếu ngài nghĩ rằng nguy hiểm tôi từng",
+        "gặp vượt hơn cả nguy hiểm của chàng trai này, ngài có tha tội cho chàng không? Hiệp sĩ",
+        "nói: Ta sẽ tha, ta hứa như thế, vậy cứ kể chuyện của ngươi đi."
       ],
       "image": {
-        "prompt": "a gloomy stone dungeon in a castle with a huge glowing furnace, guards holding three young princes and an old rogue in a black cap, a stern bearded knight in a fur mantle pointing at them",
-        "seed": 2939731296,
+        "prompt": "a stern armoured knight in a gloomy hall at night with torches, soldiers holding three young princes and a black-capped lame man, a huge furnace glowing red in the background, servants stoking the fire, the youngest prince defiant, a great horse with a cloak hung with sixty silver bells in a stable beyond",
+        "seed": 3583655023,
         "character": "hiep-si"
       },
       "video": {
-        "motionPrompt": "the furnace flames roar and glow, sparks fly, the knight points sternly as guards push the prisoners forward",
-        "seed": 2899100934
+        "motionPrompt": "bells jangle wildly in the stable, torches flare as soldiers rush in, the furnace roars as servants stoke it, slow push-in on the knight's stern face",
+        "seed": 3422143166
       },
       "voice": {}
     },
     {
       "id": "ba-mu-phu-thuy",
-      "title": "Ba mụ phù thuỷ",
+      "title": "Ba mụ phù thủy",
       "narrator": "ke-chuyen",
-      "narration": "Ta từng cận kề cái chết hơn cậu bé kia, mà vẫn thoát, Trộm Đen nói. Nếu chuyện của ta nguy hơn, ngài có tha cho cậu ấy không? Được, kể đi. Hồi trẻ ta hoang lắm. Một đêm lỡ đường, ta trèo lên nằm trên xà một lò sấy cũ. Ba mụ phù thuỷ mang ba bao vàng vào, gối đầu lên mà ngủ, còn bảo nhau: Trộm Đen mà tới thì chẳng còn một xu. Chúng ngủ say, ta lén thay mỗi bao vàng bằng một tảng than bùn rồi chuồn. Chẳng bao lâu, một con chó săn, một con thỏ và một con diều hâu đuổi theo ta. Ta trèo lên cây. Một mụ hoá thành cái đe, một mụ hoá thành thỏi sắt, mụ thứ ba rèn chúng thành chiếc rìu mà chặt cây. Cây nghiêng dần, chỉ một nhát nữa là đổ. Đúng lúc rìu giơ lên, gà gáy sáng, ba mụ biến mất, ta mang vàng chạy thoát. Hiệp sĩ gật gù, tha cho hoàng tử cả.",
+      "narration": "Ông kể: Thưa ngài, hồi trẻ tôi là một đứa rất hoang dại, và đã trải qua nhiều gian nan. Có một lần, khi đang lang thang, trời tối mà tôi không tìm được chỗ trọ. Cuối cùng tôi đến một cái lò sấy cũ, và vì rất mệt, tôi leo lên nằm trên những cây xà. Tôi nằm chưa được bao lâu thì thấy ba mụ phù thủy bước vào với ba bao vàng. Mỗi mụ đặt bao vàng của mình dưới đầu như để ngủ. Tôi nghe một mụ nói với mụ kia rằng nếu Tên Trộm Đen đến chỗ chúng khi chúng ngủ thì hắn sẽ không để lại cho chúng một xu. Qua câu chuyện của chúng, tôi biết rằng ai cũng đã nghe tên tôi, mặc dù tôi vẫn im lặng như cái chết suốt cuộc trò chuyện ấy. Cuối cùng chúng ngủ say, và tôi nhẹ nhàng bò xuống, thấy có mấy tảng than bùn tiện tay, tôi đặt một tảng dưới đầu mỗi mụ, rồi cuốn gói với chỗ vàng của chúng, chạy đi nhanh hết sức có thể.",
       "subtitles": [
-        "Ta từng cận kề cái chết hơn cậu bé kia, mà vẫn thoát, Trộm Đen nói.",
-        "Nếu chuyện của ta nguy hơn, ngài có tha cho cậu ấy không?",
-        "Được, kể đi. Hồi trẻ ta hoang lắm.",
-        "Một đêm lỡ đường, ta trèo lên nằm trên xà một lò sấy cũ.",
-        "Ba mụ phù thuỷ mang ba bao vàng vào, gối đầu lên mà ngủ,",
-        "còn bảo nhau: Trộm Đen mà tới thì chẳng còn một xu.",
-        "Chúng ngủ say, ta lén thay mỗi bao vàng bằng một tảng than bùn rồi chuồn.",
-        "Chẳng bao lâu, một con chó săn, một con thỏ và một con diều hâu đuổi theo ta.",
-        "Ta trèo lên cây.",
-        "Một mụ hoá thành cái đe, một mụ hoá thành thỏi sắt,",
-        "mụ thứ ba rèn chúng thành chiếc rìu mà chặt cây.",
-        "Cây nghiêng dần, chỉ một nhát nữa là đổ.",
-        "Đúng lúc rìu giơ lên, gà gáy sáng, ba mụ biến mất, ta mang vàng chạy thoát.",
-        "Hiệp sĩ gật gù, tha cho hoàng tử cả."
+        "Ông kể: Thưa ngài, hồi trẻ tôi là một đứa rất hoang dại, và đã trải qua nhiều gian nan. Có",
+        "một lần, khi đang lang thang, trời tối mà tôi không tìm được chỗ trọ. Cuối cùng tôi đến",
+        "một cái lò sấy cũ, và vì rất mệt, tôi leo lên nằm trên những cây xà. Tôi nằm chưa được bao",
+        "lâu thì thấy ba mụ phù thủy bước vào với ba bao vàng. Mỗi mụ đặt bao vàng của mình dưới",
+        "đầu như để ngủ. Tôi nghe một mụ nói với mụ kia rằng nếu Tên Trộm Đen đến chỗ chúng khi",
+        "chúng ngủ thì hắn sẽ không để lại cho chúng một xu. Qua câu chuyện của chúng, tôi biết",
+        "rằng ai cũng đã nghe tên tôi, mặc dù tôi vẫn im lặng như cái chết suốt cuộc trò chuyện ấy.",
+        "Cuối cùng chúng ngủ say, và tôi nhẹ nhàng bò xuống, thấy có mấy tảng than bùn tiện tay,",
+        "tôi đặt một tảng dưới đầu mỗi mụ, rồi cuốn gói với chỗ vàng của chúng, chạy đi nhanh hết",
+        "sức có thể."
       ],
       "image": {
-        "prompt": "the old thief telling his tale beside the furnace, above him a dreamlike vision of three witches by an old kiln at night, a hound, a hare and a hawk chasing a young man up a tree, and an axe forged from an anvil",
-        "seed": 1687291062,
+        "prompt": "an old abandoned kiln at night, a young rogue lying hidden on the ribs of the roof looking down at three hunched witches settling to sleep with bags of gold under their heads, then he creeping down and slipping turf under each head and gliding off with the gold, moonlight through broken beams",
+        "seed": 1692567156,
         "character": "trom-den"
       },
       "video": {
-        "motionPrompt": "the vision swirls like smoke above the fire, the axe swings, then a rooster crows and the witches vanish",
-        "seed": 1011622740
+        "motionPrompt": "the witches' heads settle on the bags, a shadow lowers itself from the rafters, the turf swaps places with the gold, slow push-in",
+        "seed": 2857996227
+      },
+      "voice": {}
+    },
+    {
+      "id": "chay-tron-phu-thuy",
+      "title": "Con dao rìu của mụ phù thủy",
+      "narrator": "ke-chuyen",
+      "narration": "Tên Trộm Sloan kể tiếp: Tôi chưa đi được bao xa thì thấy một con chó săn xám, một con thỏ và một con diều hâu đuổi theo tôi, và tôi bắt đầu nghĩ rằng đó hẳn là những mụ phù thủy đã hóa thành chúng, để tôi không thể thoát khỏi chúng mà không bị thấy, dù trên cạn hay dưới nước. Thấy chúng không hiện ra dưới hình dạng đáng sợ nào, tôi không chỉ một lần định xông vào chúng, nghĩ rằng với thanh gươm lớn tôi có thể dễ dàng tiêu diệt chúng. Nhưng nghĩ lại, có lẽ chúng vẫn có sức làm cho mình sống dậy, tôi bỏ ý định ấy và khó nhọc trèo lên một cái cây, cầm gươm trong tay và mang theo tất cả số vàng. Tuy nhiên, khi chúng tới chỗ cái cây thì thấy tôi đã làm thế, và dùng thêm thuật địa ngục của mình, một mụ biến thành cái đe thợ rèn, một mụ biến thành một miếng sắt, từ đó mụ thứ ba chẳng mấy chốc làm ra một cái rìu. Làm rìu xong, mụ bắt đầu chặt cây, và chỉ trong một giờ, cái cây bắt đầu rung lắc theo tôi. Cuối cùng nó bắt đầu nghiêng, và tôi thấy chỉ cần một hay hai nhát nữa là đủ làm nó đổ. Bấy giờ tôi bắt đầu nghĩ rằng cái chết của mình không thể tránh khỏi, vì những kẻ làm được nhiều điều đến thế chẳng mấy chốc sẽ chấm dứt mạng sống của tôi. Nhưng đúng lúc mụ vung nhát chặt sẽ kết thúc số phận của tôi, thì con gà trống gáy, và các mụ phù thủy biến mất, trở lại hình dạng tự nhiên vì sợ bị nhận ra, và tôi thoát được an toàn cùng mấy bao vàng. Ông nói với Hiệp Sĩ Thung Lũng: Thưa ngài, nếu đó không phải là cuộc phiêu lưu lớn như bất cứ chuyện nào ngài từng nghe, cách cái chết một nhát rìu, mà nhát rìu ấy đã vung lên, rồi sau cùng vẫn thoát, thì tôi xin để ngài tự phán xét. Hiệp Sĩ Thung Lũng nói: À, ta không thể nói đó không phải chuyện phi thường, và vì vậy ta tha tội cho chàng trai này. Giờ hãy khuấy lửa lên, để ta luộc người thứ hai.",
+      "subtitles": [
+        "Tên Trộm Sloan kể tiếp: Tôi chưa đi được bao xa thì thấy một con chó săn xám, một con thỏ",
+        "và một con diều hâu đuổi theo tôi, và tôi bắt đầu nghĩ rằng đó hẳn là những mụ phù thủy đã",
+        "hóa thành chúng, để tôi không thể thoát khỏi chúng mà không bị thấy, dù trên cạn hay dưới",
+        "nước. Thấy chúng không hiện ra dưới hình dạng đáng sợ nào, tôi không chỉ một lần định xông",
+        "vào chúng, nghĩ rằng với thanh gươm lớn tôi có thể dễ dàng tiêu diệt chúng. Nhưng nghĩ",
+        "lại, có lẽ chúng vẫn có sức làm cho mình sống dậy, tôi bỏ ý định ấy và khó nhọc trèo lên",
+        "một cái cây, cầm gươm trong tay và mang theo tất cả số vàng. Tuy nhiên, khi chúng tới chỗ",
+        "cái cây thì thấy tôi đã làm thế, và dùng thêm thuật địa ngục của mình, một mụ biến thành",
+        "cái đe thợ rèn, một mụ biến thành một miếng sắt, từ đó mụ thứ ba chẳng mấy chốc làm ra một",
+        "cái rìu. Làm rìu xong, mụ bắt đầu chặt cây, và chỉ trong một giờ, cái cây bắt đầu rung lắc",
+        "theo tôi. Cuối cùng nó bắt đầu nghiêng, và tôi thấy chỉ cần một hay hai nhát nữa là đủ làm",
+        "nó đổ. Bấy giờ tôi bắt đầu nghĩ rằng cái chết của mình không thể tránh khỏi, vì những kẻ",
+        "làm được nhiều điều đến thế chẳng mấy chốc sẽ chấm dứt mạng sống của tôi. Nhưng đúng lúc",
+        "mụ vung nhát chặt sẽ kết thúc số phận của tôi, thì con gà trống gáy, và các mụ phù thủy",
+        "biến mất, trở lại hình dạng tự nhiên vì sợ bị nhận ra, và tôi thoát được an toàn cùng mấy",
+        "bao vàng. Ông nói với Hiệp Sĩ Thung Lũng: Thưa ngài, nếu đó không phải là cuộc phiêu lưu",
+        "lớn như bất cứ chuyện nào ngài từng nghe, cách cái chết một nhát rìu, mà nhát rìu ấy đã",
+        "vung lên, rồi sau cùng vẫn thoát, thì tôi xin để ngài tự phán xét. Hiệp Sĩ Thung Lũng nói:",
+        "À, ta không thể nói đó không phải chuyện phi thường, và vì vậy ta tha tội cho chàng trai",
+        "này. Giờ hãy khuấy lửa lên, để ta luộc người thứ hai."
+      ],
+      "image": {
+        "prompt": "a night forest where a grey-hound, a hare and a hawk race after a running man with a broadsword, then the man clinging to a high tree with bags of gold as a smith's anvil and a hatchet cut at the trunk, a witch's hand raising the hatchet, the first cock-crow glowing in the east",
+        "seed": 558075415,
+        "character": "trom-den"
+      },
+      "video": {
+        "motionPrompt": "the greyhound and hawk speed through the trees, the tree shudders under the hatchet's blows, the hatchet rises for the last stroke, a cock crows and the figures fade, quick cuts then slow pull-back",
+        "seed": 2418390620
       },
       "voice": {}
     },
@@ -225,142 +371,216 @@
       "id": "ham-mo-giam-muc",
       "title": "Hầm mộ giám mục",
       "narrator": "ke-chuyen",
-      "narration": "Nhóm lửa lên, thiêu đứa thứ hai, hiệp sĩ nói. Cậu ấy cũng sẽ thoát thôi, Trộm Đen đáp, ta còn thoát hiểm lạ hơn. Có lần ta túng tiền, nghe tin một giám mục giàu có vừa mất, được chôn cùng ngọc ngà áo quý. Đêm ấy ta vào hầm mộ dài tăm tối. Bỗng có tiếng chân rảo tới, ta hoảng sợ chạy ra, thấy một bóng người áo đen chặn lối, ta bắn một phát, người ấy ngã xuống. Hoá ra đó là một thầy tu đã vào cướp trước ta. Ta hối hận lắm, nhưng việc đã rồi. Ta ôm bọc của cải định đi thì lính canh kéo tới, bảo nhau Trộm Đen hẳn đang ở trong. Ta dựng xác người kia đứng lên, nấp sau lưng. Lính thấy người áo đen, la lên đó là Trộm Đen, bắn ngay. Ta buông xác xuống, nép vào góc tối. Chúng ùa vào tận cuối hầm lục soát, còn ta lẻn ra, từ đó chẳng ai bắt được Trộm Đen.",
+      "narration": "Tên Trộm Đen nói: Quả thật tôi nghĩ chàng ấy cũng sẽ không chết lần này. Hiệp sĩ hỏi: Sao thế? Chàng không thể thoát được. Tên Trộm Sloan đáp: Chính tôi còn thoát chết kỳ diệu hơn cả việc ngài cho đưa chàng ấy tới lò, và tôi hy vọng chàng ấy cũng vậy. Hiệp sĩ hỏi: Vậy ngươi còn gặp nguy hiểm lớn nào khác sao? Ta cũng muốn nghe chuyện đó, và nếu nó kỳ diệu như chuyện trước thì ta sẽ tha cho chàng trai này như đã tha người kia. Tên Trộm Đen nói: Cách sống của tôi, thưa ngài, như tôi đã kể, chẳng tốt đẹp gì. Và vào một dịp nọ, khi tôi hết sạch tiền, lại chẳng gặp việc làm nào đáng kể, tôi lâm vào cảnh khốn cùng. Cuối cùng một vị giám mục giàu có qua đời trong vùng tôi đang ở, và tôi nghe nói ông được chôn cùng nhiều châu báu và áo lễ quý giá, tất cả những thứ ấy tôi định chẳng bao lâu nữa sẽ làm chủ. Quả vậy, ngay đêm ấy tôi bắt tay vào việc, và khi đến nơi, tôi biết ông được đặt ở đầu xa của một hầm mộ dài tối tăm, tôi bước vào từ từ. Tôi chưa đi sâu bao xa thì nghe tiếng chân đi về phía mình, bước nhanh, và dù bản tính dũng cảm táo bạo, nhưng nghĩ đến vị giám mục đã mất và tội lỗi mình đang phạm, tôi mất can đảm, và chạy về phía lối vào hầm. Tôi mới lùi được mấy bước thì thấy, giữa tôi và ánh sáng, bóng dáng một người đàn ông da đen cao lớn đứng ở lối vào. Sợ hãi vô cùng, không biết làm sao qua được, tôi bắn một phát súng lục vào hắn, và hắn lập tức ngã vắt ngang lối vào. Thấy hắn vẫn giữ hình dạng một con người phàm, tôi bắt đầu nghĩ rằng đó không thể là hồn ma của vị giám mục. Vì vậy, lấy lại bình tĩnh khỏi nỗi sợ, tôi mạo hiểm đi tới đầu trên của hầm, nơi tôi thấy một cái bọc lớn, và khi xem xét thêm tôi thấy thi hài đã bị lột sạch rồi, còn thứ tôi tưởng là ma chỉ là một trong những giáo sĩ của ông. Lúc ấy tôi rất hối hận vì đã bất hạnh giết ông ta, nhưng chuyện đã rồi thì không thể làm gì được. Tôi nhặt cái bọc chứa mọi thứ có giá trị của thi hài, định rời khỏi chốn u sầu này, nhưng vừa tới miệng lối vào thì thấy các lính canh của nơi ấy đi về phía mình, và nghe rõ họ nói rằng họ sẽ nhìn vào hầm, vì Tên Trộm Đen mà ở đâu quanh đây thì cũng chẳng ngại gì chuyện cướp thi hài. Lúc ấy tôi không biết nên xử trí ra sao, vì nếu bị thấy thì chắc chắn tôi sẽ mất mạng, vì ai cũng đang canh chừng lúc đó, và vì không có ai đủ can đảm vào tận chỗ tôi. Tôi biết rất rõ rằng ngay khi họ nhìn thấy tôi, tôi sẽ bị bắn như một con chó. Tuy nhiên, tôi chẳng có thì giờ để mất. Tôi nâng người đàn ông tôi đã giết lên, như thể ông ta đang đứng bằng chân mình, còn tôi thì cúi núp sau ông, giữ ông lên hết mức có thể, để các lính canh thấy ông ngay khi họ tiến tới hầm. Thấy người đàn ông áo đen, một người trong bọn kêu lên rằng đó là Tên Trộm Đen, rồi giương súng bắn người đàn ông ấy, và tôi để ông rơi xuống, chui vào một góc tối nhỏ ngay lối vào. Khi thấy người ấy ngã, họ chạy hết vào hầm và không dừng cho đến khi tới tận đầu hầm, vì sợ, như tôi nghĩ, có thể còn những người khác đi cùng kẻ bị giết. Nhưng trong lúc họ mải kiểm tra thi hài và hầm mộ xem còn thiếu gì, tôi lẻn ra ngoài, và một khi đã đi rồi thì cứ thế đi mãi, họ chưa bao giờ bắt được Tên Trộm Đen từ đó đến nay.",
       "subtitles": [
-        "Nhóm lửa lên, thiêu đứa thứ hai, hiệp sĩ nói.",
-        "Cậu ấy cũng sẽ thoát thôi, Trộm Đen đáp, ta còn thoát hiểm lạ hơn.",
-        "Có lần ta túng tiền, nghe tin một giám mục giàu có vừa mất,",
-        "được chôn cùng ngọc ngà áo quý.",
-        "Đêm ấy ta vào hầm mộ dài tăm tối.",
-        "Bỗng có tiếng chân rảo tới, ta hoảng sợ chạy ra, thấy một bóng người áo đen chặn lối,",
-        "ta bắn một phát, người ấy ngã xuống.",
-        "Hoá ra đó là một thầy tu đã vào cướp trước ta.",
-        "Ta hối hận lắm, nhưng việc đã rồi.",
-        "Ta ôm bọc của cải định đi thì lính canh kéo tới, bảo nhau Trộm Đen hẳn đang ở trong.",
-        "Ta dựng xác người kia đứng lên, nấp sau lưng.",
-        "Lính thấy người áo đen, la lên đó là Trộm Đen, bắn ngay.",
-        "Ta buông xác xuống, nép vào góc tối.",
-        "Chúng ùa vào tận cuối hầm lục soát, còn ta lẻn ra, từ đó chẳng ai bắt được Trộm Đen."
+        "Tên Trộm Đen nói: Quả thật tôi nghĩ chàng ấy cũng sẽ không chết lần này. Hiệp sĩ hỏi: Sao",
+        "thế? Chàng không thể thoát được. Tên Trộm Sloan đáp: Chính tôi còn thoát chết kỳ diệu hơn",
+        "cả việc ngài cho đưa chàng ấy tới lò, và tôi hy vọng chàng ấy cũng vậy. Hiệp sĩ hỏi: Vậy",
+        "ngươi còn gặp nguy hiểm lớn nào khác sao? Ta cũng muốn nghe chuyện đó, và nếu nó kỳ diệu",
+        "như chuyện trước thì ta sẽ tha cho chàng trai này như đã tha người kia. Tên Trộm Đen nói:",
+        "Cách sống của tôi, thưa ngài, như tôi đã kể, chẳng tốt đẹp gì. Và vào một dịp nọ, khi tôi",
+        "hết sạch tiền, lại chẳng gặp việc làm nào đáng kể, tôi lâm vào cảnh khốn cùng. Cuối cùng",
+        "một vị giám mục giàu có qua đời trong vùng tôi đang ở, và tôi nghe nói ông được chôn cùng",
+        "nhiều châu báu và áo lễ quý giá, tất cả những thứ ấy tôi định chẳng bao lâu nữa sẽ làm",
+        "chủ. Quả vậy, ngay đêm ấy tôi bắt tay vào việc, và khi đến nơi, tôi biết ông được đặt ở",
+        "đầu xa của một hầm mộ dài tối tăm, tôi bước vào từ từ. Tôi chưa đi sâu bao xa thì nghe",
+        "tiếng chân đi về phía mình, bước nhanh, và dù bản tính dũng cảm táo bạo, nhưng nghĩ đến vị",
+        "giám mục đã mất và tội lỗi mình đang phạm, tôi mất can đảm, và chạy về phía lối vào hầm.",
+        "Tôi mới lùi được mấy bước thì thấy, giữa tôi và ánh sáng, bóng dáng một người đàn ông da",
+        "đen cao lớn đứng ở lối vào. Sợ hãi vô cùng, không biết làm sao qua được, tôi bắn một phát",
+        "súng lục vào hắn, và hắn lập tức ngã vắt ngang lối vào. Thấy hắn vẫn giữ hình dạng một con",
+        "người phàm, tôi bắt đầu nghĩ rằng đó không thể là hồn ma của vị giám mục. Vì vậy, lấy lại",
+        "bình tĩnh khỏi nỗi sợ, tôi mạo hiểm đi tới đầu trên của hầm, nơi tôi thấy một cái bọc lớn,",
+        "và khi xem xét thêm tôi thấy thi hài đã bị lột sạch rồi, còn thứ tôi tưởng là ma chỉ là",
+        "một trong những giáo sĩ của ông. Lúc ấy tôi rất hối hận vì đã bất hạnh giết ông ta, nhưng",
+        "chuyện đã rồi thì không thể làm gì được. Tôi nhặt cái bọc chứa mọi thứ có giá trị của thi",
+        "hài, định rời khỏi chốn u sầu này, nhưng vừa tới miệng lối vào thì thấy các lính canh của",
+        "nơi ấy đi về phía mình, và nghe rõ họ nói rằng họ sẽ nhìn vào hầm, vì Tên Trộm Đen mà ở",
+        "đâu quanh đây thì cũng chẳng ngại gì chuyện cướp thi hài. Lúc ấy tôi không biết nên xử trí",
+        "ra sao, vì nếu bị thấy thì chắc chắn tôi sẽ mất mạng, vì ai cũng đang canh chừng lúc đó,",
+        "và vì không có ai đủ can đảm vào tận chỗ tôi. Tôi biết rất rõ rằng ngay khi họ nhìn thấy",
+        "tôi, tôi sẽ bị bắn như một con chó. Tuy nhiên, tôi chẳng có thì giờ để mất. Tôi nâng người",
+        "đàn ông tôi đã giết lên, như thể ông ta đang đứng bằng chân mình, còn tôi thì cúi núp sau",
+        "ông, giữ ông lên hết mức có thể, để các lính canh thấy ông ngay khi họ tiến tới hầm. Thấy",
+        "người đàn ông áo đen, một người trong bọn kêu lên rằng đó là Tên Trộm Đen, rồi giương súng",
+        "bắn người đàn ông ấy, và tôi để ông rơi xuống, chui vào một góc tối nhỏ ngay lối vào. Khi",
+        "thấy người ấy ngã, họ chạy hết vào hầm và không dừng cho đến khi tới tận đầu hầm, vì sợ,",
+        "như tôi nghĩ, có thể còn những người khác đi cùng kẻ bị giết. Nhưng trong lúc họ mải kiểm",
+        "tra thi hài và hầm mộ xem còn thiếu gì, tôi lẻn ra ngoài, và một khi đã đi rồi thì cứ thế",
+        "đi mãi, họ chưa bao giờ bắt được Tên Trộm Đen từ đó đến nay."
       ],
       "image": {
-        "prompt": "a long dark stone burial vault lit by lantern light, a young thief crouching behind a standing figure in black robes at the entrance while guards with muskets and lanterns approach from outside",
-        "seed": 1796318469,
+        "prompt": "a long dark crypt beneath a church, a tall man in black standing at the entrance silhouetted against light, a lamplit figure with a pistol inside, a group of guards with lanterns approaching, a figure propped upright as though standing in the vault while another crouches behind him",
+        "seed": 1384432735,
         "character": "trom-den"
       },
       "video": {
-        "motionPrompt": "lanterns swing as the guards approach, a musket flashes, the robed figure topples and the thief slips into the shadows",
-        "seed": 837540140
+        "motionPrompt": "lantern light sweeps the crypt walls, the figure in black seems to stand then falls, guards rush inside, a shadow slips out behind them, slow push-in",
+        "seed": 116044639
       },
       "voice": {}
     },
     {
-      "id": "lau-dai-nguoi-khong-lo",
-      "title": "Lâu đài gã khổng lồ",
+      "id": "cuoc-phieu-luu-cuoi",
+      "title": "Chuyện kỳ lạ nhất",
       "narrator": "ke-chuyen",
-      "narration": "Ngươi đã cứu hai hoàng tử, hiệp sĩ nói, nhưng ta thương cậu út này. Kể được chuyện lạ nữa, ta tha cả cậu ấy. Ta để dành chuyện hay nhất cho cậu ấy đấy, Trộm Đen đáp. Có lần ta lạc trong rừng lớn, tới một lâu đài vắng lặng. Một thiếu phụ đang ôm đứa bé trên gối mà khóc. Chủ lâu đài là gã khổng lồ một mắt giữa trán, ăn thịt người. Hắn mang đứa bé này về, bắt tôi làm bánh nhân từ nó. Ta bảo: chỉ cho ta chỗ gửi đứa bé, ta sẽ bắt con heo rừng về làm bánh thay. Cắt một ngón tay đứa bé bỏ vào bánh, để nếu hắn ngờ thì chị lật ngay ra cho hắn thấy. Ta mang đứa bé tới nhà một người đàn bà tử tế, rồi đem heo về.",
+      "narration": "Hiệp Sĩ Thung Lũng nói: Này, chàng dũng cảm của ta, ta thấy ngươi đã vượt qua nhiều nguy hiểm. Ngươi đã giải thoát hai vị hoàng tử bằng những câu chuyện. Nhưng ta cũng tiếc vì vị hoàng tử trẻ này phải chịu khổ thay cho tất cả. Giờ nếu ngươi kể được điều gì kỳ diệu như những gì ngươi đã kể, ta sẽ tha cho chàng nốt. Ta thương chàng thanh niên này và không muốn giết chàng nếu có thể tránh. Tên Trộm Sloan nói: Thế thì hay quá, vì chính tôi cũng thích chàng nhất, và tôi để dành đoạn lạ lùng nhất cho đến cuối cùng chính vì chàng. Hiệp sĩ nói: Vậy hãy cho ta nghe. Tên Trộm Đen nói: Thưa ngài, một hôm tôi đang du hành, và tôi vào một khu rừng lớn, tôi lang thang rất lâu mà không ra được. Cuối cùng tôi đến một lâu đài lớn, và vì mệt mỏi tôi buộc phải ghé vào đó, nơi tôi thấy một người phụ nữ trẻ cùng một đứa trẻ ngồi trên đầu gối nàng, và nàng đang khóc. Tôi hỏi nàng vì sao nàng khóc, và chủ nhân lâu đài đang ở đâu, vì tôi rất ngạc nhiên khi không thấy bóng dáng đầy tớ hay bất kỳ ai quanh nơi ấy. Người phụ nữ trẻ nói: Ông may là chủ lâu đài này không có nhà lúc này, vì hắn là một tên khổng lồ quái vật, chỉ có một mắt ở giữa trán, sống bằng thịt người. Hắn mang cho tôi đứa bé này, tôi không biết hắn lấy ở đâu, và ra lệnh cho tôi làm nó thành một cái bánh nướng, mà tôi không cầm được nước mắt trước mệnh lệnh ấy. Tôi nói với nàng rằng nếu nàng biết nơi nào tiện để tôi gửi đứa bé cho an toàn thì tôi sẽ làm thế, hơn là để nó bị con quái vật ấy giết. Nàng chỉ cho tôi một ngôi nhà ở khá xa đó, nơi tôi sẽ tìm được một người phụ nữ sẽ chăm sóc nó. Nàng hỏi: Nhưng tôi sẽ làm sao với cái bánh? Tôi nói: Hãy cắt một ngón tay của nó, và tôi sẽ mang vào cho cô một con lợn rừng con trong rừng, cô có thể nấu nó như thể nó là đứa bé, và để ngón tay vào một chỗ nhất định, để nếu tên khổng lồ nghi ngờ điều gì, cô biết ngay chỗ nào để lật lên, và khi hắn thấy nó, hắn sẽ hoàn toàn tin rằng cái bánh được làm từ đứa bé.",
       "subtitles": [
-        "Ngươi đã cứu hai hoàng tử, hiệp sĩ nói, nhưng ta thương cậu út này.",
-        "Kể được chuyện lạ nữa, ta tha cả cậu ấy.",
-        "Ta để dành chuyện hay nhất cho cậu ấy đấy, Trộm Đen đáp.",
-        "Có lần ta lạc trong rừng lớn, tới một lâu đài vắng lặng.",
-        "Một thiếu phụ đang ôm đứa bé trên gối mà khóc.",
-        "Chủ lâu đài là gã khổng lồ một mắt giữa trán, ăn thịt người.",
-        "Hắn mang đứa bé này về, bắt tôi làm bánh nhân từ nó.",
-        "Ta bảo: chỉ cho ta chỗ gửi đứa bé, ta sẽ bắt con heo rừng về làm bánh thay.",
-        "Cắt một ngón tay đứa bé bỏ vào bánh, để nếu hắn ngờ thì chị lật ngay ra cho hắn thấy.",
-        "Ta mang đứa bé tới nhà một người đàn bà tử tế, rồi đem heo về."
+        "Hiệp Sĩ Thung Lũng nói: Này, chàng dũng cảm của ta, ta thấy ngươi đã vượt qua nhiều nguy",
+        "hiểm. Ngươi đã giải thoát hai vị hoàng tử bằng những câu chuyện. Nhưng ta cũng tiếc vì vị",
+        "hoàng tử trẻ này phải chịu khổ thay cho tất cả. Giờ nếu ngươi kể được điều gì kỳ diệu như",
+        "những gì ngươi đã kể, ta sẽ tha cho chàng nốt. Ta thương chàng thanh niên này và không",
+        "muốn giết chàng nếu có thể tránh. Tên Trộm Sloan nói: Thế thì hay quá, vì chính tôi cũng",
+        "thích chàng nhất, và tôi để dành đoạn lạ lùng nhất cho đến cuối cùng chính vì chàng. Hiệp",
+        "sĩ nói: Vậy hãy cho ta nghe. Tên Trộm Đen nói: Thưa ngài, một hôm tôi đang du hành, và tôi",
+        "vào một khu rừng lớn, tôi lang thang rất lâu mà không ra được. Cuối cùng tôi đến một lâu",
+        "đài lớn, và vì mệt mỏi tôi buộc phải ghé vào đó, nơi tôi thấy một người phụ nữ trẻ cùng",
+        "một đứa trẻ ngồi trên đầu gối nàng, và nàng đang khóc. Tôi hỏi nàng vì sao nàng khóc, và",
+        "chủ nhân lâu đài đang ở đâu, vì tôi rất ngạc nhiên khi không thấy bóng dáng đầy tớ hay bất",
+        "kỳ ai quanh nơi ấy. Người phụ nữ trẻ nói: Ông may là chủ lâu đài này không có nhà lúc này,",
+        "vì hắn là một tên khổng lồ quái vật, chỉ có một mắt ở giữa trán, sống bằng thịt người. Hắn",
+        "mang cho tôi đứa bé này, tôi không biết hắn lấy ở đâu, và ra lệnh cho tôi làm nó thành một",
+        "cái bánh nướng, mà tôi không cầm được nước mắt trước mệnh lệnh ấy. Tôi nói với nàng rằng",
+        "nếu nàng biết nơi nào tiện để tôi gửi đứa bé cho an toàn thì tôi sẽ làm thế, hơn là để nó",
+        "bị con quái vật ấy giết. Nàng chỉ cho tôi một ngôi nhà ở khá xa đó, nơi tôi sẽ tìm được",
+        "một người phụ nữ sẽ chăm sóc nó. Nàng hỏi: Nhưng tôi sẽ làm sao với cái bánh? Tôi nói: Hãy",
+        "cắt một ngón tay của nó, và tôi sẽ mang vào cho cô một con lợn rừng con trong rừng, cô có",
+        "thể nấu nó như thể nó là đứa bé, và để ngón tay vào một chỗ nhất định, để nếu tên khổng lồ",
+        "nghi ngờ điều gì, cô biết ngay chỗ nào để lật lên, và khi hắn thấy nó, hắn sẽ hoàn toàn",
+        "tin rằng cái bánh được làm từ đứa bé."
       ],
       "image": {
-        "prompt": "a vast gloomy castle hall deep in a forest, a weeping young woman holding a small child on her knee, the young thief in a black cap kneeling to comfort her, giant sized furniture around them",
-        "seed": 3403915,
+        "prompt": "a hiding young rogue in a forest castle courtyard, a sorrowful young woman holding a small child on her knee beside a hearth, a huge one-eyed giant's heavy footprints and empty bone-strewn hall behind her, a pot and a pie dish on the table",
+        "seed": 4155705746,
         "character": "trom-den"
       },
       "video": {
-        "motionPrompt": "the young woman rocks the child and weeps, the thief gestures with a plan, shadows of huge chairs loom on the walls",
-        "seed": 2162285694
+        "motionPrompt": "smoke drifts from the hearth, the child stirs on the woman's lap, a huge shadow looms across the doorway, slow push-in",
+        "seed": 3518131261
       },
       "voice": {}
     },
     {
-      "id": "chiec-nhan-yem-bua",
-      "title": "Chiếc nhẫn yểm bùa",
+      "id": "ke-khong-lo-mot-mat",
+      "title": "Tên khổng lồ một mắt",
       "narrator": "ke-chuyen",
-      "narration": "Vừa ăn xong thì gã khổng lồ về. Thiếu phụ bảo ta nằm lẫn giữa những xác người trong phòng kia, cởi áo ra cho hắn khỏi nhận ra. Hắn đòi bánh, chê có mùi thịt heo, nàng lật ngay ngón tay lên, hắn mới tin. Ăn chưa đủ, hắn mài dao, mò vào giữa đám xác, cắt mất nửa hông ta đem đi nướng. Ta đau mà không dám kêu. Hắn uống rượu say mềm rồi ngủ ngáy. Ta nhờ thiếu phụ buộc vết thương, nung đỏ cây xiên nướng mà đâm vào mắt hắn. Hắn mù mà vẫn đuổi theo, ném chiếc nhẫn yểm bùa dính chặt vào ngón chân ta. Hắn gọi nhẫn ở đâu, nhẫn đáp ngay trên chân ta. Ta rút kiếm chặt luôn ngón chân, ném xuống ao cá. Hắn gọi nữa, nhẫn đáp từ dưới ao, hắn nhảy theo, chìm nghỉm mà chết đuối. Vì thế ta khập khiễng tới giờ.",
+      "narration": "Người phụ nữ đồng ý với kế hoạch tôi đề nghị, và sau khi cắt ngón tay đứa bé, theo chỉ dẫn của nàng, tôi chẳng mấy chốc đem nó tới ngôi nhà nàng nói, và mang cho nàng con lợn con thay cho nó. Nàng bèn làm cái bánh, và sau khi ăn uống no nê, tôi vừa định chào từ biệt người phụ nữ trẻ thì chúng tôi thấy tên khổng lồ đi qua cổng lâu đài. Nàng nói: Trời ơi, ông sẽ làm sao bây giờ? Chạy đi nằm xuống giữa những xác chết mà hắn có trong phòng, nàng chỉ chỗ cho tôi, và cởi quần áo ra để hắn không nhận ra ông khác với những người kia nếu hắn có việc phải đi qua đó. Tôi nghe theo lời khuyên của nàng, và nằm xuống cùng những người kia, như thể đã chết, để xem hắn cư xử ra sao. Điều đầu tiên tôi nghe là tiếng hắn gọi cái bánh. Khi nàng đặt nó trước mặt hắn, hắn thề rằng nó có mùi thịt lợn, nhưng vì biết chỗ tìm ngón tay, nàng lập tức lật nó lên, và điều đó hoàn toàn khiến hắn tin điều ngược lại. Cái bánh chỉ càng làm hắn thèm ăn thêm, và tôi nghe hắn mài dao, nói rằng hắn phải có thêm vài lát thịt, vì hắn còn lâu mới no. Nhưng tôi kinh hoàng đến thế nào khi nghe tên khổng lồ mò mẫm giữa những cái xác, và tưởng là tôi, hắn cắt đi một nửa hông của tôi, mang nó đi nướng! Chắc chắn các ông có thể hình dung tôi đau đớn ra sao, nhưng nỗi sợ bị giết khiến tôi không dám rên một tiếng.",
       "subtitles": [
-        "Vừa ăn xong thì gã khổng lồ về.",
-        "Thiếu phụ bảo ta nằm lẫn giữa những xác người trong phòng kia,",
-        "cởi áo ra cho hắn khỏi nhận ra.",
-        "Hắn đòi bánh, chê có mùi thịt heo, nàng lật ngay ngón tay lên, hắn mới tin.",
-        "Ăn chưa đủ, hắn mài dao, mò vào giữa đám xác, cắt mất nửa hông ta đem đi nướng.",
-        "Ta đau mà không dám kêu. Hắn uống rượu say mềm rồi ngủ ngáy.",
-        "Ta nhờ thiếu phụ buộc vết thương, nung đỏ cây xiên nướng mà đâm vào mắt hắn.",
-        "Hắn mù mà vẫn đuổi theo, ném chiếc nhẫn yểm bùa dính chặt vào ngón chân ta.",
-        "Hắn gọi nhẫn ở đâu, nhẫn đáp ngay trên chân ta.",
-        "Ta rút kiếm chặt luôn ngón chân, ném xuống ao cá.",
-        "Hắn gọi nữa, nhẫn đáp từ dưới ao, hắn nhảy theo, chìm nghỉm mà chết đuối.",
-        "Vì thế ta khập khiễng tới giờ."
+        "Người phụ nữ đồng ý với kế hoạch tôi đề nghị, và sau khi cắt ngón tay đứa bé, theo chỉ dẫn",
+        "của nàng, tôi chẳng mấy chốc đem nó tới ngôi nhà nàng nói, và mang cho nàng con lợn con",
+        "thay cho nó. Nàng bèn làm cái bánh, và sau khi ăn uống no nê, tôi vừa định chào từ biệt",
+        "người phụ nữ trẻ thì chúng tôi thấy tên khổng lồ đi qua cổng lâu đài. Nàng nói: Trời ơi,",
+        "ông sẽ làm sao bây giờ? Chạy đi nằm xuống giữa những xác chết mà hắn có trong phòng, nàng",
+        "chỉ chỗ cho tôi, và cởi quần áo ra để hắn không nhận ra ông khác với những người kia nếu",
+        "hắn có việc phải đi qua đó. Tôi nghe theo lời khuyên của nàng, và nằm xuống cùng những",
+        "người kia, như thể đã chết, để xem hắn cư xử ra sao. Điều đầu tiên tôi nghe là tiếng hắn",
+        "gọi cái bánh. Khi nàng đặt nó trước mặt hắn, hắn thề rằng nó có mùi thịt lợn, nhưng vì",
+        "biết chỗ tìm ngón tay, nàng lập tức lật nó lên, và điều đó hoàn toàn khiến hắn tin điều",
+        "ngược lại. Cái bánh chỉ càng làm hắn thèm ăn thêm, và tôi nghe hắn mài dao, nói rằng hắn",
+        "phải có thêm vài lát thịt, vì hắn còn lâu mới no. Nhưng tôi kinh hoàng đến thế nào khi",
+        "nghe tên khổng lồ mò mẫm giữa những cái xác, và tưởng là tôi, hắn cắt đi một nửa hông của",
+        "tôi, mang nó đi nướng! Chắc chắn các ông có thể hình dung tôi đau đớn ra sao, nhưng nỗi sợ",
+        "bị giết khiến tôi không dám rên một tiếng."
       ],
       "image": {
-        "prompt": "a moonlit castle courtyard with a great dark fish pond, a blinded one eyed giant leaping toward the water, the limping thief in a black cap hiding behind a stone pillar, ripples spreading",
-        "seed": 760019956,
+        "prompt": "a huge one-eyed giant at a table in a dim hall sharpening a knife beside a half-eaten pie, a young rogue lying very still among silent still figures on the floor in the shadows, the young woman standing frightened with a pie dish in her hands",
+        "seed": 3219914056,
         "character": "trom-den"
       },
       "video": {
-        "motionPrompt": "the giant lunges and crashes into the pond with a huge splash, ripples spread across the moonlit water",
-        "seed": 3095509811
+        "motionPrompt": "the giant's knife rasps on a whetstone, his hand gropes across the floor among the still bodies, the rogue holds his breath, slow push-in on the groping hand",
+        "seed": 858397965
       },
       "voice": {}
     },
     {
-      "id": "ngon-tay-con-thieu",
-      "title": "Ngón tay còn thiếu",
+      "id": "con-mat-va-chiec-nhan",
+      "title": "Cái xiên nung và chiếc nhẫn phép",
       "narrator": "ke-chuyen",
-      "narration": "Một bà lão nãy giờ đứng nghe bỗng lên tiếng: thưa chủ nhân, chuyện ấy thật cả đấy. Tôi chính là người đàn bà trong lâu đài gã khổng lồ, còn ngài là đứa bé suýt bị làm bánh, và đây là người đã cứu ngài. Ngài nhìn bàn tay mình thì biết, ngón tay bị cắt đi để lừa gã khổng lồ. Hiệp sĩ sững sờ, nhìn bàn tay thiếu ngón từ thuở nhỏ, hiểu rằng mọi chuyện là thật. Đây là ân nhân của ta ư? Hỡi người dũng cảm, ta chẳng những tha cho tất cả, mà còn giữ ngươi ở bên suốt đời, ăn uống như hoàng tử. Nghe các hoàng tử phải trộm ngựa vì sao, ông nói: vậy ta tặng con ngựa, còn hơn để người dũng cảm này phải chết. Nhớ thường tới thăm ta.",
+      "narration": "Tuy nhiên, khi hắn ăn xong tất cả, hắn bắt đầu uống rượu nóng rất nhiều, đến nỗi chẳng bao lâu hắn không giữ nổi đầu mình, mà ngả lên một cái sọt lớn hắn đã làm cho mục đích ấy, rồi ngủ say. Khi nghe hắn ngáy, tôi bò dậy, dù đang đau đớn, bảo người phụ nữ băng vết thương của tôi bằng một chiếc khăn tay. Rồi tôi lấy cái xiên nướng của tên khổng lồ, nung đỏ nó trong lửa, và xuyên qua mắt hắn, nhưng không giết được hắn. Tuy nhiên tôi để lại cái xiên cắm trong đầu hắn, không dám ngoái lại, và co giò chạy. Nhưng chẳng bao lâu tôi thấy hắn đuổi theo tôi, dù đã mù, và vì có một chiếc nhẫn phép, hắn ném nó về phía tôi, và nó rơi trúng ngón chân cái của tôi và dính chặt vào đó. Rồi tên khổng lồ gọi chiếc nhẫn, hỏi nó ở đâu, và khiến tôi hết sức ngạc nhiên, nó trả lời hắn ngay trên chân tôi. Và hắn, được nó dẫn đường, nhảy bổ về phía tôi, may mắn là tôi để ý được và thoát khỏi nguy hiểm. Tuy nhiên, tôi thấy chạy chẳng ích gì để cứu mình chừng nào chiếc nhẫn còn ở chân tôi, nên tôi lấy thanh gươm chặt đứt ngón chân đã dính chiếc nhẫn, rồi ném cả hai xuống một cái ao cá gần đó. Tên khổng lồ lại gọi chiếc nhẫn, và nhờ sức phù phép, nó vẫn đáp lời hắn, nhưng hắn, không biết tôi đã làm gì, tưởng nó vẫn ở trên một phần thân thể tôi, bèn nhảy mạnh để chộp lấy tôi, và rơi xuống ao, chìm nghỉm cả đầu lẫn tai, rồi chết đuối. Tên Trộm Sloan nói: Thưa ngài hiệp sĩ, ngài thấy rồi đấy, tôi đã vượt qua những nguy hiểm nào mà vẫn luôn thoát. Nhưng quả thật tôi bị khập khiễng vì thiếu ngón chân kể từ đó.",
       "subtitles": [
-        "Một bà lão nãy giờ đứng nghe bỗng lên tiếng: thưa chủ nhân, chuyện ấy thật cả đấy.",
-        "Tôi chính là người đàn bà trong lâu đài gã khổng lồ,",
-        "còn ngài là đứa bé suýt bị làm bánh, và đây là người đã cứu ngài.",
-        "Ngài nhìn bàn tay mình thì biết, ngón tay bị cắt đi để lừa gã khổng lồ.",
-        "Hiệp sĩ sững sờ, nhìn bàn tay thiếu ngón từ thuở nhỏ, hiểu rằng mọi chuyện là thật.",
-        "Đây là ân nhân của ta ư?",
-        "Hỡi người dũng cảm, ta chẳng những tha cho tất cả, mà còn giữ ngươi ở bên suốt đời,",
-        "ăn uống như hoàng tử.",
-        "Nghe các hoàng tử phải trộm ngựa vì sao, ông nói: vậy ta tặng con ngựa,",
-        "còn hơn để người dũng cảm này phải chết.",
-        "Nhớ thường tới thăm ta."
+        "Tuy nhiên, khi hắn ăn xong tất cả, hắn bắt đầu uống rượu nóng rất nhiều, đến nỗi chẳng bao",
+        "lâu hắn không giữ nổi đầu mình, mà ngả lên một cái sọt lớn hắn đã làm cho mục đích ấy, rồi",
+        "ngủ say. Khi nghe hắn ngáy, tôi bò dậy, dù đang đau đớn, bảo người phụ nữ băng vết thương",
+        "của tôi bằng một chiếc khăn tay. Rồi tôi lấy cái xiên nướng của tên khổng lồ, nung đỏ nó",
+        "trong lửa, và xuyên qua mắt hắn, nhưng không giết được hắn. Tuy nhiên tôi để lại cái xiên",
+        "cắm trong đầu hắn, không dám ngoái lại, và co giò chạy. Nhưng chẳng bao lâu tôi thấy hắn",
+        "đuổi theo tôi, dù đã mù, và vì có một chiếc nhẫn phép, hắn ném nó về phía tôi, và nó rơi",
+        "trúng ngón chân cái của tôi và dính chặt vào đó. Rồi tên khổng lồ gọi chiếc nhẫn, hỏi nó ở",
+        "đâu, và khiến tôi hết sức ngạc nhiên, nó trả lời hắn ngay trên chân tôi. Và hắn, được nó",
+        "dẫn đường, nhảy bổ về phía tôi, may mắn là tôi để ý được và thoát khỏi nguy hiểm. Tuy",
+        "nhiên, tôi thấy chạy chẳng ích gì để cứu mình chừng nào chiếc nhẫn còn ở chân tôi, nên tôi",
+        "lấy thanh gươm chặt đứt ngón chân đã dính chiếc nhẫn, rồi ném cả hai xuống một cái ao cá",
+        "gần đó. Tên khổng lồ lại gọi chiếc nhẫn, và nhờ sức phù phép, nó vẫn đáp lời hắn, nhưng",
+        "hắn, không biết tôi đã làm gì, tưởng nó vẫn ở trên một phần thân thể tôi, bèn nhảy mạnh để",
+        "chộp lấy tôi, và rơi xuống ao, chìm nghỉm cả đầu lẫn tai, rồi chết đuối. Tên Trộm Sloan",
+        "nói: Thưa ngài hiệp sĩ, ngài thấy rồi đấy, tôi đã vượt qua những nguy hiểm nào mà vẫn luôn",
+        "thoát. Nhưng quả thật tôi bị khập khiễng vì thiếu ngón chân kể từ đó."
       ],
       "image": {
-        "prompt": "in the castle hall an old woman pointing at the stern knight's left hand with a missing finger, the knight staring at his hand in astonishment, the old thief and three princes kneeling before him",
-        "seed": 3076986648,
+        "prompt": "a blinded giant stumbling after a limping young rogue through a dark moonlit forest, a fish-pond glinting ahead, an enchanted ring glowing on the rogue's big toe, then the giant leaping with a roar and plunging into the dark pond, rings rippling across the water",
+        "seed": 1996169295,
+        "character": "trom-den"
+      },
+      "video": {
+        "motionPrompt": "the giant's glowing ring answers with a ghostly voice, the giant leaps and misses, he plunges into the pond, rings of water spread out, slow pull-back",
+        "seed": 1817363038
+      },
+      "voice": {}
+    },
+    {
+      "id": "ba-gia-nhan-ra",
+      "title": "Bà lão nhận ra",
+      "narrator": "ke-chuyen",
+      "narration": "Một bà lão đã đứng nghe suốt từ nãy bèn nói: Thưa chúa công, câu chuyện ấy quá đúng, như tôi biết rõ, vì tôi chính là người phụ nữ trong lâu đài của tên khổng lồ, còn ngài, thưa chúa công, chính là đứa trẻ mà tôi đã phải làm thành bánh. Và đây chính là người đã cứu mạng ngài, ngài có thể biết điều ấy qua việc ngài thiếu một ngón tay, bị cắt đi như ngài vừa nghe để lừa tên khổng lồ. Hiệp Sĩ Thung Lũng, rất đỗi ngạc nhiên trước điều nghe bà lão kể, và biết rằng từ thuở nhỏ mình đã thiếu một ngón tay, bắt đầu hiểu rằng câu chuyện đúng là thật. Ông nói: Vậy đây chính là người cứu ta sao? Ôi, chàng dũng cảm! Ta không chỉ tha thứ cho tất cả các ngươi, mà còn giữ ngươi ở lại bên ta suốt đời, nơi ngươi sẽ được tiệc tùng như các hoàng tử, và có mọi sự hầu hạ như chính ta có. Tất cả họ quỳ xuống tạ ơn ông, và Tên Trộm Đen kể cho ông nghe lý do họ cố trộm Ngựa Chuông, và sự cần thiết phải trở về nhà. Hiệp Sĩ Thung Lũng nói: Vậy thì, nếu là như thế, ta ban con ngựa của ta cho các ngươi hơn là để chàng dũng cảm này phải chết. Các ngươi cứ đi khi nào muốn, chỉ nhớ thỉnh thoảng ghé thăm ta, để chúng ta hiểu nhau hơn.",
+      "subtitles": [
+        "Một bà lão đã đứng nghe suốt từ nãy bèn nói: Thưa chúa công, câu chuyện ấy quá đúng, như",
+        "tôi biết rõ, vì tôi chính là người phụ nữ trong lâu đài của tên khổng lồ, còn ngài, thưa",
+        "chúa công, chính là đứa trẻ mà tôi đã phải làm thành bánh. Và đây chính là người đã cứu",
+        "mạng ngài, ngài có thể biết điều ấy qua việc ngài thiếu một ngón tay, bị cắt đi như ngài",
+        "vừa nghe để lừa tên khổng lồ. Hiệp Sĩ Thung Lũng, rất đỗi ngạc nhiên trước điều nghe bà",
+        "lão kể, và biết rằng từ thuở nhỏ mình đã thiếu một ngón tay, bắt đầu hiểu rằng câu chuyện",
+        "đúng là thật. Ông nói: Vậy đây chính là người cứu ta sao? Ôi, chàng dũng cảm! Ta không chỉ",
+        "tha thứ cho tất cả các ngươi, mà còn giữ ngươi ở lại bên ta suốt đời, nơi ngươi sẽ được",
+        "tiệc tùng như các hoàng tử, và có mọi sự hầu hạ như chính ta có. Tất cả họ quỳ xuống tạ ơn",
+        "ông, và Tên Trộm Đen kể cho ông nghe lý do họ cố trộm Ngựa Chuông, và sự cần thiết phải",
+        "trở về nhà. Hiệp Sĩ Thung Lũng nói: Vậy thì, nếu là như thế, ta ban con ngựa của ta cho",
+        "các ngươi hơn là để chàng dũng cảm này phải chết. Các ngươi cứ đi khi nào muốn, chỉ nhớ",
+        "thỉnh thoảng ghé thăm ta, để chúng ta hiểu nhau hơn."
+      ],
+      "image": {
+        "prompt": "a stern knight in his great hall, an old woman in a shawl at the edge of the crowd stepping forward and pointing to his hand with a missing finger, the knight staring at his own hand in astonishment, then kneeling thieves and princes bowing their heads gratefully, torchlight and warm colours",
+        "seed": 4142523662,
         "character": "hiep-si"
       },
       "video": {
-        "motionPrompt": "the knight slowly raises his hand and looks at it, then steps forward and lifts the old thief to his feet",
-        "seed": 3503493712
+        "motionPrompt": "the old woman steps forward through the crowd, the knight looks at his hand, torches flicker, the princes kneel, slow push-in on the knight's astonished face",
+        "seed": 4002825369
       },
       "voice": {}
     },
     {
-      "id": "tieng-chuong-tro-ve",
-      "title": "Tiếng chuông trở về",
+      "id": "ngua-chuong-ve-nha",
+      "title": "Ngựa Chuông trở về",
       "narrator": "ke-chuyen",
-      "narration": "Ba hoàng tử cùng Trộm Đen hớn hở dắt con ngựa đeo chuông về cung. Suốt thời gian ấy, hoàng hậu độc ác vẫn phải đứng trên ngọn tháp. Nghe tiếng chuông vang từ xa, mụ biết các hoàng tử đã trở về, mang theo con ngựa. Uất ức và cay cú, mụ gieo mình từ đỉnh tháp xuống, tan xác. Ba hoàng tử sống yên vui trong suốt đời vua cha, và lúc nào cũng giữ Trộm Đen ở bên mình. Còn sau khi vua già mất, họ ra sao, thì chẳng ai còn biết nữa.",
+      "narration": "Họ hứa sẽ thường xuyên ghé thăm, và với niềm vui lớn họ lên đường về cung điện của vua cha, Tên Trộm Đen đi cùng. Bà hoàng hậu độc ác đã đứng suốt thời gian ấy trên ngọn tháp, và khi nghe tiếng chuông reo từ xa, bà biết rất rõ rằng các hoàng tử đang trở về, mang theo con ngựa, và vì tức tối và cay độc, bà gieo mình từ trên tháp xuống và vỡ tan thành từng mảnh. Ba hoàng tử sống yên ổn và tốt đẹp trong suốt triều đại của vua cha, được mọi người yêu mến, và luôn giữ Tên Trộm Đen bên mình. Nhưng họ sống ra sao sau khi vị vua già qua đời thì không ai biết.",
       "subtitles": [
-        "Ba hoàng tử cùng Trộm Đen hớn hở dắt con ngựa đeo chuông về cung.",
-        "Suốt thời gian ấy, hoàng hậu độc ác vẫn phải đứng trên ngọn tháp.",
-        "Nghe tiếng chuông vang từ xa, mụ biết các hoàng tử đã trở về, mang theo con ngựa.",
-        "Uất ức và cay cú, mụ gieo mình từ đỉnh tháp xuống, tan xác.",
-        "Ba hoàng tử sống yên vui trong suốt đời vua cha, và lúc nào cũng giữ Trộm Đen ở bên mình.",
-        "Còn sau khi vua già mất, họ ra sao, thì chẳng ai còn biết nữa."
+        "Họ hứa sẽ thường xuyên ghé thăm, và với niềm vui lớn họ lên đường về cung điện của vua",
+        "cha, Tên Trộm Đen đi cùng. Bà hoàng hậu độc ác đã đứng suốt thời gian ấy trên ngọn tháp,",
+        "và khi nghe tiếng chuông reo từ xa, bà biết rất rõ rằng các hoàng tử đang trở về, mang",
+        "theo con ngựa, và vì tức tối và cay độc, bà gieo mình từ trên tháp xuống và vỡ tan thành",
+        "từng mảnh. Ba hoàng tử sống yên ổn và tốt đẹp trong suốt triều đại của vua cha, được mọi",
+        "người yêu mến, và luôn giữ Tên Trộm Đen bên mình. Nhưng họ sống ra sao sau khi vị vua già",
+        "qua đời thì không ai biết."
       ],
       "image": {
-        "prompt": "three princes and the limping old thief riding home across green hills leading a magnificent horse draped in silk hung with many silver bells, a tall palace tower in the distance with a lone figure at the top",
-        "seed": 1072948900,
+        "prompt": "three princes and a black-capped lame man riding home on a road with a splendid steed hung with silver bells in a shining cloak, at a far castle a tall tower where a cold queen stands and turns toward the sound of the bells, evening light",
+        "seed": 3360942532,
         "character": "hoang-tu-ut"
       },
       "video": {
-        "motionPrompt": "the bells on the horse's silk shimmer and sway as it trots, wind ruffles the grass, the distant figure on the tower turns away",
-        "seed": 1345363355
+        "motionPrompt": "bells chime in the evening air, the riders crest a hill, the queen on the distant tower turns her head, wind whips her veil, slow push-in on the tower",
+        "seed": 2211105936
       },
       "voice": {}
     }
