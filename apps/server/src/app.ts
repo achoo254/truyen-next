@@ -1,7 +1,9 @@
 import express, { type ErrorRequestHandler, type Express } from 'express';
 import helmet from 'helmet';
 import { sql } from 'drizzle-orm';
+import { accountDeletedRoute } from './auth/account-deleted';
 import { authRoutes } from './auth/auth-routes';
+import { idpMetadata } from './auth/idp-metadata';
 import { requireSameOrigin } from './auth/origin-check';
 import type { ServerConfig } from './config';
 import type { Db } from './db/client';
@@ -17,11 +19,13 @@ export interface AppDeps {
 }
 
 /**
- * The API: health check, sign-in, the saved stories and the reading progress of an account. The site itself (pages
- * and stories) is static, served by nginx; reading never goes through here.
+ * The API: health check, sign-in, the saved stories and the reading progress of an account, and the IdP's notice of a
+ * deleted account. The site itself (pages and stories) is static, served by nginx; reading never goes through here.
  */
 export function createApp({ config, db, now = () => new Date() }: AppDeps): Express {
   const app = express();
+  // One reader of the IdP's discovery and keys, shared by sign-in and the account-deletion notice.
+  const idp = config.auth ? idpMetadata(config.auth.issuer) : null;
   app.disable('x-powered-by');
   // nginx on the same host sets X-Forwarded-For; trust it from loopback only (rate limits use the client IP).
   app.set('trust proxy', 'loopback');
@@ -32,10 +36,12 @@ export function createApp({ config, db, now = () => new Date() }: AppDeps): Expr
     res.set('Cache-Control', 'no-store').type('text/plain').send('ok');
   });
 
+  // The IdP posts server to server, without an Origin: ahead of the same-origin check, with checks of its own.
+  app.use(accountDeletedRoute({ config, db, idp, now }));
   app.use(requireSameOrigin(config.publicOrigin));
   // A whole sync of the reading progress is the largest body (a hundred short entries).
   app.use(express.json({ limit: '16kb' }));
-  app.use(authRoutes({ config, db, now }));
+  app.use(authRoutes({ config, db, idp, now }));
   app.use(shelfRoutes({ config, db, now }));
   app.use(readingRoutes({ config, db, now }));
 

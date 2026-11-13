@@ -21,6 +21,7 @@ truyện của tôi (`/tu-truyen`), đọc tiếp trên mọi máy, lịch sử 
 | API (Node, Express 5, một file bundle) | systemd `truyen-server`, user `truyen`, loopback **`127.0.0.1:5300`**, Node 22 ở `/opt/node22`; bundle nằm trong chính bản release ở `server/dist/server/index.mjs`, migration ở `server/drizzle/` (nginx không bao giờ phục vụ `server/`) |
 | Database | Postgres đang chạy trên `.65`, database `truyen`, role `truyen`; migration chạy khi server khởi động |
 | Đăng nhập | client BFF `truyen-web` trên `auth.hoandat.com`, scope `openid profile email`, redirect **`https://truyen.hoandat.com/auth/callback`**; phiên là cookie httpOnly `__Host-truyen_session` (30 ngày, 14 ngày không dùng thì hết) |
+| Xoá tài khoản | chỉ ở `auth.hoandat.com/account` (ADR 0018 của `auth-next`); IdP gửi SET ký ES256 tới `POST https://truyen.hoandat.com/api/idp/account-deleted`, server kiểm bằng JWKS của IdP rồi xoá ngay dòng `users` và mọi thứ cascade theo (mục Xoá tài khoản) |
 | Env của API | `/etc/truyen/production.env` (`root:root`, 600), cạnh `/etc/tuvi/production.env` của Tử Vi; do `infra/setup-sign-in.sh` ghi |
 | Deploy | Mỗi push lên `main` có `ci` xanh: GitHub Actions, user hạn chế `truyen-deploy` (chỉ ghi `ci-incoming/`, một lệnh sudo); deploy tay bằng `infra/deploy.sh` |
 | Truyện và media | Nằm trong bản build, dưới `/stories/` (`index.json`, `<slug>/story.json`, `<slug>/media/…`) |
@@ -149,6 +150,23 @@ Làm một lần, theo đúng thứ tự (mỗi bước an toàn khi chạy lạ
 
    Trên site thật: bấm Đăng nhập ở header, về đúng trang; lưu một truyện (`/tu-truyen` có nó); đọc tới cảnh 3, mở
    trình duyệt khác (hoặc cửa sổ ẩn danh), đăng nhập, trang truyện ghi "Đọc tiếp từ cảnh 3"; `/lich-su` có truyện đó.
+
+## Xoá tài khoản
+
+Tài khoản chỉ bị xoá ở `auth.hoandat.com/account`; app không có nút hay API xoá riêng. IdP báo bằng
+`POST https://truyen.hoandat.com/api/idp/account-deleted` ([`account-deleted.ts`](../apps/server/src/auth/account-deleted.ts)),
+body là SET (RFC 8417, `Content-Type: application/secevent+jwt`): header `alg` ES256, `typ` `secevent+jwt`; `iss` là
+`AUTH_ISSUER`; `aud` đúng `PUBLIC_URL/api/idp/account-deleted`; `exp` chưa qua (lệch giờ 60 giây); event
+`urn:hoandat:auth:event:account.deleted`; chữ ký kiểm bằng `jwks_uri` trong discovery của IdP. Hợp lệ thì xoá dòng
+`users` của `sub` đó, cascade theo: phiên, Tủ truyện (`saved_stories`), trang đang đọc và lịch sử (`reading_progress`).
+Không có gì dùng chung giữa các tài khoản nên không chuyển chủ.
+
+Trả `202` khi đã xoá, khi không có tài khoản mang `sub` đó, hay khi nhận lại (IdP thử lại); `400` khi body không phải
+SET; `401` khi SET sai (chữ ký, `iss`, `aud`, hết hạn, event); `503` khi đăng nhập đang tắt, không đọc được khoá của IdP
+hay xoá lỗi, để IdP thử lại. Log chỉ ghi id nội bộ và kết quả, không ghi SET hay `sub`.
+
+URL `https://truyen.hoandat.com/api/idp/account-deleted` phải có trong `ACCOUNT_DELETED_URLS` của env IdP (`auth-next`)
+và phải đúng từng ký tự với `PUBLIC_URL` + `/api/idp/account-deleted`. nginx chuyển sẵn qua `location ~ ^/(api|auth)/`.
 
 ## Release
 

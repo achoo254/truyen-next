@@ -8,8 +8,9 @@
 import express, { type Router } from 'express';
 import { rateLimit } from 'express-rate-limit';
 import { z } from 'zod';
-import type { AuthConfig, ServerConfig } from '../config';
+import type { ServerConfig } from '../config';
 import type { Db } from '../db/client';
+import type { Discovery, IdpMetadata } from './idp-metadata';
 import { codeChallenge, newLoginState, openState, profileFromUserinfo, safeReturnPath, sealState, subFromIdToken } from './oidc-login';
 import { clearSessionCookie, readCookie, readSessionToken, setSessionCookie } from './session-cookie';
 import { safeErrorText } from '../log-error';
@@ -24,39 +25,18 @@ import {
 } from './session-store';
 
 const LOGIN_COOKIE = 'truyen_login';
-const DISCOVERY_TTL_MS = 60 * 60 * 1000;
 const IDP_TIMEOUT_MS = 10_000;
 /** What the app asks the IdP for: the account, and its name, picture and email for the account menu. */
 export const SIGN_IN_SCOPE = 'openid profile email';
-
-const DiscoverySchema = z.object({
-  issuer: z.string().min(1),
-  authorization_endpoint: z.url(),
-  token_endpoint: z.url(),
-  userinfo_endpoint: z.url().optional(),
-});
-type Discovery = z.infer<typeof DiscoverySchema>;
 
 const TokenResponseSchema = z.object({ id_token: z.string().min(1), access_token: z.string().min(1).optional() });
 
 export interface AuthRoutesOptions {
   config: ServerConfig;
   db: Db;
+  /** The IdP's discovery and keys; null when sign-in is off. */
+  idp: IdpMetadata | null;
   now: () => Date;
-}
-
-/** The IdP's discovery document, cached for an hour. */
-function discoveryClient(auth: AuthConfig): () => Promise<Discovery> {
-  let cached: { at: number; doc: Discovery } | null = null;
-  return async () => {
-    if (cached && Date.now() - cached.at < DISCOVERY_TTL_MS) return cached.doc;
-    const res = await fetch(`${auth.issuer}/.well-known/openid-configuration`, { signal: AbortSignal.timeout(IDP_TIMEOUT_MS) });
-    if (!res.ok) throw new Error(`discovery answered ${res.status}`);
-    const doc = DiscoverySchema.parse(await res.json());
-    if (doc.issuer !== auth.issuer) throw new Error('discovery issuer does not match AUTH_ISSUER');
-    cached = { at: Date.now(), doc };
-    return doc;
-  };
 }
 
 /**
@@ -86,10 +66,10 @@ function withLoginResult(path: string, result: 'fail' | 'unavailable' | 'busy'):
   return `${url.pathname}${url.search}${url.hash}`;
 }
 
-export function authRoutes({ config, db, now }: AuthRoutesOptions): Router {
+export function authRoutes({ config, db, idp, now }: AuthRoutesOptions): Router {
   const router = express.Router();
   const { auth } = config;
-  const discover = auth ? discoveryClient(auth) : null;
+  const discover = auth && idp ? idp.discover : null;
   const secure = config.nodeEnv === 'production';
   // Only the start is limited: a callback is worthless without the sealed state cookie a start hands out. Over the
   // limit the person lands back on the page with a notice, not on a bare 429.

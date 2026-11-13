@@ -38,6 +38,15 @@ export async function upsertUser(db: Db, sub: string, profile: AccountProfile | 
   return existing.id;
 }
 
+/**
+ * Deletes the account of an IdP `sub` and, by cascade in the same statement, everything of it: its sessions and all it
+ * keeps here. Returns the deleted user's id, or null when no account has that `sub`.
+ */
+export async function deleteUserBySub(db: Db, sub: string): Promise<string | null> {
+  const [row] = await db.delete(users).where(eq(users.sub, sub)).returning({ id: users.id });
+  return row?.id ?? null;
+}
+
 /** The stored profile of a user, for the header's account menu. */
 export async function findProfile(db: Db, userId: string): Promise<AccountProfile | null> {
   const [row] = await db.select({ name: users.name, email: users.email, picture: users.picture }).from(users).where(eq(users.id, userId));

@@ -41,7 +41,7 @@ const DOCS: Record<LegalPageKind, Record<Locale, LegalDoc>> = {
           paragraphs: [
             'Trên trang web, bạn có thể đăng nhập bằng tài khoản hoandat.com để lưu truyện yêu thích, đọc tiếp trên mọi máy và xem lại lịch sử đã đọc. App iPhone không có đăng nhập.',
             'Khi đó máy chủ của app giữ: mã tài khoản, tên, email và ảnh đại diện do hoandat.com cung cấp (hiện ở menu tài khoản), danh sách truyện bạn đã lưu, và với mỗi truyện đã mở: cảnh đang đọc dở và thời điểm đọc (tối đa 200 truyện gần nhất). Một cookie phiên đăng nhập cho máy chủ biết bạn đã đăng nhập; mật khẩu do hoandat.com giữ, app không bao giờ thấy.',
-            'Đăng xuất ở menu tài khoản. Muốn xoá dữ liệu này, nhắn cho chúng tôi (mục Liên hệ).',
+            'Đăng xuất ở menu tài khoản. Tài khoản chỉ xoá được ở trang tài khoản hoandat.com (auth.hoandat.com/account); khi bạn xoá ở đó, app xoá ngay mọi dữ liệu trên của tài khoản: tên, email, ảnh, truyện đã lưu, trang đang đọc, lịch sử đã đọc và mọi phiên đăng nhập.',
           ],
         },
         { heading: 'Liên hệ', paragraphs: ['Có câu hỏi: nhắn Trang Facebook Hoandat Apps.'] },
@@ -65,7 +65,7 @@ const DOCS: Record<LegalPageKind, Record<Locale, LegalDoc>> = {
           paragraphs: [
             'On the website you can sign in with a hoandat.com account to save favourite stories, continue on any device and see what you have read. The iPhone app has no sign-in.',
             'The app\'s server then keeps: the account id, and the name, email and picture hoandat.com gives (shown in the account menu); the stories you saved; and for each story you opened, the scene you stopped at and when (the 200 most recent). A session cookie tells the server you are signed in; your password stays with hoandat.com and the app never sees it.',
-            'Sign out from the account menu. To have this data deleted, message us (see Contact).',
+            'Sign out from the account menu. The account can only be deleted on the hoandat.com account page (auth.hoandat.com/account); when you delete it there, the app deletes all of the above at once: the name, email, picture, saved stories, where you stopped, what you have read and every session.',
           ],
         },
         { heading: 'Contact', paragraphs: ['Questions: message the Hoandat Apps Facebook page.'] },

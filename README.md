@@ -17,7 +17,7 @@ xem, app chạy cả khi máy nhà tắt. Nội dung AI không thuộc giấy ph
 | `stories/<slug>/media/` | Tranh (WebP), cảnh động (MP4 không tiếng), giọng kể và nhạc (M4A) do `pnpm story:build` tạo |
 | `packages/story` | Schema, luật kiểm và thời gian đọc của truyện (dùng chung cho app và script, không phụ thuộc React hay Node) |
 | `apps/web` | App web tĩnh (Vite + React): hai kệ truyện, trình xem `/truyen/<slug>`, trang pháp lý; đăng nhập, tủ truyện, đồng bộ trang đang đọc, lịch sử (`src/account/`, `src/story/progress-sync.ts`) |
-| `apps/server` | API nhỏ (Express 5, drizzle + Postgres, PGlite khi dev/test): đăng nhập OIDC qua `auth.hoandat.com` (client `truyen-web`), phiên cookie, `/api/shelf` (truyện đã lưu), `/api/reading` (trang đang đọc và lịch sử, bản mới hơn thắng). Đọc truyện không đi qua đây |
+| `apps/server` | API nhỏ (Express 5, drizzle + Postgres, PGlite khi dev/test): đăng nhập OIDC qua `auth.hoandat.com` (client `truyen-web`), phiên cookie, `/api/shelf` (truyện đã lưu), `/api/reading` (trang đang đọc và lịch sử, bản mới hơn thắng), `/api/idp/account-deleted` (IdP báo tài khoản đã xoá thì xoá ngay dữ liệu của nó, [`docs/deployment-guide.md`](docs/deployment-guide.md#xoá-tài-khoản)). Đọc truyện không đi qua đây |
 | `apps/mobile` | App iPhone (Capacitor) quanh bản build app của web: phát nền khi khoá máy, màn hình khoá, nghe offline, cổng phụ huynh ([`docs/ios-app.md`](docs/ios-app.md)) |
 | `scripts/` | `build-story.ts` (sinh media), `validate-stories.ts`, `check-tokens.ts`, `brand-gen.ts` |
 | `brand.config.json`, `brand/` | Tên, màu, biểu tượng (gói `@achoo254/brand`) |
