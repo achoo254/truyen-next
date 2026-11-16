@@ -5,7 +5,8 @@
  * - index.html: the home page, both shelves listed;
  * - tre-em/index.html, nguoi-lon/index.html, the-gioi/index.html: one shelf each;
  * - truyen/<slug>/index.html: one story (title, summary, length, shelf, the whole tale as text; JSON-LD CreativeWork);
- * - spa.html: the untouched app page, which nginx serves for every other address (legal pages, 404);
+ * - spa.html: the app page without its canonical link, which nginx serves for every other address (legal pages, 404,
+ *   the reader's own pages): with the home page's canonical, Google took /privacy and the rest for copies of "/";
  * - sitemap.xml, only once the site may be indexed (site-indexing.ts).
  *
  * The app replaces the static body when it starts. The static markup has no inline script or style (the CSP allows
@@ -95,7 +96,6 @@ export function prerenderPages(html: string, ctx: PrerenderContext): Map<string,
   const byShelf = (shelf: Shelf): StoryListEntry[] => ctx.stories.filter((entry) => entry.shelf === shelf);
   const homeTitle = `${vi['home.title']} · ${ctx.appName}`;
 
-  pages.set(SPA_FALLBACK, html);
   const shelves = SHELVES.map(
     (shelf) => `<section><h2><a href="${SHELF_PATHS[shelf]}">${escapeHtml(vi[`shelf.${shelf}`])}</a></h2>${storyList(byShelf(shelf))}</section>`,
   ).join('');
@@ -143,6 +143,7 @@ export function prerenderPages(html: string, ctx: PrerenderContext): Map<string,
     );
     pages.set(`truyen/${entry.slug}/index.html`, renderPage(html, { path, title: `${entry.title} · ${ctx.appName}`, description: entry.summary, type: 'article', jsonLd }, body, ctx));
   }
+  pages.set(SPA_FALLBACK, replaceOnce(html, /\s*<link rel="canonical" href="[^"]*" \/>/, '', 'canonical link'));
   return pages;
 }
 

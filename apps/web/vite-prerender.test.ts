@@ -24,9 +24,10 @@ const CTX = {
 describe('prerendered pages', () => {
   const pages = prerenderPages(HTML, CTX);
 
-  it('writes the home page, both shelves, every story and the untouched app page', () => {
+  it('writes the home page, both shelves, every story and the app page without the home canonical', () => {
     expect([...pages.keys()].sort()).toEqual([SPA_FALLBACK, 'index.html', 'nguoi-lon/index.html', 'the-gioi/index.html', 'tre-em/index.html', 'truyen/su-tich-ho-guom/index.html', 'truyen/tam-cam/index.html'].sort());
-    expect(pages.get(SPA_FALLBACK)).toBe(HTML);
+    expect(pages.get(SPA_FALLBACK)).toBe(HTML.replace('\n<link rel="canonical" href="https://truyen.hoandat.com/" />', ''));
+    expect(pages.get(SPA_FALLBACK)).not.toContain('rel="canonical"');
   });
 
   it('gives a story page its own title, description, address, preview and data, with its title in the body', () => {
