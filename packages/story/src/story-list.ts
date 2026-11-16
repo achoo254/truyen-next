@@ -15,6 +15,8 @@ export interface StoryListEntry {
   themes: Theme[];
   /** YYYY-MM-DD, or "" when the story does not say. */
   added: string;
+  /** YYYY-MM-DD the story was last retold whole; absent while it is still a shortened telling. */
+  revised?: string;
 }
 
 export function storyListEntry(story: Story): StoryListEntry {
@@ -28,5 +30,6 @@ export function storyListEntry(story: Story): StoryListEntry {
     minutes: Math.max(1, Math.round(estimateStorySeconds(story) / 60)),
     themes: story.themes ?? [],
     added: story.added ?? '',
+    ...(story.revised === undefined ? {} : { revised: story.revised }),
   };
 }

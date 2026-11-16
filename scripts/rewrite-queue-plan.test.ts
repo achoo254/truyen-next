@@ -32,3 +32,16 @@ describe('rewrite queue', () => {
     expect(parseShard('x')).toBeNull();
   });
 });
+
+describe('rewrite queue priority', () => {
+  it('puts listed slugs first in list order, skips listed slugs already revised or unknown, keeps the rest in default order', () => {
+    const order = rewriteQueue(STORIES, undefined, ['be-ngan', 'da-viet-lai', 'khong-co', 'the-gioi']).map((item) => item.slug);
+    expect(order).toEqual(['be-ngan', 'the-gioi', 'nguoi-lon-dai', 'nguoi-lon-ngan']);
+  });
+
+  it('keeps shards disjoint with a priority list', () => {
+    const priority = ['be-ngan', 'the-gioi'];
+    const shards = [0, 1].map((index) => rewriteQueue(STORIES, { index, count: 2 }, priority).map((item) => item.slug));
+    expect(shards.flat().sort()).toEqual(rewriteQueue(STORIES).map((item) => item.slug).sort());
+  });
+});

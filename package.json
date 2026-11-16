@@ -23,7 +23,8 @@
     "brand:gen": "tsx scripts/brand-gen.ts",
     "e2e": "pnpm --filter @truyen/web e2e",
     "mobile:build": "pnpm --filter @truyen/web build:native && pnpm --filter @truyen/mobile exec cap sync ios",
-    "mobile:ios-release": "pnpm --filter @truyen/mobile ios-release"
+    "mobile:ios-release": "pnpm --filter @truyen/mobile ios-release",
+    "story:rewrite-priority": "tsx scripts/rewrite-priority.ts"
   },
   "devDependencies": {
     "@achoo254/brand": "github:achoo254/shared-next#v0.12.0&path:/packages/brand",

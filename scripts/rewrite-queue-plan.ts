@@ -1,7 +1,9 @@
 /**
  * The order in which older, shortened tellings are retold whole (docs/story-routine.md, "Viết lại truyện cũ"). A story
  * with `revised` is done. The adults' shelf goes first, then world, then kids; within a shelf the longest telling
- * first, since the stories that pressed against the old length caps are the ones cut the most.
+ * first, since the stories that pressed against the old length caps are the ones cut the most. Slugs in the priority
+ * list (catalog/rewrite-priority.json: pages Google shows, or has crawled without indexing) go before all of that, in
+ * the list's order.
  */
 import { SHELVES, type Shelf, type Story, estimateStorySeconds } from '@truyen/story';
 
@@ -40,14 +42,23 @@ export function parseShard(text: string): Shard | null {
   return count > 0 && index < count ? { index, count } : null;
 }
 
-export function rewriteQueue(stories: readonly { slug: string; story: Story }[], shard?: Shard): RewriteItem[] {
+export function rewriteQueue(
+  stories: readonly { slug: string; story: Story }[],
+  shard?: Shard,
+  priority: readonly string[] = [],
+): RewriteItem[] {
   const rank = (shelf: Shelf): number => {
     const at = REWRITE_SHELF_ORDER.indexOf(shelf);
     return at >= 0 ? at : REWRITE_SHELF_ORDER.length + SHELVES.indexOf(shelf);
   };
+  const priorityAt = new Map(priority.map((slug, at) => [slug, at] as const));
+  const priorityRank = (slug: string): number => priorityAt.get(slug) ?? priority.length;
   return stories
     .filter(({ story }) => story.revised === undefined)
     .filter(({ slug }) => shard === undefined || shardOf(slug, shard.count) === shard.index)
     .map(({ slug, story }) => ({ slug, shelf: story.shelf, seconds: Math.round(estimateStorySeconds(story)) }))
-    .sort((a, b) => rank(a.shelf) - rank(b.shelf) || b.seconds - a.seconds || a.slug.localeCompare(b.slug));
+    .sort(
+      (a, b) =>
+        priorityRank(a.slug) - priorityRank(b.slug) || rank(a.shelf) - rank(b.shelf) || b.seconds - a.seconds || a.slug.localeCompare(b.slug),
+    );
 }

@@ -1,9 +1,11 @@
 /**
  * `pnpm story:rewrite-queue [count] [--shard i/n]`: the stories still waiting to be retold whole, in the order the
  * routine takes them (rewrite-queue-plan.ts), and how many are left. Prints the first `count` (default 10). With
- * `--shard`, only that shard's stories, so parallel runs split the queue without picking the same story.
+ * `--shard`, only that shard's stories, so parallel runs split the queue without picking the same story. Stories listed in
+ * catalog/rewrite-priority.json (`pnpm story:rewrite-priority`, run on the owner's PC) come first.
  */
 import { parseShard, rewriteQueue } from './rewrite-queue-plan';
+import { readRewritePriority } from './rewrite-priority-file';
 import { loadStories } from './story-files';
 
 const args = process.argv.slice(2);
@@ -16,8 +18,9 @@ if (shard === null) {
 }
 const count = Number(args[0] ?? 10);
 const { stories } = loadStories();
-const all = rewriteQueue(stories);
-const queue = shard ? rewriteQueue(stories, shard) : all;
+const priority = readRewritePriority();
+const all = rewriteQueue(stories, undefined, priority);
+const queue = shard ? rewriteQueue(stories, shard, priority) : all;
 console.log(`${all.length} of ${stories.length} stories still to rewrite${shard ? `, ${queue.length} in shard ${shard.index}/${shard.count}` : ''}`);
 for (const item of queue.slice(0, Number.isFinite(count) && count > 0 ? count : 10)) {
   console.log(`${item.slug} (${item.shelf}, about ${item.seconds} s)`);

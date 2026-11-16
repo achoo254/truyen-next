@@ -16,7 +16,10 @@ chờ thì routine tự quay về viết truyện mới theo các bước bên d
 
 1. `git pull --rebase`, cài, `pnpm check:stories` như bước 1 bên dưới; rồi `pnpm story:rewrite-queue 20` in số truyện
    còn chờ và thứ tự: kệ Người lớn trước, rồi Thế giới, rồi Trẻ em; trong một kệ, truyện dài nhất trước (truyện từng
-   chạm trần cũ là truyện bị cắt nhiều nhất). Lấy truyện theo đúng thứ tự đó.
+   chạm trần cũ là truyện bị cắt nhiều nhất). Lấy truyện theo đúng thứ tự đó. Đứng trước tất cả là các truyện trong
+   `catalog/rewrite-priority.json`, theo thứ tự của tệp: truyện đã có lượt hiển thị trên Google, rồi truyện Google đã
+   thu thập mà chưa lập chỉ mục. Tệp do máy của chủ dự án làm mới (`pnpm story:rewrite-priority --env-file <env Tiểu
+   Đệ>`, cần token Search Console chỉ đọc); routine không sửa tệp này.
 2. Với mỗi truyện: đọc `story.json` hiện có và `source`, rồi **mở bản gốc thật** thuộc phạm vi công cộng (Wikisource,
    Project Gutenberg… theo `source`/`plotSource`). Lập danh sách tình tiết chính của bản gốc (chỉ dùng tạm khi làm,
    không ghi vào repo).
