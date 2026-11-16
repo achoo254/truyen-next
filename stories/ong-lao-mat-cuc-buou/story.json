@@ -9,6 +9,7 @@
     "ngu-ngon"
   ],
   "added": "2026-11-02",
+  "revised": "2026-11-17",
   "language": "vi",
   "source": "Truyện dân gian Nhật Bản về ông lão mất cục bướu, theo bản kể tiếng Anh của Yei Theodora Ozaki trong Japanese Fairy Tales (1908, Project Gutenberg #4018), phạm vi công cộng. Lời kể viết mới bằng tiếng Việt, kể nhẹ nhàng cho cả nhà, giữ cốt truyện, không chép bản dịch nào.",
   "basedOn": "Truyện dân gian Nhật Bản (Ozaki, 1908)",
@@ -44,145 +45,378 @@
       "id": "cuc-buou",
       "title": "Cục bướu trên má",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, ở một làng quê Nhật Bản, có một ông lão hiền lành. Trên má phải ông mọc một cục bướu to như quả đào. Cục bướu nặng trĩu, vướng víu, ông lão đã tìm đủ thuốc mà không khỏi. Ông đành sống chung với nó, ngày ngày vẫn vui vẻ lên núi kiếm củi, vừa đi vừa ngâm nga hát.",
+      "narration": "Ngày xưa, đã lâu lắm rồi, có một ông lão hiền lành sống ở một làng nhỏ bên sườn núi. Trên má phải của ông mọc một cục bướu tròn, to chừng bằng quả bóng mà lũ trẻ trong làng vẫn tung hứng. Cục bướu ấy làm ông xấu hổ và khổ sở suốt bao nhiêu năm trời, đến nỗi ông dồn hết thì giờ lẫn tiền của vào việc tìm cách trừ nó đi.\n\nÔng thử đủ mọi cách ông nghĩ ra được, nghĩ ra cái gì là làm cái đó, chẳng tiếc công tiếc sức. Ông đi hỏi hết thầy thuốc gần rồi xa, uống đủ thứ thuốc, lại bôi đắp đủ thứ thuốc. Nhưng chẳng có thứ nào công hiệu. Cục bướu cứ lớn dần lớn dần, cuối cùng to gần bằng cả khuôn mặt ông. Đến lúc ấy, trong nỗi tuyệt vọng, ông đành thở dài bỏ hết hy vọng sẽ có ngày thoát khỏi nó. Ông nhủ lòng phải cam chịu, và chuẩn bị tinh thần mang cục bướu trên mặt suốt quãng đời còn lại.",
       "subtitles": [
-        "Ngày xưa, ở một làng quê Nhật Bản, có một ông lão hiền lành.",
-        "Trên má phải ông mọc một cục bướu to như quả đào.",
-        "Cục bướu nặng trĩu, vướng víu, ông lão đã tìm đủ thuốc mà không khỏi.",
-        "Ông đành sống chung với nó,",
-        "ngày ngày vẫn vui vẻ lên núi kiếm củi, vừa đi vừa ngâm nga hát."
+        "Ngày xưa, đã lâu lắm rồi, có một ông lão hiền lành sống ở một làng nhỏ bên sườn núi.",
+        "Trên má phải của ông mọc một cục bướu tròn,",
+        "to chừng bằng quả bóng mà lũ trẻ trong làng vẫn tung hứng.",
+        "Cục bướu ấy làm ông xấu hổ và khổ sở suốt bao nhiêu năm trời,",
+        "đến nỗi ông dồn hết thì giờ lẫn tiền của vào việc tìm cách trừ nó đi.",
+        "Ông thử đủ mọi cách ông nghĩ ra được, nghĩ ra cái gì là làm cái đó,",
+        "chẳng tiếc công tiếc sức.",
+        "Ông đi hỏi hết thầy thuốc gần rồi xa, uống đủ thứ thuốc, lại bôi đắp đủ thứ thuốc.",
+        "Nhưng chẳng có thứ nào công hiệu.",
+        "Cục bướu cứ lớn dần lớn dần, cuối cùng to gần bằng cả khuôn mặt ông.",
+        "Đến lúc ấy, trong nỗi tuyệt vọng,",
+        "ông đành thở dài bỏ hết hy vọng sẽ có ngày thoát khỏi nó.",
+        "Ông nhủ lòng phải cam chịu,",
+        "và chuẩn bị tinh thần mang cục bướu trên mặt suốt quãng đời còn lại."
       ],
       "image": {
-        "prompt": "a cheerful old Japanese woodcutter with a round lump on his right cheek walking up a forest mountain path with firewood on his back, humming, autumn leaves around",
-        "seed": 1373001693,
+        "prompt": "a kind old Japanese man with a huge round lump on his right cheek sitting at home in despair, medicine jars and herbs scattered around him, his wife beside him",
+        "seed": 2814594552,
         "character": "ong-lao-hien"
       },
       "video": {
-        "motionPrompt": "the old man walks along humming, autumn leaves float down around him",
-        "seed": 4282652141
+        "motionPrompt": "the old man sighs and touches his cheek, steam rises from a medicine pot",
+        "seed": 3551575848
       },
       "voice": {}
     },
     {
-      "id": "con-mua",
-      "title": "Cơn mưa trên núi",
+      "id": "vao-rung",
+      "title": "Lên rừng chặt củi",
       "narrator": "ke-chuyen",
-      "narration": "Một hôm, ông lão đang chặt củi thì trời đổ mưa to, sấm chớp ầm ầm. Ông chui vào một hốc cây rỗng để trú. Mưa tạnh thì trời đã tối. Bỗng có tiếng nói cười rộn rã. Ông hé mắt nhìn ra: một đoàn yêu tinh sừng ngắn, mặt đỏ, mặt xanh, đang kéo đến bãi cỏ trước gốc cây, bày tiệc ăn uống.",
+      "narration": "Một hôm, trong bếp nhà ông hết sạch củi. Bà vợ cần củi gấp, ông lão bèn vác rìu lên khu rừng trên đồi, cách nhà không xa. Hôm ấy là một ngày đẹp trời đầu thu, nắng dịu, không khí trong lành, ông thong thả chặt củi và chẳng vội về. Ông thấy trong người khoan khoái, nên buổi chiều trôi qua rất nhanh trong lúc ông mải chặt củi, ông đã chất được một đống củi kha khá để mang về cho vợ. Đến khi ngày bắt đầu tàn, bóng chiều đổ dài trên đồi, ông gánh củi lên vai, quay mặt về phía nhà và cất bước xuống đường.",
       "subtitles": [
-        "Một hôm, ông lão đang chặt củi thì trời đổ mưa to, sấm chớp ầm ầm.",
-        "Ông chui vào một hốc cây rỗng để trú.",
-        "Mưa tạnh thì trời đã tối.",
-        "Bỗng có tiếng nói cười rộn rã.",
-        "Ông hé mắt nhìn ra: một đoàn yêu tinh sừng ngắn, mặt đỏ,",
-        "mặt xanh, đang kéo đến bãi cỏ trước gốc cây, bày tiệc ăn uống."
+        "Một hôm, trong bếp nhà ông hết sạch củi.",
+        "Bà vợ cần củi gấp, ông lão bèn vác rìu lên khu rừng trên đồi, cách nhà không xa.",
+        "Hôm ấy là một ngày đẹp trời đầu thu, nắng dịu, không khí trong lành,",
+        "ông thong thả chặt củi và chẳng vội về.",
+        "Ông thấy trong người khoan khoái,",
+        "nên buổi chiều trôi qua rất nhanh trong lúc ông mải chặt củi,",
+        "ông đã chất được một đống củi kha khá để mang về cho vợ.",
+        "Đến khi ngày bắt đầu tàn, bóng chiều đổ dài trên đồi, ông gánh củi lên vai,",
+        "quay mặt về phía nhà và cất bước xuống đường."
       ],
       "image": {
-        "prompt": "an old man peeking out of a hollow tree trunk at night after rain, a band of funny red and blue oni goblins with little horns gathering on the grass with lanterns, food and cups, comical not scary",
-        "seed": 2738745915,
+        "prompt": "an old Japanese man with a lump on his cheek chopping firewood in an autumn mountain forest with an axe, a neat pile of logs beside him, golden afternoon light",
+        "seed": 2721644103,
         "character": "ong-lao-hien"
       },
       "video": {
-        "motionPrompt": "lanterns bob as the goblins arrive and set out their feast, the old man peeks out curiously",
-        "seed": 3217168785
+        "motionPrompt": "the old man swings his axe, autumn leaves drift down",
+        "seed": 501091931
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoc-cay",
+      "title": "Cơn mưa và hốc cây",
+      "narrator": "ke-chuyen",
+      "narration": "Ông mới đi được một quãng trên con đường đèo xuống núi thì mây đen kéo đến, mưa bắt đầu trút xuống như nước đổ. Ông nhìn quanh khắp nơi tìm chỗ trú, nhưng gần đó ngay cả một túp lều của người đốt than cũng không có. Mãi sau, ông mới để ý thấy một cái hốc to ở thân một cây rỗng ruột. Cái hốc nằm sát gốc, nên ông chui vào dễ dàng và ngồi xuống, hy vọng đây chỉ là một cơn mưa rào trên núi, chốc nữa trời sẽ quang.\n\nNhưng ông thất vọng làm sao, trời chẳng những không quang mà mưa càng lúc càng nặng hạt, rồi một trận giông lớn nổ ra trên đỉnh núi. Sấm gầm dữ dội, chớp rạch sáng rực cả bầu trời, đến nỗi ông lão gần như không tin mình còn sống. Ông tưởng mình sắp mất vía vì sợ, ngồi co ro trong hốc cây mà tim đập thình thịch.\n\nRồi cuối cùng mây cũng tan. Cả vùng núi đỏ rực dưới những tia nắng cuối cùng của ngày. Lòng ông lão vui trở lại khi ngắm buổi hoàng hôn tuyệt đẹp, và ông định bước ra khỏi chỗ trú lạ lùng của mình.",
+      "subtitles": [
+        "Ông mới đi được một quãng trên con đường đèo xuống núi thì mây đen kéo đến,",
+        "mưa bắt đầu trút xuống như nước đổ.",
+        "Ông nhìn quanh khắp nơi tìm chỗ trú,",
+        "nhưng gần đó ngay cả một túp lều của người đốt than cũng không có.",
+        "Mãi sau, ông mới để ý thấy một cái hốc to ở thân một cây rỗng ruột.",
+        "Cái hốc nằm sát gốc, nên ông chui vào dễ dàng và ngồi xuống,",
+        "hy vọng đây chỉ là một cơn mưa rào trên núi, chốc nữa trời sẽ quang.",
+        "Nhưng ông thất vọng làm sao, trời chẳng những không quang mà mưa càng lúc càng nặng hạt,",
+        "rồi một trận giông lớn nổ ra trên đỉnh núi.",
+        "Sấm gầm dữ dội, chớp rạch sáng rực cả bầu trời,",
+        "đến nỗi ông lão gần như không tin mình còn sống.",
+        "Ông tưởng mình sắp mất vía vì sợ, ngồi co ro trong hốc cây mà tim đập thình thịch.",
+        "Rồi cuối cùng mây cũng tan.",
+        "Cả vùng núi đỏ rực dưới những tia nắng cuối cùng của ngày.",
+        "Lòng ông lão vui trở lại khi ngắm buổi hoàng hôn tuyệt đẹp,",
+        "và ông định bước ra khỏi chỗ trú lạ lùng của mình."
+      ],
+      "image": {
+        "prompt": "an old man crawling into a large hollow in a tree trunk during a heavy thunderstorm on a mountain pass, rain pouring, lightning in the sky",
+        "seed": 4185764884,
+        "character": "ong-lao-hien"
+      },
+      "video": {
+        "motionPrompt": "rain pours and lightning flashes while the old man huddles inside the hollow tree",
+        "seed": 2549791027
+      },
+      "voice": {}
+    },
+    {
+      "id": "yeu-tinh",
+      "title": "Đoàn yêu tinh kéo đến",
+      "narrator": "ke-chuyen",
+      "narration": "Đúng lúc ấy, tai ông nghe thấy tiếng bước chân của nhiều người đang đi tới, mỗi lúc một gần, nghe như cả một đoàn người đang tiến về phía cây. Ông lập tức nghĩ rằng bạn bè trong làng đã đi tìm mình, và mừng rỡ vì sắp có bạn đồng hành vui vẻ để cùng về nhà. Nhưng khi ló đầu ra khỏi cây để nhìn, ông sững sờ biết bao: chẳng phải bạn bè đâu, mà là hàng trăm con yêu tinh đang kéo về phía ông.\n\nCàng nhìn ông càng ngạc nhiên. Có con to như người khổng lồ, có con mắt lồi to quá cỡ so với thân mình, có con mũi dài đến nực cười, lại có con miệng rộng đến nỗi như toác từ tai này sang tai kia. Con nào trên trán cũng mọc sừng. Ông lão ngạc nhiên đến mức mất thăng bằng, ngã lăn ra khỏi hốc cây. May cho ông, cái cây nằm ở phía sau nên lũ yêu tinh không nhìn thấy. Ông lồm cồm bò dậy rồi lại chui vào trong hốc.\n\nNgồi trong đó, ông thấp thỏm tự hỏi bao giờ mới về được nhà. Bỗng ông nghe thấy tiếng nhạc vui, rồi vài con yêu tinh cất tiếng hát.\n\n“Bọn chúng đang làm gì thế nhỉ?” ông lão tự nhủ. “Để ta ngó ra xem, nghe có vẻ vui lắm.”",
+      "subtitles": [
+        "Đúng lúc ấy, tai ông nghe thấy tiếng bước chân của nhiều người đang đi tới,",
+        "mỗi lúc một gần, nghe như cả một đoàn người đang tiến về phía cây.",
+        "Ông lập tức nghĩ rằng bạn bè trong làng đã đi tìm mình,",
+        "và mừng rỡ vì sắp có bạn đồng hành vui vẻ để cùng về nhà.",
+        "Nhưng khi ló đầu ra khỏi cây để nhìn, ông sững sờ biết bao: chẳng phải bạn bè đâu,",
+        "mà là hàng trăm con yêu tinh đang kéo về phía ông.",
+        "Càng nhìn ông càng ngạc nhiên.",
+        "Có con to như người khổng lồ, có con mắt lồi to quá cỡ so với thân mình,",
+        "có con mũi dài đến nực cười,",
+        "lại có con miệng rộng đến nỗi như toác từ tai này sang tai kia.",
+        "Con nào trên trán cũng mọc sừng.",
+        "Ông lão ngạc nhiên đến mức mất thăng bằng, ngã lăn ra khỏi hốc cây.",
+        "May cho ông, cái cây nằm ở phía sau nên lũ yêu tinh không nhìn thấy.",
+        "Ông lồm cồm bò dậy rồi lại chui vào trong hốc.",
+        "Ngồi trong đó, ông thấp thỏm tự hỏi bao giờ mới về được nhà.",
+        "Bỗng ông nghe thấy tiếng nhạc vui, rồi vài con yêu tinh cất tiếng hát.",
+        "“Bọn chúng đang làm gì thế nhỉ?”",
+        "ông lão tự nhủ.",
+        "“Để ta ngó ra xem, nghe có vẻ vui lắm.”"
+      ],
+      "image": {
+        "prompt": "a crowd of funny comical oni goblins of all sizes with horns, huge eyes, long noses and wide mouths walking toward a hollow tree at sunset, an old man tumbling out of the tree in surprise",
+        "seed": 1792014136,
+        "character": "yeu-tinh"
+      },
+      "video": {
+        "motionPrompt": "the goblins parade in, the old man tumbles out of the hollow and scrambles back in",
+        "seed": 657080256
+      },
+      "voice": {}
+    },
+    {
+      "id": "tiec-yeu-tinh",
+      "title": "Bữa tiệc giữa rừng",
+      "narrator": "ke-chuyen",
+      "narration": "Ông thò đầu ra nhìn thì thấy chính con yêu tinh đầu đàn đang ngồi dựa lưng vào cái cây ông trú, còn cả bọn ngồi vây quanh, con uống rượu, con nhảy múa. Thức ăn và rượu bày la liệt trên mặt đất, rõ ràng bọn chúng đang mở một bữa tiệc lớn và vui thích vô cùng, chẳng ai nghĩ đến chuyện gì khác ngoài ăn uống và vui chơi. Ông lão bật cười khi thấy những điệu bộ kỳ quặc của chúng.\n\n“Vui quá đi mất!” ông tự cười thầm. “Ta già đến thế này rồi mà cả đời chưa từng thấy cảnh nào lạ như vậy.”\n\nÔng xem say sưa, hào hứng và thích thú đến mức quên hẳn mình đang ở đâu và đang là ai, bước hẳn ra khỏi cây và đứng xem.\n\nLúc ấy lão yêu tinh đầu đàn đang cầm một chén rượu lớn, nhìn một con yêu tinh nhảy múa. Một lát sau, lão ngán ngẩm nói:\n\n“Điệu nhảy của ngươi đơn điệu quá, ta xem phát chán. Trong các ngươi chẳng lẽ không ai nhảy hay hơn thằng này sao?”",
+      "subtitles": [
+        "Ông thò đầu ra nhìn thì thấy chính con yêu tinh đầu đàn đang ngồi dựa lưng vào cái cây",
+        "ông trú, còn cả bọn ngồi vây quanh, con uống rượu, con nhảy múa.",
+        "Thức ăn và rượu bày la liệt trên mặt đất,",
+        "rõ ràng bọn chúng đang mở một bữa tiệc lớn và vui thích vô cùng,",
+        "chẳng ai nghĩ đến chuyện gì khác ngoài ăn uống và vui chơi.",
+        "Ông lão bật cười khi thấy những điệu bộ kỳ quặc của chúng.",
+        "“Vui quá đi mất!”",
+        "ông tự cười thầm.",
+        "“Ta già đến thế này rồi mà cả đời chưa từng thấy cảnh nào lạ như vậy.”",
+        "Ông xem say sưa, hào hứng và thích thú đến mức quên hẳn mình đang ở đâu và đang là ai,",
+        "bước hẳn ra khỏi cây và đứng xem.",
+        "Lúc ấy lão yêu tinh đầu đàn đang cầm một chén rượu lớn, nhìn một con yêu tinh nhảy múa.",
+        "Một lát sau, lão ngán ngẩm nói: “Điệu nhảy của ngươi đơn điệu quá, ta xem phát chán.",
+        "Trong các ngươi chẳng lẽ không ai nhảy hay hơn thằng này sao?”"
+      ],
+      "image": {
+        "prompt": "a moonlit forest clearing where a big oni chief sits with his back against a tree holding a huge sake cup while other goblins eat, drink and dance, an old man peeking out and laughing",
+        "seed": 568362734,
+        "character": "yeu-tinh"
+      },
+      "video": {
+        "motionPrompt": "goblins dance and drink around the feast, the old man chuckles from behind the tree",
+        "seed": 3888749050
       },
       "voice": {}
     },
     {
       "id": "dieu-mua",
-      "title": "Điệu múa vui",
+      "title": "Điệu múa của ông lão",
       "narrator": "ke-chuyen",
-      "narration": "Ăn uống no say, lão yêu tinh đầu đàn bảo: “Nào, đứa nào ra múa một bài cho vui!” Một yêu tinh trẻ nhảy ra múa, nhưng múa vụng quá. Ông lão vốn mê múa, nghe tiếng nhạc thì chân tay cứ ngứa ngáy. Quên cả sợ, ông nhảy ra khỏi hốc cây, múa một điệu thật vui, vừa múa vừa hát. Cả đoàn yêu tinh vỗ tay ầm ĩ, cười nghiêng ngả.",
+      "narration": "Ông lão này, cả đời mê múa, tuổi đã cao mà lòng vẫn yêu điệu nhảy, lại rất thạo nghề này, nên ông biết rõ mình nhảy hơn con yêu tinh kia xa. Ông tự hỏi mình: “Hay là ta ra nhảy cho bọn yêu tinh xem người trần làm được những gì? Nhưng có thể nguy hiểm, nếu chúng không vừa lòng thì chúng làm hại ta mất.”\n\nTuy nhiên nỗi sợ nhanh chóng bị lòng yêu múa lấn át. Ông đứng đó lưỡng lự một lúc, hết nhìn lũ yêu tinh lại nhìn đôi chân mình đang ngứa ngáy theo nhịp trống. Chỉ một lát sau ông không kìm được nữa, bước ra trước cả bọn yêu tinh và bắt đầu nhảy. Ông hiểu rằng mạng sống của mình có thể tùy vào chuyện làm hài lòng những sinh vật lạ này hay không, nên ông dốc hết tài khéo và trí khôn ra múa.\n\nLúc đầu lũ yêu tinh rất đỗi ngạc nhiên khi thấy một người trần dám tham gia buổi vui của chúng không chút sợ hãi, nhưng chẳng bao lâu sự ngạc nhiên đã nhường chỗ cho thán phục.\n\n“Lạ thật!” lão đầu đàn có sừng thốt lên. “Ta chưa từng thấy ai múa khéo như thế này! Nhảy tuyệt quá!”",
       "subtitles": [
-        "Ăn uống no say, lão yêu tinh đầu đàn bảo: “Nào, đứa nào ra múa một bài cho vui!”",
-        "Một yêu tinh trẻ nhảy ra múa, nhưng múa vụng quá.",
-        "Ông lão vốn mê múa, nghe tiếng nhạc thì chân tay cứ ngứa ngáy.",
-        "Quên cả sợ, ông nhảy ra khỏi hốc cây, múa một điệu thật vui, vừa múa vừa hát.",
-        "Cả đoàn yêu tinh vỗ tay ầm ĩ, cười nghiêng ngả."
+        "Ông lão này, cả đời mê múa, tuổi đã cao mà lòng vẫn yêu điệu nhảy, lại rất thạo nghề này,",
+        "nên ông biết rõ mình nhảy hơn con yêu tinh kia xa.",
+        "Ông tự hỏi mình: “Hay là ta ra nhảy cho bọn yêu tinh xem người trần làm được những gì?",
+        "Nhưng có thể nguy hiểm, nếu chúng không vừa lòng thì chúng làm hại ta mất.”",
+        "Tuy nhiên nỗi sợ nhanh chóng bị lòng yêu múa lấn át.",
+        "Ông đứng đó lưỡng lự một lúc,",
+        "hết nhìn lũ yêu tinh lại nhìn đôi chân mình đang ngứa ngáy theo nhịp trống.",
+        "Chỉ một lát sau ông không kìm được nữa, bước ra trước cả bọn yêu tinh và bắt đầu nhảy.",
+        "Ông hiểu rằng mạng sống của mình có thể tùy vào chuyện làm hài lòng những sinh vật lạ này",
+        "hay không, nên ông dốc hết tài khéo và trí khôn ra múa.",
+        "Lúc đầu lũ yêu tinh rất đỗi ngạc nhiên khi thấy một người trần dám tham gia buổi vui của",
+        "chúng không chút sợ hãi, nhưng chẳng bao lâu sự ngạc nhiên đã nhường chỗ cho thán phục.",
+        "“Lạ thật!”",
+        "lão đầu đàn có sừng thốt lên.",
+        "“Ta chưa từng thấy ai múa khéo như thế này!",
+        "Nhảy tuyệt quá!”"
       ],
       "image": {
-        "prompt": "a joyful old man with a lump on his cheek dancing merrily with a fan in a moonlit forest clearing, a circle of comical oni goblins clapping and laughing around him",
-        "seed": 2867470557,
+        "prompt": "a joyful old man with a lump on his cheek dancing gracefully with a fan before a circle of astonished comical oni goblins, moonlit clearing",
+        "seed": 574359346,
         "character": "ong-lao-hien"
       },
       "video": {
-        "motionPrompt": "the old man twirls and waves his fan, the goblins clap and sway with laughter",
-        "seed": 1479851475
+        "motionPrompt": "the old man twirls with his fan, the goblins gasp and clap",
+        "seed": 4049807956
       },
       "voice": {}
     },
     {
-      "id": "cam-co",
+      "id": "vat-lam-tin",
       "title": "Vật làm tin",
       "narrator": "ke-chuyen",
-      "narration": "Lão đầu đàn khoái lắm: “Ông múa hay tuyệt! Tối mai nhớ đến múa nữa nhé!” Ông lão vâng dạ. Nhưng lão đầu đàn sợ ông không quay lại, bèn nói: “Phải giữ một món làm tin. Ta lấy cái bướu này, người ta bảo nó là vật quý đấy!” Nói rồi lão đưa tay gỡ nhẹ một cái, cục bướu rời ra, chẳng đau chút nào. Gà vừa gáy, cả đoàn yêu tinh biến mất. Ông lão sờ má, thấy nhẵn nhụi, mừng rỡ chạy về khoe với bà.",
+      "narration": "Khi ông lão múa xong, lão yêu tinh to lớn nói:\n\n“Cảm ơn ông nhiều lắm về điệu múa thú vị vừa rồi. Giờ xin mời ông uống với chúng ta một chén rượu.”\n\nNói rồi lão đưa cho ông cái chén rượu lớn nhất. Ông lão hai tay nhận chén, cúi mình cảm ơn rất khiêm tốn, giọng đầy kính cẩn:\n\n“Tôi không ngờ ngài ban ơn như vậy. Tôi chỉ sợ điệu múa vụng về của mình đã làm hỏng cuộc vui của ngài.”\n\n“Không, không,” lão yêu tinh đáp. “Ông phải thường xuyên đến múa cho chúng ta xem. Tài của ông làm chúng ta rất thích.”\n\nÔng lão lại cúi đầu cảm ơn lần nữa và hứa chắc chắn sẽ đến.\n\n“Vậy ngày mai ông có đến không, ông già?” lão yêu tinh hỏi.\n\n“Nhất định tôi sẽ đến,” ông lão đáp.\n\n“Thế thì ông phải để lại một vật làm tin cho lời hứa,” lão yêu tinh nói.\n\n“Ngài muốn gì cũng được,” ông lão đáp.\n\n“Vậy để lại vật gì là tốt nhất đây?” lão yêu tinh nhìn quanh hỏi.\n\nMột tên hầu đang quỳ phía sau lão đầu đàn lên tiếng:\n\n“Vật làm tin phải là thứ quan trọng nhất với ông ta trong những gì ông ta có. Tôi thấy ông lão có một cục bướu ở má phải. Người trần vẫn coi cục bướu như thế là điềm may lớn. Xin ngài lấy cục bướu ở má phải ông ta, thì ngày mai ông ta nhất định phải đến, dù chỉ để lấy lại nó.”\n\n“Ngươi khôn lắm,” lão yêu tinh đầu đàn nói, gật đầu tán thưởng làm đôi sừng lắc lư. Rồi lão duỗi một cánh tay đầy lông, bàn tay vuốt nhọn, nắm lấy cục bướu to trên má phải ông lão. Lạ thay, ngay khi bàn tay ấy chạm vào, cục bướu rời ra dễ dàng như quả mận chín rụng khỏi cành, chẳng làm ông đau chút nào. Ngay sau đó cả đoàn yêu tinh vui vẻ biến mất tăm.",
       "subtitles": [
-        "Lão đầu đàn khoái lắm: “Ông múa hay tuyệt!",
-        "Tối mai nhớ đến múa nữa nhé!”",
-        "Ông lão vâng dạ.",
-        "Nhưng lão đầu đàn sợ ông không quay lại, bèn nói: “Phải giữ một món làm tin.",
-        "Ta lấy cái bướu này, người ta bảo nó là vật quý đấy!”",
-        "Nói rồi lão đưa tay gỡ nhẹ một cái, cục bướu rời ra, chẳng đau chút nào.",
-        "Gà vừa gáy, cả đoàn yêu tinh biến mất.",
-        "Ông lão sờ má, thấy nhẵn nhụi, mừng rỡ chạy về khoe với bà."
+        "Khi ông lão múa xong, lão yêu tinh to lớn nói:",
+        "“Cảm ơn ông nhiều lắm về điệu múa thú vị vừa rồi.",
+        "Giờ xin mời ông uống với chúng ta một chén rượu.”",
+        "Nói rồi lão đưa cho ông cái chén rượu lớn nhất.",
+        "Ông lão hai tay nhận chén, cúi mình cảm ơn rất khiêm tốn, giọng đầy kính cẩn:",
+        "“Tôi không ngờ ngài ban ơn như vậy.",
+        "Tôi chỉ sợ điệu múa vụng về của mình đã làm hỏng cuộc vui của ngài.”",
+        "“Không, không,” lão yêu tinh đáp.",
+        "“Ông phải thường xuyên đến múa cho chúng ta xem.",
+        "Tài của ông làm chúng ta rất thích.”",
+        "Ông lão lại cúi đầu cảm ơn lần nữa và hứa chắc chắn sẽ đến.",
+        "“Vậy ngày mai ông có đến không, ông già?”",
+        "lão yêu tinh hỏi.",
+        "“Nhất định tôi sẽ đến,” ông lão đáp.",
+        "“Thế thì ông phải để lại một vật làm tin cho lời hứa,” lão yêu tinh nói.",
+        "“Ngài muốn gì cũng được,” ông lão đáp.",
+        "“Vậy để lại vật gì là tốt nhất đây?”",
+        "lão yêu tinh nhìn quanh hỏi.",
+        "Một tên hầu đang quỳ phía sau lão đầu đàn lên tiếng:",
+        "“Vật làm tin phải là thứ quan trọng nhất với ông ta trong những gì ông ta có.",
+        "Tôi thấy ông lão có một cục bướu ở má phải.",
+        "Người trần vẫn coi cục bướu như thế là điềm may lớn.",
+        "Xin ngài lấy cục bướu ở má phải ông ta, thì ngày mai ông ta nhất định phải đến,",
+        "dù chỉ để lấy lại nó.”",
+        "“Ngươi khôn lắm,” lão yêu tinh đầu đàn nói, gật đầu tán thưởng làm đôi sừng lắc lư.",
+        "Rồi lão duỗi một cánh tay đầy lông, bàn tay vuốt nhọn,",
+        "nắm lấy cục bướu to trên má phải ông lão.",
+        "Lạ thay, ngay khi bàn tay ấy chạm vào,",
+        "cục bướu rời ra dễ dàng như quả mận chín rụng khỏi cành, chẳng làm ông đau chút nào.",
+        "Ngay sau đó cả đoàn yêu tinh vui vẻ biến mất tăm."
       ],
       "image": {
-        "prompt": "the grinning red oni chief gently plucking a round lump off a surprised old man's cheek like a fruit, dawn light appearing through the trees, a rooster on a fence",
-        "seed": 1332696854,
+        "prompt": "a big friendly oni chief handing a huge wine cup to an old man, an attendant goblin kneeling behind him pointing at the old man's cheek, the chief plucking the lump off like a ripe plum",
+        "seed": 4067797174,
         "character": "yeu-tinh"
       },
       "video": {
-        "motionPrompt": "the goblin chief holds up the lump proudly, the goblins scatter as dawn breaks, the old man touches his smooth cheek",
-        "seed": 3883935163
+        "motionPrompt": "the goblin chief's hairy hand plucks the lump off the old man's cheek, the goblins vanish",
+        "seed": 426744765
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-nha",
+      "title": "Má đã nhẵn",
+      "narrator": "ke-chuyen",
+      "narration": "Ông lão đứng ngẩn ra, đầu óc quay cuồng vì mọi chuyện vừa xảy đến, một lúc lâu chẳng biết mình đang ở đâu, đang đứng giữa chốn nào. Khi hiểu ra, ông mừng rỡ thấy cục bướu đã làm ông xấu xí bao nhiêu năm nay quả thật đã được lấy đi mà chẳng đau chút nào. Ông đưa tay sờ xem có vết sẹo nào không, nhưng má phải của ông nhẵn nhụi như má trái.\n\nMặt trời đã lặn từ lâu rồi, vầng trăng non nhô lên như một lưỡi liềm bạc trên bầu trời. Ông lão chợt nhận ra trời đã khuya và vội đi về nhà. Suốt đường đi ông cứ vỗ vỗ má phải, như để chắc chắn mình thật sự may mắn đã mất cục bướu. Ông vui đến nỗi không thể nào đi thong thả cho nổi, ông vừa chạy vừa nhảy múa suốt đường về.\n\nỞ nhà, bà vợ đang lo lắng, không hiểu chuyện gì đã làm chồng về trễ như vậy. Ông kể ngay cho bà nghe mọi chuyện từ lúc rời nhà buổi chiều. Bà vui mừng không kém gì chồng khi ông chỉ cho bà thấy cục bướu xấu xí đã biến mất khỏi mặt ông. Hồi còn trẻ bà vẫn tự hào về vẻ đẹp trai của chồng, và suốt bao năm nay, ngày nào bà cũng đau lòng mỗi khi nhìn cái u đáng ghét ấy trên mặt ông.",
+      "subtitles": [
+        "Ông lão đứng ngẩn ra, đầu óc quay cuồng vì mọi chuyện vừa xảy đến,",
+        "một lúc lâu chẳng biết mình đang ở đâu, đang đứng giữa chốn nào.",
+        "Khi hiểu ra, ông mừng rỡ thấy cục bướu đã làm ông xấu xí bao nhiêu năm nay quả thật đã",
+        "được lấy đi mà chẳng đau chút nào.",
+        "Ông đưa tay sờ xem có vết sẹo nào không, nhưng má phải của ông nhẵn nhụi như má trái.",
+        "Mặt trời đã lặn từ lâu rồi, vầng trăng non nhô lên như một lưỡi liềm bạc trên bầu trời.",
+        "Ông lão chợt nhận ra trời đã khuya và vội đi về nhà.",
+        "Suốt đường đi ông cứ vỗ vỗ má phải, như để chắc chắn mình thật sự may mắn đã mất cục bướu.",
+        "Ông vui đến nỗi không thể nào đi thong thả cho nổi,",
+        "ông vừa chạy vừa nhảy múa suốt đường về.",
+        "Ở nhà, bà vợ đang lo lắng, không hiểu chuyện gì đã làm chồng về trễ như vậy.",
+        "Ông kể ngay cho bà nghe mọi chuyện từ lúc rời nhà buổi chiều.",
+        "Bà vui mừng không kém gì chồng khi ông chỉ cho bà thấy cục bướu xấu xí đã biến mất khỏi",
+        "mặt ông.",
+        "Hồi còn trẻ bà vẫn tự hào về vẻ đẹp trai của chồng, và suốt bao năm nay,",
+        "ngày nào bà cũng đau lòng mỗi khi nhìn cái u đáng ghét ấy trên mặt ông."
+      ],
+      "image": {
+        "prompt": "a delighted old man running and dancing down a mountain path under a silver crescent moon, patting his smooth right cheek, his wife waving at the door of the house",
+        "seed": 144414439,
+        "character": "ong-lao-hien"
+      },
+      "video": {
+        "motionPrompt": "the old man dances down the path touching his cheek, his wife greets him at the door with a lantern",
+        "seed": 540832299
       },
       "voice": {}
     },
     {
       "id": "ong-hang-xom",
-      "title": "Ông hàng xóm ganh tị",
+      "title": "Ông hàng xóm cay nghiệt",
       "narrator": "ke-chuyen",
-      "narration": "Bên cạnh nhà có một ông lão khác, cũng mọc một cục bướu, nhưng ở má trái. Ông này hay ganh tị. Nghe chuyện, ông vội hỏi đường lên núi, tối đó chui vào hốc cây ngồi đợi. Quả nhiên, đoàn yêu tinh lại kéo đến bày tiệc. Lão đầu đàn hỏi: “Ông lão múa hay hôm qua đâu rồi?” Ông hàng xóm bước ra, nhưng ông chẳng biết múa, chỉ lóng ngóng nhảy lung tung, người cứng đơ như khúc gỗ.",
+      "narration": "Ngay sát vách nhà đôi vợ chồng già tốt bụng ấy có một ông lão khác, tính độc địa và khó chịu. Ông này cũng đã nhiều năm bị một cục bướu mọc ở má trái làm khổ, cũng đã thử đủ mọi cách để trừ nó mà không được.\n\nQua người hầu, ông ta nghe ngay tin may mắn của người hàng xóm vừa mất cục bướu, nên ngay tối hôm ấy ông ta sang nhà, nhờ bạn kể hết mọi chuyện về việc mất cục bướu. Ông lão tốt bụng kể cho người hàng xóm khó tính nghe tất cả những gì mình đã gặp. Ông kể từ trận mưa, cái hốc cây, đoàn yêu tinh cho đến điệu múa và chén rượu, không bỏ sót chi tiết nào, vì ông là người thật thà và chẳng nghĩ gì xấu về ai. Ông tả cặn kẽ chỗ có cái cây rỗng để nấp, và dặn ông ta phải có mặt ở đó vào chiều muộn, lúc gần hoàng hôn.",
       "subtitles": [
-        "Bên cạnh nhà có một ông lão khác, cũng mọc một cục bướu, nhưng ở má trái.",
-        "Ông này hay ganh tị.",
-        "Nghe chuyện, ông vội hỏi đường lên núi, tối đó chui vào hốc cây ngồi đợi.",
-        "Quả nhiên, đoàn yêu tinh lại kéo đến bày tiệc.",
-        "Lão đầu đàn hỏi: “Ông lão múa hay hôm qua đâu rồi?”",
-        "Ông hàng xóm bước ra, nhưng ông chẳng biết múa,",
-        "chỉ lóng ngóng nhảy lung tung, người cứng đơ như khúc gỗ."
+        "Ngay sát vách nhà đôi vợ chồng già tốt bụng ấy có một ông lão khác,",
+        "tính độc địa và khó chịu.",
+        "Ông này cũng đã nhiều năm bị một cục bướu mọc ở má trái làm khổ,",
+        "cũng đã thử đủ mọi cách để trừ nó mà không được.",
+        "Qua người hầu, ông ta nghe ngay tin may mắn của người hàng xóm vừa mất cục bướu,",
+        "nên ngay tối hôm ấy ông ta sang nhà, nhờ bạn kể hết mọi chuyện về việc mất cục bướu.",
+        "Ông lão tốt bụng kể cho người hàng xóm khó tính nghe tất cả những gì mình đã gặp.",
+        "Ông kể từ trận mưa, cái hốc cây, đoàn yêu tinh cho đến điệu múa và chén rượu,",
+        "không bỏ sót chi tiết nào, vì ông là người thật thà và chẳng nghĩ gì xấu về ai.",
+        "Ông tả cặn kẽ chỗ có cái cây rỗng để nấp, và dặn ông ta phải có mặt ở đó vào chiều muộn,",
+        "lúc gần hoàng hôn."
       ],
       "image": {
-        "prompt": "a stiff grumpy old man with a lump on his left cheek dancing awkwardly in a moonlit forest clearing, the comical oni goblins frowning and covering their eyes",
-        "seed": 3878612367,
+        "prompt": "a spiteful old Japanese man with a lump on his left cheek eagerly listening to his smiling neighbor in the evening, drawing a map in the air",
+        "seed": 3278873861,
         "character": "ong-hang-xom"
       },
       "video": {
-        "motionPrompt": "the old man stumbles clumsily, the goblins shake their heads and groan",
-        "seed": 2536601397
+        "motionPrompt": "the neighbor leans in listening hungrily while the kind old man gestures the way",
+        "seed": 4292669958
+      },
+      "voice": {}
+    },
+    {
+      "id": "nhay-do",
+      "title": "Điệu nhảy vụng về",
+      "narrator": "ke-chuyen",
+      "narration": "Chiều hôm sau ông lão hàng xóm lên đường, tìm quanh một lúc thì đến cái cây rỗng đúng như bạn đã tả. Ông ta chui vào nấp trong đó, ngồi im chờ cho đến lúc chạng vạng.\n\nĐúng như lời dặn, đoàn yêu tinh kéo đến vào giờ ấy và mở tiệc, có nhảy múa và ca hát. Khi cuộc vui đã diễn ra một lúc, lão yêu tinh đầu đàn nhìn quanh và nói:\n\n“Đã đến giờ ông lão phải tới như đã hứa với chúng ta rồi. Sao ông ta chưa đến nhỉ?”\n\nNghe vậy, ông lão thứ hai mừng quýnh, chạy ngay ra khỏi chỗ nấp trong cây, quỳ xuống trước bọn yêu tinh và nói:\n\n“Tôi đã chờ lâu lắm để ngài lên tiếng gọi!”\n\n“À, ông là ông lão hôm qua,” lão đầu đàn nói. “Cảm ơn ông đã đến, giờ ông nhảy cho chúng ta xem đi.”\n\nÔng lão đứng dậy, mở quạt ra và bắt đầu nhảy. Nhưng ông ta chưa bao giờ học múa, chẳng biết các động tác lẫn thế đứng cần thiết. Ông ta nghĩ rằng cái gì cũng sẽ làm bọn yêu tinh vừa lòng, nên cứ nhảy lung tung, vung tay, giậm chân, bắt chước đại những gì từng thấy người ta múa.\n\nBọn yêu tinh rất không bằng lòng với màn trình diễn ấy, thì thầm với nhau:\n\n“Hôm nay nhảy dở quá!”",
+      "subtitles": [
+        "Chiều hôm sau ông lão hàng xóm lên đường,",
+        "tìm quanh một lúc thì đến cái cây rỗng đúng như bạn đã tả.",
+        "Ông ta chui vào nấp trong đó, ngồi im chờ cho đến lúc chạng vạng.",
+        "Đúng như lời dặn, đoàn yêu tinh kéo đến vào giờ ấy và mở tiệc, có nhảy múa và ca hát.",
+        "Khi cuộc vui đã diễn ra một lúc, lão yêu tinh đầu đàn nhìn quanh và nói:",
+        "“Đã đến giờ ông lão phải tới như đã hứa với chúng ta rồi.",
+        "Sao ông ta chưa đến nhỉ?”",
+        "Nghe vậy, ông lão thứ hai mừng quýnh, chạy ngay ra khỏi chỗ nấp trong cây,",
+        "quỳ xuống trước bọn yêu tinh và nói: “Tôi đã chờ lâu lắm để ngài lên tiếng gọi!”",
+        "“À, ông là ông lão hôm qua,” lão đầu đàn nói.",
+        "“Cảm ơn ông đã đến, giờ ông nhảy cho chúng ta xem đi.”",
+        "Ông lão đứng dậy, mở quạt ra và bắt đầu nhảy.",
+        "Nhưng ông ta chưa bao giờ học múa, chẳng biết các động tác lẫn thế đứng cần thiết.",
+        "Ông ta nghĩ rằng cái gì cũng sẽ làm bọn yêu tinh vừa lòng, nên cứ nhảy lung tung,",
+        "vung tay, giậm chân, bắt chước đại những gì từng thấy người ta múa.",
+        "Bọn yêu tinh rất không bằng lòng với màn trình diễn ấy, thì thầm với nhau:",
+        "“Hôm nay nhảy dở quá!”"
+      ],
+      "image": {
+        "prompt": "a stiff clumsy old man with a lump on his left cheek hopping about awkwardly with an open fan before disappointed comical oni goblins, moonlit clearing",
+        "seed": 2034601627,
+        "character": "ong-hang-xom"
+      },
+      "video": {
+        "motionPrompt": "the neighbor hops and flails his arms, the goblins shake their heads and groan",
+        "seed": 975408228
       },
       "voice": {}
     },
     {
       "id": "hai-cuc-buou",
-      "title": "Hai cục bướu",
+      "title": "Thêm một cục bướu",
       "narrator": "ke-chuyen",
-      "narration": "Lão đầu đàn cau mày: “Hôm nay múa dở quá! Thôi, trả lại vật làm tin, đừng đến nữa!” Lão ném cục bướu đánh bốp vào má phải ông hàng xóm. Cục bướu dính chặt luôn. Thế là ông lão ganh tị về nhà với hai cục bướu, mỗi bên má một cái, nặng gấp đôi. Từ đó, người trong làng thường nhắc nhau: đừng ganh tị với người khác, kẻo chuốc thêm phiền vào thân.",
+      "narration": "Lão yêu tinh đầu đàn quay sang bảo ông ta:\n\n“Màn trình diễn hôm nay khác hẳn điệu múa hôm qua. Chúng ta không muốn xem thêm những điệu nhảy như thế. Chúng ta sẽ trả lại vật làm tin mà ông kia để lại. Ông đi ngay đi.”\n\nNói rồi lão lấy từ trong nếp áo ra cục bướu đã lấy khỏi mặt ông lão múa giỏi hôm trước, ném vào má phải của ông lão đang đứng trước mặt. Cục bướu lập tức dính vào má ông ta, chắc như thể đã mọc ở đó từ xưa, và mọi cách kéo nó ra đều vô ích. Ông lão độc địa chẳng những không mất được cục bướu bên má trái như đã mong, mà còn kinh hoàng nhận ra mình chỉ thêm một cục nữa vào má phải trong lúc cố gắng gỡ cục thứ nhất.\n\nÔng đưa hết tay này đến tay kia sờ lên hai bên mặt, sờ đi sờ lại, để xem có phải mình đang mơ một giấc mơ khủng khiếp không. Không, đúng là bên phải mặt giờ đã có một cục bướu to như bên trái. Bọn yêu tinh đã biến mất hết từ lúc nào, xung quanh chỉ còn bóng đêm và gió núi, ông ta chẳng còn cách nào khác ngoài lủi thủi về nhà. Trông ông thật đáng thương trong bộ dạng ấy: cái mặt với hai cục bướu to, mỗi bên một cái, trông y hệt quả bầu của người Nhật.",
       "subtitles": [
-        "Lão đầu đàn cau mày: “Hôm nay múa dở quá!",
-        "Thôi, trả lại vật làm tin, đừng đến nữa!”",
-        "Lão ném cục bướu đánh bốp vào má phải ông hàng xóm.",
-        "Cục bướu dính chặt luôn.",
-        "Thế là ông lão ganh tị về nhà với hai cục bướu, mỗi bên má một cái, nặng gấp đôi.",
-        "Từ đó, người trong làng thường nhắc nhau:",
-        "đừng ganh tị với người khác, kẻo chuốc thêm phiền vào thân."
+        "Lão yêu tinh đầu đàn quay sang bảo ông ta:",
+        "“Màn trình diễn hôm nay khác hẳn điệu múa hôm qua.",
+        "Chúng ta không muốn xem thêm những điệu nhảy như thế.",
+        "Chúng ta sẽ trả lại vật làm tin mà ông kia để lại.",
+        "Ông đi ngay đi.”",
+        "Nói rồi lão lấy từ trong nếp áo ra cục bướu đã lấy khỏi mặt ông lão múa giỏi hôm trước,",
+        "ném vào má phải của ông lão đang đứng trước mặt.",
+        "Cục bướu lập tức dính vào má ông ta, chắc như thể đã mọc ở đó từ xưa,",
+        "và mọi cách kéo nó ra đều vô ích.",
+        "Ông lão độc địa chẳng những không mất được cục bướu bên má trái như đã mong,",
+        "mà còn kinh hoàng nhận ra mình chỉ thêm một cục nữa vào má phải trong lúc cố gắng gỡ cục",
+        "thứ nhất.",
+        "Ông đưa hết tay này đến tay kia sờ lên hai bên mặt, sờ đi sờ lại,",
+        "để xem có phải mình đang mơ một giấc mơ khủng khiếp không.",
+        "Không, đúng là bên phải mặt giờ đã có một cục bướu to như bên trái.",
+        "Bọn yêu tinh đã biến mất hết từ lúc nào, xung quanh chỉ còn bóng đêm và gió núi,",
+        "ông ta chẳng còn cách nào khác ngoài lủi thủi về nhà.",
+        "Trông ông thật đáng thương trong bộ dạng ấy: cái mặt với hai cục bướu to,",
+        "mỗi bên một cái, trông y hệt quả bầu của người Nhật."
       ],
       "image": {
-        "prompt": "a funny sulking old Japanese man with a round lump on each cheek walking home down a mountain path, villagers in the distance smiling and shaking their heads, comical mood",
-        "seed": 3209090525,
+        "prompt": "a dismayed old man with a large lump on each cheek like a Japanese gourd walking home alone down a mountain path in the moonlight",
+        "seed": 596734471,
         "character": "ong-hang-xom"
       },
       "video": {
-        "motionPrompt": "the old man trudges home holding both cheeks, birds chirp in the morning trees",
-        "seed": 1864957952
+        "motionPrompt": "the old man holds both cheeks in dismay and trudges away as the goblins disappear",
+        "seed": 3368432896
       },
       "voice": {}
     }
