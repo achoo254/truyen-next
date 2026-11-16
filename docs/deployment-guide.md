@@ -59,6 +59,12 @@ Các file: [`infra/nginx/truyen.hoandat.com.conf`](../infra/nginx/truyen.hoandat
 [`infra/setup-deploy-user.sh`](../infra/setup-deploy-user.sh), [`infra/setup-sign-in.sh`](../infra/setup-sign-in.sh),
 [`.github/workflows/`](../.github/workflows/), mẫu env [`.env.example`](../.env.example).
 
+**Kết nối ra ngoài ưu tiên IPv4.** IPv6 đi ra từ .65 không chạy và kết nối IPv4 đôi khi mất hơn 2 giây, nên với mặc
+định của Node 22 (happy eyeballs, 250 ms mỗi địa chỉ) lời gọi qua Cloudflare hay bên thứ ba hỏng với
+`AggregateError [ETIMEDOUT]`. Process chạy với `NODE_OPTIONS=--dns-result-order=ipv4first
+--network-family-autoselection-attempt-timeout=2500` (`Environment=` trong `infra/truyen-server.service`): thử IPv4 trước, đợi mỗi địa chỉ 2,5 giây. Đổi unit thì chạy `infra/deploy.sh setup` (`infra/install-site.sh` cài lại unit và restart service).
+Kiểm: `tr '\0' '\n' < /proc/<pid>/environ | grep NODE_OPTIONS`.
+
 ## Biến môi trường của API
 
 Trên server: `/etc/truyen/production.env`, do `infra/setup-sign-in.sh` ghi (không sửa tay; muốn đổi thì chạy lại script
