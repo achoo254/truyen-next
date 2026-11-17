@@ -8,8 +8,9 @@
     "ngu-ngon"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-18",
   "language": "vi",
-  "source": "Truyện ngụ ngôn dân gian Việt Nam, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; thêm thoại, chi tiết đời thường và một cái kết anh nông dân sửa sai, Mèo Miu mở đầu và rút bài học ở cuối.",
+  "source": "Truyện ngụ ngôn dân gian Việt Nam Đẽo cày giữa đường, truyền miệng, thuộc phạm vi công cộng; đối chiếu bản kể trên truyencotich.vn. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản kể nào; kể đủ như gốc, không thêm đoạn sau, kết thúc bằng lời tự nhủ của bác nông dân.",
   "basedOn": "Truyện ngụ ngôn dân gian Việt Nam",
   "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, cheerful comic mood for young children, a dusty village road beside rice fields, bamboo hedges and a roadside tea stall, no text, no letters, no watermark",
   "narrators": {
@@ -54,138 +55,117 @@
       "id": "mo-dau",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Hôm nay Mèo Miu định gấp một chiếc thuyền giấy. Bạn này bảo gấp to, bạn kia bảo gấp nhỏ, bạn nọ lại bảo gấp thành máy bay cơ. Nghe ai bây giờ nhỉ? Ngày xưa có một anh nông dân cũng gặp chuyện giống hệt Miu đấy. Mình cùng nghe nhé!",
+      "narration": "Xin chào các bạn nhỏ! Hôm nay Mèo Miu định gấp một chiếc thuyền giấy. Bạn này bảo gấp to, bạn kia bảo gấp nhỏ, bạn nọ lại bảo gấp thành máy bay cơ. Nghe ai bây giờ nhỉ? Ngày xưa có một bác nông dân cũng gặp chuyện giống hệt Miu đấy. Mình cùng nghe nhé!",
       "subtitles": [
-        "Xin chào các bạn nhỏ! Hôm nay Mèo Miu định gấp một chiếc thuyền giấy.",
+        "Xin chào các bạn nhỏ!",
+        "Hôm nay Mèo Miu định gấp một chiếc thuyền giấy.",
         "Bạn này bảo gấp to, bạn kia bảo gấp nhỏ, bạn nọ lại bảo gấp thành máy bay cơ.",
-        "Nghe ai bây giờ nhỉ? Ngày xưa có một anh nông dân cũng gặp chuyện giống hệt Miu đấy.",
+        "Nghe ai bây giờ nhỉ?",
+        "Ngày xưa có một bác nông dân cũng gặp chuyện giống hệt Miu đấy.",
         "Mình cùng nghe nhé!"
       ],
       "image": {
-        "character": "miu",
-        "prompt": "Meo Miu the voxel white cat sits at a little wooden table folding a paper boat, looking puzzled with a paw on her chin, several half-folded paper shapes around her, an open picture book nearby",
-        "seed": 742048586
+        "prompt": "Meo Miu the voxel white cat sits with a half-folded paper boat, several friends around her all pointing in different directions with suggestions",
+        "seed": 1817944435,
+        "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat turns the paper boat this way and that, scratches her head with a paw, papers rustle, slow gentle camera push-in",
+        "motionPrompt": "the cat holds the paper boat, friends point left and right, she scratches her head, soft push-in",
+        "seed": 1663864199
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-cay-tot",
+      "title": "Bác nông dân muốn có cái cày tốt",
+      "narrator": "ke-chuyen",
+      "narration": "Chuyện kể rằng có một bác nông dân rất nghèo, cả đời sống bằng nghề đồng áng. Bác ao ước làm được một cái cày thật tốt, để công việc đồng áng được năng suất hơn và đỡ vất vả hơn. Một hôm, bác rất vui vì xin được một cây gỗ tốt. Nhưng từ trước đến giờ bác chưa bao giờ làm cái cày. Vì thế, bác mang khúc gỗ ra ngồi đẽo ở ven đường, để hỏi ý kiến mọi người qua lại.",
+      "subtitles": [
+        "Chuyện kể rằng có một bác nông dân rất nghèo, cả đời sống bằng nghề đồng áng.",
+        "Bác ao ước làm được một cái cày thật tốt,",
+        "để công việc đồng áng được năng suất hơn và đỡ vất vả hơn.",
+        "Một hôm, bác rất vui vì xin được một cây gỗ tốt.",
+        "Nhưng từ trước đến giờ bác chưa bao giờ làm cái cày.",
+        "Vì thế, bác mang khúc gỗ ra ngồi đẽo ở ven đường, để hỏi ý kiến mọi người qua lại."
+      ],
+      "image": {
+        "prompt": "a poor Vietnamese farmer in a brown shirt and conical hat sits on a roadside with a fine log and a small adze about to start carving, a dirt road and rice fields behind",
+        "seed": 4143188079,
+        "character": "anh-nong-dan"
+      },
+      "video": {
+        "motionPrompt": "the farmer taps the log with his adze and hums, wood chips fly, travellers walk along the road in the distance",
+        "seed": 1507634004
+      },
+      "voice": {}
+    },
+    {
+      "id": "loi-che-1",
+      "title": "Người thứ nhất chê",
+      "narrator": "ke-chuyen",
+      "narration": "Bác đẽo được một lúc thì có một người đi qua, nhìn rồi chê: Bác đẽo thế không phải rồi, bác đẽo to quá. Bác nông dân nghe thấy có lý, bèn làm theo. Bác làm được một lúc, lại có một người khác đi qua, bảo: Bác đẽo thế này không cày được đâu, cái đầu cày bác làm to quá. Bác nông dân nghe thấy người này nói còn có lý hơn, bèn chỉnh sửa theo lời khuyên.",
+      "subtitles": [
+        "Bác đẽo được một lúc thì có một người đi qua, nhìn rồi chê: Bác đẽo thế không phải rồi,",
+        "bác đẽo to quá.",
+        "Bác nông dân nghe thấy có lý, bèn làm theo.",
+        "Bác làm được một lúc, lại có một người khác đi qua, bảo:",
+        "Bác đẽo thế này không cày được đâu, cái đầu cày bác làm to quá.",
+        "Bác nông dân nghe thấy người này nói còn có lý hơn, bèn chỉnh sửa theo lời khuyên."
+      ],
+      "image": {
+        "prompt": "two passers-by in turn stop beside the carving farmer shaking their heads and pointing at the log, the farmer listening and nodding with a worried face, wood shavings around",
+        "seed": 742048586,
+        "character": "nguoi-qua-duong"
+      },
+      "video": {
+        "motionPrompt": "a traveller shakes his head and points at the log, the farmer nods and chips away, shavings fly",
         "seed": 1591747231
       },
       "voice": {}
     },
     {
-      "id": "mua-go",
-      "title": "Anh nông dân mua gỗ",
+      "id": "loi-che-2",
+      "title": "Người thứ ba chê",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, có một anh nông dân chăm chỉ, ước ao có một cái cày thật tốt để cày ruộng. Anh dành dụm mãi, mới mua được một khúc gỗ to, thẳng thớm. Anh vác gỗ ra ngồi ngay bên vệ đường, chỗ có quán nước, vừa mát vừa vui, rồi cầm rìu bắt đầu đẽo. Anh vừa đẽo vừa huýt sáo: Đẽo xong cái cày này, mùa tới ruộng nhà mình sẽ tốt lắm đây!",
+      "narration": "Bác đẽo thêm một lúc nữa, lại có một người đi qua nói: Bác đẽo thế không ổn rồi, cái cày bác làm dài quá, không thuận tay đâu. Bác nông dân nghe thấy lại càng có lý hơn, liền chỉnh sửa theo lời người ấy. Cứ thế, ai đi qua nói gì, bác cũng nghe theo mà đẽo.",
       "subtitles": [
-        "Ngày xưa, có một anh nông dân chăm chỉ, ước ao có một cái cày thật tốt để cày ruộng.",
-        "Anh dành dụm mãi, mới mua được một khúc gỗ to, thẳng thớm.",
-        "Anh vác gỗ ra ngồi ngay bên vệ đường, chỗ có quán nước, vừa mát vừa vui,",
-        "rồi cầm rìu bắt đầu đẽo.",
-        "Anh vừa đẽo vừa huýt sáo: Đẽo xong cái cày này, mùa tới ruộng nhà mình sẽ tốt lắm đây!"
+        "Bác đẽo thêm một lúc nữa, lại có một người đi qua nói: Bác đẽo thế không ổn rồi,",
+        "cái cày bác làm dài quá, không thuận tay đâu.",
+        "Bác nông dân nghe thấy lại càng có lý hơn, liền chỉnh sửa theo lời người ấy.",
+        "Cứ thế, ai đi qua nói gì, bác cũng nghe theo mà đẽo."
       ],
       "image": {
-        "character": "anh-nong-dan",
-        "prompt": "a young farmer sits on the roadside beside a tea stall under a bamboo hedge, happily shaping a big straight log with a small adze, wood chips on the ground, rice fields behind",
-        "seed": 599861477
+        "prompt": "a third passer-by with a shoulder pole points at the carved plough-shaped log with a critical frown, the farmer carving again with an anxious look, the log getting smaller",
+        "seed": 599861477,
+        "character": "nguoi-qua-duong"
       },
       "video": {
-        "motionPrompt": "the farmer taps the log with his adze and whistles, wood chips fly softly, bamboo leaves sway, villagers sip tea in the background",
+        "motionPrompt": "the traveller wags his finger at the log, the farmer carves again, the log shrinks little by little",
         "seed": 641972258
       },
       "voice": {}
     },
     {
-      "id": "gop-y",
-      "title": "Người góp ý",
+      "id": "het-go",
+      "title": "Chỉ còn đống củi vụn",
       "narrator": "ke-chuyen",
-      "narration": "Một ông khách đi qua, dừng lại ngó nghiêng rồi bảo: Này anh, cày phải đẽo cho cao, cho to thì mới cày được sâu chứ! Anh nông dân nghĩ: Ừ, nghe cũng phải. Thế là anh đẽo cho cao, cho to. Lát sau, một bác gánh hàng ghé lại, lắc đầu: To thế thì trâu nào kéo nổi? Đẽo nhỏ đi, thấp xuống anh ạ! Anh lại gật gù: Ừ, nghe cũng phải. Thế là anh đẽo cho nhỏ, cho thấp.",
+      "narration": "Và rồi, hết ngày hôm ấy, bác nông dân chỉ còn lại một khúc gỗ nhỏ xíu. Bác không còn cơ hội để đẽo cái cày theo ý mình được nữa. Cây gỗ quý đã thành một đống củi vụn. Bác buồn lắm. Nhưng cuối cùng, bác cũng hiểu ra: Làm việc gì cũng vậy, mình phải có chính kiến của mình, và kiên trì với con đường đã chọn.",
       "subtitles": [
-        "Một ông khách đi qua, dừng lại ngó nghiêng rồi bảo: Này anh, cày phải đẽo cho cao,",
-        "cho to thì mới cày được sâu chứ! Anh nông dân nghĩ: Ừ, nghe cũng phải.",
-        "Thế là anh đẽo cho cao, cho to.",
-        "Lát sau, một bác gánh hàng ghé lại, lắc đầu: To thế thì trâu nào kéo nổi?",
-        "Đẽo nhỏ đi, thấp xuống anh ạ! Anh lại gật gù: Ừ, nghe cũng phải.",
-        "Thế là anh đẽo cho nhỏ, cho thấp."
+        "Và rồi, hết ngày hôm ấy, bác nông dân chỉ còn lại một khúc gỗ nhỏ xíu.",
+        "Bác không còn cơ hội để đẽo cái cày theo ý mình được nữa.",
+        "Cây gỗ quý đã thành một đống củi vụn.",
+        "Bác buồn lắm.",
+        "Nhưng cuối cùng, bác cũng hiểu ra: Làm việc gì cũng vậy,",
+        "mình phải có chính kiến của mình, và kiên trì với con đường đã chọn."
       ],
       "image": {
-        "character": "nguoi-qua-duong",
-        "prompt": "on the village road, a plump traveller points at the log and talks, then a man with baskets on a shoulder pole shakes his head, the young farmer nods eagerly and keeps chopping",
-        "seed": 2568400250
+        "prompt": "at dusk the farmer sits by the roadside holding a tiny stub of wood among a heap of wood chips, his shoulders sagging, a long road in orange evening light",
+        "seed": 2568400250,
+        "character": "anh-nong-dan"
       },
       "video": {
-        "motionPrompt": "the passers-by point and talk in turn, the farmer nods to each one and chops again, the shoulder pole baskets bounce, comic timing",
+        "motionPrompt": "the farmer sighs and looks at the stub in his hands, wood chips settle, evening light turns deeper orange",
         "seed": 2950447810
-      },
-      "voice": {}
-    },
-    {
-      "id": "dao-luon",
-      "title": "Đẽo mãi đẽo mãi",
-      "narrator": "ke-chuyen",
-      "narration": "Rồi một người khác đi qua, bảo: Ở miền núi người ta cày bằng voi đấy, anh đẽo cày thật to cho voi kéo mới hay! Anh nông dân mắt sáng lên, lại cặm cụi đẽo theo. Người này nói một kiểu, người kia nói một kiểu. Ai nói gì anh cũng nghe, cũng đẽo. Đẽo từ sáng sớm đến chiều tối, khúc gỗ cứ nhỏ dần, nhỏ dần, cong queo như một khúc củi.",
-      "subtitles": [
-        "Rồi một người khác đi qua, bảo: Ở miền núi người ta cày bằng voi đấy,",
-        "anh đẽo cày thật to cho voi kéo mới hay! Anh nông dân mắt sáng lên, lại cặm cụi đẽo theo.",
-        "Người này nói một kiểu, người kia nói một kiểu.",
-        "Ai nói gì anh cũng nghe, cũng đẽo.",
-        "Đẽo từ sáng sớm đến chiều tối, khúc gỗ cứ nhỏ dần, nhỏ dần, cong queo như một khúc củi."
-      ],
-      "image": {
-        "character": "anh-nong-dan",
-        "prompt": "late afternoon on the roadside, the tired young farmer holds up a tiny crooked piece of wood that looks like firewood, a big pile of wood chips around him, villagers walking away chatting",
-        "seed": 3031881974
-      },
-      "video": {
-        "motionPrompt": "the farmer holds up the tiny crooked wood and blinks, a pile of wood chips stirs in the breeze, the sun slowly sinks, shadows grow longer",
-        "seed": 1871935551
-      },
-      "voice": {}
-    },
-    {
-      "id": "chang-con-gi",
-      "title": "Khúc gỗ chẳng còn gì",
-      "narrator": "ke-chuyen",
-      "narration": "Trời tối dần. Anh nông dân nhìn đống phoi gỗ dưới chân, rồi nhìn khúc gỗ nhỏ xíu trong tay, ngồi thừ ra. Tiền dành dụm bao lâu, giờ chẳng làm nổi một cái cày. Anh buồn lắm. Có một cụ già cày ruộng đi ngang, nghe anh kể chuyện, cụ cười hiền: Con ạ, nghe người ta góp ý là tốt, nhưng con phải tự nghĩ xem điều gì hợp với ruộng nhà mình chứ.",
-      "subtitles": [
-        "Trời tối dần.",
-        "Anh nông dân nhìn đống phoi gỗ dưới chân, rồi nhìn khúc gỗ nhỏ xíu trong tay, ngồi thừ ra.",
-        "Tiền dành dụm bao lâu, giờ chẳng làm nổi một cái cày.",
-        "Anh buồn lắm. Có một cụ già cày ruộng đi ngang, nghe anh kể chuyện, cụ cười hiền: Con ạ,",
-        "nghe người ta góp ý là tốt, nhưng con phải tự nghĩ xem điều gì hợp với ruộng nhà mình chứ."
-      ],
-      "image": {
-        "character": "cu-gia",
-        "prompt": "at dusk on the village road, a kind old farmer with a white beard sits beside the sad young farmer, patting his shoulder, a pile of wood chips and a tiny crooked stick on the ground, fireflies appearing",
-        "seed": 617934002
-      },
-      "video": {
-        "motionPrompt": "the old farmer pats the young man shoulder gently, the young man lifts his head, fireflies blink softly, dusk light fades",
-        "seed": 2904699827
-      },
-      "voice": {}
-    },
-    {
-      "id": "lam-lai",
-      "title": "Làm lại từ đầu",
-      "narrator": "ke-chuyen",
-      "narration": "Cụ già dẫn anh về nhà, chỉ cho anh xem cái cày cũ của cụ, cái cày vừa với sức trâu, vừa với thửa ruộng làng mình. Anh nông dân chăm chỉ làm thêm một mùa, mua được khúc gỗ mới. Lần này anh vào sân nhà mình mà đẽo. Ai góp ý, anh cảm ơn rồi suy nghĩ thật kỹ, cái gì hay mới làm theo. Chẳng bao lâu, anh có một cái cày thật vừa tay.",
-      "subtitles": [
-        "Cụ già dẫn anh về nhà, chỉ cho anh xem cái cày cũ của cụ, cái cày vừa với sức trâu,",
-        "vừa với thửa ruộng làng mình.",
-        "Anh nông dân chăm chỉ làm thêm một mùa, mua được khúc gỗ mới.",
-        "Lần này anh vào sân nhà mình mà đẽo.",
-        "Ai góp ý, anh cảm ơn rồi suy nghĩ thật kỹ, cái gì hay mới làm theo.",
-        "Chẳng bao lâu, anh có một cái cày thật vừa tay."
-      ],
-      "image": {
-        "character": "anh-nong-dan",
-        "prompt": "in a sunny farmhouse yard, the young farmer proudly holds a finished wooden plough next to a calm water buffalo, the kind old farmer smiles and gives a thumbs up, chickens and a haystack nearby",
-        "seed": 2473924037
-      },
-      "video": {
-        "motionPrompt": "the farmer lifts the new plough proudly, the buffalo flicks its ears, the old farmer laughs and nods, chickens peck around, warm morning sunlight",
-        "seed": 813343020
       },
       "voice": {}
     },
@@ -193,22 +173,24 @@
       "id": "ket-thuc",
       "title": "Mèo Miu chào tạm biệt",
       "narrator": "miu",
-      "narration": "Các bạn thấy không, anh nông dân nghe ai nói gì cũng làm theo, nên khúc gỗ tốt chẳng còn ra cái cày. Lắng nghe bạn bè là rất tốt, nhưng mình cần tự suy nghĩ xem điều gì đúng, điều gì hợp với mình. Còn Miu thì quyết rồi: gấp một chiếc thuyền giấy thật đẹp! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "narration": "Các bạn thấy không, bác nông dân nghe ai nói gì cũng làm theo, nên khúc gỗ quý chẳng còn ra cái cày. Lắng nghe bạn bè là rất tốt, nhưng mình cũng cần tự suy nghĩ xem điều gì đúng, điều gì hợp với mình. Còn Miu thì quyết rồi: gấp một chiếc thuyền giấy thật đẹp! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
       "subtitles": [
-        "Các bạn thấy không, anh nông dân nghe ai nói gì cũng làm theo,",
-        "nên khúc gỗ tốt chẳng còn ra cái cày.",
-        "Lắng nghe bạn bè là rất tốt, nhưng mình cần tự suy nghĩ xem điều gì đúng,",
-        "điều gì hợp với mình. Còn Miu thì quyết rồi: gấp một chiếc thuyền giấy thật đẹp!",
-        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+        "Các bạn thấy không, bác nông dân nghe ai nói gì cũng làm theo,",
+        "nên khúc gỗ quý chẳng còn ra cái cày.",
+        "Lắng nghe bạn bè là rất tốt, nhưng mình cũng cần tự suy nghĩ xem điều gì đúng,",
+        "điều gì hợp với mình.",
+        "Còn Miu thì quyết rồi: gấp một chiếc thuyền giấy thật đẹp!",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn!"
       ],
       "image": {
-        "character": "miu",
-        "prompt": "Meo Miu the voxel white cat waves goodbye holding a finished paper boat, behind her the young farmer ploughs a green rice field with his new plough and a happy buffalo, sunny sky",
-        "seed": 3098661401
+        "prompt": "Meo Miu the voxel white cat proudly holds up a neat folded paper boat, friends smiling around her",
+        "seed": 3031881974,
+        "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat waves slowly and floats the paper boat on a little puddle, the buffalo pulls the plough across the field, gentle camera pull-back",
-        "seed": 1462348648
+        "motionPrompt": "the cat holds up the paper boat and smiles, her friends clap, soft light",
+        "seed": 1871935551
       },
       "voice": {}
     }
