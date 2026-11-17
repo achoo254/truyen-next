@@ -10,6 +10,7 @@
     "thien-nhien"
   ],
   "added": "2026-11-02",
+  "revised": "2026-11-18",
   "language": "vi",
   "source": "Truyện «Con chèo bẻo» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: việc hai tên trộm hại bác giữ lúa chỉ kể vòng là bác không bao giờ về nhà nữa. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, thoại giữa bác giữ lúa và Ngọc Hoàng được viết rộng ra, lời rút ý ở cuối; cốt truyện giữ nguyên.",
   "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
@@ -58,15 +59,17 @@
       "narrator": "miu",
       "narration": "Xin chào các bạn nhỏ! Các bạn đã thấy chú chim đen nhánh, đuôi dài xẻ đôi như cái kéo, hay đậu trên lưng trâu chưa? Đó là chim chèo bẻo đấy. Cứ tới mùa lúa chín, chèo bẻo lại bay khắp cánh đồng, săn châu chấu, cào cào. Vì sao chèo bẻo lại chăm giữ đồng lúa như thế nhỉ? Miu kể các bạn nghe nhé!",
       "subtitles": [
-        "Xin chào các bạn nhỏ! Các bạn đã thấy chú chim đen nhánh, đuôi dài xẻ đôi như cái kéo,",
-        "hay đậu trên lưng trâu chưa? Đó là chim chèo bẻo đấy.",
+        "Xin chào các bạn nhỏ!",
+        "Các bạn đã thấy chú chim đen nhánh, đuôi dài xẻ đôi như cái kéo, hay đậu trên lưng trâu",
+        "chưa? Đó là chim chèo bẻo đấy.",
         "Cứ tới mùa lúa chín, chèo bẻo lại bay khắp cánh đồng, săn châu chấu, cào cào.",
-        "Vì sao chèo bẻo lại chăm giữ đồng lúa như thế nhỉ? Miu kể các bạn nghe nhé!"
+        "Vì sao chèo bẻo lại chăm giữ đồng lúa như thế nhỉ?",
+        "Miu kể các bạn nghe nhé!"
       ],
       "image": {
-        "character": "miu",
         "prompt": "Meo Miu the voxel white cat sits on a rice field dike pointing up at a black drongo bird with a forked tail perched on a water buffalo's back, golden rice all around",
-        "seed": 3373630690
+        "seed": 3373630690,
+        "character": "miu"
       },
       "video": {
         "motionPrompt": "the cat points and smiles, the drongo flicks its forked tail, rice sways in the breeze, slow camera push-in",
@@ -78,18 +81,18 @@
       "id": "dem-canh-lua",
       "title": "Đêm canh lúa",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, có một bác nông dân hiền lành, chăm chỉ. Năm ấy, vào tháng mười, lúa ngoài đồng đã sắp chín vàng. Đêm nào bác cũng ôm chiếc chiếu ra nằm trên bờ ruộng để canh lúa. Bác bảo: Cả năm cày cấy vất vả, mình phải giữ cho từng bông lúa tới ngày gặt. Gió đêm mát rượi, đom đóm lập loè. Bác vừa canh lúa, vừa ngắm trăng, vừa hát khe khẽ.",
+      "narration": "Ngày xưa, có một bác nông dân hiền lành, chăm chỉ. Năm ấy, vào tháng mười, lúa ngoài đồng đã sắp chín vàng. Đêm nào bác cũng ôm chiếc chiếu ra nằm trên bờ ruộng để canh lúa. Bác bảo: Cả năm cày cấy vất vả, mình phải giữ cho từng bông lúa tới ngày gặt. Gió đêm mát rượi, bác nằm canh cho đến sáng.",
       "subtitles": [
         "Ngày xưa, có một bác nông dân hiền lành, chăm chỉ.",
         "Năm ấy, vào tháng mười, lúa ngoài đồng đã sắp chín vàng.",
         "Đêm nào bác cũng ôm chiếc chiếu ra nằm trên bờ ruộng để canh lúa.",
         "Bác bảo: Cả năm cày cấy vất vả, mình phải giữ cho từng bông lúa tới ngày gặt.",
-        "Gió đêm mát rượi, đom đóm lập loè. Bác vừa canh lúa, vừa ngắm trăng, vừa hát khe khẽ."
+        "Gió đêm mát rượi, bác nằm canh cho đến sáng."
       ],
       "image": {
-        "character": "bac-giu-lua",
         "prompt": "the kind farmer lies on a straw mat on the rice field dike at night, looking at a big round moon, fireflies glowing over the ripening rice",
-        "seed": 1026815763
+        "seed": 1026815763,
+        "character": "bac-giu-lua"
       },
       "video": {
         "motionPrompt": "fireflies drift and twinkle, the farmer hums and turns his head toward the moon, rice ripples softly, gentle camera pan",
@@ -101,13 +104,11 @@
       "id": "hai-ten-trom",
       "title": "Hai tên trộm lười",
       "narrator": "ke-chuyen",
-      "narration": "Trong làng có hai tên lười biếng, chẳng bao giờ chịu cày cấy, chỉ quen lấy của người khác. Một đêm, chúng mang liềm rủ nhau ra đồng cắt trộm lúa. Thấy bác đang nằm canh, chúng thì thầm với nhau: Lão này vướng quá, phải làm cho lão im đi! Rồi chúng xông tới xô ngã bác, cắt lúa mang đi. Từ đêm ấy, bác giữ lúa không bao giờ trở về nhà nữa. Cánh đồng lặng im, chỉ còn tiếng gió buồn thổi qua những bông lúa.",
+      "narration": "Rồi gặp phải một đêm, có hai tên trộm rủ nhau ra đồng cắt trộm lúa. Thấy có người nằm giữ lúa ở đấy, chúng không biết làm thế nào, bèn bàn nhau làm hại bác cho khỏi vướng. Từ đêm ấy, bác giữ lúa không bao giờ trở về nhà nữa. Cánh đồng lặng im, chỉ còn tiếng gió buồn thổi qua những bông lúa.",
       "subtitles": [
-        "Trong làng có hai tên lười biếng, chẳng bao giờ chịu cày cấy, chỉ quen lấy của người khác.",
-        "Một đêm, chúng mang liềm rủ nhau ra đồng cắt trộm lúa.",
-        "Thấy bác đang nằm canh, chúng thì thầm với nhau:",
-        "Lão này vướng quá, phải làm cho lão im đi! Rồi chúng xông tới xô ngã bác, cắt lúa mang đi.",
-        "Từ đêm ấy, bác giữ lúa không bao giờ trở về nhà nữa.",
+        "Rồi gặp phải một đêm, có hai tên trộm rủ nhau ra đồng cắt trộm lúa.",
+        "Thấy có người nằm giữ lúa ở đấy, chúng không biết làm thế nào, bèn bàn nhau làm hại bác",
+        "cho khỏi vướng. Từ đêm ấy, bác giữ lúa không bao giờ trở về nhà nữa.",
         "Cánh đồng lặng im, chỉ còn tiếng gió buồn thổi qua những bông lúa."
       ],
       "image": {
@@ -124,17 +125,18 @@
       "id": "ngoc-hoang-phat",
       "title": "Ngọc Hoàng phạt kẻ trộm",
       "narrator": "ke-chuyen",
-      "narration": "Chuyện ấy bay lên tận trời. Ngọc Hoàng nổi giận, sai lính trời xuống bắt hai tên trộm lên. Ngọc Hoàng phán: Hai đứa bay siêng ăn biếng làm, lại còn hại người tốt bụng. Ta phạt một đứa làm con châu chấu, một đứa làm con cào cào! Chớp mắt một cái, hai tên trộm đã bé tí teo, nhảy tanh tách giữa đám cỏ.",
+      "narration": "Linh hồn bác kêu lên tận Thiên Đình, kể với Ngọc Hoàng. Ngọc Hoàng liền sai quỷ sứ xuống bắt hai tên trộm lên, rồi phán: Hai đứa chúng mày siêng ăn biếng làm, chỉ lo trộm cướp của người, lại còn hại người ngay. Tội ấy thật là to lắm! Ta bắt một đứa làm con châu chấu, một đứa làm con cào cào! Chớp mắt một cái, hai tên trộm đã bé tí teo, nhảy tanh tách giữa đám cỏ.",
       "subtitles": [
-        "Chuyện ấy bay lên tận trời. Ngọc Hoàng nổi giận, sai lính trời xuống bắt hai tên trộm lên.",
-        "Ngọc Hoàng phán: Hai đứa bay siêng ăn biếng làm, lại còn hại người tốt bụng.",
-        "Ta phạt một đứa làm con châu chấu, một đứa làm con cào cào!",
+        "Linh hồn bác kêu lên tận Thiên Đình, kể với Ngọc Hoàng.",
+        "Ngọc Hoàng liền sai quỷ sứ xuống bắt hai tên trộm lên, rồi phán:",
+        "Hai đứa chúng mày siêng ăn biếng làm, chỉ lo trộm cướp của người, lại còn hại người ngay.",
+        "Tội ấy thật là to lắm! Ta bắt một đứa làm con châu chấu, một đứa làm con cào cào!",
         "Chớp mắt một cái, hai tên trộm đã bé tí teo, nhảy tanh tách giữa đám cỏ."
       ],
       "image": {
-        "character": "ngoc-hoang",
         "prompt": "the Jade Emperor on soft clouds points his finger, and two small men below shrink into a tiny green grasshopper and a tiny brown locust in a puff of sparkles",
-        "seed": 1448951374
+        "seed": 1448951374,
+        "character": "ngoc-hoang"
       },
       "video": {
         "motionPrompt": "the emperor raises his hand, sparkles swirl, the two men shrink and hop away as small insects, clouds drift, camera tilts down",
@@ -146,20 +148,22 @@
       "id": "hoa-cheo-beo",
       "title": "Bác hoá chim chèo bẻo",
       "narrator": "ke-chuyen",
-      "narration": "Rồi Ngọc Hoàng gọi bác giữ lúa đến, hiền từ bảo: Còn ngươi chăm chỉ, thật thà, ta cho ngươi hoá làm chim chèo bẻo. Bác hỏi: Thưa Ngọc Hoàng, làm chèo bẻo thì con phải làm gì ạ? Ngọc Hoàng cười: Ngươi lại được giữ lúa như xưa. Hễ lúa chín mà châu chấu, cào cào kéo đến phá, ngươi cứ việc bắt chúng. Thế là từ đó, cứ tháng mười lúa chín, chim chèo bẻo lại bay lượn khắp đồng, bắt châu chấu, cào cào, giữ cho bông lúa vàng thật mẩy.",
+      "narration": "Rồi Ngọc Hoàng phán tiếp: Còn người giữ lúa chịu oan kia, ta cho hóa kiếp làm con chèo bẻo. Bác tâu: Thưa Ngọc Hoàng, bây giờ con hóa làm chèo bẻo thì con phải làm những việc gì ạ? Ngọc Hoàng phán: Ta cho ngươi hóa làm chèo bẻo, một là để ngươi lại theo được cái nghiệp giữ lúa như xưa, hai là để ngươi có dịp đền đáp lại hai tên trộm kia. Bao giờ lúa chín, có châu chấu, cào cào đến ăn hại, thì ngươi cứ tha hồ bắt chúng. Thế là từ đó, cứ tháng mười lúa chín, chim chèo bẻo lại bay lượn khắp đồng, bắt châu chấu, cào cào, giữ cho bông lúa vàng thật mẩy.",
       "subtitles": [
-        "Rồi Ngọc Hoàng gọi bác giữ lúa đến, hiền từ bảo: Còn ngươi chăm chỉ, thật thà,",
-        "ta cho ngươi hoá làm chim chèo bẻo.",
-        "Bác hỏi: Thưa Ngọc Hoàng, làm chèo bẻo thì con phải làm gì ạ?",
-        "Ngọc Hoàng cười: Ngươi lại được giữ lúa như xưa.",
-        "Hễ lúa chín mà châu chấu, cào cào kéo đến phá, ngươi cứ việc bắt chúng.",
-        "Thế là từ đó, cứ tháng mười lúa chín, chim chèo bẻo lại bay lượn khắp đồng,",
-        "bắt châu chấu, cào cào, giữ cho bông lúa vàng thật mẩy."
+        "Rồi Ngọc Hoàng phán tiếp:",
+        "Còn người giữ lúa chịu oan kia, ta cho hóa kiếp làm con chèo bẻo.",
+        "Bác tâu: Thưa Ngọc Hoàng, bây giờ con hóa làm chèo bẻo thì con phải làm những việc gì ạ?",
+        "Ngọc Hoàng phán:",
+        "Ta cho ngươi hóa làm chèo bẻo, một là để ngươi lại theo được cái nghiệp giữ lúa như xưa,",
+        "hai là để ngươi có dịp đền đáp lại hai tên trộm kia.",
+        "Bao giờ lúa chín, có châu chấu, cào cào đến ăn hại, thì ngươi cứ tha hồ bắt chúng.",
+        "Thế là từ đó, cứ tháng mười lúa chín, chim chèo bẻo lại bay lượn khắp đồng, bắt châu chấu,",
+        "cào cào, giữ cho bông lúa vàng thật mẩy."
       ],
       "image": {
-        "character": "cheo-beo",
         "prompt": "a glossy black drongo with a forked tail swoops happily over golden rice fields chasing little grasshoppers, farmers harvesting in the distance under a bright sky",
-        "seed": 1484579710
+        "seed": 1484579710,
+        "character": "cheo-beo"
       },
       "video": {
         "motionPrompt": "the drongo dives and turns in graceful arcs, grasshoppers hop away, rice waves in golden light, camera follows the bird",
@@ -179,9 +183,9 @@
         "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
       ],
       "image": {
-        "character": "miu",
         "prompt": "Meo Miu the voxel white cat waves goodbye on a rice field dike at sunset, a black drongo perched on a bamboo pole beside her, golden rice fields behind",
-        "seed": 3410850112
+        "seed": 3410850112,
+        "character": "miu"
       },
       "video": {
         "motionPrompt": "the cat waves, the drongo flicks its tail and takes off, rice ripples, warm sunset light, gentle camera pull-back",
