@@ -9,6 +9,7 @@
     "thien-nhien"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-17",
   "language": "vi",
   "source": "Truyện dân gian Nhật Bản \"Hanasaka Jiisan\" (Ông lão làm cây nở hoa), có trong The Japanese Fairy Book của Yei Theodora Ozaki (1908), thuộc phạm vi công cộng. Lời kể viết mới bằng tiếng Việt cho cả nhà, kể vòng qua chuyện chú chó bị hại, không chép bản dịch nào.",
   "basedOn": "Truyện dân gian Nhật Bản",
@@ -41,173 +42,417 @@
   ],
   "scenes": [
     {
-      "id": "chu-cho-shiro",
-      "title": "Chú chó Shiro",
+      "id": "ong-lao-va-shiro",
+      "title": "Ông lão và chú chó Shiro",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, ở một làng quê Nhật Bản, có hai ông bà lão hiền lành nuôi một chú chó trắng tên Shiro. Ông bà không có con cháu, thương Shiro như con, có miếng ngon nào cũng phần cho chú. Sát vách là hai ông bà hàng xóm tham lam, hay ghen tị. Thấy Shiro, ông hàng xóm cau có, đá hòn sỏi về phía chú: “Con chó ấy chỉ tốn cơm!”",
+      "narration": "Ngày xưa, rất lâu rồi, có một ông lão và vợ ông sống bằng nghề trồng trọt trên một mảnh đất nhỏ. Cuộc đời họ vốn rất yên vui, chỉ trừ một nỗi buồn lớn: họ không có con. Con vật nuôi duy nhất của họ là một chú chó tên Shiro, và họ dồn hết tình thương của tuổi già vào chú. Thật vậy, họ yêu chú đến nỗi hễ có món gì ngon, họ nhịn để dành cho Shiro. Shiro nghĩa là “trắng”, chú được gọi như vậy vì màu lông của chú. Chú là một con chó Nhật Bản đích thực, trông giống một con sói nhỏ, tai dựng, đuôi cuộn tròn, mắt đen long lanh, và chú thích chạy quanh nhà từ sáng tới tối. Giờ vui nhất trong ngày của cả ông lão lẫn chú chó là lúc người đàn ông ở ngoài đồng về, ăn xong bữa tối đạm bạc bằng cơm và rau, rồi mang phần dành dụm từ bữa ăn ra hiên nhỏ, nơi ánh đèn lồng vàng dịu, chạy vòng quanh ngôi nhà. Và đúng như mọi hôm, Shiro đã chờ sẵn ở đó, đuôi vẫy tít, mắt sáng ngời, đợi chủ và món quà buổi tối. Ông lão nói: “Chin, chin!” Shiro liền ngồi thẳng dậy, chắp hai chân trước xin ăn, và chủ cho chú miếng ngon. Cạnh nhà đôi vợ chồng tốt bụng ấy có một ông lão khác và vợ ông, cả hai đều độc ác và tàn nhẫn, ghét những người hàng xóm tốt bụng và chú chó Shiro hết mức. Hễ Shiro tình cờ nhìn vào bếp nhà họ là họ đá chú ngay hoặc ném thứ gì vào chú, đôi khi còn làm chú bị thương.",
       "subtitles": [
-        "Ngày xưa, ở một làng quê Nhật Bản,",
-        "có hai ông bà lão hiền lành nuôi một chú chó trắng tên Shiro.",
-        "Ông bà không có con cháu, thương Shiro như con, có miếng ngon nào cũng phần cho chú.",
-        "Sát vách là hai ông bà hàng xóm tham lam, hay ghen tị.",
-        "Thấy Shiro, ông hàng xóm cau có, đá hòn sỏi về phía chú: “Con chó ấy chỉ tốn cơm!”"
+        "Ngày xưa, rất lâu rồi, có một ông lão và vợ ông sống bằng nghề trồng trọt trên một mảnh",
+        "đất nhỏ.",
+        "Cuộc đời họ vốn rất yên vui, chỉ trừ một nỗi buồn lớn: họ không có con.",
+        "Con vật nuôi duy nhất của họ là một chú chó tên Shiro, và họ dồn hết tình thương của tuổi",
+        "già vào chú.",
+        "Thật vậy, họ yêu chú đến nỗi hễ có món gì ngon, họ nhịn để dành cho Shiro.",
+        "Shiro nghĩa là “trắng”, chú được gọi như vậy vì màu lông của chú.",
+        "Chú là một con chó Nhật Bản đích thực, trông giống một con sói nhỏ, tai dựng, đuôi cuộn",
+        "tròn, mắt đen long lanh, và chú thích chạy quanh nhà từ sáng tới tối.",
+        "Giờ vui nhất trong ngày của cả ông lão lẫn chú chó là lúc người đàn ông ở ngoài đồng về,",
+        "ăn xong bữa tối đạm bạc bằng cơm và rau, rồi mang phần dành dụm từ bữa ăn ra hiên nhỏ, nơi",
+        "ánh đèn lồng vàng dịu, chạy vòng quanh ngôi nhà.",
+        "Và đúng như mọi hôm, Shiro đã chờ sẵn ở đó, đuôi vẫy tít, mắt sáng ngời, đợi chủ và món",
+        "quà buổi tối.",
+        "Ông lão nói: “Chin, chin!”",
+        "Shiro liền ngồi thẳng dậy, chắp hai chân trước xin ăn, và chủ cho chú miếng ngon.",
+        "Cạnh nhà đôi vợ chồng tốt bụng ấy có một ông lão khác và vợ ông, cả hai đều độc ác và tàn",
+        "nhẫn, ghét những người hàng xóm tốt bụng và chú chó Shiro hết mức.",
+        "Hễ Shiro tình cờ nhìn vào bếp nhà họ là họ đá chú ngay hoặc ném thứ gì vào chú, đôi khi",
+        "còn làm chú bị thương."
       ],
       "image": {
-        "prompt": "an elderly farmer couple in a thatched cottage petting a fluffy white dog, sharing food with him, a sour-faced neighbor watching from over a bamboo fence",
-        "seed": 4280782736,
+        "prompt": "an old Japanese farmer and his wife on the veranda of a small thatched cottage at dusk, a white dog sitting up and begging with its front paws for a little bowl of food, warm lantern glow, rice fields behind",
+        "seed": 1280633454,
         "character": "shiro"
       },
       "video": {
-        "motionPrompt": "the white dog wags its curled tail happily as the old couple pat its head, the neighbor scowls behind the fence",
-        "seed": 1814977667
+        "motionPrompt": "the white dog sits up and begs, the old man smiles and holds out a small tidbit, lantern light flickers",
+        "seed": 3244091291
       },
       "voice": {}
     },
     {
-      "id": "dao-dat",
-      "title": "Gâu gâu, đào ở đây",
+      "id": "kho-vang",
+      "title": "Kho vàng dưới gốc cây",
       "narrator": "ke-chuyen",
-      "narration": "Một hôm, ông lão ra vườn. Shiro chạy tới gốc cây, cào cào đất, sủa vang: “Gâu gâu, ông đào chỗ này đi!” Ông lão cười, cầm cuốc đào thử. Keng một tiếng, lưỡi cuốc chạm vào một chiếc hũ sành. Mở ra, vàng bạc sáng lóa cả mắt. Ông bà mừng rỡ, chia bớt cho người nghèo trong làng, rồi làm cho Shiro một bữa cơm thật ngon.",
+      "narration": "Một hôm, người ta nghe tiếng Shiro sủa rất lâu, sủa mãi không thôi, ở thửa ruộng sau nhà chủ chú. Ông lão nghĩ chắc có bầy chim đang phá ngô, vội ra xem có chuyện gì. Vừa thấy chủ, Shiro chạy đến đón, vẫy đuôi, rồi ngoạm lấy vạt áo kimono của ông kéo đến dưới một cây yenoki lớn. Ở đó chú bắt đầu hì hục đào bằng hai chân, vừa đào vừa rên lên vì sung sướng. Ông lão không hiểu chuyện gì, đứng nhìn ngơ ngác. Nhưng Shiro vẫn sủa và đào hết sức mình. Cuối cùng, ông lão chợt nghĩ rằng có thể có thứ gì giấu dưới gốc cây và con chó đã đánh hơi thấy. Ông chạy về nhà lấy cuốc xẻng, rồi bắt đầu đào chỗ ấy. Ông kinh ngạc biết bao khi, đào một lúc thì gặp một đống tiền xưa quý giá, mà càng đào sâu càng thấy nhiều đồng tiền vàng. Ông mải làm đến nỗi không hề thấy khuôn mặt cau có của ông hàng xóm đang ghé nhìn ông qua hàng rào tre. Cuối cùng, tất cả những đồng tiền vàng cũ kỹ nằm sáng lấp lánh trên mặt đất, phản chiếu ánh nắng chiều. Shiro ngồi thẳng bên cạnh, tự hào, âu yếm nhìn chủ như muốn nói: “Thấy chưa, tuy chỉ là một con chó, nhưng con cũng đền đáp được phần nào lòng tốt của cha dành cho con.” Ông lão chạy vào gọi vợ, tim đập thình thịch, vừa chạy vừa cười, vừa gọi, rồi hai người cùng khiêng kho báu về nhà. Thế là chỉ trong một ngày, ông lão nghèo trở nên giàu có, và hai ông bà không còn phải lo chuyện ngày mai nữa. Lòng biết ơn của ông đối với chú chó trung thành chẳng có giới hạn, đêm ấy ông bế chú vào lòng và nói mãi những lời cảm ơn, và ông yêu chiều chú hơn bao giờ hết, nếu như còn có thể hơn được nữa.",
       "subtitles": [
-        "Một hôm, ông lão ra vườn.",
-        "Shiro chạy tới gốc cây, cào cào đất, sủa vang: “Gâu gâu, ông đào chỗ này đi!”",
-        "Ông lão cười, cầm cuốc đào thử.",
-        "Keng một tiếng, lưỡi cuốc chạm vào một chiếc hũ sành.",
-        "Mở ra, vàng bạc sáng lóa cả mắt.",
-        "Ông bà mừng rỡ, chia bớt cho người nghèo trong làng,",
-        "rồi làm cho Shiro một bữa cơm thật ngon."
+        "Một hôm, người ta nghe tiếng Shiro sủa rất lâu, sủa mãi không thôi, ở thửa ruộng sau nhà",
+        "chủ chú.",
+        "Ông lão nghĩ chắc có bầy chim đang phá ngô, vội ra xem có chuyện gì.",
+        "Vừa thấy chủ, Shiro chạy đến đón, vẫy đuôi, rồi ngoạm lấy vạt áo kimono của ông kéo đến",
+        "dưới một cây yenoki lớn.",
+        "Ở đó chú bắt đầu hì hục đào bằng hai chân, vừa đào vừa rên lên vì sung sướng.",
+        "Ông lão không hiểu chuyện gì, đứng nhìn ngơ ngác.",
+        "Nhưng Shiro vẫn sủa và đào hết sức mình.",
+        "Cuối cùng, ông lão chợt nghĩ rằng có thể có thứ gì giấu dưới gốc cây và con chó đã đánh",
+        "hơi thấy.",
+        "Ông chạy về nhà lấy cuốc xẻng, rồi bắt đầu đào chỗ ấy.",
+        "Ông kinh ngạc biết bao khi, đào một lúc thì gặp một đống tiền xưa quý giá, mà càng đào sâu",
+        "càng thấy nhiều đồng tiền vàng.",
+        "Ông mải làm đến nỗi không hề thấy khuôn mặt cau có của ông hàng xóm đang ghé nhìn ông qua",
+        "hàng rào tre.",
+        "Cuối cùng, tất cả những đồng tiền vàng cũ kỹ nằm sáng lấp lánh trên mặt đất, phản chiếu",
+        "ánh nắng chiều.",
+        "Shiro ngồi thẳng bên cạnh, tự hào, âu yếm nhìn chủ như muốn nói: “Thấy chưa, tuy chỉ là",
+        "một con chó, nhưng con cũng đền đáp được phần nào lòng tốt của cha dành cho con.”",
+        "Ông lão chạy vào gọi vợ, tim đập thình thịch, vừa chạy vừa cười, vừa gọi, rồi hai người",
+        "cùng khiêng kho báu về nhà.",
+        "Thế là chỉ trong một ngày, ông lão nghèo trở nên giàu có, và hai ông bà không còn phải lo",
+        "chuyện ngày mai nữa.",
+        "Lòng biết ơn của ông đối với chú chó trung thành chẳng có giới hạn, đêm ấy ông bế chú vào",
+        "lòng và nói mãi những lời cảm ơn, và ông yêu chiều chú hơn bao giờ hết, nếu như còn có thể",
+        "hơn được nữa."
       ],
       "image": {
-        "prompt": "a white dog pawing the earth beneath a tree in a garden, an elderly farmer digging with a hoe and uncovering a clay jar overflowing with gold coins, morning light",
-        "seed": 2789584742,
-        "character": "ong-lao"
+        "prompt": "a white dog digging eagerly under a large yenoki tree while an old farmer with a spade kneels beside a heap of shining gold coins, a grumpy neighbor peeking through a bamboo hedge with a scowl, late afternoon light",
+        "seed": 712131872,
+        "character": "shiro"
       },
       "video": {
-        "motionPrompt": "the dog barks and paws at the ground, the hoe strikes, golden light glows from the opened jar",
-        "seed": 3925171795
+        "motionPrompt": "gold coins glint in the freshly turned earth, the white dog wags its tail while a cross face appears behind the bamboo hedge",
+        "seed": 2809809109
       },
       "voice": {}
     },
     {
-      "id": "hang-xom-muon-cho",
-      "title": "Ông hàng xóm mượn chó",
+      "id": "muon-cho",
+      "title": "Người hàng xóm mượn chó",
       "narrator": "ke-chuyen",
-      "narration": "Ông hàng xóm nghe tin, chạy sang nài nỉ mượn Shiro. Ông lão tốt bụng gật đầu. Ông hàng xóm lôi Shiro ra vườn nhà mình, bắt chú đánh hơi. Shiro chẳng muốn, chỉ đứng im. Ông ta ép mãi, rồi tự cuốc bừa một chỗ. Đất lật lên toàn đá sỏi, mảnh sành vỡ và rác hôi. Ông ta nổi giận, quát tháo, đuổi Shiro đi thật xa. Từ đó Shiro không bao giờ quay về nữa.",
+      "narration": "Ông lão hàng xóm cau có kia, bị tiếng sủa của Shiro thu hút, đã âm thầm chứng kiến việc tìm ra kho báu với lòng đố kỵ. Ông ta bắt đầu nghĩ rằng mình cũng muốn kiếm một gia tài, nằm trằn trọc không ngủ được, tính toán đủ điều. Vậy là mấy ngày sau, ông ta đến nhà ông lão, rất lễ phép xin mượn Shiro một thời gian ngắn. Chủ của Shiro nghĩ lời xin ấy thật lạ, vì ông biết rất rõ người hàng xóm chẳng những không thương chú chó cưng của ông, mà còn không bỏ lỡ dịp nào để đánh đập, hành hạ chú mỗi khi chú đi ngang qua. Nhưng ông lão quá tốt bụng nên không thể từ chối hàng xóm, bèn bằng lòng cho mượn chó với điều kiện phải chăm sóc chú cẩn thận. Ông lão độc ác ra về, bước chân nhanh nhẹn, trở về nhà với nụ cười hiểm ác trên mặt, kể cho vợ nghe ông ta đã thành công thế nào trong ý đồ xảo quyệt của mình. Rồi ông ta cầm cuốc xẻng, vội ra ruộng của mình, bắt Shiro đang không muốn đi phải theo. Vừa đến một cây yenoki, ông ta nói với chó, giọng đe dọa: “Nếu dưới cây nhà chủ mày có tiền vàng, thì dưới cây của ta cũng phải có tiền vàng. Mày phải tìm cho ta! Đâu? Ở đâu? Ở đâu?” Rồi ông ta túm lấy cổ Shiro, ghì đầu chú xuống đất, khiến Shiro bắt đầu cào và đào để thoát khỏi bàn tay của ông già đáng ghét.",
       "subtitles": [
-        "Ông hàng xóm nghe tin, chạy sang nài nỉ mượn Shiro. Ông lão tốt bụng gật đầu.",
-        "Ông hàng xóm lôi Shiro ra vườn nhà mình, bắt chú đánh hơi.",
-        "Shiro chẳng muốn, chỉ đứng im. Ông ta ép mãi, rồi tự cuốc bừa một chỗ.",
-        "Đất lật lên toàn đá sỏi, mảnh sành vỡ và rác hôi.",
-        "Ông ta nổi giận, quát tháo, đuổi Shiro đi thật xa.",
-        "Từ đó Shiro không bao giờ quay về nữa."
+        "Ông lão hàng xóm cau có kia, bị tiếng sủa của Shiro thu hút, đã âm thầm chứng kiến việc",
+        "tìm ra kho báu với lòng đố kỵ.",
+        "Ông ta bắt đầu nghĩ rằng mình cũng muốn kiếm một gia tài, nằm trằn trọc không ngủ được,",
+        "tính toán đủ điều.",
+        "Vậy là mấy ngày sau, ông ta đến nhà ông lão, rất lễ phép xin mượn Shiro một thời gian",
+        "ngắn.",
+        "Chủ của Shiro nghĩ lời xin ấy thật lạ, vì ông biết rất rõ người hàng xóm chẳng những không",
+        "thương chú chó cưng của ông, mà còn không bỏ lỡ dịp nào để đánh đập, hành hạ chú mỗi khi",
+        "chú đi ngang qua.",
+        "Nhưng ông lão quá tốt bụng nên không thể từ chối hàng xóm, bèn bằng lòng cho mượn chó với",
+        "điều kiện phải chăm sóc chú cẩn thận.",
+        "Ông lão độc ác ra về, bước chân nhanh nhẹn, trở về nhà với nụ cười hiểm ác trên mặt, kể",
+        "cho vợ nghe ông ta đã thành công thế nào trong ý đồ xảo quyệt của mình.",
+        "Rồi ông ta cầm cuốc xẻng, vội ra ruộng của mình, bắt Shiro đang không muốn đi phải theo.",
+        "Vừa đến một cây yenoki, ông ta nói với chó, giọng đe dọa: “Nếu dưới cây nhà chủ mày có",
+        "tiền vàng, thì dưới cây của ta cũng phải có tiền vàng.",
+        "Mày phải tìm cho ta!",
+        "Đâu?",
+        "Ở đâu?",
+        "Ở đâu?”",
+        "Rồi ông ta túm lấy cổ Shiro, ghì đầu chú xuống đất, khiến Shiro bắt đầu cào và đào để",
+        "thoát khỏi bàn tay của ông già đáng ghét."
       ],
       "image": {
-        "prompt": "a grumpy neighbor in a dark grey kimono digging in his yard and finding only stones and broken pottery, a white dog backing away, a messy pile of junk",
-        "seed": 2525692707,
+        "prompt": "a wicked-looking neighbor old man with a crafty grin bowing politely at the door of the kind old man's cottage while a white dog watches nervously, bamboo hedge, afternoon light",
+        "seed": 512008313,
         "character": "ong-hang-xom"
       },
       "video": {
-        "motionPrompt": "the neighbor throws down his hoe in anger, the white dog turns and runs off through the gate into the distant hills",
-        "seed": 1412493777
+        "motionPrompt": "the neighbor bows with a false smile, the kind old man nods slowly, the dog's ears droop",
+        "seed": 2475470220
       },
       "voice": {}
     },
     {
-      "id": "chiec-coi-go",
-      "title": "Chiếc cối gỗ",
+      "id": "dong-rac",
+      "title": "Đống rác và nỗi đau",
       "narrator": "ke-chuyen",
-      "narration": "Ông bà lão đi tìm khắp nơi, chỉ thấy cây thông nơi Shiro hay nằm dưới bóng mát. Đêm ấy ông mơ thấy Shiro vẫy đuôi: “Ông ơi, ông lấy gỗ cây thông làm cối giã gạo nhé.” Ông làm theo. Lạ thay, mỗi lần ông bà giã gạo, gạo trong cối lại hóa thành những đồng tiền vàng leng keng. Ông hàng xóm lại sang mượn cối. Nhưng ông ta giã đến đâu, cối chỉ ra bùn đất đến đấy. Ông ta tức tối, đem cối bổ ra đốt thành tro.",
+      "narration": "Thấy chó bắt đầu cào và đào, ông già rất mừng, mắt sáng lên, vì ông ta lập tức, không chút nghi ngờ, cho rằng dưới cây của mình cũng chôn tiền vàng như dưới cây của hàng xóm, và chó đã đánh hơi thấy như lần trước. Vì thế ông ta đẩy Shiro ra rồi tự mình đào, nhưng chẳng thấy gì cả. Đào mãi thì thấy có mùi hôi thối, rốt cuộc ông ta đào trúng một đống rác. Có thể hình dung nỗi ghê tởm của ông ta, mũi nhăn lại, tay bịt miệng. Nỗi ghê tởm ấy chẳng mấy chốc nhường chỗ cho cơn giận. Ông ta nhớ lại rằng ông ta đã thấy vận may của hàng xóm, và hy vọng cũng gặp may như thế nên đã mượn chó Shiro; vậy mà đang tưởng sắp tìm được thứ mình cần, ông ta chỉ nhận được một đống rác hôi thối làm phần thưởng cho cả buổi sáng đào bới. Thay vì trách lòng tham của mình đã gây nên nỗi thất vọng ấy, ông ta lại trách con chó tội nghiệp. Ông ta chộp cái cuốc, dùng hết sức giáng xuống Shiro, và chú chó không bao giờ dậy nữa ngay tại chỗ. Ông ta quăng thân chú tội nghiệp xuống chính cái hố đã đào để tìm tiền vàng, lấp đất lại, rồi trở về nhà mà không nói với ai, kể cả vợ, về việc mình đã làm. Chờ vài ngày mà chú chó Shiro không trở về, chủ chú bắt đầu lo lắng. Ngày này qua ngày khác, ông lão tốt bụng chờ trong vô vọng, đêm nào cũng ra hiên nhìn về phía ruộng. Rồi ông sang nhà hàng xóm, xin ông ta trả chó lại cho mình. Không chút xấu hổ hay ngập ngừng, người hàng xóm độc ác đáp rằng ông ta đã trừ khử Shiro vì chú cư xử xấu. Nghe tin dữ ấy, chủ của Shiro đứng lặng đi một lúc, rồi khóc nhiều giọt nước mắt buồn đau. Nỗi kinh ngạc đau đớn của ông thật lớn, nhưng ông quá hiền từ nên không nỡ trách người hàng xóm xấu bụng. Biết Shiro được chôn dưới cây yenoki ngoài ruộng, ông xin ông già cho mình cái cây ấy, để nhớ đến chú chó Shiro tội nghiệp. Ngay cả ông hàng xóm cau có cũng không từ chối nổi yêu cầu giản dị ấy, nên ông ta đồng ý cho ông lão cái cây nơi Shiro nằm.",
       "subtitles": [
-        "Ông bà lão đi tìm khắp nơi, chỉ thấy cây thông nơi Shiro hay nằm dưới bóng mát.",
-        "Đêm ấy ông mơ thấy Shiro vẫy đuôi: “Ông ơi, ông lấy gỗ cây thông làm cối giã gạo nhé.”",
-        "Ông làm theo. Lạ thay, mỗi lần ông bà giã gạo,",
-        "gạo trong cối lại hóa thành những đồng tiền vàng leng keng.",
-        "Ông hàng xóm lại sang mượn cối.",
-        "Nhưng ông ta giã đến đâu, cối chỉ ra bùn đất đến đấy.",
-        "Ông ta tức tối, đem cối bổ ra đốt thành tro."
+        "Thấy chó bắt đầu cào và đào, ông già rất mừng, mắt sáng lên, vì ông ta lập tức, không chút",
+        "nghi ngờ, cho rằng dưới cây của mình cũng chôn tiền vàng như dưới cây của hàng xóm, và chó",
+        "đã đánh hơi thấy như lần trước.",
+        "Vì thế ông ta đẩy Shiro ra rồi tự mình đào, nhưng chẳng thấy gì cả.",
+        "Đào mãi thì thấy có mùi hôi thối, rốt cuộc ông ta đào trúng một đống rác.",
+        "Có thể hình dung nỗi ghê tởm của ông ta, mũi nhăn lại, tay bịt miệng.",
+        "Nỗi ghê tởm ấy chẳng mấy chốc nhường chỗ cho cơn giận.",
+        "Ông ta nhớ lại rằng ông ta đã thấy vận may của hàng xóm, và hy vọng cũng gặp may như thế",
+        "nên đã mượn chó Shiro; vậy mà đang tưởng sắp tìm được thứ mình cần, ông ta chỉ nhận được",
+        "một đống rác hôi thối làm phần thưởng cho cả buổi sáng đào bới.",
+        "Thay vì trách lòng tham của mình đã gây nên nỗi thất vọng ấy, ông ta lại trách con chó tội",
+        "nghiệp.",
+        "Ông ta chộp cái cuốc, dùng hết sức giáng xuống Shiro, và chú chó không bao giờ dậy nữa",
+        "ngay tại chỗ.",
+        "Ông ta quăng thân chú tội nghiệp xuống chính cái hố đã đào để tìm tiền vàng, lấp đất lại,",
+        "rồi trở về nhà mà không nói với ai, kể cả vợ, về việc mình đã làm.",
+        "Chờ vài ngày mà chú chó Shiro không trở về, chủ chú bắt đầu lo lắng.",
+        "Ngày này qua ngày khác, ông lão tốt bụng chờ trong vô vọng, đêm nào cũng ra hiên nhìn về",
+        "phía ruộng.",
+        "Rồi ông sang nhà hàng xóm, xin ông ta trả chó lại cho mình.",
+        "Không chút xấu hổ hay ngập ngừng, người hàng xóm độc ác đáp rằng ông ta đã trừ khử Shiro",
+        "vì chú cư xử xấu.",
+        "Nghe tin dữ ấy, chủ của Shiro đứng lặng đi một lúc, rồi khóc nhiều giọt nước mắt buồn đau.",
+        "Nỗi kinh ngạc đau đớn của ông thật lớn, nhưng ông quá hiền từ nên không nỡ trách người",
+        "hàng xóm xấu bụng.",
+        "Biết Shiro được chôn dưới cây yenoki ngoài ruộng, ông xin ông già cho mình cái cây ấy, để",
+        "nhớ đến chú chó Shiro tội nghiệp.",
+        "Ngay cả ông hàng xóm cau có cũng không từ chối nổi yêu cầu giản dị ấy, nên ông ta đồng ý",
+        "cho ông lão cái cây nơi Shiro nằm."
       ],
       "image": {
-        "prompt": "an elderly couple pounding rice in a wooden mortar made from a pine tree, gold coins spilling out of the mortar, a dreamy image of a white dog wagging its tail in the clouds above",
-        "seed": 3567806034,
-        "character": "ong-lao"
+        "prompt": "an angry old man shaking a spade over a hole full of rubbish in a field under a yenoki tree, a white dog lying quietly beside the hole, then the old man covering a small mound of earth, grey cloudy sky, sad mood but no violence shown",
+        "seed": 2514822596,
+        "character": "shiro"
       },
       "video": {
-        "motionPrompt": "the wooden pestle rises and falls, gold coins jingle out of the mortar, the dream image of the dog fades softly",
-        "seed": 1223158047
+        "motionPrompt": "grey clouds drift over the field as the angry man shovels earth over the hole and walks away",
+        "seed": 418195505
       },
       "voice": {}
     },
     {
-      "id": "nam-tro",
-      "title": "Nắm tro kỳ diệu",
+      "id": "cai-coi-than",
+      "title": "Cái cối thần",
       "narrator": "ke-chuyen",
-      "narration": "Ông lão buồn lắm, xin nắm tro mang về để giữ làm kỷ niệm. Trên đường về, một cơn gió thổi qua, vài hạt tro bay lên cành cây khô bên đường. Trong chớp mắt, cành cây trơ trụi bỗng trổ đầy hoa anh đào hồng thắm. Ông lão sững sờ, rồi bật cười. Ông leo lên cây khác, rắc thêm một nắm. Cả hàng cây khô đồng loạt nở hoa, rực rỡ giữa mùa đông.",
+      "narration": "Chủ của Shiro bèn đốn cây ấy và mang về nhà. Từ thân cây, ông làm một cái cối. Vợ ông cho gạo vào đó, và ông bắt đầu giã với ý định làm một bữa cúng tưởng nhớ chú chó Shiro. Một điều lạ lùng xảy ra! Vợ ông vừa cho gạo vào cối, ông vừa bắt đầu giã để làm bánh thì gạo bắt đầu tăng dần lên, cho đến khi nhiều gấp chừng năm lần lúc đầu, và những chiếc bánh được đưa ra khỏi cối như thể có một bàn tay vô hình làm việc. Khi nhìn thấy thế, hai ông bà nhìn nhau, rồi hiểu rằng đó là phần thưởng Shiro gửi đến cho họ, vì tình thương trung thành của họ dành cho chú. Họ nếm bánh, bánh mềm và thơm, và thấy ngon hơn bất cứ món nào khác họ từng ăn. Vì vậy từ đó họ không bao giờ phải lo chuyện ăn uống, vì họ sống bằng những chiếc bánh mà cái cối không bao giờ ngừng cung cấp.",
       "subtitles": [
-        "Ông lão buồn lắm, xin nắm tro mang về để giữ làm kỷ niệm.",
-        "Trên đường về, một cơn gió thổi qua, vài hạt tro bay lên cành cây khô bên đường.",
-        "Trong chớp mắt, cành cây trơ trụi bỗng trổ đầy hoa anh đào hồng thắm.",
-        "Ông lão sững sờ, rồi bật cười. Ông leo lên cây khác, rắc thêm một nắm.",
-        "Cả hàng cây khô đồng loạt nở hoa, rực rỡ giữa mùa đông."
+        "Chủ của Shiro bèn đốn cây ấy và mang về nhà.",
+        "Từ thân cây, ông làm một cái cối.",
+        "Vợ ông cho gạo vào đó, và ông bắt đầu giã với ý định làm một bữa cúng tưởng nhớ chú chó",
+        "Shiro.",
+        "Một điều lạ lùng xảy ra!",
+        "Vợ ông vừa cho gạo vào cối, ông vừa bắt đầu giã để làm bánh thì gạo bắt đầu tăng dần lên,",
+        "cho đến khi nhiều gấp chừng năm lần lúc đầu, và những chiếc bánh được đưa ra khỏi cối như",
+        "thể có một bàn tay vô hình làm việc.",
+        "Khi nhìn thấy thế, hai ông bà nhìn nhau, rồi hiểu rằng đó là phần thưởng Shiro gửi đến cho",
+        "họ, vì tình thương trung thành của họ dành cho chú.",
+        "Họ nếm bánh, bánh mềm và thơm, và thấy ngon hơn bất cứ món nào khác họ từng ăn.",
+        "Vì vậy từ đó họ không bao giờ phải lo chuyện ăn uống, vì họ sống bằng những chiếc bánh mà",
+        "cái cối không bao giờ ngừng cung cấp."
       ],
       "image": {
-        "prompt": "an elderly farmer sitting on a branch scattering ash from a basket, bare winter trees bursting into bright pink cherry blossoms, villagers below looking up in wonder",
-        "seed": 1797026844,
+        "prompt": "an old man and his wife pounding rice in a wooden mortar that overflows with fresh white rice cakes by itself, delighted expressions, a cozy kitchen with warm light, a small memorial offering for a dog on a shelf",
+        "seed": 1725202049,
         "character": "ong-lao"
       },
       "video": {
-        "motionPrompt": "ash drifts from the old man's hand and bare branches burst into pink blossoms one after another",
-        "seed": 1629102353
+        "motionPrompt": "rice cakes pile up higher and higher in the mortar while the old man and his wife stare in wonder",
+        "seed": 3957093236
       },
       "voice": {}
     },
     {
-      "id": "ngai-lanh-chua",
-      "title": "Trước mặt ngài lãnh chúa",
+      "id": "muon-coi",
+      "title": "Cái cối bị đập vỡ",
       "narrator": "ke-chuyen",
-      "narration": "Tin lạ đến tai ngài lãnh chúa. Ngài cho mời ông lão đến vườn của mình, nơi có cây anh đào già đã khô từ lâu. Ông lão trèo lên, rắc tro. Cây già nở hoa phủ kín cành, cánh hoa rơi như mưa hồng. Ngài lãnh chúa vui mừng, ban cho ông lụa là và gạo thóc. Ông hàng xóm ghen tức, vét tro còn lại, chạy theo đoàn của ngài. Ông ta trèo lên cây rắc bừa, nhưng cây chẳng nở bông nào, tro lại bay mù vào mắt ngài lãnh chúa và quân lính.",
+      "narration": "Người hàng xóm tham lam nghe tin vận may mới ấy, lại đầy lòng đố kỵ như trước, liền sang nhà ông lão xin mượn cái cối thần một thời gian ngắn, giả vờ rằng mình cũng thương tiếc sự ra đi của Shiro và muốn làm bánh cúng tưởng nhớ chú chó. Ông lão hoàn toàn không muốn cho người hàng xóm độc ác mượn, vì ông đã biết tính ông ta, nhưng ông quá tốt nên không thể từ chối. Thế là người đố kỵ mang cối về nhà, nhưng không bao giờ mang trả. Vài ngày trôi qua, và ông lão nghĩ chắc hàng xóm sẽ mang cối trả, nhưng chủ của Shiro chờ cối mãi vô ích, nên ông sang thăm người mượn và xin ông ta làm ơn trả cái cối nếu đã dùng xong. Ông thấy ông ta đang ngồi bên một đống lửa lớn nhóm bằng những mảnh gỗ. Trên đất nằm những thứ trông rất giống các mảnh của một cái cối bị đập vỡ. Đáp lại lời hỏi của ông lão, người hàng xóm độc ác trả lời một cách ngạo mạn: “Ông đến đòi cái cối của ông đấy à? Tôi đập nó ra từng mảnh rồi, và giờ tôi đang nhóm lửa bằng gỗ ấy, vì khi tôi thử giã bánh trong đó thì chỉ ra toàn thứ hôi thối kinh khủng.” Ông lão tốt bụng nói: “Tôi rất tiếc về chuyện ấy. Thật đáng tiếc là ông không xin tôi bánh, nếu ông muốn bánh. Tôi sẽ cho ông bao nhiêu tùy ý. Giờ xin ông làm ơn cho tôi tro của cái cối, vì tôi muốn giữ để nhớ chú chó của tôi.” Người hàng xóm đồng ý ngay, và ông lão mang về nhà một giỏ đầy tro.",
       "subtitles": [
-        "Tin lạ đến tai ngài lãnh chúa.",
-        "Ngài cho mời ông lão đến vườn của mình, nơi có cây anh đào già đã khô từ lâu.",
-        "Ông lão trèo lên, rắc tro.",
-        "Cây già nở hoa phủ kín cành, cánh hoa rơi như mưa hồng.",
-        "Ngài lãnh chúa vui mừng, ban cho ông lụa là và gạo thóc.",
-        "Ông hàng xóm ghen tức, vét tro còn lại, chạy theo đoàn của ngài.",
-        "Ông ta trèo lên cây rắc bừa, nhưng cây chẳng nở bông nào,",
-        "tro lại bay mù vào mắt ngài lãnh chúa và quân lính."
+        "Người hàng xóm tham lam nghe tin vận may mới ấy, lại đầy lòng đố kỵ như trước, liền sang",
+        "nhà ông lão xin mượn cái cối thần một thời gian ngắn, giả vờ rằng mình cũng thương tiếc sự",
+        "ra đi của Shiro và muốn làm bánh cúng tưởng nhớ chú chó.",
+        "Ông lão hoàn toàn không muốn cho người hàng xóm độc ác mượn, vì ông đã biết tính ông ta,",
+        "nhưng ông quá tốt nên không thể từ chối.",
+        "Thế là người đố kỵ mang cối về nhà, nhưng không bao giờ mang trả.",
+        "Vài ngày trôi qua, và ông lão nghĩ chắc hàng xóm sẽ mang cối trả, nhưng chủ của Shiro chờ",
+        "cối mãi vô ích, nên ông sang thăm người mượn và xin ông ta làm ơn trả cái cối nếu đã dùng",
+        "xong.",
+        "Ông thấy ông ta đang ngồi bên một đống lửa lớn nhóm bằng những mảnh gỗ.",
+        "Trên đất nằm những thứ trông rất giống các mảnh của một cái cối bị đập vỡ.",
+        "Đáp lại lời hỏi của ông lão, người hàng xóm độc ác trả lời một cách ngạo mạn: “Ông đến đòi",
+        "cái cối của ông đấy à?",
+        "Tôi đập nó ra từng mảnh rồi, và giờ tôi đang nhóm lửa bằng gỗ ấy, vì khi tôi thử giã bánh",
+        "trong đó thì chỉ ra toàn thứ hôi thối kinh khủng.”",
+        "Ông lão tốt bụng nói: “Tôi rất tiếc về chuyện ấy.",
+        "Thật đáng tiếc là ông không xin tôi bánh, nếu ông muốn bánh.",
+        "Tôi sẽ cho ông bao nhiêu tùy ý.",
+        "Giờ xin ông làm ơn cho tôi tro của cái cối, vì tôi muốn giữ để nhớ chú chó của tôi.”",
+        "Người hàng xóm đồng ý ngay, và ông lão mang về nhà một giỏ đầy tro."
       ],
       "image": {
-        "prompt": "a dignified Japanese lord on a veranda admiring a huge cherry tree in full pink bloom, an elderly farmer bowing, petals falling like pink rain; a jealous neighbor hiding in the background with a basket of ash",
-        "seed": 3666676575,
-        "character": "ong-lao"
+        "prompt": "a stern old man sitting by a big fire made of broken pieces of a wooden mortar, smoke rising, a kind old man bowing gently before him, a basket beside the kind man, bleak yard, late afternoon",
+        "seed": 1301352826,
+        "character": "ong-hang-xom"
       },
       "video": {
-        "motionPrompt": "pink petals fall like rain around the lord, then grey ash puffs into the air from another tree as everyone coughs",
-        "seed": 1955038256
+        "motionPrompt": "smoke curls up from the fire of broken wood while the kind old man bows and takes up a basket",
+        "seed": 3231259791
       },
       "voice": {}
     },
     {
-      "id": "phan-thuong-va-bai-hoc",
-      "title": "Phần thưởng và bài học",
+      "id": "tro-no-hoa",
+      "title": "Tro làm hoa nở",
       "narrator": "ke-chuyen",
-      "narration": "Quân lính bắt ông hàng xóm lại. Ngài lãnh chúa phạt ông ta thật nặng vì tội dối trá và tham lam, rồi đuổi về. Từ đó, ông bà hàng xóm chẳng dám ganh ghét ai nữa. Còn ông lão hiền lành được ngài lãnh chúa đặt tên là ông lão làm cây khô nở hoa. Mỗi độ xuân về, khi anh đào phủ hồng cả làng, người ta lại kể về ông và chú chó Shiro trung thành, người bạn nhỏ đã mang may mắn đến cho người tốt.",
+      "narration": "Ít lâu sau, ông lão vô tình rắc một ít tro từ cái cối bị đốt lên các cây trong vườn nhà mình. Một điều kỳ diệu xảy ra! Lúc ấy đã cuối thu, mọi cây đã rụng hết lá, nhưng tro vừa chạm vào cành thì cây anh đào, cây mận và mọi bụi cây có hoa khác nở rộ, khiến khu vườn của ông lão bỗng chốc biến thành một bức tranh mùa xuân tuyệt đẹp. Niềm vui của ông lão không bờ bến, và ông cẩn thận cất giữ số tro còn lại. Câu chuyện về khu vườn của ông lão lan đi xa gần, và người từ khắp nơi, già có trẻ có, tìm đến đứng chật cả cổng vườn để xem cảnh kỳ diệu ấy.",
       "subtitles": [
-        "Quân lính bắt ông hàng xóm lại.",
-        "Ngài lãnh chúa phạt ông ta thật nặng vì tội dối trá và tham lam, rồi đuổi về.",
-        "Từ đó, ông bà hàng xóm chẳng dám ganh ghét ai nữa.",
-        "Còn ông lão hiền lành được ngài lãnh chúa đặt tên là ông lão làm cây khô nở hoa.",
-        "Mỗi độ xuân về, khi anh đào phủ hồng cả làng,",
-        "người ta lại kể về ông và chú chó Shiro trung thành,",
-        "người bạn nhỏ đã mang may mắn đến cho người tốt."
+        "Ít lâu sau, ông lão vô tình rắc một ít tro từ cái cối bị đốt lên các cây trong vườn nhà",
+        "mình.",
+        "Một điều kỳ diệu xảy ra!",
+        "Lúc ấy đã cuối thu, mọi cây đã rụng hết lá, nhưng tro vừa chạm vào cành thì cây anh đào,",
+        "cây mận và mọi bụi cây có hoa khác nở rộ, khiến khu vườn của ông lão bỗng chốc biến thành",
+        "một bức tranh mùa xuân tuyệt đẹp.",
+        "Niềm vui của ông lão không bờ bến, và ông cẩn thận cất giữ số tro còn lại.",
+        "Câu chuyện về khu vườn của ông lão lan đi xa gần, và người từ khắp nơi, già có trẻ có, tìm",
+        "đến đứng chật cả cổng vườn để xem cảnh kỳ diệu ấy."
       ],
       "image": {
-        "prompt": "a peaceful Japanese village in spring with rows of cherry trees in full pink bloom, an elderly farmer couple smiling under the blossoms, a soft cloud shaped like a white dog in the sky",
-        "seed": 193204360,
+        "prompt": "an old man scattering gray ashes from a basket over bare branches in a late autumn garden, cherry and plum trees suddenly bursting into pink and white blossoms, falling petals, villagers watching in amazement through the garden gate",
+        "seed": 3127375522,
         "character": "ong-lao"
       },
       "video": {
-        "motionPrompt": "cherry petals drift over the village, the old couple smile up at a cloud shaped like a dog that slowly wags its tail",
-        "seed": 4095734162
+        "motionPrompt": "ash drifts in the air and blossoms burst open along the bare branches, petals swirl around the old man",
+        "seed": 930085719
+      },
+      "voice": {}
+    },
+    {
+      "id": "hiep-si-den",
+      "title": "Vị hiệp sĩ đến gõ cửa",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, ngay sau đó, ông lão nghe có ai gõ cửa nhà mình, ra hiên xem là ai thì ngạc nhiên thấy một vị hiệp sĩ đứng ở đó. Vị hiệp sĩ cho biết mình là gia thần của một vị đại danh Daimio, một vị lãnh chúa; rằng một trong những cây anh đào được ưa thích trong vườn của vị đại nhân ấy đã khô héo, và dù mọi người phục vụ ngài đã thử đủ mọi cách để làm cây sống lại, cũng chẳng có cách nào hiệu nghiệm. Vị hiệp sĩ, mặt đầy lo âu, rất bối rối khi thấy việc mất cây anh đào yêu quý khiến vị Daimio buồn phiền đến mức nào. Vừa lúc ấy, may thay, họ nghe nói có một ông lão kỳ diệu có thể làm cây khô nở hoa, và vị chủ của ông sai ông đến mời ông lão tới chỗ ngài. Vị hiệp sĩ cúi mình nói thêm: “Và tôi sẽ rất biết ơn nếu ông đến ngay.” Ông lão tốt bụng rất ngạc nhiên khi nghe điều ấy, còn chưa kịp nghĩ ngợi, nhưng lễ phép theo vị hiệp sĩ đến lâu đài của vị quý tộc.",
+      "subtitles": [
+        "Một hôm, ngay sau đó, ông lão nghe có ai gõ cửa nhà mình, ra hiên xem là ai thì ngạc nhiên",
+        "thấy một vị hiệp sĩ đứng ở đó.",
+        "Vị hiệp sĩ cho biết mình là gia thần của một vị đại danh Daimio, một vị lãnh chúa; rằng",
+        "một trong những cây anh đào được ưa thích trong vườn của vị đại nhân ấy đã khô héo, và dù",
+        "mọi người phục vụ ngài đã thử đủ mọi cách để làm cây sống lại, cũng chẳng có cách nào hiệu",
+        "nghiệm.",
+        "Vị hiệp sĩ, mặt đầy lo âu, rất bối rối khi thấy việc mất cây anh đào yêu quý khiến vị",
+        "Daimio buồn phiền đến mức nào.",
+        "Vừa lúc ấy, may thay, họ nghe nói có một ông lão kỳ diệu có thể làm cây khô nở hoa, và vị",
+        "chủ của ông sai ông đến mời ông lão tới chỗ ngài.",
+        "Vị hiệp sĩ cúi mình nói thêm: “Và tôi sẽ rất biết ơn nếu ông đến ngay.”",
+        "Ông lão tốt bụng rất ngạc nhiên khi nghe điều ấy, còn chưa kịp nghĩ ngợi, nhưng lễ phép",
+        "theo vị hiệp sĩ đến lâu đài của vị quý tộc."
+      ],
+      "image": {
+        "prompt": "a Japanese samurai retainer in formal dress bowing at the doorstep of a humble cottage to a surprised old man, a blossoming garden behind, a palace road in the distance, spring light",
+        "seed": 1376474036,
+        "character": "ong-lao"
+      },
+      "video": {
+        "motionPrompt": "the retainer bows deeply on the porch as the old man bows in return, petals drift on the breeze",
+        "seed": 3741539905
+      },
+      "voice": {}
+    },
+    {
+      "id": "cay-anh-dao-kho",
+      "title": "Cây anh đào khô nở hoa",
+      "narrator": "ke-chuyen",
+      "narration": "Vị Daimio, đang sốt ruột chờ ông lão đến, đi qua đi lại trong sảnh, vừa thấy ông liền hỏi ngay: “Ông có phải là ông lão có thể làm cây khô nở hoa, dù trái mùa không?” Ông lão cúi rạp mình chào và đáp: “Chính tôi là ông lão ấy!” Vị Daimio nói, giọng đầy hy vọng: “Ông phải làm cho cây anh đào khô trong vườn ta nở hoa lại, bằng thứ tro nổi tiếng của ông. Ta sẽ đứng xem.” Thế rồi tất cả cùng vào vườn, gồm vị Daimio, các gia thần và các cô hầu cận, những người mang thanh gươm của vị Daimio. Ông lão xắn vạt kimono lên, buộc gọn tay áo, chuẩn bị leo cây. Nói một tiếng “Xin thứ lỗi”, ông cầm cái bình tro mang theo và bắt đầu leo cây, mọi người đều chăm chú theo dõi từng cử động của ông. Cuối cùng, từng bước thận trọng, ông leo đến chỗ cây chia thành hai cành lớn, ngồi xuống đó, rắc tro sang phải sang trái khắp các cành và cành con. Kết quả thật kỳ diệu! Cây khô lập tức nở rộ đầy hoa! Vị Daimio mừng rỡ đến nỗi trông như sắp phát điên, cả vườn reo hò vang dậy. Ngài đứng dậy, xòe cây quạt ra, gọi ông lão xuống khỏi cây. Chính ngài rót cho ông một chén rượu sake ngon nhất, và thưởng cho ông thật nhiều bạc vàng cùng nhiều vật quý khác. Rồi vị Daimio ra lệnh từ nay ông lão phải mang tên Hana-Saka-Jijii, tức “Ông lão làm cây nở hoa”, và từ nay mọi người phải nhận ông bằng tên ấy, rồi ngài cho ông về nhà với đầy danh dự.",
+      "subtitles": [
+        "Vị Daimio, đang sốt ruột chờ ông lão đến, đi qua đi lại trong sảnh, vừa thấy ông liền hỏi",
+        "ngay: “Ông có phải là ông lão có thể làm cây khô nở hoa, dù trái mùa không?”",
+        "Ông lão cúi rạp mình chào và đáp: “Chính tôi là ông lão ấy!”",
+        "Vị Daimio nói, giọng đầy hy vọng: “Ông phải làm cho cây anh đào khô trong vườn ta nở hoa",
+        "lại, bằng thứ tro nổi tiếng của ông.",
+        "Ta sẽ đứng xem.”",
+        "Thế rồi tất cả cùng vào vườn, gồm vị Daimio, các gia thần và các cô hầu cận, những người",
+        "mang thanh gươm của vị Daimio.",
+        "Ông lão xắn vạt kimono lên, buộc gọn tay áo, chuẩn bị leo cây.",
+        "Nói một tiếng “Xin thứ lỗi”, ông cầm cái bình tro mang theo và bắt đầu leo cây, mọi người",
+        "đều chăm chú theo dõi từng cử động của ông.",
+        "Cuối cùng, từng bước thận trọng, ông leo đến chỗ cây chia thành hai cành lớn, ngồi xuống",
+        "đó, rắc tro sang phải sang trái khắp các cành và cành con.",
+        "Kết quả thật kỳ diệu!",
+        "Cây khô lập tức nở rộ đầy hoa!",
+        "Vị Daimio mừng rỡ đến nỗi trông như sắp phát điên, cả vườn reo hò vang dậy.",
+        "Ngài đứng dậy, xòe cây quạt ra, gọi ông lão xuống khỏi cây.",
+        "Chính ngài rót cho ông một chén rượu sake ngon nhất, và thưởng cho ông thật nhiều bạc vàng",
+        "cùng nhiều vật quý khác.",
+        "Rồi vị Daimio ra lệnh từ nay ông lão phải mang tên Hana-Saka-Jijii, tức “Ông lão làm cây",
+        "nở hoa”, và từ nay mọi người phải nhận ông bằng tên ấy, rồi ngài cho ông về nhà với đầy",
+        "danh dự."
+      ],
+      "image": {
+        "prompt": "an old man climbing into a withered cherry tree in a lord's garden and scattering ash from a pot over the branches, the whole tree bursting into full bloom, a Japanese lord with an open fan rejoicing, ladies in waiting and retainers watching, spring colors",
+        "seed": 2110601197,
+        "character": "ong-lao"
+      },
+      "video": {
+        "motionPrompt": "the old man sits in the fork of the tree and scatters ash, pink blossoms burst out across the whole tree while the lord waves his fan",
+        "seed": 4039457304
+      },
+      "voice": {}
+    },
+    {
+      "id": "ke-gia-mao",
+      "title": "Kẻ mạo danh bị bắt",
+      "narrator": "ke-chuyen",
+      "narration": "Người hàng xóm độc ác, như lần trước, nghe tin về vận may của ông lão tốt bụng và mọi điều tốt lành đã xảy đến với ông, thì không sao nén nổi lòng ghen tị đố kỵ trong tim. Ông ta nhớ lại mình đã thất bại thế nào khi tìm tiền vàng, rồi khi làm bánh thần; lần này chắc chắn ông ta sẽ thành công nếu bắt chước ông lão, người chỉ cần rắc tro lên cây khô là làm chúng nở hoa. Đó sẽ là việc đơn giản nhất trong mọi việc. Thế là ông ta, mừng rỡ như đã nắm chắc phần thắng, bắt tay vào việc, gom hết số tro còn lại trong bếp lò sau khi đốt cái cối thần. Rồi ông ta mang tro trong một cái giỏ lớn, lên đường với hy vọng tìm được một bậc quyền quý nào thuê mình, vừa đi vừa hô lớn: “Người làm cây khô nở hoa đây! Ông lão làm cây khô nở hoa đây!” Vị Daimio ở trong lâu đài nghe tiếng rao ấy, bảo: “Chắc là Hana-Saka-Jijii đi qua. Hôm nay ta không có việc gì. Cứ để ông ta thử tài lần nữa, xem cho vui.” Các gia thần ra mời kẻ mạo danh vào gặp chủ, dẫn ông ta qua cổng lớn. Có thể hình dung sự hài lòng của ông già giả. Nhưng vị Daimio nhìn kỹ ông ta, thấy lạ vì ông không giống ông lão ngài đã gặp lần trước, nên hỏi: “Ông có phải là người mà ta đặt tên Hana-Saka-Jijii không?” Người hàng xóm đố kỵ, không chút ngượng ngùng, dối trá đáp: “Vâng, thưa đại nhân!” Vị Daimio nói: “Lạ thật! Ta tưởng trên đời chỉ có một Hana-Saka-Jijii! Hay bây giờ ông ấy có học trò?” Ông ta lại đáp: “Tôi mới là Hana-Saka-Jijii thật. Người đến gặp ngài lần trước chỉ là học trò của tôi!” “Vậy thì ông phải giỏi hơn người kia. Hãy thử xem ông làm được gì!” Người hàng xóm đố kỵ cùng vị Daimio và triều thần theo sau, vào vườn, đến gần một cây khô, lấy một nắm tro mang theo và rắc lên cây. Nhưng cây chẳng những không nở hoa, mà đến một cái nụ cũng không nhú ra. Nghĩ rằng mình chưa dùng đủ tro, ông già hoảng hốt, ông già bốc từng nắm và lại rắc lên cây khô. Nhưng chẳng ăn thua gì. Sau mấy lần như thế, những đám tro xám bay mù mịt, rồi tro bị gió thổi bay vào mắt vị Daimio. Điều đó làm ngài rất giận, ngài ra lệnh cho gia thần lập tức bắt tên Hana-Saka-Jijii giả và tống vào tù vì tội mạo danh. Ông già độc ác không bao giờ được thả ra khỏi nhà tù ấy, dù ông ta có kêu van thế nào, và ông ta phải ngồi đó mà nghĩ lại những điều mình đã làm. Như vậy, cuối cùng ông ta đã nhận hình phạt cho mọi việc ác của mình.",
+      "subtitles": [
+        "Người hàng xóm độc ác, như lần trước, nghe tin về vận may của ông lão tốt bụng và mọi điều",
+        "tốt lành đã xảy đến với ông, thì không sao nén nổi lòng ghen tị đố kỵ trong tim.",
+        "Ông ta nhớ lại mình đã thất bại thế nào khi tìm tiền vàng, rồi khi làm bánh thần; lần này",
+        "chắc chắn ông ta sẽ thành công nếu bắt chước ông lão, người chỉ cần rắc tro lên cây khô là",
+        "làm chúng nở hoa.",
+        "Đó sẽ là việc đơn giản nhất trong mọi việc.",
+        "Thế là ông ta, mừng rỡ như đã nắm chắc phần thắng, bắt tay vào việc, gom hết số tro còn",
+        "lại trong bếp lò sau khi đốt cái cối thần.",
+        "Rồi ông ta mang tro trong một cái giỏ lớn, lên đường với hy vọng tìm được một bậc quyền",
+        "quý nào thuê mình, vừa đi vừa hô lớn: “Người làm cây khô nở hoa đây!",
+        "Ông lão làm cây khô nở hoa đây!”",
+        "Vị Daimio ở trong lâu đài nghe tiếng rao ấy, bảo: “Chắc là Hana-Saka-Jijii đi qua.",
+        "Hôm nay ta không có việc gì.",
+        "Cứ để ông ta thử tài lần nữa, xem cho vui.”",
+        "Các gia thần ra mời kẻ mạo danh vào gặp chủ, dẫn ông ta qua cổng lớn.",
+        "Có thể hình dung sự hài lòng của ông già giả.",
+        "Nhưng vị Daimio nhìn kỹ ông ta, thấy lạ vì ông không giống ông lão ngài đã gặp lần trước,",
+        "nên hỏi: “Ông có phải là người mà ta đặt tên Hana-Saka-Jijii không?”",
+        "Người hàng xóm đố kỵ, không chút ngượng ngùng, dối trá đáp: “Vâng, thưa đại nhân!”",
+        "Vị Daimio nói: “Lạ thật!",
+        "Ta tưởng trên đời chỉ có một Hana-Saka-Jijii!",
+        "Hay bây giờ ông ấy có học trò?”",
+        "Ông ta lại đáp: “Tôi mới là Hana-Saka-Jijii thật.",
+        "Người đến gặp ngài lần trước chỉ là học trò của tôi!”",
+        "“Vậy thì ông phải giỏi hơn người kia.",
+        "Hãy thử xem ông làm được gì!”",
+        "Người hàng xóm đố kỵ cùng vị Daimio và triều thần theo sau, vào vườn, đến gần một cây khô,",
+        "lấy một nắm tro mang theo và rắc lên cây.",
+        "Nhưng cây chẳng những không nở hoa, mà đến một cái nụ cũng không nhú ra.",
+        "Nghĩ rằng mình chưa dùng đủ tro, ông già hoảng hốt, ông già bốc từng nắm và lại rắc lên",
+        "cây khô.",
+        "Nhưng chẳng ăn thua gì.",
+        "Sau mấy lần như thế, những đám tro xám bay mù mịt, rồi tro bị gió thổi bay vào mắt vị",
+        "Daimio.",
+        "Điều đó làm ngài rất giận, ngài ra lệnh cho gia thần lập tức bắt tên Hana-Saka-Jijii giả",
+        "và tống vào tù vì tội mạo danh.",
+        "Ông già độc ác không bao giờ được thả ra khỏi nhà tù ấy, dù ông ta có kêu van thế nào, và",
+        "ông ta phải ngồi đó mà nghĩ lại những điều mình đã làm.",
+        "Như vậy, cuối cùng ông ta đã nhận hình phạt cho mọi việc ác của mình."
+      ],
+      "image": {
+        "prompt": "a greedy old man scattering ashes with both hands over a bare tree in a lord's garden while the ash blows into the lord's face, the lord covering his eyes angrily and retainers rushing to seize the impostor, drab withered tree untouched by flowers",
+        "seed": 1447823058,
+        "character": "ong-hang-xom"
+      },
+      "video": {
+        "motionPrompt": "gray ash blows into the lord's face as the retainers rush toward the impostor, the bare tree stays bare",
+        "seed": 3678669607
+      },
+      "voice": {}
+    },
+    {
+      "id": "ket-hana",
+      "title": "Tuổi già hạnh phúc",
+      "narrator": "ke-chuyen",
+      "narration": "Còn ông lão tốt bụng, trở về nhà an lành, với kho tiền vàng mà Shiro đã tìm cho, cùng toàn bộ vàng bạc mà vị Daimio đã ban, trở thành người giàu có và thịnh vượng khi về già, sống một cuộc đời dài và hạnh phúc, mỗi mùa xuân lại ngồi dưới những cây hoa nở trong vườn mà nhớ đến chú chó Shiro, được mọi người yêu mến và kính trọng.",
+      "subtitles": [
+        "Còn ông lão tốt bụng, trở về nhà an lành, với kho tiền vàng mà Shiro đã tìm cho, cùng toàn",
+        "bộ vàng bạc mà vị Daimio đã ban, trở thành người giàu có và thịnh vượng khi về già, sống",
+        "một cuộc đời dài và hạnh phúc, mỗi mùa xuân lại ngồi dưới những cây hoa nở trong vườn mà",
+        "nhớ đến chú chó Shiro, được mọi người yêu mến và kính trọng."
+      ],
+      "image": {
+        "prompt": "a happy old man and his wife in a blossoming garden at sunset, a small stone marker for a white dog beneath a cherry tree with petals falling, a basket of silver coins and gold beside them, peaceful mood",
+        "seed": 1562646176,
+        "character": "ong-lao"
+      },
+      "video": {
+        "motionPrompt": "petals fall gently on the old couple under the cherry tree as golden sunset light fades",
+        "seed": 3492551509
       },
       "voice": {}
     }
