@@ -8,8 +8,9 @@
     "ngu-ngon"
   ],
   "added": "2026-11-02",
+  "revised": "2026-11-17",
   "language": "vi",
-  "source": "Ngụ ngôn Aesop «The Flies and the Honey-Pot» (bản dịch G. F. Townsend 1867), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản nào; truyện gốc rất ngắn nên thêm thoại và chi tiết đời thường (bà quản gia, chú ruồi nhỏ nhút nhát đứng ngoài), kể nhẹ đoạn kết; Mèo Miu mở đầu và rút bài học ở cuối.",
+  "source": "Ngụ ngôn Aesop «The Flies and the Honey-Pot» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, in trong Three Hundred Æsop's Fables, Wikisource), thuộc phạm vi công cộng. Truyện gốc chỉ vài câu: hũ mật đổ trong phòng bà quản gia, ruồi bị mùi ngọt hút đến, đặt chân vào ăn tham, chân dính mật không dùng được cánh, không thoát ra được, rồi than rằng vì chút vui thú mà tự hại mình. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản dịch nào, kể nhẹ đoạn kết (ruồi chỉ kẹt chặt, mệt lả); lời Mèo Miu mở đầu và kết thúc là lời dẫn thêm, không thuộc cốt truyện.",
   "basedOn": "Ngụ ngôn Aesop",
   "style": "classic children's picture-book illustration, soft watercolor and colored pencil, cozy old country pantry with wooden shelves, clay jars, bread and herbs, warm sunlight through a small window, gentle humor, rounded friendly cartoon shapes, no text, no letters, no watermark",
   "narrators": {
@@ -35,12 +36,6 @@
       "name": "Đàn ruồi",
       "seed": 3337359802,
       "sheetPrompt": "a group of funny cartoon houseflies with big round eyes, tiny shiny wings and cheeky greedy grins, cute and not gross, storybook style, full body, front view, plain soft cream background, character reference sheet"
-    },
-    {
-      "id": "ruoi-nho",
-      "name": "Ruồi nhỏ",
-      "seed": 669538389,
-      "sheetPrompt": "a tiny shy cartoon fly with big round worried eyes, delicate clean wings, sweet cautious expression, cute storybook style, full body, front view, plain soft cream background, character reference sheet"
     }
   ],
   "scenes": [
@@ -48,11 +43,16 @@
       "id": "mo-dau",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Các bạn có thích mật ong không? Ngọt lịm, thơm lừng! Miu cũng thích lắm. Nhưng có một đàn ruồi vì quá mê mật ong mà gặp chuyện khó ra phết. Chuyện thế nào nhỉ? Mình cùng nghe nhé!",
+      "narration": "Xin chào các bạn nhỏ! Các bạn có thích mật ong không? Ngọt lịm, thơm lừng! Miu cũng thích lắm. Có lần Miu thấy hũ mật mở nắp, Miu chỉ muốn nhúng cả bàn chân vào thôi! Nhưng có một đàn ruồi vì quá mê mật ong mà gặp chuyện khó ra phết. Chuyện thế nào nhỉ? Mình cùng nghe nhé!",
       "subtitles": [
-        "Xin chào các bạn nhỏ! Các bạn có thích mật ong không? Ngọt lịm, thơm lừng!",
-        "Miu cũng thích lắm. Nhưng có một đàn ruồi vì quá mê mật ong mà gặp chuyện khó ra phết.",
-        "Chuyện thế nào nhỉ? Mình cùng nghe nhé!"
+        "Xin chào các bạn nhỏ!",
+        "Các bạn có thích mật ong không?",
+        "Ngọt lịm, thơm lừng!",
+        "Miu cũng thích lắm.",
+        "Có lần Miu thấy hũ mật mở nắp, Miu chỉ muốn nhúng cả bàn chân vào thôi!",
+        "Nhưng có một đàn ruồi vì quá mê mật ong mà gặp chuyện khó ra phết.",
+        "Chuyện thế nào nhỉ?",
+        "Mình cùng nghe nhé!"
       ],
       "image": {
         "character": "miu",
@@ -67,14 +67,16 @@
     },
     {
       "id": "hu-mat-do",
-      "title": "Hũ mật bị đổ",
+      "title": "Hũ mật đổ",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, trong nhà kho của một bà quản gia, có hũ mật ong đặt trên kệ gỗ. Một hôm, bà quản gia vội vàng lấy bột, khuỷu tay quệt phải hũ mật. Hũ đổ nghiêng, mật vàng óng chảy lênh láng ra mặt kệ. Bà chẳng để ý, xách giỏ đi chợ mất. Mùi mật ngọt bay khắp nhà, bay cả ra ngoài cửa sổ.",
+      "narration": "Ngày xưa, trong phòng của bà quản gia, có một hũ mật ong bị đổ. Mật vàng óng chảy ra, mùi ngọt thơm bay khắp phòng, bay cả ra ngoài cửa sổ. Một đàn ruồi ngửi thấy mùi ngọt ấy, liền bị hút đến, kéo nhau bay vào. Căn phòng ấy yên ắng, ánh nắng chiếu qua cửa sổ, làm vũng mật lóng lánh như một hồ vàng nhỏ. Mùi thơm cứ lan đi, lan đi, và con ruồi nào ngửi thấy cũng quên hết mọi việc khác.",
       "subtitles": [
-        "Ngày xưa, trong nhà kho của một bà quản gia, có hũ mật ong đặt trên kệ gỗ.",
-        "Một hôm, bà quản gia vội vàng lấy bột, khuỷu tay quệt phải hũ mật. Hũ đổ nghiêng,",
-        "mật vàng óng chảy lênh láng ra mặt kệ. Bà chẳng để ý, xách giỏ đi chợ mất.",
-        "Mùi mật ngọt bay khắp nhà, bay cả ra ngoài cửa sổ."
+        "Ngày xưa, trong phòng của bà quản gia, có một hũ mật ong bị đổ.",
+        "Mật vàng óng chảy ra, mùi ngọt thơm bay khắp phòng, bay cả ra ngoài cửa sổ.",
+        "Một đàn ruồi ngửi thấy mùi ngọt ấy, liền bị hút đến, kéo nhau bay vào.",
+        "Căn phòng ấy yên ắng, ánh nắng chiếu qua cửa sổ,",
+        "làm vũng mật lóng lánh như một hồ vàng nhỏ.",
+        "Mùi thơm cứ lan đi, lan đi, và con ruồi nào ngửi thấy cũng quên hết mọi việc khác."
       ],
       "image": {
         "character": "dan-ruoi",
@@ -89,15 +91,15 @@
     },
     {
       "id": "bu-lai",
-      "title": "Cả đàn bu lại",
+      "title": "Ăn một cách tham lam",
       "narrator": "ke-chuyen",
-      "narration": "Đàn ruồi ngửi thấy, kéo nhau bay vào vo ve: Mật ong! Mật ong! Tiệc lớn rồi anh em ơi! Con nào cũng sà xuống, đặt cả sáu chân vào vũng mật mà ăn lấy ăn để. Ruồi nhỏ đứng ngoài mép kệ, rụt rè bảo: Các anh ơi, đứng ở mép mà ăn thôi, đừng giẫm vào giữa, dính chân đấy! Đàn ruồi cười ầm: Nhát thế! Ngọt thế này ai mà nhịn được!",
+      "narration": "Đàn ruồi sà xuống vũng mật, đặt chân vào mật rồi ăn lấy ăn để. Ngọt quá, ngon quá, con nào cũng ăn một cách tham lam, chẳng con nào chịu dừng lại. Chúng mải mê ăn mà chẳng nghĩ xem đôi chân của mình đang ở đâu. Con này húc đầu con kia để giành chỗ ngon, con nọ vừa ăn vừa vo ve sung sướng. Cả đàn cứ thế ăn mãi, ăn mãi, như thể mật ong chẳng bao giờ hết.",
       "subtitles": [
-        "Đàn ruồi ngửi thấy, kéo nhau bay vào vo ve: Mật ong! Mật ong! Tiệc lớn rồi anh em ơi!",
-        "Con nào cũng sà xuống, đặt cả sáu chân vào vũng mật mà ăn lấy ăn để.",
-        "Ruồi nhỏ đứng ngoài mép kệ, rụt rè bảo: Các anh ơi, đứng ở mép mà ăn thôi,",
-        "đừng giẫm vào giữa, dính chân đấy! Đàn ruồi cười ầm: Nhát thế!",
-        "Ngọt thế này ai mà nhịn được!"
+        "Đàn ruồi sà xuống vũng mật, đặt chân vào mật rồi ăn lấy ăn để.",
+        "Ngọt quá, ngon quá, con nào cũng ăn một cách tham lam, chẳng con nào chịu dừng lại.",
+        "Chúng mải mê ăn mà chẳng nghĩ xem đôi chân của mình đang ở đâu.",
+        "Con này húc đầu con kia để giành chỗ ngon, con nọ vừa ăn vừa vo ve sung sướng.",
+        "Cả đàn cứ thế ăn mãi, ăn mãi, như thể mật ong chẳng bao giờ hết."
       ],
       "image": {
         "character": "dan-ruoi",
@@ -112,14 +114,16 @@
     },
     {
       "id": "dinh-chat",
-      "title": "Dính chặt",
+      "title": "Chân dính chặt",
       "narrator": "ke-chuyen",
-      "narration": "Ăn no căng bụng, đàn ruồi định bay đi. Nhưng ơ kìa, chân con nào cũng dính chặt vào mật! Chúng vỗ cánh phành phạch, mật lại bết lên cả cánh, nặng trĩu, chẳng nhấc lên nổi. Con nào cũng giãy, càng giãy càng lún sâu hơn. Ruồi nhỏ cuống quýt chạy quanh mép kệ mà chẳng biết làm sao kéo các anh ra.",
+      "narration": "Nhưng rồi, chân con nào cũng bị mật bết kín, dính chặt lại. Ruồi không dùng được cánh nữa, mà cũng chẳng rút chân ra được. Càng cố giãy, mật càng dính chặt hơn. Đàn ruồi mệt lả, kẹt cứng giữa vũng mật, chẳng biết làm sao. Chúng vùng vẫy một hồi, vỗ cánh một hồi, nhưng mật cứ kéo chân xuống, nặng nề, dẻo quánh. Mỗi con ruồi nhìn đôi chân bết đầy mật của mình mà chẳng biết than với ai.",
       "subtitles": [
-        "Ăn no căng bụng, đàn ruồi định bay đi. Nhưng ơ kìa, chân con nào cũng dính chặt vào mật!",
-        "Chúng vỗ cánh phành phạch, mật lại bết lên cả cánh, nặng trĩu, chẳng nhấc lên nổi.",
-        "Con nào cũng giãy, càng giãy càng lún sâu hơn.",
-        "Ruồi nhỏ cuống quýt chạy quanh mép kệ mà chẳng biết làm sao kéo các anh ra."
+        "Nhưng rồi, chân con nào cũng bị mật bết kín, dính chặt lại.",
+        "Ruồi không dùng được cánh nữa, mà cũng chẳng rút chân ra được.",
+        "Càng cố giãy, mật càng dính chặt hơn.",
+        "Đàn ruồi mệt lả, kẹt cứng giữa vũng mật, chẳng biết làm sao.",
+        "Chúng vùng vẫy một hồi, vỗ cánh một hồi, nhưng mật cứ kéo chân xuống, nặng nề, dẻo quánh.",
+        "Mỗi con ruồi nhìn đôi chân bết đầy mật của mình mà chẳng biết than với ai."
       ],
       "image": {
         "character": "dan-ruoi",
@@ -134,14 +138,14 @@
     },
     {
       "id": "hoi-han",
-      "title": "Hối hận thì muộn rồi",
+      "title": "Hối hận",
       "narrator": "ke-chuyen",
-      "narration": "Đàn ruồi mệt lả, thở than: Ôi, chúng mình dại quá! Chỉ vì chút ngọt ngào trước mắt mà mắc kẹt thế này. Giá lúc nãy chịu nghe lời ruồi nhỏ, ăn vừa phải ở ngoài mép thì đâu đến nỗi. Từ đó, đàn ruồi tham ăn ấy mãi mãi không bay lên được nữa.",
+      "narration": "Đến lúc ấy, đàn ruồi mới kêu lên: Ôi, chúng ta thật là những kẻ dại dột! Chỉ vì một chút vui thú ngọt ngào trước mắt mà chúng ta tự làm khổ mình thế này! Tiếng kêu ấy nhỏ xíu, vang lên trong căn phòng yên tĩnh, nghe thật buồn. Đàn ruồi hiểu ra rằng niềm vui ngắn ngủi ấy đã khiến mình phải trả giá đắt.",
       "subtitles": [
-        "Đàn ruồi mệt lả, thở than: Ôi, chúng mình dại quá!",
-        "Chỉ vì chút ngọt ngào trước mắt mà mắc kẹt thế này.",
-        "Giá lúc nãy chịu nghe lời ruồi nhỏ, ăn vừa phải ở ngoài mép thì đâu đến nỗi.",
-        "Từ đó, đàn ruồi tham ăn ấy mãi mãi không bay lên được nữa."
+        "Đến lúc ấy, đàn ruồi mới kêu lên: Ôi, chúng ta thật là những kẻ dại dột!",
+        "Chỉ vì một chút vui thú ngọt ngào trước mắt mà chúng ta tự làm khổ mình thế này!",
+        "Tiếng kêu ấy nhỏ xíu, vang lên trong căn phòng yên tĩnh, nghe thật buồn.",
+        "Đàn ruồi hiểu ra rằng niềm vui ngắn ngủi ấy đã khiến mình phải trả giá đắt."
       ],
       "image": {
         "character": "dan-ruoi",
@@ -155,36 +159,18 @@
       "voice": {}
     },
     {
-      "id": "ruoi-nho-bay-di",
-      "title": "Ruồi nhỏ bay đi",
-      "narrator": "ke-chuyen",
-      "narration": "Chiều ấy, bà quản gia đi chợ về, vội lau sạch mặt kệ, đậy kín hũ mật. Ruồi nhỏ vỗ đôi cánh sạch sẽ, bay ra cửa sổ, ra với nắng chiều và gió mát. Chú tự nhủ: Ngọt mấy cũng phải biết dừng. Ăn vừa đủ thì mới còn bay được.",
-      "subtitles": [
-        "Chiều ấy, bà quản gia đi chợ về, vội lau sạch mặt kệ, đậy kín hũ mật.",
-        "Ruồi nhỏ vỗ đôi cánh sạch sẽ, bay ra cửa sổ, ra với nắng chiều và gió mát.",
-        "Chú tự nhủ: Ngọt mấy cũng phải biết dừng. Ăn vừa đủ thì mới còn bay được."
-      ],
-      "image": {
-        "character": "ruoi-nho",
-        "prompt": "the tiny fly with clean shining wings flies out of the pantry window into the golden evening sky over a garden, behind it the housekeeper wipes the shelf and closes the honey jar lid",
-        "seed": 3592996448
-      },
-      "video": {
-        "motionPrompt": "the small fly flutters out the window and loops happily in the evening air, the housekeeper wipes the shelf, sunset light glows, camera follows the fly",
-        "seed": 2139790271
-      },
-      "voice": {}
-    },
-    {
       "id": "ket-thuc",
       "title": "Mèo Miu chào tạm biệt",
       "narrator": "miu",
-      "narration": "Các bạn thấy không, mật ong ngon thật, nhưng đàn ruồi tham ăn quá nên mắc kẹt. Bánh kẹo, kem, hay trò chơi trên điện thoại cũng vậy đấy, vui một chút thì được, ham quá là dễ gặp chuyện không hay. Mình biết dừng đúng lúc, như ruồi nhỏ nhé! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "narration": "Các bạn thấy không, mật ong ngon thật, nhưng đàn ruồi tham ăn quá nên mắc kẹt. Bánh kẹo, kem, hay trò chơi trên điện thoại cũng vậy đấy, vui một chút thì được, ham quá là dễ gặp chuyện không hay. Người xưa có câu: vui thú mà phải đánh đổi bằng khổ sở thì chỉ có hại. Mình biết dừng đúng lúc nhé! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
       "subtitles": [
         "Các bạn thấy không, mật ong ngon thật, nhưng đàn ruồi tham ăn quá nên mắc kẹt.",
         "Bánh kẹo, kem, hay trò chơi trên điện thoại cũng vậy đấy, vui một chút thì được,",
-        "ham quá là dễ gặp chuyện không hay. Mình biết dừng đúng lúc, như ruồi nhỏ nhé!",
-        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+        "ham quá là dễ gặp chuyện không hay.",
+        "Người xưa có câu: vui thú mà phải đánh đổi bằng khổ sở thì chỉ có hại.",
+        "Mình biết dừng đúng lúc nhé!",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn!"
       ],
       "image": {
         "character": "miu",
