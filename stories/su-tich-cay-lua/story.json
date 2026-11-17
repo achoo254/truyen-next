@@ -9,8 +9,9 @@
     "thien-nhien"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-17",
   "language": "vi",
-  "source": "Truyện dân gian Việt Nam về nguồn gốc hạt lúa nhỏ và việc cấy gặt, thuộc phạm vi công cộng; truyện có nhiều dị bản ở các dân tộc. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "source": "Truyện dân gian Việt Nam «Sự tích cây lúa» (Nữ thần Lúa; bản kể trong Kho tàng truyện cổ tích Việt Nam của Nguyễn Đổng Chi, đối chiếu bản đăng trên loigiaihay.com), thuộc phạm vi công cộng; truyện có nhiều dị bản ở các dân tộc. Lời kể viết mới cho trẻ nhỏ, đi theo từng đoạn của bản gốc, không chép câu chữ của bản nào. Mèo Miu mở đầu và rút ý ở cuối.",
   "basedOn": "Truyện dân gian Việt Nam",
   "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, old Vietnamese countryside with green and golden rice fields, a small village of thatched houses, clay granaries, bamboo hedges and egrets, no text, no letters, no watermark",
   "narrators": {
@@ -33,7 +34,7 @@
     },
     {
       "id": "chi-vo-luoi",
-      "name": "Chị vợ lười",
+      "name": "Cô gái nhà kia",
       "seed": 3025576163,
       "sheetPrompt": "a lazy but comical young Vietnamese village wife from the folk tale, messy hair half tied up, sleepy grumpy face, crumpled indigo ao tu than dress, holding a straw broom, not scary, full body, front view, plain soft cream background, character reference sheet"
     },
@@ -42,6 +43,12 @@
       "name": "Hạt lúa",
       "seed": 2008100292,
       "sheetPrompt": "a giant golden rice grain as big as a pomelo, smooth shiny golden husk, cute little face with round eyes and a gentle smile, fairy-tale character, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "nu-than-lua",
+      "name": "Nữ thần Lúa",
+      "seed": 2761390417,
+      "sheetPrompt": "a graceful young goddess of rice in a pale green and gold robe with golden rice stalks in her black hair, slender and a little pouty, Vietnamese folk style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
     }
   ],
   "scenes": [
@@ -49,19 +56,18 @@
       "id": "mo-dau",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Bát cơm trắng thơm mà các bạn ăn mỗi ngày được nấu từ hạt gạo, còn hạt gạo thì từ cây lúa ngoài đồng. Các bác nông dân phải cấy, phải gặt vất vả lắm mới có. Nhưng ngày xưa, nghe nói hạt lúa tự lăn về nhà đấy! Mèo Miu kể các bạn nghe sự tích cây lúa nhé!",
+      "narration": "Xin chào các bạn nhỏ! Bát cơm trắng thơm mà các bạn ăn mỗi ngày được nấu từ hạt gạo, còn hạt gạo thì từ cây lúa ngoài đồng. Các bác nông dân phải cấy, phải gặt vất vả lắm mới có. Nhưng ngày xưa, nghe nói lúa chín xong là tự về nhà đấy! Mèo Miu kể các bạn nghe sự tích cây lúa nhé!",
       "subtitles": [
-        "Xin chào các bạn nhỏ!",
-        "Bát cơm trắng thơm mà các bạn ăn mỗi ngày được nấu từ hạt gạo,",
+        "Xin chào các bạn nhỏ! Bát cơm trắng thơm mà các bạn ăn mỗi ngày được nấu từ hạt gạo,",
         "còn hạt gạo thì từ cây lúa ngoài đồng.",
         "Các bác nông dân phải cấy, phải gặt vất vả lắm mới có.",
-        "Nhưng ngày xưa, nghe nói hạt lúa tự lăn về nhà đấy!",
+        "Nhưng ngày xưa, nghe nói lúa chín xong là tự về nhà đấy!",
         "Mèo Miu kể các bạn nghe sự tích cây lúa nhé!"
       ],
       "image": {
+        "character": "miu",
         "prompt": "Meo Miu the voxel white cat sits at a low wooden table holding a bowl of steaming white rice with chopsticks, through the window green rice fields stretch far away",
-        "seed": 1865229517,
-        "character": "miu"
+        "seed": 1865229517
       },
       "video": {
         "motionPrompt": "steam rises from the rice bowl, the cat sniffs it happily and looks out at the fields, slow camera push-in",
@@ -70,20 +76,43 @@
       "voice": {}
     },
     {
+      "id": "nu-than-lua",
+      "title": "Nữ thần Lúa xuống trần",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, Nữ thần Lúa là một cô gái xinh đẹp, dáng người mảnh mai, và có tính hay hờn dỗi. Nàng là con gái của Ngọc Hoàng. Sau những trận lụt lội kinh khủng, cây cỏ muôn loài đều bị cuốn trôi hết, trời bèn cho những người còn sống sót sinh con đẻ cái trên mặt đất, và sai Nữ thần Lúa xuống trần gian để nuôi sống loài người.",
+      "subtitles": [
+        "Ngày xưa, Nữ thần Lúa là một cô gái xinh đẹp, dáng người mảnh mai, và có tính hay hờn dỗi.",
+        "Nàng là con gái của Ngọc Hoàng.",
+        "Sau những trận lụt lội kinh khủng, cây cỏ muôn loài đều bị cuốn trôi hết,",
+        "trời bèn cho những người còn sống sót sinh con đẻ cái trên mặt đất,",
+        "và sai Nữ thần Lúa xuống trần gian để nuôi sống loài người."
+      ],
+      "image": {
+        "character": "nu-than-lua",
+        "prompt": "a graceful young goddess of rice in a pale green robe with golden rice stalks in her hair walks down a rainbow from the clouds toward a quiet green earth, soft light, gentle folk picture-book style",
+        "seed": 3432580680
+      },
+      "video": {
+        "motionPrompt": "the goddess steps down along the rainbow, rice stalks in her hair sway, light sparkles",
+        "seed": 2304661474
+      },
+      "voice": {}
+    },
+    {
       "id": "lua-tu-ve",
       "title": "Lúa tự về nhà",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, lúa mọc đầy trên đồng mà chẳng ai phải trồng. Đến mùa, từng hạt lúa to như quả bưởi lăn lông lốc, nối đuôi nhau tự về nhà người. Người ta chỉ cần quét sạch sân, mở rộng cổng là lúa vào đầy kho. Nhà nào cũng no đủ, ai nấy vui vẻ, cười nói rộn ràng.",
+      "narration": "Nữ thần làm phép cho những hạt giống gieo xuống đất nảy mầm, mọc thành cây, kết thành những bông lúa mẩy hạt. Đến khi lúa chín, lúa tự về nhà, không cần gặt, cũng không phải phơi phóng gì cả. Muốn ăn cơm, người ta chỉ cần ngắt một bông lúa bỏ vào nồi, là lúa sẽ thành cơm.",
       "subtitles": [
-        "Ngày xưa, lúa mọc đầy trên đồng mà chẳng ai phải trồng.",
-        "Đến mùa, từng hạt lúa to như quả bưởi lăn lông lốc, nối đuôi nhau tự về nhà người.",
-        "Người ta chỉ cần quét sạch sân, mở rộng cổng là lúa vào đầy kho.",
-        "Nhà nào cũng no đủ, ai nấy vui vẻ, cười nói rộn ràng."
+        "Nữ thần làm phép cho những hạt giống gieo xuống đất nảy mầm, mọc thành cây,",
+        "kết thành những bông lúa mẩy hạt.",
+        "Đến khi lúa chín, lúa tự về nhà, không cần gặt, cũng không phải phơi phóng gì cả.",
+        "Muốn ăn cơm, người ta chỉ cần ngắt một bông lúa bỏ vào nồi, là lúa sẽ thành cơm."
       ],
       "image": {
+        "character": "hat-lua",
         "prompt": "a magical village path, a long line of giant golden rice grains as big as pomelos rolls happily along the path into clean courtyards, villagers open their gates and smile",
-        "seed": 3115749894,
-        "character": "hat-lua"
+        "seed": 3115749894
       },
       "video": {
         "motionPrompt": "the giant rice grains roll one after another along the path and bounce through the gate, villagers clap, egrets fly",
@@ -93,20 +122,20 @@
     },
     {
       "id": "don-lua",
-      "title": "Đón lúa về",
+      "title": "Cô gái bận việc",
       "narrator": "ke-chuyen",
-      "narration": "Hạt lúa ngày ấy to lắm, chỉ một hạt nấu được cả nồi cơm đầy, cả nhà ăn không hết. Bà con dặn nhau phải đón lúa thật chu đáo. Trước mùa, nhà nào cũng quét sân sạch bóng, dọn kho cho ngay ngắn, vì lúa là thứ quý, nuôi sống mọi người. Lúa về đến đâu, người ta mừng rỡ đến đấy.",
+      "narration": "Một hôm, có một cô gái nhà kia đang bận việc. Sân chưa quét dọn, cửa kho cũng chưa mở, thế mà lúa ở ngoài đã ùn ùn kéo về. Cô gái cuống quýt, rồi đâm cáu. Sẵn tay đang cầm cái chổi, cô đập vào đầu bông lúa và mắng: Người ta chưa dọn dẹp xong đã bò về, gì mà hấp tấp thế!",
       "subtitles": [
-        "Hạt lúa ngày ấy to lắm, chỉ một hạt nấu được cả nồi cơm đầy, cả nhà ăn không hết.",
-        "Bà con dặn nhau phải đón lúa thật chu đáo.",
-        "Trước mùa, nhà nào cũng quét sân sạch bóng,",
-        "dọn kho cho ngay ngắn, vì lúa là thứ quý, nuôi sống mọi người.",
-        "Lúa về đến đâu, người ta mừng rỡ đến đấy."
+        "Một hôm, có một cô gái nhà kia đang bận việc.",
+        "Sân chưa quét dọn, cửa kho cũng chưa mở, thế mà lúa ở ngoài đã ùn ùn kéo về.",
+        "Cô gái cuống quýt, rồi đâm cáu.",
+        "Sẵn tay đang cầm cái chổi, cô đập vào đầu bông lúa và mắng:",
+        "Người ta chưa dọn dẹp xong đã bò về, gì mà hấp tấp thế!"
       ],
       "image": {
-        "prompt": "a clean village courtyard, a grandmother and children sweep the yard and tidy a round clay granary, a giant golden rice grain rolls in through the open gate and they welcome it with smiles",
-        "seed": 543559978,
-        "character": "hat-lua"
+        "character": "chi-vo-luoi",
+        "prompt": "a flustered village girl holding a broom stands in a messy yard while golden rice stalks crowd through the gate toward her, she swats at them crossly, a bare barn door behind, folk picture-book style",
+        "seed": 543559978
       },
       "video": {
         "motionPrompt": "the children wave the grain inside, the grandmother bows politely, the granary door opens",
@@ -115,90 +144,92 @@
       "voice": {}
     },
     {
-      "id": "chi-vo-luoi",
-      "title": "Chị vợ lười",
+      "id": "lua-gian",
+      "title": "Nữ thần Lúa giận dỗi",
       "narrator": "ke-chuyen",
-      "narration": "Trong làng có một chị vợ rất lười. Ai cũng dọn dẹp từ sớm, riêng chị vẫn ngủ dậy muộn, sân chưa quét, kho chưa dọn, rác rơm bừa bộn khắp nơi. Đến ngày lúa về, nghe tiếng lúa lăn ầm ầm ngoài ngõ, chị mới vội vàng vớ lấy cái chổi chạy ra sân, vừa quét vừa cằn nhằn.",
+      "narration": "Nữ thần Lúa đang dẫn các bông lúa vào sân, thấy sân, đường bẩn thỉu vương đầy rác rưởi, đã bực trong lòng, lại bị phang một cán chổi vào đầu, nên tức lắm. Cả đám lúa đều thốt lên: Muốn mệt thì ta cho mệt luôn. Từ nay hãy mang hái tre, liềm sắc ra cắt, chở ta về.",
       "subtitles": [
-        "Trong làng có một chị vợ rất lười.",
-        "Ai cũng dọn dẹp từ sớm, riêng chị vẫn ngủ dậy muộn,",
-        "sân chưa quét, kho chưa dọn, rác rơm bừa bộn khắp nơi.",
-        "Đến ngày lúa về, nghe tiếng lúa lăn ầm ầm ngoài ngõ,",
-        "chị mới vội vàng vớ lấy cái chổi chạy ra sân, vừa quét vừa cằn nhằn."
+        "Nữ thần Lúa đang dẫn các bông lúa vào sân, thấy sân, đường bẩn thỉu vương đầy rác rưởi,",
+        "đã bực trong lòng, lại bị phang một cán chổi vào đầu, nên tức lắm.",
+        "Cả đám lúa đều thốt lên: Muốn mệt thì ta cho mệt luôn.",
+        "Từ nay hãy mang hái tre, liềm sắc ra cắt, chở ta về."
       ],
       "image": {
-        "prompt": "a messy courtyard full of straw and leaves, the lazy wife rushes out of the house with messy hair and a straw broom, yawning and grumbling, giant rice grains are rolling up the lane",
-        "seed": 3205123210,
-        "character": "chi-vo-luoi"
+        "character": "nu-than-lua",
+        "prompt": "an offended goddess of rice with a pouting face stands among rice stalks in a messy village yard, the stalks rustle angrily behind her, a girl with a broom looks guilty, soft folk picture-book style",
+        "seed": 2757386823
       },
       "video": {
-        "motionPrompt": "the wife yawns and sweeps hastily, straw flies everywhere, giant rice grains roll closer along the lane",
-        "seed": 1634156638
-      },
-      "voice": {}
-    },
-    {
-      "id": "dap-lua",
-      "title": "Chiếc chổi vô ý",
-      "narrator": "ke-chuyen",
-      "narration": "Chị còn đang quét dở thì những hạt lúa to đã lăn vào sân. Chị bực mình quát: Sao mà về sớm thế, không đợi người ta quét xong! Rồi chị vung chổi đập mạnh vào hạt lúa. Hạt lúa vỡ tan thành muôn mảnh nhỏ, bắn đi khắp nơi, rơi lả tả xuống đất.",
-      "subtitles": [
-        "Chị còn đang quét dở thì những hạt lúa to đã lăn vào sân.",
-        "Chị bực mình quát: Sao mà về sớm thế, không đợi người ta quét xong!",
-        "Rồi chị vung chổi đập mạnh vào hạt lúa.",
-        "Hạt lúa vỡ tan thành muôn mảnh nhỏ, bắn đi khắp nơi, rơi lả tả xuống đất."
-      ],
-      "image": {
-        "prompt": "in the messy courtyard the grumpy wife swings her broom at a giant golden rice grain, which bursts gently into thousands of tiny golden grains scattering like sparkles",
-        "seed": 680132085,
-        "character": "chi-vo-luoi"
-      },
-      "video": {
-        "motionPrompt": "the broom swings, the big grain bursts softly into a shower of tiny golden grains, the wife freezes in surprise",
-        "seed": 2642558811
+        "motionPrompt": "the goddess folds her arms and turns away, the rice stalks rustle and bristle",
+        "seed": 3469227201
       },
       "voice": {}
     },
     {
       "id": "lua-khong-ve",
-      "title": "Lúa không về nữa",
+      "title": "Lúa không tự về nữa",
       "narrator": "ke-chuyen",
-      "narration": "Những hạt lúa nhỏ buồn rầu nói: Chị không quý lúa thì từ nay chúng tôi không tự về nữa. Muốn có ăn, mọi người phải ra đồng mà gặt, mà gánh về. Nói rồi, các hạt lúa nhỏ lăn trở lại cánh đồng, không bao giờ quay về nhà nữa. Chị vợ lười đứng ngẩn ra, hối hận thì đã muộn.",
+      "narration": "Từ đó, Nữ thần Lúa dỗi, nhất định không cho lúa tự bò về nữa. Người dưới trần gian phải xuống tận ruộng để lấy từng bông. Thấy vất vả mệt nhọc quá, người ta mới chế ra liềm, ra hái, để cắt lúa cho nhanh. Và lúa cũng không tự biến thành cơm nữa, mà phải phơi phóng, xay giã cho ra gạo.",
       "subtitles": [
-        "Những hạt lúa nhỏ buồn rầu nói: Chị không quý lúa thì từ nay chúng tôi không tự về nữa.",
-        "Muốn có ăn, mọi người phải ra đồng mà gặt, mà gánh về.",
-        "Nói rồi, các hạt lúa nhỏ lăn trở lại cánh đồng, không bao giờ quay về nhà nữa.",
-        "Chị vợ lười đứng ngẩn ra, hối hận thì đã muộn."
+        "Từ đó, Nữ thần Lúa dỗi, nhất định không cho lúa tự bò về nữa.",
+        "Người dưới trần gian phải xuống tận ruộng để lấy từng bông.",
+        "Thấy vất vả mệt nhọc quá, người ta mới chế ra liềm, ra hái, để cắt lúa cho nhanh.",
+        "Và lúa cũng không tự biến thành cơm nữa, mà phải phơi phóng, xay giã cho ra gạo."
       ],
       "image": {
-        "prompt": "tiny golden rice grains with sad little faces roll away out of the gate back toward the green fields, the lazy wife stands alone holding the broom, looking sorry",
-        "seed": 1195217462,
-        "character": "chi-vo-luoi"
+        "character": "chi-vo-luoi",
+        "prompt": "tired farmers wade into a golden rice field with sickles cutting rice stalks by hand and carrying bundles on shoulder poles, sunny day, folk picture-book style",
+        "seed": 1195217462
       },
       "video": {
-        "motionPrompt": "the tiny grains roll away in a long line toward the fields, the wife reaches out a hand, then lowers it sadly",
+        "motionPrompt": "the farmers swing their sickles and gather the rice stalks, golden light shimmers",
         "seed": 3298774330
       },
       "voice": {}
     },
     {
       "id": "cay-cay",
-      "title": "Ra đồng cấy gặt",
+      "title": "Lúa lép",
       "narrator": "ke-chuyen",
-      "narration": "Từ đó, hạt lúa chỉ bé xíu như bây giờ. Người nông dân phải cày ruộng, gieo mạ, cấy lúa, chăm bón suốt mấy tháng trời. Đợi lúa chín vàng mới cắt về, phơi khô, xay giã thành gạo. Vất vả biết bao nhiêu mới có được bát cơm thơm dẻo.",
+      "narration": "Sự hờn dỗi của Nữ thần Lúa còn có khi cay nghiệt hơn nữa. Nữ thần vẫn giận sự phũ phàng của con người, nên nhiều lần đã cấm không cho các bông lúa nảy nở. Có kết hạt thì cũng chỉ là lúa lép mà thôi.",
       "subtitles": [
-        "Từ đó, hạt lúa chỉ bé xíu như bây giờ.",
-        "Người nông dân phải cày ruộng, gieo mạ, cấy lúa, chăm bón suốt mấy tháng trời.",
-        "Đợi lúa chín vàng mới cắt về, phơi khô, xay giã thành gạo.",
-        "Vất vả biết bao nhiêu mới có được bát cơm thơm dẻo."
+        "Sự hờn dỗi của Nữ thần Lúa còn có khi cay nghiệt hơn nữa.",
+        "Nữ thần vẫn giận sự phũ phàng của con người,",
+        "nên nhiều lần đã cấm không cho các bông lúa nảy nở.",
+        "Có kết hạt thì cũng chỉ là lúa lép mà thôi."
       ],
       "image": {
-        "prompt": "Vietnamese farmers work in the fields through the seasons: transplanting green seedlings in flooded paddies, then harvesting golden rice with sickles, drying grain on a brick yard",
+        "character": "nu-than-lua",
+        "prompt": "a wide golden rice field where many rice ears are thin and empty, farmers look worried while a sad goddess of rice watches from a cloud above, soft evening light, gentle folk picture-book style",
         "seed": 2799973202
       },
       "video": {
-        "motionPrompt": "farmers bend to plant seedlings, rice stalks ripen from green to gold, grain is raked on the drying yard",
+        "motionPrompt": "the thin rice ears sway sadly, the farmers look at them, the goddess lowers her head on the cloud",
         "seed": 2276647176
+      },
+      "voice": {}
+    },
+    {
+      "id": "le-cung",
+      "title": "Lễ cúng hồn Lúa",
+      "narrator": "ke-chuyen",
+      "narration": "Vì thế, sau này mỗi lần gặt xong, người trần gian phải làm lễ cúng hồn Lúa, cũng là cúng thần Lúa. Có nơi không gọi như thế, mà gọi là cúng cơm mới. Các gia đình tổ chức cúng trong nhà mình. Các làng, các bản cũng phải mở những ngày hội chung để cúng thần Lúa. Trong những ngày hội ấy, mở đầu cho các cuộc tế lễ và trò vui, thường có một tiết mục hấp dẫn gọi là rước bông lúa.",
+      "subtitles": [
+        "Vì thế, sau này mỗi lần gặt xong, người trần gian phải làm lễ cúng hồn Lúa,",
+        "cũng là cúng thần Lúa. Có nơi không gọi như thế, mà gọi là cúng cơm mới.",
+        "Các gia đình tổ chức cúng trong nhà mình.",
+        "Các làng, các bản cũng phải mở những ngày hội chung để cúng thần Lúa.",
+        "Trong những ngày hội ấy, mở đầu cho các cuộc tế lễ và trò vui,",
+        "thường có một tiết mục hấp dẫn gọi là rước bông lúa."
+      ],
+      "image": {
+        "character": "chi-vo-luoi",
+        "prompt": "a joyful village festival procession carrying golden bundles of rice ears on bamboo trays beneath colorful flags, villagers in traditional clothes smiling, a small altar with new rice and incense, warm autumn light",
+        "seed": 818675145
+      },
+      "video": {
+        "motionPrompt": "the procession moves slowly with the rice ears, flags flutter, incense smoke curls up",
+        "seed": 2903550162
       },
       "voice": {}
     },
@@ -206,18 +237,18 @@
       "id": "ket-thuc",
       "title": "Mèo Miu chào tạm biệt",
       "narrator": "miu",
-      "narration": "Câu chuyện đến đây là hết rồi. Các bạn thấy không, mỗi hạt cơm đều là công sức của các bác nông dân đấy. Vì thế, khi ăn cơm, các bạn nhớ ăn hết, đừng để rơi vãi nhé. Và phải chăm chỉ, đừng lười biếng như chị vợ trong truyện. Miu chào các bạn, hẹn gặp lại!",
+      "narration": "Câu chuyện đến đây là hết rồi. Các bạn thấy không, mỗi hạt cơm đều là công sức của các bác nông dân, và là món quà của cây lúa đấy. Vì thế, khi ăn cơm, các bạn nhớ ăn hết, đừng để rơi vãi nhé. Và phải biết ơn, biết quý những gì mình có. Miu chào các bạn, hẹn gặp lại!",
       "subtitles": [
         "Câu chuyện đến đây là hết rồi.",
-        "Các bạn thấy không, mỗi hạt cơm đều là công sức của các bác nông dân đấy.",
+        "Các bạn thấy không, mỗi hạt cơm đều là công sức của các bác nông dân,",
+        "và là món quà của cây lúa đấy.",
         "Vì thế, khi ăn cơm, các bạn nhớ ăn hết, đừng để rơi vãi nhé.",
-        "Và phải chăm chỉ, đừng lười biếng như chị vợ trong truyện.",
-        "Miu chào các bạn, hẹn gặp lại!"
+        "Và phải biết ơn, biết quý những gì mình có. Miu chào các bạn, hẹn gặp lại!"
       ],
       "image": {
+        "character": "miu",
         "prompt": "Meo Miu the voxel white cat waves goodbye at the edge of a golden rice field with an empty clean rice bowl in her other paw, farmers wave in the distance",
-        "seed": 2753218626,
-        "character": "miu"
+        "seed": 2753218626
       },
       "video": {
         "motionPrompt": "the cat waves and shows the empty bowl proudly, rice stalks sway, gentle camera pull-back",
