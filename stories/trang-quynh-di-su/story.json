@@ -3,14 +3,15 @@
   "slug": "trang-quynh-di-su",
   "shelf": "adults",
   "title": "Trạng Quỳnh đi sứ",
-  "summary": "Bị chúa ghét, Trạng Quỳnh bị đẩy sang phương Bắc làm sứ, nơi triều đình nước lớn bày sẵn đủ câu đố hóc búa để làm nhục sứ thần nước Nam. Câu đố chữ, chiếc vỏ ốc ruột xoắn, cuộc thi vẽ: Quỳnh lần lượt hóa giải bằng những mẹo khiến cả triều đình nước lớn phải phục.",
+  "summary": "Sứ nhà Thanh khét tiếng hống hách sắp sang nước ta, chúa Trịnh giao việc tiếp sứ cho Trạng Quỳnh. Quỳnh bày một quán nước bên sông cùng chiếc đò ngang, cho bà Đoàn Thị Điểm và chính mình ra trả miếng từng câu mỉa mai của sứ Tàu, rồi thắng nốt cuộc thi vẽ bằng mười ngón tay nhúng mực.",
   "themes": [
     "ngu-ngon",
     "anh-hung"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-18",
   "language": "vi",
-  "source": "Truyện cười, giai thoại dân gian Việt Nam về Trạng Quỳnh và các sứ thần nước Nam thi tài ở phương Bắc, truyền miệng, không ai giữ quyền. Lời kể viết mới, nối các giai thoại quen thuộc thành một chuyến đi sứ liền mạch; không chép bản kể hiện đại nào.",
+  "source": "Giai thoại dân gian về Trạng Quỳnh tiếp sứ Tàu: cuộc đối đáp ở quán nước của bà Đoàn Thị Điểm và trên chuyến đò (Vũ Ngọc Khánh, Tuổi Trẻ Cười số 388; Truyện dân gian vanvn.net), cuộc thi vẽ với sứ Tàu (vuimotchut.com), truyền miệng, không ai giữ quyền. Lời kể viết mới, không chép bản kể nào.",
   "basedOn": "Truyện cười dân gian Việt Nam",
   "style": "lively traditional Vietnamese Hang Trong folk painting style illustration, bold ink outlines, flat bright colours of vermilion, indigo, gold and jade green, eighteenth century Vietnamese envoy mission travelling north, grand foreign imperial palace with golden roofs and red walls, Vietnamese scholars in black turbans and blue robes, foreign officials in tall hats, comic expressive faces, witty humorous mood, no text, no letters, no watermark",
   "narrators": {
@@ -23,231 +24,242 @@
     {
       "id": "quynh",
       "name": "Trạng Quỳnh",
-      "sheetPrompt": "Trang Quynh, a clever eighteenth century Vietnamese scholar-envoy, lively face with a neat short beard, sparkling mischievous eyes, black turban, deep blue envoy robe with a red sash, holding a fan, full body, front view, plain warm paper background, character reference sheet",
+      "sheetPrompt": "Trang Quynh, a clever eighteenth century Vietnamese scholar, lively face with a neat short beard, sparkling mischievous eyes, black turban, plain brown boatman's tunic over a scholar's blue robe, holding a bamboo oar, full body, front view, plain warm paper background, character reference sheet",
       "seed": 4175565928
     },
     {
-      "id": "vua-phuong-bac",
-      "name": "Vua phương Bắc",
-      "sheetPrompt": "the haughty emperor of a great northern empire, long thin beard, heavy golden dragon robe, tall jewelled imperial crown with beaded fringe, proud narrow eyes, full body, front view, plain warm paper background, character reference sheet",
+      "id": "ba-diem",
+      "name": "Bà Đoàn Thị Điểm",
+      "sheetPrompt": "Doan Thi Diem, an elegant eighteenth century Vietnamese woman scholar disguised as a tea seller, graceful oval face, quick sharp eyes, brown tunic, black scarf, chewing betel with a teasing smile, full body, front view, plain warm paper background, character reference sheet",
+      "seed": 2201847365
+    },
+    {
+      "id": "su-tau",
+      "name": "Sứ Tàu",
+      "sheetPrompt": "a haughty envoy of the Qing court, eighteenth century, long thin moustache, tall official hat with a peacock feather, richly embroidered silk robe, proud sneering expression, full body, front view, plain warm paper background, character reference sheet",
       "seed": 340778493
     }
   ],
   "scenes": [
     {
-      "id": "bi-cu-di-su",
-      "title": "Bị đẩy đi sứ",
+      "id": "tin-su-tau",
+      "title": "Tin sứ Tàu sang",
       "narrator": "ke-chuyen",
-      "narration": "Trạng Quỳnh tài giỏi nổi tiếng khắp kinh thành, nhưng cái miệng thì chẳng chịu tha ai. Chúa Trịnh bao lần bị Quỳnh trêu cho bẽ mặt, ghét lắm mà không làm gì được. Năm ấy đến kỳ đi sứ phương Bắc. Ai cũng biết đi sứ là việc khó: triều đình nước lớn hay bày đủ trò thử tài, sứ thần nào đối đáp kém thì làm nhục cả nước. Chúa cười thầm, bảo: Khanh giỏi thế, chuyến này để khanh đi. Quỳnh biết chúa muốn mượn tay nước lớn trị mình, nhưng vẫn cúi đầu nhận ấn. Ra về, Quỳnh nói với bạn: Chúa đẩy ta đi cho bẽ mặt. Ta lại đi cho cả nước được nở mày.",
+      "narration": "Năm ấy, triều đình nhận được tin một đoàn sứ bộ nhà Thanh sắp sang nước ta. Người ta đồn viên chánh sứ ấy khét tiếng hống hách, hợm hĩnh, coi nước Nam chẳng ra gì. Vua Lê và chúa Trịnh nghe tin thì lo ngại ra mặt, vì đón tiếp không khéo thì mất thể diện cả nước. Cả triều đình bàn tới bàn lui. Rồi ai nấy nhớ đến Quỳnh, người nổi tiếng ứng đối nhanh như chớp, câu nào hỏi xóc cũng có câu đáp xóc hơn. Tin vào tài ấy, triều thần giao cho Trạng Quỳnh giữ việc nghênh tiếp sứ Tàu. Quỳnh vâng mệnh, chẳng hề tỏ vẻ lo lắng, chỉ cười một mình như người đã nghĩ ra điều gì thú vị lắm.",
       "subtitles": [
-        "Trạng Quỳnh tài giỏi nổi tiếng khắp kinh thành, nhưng cái miệng thì chẳng chịu tha ai.",
-        "Chúa Trịnh bao lần bị Quỳnh trêu cho bẽ mặt, ghét lắm mà không làm gì được.",
-        "Năm ấy đến kỳ đi sứ phương Bắc.",
-        "Ai cũng biết đi sứ là việc khó:",
-        "triều đình nước lớn hay bày đủ trò thử tài, sứ thần nào đối đáp kém thì làm nhục cả nước.",
-        "Chúa cười thầm, bảo: Khanh giỏi thế, chuyến này để khanh đi.",
-        "Quỳnh biết chúa muốn mượn tay nước lớn trị mình, nhưng vẫn cúi đầu nhận ấn.",
-        "Ra về, Quỳnh nói với bạn:",
-        "Chúa đẩy ta đi cho bẽ mặt.",
-        "Ta lại đi cho cả nước được nở mày."
+        "Năm ấy, triều đình nhận được tin một đoàn sứ bộ nhà Thanh sắp sang nước ta.",
+        "Người ta đồn viên chánh sứ ấy khét tiếng hống hách, hợm hĩnh, coi nước Nam chẳng ra gì.",
+        "Vua Lê và chúa Trịnh nghe tin thì lo ngại ra mặt,",
+        "vì đón tiếp không khéo thì mất thể diện cả nước.",
+        "Cả triều đình bàn tới bàn lui.",
+        "Rồi ai nấy nhớ đến Quỳnh, người nổi tiếng ứng đối nhanh như chớp,",
+        "câu nào hỏi xóc cũng có câu đáp xóc hơn.",
+        "Tin vào tài ấy, triều thần giao cho Trạng Quỳnh giữ việc nghênh tiếp sứ Tàu.",
+        "Quỳnh vâng mệnh, chẳng hề tỏ vẻ lo lắng,",
+        "chỉ cười một mình như người đã nghĩ ra điều gì thú vị lắm."
       ],
       "image": {
-        "prompt": "in the Trinh lord's palace in Thang Long, the clever scholar bows with a calm smile while the lord on a dais hands him an envoy's seal, courtiers smirking in the background, a ship and envoy banners visible through the open doors",
+        "prompt": "in the Trinh lord's palace in Thang Long, the lord and the Le king with worried faces discuss with courtiers, the clever scholar steps forward and bows calmly with a quiet smile, banners and lanterns around",
         "seed": 2738086117,
         "character": "quynh"
       },
       "video": {
-        "motionPrompt": "the lord hands over the seal with a sly look, the scholar receives it and bows with a knowing smile, courtiers whisper, banners flutter outside, comic camera push-in",
-        "seed": 2377784997
+        "motionPrompt": "courtiers murmur anxiously, the scholar steps forward and bows with a quiet knowing smile, lanterns sway, gentle camera push-in",
+        "seed": 1134874624
       },
       "voice": {}
     },
     {
-      "id": "duong-xa",
-      "title": "Đường xa",
+      "id": "quan-nuoc-ben-song",
+      "title": "Quán nước bên sông",
       "narrator": "ke-chuyen",
-      "narration": "Đoàn sứ lên đường, qua bao đèo cao, bao dòng sông lớn, đi mấy tháng trời mới tới kinh đô phương Bắc. Dọc đường, quan lại nước người thấy sứ thần nước nhỏ thì nhìn bằng nửa con mắt. Có kẻ hỏi xỏ: Nước Nam bé bằng bàn tay, chắc người cũng nhỏ cả trí khôn? Quỳnh cười: Cái kim thì nhỏ, nhưng may được áo. Cái chày thì to, mà chỉ để giã gạo. Kẻ kia đỏ mặt, chẳng nói được gì thêm. Tin về ông sứ thần nước Nam miệng lưỡi sắc sảo truyền về kinh đô trước cả đoàn sứ, khiến vua phương Bắc tức lắm, quyết bày ra những câu đố thật khó để hạ Quỳnh.",
+      "narration": "Quỳnh không bày yến tiệc rình rang như mọi lần đón sứ. Ông cho dựng một ngôi quán nhỏ bên bờ sông Cái, mái lá đơn sơ, bày vài chum nước chè xanh. Rồi ông xin nhà vua triệu bà Đoàn Thị Điểm, người nữ sĩ nổi tiếng hay chữ, ra đó cải trang làm cô hàng nước ngồi bán cho khách qua đường. Còn Quỳnh thì tự nhận lái một chiếc đò ngang, mặc áo nâu của anh lái đò, tay cầm chiếc chèo, đợi sẵn dưới bến để chở đoàn sứ bộ qua sông. Người cô hàng nước xinh tươi, người lái đò quê mùa, ai trông thấy cũng chỉ nghĩ là dân thường, nào ngờ là hai bậc tài hoa đang giăng bẫy.",
       "subtitles": [
-        "Đoàn sứ lên đường, qua bao đèo cao, bao dòng sông lớn,",
-        "đi mấy tháng trời mới tới kinh đô phương Bắc.",
-        "Dọc đường, quan lại nước người thấy sứ thần nước nhỏ thì nhìn bằng nửa con mắt.",
-        "Có kẻ hỏi xỏ: Nước Nam bé bằng bàn tay, chắc người cũng nhỏ cả trí khôn? Quỳnh cười:",
-        "Cái kim thì nhỏ, nhưng may được áo.",
-        "Cái chày thì to, mà chỉ để giã gạo.",
-        "Kẻ kia đỏ mặt, chẳng nói được gì thêm.",
-        "Tin về ông sứ thần nước Nam miệng lưỡi sắc sảo truyền về kinh đô trước cả đoàn sứ,",
-        "khiến vua phương Bắc tức lắm, quyết bày ra những câu đố thật khó để hạ Quỳnh."
+        "Quỳnh không bày yến tiệc rình rang như mọi lần đón sứ.",
+        "Ông cho dựng một ngôi quán nhỏ bên bờ sông Cái, mái lá đơn sơ, bày vài chum nước chè xanh.",
+        "Rồi ông xin nhà vua triệu bà Đoàn Thị Điểm, người nữ sĩ nổi tiếng hay chữ,",
+        "ra đó cải trang làm cô hàng nước ngồi bán cho khách qua đường.",
+        "Còn Quỳnh thì tự nhận lái một chiếc đò ngang, mặc áo nâu của anh lái đò,",
+        "tay cầm chiếc chèo, đợi sẵn dưới bến để chở đoàn sứ bộ qua sông.",
+        "Người cô hàng nước xinh tươi, người lái đò quê mùa,",
+        "ai trông thấy cũng chỉ nghĩ là dân thường, nào ngờ là hai bậc tài hoa đang giăng bẫy."
       ],
       "image": {
-        "prompt": "a Vietnamese envoy procession winding along a mountain pass at the northern border, porters carrying tribute chests, banners in the wind, the clever envoy riding a horse at the front fanning himself, misty limestone peaks around",
-        "seed": 1284463425,
+        "prompt": "a small thatched tea stall by the Red River bank, a graceful woman in plain brown tunic arranges tea bowls, the scholar disguised as a ferryman in a brown tunic stands by a small ferry boat holding an oar, morning mist over the water",
+        "seed": 1190358241,
         "character": "quynh"
       },
       "video": {
-        "motionPrompt": "the procession winds slowly through the pass, banners whip in the wind, the envoy fans himself and chats cheerfully with a porter, clouds drift past the peaks, gentle camera follow",
-        "seed": 1069093536
+        "motionPrompt": "mist drifts over the river, the woman pours tea, the ferryman leans on his oar, the boat rocks gently",
+        "seed": 1154160024
       },
       "voice": {}
     },
     {
-      "id": "cau-do-chu",
-      "title": "Câu đố chữ",
+      "id": "cau-moi-cua-su-tau",
+      "title": "Câu mỉa ở quán nước",
       "narrator": "ke-chuyen",
-      "narration": "Vào chầu, vua phương Bắc ra ngay một câu đố chữ. Vua nói: Hai mặt trời kề nhau, bốn ngọn núi lộn ngược, hai ông vua tranh nhau một nước, bốn cái miệng ngang dọc ở trong. Đó là chữ gì? Các quan nước lớn che miệng cười, tin chắc ông sứ nước nhỏ sẽ đứng ngẩn. Quỳnh chẳng cần nghĩ lâu, giơ ngón tay vẽ lên không trung một hình vuông chia bốn ô, rồi thưa: Tâu bệ hạ, là chữ điền, nghĩa là ruộng. Nước nhỏ chúng tôi sống nhờ ruộng, nên chữ ấy chúng tôi nhìn là ra. Vua lặng đi. Cả triều đình nhìn nhau, không ai còn cười nữa.",
+      "narration": "Đoàn sứ bộ nhà Thanh vừa tới nước ta, ngang qua quán nước, thấy cô hàng nước xinh tươi óng ả ngồi đó, liền hùa nhau kéo vào uống nước, miệng thả lời bỡn cợt. Một tên trong đoàn ngả ngớn đọc bâng quơ một câu chữ Hán: Nam bang nhất thốn thổ, bất tri kỷ nhân canh. Nghĩa là: một tấc đất nước Nam, không biết có bao nhiêu người cày. Câu ấy nghe như chuyện ruộng đồng, thật ra là bóng gió mỉa mai đàn bà nước Nam lẳng lơ. Cả bọn cười hô hố, tin chắc cô hàng nước nhà quê chỉ biết cúi mặt đỏ bừng, chẳng đối được nửa lời.",
       "subtitles": [
-        "Vào chầu, vua phương Bắc ra ngay một câu đố chữ. Vua nói:",
-        "Hai mặt trời kề nhau, bốn ngọn núi lộn ngược, hai ông vua tranh nhau một nước,",
-        "bốn cái miệng ngang dọc ở trong. Đó là chữ gì?",
-        "Các quan nước lớn che miệng cười, tin chắc ông sứ nước nhỏ sẽ đứng ngẩn.",
-        "Quỳnh chẳng cần nghĩ lâu, giơ ngón tay vẽ lên không trung một hình vuông chia bốn ô,",
-        "rồi thưa: Tâu bệ hạ, là chữ điền, nghĩa là ruộng.",
-        "Nước nhỏ chúng tôi sống nhờ ruộng, nên chữ ấy chúng tôi nhìn là ra. Vua lặng đi.",
-        "Cả triều đình nhìn nhau, không ai còn cười nữa."
+        "Đoàn sứ bộ nhà Thanh vừa tới nước ta, ngang qua quán nước,",
+        "thấy cô hàng nước xinh tươi óng ả ngồi đó, liền hùa nhau kéo vào uống nước,",
+        "miệng thả lời bỡn cợt.",
+        "Một tên trong đoàn ngả ngớn đọc bâng quơ một câu chữ Hán: Nam bang nhất thốn thổ,",
+        "bất tri kỷ nhân canh.",
+        "Nghĩa là: một tấc đất nước Nam, không biết có bao nhiêu người cày.",
+        "Câu ấy nghe như chuyện ruộng đồng, thật ra là bóng gió mỉa mai đàn bà nước Nam lẳng lơ.",
+        "Cả bọn cười hô hố, tin chắc cô hàng nước nhà quê chỉ biết cúi mặt đỏ bừng,",
+        "chẳng đối được nửa lời."
       ],
       "image": {
-        "prompt": "in the grand golden throne hall of the northern empire, the haughty emperor points at a riddle written as an ink drawing of suns and mountains on a large scroll held by two officials, the Vietnamese envoy standing calmly with his fan, ministers smirking",
-        "seed": 3046952821,
-        "character": "vua-phuong-bac"
+        "prompt": "a group of arrogant Qing envoys in embroidered robes lounge at a riverside tea stall drinking tea and smirking, one of them reciting with a flourish, a graceful tea seller woman pours tea calmly",
+        "seed": 3321908874,
+        "character": "su-tau"
       },
       "video": {
-        "motionPrompt": "officials unroll the scroll, the emperor leans back smugly, the envoy studies it and then smiles slowly, ministers stop smirking, comic camera push-in",
-        "seed": 4135702695
+        "motionPrompt": "the envoys laugh and sway, one gestures grandly while reciting, the tea seller keeps pouring tea with a calm face, steam rises",
+        "seed": 159873053
       },
       "voice": {}
     },
     {
-      "id": "xau-chi-vo-oc",
-      "title": "Xâu chỉ qua vỏ ốc",
+      "id": "ba-diem-dap-lai",
+      "title": "Bà Điểm đáp lại",
       "narrator": "ke-chuyen",
-      "narration": "Hôm sau, vua cho đem ra một chiếc vỏ ốc to, ruột xoắn bao nhiêu vòng, hai đầu thủng hai lỗ nhỏ xíu. Vua thách: Sứ thần xâu được sợi chỉ qua ruột ốc này thì trẫm phục. Kim nào cũng không uốn theo được những vòng xoắn ấy. Quỳnh xin một sợi chỉ tơ thật mảnh, một ít mật ong. Ông bắt một con kiến, buộc đầu chỉ vào lưng nó, thả vào lỗ bên này, còn lỗ bên kia thì bôi mật. Con kiến ngửi thấy mùi ngọt, cứ thế bò quanh co trong ruột ốc. Chỉ một lúc sau, nó chui ra ở đầu kia, kéo theo sợi chỉ. Quỳnh nhấc sợi chỉ lên, dâng vua. Các quan nước lớn trố mắt, gật gù khen phục.",
+      "narration": "Bà Điểm đang nhai trầu. Nghe xong, bà chẳng đỏ mặt, cũng chẳng vội cãi. Bà nhổ toẹt bãi nước cốt trầu xuống đất, rồi nói trống không, giọng thản nhiên như nói với cái chum nước: Bắc quốc chư đại phu, giai do thử đồ xuất. Nghĩa là: các bậc quan lớn ông to ở nước phương Bắc, thảy đều từ chỗ ấy mà ra cả. Câu đáp vừa ngang ngạnh, vừa đối chọi từng chữ với câu mỉa kia, lại lật ngược cái ý khinh miệt đàn bà thành ra chê cả bọn quan to. Bọn sứ bộ giật mình, câm họng, ngừng uống nước, tròn mắt há hốc miệng nhìn bà. Chúng không ngờ một bà hàng nước bên đường lại có sức học kinh người đến thế.",
       "subtitles": [
-        "Hôm sau, vua cho đem ra một chiếc vỏ ốc to, ruột xoắn bao nhiêu vòng,",
-        "hai đầu thủng hai lỗ nhỏ xíu. Vua thách:",
-        "Sứ thần xâu được sợi chỉ qua ruột ốc này thì trẫm phục.",
-        "Kim nào cũng không uốn theo được những vòng xoắn ấy.",
-        "Quỳnh xin một sợi chỉ tơ thật mảnh, một ít mật ong.",
-        "Ông bắt một con kiến, buộc đầu chỉ vào lưng nó, thả vào lỗ bên này,",
-        "còn lỗ bên kia thì bôi mật.",
-        "Con kiến ngửi thấy mùi ngọt, cứ thế bò quanh co trong ruột ốc.",
-        "Chỉ một lúc sau, nó chui ra ở đầu kia, kéo theo sợi chỉ.",
-        "Quỳnh nhấc sợi chỉ lên, dâng vua.",
-        "Các quan nước lớn trố mắt, gật gù khen phục."
+        "Bà Điểm đang nhai trầu.",
+        "Nghe xong, bà chẳng đỏ mặt, cũng chẳng vội cãi.",
+        "Bà nhổ toẹt bãi nước cốt trầu xuống đất, rồi nói trống không,",
+        "giọng thản nhiên như nói với cái chum nước: Bắc quốc chư đại phu, giai do thử đồ xuất.",
+        "Nghĩa là: các bậc quan lớn ông to ở nước phương Bắc, thảy đều từ chỗ ấy mà ra cả.",
+        "Câu đáp vừa ngang ngạnh, vừa đối chọi từng chữ với câu mỉa kia,",
+        "lại lật ngược cái ý khinh miệt đàn bà thành ra chê cả bọn quan to.",
+        "Bọn sứ bộ giật mình, câm họng, ngừng uống nước, tròn mắt há hốc miệng nhìn bà.",
+        "Chúng không ngờ một bà hàng nước bên đường lại có sức học kinh người đến thế."
       ],
       "image": {
-        "prompt": "in a palace courtyard, the clever envoy kneels by a table holding a long twisted spiral seashell, a tiny ant tied with a fine silk thread entering one end, a small dish of honey at the other end, foreign officials crowding around in disbelief",
-        "seed": 347796869,
+        "prompt": "the tea seller woman chewing betel spits aside and speaks calmly, the astonished Qing envoys freeze with bowls in hand, mouths open wide, comic expressions, riverside stall",
+        "seed": 2784430912,
+        "character": "ba-diem"
+      },
+      "video": {
+        "motionPrompt": "the envoys freeze with open mouths, a tea bowl tilts, the woman calmly wipes her lips, comic camera push-in",
+        "seed": 870319357
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieng-bum-tren-do",
+      "title": "Tiếng động giữa sông",
+      "narrator": "ke-chuyen",
+      "narration": "Đoàn sứ bộ uống nước xong, đi ra bến sông, bước xuống chiếc đò ngang của anh lái đò Quỳnh. Quỳnh cầm sào, chèo đò rời bến. Đò ra giữa dòng thì một tên trong đoàn sứ bộ hổng ruột, lỡ xổng ra một tiếng bủm nghe rõ mồn một. Hắn chẳng những không biết ngượng, còn đọc một câu chữa thẹn lếu láo: Lôi động Nam bang. Nghĩa là: sấm động nước Nam. Hắn tự nhận mình là tiếng sấm, còn nước Nam chỉ là chỗ để cho sấm động. Cả bọn trên đò khúc khích cười, ra vẻ khoái chí lắm, chờ xem anh lái đò quê mùa biết nói gì.",
+      "subtitles": [
+        "Đoàn sứ bộ uống nước xong, đi ra bến sông, bước xuống chiếc đò ngang của anh lái đò Quỳnh.",
+        "Quỳnh cầm sào, chèo đò rời bến.",
+        "Đò ra giữa dòng thì một tên trong đoàn sứ bộ hổng ruột,",
+        "lỡ xổng ra một tiếng bủm nghe rõ mồn một.",
+        "Hắn chẳng những không biết ngượng, còn đọc một câu chữa thẹn lếu láo: Lôi động Nam bang.",
+        "Nghĩa là: sấm động nước Nam.",
+        "Hắn tự nhận mình là tiếng sấm, còn nước Nam chỉ là chỗ để cho sấm động.",
+        "Cả bọn trên đò khúc khích cười, ra vẻ khoái chí lắm,",
+        "chờ xem anh lái đò quê mùa biết nói gì."
+      ],
+      "image": {
+        "prompt": "a small wooden ferry boat in the middle of a wide river, the disguised scholar poling at the stern, Qing envoys sitting inside, one of them stands proudly reciting while others titter, calm water, distant bank",
+        "seed": 1593027746,
         "character": "quynh"
       },
       "video": {
-        "motionPrompt": "the tiny ant walks into the spiral shell pulling the thread, the officials lean closer, the thread emerges from the other end, the envoy holds it up with a grin, comic macro camera push-in",
-        "seed": 1702134422
+        "motionPrompt": "the ferry glides on the water, the envoy gestures proudly, others titter behind their sleeves, the boatman keeps poling",
+        "seed": 2649958223
       },
       "voice": {}
     },
     {
-      "id": "thi-ve",
-      "title": "Cuộc thi vẽ",
+      "id": "mua-qua-bac-hai",
+      "title": "Mưa qua bể Bắc",
       "narrator": "ke-chuyen",
-      "narration": "Vua vẫn chưa chịu, bày thêm cuộc thi vẽ. Một họa sư giỏi nhất triều đình nước lớn sẽ thi với Quỳnh, ai vẽ xong trước, vẽ được nhiều hơn thì thắng. Đề bài là vẽ những con giun. Họa sư cầm bút lông, nắn nót từng nét, mỗi con giun một dáng, đẹp như thật. Quỳnh thì chẳng cần bút. Ông nhúng cả mười đầu ngón tay vào nghiên mực, rồi kéo một đường dài trên tờ giấy. Chỉ một cái quẹt, mười con giun ngoằn ngoèo đã nằm trên giấy. Quẹt thêm cái nữa, đã có hai mươi con. Khi họa sư mới vẽ xong con thứ ba, Quỳnh đã đứng chắp tay chờ.",
+      "narration": "Quỳnh đang cầm chèo, nghe thế liền đứng thẳng dậy. Chẳng nói chẳng rằng, ông vạch quần, tiểu một vòng cung qua đầu tên sứ, rơi xuống dòng sông, rồi đọc to: Vũ qua Bắc hải. Nghĩa là: mưa qua bể Bắc. Có sấm của nước Nam thì có mưa dội xuống phương Bắc. Tên sứ Tàu giận điên tiết, xộc lại định đánh Quỳnh. Quỳnh vẫn vững vàng, trở cán chèo ra thủ thế, mắng lại: Tiền phát lôi, hậu phát vũ, thiên địa chi lý nại hỉ. Nghĩa là: sấm động trước, ắt sau có mưa, lẽ trời đất vốn là thế. Cả bọn khách Tàu sửng sốt nhìn nhau, không thốt nổi một lời, vì câu đáp của anh lái đò quá đúng. Từ đó cho tới lúc cập bến, cả bọn bấm nhau ngồi im thin thít.",
       "subtitles": [
-        "Vua vẫn chưa chịu, bày thêm cuộc thi vẽ.",
-        "Một họa sư giỏi nhất triều đình nước lớn sẽ thi với Quỳnh, ai vẽ xong trước,",
-        "vẽ được nhiều hơn thì thắng.",
-        "Đề bài là vẽ những con giun.",
-        "Họa sư cầm bút lông, nắn nót từng nét, mỗi con giun một dáng, đẹp như thật.",
-        "Quỳnh thì chẳng cần bút.",
-        "Ông nhúng cả mười đầu ngón tay vào nghiên mực, rồi kéo một đường dài trên tờ giấy.",
-        "Chỉ một cái quẹt, mười con giun ngoằn ngoèo đã nằm trên giấy.",
-        "Quẹt thêm cái nữa, đã có hai mươi con.",
-        "Khi họa sư mới vẽ xong con thứ ba, Quỳnh đã đứng chắp tay chờ."
+        "Quỳnh đang cầm chèo, nghe thế liền đứng thẳng dậy.",
+        "Chẳng nói chẳng rằng, ông vạch quần, tiểu một vòng cung qua đầu tên sứ,",
+        "rơi xuống dòng sông, rồi đọc to: Vũ qua Bắc hải.",
+        "Nghĩa là: mưa qua bể Bắc.",
+        "Có sấm của nước Nam thì có mưa dội xuống phương Bắc.",
+        "Tên sứ Tàu giận điên tiết, xộc lại định đánh Quỳnh.",
+        "Quỳnh vẫn vững vàng, trở cán chèo ra thủ thế, mắng lại: Tiền phát lôi, hậu phát vũ,",
+        "thiên địa chi lý nại hỉ.",
+        "Nghĩa là: sấm động trước, ắt sau có mưa, lẽ trời đất vốn là thế.",
+        "Cả bọn khách Tàu sửng sốt nhìn nhau, không thốt nổi một lời,",
+        "vì câu đáp của anh lái đò quá đúng.",
+        "Từ đó cho tới lúc cập bến, cả bọn bấm nhau ngồi im thin thít."
       ],
       "image": {
-        "prompt": "a painting contest in the palace garden, a foreign court painter carefully painting a single elaborate dragon with a fine brush, while the clever Vietnamese envoy dips all ten fingers into an ink bowl and drags them across a long paper, creating ten wavy lines at once, judges gasping",
-        "seed": 1521608098,
+        "prompt": "in the middle of the river the disguised ferryman stands tall at the stern holding his oar like a staff, an angry envoy lunges forward while the others recoil in shock, comic dynamic pose, wide river background",
+        "seed": 4012885509,
         "character": "quynh"
       },
       "video": {
-        "motionPrompt": "the court painter strokes slowly and carefully, the envoy sweeps his ten inked fingers across the paper in one quick motion, the judges' mouths drop open, comic split-screen camera pan",
-        "seed": 1445535664
+        "motionPrompt": "the boatman raises the oar to guard, the angry envoy stumbles back, the others stare with open mouths, the boat rocks",
+        "seed": 2756263444
       },
       "voice": {}
     },
     {
-      "id": "chua-chiu",
-      "title": "Giun có chân hay không",
+      "id": "thach-ve",
+      "title": "Lời thách vẽ",
       "narrator": "ke-chuyen",
-      "narration": "Vua phương Bắc cầm tờ giấy của Quỳnh lên xem, nhăn mặt: Thế này mà gọi là vẽ? Nét nào nét nấy giống hệt nhau. Quỳnh thưa: Tâu bệ hạ, giun thì con nào chẳng giống con nào, có tay có chân đâu mà phải tô vẽ. Họa sư của bệ hạ vẽ đẹp quá, đẹp đến mức giun cũng có dáng như rồng, sợ người xem lại tưởng là rồng mất. Vua tức mà không cãi được, vì đề bài do chính mình ra. Các quan cố nín cười đến đỏ cả mặt. Họa sư cúi đầu nhận thua. Vua đành phán: Cuộc thi này, sứ thần nước Nam thắng.",
+      "narration": "Tuy bị thua hai keo, sứ Tàu vẫn chưa chịu. Hắn vốn là một tay vẽ rất giỏi, nên một hôm khoe tài với Quỳnh và ra giọng thách thức: Ta chỉ cần nghe ba tiếng trống đánh là vẽ xong một con vật. Ngươi có làm được như thế không? Quỳnh cười, đáp rằng: Thưa, chỉ nghe một tiếng trống mà vẽ xong đến mười con vật như tôi mới là tài. Chứ phải ba tiếng trống mới vẽ được một con thì sao gọi là tài cho được. Sứ Tàu nghe nói tức lắm, nghĩ bụng phải cho cái thằng này biết tay mới được, bèn thách Quỳnh thi vẽ với hắn. Quỳnh nhận lời ngay, chẳng chút đắn đo.",
       "subtitles": [
-        "Vua phương Bắc cầm tờ giấy của Quỳnh lên xem, nhăn mặt: Thế này mà gọi là vẽ?",
-        "Nét nào nét nấy giống hệt nhau. Quỳnh thưa:",
-        "Tâu bệ hạ, giun thì con nào chẳng giống con nào, có tay có chân đâu mà phải tô vẽ.",
-        "Họa sư của bệ hạ vẽ đẹp quá, đẹp đến mức giun cũng có dáng như rồng,",
-        "sợ người xem lại tưởng là rồng mất.",
-        "Vua tức mà không cãi được, vì đề bài do chính mình ra.",
-        "Các quan cố nín cười đến đỏ cả mặt.",
-        "Họa sư cúi đầu nhận thua. Vua đành phán:",
-        "Cuộc thi này, sứ thần nước Nam thắng."
+        "Tuy bị thua hai keo, sứ Tàu vẫn chưa chịu.",
+        "Hắn vốn là một tay vẽ rất giỏi, nên một hôm khoe tài với Quỳnh và ra giọng thách thức:",
+        "Ta chỉ cần nghe ba tiếng trống đánh là vẽ xong một con vật.",
+        "Ngươi có làm được như thế không?",
+        "Quỳnh cười, đáp rằng: Thưa, chỉ nghe một tiếng trống mà vẽ xong đến mười con vật như tôi",
+        "mới là tài.",
+        "Chứ phải ba tiếng trống mới vẽ được một con thì sao gọi là tài cho được.",
+        "Sứ Tàu nghe nói tức lắm, nghĩ bụng phải cho cái thằng này biết tay mới được,",
+        "bèn thách Quỳnh thi vẽ với hắn.",
+        "Quỳnh nhận lời ngay, chẳng chút đắn đo."
       ],
       "image": {
-        "prompt": "the haughty emperor holds up the envoy's paper with ten wavy ink lines, frowning, while the envoy bows and gestures toward the lines with a teasing smile, ministers trying to suppress laughter behind their sleeves",
-        "seed": 2586802789,
-        "character": "vua-phuong-bac"
+        "prompt": "the Qing envoy proudly displays a painting scroll and brush to the scholar, who answers with a calm cheeky smile, courtyard with an ink table and a large drum",
+        "seed": 2468013579,
+        "character": "su-tau"
       },
       "video": {
-        "motionPrompt": "the emperor squints at the paper, the envoy gestures with his fan, a minister snorts with laughter and quickly covers his mouth, comic camera push-in on the emperor's face",
-        "seed": 1336946151
+        "motionPrompt": "the envoy sweeps his brush grandly, the scholar smiles and folds his arms, the drum stands ready, banners flutter",
+        "seed": 4073899414
       },
       "voice": {}
     },
     {
-      "id": "vua-phuc",
-      "title": "Phục người nước nhỏ",
+      "id": "muoi-con-giun",
+      "title": "Mười con giun đất",
       "narrator": "ke-chuyen",
-      "narration": "Ba lần thử, ba lần thua, vua phương Bắc biết không thể coi thường sứ thần nước Nam được nữa. Vua mở tiệc tiễn đưa, đích thân nâng chén mời Quỳnh, lại ban cho nhiều gấm vóc, sách vở. Vua nói: Nước nhỏ mà có người như khanh, thì không thể gọi là nhỏ. Quỳnh nâng chén đáp lễ: Tâu bệ hạ, nước tôi nhỏ thật, nhưng người nước tôi quen làm những việc khó bằng cách nhỏ: con kiến con cũng đi qua được ruột ốc to. Vua cười lớn, lần này là cái cười phục chứ không còn là cái cười khinh. Đoàn sứ lên đường về nước, cờ quạt rợp trời.",
+      "narration": "Đến ngày thi, tiếng trống đầu tiên vừa nổi lên, sứ Tàu liền cắm cúi vẽ lấy vẽ để. Quỳnh thì ung dung ngồi dưới chiếu nhai trầu, trông như người ngồi hóng gió chứ chẳng phải đang thi thố gì. Tiếng trống thứ hai nổi lên, sứ Tàu liếc sang thấy Quỳnh vẫn cứ ngồi đó ngâm nga. Nghe tiếng trống thứ ba, Quỳnh mới đứng lên, tiến tới bàn, nhúng cả mười đầu ngón tay vào nghiên mực rồi trét lên tờ giấy thành mười vệt dài ngoằn ngoèo. Lúc ấy sứ Tàu còn chưa vẽ xong nổi hình thù con vật nào. Hết giờ so tài, Quỳnh đưa tờ giấy ra, bảo: Ông thua cuộc rồi nhé. Tôi đâu có nói ngoa, chỉ nghe một tiếng trống là tôi đã vẽ xong mười con giun đất đây này. Sứ Tàu muốn ôm đầu kêu trời, đành thua mẹo của Quỳnh thêm một lần nữa.",
       "subtitles": [
-        "Ba lần thử, ba lần thua,",
-        "vua phương Bắc biết không thể coi thường sứ thần nước Nam được nữa.",
-        "Vua mở tiệc tiễn đưa, đích thân nâng chén mời Quỳnh, lại ban cho nhiều gấm vóc, sách vở.",
-        "Vua nói: Nước nhỏ mà có người như khanh, thì không thể gọi là nhỏ. Quỳnh nâng chén đáp lễ:",
-        "Tâu bệ hạ, nước tôi nhỏ thật, nhưng người nước tôi quen làm những việc khó bằng cách nhỏ:",
-        "con kiến con cũng đi qua được ruột ốc to.",
-        "Vua cười lớn, lần này là cái cười phục chứ không còn là cái cười khinh.",
-        "Đoàn sứ lên đường về nước, cờ quạt rợp trời."
+        "Đến ngày thi, tiếng trống đầu tiên vừa nổi lên, sứ Tàu liền cắm cúi vẽ lấy vẽ để.",
+        "Quỳnh thì ung dung ngồi dưới chiếu nhai trầu,",
+        "trông như người ngồi hóng gió chứ chẳng phải đang thi thố gì.",
+        "Tiếng trống thứ hai nổi lên, sứ Tàu liếc sang thấy Quỳnh vẫn cứ ngồi đó ngâm nga.",
+        "Nghe tiếng trống thứ ba, Quỳnh mới đứng lên, tiến tới bàn,",
+        "nhúng cả mười đầu ngón tay vào nghiên mực rồi trét lên tờ giấy thành mười vệt dài ngoằn",
+        "ngoèo.",
+        "Lúc ấy sứ Tàu còn chưa vẽ xong nổi hình thù con vật nào.",
+        "Hết giờ so tài, Quỳnh đưa tờ giấy ra, bảo: Ông thua cuộc rồi nhé.",
+        "Tôi đâu có nói ngoa, chỉ nghe một tiếng trống là tôi đã vẽ xong mười con giun đất đây này.",
+        "Sứ Tàu muốn ôm đầu kêu trời, đành thua mẹo của Quỳnh thêm một lần nữa."
       ],
       "image": {
-        "prompt": "a farewell banquet in the northern palace, the emperor raising a cup toward the Vietnamese envoy with grudging respect, gifts of silk and books stacked beside the envoy, ministers bowing, red lanterns and golden light",
-        "seed": 4238535818,
-        "character": "vua-phuong-bac"
-      },
-      "video": {
-        "motionPrompt": "lanterns sway, the emperor raises his cup slowly, the envoy bows and raises his own cup, ministers bow in unison, warm camera pull back",
-        "seed": 1180411436
-      },
-      "voice": {}
-    },
-    {
-      "id": "ve-nuoc",
-      "title": "Trở về Thăng Long",
-      "narrator": "ke-chuyen",
-      "narration": "Về tới Thăng Long, dân kinh thành đổ ra đường đón ông sứ đã làm rạng mặt cả nước. Chúa Trịnh cũng phải ra tận thềm điện, mặt cười mà lòng chẳng vui, vì định mượn chuyến đi để Quỳnh bẽ mặt, ai ngờ Quỳnh lại nổi danh hơn trước. Chúa hỏi: Đi sứ có khó không? Quỳnh thưa: Khó thì có khó, nhưng ở nước người, hỏi khó thì chỉ để thử tài. Còn ở nhà mình, hỏi khó là để hại nhau, mới thật là khó. Chúa nghe mà đỏ mặt, chẳng nói được câu nào. Từ đó, chuyện Trạng Quỳnh đi sứ được người đời kể mãi, mỗi lần kể lại thêm một trận cười.",
-      "subtitles": [
-        "Về tới Thăng Long, dân kinh thành đổ ra đường đón ông sứ đã làm rạng mặt cả nước.",
-        "Chúa Trịnh cũng phải ra tận thềm điện, mặt cười mà lòng chẳng vui,",
-        "vì định mượn chuyến đi để Quỳnh bẽ mặt, ai ngờ Quỳnh lại nổi danh hơn trước. Chúa hỏi:",
-        "Đi sứ có khó không? Quỳnh thưa:",
-        "Khó thì có khó, nhưng ở nước người, hỏi khó thì chỉ để thử tài.",
-        "Còn ở nhà mình, hỏi khó là để hại nhau, mới thật là khó.",
-        "Chúa nghe mà đỏ mặt, chẳng nói được câu nào.",
-        "Từ đó, chuyện Trạng Quỳnh đi sứ được người đời kể mãi, mỗi lần kể lại thêm một trận cười."
-      ],
-      "image": {
-        "prompt": "the Vietnamese envoy returns to Thang Long, crowds cheering along the streets, the Trinh lord forcing a smile on the palace steps, the clever envoy bowing with a twinkle in his eye, gifts carried behind him",
-        "seed": 2289397123,
+        "prompt": "the scholar dips all ten fingertips into an ink stone and smears ten wavy black lines across a sheet of paper, while the Qing envoy beside him is still halfway through a careful drawing with a face of dismay, large drum in the background",
+        "seed": 3150794628,
         "character": "quynh"
       },
       "video": {
-        "motionPrompt": "the crowds wave and cheer, the envoy bows, the lord's forced smile twitches, flower petals fall over the procession, comic camera push-in on the lord's face",
-        "seed": 2878276399
+        "motionPrompt": "the scholar drags his inked fingers over the paper, the envoy clutches his head in dismay, ink drips, comic camera push-in",
+        "seed": 1241398846
       },
       "voice": {}
     }
