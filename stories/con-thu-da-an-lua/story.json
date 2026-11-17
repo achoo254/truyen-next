@@ -9,6 +9,7 @@
     "su-tich"
   ],
   "added": "2026-11-02",
+  "revised": "2026-11-17",
   "language": "vi",
   "source": "Truyện dân gian Triều Tiên «The Great Stone Fire Eater», do William Elliot Griffis ghi lại trong Korean Fairy Tales (1922), nay thuộc phạm vi công cộng. Lời kể «Con thú đá ăn lửa» viết mới bằng tiếng Việt, kể nhẹ nhàng cho cả nhà, giữ cốt truyện gốc, không chép bản dịch nào.",
   "basedOn": "Truyện dân gian Hàn Quốc, theo W. E. Griffis (1922)",
@@ -35,148 +36,296 @@
   ],
   "scenes": [
     {
-      "id": "than-lua-them-an",
-      "title": "Thần Lửa thèm ăn",
+      "id": "than-lua-trong-nui",
+      "title": "Thần Lửa trong núi",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, trong một ngọn núi lửa phía tây nam kinh thành Seoul, có một vị thần Lửa lúc nào cũng đói. Thần ăn cây, ăn rừng, ăn cỏ khô, hết thì gặm cả đá rồi phun ra thành dòng nham thạch. Nhưng món thần thèm nhất là những gì con người dựng nên. Một hôm, nhìn ra khỏi miệng núi, thần thấy cung điện mới của nhà vua sáng lấp lánh. Thần xoa bụng cười khà khà: “Một bữa tiệc cho ta đây!”",
+      "narration": "Ngày xưa, rất lâu rồi, có một vị Thần Lửa lớn sống trong một ngọn núi ở phía tây nam Seoul, kinh đô của Triều Tiên. Ông lúc nào cũng đói, và thức ăn của ông là bất cứ thứ gì cháy được. Ông ngốn cây cối, rừng, cỏ khô, củi, và bất cứ thứ gì ông với tới được. Khi những thứ ấy ở ngoài tầm với, ông ăn đá và tảng đá. Ông thích ngọn lửa, nhưng nhả những thứ cứng ra khỏi miệng dưới dạng dung nham. Con Quái Lửa này dành phần lớn thời gian trong một ngọn núi lửa khổng lồ ở cách đó một quãng, nhưng vẫn nhìn thấy từ kinh đô. Dân thành phố thường ngắm khói bốc ra từ miệng núi ban ngày, và ban đêm, từ lúc hoàng hôn đến bình minh, khói ấy ra thành lửa đỏ, cho đến khi cả bầu trời dường như bốc cháy. Khi ấy, họ nói, Thần Lửa đang thắp sáng cung điện của mình. Vào những đêm nhiều mây, bên trong núi lửa rực lên như một cái lò. Khối chất nóng chảy trong miệng núi phản chiếu lên mây, đến nỗi gần như có thể nhìn thấy vào tận bụng con quái vật.",
       "subtitles": [
-        "Ngày xưa, trong một ngọn núi lửa phía tây nam kinh thành Seoul,",
-        "có một vị thần Lửa lúc nào cũng đói.",
-        "Thần ăn cây, ăn rừng, ăn cỏ khô, hết thì gặm cả đá rồi phun ra thành dòng nham thạch.",
-        "Nhưng món thần thèm nhất là những gì con người dựng nên.",
-        "Một hôm, nhìn ra khỏi miệng núi, thần thấy cung điện mới của nhà vua sáng lấp lánh.",
-        "Thần xoa bụng cười khà khà: “Một bữa tiệc cho ta đây!”"
+        "Ngày xưa, rất lâu rồi, có một vị Thần Lửa lớn sống trong một ngọn núi ở phía tây nam",
+        "Seoul, kinh đô của Triều Tiên.",
+        "Ông lúc nào cũng đói, và thức ăn của ông là bất cứ thứ gì cháy được.",
+        "Ông ngốn cây cối, rừng, cỏ khô, củi, và bất cứ thứ gì ông với tới được.",
+        "Khi những thứ ấy ở ngoài tầm với, ông ăn đá và tảng đá.",
+        "Ông thích ngọn lửa, nhưng nhả những thứ cứng ra khỏi miệng dưới dạng dung nham.",
+        "Con Quái Lửa này dành phần lớn thời gian trong một ngọn núi lửa khổng lồ ở cách đó một",
+        "quãng, nhưng vẫn nhìn thấy từ kinh đô.",
+        "Dân thành phố thường ngắm khói bốc ra từ miệng núi ban ngày, và ban đêm, từ lúc hoàng hôn",
+        "đến bình minh, khói ấy ra thành lửa đỏ, cho đến khi cả bầu trời dường như bốc cháy.",
+        "Khi ấy, họ nói, Thần Lửa đang thắp sáng cung điện của mình.",
+        "Vào những đêm nhiều mây, bên trong núi lửa rực lên như một cái lò.",
+        "Khối chất nóng chảy trong miệng núi phản chiếu lên mây, đến nỗi gần như có thể nhìn thấy",
+        "vào tận bụng con quái vật."
       ],
       "image": {
-        "prompt": "a comical round fire spirit made of flames peeking out of a smoking volcano crater at night, licking its lips while looking at a shining new royal palace in a distant city",
-        "seed": 3030200976,
+        "prompt": "a great fire spirit with glowing ember skin and flame hair inside a smoking volcano crater far from a silver royal palace city, red glow on the clouds at night, small Korean city with tiled roofs in the distance, folk painting style",
+        "seed": 4228501793,
         "character": "than-lua"
       },
       "video": {
-        "motionPrompt": "the fire spirit rubs its round flaming belly and chuckles, smoke curls up from the volcano",
-        "seed": 2911956117
+        "motionPrompt": "red firelight pulses inside the crater and glows against dark clouds while smoke rises over the distant city",
+        "seed": 1895947476
       },
       "voice": {}
     },
     {
-      "id": "gio-nam",
-      "title": "Gió Nam đồng loã",
+      "id": "bua-tiec-hoang-cung",
+      "title": "Bữa tiệc hoàng cung",
       "narrator": "ke-chuyen",
-      "narration": "Thần Lửa rủ cô Gió Nam: “Đêm nay mình đi chơi một trận nhé, đừng cho mây mưa biết!” Gió Nam vốn thích nô đùa, gật đầu ngay. Đêm xuống, thần Lửa bước ra khỏi núi, Gió Nam thổi ù ù khắp phố, ai đội mũ rộng vành cũng phải ở trong nhà. Khi lính gác ngủ say, ngọn lửa bùng lên, liếm tới tận trời. Mọi người trong cung kịp chạy ra an toàn, nhưng sáng hôm sau, cung điện chỉ còn lại một bãi tro.",
+      "narration": "Nhưng chẳng gì ngon với Thần Lửa bằng những thứ người ta xây, như nhà cửa, chuồng ngựa, hàng rào và tài sản chung. Một món ngon đặc biệt mà ông thèm nuốt là cung điện nhà vua. Một hôm, nhìn ra từ miệng núi, ông thấy cung điện của nhà vua sáng bạc, mới tinh, đang vươn lên ở thành phố Seoul. Thế là ông cười khúc khích, và tự nói với mình, vì ông rất vui: “Có tiệc cho ta rồi! Ta sẽ cứ bước ra khỏi núi nhà ta và ăn hết món ngon ấy. Không biết nhà vua sẽ thấy thế nào.” Nhưng Thần Lửa không vội. Ông chắc chắn mình sẽ có bữa ăn. Vậy nên ông chờ cho đến khi người bạn của ông, Gió Nam, sẵn sàng cùng ông. Thần Lửa nói với Gió Nam: “Khi nào bạn sẵn sàng thì cho ta biết, rồi ta sẽ có một ngọn lửa tuyệt đẹp. Ta sẽ đi lên vào ban đêm và nhảy một điệu vui trước khi họ kịp tưới lên ta một giọt nước nào. Đừng để mấy đám mây mưa biết gì về buổi dã ngoại của chúng ta.” Gió Nam hứa dễ dàng, vì bà lúc nào cũng thích vui chơi.",
       "subtitles": [
-        "Thần Lửa rủ cô Gió Nam: “Đêm nay mình đi chơi một trận nhé, đừng cho mây mưa biết!”",
-        "Gió Nam vốn thích nô đùa, gật đầu ngay.",
-        "Đêm xuống, thần Lửa bước ra khỏi núi, Gió Nam thổi ù ù khắp phố,",
-        "ai đội mũ rộng vành cũng phải ở trong nhà.",
-        "Khi lính gác ngủ say, ngọn lửa bùng lên, liếm tới tận trời.",
-        "Mọi người trong cung kịp chạy ra an toàn, nhưng sáng hôm sau,",
-        "cung điện chỉ còn lại một bãi tro."
+        "Nhưng chẳng gì ngon với Thần Lửa bằng những thứ người ta xây, như nhà cửa, chuồng ngựa,",
+        "hàng rào và tài sản chung.",
+        "Một món ngon đặc biệt mà ông thèm nuốt là cung điện nhà vua.",
+        "Một hôm, nhìn ra từ miệng núi, ông thấy cung điện của nhà vua sáng bạc, mới tinh, đang",
+        "vươn lên ở thành phố Seoul.",
+        "Thế là ông cười khúc khích, và tự nói với mình, vì ông rất vui: “Có tiệc cho ta rồi!",
+        "Ta sẽ cứ bước ra khỏi núi nhà ta và ăn hết món ngon ấy.",
+        "Không biết nhà vua sẽ thấy thế nào.”",
+        "Nhưng Thần Lửa không vội.",
+        "Ông chắc chắn mình sẽ có bữa ăn.",
+        "Vậy nên ông chờ cho đến khi người bạn của ông, Gió Nam, sẵn sàng cùng ông.",
+        "Thần Lửa nói với Gió Nam: “Khi nào bạn sẵn sàng thì cho ta biết, rồi ta sẽ có một ngọn lửa",
+        "tuyệt đẹp.",
+        "Ta sẽ đi lên vào ban đêm và nhảy một điệu vui trước khi họ kịp tưới lên ta một giọt nước",
+        "nào.",
+        "Đừng để mấy đám mây mưa biết gì về buổi dã ngoại của chúng ta.”",
+        "Gió Nam hứa dễ dàng, vì bà lúc nào cũng thích vui chơi."
       ],
       "image": {
-        "prompt": "a playful whirling south wind spirit and a round flame spirit dancing together over a sleeping Korean city at night, orange glow on tiled roofs, people in white clothes hurrying safely out of the palace gates",
-        "seed": 1448158007,
+        "prompt": "a fire spirit in a volcano crater peering out at a brand-new silver palace shining in the city far below, chuckling and rubbing his hands, a swirl of warm wind beside him, evening sky",
+        "seed": 432014625,
         "character": "than-lua"
       },
       "video": {
-        "motionPrompt": "the wind swirls and the flames dance higher, people run safely through the palace gate into the night",
-        "seed": 4219175033
+        "motionPrompt": "the fire spirit leans out of the crater with a sly smile, warm wind swirls around him",
+        "seed": 2496137428
       },
       "voice": {}
     },
     {
-      "id": "con-rong-ngu-quen",
-      "title": "Con rồng ngủ quên",
+      "id": "dem-chay-cung-dien",
+      "title": "Đêm cung điện cháy",
       "narrator": "ke-chuyen",
-      "narration": "Nhà vua họp các bậc hiền tài bàn cách chống thần Lửa. Họ quyết định rước một con rồng lớn từ Trung Hoa về, thả trong đầm. Rồng được đeo chuỗi hạt hổ phách, đội mũ lông ngựa, ăn củ cải thoả thích. Nhưng rồng làm mưa nhiều quá, ruộng đồng ngập úng. Bị nhắc, nó dỗi, rồi béo ra, lười đi. Một đêm gió thổi, rồng ngủ khò. Thần Lửa nhân cơ hội cưỡi gió tới, lại nuốt mất cung điện lần nữa.",
+      "narration": "Thế là khi mặt trời lặn và trời tối, Thần Lửa trèo ra khỏi ngôi nhà đá trong núi lửa và sải bước về phía Seoul. Gió Nam nhảy nhót, vọt vẻ cùng ông, cho đến khi các con phố của kinh đô trở nên đầy gió, đến nỗi người nào đội mũ rộng vành cũng không dám ra khỏi nhà, kẻo trong một cơn gió mạnh có thể mất mũ. Còn những người đang để tang, đội mũ rơm rộng cả thước và to, sâu như cái chậu giặt, thì nhốt mình trong nhà chơi cờ. Khi tất cả lính canh cung điện đã ngủ, Thần Lửa sẵn sàng. Ông nói với Gió Nam: “Hãy thổi, thổi cơn gió mạnh nhất của bà, khi ta bắt đầu chạm vào mái những ngôi nhà nhỏ hơn. Việc này sẽ kích thích sự thèm ăn của ta để đến cung điện, rồi chúng ta sẽ cùng ăn hết chúng.” Phải đến khi nghe một tiếng gầm lớn và tiếng nổ lách tách, người dân Seoul mới đẩy những cánh cửa sổ giấy ra xem có chuyện gì. Ôi, ngọn lửa mới lớn làm sao! Nó dường như bốc lên tận trời với những lưỡi đỏ liếm các vì sao. Những người nhìn được về phía cung điện tưởng mặt trời đã mọc, nhưng chẳng bao lâu tiếng đổ ầm của mái nhà, những cột khói và lửa khổng lồ cùng đám tàn lửa như mây kể lại câu chuyện khủng khiếp. Khi mặt trời thật sự mọc, chỉ còn một bãi tro phẳng lì nơi những tòa nhà lớn từng đứng. Ngay cả khói cũng bị gió thổi đi hết.",
       "subtitles": [
-        "Nhà vua họp các bậc hiền tài bàn cách chống thần Lửa.",
-        "Họ quyết định rước một con rồng lớn từ Trung Hoa về, thả trong đầm.",
-        "Rồng được đeo chuỗi hạt hổ phách, đội mũ lông ngựa, ăn củ cải thoả thích.",
-        "Nhưng rồng làm mưa nhiều quá, ruộng đồng ngập úng. Bị nhắc, nó dỗi, rồi béo ra, lười đi.",
-        "Một đêm gió thổi, rồng ngủ khò.",
-        "Thần Lửa nhân cơ hội cưỡi gió tới, lại nuốt mất cung điện lần nữa."
+        "Thế là khi mặt trời lặn và trời tối, Thần Lửa trèo ra khỏi ngôi nhà đá trong núi lửa và",
+        "sải bước về phía Seoul.",
+        "Gió Nam nhảy nhót, vọt vẻ cùng ông, cho đến khi các con phố của kinh đô trở nên đầy gió,",
+        "đến nỗi người nào đội mũ rộng vành cũng không dám ra khỏi nhà, kẻo trong một cơn gió mạnh",
+        "có thể mất mũ.",
+        "Còn những người đang để tang, đội mũ rơm rộng cả thước và to, sâu như cái chậu giặt, thì",
+        "nhốt mình trong nhà chơi cờ.",
+        "Khi tất cả lính canh cung điện đã ngủ, Thần Lửa sẵn sàng.",
+        "Ông nói với Gió Nam: “Hãy thổi, thổi cơn gió mạnh nhất của bà, khi ta bắt đầu chạm vào mái",
+        "những ngôi nhà nhỏ hơn.",
+        "Việc này sẽ kích thích sự thèm ăn của ta để đến cung điện, rồi chúng ta sẽ cùng ăn hết",
+        "chúng.”",
+        "Phải đến khi nghe một tiếng gầm lớn và tiếng nổ lách tách, người dân Seoul mới đẩy những",
+        "cánh cửa sổ giấy ra xem có chuyện gì.",
+        "Ôi, ngọn lửa mới lớn làm sao!",
+        "Nó dường như bốc lên tận trời với những lưỡi đỏ liếm các vì sao.",
+        "Những người nhìn được về phía cung điện tưởng mặt trời đã mọc, nhưng chẳng bao lâu tiếng",
+        "đổ ầm của mái nhà, những cột khói và lửa khổng lồ cùng đám tàn lửa như mây kể lại câu",
+        "chuyện khủng khiếp.",
+        "Khi mặt trời thật sự mọc, chỉ còn một bãi tro phẳng lì nơi những tòa nhà lớn từng đứng.",
+        "Ngay cả khói cũng bị gió thổi đi hết."
       ],
       "image": {
-        "prompt": "a fat lazy dragon wearing amber beads and a little horsehair hat snoring in a swamp surrounded by turnips, a flame spirit tiptoeing past toward a palace in the distance, comical mood",
-        "seed": 3197259147,
+        "prompt": "a mighty blaze rising from rooftops of a Korean capital city at night with red tongues of flame licking the stars, a swirling south wind carrying sparks, people pushing back paper windows in alarm, palace guards in the distance running with servants, dramatic night colors",
+        "seed": 57743597,
         "character": "than-lua"
       },
       "video": {
-        "motionPrompt": "the dragon snores with bubbles rising, the flame spirit sneaks past on a gust of wind, grinning",
-        "seed": 1437222264
+        "motionPrompt": "red flames climb into the night sky as the wind whips sparks across the rooftops and people peer from windows",
+        "seed": 2390299928
       },
       "voice": {}
     },
     {
-      "id": "ao-nuoc",
-      "title": "Cái ao chặn đường",
+      "id": "hoi-dong-nhung-nguoi-khon",
+      "title": "Hội đồng những người khôn ngoan",
       "narrator": "ke-chuyen",
-      "narration": "Lần này, một ông thầy hiểu biết về đất và nước chỉ lên bản đồ: “Lửa luôn tới từ phía tây nam, theo thung lũng này. Ta đào một cái ao thật sâu ngay trên đường đi của nó!” Thợ đào giếng khắp nơi kéo về, đào suốt mấy tuần, rồi dẫn nước sông vào đầy ao. Đêm ấy, thần Lửa lại mò tới, nhưng ngã tõm xuống ao, ướt sũng, lạnh run. Tới cung điện, thần chỉ còn đủ sức làm cháy một nửa, đành vừa càu nhàu vừa lủi về núi.",
+      "narration": "Khi nhà vua và dân chúng trong khuôn viên cung điện, những người nhờ chạy nhanh mà thoát thân, nghĩ về sự mất mát của họ, họ bắt đầu bàn cách ngăn Quái Lửa, khi nó nghĩ đến chuyện lại thong thả ra đi dạo và nuốt chửng nhà của nhà vua. Một hội đồng những người khôn ngoan được triệu tập để quyết định về vấn đề ấy. Nhiều cái đầu dài cúi xuống trong suy nghĩ nặng nề về việc đó. Tất cả lính cứu hỏa, thợ đá, thầy bói, người thuần rồng, thầy địa lý và những người giỏi phòng chống hỏa hoạn được mời cho lời khuyên về cách tốt nhất để chống lại Quỷ Lửa đói. Sau nhiều tuần suy nghĩ về vấn đề, tất cả đều đồng ý rằng nên đưa một con rồng từ Trung Quốc sang Triều Tiên. Nếu được nuôi trong một đầm lầy và cho ăn đầy đủ, nó chắc chắn sẽ ngăn Yêu Lửa lang thang đến quá gần Seoul. Ngoài ra, con rồng còn biết cách làm cho Gió Nam vui và thuyết phục bà đừng nhúng vào trò nghịch ngợm.",
       "subtitles": [
-        "Lần này, một ông thầy hiểu biết về đất và nước chỉ lên bản đồ:",
-        "“Lửa luôn tới từ phía tây nam, theo thung lũng này.",
-        "Ta đào một cái ao thật sâu ngay trên đường đi của nó!”",
-        "Thợ đào giếng khắp nơi kéo về, đào suốt mấy tuần, rồi dẫn nước sông vào đầy ao.",
-        "Đêm ấy, thần Lửa lại mò tới, nhưng ngã tõm xuống ao, ướt sũng, lạnh run.",
-        "Tới cung điện, thần chỉ còn đủ sức làm cháy một nửa, đành vừa càu nhàu vừa lủi về núi."
+        "Khi nhà vua và dân chúng trong khuôn viên cung điện, những người nhờ chạy nhanh mà thoát",
+        "thân, nghĩ về sự mất mát của họ, họ bắt đầu bàn cách ngăn Quái Lửa, khi nó nghĩ đến chuyện",
+        "lại thong thả ra đi dạo và nuốt chửng nhà của nhà vua.",
+        "Một hội đồng những người khôn ngoan được triệu tập để quyết định về vấn đề ấy.",
+        "Nhiều cái đầu dài cúi xuống trong suy nghĩ nặng nề về việc đó.",
+        "Tất cả lính cứu hỏa, thợ đá, thầy bói, người thuần rồng, thầy địa lý và những người giỏi",
+        "phòng chống hỏa hoạn được mời cho lời khuyên về cách tốt nhất để chống lại Quỷ Lửa đói.",
+        "Sau nhiều tuần suy nghĩ về vấn đề, tất cả đều đồng ý rằng nên đưa một con rồng từ Trung",
+        "Quốc sang Triều Tiên.",
+        "Nếu được nuôi trong một đầm lầy và cho ăn đầy đủ, nó chắc chắn sẽ ngăn Yêu Lửa lang thang",
+        "đến quá gần Seoul.",
+        "Ngoài ra, con rồng còn biết cách làm cho Gió Nam vui và thuyết phục bà đừng nhúng vào trò",
+        "nghịch ngợm."
       ],
       "image": {
-        "prompt": "many Korean workers with shovels digging a big deep pond in a valley, a wise old man pointing at a map, later a soggy dripping flame spirit climbing out of the pond shivering",
-        "seed": 2154165160,
+        "prompt": "a council of wise old men in white robes and tall black hats gathered around a map in a palace courtyard of ashes, geomancers, stone-cutters and firemen among them, a king looking sad, a dragon from China being shown in a painting, folk painting style",
+        "seed": 2216258887,
         "character": "than-lua"
       },
       "video": {
-        "motionPrompt": "the workers dig and water flows into the pond, then the flame spirit splashes in and crawls out sputtering",
-        "seed": 1383153294
+        "motionPrompt": "the wise men lean over the map and nod gravely while the king watches with weary eyes",
+        "seed": 152133810
       },
       "voice": {}
     },
     {
-      "id": "tho-da",
-      "title": "Những người thợ đá",
+      "id": "rong-trung-quoc",
+      "title": "Con rồng Trung Quốc",
       "narrator": "ke-chuyen",
-      "narration": "Nhà vua thưởng hậu cho bác thợ đào giếng: lụa, sâm, hạt dẻ và những xâu tiền đồng. Rồi vua cho mời ông trùm thợ đá: “Ông có tạc được một con thú ăn lửa, trông thật dữ, để doạ thần Lửa không?” Một khối đá hoa cương trắng khổng lồ được hàng nghìn người lăn từ núi về kinh. Sau tấm vải che kín để thần Lửa khỏi biết, búa đục lách cách ngày đêm. Rồi một sáng, con thú đá ăn lửa được đặt ngồi trên bệ cao trước cổng cung.",
+      "narration": "Thế là, với chi phí và công sức rất lớn, một trong những con rồng lớn nhất của Trung Quốc, có khả năng làm mưa và phun hàng tấn nước lên kẻ thù, được chở sang và nuôi trong một đầm lầy. Nó được ban huy chương hoàng gia, được phép đeo một xâu chuỗi hạt hổ phách trên tai, được tặng một chiếc mũ lông ngựa, một đai lưng của quý tộc, và được cho ăn thỏa thích bao nhiêu củ cải nó muốn. Về mọi mặt nó được đối xử như con vật cưng của nhà vua. Nhưng tất cả đều vô ích. Tiền bạc và ân huệ đều uổng phí. Con rồng được nuông chiều làm mưa quá nhiều, đến nỗi đất bị ngập sũng. Rồi khi bị bảo đừng làm thế, nó giận dỗi và bỏ bê nhiệm vụ. Cuối cùng nó trở nên mập và lười, và một đêm ngủ quên lúc lẽ ra phải canh gác, vì gió đang đi nhảy múa. Thấy người canh ngục của mình ngủ gật như vậy, Yêu Lửa nhảy ra khỏi nhà tù núi lửa của mình, cưỡi Gió Nam nhanh chóng đến Seoul, và chỉ trong vài giờ lại nuốt cung điện nhà vua một lần nữa. Hôm sau chẳng thấy gì ngoài tro, thứ mà Quái Lửa chẳng quan tâm hơn chúng ta quan tâm đến vỏ hạt khi ăn hết nhân.",
       "subtitles": [
-        "Nhà vua thưởng hậu cho bác thợ đào giếng: lụa, sâm, hạt dẻ và những xâu tiền đồng.",
-        "Rồi vua cho mời ông trùm thợ đá: “Ông có tạc được một con thú ăn lửa, trông thật dữ,",
-        "để doạ thần Lửa không?”",
-        "Một khối đá hoa cương trắng khổng lồ được hàng nghìn người lăn từ núi về kinh.",
-        "Sau tấm vải che kín để thần Lửa khỏi biết, búa đục lách cách ngày đêm.",
-        "Rồi một sáng, con thú đá ăn lửa được đặt ngồi trên bệ cao trước cổng cung."
+        "Thế là, với chi phí và công sức rất lớn, một trong những con rồng lớn nhất của Trung Quốc,",
+        "có khả năng làm mưa và phun hàng tấn nước lên kẻ thù, được chở sang và nuôi trong một đầm",
+        "lầy.",
+        "Nó được ban huy chương hoàng gia, được phép đeo một xâu chuỗi hạt hổ phách trên tai, được",
+        "tặng một chiếc mũ lông ngựa, một đai lưng của quý tộc, và được cho ăn thỏa thích bao nhiêu",
+        "củ cải nó muốn.",
+        "Về mọi mặt nó được đối xử như con vật cưng của nhà vua.",
+        "Nhưng tất cả đều vô ích.",
+        "Tiền bạc và ân huệ đều uổng phí.",
+        "Con rồng được nuông chiều làm mưa quá nhiều, đến nỗi đất bị ngập sũng.",
+        "Rồi khi bị bảo đừng làm thế, nó giận dỗi và bỏ bê nhiệm vụ.",
+        "Cuối cùng nó trở nên mập và lười, và một đêm ngủ quên lúc lẽ ra phải canh gác, vì gió đang",
+        "đi nhảy múa.",
+        "Thấy người canh ngục của mình ngủ gật như vậy, Yêu Lửa nhảy ra khỏi nhà tù núi lửa của",
+        "mình, cưỡi Gió Nam nhanh chóng đến Seoul, và chỉ trong vài giờ lại nuốt cung điện nhà vua",
+        "một lần nữa.",
+        "Hôm sau chẳng thấy gì ngoài tro, thứ mà Quái Lửa chẳng quan tâm hơn chúng ta quan tâm đến",
+        "vỏ hạt khi ăn hết nhân."
       ],
       "image": {
-        "prompt": "Korean stonemasons carving a huge white granite guardian beast behind tall canvas screens, hammers and chisels, stone chips flying, a giant lion-like statue with a curly mane taking shape",
-        "seed": 911893336,
+        "prompt": "a huge fat lazy Chinese dragon asleep in a swamp wearing a string of amber beads over its ear, a horsehair hat and a nobleman's girdle, a pile of turnips beside it, the Fire Imp sliding out of a volcano in the distance riding on the south wind, night",
+        "seed": 4261902698,
+        "character": "than-lua"
+      },
+      "video": {
+        "motionPrompt": "the plump dragon snores gently among turnips while far away a red glow slips out of the volcano",
+        "seed": 1930392735
+      },
+      "voice": {}
+    },
+    {
+      "id": "cai-ao-lon",
+      "title": "Cái ao khổng lồ",
+      "narrator": "ke-chuyen",
+      "narration": "Với những giọt nước mắt lớn, nhà vua và các nhà thông thái lại họp để quyết định một kế hoạch mới ngăn Yêu Lửa. Họ sẵn sàng dìm nó, hoặc thấy nó bị ăn mất, vì nó đã hai lần nuốt cung điện. Họ gửi con rồng Trung Quốc về nhà, và lần này, bên cạnh các thầy bói và thợ đá, họ còn mời cả thợ đào giếng. Nhiều ngày liền, các nhà thông thái nghiên cứu bản đồ, bàn về địa lý, xem núi, thung lũng và núi lửa, và nghiên cứu các luồng gió. Cuối cùng, một người nổi tiếng nhờ học vấn sâu rộng về gỗ và nước, rừng và sông, nói như sau: “Rõ ràng là lửa luôn luôn đến từ phía tây nam và đi lên thung lũng này,” ông chỉ vào bản đồ. Tất cả các nhà thông thái hô lên: “Đúng, đúng!” “Vậy thì ngay trên đường đi của hắn, ta hãy đào một cái ao lớn, một cái hồ nhân tạo thật sự và rất sâu, để Quái Lửa ngã xuống. Điều này sẽ làm hắn tắt lửa, và hắn không đi xa hơn được nữa.” Các nhà thông thái đồng thanh hô: “Đồng ý, đồng ý! Sao chúng ta không nghĩ ra điều này sớm hơn?” Tất cả những người đào giếng và đào mương khéo tay được triệu về kinh đô. Với xẻng và cuốc, họ làm việc suốt mấy tuần. Rồi họ cho nước sông vào cho đến khi ao đầy. Thế là mọi người ở Seoul đi ngủ, nghĩ rằng cung điện nhà vua chắc chắn đã an toàn. Nhưng Yêu Lửa, thấy con rồng đã đi và cơ hội đã đến, trèo ra khỏi núi lửa và bước ra cho một bữa ăn nữa. Lần này, Gió Nam bận việc nơi khác nên không đi cùng được. Vậy nên ông đi một mình, nhưng khi đến cái ao, ông ngã xuống và bị ướt nặng đến nỗi ông lạnh run và gần như tắt lửa khi đến cung điện, nơi mới chỉ cháy một nửa. Thế là ông về nhà, gầm gừ và đói meo.",
+      "subtitles": [
+        "Với những giọt nước mắt lớn, nhà vua và các nhà thông thái lại họp để quyết định một kế",
+        "hoạch mới ngăn Yêu Lửa.",
+        "Họ sẵn sàng dìm nó, hoặc thấy nó bị ăn mất, vì nó đã hai lần nuốt cung điện.",
+        "Họ gửi con rồng Trung Quốc về nhà, và lần này, bên cạnh các thầy bói và thợ đá, họ còn mời",
+        "cả thợ đào giếng.",
+        "Nhiều ngày liền, các nhà thông thái nghiên cứu bản đồ, bàn về địa lý, xem núi, thung lũng",
+        "và núi lửa, và nghiên cứu các luồng gió.",
+        "Cuối cùng, một người nổi tiếng nhờ học vấn sâu rộng về gỗ và nước, rừng và sông, nói như",
+        "sau: “Rõ ràng là lửa luôn luôn đến từ phía tây nam và đi lên thung lũng này,” ông chỉ vào",
+        "bản đồ.",
+        "Tất cả các nhà thông thái hô lên: “Đúng, đúng!”",
+        "“Vậy thì ngay trên đường đi của hắn, ta hãy đào một cái ao lớn, một cái hồ nhân tạo thật",
+        "sự và rất sâu, để Quái Lửa ngã xuống.",
+        "Điều này sẽ làm hắn tắt lửa, và hắn không đi xa hơn được nữa.”",
+        "Các nhà thông thái đồng thanh hô: “Đồng ý, đồng ý!",
+        "Sao chúng ta không nghĩ ra điều này sớm hơn?”",
+        "Tất cả những người đào giếng và đào mương khéo tay được triệu về kinh đô.",
+        "Với xẻng và cuốc, họ làm việc suốt mấy tuần.",
+        "Rồi họ cho nước sông vào cho đến khi ao đầy.",
+        "Thế là mọi người ở Seoul đi ngủ, nghĩ rằng cung điện nhà vua chắc chắn đã an toàn.",
+        "Nhưng Yêu Lửa, thấy con rồng đã đi và cơ hội đã đến, trèo ra khỏi núi lửa và bước ra cho",
+        "một bữa ăn nữa.",
+        "Lần này, Gió Nam bận việc nơi khác nên không đi cùng được.",
+        "Vậy nên ông đi một mình, nhưng khi đến cái ao, ông ngã xuống và bị ướt nặng đến nỗi ông",
+        "lạnh run và gần như tắt lửa khi đến cung điện, nơi mới chỉ cháy một nửa.",
+        "Thế là ông về nhà, gầm gừ và đói meo."
+      ],
+      "image": {
+        "prompt": "a huge artificial pond being filled with river water by hundreds of diggers with shovels and spades in front of a rebuilt palace, a fire imp tumbling into the pond in the dark and sizzling in a cloud of steam, evening light, folk painting style",
+        "seed": 1325626458,
+        "character": "than-lua"
+      },
+      "video": {
+        "motionPrompt": "river water gushes into the great pond, then the little fire imp splashes in with a hiss and a cloud of steam rises",
+        "seed": 3255531951
+      },
+      "voice": {}
+    },
+    {
+      "id": "thu-da-an-lua",
+      "title": "Con thú đá ăn lửa",
+      "narrator": "ke-chuyen",
+      "narration": "Các nhà thông thái lại được triệu tập, và việc đầu tiên họ làm là cảm ơn người thợ đào giếng đầu đàn, người đã làm cái ao. Nhà vua cho gọi ông đến trước mặt để phong chức cho ông và con cái ông. Ông được tặng bốn súc lụa, bốn mươi cân nhân sâm trắng, một chiếc áo choàng da hổ, sáu mươi hạt dẻ khô và bốn mươi bốn xâu tiền đồng. Mang đầy của cải và vinh dự kiểu Triều Tiên như thế, người ấy quỳ xuống bằng tay và đầu gối và hết lời cảm tạ bệ hạ. Rồi họ gọi thợ đá lớn, tức là người đứng đầu hội thợ, và hỏi ông có thể đục ra hình một con thú ăn được lửa và đủ xấu xí để dọa Yêu Lửa chạy đi không. Người thợ cả từ lâu đã hy vọng được mời dựng tác phẩm điêu khắc này, nhưng cho đến nay nhà vua và triều đình sợ nó tốn kém quá. Thế là lệnh được ban ra, và từ sâu trong lòng các ngọn núi, một khối đá hoa cương trắng khổng lồ được tách ra và chở đến Seoul trên các con lăn, được hàng ngàn người lao động đẩy, kéo và nâng lên. Rồi, che sau tấm vải bạt để giữ bí mật, kẻo Yêu Lửa biết, các thợ làm việc. Búa và đục kêu leng keng, cho đến một ngày nọ, Con Thú Đá Ăn Lửa Vĩ Đại đã sẵn sàng đặt ngôi vị vĩnh viễn trước cổng cung điện, làm người bảo vệ cho các tòa nhà và kho báu hoàng gia. Yêu Lửa cười khi Gió Nam kể cho ông nghe những gì người Triều Tiên ở kinh đô đang làm, dù bà cảnh báo ông về nguy cơ bị ăn mất. Ông nói: “Dù sao ta cũng sẽ đi ra xem tận mắt.”",
+      "subtitles": [
+        "Các nhà thông thái lại được triệu tập, và việc đầu tiên họ làm là cảm ơn người thợ đào",
+        "giếng đầu đàn, người đã làm cái ao.",
+        "Nhà vua cho gọi ông đến trước mặt để phong chức cho ông và con cái ông.",
+        "Ông được tặng bốn súc lụa, bốn mươi cân nhân sâm trắng, một chiếc áo choàng da hổ, sáu",
+        "mươi hạt dẻ khô và bốn mươi bốn xâu tiền đồng.",
+        "Mang đầy của cải và vinh dự kiểu Triều Tiên như thế, người ấy quỳ xuống bằng tay và đầu",
+        "gối và hết lời cảm tạ bệ hạ.",
+        "Rồi họ gọi thợ đá lớn, tức là người đứng đầu hội thợ, và hỏi ông có thể đục ra hình một",
+        "con thú ăn được lửa và đủ xấu xí để dọa Yêu Lửa chạy đi không.",
+        "Người thợ cả từ lâu đã hy vọng được mời dựng tác phẩm điêu khắc này, nhưng cho đến nay nhà",
+        "vua và triều đình sợ nó tốn kém quá.",
+        "Thế là lệnh được ban ra, và từ sâu trong lòng các ngọn núi, một khối đá hoa cương trắng",
+        "khổng lồ được tách ra và chở đến Seoul trên các con lăn, được hàng ngàn người lao động",
+        "đẩy, kéo và nâng lên.",
+        "Rồi, che sau tấm vải bạt để giữ bí mật, kẻo Yêu Lửa biết, các thợ làm việc.",
+        "Búa và đục kêu leng keng, cho đến một ngày nọ, Con Thú Đá Ăn Lửa Vĩ Đại đã sẵn sàng đặt",
+        "ngôi vị vĩnh viễn trước cổng cung điện, làm người bảo vệ cho các tòa nhà và kho báu hoàng",
+        "gia.",
+        "Yêu Lửa cười khi Gió Nam kể cho ông nghe những gì người Triều Tiên ở kinh đô đang làm, dù",
+        "bà cảnh báo ông về nguy cơ bị ăn mất.",
+        "Ông nói: “Dù sao ta cũng sẽ đi ra xem tận mắt.”"
+      ],
+      "image": {
+        "prompt": "a great white granite beast with fireproof scales, curly mane like asbestos and a mouth full of big fangs sitting on a high pedestal before a palace gate, a small fire imp staring up at it in fright with wide eyes, moonlit night, folk painting style",
+        "seed": 2006448883,
         "character": "thu-da"
       },
       "video": {
-        "motionPrompt": "hammers tap and stone chips fly, the canvas flaps in the breeze revealing the grinning stone beast",
-        "seed": 1025965228
+        "motionPrompt": "the stone beast turns its head and licks its chops as the small fire imp backs away trembling",
+        "seed": 4204787462
       },
       "voice": {}
     },
     {
-      "id": "mot-cai-nhin",
-      "title": "Chỉ một cái nhìn",
+      "id": "yeu-lua-bo-chay",
+      "title": "Yêu Lửa bỏ chạy",
       "narrator": "ke-chuyen",
-      "narration": "Gió Nam mách thần Lửa chuyện con thú đá. Thần cười khẩy: “Để ta tự đi xem!” Một đêm, thần rón rén ra khỏi núi, suýt chìm dưới ao, vẫn cố bò tới cổng cung. Con thú đá quay đầu lại, liếm mép như sắp đớp một con ruồi. Vảy cứng, bờm xoăn, miệng đầy răng to. “Ối, nửa cá sấu nửa rùa thế kia! Thôi, về nhà, hôm nay nhịn đói!” thần Lửa kêu lên rồi chạy biến. Từ đó, cung điện không bao giờ bị cháy nữa, và con thú đá vẫn ngồi canh cho tới tận hôm nay.",
+      "narration": "Một đêm, ông lặng lẽ bò ra và tiến về phía thành phố. Ông gần như chìm trong cái ao, nhưng lấy hết can đảm, ông tiếp tục cho đến khi tới gần nơi ở của nhà vua. Nghe thấy Yêu Lửa đến, Con Thú Đá Ăn Lửa Vĩ Đại quay đầu lại và liếm mép, mong được nuốt trọn Yêu Lửa như con cóc nuốt con ruồi. Nhưng chỉ cần một cái nhìn vào con quái vật bằng đá xấu xí ấy là đủ cho Yêu Lửa. Ở đó, trước mặt ông, trên một cái bệ cao, là một thứ chưa từng thấy trên trời hay dưới đất. Nó có những cái vảy khổng lồ chống lửa như con kỳ nhông, có mớ tóc xoăn như sợi amiăng, và miệng đầy những cái nanh lớn. Nó xấu xí đến mức đủ làm cả một Thần Núi Lửa ớn lạnh. Yêu Lửa tự nhủ khi nhìn những cái hàm và nanh ấy: “Hãy nghĩ đến cảnh những cái hàm kia nghiến vào ta. Ta tin con vật ấy nửa cá sấu nửa rùa nước. Tốt hơn ta nên về nhà. Lần này không có bữa tối nào hết!” Thế là chỉ bằng cái nhìn lạnh lẽo, Con Thú Đá Ăn Lửa Vĩ Đại đã dọa Yêu Lửa bỏ chạy, đến nỗi ông không bao giờ trở lại nữa, và cung điện nhà vua không bị cháy lần nào nữa. Đến nay con thú xấu xí ấy vẫn canh gác. Bạn chỉ cần nhìn nó là thích câu chuyện này.",
       "subtitles": [
-        "Gió Nam mách thần Lửa chuyện con thú đá. Thần cười khẩy: “Để ta tự đi xem!”",
-        "Một đêm, thần rón rén ra khỏi núi, suýt chìm dưới ao, vẫn cố bò tới cổng cung.",
-        "Con thú đá quay đầu lại, liếm mép như sắp đớp một con ruồi.",
-        "Vảy cứng, bờm xoăn, miệng đầy răng to. “Ối, nửa cá sấu nửa rùa thế kia!",
-        "Thôi, về nhà, hôm nay nhịn đói!” thần Lửa kêu lên rồi chạy biến.",
-        "Từ đó, cung điện không bao giờ bị cháy nữa,",
-        "và con thú đá vẫn ngồi canh cho tới tận hôm nay."
+        "Một đêm, ông lặng lẽ bò ra và tiến về phía thành phố.",
+        "Ông gần như chìm trong cái ao, nhưng lấy hết can đảm, ông tiếp tục cho đến khi tới gần nơi",
+        "ở của nhà vua.",
+        "Nghe thấy Yêu Lửa đến, Con Thú Đá Ăn Lửa Vĩ Đại quay đầu lại và liếm mép, mong được nuốt",
+        "trọn Yêu Lửa như con cóc nuốt con ruồi.",
+        "Nhưng chỉ cần một cái nhìn vào con quái vật bằng đá xấu xí ấy là đủ cho Yêu Lửa.",
+        "Ở đó, trước mặt ông, trên một cái bệ cao, là một thứ chưa từng thấy trên trời hay dưới",
+        "đất.",
+        "Nó có những cái vảy khổng lồ chống lửa như con kỳ nhông, có mớ tóc xoăn như sợi amiăng, và",
+        "miệng đầy những cái nanh lớn.",
+        "Nó xấu xí đến mức đủ làm cả một Thần Núi Lửa ớn lạnh.",
+        "Yêu Lửa tự nhủ khi nhìn những cái hàm và nanh ấy: “Hãy nghĩ đến cảnh những cái hàm kia",
+        "nghiến vào ta.",
+        "Ta tin con vật ấy nửa cá sấu nửa rùa nước.",
+        "Tốt hơn ta nên về nhà.",
+        "Lần này không có bữa tối nào hết!”",
+        "Thế là chỉ bằng cái nhìn lạnh lẽo, Con Thú Đá Ăn Lửa Vĩ Đại đã dọa Yêu Lửa bỏ chạy, đến",
+        "nỗi ông không bao giờ trở lại nữa, và cung điện nhà vua không bị cháy lần nào nữa.",
+        "Đến nay con thú xấu xí ấy vẫn canh gác.",
+        "Bạn chỉ cần nhìn nó là thích câu chuyện này."
       ],
       "image": {
-        "prompt": "a grinning white granite haetae guardian beast on a tall pedestal in front of a Korean palace gate at night, a small frightened flame spirit backing away with wide eyes, comical not scary",
-        "seed": 3267682145,
-        "character": "thu-da"
+        "prompt": "a hideous stone beast with fireproof scales, curly mane and big fangs guarding a palace gate on a high pedestal, a tiny frightened fire imp running away down a road with his flames shrinking, a safe silver palace behind, early morning light",
+        "seed": 1685120334,
+        "character": "than-lua"
       },
       "video": {
-        "motionPrompt": "the stone beast turns its head and licks its lips, the little flame spirit jumps in fright and scurries away into the dark",
-        "seed": 2974152367
+        "motionPrompt": "the fire imp turns and scurries away down the road while the stone beast keeps its fierce stare",
+        "seed": 3917015227
       },
       "voice": {}
     }
