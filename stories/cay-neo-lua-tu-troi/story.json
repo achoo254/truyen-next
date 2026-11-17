@@ -8,8 +8,9 @@
     "than-thoai"
   ],
   "added": "2026-11-03",
+  "revised": "2026-11-17",
   "language": "vi",
-  "source": "Truyện cổ Grimm, truyện số 112 «Der Dreschflegel vom Himmel» trong Kinder- und Hausmärchen (bản 1857), theo bản dịch tiếng Anh «The Flail from Heaven» của Margaret Hunt (1884), Project Gutenberg #5314, thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới, theo sát cốt truyện khoác lác vui của bản gốc.",
+  "source": "Truyện cổ Grimm, truyện số 112 «Der Dreschflegel vom Himmel» trong Kinder- und Hausmärchen (bản 1857), theo bản dịch tiếng Anh «The Flail from Heaven» của Margaret Hunt (1884), Project Gutenberg #5314, thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới, kể đủ cốt truyện khoác lác vui của bản gốc.",
   "basedOn": "Truyện cổ Grimm (1857)",
   "style": "classic storybook illustration of old German countryside, ploughed fields, a wooden gate, a turnip field and fluffy clouds above, earthy brown, fresh green and sky blue palette, whimsical humorous tall tale mood for family reading, no text, no letters, no watermark",
   "narrators": {
@@ -34,147 +35,109 @@
   ],
   "scenes": [
     {
-      "id": "sung-bo-moc-dai",
-      "title": "Sừng bò mọc dài",
+      "id": "doi-bo-moc-sung",
+      "title": "Đôi bò mọc sừng",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, ở một làng quê nước Đức, có một bác nông dân dắt đôi bò ra đồng cày ruộng. Vừa tới ruộng, bỗng sừng của cả hai con bò bắt đầu mọc dài ra. Sừng cứ mọc, mọc mãi, không chịu dừng. Đến chiều, lúc bác muốn dắt bò về nhà, thì sừng đã to dài đến mức đôi bò chẳng sao lọt qua được cái cổng ruộng nữa. Bác nông dân gãi đầu, chẳng biết tính sao.",
+      "narration": "Ngày xưa có một bác nông dân nọ dắt đôi bò của mình ra đồng cày ruộng. Vừa tới thửa ruộng, bỗng đâu sừng của cả hai con bò cứ thế mọc ra, mọc mãi không thôi. Đến lúc bác muốn dắt chúng về nhà thì sừng đã dài đến nỗi hai con bò không sao lách qua nổi cái cổng. May làm sao, đúng lúc ấy có một ông hàng thịt đi ngang qua. Bác bèn giao đôi bò cho ông ta, và hai bên giao kèo với nhau như thế này: bác sẽ mang đến cho ông hàng thịt một đấu hạt củ cải, còn ông hàng thịt thì đếm trả cho bác mỗi hạt một đồng thaler xứ Brabant. Thế mới gọi là bán được giá chứ, người kể xin nói thật như vậy!",
       "subtitles": [
-        "Ngày xưa, ở một làng quê nước Đức, có một bác nông dân dắt đôi bò ra đồng cày ruộng.",
-        "Vừa tới ruộng, bỗng sừng của cả hai con bò bắt đầu mọc dài ra.",
-        "Sừng cứ mọc, mọc mãi, không chịu dừng. Đến chiều, lúc bác muốn dắt bò về nhà,",
-        "thì sừng đã to dài đến mức đôi bò chẳng sao lọt qua được cái cổng ruộng nữa.",
-        "Bác nông dân gãi đầu, chẳng biết tính sao."
+        "Ngày xưa có một bác nông dân nọ dắt đôi bò của mình ra đồng cày ruộng.",
+        "Vừa tới thửa ruộng, bỗng đâu sừng của cả hai con bò cứ thế mọc ra, mọc mãi không thôi.",
+        "Đến lúc bác muốn dắt chúng về nhà thì sừng đã dài đến nỗi hai con bò không sao lách qua",
+        "nổi cái cổng.",
+        "May làm sao, đúng lúc ấy có một ông hàng thịt đi ngang qua.",
+        "Bác bèn giao đôi bò cho ông ta, và hai bên giao kèo với nhau như thế này:",
+        "bác sẽ mang đến cho ông hàng thịt một đấu hạt củ cải,",
+        "còn ông hàng thịt thì đếm trả cho bác mỗi hạt một đồng thaler xứ Brabant.",
+        "Thế mới gọi là bán được giá chứ, người kể xin nói thật như vậy!"
       ],
       "image": {
-        "prompt": "a puzzled German peasant in a felt hat standing at a wooden field gate with a pair of brown oxen whose enormous long curving horns cannot fit through the gate",
-        "seed": 3088711780,
+        "prompt": "a cheerful old farmer ploughing a field with a pair of oxen, one ox with large horns, a village in the background, German folk-tale illustration",
+        "seed": 1058428778,
+        "character": "bac-nong-dan"
+      },
+      "video": {
+        "motionPrompt": "oxen plod forward, the farmer waves",
+        "seed": 2949735876
+      },
+      "voice": {}
+    },
+    {
+      "id": "hat-giong-roi-doc-duong",
+      "title": "Hạt giống rơi dọc đường",
+      "narrator": "ke-chuyen",
+      "narration": "Bác nông dân liền lên đường về nhà, vác đấu hạt củ cải trên lưng mang sang cho ông hàng thịt. Nhưng dọc đường, bác làm rơi mất một hạt trong cái túi. Ông hàng thịt trả tiền đàng hoàng đúng như đã thỏa thuận. Giá bác không đánh rơi hạt ấy thì đã được thêm một đồng thaler nữa. Trong lúc bác đi đường về, hạt giống rơi kia đã nảy mầm, lớn lên thành một cái cây cao vút, đâm thẳng lên tận trời xanh.",
+      "subtitles": [
+        "Bác nông dân liền lên đường về nhà,",
+        "vác đấu hạt củ cải trên lưng mang sang cho ông hàng thịt.",
+        "Nhưng dọc đường, bác làm rơi mất một hạt trong cái túi.",
+        "Ông hàng thịt trả tiền đàng hoàng đúng như đã thỏa thuận.",
+        "Giá bác không đánh rơi hạt ấy thì đã được thêm một đồng thaler nữa.",
+        "Trong lúc bác đi đường về, hạt giống rơi kia đã nảy mầm,",
+        "lớn lên thành một cái cây cao vút, đâm thẳng lên tận trời xanh."
+      ],
+      "image": {
+        "prompt": "a farmer sowing seed in a field, seeds falling along a dusty path, a few seeds sprouting tall stalks, a sunny village scene",
+        "seed": 3243402960,
+        "character": "bac-nong-dan"
+      },
+      "video": {
+        "motionPrompt": "seeds scatter, stalks sway in the wind",
+        "seed": 707671080
+      },
+      "voice": {}
+    },
+    {
+      "id": "treo-len-thien-duong",
+      "title": "Trèo lên thiên đường",
+      "narrator": "ke-chuyen",
+      "narration": "Bác nông dân nghĩ bụng rằng: “Đã có dịp thế này thì phải lên xem mấy vị thiên thần trên kia đang làm gì, một lần cho tận mắt thấy mới được.” Nghĩ vậy, bác trèo lên. Lên tới nơi, bác thấy các thiên thần ở trên ấy đang đập yến mạch, và bác đứng đó xem. Đang mải mê ngắm nhìn như thế, bác chợt nhận ra cái cây mình đứng bắt đầu lung lay. Bác ghé mắt nhìn xuống, thì thấy ở dưới gốc có một người đang sắp sửa chặt đổ nó xuống.",
+      "subtitles": [
+        "Bác nông dân nghĩ bụng rằng:",
+        "“Đã có dịp thế này thì phải lên xem mấy vị thiên thần trên kia đang làm gì,",
+        "một lần cho tận mắt thấy mới được.”",
+        "Nghĩ vậy, bác trèo lên.",
+        "Lên tới nơi, bác thấy các thiên thần ở trên ấy đang đập yến mạch, và bác đứng đó xem.",
+        "Đang mải mê ngắm nhìn như thế, bác chợt nhận ra cái cây mình đứng bắt đầu lung lay.",
+        "Bác ghé mắt nhìn xuống, thì thấy ở dưới gốc có một người đang sắp sửa chặt đổ nó xuống."
+      ],
+      "image": {
+        "prompt": "a farmer climbing a giant beanstalk-like stalk of corn up through the clouds toward a bright heavenly gate, whimsical folk-tale mood",
+        "seed": 4206166967,
+        "character": "bac-nong-dan"
+      },
+      "video": {
+        "motionPrompt": "clouds drift, the farmer climbs steadily",
+        "seed": 2454939375
+      },
+      "voice": {}
+    },
+    {
+      "id": "tut-xuong-bang-day-trau",
+      "title": "Tụt xuống bằng dây trấu",
+      "narrator": "ke-chuyen",
+      "narration": "“Nếu ta mà ngã từ đây xuống thì nguy to,” bác nghĩ thầm. Trong cơn túng quẫn, bác chẳng biết cách nào khá hơn là nhặt trấu yến mạch chất thành đống ở đó, xe lại thành một sợi dây. Bác lại vớ lấy một cái cuốc và một cái néo đập lúa vất lăn lóc trên trời, rồi bám vào sợi dây ấy mà tụt dần xuống phía mặt đất. Nhưng khi xuống tới mặt đất, bác lại rơi đúng vào giữa một cái hố sâu hoắm. Thật là may mắn vì bác đã mang theo cái cuốc, bởi bác dùng nó cuốc thành một dãy bậc thang rồi leo lên được. Bác còn mang theo cả cây néo đập lúa từ trên trời xuống, coi như một tín vật làm bằng chứng cho lời mình kể là thật, để chẳng ai còn nghi ngờ câu chuyện của bác nữa.",
+      "subtitles": [
+        "“Nếu ta mà ngã từ đây xuống thì nguy to,” bác nghĩ thầm.",
+        "Trong cơn túng quẫn,",
+        "bác chẳng biết cách nào khá hơn là nhặt trấu yến mạch chất thành đống ở đó,",
+        "xe lại thành một sợi dây.",
+        "Bác lại vớ lấy một cái cuốc và một cái néo đập lúa vất lăn lóc trên trời,",
+        "rồi bám vào sợi dây ấy mà tụt dần xuống phía mặt đất.",
+        "Nhưng khi xuống tới mặt đất, bác lại rơi đúng vào giữa một cái hố sâu hoắm.",
+        "Thật là may mắn vì bác đã mang theo cái cuốc,",
+        "bởi bác dùng nó cuốc thành một dãy bậc thang rồi leo lên được.",
+        "Bác còn mang theo cả cây néo đập lúa từ trên trời xuống,",
+        "coi như một tín vật làm bằng chứng cho lời mình kể là thật,",
+        "để chẳng ai còn nghi ngờ câu chuyện của bác nữa."
+      ],
+      "image": {
+        "prompt": "a farmer sliding down a long rope of chaff from the clouds toward a field, a surprised ox watching from below, comic folk-tale mood",
+        "seed": 1061085469,
         "character": "doi-bo"
       },
       "video": {
-        "motionPrompt": "the horns stretch a little longer, the peasant scratches his head, clouds drift over the field, slow push in",
-        "seed": 1525726184
-      },
-      "voice": {}
-    },
-    {
-      "id": "mot-cuoc-mua-ban",
-      "title": "Một cuộc mua bán",
-      "narrator": "ke-chuyen",
-      "narration": "Vừa may có một bác lái bò đi ngang qua. Bác ta ngắm đôi bò sừng dài rồi xin mua. Hai bên giao kèo với nhau thế này. Bác nông dân sẽ mang tới một đấu hạt giống củ cải, và cứ mỗi hạt, bác lái bò sẽ đếm trả một đồng bạc. Bán được giá như thế, còn gì hời hơn! Bác nông dân về nhà, đong một đấu hạt củ cải đầy, vác lên lưng mang đi. Nhưng dọc đường, có một hạt lọt ra khỏi bao, rơi xuống đất mà bác chẳng hề hay biết.",
-      "subtitles": [
-        "Vừa may có một bác lái bò đi ngang qua. Bác ta ngắm đôi bò sừng dài rồi xin mua.",
-        "Hai bên giao kèo với nhau thế này.",
-        "Bác nông dân sẽ mang tới một đấu hạt giống củ cải, và cứ mỗi hạt,",
-        "bác lái bò sẽ đếm trả một đồng bạc. Bán được giá như thế, còn gì hời hơn!",
-        "Bác nông dân về nhà, đong một đấu hạt củ cải đầy, vác lên lưng mang đi.",
-        "Nhưng dọc đường, có một hạt lọt ra khỏi bao, rơi xuống đất mà bác chẳng hề hay biết."
-      ],
-      "image": {
-        "prompt": "the cheerful peasant walking along a country road carrying a heavy sack of seeds on his back, a single tiny seed falling unnoticed from a small hole in the sack",
-        "seed": 2147809813,
-        "character": "bac-nong-dan"
-      },
-      "video": {
-        "motionPrompt": "the peasant walks with a happy bounce, a tiny seed drops and bounces on the road, slow pan following him",
-        "seed": 2163368378
-      },
-      "voice": {}
-    },
-    {
-      "id": "dem-hat-lay-tien",
-      "title": "Đếm hạt lấy tiền",
-      "narrator": "ke-chuyen",
-      "narration": "Bác lái bò giữ đúng lời hứa, đếm từng hạt một, mỗi hạt trả một đồng bạc sòng phẳng. Túi bác nông dân nặng trĩu tiền. Giá như không đánh rơi hạt giống dọc đường, thì bác còn được thêm một đồng bạc nữa. Thế nhưng, chính hạt giống rơi ấy mới làm nên chuyện lạ. Trên đường bác quay về, hạt củ cải đã nảy mầm và lớn vùn vụt thành một cái cây cao vút, ngọn cây chạm tới tận trời.",
-      "subtitles": [
-        "Bác lái bò giữ đúng lời hứa, đếm từng hạt một, mỗi hạt trả một đồng bạc sòng phẳng.",
-        "Túi bác nông dân nặng trĩu tiền.",
-        "Giá như không đánh rơi hạt giống dọc đường, thì bác còn được thêm một đồng bạc nữa.",
-        "Thế nhưng, chính hạt giống rơi ấy mới làm nên chuyện lạ.",
-        "Trên đường bác quay về, hạt củ cải đã nảy mầm và lớn vùn vụt thành một cái cây cao vút,",
-        "ngọn cây chạm tới tận trời."
-      ],
-      "image": {
-        "prompt": "a gigantic magical turnip plant growing into a towering tree beside a country road, its top disappearing into fluffy white clouds, the tiny amazed peasant at its foot",
-        "seed": 1994125187,
-        "character": "bac-nong-dan"
-      },
-      "video": {
-        "motionPrompt": "the giant plant grows upward into the clouds, leaves unfurl, the peasant tilts his head back in wonder, slow crane up",
-        "seed": 2125103105
-      },
-      "voice": {}
-    },
-    {
-      "id": "trong-thay-thien-than",
-      "title": "Trông thấy thiên thần",
-      "narrator": "ke-chuyen",
-      "narration": "Bác nông dân ngước nhìn, nghĩ bụng. Đã có dịp may thế này, phải trèo lên xem các thiên thần trên ấy làm gì, cho tận mắt một phen. Thế là bác bám lấy cây mà trèo, trèo mãi, qua cả những đám mây. Lên tới nơi, bác thấy các thiên thần đang đập lúa yến mạch, trấu bay vàng cả một vùng. Bác đứng ngẩn ra mà xem, quên cả đường về.",
-      "subtitles": [
-        "Bác nông dân ngước nhìn, nghĩ bụng.",
-        "Đã có dịp may thế này, phải trèo lên xem các thiên thần trên ấy làm gì,",
-        "cho tận mắt một phen. Thế là bác bám lấy cây mà trèo, trèo mãi, qua cả những đám mây.",
-        "Lên tới nơi, bác thấy các thiên thần đang đập lúa yến mạch, trấu bay vàng cả một vùng.",
-        "Bác đứng ngẩn ra mà xem, quên cả đường về."
-      ],
-      "image": {
-        "prompt": "gentle angels with soft white wings threshing golden oats with wooden flails on a floor of clouds, the astonished peasant peeking over the top of the giant plant",
-        "seed": 1702604178,
-        "character": "bac-nong-dan"
-      },
-      "video": {
-        "motionPrompt": "the angels swing their flails in rhythm, golden chaff floats in the air, the peasant watches wide eyed, slow pan",
-        "seed": 1063989735
-      },
-      "voice": {}
-    },
-    {
-      "id": "day-trau",
-      "title": "Dây trấu",
-      "narrator": "ke-chuyen",
-      "narration": "Đang mải xem, bỗng bác thấy cái cây dưới chân mình lắc lư, nghiêng ngả. Bác nhìn xuống, thì ra có người đang ra sức đốn cái cây. Bác nghĩ. Nếu mình mà ngã từ trên này xuống thì nguy to. Trong lúc cấp bách, bác chẳng nghĩ ra cách nào hay hơn là vơ lấy đống trấu yến mạch chất đầy quanh đó, bện thành một sợi dây thật dài. Bác còn tiện tay cầm theo một cái cuốc và một chiếc néo đập lúa để ngổn ngang trên trời, rồi bám dây trấu mà tụt xuống.",
-      "subtitles": [
-        "Đang mải xem, bỗng bác thấy cái cây dưới chân mình lắc lư, nghiêng ngả.",
-        "Bác nhìn xuống, thì ra có người đang ra sức đốn cái cây.",
-        "Bác nghĩ. Nếu mình mà ngã từ trên này xuống thì nguy to.",
-        "Trong lúc cấp bách,",
-        "bác chẳng nghĩ ra cách nào hay hơn là vơ lấy đống trấu yến mạch chất đầy quanh đó,",
-        "bện thành một sợi dây thật dài.",
-        "Bác còn tiện tay cầm theo một cái cuốc và một chiếc néo đập lúa để ngổn ngang trên trời,",
-        "rồi bám dây trấu mà tụt xuống."
-      ],
-      "image": {
-        "prompt": "the peasant hurriedly twisting a long rope from golden oat chaff on a cloud, a hoe and a wooden flail tucked under his arm, the giant plant swaying below",
-        "seed": 2738389175,
-        "character": "bac-nong-dan"
-      },
-      "video": {
-        "motionPrompt": "the peasant twists the golden rope quickly, the plant sways, chaff swirls around him, slow push in",
-        "seed": 3959154889
-      },
-      "voice": {}
-    },
-    {
-      "id": "ve-tu-cai-ho",
-      "title": "Về từ cái hố",
-      "narrator": "ke-chuyen",
-      "narration": "Tụt mãi, tụt mãi, bác rơi đúng vào một cái hố sâu thăm thẳm dưới mặt đất. May thay bác có mang theo cái cuốc. Bác cầm cuốc đẽo vào vách hố từng bậc thang một, rồi cứ thế leo lên, ra tới bãi cỏ xanh. Về tới làng, bác kể chuyện cái cây cao tới trời và các thiên thần đập lúa. Ai nghe cũng cười, bảo bác nói khoác. Bác chẳng cãi, chỉ giơ chiếc néo lúa từ trời ra cho mọi người xem. Thế là chẳng ai còn nghi ngờ câu chuyện của bác được nữa.",
-      "subtitles": [
-        "Tụt mãi, tụt mãi, bác rơi đúng vào một cái hố sâu thăm thẳm dưới mặt đất.",
-        "May thay bác có mang theo cái cuốc.",
-        "Bác cầm cuốc đẽo vào vách hố từng bậc thang một, rồi cứ thế leo lên, ra tới bãi cỏ xanh.",
-        "Về tới làng, bác kể chuyện cái cây cao tới trời và các thiên thần đập lúa.",
-        "Ai nghe cũng cười, bảo bác nói khoác.",
-        "Bác chẳng cãi, chỉ giơ chiếc néo lúa từ trời ra cho mọi người xem.",
-        "Thế là chẳng ai còn nghi ngờ câu chuyện của bác được nữa."
-      ],
-      "image": {
-        "prompt": "the cheerful peasant in the village square proudly holding up a shining wooden flail from heaven, curious villagers gathered around with amazed faces",
-        "seed": 2840515862,
-        "character": "bac-nong-dan"
-      },
-      "video": {
-        "motionPrompt": "the peasant raises the flail high, villagers lean in with wide eyes, a soft golden glow, slow pull back",
-        "seed": 602599675
+        "motionPrompt": "the rope sways, the farmer slides down",
+        "seed": 3975271692
       },
       "voice": {}
     }
