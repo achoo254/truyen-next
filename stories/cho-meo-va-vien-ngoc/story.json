@@ -9,6 +9,7 @@
     "than-thoai"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-18",
   "language": "vi",
   "source": "Truyện cổ tích dân gian Việt Nam, truyền miệng, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
   "basedOn": "Truyện cổ tích dân gian Việt Nam",
@@ -52,186 +53,465 @@
   ],
   "scenes": [
     {
-      "id": "mo-dau",
+      "id": "miu-chao",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn có để ý không, nhiều nhà nuôi cả chó lẫn mèo, mà hai bạn ấy cứ hay gầm gừ với nhau. Vì sao thế nhỉ? Ngày xưa, chó và mèo từng là đôi bạn thân, cùng nhau đi tìm một viên ngọc quý đấy. Mình cùng nghe nhé!",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn có để ý không, nhiều nhà nuôi cả chó lẫn mèo, mà hai bạn ấy cứ hay gầm gừ với nhau. Vì sao thế nhỉ? Ngày xưa, chó và mèo từng là đôi bạn thân, cùng nhau đi một chặng đường rất xa để tìm lại một viên ngọc quý cho người chủ tốt bụng. Câu chuyện hơi dài, các bạn ngồi cho thoải mái rồi mình cùng nghe nhé!",
       "subtitles": [
-        "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn có để ý không, nhiều nhà nuôi cả chó lẫn mèo,",
-        "mà hai bạn ấy cứ hay gầm gừ với nhau. Vì sao thế nhỉ?",
-        "Ngày xưa, chó và mèo từng là đôi bạn thân, cùng nhau đi tìm một viên ngọc quý đấy.",
-        "Mình cùng nghe nhé!"
+        "Xin chào các bạn nhỏ!",
+        "Mèo Miu đây.",
+        "Các bạn có để ý không, nhiều nhà nuôi cả chó lẫn mèo,",
+        "mà hai bạn ấy cứ hay gầm gừ với nhau.",
+        "Vì sao thế nhỉ?",
+        "Ngày xưa, chó và mèo từng là đôi bạn thân,",
+        "cùng nhau đi một chặng đường rất xa để tìm lại một viên ngọc quý cho người chủ tốt bụng.",
+        "Câu chuyện hơi dài, các bạn ngồi cho thoải mái rồi mình cùng nghe nhé!"
       ],
       "image": {
         "prompt": "Meo Miu the voxel white cat sits on a wooden porch of a riverside village house holding a small glowing pearl, a yellow dog and a tabby cat sit on either side of her looking away from each other with grumpy faces",
-        "seed": 229796910,
+        "seed": 3205062630,
         "character": "miu"
       },
       "video": {
         "motionPrompt": "the cat holds up the glowing pearl and looks left and right, the dog and the tabby turn their heads away with a huff, river water glitters, gentle camera push-in",
+        "seed": 1530589563
+      },
+      "voice": {}
+    },
+    {
+      "id": "chang-thuy-thu",
+      "title": "Chàng thủy thủ nghèo",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, có hai mẹ con nhà kia nghèo rớt mùng tơi. Người con trai lớn lên khỏe mạnh, lại biết bơi lội giỏi, nhưng đi khắp nơi xin việc mà chẳng ai chịu thuê. Mãi sau, có một ông chủ thuyền buôn trông thấy chàng, liền nhận chàng làm thủy thủ. Ông hứa mỗi ngày cho chàng ăn ba bữa cơm, lại trả trước bốn mươi quan tiền. Chàng mừng rỡ, nghĩ rằng chẳng còn niềm vui nào lớn hơn thế. Chàng vội đem ba mươi quan về đưa cho mẹ tiêu dùng, còn mười quan thì giữ lại bên mình, định bụng để dành may vài bộ áo mới. Con thuyền nhổ neo, ra khơi, đi suốt năm ngày thì cập vào một bến lớn của một thị trấn đông đúc. Trên bến, người mua kẻ bán chen chúc nhau vui như ngày hội. Các bạn thủy thủ bảo chàng: Ở đây thứ gì cũng buôn được cả. Anh cứ mua một ít mang về quê bán, thế nào cũng có lãi. Nhưng chàng xưa nay chưa từng buôn bán, cầm mười quan tiền trong tay mà chẳng biết nên mua thứ gì.",
+      "subtitles": [
+        "Ngày xưa, có hai mẹ con nhà kia nghèo rớt mùng tơi.",
+        "Người con trai lớn lên khỏe mạnh, lại biết bơi lội giỏi,",
+        "nhưng đi khắp nơi xin việc mà chẳng ai chịu thuê.",
+        "Mãi sau, có một ông chủ thuyền buôn trông thấy chàng, liền nhận chàng làm thủy thủ.",
+        "Ông hứa mỗi ngày cho chàng ăn ba bữa cơm, lại trả trước bốn mươi quan tiền.",
+        "Chàng mừng rỡ, nghĩ rằng chẳng còn niềm vui nào lớn hơn thế.",
+        "Chàng vội đem ba mươi quan về đưa cho mẹ tiêu dùng, còn mười quan thì giữ lại bên mình,",
+        "định bụng để dành may vài bộ áo mới.",
+        "Con thuyền nhổ neo, ra khơi, đi suốt năm ngày thì cập vào một bến lớn của một thị trấn",
+        "đông đúc.",
+        "Trên bến, người mua kẻ bán chen chúc nhau vui như ngày hội.",
+        "Các bạn thủy thủ bảo chàng: Ở đây thứ gì cũng buôn được cả.",
+        "Anh cứ mua một ít mang về quê bán, thế nào cũng có lãi.",
+        "Nhưng chàng xưa nay chưa từng buôn bán,",
+        "cầm mười quan tiền trong tay mà chẳng biết nên mua thứ gì."
+      ],
+      "image": {
+        "prompt": "a poor strong young Vietnamese sailor stands on a busy harbour quay of an old trading town holding a small string of coins, a merchant junk moored behind him, crowds of sellers and buyers around",
+        "seed": 1966311501,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the harbour bustles, sellers wave goods, the young man looks around curiously with the coins in his hand, flags flutter on the junk",
+        "seed": 4266070555
+      },
+      "voice": {}
+    },
+    {
+      "id": "mua-cho",
+      "title": "Mười quan tiền cứu chú chó",
+      "narrator": "ke-chuyen",
+      "narration": "Đang lúc phân vân, chàng bỗng thấy một người đàn ông dắt ra bến một con chó bị trói chân trói tay, định ném xuống sông. Chàng thương quá, vội chạy lại ngăn người ấy lại và hỏi duyên cớ. Người kia kể rằng con chó này là của chủ mình. Hôm nay chủ đi chợ mua thịt về làm tiệc, chẳng biết cắt đặt thế nào mà chó ăn vụng hết cả. Chủ giận lắm, đánh cho nó một trận nhừ tử, rồi sai đem ra sông thả trôi. Nghe xong, chàng xin mua lại con chó. Người kia bật cười: Nó chỉ giỏi mỗi việc ăn vụng, anh mua về làm gì? Chàng đáp: Thôi kệ, anh cứ bán cho tôi đi! Cuối cùng chàng bỏ ra ba quan, mua lấy con chó, cởi trói cho nó, rồi dắt về buộc bên chỗ mình làm việc. Con chó vẫy đuôi rối rít, nhìn chàng bằng đôi mắt biết ơn.",
+      "subtitles": [
+        "Đang lúc phân vân, chàng bỗng thấy một người đàn ông dắt ra bến một con chó bị trói chân",
+        "trói tay, định ném xuống sông.",
+        "Chàng thương quá, vội chạy lại ngăn người ấy lại và hỏi duyên cớ.",
+        "Người kia kể rằng con chó này là của chủ mình.",
+        "Hôm nay chủ đi chợ mua thịt về làm tiệc, chẳng biết cắt đặt thế nào mà chó ăn vụng hết cả.",
+        "Chủ giận lắm, đánh cho nó một trận nhừ tử, rồi sai đem ra sông thả trôi.",
+        "Nghe xong, chàng xin mua lại con chó.",
+        "Người kia bật cười: Nó chỉ giỏi mỗi việc ăn vụng, anh mua về làm gì?",
+        "Chàng đáp: Thôi kệ, anh cứ bán cho tôi đi!",
+        "Cuối cùng chàng bỏ ra ba quan, mua lấy con chó, cởi trói cho nó,",
+        "rồi dắt về buộc bên chỗ mình làm việc.",
+        "Con chó vẫy đuôi rối rít, nhìn chàng bằng đôi mắt biết ơn."
+      ],
+      "image": {
+        "prompt": "on a harbour quay, the young sailor unties a trembling yellow dog from ropes while a man in a brown tunic watches with a surprised laugh, a basket of market meat in the background",
+        "seed": 229796910,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the young man loosens the ropes, the yellow dog wags its tail and licks his hand, the man shakes his head and laughs",
         "seed": 3626624836
       },
       "voice": {}
     },
     {
-      "id": "cuu-ran",
-      "title": "Chàng trai cứu rắn",
+      "id": "mua-meo",
+      "title": "Chú mèo cũng được cứu",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, có một chàng trai nghèo nhưng rất tốt bụng. Nhà chàng chỉ có một con chó vàng và một con mèo mướp. Một hôm, chàng thấy mấy đứa trẻ chăn trâu đang trêu chọc một con rắn nhỏ bên bờ sông. Chàng thương con rắn, liền đổi cả gói cơm của mình để xin thả nó. Rắn nhỏ trườn xuống nước, ngoái lại nhìn chàng như cảm ơn.",
+      "narration": "Một lúc sau, chàng lại thấy một người đàn bà bế con mèo đi tới, cũng định ném xuống sông. Chàng vội chạy lại hỏi chuyện. Hóa ra con mèo cũng mắc đúng cái tội ăn vụng. Chàng nài nỉ xin được mua. Người đàn bà khuyên rằng: Anh đừng mua làm gì, mèo này xấu nết lắm! Nhưng chàng không nghe, vẫn nói: Thôi kệ! Chị cứ bán cho tôi đi! Thế là con mèo cũng thoát nạn. Chàng bỏ ra ba quan nữa, đem mèo về buộc gần bên con chó. Từ giây phút ấy, chó và mèo trở thành đôi bạn đồng hành của chàng.",
       "subtitles": [
-        "Ngày xưa, có một chàng trai nghèo nhưng rất tốt bụng.",
-        "Nhà chàng chỉ có một con chó vàng và một con mèo mướp.",
-        "Một hôm, chàng thấy mấy đứa trẻ chăn trâu đang trêu chọc một con rắn nhỏ bên bờ sông.",
-        "Chàng thương con rắn, liền đổi cả gói cơm của mình để xin thả nó.",
-        "Rắn nhỏ trườn xuống nước, ngoái lại nhìn chàng như cảm ơn."
+        "Một lúc sau, chàng lại thấy một người đàn bà bế con mèo đi tới, cũng định ném xuống sông.",
+        "Chàng vội chạy lại hỏi chuyện.",
+        "Hóa ra con mèo cũng mắc đúng cái tội ăn vụng.",
+        "Chàng nài nỉ xin được mua.",
+        "Người đàn bà khuyên rằng: Anh đừng mua làm gì, mèo này xấu nết lắm!",
+        "Nhưng chàng không nghe, vẫn nói: Thôi kệ!",
+        "Chị cứ bán cho tôi đi!",
+        "Thế là con mèo cũng thoát nạn.",
+        "Chàng bỏ ra ba quan nữa, đem mèo về buộc gần bên con chó.",
+        "Từ giây phút ấy, chó và mèo trở thành đôi bạn đồng hành của chàng."
       ],
       "image": {
-        "prompt": "on a grassy riverbank, the kind young man kneels and gently lets a small green snake slide into the water, a few buffalo boys stand nearby holding his rice parcel, his yellow dog and tabby cat beside him",
+        "prompt": "on the quay, a woman in a brown headscarf hands a small grey tabby cat to the smiling young sailor, a yellow dog tied nearby watches eagerly",
         "seed": 64340678,
         "character": "chang-trai"
       },
       "video": {
-        "motionPrompt": "the little snake slides into the river and looks back once, the young man smiles and waves, the buffalo boys munch the rice, ripples spread",
+        "motionPrompt": "the woman passes over the tabby cat, the sailor cuddles it, the yellow dog wags its tail beside them",
         "seed": 438015880
       },
       "voice": {}
     },
     {
-      "id": "ngoc-uoc",
-      "title": "Viên ngọc ước",
+      "id": "cuu-ran",
+      "title": "Cứu con rắn nước",
       "narrator": "ke-chuyen",
-      "narration": "Hóa ra con rắn nhỏ là con trai của Long Vương dưới thủy cung. Long Vương mời chàng xuống chơi, rồi tặng chàng một viên ngọc ước. Viên ngọc tròn, sáng long lanh. Chàng ước có nhà, có nhà. Chàng ước có ruộng, có ruộng. Từ đó chàng sống sung túc, lại hay giúp đỡ người nghèo trong làng. Chó và mèo cũng được ăn no, ngủ ấm.",
+      "narration": "Ngồi một mình trên thuyền thấy buồn, chàng bèn lên bờ đi dạo dọc bờ sông. Bỗng chàng thấy ba đứa trẻ chăn trâu vừa bắt được một con rắn nước, đang cầm roi định đánh. Chàng vội chạy tới can: Các em đừng đánh nó, nó là rắn nước, có làm hại ai đâu? Bọn trẻ đáp: Mặc chúng tôi! Chúng tôi bắt được thì chúng tôi đánh, ông cản làm gì? Thấy chúng cứ khăng khăng không chịu thả, chàng lại lấy tiền ra để cứu con vật bé nhỏ. Bọn trẻ đòi năm quan. Chàng nói đi nói lại mãi mới bớt được một quan. Thế là số tiền mang theo đã vơi hết sạch. Mua được con rắn, chàng nhẹ nhàng thả nó xuống sông cho nó trở về chốn cũ. Khi nghe chàng kể lại chuyện mua bán của mình, các bạn thủy thủ cười ngất, bảo chàng là người khờ dại hiếm có. Chàng chỉ ngồi lặng yên, chẳng nói lại câu nào.",
       "subtitles": [
-        "Hóa ra con rắn nhỏ là con trai của Long Vương dưới thủy cung.",
-        "Long Vương mời chàng xuống chơi, rồi tặng chàng một viên ngọc ước.",
-        "Viên ngọc tròn, sáng long lanh. Chàng ước có nhà, có nhà.",
-        "Chàng ước có ruộng, có ruộng.",
-        "Từ đó chàng sống sung túc, lại hay giúp đỡ người nghèo trong làng.",
-        "Chó và mèo cũng được ăn no, ngủ ấm."
+        "Ngồi một mình trên thuyền thấy buồn, chàng bèn lên bờ đi dạo dọc bờ sông.",
+        "Bỗng chàng thấy ba đứa trẻ chăn trâu vừa bắt được một con rắn nước,",
+        "đang cầm roi định đánh.",
+        "Chàng vội chạy tới can: Các em đừng đánh nó, nó là rắn nước, có làm hại ai đâu?",
+        "Bọn trẻ đáp: Mặc chúng tôi!",
+        "Chúng tôi bắt được thì chúng tôi đánh, ông cản làm gì?",
+        "Thấy chúng cứ khăng khăng không chịu thả, chàng lại lấy tiền ra để cứu con vật bé nhỏ.",
+        "Bọn trẻ đòi năm quan.",
+        "Chàng nói đi nói lại mãi mới bớt được một quan.",
+        "Thế là số tiền mang theo đã vơi hết sạch.",
+        "Mua được con rắn, chàng nhẹ nhàng thả nó xuống sông cho nó trở về chốn cũ.",
+        "Khi nghe chàng kể lại chuyện mua bán của mình, các bạn thủy thủ cười ngất,",
+        "bảo chàng là người khờ dại hiếm có.",
+        "Chàng chỉ ngồi lặng yên, chẳng nói lại câu nào."
       ],
       "image": {
-        "prompt": "in a shimmering underwater palace of coral and pearls, a kind old Dragon King with a long white beard hands a glowing round pearl to the young man, the little green snake smiles beside its father, fish swimming around",
+        "prompt": "on a green riverbank three buffalo boys hold a small water snake on a stick while the young sailor holds out coins to them, buffaloes grazing behind",
         "seed": 1542097834,
         "character": "chang-trai"
       },
       "video": {
-        "motionPrompt": "the Dragon King places the pearl in the young man's hands, the pearl glows brighter, fish swirl around, bubbles rise gently, soft light ripples",
+        "motionPrompt": "the boys hand over the snake, the young man gently lowers it into the river, ripples spread and the snake glides away",
         "seed": 1039756104
       },
       "voice": {}
     },
     {
-      "id": "mat-ngoc",
-      "title": "Kẻ gian tráo ngọc",
+      "id": "ngoc-bang-xuyen",
+      "title": "Viên ngọc băng xuyên",
       "narrator": "ke-chuyen",
-      "narration": "Trong làng có một người thợ kim hoàn tham lam. Hắn biết chuyện viên ngọc, liền làm một viên ngọc giả giống hệt. Một hôm, hắn sang chơi, nhân lúc chàng trai không để ý, tráo lấy viên ngọc thật mang về, khóa kỹ trong một cái hòm. Từ đó, chàng ước gì cũng không được nữa. Nhà cửa dần dần sa sút, chàng lại nghèo như xưa.",
+      "narration": "Khi thuyền quay về, vào khoảng nửa đêm, chàng đang chèo thì bỗng thấy con rắn nước ngày nọ từ dưới sông bơi lên. Nó trao cho chàng một viên ngọc sáng lấp lánh và nói: Cha tôi là Long Vương. Cha cảm ơn anh đã cứu tôi nên bảo tôi mang biếu anh viên ngọc băng xuyên này, và mời anh xuống chơi thủy phủ. Mang ngọc trong người, anh sẽ đi dưới nước dễ dàng như đi trên bộ. Chàng nghe nói thì buông chèo, theo rắn nước lặn xuống. Quả nhiên chàng đi trong làn nước mà chẳng hề hấn gì. Vua Long Vương tiếp đãi chàng rất hậu, lại tặng chàng thật nhiều vàng bạc châu báu. Rồi người của Long Vương đưa chàng về tận nhà. Còn ở trên thuyền, ông chủ thấy chàng biến mất, tưởng chàng đã rơi xuống nước, bèn cho đỗ thuyền lại, lên bờ trình báo với làng xã. Đến khi cả đoàn về tới quê, mọi người ngạc nhiên vô cùng, vì anh thủy thủ trẻ đã ngồi trong nhà với mẹ từ ba ngày trước rồi.",
       "subtitles": [
-        "Trong làng có một người thợ kim hoàn tham lam.",
-        "Hắn biết chuyện viên ngọc, liền làm một viên ngọc giả giống hệt.",
-        "Một hôm, hắn sang chơi, nhân lúc chàng trai không để ý, tráo lấy viên ngọc thật mang về,",
-        "khóa kỹ trong một cái hòm. Từ đó, chàng ước gì cũng không được nữa.",
-        "Nhà cửa dần dần sa sút, chàng lại nghèo như xưa."
+        "Khi thuyền quay về, vào khoảng nửa đêm,",
+        "chàng đang chèo thì bỗng thấy con rắn nước ngày nọ từ dưới sông bơi lên.",
+        "Nó trao cho chàng một viên ngọc sáng lấp lánh và nói: Cha tôi là Long Vương.",
+        "Cha cảm ơn anh đã cứu tôi nên bảo tôi mang biếu anh viên ngọc băng xuyên này,",
+        "và mời anh xuống chơi thủy phủ.",
+        "Mang ngọc trong người, anh sẽ đi dưới nước dễ dàng như đi trên bộ.",
+        "Chàng nghe nói thì buông chèo, theo rắn nước lặn xuống.",
+        "Quả nhiên chàng đi trong làn nước mà chẳng hề hấn gì.",
+        "Vua Long Vương tiếp đãi chàng rất hậu, lại tặng chàng thật nhiều vàng bạc châu báu.",
+        "Rồi người của Long Vương đưa chàng về tận nhà.",
+        "Còn ở trên thuyền, ông chủ thấy chàng biến mất, tưởng chàng đã rơi xuống nước,",
+        "bèn cho đỗ thuyền lại, lên bờ trình báo với làng xã.",
+        "Đến khi cả đoàn về tới quê, mọi người ngạc nhiên vô cùng,",
+        "vì anh thủy thủ trẻ đã ngồi trong nhà với mẹ từ ba ngày trước rồi."
       ],
       "image": {
-        "prompt": "inside the young man's house, a sly greedy goldsmith with a thin moustache secretly swaps the glowing pearl for a plain fake one on a wooden shelf, while the young man looks out the window, the tabby cat notices from under the table",
+        "prompt": "deep in a glowing underwater palace of the Dragon King, the young man in simple clothes receives a shining pearl from a small green water snake, coral pillars, fish and gold treasures around",
         "seed": 1081007075,
         "character": "chang-trai"
       },
       "video": {
-        "motionPrompt": "the goldsmith quickly swaps the pearls and hides the real one in his sleeve, the tabby cat's eyes narrow, the young man turns back unaware, curtain sways",
+        "motionPrompt": "bubbles rise, the pearl glows softly, fish swim past the coral pillars, the Dragon King nods kindly",
         "seed": 2196107246
       },
       "voice": {}
     },
     {
-      "id": "di-tim",
-      "title": "Chó và mèo đi tìm ngọc",
+      "id": "tro-nen-giau",
+      "title": "Gia đình đổi đời",
       "narrator": "ke-chuyen",
-      "narration": "Chó và mèo thương chủ, bàn nhau đi tìm viên ngọc. Chó đánh hơi, lần ra đúng nhà người thợ kim hoàn. Nhưng ngọc nằm trong hòm khóa chặt, làm sao lấy được? Mèo nghĩ ra một cách. Mèo bắt một con chuột, dọa nó: \"Nếu chuột không lấy được ngọc ra, ta sẽ không tha cho cả họ nhà chuột!\" Chuột sợ quá, gặm thủng hòm, tha viên ngọc ra trả.",
+      "narration": "Từ đó, nhà chàng trở nên giàu có. Nhưng chàng vẫn sống giản dị bên người mẹ già như xưa. Con chó và con mèo được chàng cứu vẫn quấn quýt theo chàng, chẳng rời một bước. Ít lâu sau, chàng cưới vợ. Vợ chàng là một cô gái đẹp, nàng rất thích đeo trang sức. Một hôm, nàng thấy viên ngọc băng xuyên tỏa ánh sáng sáng cả một góc tủ, thích quá, bèn lén lấy đem đến một người thợ kim hoàn, nhờ làm cho mình một chiếc nhẫn. Người thợ vừa nhìn đã biết đó là báu vật ít có trên đời. Lòng tham nổi lên, hắn đi tìm một viên đá giống hệt, rồi đánh tráo viên ngọc thật đi và giữ lấy bảo vật cho riêng mình. Khi biết ngọc đã mất, chàng trai buồn bã lắm. Ngày ngày chàng ra bờ sông, mong gặp lại con rắn nước, nhưng tìm mãi chẳng thấy bóng dáng nó đâu.",
       "subtitles": [
-        "Chó và mèo thương chủ, bàn nhau đi tìm viên ngọc.",
-        "Chó đánh hơi, lần ra đúng nhà người thợ kim hoàn.",
-        "Nhưng ngọc nằm trong hòm khóa chặt, làm sao lấy được?",
-        "Mèo nghĩ ra một cách. Mèo bắt một con chuột, dọa nó: \"Nếu chuột không lấy được ngọc ra,",
-        "ta sẽ không tha cho cả họ nhà chuột!\" Chuột sợ quá, gặm thủng hòm, tha viên ngọc ra trả."
+        "Từ đó, nhà chàng trở nên giàu có.",
+        "Nhưng chàng vẫn sống giản dị bên người mẹ già như xưa.",
+        "Con chó và con mèo được chàng cứu vẫn quấn quýt theo chàng, chẳng rời một bước.",
+        "Ít lâu sau, chàng cưới vợ.",
+        "Vợ chàng là một cô gái đẹp, nàng rất thích đeo trang sức.",
+        "Một hôm, nàng thấy viên ngọc băng xuyên tỏa ánh sáng sáng cả một góc tủ, thích quá,",
+        "bèn lén lấy đem đến một người thợ kim hoàn, nhờ làm cho mình một chiếc nhẫn.",
+        "Người thợ vừa nhìn đã biết đó là báu vật ít có trên đời.",
+        "Lòng tham nổi lên, hắn đi tìm một viên đá giống hệt,",
+        "rồi đánh tráo viên ngọc thật đi và giữ lấy bảo vật cho riêng mình.",
+        "Khi biết ngọc đã mất, chàng trai buồn bã lắm.",
+        "Ngày ngày chàng ra bờ sông, mong gặp lại con rắn nước,",
+        "nhưng tìm mãi chẳng thấy bóng dáng nó đâu."
       ],
       "image": {
-        "prompt": "at night in the goldsmith's storeroom, the tabby cat sternly points its paw at a tiny nervous mouse, the mouse nibbles a hole in a wooden chest and rolls out the glowing pearl, the yellow dog keeps watch at the door",
+        "prompt": "a wealthy but modest village house by a river, the young man sits sadly on the porch steps beside his young wife holding a pale stone ring, a jeweller's shop with a sly smiling goldsmith visible in the distance",
         "seed": 1341967236,
-        "character": "meo"
+        "character": "chang-trai"
       },
       "video": {
-        "motionPrompt": "the mouse nibbles quickly and pushes the glowing pearl out, the tabby cat nods, the dog's ears perk up, moonlight shines through the window",
+        "motionPrompt": "the young man sighs and gazes at the river, the wife looks worried, the goldsmith far away hides a glowing pearl in his sleeve",
         "seed": 2960497479
       },
       "voice": {}
     },
     {
-      "id": "qua-song",
-      "title": "Qua sông đánh rơi ngọc",
+      "id": "xin-di-tim",
+      "title": "Chó và mèo xin đi tìm ngọc",
       "narrator": "ke-chuyen",
-      "narration": "Đường về phải qua một con sông. Chó biết bơi, mèo thì không, nên chó cõng mèo trên lưng. Mèo ngậm viên ngọc trong miệng. Ra giữa sông, chó sốt ruột hỏi mãi: \"Ngọc còn không? Ngọc còn không?\" Mèo đành trả lời: \"Còn!\" Vừa há miệng, viên ngọc rơi tõm xuống nước. Lên bờ, chó buồn bã bỏ về nhà trước. Còn mèo vẫn ngồi lại bên bờ sông, nghĩ cách.",
+      "narration": "Chó và mèo thấy chủ buồn bã không vui, thương lắm. Một hôm, chúng đến bên chủ và xin đi tìm lại viên ngọc. Đường đến nhà người thợ kim hoàn phải qua một con sông rộng. Chẳng có cách nào qua được, hai bạn cứ quanh quẩn trên bờ. Sau cùng, chúng tìm được đến nhà một con rái cá. Chó và mèo kể cho rái cá nghe đầu đuôi câu chuyện và nhờ rái cá giúp đưa qua sông. Rái cá vui lòng nhận lời. Nó gọi bạn bè của mình đến, các bạn rái cá đứng sát vào nhau thành một chiếc bè, cho chó và mèo ngồi lên lưng, chở qua sông yên ổn.",
       "subtitles": [
-        "Đường về phải qua một con sông. Chó biết bơi, mèo thì không, nên chó cõng mèo trên lưng.",
-        "Mèo ngậm viên ngọc trong miệng. Ra giữa sông, chó sốt ruột hỏi mãi: \"Ngọc còn không?",
-        "Ngọc còn không?\" Mèo đành trả lời: \"Còn!\" Vừa há miệng, viên ngọc rơi tõm xuống nước.",
-        "Lên bờ, chó buồn bã bỏ về nhà trước. Còn mèo vẫn ngồi lại bên bờ sông, nghĩ cách."
+        "Chó và mèo thấy chủ buồn bã không vui, thương lắm.",
+        "Một hôm, chúng đến bên chủ và xin đi tìm lại viên ngọc.",
+        "Đường đến nhà người thợ kim hoàn phải qua một con sông rộng.",
+        "Chẳng có cách nào qua được, hai bạn cứ quanh quẩn trên bờ.",
+        "Sau cùng, chúng tìm được đến nhà một con rái cá.",
+        "Chó và mèo kể cho rái cá nghe đầu đuôi câu chuyện và nhờ rái cá giúp đưa qua sông.",
+        "Rái cá vui lòng nhận lời.",
+        "Nó gọi bạn bè của mình đến, các bạn rái cá đứng sát vào nhau thành một chiếc bè,",
+        "cho chó và mèo ngồi lên lưng, chở qua sông yên ổn."
       ],
       "image": {
-        "prompt": "in the middle of a wide river the yellow dog swims with the tabby cat on its back, the glowing pearl falls from the cat's open mouth into the water with a little splash, both animals look shocked",
+        "prompt": "a yellow dog and a tabby cat sit on a raft made of several friendly otters swimming across a wide calm river at dawn, far bank with a village roof",
         "seed": 3707937424,
         "character": "cho"
       },
       "video": {
-        "motionPrompt": "the dog paddles, the cat opens its mouth to answer and the pearl drops with a plop, ripples spread, both animals gasp, gentle camera follow",
+        "motionPrompt": "the otters paddle in rhythm, the dog and cat hold on and look ahead, soft ripples and morning mist",
         "seed": 1217948351
       },
       "voice": {}
     },
     {
-      "id": "meo-lay-lai",
-      "title": "Mèo lấy lại ngọc",
+      "id": "meo-nhu-cho",
+      "title": "Mèo kêu nhử bầy chó",
       "narrator": "ke-chuyen",
-      "narration": "Mèo nằm rình bên bờ. Hôm sau, có người đánh cá câu được một con cá to. Mèo ngửi thấy mùi ngọc, xin được bộ lòng cá. Quả nhiên viên ngọc nằm trong bụng cá! Mèo ngậm ngọc chạy về thì một con quạ sà xuống cướp mất. Mèo bèn nằm im trên bãi cỏ như đang ngủ say. Quạ tưởng thật, sà xuống gần. Mèo vồ một cái, quạ hoảng hốt nhả ngọc ra rồi bay mất.",
+      "narration": "Đến nhà người thợ kim hoàn, mèo bảo chó: Để tao trèo lên nóc nhà, kêu lên mấy tiếng cho bầy chó trong nhà xúm lại sủa. Lúc đó mày cứ đường hoàng đi qua cổng mà vào, sẽ chẳng ai hay. Quả nhiên, mèo vừa kêu, bầy chó của người thợ đã ùa ra đuổi theo. Mèo nhảy từ mái này sang mái khác, dẫn chúng chạy thật xa. Nhờ thế, chó ta lẻn vào được trong nhà, nấp yên dưới một cái hầm, chẳng ai trông thấy. Lát sau, mèo thoát khỏi bầy chó, quay về gặp bạn. Hai bạn cùng nhau đi tìm khắp trong nhà.",
       "subtitles": [
-        "Mèo nằm rình bên bờ. Hôm sau, có người đánh cá câu được một con cá to.",
-        "Mèo ngửi thấy mùi ngọc, xin được bộ lòng cá. Quả nhiên viên ngọc nằm trong bụng cá!",
-        "Mèo ngậm ngọc chạy về thì một con quạ sà xuống cướp mất.",
-        "Mèo bèn nằm im trên bãi cỏ như đang ngủ say. Quạ tưởng thật, sà xuống gần.",
-        "Mèo vồ một cái, quạ hoảng hốt nhả ngọc ra rồi bay mất."
+        "Đến nhà người thợ kim hoàn, mèo bảo chó: Để tao trèo lên nóc nhà,",
+        "kêu lên mấy tiếng cho bầy chó trong nhà xúm lại sủa.",
+        "Lúc đó mày cứ đường hoàng đi qua cổng mà vào, sẽ chẳng ai hay.",
+        "Quả nhiên, mèo vừa kêu, bầy chó của người thợ đã ùa ra đuổi theo.",
+        "Mèo nhảy từ mái này sang mái khác, dẫn chúng chạy thật xa.",
+        "Nhờ thế, chó ta lẻn vào được trong nhà, nấp yên dưới một cái hầm, chẳng ai trông thấy.",
+        "Lát sau, mèo thoát khỏi bầy chó, quay về gặp bạn.",
+        "Hai bạn cùng nhau đi tìm khắp trong nhà."
       ],
       "image": {
-        "prompt": "on the riverbank a fisherman in a conical hat holds a big fish, the tabby cat sits beside him finding the glowing pearl, above them a black crow swoops down eyeing the pearl",
+        "prompt": "at night on the roof tiles of the goldsmith's house a tabby cat yowls and leaps, a pack of barking house dogs chasing below, while a yellow dog sneaks in through the gate",
         "seed": 2030564228,
         "character": "meo"
       },
       "video": {
-        "motionPrompt": "the cat finds the pearl and grins, the crow swoops and flaps, the cat pounces and the crow flaps away dropping the pearl, reeds sway",
+        "motionPrompt": "the tabby leaps from roof to roof, the pack of dogs runs after it barking, the yellow dog slips through the gate",
         "seed": 1811726919
       },
       "voice": {}
     },
     {
-      "id": "ket-thuc",
-      "title": "Mèo Miu chào tạm biệt",
-      "narrator": "miu",
-      "narration": "Mèo mang ngọc về trả chủ. Chàng trai mừng lắm, cho mèo ngồi ăn cùng mâm, ngủ trong chăn ấm. Còn chó về tay không, chỉ được nằm ngoài sân. Chó cho là mèo giành hết công, từ đó hễ gặp mèo là gầm gừ. Các bạn ơi, làm việc chung thì đừng tranh công, phải biết nhường nhịn nhau nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "id": "chuot-chua",
+      "title": "Nhờ họ nhà chuột",
+      "narrator": "ke-chuyen",
+      "narration": "Của cải của lão thợ kim hoàn đều cất trong một chiếc rương lớn, lúc nào cũng khóa chặt, chẳng dễ gì mở được. Mèo cố tìm cách, rồi chụp được một con chuột. Chuột run rẩy van lạy xin tha. Mèo bảo nó dẫn mình đến gặp chuột chúa đàn. Gặp rồi, mèo nói rõ việc mình đến đây và nhờ chuột chúa giúp lấy viên ngọc, đổi lại, mèo hứa sẽ luôn để ý không động đến họ hàng nhà chuột ở xóm ấy. Chuột chúa đàn vâng lời ngay: Để tôi bảo con cháu, tôi tớ trong nhà khoét chiếc rương ra, tìm cho các ông. Nhưng khi chui vào được trong rương, lũ chuột lục mãi chẳng thấy ngọc đâu. Chuột chúa ra báo lại với mèo: Trong rương có một cái hộp bằng bạc. Chắc lão giấu ngọc trong đó, nhưng cái hộp ấy khó mà gặm nổi. Mèo hỏi: Vậy làm thế nào bây giờ? Chuột chúa đáp: Chỉ còn cách nhờ hàng xóm cùng hợp sức khoét rộng cái lỗ, để đưa cả chiếc hộp ra đây cho các ông tìm. Mèo giục: Thế thì làm gấp lên đi! Chỉ trong một đêm, cả xóm nhà chuột đã gặm nát chiếc rương và khiêng được cái hộp ra. Chó và mèo tìm cách mở hộp, quả nhiên thấy viên ngọc của chủ nằm ở bên trong. Hai bạn mừng rỡ khôn xiết.",
       "subtitles": [
-        "Mèo mang ngọc về trả chủ.",
-        "Chàng trai mừng lắm, cho mèo ngồi ăn cùng mâm, ngủ trong chăn ấm.",
-        "Còn chó về tay không, chỉ được nằm ngoài sân.",
-        "Chó cho là mèo giành hết công, từ đó hễ gặp mèo là gầm gừ.",
-        "Các bạn ơi, làm việc chung thì đừng tranh công, phải biết nhường nhịn nhau nhé.",
-        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
+        "Của cải của lão thợ kim hoàn đều cất trong một chiếc rương lớn, lúc nào cũng khóa chặt,",
+        "chẳng dễ gì mở được.",
+        "Mèo cố tìm cách, rồi chụp được một con chuột.",
+        "Chuột run rẩy van lạy xin tha.",
+        "Mèo bảo nó dẫn mình đến gặp chuột chúa đàn.",
+        "Gặp rồi, mèo nói rõ việc mình đến đây và nhờ chuột chúa giúp lấy viên ngọc, đổi lại,",
+        "mèo hứa sẽ luôn để ý không động đến họ hàng nhà chuột ở xóm ấy.",
+        "Chuột chúa đàn vâng lời ngay: Để tôi bảo con cháu, tôi tớ trong nhà khoét chiếc rương ra,",
+        "tìm cho các ông.",
+        "Nhưng khi chui vào được trong rương, lũ chuột lục mãi chẳng thấy ngọc đâu.",
+        "Chuột chúa ra báo lại với mèo: Trong rương có một cái hộp bằng bạc.",
+        "Chắc lão giấu ngọc trong đó, nhưng cái hộp ấy khó mà gặm nổi.",
+        "Mèo hỏi: Vậy làm thế nào bây giờ?",
+        "Chuột chúa đáp: Chỉ còn cách nhờ hàng xóm cùng hợp sức khoét rộng cái lỗ,",
+        "để đưa cả chiếc hộp ra đây cho các ông tìm.",
+        "Mèo giục: Thế thì làm gấp lên đi!",
+        "Chỉ trong một đêm, cả xóm nhà chuột đã gặm nát chiếc rương và khiêng được cái hộp ra.",
+        "Chó và mèo tìm cách mở hộp, quả nhiên thấy viên ngọc của chủ nằm ở bên trong.",
+        "Hai bạn mừng rỡ khôn xiết."
       ],
       "image": {
-        "prompt": "Meo Miu the voxel white cat waves goodbye in the village yard, behind her the young man hugs the tabby cat who holds the glowing pearl, the yellow dog sits sulkily by the gate, warm evening light",
+        "prompt": "inside a dim goldsmith's storeroom, a crowd of small grey mice gnaw a hole in a big locked wooden chest and drag out a silver box, a tabby cat and a yellow dog watching eagerly in lantern light",
         "seed": 2341388268,
+        "character": "meo"
+      },
+      "video": {
+        "motionPrompt": "the mice gnaw busily and push the silver box out, the cat and dog lean in with shining eyes, lantern light flickers",
+        "seed": 3653584382
+      },
+      "voice": {}
+    },
+    {
+      "id": "roi-ngoc",
+      "title": "Viên ngọc rơi xuống sông",
+      "narrator": "ke-chuyen",
+      "narration": "Ra khỏi nhà người thợ kim hoàn, chó đòi được mang ngọc, mèo cũng không nỡ từ chối. Nhưng đến lúc sắp sang sông, chó mải cãi nhau với một con chó khác bên đường nên há miệng, để viên ngọc văng xuống nước. Một con cá thấy vật sáng lấp lánh, bơi tới đớp ngay một cái và nuốt gọn. Mèo giận lắm, mắng chó một trận thật dài. Chó biết lỗi, đứng lặng thinh, cuối cùng mếu máo hỏi: Biết làm sao bây giờ? Mèo ngẫm nghĩ một lát rồi nghĩ ra một kế. Nó bảo: Chúng ta cứ tìm đến một nhà thuyền chài ở vùng này, xin ở nhờ. Chờ khi họ câu được con cá đã nuốt ngọc thì tìm cách lấy lại mang về.",
+      "subtitles": [
+        "Ra khỏi nhà người thợ kim hoàn, chó đòi được mang ngọc, mèo cũng không nỡ từ chối.",
+        "Nhưng đến lúc sắp sang sông, chó mải cãi nhau với một con chó khác bên đường nên há",
+        "miệng, để viên ngọc văng xuống nước.",
+        "Một con cá thấy vật sáng lấp lánh, bơi tới đớp ngay một cái và nuốt gọn.",
+        "Mèo giận lắm, mắng chó một trận thật dài.",
+        "Chó biết lỗi, đứng lặng thinh, cuối cùng mếu máo hỏi: Biết làm sao bây giờ?",
+        "Mèo ngẫm nghĩ một lát rồi nghĩ ra một kế.",
+        "Nó bảo: Chúng ta cứ tìm đến một nhà thuyền chài ở vùng này, xin ở nhờ.",
+        "Chờ khi họ câu được con cá đã nuốt ngọc thì tìm cách lấy lại mang về."
+      ],
+      "image": {
+        "prompt": "on a riverbank a yellow dog looks down in dismay as a glowing pearl drops from its mouth into the water, a silver fish rises to swallow it, the tabby cat scolds with raised paw",
+        "seed": 2920292115,
+        "character": "cho"
+      },
+      "video": {
+        "motionPrompt": "the pearl drops with a splash, the fish snaps it up, the cat scolds and the dog lowers its head",
+        "seed": 3541056355
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-ong-chai",
+      "title": "Ở nhờ nhà ông chài",
+      "narrator": "ke-chuyen",
+      "narration": "Chó khen mưu của mèo hay, rồi cả hai tìm đến một gia đình ông chài đang đỗ thuyền bên bờ sông phơi lưới. Chó và mèo tỏ ra thật hiền lành, ngoan ngoãn nên được cả nhà đối đãi tử tế. Mấy hôm sau, ông chài kéo lưới được một con cá chày rất lớn. Khi mổ bụng cá, ông thấy có một viên ngọc. Chó và mèo khấp khởi mừng thầm. Lúc cả nhà đang chuyền tay nhau xem của lạ, mèo lẹ làng đến cọ mình vào chân ông chủ. Nhân lúc ông sơ ý, mèo nhảy lên ngoạm lấy viên ngọc, cong đuôi phóng lên bờ chạy mất. Chó thấy vậy cũng ba chân bốn cẳng đuổi theo, bỏ lại cha con ông chài đứng ngơ ngác chẳng hiểu vì sao.",
+      "subtitles": [
+        "Chó khen mưu của mèo hay, rồi cả hai tìm đến một gia đình ông chài đang đỗ thuyền bên bờ",
+        "sông phơi lưới.",
+        "Chó và mèo tỏ ra thật hiền lành, ngoan ngoãn nên được cả nhà đối đãi tử tế.",
+        "Mấy hôm sau, ông chài kéo lưới được một con cá chày rất lớn.",
+        "Khi mổ bụng cá, ông thấy có một viên ngọc.",
+        "Chó và mèo khấp khởi mừng thầm.",
+        "Lúc cả nhà đang chuyền tay nhau xem của lạ, mèo lẹ làng đến cọ mình vào chân ông chủ.",
+        "Nhân lúc ông sơ ý, mèo nhảy lên ngoạm lấy viên ngọc, cong đuôi phóng lên bờ chạy mất.",
+        "Chó thấy vậy cũng ba chân bốn cẳng đuổi theo,",
+        "bỏ lại cha con ông chài đứng ngơ ngác chẳng hiểu vì sao."
+      ],
+      "image": {
+        "prompt": "on a fisherman's boat moored by the bank with nets drying, a fisherman family gathers around a big fish, a tabby cat leaps up to snatch a pearl from a hand while a yellow dog bounds toward the shore",
+        "seed": 2669835990,
+        "character": "meo"
+      },
+      "video": {
+        "motionPrompt": "the cat snatches the pearl and leaps to the bank, the dog dashes after it, the fisher family stares in surprise",
+        "seed": 1313124773
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-cuop-ngoc",
+      "title": "Quạ cướp viên ngọc",
+      "narrator": "ke-chuyen",
+      "narration": "Lần này đến lượt mèo mang ngọc. Mèo lên mặt khôn ngoan, bảo chó: Lần trước ngậm bị rơi mất, lần này có cách rất hay là đội ngọc lên đầu. Sắp đến nhà rồi, chẳng còn gì phải sợ nữa. Nói thế nào, mèo làm đúng như thế. Nào ngờ đi được một quãng thì có một con quạ đang bay trên trời nhìn thấy vật gì lấp lánh trên đầu mèo. Quạ bất thình lình sà xuống, đớp lấy viên ngọc rồi bay lên đậu trên một cành cây cao. Ngọc lại mất, đến lượt chó mắng mèo thật dữ: Ngọc rơi xuống nước còn có thể tìm lại, chứ bay lên trời thì đừng hòng! Mèo buồn rầu, nhưng ngẫm nghĩ một lát lại nói: Tao nghĩ ra một kế rồi.",
+      "subtitles": [
+        "Lần này đến lượt mèo mang ngọc.",
+        "Mèo lên mặt khôn ngoan, bảo chó: Lần trước ngậm bị rơi mất,",
+        "lần này có cách rất hay là đội ngọc lên đầu.",
+        "Sắp đến nhà rồi, chẳng còn gì phải sợ nữa.",
+        "Nói thế nào, mèo làm đúng như thế.",
+        "Nào ngờ đi được một quãng thì có một con quạ đang bay trên trời nhìn thấy vật gì lấp lánh",
+        "trên đầu mèo.",
+        "Quạ bất thình lình sà xuống, đớp lấy viên ngọc rồi bay lên đậu trên một cành cây cao.",
+        "Ngọc lại mất, đến lượt chó mắng mèo thật dữ: Ngọc rơi xuống nước còn có thể tìm lại,",
+        "chứ bay lên trời thì đừng hòng!",
+        "Mèo buồn rầu, nhưng ngẫm nghĩ một lát lại nói: Tao nghĩ ra một kế rồi."
+      ],
+      "image": {
+        "prompt": "on a country path a tabby cat balances a glowing pearl on its head, a black crow swoops down and snatches it, a yellow dog watches with wide eyes, tall tree in the background",
+        "seed": 3800966727,
+        "character": "meo"
+      },
+      "video": {
+        "motionPrompt": "the crow swoops and snatches the pearl, flaps up to a branch, the cat gazes up in dismay while the dog barks",
+        "seed": 559981384
+      },
+      "voice": {}
+    },
+    {
+      "id": "meo-bat-qua",
+      "title": "Mưu của mèo",
+      "narrator": "ke-chuyen",
+      "narration": "Chó hỏi: Kế gì thế? Mèo đáp: Nằm im như đã ngất đi, để bắt quạ. Nói xong, mèo chạy xuống bờ sông uống một bụng nước thật căng. Rồi nó trở về, bảo chó trốn vào một chỗ kín, còn mình thì ra nằm dưới gốc cây, phơi cái bụng trắng hếu, nằm im bất động. Con quạ đang ngậm ngọc trên ngọn cây, nhìn xuống thấy một con vật nằm bất động, liền vội bay xuống định rỉa thịt. Nhưng quạ vừa đáp xuống thì mèo đã nhảy xổ lên vồ chặt lấy. Quạ sợ hãi van lạy, xin trả lại viên ngọc để được tha. Mèo chỉ chờ có thế, ngoạm lấy viên ngọc rồi cùng chó lên đường.",
+      "subtitles": [
+        "Chó hỏi: Kế gì thế?",
+        "Mèo đáp: Nằm im như đã ngất đi, để bắt quạ.",
+        "Nói xong, mèo chạy xuống bờ sông uống một bụng nước thật căng.",
+        "Rồi nó trở về, bảo chó trốn vào một chỗ kín, còn mình thì ra nằm dưới gốc cây,",
+        "phơi cái bụng trắng hếu, nằm im bất động.",
+        "Con quạ đang ngậm ngọc trên ngọn cây, nhìn xuống thấy một con vật nằm bất động,",
+        "liền vội bay xuống định rỉa thịt.",
+        "Nhưng quạ vừa đáp xuống thì mèo đã nhảy xổ lên vồ chặt lấy.",
+        "Quạ sợ hãi van lạy, xin trả lại viên ngọc để được tha.",
+        "Mèo chỉ chờ có thế, ngoạm lấy viên ngọc rồi cùng chó lên đường."
+      ],
+      "image": {
+        "prompt": "under a big tree a tabby cat lies on its back with its white belly up pretending to be still, a black crow with the pearl in its beak hops closer while a yellow dog hides in the bushes",
+        "seed": 892061993,
+        "character": "meo"
+      },
+      "video": {
+        "motionPrompt": "the crow hops closer, the cat pounces, the crow drops the pearl, the dog peeks out of the bushes",
+        "seed": 3269628931
+      },
+      "voice": {}
+    },
+    {
+      "id": "ve-nha",
+      "title": "Ngọc về với chủ",
+      "narrator": "ke-chuyen",
+      "narration": "Lần này, chó và mèo mang được viên ngọc về đến nhà an toàn. Anh chàng thủy thủ lấy lại món quà của Long Vương, vui mừng khôn xiết. Chàng càng thêm quý mến hai con vật có tình có nghĩa của mình. Và từ đó, chàng cùng mẹ, cùng vợ sống những ngày bình yên, ấm no.",
+      "subtitles": [
+        "Lần này, chó và mèo mang được viên ngọc về đến nhà an toàn.",
+        "Anh chàng thủy thủ lấy lại món quà của Long Vương, vui mừng khôn xiết.",
+        "Chàng càng thêm quý mến hai con vật có tình có nghĩa của mình.",
+        "Và từ đó, chàng cùng mẹ, cùng vợ sống những ngày bình yên, ấm no."
+      ],
+      "image": {
+        "prompt": "the young man happily holds the glowing pearl in front of his house, his mother and wife smile beside him, a yellow dog and a tabby cat sit at his feet, golden evening light",
+        "seed": 2608363155,
+        "character": "chang-trai"
+      },
+      "video": {
+        "motionPrompt": "the pearl glows, the family smiles, the dog and cat nuzzle the young man, warm evening light",
+        "seed": 35976487
+      },
+      "voice": {}
+    },
+    {
+      "id": "miu-ket",
+      "title": "Mèo Miu chào tạm biệt",
+      "narrator": "miu",
+      "narration": "Các bạn thấy không, chó và mèo đã cùng nhau vượt sông, qua nhà người thợ kim hoàn, nhờ cả họ nhà chuột, rồi đi tìm lại viên ngọc suốt một chặng đường dài. Có lúc chó làm rơi, có lúc mèo làm mất, nhưng hai bạn chẳng bỏ nhau, mà cùng nghĩ cách sửa lỗi. Nhờ vậy, ngọc mới về được với chủ. Khi gặp khó khăn, các bạn nhớ nhé, đừng giận dỗi hay trách nhau mãi, mà hãy cùng bình tĩnh nghĩ cách, chuyện gì rồi cũng làm được. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
+      "subtitles": [
+        "Các bạn thấy không, chó và mèo đã cùng nhau vượt sông, qua nhà người thợ kim hoàn,",
+        "nhờ cả họ nhà chuột, rồi đi tìm lại viên ngọc suốt một chặng đường dài.",
+        "Có lúc chó làm rơi, có lúc mèo làm mất, nhưng hai bạn chẳng bỏ nhau,",
+        "mà cùng nghĩ cách sửa lỗi.",
+        "Nhờ vậy, ngọc mới về được với chủ.",
+        "Khi gặp khó khăn, các bạn nhớ nhé, đừng giận dỗi hay trách nhau mãi,",
+        "mà hãy cùng bình tĩnh nghĩ cách, chuyện gì rồi cũng làm được.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn!"
+      ],
+      "image": {
+        "prompt": "Meo Miu the voxel white cat waves goodbye on the wooden porch, a yellow dog and a tabby cat sit together side by side smiling, a glowing pearl on a cushion between them",
+        "seed": 3107026437,
         "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat waves slowly, the tabby purrs in the young man's arms, the dog huffs and turns its head, lanterns glow, gentle camera pull-back",
-        "seed": 3653584382
+        "motionPrompt": "the cat waves, the dog and the tabby lean against each other and wag and purr, the pearl twinkles",
+        "seed": 954576348
       },
       "voice": {}
     }
