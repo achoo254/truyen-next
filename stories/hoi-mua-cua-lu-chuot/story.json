@@ -3,14 +3,15 @@
   "slug": "hoi-mua-cua-lu-chuot",
   "shelf": "world",
   "title": "Hội múa của lũ chuột trong đầu trâu rừng",
-  "summary": "Một đêm trên thảo nguyên, chàng Iktomi tinh nghịch thấy lũ chuột mở hội múa trong chiếc sọ trâu rừng. Cố chui đầu vào cho bằng được, anh chàng bị kẹt cứng, phải mò mẫm suốt đêm cho tới khi dân làng giúp gỡ ra.",
+  "summary": "Giữa đêm đen trên thảo nguyên, lũ chuột đồng nhỏ xíu mở hội ăn tiệc, hát múa trong một chiếc sọ trâu rừng cũ, ánh lửa hắt ra qua mọi hốc lỗ. Chúng mải vui đến nỗi không nghe tiếng chim, tiếng sói, cũng không thấy đôi mắt lửa đang rón rén bò tới. Truyện của người Dakota do Zitkala-Ša chép lại.",
   "themes": [
     "ngu-ngon",
     "thien-nhien"
   ],
   "added": "2026-11-03",
+  "revised": "2026-11-17",
   "language": "vi",
-  "source": "Truyện dân gian của người Dakota (Bắc Mỹ), «Dance in a Buffalo Skull» trong Old Indian Legends do Zitkala-Ša chép lại (1901; tác giả mất 1938), Project Gutenberg #338, thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới, kể nhẹ nhàng cho cả nhà theo cốt truyện của bản in.",
+  "source": "Truyện dân gian của người Dakota (Bắc Mỹ), «Dance in a Buffalo Skull» trong Old Indian Legends do Zitkala-Ša chép lại (1901; tác giả mất 1938), Project Gutenberg #338, thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới, đi theo từng đoạn của bản in, bỏ nhân vật Iktomi mà bản cũ thêm vào; không chép bản dịch nào.",
   "basedOn": "Truyện Dakota, Zitkala-Ša chép (1901)",
   "style": "storybook illustration of the open North American prairie at night, rolling grasslands, a wide starry sky and a full moon, deep indigo, silver, sage green and warm firelight amber palette, playful gentle mood for family reading, no text, no letters, no watermark",
   "narrators": {
@@ -21,9 +22,9 @@
   },
   "characters": [
     {
-      "id": "iktomi",
-      "name": "Iktomi",
-      "sheetPrompt": "a mischievous lanky trickster man of Dakota legend with long braided black hair, a cheeky grin, a simple fringed buckskin shirt and leggings, beaded moccasins, full body, front view, plain warm paper background, character reference sheet, respectful depiction",
+      "id": "meo-rung",
+      "name": "Con vật mắt lửa",
+      "sheetPrompt": "a sleek wildcat with glowing round yellow eyes, tawny spotted fur, crouching low and stalking on soft paws, full body, side view, plain warm paper background, character reference sheet",
       "seed": 1989996254
     },
     {
@@ -38,147 +39,158 @@
       "id": "dem-tren-thao-nguyen",
       "title": "Đêm trên thảo nguyên",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, trên thảo nguyên mênh mông của người Dakota, có một anh chàng tên là Iktomi. Anh chàng này lắm mưu vặt, tò mò chuyện gì cũng muốn nhúng tay vào, và hay tự chuốc lấy rắc rối. Một đêm trăng sáng, Iktomi đi lang thang một mình qua đồng cỏ. Gió thổi xào xạc, côn trùng rả rích. Bỗng anh nghe văng vẳng đâu đây có tiếng hát nhỏ xíu và tiếng trống lách tách, vui tai lạ lùng.",
+      "narration": "Đêm xuống trên thảo nguyên. Trên cao, những vì sao nhấp nháy ánh sáng đỏ và vàng. Vầng trăng còn non, chỉ là một sợi chỉ bạc giữa trời sao, chẳng mấy chốc đã trôi thấp xuống dưới đường chân trời. Mặt đất tối đen như mực. Trên đồng bằng có những cư dân của ban đêm, họ thích bóng tối. Giữa vùng đất đen phẳng lặng, họ họp nhau vui đùa dưới sao trời. Hễ đôi tai thính của họ nghe thấy tiếng chân lạ ở gần, là họ chạy tản vào bóng đêm sâu thẳm. Ở đó họ nghĩ mình ẩn náu an toàn, không còn sợ hiểm nguy.",
       "subtitles": [
-        "Ngày xưa, trên thảo nguyên mênh mông của người Dakota, có một anh chàng tên là Iktomi.",
-        "Anh chàng này lắm mưu vặt, tò mò chuyện gì cũng muốn nhúng tay vào,",
-        "và hay tự chuốc lấy rắc rối.",
-        "Một đêm trăng sáng, Iktomi đi lang thang một mình qua đồng cỏ.",
-        "Gió thổi xào xạc, côn trùng rả rích.",
-        "Bỗng anh nghe văng vẳng đâu đây có tiếng hát nhỏ xíu và tiếng trống lách tách,",
-        "vui tai lạ lùng."
+        "Đêm xuống trên thảo nguyên.",
+        "Trên cao, những vì sao nhấp nháy ánh sáng đỏ và vàng.",
+        "Vầng trăng còn non, chỉ là một sợi chỉ bạc giữa trời sao,",
+        "chẳng mấy chốc đã trôi thấp xuống dưới đường chân trời.",
+        "Mặt đất tối đen như mực.",
+        "Trên đồng bằng có những cư dân của ban đêm, họ thích bóng tối.",
+        "Giữa vùng đất đen phẳng lặng, họ họp nhau vui đùa dưới sao trời.",
+        "Hễ đôi tai thính của họ nghe thấy tiếng chân lạ ở gần,",
+        "là họ chạy tản vào bóng đêm sâu thẳm.",
+        "Ở đó họ nghĩ mình ẩn náu an toàn, không còn sợ hiểm nguy."
       ],
       "image": {
-        "prompt": "a lanky trickster man in a fringed buckskin shirt walking alone across moonlit prairie grass, cupping a hand to his ear, a full moon above",
+        "prompt": "a vast dark prairie at night, a thin silver crescent moon sinking toward the horizon among bright red and yellow stars, tiny shadowy night creatures gathering to play in the black grass",
         "seed": 174146274,
-        "character": "iktomi"
+        "character": "chuot"
       },
       "video": {
-        "motionPrompt": "tall grass sways in the night wind, Iktomi tiptoes and tilts his head listening, stars twinkle, slow pan",
+        "motionPrompt": "stars twinkle, the thin moon sinks slowly, tall grass sways in the night wind, slow pan",
         "seed": 2994956363
       },
       "voice": {}
     },
     {
-      "id": "anh-sang-trong-so-trau",
-      "title": "Ánh sáng trong sọ trâu",
+      "id": "hai-qua-cau-lua",
+      "title": "Hai quả cầu lửa",
       "narrator": "ke-chuyen",
-      "narration": "Iktomi lần theo tiếng hát. Giữa đồng cỏ có một chiếc sọ trâu rừng trắng phau nằm lặng lẽ, vậy mà bên trong lại hắt ra ánh sáng ấm áp. Anh nằm rạp xuống, ghé mắt nhìn qua hốc mắt của sọ trâu. Ôi chao, bên trong có cả một đám chuột nhắt đang mở hội! Chúng nắm tay nhau múa vòng quanh, chú thì vỗ trống, chú thì hát, chú nào cũng vui như ngày hội lớn.",
+      "narration": "Rồi vào một đêm đen kịt, từ xa tít ngoài rìa vùng đất phẳng, từ bãi sông có rừng cây ven bờ, hai quả cầu lửa lướt ra. Chúng tiến sâu mãi vào đồng bằng, càng lúc càng to, càng sáng. Bóng tối giấu kín thân hình của sinh vật có đôi mắt rực lửa ấy. Chúng cứ tiến tới, tiến tới, ngay trên ngọn cỏ thảo nguyên. Có thể đó là một con mèo rừng đang rình mồi, đi thật thấp trên những bước chân mềm không một tiếng động. Chậm rãi mà chắc chắn, đôi mắt đáng sợ ấy tiến gần, gần mãi, tới tận trung tâm của vùng đất phẳng.",
       "subtitles": [
-        "Iktomi lần theo tiếng hát. Giữa đồng cỏ có một chiếc sọ trâu rừng trắng phau nằm lặng lẽ,",
-        "vậy mà bên trong lại hắt ra ánh sáng ấm áp.",
-        "Anh nằm rạp xuống, ghé mắt nhìn qua hốc mắt của sọ trâu.",
-        "Ôi chao, bên trong có cả một đám chuột nhắt đang mở hội!",
-        "Chúng nắm tay nhau múa vòng quanh, chú thì vỗ trống, chú thì hát,",
-        "chú nào cũng vui như ngày hội lớn."
+        "Rồi vào một đêm đen kịt, từ xa tít ngoài rìa vùng đất phẳng,",
+        "từ bãi sông có rừng cây ven bờ, hai quả cầu lửa lướt ra.",
+        "Chúng tiến sâu mãi vào đồng bằng, càng lúc càng to, càng sáng.",
+        "Bóng tối giấu kín thân hình của sinh vật có đôi mắt rực lửa ấy.",
+        "Chúng cứ tiến tới, tiến tới, ngay trên ngọn cỏ thảo nguyên.",
+        "Có thể đó là một con mèo rừng đang rình mồi,",
+        "đi thật thấp trên những bước chân mềm không một tiếng động.",
+        "Chậm rãi mà chắc chắn, đôi mắt đáng sợ ấy tiến gần, gần mãi,",
+        "tới tận trung tâm của vùng đất phẳng."
       ],
       "image": {
-        "prompt": "an old sun-bleached white buffalo head with curved horns lying in the prairie grass glowing warmly from inside, through its hollow eyes tiny mice can be seen dancing in a circle, Iktomi lying on his belly peeking in",
+        "prompt": "two glowing balls of fire gliding low over the tops of the prairie grass out of a dark wooded river bottom, the body of the creature hidden in shadow, growing larger and brighter",
         "seed": 126986097,
-        "character": "chuot"
+        "character": "meo-rung"
       },
       "video": {
-        "motionPrompt": "warm light flickers from within the buffalo head, tiny mice whirl in a circle, Iktomi grins and leans closer, gentle zoom",
+        "motionPrompt": "the two fiery eyes drift forward through the grass growing brighter, slow push in",
         "seed": 161351521
       },
       "voice": {}
     },
     {
-      "id": "cho-toi-vao-voi",
-      "title": "Cho tôi vào với",
+      "id": "bua-tiec-trong-so-trau",
+      "title": "Bữa tiệc trong sọ trâu",
       "narrator": "ke-chuyen",
-      "narration": "Iktomi thèm được vào múa cùng lắm. Anh cất giọng ngọt ngào. Này các bạn chuột ơi, cho tôi vào múa với! Lũ chuột ngừng múa, ngó ra, rồi cười khúc khích. Anh to thế kia, lối vào nhỏ xíu thế này, làm sao mà vào được? Iktomi nói. Không sao, tôi chỉ cần thò cái đầu vào thôi cũng được. Lũ chuột chưa kịp trả lời, anh đã chúi đầu vào lỗ của chiếc sọ, đẩy mạnh một cái.",
+      "narration": "Ở đó, trong một chiếc sọ trâu rừng to và cũ, đang có một bữa tiệc và buổi nhảy múa vui vẻ! Những chú chuột đồng bé tí xíu đang hát và múa thành vòng tròn theo tiếng bùm bùm của một cái trống nhỏ xíu. Chúng cười đùa, trò chuyện với nhau, còn các ca sĩ được chọn thì cất cao giọng hát một bài hát vui. Chúng nhóm một đống lửa nhỏ giữa tâm của ngôi nhà nhảy múa kỳ lạ ấy. Ánh sáng từ chiếc sọ trâu chiếu ra qua mọi hốc mắt, lỗ hổng muôn hình muôn vẻ.",
       "subtitles": [
-        "Iktomi thèm được vào múa cùng lắm. Anh cất giọng ngọt ngào.",
-        "Này các bạn chuột ơi, cho tôi vào múa với!",
-        "Lũ chuột ngừng múa, ngó ra, rồi cười khúc khích.",
-        "Anh to thế kia, lối vào nhỏ xíu thế này, làm sao mà vào được?",
-        "Iktomi nói. Không sao, tôi chỉ cần thò cái đầu vào thôi cũng được.",
-        "Lũ chuột chưa kịp trả lời, anh đã chúi đầu vào lỗ của chiếc sọ, đẩy mạnh một cái."
+        "Ở đó, trong một chiếc sọ trâu rừng to và cũ, đang có một bữa tiệc và buổi nhảy múa vui vẻ!",
+        "Những chú chuột đồng bé tí xíu đang hát và múa thành vòng tròn theo tiếng bùm bùm của",
+        "một cái trống nhỏ xíu.",
+        "Chúng cười đùa, trò chuyện với nhau,",
+        "còn các ca sĩ được chọn thì cất cao giọng hát một bài hát vui.",
+        "Chúng nhóm một đống lửa nhỏ giữa tâm của ngôi nhà nhảy múa kỳ lạ ấy.",
+        "Ánh sáng từ chiếc sọ trâu chiếu ra qua mọi hốc mắt, lỗ hổng muôn hình muôn vẻ."
       ],
       "image": {
-        "prompt": "Iktomi kneeling and pushing his head toward the opening of the glowing hollow buffalo head bone while the little mice inside look up in surprise and wave their paws",
+        "prompt": "an old huge buffalo head bone lying in the prairie grass glowing warmly from inside, tiny field mice singing and dancing in a circle around a small fire to a tiny drum, light streaming out of the eye sockets and holes",
         "seed": 4134654770,
-        "character": "iktomi"
+        "character": "chuot"
       },
       "video": {
-        "motionPrompt": "the mice stop dancing and stare, Iktomi pushes his head forward, grass shakes around him, slow push in",
+        "motionPrompt": "firelight flickers through the holes of the buffalo head bone, tiny mice whirl in a circle, the little drum beats, gentle zoom",
         "seed": 1784937152
       },
       "voice": {}
     },
     {
-      "id": "ket-cung",
-      "title": "Kẹt cứng",
+      "id": "tieng-soi-tru",
+      "title": "Tiếng sói tru",
       "narrator": "ke-chuyen",
-      "narration": "Cái đầu của Iktomi chui tọt vào trong. Lũ chuột hoảng hồn, kéo nhau chạy biến qua các khe nhỏ, tắt luôn cả ánh đèn. Bên trong tối om, chỉ còn mình Iktomi. Anh định rút đầu ra, nhưng chiếc sọ ôm khít lấy đầu anh, kéo mấy cũng không ra. Iktomi đứng dậy, trên vai là một cái đầu trâu rừng to tướng. Anh chẳng nhìn thấy gì, cứ thế đi lảo đảo, vấp chỗ này, va chỗ kia, miệng kêu ơi ới.",
+      "narration": "Một ánh sáng giữa đồng bằng vào lúc nửa đêm là chuyện hiếm thấy. Nhưng lũ chuột vui quá nên chẳng nghe thấy tiếng “kinh, kinh” của những con chim ngái ngủ, bị ngọn lửa lạ làm tỉnh giấc. Một bầy sói, sợ không dám lại gần đống lửa ban đêm, đứng túm tụm cách một quãng, ngẩng cái mũi nhọn lên các vì sao, hú và tru nghe thật thê lương. Đến cả tiếng sói tru cũng chẳng lọt vào tai lũ chuột trong chiếc sọ sáng đèn. Chúng đang ăn tiệc, đang nhảy múa, đang hát và cười, những chú bạn nhỏ lông mượt ngộ nghĩnh ấy. Trong lúc đó, xuyên qua bóng tối, từ bãi sông thấp, đôi mắt lửa vẫn cứ lướt tới.",
       "subtitles": [
-        "Cái đầu của Iktomi chui tọt vào trong.",
-        "Lũ chuột hoảng hồn, kéo nhau chạy biến qua các khe nhỏ, tắt luôn cả ánh đèn.",
-        "Bên trong tối om, chỉ còn mình Iktomi.",
-        "Anh định rút đầu ra, nhưng chiếc sọ ôm khít lấy đầu anh, kéo mấy cũng không ra.",
-        "Iktomi đứng dậy, trên vai là một cái đầu trâu rừng to tướng.",
-        "Anh chẳng nhìn thấy gì, cứ thế đi lảo đảo, vấp chỗ này, va chỗ kia, miệng kêu ơi ới."
+        "Một ánh sáng giữa đồng bằng vào lúc nửa đêm là chuyện hiếm thấy.",
+        "Nhưng lũ chuột vui quá nên chẳng nghe thấy tiếng “kinh,",
+        "kinh” của những con chim ngái ngủ, bị ngọn lửa lạ làm tỉnh giấc.",
+        "Một bầy sói, sợ không dám lại gần đống lửa ban đêm, đứng túm tụm cách một quãng,",
+        "ngẩng cái mũi nhọn lên các vì sao, hú và tru nghe thật thê lương.",
+        "Đến cả tiếng sói tru cũng chẳng lọt vào tai lũ chuột trong chiếc sọ sáng đèn.",
+        "Chúng đang ăn tiệc, đang nhảy múa, đang hát và cười,",
+        "những chú bạn nhỏ lông mượt ngộ nghĩnh ấy.",
+        "Trong lúc đó, xuyên qua bóng tối, từ bãi sông thấp, đôi mắt lửa vẫn cứ lướt tới."
       ],
       "image": {
-        "prompt": "Iktomi standing in the moonlit prairie with a big sun-bleached white buffalo head with curved horns stuck over his head, arms stretched out as he stumbles, tiny mice scampering away in the grass",
+        "prompt": "a pack of wolves standing together at a distance from a glowing buffalo head bone on the dark prairie, noses pointed at the stars howling, sleepy birds startled in the grass, the buffalo head bone shining with firelight",
         "seed": 3766670036,
-        "character": "iktomi"
+        "character": "chuot"
       },
       "video": {
-        "motionPrompt": "Iktomi wobbles and gropes forward, the mice scatter into the grass, the moon watches overhead, comic slow pan",
+        "motionPrompt": "the wolves raise their noses and howl, birds flutter up, the buffalo head bone glows steadily, slow pan",
         "seed": 3879775853
       },
       "voice": {}
     },
     {
-      "id": "men-theo-dong-suoi",
-      "title": "Men theo dòng suối",
+      "id": "doi-mat-lua-tien-lai",
+      "title": "Đôi mắt lửa tiến lại gần",
       "narrator": "ke-chuyen",
-      "narration": "Mò mẫm mãi, Iktomi nghe thấy tiếng nước róc rách. Anh nghĩ bụng. Cứ men theo dòng suối, thế nào cũng tới được làng người. Thế là anh lội dọc bờ suối, bì bõm suốt cả đêm. Khi trời rạng sáng, anh tới gần một làng nhỏ ven suối. Mấy người phụ nữ đang ra lấy nước, trông thấy một sinh vật lạ, người thì như người mà đầu lại là đầu trâu rừng trắng, đang lội nước đi tới. Họ giật mình kêu lên, rồi gọi cả làng ra xem.",
+      "narration": "Giờ thì đôi mắt tiến gần hơn và nhanh hơn, càng lúc càng dữ tợn, càng lóa sáng, hướng thẳng về chiếc sọ trâu. Chẳng hay biết gì về đôi mắt đáng sợ ấy, những chú chuột vui vẻ vẫn nhấm nháp rễ củ khô và thịt nai. Các ca sĩ đã bắt đầu một bài hát khác. Những người đánh trống gõ nhịp, đầu lắc qua lắc lại theo điệu. Quanh đống lửa, lũ chuột nhảy thành vòng tròn, mỗi chú nảy mạnh trên hai chân sau. Có chú vắt đuôi qua cánh tay, có chú thì kiêu hãnh kéo lê đuôi theo sau. Ôi, đôi mắt tròn vàng ấy đã ở rất gần rồi! Chúng sát mặt đất, như đang bò, bò dần về phía chiếc sọ trâu.",
       "subtitles": [
-        "Mò mẫm mãi, Iktomi nghe thấy tiếng nước róc rách.",
-        "Anh nghĩ bụng. Cứ men theo dòng suối, thế nào cũng tới được làng người.",
-        "Thế là anh lội dọc bờ suối, bì bõm suốt cả đêm.",
-        "Khi trời rạng sáng, anh tới gần một làng nhỏ ven suối.",
-        "Mấy người phụ nữ đang ra lấy nước, trông thấy một sinh vật lạ,",
-        "người thì như người mà đầu lại là đầu trâu rừng trắng, đang lội nước đi tới.",
-        "Họ giật mình kêu lên, rồi gọi cả làng ra xem."
+        "Giờ thì đôi mắt tiến gần hơn và nhanh hơn, càng lúc càng dữ tợn, càng lóa sáng,",
+        "hướng thẳng về chiếc sọ trâu.",
+        "Chẳng hay biết gì về đôi mắt đáng sợ ấy,",
+        "những chú chuột vui vẻ vẫn nhấm nháp rễ củ khô và thịt nai.",
+        "Các ca sĩ đã bắt đầu một bài hát khác.",
+        "Những người đánh trống gõ nhịp, đầu lắc qua lắc lại theo điệu.",
+        "Quanh đống lửa, lũ chuột nhảy thành vòng tròn, mỗi chú nảy mạnh trên hai chân sau.",
+        "Có chú vắt đuôi qua cánh tay, có chú thì kiêu hãnh kéo lê đuôi theo sau.",
+        "Ôi, đôi mắt tròn vàng ấy đã ở rất gần rồi!",
+        "Chúng sát mặt đất, như đang bò, bò dần về phía chiếc sọ trâu."
       ],
       "image": {
-        "prompt": "at dawn Iktomi with the hollow buffalo head bone on his head wading along a shallow stream toward a small village of tipis, women with water bags staring in astonishment",
+        "prompt": "mice hopping in a ring around the fire inside the lit buffalo head bone, some carrying tails over their arms, nibbling dried roots, while two round yellow eyes creep low toward the buffalo head bone through the dark grass",
         "seed": 810718494,
-        "character": "iktomi"
+        "character": "meo-rung"
       },
       "video": {
-        "motionPrompt": "water splashes around his legs, the women point and call out, smoke rises from the tipis, dawn light spreads, slow push in",
+        "motionPrompt": "the mice hop and sway in rhythm, the yellow eyes creep closer along the ground, slow push in",
         "seed": 3390964518
       },
       "voice": {}
     },
     {
-      "id": "ra-khoi-so-trau",
-      "title": "Ra khỏi sọ trâu",
+      "id": "meo-meo",
+      "title": "Mèo! Mèo!",
       "narrator": "ke-chuyen",
-      "narration": "Iktomi nghe tiếng người, mừng quá, bèn kêu lên. Tôi đây, Iktomi đây, làm ơn gỡ giúp tôi với! Dân làng nhận ra giọng anh, vừa thương vừa buồn cười. Một bà cụ cầm chiếc búa đá, gõ nhè nhẹ vào chiếc sọ trâu. Cộc, cộc, rắc! Chiếc sọ vỡ đôi, rơi xuống đất. Iktomi lộ mặt ra, tóc tai rối bù, mặt mũi lấm lem. Cả làng cười ồ lên. Anh chàng xấu hổ, ba chân bốn cẳng chạy mất. Từ đó, người Dakota vẫn kể chuyện này cho con cháu, để nhắc rằng chỗ nào không vừa với mình thì đừng cố chen vào.",
+      "narration": "Bỗng nhiên, đôi mắt trượt vào hai hốc mắt của chiếc sọ cũ. “Hồn của trâu rừng!” một chú chuột hoảng sợ thét lên the thé, vừa nhảy ra khỏi một cái lỗ ở phía sau chiếc sọ. “Mèo! Mèo!” những chú chuột khác kêu lên, chen nhau chui ra từ những lỗ to nhỏ vừa vặn nhất. Chúng chạy đi không một tiếng động, biến vào trong bóng đêm.",
       "subtitles": [
-        "Iktomi nghe tiếng người, mừng quá, bèn kêu lên.",
-        "Tôi đây, Iktomi đây, làm ơn gỡ giúp tôi với!",
-        "Dân làng nhận ra giọng anh, vừa thương vừa buồn cười.",
-        "Một bà cụ cầm chiếc búa đá, gõ nhè nhẹ vào chiếc sọ trâu.",
-        "Cộc, cộc, rắc! Chiếc sọ vỡ đôi, rơi xuống đất.",
-        "Iktomi lộ mặt ra, tóc tai rối bù, mặt mũi lấm lem.",
-        "Cả làng cười ồ lên. Anh chàng xấu hổ, ba chân bốn cẳng chạy mất.",
-        "Từ đó, người Dakota vẫn kể chuyện này cho con cháu,",
-        "để nhắc rằng chỗ nào không vừa với mình thì đừng cố chen vào."
+        "Bỗng nhiên, đôi mắt trượt vào hai hốc mắt của chiếc sọ cũ.",
+        "“Hồn của trâu rừng!”",
+        "một chú chuột hoảng sợ thét lên the thé, vừa nhảy ra khỏi một cái lỗ ở phía sau chiếc sọ.",
+        "“Mèo!",
+        "Mèo!”",
+        "những chú chuột khác kêu lên, chen nhau chui ra từ những lỗ to nhỏ vừa vặn nhất.",
+        "Chúng chạy đi không một tiếng động, biến vào trong bóng đêm."
       ],
       "image": {
-        "prompt": "an old woman gently tapping the hollow buffalo head bone with a stone hammer, the buffalo head splitting open to reveal Iktomi with messy hair and a sheepish face, villagers laughing around him",
+        "prompt": "two glowing round yellow eyes sliding into the eye sockets of the old buffalo head bone, tiny frightened mice scrambling out of holes in the back of the buffalo head bone and scattering into the dark",
         "seed": 3936384840,
-        "character": "iktomi"
+        "character": "chuot"
       },
       "video": {
-        "motionPrompt": "the buffalo head cracks apart and falls, Iktomi blinks and scratches his head, villagers laugh, he turns and dashes away, slow pull back",
+        "motionPrompt": "the eyes slip into the sockets, the mice scatter out of the holes into the night, quick pan",
         "seed": 3447243732
       },
       "voice": {}
