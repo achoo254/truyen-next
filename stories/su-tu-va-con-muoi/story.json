@@ -9,8 +9,9 @@
     "thien-nhien"
   ],
   "added": "2026-11-03",
+  "revised": "2026-11-17",
   "language": "vi",
-  "source": "Jean de La Fontaine, Fables (1668–1694; tác giả mất 1695), bài «Le Lion et le Moucheron», bản tiếng Anh «The Lion and the Gnat» của Walter Thornbury, Project Gutenberg #50316, thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới, kể thành truyện từ cốt và lời răn của bài thơ ngụ ngôn, kể nhẹ nhàng cho cả nhà.",
+  "source": "Jean de La Fontaine, Fables (1668–1694; tác giả mất 1695), bài «Le Lion et le Moucheron», bản tiếng Anh «The Lion and the Gnat» của Walter Thornbury, Project Gutenberg #50316, thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới, kể đủ cốt truyện và bài học của bài thơ, không chép bản dịch nào.",
   "basedOn": "Ngụ ngôn La Fontaine",
   "style": "classic seventeenth century French storybook illustration, a sunny African savanna with tall golden grass, acacia trees and rocky outcrops, warm amber, olive green and dusty blue palette, lively humorous mood for family reading, no text, no letters, no watermark",
   "narrators": {
@@ -35,149 +36,104 @@
   ],
   "scenes": [
     {
-      "id": "loi-khinh",
-      "title": "Lời khinh miệt",
+      "id": "loi-thach-thuc",
+      "title": "Lời thách thức",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, ở một vùng đồng cỏ rộng mênh mông, có một chú sư tử oai vệ, bờm vàng óng như lửa. Muôn loài trong rừng đều cúi đầu khi chú đi qua. Một hôm, đang nằm nghỉ dưới gốc cây, sư tử nghe có tiếng vo ve bên tai. Thì ra là một con muỗi nhỏ xíu. Sư tử cau mày, gầm lên: Cút đi, đồ sâu bọ hèn mọn kia! Thứ nhỏ nhoi như mày mà cũng dám tới gần chúa sơn lâm sao? Lời khinh miệt ấy làm con muỗi giận lắm.",
+      "narration": "Một hôm, Sư Tử quát vào mặt Con Muỗi: “Cút đi, đồ côn trùng bé nhỏ, rác rưởi của đất!” Con Muỗi chẳng coi vị chúa tể muông thú đáng giá gì, liền tuyên chiến ngay, và đó không phải trò đùa đâu. “Ông tưởng tôi sợ cái danh vua chúa của ông sao?” nó nói. “Tôi chẳng thèm bận tâm đến tiếng tăm của ông. Con bò còn khỏe hơn ông nhiều, thế mà tôi vẫn thường xuyên đuổi theo nó.”",
       "subtitles": [
-        "Ngày xưa, ở một vùng đồng cỏ rộng mênh mông, có một chú sư tử oai vệ,",
-        "bờm vàng óng như lửa.",
-        "Muôn loài trong rừng đều cúi đầu khi chú đi qua.",
-        "Một hôm, đang nằm nghỉ dưới gốc cây, sư tử nghe có tiếng vo ve bên tai.",
-        "Thì ra là một con muỗi nhỏ xíu.",
-        "Sư tử cau mày, gầm lên: Cút đi, đồ sâu bọ hèn mọn kia!",
-        "Thứ nhỏ nhoi như mày mà cũng dám tới gần chúa sơn lâm sao?",
-        "Lời khinh miệt ấy làm con muỗi giận lắm."
+        "Một hôm, Sư Tử quát vào mặt Con Muỗi: “Cút đi, đồ côn trùng bé nhỏ, rác rưởi của đất!”",
+        "Con Muỗi chẳng coi vị chúa tể muông thú đáng giá gì, liền tuyên chiến ngay,",
+        "và đó không phải trò đùa đâu.",
+        "“Ông tưởng tôi sợ cái danh vua chúa của ông sao?” nó nói.",
+        "“Tôi chẳng thèm bận tâm đến tiếng tăm của ông.",
+        "Con bò còn khỏe hơn ông nhiều, thế mà tôi vẫn thường xuyên đuổi theo nó.”"
       ],
       "image": {
-        "prompt": "a big proud lion lying under an acacia tree on the golden savanna, frowning and roaring at a tiny gnat hovering in front of its nose",
-        "seed": 1904405205,
+        "prompt": "a proud lion in a savanna clearing roaring at a tiny gnat hovering before him, fable illustration in golden light",
+        "seed": 1100411080,
         "character": "su-tu"
       },
       "video": {
-        "motionPrompt": "the lion lifts its head and opens its mouth in a roar, its mane ruffles, the tiny gnat hovers unafraid, grass sways",
-        "seed": 23305102
+        "motionPrompt": "the gnat buzzes, the lion bares his teeth",
+        "seed": 3762755578
       },
       "voice": {}
     },
     {
-      "id": "tuyen-chien",
-      "title": "Lời tuyên chiến",
+      "id": "tieng-ken-ra-tran",
+      "title": "Tiếng kèn ra trận",
       "narrator": "ke-chuyen",
-      "narration": "Con muỗi đáp lại, giọng bé mà gan to: Ông tưởng cái danh vua của ông làm tôi sợ chắc? Con bò mộng còn to hơn ông nhiều, vậy mà tôi muốn dắt nó đi đâu thì nó phải đi đó. Ông đã coi thường tôi, vậy thì tôi tuyên chiến với ông! Nói xong, con muỗi tự mình thổi kèn xung trận, tự mình làm tướng, tự mình làm quân. Nó lùi ra xa một chút để lấy đà, rồi lao thẳng tới.",
+      "narration": "Nói xong, nó tức giận, cuống quýt, thổi vang chiếc kèn to nhất của mình, rồi xông vào đại vương như một tay Nero, vừa là kèn vừa là anh hùng. Giờ báo thù đã đến, và lỗi chẳng phải ở Con Muỗi. Nó đậu xuống cổ Sư Tử, mừng rỡ vì sắp làm cho Sư Tử nổi điên.",
       "subtitles": [
-        "Con muỗi đáp lại, giọng bé mà gan to: Ông tưởng cái danh vua của ông làm tôi sợ chắc?",
-        "Con bò mộng còn to hơn ông nhiều, vậy mà tôi muốn dắt nó đi đâu thì nó phải đi đó.",
-        "Ông đã coi thường tôi, vậy thì tôi tuyên chiến với ông!",
-        "Nói xong, con muỗi tự mình thổi kèn xung trận, tự mình làm tướng, tự mình làm quân.",
-        "Nó lùi ra xa một chút để lấy đà, rồi lao thẳng tới."
+        "Nói xong, nó tức giận, cuống quýt, thổi vang chiếc kèn to nhất của mình,",
+        "rồi xông vào đại vương như một tay Nero, vừa là kèn vừa là anh hùng.",
+        "Giờ báo thù đã đến, và lỗi chẳng phải ở Con Muỗi.",
+        "Nó đậu xuống cổ Sư Tử, mừng rỡ vì sắp làm cho Sư Tử nổi điên."
       ],
       "image": {
-        "prompt": "a tiny brave gnat puffing out its chest and blowing a little trumpet in midair, facing a huge astonished lion on the savanna",
-        "seed": 4064639680,
+        "prompt": "a tiny gnat blowing a trumpet and diving toward the neck of a great lion, fable illustration",
+        "seed": 2895030578,
         "character": "con-muoi"
       },
       "video": {
-        "motionPrompt": "the gnat raises a tiny trumpet and charges forward, the lion blinks in surprise, dust swirls in the sunlight",
-        "seed": 590679576
+        "motionPrompt": "the gnat zooms in, trumpet glints",
+        "seed": 2804729383
       },
       "voice": {}
     },
     {
-      "id": "tran-dau",
-      "title": "Trận đánh kỳ lạ",
+      "id": "su-tu-noi-dien",
+      "title": "Sư Tử nổi điên",
       "narrator": "ke-chuyen",
-      "narration": "Con muỗi đốt vào gáy sư tử, rồi vụt bay đi. Sư tử giật nảy, quay phắt lại, chẳng thấy kẻ thù đâu. Muỗi lại đốt vào mõm, rồi chui tọt vào trong lỗ mũi của chúa sơn lâm. Sư tử nổi điên lên, mắt long sòng sọc, gầm vang cả vùng. Muông thú xung quanh sợ hãi chạy trốn hết, run lẩy bẩy trong các bụi rậm. Thế mà tất cả chỉ vì một con muỗi bé tí. Sư tử vung móng cào khắp nơi, lăn lộn trên cỏ, tự quật đuôi vào mình, nhưng chẳng sao trúng được kẻ thù vô hình.",
+      "narration": "Vị chúa tể sùi bọt mép, đôi mắt sáng quắc đảo loạn. Mọi con vật nhỏ hơn chạy tán loạn trước tiếng gầm của ông, trốn kỹ để tránh sự tàn bạo và kiêu căng ấy. Và tất cả nỗi kinh hoàng đó chỉ vì vết đốt của một con muỗi nhỏ, nó đổi chỗ tấn công từng khoảnh khắc: lúc đầu đốt vào mồm, rồi vào lưng, sau đó chui vào tận hang trong mũi, không để Sư Tử được nghỉ phút nào. Kẻ thù vô hình cười phá lên khi thấy một con sư tử bị đánh cho tan tác, nhưng nó thấy rõ rằng cả răng lẫn móng cũng không thể làm xước nổi một kẻ tí hon như nó. Sư Tử bất lực tự cào xé da mình, quất cái đuôi giận dữ vào hai bên sườn, và cuối cùng, mệt lả, gần như kiệt sức, đành bỏ ý định hung hăng của mình.",
       "subtitles": [
-        "Con muỗi đốt vào gáy sư tử, rồi vụt bay đi.",
-        "Sư tử giật nảy, quay phắt lại, chẳng thấy kẻ thù đâu.",
-        "Muỗi lại đốt vào mõm, rồi chui tọt vào trong lỗ mũi của chúa sơn lâm.",
-        "Sư tử nổi điên lên, mắt long sòng sọc, gầm vang cả vùng.",
-        "Muông thú xung quanh sợ hãi chạy trốn hết, run lẩy bẩy trong các bụi rậm.",
-        "Thế mà tất cả chỉ vì một con muỗi bé tí.",
-        "Sư tử vung móng cào khắp nơi, lăn lộn trên cỏ, tự quật đuôi vào mình,",
-        "nhưng chẳng sao trúng được kẻ thù vô hình."
+        "Vị chúa tể sùi bọt mép, đôi mắt sáng quắc đảo loạn.",
+        "Mọi con vật nhỏ hơn chạy tán loạn trước tiếng gầm của ông,",
+        "trốn kỹ để tránh sự tàn bạo và kiêu căng ấy.",
+        "Và tất cả nỗi kinh hoàng đó chỉ vì vết đốt của một con muỗi nhỏ,",
+        "nó đổi chỗ tấn công từng khoảnh khắc:",
+        "lúc đầu đốt vào mồm, rồi vào lưng, sau đó chui vào tận hang trong mũi,",
+        "không để Sư Tử được nghỉ phút nào.",
+        "Kẻ thù vô hình cười phá lên khi thấy một con sư tử bị đánh cho tan tác,",
+        "nhưng nó thấy rõ rằng cả răng lẫn móng cũng không thể làm xước nổi một kẻ tí hon như nó.",
+        "Sư Tử bất lực tự cào xé da mình, quất cái đuôi giận dữ vào hai bên sườn, và cuối cùng,",
+        "mệt lả, gần như kiệt sức, đành bỏ ý định hung hăng của mình."
       ],
       "image": {
-        "prompt": "a furious lion rolling in the grass and swiping its paws at the air, a tiny gnat zipping around its nose, other animals peeking out fearfully from bushes",
-        "seed": 690664203,
+        "prompt": "a furious lion clawing at his own mane and lashing his tail while animals hide behind trees, a tiny gnat darting around his nose, fable illustration",
+        "seed": 3462415691,
         "character": "su-tu"
       },
       "video": {
-        "motionPrompt": "the lion twists, swats and roars, the gnat darts in quick circles, startled antelopes and birds flee, dust and grass fly, comic chaos",
-        "seed": 507683919
+        "motionPrompt": "the lion thrashes, the gnat darts, leaves shake",
+        "seed": 4099713907
       },
       "voice": {}
     },
     {
-      "id": "su-tu-met-la",
-      "title": "Chúa sơn lâm mệt lả",
+      "id": "chien-thang-va-cai-bay",
+      "title": "Chiến thắng và cái bẫy",
       "narrator": "ke-chuyen",
-      "narration": "Con muỗi bay vòng trên cao, cười khúc khích. Nó nhìn chúa sơn lâm tự làm mình đau, tự làm mình rối tung lên vì giận. Cuối cùng sư tử mệt quá, nằm vật ra giữa đám cỏ, thở hổn hển, chẳng còn sức mà gầm nữa. Con muỗi ưỡn ngực, rút lui trong vinh quang. Nó bay khắp đồng cỏ, lại thổi kèn, lần này là kèn chiến thắng, đi tới đâu cũng khoe: Chính tôi, con muỗi này, đã thắng được chúa sơn lâm!",
+      "narration": "Mang vinh quang, Con Muỗi rời chiến trường, thổi kèn chiến thắng của mình, như đã thổi kèn xung trận trước kia, vẫn thêm một hồi cuối cho chiến công. Nó bay chỗ này chỗ kia để kể cho mọi nơi nghe. Than ôi, nó bay trúng một tấm lưới nhện giăng sẵn, và bị ăn thịt ngay giữa không trung. Vậy chúng ta học được gì từ chuyện này? Có hai điều. Thứ nhất, trong số kẻ thù, những kẻ nhỏ bé nhất lại đáng sợ nhất. Thứ hai, khi vượt qua những hiểm nguy lớn, vẫn có thể còn những cạm bẫy đang chờ ta, dù nhỏ đến nỗi chẳng nhìn thấy.",
       "subtitles": [
-        "Con muỗi bay vòng trên cao, cười khúc khích.",
-        "Nó nhìn chúa sơn lâm tự làm mình đau, tự làm mình rối tung lên vì giận.",
-        "Cuối cùng sư tử mệt quá, nằm vật ra giữa đám cỏ, thở hổn hển, chẳng còn sức mà gầm nữa.",
-        "Con muỗi ưỡn ngực, rút lui trong vinh quang.",
-        "Nó bay khắp đồng cỏ, lại thổi kèn, lần này là kèn chiến thắng, đi tới đâu cũng khoe:",
-        "Chính tôi, con muỗi này, đã thắng được chúa sơn lâm!"
+        "Mang vinh quang, Con Muỗi rời chiến trường, thổi kèn chiến thắng của mình,",
+        "như đã thổi kèn xung trận trước kia, vẫn thêm một hồi cuối cho chiến công.",
+        "Nó bay chỗ này chỗ kia để kể cho mọi nơi nghe.",
+        "Than ôi, nó bay trúng một tấm lưới nhện giăng sẵn, và bị ăn thịt ngay giữa không trung.",
+        "Vậy chúng ta học được gì từ chuyện này?",
+        "Có hai điều.",
+        "Thứ nhất, trong số kẻ thù, những kẻ nhỏ bé nhất lại đáng sợ nhất.",
+        "Thứ hai, khi vượt qua những hiểm nguy lớn, vẫn có thể còn những cạm bẫy đang chờ ta,",
+        "dù nhỏ đến nỗi chẳng nhìn thấy."
       ],
       "image": {
-        "prompt": "an exhausted lion lying flat in the trampled grass panting, a tiny triumphant gnat flying high above blowing a victory trumpet, late afternoon light",
-        "seed": 944439980,
+        "prompt": "a small gnat flying triumphantly with a trumpet toward a hidden spider web glistening in the trees, a spider waiting, fable illustration",
+        "seed": 1480178923,
         "character": "con-muoi"
       },
       "video": {
-        "motionPrompt": "the lion's sides rise and fall slowly, the gnat loops in the air proudly, golden light spreads over the savanna",
-        "seed": 1836545121
-      },
-      "voice": {}
-    },
-    {
-      "id": "luoi-nhen",
-      "title": "Tấm lưới nhện",
-      "narrator": "ke-chuyen",
-      "narration": "Mải khoe khoang, con muỗi chẳng nhìn đường. Giữa hai cành cây gai có một tấm lưới nhện mỏng tang, lấp lánh trong nắng chiều. Con muỗi đâm sầm vào đó, dính chặt cả chân lẫn cánh. Nó vùng vẫy mãi mà chẳng thoát ra được. Bác nhện già từ góc lưới lặng lẽ bò tới. Kẻ vừa thắng được chúa sơn lâm, giờ lại thua một tấm lưới nhỏ xíu, và từ đó chẳng ai còn nghe tiếng kèn của nó nữa.",
-      "subtitles": [
-        "Mải khoe khoang, con muỗi chẳng nhìn đường.",
-        "Giữa hai cành cây gai có một tấm lưới nhện mỏng tang, lấp lánh trong nắng chiều.",
-        "Con muỗi đâm sầm vào đó, dính chặt cả chân lẫn cánh.",
-        "Nó vùng vẫy mãi mà chẳng thoát ra được.",
-        "Bác nhện già từ góc lưới lặng lẽ bò tới.",
-        "Kẻ vừa thắng được chúa sơn lâm, giờ lại thua một tấm lưới nhỏ xíu,",
-        "và từ đó chẳng ai còn nghe tiếng kèn của nó nữa."
-      ],
-      "image": {
-        "prompt": "a tiny gnat caught in a glistening spider web strung between thorny acacia branches, a calm old spider sitting at the edge of the web, sunset glow",
-        "seed": 2231713222,
-        "character": "con-muoi"
-      },
-      "video": {
-        "motionPrompt": "the web trembles as the gnat flutters, dewdrops sparkle on the threads, the spider moves slowly closer, soft focus",
-        "seed": 907587317
-      },
-      "voice": {}
-    },
-    {
-      "id": "loi-ran",
-      "title": "Lời răn",
-      "narrator": "ke-chuyen",
-      "narration": "Ngụ ngôn xưa dạy ta hai điều. Điều thứ nhất: trong những kẻ chống lại ta, kẻ bé nhỏ nhất nhiều khi lại đáng gờm nhất, nên đừng bao giờ coi thường ai. Điều thứ hai: có những người vượt qua được hiểm nguy lớn, rồi lại vấp ngã vì một chuyện cỏn con. Vậy nên, thắng rồi cũng đừng vội khoe khoang, mà hãy cứ cẩn thận nhìn đường mà đi.",
-      "subtitles": [
-        "Ngụ ngôn xưa dạy ta hai điều.",
-        "Điều thứ nhất: trong những kẻ chống lại ta, kẻ bé nhỏ nhất nhiều khi lại đáng gờm nhất,",
-        "nên đừng bao giờ coi thường ai.",
-        "Điều thứ hai: có những người vượt qua được hiểm nguy lớn,",
-        "rồi lại vấp ngã vì một chuyện cỏn con.",
-        "Vậy nên, thắng rồi cũng đừng vội khoe khoang, mà hãy cứ cẩn thận nhìn đường mà đi."
-      ],
-      "image": {
-        "prompt": "the lion resting peacefully under the acacia tree at dusk, the savanna calm again, a spider web glinting softly in the last light",
-        "seed": 1822148138
-      },
-      "video": {
-        "motionPrompt": "evening breeze moves the grass, the lion's tail flicks lazily, the web sways, slow pull back to the wide savanna",
-        "seed": 3934740374
+        "motionPrompt": "the gnat flies on, the web sways, the spider creeps closer",
+        "seed": 2114989045
       },
       "voice": {}
     }
