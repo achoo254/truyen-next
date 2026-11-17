@@ -9,8 +9,9 @@
     "thien-nhien"
   ],
   "added": "2026-11-02",
+  "revised": "2026-11-17",
   "language": "vi",
-  "source": "Ngụ ngôn Aesop «The Camel» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản dịch nào. Truyện gốc chỉ vài câu: Mèo Miu dẫn chuyện; bác lái buôn, cậu bé Nikos, thoại và chi tiết làng quê do người viết thêm.",
+  "source": "Ngụ ngôn Aesop «The Camel» (Hy Lạp cổ đại; theo bản dịch tiếng Anh của G. F. Townsend 1867, Project Gutenberg #21), thuộc phạm vi công cộng. Truyện gốc chỉ vài câu: người ta lần đầu thấy lạc đà thì sợ bỏ chạy, rồi thấy nó hiền thì lại gần, rồi thấy nó chẳng có chút hung hăng nào thì đặt hàm thiếc cho nó và để một đứa trẻ dắt. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ bản dịch nào; phần mở và kết của Mèo Miu là lời dẫn thêm, không thuộc cốt truyện.",
   "basedOn": "Ngụ ngôn Aesop",
   "style": "classic European storybook illustration in the spirit of old Aesop picture books, soft watercolor and gouache, warm sunny light, a small whitewashed Greek village by the sea with olive trees and a dusty road, rounded friendly shapes, gentle humorous mood for young children, no text, no letters, no watermark",
   "narrators": {
@@ -36,18 +37,6 @@
       "name": "Lạc đà",
       "seed": 2731684483,
       "sheetPrompt": "a tall gentle one-humped camel with long eyelashes, sleepy kind eyes and a soft smile, a colourful woven saddle blanket, cute cartoon style, full body, side view, plain soft cream background, character reference sheet"
-    },
-    {
-      "id": "nikos",
-      "name": "Cậu bé Nikos",
-      "seed": 3478963353,
-      "sheetPrompt": "a small curly-haired boy about seven years old in a simple ancient Greek tunic and sandals, curious brave smile, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
-    },
-    {
-      "id": "lai-buon",
-      "name": "Bác lái buôn",
-      "seed": 522483053,
-      "sheetPrompt": "a kind traveling merchant with a big beard, a striped headscarf and a long robe, holding a rope, warm laugh, cute cartoon style, full body, front view, plain soft cream background, character reference sheet"
     }
   ],
   "scenes": [
@@ -55,12 +44,14 @@
       "id": "mo-dau",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Lần đầu đi sở thú, có bạn nào sợ chú voi to đùng không? Miu thì lần đầu thấy cái máy hút bụi, Miu chui tọt vào gầm giường luôn đấy! Hôm nay Miu kể chuyện một ngôi làng lần đầu gặp một con vật rất to, rất lạ. Đó là con gì nhỉ? Mình cùng nghe nhé!",
+      "narration": "Xin chào các bạn nhỏ! Lần đầu đi sở thú, có bạn nào sợ chú voi to đùng không? Miu thì lần đầu thấy cái máy hút bụi, Miu chui tọt vào gầm giường luôn đấy! Hôm nay Miu kể chuyện về những người lần đầu gặp một con vật rất to, rất lạ. Đó là con gì nhỉ? Mình cùng nghe nhé!",
       "subtitles": [
-        "Xin chào các bạn nhỏ! Lần đầu đi sở thú, có bạn nào sợ chú voi to đùng không?",
+        "Xin chào các bạn nhỏ!",
+        "Lần đầu đi sở thú, có bạn nào sợ chú voi to đùng không?",
         "Miu thì lần đầu thấy cái máy hút bụi, Miu chui tọt vào gầm giường luôn đấy!",
-        "Hôm nay Miu kể chuyện một ngôi làng lần đầu gặp một con vật rất to, rất lạ.",
-        "Đó là con gì nhỉ? Mình cùng nghe nhé!"
+        "Hôm nay Miu kể chuyện về những người lần đầu gặp một con vật rất to, rất lạ.",
+        "Đó là con gì nhỉ?",
+        "Mình cùng nghe nhé!"
       ],
       "image": {
         "character": "miu",
@@ -75,90 +66,92 @@
     },
     {
       "id": "vat-la",
-      "title": "Con vật lạ ngoài cổng làng",
+      "title": "Con vật lạ",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, ở một ngôi làng nhỏ bên biển, chưa ai từng thấy con lạc đà. Một sáng kia, có bác lái buôn từ xứ cát xa xôi dắt tới một con vật cao lênh khênh. Cổ nó dài ngoằng, chân dài như cây sào, trên lưng lại gồ lên một cái bướu to tướng. Bóng nó đổ dài cả con đường. Ai nấy tròn mắt: Trời ơi, con quái gì thế kia? Bà bán cá đánh rơi cả giỏ, ông thợ rèn buông cả búa, rồi cả làng ù té chạy.",
+      "narration": "Ngày xưa, có một lần người ta nhìn thấy con lạc đà. Chưa ai từng gặp con vật nào như thế! Nó cao lênh khênh, cổ dài ngoằng, trên lưng gồ lên một cái bướu to tướng, bước đi chầm chậm mà bóng đổ dài cả con đường. Ai trông thấy cũng sợ run, vì nó to quá, to hơn mọi con vật quen thuộc trong làng. Thế là người nào người nấy co chân chạy thật xa, chẳng ai dám ngoái đầu lại.",
       "subtitles": [
-        "Ngày xưa, ở một ngôi làng nhỏ bên biển, chưa ai từng thấy con lạc đà.",
-        "Một sáng kia, có bác lái buôn từ xứ cát xa xôi dắt tới một con vật cao lênh khênh.",
-        "Cổ nó dài ngoằng, chân dài như cây sào, trên lưng lại gồ lên một cái bướu to tướng.",
-        "Bóng nó đổ dài cả con đường. Ai nấy tròn mắt: Trời ơi, con quái gì thế kia?",
-        "Bà bán cá đánh rơi cả giỏ, ông thợ rèn buông cả búa, rồi cả làng ù té chạy."
+        "Ngày xưa, có một lần người ta nhìn thấy con lạc đà.",
+        "Chưa ai từng gặp con vật nào như thế!",
+        "Nó cao lênh khênh, cổ dài ngoằng, trên lưng gồ lên một cái bướu to tướng,",
+        "bước đi chầm chậm mà bóng đổ dài cả con đường.",
+        "Ai trông thấy cũng sợ run, vì nó to quá, to hơn mọi con vật quen thuộc trong làng.",
+        "Thế là người nào người nấy co chân chạy thật xa, chẳng ai dám ngoái đầu lại."
       ],
       "image": {
         "character": "lac-da",
-        "prompt": "a very tall camel led by a bearded merchant walks through the gate of a whitewashed Greek village, villagers run away in comic fright, a fish basket tipped over on the road",
+        "prompt": "a very tall camel walks into a whitewashed seaside village, villagers run away in comic fright, a basket tipped over on the road",
         "seed": 1523846826
       },
       "video": {
-        "motionPrompt": "the camel steps forward slowly, villagers scatter in all directions waving their arms, a cat leaps onto a wall, playful comic timing",
+        "motionPrompt": "the camel steps forward slowly, villagers scatter waving their arms, playful comic timing",
         "seed": 809198738
       },
       "voice": {}
     },
     {
       "id": "nap-sau-tuong",
-      "title": "Nấp sau bức tường",
+      "title": "Nấp từ xa",
       "narrator": "ke-chuyen",
-      "narration": "Người làng nấp sau tường đá, sau cánh cửa, sau cả đống rơm, chỉ dám ló mắt ra nhìn. Con lạc đà chẳng làm gì cả. Nó quỳ xuống bên bờ giếng, nhai cỏ khô chầm chậm, đôi mắt lim dim, hàng mi dài cong vút. Nó còn ngáp một cái rõ to, nghe như tiếng thở dài. Bác lái buôn cười khà khà: Bà con đừng sợ, nó hiền như cục bột ấy mà!",
+      "narration": "Chạy xa rồi, mọi người nấp sau tường, sau cửa, sau cả đống rơm, chỉ dám ló mắt ra nhìn. Con lạc đà chẳng đuổi theo ai cả. Nó cứ lững thững đi, ánh mắt lim dim, hàng mi dài cong vút, trông hiền như một con vật đang ngái ngủ. Nó chẳng gầm gừ, cũng chẳng xô đẩy ai.",
       "subtitles": [
-        "Người làng nấp sau tường đá, sau cánh cửa, sau cả đống rơm, chỉ dám ló mắt ra nhìn.",
-        "Con lạc đà chẳng làm gì cả. Nó quỳ xuống bên bờ giếng, nhai cỏ khô chầm chậm,",
-        "đôi mắt lim dim, hàng mi dài cong vút. Nó còn ngáp một cái rõ to, nghe như tiếng thở dài.",
-        "Bác lái buôn cười khà khà: Bà con đừng sợ, nó hiền như cục bột ấy mà!"
+        "Chạy xa rồi, mọi người nấp sau tường, sau cửa, sau cả đống rơm, chỉ dám ló mắt ra nhìn.",
+        "Con lạc đà chẳng đuổi theo ai cả.",
+        "Nó cứ lững thững đi, ánh mắt lim dim, hàng mi dài cong vút,",
+        "trông hiền như một con vật đang ngái ngủ.",
+        "Nó chẳng gầm gừ, cũng chẳng xô đẩy ai."
       ],
       "image": {
-        "character": "lai-buon",
-        "prompt": "villagers peek nervously from behind stone walls and haystacks, the camel kneels calmly by a village well chewing hay with half-closed eyes, the merchant laughs",
+        "character": "lac-da",
+        "prompt": "villagers peek nervously from behind stone walls and haystacks while a calm camel strolls by with half-closed eyes",
         "seed": 1479880828
       },
       "video": {
-        "motionPrompt": "heads pop up one by one from behind the walls, the camel chews slowly and yawns, the merchant chuckles and waves everyone closer",
+        "motionPrompt": "heads pop up one by one from behind the walls, the camel strolls slowly and blinks",
         "seed": 3346933888
       },
       "voice": {}
     },
     {
       "id": "lai-gan",
-      "title": "Từng bước lại gần",
+      "title": "Lại gần hơn",
       "narrator": "ke-chuyen",
-      "narration": "Ngày hôm sau, người làng đứng xa xa ngắm. Ngày hôm sau nữa, họ đứng gần hơn một chút. Có người đưa cho nó một bó cỏ. Lạc đà khẽ cúi xuống, ăn ngoan ngoãn, rồi dụi mũi cảm ơn. Có người đánh bạo vuốt lên cổ nó. Lông nó mềm và ấm, chẳng đáng sợ chút nào. Bà bán cá bật cười: Ô hay, to xác thế mà hiền khô!",
+      "narration": "Nhìn mãi, nhìn mãi, người ta bắt đầu thấy con vật này tính tình hiền lành lắm. Dần dần, họ lấy hết can đảm, bước ra khỏi chỗ nấp, rồi đến gần nó từng chút một. Càng đến gần, họ càng thấy nó ngoan ngoãn, chẳng có chút hung dữ nào. Nỗi sợ ban đầu cứ nhỏ dần, nhỏ dần, rồi tan mất lúc nào chẳng hay.",
       "subtitles": [
-        "Ngày hôm sau, người làng đứng xa xa ngắm. Ngày hôm sau nữa, họ đứng gần hơn một chút.",
-        "Có người đưa cho nó một bó cỏ. Lạc đà khẽ cúi xuống, ăn ngoan ngoãn, rồi dụi mũi cảm ơn.",
-        "Có người đánh bạo vuốt lên cổ nó. Lông nó mềm và ấm, chẳng đáng sợ chút nào.",
-        "Bà bán cá bật cười: Ô hay, to xác thế mà hiền khô!"
+        "Nhìn mãi, nhìn mãi, người ta bắt đầu thấy con vật này tính tình hiền lành lắm.",
+        "Dần dần, họ lấy hết can đảm, bước ra khỏi chỗ nấp, rồi đến gần nó từng chút một.",
+        "Càng đến gần, họ càng thấy nó ngoan ngoãn, chẳng có chút hung dữ nào.",
+        "Nỗi sợ ban đầu cứ nhỏ dần, nhỏ dần, rồi tan mất lúc nào chẳng hay."
       ],
       "image": {
         "character": "lac-da",
-        "prompt": "a few villagers shyly offer a bundle of hay to the kneeling camel, a woman gently strokes its long neck, the camel nuzzles her hand",
+        "prompt": "a few villagers shyly step closer to a gentle camel, one reaching out to touch its long neck, the camel stands calmly",
         "seed": 292562711
       },
       "video": {
-        "motionPrompt": "the camel lowers its head to take the hay and nuzzles the woman's hand, villagers smile and step closer, warm morning light",
+        "motionPrompt": "villagers step closer one by one and smile, the camel lowers its head calmly, warm morning light",
         "seed": 1490884560
       },
       "voice": {}
     },
     {
       "id": "cau-be-dat",
-      "title": "Cậu bé dắt lạc đà",
+      "title": "Em bé dắt lạc đà",
       "narrator": "ke-chuyen",
-      "narration": "Cậu bé Nikos đứng nhìn mãi, rồi chạy tới hỏi: Bác ơi, cho cháu dắt nó được không? Bác lái buôn trao cho cậu sợi dây cương. Nikos kéo nhẹ một cái, và con lạc đà to như quả đồi đứng dậy, ngoan ngoãn bước theo cậu bé. Cậu dắt nó đi một vòng quanh giếng, cả làng vỗ tay reo hò. Bọn trẻ còn thay nhau ngồi lên lưng nó, cười khúc khích suốt cả buổi chiều.",
+      "narration": "Thấy nó hiền đến thế, ngoan đến thế, người ta còn dám làm một việc mà lúc đầu chẳng ai dám nghĩ tới. Họ đặt một chiếc hàm thiếc vào miệng con lạc đà, buộc dây cương thật cẩn thận. Rồi họ để cho một em bé đến dắt nó đi! Con vật to như quả đồi ấy cứ lặng lẽ bước theo em bé, chẳng hề phản đối.",
       "subtitles": [
-        "Cậu bé Nikos đứng nhìn mãi, rồi chạy tới hỏi: Bác ơi, cho cháu dắt nó được không?",
-        "Bác lái buôn trao cho cậu sợi dây cương. Nikos kéo nhẹ một cái,",
-        "và con lạc đà to như quả đồi đứng dậy, ngoan ngoãn bước theo cậu bé.",
-        "Cậu dắt nó đi một vòng quanh giếng, cả làng vỗ tay reo hò.",
-        "Bọn trẻ còn thay nhau ngồi lên lưng nó, cười khúc khích suốt cả buổi chiều."
+        "Thấy nó hiền đến thế, ngoan đến thế,",
+        "người ta còn dám làm một việc mà lúc đầu chẳng ai dám nghĩ tới.",
+        "Họ đặt một chiếc hàm thiếc vào miệng con lạc đà, buộc dây cương thật cẩn thận.",
+        "Rồi họ để cho một em bé đến dắt nó đi!",
+        "Con vật to như quả đồi ấy cứ lặng lẽ bước theo em bé, chẳng hề phản đối."
       ],
       "image": {
-        "character": "nikos",
-        "prompt": "a small curly-haired boy proudly leads the tall camel by a rope around the village well, children ride on the camel's back laughing, villagers clap",
+        "character": "lac-da",
+        "prompt": "a small child proudly leads a tall gentle camel wearing a simple bridle along a village lane, villagers watch smiling from the doorways",
         "seed": 2300198636
       },
       "video": {
-        "motionPrompt": "the boy tugs the rope gently and the camel follows him step by step, children on its back wave, villagers clap their hands",
+        "motionPrompt": "the child tugs the rope gently and the camel follows step by step, villagers wave, warm light",
         "seed": 2604544011
       },
       "voice": {}
@@ -167,12 +160,14 @@
       "id": "ket-thuc",
       "title": "Mèo Miu chào tạm biệt",
       "narrator": "miu",
-      "narration": "Các bạn thấy không, lúc đầu cả làng sợ lạc đà vì chưa biết nó là con gì. Đến khi quen rồi, hiểu rồi, thì nỗi sợ bay đi đâu mất, đến em bé cũng dắt được nó. Cái gì mới lạ, mình cứ từ từ làm quen nhé, biết đâu lại có thêm một người bạn. Còn Miu giờ đã dám nằm cạnh cái máy hút bụi rồi đấy! Hẹn gặp lại các bạn nhé!",
+      "narration": "Các bạn thấy không, lúc đầu ai cũng sợ lạc đà chỉ vì nó to quá và lạ quá. Đến khi biết nó hiền, quen với nó rồi, thì nỗi sợ bay đi đâu mất, đến em bé cũng dắt được nó. Cái gì mới lạ, mình cứ từ từ làm quen nhé, biết đâu lại có thêm một người bạn. Còn Miu giờ đã dám nằm cạnh cái máy hút bụi rồi đấy! Hẹn gặp lại các bạn nhé!",
       "subtitles": [
-        "Các bạn thấy không, lúc đầu cả làng sợ lạc đà vì chưa biết nó là con gì.",
-        "Đến khi quen rồi, hiểu rồi, thì nỗi sợ bay đi đâu mất, đến em bé cũng dắt được nó.",
+        "Các bạn thấy không, lúc đầu ai cũng sợ lạc đà chỉ vì nó to quá và lạ quá.",
+        "Đến khi biết nó hiền, quen với nó rồi, thì nỗi sợ bay đi đâu mất,",
+        "đến em bé cũng dắt được nó.",
         "Cái gì mới lạ, mình cứ từ từ làm quen nhé, biết đâu lại có thêm một người bạn.",
-        "Còn Miu giờ đã dám nằm cạnh cái máy hút bụi rồi đấy! Hẹn gặp lại các bạn nhé!"
+        "Còn Miu giờ đã dám nằm cạnh cái máy hút bụi rồi đấy!",
+        "Hẹn gặp lại các bạn nhé!"
       ],
       "image": {
         "character": "miu",
