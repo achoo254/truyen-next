@@ -9,8 +9,9 @@
     "thien-nhien"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-18",
   "language": "vi",
-  "source": "Truyện dân gian Việt Nam, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ: không có đoạn đốt lửa của bản gốc, vằn của hổ là vết dây thừng hằn lên khi hổ vùng vẫy suốt đêm.",
+  "source": "Truyện cổ tích dân gian Việt Nam Trí khôn của ta đây (còn gọi Con hổ, con trâu và người nông dân), truyền miệng, thuộc phạm vi công cộng; đối chiếu bản kể trên truyencotich.vn. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản kể nào; kể nhẹ đoạn lửa cháy, hổ chỉ bị cháy xém lông và để lại vằn.",
   "basedOn": "Truyện dân gian Việt Nam",
   "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, green rice terraces at the edge of a forest, big old tree, thatched hut, no text, no letters, no watermark",
   "narrators": {
@@ -55,138 +56,149 @@
       "id": "mo-dau",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Các bạn có biết vì sao bác hổ lại có những vằn đen trên lưng không? Ngày xưa bác hổ không có vằn đâu nhé, lông chỉ vàng óng một màu thôi. Còn vì sao lại có vằn, là nhờ một cái trí khôn đấy. Trí khôn là gì mà lạ thế? Mình cùng nghe nhé!",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn có biết vì sao bác hổ lại có những vằn đen dài trên mình không? Mà vì sao con trâu lại không có răng ở hàm trên nữa? Chuyện này có liên quan đến một thứ rất lạ, gọi là trí khôn đấy. Trí khôn là gì nhỉ? Mình cùng nghe nhé!",
       "subtitles": [
-        "Xin chào các bạn nhỏ! Các bạn có biết vì sao bác hổ lại có những vằn đen trên lưng không?",
-        "Ngày xưa bác hổ không có vằn đâu nhé, lông chỉ vàng óng một màu thôi.",
-        "Còn vì sao lại có vằn, là nhờ một cái trí khôn đấy.",
-        "Trí khôn là gì mà lạ thế? Mình cùng nghe nhé!"
+        "Xin chào các bạn nhỏ!",
+        "Mèo Miu đây.",
+        "Các bạn có biết vì sao bác hổ lại có những vằn đen dài trên mình không?",
+        "Mà vì sao con trâu lại không có răng ở hàm trên nữa?",
+        "Chuyện này có liên quan đến một thứ rất lạ, gọi là trí khôn đấy.",
+        "Trí khôn là gì nhỉ?",
+        "Mình cùng nghe nhé!"
       ],
       "image": {
-        "character": "miu",
-        "prompt": "Meo Miu the voxel white cat sits on a wooden stool in a sunny yard, holding a small plush tiger toy and pointing at its stripes, an open picture book on her lap",
-        "seed": 637985718
+        "prompt": "Meo Miu the voxel white cat sits on a bund beside a rice field pointing at her forehead, a water buffalo grazes behind her and a striped tiger peeks from the forest edge",
+        "seed": 3863379475,
+        "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat points at the plush tiger stripes and tilts her head curiously, sunlight dapples the yard, slow gentle camera push-in",
+        "motionPrompt": "the cat taps her forehead, the buffalo chews, the tiger's head peeks out of the bushes, wind in the rice",
+        "seed": 1198199754
+      },
+      "voice": {}
+    },
+    {
+      "id": "hu-nhin-trau",
+      "title": "Hổ thấy trâu bị quất",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa có một con hổ từ trong rừng đi ra, thấy một anh nông dân đang cày ruộng cùng một con trâu. Trâu cặm cụi bước từng bước, thỉnh thoảng lại bị quất một roi vào mông. Hổ lấy làm ngạc nhiên lắm. Đến trưa, lúc anh nông dân mở cày cho trâu nghỉ, hổ liền đi lại gần trâu, hỏi: Này, trông anh khỏe thế, sao lại để cho người ta đánh đập khổ sở như vậy? Trâu khẽ nói vào tai hổ: Người tuy nhỏ bé, nhưng người có trí khôn đấy anh ạ!",
+      "subtitles": [
+        "Ngày xưa có một con hổ từ trong rừng đi ra,",
+        "thấy một anh nông dân đang cày ruộng cùng một con trâu.",
+        "Trâu cặm cụi bước từng bước, thỉnh thoảng lại bị quất một roi vào mông.",
+        "Hổ lấy làm ngạc nhiên lắm.",
+        "Đến trưa, lúc anh nông dân mở cày cho trâu nghỉ, hổ liền đi lại gần trâu, hỏi: Này,",
+        "trông anh khỏe thế, sao lại để cho người ta đánh đập khổ sở như vậy?",
+        "Trâu khẽ nói vào tai hổ: Người tuy nhỏ bé, nhưng người có trí khôn đấy anh ạ!"
+      ],
+      "image": {
+        "prompt": "a farmer ploughs a flooded paddy field with a big water buffalo, a striped tiger watches curiously from the edge of the forest, the farmer's thin switch raised lightly",
+        "seed": 3070677656,
+        "character": "con-ho"
+      },
+      "video": {
+        "motionPrompt": "the buffalo plods through the mud, the farmer flicks his switch, the tiger tilts his head from the bushes",
+        "seed": 3498933974
+      },
+      "voice": {}
+    },
+    {
+      "id": "tri-khon-la-gi",
+      "title": "Trí khôn là gì?",
+      "narrator": "ke-chuyen",
+      "narration": "Hổ không hiểu, tò mò hỏi: Trí khôn là cái gì? Nó như thế nào? Trâu chẳng biết giải thích ra sao, đành trả lời qua quýt: Trí khôn là trí khôn, chứ còn là cái gì nữa! Muốn biết rõ thì anh hỏi người ấy đi! Hổ thong thả bước lại chỗ anh nông dân và hỏi: Trí khôn của anh đâu, cho tôi xem một tí có được không? Anh nông dân suy nghĩ một lát rồi nói: Trí khôn tôi để ở nhà. Để tôi về lấy cho anh xem. Anh có cần thì tôi sẽ cho anh một ít. Hổ nghe nói, mừng lắm.",
+      "subtitles": [
+        "Hổ không hiểu, tò mò hỏi: Trí khôn là cái gì?",
+        "Nó như thế nào?",
+        "Trâu chẳng biết giải thích ra sao, đành trả lời qua quýt: Trí khôn là trí khôn,",
+        "chứ còn là cái gì nữa!",
+        "Muốn biết rõ thì anh hỏi người ấy đi!",
+        "Hổ thong thả bước lại chỗ anh nông dân và hỏi: Trí khôn của anh đâu,",
+        "cho tôi xem một tí có được không?",
+        "Anh nông dân suy nghĩ một lát rồi nói: Trí khôn tôi để ở nhà.",
+        "Để tôi về lấy cho anh xem.",
+        "Anh có cần thì tôi sẽ cho anh một ít.",
+        "Hổ nghe nói, mừng lắm."
+      ],
+      "image": {
+        "prompt": "the tiger bends toward the farmer under a tree at noon asking with a curious face, the farmer scratching his chin thoughtfully while the buffalo rests in the shade",
+        "seed": 637985718,
+        "character": "anh-nong-dan"
+      },
+      "video": {
+        "motionPrompt": "the tiger asks eagerly, the farmer rubs his chin and considers, the buffalo flicks its ears",
         "seed": 2524533643
       },
       "voice": {}
     },
     {
-      "id": "cay-ruong",
-      "title": "Anh nông dân cày ruộng",
+      "id": "buoc-ho",
+      "title": "Anh nông dân buộc hổ",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, có một anh nông dân ngày ngày dắt trâu ra cày ruộng ở bìa rừng. Anh đi sau, tay cầm cày, miệng hô: Vắt! Diệt! Trâu nghe lời, lúc rẽ trái, lúc rẽ phải, đi thẳng tắp từng luống. Có một con hổ trong rừng ngày nào cũng nằm rình bên bờ ruộng xem. Hổ lấy làm lạ lắm: Con trâu to khỏe thế kia, sao lại chịu nghe lời con người bé tí ấy nhỉ?",
+      "narration": "Anh nông dân toan đi, nhưng lại làm như chợt nhớ ra điều gì, bèn nói: Nhưng mà tôi đi khỏi, lỡ anh ăn mất con trâu của tôi thì sao? Hổ đang băn khoăn chưa biết trả lời thế nào thì anh đã nói tiếp: Hay là anh chịu khó để tôi buộc tạm anh vào gốc cây này cho tôi được yên tâm. Hổ ưng thuận. Anh nông dân liền lấy dây thừng buộc hổ thật chặt vào một gốc cây.",
       "subtitles": [
-        "Ngày xưa, có một anh nông dân ngày ngày dắt trâu ra cày ruộng ở bìa rừng.",
-        "Anh đi sau, tay cầm cày, miệng hô: Vắt! Diệt!",
-        "Trâu nghe lời, lúc rẽ trái, lúc rẽ phải, đi thẳng tắp từng luống.",
-        "Có một con hổ trong rừng ngày nào cũng nằm rình bên bờ ruộng xem.",
-        "Hổ lấy làm lạ lắm: Con trâu to khỏe thế kia, sao lại chịu nghe lời con người bé tí ấy nhỉ?"
+        "Anh nông dân toan đi, nhưng lại làm như chợt nhớ ra điều gì, bèn nói:",
+        "Nhưng mà tôi đi khỏi, lỡ anh ăn mất con trâu của tôi thì sao?",
+        "Hổ đang băn khoăn chưa biết trả lời thế nào thì anh đã nói tiếp:",
+        "Hay là anh chịu khó để tôi buộc tạm anh vào gốc cây này cho tôi được yên tâm.",
+        "Hổ ưng thuận.",
+        "Anh nông dân liền lấy dây thừng buộc hổ thật chặt vào một gốc cây."
       ],
       "image": {
-        "character": "con-trau",
-        "prompt": "at the edge of a green forest, a young farmer ploughs a rice field behind a big gentle water buffalo, a curious orange tiger with no stripes peeks out from tall grass, watching with wide eyes",
-        "seed": 3760220692
+        "prompt": "the farmer ties a thick rope around the tiger's body and a tree trunk, the tiger sitting obediently with a hopeful face, the buffalo watching with wide eyes",
+        "seed": 3760220692,
+        "character": "anh-nong-dan"
       },
       "video": {
-        "motionPrompt": "the buffalo pulls the plough steadily, the farmer calls out and waves his hand, the tiger peeks out and blinks curiously, grass sways in the breeze",
+        "motionPrompt": "the farmer winds the rope around the tiger and tree, the tiger sits still and nods, the buffalo watches",
         "seed": 1392908354
       },
       "voice": {}
     },
     {
-      "id": "ho-hoi-trau",
-      "title": "Hổ hỏi trâu",
+      "id": "tri-khon-day",
+      "title": "Trí khôn của ta đây",
       "narrator": "ke-chuyen",
-      "narration": "Một buổi trưa, anh nông dân ngồi nghỉ dưới gốc cây, trâu đứng gặm cỏ một mình. Hổ rón rén lại gần hỏi: Này anh trâu, anh to khỏe thế, sao lại để con người nhỏ bé ấy sai bảo? Trâu nhai cỏ, thong thả đáp: Người ta nhỏ thật, nhưng người ta có trí khôn. Hổ ngơ ngác: Trí khôn là cái gì? To bằng chừng nào? Trâu lắc đầu: Tôi cũng không biết, anh đi mà hỏi người ấy.",
+      "narration": "Buộc xong, anh nông dân lấy rơm chất chung quanh hổ, châm lửa, rồi quát lớn: Trí khôn của ta đây! Trí khôn của ta đây! Trâu đứng xem thấy vậy thích quá, bò lăn ra mà cười. Không may, hàm trên của trâu va vào một hòn đá, làm răng gãy rụng hết, không còn chiếc nào.",
       "subtitles": [
-        "Một buổi trưa, anh nông dân ngồi nghỉ dưới gốc cây, trâu đứng gặm cỏ một mình.",
-        "Hổ rón rén lại gần hỏi: Này anh trâu, anh to khỏe thế,",
-        "sao lại để con người nhỏ bé ấy sai bảo?",
-        "Trâu nhai cỏ, thong thả đáp: Người ta nhỏ thật, nhưng người ta có trí khôn.",
-        "Hổ ngơ ngác: Trí khôn là cái gì? To bằng chừng nào?",
-        "Trâu lắc đầu: Tôi cũng không biết, anh đi mà hỏi người ấy."
+        "Buộc xong, anh nông dân lấy rơm chất chung quanh hổ, châm lửa, rồi quát lớn:",
+        "Trí khôn của ta đây!",
+        "Trí khôn của ta đây!",
+        "Trâu đứng xem thấy vậy thích quá, bò lăn ra mà cười.",
+        "Không may, hàm trên của trâu va vào một hòn đá, làm răng gãy rụng hết,",
+        "không còn chiếc nào."
       ],
       "image": {
-        "character": "con-ho",
-        "prompt": "on a grassy bank at noon, the curious orange tiger with no stripes talks to the calm water buffalo who chews grass, the farmer rests in the shade of a big tree in the background",
-        "seed": 2203442077
+        "prompt": "the farmer holds a burning straw torch to a small pile of straw around the bound tiger shouting triumphantly, the buffalo rolling on the ground laughing and bumping its jaw against a rock",
+        "seed": 2203442077,
+        "character": "anh-nong-dan"
       },
       "video": {
-        "motionPrompt": "the tiger leans in and talks with big curious eyes, the buffalo chews slowly and shrugs, butterflies flutter, the farmer fans himself with his hat",
+        "motionPrompt": "the farmer waves the torch and shouts, small flames flicker at the straw, the buffalo rolls on the ground laughing",
         "seed": 2284157491
       },
       "voice": {}
     },
     {
-      "id": "xin-xem",
-      "title": "Xin xem trí khôn",
+      "id": "ho-chay-tron",
+      "title": "Hổ chạy vào rừng",
       "narrator": "ke-chuyen",
-      "narration": "Hổ bèn đến gốc cây, nói với anh nông dân: Anh ơi, cho tôi xem cái trí khôn của anh một chút được không? Anh nông dân nghĩ một lát rồi bảo: Trí khôn tôi để ở nhà, chưa mang theo. Nhưng tôi đi lấy, lỡ anh ăn mất con trâu của tôi thì sao? Hổ vội vàng: Tôi hứa không làm gì trâu đâu! Anh bảo: Hứa thì dễ lắm. Hay anh để tôi buộc tạm vào gốc cây này, cho tôi yên tâm.",
+      "narration": "Mãi sau, sợi dây thừng cháy đứt, hổ mới vùng dậy được. Hổ ba chân bốn cẳng chạy thẳng vào rừng, chẳng dám ngoái nhìn lại. Từ đó, hổ sinh ra con nào trên mình cũng có những vằn đen dài, vốn là dấu tích của những vết cháy. Còn trâu thì chẳng con nào có răng ở hàm trên cả.",
       "subtitles": [
-        "Hổ bèn đến gốc cây, nói với anh nông dân: Anh ơi,",
-        "cho tôi xem cái trí khôn của anh một chút được không?",
-        "Anh nông dân nghĩ một lát rồi bảo: Trí khôn tôi để ở nhà, chưa mang theo.",
-        "Nhưng tôi đi lấy, lỡ anh ăn mất con trâu của tôi thì sao?",
-        "Hổ vội vàng: Tôi hứa không làm gì trâu đâu! Anh bảo: Hứa thì dễ lắm.",
-        "Hay anh để tôi buộc tạm vào gốc cây này, cho tôi yên tâm."
+        "Mãi sau, sợi dây thừng cháy đứt, hổ mới vùng dậy được.",
+        "Hổ ba chân bốn cẳng chạy thẳng vào rừng, chẳng dám ngoái nhìn lại.",
+        "Từ đó, hổ sinh ra con nào trên mình cũng có những vằn đen dài,",
+        "vốn là dấu tích của những vết cháy.",
+        "Còn trâu thì chẳng con nào có răng ở hàm trên cả."
       ],
       "image": {
-        "character": "anh-nong-dan",
-        "prompt": "under a big old tree, the young farmer sits and talks thoughtfully with the curious striped-less tiger, the farmer holds a coil of straw rope, the tiger nods eagerly",
-        "seed": 351085476
+        "prompt": "a tiger with black stripes on his coat running at full speed into a dark forest, the rope pieces and a wisp of smoke behind him, a distant farmer and a toothless buffalo waving from the paddy field",
+        "seed": 351085476,
+        "character": "con-ho"
       },
       "video": {
-        "motionPrompt": "the farmer taps his chin thinking, the tiger nods again and again eagerly, leaves fall slowly, the rope coil sits on the ground",
+        "motionPrompt": "the tiger bounds into the forest, smoke trails behind, the farmer waves from far away",
         "seed": 3789628050
-      },
-      "voice": {}
-    },
-    {
-      "id": "buoc-ho",
-      "title": "Trí khôn của ta đây",
-      "narrator": "ke-chuyen",
-      "narration": "Hổ muốn xem trí khôn quá, liền gật đầu ngay. Anh nông dân lấy dây thừng buộc hổ thật chặt vào gốc cây. Buộc xong, anh phủi tay, cười bảo: Trí khôn của ta đây! Lần sau đừng có rình trâu của ta nữa nhé. Rồi anh dắt trâu về nhà. Hổ biết mình bị lừa, vùng vẫy suốt cả đêm. Dây thừng cọ vào lưng, hằn lên những vệt đen dài trên bộ lông vàng óng.",
-      "subtitles": [
-        "Hổ muốn xem trí khôn quá, liền gật đầu ngay.",
-        "Anh nông dân lấy dây thừng buộc hổ thật chặt vào gốc cây.",
-        "Buộc xong, anh phủi tay, cười bảo: Trí khôn của ta đây!",
-        "Lần sau đừng có rình trâu của ta nữa nhé. Rồi anh dắt trâu về nhà.",
-        "Hổ biết mình bị lừa, vùng vẫy suốt cả đêm.",
-        "Dây thừng cọ vào lưng, hằn lên những vệt đen dài trên bộ lông vàng óng."
-      ],
-      "image": {
-        "character": "con-ho",
-        "prompt": "the orange tiger is tied to a big tree trunk with thick straw rope, looking surprised and grumpy, the farmer walks home smiling with the buffalo at sunset, the buffalo laughing",
-        "seed": 2855640040
-      },
-      "video": {
-        "motionPrompt": "the tiger wriggles against the rope with a comic grumpy face, the farmer waves and leads the buffalo away, the sun sets, fireflies appear",
-        "seed": 2078209228
-      },
-      "voice": {}
-    },
-    {
-      "id": "van-ho",
-      "title": "Vằn của hổ và răng của trâu",
-      "narrator": "ke-chuyen",
-      "narration": "Sáng hôm sau, dây thừng sờn đứt, hổ mới thoát ra được, cắm đầu chạy một mạch vào rừng sâu, chẳng dám quay lại bờ ruộng nữa. Từ đó, lưng hổ có những vằn đen mãi mãi. Còn trâu, hôm trước thấy hổ bị buộc, cười ngặt nghẽo, lăn ra đất, vập mõm vào hòn đá. Người ta kể rằng vì thế mà trâu không có răng hàm trên đấy.",
-      "subtitles": [
-        "Sáng hôm sau, dây thừng sờn đứt, hổ mới thoát ra được, cắm đầu chạy một mạch vào rừng sâu,",
-        "chẳng dám quay lại bờ ruộng nữa. Từ đó, lưng hổ có những vằn đen mãi mãi.",
-        "Còn trâu, hôm trước thấy hổ bị buộc, cười ngặt nghẽo, lăn ra đất, vập mõm vào hòn đá.",
-        "Người ta kể rằng vì thế mà trâu không có răng hàm trên đấy."
-      ],
-      "image": {
-        "character": "con-ho",
-        "prompt": "at dawn, the tiger now with dark stripes on its orange fur runs off into the green forest looking embarrassed, in the field the buffalo sits laughing with a big toothy-less grin, the farmer chuckles",
-        "seed": 1529282811
-      },
-      "video": {
-        "motionPrompt": "the striped tiger dashes into the forest and peeks back once, the buffalo shakes with laughter, morning mist drifts over the field",
-        "seed": 315507963
       },
       "voice": {}
     },
@@ -194,22 +206,23 @@
       "id": "ket-thuc",
       "title": "Mèo Miu chào tạm biệt",
       "narrator": "miu",
-      "narration": "Các bạn thấy không, anh nông dân không to khỏe bằng hổ, nhưng anh biết dùng cái đầu để nghĩ ra cách. Trí khôn không cầm được, không nhìn được, mà nằm ngay trong cái đầu của mỗi chúng ta. Muốn trí khôn lớn lên, các bạn hãy chăm học, chăm hỏi nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "narration": "Các bạn thấy không, anh nông dân tuy chẳng khỏe bằng hổ, nhưng anh biết dùng cái đầu để nghĩ ra cách. Trí khôn chẳng cầm được, chẳng nhìn thấy được, mà nằm ngay trong đầu mỗi chúng ta đấy. Muốn trí khôn lớn lên, các bạn hãy chăm học, chăm hỏi nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
       "subtitles": [
-        "Các bạn thấy không, anh nông dân không to khỏe bằng hổ,",
+        "Các bạn thấy không, anh nông dân tuy chẳng khỏe bằng hổ,",
         "nhưng anh biết dùng cái đầu để nghĩ ra cách.",
-        "Trí khôn không cầm được, không nhìn được, mà nằm ngay trong cái đầu của mỗi chúng ta.",
+        "Trí khôn chẳng cầm được, chẳng nhìn thấy được, mà nằm ngay trong đầu mỗi chúng ta đấy.",
         "Muốn trí khôn lớn lên, các bạn hãy chăm học, chăm hỏi nhé.",
-        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn!"
       ],
       "image": {
-        "character": "miu",
-        "prompt": "Meo Miu the voxel white cat waves goodbye tapping her head with one paw, behind her the farmer and the buffalo walk along a rice field, a striped tiger peeks shyly from the forest edge",
-        "seed": 2083644657
+        "prompt": "Meo Miu the voxel white cat waves goodbye beside a smiling farmer with a water buffalo, a striped tiger watching shyly from far away",
+        "seed": 2855640040,
+        "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat waves slowly and taps her head with a wink, the buffalo flicks its tail, the tiger peeks and hides, gentle camera pull-back",
-        "seed": 4064702987
+        "motionPrompt": "the cat waves, the farmer smiles, the buffalo chews, the tiger peeks out and retreats",
+        "seed": 2078209228
       },
       "voice": {}
     }
