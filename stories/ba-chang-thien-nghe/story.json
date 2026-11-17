@@ -3,14 +3,15 @@
   "slug": "ba-chang-thien-nghe",
   "shelf": "kids",
   "title": "Ba chàng thiện nghệ",
-  "summary": "Cô con gái nhà họ Lê bị chim đại bàng quắp bay ra biển, ba chàng trai, một giỏi xem đoán, một giỏi bắn cung, một giỏi lặn, cùng nhau cứu cô về. Nhưng ai mới là người giỏi nhất? Truyện cổ tích Việt Nam kể vui cho trẻ nhỏ về sức mạnh của đồng lòng.",
+  "summary": "Cô gái nhà họ Lê chỉ muốn lấy người có nghề cầm tay tinh thuần nhất. Ba chàng trai, một người bắn giỏi, một người lặn giỏi, một người chữa bệnh giỏi, cùng đến thử tài. Khi cô bị đại bàng cắp đi, phải đủ cả ba người góp sức mới cứu được cô, và ông quan xử sao cho công bằng?",
   "themes": [
     "anh-hung",
     "ngu-ngon"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-18",
   "language": "vi",
-  "source": "Truyện cổ tích dân gian Việt Nam Ba chàng thiện nghệ (cùng kiểu với truyện những anh em tài giỏi của nhiều dân tộc), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; đoạn bắn chim được kể nhẹ nhàng, đoạn kết viết thành câu đố để trẻ cùng nghĩ, Mèo Miu mở đầu và kết thúc.",
+  "source": "Truyện cổ tích dân gian Việt Nam Ba chàng thiện nghệ (bản đăng trên loigiaihay.com; cùng kiểu truyện những anh em tài giỏi của nhiều dân tộc), truyền miệng, không ai giữ quyền. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản kể nào; cảnh đại bàng và cứu người được kể nhẹ nhàng, Mèo Miu mở đầu và kết thúc.",
   "basedOn": "Truyện cổ tích dân gian Việt Nam",
   "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, bright warm light, rounded friendly shapes, old Vietnamese coastal village with tiled houses, coconut palms and a wide blue sea with small islands, adventurous and cheerful mood for young children, no text, no letters, no watermark",
   "narrators": {
@@ -38,12 +39,6 @@
       "sheetPrompt": "a kind clever young Vietnamese woman from a folk tale, long black hair tied with a red ribbon, pink and cream ao tu than dress, holding a small book, bright friendly smile, full body, front view, plain soft cream background, character reference sheet"
     },
     {
-      "id": "chang-xem-doan",
-      "name": "Chàng giỏi xem đoán",
-      "seed": 3023512582,
-      "sheetPrompt": "a thoughtful young Vietnamese man from a folk tale who can foresee where things are, purple scholar robe, a small compass and a folded fan in hand, calm wise smile, full body, front view, plain soft cream background, character reference sheet"
-    },
-    {
       "id": "chang-ban-cung",
       "name": "Chàng giỏi bắn cung",
       "seed": 2506658143,
@@ -54,6 +49,24 @@
       "name": "Chàng giỏi lặn",
       "seed": 2916484291,
       "sheetPrompt": "a cheerful strong young Vietnamese fisherman diver from a folk tale, tanned skin, blue sleeveless shirt and rolled trousers, a rope coiled over his shoulder, big friendly smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "thay-thuoc",
+      "name": "Chàng thầy thuốc",
+      "seed": 1827364509,
+      "sheetPrompt": "a gentle young Vietnamese herbal doctor from a folk tale, green tunic, a cloth bag of herbs on his shoulder, kind calm smile, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "ong-le",
+      "name": "Ông già họ Lê",
+      "seed": 3519276048,
+      "sheetPrompt": "a kindly elderly Vietnamese village father from a folk tale, thin white beard, brown tunic and black headscarf, holding a walking stick, worried but warm expression, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "quan",
+      "name": "Ông quan",
+      "seed": 902847561,
+      "sheetPrompt": "a wise old Vietnamese district magistrate from a folk tale, long grey beard, dark blue robe and black winged hat, calm thoughtful expression, full body, front view, plain soft cream background, character reference sheet"
     }
   ],
   "scenes": [
@@ -61,21 +74,23 @@
       "id": "mo-dau",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Hôm nay Miu đố các bạn một câu thật khó nhé. Có ba chàng trai, mỗi chàng giỏi một nghề, cùng nhau làm được một việc lớn. Vậy ai là người giỏi nhất? Các bạn cứ nghe hết câu chuyện rồi hãy trả lời Miu nhé!",
+      "narration": "Xin chào các bạn nhỏ! Hôm nay Miu đố các bạn một câu thật khó nhé. Có ba chàng trai, mỗi chàng giỏi một nghề, và cả ba cùng cứu được một cô gái. Vậy ai mới là người xứng đáng nhất? Các bạn cứ nghe hết câu chuyện, rồi xem ông quan ngày xưa xử thế nào nhé. Giờ thì Miu bắt đầu kể đây!",
       "subtitles": [
-        "Xin chào các bạn nhỏ! Hôm nay Miu đố các bạn một câu thật khó nhé.",
-        "Có ba chàng trai, mỗi chàng giỏi một nghề, cùng nhau làm được một việc lớn.",
-        "Vậy ai là người giỏi nhất?",
-        "Các bạn cứ nghe hết câu chuyện rồi hãy trả lời Miu nhé!"
+        "Xin chào các bạn nhỏ!",
+        "Hôm nay Miu đố các bạn một câu thật khó nhé.",
+        "Có ba chàng trai, mỗi chàng giỏi một nghề, và cả ba cùng cứu được một cô gái.",
+        "Vậy ai mới là người xứng đáng nhất?",
+        "Các bạn cứ nghe hết câu chuyện, rồi xem ông quan ngày xưa xử thế nào nhé.",
+        "Giờ thì Miu bắt đầu kể đây!"
       ],
       "image": {
-        "character": "miu",
-        "prompt": "Meo Miu the voxel white cat sits on a sandy beach under a coconut palm, holding up three fingers with a playful smile, small boats and islands on a calm blue sea behind her",
-        "seed": 1138348727
+        "prompt": "the cute white voxel cat storyteller sits on a stack of books by the sea and smiles at the viewer, soft light, a small tiled village behind",
+        "seed": 1100224433,
+        "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat holds up three fingers and winks, waves roll softly on the sand, palm leaves sway, slow gentle camera push-in",
-        "seed": 100875364
+        "motionPrompt": "the cat waves a paw and tilts its head, gentle sea breeze, soft camera push-in",
+        "seed": 1616811426
       },
       "voice": {}
     },
@@ -83,139 +98,252 @@
       "id": "co-gai-nha-ho-le",
       "title": "Cô gái nhà họ Lê",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, ở một làng ven biển có nhà họ Lê sinh được cô con gái xinh đẹp, nết na. Cô chữ tốt, văn hay, lại khéo đủ mọi nghề. Một buổi chiều, cô đang ngồi thêu khăn ngoài hiên thì bỗng một con chim đại bàng to lớn sà xuống, quắp lấy cô rồi bay vút ra phía biển. Cả nhà hốt hoảng chạy theo kêu gọi, nhưng chim đã bay xa mất hút.",
+      "narration": "Ngày xưa, có nhà họ Lê sinh được một cô con gái nhan sắc xinh đẹp. Không những thế, cô còn văn hay chữ tốt, lại thạo đủ mọi nghề. Những cô gái đẹp trong vùng, khó có ai hơn được cô. Khi cô đến tuổi lấy chồng, có bao nhiêu chàng trai đến cầu hôn, người là con quan, người là con nhà giàu, người là ông tú đỗ đạt. Nhưng ông già họ Lê đều từ chối hết. Ông nói với mọi người: Con gái tôi không muốn làm bà quan, cũng chẳng thích làm bà phú hộ. Nó chỉ muốn lấy một người chồng có nghề cầm tay, mà nghề ấy phải tinh thuần, không ai hơn được mới thôi.",
       "subtitles": [
-        "Ngày xưa, ở một làng ven biển có nhà họ Lê sinh được cô con gái xinh đẹp, nết na.",
-        "Cô chữ tốt, văn hay, lại khéo đủ mọi nghề.",
-        "Một buổi chiều, cô đang ngồi thêu khăn ngoài hiên thì bỗng một con chim đại bàng to lớn",
-        "sà xuống, quắp lấy cô rồi bay vút ra phía biển.",
-        "Cả nhà hốt hoảng chạy theo kêu gọi, nhưng chim đã bay xa mất hút."
+        "Ngày xưa, có nhà họ Lê sinh được một cô con gái nhan sắc xinh đẹp.",
+        "Không những thế, cô còn văn hay chữ tốt, lại thạo đủ mọi nghề.",
+        "Những cô gái đẹp trong vùng, khó có ai hơn được cô.",
+        "Khi cô đến tuổi lấy chồng, có bao nhiêu chàng trai đến cầu hôn, người là con quan,",
+        "người là con nhà giàu, người là ông tú đỗ đạt.",
+        "Nhưng ông già họ Lê đều từ chối hết.",
+        "Ông nói với mọi người: Con gái tôi không muốn làm bà quan, cũng chẳng thích làm bà phú hộ.",
+        "Nó chỉ muốn lấy một người chồng có nghề cầm tay, mà nghề ấy phải tinh thuần,",
+        "không ai hơn được mới thôi."
       ],
       "image": {
-        "character": "co-gai",
-        "prompt": "a huge brown eagle swoops down over a tiled house porch by the sea and carries a young woman in a pink dress up into the sky, her embroidery hoop falls, her parents run out with raised arms",
-        "seed": 2093316013
+        "prompt": "a graceful kind young Vietnamese woman reads a book on the veranda of a tiled coastal house while her old father talks firmly with a group of finely dressed suitors at the gate, palms and sea behind",
+        "seed": 2209334411,
+        "character": "co-gai"
       },
       "video": {
-        "motionPrompt": "the giant eagle flaps its wide wings and rises toward the sea carrying the girl gently in its claws, the embroidery hoop drops, the parents run and wave",
-        "seed": 1226811424
+        "motionPrompt": "the woman turns a page, the old father shakes his head at the suitors, who walk away, palm leaves sway",
+        "seed": 4258774729
       },
       "voice": {}
     },
     {
-      "id": "loi-rao",
-      "title": "Lời rao của ông Lê",
+      "id": "ba-chang-trai",
+      "title": "Ba chàng trai đến thử tài",
       "narrator": "ke-chuyen",
-      "narration": "Ông Lê thương con, ngày đêm mất ăn mất ngủ. Ông sai người đi rao khắp nơi: Ai cứu được con gái tôi về, tôi xin gả con cho và chia nửa gia tài. Tin đồn đi khắp vùng. Ba chàng trai ở ba làng khác nhau cùng tìm đến. Chàng thứ nhất giỏi xem đoán, biết được người mất đang ở đâu. Chàng thứ hai giỏi bắn cung, bắn đâu trúng đó. Chàng thứ ba giỏi lặn, lặn cả buổi dưới biển sâu mà chẳng mệt.",
+      "narration": "Tin kén rể bay đi khắp nơi. Những người có tài từ bốn phương tấp nập kéo đến xin ra mắt, nhưng chẳng ai làm cho ông già họ Lê vừa lòng. Sau mỗi lần thử sức, người ta chỉ thấy ông thở dài than rằng: Tài giỏi trong thiên hạ hiếm lắm thay! Rồi một buổi sáng, có ba chàng trai trẻ khỏe mạnh, đẹp trai, quê ở ba nơi, tình cờ gặp nhau và cùng đến một lúc. Chàng thứ nhất nói mình bắn giỏi, vật nào cũng bắn trúng, dù khó đến đâu, dù xa bao nhiêu. Chàng thứ hai nói mình lặn giỏi, ở dưới nước được hàng tuần mà không sợ nguy hiểm, lại tìm được cả những vật bé xíu dưới đại dương. Chàng thứ ba nói mình là thầy thuốc lành nghề, có thể làm cho người sắp lịm đi trở nên tỉnh táo khỏe mạnh lại.",
       "subtitles": [
-        "Ông Lê thương con, ngày đêm mất ăn mất ngủ.",
-        "Ông sai người đi rao khắp nơi: Ai cứu được con gái tôi về,",
-        "tôi xin gả con cho và chia nửa gia tài. Tin đồn đi khắp vùng.",
-        "Ba chàng trai ở ba làng khác nhau cùng tìm đến.",
-        "Chàng thứ nhất giỏi xem đoán, biết được người mất đang ở đâu.",
-        "Chàng thứ hai giỏi bắn cung, bắn đâu trúng đó.",
-        "Chàng thứ ba giỏi lặn, lặn cả buổi dưới biển sâu mà chẳng mệt."
+        "Tin kén rể bay đi khắp nơi.",
+        "Những người có tài từ bốn phương tấp nập kéo đến xin ra mắt,",
+        "nhưng chẳng ai làm cho ông già họ Lê vừa lòng.",
+        "Sau mỗi lần thử sức, người ta chỉ thấy ông thở dài than rằng:",
+        "Tài giỏi trong thiên hạ hiếm lắm thay!",
+        "Rồi một buổi sáng, có ba chàng trai trẻ khỏe mạnh, đẹp trai, quê ở ba nơi,",
+        "tình cờ gặp nhau và cùng đến một lúc.",
+        "Chàng thứ nhất nói mình bắn giỏi, vật nào cũng bắn trúng, dù khó đến đâu, dù xa bao nhiêu.",
+        "Chàng thứ hai nói mình lặn giỏi, ở dưới nước được hàng tuần mà không sợ nguy hiểm,",
+        "lại tìm được cả những vật bé xíu dưới đại dương.",
+        "Chàng thứ ba nói mình là thầy thuốc lành nghề,",
+        "có thể làm cho người sắp lịm đi trở nên tỉnh táo khỏe mạnh lại."
       ],
       "image": {
-        "prompt": "a worried old father in a village courtyard greets three young men who arrive from three paths: a calm scholar with a compass, a confident archer with a bow, a cheerful diver with a rope, villagers gather around",
-        "seed": 1932669091
+        "prompt": "three cheerful young men stand side by side before the old father at the gate of a coastal house: an archer with a bow, a diver with a rope, a herbal doctor with a bag of herbs, the old father listening with delight",
+        "seed": 3318445522,
+        "character": "ong-le"
       },
       "video": {
-        "motionPrompt": "the three young men bow to the old father one after another, the father's face brightens with hope, villagers whisper and point",
-        "seed": 3478594003
+        "motionPrompt": "the three young men each proudly show their skill gestures, the old father claps his hands, palm leaves sway",
+        "seed": 1768978409
       },
       "voice": {}
     },
     {
-      "id": "xem-doan",
-      "title": "Tìm ra chỗ đại bàng",
+      "id": "thu-tai",
+      "title": "Thử tài từng người",
       "narrator": "ke-chuyen",
-      "narration": "Chàng giỏi xem đoán ngồi lặng im, nhắm mắt, ngón tay bấm bấm một hồi lâu. Rồi chàng mở mắt nói: Cô gái đang ở trên ngọn cây cao nhất của một hòn đảo giữa biển, phía mặt trời mọc. Đại bàng đang canh bên cạnh. Ba chàng liền mượn một chiếc thuyền, giương buồm ra khơi, đi đúng hướng chàng chỉ. Đi mãi, đi mãi, quả nhiên thấy một hòn đảo nhỏ có cây cao vút tận mây.",
+      "narration": "Ông già họ Lê vô cùng vui mừng, liền đem từng người ra thử. Với chàng bắn cung, ông chỉ cho cây thông cao chót vót ở bờ giậu, bảo người nhà trèo lên chấm vôi vào một chiếc lá, rồi nói: Ngài bắn thế nào cho chiếc lá ấy rụng xuống trước mặt chúng tôi, lúc ấy tôi mới tin là tài thật. Chàng không từ chối, chuẩn bị cung nỏ. Chỉ một mũi tên bay ra, chiếc lá thông có dấu vôi rơi xuống trước con mắt kinh ngạc của mọi người. Với chàng lặn, ông dẫn ra bờ biển, đưa xem một chiếc nhẫn rồi nhờ người chèo thuyền ra khơi thả xuống nước. Chàng chẳng nói chẳng rằng cởi áo nhảy xuống, chỉ trong nháy mắt đã nổi lên, giơ cao chiếc nhẫn cho ai nấy xem.",
       "subtitles": [
-        "Chàng giỏi xem đoán ngồi lặng im, nhắm mắt, ngón tay bấm bấm một hồi lâu.",
-        "Rồi chàng mở mắt nói: Cô gái đang ở trên ngọn cây cao nhất của một hòn đảo giữa biển,",
-        "phía mặt trời mọc. Đại bàng đang canh bên cạnh.",
-        "Ba chàng liền mượn một chiếc thuyền, giương buồm ra khơi, đi đúng hướng chàng chỉ.",
-        "Đi mãi, đi mãi, quả nhiên thấy một hòn đảo nhỏ có cây cao vút tận mây."
+        "Ông già họ Lê vô cùng vui mừng, liền đem từng người ra thử.",
+        "Với chàng bắn cung, ông chỉ cho cây thông cao chót vót ở bờ giậu,",
+        "bảo người nhà trèo lên chấm vôi vào một chiếc lá, rồi nói:",
+        "Ngài bắn thế nào cho chiếc lá ấy rụng xuống trước mặt chúng tôi,",
+        "lúc ấy tôi mới tin là tài thật.",
+        "Chàng không từ chối, chuẩn bị cung nỏ.",
+        "Chỉ một mũi tên bay ra, chiếc lá thông có dấu vôi rơi xuống trước con mắt kinh ngạc của",
+        "mọi người.",
+        "Với chàng lặn, ông dẫn ra bờ biển,",
+        "đưa xem một chiếc nhẫn rồi nhờ người chèo thuyền ra khơi thả xuống nước.",
+        "Chàng chẳng nói chẳng rằng cởi áo nhảy xuống, chỉ trong nháy mắt đã nổi lên,",
+        "giơ cao chiếc nhẫn cho ai nấy xem."
       ],
       "image": {
-        "character": "chang-xem-doan",
-        "prompt": "three young men sail a small wooden boat with a brown sail across the open sea at sunrise, the scholar points ahead with his fan, far away a small island with one very tall tree and a large eagle perched on top",
-        "seed": 2889368361
+        "prompt": "the young archer aims a bow at a tall pine tree with a white-marked leaf falling, the old father and villagers watch amazed, in the next corner the diver surfaces from the sea holding up a small ring, sunny coast",
+        "seed": 132589337,
+        "character": "chang-ban-cung"
       },
       "video": {
-        "motionPrompt": "the boat rocks on the waves, the sail fills with wind, the scholar points toward the island, seabirds glide past",
-        "seed": 3397283811
+        "motionPrompt": "a pine leaf with a white mark flutters down, the diver surfaces and lifts the ring in triumph, villagers cheer",
+        "seed": 1277065137
       },
       "voice": {}
     },
     {
-      "id": "ban-cung",
-      "title": "Mũi tên thần tốc",
+      "id": "thay-thuoc-thu-tai",
+      "title": "Thầy thuốc thử tài",
       "narrator": "ke-chuyen",
-      "narration": "Thuyền đến gần đảo, chàng giỏi bắn cung giương cung lên, nheo mắt ngắm. Vút! Mũi tên bay sát cánh đại bàng, làm nó giật mình kêu lên một tiếng, buông cô gái ra rồi vội vã bay mất về phía chân trời, chẳng bao giờ dám quay lại. Nhưng ôi thôi, cô gái từ trên cao rơi xuống, tõm một cái, chìm vào làn nước biển xanh thẳm.",
+      "narration": "Đến lượt chàng thầy thuốc, ông già đưa nhau ra chợ. Ở đó có một người ăn mày đang nằm thiêm thiếp, sắp lịm đi. Ông chỉ vào người ấy mà bảo chàng hãy cố làm cho người ta tỉnh lại. Chàng cúi xuống bắt mạch, rồi lặng lẽ bỏ đi. Đến một bụi cây ven đường, chàng rẽ vào, hái mấy thứ lá, đem về sắc lên rồi đổ vào miệng người ăn mày. Chẳng bao lâu, người ăn mày đã ngồi dậy đòi ăn, như vừa tỉnh sau một giấc ngủ dài mệt nhọc. Thấy cả ba chàng đều thiện nghệ, ông già họ Lê bối rối chẳng biết nên gả con cho ai.",
       "subtitles": [
-        "Thuyền đến gần đảo, chàng giỏi bắn cung giương cung lên, nheo mắt ngắm. Vút!",
-        "Mũi tên bay sát cánh đại bàng, làm nó giật mình kêu lên một tiếng,",
-        "buông cô gái ra rồi vội vã bay mất về phía chân trời, chẳng bao giờ dám quay lại.",
-        "Nhưng ôi thôi, cô gái từ trên cao rơi xuống, tõm một cái,",
-        "chìm vào làn nước biển xanh thẳm."
+        "Đến lượt chàng thầy thuốc, ông già đưa nhau ra chợ.",
+        "Ở đó có một người ăn mày đang nằm thiêm thiếp, sắp lịm đi.",
+        "Ông chỉ vào người ấy mà bảo chàng hãy cố làm cho người ta tỉnh lại.",
+        "Chàng cúi xuống bắt mạch, rồi lặng lẽ bỏ đi.",
+        "Đến một bụi cây ven đường, chàng rẽ vào, hái mấy thứ lá,",
+        "đem về sắc lên rồi đổ vào miệng người ăn mày.",
+        "Chẳng bao lâu, người ăn mày đã ngồi dậy đòi ăn,",
+        "như vừa tỉnh sau một giấc ngủ dài mệt nhọc.",
+        "Thấy cả ba chàng đều thiện nghệ, ông già họ Lê bối rối chẳng biết nên gả con cho ai."
       ],
       "image": {
-        "character": "chang-ban-cung",
-        "prompt": "the young archer stands at the front of the boat pulling his bow, an arrow flies past the wing of a huge startled eagle above a tall island tree, the girl slips from its claws toward the blue sea",
-        "seed": 776132603
+        "prompt": "in a village market, the young herbal doctor kneels and pours a warm herbal drink into the mouth of a weak beggar who is sitting up with surprise, villagers gather around, baskets of herbs beside",
+        "seed": 1241700448,
+        "character": "thay-thuoc"
       },
       "video": {
-        "motionPrompt": "the arrow whizzes past the eagle's wing, the eagle flaps away in fright, the girl falls slowly toward the water with her ribbon fluttering, a splash",
-        "seed": 6365602
+        "motionPrompt": "the beggar sits up and rubs his eyes, steam rises from the herb bowl, villagers gasp and smile",
+        "seed": 3775907208
       },
       "voice": {}
     },
     {
-      "id": "lan-bien",
-      "title": "Lặn xuống biển sâu",
+      "id": "gieo-que",
+      "title": "Làm lễ ở miếu thành hoàng",
       "narrator": "ke-chuyen",
-      "narration": "Nhanh như cắt, chàng giỏi lặn nhảy ùm xuống nước. Chàng lặn sâu, sâu mãi, qua những rặng san hô, qua những đàn cá bạc. Một lúc lâu sau, chàng trồi lên, tay đỡ cô gái đưa lên thuyền. Cô gái ho mấy tiếng rồi mở mắt ra, mỉm cười cảm ơn ba chàng. Ba chàng mừng rỡ, vội quay thuyền về làng.",
+      "narration": "Ông già họ Lê bảo ba chàng: Cả ba vị quả thật có chân tài, con gái tôi được sánh duyên với ai cũng là may mắn. Nhưng thuyền quyên chỉ có một mà anh hùng lại có ba, biết làm sao bây giờ? Thôi thì chúng ta ra miếu thành hoàng làm lễ, gieo quẻ hỏi ý thần. Quẻ chỉ vào người nào thì xin gả con gái cho người ấy. Ba chàng bằng lòng, cùng ra miếu. Nhưng giữa lúc đang làm lễ, bỗng có người nhà hớt hải chạy đến báo tin rằng cô gái đang cuốc cỏ ngoài ruộng thì bị một con đại bàng sà xuống cắp đi mất.",
       "subtitles": [
-        "Nhanh như cắt, chàng giỏi lặn nhảy ùm xuống nước.",
-        "Chàng lặn sâu, sâu mãi, qua những rặng san hô, qua những đàn cá bạc.",
-        "Một lúc lâu sau, chàng trồi lên, tay đỡ cô gái đưa lên thuyền.",
-        "Cô gái ho mấy tiếng rồi mở mắt ra, mỉm cười cảm ơn ba chàng.",
-        "Ba chàng mừng rỡ, vội quay thuyền về làng."
+        "Ông già họ Lê bảo ba chàng: Cả ba vị quả thật có chân tài,",
+        "con gái tôi được sánh duyên với ai cũng là may mắn.",
+        "Nhưng thuyền quyên chỉ có một mà anh hùng lại có ba, biết làm sao bây giờ?",
+        "Thôi thì chúng ta ra miếu thành hoàng làm lễ, gieo quẻ hỏi ý thần.",
+        "Quẻ chỉ vào người nào thì xin gả con gái cho người ấy.",
+        "Ba chàng bằng lòng, cùng ra miếu.",
+        "Nhưng giữa lúc đang làm lễ, bỗng có người nhà hớt hải chạy đến báo tin rằng cô gái đang",
+        "cuốc cỏ ngoài ruộng thì bị một con đại bàng sà xuống cắp đi mất."
       ],
       "image": {
-        "character": "chang-lan",
-        "prompt": "underwater among colorful coral and silver fish, the young diver swims down and gently holds the girl's hand, sunlight beams through the blue water, the boat floats above",
-        "seed": 3999690746
+        "prompt": "in front of a small village temple with incense and offerings, the old father and the three young men turn in alarm as a servant runs up waving his arms, a big eagle seen far in the sky",
+        "seed": 2350811559,
+        "character": "ong-le"
       },
       "video": {
-        "motionPrompt": "the diver kicks strongly and rises with the girl toward the bright surface, fish swirl around them, bubbles float up, light shimmers",
-        "seed": 216651865
+        "motionPrompt": "the servant runs up breathless, everyone turns to look at the sky, incense smoke drifts, the eagle soars far away",
+        "seed": 1194810836
       },
       "voice": {}
     },
     {
-      "id": "ai-gioi-nhat",
-      "title": "Ai giỏi nhất?",
+      "id": "dai-bang",
+      "title": "Đại bàng cắp cô gái đi",
       "narrator": "ke-chuyen",
-      "narration": "Về đến nhà, ông Lê mừng mừng tủi tủi. Nhưng rồi ba chàng bắt đầu tranh nhau. Chàng xem đoán bảo: Không có tôi chỉ đường thì ai biết cô ở đâu! Chàng bắn cung nói: Không có mũi tên của tôi thì làm sao đại bàng chịu buông! Chàng giỏi lặn cãi: Không có tôi thì cô đã chìm sâu dưới biển rồi! Ông Lê nghe ai cũng có lý, gãi đầu chẳng biết xử sao. Cô gái mới mỉm cười nói: Thiếu một người thôi là chẳng ai cứu được em. Các anh giỏi nhất là khi ở cùng nhau đấy ạ.",
+      "narration": "Nghe tin, mọi người bỏ cả buổi lễ, chạy ùa ra đồng, thì thấy con đại bàng khổng lồ đang bay thẳng ra phía biển, đôi chân quắp chặt cô gái. Chàng giỏi bắn cung vội lắp tên vào cung, giương lên ngắm thật nhanh rồi buông dây. Vút! Không cần đến mũi tên thứ hai, đại bàng trúng tên, gãy cánh, chao đảo rồi rơi xuống mặt biển, kéo theo cả cô gái xuống nước. Tiếng nước tõm vang lên, mọi người thót tim.",
       "subtitles": [
-        "Về đến nhà, ông Lê mừng mừng tủi tủi. Nhưng rồi ba chàng bắt đầu tranh nhau.",
-        "Chàng xem đoán bảo: Không có tôi chỉ đường thì ai biết cô ở đâu!",
-        "Chàng bắn cung nói: Không có mũi tên của tôi thì làm sao đại bàng chịu buông!",
-        "Chàng giỏi lặn cãi: Không có tôi thì cô đã chìm sâu dưới biển rồi!",
-        "Ông Lê nghe ai cũng có lý, gãi đầu chẳng biết xử sao.",
-        "Cô gái mới mỉm cười nói: Thiếu một người thôi là chẳng ai cứu được em.",
-        "Các anh giỏi nhất là khi ở cùng nhau đấy ạ."
+        "Nghe tin, mọi người bỏ cả buổi lễ, chạy ùa ra đồng,",
+        "thì thấy con đại bàng khổng lồ đang bay thẳng ra phía biển, đôi chân quắp chặt cô gái.",
+        "Chàng giỏi bắn cung vội lắp tên vào cung, giương lên ngắm thật nhanh rồi buông dây.",
+        "Vút!",
+        "Không cần đến mũi tên thứ hai, đại bàng trúng tên, gãy cánh,",
+        "chao đảo rồi rơi xuống mặt biển, kéo theo cả cô gái xuống nước.",
+        "Tiếng nước tõm vang lên, mọi người thót tim."
       ],
       "image": {
-        "prompt": "in a courtyard, the three young men argue and point at themselves while the old father scratches his head, the smiling girl steps between them with open hands, villagers watch with amused faces",
-        "seed": 1081104635
+        "prompt": "on the seashore the young archer aims upward at a giant eagle carrying a young woman over the waves, an arrow flying, villagers run along the beach pointing, golden evening light",
+        "seed": 3459922670,
+        "character": "chang-ban-cung"
       },
       "video": {
-        "motionPrompt": "the three young men gesture and argue in turn, the father scratches his head, the girl steps forward and smiles, the men pause and look at each other",
-        "seed": 3691230115
+        "motionPrompt": "the arrow whooshes up, the eagle wobbles and tumbles toward the sea, spray rises, villagers gasp",
+        "seed": 3820690059
+      },
+      "voice": {}
+    },
+    {
+      "id": "chang-lan-cuu",
+      "title": "Chàng lặn cứu cô gái",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy thế, chàng giỏi lặn lập tức nhảy ngay xuống biển. Chàng lặn một mạch tới chỗ chim rơi, rồi cuối cùng ôm được cô gái đưa lên bờ. Nhưng lúc này cô nằm im lìm trong tay chàng, bụng đầy nước, chẳng còn nhúc nhích gì cả. Mọi người xúm quanh, ai cũng lo lắng. Đến lúc chàng thầy thuốc ra tay. Chàng tìm thuốc, cho cô uống, chữa cho cô. Chỉ một lát sau, cô gái nôn ra thật nhiều nước, rồi hồi tỉnh lại, mở mắt nhìn quanh. Cả bờ biển reo lên mừng rỡ.",
+      "subtitles": [
+        "Thấy thế, chàng giỏi lặn lập tức nhảy ngay xuống biển.",
+        "Chàng lặn một mạch tới chỗ chim rơi, rồi cuối cùng ôm được cô gái đưa lên bờ.",
+        "Nhưng lúc này cô nằm im lìm trong tay chàng, bụng đầy nước, chẳng còn nhúc nhích gì cả.",
+        "Mọi người xúm quanh, ai cũng lo lắng.",
+        "Đến lúc chàng thầy thuốc ra tay.",
+        "Chàng tìm thuốc, cho cô uống, chữa cho cô.",
+        "Chỉ một lát sau, cô gái nôn ra thật nhiều nước, rồi hồi tỉnh lại, mở mắt nhìn quanh.",
+        "Cả bờ biển reo lên mừng rỡ."
+      ],
+      "image": {
+        "prompt": "on the beach the young diver carries a limp young woman out of the water while the herbal doctor kneels to help her with a herbal drink, the old father and villagers crowd round worried, the archer stands by with his bow lowered",
+        "seed": 274055485,
+        "character": "chang-lan"
+      },
+      "video": {
+        "motionPrompt": "the doctor holds a bowl to the young woman's lips, she coughs and opens her eyes, villagers cheer, waves lap the sand",
+        "seed": 3935114908
+      },
+      "voice": {}
+    },
+    {
+      "id": "tranh-cong",
+      "title": "Ba chàng tranh công",
+      "narrator": "ke-chuyen",
+      "narration": "Cô gái đã tỉnh, nhưng ba chàng lại bắt đầu tranh nhau kể công. Chàng thứ nhất nói: Nếu không có tôi bắn con đại bàng thì chưa chắc đã cứu được nàng, vậy hãy gả nàng cho tôi. Chàng thứ hai cãi lại: Khoan đã, nếu không có tôi vớt nàng lên thì dù anh bắn giỏi đến đâu cũng vô ích. Chàng thứ ba tiếp luôn: Nhưng nếu không có tôi chữa cho tỉnh lại thì các anh dù cứu được cũng chỉ cứu một người bất động thôi. Cả ba chẳng ai chịu nhường ai. Ông già họ Lê và những người xung quanh bối rối, không biết nên trả lời thế nào. Cuối cùng, họ dắt nhau lên quan nhờ phân xử.",
+      "subtitles": [
+        "Cô gái đã tỉnh, nhưng ba chàng lại bắt đầu tranh nhau kể công.",
+        "Chàng thứ nhất nói: Nếu không có tôi bắn con đại bàng thì chưa chắc đã cứu được nàng,",
+        "vậy hãy gả nàng cho tôi.",
+        "Chàng thứ hai cãi lại: Khoan đã,",
+        "nếu không có tôi vớt nàng lên thì dù anh bắn giỏi đến đâu cũng vô ích.",
+        "Chàng thứ ba tiếp luôn: Nhưng nếu không có tôi chữa cho tỉnh lại thì các anh dù cứu được",
+        "cũng chỉ cứu một người bất động thôi.",
+        "Cả ba chẳng ai chịu nhường ai.",
+        "Ông già họ Lê và những người xung quanh bối rối, không biết nên trả lời thế nào.",
+        "Cuối cùng, họ dắt nhau lên quan nhờ phân xử."
+      ],
+      "image": {
+        "prompt": "in the courtyard of a district office, the three young men argue animatedly with raised hands, the old father and the young woman stand to one side looking worried, a wise old magistrate seated at a table listening",
+        "seed": 1382066596,
+        "character": "quan"
+      },
+      "video": {
+        "motionPrompt": "the three young men gesture in turn, the old father wrings his hands, the magistrate strokes his beard",
+        "seed": 3694581162
+      },
+      "voice": {}
+    },
+    {
+      "id": "quan-xu",
+      "title": "Ông quan phân xử",
+      "narrator": "ke-chuyen",
+      "narration": "Sau bao ngày suy nghĩ, quan cho gọi ba chàng cùng hai cha con ông già họ Lê tới công đường. Quan phán: Trong việc cứu cô gái này, cả ba người đều có công ngang nhau, thiếu một người cũng khó mà thành. Anh thầy thuốc, anh không thể kể công như thế được. Chữa khỏi cho người ta không phải là đòi lấy người ta làm vợ. Với anh, người được cứu phải coi là ân nhân chứ không bắt buộc phải là chồng. Còn anh thợ bắn, nếu anh biết chắc chẳng có ai lặn xuống cứu, thì việc anh làm chỉ là trả đũa chứ chưa phải cứu giúp. Anh bắn trúng chim mà không nghĩ đến chuyện người cũng rơi xuống nước, ý anh còn thiếu sót. Với anh, cô gái cũng chỉ là ân nhân thôi. Còn anh giỏi lặn, anh cứu cô gái mà phải ôm cô trong tay suốt buổi. Sách xưa dạy rằng nam nữ không được gần gũi nhau, trừ khi là vợ chồng. Anh đã lỡ gần gũi cô gái, thì hai người nên được kết duyên mới hợp lẽ. Có điều, với hai vị ân nhân kia, vợ chồng phải nhận làm anh em kết nghĩa.",
+      "subtitles": [
+        "Sau bao ngày suy nghĩ, quan cho gọi ba chàng cùng hai cha con ông già họ Lê tới công",
+        "đường.",
+        "Quan phán: Trong việc cứu cô gái này, cả ba người đều có công ngang nhau,",
+        "thiếu một người cũng khó mà thành.",
+        "Anh thầy thuốc, anh không thể kể công như thế được.",
+        "Chữa khỏi cho người ta không phải là đòi lấy người ta làm vợ.",
+        "Với anh, người được cứu phải coi là ân nhân chứ không bắt buộc phải là chồng.",
+        "Còn anh thợ bắn, nếu anh biết chắc chẳng có ai lặn xuống cứu,",
+        "thì việc anh làm chỉ là trả đũa chứ chưa phải cứu giúp.",
+        "Anh bắn trúng chim mà không nghĩ đến chuyện người cũng rơi xuống nước,",
+        "ý anh còn thiếu sót.",
+        "Với anh, cô gái cũng chỉ là ân nhân thôi.",
+        "Còn anh giỏi lặn, anh cứu cô gái mà phải ôm cô trong tay suốt buổi.",
+        "Sách xưa dạy rằng nam nữ không được gần gũi nhau, trừ khi là vợ chồng.",
+        "Anh đã lỡ gần gũi cô gái, thì hai người nên được kết duyên mới hợp lẽ.",
+        "Có điều, với hai vị ân nhân kia, vợ chồng phải nhận làm anh em kết nghĩa."
+      ],
+      "image": {
+        "prompt": "in a courtyard, the wise old magistrate rises and speaks gravely with a raised hand, the three young men and the young woman and her father listen carefully, red lanterns, a calm formal scene",
+        "seed": 1182113299,
+        "character": "quan"
+      },
+      "video": {
+        "motionPrompt": "the magistrate speaks and gestures to each of the three men in turn, the listeners nod slowly, lanterns sway",
+        "seed": 2393492336
       },
       "voice": {}
     },
@@ -223,23 +351,25 @@
       "id": "ket-thuc",
       "title": "Mèo Miu chào tạm biệt",
       "narrator": "miu",
-      "narration": "Nghe cô gái nói, ba chàng nhìn nhau rồi cùng bật cười, từ đó kết làm anh em thân thiết. Còn cô gái sẽ chọn ai, người xưa để lại cho chúng mình tự nghĩ đấy. Các bạn ơi, mỗi người giỏi một việc, khi biết góp sức cùng nhau thì việc khó mấy cũng làm được. Còn các bạn, các bạn thấy chàng nào giỏi nhất nào? Miu kể đến đây là hết rồi, hẹn gặp lại các bạn nhé!",
+      "narration": "Nghe quan phân xử có tình có lý, ai nấy đều vui vẻ tuân theo. Ba chàng trai kết nghĩa anh em, thân mật hơn cả ruột thịt. Còn chàng giỏi lặn thì nên duyên cùng cô gái nhà họ Lê. Lễ cưới được cử hành rất linh đình, có cả hai chàng kia đến chung vui. Các bạn nhỏ ơi, mỗi người giỏi một việc, nhưng chỉ khi biết góp sức cùng nhau thì việc khó mấy cũng làm được. Còn các bạn, các bạn thấy chàng nào giỏi nhất nào? Miu kể đến đây là hết rồi, hẹn gặp lại các bạn nhé!",
       "subtitles": [
-        "Nghe cô gái nói, ba chàng nhìn nhau rồi cùng bật cười, từ đó kết làm anh em thân thiết.",
-        "Còn cô gái sẽ chọn ai, người xưa để lại cho chúng mình tự nghĩ đấy.",
-        "Các bạn ơi, mỗi người giỏi một việc,",
-        "khi biết góp sức cùng nhau thì việc khó mấy cũng làm được.",
+        "Nghe quan phân xử có tình có lý, ai nấy đều vui vẻ tuân theo.",
+        "Ba chàng trai kết nghĩa anh em, thân mật hơn cả ruột thịt.",
+        "Còn chàng giỏi lặn thì nên duyên cùng cô gái nhà họ Lê.",
+        "Lễ cưới được cử hành rất linh đình, có cả hai chàng kia đến chung vui.",
+        "Các bạn nhỏ ơi, mỗi người giỏi một việc,",
+        "nhưng chỉ khi biết góp sức cùng nhau thì việc khó mấy cũng làm được.",
         "Còn các bạn, các bạn thấy chàng nào giỏi nhất nào?",
         "Miu kể đến đây là hết rồi, hẹn gặp lại các bạn nhé!"
       ],
       "image": {
-        "character": "miu",
-        "prompt": "Meo Miu the voxel white cat waves goodbye on the beach, behind her the three young men stand arm in arm laughing together and the girl claps happily, a small boat on the calm sea at sunset",
-        "seed": 653804552
+        "prompt": "a joyful village wedding by the sea with red lanterns, the bride and groom, the archer and the herbal doctor clapping happily as brothers, the old father smiling, the cute white voxel cat storyteller waves from the corner",
+        "seed": 1292224400,
+        "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat waves slowly, the three friends sway arm in arm laughing, the girl claps, waves glitter in the sunset, gentle camera pull-back",
-        "seed": 11338649
+        "motionPrompt": "lanterns sway, villagers clap and cheer, the cat waves a paw, gentle camera push-in",
+        "seed": 3827527021
       },
       "voice": {}
     }
