@@ -9,8 +9,9 @@
     "thien-ac"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-18",
   "language": "vi",
-  "source": "Truyền thuyết dân gian của người Tày ở Bắc Kạn, Việt Nam, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ: bà cụ là bà tiên hiền lành, không có cảnh đáng sợ; dân làng chạy lên đồi và được hai mẹ con chèo thuyền giúp đỡ.",
+  "source": "Truyện cổ tích dân gian Việt Nam Sự tích hồ Ba Bể (Bắc Kạn), truyền miệng, thuộc phạm vi công cộng; đối chiếu bản kể trên truyencotich.vn. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản kể nào; kể nhẹ đoạn nước dâng, không nhắc cảnh đau thương.",
   "basedOn": "Truyền thuyết dân gian Tày (Bắc Kạn)",
   "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, Tay ethnic stilt houses among green limestone mountains of northern Vietnam, indigo clothing, no text, no letters, no watermark",
   "narrators": {
@@ -49,139 +50,152 @@
       "id": "mo-dau",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Trên núi rừng Bắc Kạn có một cái hồ rất đẹp, nước xanh như ngọc, giữa hồ có một hòn đảo nhỏ, tên là hồ Ba Bể. Người Tày ở đấy kể rằng hồ có từ một đêm thật kỳ lạ, và từ lòng tốt của hai mẹ con nghèo. Mình cùng nghe nhé!",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn đã nghe nói đến hồ Ba Bể chưa? Đó là một hồ nước xanh biếc như ngọc, nằm giữa núi rừng ở vùng Bắc Kạn. Ngày xưa, ở đó không có hồ đâu, mà là một thung lũng có một ngôi làng đấy. Vì sao thung lũng lại thành hồ nhỉ? Mình cùng nghe nhé!",
       "subtitles": [
-        "Xin chào các bạn nhỏ! Trên núi rừng Bắc Kạn có một cái hồ rất đẹp, nước xanh như ngọc,",
-        "giữa hồ có một hòn đảo nhỏ, tên là hồ Ba Bể.",
-        "Người Tày ở đấy kể rằng hồ có từ một đêm thật kỳ lạ, và từ lòng tốt của hai mẹ con nghèo.",
+        "Xin chào các bạn nhỏ!",
+        "Mèo Miu đây.",
+        "Các bạn đã nghe nói đến hồ Ba Bể chưa?",
+        "Đó là một hồ nước xanh biếc như ngọc, nằm giữa núi rừng ở vùng Bắc Kạn.",
+        "Ngày xưa, ở đó không có hồ đâu, mà là một thung lũng có một ngôi làng đấy.",
+        "Vì sao thung lũng lại thành hồ nhỉ?",
         "Mình cùng nghe nhé!"
       ],
       "image": {
-        "character": "miu",
-        "prompt": "Meo Miu the voxel white cat sits on a small wooden boat at the edge of a calm emerald mountain lake, an open picture book on her lap, green limestone mountains and a little island in the distance, morning mist",
+        "prompt": "Meo Miu the voxel white cat stands on a boulder by a vast jade-green lake surrounded by limestone mountains and forest, mist floating over the water",
+        "seed": 2406529435,
+        "character": "miu"
+      },
+      "video": {
+        "motionPrompt": "the cat waves, mist drifts over the green lake, birds skim the water, gentle push-in",
+        "seed": 3747384517
+      },
+      "voice": {}
+    },
+    {
+      "id": "le-vo-gia",
+      "title": "Lễ Vô Giá ở làng Nam Mẫu",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xưa, ở vùng Bắc Kạn, mỗi năm dân làng Nam Mẫu đều tổ chức một lễ cúng Phật rất lớn, gọi là lễ Vô Giá. Dân chúng khắp miền ngược nghe tin kéo về dự, đông đúc vô cùng. Một hôm, có một bà lão ốm yếu, quần áo rách rưới tả tơi, đến làng dự lễ. Người bà bốc mùi khó chịu, nên ai cũng lánh xa. Bà lão đến nhà nào xin ăn cũng bị xua đuổi, mắng nhiếc, vì người ta sợ bị lây bệnh.",
+      "subtitles": [
+        "Ngày xưa, ở vùng Bắc Kạn, mỗi năm dân làng Nam Mẫu đều tổ chức một lễ cúng Phật rất lớn,",
+        "gọi là lễ Vô Giá.",
+        "Dân chúng khắp miền ngược nghe tin kéo về dự, đông đúc vô cùng.",
+        "Một hôm, có một bà lão ốm yếu, quần áo rách rưới tả tơi, đến làng dự lễ.",
+        "Người bà bốc mùi khó chịu, nên ai cũng lánh xa.",
+        "Bà lão đến nhà nào xin ăn cũng bị xua đuổi, mắng nhiếc, vì người ta sợ bị lây bệnh."
+      ],
+      "image": {
+        "prompt": "a crowded village festival with banners and offerings in a mountain valley, villagers turning away from a frail old woman in torn clothes who stands alone with a walking stick at the edge of the crowd",
+        "seed": 2598717226,
+        "character": "ba-cu"
+      },
+      "video": {
+        "motionPrompt": "the villagers wave her away and turn their backs, the old woman leans on her stick, festival banners flutter",
         "seed": 198451613
       },
-      "video": {
-        "motionPrompt": "the cat gently rocks in the little boat and points toward the island, soft mist drifts over the green water, slow gentle camera push-in",
-        "seed": 3387362782
-      },
       "voice": {}
     },
     {
-      "id": "ngay-hoi",
-      "title": "Ngày hội ở bản",
+      "id": "me-con-goa",
+      "title": "Người đàn bà goá tốt bụng",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, ở vùng này chưa có hồ mà là một cánh đồng rộng, có một bản làng đông vui. Năm ấy, bản mở hội cúng Phật thật lớn. Nhà nào cũng mổ lợn, đồ xôi, trai gái mặc áo chàm mới, kéo nhau đến xem. Giữa lúc hội đang vui, có một bà cụ lạ từ đâu đi tới. Bà gầy gò, quần áo rách vá, tay chống gậy, chìa cái túi vải ra xin ăn.",
+      "narration": "Tuy vậy, vẫn có một người động lòng thương. Đó là một người đàn bà goá, sống với con trai nhỏ. Bà không ghê sợ, gọi bà lão vào nhà, cho ăn uống no đủ. Rồi bà bằng lòng cho bà lão ăn mày ngủ nhờ một đêm, ở góc vựa lúa trong lều. Đến nửa đêm, hai mẹ con bỗng giật mình tỉnh giấc, nghe có tiếng động ầm ầm dữ dội từ phía vựa thóc. Mở cửa vựa thóc ra, họ không thấy bà lão đâu, mà chỉ thấy một con rắn lớn uốn mình ầm ầm như tiếng sấm. Hai mẹ con kinh hãi trở ra, thao thức lo sợ, không sao ngủ lại được.",
       "subtitles": [
-        "Ngày xưa, ở vùng này chưa có hồ mà là một cánh đồng rộng, có một bản làng đông vui.",
-        "Năm ấy, bản mở hội cúng Phật thật lớn.",
-        "Nhà nào cũng mổ lợn, đồ xôi, trai gái mặc áo chàm mới, kéo nhau đến xem.",
-        "Giữa lúc hội đang vui, có một bà cụ lạ từ đâu đi tới.",
-        "Bà gầy gò, quần áo rách vá, tay chống gậy, chìa cái túi vải ra xin ăn."
+        "Tuy vậy, vẫn có một người động lòng thương.",
+        "Đó là một người đàn bà goá, sống với con trai nhỏ.",
+        "Bà không ghê sợ, gọi bà lão vào nhà, cho ăn uống no đủ.",
+        "Rồi bà bằng lòng cho bà lão ăn mày ngủ nhờ một đêm, ở góc vựa lúa trong lều.",
+        "Đến nửa đêm, hai mẹ con bỗng giật mình tỉnh giấc,",
+        "nghe có tiếng động ầm ầm dữ dội từ phía vựa thóc.",
+        "Mở cửa vựa thóc ra, họ không thấy bà lão đâu,",
+        "mà chỉ thấy một con rắn lớn uốn mình ầm ầm như tiếng sấm.",
+        "Hai mẹ con kinh hãi trở ra, thao thức lo sợ, không sao ngủ lại được."
       ],
       "image": {
-        "character": "ba-cu",
-        "prompt": "a busy happy festival in a Tay village of stilt houses in a wide green valley, people in new indigo clothes carry trays of sticky rice, a frail old woman with a stick and patched clothes walks in holding out a cloth bag",
+        "prompt": "inside a small farm hut at night a kind widow and her little son kneel at the open door of a granary, peering at a huge coiled snake of pale light inside, lantern glowing, fear and wonder on their faces",
+        "seed": 3387362782,
+        "character": "me-con"
+      },
+      "video": {
+        "motionPrompt": "the lantern sways, a great glowing coil shifts in the dark granary, the mother shields her son",
         "seed": 1823875985
       },
-      "video": {
-        "motionPrompt": "festival flags flutter, people laugh and carry food trays, the old woman shuffles slowly forward with her stick, smoke curls from cooking fires",
-        "seed": 1826923551
-      },
       "voice": {}
     },
     {
-      "id": "bi-xua-duoi",
-      "title": "Bà cụ bị xua đuổi",
+      "id": "loi-bao",
+      "title": "Lời báo trước",
       "narrator": "ke-chuyen",
-      "narration": "Bà cụ đi từ nhà này sang nhà khác. Nhưng ai thấy bà cũng nhăn mặt quay đi. Có người xua tay: Đi đi, đừng làm bẩn ngày hội của chúng tôi! Có người đóng sập cửa lại. Chẳng ai cho bà lấy một nắm xôi. Bà cụ lặng lẽ chống gậy ra khỏi hội, đi mãi về phía cuối bản, nơi có một căn nhà nhỏ, mái lá thấp, của hai mẹ con nghèo.",
+      "narration": "Đến sáng, bà lão từ vựa thóc đi ra và nói: Tôi thật ra không phải là người. Tôi chỉ giả dạng người ăn mày để thử lòng từ thiện của những người đến làng Nam Mẫu lễ Phật. Tất cả mọi người đều xua đuổi tôi, trừ hai mẹ con nhà này. Họ miệng thì nói theo Phật mà lòng lại độc ác, sẽ không tránh khỏi hình phạt của bề trên, người đã giao cho tôi thi hành. Hai mẹ con biết thương kẻ khốn cùng, nên tôi xin báo trước là sắp có tai họa lớn. Hễ thấy nước nguồn bắt đầu đổ về đây, thì hai mẹ con hãy mau chạy lên đỉnh núi mà tránh. Nói xong, bà lão biến mất.",
       "subtitles": [
-        "Bà cụ đi từ nhà này sang nhà khác. Nhưng ai thấy bà cũng nhăn mặt quay đi.",
-        "Có người xua tay: Đi đi, đừng làm bẩn ngày hội của chúng tôi!",
-        "Có người đóng sập cửa lại. Chẳng ai cho bà lấy một nắm xôi.",
-        "Bà cụ lặng lẽ chống gậy ra khỏi hội, đi mãi về phía cuối bản, nơi có một căn nhà nhỏ,",
-        "mái lá thấp, của hai mẹ con nghèo."
+        "Đến sáng, bà lão từ vựa thóc đi ra và nói: Tôi thật ra không phải là người.",
+        "Tôi chỉ giả dạng người ăn mày để thử lòng từ thiện của những người đến làng Nam Mẫu lễ",
+        "Phật.",
+        "Tất cả mọi người đều xua đuổi tôi, trừ hai mẹ con nhà này.",
+        "Họ miệng thì nói theo Phật mà lòng lại độc ác, sẽ không tránh khỏi hình phạt của bề trên,",
+        "người đã giao cho tôi thi hành.",
+        "Hai mẹ con biết thương kẻ khốn cùng, nên tôi xin báo trước là sắp có tai họa lớn.",
+        "Hễ thấy nước nguồn bắt đầu đổ về đây, thì hai mẹ con hãy mau chạy lên đỉnh núi mà tránh.",
+        "Nói xong, bà lão biến mất."
       ],
       "image": {
-        "character": "ba-cu",
-        "prompt": "the frail old woman walks away sadly from the festival with her stick, villagers turn their backs and wave her off, she heads toward a small humble stilt hut with a low leaf roof at the edge of the village at dusk",
+        "prompt": "at dawn the old woman in tattered clothes stands in the yard before the widow and her son, glowing faintly and pointing toward a mountain peak, her face calm and kind",
+        "seed": 1826923551,
+        "character": "ba-cu"
+      },
+      "video": {
+        "motionPrompt": "the old woman raises her hand toward the mountain, a faint glow surrounds her, then fades away like mist",
         "seed": 866360096
-      },
-      "video": {
-        "motionPrompt": "villagers turn away and a door swings shut, the old woman walks slowly down the path, the evening sky turns orange, a small hut glows in the distance",
-        "seed": 3848701549
-      },
-      "voice": {}
-    },
-    {
-      "id": "hai-me-con",
-      "title": "Hai mẹ con tốt bụng",
-      "narrator": "ke-chuyen",
-      "narration": "Hai mẹ con vừa đi làm nương về. Thấy bà cụ, người mẹ vội đỡ bà vào nhà: Bà ơi, bà vào đây nghỉ cho đỡ mệt. Cậu con trai chạy đi lấy nước cho bà rửa mặt. Nhà nghèo chẳng có gì, người mẹ nấu nồi cháo nóng, mời bà ăn, rồi trải chiếu cho bà nằm ngủ ấm bên bếp lửa. Bà cụ nhìn hai mẹ con, mỉm cười thật hiền.",
-      "subtitles": [
-        "Hai mẹ con vừa đi làm nương về.",
-        "Thấy bà cụ, người mẹ vội đỡ bà vào nhà: Bà ơi, bà vào đây nghỉ cho đỡ mệt.",
-        "Cậu con trai chạy đi lấy nước cho bà rửa mặt.",
-        "Nhà nghèo chẳng có gì, người mẹ nấu nồi cháo nóng, mời bà ăn,",
-        "rồi trải chiếu cho bà nằm ngủ ấm bên bếp lửa.",
-        "Bà cụ nhìn hai mẹ con, mỉm cười thật hiền."
-      ],
-      "image": {
-        "character": "me-con",
-        "prompt": "inside a small humble stilt hut lit by a warm hearth fire, the kind mother offers a steaming bowl of rice porridge to the old woman, the little boy brings a wooden bowl of water, a woven mat laid out",
-        "seed": 3618062323
-      },
-      "video": {
-        "motionPrompt": "the fire crackles warmly, the mother hands over the porridge, the boy carefully carries the water, the old woman smiles, soft orange light flickers",
-        "seed": 1295374755
-      },
-      "voice": {}
-    },
-    {
-      "id": "hat-thoc-vo-trau",
-      "title": "Hạt thóc và vỏ trấu",
-      "narrator": "ke-chuyen",
-      "narration": "Sáng hôm sau, trước khi đi, bà cụ đưa cho người mẹ một gói tro và hai hạt thóc, dặn: Tối nay trong bản sẽ có chuyện lạ. Con rắc tro quanh nhà, rồi bóc vỏ hai hạt thóc này. Vỏ trấu sẽ thành thuyền, con hãy dùng thuyền mà giúp mọi người nhé. Nói xong, bà biến mất trong làn sương sớm, chỉ còn một vầng sáng nhạt nhẹ nhàng. Hai mẹ con biết mình vừa gặp một bà tiên.",
-      "subtitles": [
-        "Sáng hôm sau, trước khi đi, bà cụ đưa cho người mẹ một gói tro và hai hạt thóc,",
-        "dặn: Tối nay trong bản sẽ có chuyện lạ.",
-        "Con rắc tro quanh nhà, rồi bóc vỏ hai hạt thóc này.",
-        "Vỏ trấu sẽ thành thuyền, con hãy dùng thuyền mà giúp mọi người nhé.",
-        "Nói xong, bà biến mất trong làn sương sớm, chỉ còn một vầng sáng nhạt nhẹ nhàng.",
-        "Hai mẹ con biết mình vừa gặp một bà tiên."
-      ],
-      "image": {
-        "character": "ba-cu",
-        "prompt": "at misty dawn in front of the small hut, the old woman glowing softly places a small cloth bundle and a few golden rice grains into the mother hands, the boy watches in awe, mountains in pale morning mist",
-        "seed": 3856187619
-      },
-      "video": {
-        "motionPrompt": "a soft golden glow grows around the old woman as she fades gently into the mist, the mother holds the rice grains close, the boy waves",
-        "seed": 3468301325
       },
       "voice": {}
     },
     {
       "id": "nuoc-dang",
-      "title": "Nước dâng thành hồ",
+      "title": "Nước dâng",
       "narrator": "ke-chuyen",
-      "narration": "Đêm ấy, trời đổ mưa to. Giữa cánh đồng, một mạch nước phun lên, nước dâng mỗi lúc một cao. Dân bản hốt hoảng chạy lên đồi. Người mẹ nhớ lời bà tiên, rắc tro quanh nhà, bóc vỏ hai hạt thóc thả xuống nước. Vỏ trấu hoá thành hai chiếc thuyền. Hai mẹ con chèo thuyền đi khắp nơi, đón những người còn kẹt lại đưa lên chỗ cao. Sáng ra, cả cánh đồng đã thành một cái hồ lớn.",
+      "narration": "Hôm sau, trong lúc mọi người đang chen nhau đến dự lễ Phật giữa làng, bỗng nhiên nước từ đâu cuồn cuộn đổ tới tứ phía, tràn vào thung lũng. Người ta trèo lên mái nhà, trèo lên cây. Nhưng nước cứ dâng mãi, ngập cả những nóc nhà và những ngọn cây cao. Cả làng bị nước nhấn chìm. Chỉ có hai mẹ con người đàn bà goá, đã kịp chạy lên đỉnh núi cao, là thoát được.",
       "subtitles": [
-        "Đêm ấy, trời đổ mưa to. Giữa cánh đồng, một mạch nước phun lên, nước dâng mỗi lúc một cao.",
-        "Dân bản hốt hoảng chạy lên đồi.",
-        "Người mẹ nhớ lời bà tiên, rắc tro quanh nhà, bóc vỏ hai hạt thóc thả xuống nước.",
-        "Vỏ trấu hoá thành hai chiếc thuyền.",
-        "Hai mẹ con chèo thuyền đi khắp nơi, đón những người còn kẹt lại đưa lên chỗ cao.",
-        "Sáng ra, cả cánh đồng đã thành một cái hồ lớn."
+        "Hôm sau, trong lúc mọi người đang chen nhau đến dự lễ Phật giữa làng,",
+        "bỗng nhiên nước từ đâu cuồn cuộn đổ tới tứ phía, tràn vào thung lũng.",
+        "Người ta trèo lên mái nhà, trèo lên cây.",
+        "Nhưng nước cứ dâng mãi, ngập cả những nóc nhà và những ngọn cây cao.",
+        "Cả làng bị nước nhấn chìm.",
+        "Chỉ có hai mẹ con người đàn bà goá, đã kịp chạy lên đỉnh núi cao, là thoát được."
       ],
       "image": {
-        "character": "me-con",
-        "prompt": "in gentle rain at night, the mother and her son paddle a small wooden boat across rising calm water, helping villagers climb onto a hillside, their little hut stands safe on a dry mound, a soft glow on the water",
-        "seed": 3461670711
+        "prompt": "a mountain valley village swallowed by rising brown-silver flood water at dusk, roofs and treetops sinking, a widow and her little son climbing a steep slope toward the summit above the water",
+        "seed": 3848701549,
+        "character": "me-con"
       },
       "video": {
-        "motionPrompt": "rain falls softly, the boat glides across the water, villagers reach out and climb aboard, the little hut stays dry on its mound, ripples shine in lantern light",
-        "seed": 1265742000
+        "motionPrompt": "the water rises swirling around the roofs, the mother pulls her son up the slope, wind and mist",
+        "seed": 3618062323
+      },
+      "voice": {}
+    },
+    {
+      "id": "ho-ba-be",
+      "title": "Hồ Ba Bể ra đời",
+      "narrator": "ke-chuyen",
+      "narration": "Trên núi, hai mẹ con dựng một gian nhà nhỏ để ở. Nơi ấy về sau thành một ngôi làng đông đúc, đến nay vẫn gọi là làng Nam Mẫu. Còn cả thung lũng bị nước tràn ngập thì hóa thành ba cái hồ rộng mênh mông như biển, nên người ta gọi là hồ Ba Bể. Nước ở ba hồ thông với nhau, nhưng ghe thuyền không đi được từ hồ này sang hồ kia, vì có những đập đá lớn ngăn lại. Hồ Ba Bể rộng bát ngát, nước trong xanh như ngọc bích, nổi bật giữa núi rừng hùng vĩ của miền thượng du.",
+      "subtitles": [
+        "Trên núi, hai mẹ con dựng một gian nhà nhỏ để ở.",
+        "Nơi ấy về sau thành một ngôi làng đông đúc, đến nay vẫn gọi là làng Nam Mẫu.",
+        "Còn cả thung lũng bị nước tràn ngập thì hóa thành ba cái hồ rộng mênh mông như biển,",
+        "nên người ta gọi là hồ Ba Bể.",
+        "Nước ở ba hồ thông với nhau, nhưng ghe thuyền không đi được từ hồ này sang hồ kia,",
+        "vì có những đập đá lớn ngăn lại.",
+        "Hồ Ba Bể rộng bát ngát, nước trong xanh như ngọc bích,",
+        "nổi bật giữa núi rừng hùng vĩ của miền thượng du."
+      ],
+      "image": {
+        "prompt": "a vast serene jade-green lake with three connected basins among limestone peaks, a small stilt house village on the hillside above, a fishing boat gliding on calm water at sunrise",
+        "seed": 1295374755,
+        "character": "me-con"
+      },
+      "video": {
+        "motionPrompt": "the sun rises over the jade lake, the boat glides, mist lifts from the water, birds fly overhead",
+        "seed": 3856187619
       },
       "voice": {}
     },
@@ -189,22 +203,23 @@
       "id": "ket-thuc",
       "title": "Mèo Miu chào tạm biệt",
       "narrator": "miu",
-      "narration": "Nhà của hai mẹ con nhờ có tro của bà tiên nên không bị nước ngập, hoá thành hòn đảo nhỏ giữa hồ. Dân bản cảm ơn hai mẹ con, và từ đó ai cũng biết thương người nghèo khó. Các bạn thấy không, một bát cháo nóng cũng là một tấm lòng tốt. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "narration": "Các bạn thấy không, hai mẹ con người đàn bà goá biết thương người khốn khó, nên được giúp thoát nạn. Còn những ai quay lưng với người nghèo khổ thì chẳng có được phúc lành. Các bạn nhớ nhé, thấy ai gặp khó khăn thì hãy giúp đỡ họ, đừng xua đuổi. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
       "subtitles": [
-        "Nhà của hai mẹ con nhờ có tro của bà tiên nên không bị nước ngập,",
-        "hoá thành hòn đảo nhỏ giữa hồ.",
-        "Dân bản cảm ơn hai mẹ con, và từ đó ai cũng biết thương người nghèo khó.",
-        "Các bạn thấy không, một bát cháo nóng cũng là một tấm lòng tốt.",
-        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+        "Các bạn thấy không, hai mẹ con người đàn bà goá biết thương người khốn khó,",
+        "nên được giúp thoát nạn.",
+        "Còn những ai quay lưng với người nghèo khổ thì chẳng có được phúc lành.",
+        "Các bạn nhớ nhé, thấy ai gặp khó khăn thì hãy giúp đỡ họ, đừng xua đuổi.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn!"
       ],
       "image": {
-        "character": "miu",
-        "prompt": "Meo Miu the voxel white cat waves goodbye from a small boat on the calm emerald lake, behind her a little green island with a hut, the mother and son and villagers wave from the shore, limestone mountains in sunshine",
-        "seed": 2778964897
+        "prompt": "Meo Miu the voxel white cat waves goodbye by a jade-green lake at sunset, a widow and her son smiling on a hillside behind her",
+        "seed": 3468301325,
+        "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat waves slowly, the boat bobs on gentle ripples, villagers wave from the shore, birds fly over the lake, gentle camera pull-back",
-        "seed": 307463064
+        "motionPrompt": "the cat waves, the lake sparkles in the setting sun, soft warm glow",
+        "seed": 3461670711
       },
       "voice": {}
     }
