@@ -8,8 +8,9 @@
     "ngu-ngon"
   ],
   "added": "2026-11-03",
+  "revised": "2026-11-17",
   "language": "vi",
-  "source": "Jean de La Fontaine, Fables (1668–1694; tác giả mất 1695), bài «Le Coq et le Renard», bản tiếng Anh «The Cock and the Fox» của Walter Thornbury, Project Gutenberg #50316, thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới, kể thành truyện từ cốt và lời răn của bài thơ ngụ ngôn.",
+  "source": "Jean de La Fontaine, Fables (1668–1694; tác giả mất 1695), bài «Le Coq et le Renard», bản tiếng Anh «The Cock and the Fox» của Walter Thornbury, Project Gutenberg #50316, thuộc phạm vi công cộng. Lời kể tiếng Việt viết mới, kể đủ cốt và lời răn của bài thơ ngụ ngôn, không chép bản dịch nào.",
   "basedOn": "Ngụ ngôn La Fontaine",
   "style": "classic seventeenth century French storybook illustration, a French farmyard edge with an old oak tree, a wooden fence and rolling meadows, russet orange, leaf green, cream and soft sky blue palette, witty cheerful mood for family reading, no text, no letters, no watermark",
   "narrators": {
@@ -34,148 +35,121 @@
   ],
   "scenes": [
     {
-      "id": "tren-canh-soi",
-      "title": "Trên cành sồi",
+      "id": "ga-tren-canh",
+      "title": "Chú gà trống trên cành",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, ở rìa một trang trại nước Pháp, có một cây sồi già cành lá xum xuê. Trên một cành cao, có một ông gà trống già đang đứng canh gác cho cả đàn gà. Ông gà này đã sống qua nhiều mùa, từng thấy nhiều chuyện, nên khôn ngoan và tinh mắt lắm. Từ trên cao, ông nhìn khắp đồng cỏ, hễ thấy bóng dáng gì khả nghi là cất tiếng gáy báo cho cả đàn chạy vào chuồng. Sáng hôm ấy trời trong xanh, gió thổi nhè nhẹ, mọi thứ có vẻ yên bình lắm.",
+      "narration": "Ngày xưa có một chú gà trống già, rất khôn ngoan và tinh quái, ngồi trên một cành cây như một người lính canh tinh khôn. Chú ngồi đó nhìn xuống sân trại, nơi đàn gà mái của chú đang bới đất. Bỗng một con cáo bước lại gần, nói thật ngọt ngào, vì giọng nó dịu dàng đến nỗi biết ngay là có mưu mô trong đó.",
       "subtitles": [
-        "Ngày xưa, ở rìa một trang trại nước Pháp, có một cây sồi già cành lá xum xuê.",
-        "Trên một cành cao, có một ông gà trống già đang đứng canh gác cho cả đàn gà.",
-        "Ông gà này đã sống qua nhiều mùa, từng thấy nhiều chuyện, nên khôn ngoan và tinh mắt lắm.",
-        "Từ trên cao, ông nhìn khắp đồng cỏ,",
-        "hễ thấy bóng dáng gì khả nghi là cất tiếng gáy báo cho cả đàn chạy vào chuồng.",
-        "Sáng hôm ấy trời trong xanh, gió thổi nhè nhẹ, mọi thứ có vẻ yên bình lắm."
+        "Ngày xưa có một chú gà trống già, rất khôn ngoan và tinh quái, ngồi trên một cành cây như",
+        "một người lính canh tinh khôn.",
+        "Chú ngồi đó nhìn xuống sân trại, nơi đàn gà mái của chú đang bới đất.",
+        "Bỗng một con cáo bước lại gần, nói thật ngọt ngào, vì giọng nó dịu dàng đến nỗi biết ngay",
+        "là có mưu mô trong đó."
       ],
       "image": {
-        "prompt": "a wise old rooster perched on a high branch of a large old oak tree at the edge of a French farm, keeping watch over hens in the yard below, clear morning sky",
-        "seed": 4257761927,
+        "prompt": "a crafty old rooster perched on a tree branch like a sentinel overlooking a French farm yard with hens below, golden morning light, rolling green hills, folk storybook style",
+        "seed": 41318926,
         "character": "ga-trong"
       },
       "video": {
-        "motionPrompt": "the rooster turns its head left and right watching the meadow, leaves rustle, hens peck below, slow push in",
-        "seed": 1989847748
+        "motionPrompt": "the old rooster tilts his head and watches the field from his branch while hens scratch below",
+        "seed": 2407430139
       },
       "voice": {}
     },
     {
-      "id": "cao-toi",
-      "title": "Cáo tới báo tin",
+      "id": "cao-ra-tin",
+      "title": "Con cáo báo tin",
       "narrator": "ke-chuyen",
-      "narration": "Bỗng một con cáo lông đỏ từ bìa rừng lò dò đi tới, đứng dưới gốc sồi, ngước lên, cười thật tươi. Anh gà thân mến ơi, cáo nói bằng giọng ngọt như mật, tôi mang tới cho anh một tin vui lớn. Từ nay muôn loài đã làm hoà với nhau rồi, chẳng còn ai đánh đuổi ai nữa. Hoà bình khắp nơi, lần này là thật đấy! Anh xuống đây đi, để tôi ôm anh một cái cho thắm tình anh em.",
+      "narration": "Cáo nói: “Chào anh, anh bạn! Cuộc cãi vã của chúng ta đã xong, hòa bình đã được tuyên bố. Tôi mang tin ấy đến đây; xuống đây đi, ta ôm nhau nào. Đừng chậm trễ, kẻo tôi bị trách nếu không đi tiếp được hai mươi chặng nữa từ nơi này. Giờ thì anh và những người nhà của anh có thể sống yên ổn, muốn làm gì thì làm, chẳng còn phải sợ gì. Giờ chúng ta là anh em rồi, bạn thân mến ạ.” Cáo nói thêm: “Hãy nhóm lửa mừng khắp nơi, bỏ hết lo âu đi. Nhưng trước hết, để làm cho niềm vui thêm chắc chắn, hãy cùng trao nhau một cái hôn thân thiết của tình anh em.”",
       "subtitles": [
-        "Bỗng một con cáo lông đỏ từ bìa rừng lò dò đi tới, đứng dưới gốc sồi, ngước lên,",
-        "cười thật tươi.",
-        "Anh gà thân mến ơi, cáo nói bằng giọng ngọt như mật, tôi mang tới cho anh một tin vui lớn.",
-        "Từ nay muôn loài đã làm hoà với nhau rồi, chẳng còn ai đánh đuổi ai nữa.",
-        "Hoà bình khắp nơi, lần này là thật đấy!",
-        "Anh xuống đây đi, để tôi ôm anh một cái cho thắm tình anh em."
+        "Cáo nói: “Chào anh, anh bạn!",
+        "Cuộc cãi vã của chúng ta đã xong, hòa bình đã được tuyên bố.",
+        "Tôi mang tin ấy đến đây; xuống đây đi, ta ôm nhau nào.",
+        "Đừng chậm trễ, kẻo tôi bị trách nếu không đi tiếp được hai mươi chặng nữa từ nơi này.",
+        "Giờ thì anh và những người nhà của anh có thể sống yên ổn, muốn làm gì thì làm, chẳng còn",
+        "phải sợ gì.",
+        "Giờ chúng ta là anh em rồi, bạn thân mến ạ.”",
+        "Cáo nói thêm: “Hãy nhóm lửa mừng khắp nơi, bỏ hết lo âu đi.",
+        "Nhưng trước hết, để làm cho niềm vui thêm chắc chắn, hãy cùng trao nhau một cái hôn thân",
+        "thiết của tình anh em.”"
       ],
       "image": {
-        "prompt": "a sly red fox standing at the foot of the oak tree, smiling sweetly and looking up at the rooster on the branch, paws spread wide as if offering a hug",
-        "seed": 4045218190,
+        "prompt": "a smooth-talking red fox standing under a tree with a sweet smile, one paw held out toward a rooster on a branch above, grass and wild flowers, hopeful pose, storybook style",
+        "seed": 2704945057,
         "character": "con-cao"
       },
       "video": {
-        "motionPrompt": "the fox sways its bushy tail and gestures with open paws, the rooster tilts its head listening, sunlight flickers through leaves",
-        "seed": 417557459
+        "motionPrompt": "the fox bows with a sweet smile and holds a paw up toward the rooster on the branch",
+        "seed": 741483092
       },
       "voice": {}
     },
     {
-      "id": "cao-giuc",
-      "title": "Cáo giục giã",
-      "narrator": "ke-chuyen",
-      "narration": "Thấy gà trống còn đứng yên, cáo càng nói ngọt hơn. Anh xuống nhanh lên nào, tôi còn phải đi báo tin này cho cả hai chục nơi nữa trong ngày hôm nay. Từ giờ anh và cả nhà anh cứ tha hồ ra đồng kiếm ăn, chẳng phải sợ hãi gì nữa. Chúng tôi sẽ đối với các anh như anh em ruột thịt. Tối nay, khắp nơi sẽ đốt lửa ăn mừng. Nào, anh xuống đây, nhận lấy cái ôm tình thân của tôi đi! Vừa nói, cáo vừa liếm mép, mắt không rời ông gà trên cành.",
-      "subtitles": [
-        "Thấy gà trống còn đứng yên, cáo càng nói ngọt hơn.",
-        "Anh xuống nhanh lên nào,",
-        "tôi còn phải đi báo tin này cho cả hai chục nơi nữa trong ngày hôm nay.",
-        "Từ giờ anh và cả nhà anh cứ tha hồ ra đồng kiếm ăn, chẳng phải sợ hãi gì nữa.",
-        "Chúng tôi sẽ đối với các anh như anh em ruột thịt.",
-        "Tối nay, khắp nơi sẽ đốt lửa ăn mừng.",
-        "Nào, anh xuống đây, nhận lấy cái ôm tình thân của tôi đi!",
-        "Vừa nói, cáo vừa liếm mép, mắt không rời ông gà trên cành."
-      ],
-      "image": {
-        "prompt": "the fox talking eagerly with a sweet smile while secretly licking its lips, the rooster on the oak branch peering down thoughtfully, hens hiding behind the fence",
-        "seed": 3831753484,
-        "character": "con-cao"
-      },
-      "video": {
-        "motionPrompt": "the fox leans forward eagerly and licks its lips, the rooster narrows its eyes, a hen peeks out from behind the fence, gentle comic motion",
-        "seed": 2002114018
-      },
-      "voice": {}
-    },
-    {
-      "id": "ga-dap",
+      "id": "ga-khoe-tin",
       "title": "Gà trống đáp lời",
       "narrator": "ke-chuyen",
-      "narration": "Gà trống già nghe hết, rồi vươn cổ nhìn ra xa, thong thả đáp: Bạn cáo ơi, chẳng có tin nào làm tôi vui hơn tin hoà bình này. Mà được nghe chính bạn báo tin thì tôi lại càng vui gấp đôi. À này, tôi trông thấy đằng xa kia có hai con chó săn đang chạy tới. Chắc hẳn họ cũng là sứ giả được cử đi báo tin hoà bình. Họ chạy nhanh lắm, chỉ một lát nữa là tới đây thôi. Bạn chờ một chút nhé, tôi sẽ xuống ngay, để cả bốn chúng ta cùng ôm nhau mừng ngày vui.",
+      "narration": "Chú gà trống đáp: “Bạn ơi, tôi xin thề, tôi chưa bao giờ nghe tin nào vinh quang hơn thế. Hòa bình này, mong nó cứ lớn mãi. Nghe tin này từ chính bạn thì niềm vui nhân đôi. Ha! Tôi thấy kia hai con chó săn, chắc là những người đưa tin như bạn, đang chạy nhanh xuống con dốc đằng kia. Chúng sẽ tới đây trong một phút nữa thôi. À, phải rồi, có chuyện gì ở đây. Tôi sẽ xuống ngay đây thôi: tốt hơn là cả bọn ta cùng hôn nhau.”",
       "subtitles": [
-        "Gà trống già nghe hết, rồi vươn cổ nhìn ra xa, thong thả đáp: Bạn cáo ơi,",
-        "chẳng có tin nào làm tôi vui hơn tin hoà bình này.",
-        "Mà được nghe chính bạn báo tin thì tôi lại càng vui gấp đôi.",
-        "À này, tôi trông thấy đằng xa kia có hai con chó săn đang chạy tới.",
-        "Chắc hẳn họ cũng là sứ giả được cử đi báo tin hoà bình.",
-        "Họ chạy nhanh lắm, chỉ một lát nữa là tới đây thôi.",
-        "Bạn chờ một chút nhé, tôi sẽ xuống ngay, để cả bốn chúng ta cùng ôm nhau mừng ngày vui."
+        "Chú gà trống đáp: “Bạn ơi, tôi xin thề, tôi chưa bao giờ nghe tin nào vinh quang hơn thế.",
+        "Hòa bình này, mong nó cứ lớn mãi.",
+        "Nghe tin này từ chính bạn thì niềm vui nhân đôi.",
+        "Ha!",
+        "Tôi thấy kia hai con chó săn, chắc là những người đưa tin như bạn, đang chạy nhanh xuống",
+        "con dốc đằng kia.",
+        "Chúng sẽ tới đây trong một phút nữa thôi.",
+        "À, phải rồi, có chuyện gì ở đây.",
+        "Tôi sẽ xuống ngay đây thôi: tốt hơn là cả bọn ta cùng hôn nhau.”"
       ],
       "image": {
-        "prompt": "the old rooster stretching its neck and pointing its wing toward the far meadow where two greyhounds are running, the fox below looking suddenly alarmed",
-        "seed": 1021773915,
+        "prompt": "a rooster on a branch leaning over politely and looking toward two greyhound dogs running down a distant hillside, the fox below looking up with a worried face, a sunny valley, storybook style",
+        "seed": 4042028362,
         "character": "ga-trong"
       },
       "video": {
-        "motionPrompt": "the rooster gestures calmly toward the horizon, two greyhounds bound across the distant meadow, the fox's ears shoot up, slow zoom out",
-        "seed": 1510973330
+        "motionPrompt": "the rooster stretches his neck toward the distant hillside while the fox glances nervously behind him",
+        "seed": 2112125119
       },
       "voice": {}
     },
     {
-      "id": "cao-chuon",
-      "title": "Cáo chuồn mất",
+      "id": "cao-bo-chay",
+      "title": "Cáo bỏ chạy",
       "narrator": "ke-chuyen",
-      "narration": "Nghe tới hai con chó săn, cáo giật thót mình. Thôi, chào anh nhé, cáo nói vội, đường tôi còn xa lắm. Hẹn anh dịp khác ta sẽ ăn mừng sau! Nói rồi cáo cụp đuôi, co giò chạy một mạch vào rừng, bụng đầy bực bội vì mưu không thành. Gà trống già đứng trên cành, nhìn theo mà bật cười. Ông cất tiếng gáy vang, gọi cả đàn gà ra sân. Lũ gà mái kéo ra, nghe ông kể lại chuyện, ai cũng cười nghiêng ngả.",
+      "narration": "Cáo nói: “Xin chào,” “thưa ngài, việc của tôi gấp lắm; chắc chắn chúng ta sẽ sớm gặp lại. Lúc khác ta sẽ cùng vui mừng vì chấm dứt những khổ sở của chúng ta.” Rồi tên gian xảo chạy trốn vào hang, đầy tức tối và thất vọng.",
       "subtitles": [
-        "Nghe tới hai con chó săn, cáo giật thót mình.",
-        "Thôi, chào anh nhé, cáo nói vội, đường tôi còn xa lắm.",
-        "Hẹn anh dịp khác ta sẽ ăn mừng sau!",
-        "Nói rồi cáo cụp đuôi, co giò chạy một mạch vào rừng, bụng đầy bực bội vì mưu không thành.",
-        "Gà trống già đứng trên cành, nhìn theo mà bật cười.",
-        "Ông cất tiếng gáy vang, gọi cả đàn gà ra sân.",
-        "Lũ gà mái kéo ra, nghe ông kể lại chuyện, ai cũng cười nghiêng ngả."
+        "Cáo nói: “Xin chào,” “thưa ngài, việc của tôi gấp lắm; chắc chắn chúng ta sẽ sớm gặp lại.",
+        "Lúc khác ta sẽ cùng vui mừng vì chấm dứt những khổ sở của chúng ta.”",
+        "Rồi tên gian xảo chạy trốn vào hang, đầy tức tối và thất vọng."
       ],
       "image": {
-        "prompt": "the red fox running away into the forest with its tail tucked low, the old rooster crowing happily on the oak branch, hens gathering and laughing in the farmyard",
-        "seed": 435342192,
+        "prompt": "a red fox running off into a hedge with its tail down looking back in alarm, two greyhound dogs in the distance on a hill, a rooster laughing on a branch and clapping his wings, hens cheering below, afternoon light",
+        "seed": 1081781453,
         "character": "con-cao"
       },
       "video": {
-        "motionPrompt": "the fox dashes off kicking up leaves, the rooster throws back its head and crows, the hens flap their wings merrily, bright morning light",
-        "seed": 1236332041
+        "motionPrompt": "the fox scurries away into the hedgerow while the rooster flaps his wings on the branch",
+        "seed": 3446841656
       },
       "voice": {}
     },
     {
-      "id": "loi-ran",
-      "title": "Lời răn",
+      "id": "ga-cuoi",
+      "title": "Tiếng cười của gà trống",
       "narrator": "ke-chuyen",
-      "narration": "Ngụ ngôn xưa bảo rằng, khi một kẻ vốn quen lừa lọc bỗng tới nói những lời quá ngọt ngào, ta hãy cứ bình tĩnh mà nghĩ cho kỹ. Đừng vội tin, cũng đừng vội làm theo. Và có một niềm vui gấp đôi, ấy là khi kẻ định lừa người khác lại bị chính người ta khéo léo lừa lại.",
+      "narration": "Chú gà trống cười to khi thấy cáo sợ hãi, rồi vỗ cánh để làm cho các bà vợ của chú vui. Có một niềm vui càng ngọt ngào gấp đôi, đó là khi ta lừa được kẻ gian xảo và kẻ lừa đảo.",
       "subtitles": [
-        "Ngụ ngôn xưa bảo rằng, khi một kẻ vốn quen lừa lọc bỗng tới nói những lời quá ngọt ngào,",
-        "ta hãy cứ bình tĩnh mà nghĩ cho kỹ.",
-        "Đừng vội tin, cũng đừng vội làm theo.",
-        "Và có một niềm vui gấp đôi,",
-        "ấy là khi kẻ định lừa người khác lại bị chính người ta khéo léo lừa lại."
+        "Chú gà trống cười to khi thấy cáo sợ hãi, rồi vỗ cánh để làm cho các bà vợ của chú vui.",
+        "Có một niềm vui càng ngọt ngào gấp đôi, đó là khi ta lừa được kẻ gian xảo và kẻ lừa đảo."
       ],
       "image": {
-        "prompt": "the old rooster resting contentedly on the oak branch at sunset, the farm peaceful below, the edge of the forest quiet in the warm evening light",
-        "seed": 632025335
+        "prompt": "a rooster laughing on a branch and flapping his wings while hens gather happily below him, a distant hedge where the fox disappeared, bright sunny farm yard, storybook style",
+        "seed": 1232005744,
+        "character": "ga-trong"
       },
       "video": {
-        "motionPrompt": "the sun sets slowly behind the meadow, the rooster settles its feathers, leaves drift down, slow pull back over the farm",
-        "seed": 1699428258
+        "motionPrompt": "the rooster flaps his wings and the hens look up cheerfully as sunlight bathes the farmyard",
+        "seed": 3295078277
       },
       "voice": {}
     }
