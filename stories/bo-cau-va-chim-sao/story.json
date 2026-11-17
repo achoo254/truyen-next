@@ -9,6 +9,7 @@
     "thien-nhien"
   ],
   "added": "2026-11-02",
+  "revised": "2026-11-18",
   "language": "vi",
   "source": "Truyện «Con bồ câu và con sáo» trong Truyện cổ nước Nam, quyển Muông chim (1934) của Ôn Như Nguyễn Văn Ngọc, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách; Mèo Miu mở đầu và rút ý ở cuối, kể nhẹ việc chủ nhà phạt bồ câu (mắng, đuổi) và việc bồ câu làm bẩn chĩnh nước trước khi bay đi, giữ nguyên cốt truyện.",
   "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
@@ -63,9 +64,9 @@
         "Chuyện này có một chú sáo nói nhiều quá đấy. Mình cùng nghe nhé!"
       ],
       "image": {
-        "character": "miu",
         "prompt": "Meo Miu the voxel white cat sits under the eaves of a village house, looking up at a little black myna in a bamboo cage and a grey pigeon perched beside it, warm morning light",
-        "seed": 3834479943
+        "seed": 3834479943,
+        "character": "miu"
       },
       "video": {
         "motionPrompt": "the cat looks up and smiles, the myna hops in its cage chattering, the pigeon coos and bobs its head, gentle camera push-in",
@@ -77,18 +78,18 @@
       "id": "sao-than",
       "title": "Chú sáo than thở",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, có một nhà nuôi cả bồ câu lẫn một chú sáo. Bồ câu được bay đi bay lại tự do, còn sáo thì ở trong lồng. Một hôm, thấy bồ câu đậu bên lồng, sáo than: Giá tôi được ra ngoài như anh, tôi bỏ nhà này đi lâu rồi. Lồng thì chật, mỗi ngày người ta chỉ cho một nhúm thức ăn. Tôi tức lắm, chỉ muốn phá lồng mà ra thôi!",
+      "narration": "Ngày xưa, có một nhà vừa nuôi chim bồ câu vừa nuôi một con sáo. Một hôm, sáo thấy bồ câu đậu bên cạnh lồng, bèn than: Tôi mà được tự do ở ngoài như anh thì tôi bỏ nhà này đi lâu rồi. Tôi phải ở trong lồng chật hẹp, mà mỗi ngày người ta chỉ cho một ít đồ ăn, sao no bụng được? Tôi tức lắm, chỉ muốn phá cái lồng này mà ra cho được!",
       "subtitles": [
-        "Ngày xưa, có một nhà nuôi cả bồ câu lẫn một chú sáo.",
-        "Bồ câu được bay đi bay lại tự do, còn sáo thì ở trong lồng.",
-        "Một hôm, thấy bồ câu đậu bên lồng, sáo than: Giá tôi được ra ngoài như anh,",
-        "tôi bỏ nhà này đi lâu rồi. Lồng thì chật, mỗi ngày người ta chỉ cho một nhúm thức ăn.",
-        "Tôi tức lắm, chỉ muốn phá lồng mà ra thôi!"
+        "Ngày xưa, có một nhà vừa nuôi chim bồ câu vừa nuôi một con sáo.",
+        "Một hôm, sáo thấy bồ câu đậu bên cạnh lồng, bèn than:",
+        "Tôi mà được tự do ở ngoài như anh thì tôi bỏ nhà này đi lâu rồi.",
+        "Tôi phải ở trong lồng chật hẹp, mà mỗi ngày người ta chỉ cho một ít đồ ăn, sao no bụng",
+        "được? Tôi tức lắm, chỉ muốn phá cái lồng này mà ra cho được!"
       ],
       "image": {
-        "character": "chim-sao",
         "prompt": "the little myna grumbles inside its small bamboo cage hanging under the eaves, the grey pigeon perches on top of the cage listening",
-        "seed": 637515908
+        "seed": 637515908,
+        "character": "chim-sao"
       },
       "video": {
         "motionPrompt": "the myna flaps and pecks at the cage bars grumpily, the pigeon tilts its head and listens, the cage sways slightly",
@@ -100,19 +101,20 @@
       "id": "bo-cau-noi",
       "title": "Bồ câu nói chuyện riêng",
       "narrator": "ke-chuyen",
-      "narration": "Bồ câu bảo: Trời sinh anh em mình có cánh. Nhà nào tốt thì ta ở, nhà nào không tốt thì ta đi. Ra khỏi lồng dễ thôi. Khi nào tôi đi, tôi sẽ báo anh biết trước. Sáo tò mò hỏi: Thế nếu chủ nhà không cho anh ăn, anh làm gì? Bồ câu đáp: Thì tôi chẳng ở với họ nữa. Làm thế nào ư? Bồ câu vừa vỗ cánh bay vừa nói: Lúc ấy sẽ biết, giờ tôi chưa nói đâu.",
+      "narration": "Bồ câu bảo: Trời sinh anh em ta là giống có cánh, nhà ai có phúc thì ta ở, nhà ai có họa thì ta bỏ đi. Tháo cũi xổ lồng là việc rất dễ. Để khi nào tôi đi, tôi sẽ nói cho anh biết trước. Nhà chủ nó khinh anh em mình sao được! Sáo hỏi: Nhà chủ nó khinh anh, không cho anh ăn, thì anh làm gì nó? Bồ câu đáp: Thì tao phản ngay. Sáo hỏi: Phản nó thì anh làm thế nào? Bồ câu vừa bay vừa nói: Bấy giờ sẽ hay, tao không nói cho mày biết trước.",
       "subtitles": [
-        "Bồ câu bảo: Trời sinh anh em mình có cánh.",
-        "Nhà nào tốt thì ta ở, nhà nào không tốt thì ta đi.",
-        "Ra khỏi lồng dễ thôi. Khi nào tôi đi, tôi sẽ báo anh biết trước.",
-        "Sáo tò mò hỏi: Thế nếu chủ nhà không cho anh ăn, anh làm gì?",
-        "Bồ câu đáp: Thì tôi chẳng ở với họ nữa. Làm thế nào ư?",
-        "Bồ câu vừa vỗ cánh bay vừa nói: Lúc ấy sẽ biết, giờ tôi chưa nói đâu."
+        "Bồ câu bảo:",
+        "Trời sinh anh em ta là giống có cánh, nhà ai có phúc thì ta ở, nhà ai có họa thì ta bỏ đi.",
+        "Tháo cũi xổ lồng là việc rất dễ. Để khi nào tôi đi, tôi sẽ nói cho anh biết trước.",
+        "Nhà chủ nó khinh anh em mình sao được! Sáo hỏi:",
+        "Nhà chủ nó khinh anh, không cho anh ăn, thì anh làm gì nó?",
+        "Bồ câu đáp: Thì tao phản ngay. Sáo hỏi: Phản nó thì anh làm thế nào?",
+        "Bồ câu vừa bay vừa nói: Bấy giờ sẽ hay, tao không nói cho mày biết trước."
       ],
       "image": {
-        "character": "bo-cau",
         "prompt": "the grey pigeon talks quietly to the myna through the cage bars, then spreads its wings to take off from the cage roof, the myna leans close listening eagerly",
-        "seed": 695033451
+        "seed": 695033451,
+        "character": "bo-cau"
       },
       "video": {
         "motionPrompt": "the pigeon whispers and nods, then flaps its wings and lifts off, feathers drift, the myna presses against the bars watching",
@@ -124,18 +126,16 @@
       "id": "sao-hot-lai",
       "title": "Sáo hót lại với chủ",
       "narrator": "ke-chuyen",
-      "narration": "Một lát sau, chủ nhà về, bỏ thức ăn vào lồng cho sáo. Sáo liền ríu rít hót lại với chủ nhà hết những lời bồ câu vừa nói. Nào là bồ câu định bỏ đi, nào là bồ câu không muốn ở với chủ nữa. Chủ nhà nghe xong giận lắm, bắt bồ câu ra mắng cho một trận, rồi xua bồ câu ra khỏi chuồng.",
+      "narration": "Một chốc sau, nhà chủ về, cho sáo ăn. Sáo liền hót luôn với nhà chủ câu chuyện của bồ câu lúc nãy. Nhà chủ nghe xong giận lắm, bắt bồ câu ra đánh.",
       "subtitles": [
-        "Một lát sau, chủ nhà về, bỏ thức ăn vào lồng cho sáo.",
-        "Sáo liền ríu rít hót lại với chủ nhà hết những lời bồ câu vừa nói.",
-        "Nào là bồ câu định bỏ đi, nào là bồ câu không muốn ở với chủ nữa.",
-        "Chủ nhà nghe xong giận lắm, bắt bồ câu ra mắng cho một trận,",
-        "rồi xua bồ câu ra khỏi chuồng."
+        "Một chốc sau, nhà chủ về, cho sáo ăn.",
+        "Sáo liền hót luôn với nhà chủ câu chuyện của bồ câu lúc nãy.",
+        "Nhà chủ nghe xong giận lắm, bắt bồ câu ra đánh."
       ],
       "image": {
-        "character": "chu-nha",
         "prompt": "the villager puts food into the bamboo cage while the chatty myna sings and chatters to him, the villager frowns and looks toward the pigeon on the dovecote",
-        "seed": 4255241988
+        "seed": 4255241988,
+        "character": "chu-nha"
       },
       "video": {
         "motionPrompt": "the myna chatters quickly, the villager's face turns cross, he waves his arm toward the dovecote, the pigeon flinches",
@@ -147,18 +147,20 @@
       "id": "bo-cau-bay-di",
       "title": "Bồ câu bay đi",
       "narrator": "ke-chuyen",
-      "narration": "Bồ câu bay đến bên lồng, mắng sáo: Đồ mách lẻo! Cái tính hay đi hót chuyện người khác như mày, thì phải ở trong lồng là đúng lắm, còn kêu ca gì nữa. Thôi, mày ở lại mà hót, tao đi đây! Mắng xong, bồ câu bay ra sau nhà, làm bẩn luôn cái chĩnh nước của chủ, rồi vỗ cánh bay đi nơi khác, không bao giờ quay lại nữa.",
+      "narration": "Bồ câu thoát ra, bay đến gần sáo, mắng sáo thậm tệ: Rõ đồ phỉnh nịnh khốn thân! Cái tính mày hay đi hót người thế, thì cái nghiệp mày phải nhốt trong cũi trong lồng là phải lắm. Mày còn kêu ca phàn nàn thế nào được! Thôi mày ở lại, tha hồ mà hót, tao đi đây! Mắng xong, bồ câu ra đằng sau nhà, làm bẩn luôn mấy bãi vào chĩnh nước ăn của nhà chủ, rồi mới bỏ bay đi nơi khác, không bao giờ quay lại nữa.",
       "subtitles": [
-        "Bồ câu bay đến bên lồng, mắng sáo: Đồ mách lẻo!",
-        "Cái tính hay đi hót chuyện người khác như mày, thì phải ở trong lồng là đúng lắm,",
-        "còn kêu ca gì nữa. Thôi, mày ở lại mà hót, tao đi đây!",
-        "Mắng xong, bồ câu bay ra sau nhà, làm bẩn luôn cái chĩnh nước của chủ,",
-        "rồi vỗ cánh bay đi nơi khác, không bao giờ quay lại nữa."
+        "Bồ câu thoát ra, bay đến gần sáo, mắng sáo thậm tệ:",
+        "Rõ đồ phỉnh nịnh khốn thân!",
+        "Cái tính mày hay đi hót người thế, thì cái nghiệp mày phải nhốt trong cũi trong lồng là",
+        "phải lắm. Mày còn kêu ca phàn nàn thế nào được!",
+        "Thôi mày ở lại, tha hồ mà hót, tao đi đây!",
+        "Mắng xong, bồ câu ra đằng sau nhà, làm bẩn luôn mấy bãi vào chĩnh nước ăn của nhà chủ, rồi",
+        "mới bỏ bay đi nơi khác, không bao giờ quay lại nữa."
       ],
       "image": {
-        "character": "bo-cau",
         "prompt": "the grey pigeon scolds the myna through the cage bars with flapping wings, then flies away over the big clay water jar behind the house into the open sky",
-        "seed": 4292100918
+        "seed": 4292100918,
+        "character": "bo-cau"
       },
       "video": {
         "motionPrompt": "the pigeon scolds with puffed feathers, the myna shrinks back, the pigeon swoops over the water jar and flies far away into the sky",
@@ -179,9 +181,9 @@
         "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
       ],
       "image": {
-        "character": "miu",
         "prompt": "Meo Miu the voxel white cat waves goodbye under the eaves, the lonely myna sits quietly in its cage, a pigeon flies far away across the sunset sky",
-        "seed": 1561626630
+        "seed": 1561626630,
+        "character": "miu"
       },
       "video": {
         "motionPrompt": "the cat waves slowly, the myna lowers its head, the distant pigeon becomes a small dot in the sky, warm golden light, gentle camera pull-back",
