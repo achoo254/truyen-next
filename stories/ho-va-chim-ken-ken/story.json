@@ -9,8 +9,9 @@
     "thien-nhien"
   ],
   "added": "2026-11-02",
+  "revised": "2026-11-18",
   "language": "vi",
-  "source": "Truyện dân gian người Chăm (Việt Nam) «Lutte du tigre et du vautour» trong Contes tjames của A. Landes (Sài Gòn, 1887), sách thuộc phạm vi công cộng. Lời kể viết mới hoàn toàn bằng tiếng Việt cho trẻ nhỏ, chỉ theo cốt truyện Landes chép lại; Mèo Miu mở đầu và rút ý ở cuối, thêm thoại, đổi quà hổ mang tới thành măng, mật ong và trái rừng, kể nhẹ lời hổ dọa.",
+  "source": "Truyện dân gian người Chăm (Việt Nam) «Lutte du tigre et du vautour» trong Contes tjames của A. Landes (Sài Gòn, 1887), sách thuộc phạm vi công cộng, đọc toàn văn trên archive.org. Lời kể viết mới hoàn toàn bằng tiếng Việt cho trẻ nhỏ, đi từng đoạn theo cốt truyện Landes chép lại; Mèo Miu mở đầu và rút ý ở cuối, thêm thoại, kể nhẹ lời hổ dọa.",
   "basedOn": "Truyện dân gian Chăm, A. Landes chép (1887)",
   "style": "Cham and Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, tropical forest edge, a muddy fish pond, a stilt house with a yard, warm earthy colors, gentle mood for young children, no text, no letters, no watermark",
   "narrators": {
@@ -61,21 +62,24 @@
       "id": "mo-dau",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Khi hứa với ai điều gì, các bạn có giữ lời được không? Miu thì cố lắm, nhưng có lần lỡ kể bí mật của bạn sóc rồi. Hôm nay Miu kể chuyện của người Chăm, về bác tiều phu, ông hổ, chim kền kền và một chú thỏ rất tinh khôn. Mình cùng nghe nhé!",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Khi hứa với ai điều gì, các bạn có giữ được lời không? Miu thì cố lắm đấy. Hôm nay Miu kể các bạn nghe một câu chuyện của người Chăm, về ông hổ, chim kền kền, một bác đi đẵn cọc, và một chú thỏ rất tinh khôn. Mình cùng nghe nhé!",
       "subtitles": [
-        "Xin chào các bạn nhỏ! Khi hứa với ai điều gì, các bạn có giữ lời được không?",
-        "Miu thì cố lắm, nhưng có lần lỡ kể bí mật của bạn sóc rồi.",
-        "Hôm nay Miu kể chuyện của người Chăm, về bác tiều phu, ông hổ,",
-        "chim kền kền và một chú thỏ rất tinh khôn. Mình cùng nghe nhé!"
+        "Xin chào các bạn nhỏ!",
+        "Mèo Miu đây.",
+        "Khi hứa với ai điều gì, các bạn có giữ được lời không?",
+        "Miu thì cố lắm đấy.",
+        "Hôm nay Miu kể các bạn nghe một câu chuyện của người Chăm, về ông hổ, chim kền kền,",
+        "một bác đi đẵn cọc, và một chú thỏ rất tinh khôn.",
+        "Mình cùng nghe nhé!"
       ],
       "image": {
-        "character": "miu",
-        "prompt": "Meo Miu the voxel white cat sits at the edge of a tropical forest beside a little squirrel, covering her mouth with a paw as if keeping a secret",
-        "seed": 4102415452
+        "prompt": "Meo Miu the voxel white cat sits by a calm pond in a green forest, a tiger, a vulture, a woodcutter and a rabbit shown as small figures in the trees around her",
+        "seed": 588041378,
+        "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat giggles and whispers to the squirrel, palm leaves sway, gentle camera push-in",
-        "seed": 4253554932
+        "motionPrompt": "the cat waves, reeds sway by the pond, the small figures peek out from the trees, gentle push-in",
+        "seed": 288598430
       },
       "voice": {}
     },
@@ -83,117 +87,224 @@
       "id": "ho-tat-ao",
       "title": "Hổ tát ao bắt cá",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, có một ông hổ xách giỏ đi bắt cá. Gặp cái ao to, cá nhiều vô kể, hổ hì hục tát nước từ sáng tới chiều, ao mới cạn. Cá giãy đành đạch đầy đáy ao. Bỗng một con kền kền bay đến, đậu trên cành cây hỏi: Ông hổ ơi, cho tôi xin mấy con cá với. Hổ nghĩ bụng: Nó thì bắt sao nổi. Hổ bèn bảo: Muốn thì cứ xuống mà bắt.",
+      "narration": "Ngày xưa, có một hôm, ông hổ xách một cái giỏ đi bắt cá. Dọc đường, ông thấy một cái ao rộng, trong ao có thật nhiều cá. Hổ bèn hì hục tát nước. Ông tát từ sáng cho đến lúc mặt trời xế bóng thì ao cạn khô. Trong ao có cá hàng nghìn, hàng vạn con, giãy đành đạch dưới bùn. Bỗng một con kền kền, từ đâu không biết, bay đến, thấy hổ đã tát cạn cả ao. Kền kền xin hổ cho mấy con cá. Hổ đáp: Nếu anh muốn xuống bắt cá thì cứ bắt, tôi cho phép. Hổ nghĩ bụng chắc kền kền chẳng biết bắt cá đâu.",
       "subtitles": [
-        "Ngày xưa, có một ông hổ xách giỏ đi bắt cá.",
-        "Gặp cái ao to, cá nhiều vô kể, hổ hì hục tát nước từ sáng tới chiều, ao mới cạn.",
-        "Cá giãy đành đạch đầy đáy ao.",
-        "Bỗng một con kền kền bay đến, đậu trên cành cây hỏi: Ông hổ ơi,",
-        "cho tôi xin mấy con cá với. Hổ nghĩ bụng: Nó thì bắt sao nổi.",
-        "Hổ bèn bảo: Muốn thì cứ xuống mà bắt."
+        "Ngày xưa, có một hôm, ông hổ xách một cái giỏ đi bắt cá.",
+        "Dọc đường, ông thấy một cái ao rộng, trong ao có thật nhiều cá.",
+        "Hổ bèn hì hục tát nước.",
+        "Ông tát từ sáng cho đến lúc mặt trời xế bóng thì ao cạn khô.",
+        "Trong ao có cá hàng nghìn, hàng vạn con, giãy đành đạch dưới bùn.",
+        "Bỗng một con kền kền, từ đâu không biết, bay đến, thấy hổ đã tát cạn cả ao.",
+        "Kền kền xin hổ cho mấy con cá.",
+        "Hổ đáp: Nếu anh muốn xuống bắt cá thì cứ bắt, tôi cho phép.",
+        "Hổ nghĩ bụng chắc kền kền chẳng biết bắt cá đâu."
       ],
       "image": {
-        "character": "con-ho",
-        "prompt": "a big striped tiger stands in a drained muddy pond full of flapping fish holding a bamboo basket, a vulture perches on a branch above asking politely",
-        "seed": 3915792320
+        "prompt": "a big orange tiger with a bamboo basket stands in a drained muddy pond full of flopping silver fish, a vulture perched on a branch above asking for fish, late afternoon light",
+        "seed": 913136137,
+        "character": "con-ho"
       },
       "video": {
-        "motionPrompt": "the tiger wipes his brow and scoops water, fish wriggle, the vulture tilts its head and flaps down",
-        "seed": 2157760516
+        "motionPrompt": "the fish flop in the mud, the tiger waves his paw generously, the vulture tilts its head on the branch",
+        "seed": 519288961
       },
       "voice": {}
     },
     {
       "id": "ken-ken-gianh-ca",
-      "title": "Kền kền giành cá",
+      "title": "Kền kền bắt cá giỏi",
       "narrator": "ke-chuyen",
-      "narration": "Kền kền sà xuống, mỏ nhọn mổ một cái là được ngay một con cá to. Còn hổ vồ tới vồ lui, cá cứ tuột qua kẽ chân, chẳng bắt được con nào. Chẳng mấy chốc, cá to đã vào bụng kền kền hết, chỉ còn lại cá con. Hổ tức lắm, xông vào cãi nhau với kền kền. Kền kền mổ vào đầu hổ một cái rồi bay vút lên cao, hổ chẳng làm gì được.",
+      "narration": "Thấy hổ cho phép, kền kền sà xuống bắt cá. Kền kền có cái mỏ nhọn, mổ một cái là được ngay một con. Còn hổ thì vồ mãi mà chẳng được con nào. Cá cứ trơn tuột, lọt qua các kẽ chân của hổ, vì chân hổ không sao nắm được cá. Cứ mỗi lần hổ chộp, cá lại tuột mất. Kền kền thì có mỏ, mổ một cái là bắt, nên bắt rất nhanh. Chẳng bao lâu, những con cá to đã hết cả, kền kền chỉ để lại cho hổ toàn cá nhỏ.",
       "subtitles": [
-        "Kền kền sà xuống, mỏ nhọn mổ một cái là được ngay một con cá to.",
-        "Còn hổ vồ tới vồ lui, cá cứ tuột qua kẽ chân, chẳng bắt được con nào.",
-        "Chẳng mấy chốc, cá to đã vào bụng kền kền hết, chỉ còn lại cá con.",
-        "Hổ tức lắm, xông vào cãi nhau với kền kền.",
-        "Kền kền mổ vào đầu hổ một cái rồi bay vút lên cao, hổ chẳng làm gì được."
+        "Thấy hổ cho phép, kền kền sà xuống bắt cá.",
+        "Kền kền có cái mỏ nhọn, mổ một cái là được ngay một con.",
+        "Còn hổ thì vồ mãi mà chẳng được con nào.",
+        "Cá cứ trơn tuột, lọt qua các kẽ chân của hổ, vì chân hổ không sao nắm được cá.",
+        "Cứ mỗi lần hổ chộp, cá lại tuột mất.",
+        "Kền kền thì có mỏ, mổ một cái là bắt, nên bắt rất nhanh.",
+        "Chẳng bao lâu, những con cá to đã hết cả, kền kền chỉ để lại cho hổ toàn cá nhỏ."
       ],
       "image": {
-        "character": "ken-ken",
-        "prompt": "the vulture quickly picks big fish from the mud with its beak while the clumsy tiger splashes and misses, little fish slipping between his paws",
-        "seed": 2045131196
+        "prompt": "in the muddy pond the vulture neatly picks up big fish with its beak while the tiger flounders with slippery fish squirting out between his paws, funny frustrated face",
+        "seed": 2699700433,
+        "character": "con-ho"
       },
       "video": {
-        "motionPrompt": "the vulture pecks and flaps up, the tiger swipes the air in frustration, mud splashes comically",
-        "seed": 3260553088
+        "motionPrompt": "the vulture stabs up fish one after another, the fish slip between the tiger's paws, the tiger stumbles in the mud",
+        "seed": 3028272103
       },
       "voice": {}
     },
     {
-      "id": "bac-tieu-phu-giup",
-      "title": "Bác tiều phu giúp hổ",
+      "id": "hai-ben-danh-nhau",
+      "title": "Hổ và kền kền cãi nhau",
       "narrator": "ke-chuyen",
-      "narration": "Gần đó có bác tiều phu đang chặt cọc. Hổ gọi to: Bác người ơi, giúp tôi với! Bác vác bó cọc chạy tới, kền kền thấy người thì sợ, bay mất. Hổ cảm ơn rối rít, rồi dặn: Bác về đừng kể với ai là bác đã cứu tôi nhé. Tôi sẽ mang quà đến trả ơn. Nhưng nếu bác kể ra, tôi sẽ vồ lấy bác đấy! Bác gật đầu: Được, tôi hứa.",
+      "narration": "Thấy kền kền bắt nhanh quá, cá to đã biến mất hết, chỉ còn lại cá con, hổ tức lắm, liền cãi nhau với kền kền, rồi hai bên đánh nhau. Kền kền cứ lấy mỏ mổ hổ rồi bay vút lên, còn hổ thì chẳng biết làm sao, vì không đuổi kịp kền kền. Hổ không thắng nổi kền kền, bèn kêu người đến giúp. Lúc ấy có một bác đang đẵn cọc ở gần đó. Bác nghe tiếng hổ gọi, vác con dao lên vai, chạy đến cứu. Thấy người, kền kền sợ, thôi không mổ hổ nữa.",
       "subtitles": [
-        "Gần đó có bác tiều phu đang chặt cọc. Hổ gọi to: Bác người ơi, giúp tôi với!",
-        "Bác vác bó cọc chạy tới, kền kền thấy người thì sợ, bay mất.",
-        "Hổ cảm ơn rối rít, rồi dặn: Bác về đừng kể với ai là bác đã cứu tôi nhé.",
-        "Tôi sẽ mang quà đến trả ơn. Nhưng nếu bác kể ra, tôi sẽ vồ lấy bác đấy!",
-        "Bác gật đầu: Được, tôi hứa."
+        "Thấy kền kền bắt nhanh quá, cá to đã biến mất hết, chỉ còn lại cá con, hổ tức lắm,",
+        "liền cãi nhau với kền kền, rồi hai bên đánh nhau.",
+        "Kền kền cứ lấy mỏ mổ hổ rồi bay vút lên, còn hổ thì chẳng biết làm sao,",
+        "vì không đuổi kịp kền kền.",
+        "Hổ không thắng nổi kền kền, bèn kêu người đến giúp.",
+        "Lúc ấy có một bác đang đẵn cọc ở gần đó.",
+        "Bác nghe tiếng hổ gọi, vác con dao lên vai, chạy đến cứu.",
+        "Thấy người, kền kền sợ, thôi không mổ hổ nữa."
       ],
       "image": {
-        "character": "bac-tieu-phu",
-        "prompt": "a kind woodcutter carrying a bundle of wooden stakes hurries to the pond, the vulture flies away, the grateful tiger bows and raises a paw making him promise",
-        "seed": 3996491973
+        "prompt": "the tiger and the vulture quarrel at the edge of the pond, the vulture pecking his head and flying up, a woodcutter running from the trees with a curved knife on his shoulder",
+        "seed": 1492294190,
+        "character": "con-ho"
       },
       "video": {
-        "motionPrompt": "the vulture flaps off into the sky, the tiger bows and wags a warning claw, the man nods seriously",
-        "seed": 2039108014
+        "motionPrompt": "the vulture pecks and swoops, the tiger swats at air, the woodcutter runs in with his knife on his shoulder",
+        "seed": 3109562683
       },
       "voice": {}
     },
     {
-      "id": "lo-bi-mat",
-      "title": "Lỡ kể bí mật",
+      "id": "loi-hua",
+      "title": "Lời dặn của hổ",
       "narrator": "ke-chuyen",
-      "narration": "Đêm ấy, hổ lặng lẽ mang đến sân nhà bác nào măng, nào mật ong, nào trái rừng. Sáng ra, vợ bác ngạc nhiên hỏi: Ai mang quà đến thế này? Bác chẳng nói gì. Đêm sau lại có quà. Vợ bác buồn, trách: Xưa nay chuyện gì mình cũng kể cho nhau, sao lần này anh giấu em? Thương vợ, bác đành kể hết. Ngờ đâu hổ đang nấp sau nhà, nghe được cả, liền gầm lên: Sáng mai ra bờ ao gặp ta!",
+      "narration": "Hổ nói với bác: Bác ơi, bác đã giúp tôi một việc lớn, tôi biết ơn bác lắm. Bây giờ tôi muốn nói với bác một điều, nhưng tôi sợ làm bác phật ý. Bác đáp: Anh hổ ơi, đừng sợ tôi, anh muốn nói gì cứ nói. Hổ liền bảo: Lát nữa bác về nhà, đừng nói với ai là bác đã cứu tôi. Tôi sẽ bắt hươu, bắt nai mang đến đền ơn bác. Bác nói: Được, tôi sẽ không nói với ai. Hổ lại bảo: Nếu bác nói với ai thì tôi sẽ ăn thịt bác đấy. Bác đáp: Được, nếu tôi thật sự nói với ai thì anh cứ ăn thịt tôi.",
       "subtitles": [
-        "Đêm ấy, hổ lặng lẽ mang đến sân nhà bác nào măng, nào mật ong, nào trái rừng.",
-        "Sáng ra, vợ bác ngạc nhiên hỏi: Ai mang quà đến thế này?",
-        "Bác chẳng nói gì. Đêm sau lại có quà.",
-        "Vợ bác buồn, trách: Xưa nay chuyện gì mình cũng kể cho nhau, sao lần này anh giấu em?",
-        "Thương vợ, bác đành kể hết.",
-        "Ngờ đâu hổ đang nấp sau nhà, nghe được cả, liền gầm lên: Sáng mai ra bờ ao gặp ta!"
+        "Hổ nói với bác: Bác ơi, bác đã giúp tôi một việc lớn, tôi biết ơn bác lắm.",
+        "Bây giờ tôi muốn nói với bác một điều, nhưng tôi sợ làm bác phật ý.",
+        "Bác đáp: Anh hổ ơi, đừng sợ tôi, anh muốn nói gì cứ nói.",
+        "Hổ liền bảo: Lát nữa bác về nhà, đừng nói với ai là bác đã cứu tôi.",
+        "Tôi sẽ bắt hươu, bắt nai mang đến đền ơn bác.",
+        "Bác nói: Được, tôi sẽ không nói với ai.",
+        "Hổ lại bảo: Nếu bác nói với ai thì tôi sẽ ăn thịt bác đấy.",
+        "Bác đáp: Được, nếu tôi thật sự nói với ai thì anh cứ ăn thịt tôi."
       ],
       "image": {
-        "character": "bac-tieu-phu",
-        "prompt": "at night outside a stilt house a woodcutter whispers to his worried wife beside baskets of bamboo shoots, honey and forest fruit, the tiger peeks from behind the house",
-        "seed": 722340627
+        "prompt": "the tiger speaks seriously to the woodcutter by the pond edge, raising one paw, the woodcutter listening with his knife lowered and nodding, the vulture flying away in the background",
+        "seed": 3262013353,
+        "character": "bac-tieu-phu"
       },
       "video": {
-        "motionPrompt": "the wife wipes her eyes, the man sighs and speaks softly, the tiger narrows his eyes, the moon slips behind a cloud",
-        "seed": 3393332547
+        "motionPrompt": "the tiger raises a paw and speaks, the woodcutter nods earnestly, the vulture shrinks into the sky",
+        "seed": 3304067436
       },
       "voice": {}
     },
     {
-      "id": "chu-tho-ra-tay",
+      "id": "qua-hua",
+      "title": "Quà của hổ",
+      "narrator": "ke-chuyen",
+      "narration": "Bác đi về nhà, chẳng nói với ai chuyện gì. Đêm ấy bác ngủ trong nhà. Sáng ra, bác cùng vợ bước ra sân, thấy hươu và nai nằm la liệt. Vợ hỏi: Ai mang hươu nai về sân nhà mình thế này? Bác không nói gì với vợ. Bác biết ngay đó là quà của hổ đền ơn. Đêm sau, hổ lại bắt hươu, bắt nai mang đến sân nhà bác. Sáng ra, bác thấy hươu nai nằm đầy sân. Hai vợ chồng đem làm thịt. Đêm ấy, hổ lén đến nấp để nghe bác nói gì với vợ. Vợ lại hỏi: Ai cứ đêm đêm mang hươu nai vào sân nhà mình? Bác đáp: Anh không biết. Người vợ than thở: Xưa nay anh vẫn nói với em mọi chuyện, sao lần này anh không nói thật với em?",
+      "subtitles": [
+        "Bác đi về nhà, chẳng nói với ai chuyện gì.",
+        "Đêm ấy bác ngủ trong nhà.",
+        "Sáng ra, bác cùng vợ bước ra sân, thấy hươu và nai nằm la liệt.",
+        "Vợ hỏi: Ai mang hươu nai về sân nhà mình thế này?",
+        "Bác không nói gì với vợ.",
+        "Bác biết ngay đó là quà của hổ đền ơn.",
+        "Đêm sau, hổ lại bắt hươu, bắt nai mang đến sân nhà bác.",
+        "Sáng ra, bác thấy hươu nai nằm đầy sân.",
+        "Hai vợ chồng đem làm thịt.",
+        "Đêm ấy, hổ lén đến nấp để nghe bác nói gì với vợ.",
+        "Vợ lại hỏi: Ai cứ đêm đêm mang hươu nai vào sân nhà mình?",
+        "Bác đáp: Anh không biết.",
+        "Người vợ than thở: Xưa nay anh vẫn nói với em mọi chuyện,",
+        "sao lần này anh không nói thật với em?"
+      ],
+      "image": {
+        "prompt": "a woodcutter and his wife stand in the morning yard of their stilt house looking at several deer lying on the ground, the wife with a puzzled face, a tiger's eyes glinting from behind the house",
+        "seed": 3140353965,
+        "character": "bac-tieu-phu"
+      },
+      "video": {
+        "motionPrompt": "the wife gestures at the deer in surprise, the woodcutter shrugs, tiger eyes glint behind the house corner",
+        "seed": 2962319809
+      },
+      "voice": {}
+    },
+    {
+      "id": "tiet-lo",
+      "title": "Lộ bí mật",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe vợ than, bác đành kể thật. Bác kể rằng hôm đó, bác đang đẵn cọc, thấy hổ đánh nhau với kền kền. Hổ yếu hơn nên gọi bác đến cứu, bác chạy đến, kền kền sợ bác nên thả hổ ra. Nhưng lúc ấy hổ đang nấp sau nhà bác, nghe hết câu chuyện. Hổ nói vọng ra: Bây giờ ta đã nghe bác nói với vợ rồi. Sáng mai bác hãy đến cái ao ta đã tát cạn, để ta ăn thịt. Bác chẳng biết làm sao, chỉ biết khóc và thương vợ. Bác kể hết cho vợ nghe. Sáng hôm sau, bác đi thẳng đến cái ao hổ đã tát cạn, vừa đi vừa khóc suốt dọc đường.",
+      "subtitles": [
+        "Nghe vợ than, bác đành kể thật.",
+        "Bác kể rằng hôm đó, bác đang đẵn cọc, thấy hổ đánh nhau với kền kền.",
+        "Hổ yếu hơn nên gọi bác đến cứu, bác chạy đến, kền kền sợ bác nên thả hổ ra.",
+        "Nhưng lúc ấy hổ đang nấp sau nhà bác, nghe hết câu chuyện.",
+        "Hổ nói vọng ra: Bây giờ ta đã nghe bác nói với vợ rồi.",
+        "Sáng mai bác hãy đến cái ao ta đã tát cạn, để ta ăn thịt.",
+        "Bác chẳng biết làm sao, chỉ biết khóc và thương vợ.",
+        "Bác kể hết cho vợ nghe.",
+        "Sáng hôm sau, bác đi thẳng đến cái ao hổ đã tát cạn, vừa đi vừa khóc suốt dọc đường."
+      ],
+      "image": {
+        "prompt": "at night behind a stilt house a tiger crouches in the shadow listening, in the lantern-lit doorway the woodcutter whispers sadly to his wife, the wife covering her mouth",
+        "seed": 2418559023,
+        "character": "bac-tieu-phu"
+      },
+      "video": {
+        "motionPrompt": "lantern flame flickers, the woodcutter whispers to his wife, the tiger's eyes glint in the dark behind the wall",
+        "seed": 3572426557
+      },
+      "voice": {}
+    },
+    {
+      "id": "tho-ra-tay",
       "title": "Chú thỏ ra tay",
       "narrator": "ke-chuyen",
-      "narration": "Sáng hôm sau, bác vừa đi vừa khóc. Chú thỏ gặp, hỏi han, nghe xong bảo: Bác đừng sợ, cứ đi trước, có tôi theo sau. Tới bờ ao, hổ đang chực vồ thì thỏ nhảy ra hỏi: Ông hổ, tha cho bác ấy lần này đi! Hổ không nghe. Thỏ bảo: Ông không nghe thì tôi rũ mình một cái, cả đàn kền kền sẽ bay ra mổ ông đấy! Nói rồi thỏ rũ mình, vừa lúc trên trời có một con kền kền bay vòng vòng.",
+      "narration": "Dọc đường, bác gặp thỏ. Thỏ hỏi: Sao bác vừa đi vừa khóc suốt dọc đường thế? Bác đáp: Tôi đi để cho hổ ăn thịt. Thỏ hỏi: Sao bác lại đi để hổ ăn thịt? Bác kể lại đầu đuôi: Hôm nọ hổ đánh nhau với kền kền để giành cá, hổ thua, gọi tôi đến giúp, tôi chạy đến cứu. Hổ dặn tôi đừng nói với ai, và hứa sẽ đền ơn. Tôi đồng ý. Ban đêm hổ mang hươu nai đến, rồi nấp nghe tôi nói chuyện với vợ. Tôi kể hết với vợ, hổ nghe được, bắt tôi đến cho hổ ăn thịt. Thỏ nói: Bác ơi, đừng sợ, hổ không dám ăn thịt bác đâu. Bác hỏi: Tôi biết ơn anh quá, nhưng làm sao để hổ không ăn thịt tôi, anh thỏ ơi? Thỏ dẫn bác đến gần chỗ hổ. Đi được nửa đường, thỏ bảo bác đi trước, còn mình đi sau.",
       "subtitles": [
-        "Sáng hôm sau, bác vừa đi vừa khóc.",
-        "Chú thỏ gặp, hỏi han, nghe xong bảo: Bác đừng sợ, cứ đi trước, có tôi theo sau.",
-        "Tới bờ ao, hổ đang chực vồ thì thỏ nhảy ra hỏi: Ông hổ, tha cho bác ấy lần này đi!",
-        "Hổ không nghe.",
-        "Thỏ bảo: Ông không nghe thì tôi rũ mình một cái, cả đàn kền kền sẽ bay ra mổ ông đấy!",
-        "Nói rồi thỏ rũ mình, vừa lúc trên trời có một con kền kền bay vòng vòng."
+        "Dọc đường, bác gặp thỏ.",
+        "Thỏ hỏi: Sao bác vừa đi vừa khóc suốt dọc đường thế?",
+        "Bác đáp: Tôi đi để cho hổ ăn thịt.",
+        "Thỏ hỏi: Sao bác lại đi để hổ ăn thịt?",
+        "Bác kể lại đầu đuôi: Hôm nọ hổ đánh nhau với kền kền để giành cá, hổ thua,",
+        "gọi tôi đến giúp, tôi chạy đến cứu.",
+        "Hổ dặn tôi đừng nói với ai, và hứa sẽ đền ơn.",
+        "Tôi đồng ý.",
+        "Ban đêm hổ mang hươu nai đến, rồi nấp nghe tôi nói chuyện với vợ.",
+        "Tôi kể hết với vợ, hổ nghe được, bắt tôi đến cho hổ ăn thịt.",
+        "Thỏ nói: Bác ơi, đừng sợ, hổ không dám ăn thịt bác đâu.",
+        "Bác hỏi: Tôi biết ơn anh quá, nhưng làm sao để hổ không ăn thịt tôi, anh thỏ ơi?",
+        "Thỏ dẫn bác đến gần chỗ hổ.",
+        "Đi được nửa đường, thỏ bảo bác đi trước, còn mình đi sau."
       ],
       "image": {
-        "character": "chu-tho",
-        "prompt": "at the pond the brave little hare stands in front of the woodcutter facing the big tiger, the hare shakes its fur dramatically as a vulture circles in the sky above",
-        "seed": 250358482
+        "prompt": "on a forest path a rabbit speaks kindly to a weeping woodcutter holding his sleeve, the rabbit gesturing for him to walk ahead, bright green trees and soft light",
+        "seed": 3633658950,
+        "character": "chu-tho"
       },
       "video": {
-        "motionPrompt": "the hare shakes its whole body, the vulture circles overhead, the tiger looks up with wide frightened eyes",
-        "seed": 3179885406
+        "motionPrompt": "the woodcutter wipes his tears, the rabbit pats his hand and points ahead, leaves flutter on the path",
+        "seed": 3003388843
+      },
+      "voice": {}
+    },
+    {
+      "id": "tho-doa-ho",
+      "title": "Thỏ dọa hổ",
+      "narrator": "ke-chuyen",
+      "narration": "Bác đến bên cái ao hổ đã tát cạn, thấy hổ đã ở đó, đang nhảy lên làm bộ định ăn thịt bác. Thỏ nhảy ra khỏi bụi cây, hỏi: Anh hổ, anh đi đâu thế? Hổ đáp: Tôi định ăn thịt người này. Hổ kể hết đầu đuôi chuyện của bác với mình. Thỏ nói: Anh định ăn thịt bác ấy, tôi xin anh tha cho bác lần này. Hổ không nghe thỏ, vẫn định ăn thịt bác. Thỏ bảo: Nếu anh không nghe tôi, tôi sẽ rũ mình một cái, từ người tôi sẽ bay ra một đàn kền kền đến mổ anh đấy. Anh có nghe tôi không? Nói rồi, thỏ rũ mình, đúng lúc ấy có một con kền kền bay lượn trên trời. Thỏ chỉ cho hổ xem. Hổ nhìn thấy kền kền thì sợ quá, bỏ chạy vào rừng, không dám ăn thịt bác nữa.",
+      "subtitles": [
+        "Bác đến bên cái ao hổ đã tát cạn, thấy hổ đã ở đó, đang nhảy lên làm bộ định ăn thịt bác.",
+        "Thỏ nhảy ra khỏi bụi cây, hỏi: Anh hổ, anh đi đâu thế?",
+        "Hổ đáp: Tôi định ăn thịt người này.",
+        "Hổ kể hết đầu đuôi chuyện của bác với mình.",
+        "Thỏ nói: Anh định ăn thịt bác ấy, tôi xin anh tha cho bác lần này.",
+        "Hổ không nghe thỏ, vẫn định ăn thịt bác.",
+        "Thỏ bảo: Nếu anh không nghe tôi, tôi sẽ rũ mình một cái,",
+        "từ người tôi sẽ bay ra một đàn kền kền đến mổ anh đấy.",
+        "Anh có nghe tôi không?",
+        "Nói rồi, thỏ rũ mình, đúng lúc ấy có một con kền kền bay lượn trên trời.",
+        "Thỏ chỉ cho hổ xem.",
+        "Hổ nhìn thấy kền kền thì sợ quá, bỏ chạy vào rừng, không dám ăn thịt bác nữa."
+      ],
+      "image": {
+        "prompt": "at the drained pond a clever rabbit shakes its fur while a vulture circles in the sky above, a startled tiger running into the forest, a relieved woodcutter standing beside the rabbit",
+        "seed": 2353859422,
+        "character": "chu-tho"
+      },
+      "video": {
+        "motionPrompt": "the rabbit shakes itself, the vulture circles above, the tiger bolts into the trees",
+        "seed": 1789364855
       },
       "voice": {}
     },
@@ -201,23 +312,22 @@
       "id": "ket-thuc",
       "title": "Mèo Miu chào tạm biệt",
       "narrator": "miu",
-      "narration": "Hổ trông thấy kền kền thì sợ quá, cụp đuôi chạy tuốt vào rừng, chẳng dám quay lại. Bác tiều phu cảm ơn thỏ, vui vẻ về nhà. Các bạn ạ, hổ hứa trả ơn mà lại dọa người cứu mình, thế là không phải. Còn bác tiều phu, đã hứa thì nên giữ lời. Và khi bạn gặp khó, mình bình tĩnh nghĩ cách giúp như chú thỏ nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "narration": "Các bạn ạ, hổ hứa đền ơn mà lại dọa người cứu mình, thế là không phải. Còn bác đẵn cọc thì đã hứa nên giữ lời. Và khi bạn mình gặp khó, ta bình tĩnh nghĩ cách giúp như chú thỏ nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
       "subtitles": [
-        "Hổ trông thấy kền kền thì sợ quá, cụp đuôi chạy tuốt vào rừng, chẳng dám quay lại.",
-        "Bác tiều phu cảm ơn thỏ, vui vẻ về nhà.",
-        "Các bạn ạ, hổ hứa trả ơn mà lại dọa người cứu mình, thế là không phải.",
-        "Còn bác tiều phu, đã hứa thì nên giữ lời.",
-        "Và khi bạn gặp khó, mình bình tĩnh nghĩ cách giúp như chú thỏ nhé.",
-        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+        "Các bạn ạ, hổ hứa đền ơn mà lại dọa người cứu mình, thế là không phải.",
+        "Còn bác đẵn cọc thì đã hứa nên giữ lời.",
+        "Và khi bạn mình gặp khó, ta bình tĩnh nghĩ cách giúp như chú thỏ nhé.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn!"
       ],
       "image": {
-        "character": "miu",
-        "prompt": "Meo Miu the voxel white cat waves goodbye at the forest edge at sunset, the happy woodcutter walks home with the little hare hopping beside him, a tiger tail disappears into the trees",
-        "seed": 1443013673
+        "prompt": "Meo Miu the voxel white cat waves goodbye beside a calm green pond, a clever rabbit and a happy woodcutter standing together beside her",
+        "seed": 2662280104,
+        "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat waves slowly, the hare hops and the man laughs, the tiger tail vanishes into the bushes, gentle camera pull-back",
-        "seed": 1227897571
+        "motionPrompt": "the cat waves, the rabbit wiggles its ears, the woodcutter smiles, soft sunlight on the pond",
+        "seed": 4154224051
       },
       "voice": {}
     }
