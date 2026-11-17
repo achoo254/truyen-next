@@ -10,8 +10,9 @@
     "thien-nhien"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-17",
   "language": "vi",
-  "source": "Truyền thuyết dân gian Việt Nam về hòn Trống Mái ở Sầm Sơn, Thanh Hoá, truyền miệng, không ai giữ quyền; truyện có nhiều dị bản, ở đây kể theo dị bản đôi chim. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; Mèo Miu mở đầu và rút ý ở cuối.",
+  "source": "Truyền thuyết dân gian Việt Nam về hòn Trống Mái ở Sầm Sơn, Thanh Hóa, truyền miệng, thuộc phạm vi công cộng; truyện có nhiều dị bản (chàng ngư dân và nàng tiên nữ hóa đá; chàng trai thổi sáo và cô con gái chúa đất hóa chim rồi hóa đá), ở đây kể theo bản chàng thổi sáo và cô tiểu thư, bản đầy đủ nhất đã đọc (đăng trên loigiaihay.com, đối chiếu với bài về hòn Trống Mái trên baovanhoa.vn). Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản nào; Mèo Miu mở đầu và rút ý ở cuối. Bản cho trẻ nhỏ: cảnh bị đánh được kể nhẹ, cô tiểu thư giả cảnh gặp nạn để đi tìm người yêu.",
   "basedOn": "Truyền thuyết dân gian Việt Nam",
   "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, tender and calm mood for young children, green coastal mountain by a blue sea with pine trees, white sand beach and fishing boats, no text, no letters, no watermark",
   "narrators": {
@@ -43,6 +44,24 @@
       "name": "Chim mái",
       "seed": 2774214102,
       "sheetPrompt": "a sweet gentle female wild bird from a Vietnamese legend, hen-like with soft brown and cream speckled feathers, small comb, gentle warm eyes, full body, side view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chua-dat",
+      "name": "Chúa đất",
+      "seed": 1841205567,
+      "sheetPrompt": "a stout greedy-looking village landlord in a brocade robe and small black hat with a pointed moustache, Vietnamese folk style, cute and friendly picture-book look, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "chang-sao",
+      "name": "Chàng thổi sáo",
+      "seed": 3099142218,
+      "sheetPrompt": "a kind strong young village farmer with a bamboo flute and a brown tunic, a lotus flower tucked at his belt, Vietnamese folk style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "tieu-thu",
+      "name": "Cô tiểu thư",
+      "seed": 2411905334,
+      "sheetPrompt": "a gentle pretty young Vietnamese lady in a soft pink ao dai with a long black hair, Vietnamese folk style, cute and friendly, full body, front view, plain soft cream background, character reference sheet"
     }
   ],
   "scenes": [
@@ -50,13 +69,12 @@
       "id": "mo-dau",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Các bạn đã được đi biển Sầm Sơn ở Thanh Hoá chưa? Trên ngọn núi bên bờ biển ấy có hai tảng đá to đứng tựa vào nhau, một tảng như chú chim trống, một tảng như cô chim mái. Người ta gọi đó là hòn Trống Mái. Vì sao lại có hai hòn đá ấy? Các bạn ngồi gần Miu, nghe Miu kể nhé!",
+      "narration": "Xin chào các bạn nhỏ! Các bạn đã được đi biển Sầm Sơn ở Thanh Hóa chưa? Trên ngọn núi bên bờ biển ấy có hai tảng đá to đứng tựa vào nhau, một tảng như chú chim trống, một tảng như cô chim mái. Người ta gọi đó là hòn Trống Mái. Vì sao lại có hai hòn đá ấy? Các bạn ngồi gần Miu, nghe Miu kể nhé!",
       "subtitles": [
-        "Xin chào các bạn nhỏ! Các bạn đã được đi biển Sầm Sơn ở Thanh Hoá chưa?",
+        "Xin chào các bạn nhỏ! Các bạn đã được đi biển Sầm Sơn ở Thanh Hóa chưa?",
         "Trên ngọn núi bên bờ biển ấy có hai tảng đá to đứng tựa vào nhau,",
-        "một tảng như chú chim trống, một tảng như cô chim mái.",
-        "Người ta gọi đó là hòn Trống Mái. Vì sao lại có hai hòn đá ấy?",
-        "Các bạn ngồi gần Miu, nghe Miu kể nhé!"
+        "một tảng như chú chim trống, một tảng như cô chim mái. Người ta gọi đó là hòn Trống Mái.",
+        "Vì sao lại có hai hòn đá ấy? Các bạn ngồi gần Miu, nghe Miu kể nhé!"
       ],
       "image": {
         "character": "miu",
@@ -70,119 +88,211 @@
       "voice": {}
     },
     {
-      "id": "doi-chim",
-      "title": "Đôi chim trên núi",
+      "id": "chua-dat",
+      "title": "Tên chúa đất giàu có",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, trên ngọn núi xanh bên bờ biển Sầm Sơn có một đôi chim sống với nhau rất hạnh phúc. Chim trống có bộ lông nâu óng ánh, cái đuôi dài. Chim mái lông lốm đốm, đôi mắt hiền. Sáng sáng, đôi chim cùng bay xuống bãi cát tìm mồi, chiều chiều lại cùng đậu trên cành thông, ngắm hoàng hôn tím trên biển. Có miếng mồi ngon, con này bao giờ cũng nhường con kia.",
+      "narration": "Ngày xưa, có một tên chúa đất giàu có nhưng tham lam và keo kiệt. Hắn chỉ sinh được một cô con gái. Hai vợ chồng hắn chẳng bắt con làm việc gì, ngoài chuyện trang điểm và rong chơi.",
       "subtitles": [
-        "Ngày xưa,",
-        "trên ngọn núi xanh bên bờ biển Sầm Sơn có một đôi chim sống với nhau rất hạnh phúc.",
-        "Chim trống có bộ lông nâu óng ánh, cái đuôi dài. Chim mái lông lốm đốm, đôi mắt hiền.",
-        "Sáng sáng, đôi chim cùng bay xuống bãi cát tìm mồi,",
-        "chiều chiều lại cùng đậu trên cành thông, ngắm hoàng hôn tím trên biển.",
-        "Có miếng mồi ngon, con này bao giờ cũng nhường con kia."
+        "Ngày xưa, có một tên chúa đất giàu có nhưng tham lam và keo kiệt.",
+        "Hắn chỉ sinh được một cô con gái.",
+        "Hai vợ chồng hắn chẳng bắt con làm việc gì, ngoài chuyện trang điểm và rong chơi."
       ],
       "image": {
-        "character": "chim-trong",
-        "prompt": "a male bird with glossy chestnut feathers and a female bird with speckled brown feathers perch side by side on a pine branch on a green seaside mountain, watching a purple sunset over the sea",
-        "seed": 684382276
+        "character": "chua-dat",
+        "prompt": "a stout greedy village landlord in a brocade robe sits on a carved chair in a big courtyard beside his daughter in a pretty dress who plays with a fan, folk picture-book style",
+        "seed": 701757008
       },
       "video": {
-        "motionPrompt": "the two birds nuzzle gently on the pine branch, the sea glitters below, pine needles sway, the sun sinks slowly",
-        "seed": 913931885
+        "motionPrompt": "the landlord strokes his chin importantly, the daughter fans herself, lanterns sway",
+        "seed": 2897088884
       },
       "voice": {}
     },
     {
-      "id": "gio-bao",
-      "title": "Trận gió bão",
+      "id": "chang-sao",
+      "title": "Chàng trai thổi sáo",
       "narrator": "ke-chuyen",
-      "narration": "Một hôm, trời đang nắng bỗng tối sầm lại. Gió từ ngoài khơi thổi ào ào, sóng biển dâng cao trắng xoá. Chim mái đang mải tìm mồi dưới bãi cát, chưa kịp bay về thì một cơn gió thật mạnh cuốn cô lên cao, đưa đi xa mãi. Chim trống trên núi kêu gọi khản cả tiếng: Mình ơi, mình ở đâu? Nhưng chỉ có tiếng gió đáp lại.",
+      "narration": "Ở làng bên có một chàng trai mồ côi cả cha lẫn mẹ. Chàng khỏe mạnh và siêng năng. Nhà chàng ở ven đê, cạnh một hồ sen lớn. Chàng có tài thổi sáo, mỗi khi tiếng sáo cất lên, ong bướm và chim chóc trong vườn đều vui mừng ca múa. Trong làng có chuyện vui hay buồn, chàng đều hái hoa sen mang đến, thổi sáo để chia buồn hay góp vui cùng bà con. Ai cũng biết và quý mến chàng.",
       "subtitles": [
-        "Một hôm, trời đang nắng bỗng tối sầm lại.",
-        "Gió từ ngoài khơi thổi ào ào, sóng biển dâng cao trắng xoá.",
-        "Chim mái đang mải tìm mồi dưới bãi cát,",
-        "chưa kịp bay về thì một cơn gió thật mạnh cuốn cô lên cao, đưa đi xa mãi.",
-        "Chim trống trên núi kêu gọi khản cả tiếng: Mình ơi, mình ở đâu?",
-        "Nhưng chỉ có tiếng gió đáp lại."
+        "Ở làng bên có một chàng trai mồ côi cả cha lẫn mẹ. Chàng khỏe mạnh và siêng năng.",
+        "Nhà chàng ở ven đê, cạnh một hồ sen lớn. Chàng có tài thổi sáo, mỗi khi tiếng sáo cất lên,",
+        "ong bướm và chim chóc trong vườn đều vui mừng ca múa.",
+        "Trong làng có chuyện vui hay buồn, chàng đều hái hoa sen mang đến,",
+        "thổi sáo để chia buồn hay góp vui cùng bà con. Ai cũng biết và quý mến chàng."
       ],
       "image": {
-        "character": "chim-mai",
-        "prompt": "a dark stormy sky over the sea, a strong wind lifts the little speckled female bird high up and carries her away over the waves, the male bird calls out from a pine branch on the mountain, gentle not scary",
-        "seed": 1785022602
+        "character": "chang-sao",
+        "prompt": "a young farmer boy plays a bamboo flute beside a big lotus pond near a village dike, butterflies and birds dancing around him, soft morning light",
+        "seed": 1498982895
       },
       "video": {
-        "motionPrompt": "wind gusts swirl leaves and sand, the little bird is carried away in the air, the male bird flaps and calls out, waves rise softly, clouds roll",
-        "seed": 680172777
+        "motionPrompt": "the boy plays the flute, butterflies flutter, lotus flowers sway",
+        "seed": 4041167104
       },
       "voice": {}
     },
     {
-      "id": "di-tim",
-      "title": "Chim trống đi tìm",
+      "id": "bi-vu",
+      "title": "Chàng bị vu oan",
       "narrator": "ke-chuyen",
-      "narration": "Bão tan, chim trống bay đi tìm bạn. Chim bay qua những bãi cát dài, qua những làng chài, qua những cánh rừng thông. Gặp chú hải âu, chim hỏi: Anh có thấy bạn tôi đâu không? Hải âu lắc đầu. Gặp đàn cò trắng, chim lại hỏi, đàn cò cũng lắc đầu. Chim trống mỏi cánh lắm, nhưng vẫn không chịu nghỉ, cứ bay mãi, bay mãi.",
+      "narration": "Một hôm, tên chúa đất đi qua khu vườn, nghe tiếng sáo du dương, trong lòng thèm khát cuộc sống bình yên của chàng. Hắn bèn vu cho chàng tội ăn trộm, sai gia nhân trói chàng lại, mặc cho dân làng phản đối. Từ đó, ban ngày chàng phải cuốc đất trồng hoa, tối tối lại phải thổi sáo cho chúa đất nghe. Hắn còn sai người đến nhà chàng, nhổ hết những cây hoa quý đem về trồng trong vườn nhà hắn. Hằng ngày, tưới hoa xong, chàng lại đem sáo ra thổi.",
       "subtitles": [
-        "Bão tan, chim trống bay đi tìm bạn.",
-        "Chim bay qua những bãi cát dài, qua những làng chài, qua những cánh rừng thông.",
-        "Gặp chú hải âu, chim hỏi: Anh có thấy bạn tôi đâu không? Hải âu lắc đầu.",
-        "Gặp đàn cò trắng, chim lại hỏi, đàn cò cũng lắc đầu.",
-        "Chim trống mỏi cánh lắm, nhưng vẫn không chịu nghỉ, cứ bay mãi, bay mãi."
+        "Một hôm, tên chúa đất đi qua khu vườn, nghe tiếng sáo du dương,",
+        "trong lòng thèm khát cuộc sống bình yên của chàng.",
+        "Hắn bèn vu cho chàng tội ăn trộm, sai gia nhân trói chàng lại, mặc cho dân làng phản đối.",
+        "Từ đó, ban ngày chàng phải cuốc đất trồng hoa,",
+        "tối tối lại phải thổi sáo cho chúa đất nghe. Hắn còn sai người đến nhà chàng,",
+        "nhổ hết những cây hoa quý đem về trồng trong vườn nhà hắn.",
+        "Hằng ngày, tưới hoa xong, chàng lại đem sáo ra thổi."
       ],
       "image": {
-        "character": "chim-trong",
-        "prompt": "the brave male bird flies alone over a long beach and a small fishing village with boats, asking a white seagull and a flock of white egrets, soft clearing sky after the storm",
-        "seed": 2914406431
+        "character": "chang-sao",
+        "prompt": "a gentle young flute player works in a landlord's garden planting flowers while a stern servant watches, evening light, a sad but hopeful mood, folk picture-book style",
+        "seed": 3238121144
       },
       "video": {
-        "motionPrompt": "the male bird flaps tirelessly across the sky, the seagull shakes its head, the egrets turn away gently, fishing boats rock on the water",
-        "seed": 1259514823
+        "motionPrompt": "the boy waters the flowers and then raises his flute, petals drift in the evening breeze",
+        "seed": 1934976640
+      },
+      "voice": {}
+    },
+    {
+      "id": "tieu-thu-nghe-sao",
+      "title": "Tiếng sáo bay tới tiểu thư",
+      "narrator": "ke-chuyen",
+      "narration": "Tiếng sáo du dương bay tới tai cô tiểu thư, khiến nàng đứng ngồi không yên. Nàng trốn cha, tìm đến chỗ chàng, nghe chàng thổi sáo, rồi cùng chàng trồng hoa. Hai người phải lòng nhau từ lúc nào không hay, cùng mơ ước một cuộc sống tự do, hạnh phúc bên nhau trọn đời.",
+      "subtitles": [
+        "Tiếng sáo du dương bay tới tai cô tiểu thư, khiến nàng đứng ngồi không yên.",
+        "Nàng trốn cha, tìm đến chỗ chàng, nghe chàng thổi sáo, rồi cùng chàng trồng hoa.",
+        "Hai người phải lòng nhau từ lúc nào không hay, cùng mơ ước một cuộc sống tự do,",
+        "hạnh phúc bên nhau trọn đời."
+      ],
+      "image": {
+        "character": "tieu-thu",
+        "prompt": "a pretty young lady in a pink dress and a flute-playing young farmer plant flowers side by side in a garden, smiling shyly at each other, spring flowers in bloom",
+        "seed": 1009003915
+      },
+      "video": {
+        "motionPrompt": "the lady and the boy plant flowers together and exchange shy glances, petals fall",
+        "seed": 773262267
+      },
+      "voice": {}
+    },
+    {
+      "id": "cam-doan",
+      "title": "Chúa đất ngăn cấm",
+      "narrator": "ke-chuyen",
+      "narration": "Tên chúa đất biết chuyện, gọi con gái đến dọa nạt, ngăn cấm. Mặc nàng kêu van thảm thiết, hắn vẫn chẳng động lòng. Sáng hôm sau, hắn cho gọi chàng đến, lại vu cho chàng tội ăn cắp, rồi sai gia nhân đuổi chàng ra khỏi nhà. Được trở về với tự do, chàng quên hết mọi nỗi đau, chỉ phân vân một điều là chưa kịp chào tạm biệt người yêu. Buồn vui lẫn lộn, chàng lại đem sáo ra thổi. Tiếng sáo lâm ly, tha thiết bay đến tai cô tiểu thư.",
+      "subtitles": [
+        "Tên chúa đất biết chuyện, gọi con gái đến dọa nạt, ngăn cấm.",
+        "Mặc nàng kêu van thảm thiết, hắn vẫn chẳng động lòng.",
+        "Sáng hôm sau, hắn cho gọi chàng đến, lại vu cho chàng tội ăn cắp,",
+        "rồi sai gia nhân đuổi chàng ra khỏi nhà.",
+        "Được trở về với tự do, chàng quên hết mọi nỗi đau,",
+        "chỉ phân vân một điều là chưa kịp chào tạm biệt người yêu.",
+        "Buồn vui lẫn lộn, chàng lại đem sáo ra thổi.",
+        "Tiếng sáo lâm ly, tha thiết bay đến tai cô tiểu thư."
+      ],
+      "image": {
+        "character": "chua-dat",
+        "prompt": "a stern landlord points sternly at the gate while his daughter weeps with hands clasped, a servant opens the gate for the flute boy to leave, dramatic but gentle folk picture-book style",
+        "seed": 1151029123
+      },
+      "video": {
+        "motionPrompt": "the landlord points firmly, the daughter bows her head, the gate swings open",
+        "seed": 1336933802
+      },
+      "voice": {}
+    },
+    {
+      "id": "nang-tron",
+      "title": "Nàng bỏ trốn theo tiếng sáo",
+      "narrator": "ke-chuyen",
+      "narration": "Biết cha đối xử tàn tệ với người yêu, tiểu thư vô cùng uất ức. Sau nhiều đêm suy nghĩ, nàng quyết định trốn đi tìm chàng. Đến bên sông, nàng bỗng nghĩ ra một kế. Nàng bỏ đôi giày lại trên bờ, cởi áo ngoài thả xuống dòng sông lững lờ trôi, rồi đi theo tiếng sáo ân tình, thủy chung, từ xa vẳng lại. Biết tin nàng bỏ đi, chúa đất hoảng hốt sai người đi tìm. Khi bọn gia nhân đem đôi giày của tiểu thư về, chúa đất đau đớn, vật vã, nghĩ rằng con gái mình đã gặp nạn dưới dòng sông.",
+      "subtitles": [
+        "Biết cha đối xử tàn tệ với người yêu, tiểu thư vô cùng uất ức.",
+        "Sau nhiều đêm suy nghĩ, nàng quyết định trốn đi tìm chàng.",
+        "Đến bên sông, nàng bỗng nghĩ ra một kế.",
+        "Nàng bỏ đôi giày lại trên bờ, cởi áo ngoài thả xuống dòng sông lững lờ trôi,",
+        "rồi đi theo tiếng sáo ân tình, thủy chung, từ xa vẳng lại.",
+        "Biết tin nàng bỏ đi, chúa đất hoảng hốt sai người đi tìm.",
+        "Khi bọn gia nhân đem đôi giày của tiểu thư về, chúa đất đau đớn, vật vã,",
+        "nghĩ rằng con gái mình đã gặp nạn dưới dòng sông."
+      ],
+      "image": {
+        "character": "tieu-thu",
+        "prompt": "at night on a quiet riverbank a young lady leaves her little shoes on the grass and drops her outer jacket onto the gently flowing river then walks toward distant flute music, moonlight, soft folk picture-book style",
+        "seed": 792642679
+      },
+      "video": {
+        "motionPrompt": "the lady sets down her shoes and walks into the moonlit distance, the jacket drifts on the river",
+        "seed": 3485944403
       },
       "voice": {}
     },
     {
       "id": "gap-lai",
-      "title": "Gặp lại nhau",
+      "title": "Hai người gặp lại",
       "narrator": "ke-chuyen",
-      "narration": "Bỗng một chiều, ở một mỏm đá xa xa, chim trống nghe thấy tiếng gọi khe khẽ quen thuộc. Đúng là chim mái! Cô bị gió cuốn đi, lạc đường, mỏi mệt, ngày ngày vẫn ngóng về phía núi nhà. Đôi chim mừng quá, sà vào nhau, rúc đầu vào cánh nhau. Rồi chúng cùng bay về ngọn núi bên biển Sầm Sơn, đậu lại trên đỉnh núi, không muốn rời nhau thêm một lần nào nữa.",
+      "narration": "Theo tiếng sáo, nàng tìm được đến chỗ chàng. Hai người gặp lại nhau, mừng mừng tủi tủi. Rồi họ cùng đi đến vùng biển Sầm Sơn, ở Thanh Hóa, để sinh cơ lập nghiệp. Ở nơi ấy, họ lại cùng nhau trồng hoa như xưa. Tối tối, chồng thổi sáo, vợ ngồi khâu trong túp lều hạnh phúc. Họ sống bên nhau cho tới lúc đầu bạc răng long.",
       "subtitles": [
-        "Bỗng một chiều, ở một mỏm đá xa xa, chim trống nghe thấy tiếng gọi khe khẽ quen thuộc.",
-        "Đúng là chim mái!",
-        "Cô bị gió cuốn đi, lạc đường, mỏi mệt, ngày ngày vẫn ngóng về phía núi nhà.",
-        "Đôi chim mừng quá, sà vào nhau, rúc đầu vào cánh nhau.",
-        "Rồi chúng cùng bay về ngọn núi bên biển Sầm Sơn, đậu lại trên đỉnh núi,",
-        "không muốn rời nhau thêm một lần nào nữa."
+        "Theo tiếng sáo, nàng tìm được đến chỗ chàng. Hai người gặp lại nhau, mừng mừng tủi tủi.",
+        "Rồi họ cùng đi đến vùng biển Sầm Sơn, ở Thanh Hóa, để sinh cơ lập nghiệp.",
+        "Ở nơi ấy, họ lại cùng nhau trồng hoa như xưa.",
+        "Tối tối, chồng thổi sáo, vợ ngồi khâu trong túp lều hạnh phúc.",
+        "Họ sống bên nhau cho tới lúc đầu bạc răng long."
       ],
       "image": {
-        "character": "chim-mai",
-        "prompt": "on a rocky outcrop at sunset the male bird finds the tired female bird, the two birds embrace wing to wing joyfully, then fly together back toward the green mountain by the sea",
+        "character": "chang-sao",
+        "prompt": "a happy couple in a small hut near a seashore, the husband playing a flute and the wife sewing, a flower garden outside, sunset over the sea, warm picture-book style",
         "seed": 1091537342
       },
       "video": {
-        "motionPrompt": "the two birds rush to each other and nestle their heads together, then take off side by side toward the mountain, golden light on the waves",
+        "motionPrompt": "the husband plays and the wife sews, sea waves roll softly, sunset glow deepens",
         "seed": 3145260329
       },
       "voice": {}
     },
     {
-      "id": "hoa-da",
-      "title": "Hoá thành đá",
+      "id": "hoa-chim",
+      "title": "Hai con hải âu",
       "narrator": "ke-chuyen",
-      "narration": "Trời đất thấy đôi chim thương nhau như vậy thì cảm động lắm. Một đêm trăng sáng, trời hoá đôi chim thành hai khối đá lớn, đứng tựa vào nhau trên đỉnh núi, để chẳng gió bão nào chia cắt được chúng nữa. Sáng ra, dân làng chài trông lên, thấy hai hòn đá mới, một hòn như chim trống, một hòn như chim mái, bèn đặt tên là hòn Trống Mái.",
+      "narration": "Trước khi qua đời, hai vợ chồng dặn con cháu và dân làng hãy đưa họ về yên nghỉ ở nơi đầu tiên họ cùng đặt chân đến. Lạ lùng thay, khi mai táng xong, mọi người vừa ra về thì ngôi mộ bỗng nứt làm đôi, và từ đó bay ra hai con chim hải âu, một con trống, một con mái.",
       "subtitles": [
-        "Trời đất thấy đôi chim thương nhau như vậy thì cảm động lắm.",
-        "Một đêm trăng sáng, trời hoá đôi chim thành hai khối đá lớn,",
-        "đứng tựa vào nhau trên đỉnh núi, để chẳng gió bão nào chia cắt được chúng nữa.",
-        "Sáng ra, dân làng chài trông lên, thấy hai hòn đá mới, một hòn như chim trống,",
-        "một hòn như chim mái, bèn đặt tên là hòn Trống Mái."
+        "Trước khi qua đời,",
+        "hai vợ chồng dặn con cháu và dân làng hãy đưa họ về yên nghỉ ở nơi đầu tiên họ cùng đặt",
+        "chân đến.",
+        "Lạ lùng thay, khi mai táng xong, mọi người vừa ra về thì ngôi mộ bỗng nứt làm đôi,",
+        "và từ đó bay ra hai con chim hải âu, một con trống, một con mái."
       ],
       "image": {
         "character": "chim-trong",
-        "prompt": "under a bright full moon, two large smooth rocks shaped like a rooster and a hen lean gently against each other on the mountain top, a soft magical glow, fishing villagers below look up in wonder at dawn",
+        "prompt": "a hillside by the sea at dawn where two white seagulls, one male and one female, fly up together from a cracked mound of earth into the pink sky, magical glow, gentle picture-book style",
+        "seed": 2924288658
+      },
+      "video": {
+        "motionPrompt": "two seagulls rise up from the mound and circle together, golden light glows, sea mist drifts",
+        "seed": 3065806206
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-da",
+      "title": "Hòn Trống Mái",
+      "narrator": "ke-chuyen",
+      "narration": "Đôi chim bay bổng lên trời xanh, quấn quýt bên nhau. Rồi chúng từ từ đậu xuống, hóa thành hai hòn đá to ôm lấy nhau. Người đời sau đặt tên cho hai hòn đá ấy là hòn Trống Mái.",
+      "subtitles": [
+        "Đôi chim bay bổng lên trời xanh, quấn quýt bên nhau.",
+        "Rồi chúng từ từ đậu xuống, hóa thành hai hòn đá to ôm lấy nhau.",
+        "Người đời sau đặt tên cho hai hòn đá ấy là hòn Trống Mái."
+      ],
+      "image": {
+        "character": "chim-mai",
+        "prompt": "on a mountaintop by the sea two big grey boulders lean together like a pair of birds, a rooster-shaped stone and a smaller hen-shaped stone, waves and golden sunset behind them",
         "seed": 3469686537
       },
       "video": {
-        "motionPrompt": "a soft silvery glow surrounds the two birds as they turn into rocks, moonlight shimmers on the sea, then dawn light rises and villagers point up in wonder",
+        "motionPrompt": "waves roll below, the boulders glow softly in the golden light, a seagull glides past",
         "seed": 4141294066
       },
       "voice": {}
@@ -191,11 +301,11 @@
       "id": "ket-thuc",
       "title": "Mèo Miu chào tạm biệt",
       "narrator": "miu",
-      "narration": "Các bạn thấy không, đôi chim thương nhau, dù bị gió bão chia xa vẫn tìm mọi cách để về bên nhau. Hai hòn đá vẫn đứng đó, nhắc mọi người biết quý những người thân yêu bên cạnh mình. Lần sau đi biển Sầm Sơn, các bạn nhớ ngước lên chào hòn Trống Mái giúp Miu nhé! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "narration": "Các bạn thấy không, chàng trai và cô tiểu thư thương nhau, dù bị ngăn cấm vẫn tìm mọi cách để về bên nhau, và hai hòn đá vẫn đứng đó, nhắc mọi người biết quý những người thân yêu bên cạnh mình. Lần sau đi biển Sầm Sơn, các bạn nhớ ngước lên chào hòn Trống Mái giúp Miu nhé! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
       "subtitles": [
-        "Các bạn thấy không, đôi chim thương nhau,",
-        "dù bị gió bão chia xa vẫn tìm mọi cách để về bên nhau.",
-        "Hai hòn đá vẫn đứng đó, nhắc mọi người biết quý những người thân yêu bên cạnh mình.",
+        "Các bạn thấy không, chàng trai và cô tiểu thư thương nhau,",
+        "dù bị ngăn cấm vẫn tìm mọi cách để về bên nhau, và hai hòn đá vẫn đứng đó,",
+        "nhắc mọi người biết quý những người thân yêu bên cạnh mình.",
         "Lần sau đi biển Sầm Sơn, các bạn nhớ ngước lên chào hòn Trống Mái giúp Miu nhé!",
         "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
       ],
