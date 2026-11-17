@@ -9,8 +9,9 @@
     "thien-nhien"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-18",
   "language": "vi",
-  "source": "Truyện dân gian Việt Nam, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ: lược bớt các đoạn kiện tụng của bản gốc, chàng Dã Tràng hoá thành chú dã tràng nhỏ chứ không kể đến cái chết.",
+  "source": "Truyện cổ tích dân gian Việt Nam Sự tích con Dã Tràng (còn gọi con còng, con cua xe cát), truyền miệng, thuộc phạm vi công cộng; đối chiếu bản kể trên truyencotich.vn. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản kể nào; kể nhẹ các đoạn rắn bị tên bắn, ngỗng xin thế mạng và Dã Tràng hết đời bên bờ biển.",
   "basedOn": "Truyện dân gian Việt Nam",
   "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, a sunny sandy beach of central Vietnam with coconut palms, fishing boats and blue waves, no text, no letters, no watermark",
   "narrators": {
@@ -55,139 +56,447 @@
       "id": "mo-dau",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Các bạn đi biển bao giờ chưa? Trên bãi cát có những chú cua bé xíu, chạy nhanh thoăn thoắt, cứ vê cát thành những viên tròn tròn xếp đầy bãi. Đó là con dã tràng đấy. Vì sao dã tràng lại chăm chỉ vê cát như thế? Mình cùng nghe nhé!",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Các bạn ra biển chơi, có bao giờ thấy những con còng nhỏ xíu cứ xe cát thành từng viên tròn tròn, rồi bị sóng cuốn đi mất không? Người ta gọi chúng là con dã tràng. Dã Tràng xe cát biển Đông, nhọc lòng mà chẳng nên công cán gì. Vì sao dã tràng lại xe cát mãi như thế? Câu chuyện hơi dài, các bạn ngồi cho thoải mái rồi mình cùng nghe nhé!",
       "subtitles": [
-        "Xin chào các bạn nhỏ! Các bạn đi biển bao giờ chưa?",
-        "Trên bãi cát có những chú cua bé xíu, chạy nhanh thoăn thoắt,",
-        "cứ vê cát thành những viên tròn tròn xếp đầy bãi.",
-        "Đó là con dã tràng đấy. Vì sao dã tràng lại chăm chỉ vê cát như thế?",
-        "Mình cùng nghe nhé!"
+        "Xin chào các bạn nhỏ!",
+        "Mèo Miu đây.",
+        "Các bạn ra biển chơi, có bao giờ thấy những con còng nhỏ xíu cứ xe cát thành từng viên",
+        "tròn tròn, rồi bị sóng cuốn đi mất không?",
+        "Người ta gọi chúng là con dã tràng.",
+        "Dã Tràng xe cát biển Đông, nhọc lòng mà chẳng nên công cán gì.",
+        "Vì sao dã tràng lại xe cát mãi như thế?",
+        "Câu chuyện hơi dài, các bạn ngồi cho thoải mái rồi mình cùng nghe nhé!"
       ],
       "image": {
-        "character": "miu",
-        "prompt": "Meo Miu the voxel white cat crouches on a sunny sandy beach looking closely at tiny sand balls arranged in patterns around a little crab hole, an open picture book beside her, gentle waves behind",
-        "seed": 3901482176
+        "prompt": "Meo Miu the voxel white cat sits on a sandy beach at sunset watching a tiny crab rolling a small ball of sand while gentle waves wash in",
+        "seed": 3963181393,
+        "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat leans in curiously as a tiny crab pops out and rolls a sand ball, waves wash in softly, seagulls glide, slow gentle camera push-in",
+        "motionPrompt": "the crab rolls a sand ball, a wave washes it away, the cat tilts her head, gentle push-in",
+        "seed": 3733577536
+      },
+      "voice": {}
+    },
+    {
+      "id": "hang-ran",
+      "title": "Hang rắn trong vườn",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày xửa ngày xưa, có hai vợ chồng ông già tên là Dã Tràng. Trong vườn nhà họ có một cái hang rắn. Hằng ngày làm cỏ gần đó, ông thường thấy một cặp vợ chồng rắn hổ mang ra vào trong hang. Một hôm, rắn chồng bò ra khỏi hang một mình. Ông nhìn vào thì thấy rắn vợ nằm cuộn ở trong. Vì mới lột xác, mình mẩy rắn vợ yếu ớt, không cựa quậy được. Một lúc lâu sau, rắn chồng bò về, miệng tha một con nhái, đút cho vợ ăn.",
+      "subtitles": [
+        "Ngày xửa ngày xưa, có hai vợ chồng ông già tên là Dã Tràng.",
+        "Trong vườn nhà họ có một cái hang rắn.",
+        "Hằng ngày làm cỏ gần đó, ông thường thấy một cặp vợ chồng rắn hổ mang ra vào trong hang.",
+        "Một hôm, rắn chồng bò ra khỏi hang một mình.",
+        "Ông nhìn vào thì thấy rắn vợ nằm cuộn ở trong.",
+        "Vì mới lột xác, mình mẩy rắn vợ yếu ớt, không cựa quậy được.",
+        "Một lúc lâu sau, rắn chồng bò về, miệng tha một con nhái, đút cho vợ ăn."
+      ],
+      "image": {
+        "prompt": "an old gardener with a hoe in a green vegetable garden watches from a distance a pair of cobras near a hollow in the ground, one cobra bringing a tiny frog to the other curled inside",
+        "seed": 3560825862,
+        "character": "da-trang"
+      },
+      "video": {
+        "motionPrompt": "the old man pauses weeding, the male cobra slides to the hole and offers the frog, the female cobra raises its head weakly",
+        "seed": 783431224
+      },
+      "voice": {}
+    },
+    {
+      "id": "ran-dac-mui-ten",
+      "title": "Con rắn đực lạ và mũi tên lạc",
+      "narrator": "ke-chuyen",
+      "narration": "Ít lâu sau, Dã Tràng lại thấy rắn vợ bò ra khỏi hang một mình. Lần này đến lượt rắn chồng lột xác, nằm im thiêm thiếp, lớp da cũ còn bỏ lại bên hang. Hồi lâu, rắn vợ trở về, theo sau còn có một con rắn đực khác khá lớn. Dã Tràng thấy hai con bò đến cửa hang thì dừng lại, rồi quấn lấy nhau như bện dây thừng. Một lát sau, con rắn đực lạ một mình bò vào hang. Dã Tràng biết con rắn ấy toan làm gì. Ông tức giận, muốn trừ bỏ nó đi để cứu rắn chồng đang lúc yếu ớt. Lúc ấy bên mình ông chẳng có gì, ông bèn rút một mũi tên, nhằm con rắn đực mới đến mà bắn một phát. Không ngờ mũi tên lại trúng vào đầu con rắn vợ, nó gục xuống, còn con kia hoảng hồn bỏ chạy mất. Dã Tràng nghĩ cũng thương con rắn cái, nhưng trong cái thương lại có lẫn cả giận, nên ông chán nản bỏ đi về nhà. Từ đó, ông chẳng thèm để ý đến hang rắn nữa.",
+      "subtitles": [
+        "Ít lâu sau, Dã Tràng lại thấy rắn vợ bò ra khỏi hang một mình.",
+        "Lần này đến lượt rắn chồng lột xác, nằm im thiêm thiếp, lớp da cũ còn bỏ lại bên hang.",
+        "Hồi lâu, rắn vợ trở về, theo sau còn có một con rắn đực khác khá lớn.",
+        "Dã Tràng thấy hai con bò đến cửa hang thì dừng lại, rồi quấn lấy nhau như bện dây thừng.",
+        "Một lát sau, con rắn đực lạ một mình bò vào hang.",
+        "Dã Tràng biết con rắn ấy toan làm gì.",
+        "Ông tức giận, muốn trừ bỏ nó đi để cứu rắn chồng đang lúc yếu ớt.",
+        "Lúc ấy bên mình ông chẳng có gì, ông bèn rút một mũi tên,",
+        "nhằm con rắn đực mới đến mà bắn một phát.",
+        "Không ngờ mũi tên lại trúng vào đầu con rắn vợ, nó gục xuống,",
+        "còn con kia hoảng hồn bỏ chạy mất.",
+        "Dã Tràng nghĩ cũng thương con rắn cái, nhưng trong cái thương lại có lẫn cả giận,",
+        "nên ông chán nản bỏ đi về nhà.",
+        "Từ đó, ông chẳng thèm để ý đến hang rắn nữa."
+      ],
+      "image": {
+        "prompt": "an old gardener frowns angrily watching a large strange cobra slide toward a hole in the ground where another cobra rests shed skin beside the hole, grey sky",
+        "seed": 3901482176,
+        "character": "da-trang"
+      },
+      "video": {
+        "motionPrompt": "the strange cobra winds toward the hole, the old man clenches his jaw, the shed skin flutters in the breeze",
         "seed": 391523257
       },
       "voice": {}
     },
     {
-      "id": "cuu-ran",
-      "title": "Chàng Dã Tràng cứu rắn",
+      "id": "vien-ngoc-ran",
+      "title": "Viên ngọc của rắn",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, ở một làng chài ven biển có một chàng trai hiền lành tên là Dã Tràng. Một hôm đi qua bờ suối, chàng thấy một chú rắn xanh nhỏ bị mắc kẹt trong bụi gai, không sao thoát ra được. Dã Tràng nhẹ nhàng gỡ từng cành gai, bế rắn đặt xuống bãi cỏ mềm. Rắn ngẩng đầu nhìn chàng, đôi mắt long lanh như muốn nói cảm ơn, rồi trườn đi mất.",
+      "narration": "Chừng dăm bảy ngày sau, một hôm Dã Tràng nằm võng kể chuyện vợ chồng nhà rắn cho vợ nghe. Vui miệng, ông kể luôn những việc mình đã thấy và đã làm. Ông vừa kể dứt lời thì bỗng nghe trên xà nhà có tiếng phì phì. Hai vợ chồng hốt hoảng nhìn lên, thấy một con rắn hổ mang rất lớn, đuôi quấn lấy xà nhà, đầu vươn gần chỗ ông nằm, miệng nhả ra một viên ngọc. Ông vừa cầm lấy thì nghe tiếng rắn nói: Ông là ân nhân mà tôi cứ ngỡ là kẻ thù. Mấy hôm nay tôi đợi ông trên xà nhà này, chỉ chực mổ ông để báo thù cho vợ tôi. Nhưng hồi nãy nghe ông kể rõ ràng, tôi mới biết mình đã lầm. Xin biếu ông viên ngọc này. Đeo nó vào người thì có thể nghe được tiếng của mọi loài muông chim trong thế gian. Dã Tràng từ kinh ngạc đến sung sướng, nhận viên ngọc quý, và từ đó chẳng bao giờ rời nó.",
       "subtitles": [
-        "Ngày xưa, ở một làng chài ven biển có một chàng trai hiền lành tên là Dã Tràng.",
-        "Một hôm đi qua bờ suối, chàng thấy một chú rắn xanh nhỏ bị mắc kẹt trong bụi gai,",
-        "không sao thoát ra được. Dã Tràng nhẹ nhàng gỡ từng cành gai, bế rắn đặt xuống bãi cỏ mềm.",
-        "Rắn ngẩng đầu nhìn chàng, đôi mắt long lanh như muốn nói cảm ơn, rồi trườn đi mất."
+        "Chừng dăm bảy ngày sau, một hôm Dã Tràng nằm võng kể chuyện vợ chồng nhà rắn cho vợ nghe.",
+        "Vui miệng, ông kể luôn những việc mình đã thấy và đã làm.",
+        "Ông vừa kể dứt lời thì bỗng nghe trên xà nhà có tiếng phì phì.",
+        "Hai vợ chồng hốt hoảng nhìn lên, thấy một con rắn hổ mang rất lớn, đuôi quấn lấy xà nhà,",
+        "đầu vươn gần chỗ ông nằm, miệng nhả ra một viên ngọc.",
+        "Ông vừa cầm lấy thì nghe tiếng rắn nói: Ông là ân nhân mà tôi cứ ngỡ là kẻ thù.",
+        "Mấy hôm nay tôi đợi ông trên xà nhà này, chỉ chực mổ ông để báo thù cho vợ tôi.",
+        "Nhưng hồi nãy nghe ông kể rõ ràng, tôi mới biết mình đã lầm.",
+        "Xin biếu ông viên ngọc này.",
+        "Đeo nó vào người thì có thể nghe được tiếng của mọi loài muông chim trong thế gian.",
+        "Dã Tràng từ kinh ngạc đến sung sướng, nhận viên ngọc quý, và từ đó chẳng bao giờ rời nó."
       ],
       "image": {
-        "character": "ran-than",
-        "prompt": "by a little stream near a fishing village, the kind young man carefully frees a small glowing green snake tangled in a thorny bush, he gently lifts it onto soft grass, wildflowers around",
-        "seed": 2050079800
+        "prompt": "an old man lying in a hammock in a thatched house looking up in astonishment at a huge cobra coiled around the roof beam dropping a glowing pearl into his hand, his wife covering her mouth",
+        "seed": 2050079800,
+        "character": "ran-than"
       },
       "video": {
-        "motionPrompt": "the young man unhooks the thorny branches one by one, the snake slides free onto the grass and looks back with kind eyes, the stream sparkles",
+        "motionPrompt": "the cobra lowers its head and drops the glowing pearl into the old man's hands, the wife gasps, lamplight flickers",
         "seed": 3212534766
       },
       "voice": {}
     },
     {
-      "id": "vien-ngoc",
-      "title": "Viên ngọc quý",
+      "id": "bay-qua",
+      "title": "Bầy quạ và con dê",
       "narrator": "ke-chuyen",
-      "narration": "Đêm ấy, rắn hiện về trong giấc mơ của Dã Tràng: Ta là rắn thần. Cảm ơn chàng đã cứu ta. Ta tặng chàng viên ngọc này. Ngậm ngọc vào miệng, chàng sẽ nghe hiểu tiếng của muôn loài. Sáng ra, Dã Tràng thấy bên gối có một viên ngọc sáng lấp lánh. Chàng thử ngậm vào, nghe tiếng chim sẻ ngoài sân ríu rít: Hôm nay trời đẹp quá! Chàng mỉm cười, sung sướng vô cùng.",
+      "narration": "Một hôm, Dã Tràng đang hái rau thì có một bầy quạ bay đến đậu trên mấy ngọn cau, nói chuyện lao xao. Ông nghe hiểu hết. Chúng bảo: Ở núi Nam có một con dê bị hổ vồ. Hãy lên đó lấy về mà ăn, nhưng nhớ để bộ lòng lại cho chúng tôi với. Dã Tràng làm theo lời quạ. Quả nhiên ông thấy xác một con dê trên núi Nam. Ông xẻo lấy một ít thịt, xâu lại, xách về. Đến nhà, ông vội mách xóm giềng biết để đi lấy, không quên dặn họ để bộ ruột dê lại cho bầy quạ. Nhưng ông không ngờ người trong xóm nghe tin, đua nhau đi đông quá, lấy hết tất cả, chẳng chừa lại một tí gì.",
       "subtitles": [
-        "Đêm ấy, rắn hiện về trong giấc mơ của Dã Tràng: Ta là rắn thần.",
-        "Cảm ơn chàng đã cứu ta. Ta tặng chàng viên ngọc này.",
-        "Ngậm ngọc vào miệng, chàng sẽ nghe hiểu tiếng của muôn loài.",
-        "Sáng ra, Dã Tràng thấy bên gối có một viên ngọc sáng lấp lánh.",
-        "Chàng thử ngậm vào, nghe tiếng chim sẻ ngoài sân ríu rít: Hôm nay trời đẹp quá!",
-        "Chàng mỉm cười, sung sướng vô cùng."
+        "Một hôm, Dã Tràng đang hái rau thì có một bầy quạ bay đến đậu trên mấy ngọn cau,",
+        "nói chuyện lao xao.",
+        "Ông nghe hiểu hết.",
+        "Chúng bảo: Ở núi Nam có một con dê bị hổ vồ.",
+        "Hãy lên đó lấy về mà ăn, nhưng nhớ để bộ lòng lại cho chúng tôi với.",
+        "Dã Tràng làm theo lời quạ.",
+        "Quả nhiên ông thấy xác một con dê trên núi Nam.",
+        "Ông xẻo lấy một ít thịt, xâu lại, xách về.",
+        "Đến nhà, ông vội mách xóm giềng biết để đi lấy,",
+        "không quên dặn họ để bộ ruột dê lại cho bầy quạ.",
+        "Nhưng ông không ngờ người trong xóm nghe tin, đua nhau đi đông quá, lấy hết tất cả,",
+        "chẳng chừa lại một tí gì."
       ],
       "image": {
-        "character": "da-trang",
-        "prompt": "in a simple fisherman hut at sunrise, the young man sits up on his mat amazed, holding a glowing round pearl, sparrows chirp on the windowsill, a faint image of the green magic snake in a dreamy glow",
-        "seed": 1046140611
+        "prompt": "a flock of black crows chatting loudly on areca palm tops over an old man picking vegetables, in the distance villagers carrying away bundles of meat from a mountain slope",
+        "seed": 1046140611,
+        "character": "da-trang"
       },
       "video": {
-        "motionPrompt": "the pearl glows softly in his hands, the sparrows hop and chirp, the dreamy snake image fades away, morning light fills the hut",
+        "motionPrompt": "the crows caw and flap on the palm tops, the old man listens with surprise, villagers rush along the mountain path",
         "seed": 3736219188
       },
       "voice": {}
     },
     {
-      "id": "giup-moi-nguoi",
-      "title": "Giúp mọi người",
+      "id": "qua-gian",
+      "title": "Bầy quạ giận",
       "narrator": "ke-chuyen",
-      "narration": "Từ đó, nhờ viên ngọc, Dã Tràng giúp được bao nhiêu người. Nghe chim hải âu bảo nhau sắp có bão, chàng chạy đi báo cho cả làng chài kéo thuyền vào bờ. Nghe đàn kiến nói trời sắp mưa, chàng giục bà con phơi lúa mau mau mà cất. Dân làng ai cũng quý chàng. Còn Dã Tràng thì giữ viên ngọc như báu vật, đi đâu cũng đeo bên mình.",
+      "narration": "Lũ quạ không thấy ruột dê, cho là Dã Tràng lừa mình, bèn đổ xô đến vườn ông réo om sòm. Ông biết người trong xóm đã làm hại mình, không giữ chữ tín với bầy quạ. Ông phân trần mấy lần nhưng bầy quạ không nghe, cứ đứng đó mắng mãi. Tức mình, ông lấy cung tên ra bắn vào chúng, chủ ý chỉ là để đuổi đi chứ không định làm hại. Chẳng ngờ bầy quạ thấy vậy cho là ông lấy oán trả ân, liền cắp lấy mũi tên có khắc tên Dã Tràng ở đuôi, tìm dịp báo thù. Lúc bay qua sông, thấy một xác người trôi dạt, đàn quạ bèn cắm mũi tên ấy vào cổ người đó. Khi quan sở tại đến làm biên bản, thấy mũi tên liền đoán Dã Tràng là thủ phạm, sai lính bắt ông, hạ ngục.",
       "subtitles": [
-        "Từ đó, nhờ viên ngọc, Dã Tràng giúp được bao nhiêu người.",
-        "Nghe chim hải âu bảo nhau sắp có bão,",
-        "chàng chạy đi báo cho cả làng chài kéo thuyền vào bờ.",
-        "Nghe đàn kiến nói trời sắp mưa, chàng giục bà con phơi lúa mau mau mà cất.",
-        "Dân làng ai cũng quý chàng.",
-        "Còn Dã Tràng thì giữ viên ngọc như báu vật, đi đâu cũng đeo bên mình."
+        "Lũ quạ không thấy ruột dê, cho là Dã Tràng lừa mình, bèn đổ xô đến vườn ông réo om sòm.",
+        "Ông biết người trong xóm đã làm hại mình, không giữ chữ tín với bầy quạ.",
+        "Ông phân trần mấy lần nhưng bầy quạ không nghe, cứ đứng đó mắng mãi.",
+        "Tức mình, ông lấy cung tên ra bắn vào chúng,",
+        "chủ ý chỉ là để đuổi đi chứ không định làm hại.",
+        "Chẳng ngờ bầy quạ thấy vậy cho là ông lấy oán trả ân,",
+        "liền cắp lấy mũi tên có khắc tên Dã Tràng ở đuôi, tìm dịp báo thù.",
+        "Lúc bay qua sông, thấy một xác người trôi dạt, đàn quạ bèn cắm mũi tên ấy vào cổ người đó.",
+        "Khi quan sở tại đến làm biên bản, thấy mũi tên liền đoán Dã Tràng là thủ phạm,",
+        "sai lính bắt ông, hạ ngục."
       ],
       "image": {
-        "character": "da-trang",
-        "prompt": "on a fishing village beach, the young man with the shining pearl at his neck points to the sky and calls out, fishermen pull their boats ashore, seagulls fly above, grey clouds far out at sea",
-        "seed": 4211227414
+        "prompt": "angry crows screeching over an old man's yard as he fires an arrow into the air to scare them off, a crow flying away with an arrow, a river below",
+        "seed": 4211227414,
+        "character": "da-trang"
       },
       "video": {
-        "motionPrompt": "the young man waves and calls, fishermen pull ropes and push boats onto the sand, seagulls circle, distant clouds roll slowly",
+        "motionPrompt": "the crows swoop and caw, the old man aims upward, one crow grabs the arrow and flaps away over the river",
         "seed": 3791742470
       },
       "voice": {}
     },
     {
-      "id": "ngoc-roi",
-      "title": "Ngọc rơi xuống biển",
+      "id": "bi-bat",
+      "title": "Dã Tràng bị bắt",
       "narrator": "ke-chuyen",
-      "narration": "Một buổi chiều nắng đẹp, Dã Tràng ra biển tắm. Chàng đặt viên ngọc trên tảng đá ven bờ cho khỏi mất. Bỗng một con sóng lớn ập vào, cuốn viên ngọc xuống biển sâu. Người ta kể rằng Long Vương dưới biển thấy ngọc đẹp quá, liền giữ lấy. Dã Tràng chạy đi tìm khắp nơi, lặn xuống mãi mà chẳng thấy đâu. Chàng ngồi trên bãi cát, buồn rười rượi.",
+      "narration": "Dã Tràng bị bắt bất ngờ, hết sức kêu oan. Nhưng mũi tên là một chứng cớ rành rành, làm ông đuối lý, đành chịu chui đầu vào gông. Tuy nhiên, ông vẫn một mực xin quan xét giải mình về kinh để nhà vua phân xử. Từ ngục tỉnh, ông bị điệu đi. Dọc đường, trời tối, bọn lính dừng lại ở một quán để ăn uống nghỉ ngơi. Dã Tràng cổ bị gông, chân bị xiềng, nằm trên đống rơm, buồn rầu không ngủ được. Lúc trời gần rạng, ông nghe một đàn chim sẻ bay ngang đầu nói chuyện với nhau: Nhanh lên! Chuyến này sẽ không lo đói nữa, cũng chẳng sợ ai đuổi cả. Một con khác hỏi: Của ai mang đến bỏ vương vãi như thế? Con nọ trả lời: Của vua nước bên kia. Họ toan kéo sang đánh úp bên này. Hôm qua, quân đội giáo mác kéo đi liên miên không ngớt. Nhưng xe thóc vừa tới gần biên giới thì bị sụp hầm, đổ hết. Họ đang trở về lấy thứ khác, cho nên chúng ta tha hồ ăn.",
       "subtitles": [
-        "Một buổi chiều nắng đẹp, Dã Tràng ra biển tắm.",
-        "Chàng đặt viên ngọc trên tảng đá ven bờ cho khỏi mất.",
-        "Bỗng một con sóng lớn ập vào, cuốn viên ngọc xuống biển sâu.",
-        "Người ta kể rằng Long Vương dưới biển thấy ngọc đẹp quá, liền giữ lấy.",
-        "Dã Tràng chạy đi tìm khắp nơi, lặn xuống mãi mà chẳng thấy đâu.",
-        "Chàng ngồi trên bãi cát, buồn rười rượi."
+        "Dã Tràng bị bắt bất ngờ, hết sức kêu oan.",
+        "Nhưng mũi tên là một chứng cớ rành rành, làm ông đuối lý, đành chịu chui đầu vào gông.",
+        "Tuy nhiên, ông vẫn một mực xin quan xét giải mình về kinh để nhà vua phân xử.",
+        "Từ ngục tỉnh, ông bị điệu đi.",
+        "Dọc đường, trời tối, bọn lính dừng lại ở một quán để ăn uống nghỉ ngơi.",
+        "Dã Tràng cổ bị gông, chân bị xiềng, nằm trên đống rơm, buồn rầu không ngủ được.",
+        "Lúc trời gần rạng, ông nghe một đàn chim sẻ bay ngang đầu nói chuyện với nhau: Nhanh lên!",
+        "Chuyến này sẽ không lo đói nữa, cũng chẳng sợ ai đuổi cả.",
+        "Một con khác hỏi: Của ai mang đến bỏ vương vãi như thế?",
+        "Con nọ trả lời: Của vua nước bên kia.",
+        "Họ toan kéo sang đánh úp bên này.",
+        "Hôm qua, quân đội giáo mác kéo đi liên miên không ngớt.",
+        "Nhưng xe thóc vừa tới gần biên giới thì bị sụp hầm, đổ hết.",
+        "Họ đang trở về lấy thứ khác, cho nên chúng ta tha hồ ăn."
       ],
       "image": {
-        "character": "da-trang",
-        "prompt": "at golden sunset on the beach, a big gentle wave washes over a rock where the shining pearl was resting, the young man runs toward it from the shallow water reaching out, the pearl glows as it sinks into the blue sea",
-        "seed": 3269941884
+        "prompt": "an old man in a wooden cangue and ankle shackles lies on straw in a roadside inn courtyard at pre-dawn while sparrows chatter above on a beam, soldiers sleeping nearby, a spilled grain cart in a pit seen far away in a thought bubble style glow",
+        "seed": 3269941884,
+        "character": "da-trang"
       },
       "video": {
-        "motionPrompt": "a wave rolls over the rock and carries the glowing pearl away, the young man splashes forward, the pearl light fades under the water, the sun sinks",
+        "motionPrompt": "the old man lifts his head to listen, sparrows chirp on the beam, soldiers snore, dawn light begins",
         "seed": 519518666
       },
       "voice": {}
     },
     {
-      "id": "xe-cat",
-      "title": "Xe cát lấp biển",
+      "id": "bao-tin",
+      "title": "Lời báo tin cho quan",
       "narrator": "ke-chuyen",
-      "narration": "Dã Tràng nghĩ: Mình lấp biển cho cạn thì sẽ tìm được ngọc. Thế là ngày nào chàng cũng xúc cát đổ xuống biển. Nhưng sóng cứ xô vào, cuốn cát đi mất. Chàng lại xúc, sóng lại cuốn. Ngày này qua tháng khác, chàng vẫn miệt mài. Rồi người làng chẳng thấy Dã Tràng đâu nữa, chỉ thấy trên bãi biển có những chú cua nhỏ xíu, cứ cần mẫn vê cát thành từng viên tròn.",
+      "narration": "Nghe xong, chờ lúc bọn lính thúc lên đường, Dã Tràng nói với họ: Xin các ông bẩm với quan rằng việc oan uổng của tôi là nhỏ mọn, không nên bận tâm. Giờ đây chỉ nên lo việc quốc gia trọng đại, còn cấp bách hơn nhiều. Bọn lính gạn hỏi mãi nhưng ông không nói thêm, chỉ nài rằng hễ có mặt quan, ông mới tỏ bày rõ ràng. Khi gặp mấy vị quan đầu tỉnh, Dã Tràng cho họ biết rằng Hiến Đế ở phương bắc đã sai tướng cầm quân sang đánh úp nước mình. Họ đang đóng quân đầy ở biên giới, chỉ vì bị sụp hầm, xe lương đổ hết nên chưa tấn công được. Bây giờ họ đang chở thêm lương, chờ đầy đủ sẽ vượt cửa ải sang đất Nam. Bọn quan tỉnh lấy làm lo lắng, nhưng vẫn hỏi ông có dám chắc không. Dã Tràng chỉ vào đầu mình mà đoan rằng nếu sai, ông xin chịu tội, còn nếu lời ông đúng thì xin bề trên thả ông ra. Lập tức, những tên quân do thám được tung đi khắp ngả để lấy tin. Và nội ngày hôm sau, Dã Tràng được thả, vì lời mách của ông quả không sai, lại vừa đúng lúc để chuẩn bị đối phó với địch.",
       "subtitles": [
-        "Dã Tràng nghĩ: Mình lấp biển cho cạn thì sẽ tìm được ngọc.",
-        "Thế là ngày nào chàng cũng xúc cát đổ xuống biển.",
-        "Nhưng sóng cứ xô vào, cuốn cát đi mất. Chàng lại xúc, sóng lại cuốn.",
-        "Ngày này qua tháng khác, chàng vẫn miệt mài. Rồi người làng chẳng thấy Dã Tràng đâu nữa,",
-        "chỉ thấy trên bãi biển có những chú cua nhỏ xíu, cứ cần mẫn vê cát thành từng viên tròn."
+        "Nghe xong, chờ lúc bọn lính thúc lên đường, Dã Tràng nói với họ:",
+        "Xin các ông bẩm với quan rằng việc oan uổng của tôi là nhỏ mọn, không nên bận tâm.",
+        "Giờ đây chỉ nên lo việc quốc gia trọng đại, còn cấp bách hơn nhiều.",
+        "Bọn lính gạn hỏi mãi nhưng ông không nói thêm, chỉ nài rằng hễ có mặt quan,",
+        "ông mới tỏ bày rõ ràng.",
+        "Khi gặp mấy vị quan đầu tỉnh,",
+        "Dã Tràng cho họ biết rằng Hiến Đế ở phương bắc đã sai tướng cầm quân sang đánh úp nước",
+        "mình.",
+        "Họ đang đóng quân đầy ở biên giới, chỉ vì bị sụp hầm,",
+        "xe lương đổ hết nên chưa tấn công được.",
+        "Bây giờ họ đang chở thêm lương, chờ đầy đủ sẽ vượt cửa ải sang đất Nam.",
+        "Bọn quan tỉnh lấy làm lo lắng, nhưng vẫn hỏi ông có dám chắc không.",
+        "Dã Tràng chỉ vào đầu mình mà đoan rằng nếu sai, ông xin chịu tội,",
+        "còn nếu lời ông đúng thì xin bề trên thả ông ra.",
+        "Lập tức, những tên quân do thám được tung đi khắp ngả để lấy tin.",
+        "Và nội ngày hôm sau, Dã Tràng được thả, vì lời mách của ông quả không sai,",
+        "lại vừa đúng lúc để chuẩn bị đối phó với địch."
       ],
       "image": {
-        "character": "con-da-trang",
-        "prompt": "on a long sandy beach, the young man pushes sand toward the sea with a wooden scoop as waves wash it back, beside him many tiny ghost crabs begin rolling little sand balls, soft evening light",
-        "seed": 1128082680
+        "prompt": "an old man in a cangue stands before three provincial mandarins in a hall pointing to his own head earnestly, scouts running out of the doorway on horses in the background",
+        "seed": 1128082680,
+        "character": "da-trang"
       },
       "video": {
-        "motionPrompt": "the young man scoops sand and the waves wash it back again, the scene gently fades as tiny crabs appear rolling sand balls in his place, waves come and go",
+        "motionPrompt": "the old man speaks earnestly, the mandarins whisper nervously, scouts gallop out through the gate",
         "seed": 14477800
+      },
+      "voice": {}
+    },
+    {
+      "id": "nha-tran-anh",
+      "title": "Đêm ở nhà Trần Anh",
+      "narrator": "ke-chuyen",
+      "narration": "Được tha, Dã Tràng đi bộ về quê nhà. Bóng chiều vừa ngả, ông mới đến vùng Hồng Hoa, tìm vào nhà người bạn rất thân là Trần Anh để nghỉ chân. Gặp lại bạn cũ, vợ chồng Trần Anh vui mừng khôn xiết. Nghe tin ông bị giam cùm, suýt mất đầu, hai vợ chồng rất cảm thương bạn. Thấy bữa ăn tối thết bạn chẳng có gì, Trần Anh xuống bếp bảo vợ: Bạn ta đến, lại gặp lúc trong nhà chẳng có gì ăn. Sẵn có cặp ngỗng, con nó đã khôn rồi, ta làm thịt một con, ngày mai đãi bạn lên đường. Người vợ bằng lòng, nhưng dặn chồng sáng sớm bắt ngỗng và làm lông giúp mình một tay.",
+      "subtitles": [
+        "Được tha, Dã Tràng đi bộ về quê nhà.",
+        "Bóng chiều vừa ngả, ông mới đến vùng Hồng Hoa,",
+        "tìm vào nhà người bạn rất thân là Trần Anh để nghỉ chân.",
+        "Gặp lại bạn cũ, vợ chồng Trần Anh vui mừng khôn xiết.",
+        "Nghe tin ông bị giam cùm, suýt mất đầu, hai vợ chồng rất cảm thương bạn.",
+        "Thấy bữa ăn tối thết bạn chẳng có gì, Trần Anh xuống bếp bảo vợ: Bạn ta đến,",
+        "lại gặp lúc trong nhà chẳng có gì ăn.",
+        "Sẵn có cặp ngỗng, con nó đã khôn rồi, ta làm thịt một con, ngày mai đãi bạn lên đường.",
+        "Người vợ bằng lòng, nhưng dặn chồng sáng sớm bắt ngỗng và làm lông giúp mình một tay."
+      ],
+      "image": {
+        "prompt": "a friendly farmer couple welcome the exhausted old man into their thatched home at dusk, a pair of white geese with goslings visible in a pen in the yard",
+        "seed": 1160578795,
+        "character": "da-trang"
+      },
+      "video": {
+        "motionPrompt": "the couple greet their old friend warmly, the geese peer from the pen, lantern light glows",
+        "seed": 4115959588
+      },
+      "voice": {}
+    },
+    {
+      "id": "cap-ngong",
+      "title": "Cặp ngỗng",
+      "narrator": "ke-chuyen",
+      "narration": "Trong khi hai vợ chồng bàn tính, cặp ngỗng ngoài chuồng nghe được câu chuyện. Ngỗng trống bảo ngỗng mái: Mình ơi, mình hãy ở lại nuôi con, tôi sẽ đứng sẵn cho chủ nó bắt. Ngỗng mái không nghe, xin được thế mạng cho chồng. Nhưng ngỗng trống nhất quyết hy sinh, chạy ra sân từ giã đàn con: Các con ơi, các con ở lại với mẹ nhé. Cha sẽ không bao giờ gặp lại các con nữa. Ngỗng mái vẫn lạch bạch chạy theo, đòi thế mạng cho chồng bằng được. Lúc bấy giờ, Dã Tràng nằm trên bộ ván kề cửa sổ nên nghe thấy cả tiếng ngỗng than thở. Ông thấy thương loài vật vô tội chỉ vì mình mà phải lìa đàn con bé bỏng. Ông toan nói trước với bạn nhưng thấy bất tiện, đành nghe ngóng chỗ chuồng ngỗng, chờ lúc bạn ra bắt thì cản lại.",
+      "subtitles": [
+        "Trong khi hai vợ chồng bàn tính, cặp ngỗng ngoài chuồng nghe được câu chuyện.",
+        "Ngỗng trống bảo ngỗng mái: Mình ơi, mình hãy ở lại nuôi con,",
+        "tôi sẽ đứng sẵn cho chủ nó bắt.",
+        "Ngỗng mái không nghe, xin được thế mạng cho chồng.",
+        "Nhưng ngỗng trống nhất quyết hy sinh, chạy ra sân từ giã đàn con: Các con ơi,",
+        "các con ở lại với mẹ nhé.",
+        "Cha sẽ không bao giờ gặp lại các con nữa.",
+        "Ngỗng mái vẫn lạch bạch chạy theo, đòi thế mạng cho chồng bằng được.",
+        "Lúc bấy giờ, Dã Tràng nằm trên bộ ván kề cửa sổ nên nghe thấy cả tiếng ngỗng than thở.",
+        "Ông thấy thương loài vật vô tội chỉ vì mình mà phải lìa đàn con bé bỏng.",
+        "Ông toan nói trước với bạn nhưng thấy bất tiện, đành nghe ngóng chỗ chuồng ngỗng,",
+        "chờ lúc bạn ra bắt thì cản lại."
+      ],
+      "image": {
+        "prompt": "in the yard at night a male goose spreads his wings to protect a female goose and tiny goslings huddle near, tearful goodbye, the old man listening from a window with a worried face, moonlight",
+        "seed": 1428952387,
+        "character": "da-trang"
+      },
+      "video": {
+        "motionPrompt": "the male goose stretches his neck, the female goose waddles after him, goslings peep, the old man at the window listens",
+        "seed": 2898932291
+      },
+      "voice": {}
+    },
+    {
+      "id": "tha-ngong",
+      "title": "Dã Tràng cứu ngỗng",
+      "narrator": "ke-chuyen",
+      "narration": "Suốt đêm ấy, tuy mệt mà ông không dám ngủ. Quả nhiên, vào khoảng canh tư, Trần Anh thức dậy, bước ra chuồng. Ngỗng trống xua ngỗng mái chạy đi rồi vươn cổ ra cho bắt. Trần Anh vừa sắp cầm lấy ngỗng thì Dã Tràng đã lật đật chạy xuống bếp, giữ lấy con dao. Ông nói: Xin bạn thả nó ra. Tính tôi không muốn hại sinh vật nào. Tình thân của đôi ta đâu cần cỗ bàn mới thân. Nếu bạn làm thịt nó thì tôi lập tức đi khỏi chỗ này. Thấy bạn có vẻ quả quyết, Trần Anh đành thả ngỗng ra, rồi giục vợ chạy đi mua tép về đãi bạn.",
+      "subtitles": [
+        "Suốt đêm ấy, tuy mệt mà ông không dám ngủ.",
+        "Quả nhiên, vào khoảng canh tư, Trần Anh thức dậy, bước ra chuồng.",
+        "Ngỗng trống xua ngỗng mái chạy đi rồi vươn cổ ra cho bắt.",
+        "Trần Anh vừa sắp cầm lấy ngỗng thì Dã Tràng đã lật đật chạy xuống bếp, giữ lấy con dao.",
+        "Ông nói: Xin bạn thả nó ra.",
+        "Tính tôi không muốn hại sinh vật nào.",
+        "Tình thân của đôi ta đâu cần cỗ bàn mới thân.",
+        "Nếu bạn làm thịt nó thì tôi lập tức đi khỏi chỗ này.",
+        "Thấy bạn có vẻ quả quyết, Trần Anh đành thả ngỗng ra,",
+        "rồi giục vợ chạy đi mua tép về đãi bạn."
+      ],
+      "image": {
+        "prompt": "before dawn in the yard the old man holds back his friend's arm as the friend reaches toward the male goose, the geese looking at the old man hopefully, a basket of shrimp being brought by the wife later",
+        "seed": 1870840180,
+        "character": "da-trang"
+      },
+      "video": {
+        "motionPrompt": "the old man gently stays his friend's hand, the friend lowers the knife, the geese stand still and bow their necks",
+        "seed": 96345181
+      },
+      "voice": {}
+    },
+    {
+      "id": "qua-cua-ngong",
+      "title": "Quà của loài ngỗng",
+      "narrator": "ke-chuyen",
+      "narration": "Cơm nước xong, Dã Tràng từ giã bạn lên đường về nhà. Đến bên ao, ông đã thấy vợ chồng ngỗng cùng bầy con đứng chờ ở đấy. Ngỗng đực tặng Dã Tràng một viên ngọc và nói: Đa tạ ân nhân cứu mạng. Chẳng biết lấy gì báo đền, chúng tôi xin tặng người viên ngọc này. Mang nó vào người có thể đi dưới nước dễ dàng, chẳng khác gì đi trên bộ. Nếu đem ngọc này xuống nước mà khuấy thì sẽ làm rung động đến tận đáy biển. Ngỗng lại nói tiếp: Còn con tép là vật đã thế mạng cho chúng tôi, từ nay dòng dõi chúng tôi xin chừa tép ra không ăn, để tỏ lòng nhớ ơn. Dã Tràng không ngờ được đền đáp hậu như thế, sung sướng nhận ngọc rồi ra về.",
+      "subtitles": [
+        "Cơm nước xong, Dã Tràng từ giã bạn lên đường về nhà.",
+        "Đến bên ao, ông đã thấy vợ chồng ngỗng cùng bầy con đứng chờ ở đấy.",
+        "Ngỗng đực tặng Dã Tràng một viên ngọc và nói: Đa tạ ân nhân cứu mạng.",
+        "Chẳng biết lấy gì báo đền, chúng tôi xin tặng người viên ngọc này.",
+        "Mang nó vào người có thể đi dưới nước dễ dàng, chẳng khác gì đi trên bộ.",
+        "Nếu đem ngọc này xuống nước mà khuấy thì sẽ làm rung động đến tận đáy biển.",
+        "Ngỗng lại nói tiếp: Còn con tép là vật đã thế mạng cho chúng tôi,",
+        "từ nay dòng dõi chúng tôi xin chừa tép ra không ăn, để tỏ lòng nhớ ơn.",
+        "Dã Tràng không ngờ được đền đáp hậu như thế, sung sướng nhận ngọc rồi ra về."
+      ],
+      "image": {
+        "prompt": "at a pond edge two white geese and a row of goslings present a shining pearl to the old man who bends to receive it, lotus leaves on the pond, a small shrimp swimming in the clear water",
+        "seed": 834112287,
+        "character": "da-trang"
+      },
+      "video": {
+        "motionPrompt": "the male goose offers the pearl in his beak, the old man receives it with both hands, goslings bob on the water",
+        "seed": 3690741883
+      },
+      "voice": {}
+    },
+    {
+      "id": "long-vuong",
+      "title": "Long Vương hoảng sợ",
+      "narrator": "ke-chuyen",
+      "narration": "Khi đến bờ sông, Dã Tràng muốn thử xem công hiệu của viên ngọc mới, liền để nguyên áo quần đi xuống nước. Lạ thay, nước rẽ ra thành một lối cho ông đi thẳng xuống đáy sông. Ông dạo cảnh hồi lâu rồi cầm viên ngọc khuấy vào nước nhiều lần. Hôm ấy, Long Vương và các quan đang họp ở thủy phủ bỗng thấy nhà cửa, lâu đài rung chuyển, như sắp đổ. Ai nấy nháo nhác, chẳng hiểu vì sao. Vua lập tức truyền cho bộ hạ đi dò la. Bộ hạ Long Vương theo đường sóng ngầm đến cửa sông, thấy Dã Tràng đang cầm ngọc khuấy vào nước. Mỗi lần khuấy, họ thấy choáng váng xiêu người. Biết rõ ông là thủ phạm nhưng họ chẳng dám làm gì, chỉ khéo mời ông xuống chơi thủy phủ. Gặp Long Vương, Dã Tràng nói mình mới chỉ làm thử xem phép có hiệu nghiệm chăng. Long Vương và triều thần nghe nói, ai nấy xanh mặt, vì nếu ông làm thật thì thủy phủ sẽ chẳng còn gì. Vì thế, Long Vương đãi ông rất hậu, muốn gì có nấy. Lúc ông ra về, Long Vương còn tặng thật nhiều vàng bạc để mong nể mặt. Bộ hạ Long Vương tiễn ông về tận nhà mới trở lại.",
+      "subtitles": [
+        "Khi đến bờ sông, Dã Tràng muốn thử xem công hiệu của viên ngọc mới,",
+        "liền để nguyên áo quần đi xuống nước.",
+        "Lạ thay, nước rẽ ra thành một lối cho ông đi thẳng xuống đáy sông.",
+        "Ông dạo cảnh hồi lâu rồi cầm viên ngọc khuấy vào nước nhiều lần.",
+        "Hôm ấy, Long Vương và các quan đang họp ở thủy phủ bỗng thấy nhà cửa,",
+        "lâu đài rung chuyển, như sắp đổ.",
+        "Ai nấy nháo nhác, chẳng hiểu vì sao.",
+        "Vua lập tức truyền cho bộ hạ đi dò la.",
+        "Bộ hạ Long Vương theo đường sóng ngầm đến cửa sông,",
+        "thấy Dã Tràng đang cầm ngọc khuấy vào nước.",
+        "Mỗi lần khuấy, họ thấy choáng váng xiêu người.",
+        "Biết rõ ông là thủ phạm nhưng họ chẳng dám làm gì, chỉ khéo mời ông xuống chơi thủy phủ.",
+        "Gặp Long Vương, Dã Tràng nói mình mới chỉ làm thử xem phép có hiệu nghiệm chăng.",
+        "Long Vương và triều thần nghe nói, ai nấy xanh mặt,",
+        "vì nếu ông làm thật thì thủy phủ sẽ chẳng còn gì.",
+        "Vì thế, Long Vương đãi ông rất hậu, muốn gì có nấy.",
+        "Lúc ông ra về, Long Vương còn tặng thật nhiều vàng bạc để mong nể mặt.",
+        "Bộ hạ Long Vương tiễn ông về tận nhà mới trở lại."
+      ],
+      "image": {
+        "prompt": "an old man walking on a river bed in a shimmering water path with a glowing pearl in hand, behind him an underwater palace shakes with startled sea courtiers, fish scattering",
+        "seed": 2782801375,
+        "character": "da-trang"
+      },
+      "video": {
+        "motionPrompt": "the water parts for the old man, the palace shakes, the courtiers peek out startled, fish dart away",
+        "seed": 3740291043
+      },
+      "voice": {}
+    },
+    {
+      "id": "mat-tui-ngoc",
+      "title": "Túi ngọc biến mất",
+      "narrator": "ke-chuyen",
+      "narration": "Bà con xóm giềng thấy ông không việc gì mà lại trở nên giàu có thì ai cũng mừng cho ông. Từ đó, Dã Tràng rất quý hai viên ngọc, may một cái túi đựng chúng và luôn đeo ở cổ. Một hôm, ông đi bộ nửa ngày đường đến nhà một người bà con ăn giỗ. Đến nơi, ông sờ lên cổ, giật mình nhớ ra vì vội vàng quá nên đã bỏ quên túi ngọc ở nhà. Ông chẳng an tâm ngồi ăn được, vừa chân ướt chân ráo đến nơi đã cáo từ về ngay. Nhưng về đến nhà, ông tìm mãi chẳng thấy túi ngọc đâu cả, tìm vợ cũng chẳng thấy nốt. Cuối cùng, ông thấy một mảnh giấy vợ ông viết để lại, gài ở chỗ treo áo. Trong đó, vợ ông nói rằng có người của Long Vương lên báo, hễ ai bắt được túi ngọc đem xuống dâng Long Vương thì sẽ được phong làm hoàng hậu. Bởi vậy bà đã trộm phép ông, đem túi ngọc xuống thủy phủ rồi, không nên tìm làm gì cho mệt.",
+      "subtitles": [
+        "Bà con xóm giềng thấy ông không việc gì mà lại trở nên giàu có thì ai cũng mừng cho ông.",
+        "Từ đó, Dã Tràng rất quý hai viên ngọc, may một cái túi đựng chúng và luôn đeo ở cổ.",
+        "Một hôm, ông đi bộ nửa ngày đường đến nhà một người bà con ăn giỗ.",
+        "Đến nơi, ông sờ lên cổ, giật mình nhớ ra vì vội vàng quá nên đã bỏ quên túi ngọc ở nhà.",
+        "Ông chẳng an tâm ngồi ăn được, vừa chân ướt chân ráo đến nơi đã cáo từ về ngay.",
+        "Nhưng về đến nhà, ông tìm mãi chẳng thấy túi ngọc đâu cả, tìm vợ cũng chẳng thấy nốt.",
+        "Cuối cùng, ông thấy một mảnh giấy vợ ông viết để lại, gài ở chỗ treo áo.",
+        "Trong đó, vợ ông nói rằng có người của Long Vương lên báo,",
+        "hễ ai bắt được túi ngọc đem xuống dâng Long Vương thì sẽ được phong làm hoàng hậu.",
+        "Bởi vậy bà đã trộm phép ông, đem túi ngọc xuống thủy phủ rồi,",
+        "không nên tìm làm gì cho mệt."
+      ],
+      "image": {
+        "prompt": "the old man in a hut holds a note with trembling hands, an empty hook where a pouch hung on the wall, the room in disarray, dusk light through the door",
+        "seed": 4093839355,
+        "character": "da-trang"
+      },
+      "video": {
+        "motionPrompt": "the old man reads the note, his hands tremble, the paper flutters, dusk light dims",
+        "seed": 3202008388
+      },
+      "voice": {}
+    },
+    {
+      "id": "xe-cat",
+      "title": "Dã Tràng xe cát lấp biển",
+      "narrator": "ke-chuyen",
+      "narration": "Đọc xong thư vợ, Dã Tràng ngất đi. Ông không ngờ vợ mình lại làm thế, cũng không ngờ âm mưu của Long Vương thâm hiểm đến vậy. Nghĩ đến hai bảo vật, ông tức điên ruột. Sau cùng, ông tính chở cát lấp biển thành một con đường đi xuống thủy phủ, để lấy lại túi ngọc, vì ông còn nhớ đường đến cung điện của Long Vương. Mọi người can ngăn, ông cũng chẳng nghe. Ông dọn nhà ra bờ biển, ngày ngày xe cát chở đến bờ, quyết lấp cho bằng được. Cho đến hết cuộc đời, Dã Tràng vẫn không chịu bỏ dở công việc ấy. Về sau, ông hóa thành con còng, cũng gọi là con dã tràng, ngày ngày xe cát để lấp biển. Tục ngữ có câu: Dã Tràng xe cát biển Đông, nhọc lòng mà chẳng nên công cán gì. Hay là: Công Dã Tràng hàng ngày xe cát, sóng biển dồn tan tác còn chi. Hay là: Con còng còng dại lắm không khôn, luống công xe cát, sóng dồn lại tan. Người ta nói, ngày nay loài ngỗng chẳng bao giờ ăn tép là vì chúng nhớ ơn loài tép đã thế mạng cho tổ tiên mình ngày xưa. Họ còn nói loài ngỗng có một cái mào trắng trên đầu là dấu hiệu để tang Dã Tràng, để nhớ ơn cứu mạng.",
+      "subtitles": [
+        "Đọc xong thư vợ, Dã Tràng ngất đi.",
+        "Ông không ngờ vợ mình lại làm thế, cũng không ngờ âm mưu của Long Vương thâm hiểm đến vậy.",
+        "Nghĩ đến hai bảo vật, ông tức điên ruột.",
+        "Sau cùng, ông tính chở cát lấp biển thành một con đường đi xuống thủy phủ,",
+        "để lấy lại túi ngọc, vì ông còn nhớ đường đến cung điện của Long Vương.",
+        "Mọi người can ngăn, ông cũng chẳng nghe.",
+        "Ông dọn nhà ra bờ biển, ngày ngày xe cát chở đến bờ, quyết lấp cho bằng được.",
+        "Cho đến hết cuộc đời, Dã Tràng vẫn không chịu bỏ dở công việc ấy.",
+        "Về sau, ông hóa thành con còng, cũng gọi là con dã tràng, ngày ngày xe cát để lấp biển.",
+        "Tục ngữ có câu: Dã Tràng xe cát biển Đông, nhọc lòng mà chẳng nên công cán gì.",
+        "Hay là: Công Dã Tràng hàng ngày xe cát, sóng biển dồn tan tác còn chi.",
+        "Hay là: Con còng còng dại lắm không khôn, luống công xe cát, sóng dồn lại tan.",
+        "Người ta nói, ngày nay loài ngỗng chẳng bao giờ ăn tép là vì chúng nhớ ơn loài tép đã thế",
+        "mạng cho tổ tiên mình ngày xưa.",
+        "Họ còn nói loài ngỗng có một cái mào trắng trên đầu là dấu hiệu để tang Dã Tràng,",
+        "để nhớ ơn cứu mạng."
+      ],
+      "image": {
+        "prompt": "an old man on a sandy shore at sunset rolling and carrying sand toward the sea while waves wash it away, a small crab beside him as a vision of his future form, determined face",
+        "seed": 956995979,
+        "character": "con-da-trang"
+      },
+      "video": {
+        "motionPrompt": "the old man pushes a ball of sand to the waves, the waves wash it away, he starts again, sunset light glints",
+        "seed": 889040725
       },
       "voice": {}
     },
@@ -195,22 +504,28 @@
       "id": "ket-thuc",
       "title": "Mèo Miu chào tạm biệt",
       "narrator": "miu",
-      "narration": "Người ta bảo, những chú dã tràng ấy vẫn đang xe cát để tìm lại viên ngọc năm xưa. Vì thế ông bà ta mới có câu: Dã tràng xe cát biển Đông. Các bạn ơi, khi làm mất một thứ quý, mình đừng quá buồn, hãy bình tĩnh nghĩ cách khác nhé. Lần sau ra biển, nhớ chào dã tràng giúp Miu! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "narration": "Các bạn thấy không, Dã Tràng là người biết thương cả loài vật, nên được rắn, được ngỗng đền ơn rất hậu. Nhưng cũng vì nóng giận bắn vội một mũi tên mà ông gây ra bao chuyện rắc rối, và vì mất đi thứ quý giá mà ông phải xe cát suốt đời. Các bạn nhớ nhé, trước khi làm gì, hãy bình tĩnh nghĩ cho kỹ, đừng nóng giận mà làm điều sai trái. Hãy giữ lời hứa với mọi người, và thương yêu mọi loài. Lần sau ra biển, các bạn thấy những viên cát tròn tròn của con còng, hãy nhớ đến Dã Tràng nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
       "subtitles": [
-        "Người ta bảo, những chú dã tràng ấy vẫn đang xe cát để tìm lại viên ngọc năm xưa.",
-        "Vì thế ông bà ta mới có câu: Dã tràng xe cát biển Đông.",
-        "Các bạn ơi, khi làm mất một thứ quý, mình đừng quá buồn, hãy bình tĩnh nghĩ cách khác nhé.",
-        "Lần sau ra biển, nhớ chào dã tràng giúp Miu! Miu kể đến đây là hết rồi.",
-        "Hẹn gặp lại các bạn nhé!"
+        "Các bạn thấy không, Dã Tràng là người biết thương cả loài vật, nên được rắn,",
+        "được ngỗng đền ơn rất hậu.",
+        "Nhưng cũng vì nóng giận bắn vội một mũi tên mà ông gây ra bao chuyện rắc rối,",
+        "và vì mất đi thứ quý giá mà ông phải xe cát suốt đời.",
+        "Các bạn nhớ nhé, trước khi làm gì, hãy bình tĩnh nghĩ cho kỹ,",
+        "đừng nóng giận mà làm điều sai trái.",
+        "Hãy giữ lời hứa với mọi người, và thương yêu mọi loài.",
+        "Lần sau ra biển, các bạn thấy những viên cát tròn tròn của con còng,",
+        "hãy nhớ đến Dã Tràng nhé.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn!"
       ],
       "image": {
-        "character": "miu",
-        "prompt": "Meo Miu the voxel white cat waves goodbye on the sandy beach at sunset, tiny ghost crabs roll sand balls around her, a faint glow of a pearl far out in the calm sea, coconut palms",
-        "seed": 1160578795
+        "prompt": "Meo Miu the voxel white cat waves goodbye on a sunset beach beside a tiny crab with its sand balls, gentle waves",
+        "seed": 2323500392,
+        "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat waves slowly, the little crabs scurry and roll sand balls, waves wash in gently, the sea sparkles, gentle camera pull-back",
-        "seed": 4115959588
+        "motionPrompt": "the cat waves, the tiny crab rolls its sand balls, waves glitter in the sunset",
+        "seed": 3118521928
       },
       "voice": {}
     }
