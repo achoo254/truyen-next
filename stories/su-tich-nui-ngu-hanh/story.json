@@ -3,14 +3,15 @@
   "slug": "su-tich-nui-ngu-hanh",
   "shelf": "kids",
   "title": "Sự tích núi Ngũ Hành",
-  "summary": "Bên bờ biển Đà Nẵng có năm ngọn núi đá mang tên Kim, Mộc, Thủy, Hỏa, Thổ. Chuyện kể rằng Rồng Thần gửi lại một quả trứng cho thần Kim Quy canh giữ, và khi trứng nở, vỏ trứng đã hóa thành năm ngọn núi. Bản kể nhẹ nhàng cho trẻ nhỏ.",
+  "summary": "Một ông cụ sống lẻ loi trên bãi biển được thần Kim Quy giao giữ quả trứng của Long Quân. Trứng lớn dần thành một hòn núi đá, trong núi có cô gái bé ra đời, lớn lên chữa bệnh cho dân rồi được Long Quân gả cho hoàng tử. Hòn núi ấy nay là núi Ngũ Hành. Truyền thuyết vùng Đà Nẵng, kể nhẹ cho trẻ nhỏ.",
   "themes": [
     "than-thoai",
     "thien-nhien"
   ],
   "added": "2026-11-02",
+  "revised": "2026-11-18",
   "language": "vi",
-  "source": "Truyền thuyết dân gian ở vùng Đà Nẵng, truyền miệng, không ai giữ quyền; bản này theo dị bản Rồng Thần gửi trứng cho thần Kim Quy, có nơi kể khác về người giữ trứng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào.",
+  "source": "Truyền thuyết dân gian ở vùng Quảng Nam, Đà Nẵng Sự tích núi Ngũ Hành, truyền miệng, thuộc phạm vi công cộng; đối chiếu bản kể trên truyencotich.vn (dị bản giao long gửi trứng cho thần Kim Quy và ông cụ giữ trứng). Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản kể nào; kể nhẹ đoạn quân dữ đến cướp, bỏ chi tiết đáng sợ.",
   "basedOn": "Truyền thuyết dân gian Việt Nam",
   "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, central Vietnam coast with white sand beach, blue sea and marble mountains, friendly golden dragon and a kind golden turtle with soft rounded shapes, calm and safe mood for young children, no text, no letters, no watermark",
   "narrators": {
@@ -48,6 +49,12 @@
       "name": "Cô gái",
       "sheetPrompt": "a beautiful gentle young Vietnamese girl from legend, long black hair, flowing white and pale gold ancient dress, kind shy smile, full body, front view, plain soft cream background, character reference sheet",
       "seed": 1442846593
+    },
+    {
+      "id": "ong-gia",
+      "name": "Ông cụ ở bãi biển",
+      "seed": 1357924680,
+      "sheetPrompt": "a gentle lonely old Vietnamese hermit from a legend, white beard and thin white hair, faded brown robe, a wooden walking stick, kind weathered face, full body, front view, plain soft cream background, character reference sheet"
     }
   ],
   "scenes": [
@@ -55,149 +62,296 @@
       "id": "mo-dau",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Miu đang ở Đà Nẵng, trên một bãi biển cát trắng mịn. Gần đây có năm ngọn núi đá nhô lên giữa đồng bằng, gọi là núi Ngũ Hành. Người ta bảo năm ngọn núi ấy là vỏ của một quả trứng rồng. Lạ quá phải không? Các bạn cùng nghe Miu kể nhé!",
+      "narration": "Xin chào các bạn nhỏ! Mèo Miu đây. Miu đang ở Đà Nẵng, trên một bãi biển cát trắng mịn. Gần đây có một hòn núi đá rất đẹp nhô lên bên bờ biển, gọi là núi Ngũ Hành. Người ta bảo ngọn núi ấy ngày xưa chỉ là một quả trứng thôi đấy. Trứng của ai, mà lại hóa thành núi? Các bạn ngồi cho thoải mái, mình cùng nghe nhé!",
       "subtitles": [
-        "Xin chào các bạn nhỏ! Miu đang ở Đà Nẵng, trên một bãi biển cát trắng mịn.",
-        "Gần đây có năm ngọn núi đá nhô lên giữa đồng bằng, gọi là núi Ngũ Hành.",
-        "Người ta bảo năm ngọn núi ấy là vỏ của một quả trứng rồng. Lạ quá phải không?",
-        "Các bạn cùng nghe Miu kể nhé!"
+        "Xin chào các bạn nhỏ!",
+        "Mèo Miu đây.",
+        "Miu đang ở Đà Nẵng, trên một bãi biển cát trắng mịn.",
+        "Gần đây có một hòn núi đá rất đẹp nhô lên bên bờ biển, gọi là núi Ngũ Hành.",
+        "Người ta bảo ngọn núi ấy ngày xưa chỉ là một quả trứng thôi đấy.",
+        "Trứng của ai, mà lại hóa thành núi?",
+        "Các bạn ngồi cho thoải mái, mình cùng nghe nhé!"
       ],
       "image": {
-        "prompt": "Meo Miu the voxel white cat stands on a white sand beach in Da Nang, behind her five rocky marble mountains rise from the flat land under a blue sky",
-        "seed": 3729627697,
+        "prompt": "Meo Miu the voxel white cat sits on a white sandy beach looking up at a beautiful rocky mountain rising by the shore in warm morning light, sea waves behind her",
+        "seed": 677931991,
         "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat points toward the five mountains, waves roll gently on the sand, palm trees sway, slow camera push-in",
-        "seed": 1331023566
+        "motionPrompt": "the cat gazes up at the mountain, waves roll in softly, seabirds fly past, gentle push-in",
+        "seed": 3982537983
       },
       "voice": {}
     },
     {
-      "id": "bai-bien-xua",
-      "title": "Bãi biển ngày xưa",
+      "id": "ong-cu",
+      "title": "Ông cụ trên bãi biển vắng",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, nơi đây chỉ là một bãi biển vắng vẻ, cát trắng trải dài tít tắp. Không có núi, không có làng, chỉ có sóng vỗ rì rào ngày đêm. Thỉnh thoảng mới có cánh chim biển bay ngang qua. Dưới biển sâu có Rồng Thần ngự, còn trong lòng nước có thần Kim Quy, một chú rùa vàng hiền lành, sống đã rất lâu.",
+      "narration": "Ngày xưa, có một ông cụ già sống một thân một mình trong một túp lều con trên bãi biển vắng. Những người dân gần đó chẳng biết ông cụ đến đấy làm gì và đến từ lúc nào. Một hôm, tự nhiên ngoài biển khơi nổi lên một vùng sóng gió dữ dội, làm bầu trời tối mịt. Hồi lâu, có một con giao long rất lớn ngoi vào bờ, trườn lên đất liền. Giao long quằn quại trên bãi cát, làm cát lõm thành từng đường ngoằn ngoèo. Gió thổi ào ào, bụi cát mù mịt, gian lều của ông già gần đó xem chừng muốn đổ.",
       "subtitles": [
-        "Ngày xưa, nơi đây chỉ là một bãi biển vắng vẻ, cát trắng trải dài tít tắp.",
-        "Không có núi, không có làng, chỉ có sóng vỗ rì rào ngày đêm.",
-        "Thỉnh thoảng mới có cánh chim biển bay ngang qua.",
-        "Dưới biển sâu có Rồng Thần ngự, còn trong lòng nước có thần Kim Quy,",
-        "một chú rùa vàng hiền lành, sống đã rất lâu."
+        "Ngày xưa, có một ông cụ già sống một thân một mình trong một túp lều con trên bãi biển",
+        "vắng.",
+        "Những người dân gần đó chẳng biết ông cụ đến đấy làm gì và đến từ lúc nào.",
+        "Một hôm, tự nhiên ngoài biển khơi nổi lên một vùng sóng gió dữ dội, làm bầu trời tối mịt.",
+        "Hồi lâu, có một con giao long rất lớn ngoi vào bờ, trườn lên đất liền.",
+        "Giao long quằn quại trên bãi cát, làm cát lõm thành từng đường ngoằn ngoèo.",
+        "Gió thổi ào ào, bụi cát mù mịt, gian lều của ông già gần đó xem chừng muốn đổ."
       ],
       "image": {
-        "prompt": "a wide empty white sand beach stretching far along a calm blue sea in ancient times, no mountains, a few seabirds flying, soft early light",
-        "seed": 2877183276
+        "prompt": "a lonely old man with a white beard stands in front of his small hut on a deserted beach under a stormy sky, a huge sea dragon crawling out of the surf behind him, wind-blown sand",
+        "seed": 2449917459,
+        "character": "ong-gia"
       },
       "video": {
-        "motionPrompt": "gentle waves wash over the sand, seabirds glide slowly, clouds drift",
-        "seed": 2286482236
+        "motionPrompt": "the dark clouds swirl, the sea dragon crawls onto the sand, wind whips the old man's beard and the hut's thatch",
+        "seed": 1681785328
       },
       "voice": {}
     },
     {
-      "id": "rong-than-len-bo",
-      "title": "Rồng Thần lên bờ",
+      "id": "trung-rong",
+      "title": "Quả trứng của giao long",
       "narrator": "ke-chuyen",
-      "narration": "Một đêm trăng sáng, Rồng Thần từ biển khơi bơi vào bờ. Rồng đặt lên bãi cát một quả trứng to tròn, vỏ trắng ngà, sáng lấp lánh dưới trăng. Rồng còn phải trở về biển, bèn gọi thần Kim Quy đến, ân cần nhờ: Thần hãy giữ giúp tôi quả trứng này, đến ngày nó nở nhé!",
+      "narration": "Cuối cùng, giao long gào lên một tiếng, rồi một quả trứng lớn xuất hiện bên cạnh nhà của ông già. Đẻ xong, giao long lại trườn xuống biển đi mất. Một lát sau, lại đến lượt một con rùa vàng to lớn cũng từ ngoài khơi tiến vào. Rùa vàng đào đất, chôn quả trứng vào bãi cát. Rồi rùa bò đến trước mặt ông lão, nói: Ta là thần Kim Quy. Ta muốn ngươi hết sức bảo hộ đứa con quý này của Long Quân! Ông già đáp: Sức cùng tài tận như tôi thì làm sao bảo hộ được? Rùa liền trao cho ông một cái móng, bảo: Ngươi hãy cầm lấy cái này. Bao giờ có việc gì khó khăn nguy cấp thì đặt nó vào tai, ta sẽ giúp ngay, không lo gì cả. Ông già nói: Được, tôi sẽ xin hết sức.",
       "subtitles": [
-        "Một đêm trăng sáng, Rồng Thần từ biển khơi bơi vào bờ.",
-        "Rồng đặt lên bãi cát một quả trứng to tròn, vỏ trắng ngà, sáng lấp lánh dưới trăng.",
-        "Rồng còn phải trở về biển, bèn gọi thần Kim Quy đến, ân cần nhờ:",
-        "Thần hãy giữ giúp tôi quả trứng này, đến ngày nó nở nhé!"
+        "Cuối cùng, giao long gào lên một tiếng,",
+        "rồi một quả trứng lớn xuất hiện bên cạnh nhà của ông già.",
+        "Đẻ xong, giao long lại trườn xuống biển đi mất.",
+        "Một lát sau, lại đến lượt một con rùa vàng to lớn cũng từ ngoài khơi tiến vào.",
+        "Rùa vàng đào đất, chôn quả trứng vào bãi cát.",
+        "Rồi rùa bò đến trước mặt ông lão, nói: Ta là thần Kim Quy.",
+        "Ta muốn ngươi hết sức bảo hộ đứa con quý này của Long Quân!",
+        "Ông già đáp: Sức cùng tài tận như tôi thì làm sao bảo hộ được?",
+        "Rùa liền trao cho ông một cái móng, bảo: Ngươi hãy cầm lấy cái này.",
+        "Bao giờ có việc gì khó khăn nguy cấp thì đặt nó vào tai, ta sẽ giúp ngay, không lo gì cả.",
+        "Ông già nói: Được, tôi sẽ xin hết sức."
       ],
       "image": {
-        "prompt": "on a moonlit beach a gentle golden Vietnamese dragon places a huge round glowing ivory egg on the sand, a large friendly golden turtle crawls up from the waves to meet her",
-        "seed": 1618628669,
-        "character": "rong-than"
-      },
-      "video": {
-        "motionPrompt": "the dragon gently lowers the glowing egg onto the sand, moonlight shimmers on the waves, the turtle nods slowly",
-        "seed": 1143688388
-      },
-      "voice": {}
-    },
-    {
-      "id": "kim-quy-giu-trung",
-      "title": "Thần Kim Quy giữ trứng",
-      "narrator": "ke-chuyen",
-      "narration": "Thần Kim Quy nhận lời. Thần lấy chân cào cát, vùi quả trứng thật cẩn thận. Ngày nắng, thần che cho trứng khỏi nóng. Ngày gió bão, thần nằm chắn cho trứng khỏi lạnh. Năm này qua năm khác, thần Kim Quy chưa bao giờ rời xa quả trứng.",
-      "subtitles": [
-        "Thần Kim Quy nhận lời. Thần lấy chân cào cát, vùi quả trứng thật cẩn thận.",
-        "Ngày nắng, thần che cho trứng khỏi nóng. Ngày gió bão, thần nằm chắn cho trứng khỏi lạnh.",
-        "Năm này qua năm khác, thần Kim Quy chưa bao giờ rời xa quả trứng."
-      ],
-      "image": {
-        "prompt": "the kind golden turtle Kim Quy gently scoops sand with its flippers to cover the big glowing egg, then rests beside it protectively under a stormy but soft sky",
-        "seed": 819680735,
+        "prompt": "a giant golden turtle with glowing shell buries a large pearly egg in the sand while an old man listens and receives a small glowing claw from the turtle, calm sea behind",
+        "seed": 1782201539,
         "character": "kim-quy"
       },
       "video": {
-        "motionPrompt": "the turtle pushes sand over the egg slowly, wind blows, the turtle settles down beside the egg to guard it",
-        "seed": 2017531004
+        "motionPrompt": "the golden turtle presses sand over the egg, hands the glowing claw to the old man, the sea sparkles",
+        "seed": 4185705370
       },
       "voice": {}
     },
     {
-      "id": "trung-lon-dan",
+      "id": "xe-trau",
+      "title": "Chiếc xe trâu và cái móng rùa",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, từ đằng xa tiến đến một chiếc xe trâu, trên xe có mấy tên lính hung dữ. Ông già hoảng hốt lo sợ, vì chiếc xe cứ nhằm đúng hướng quả trứng mà lao tới. Ông đứng dậy, khoát tay làm dấu cho xe chạy sang ngả khác, nhưng không được. Ông vội đặt móng rùa vào tai. Bỗng có một tiếng nói nhỏ lọt vào tai ông: Nằm xuống! Nằm xuống! Ông vừa phủ phục xuống thì hóa ngay thành một con hổ lớn. Bọn lính trên xe hoảng hốt, đánh xe quay trở lại.",
+      "subtitles": [
+        "Một hôm, từ đằng xa tiến đến một chiếc xe trâu, trên xe có mấy tên lính hung dữ.",
+        "Ông già hoảng hốt lo sợ, vì chiếc xe cứ nhằm đúng hướng quả trứng mà lao tới.",
+        "Ông đứng dậy, khoát tay làm dấu cho xe chạy sang ngả khác, nhưng không được.",
+        "Ông vội đặt móng rùa vào tai.",
+        "Bỗng có một tiếng nói nhỏ lọt vào tai ông: Nằm xuống!",
+        "Nằm xuống!",
+        "Ông vừa phủ phục xuống thì hóa ngay thành một con hổ lớn.",
+        "Bọn lính trên xe hoảng hốt, đánh xe quay trở lại."
+      ],
+      "image": {
+        "prompt": "a buffalo cart carrying fierce soldiers rolls toward the egg on the beach while the old man crouches and transforms into a large tiger with a shimmering glow, the soldiers panicking and turning the cart",
+        "seed": 2254546355,
+        "character": "ong-gia"
+      },
+      "video": {
+        "motionPrompt": "the old man crouches and shimmers into a tiger, the soldiers startle and yank the buffalo around, dust flies",
+        "seed": 3733567692
+      },
+      "voice": {}
+    },
+    {
+      "id": "trung-lon",
       "title": "Quả trứng lớn dần",
       "narrator": "ke-chuyen",
-      "narration": "Lạ thay, quả trứng nằm trong cát mà cứ lớn dần lên. Lúc đầu chỉ bằng cái nhà, rồi to bằng quả đồi, rồi cao hơn cả những rặng cây. Đêm đêm, quả trứng tỏa ánh sáng dịu dàng, như đang chờ ngày gặp mặt mọi người.",
+      "narration": "Sau đó, ông cụ tháo gian nhà của mình ra, đem dựng lên che cho trứng thần. Nhưng ông không ngờ rằng trứng cứ mỗi ngày một lớn mãi. Thoạt tiên nó làm nổi cát lên. Rồi ngày một, ngày hai, nó rẽ dần cát ra và nhô lên khỏi mặt đất. Mỗi lần như thế, ông cụ lại hì hục xúc cát lấp lại. Nhưng vô ích, vì chỉ ngày mai, ngày kia, nó đã nhô cao hơn, đến nỗi đội cả gian nhà của ông cụ lên trời. Trứng càng ngày càng lớn làm cho ông thấy sức mình bé lại. Tuy vậy, ông vẫn hết lòng vì trứng thần. Ông đi chặt cây, chặt lá về che cho kín trứng. Nhưng cây lá cũng không che nổi nữa, vì trứng ngày một phình to ra. Nó không những nhô cao lên trời mà còn nở cả bề rộng. Màu vỏ trứng xanh đỏ tím vàng lóng lánh như một hòn ngọc khổng lồ.",
       "subtitles": [
-        "Lạ thay, quả trứng nằm trong cát mà cứ lớn dần lên.",
-        "Lúc đầu chỉ bằng cái nhà, rồi to bằng quả đồi, rồi cao hơn cả những rặng cây.",
-        "Đêm đêm, quả trứng tỏa ánh sáng dịu dàng, như đang chờ ngày gặp mặt mọi người."
+        "Sau đó, ông cụ tháo gian nhà của mình ra, đem dựng lên che cho trứng thần.",
+        "Nhưng ông không ngờ rằng trứng cứ mỗi ngày một lớn mãi.",
+        "Thoạt tiên nó làm nổi cát lên.",
+        "Rồi ngày một, ngày hai, nó rẽ dần cát ra và nhô lên khỏi mặt đất.",
+        "Mỗi lần như thế, ông cụ lại hì hục xúc cát lấp lại.",
+        "Nhưng vô ích, vì chỉ ngày mai, ngày kia, nó đã nhô cao hơn,",
+        "đến nỗi đội cả gian nhà của ông cụ lên trời.",
+        "Trứng càng ngày càng lớn làm cho ông thấy sức mình bé lại.",
+        "Tuy vậy, ông vẫn hết lòng vì trứng thần.",
+        "Ông đi chặt cây, chặt lá về che cho kín trứng.",
+        "Nhưng cây lá cũng không che nổi nữa, vì trứng ngày một phình to ra.",
+        "Nó không những nhô cao lên trời mà còn nở cả bề rộng.",
+        "Màu vỏ trứng xanh đỏ tím vàng lóng lánh như một hòn ngọc khổng lồ."
       ],
       "image": {
-        "prompt": "the giant egg now as big as a hill glows softly on the beach at night, the small golden turtle sits beside it looking up in wonder, stars above the sea",
-        "seed": 3017679344,
-        "character": "kim-quy"
+        "prompt": "a giant shimmering egg of blue, red, purple and gold rising out of the sand lifting the old man's little hut roof on its top, the old man shoveling sand and carrying branches in vain",
+        "seed": 1832481873,
+        "character": "ong-gia"
       },
       "video": {
-        "motionPrompt": "the huge egg pulses with gentle light, stars twinkle, the turtle slowly raises its head to look up",
-        "seed": 4205251843
+        "motionPrompt": "the egg swells slowly pushing sand aside, the old man shovels and drags branches, the shell glows in rainbow colours",
+        "seed": 1703988492
       },
       "voice": {}
     },
     {
-      "id": "trung-no",
-      "title": "Trứng nở",
+      "id": "hang-da",
+      "title": "Hang đá trong lòng trứng",
       "narrator": "ke-chuyen",
-      "narration": "Rồi một buổi sáng trời trong, quả trứng khẽ rung lên, vỏ nứt ra từng đường. Từ trong trứng, một cô gái xinh đẹp bước ra, tóc dài, áo trắng, mỉm cười hiền hậu. Vỏ trứng vỡ thành năm mảnh lớn, rơi xuống bãi cát.",
+      "narration": "Một hôm, gian lều của ông cụ bị những kẻ vô lại đốt cháy. Ông cụ cầu cứu với móng rùa. Bỗng trong lòng trứng hiện ra một cái hang đá có đủ giường chiếu sẵn sàng. Ông già vừa đặt mình xuống là ngủ thiếp ngay. Giữa lúc ấy, một cô gái bé từ trong lòng trứng ra đời bên cạnh giường của ông già. Sữa ở mạch đá trong hang chảy ra nuôi cô gái bé lớn lên như thổi. Nhưng tuy ông già ngủ mà cô gái cũng không cô quạnh. Hằng ngày có những con khỉ hái hoa quả đến cho cô ăn, có những con chim cu tha bông đến dệt cho cô mặc.",
       "subtitles": [
-        "Rồi một buổi sáng trời trong, quả trứng khẽ rung lên, vỏ nứt ra từng đường.",
-        "Từ trong trứng, một cô gái xinh đẹp bước ra, tóc dài, áo trắng, mỉm cười hiền hậu.",
-        "Vỏ trứng vỡ thành năm mảnh lớn, rơi xuống bãi cát."
+        "Một hôm, gian lều của ông cụ bị những kẻ vô lại đốt cháy.",
+        "Ông cụ cầu cứu với móng rùa.",
+        "Bỗng trong lòng trứng hiện ra một cái hang đá có đủ giường chiếu sẵn sàng.",
+        "Ông già vừa đặt mình xuống là ngủ thiếp ngay.",
+        "Giữa lúc ấy, một cô gái bé từ trong lòng trứng ra đời bên cạnh giường của ông già.",
+        "Sữa ở mạch đá trong hang chảy ra nuôi cô gái bé lớn lên như thổi.",
+        "Nhưng tuy ông già ngủ mà cô gái cũng không cô quạnh.",
+        "Hằng ngày có những con khỉ hái hoa quả đến cho cô ăn,",
+        "có những con chim cu tha bông đến dệt cho cô mặc."
       ],
       "image": {
-        "prompt": "on a bright clear morning the giant glowing egg cracks open gently, a beautiful young girl in a flowing white dress steps out smiling, the shell splits into five large pieces, the golden turtle watches happily",
-        "seed": 2459520054,
+        "prompt": "inside a glowing cave within a giant egg a gentle old man sleeps on a stone bed while a little girl is born beside him, monkeys bringing fruit and doves carrying cotton, milk-white stream from the rock",
+        "seed": 585268331,
         "character": "co-gai"
       },
       "video": {
-        "motionPrompt": "light glows through the cracks, the shell opens slowly like petals, the girl steps out and smiles, the turtle bows",
-        "seed": 716919448
+        "motionPrompt": "the old man snores softly, the little girl grows up in sparkles, monkeys offer fruit, doves bring cotton",
+        "seed": 4145331304
       },
       "voice": {}
     },
     {
-      "id": "nam-ngon-nui",
-      "title": "Năm ngọn núi",
+      "id": "co-gai-lon",
+      "title": "Cô gái lớn lên",
       "narrator": "ke-chuyen",
-      "narration": "Năm mảnh vỏ trứng cứ thế lớn mãi, lớn mãi, hóa thành năm ngọn núi đá. Người ta đặt tên cho năm ngọn núi là Kim Sơn, Mộc Sơn, Thủy Sơn, Hỏa Sơn và Thổ Sơn, gọi chung là núi Ngũ Hành. Ngày nay, trong núi có hang động, có chùa, và dưới chân núi có làng thợ đá nổi tiếng khắp nơi.",
+      "narration": "Ông già ngủ một giấc, tỉnh dậy lấy làm kinh ngạc, vì thấy một thiếu nữ xinh đẹp ngồi bên cạnh mình. Cô gái reo lên: Mười lăm năm nay, con ngày ngày lắng nghe hơi thở đều đặn của cha. Nay cha đã dậy, con vui mừng biết mấy! Ông già ngơ ngác nhìn ra, thấy quả trứng thần bây giờ đã thành một hòn núi đá to lớn, cỏ cây đã rậm rạp, chim chóc thú vật đã đến sinh sống nhộn nhịp. Móng rùa vẫn còn ở đầu giường. Ông vội cầm lấy, đặt vào tai. Móng rùa mách đường cho ông già và cô gái ra khỏi hang, và cho biết phải làm những việc gì. Từ đó, ông già lại có thêm bổn phận dạy dỗ, chăm sóc cô gái của Long Quân. Chim chóc và thú rừng đến quấn quýt bên cạnh hai người. Bọn mục đồng cũng không quên lui tới làm quen với họ.",
       "subtitles": [
-        "Năm mảnh vỏ trứng cứ thế lớn mãi, lớn mãi, hóa thành năm ngọn núi đá.",
-        "Người ta đặt tên cho năm ngọn núi là Kim Sơn, Mộc Sơn, Thủy Sơn, Hỏa Sơn và Thổ Sơn,",
-        "gọi chung là núi Ngũ Hành. Ngày nay, trong núi có hang động, có chùa,",
-        "và dưới chân núi có làng thợ đá nổi tiếng khắp nơi."
+        "Ông già ngủ một giấc, tỉnh dậy lấy làm kinh ngạc,",
+        "vì thấy một thiếu nữ xinh đẹp ngồi bên cạnh mình.",
+        "Cô gái reo lên: Mười lăm năm nay, con ngày ngày lắng nghe hơi thở đều đặn của cha.",
+        "Nay cha đã dậy, con vui mừng biết mấy!",
+        "Ông già ngơ ngác nhìn ra, thấy quả trứng thần bây giờ đã thành một hòn núi đá to lớn,",
+        "cỏ cây đã rậm rạp, chim chóc thú vật đã đến sinh sống nhộn nhịp.",
+        "Móng rùa vẫn còn ở đầu giường.",
+        "Ông vội cầm lấy, đặt vào tai.",
+        "Móng rùa mách đường cho ông già và cô gái ra khỏi hang,",
+        "và cho biết phải làm những việc gì.",
+        "Từ đó, ông già lại có thêm bổn phận dạy dỗ, chăm sóc cô gái của Long Quân.",
+        "Chim chóc và thú rừng đến quấn quýt bên cạnh hai người.",
+        "Bọn mục đồng cũng không quên lui tới làm quen với họ."
       ],
       "image": {
-        "prompt": "five rocky marble mountains standing near the sea in Da Nang, a small pagoda roof among green trees on the mountainside, a cave entrance with soft light, a stone carving village at the foot",
-        "seed": 420007633
+        "prompt": "a beautiful young woman in a white dress sits beside the astonished old man at a cave mouth on a green mountain, birds and deer gathering around, shepherd boys waving from the slope",
+        "seed": 3214476566,
+        "character": "co-gai"
       },
       "video": {
-        "motionPrompt": "clouds drift past the five peaks, birds circle, a stone carver taps gently on a small statue at the foot of the mountain",
-        "seed": 3340621416
+        "motionPrompt": "the young woman smiles and holds the old man's hand, birds circle overhead, deer step closer, shepherds wave",
+        "seed": 2680819590
+      },
+      "voice": {}
+    },
+    {
+      "id": "quan-du",
+      "title": "Vòng lửa quanh núi",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, có một đội quân chẳng biết từ đâu đến, mặt mũi hung ác, khí giới sáng loáng, bủa vây chiếm lấy hòn núi mới. Bọn chúng xô tới định bắt cả già lẫn trẻ đi. Nhưng móng rùa đã ra tay. Cả một vòng lửa rất dày ùn ùn bốc lên bao vây lấy chúng, chẳng cho một tên nào chạy thoát. Bọn chúng hoảng sợ, cuống cuồng van xin, và từ đó không dám bén mảng đến nữa.",
+      "subtitles": [
+        "Một hôm, có một đội quân chẳng biết từ đâu đến, mặt mũi hung ác, khí giới sáng loáng,",
+        "bủa vây chiếm lấy hòn núi mới.",
+        "Bọn chúng xô tới định bắt cả già lẫn trẻ đi.",
+        "Nhưng móng rùa đã ra tay.",
+        "Cả một vòng lửa rất dày ùn ùn bốc lên bao vây lấy chúng, chẳng cho một tên nào chạy thoát.",
+        "Bọn chúng hoảng sợ, cuống cuồng van xin, và từ đó không dám bén mảng đến nữa."
+      ],
+      "image": {
+        "prompt": "a ring of golden fire rises around a band of frightened soldiers at the foot of a green mountain, a glowing claw lifted by the old man at the cave mouth, the girl behind him",
+        "seed": 2377603763,
+        "character": "ong-gia"
+      },
+      "video": {
+        "motionPrompt": "a ring of golden fire rises and closes in, the soldiers throw their hands up, the old man lifts the glowing claw",
+        "seed": 967160877
+      },
+      "voice": {}
+    },
+    {
+      "id": "hoa-tu-quy",
+      "title": "Hoa tứ quý chữa bệnh",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy núi và người bỗng dưng xuất hiện ở địa phương mình, nhân dân quanh vùng cho là một sự lạ chưa từng có. Họ tin là tiên xuống trần cứu dân, nên kéo đến gặp cô gái và ông già để xin thuốc, cầu khẩn đủ điều. Thấy họ cần dùng thuốc, cô gái lấy những mảnh đá xanh, đỏ sáng, buộc lại với nhau rồi ném ra chung quanh chỗ ngồi. Trên mặt đất bỗng mọc lên một loài cây có hoa năm cánh, chữa bệnh sốt rét rất hiệu nghiệm. Người ta đua nhau đi hái hoa ấy về chữa bệnh, và gọi là hoa tứ quý. Tiếng đồn mỗi ngày một rộng. Ai ai cũng nhắc đến nàng tiên bé nhỏ với một tấm lòng trìu mến.",
+      "subtitles": [
+        "Thấy núi và người bỗng dưng xuất hiện ở địa phương mình,",
+        "nhân dân quanh vùng cho là một sự lạ chưa từng có.",
+        "Họ tin là tiên xuống trần cứu dân, nên kéo đến gặp cô gái và ông già để xin thuốc,",
+        "cầu khẩn đủ điều.",
+        "Thấy họ cần dùng thuốc, cô gái lấy những mảnh đá xanh, đỏ sáng,",
+        "buộc lại với nhau rồi ném ra chung quanh chỗ ngồi.",
+        "Trên mặt đất bỗng mọc lên một loài cây có hoa năm cánh, chữa bệnh sốt rét rất hiệu nghiệm.",
+        "Người ta đua nhau đi hái hoa ấy về chữa bệnh, và gọi là hoa tứ quý.",
+        "Tiếng đồn mỗi ngày một rộng.",
+        "Ai ai cũng nhắc đến nàng tiên bé nhỏ với một tấm lòng trìu mến."
+      ],
+      "image": {
+        "prompt": "the young woman scatters glowing blue and red stones on the ground where five-petal flowers sprout, villagers kneeling and gathering the flowers with gratitude, mountain behind",
+        "seed": 3511847019,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the stones scatter and glow, five-petal flowers bloom on the ground, villagers bow and pick flowers",
+        "seed": 2109644144
+      },
+      "voice": {}
+    },
+    {
+      "id": "cau-hon",
+      "title": "Sứ giả cầu hôn",
+      "narrator": "ke-chuyen",
+      "narration": "Chẳng bao lâu sau, nhà vua nghe tin có nàng tiên xinh đẹp, bèn sai quan quân mang lễ vật đến cầu hôn cho hoàng tử. Khi sứ giả đến, thấy một già một trẻ đang đánh cờ gánh trên một tảng đá lớn. Sứ giả bước vào, trình lễ vật và quốc thư. Giữa lúc ông cụ già lúng túng chưa biết nên xử trí thế nào, thì rùa vàng từ dưới biển hiện lên, báo tin cho ông biết là Long Quân đã bằng lòng gả. Từ đây, núi vắng bóng người tiên. Cô gái từ biệt cha nuôi, lên kiệu đi theo sứ giả, có mấy trăm quân sĩ theo hầu. Còn ông già trả móng lại cho rùa thần, rồi cưỡi lên lưng rùa mà đi, biệt tăm.",
+      "subtitles": [
+        "Chẳng bao lâu sau, nhà vua nghe tin có nàng tiên xinh đẹp,",
+        "bèn sai quan quân mang lễ vật đến cầu hôn cho hoàng tử.",
+        "Khi sứ giả đến, thấy một già một trẻ đang đánh cờ gánh trên một tảng đá lớn.",
+        "Sứ giả bước vào, trình lễ vật và quốc thư.",
+        "Giữa lúc ông cụ già lúng túng chưa biết nên xử trí thế nào,",
+        "thì rùa vàng từ dưới biển hiện lên, báo tin cho ông biết là Long Quân đã bằng lòng gả.",
+        "Từ đây, núi vắng bóng người tiên.",
+        "Cô gái từ biệt cha nuôi, lên kiệu đi theo sứ giả, có mấy trăm quân sĩ theo hầu.",
+        "Còn ông già trả móng lại cho rùa thần, rồi cưỡi lên lưng rùa mà đi, biệt tăm."
+      ],
+      "image": {
+        "prompt": "an old man and a young woman playing a board game on a flat boulder while royal envoys in red robes with gifts bow before them, a golden turtle emerging from the sea in the distance",
+        "seed": 1690365852,
+        "character": "co-gai"
+      },
+      "video": {
+        "motionPrompt": "the envoys bow with gifts, the old man looks flustered, the golden turtle rises from the waves",
+        "seed": 1418856144
+      },
+      "voice": {}
+    },
+    {
+      "id": "nui-ngu-hanh",
+      "title": "Núi Ngũ Hành",
+      "narrator": "ke-chuyen",
+      "narration": "Ngày nay, hòn núi đá ấy vẫn còn. Nó là hòn núi đẹp nhất nổi lên bên bờ biển Quảng Nam. Người ta gọi nó là núi Ngũ Hành. Ở phía tây núi có sông Vĩnh Điện chảy ra cửa Hàn. Người ta bảo con sông đó, cũng như sông Cẩm Lệ và sông Hàn, đều do bà vợ Long Quân vô tình làm ra trong lúc quằn quại khi ở cữ.",
+      "subtitles": [
+        "Ngày nay, hòn núi đá ấy vẫn còn.",
+        "Nó là hòn núi đẹp nhất nổi lên bên bờ biển Quảng Nam.",
+        "Người ta gọi nó là núi Ngũ Hành.",
+        "Ở phía tây núi có sông Vĩnh Điện chảy ra cửa Hàn.",
+        "Người ta bảo con sông đó, cũng như sông Cẩm Lệ và sông Hàn,",
+        "đều do bà vợ Long Quân vô tình làm ra trong lúc quằn quại khi ở cữ."
+      ],
+      "image": {
+        "prompt": "a beautiful rocky mountain beside the sea in golden morning light, a river winding to the sea at its foot with small fishing boats",
+        "seed": 34074301,
+        "character": "kim-quy"
+      },
+      "video": {
+        "motionPrompt": "mist rises from the river, fishing boats glide, the mountain glows gold in the sunrise",
+        "seed": 3885884850
       },
       "voice": {}
     },
@@ -205,20 +359,22 @@
       "id": "ket-thuc",
       "title": "Mèo Miu chào tạm biệt",
       "narrator": "miu",
-      "narration": "Thì ra núi Ngũ Hành là vỏ trứng rồng mà thần Kim Quy đã giữ gìn suốt bao năm. Nhờ thần chăm chút kiên nhẫn, quả trứng mới nở ra điều kỳ diệu. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "narration": "Các bạn thấy không, nhờ ông cụ già giữ lời hứa, hết lòng che chở quả trứng của Long Quân, mà có hòn núi Ngũ Hành xinh đẹp cho chúng ta ngắm đến tận bây giờ. Đã nhận lời với ai điều gì, các bạn nhớ cố gắng làm cho trọn nhé. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!",
       "subtitles": [
-        "Thì ra núi Ngũ Hành là vỏ trứng rồng mà thần Kim Quy đã giữ gìn suốt bao năm.",
-        "Nhờ thần chăm chút kiên nhẫn, quả trứng mới nở ra điều kỳ diệu.",
-        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+        "Các bạn thấy không, nhờ ông cụ già giữ lời hứa, hết lòng che chở quả trứng của Long Quân,",
+        "mà có hòn núi Ngũ Hành xinh đẹp cho chúng ta ngắm đến tận bây giờ.",
+        "Đã nhận lời với ai điều gì, các bạn nhớ cố gắng làm cho trọn nhé.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn!"
       ],
       "image": {
-        "prompt": "Meo Miu the voxel white cat waves goodbye on the beach with the five marble mountains behind her, a small friendly golden turtle sits beside her on the sand",
-        "seed": 2941157982,
+        "prompt": "Meo Miu the voxel white cat waves goodbye on a sunny beach with the rocky mountain behind her and a small golden turtle beside her",
+        "seed": 1873990706,
         "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat waves slowly, the turtle lifts a flipper to wave too, waves sparkle in the sun, gentle camera pull-back",
-        "seed": 214175467
+        "motionPrompt": "the cat waves, the turtle bobs its head, the sea sparkles, soft sunlight",
+        "seed": 720634335
       },
       "voice": {}
     }
