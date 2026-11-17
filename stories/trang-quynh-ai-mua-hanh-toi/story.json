@@ -3,15 +3,17 @@
   "slug": "trang-quynh-ai-mua-hanh-toi",
   "shelf": "kids",
   "title": "Trạng Quỳnh: Ai mua hành tôi",
-  "summary": "Bà chúa kiêu kỳ hay chọc ghẹo người khác, Trạng Quỳnh gánh hành đi rao \"Ai mua hành tôi\" bên tường phủ, khiến bà chúa trên lại và tự mắc vào câu đố chữ của chính mình. Truyện cười dân gian về Trạng Quỳnh kể vui cho trẻ nhỏ.",
+  "summary": "Anh nông dân thương chú chim sẻ bị quạ bắt, được chim đền ơn bằng lọ nước thần làm vợ anh xinh đẹp hơn người và cây hành lớn lạ thường. Vì quạ trả thù mà nàng bị bắt vào cung, nhưng một tiếng rao \"ai mua hành tôi\" đã đưa hai vợ chồng đoàn tụ. Truyện cổ tích Việt Nam kể cho trẻ nhỏ.",
   "themes": [
-    "ngu-ngon"
+    "gia-dinh",
+    "tinh-yeu"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-17",
   "language": "vi",
-  "source": "Truyện cười dân gian Việt Nam về Trạng Quỳnh, truyền miệng, không ai giữ quyền. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào; giữ cái khôn và trò chơi chữ của Quỳnh, bỏ chi tiết thô tục, Mèo Miu mở đầu và rút ý ở cuối.",
-  "basedOn": "Truyện cười dân gian Việt Nam về Trạng Quỳnh",
-  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, cheerful comic mood for young children, old Vietnamese mansion with a high moss-covered wall, a lotus pond and a busy lane outside, no text, no letters, no watermark",
+  "source": "Truyện cổ tích Việt Nam \"Ai mua hành tôi\", truyền miệng, không ai giữ quyền; đối chiếu các bản kể trên truyencotich.vn và eva.vn. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản nào; giữ đủ tình tiết, câu rao dân gian, Mèo Miu mở đầu và kết.",
+  "basedOn": "Truyện cổ tích Việt Nam",
+  "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, cheerful comic mood for young children, Vietnamese village fields and forest, a royal palace with golden gates, no text, no letters, no watermark",
   "narrators": {
     "miu": {
       "name": "Mèo Miu",
@@ -31,16 +33,22 @@
       "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
     },
     {
-      "id": "trang-quynh",
-      "name": "Trạng Quỳnh",
-      "seed": 2270223004,
-      "sheetPrompt": "Trang Quynh, a clever cheerful Vietnamese scholar from old folk tales disguised as a country vendor, brown shirt, cone hat, carrying a bamboo shoulder pole with two baskets of green spring onions, thin mustache, mischievous eyes, full body, front view, plain soft cream background, character reference sheet"
+      "id": "anh-nong-dan",
+      "name": "Anh nông dân",
+      "seed": 1148100101,
+      "sheetPrompt": "a poor kind young Vietnamese farmer from an old folk tale, brown peasant shirt and rolled trousers, simple cone hat, honest gentle face, full body, front view, plain soft cream background, character reference sheet"
     },
     {
-      "id": "ba-chua",
-      "name": "Bà chúa",
-      "seed": 2496910050,
-      "sheetPrompt": "a proud elegant Vietnamese noble lady from an old folk tale, pink and gold silk ao dai, gold hair pins, holding a round silk fan, haughty but comic expression, full body, front view, plain soft cream background, character reference sheet"
+      "id": "co-vo",
+      "name": "Cô vợ",
+      "seed": 1148100102,
+      "sheetPrompt": "a Vietnamese farmer's young wife from an old folk tale, at first plain brown peasant clothes, later radiant and beautiful with long glossy black hair and a simple cream ao ba ba, full body, front view, plain soft cream background, character reference sheet"
+    },
+    {
+      "id": "vua",
+      "name": "Nhà vua",
+      "seed": 1148100103,
+      "sheetPrompt": "an old Vietnamese king from a folk tale, golden dragon robe and black winged crown, thin beard, greedy but comic expression, full body, front view, plain soft cream background, character reference sheet"
     }
   ],
   "scenes": [
@@ -48,139 +56,311 @@
       "id": "mo-dau",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Hôm nay Miu đố các bạn một trò chơi chữ nhé. Các bạn nói thật nhanh câu này xem: ai mua hành tôi, ai mua hành tôi! Nói nhanh mãi thì chữ nọ lẫn chữ kia, nghe buồn cười lắm đúng không? Ngày xưa, Trạng Quỳnh đã dùng đúng câu rao ấy để trêu lại một bà chúa rất kiêu. Mình cùng nghe nhé!",
+      "narration": "Xin chào các bạn nhỏ! Miu đây. Hôm nay Miu kể cho các bạn nghe một câu chuyện có củ hành to bằng cái bình vôi, có chú chim sẻ biết nhớ ơn, và có một tiếng rao vang lên trước cổng cung vua. Tiếng rao ấy là: ai mua hành tôi, ai mua hành tôi! Câu chuyện này tên là Ai mua hành tôi. Các bạn ngồi cho thật ngoan, Miu bắt đầu kể nhé!",
       "subtitles": [
-        "Xin chào các bạn nhỏ! Hôm nay Miu đố các bạn một trò chơi chữ nhé.",
-        "Các bạn nói thật nhanh câu này xem: ai mua hành tôi, ai mua hành tôi!",
-        "Nói nhanh mãi thì chữ nọ lẫn chữ kia, nghe buồn cười lắm đúng không?",
-        "Ngày xưa, Trạng Quỳnh đã dùng đúng câu rao ấy để trêu lại một bà chúa rất kiêu.",
-        "Mình cùng nghe nhé!"
+        "Xin chào các bạn nhỏ!",
+        "Miu đây.",
+        "Hôm nay Miu kể cho các bạn nghe một câu chuyện có củ hành to bằng cái bình vôi,",
+        "có chú chim sẻ biết nhớ ơn, và có một tiếng rao vang lên trước cổng cung vua.",
+        "Tiếng rao ấy là: ai mua hành tôi, ai mua hành tôi!",
+        "Câu chuyện này tên là Ai mua hành tôi.",
+        "Các bạn ngồi cho thật ngoan, Miu bắt đầu kể nhé!"
       ],
       "image": {
         "character": "miu",
-        "prompt": "Meo Miu the voxel white cat holds a small bunch of green spring onions near her mouth like a microphone, giggling, sitting on a woven mat in a sunny yard",
+        "prompt": "Meo Miu the voxel white cat holds a huge green spring onion as big as a vase, sitting on a woven mat in a sunny yard and smiling at the viewer",
         "seed": 3651482829
       },
       "video": {
-        "motionPrompt": "the cat waves the bunch of spring onions and laughs, a butterfly flutters by, slow gentle camera push-in",
+        "motionPrompt": "the cat hugs the giant spring onion and giggles, a butterfly flutters by, slow gentle camera push-in",
         "seed": 2765835619
       },
       "voice": {}
     },
     {
-      "id": "ba-chua-kieu",
-      "title": "Bà chúa kiêu kỳ",
+      "id": "qua-va-chim-se",
+      "title": "Con quạ và chú chim sẻ",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, trong kinh thành có một bà chúa, là chị của nhà Chúa. Bà giàu có, quyền thế, nhưng lại rất kiêu và hay chọc ghẹo người khác. Ai đi qua tường phủ của bà mà ăn mặc quê mùa, bà cũng cho người ra trêu cho bẽ mặt. Các quan trong triều cũng ngại bà lắm. Nghe chuyện, Trạng Quỳnh vuốt râu bảo: Để ta cho bà ấy một bài học nhỏ.",
+      "narration": "Ngày xưa có một chàng trai nghèo, chưa có vợ, sống bằng nghề làm ruộng. Một hôm, anh xách búa lên rừng đốn củi. Đang lúi húi chặt cây, anh bỗng thấy một con quạ tha theo một con chim sẻ nhỏ xíu, đậu xuống một phiến đá ngay gần chỗ anh làm. Nhìn chú chim bé bỏng sắp lọt vào mỏ loài chim dữ, anh động lòng thương lắm. Anh nhặt một hòn đá ném thẳng về phía con quạ. Quạ giật mình, bỏ mồi, vỗ cánh bay vọt lên. Hỏng mất bữa ăn, quạ tức tối kêu la om sòm. Anh ném thêm một hòn đá nữa và quát lên: Đồ chim dữ, cút ngay đi! Quạ hậm hực bay đi, miệng còn đe rằng sẽ có ngày báo thù.",
       "subtitles": [
-        "Ngày xưa, trong kinh thành có một bà chúa, là chị của nhà Chúa.",
-        "Bà giàu có, quyền thế, nhưng lại rất kiêu và hay chọc ghẹo người khác.",
-        "Ai đi qua tường phủ của bà mà ăn mặc quê mùa, bà cũng cho người ra trêu cho bẽ mặt.",
-        "Các quan trong triều cũng ngại bà lắm.",
-        "Nghe chuyện, Trạng Quỳnh vuốt râu bảo: Để ta cho bà ấy một bài học nhỏ."
+        "Ngày xưa có một chàng trai nghèo, chưa có vợ, sống bằng nghề làm ruộng.",
+        "Một hôm, anh xách búa lên rừng đốn củi.",
+        "Đang lúi húi chặt cây, anh bỗng thấy một con quạ tha theo một con chim sẻ nhỏ xíu,",
+        "đậu xuống một phiến đá ngay gần chỗ anh làm.",
+        "Nhìn chú chim bé bỏng sắp lọt vào mỏ loài chim dữ, anh động lòng thương lắm.",
+        "Anh nhặt một hòn đá ném thẳng về phía con quạ.",
+        "Quạ giật mình, bỏ mồi, vỗ cánh bay vọt lên.",
+        "Hỏng mất bữa ăn, quạ tức tối kêu la om sòm.",
+        "Anh ném thêm một hòn đá nữa và quát lên: Đồ chim dữ, cút ngay đi!",
+        "Quạ hậm hực bay đi, miệng còn đe rằng sẽ có ngày báo thù."
       ],
       "image": {
-        "character": "ba-chua",
-        "prompt": "a proud noble lady in a pink and gold silk dress stands on a balcony behind a high mansion wall, fanning herself and pointing and laughing at a simple farmer passing in the lane, servants giggle beside her",
-        "seed": 2789756846
-      },
-      "video": {
-        "motionPrompt": "the lady fans herself and points with a haughty laugh, the farmer below hurries away embarrassed, lotus leaves sway in the pond",
-        "seed": 2501336862
-      },
-      "voice": {}
-    },
-    {
-      "id": "ganh-hanh",
-      "title": "Quỳnh gánh hành đi bán",
-      "narrator": "ke-chuyen",
-      "narration": "Sáng hôm ấy, Quỳnh cởi áo the, mặc áo nâu, đội nón lá, gánh hai thúng hành xanh mướt đi ngang tường phủ. Quỳnh đi chầm chậm, cất giọng rao thật to, thật dài: Ai mua hành tôi đây! Ai mua hành tôi đây! Đi hết một vòng, Quỳnh lại quay lại, rao tiếp, giọng mỗi lúc một to hơn, vang cả con phố.",
-      "subtitles": [
-        "Sáng hôm ấy, Quỳnh cởi áo the, mặc áo nâu, đội nón lá,",
-        "gánh hai thúng hành xanh mướt đi ngang tường phủ.",
-        "Quỳnh đi chầm chậm, cất giọng rao thật to, thật dài: Ai mua hành tôi đây!",
-        "Ai mua hành tôi đây!",
-        "Đi hết một vòng, Quỳnh lại quay lại, rao tiếp, giọng mỗi lúc một to hơn, vang cả con phố."
-      ],
-      "image": {
-        "character": "trang-quynh",
-        "prompt": "Trang Quynh disguised as a vendor in a brown shirt and cone hat carries a bamboo shoulder pole with two baskets of fresh green spring onions along the high mansion wall, calling out with a hand cupped to his mouth",
+        "character": "anh-nong-dan",
+        "prompt": "a poor young Vietnamese farmer in a brown shirt throws a small stone at a black crow in a green forest, a tiny sparrow lies on a flat rock nearby, bright daylight",
         "seed": 3912470191
       },
       "video": {
-        "motionPrompt": "Quynh walks slowly with the shoulder pole bouncing, cups his hand and calls out, the onion leaves bob in the baskets, passersby turn their heads",
+        "motionPrompt": "the crow flaps away angrily, leaves flutter down, the farmer lowers his arm and hurries toward the little sparrow",
         "seed": 2254525337
       },
       "voice": {}
     },
     {
-      "id": "ba-chua-tren",
-      "title": "Bà chúa trêu lại",
+      "id": "lo-nuoc-than",
+      "title": "Lọ nước thần",
       "narrator": "ke-chuyen",
-      "narration": "Bà chúa ngồi trong phủ nghe tiếng rao mãi, thấy anh bán hành này cứ đi đi lại lại thì bực lắm. Bà nghĩ bụng: Để ta trêu cho nó một phen! Bà bước ra hiên, phe phẩy quạt, nói vọng ra thật to cho cả phố nghe: Này anh hàng hành kia, thương ông, tôi mua cho đấy! Mấy cô hầu đứng sau che miệng cười, tưởng bà chủ vừa trêu được người ta.",
+      "narration": "Chàng trai chạy lại nhặt chú chim sẻ đang thoi thóp, ủ nó trong lòng bàn tay để giữ cho nó ấm. Chỉ chừng thời gian nhai xong một miếng trầu, chim sẻ đã tỉnh lại và bay được. Nó cảm ơn anh rối rít, rồi bảo anh ngồi chờ một lát để nó đem biếu một món quà. Một lúc sau, chim sẻ bay trở lại, miệng ngậm một cái lọ bé xíu, đặt xuống bên chân anh. Nó nói: Đây là nước thần, có phép làm cho người trẻ lại và đẹp ra, vật thì lớn thêm, trên đời này không ai có. Nói xong, chim vỗ cánh bay đi. Anh ngồi tần ngần mở nút ra xem, thấy trong lọ đầy nước thơm ngào ngạt. Anh nghĩ bụng: Thứ này chỉ hợp cho các bà quan làm đỏm, đâu đến lượt người làm ruộng như mình. Thế là anh nút lọ lại cẩn thận, gánh củi về, treo lọ lên kèo nhà. Rồi vì bận công việc làm ăn, anh quên bẵng cái lọ ấy đi.",
       "subtitles": [
-        "Bà chúa ngồi trong phủ nghe tiếng rao mãi,",
-        "thấy anh bán hành này cứ đi đi lại lại thì bực lắm.",
-        "Bà nghĩ bụng: Để ta trêu cho nó một phen!",
-        "Bà bước ra hiên, phe phẩy quạt, nói vọng ra thật to cho cả phố nghe:",
-        "Này anh hàng hành kia, thương ông, tôi mua cho đấy!",
-        "Mấy cô hầu đứng sau che miệng cười, tưởng bà chủ vừa trêu được người ta."
+        "Chàng trai chạy lại nhặt chú chim sẻ đang thoi thóp,",
+        "ủ nó trong lòng bàn tay để giữ cho nó ấm.",
+        "Chỉ chừng thời gian nhai xong một miếng trầu, chim sẻ đã tỉnh lại và bay được.",
+        "Nó cảm ơn anh rối rít, rồi bảo anh ngồi chờ một lát để nó đem biếu một món quà.",
+        "Một lúc sau, chim sẻ bay trở lại, miệng ngậm một cái lọ bé xíu, đặt xuống bên chân anh.",
+        "Nó nói: Đây là nước thần, có phép làm cho người trẻ lại và đẹp ra, vật thì lớn thêm,",
+        "trên đời này không ai có.",
+        "Nói xong, chim vỗ cánh bay đi.",
+        "Anh ngồi tần ngần mở nút ra xem, thấy trong lọ đầy nước thơm ngào ngạt.",
+        "Anh nghĩ bụng: Thứ này chỉ hợp cho các bà quan làm đỏm,",
+        "đâu đến lượt người làm ruộng như mình.",
+        "Thế là anh nút lọ lại cẩn thận, gánh củi về, treo lọ lên kèo nhà.",
+        "Rồi vì bận công việc làm ăn, anh quên bẵng cái lọ ấy đi."
       ],
       "image": {
-        "character": "ba-chua",
-        "prompt": "the proud noble lady steps onto the balcony fanning herself and calling down to the vendor with a teasing grin, her maids cover their mouths giggling behind her",
+        "character": "anh-nong-dan",
+        "prompt": "the young farmer sits on a mossy stone in the forest and looks at a tiny glowing bottle that a small sparrow has set down in front of him, soft golden light, firewood beside him",
         "seed": 3053164648
       },
       "video": {
-        "motionPrompt": "the lady leans over the balcony and calls out with a smug smile, her fan flutters, the maids giggle and nudge each other",
+        "motionPrompt": "the sparrow bows its head and flies away, the bottle glimmers, sparkles drift upward through the forest",
         "seed": 3326206554
       },
       "voice": {}
     },
     {
-      "id": "mac-bay",
-      "title": "Bà chúa mắc bẫy chữ",
+      "id": "co-vo-xau",
+      "title": "Cô vợ lấy lọ nước thơm",
       "narrator": "ke-chuyen",
-      "narration": "Quỳnh dừng gánh, ngẩng lên, cười tươi: Đa tạ bà! Bà thương ông thì ông xin bán hết cho bà! Cả phố nghe rõ, ai nấy ồ lên cười. Hoá ra bà chúa định trêu người, nào ngờ lại tự miệng nói to giữa phố rằng mình thương ông hàng hành. Bà đỏ bừng mặt, vội lấy quạt che, chạy tót vào trong. Lúc ấy bà mới nhận ra anh hàng hành chính là Trạng Quỳnh.",
+      "narration": "Ít năm sau, chật vật mãi anh mới cưới được vợ. Vợ anh cũng là con nhà nông, quanh năm chân lấm tay bùn, nên da đen, dáng xấu. Nhưng hai vợ chồng rất thương yêu nhau. Một hôm chồng đi cày vắng, ở nhà vợ quét dọn khắp nơi. Thấy cái lọ nhỏ treo trên kèo nhà, chị bắc ghế lấy xuống, mở nút ra xem. Ngửi thấy mùi thơm, chị tưởng là dầu thơm gội đầu. Lát sau, chị nấu nước tắm gội, rồi tiện tay đổ cả lọ ra xức lên tóc, lên người. Không ngờ xức xong, chị bỗng trở nên trắng trẻo, xinh đẹp, nhan sắc ít ai sánh kịp. Nước thần còn trôi xuống mấy luống hành bên cạnh giếng, khiến những cây hành lớn phổng lên lạ thường: củ to bằng cái bình vôi, dọc dài bằng cái đòn gánh.",
       "subtitles": [
-        "Quỳnh dừng gánh, ngẩng lên, cười tươi: Đa tạ bà! Bà thương ông thì ông xin bán hết cho bà!",
-        "Cả phố nghe rõ, ai nấy ồ lên cười.",
-        "Hoá ra bà chúa định trêu người,",
-        "nào ngờ lại tự miệng nói to giữa phố rằng mình thương ông hàng hành.",
-        "Bà đỏ bừng mặt, vội lấy quạt che, chạy tót vào trong.",
-        "Lúc ấy bà mới nhận ra anh hàng hành chính là Trạng Quỳnh."
+        "Ít năm sau, chật vật mãi anh mới cưới được vợ.",
+        "Vợ anh cũng là con nhà nông, quanh năm chân lấm tay bùn, nên da đen, dáng xấu.",
+        "Nhưng hai vợ chồng rất thương yêu nhau.",
+        "Một hôm chồng đi cày vắng, ở nhà vợ quét dọn khắp nơi.",
+        "Thấy cái lọ nhỏ treo trên kèo nhà, chị bắc ghế lấy xuống, mở nút ra xem.",
+        "Ngửi thấy mùi thơm, chị tưởng là dầu thơm gội đầu.",
+        "Lát sau, chị nấu nước tắm gội, rồi tiện tay đổ cả lọ ra xức lên tóc, lên người.",
+        "Không ngờ xức xong, chị bỗng trở nên trắng trẻo, xinh đẹp, nhan sắc ít ai sánh kịp.",
+        "Nước thần còn trôi xuống mấy luống hành bên cạnh giếng,",
+        "khiến những cây hành lớn phổng lên lạ thường: củ to bằng cái bình vôi,",
+        "dọc dài bằng cái đòn gánh."
       ],
       "image": {
-        "character": "trang-quynh",
-        "prompt": "Trang Quynh lifts his cone hat and bows with a big grin, the noble lady on the balcony blushes bright red and hides her face behind her fan, a crowd of villagers in the lane laughs together",
-        "seed": 2061931512
+        "character": "co-vo",
+        "prompt": "a Vietnamese farmer's wife with her long black hair freshly washed, now radiant and beautiful, stands by a well holding an empty small bottle, giant spring onions with huge round bulbs grow in the garden bed beside her",
+        "seed": 2789756846
       },
       "video": {
-        "motionPrompt": "Quynh lifts his hat with a sweeping bow, the lady quickly hides behind her fan and hurries inside, the crowd laughs and claps",
-        "seed": 488612574
+        "motionPrompt": "the wife touches her glowing cheek in surprise, the giant onion leaves sway, a soft sparkle fades around her",
+        "seed": 2501336862
       },
       "voice": {}
     },
     {
-      "id": "bai-hoc",
-      "title": "Bài học nhỏ",
+      "id": "buc-tranh",
+      "title": "Bức tranh trên bờ ruộng",
       "narrator": "ke-chuyen",
-      "narration": "Từ hôm ấy, bà chúa bớt hẳn cái tính hay trêu chọc. Mỗi lần định cười chê ai, bà lại nhớ đến tiếng rao ai mua hành tôi, rồi tự đỏ mặt. Còn Quỳnh, bán xong hai thúng hành, đem tiền mua bánh chia cho lũ trẻ trong xóm. Người kinh thành kể cho nhau nghe, ai cũng khen: Trạng Quỳnh khôn thật, chẳng mắng ai một lời mà ai cũng hiểu.",
+      "narration": "Chiều ấy, người chồng đi cày về, nhìn mặt vợ mà ngẩn cả người, cứ ngỡ tiên nữ sa xuống cõi trần. Nếu không nghe tiếng nói, anh chẳng nhận ra vợ mình nữa. Nghe vợ nhắc đến lọ nước thơm, anh mới sực nhớ chuyện chim sẻ đền ơn ba năm về trước. Anh mừng không biết nói sao cho hết, ngắm vợ mãi không chán mắt, rồi kể lại chuyện cũ cho vợ nghe. Từ đó anh cứ quấn quýt bên vợ không rời, việc đồng áng bỏ bê dần. Nhưng ở nhà mãi thì đói, anh đành phải ra đồng. Để đỡ nhớ vợ, anh thuê thợ vẽ hình nàng, mỗi lần đi cày lại treo bức tranh lên một cái cọc ở bờ ruộng để ngắm cho thỏa. Một hôm, anh vừa cày được chừng mươi luống thì con quạ năm xưa từ đâu sà xuống, quắp lấy bức tranh rồi bay vút lên. Anh ở bên kia bờ hò hét đuổi theo, nhưng không kịp nữa. Quạ bay cao, bay xa, loáng một cái đã mất hút.",
       "subtitles": [
-        "Từ hôm ấy, bà chúa bớt hẳn cái tính hay trêu chọc.",
-        "Mỗi lần định cười chê ai, bà lại nhớ đến tiếng rao ai mua hành tôi, rồi tự đỏ mặt.",
-        "Còn Quỳnh, bán xong hai thúng hành, đem tiền mua bánh chia cho lũ trẻ trong xóm.",
-        "Người kinh thành kể cho nhau nghe, ai cũng khen: Trạng Quỳnh khôn thật,",
-        "chẳng mắng ai một lời mà ai cũng hiểu."
+        "Chiều ấy, người chồng đi cày về, nhìn mặt vợ mà ngẩn cả người,",
+        "cứ ngỡ tiên nữ sa xuống cõi trần.",
+        "Nếu không nghe tiếng nói, anh chẳng nhận ra vợ mình nữa.",
+        "Nghe vợ nhắc đến lọ nước thơm, anh mới sực nhớ chuyện chim sẻ đền ơn ba năm về trước.",
+        "Anh mừng không biết nói sao cho hết, ngắm vợ mãi không chán mắt,",
+        "rồi kể lại chuyện cũ cho vợ nghe.",
+        "Từ đó anh cứ quấn quýt bên vợ không rời, việc đồng áng bỏ bê dần.",
+        "Nhưng ở nhà mãi thì đói, anh đành phải ra đồng.",
+        "Để đỡ nhớ vợ, anh thuê thợ vẽ hình nàng,",
+        "mỗi lần đi cày lại treo bức tranh lên một cái cọc ở bờ ruộng để ngắm cho thỏa.",
+        "Một hôm, anh vừa cày được chừng mươi luống thì con quạ năm xưa từ đâu sà xuống,",
+        "quắp lấy bức tranh rồi bay vút lên.",
+        "Anh ở bên kia bờ hò hét đuổi theo, nhưng không kịp nữa.",
+        "Quạ bay cao, bay xa, loáng một cái đã mất hút."
       ],
       "image": {
-        "character": "trang-quynh",
-        "prompt": "Trang Quynh in his brown vendor shirt hands out rice cakes to happy village children under a big tree, empty onion baskets at his feet, in the background the noble lady peeks shyly from her window",
-        "seed": 71880282
+        "character": "anh-nong-dan",
+        "prompt": "a farmer behind a buffalo in a rice field looks up in dismay while a black crow flies off with a small framed portrait of his wife in its claws, a wooden stake stands empty on the field bank",
+        "seed": 3912470192
       },
       "video": {
-        "motionPrompt": "children jump and take the cakes happily, Quynh laughs and pats a child's head, the lady peeks from the window and smiles sheepishly",
-        "seed": 2569690012
+        "motionPrompt": "the crow flaps up into the sky with the portrait, the farmer waves his arms and runs along the bank, the buffalo turns its head",
+        "seed": 2254525338
+      },
+      "voice": {}
+    },
+    {
+      "id": "san-rong",
+      "title": "Bức tranh rơi xuống sân rồng",
+      "narrator": "ke-chuyen",
+      "narration": "Để trả thù cái hôm bị ném đá giành mồi, con quạ mang bức tranh bay thẳng vào kinh đô, thả xuống giữa sân rồng. Bọn lính thị vệ thấy chuyện lạ, nhặt lên đem dâng vua. Cầm bức tranh truyền thần, nhà vua ngắm mãi không chán mắt, bụng bảo dạ: Trong ba cung sáu viện của ta đã có nhiều người đẹp, nhưng chưa có ai đẹp bằng người trong tranh này. Chắc là trời sai quạ đến mách cho ta đây! Lập tức vua ra lệnh cho một quan đại thần cùng một trăm lính thị vệ phải tìm cho bằng được người đàn bà ấy mang về. Quan đại thần cho người đi khắp các vùng, sục sạo từng hang cùng ngõ hẻm. Để việc tìm kiếm có kết quả, bọn chúng bày ra trò mở hội, cho dân đổ về xem. Hễ thấy dân tụ họp đông, chúng đem bức tranh ra, nói là tình cờ nhặt được, ai làm mất thì đến mà nhận.",
+      "subtitles": [
+        "Để trả thù cái hôm bị ném đá giành mồi, con quạ mang bức tranh bay thẳng vào kinh đô,",
+        "thả xuống giữa sân rồng.",
+        "Bọn lính thị vệ thấy chuyện lạ, nhặt lên đem dâng vua.",
+        "Cầm bức tranh truyền thần, nhà vua ngắm mãi không chán mắt,",
+        "bụng bảo dạ: Trong ba cung sáu viện của ta đã có nhiều người đẹp,",
+        "nhưng chưa có ai đẹp bằng người trong tranh này.",
+        "Chắc là trời sai quạ đến mách cho ta đây!",
+        "Lập tức vua ra lệnh cho một quan đại thần cùng một trăm lính thị vệ phải tìm cho bằng",
+        "được người đàn bà ấy mang về.",
+        "Quan đại thần cho người đi khắp các vùng, sục sạo từng hang cùng ngõ hẻm.",
+        "Để việc tìm kiếm có kết quả, bọn chúng bày ra trò mở hội, cho dân đổ về xem.",
+        "Hễ thấy dân tụ họp đông, chúng đem bức tranh ra, nói là tình cờ nhặt được,",
+        "ai làm mất thì đến mà nhận."
+      ],
+      "image": {
+        "character": "vua",
+        "prompt": "an old Vietnamese king in a golden dragon robe sits on his throne holding a small portrait and gazing at it, courtiers and guards in red bow around him in a grand palace hall",
+        "seed": 1148100001
+      },
+      "video": {
+        "motionPrompt": "the king turns the portrait in his hands with a greedy smile, the guards bow low, lantern light flickers",
+        "seed": 1148100002
+      },
+      "voice": {}
+    },
+    {
+      "id": "bat-vo",
+      "title": "Mưu của quan đại thần",
+      "narrator": "ke-chuyen",
+      "narration": "Một hôm, bọn chúng đến đúng vùng quê của hai vợ chồng anh, cũng bày ra hội vui ba đêm ngày. Anh chàng nông dân thật thà sa ngay vào mưu gian. Vừa thấy bức tranh, anh không nghĩ ngợi gì, vội vàng bước tới nhận là của mình. Bọn lính liền chộp lấy anh như chộp một con mồi. Chúng theo anh về nhà, tìm thấy ngay người đàn bà trong tranh. Mừng quá, chúng vội đưa kiệu rước nàng về kinh đô, mặc cho người chồng vật mình khóc than ở lại.",
+      "subtitles": [
+        "Một hôm, bọn chúng đến đúng vùng quê của hai vợ chồng anh,",
+        "cũng bày ra hội vui ba đêm ngày.",
+        "Anh chàng nông dân thật thà sa ngay vào mưu gian.",
+        "Vừa thấy bức tranh, anh không nghĩ ngợi gì, vội vàng bước tới nhận là của mình.",
+        "Bọn lính liền chộp lấy anh như chộp một con mồi.",
+        "Chúng theo anh về nhà, tìm thấy ngay người đàn bà trong tranh.",
+        "Mừng quá, chúng vội đưa kiệu rước nàng về kinh đô,",
+        "mặc cho người chồng vật mình khóc than ở lại."
+      ],
+      "image": {
+        "character": "anh-nong-dan",
+        "prompt": "palace guards in red tunics seize a farmer at a village festival with lanterns, a wife is carried away in a palanquin in the distance, the farmer reaches out with a sad face",
+        "seed": 1148100003
+      },
+      "video": {
+        "motionPrompt": "the guards drag the farmer along, the palanquin sways away down the lane, the farmer falls to his knees",
+        "seed": 1148100004
+      },
+      "voice": {}
+    },
+    {
+      "id": "nang-khong-cuoi",
+      "title": "Nàng không cười, không nói",
+      "narrator": "ke-chuyen",
+      "narration": "Vào đến cung, người đàn bà không cười, không nói, áo đẹp không mặc, đầu không chải, và không cho một ai lại gần. Nhà vua đón được người đẹp về thì mừng rỡ vô cùng, nhưng cũng buồn phiền vô cùng, vì dù dỗ dành hay dọa nạt, cũng không làm cho nàng nở một nụ cười hay thốt nên một tiếng. Vua bèn cho rao khắp trong dân: hễ ai có cách làm cho nàng cười nói được thì sẽ được ban thưởng, làm quan cao, hưởng lộc hậu. Nghe tin, người người đua nhau kéo về kinh: nào những vai hề nổi tiếng, nào các ông trạng hay pha trò, nào thầy thuốc giỏi, nào pháp sư phù thủy. Ai nấy đều hy vọng dùng tài riêng làm cho người đẹp phải buột miệng cười nói để nhận ơn vua. Nhưng giở đủ mọi trò, họ đều chịu thua.",
+      "subtitles": [
+        "Vào đến cung, người đàn bà không cười, không nói, áo đẹp không mặc, đầu không chải,",
+        "và không cho một ai lại gần.",
+        "Nhà vua đón được người đẹp về thì mừng rỡ vô cùng, nhưng cũng buồn phiền vô cùng,",
+        "vì dù dỗ dành hay dọa nạt, cũng không làm cho nàng nở một nụ cười hay thốt nên một tiếng.",
+        "Vua bèn cho rao khắp trong dân: hễ ai có cách làm cho nàng cười nói được thì sẽ được ban",
+        "thưởng, làm quan cao, hưởng lộc hậu.",
+        "Nghe tin, người người đua nhau kéo về kinh: nào những vai hề nổi tiếng,",
+        "nào các ông trạng hay pha trò, nào thầy thuốc giỏi, nào pháp sư phù thủy.",
+        "Ai nấy đều hy vọng dùng tài riêng làm cho người đẹp phải buột miệng cười nói để nhận ơn",
+        "vua.",
+        "Nhưng giở đủ mọi trò, họ đều chịu thua."
+      ],
+      "image": {
+        "character": "co-vo",
+        "prompt": "the beautiful wife sits silent and sad in a palace chamber, untouched silk robes and a comb beside her, jesters, healers and magicians in colorful costumes try to amuse her in vain",
+        "seed": 1148100005
+      },
+      "video": {
+        "motionPrompt": "the jesters jump and tumble while the wife stays still and looks away, incense smoke curls up",
+        "seed": 1148100006
+      },
+      "voice": {}
+    },
+    {
+      "id": "anh-vao-kinh",
+      "title": "Gánh hành vào kinh",
+      "narrator": "ke-chuyen",
+      "narration": "Còn người chồng, từ ngày vợ bị bắt đi thì chẳng còn thiết làm ăn gì nữa. Khi nghe tin vua rao ai làm cho người đẹp trong cung cười nói được sẽ có thưởng, anh biết ngay đó là vợ mình, bèn quyết vào kinh tìm nàng. Trước khi đi, anh nhổ mấy củ hành ở cạnh giếng, buộc thành một gánh, quẩy trên vai. Đến kinh đô, anh gánh hành đi đi lại lại trước cửa hoàng cung, rao thật to: Dọc bằng đòn gánh, củ bằng bình vôi, ai mua hành tôi, thì thương tôi với! Tiếng rao của anh vọng vào cung, mỗi lúc một lớn. Nét mặt người vợ trong cung tự nhiên cũng mỗi lúc một tươi lên. Cuối cùng, nàng quay lại bảo thị nữ: Hãy gọi người bán hành vào cho ta! Vừa nhìn thấy mặt chồng, nàng bật cười lên một tiếng.",
+      "subtitles": [
+        "Còn người chồng, từ ngày vợ bị bắt đi thì chẳng còn thiết làm ăn gì nữa.",
+        "Khi nghe tin vua rao ai làm cho người đẹp trong cung cười nói được sẽ có thưởng,",
+        "anh biết ngay đó là vợ mình, bèn quyết vào kinh tìm nàng.",
+        "Trước khi đi, anh nhổ mấy củ hành ở cạnh giếng, buộc thành một gánh, quẩy trên vai.",
+        "Đến kinh đô, anh gánh hành đi đi lại lại trước cửa hoàng cung,",
+        "rao thật to: Dọc bằng đòn gánh, củ bằng bình vôi, ai mua hành tôi, thì thương tôi với!",
+        "Tiếng rao của anh vọng vào cung, mỗi lúc một lớn.",
+        "Nét mặt người vợ trong cung tự nhiên cũng mỗi lúc một tươi lên.",
+        "Cuối cùng, nàng quay lại bảo thị nữ: Hãy gọi người bán hành vào cho ta!",
+        "Vừa nhìn thấy mặt chồng, nàng bật cười lên một tiếng."
+      ],
+      "image": {
+        "character": "anh-nong-dan",
+        "prompt": "the farmer in a cone hat carries a bamboo pole with two baskets of enormous green spring onions with bulbs as big as vases, calling out before the golden gate of a royal palace",
+        "seed": 1148100007
+      },
+      "video": {
+        "motionPrompt": "the farmer walks along the palace wall with the pole bouncing, cups his hand to his mouth and calls out, passersby stare at the giant onions",
+        "seed": 1148100008
+      },
+      "voice": {}
+    },
+    {
+      "id": "vua-ban-hanh",
+      "title": "Nhà vua gánh hành",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy người đẹp lần đầu tiên cười, nhà vua sung sướng như mở cờ trong bụng. Lại thấy những cây hành to lớn lạ thường, vua kinh ngạc, ngỡ rằng nhờ những cây hành kỳ lạ này mà người đẹp mới cười nói được. Vua liền nảy ra ý định tự mình cải trang đi gánh hành để làm vui lòng nàng. Vua bảo anh chồng: Hãy đặt gánh hành xuống đó và cởi áo ra mau! Rồi vua cởi áo long bào ném cho anh, mặc áo của anh vào, còn bắt anh dạy cho mình thuộc câu rao. Nhà vua quẩy gánh hành đi qua đi lại trước mặt người đàn bà, cất tiếng rao mới học được. Thấy vậy, nàng cười ngặt nghẽo. Vua thích chí, càng làm già.",
+      "subtitles": [
+        "Thấy người đẹp lần đầu tiên cười, nhà vua sung sướng như mở cờ trong bụng.",
+        "Lại thấy những cây hành to lớn lạ thường, vua kinh ngạc,",
+        "ngỡ rằng nhờ những cây hành kỳ lạ này mà người đẹp mới cười nói được.",
+        "Vua liền nảy ra ý định tự mình cải trang đi gánh hành để làm vui lòng nàng.",
+        "Vua bảo anh chồng: Hãy đặt gánh hành xuống đó và cởi áo ra mau!",
+        "Rồi vua cởi áo long bào ném cho anh, mặc áo của anh vào,",
+        "còn bắt anh dạy cho mình thuộc câu rao.",
+        "Nhà vua quẩy gánh hành đi qua đi lại trước mặt người đàn bà, cất tiếng rao mới học được.",
+        "Thấy vậy, nàng cười ngặt nghẽo.",
+        "Vua thích chí, càng làm già."
+      ],
+      "image": {
+        "character": "vua",
+        "prompt": "the king in a plain farmer's shirt and cone hat clumsily carries the bamboo pole with giant spring onions across a palace courtyard, the lovely wife laughs behind a window while the farmer in a golden robe stands aside",
+        "seed": 1148100009
+      },
+      "video": {
+        "motionPrompt": "the king struts with the pole swaying and calls out comically, the wife laughs with her hand over her mouth, courtiers stare",
+        "seed": 1148100010
+      },
+      "voice": {}
+    },
+    {
+      "id": "ngai-vang",
+      "title": "Anh nông dân lên ngôi",
+      "narrator": "ke-chuyen",
+      "narration": "Nhưng đột nhiên người đàn bà bảo thị nữ thả đàn chó ra. Đàn chó thấy một người lạ mặc áo nông dân thì nhảy xổ tới, vồ lấy nhà vua cải trang, và nhà vua chẳng còn trở lại ngai vàng được nữa. Người đàn bà vội bảo chồng: Mình hãy mau mau trèo lên ngai vàng đi! Anh chồng lật đật trèo lên ngai vàng, giữa lúc trăm quan và cung nữ đồng loạt rập đầu bái lạy. Từ đó anh làm vua, ở bên vợ cho đến trọn đời.",
+      "subtitles": [
+        "Nhưng đột nhiên người đàn bà bảo thị nữ thả đàn chó ra.",
+        "Đàn chó thấy một người lạ mặc áo nông dân thì nhảy xổ tới, vồ lấy nhà vua cải trang,",
+        "và nhà vua chẳng còn trở lại ngai vàng được nữa.",
+        "Người đàn bà vội bảo chồng: Mình hãy mau mau trèo lên ngai vàng đi!",
+        "Anh chồng lật đật trèo lên ngai vàng,",
+        "giữa lúc trăm quan và cung nữ đồng loạt rập đầu bái lạy.",
+        "Từ đó anh làm vua, ở bên vợ cho đến trọn đời."
+      ],
+      "image": {
+        "character": "anh-nong-dan",
+        "prompt": "the farmer in a golden dragon robe sits on the throne beside his radiant wife, hundreds of courtiers and maids bow with foreheads to the floor in a bright palace hall",
+        "seed": 1148100011
+      },
+      "video": {
+        "motionPrompt": "the courtiers bow in waves, the new king and his wife smile at each other, golden light shimmers across the hall",
+        "seed": 1148100012
       },
       "voice": {}
     },
@@ -188,23 +368,23 @@
       "id": "ket-thuc",
       "title": "Mèo Miu chào tạm biệt",
       "narrator": "miu",
-      "narration": "Các bạn thấy không, bà chúa thích trêu chọc người khác, nên cuối cùng lại tự làm mình bẽ mặt. Trạng Quỳnh thì chẳng cần cãi nhau, chỉ một câu rao thật khéo là đủ. Mình chơi với bạn bè, đừng trêu chọc làm bạn buồn, mà nếu bị trêu thì cứ bình tĩnh, nghĩ ra cách thật khéo nhé! Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "narration": "Câu chuyện đến đây là hết rồi. Các bạn thấy không, chỉ vì anh nông dân thương một chú chim sẻ nhỏ mà về sau chú chim đã đền ơn bằng một lọ nước thần. Còn tiếng rao ai mua hành tôi thì cứ vang mãi trong chuyện cổ. Miu kể đến đây thôi. Chào các bạn nhé, hẹn gặp lại!",
       "subtitles": [
-        "Các bạn thấy không, bà chúa thích trêu chọc người khác,",
-        "nên cuối cùng lại tự làm mình bẽ mặt.",
-        "Trạng Quỳnh thì chẳng cần cãi nhau, chỉ một câu rao thật khéo là đủ.",
-        "Mình chơi với bạn bè, đừng trêu chọc làm bạn buồn, mà nếu bị trêu thì cứ bình tĩnh,",
-        "nghĩ ra cách thật khéo nhé!",
-        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+        "Câu chuyện đến đây là hết rồi.",
+        "Các bạn thấy không, chỉ vì anh nông dân thương một chú chim sẻ nhỏ mà về sau chú chim đã",
+        "đền ơn bằng một lọ nước thần.",
+        "Còn tiếng rao ai mua hành tôi thì cứ vang mãi trong chuyện cổ.",
+        "Miu kể đến đây thôi.",
+        "Chào các bạn nhé, hẹn gặp lại!"
       ],
       "image": {
         "character": "miu",
-        "prompt": "Meo Miu the voxel white cat waves goodbye holding a bunch of spring onions, Trang Quynh with his shoulder pole smiles beside her, village children wave too, warm afternoon light",
-        "seed": 3820893106
+        "prompt": "Meo Miu the voxel white cat waves goodbye holding a giant spring onion, a small sparrow perches on her shoulder, warm afternoon light in a sunny yard",
+        "seed": 1148100013
       },
       "video": {
-        "motionPrompt": "the cat waves the spring onions like a flag, Quynh bows playfully, the children wave, gentle camera pull-back",
-        "seed": 1649296440
+        "motionPrompt": "the cat waves the giant onion like a flag, the sparrow hops on her shoulder, gentle camera pull-back",
+        "seed": 1148100014
       },
       "voice": {}
     }
