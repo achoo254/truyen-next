@@ -9,8 +9,9 @@
     "than-thoai"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-17",
   "language": "vi",
-  "source": "Truyện dân gian Việt Nam về tục dựng cây nêu ngày Tết, thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách hay bản kể nào. Bản cho trẻ nhỏ: lũ quỷ được kể vui nhộn, chỉ bị đẩy ra biển, không có cảnh đánh nhau.",
+  "source": "Truyện dân gian Việt Nam về tục dựng cây nêu ngày Tết (theo tóm tắt của Nguyễn Đổng Chi trong Kho tàng truyện cổ tích Việt Nam, đối chiếu thêm bản đăng trên Wikipedia tiếng Việt và mytour.vn), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của bản nào. Bản cho trẻ nhỏ: lũ quỷ được kể vui nhộn, chỉ bị đẩy ra biển, bỏ chi tiết máu chó.",
   "basedOn": "Truyện dân gian Việt Nam",
   "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, calm and safe mood for young children, old Vietnamese countryside with rice fields, sweet potato fields, bamboo groves and thatched houses, Tet atmosphere with tall bamboo neu poles hung with clay chimes, no text, no letters, no watermark",
   "narrators": {
@@ -55,18 +56,17 @@
       "id": "mo-dau",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Tết sắp đến rồi! Các bạn có biết, ở làng quê ngày xưa, trước sân nhà người ta dựng một cây tre cao vút, trên ngọn treo khánh đất kêu leng keng không? Đó là cây nêu ngày Tết đấy. Vì sao lại dựng cây nêu? Mèo Miu kể các bạn nghe nhé!",
+      "narration": "Xin chào các bạn nhỏ! Tết sắp đến rồi! Các bạn có biết, ở làng quê ngày xưa, trước sân nhà người ta dựng một cây tre cao vút, trên ngọn treo khánh đất kêu leng keng không? Đó là cây nêu ngày Tết đấy. Vì sao lại dựng cây nêu? Chuyện này khá dài, Mèo Miu kể các bạn nghe nhé!",
       "subtitles": [
         "Xin chào các bạn nhỏ! Tết sắp đến rồi!",
         "Các bạn có biết, ở làng quê ngày xưa, trước sân nhà người ta dựng một cây tre cao vút,",
-        "trên ngọn treo khánh đất kêu leng keng không?",
-        "Đó là cây nêu ngày Tết đấy. Vì sao lại dựng cây nêu?",
-        "Mèo Miu kể các bạn nghe nhé!"
+        "trên ngọn treo khánh đất kêu leng keng không? Đó là cây nêu ngày Tết đấy.",
+        "Vì sao lại dựng cây nêu? Chuyện này khá dài, Mèo Miu kể các bạn nghe nhé!"
       ],
       "image": {
+        "character": "miu",
         "prompt": "Meo Miu the voxel white cat stands in a Vietnamese village yard at Tet, pointing up at a very tall bamboo pole with small clay chimes, a little red cloth and leaves at the top, peach blossoms around",
-        "seed": 1753333739,
-        "character": "miu"
+        "seed": 1753333739
       },
       "video": {
         "motionPrompt": "the cat points upward, the clay chimes swing and the top of the pole sways in the breeze, slow camera tilt up",
@@ -76,19 +76,22 @@
     },
     {
       "id": "lu-quy-tham-lam",
-      "title": "Lũ quỷ tham lam",
+      "title": "Lũ quỷ chiếm hết đất",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, đất đai đều bị lũ quỷ chiếm hết. Người phải thuê ruộng của quỷ để cày cấy. Lũ quỷ tham lam lắm. Đến mùa, chúng đòi lấy phần nhiều nhất, chỉ để lại cho người chút ít. Người nông dân làm lụng vất vả quanh năm mà vẫn đói, vẫn khổ, chẳng biết kêu ai.",
+      "narration": "Ngày xưa, lũ quỷ chiếm hết đất đai trong nước, còn con người chỉ biết đi làm thuê, cày cấy ruộng cho quỷ, rồi nộp phần lớn lúa thu hoạch cho chúng. Lũ quỷ ngày càng tham lam, bóc lột người quá tay. Cuối cùng, quỷ tự cho mình cái quyền ăn ngọn cho gốc, nghĩa là quỷ lấy phần ngọn, còn người chỉ được phần gốc. Lúa thì ngọn là bông lúa, còn gốc chỉ là rạ, nên người chỉ được ôm về những gốc rạ khô, đến đường sống cũng gần như hết. Người đành cầu cứu đức Bụt.",
       "subtitles": [
-        "Ngày xưa, đất đai đều bị lũ quỷ chiếm hết.",
-        "Người phải thuê ruộng của quỷ để cày cấy. Lũ quỷ tham lam lắm.",
-        "Đến mùa, chúng đòi lấy phần nhiều nhất, chỉ để lại cho người chút ít.",
-        "Người nông dân làm lụng vất vả quanh năm mà vẫn đói, vẫn khổ, chẳng biết kêu ai."
+        "Ngày xưa, lũ quỷ chiếm hết đất đai trong nước, còn con người chỉ biết đi làm thuê,",
+        "cày cấy ruộng cho quỷ, rồi nộp phần lớn lúa thu hoạch cho chúng.",
+        "Lũ quỷ ngày càng tham lam, bóc lột người quá tay.",
+        "Cuối cùng, quỷ tự cho mình cái quyền ăn ngọn cho gốc, nghĩa là quỷ lấy phần ngọn,",
+        "còn người chỉ được phần gốc.",
+        "Lúa thì ngọn là bông lúa, còn gốc chỉ là rạ, nên người chỉ được ôm về những gốc rạ khô,",
+        "đến đường sống cũng gần như hết. Người đành cầu cứu đức Bụt."
       ],
       "image": {
+        "character": "lu-quy",
         "prompt": "a field at harvest time, a group of silly greedy goblins carry away almost all the baskets of crops, leaving one small basket to a tired farmer couple who look sad",
-        "seed": 945272649,
-        "character": "lu-quy"
+        "seed": 945272649
       },
       "video": {
         "motionPrompt": "the goblins waddle off with heaps of baskets, one drops a basket and scrambles to pick it up, the farmers sigh",
@@ -98,21 +101,21 @@
     },
     {
       "id": "trong-khoai",
-      "title": "Mẹo trồng khoai",
+      "title": "Năm trồng khoai lang",
       "narrator": "ke-chuyen",
-      "narration": "Bụt thương người, hiện lên bảo: Năm nay các con trồng khoai, rồi giao với quỷ là chúng lấy phần ngọn, các con lấy phần gốc. Lũ quỷ nghĩ ngọn ở trên thì phải ngon hơn, liền gật đầu ngay. Đến mùa, quỷ chỉ được một đống lá khoai, còn người đào lên những củ khoai to tròn, ngọt bùi. Lũ quỷ tức lắm, năm sau đòi lấy phần gốc.",
+      "narration": "Bụt thương người, hiện lên bảo: Các con đừng trồng lúa nữa, hãy trồng khoai lang. Người nghe theo, đem khoai lang ra trồng khắp ruộng. Đến mùa thu hoạch, người được hưởng không biết bao nhiêu là củ khoai, to tròn, ngọt bùi, vì củ nằm ở dưới gốc. Còn quỷ, theo đúng quy định ăn ngọn cho gốc, chỉ được lá khoai và dây khoai, chẳng ăn được gì. Lũ quỷ tức lắm.",
       "subtitles": [
-        "Bụt thương người, hiện lên bảo: Năm nay các con trồng khoai,",
-        "rồi giao với quỷ là chúng lấy phần ngọn, các con lấy phần gốc.",
-        "Lũ quỷ nghĩ ngọn ở trên thì phải ngon hơn, liền gật đầu ngay.",
-        "Đến mùa, quỷ chỉ được một đống lá khoai,",
-        "còn người đào lên những củ khoai to tròn, ngọt bùi.",
-        "Lũ quỷ tức lắm, năm sau đòi lấy phần gốc."
+        "Bụt thương người, hiện lên bảo: Các con đừng trồng lúa nữa, hãy trồng khoai lang.",
+        "Người nghe theo, đem khoai lang ra trồng khắp ruộng.",
+        "Đến mùa thu hoạch, người được hưởng không biết bao nhiêu là củ khoai, to tròn, ngọt bùi,",
+        "vì củ nằm ở dưới gốc.",
+        "Còn quỷ, theo đúng quy định ăn ngọn cho gốc, chỉ được lá khoai và dây khoai,",
+        "chẳng ăn được gì. Lũ quỷ tức lắm."
       ],
       "image": {
+        "character": "nong-dan",
         "prompt": "a sweet potato field, the farmer couple happily dig up big round purple sweet potatoes, while the goblins hold armfuls of leaves with puzzled cross faces, kind But smiles at the edge of the field",
-        "seed": 2393678324,
-        "character": "nong-dan"
+        "seed": 2393678324
       },
       "video": {
         "motionPrompt": "the farmers pull up the potatoes and laugh, a goblin chews a leaf and makes a sour face, But strokes his beard",
@@ -122,20 +125,20 @@
     },
     {
       "id": "trong-lua",
-      "title": "Mẹo trồng lúa",
+      "title": "Năm trồng lúa",
       "narrator": "ke-chuyen",
-      "narration": "Bụt lại bảo: Năm nay các con trồng lúa. Đến mùa, lúa chín vàng, người cắt những bông lúa trĩu hạt đem về, còn quỷ chỉ được gốc rạ khô. Lũ quỷ giận dỗi, bèn lấy lại hết ruộng đất, không cho người thuê nữa. Người nông dân lo lắng, không biết lấy đâu ra đất mà trồng cấy.",
+      "narration": "Sang mùa sau, lũ quỷ đổi cách chia, tuyên bố ăn gốc cho ngọn, nghĩa là quỷ lấy gốc, người lấy ngọn. Bụt lại bảo người trồng lúa. Đến mùa gặt, lúa chín vàng, người cắt những bông lúa trĩu hạt đem về, còn quỷ chỉ được những gốc rạ khô. Kết quả là quỷ lại một lần nữa hỏng ăn. Quỷ tức lộn ruột, liền đổi luật, tuyên bố từ nay ăn cả gốc lẫn ngọn.",
       "subtitles": [
-        "Bụt lại bảo: Năm nay các con trồng lúa.",
-        "Đến mùa, lúa chín vàng, người cắt những bông lúa trĩu hạt đem về,",
-        "còn quỷ chỉ được gốc rạ khô.",
-        "Lũ quỷ giận dỗi, bèn lấy lại hết ruộng đất, không cho người thuê nữa.",
-        "Người nông dân lo lắng, không biết lấy đâu ra đất mà trồng cấy."
+        "Sang mùa sau, lũ quỷ đổi cách chia, tuyên bố ăn gốc cho ngọn, nghĩa là quỷ lấy gốc,",
+        "người lấy ngọn. Bụt lại bảo người trồng lúa.",
+        "Đến mùa gặt, lúa chín vàng, người cắt những bông lúa trĩu hạt đem về,",
+        "còn quỷ chỉ được những gốc rạ khô. Kết quả là quỷ lại một lần nữa hỏng ăn.",
+        "Quỷ tức lộn ruột, liền đổi luật, tuyên bố từ nay ăn cả gốc lẫn ngọn."
       ],
       "image": {
+        "character": "nong-dan",
         "prompt": "a golden rice field at harvest, the farmers carry bundles of heavy rice ears on shoulder poles, the goblins sit on a pile of dry stubble stomping their feet in anger",
-        "seed": 3474034636,
-        "character": "nong-dan"
+        "seed": 3474034636
       },
       "video": {
         "motionPrompt": "rice stalks sway in golden light, the farmers walk away smiling with full loads, the goblins stomp and puff out their cheeks",
@@ -144,23 +147,44 @@
       "voice": {}
     },
     {
-      "id": "ao-ca-sa",
-      "title": "Chiếc áo cà sa",
+      "id": "trong-ngo",
+      "title": "Năm trồng ngô",
       "narrator": "ke-chuyen",
-      "narration": "Bụt bảo: Đừng lo. Các con hỏi quỷ mua một mảnh đất nhỏ thôi, vừa bằng bóng chiếc áo cà sa treo trên ngọn tre. Lũ quỷ nghĩ áo bé tí, liền đồng ý. Người dựng một cây tre cao, treo áo cà sa của Bụt lên ngọn. Bụt làm phép, chiếc áo xòe rộng ra mãi, bóng áo phủ kín khắp nơi, đến đâu lũ quỷ phải lùi đến đấy.",
+      "narration": "Nghe tin ấy, Bụt trao cho người giống cây ngô, bảo gieo khắp nơi. Cây ngô mọc lên cao, kết bắp, bắp nằm giữa thân, chẳng phải ngọn cũng chẳng phải gốc. Đến mùa, quỷ lại chẳng được gì, còn người thu hoạch cơ man là bắp ngô. Quỷ giận dữ. Cuối cùng, chúng nhất định bắt người phải trả lại hết ruộng đất, không cho làm rẽ nữa.",
       "subtitles": [
-        "Bụt bảo: Đừng lo.",
-        "Các con hỏi quỷ mua một mảnh đất nhỏ thôi,",
-        "vừa bằng bóng chiếc áo cà sa treo trên ngọn tre.",
-        "Lũ quỷ nghĩ áo bé tí, liền đồng ý.",
-        "Người dựng một cây tre cao, treo áo cà sa của Bụt lên ngọn.",
-        "Bụt làm phép, chiếc áo xòe rộng ra mãi,",
-        "bóng áo phủ kín khắp nơi, đến đâu lũ quỷ phải lùi đến đấy."
+        "Nghe tin ấy, Bụt trao cho người giống cây ngô, bảo gieo khắp nơi.",
+        "Cây ngô mọc lên cao, kết bắp, bắp nằm giữa thân, chẳng phải ngọn cũng chẳng phải gốc.",
+        "Đến mùa, quỷ lại chẳng được gì, còn người thu hoạch cơ man là bắp ngô. Quỷ giận dữ.",
+        "Cuối cùng, chúng nhất định bắt người phải trả lại hết ruộng đất, không cho làm rẽ nữa."
       ],
       "image": {
+        "character": "nong-dan",
+        "prompt": "a field of tall green corn plants with ripe yellow cobs, happy farmers carry baskets of corn while a gentle old Buddha figure in a plain robe smiles, warm harvest light, Vietnamese picture-book style",
+        "seed": 552545746
+      },
+      "video": {
+        "motionPrompt": "the farmers carry corn baskets, the Buddha figure smiles, corn leaves sway",
+        "seed": 2296039581
+      },
+      "voice": {}
+    },
+    {
+      "id": "ao-ca-sa",
+      "title": "Mảnh đất bằng bóng áo cà sa",
+      "narrator": "ke-chuyen",
+      "narration": "Thấy người lại mất hết ruộng đất, Bụt bàn với tên quỷ đầu đàn, xin một miếng đất thôi, chỉ rộng bằng cái bóng của chiếc áo cà sa treo trên ngọn cây tre. Quỷ nghĩ một chiếc áo thì được bao nhiêu, mình chẳng thiệt hại gì, nên đồng ý ngay. Người trồng một cây tre cao, Bụt treo áo cà sa lên ngọn. Rồi Bụt làm phép, chiếc áo xòe rộng ra mãi, bóng áo che phủ toàn bộ đất đai. Quỷ mất đất, phải chạy ra biển Đông.",
+      "subtitles": [
+        "Thấy người lại mất hết ruộng đất, Bụt bàn với tên quỷ đầu đàn, xin một miếng đất thôi,",
+        "chỉ rộng bằng cái bóng của chiếc áo cà sa treo trên ngọn cây tre.",
+        "Quỷ nghĩ một chiếc áo thì được bao nhiêu, mình chẳng thiệt hại gì, nên đồng ý ngay.",
+        "Người trồng một cây tre cao, Bụt treo áo cà sa lên ngọn.",
+        "Rồi Bụt làm phép, chiếc áo xòe rộng ra mãi, bóng áo che phủ toàn bộ đất đai.",
+        "Quỷ mất đất, phải chạy ra biển Đông."
+      ],
+      "image": {
+        "character": "but",
         "prompt": "magic moment, a tall bamboo pole stands in the middle of the fields with a saffron robe at the top spreading wider and wider across the sky, its big gentle shadow covering the land, the goblins step backwards in surprise",
-        "seed": 641529904,
-        "character": "but"
+        "seed": 641529904
       },
       "video": {
         "motionPrompt": "the saffron robe unfolds and grows across the sky, the soft shadow spreads over the fields, the goblins shuffle backwards",
@@ -169,45 +193,63 @@
       "voice": {}
     },
     {
-      "id": "quy-ra-bien",
-      "title": "Lũ quỷ ra biển",
+      "id": "quy-danh-lai",
+      "title": "Lũ quỷ kéo quân quay lại",
       "narrator": "ke-chuyen",
-      "narration": "Lũ quỷ lùi mãi, lùi mãi, cuối cùng phải ra tận ngoài biển Đông. Chúng còn tức, kéo nhau quay lại đòi đất, nhưng Bụt dạy người rắc vôi bột, treo lá dứa, buộc tỏi trước cửa. Lũ quỷ sợ quá lại chạy mất. Chúng xin mỗi năm được vào đất liền vài ngày Tết để thăm quê cũ. Bụt thương tình cho phép.",
+      "narration": "Mất đất sống, lũ quỷ không cam lòng, bèn huy động quân kéo vào cướp lại. Nhưng bên người đã có sẵn những thứ mà quỷ sợ: lá dứa, tỏi và vôi bột. Người dùng những thứ ấy đánh trả. Lũ quỷ bị thua, lại bị Bụt đày ra biển Đông.",
       "subtitles": [
-        "Lũ quỷ lùi mãi, lùi mãi, cuối cùng phải ra tận ngoài biển Đông.",
-        "Chúng còn tức, kéo nhau quay lại đòi đất,",
-        "nhưng Bụt dạy người rắc vôi bột, treo lá dứa, buộc tỏi trước cửa.",
-        "Lũ quỷ sợ quá lại chạy mất.",
-        "Chúng xin mỗi năm được vào đất liền vài ngày Tết để thăm quê cũ.",
-        "Bụt thương tình cho phép."
+        "Mất đất sống, lũ quỷ không cam lòng, bèn huy động quân kéo vào cướp lại.",
+        "Nhưng bên người đã có sẵn những thứ mà quỷ sợ: lá dứa, tỏi và vôi bột.",
+        "Người dùng những thứ ấy đánh trả. Lũ quỷ bị thua, lại bị Bụt đày ra biển Đông."
       ],
       "image": {
-        "prompt": "the goblins stand sulking on a sandy beach by the blue sea, while at the village edge farmers sprinkle white lime powder on the ground and hang pineapple leaves and garlic at the gate",
-        "seed": 2978559249,
-        "character": "lu-quy"
+        "character": "lu-quy",
+        "prompt": "a crowd of silly cartoon goblins hesitate at a village gate that is dusted with white lime powder and hung with pineapple leaves and garlic, they hold their noses and tumble backward, humorous kid-safe",
+        "seed": 2535092295
       },
       "video": {
-        "motionPrompt": "waves roll in, the goblins kick the sand grumpily and then bow to ask permission, farmers scatter white powder like snow",
+        "motionPrompt": "the goblins sneeze and wave their hands, tumble back, white powder drifts",
+        "seed": 2945890406
+      },
+      "voice": {}
+    },
+    {
+      "id": "quy-ra-bien",
+      "title": "Quỷ xin về thăm mộ",
+      "narrator": "ke-chuyen",
+      "narration": "Trước khi đi, lũ quỷ nài nỉ xin Bụt thương tình cho mỗi năm được vài ba ngày vào đất liền, để thăm phần mộ của ông cha tổ tiên. Bụt thương hại, bèn hứa cho.",
+      "subtitles": [
+        "Trước khi đi, lũ quỷ nài nỉ xin Bụt thương tình cho mỗi năm được vài ba ngày vào đất liền,",
+        "để thăm phần mộ của ông cha tổ tiên. Bụt thương hại, bèn hứa cho."
+      ],
+      "image": {
+        "character": "lu-quy",
+        "prompt": "small cartoon goblins stand sadly on the seashore at dusk bowing to a gentle robed Buddha, asking permission, calm waves behind them",
+        "seed": 2978559249
+      },
+      "video": {
+        "motionPrompt": "the goblins bow, the Buddha nods kindly, waves roll in slowly",
         "seed": 3149473284
       },
       "voice": {}
     },
     {
       "id": "dung-neu",
-      "title": "Dựng nêu ngày Tết",
+      "title": "Vì sao dựng cây nêu",
       "narrator": "ke-chuyen",
-      "narration": "Từ đó, cứ đến Tết, người ta lại dựng cây nêu trước nhà. Trên ngọn treo khánh đất, chuông gió kêu leng keng, để báo cho quỷ biết đây là đất của người, không được bén mảng. Người ta còn rắc vôi bột trước sân thành hình cung tên. Cây nêu đứng đó suốt những ngày Tết, giữ cho nhà nhà bình yên.",
+      "narration": "Do đó, hàng năm cứ vào dịp Tết Nguyên đán, những ngày quỷ được vào thăm đất liền, người ta theo tục cũ dựng cây nêu trước nhà, để quỷ không bén mảng đến chỗ người ở. Trên cây nêu có treo khánh đất, gió rung thì phát ra tiếng leng keng, nhắc quỷ nghe mà tránh. Trên ngọn còn buộc một bó lá dứa hoặc cành đa mỏ hái để quỷ sợ. Ngoài ra, người ta còn vẽ hình cung tên, mũi nhọn hướng về phía đông, và rắc vôi bột trước cửa ra vào trong những ngày Tết, để cấm cửa lũ quỷ.",
       "subtitles": [
-        "Từ đó, cứ đến Tết, người ta lại dựng cây nêu trước nhà.",
-        "Trên ngọn treo khánh đất, chuông gió kêu leng keng,",
-        "để báo cho quỷ biết đây là đất của người, không được bén mảng.",
-        "Người ta còn rắc vôi bột trước sân thành hình cung tên.",
-        "Cây nêu đứng đó suốt những ngày Tết, giữ cho nhà nhà bình yên."
+        "Do đó, hàng năm cứ vào dịp Tết Nguyên đán, những ngày quỷ được vào thăm đất liền,",
+        "người ta theo tục cũ dựng cây nêu trước nhà, để quỷ không bén mảng đến chỗ người ở.",
+        "Trên cây nêu có treo khánh đất, gió rung thì phát ra tiếng leng keng,",
+        "nhắc quỷ nghe mà tránh. Trên ngọn còn buộc một bó lá dứa hoặc cành đa mỏ hái để quỷ sợ.",
+        "Ngoài ra, người ta còn vẽ hình cung tên, mũi nhọn hướng về phía đông,",
+        "và rắc vôi bột trước cửa ra vào trong những ngày Tết, để cấm cửa lũ quỷ."
       ],
       "image": {
+        "character": "nong-dan",
         "prompt": "a cheerful Vietnamese village at Tet, each house has a tall bamboo neu pole with clay chimes and a red cloth at the top, white lime patterns on the yard, children play under peach blossoms",
-        "seed": 851684365,
-        "character": "nong-dan"
+        "seed": 851684365
       },
       "video": {
         "motionPrompt": "clay chimes tinkle and sway, children run around the pole, peach petals drift down",
@@ -228,9 +270,9 @@
         "Miu chào các bạn, hẹn gặp lại!"
       ],
       "image": {
+        "character": "miu",
         "prompt": "Meo Miu the voxel white cat waves goodbye under a tall Tet bamboo pole with clay chimes, red lanterns and peach blossoms around",
-        "seed": 1915377985,
-        "character": "miu"
+        "seed": 1915377985
       },
       "video": {
         "motionPrompt": "the cat waves, the chimes tinkle, gentle camera pull-back",
