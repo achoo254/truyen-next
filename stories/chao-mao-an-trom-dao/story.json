@@ -9,6 +9,7 @@
     "ngu-ngon"
   ],
   "added": "2026-11-02",
+  "revised": "2026-11-18",
   "language": "vi",
   "source": "Truyện «Chào mào ăn trộm đào» trong Truyện cổ nước Nam, quyển Muông chim của Ôn Như Nguyễn Văn Ngọc (1934), thuộc phạm vi công cộng. Lời kể viết mới cho trẻ nhỏ, không chép câu chữ của sách. Bản cho trẻ nhỏ: chào mào chỉ bị cốc đầu và đá ngã lộn xuống trần, đuôi đỏ ửng như quả đào chín, không tả máu; bỏ những câu tục ngữ thô. Thêm để dẫn dắt: Mèo Miu mở đầu và kết, thêm thoại, lời rút ý ở cuối; cốt truyện giữ nguyên.",
   "basedOn": "Truyện cổ nước Nam (Nguyễn Văn Ngọc)",
@@ -59,14 +60,13 @@
       "subtitles": [
         "Xin chào các bạn nhỏ! Các bạn đã thấy chim chào mào chưa?",
         "Chào mào có cái mào nhọn hoắt trên đầu, và ngay dưới đuôi có một chấm đỏ tươi.",
-        "Vì sao chào mào lại có chấm đỏ ấy nhỉ?",
-        "Chuyện bắt đầu từ một vườn đào ở tít trên trời.",
+        "Vì sao chào mào lại có chấm đỏ ấy nhỉ? Chuyện bắt đầu từ một vườn đào ở tít trên trời.",
         "Mình cùng nghe nhé!"
       ],
       "image": {
-        "character": "miu",
         "prompt": "Meo Miu the voxel white cat stands in a garden looking up at a little crested bulbul bird on a branch, a picture book in her paws shows peaches among clouds",
-        "seed": 1652705872
+        "seed": 1652705872,
+        "character": "miu"
       },
       "video": {
         "motionPrompt": "the bird hops and shows its tail, the cat leans in curiously, leaves sway, slow camera push-in",
@@ -78,18 +78,18 @@
       "id": "vuon-dao-tren-troi",
       "title": "Vườn đào trên trời",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, trên trời có một bà Tiên trồng vườn đào đẹp lắm, quả nào cũng chín hồng, thơm phức. Chú chim chào mào thèm quá, ngày nào cũng lẻn vào mổ hết quả này đến quả khác. Đến hôm bà Tiên ra vườn, thấy đào vơi đi nhiều, bà gọi đôi chim khách đến hỏi. Chim khách thưa: Mấy hôm nay con chỉ thấy chào mào lảng vảng ở đây. Chắc là chào mào ăn trộm rồi ạ!",
+      "narration": "Ngày xưa, trên trời có một bà Tiên trồng vườn đào đẹp lắm, quả nào cũng chín hồng, thơm phức. Chú chim chào mào thèm quá, ngày nào cũng lẻn vào mổ hết quả này đến quả khác. Đến hôm bà Tiên ra vườn, thấy đào vơi đi nhiều, bà gọi đôi chim khách đến hỏi. Chim khách thưa: Mấy hôm nay con chỉ thấy chào mào vơ vẩn ở đây. Chắc là chào mào ăn trộm đào thôi ạ!",
       "subtitles": [
-        "Ngày xưa, trên trời có một bà Tiên trồng vườn đào đẹp lắm, quả nào cũng chín hồng,",
-        "thơm phức. Chú chim chào mào thèm quá, ngày nào cũng lẻn vào mổ hết quả này đến quả khác.",
+        "Ngày xưa, trên trời có một bà Tiên trồng vườn đào đẹp lắm, quả nào cũng chín hồng, thơm",
+        "phức. Chú chim chào mào thèm quá, ngày nào cũng lẻn vào mổ hết quả này đến quả khác.",
         "Đến hôm bà Tiên ra vườn, thấy đào vơi đi nhiều, bà gọi đôi chim khách đến hỏi.",
-        "Chim khách thưa: Mấy hôm nay con chỉ thấy chào mào lảng vảng ở đây.",
-        "Chắc là chào mào ăn trộm rồi ạ!"
+        "Chim khách thưa: Mấy hôm nay con chỉ thấy chào mào vơ vẩn ở đây.",
+        "Chắc là chào mào ăn trộm đào thôi ạ!"
       ],
       "image": {
-        "character": "chao-mao",
         "prompt": "the little crested bulbul secretly pecks a pink peach in a heavenly orchard among clouds, in the distance the kind fairy lady talks to two magpies",
-        "seed": 3832288628
+        "seed": 3832288628,
+        "character": "chao-mao"
       },
       "video": {
         "motionPrompt": "the bulbul nibbles and looks around sneakily, peach blossoms drift, the magpies point their wings, clouds float slowly",
@@ -101,21 +101,19 @@
       "id": "duoc-tha",
       "title": "Chào mào cãi khéo",
       "narrator": "ke-chuyen",
-      "narration": "Bà Tiên giận lắm, lên thưa với Ông Trời. Ông Trời sai chim cà cưỡng đi bắt chào mào về. Chào mào cãi leo lẻo: Thưa Trời, chim khách chỉ nói bâng quơ, có ai bắt được con đang ăn đâu! Nói không có chứng cứ là đổ oan cho con đấy ạ! Ông Trời nghĩ một lúc rồi bảo: Phải, bắt trộm thì phải bắt tận tay. Không ai thấy tận mắt, ta chưa phạt được. Thế là chào mào được tha về.",
+      "narration": "Bà Tiên giận lắm, lên thưa với Ông Trời. Ông Trời sai chim cà cưỡng đi bắt chào mào về. Chào mào kêu với Trời: Chim khách đặt điều gian xảo cho con. Nó nói bâng quơ, chẳng có bằng chứng gì cả. Nó vu cáo cho con rồi, xin Trời cho xét lại! Ông Trời nghĩ chào mào nói cũng có lý, bèn phán: Bắt trộm thì phải bắt tận tay, nay không ai bắt được nó quả tang ăn trộm đào, thì ta cũng không tra ra được. Nói đoạn, Trời tha cho chào mào về.",
       "subtitles": [
-        "Bà Tiên giận lắm, lên thưa với Ông Trời.",
-        "Ông Trời sai chim cà cưỡng đi bắt chào mào về.",
-        "Chào mào cãi leo lẻo: Thưa Trời, chim khách chỉ nói bâng quơ,",
-        "có ai bắt được con đang ăn đâu!",
-        "Nói không có chứng cứ là đổ oan cho con đấy ạ!",
-        "Ông Trời nghĩ một lúc rồi bảo: Phải, bắt trộm thì phải bắt tận tay.",
-        "Không ai thấy tận mắt, ta chưa phạt được.",
-        "Thế là chào mào được tha về."
+        "Bà Tiên giận lắm, lên thưa với Ông Trời. Ông Trời sai chim cà cưỡng đi bắt chào mào về.",
+        "Chào mào kêu với Trời: Chim khách đặt điều gian xảo cho con.",
+        "Nó nói bâng quơ, chẳng có bằng chứng gì cả. Nó vu cáo cho con rồi, xin Trời cho xét lại!",
+        "Ông Trời nghĩ chào mào nói cũng có lý, bèn phán:",
+        "Bắt trộm thì phải bắt tận tay, nay không ai bắt được nó quả tang ăn trộm đào, thì ta cũng",
+        "không tra ra được. Nói đoạn, Trời tha cho chào mào về."
       ],
       "image": {
-        "character": "ong-troi",
         "prompt": "the Heavenly King on his cloud throne strokes his white beard, the little bulbul stands before him chirping and arguing with its crest raised, a starling bird stands guard",
-        "seed": 1997349127
+        "seed": 1997349127,
+        "character": "ong-troi"
       },
       "video": {
         "motionPrompt": "the bulbul flaps its wings while talking fast, the King nods slowly and waves his hand to let it go, golden light, gentle camera drift",
@@ -127,18 +125,18 @@
       "id": "bat-tan-tay",
       "title": "Bị bắt tận tay",
       "narrator": "ke-chuyen",
-      "narration": "Mùa sau, đào lại chín. Chào mào ăn quen mùi, lại lẻn vào vườn. Nhưng lần này, bà Tiên đã cho chim chèo bẻo nấp sẵn trong tán lá. Chào mào đang ngồi chén đào ngon lành như đào nhà mình, thì chèo bẻo nhảy ra tóm gọn. Bà Tiên giải chào mào lên Ông Trời. Lần này, chào mào cúi gằm mặt, chẳng dám cãi một lời nào.",
+      "narration": "Mùa sau, đào lại chín. Chào mào ăn quen bén mùi, lại lẻn vào vườn ăn trộm. Không ngờ bà Tiên đã cho chèo bẻo rình sẵn từ trước. Lúc chào mào đang ngồi ăn đào, miệng ăn tay lấy như của nhà mình, thì chèo bẻo tóm ngay được, nắm đầu lôi đi. Bà Tiên giận quá, sai đưa chào mào lên Ông Trời. Bận này chào mào cứ cúi đầu gục mỏ xuống, chẳng còn dám cãi như bận trước nữa.",
       "subtitles": [
-        "Mùa sau, đào lại chín. Chào mào ăn quen mùi, lại lẻn vào vườn.",
-        "Nhưng lần này, bà Tiên đã cho chim chèo bẻo nấp sẵn trong tán lá.",
-        "Chào mào đang ngồi chén đào ngon lành như đào nhà mình, thì chèo bẻo nhảy ra tóm gọn.",
-        "Bà Tiên giải chào mào lên Ông Trời.",
-        "Lần này, chào mào cúi gằm mặt, chẳng dám cãi một lời nào."
+        "Mùa sau, đào lại chín. Chào mào ăn quen bén mùi, lại lẻn vào vườn ăn trộm.",
+        "Không ngờ bà Tiên đã cho chèo bẻo rình sẵn từ trước.",
+        "Lúc chào mào đang ngồi ăn đào, miệng ăn tay lấy như của nhà mình, thì chèo bẻo tóm ngay",
+        "được, nắm đầu lôi đi. Bà Tiên giận quá, sai đưa chào mào lên Ông Trời.",
+        "Bận này chào mào cứ cúi đầu gục mỏ xuống, chẳng còn dám cãi như bận trước nữa."
       ],
       "image": {
-        "character": "chao-mao",
         "prompt": "a black drongo bird with a forked tail jumps out from the leaves and catches the bulbul in the middle of eating a peach, the fairy lady watches from the orchard path",
-        "seed": 1698403671
+        "seed": 1698403671,
+        "character": "chao-mao"
       },
       "video": {
         "motionPrompt": "the drongo pops out of the leaves, the bulbul drops the peach in surprise, peach blossoms flutter, comic timing, slow camera push-in",
@@ -150,18 +148,23 @@
       "id": "bi-phat",
       "title": "Chào mào bị phạt",
       "narrator": "ke-chuyen",
-      "narration": "Ông Trời quát vang như sấm: Lần trước đã được tha, lần này lại ăn trộm nữa! Phải phạt cho chừa! Chim cắt bay ra cốc vào đầu chào mào mấy cái. Thấy chào mào vẫn còn trơ trơ, Ông Trời giận quá, đá cho một cái vào mông. Chào mào lộn nhào từ trên trời xuống mặt đất, phía dưới đuôi đỏ ửng lên như quả đào chín. Từ đó đến giờ, chào mào vẫn mang chấm đỏ ấy, nên người ta mới gọi vui là chào mào đỏ đít.",
+      "narration": "Ông Trời nổi giận quát ầm ầm như sấm: Lần trước đã được tha, lần này lại ăn trộm nữa, lại còn già mồm! Phen này mày hết đường cãi, tao phải trị cho mày biết tay! Trời bèn sai chim cắt bay ra cốc vào đầu chào mào. Chào mào như chẳng biết sợ. Ông Trời tức quá, đứng phắt dậy, đá thốc một cái vào mông chào mào. Chào mào ngã lộn nhào từ trên trời xuống hạ giới, phía dưới đuôi đỏ ửng lên. Từ đó đến giờ, chào mào vẫn mang chấm đỏ ấy. Nên người ta mới có câu: Chào mào đỏ đít. Bây giờ trẻ con đùa nhau, có khi còn đọc rằng: Chào mào, mào chào, sao đỏ lỗ đít?",
       "subtitles": [
-        "Ông Trời quát vang như sấm: Lần trước đã được tha, lần này lại ăn trộm nữa!",
-        "Phải phạt cho chừa! Chim cắt bay ra cốc vào đầu chào mào mấy cái.",
-        "Thấy chào mào vẫn còn trơ trơ, Ông Trời giận quá, đá cho một cái vào mông.",
-        "Chào mào lộn nhào từ trên trời xuống mặt đất, phía dưới đuôi đỏ ửng lên như quả đào chín.",
-        "Từ đó đến giờ, chào mào vẫn mang chấm đỏ ấy, nên người ta mới gọi vui là chào mào đỏ đít."
+        "Ông Trời nổi giận quát ầm ầm như sấm:",
+        "Lần trước đã được tha, lần này lại ăn trộm nữa, lại còn già mồm!",
+        "Phen này mày hết đường cãi, tao phải trị cho mày biết tay!",
+        "Trời bèn sai chim cắt bay ra cốc vào đầu chào mào.",
+        "Chào mào như chẳng biết sợ.",
+        "Ông Trời tức quá, đứng phắt dậy, đá thốc một cái vào mông chào mào.",
+        "Chào mào ngã lộn nhào từ trên trời xuống hạ giới, phía dưới đuôi đỏ ửng lên.",
+        "Từ đó đến giờ, chào mào vẫn mang chấm đỏ ấy. Nên người ta mới có câu:",
+        "Chào mào đỏ đít. Bây giờ trẻ con đùa nhau, có khi còn đọc rằng:",
+        "Chào mào, mào chào, sao đỏ lỗ đít?"
       ],
       "image": {
-        "character": "chao-mao",
         "prompt": "the little bulbul tumbles comically head over tail from the clouds toward green fields below, a rosy red spot under its tail glowing like a ripe peach",
-        "seed": 3715852141
+        "seed": 3715852141,
+        "character": "chao-mao"
       },
       "video": {
         "motionPrompt": "the bulbul somersaults down through soft clouds, little stars twinkle around its head, it lands softly in a bush and shakes its feathers, comic timing",
@@ -182,9 +185,9 @@
         "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn!"
       ],
       "image": {
-        "character": "miu",
         "prompt": "Meo Miu the voxel white cat waves goodbye under a peach tree, the little bulbul with its red spot under its tail sits on a branch looking sorry",
-        "seed": 1195317850
+        "seed": 1195317850,
+        "character": "miu"
       },
       "video": {
         "motionPrompt": "the cat waves, the bulbul bows its crest shyly, peach petals drift down, sunset light, gentle camera pull-back",
