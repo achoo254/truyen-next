@@ -3,15 +3,16 @@
   "slug": "tre-coc",
   "shelf": "kids",
   "title": "Trê Cóc",
-  "summary": "Đàn nòng nọc của chị Cóc có đuôi bơi tung tăng, vợ chồng Trê thấy giống mình liền nhận là con, hai bên kéo nhau lên quan xử kiện. Nhờ lời khuyên khéo của Nhái Bén, quan chờ nòng nọc lớn lên để biết sự thật. Truyện thơ Nôm cổ kể vui cho trẻ nhỏ.",
+  "summary": "Cóc đẻ trứng ở ao nhà Trê, đàn nòng nọc đen nhánh có đuôi bơi lội, vợ chồng Trê nhận làm con. Cóc đòi con, hai bên kiện nhau từ ao lên tận quan phủ, lo lót thầy lại, Cóc phải nhờ Ếch rồi Nhái Bén bày cách làm đơn phục để thắng kiện. Truyện thơ Nôm xưa kể nhẹ cho trẻ nhỏ.",
   "themes": [
     "ngu-ngon",
     "thien-ac",
     "gia-dinh"
   ],
   "added": "2026-11-01",
+  "revised": "2026-11-18",
   "language": "vi",
-  "source": "Phỏng theo cốt truyện thơ Nôm khuyết danh \"Trê Cóc\" (thế kỷ mười tám đến mười chín), thuộc phạm vi công cộng. Lời kể văn xuôi viết mới cho trẻ nhỏ, không chép câu thơ hay bản kể nào; bỏ chi tiết giam giữ, Mèo Miu mở đầu và rút ý ở cuối.",
+  "source": "Truyện thơ Nôm khuyết danh Trê Cóc (bản chép trên Wikisource tiếng Việt), phạm vi công cộng. Lời kể văn xuôi viết mới cho trẻ nhỏ, không chép câu thơ hay bản kể nào, giữ đủ các tình tiết; cảnh giam giữ và roi vọt kể nhẹ, Mèo Miu mở đầu và rút ý ở cuối.",
   "basedOn": "Truyện thơ Nôm khuyết danh Trê Cóc",
   "style": "Vietnamese folk-tale picture-book illustration, soft gouache and watercolor textures, warm gentle light, rounded friendly shapes, cheerful mood for young children, a green Vietnamese village pond with lotus leaves, reeds and water lilies, animals dressed in old Vietnamese clothes, no text, no letters, no watermark",
   "narrators": {
@@ -62,138 +63,500 @@
       "id": "mo-dau",
       "title": "Mèo Miu chào các bạn",
       "narrator": "miu",
-      "narration": "Xin chào các bạn nhỏ! Miu hỏi nhé: con nòng nọc lớn lên sẽ thành con gì? Thành con cá à? Không phải đâu! Nòng nọc lớn lên sẽ rụng đuôi, mọc chân, thành con cóc, con ếch đấy. Ngày xưa, vì chuyện cái đuôi nòng nọc mà có một vụ kiện ầm ĩ dưới ao làng. Mình cùng nghe chuyện Trê Cóc nhé!",
+      "narration": "Xin chào các bạn nhỏ! Miu hỏi nhé: con nòng nọc lớn lên sẽ thành con gì? Thành con cá à? Không phải đâu, nòng nọc rụng đuôi, mọc chân, rồi thành con cóc, con ếch đấy. Ngày xưa, vì chuyện đàn nòng nọc mà dưới ao làng nổ ra một vụ kiện ầm ĩ giữa nhà Cóc và nhà Trê, kiện từ ao lên tận cửa quan. Câu chuyện này vốn là một truyện thơ rất xưa của ông bà mình, tên là Trê Cóc. Trong truyện có đủ cả cóc, trê, nhái bén, ếch và ông quan phủ nữa đấy. Hôm nay Miu kể lại cho các bạn nghe bằng lời thật dễ hiểu nhé!",
       "subtitles": [
-        "Xin chào các bạn nhỏ! Miu hỏi nhé: con nòng nọc lớn lên sẽ thành con gì? Thành con cá à?",
-        "Không phải đâu! Nòng nọc lớn lên sẽ rụng đuôi, mọc chân, thành con cóc, con ếch đấy.",
-        "Ngày xưa, vì chuyện cái đuôi nòng nọc mà có một vụ kiện ầm ĩ dưới ao làng.",
-        "Mình cùng nghe chuyện Trê Cóc nhé!"
+        "Xin chào các bạn nhỏ!",
+        "Miu hỏi nhé: con nòng nọc lớn lên sẽ thành con gì?",
+        "Thành con cá à?",
+        "Không phải đâu, nòng nọc rụng đuôi, mọc chân, rồi thành con cóc, con ếch đấy.",
+        "Ngày xưa, vì chuyện đàn nòng nọc mà dưới ao làng nổ ra một vụ kiện ầm ĩ giữa nhà Cóc và",
+        "nhà Trê, kiện từ ao lên tận cửa quan.",
+        "Câu chuyện này vốn là một truyện thơ rất xưa của ông bà mình, tên là Trê Cóc.",
+        "Trong truyện có đủ cả cóc, trê, nhái bén, ếch và ông quan phủ nữa đấy.",
+        "Hôm nay Miu kể lại cho các bạn nghe bằng lời thật dễ hiểu nhé!"
       ],
       "image": {
-        "character": "miu",
-        "prompt": "Meo Miu the voxel white cat kneels at the edge of a green village pond, pointing at tiny tadpoles swimming among lotus leaves, curious and smiling",
-        "seed": 2775851856
+        "prompt": "the cute white voxel cat storyteller sits by a village pond holding a tiny tadpole in a leaf cup and smiles at the viewer, lily pads and reeds",
+        "seed": 1606784753,
+        "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat leans over the water and points, little tadpoles wiggle and swim in circles, ripples spread, slow gentle camera push-in",
-        "seed": 304385286
+        "motionPrompt": "the cat tilts her head at the tadpole, the water ripples gently, reeds sway, soft camera push-in",
+        "seed": 1014280307
       },
       "voice": {}
     },
     {
-      "id": "coc-de-trung",
-      "title": "Chị Cóc đẻ trứng",
+      "id": "hai-nha-hang-xom",
+      "title": "Hai nhà hàng xóm",
       "narrator": "ke-chuyen",
-      "narration": "Ngày xưa, bên cạnh một cái ao có chị Cóc sinh sống. Một hôm, chị đẻ một đám trứng xuống mép ao, rồi phải lên bờ đi kiếm ăn ít ngày. Ít lâu sau, trứng nở ra một đàn nòng nọc bé xíu, đen nhánh, có đuôi dài, bơi tung tăng khắp ao. Gần đấy có vợ chồng nhà Trê. Trê vợ trông thấy đàn nòng nọc thì mừng rỡ reo lên: Ôi, đàn con xinh quá, giống hệt nhà mình!",
+      "narration": "Chuyện đời có xưa có nay, ngẫm kỹ trong lẽ vật mà xem cũng thật lạ kỳ. Những loài vật chẳng biết gì mà cũng còn tranh lý khéo léo như người. Ngày xưa, bên bờ một cái ao có hai nhà ở gần nhau, một nhà Cóc và một nhà Trê. Nhà Cóc vốn quen thú bờ hồ, hôm thì dạo ra chốn đài các, hôm thì vào cung đình, đi đâu cũng thong dong thoải mái. Đến ngày sắp sinh con, Cóc xuống ao nhà Trê, và đẻ ra một đám trứng bé xíu dưới nước. Cóc mừng lắm, nhìn đàn con mà lòng vui sướng, rồi lên bờ về nhà nghỉ ngơi cho khỏe. Ai ngờ chính vì thương con mà từ đó hai nhà mới sinh ra oán giận nhau. Trứng nở thành một đàn nòng nọc đen nhánh, đuôi dài, nhảy ngoi lên đớp nước tung tăng khắp ao. Chàng Trê đi đâu về vừa tới nơi, trông thấy đàn nòng nọc, trong bụng mừng thầm: Đầu to, mình đen, lại có đuôi bơi giỏi, giống nhà Trê như đúc, chẳng nhầm vào đâu được! Thế là Trê bắt hết về nuôi nấng chăm sóc, coi con nuôi cũng chẳng khác gì con đẻ.",
       "subtitles": [
-        "Ngày xưa, bên cạnh một cái ao có chị Cóc sinh sống.",
-        "Một hôm, chị đẻ một đám trứng xuống mép ao, rồi phải lên bờ đi kiếm ăn ít ngày.",
-        "Ít lâu sau, trứng nở ra một đàn nòng nọc bé xíu, đen nhánh, có đuôi dài,",
-        "bơi tung tăng khắp ao.",
-        "Gần đấy có vợ chồng nhà Trê.",
-        "Trê vợ trông thấy đàn nòng nọc thì mừng rỡ reo lên: Ôi, đàn con xinh quá,",
-        "giống hệt nhà mình!"
+        "Chuyện đời có xưa có nay, ngẫm kỹ trong lẽ vật mà xem cũng thật lạ kỳ.",
+        "Những loài vật chẳng biết gì mà cũng còn tranh lý khéo léo như người.",
+        "Ngày xưa, bên bờ một cái ao có hai nhà ở gần nhau, một nhà Cóc và một nhà Trê.",
+        "Nhà Cóc vốn quen thú bờ hồ, hôm thì dạo ra chốn đài các, hôm thì vào cung đình,",
+        "đi đâu cũng thong dong thoải mái.",
+        "Đến ngày sắp sinh con, Cóc xuống ao nhà Trê, và đẻ ra một đám trứng bé xíu dưới nước.",
+        "Cóc mừng lắm, nhìn đàn con mà lòng vui sướng, rồi lên bờ về nhà nghỉ ngơi cho khỏe.",
+        "Ai ngờ chính vì thương con mà từ đó hai nhà mới sinh ra oán giận nhau.",
+        "Trứng nở thành một đàn nòng nọc đen nhánh, đuôi dài,",
+        "nhảy ngoi lên đớp nước tung tăng khắp ao.",
+        "Chàng Trê đi đâu về vừa tới nơi, trông thấy đàn nòng nọc, trong bụng mừng thầm: Đầu to,",
+        "mình đen, lại có đuôi bơi giỏi, giống nhà Trê như đúc, chẳng nhầm vào đâu được!",
+        "Thế là Trê bắt hết về nuôi nấng chăm sóc, coi con nuôi cũng chẳng khác gì con đẻ."
       ],
       "image": {
-        "character": "vo-chong-tre",
-        "prompt": "a catfish couple in old Vietnamese clothes peek from behind lotus leaves at a swarm of tiny black tadpoles swimming in the pond, the catfish wife clasps her fins in delight",
-        "seed": 1734746139
+        "prompt": "a village pond with lily pads, a kind mother toad in an indigo headscarf lays a clump of tiny eggs at the pond's edge then hops away to the bank, a catfish husband looks on from the water with curious eyes, soft morning light",
+        "seed": 65356555,
+        "character": "chi-coc"
       },
       "video": {
-        "motionPrompt": "the tadpoles swirl playfully, the catfish wife clasps her fins happily, the husband twirls his whiskers, lotus leaves bob",
-        "seed": 2259973462
+        "motionPrompt": "the toad hops onto the bank, tiny tadpoles wriggle in the water, the catfish watches and smiles to himself, ripples spread",
+        "seed": 3845985671
       },
       "voice": {}
     },
     {
-      "id": "tre-nhan-con",
-      "title": "Trê nhận làm con",
+      "id": "coc-den-tham-con",
+      "title": "Cóc đến thăm con",
       "narrator": "ke-chuyen",
-      "narration": "Trê chồng nhìn kỹ, cũng gật gù: Đầu to, mình đen, lại có đuôi bơi lội giỏi thế kia, không con nhà Trê thì con nhà ai! Thế là vợ chồng Trê dắt cả đàn nòng nọc về hang, nuôi nấng như con mình. Mấy hôm sau chị Cóc trở về, tìm khắp mép ao không thấy con đâu. Nghe hàng xóm kể lại, chị vội đến nhà Trê: Các con tôi đấy, trả lại cho tôi!",
+      "narration": "Về phần Cóc, đến ngày con đã đầy cữ, Cóc ra ao rình thăm đàn con. Tới nơi, Cóc chờ đợi mãi, kêu nhỏ gọi khẽ mà chẳng thấy đâu, chỗ cũ vắng tanh, nước vẫn còn đó mà tăm cá cũng không có. Lo quá, Cóc vội nhảy xuống ao, mò mẫm tìm giữa đám bọt bèo tối om. Nghe động, Trê hầm hầm chạy ra, thấy Cóc đứng bên bờ thì quát to: Cóc kia! Tối tăm thế này mò mẫm đi đâu? Ban đêm mà lẻn tới nhà người ta thì không phải kẻ trộm cũng là kẻ gian! Cóc đáp: Ai gian ai manh? Tôi vì con tôi nên mới phải đi sớm về khuya, chứ không thì ai đến chốn này làm gì! Trê nghe tức giận, vểnh râu mắng lại: Cóc nhà ngươi lắm điều, liều lĩnh quá! Bọn các người coi bộ mỹ miều lắm thay, nghề lén lút ban đêm vẫn chẳng chừa! Một tội mất, mười tội ngờ, biết đâu mà khéo kêu la hỏi dồn. Đã lạ giống lạ nòi lại còn đi mò mẫm ban đêm, thôi đừng đua dại tranh khôn, về ngồi gầm giường cho xong!",
       "subtitles": [
-        "Trê chồng nhìn kỹ, cũng gật gù: Đầu to, mình đen, lại có đuôi bơi lội giỏi thế kia,",
-        "không con nhà Trê thì con nhà ai!",
-        "Thế là vợ chồng Trê dắt cả đàn nòng nọc về hang, nuôi nấng như con mình.",
-        "Mấy hôm sau chị Cóc trở về, tìm khắp mép ao không thấy con đâu.",
-        "Nghe hàng xóm kể lại, chị vội đến nhà Trê: Các con tôi đấy, trả lại cho tôi!"
+        "Về phần Cóc, đến ngày con đã đầy cữ, Cóc ra ao rình thăm đàn con.",
+        "Tới nơi, Cóc chờ đợi mãi, kêu nhỏ gọi khẽ mà chẳng thấy đâu, chỗ cũ vắng tanh,",
+        "nước vẫn còn đó mà tăm cá cũng không có.",
+        "Lo quá, Cóc vội nhảy xuống ao, mò mẫm tìm giữa đám bọt bèo tối om.",
+        "Nghe động, Trê hầm hầm chạy ra, thấy Cóc đứng bên bờ thì quát to: Cóc kia!",
+        "Tối tăm thế này mò mẫm đi đâu?",
+        "Ban đêm mà lẻn tới nhà người ta thì không phải kẻ trộm cũng là kẻ gian!",
+        "Cóc đáp: Ai gian ai manh?",
+        "Tôi vì con tôi nên mới phải đi sớm về khuya, chứ không thì ai đến chốn này làm gì!",
+        "Trê nghe tức giận, vểnh râu mắng lại: Cóc nhà ngươi lắm điều, liều lĩnh quá!",
+        "Bọn các người coi bộ mỹ miều lắm thay, nghề lén lút ban đêm vẫn chẳng chừa!",
+        "Một tội mất, mười tội ngờ, biết đâu mà khéo kêu la hỏi dồn.",
+        "Đã lạ giống lạ nòi lại còn đi mò mẫm ban đêm, thôi đừng đua dại tranh khôn,",
+        "về ngồi gầm giường cho xong!"
       ],
       "image": {
-        "character": "chi-coc",
-        "prompt": "the mother toad in an indigo headscarf stands at the entrance of the catfish couple's underwater home pleading with outstretched hands, the catfish couple shelter the tadpoles behind them, shaking their heads",
-        "seed": 2822978381
+        "prompt": "at night by the pond bank a worried mother toad stands holding a small lantern while an angry catfish husband pokes his head out of the water scolding her with whiskers bristling, lily pads and moonlight",
+        "seed": 985825883,
+        "character": "chi-coc"
       },
       "video": {
-        "motionPrompt": "the mother toad gestures pleadingly, the catfish couple shake their heads and spread their fins, tadpoles peek out curiously, bubbles rise",
-        "seed": 3752054115
+        "motionPrompt": "the toad's lantern flickers, the catfish waggles his whiskers angrily, the toad frowns back, ripples and moonlight shimmer",
+        "seed": 2289612450
       },
       "voice": {}
     },
     {
-      "id": "len-quan",
-      "title": "Lên quan xử kiện",
+      "id": "coc-ve-nha-ban-viec",
+      "title": "Cóc quyết đi kiện",
       "narrator": "ke-chuyen",
-      "narration": "Vợ chồng Trê nhất định không trả, còn bảo: Cóc da sần sùi, có đuôi đâu mà đẻ được con có đuôi! Chị Cóc tức lắm, bèn làm đơn lên quan huyện. Quan cho gọi cả hai bên đến. Trê có nhiều người quen, nói năng trơn tru. Cóc thì vụng về, chỉ biết khóc. Quan nghe hai bên cãi mãi mà chưa biết ai đúng ai sai, đành tạm hoãn để suy nghĩ.",
+      "narration": "Cóc trợn mắt nhìn Trê, đáp lại: Ngươi khôn thì cũng chỉ ở trong ao tù thôi! Nhà ta tuy ngu hèn, nhưng cũng có cơ đồ đàng hoàng, ra vào gác tía nhà vàng, bờ bãi mặc sức đi chơi. Ta chỉ cần nghiến răng một cái là chín phương trời ai nghe cũng rụng rời sợ hãi. Còn giống cá hôi tanh nhà ngươi, may ra chỉ đáng nấu được một bát canh! Nói xong, Cóc nén giận quay về. Hai vợ chồng bàn bạc với nhau suốt đêm. Vợ Cóc lo lắng nói: Con còn nhỏ dại, nước non xa xôi, biết làm sao bây giờ. Thôi chàng đừng nghĩ cao thấp làm gì, tốn kém bao nhiêu cũng đành chịu, mình nhịn đi. Cóc đáp: Nàng khéo lo quanh, đàn bà nông nổi thì biết gì mưu cao kế lớn. Trê đã có lòng tham, thì được thua ta cũng quyết kiện một phen cho biết.",
       "subtitles": [
-        "Vợ chồng Trê nhất định không trả, còn bảo: Cóc da sần sùi,",
-        "có đuôi đâu mà đẻ được con có đuôi!",
-        "Chị Cóc tức lắm, bèn làm đơn lên quan huyện. Quan cho gọi cả hai bên đến.",
-        "Trê có nhiều người quen, nói năng trơn tru. Cóc thì vụng về, chỉ biết khóc.",
-        "Quan nghe hai bên cãi mãi mà chưa biết ai đúng ai sai, đành tạm hoãn để suy nghĩ."
+        "Cóc trợn mắt nhìn Trê, đáp lại: Ngươi khôn thì cũng chỉ ở trong ao tù thôi!",
+        "Nhà ta tuy ngu hèn, nhưng cũng có cơ đồ đàng hoàng, ra vào gác tía nhà vàng,",
+        "bờ bãi mặc sức đi chơi.",
+        "Ta chỉ cần nghiến răng một cái là chín phương trời ai nghe cũng rụng rời sợ hãi.",
+        "Còn giống cá hôi tanh nhà ngươi, may ra chỉ đáng nấu được một bát canh!",
+        "Nói xong, Cóc nén giận quay về.",
+        "Hai vợ chồng bàn bạc với nhau suốt đêm.",
+        "Vợ Cóc lo lắng nói: Con còn nhỏ dại, nước non xa xôi, biết làm sao bây giờ.",
+        "Thôi chàng đừng nghĩ cao thấp làm gì, tốn kém bao nhiêu cũng đành chịu, mình nhịn đi.",
+        "Cóc đáp: Nàng khéo lo quanh, đàn bà nông nổi thì biết gì mưu cao kế lớn.",
+        "Trê đã có lòng tham, thì được thua ta cũng quyết kiện một phen cho biết."
       ],
       "image": {
-        "character": "quan-huyen",
-        "prompt": "an old frog magistrate in a red robe and black winged hat sits at a low wooden desk on a lotus leaf, listening to the talkative catfish couple and the crying mother toad, reeds and water lilies around",
-        "seed": 192614049
+        "prompt": "inside a cosy burrow at night the toad husband speaks firmly while his worried wife toad holds his arm, a paper lantern glows, a hopping shadow of tadpole drawings on the wall",
+        "seed": 4073344971,
+        "character": "chi-coc"
       },
       "video": {
-        "motionPrompt": "the catfish couple talk and wave their fins, the mother toad wipes her tears, the magistrate strokes his chin thoughtfully, dragonflies hover",
-        "seed": 3266024332
+        "motionPrompt": "the toad husband gestures firmly, his wife shakes her head with worry, the lantern flame sways",
+        "seed": 2314538441
       },
       "voice": {}
     },
     {
-      "id": "nhai-ben-giup",
-      "title": "Nhái Bén bày cách",
+      "id": "lam-don-len-phu",
+      "title": "Làm đơn lên quan phủ",
       "narrator": "ke-chuyen",
-      "narration": "Chị Cóc buồn bã ngồi bên ao. Nhái Bén, người bạn nhỏ tinh khôn của chị, nhảy lại bảo: Chị đừng lo, em có cách! Nhái Bén lên gặp quan, thưa: Bẩm quan, nòng nọc bây giờ còn bé, trông giống ai cũng được. Xin quan cứ chờ ít hôm cho chúng lớn lên, lúc ấy chúng giống bố mẹ nào thì là con nhà ấy. Quan nghe xong, gật gù: Phải lắm!",
+      "narration": "Sáng hôm sau, Cóc đến cửa quan nha, làm đơn xin quan xét cho tường tận. Đơn đề rõ ràng: kẻ dân đen Trần Văn Cốc, ở thôn Thạch Cốc, xã Bích Gia, huyện Tường Miếu, phủ Trung Đình, kính bẩm vì nỗi khổ ức, một chút tình duyên. Trong đơn, Cóc kể rõ: nhà tôi vốn ở cạn, đến lúc sinh con thì xuống ao nhà Trê, sinh được một đàn nòng nọc. Lúc ấy xung quanh có cả anh Chép, anh Mè, anh Măng, anh Trắm, lại có mụ Diếc, mụ Rô đỡ đẻ, anh Lươn, anh Trấu chạy việc thăm dò. Sau đó tôi về quê, đến khi thương vợ con trở ra thăm thì bốn bề im tiếng chẳng thấy ai. Tôi hỏi thì Trê quát mắng, còn nói tôi gian tham. Đạo nghĩa cha con, tôi không thể nhịn được. Xin quan soi xét cứu giúp, kẻ dân đen vạn lần cảm tạ. Quan phủ nghe xong đơn, truyền cho các thầy lại đứng hầu. Xem kỹ đơn, quan nghĩ bụng: Đoạt con người ta nào có lý nào. Thực hư ra sao chưa rõ, bèn truyền thảo trát đòi những người có tên trong đơn, đến đối chất cho minh bạch. Các thầy lại vâng lệnh lui ra, nhưng lại đòi tiền thông lệ rồi mới chịu đóng dấu vào trát, và sai một anh lính đi gọi người. Anh lính nhận trát, trát ghi rõ: sai một lính theo lý dịch dẫn chàng Trê cùng những người ngồi bên là anh Chép, anh Mè, anh Măng, anh Trắm, tất cả một đoàn, đến trước quan, vì họ bị tố là bắt con người ta mà nuôi, phải lập tức dẫn đến, đúng như lời trát.",
       "subtitles": [
-        "Chị Cóc buồn bã ngồi bên ao.",
-        "Nhái Bén, người bạn nhỏ tinh khôn của chị, nhảy lại bảo: Chị đừng lo, em có cách!",
-        "Nhái Bén lên gặp quan, thưa: Bẩm quan, nòng nọc bây giờ còn bé, trông giống ai cũng được.",
-        "Xin quan cứ chờ ít hôm cho chúng lớn lên, lúc ấy chúng giống bố mẹ nào thì là con nhà ấy.",
-        "Quan nghe xong, gật gù: Phải lắm!"
+        "Sáng hôm sau, Cóc đến cửa quan nha, làm đơn xin quan xét cho tường tận.",
+        "Đơn đề rõ ràng: kẻ dân đen Trần Văn Cốc, ở thôn Thạch Cốc, xã Bích Gia, huyện Tường Miếu,",
+        "phủ Trung Đình, kính bẩm vì nỗi khổ ức, một chút tình duyên.",
+        "Trong đơn, Cóc kể rõ: nhà tôi vốn ở cạn, đến lúc sinh con thì xuống ao nhà Trê,",
+        "sinh được một đàn nòng nọc.",
+        "Lúc ấy xung quanh có cả anh Chép, anh Mè, anh Măng, anh Trắm, lại có mụ Diếc, mụ Rô đỡ đẻ,",
+        "anh Lươn, anh Trấu chạy việc thăm dò.",
+        "Sau đó tôi về quê, đến khi thương vợ con trở ra thăm thì bốn bề im tiếng chẳng thấy ai.",
+        "Tôi hỏi thì Trê quát mắng, còn nói tôi gian tham.",
+        "Đạo nghĩa cha con, tôi không thể nhịn được.",
+        "Xin quan soi xét cứu giúp, kẻ dân đen vạn lần cảm tạ.",
+        "Quan phủ nghe xong đơn, truyền cho các thầy lại đứng hầu.",
+        "Xem kỹ đơn, quan nghĩ bụng: Đoạt con người ta nào có lý nào.",
+        "Thực hư ra sao chưa rõ, bèn truyền thảo trát đòi những người có tên trong đơn,",
+        "đến đối chất cho minh bạch.",
+        "Các thầy lại vâng lệnh lui ra, nhưng lại đòi tiền thông lệ rồi mới chịu đóng dấu vào trát,",
+        "và sai một anh lính đi gọi người.",
+        "Anh lính nhận trát, trát ghi rõ:",
+        "sai một lính theo lý dịch dẫn chàng Trê cùng những người ngồi bên là anh Chép, anh Mè,",
+        "anh Măng, anh Trắm, tất cả một đoàn, đến trước quan,",
+        "vì họ bị tố là bắt con người ta mà nuôi, phải lập tức dẫn đến, đúng như lời trát."
       ],
       "image": {
-        "character": "nhai-ben",
-        "prompt": "a small clever green tree frog in a tiny scholar hat bows before the old frog magistrate and explains with a little scroll, the mother toad watches hopefully in the background",
-        "seed": 2313364949
+        "prompt": "in a district office a wise old frog magistrate in a red robe and black winged hat reads a petition from the toad husband while clerks stand around the table, brush pens and scrolls, warm lantern light",
+        "seed": 2172091524,
+        "character": "quan-huyen"
       },
       "video": {
-        "motionPrompt": "the little tree frog hops and bows, unrolls his scroll and gestures, the magistrate nods slowly, the mother toad clasps her hands hopefully",
-        "seed": 4181627986
+        "motionPrompt": "the magistrate reads the petition and nods, a clerk rubs his hands together asking for money, the toad bows, lantern sways",
+        "seed": 1024040569
       },
       "voice": {}
     },
     {
-      "id": "su-that",
-      "title": "Sự thật lộ ra",
+      "id": "linh-den-nha-tre",
+      "title": "Anh lính đến nhà Trê",
       "narrator": "ke-chuyen",
-      "narration": "Ngày qua ngày, đàn nòng nọc lớn dần. Rồi một sáng, đuôi chúng rụng đi, chân mọc ra, cả đàn nhảy lên bờ kêu ộp ộp, da sần sùi y như mẹ Cóc. Chúng nhảy ngay vào lòng mẹ. Quan nhìn thấy, phán: Sự thật đã rõ, đàn con là của chị Cóc! Vợ chồng Trê vì nhận bừa con người khác nên phải chịu phạt, xấu hổ bơi đi nơi khác.",
+      "narration": "Anh lính vâng lệnh lên đường, kéo về tới nhà Trê, truyền gọi lý dịch dẫn Trê ra hầu. Hay tin có người tới bắt, bao nhiêu người làng đứng về phe Trê là anh Chép, anh Mè, anh Măng, anh Trắm cũng chạy tới, sửa soạn chè rượu mời anh lính uống. Anh lính ngồi xuống bảo: Quan trên nghiêm khắc như sấm sét, chỉ đâu đánh đấy chẳng nể ai. Trê là kẻ gian manh, các anh là đồng đảng thì sợ rằng cũng chẳng tránh khỏi. Nhưng bên lý còn có bên tình, các anh liệu mà thu xếp cho thỏa lòng người ta, kẻo khi quan lớn nổi giận thì kéo ra kéo vào không phải chuyện đùa. Chàng Trê ngóc cổ nói: Dân đen chúng tôi không biết gì, xin mấy cậu giúp cho. Một ngày ở trong tù cũng khổ, bao nhiêu tiền tôi xin lo, không dám tiếc. Còn anh Chép anh Mè cùng một lòng với tôi, sắm sửa lễ vật lên hầu, có tôi đứng đầu là xong. Anh lính nghe lời êm tai, bèn đưa Trê lên cửa quan trình diện. Trê lập tức đứng dậy theo đoàn, không dám chậm trễ.",
       "subtitles": [
-        "Ngày qua ngày, đàn nòng nọc lớn dần.",
-        "Rồi một sáng, đuôi chúng rụng đi, chân mọc ra, cả đàn nhảy lên bờ kêu ộp ộp,",
-        "da sần sùi y như mẹ Cóc.",
-        "Chúng nhảy ngay vào lòng mẹ. Quan nhìn thấy, phán: Sự thật đã rõ, đàn con là của chị Cóc!",
-        "Vợ chồng Trê vì nhận bừa con người khác nên phải chịu phạt, xấu hổ bơi đi nơi khác."
+        "Anh lính vâng lệnh lên đường, kéo về tới nhà Trê, truyền gọi lý dịch dẫn Trê ra hầu.",
+        "Hay tin có người tới bắt, bao nhiêu người làng đứng về phe Trê là anh Chép, anh Mè,",
+        "anh Măng, anh Trắm cũng chạy tới, sửa soạn chè rượu mời anh lính uống.",
+        "Anh lính ngồi xuống bảo: Quan trên nghiêm khắc như sấm sét, chỉ đâu đánh đấy chẳng nể ai.",
+        "Trê là kẻ gian manh, các anh là đồng đảng thì sợ rằng cũng chẳng tránh khỏi.",
+        "Nhưng bên lý còn có bên tình, các anh liệu mà thu xếp cho thỏa lòng người ta,",
+        "kẻo khi quan lớn nổi giận thì kéo ra kéo vào không phải chuyện đùa.",
+        "Chàng Trê ngóc cổ nói: Dân đen chúng tôi không biết gì, xin mấy cậu giúp cho.",
+        "Một ngày ở trong tù cũng khổ, bao nhiêu tiền tôi xin lo, không dám tiếc.",
+        "Còn anh Chép anh Mè cùng một lòng với tôi, sắm sửa lễ vật lên hầu,",
+        "có tôi đứng đầu là xong.",
+        "Anh lính nghe lời êm tai, bèn đưa Trê lên cửa quan trình diện.",
+        "Trê lập tức đứng dậy theo đoàn, không dám chậm trễ."
       ],
       "image": {
-        "character": "chi-coc",
-        "prompt": "a happy mother toad hugs a crowd of little baby toads hopping out of the pond onto the bank, the old frog magistrate smiles and points, the embarrassed catfish couple swim away in the background",
-        "seed": 2331118713
+        "prompt": "a catfish couple in their underwater home serve tea and sweets to a soldier frog in a red cap, with friendly fish neighbours around, the soldier waves his hand importantly, warm light",
+        "seed": 1218483355,
+        "character": "vo-chong-tre"
       },
       "video": {
-        "motionPrompt": "baby toads hop joyfully onto the bank and into their mother's arms, the magistrate nods with a smile, the catfish couple slink away under the lily pads",
-        "seed": 2908403383
+        "motionPrompt": "the soldier sips tea and talks importantly, the catfish husband bows and rubs his hands, neighbours nod, small bubbles rise",
+        "seed": 1465759687
+      },
+      "voice": {}
+    },
+    {
+      "id": "cong-duong",
+      "title": "Trên công đường",
+      "narrator": "ke-chuyen",
+      "narration": "Lên tới công đường, anh lính vào lạy trình quan rằng đã bắt đủ người. Quan ngồi ngay ngắn trên cao, phán hỏi: Trê kia sao dám làm điều gian manh như vậy? Nguyên đơn là Cóc đang ngồi đây, vậy việc đoạt con người ta có hay không? Trê quỳ lạy rồi kể hết lòng: Thưa quan, chuyện này tại chú Cóc, ban đêm không cớ gì lại xuống bờ ao nhà tôi. Tôi lên tiếng thì chú nhảy qua rào chạy mất. Tôi sợ chuyện đồn ra, nên mới phải quỳ thưa trước. Nếu chú Cóc có con thì lẽ nào để con ở xa như thế. Đầu đen là giống phù sinh, xin quan soi xét kẻo oan. Quan gắt: Các ngươi khéo gian ngoan! Truyền gọi chứng cho bên Trê. Mèo, Nheo, Trắm, Chép lần lượt nhảy ra khấu đầu thưa: Chúng tôi xưa nay hiền lành, ai vùng vẫy ở đâu mặc ai, chỉ lo tránh lưới cho khỏi, đâu biết chuyện Trê Cóc, xin đèn trời soi xét. Cóc liền bẩm: Họ là vây cánh của nhau cả, còn tôi thân cô thế cô, ở chốn quê người, xin quan cứu giúp đàn con thơ. Quan truyền cho Cóc lui ra, còn Trê thì phải ở lại trại, đợi hỏi tiếp.",
+      "subtitles": [
+        "Lên tới công đường, anh lính vào lạy trình quan rằng đã bắt đủ người.",
+        "Quan ngồi ngay ngắn trên cao, phán hỏi: Trê kia sao dám làm điều gian manh như vậy?",
+        "Nguyên đơn là Cóc đang ngồi đây, vậy việc đoạt con người ta có hay không?",
+        "Trê quỳ lạy rồi kể hết lòng: Thưa quan, chuyện này tại chú Cóc,",
+        "ban đêm không cớ gì lại xuống bờ ao nhà tôi.",
+        "Tôi lên tiếng thì chú nhảy qua rào chạy mất.",
+        "Tôi sợ chuyện đồn ra, nên mới phải quỳ thưa trước.",
+        "Nếu chú Cóc có con thì lẽ nào để con ở xa như thế.",
+        "Đầu đen là giống phù sinh, xin quan soi xét kẻo oan.",
+        "Quan gắt: Các ngươi khéo gian ngoan!",
+        "Truyền gọi chứng cho bên Trê.",
+        "Mèo, Nheo, Trắm, Chép lần lượt nhảy ra khấu đầu thưa: Chúng tôi xưa nay hiền lành,",
+        "ai vùng vẫy ở đâu mặc ai, chỉ lo tránh lưới cho khỏi, đâu biết chuyện Trê Cóc,",
+        "xin đèn trời soi xét.",
+        "Cóc liền bẩm: Họ là vây cánh của nhau cả, còn tôi thân cô thế cô, ở chốn quê người,",
+        "xin quan cứu giúp đàn con thơ.",
+        "Quan truyền cho Cóc lui ra, còn Trê thì phải ở lại trại, đợi hỏi tiếp."
+      ],
+      "image": {
+        "prompt": "in the district court yard a catfish kneels before the frog magistrate and tells his side with fins raised, a row of fish witnesses kneel behind him, the toad stands to one side pleading, clerks in the background",
+        "seed": 833810582,
+        "character": "quan-huyen"
+      },
+      "video": {
+        "motionPrompt": "the catfish gestures as he speaks, the witnesses bow their heads in turn, the toad wrings her hands, the magistrate strokes his chin",
+        "seed": 2630455789
+      },
+      "voice": {}
+    },
+    {
+      "id": "tre-lo-lot",
+      "title": "Vợ chồng Trê lo lót",
+      "narrator": "ke-chuyen",
+      "narration": "Trong trại, Trê ngồi chờ mà lòng nóng như lửa. Mười anh lính canh thì chín anh đòi tiền, ai cũng đưa tay ra lấy một chút. Quan thì cứ lệnh, lính thì cứ truyền, Trê đành chịu cho họ đòi. Vợ chồng Trê ngậm ngùi, tiền nong tốn kém bao nhiêu cũng đành. Vợ Trê không nản, lặn suối trèo ghềnh đi tìm người hiểu việc kiện tụng giúp chồng. Nghe nói ở xa có ông Triều Đẩu là bậc anh hùng, bà bèn nhờ chim hoàng tước đưa tin hỏi thăm. Gặp ông, bà kể đầu đuôi: Tôi là vợ chàng Trê, nay chàng Cóc đã đưa đơn kiện, chồng tôi phải ở trại, thân đàn bà ngu dại vụng lo, nhờ quan bác liệu giúp. Ông Kình nghe xong nói: Chẳng ngại gì, ta đâu phải dính vào chuyện ấy. Nhưng có tên Lý Ngạnh ở thôn ngoài là kẻ dưới tay ta, tính nết độc địa xưa nay, ta sai nó đi giúp thì việc này hẳn xong. Ngày thì bị buộc cổ, đêm thì bị cùm chân, Trê ngồi trong trại chẳng yên được lúc nào. Trê nghe tin thì mừng, biết rằng nhờ có người giúp thì mình khó mà thua.",
+      "subtitles": [
+        "Trong trại, Trê ngồi chờ mà lòng nóng như lửa.",
+        "Mười anh lính canh thì chín anh đòi tiền, ai cũng đưa tay ra lấy một chút.",
+        "Quan thì cứ lệnh, lính thì cứ truyền, Trê đành chịu cho họ đòi.",
+        "Vợ chồng Trê ngậm ngùi, tiền nong tốn kém bao nhiêu cũng đành.",
+        "Vợ Trê không nản, lặn suối trèo ghềnh đi tìm người hiểu việc kiện tụng giúp chồng.",
+        "Nghe nói ở xa có ông Triều Đẩu là bậc anh hùng,",
+        "bà bèn nhờ chim hoàng tước đưa tin hỏi thăm.",
+        "Gặp ông, bà kể đầu đuôi: Tôi là vợ chàng Trê, nay chàng Cóc đã đưa đơn kiện,",
+        "chồng tôi phải ở trại, thân đàn bà ngu dại vụng lo, nhờ quan bác liệu giúp.",
+        "Ông Kình nghe xong nói: Chẳng ngại gì, ta đâu phải dính vào chuyện ấy.",
+        "Nhưng có tên Lý Ngạnh ở thôn ngoài là kẻ dưới tay ta, tính nết độc địa xưa nay,",
+        "ta sai nó đi giúp thì việc này hẳn xong.",
+        "Ngày thì bị buộc cổ, đêm thì bị cùm chân, Trê ngồi trong trại chẳng yên được lúc nào.",
+        "Trê nghe tin thì mừng, biết rằng nhờ có người giúp thì mình khó mà thua."
+      ],
+      "image": {
+        "prompt": "a worried catfish wife swims through a reed stream to meet a great whale-like fish in a stately robe, a little swallow-like bird delivers a message between them, soft underwater light, comic expressions",
+        "seed": 919664659,
+        "character": "vo-chong-tre"
+      },
+      "video": {
+        "motionPrompt": "the catfish wife bows deeply, the big fish nods slowly, the messenger bird flutters, bubbles rise",
+        "seed": 1860973386
+      },
+      "voice": {}
+    },
+    {
+      "id": "lot-tay-ly-nganh",
+      "title": "Lễ vật dâng thầy thông",
+      "narrator": "ke-chuyen",
+      "narration": "Nghe thấy nói thế, vợ chồng Trê mừng lắm, liền quỳ lạy Lý Ngạnh, kể thông mọi nỗi oan ức, rồi sửa soạn đồ lễ thật thịnh soạn gồm tôm he, cá mực, đủ các thứ ngon. Ngạnh nói: Việc quan ta đã quen tay, những kẻ cáo già oai phong lắm thay. Muốn xử cho xong thì trong bộ có thầy thông Chiên. Muốn trong ấm ngoài êm thì phải đưa lễ tốt cho các thầy mới được. Ngạnh nói thêm: Việc quan muốn xử cho xong, tay các thầy phải trơn tru. Nói rồi Ngạnh vào nhà riêng của quan trình bày. Trê ra lạy trước công đình, thưa rằng: Gọi là chút lễ mọn kính dâng, xin xét phận dân ngu hèn. Chồng tôi bị giam mấy phen, chẳng qua vì Cóc điên đảo làm đơn. Lòng tôi ngay thẳng, không dám mưu mô, nhờ ơn lưới rộng mở cho. Quan phán: Kêu thế biết sao, ta cũng chẳng cầu lợi gì. Nhưng cứ trong tình lý mà xét thì đơn của Cóc cũng có thể là huyền hoặc. Cho hai bên đối chất, có bên nguyên bên bị mới tường tận. Ngạnh còn khoe: Những kẻ cáo già nhà quan oai hầm lắm, ta quen cả rồi.",
+      "subtitles": [
+        "Nghe thấy nói thế, vợ chồng Trê mừng lắm, liền quỳ lạy Lý Ngạnh, kể thông mọi nỗi oan ức,",
+        "rồi sửa soạn đồ lễ thật thịnh soạn gồm tôm he, cá mực, đủ các thứ ngon.",
+        "Ngạnh nói: Việc quan ta đã quen tay, những kẻ cáo già oai phong lắm thay.",
+        "Muốn xử cho xong thì trong bộ có thầy thông Chiên.",
+        "Muốn trong ấm ngoài êm thì phải đưa lễ tốt cho các thầy mới được.",
+        "Ngạnh nói thêm: Việc quan muốn xử cho xong, tay các thầy phải trơn tru.",
+        "Nói rồi Ngạnh vào nhà riêng của quan trình bày.",
+        "Trê ra lạy trước công đình, thưa rằng: Gọi là chút lễ mọn kính dâng,",
+        "xin xét phận dân ngu hèn.",
+        "Chồng tôi bị giam mấy phen, chẳng qua vì Cóc điên đảo làm đơn.",
+        "Lòng tôi ngay thẳng, không dám mưu mô, nhờ ơn lưới rộng mở cho.",
+        "Quan phán: Kêu thế biết sao, ta cũng chẳng cầu lợi gì.",
+        "Nhưng cứ trong tình lý mà xét thì đơn của Cóc cũng có thể là huyền hoặc.",
+        "Cho hai bên đối chất, có bên nguyên bên bị mới tường tận.",
+        "Ngạnh còn khoe: Những kẻ cáo già nhà quan oai hầm lắm, ta quen cả rồi."
+      ],
+      "image": {
+        "prompt": "in a court corridor a catfish wife offers a tray of shrimp and fish and a scroll to a clever-eyed fish clerk in a long gown, behind them the frog magistrate waits at his table, lanterns glowing",
+        "seed": 2558296642,
+        "character": "vo-chong-tre"
+      },
+      "video": {
+        "motionPrompt": "the catfish offers the tray with a bow, the clerk peeks at the gifts and whispers, the magistrate looks on, lanterns sway",
+        "seed": 855198593
+      },
+      "voice": {}
+    },
+    {
+      "id": "doi-tung",
+      "title": "Hai bên đối chất",
+      "narrator": "ke-chuyen",
+      "narration": "Cóc ngồi sẵn bên tường, nghe quan phán liền nhảy ra mắng: Trê kia chớ có huyên thuyên! Dẫu hùm có cánh ta cũng chẳng sợ. Việc ấy rành rành, đừng bán dạ lâm trì làm điều khó coi, kẻo rắn cắn được voi cũng còn lâu. Ở đời mấy kiếp, đâu phải cứ khéo là hơn. Chỉ có nghề dạy khỉ leo cây, xui nguyên giục bị mới giỏi bày trò. Ai ngờ chuột xã thành cáo hồ, cậy thế làm hại người, rồi mỏ chim nanh chuột tranh hơi nhau chẳng biết bao nhiêu. Biết đâu chuyện gì cũng vì cậy thế làm hại người. Quan nói: Các ngươi chớ rối, việc quan đâu cần nhiều lời mới xong. Rồi quan sai mấy thầy lại đi nghiệm thực. Các thầy đến bên ao, cho mời cả lý dịch cùng khám xét. Thấy đàn nòng nọc lăm xăm vẫy vùng đen rầm một màu như Trê, các thầy bảo nhau: Rõ ràng chẳng còn ngờ gì nữa, đầu đuôi hình dáng giống Trê đó rồi. Các thầy biên rõ vào sổ rồi trở về bẩm quan: Chúng tôi vâng lệnh khám, thấy Trê quả có tình oan, đã có lý dịch ký đơn về trình.",
+      "subtitles": [
+        "Cóc ngồi sẵn bên tường, nghe quan phán liền nhảy ra mắng: Trê kia chớ có huyên thuyên!",
+        "Dẫu hùm có cánh ta cũng chẳng sợ.",
+        "Việc ấy rành rành, đừng bán dạ lâm trì làm điều khó coi,",
+        "kẻo rắn cắn được voi cũng còn lâu.",
+        "Ở đời mấy kiếp, đâu phải cứ khéo là hơn.",
+        "Chỉ có nghề dạy khỉ leo cây, xui nguyên giục bị mới giỏi bày trò.",
+        "Ai ngờ chuột xã thành cáo hồ, cậy thế làm hại người,",
+        "rồi mỏ chim nanh chuột tranh hơi nhau chẳng biết bao nhiêu.",
+        "Biết đâu chuyện gì cũng vì cậy thế làm hại người.",
+        "Quan nói: Các ngươi chớ rối, việc quan đâu cần nhiều lời mới xong.",
+        "Rồi quan sai mấy thầy lại đi nghiệm thực.",
+        "Các thầy đến bên ao, cho mời cả lý dịch cùng khám xét.",
+        "Thấy đàn nòng nọc lăm xăm vẫy vùng đen rầm một màu như Trê, các thầy bảo nhau:",
+        "Rõ ràng chẳng còn ngờ gì nữa, đầu đuôi hình dáng giống Trê đó rồi.",
+        "Các thầy biên rõ vào sổ rồi trở về bẩm quan: Chúng tôi vâng lệnh khám,",
+        "thấy Trê quả có tình oan, đã có lý dịch ký đơn về trình."
+      ],
+      "image": {
+        "prompt": "at the pond bank clerks in black hats bend over to inspect a swarm of black tadpoles in the water, an angry toad stands behind them pointing, a catfish watches smugly from the reeds, afternoon light",
+        "seed": 3289962401,
+        "character": "chi-coc"
+      },
+      "video": {
+        "motionPrompt": "the clerks bend over and peer into the water, the tadpoles dart about, the toad stamps her foot, the catfish grins in the reeds",
+        "seed": 2019650632
+      },
+      "voice": {}
+    },
+    {
+      "id": "coc-bi-giu",
+      "title": "Cóc bị giữ lại",
+      "narrator": "ke-chuyen",
+      "narration": "Đơn của Trê đề: dân đen Hùng Văn Trê ở xã Thái Cốc, huyện Đường Hào, phủ Hải Giang, trình bày mấy khúc đầu đuôi. Trong đơn, Trê viết rằng: Chúng tôi thường đi lại ở chốn ao sen, bất ngờ đêm ấy Cóc vào xuyên tạc, Trê phát giác thì Cóc nhảy qua rào, cậy thế hùng hào, nên chúng tôi trình lại cho quan rõ, xin quan cho về khám xét, thay trời trị chúng, đầu đuôi tình tiết đã biên rõ, mong ơn quan soi xét cho khỏi oan. Quan bèn gọi Cóc ra hỏi: Sao ngươi kiện sai làm vậy? Nay nha lại khám về, Trê rõ ràng là người ngay thẳng có gì đâu! Cóc quỳ xuống bẩm: Họ đã đút lót nhiều, nên mới nói những lời thế để bênh Trê. Các thầy trong bản nha nghe thế tức giận, bèn xin tội Cóc, bắt giữ lại để xét cho phân minh kẻo oan. Cóc ngồi dài thở ngắn, ruột gan đứt từng khúc than thở: Trời có biết chăng, nghiến răng nghiến lợi có thấu cho nỗi oan này không? Nếu ai làm điều oan ức thì xin tiếng sấm nổi lên cho thiên hạ thấy. Suốt đêm Cóc trằn trọc không sao ngủ được.",
+      "subtitles": [
+        "Đơn của Trê đề: dân đen Hùng Văn Trê ở xã Thái Cốc, huyện Đường Hào, phủ Hải Giang,",
+        "trình bày mấy khúc đầu đuôi.",
+        "Trong đơn, Trê viết rằng: Chúng tôi thường đi lại ở chốn ao sen,",
+        "bất ngờ đêm ấy Cóc vào xuyên tạc, Trê phát giác thì Cóc nhảy qua rào, cậy thế hùng hào,",
+        "nên chúng tôi trình lại cho quan rõ, xin quan cho về khám xét, thay trời trị chúng,",
+        "đầu đuôi tình tiết đã biên rõ, mong ơn quan soi xét cho khỏi oan.",
+        "Quan bèn gọi Cóc ra hỏi: Sao ngươi kiện sai làm vậy?",
+        "Nay nha lại khám về, Trê rõ ràng là người ngay thẳng có gì đâu!",
+        "Cóc quỳ xuống bẩm: Họ đã đút lót nhiều, nên mới nói những lời thế để bênh Trê.",
+        "Các thầy trong bản nha nghe thế tức giận, bèn xin tội Cóc,",
+        "bắt giữ lại để xét cho phân minh kẻo oan.",
+        "Cóc ngồi dài thở ngắn, ruột gan đứt từng khúc than thở: Trời có biết chăng,",
+        "nghiến răng nghiến lợi có thấu cho nỗi oan này không?",
+        "Nếu ai làm điều oan ức thì xin tiếng sấm nổi lên cho thiên hạ thấy.",
+        "Suốt đêm Cóc trằn trọc không sao ngủ được."
+      ],
+      "image": {
+        "prompt": "at night a toad sits alone in a plain holding room with a barred wooden window and a small lamp, looking up at the sky with sad eyes, a thin moon outside, gentle blue light",
+        "seed": 4026540546,
+        "character": "chi-coc"
+      },
+      "video": {
+        "motionPrompt": "the toad sighs and looks up, the lamp flame trembles, a faint cloud drifts across the moon",
+        "seed": 4294091626
+      },
+      "voice": {}
+    },
+    {
+      "id": "vo-coc-di-tim-thay",
+      "title": "Vợ Cóc đi tìm thầy giúp",
+      "narrator": "ke-chuyen",
+      "narration": "Vợ chồng Cóc ngồi trong trại, bàn bạc nỗi niềm trước sau. Cóc dặn vợ: Nàng cứ đi, thắng hay thua ta cũng sẵn lòng, miễn là cho đàn con được trở về với mẹ. Vợ Cóc nói: Phải tìm thầy giỏi cho mau, để thiếp rõ chuyện trước sau mười phần. Đua nhau bằng trí khôn mà thôi, thắng không mừng, thua không ngại, thiếp xin đi lại lo liệu, làm sao cho trả được oán thù mới nghe. Rồi bà đi khắp nơi, qua miền chẫu chuộc, tới miền ễnh ương, lặn suối trèo nương, xuống giếng sâu bụi bặm, lòng càng ngẩn ngơ. May sao, đúng lúc mưa dông, bà thấy anh Ếch đang ngồi chơi ngoài cõi ngoài. Ếch nhác trông thấy Cóc thì ngạc nhiên: Sao chị đến đây, trông thân thể mệt mỏi thế này, có việc gì chăng? Xin cứ nói thật, đừng giấu. Cóc kể: Chồng con tôi lo âu. Trê gian manh bắt con tôi, rồi đút lót quan nha, nên tôi bị giam. Tôi lặn suối tới đây nhờ anh liệu giúp.",
+      "subtitles": [
+        "Vợ chồng Cóc ngồi trong trại, bàn bạc nỗi niềm trước sau.",
+        "Cóc dặn vợ: Nàng cứ đi, thắng hay thua ta cũng sẵn lòng,",
+        "miễn là cho đàn con được trở về với mẹ.",
+        "Vợ Cóc nói: Phải tìm thầy giỏi cho mau, để thiếp rõ chuyện trước sau mười phần.",
+        "Đua nhau bằng trí khôn mà thôi, thắng không mừng, thua không ngại,",
+        "thiếp xin đi lại lo liệu, làm sao cho trả được oán thù mới nghe.",
+        "Rồi bà đi khắp nơi, qua miền chẫu chuộc, tới miền ễnh ương, lặn suối trèo nương,",
+        "xuống giếng sâu bụi bặm, lòng càng ngẩn ngơ.",
+        "May sao, đúng lúc mưa dông, bà thấy anh Ếch đang ngồi chơi ngoài cõi ngoài.",
+        "Ếch nhác trông thấy Cóc thì ngạc nhiên: Sao chị đến đây, trông thân thể mệt mỏi thế này,",
+        "có việc gì chăng?",
+        "Xin cứ nói thật, đừng giấu.",
+        "Cóc kể: Chồng con tôi lo âu.",
+        "Trê gian manh bắt con tôi, rồi đút lót quan nha, nên tôi bị giam.",
+        "Tôi lặn suối tới đây nhờ anh liệu giúp."
+      ],
+      "image": {
+        "prompt": "a worried mother toad hops across wet muddy country and meets a calm green frog sitting by a puddle under falling rain with a leaf umbrella, small ponds and reeds around",
+        "seed": 1163407880,
+        "character": "chi-coc"
+      },
+      "video": {
+        "motionPrompt": "the toad hops over to the frog, raindrops patter, the frog tilts his leaf umbrella toward her, reeds sway",
+        "seed": 3788994252
+      },
+      "voice": {}
+    },
+    {
+      "id": "gap-nhai-ben",
+      "title": "Gặp thầy kiện Nhái Bén",
+      "narrator": "ke-chuyen",
+      "narration": "Ếch nói: Nhà tôi đồng trắng nước trong, tiếng cả nhà cũng chẳng có gì cả. Nhưng thấy chị nài nỉ, tôi giúp được gì cũng xin giúp. Về nghề thầy kiện, có chàng Nhái Bén là bậc thầy lão luyện, đơn từ mẹo mực cái nào cũng ngon. Muốn việc xong thì phải đến hỏi chàng. Cóc nghe lời, trở đi khắp các miền hỏi thăm, nước non cây cối lặng im, một mình Cóc băn khoăn. Rồi bà thấy Nhái Bén đang nằm nghỉ dưới bóng mát, gió đưa ngọn cỏ xào xạc. Bén chào: Chị Cóc đến chơi, việc gì mà phải tìm tôi? Cóc muôn lần cảm tạ, rồi kể rằng: Vì tình mà phải mang tình, vì Trê mà tôi phải đến nhờ anh. Nói ra lắm điều bất bình. Trê cố lòng lấy của cướp người, đơn từ điên đảo, quan lại cũng tham chẳng ngay, nên tôi phải giam bấy lâu. Tôi nghĩ càng thảm càng rầu, chẳng biết ai nông sâu mà bàn, nên quản gì đường xa, trước nhờ Ếch, sau mới tới được nhà anh. Dù lẽ dại đường khôn, xin anh chỉ giáo cho. Bén đáp: Chuyện đàn bà thật ngán. Cùng một kiếp phù sinh, tranh giành làm gì? Trê kia ngu si, tham dại, chẳng nghĩ nông sâu. Con chị đang ở dưới nước, đâu dễ làm gì. Cứ để Trê nuôi, đến khi đàn nòng nọc đứt đuôi thì chúng tự tìm về mẹ là hơn. Muốn êm ái đôi bên thì xin quan cho Cóc về. Nhược bằng có dạ tranh thi, thì làm đơn phục, đơn kêu lại một lần nữa, Trê khó gì mà không thua.",
+      "subtitles": [
+        "Ếch nói: Nhà tôi đồng trắng nước trong, tiếng cả nhà cũng chẳng có gì cả.",
+        "Nhưng thấy chị nài nỉ, tôi giúp được gì cũng xin giúp.",
+        "Về nghề thầy kiện, có chàng Nhái Bén là bậc thầy lão luyện,",
+        "đơn từ mẹo mực cái nào cũng ngon.",
+        "Muốn việc xong thì phải đến hỏi chàng.",
+        "Cóc nghe lời, trở đi khắp các miền hỏi thăm, nước non cây cối lặng im,",
+        "một mình Cóc băn khoăn.",
+        "Rồi bà thấy Nhái Bén đang nằm nghỉ dưới bóng mát, gió đưa ngọn cỏ xào xạc.",
+        "Bén chào: Chị Cóc đến chơi, việc gì mà phải tìm tôi?",
+        "Cóc muôn lần cảm tạ, rồi kể rằng: Vì tình mà phải mang tình,",
+        "vì Trê mà tôi phải đến nhờ anh.",
+        "Nói ra lắm điều bất bình.",
+        "Trê cố lòng lấy của cướp người, đơn từ điên đảo, quan lại cũng tham chẳng ngay,",
+        "nên tôi phải giam bấy lâu.",
+        "Tôi nghĩ càng thảm càng rầu, chẳng biết ai nông sâu mà bàn, nên quản gì đường xa,",
+        "trước nhờ Ếch, sau mới tới được nhà anh.",
+        "Dù lẽ dại đường khôn, xin anh chỉ giáo cho.",
+        "Bén đáp: Chuyện đàn bà thật ngán.",
+        "Cùng một kiếp phù sinh, tranh giành làm gì?",
+        "Trê kia ngu si, tham dại, chẳng nghĩ nông sâu.",
+        "Con chị đang ở dưới nước, đâu dễ làm gì.",
+        "Cứ để Trê nuôi, đến khi đàn nòng nọc đứt đuôi thì chúng tự tìm về mẹ là hơn.",
+        "Muốn êm ái đôi bên thì xin quan cho Cóc về.",
+        "Nhược bằng có dạ tranh thi, thì làm đơn phục, đơn kêu lại một lần nữa,",
+        "Trê khó gì mà không thua."
+      ],
+      "image": {
+        "prompt": "a small clever tree frog with a tiny scholar hat lies at ease in the shade of a leaf while the mother toad bows to him asking for advice, tall grass swaying in the breeze, dappled light",
+        "seed": 2995464356,
+        "character": "nhai-ben"
+      },
+      "video": {
+        "motionPrompt": "the tree frog lazily waves a leaf fan and explains, the toad bows and listens eagerly, grass sways in the breeze",
+        "seed": 1484999821
+      },
+      "voice": {}
+    },
+    {
+      "id": "don-phuc-quan-xu",
+      "title": "Đơn phục và phán quyết",
+      "narrator": "ke-chuyen",
+      "narration": "Cóc nghe lời, nài nỉ: Xin cho tôi bõ ghét Trê mới đành. Bén nhận giúp. Vợ Cóc cảm tạ rồi trở về dặn chồng đủ điều, quả đúng như lời Bén nói. Cả nhà cười cười nói nói rồi sửa lễ vật tới công đường, Cóc vào dâng lễ, quỳ trình đơn, theo sau còn có cả một lũ Cóc con. Trong đơn phục, Cóc viết: Trời sinh có giống, ai dám nhận càn, Trê quả có lòng gian, tìm đường giam giữ chúng tôi. Nay đã được thả, trở về chốn cũ, trần tình cùng quan, vì yếu thế nên phải chịu im, xin ơn trên soi xét. Quan nổi giận lôi đình: Nha môn sao dám tự ý làm vậy! Quan đòi các thầy đến, các thầy hiệp nghị rồi thưa: Bẩm quan, con tạo đảo điên, sinh sinh hóa hóa, chúng tôi giữ việc lòng ngay, đâu dám gian dối. Quan truyền gọi Trê ra hỏi lại. Sau mấy phen tra hỏi, gian ngay đã rõ, Trê chẳng dám chối nữa mà phải nhận hết mọi điều. Quan phán: Trê có lòng tham, đoạt con người ta, theo lý luật phải đưa đi đày ở nơi xa ba nghìn dặm, lại phải chịu mọi đồ vật cho thanh bạch. Còn Cóc, được con là quý, chớ kêu thêm nữa, việc này đã xong. Trê có lòng tham thì cứ đày đi nơi xa, ta không bỏ qua.",
+      "subtitles": [
+        "Cóc nghe lời, nài nỉ: Xin cho tôi bõ ghét Trê mới đành.",
+        "Bén nhận giúp.",
+        "Vợ Cóc cảm tạ rồi trở về dặn chồng đủ điều, quả đúng như lời Bén nói.",
+        "Cả nhà cười cười nói nói rồi sửa lễ vật tới công đường, Cóc vào dâng lễ, quỳ trình đơn,",
+        "theo sau còn có cả một lũ Cóc con.",
+        "Trong đơn phục, Cóc viết: Trời sinh có giống, ai dám nhận càn, Trê quả có lòng gian,",
+        "tìm đường giam giữ chúng tôi.",
+        "Nay đã được thả, trở về chốn cũ, trần tình cùng quan, vì yếu thế nên phải chịu im,",
+        "xin ơn trên soi xét.",
+        "Quan nổi giận lôi đình: Nha môn sao dám tự ý làm vậy!",
+        "Quan đòi các thầy đến, các thầy hiệp nghị rồi thưa: Bẩm quan, con tạo đảo điên,",
+        "sinh sinh hóa hóa, chúng tôi giữ việc lòng ngay, đâu dám gian dối.",
+        "Quan truyền gọi Trê ra hỏi lại.",
+        "Sau mấy phen tra hỏi, gian ngay đã rõ, Trê chẳng dám chối nữa mà phải nhận hết mọi điều.",
+        "Quan phán: Trê có lòng tham, đoạt con người ta,",
+        "theo lý luật phải đưa đi đày ở nơi xa ba nghìn dặm,",
+        "lại phải chịu mọi đồ vật cho thanh bạch.",
+        "Còn Cóc, được con là quý, chớ kêu thêm nữa, việc này đã xong.",
+        "Trê có lòng tham thì cứ đày đi nơi xa, ta không bỏ qua."
+      ],
+      "image": {
+        "prompt": "the frog magistrate at the high table gestures decisively while the catfish couple kneel with drooping whiskers, the toad family with a row of little toads watches hopefully, scrolls and brush pens, lanterns",
+        "seed": 3834557796,
+        "character": "quan-huyen"
+      },
+      "video": {
+        "motionPrompt": "the magistrate speaks and gestures, the catfish bow down in shame, the little toads hop in place, lanterns sway",
+        "seed": 3104185344
+      },
+      "voice": {}
+    },
+    {
+      "id": "toi-ca-nha-mung",
+      "title": "Tạ ơn và tiệc mừng",
+      "narrator": "ke-chuyen",
+      "narration": "Cóc vào bái tạ quan: Ngửa trông đức cả cao xa, non công bể đức xiết bao, xin quan nhận chút lễ mọn thay lời tạ ơn đàn con. Quan nói: Thôi chớ ân cần, thế cũng đã là hậu hĩ, lễ vật cứ đem về. Cóc từ tạ ra về, bước ra khỏi chốn công đường, vợ chồng mừng rỡ đề huề, ngổn ngang chuyện vui. Nhưng vừa bước khỏi công đường thì thầy thông Chiên đã giật lễ, thầy Đề Tôm cướp tiền, ôm đầu vỗ vế ngả nghiêng, kẻ đòi bầu rượu, người xin bao chè. Mặc kệ, Cóc thắng kiện trở về, họ hàng náo nức ngồi mừng vui. Cả nhà quây quần, họ hàng gần xa đều đến chia vui. Chè sen rượu cúc thảnh thơi, Cóc ngồi chuyện trò, Nhái Bén ngồi ngâm thơ, tiếng cười nói vang lừng, mọi người xướng ca thỏa thích. Mới hay duyên gặp gỡ, anh hùng nhận ra anh hùng. Người xưa ngẫm chuyện thế gian mà phì cười: cũng là cái trò chơi đời đấy mà, vẽ vời mấy tiếng ngâm nga, để tỏ tường lẽ phải cho người đời nghe.",
+      "subtitles": [
+        "Cóc vào bái tạ quan: Ngửa trông đức cả cao xa, non công bể đức xiết bao,",
+        "xin quan nhận chút lễ mọn thay lời tạ ơn đàn con.",
+        "Quan nói: Thôi chớ ân cần, thế cũng đã là hậu hĩ, lễ vật cứ đem về.",
+        "Cóc từ tạ ra về, bước ra khỏi chốn công đường, vợ chồng mừng rỡ đề huề,",
+        "ngổn ngang chuyện vui.",
+        "Nhưng vừa bước khỏi công đường thì thầy thông Chiên đã giật lễ, thầy Đề Tôm cướp tiền,",
+        "ôm đầu vỗ vế ngả nghiêng, kẻ đòi bầu rượu, người xin bao chè.",
+        "Mặc kệ, Cóc thắng kiện trở về, họ hàng náo nức ngồi mừng vui.",
+        "Cả nhà quây quần, họ hàng gần xa đều đến chia vui.",
+        "Chè sen rượu cúc thảnh thơi, Cóc ngồi chuyện trò, Nhái Bén ngồi ngâm thơ,",
+        "tiếng cười nói vang lừng, mọi người xướng ca thỏa thích.",
+        "Mới hay duyên gặp gỡ, anh hùng nhận ra anh hùng.",
+        "Người xưa ngẫm chuyện thế gian mà phì cười: cũng là cái trò chơi đời đấy mà,",
+        "vẽ vời mấy tiếng ngâm nga, để tỏ tường lẽ phải cho người đời nghe."
+      ],
+      "image": {
+        "prompt": "outside the court a happy toad family with a row of little toads walks home while clerks in black hats grab at a basket of gifts behind them, then a cheerful pond party with a tree frog reciting poetry, lanterns and lotus tea",
+        "seed": 1055967010,
+        "character": "chi-coc"
+      },
+      "video": {
+        "motionPrompt": "the toad family hops home happily, the clerks fumble over the basket, the party guests clap, lanterns sway",
+        "seed": 1214502739
       },
       "voice": {}
     },
@@ -201,21 +564,29 @@
       "id": "ket-thuc",
       "title": "Mèo Miu chào tạm biệt",
       "narrator": "miu",
-      "narration": "Các bạn thấy không, vợ chồng Trê chỉ nhìn cái đuôi đã vội nhận con của người khác. Nhưng thứ không phải của mình thì sớm muộn gì sự thật cũng lộ ra. Còn Nhái Bén thì khôn lắm, biết rằng có lúc cần kiên nhẫn chờ đợi mới thấy được điều đúng. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
+      "narration": "Các bạn thấy không, chuyện nhà Cóc nhà Trê bắt đầu chỉ vì một đàn nòng nọc, mà lại làm rối cả ao làng. Truyện thơ này vốn để chê thói tranh hơi tức khí gây nên kiện tụng, và chê cả những người sai nha đòi tiền, những kẻ xui nguyên giục bị. Ông bà ta kể chuyện này để nhắc rằng tranh hơi tức khí thì chẳng được gì, lại tốn bao nhiêu công sức, tiền của. Còn việc nhận bừa con của người khác như vợ chồng Trê thì sớm muộn sự thật cũng lộ ra thôi. Điều gì không phải của mình thì đừng ham, các bạn nhé. Và nếu có chuyện bất bình, hãy nói với người lớn để cùng tìm cách giải quyết ôn hòa. Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!",
       "subtitles": [
-        "Các bạn thấy không, vợ chồng Trê chỉ nhìn cái đuôi đã vội nhận con của người khác.",
-        "Nhưng thứ không phải của mình thì sớm muộn gì sự thật cũng lộ ra.",
-        "Còn Nhái Bén thì khôn lắm, biết rằng có lúc cần kiên nhẫn chờ đợi mới thấy được điều đúng.",
-        "Miu kể đến đây là hết rồi. Hẹn gặp lại các bạn nhé!"
+        "Các bạn thấy không, chuyện nhà Cóc nhà Trê bắt đầu chỉ vì một đàn nòng nọc,",
+        "mà lại làm rối cả ao làng.",
+        "Truyện thơ này vốn để chê thói tranh hơi tức khí gây nên kiện tụng,",
+        "và chê cả những người sai nha đòi tiền, những kẻ xui nguyên giục bị.",
+        "Ông bà ta kể chuyện này để nhắc rằng tranh hơi tức khí thì chẳng được gì,",
+        "lại tốn bao nhiêu công sức, tiền của.",
+        "Còn việc nhận bừa con của người khác như vợ chồng Trê thì sớm muộn sự thật cũng lộ ra",
+        "thôi.",
+        "Điều gì không phải của mình thì đừng ham, các bạn nhé.",
+        "Và nếu có chuyện bất bình, hãy nói với người lớn để cùng tìm cách giải quyết ôn hòa.",
+        "Miu kể đến đây là hết rồi.",
+        "Hẹn gặp lại các bạn nhé!"
       ],
       "image": {
-        "character": "miu",
-        "prompt": "Meo Miu the voxel white cat waves goodbye at the pond edge, the mother toad and her many little baby toads and the clever tree frog sit together on a big lotus leaf, golden sunset light",
-        "seed": 2375738718
+        "prompt": "the cute white voxel cat storyteller waves goodbye by the village pond where a mother toad hugs her little toads and a catfish couple watches shyly, golden afternoon light",
+        "seed": 3164976294,
+        "character": "miu"
       },
       "video": {
-        "motionPrompt": "the cat waves slowly, the baby toads hop around their mother, the tree frog tips his tiny hat, ripples sparkle, gentle camera pull-back",
-        "seed": 2620674479
+        "motionPrompt": "the cat waves a paw, the little toads hop around their mother, the catfish wave their fins, gentle camera pull-back",
+        "seed": 4014782524
       },
       "voice": {}
     }
