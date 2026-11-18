@@ -2,13 +2,15 @@ import { cpSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } f
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { afterEach, describe, expect, it } from 'vitest';
-import { STORIES_DIR, loadStories, loadStory, writeStory } from './story-files';
+import { loadStories, loadStory, writeStory } from './story-files';
 
 const dirs: string[] = [];
 function tempStories(): string {
   const dir = mkdtempSync(path.join(tmpdir(), 'truyen-stories-'));
   dirs.push(dir);
-  cpSync(path.join(STORIES_DIR, 'son-tinh-thuy-tinh'), path.join(dir, 'son-tinh-thuy-tinh'), { recursive: true });
+  // The frozen text-only pilot: the real stories/son-tinh-thuy-tinh now has its media files.
+  mkdirSync(path.join(dir, 'son-tinh-thuy-tinh'));
+  cpSync(new URL('../packages/story/test-fixtures/pilot-story.json', import.meta.url), path.join(dir, 'son-tinh-thuy-tinh', 'story.json'));
   return dir;
 }
 afterEach(() => {

@@ -7,7 +7,10 @@ describe('story files on the site', () => {
   it('serves the list and each story.json, and only the media a story refers to', () => {
     const { stories } = loadStories();
     const files = storySiteFiles(stories);
-    expect([...files.keys()]).toEqual(['stories/index.json', ...stories.map(({ slug }) => `stories/${slug}/story.json`)]);
+    const keys = [...files.keys()];
+    const isMedia = (key: string): boolean => key.includes('/media/');
+    expect(keys.filter((key) => !isMedia(key))).toEqual(['stories/index.json', ...stories.map(({ slug }) => `stories/${slug}/story.json`)]);
+    for (const key of keys.filter(isMedia)) expect(stories.some(({ slug }) => key.startsWith(`stories/${slug}/media/`)), key).toBe(true);
     expect(files.has('stories/son-tinh-thuy-tinh/story.json')).toBe(true);
     const index = files.get('stories/index.json');
     const list = JSON.parse(index && 'text' in index ? index.text : '[]') as StoryListEntry[];

@@ -1,9 +1,7 @@
 import { readFileSync } from 'node:fs';
-import path from 'node:path';
 import { type Story, validateStory } from '@truyen/story';
 import { describe, expect, it } from 'vitest';
 import { type CatalogEntry, type StoryFacts, checkCatalog, readCatalog, storyStatus } from './story-catalog';
-import { STORIES_DIR } from './story-files';
 
 const entry = (overrides: Partial<CatalogEntry> = {}): CatalogEntry => ({
   slug: 'cay-khe',
@@ -17,8 +15,9 @@ const entry = (overrides: Partial<CatalogEntry> = {}): CatalogEntry => ({
 const written = (facts: Partial<StoryFacts> = {}): StoryFacts => ({ shelf: 'kids', title: 'Cây khế', status: 'text', ...facts });
 const check = (data: unknown, stories: Record<string, StoryFacts | null> = {}) => checkCatalog(data, new Map(Object.entries(stories)));
 
-function readStory(slug: string): Story {
-  const result = validateStory(JSON.parse(readFileSync(path.join(STORIES_DIR, slug, 'story.json'), 'utf8')), slug);
+/** The pilot story as it was before any media existed: the real stories/son-tinh-thuy-tinh now has its media. */
+function textOnlyPilot(): Story {
+  const result = validateStory(JSON.parse(readFileSync(new URL('../packages/story/test-fixtures/pilot-story.json', import.meta.url), 'utf8')), 'son-tinh-thuy-tinh');
   if (!result.ok) throw new Error(result.errors.join('\n'));
   return result.story;
 }
@@ -89,7 +88,7 @@ describe('checkCatalog', () => {
 
 describe('storyStatus', () => {
   it('is text while a story has no media, media once a file exists, live with the whole recording', () => {
-    const story = readStory('son-tinh-thuy-tinh');
+    const story = textOnlyPilot();
     expect(storyStatus(story)).toBe('text');
     expect(storyStatus({ ...story, music: { ...story.music, file: 'media/music.m4a' } })).toBe('media');
     expect(storyStatus({ ...story, track: { file: 'media/story.m4a', duration: 60, scenes: [] } })).toBe('live');

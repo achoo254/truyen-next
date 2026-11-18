@@ -4,7 +4,7 @@ import { describe, expect, it } from 'vitest';
 import { MOTION_SIZE, STILL_SIZE, TRACK_FILE, applyRecord, planStoryBuild, shellQuote, trackMixCommand } from './story-build-plan';
 import { layOutTrack } from '@truyen/story';
 
-const pilot = (): Story => JSON.parse(readFileSync(new URL('../stories/son-tinh-thuy-tinh/story.json', import.meta.url), 'utf8')) as Story;
+const pilot = (): Story => JSON.parse(readFileSync(new URL('../packages/story/test-fixtures/pilot-story.json', import.meta.url), 'utf8')) as Story;
 const TOOLS = { python: 'python3', artgenDir: '/skills/inet-artgen/' };
 const ARTGEN = ['python3', '/skills/inet-artgen/artgen.py'];
 

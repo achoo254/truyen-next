@@ -6,7 +6,8 @@ import { SHELF_RULES, estimateStorySeconds, storyMediaFiles, validateStory, word
 
 const STORIES = new URL('../../../stories/', import.meta.url);
 const read = (slug: string): Story => JSON.parse(readFileSync(new URL(`${slug}/story.json`, STORIES), 'utf8')) as Story;
-const pilot = (): Story => read('son-tinh-thuy-tinh');
+/** The pilot story as it was before any media existed: these tests need a story with no pictures or voices. */
+const pilot = (): Story => JSON.parse(readFileSync(new URL('../test-fixtures/pilot-story.json', import.meta.url), 'utf8')) as Story;
 /** An adults' shelf story of the repository. */
 const adult = (): Story => read('su-tich-ho-guom');
 const SLUGS = readdirSync(STORIES, { withFileTypes: true }).filter((entry) => entry.isDirectory()).map((entry) => entry.name);
@@ -39,8 +40,10 @@ describe('the stories of the repository', () => {
     expect(pilot().shelf).toBe('kids');
   });
 
-  it('refers to no media yet: nothing has been generated', () => {
-    for (const slug of SLUGS) expect(storyMediaFiles(read(slug))).toEqual([]);
+  it('refers to media only inside its own media folder', () => {
+    for (const slug of SLUGS) {
+      for (const file of storyMediaFiles(read(slug))) expect(file.startsWith('media/'), `${slug}: ${file}`).toBe(true);
+    }
   });
 });
 
