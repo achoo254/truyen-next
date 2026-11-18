@@ -24,38 +24,44 @@
     {
       "id": "vu-nuong",
       "name": "Vũ Nương",
+      "sheetPrompt": "Vu Nuong, a graceful young Vietnamese woman of the late fourteenth century, oval face with calm sorrowful dignity, long black hair coiled under a dark brown head wrap, plain brown cross-collar ao giao lanh over a cream inner garment and a long black skirt, simple wooden hairpin, full body, front view, plain aged silk background, character reference sheet",
       "seed": 41501,
-      "sheetPrompt": "Vu Nuong, a graceful young Vietnamese woman of the late fourteenth century, oval face with calm sorrowful dignity, long black hair coiled under a dark brown head wrap, plain brown cross-collar ao giao lanh over a cream inner garment and a long black skirt, simple wooden hairpin, full body, front view, plain aged silk background, character reference sheet"
+      "file": "media/characters/vu-nuong.webp"
     },
     {
       "id": "me-truong",
       "name": "Mẹ Trương Sinh",
+      "sheetPrompt": "the mother of Truong Sinh, a frail elderly Vietnamese village woman of the late fourteenth century, kind lined face, grey hair tied in a small bun under a dark head wrap, faded brown cross-collar ao giao lanh and a black skirt, leaning on a bamboo cane, full body, front view, plain aged silk background, character reference sheet",
       "seed": 41506,
-      "sheetPrompt": "the mother of Truong Sinh, a frail elderly Vietnamese village woman of the late fourteenth century, kind lined face, grey hair tied in a small bun under a dark head wrap, faded brown cross-collar ao giao lanh and a black skirt, leaning on a bamboo cane, full body, front view, plain aged silk background, character reference sheet"
+      "file": "media/characters/me-truong.webp"
     },
     {
       "id": "truong-sinh",
       "name": "Trương Sinh",
+      "sheetPrompt": "Truong Sinh, a young Vietnamese man of a wealthy village family of the late fourteenth century, handsome but stern and suspicious face, thin moustache, dark indigo cross-collar robe with a black sash and a black head turban, full body, front view, plain aged silk background, character reference sheet",
       "seed": 41502,
-      "sheetPrompt": "Truong Sinh, a young Vietnamese man of a wealthy village family of the late fourteenth century, handsome but stern and suspicious face, thin moustache, dark indigo cross-collar robe with a black sash and a black head turban, full body, front view, plain aged silk background, character reference sheet"
+      "file": "media/characters/truong-sinh.webp"
     },
     {
       "id": "be-dan",
       "name": "Bé Đản",
+      "sheetPrompt": "Dan, a small Vietnamese village boy of about three years old in the late fourteenth century, round innocent face, tuft of hair on the crown, plain brown tunic and short trousers, barefoot, pointing with one finger, full body, front view, plain aged silk background, character reference sheet",
       "seed": 41503,
-      "sheetPrompt": "Dan, a small Vietnamese village boy of about three years old in the late fourteenth century, round innocent face, tuft of hair on the crown, plain brown tunic and short trousers, barefoot, pointing with one finger, full body, front view, plain aged silk background, character reference sheet"
+      "file": "media/characters/be-dan.webp"
     },
     {
       "id": "phan-lang",
       "name": "Phan Lang",
+      "sheetPrompt": "Phan Lang, a modest kind Vietnamese villager of the late fourteenth century, honest weathered face, short beard, faded blue cross-collar tunic and rolled trousers, a conical hat on his back, full body, front view, plain aged silk background, character reference sheet",
       "seed": 41504,
-      "sheetPrompt": "Phan Lang, a modest kind Vietnamese villager of the late fourteenth century, honest weathered face, short beard, faded blue cross-collar tunic and rolled trousers, a conical hat on his back, full body, front view, plain aged silk background, character reference sheet"
+      "file": "media/characters/phan-lang.webp"
     },
     {
       "id": "linh-phi",
       "name": "Linh Phi",
+      "sheetPrompt": "Linh Phi, the serene queen of the Southern Sea water palace in Vietnamese legend, gentle wise face, long hair in an elaborate bun with pearl and jade ornaments, flowing sea-green and silver robes with turtle-shell and wave patterns, full body, front view, plain aged silk background, character reference sheet",
       "seed": 41505,
-      "sheetPrompt": "Linh Phi, the serene queen of the Southern Sea water palace in Vietnamese legend, gentle wise face, long hair in an elaborate bun with pearl and jade ornaments, flowing sea-green and silver robes with turtle-shell and wave patterns, full body, front view, plain aged silk background, character reference sheet"
+      "file": "media/characters/linh-phi.webp"
     }
   ],
   "scenes": [
@@ -81,13 +87,16 @@
       "image": {
         "prompt": "a riverside village of Nam Xuong in fourteenth-century Vietnam, the graceful young bride Vu Nuong in a plain brown cross-collar dress serves tea with lowered eyes in a modest courtyard, her new husband Truong Sinh sits on a bamboo bench watching her with a guarded, jealous look, areca palms and bamboo, soft morning mist",
         "seed": 52501,
-        "character": "vu-nuong"
+        "character": "vu-nuong",
+        "file": "media/scenes/nam-xuong.webp"
       },
       "video": {
         "motionPrompt": "steam rises from the teacup, the young wife sets the pot down quietly, the husband narrows his eyes, bamboo leaves stir in a light wind, slow camera push-in",
         "seed": 63501
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/nam-xuong.m4a"
+      }
     },
     {
       "id": "tien-chong",
@@ -122,13 +131,16 @@
       "image": {
         "prompt": "at a misty village crossroads at dawn, Vu Nuong offers a small cup of wine with both hands to her husband Truong Sinh dressed as a conscripted soldier, his aged mother leaning on a cane beside them, Truong Sinh kneeling before his mother, war banners and drums of departing troops fading into the haze",
         "seed": 52502,
-        "character": "vu-nuong"
+        "character": "vu-nuong",
+        "file": "media/scenes/tien-chong.webp"
       },
       "video": {
         "motionPrompt": "mist drifts across the road, the husband lifts the cup slowly, the mother wipes her eyes, distant banners flutter and move away, slow sideways camera pan",
         "seed": 63502
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/tien-chong.m4a"
+      }
     },
     {
       "id": "con-tho",
@@ -150,13 +162,16 @@
       "image": {
         "prompt": "a quiet thatched house garden in late summer, Vu Nuong holding her baby son on her hip gazes past butterflies toward distant mountains wrapped in dark clouds, through the open door her ailing mother-in-law rests on a bamboo bed with a bowl of herbal medicine nearby",
         "seed": 52503,
-        "character": "vu-nuong"
+        "character": "vu-nuong",
+        "file": "media/scenes/con-tho.webp"
       },
       "video": {
         "motionPrompt": "butterflies flutter over the garden, clouds roll slowly over the far mountains, the baby stirs in her arms, a light breeze moves her sleeves, slow camera push-in",
         "seed": 63503
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/con-tho.m4a"
+      }
     },
     {
       "id": "loi-troi",
@@ -182,13 +197,16 @@
       "image": {
         "prompt": "inside a dim thatched house by the light of an oil lamp, the frail old mother lies on a bamboo bed and holds the hand of her kneeling daughter-in-law Vu Nuong, a small boy asleep on a mat nearby, an incense burner on a simple altar",
         "seed": 52504,
-        "character": "me-truong"
+        "character": "me-truong",
+        "file": "media/scenes/loi-troi.webp"
       },
       "video": {
         "motionPrompt": "the lamp flame trembles softly, the old woman tightens her grip on the young woman hand then slowly lets go, incense smoke curls upward, very slow camera push-in",
         "seed": 63504
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/loi-troi.m4a"
+      }
     },
     {
       "id": "tro-ve",
@@ -212,13 +230,16 @@
       "image": {
         "prompt": "in an open field of tall grass under a grey sky, Truong Sinh in a worn soldier tunic carries his small son Dan toward a simple grave mound, the toddler pulls away and stares at him doubtfully, incense sticks smoking at the grave, distant bamboo groves",
         "seed": 52505,
-        "character": "be-dan"
+        "character": "be-dan",
+        "file": "media/scenes/tro-ve.webp"
       },
       "video": {
         "motionPrompt": "grass bends in the wind, incense smoke curls upward, the child turns his face away and points, the man frowns and stops walking, slow camera push-in",
         "seed": 63505
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/tro-ve.m4a"
+      }
     },
     {
       "id": "long-ghen",
@@ -246,13 +267,16 @@
       "image": {
         "prompt": "inside the family house, Truong Sinh stands with an angry arm pointing toward the door, Vu Nuong kneels in tears with hands clasped in plea, relatives and village elders crowd the doorway raising their hands to speak for her, little Dan clutching a wooden post in confusion",
         "seed": 52506,
-        "character": "truong-sinh"
+        "character": "truong-sinh",
+        "file": "media/scenes/long-ghen.webp"
       },
       "video": {
         "motionPrompt": "the man jabs his finger toward the door, the kneeling woman bows lower, the elders step forward pleading, a hanging lamp sways, tense still camera",
         "seed": 63506
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/long-ghen.m4a"
+      }
     },
     {
       "id": "tram-gay",
@@ -275,13 +299,16 @@
       "image": {
         "prompt": "Vu Nuong alone in a dim room, a broken hairpin and a fallen vase on the floor before her, she gazes through a lattice window at a faded lotus pond and a wind-bent willow, a lone swallow in the grey sky, quiet desolation",
         "seed": 52507,
-        "character": "vu-nuong"
+        "character": "vu-nuong",
+        "file": "media/scenes/tram-gay.webp"
       },
       "video": {
         "motionPrompt": "willow branches sway in the wind, wilted lotus leaves tremble on the pond, a single swallow circles and flies away, the woman lowers her eyes, slow camera pull-back",
         "seed": 63507
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/tram-gay.m4a"
+      }
     },
     {
       "id": "hoang-giang",
@@ -309,13 +336,16 @@
       "image": {
         "prompt": "at dusk on the wide misty bank of the Hoang Giang river, the lone figure of Vu Nuong in a plain clean robe stands at the edge of a wooden landing with face lifted to the pale sky, hands joined in prayer, reeds and a single empty boat, a calm melancholy scene seen from a distance",
         "seed": 52508,
-        "character": "vu-nuong"
+        "character": "vu-nuong",
+        "file": "media/scenes/hoang-giang.webp"
       },
       "video": {
         "motionPrompt": "the reeds bend slowly, the woman lifts her face to the sky, mist rolls over the water, the light fades, gentle rings spread on the calm river surface, slow camera pull-back",
         "seed": 63508
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/hoang-giang.m4a"
+      }
     },
     {
       "id": "bong-tren-vach",
@@ -336,13 +366,16 @@
       "image": {
         "prompt": "night in the same thatched house, Truong Sinh sits alone by a small oil lamp beside little Dan, the boy points happily at the man large shadow on the earthen wall, the man turns to look at the shadow with dawning grief and regret on his face",
         "seed": 52509,
-        "character": "truong-sinh"
+        "character": "truong-sinh",
+        "file": "media/scenes/bong-tren-vach.webp"
       },
       "video": {
         "motionPrompt": "the lamp flickers and the shadow on the wall wavers, the boy points and laughs, the man slowly turns his head and lowers his face into his hands, very slow camera push-in",
         "seed": 63509
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/bong-tren-vach.m4a"
+      }
     },
     {
       "id": "rua-mai-xanh",
@@ -360,13 +393,16 @@
       "image": {
         "prompt": "at the Hoang Giang ferry landing in the early morning, Phan Lang kneels on the wooden steps and gently releases a turtle with a green shell into the river, a fisherman with a basket watches, in a faint dreamlike haze above the water the figure of a young woman in green robes bows in thanks",
         "seed": 52510,
-        "character": "phan-lang"
+        "character": "phan-lang",
+        "file": "media/scenes/rua-mai-xanh.webp"
       },
       "video": {
         "motionPrompt": "the green turtle slips into the water with soft ripples, the faint figure in green fades into the mist, the ferry boat rocks gently, slow sideways pan",
         "seed": 63510
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/rua-mai-xanh.m4a"
+      }
     },
     {
       "id": "dong-rua",
@@ -395,13 +431,16 @@
       "image": {
         "prompt": "inside a shimmering sea grotto palace of coral, mother of pearl and jade on a far island, the serene sea queen Linh Phi in a cloud-embroidered jewelled robe kneels beside the unconscious Phan Lang lying on a silk mat, an attendant offers a cup of glowing medicine, soft blue light filtering through water",
         "seed": 52511,
-        "character": "linh-phi"
+        "character": "linh-phi",
+        "file": "media/scenes/dong-rua.webp"
       },
       "video": {
         "motionPrompt": "light ripples across the grotto walls, the queen gently wipes the man face with a brocade cloth, his eyes slowly open, seaweed sways, small fish glide past, slow camera push-in",
         "seed": 63511
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/dong-rua.m4a"
+      }
     },
     {
       "id": "thuy-cung",
@@ -441,13 +480,16 @@
       "image": {
         "prompt": "a banquet in the Trieu Duong pavilion of the underwater palace, many beautiful ladies in light flowing robes with loose side-swept hair, among them Vu Nuong in pale sea-green robes with only a touch of rouge hands a golden hairpin to Phan Lang, the sea queen Linh Phi seated above holding a small purple silk pouch, soft light rays and drifting fish",
         "seed": 52512,
-        "character": "vu-nuong"
+        "character": "vu-nuong",
+        "file": "media/scenes/thuy-cung.webp"
       },
       "video": {
         "motionPrompt": "light ripples across the pavilion, robes float in the gentle current, the golden hairpin glints as it passes from hand to hand, small fish circle slowly, slow camera push-in",
         "seed": 63512
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/thuy-cung.m4a"
+      }
     },
     {
       "id": "dan-giai-oan",
@@ -474,13 +516,16 @@
       "image": {
         "prompt": "night on the Hoang Giang river, an altar with candles, a sacred lamp and incense on the bank where Truong Sinh kneels holding a golden hairpin, out on the misty water Vu Nuong sits in a flower-decked palanquin followed by a long procession of faint carriages, banners and parasols glowing like a dream",
         "seed": 52513,
-        "character": "vu-nuong"
+        "character": "vu-nuong",
+        "file": "media/scenes/dan-giai-oan.webp"
       },
       "video": {
         "motionPrompt": "candle flames sway, the glowing procession on the water fades in and out of the mist, the woman raises one hand in farewell, the vision slowly dissolves into the dark river",
         "seed": 63513
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/dan-giai-oan.m4a"
+      }
     },
     {
       "id": "loi-binh",
@@ -509,18 +554,98 @@
       ],
       "image": {
         "prompt": "an old scholar in a dark robe writes with a brush by lamplight in a quiet study, behind him a silk scroll shows a faint misty river with a woman shadow on a wall, piles of bound books, an inkstone, a window opening onto a calm river at dawn",
-        "seed": 52514
+        "seed": 52514,
+        "file": "media/scenes/loi-binh.webp"
       },
       "video": {
         "motionPrompt": "the brush moves slowly across the paper, the lamp glows, mist drifts over the river outside the window, the light of dawn slowly brightens, slow camera pull-back",
         "seed": 63514
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/loi-binh.m4a"
+      }
     }
   ],
   "music": {
     "prompt": "slow melancholic Vietnamese traditional instrumental, solo dan bau monochord with long bends, sparse dan nguyet moon lute and soft bamboo flute, quiet river night atmosphere, mournful but dignified, very slow tempo, no vocals",
     "durationSeconds": 240,
-    "seed": 74501
+    "seed": 74501,
+    "file": "media/music.m4a"
+  },
+  "track": {
+    "file": "media/story.m4a",
+    "duration": 661.99,
+    "scenes": [
+      {
+        "id": "nam-xuong",
+        "start": 1.5,
+        "end": 34.69
+      },
+      {
+        "id": "tien-chong",
+        "start": 35.89,
+        "end": 103.56
+      },
+      {
+        "id": "con-tho",
+        "start": 104.76,
+        "end": 134.73
+      },
+      {
+        "id": "loi-troi",
+        "start": 135.93,
+        "end": 177.48
+      },
+      {
+        "id": "tro-ve",
+        "start": 178.68,
+        "end": 216.88
+      },
+      {
+        "id": "long-ghen",
+        "start": 218.08,
+        "end": 263.32
+      },
+      {
+        "id": "tram-gay",
+        "start": 264.52,
+        "end": 301.18
+      },
+      {
+        "id": "hoang-giang",
+        "start": 302.38,
+        "end": 353.07
+      },
+      {
+        "id": "bong-tren-vach",
+        "start": 354.27,
+        "end": 385.86
+      },
+      {
+        "id": "rua-mai-xanh",
+        "start": 387.06,
+        "end": 406.27
+      },
+      {
+        "id": "dong-rua",
+        "start": 407.47,
+        "end": 461.32
+      },
+      {
+        "id": "thuy-cung",
+        "start": 462.52,
+        "end": 556.81
+      },
+      {
+        "id": "dan-giai-oan",
+        "start": 558.01,
+        "end": 601.38
+      },
+      {
+        "id": "loi-binh",
+        "start": 602.58,
+        "end": 658.99
+      }
+    ]
   }
 }

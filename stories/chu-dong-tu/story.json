@@ -24,32 +24,37 @@
     {
       "id": "chu-dong-tu",
       "name": "Chử Đồng Tử",
+      "sheetPrompt": "Chu Dong Tu, a poor but honest young Vietnamese fisherman of the ancient Hung era, lean and sun-tanned, gentle shy face, short tousled black hair, wearing a simple brown loincloth-style wrap covering him modestly from waist to knee and a plain cloth draped over one shoulder, holding a fishing basket, full body, front view, plain aged silk background, character reference sheet",
       "seed": 41601,
-      "sheetPrompt": "Chu Dong Tu, a poor but honest young Vietnamese fisherman of the ancient Hung era, lean and sun-tanned, gentle shy face, short tousled black hair, wearing a simple brown loincloth-style wrap covering him modestly from waist to knee and a plain cloth draped over one shoulder, holding a fishing basket, full body, front view, plain aged silk background, character reference sheet"
+      "file": "media/characters/chu-dong-tu.webp"
     },
     {
       "id": "tien-dung",
       "name": "Công chúa Tiên Dung",
+      "sheetPrompt": "Princess Tien Dung of the ancient Hung era, a free-spirited graceful young woman of eighteen, bright confident eyes, long black hair in a high bun with gold pins and small white flowers, flowing pale yellow and vermilion silk robes with bronze-drum patterns, a jade bracelet, full body, front view, plain aged silk background, character reference sheet",
       "seed": 41602,
-      "sheetPrompt": "Princess Tien Dung of the ancient Hung era, a free-spirited graceful young woman of eighteen, bright confident eyes, long black hair in a high bun with gold pins and small white flowers, flowing pale yellow and vermilion silk robes with bronze-drum patterns, a jade bracelet, full body, front view, plain aged silk background, character reference sheet"
+      "file": "media/characters/tien-dung.webp"
     },
     {
       "id": "chu-cu-van",
       "name": "Chử Cù Vân",
+      "sheetPrompt": "Chu Cu Van, a thin elderly poor Vietnamese fisherman of the ancient Hung era, kind tired face with a wispy white beard, plain worn brown cloth wrap, leaning on a bamboo stick, full body, front view, plain aged silk background, character reference sheet",
       "seed": 41603,
-      "sheetPrompt": "Chu Cu Van, a thin elderly poor Vietnamese fisherman of the ancient Hung era, kind tired face with a wispy white beard, plain worn brown cloth wrap, leaning on a bamboo stick, full body, front view, plain aged silk background, character reference sheet"
+      "file": "media/characters/chu-cu-van.webp"
     },
     {
       "id": "phat-quang",
       "name": "Nhà sư Phật Quang",
+      "sheetPrompt": "Phat Quang, a serene old hermit monk on a misty island mountain, shaved head, long white eyebrows, calm wise smile, simple saffron-brown robe, holding a tall wooden staff and a conical woven hat, full body, front view, plain aged silk background, character reference sheet",
       "seed": 41604,
-      "sheetPrompt": "Phat Quang, a serene old hermit monk on a misty island mountain, shaved head, long white eyebrows, calm wise smile, simple saffron-brown robe, holding a tall wooden staff and a conical woven hat, full body, front view, plain aged silk background, character reference sheet"
+      "file": "media/characters/phat-quang.webp"
     },
     {
       "id": "vua-hung",
       "name": "Vua Hùng thứ ba",
+      "sheetPrompt": "the third Hung King of Van Lang, a stern dignified middle-aged ruler, short black beard, dark brown and gold royal robe with bronze-drum sun patterns, a tall crown of bird feathers, full body, front view, plain aged silk background, character reference sheet",
       "seed": 41605,
-      "sheetPrompt": "the third Hung King of Van Lang, a stern dignified middle-aged ruler, short black beard, dark brown and gold royal robe with bronze-drum sun patterns, a tall crown of bird feathers, full body, front view, plain aged silk background, character reference sheet"
+      "file": "media/characters/vua-hung.webp"
     }
   ],
   "scenes": [
@@ -67,15 +72,18 @@
         "một lời oán trách, cứ nương tựa vào nhau mà sống qua ngày."
       ],
       "image": {
-        "character": "chu-cu-van",
+        "prompt": "a tiny burnt-out hut on a riverbank of the Red River in the ancient Hung era, the thin old father Chu Cu Van sits under a scrap of thatch while his son Chu Dong Tu stands at the doorway, a single cloth wrap hangs on a bamboo pole between them, reeds and grey sky",
         "seed": 52601,
-        "prompt": "a tiny burnt-out hut on a riverbank of the Red River in the ancient Hung era, the thin old father Chu Cu Van sits under a scrap of thatch while his son Chu Dong Tu stands at the doorway, a single cloth wrap hangs on a bamboo pole between them, reeds and grey sky"
+        "character": "chu-cu-van",
+        "file": "media/scenes/mot-chiec-kho.webp"
       },
       "video": {
-        "seed": 63601,
-        "motionPrompt": "wisps of smoke rise from the charred posts, the single cloth sways on the bamboo pole, reeds bend in the wind, the river flows slowly behind"
+        "motionPrompt": "wisps of smoke rise from the charred posts, the single cloth sways on the bamboo pole, reeds bend in the wind, the river flows slowly behind",
+        "seed": 63601
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/mot-chiec-kho.m4a"
+      }
     },
     {
       "id": "chon-cha",
@@ -92,15 +100,18 @@
         "xin ăn, hoặc cầm cần câu mà bắt cá để nuôi thân."
       ],
       "image": {
-        "character": "chu-dong-tu",
+        "prompt": "at dawn in reeds by the river, the young Chu Dong Tu stands waist-deep in the water holding a fishing basket, shown modestly from the waist up, a small fresh grave mound with a stick of incense on the bank behind him, a merchant boat passing in the mist",
         "seed": 52602,
-        "prompt": "at dawn in reeds by the river, the young Chu Dong Tu stands waist-deep in the water holding a fishing basket, shown modestly from the waist up, a small fresh grave mound with a stick of incense on the bank behind him, a merchant boat passing in the mist"
+        "character": "chu-dong-tu",
+        "file": "media/scenes/chon-cha.webp"
       },
       "video": {
-        "seed": 63602,
-        "motionPrompt": "mist drifts over the water, the young man lowers his basket slowly into the river, the incense smoke curls, the boat glides past, gentle sideways pan"
+        "motionPrompt": "mist drifts over the water, the young man lowers his basket slowly into the river, the incense smoke curls, the boat glides past, gentle sideways pan",
+        "seed": 63602
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/chon-cha.m4a"
+      }
     },
     {
       "id": "tien-dung",
@@ -117,15 +128,18 @@
         "rất đông."
       ],
       "image": {
-        "character": "tien-dung",
+        "prompt": "a grand dragon-prow royal boat with vermilion banners and silk canopies sails down a wide misty river in spring, Princess Tien Dung stands at the prow looking at the landscape with bright curious eyes, court ladies with fans and musicians behind her, blossoming trees on the banks",
         "seed": 52603,
-        "prompt": "a grand dragon-prow royal boat with vermilion banners and silk canopies sails down a wide misty river in spring, Princess Tien Dung stands at the prow looking at the landscape with bright curious eyes, court ladies with fans and musicians behind her, blossoming trees on the banks"
+        "character": "tien-dung",
+        "file": "media/scenes/tien-dung.webp"
       },
       "video": {
-        "seed": 63603,
-        "motionPrompt": "banners and silk canopies ripple in the wind, oars dip in rhythm, petals float on the water, the princess turns her head to look at the far bank, slow camera follow"
+        "motionPrompt": "banners and silk canopies ripple in the wind, oars dip in rhythm, petals float on the water, the princess turns her head to look at the far bank, slow camera follow",
+        "seed": 63603
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/tien-dung.m4a"
+      }
     },
     {
       "id": "bai-cat",
@@ -140,15 +154,18 @@
         "bới cát thành một cái hố, nằm xuống, rồi lấy cát phủ kín lên người."
       ],
       "image": {
-        "character": "chu-dong-tu",
+        "prompt": "a wide sandbank with clumps of reeds in the middle of the river, in the foreground only the hands of the young man hurriedly scooping sand into a shallow hollow among the reeds, in the distance the dragon-prow royal boat with vermilion banners approaching through the mist",
         "seed": 52604,
-        "prompt": "a wide sandbank with clumps of reeds in the middle of the river, in the foreground only the hands of the young man hurriedly scooping sand into a shallow hollow among the reeds, in the distance the dragon-prow royal boat with vermilion banners approaching through the mist"
+        "character": "chu-dong-tu",
+        "file": "media/scenes/bai-cat.webp"
       },
       "video": {
-        "seed": 63604,
-        "motionPrompt": "sand slides and settles into the hollow, reeds tremble, the royal boat grows slowly closer with banners waving, birds lift off from the sandbank"
+        "motionPrompt": "sand slides and settles into the hollow, reeds tremble, the royal boat grows slowly closer with banners waving, birds lift off from the sandbank",
+        "seed": 63604
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/bai-cat.m4a"
+      }
     },
     {
       "id": "man-tam",
@@ -166,15 +183,18 @@
         "tắm rửa đi."
       ],
       "image": {
-        "character": "tien-dung",
+        "prompt": "on the sandbank a tall circular curtain of pale yellow silk is set up among the reeds, Princess Tien Dung stands just outside it in a modest bathing robe with a surprised then thoughtful expression, court ladies holding water jars look on, mist and soft light, tasteful and modest",
         "seed": 52605,
-        "prompt": "on the sandbank a tall circular curtain of pale yellow silk is set up among the reeds, Princess Tien Dung stands just outside it in a modest bathing robe with a surprised then thoughtful expression, court ladies holding water jars look on, mist and soft light, tasteful and modest"
+        "character": "tien-dung",
+        "file": "media/scenes/man-tam.webp"
       },
       "video": {
-        "seed": 63605,
-        "motionPrompt": "the silk curtain billows gently in the wind, water trickles from a jar into the sand, the princess lowers her hand from her mouth and her face softens, reeds sway"
+        "motionPrompt": "the silk curtain billows gently in the wind, water trickles from a jar into the sand, the princess lowers her hand from her mouth and her face softens, reeds sway",
+        "seed": 63605
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/man-tam.m4a"
+      }
     },
     {
       "id": "ket-duyen",
@@ -192,15 +212,18 @@
         "nghèo hèn, còn mặt mũi nào mà gặp ta nữa. Nghe tin ấy, Tiên Dung không dám trở về."
       ],
       "image": {
-        "character": "chu-dong-tu",
+        "prompt": "on the deck of the dragon boat at sunset, Chu Dong Tu now dressed in a simple clean brown robe kneels shyly opposite Princess Tien Dung who smiles warmly, court ladies set out a small feast of rice and fruit on lacquered trays, lanterns being lit along the boat",
         "seed": 52606,
-        "prompt": "on the deck of the dragon boat at sunset, Chu Dong Tu now dressed in a simple clean brown robe kneels shyly opposite Princess Tien Dung who smiles warmly, court ladies set out a small feast of rice and fruit on lacquered trays, lanterns being lit along the boat"
+        "character": "chu-dong-tu",
+        "file": "media/scenes/ket-duyen.webp"
       },
       "video": {
-        "seed": 63606,
-        "motionPrompt": "lanterns flicker on one by one, the princess pours tea, the young man bows his head shyly, the boat rocks softly on golden water, slow camera push-in"
+        "motionPrompt": "lanterns flicker on one by one, the princess pours tea, the young man bows his head shyly, the boat rocks softly on golden water, slow camera push-in",
+        "seed": 63606
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/ket-duyen.m4a"
+      }
     },
     {
       "id": "buon-ban",
@@ -217,15 +240,18 @@
         "lấy đó làm kế sinh nhai. Đồng Tử liền cùng người nhà ra biển."
       ],
       "image": {
-        "character": "tien-dung",
+        "prompt": "a bustling riverside market on a sandbank in the ancient Hung era, stalls with cloth, pottery, fish and rice under bamboo awnings, boats moored along the bank, Tien Dung in simpler clothes greets traders while Chu Dong Tu loads goods onto a sailing boat",
         "seed": 52607,
-        "prompt": "a bustling riverside market on a sandbank in the ancient Hung era, stalls with cloth, pottery, fish and rice under bamboo awnings, boats moored along the bank, Tien Dung in simpler clothes greets traders while Chu Dong Tu loads goods onto a sailing boat"
+        "character": "tien-dung",
+        "file": "media/scenes/buon-ban.webp"
       },
       "video": {
-        "seed": 63607,
-        "motionPrompt": "people walk between stalls, cloth awnings flap, boats bob at the bank, a sail is slowly raised on the departing boat, gentle sideways pan"
+        "motionPrompt": "people walk between stalls, cloth awnings flap, boats bob at the bank, a sail is slowly raised on the departing boat, gentle sideways pan",
+        "seed": 63607
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/buon-ban.m4a"
+      }
     },
     {
       "id": "hoc-dao",
@@ -243,15 +269,18 @@
         "tìm thầy học đạo ở những nơi xa."
       ],
       "image": {
-        "character": "phat-quang",
+        "prompt": "a small thatched hermitage on a misty island mountain above the sea, the serene old monk Phat Quang hands a tall wooden staff and a conical woven hat to Chu Dong Tu who kneels respectfully, pine trees and clouds, a sailing boat far below on the water",
         "seed": 52608,
-        "prompt": "a small thatched hermitage on a misty island mountain above the sea, the serene old monk Phat Quang hands a tall wooden staff and a conical woven hat to Chu Dong Tu who kneels respectfully, pine trees and clouds, a sailing boat far below on the water"
+        "character": "phat-quang",
+        "file": "media/scenes/hoc-dao.webp"
       },
       "video": {
-        "seed": 63608,
-        "motionPrompt": "clouds drift around the mountain peak, pine branches sway, the staff and hat pass slowly from hand to hand with a faint glow, waves glitter far below"
+        "motionPrompt": "clouds drift around the mountain peak, pine branches sway, the staff and hat pass slowly from hand to hand with a faint glow, waves glitter far below",
+        "seed": 63608
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/hoc-dao.m4a"
+      }
     },
     {
       "id": "thanh-quach",
@@ -268,15 +297,18 @@
         "Rồi có quan văn quan võ, có quân canh giữ chia ra, thành hẳn một nước riêng."
       ],
       "image": {
-        "character": "chu-dong-tu",
+        "prompt": "night on an empty plain, a wooden staff planted in the ground with a conical woven hat on top glows softly, and around it a magnificent citadel with vermilion palaces, curved tiled roofs and golden lanterns rises out of the mist, the couple watching in awe",
         "seed": 52609,
-        "prompt": "night on an empty plain, a wooden staff planted in the ground with a conical woven hat on top glows softly, and around it a magnificent citadel with vermilion palaces, curved tiled roofs and golden lanterns rises out of the mist, the couple watching in awe"
+        "character": "chu-dong-tu",
+        "file": "media/scenes/thanh-quach.webp"
       },
       "video": {
-        "seed": 63609,
-        "motionPrompt": "golden light spreads from the staff and hat, walls and roofs rise slowly out of the mist, lanterns light up one after another, stars shimmer above, slow camera pull-back"
+        "motionPrompt": "golden light spreads from the staff and hat, walls and roofs rise slowly out of the mist, lanterns light up one after another, stars shimmer above, slow camera pull-back",
+        "seed": 63609
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/thanh-quach.m4a"
+      }
     },
     {
       "id": "bay-ve-troi",
@@ -295,15 +327,18 @@
         "lớn."
       ],
       "image": {
-        "character": "vua-hung",
+        "prompt": "a stormy night over the river, on one bank the stern Hung King army camps with torches and banners, on the other bank the glowing vermilion citadel rises gently into swirling clouds, the faint figures of the couple at the top, sand and wind sweeping the plain",
         "seed": 52610,
-        "prompt": "a stormy night over the river, on one bank the stern Hung King army camps with torches and banners, on the other bank the glowing vermilion citadel rises gently into swirling clouds, the faint figures of the couple at the top, sand and wind sweeping the plain"
+        "character": "vua-hung",
+        "file": "media/scenes/bay-ve-troi.webp"
       },
       "video": {
-        "seed": 63610,
-        "motionPrompt": "wind whips the banners and torches, the glowing citadel lifts slowly into the clouds and fades, sand swirls across the plain, the river churns, slow camera tilt up"
+        "motionPrompt": "wind whips the banners and torches, the glowing citadel lifts slowly into the clouds and fades, sand swirls across the plain, the river churns, slow camera tilt up",
+        "seed": 63610
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/bay-ve-troi.m4a"
+      }
     },
     {
       "id": "dam-nhat-da",
@@ -317,15 +352,18 @@
         "vị thánh bất tử của đất nước."
       ],
       "image": {
-        "character": "tien-dung",
+        "prompt": "a vast calm lagoon at dawn reflecting a pale sky, reeds and lotus leaves along the shore, an old temple with a curved tiled roof among trees on the bank, villagers bringing incense and offerings, a faint vision of a citadel in the clouds above",
         "seed": 52611,
-        "prompt": "a vast calm lagoon at dawn reflecting a pale sky, reeds and lotus leaves along the shore, an old temple with a curved tiled roof among trees on the bank, villagers bringing incense and offerings, a faint vision of a citadel in the clouds above"
+        "character": "tien-dung",
+        "file": "media/scenes/dam-nhat-da.webp"
       },
       "video": {
-        "seed": 63611,
-        "motionPrompt": "mist lifts slowly off the lagoon, incense smoke rises from the temple, lotus leaves rock on gentle ripples, the faint citadel in the clouds fades away, slow camera pull-back"
+        "motionPrompt": "mist lifts slowly off the lagoon, incense smoke rises from the temple, lotus leaves rock on gentle ripples, the faint citadel in the clouds fades away, slow camera pull-back",
+        "seed": 63611
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/dam-nhat-da.m4a"
+      }
     },
     {
       "id": "trieu-quang-phuc",
@@ -351,18 +389,88 @@
       ],
       "image": {
         "prompt": "a night scene in a broad misty marsh with reeds and shallow water, a general in lamellar armor kneeling at a small altar with incense, a luminous figure riding a dragon descending above him, dugout canoes waiting in the reeds, traditional Vietnamese silk painting composition",
-        "seed": 3749276698
+        "seed": 3749276698,
+        "file": "media/scenes/trieu-quang-phuc.webp"
       },
       "video": {
         "motionPrompt": "incense smoke curls up, the glowing dragon rider descends slowly through mist, reeds sway, slow camera push-in",
         "seed": 2108513710
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/trieu-quang-phuc.m4a"
+      }
     }
   ],
   "music": {
     "prompt": "serene dreamlike Vietnamese traditional instrumental, dan tranh zither arpeggios, soft bamboo flute and gentle dan nguyet, flowing river atmosphere with a sense of wonder, calm and graceful, slow tempo, no vocals",
     "durationSeconds": 180,
-    "seed": 74601
+    "seed": 74601,
+    "file": "media/music.m4a"
+  },
+  "track": {
+    "file": "media/story.m4a",
+    "duration": 376.16,
+    "scenes": [
+      {
+        "id": "mot-chiec-kho",
+        "start": 1.5,
+        "end": 27.77
+      },
+      {
+        "id": "chon-cha",
+        "start": 28.97,
+        "end": 56.53
+      },
+      {
+        "id": "tien-dung",
+        "start": 57.73,
+        "end": 83.17
+      },
+      {
+        "id": "bai-cat",
+        "start": 84.37,
+        "end": 104.13
+      },
+      {
+        "id": "man-tam",
+        "start": 105.33,
+        "end": 132.16
+      },
+      {
+        "id": "ket-duyen",
+        "start": 133.36,
+        "end": 165.61
+      },
+      {
+        "id": "buon-ban",
+        "start": 166.81,
+        "end": 196.53
+      },
+      {
+        "id": "hoc-dao",
+        "start": 197.73,
+        "end": 228.99
+      },
+      {
+        "id": "thanh-quach",
+        "start": 230.19,
+        "end": 259.17
+      },
+      {
+        "id": "bay-ve-troi",
+        "start": 260.37,
+        "end": 293.93
+      },
+      {
+        "id": "dam-nhat-da",
+        "start": 295.13,
+        "end": 309.78
+      },
+      {
+        "id": "trieu-quang-phuc",
+        "start": 310.98,
+        "end": 373.16
+      }
+    ]
   }
 }

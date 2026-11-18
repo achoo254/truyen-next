@@ -24,26 +24,30 @@
     {
       "id": "le-loi",
       "name": "Lê Lợi",
+      "sheetPrompt": "Le Loi, the Lam Son leader of early fifteenth-century Dai Viet, a resolute middle-aged man with a calm commanding face, short black beard, dark brown war robe with simple leather armour plates and a red sash, black head turban, a long sword with a jade-studded hilt at his waist, full body, front view, plain aged silk background, character reference sheet",
       "seed": 41701,
-      "sheetPrompt": "Le Loi, the Lam Son leader of early fifteenth-century Dai Viet, a resolute middle-aged man with a calm commanding face, short black beard, dark brown war robe with simple leather armour plates and a red sash, black head turban, a long sword with a jade-studded hilt at his waist, full body, front view, plain aged silk background, character reference sheet"
+      "file": "media/characters/le-loi.webp"
     },
     {
       "id": "le-than",
       "name": "Lê Thận",
+      "sheetPrompt": "Le Than, a humble fisherman of Thanh Hoa in early fifteenth-century Dai Viet, honest square face, sun-darkened skin, short beard, faded indigo tunic and rolled trousers, a casting net over one shoulder, conical hat on his back, full body, front view, plain aged silk background, character reference sheet",
       "seed": 41702,
-      "sheetPrompt": "Le Than, a humble fisherman of Thanh Hoa in early fifteenth-century Dai Viet, honest square face, sun-darkened skin, short beard, faded indigo tunic and rolled trousers, a casting net over one shoulder, conical hat on his back, full body, front view, plain aged silk background, character reference sheet"
+      "file": "media/characters/le-than.webp"
     },
     {
       "id": "rua-vang",
       "name": "Rùa Vàng",
+      "sheetPrompt": "the Golden Turtle of Vietnamese legend, a huge ancient wise turtle with a shimmering golden-bronze shell patterned like old coins, calm deep eyes, gentle majestic presence, shown rising from water, side view, plain aged silk background, character reference sheet",
       "seed": 41703,
-      "sheetPrompt": "the Golden Turtle of Vietnamese legend, a huge ancient wise turtle with a shimmering golden-bronze shell patterned like old coins, calm deep eyes, gentle majestic presence, shown rising from water, side view, plain aged silk background, character reference sheet"
+      "file": "media/characters/rua-vang.webp"
     },
     {
       "id": "vua-le",
       "name": "Vua Lê Thái Tổ",
+      "sheetPrompt": "King Le Thai To of Dai Viet, the former Lam Son leader now crowned, same resolute face with a short black beard, golden yellow dragon robe with a jade belt, a black winged court hat, the jade-hilted sword at his waist, full body, front view, plain aged silk background, character reference sheet",
       "seed": 41704,
-      "sheetPrompt": "King Le Thai To of Dai Viet, the former Lam Son leader now crowned, same resolute face with a short black beard, golden yellow dragon robe with a jade belt, a black winged court hat, the jade-hilted sword at his waist, full body, front view, plain aged silk background, character reference sheet"
+      "file": "media/characters/vua-le.webp"
     }
   ],
   "scenes": [
@@ -61,15 +65,18 @@
         "để họ dùng nó mà trừ giặc cứu nước."
       ],
       "image": {
-        "character": "le-loi",
+        "prompt": "misty green mountains of Lam Son in early fifteenth-century Dai Viet, Le Loi stands on a rocky slope beside a simple banner, a small band of ragged rebels with bamboo spears and farming tools gathered below, distant smoke over villages in the valley, solemn mood",
         "seed": 52701,
-        "prompt": "misty green mountains of Lam Son in early fifteenth-century Dai Viet, Le Loi stands on a rocky slope beside a simple banner, a small band of ragged rebels with bamboo spears and farming tools gathered below, distant smoke over villages in the valley, solemn mood"
+        "character": "le-loi",
+        "file": "media/scenes/thoi-loan.webp"
       },
       "video": {
-        "seed": 63701,
-        "motionPrompt": "mist drifts between the peaks, the banner flaps in the wind, the rebels raise their tools slowly, clouds move across the valley, slow camera push-in"
+        "motionPrompt": "mist drifts between the peaks, the banner flaps in the wind, the rebels raise their tools slowly, clouds move across the valley, slow camera push-in",
+        "seed": 63701
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/thoi-loan.m4a"
+      }
     },
     {
       "id": "luoi-guom",
@@ -88,15 +95,18 @@
         "một lưỡi gươm!"
       ],
       "image": {
-        "character": "le-than",
+        "prompt": "night on a quiet river in Thanh Hoa, the fisherman Le Than stands in a small wooden boat holding up a torch, looking in wonder at a long dark metal blade caught in his casting net, ripples and reflections of torchlight on the water",
         "seed": 52702,
-        "prompt": "night on a quiet river in Thanh Hoa, the fisherman Le Than stands in a small wooden boat holding up a torch, looking in wonder at a long dark metal blade caught in his casting net, ripples and reflections of torchlight on the water"
+        "character": "le-than",
+        "file": "media/scenes/luoi-guom.webp"
       },
       "video": {
-        "seed": 63702,
-        "motionPrompt": "the torch flame flickers, water drips from the net, the fisherman slowly lifts the blade toward the light, ripples spread across the dark river"
+        "motionPrompt": "the torch flame flickers, water drips from the net, the fisherman slowly lifts the blade toward the light, ripples spread across the dark river",
+        "seed": 63702
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/luoi-guom.m4a"
+      }
     },
     {
       "id": "thuan-thien",
@@ -112,15 +122,18 @@
         "Thế nhưng tất cả mọi người lúc ấy vẫn chưa ai biết đó là một báu vật."
       ],
       "image": {
-        "character": "le-than",
+        "prompt": "inside a dark humble thatched house, a long blade leaning in the corner glows with soft golden light, Le Loi bends to look at it closely while Le Than and a few retainers watch in astonishment, faint carved characters shimmer on the blade",
         "seed": 52703,
-        "prompt": "inside a dark humble thatched house, a long blade leaning in the corner glows with soft golden light, Le Loi bends to look at it closely while Le Than and a few retainers watch in astonishment, faint carved characters shimmer on the blade"
+        "character": "le-than",
+        "file": "media/scenes/thuan-thien.webp"
       },
       "video": {
-        "seed": 63703,
-        "motionPrompt": "the golden glow pulses gently on the blade, the men lean closer, shadows shift on the earthen walls, dust motes float in the light, slow camera push-in"
+        "motionPrompt": "the golden glow pulses gently on the blade, the men lean closer, shadows shift on the earthen walls, dust motes float in the light, slow camera push-in",
+        "seed": 63703
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/thuan-thien.m4a"
+      }
     },
     {
       "id": "chuoi-guom",
@@ -135,15 +148,18 @@
         "Lê Lợi gặp lại tất cả các bạn, trong đó có Lê Thận."
       ],
       "image": {
-        "character": "le-loi",
+        "prompt": "deep in a forest at dusk, an enormous ancient banyan tree with hanging roots, at the top among the branches a jade-studded sword hilt glows softly, Le Loi climbs the roots looking up at it, pursuers torches faintly visible far away through the trees",
         "seed": 52704,
-        "prompt": "deep in a forest at dusk, an enormous ancient banyan tree with hanging roots, at the top among the branches a jade-studded sword hilt glows softly, Le Loi climbs the roots looking up at it, pursuers torches faintly visible far away through the trees"
+        "character": "le-loi",
+        "file": "media/scenes/chuoi-guom.webp"
       },
       "video": {
-        "seed": 63704,
-        "motionPrompt": "the soft glow pulses among the leaves, the banyan roots sway slightly, Le Loi reaches upward, distant torches flicker between the trees, slow camera tilt up"
+        "motionPrompt": "the soft glow pulses among the leaves, the banyan roots sway slightly, Le Loi reaches upward, distant torches flicker between the trees, slow camera tilt up",
+        "seed": 63704
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/chuoi-guom.m4a"
+      }
     },
     {
       "id": "tra-guom-cho-chu",
@@ -160,15 +176,18 @@
         "tắc."
       ],
       "image": {
-        "character": "le-loi",
+        "prompt": "in a simple rebel camp under bamboo, Le Than kneels and raises the complete sword with both hands, its jade-studded hilt joined to the glowing blade, Le Loi receives it with solemn respect, rebels gather around with torches, the night sky full of stars",
         "seed": 52705,
-        "prompt": "in a simple rebel camp under bamboo, Le Than kneels and raises the complete sword with both hands, its jade-studded hilt joined to the glowing blade, Le Loi receives it with solemn respect, rebels gather around with torches, the night sky full of stars"
+        "character": "le-loi",
+        "file": "media/scenes/tra-guom-cho-chu.webp"
       },
       "video": {
-        "seed": 63705,
-        "motionPrompt": "the sword glows brighter as the hilt and blade join, torchlight wavers, the gathered rebels raise their fists, bamboo leaves stir in the night breeze"
+        "motionPrompt": "the sword glows brighter as the hilt and blade join, torchlight wavers, the gathered rebels raise their fists, bamboo leaves stir in the night breeze",
+        "seed": 63705
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/tra-guom-cho-chu.m4a"
+      }
     },
     {
       "id": "muoi-nam",
@@ -185,15 +204,18 @@
         "cho đến lúc trên đất nước không còn bóng một tên giặc nào."
       ],
       "image": {
-        "character": "le-loi",
+        "prompt": "a sweeping silk-painting panorama of mountain passes and river plains, long columns of the Lam Son army with red banners advance from the south, far away enemy columns retreat north through a narrow pass, villagers bringing rice baskets to the soldiers, drawn from a great distance",
         "seed": 52706,
-        "prompt": "a sweeping silk-painting panorama of mountain passes and river plains, long columns of the Lam Son army with red banners advance from the south, far away enemy columns retreat north through a narrow pass, villagers bringing rice baskets to the soldiers, drawn from a great distance"
+        "character": "le-loi",
+        "file": "media/scenes/muoi-nam.webp"
       },
       "video": {
-        "seed": 63706,
-        "motionPrompt": "banners ripple along the marching columns, clouds roll over the mountain pass, the distant retreating columns move slowly away, villagers wave, slow sweeping camera pan"
+        "motionPrompt": "banners ripple along the marching columns, clouds roll over the mountain pass, the distant retreating columns move slowly away, villagers wave, slow sweeping camera pan",
+        "seed": 63706
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/muoi-nam.m4a"
+      }
     },
     {
       "id": "hoan-guom",
@@ -215,15 +237,18 @@
         "người ta vẫn còn thấy một vệt sáng le lói dưới mặt nước hồ xanh."
       ],
       "image": {
-        "character": "rua-vang",
+        "prompt": "on the emerald lake the huge golden turtle takes the glowing jade-hilted sword gently in its mouth beside the dragon boat, King Le Thai To stands with both hands still raised in offering, courtiers bow, a column of soft golden light reaches down into the water",
         "seed": 52710,
-        "prompt": "on the emerald lake the huge golden turtle takes the glowing jade-hilted sword gently in its mouth beside the dragon boat, King Le Thai To stands with both hands still raised in offering, courtiers bow, a column of soft golden light reaches down into the water"
+        "character": "rua-vang",
+        "file": "media/scenes/hoan-guom.webp"
       },
       "video": {
-        "seed": 63710,
-        "motionPrompt": "the turtle grips the sword and slowly sinks beneath the surface, golden light glimmers down through the water, ripples spread outward, courtiers bow low, slow camera tilt down"
+        "motionPrompt": "the turtle grips the sword and slowly sinks beneath the surface, golden light glimmers down through the water, ripples spread outward, courtiers bow low, slow camera tilt down",
+        "seed": 63710
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/hoan-guom.m4a"
+      }
     },
     {
       "id": "ho-hoan-kiem",
@@ -237,20 +262,70 @@
         "hay còn gọi là hồ Hoàn Kiếm, nghĩa là hồ trả lại gươm."
       ],
       "image": {
-        "character": "rua-vang",
+        "prompt": "a serene view of Hoan Kiem lake at dawn in a timeless silk-painting style, the small old Turtle Tower on its islet in the middle of the green water, weeping willows and an arched red bridge on the shore, soft mist and a faint golden shimmer under the water",
         "seed": 52711,
-        "prompt": "a serene view of Hoan Kiem lake at dawn in a timeless silk-painting style, the small old Turtle Tower on its islet in the middle of the green water, weeping willows and an arched red bridge on the shore, soft mist and a faint golden shimmer under the water"
+        "character": "rua-vang",
+        "file": "media/scenes/ho-hoan-kiem.webp"
       },
       "video": {
-        "seed": 63711,
-        "motionPrompt": "mist drifts slowly over the lake, willow branches sway, a faint golden glimmer moves beneath the surface, birds fly past the tower, slow camera pull-back"
+        "motionPrompt": "mist drifts slowly over the lake, willow branches sway, a faint golden glimmer moves beneath the surface, birds fly past the tower, slow camera pull-back",
+        "seed": 63711
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/ho-hoan-kiem.m4a"
+      }
     }
   ],
   "music": {
     "prompt": "solemn epic Vietnamese traditional instrumental, deep bronze drum, dan nguyet moon lute and dan tranh zither, a calm bamboo flute melody over it, heroic then peaceful, slow tempo, no vocals",
     "durationSeconds": 180,
-    "seed": 74701
+    "seed": 74701,
+    "file": "media/music.m4a"
+  },
+  "track": {
+    "file": "media/story.m4a",
+    "duration": 212.15,
+    "scenes": [
+      {
+        "id": "thoi-loan",
+        "start": 1.5,
+        "end": 22.81
+      },
+      {
+        "id": "luoi-guom",
+        "start": 24.01,
+        "end": 57.49
+      },
+      {
+        "id": "thuan-thien",
+        "start": 58.69,
+        "end": 81.52
+      },
+      {
+        "id": "chuoi-guom",
+        "start": 82.72,
+        "end": 101.96
+      },
+      {
+        "id": "tra-guom-cho-chu",
+        "start": 103.16,
+        "end": 122.56
+      },
+      {
+        "id": "muoi-nam",
+        "start": 123.76,
+        "end": 148.18
+      },
+      {
+        "id": "hoan-guom",
+        "start": 149.38,
+        "end": 193.38
+      },
+      {
+        "id": "ho-hoan-kiem",
+        "start": 194.58,
+        "end": 209.15
+      }
+    ]
   }
 }
