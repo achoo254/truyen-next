@@ -4,7 +4,7 @@
  * The story routine takes the first `idea` entries in order (docs/story-routine.md). Checked by `pnpm check:stories`
  * together with the stories themselves.
  */
-import { readFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { SHELVES, type Shelf, type Story, storyMediaFiles } from '@truyen/story';
 import { REPO_ROOT, STORY_FILE } from './story-files';
@@ -146,4 +146,25 @@ export function readCatalog(file: string = CATALOG_FILE): { data?: unknown; erro
   } catch (error) {
     return { error: `${path.relative(REPO_ROOT, file)}: ${error instanceof Error ? error.message : String(error)}` };
   }
+}
+
+/**
+ * The catalog text with one story's `status` changed, touching only that entry's line (the file has one entry per
+ * line, and its line endings stay as they are). Returns the text unchanged when the slug has no entry.
+ */
+export function withCatalogStatus(text: string, slug: string, status: CatalogStatus): string {
+  const marker = `"slug": "${slug}"`;
+  return text
+    .split('\n')
+    .map((line) => (line.includes(marker) ? line.replace(/"status": "[a-z]+"/, `"status": "${status}"`) : line))
+    .join('\n');
+}
+
+/** Sets a story's `status` in catalog/stories.json; true when the file changed. */
+export function setCatalogStatus(slug: string, status: CatalogStatus, file: string = CATALOG_FILE): boolean {
+  const before = readFileSync(file, 'utf8');
+  const after = withCatalogStatus(before, slug, status);
+  if (after === before) return false;
+  writeFileSync(file, after);
+  return true;
 }

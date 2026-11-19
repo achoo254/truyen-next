@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { type Story, validateStory } from '@truyen/story';
 import { describe, expect, it } from 'vitest';
-import { type CatalogEntry, type StoryFacts, checkCatalog, readCatalog, storyStatus } from './story-catalog';
+import { type CatalogEntry, type StoryFacts, checkCatalog, readCatalog, storyStatus, withCatalogStatus } from './story-catalog';
 
 const entry = (overrides: Partial<CatalogEntry> = {}): CatalogEntry => ({
   slug: 'cay-khe',
@@ -111,5 +111,19 @@ describe('catalog/stories.json', () => {
     expect(ideas.length).toBeGreaterThanOrEqual(100);
     expect(new Set(ideas.map((e) => e.shelf))).toEqual(new Set(['kids', 'adults', 'world']));
     for (const e of entries) expect(e.plotSource).toMatch(/phạm vi công cộng|không ai giữ quyền/);
+  });
+});
+
+describe('withCatalogStatus', () => {
+  const lines = ['[', '  {"slug": "cay-khe", "status": "text"},', '  {"slug": "cay-tao", "status": "text"}', ']'];
+
+  it('changes the status of one story and nothing else', () => {
+    expect(withCatalogStatus(lines.join('\n'), 'cay-khe', 'live')).toBe(['[', '  {"slug": "cay-khe", "status": "live"},', '  {"slug": "cay-tao", "status": "text"}', ']'].join('\n'));
+  });
+
+  it('keeps CRLF line endings and returns the text as it was for an unknown slug', () => {
+    const crlf = lines.join('\r\n');
+    expect(withCatalogStatus(crlf, 'cay-khe', 'live')).toContain('"status": "live"},\r\n');
+    expect(withCatalogStatus(crlf, 'khong-co', 'live')).toBe(crlf);
   });
 });

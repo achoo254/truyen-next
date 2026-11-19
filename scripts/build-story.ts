@@ -21,6 +21,7 @@ import type { Story } from '@truyen/story';
 import { REPO_ROOT, STORIES_DIR, loadStory, writeStory } from './story-files';
 import { type BuildStep, STAGES, type Stage, TRACK_FILE, type Tools, applyRecord, planStoryBuild, shellQuote, toolPath } from './story-build-plan';
 import { BuildError, makeStoryTrack, requireHealthy, runStep } from './story-build-run';
+import { readLedger, sceneFingerprint, staleVoiceScenes, writeLedger } from './story-voice-ledger';
 
 function parseStages(value: string | undefined): Stage[] {
   if (value === undefined) return [...STAGES];
@@ -39,10 +40,16 @@ function defaultTools(): Tools {
 
 const inRepo = (file: string): string => path.join(REPO_ROOT, file);
 
-/** Whether a step still has to run: its file is missing, or (the story recording) older than a voice or the music. */
-function needsRun(step: BuildStep, force: boolean): boolean {
+/**
+ * Whether a step still has to run: its file is missing; a voice made from other words or another voice than today's
+ * (`staleVoices`, by scene id, from the voice ledger); or the story recording, which is also made when story.json
+ * has none or when a voice or the music is newer.
+ */
+function needsRun(step: BuildStep, force: boolean, story: Story, staleVoices: ReadonlySet<string>): boolean {
   if (force || !existsSync(inRepo(step.output))) return true;
+  if (step.record?.kind === 'voice' && staleVoices.has(step.record.id)) return true;
   if (!step.track) return false;
+  if (story.track === undefined) return true;
   const made = statSync(inRepo(step.output)).mtimeMs;
   return step.inputs.some((input) => existsSync(inRepo(input)) && statSync(inRepo(input)).mtimeMs > made);
 }
@@ -61,12 +68,15 @@ function main(): void {
   let story: Story = loaded.loaded.story;
   const tools = defaultTools();
   const steps = planStoryBuild(story, tools, parseStages(values.only));
+  const ledger = readLedger(dir);
+  const staleVoices = new Set(staleVoiceScenes(story, ledger, (file) => existsSync(path.join(dir, file))).map((scene) => scene.id));
+  const pending = (step: BuildStep): boolean => needsRun(step, values.force, story, staleVoices);
 
   if (values['dry-run']) {
     const pcCheck = steps.some((step) => step.pc !== null) ? `the PC is checked first: ${shellQuote([tools.python, toolPath(tools, 'artgen.py'), '--health'])}` : 'no PC needed';
     console.log(`# ${steps.length} steps; ${pcCheck}`);
     for (const step of steps) {
-      const done = !needsRun(step, values.force);
+      const done = !pending(step);
       console.log(`\n# ${step.id}${done ? ' (done, skipped)' : ''} -> ${step.output}`);
       if (step.track) console.log('# laid out here from the estimated reading times; a real run measures each voice with ffprobe first');
       for (const argv of step.commands) console.log(shellQuote(argv));
@@ -74,7 +84,15 @@ function main(): void {
     return;
   }
 
-  const todo = steps.filter((step) => needsRun(step, values.force));
+  const todo = steps.filter(pending);
+  // A file that is there and up to date but that story.json no longer names (a retelling writes story.json without
+  // any `file`) is named again, so the story does not lose its pictures and voices until a new build finds them.
+  const restored = steps.filter((step) => !todo.includes(step) && step.record).reduce((current, step) => (step.record ? applyRecord(current, step.record) : current), story);
+  if (JSON.stringify(restored) !== JSON.stringify(story)) {
+    story = restored;
+    writeStory(dir, story);
+    console.log(`${slug}: named the files that were already made`);
+  }
   if (todo.length === 0) {
     console.log(`${slug}: nothing to make, every planned file exists`);
     return;
@@ -92,9 +110,17 @@ function main(): void {
       continue;
     }
     runStep(step);
-    if (step.record) {
-      story = applyRecord(story, step.record);
+    const { record } = step;
+    if (record) {
+      story = applyRecord(story, record);
       writeStory(dir, story);
+      if (record.kind === 'voice') {
+        const scene = story.scenes.find((s) => s.id === record.id);
+        if (scene) {
+          ledger[scene.id] = sceneFingerprint(story, scene);
+          writeLedger(dir, ledger);
+        }
+      }
     }
   }
   console.log(`${slug}: ${todo.length} step(s) done; review the pictures, motion and voice before publishing.`);
