@@ -28,27 +28,31 @@
     {
       "id": "miu",
       "name": "Mèo Miu",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41001,
       "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
-      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/miu.webp"
     },
     {
       "id": "lac-long-quan",
       "name": "Lạc Long Quân",
+      "sheetPrompt": "Lac Long Quan, a kind strong dragon lord from Vietnamese legend in human form, warm smile, long black hair, sea-green and gold robes with soft dragon-scale and wave patterns, a small friendly dragon crest on his headband, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41402,
-      "sheetPrompt": "Lac Long Quan, a kind strong dragon lord from Vietnamese legend in human form, warm smile, long black hair, sea-green and gold robes with soft dragon-scale and wave patterns, a small friendly dragon crest on his headband, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/lac-long-quan.webp"
     },
     {
       "id": "au-co",
       "name": "Âu Cơ",
+      "sheetPrompt": "Au Co, a gentle fairy lady of the high mountains from Vietnamese legend, long black hair with white plum blossoms, kind smile, flowing white and pale pink robes with cloud and flower patterns, a light silk shawl floating around her, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41403,
-      "sheetPrompt": "Au Co, a gentle fairy lady of the high mountains from Vietnamese legend, long black hair with white plum blossoms, kind smile, flowing white and pale pink robes with cloud and flower patterns, a light silk shawl floating around her, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/au-co.webp"
     },
     {
       "id": "hung-vuong",
       "name": "Vua Hùng đầu tiên",
+      "sheetPrompt": "the first Hung King of Van Lang as a young man, eldest son of the dragon lord and the fairy, friendly confident face, brown and gold robe with bronze-drum sun patterns, a crown of bird feathers, holding a small bronze drum, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41404,
-      "sheetPrompt": "the first Hung King of Van Lang as a young man, eldest son of the dragon lord and the fairy, friendly confident face, brown and gold robe with bronze-drum sun patterns, a crown of bird feathers, holding a small bronze drum, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/hung-vuong.webp"
     }
   ],
   "scenes": [
@@ -65,15 +69,18 @@
         "Các bạn ngồi gần lại đây, nghe Miu kể chuyện Con Rồng cháu Tiên nhé!"
       ],
       "image": {
-        "character": "miu",
         "prompt": "Meo Miu the voxel white cat sits on a low wooden stool on a hilltop at sunrise, an open picture book on her lap, below her green mountains on one side and a calm blue sea on the other, a soft rainbow joining them",
-        "seed": 52401
+        "seed": 52401,
+        "character": "miu",
+        "file": "media/scenes/mo-dau.webp"
       },
       "video": {
         "motionPrompt": "the sun rises slowly, mist drifts between the mountains, waves glitter on the sea, the cat turns a page and smiles, slow gentle camera push-in",
         "seed": 63401
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/mo-dau.m4a"
+      }
     },
     {
       "id": "lac-long-quan",
@@ -90,15 +97,18 @@
         "Xong việc, thần lại trở về thủy cung với mẹ, khi nào có việc cần mới hiện lên."
       ],
       "image": {
-        "character": "lac-long-quan",
         "prompt": "the kind dragon lord Lac Long Quan in sea-green robes stands on a riverbank teaching smiling villagers to plant rice seedlings and build a wooden stilt house, a friendly dragon shape glimmers in the sea waves behind him",
-        "seed": 52402
+        "seed": 52402,
+        "character": "lac-long-quan",
+        "file": "media/scenes/lac-long-quan.webp"
       },
       "video": {
         "motionPrompt": "villagers press rice seedlings into the water, the dragon lord points and smiles, a gentle shimmer of a dragon tail curls in the waves, birds fly over the fields",
         "seed": 63402
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/lac-long-quan.m4a"
+      }
     },
     {
       "id": "au-co",
@@ -112,15 +122,18 @@
         "cùng chung sống trên cạn, trong cung điện Long Trang."
       ],
       "image": {
-        "character": "au-co",
         "prompt": "in a valley full of wild flowers, the fairy lady Au Co in flowing white and pink robes meets the dragon lord Lac Long Quan beside a clear stream, both smiling shyly, plum blossoms drift in the air, misty mountains behind",
-        "seed": 52403
+        "seed": 52403,
+        "character": "au-co",
+        "file": "media/scenes/au-co.webp"
       },
       "video": {
         "motionPrompt": "petals float down slowly, the fairy shawl lifts in the breeze, the two bow to each other and smile, the stream sparkles, gentle sideways camera pan",
         "seed": 63403
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/au-co.m4a"
+      }
     },
     {
       "id": "boc-tram-trung",
@@ -134,15 +147,18 @@
         "Đàn con không cần bú mớm mà tự lớn lên như thổi, mặt mũi khôi ngô, khỏe mạnh như thần."
       ],
       "image": {
-        "character": "au-co",
         "prompt": "inside a wooden palace with bronze-drum patterns, the smiling fairy mother Au Co and the dragon lord look at a softly glowing pearly sac holding many round shiny eggs, a few cute chubby baby boys already giggling and crawling out around them",
-        "seed": 52404
+        "seed": 52404,
+        "character": "au-co",
+        "file": "media/scenes/boc-tram-trung.webp"
       },
       "video": {
         "motionPrompt": "the glowing eggs crack open one by one with tiny sparkles, chubby babies wriggle and laugh, the parents lean in with delight, warm light pulses softly",
         "seed": 63404
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/boc-tram-trung.m4a"
+      }
     },
     {
       "id": "ve-thuy-cung",
@@ -157,15 +173,18 @@
         "không cùng thiếp nuôi các con?"
       ],
       "image": {
-        "character": "au-co",
         "prompt": "a beautiful fairy queen in flowing robes sits sadly at a palace window above the sea with a hundred little children playing in the garden behind her, gentle folk picture-book style, soft misty light",
-        "seed": 75977881
+        "seed": 75977881,
+        "character": "au-co",
+        "file": "media/scenes/ve-thuy-cung.webp"
       },
       "video": {
         "motionPrompt": "the fairy queen looks out at the sea, the children play behind her, mist drifts over the waves",
         "seed": 2566445741
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/ve-thuy-cung.m4a"
+      }
     },
     {
       "id": "chia-tay",
@@ -182,15 +201,18 @@
         "Âu Cơ và trăm con nghe theo, rồi chia tay nhau lên đường."
       ],
       "image": {
-        "character": "lac-long-quan",
         "prompt": "at a river fork at dawn, the dragon lord leads a line of happy young sons down toward the blue sea while the fairy lady leads another line of sons up toward green misty mountains, everyone waving to each other warmly",
-        "seed": 52405
+        "seed": 52405,
+        "character": "lac-long-quan",
+        "file": "media/scenes/chia-tay.webp"
       },
       "video": {
         "motionPrompt": "the two groups walk slowly in opposite directions and turn back to wave, the river flows between them, mist rises on the mountains, waves roll gently",
         "seed": 63405
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/chia-tay.m4a"
+      }
     },
     {
       "id": "vua-hung",
@@ -205,15 +227,18 @@
         "đời nào cũng lấy hiệu là Hùng Vương, không hề thay đổi."
       ],
       "image": {
-        "character": "hung-vuong",
         "prompt": "on a green hill above rice fields the young first Hung King in a feathered crown stands beside a large bronze drum, cheering villagers in Van Lang era clothing gather with banners, the fairy mother smiles proudly beside him",
-        "seed": 52406
+        "seed": 52406,
+        "character": "hung-vuong",
+        "file": "media/scenes/vua-hung.webp"
       },
       "video": {
         "motionPrompt": "the king beats the bronze drum gently, villagers clap and raise banners, rice waves in the wind, clouds drift across the sky",
         "seed": 63406
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/vua-hung.m4a"
+      }
     },
     {
       "id": "ket-thuc",
@@ -229,20 +254,70 @@
         "Hẹn gặp lại các bạn trong câu chuyện sau nhé!"
       ],
       "image": {
-        "character": "miu",
         "prompt": "Meo Miu the voxel white cat waves goodbye on the hilltop, the picture book closed on her lap, behind her children from the mountains and children from the sea villages hold hands in a long happy circle under a rainbow",
-        "seed": 52407
+        "seed": 52407,
+        "character": "miu",
+        "file": "media/scenes/ket-thuc.webp"
       },
       "video": {
         "motionPrompt": "the cat waves slowly, the children circle round holding hands, the rainbow shimmers, kites float in the sky, gentle camera pull-back",
         "seed": 63407
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/ket-thuc.m4a"
+      }
     }
   ],
   "music": {
     "prompt": "warm majestic Vietnamese folk tune for children, soft bronze drum, dan tranh zither and bamboo flute, gentle sea and mountain feeling, calm and proud, slow tempo, instrumental, no vocals",
     "durationSeconds": 120,
-    "seed": 74401
+    "seed": 74401,
+    "file": "media/music.m4a"
+  },
+  "track": {
+    "file": "media/story.m4a",
+    "duration": 172.06,
+    "scenes": [
+      {
+        "id": "mo-dau",
+        "start": 1.5,
+        "end": 13.94
+      },
+      {
+        "id": "lac-long-quan",
+        "start": 15.14,
+        "end": 44.86
+      },
+      {
+        "id": "au-co",
+        "start": 46.06,
+        "end": 63.65
+      },
+      {
+        "id": "boc-tram-trung",
+        "start": 64.85,
+        "end": 80.21
+      },
+      {
+        "id": "ve-thuy-cung",
+        "start": 81.41,
+        "end": 99.51
+      },
+      {
+        "id": "chia-tay",
+        "start": 100.71,
+        "end": 125.42
+      },
+      {
+        "id": "vua-hung",
+        "start": 126.62,
+        "end": 146.17
+      },
+      {
+        "id": "ket-thuc",
+        "start": 147.37,
+        "end": 169.06
+      }
+    ]
   }
 }

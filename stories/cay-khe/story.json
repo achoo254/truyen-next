@@ -28,27 +28,31 @@
     {
       "id": "miu",
       "name": "Mèo Miu",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41001,
       "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
-      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/miu.webp"
     },
     {
       "id": "nguoi-em",
       "name": "Người em",
+      "sheetPrompt": "a kind humble young Vietnamese farmer from the folk tale, gentle smile, short black hair, patched brown farmer shirt and rolled-up trousers, a conical nón lá hat on his back, holding a small cloth bag, barefoot, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41302,
-      "sheetPrompt": "a kind humble young Vietnamese farmer from the folk tale, gentle smile, short black hair, patched brown farmer shirt and rolled-up trousers, a conical nón lá hat on his back, holding a small cloth bag, barefoot, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/nguoi-em.webp"
     },
     {
       "id": "nguoi-anh",
       "name": "Người anh",
+      "sheetPrompt": "a greedy but comical older Vietnamese brother from the folk tale, round belly, thin curled moustache, smug grin, fancy dark blue silk tunic with gold trim and a black turban, holding a big empty sack, not scary, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41303,
-      "sheetPrompt": "a greedy but comical older Vietnamese brother from the folk tale, round belly, thin curled moustache, smug grin, fancy dark blue silk tunic with gold trim and a black turban, holding a big empty sack, not scary, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/nguoi-anh.webp"
     },
     {
       "id": "chim-lon",
       "name": "Chim thần",
+      "sheetPrompt": "a giant gentle magical bird from a Vietnamese folk tale, large enough to carry a person, wise kind eyes, shimmering feathers in gold, emerald and sky blue, long elegant tail, friendly expression, full body, side view with wings half open, plain soft cream background, character reference sheet",
       "seed": 41304,
-      "sheetPrompt": "a giant gentle magical bird from a Vietnamese folk tale, large enough to carry a person, wise kind eyes, shimmering feathers in gold, emerald and sky blue, long elegant tail, friendly expression, full body, side view with wings half open, plain soft cream background, character reference sheet"
+      "file": "media/characters/chim-lon.webp"
     }
   ],
   "scenes": [
@@ -66,15 +70,18 @@
         "Các bạn cùng nghe Miu kể chuyện Cây khế nhé!"
       ],
       "image": {
-        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a low wooden stool in a sunny garden, an open picture book on her lap, holding up a slice of yellow star fruit shaped like a five-pointed star, a starfruit tree heavy with ripe fruit behind her",
         "seed": 52301,
-        "prompt": "Meo Miu the voxel white cat sits on a low wooden stool in a sunny garden, an open picture book on her lap, holding up a slice of yellow star fruit shaped like a five-pointed star, a starfruit tree heavy with ripe fruit behind her"
+        "character": "miu",
+        "file": "media/scenes/mo-dau.webp"
       },
       "video": {
-        "seed": 63301,
-        "motionPrompt": "the cat holds up the star-shaped slice and it sparkles in the sun, leaves rustle on the tree, butterflies drift by, slow gentle camera push-in"
+        "motionPrompt": "the cat holds up the star-shaped slice and it sparkles in the sun, leaves rustle on the tree, butterflies drift by, slow gentle camera push-in",
+        "seed": 63301
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/mo-dau.m4a"
+      }
     },
     {
       "id": "chia-nha",
@@ -93,15 +100,18 @@
         "những quả khế chín vàng trĩu cả cành."
       ],
       "image": {
-        "character": "nguoi-em",
+        "prompt": "the smug older brother walks off leading a fat water buffalo toward a big tiled house and rich rice fields, while the kind younger brother smiles calmly beside a tiny thatched hut and a young starfruit tree, watering it with a clay jug",
         "seed": 52302,
-        "prompt": "the smug older brother walks off leading a fat water buffalo toward a big tiled house and rich rice fields, while the kind younger brother smiles calmly beside a tiny thatched hut and a young starfruit tree, watering it with a clay jug"
+        "character": "nguoi-em",
+        "file": "media/scenes/chia-nha.webp"
       },
       "video": {
-        "seed": 63302,
-        "motionPrompt": "the buffalo plods away swishing its tail, the younger brother pours water gently at the tree roots, the little tree leaves flutter, clouds drift"
+        "motionPrompt": "the buffalo plods away swishing its tail, the younger brother pours water gently at the tree roots, the little tree leaves flutter, clouds drift",
+        "seed": 63302
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/chia-nha.m4a"
+      }
     },
     {
       "id": "chim-an-khe",
@@ -121,15 +131,18 @@
         "Người em ngạc nhiên lắm, nhưng về nhà vẫn may một cái túi nhỏ đúng ba gang tay."
       ],
       "image": {
-        "character": "chim-lon",
+        "prompt": "a giant gentle magical bird with gold and emerald feathers perches on the starfruit tree eating a yellow star fruit, the kind younger brother looks up in wonder holding a small cloth bag, morning sunlight through the leaves",
         "seed": 52303,
-        "prompt": "a giant gentle magical bird with gold and emerald feathers perches on the starfruit tree eating a yellow star fruit, the kind younger brother looks up in wonder holding a small cloth bag, morning sunlight through the leaves"
+        "character": "chim-lon",
+        "file": "media/scenes/chim-an-khe.webp"
       },
       "video": {
-        "seed": 63303,
-        "motionPrompt": "the big bird tilts its head and speaks kindly, its long tail feathers sway, a ripe star fruit drops softly, the brother lifts his small bag, leaves rustle"
+        "motionPrompt": "the big bird tilts its head and speaks kindly, its long tail feathers sway, a ripe star fruit drops softly, the brother lifts his small bag, leaves rustle",
+        "seed": 63303
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/chim-an-khe.m4a"
+      }
     },
     {
       "id": "dao-vang",
@@ -144,15 +157,18 @@
         "Em còn chia gạo, chia tiền cho những nhà nghèo trong làng."
       ],
       "image": {
-        "character": "chim-lon",
+        "prompt": "the younger brother rides on the back of the giant magical bird flying over a sparkling blue sea toward a small island glittering with gold nuggets and shiny stones, puffy white clouds, seagulls, bright happy colours",
         "seed": 52304,
-        "prompt": "the younger brother rides on the back of the giant magical bird flying over a sparkling blue sea toward a small island glittering with gold nuggets and shiny stones, puffy white clouds, seagulls, bright happy colours"
+        "character": "chim-lon",
+        "file": "media/scenes/dao-vang.webp"
       },
       "video": {
-        "seed": 63304,
-        "motionPrompt": "the bird glides with slow wing beats over the sea, waves sparkle below, the island glitters in the distance, clouds drift past, camera follows the flight"
+        "motionPrompt": "the bird glides with slow wing beats over the sea, waves sparkle below, the island glitters in the distance, clouds drift past, camera follows the flight",
+        "seed": 63304
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/dao-vang.m4a"
+      }
     },
     {
       "id": "doi-cay",
@@ -167,15 +183,18 @@
         "Người anh dọn sang ở dưới gốc khế, ngày ngày ngồi chờ chim đến, chỉ mong sớm được giàu."
       ],
       "image": {
-        "character": "nguoi-anh",
+        "prompt": "the greedy older brother in his fancy blue tunic eagerly shakes hands with the calm younger brother under the starfruit tree, pointing toward his big tiled house; then sits waiting under the tree looking at the sky with a big empty sack",
         "seed": 52305,
-        "prompt": "the greedy older brother in his fancy blue tunic eagerly shakes hands with the calm younger brother under the starfruit tree, pointing toward his big tiled house; then sits waiting under the tree looking at the sky with a big empty sack"
+        "character": "nguoi-anh",
+        "file": "media/scenes/doi-cay.webp"
       },
       "video": {
-        "seed": 63305,
-        "motionPrompt": "the older brother nods eagerly and rubs his hands, the younger brother smiles, starfruit sway on the branches, a cloud slides across the sky"
+        "motionPrompt": "the older brother nods eagerly and rubs his hands, the younger brother smiles, starfruit sway on the branches, a cloud slides across the sky",
+        "seed": 63305
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/doi-cay.m4a"
+      }
     },
     {
       "id": "tui-to",
@@ -192,15 +211,18 @@
         "nhiều đến nỗi đi không nổi nữa mới chịu trèo lên lưng chim."
       ],
       "image": {
-        "character": "nguoi-anh",
+        "prompt": "on the glittering island of gold, the comical greedy older brother stuffs gold into an enormous bulging sack and his bulging pockets, staggering under the weight, the giant magical bird waits patiently with a worried look, sea and sky behind",
         "seed": 52306,
-        "prompt": "on the glittering island of gold, the comical greedy older brother stuffs gold into an enormous bulging sack and his bulging pockets, staggering under the weight, the giant magical bird waits patiently with a worried look, sea and sky behind"
+        "character": "nguoi-anh",
+        "file": "media/scenes/tui-to.webp"
       },
       "video": {
-        "seed": 63306,
-        "motionPrompt": "the brother keeps shoving gold into the sack and wobbles, coins spill and roll, the bird shakes its head slowly, waves lap at the shore"
+        "motionPrompt": "the brother keeps shoving gold into the sack and wobbles, coins spill and roll, the bird shakes its head slowly, waves lap at the shore",
+        "seed": 63306
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/tui-to.m4a"
+      }
     },
     {
       "id": "buong-tui",
@@ -217,15 +239,18 @@
         "Chim nhẹ hẳn đi, đưa anh về đến gốc khế, tay không."
       ],
       "image": {
-        "character": "chim-lon",
+        "prompt": "over a calm sea the giant magical bird flies low with tired wings, the older brother on its back lets go of the huge sack which falls toward the water with a big splash of sparkles, the bird looking relieved, the starfruit tree on the shore ahead",
         "seed": 52307,
-        "prompt": "over a calm sea the giant magical bird flies low with tired wings, the older brother on its back lets go of the huge sack which falls toward the water with a big splash of sparkles, the bird looking relieved, the starfruit tree on the shore ahead"
+        "character": "chim-lon",
+        "file": "media/scenes/buong-tui.webp"
       },
       "video": {
-        "seed": 63307,
-        "motionPrompt": "the bird wobbles then steadies as the heavy sack drops away, a splash of water and glittering coins, the bird rises again with easy wing beats toward the shore"
+        "motionPrompt": "the bird wobbles then steadies as the heavy sack drops away, a splash of water and glittering coins, the bird rises again with easy wing beats toward the shore",
+        "seed": 63307
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/buong-tui.m4a"
+      }
     },
     {
       "id": "ket-thuc",
@@ -242,20 +267,70 @@
         "Hẹn gặp lại các bạn trong câu chuyện sau nhé!"
       ],
       "image": {
-        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye holding a slice of star fruit, behind her the two brothers hug warmly under the starfruit tree heavy with yellow fruit, the giant magical bird resting on a branch, golden evening light",
         "seed": 52308,
-        "prompt": "Meo Miu the voxel white cat waves goodbye holding a slice of star fruit, behind her the two brothers hug warmly under the starfruit tree heavy with yellow fruit, the giant magical bird resting on a branch, golden evening light"
+        "character": "miu",
+        "file": "media/scenes/ket-thuc.webp"
       },
       "video": {
-        "seed": 63308,
-        "motionPrompt": "the cat waves slowly, the brothers pat each other on the back and laugh, the bird preens its feathers, leaves sway, gentle camera pull-back"
+        "motionPrompt": "the cat waves slowly, the brothers pat each other on the back and laugh, the bird preens its feathers, leaves sway, gentle camera pull-back",
+        "seed": 63308
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/ket-thuc.m4a"
+      }
     }
   ],
   "music": {
     "prompt": "playful gentle Vietnamese folk tune for children, dan bau monochord melody, bamboo flute and light wooden percussion, warm and cheerful with a calm ending, slow-medium tempo, instrumental, no vocals",
     "durationSeconds": 120,
-    "seed": 74301
+    "seed": 74301,
+    "file": "media/music.m4a"
+  },
+  "track": {
+    "file": "media/story.m4a",
+    "duration": 176.59,
+    "scenes": [
+      {
+        "id": "mo-dau",
+        "start": 1.5,
+        "end": 13.98
+      },
+      {
+        "id": "chia-nha",
+        "start": 15.18,
+        "end": 40.53
+      },
+      {
+        "id": "chim-an-khe",
+        "start": 41.73,
+        "end": 80.53
+      },
+      {
+        "id": "dao-vang",
+        "start": 81.73,
+        "end": 97.4
+      },
+      {
+        "id": "doi-cay",
+        "start": 98.6,
+        "end": 116.7
+      },
+      {
+        "id": "tui-to",
+        "start": 117.9,
+        "end": 136.94
+      },
+      {
+        "id": "buong-tui",
+        "start": 138.14,
+        "end": 157.45
+      },
+      {
+        "id": "ket-thuc",
+        "start": 158.65,
+        "end": 173.59
+      }
+    ]
   }
 }

@@ -28,33 +28,38 @@
     {
       "id": "miu",
       "name": "Mèo Miu",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41001,
       "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
-      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/miu.webp"
     },
     {
       "id": "vua-hung",
       "name": "Vua Hùng",
+      "sheetPrompt": "a kind elderly Vietnamese king of the ancient Hung era, long white beard, warm smile, brown and gold royal robe with bronze-drum sun patterns, tall crown decorated with bird feathers, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41002,
-      "sheetPrompt": "a kind elderly Vietnamese king of the ancient Hung era, long white beard, warm smile, brown and gold royal robe with bronze-drum sun patterns, tall crown decorated with bird feathers, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/vua-hung.webp"
     },
     {
       "id": "mi-nuong",
       "name": "Công chúa Mị Nương",
+      "sheetPrompt": "a gentle young Vietnamese princess of the ancient Hung era, long black hair tied in a low bun with small white flowers, kind smile, modest light yellow wrap top with long sleeves and a long dark brown skirt with a woven red sash, holding a pink lotus flower, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41003,
-      "sheetPrompt": "a gentle young Vietnamese princess of the ancient Hung era, long black hair tied in a low bun with small white flowers, kind smile, modest light yellow wrap top with long sleeves and a long dark brown skirt with a woven red sash, holding a pink lotus flower, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/mi-nuong.webp"
     },
     {
       "id": "son-tinh",
       "name": "Sơn Tinh",
+      "sheetPrompt": "Son Tinh, a young kind mountain god from Vietnamese folklore, calm brave face, green and earth-brown robes with leaf and mountain patterns, a crown shaped like three small mountain peaks, holding a tall wooden staff, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41004,
-      "sheetPrompt": "Son Tinh, a young kind mountain god from Vietnamese folklore, calm brave face, green and earth-brown robes with leaf and mountain patterns, a crown shaped like three small mountain peaks, holding a tall wooden staff, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/son-tinh.webp"
     },
     {
       "id": "thuy-tinh",
       "name": "Thủy Tinh",
+      "sheetPrompt": "Thuy Tinh, a young water god from Vietnamese folklore, proud but not scary, flowing dark hair, blue and teal robes with curling wave patterns, a crown shaped like a curling wave, a small pearl at his belt, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41005,
-      "sheetPrompt": "Thuy Tinh, a young water god from Vietnamese folklore, proud but not scary, flowing dark hair, blue and teal robes with curling wave patterns, a crown shaped like a curling wave, a small pearl at his belt, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/thuy-tinh.webp"
     }
   ],
   "scenes": [
@@ -74,15 +79,18 @@
         "Các bạn ngồi thật ngoan, cùng nghe chuyện Sơn Tinh, Thủy Tinh nhé!"
       ],
       "image": {
-        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a low wooden stool beside an open window at dusk, an open picture book on her lap, cozy warm lamp light inside, rain clouds gathering over a wide river and rice fields outside",
         "seed": 52001,
-        "prompt": "Meo Miu the voxel white cat sits on a low wooden stool beside an open window at dusk, an open picture book on her lap, cozy warm lamp light inside, rain clouds gathering over a wide river and rice fields outside"
+        "character": "miu",
+        "file": "media/scenes/mo-dau.webp"
       },
       "video": {
-        "seed": 63001,
-        "motionPrompt": "light rain starts falling outside the window, the cat slowly turns a page and blinks, lamp light flickers softly, slow gentle camera push-in"
+        "motionPrompt": "light rain starts falling outside the window, the cat slowly turns a page and blinks, lamp light flickers softly, slow gentle camera push-in",
+        "seed": 63001
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/mo-dau.m4a"
+      }
     },
     {
       "id": "vua-va-cong-chua",
@@ -101,15 +109,18 @@
         "Từ đó, nhiều người trong thiên hạ biết tin ấy và nghe ngóng, nhưng chưa ai dám đến thử."
       ],
       "image": {
-        "character": "mi-nuong",
+        "prompt": "inside a wooden stilt-house palace decorated with bronze-drum patterns, the kind old king with a white beard smiles at his daughter princess Mi Nuong who holds a pink lotus flower, morning sunlight through the doorway, green hills beyond",
         "seed": 52002,
-        "prompt": "inside a wooden stilt-house palace decorated with bronze-drum patterns, the kind old king with a white beard smiles at his daughter princess Mi Nuong who holds a pink lotus flower, morning sunlight through the doorway, green hills beyond"
+        "character": "mi-nuong",
+        "file": "media/scenes/vua-va-cong-chua.webp"
       },
       "video": {
-        "seed": 63002,
-        "motionPrompt": "the princess gently lifts the lotus flower and smiles, the king nods slowly, cloth curtains sway in a light breeze, dust motes drift in the sunlight"
+        "motionPrompt": "the princess gently lifts the lotus flower and smiles, the king nods slowly, cloth curtains sway in a light breeze, dust motes drift in the sunlight",
+        "seed": 63002
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/vua-va-cong-chua.m4a"
+      }
     },
     {
       "id": "hai-chang-trai",
@@ -133,15 +144,18 @@
         "Làm sao đây?"
       ],
       "image": {
-        "character": "son-tinh",
+        "prompt": "two young gods arrive at the palace gate: on the left Son Tinh in green robes with a mountain-peak crown, small green hills rising behind him; on the right Thuy Tinh in blue robes with a wave crown, soft blue clouds and light rain behind him; villagers watch in wonder",
         "seed": 52003,
-        "prompt": "two young gods arrive at the palace gate: on the left Son Tinh in green robes with a mountain-peak crown, small green hills rising behind him; on the right Thuy Tinh in blue robes with a wave crown, soft blue clouds and light rain behind him; villagers watch in wonder"
+        "character": "son-tinh",
+        "file": "media/scenes/hai-chang-trai.webp"
       },
       "video": {
-        "seed": 63003,
-        "motionPrompt": "small green hills slowly rise behind the god on the left while light rain swirls behind the god on the right, robes ripple in the wind, slow sideways camera pan"
+        "motionPrompt": "small green hills slowly rise behind the god on the left while light rain swirls behind the god on the right, robes ripple in the wind, slow sideways camera pan",
+        "seed": 63003
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/hai-chang-trai.m4a"
+      }
     },
     {
       "id": "le-vat",
@@ -159,15 +173,18 @@
         "Nghe xong, hai chàng vội chào vua rồi lên đường đi tìm lễ vật thật nhanh."
       ],
       "image": {
-        "character": "vua-hung",
+        "prompt": "the kind old king stands on the palace steps raising one hand to announce a challenge; in a dreamy cloud above him float the wedding gifts: trays of sticky rice, square banh chung cakes wrapped in green leaves, an elephant with nine tusks, a rooster with nine spurs, a horse with a pink-red mane; evening sky",
         "seed": 52004,
-        "prompt": "the kind old king stands on the palace steps raising one hand to announce a challenge; in a dreamy cloud above him float the wedding gifts: trays of sticky rice, square banh chung cakes wrapped in green leaves, an elephant with nine tusks, a rooster with nine spurs, a horse with a pink-red mane; evening sky"
+        "character": "vua-hung",
+        "file": "media/scenes/le-vat.webp"
       },
       "video": {
-        "seed": 63004,
-        "motionPrompt": "the gifts in the dreamy cloud bob gently and glow, the king sleeve sways, the evening sky slowly darkens and the first stars twinkle"
+        "motionPrompt": "the gifts in the dreamy cloud bob gently and glow, the king sleeve sways, the evening sky slowly darkens and the first stars twinkle",
+        "seed": 63004
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/le-vat.m4a"
+      }
     },
     {
       "id": "son-tinh-den-truoc",
@@ -184,15 +201,18 @@
         "Mây trắng bay quanh, chim hót líu lo chào cô dâu mới, và hoa rừng nở rộ như đón khách."
       ],
       "image": {
-        "character": "son-tinh",
+        "prompt": "at sunrise Son Tinh and princess Mi Nuong ride a horse with a pink-red mane up a winding path toward misty Tan Vien mountain, an elephant and porters carrying trays of sticky rice and banh chung follow behind, white clouds and birds in the golden sky",
         "seed": 52005,
-        "prompt": "at sunrise Son Tinh and princess Mi Nuong ride a horse with a pink-red mane up a winding path toward misty Tan Vien mountain, an elephant and porters carrying trays of sticky rice and banh chung follow behind, white clouds and birds in the golden sky"
+        "character": "son-tinh",
+        "file": "media/scenes/son-tinh-den-truoc.webp"
       },
       "video": {
-        "seed": 63005,
-        "motionPrompt": "the horse walks slowly up the winding path, clouds drift around the mountain, birds glide across the sunrise sky, gentle camera follow"
+        "motionPrompt": "the horse walks slowly up the winding path, clouds drift around the mountain, birds glide across the sunrise sky, gentle camera follow",
+        "seed": 63005
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/son-tinh-den-truoc.m4a"
+      }
     },
     {
       "id": "thuy-tinh-noi-gian",
@@ -213,15 +233,18 @@
         "lên ngọn cây mà tránh."
       ],
       "image": {
-        "character": "thuy-tinh",
+        "prompt": "Thuy Tinh stands on a big rolling wave with comically puffed red cheeks, sulky rather than scary, calling wind and rain; river water spreads over the rice fields up to the foot of the hills; cute cartoon fish, crabs, shrimp and turtles ride the waves behind him; dark blue clouds",
         "seed": 52006,
-        "prompt": "Thuy Tinh stands on a big rolling wave with comically puffed red cheeks, sulky rather than scary, calling wind and rain; river water spreads over the rice fields up to the foot of the hills; cute cartoon fish, crabs, shrimp and turtles ride the waves behind him; dark blue clouds"
+        "character": "thuy-tinh",
+        "file": "media/scenes/thuy-tinh-noi-gian.webp"
       },
       "video": {
-        "seed": 63006,
-        "motionPrompt": "waves roll and rise gently, rain falls, the cartoon fish and crabs bob up and down on the water, clouds swirl slowly, no fighting"
+        "motionPrompt": "waves roll and rise gently, rain falls, the cartoon fish and crabs bob up and down on the water, clouds swirl slowly, no fighting",
+        "seed": 63006
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/thuy-tinh-noi-gian.m4a"
+      }
     },
     {
       "id": "nui-cao-them",
@@ -245,15 +268,18 @@
         "còn Mị Nương vẫn bình yên bên chồng trên núi."
       ],
       "image": {
-        "character": "son-tinh",
+        "prompt": "Son Tinh stands calmly on top of a green mountain raising his wooden staff, green hills stacked higher and higher like a protective wall, flood water below cannot reach the village behind, villagers and water buffalo safe on the hillside",
         "seed": 52007,
-        "prompt": "Son Tinh stands calmly on top of a green mountain raising his wooden staff, green hills stacked higher and higher like a protective wall, flood water below cannot reach the village behind, villagers and water buffalo safe on the hillside"
+        "character": "son-tinh",
+        "file": "media/scenes/nui-cao-them.webp"
       },
       "video": {
-        "seed": 63007,
-        "motionPrompt": "the mountain slowly grows a little taller as the water rises a little, then the water calmly recedes, sunlight breaks through the clouds"
+        "motionPrompt": "the mountain slowly grows a little taller as the water rises a little, then the water calmly recedes, sunlight breaks through the clouds",
+        "seed": 63007
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/nui-cao-them.m4a"
+      }
     },
     {
       "id": "ket-thuc",
@@ -272,20 +298,70 @@
         "Hẹn gặp lại các bạn trong câu chuyện sau nhé!"
       ],
       "image": {
-        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye beside the same open window, the picture book closed on her lap, the rain has stopped, outside a rainbow over green rice fields and a strong earthen dike along the river where villagers walk",
         "seed": 52008,
-        "prompt": "Meo Miu the voxel white cat waves goodbye beside the same open window, the picture book closed on her lap, the rain has stopped, outside a rainbow over green rice fields and a strong earthen dike along the river where villagers walk"
+        "character": "miu",
+        "file": "media/scenes/ket-thuc.webp"
       },
       "video": {
-        "seed": 63008,
-        "motionPrompt": "the cat waves slowly, the rainbow shimmers, small villagers walk along the dike, leaves sway, gentle camera pull-back"
+        "motionPrompt": "the cat waves slowly, the rainbow shimmers, small villagers walk along the dike, leaves sway, gentle camera pull-back",
+        "seed": 63008
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/ket-thuc.m4a"
+      }
     }
   ],
   "music": {
     "prompt": "gentle Vietnamese folk lullaby, dan bau monochord and soft bamboo flute, light dan tranh zither plucks, warm and calm, slow tempo, instrumental, no vocals",
     "durationSeconds": 120,
-    "seed": 74001
+    "seed": 74001,
+    "file": "media/music.m4a"
+  },
+  "track": {
+    "file": "media/story.m4a",
+    "duration": 274.97,
+    "scenes": [
+      {
+        "id": "mo-dau",
+        "start": 1.5,
+        "end": 22.33
+      },
+      {
+        "id": "vua-va-cong-chua",
+        "start": 23.53,
+        "end": 56.62
+      },
+      {
+        "id": "hai-chang-trai",
+        "start": 57.82,
+        "end": 105.42
+      },
+      {
+        "id": "le-vat",
+        "start": 106.62,
+        "end": 135.21
+      },
+      {
+        "id": "son-tinh-den-truoc",
+        "start": 136.41,
+        "end": 160.94
+      },
+      {
+        "id": "thuy-tinh-noi-gian",
+        "start": 162.14,
+        "end": 199.7
+      },
+      {
+        "id": "nui-cao-them",
+        "start": 200.9,
+        "end": 247.38
+      },
+      {
+        "id": "ket-thuc",
+        "start": 248.58,
+        "end": 271.97
+      }
+    ]
   }
 }

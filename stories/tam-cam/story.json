@@ -28,39 +28,45 @@
     {
       "id": "miu",
       "name": "Mèo Miu",
+      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41001,
       "refImage": "../miu-world-next/assets/generated/review/character/miu-cat-anim-idle.png",
-      "sheetPrompt": "Meo Miu, the same cute voxel-style white cat built from small cubes, pink inner ears, big dark square eyes with white highlights, pink cheeks, small red smiling mouth, pink dress with a white collar and a yellow buckle, standing upright in a friendly storyteller pose, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/miu.webp"
     },
     {
       "id": "tam",
       "name": "Cô Tấm",
+      "sheetPrompt": "Tam, a gentle kind young Vietnamese village girl from the folk tale, long black hair tied with a brown ribbon, soft smile, simple brown ao tu than style wrap top over a cream blouse and a long black skirt, barefoot, holding a small bamboo fish basket, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41202,
-      "sheetPrompt": "Tam, a gentle kind young Vietnamese village girl from the folk tale, long black hair tied with a brown ribbon, soft smile, simple brown ao tu than style wrap top over a cream blouse and a long black skirt, barefoot, holding a small bamboo fish basket, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/tam.webp"
     },
     {
       "id": "cam",
       "name": "Cô Cám",
+      "sheetPrompt": "Cam, a spoiled but not scary young Vietnamese village girl from the folk tale, round face with a cheeky pout, hair in two buns with red ribbons, bright pink blouse and a green skirt, hands on her hips, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41203,
-      "sheetPrompt": "Cam, a spoiled but not scary young Vietnamese village girl from the folk tale, round face with a cheeky pout, hair in two buns with red ribbons, bright pink blouse and a green skirt, hands on her hips, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/cam.webp"
     },
     {
       "id": "di-ghe",
       "name": "Dì ghẻ",
+      "sheetPrompt": "a grumpy but comical middle-aged Vietnamese village stepmother from the folk tale, hair in a tight bun with a black scarf, raised eyebrows and a pursed mouth, dark purple wrap top and brown skirt, holding a bamboo winnowing basket, not scary, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41204,
-      "sheetPrompt": "a grumpy but comical middle-aged Vietnamese village stepmother from the folk tale, hair in a tight bun with a black scarf, raised eyebrows and a pursed mouth, dark purple wrap top and brown skirt, holding a bamboo winnowing basket, not scary, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/di-ghe.webp"
     },
     {
       "id": "but",
       "name": "Bụt",
+      "sheetPrompt": "But, a kind fairy-tale old sage from Vietnamese folk tales, long flowing white beard and eyebrows, gentle smile, simple light orange and white robes, holding a wooden walking stick, a soft glow around him, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41205,
-      "sheetPrompt": "But, a kind fairy-tale old sage from Vietnamese folk tales, long flowing white beard and eyebrows, gentle smile, simple light orange and white robes, holding a wooden walking stick, a soft glow around him, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/but.webp"
     },
     {
       "id": "nha-vua",
       "name": "Nhà vua",
+      "sheetPrompt": "a kind young Vietnamese king from the folk tale, gentle face, golden yellow royal robe with dragon-cloud embroidery, a simple golden crown, holding a small embroidered shoe in one hand, full body, front view, plain soft cream background, character reference sheet",
       "seed": 41206,
-      "sheetPrompt": "a kind young Vietnamese king from the folk tale, gentle face, golden yellow royal robe with dragon-cloud embroidery, a simple golden crown, holding a small embroidered shoe in one hand, full body, front view, plain soft cream background, character reference sheet"
+      "file": "media/characters/nha-vua.webp"
     }
   ],
   "scenes": [
@@ -77,15 +83,18 @@
         "Các bạn ngồi thật ngoan nhé, chuyện bắt đầu thôi!"
       ],
       "image": {
-        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat sits on a low wooden stool in a cosy village kitchen, holding up a round golden thi fruit with both paws, an open picture book on her lap, warm morning light, a bamboo basket and clay jars nearby",
         "seed": 52201,
-        "prompt": "Meo Miu the voxel white cat sits on a low wooden stool in a cosy village kitchen, holding up a round golden thi fruit with both paws, an open picture book on her lap, warm morning light, a bamboo basket and clay jars nearby"
+        "character": "miu",
+        "file": "media/scenes/mo-dau.webp"
       },
       "video": {
-        "seed": 63201,
-        "motionPrompt": "the cat lifts the golden fruit and sniffs it happily, then blinks, sunlight shifts softly across the room, slow gentle camera push-in"
+        "motionPrompt": "the cat lifts the golden fruit and sniffs it happily, then blinks, sunlight shifts softly across the room, slow gentle camera push-in",
+        "seed": 63201
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/mo-dau.m4a"
+      }
     },
     {
       "id": "hai-chi-em",
@@ -105,15 +114,18 @@
         "chẳng phải làm việc nặng."
       ],
       "image": {
-        "character": "tam",
+        "prompt": "in front of a thatched village house, the stepmother hands two bamboo fish baskets to Tam, who bows politely, and to Cam, who yawns and looks away; rice fields and a pond behind, a red bodice hangs on the line as the prize",
         "seed": 52202,
-        "prompt": "in front of a thatched village house, the stepmother hands two bamboo fish baskets to Tam, who bows politely, and to Cam, who yawns and looks away; rice fields and a pond behind, a red bodice hangs on the line as the prize"
+        "character": "tam",
+        "file": "media/scenes/hai-chi-em.webp"
       },
       "video": {
-        "seed": 63202,
-        "motionPrompt": "the stepmother holds out the baskets, Tam takes hers with a small bow, Cam stretches lazily, the red bodice sways on the line, ducks paddle on the pond"
+        "motionPrompt": "the stepmother holds out the baskets, Tam takes hers with a small bow, Cam stretches lazily, the red bodice sways on the line, ducks paddle on the pond",
+        "seed": 63202
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/hai-chi-em.m4a"
+      }
     },
     {
       "id": "gio-tep",
@@ -133,15 +145,18 @@
         "Tấm ngồi xuống bưng mặt khóc."
       ],
       "image": {
-        "character": "tam",
+        "prompt": "by a calm village pond, Tam washes her long hair in the shallow water while behind her Cam sneakily pours the shrimp from Tam basket into her own, lotus leaves on the water, dragonflies, soft afternoon light",
         "seed": 52203,
-        "prompt": "by a calm village pond, Tam washes her long hair in the shallow water while behind her Cam sneakily pours the shrimp from Tam basket into her own, lotus leaves on the water, dragonflies, soft afternoon light"
+        "character": "tam",
+        "file": "media/scenes/gio-tep.webp"
       },
       "video": {
-        "seed": 63203,
-        "motionPrompt": "Tam rinses her hair gently, Cam tiptoes and tips the basket, small shrimp drop with tiny splashes, dragonflies hover, ripples spread on the pond"
+        "motionPrompt": "Tam rinses her hair gently, Cam tiptoes and tips the basket, small shrimp drop with tiny splashes, dragonflies hover, ripples spread on the pond",
+        "seed": 63203
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/gio-tep.m4a"
+      }
     },
     {
       "id": "but-hien-len",
@@ -180,15 +195,18 @@
         "Tấm nhặt xương, bỏ vào lọ và đem chôn như lời Bụt dặn."
       ],
       "image": {
-        "character": "but",
+        "prompt": "the kind old sage But appears in a soft glow beside the pond, smiling at Tam who wipes her tears, she holds the basket where one tiny goby fish looks up; later the same tiny fish swims happily in a clear stone village well",
         "seed": 52204,
-        "prompt": "the kind old sage But appears in a soft glow beside the pond, smiling at Tam who wipes her tears, she holds the basket where one tiny goby fish looks up; later the same tiny fish swims happily in a clear stone village well"
+        "character": "but",
+        "file": "media/scenes/but-hien-len.webp"
       },
       "video": {
-        "seed": 63204,
-        "motionPrompt": "a gentle glow shimmers around the old sage, Tam looks up and smiles, the tiny fish flicks its tail, water ripples in sparkling circles"
+        "motionPrompt": "a gentle glow shimmers around the old sage, Tam looks up and smiles, the tiny fish flicks its tail, water ripples in sparkling circles",
+        "seed": 63204
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/but-hien-len.m4a"
+      }
     },
     {
       "id": "di-hoi",
@@ -220,15 +238,18 @@
         "Tấm mừng quá, tắm rửa, mặc đồ đẹp, cưỡi ngựa đi hội."
       ],
       "image": {
-        "character": "tam",
+        "prompt": "a flock of little sparrows sorts rice from paddy grain on a large bamboo tray in the yard, Tam now in a beautiful festival dress and embroidered shoes smiles with joy, the old sage But waves kindly from a glowing cloud",
         "seed": 52205,
-        "prompt": "a flock of little sparrows sorts rice from paddy grain on a large bamboo tray in the yard, Tam now in a beautiful festival dress and embroidered shoes smiles with joy, the old sage But waves kindly from a glowing cloud"
+        "character": "tam",
+        "file": "media/scenes/di-hoi.webp"
       },
       "video": {
-        "seed": 63205,
-        "motionPrompt": "the sparrows hop and peck in a busy cheerful rhythm, grains slide into two neat piles, Tam twirls once in her new dress, the glow fades softly"
+        "motionPrompt": "the sparrows hop and peck in a busy cheerful rhythm, grains slide into two neat piles, Tam twirls once in her new dress, the glow fades softly",
+        "seed": 63205
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/di-hoi.m4a"
+      }
     },
     {
       "id": "chiec-giay",
@@ -258,15 +279,18 @@
         "Tấm bước lên kiệu trước con mắt ngạc nhiên và tức tối của mẹ con Cám."
       ],
       "image": {
-        "character": "nha-vua",
+        "prompt": "at a lively village festival with colourful flags, the kind young king holds up a small embroidered shoe, Tam slips her foot into it perfectly while villagers cheer, Cam pouts in the crowd, a royal elephant with a red saddle cloth watches",
         "seed": 52206,
-        "prompt": "at a lively village festival with colourful flags, the kind young king holds up a small embroidered shoe, Tam slips her foot into it perfectly while villagers cheer, Cam pouts in the crowd, a royal elephant with a red saddle cloth watches"
+        "character": "nha-vua",
+        "file": "media/scenes/chiec-giay.webp"
       },
       "video": {
-        "seed": 63206,
-        "motionPrompt": "flags flutter, the crowd claps and cheers, the shoe slides on and Tam smiles shyly, the elephant raises its trunk happily, gentle camera push-in"
+        "motionPrompt": "flags flutter, the crowd claps and cheers, the shoe slides on and Tam smiles shyly, the elephant raises its trunk happily, gentle camera push-in",
+        "seed": 63206
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/chiec-giay.m4a"
+      }
     },
     {
       "id": "chim-vang-anh",
@@ -303,15 +327,18 @@
         "Cám sợ quá, đốt khung cửi, đem tro đổ ra đường xa."
       ],
       "image": {
-        "character": "tam",
+        "prompt": "a bright yellow oriole bird sings on a blossoming branch outside a palace window, inside the kind young king listens with a wistful smile, at the side Cam wearing a borrowed dress frowns and waves a fan to shoo the bird",
         "seed": 52207,
-        "prompt": "a bright yellow oriole bird sings on a blossoming branch outside a palace window, inside the kind young king listens with a wistful smile, at the side Cam wearing a borrowed dress frowns and waves a fan to shoo the bird"
+        "character": "tam",
+        "file": "media/scenes/chim-vang-anh.webp"
       },
       "video": {
-        "seed": 63207,
-        "motionPrompt": "the little yellow bird sings and flutters its wings, blossoms drift down, the king tilts his head to listen, Cam flaps her fan, the bird lifts off and flies away"
+        "motionPrompt": "the little yellow bird sings and flutters its wings, blossoms drift down, the king tilts his head to listen, Cam flaps her fan, the bird lifts off and flies away",
+        "seed": 63207
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/chim-vang-anh.m4a"
+      }
     },
     {
       "id": "qua-thi",
@@ -336,15 +363,18 @@
         "Hằng ngày Tấm giúp bà thổi cơm, nấu nước, gói bánh, têm trầu cho bà bán hàng."
       ],
       "image": {
-        "character": "tam",
+        "prompt": "inside a humble clean little cottage, Tam steps gently out of a glowing golden thi fruit on a wooden shelf, a kind old tea-seller woman peeks in at the doorway with delight, a broom and a pot of rice already cooked, soft morning light",
         "seed": 52208,
-        "prompt": "inside a humble clean little cottage, Tam steps gently out of a glowing golden thi fruit on a wooden shelf, a kind old tea-seller woman peeks in at the doorway with delight, a broom and a pot of rice already cooked, soft morning light"
+        "character": "tam",
+        "file": "media/scenes/qua-thi.webp"
       },
       "video": {
-        "seed": 63208,
-        "motionPrompt": "the golden fruit glows and opens softly like a flower, Tam steps out and smiles, the old woman covers her mouth in happy surprise, steam rises from the rice pot"
+        "motionPrompt": "the golden fruit glows and opens softly like a flower, Tam steps out and smiles, the old woman covers her mouth in happy surprise, steam rises from the rice pot",
+        "seed": 63208
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/qua-thi.m4a"
+      }
     },
     {
       "id": "mieng-trau",
@@ -371,15 +401,18 @@
         "từ đó mụ không bao giờ làm hại ai được nữa."
       ],
       "image": {
-        "character": "nha-vua",
+        "prompt": "at a roadside tea stall under a banyan tree, the kind young king holds a betel leaf folded like phoenix wings and looks up with joy as Tam steps out from the cottage, the old woman smiling beside a teapot, royal parasols behind",
         "seed": 52209,
-        "prompt": "at a roadside tea stall under a banyan tree, the kind young king holds a betel leaf folded like phoenix wings and looks up with joy as Tam steps out from the cottage, the old woman smiling beside a teapot, royal parasols behind"
+        "character": "nha-vua",
+        "file": "media/scenes/mieng-trau.webp"
       },
       "video": {
-        "seed": 63209,
-        "motionPrompt": "the king lifts the folded betel leaf and recognises it, Tam walks out shyly, the old woman beams, banyan leaves sway, slow gentle camera push-in"
+        "motionPrompt": "the king lifts the folded betel leaf and recognises it, Tam walks out shyly, the old woman beams, banyan leaves sway, slow gentle camera push-in",
+        "seed": 63209
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/mieng-trau.m4a"
+      }
     },
     {
       "id": "ket-thuc",
@@ -395,20 +428,80 @@
         "Hẹn gặp lại các bạn trong câu chuyện sau nhé!"
       ],
       "image": {
-        "character": "miu",
+        "prompt": "Meo Miu the voxel white cat waves goodbye holding the golden thi fruit, behind her in a sunny palace garden Tam smiles kindly at the stepmother and Cam who bow their heads to apologise, the kind young king beside Tam, flowers everywhere",
         "seed": 52210,
-        "prompt": "Meo Miu the voxel white cat waves goodbye holding the golden thi fruit, behind her in a sunny palace garden Tam smiles kindly at the stepmother and Cam who bow their heads to apologise, the kind young king beside Tam, flowers everywhere"
+        "character": "miu",
+        "file": "media/scenes/ket-thuc.webp"
       },
       "video": {
-        "seed": 63210,
-        "motionPrompt": "the cat waves slowly, the stepmother and Cam bow and Tam gently lifts their hands, petals drift in the breeze, gentle camera pull-back"
+        "motionPrompt": "the cat waves slowly, the stepmother and Cam bow and Tam gently lifts their hands, petals drift in the breeze, gentle camera pull-back",
+        "seed": 63210
       },
-      "voice": {}
+      "voice": {
+        "file": "media/scenes/ket-thuc.m4a"
+      }
     }
   ],
   "music": {
     "prompt": "tender Vietnamese folk lullaby, dan tranh zither and soft bamboo flute, light dan nguyet plucks, sweet and a little wistful turning hopeful, slow tempo, instrumental, no vocals",
     "durationSeconds": 120,
-    "seed": 74201
+    "seed": 74201,
+    "file": "media/music.m4a"
+  },
+  "track": {
+    "file": "media/story.m4a",
+    "duration": 555.52,
+    "scenes": [
+      {
+        "id": "mo-dau",
+        "start": 1.5,
+        "end": 11.34
+      },
+      {
+        "id": "hai-chi-em",
+        "start": 12.54,
+        "end": 46.77
+      },
+      {
+        "id": "gio-tep",
+        "start": 47.97,
+        "end": 87.51
+      },
+      {
+        "id": "but-hien-len",
+        "start": 88.71,
+        "end": 186.99
+      },
+      {
+        "id": "di-hoi",
+        "start": 188.19,
+        "end": 264.29
+      },
+      {
+        "id": "chiec-giay",
+        "start": 265.49,
+        "end": 325.97
+      },
+      {
+        "id": "chim-vang-anh",
+        "start": 327.17,
+        "end": 417.68
+      },
+      {
+        "id": "qua-thi",
+        "start": 418.88,
+        "end": 474.58
+      },
+      {
+        "id": "mieng-trau",
+        "start": 475.78,
+        "end": 534.53
+      },
+      {
+        "id": "ket-thuc",
+        "start": 535.73,
+        "end": 552.52
+      }
+    ]
   }
 }
