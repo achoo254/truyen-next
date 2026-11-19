@@ -126,3 +126,12 @@ nhân vật, 76 tranh, 76 cảnh động, 76 giọng kể, 8 nhạc) và 8 clip 
    lại sau khi dừng giữa chừng), `--force` để làm lại. File gốc (PNG, WAV, MP4 1080p) ở `.work/` (không commit).
 3. Mở từng ảnh, xem từng cảnh động và nghe thử trước khi commit; ảnh hỏng thì đổi `seed` (hoặc prompt) của cảnh đó,
    xoá file trong `media/` và chạy lại bước đó.
+4. **Giữ giọng khớp với lời.** Mỗi truyện có giọng đọc có `media/voices.json`: dấu vân tay (lời + giọng) của từng
+   cảnh lúc gen. Routine viết lại lời thì chỉ ghi chữ và bỏ hết trường `file` trong `story.json`, nên truyện mất tranh,
+   giọng và nút "Nghe" cho tới khi PC làm lại. `pnpm story:voice-sync` làm việc đó trên PC: với mọi truyện **đã từng có
+   giọng**, ghi lại tên các file đã có (`--name-existing` của `story:build`), gen lại giọng các cảnh có lời đã đổi,
+   làm lại bản ghép liền, kiểm bằng nhận dạng giọng nói (`ASR_PYTHON`, `ASR_CHECK`), đổi `status` về `live`, commit
+   và push. Giọng kiểm ASR lệch (dưới `--min`, mặc định 0,8) vẫn được đăng và chỉ ghi cảnh báo vào
+   `.work/voice-sync/report.json` (mã thoát 2). `--dry-run` chỉ liệt kê; `--adopt` ghi sổ cho truyện có giọng từ trước
+   khi có sổ. Cần cây làm việc sạch và máy nhà bật; không thì dừng và chạy lại lần sau. Truyện chưa từng có giọng không
+   bị đụng tới (gen giọng cho truyện mới là `pnpm story:build` có chủ ý).

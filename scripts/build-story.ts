@@ -1,5 +1,5 @@
 /**
- * `pnpm story:build <slug> [--dry-run] [--only characters,images,…] [--force]`: makes a story's media on the home PC
+ * `pnpm story:build <slug> [--dry-run] [--only characters,images,…] [--force] [--name-existing]`: makes a story's media on the home PC
  * with the inet-artgen tools, step by step (story-build-plan.ts), writing each finished file's path into
  * story.json so the app shows it.
  *
@@ -8,6 +8,8 @@
  *   run with "PC offline, pending".
  * - Steps whose file already exists are skipped, so a run stopped halfway picks up where it left off; `--force`
  *   makes them again. The story recording (`track`) is made again by itself when a voice or the music is newer.
+ * - `--name-existing` only names, in story.json, the files of every stage that are already there (a retelling writes
+ *   story.json without any `file`) and makes nothing.
  * - `track` needs no PC, only ffmpeg and ffprobe: `--only track` after the voices and the music are made.
  *
  * Environment: ARTGEN_DIR (default ~/.claude/skills/inet-artgen), PYTHON (default python3, python on Windows),
@@ -57,20 +59,24 @@ function needsRun(step: BuildStep, force: boolean, story: Story, staleVoices: Re
 function main(): void {
   const { values, positionals } = parseArgs({
     allowPositionals: true,
-    options: { 'dry-run': { type: 'boolean', default: false }, only: { type: 'string' }, force: { type: 'boolean', default: false } },
+    options: { 'dry-run': { type: 'boolean', default: false }, only: { type: 'string' }, force: { type: 'boolean', default: false }, 'name-existing': { type: 'boolean', default: false } },
   });
   const [slug, ...extra] = positionals;
-  if (!slug || extra.length > 0) throw new BuildError('usage: pnpm story:build <slug> [--dry-run] [--only characters,images,videos,voices,music,track,social] [--force]');
+  if (!slug || extra.length > 0) throw new BuildError('usage: pnpm story:build <slug> [--dry-run] [--only characters,images,videos,voices,music,track,social] [--force] [--name-existing]');
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) throw new BuildError(`"${slug}" is not a story slug (the folder name under stories/)`);
   const dir = path.join(STORIES_DIR, slug);
   const loaded = loadStory(dir);
   if (!loaded.ok) throw new BuildError(`stories/${slug} is not valid:\n  ${loaded.errors.join('\n  ')}`);
   let story: Story = loaded.loaded.story;
   const tools = defaultTools();
-  const steps = planStoryBuild(story, tools, parseStages(values.only));
+  const steps = planStoryBuild(story, tools, values['name-existing'] ? [...STAGES] : parseStages(values.only));
   const ledger = readLedger(dir);
   const staleVoices = new Set(staleVoiceScenes(story, ledger, (file) => existsSync(path.join(dir, file))).map((scene) => scene.id));
-  const pending = (step: BuildStep): boolean => needsRun(step, values.force, story, staleVoices);
+  const needed = (step: BuildStep): boolean => needsRun(step, values.force, story, staleVoices);
+  // The story recording also has to be made again when a voice or the music it mixes is made in this very run: its
+  // files are not newer yet when the plan is drawn up, so needsRun cannot see it.
+  const rebuilt = new Set(steps.filter((step) => !step.track && needed(step)).map((step) => step.output));
+  const pending = (step: BuildStep): boolean => needed(step) || (step.track !== undefined && step.inputs.some((input) => rebuilt.has(input)));
 
   if (values['dry-run']) {
     const pcCheck = steps.some((step) => step.pc !== null) ? `the PC is checked first: ${shellQuote([tools.python, toolPath(tools, 'artgen.py'), '--health'])}` : 'no PC needed';
@@ -93,6 +99,7 @@ function main(): void {
     writeStory(dir, story);
     console.log(`${slug}: named the files that were already made`);
   }
+  if (values['name-existing']) return;
   if (todo.length === 0) {
     console.log(`${slug}: nothing to make, every planned file exists`);
     return;

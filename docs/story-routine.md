@@ -146,6 +146,12 @@ Mảng JSON, mỗi dòng một mục, **thứ tự trong tệp là thứ tự vi
 Việc PC làm sau (không phải routine): `pnpm story:build <slug>` sinh media và ghi `file`; ai chạy bước đó đổi `status`
 thành `media`, rồi `live` khi có `track`.
 
+Routine viết lại truyện **đã có giọng** thì giọng cũ không còn khớp lời và `story.json` mất mọi `file`. Đó không phải
+việc của routine (không có GPU): `pnpm story:voice-sync` trên PC gen lại giọng các cảnh đã đổi lời, ghi lại tên media
+đã có, kiểm ASR và đẩy lên; ASR lệch chỉ thành cảnh báo trong `.work/voice-sync/report.json`, giọng mới vẫn đăng
+(chi tiết ở README, mục "Giữ giọng khớp với lời"). Vì vậy routine **không xoá** file trong `media/` của truyện đã có
+giọng và không sửa `media/voices.json`.
+
 ## Truyện chỉ có chữ hiện trên web và app thế nào (bản đọc chữ)
 
 - **Kệ và trang chủ:** truyện hiện như mọi truyện khác, với bìa khắc (biểu tượng truyện và tên trong khung giấy) cho

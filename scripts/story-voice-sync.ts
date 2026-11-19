@@ -24,7 +24,7 @@ import { parseArgs } from 'node:util';
 import { setCatalogStatus } from './story-catalog';
 import { REPO_ROOT, type LoadedStory, loadStories, loadStory } from './story-files';
 import { asrConfigFromEnv, belowMinimum, checkClips } from './story-voice-asr';
-import { type VoiceRemake, adoptRecordings, readLedger, sceneVoiceFile, voiceRemakes, writeLedger } from './story-voice-ledger';
+import { type VoiceRemake, adoptRecordings, previouslyVoiced, readLedger, sceneVoiceFile, voiceRemakes, writeLedger } from './story-voice-ledger';
 
 const WORK_DIR = path.join(REPO_ROOT, '.work', 'voice-sync');
 const LOCK_FILE = path.join(WORK_DIR, 'lock');
@@ -64,11 +64,37 @@ function takeLock(): boolean {
   }
 }
 
-/** `pnpm story:build <slug>` for the voice, music and recording stages; the slug comes from a folder name. */
-function buildVoices(slug: string): { ok: boolean; offline: boolean; out: string } {
-  const ran = spawnSync('pnpm', ['-s', 'story:build', slug, '--only', 'voices,music,track'], { cwd: REPO_ROOT, encoding: 'utf8', shell: process.platform === 'win32' });
+/** `story:build` (scripts/build-story.ts) for one story, run with the same Node and tsx as this script. */
+function runBuild(slug: string, flags: string[]): { ok: boolean; offline: boolean; out: string } {
+  const ran = spawnSync(process.execPath, ['--import', 'tsx', 'scripts/build-story.ts', slug, ...flags], { cwd: REPO_ROOT, encoding: 'utf8' });
   const out = `${ran.stdout}${ran.stderr}`.trim();
   return { ok: ran.status === 0, offline: out.includes('PC offline'), out };
+}
+
+/** Makes the voices of the changed scenes, the music if it is missing, and the story recording. */
+const buildVoices = (slug: string): { ok: boolean; offline: boolean; out: string } => runBuild(slug, ['--only', 'voices,music,track']);
+
+/**
+ * Names, in story.json, every file already made for the voiced stories (a retelling drops all the `file` references,
+ * pictures and clips included, and the site would show a text-only story until they are named again), and commits the
+ * stories it changed. Needs no PC.
+ */
+function nameExistingMedia(stories: readonly LoadedStory[], warnings: Warning[]): boolean {
+  let committed = false;
+  for (const { slug, dir, story } of stories) {
+    if (!previouslyVoiced(story, readLedger(dir), (file) => existsIn(dir, file))) continue;
+    const named = runBuild(slug, ['--name-existing']);
+    if (!named.ok) {
+      warnings.push({ slug, kind: 'build', detail: named.out.slice(-300) });
+      continue;
+    }
+    if (git(['status', '--porcelain', '--', `stories/${slug}`]).out === '') continue;
+    git(['add', '-A', '--', `stories/${slug}`]);
+    const done = git(['commit', '-q', '-m', `feat(stories): name the media that already exist for ${slug}`, '--', `stories/${slug}`]);
+    if (done.ok) committed = true;
+    else warnings.push({ slug, kind: 'git', detail: `commit failed: ${done.out.slice(-300)}` });
+  }
+  return committed;
 }
 
 /** Listens to the remade scenes of a story; the lowest score, or null when nothing was checked. */
@@ -139,20 +165,25 @@ function main(): number {
     if (!pulled.ok) throw new Error(`git pull --rebase failed: ${pulled.out.slice(-300)}`);
   }
 
-  const { stories, errors } = loadStories();
-  if (errors.length > 0) throw new Error(`the stories do not load:\n  ${errors.join('\n  ')}`);
-  const remakes = voiceRemakes(stories, readLedger, existsIn);
-  if (remakes.length === 0) {
-    console.log('voice-sync: every voiced story matches its text');
-    return 0;
-  }
+  const loadAll = (): LoadedStory[] => {
+    const { stories, errors } = loadStories();
+    if (errors.length > 0) throw new Error(`the stories do not load:\n  ${errors.join('\n  ')}`);
+    return stories;
+  };
   if (values['dry-run']) {
-    for (const remake of remakes) console.log(`${remake.slug}: ${remake.sceneIds.length} scene(s) to record again${remake.referencesLost ? ', recording references to restore' : ''}`);
+    const planned = voiceRemakes(loadAll(), readLedger, existsIn);
+    if (planned.length === 0) console.log('voice-sync: every voiced story matches its text');
+    for (const remake of planned) console.log(`${remake.slug}: ${remake.sceneIds.length} scene(s) to record again${remake.referencesLost ? ', recording references to restore' : ''}`);
     return 0;
   }
 
   const report: Report = { at: new Date().toISOString(), remade: [], pending: [], warnings: [] };
-  let committed = false;
+  let committed = nameExistingMedia(loadAll(), report.warnings);
+  const remakes = voiceRemakes(loadAll(), readLedger, existsIn);
+  if (remakes.length === 0 && !committed && report.warnings.length === 0) {
+    console.log('voice-sync: every voiced story matches its text');
+    return 0;
+  }
   for (const [index, remake] of remakes.entries()) {
     console.log(`[${index + 1}/${remakes.length}] ${remake.slug}: ${remake.sceneIds.length} scene(s)`);
     const built = buildVoices(remake.slug);
