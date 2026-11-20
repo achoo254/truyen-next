@@ -291,3 +291,24 @@ test('with reduced motion the page does not curl: the old page fades and a swipe
   await page.mouse.up();
   await expect(sceneNumber(page)).toContainText('Cảnh 3/8');
 });
+
+test('the home page searches every shelf at once and keeps the search in the address', async ({ page }) => {
+  await page.goto('/');
+  // Nothing typed: the rows of the home page.
+  await expect(page.locator('[data-id=home-search-results]')).toHaveCount(0);
+  await expect(page.locator('[data-id=shelf-kids]')).toBeVisible();
+  await page.fill('[data-id=home-search]', 'son tinh thuy');
+  await expect(page.locator('[data-id=story-list-search] > li')).toHaveCount(1);
+  await expect(page.locator('[data-id=story-card-son-tinh-thuy-tinh] mark').first()).toHaveText('Sơn');
+  await expect(page.locator('[data-id=story-card-son-tinh-thuy-tinh] .tile-note')).toHaveText('Trẻ em');
+  await expect(page.locator('[data-id=shelf-kids]')).toHaveCount(0);
+  await expect(page).toHaveURL(/\/\?q=son\+tinh\+thuy$/);
+  await page.reload();
+  await expect(page.locator('[data-id=home-search]')).toHaveValue('son tinh thuy');
+  await expect(page.locator('[data-id=story-list-search] > li')).toHaveCount(1);
+  await page.fill('[data-id=home-search]', 'zzzzqx');
+  await expect(page.locator('[data-id=home-search-empty]')).toContainText('zzzzqx');
+  await page.click('[data-id=home-search-clear]');
+  await expect(page.locator('[data-id=shelf-kids]')).toBeVisible();
+  await expect(page).toHaveURL(/\/$/);
+});

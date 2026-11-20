@@ -7,6 +7,7 @@ import { resumeIndex, useProgress } from '../story/reading-progress';
 import { fetchStoryList, shelfPath } from '../story/story-api';
 import { useLoad } from '../story/use-load';
 import { EMPTY_QUERY, applyQuery, queryString } from './library';
+import { HomeSearch } from './home-search';
 import { LoadFailed, TileSkeleton } from './page-states';
 import { StoryTile } from './story-tile';
 
@@ -103,12 +104,12 @@ export function HomePage(): ReactNode {
   else {
     const stories = load.value;
     body = (
-      <>
+      <HomeSearch entries={stories}>
         <ContinueRow entries={stories} />
         {SHELVES.map((shelf) => (
           <ShelfRows key={shelf} shelf={shelf} entries={stories.filter((entry) => entry.shelf === shelf)} />
         ))}
-      </>
+      </HomeSearch>
     );
   }
 

@@ -8,10 +8,8 @@ import { useLoad } from '../story/use-load';
 import { Icon } from '../ui/icons';
 import { EMPTY_QUERY, LENGTHS, type LengthBand, PAGE_SIZE, SORTS, type ShelfQuery, type SortOrder, applyQuery, parseQuery, queryString } from './library';
 import { LoadFailed, TileSkeleton } from './page-states';
+import { SEARCH_DEBOUNCE_MS, SearchField } from './search-field';
 import { StoryTile } from './story-tile';
-
-/** Typing settles for this long before the shelf filters (and the URL follows). */
-const SEARCH_DEBOUNCE_MS = 120;
 
 /** A row of chips where at most one is on; pressing the one that is on turns it off. */
 function ChipRow<T extends string>({ label, options, value, onChange, name, dataId }: {
@@ -76,21 +74,7 @@ function ShelfBrowser({ shelf, entries }: { shelf: Shelf; entries: StoryListEntr
       </h2>
       <div className={filtersOpen ? 'shelf-tools is-open' : 'shelf-tools'} role="search" data-id="shelf-tools">
         <div className="search-bar">
-          <label className="search" htmlFor={searchId}>
-            <Icon name="search" />
-            <span className="sr-only">{t('library.search')}</span>
-            <input
-              id={searchId}
-              className="search-input"
-              type="search"
-              value={typed}
-              placeholder={t('library.searchHint')}
-              autoComplete="off"
-              enterKeyHint="search"
-              onChange={(event) => setTyped(event.currentTarget.value)}
-              data-id="shelf-search"
-            />
-          </label>
+          <SearchField id={searchId} value={typed} onChange={setTyped} dataId="shelf-search" />
           <button
             type="button"
             className="filter-toggle"
