@@ -32,7 +32,7 @@ export interface ReadingScene {
  * with qwen (no lettering in these pictures).
  */
 export const READING_SCENE_STYLE =
-  "Vietnamese Đông Hồ woodblock print style, flat colour fields, bold hand-carved black keylines, limited palette of vermilion red, turmeric yellow, leaf green, charcoal black and warm wood brown, on shimmering điệp shell paper texture, top-down three-quarter view, calm, no text, no letters, no people's faces in close-up, large plain uncluttered central area reserved for an open book, props only near the edges and corners";
+  "Vietnamese Đông Hồ woodblock print style, flat colour fields, bold hand-carved black keylines, limited palette of vermilion red, turmeric yellow, leaf green, charcoal black and warm wood brown, on shimmering điệp shell paper texture, top-down three-quarter view, calm, no text, no letters, no people's faces in close-up, the whole central area is a large empty plain surface with nothing on it, no book, no paper, no objects in the centre, props only near the edges and corners";
 
 export const READING_SCENES: readonly ReadingScene[] = [
   {
@@ -42,7 +42,7 @@ export const READING_SCENES: readonly ReadingScene[] = [
       day: 'a warm wooden study desk by a lattice window, morning light, a small clay teapot and one cup at the top right, a sprig of peach blossom in a vase at the top left, plain wood grain in the centre',
       night: 'the same wooden study desk by a lattice window at night, a brass oil lamp at the top right casting a warm circle of light, deep brown shadows, plain wood grain in the centre',
     },
-    drawn: [],
+    drawn: ['day', 'night'],
   },
   {
     id: 'giuong-ngu',
@@ -50,7 +50,7 @@ export const READING_SCENES: readonly ReadingScene[] = [
     prompts: {
       night: "a child's bed seen from above at night, a patterned quilt with lotus motifs, a pillow at the top, a crescent-moon night light glowing amber at the top left, a sleeping cat curled at the bottom corner, plain quilt surface in the centre",
     },
-    drawn: [],
+    drawn: ['night'],
   },
   {
     id: 'san-dinh-trang',
@@ -58,7 +58,7 @@ export const READING_SCENES: readonly ReadingScene[] = [
     prompts: {
       night: 'a village communal house courtyard at night under a full moon and many stars, a star lantern at the top right, banyan leaves at the edges, plain brick-tiled ground in the centre',
     },
-    drawn: [],
+    drawn: ['night'],
   },
   {
     id: 'goc-da',
@@ -66,7 +66,7 @@ export const READING_SCENES: readonly ReadingScene[] = [
     prompts: {
       day: 'a village park lawn under a great banyan tree in late afternoon, aerial roots hanging along the top edge, a few fallen leaves and a buffalo far away at the bottom corner, plain grass in the centre',
     },
-    drawn: [],
+    drawn: ['day'],
   },
   {
     id: 'vong-hien',
@@ -74,7 +74,7 @@ export const READING_SCENES: readonly ReadingScene[] = [
     prompts: {
       day: 'a hammock under a bamboo porch at summer noon, dappled leaf shadows, a hand fan and a bowl of rambutan at the bottom edge, plain woven hammock surface in the centre',
     },
-    drawn: [],
+    drawn: ['day'],
   },
   {
     id: 'hien-mua',
@@ -83,7 +83,7 @@ export const READING_SCENES: readonly ReadingScene[] = [
       day: 'a tiled porch in the rain, rows of raindrops falling from curved roof tiles along the top edge, a wet clay jar at a corner, plain wooden floor in the centre',
       night: 'a tiled porch in the rain at night, rows of raindrops falling from curved roof tiles along the top edge, one oil lamp lit at a corner, a wet clay jar, plain wooden floor in the centre',
     },
-    drawn: [],
+    drawn: ['day', 'night'],
   },
   {
     id: 'ben-sen',
@@ -91,7 +91,7 @@ export const READING_SCENES: readonly ReadingScene[] = [
     prompts: {
       day: 'a small bamboo boat on a lotus pond, lotus leaves and pink blossoms around the edges, plain boat floor in the centre',
     },
-    drawn: [],
+    drawn: ['day'],
   },
   { id: 'giay-tron', name: { vi: 'Giấy trơn', en: 'Plain paper' }, prompts: {}, drawn: [] },
 ];

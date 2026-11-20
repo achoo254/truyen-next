@@ -44,7 +44,8 @@ describe('story player without media', () => {
     expect(q('story-subtitle-line').textContent).toBe(story.scenes[0]?.subtitles[0]);
     expect(screen.getByText('Mèo Miu kể')).toBeTruthy();
     expect(q('story-plain').textContent).toBe(story.scenes[0]?.title);
-    expect(document.querySelectorAll('img, video, audio')).toHaveLength(0);
+    // The painted reading-scene backdrop is decoration; the story itself brings no picture, video or audio.
+    expect(document.querySelectorAll('img:not(.backdrop-picture), video, audio')).toHaveLength(0);
     expect(q('story-no-media')).toBeTruthy();
     expect(q('story-play').textContent).toBe('Bắt đầu');
     expect((q('story-prev') as HTMLButtonElement).disabled).toBe(true);

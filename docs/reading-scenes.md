@@ -12,7 +12,7 @@ cảnh, tên, prompt từng tâm trạng, khung hình, kích thước xuất, ng
 ## Luật bất biến
 
 - Chữ không bao giờ nằm trên tranh nền. Trang sách luôn đục; thanh tiêu đề và thanh nút nằm trên tấm giấy riêng.
-- Tranh chừa vùng giữa trơn (sách che): điện thoại 94% ngang × 84% dọc, desktop 64% × 80%. Đồ vật chỉ ở mép và góc.
+- Tranh chừa vùng giữa trơn, không vẽ sách (sách thật che): điện thoại 94% ngang × 84% dọc, desktop 64% × 80%. Đồ vật chỉ ở mép và góc.
 - Không chữ, không ký tự giả trong tranh (prompt đã ghi; vẫn phải soi lại).
 - Tắt đèn: cảnh có bản đêm thì dùng bản đêm; cảnh chỉ có ban ngày được phủ một lớp tối. Đổi bối cảnh không bao giờ đổi
   Tắt đèn.
@@ -32,7 +32,7 @@ cảnh, tên, prompt từng tâm trạng, khung hình, kích thước xuất, ng
 
 Prompt đầy đủ từng cảnh nằm trong `reading-scenes.ts` (trường `prompts`); trước mỗi prompt luôn có phần phong cách
 chung `READING_SCENE_STYLE` (tranh khắc Đông Hồ, mảng màu phẳng, nét khắc đen, giấy điệp, nhìn chéo từ trên, không
-chữ, chừa giữa trống cho cuốn sách).
+chữ, giữa tranh trống hẳn, không vẽ sách).
 
 ## Tranh cần vẽ trên máy nhà
 
