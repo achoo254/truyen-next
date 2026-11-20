@@ -1,3 +1,4 @@
+import path from 'node:path';
 import { describe, expect, it } from 'vitest';
 import type { StoryListEntry } from '@truyen/story';
 import { loadStories } from '../../scripts/story-files.ts';
@@ -20,6 +21,6 @@ describe('story files on the site', () => {
     const pilot = stories.find(({ slug }) => slug === 'son-tinh-thuy-tinh');
     if (!pilot) throw new Error('no pilot story');
     const withMusic = { ...pilot, story: { ...pilot.story, music: { ...pilot.story.music, file: 'media/music.m4a' } } };
-    expect(storySiteFiles([withMusic]).get('stories/son-tinh-thuy-tinh/media/music.m4a')).toEqual({ file: `${pilot.dir}/media/music.m4a` });
+    expect(storySiteFiles([withMusic]).get('stories/son-tinh-thuy-tinh/media/music.m4a')).toEqual({ file: path.join(pilot.dir, 'media', 'music.m4a') });
   });
 });

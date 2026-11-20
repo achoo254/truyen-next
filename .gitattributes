@@ -4,3 +4,7 @@
 *.ico binary
 *.mp4 binary
 *.m4a binary
+
+# SVG sources are hashed to detect icon changes: always LF, whatever core.autocrlf says (Windows checkouts otherwise differ).
+*.svg text eol=lf
+*.avif binary
