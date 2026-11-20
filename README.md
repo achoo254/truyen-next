@@ -1,6 +1,6 @@
 # Truyện
 
-> **Ngừng phát triển (20/11/2026).** App Truyện đã được gỡ khỏi `truyen.hoandat.com`; repo này chỉ còn để lưu trữ (Archived, chỉ đọc). Phần chữ của các truyện do AI viết lại từ nguồn thuộc phạm vi công cộng nên có thể khác bản gốc và không nên coi là bản chính thức. Mã nguồn theo giấy phép MIT; nội dung AI không thuộc giấy phép đó ([`CREDITS.md`](CREDITS.md)).
+> **Dừng vận hành (20/11/2026).** `truyen.hoandat.com` đã được gỡ và tác giả không phát triển tiếp; mã nguồn vẫn mở để ai muốn thì fork hoặc pull về phát triển tiếp (tự dựng máy chủ, database và tên miền; phần deploy cũ đã bỏ). Phần chữ của các truyện do AI viết lại từ nguồn thuộc phạm vi công cộng nên có thể khác bản gốc và không nên coi là bản chính thức. Mã nguồn theo giấy phép MIT; nội dung AI không thuộc giấy phép đó ([`CREDITS.md`](CREDITS.md)).
 
 Truyện cổ Việt Nam xem từng cảnh: tranh, cảnh động, giọng kể, nhạc nền và phụ đề luôn hiện. Hai kệ trong cùng một
 app: **Trẻ em** (Mèo Miu dẫn chuyện, kể nhẹ nhàng cho trẻ nhỏ) và **Người lớn** (truyền thuyết, truyền kỳ, sự tích kể
