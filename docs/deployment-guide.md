@@ -1,5 +1,7 @@
 # Triển khai Truyện (`truyen.hoandat.com`)
 
+> **Đã gỡ (20/11/2026).** Site, server, database và workflow deploy không còn; tài liệu này chỉ lưu lại cách app từng được triển khai.
+
 Runbook deploy của repo này. Quy tắc chung của hệ sinh thái (tên, brand, box `.65` dùng chung):
 `docs/ecosystem-architecture.md` của workspace `hoandat-app`. Repo public: không ghi IP, cổng SSH hay user máy chủ
 vào đây; dùng alias SSH (`SSH_TARGET`) và placeholder như `<SERVER_65_IP>`, `<SSH_PORT>`.

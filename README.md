@@ -1,5 +1,7 @@
 # Truyện
 
+> **Ngừng phát triển (20/11/2026).** App Truyện đã được gỡ khỏi `truyen.hoandat.com`; repo này chỉ còn để lưu trữ (Archived, chỉ đọc). Phần chữ của các truyện do AI viết lại từ nguồn thuộc phạm vi công cộng nên có thể khác bản gốc và không nên coi là bản chính thức. Mã nguồn theo giấy phép MIT; nội dung AI không thuộc giấy phép đó ([`CREDITS.md`](CREDITS.md)).
+
 Truyện cổ Việt Nam xem từng cảnh: tranh, cảnh động, giọng kể, nhạc nền và phụ đề luôn hiện. Hai kệ trong cùng một
 app: **Trẻ em** (Mèo Miu dẫn chuyện, kể nhẹ nhàng cho trẻ nhỏ) và **Người lớn** (truyền thuyết, truyền kỳ, sự tích kể
 đầy đủ, theo sát truyện xưa). Đọc không cần đăng nhập; đăng nhập bằng tài khoản hoandat.com (trên web) để có **Tủ
@@ -92,7 +94,7 @@ App iPhone: `pnpm mobile:build`, phát hành TestFlight `pnpm mobile:ios-release
 Phục vụ production: `apps/web/dist` là file tĩnh; `/api/`, `/auth/` qua nginx sang `truyen-server` (loopback 5300). Bản build render sẵn HTML cho `/`, `/tre-em`, `/nguoi-lon` và từng
 `/truyen/<slug>` (tiêu đề, mô tả, danh sách truyện, JSON-LD; `apps/web/vite-prerender.ts`); mọi đường dẫn khác nhận
 `spa.html`. Production: `https://truyen.hoandat.com` trên máy chủ chung, đang chạy nhưng chưa
-quảng bá (không cho máy tìm kiếm lập chỉ mục). **Mỗi push lên `main` có CI xanh là tự deploy** (GitHub Actions, user
+quảng bá (không cho máy tìm kiếm lập chỉ mục). **Trước đây mỗi push lên `main` có CI xanh là tự deploy; đã tắt khi app được gỡ (20/11/2026)** (GitHub Actions, user
 hạn chế `truyen-deploy`); deploy tay, rollback và cách ra mắt: [`docs/deployment-guide.md`](docs/deployment-guide.md).
 
 ## Làm tranh, giọng kể, nhạc
